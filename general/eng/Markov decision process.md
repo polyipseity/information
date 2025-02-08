@@ -61,7 +61,7 @@ In this example, we have
 - $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 - $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2025-02-28,64,312!2025-02-22,59,312-->
 - $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2025-02-22,59,312!2025-03-04,67,312-->
-- $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2025-02-08,44,292!2025-02-21,58,310-->
+- $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2025-08-06,179,312!2025-02-21,58,310-->
 
 ## algorithms
 

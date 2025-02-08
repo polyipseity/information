@@ -11,7 +11,7 @@ tags:
 
 - "Uncountable" redirects here. For {@{the linguistic concept}@}, see {@{[Uncountable noun](mass%20noun.md)}@}. <!--SR:!2025-02-23,47,290!2025-02-18,43,290-->
 
-In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2025-05-12,101,290!2025-03-04,54,310!2025-03-19,67,310!2025-02-08,33,270-->
+In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2025-05-12,101,290!2025-03-04,54,310!2025-03-19,67,310!2025-05-08,89,270-->
 
 ## characterizations
 

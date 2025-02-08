@@ -31,7 +31,7 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-02-12,66,310-
 - looking direction ::@:: If you look up, it seems like you are recalling something from your memory. If you look down, it seems like you are feeling something. When presenting, avoid both of these, and look at the audience directly. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - hand gesture ::@:: Somewhat arbitrary. It does not need to have any specific meaning, but it should sync with your speech. Another thing is that your hand gesture should vary naturally. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
-  - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic. <!--SR:!2025-02-08,63,310!2025-02-13,67,310-->
+  - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic. <!--SR:!2025-11-05,270,330!2025-02-13,67,310-->
   - hand gesture / bouncing ::@:: Do not bounce your hand gesture! Changing your hand gesture continuously without stopping also makes you look nervous. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer. <!--SR:!2025-02-13,67,310!2025-10-20,258,330-->
@@ -51,6 +51,6 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-02-12,66,310-
 
 You will present well if {@{you have a good attitude towards your presentation}@}. <!--SR:!2025-10-10,250,330-->
 
-- feeling ::@:: Try to feel like you were Obama presenting something. <!--SR:!2025-02-08,63,310!2025-09-20,233,330-->
+- feeling ::@:: Try to feel like you were Obama presenting something. <!--SR:!2025-11-04,269,330!2025-09-20,233,330-->
 - belief ::@:: Authentically believe in what you are saying. <!--SR:!2025-02-13,67,310!2025-07-24,173,310-->
 - objective ::@:: Intend to contribute, not to convince or impress. Focus out. Become congruent. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->

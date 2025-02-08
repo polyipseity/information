@@ -178,7 +178,7 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
   - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2025-04-12,207,270!2025-03-30,239,330-->
-  - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2026-06-18,554,310!2025-02-08,187,310-->
+  - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2026-06-18,554,310!2027-04-21,802,330-->
 
 ## page 10
 
@@ -336,7 +336,7 @@ Air Quality Health Index
 
 FORECAST of Health Risk
 
-- AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2025-02-08,184,310!2025-05-12,271,330-->
+- AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2027-04-07,788,330!2025-05-12,271,330-->
   - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2026-01-07,385,270!2025-04-06,246,330-->
 
 ## page 29

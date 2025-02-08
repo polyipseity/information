@@ -76,7 +76,7 @@ The content is in teaching order.
   - torque intuition ::@:: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2025-05-09,276,350!2025-07-17,331,350-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2025-06-18,308,350!2025-06-02,294,350-->
-  - torque conventions ::@:: __counterclockwise positive__, clockwise negative <!--SR:!2025-02-08,202,330!2025-05-19,280,341-->
+  - torque conventions ::@:: __counterclockwise positive__, clockwise negative <!--SR:!2027-08-15,918,350!2025-05-19,280,341-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2025-12-09,388,310!2025-03-05,221,330-->
 - [bending](../../../../general/bending.md)
@@ -128,7 +128,7 @@ The content is in teaching order.
   - [§ exterior structures](../../../../general/structural%20system.md#exterior%20structures)
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
-- wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2025-02-15,203,330!2025-02-08,200,330-->
+- wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2025-02-15,203,330!2026-11-30,660,330-->
   - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2025-09-04,370,350-->
   - wall-frame economic limit ::@:: up to about 50 stories <!--SR:!2025-07-29,340,350!2025-02-12,205,330-->
 - framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2025-03-16,216,330-->

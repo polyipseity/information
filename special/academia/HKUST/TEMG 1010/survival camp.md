@@ -10,7 +10,7 @@ tags:
 
 - HKUST TEMG 1010
 - datetime: 2024-11-15T18:00:00+08:00/2024-11-17T18:00:00+08:00, PT2D
-- topic ::@:: leadership <!--SR:!2025-02-08,63,310!2025-02-13,67,310-->
+- topic ::@:: leadership <!--SR:!2025-11-05,270,330!2025-02-13,67,310-->
 - venue: Sai Wan Beach, Sai Kung (22.397184500616234, 114.3714295354873)
 
 So many tiring and wet activities... While some of them were fun, I would have more fun doing my own things. But whatever, it did kind of teach conversational skills and leadership.
@@ -44,8 +44,8 @@ We went over some leadership theory and did some group activities, basically.
   - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2025-10-15,254,330!2025-10-24,261,330-->
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2025-09-29,241,330!2025-07-28,177,310-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
-- [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-02-08,63,310!2025-10-19,257,330-->
-- [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2025-05-28,128,290!2025-02-08,63,310-->
+- [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-11-07,272,330!2025-10-19,257,330-->
+- [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2025-05-28,128,290!2025-11-06,271,330-->
 - [situational leadership theory](../../../../general/situational%20leadership%20theory.md) — Hersey and Blanchard ::@:: supporting, coaching, delegating, directing <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - personality types: 4 birds ::@:: dove, peacock, owl, eagle <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - <https://richardstep.com/dope-personality-type-quiz/dope-bird-4-personality-types-test-questions-online-version/>

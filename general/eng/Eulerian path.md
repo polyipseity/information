@@ -35,7 +35,7 @@ Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the ex
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-16,67,316!2025-03-06,83,342!2025-03-06,83,342!2025-02-28,77,342!2025-03-01,78,342-->
 
-For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2025-02-26,75,330!2025-03-01,78,342!2025-07-30,175,322!2025-03-01,78,342!2025-03-04,81,342!2025-02-08,57,322!2025-03-06,83,342!2025-02-18,69,316!2025-02-17,68,316-->
+For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2025-02-26,75,330!2025-03-01,78,342!2025-07-30,175,322!2025-03-01,78,342!2025-03-04,81,342!2025-10-21,255,342!2025-03-06,83,342!2025-02-18,69,316!2025-02-17,68,316-->
 
 ## definition
 
@@ -47,7 +47,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 
 {@{The definition and properties of Eulerian trails, cycles and graphs}@} are {@{valid for [multigraphs](multigraph.md)}@} as well. <!--SR:!2025-02-26,75,330!2025-02-18,69,316-->
 
-{@{An __Eulerian orientation__}@} of {@{an undirected graph _G_ is an assignment of a direction to each edge of _G_}@} such that, {@{at each vertex _v_, the [indegree](directed%20graph.md#indegree%20and%20outdegree) of _v_ equals the [outdegree](directed%20graph.md#indegree%20and%20outdegree) of _v_}@}. {@{Such an orientation exists}@} for {@{any undirected graph in which every vertex has even degree}@}, and may be found by {@{constructing an Euler tour in each connected component of _G_ and then orienting the edges according to the tour}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Every Eulerian orientation of a connected graph}@} is {@{a [strong orientation](strong%20orientation.md), an orientation that makes the resulting directed graph [strongly connected](strongly%20connected%20component.md)}@}. <!--SR:!2025-02-27,76,330!2025-03-03,80,342!2025-03-03,80,342!2025-03-04,81,342!2025-02-16,67,316!2025-02-08,57,322!2025-02-11,60,322!2025-03-03,80,342-->
+{@{An __Eulerian orientation__}@} of {@{an undirected graph _G_ is an assignment of a direction to each edge of _G_}@} such that, {@{at each vertex _v_, the [indegree](directed%20graph.md#indegree%20and%20outdegree) of _v_ equals the [outdegree](directed%20graph.md#indegree%20and%20outdegree) of _v_}@}. {@{Such an orientation exists}@} for {@{any undirected graph in which every vertex has even degree}@}, and may be found by {@{constructing an Euler tour in each connected component of _G_ and then orienting the edges according to the tour}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Every Eulerian orientation of a connected graph}@} is {@{a [strong orientation](strong%20orientation.md), an orientation that makes the resulting directed graph [strongly connected](strongly%20connected%20component.md)}@}. <!--SR:!2025-02-27,76,330!2025-03-03,80,342!2025-03-03,80,342!2025-03-04,81,342!2025-02-16,67,316!2025-08-12,185,322!2025-02-11,60,322!2025-03-03,80,342-->
 
 ## properties
 
@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-02-18,69,316!2025-03-02,79,342!2025-02-10,59,322!2025-03-05,82,342!2025-09-27,234,342!2025-02-23,74,342!2025-03-06,83,342!2025-02-08,57,322!2025-09-20,227,330!2025-02-21,72,342!2025-03-02,79,342-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-02-18,69,316!2025-03-02,79,342!2025-02-10,59,322!2025-03-05,82,342!2025-09-27,234,342!2025-02-23,74,342!2025-03-06,83,342!2025-10-22,256,342!2025-09-20,227,330!2025-02-21,72,342!2025-03-02,79,342-->
 
 ### Fleury's algorithm
 
@@ -94,7 +94,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 >
 > <!-- - [v](https://en.wikipedia.org/wiki/Template:Hamiltonian%20platonic%20graphs.svg) -->
 > <!-- - [t](https://en.wikipedia.org/wiki/Template_talk:Hamiltonian%20platonic%20graphs.svg) -->
-> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2025-02-15,56,282!2025-02-08,57,322!2025-02-18,69,316!2025-04-30,109,302!2025-02-28,77,342-->
+> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2025-02-15,56,282!2025-08-13,186,322!2025-02-18,69,316!2025-04-30,109,302!2025-02-28,77,342-->
 
 ## counting Eulerian circuits
 
@@ -104,7 +104,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 
 {@{BEST theorem is first stated in this form}@} in {@{a "note added in proof"}@} to {@{the Aardenne-Ehrenfest and de Bruijn paper \(1951\)}@}. The original proof was {@{[bijective](bijective%20proof.md) and generalized the [de Bruijn sequences](de%20Bruijn%20sequence.md)}@}. It is {@{a variation on an earlier result by Smith and Tutte \(1941\)}@}. <!--SR:!2025-03-05,82,342!2025-03-06,83,342!2025-04-28,107,302!2025-02-18,69,316!2025-02-25,23,262-->
 
-{@{Counting the number of Eulerian circuits on _undirected_ graphs}@} is {@{much more difficult}@}. This problem is {@{known to be [\#P-complete](%23P-complete.md)}@}.<sup>[\[10\]](#^ref-10)</sup> In {@{a positive direction}@}, {@{a [Markov chain Monte Carlo](Markov%20chain%20Monte%20Carlo.md) approach}@}, via {@{the _Kotzig transformations_}@} \(introduced by {@{[Anton Kotzig](Anton%20Kotzig.md) in 1968}@}\) is {@{believed to give a sharp approximation for the number of Eulerian circuits in a graph}@}, though {@{as yet there is no proof of this fact \(even for graphs of bounded degree\)}@}. <!--SR:!2025-03-04,81,342!2025-03-04,81,342!2025-03-03,80,342!2025-02-28,77,342!2025-04-30,115,296!2025-09-26,232,330!2025-03-03,68,282!2025-02-08,57,322!2025-03-04,81,342-->
+{@{Counting the number of Eulerian circuits on _undirected_ graphs}@} is {@{much more difficult}@}. This problem is {@{known to be [\#P-complete](%23P-complete.md)}@}.<sup>[\[10\]](#^ref-10)</sup> In {@{a positive direction}@}, {@{a [Markov chain Monte Carlo](Markov%20chain%20Monte%20Carlo.md) approach}@}, via {@{the _Kotzig transformations_}@} \(introduced by {@{[Anton Kotzig](Anton%20Kotzig.md) in 1968}@}\) is {@{believed to give a sharp approximation for the number of Eulerian circuits in a graph}@}, though {@{as yet there is no proof of this fact \(even for graphs of bounded degree\)}@}. <!--SR:!2025-03-04,81,342!2025-03-04,81,342!2025-03-03,80,342!2025-02-28,77,342!2025-04-30,115,296!2025-09-26,232,330!2025-03-03,68,282!2025-10-25,259,342!2025-03-04,81,342-->
 
 ### special cases
 
@@ -177,7 +177,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 - [five room puzzle](five-room%20puzzle.md)
 - [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2025-09-21,228,330!2025-02-16,67,310-->
 - [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2025-02-21,72,342!2025-02-27,76,342-->
-- [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2025-02-08,57,322!2025-03-03,80,342-->
+- [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2025-10-24,258,342!2025-03-03,80,342-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2025-03-06,83,342!2025-07-22,167,310-->
 
 ## notes

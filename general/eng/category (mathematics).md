@@ -171,7 +171,7 @@ A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2025-03-25,6
 
 {@{Every retraction is an epimorphism (annotation: $h_1 \circ f = h_2 \circ f \implies h_1 \circ (f \circ g) = h_2 \circ (f \circ g) \implies h_1 = h_2$)}@}. {@{Every section is a monomorphism (annotation: $f \circ h_1 = f \circ h_2 \implies (g \circ f) \circ h_1 = (g \circ f) \circ h_2 \implies h_1 = h_2$)}@}. The following three statements are equivalent: (annotation: the statements are equivalent to {@{isomorphism}@}) <!--SR:!2025-03-05,42,290!2025-03-26,63,310!2025-03-27,63,310-->
 
-- (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!2025-02-08,26,270!2025-02-21,32,270-->
+- (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!2025-05-16,97,290!2025-02-21,32,270-->
 - (annotation: isomorphism & section) ::@:: _f_ is an epimorphism and a section; (annotation: we just need to additionally prove that $f \circ g = 1_b$: $g \circ f = 1_a \implies (f \circ g) \circ f = 1_b \circ f \implies f \circ g = 1_b$) <!--SR:!2025-03-31,67,310!2025-03-01,39,290-->
 - (annotation: isomorphism) ::@:: _f_ is an isomorphism. <!--SR:!2025-03-26,63,310!2025-03-19,57,310-->
 

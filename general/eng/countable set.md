@@ -19,7 +19,7 @@ The concept is attributed to {@{[Georg Cantor](Georg%20Cantor.md)}@}, who {@{pro
 
 ## a note on terminology
 
-Although {@{the terms "countable" and "countably infinite" as defined here are quite common}@}, {@{the terminology is not universal}@}.<sup>[\[1\]](#^ref-1)</sup> An alternative style {@{uses _countable_ to mean what is here called countably infinite}@}, and {@{_at most countable_ to mean what is here called countable}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-19,67,310!2025-02-22,47,290!2025-02-13,39,290!2025-02-08,33,270-->
+Although {@{the terms "countable" and "countably infinite" as defined here are quite common}@}, {@{the terminology is not universal}@}.<sup>[\[1\]](#^ref-1)</sup> An alternative style {@{uses _countable_ to mean what is here called countably infinite}@}, and {@{_at most countable_ to mean what is here called countable}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-19,67,310!2025-02-22,47,290!2025-02-13,39,290!2025-06-13,125,290-->
 
 {@{The terms _enumerable_<sup>[\[4\]](#^ref-4)</sup> and __denumerable__}@}<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> may {@{also be used, e.g. referring to countable and countably infinite respectively}@},<sup>[\[7\]](#^ref-7)</sup> {@{definitions vary}@} and care is needed respecting {@{the difference with [recursively enumerable](recursively%20enumerable%20language.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-02-27,47,290!2025-06-01,114,290!2025-03-05,55,310!2025-02-28,48,290-->
 
@@ -74,7 +74,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 > {@{![The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers](../../archives/Wikimedia%20Commons/Pairing%20natural.svg)}@}
 >
-> {@{The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers}@} <!--SR:!2025-02-08,32,270!2025-05-28,114,290-->
+> {@{The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers}@} <!--SR:!2025-06-10,122,290!2025-05-28,114,290-->
 
 {@{The resulting [mapping](map%20(mathematics).md)}@} proceeds as follows: {@{$$0\leftrightarrow (0,0),1\leftrightarrow (1,0),2\leftrightarrow (0,1),3\leftrightarrow (2,0),4\leftrightarrow (1,1),5\leftrightarrow (0,2),6\leftrightarrow (3,0),\ldots$$}@} This mapping {@{covers all such ordered pairs}@}. <!--SR:!2025-03-14,63,310!2025-03-12,61,310!2025-03-05,55,310-->
 
@@ -149,7 +149,7 @@ Countable sets can be {@{[totally ordered](total%20order.md) in various ways}@},
   - The usual order of {@{integers}@} \(..., −3, −2, −1, 0, 1, 2, 3, ...\)
   - The usual order of {@{rational numbers}@} \({@{Cannot be explicitly written as an ordered list!}@}\) <!--SR:!2025-03-17,65,310!2025-03-16,64,310!2025-03-18,66,310!2025-03-13,62,310!2025-03-18,66,310!2025-03-10,59,310!2025-03-16,64,310-->
 
-In {@{both examples of well orders here}@}, {@{any subset has a _least element_}@}; and in {@{both examples of non-well orders}@}, {@{_some_ subsets do not have a _least element_}@}. This is {@{the key definition that determines whether a total order is also a well order}@}. <!--SR:!2025-02-08,33,270!2025-03-12,61,310!2025-03-04,54,310!2025-04-06,73,270!2025-03-12,61,310-->
+In {@{both examples of well orders here}@}, {@{any subset has a _least element_}@}; and in {@{both examples of non-well orders}@}, {@{_some_ subsets do not have a _least element_}@}. This is {@{the key definition that determines whether a total order is also a well order}@}. <!--SR:!2025-06-14,126,290!2025-03-12,61,310!2025-03-04,54,310!2025-04-06,73,270!2025-03-12,61,310-->
 
 ## see also
 

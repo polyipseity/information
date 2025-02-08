@@ -50,7 +50,7 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ## diluted earnings per share
 
-{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-24,61,310!2025-03-16,54,310!2025-03-30,66,310!2025-03-09,45,290!2025-02-08,26,270-->
+{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-24,61,310!2025-03-16,54,310!2025-03-30,66,310!2025-03-09,45,290!2025-04-21,72,270-->
 
 ### calculations
 

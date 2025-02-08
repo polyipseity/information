@@ -15,11 +15,11 @@ tags:
 
 ## effect on supply curve
 
-Any tax will {@{raise cost of production hence shift the supply curve to the left}@}. In {@{the case of specific tax}@}, the shift will be {@{purely parallel because the amount of tax is the same at all prices}@}. That amount is illustrated in {@{the distance between the supply curve with taxation and the one without taxation}@}. Specific tax are {@{indirect tax}@}. This will {@{raise the supply curve vertically by the amount of the tax}@}, and new curve will {@{be parallel to the original curve}@}. <!--SR:!2025-11-20,286,330!2025-10-29,268,330!2025-11-19,285,330!2025-02-08,67,310!2025-10-12,254,330!2025-10-11,254,330!2025-10-09,254,330-->
+Any tax will {@{raise cost of production hence shift the supply curve to the left}@}. In {@{the case of specific tax}@}, the shift will be {@{purely parallel because the amount of tax is the same at all prices}@}. That amount is illustrated in {@{the distance between the supply curve with taxation and the one without taxation}@}. Specific tax are {@{indirect tax}@}. This will {@{raise the supply curve vertically by the amount of the tax}@}, and new curve will {@{be parallel to the original curve}@}. <!--SR:!2025-11-20,286,330!2025-10-29,268,330!2025-11-19,285,330!2025-11-28,293,330!2025-10-12,254,330!2025-10-11,254,330!2025-10-09,254,330-->
 
 ## tobacco taxation
 
-The term specific tax is {@{mostly connected to tobacco taxation}@}. Using specific taxes has proved to be {@{one of the most effective ways to reduce consumption}@}, whereas {@{ad valorem tax which is based on a per cent of product value may lead to substitution to cheaper brands}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-08,67,310!2025-06-28,167,310!2025-07-24,176,310-->
+The term specific tax is {@{mostly connected to tobacco taxation}@}. Using specific taxes has proved to be {@{one of the most effective ways to reduce consumption}@}, whereas {@{ad valorem tax which is based on a per cent of product value may lead to substitution to cheaper brands}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-11-27,292,330!2025-06-28,167,310!2025-07-24,176,310-->
 
 ## references
 
