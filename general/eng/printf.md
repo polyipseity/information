@@ -158,7 +158,7 @@ An integer or {@{`*` specifying the minimum width}@}. The result is {@{padded wi
 
 ### precision
 
-An integer or {@{`*` specifying the precision, the meaning of which depends on the [type](#type)}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}@}. <!--SR:!2025-05-07,412,297!2025-02-09,228,229-->
+An integer or {@{`*` specifying the precision, the meaning of which depends on the [type](#type)}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}@}. <!--SR:!2025-05-07,412,297!2026-07-15,521,229-->
 
 ### length
 

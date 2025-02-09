@@ -205,7 +205,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::@:: skyscraper in Chicago, Illinois <!--SR:!2025-04-12,235,295!2025-08-03,376,387-->
-- height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2025-02-09,115,197!2027-02-12,759,330-->
+- height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2025-09-19,222,197!2027-02-12,759,330-->
 - image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
 - [structural system](../../../../general/structural%20system.md) ::@:: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
 

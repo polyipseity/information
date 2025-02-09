@@ -197,7 +197,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`NOT(boolean)` <!--SR:!2028-04-04,1183,350!2025-03-01,304,330-->
-- `NOT(boolean)`→::@::←`AND(booleans...)` <!--SR:!2026-06-10,643,330!2025-02-09,285,330-->
+- `NOT(boolean)`→::@::←`AND(booleans...)` <!--SR:!2026-06-10,643,330!2028-08-28,1296,350-->
 - `AND(booleans...)`→::@::←`OR(booleans...)` <!--SR:!2027-12-02,1087,350!2026-09-20,720,330-->
 - `OR(booleans...)`→::@::←_(end)_ <!--SR:!2027-12-23,1101,350!2027-07-11,898,330-->
 

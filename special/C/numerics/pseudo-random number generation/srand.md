@@ -17,4 +17,4 @@ void srand(unsigned seed);
 
 > [!tip] tips
 >
-> - seed source ::@:: standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md) <!--SR:!2028-05-10,1269,356!2025-02-09,257,346-->
+> - seed source ::@:: standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md) <!--SR:!2028-05-10,1269,356!2028-06-15,1222,366-->

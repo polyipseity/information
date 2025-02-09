@@ -22,9 +22,9 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 {@{Three basic properties of equilibrium in general}@} have been proposed by [Huw Dixon](Huw%20Dixon.md).<sup>[\[2\]](#^ref-2)</sup> These are: <!--SR:!2025-06-13,161,325-->
 
-- Equilibrium property P1: ::@:: The behavior of agents is consistent. <!--SR:!2025-02-09,69,325!2025-09-26,244,330-->
+- Equilibrium property P1: ::@:: The behavior of agents is consistent. <!--SR:!2025-12-14,308,345!2025-09-26,244,330-->
 - Equilibrium property P2: ::@:: No agent has an incentive to change its behavior. <!--SR:!2025-02-15,74,325!2025-08-19,209,325-->
-- Equilibrium property P3: ::@:: Equilibrium is the outcome of some dynamic process (stability). <!--SR:!2025-02-09,69,325!2025-10-03,250,330-->
+- Equilibrium property P3: ::@:: Equilibrium is the outcome of some dynamic process (stability). <!--SR:!2025-12-18,312,345!2025-10-03,250,330-->
 
 ### example: competitive equilibrium
 
@@ -48,7 +48,7 @@ In {@{most simple microeconomic stories of supply and demand}@} {@{a __static eq
 
 ### example: monopolist equilibrium
 
-In {@{a monopoly}@}, {@{marginal revenue (MR) equals marginal cost (MC)}@}. {@{The equilibrium quantity}@} is obtained from where {@{MR and MC intersect and the equilibrium price can be found on the demand curve where MR = MC}@}. Property P1 is {@{not satisfied because the amount demand and the amount supplied at the equilibrium price are not equal}@}. Property P2 is {@{not satisfied. Because the monopolist's profit-maximizing quantity is different from the socially-maximizing quantity, consumers have an incentive to demand more at the equilibrium price}@}. However, {@{at the market price, monopolists maximize their profits so they have no incentive to change their price}@}. Therefore, {@{agents on the demand side have an incentive to alter their actions}@} while {@{the agents on the supply side do not have any incentive to alter their actions}@}. <!--SR:!2025-11-24,294,345!2025-10-13,256,330!2025-11-05,278,345!2025-02-12,71,325!2025-08-10,191,310!2025-03-25,88,270!2025-06-01,151,310!2025-02-16,75,325!2025-02-09,69,325-->
+In {@{a monopoly}@}, {@{marginal revenue (MR) equals marginal cost (MC)}@}. {@{The equilibrium quantity}@} is obtained from where {@{MR and MC intersect and the equilibrium price can be found on the demand curve where MR = MC}@}. Property P1 is {@{not satisfied because the amount demand and the amount supplied at the equilibrium price are not equal}@}. Property P2 is {@{not satisfied. Because the monopolist's profit-maximizing quantity is different from the socially-maximizing quantity, consumers have an incentive to demand more at the equilibrium price}@}. However, {@{at the market price, monopolists maximize their profits so they have no incentive to change their price}@}. Therefore, {@{agents on the demand side have an incentive to alter their actions}@} while {@{the agents on the supply side do not have any incentive to alter their actions}@}. <!--SR:!2025-11-24,294,345!2025-10-13,256,330!2025-11-05,278,345!2025-02-12,71,325!2025-08-10,191,310!2025-03-25,88,270!2025-06-01,151,310!2025-02-16,75,325!2025-12-15,309,345-->
 
 In order to {@{determine if Property P3 is satisfied}@}, {@{the same situations used to determine P3 in a competitive equilibrium}@} can be used. When {@{there is an excess in supply}@}, monopolists will {@{realize that the equilibrium is not at the profit-maximizing quantity}@} and will {@{put upward pressure on the price to make it return to equilibrium}@}. This is the same case when {@{the price is above the equilibrium and the shortage in supply}@} leads the monopolist to {@{decrease the supply to return to the profit-maximizing quantity}@}. Therefore {@{the equilibrium is the result of stability}@}. <!--SR:!2025-02-12,71,325!2025-02-11,70,325!2025-11-27,293,330!2025-07-06,179,325!2025-02-11,70,325!2025-02-15,74,325!2025-02-16,75,325!2025-02-16,75,325-->
 
@@ -92,7 +92,7 @@ $${\begin{alignedat}{2}Q_{s}&=125+1.5\cdot P\\Q_{d}&=189-2.25\cdot P\\\\Q_{s}&=Q
 
 In the diagram, depicting {@{simple set of supply and demand curves}@}, {@{the quantity demanded and supplied at price __P__}@} are equal. <!--SR:!2025-10-26,268,330!2025-02-16,75,325-->
 
-{@{At any price above __P__ supply exceeds demand}@}, while {@{at a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}. <!--SR:!2025-11-27,293,330!2025-02-09,69,325!2025-11-24,294,345!2025-02-16,75,325!2025-02-14,73,325!2025-02-15,74,325!2025-02-13,72,325-->
+{@{At any price above __P__ supply exceeds demand}@}, while {@{at a price below __P__ the quantity demanded exceeds that supplied}@}. In other words, {@{prices where demand and supply are out of balance}@} are termed {@{points of disequilibrium, creating shortages and oversupply}@}. Changes in {@{the conditions of demand or supply}@} will {@{shift the demand or supply curves}@}. This will {@{cause changes in the equilibrium price and quantity in the market}@}. <!--SR:!2025-11-27,293,330!2025-12-17,311,345!2025-11-24,294,345!2025-02-16,75,325!2025-02-14,73,325!2025-02-15,74,325!2025-02-13,72,325-->
 
 Consider the following demand and supply schedule:
 
@@ -115,7 +115,7 @@ Consider the following demand and supply schedule:
 
 When {@{there is a shortage in the market}@} we see that, to {@{correct this disequilibrium, the price of the good will be increased back to a price of \$5.00}@}, thus {@{lessening the quantity demanded and increasing the quantity supplied thus that the market is in balance}@}. <!--SR:!2025-02-12,71,325!2025-02-14,73,325!2025-06-28,156,305-->
 
-When {@{there is an oversupply of a good}@}, such as when price is above \$6.00, then we see that {@{producers will decrease the price to increase the quantity demanded for the good}@}, thus {@{eliminating the excess and taking the market back to equilibrium}@}. <!--SR:!2025-02-09,69,325!2025-02-15,74,325!2025-06-01,151,310-->
+When {@{there is an oversupply of a good}@}, such as when price is above \$6.00, then we see that {@{producers will decrease the price to increase the quantity demanded for the good}@}, thus {@{eliminating the excess and taking the market back to equilibrium}@}. <!--SR:!2025-12-16,310,345!2025-02-15,74,325!2025-06-01,151,310-->
 
 ### influences changing price
 

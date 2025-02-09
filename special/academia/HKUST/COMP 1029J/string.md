@@ -28,7 +28,7 @@ assert Math.abs(aDouble - 3.14) < 1e-15;
 
 ## indexing
 
-To get the a `char` in a `String`, use {@{`charAt(idx)`, where `idx` is the 0-based index of the character}@}: <!--SR:!2025-02-09,286,330-->
+To get the a `char` in a `String`, use {@{`charAt(idx)`, where `idx` is the 0-based index of the character}@}: <!--SR:!2028-09-02,1301,350-->
 
 ```Java
 char aChar = "abcdefg".charAt(3);

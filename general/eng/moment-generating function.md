@@ -91,7 +91,7 @@ For {@{[vector-valued random variables](random%20vector.md) $\mathbf {X}$ with [
 
 ## important properties
 
-Moment generating functions are {@{positive and [log-convex](logarithmically%20convex%20function.md),<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> with _M_\(0\) = 1}@}. <!--SR:!2025-02-09,18,250-->
+Moment generating functions are {@{positive and [log-convex](logarithmically%20convex%20function.md),<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> with _M_\(0\) = 1}@}. <!--SR:!2025-03-24,43,250-->
 
 {@{An important property of the moment-generating function}@} is that {@{it uniquely determines the distribution}@}. In other words, if {@{$X$ and $Y$ are two random variables and for all values of _t_, $$M_{X}(t)=M_{Y}(t),\,$$}@} then {@{$$F_{X}(x)=F_{Y}(x)\,$$ for all values of _x_ \(or equivalently _X_ and _Y_ have the same distribution\)}@}. This statement is {@{not equivalent to the statement "if two distributions have the same moments, then they are identical at all points."}@} This is because {@{in some cases, the moments exist and yet the moment-generating function does not}@}, because {@{the limit $$\lim _{n\rightarrow \infty }\sum _{i=0}^{n}{\frac {t^{i}m_{i} }{i!} }$$ may not exist}@}. {@{The [log-normal distribution](log-normal%20distribution.md)}@} is {@{an example of when this occurs}@}. <!--SR:!2025-04-04,63,310!2025-04-06,64,310!2025-03-29,58,310!2025-04-08,66,310!2025-04-04,63,310!2025-03-11,40,290!2025-04-06,64,310!2025-04-09,67,310!2025-03-21,48,290-->
 

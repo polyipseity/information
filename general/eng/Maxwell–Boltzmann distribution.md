@@ -29,7 +29,7 @@ tags:
 
 ## typical speeds
 
-- average speed $\langle v \rangle$ ::@:: $\langle v \rangle = \frac2{\sqrt\pi}v_p = \sqrt{\frac{8kT}{\pi{}m} } = \sqrt{\frac{8RT}{\pi{}M} } \left( \text{evaluate } \int_0^\infty v f(v) \,\mathrm{d}v \right)$ <!--SR:!2025-03-20,82,250!2025-02-09,117,270-->
+- average speed $\langle v \rangle$ ::@:: $\langle v \rangle = \frac2{\sqrt\pi}v_p = \sqrt{\frac{8kT}{\pi{}m} } = \sqrt{\frac{8RT}{\pi{}M} } \left( \text{evaluate } \int_0^\infty v f(v) \,\mathrm{d}v \right)$ <!--SR:!2025-03-20,82,250!2025-12-22,316,270-->
 - most probable speed $v_p$ ::@:: $v_p = \sqrt{\frac{2kT}m} = \sqrt{\frac{2RT}M} \left( \text{solve for } v \text{ in } \frac{\mathrm{d}f(v)}{\mathrm{d}v} = 0 \right)$ <!--SR:!2025-05-30,359,290!2025-06-27,366,270-->
 - root-mean-square speed $v_\mathrm{rms}$ ::@:: $v_\mathrm{rms} = \sqrt{\frac32}v_p=\sqrt{\frac{3kT}m} = \sqrt{\frac{3RT}M} \left( \text{evaluate } \sqrt{\int_0^\infty v^2 f(v) \,\mathrm{d}v} \right)$ <!--SR:!2026-05-03,600,310!2025-07-25,347,270-->
 

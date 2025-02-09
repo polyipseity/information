@@ -156,7 +156,7 @@ return await memorize_seq(
 - bioremediation→::@::←catalytic oxidation <!--SR:!2026-04-21,507,335!2025-03-14,197,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2025-04-11,197,295!2026-06-16,518,335-->
 - ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2026-06-11,515,335-->
-- ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2025-11-17,413,375!2025-02-09,173,335-->
+- ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2025-11-17,413,375!2026-09-12,580,335-->
 
 <!--/pytextgen-->
 
