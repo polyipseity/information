@@ -1,0 +1,1 @@
+axial symmetry.md

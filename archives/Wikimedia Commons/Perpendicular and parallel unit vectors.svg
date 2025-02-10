@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Serif DrawPlus 11, 0, 3, 23 (Feb 25, 14:12:55) (http://www.serif.com) -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="313.089" height="242.189">
+	<g id="dp_group001" transform="matrix(1,0,0,1,-305.788,195.863)">
+		<path id="dp_path002" fill="none" fill-rule="evenodd" stroke="#ee0505" stroke-width="2.26533" d="M 306.205,45.2733 L 618.459,-78.64"/>
+		<g id="dp_group003">
+			<text id="dp_text001" transform="matrix(1,0,0,1,387.009,-162.669)" xml:space="preserve" fill="black" font-family="Arial" font-size="31" font-weight="700" x="0" y="0">e </text>
+			<text id="dp_text002" transform="matrix(1.68283,0,0,1,388.534,-178.488)" xml:space="preserve" fill="black" font-family="Arial" font-size="17" font-weight="700" x="0" y="0">^ </text>
+			<g id="dp_group006">
+				<path id="dp_path007" fill="none" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 408.264,-156.881 L 408.264,-169.316"/>
+				<path id="dp_path008" fill="none" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 402.565,-156.881 L 413.964,-156.881"/>
+			</g>
+		</g>
+		<g id="dp_group009">
+			<g id="dp_group010">
+				<path id="dp_path011" fill="black" fill-rule="evenodd" d="M 394.645,-133.177 L 396.911,-133.164 L 401.44,-133.14 L 395.839,-144.495 L 390.116,-133.201 Z "/>
+				<path id="dp_path012" fill="black" d="M 396.133,9.664 L 396.911,-133.164 L 394.647,-133.177 L 393.869,9.65067 Z "/>
+			</g>
+		</g>
+		<g id="dp_group013">
+			<g id="dp_group014">
+				<path id="dp_path015" fill="black" fill-rule="evenodd" d="M 530.692,-45.3907 L 531.524,-43.2853 L 533.189,-39.072 L 541.64,-48.5013 L 529.027,-49.604 Z "/>
+				<path id="dp_path016" fill="black" d="M 395.387,10.5387 L 531.524,-43.284 L 530.692,-45.3907 L 394.555,8.432 Z "/>
+			</g>
+		</g>
+		<path id="dp_path017" fill="none" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 394.308,-60.792 L 457.709,-83.7653 L 456.231,-14.544"/>
+		<g id="dp_group018">
+			<g id="dp_group019">
+				<path id="dp_path020" fill="none" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 543.215,-78.8373 L 543.215,-63.388"/>
+				<path id="dp_path021" fill="none" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 546.723,-78.8373 L 546.723,-63.3867"/>
+			</g>
+			<text id="dp_text003" transform="matrix(1,0,0,1,522.535,-70.8214)" xml:space="preserve" fill="black" font-family="Arial" font-size="31" font-weight="700" x="0" y="0">e </text>
+			<text id="dp_text004" transform="matrix(1.68283,0,0,1,524.061,-86.6399)" xml:space="preserve" fill="black" font-family="Arial" font-size="17" font-weight="700" x="0" y="0">^ </text>
+		</g>
+	</g>
+</svg>
