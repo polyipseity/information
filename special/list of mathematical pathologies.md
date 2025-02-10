@@ -46,7 +46,7 @@ Volterra's function is constructed {@{using increasingly smaller modified copies
 
 - see: [function (mathematics)](../general/function%20(mathematics).md)
 
-{@{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}@} called the __empty function__. <!--SR:!2025-02-10,252,330-->
+{@{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}@} called the __empty function__. <!--SR:!2028-04-02,1147,350-->
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::@:: It is continuous and not discontinuous at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). It is neither continuous nor discontinuous at every [real](../general/real%20number.md). <!--SR:!2026-12-10,713,330!2027-02-04,755,330-->
   - global continuity or discontinuity ::@:: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2027-03-15,775,343!2026-10-21,669,343-->

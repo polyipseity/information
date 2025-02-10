@@ -85,7 +85,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __undamped__
 >
-> When $\zeta = 0$, {@{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}@}. This is {@{rare in the natural world due to [dissipation](dissipation.md)}@}. <!--SR:!2028-07-21,1300,350!2025-02-10,316,343-->
+> When $\zeta = 0$, {@{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}@}. This is {@{rare in the natural world due to [dissipation](dissipation.md)}@}. <!--SR:!2028-07-21,1300,350!2029-03-11,1490,363-->
 
 <!-- markdownlint MD028 -->
 

@@ -30,6 +30,6 @@ tags:
 - close dialog::@::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
 - toggle program on taskbar::@::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2026-08-17,894,270-->
 - open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2025-07-23,205,210!2025-02-28,504,270-->
-- cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2025-02-10,434,230!2026-06-30,570,210-->
+- cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2027-11-04,997,230!2026-06-30,570,210-->
 - peek at desktop::@::⊞Win+Comma <!--SR:!2027-11-01,1058,270!2025-06-28,574,270-->
 - manage external displays::@::⊞Win+P <!--SR:!2027-08-05,1009,250!2025-09-06,519,250-->

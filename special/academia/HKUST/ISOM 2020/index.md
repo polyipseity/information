@@ -67,7 +67,7 @@ The content is in teaching order.
     - addition: string concatenation
 - week 1 lecture materials
 - week 1 practice question set: 10/10, ungraded
-  - Python becomes very popular due to the following reasons, except for... ::@:: It executes the fastest as compared to other programming languages. <!--SR:!2025-02-10,92,366!2025-02-13,95,366-->
+  - Python becomes very popular due to the following reasons, except for... ::@:: It executes the fastest as compared to other programming languages. <!--SR:!2026-05-20,464,386!2025-02-13,95,366-->
 
 ## week 2 pre-lecture
 
@@ -251,7 +251,7 @@ The content is in teaching order.
   - `=` vs `==` ::@:: Do not mix up the assignment operator and comparison operator. <!--SR:!2025-02-13,95,366!2025-02-12,94,366-->
   - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2025-02-16,98,366!2025-02-11,93,366-->
   - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2025-02-16,98,366!2025-02-11,93,366-->
-  - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2025-02-10,92,366!2025-02-22,103,380-->
+  - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2026-05-19,463,386!2025-02-22,103,380-->
   - indentation ::@:: Indentation matters in Python!!! <!--SR:!2025-02-15,97,366!2025-02-15,97,366-->
   - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2025-02-16,98,366!2025-02-15,97,366-->
 - week 7 lecture materials

@@ -35,7 +35,7 @@ An example of this would be {@{the demand for [cars](car.md) and [petrol](gasoli
 >
 > {@{[Indifference curve](indifference%20curve.md) for perfect complements}@} <!--SR:!2025-10-25,264,330!2025-11-07,276,330-->
 
-{@{A _perfect complement_}@} is {@{a good that _must_ be consumed with another good}@}. {@{The [indifference curve](indifference%20curve.md) of a perfect complement}@} {@{exhibits a right angle}@}, as illustrated by the figure.<sup>[\[6\]](#^ref-6)</sup> Such preferences can be represented by {@{a [Leontief utility](Leontief%20utilities.md) function}@}. <!--SR:!2025-10-11,254,330!2025-11-21,287,330!2025-10-15,256,330!2025-10-05,250,330!2025-02-10,24,270-->
+{@{A _perfect complement_}@} is {@{a good that _must_ be consumed with another good}@}. {@{The [indifference curve](indifference%20curve.md) of a perfect complement}@} {@{exhibits a right angle}@}, as illustrated by the figure.<sup>[\[6\]](#^ref-6)</sup> Such preferences can be represented by {@{a [Leontief utility](Leontief%20utilities.md) function}@}. <!--SR:!2025-10-11,254,330!2025-11-21,287,330!2025-10-15,256,330!2025-10-05,250,330!2025-04-19,68,270-->
 
 {@{Few goods}@} behave as {@{perfect complements}@}.<sup>[\[6\]](#^ref-6)</sup> One example is {@{a left shoe and a right}@}; shoes are {@{naturally sold in pairs}@}, and the ratio between {@{sales of left and right shoes will never shift noticeably from 1:1}@}. <!--SR:!2025-11-28,293,330!2025-11-12,279,330!2025-09-24,241,330!2025-09-23,241,330!2025-10-02,248,330-->
 

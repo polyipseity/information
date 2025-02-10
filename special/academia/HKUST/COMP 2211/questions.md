@@ -281,7 +281,7 @@ tags:
 > 3. `np.dot(M, C)`, where `C` is an array of shape (22, 11)
 > 4. `np.dot(D, M)`, where `D` is an array of shape (11, 33)
 >
-> - solution: {@{1}@} <!--SR:!2025-02-10,38,290-->
+> - solution: {@{1}@} <!--SR:!2025-07-10,150,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -973,7 +973,7 @@ tags:
 > model.add(Dense(10, activation='sigmoid'))
 > ```
 >
-> - solution: {@{`Dropout(...)` can be ignored since they have no parameters. <br/> input → `Dense(1000, ...)`: 500 \* 1000 + 1000 = 501000 <br/> `Dense(1000, ...)` → `Dense(400, ...)`: 1000 \* 400 + 400 = 400400 <br/> `Dense(400, ...)` → `Dense(10, ...)`: 400 \* 10 + 10 = 4010 <br/> total params: 501000 + 400400 + 4010 = 905410}@} <!--SR:!2025-02-10,38,290-->
+> - solution: {@{`Dropout(...)` can be ignored since they have no parameters. <br/> input → `Dense(1000, ...)`: 500 \* 1000 + 1000 = 501000 <br/> `Dense(1000, ...)` → `Dense(400, ...)`: 1000 \* 400 + 400 = 400400 <br/> `Dense(400, ...)` → `Dense(10, ...)`: 400 \* 10 + 10 = 4010 <br/> total params: 501000 + 400400 + 4010 = 905410}@} <!--SR:!2025-05-29,108,290-->
 
 <!-- markdownlint MD028 -->
 

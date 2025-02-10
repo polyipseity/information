@@ -26,7 +26,7 @@ Three possible values {@{can represent the market value}@}: {@{the replacement c
 
 > An entity should {@{measure inventory}@} within the scope of this Update {@{at the lower of cost and net realizable value}@}. {@{Net realizable value}@} is {@{the estimated selling prices in the ordinary course of business, less reasonably predictable costs of completion, disposal, and transportation}@}. <!--SR:!2025-04-18,75,325!2025-04-06,64,310!2025-04-05,64,312!2025-02-11,20,265-->
 
-This FASB update makes usage {@{consistent with the IFRS wording and removes the use of "or" in a context where "and" was always the correct one}@}.<sup>[\[4\]](#^ref-4)</sup> However, {@{the update does not apply to all companies}@}. {@{Companies that use the FIFO \(first-in, first-out\) and average-cost methods of inventory valuation}@} are {@{required to implement the changes}@}, whereas {@{companies that use the LIFO \(last-in, first-out\) and retail inventory methods are not affected by the update}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-18,75,325!2025-04-10,68,312!2025-02-10,19,265!2025-03-01,32,272!2025-04-17,74,325-->
+This FASB update makes usage {@{consistent with the IFRS wording and removes the use of "or" in a context where "and" was always the correct one}@}.<sup>[\[4\]](#^ref-4)</sup> However, {@{the update does not apply to all companies}@}. {@{Companies that use the FIFO \(first-in, first-out\) and average-cost methods of inventory valuation}@} are {@{required to implement the changes}@}, whereas {@{companies that use the LIFO \(last-in, first-out\) and retail inventory methods are not affected by the update}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-18,75,325!2025-04-10,68,312!2025-04-02,51,265!2025-03-01,32,272!2025-04-17,74,325-->
 
 ## see also
 

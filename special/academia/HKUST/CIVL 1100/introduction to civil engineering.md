@@ -499,7 +499,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
-- business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2025-02-10,193,285-->
+- business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
@@ -776,7 +776,7 @@ levee
 
 - _(begin)_→::@::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
 - canal→::@::←channel <!--SR:!2027-03-28,851,377!2027-02-26,811,372-->
-- channel→::@::←dam <!--SR:!2025-12-15,420,327!2025-02-10,240,290-->
+- channel→::@::←dam <!--SR:!2025-12-15,420,327!2027-01-07,696,290-->
 - dam→::@::←levee <!--SR:!2027-02-21,795,360!2026-02-22,475,332-->
 - levee→::@::←_(end)_ <!--SR:!2025-11-22,467,395!2025-03-11,136,238-->
 

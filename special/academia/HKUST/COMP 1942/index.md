@@ -177,7 +177,7 @@ The content is in teaching order.
 
 - datetime: 2024-03-13T09:00:00+08:00/2024-03-13T10:30:00+08:00
 - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - confusion matrix format ::@:: Each row represents an actual class while each column represents a predicted class. <!--SR:!2026-02-05,464,320!2025-02-10,211,340-->
+  - confusion matrix format ::@:: Each row represents an actual class while each column represents a predicted class. <!--SR:!2026-02-05,464,320!2027-01-28,717,340-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)

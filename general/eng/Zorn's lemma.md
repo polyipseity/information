@@ -49,7 +49,7 @@ Zorn's lemma can then be stated as:
 
 In fact, {@{property \(1\) is redundant}@}, since {@{property \(2\) says, in particular, that the empty chain has an upper bound in $P$}@}, implying {@{$P$ is nonempty}@}. However, in practice, {@{one often checks \(1\) and then verifies \(2\) only for nonempty chains}@}, since {@{the case of the empty chain is taken care by \(1\)}@}. <!--SR:!2025-03-10,60,318!2025-03-06,53,310!2025-03-18,67,330!2025-03-27,74,330!2025-02-23,48,298-->
 
-In {@{the terminology of Bourbaki}@}, a partially ordered set is called {@{__inductive__}@} if {@{each chain has an upper bound in the set \(in particular, the set is then nonempty\)}@}.<sup>[\[10\]](#^ref-10)</sup> Then the lemma can be stated as: <!--SR:!2025-02-28,51,310!2025-03-25,72,330!2025-02-10,34,278-->
+In {@{the terminology of Bourbaki}@}, a partially ordered set is called {@{__inductive__}@} if {@{each chain has an upper bound in the set \(in particular, the set is then nonempty\)}@}.<sup>[\[10\]](#^ref-10)</sup> Then the lemma can be stated as: <!--SR:!2025-02-28,51,310!2025-03-25,72,330!2025-05-13,92,278-->
 
 > __Zorn's lemma__ — <sup>[\[11\]](#^ref-11)</sup> {@{Each inductive set}@} has {@{a maximal element}@}. <!--SR:!2025-02-28,51,310!2025-03-29,76,330-->
 
@@ -97,7 +97,7 @@ Because {@{_T_ contains at least one element}@}, and {@{that element contains at
 
 __\#2 - For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_.__
 
-Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}. <!--SR:!2025-03-28,75,330!2025-03-18,67,330!2025-02-28,51,310!2025-02-10,37,290!2025-03-15,64,318!2025-02-23,47,290!2025-03-10,60,318-->
+Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}. <!--SR:!2025-03-28,75,330!2025-03-18,67,330!2025-02-28,51,310!2025-07-06,146,310!2025-03-15,64,318!2025-02-23,47,290!2025-03-10,60,318-->
 
 __\#3 - For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_.__
 
@@ -119,7 +119,7 @@ The above proof can be formulated {@{without explicitly referring to ordinals}@}
 
 This proof shows that actually {@{a slightly stronger version of Zorn's lemma is true}@}: <!--SR:!2025-03-21,69,318-->
 
-> __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!2025-02-10,25,238!2025-02-16,39,290-->
+> __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!2025-04-14,63,238!2025-02-16,39,290-->
 
 Alternatively, one can {@{use the same proof for the [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}. This is the proof given for example in {@{Halmos' _[Naive Set Theory](naive%20set%20theory.md)_ or in [§ Proof](#proof) below}@}. <!--SR:!2025-03-18,67,330!2025-03-28,75,330-->
 
@@ -206,7 +206,7 @@ The lemma was referenced on {@{_[The Simpsons](The%20Simpsons.md)_}@} in the epi
 ## see also
 
 - [Antichain](antichain.md) ::@:: – Subset of incomparable elements <!--SR:!2025-03-18,67,330!2025-03-25,72,330-->
-- [Chain-complete partial order](complete%20partial%20order.md) ::@:: – a partially ordered set in which every chain has a least upper bound <!--SR:!2025-02-10,35,290!2025-03-01,52,310-->
+- [Chain-complete partial order](complete%20partial%20order.md) ::@:: – a partially ordered set in which every chain has a least upper bound <!--SR:!2025-07-02,142,310!2025-03-01,52,310-->
 - [Szpilrajn extension theorem](Szpilrajn%20extension%20theorem.md) ::@:: – Mathematical result on order relations <!--SR:!2025-03-03,51,310!2025-03-06,56,310-->
 - [Tarski finiteness](finite%20set.md#Tarski%20finite) ::@:: – Mathematical set containing a finite number of elements <!--SR:!2025-03-18,67,330!2025-02-24,48,298-->
 - [Teichmüller–Tukey lemma](Teichmüller–Tukey%20lemma.md) ::@:: \(sometimes named Tukey's lemma\) <!--SR:!2025-03-18,67,330!2025-03-29,76,330-->

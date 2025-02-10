@@ -207,7 +207,7 @@ return _chain.from_iterable(await _gather(
 
 - `NOT(boolean)`:@:negate <!--SR:!2028-05-27,1227,350-->
 - `AND(booleans...)`:@:every input is true <!--SR:!2028-01-01,1110,350-->
-- `OR(booleans...)`:@:there exists true inputs <!--SR:!2025-02-10,289,330-->
+- `OR(booleans...)`:@:there exists true inputs <!--SR:!2028-09-22,1320,350-->
 
 <!--/pytextgen-->
 

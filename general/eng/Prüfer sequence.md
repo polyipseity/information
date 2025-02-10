@@ -39,7 +39,7 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 ## algorithm to convert a Prüfer sequence into a tree
 
-Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2025-02-10,79,343!2026-02-16,372,363-->
+Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2026-02-20,375,363!2026-02-16,372,363-->
 
 The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2026-02-09,366,363!2026-02-01,360,363!2026-02-10,367,363-->
 
@@ -120,7 +120,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 > 14             {@{<b>break</b>}@}
 > </pre> <!--SR:!2025-03-12,88,367!2025-03-13,89,367!2025-03-13,89,367!2025-03-18,91,367!2025-03-17,90,367!2025-03-13,89,367!2025-03-20,93,367-->
 
-At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-10,79,343!2026-02-02,361,363!2025-02-10,79,343-->
+At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-02-17,372,363!2026-02-02,361,363!2026-02-21,376,363-->
 
 <pre>
 15 <i>u</i> ← <i>v</i> ← 0
@@ -177,7 +177,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 
 > [!tip] tips
 >
-> - alternative formulation ::@:: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2025-02-10,79,343!2026-02-03,361,363-->
+> - alternative formulation ::@:: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2026-02-24,379,363!2026-02-03,361,363-->
 
 ## Cayley's formula
 

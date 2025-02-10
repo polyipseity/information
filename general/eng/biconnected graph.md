@@ -79,7 +79,7 @@ __Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {
 
 ## structure of 2-connected graphs
 
-{@{Every 2-connected graph}@} can be {@{constructed inductively by adding [paths](path%20(graph%20theory).md) to a [cycle](cycle%20(graph%20theory).md)}@} \([Diestel 2016](#CITEREFDiestel2016), p. 59\). <!--SR:!2025-03-15,64,312!2025-02-10,34,272-->
+{@{Every 2-connected graph}@} can be {@{constructed inductively by adding [paths](path%20(graph%20theory).md) to a [cycle](cycle%20(graph%20theory).md)}@} \([Diestel 2016](#CITEREFDiestel2016), p. 59\). <!--SR:!2025-03-15,64,312!2025-06-22,132,292-->
 
 ## see also
 
