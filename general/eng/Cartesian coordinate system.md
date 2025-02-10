@@ -160,7 +160,7 @@ Among {@{the affine transformations}@}, {@{the [Euclidean transformations](eucli
 Assuming that {@{translations are not used \(that is, $b_{1}=b_{2}=0$\)}@} transformations can be {@{[composed](function%20composition.md) by simply multiplying the associated transformation matrices}@}. In the general case, it is useful to {@{use the [augmented matrix](augmented%20matrix.md) of the transformation}@}; that is, to {@{rewrite the transformation formula $${\begin{pmatrix}x'\\y'\\1\end{pmatrix} }=A'{\begin{pmatrix}x\\y\\1\end{pmatrix} },$$}@} where {@{$$A'={\begin{pmatrix}A_{1,1}&A_{1,2}&b_{1}\\A_{2,1}&A_{2,2}&b_{2}\\0&0&1\end{pmatrix} }.$$}@} With this trick, {@{the composition of affine transformations}@} is obtained by {@{multiplying the augmented matrices}@}.
 
 ### affine transformation
->
+
 > {@{![Effect of applying various 2D affine transformation matrices on a unit square \(reflections are special cases of scaling\)](../../archives/Wikimedia%20Commons/2D%20affine%20transformation%20matrix.svg)}@}
 >
 > Effect of {@{applying various 2D affine transformation matrices on a unit square}@} \(reflections are {@{special cases of scaling}@}\)
@@ -185,7 +185,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 - See also: ::@:: [Right-hand rule](right-hand%20rule.md) and [Axes conventions](axes%20conventions.md)
 
 ### in two dimensions
->
+
 > {@{![The [right-hand rule](right-hand%20rule.md)](../../archives/Wikimedia%20Commons/Rechte-hand-regel.jpg)}@}
 >
 > {@{The [right-hand rule](right-hand%20rule.md)}@}
