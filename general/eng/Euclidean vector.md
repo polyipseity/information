@@ -167,7 +167,7 @@ The following section uses {@{the [Cartesian coordinate system](Cartesian%20coor
 
 - Main article: [Scalar multiplication](scalar%20multiplication.md)
 
-> {@{![Scalar multiplication of a vector by a factor of 3 stretches the vector out.](../../archives/Wikimedia%20Commons/Scalar%20multiplication%20by%20r%3D3.svg)}@}
+> {@{![Scalar multiplication of a vector by a factor of 3 stretches the vector out.](../../archives/Wikimedia%20Commons/Scalar%20multiplication%20by%20r=3.svg)}@}
 >
 > {@{Scalar multiplication of a vector by a factor of 3}@} {@{stretches the vector out}@}.
 
@@ -251,9 +251,9 @@ All examples thus far have {@{dealt with vectors expressed in terms of the same 
 
 The properties of a direction cosine matrix, C are:<sup>[\[20\]](#^ref-20)</sup>
 
-- the determinant ::@:: is unity, \|C\| = 1;
-- the inverse ::@:: is equal to the transpose;
-- the rows and columns ::@:: are orthogonal unit vectors, therefore their dot products are zero.
+- (annotation: direction cosine matrix) the determinant ::@:: is unity, \|C\| = 1;
+- (annotation: direction cosine matrix) the inverse ::@:: is equal to the transpose;
+- (annotation: direction cosine matrix) the rows and columns ::@:: are orthogonal unit vectors, therefore their dot products are zero.
 
 The advantage of this method is that {@{a direction cosine matrix can usually be obtained independently}@} by {@{using [Euler angles](Euler%20angles.md) or a [quaternion](quaternion.md) to relate the two vector bases}@}, so the basis conversions can be {@{performed directly, without having to work out all the dot products described above}@}.
 
@@ -263,7 +263,7 @@ By {@{applying several matrix multiplications in succession}@}, {@{any vector ca
 
 With {@{the exception of the cross and triple products}@}, the above formulae {@{generalise to two dimensions and higher dimensions}@}. For example, addition {@{generalises to two dimensions}@} as {@{$$(a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2})+(b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2})=(a_{1}+b_{1}){\mathbf {e} }_{1}+(a_{2}+b_{2}){\mathbf {e} }_{2},$$}@} and in {@{four dimensions}@} as {@{$${\begin{aligned}(a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2}+a_{3}{\mathbf {e} }_{3}+a_{4}{\mathbf {e} }_{4})&+(b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2}+b_{3}{\mathbf {e} }_{3}+b_{4}{\mathbf {e} }_{4})=\\(a_{1}+b_{1}){\mathbf {e} }_{1}+(a_{2}+b_{2}){\mathbf {e} }_{2}&+(a_{3}+b_{3}){\mathbf {e} }_{3}+(a_{4}+b_{4}){\mathbf {e} }_{4}.\end{aligned} }$$}@}
 
-{@{The cross product}@} {@{does not readily generalise to other dimensions}@}, though {@{the closely related [exterior product](exterior%20algebra.md#areas%20in%20the%20plane) does}@}, whose {result is a [bivector](bivector.md)}. In {@{two dimensions}@} this is {@{simply a [pseudoscalar](pseudoscalar.md) $$(a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2})\wedge (b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2})=(a_{1}b_{2}-a_{2}b_{1})\mathbf {e} _{1}\mathbf {e} _{2}.$$}@} {@{A [seven-dimensional cross product](seven-dimensional%20cross%20product.md)}@} is {@{similar to the cross product in that its result is a vector orthogonal to the two arguments}@}; there is however {@{no natural way of selecting one of the possible such products}@}.
+{@{The cross product}@} {@{does not readily generalise to other dimensions}@}, though {@{the closely related [exterior product](exterior%20algebra.md#areas%20in%20the%20plane) does}@}, whose {@{result is a [bivector](bivector.md)}@}. In {@{two dimensions}@} this is {@{simply a [pseudoscalar](pseudoscalar.md) $$(a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2})\wedge (b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2})=(a_{1}b_{2}-a_{2}b_{1})\mathbf {e} _{1}\mathbf {e} _{2}.$$}@} {@{A [seven-dimensional cross product](seven-dimensional%20cross%20product.md)}@} is {@{similar to the cross product in that its result is a vector orthogonal to the two arguments}@}; there is however {@{no natural way of selecting one of the possible such products}@}.
 
 ## physics
 
