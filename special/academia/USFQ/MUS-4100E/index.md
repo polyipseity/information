@@ -269,3 +269,8 @@ The content is in teaching order.
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz
 - assignment: (none)
+
+## week 5 lecture
+
+- datetime: 2025-02-10T08:30:00-05:00/2025-02-10T09:50:00-05:00
+  - local: 2025-02-10T21:30:00+08:00/2025-02-10T22:50:00+08:00
