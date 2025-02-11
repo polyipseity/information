@@ -23,6 +23,7 @@ The content is in teaching order.
 
 - grading
   - attendance and active participation: 10%
+    - More than 3 unexcused absences is an automatic F.
   - quizzes and homework: 20%
     - quiz 1: 5%
     - quiz 2: 5%
@@ -32,11 +33,44 @@ The content is in teaching order.
   - final examination: 20%
   - listening test: 15%
     - listening test 1: 7.5%
+      - list
+        - Louis Armstrong – 1927 Hot 5 & Hot 7 (not the personnel)
+          - The Hot Five and Hot Seven recordings by Louis Armstrong are a series of individual recordings from 1925 – 1928 that have been grouped into 1  record.
+        - Art Tatum- Gene Norman Present an Art Tatum Recording
+        - Billie Holliday – Lady Sings The Blues (not the personnel)
+        - Ella Fitzgerald – Ella and Louis
+        - Benny Goodman – The Famous 1938 Carnegie Hall Jazz Concert (not the personnel)
+        - Duke Ellington – Ellington at Newport (not the personnel)
+        - Charlie Parker – Jazz at Massey Hall
     - listening test 2: 7.5%
+      - list
+        - Miles Davis – Kind of Blue
+        - Oscar Peterson – We Get Request
+        - Stan Getz – Getz/Gilberto
+        - Dave Brubeck – Time Out
+        - Ornette Coleman – The Shape of Jazz to Come
+        - John Coltrane – Giant Steps
+        - Thelonious Monk – Solo Monk
+    - Students must identify:
+      - artist (8 points)
+      - album title (7 points)
+      - personnel (3 points)
+      - year it was recorded and released (2 points)
+    - Please only listen to the original recordings. Any songs added in the re-releases of the record will not be on the tests.
   - concert attendance: 15%
     - concert 1: 5%
+      - due: 2025-03-01T23:59:59-05:00
     - concert 2: 5%
+      - due: 2025-04-01T23:59:59-05:00
     - concert 3: 5%
+      - due: 2025-05-01T23:59:59-05:00
+    - At least 1 of the 3 concerts must be seen in person, the other 2 can be seen virtually or in person.
+    - Students must write a paper about each concert.
+      - The contents of the paper must include; date, location, name of the band or artist, the type of music, the instrumentation, at least 3 song names, and brief description of the concert.
+      - Each paper should be a half of a page to a full page.
+      - Students must attach a screenshot of the virtual concert to their paper or if the concert is seen in person, a normal photo of the band will suffice.
+      - The concert must be within the jazz idiom; classical, rock or pop concerts will not count.
+      - The concert must be seen in real time. No prerecorded concerts
 - syllabus
   - concert attendance
     - virtual jazz club "Monks": <https://livestream.monksjazz.com/>
@@ -235,3 +269,8 @@ The content is in teaching order.
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz
 - assignment: (none)
+
+## week 5 lecture
+
+- datetime: 2025-02-10T08:30:00-05:00/2025-02-10T09:50:00-05:00
+  - local: 2025-02-10T21:30:00+08:00/2025-02-10T22:50:00+08:00
