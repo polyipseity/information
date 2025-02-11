@@ -114,9 +114,9 @@ The content is in teaching order.
     - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2025-02-17,17,320!2025-02-18,18,320-->
 - [march](../../../../general/march%20(music).md)
   - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2025-02-18,18,320!2025-02-17,17,320-->
-  - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-02-18,18,320!2025-02-11,11,300-->
+  - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-02-18,18,320!2025-03-27,44,320-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-02-17,17,320!2025-02-17,17,320-->
-  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-03-14,34,300!2025-02-11,11,300-->
+  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-03-14,34,300!2025-03-28,45,320-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-02-13,13,300!2025-02-17,17,320-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-02-18,18,320!2025-02-18,18,320-->
   - [syncopation](../../../../general/syncopation.md)
@@ -190,17 +190,17 @@ The content is in teaching order.
   - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00
 - [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
-- [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2025-02-12,4,338!2025-02-11,3,318-->
-  - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-02-12,4,338!2025-02-11,3,318-->
-  - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-02-11,3,318!2025-02-12,4,338-->
+- [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2025-02-12,4,338!2025-02-20,9,318-->
+  - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-02-12,4,338!2025-02-20,9,318-->
+  - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-02-20,9,318!2025-02-12,4,338-->
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [jazz](../../../../general/jazz.md)
   - jazz / why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [big band](../../../../general/big%20band.md)
   - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
-- [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-02-11,3,318!2025-02-12,4,338-->
-  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-02-12,4,338!2025-02-11,3,318-->
+- [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-02-25,14,338!2025-02-12,4,338-->
+  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-02-12,4,338!2025-02-25,14,338-->
   - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
@@ -217,11 +217,11 @@ The content is in teaching order.
 - [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
   - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
-  - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-02-11,3,318!2025-02-12,4,338-->
+  - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-02-25,14,338!2025-02-12,4,338-->
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
   - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
-- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-02-12,4,338!2025-02-11,3,318-->
+- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-02-12,4,338!2025-02-20,9,318-->
 - [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
   - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
@@ -229,8 +229,8 @@ The content is in teaching order.
   - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [jazz](../../../../general/jazz.md)
   - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
-- [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-02-12,4,338!2025-02-11,3,318-->
-  - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-02-11,3,318!2025-02-11,3,318-->
+- [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-02-12,4,338!2025-02-20,9,318-->
+  - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-02-20,9,318!2025-02-25,14,338-->
   - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2025-02-12,4,338!2025-02-12,4,338-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz

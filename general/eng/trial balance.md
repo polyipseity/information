@@ -41,7 +41,7 @@ The trial balance is usually prepared by {@{a bookkeeper or accountant who has u
 
 > __flashcards__
 >
-> - debit ::@:: assets, owner's drawing, expenses <!--SR:!2025-09-02,268,330!2025-02-11,99,290-->
+> - debit ::@:: assets, owner's drawing, expenses <!--SR:!2025-09-02,268,330!2026-03-17,399,310-->
 > - credit ::@:: liabilities, equity, retained earnings, revenue <!--SR:!2025-06-05,193,310!2025-07-30,240,330-->
 
 The sum total of each column should be {@{equal, or "balance"}@}. {@{The act of "closing the books"}@} refers to {@{zeroing out all the revenue and expense amounts at the end of an [accounting period](accounting%20period.md) (typically a fiscal year) and adding the difference to the retained earnings account}@}. This is called {@{a "closing entry"}@}. If {@{the company earned a profit, the retained earnings account will be increased}@}. If {@{the company experienced a loss, the retained earnings account will be reduced}@}. The resulting opening balance for the new accounting period will {@{still have columns of equal sum totals}@}. <!--SR:!2025-09-07,272,330!2025-08-13,251,330!2025-06-28,179,270!2025-07-17,212,310!2025-07-04,202,310!2025-08-20,256,330!2025-09-08,272,330-->

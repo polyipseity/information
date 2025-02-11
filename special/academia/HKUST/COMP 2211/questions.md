@@ -1060,7 +1060,7 @@ tags:
 > 3. The updates are proportional to the output of the weight layer
 > 4. The output layer weights are used when computing the loss of the hidden layer
 >
-> - solution: {@{2, 4}@} <!--SR:!2025-02-11,39,290-->
+> - solution: {@{2, 4}@} <!--SR:!2025-07-17,156,310-->
 
 ## digital image processing fundamentals
 
@@ -1582,7 +1582,7 @@ tags:
 
 > Q15. (simple) State __one__ advantage and __one__ disadvantage of solving a Markov system algebraically.
 >
-> - solution: {@{(for reference) An advantage is that we get the _exact_ solution. <p> An disadvantage is that the time it takes to solve algebraically increases with the number of states.}@} <!--SR:!2025-02-11,39,290-->
+> - solution: {@{(for reference) An advantage is that we get the _exact_ solution. <p> An disadvantage is that the time it takes to solve algebraically increases with the number of states.}@} <!--SR:!2025-07-16,155,310-->
 
 <!-- markdownlint MD028 -->
 

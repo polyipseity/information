@@ -42,7 +42,7 @@ return await memorize_table(
 > |-|-|
 > | {@{food packaging}@} | {@{To prevent [food spoilage](food%20spoilage.md).}@} |
 > | {@{making [ammonia](ammonia.md)}@} |  |
-> | {@{[refrigerant](refrigerant.md)}@} |  | <!--SR:!2026-05-14,870,330!2028-03-15,1408,350!2025-12-31,767,330!2025-02-11,494,290-->
+> | {@{[refrigerant](refrigerant.md)}@} |  | <!--SR:!2026-05-14,870,330!2028-03-15,1408,350!2025-12-31,767,330!2030-07-26,1991,310-->
 
 <!--/pytextgen-->
 

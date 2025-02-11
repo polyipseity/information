@@ -11,7 +11,7 @@ tags:
 
 # adjusting entries
 
-In [accounting](accounting.md), __adjusting entries__ are {@{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}@}. {@{The [revenue recognition principle](revenue%20recognition.md)}@} is {@{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}@}. They are sometimes called {@{Balance Day adjustments because they are made on balance day}@}. <!--SR:!2025-02-18,110,290!2025-07-15,210,310!2025-02-11,107,290!2025-03-27,142,310-->
+In [accounting](accounting.md), __adjusting entries__ are {@{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}@}. {@{The [revenue recognition principle](revenue%20recognition.md)}@} is {@{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}@}. They are sometimes called {@{Balance Day adjustments because they are made on balance day}@}. <!--SR:!2025-02-18,110,290!2025-07-15,210,310!2025-12-24,316,290!2025-03-27,142,310-->
 
 Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2025-07-17,212,310!2025-05-21,185,310!2025-08-12,251,330-->
 

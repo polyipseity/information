@@ -29,7 +29,7 @@ This equation shows {@{the constituents that make up a company's real share capi
 
 ## legal capital
 
-{@{__Legal capital__}@} is a concept used in {@{[European corporate and foundation law](European%20corporate%20and%20foundation%20law.md), [United Kingdom company law](United%20Kingdom%20company%20law.md), and various other [corporate law](corporate%20law.md) jurisdictions}@} to refer to {@{the sum of assets contributed to a company by shareholders when they are issued shares}@}.<sup>[\[2\]](#^ref-2)</sup> The law often {@{requires that this capital is maintained}@}, and that {@{dividends are not paid}@} when {@{a company is not showing a profit above the level of historically recorded legal capital}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-18,16,290!2025-02-11,10,270!2025-02-18,16,290!2025-02-17,15,290!2025-02-18,16,290!2025-02-17,15,290-->
+{@{__Legal capital__}@} is a concept used in {@{[European corporate and foundation law](European%20corporate%20and%20foundation%20law.md), [United Kingdom company law](United%20Kingdom%20company%20law.md), and various other [corporate law](corporate%20law.md) jurisdictions}@} to refer to {@{the sum of assets contributed to a company by shareholders when they are issued shares}@}.<sup>[\[2\]](#^ref-2)</sup> The law often {@{requires that this capital is maintained}@}, and that {@{dividends are not paid}@} when {@{a company is not showing a profit above the level of historically recorded legal capital}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-18,16,290!2025-03-22,39,290!2025-02-18,16,290!2025-02-17,15,290!2025-02-18,16,290!2025-02-17,15,290-->
 
 ## see also
 

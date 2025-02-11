@@ -116,12 +116,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-22T20:40:48.789313+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2025-02-11,199,270!2025-04-10,286,330-->
+- _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2027-03-03,750,290!2025-04-10,286,330-->
 - (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2026-03-13,502,310-->
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2025-03-19,219,270!2025-04-23,77,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2025-04-05,282,330-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-03-27,65,130!2025-03-06,163,210-->
-- (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-02-11,8,130!2025-03-01,43,170-->
+- (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-02-20,9,130!2025-03-01,43,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2025-05-15,259,250!2025-10-19,322,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-02-20,30,130!2025-03-05,31,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→::@::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2025-07-28,329,270!2025-03-05,67,130-->

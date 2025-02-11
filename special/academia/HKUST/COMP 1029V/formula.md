@@ -159,7 +159,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= A1 <= 5`. [Logic func
 
 ### logic functions
 
-Below are common logic functions, all of which {@{accept booleans and return booleans}@}: <!--SR:!2025-02-11,290,330-->
+Below are common logic functions, all of which {@{accept booleans and return booleans}@}: <!--SR:!2028-09-24,1321,350-->
 
 ```Python
 # pytextgen generate data
