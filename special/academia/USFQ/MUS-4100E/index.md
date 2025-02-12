@@ -229,7 +229,7 @@ The content is in teaching order.
   - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world.
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns
 - [jazz](../../../../general/jazz.md)
-  - jazz / why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists
+  - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc.
 - [big band](../../../../general/big%20band.md)
   - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc.
