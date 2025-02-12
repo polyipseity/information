@@ -460,7 +460,7 @@ testing materials
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
 - procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2025-03-23,213,281-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
-- quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->
+- quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2025-05-11,168,235-->
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
 - surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2025-05-20,207,272-->

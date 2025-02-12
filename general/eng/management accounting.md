@@ -46,7 +46,7 @@ To facilitate its educational objectives, the Institute has {@{accredited a numb
 
 - see: [decision theory](decision%20theory.md), [management accounting principles](management%20accounting%20principles.md)
 
-{@{The Association of International Certified Professional Accountants (AICPA)}@} states management accounting as {@{a practice that extends to the following three areas: [strategic management](strategic%20management.md), [performance management](business%20performance%20management.md), and [risk management](risk%20management.md)}@}. <!--SR:!2025-02-12,83,230!2025-07-16,197,270-->
+{@{The Association of International Certified Professional Accountants (AICPA)}@} states management accounting as {@{a practice that extends to the following three areas: [strategic management](strategic%20management.md), [performance management](business%20performance%20management.md), and [risk management](risk%20management.md)}@}. <!--SR:!2025-11-10,271,250!2025-07-16,197,270-->
 
 - [strategic management](strategic%20management.md) ::@:: advancing the role of the management accountant as a strategic partner in the organization <!--SR:!2025-06-12,173,270!2025-03-13,122,270-->
 - [performance management](business%20performance%20management.md) ::@:: developing the practice of business decision-making and managing the performance of the organization <!--SR:!2025-08-07,255,330!2025-03-13,125,290-->

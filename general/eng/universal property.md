@@ -80,7 +80,7 @@ Let ${\mathcal {C} }$ be {@{the [category of vector spaces](category%20of%20vect
 
 Given {@{any [vector space](vector%20space.md) $V$ over $K$}@} we can {@{construct the [tensor algebra](tensor%20algebra.md) $T(V)$ (annotation: as we will see below, $T$ can be treated as a functor from $\mathcal C \equiv \mathbf{Vect}_K$ to $\mathcal D \equiv \mathbf{Alg}_K$)}@}. The tensor algebra is {@{characterized by the fact}@}: <!--SR:!2025-04-02,67,310!2025-03-12,46,290!2025-04-02,67,310-->
 
-> "{@{Any linear map from $V$ to an algebra $A$ (annotation: a morphism $f: V \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@} can be {@{uniquely extended to (annotation: this act of extension is $u: V \to U(T(V))$ in $\mathcal C \equiv \mathbf {Vect}_K$, part of a universal morphism) an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) from $T(V)$ to $A$ (annotation: an unique morphism $h: T(V) \to A$ in $\mathcal D \equiv \mathbf{Alg}_K$, mapped by $U$ to a morphism $U(h): U(T(V)) \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@}." <!--SR:!2025-03-11,45,290!2025-02-12,24,250-->
+> "{@{Any linear map from $V$ to an algebra $A$ (annotation: a morphism $f: V \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@} can be {@{uniquely extended to (annotation: this act of extension is $u: V \to U(T(V))$ in $\mathcal C \equiv \mathbf {Vect}_K$, part of a universal morphism) an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) from $T(V)$ to $A$ (annotation: an unique morphism $h: T(V) \to A$ in $\mathcal D \equiv \mathbf{Alg}_K$, mapped by $U$ to a morphism $U(h): U(T(V)) \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@}." <!--SR:!2025-03-11,45,290!2025-04-16,63,250-->
 
 This statement is {@{an initial property of the tensor algebra}@} since it expresses the fact that {@{the pair $(T(V),i)$, where $i:V\to U(T(V))$ is the inclusion map (annotation: noting $i$ is $u$ above, part of a universal morphism)}@}, is {@{a universal morphism (annotation: the first definition given above) from the vector space $V$ to the functor $U$}@}. <!--SR:!2025-03-28,62,310!2025-02-20,31,270!2025-03-12,46,290-->
 
@@ -118,7 +118,7 @@ It is {@{the pair $(A,u)$ which is essentially unique in this fashion}@}. {@{The
 
 - (annotation: universal morphism) ::@:: $(A,u)$ is a universal morphism from $X$ to $F$ <!--SR:!2025-04-02,67,310!2025-04-02,67,310-->
 - (annotation: comma category) ::@:: $(A,u)$ is an [initial object](initial%20object.md) of the [comma category](comma%20category.md) $(X\downarrow F)$ <!--SR:!2025-03-31,65,310!2025-04-01,66,310-->
-- (annotation: representable functor $\text{Hom}_{\mathcal C}(A, -) \to \text{Hom}_{\mathcal D}(X, F(-))$) ::@:: $(A,F(\bullet )\circ u)$ is a [representation](representable%20functor.md) of ${\text{Hom} }_{\mathcal {D} }(X,F(-))$, where its components $(F(\bullet )\circ u)_{B}:{\text{Hom} }_{\mathcal {C} }(A,B)\to {\text{Hom} }_{\mathcal {D} }(X,F(B))$ are defined by $$(F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2025-03-12,46,290!2025-02-12,19,270-->
+- (annotation: representable functor $\text{Hom}_{\mathcal C}(A, -) \to \text{Hom}_{\mathcal D}(X, F(-))$) ::@:: $(A,F(\bullet )\circ u)$ is a [representation](representable%20functor.md) of ${\text{Hom} }_{\mathcal {D} }(X,F(-))$, where its components $(F(\bullet )\circ u)_{B}:{\text{Hom} }_{\mathcal {C} }(A,B)\to {\text{Hom} }_{\mathcal {D} }(X,F(B))$ are defined by $$(F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2025-03-12,46,290!2025-04-06,53,270-->
 
 The dual statements are {@{also equivalent}@}: (annotation: they are respectively related to {@{universal morphism, comma category, representable functor}@}) <!--SR:!2025-03-29,63,310!2025-03-31,65,310-->
 
@@ -143,7 +143,7 @@ Universal constructions (annotation: i.e. universal properties) are {@{more gene
 
 ## history
 
-{@{Universal properties of various topological constructions}@} were {@{presented by [Pierre Samuel](Pierre%20Samuel.md) in 1948}@}. They were later used {@{extensively by [Bourbaki](Nicolas%20Bourbaki.md)}@}. {@{The closely related concept of adjoint functors}@} was {@{introduced independently by [Daniel Kan](Daniel%20Kan.md) in 1958}@}. <!--SR:!2025-03-27,61,310!2025-02-16,28,270!2025-03-11,45,290!2025-03-31,65,310!2025-02-12,24,250-->
+{@{Universal properties of various topological constructions}@} were {@{presented by [Pierre Samuel](Pierre%20Samuel.md) in 1948}@}. They were later used {@{extensively by [Bourbaki](Nicolas%20Bourbaki.md)}@}. {@{The closely related concept of adjoint functors}@} was {@{introduced independently by [Daniel Kan](Daniel%20Kan.md) in 1958}@}. <!--SR:!2025-03-27,61,310!2025-02-16,28,270!2025-03-11,45,290!2025-03-31,65,310!2025-04-15,62,250-->
 
 ## see also
 

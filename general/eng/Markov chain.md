@@ -198,7 +198,7 @@ If {@{a finite Markov chain is irreducible}@}, then {@{all states are positive r
 
 {@{A state _i_ is said to be _ergodic_}@} if {@{it is aperiodic and positive recurrent}@}. In other words, a state _i_ is {@{ergodic if it is recurrent, has a period of 1, and has finite mean recurrence time}@}. <!--SR:!2025-03-19,80,339!2025-03-15,77,339!2025-04-26,95,281-->
 
-If {@{all states in an irreducible Markov chain are ergodic}@}, then {@{the chain is said to be ergodic}@}. Equivalently, there exists {@{some integer $k$ such that all entries of $M^{k}$ are positive}@}. (annotation: $M$ is {@{the transition probability matrix}@}.) <!--SR:!2025-05-25,116,301!2025-03-15,76,339!2025-02-12,52,319!2025-03-04,67,321-->
+If {@{all states in an irreducible Markov chain are ergodic}@}, then {@{the chain is said to be ergodic}@}. Equivalently, there exists {@{some integer $k$ such that all entries of $M^{k}$ are positive}@}. (annotation: $M$ is {@{the transition probability matrix}@}.) <!--SR:!2025-05-25,116,301!2025-03-15,76,339!2025-07-28,166,319!2025-03-04,67,321-->
 
 It can be shown that {@{a finite state irreducible Markov chain is ergodic if it has an aperiodic state}@}. More generally, {@{a Markov chain is ergodic}@} if {@{there is a number _N_ such that any state can be reached from any other state in any number of steps less or equal to a number _N_}@}. In case of {@{a fully connected transition matrix, where all transitions have a non-zero probability}@}, {@{this condition is fulfilled with <!-- markdown separator -->_N_<!-- markdown separator --> = 1}@}. <!--SR:!2025-03-23,84,347!2025-03-18,80,347!2025-07-01,140,301!2025-03-09,71,321!2025-02-25,61,321-->
 

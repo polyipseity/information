@@ -20,11 +20,11 @@ The speaker talked about how to give a high-impact presentation. While I may not
 When presenting, {@{content}@} is an important aspect. <!--SR:!2025-02-13,67,310-->
 
 - introduction ::@:: Introduce your content from the large picture to the objective at hand. <!--SR:!2025-02-13,67,310!2025-10-31,266,330-->
-- forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-02-12,66,310!2025-10-23,260,330-->
+- forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-11-29,290,330!2025-10-23,260,330-->
 
 ## action
 
-Another important aspect is {@{your body movement}@}. <!--SR:!2025-02-12,66,310-->
+Another important aspect is {@{your body movement}@}. <!--SR:!2025-11-28,289,330-->
 
 - facial expression ::@:: Smile naturally. Not enough smile makes your presentation less engaging. Too much smile makes you look unnatural, and maybe even creepy... <!--SR:!2025-03-12,84,348!2025-03-11,83,348-->
 - facial movement ::@:: Exaggerate your facial movement as much as you can. Do not worry about being over-exaggerated — it is very difficult to do so even if you try really hard, and others would very unlikely to interpret it as over-exaggerated. <!--SR:!2025-10-21,256,348!2025-03-11,83,348-->
@@ -36,10 +36,10 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-02-12,66,310-
 - leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer. <!--SR:!2025-02-13,67,310!2025-10-20,258,330-->
 - microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
-- speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2025-02-12,66,310!2025-10-22,259,330-->
-- filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2025-02-12,66,310!2025-02-13,67,310-->
+- speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2025-11-27,288,330!2025-10-22,259,330-->
+- filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2025-11-29,290,330!2025-02-13,67,310-->
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
-- pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious. <!--SR:!2025-02-13,67,310!2025-02-12,66,310-->
+- pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious. <!--SR:!2025-02-13,67,310!2025-11-28,289,330-->
 - Mark Zuckerberg ::@:: He is not known to be a good speaker, unlike Steve Jobs. There is a reason why he seems robotic... He lacks variety when presenting. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement <!--SR:!2025-05-30,128,290!2025-05-13,116,290-->
 - finger ::@:: Try to not curl your fingers (and arms). Try to not point your fingers downward, and instead point horizontally. <!--SR:!2025-11-01,268,330!2025-02-13,67,310-->

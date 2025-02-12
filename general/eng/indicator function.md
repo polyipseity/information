@@ -67,7 +67,7 @@ __[Covariance](covariance.md)__ <br/> ::@:: &emsp;&emsp; $\operatorname {Cov} (\
 
 {@{[Kleene](Stephen%20Cole%20Kleene.md)}@} offers up {@{the same definition in the context of the [primitive recursive functions](primitive%20recursive%20function.md)}@} as {@{a function _φ_ of a predicate _P_ takes on values 0 if the predicate is true and 1 if the predicate is false}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-17,57,310!2025-02-27,39,290!2025-03-17,57,310-->
 
-For example, because {@{the product of characteristic functions $\phi _{1}*\phi _{2}*\cdots *\phi _{n}=0$ whenever any one of the functions equals 0}@}, it {@{plays the role of logical OR}@}: {@{IF $\phi _{1}=0$ OR $\phi _{2}=0$ OR ... OR $\phi _{n}=0$ THEN their product is 0}@}. What appears to the modern reader as {@{the representing function's logical inversion, i.e. the representing function is 0 when the function _R_ is "true" or satisfied"}@}, plays {@{a useful role in Kleene's definition}@} of {@{the logical functions OR, AND, and IMPLY,<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;228&hairsp;</sup> the bounded-<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;228&hairsp;</sup> and unbounded-<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;279 ff&hairsp;</sup> [mu operators](mu%20operator.md) and the CASE function}@}.<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;229&hairsp;</sup> <!--SR:!2025-03-16,56,310!2025-03-23,62,310!2025-03-28,66,310!2025-03-15,55,310!2025-03-21,60,310!2025-02-12,28,270-->
+For example, because {@{the product of characteristic functions $\phi _{1}*\phi _{2}*\cdots *\phi _{n}=0$ whenever any one of the functions equals 0}@}, it {@{plays the role of logical OR}@}: {@{IF $\phi _{1}=0$ OR $\phi _{2}=0$ OR ... OR $\phi _{n}=0$ THEN their product is 0}@}. What appears to the modern reader as {@{the representing function's logical inversion, i.e. the representing function is 0 when the function _R_ is "true" or satisfied"}@}, plays {@{a useful role in Kleene's definition}@} of {@{the logical functions OR, AND, and IMPLY,<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;228&hairsp;</sup> the bounded-<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;228&hairsp;</sup> and unbounded-<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;279 ff&hairsp;</sup> [mu operators](mu%20operator.md) and the CASE function}@}.<sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;229&hairsp;</sup> <!--SR:!2025-03-16,56,310!2025-03-23,62,310!2025-03-28,66,310!2025-03-15,55,310!2025-03-21,60,310!2025-05-02,79,270-->
 
 ## characteristic function in fuzzy set theory
 
@@ -102,7 +102,7 @@ Although {@{indicator functions are not smooth}@}, they {@{admit [weak derivativ
 
 ## notes
 
-1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!2025-02-12,28,270!2025-03-18,58,310-->
+1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!2025-05-28,105,290!2025-03-18,58,310-->
 2. b. The set of all indicator functions on _X_ can be {@{identified with ${\mathcal {P} }(X)$, the [power set](power%20set.md) of _X_}@}. Consequently, {@{both sets are sometimes denoted by $2^{X}$}@}. This is a special case {@{\( $Y=\{0,1\}=2$\) of the notation $Y^{X}$ for the set of all functions $f:X\to Y$}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2025-03-29,67,310!2025-03-26,64,310!2025-03-15,55,310-->
 
 ## references

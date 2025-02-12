@@ -81,7 +81,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 
 ## addition and multiplication tables
 
-The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2025-02-12,39,290-->
+The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2025-07-21,159,310-->
 
 This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\) <!--SR:!2025-03-07,57,310!2025-03-25,72,325-->
 

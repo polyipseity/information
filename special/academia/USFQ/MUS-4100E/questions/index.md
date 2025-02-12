@@ -108,4 +108,4 @@ tags:
 >
 > Why was Sydney Bechet important and what are some of his contributions in jazz?
 >
-> - solution: {@{(for reference) <p> He was important because he contributed significantly to the development of Jazz. He helped develop swing, and he was the first influential person to use the soprano saxophone to play jazz, leading it becoming a popular jazz instrument.}@} <!--SR:!2025-02-12,12,270-->
+> - solution: {@{(for reference) <p> He was important because he contributed significantly to the development of Jazz. He helped develop swing, and he was the first influential person to use the soprano saxophone to play jazz, leading it becoming a popular jazz instrument.}@} <!--SR:!2025-03-28,44,290-->

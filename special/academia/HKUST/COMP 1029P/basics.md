@@ -79,7 +79,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
 - `**`:@:power <!--SR:!2027-05-05,920,350-->
-- `*`:@:multiplication <!--SR:!2025-02-12,289,330-->
+- `*`:@:multiplication <!--SR:!2028-09-19,1315,350-->
 - `/`:@:division <!--SR:!2027-07-14,946,330-->
 - `//`:@:floor division <!--SR:!2028-07-05,1258,350-->
 - `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2026-06-20,651,330-->

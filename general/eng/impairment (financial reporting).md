@@ -57,7 +57,7 @@ Impairment is {@{currently governed by [IAS 36](list%20of%20International%20Fina
 
 ### Incurred Loss Model
 
-{@{An investment is recognized as impaired}@} when {@{there is no longer reasonable assurance that the [future cash flows](cash%20flow.md) associated with it will be collected either in their entirety or when due}@}. Entities look for {@{evidence of situations that would indicate impairment}@}. Such triggering events include when the entity<sup>[\[11\]](#^ref-11)</sup> – <!--SR:!2025-03-27,65,310!2025-02-12,28,270!2025-03-28,66,310-->
+{@{An investment is recognized as impaired}@} when {@{there is no longer reasonable assurance that the [future cash flows](cash%20flow.md) associated with it will be collected either in their entirety or when due}@}. Entities look for {@{evidence of situations that would indicate impairment}@}. Such triggering events include when the entity<sup>[\[11\]](#^ref-11)</sup> – <!--SR:!2025-03-27,65,310!2025-05-02,79,270!2025-03-28,66,310-->
 
 - \(annotation: difficulties\) ::@:: is experiencing notable financial difficulties, <!--SR:!2025-03-26,64,310!2025-03-27,65,310-->
 - \(annotation: payments\) ::@:: has defaulted on or is late making interest payments or principal payments, <!--SR:!2025-03-28,66,310!2025-03-28,66,310-->

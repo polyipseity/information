@@ -338,7 +338,7 @@ By {@{definition}@}, {@{the solution of a scheduling problem that includes a pre
 
 ## see also
 
-- [tsort](tsort.md), ::@:: a Unix program for topological sorting <!--SR:!2025-02-18,67,310!2025-02-12,63,310-->
+- [tsort](tsort.md), ::@:: a Unix program for topological sorting <!--SR:!2025-02-18,67,310!2025-11-14,275,330-->
 - [feedback arc set](feedback%20arc%20set.md), ::@:: a set of edges whose removal allows the remaining subgraph to be topologically sorted <!--SR:!2025-07-28,183,310!2025-02-17,66,310-->
 - [Tarjan's strongly connected components algorithm](Tarjan's%20strongly%20connected%20components%20algorithm.md), ::@:: an algorithm that gives the topologically sorted list of strongly connected components in a graph <!--SR:!2025-03-16,73,270!2025-05-27,125,290-->
 - [pre-topological order](pre-topological%20order.md)
