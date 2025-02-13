@@ -76,7 +76,7 @@ The content is in teaching order.
   - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2025-02-19,12,270!2025-02-23,16,290-->
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-02-16,10,270!2025-02-21,14,290-->
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-02-14,8,250!2025-02-22,15,290-->
-  - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis <!--SR:!2025-02-21,14,290!2025-02-13,7,250-->
+  - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis <!--SR:!2025-02-21,14,290!2025-03-10,25,270-->
   - operations management / generality and broadness ::@:: apply to many business settings <!--SR:!2025-02-21,14,290!2025-02-22,15,290-->
     - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty <!--SR:!2025-02-18,12,270!2025-02-22,15,290-->
   - operations management / modeling and abstraction ::@:: captures the key decision-making step and trade-off from a complex setting, and then apply the results back; simplifications are needed, which is convenient but can also bring limitation <!--SR:!2025-02-17,11,270!2025-02-19,12,270-->
@@ -94,7 +94,7 @@ The content is in teaching order.
   - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2025-02-22,15,290!2025-02-23,16,290-->
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2025-02-17,11,270!2025-02-23,16,290-->
     - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-02-19,12,270!2025-02-14,8,250-->
-    - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-02-13,7,250!2025-02-21,14,290-->
+    - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-03-09,24,270!2025-02-21,14,290-->
   - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-02-15,9,250!2025-02-14,8,250-->
 
 ## week 2 lecture

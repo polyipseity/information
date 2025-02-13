@@ -25,7 +25,7 @@ tags:
 >
 > On {@{a very high level}@}, {@{the main elements in valuing a corporate by Discounted Cash Flow}@} are as follows; see [Valuation using discounted cash flows](valuation%20using%20discounted%20cash%20flows.md), and graphics below, for detail: (annotation: they are {@{free cash flow projections, discount rate, and terminal value}@})
 >
-> - __Free Cash Flow Projections:__ ::@:: Projections of the amount of Cash produced by a company's business operations after paying for operating expenses and capital expenditures.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-20,14,290!2025-02-13,8,250-->
+> - __Free Cash Flow Projections:__ ::@:: Projections of the amount of Cash produced by a company's business operations after paying for operating expenses and capital expenditures.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-20,14,290!2025-03-05,20,250-->
 > - __Discount Rate:__ ::@:: The cost of capital \(Debt and Equity\) for the business. This rate, which acts like an interest rate on future Cash inflows, is used to convert them into current dollar equivalents. <!--SR:!2025-02-15,10,270!2025-02-17,11,270-->
 > - __Terminal Value:__ ::@:: The value of a business at the end of the projection period \(typical for a DCF analysis is either a 5-year projection period or, occasionally, a 10-year projection period\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-16,10,270!2025-02-20,14,290-->
 
@@ -109,7 +109,7 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
   - (annotation: adjusted present value) Advantages: ::@:: Simpler to apply if a specific project is being valued which does not have earmarked debt capital finance <!--SR:!2025-02-20,14,290!2025-02-18,12,270-->
   - (annotation: adjusted present value) Disadvantages: ::@:: Requires judgement on choice of discount rate; no explicit allowance for cost of debt capital, which may be much higher than a [risk-free rate](risk-free%20rate.md) <!--SR:!2025-02-23,17,309!2025-03-03,19,250-->
 - [Weighted average cost of capital](weighted%20average%20cost%20of%20capital.md) approach \(WACC\)
-  - (annotation: weighted average cost of capital) ::@:: Derive a weighted cost of the capital obtained from the various sources and use that discount rate to discount the unlevered free cash flows from the project <!--SR:!2025-02-13,8,250!2025-02-17,11,270-->
+  - (annotation: weighted average cost of capital) ::@:: Derive a weighted cost of the capital obtained from the various sources and use that discount rate to discount the unlevered free cash flows from the project <!--SR:!2025-03-06,21,250!2025-02-17,11,270-->
   - (annotation: weighted average cost of capital) Advantages: ::@:: Overcomes the requirement for debt capital finance to be earmarked to particular projects <!--SR:!2025-02-16,10,270!2025-02-23,17,309-->
   - (annotation: weighted average cost of capital) Disadvantages: ::@:: Care must be exercised in the selection of the appropriate income stream. The net cash flow to total invested capital is the generally accepted choice. <!--SR:!2025-02-19,13,289!2025-02-22,16,290-->
 - [Total cash flow](total%20cash%20flow.md) approach \(TCF\)<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> (TODO: clarification needed)

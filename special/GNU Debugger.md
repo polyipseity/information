@@ -19,7 +19,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 ### common commands
 
-- `apropos <regex>` ::@:: find text matching `<regex>` <!--SR:!2025-06-22,226,330!2025-02-13,119,290-->
+- `apropos <regex>` ::@:: find text matching `<regex>` <!--SR:!2025-06-22,226,330!2026-01-27,348,290-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2025-04-29,169,310!2025-07-05,237,330-->
 - `break <where>` ::@:: set a breakpoint <!--SR:!2025-06-14,220,330!2025-09-30,301,330-->
 - `continue` ::@:: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->

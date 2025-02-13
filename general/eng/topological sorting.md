@@ -178,9 +178,9 @@ Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S ca
 >
 >     {@{mark <i>n</i> with a permanent mark}@}
 >     {@{add <i>n</i> to head of <i>L</i>}@}
-> </pre> <!--SR:!2025-03-01,74,334!2025-03-15,86,359!2025-02-13,58,331!2025-03-07,80,351!2025-03-07,80,351!2025-03-15,86,359!2025-02-26,71,338!2025-07-11,156,318!2025-03-01,74,351!2025-03-20,91,359!2025-03-11,83,351!2025-03-19,90,359!2025-03-21,92,359!2025-03-15,86,359-->
+> </pre> <!--SR:!2025-03-01,74,334!2025-03-15,86,359!2025-08-20,188,331!2025-03-07,80,351!2025-03-07,80,351!2025-03-15,86,359!2025-02-26,71,338!2025-07-11,156,318!2025-03-01,74,351!2025-03-20,91,359!2025-03-11,83,351!2025-03-19,90,359!2025-03-21,92,359!2025-03-15,86,359-->
 
-{@{Each node _n_}@} gets {@{_prepended_ to the output list L only after considering all other nodes that depend on _n_ \(all descendants of _n_ in the graph\)}@}. Specifically, when {@{the algorithm adds node _n_}@}, we are guaranteed that {@{all nodes that depend on _n_ are already in the output list L}@}: they were {@{added to L either by the recursive call to visit\(\) that ended before the call to visit _n_, or by a call to visit\(\) that started even before the call to visit _n_}@}. Since {@{each edge and node is visited once}@}, {@{the algorithm runs in linear time}@}. {@{This depth-first-search-based algorithm}@} is {@{the one described by [Cormen et al. \(2001\)](#^ref-3)}@};<sup>[\[3\]](#^ref-3)</sup> it seems to {@{have been first described}@} {@{in print by Tarjan in 1976}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-03,76,338!2025-03-12,84,351!2025-03-17,88,359!2025-03-09,81,338!2025-03-18,89,359!2025-03-15,86,359!2025-03-09,81,338!2025-06-09,131,299!2025-02-13,58,331!2025-03-05,78,338!2025-08-09,181,331-->
+{@{Each node _n_}@} gets {@{_prepended_ to the output list L only after considering all other nodes that depend on _n_ \(all descendants of _n_ in the graph\)}@}. Specifically, when {@{the algorithm adds node _n_}@}, we are guaranteed that {@{all nodes that depend on _n_ are already in the output list L}@}: they were {@{added to L either by the recursive call to visit\(\) that ended before the call to visit _n_, or by a call to visit\(\) that started even before the call to visit _n_}@}. Since {@{each edge and node is visited once}@}, {@{the algorithm runs in linear time}@}. {@{This depth-first-search-based algorithm}@} is {@{the one described by [Cormen et al. \(2001\)](#^ref-3)}@};<sup>[\[3\]](#^ref-3)</sup> it seems to {@{have been first described}@} {@{in print by Tarjan in 1976}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-03,76,338!2025-03-12,84,351!2025-03-17,88,359!2025-03-09,81,338!2025-03-18,89,359!2025-03-15,86,359!2025-03-09,81,338!2025-06-09,131,299!2025-08-20,188,331!2025-03-05,78,338!2025-08-09,181,331-->
 
 ### parallel algorithms
 
@@ -305,7 +305,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 >     - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
 >     - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
 >       - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
->       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2025-03-07,80,351!2025-02-13,58,331!2025-03-21,92,359!2025-03-18,89,359!2025-03-19,90,359!2025-03-19,90,359!2025-03-08,81,351!2025-02-26,71,338!2025-02-25,70,319!2025-03-11,83,351!2025-06-22,142,314-->
+>       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2025-03-07,80,351!2025-10-30,259,351!2025-03-21,92,359!2025-03-18,89,359!2025-03-19,90,359!2025-03-19,90,359!2025-03-08,81,351!2025-02-26,71,338!2025-02-25,70,319!2025-03-11,83,351!2025-06-22,142,314-->
 
 Equivalently:
 

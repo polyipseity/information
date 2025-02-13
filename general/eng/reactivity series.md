@@ -128,7 +128,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
 - _(most reactive)_→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
-- [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2025-05-10,197,250!2025-02-13,397,250-->
+- [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2025-05-10,197,250!2025-08-31,199,230-->
 - [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2025-10-23,326,230-->
 - [potassium](potassium.md)→::@::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2025-11-14,655,310-->
 - [sodium](sodium.md)→::@::←[lithium](lithium.md) <!--SR:!2025-08-25,195,210!2026-08-29,826,290-->

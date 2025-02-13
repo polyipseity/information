@@ -53,7 +53,7 @@ The content is in teaching order.
     - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2026-01-18,373,312!2025-08-09,260,332-->
 - week 1 exercise: 1/1, graded
   - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!2025-02-15,97,366!2026-05-31,473,386-->
-  - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2026-05-30,472,386!2025-02-13,95,366-->
+  - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2026-05-30,472,386!2026-06-10,482,386-->
 
 ## week 1 lecture
 
@@ -67,7 +67,7 @@ The content is in teaching order.
     - addition: string concatenation
 - week 1 lecture materials
 - week 1 practice question set: 10/10, ungraded
-  - Python becomes very popular due to the following reasons, except for... ::@:: It executes the fastest as compared to other programming languages. <!--SR:!2026-05-20,464,386!2025-02-13,95,366-->
+  - Python becomes very popular due to the following reasons, except for... ::@:: It executes the fastest as compared to other programming languages. <!--SR:!2026-05-20,464,386!2026-06-11,483,386-->
 
 ## week 2 pre-lecture
 
@@ -248,7 +248,7 @@ The content is in teaching order.
 - datetime: 2024-10-11T16:00:00+08:00/2024-10-11T17:50:00+08:00
 - status: unscheduled, public holiday: Chung Yeung Festival
 - common mistakes
-  - `=` vs `==` ::@:: Do not mix up the assignment operator and comparison operator. <!--SR:!2025-02-13,95,366!2026-05-29,471,386-->
+  - `=` vs `==` ::@:: Do not mix up the assignment operator and comparison operator. <!--SR:!2026-06-07,479,386!2026-05-29,471,386-->
   - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2025-02-16,98,366!2026-05-24,467,386-->
   - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2025-02-16,98,366!2026-05-25,468,386-->
   - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2026-05-19,463,386!2025-02-22,103,380-->

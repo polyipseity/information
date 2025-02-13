@@ -31,7 +31,7 @@ Put the above together to get the following {@{[quadratic programming](quadratic
 
 The {@{$\mathbf{w}$ and $b$ that solve this quadratic programming problem}@} determine the final classifier, {@{$$\mathbf{x} \mapsto \operatorname{sgn}\left(\mathbf{w}^\intercal \mathbf{x} - b \right)$$}@}, where $\operatorname{sgn}(*)$ is {@{the [sign function](sign%20function.md)}@}. <!--SR:!2026-10-10,647,330!2025-03-08,201,310!2025-07-15,303,330-->
 
-An important consequence of the above description is that {@{the max-margin hyperplane is completely determined by $\mathbf{x}_i$ in the training data that lie closest to it}@}. These $\mathbf{x}_i$ are called {@{_support vectors_}@}. <!--SR:!2025-06-01,269,330!2025-02-13,170,310-->
+An important consequence of the above description is that {@{the max-margin hyperplane is completely determined by $\mathbf{x}_i$ in the training data that lie closest to it}@}. These $\mathbf{x}_i$ are called {@{_support vectors_}@}. <!--SR:!2025-06-01,269,330!2027-02-12,729,330-->
 
 ## nonlinear kernels
 

@@ -355,7 +355,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 2500&nbsp;000 km
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}@} <!--SR:!2026-01-08,422,371!2025-02-13,140,311-->
+> - explanation: {@{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}@} <!--SR:!2026-01-08,422,371!2026-04-24,435,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {@{4}@}
-> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2025-07-26,248,355!2025-02-13,126,335-->
+> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2025-07-26,248,355!2026-04-11,422,335-->
 
 <!-- markdownlint MD028 -->
 

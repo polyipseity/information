@@ -119,7 +119,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 {@{Constrained Markov decision processes \(CMDPS\)}@} are {@{extensions to Markov decision process \(MDPs\)}@}. There are {@{three fundamental differences}@} between MDPs and CMDPs.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-03-09,71,329!2025-03-07,70,329!2025-02-14,49,309-->
 
 - There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
-- CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2025-02-13,48,292!2025-03-05,68,312-->
+- CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2025-08-30,198,312!2025-03-05,68,312-->
 - The final policy ::@:: depends on the starting state. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 
 {@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.) <!--SR:!2025-02-16,51,309!2025-03-09,71,329!2025-02-14,49,309-->
@@ -130,7 +130,7 @@ There are {@{a number of applications}@} for CMDPs. It has recently been used in
 
 ### continuous-time Markov decision process
 
-In {@{discrete-time Markov Decision Processes}@}, decisions are {@{made at discrete time intervals}@}. However, for {@{__continuous-time Markov decision processes__}@}, decisions can be {@{made at any time the decision maker chooses}@}. In comparison to {@{discrete-time Markov decision processes}@}, continuous-time Markov decision processes can {@{better model the decision-making process for a system that has [continuous dynamics](discrete%20time%20and%20continuous%20time.md)}@}, i.e., {@{the system dynamics is defined by [ordinary differential equations](ordinary%20differential%20equation.md) \(ODEs\)}@}. These kind of applications raise in {@{[queueing systems](queueing%20theory.md), epidemic processes, and [population processes](population%20process.md)}@}. <!--SR:!2025-03-13,75,329!2025-02-13,48,309!2025-03-10,72,329!2025-02-21,55,309!2025-03-10,72,329!2025-02-28,64,329!2025-03-02,66,329!2025-03-13,75,329-->
+In {@{discrete-time Markov Decision Processes}@}, decisions are {@{made at discrete time intervals}@}. However, for {@{__continuous-time Markov decision processes__}@}, decisions can be {@{made at any time the decision maker chooses}@}. In comparison to {@{discrete-time Markov decision processes}@}, continuous-time Markov decision processes can {@{better model the decision-making process for a system that has [continuous dynamics](discrete%20time%20and%20continuous%20time.md)}@}, i.e., {@{the system dynamics is defined by [ordinary differential equations](ordinary%20differential%20equation.md) \(ODEs\)}@}. These kind of applications raise in {@{[queueing systems](queueing%20theory.md), epidemic processes, and [population processes](population%20process.md)}@}. <!--SR:!2025-03-13,75,329!2025-09-06,205,329!2025-03-10,72,329!2025-02-21,55,309!2025-03-10,72,329!2025-02-28,64,329!2025-03-02,66,329!2025-03-13,75,329-->
 
 Like the discrete-time Markov decision processes, in continuous-time Markov decision processes {@{the agent aims at finding the optimal _policy_ which could maximize the expected cumulated reward}@}. The only difference with the standard case stays in the fact that, {@{due to the continuous nature of the time variable, the sum is replaced by an integral}@}: {@{$$\max \operatorname {E} _{\pi }\left[\left.\int _{0}^{\infty }\gamma ^{t}r(s(t),\pi (s(t)))\,dt\;\right|s_{0}\right]$$}@} where {@{$0\leq \gamma <1.$}@} <!--SR:!2025-03-02,66,329!2025-03-01,65,329!2025-05-03,98,289!2025-03-14,76,329-->
 
@@ -171,7 +171,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 
 - a set _x_ ::@:: of possible inputs, <!--SR:!2025-02-28,64,312!2025-02-22,59,312-->
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2025-02-22,59,312!2025-03-03,66,312-->
-- a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2025-02-13,48,292!2025-02-28,64,312-->
+- a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2025-07-03,140,292!2025-02-28,64,312-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2025-02-28,64,312!2025-02-22,59,312-->
 - a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.) <!--SR:!2025-04-03,76,272!2025-06-04,120,292-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2025-02-22,59,312!2025-02-14,49,292-->

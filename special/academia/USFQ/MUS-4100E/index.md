@@ -139,7 +139,7 @@ The content is in teaching order.
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2025-02-17,17,320!2025-02-18,18,320-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-02-17,17,320!2025-02-18,18,320-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-02-18,18,320!2025-02-17,17,320-->
-  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-03-15,35,300!2025-02-13,13,300-->
+  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-03-15,35,300!2025-03-23,38,300-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-02-18,18,320!2025-02-17,17,320-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-02-18,18,320!2025-02-17,17,320-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-04-05,52,320!2025-02-17,17,320-->
@@ -151,12 +151,12 @@ The content is in teaching order.
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-02-18,18,320!2025-03-27,44,320-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-02-17,17,320!2025-02-17,17,320-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-03-14,34,300!2025-03-28,45,320-->
-- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-02-13,13,300!2025-02-17,17,320-->
+- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-04-10,56,320!2025-02-17,17,320-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-02-18,18,320!2025-02-18,18,320-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-03-16,36,300!2025-02-13,13,300-->
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-03-16,36,300!2025-03-24,39,300-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-02-18,18,320!2025-02-13,13,300-->
+  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-02-18,18,320!2025-04-10,56,320-->
 - quiz (attendance): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2

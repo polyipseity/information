@@ -122,7 +122,7 @@ float aFloat = 3; // the `int` of value 3 is implicitly converted into a `float`
 assert aFloat == 3;
 ```
 
-If implicit conversion is disallowed, one can also {@{explicitly convert the value to the type of the variable, but with loss of data}@}: <!--SR:!2025-02-13,291,330-->
+If implicit conversion is disallowed, one can also {@{explicitly convert the value to the type of the variable, but with loss of data}@}: <!--SR:!2028-09-29,1324,350-->
 
 ```Java
 int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly converted into an `int` of value 3

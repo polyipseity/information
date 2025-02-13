@@ -147,7 +147,7 @@ return (
 > iodides
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}@} <!--SR:!2026-07-21,1056,262!2025-02-13,205,190-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}@} <!--SR:!2026-07-21,1056,262!2026-03-09,389,190-->
 
 <!-- markdownlint MD028 -->
 
@@ -348,7 +348,7 @@ return await memorize_map(
 - [ammonium sulfite](ammonium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-12-15,887,338-->
 - [barium hydroxide](barium%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-02-26,114,238-->
 - [barium oxide](barium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2027-05-05,922,298-->
-- [barium sulfate](barium%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-13,46,150-->
+- [barium sulfate](barium%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-07,22,130-->
 - [calcium hydroxide](calcium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-23,470,298-->
 - [calcium oxide](calcium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-07-14,559,258-->
 - [calcium sulfate](calcium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-15,308,198-->
@@ -370,7 +370,7 @@ return await memorize_map(
 - [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-06-27,178,198-->
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-24,15,130-->
-- [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-13,27,130-->
+- [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-19,34,130-->
 - [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-11,315,198-->
 - [mercury(I) bromide](mercury(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-03-27,660,318-->
 - [mercury(I) chloride](mercury(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-24,120,218-->
@@ -392,7 +392,7 @@ return await memorize_map(
 - [sodium phosphate](sodium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-05-03,823,278-->
 - [sodium sulfide](sodium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-11-23,720,278-->
 - [sodium sulfite](sodium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-10-11,460,278-->
-- [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-13,24,130-->
+- [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-25,12,130-->
 - [strontium oxide](strontium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2025-03-09,321,278-->
 - [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-27,122,158-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-03-09,504,258-->

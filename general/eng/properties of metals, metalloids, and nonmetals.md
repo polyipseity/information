@@ -52,7 +52,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 <!--pytextgen generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←appearance <!--SR:!2026-12-13,965,330!2028-04-15,1430,350-->
-- appearance→::@::←deformability (as a solid) <!--SR:!2026-01-08,497,250!2025-02-13,178,270-->
+- appearance→::@::←deformability (as a solid) <!--SR:!2026-01-08,497,250!2026-06-09,481,270-->
 - deformability (as a solid)→::@::←[density](density.md) <!--SR:!2026-03-01,768,290!2025-07-11,318,270-->
 - [density](density.md)→::@::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2029-03-24,1621,310!2025-06-24,141,150-->
 - [electrical conductivity](electrical%20conductivity.md)→::@::←form <!--SR:!2026-06-26,752,270!2026-04-20,538,230-->

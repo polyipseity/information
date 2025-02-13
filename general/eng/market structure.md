@@ -17,7 +17,7 @@ __Market structure__, in [economics](economics.md), depicts {@{how firms are dif
 
 The main body of the market is {@{composed of suppliers and demanders}@}. Both parties are {@{equal and indispensable}@}. The market structure {@{determines the price formation method of the market}@}. {@{Suppliers and Demanders \(sellers and buyers\)}@} will {@{aim to find a price that both parties can accept creating a equilibrium quantity}@}. <!--SR:!2025-02-18,70,320!2025-03-01,80,338!2025-02-22,74,320!2025-02-18,70,320!2025-03-03,82,338-->
 
-{@{Market definition}@} is {@{an important issue for regulators facing changes in market structure, which needs to be determined}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The relationship between buyers and sellers as the main body of the market}@} includes {@{three situations}@}: {@{the relationship between sellers \(enterprises and enterprises\), the relationship between buyers \(enterprises or consumers\) and the relationship between buyers and sellers}@}; the relationship between {@{the buyer and seller of the market and the buyer and seller entering the market}@}. These relationships are {@{the market competition and monopoly relationships}@} reflected in economics. <!--SR:!2025-02-21,73,320!2025-09-18,231,330!2025-12-02,294,340!2025-02-18,70,320!2025-02-13,54,260!2025-08-16,200,320!2025-02-22,74,320-->
+{@{Market definition}@} is {@{an important issue for regulators facing changes in market structure, which needs to be determined}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The relationship between buyers and sellers as the main body of the market}@} includes {@{three situations}@}: {@{the relationship between sellers \(enterprises and enterprises\), the relationship between buyers \(enterprises or consumers\) and the relationship between buyers and sellers}@}; the relationship between {@{the buyer and seller of the market and the buyer and seller entering the market}@}. These relationships are {@{the market competition and monopoly relationships}@} reflected in economics. <!--SR:!2025-02-21,73,320!2025-09-18,231,330!2025-12-02,294,340!2025-02-18,70,320!2025-08-28,196,280!2025-08-16,200,320!2025-02-22,74,320-->
 
 ## history
 
@@ -98,7 +98,7 @@ The number of enterprises is {@{small, entry and exit from the market are restri
 
 __Monopoly:__
 
-The number of enterprises is {@{only one, access is restricted or completely blocked}@}, and the products produced and sold are {@{unique and cannot be replaced by other products}@}. The company has {@{strong control and influence over the price of the entire market}@}. <!--SR:!2025-02-21,73,320!2025-03-01,80,338!2025-02-13,65,310-->
+The number of enterprises is {@{only one, access is restricted or completely blocked}@}, and the products produced and sold are {@{unique and cannot be replaced by other products}@}. The company has {@{strong control and influence over the price of the entire market}@}. <!--SR:!2025-02-21,73,320!2025-03-01,80,338!2025-11-22,282,330-->
 
 ## importance of market structure
 
@@ -113,7 +113,7 @@ Market structure provides {@{indication on potential opportunities and threats}@
 
 Besides market structure, {@{many factors contribute to conduct and market performance}@}. Market pressures are similarly evolving therefore when {@{decision making based on market performance}@} it is essential to {@{assess all the circumstances affecting competition rather than rely solely on measures of market structure}@}. {@{Using a single measurement of market share}@} can be {@{misleading or inconclusive as only indicators are taken into account}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-02-16,68,320!2025-02-19,71,320!2025-06-16,146,300!2025-12-02,294,340!2025-02-21,73,320-->
 
-Different aspects that have been taken into account to {@{measure the innovative advantage within particular market structures}@} are: {@{the size distribution of firms, the existence of certain barriers to entry, and the stage of industry in the product lifecycle}@}.<sup>[\[19\]](#^ref-19)</sup> Creating {@{another measure to determine the current market structure}@} that can be used as {@{evidence or to evaluate current market performance}@} thus it can be used to {@{forecast and determine future trends}@}. <!--SR:!2025-02-22,74,320!2025-06-12,142,300!2025-02-21,73,320!2025-02-13,65,310!2025-02-18,70,320-->
+Different aspects that have been taken into account to {@{measure the innovative advantage within particular market structures}@} are: {@{the size distribution of firms, the existence of certain barriers to entry, and the stage of industry in the product lifecycle}@}.<sup>[\[19\]](#^ref-19)</sup> Creating {@{another measure to determine the current market structure}@} that can be used as {@{evidence or to evaluate current market performance}@} thus it can be used to {@{forecast and determine future trends}@}. <!--SR:!2025-02-22,74,320!2025-06-12,142,300!2025-02-21,73,320!2025-11-21,281,330!2025-02-18,70,320-->
 
 > __Four classes of market structure__
 >

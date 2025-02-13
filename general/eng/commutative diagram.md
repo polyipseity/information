@@ -31,7 +31,7 @@ A commutative diagram often consists of {@{three parts: (annotation: objects, mo
 In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2025-02-21,15,290!2025-02-21,15,290!2025-02-20,14,290-->
 
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-20,14,290!2025-02-18,12,270-->
-- An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-02-21,15,290!2025-02-13,8,250-->
+- An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-02-21,15,290!2025-03-05,20,250-->
 - An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2025-02-22,16,290!2025-02-22,16,290-->
 - The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-02-22,16,290!2025-02-21,15,290-->
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-02-20,14,290!2025-02-22,16,290-->

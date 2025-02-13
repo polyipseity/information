@@ -62,7 +62,7 @@ Huffman coding uses {@{a specific method for choosing the representation for eac
 
 ### informal description
 
-__Given__ ::@:: A set of symbols and their weights \(usually [proportional](proportionality%20(mathematics).md) to probabilities\). <!--SR:!2025-10-04,238,330!2025-02-13,58,310-->
+__Given__ ::@:: A set of symbols and their weights \(usually [proportional](proportionality%20(mathematics).md) to probabilities\). <!--SR:!2025-10-04,238,330!2025-10-26,255,330-->
 
 __Find__ ::@:: A [prefix-free binary code](prefix%20code.md) \(a set of codewords\) with minimum [expected](expected%20value.md) codeword length \(equivalently, a tree with minimum [weighted path length from the root](weighted%20path%20length%20from%20the%20root.md)\). <!--SR:!2025-06-27,156,310!2025-06-29,158,310-->
 
@@ -102,7 +102,7 @@ As {@{defined by [Shannon \(1948\)](A%20Mathematical%20Theory%20of%20Communicati
 
 As {@{a consequence of [Shannon's source coding theorem](Shannon's%20source%20coding%20theorem.md)}@}, the entropy is {@{a measure of the smallest codeword length that is theoretically possible for the given alphabet with associated weights}@}. In this example, the weighted average codeword length is {@{2.25 bits per symbol}@}, only {@{slightly larger than the calculated entropy of 2.205 bits per symbol}@}. So {@{not only is this code optimal in the sense that no other feasible code performs better}@}, but {@{it is very close to the theoretical limit established by Shannon}@}. <!--SR:!2025-10-02,236,330!2025-07-26,170,310!2025-02-21,66,310!2025-09-30,235,330!2025-02-17,62,310!2025-02-14,59,310-->
 
-In general, {@{a Huffman code need not be unique}@}. Thus {@{the set of Huffman codes for a given probability distribution}@} is {@{a non-empty subset of the codes minimizing $L(C)$ for that probability distribution}@}. \(However, for {@{each minimizing codeword length assignment}@}, there exists {@{at least one Huffman code with those lengths}@}.\) <!--SR:!2025-09-28,233,330!2025-02-15,60,310!2025-10-18,250,330!2025-02-13,58,310!2025-02-16,61,310-->
+In general, {@{a Huffman code need not be unique}@}. Thus {@{the set of Huffman codes for a given probability distribution}@} is {@{a non-empty subset of the codes minimizing $L(C)$ for that probability distribution}@}. \(However, for {@{each minimizing codeword length assignment}@}, there exists {@{at least one Huffman code with those lengths}@}.\) <!--SR:!2025-09-28,233,330!2025-02-15,60,310!2025-10-18,250,330!2025-10-25,254,330!2025-02-16,61,310-->
 
 ## basic technique
 
@@ -150,7 +150,7 @@ If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time
     1. Dequeue {@{the two nodes with the lowest weight by examining the fronts of both queues}@}. (annotation: It is possible that {@{the two nodes are from the same queue}@}, so {@{the first two nodes of each queue should be inspected}@}.)
     2. Create {@{a new internal node, with the two just-removed nodes as children \(either node can be either child\)}@} and {@{the sum of their weights as the new weight}@}.
     3. Enqueue {@{the new node into the rear of}@} the second queue.
-4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2025-10-21,253,330!2025-02-16,61,310!2025-02-21,66,310!2025-02-15,60,310!2025-02-20,65,310!2025-10-18,251,330!2025-06-03,125,290!2025-02-13,58,310!2025-06-30,158,310!2025-10-10,244,330!2025-02-21,66,310-->
+4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2025-10-21,253,330!2025-02-16,61,310!2025-02-21,66,310!2025-02-15,60,310!2025-02-20,65,310!2025-10-18,251,330!2025-06-03,125,290!2025-08-12,180,310!2025-06-30,158,310!2025-10-10,244,330!2025-02-21,66,310-->
 
 Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a dictionary which maps the symbols to binary codes as follows}@}: <!--SR:!2025-02-15,60,310!2025-02-18,63,310-->
 
@@ -161,7 +161,7 @@ Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a
 
 In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}. <!--SR:!2025-10-19,251,330!2025-02-22,67,310!2025-02-18,63,310!2025-07-06,163,310-->
 
-It is generally beneficial to {@{minimize the variance of codeword length}@}. For example, {@{a communication buffer receiving Huffman-encoded data may need to be larger}@} to {@{deal with especially long symbols if the tree is especially unbalanced}@}. To {@{minimize variance}@}, {@{simply break ties between queues by choosing the item in the first queue}@}. This modification will {@{retain the mathematical optimality of the Huffman coding}@} while {@{both minimizing variance and minimizing the length of the longest character code}@}. <!--SR:!2025-02-13,58,310!2025-10-13,246,330!2025-02-17,62,310!2025-02-17,62,310!2025-06-11,135,290!2025-02-22,67,310!2025-06-10,131,290-->
+It is generally beneficial to {@{minimize the variance of codeword length}@}. For example, {@{a communication buffer receiving Huffman-encoded data may need to be larger}@} to {@{deal with especially long symbols if the tree is especially unbalanced}@}. To {@{minimize variance}@}, {@{simply break ties between queues by choosing the item in the first queue}@}. This modification will {@{retain the mathematical optimality of the Huffman coding}@} while {@{both minimizing variance and minimizing the length of the longest character code}@}. <!--SR:!2025-10-25,254,330!2025-10-13,246,330!2025-02-17,62,310!2025-02-17,62,310!2025-06-11,135,290!2025-02-22,67,310!2025-06-10,131,290-->
 
 ### decompression
 
