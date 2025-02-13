@@ -77,7 +77,7 @@ The content is in teaching order.
   - dot product / algebraically ::@:: It is the sum of the products of the corresponding entries of the two sequences of numbers. Algebraic and geometric definitions are equivalent when using Cartesian coordinates.
   - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates.
   - dot product / properties
-    - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec \rvert^2$
+    - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec v \rvert^2$
     - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$
     - dot product / properties / distributivity ::@:: $\vec u \cdot (\vec v + \vec w) = \vec u \cdot \vec v + \vec u \cdot \vec w \qquad (\vec u + \vec v) \cdot \vec w = \vec u \cdot \vec w + \vec v \cdot \vec w$
     - dot product / properties / homogeneity ::@:: $(c \vec u) \cdot \vec v = c (\vec u \cdot \vec v) = \vec u \cdot (c \vec v)$
