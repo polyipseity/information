@@ -96,7 +96,7 @@ The content is in teaching order.
     - corporate finance / bid–ask spread / ask price ::@:: The price a market dealer or maker is willing to sell. Investor's (your) purchase price. Usually higher than the bid price.
   - corporate finance / commission ::@:: A type of _transaction cost_. It is a service charge assessed by a broker for handling the purchase or sale of a security.
   - corporate finance / stock markets
-    - corporate finance / stock markets / types of order ::@:: high frequency traders (HFTs), limit order (limit order book), market order
+    - corporate finance / stock markets / types of order ::@:: high frequency traders (HFTs), limit order (limit order book; liquidity supplier), market order (liquidity demander)
     - corporate finance / stock markets / dark pools ::@:: limit order books not visible; this and internal dealer platforms accounted for almost 40% of trades in 2015, while electronic exchanges accounted for 20%
   - corporate finance / financial cycle ::@:: Savers give money to companies with new ideas and projects. Companies give interest, profits, and wages back to savers.
   - corporate finance / financial institutions ::@:: banks & credit unions, hedge funds, insurance companies, mutual funds, pension funds, private equity funds, venture capital funds, etc.
