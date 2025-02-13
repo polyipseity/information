@@ -154,7 +154,7 @@ As {@{a common application of the arrow notation}@}, suppose {@{$f:X\times X\to 
 
 {@{Index notation may be used}@} instead of functional notation. That is, instead of {@{writing _f_<!-- markdown separator -->&hairsp;\(_x_\), one writes $f_{x}$}@}. <!--SR:!2025-02-26,15,310!2025-02-27,16,310-->
 
-This is typically the case for {functions whose domain is the set of the [natural numbers](natural%20number.md)}. Such a function is called {@{a [sequence](sequence%20(mathematics).md)}@}, and, in this case {@{the element $f_{n}$}@} is called {@{the _n_<!-- markdown separator -->th element of the sequence}@}. <!--SR:!2025-02-25,14,290!2025-03-01,18,325!2025-03-01,18,325-->
+This is typically the case for {@{functions whose domain is the set of the [natural numbers](natural%20number.md)}@}. Such a function is called {@{a [sequence](sequence%20(mathematics).md)}@}, and, in this case {@{the element $f_{n}$}@} is called {@{the _n_<!-- markdown separator -->th element of the sequence}@}. <!--SR:!2025-02-25,14,290!2025-03-01,18,325!2025-03-01,18,325-->
 
 The index notation can also be used for {@{distinguishing some variables called _[parameters](parameter%20(mathematics).md#mathematics)_ from the "true variables"}@}. In fact, parameters are {@{specific variables that are considered as being fixed during the study of a problem}@}. For example, {@{the map $x\mapsto f(x,t)$ \(see above\)}@} would be denoted {@{$f_{t}$ using index notation}@}, if we define {@{the collection of maps $f_{t}$}@} by {@{the formula $f_{t}(x)=f(x,t)$ for all $x,t\in X$}@}. <!--SR:!2025-02-25,14,290!2025-03-01,18,325!2025-02-26,15,310!2025-02-27,16,310!2025-02-28,17,310!2025-03-02,18,327-->
 
@@ -346,14 +346,14 @@ On the other hand, {@{the _[inverse image](inverse%20image.md#inverse%20image)_ 
 
 By {@{definition of a function}@}, {@{the image of an element _x_ of the domain}@} is {@{always a single element of the codomain}@}. However, {@{the preimage $f^{-1}(y)$ of an element _y_ of the codomain}@} {@{may be [empty](empty%20set.md) or contain any number of elements}@}. For example, if {@{_f_ is the function from the integers to themselves that maps every integer to 0}@}, then {@{$f^{-1}(0)=\mathbb {Z}$}@}. <!--SR:!2025-02-28,17,310!2025-02-26,15,310!2025-03-02,18,327!2025-03-02,18,327!2025-03-01,18,325!2025-02-28,17,310!2025-02-28,17,310-->
 
-If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ and _D_ are subsets of _Y_}@}, then one has the following properties: (annotation: 6 items: {@{monotonicity, domain; monotonicity, codomain; domain expansion; codomain contraction; idempotency, domain; idempotency, codomain}@}) <!--SR:!2025-02-28,17,310!2025-03-02,18,327!2025-03-01,18,327-->
+If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ and _D_ are subsets of _Y_}@}, then one has the following properties: (annotation: 6 items: {@{monotonicity, domain; monotonicity, codomain; domain expansion; codomain contraction; idempotency, image of domain; idempotency, pre-image of codomain}@}) <!--SR:!2025-02-28,17,310!2025-03-02,18,327!2025-03-01,18,327-->
 
 - (annotation: monotonicity, domain) ::@:: $$A\subseteq B\Longrightarrow f(A)\subseteq f(B)$$ <!--SR:!2025-02-28,17,310!2025-02-25,14,290-->
 - (annotation: monotonicity, codomain) ::@:: $$C\subseteq D\Longrightarrow f^{-1}(C)\subseteq f^{-1}(D)$$ <!--SR:!2025-03-01,18,325!2025-02-26,15,310-->
 - (annotation: domain expansion) ::@:: $$A\subseteq f^{-1}(f(A))$$ <!--SR:!2025-03-01,18,325!2025-03-02,18,327-->
 - (annotation: codomain contraction) ::@:: $$C\supseteq f(f^{-1}(C))$$ <!--SR:!2025-02-25,14,290!2025-02-25,14,290-->
-- (annotation: idempotency, domain) ::@:: $$f(f^{-1}(f(A)))=f(A)$$ <!--SR:!2025-02-22,12,305!2025-02-27,16,290-->
-- (annotation: idempotency, codomain) ::@:: $$f^{-1}(f(f^{-1}(C)))=f^{-1}(C)$$ <!--SR:!2025-03-02,18,327!2025-02-28,17,310-->
+- (annotation: idempotency, image of domain) ::@:: $$f(f^{-1}(f(A)))=f(A)$$ <!--SR:!2025-02-22,12,305!2025-02-27,16,290-->
+- (annotation: idempotency, pre-image of codomain) ::@:: $$f^{-1}(f(f^{-1}(C)))=f^{-1}(C)$$ <!--SR:!2025-03-02,18,327!2025-02-28,17,310-->
 
 {@{The preimage by _f_ of an element _y_ of the codomain}@} is sometimes called, in some contexts, {@{the [fiber](fiber%20(mathematics).md) of _y_ under __f__}@}. <!--SR:!2025-02-26,15,310!2025-02-27,16,310-->
 

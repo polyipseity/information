@@ -72,6 +72,32 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
+- datetime: 2025-02-06T13:30:00+08:00/2025-02-06T14:50:00+08:00
+- [dot product](../../../../general/dot%20product.md)
+  - dot product / algebraically ::@:: It is the sum of the products of the corresponding entries of the two sequences of numbers. Algebraic and geometric definitions are equivalent when using Cartesian coordinates.
+  - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates.
+  - dot product / properties
+    - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec \rvert^2$
+    - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$
+    - dot product / properties / distributivity ::@:: $\vec u \cdot (\vec v + \vec w) = \vec u \cdot \vec v + \vec u \cdot \vec w \qquad (\vec u + \vec v) \cdot \vec w = \vec u \cdot \vec w + \vec v \cdot \vec w$
+    - dot product / properties / homogeneity ::@:: $(c \vec u) \cdot \vec v = c (\vec u \cdot \vec v) = \vec u \cdot (c \vec v)$
+- [polarization identity](../../../../general/polarization%20identity.md) ::@:: $2 \lVert \vec x \rVert^2 + 2 \lVert \vec y \rVert^2 = \lVert \vec x + \vec y \rVert^2 - \lVert \vec x - \vec y \rVert^2$
+  - polarization identity / variant ::@:: $\langle \vec x, \vec y \rangle = \frac 1 4 \left(\lVert x + y \rVert^2 - \lVert x - y \rVert^2 \right)$
+- [dot product](../../../../general/dot%20product.md)
+  - dot product / cosine ::@:: $\cos \theta = \frac {\vec u \cdot \vec v} {\lVert \vec u \rVert \lVert \vec v \rVert}$
+    - dot product / cosine / applications ::@:: inscribed triangle with diameter has a right angle, law of cosine/generalized Pythagoras theorem
+  - dot product / projection ::@:: Project $\vec b$ onto $\vec a$: $\operatorname{proj}_{\vec a} \vec b = \frac {\vec a \cdot \vec b} {\vec a \cdot \vec a} \vec a$. $\frac {\vec a \cdot \vec b} {\vec a \cdot \vec a}$ can be interpreted as $\cos \theta$, where $\theta$ is the angle between them.
+    - dot product / projection / scalar ::@:: It is simply the signed length of the projection, which is $\operatorname{comp}_{\vec a} \vec b = \frac {\vec a \cdot \vec b} {\lvert \vec a \rvert}$.
+- [cross product](../../../../general/cross%20product.md) ::@:: Given two linearly independent vectors $\mathbf a$ and $\mathbf b$, the cross product, $\mathbf a \times \mathbf b$ (read "a cross b"), is a vector that is perpendicular to both $\mathbf a$ and $\mathbf b$, and thus normal to the plane containing them. <p> The magnitude of the cross product equals the area of a parallelogram with the vectors for sides; in particular, the magnitude of the product of two perpendicular vectors is the product of their lengths, i.e. $\lVert \mathbf a \rVert \lVert \mathbf b \rVert \sin \theta$, where $\theta$ is the angle between them.
+  - cross product / properties
+    - cross product / properties / anti-commutative ::@:: $\mathbf a \times \mathbf b = -\mathbf b \times \mathbf a$
+    - cross product / properties / distributivity ::@:: $\mathbf a \times (\mathbf b + \mathbf c) = \mathbf a \times \mathbf b + \mathbf a \times \mathbf c \qquad (\mathbf a + \mathbf b) \times \mathbf c = \mathbf a \times \mathbf c + \mathbf b \times \mathbf c$
+    - cross product / properties / zero element ::@:: $\mathbf a \times \mathbf 0 = \mathbf 0 \times \mathbf a = \mathbf 0$
+    - cross product / properties / parallel ::@:: $\mathbf a \times \mathbf a = \mathbf 0$
+  - cross product / calculation
+    - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$
+    - cross product / calculation / matrix determinant ::@:: $\mathbf a \times \mathbf b = \begin{vmatrix} \mathbf i & \mathbf j & \mathbf k \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$
+
 ## assignments
 
 ## midterm examination

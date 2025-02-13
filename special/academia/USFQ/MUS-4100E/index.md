@@ -229,7 +229,7 @@ The content is in teaching order.
   - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-02-20,9,318!2025-02-25,13,338-->
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
+  - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2025-03-03,19,358!2025-03-03,19,358-->
 - [big band](../../../../general/big%20band.md)
   - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
@@ -241,7 +241,7 @@ The content is in teaching order.
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2025-02-25,13,338!2025-03-04,20,358-->
   - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2025-02-25,13,338!2025-03-04,20,358-->
   - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2025-03-04,20,358!2025-02-25,13,338-->
-  - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz <!--SR:!2025-03-04,20,358!2025-03-03,19,358-->
+  - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2025-03-04,20,358!2025-03-03,19,358-->
 - assignment: (none)
 
 ## week 4 lecture 2
@@ -250,7 +250,7 @@ The content is in teaching order.
   - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00
 - [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
   - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2025-02-25,13,338!2025-02-25,13,338-->
-- [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
+- [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection
   - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-02-25,14,338!2025-03-04,20,358-->
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-02-25,13,338!2025-03-03,19,358-->
 - [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
