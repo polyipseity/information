@@ -62,7 +62,8 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/)
-<!-- - [questions](questions.md) -->
+  - [TAPPS](assignments/TAPPS/index.md)
+- [questions](questions.md)
 
 ## week 1 lecture
 
@@ -79,11 +80,41 @@ The content is in teaching order.
   - finance / theory ::@:: It consists of concepts on how to allocate resources over time, and quantitative models used to help evaluate alternatives, decisions, and implementations of them.
   - finance / principles ::@:: arbitrage and the law of one price, price of risk, valuation principles
   - finance / valuation principles ::@:: Identify and compares benefits and costs of a decision. Challenges include benefits and costs being distributed over time, and actual timing and sizes of cash flows are uncertain.
+- [corporate finance](../../../../general/corporate%20finance.md) ::@:: It is an area of finance that deals with the sources of funding, and the capital structure of businesses, the actions that managers take to increase the value of the firm to the shareholders, and the tools and analysis used to allocate financial resources. The primary goal of corporate finance is to maximize or increase shareholder value.
+  - corporate finance / learning objectives ::@:: division of corporate ownership from its management, financial institutions in the economy, financial manager roles, financial markets importance
+  - corporate finance / [corporation](../../../../general/corporation.md)
+    - corporate finance / corporation / features ::@:: managed by delegates (e.g. financial managers), owned by investors, limited liability to shareholders, separate legal entity, transferable shares, unlimited life
+    - corporate finance / corporation / taxation ::@:: Depending on relevant laws and regulations, a corporation's profits is subject to corporate income tax/business profits tax. If dividends are paid out, then the received dividends are subject to personal income tax. <p> However, the latter is not applicable to Hong Kong, i.e. no capital gains tax/dividend income tax.
+    - corporate finance / corporation / structure ::@:: board of directors ← chief executive officer (CEO) ← chief financial officer (CFO), chief operating officer (COO) <br/> chief financial officer (CFO) ← controller, treasurer <br/> controller ← accounting, tax department <br/> treasurer ← capital budgeting, credit management, risk management
+    - corporate finance / corporation / financial manager ::@:: manage cash flows from operations, make financial decisions (e.g. bonds, stocks), make investment decisions; all to maximize shareholder value
+    - corporate finance / corporation / [principal–agent problem](../../../../general/principal–agent%20problem.md) ::@:: Principal (ownership) hires an agent (management) to represent their (ownership's) interest. This is the _separation_ of ownership and management. <p> _Agency problem_ is, there may be conflict of self-interest between ownership and management. This causes _agency cost_, when management pursues its self-interest (e.g. keeping their jobs) at the expense of ownership. <p> There are several ways to mitigate this.
+      - corporate finance / corporation / [principal–agent problem](../../../../general/principal–agent%20problem.md) / mitigations ::@:: capital structure, e.g. cash constraints due to debt, risk of bankruptcy; compensation tied to corporate performance, e.g. bonus, stock options; corporate control, e.g. reputation in labor market, risk of hostile takeover
+  - corporate finance / stock markets ::@:: primary market: a corporation issues new shares and sells them to investors; secondary market: shares traded between investors without the involvement of the corporation
+    - corporate finance / stock markets / biggest ::@:: year is 2018, in decreasing total value of shares traded: New York Stock Exchange (NYSE), Nasdaq, BATS Global Markets, Shenzhen Stock Exchange, Japan Exchange Group, ..., (10) Hong Kong Exchanges & Clearing, ...
+  - corporate finance / [bid–ask spread](../../../../general/bid–ask%20spread.md) ::@:: A type of _transaction cost_. It is the difference between the prices quoted (either by a single market maker or in a limit order book) for an immediate sale (ask) and an immediate purchase (bid).
+    - corporate finance / bid–ask spread / bid price ::@:: The price a market dealer or maker is willing to buy. Investor's (your) sale price. Usually lower than the ask price.
+    - corporate finance / bid–ask spread / ask price ::@:: The price a market dealer or maker is willing to sell. Investor's (your) purchase price. Usually higher than the bid price.
+  - corporate finance / commission ::@:: A type of _transaction cost_. It is a service charge assessed by a broker for handling the purchase or sale of a security.
+  - corporate finance / stock markets
+    - corporate finance / stock markets / types of order ::@:: high frequency traders (HFTs), limit order (limit order book), market order
+    - corporate finance / stock markets / dark pools ::@:: limit order books not visible; this and internal dealer platforms accounted for almost 40% of trades in 2015, while electronic exchanges accounted for 20%
+  - corporate finance / financial cycle ::@:: Savers give money to companies with new ideas and projects. Companies give interest, profits, and wages back to savers.
+  - corporate finance / financial institutions ::@:: banks & credit unions, hedge funds, insurance companies, mutual funds, pension funds, private equity funds, venture capital funds, etc.
+    - corporate finance / financial institutions / bank & credit unions ::@:: source: deposits/savings; use: loans to businesses and people
+    - corporate finance / financial institutions / insurance companies ::@:: source: investment earnings, premiums; use: buy bonds and stocks, and using investment income to pay claims
+    - corporate finance / financial institutions / mutual funds ::@:: source: people's investments/savings; use: buy bonds, stocks, and other financial instruments on behalf of its investors
+    - corporate finance / financial institutions / pension funds ::@:: source: retirement savings from workplace; use: similar to mutual funds, but to provide retirement income
+    - corporate finance / financial institutions / hedge funds ::@:: source: wealthy individuals and endowments; use: invest in any investment to try to maximize returns
+    - corporate finance / financial institutions / venture capital funds ::@:: source: wealthy individuals and endowments; use: invest in entrepreneurial firms and startups
+    - corporate finance / financial institutions / private equity funds ::@:: source: wealthy individuals and endowments; use: purchase whole companies with little equity and much debt (borrowing)
+- [questions § week 1 lecture](questions.md#week%201%20lecture)
+- [TAPPS/week 1 lecture](assignments/TAPPS/week%201%20lecture.md)
+- readings: chapter 1 (exclude section 1.2), chapter 3
 
 ## week 1 tutorial
 
 - datetime: 2025-02-07T10:30:00+08:00/2025-02-07T11:20:00+08:00
-- status: optional
+- status: hybrid (online, physical), optional
 
 ## week 1 lecture 2
 
