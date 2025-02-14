@@ -9,51 +9,51 @@ tags:
 
 # law of one price
 
-- For {@{the music album by Echoterra}@}, see {@{[The Law of One](The%20Law%20of%20One.md#studio%20albums)}@}.
+- For {@{the music album by Echoterra}@}, see {@{[The Law of One](The%20Law%20of%20One.md#studio%20albums)}@}. <!--SR:!2025-02-18,4,270!2025-02-18,4,270-->
 
-In {@{[economics](economics.md)}@}, {@{the __law of one price__ \(__LOOP__\)}@} states that in {@{the absence of [trade](trade.md) frictions \(such as [transport costs](transport%20cost.md) and [tariffs](tariff.md)\), and under conditions of [free competition](free%20competition.md) and price flexibility \(where no individual sellers or buyers have power to manipulate prices and prices can freely adjust\)}@}, {@{identical [goods](goods.md) sold at different locations should be sold for the same price when prices are expressed in a common [currency](currency.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> This law is derived from {@{the assumption of the inevitable elimination of all [arbitrage](arbitrage.md)}@}.<sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+In {@{[economics](economics.md)}@}, {@{the __law of one price__ \(__LOOP__\)}@} states that in {@{the absence of [trade](trade.md) frictions \(such as [transport costs](transport%20cost.md) and [tariffs](tariff.md)\), and under conditions of [free competition](free%20competition.md) and price flexibility \(where no individual sellers or buyers have power to manipulate prices and prices can freely adjust\)}@}, {@{identical [goods](goods.md) sold at different locations should be sold for the same price when prices are expressed in a common [currency](currency.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> This law is derived from {@{the assumption of the inevitable elimination of all [arbitrage](arbitrage.md)}@}.<sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
 ## overview
 
-{@{The intuition behind the law of one price}@} is based on {@{the assumption that differences between prices are eliminated by market participants taking advantage of arbitrage opportunities}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+{@{The intuition behind the law of one price}@} is based on {@{the assumption that differences between prices are eliminated by market participants taking advantage of arbitrage opportunities}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-18,4,270!2025-02-18,4,270-->
 
 ### example in regular trade
 
-Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}.
+Assume {@{different prices for a single identical good in two locations}@}, {@{no transport costs, and no economic barriers between the two locations}@}. {@{Arbitrage by both buyers and sellers}@} can then operate: buyers {@{from the expensive area can buy in the cheap area}@}, and sellers {@{in the cheap area can sell in the expensive area}@}. <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
-{@{Both scenarios}@} result in {@{a single, equal price per homogeneous good in all locations}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+{@{Both scenarios}@} result in {@{a single, equal price per homogeneous good in all locations}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-18,4,270!2025-02-18,4,270-->
 
 _For further discussion, see [Rational pricing](rational%20pricing.md#the%20law%20of%20one%20price)_.
 
 ### example in formal financial markets
 
-{@{[Commodities](commodities.md)}@} can be {@{traded on [financial markets](financial%20markets.md)}@}, where there will be {@{a single [offer](discounts%20and%20allowances.md) price \(asking price\), and [bid price](bid%20price.md)}@}. Although {@{there is a small [spread](yield%20spread.md) between these two values}@} {@{the law of one price applies \(to each\)}@}.
+{@{[Commodities](commodities.md)}@} can be {@{traded on [financial markets](financial%20markets.md)}@}, where there will be {@{a single [offer](discounts%20and%20allowances.md) price \(asking price\), and [bid price](bid%20price.md)}@}. Although {@{there is a small [spread](yield%20spread.md) between these two values}@} {@{the law of one price applies \(to each\)}@}. <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
-No trader will {@{sell the commodity at a lower price than the [market maker](market%20maker.md)'s bid-level}@} or {@{[buy](trade.md) at a higher price than the market maker's offer-level}@}.<sup>[\[8\]](#^ref-8)</sup> In either case {@{moving away from the prevailing price}@} would {@{either leave no takers, or be [charity](gift.md)}@}.
+No trader will {@{sell the commodity at a lower price than the [market maker](market%20maker.md)'s bid-level}@} or {@{[buy](trade.md) at a higher price than the market maker's offer-level}@}.<sup>[\[8\]](#^ref-8)</sup> In either case {@{moving away from the prevailing price}@} would {@{either leave no takers, or be [charity](gift.md)}@}. <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
-In {@{the [derivatives](derivative%20(finance).md) market}@} the law applies to {@{[financial instruments](financial%20instrument.md) which appear different, but which resolve to the same set of cash flows}@}; see {@{[Rational pricing](rational%20pricing.md)}@}. Thus:<sup>[\[5\]](#^ref-5)</sup>
+In {@{the [derivatives](derivative%20(finance).md) market}@} the law applies to {@{[financial instruments](financial%20instrument.md) which appear different, but which resolve to the same set of cash flows}@}; see {@{[Rational pricing](rational%20pricing.md)}@}. Thus:<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
-> {@{A security}@} must {@{have a single price, no matter how that security is created}@}. For example, if {@{an option can be created using two different sets of underlying securities}@}, then {@{the total price for each would be the same or else an arbitrage opportunity would exist}@}.
+> {@{A security}@} must {@{have a single price, no matter how that security is created}@}. For example, if {@{an option can be created using two different sets of underlying securities}@}, then {@{the total price for each would be the same or else an arbitrage opportunity would exist}@}. <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
-A similar argument can be used by considering {@{[arrow securities](state%20prices.md) as alluded to by Arrow and Debreu \(1944\)}@}.
+A similar argument can be used by considering {@{[arrow securities](state%20prices.md) as alluded to by Arrow and Debreu \(1944\)}@}. <!--SR:!2025-02-18,4,270-->
 
 ### non-application
 
-- See also: ::@:: [Purchasing power parity § Difficulties](purchasing%20power%20parity.md#difficulties)
+- See also: ::@:: [Purchasing power parity § Difficulties](purchasing%20power%20parity.md#difficulties) <!--SR:!2025-02-18,4,270!2025-02-18,4,270-->
 
 - The law does not {@{apply _intertemporally_}@}, so {@{prices for the same item can be different at different times in one market}@}. {@{The application of the law to financial markets}@} is obscured by the fact that {@{the [market maker](market%20maker.md)'s prices are continually moving in [liquid](market%20liquidity.md) markets}@}. However, at {@{the _moment_ each trade is executed}@}, {@{the law is in force \(it would normally be against exchange rules to break it\)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
 - The law also need not apply if {@{buyers have [less than perfect information](asymmetric%20information.md) about where to find the lowest price}@}. In this case, sellers face {@{a tradeoff between the frequency and the profitability of their sales}@}. That is, firms may be {@{indifferent between posting a high price \(thus selling infrequently, because most consumers will [search](search%20theory.md) for a lower one\)}@} and {@{a low price \(at which they will sell more often, but earn less profit per sale\)}@}.<sup>[\[9\]](#^ref-9)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
-- {@{[The Balassa–Samuelson effect](Balassa-Samuelson%20effect.md#how%20identical%20products%20can%20be%20sold%20at%20consistently%20different%20prices%20in%20different%20places)}@} argues that {@{the law of one price is not applicable to all goods internationally}@}, because {@{some goods are not [tradable](tradable.md)}@}. It argues that {@{the consumption may be cheaper in some countries than others}@}, because {@{nontradables \(especially land and labor\) are cheaper in less-developed countries}@}. This can make {@{a typical consumption basket cheaper in a less-developed country}@}, even if {@{some goods in that basket have their prices equalized by international trade}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+- {@{[The Balassa–Samuelson effect](Balassa-Samuelson%20effect.md#how%20identical%20products%20can%20be%20sold%20at%20consistently%20different%20prices%20in%20different%20places)}@} argues that {@{the law of one price is not applicable to all goods internationally}@}, because {@{some goods are not [tradable](tradable.md)}@}. It argues that {@{the consumption may be cheaper in some countries than others}@}, because {@{nontradables \(especially land and labor\) are cheaper in less-developed countries}@}. This can make {@{a typical consumption basket cheaper in a less-developed country}@}, even if {@{some goods in that basket have their prices equalized by international trade}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270!2025-02-18,4,270-->
 
 ### prerequisite
 
-\(annotation: prerequisites: 3 items: {@{absence of trade frictions, free competition, price flexibility}@}\)
+\(annotation: prerequisites: 3 items: {@{absence of trade frictions, free competition, price flexibility}@}\) <!--SR:!2025-02-18,4,270-->
 
 - absence of trade frictions
 - free competition
 - price flexibility<sup>[\[10\]](#^ref-10)</sup>
 
-The law of one price has been applied towards {@{the analysis of many public events}@}, such as:
+The law of one price has been applied towards {@{the analysis of many public events}@}, such as: <!--SR:!2025-02-18,4,270-->
 
 - In 2015, An [International Monetary Fund](International%20Monetary%20Fund.md) working paper found that the law of one price holds for most tradeable products in [Brazil](Brazil.md) but does not apply in the same way to its non-tradeable goods.<sup>[\[11\]](#^ref-11)</sup>
 - A director of the [Council on Foreign Relations](Council%20on%20Foreign%20Relations.md) held in 2013 that the then-current [Apple](Apple%20Inc..md) [iPad mini](iPad%20mini.md) followed the law of one price, as far as its price nearly reached the same [US dollar](US%20dollar.md) [exchange rate](exchange%20rate.md) in each applicable country.<sup>[\[12\]](#^ref-12)</sup>
