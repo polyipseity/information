@@ -284,16 +284,16 @@ In this context problems of {@{[scheduling \(sequencing of production\)](schedul
 
 {@{A series of tools}@} have been {@{developed mainly with the objective of replicating Toyota success}@}: {@{a very common implementation}@} involves {@{small cards known as [kanbans](kanbans.md)}@}; these also come in some varieties: {@{reorder kanbans, alarm kanbans, triangular kanbans, etc.}@} In {@{the classic kanban procedure with one card}@}:
 
-- Parts are kept in ::@:: containers with their respective kanbans
-- The downstream station ::@:: moves the kanban to the upstream station and starts producing the part at the downstream station (annotation: request parts)
-- The upstream operator ::@:: takes the most urgent kanban from his list \(compare to [queue discipline](Kendall's%20notation.md#D%20The%20queue's%20discipline) from queue theory\) and produces it and attach its respective kanban
+- (annotation: classic kanban) Parts are kept in ::@:: containers with their respective kanbans
+- (annotation: classic kanban) The downstream station ::@:: moves the kanban to the upstream station and starts producing the part at the downstream station (annotation: request parts)
+- (annotation: classic kanban) The upstream operator ::@:: takes the most urgent kanban from his list \(compare to [queue discipline](Kendall's%20notation.md#D%20The%20queue's%20discipline) from queue theory\) and produces it and attach its respective kanban
 
 {@{The two-card kanban procedure}@} differs a bit:
 
-- The downstream operator ::@:: takes the production kanban from his list
-- If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card
-- (annotation: if required parts are available and the move kanban is removed) ::@:: He produces the part and attach its respective production kanban
-- Periodically a mover ::@:: picks up the move kanbans in upstream stations and search for the respective parts, when found he exchanges production kanbans for move kanbans and move the parts to downstream stations
+- (annotation: two-card kanban) The downstream operator ::@:: takes the production kanban from his list
+- (annotation: two-card kanban) If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card
+- (annotation: two-card kanban; if required parts are available and the move kanban is removed) ::@:: He produces the part and attach its respective production kanban
+- (annotation: two-card kanban) Periodically a mover ::@:: picks up the move kanbans in upstream stations and search for the respective parts, when found he exchanges production kanbans for move kanbans and move the parts to downstream stations
 
 Since {@{the number of kanbans in the production system is set by managers as a constant number}@}, {@{the kanban procedure}@} works as {@{[WIP](work%20in%20process.md) controlling device}@}, which {@{for a given arrival rate, per [Little's law](Little's%20law.md)}@}, works as {@{a lead time controlling device}@}.
 
