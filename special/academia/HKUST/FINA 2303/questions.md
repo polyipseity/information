@@ -84,3 +84,54 @@ tags:
 > 4. 1.1026
 >
 > - solution: {@{3}@} <!--SR:!2025-02-17,4,270-->
+
+## week 1 lecture 2
+
+> Q1. You have calculated that it is not worth it to buy oil or copper with \$50&nbsp;000 using today's market prices.
+>
+> Would your decision change if you believe the value of oil or copper would increase over the next month?
+>
+> 1. Yes.
+> 2. No.
+>
+> - solution: {@{2}@}
+> - explanation: {@{The new fact does not affect the present value.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. You have just won a contest. You can choose between choose 2 prizes:
+>
+> 1. 4 tickets (face value: \$400 each, eBay price: \$300 each) to a ballet dance performance
+> 2. 2 tickets (face value: \$450 each, eBay price: \$500 each) to your favorite band
+>
+> Which prize should you claim?
+>
+> - solution: {@{1}@}
+> - explanation: {@{Ignore face values. Use market prices, which in this case are eBay prices.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. The Law of One Price (i.e., the prices of two equivalent goods or securities are the same) holds:
+>
+> 1. only at a specific point in time.
+> 2. if the goods are trading in the same market.
+> 3. if arbitrage exists in the markets where the goods are trading.
+> 4. if the markets where the goods are trading are competitive.
+>
+> - solution: {@{4}@}
+> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. To decide whether to accept this investment opportunity:
+>
+> Cost: 100&nbsp;000 dollars now
+> Benefit: 105&nbsp;000 dollars in 1 year
+>
+> You should find:
+>
+> 1. benefit in today's cash
+> 2. benefit in 1 year
+> 3. cost in today's cash
+>
+> - solution: {@{1}@}

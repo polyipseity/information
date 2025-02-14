@@ -79,6 +79,22 @@ The content is in teaching order.
   - hallucination / examples ::@:: DALL-E 2 or Midjourney unable to create the image you want because the AI does not understand your desired context. <!--SR:!2025-02-15,4,270!2025-02-15,4,270-->
 - [model collapse](../../../../general/model%20collapse.md) ::@:: It is a phenomenon where machine learning models gradually degrade due to errors coming from uncurated training on the outputs of another model, including prior versions of itself. Such outputs are known as synthetic data. <p> A study in 2024 shows this. For example, after successive generations, nonsense text are forgotten. Biases in the dataset get amplified, e.g. forgetting obscure dog breeds exist due to under-representation in the initial dataset. <!--SR:!2025-02-15,4,270!2025-02-15,4,270-->
 
+## week 1 lecture 2
+
+- datetime: 2025-02-07T13:30:00+08:00/2025-02-07T14:50:00+08:00
+- status: canceled
+
+> Dear All,
+>
+> The lectures tomorrow (both L1 and L2) will be canceled due to my sickness.
+>
+> Because of the canceled lectures tomorrow, the tutorial starting date changes accordingly: T2 will start on Feb 18. But T1 still starts on Feb 14 (next Friday). You may check the tutorial arrangements at the tutorial page.
+>
+> Sorry for any possible inconvenience that may cause. See you next week!
+>
+> Best regards,
+> \[redacted\]
+
 ## assignments
 
 ## midterm examination

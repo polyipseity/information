@@ -284,16 +284,16 @@ In this context problems of {@{[scheduling \(sequencing of production\)](schedul
 
 {@{A series of tools}@} have been {@{developed mainly with the objective of replicating Toyota success}@}: {@{a very common implementation}@} involves {@{small cards known as [kanbans](kanbans.md)}@}; these also come in some varieties: {@{reorder kanbans, alarm kanbans, triangular kanbans, etc.}@} In {@{the classic kanban procedure with one card}@}: <!--SR:!2025-02-23,16,290!2025-02-21,14,290!2025-02-23,16,290!2025-02-22,15,290!2025-02-21,14,290!2025-02-22,15,290-->
 
-- Parts are kept in ::@:: containers with their respective kanbans <!--SR:!2025-02-22,15,290!2025-02-21,14,290-->
-- The downstream station ::@:: moves the kanban to the upstream station and starts producing the part at the downstream station (annotation: request parts) <!--SR:!2025-02-19,12,270!2025-02-19,12,270-->
-- The upstream operator ::@:: takes the most urgent kanban from his list \(compare to [queue discipline](Kendall's%20notation.md#D%20The%20queue's%20discipline) from queue theory\) and produces it and attach its respective kanban <!--SR:!2025-03-05,19,250!2025-02-23,16,290-->
+- (annotation: classic kanban) Parts are kept in ::@:: containers with their respective kanbans <!--SR:!2025-02-22,15,290!2025-02-21,14,290-->
+- (annotation: classic kanban) The downstream station ::@:: moves the kanban to the upstream station and starts producing the part at the downstream station (annotation: request parts) <!--SR:!2025-02-19,12,270!2025-02-19,12,270-->
+- (annotation: classic kanban) The upstream operator ::@:: takes the most urgent kanban from his list \(compare to [queue discipline](Kendall's%20notation.md#D%20The%20queue's%20discipline) from queue theory\) and produces it and attach its respective kanban <!--SR:!2025-03-05,19,250!2025-02-23,16,290-->
 
 {@{The two-card kanban procedure}@} differs a bit: <!--SR:!2025-02-21,14,290-->
 
-- The downstream operator ::@:: takes the production kanban from his list <!--SR:!2025-02-23,16,290!2025-02-19,12,270-->
-- If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card <!--SR:!2025-02-19,12,270!2025-02-23,16,290-->
-- (annotation: if required parts are available and the move kanban is removed) ::@:: He produces the part and attach its respective production kanban <!--SR:!2025-02-19,12,270!2025-02-19,12,270-->
-- Periodically a mover ::@:: picks up the move kanbans in upstream stations and search for the respective parts, when found he exchanges production kanbans for move kanbans and move the parts to downstream stations <!--SR:!2025-02-18,12,270!2025-03-06,20,250-->
+- (annotation: two-card kanban) The downstream operator ::@:: takes the production kanban from his list <!--SR:!2025-02-23,16,290!2025-02-19,12,270-->
+- (annotation: two-card kanban) If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card <!--SR:!2025-02-19,12,270!2025-02-23,16,290-->
+- (annotation: two-card kanban; if required parts are available and the move kanban is removed) ::@:: He produces the part and attach its respective production kanban <!--SR:!2025-02-19,12,270!2025-02-19,12,270-->
+- (annotation: two-card kanban) Periodically a mover ::@:: picks up the move kanbans in upstream stations and search for the respective parts, when found he exchanges production kanbans for move kanbans and move the parts to downstream stations <!--SR:!2025-02-18,12,270!2025-03-06,20,250-->
 
 Since {@{the number of kanbans in the production system is set by managers as a constant number}@}, {@{the kanban procedure}@} works as {@{[WIP](work%20in%20process.md) controlling device}@}, which {@{for a given arrival rate, per [Little's law](Little's%20law.md)}@}, works as {@{a lead time controlling device}@}. <!--SR:!2025-02-23,16,290!2025-02-23,16,290!2025-02-23,16,290!2025-02-21,14,290!2025-02-23,16,290-->
 

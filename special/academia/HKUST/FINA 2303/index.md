@@ -120,6 +120,29 @@ The content is in teaching order.
 
 - datetime: 2025-02-07T16:30:00+08:00/2025-02-07T17:50:00+08:00
 - topic: time value of money (TVM)
+- [time value of money](../../../../general/time%20value%20of%20money.md) ::@:: It refers to the fact that there is normally a greater benefit to receiving a sum of money now rather than an identical sum later. It may be seen as an implication of the later-developed concept of time preference.
+  - time value of money / cost—benefit analysis ::@:: Consider the _present value_ cost and benefits of a decision. If cost is larger than benefit, then _reject_. If cost is smaller than benefit, then _accept_. Otherwise, you are _indifferent_ to the decision.
+    - time value of money / cost—benefit analysis / example ::@:: Your company needs to make a decision. How should the managers decide whether to proceed or not? <p> Identify the _present value_ costs and benefits.
+    - time value of money / cost—benefit analysis / present value costs ::@:: e.g. additional maintenance, construction costs, increase in labor costs, land purchase
+    - time value of money / cost—benefit analysis / present value benefits ::@:: e.g. better volume discounts, increased profit/margins, increased scales
+    - time value of money / cost—benefit analysis / present value ::@:: The best way to compute this is converting the costs and benefit in terms of _cash today_, e.g. _current_ market prices.
+- [valuation](../../../../general/valuation%20(finance).md) ::@:: the process of determining the value of a (potential) investment, asset, or security. Generally, there are three approaches taken, namely discounted cashflow valuation, relative valuation, and contingent claim valuation
+  - valuation / principle ::@:: objective: to maximize value <p> steps: Identify costs and benefits. Convert costs and benefits into _today's_ cash, e.g. using _current_ market prices. Compare costs and benefits to decide if you accept the decision. The calculated number is _net present value_ (NPV).
+    - valuation / principle / irrelevant values ::@:: They include your future expectations (e.g. the value would increase), your personal preferences (e.g. preferring A over B, even though the market price of A is lower than B). <p> Two points to note: <br/> 1. Market prices reflect the average preference of everyone for an item. Even if you value it higher or lower, you still buy/sell using the market price. So only market prices matter. <br/> 2. Your future expectations do not matter since you are making the decision _now_. For example, if you expect the price of an item will increase, and it does increase later such that iit changes your decision, you will make such a decision _in the future_. But your _current_ decision is still unaffected.
+- [law of one price](../../../../general/law%20of%20one%20price.md) ::@:: In the absence of trade frictions (such as transport costs and tariffs), and under conditions of free _competition_ and price flexibility (where no individual sellers or buyers have power to manipulate prices and prices can freely adjust), _identical goods_ sold at _different locations_ should be sold for the _same price_ when prices are expressed in a common currency.
+  - law of one price / mechanism ::@:: This law is derived from the assumption of the inevitable _elimination of all arbitrage_.
+- [arbitrage](../../../../general/arbitrage.md) ::@:: The practice of taking advantage of a difference in prices in two or more markets – striking a combination of matching deals to capitalize on the difference, the profit being the difference between the market prices at which the unit is traded.
+  - arbitrage / effect ::@:: Arbitrage has the effect of causing prices of the same or very similar assets in different markets to converge.
+- [interest rate](../../../../general/interest%20rate.md) ::@:: It is the amount of interest due per period, as a proportion of the amount lent, deposited, or borrowed (called the principal sum).
+  - interest rate / time value of money ::@:: Assume you have a _risk-free_ investment that has a certain interest rate, e.g. depositing in banks. Since it is _risk-free_, the return is guaranteed. <p> So the time value of money over time increases. Compare 1 dollar _now_ vs 1 dollar _later_. The 1 dollar now can be invested in this _risk-free_ investment to earn more in the future. So 1 dollar _now_ is more worth than 1 dollar _later_. <p> By this, given a certain amount of money _now_, we can use the _risk-free_ interest rate to compute its _future_ time value. In reverse, given a certain amount of money _in the future_, we can use the _risk-free_ interest rate to compute its _present_ time value, doing the reversed operation.
+    - interest rate / time value of money / aliases ::@:: cost of capital, discount rate, hurdle rate, interest rate, opportunity cost of capital, required rate of return
+  - interest rate / _risk-free_ interest rate, discount rate, $r_f$ ::@:: The interest rate at which money can be borrowed or lent without risk. By depositing money, we convert money today into money in the future. By borrowing money, we exchange money in the future for money today.
+  - interest rate / interest rate factor ::@:: It is the rate of exchange _from_ dollars today _to_ dollars in the future, calculated as $1 + r_f$.
+  - interest rate / discount factor ::@:: It is the rate of exchange between dollars _from_ the future _to_ dollars today, calculated as $1 / (1 + r_f)$.
+- [net present value](../../../../general/net%20present%20value.md) (NPV) ::@:: net present value (NPV) = present value (benefits/cash inflows) − present value (costs/cash outflows)
+- [questions § week 1 lecture 2](questions.md#week%201%20lecture%202)
+- [TAPPS/week 1 lecture 2](assignments/TAPPS/week%201%20lecture%202.md)
+- readings: chapter 3
 
 ## assignments
 
