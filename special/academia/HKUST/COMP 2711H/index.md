@@ -189,7 +189,7 @@ The content is in teaching order.
   - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
   - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::@:: Also known as the principle of addition or case work principle. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ + _B_ ways to do either one thing. <!--SR:!2026-06-30,503,393!2026-06-28,502,393-->
   - [§ rule of product](../../../../general/combinatorial%20principles.md#rule%20of%20product) ::@:: Also known as the principle of multiplication. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ \* _B_ ways to do both things. <!--SR:!2026-07-08,510,393!2026-06-29,503,393-->
-- [permutation](../../../../general/permutation.md) ::@:: the arrangement of $k$ things from $n$ things (order matters), calculated by $$P(n, k) = \frac {n!} {(n - k)!}$$ <!--SR:!2025-02-14,100,373!2026-07-01,504,393-->
+- [permutation](../../../../general/permutation.md) ::@:: the arrangement of $k$ things from $n$ things (order matters), calculated by $$P(n, k) = \frac {n!} {(n - k)!}$$ <!--SR:!2026-07-15,516,393!2026-07-01,504,393-->
 - [combination](../../../../general/combination.md) ::@:: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$ <!--SR:!2026-06-15,490,393!2026-06-03,480,393-->
 - [questions/2024-09-11](questions/2024-09-11.md)
 - [week 2 problem set](questions/week%202%20problem%20set.md)

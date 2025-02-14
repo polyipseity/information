@@ -16,7 +16,7 @@ In [financial accounting](financial%20accounting.md), a __liability__ is {@{a qu
 A liability is defined by the following characteristics:
 
 - [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2025-05-18,168,310!2025-06-10,195,310-->
-- [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2025-05-12,146,250!2025-02-14,102,290-->
+- [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2025-05-12,146,250!2026-03-29,408,310-->
 - [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2025-07-02,189,270!2025-09-18,281,330-->
 - [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2025-07-20,232,330!2025-04-16,160,310-->
 

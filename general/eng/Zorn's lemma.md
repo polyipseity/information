@@ -75,7 +75,7 @@ Suppose {@{otherwise, that _B_ is not linearly independent}@}. Then {@{there exi
 
 {@{The hypothesis of Zorn's lemma has been checked}@}, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal linearly independent subset _B_ of _V_}@}. <!--SR:!2025-02-28,48,298!2025-03-10,60,318!2025-03-28,75,330-->
 
-Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2025-02-14,41,310!2025-02-25,50,310!2025-03-27,74,330!2025-03-29,76,330!2025-05-18,100,290!2025-03-18,67,330!2025-03-18,67,330-->
+Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2025-08-09,176,330!2025-02-25,50,310!2025-03-27,74,330!2025-03-29,76,330!2025-05-18,100,290!2025-03-18,67,330!2025-03-18,67,330-->
 
 ### every nontrivial ring with unity contains a maximal ideal
 
@@ -123,7 +123,7 @@ This proof shows that actually {@{a slightly stronger version of Zorn's lemma is
 
 Alternatively, one can {@{use the same proof for the [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}. This is the proof given for example in {@{Halmos' _[Naive Set Theory](naive%20set%20theory.md)_ or in [§ Proof](#proof) below}@}. <!--SR:!2025-03-18,67,330!2025-03-28,75,330-->
 
-Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can also {@{be used to give a proof}@}. <!--SR:!2025-02-14,37,290!2025-03-27,74,330-->
+Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can also {@{be used to give a proof}@}. <!--SR:!2025-07-11,147,310!2025-03-27,74,330-->
 
 ## proof
 
@@ -143,7 +143,7 @@ The proof of the weak form is given in {@{[Hausdorff maximal principle\#Proof](H
 
 The same proof also shows {@{the following equivalent variant of Zorn's lemma}@}:<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-03-28,75,330-->
 
-> __Lemma__ — Let {@{$P$ be a partially ordered set in which each chain has a least upper bound in $P$}@}. Then {@{$P$ has a maximal element}@}. <!--SR:!2025-02-14,37,290!2025-03-27,74,330-->
+> __Lemma__ — Let {@{$P$ be a partially ordered set in which each chain has a least upper bound in $P$}@}. Then {@{$P$ has a maximal element}@}. <!--SR:!2025-07-10,146,310!2025-03-27,74,330-->
 
 Indeed, {@{trivially, Zorn's lemma implies the above lemma}@}. Conversely, the above lemma {@{implies the aforementioned weak form of Zorn's lemma}@}, since {@{a union gives a least upper bound}@}. <!--SR:!2025-02-27,50,310!2025-03-29,76,330!2025-03-10,60,318-->
 

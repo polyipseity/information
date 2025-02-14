@@ -67,7 +67,7 @@ The Yoneda embedding essentially states that {@{for every \(locally small\) cate
 
 - Main article: [End \(category theory\)](end%20(category%20theory).md)
 
-Given {@{two categories $\mathbf {C}$ and $\mathbf {D}$ with two functors $F,G:\mathbf {C} \to \mathbf {D}$}@}, {@{natural transformations between them}@} can be written as {@{the following [end](end%20(category%20theory).md).<sup>[\[5\]](#^ref-5)</sup> $$\mathrm {Nat} (F,G)=\int _{c\in \mathbf {C} }\mathrm {Hom} _{\mathbf {D} }(Fc,Gc)$$}@} (TODO: What is this "integral"?) <!--SR:!2025-03-21,53,309!2025-02-22,33,289!2025-02-14,25,269-->
+Given {@{two categories $\mathbf {C}$ and $\mathbf {D}$ with two functors $F,G:\mathbf {C} \to \mathbf {D}$}@}, {@{natural transformations between them}@} can be written as {@{the following [end](end%20(category%20theory).md).<sup>[\[5\]](#^ref-5)</sup> $$\mathrm {Nat} (F,G)=\int _{c\in \mathbf {C} }\mathrm {Hom} _{\mathbf {D} }(Fc,Gc)$$}@} (TODO: What is this "integral"?) <!--SR:!2025-03-21,53,309!2025-02-22,33,289!2025-04-25,70,269-->
 
 For {@{any functors $K\colon \mathbf {C} ^{op}\to \mathbf {Sets}$ and $H\colon \mathbf {C} \to \mathbf {Sets}$}@} the following formulas are {@{all formulations of the Yoneda lemma}@}.<sup>[\[6\]](#^ref-6)</sup> $$\begin{aligned} & K\cong \int ^{c\in \mathbf {C} }Kc\times \mathrm {Hom} _{\mathbf {C} }(-,c),\qquad K\cong \int _{c\in \mathbf {C} }(Kc)^{\mathrm {Hom} _{\mathbf {C} }(c,-)}, \\ & H\cong \int ^{c\in \mathbf {C} }Hc\times \mathrm {Hom} _{\mathbf {C} }(c,-),\qquad H\cong \int _{c\in \mathbf {C} }(Hc)^{\mathrm {Hom} _{\mathbf {C} }(-,c)}. \end{aligned}$$ (TODO: What is this magic?) <!--SR:!2025-03-23,55,309!2025-04-10,74,329-->
 
@@ -89,7 +89,7 @@ Now {@{the covariant hom-functor $\mathrm {Hom} _{\mathcal {C} }(*,-)$}@} corres
 
 ## history
 
-{@{Yoshiki Kinoshita stated in 1996}@} that {@{the term "Yoneda lemma"}@} was coined by {@{[Saunders Mac Lane](Saunders%20Mac%20Lane.md) following an interview he had with Yoneda}@} in {@{the [Gare du Nord](Gare%20du%20Nord.md) station}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-03-11,45,290!2025-04-02,67,310!2025-02-14,25,269!2025-03-22,55,309-->
+{@{Yoshiki Kinoshita stated in 1996}@} that {@{the term "Yoneda lemma"}@} was coined by {@{[Saunders Mac Lane](Saunders%20Mac%20Lane.md) following an interview he had with Yoneda}@} in {@{the [Gare du Nord](Gare%20du%20Nord.md) station}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-03-11,45,290!2025-04-02,67,310!2025-04-25,70,269!2025-03-22,55,309-->
 
 ## see also
 

@@ -85,7 +85,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
-  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!2025-02-14,96,366!2025-02-16,98,366-->
+  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!2026-06-15,486,386!2025-02-16,98,366-->
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab
@@ -228,9 +228,9 @@ The content is in teaching order.
     - addition: `random.randint(a, b)`
 - week 6 lecture materials
 - week 6 practice question set: 10/10, ungraded
-  - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!2025-02-14,96,366!2025-02-14,96,366-->
+  - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!2026-06-12,483,386!2026-06-13,484,386-->
   - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-09-16,245,346!2025-02-16,98,366-->
-  - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2025-02-15,97,366!2025-02-14,96,366-->
+  - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2025-02-15,97,366!2026-06-14,485,386-->
 
 ## week 6 lab
 

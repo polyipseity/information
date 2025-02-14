@@ -213,7 +213,7 @@ find customer patterns
 - _(begin)_→::@::←create a customer profile <!--SR:!2026-07-08,621,329!2025-06-21,335,349-->
 - create a customer profile→::@::←outline the interview <!--SR:!2026-05-08,498,289!2025-12-31,457,309-->
 - outline the interview→::@::←interview <!--SR:!2025-07-15,353,349!2025-02-20,239,329-->
-- interview→::@::←capture new customer profile <!--SR:!2025-04-16,268,309!2025-02-14,230,329-->
+- interview→::@::←capture new customer profile <!--SR:!2025-04-16,268,309!2027-03-13,757,329-->
 - capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2025-02-21,207,270!2025-03-25,254,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→::@::←find customer patterns <!--SR:!2025-07-06,279,269!2025-04-09,262,309-->
 - find customer patterns→::@::←_(end)_ <!--SR:!2025-06-26,339,349!2026-11-16,675,329-->
@@ -263,7 +263,7 @@ conclusion: make progress
 - test: prioritize tests→::@::←test: run tests <!--SR:!2026-12-27,705,329!2026-04-24,515,310-->
 - test: run tests→::@::←conclusion: capture findings <!--SR:!2025-08-14,301,269!2025-11-30,404,309-->
 - conclusion: capture findings→::@::←conclusion: make progress <!--SR:!2027-01-14,704,329!2025-11-16,404,309-->
-- conclusion: make progress→::@::←_(end)_ <!--SR:!2025-02-14,218,329!2025-07-29,301,270-->
+- conclusion: make progress→::@::←_(end)_ <!--SR:!2027-10-31,989,349!2025-07-29,301,270-->
 
 <!--/pytextgen-->
 

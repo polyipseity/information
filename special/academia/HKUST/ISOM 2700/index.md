@@ -75,7 +75,7 @@ The content is in teaching order.
 - [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2025-02-19,12,270!2025-02-23,16,290-->
   - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2025-02-19,12,270!2025-02-23,16,290-->
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-02-16,10,270!2025-02-21,14,290-->
-    - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-02-14,8,250!2025-02-22,15,290-->
+    - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-03-05,19,250!2025-02-22,15,290-->
   - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis <!--SR:!2025-02-21,14,290!2025-03-10,25,270-->
   - operations management / generality and broadness ::@:: apply to many business settings <!--SR:!2025-02-21,14,290!2025-02-22,15,290-->
     - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty <!--SR:!2025-02-18,12,270!2025-02-22,15,290-->
@@ -93,9 +93,9 @@ The content is in teaching order.
   - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touch-points with technology, enhancing performance using data <!--SR:!2025-02-19,12,270!2025-02-15,9,250-->
   - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2025-02-22,15,290!2025-02-23,16,290-->
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2025-02-17,11,270!2025-02-23,16,290-->
-    - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-02-19,12,270!2025-02-14,8,250-->
+    - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-02-19,12,270!2025-03-13,27,270-->
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-03-09,24,270!2025-02-21,14,290-->
-  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-02-15,9,250!2025-02-14,8,250-->
+  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-02-15,9,250!2025-03-07,21,250-->
 
 ## week 2 lecture
 
@@ -131,8 +131,8 @@ The content is in teaching order.
   - Gantt chart / finding flow time ::@:: Find the duration a color stays in the diagram. <!--SR:!2025-02-16,4,298!2025-02-15,4,298-->
   - Gantt chart / finding flow rate ::@:: Find a regular pattern. Then find the number of colors being outputted in that time. Then divide by the time. <p> This is the reciprocal of cycle time, _by definition_. <!--SR:!2025-02-15,4,298!2025-02-15,4,295-->
   - Gantt chart / finding capacity ::@:: If there is a bottleneck, this equals the found flow rate. <!--SR:!2025-02-16,4,298!2025-02-16,4,298-->
-  - Gantt chart / finding cycle time ::@:: Find a regular pattern. Then find the time between two colors being outputted. <p> This is the reciprocal of flow rate, _by definition_. <!--SR:!2025-02-15,4,298!2025-02-14,3,278-->
-  - Gantt chart / finding average work-in-process (WIP) inventory ::@:: Find a regular pattern that repeats. Then find the area covered with color, which has the unit unit-time. Divide it by the duration of the regular pattern. <!--SR:!2025-02-15,4,298!2025-02-14,3,278-->
+  - Gantt chart / finding cycle time ::@:: Find a regular pattern. Then find the time between two colors being outputted. <p> This is the reciprocal of flow rate, _by definition_. <!--SR:!2025-02-15,4,298!2025-02-22,8,278-->
+  - Gantt chart / finding average work-in-process (WIP) inventory ::@:: Find a regular pattern that repeats. Then find the area covered with color, which has the unit unit-time. Divide it by the duration of the regular pattern. <!--SR:!2025-02-15,4,298!2025-02-23,9,278-->
 - cumulative inflow/outflow chart ::@:: A cumulative chart with two lines, with the _x_-axis being time and _y_-axis being the number of units. One line is the _cumulative inflow_, which increases by 1 every time a flow unit enters the process. The other line is the _cumulative outflow_, which increases by 1 every time a flow unit exits the process. <!--SR:!2025-02-16,4,298!2025-02-16,4,298-->
   - cumulative inflow/outflow chart / _x_-gap ::@:: The _x_-gap at a particular _y_ is the flow time for the _y_-th unit. The average _x_-gap is the average flow time. <!--SR:!2025-02-15,4,298!2025-02-16,4,298-->
   - cumulative inflow/outflow chart / _y_-gap ::@:: The _y_-gap at a particular _x_ is the WIP inventory at time _x_. The average _y_-gap is the average WIP inventory. <!--SR:!2025-02-16,4,298!2025-02-15,4,298-->

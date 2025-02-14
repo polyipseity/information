@@ -43,7 +43,7 @@ English
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::@:: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-02-09,862,344!2025-04-07,357,344-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2028-11-15,1391,364-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->
-- [governance](https://en.wiktionary.org/wiki/governance) ::@:: (g\_e) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2025-02-14,315,330-->
+- [governance](https://en.wiktionary.org/wiki/governance) ::@:: (g\_e) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2025-05-15,207,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: (h\_e) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2026-11-06,723,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->

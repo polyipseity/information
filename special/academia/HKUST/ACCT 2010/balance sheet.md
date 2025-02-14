@@ -24,7 +24,7 @@ tags:
 
 ## format
 
-- header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2025-02-14,47,290!2025-02-23,58,310-->
+- header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2025-06-30,136,290!2025-02-23,58,310-->
   - header / date ::@:: example: `December 31, 2019` <!--SR:!2025-07-03,154,310!2025-05-16,106,290-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-02-28,62,310!2025-02-26,60,310-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!2025-05-07,107,290!2025-07-18,162,310-->
