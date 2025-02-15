@@ -137,8 +137,8 @@ The content is in teaching order.
   - interest rate / time value of money ::@:: Assume you have a _risk-free_ investment that has a certain interest rate, e.g. depositing in banks. Since it is _risk-free_, the return is guaranteed. <p> So the time value of money over time increases. Compare 1 dollar _now_ vs 1 dollar _later_. The 1 dollar now can be invested in this _risk-free_ investment to earn more in the future. So 1 dollar _now_ is more worth than 1 dollar _later_. <p> By this, given a certain amount of money _now_, we can use the _risk-free_ interest rate to compute its _future_ time value. In reverse, given a certain amount of money _in the future_, we can use the _risk-free_ interest rate to compute its _present_ time value, doing the reversed operation.
     - interest rate / time value of money / aliases ::@:: cost of capital, discount rate, hurdle rate, interest rate, opportunity cost of capital, required rate of return
   - interest rate / _risk-free_ interest rate, discount rate, $r_f$ ::@:: The interest rate at which money can be borrowed or lent without risk. By depositing money, we convert money today into money in the future. By borrowing money, we exchange money in the future for money today.
-  - interest rate / interest rate factor ::@:: It is the rate of exchange _from_ dollars today _to_ dollars in the future, calculated as $1 + r_f$.
-  - interest rate / discount factor ::@:: It is the rate of exchange between dollars _from_ the future _to_ dollars today, calculated as $1 / (1 + r_f)$.
+  - interest rate / interest rate factor ::@:: It is the rate of exchange _from_ dollars today _to_ dollars in the future, calculated as $(1 + r_f)^t$.
+  - interest rate / discount factor ::@:: It is the rate of exchange between dollars _from_ the future _to_ dollars today, calculated as $1 / (1 + r_f)^t$.
 - [net present value](../../../../general/net%20present%20value.md) (NPV) ::@:: net present value (NPV) = present value (benefits/cash inflows) − present value (costs/cash outflows)
 - [questions § week 1 lecture 2](questions.md#week%201%20lecture%202)
 - [TAPPS/week 1 lecture 2](assignments/TAPPS/week%201%20lecture%202.md)
