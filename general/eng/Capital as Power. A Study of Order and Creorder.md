@@ -1,0 +1,1 @@
+Capital as Power.md
