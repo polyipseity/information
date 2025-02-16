@@ -35,7 +35,7 @@ In the above example, {@{not everybody has the same probability of selection; wh
 Probability sampling includes: {@{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}@}. These various ways of probability sampling have two things in common: <!--SR:!2025-06-01,178,270-->
 
 1. (probability sampling) every element ::@:: Every element has a known nonzero probability of being sampled and <!--SR:!2025-08-13,264,330!2025-07-03,235,330-->
-2. (probability sampling) at some point ::@:: involves random selection at some point. <!--SR:!2025-09-05,283,330!2025-02-16,122,290-->
+2. (probability sampling) at some point ::@:: involves random selection at some point. <!--SR:!2025-09-05,283,330!2026-06-26,495,310-->
 
 ### nonprobability sampling
 

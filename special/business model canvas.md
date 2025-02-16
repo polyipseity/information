@@ -15,7 +15,7 @@ tags:
 
 ## business model generation
 
-Business model generation is for {@{the entrepreneurial-spirited, value creators, and business innovators}@}. A business model shows {@{how an organization create, deliver, and capture value}@}. <!--SR:!2025-09-19,313,252!2025-02-16,210,270-->
+Business model generation is for {@{the entrepreneurial-spirited, value creators, and business innovators}@}. A business model shows {@{how an organization create, deliver, and capture value}@}. <!--SR:!2025-09-19,313,252!2027-04-19,792,290-->
 
 ## canvas
 
@@ -108,7 +108,7 @@ segmented: splitting slightly different customer segments
 
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2025-03-25,207,257!2025-02-16,217,317-->
+- _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2025-03-25,207,257!2027-01-06,689,317-->
 - diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2025-03-28,199,237!2025-05-24,243,254-->
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2025-04-04,150,277-->
 - multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2025-03-31,200,254-->

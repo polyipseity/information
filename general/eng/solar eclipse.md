@@ -79,7 +79,7 @@ fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap 
 - second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→::@::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2026-04-16,428,290!2026-04-28,459,310-->
 - totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible.→::@::←third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed. <!--SR:!2025-06-12,223,270!2025-05-28,247,330-->
 - third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed.→::@::←fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends. <!--SR:!2026-05-03,465,310!2025-02-24,176,310-->
-- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→::@::←_(end)_ <!--SR:!2025-07-01,274,330!2025-02-16,168,310-->
+- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→::@::←_(end)_ <!--SR:!2025-07-01,274,330!2026-07-22,521,310-->
 
 <!--/pytextgen-->
 

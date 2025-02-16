@@ -198,7 +198,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→::@::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2027-12-10,1297,256!2030-03-16,2144,382-->
 - most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←most multiple bonds <!--SR:!2028-02-27,1346,256!2027-09-09,1192,305-->
-- most multiple bonds→::@::←maximum length <!--SR:!2025-02-16,416,256!2025-10-04,690,282-->
+- most multiple bonds→::@::←maximum length <!--SR:!2028-01-16,1064,256!2025-10-04,690,282-->
 - maximum length→::@::←most prefixes <!--SR:!2029-03-14,1515,261!2029-10-12,1758,325-->
 - most prefixes→::@::←most single bonds <!--SR:!2027-12-09,1307,261!2025-03-02,332,262-->
 - most single bonds→::@::←_(end)_ <!--SR:!2025-08-10,470,325!2025-03-21,668,345-->
@@ -631,7 +631,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
-- nitrile→::@::←aldehyde <!--SR:!2025-02-16,3,150!2025-05-14,154,190-->
+- nitrile→::@::←aldehyde <!--SR:!2025-02-21,5,150!2025-05-14,154,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-03-27,75,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->

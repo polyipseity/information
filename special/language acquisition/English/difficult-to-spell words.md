@@ -12,7 +12,7 @@ tags:
 
 English
 
-- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::@:: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2025-02-16,297,363!2027-01-20,784,343-->
+- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::@:: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2028-01-30,1078,363!2027-01-20,784,343-->
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::@:: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2028-06-04,1265,383!2026-11-19,747,343-->
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::@:: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2026-05-03,596,396!2025-03-05,234,356-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2028-12-08,1410,364-->

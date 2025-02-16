@@ -81,7 +81,7 @@ return chain.from_iterable(await gather(
 - median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2025-05-08,252,275!2025-12-11,415,295-->
 - [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2025-10-05,362,295!2025-04-26,213,235-->
 - unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!2025-03-03,175,275!2025-05-29,279,295-->
-- weighted average linkage clustering→::@::←_(end)_ <!--SR:!2025-02-16,220,315!2025-06-03,212,295-->
+- weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2025-06-03,212,295-->
 
 <!--/pytextgen-->
 

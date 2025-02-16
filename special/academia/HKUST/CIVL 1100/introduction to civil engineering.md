@@ -1053,7 +1053,7 @@ Hong Kong Code
 
 - _(begin)_→::@::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
 - American Code→::@::←Australian Standard <!--SR:!2027-07-26,941,375!2025-12-14,487,395-->
-- Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2025-02-16,233,357-->
+- Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2028-04-01,1140,377-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
 - Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2026-07-19,600,357-->
 - Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->

@@ -42,7 +42,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 - Determining the state ::@:: has a low and constant cost of accessing one [flip-flop](flip-flop%20(electronics).md) <!--SR:!2025-02-20,14,290!2025-02-21,15,290-->
 - Changing the state ::@:: has the constant cost of accessing two flip-flops <!--SR:!2025-02-21,15,290!2025-02-21,15,290-->
-- (annotation: design) Easy to ::@:: design and modify <!--SR:!2025-02-21,15,290!2025-02-16,10,270-->
+- (annotation: design) Easy to ::@:: design and modify <!--SR:!2025-02-21,15,290!2025-03-26,38,290-->
 - (annotation: states) Easy to ::@:: detect illegal states <!--SR:!2025-02-21,15,290!2025-02-20,14,290-->
 - Takes advantage of ::@:: an [FPGA](field-programmable%20gate%20array.md)'s abundant flip-flops <!--SR:!2025-02-20,14,290!2025-02-22,16,290-->
 - Using a one-hot implementation ::@:: typically allows a state machine to run at a faster clock rate than any other encoding of that state machine<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-20,14,290!2025-02-22,16,290-->
@@ -76,7 +76,7 @@ In {@{machine learning}@}, one-hot encoding is {@{a frequently used method to de
 > | 0           | 1             | 0              | 231      |
 > | 0           | 0             | 1              | 50       | <!--SR:!2025-02-20,14,290!2025-02-21,15,290!2025-02-20,14,290!2025-02-22,16,290!2025-02-21,15,290!2025-02-21,15,290!2025-02-20,14,290!2025-02-20,14,290!2025-02-20,14,290-->
 
-{@{Categorical data}@} can be {@{either [nominal](nominal%20number.md) or [ordinal](ordinal%20number.md)}@}.<sup>[\[7\]](#^ref-7)</sup> Ordinal data has {@{a ranked order for its values}@} and can {@{therefore be converted to numerical data through ordinal encoding}@}.<sup>[\[8\]](#^ref-8)</sup> An example of ordinal data would be {@{the ratings on a test ranging from A to F}@}, which could be {@{ranked using numbers from 6 to 1}@}. Since {@{there is no quantitative relationship between nominal variables' individual values}@}, using ordinal encoding can {@{potentially create a fictional ordinal relationship in the data}@}.<sup>[\[9\]](#^ref-9)</sup> Therefore, {@{one-hot encoding is often applied to nominal variables}@}, in order to {@{improve the performance of the algorithm}@}. <!--SR:!2025-02-22,16,290!2025-02-20,14,290!2025-02-22,16,290!2025-02-20,14,290!2025-02-21,15,290!2025-02-20,14,290!2025-02-22,16,290!2025-02-21,15,290!2025-02-22,16,290!2025-02-16,10,270-->
+{@{Categorical data}@} can be {@{either [nominal](nominal%20number.md) or [ordinal](ordinal%20number.md)}@}.<sup>[\[7\]](#^ref-7)</sup> Ordinal data has {@{a ranked order for its values}@} and can {@{therefore be converted to numerical data through ordinal encoding}@}.<sup>[\[8\]](#^ref-8)</sup> An example of ordinal data would be {@{the ratings on a test ranging from A to F}@}, which could be {@{ranked using numbers from 6 to 1}@}. Since {@{there is no quantitative relationship between nominal variables' individual values}@}, using ordinal encoding can {@{potentially create a fictional ordinal relationship in the data}@}.<sup>[\[9\]](#^ref-9)</sup> Therefore, {@{one-hot encoding is often applied to nominal variables}@}, in order to {@{improve the performance of the algorithm}@}. <!--SR:!2025-02-22,16,290!2025-02-20,14,290!2025-02-22,16,290!2025-02-20,14,290!2025-02-21,15,290!2025-02-20,14,290!2025-02-22,16,290!2025-02-21,15,290!2025-02-22,16,290!2025-03-25,37,290-->
 
 For {@{each unique value in the original categorical column}@}, {@{a new column is created in this method}@}. {@{These dummy variables}@} are then {@{filled up with zeros and ones \(1 meaning TRUE, 0 meaning FALSE\)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-20,14,290!2025-02-20,14,290!2025-02-20,14,290!2025-02-21,15,290-->
 
@@ -97,7 +97,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 - [Serial decimal](serial%20decimal.md) – ::@:: computer numeric representation is one in which ten bits are reserved for each digit <!--SR:!2025-02-22,16,290!2025-02-18,12,270-->
 - [Single-entry vector](single-entry%20vector.md) – ::@:: Concept in mathematics <!--SR:!2025-02-21,15,290!2025-02-20,14,290-->
 - [Unary numeral system](unary%20numeral%20system.md) – ::@:: Base-1 numeral system <!--SR:!2025-02-20,14,290!2025-02-21,15,290-->
-- [Uniqueness quantification](uniqueness%20quantification.md) – ::@:: Logical property of being the one and only object satisfying a condition <!--SR:!2025-02-16,10,270!2025-02-22,16,290-->
+- [Uniqueness quantification](uniqueness%20quantification.md) – ::@:: Logical property of being the one and only object satisfying a condition <!--SR:!2025-03-27,39,290!2025-02-22,16,290-->
 - [XOR gate](XOR%20gate.md) – ::@:: Logic gate <!--SR:!2025-02-21,15,290!2025-02-20,14,290-->
 
 ## references

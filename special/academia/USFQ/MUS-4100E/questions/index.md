@@ -33,7 +33,7 @@ tags:
 > 4. South America
 > 5. Manabi
 >
-> - solution: {@{3}@} <!--SR:!2025-02-16,16,290-->
+> - solution: {@{3}@} <!--SR:!2025-04-21,64,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -67,7 +67,7 @@ tags:
 >
 > What centuries were African Slaves taken to America?
 >
-> - solution: {@{17th to 19th century}@} <!--SR:!2025-02-16,16,290-->
+> - solution: {@{17th to 19th century}@} <!--SR:!2025-04-20,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -80,7 +80,7 @@ tags:
 > 3. Asian Traditions
 > 4. South American Traditions
 >
-> - solution: {@{1}@} <!--SR:!2025-02-16,16,290-->
+> - solution: {@{1}@} <!--SR:!2025-04-22,65,310-->
 
 ## Sydney Bechet
 

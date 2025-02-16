@@ -274,7 +274,7 @@ tags:
 > 2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services
 > 3. At the moment the entity paid out the cash
 >
-> - solution: {@{2}@} <!--SR:!2025-02-16,53,341-->
+> - solution: {@{2}@} <!--SR:!2025-10-23,249,361-->
 
 <!-- markdownlint MD028 -->
 

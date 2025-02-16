@@ -299,7 +299,7 @@ Noise Levels and Causes
   - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2025-04-23,237,290-->
   - train passing ::@:: 80 dB(A) <!--SR:!2025-02-28,200,310!2026-08-28,569,310-->
-  - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2025-02-16,192,310!2025-12-20,382,290-->
+  - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2025-12-20,382,290-->
   - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!2026-06-09,520,310-->
   - library ::@:: 40 dB(A) <!--SR:!2025-02-26,198,310!2026-03-31,462,310-->
   - park ::@:: 30 dB(A) <!--SR:!2025-04-23,258,330!2025-02-25,212,330-->
@@ -388,7 +388,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2025-02-20,192,310!2025-02-16,188,310-->
+- _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2025-02-20,192,310!2027-05-04,807,330-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->

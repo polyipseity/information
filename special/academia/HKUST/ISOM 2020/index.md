@@ -85,7 +85,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
-  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!2026-06-15,486,386!2025-02-16,98,366-->
+  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!2026-06-15,486,386!2026-06-30,499,386-->
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab
@@ -229,7 +229,7 @@ The content is in teaching order.
 - week 6 lecture materials
 - week 6 practice question set: 10/10, ungraded
   - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!2026-06-12,483,386!2026-06-13,484,386-->
-  - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-09-16,245,346!2025-02-16,98,366-->
+  - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-09-16,245,346!2026-06-27,496,386-->
   - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2026-06-22,492,386!2026-06-14,485,386-->
 
 ## week 6 lab
@@ -249,11 +249,11 @@ The content is in teaching order.
 - status: unscheduled, public holiday: Chung Yeung Festival
 - common mistakes
   - `=` vs `==` ::@:: Do not mix up the assignment operator and comparison operator. <!--SR:!2026-06-07,479,386!2026-05-29,471,386-->
-  - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2025-02-16,98,366!2026-05-24,467,386-->
-  - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2025-02-16,98,366!2026-05-25,468,386-->
+  - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2026-06-25,494,386!2026-05-24,467,386-->
+  - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2026-06-28,497,386!2026-05-25,468,386-->
   - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2026-05-19,463,386!2025-02-22,103,380-->
   - indentation ::@:: Indentation matters in Python!!! <!--SR:!2026-06-24,494,386!2026-06-17,487,386-->
-  - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2025-02-16,98,366!2026-06-23,493,386-->
+  - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2026-06-29,498,386!2026-06-23,493,386-->
 - week 7 lecture materials
 - integrated question set (week 7 practice question set): 0/0, ungraded
 
