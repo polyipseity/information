@@ -10,7 +10,7 @@ tags:
 # digital signal
 
 - This article is about {@{digital signals in electronics}@}. For {@{digital data and systems}@}, see {@{[Digital data](digital%20data.md)}@}. For {@{digital signals that specifically represent analog waveforms}@}, see {@{[Digital signal \(signal processing\)](digital%20signal%20(signal%20processing).md)}@}. For other uses, see [Digital signal \(disambiguation\)](digital%20signal%20(disambiguation).md).
-- For broader{@{ coverage of this topic}@}, see {@{[Signal](signal.md)}@}.
+- For broader {@{coverage of this topic}@}, see {@{[Signal](signal.md)}@}.
 
 > {@{![A binary signal, also known as a logic signal, is a digital signal with two distinguishable levels](../../archives/Wikimedia%20Commons/Original%20message.jpg)}@}
 >
