@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-430 -500 1696 1007">
+ <title>Tetrahedral molecular geometry bond angle</title>
+ <desc>Calculation of bond angles of a symmetrical tetrahedral molecule using the dot product by CMG Lee.</desc>
+ <style type="text/css">
+#main  { font-family:Helvetica,Arial,sans-serif; font-size:80px; text-anchor:middle;
+         fill:#000000; stroke:#000000; stroke-width:10; stroke-linejoin:round; stroke-linecap:round; }
+text { stroke:none; cursor:default; }
+.var { font-style:italic; }
+.vec { font-weight:bold; }
+.o { fill:#000000; stroke:#000000; }
+.a { fill:#ff9900; stroke:#ff9900; stroke-width:15; }
+.b { fill:#0000ff; stroke:#0000ff; stroke-width:15; }
+.c { fill:#0099cc; stroke:#0099cc; stroke-width:15; }
+.d { fill:#ff6666; stroke:#ff6666; stroke-width:15; }
+ </style>
+ <defs>
+  <filter id="filter_glow">
+   <feMorphology in="SourceAlpha" radius="8" operator="dilate" result="dilate"/>
+   <feGaussianBlur in="dilate" stdDeviation="4" result="blur"/>
+   <feColorMatrix type="matrix" values="0,0,0,0,1 0,0,0,0,1 0,0,0,0,1 0,0,0,1,0" in="blur" result="glow"/>
+   <feBlend in="SourceGraphic" in2="glow"/>
+  </filter>
+  <radialGradient id="grad_atom" cx="50%" cy="50%" r="50%" fx="33%" fy="33%">
+   <stop offset="10%" stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="99%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <g id="atom" stroke="none">
+   <circle cx="0" cy="0" r="20"/>
+   <circle cx="0" cy="0" r="20" fill="url(#grad_atom)"/>
+  </g>
+  <path id="axis" d="M -230,0 H 430 m -40,-20 l 40,20 l -40,20" fill="none" stroke-width="5"/>
+  <path id="arrowhead" d="M -40,-20 l 40,20 l -40,20" fill="none"/>
+  <path id="tripod" d="M 300,100 h -500 v -500 m 0,500 l -100,300" fill="none"/>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g id="main">
+  <use xlink:href="#tripod" stroke-dasharray="6,34"/>
+  <path d="M 200,400 h -500 v -500 l 100,-300 h 500 v 500 z" fill="none"/>
+  <g filter="url(#filter_glow)">
+   <use xlink:href="#axis" transform="translate(-20,0)"/>
+   <use xlink:href="#axis" transform="rotate(-90) scale(1.1,1)"/>
+   <use xlink:href="#axis" transform="rotate(108.435) translate(70,0)"/>
+  </g>
+  <use xlink:href="#tripod" transform="scale(-1)"/>
+  <g class="a"><path d="M 0,0 L  200, 400"/><use xlink:href="#atom" transform="translate( 200, 400)"/><text transform="translate( 200, 450)" y="0.7ex" filter="url(#filter_glow)"><tspan>A</tspan><tspan dx="0.2ex">(1,&#8722;1,1)</tspan></text><text class="vec" transform="translate( 100, 320)" y="0.7ex">a</text><use xlink:href="#arrowhead" transform="translate(150, 300) rotate( 65)"/></g>
+  <g class="b"><path d="M 0,0 L  300,-400"/><use xlink:href="#atom" transform="translate( 300,-400)"/><text transform="translate( 210,-460)" y="0.7ex" filter="url(#filter_glow)"><tspan>B</tspan><tspan dx="0.2ex">(1,1,&#8722;1)</tspan></text><text class="vec" transform="translate( 180,-340)" y="0.7ex">b</text><use xlink:href="#arrowhead" transform="translate(225,-300) rotate(-52)"/></g>
+  <g class="c"><path d="M 0,0 L -300,-100"/><use xlink:href="#atom" transform="translate(-300,-100)"/><text transform="translate(-230,-180)" y="0.7ex" filter="url(#filter_glow)"><tspan>C</tspan><tspan dx="0.2ex">(&#8722;1,1,1)</tspan></text></g>
+  <g class="d"><path d="M 0,0 L -200, 100"/><use xlink:href="#atom" transform="translate(-200, 100)"/><text transform="translate(-205, 160)" y="0.7ex" filter="url(#filter_glow)"><tspan>D</tspan><tspan dx="0.2ex">(&#8722;1,&#8722;1,&#8722;1)</tspan></text></g>
+  <g class="o"><use xlink:href="#atom"/><text transform="translate(-40,-58)" y="0.7ex">O</text></g>
+  <path d="M 0,0 L 60,-80 A 200,200 0 0 1 40,80 Z" fill-opacity="0.5" fill="#00ff00" stroke="none"/>
+  <path d="M 50,-100 H 100"/>
+  <g class="var">
+   <text transform="translate(  90,  50)" y="0.7ex">&#952;</text>
+   <text transform="translate( 390,  50)" y="0.7ex">x</text>
+   <text transform="translate( -40,-470)" y="0.7ex">y</text>
+   <text transform="translate(-200, 440)" y="0.7ex">z</text>
+  </g>
+  <g transform="translate(580,-430) scale(0.85,0.9)">
+   <g transform="translate(0,0)">
+    <text y="0.7ex">=</text>
+    <text transform="translate(-120,0)" y="0.7ex"><tspan class="vec">a</tspan><tspan>&#8901;</tspan><tspan class="vec">b</tspan></text>
+    <text transform="translate( 400,0)" y="0.7ex"><tspan>||</tspan><tspan class="vec">a</tspan><tspan>|| ||</tspan><tspan class="vec">b</tspan><tspan>|| cos</tspan><tspan dx="0.2ex" class="var">&#952;</tspan></text>
+   </g>
+   <g transform="translate(0,150)">
+    <text y="0.7ex">=</text>
+    <text transform="translate(-150,0)" y="0.7ex"><tspan>cos</tspan><tspan dx="0.2ex" class="var">&#952;</tspan></text>
+    <text transform="translate( 400,0)" y="-0.4ex"><tspan class="vec">a</tspan><tspan>&#8901;</tspan><tspan class="vec">b</tspan><tspan x="0" y="0">______</tspan></text>
+    <text transform="translate( 400,0)" y="2.0ex"><tspan>||</tspan><tspan class="vec">a</tspan><tspan>|| ||</tspan><tspan class="vec">b</tspan><tspan>||</tspan></text>
+   </g>
+   <g transform="translate(0,480)">
+    <text y="0.7ex">=</text>
+    <text transform="translate( 110,0) scale(1.2,2.5)" y="-0.5ex"><tspan>(</tspan></text>
+    <text transform="translate( 310,0) scale(1.2,2.5)" y="-0.5ex"><tspan>)</tspan></text>
+    <text transform="translate( 510,0) scale(1.2,2.5)" y="-0.5ex"><tspan>(</tspan></text>
+    <text transform="translate( 710,0) scale(1.2,2.5)" y="-0.5ex"><tspan>)</tspan></text>
+    <text transform="translate( 200,0)" y="-3.5ex"><tspan>1</tspan><tspan x="0" dy="1.7ex">&#8722;1</tspan><tspan x="0" dy="1.7ex">1</tspan></text>
+    <text transform="translate( 600,0)" y="-3.5ex"><tspan>1</tspan><tspan x="0" dy="1.7ex">1</tspan><tspan x="0" dy="1.7ex">&#8722;1</tspan></text>
+    <text transform="translate( 400,0)" y="-2.0ex"><tspan>&#8901;</tspan><tspan x="0" y="0">________________</tspan></text>
+    <text transform="translate( 400,0)" y="2.4ex"><tspan>&#8730;1&#178;+1&#178;+1&#178;&#8901;&#8730;1&#178;+1&#178;+1&#178;</tspan><tspan x="0" y="0.3ex">&#160;_______ &#160; _______</tspan></text>
+   </g>
+   <g transform="translate(0,680)">
+    <text y="0.7ex">=</text>
+    <text transform="translate( 400,0)" y="-0.2ex"><tspan>1&#215;1+(&#8722;1)&#215;1+1&#215;(&#8722;1)</tspan><tspan x="0">________________</tspan><tspan x="0" dy="2ex">&#8730;3&#8901;&#8730;3</tspan></text>
+   </g>
+   <g transform="translate(0,810)">
+    <text y="0.7ex">=</text>
+    <text transform="translate( 120,0)" y="-0.2ex"><tspan>1</tspan><tspan x="0">_</tspan><tspan x="0" dy="2ex">3</tspan><tspan x="-1.3ex" y="0.7ex">&#8722;</tspan></text>
+   </g>
+   <g transform="translate(0,950)">
+    <text y="0.7ex">=</text>
+    <text transform="translate(-120,0)" y="0.7ex"><tspan>&#8756;</tspan><tspan dx="0.5ex" class="var">&#952;</tspan></text>
+    <text transform="translate( 160,0)" y="0.7ex"><tspan>arccos</tspan></text>
+    <text transform="translate( 310,0) scale(1,2)" y="0.55ex"><tspan>(</tspan><tspan x="130">)</tspan></text>
+    <text transform="translate( 390,0)" y="-0.2ex"><tspan>1</tspan><tspan x="0">_</tspan><tspan x="0" dy="2ex">3</tspan><tspan x="-1.3ex" y="0.7ex">&#8722;</tspan></text>
+    <text transform="translate( 630,0)" y="0.7ex"><tspan>&#8776;</tspan><tspan dx="0.2ex">109.47&#176;</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>
