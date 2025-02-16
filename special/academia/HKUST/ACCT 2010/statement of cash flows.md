@@ -19,7 +19,7 @@ tags:
 
 ## examples
 
-- [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) ::@:: ![`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) <!--SR:!2025-04-18,87,270!2025-02-15,48,290-->
+- [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) ::@:: ![`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) <!--SR:!2025-04-18,87,270!2025-07-03,138,290-->
   - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) / note ::@:: It is using the direct method instead of indirect method, however... The format otherwise looks pretty good. <!--SR:!2025-02-25,59,310!2025-03-02,63,310-->
 
 ## format
@@ -27,7 +27,7 @@ tags:
 - header ::@:: company name, `(Consolidated) Statement of Cash Flows`, duration, (monetary unit) <!--SR:!2025-03-01,63,310!2025-02-26,60,310-->
   - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-02-23,58,310!2025-08-19,186,310-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-02-23,58,310!2025-02-27,61,310-->
-- dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2025-02-15,48,290!2025-07-19,163,310-->
+- dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2025-07-04,139,290!2025-07-19,163,310-->
 - total ::@:: Calculate "net cash provided by operating activities", "net cash provided by investing activities", "net cash provided by financing activities", and "cash & cash equivalents at end of period" from "cash & cash equivalents at beginning of period". <!--SR:!2025-06-27,135,290!2025-08-15,184,310-->
   - total / format ::@:: Add a (over)line above the total. <p> For "cash & cash equivalents at end of period", additionally add double (under)lines below the total. <!--SR:!2025-02-23,58,310!2025-02-24,58,310-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-02-23,58,310!2025-03-03,64,310-->

@@ -46,7 +46,7 @@ tags:
 > 3. sad notes
 > 4. critical notes played out-of-tune or "off-key"
 >
-> - solution: {@{4}@} <!--SR:!2025-02-15,15,290-->
+> - solution: {@{4}@} <!--SR:!2025-04-19,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -59,7 +59,7 @@ tags:
 > 3. New Jersey
 > 4. New Orleans
 >
-> - solution: {@{4}@} <!--SR:!2025-02-15,15,290-->
+> - solution: {@{4}@} <!--SR:!2025-04-17,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -92,7 +92,7 @@ tags:
 >
 > What instruments did Sydney Bechet play?
 >
-> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2025-02-15,15,290-->
+> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2025-04-18,62,310-->
 
 <!-- markdownlint MD028 -->
 

@@ -152,7 +152,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←air sparging <!--SR:!2025-08-08,310,355!2025-11-23,418,375-->
-- air sparging→::@::←bioremediation <!--SR:!2025-11-12,355,315!2025-02-15,177,335-->
+- air sparging→::@::←bioremediation <!--SR:!2025-11-12,355,315!2026-10-01,593,335-->
 - bioremediation→::@::←catalytic oxidation <!--SR:!2026-04-21,507,335!2025-03-14,197,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2025-04-11,197,295!2026-06-16,518,335-->
 - ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2026-06-11,515,335-->

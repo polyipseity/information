@@ -29,7 +29,7 @@ tags:
 
 1. Indirect labour cost: ::@:: The indirect labour cost is the cost associated with workers, such as supervisors and [material handling](material%20handling.md) team, who are not directly involved in the production. <!--SR:!2025-02-21,14,290!2025-02-23,16,290-->
 2. Indirect materials cost: ::@:: Indirect materials cost is the cost associated with consumables, such as lubricants, [grease](grease%20(lubricant).md), and [water](water.md), that are not used as raw materials. <!--SR:!2025-02-23,16,290!2025-02-19,12,270-->
-3. Other indirect manufacturing cost: ::@:: includes machine depreciation, [land rent](land%20rent.md#land%20rent), [property insurance](property%20insurance.md), [electricity](electricity.md), freight and transportation, or any expenses that keep the [factory](factory.md) operating. <!--SR:!2025-03-04,19,250!2025-02-15,9,250-->
+3. Other indirect manufacturing cost: ::@:: includes machine depreciation, [land rent](land%20rent.md#land%20rent), [property insurance](property%20insurance.md), [electricity](electricity.md), freight and transportation, or any expenses that keep the [factory](factory.md) operating. <!--SR:!2025-03-04,19,250!2025-03-21,33,270-->
 
 ## references
 

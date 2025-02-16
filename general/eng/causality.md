@@ -15,7 +15,7 @@ tags:
 
 - For the legal sense, see [causation (law)](causation%20(law).md). For other uses, see [causality (disambiguation)](causality%20(disambiguation).md).
 - Not to be confused with {@{[casualty](casualty.md)}@}.
-- "Cause" and "cause and effect" redirect here. For other uses, see [cause (disambiguation)](cause%20(disambiguation).md) and [cause and effect (disambiguation)](cause%20and%20effect%20(disambiguation).md). <!--SR:!2025-02-15,88,270-->
+- "Cause" and "cause and effect" redirect here. For other uses, see [cause (disambiguation)](cause%20(disambiguation).md) and [cause and effect (disambiguation)](cause%20and%20effect%20(disambiguation).md). <!--SR:!2026-01-12,331,290-->
 
 __Causality__ is {@{an influence by which one [event](event%20(philosophy).md), [process](process.md), state, or [object](subject%20and%20object%20(philosophy).md) (_a_ _cause_) contributes to the production of another event, process, state, or object (an _effect_)}@} where {@{the cause is at least partly responsible for the effect, and the effect is at least partly dependent on the cause}@}. In general, a process can {@{have multiple causes,<sup>[\[1\]](#^ref-1)</sup> which are also said to be _causal factors_ for it}@}, and all {@{lie in its [past](past.md)}@}. An effect can {@{in turn be a cause of, or causal factor for, many other effects}@}, which all {@{lie in its [future](future.md)}@}. Some writers have held that causality is {@{[metaphysically](metaphysics.md) prior to notions of [time and space](spacetime.md)}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-06-03,183,310!2025-07-30,216,310!2025-07-09,200,310!2025-10-13,293,330!2025-07-31,232,330!2025-10-29,307,330!2025-05-02,146,290-->
 

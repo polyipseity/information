@@ -41,7 +41,7 @@ English
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::@:: (e\_n) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2025-02-18,319,344!2025-11-12,464,304-->
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::@:: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-07-11,936,344!2025-02-20,321,344-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::@:: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-02-09,862,344!2025-04-07,357,344-->
-- [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2028-11-15,1391,364-->
+- [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2029-03-20,1494,364!2028-11-15,1391,364-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: (g\_e) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2025-05-15,207,283-->

@@ -357,7 +357,7 @@ return await memorize_map(
 - [copper(I) bromide](copper(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-16,288,258-->
 - [copper(I) chloride](copper(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-02-13,776,278-->
 - [copper(I) iodide](copper(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-01-22,382,238-->
-- [copper(II) bromide](copper(II)%20bromide.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-02-15,321,298-->
+- [copper(II) bromide](copper(II)%20bromide.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-09-28,955,298-->
 - [copper(II) carbonate](copper(II)%20carbonate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-04-10,360,298-->
 - [copper(II) chloride](copper(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-04-17,366,298-->
 - [copper(II) ethanoate](copper(II)%20ethanoate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-12-18,586,318-->

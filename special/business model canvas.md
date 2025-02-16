@@ -164,7 +164,7 @@ risk reduction
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
-- accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2025-02-15,196,274-->
+- accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2026-08-06,537,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2025-03-27,135,214!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-07-31,183,177-->

@@ -52,7 +52,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2026-01-18,373,312!2025-08-09,260,332-->
 - week 1 exercise: 1/1, graded
-  - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!2025-02-15,97,366!2026-05-31,473,386-->
+  - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!2026-06-18,488,386!2026-05-31,473,386-->
   - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2026-05-30,472,386!2026-06-10,482,386-->
 
 ## week 1 lecture
@@ -230,7 +230,7 @@ The content is in teaching order.
 - week 6 practice question set: 10/10, ungraded
   - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!2026-06-12,483,386!2026-06-13,484,386-->
   - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-09-16,245,346!2025-02-16,98,366-->
-  - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2025-02-15,97,366!2026-06-14,485,386-->
+  - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2026-06-22,492,386!2026-06-14,485,386-->
 
 ## week 6 lab
 
@@ -252,8 +252,8 @@ The content is in teaching order.
   - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2025-02-16,98,366!2026-05-24,467,386-->
   - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2025-02-16,98,366!2026-05-25,468,386-->
   - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2026-05-19,463,386!2025-02-22,103,380-->
-  - indentation ::@:: Indentation matters in Python!!! <!--SR:!2025-02-15,97,366!2025-02-15,97,366-->
-  - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2025-02-16,98,366!2025-02-15,97,366-->
+  - indentation ::@:: Indentation matters in Python!!! <!--SR:!2026-06-24,494,386!2026-06-17,487,386-->
+  - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2025-02-16,98,366!2026-06-23,493,386-->
 - week 7 lecture materials
 - integrated question set (week 7 practice question set): 0/0, ungraded
 

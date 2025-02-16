@@ -27,7 +27,7 @@ From the outside to inside, significant structures of the Sun are: {@{[solar win
 
 - see: [solar core](solar%20core.md)
 
-The core of the Sun extends {@{from the center to about 20–25% of the [solar radius](solar%20radius.md)}@}. It has a [density](density.md) of {@{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}@} and a temperature of {@{close to 15.7 million [kelvin](Kelvin.md) (K)}@}. <!--SR:!2025-06-25,252,320!2025-02-15,143,300!2025-07-19,233,280-->
+The core of the Sun extends {@{from the center to about 20–25% of the [solar radius](solar%20radius.md)}@}. It has a [density](density.md) of {@{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}@} and a temperature of {@{close to 15.7 million [kelvin](Kelvin.md) (K)}@}. <!--SR:!2025-06-25,252,320!2026-10-03,595,320!2025-07-19,233,280-->
 
 The core is the only region of the Sun that {@{produces an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}@}; {@{99% of the power is generated within 24% of the Sun's radius, and by 30% of the radius}@}, fusion has stopped nearly entirely. Through most of the Sun's life, energy has been produced by {@{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md); this process converts [hydrogen](hydrogen.md) into [helium](helium.md)}@}. Currently, only about 0.8% of the energy generated in the Sun {@{comes from another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md), though this proportion is expected to increase as the Sun becomes older and more luminous}@}. <!--SR:!2025-04-22,207,320!2025-03-14,157,300!2025-12-03,334,300!2025-03-20,163,300-->
 

@@ -95,7 +95,7 @@ Additionally, this formula is {@{a special case of the _k_-th [forward differenc
 
 The evaluation of {@{incomplete exponential [Bell polynomial](Bell%20polynomials.md) _B_<sub>_n_,_k_</sub>(_x_<sub>1</sub>,_x_<sub>2</sub>,...) on the sequence of ones}@} equals {@{a Stirling number of the second kind: $$\left\{ {n \atop k}\right\}=B_{n,k}(1,1,\dots ,1) \,.$$}@} <!--SR:!2025-08-24,209,310!2025-03-23,92,270-->
 
-Another explicit formula given in {@{the _NIST Handbook of Mathematical Functions_}@} is {@{$$\left\{ {n \atop k}\right\}=\sum _{\begin{array}{c}c_{1}+\ldots +c_{k}=n-k\\c_{1},\ldots ,\ c_{k}\ \geq \ 0\end{array} }1^{c_{1} }2^{c_{2} }\cdots k^{c_{k} } \,.$$}@} <!--SR:!2025-12-12,316,330!2025-02-15,24,230-->
+Another explicit formula given in {@{the _NIST Handbook of Mathematical Functions_}@} is {@{$$\left\{ {n \atop k}\right\}=\sum _{\begin{array}{c}c_{1}+\ldots +c_{k}=n-k\\c_{1},\ldots ,\ c_{k}\ \geq \ 0\end{array} }1^{c_{1} }2^{c_{2} }\cdots k^{c_{k} } \,.$$}@} <!--SR:!2025-12-12,316,330!2025-04-12,56,230-->
 
 ### parity
 

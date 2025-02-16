@@ -128,7 +128,7 @@ The content is in teaching order.
   - [§ exterior structures](../../../../general/structural%20system.md#exterior%20structures)
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
-- wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2025-02-15,203,330!2026-11-30,660,330-->
+- wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2026-12-17,670,330!2026-11-30,660,330-->
   - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2025-09-04,370,350-->
   - wall-frame economic limit ::@:: up to about 50 stories <!--SR:!2025-07-29,340,350!2027-09-03,933,350-->
 - framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2025-03-16,216,330-->

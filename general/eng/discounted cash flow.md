@@ -17,7 +17,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Discounted%20cash%20flow)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Discounted%20cash%20flow)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ <br/> | This article's __tone or style may not reflect the [encyclopedic tone](https://en.wikipedia.org/wiki/Wikipedia:Writing%20better%20articles#Tone) used on Wikipedia__. _\(September 2015\)_ | <p>  <p> | This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. _\(January 2010\)_ | | -->
 
-{@{The __discounted cash flow__ \(__DCF__\) analysis}@}, in {@{[financial analysis](financial%20analysis.md)}@}, is {@{a method used [to value](valuation%20(finance).md) a [security](security%20(finance).md), project, company, or [asset](financial%20asset.md), that incorporates the [time value of money](time%20value%20of%20money.md)}@}. Discounted [cash flow](cash%20flow.md) analysis is widely used in {@{investment finance, [real estate development](real%20estate%20developer.md), [corporate financial](corporate%20financial.md) management, and [patent valuation](patent%20valuation.md)}@}. Used in industry {@{as early as the 1700s or 1800s}@}, it was widely discussed in {@{financial economics in the 1960s}@}, and U.S. courts {@{began employing the concept in the 1980s and 1990s}@}. <!--SR:!2025-02-20,14,290!2025-02-21,15,290!2025-02-21,15,290!2025-02-20,14,290!2025-02-22,16,290!2025-02-15,10,270!2025-02-19,13,289-->
+{@{The __discounted cash flow__ \(__DCF__\) analysis}@}, in {@{[financial analysis](financial%20analysis.md)}@}, is {@{a method used [to value](valuation%20(finance).md) a [security](security%20(finance).md), project, company, or [asset](financial%20asset.md), that incorporates the [time value of money](time%20value%20of%20money.md)}@}. Discounted [cash flow](cash%20flow.md) analysis is widely used in {@{investment finance, [real estate development](real%20estate%20developer.md), [corporate financial](corporate%20financial.md) management, and [patent valuation](patent%20valuation.md)}@}. Used in industry {@{as early as the 1700s or 1800s}@}, it was widely discussed in {@{financial economics in the 1960s}@}, and U.S. courts {@{began employing the concept in the 1980s and 1990s}@}. <!--SR:!2025-02-20,14,290!2025-02-21,15,290!2025-02-21,15,290!2025-02-20,14,290!2025-02-22,16,290!2025-03-26,39,290!2025-02-19,13,289-->
 
 ## application
 
@@ -26,7 +26,7 @@ tags:
 > On {@{a very high level}@}, {@{the main elements in valuing a corporate by Discounted Cash Flow}@} are as follows; see [Valuation using discounted cash flows](valuation%20using%20discounted%20cash%20flows.md), and graphics below, for detail: (annotation: they are {@{free cash flow projections, discount rate, and terminal value}@})
 >
 > - __Free Cash Flow Projections:__ ::@:: Projections of the amount of Cash produced by a company's business operations after paying for operating expenses and capital expenditures.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-20,14,290!2025-03-05,20,250-->
-> - __Discount Rate:__ ::@:: The cost of capital \(Debt and Equity\) for the business. This rate, which acts like an interest rate on future Cash inflows, is used to convert them into current dollar equivalents. <!--SR:!2025-02-15,10,270!2025-02-17,11,270-->
+> - __Discount Rate:__ ::@:: The cost of capital \(Debt and Equity\) for the business. This rate, which acts like an interest rate on future Cash inflows, is used to convert them into current dollar equivalents. <!--SR:!2025-03-25,38,290!2025-02-17,11,270-->
 > - __Terminal Value:__ ::@:: The value of a business at the end of the projection period \(typical for a DCF analysis is either a 5-year projection period or, occasionally, a 10-year projection period\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-16,10,270!2025-02-20,14,290-->
 
 <!-- markdownlint MD028 -->
@@ -51,7 +51,7 @@ For further context see [Valuation \(finance\) § Valuation overview](valuation%
 
 {@{Discounted cash flow calculations}@} have been used in {@{some form since money was first lent at interest in ancient times}@}. Studies of {@{ancient [Egyptian](Ancient%20Egyptian%20mathematics.md) and [Babylonian mathematics](Babylonian%20mathematics.md)}@} suggest that they used {@{techniques similar to discounting future cash flows}@}. {@{Modern discounted cash flow analysis}@} has been used since {@{at least the early 1700s in the UK coal industry}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-23,17,309!2025-02-21,15,290!2025-02-23,17,309!2025-02-19,13,289!2025-02-23,17,309!2025-02-18,12,270-->
 
-{@{Discounted cash flow valuation}@} is differentiated from {@{the accounting [book value](book%20value.md)}@}, which is {@{based on the amount paid for the asset}@}.<sup>[\[4\]](#^ref-4)</sup> Following {@{the [stock market crash of 1929](Wall%20Street%20crash%20of%201929.md)}@}, discounted cash flow analysis {@{gained popularity as a valuation method for [stocks](capital%20stock.md)}@}. {@{[Irving Fisher](Irving%20Fisher.md) in his 1930}@} book {@{_The Theory of Interest_}@} and {@{[John Burr Williams](John%20Burr%20Williams.md)'s 1938}@} text {@{_[The Theory of Investment Value](The%20Theory%20of%20Investment%20Value.md#theory)_}@} first {@{formally expressed the DCF method in modern economic terms}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-20,14,290!2025-02-23,17,309!2025-02-19,13,289!2025-02-16,10,270!2025-02-21,15,290!2025-02-19,13,289!2025-02-15,10,270!2025-02-19,13,289!2025-02-20,14,290!2025-02-23,17,309-->
+{@{Discounted cash flow valuation}@} is differentiated from {@{the accounting [book value](book%20value.md)}@}, which is {@{based on the amount paid for the asset}@}.<sup>[\[4\]](#^ref-4)</sup> Following {@{the [stock market crash of 1929](Wall%20Street%20crash%20of%201929.md)}@}, discounted cash flow analysis {@{gained popularity as a valuation method for [stocks](capital%20stock.md)}@}. {@{[Irving Fisher](Irving%20Fisher.md) in his 1930}@} book {@{_The Theory of Interest_}@} and {@{[John Burr Williams](John%20Burr%20Williams.md)'s 1938}@} text {@{_[The Theory of Investment Value](The%20Theory%20of%20Investment%20Value.md#theory)_}@} first {@{formally expressed the DCF method in modern economic terms}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-20,14,290!2025-02-23,17,309!2025-02-19,13,289!2025-02-16,10,270!2025-02-21,15,290!2025-02-19,13,289!2025-03-26,39,290!2025-02-19,13,289!2025-02-20,14,290!2025-02-23,17,309-->
 
 ## mathematics
 
@@ -72,7 +72,7 @@ If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite
 
 ### continuous cash flows
 
-For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2025-02-23,17,309!2025-02-20,14,290!2025-03-03,19,250!2025-02-15,10,270-->
+For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2025-02-23,17,309!2025-02-20,14,290!2025-03-03,19,250!2025-03-15,28,270-->
 
 ## discount rate
 
@@ -98,9 +98,9 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 ### equity-approach
 
 - [Flows to equity](flows%20to%20equity.md) approach \(FTE\)
-  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2025-02-15,10,270!2025-02-18,12,270-->
+  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2025-03-24,37,290!2025-02-18,12,270-->
   - (annotation: flows to equity) Advantages: ::@:: Makes explicit allowance for the cost of debt capital <!--SR:!2025-02-23,17,309!2025-02-22,16,290-->
-  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2025-02-19,13,289!2025-02-15,10,270-->
+  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2025-02-19,13,289!2025-03-24,37,290-->
 
 ### entity-approach
 

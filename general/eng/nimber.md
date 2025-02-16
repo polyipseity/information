@@ -43,7 +43,7 @@ In {@{Northcott's game}@}, {@{<!-- pegs -->a token for each player are placed al
 
 - Main article: [Hackenbush](Hackenbush.md)
 
-Hackenbush is {@{a game invented by mathematician [John Horton Conway](John%20Horton%20Conway.md)}@}. It may be played on {@{any configuration of colored [line segments](line%20segment.md) connected to one another by their endpoints and to a "ground" line}@}. Players {@{take turns removing line segments}@}. {@{An impartial game version, thereby a game able to be analyzed using nimbers}@}, can be found by {@{removing distinction from the lines, allowing either player to cut any branch}@}. {@{Any segments reliant on the newly removed segment in order to connect to the ground line}@} are removed as well. In this way, {@{each connection to the ground can be considered a nim heap with a nimber value}@}. Additionally, {@{all the separate connections to the ground line}@} can {@{also be summed for a nimber of the game state}@}. <!--SR:!2025-03-30,77,333!2025-03-03,50,305!2025-03-10,59,310!2025-03-03,50,305!2025-03-18,66,310!2025-03-30,77,333!2025-03-14,63,310!2025-03-24,71,325!2025-02-15,41,290-->
+Hackenbush is {@{a game invented by mathematician [John Horton Conway](John%20Horton%20Conway.md)}@}. It may be played on {@{any configuration of colored [line segments](line%20segment.md) connected to one another by their endpoints and to a "ground" line}@}. Players {@{take turns removing line segments}@}. {@{An impartial game version, thereby a game able to be analyzed using nimbers}@}, can be found by {@{removing distinction from the lines, allowing either player to cut any branch}@}. {@{Any segments reliant on the newly removed segment in order to connect to the ground line}@} are removed as well. In this way, {@{each connection to the ground can be considered a nim heap with a nimber value}@}. Additionally, {@{all the separate connections to the ground line}@} can {@{also be summed for a nimber of the game state}@}. <!--SR:!2025-03-30,77,333!2025-03-03,50,305!2025-03-10,59,310!2025-03-03,50,305!2025-03-18,66,310!2025-03-30,77,333!2025-03-14,63,310!2025-03-24,71,325!2025-07-28,163,310-->
 
 ## addition
 
@@ -104,7 +104,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-02-22,46,290!2025-03-11,26,193!2025-02-15,42,305!2025-03-07,54,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-02-22,46,290!2025-03-11,26,193!2025-08-11,177,325!2025-03-07,54,313-->
 
 ## see also
 
