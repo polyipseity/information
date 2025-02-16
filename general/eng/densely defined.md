@@ -1,0 +1,1 @@
+densely defined operator.md

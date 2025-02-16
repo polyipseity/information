@@ -1,0 +1,1 @@
+strongly measurable function.md
