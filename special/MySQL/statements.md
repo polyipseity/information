@@ -11,7 +11,7 @@ tags:
 ## common statements
 
 - `ALTER TABLE table_name [alter_option[, ...]]` ::@:: Modify the table named `table_name` by the options `alter_option`. <!--SR:!2027-02-25,860,310!2025-05-12,451,330-->
-- `CREATE DATABASE database_name` ::@:: Create a database named `database_name`. <!--SR:!2029-09-19,1702,350!2025-02-17,397,330-->
+- `CREATE DATABASE database_name` ::@:: Create a database named `database_name`. <!--SR:!2029-09-19,1702,350!2030-01-29,1807,350-->
 - `CREATE TABLE table_name (create_definition, ...)` ::@:: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2026-02-19,594,299!2027-02-03,870,319-->
 - `DELETE FROM table_name [WHERE where_expression]` ::@:: Delete rows from the table named `table_name`. Optionally filter rows for which `where_expression` is true. <!--SR:!2028-05-02,1281,339!2025-11-27,540,299-->
 - `DESCRIBE table_name` ::@:: Show the table named `table_name`. <!--SR:!2025-07-09,399,299!2025-03-04,413,339-->

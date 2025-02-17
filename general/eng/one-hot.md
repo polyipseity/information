@@ -49,7 +49,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 ##### disadvantages
 
-- Requires ::@:: more flip-flops than other encodings, making it impractical for [PAL](Programmable%20Array%20Logic.md) devices <!--SR:!2025-02-21,15,290!2025-02-17,11,270-->
+- Requires ::@:: more flip-flops than other encodings, making it impractical for [PAL](Programmable%20Array%20Logic.md) devices <!--SR:!2025-02-21,15,290!2025-03-31,42,290-->
 - Many of the states ::@:: are illegal<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-22,16,290!2025-02-21,15,290-->
 
 ### natural language processing
@@ -90,7 +90,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 
 - [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-02-20,14,290!2025-02-21,15,290-->
 - [Two-out-of-five code](two-out-of-five%20code.md) – ::@:: Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges <!--SR:!2025-02-18,12,270!2025-03-24,37,290-->
-- [Bi-quinary coded decimal](bi-quinary%20coded%20decimal.md) – ::@:: Numeral encoding scheme <!--SR:!2025-02-17,11,270!2025-02-22,16,290-->
+- [Bi-quinary coded decimal](bi-quinary%20coded%20decimal.md) – ::@:: Numeral encoding scheme <!--SR:!2025-04-01,43,290!2025-02-22,16,290-->
 - [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2025-02-22,16,290!2025-02-20,14,290-->
 - [Kronecker delta](Kronecker%20delta.md) – ::@:: Mathematical function of two variables; outputs 1 if they are equal, 0 otherwise <!--SR:!2025-02-20,14,290!2025-02-21,15,290-->
 - [Indicator vector](indicator%20vector.md)

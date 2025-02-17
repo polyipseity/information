@@ -57,7 +57,7 @@ Bipartite graphs may be characterized in several different ways:
 
 - An undirected graph is bipartite [if and only if](if%20and%20only%20if.md) it does not ::@:: contain an odd [cycle](cycle%20(graph%20theory).md).<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-11-16,291,330!2025-10-16,264,330-->
 - A graph is bipartite if and only if it is ::@:: 2-colorable, (i.e. its [chromatic number](graph%20coloring.md#chromatic%20number) is less than or equal to 2).<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-07-27,187,310!2025-10-22,270,330-->
-- A graph is bipartite if and only if every edge ::@:: belongs to an odd number of [bonds](cut%20(graph%20theory).md), minimal (not _minimum_) subsets of edges whose removal increases the number of components of the graph.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-02-17,26,230!2025-08-14,199,310-->
+- A graph is bipartite if and only if every edge ::@:: belongs to an odd number of [bonds](cut%20(graph%20theory).md), minimal (not _minimum_) subsets of edges whose removal increases the number of components of the graph.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-04-20,62,230!2025-08-14,199,310-->
 - A graph is bipartite if and only if the [spectrum](spectral%20graph%20theory.md) ::@:: of the graph is symmetric.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2025-02-28,32,290!2025-11-02,279,330-->
 
 ### Kőnig's theorem and perfect graphs

@@ -294,7 +294,7 @@ Noise Pollution: A serious problem in Hong Kong?
 Noise Levels and Causes
 
 - noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2025-04-01,243,330-->
-  - airplane passing ::@:: 120 dB(A) <!--SR:!2025-02-17,193,310!2025-02-22,194,310-->
+  - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2025-02-22,194,310-->
   - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2025-04-23,237,290-->
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2025-06-10,298,330-->
-  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2025-02-17,172,270!2025-05-03,264,330-->
+  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2025-05-03,264,330-->
   - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
   - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2025-02-27,199,310!2025-03-13,228,330-->
 
@@ -444,7 +444,7 @@ Concentration Units for Gases
 
 - concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2025-03-07,203,310-->
   - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2026-08-08,592,310-->
-  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2025-02-17,193,310!2025-03-06,221,330-->
+  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2025-03-06,221,330-->
 
 ## page 37
 

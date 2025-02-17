@@ -102,7 +102,7 @@ The content is in teaching order.
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
       - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
-      - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2025-02-17,221,354-->
+      - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2028-01-27,1074,374-->
 
 ## oversized data
 
@@ -954,7 +954,7 @@ wave
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
 - flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2025-08-18,314,294-->
-- wave→::@::←_(end)_ <!--SR:!2027-09-06,976,377!2025-02-17,210,315-->
+- wave→::@::←_(end)_ <!--SR:!2027-09-06,976,377!2027-08-21,915,335-->
 
 <!--/pytextgen-->
 
@@ -1016,7 +1016,7 @@ Taipei 101
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
-- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-02-17,111,277!2025-05-06,208,334-->
+- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2025-05-06,208,334-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
 - Taipei 101→::@::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->

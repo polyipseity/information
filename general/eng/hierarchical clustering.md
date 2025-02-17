@@ -101,7 +101,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="259f"--><!-- The following content is generated at 2024-04-12T02:13:02.092326+08:00. Any edits will be overridden! -->
 
-- MISSQ, minimum increase of sum of squares:@:[Ward's method](Ward's%20method.md) <!--SR:!2025-02-17,239,335-->
+- MISSQ, minimum increase of sum of squares:@:[Ward's method](Ward's%20method.md) <!--SR:!2027-04-29,801,335-->
 - UPGMC, unweighted centroid clustering:@:centroid linkage clustering <!--SR:!2026-09-23,629,315-->
 - maximum linkage clustering:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-03-28,269,335-->
 - WPGMC, weighted centroid clustering:@:median linkage clustering <!--SR:!2025-06-17,289,275-->

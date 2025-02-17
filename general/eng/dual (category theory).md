@@ -43,7 +43,7 @@ Applying duality, this means that {@{a morphism in some category _C_ is a monomo
 {@{This example on orders}@} is a special case, since {@{partial orders correspond to a certain kind of category in which Hom\(_A_,_B_\) can have at most one element}@}. In {@{applications to logic}@}, this then looks like {@{a very general description of negation \(that is, proofs run in the opposite direction\)}@}. For example, if {@{we take the opposite of a [lattice](lattice%20theory.md)}@}, we will find that {@{_meets_ and _joins_ have their roles interchanged}@}. This is an abstract form of {@{[De Morgan's laws](De%20Morgan's%20laws.md), or of [duality](duality%20(order%20theory).md) applied to lattices}@}. <!--SR:!2025-04-03,67,310!2025-04-03,67,310!2025-04-03,67,310!2025-03-01,40,290!2025-04-03,67,310!2025-04-03,67,310!2025-04-03,67,310-->
 
 - [Limits](limit%20(category%20theory).md) and [colimits](limit%20(category%20theory).md) ::@:: are dual notions. <!--SR:!2025-04-03,67,310!2025-04-03,67,310-->
-- [Fibrations](fibration.md) and [cofibrations](cofibration.md) ::@:: are examples of dual notions in [algebraic topology](algebraic%20topology.md) and [homotopy theory](homotopy%20theory.md). In this context, the duality is often called [Eckmann–Hilton duality](Eckmann–Hilton%20duality.md). <!--SR:!2025-04-14,61,250!2025-02-17,28,270-->
+- [Fibrations](fibration.md) and [cofibrations](cofibration.md) ::@:: are examples of dual notions in [algebraic topology](algebraic%20topology.md) and [homotopy theory](homotopy%20theory.md). In this context, the duality is often called [Eckmann–Hilton duality](Eckmann–Hilton%20duality.md). <!--SR:!2025-04-14,61,250!2025-06-01,104,290-->
 
 ## see also
 

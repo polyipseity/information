@@ -29,7 +29,7 @@ Suppose that {@{the parameter $\theta$ = \($\theta _{1},\theta _{2},\dots ,\thet
 
 ## advantages and disadvantages
 
-The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2025-03-11,56,310!2025-02-17,38,290!2025-03-10,55,310-->
+The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2025-03-11,56,310!2025-07-17,150,310!2025-03-10,55,310-->
 
 It is an alternative to {@{the [method of maximum likelihood](maximum%20likelihood%20estimation.md)}@}. <!--SR:!2025-03-15,59,310-->
 
@@ -47,7 +47,7 @@ The BL-MoM has been reported on in only {@{the applied statistics literature in 
 
 ## examples
 
-An example application of the method of moments is to {@{estimate polynomial probability density distributions}@}. In this case, {@{an approximating polynomial of order $N$ is defined on an interval $[a,b]$}@}. The method of moments then {@{yields a system of equations}@}, whose solution involves {@{the inversion of a [Hankel matrix](Hankel%20matrix.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-18,62,310!2025-02-17,38,290!2025-03-10,55,310!2025-02-22,43,290-->
+An example application of the method of moments is to {@{estimate polynomial probability density distributions}@}. In this case, {@{an approximating polynomial of order $N$ is defined on an interval $[a,b]$}@}. The method of moments then {@{yields a system of equations}@}, whose solution involves {@{the inversion of a [Hankel matrix](Hankel%20matrix.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-18,62,310!2025-06-08,111,290!2025-03-10,55,310!2025-02-22,43,290-->
 
 ### proving the central limit theorem
 

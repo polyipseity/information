@@ -24,7 +24,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{1/2}@} <!--SR:!2025-02-17,4,270-->
+> - solution: {@{1/2}@} <!--SR:!2025-03-04,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -33,7 +33,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{1/2}@} <!--SR:!2025-02-17,4,270-->
+> - solution: {@{1/2}@} <!--SR:!2025-03-05,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -44,7 +44,7 @@ tags:
 > 3. 6–7 hours per week
 > 4. more than 7 hours per week
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2025-02-17,4,270-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2025-03-05,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -56,7 +56,7 @@ tags:
 > 4. D
 > 5. F
 >
-> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-02-17,4,270-->
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-03-05,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -66,7 +66,7 @@ tags:
 > 2. primary market
 > 3. secondary market
 >
-> - solution: {@{2}@} <!--SR:!2025-02-17,4,270-->
+> - solution: {@{2}@} <!--SR:!2025-03-04,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -83,7 +83,7 @@ tags:
 > 3. 1.0868
 > 4. 1.1026
 >
-> - solution: {@{3}@} <!--SR:!2025-02-17,4,270-->
+> - solution: {@{3}@} <!--SR:!2025-02-27,10,270-->
 
 ## week 1 lecture 2
 

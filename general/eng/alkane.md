@@ -19,7 +19,7 @@ An __alkane__ is {@{an [acyclic](open-chain%20compound.md) [saturated hydrocarbo
 
 ## physical properties
 
-Alkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}@}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {@{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}@}. <!--SR:!2025-11-13,510,230!2025-02-17,444,270-->
+Alkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}@}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {@{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}@}. <!--SR:!2025-11-13,510,230!2028-06-03,1202,270-->
 
 ## chemical properties
 

@@ -39,7 +39,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. smaller for more distant objects
 > 5. larger for nearer objects
 >
-> - solution: {@{3}@} <!--SR:!2025-02-17,172,310-->
+> - solution: {@{3}@} <!--SR:!2027-02-26,739,330-->
 
 <!-- markdownlint MD028 -->
 

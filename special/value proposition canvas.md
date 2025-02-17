@@ -46,7 +46,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - _(begin)_→::@::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2025-09-28,385,309!2025-02-24,225,329-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2025-05-07,247,289!2025-04-16,178,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→::@::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2025-11-27,370,269!2025-03-16,220,289-->
-- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2025-02-17,183,249!2026-04-14,456,269-->
+- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2026-05-26,463,249!2026-04-14,456,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2025-03-31,251,329!2026-04-26,488,289-->
 
 <!--/pytextgen-->
@@ -63,7 +63,7 @@ The value map itself has three parts: {@{products and services, pain relievers, 
 
 ### customer profile
 
-Customer jobs can be split into three categories: {@{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}@}. There are also supporting jobs arising from three different roles: {@{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}@}. Note that jobs {@{have different priorities}@}.  The jobs can be improved by {@{asking why repeatedly until you find the root job}@}. <!--SR:!2025-03-09,216,289!2025-02-17,205,289!2025-10-19,376,309!2026-01-16,442,325-->
+Customer jobs can be split into three categories: {@{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}@}. There are also supporting jobs arising from three different roles: {@{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}@}. Note that jobs {@{have different priorities}@}.  The jobs can be improved by {@{asking why repeatedly until you find the root job}@}. <!--SR:!2025-03-09,216,289!2026-10-02,592,289!2025-10-19,376,309!2026-01-16,442,325-->
 
 Since customer jobs has {@{functional and non-functional aspects}@}, the resulting products can be categorized by {@{functional complexity and emotional complexity}@}. It is important that non-functional aspects are {@{not ignored}@}. For example, a hunching old person needs a stick, but {@{the person also wants to not feel bad while using the stick}@}. Sometimes, non-functional aspects are {@{more important than functional ones}@}, such as {@{an extremely expensive sports car, which is mainly for showing status instead of driving on it}@}. So a {@{deep understanding}@} of customer jobs is required. <!--SR:!2025-10-17,414,365!2025-09-26,393,365!2026-06-30,547,325!2025-03-11,233,345!2025-09-07,381,365!2025-02-27,206,325!2025-07-23,345,365-->
 
