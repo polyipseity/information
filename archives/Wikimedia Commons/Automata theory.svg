@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="600">
+  <g stroke="#00a" stroke-width="3">
+    <rect fill="#ddff55" width="760" x="20" y="130" height="450" ry="50"/>
+    <rect fill="#e5ff80" width="650" x="100" y="150" height="350" ry="50"/>
+    <rect fill="#eeffaa" width="540" x="180" y="170" height="250" ry="50"/>
+    <rect fill="#f6ffd5" width="430" x="260" y="190" height="150" ry="50"/>
+  </g>
+  <g font-family="Times New Roman" font-size="36px">
+    <switch transform="translate(400,70)" text-anchor="middle"><text id="trsvg24-az-latn" systemLanguage="az-latn"><tspan id="trsvg4-az-latn">Avtomatlar nəzəriyyəsi</tspan></text>
+      <text systemLanguage="ca" id="trsvg21"><tspan id="trsvg1">Teoria d'autòmats</tspan></text>
+      <text systemLanguage="bn" id="trsvg22"><tspan id="trsvg2">স্বয়ংক্রিয় তত্ত্ব</tspan></text>
+      <text systemLanguage="sl" id="trsvg23"><tspan id="trsvg3">Teorija avtomatov</tspan></text>
+      
+    <text id="trsvg24-he" systemLanguage="he"><tspan id="trsvg4-he">תורת האוטומטים</tspan></text><text id="trsvg24"><tspan id="trsvg4">Automata theory</tspan></text></switch>
+    <switch transform="translate(310,310)"><text id="trsvg28-az-latn" systemLanguage="az-latn"><tspan id="trsvg8-az-latn">Kombinasiyalı məntiq</tspan></text>
+      <text systemLanguage="ca" id="trsvg25"><tspan id="trsvg5">Lògica combinacional</tspan></text>
+      <text systemLanguage="bn" id="trsvg26"><tspan id="trsvg6">বৈন্যাসিক যুক্তি</tspan></text>
+      <text systemLanguage="sl" id="trsvg27"><tspan id="trsvg7">Kombinacijska logika</tspan></text>
+      
+    <text id="trsvg28-he" systemLanguage="he"><tspan id="trsvg8-he">מעגל צירופי</tspan></text><text id="trsvg28"><tspan id="trsvg8">Combinational logic</tspan></text></switch>
+    <switch transform="translate(230,390)"><text id="trsvg32-az-latn" systemLanguage="az-latn"><tspan id="trsvg12-az-latn">Sonlu vəziyyət maşını</tspan></text>
+      <text systemLanguage="ca" id="trsvg29"><tspan id="trsvg9">Autòmat finit</tspan></text>
+      <text systemLanguage="bn" id="trsvg30"><tspan id="trsvg10">সীমিত-অবস্থা যন্ত্র</tspan></text>
+      <text systemLanguage="sl" id="trsvg31"><tspan id="trsvg11">Stroj s končnim stanjem</tspan></text>
+      
+    <text id="trsvg32-he" systemLanguage="he"><tspan id="trsvg12-he">אוטומט סופי</tspan></text><text id="trsvg32"><tspan id="trsvg12">Finite-state machine</tspan></text></switch>
+    <switch transform="translate(150,470)"><text id="trsvg36-az-latn" systemLanguage="az-latn"><tspan id="trsvg16-az-latn">Aşağı itələyən avtomat</tspan></text>
+      <text systemLanguage="ca" id="trsvg33"><tspan id="trsvg13">Autòmat amb pila</tspan></text>
+      <text systemLanguage="bn" id="trsvg34"><tspan id="trsvg14">পুশডাউন অটোমেটন</tspan></text>
+      <text systemLanguage="sl" id="trsvg35"><tspan id="trsvg15">Potisni avtomat</tspan></text>
+      
+    <text id="trsvg36-he" systemLanguage="he"><tspan id="trsvg16-he">אוטומט מחסנית</tspan></text><text id="trsvg36"><tspan id="trsvg16">Pushdown automaton</tspan></text></switch>
+    <switch transform="translate(70,550)"><text id="trsvg40-az-latn" systemLanguage="az-latn"><tspan id="trsvg20-az-latn">Türinq maşını</tspan></text>
+      <text systemLanguage="ca" id="trsvg37"><tspan id="trsvg17">Màquina de Turing</tspan></text>
+      <text systemLanguage="bn" id="trsvg38"><tspan id="trsvg18">টিউরিং যন্ত্র</tspan></text>
+      <text systemLanguage="sl" id="trsvg39"><tspan id="trsvg19">Turingov stroj</tspan></text>
+      
+    <text id="trsvg40-he" systemLanguage="he"><tspan id="trsvg20-he">מכונת טיורינג</tspan></text><text id="trsvg40"><tspan id="trsvg20">Turing Machine</tspan></text></switch>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+strong dual space.md

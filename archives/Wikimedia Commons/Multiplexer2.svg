@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="695.40295"
+   height="272.20242"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="multiplex1.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3651"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         id="path3710"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3654"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         id="path3660"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3648"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2848"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="344.13536"
+     inkscape:cy="129.68938"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1024"
+     inkscape:window-height="544"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-object-midpoints="true"
+     showborder="true"
+     inkscape:showpageshadow="true"
+     borderlayer="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3636"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.298514,-85.984187)">
+    <rect
+       style="opacity:0.98999999000000005;fill:#ffffff;stroke:#ffffff;stroke-width:1.30890953999999990;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect7226"
+       width="694.09406"
+       height="270.89352"
+       x="21.952969"
+       y="86.638641" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       x="235"
+       y="197.36218"
+       id="text5214"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5216"
+         x="235"
+         y="197.36218"
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Consolas;-inkscape-font-specification:Consolas">out</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.10220289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 117.1777,110.90001 0,179.80715 67.8223,-44.44671 0,-89.90358 -67.8223,-45.45686 z"
+       id="path3638" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.62700009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 187,202.36218 130,0"
+       id="path4092"
+       inkscape:connector-type="polyline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.83621168;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 350,209.22826 38,0"
+       id="path5210"
+       inkscape:connector-type="polyline" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path5212"
+       d="m 350,195.36218 38,0"
+       style="fill:none;stroke:#000000;stroke-width:2.83621168;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path5218"
+       d="m 425,152.36218 55,0"
+       style="fill:none;stroke:#000000;stroke-width:1.70871544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM);display:inline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none;display:inline"
+       d="m 480,152.36218 85,45"
+       id="path5414"
+       inkscape:connector-type="polyline" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path6002"
+       d="M 564.67527,197.26805 680,197.36218"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:none;display:inline" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6210"
+       y="192.36218"
+       x="610"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Consolas;-inkscape-font-specification:Consolas"
+         y="192.36218"
+         x="610"
+         id="tspan6212"
+         sodipodi:role="line">out</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.70871544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM);display:inline"
+       d="m 425,242.36218 55,0"
+       id="path6214"
+       inkscape:connector-type="polyline" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       x="430"
+       y="144.36218"
+       id="text6216"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6218"
+         x="430"
+         y="144.36218"
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console">I</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6222"
+       y="147.36218"
+       x="447"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       xml:space="preserve"><tspan
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+         y="147.36218"
+         x="447"
+         id="tspan6224"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6226"
+       y="237.36218"
+       x="429"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+         y="237.36218"
+         x="429"
+         id="tspan6228"
+         sodipodi:role="line">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="446"
+       y="238.36218"
+       id="text6230"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6232"
+         x="446"
+         y="238.36218"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console">1</tspan></text>
+    <path
+       style="fill:#e9afaf;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+       d="m 520,322.36218 0,-150"
+       id="path6234"
+       inkscape:connector-type="polyline" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       x="464"
+       y="322.36218"
+       id="text6236"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6238"
+         x="464"
+         y="322.36218"
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Consolas;-inkscape-font-specification:Consolas">sel</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.85041046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 49.989303,156.36218 64.289997,0"
+       id="path6240"
+       inkscape:connector-type="polyline" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path6242"
+       d="m 49.987761,246.36218 64.045739,0"
+       style="fill:none;stroke:#000000;stroke-width:1.84732533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6244"
+       y="148.36218"
+       x="66"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+         y="148.36218"
+         x="66"
+         id="tspan6246"
+         sodipodi:role="line">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="83"
+       y="151.36218"
+       id="text6248"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6250"
+         x="83"
+         y="151.36218"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       x="65"
+       y="241.36218"
+       id="text6252"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6254"
+         x="65"
+         y="241.36218"
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console">I</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6256"
+       y="242.36218"
+       x="82"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       xml:space="preserve"><tspan
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+         y="242.36218"
+         x="82"
+         id="tspan6258"
+         sodipodi:role="line">1</tspan></text>
+    <path
+       inkscape:connector-type="polyline"
+       id="path6260"
+       d="m 152,337.36218 0,-68"
+       style="fill:#e9afaf;stroke:#000000;stroke-width:1.34660065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Mend)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6262"
+       y="326.36218"
+       x="88"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:#000000;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:29px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke:#000000;font-family:Consolas;-inkscape-font-specification:Consolas"
+         y="326.36218"
+         x="88"
+         id="tspan6264"
+         sodipodi:role="line">sel</tspan></text>
+  </g>
+</svg>

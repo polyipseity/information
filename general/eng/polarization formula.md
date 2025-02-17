@@ -1,0 +1,1 @@
+polarization of an algebraic form.md

@@ -1,0 +1,1 @@
+eng/The Journal of Symbolic Logic.md
