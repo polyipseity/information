@@ -40,7 +40,7 @@ The content is in teaching order.
 ## week 1 lecture
 
 - datetime: 2025-02-03T09:00:00+08:00/2025-02-03T10:20:00+08:00
-- topic: Introduction, Electric Charge and Electric Field
+- topic: introduction, electric charge and electric field
 - course logistics
 - [electric charge](../../../../general/electric%20charge.md) ::@:: positive/negative <br/> transferrable, via _electric current_ <br/> quantized, in multiples of the _elementary charge_ _e_ ≈ 1.602×10<sup>−19</sup>&nbsp;C
 - [electroscope](../../../../general/electroscope.md) ::@:: It consists of a thin metal strip that is attached to a metallic rod. The metallic rod is contained in a glass window box and is electrically isolated from the supporting table.
@@ -58,7 +58,7 @@ The content is in teaching order.
 ## week 1 lecture 2
 
 - datetime: 2025-02-05T09:00:00+08:00/2025-02-05T10:20:00+08:00
-- topic: Electric Field II
+- topic: electric field II
 - [hierarchy problem](../../../../general/hierarchy%20problem.md) ::@:: Why is gravity so weak compared to electromagnetic force (and weak force and strong force)?
   - hierarchy problem / example ::@:: Consider two double positively charged helium ions. The electrostatic repulsion between them is about 10<sup>39</sup> times stronger than gravity.
   - hierarchy problem / idea ::@:: Even though gravity is very weak, it is the only force that matters at macroscopic scale. This is because gravity always attract but electrostatic force cancels out as objects have a net charge of zero.
@@ -90,6 +90,24 @@ The content is in teaching order.
     - del / properties / linearity ::@:: It is a linear vector operator. So $\nabla$, $\nabla \cdot$, and $\nabla \times$ distributes over addition and is homogenous under _scalar_ (scalar in this context are scalar fields) multiplication.
     - del / properties / product rules (easier) ::@:: These 4 rules are the easier ones: $$\begin{aligned} \nabla (fg) & = f \nabla g + g \nabla f \\ \nabla \cdot (f \mathbf v) & = f (\nabla \cdot \mathbf v) + \mathbf v \cdot (\nabla f) \\ \nabla \times (f \mathbf v) & = f (\nabla \times \mathbf v) - \mathbf v \times (\nabla f) \\ \nabla \cdot (\mathbf u \times \mathbf v) & = -\mathbf u \cdot (\nabla \times \mathbf v) + \mathbf v \cdot (\nabla \times \mathbf u) \end{aligned}$$
     - del / properties / product rules (harder) ::@:: These 2 rules are the harder ones: $$\begin{aligned} \nabla (\mathbf u \cdot \mathbf v) & = \mathbf u \times (\nabla \times \mathbf v) + (\mathbf u \cdot \nabla) \mathbf v + \mathbf v \times (\nabla \times \mathbf u) + (\mathbf v \cdot \nabla)\mathbf u \\ \nabla \times (\mathbf u \times \mathbf v) & = \mathbf u \, (\nabla \cdot \mathbf v) - (\mathbf u \cdot \nabla) \, \mathbf v - \mathbf v \, (\nabla \cdot \mathbf u) + (\mathbf v \cdot \nabla) \, \mathbf u \end{aligned}$$
+
+## week 2 lecture
+
+- datetime: 2025-02-10T09:00:00+08:00/2025-02-10T10:20:00+08:00
+- topic: Maxwell equations of electrostatics
+- [field line](../../../../general/field%20line.md) ::@:: It is a graphical visual aid for visualizing vector fields. It consists of an imaginary integral curve which is tangent to the field vector at each point along its length.
+  - field line / examples
+    - field line / examples / point source ::@:: The field lines radiate outwards/inwards.
+    - field line / examples / parallel plate capacitor ::@:: The field lines are roughly straight from one plate to another when far away from the capacitor edges. Close to the edges, the field lines start bending.
+  - field lines / caution ::@:: The field lines should not cross each other.
+- [flux](../../../../general/flux.md) ::@:: It describes any effect that appears to pass or travel (whether it actually moves or not) through a surface or substance. Flux is a concept in applied mathematics and vector calculus which has many applications in physics. <p> In vector calculus flux is a scalar quantity, defined as the surface integral of the perpendicular component of a vector field over a surface.
+  - flux / equation (for electric field) ::@:: $$\Phi_E \equiv \oiint_S \! \mathbf E \cdot \mathrm d \mathbf A \,,$$ where $\Phi_E$ is the flux out of the surface $S$, which encloses a volume; $\mathbf E$ is the electric field, $\cdot$ is the dot product, and $\mathrm d\mathbf A$ is an infinitesimal area of the surface oriented outwards (outward normal of the surface).
+- [Gauss's law](../../../../general/Gauss's%20law.md) ::@:: In its integral form, it states that the flux of the electric field out of an arbitrary closed surface is proportional to the electric charge enclosed by the surface, irrespective of how that charge is distributed. <p> In its differential form, it states that the divergence of the electric field is proportional to the local density of charge.
+  - Gauss's law / mathematical theorem ::@:: an application of the divergence theorem
+  - Gauss's law / interpretation ::@:: For the integral form: Consider a volume. The (net) flux out of its surface is only affected by the charge enclosed in the volume. Any charges outside the volume does not change the (net) flux, since for an outside charge, any flux entering the volume is canceled by the same amount of flux exiting the volume. <p> However, this does _not_ mean the flux on the surface is solely determined by the charge enclosed by the volume. Charge outside can modify the flux, it is just that the (net) flux out of the surface does not change. <p> For the derivative form: Charge causes divergence in the electric field.
+  - Gauss's law / integral form ::@:: $$\oiint_S \! \mathbf E \cdot \mathrm d \mathbf A = \frac {Q_{\text{enc} } } {\varepsilon_0} \,,$$ where $Q_{\text{enc} }$ is the charge in the volume enclosed by the surface $S$.
+  - Gauss's law / differential form ::@:: $$\nabla \cdot \mathbf E = \frac \rho {\varepsilon_0} \,,$$ where $\rho$ is the charge _density_. <p> This form may be obtained fro the integral form using the divergence theorem.
+    - Gauss's law / differential form / from Coulomb's law ::@:: We can consider the electric field for a continuous charge distribution. Then apply the divergence operator, and make use of the identity: $$\nabla \cdot \left( \frac {\mathbf r} {\lvert \mathbf r \rvert^3} \right) = 4 \pi \delta(\mathbf r)$$ and the "sifting property" of the Dirac delta function. <p> The above identity says that the vector field given by $$\frac {\mathbf r} {\lvert \mathbf r \rvert^3}$$ has zero divergence except for the origin, which has a divergence of $4\pi$.
 
 ## final examination
 
