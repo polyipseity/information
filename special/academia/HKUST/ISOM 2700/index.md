@@ -97,7 +97,7 @@ The content is in teaching order.
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions
   - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights
 
-## week 2 lecture
+## week 1 lecture 2
 
 - datetime: 2025-02-05T10:30:00+08:00/2025-02-05T11:50:00+08:00
 - topic: process analysis, a process view of organization, Little's law, flow time analysis
@@ -144,6 +144,45 @@ The content is in teaching order.
   - Little's law / conditions ::@:: It holds for _all stable processes_, regardless of complexity (e.g. multiple flow units), sequence (e.g. FIFO, LIFO), and randomness (e.g. arrival time, flow time). <p> A _stable process_ is a process where the average rate of input equals the average rate of output, so inventory does not accumulate to infinity as time passes by.
   - Little's law / implications ::@:: Given the conditions are satisfied, one is that we can find one variable from the other two variables in the set of variables _I_, _R_, and _T_. It also means there are trade-offs when setting management goals.
   - Little's law / example ::@:: customers in supermarkets: The amount of time spent by a customer in a supermarket is important to the management. We can use Little's law to find the average time customers spend in the store.
+
+## week 2 lecture
+
+- datetime: 2025-02-10T10:30:00+08:00/2025-02-10T11:50:00+08:00
+- topic: bottleneck analysis, throughput analysis
+- [bottleneck](../../../../general/bottleneck%20(production).md) ::@:: a process in a chain of processes, such that its limited capacity reduces the capacity of the whole chain
+  - bottleneck / motivation ::@:: _Process capacity_ is the _maximum_ flow rate. _Bottlenecks_ determine the process capacity. This is useful for improving process capacity, since bottlenecks determine the process capacity, we should prioritize improving the bottleneck.
+- [law of the minimum](../../../../general/Liebig's%20law%20of%20the%20minimum.md) ::@:: For a process to produce a unit, every resource must finish its own job. Thus, the process capacity is determined by the slowest resource.
+  - law of the minimum / examples ::@:: The capacity of a barrel with staves of unequal length is limited by the shortest stave. <p> A chain is only as strong as its weakest link. <p> The flow rate of an irregular pipe is limited by its narrowest gap.
+- [bottleneck](../../../../general/bottleneck%20(production).md)
+  - bottleneck / identification ::@:: List activities, resources (workers to perform activities), and processing times. Assign resources to activities (the assignment can be very complex). For each resource (not activity), compute its workload needed to produce a unit and thus its _capacity_. Finally, identify the _bottleneck resource_, which is the resource with the _lowest_ capacity.
+    - bottleneck / identification / scenarios ::@:: In general, multiple resources can be assigned to multiple tasks, with AND/OR connecting the resources. <p> For this course, we consider 3 simple scenarios: one-to-one (each resource is required by exactly one activity), and (one resource is needed in multiple activities), and or (one activity can be performed by multiple resources).
+    - bottleneck / identification / one-to-one ::@:: Simple. Simply find the resource with the _lowest_ capacity.
+    - bottleneck / identification / and ::@:: Determine activities by each resources that is required to produce a unit. Find the time required per unit, and thus its capacity. Then find the resource with the _lowest_ capacity.
+    - bottleneck / identification / or ::@:: Pool multiple resources that can perform the same process into one, effectively treating the resource as one. Its capacity is the sum of the capacities of the multiple resources. Then find the resource with the _lowest_ capacity.
+    - bottleneck / identification / random process ::@:: Sometimes, only a percentage (not all) units flow from a process (process A) to another process (process B). In this case, we should find process B's _effective_ capacity from its actual capacity. It can be obtained by dividing its actual capacity by the percentage of units that flow from process A to process B.
+- [production leveling](../../../../general/production%20leveling.md) (line balancing) ::@:: By moving capacity to bottlenecks or moving workload to underutilized resources, we can balance the workload among resources in the process. This helps raise the capacity of bottlenecks and reduces _supply—demand mismatch_ within the process.
+  - production leveling / examples ::@:: flexible line layouts: Operators can move nearby instead of being stuck to a fixed location to self-balance the workload. It also makes it easier to add or remove operators. <br/> U-shaped lines: Operators do not need to move as much to reach a process that is further away. Less operators are also needed as operators can work on multiple processes that are far away from each other.
+- [capacity utilization](../../../../general/capacity%20utilization.md) ::@:: flow rate / resource capacity <p> It measures how much of the resource capacity is being used.
+- [bottleneck](../../../../general/bottleneck%20(production).md)
+  - bottleneck / utilization ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), if a resource has lower capacity, it has higher utilization. So the bottleneck can also be stated as the resource with _highest utilization_.
+- [capacity utilization](../../../../general/capacity%20utilization.md)
+  - capacity utilization / utilization profile chart ::@:: Plot a bar chart of each resource and its utilization (in percentage).
+    - capacity utilization / utilization profile chart / interpretation ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), the resource with the highest utilization is the _bottleneck_. The gap between the highest utilization nd the lowest utilization is the _imbalance_ relative to the bottleneck. The gap between 100% and the highest utilization is the _mismatch between supply and demand_ (explained below).
+- flow rate
+  - flow rate / input, process capacity, potential demand ::@:: It is the minimum between input, process capacity, and potential demand.
+  - flow rate / input-constrained ::@:: Input is fully used. Process capacity is not fully used. Potential demand is not fully satisfied.
+  - flow rate / demand-constrained ::@:: Input is not fully used. Process capacity is not fully used. Potential demand is fully satisfied.
+  - flow rate / capacity-constrained ::@:: Input is not fully used. Process capacity is fully used. Potential demand is not fully satisfied.
+- [capacity utilization](../../../../general/capacity%20utilization.md)
+  - capacity utilization / process utilization ::@:: It is defined as the _bottleneck_ utilization.
+    - capacity utilization / process utilization / lower than 100% ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), this means the process is _not_ capacity-constrained, but either input-constrained or demand-constrained (or both).
+
+---
+
+- tag: optional
+- [capacity utilization](../../../../general/capacity%20utilization.md)
+  - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes).
+  - capacity utilization / implied utilization ::@:: demand for a resource over all types of flow units / capacity of a resource <p> It can be higher than 100%, implying that the capacity cannot meet the demand.
 
 ## midterm examination
 
