@@ -35,7 +35,7 @@ In the case when {@{all future cash flows are positive, or incoming}@} \(such as
 
 - _t_ ::@:: is the time of the cash flow
 - _i_ ::@:: is the discount rate, i.e. the [return](rate%20of%20return.md) that could be earned per unit of time on an [investment with similar risk](opportunity%20cost.md)
-- $R_{t}$ ::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. For educational purposes, $R_{0}$ is commonly placed to the left of the sum to emphasize its role as \(minus\) the investment.
+- $R_{t}$ <!-- flashcard ID: 07a9f752-575e-4aa0-bdfb-c2cfcecb56b4 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. For educational purposes, $R_{0}$ is commonly placed to the left of the sum to emphasize its role as \(minus\) the investment.
 - $1/(1+i)^{t}$ ::@:: is the discount factor, also known as the present value factor.
 
 {@{The result of this formula}@} is {@{multiplied with the Annual Net cash in-flows and reduced by Initial Cash outlay the present value}@}, but in {@{cases where the cash flows are not equal in amount}@}, {@{the previous formula will be used to determine the present value of each cash flow separately}@}. {@{Any cash flow within 12 months will not be discounted for NPV purpose}@}, nevertheless {@{the usual initial investments during the first year _R_<sub>0</sub> are summed up a negative cash flow}@}.<sup>[\[4\]](#^ref-4)</sup>
@@ -60,7 +60,7 @@ where:
 
 The NPV method can be {@{slightly adjusted to calculate how much money is contributed to a project's investment per dollar invested}@}. This is known as {@{the capital efficiency ratio}@}. {@{The formula for the net present value per dollar investment \(NPVI\)}@} is given below: {@{$$\mathrm {NPVI} (i,N)={\frac {\sum _{t=1}^{N}{\frac {R_{t} }{(1+i)^{t} } } }{\sum _{t=1}^{N}{\frac {C_{t} }{(1+i)^{t} } } } }$$}@} where:
 
-- $R_{t}$ ::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_.
+- $R_{t}$ <!-- flashcard ID: 6db1aa57-6f77-48d3-a995-9699c9b82171 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_.
 - $C_{t}$ ::@:: are the net cash outflows, at time _t_.
 
 ### example

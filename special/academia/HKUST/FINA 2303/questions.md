@@ -125,8 +125,8 @@ tags:
 
 > Q4. To decide whether to accept this investment opportunity:
 >
-> Cost: 100&nbsp;000 dollars now
-> Benefit: 105&nbsp;000 dollars in 1 year
+> - Cost: 100&nbsp;000 dollars now
+> - Benefit: 105&nbsp;000 dollars in 1 year
 >
 > You should find:
 >

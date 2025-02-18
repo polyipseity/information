@@ -139,7 +139,7 @@ return chain.from_iterable(await gather(
 
 ## agglomerative clustering
 
-Note that [distance](distance.md) described below is {@{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard a2c1b40f-e67e-45fd-ad01-b9449a7c2df4 -->}@}, so the method is applicable to {@{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard 9bb1c2ee-7fda-427b-8bc0-8af05b09ab26-->}@}.
+Note that [distance](distance.md) described below is {@{<!-- flashcard ID: a2c1b40f-e67e-45fd-ad01-b9449a7c2df4 -->the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)}@}, so the method is applicable to {@{<!-- flashcard ID: 9bb1c2ee-7fda-427b-8bc0-8af05b09ab26-->any distance functions and [cluster linkages](#cluster%20linkage)}@}.
 
 To perform agglomerative clustering, initially {@{create a cluster for each observation, containing the observation itself}@}. Then {@{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}@}. Keep track of the {@{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}@}. Repeat this until {@{you have only one cluster left}@}. Then your dendrogram is the result, and {@{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}@}.
 
@@ -147,7 +147,7 @@ One way to implement this is, after creating a cluster for each observation, {@{
 
 ## divisive clustering
 
-Note that [distance](distance.md) described below is {@{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}@}, so the method is applicable to {@{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}@}.
+Note that [distance](distance.md) described below is {@{<!-- flashcard ID: 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)}@}, so the method is applicable to {@{<!-- flashcard ID: bf2e7702-5a6b-460b-a424-475b27c6f443 -->any distance functions and [cluster linkages](#cluster%20linkage)}@}.
 
 The basic principle of divisive clustering was {@{published as the DIANA (DIvisive ANAlysis clustering) algorithm}@}.<sup>[\[1\]](#^ref-Kaufman-2009)</sup>
 
