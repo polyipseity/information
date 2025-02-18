@@ -1,0 +1,1 @@
+competitive exclusion principle.md
