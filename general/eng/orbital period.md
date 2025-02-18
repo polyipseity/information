@@ -13,7 +13,7 @@ tags:
 
 ### synodic period
 
-One of the observable characteristics of two bodies which {@{[orbit](orbit.md) a third body in different orbits, and thus have different orbital periods}@}, is their {@{__synodic period__, which is the time between [conjunctions](conjunction%20(astronomy).md)}@}. It can also be defined for {@{a satellite of a body orbiting a third body}@}, in which case {@{the third body is used as the reference}@}. <!--SR:!2025-02-18,160,310!2025-05-21,245,330!2025-04-23,204,310!2025-03-18,182,310-->
+One of the observable characteristics of two bodies which {@{[orbit](orbit.md) a third body in different orbits, and thus have different orbital periods}@}, is their {@{__synodic period__, which is the time between [conjunctions](conjunction%20(astronomy).md)}@}. It can also be defined for {@{a satellite of a body orbiting a third body}@}, in which case {@{the third body is used as the reference}@}. <!--SR:!2027-01-09,690,330!2025-05-21,245,330!2025-04-23,204,310!2025-03-18,182,310-->
 
 An example of this related period description is {@{the repeated cycles for [celestial bodies](astronomical%20object.md) as observed from the [Earth](Earth.md)'s surface}@}. The __synodic period__ applies to {@{the elapsed time where same kind of phenomenon happens or planets return to the same location}@}. <!--SR:!2025-08-31,281,290!2026-02-06,387,290-->
 

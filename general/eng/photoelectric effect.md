@@ -20,7 +20,7 @@ Emitted electrons have {@{different}@} initial kinetic energies. The maximum kin
 
 ## mechanism
 
-The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when {@{continuous radiation passes through an electron}@}, {@{the electron gains [kinetic energy](kinentic%20energy.md)}@}, {@{vibrating with increasing amplitude}@}. After {@{some time}@}, when enough energy is accumulated, {@{the electron is emitted}@}. The energy gain increases when {@{light intensity increases}@}. However, {@{[observations](#observation) disagree}@}. <!--SR:!2025-02-18,428,250!2028-11-20,1575,290!2026-04-04,917,330!2028-09-27,1579,310!2025-04-19,511,270!2027-07-25,1145,290!2026-08-05,953,290-->
+The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when {@{continuous radiation passes through an electron}@}, {@{the electron gains [kinetic energy](kinentic%20energy.md)}@}, {@{vibrating with increasing amplitude}@}. After {@{some time}@}, when enough energy is accumulated, {@{the electron is emitted}@}. The energy gain increases when {@{light intensity increases}@}. However, {@{[observations](#observation) disagree}@}. <!--SR:!2029-03-30,1501,270!2028-11-20,1575,290!2026-04-04,917,330!2028-09-27,1579,310!2025-04-19,511,270!2027-07-25,1145,290!2026-08-05,953,290-->
 
 The {@{threshold frequency $\nu_o$}@} is determined by {@{the [work function](work%20function.md) $\Phi$ of the surface of the material}@}:
 {@{$$\begin{aligned}\Phi&=h\nu_o\\\nu_o&=\frac\Phi{h}\end{aligned}$$}@}

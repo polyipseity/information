@@ -425,7 +425,7 @@ One useful method of {@{obtaining congruences for sequences enumerated by specia
 > 1. the function _A<sub>p</sub>_(_z_) is rational for all _p_ ≥ 2 where we assume that one of divisibility criteria of _p_ | _p_<sub>1</sub>, _p_<sub>1</sub>_p_<sub>2</sub>, _p_<sub>1</sub>_p_<sub>2</sub>_p_<sub>3</sub> is met, that is, $p \mid p_1 p_2 \cdots p_k$ for some _k_ ≥ 1; and
 > 2. if the integer _p_ divides the product $p_1 p_2 \cdots p_k$, then we have _A_(_z_) ≡ _A<sub>k</sub>_(_z_) (mod _p_).
 
-Generating functions also have other uses in proving congruences for their coefficients. We cite the next two specific examples deriving special case congruences for {@{the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and for the [partition function _p_(_n_)](partition%20function%20(number%20theory).md)}@} which show the versatility of generating functions in tackling problems involving [integer sequences](integer%20sequence.md). <!--SR:!2025-02-18,92,290-->
+Generating functions also have other uses in proving congruences for their coefficients. We cite the next two specific examples deriving special case congruences for {@{the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and for the [partition function _p_(_n_)](partition%20function%20(number%20theory).md)}@} which show the versatility of generating functions in tackling problems involving [integer sequences](integer%20sequence.md). <!--SR:!2026-02-25,372,310-->
 
 #### the Stirling numbers modulo small integers
 

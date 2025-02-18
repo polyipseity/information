@@ -34,7 +34,7 @@ The level of variable cost is {@{influenced by many factors}@}, such as {@{[fixe
 
 ## examples
 
-Some common examples include {@{sales commission, labor costs, and the costs of [raw materials](raw%20material.md)}@}. <!--SR:!2025-02-18,28,270-->
+Some common examples include {@{sales commission, labor costs, and the costs of [raw materials](raw%20material.md)}@}. <!--SR:!2025-06-04,106,290-->
 
 For {@{a [business which produces clothing](clothing%20industry.md)}@}, variable cost would include {@{the direct material, i.e., cloth, and the direct labor}@}. If the business uses {@{a room, a [sewing machine](sewing%20machine.md)}@}, and 8 hours of a laborer's time with 6 yards of cloth to make a shirt, then {@{the cost of labor and cloth increases if two shirts are produced}@}, and {@{those are the variable costs}@}. {@{The facility and equipment}@} are {@{fixed costs, incurred regardless of whether even one shirt is made}@}. <!--SR:!2025-03-26,59,310!2025-03-09,42,290!2025-04-04,67,310!2025-03-09,42,290!2025-03-27,60,310!2025-03-26,59,310!2025-04-04,67,310-->
 

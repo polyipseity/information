@@ -47,7 +47,7 @@ return await memorize_table(
 > | {@{[brittleness](brittleness.md)}@} | {@{typically [anisotropic](anisotropy.md)}@} |
 > | {@{[electrical conductivity](electrical%20conductivity.md)}@} | {@{typically low}@} |
 > | {@{[melting point](melting%20point.md)}@} | {@{typically low}@} |
-> | {@{[strength](strength%20of%20materials.md)}@} | {@{typically low}@} | <!--SR:!2029-06-13,1648,310!2028-09-10,1555,350!2027-04-03,1055,330!2026-02-17,488,310!2025-05-09,553,290!2027-09-02,1259,350!2028-10-20,1373,373!2025-02-18,392,373!2026-05-28,623,341!2028-12-04,1415,382-->
+> | {@{[strength](strength%20of%20materials.md)}@} | {@{typically low}@} | <!--SR:!2029-06-13,1648,310!2028-09-10,1555,350!2027-04-03,1055,330!2026-02-17,488,310!2025-05-09,553,290!2027-09-02,1259,350!2028-10-20,1373,373!2030-08-14,2003,393!2026-05-28,623,341!2028-12-04,1415,382-->
 
 <!--/pytextgen-->
 

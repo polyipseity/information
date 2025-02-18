@@ -459,7 +459,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCHO}@}
 > - prefix: {@{oxo- (=O), formyl- (-CHO)}@}
 > - suffix: {@{-al (=O), -carbaldehyde (-CHO)}@}
-> - infix: {@{(locant)}@} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2032-06-02,2690,342!2025-02-18,76,150!2025-09-10,677,285!2028-10-10,1730,387-->
+> - infix: {@{(locant)}@} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2032-06-02,2690,342!2025-06-15,117,150!2025-09-10,677,285!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 

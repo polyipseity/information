@@ -54,7 +54,7 @@ Then to create an object, one uses {@{`new`}@}: <!--SR:!2027-05-15,900,330-->
 Name nameObject = new Name(42);
 ```
 
-The above object stored under `nameObject` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2025-02-18,291,330-->
+The above object stored under `nameObject` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2028-10-11,1331,350-->
 
 ## method
 
@@ -76,7 +76,7 @@ void aMethod(String arg1, int arg2) {
 
 The return type indicates {@{the type of the method output}@}. The `void` type is {@{a special return type indicating no method output}@}. To return a non-`void` value, use {@{`return`, like `return valueOfReturnType;`}@}. <!--SR:!2028-05-23,1224,350!2028-02-04,1136,350!2026-09-06,711,330-->
 
-The parameter types indicates {@{the types of the method inputs}@}. It is possible to have {@{no parameters}@}. Each parameter is {@{separated by `,`, with the parameter type appearing before the parameter name}@}. <!--SR:!2028-01-23,1128,350!2026-09-30,728,330!2025-02-18,292,330-->
+The parameter types indicates {@{the types of the method inputs}@}. It is possible to have {@{no parameters}@}. Each parameter is {@{separated by `,`, with the parameter type appearing before the parameter name}@}. <!--SR:!2028-01-23,1128,350!2026-09-30,728,330!2028-10-15,1335,350-->
 
 ### constructor
 

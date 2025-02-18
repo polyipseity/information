@@ -243,7 +243,7 @@ tags:
 > 2. A technological advance allows the software to be produced at lower cost.
 > 3. Professional tax return preparers raise the price of the services they provide.
 >
-> - solution: {@{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}@} <!--SR:!2025-02-18,84,356-->
+> - solution: {@{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}@} <!--SR:!2026-04-04,410,376-->
 
 ### chapter 5 lecture
 

@@ -14,7 +14,7 @@ In a rigid frame, structural elements like {@{beams, columns, and floor slabs ar
 
 Usually, the building plan is {@{open and are rectangular grids, making space planning easy}@}. Even {@{the vertical plan (elevation)}@} are {@{rectangular grids}@}. You can think of the structural elements as {@{a 3D lattice}@}, where the vertical structural elements are the {@{columns or walls}@} and others are the {@{beams}@}. <!--SR:!2026-05-13,508,310!2025-05-15,280,330!2026-07-12,578,310!2025-03-30,244,330!2027-03-18,788,330!2025-03-17,233,330-->
 
-It is used in {@{car parks, low-rise factories, etc.}@} Economically, it makes sense {@{up to about 25 stories}@}, after which {@{the lateral stiffness is too low, making it not suitable for tall buildings}@}. <!--SR:!2025-03-09,209,310!2025-02-18,196,310!2027-05-19,837,330-->
+It is used in {@{car parks, low-rise factories, etc.}@} Economically, it makes sense {@{up to about 25 stories}@}, after which {@{the lateral stiffness is too low, making it not suitable for tall buildings}@}. <!--SR:!2025-03-09,209,310!2027-06-09,841,330!2027-05-19,837,330-->
 
 It can be combined with {@{[shear walls](shear%20wall.md), constrained to deflect together}@}. This provides {@{stiffer structure than rigid frame or shear walls alone}@}. It is economic up to {@{about 50 stories}@}. <!--SR:!2026-10-11,670,330!2025-03-26,241,330!2025-07-03,273,310-->
 

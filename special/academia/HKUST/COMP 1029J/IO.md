@@ -25,7 +25,7 @@ printing
 */
 ```
 
-One can also print {@{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}@}. `println` can also be called {@{without arguments, in which case it simply prints a newline}@}. <!--SR:!2025-02-18,294,330!2028-03-12,1166,350-->
+One can also print {@{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}@}. `println` can also be called {@{without arguments, in which case it simply prints a newline}@}. <!--SR:!2028-10-19,1339,350!2028-03-12,1166,350-->
 
 To align output, a primitive way is {@{using the tab character `\t`, which usually aligns text in 8-character intervals}@}. <!--SR:!2027-07-21,983,350-->
 

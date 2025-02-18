@@ -432,7 +432,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2025-02-18,55,341!2025-04-01,90,361-->
+> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2025-10-29,252,361!2025-04-01,90,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -636,7 +636,7 @@ tags:
 > 2. unissued shares
 > 3. maximum number of shares that can be issued or sold to the public (approved by government authorities)
 >
-> - solution: {@{3}@} <!--SR:!2025-02-18,55,341-->
+> - solution: {@{3}@} <!--SR:!2025-11-02,256,361-->
 
 <!-- markdownlint MD028 -->
 

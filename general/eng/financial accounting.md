@@ -199,7 +199,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 - [DIRTI 5](DIRTI%205.md)
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
-- [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!2025-02-18,117,290!2026-04-06,424,310-->
+- [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!2026-06-08,475,310!2026-04-06,424,310-->
 - [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2025-07-09,231,330!2025-06-02,196,310-->
 - [bookkeeping](bookkeeping.md)
 

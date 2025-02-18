@@ -80,7 +80,7 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 >
 > - empty function $\varnothing \to X$ :@: It is not continuous at every [real](real%20number.md). However, it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2027-10-03,1009,350-->
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :@: It is continuous at $0$. <!--SR:!2027-08-04,956,344-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :@: It is continuous at $0$. <!--SR:!2025-02-18,263,330-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :@: It is continuous at $0$. <!--SR:!2027-07-05,867,330-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :@: It is not continuous at $0$. <!--SR:!2026-11-09,740,330-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :@: It is not continuous at $-1$. <!--SR:!2026-06-18,634,330-->
 

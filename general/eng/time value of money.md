@@ -155,7 +155,7 @@ Notes:
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2025-02-21,4,270!2025-02-21,4,270-->
 > - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2025-02-20,3,250!2025-02-21,4,270-->
 > - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$ <!--SR:!2025-02-20,3,250!2025-02-21,4,270-->
-> - __find__: Fixed payment \(A\) (annotation: i.e. converting gradient payments to fixed payments) <br/> __given__: Initial gradient payment \(G\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-02-18,1,230!2025-02-20,3,250-->
+> - __find__: Fixed payment \(A\) (annotation: i.e. converting gradient payments to fixed payments) <br/> __given__: Initial gradient payment \(G\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-02-21,3,250!2025-02-20,3,250-->
 > - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-02-20,3,250!2025-02-21,4,270-->
 > - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-02-20,3,250!2025-02-21,4,270-->
 
@@ -191,7 +191,7 @@ __Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}
 
 __Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2025-02-21,4,270!2025-02-21,4,270-->
 
-__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-02-20,3,250!2025-02-18,1,230-->
+__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-02-20,3,250!2025-02-21,3,250-->
 
 These formulas assume that {@{payment A is made in the first payment period and annuity ends at time _t_}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-21,4,270-->
 
@@ -247,7 +247,7 @@ Thus for {@{a stream of cash flows _f_\(_u_\) ending by time _T_ \(which can be 
 This text incorporates [content](https://en.wikipedia.org/wiki/time_value_of_money) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 - <a id="CITEREFCarrFlesaker2006"></a> Carr, Peter; Flesaker, Bjorn \(2006\), [_Robust Replication of Default Contingent Claims \(presentation slides\)_](https://web.archive.org/web/20090227113241/http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_slides.pdf) \(PDF\), [Bloomberg LP](Bloomberg%20LP.md), archived from [the original](http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_slides.pdf) \(PDF\) on 2009-02-27. See also [Audio Presentation](http://www.fields.utoronto.ca/audio/06-07/finance_seminar/flesaker/) and [paper](http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_RRDCC3.pdf). `{@{[citation](https://en.wikipedia.org/wiki/Template:Citation)}@}`: External link in `` `|postscript=` `` \([help](https://en.wikipedia.org/wiki/Help:CS1%20errors#param%20has%20ext%20link)\)
-- Crosson, S.V., and Needles, B.E.\(2008\). Managerial Accounting \(8th Ed\). Boston: Houghton Mifflin Company. <!--SR:!2025-02-18,1,230-->
+- Crosson, S.V., and Needles, B.E.\(2008\). Managerial Accounting \(8th Ed\). Boston: Houghton Mifflin Company. <!--SR:!2025-02-19,1,210-->
 
 ## external links
 

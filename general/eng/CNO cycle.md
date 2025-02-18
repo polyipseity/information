@@ -25,7 +25,7 @@ Under {@{typical conditions found in stars}@}, catalytic hydrogen burning by the
 
 ### CNO-I
 
-The CN-cycle, named as {@{it contains no stable isotope of oxygen}@}, involves the following cycle of transformations: {@{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}@}. <!--SR:!2025-02-28,156,310!2025-02-18,133,290-->
+The CN-cycle, named as {@{it contains no stable isotope of oxygen}@}, involves the following cycle of transformations: {@{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}@}. <!--SR:!2025-02-28,156,310!2026-03-10,385,290-->
 
 This cycle is now understood as {@{being the first part of a larger process, the CNO-cycle}@}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2025-06-26,254,330-->
 

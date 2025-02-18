@@ -138,7 +138,7 @@ LTL can be shown to be {@{equivalent to the [monadic first-order logic of order]
 
 {@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2025-03-16,79,343!2025-03-07,71,330-->
 
-- No formula in CTL ::@:: can define the language that is defined by the LTL formula __F__\(__G__ p\). <!--SR:!2025-02-18,53,310!2025-05-06,101,290-->
+- No formula in CTL ::@:: can define the language that is defined by the LTL formula __F__\(__G__ p\). <!--SR:!2025-10-01,225,330!2025-05-06,101,290-->
 - No formula in LTL ::@:: can define the language that is defined by the CTL formulas __AG__\( p → \(__EX__<!-- markdown separator -->q ∧ __EX__<!-- markdown separator -->¬q\) \) or __AG__\(__EF__\(p\)\). <!--SR:!2025-03-07,58,257!2025-05-07,102,290-->
 
 ## computational problems
