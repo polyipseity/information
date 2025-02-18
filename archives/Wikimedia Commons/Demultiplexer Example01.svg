@@ -7,7 +7,8 @@
 	<!ENTITY st3 "fill:#FFFFFF;stroke-linecap:butt;stroke-linejoin:miter;">
 	<!ENTITY st4 "fill:#3D354C;stroke:none;">
 ]>
-<svg  width="386pt" height="342pt" viewBox="0 0 386 342" xml:space="preserve">
+<svg  width="386pt" height="342pt" viewBox="0 0 386 342" xml:space="preserve"
+ xmlns="http://www.w3.org/2000/svg">
 	<g id="Layer_x0020_1" style="&st0;">
 		<path style="&st3;" d="M385.5,341.5H0.5V0.5h385v341z"/>
 		<g>
