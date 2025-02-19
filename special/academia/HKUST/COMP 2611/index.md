@@ -160,6 +160,16 @@ The content is in teaching order.
   - programmable logic array (PLA) / intuition ::@:: The AND plane consisting of 2<sup>N</sup> AND gates produce all possible minterms. The OR plane consisting of M gates produces the required M outputs, assembled from all possible minterms from the AND plane.
   - programmable logic array (PLA) / duality ::@:: Theoretically, product of sums (POS) could be used instead, with an OR plane generating all possible maxterms, connected to an AND plane generating the required outputs. <p> However, negations are needed when you convert a truth table to POS, which is more mentally demanding and less intuitive. So that is why this is not often seen in practice.
 
+## week 2 lab
+
+- datetime: 2025-02-11T15:00:00+08:00/2025-02-11T15:50:00+08:00
+- status: unscheduled, no lab
+
+## week 2 tutorial
+
+- datetime: 2025-02-11T18:00:00+08:00/2025-02-11T18:50:00+08:00
+- status: unscheduled, no tutorial
+
 ## assignments
 
 ## midterm examination
