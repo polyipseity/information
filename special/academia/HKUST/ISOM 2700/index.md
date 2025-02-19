@@ -167,7 +167,7 @@ The content is in teaching order.
   - bottleneck / utilization ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), if a resource has lower capacity, it has higher utilization. So the bottleneck can also be stated as the resource with _highest utilization_.
 - [capacity utilization](../../../../general/capacity%20utilization.md)
   - capacity utilization / utilization profile chart ::@:: Plot a bar chart of each resource and its utilization (in percentage).
-    - capacity utilization / utilization profile chart / interpretation ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), the resource with the highest utilization is the _bottleneck_. The gap between the highest utilization nd the lowest utilization is the _imbalance_ relative to the bottleneck. The gap between 100% and the highest utilization is the _mismatch between supply and demand_ (explained below).
+    - capacity utilization / utilization profile chart / interpretation ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), the resource with the highest utilization is the _bottleneck_. The gap between the highest utilization and the lowest utilization is the _imbalance_ relative to the bottleneck. The gap between 100% and the highest utilization is the _mismatch between supply and demand_ (explained below).
 - flow rate
   - flow rate / input, process capacity, potential demand ::@:: It is the minimum between input, process capacity, and potential demand.
   - flow rate / input-constrained ::@:: Input is fully used. Process capacity is not fully used. Potential demand is not fully satisfied.
