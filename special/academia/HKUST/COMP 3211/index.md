@@ -95,6 +95,11 @@ The content is in teaching order.
 > Best regards,
 > \[redacted\]
 
+## week 2 tutorial
+
+- datetime: 2025-02-11T12:30:00+08:00/2025-02-11T13:20:00+08:00
+- status: canceled
+
 ## assignments
 
 ## midterm examination

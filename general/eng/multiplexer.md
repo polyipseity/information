@@ -151,7 +151,7 @@ For [7400 series](7400%20series.md) part numbers in the following table, "x" is 
 
 Demultiplexers take {@{one data input and a number of selection inputs, and they have several outputs}@}. They {@{forward the data input to one of the outputs depending on the values of the selection inputs}@}. Demultiplexers are sometimes {@{convenient for designing general-purpose logic}@} because if {@{the demultiplexer's input is always true}@}, {@{the demultiplexer acts as a [binary decoder](binary%20decoder.md)}@}. This means that {@{any function of the selection bits}@} can be {@{constructed by logically OR-ing the correct set of outputs}@}. <!--SR:!2025-02-21,4,284!2025-02-21,4,284!2025-02-21,4,284!2025-02-21,4,270!2025-02-21,4,284!2025-02-21,4,284!2025-02-21,4,284-->
 
-If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$$A=(X\wedge \neg S)$$ $$B=(X\wedge S)$$}@} <!--SR:!2025-02-21,4,284!2025-02-21,4,284-->
+If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$$A=(X\wedge \neg S)$$ <br/> $$B=(X\wedge S)$$}@} <!--SR:!2025-02-21,4,284!2025-02-21,4,284-->
 
 > {@{![Example: A Single Bit 1-to-4 Line Demultiplexer](../../archives/Wikimedia%20Commons/Demultiplexer%20Example01.svg)}@}
 >

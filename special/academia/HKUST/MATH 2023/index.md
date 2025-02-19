@@ -98,6 +98,28 @@ The content is in teaching order.
     - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$ <!--SR:!2025-02-28,11,306!2025-03-07,18,327-->
     - cross product / calculation / matrix determinant ::@:: $\mathbf a \times \mathbf b = \begin{vmatrix} \mathbf i & \mathbf j & \mathbf k \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
 
+## week 2 lecture
+
+- datetime: 2025-02-11T13:30:00+08:00/2025-02-11T14:50:00+08:00
+- [cross product](../../../../general/cross%20product.md)
+  - cross product / calculation
+    - cross product / calculation / 3D basis ::@:: $\hat i \times \hat j = \hat k \qquad \hat j \times \hat k = \hat i \qquad \hat k \times \hat i = \hat j$
+  - cross product / properties
+    - cross product / properties / perpendicularity ::@:: $(\mathbf u \times \mathbf v) \cdot \mathbf u = (\mathbf u \times \mathbf v) \cdot \mathbf v = 0$
+    - cross product / properties / parallelism ::@:: $\mathbf u \times \mathbf v = \mathbf 0$ iff the 2 vectors are parallel or at least 1 of them is $\mathbf 0$.
+  - cross product / area and volume ::@:: $\lvert \mathbf u \times \mathbf v \rvert$ is the area of the parallelogram formed by the 2 vectors. $\lvert \mathbf u \cdot (\mathbf v \times \mathbf w) \rvert$ is the volume of the parallelepiped (analogy of parallelogram to 3D space) formed by the 3 vectors.
+- [parametric equation](../../../../general/parmetric%20equation.md)  ::@:: It expresses several quantities, such as the coordinates of a point, as functions of one or several variables called parameters. <p> We consider there are exactly 1 parameter, in which case the equation describes a curve (it need not be a line).
+  - parametric equation / notation ::@:: For example, to describe a curve in 3D space, we have several ways: $$\begin{aligned} \gamma(t) & = (x(t), y(t), z(t)) \\ & \begin{cases} x(t) = \text{function of }t \\ y(t) = \text{function of }t \\ z(t) = \text{function of }t \end{cases} \\ & \begin{cases} x = \text{function of }t \\ y = \text{function of }t \\ z = \text{function of }t \end{cases} \end{aligned}$$
+  - parametric equation / construction
+    - parametric equation / construction / line through a point parallel to a vector ::@:: If the point is $(x_0, y_0, z_0)$ and the vector is $\langle a, b, c \rangle$, then $\gamma(t) = (x_0, y_0, z_0) + t (a, b, c) = (x_0 + at, y_0 + bt, z_0 + ct)$. <p> We notice that actually, as long as the multiplication factor ($t$ in this context) has a domain of $\mathbb R$ and are the same for $a, b, c$, the equation describes the same line. So we can replace $t$ with $2t$, but not $0t$ or $t^2$.
+  - parametric equation / non-uniqueness ::@:: Different equations can represent the same curve. <p> The simplest would be to replace $t$ by $\alpha t$, where $\alpha$ is a nonzero real number. The curve is the same but we can think of it as $t$ going "faster" or "slower" along the curve.
+
+## week 2 tutorial
+
+- datetime: 2025-02-11T16:00:00+08:00/2025-02-11T16:50:00+08:00
+- [week 2 lecture](#week%202%20lecture)
+- [week 2 lecture 2](#week%202%20lecture%202)
+
 ## assignments
 
 ## midterm examination

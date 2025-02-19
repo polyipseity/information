@@ -27,7 +27,7 @@ Things to memorize. Yes... 🫠
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type ::@:: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2025-05-18,232,294!2025-08-31,367,380-->
+- bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2025-05-18,232,294!2025-08-31,367,380-->
 - description ::@:: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
 - image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2025-10-26,436,400-->
 - length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2025-06-20,319,372-->
@@ -56,7 +56,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 - description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2025-08-07,356,374-->
 - height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-03-23,54,241!2025-09-17,384,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2025-07-08,324,380!2025-04-18,271,380-->
-- [structural system](../../../../general/structural%20system.md) ::@:: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2025-10-15,407,341!2027-03-07,764,330-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: e75e9185-3454-4c54-a9c9-5a05c6b26732 -->::@:: aluminum, reinforced concrete, steel <!--SR:!2025-10-15,407,341!2027-03-07,764,330-->
 
 ## CCTV Headquarters
 
@@ -80,7 +80,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 - description ::@:: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2027-03-06,830,375!2025-10-02,399,377-->
 - height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2025-05-06,128,221!2025-09-25,392,376-->
 - image ::@:: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2027-03-26,781,380!2025-11-07,446,400-->
-- [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2026-08-09,590,341!2025-07-15,330,381-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e -->::@:: reinforced concrete <!--SR:!2026-08-09,590,341!2025-07-15,330,381-->
 
 ## Channel Tunnel
 
@@ -96,7 +96,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 - description ::@:: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2025-02-22,203,292!2025-11-09,454,387-->
 - height ::@:: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2025-02-26,64,161!2025-02-27,231,352-->
 - image ::@:: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2026-03-05,542,400-->
-- [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2026-11-22,655,360!2025-12-04,469,400-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ebde3927-b7ca-4808-9e3c-bf6078be3654 -->::@:: reinforced concrete <!--SR:!2026-11-22,655,360!2025-12-04,469,400-->
 
 ## Colosseum
 
@@ -157,7 +157,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2025-03-05,256,330-->
 - height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2025-05-07,325,350-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
-- [structural system](../../../../general/structural%20system.md) ::@:: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
 
 ## Hong Kong Convention and Exhibition Centre
 
@@ -171,7 +171,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type ::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
+- bridge type <!-- flashcard ID: 981d3cc6-47b4-4aad-8a99-bdeea2975b92 -->::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md) <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
 - description ::@:: fixed link consisting of tunnels and multiple bridges <!--SR:!2025-08-21,367,375!2027-07-29,952,350-->
 - image ::@:: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2026-03-14,550,400!2025-11-13,451,400-->
 - length: 55 km
@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2025-11-28,471,390-->
 - height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2026-03-19,421,301!2027-12-02,1051,350-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite <!--SR:!2025-06-14,164,261!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2025-06-14,164,261!2026-02-24,538,401-->
 
 ## Itaipu Dam
 
@@ -207,7 +207,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 - description ::@:: skyscraper in Chicago, Illinois <!--SR:!2025-04-12,235,295!2025-08-03,376,387-->
 - height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2025-09-19,222,197!2027-02-12,759,330-->
 - image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
-- [structural system](../../../../general/structural%20system.md) ::@:: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->::@:: steel <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
 
 ## MOSE
 
@@ -261,7 +261,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
+- bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
 - length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-03-07,20,160!2025-03-13,259,370-->
@@ -270,7 +270,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
+- bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
 - length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-03-24,68,197!2027-02-28,756,355-->
@@ -282,7 +282,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
 - height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-03-01,33,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2025-07-04,321,380-->
-- [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2025-03-13,139,300!2025-08-01,343,380-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2025-03-13,139,300!2025-08-01,343,380-->
 
 ## Thames Barrier
 
@@ -297,7 +297,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2026-03-27,463,297!2025-11-10,455,390-->
+- bridge type <!-- flashcard ID: 54af6d8c-884f-4894-bb1a-ce65254b1063 -->::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2026-03-27,463,297!2025-11-10,455,390-->
 - description ::@:: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-02-14,749,330!2025-12-18,488,392-->
 - image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2025-09-05,389,380-->
 - length ::@:: 2160 m, longest span: 1377 m <!--SR:!2025-10-31,353,280!2025-09-01,368,380-->
@@ -316,7 +316,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
 - height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2025-05-20,154,201!2025-12-20,488,384-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2025-07-04,205,320-->
-- [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
 
 ## Water Cube
 

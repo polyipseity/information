@@ -207,7 +207,7 @@ The content is in teaching order.
   - Louis Armstrong / fun facts ::@:: first jazz musician to appear on _Time_ magazine; appeared in over 35 films; oldest musician to have a number 1 hit "Hello, Dolly!" in 1964, knocking the Beatles off the number 1 spot; went on an England tour in 1932 <!--SR:!2025-03-27,40,315!2025-03-06,25,295-->
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2025-04-15,59,335!2025-04-14,59,335-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2025-04-15,59,335!2025-02-20,18,335-->
-  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1298 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2025-04-16,56,335!2025-04-15,59,335-->
+  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2025-04-16,56,335!2025-04-15,59,335-->
   - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2025-03-25,39,315!2025-02-20,18,335-->
 - assignment: (none)
 
@@ -274,3 +274,29 @@ The content is in teaching order.
 
 - datetime: 2025-02-10T08:30:00-05:00/2025-02-10T09:50:00-05:00
   - local: 2025-02-10T21:30:00+08:00/2025-02-10T22:50:00+08:00
+- [big band](../../../../general/big%20band.md)
+  - big bands / changes
+- [swing music](../../../../general/swing%20music.md)
+  - swing music / vs. New Orleans jazz
+- [Fletcher Henderson](Fletcher%20Henderson.md)
+- [Paul Whiteman](../../../../general/Paul%20Whiteman.md)
+- [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing
+- [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie.
+  - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc.
+  - Count Basie / works ::@:: "Wind Machine" — Count Basie
+- [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show.
+- [Duke Ellington](../../../../general/Duke%20Ellington.md) (1899–1974) ::@:: He was a bandleader, composer, and pianist, leading the Duke Ellington Orchestra. He developed his style in the Cotton Club, which was called "_jungle music_" early on. He composed many pieces that have become jazz _standards_.
+  - Duke Ellington / "jungle music" ::@:: Jazz music style from late 1920s to 1930s. It used sounds that were considered "African": use of growling lines, mutes (sordinas), primitive sounds, toms, etc. to get different sounds like African and exotic animals.
+  - Duke Ellington / works ::@:: "Jungle Nights in Harlem" (1930) — Duke Ellington & His Cotton Club Orchestra
+  - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually.
+    - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington
+    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington
+    - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls.
+    - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington
+- [popular music](../../../../general/popular%20music.md)
+  - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres.
+- [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners
+- [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times.
+  - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures
+  - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_
+- assignment: (none)

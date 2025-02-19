@@ -112,6 +112,32 @@ The content is in teaching order.
   - job cost / [manufacturing overhead](../../../../general/factory%20overhead.md) (MOH) ::@:: Applied Manufacturing Overhead = Predetermined Overhead Rate (POHR) × Actual Cost Driver <p> The actual cost driver/allocation base may be direct labor costs (less common), direct labor hours (more common), direct materials costs, etc. <!--SR:!2025-03-04,17,328!2025-03-04,17,328-->
     - job cost / manufacturing overhead (MOH) / rationale & handling ::@:: Such costs may be impossible or difficult to trace to particular jobs, consists of many different items, and may not be known until the end of a period. <p> So what we do is identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. Then use estimates to find the predetermined overhead rate (POHR). This rate is "predetermined" because it is determined before a period begins. <!--SR:!2025-02-24,10,288!2025-03-05,18,328-->
     - job cost / manufacturing overhead (MOH) / underapplied & overapplied ::@:: The _applied_ manufacturing overhead found using POHR is only an _estimate_. At the end of a period, we can find the _actual_ manufacturing overhead. If applied MOH > actual MOH then it is overapplied, and vice versa. If applied MOH < actual MOH then it is underapplied. <p> This discrepancy is accounted for by adjusting the cost of goods sold (COGS), which will be discussed below. <!--SR:!2025-03-05,18,328!2025-03-05,18,328-->
+  
+## week 2 lecture
+
+- datetime: 2025-02-10T12:00:00+08:00/2025-02-10T13:20:00+08:00
+- topic: job order costing
+- job cost
+  - job cost / transactions
+    - job cost / transactions / purchasing raw material ::@:: T-entry: raw materials inventory ← accounts payable/cash/etc.
+    - job cost / transactions / issuing raw material to projects ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect materials, using _actual_ values) ← raw materials inventory
+    - job cost / transactions / recording labor costs ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect labor, using _actual_ values) ← wages payable/cash/etc.
+    - job cost / transactions / applying overheads to projects estimated using POHR ::@:: T-entry: work in process inventory ← manufacturing overhead (using _estimated_ values from POHR, not _actual_ values)
+    e job cost / transactions / finishing a good ::@:: T-entry: finished goods inventory ← work in process inventory
+    - job cost / transactions / selling a good ::@:: T-entry: accounts receivable/cash ← sales revenue; T-entry: cost of goods sold ← finished goods inventory
+    - job cost / transactions / recording _actual_ manufacturing overhead that are _not_ indirect materials or indirect labor ::@:: T-entry: manufacturing overhead ← accumulated depreciation (_only_ for those related to manufacturing), prepaid insurance, property taxes payable, etc. (using _actual_ values, not _estimated_ values from POHR)
+    - job cost / transactions / recording non-manufacturing expenses ::@:: For each expense, write a new T-entry. <p> T-entry: (name) expense ← accounts payable/cash/prepaid expense/etc.
+      - job cost / transactions / recording non-manufacturing expenses / examples ::@:: advertising expense; commissions expense; selling, general, and administrative (SGA) expense; staging expense
+    - job cost / transactions / adjusting manufacturing overhead ::@:: At the end of a period, there may be nonzero credit (overapplied) or debit (underapplied) balance in the manufacturing overhead. Zero out the balance by either debiting or crediting the cost of goods sold.
+    - job cost / transactions / ledgers ::@:: We can have a sub-ledger for each job cost sheet, showing changes to its work in process inventory. Its ending value when the project finishes is the cost of goods of that project.
+  - job costing / cost of goods manufactured report ::@:: This is a report that shows the make up of cost of goods in a period. <p> cost of goods manufactured = total current manufacturing costs + (plus:) beginning work in process inventory − (less:) ending work in process inventory
+    - job costing / cost of goods manufactured report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ (not _actual_)
+    - job costing / cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + (plus:) raw material purchases − (less:) indirect materials (_important_) − (less:) ending raw materials inventory
+  - job costing / income statement ::@:: In the income statement, you need to subtract from the sales revenue the cost of goods sold to get the _gross profit_. Then subtract from the gross profit the selling and administrative (S&A) expenses to get the _net operating income_.
+    - job costing / income statement / equations ::@:: _unadjusted_ cost of goods sold = beginning finished goods inventory + (plus:) cost of goods manufactured − (less:) ending finished goods inventory <br/> (_adjusted_) cost of goods sold = _unadjusted_ cost of goods sold +/− (plus:) underapplied manufacturing overhead/(less:) overapplied manufacturing overhead
+- [debits and credits](../../../../general/debits%20and%20credits.md) ::@:: They are entries made in account ledgers to record changes in value resulting from business transactions. A _debit_ entry in an account represents a transfer of value _to_ that account, and a _credit_ entry represents a transfer _from_ the account.
+  - debits and credits / T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance.
+    - debits and credits / T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line.
 
 ## examination 1
 
