@@ -13,7 +13,7 @@ The {@{__Vogt–Russell theorem__}@} states that {@{the structure of a [star](st
 
 The law ignores {@{the effect of [rotation](rotation.md)}@}. <!--SR:!2025-07-21,275,330-->
 
-For example, {@{a possible luminosity homology relation}@} is: {@{$$L \propto M^3 \mu^4$$, where $L$ is the [luminosity](luminosity.md), $M$ is the [mass](mass.md) and $\mu$ is the mean [molecular weight](molecular%20mass.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-04-08,182,310!2025-02-19,134,290-->
+For example, {@{a possible luminosity homology relation}@} is: {@{$$L \propto M^3 \mu^4$$, where $L$ is the [luminosity](luminosity.md), $M$ is the [mass](mass.md) and $\mu$ is the mean [molecular weight](molecular%20mass.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-04-08,182,310!2026-03-15,389,290-->
 
 ## references
 

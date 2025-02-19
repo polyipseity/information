@@ -85,7 +85,7 @@ return chain(
 - calculate the deviations from the mean→::@::←find the covariance matrix <!--SR:!2026-08-03,546,310!2026-05-28,534,310-->
 - find the covariance matrix→::@::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2025-10-05,316,290!2026-05-17,533,330-->
 - find the eigenvectors and eigenvalues of the covariance matrix→::@::←rearrange the eigenvectors and eigenvalues <!--SR:!2025-03-08,186,270!2025-04-08,199,290-->
-- rearrange the eigenvectors and eigenvalues→::@::←compute the cumulative variance for each eigenvector <!--SR:!2025-02-19,184,310!2026-03-22,426,290-->
+- rearrange the eigenvectors and eigenvalues→::@::←compute the cumulative variance for each eigenvector <!--SR:!2026-09-13,571,310!2026-03-22,426,290-->
 - compute the cumulative variance for each eigenvector→::@::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2025-04-13,218,290!2025-03-01,168,270-->
 - select a subset of the eigenvectors as the new basis vectors→::@::←project the data (deviations from the mean) onto the new basis <!--SR:!2025-05-27,221,270!2026-05-18,490,310-->
 - project the data (deviations from the mean) onto the new basis→::@::←_(end)_ <!--SR:!2027-02-08,738,330!2026-06-20,515,310-->

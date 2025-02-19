@@ -211,7 +211,7 @@ tags:
 > 3. how long it take to reach the equilibrium
 > 4. none of the above
 >
-> - solution: {@{2}@} <!--SR:!2025-02-19,85,356-->
+> - solution: {@{2}@} <!--SR:!2025-12-17,301,356-->
 
 <!-- markdownlint MD028 -->
 

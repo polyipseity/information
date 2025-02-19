@@ -265,7 +265,7 @@ return chain.from_iterable(await gather(
 
 - expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times:@:[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2027-04-07,802,343-->
 - cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times:@:[lead–acid](lead–acid%20battery.md) <!--SR:!2025-09-03,434,383-->
-- aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md):@:[lithium-ion](lithium-ion%20battery.md) <!--SR:!2025-02-19,268,363-->
+- aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md):@:[lithium-ion](lithium-ion%20battery.md) <!--SR:!2027-10-19,972,363-->
 
 <!--/pytextgen-->
 

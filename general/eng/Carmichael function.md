@@ -13,7 +13,7 @@ tags:
 >
 > {@{Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)}@} <!--SR:!2025-03-03,50,301!2025-04-15,80,270-->
 
-In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics.md)}@}, the {@{__Carmichael function__ _λ_\(_n_\)}@} of {@{a [positive integer](natural%20number.md) _n_ is the smallest positive integer _m_ such that $$a^{m}\equiv 1{\pmod {n} }$$ holds for every integer _a_ [coprime](coprime%20integers.md) to _n_}@}. In {@{algebraic terms}@}, _λ_\(_n_\) is {@{the [exponent](torsion%20group.md) of the [multiplicative group of integers modulo _n_](multiplicative%20group%20of%20integers%20modulo%20n.md)}@}. As {@{this is a [finite abelian group](abelian%20group.md#finite%20abelian%20groups)}@}, there must {@{exist an element whose [order](cyclic%20group.md#definition%20and%20notation) equals the exponent, _λ_\(_n_\)}@}. Such an element is {@{called a __primitive _λ_-root modulo _n_<!-- markdown separator -->__}@}. <!--SR:!2025-03-14,63,310!2025-03-16,65,321!2025-02-19,45,301!2025-03-04,54,310!2025-04-17,83,281!2025-03-05,55,310!2025-03-17,66,321!2025-03-16,65,321-->
+In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics.md)}@}, the {@{__Carmichael function__ _λ_\(_n_\)}@} of {@{a [positive integer](natural%20number.md) _n_ is the smallest positive integer _m_ such that $$a^{m}\equiv 1{\pmod {n} }$$ holds for every integer _a_ [coprime](coprime%20integers.md) to _n_}@}. In {@{algebraic terms}@}, _λ_\(_n_\) is {@{the [exponent](torsion%20group.md) of the [multiplicative group of integers modulo _n_](multiplicative%20group%20of%20integers%20modulo%20n.md)}@}. As {@{this is a [finite abelian group](abelian%20group.md#finite%20abelian%20groups)}@}, there must {@{exist an element whose [order](cyclic%20group.md#definition%20and%20notation) equals the exponent, _λ_\(_n_\)}@}. Such an element is {@{called a __primitive _λ_-root modulo _n_<!-- markdown separator -->__}@}. <!--SR:!2025-03-14,63,310!2025-03-16,65,321!2025-07-04,135,301!2025-03-04,54,310!2025-04-17,83,281!2025-03-05,55,310!2025-03-17,66,321!2025-03-16,65,321-->
 
 The Carmichael function is named after {@{the American mathematician [Robert Carmichael](Robert%20Daniel%20Carmichael.md) who defined it in 1910}@}.<sup>[\[1\]](#^ref-1)</sup> It is also known as {@{__Carmichael's λ function__, the __reduced totient function__, and the __least universal exponent function__}@}. <!--SR:!2025-02-25,46,290!2025-03-02,49,301-->
 
@@ -35,7 +35,7 @@ The Carmichael function is named after {@{the American mathematician [Robert Car
 
 ## Carmichael's theorems
 
-Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(_n_\) is considered as defined by the recurrence of the previous section}@}, then {@{it satisfies the property stated in the introduction, namely that it is the smallest positive integer _m_ such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2025-03-22,70,321!2025-02-24,48,301!2025-02-19,45,301-->
+Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(_n_\) is considered as defined by the recurrence of the previous section}@}, then {@{it satisfies the property stated in the introduction, namely that it is the smallest positive integer _m_ such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2025-03-22,70,321!2025-02-24,48,301!2025-07-02,133,301-->
 
 > Theorem 1 ::@:: — If _a_ is relatively prime to _n_ then $a^{\lambda (n)}\equiv 1{\pmod {n} }$.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-10,59,310!2025-02-23,47,290-->
 
@@ -132,7 +132,7 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-24,6,150!2025-02-19,4,201!2025-04-07,71,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-24,6,150!2025-02-26,7,201!2025-04-07,71,281-->
 
 ### minimal order
 

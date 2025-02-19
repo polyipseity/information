@@ -63,7 +63,7 @@ The content is in teaching order.
     - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
     - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2025-02-24,16,290!2025-03-11,25,270-->
   - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
-  - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2025-02-24,16,290!2025-02-19,11,270-->
+  - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2025-02-24,16,290!2025-03-21,30,270-->
 - organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
   - merchandising company ::@:: sell manufactured goods; wholesalers: to other businesses; retailers: to the general public <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
@@ -91,7 +91,7 @@ The content is in teaching order.
 - [relevant cost](../../../../genera/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
 - out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2025-02-24,16,290!2025-02-24,16,290-->
-- [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2025-02-24,16,290!2025-02-19,12,270-->
+- [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2025-02-24,16,290!2025-04-06,46,290-->
 
 ## week 1 lecture 2
 

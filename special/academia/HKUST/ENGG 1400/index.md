@@ -140,7 +140,7 @@ The content is in teaching order.
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2025-02-28,94,382!2025-03-07,100,382-->
   - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2025-11-01,266,362!2025-03-03,97,382-->
   - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2025-03-03,97,382!2025-02-20,87,382-->
-- activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2025-03-08,101,382!2025-02-19,86,382-->
+- activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2025-03-08,101,382!2026-05-14,449,402-->
   - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2025-02-20,87,382!2025-03-03,97,382-->
 - ways of thinking
   - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2025-03-02,96,382!2025-02-25,92,382-->
@@ -162,7 +162,7 @@ The content is in teaching order.
   - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2025-04-08,126,394!2025-04-11,129,394-->
   - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2025-04-09,127,394!2025-03-08,95,374-->
 - activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2025-04-13,131,394!2025-03-29,118,394-->
-  - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2025-03-29,118,394!2025-02-19,86,374-->
+  - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2025-03-29,118,394!2026-01-12,327,374-->
 - point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2025-04-08,126,394!2025-04-10,128,394-->
 
 ## week 9 tutorial
@@ -182,7 +182,7 @@ The content is in teaching order.
 - design thinking
   - design thinking / discernment ::@:: __Discernment__ is integrating _multiple_ ways of knowing, which includes cognitive/intellectual, emotional/affective, physical/kinesthetic, and social. <!--SR:!2025-03-28,117,394!2025-04-01,121,394-->
     - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2025-04-05,123,394!2025-04-11,129,394-->
-    - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2025-04-04,122,394!2025-02-19,86,374-->
+    - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2025-04-04,122,394!2026-05-05,440,394-->
     - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2025-03-29,118,394!2025-04-01,121,394-->
     - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2025-02-25,86,374!2025-04-06,124,394-->
     - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2025-02-24,90,374-->

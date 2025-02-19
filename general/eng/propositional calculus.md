@@ -29,7 +29,7 @@ Propositional logic is typically studied with {@{a [formal language](formal%20la
 > - [XNOR](XNOR%20gate.md) ::@:: $A\odot B$ <!--SR:!2025-10-29,268,270!2025-11-18,321,310-->
 > - [XOR](exclusive%20or.md) ::@:: $A{\underline {\lor } }B$, $A\oplus B$ <!--SR:!2025-08-01,211,270!2026-01-31,379,310-->
 
-The most thoroughly researched branch of propositional logic is {@{__classical truth-functional propositional logic__, in which formulas are interpreted as having precisely one of two possible [truth values](truth%20value.md), the truth value of _true_ or the truth value of _false_}@}. {@{The [principle of bivalence](principle%20of%20bivalence.md) and the [law of excluded middle](law%20of%20excluded%20middle.md)}@} are upheld. By comparison with [first-order logic](first-order%20logic.md), {@{truth-functional propositional logic is considered to be _zeroth-order logic_}@}. <!--SR:!2025-02-19,111,290!2025-08-17,262,330!2025-04-18,165,310-->
+The most thoroughly researched branch of propositional logic is {@{__classical truth-functional propositional logic__, in which formulas are interpreted as having precisely one of two possible [truth values](truth%20value.md), the truth value of _true_ or the truth value of _false_}@}. {@{The [principle of bivalence](principle%20of%20bivalence.md) and the [law of excluded middle](law%20of%20excluded%20middle.md)}@} are upheld. By comparison with [first-order logic](first-order%20logic.md), {@{truth-functional propositional logic is considered to be _zeroth-order logic_}@}. <!--SR:!2025-04-16,56,270!2025-08-17,262,330!2025-04-18,165,310-->
 
 ## list of classically valid argument forms
 

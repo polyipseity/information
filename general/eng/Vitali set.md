@@ -42,7 +42,7 @@ Apply {@{the Lebesgue measure to these inclusions using [sigma additivity](sigma
 
 No Vitali set has {@{the [property of Baire](property%20of%20Baire.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-21,167,310-->
 
-By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2025-02-21,58,310!2025-03-09,71,329!2025-02-21,58,310!2025-02-19,53,309-->
+By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2025-02-21,58,310!2025-03-09,71,329!2025-02-21,58,310!2025-09-29,222,329-->
 
 ## role of the axiom of choice
 
