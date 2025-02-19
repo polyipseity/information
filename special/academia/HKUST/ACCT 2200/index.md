@@ -123,7 +123,7 @@ The content is in teaching order.
     - job cost / transactions / issuing raw material to projects ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect materials, using _actual_ values) ← raw materials inventory
     - job cost / transactions / recording labor costs ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect labor, using _actual_ values) ← wages payable/cash/etc.
     - job cost / transactions / applying overheads to projects estimated using POHR ::@:: T-entry: work in process inventory ← manufacturing overhead (using _estimated_ values from POHR, not _actual_ values)
-    e job cost / transactions / finishing a good ::@:: T-entry: finished goods inventory ← work in process inventory
+    - job cost / transactions / finishing a good ::@:: T-entry: finished goods inventory ← work in process inventory
     - job cost / transactions / selling a good ::@:: T-entry: accounts receivable/cash ← sales revenue; T-entry: cost of goods sold ← finished goods inventory
     - job cost / transactions / recording _actual_ manufacturing overhead that are _not_ indirect materials or indirect labor ::@:: T-entry: manufacturing overhead ← accumulated depreciation (_only_ for those related to manufacturing), prepaid insurance, property taxes payable, etc. (using _actual_ values, not _estimated_ values from POHR)
     - job cost / transactions / recording non-manufacturing expenses ::@:: For each expense, write a new T-entry. <p> T-entry: (name) expense ← accounts payable/cash/prepaid expense/etc.
