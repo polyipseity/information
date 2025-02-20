@@ -135,3 +135,53 @@ tags:
 > 3. cost in today's cash
 >
 > - solution: {@{1}@}
+
+## week 2 lecture
+
+> Q1. Suppose instead of receiving \$100 at the beginning of year 2014, you are given the following four choices.  Assuming that risk free interest rate is 10%, which is the most attractive?
+>
+> 1. to receive \$110 at the end of year 2014
+> 2. to receive \$110 at the beginning of year 2015
+> 3. to receive \$121 at the end of year 2015
+> 4. to receive \$133.1 at the end of year 2016
+> 5. choices 1, 2, 3 and 4 are equally attractive
+>
+> - solution: {@{5}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Your cousin Eva wants to take some time off in five years to go traveling in Europe for six months. She estimates that her trip will cost \$120&nbsp;000 in today's dollars.
+>
+> Eva has just received a bonus of \$120&nbsp;000 and she plans to put the money in a fixed deposit account with 4% annual interest rate. She is hoping that by earning the interests, she can have extra money to buy some souvenirs in Europe as gifts. How much is the amount of extra money for gifts that Eva will have?
+>
+> 1. \$6&nbsp;885
+> 2. \$25&nbsp;998
+> 3. \$139&nbsp;113
+> 4. \$145&nbsp;998
+>
+> - solution: {@{1}@}
+> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Given an investment horizon of 12 years, what rate of return will enable you to double your investment?
+>
+> 1. 4%
+> 2. 6%
+> 3. 8%
+> 4. 9%
+>
+> - solution: {@{2}@}
+> - explanation: {@{Use the rule of 72 for quick calculation.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Sam is (exactly) 40 years old now and plans to save for retirement at (exactly) 62.  How many years of savings can he make?
+>
+> 1. 21
+> 2. 22
+> 3. 23
+> 4. 40
+>
+> - solution: {@{2}@}
+> - explanation: {@{Beware of off-by-one errors!}@}
