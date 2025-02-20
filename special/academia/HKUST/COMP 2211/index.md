@@ -680,7 +680,7 @@ ID: 23456789
   - [§ basic structure](../../../../general/artificial%20neuron.md#basic%20structure)
 - [perceptron](../../../../general/perceptron.md) ::@:: A __perceptron__ is a simple biological neuron model in an artificial neural network. It performs certain calculations to detect input data capabilities. It is also the name of an early algorithm for supervised learning of binary classifiers (i.e., only two classes).
   - perceptron / history ::@:: Frank Rosenblatt invented perceptron in 1957, what he described as the first machine "capable of having an original idea".
-  - [§ steps](../../../../general/perceptron.md#steps)
+  - [perceptron § steps](../../../../general/perceptron.md#steps)
     - [perceptron § steps](../../../../general/perceptron.md#steps) / initialization ::@:: Initialize the weights arbitrarily. Weights may be initialized to 0 or small random values.
     - [perceptron § steps](../../../../general/perceptron.md#steps) / training ::@:: For each sample $j$ in the training dataset, perform the following steps over the input $\mathbf{x}_j$ and the desired output $d_j$:
       - [perceptron § steps](../../../../general/perceptron.md#steps) / training / forward ::@:: Calculate the actual output: $$y_j(t) = f(\mathbf{w}(t) \cdot \mathbf{x}_j) = f(w_0(t) x_{j, 0} + w_1(t) x_{j, 1} + \cdots + w_n(t) x_{j, n})$$.
