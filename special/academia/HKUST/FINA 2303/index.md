@@ -144,6 +144,37 @@ The content is in teaching order.
 - [TAPPS/week 1 lecture 2](assignments/TAPPS/week%201%20lecture%202.md)
 - readings: chapter 3
 
+## week 2 lecture
+
+- datetime: 2025-02-12T16:30:00+08:00/2025-02-12T17:50:00+08:00
+- topic: time value of money (TVM)
+- time value of money
+  - time value of money / cost—benefit analysis
+- finance
+  - finance / valuation principles
+- law of one price
+- time value of money
+  - time value of money / timeline ::@:: This tool can visualize cash inflows and outflows easily. It is a number line staring from time 0 on the left. Label cash inflows (positive; e.g. return), cash outflows (negative; e.g. investments), and their amounts under the number line.
+  - time value of money / future value ::@:: Move the cashflow forward in time: $FV = PV \cdot (1 + r)^t$, where $t$ is the number of time periods forward (beware of off-by-one error).
+    - time value of money / future value / compounding ::@:: Future value uses compound interest instead of simple interest. In the former, interest is earned on principal only. In the latter, interest is earned on principal and interest received. <p> Given a long enough time, compound interest gives much money money than simple interest. On a graph, compound interest increases exponentially while simple interest increases linearly.
+  - time value of money / present value ::@:: Move the cashflow backward in time: $PV = \frac {FV} {(1 + r)^t}$, where $t$ is the number of time periods backwards (beware of off-by-one error).
+  - time value of money / combining cash flow ::@:: Only cashflow at the same time can be added together. Cashflows at different time must be converted to cashflow at the same time by either compounding a cashflow or discounting the other cashflow.
+- [financial calculator](../../../../general/financial%20calculator.md)
+  - financial calculator / common acronyms ::@:: CPT: compute (compute the missing value from the other 4 values), FV: future value, N: number of periods, I: interest rate per period (in percentage), PMT: annuity payment, PV: present value
+  - financial calculator / hints ::@:: Remember to clear out registers between different questions. <br/> Interest rate is usually in percentage. Avoid rounding off intermediate values: use registers to store values. <br/> Negative values are cash outflows while positive values are cash inflows.
+- time value of money
+  - time value of money / finding number of periods ::@:: $N = \frac {\ln(FV / PV)} {\ln(1 + r)} = \frac {\ln FV - \ln PV} {\ln(1 + r)}$, which has units of period (usually year)
+  - time value of money / finding interest rate ::@:: $r = (FV / PV)^{1 / N} - 1$
+- [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72.
+- [questions § week 2 lecture](questions.md#week%202%20lecture)
+- [TAPPS/week 2 lecture](assignments/TAPPS/week%202%20lecture.md)
+- readings: chapter 4
+
+## week 2 tutorial
+
+- datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00
+- status: hybrid (online, physical), optional
+
 ## assignments
 
 ## midterm examination
