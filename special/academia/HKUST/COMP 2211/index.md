@@ -680,7 +680,7 @@ ID: 23456789
   - [§ basic structure](../../../../general/artificial%20neuron.md#basic%20structure)
 - [perceptron](../../../../general/perceptron.md) ::@:: A __perceptron__ is a simple biological neuron model in an artificial neural network. It performs certain calculations to detect input data capabilities. It is also the name of an early algorithm for supervised learning of binary classifiers (i.e., only two classes). <!--SR:!2025-08-04,209,330!2025-10-04,261,332-->
   - perceptron / history ::@:: Frank Rosenblatt invented perceptron in 1957, what he described as the first machine "capable of having an original idea". <!--SR:!2025-06-05,149,310!2025-07-16,194,330-->
-  - [§ steps](../../../../general/perceptron.md#steps)
+  - [perceptron § steps](../../../../general/perceptron.md#steps)
     - [perceptron § steps](../../../../general/perceptron.md#steps) / initialization ::@:: Initialize the weights arbitrarily. Weights may be initialized to 0 or small random values. <!--SR:!2025-04-25,117,292!2026-01-15,345,350-->
     - [perceptron § steps](../../../../general/perceptron.md#steps) / training ::@:: For each sample $j$ in the training dataset, perform the following steps over the input $\mathbf{x}_j$ and the desired output $d_j$: <!--SR:!2025-06-18,158,310!2025-10-23,275,332-->
       - [perceptron § steps](../../../../general/perceptron.md#steps) / training / forward ::@:: Calculate the actual output: $$y_j(t) = f(\mathbf{w}(t) \cdot \mathbf{x}_j) = f(w_0(t) x_{j, 0} + w_1(t) x_{j, 1} + \cdots + w_n(t) x_{j, n})$$. <!--SR:!2026-01-08,339,350!2025-10-22,274,332-->
