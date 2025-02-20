@@ -11,7 +11,7 @@ tags:
 
 # tidal force
 
-The __tidal force__ or __tide-generating force__ is {@{a [gravitational](gravity.md) effect that stretches a [body](physical%20object.md) along the line towards and away from the [center of mass](center%20of%20mass.md) of another body due to spatial variations in strength in [gravitational field](gravitational%20field.md) from the other body}@}. <!--SR:!2025-02-20,141,290-->
+The __tidal force__ or __tide-generating force__ is {@{a [gravitational](gravity.md) effect that stretches a [body](physical%20object.md) along the line towards and away from the [center of mass](center%20of%20mass.md) of another body due to spatial variations in strength in [gravitational field](gravitational%20field.md) from the other body}@}. <!--SR:!2026-04-03,407,290-->
 
 ## explanation
 

@@ -388,7 +388,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2025-02-20,192,310!2027-05-04,807,330-->
+- _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2026-10-09,596,310!2027-05-04,807,330-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->

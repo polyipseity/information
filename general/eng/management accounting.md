@@ -98,7 +98,7 @@ Given the above, {@{one view of the progression of the accounting and finance ca
 
 ### activity-based costing (ABC)
 
-[Activity-based costing](activity-based%20costing.md) was first {@{clearly defined in 1987 by [Robert S. Kaplan](Robert%20S.%20Kaplan.md) and W. Bruns}@} as {@{a chapter in their book _Accounting and Management: A Field Study Perspective_}@}. They initially {@{focused on the manufacturing industry, where increasing technology and productivity improvements have reduced the relative proportion of the direct costs of labor and materials, but have increased relative proportion of indirect costs}@}. For example, {@{increased automation has reduced labor, which is a direct cost, but has increased depreciation, which is an indirect cost}@}. <!--SR:!2025-02-26,31,210!2025-04-01,136,270!2025-02-20,107,270!2025-07-14,235,330-->
+[Activity-based costing](activity-based%20costing.md) was first {@{clearly defined in 1987 by [Robert S. Kaplan](Robert%20S.%20Kaplan.md) and W. Bruns}@} as {@{a chapter in their book _Accounting and Management: A Field Study Perspective_}@}. They initially {@{focused on the manufacturing industry, where increasing technology and productivity improvements have reduced the relative proportion of the direct costs of labor and materials, but have increased relative proportion of indirect costs}@}. For example, {@{increased automation has reduced labor, which is a direct cost, but has increased depreciation, which is an indirect cost}@}. <!--SR:!2025-02-26,31,210!2025-04-01,136,270!2025-12-13,296,270!2025-07-14,235,330-->
 
 ### Grenzplankostenrechnung
 

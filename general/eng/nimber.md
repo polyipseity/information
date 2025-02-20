@@ -33,7 +33,7 @@ Nim is {@{a game in which two players take turns removing objects from distinct 
 
 - Main article: [Cram \(game\)](Cram%20(game).md)
 
-Cram is {@{a game often played on a rectangular board}@} in which {@{players take turns placing dominoes either horizontally or vertically until no more dominoes can be placed}@}. {@{The first player that cannot make a move}@} loses. As {@{the possible moves for both players are the same}@}, it is {@{an impartial game and can have a nimber value}@}. For example, any board {@{that is an even size by an even size will have a nimber of 0}@}. Any board {@{that is even by odd will have a non-zero nimber}@}. Any {@{2 × _n_ board will have a nimber of 0 for all even _n_ and a nimber of 1 for all odd _n_}@}. <!--SR:!2025-03-30,77,333!2025-05-11,92,285!2025-03-25,72,325!2025-02-20,46,305!2025-03-11,60,310!2025-03-26,73,325!2025-03-26,73,325!2025-03-30,77,333-->
+Cram is {@{a game often played on a rectangular board}@} in which {@{players take turns placing dominoes either horizontally or vertically until no more dominoes can be placed}@}. {@{The first player that cannot make a move}@} loses. As {@{the possible moves for both players are the same}@}, it is {@{an impartial game and can have a nimber value}@}. For example, any board {@{that is an even size by an even size will have a nimber of 0}@}. Any board {@{that is even by odd will have a non-zero nimber}@}. Any {@{2 × _n_ board will have a nimber of 0 for all even _n_ and a nimber of 1 for all odd _n_}@}. <!--SR:!2025-03-30,77,333!2025-05-11,92,285!2025-03-25,72,325!2025-08-30,191,325!2025-03-11,60,310!2025-03-26,73,325!2025-03-26,73,325!2025-03-30,77,333-->
 
 ### Northcott's game
 

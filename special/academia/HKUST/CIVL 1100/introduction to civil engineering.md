@@ -80,7 +80,7 @@ The content is in teaching order.
     - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
     - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2025-03-13,235,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2026-11-01,696,319-->
   - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)

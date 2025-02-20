@@ -164,7 +164,7 @@ return (
 
 - ~5::@::<span style="color: red;">red</span> <!--SR:!2026-05-11,1063,290!2026-10-31,1141,270-->
 - 5~8::@::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2030-01-30,1940,270!2025-10-29,845,250-->
-- 8~::@::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2026-02-06,999,290!2025-02-20,517,230-->
+- 8~::@::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2026-02-06,999,290!2028-05-24,1189,230-->
 
 <!--/pytextgen-->
 

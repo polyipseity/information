@@ -15,9 +15,9 @@ tags:
 - close window::@::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2026-01-06,697,270!2027-01-10,936,270-->
 - restore window size::@::Alt+Space, R <!--SR:!2027-04-26,998,270!2026-12-23,736,210-->
 - move window::@::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2027-02-20,979,270!2025-12-19,819,330-->
-- resize window::@::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2025-02-20,143,170!2025-06-22,631,290-->
+- resize window::@::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2025-10-19,241,170!2025-06-22,631,290-->
 - move window to bottom::@::Alt+Esc <!--SR:!2025-07-15,203,210!2025-07-11,362,250-->
-- minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2025-02-20,257,190!2025-02-24,534,270-->
+- minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2026-06-30,495,190!2025-02-24,534,270-->
 - maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-08-21,206,210!2025-07-22,593,270-->
 - maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2025-08-12,219,230!2025-08-31,211,210-->
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2025-05-08,220,170!2028-08-12,1293,270-->

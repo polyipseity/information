@@ -15,7 +15,7 @@ tags:
 # import ../../../../../tools/utility.py.md
 ```
 
-A formula always {@{starts with an equals sign `=`}@}. <!--SR:!2025-02-20,294,330-->
+A formula always {@{starts with an equals sign `=`}@}. <!--SR:!2028-10-22,1340,350-->
 
 ## cell reference
 

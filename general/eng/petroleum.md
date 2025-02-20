@@ -131,7 +131,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="495a"--><!-- The following content is generated at 2024-01-04T20:17:52.496485+08:00. Any edits will be overridden! -->
 
-- [liqueified petroleum gas](liqueified%20petroleum%20gas.md):@:[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md) <!--SR:!2025-02-20,339,254-->
+- [liqueified petroleum gas](liqueified%20petroleum%20gas.md):@:[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md) <!--SR:!2027-07-02,862,254-->
 - [gasoline/petrol](gasoline.md):@:fuel for [motor vehicles](motor%20vehicle.md) <!--SR:!2027-12-30,1211,314-->
 - [naphtha](naphtha.md):@:production of [plastics](plastic.md) and [town gas](coal%20gas.md) <!--SR:!2025-11-24,533,234-->
 - [jet fuel](jet%20fuel.md):@:fuel for [aeroplanes](airplane.md) <!--SR:!2027-04-11,999,294-->

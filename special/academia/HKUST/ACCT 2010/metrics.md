@@ -19,7 +19,7 @@ tags:
 
 ## mnemonics
 
-- easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-04-13,82,282!2025-02-20,52,302-->
+- easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-04-13,82,282!2025-07-30,160,302-->
 - non-ratios ::@:: free cash flow, working capital <!--SR:!2025-03-12,72,322!2025-03-13,73,322-->
 - reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2025-03-07,67,319!2025-07-16,148,302-->
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-05-31,116,296!2025-03-14,74,322-->
@@ -34,10 +34,10 @@ The list is not exhaustive.
 
 - [current ratio](../../../../general/current%20ratio.md) ::@:: $$\frac {\text{current assets (CA)} } {\text{current liabilities (CL)} } \,,$$ noting that current assets include current contra-assets. <!--SR:!2025-03-08,68,322!2025-07-09,159,322-->
 - [quick ratio](../../../../general/quick%20ratio.md#formula) ::@:: $$\frac {\text{quick assets (QA)} } {\text{current liabilities (CL)} } \,,$$ where $$\text{quick assets (QA)} = \text{current assets (CA)} - \text{inventory (I)} - \text{prepaid expenses (PE)} \,,$$ noting that current assets include current contra-assets. <!--SR:!2025-03-11,71,322!2025-03-05,66,316-->
-- [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$ <!--SR:!2025-02-20,52,302!2025-04-11,81,279-->
+- [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$ <!--SR:!2025-07-27,157,302!2025-04-11,81,279-->
 - [net sales](../../../../general/sales%20(accounting).md#gross%20sales%20and%20net%20sales) ::@:: $${\text{gross sales} }-{\text{(customer discounts, returns, allowances)} }$$ For the service industry, the latter does not really exist, so it's simply gross sales, or operating revenues. <!--SR:!2025-03-05,66,310!2025-07-06,156,322-->
 - net profit margin ::@:: $$100\% \cdot \frac {\text{net income} } {\text{net sales} }$$ (Expressing it as a fraction or ratio, i.e. not multiplying by 100%, is also okay!) <!--SR:!2025-02-21,53,302!2025-03-09,69,322-->
-- [total asset turnover](../../../../general/asset%20turnover.md) ::@:: $$\frac {\text{net sales} } {\text{average total assets} }$$ The average total assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that total assets include contra-assets. <!--SR:!2025-02-20,52,302!2025-07-13,146,302-->
+- [total asset turnover](../../../../general/asset%20turnover.md) ::@:: $$\frac {\text{net sales} } {\text{average total assets} }$$ The average total assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that total assets include contra-assets. <!--SR:!2025-07-28,158,302!2025-07-13,146,302-->
 - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) ::@:: $$\frac {\text{net credit sales} } {\text{average net trade accounts receivables} }$$ Average net trade accounts receivable is not time-weighted, it is simply the average of the beginning and the ending balance. The adjective _net_ means discounts and allowances need to be removed. <p> "Net credit sales" may be "net sales" in practice, since net credit sales are normally not reported separately. <!--SR:!2025-03-18,63,256!2025-05-25,114,302-->
 - average collection period ::@:: $$\frac {365} {\text{receivables turnover ratio} }$$ <!--SR:!2025-03-11,71,322!2025-03-10,70,322-->
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2025-05-26,115,302!2025-03-25,69,262-->
