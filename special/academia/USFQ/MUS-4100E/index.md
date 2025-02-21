@@ -70,7 +70,7 @@ The content is in teaching order.
       - Each paper should be a half of a page to a full page.
       - Students must attach a screenshot of the virtual concert to their paper or if the concert is seen in person, a normal photo of the band will suffice.
       - The concert must be within the jazz idiom; classical, rock or pop concerts will not count.
-      - The concert must be seen in real time. No prerecorded concerts
+      - The concert must be seen in real time. No prerecorded concerts.
 - syllabus
   - concert attendance
     - virtual jazz club "Monks": <https://livestream.monksjazz.com/>

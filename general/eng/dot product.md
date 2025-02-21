@@ -100,7 +100,7 @@ __Not [associative](associative.md)__
 
 &emsp; Because {@{the dot product is not defined between a scalar $\mathbf {a} \cdot \mathbf {b}$ and a vector $\mathbf {c}$}@}, {@{associativity is meaningless}@}.<sup>[\[7\]](#^ref-7)</sup> However, {@{bilinearity implies $$c(\mathbf {a} \cdot \mathbf {b} )=(c\mathbf {a} )\cdot \mathbf {b} =\mathbf {a} \cdot (c\mathbf {b} ).$$}@} This property is sometimes {@{called the "associative law for scalar and dot product"}@},<sup>[\[8\]](#^ref-8)</sup> and one may say that {@{"the dot product is associative with respect to scalar multiplication"}@}.<sup>[\[9\]](#^ref-9)</sup>
 
-__[Orthogonal](orthogonal.md)__ <p> ::@:: &emsp; Two non-zero vectors $\mathbf {a}$ and $\mathbf {b}$ are _orthogonal_ if and only if $\mathbf {a} \cdot \mathbf {b} =0$.
+__[Orthogonal](orthogonal.md)__ <p> ::@:: &emsp; Two non-zero vectors $\mathbf {a}$ and $\mathbf {b}$ are _orthogonal_ if and only if $\mathbf {a} \cdot \mathbf {b} =0$. (annotation: The zero vector is orthogonal to any vector.)
 
 __No [cancellation](cancellation%20law.md)__
 
