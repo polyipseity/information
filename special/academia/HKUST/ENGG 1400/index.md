@@ -97,7 +97,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2025-03-09,102,382!2025-03-03,97,382-->
-- success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2025-03-02,96,382!2025-02-21,88,382-->
+- success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2025-03-02,96,382!2026-06-04,467,402-->
   - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2025-02-28,94,382!2025-03-02,96,382-->
   - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2025-02-25,92,382!2025-02-27,93,382-->
 - design thinking
@@ -115,7 +115,7 @@ The content is in teaching order.
   - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2025-03-09,102,382!2025-03-01,95,382-->
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2025-02-22,89,382!2025-02-23,90,382-->
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2025-02-27,93,382!2025-03-08,101,382-->
-  - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2025-02-22,89,382!2025-02-21,88,382-->
+  - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2025-02-22,89,382!2026-06-03,466,402-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2025-03-06,99,382!2025-02-24,91,382-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2025-03-01,95,382!2025-02-24,91,382-->
 
@@ -145,7 +145,7 @@ The content is in teaching order.
 - ways of thinking
   - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2025-03-02,96,382!2025-02-25,92,382-->
     - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2025-03-08,101,382!2025-03-09,102,382-->
-    - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2025-03-08,101,382!2025-02-21,88,382-->
+    - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2025-03-08,101,382!2026-05-28,460,402-->
     - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2025-03-04,97,382!2025-03-02,96,382-->
     - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2025-03-08,101,382!2025-03-02,96,382-->
 

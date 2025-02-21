@@ -18,7 +18,7 @@ Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\sum a_n$ diverges, then $\su
 ## strategy
 
 - inspecting "Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\sum a_n$ diverges, then $\sum \frac 1 {\frac 1 {a_n} + n}$ diverges." :@: Guess whether it is true. Consider the growth rate of $a_n$ that makes $\sum a_n$ diverges. The lower limit of its growth rate is approximately (can be faster or slower than) $\frac 1 n$ by the $p$-test. Then the upper limit of growth rate of $\frac 1 {a_n}$ is approximately (can also be faster or slower than) $n$. $\sum \frac 1 {2n}$ obviously diverges by the $p$-test. So it seems like this statement _may_ be true... However, this does not work. <!--SR:!2025-04-12,175,272-->
-- reason to not consider growth rates :@: Considering growth rates ignores that $a_n$ may not be always decreasing and can have sudden jumps for certain $n$-es, making it not well-described by growth rates. Indeed, we can construct a sequence of $a_n$ that disprove the statement. <!--SR:!2025-02-21,150,270-->
+- reason to not consider growth rates :@: Considering growth rates ignores that $a_n$ may not be always decreasing and can have sudden jumps for certain $n$-es, making it not well-described by growth rates. Indeed, we can construct a sequence of $a_n$ that disprove the statement. <!--SR:!2026-04-02,405,270-->
 - inspecting "$\sum \frac 1 {\frac 1 {a_n} + n}$" :@: This is the harmonic mean of $a_n$ and $1 / n$, scaled by 0.5. Consider inequalities related to it. <!--SR:!2025-02-28,150,270-->
 
 ## solution

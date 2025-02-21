@@ -125,7 +125,7 @@ These follow from {@{the definitions of countable set as injective / surjective 
 
 For {@{an elaboration of this result}@} see {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@}. <!--SR:!2025-03-18,66,310!2025-03-06,56,310-->
 
-{@{The set of [real numbers](real%20number.md)}@} is uncountable,<sup>[\[h\]](#^ref-h)</sup> and so is {@{the set of all infinite [sequences](sequence.md) of natural numbers}@}. <!--SR:!2025-02-21,43,290!2025-03-04,54,310-->
+{@{The set of [real numbers](real%20number.md)}@} is uncountable,<sup>[\[h\]](#^ref-h)</sup> and so is {@{the set of all infinite [sequences](sequence.md) of natural numbers}@}. <!--SR:!2025-08-12,172,310!2025-03-04,54,310-->
 
 ## minimal model of set theory is countable
 

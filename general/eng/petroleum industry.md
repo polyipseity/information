@@ -52,7 +52,7 @@ return await memorize_seq(
 - +: attracts local or overseas investment→::@::←+: creates job opportunities <!--SR:!2027-08-09,1121,330!2026-09-07,941,334-->
 - +: creates job opportunities→::@::←+: generates income for the government <!--SR:!2028-08-23,1294,294!2026-09-18,950,334-->
 - +: generates income for the government→::@::←+: improves infrastructure <!--SR:!2025-05-08,320,274!2026-04-06,753,314-->
-- +: improves infrastructure→::@::←-: emits gaseous pollutants <!--SR:!2025-02-21,164,270!2025-03-25,303,254-->
+- +: improves infrastructure→::@::←-: emits gaseous pollutants <!--SR:!2026-11-01,618,290!2025-03-25,303,254-->
 - -: emits gaseous pollutants→::@::←-: generates waste that may be harmful or toxic <!--SR:!2025-12-01,610,274!2027-10-12,1049,314-->
 - -: generates waste that may be harmful or toxic→::@::←-: pollution control cost is high <!--SR:!2025-09-06,644,314!2027-09-08,938,254-->
 - -: pollution control cost is high→::@::←-: safety control cost is high <!--SR:!2026-01-16,629,274!2026-09-14,946,334-->

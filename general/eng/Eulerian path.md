@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-12-13,298,336!2025-03-02,79,342!2025-10-29,261,342!2025-03-05,82,342!2025-09-27,234,342!2025-02-23,74,342!2025-03-06,83,342!2025-10-22,256,342!2025-09-20,227,330!2025-02-21,72,342!2025-03-02,79,342-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-12-13,298,336!2025-03-02,79,342!2025-10-29,261,342!2025-03-05,82,342!2025-09-27,234,342!2025-02-23,74,342!2025-03-06,83,342!2025-10-22,256,342!2025-09-20,227,330!2026-02-02,346,362!2025-03-02,79,342-->
 
 ### Fleury's algorithm
 
@@ -176,7 +176,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 - [Eulerian matroid](Eulerian%20matroid.md), an abstract generalization of Eulerian graphs
 - [five room puzzle](five-room%20puzzle.md)
 - [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2025-09-21,228,330!2025-09-12,208,310-->
-- [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2025-02-21,72,342!2025-02-27,76,342-->
+- [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2026-02-02,346,362!2025-02-27,76,342-->
 - [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2025-10-24,258,342!2025-03-03,80,342-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2025-03-06,83,342!2025-07-22,167,310-->
 

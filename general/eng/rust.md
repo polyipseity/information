@@ -27,7 +27,7 @@ First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides
 >     - Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}@}
 > 2. {@{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}@} <!--SR:!2025-10-08,601,270-->
 
-After forming iron ions, {@{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}@}: <!--SR:!2025-02-21,271,250-->
+After forming iron ions, {@{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}@}: <!--SR:!2026-12-30,677,250-->
 
 > - {@{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}@}
 > - {@{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}@} <!--SR:!2025-03-03,507,310!2027-01-08,986,330-->

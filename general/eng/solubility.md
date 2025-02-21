@@ -353,7 +353,7 @@ return await memorize_map(
 - [calcium oxide](calcium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-07-14,559,258-->
 - [calcium sulfate](calcium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-15,308,198-->
 - [calcium sulfide](calcium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2025-03-15,72,130-->
-- [calcium sulfite](calcium%20sulfite.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-21,66,150-->
+- [calcium sulfite](calcium%20sulfite.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-05-30,98,150-->
 - [copper(I) bromide](copper(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-12-24,1041,278-->
 - [copper(I) chloride](copper(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-02-13,776,278-->
 - [copper(I) iodide](copper(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-01-22,382,238-->
@@ -364,7 +364,7 @@ return await memorize_map(
 - [copper(II) hydroxide](copper(II)%20hydroxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-27,122,258-->
 - [copper(II) iodide](copper(II)%20iodide.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-03-19,345,298-->
 - [copper(II) oxide](copper(II)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-07,303,258-->
-- [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-21,298,258-->
+- [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-07-20,149,238-->
 - [copper(II) sulfate](copper(II)%20sulfate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-04-21,369,298-->
 - [copper(II) sulfide](copper(II)%20sulfide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-06-11,301,258-->
 - [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-06-27,178,198-->
@@ -377,7 +377,7 @@ return await memorize_map(
 - [mercury(I) iodide](mercury(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-06-08,880,298-->
 - [mercury(II) bromide](mercury(II)%20bromide.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-09-24,374,278-->
 - [mercury(II) chloride](mercury(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-07-30,437,298-->
-- [mercury(II) iodide](mercury(II)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-21,19,130-->
+- [mercury(II) iodide](mercury(II)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-17,24,130-->
 - [silver bromide](silver%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-06-07,514,278-->
 - [silver chloride](silver%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-08-31,939,298-->
 - [silver ethanoate](silver%20ethanoate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-08-23,455,298-->

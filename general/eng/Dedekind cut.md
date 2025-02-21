@@ -76,7 +76,7 @@ If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called 
 
 ### surreal numbers
 
-{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}. <!--SR:!2025-03-19,67,310!2025-02-26,46,290!2025-02-21,43,290!2025-02-25,46,290-->
+{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}. <!--SR:!2025-03-19,67,310!2025-02-26,46,290!2025-08-13,173,310!2025-02-25,46,290-->
 
 ### partially ordered sets
 
@@ -84,7 +84,7 @@ If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called 
 
 More generally, if {@{_S_ is a [partially ordered set](partially%20ordered%20set.md)}@}, {@{a _completion_ of _S_}@} means {@{a [complete lattice](complete%20lattice.md) _L_ with an order-embedding of _S_ into _L_}@}. {@{The notion of _complete lattice_}@} {@{generalizes the least-upper-bound property of the reals}@}. <!--SR:!2025-03-14,63,310!2025-03-05,55,310!2025-03-14,63,310!2025-03-11,60,310!2025-03-11,60,310-->
 
-{@{One completion of _S_}@} is {@{the set of its _downwardly closed_ subsets, ordered by [inclusion](subset.md)}@}. {@{A related completion that preserves all existing sups and infs of _S_}@} is obtained by the following construction: For {@{each subset _A_ of _S_}@}, let {@{_A_<sup>u</sup> denote the set of upper bounds of _A_, and let _A_<sup>l</sup> denote the set of lower bounds of _A_}@}. \(These operators form {@{a [Galois connection](Galois%20connection.md)}@}.\) Then {@{the [Dedekind–MacNeille completion](Dedekind–MacNeille%20completion.md) of _S_}@} consists of {@{all subsets _A_ for which \(_A_<sup>u</sup>\)<sup>l</sup> = _A_; it is ordered by inclusion}@}. {@{The Dedekind-MacNeille completion}@} is {@{the smallest complete lattice with _S_ embedded in it}@}. <!--SR:!2025-03-13,62,310!2025-02-21,43,290!2025-08-02,168,310!2025-02-22,46,290!2025-03-13,62,310!2025-02-23,47,290!2025-02-23,47,290!2025-02-22,47,290!2025-03-04,54,310!2025-03-06,56,310-->
+{@{One completion of _S_}@} is {@{the set of its _downwardly closed_ subsets, ordered by [inclusion](subset.md)}@}. {@{A related completion that preserves all existing sups and infs of _S_}@} is obtained by the following construction: For {@{each subset _A_ of _S_}@}, let {@{_A_<sup>u</sup> denote the set of upper bounds of _A_, and let _A_<sup>l</sup> denote the set of lower bounds of _A_}@}. \(These operators form {@{a [Galois connection](Galois%20connection.md)}@}.\) Then {@{the [Dedekind–MacNeille completion](Dedekind–MacNeille%20completion.md) of _S_}@} consists of {@{all subsets _A_ for which \(_A_<sup>u</sup>\)<sup>l</sup> = _A_; it is ordered by inclusion}@}. {@{The Dedekind-MacNeille completion}@} is {@{the smallest complete lattice with _S_ embedded in it}@}. <!--SR:!2025-03-13,62,310!2025-06-29,128,290!2025-08-02,168,310!2025-02-22,46,290!2025-03-13,62,310!2025-02-23,47,290!2025-02-23,47,290!2025-02-22,47,290!2025-03-04,54,310!2025-03-06,56,310-->
 
 ## notes
 

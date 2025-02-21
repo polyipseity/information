@@ -171,7 +171,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $2 \cos 3.71 \sin 3.71$ <!--SR:!2026-03-16,581,327!2027-11-11,1085,347-->
-> - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-03-20,300,287!2025-02-21,44,247-->
+> - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-03-20,300,287!2025-06-11,110,247-->
 > - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2025-03-26,136,227-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2027-06-03,919,347!2026-09-24,658,287-->
 > - $\cos 9.98$ (cosine variant) ::@:: $2\cos^2 4.99 - 1$ <!--SR:!2027-01-29,795,327!2027-08-28,982,347-->
@@ -230,7 +230,7 @@ return await memorize_map(
 > - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2025-09-21,297,316!2025-03-01,166,336-->
 > - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2025-04-03,152,296!2025-12-08,352,316-->
 > - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-12-22,353,296!2025-09-24,303,316-->
-> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2025-02-21,44,236!2026-01-08,331,316-->
+> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2025-06-05,104,236!2026-01-08,331,316-->
 > - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2025-12-18,359,316!2025-05-27,229,336-->
 
 ## product-to-sum and sum-to-product

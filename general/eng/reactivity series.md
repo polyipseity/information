@@ -143,7 +143,7 @@ return _chain.from_iterable(await _gather(
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-03-10,81,150!2025-04-10,266,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-03-15,226,210!2025-05-06,383,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2025-04-19,242,190-->
-- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-02-21,7,150-->
+- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-05,12,150-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2025-03-23,166,190!2025-03-03,40,130-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2025-04-20,82,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2025-03-23,89,170-->
@@ -272,7 +272,7 @@ return _chain.from_iterable(await _gather(
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md):@:[magnesium](magnesium.md) <!--SR:!2026-12-20,785,345-->
 - reacts with [steam](steam.md) and [acids](acid.md):@:[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-05-05,105,170-->
 - reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2026-01-01,477,325-->
-- reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-02-21,23,130-->
+- reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-03-22,29,130-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-06-17,554,285-->
 - reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2028-04-09,1171,365-->
 

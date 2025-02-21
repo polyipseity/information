@@ -11,7 +11,7 @@ tags:
 
 The __logarithmic derivative__ of a [function](function%20(mathematics).md) is defined by {@{$\frac {f'} f$ when $f \ne 0$}@}. Intuitively, this is the {@{infinitesimal [relative change](relative%20change.md) in $f$}@}. <!--SR:!2027-11-29,1087,350!2028-04-09,1191,350-->
 
-When $f$ is {@{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic derivative equals the derivative of $\ln \lvert f \rvert$, and hence its name}@}. This follows directly from {@{the [chain rule](chain%20rule.md): $(\ln \lvert f \rvert)' = \frac 1 {\lvert f \rvert} \cdot \operatorname{sgn}(f) \cdot f' = \frac {f'} f$}@}. <!--SR:!2026-11-01,754,330!2025-02-21,299,330-->
+When $f$ is {@{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic derivative equals the derivative of $\ln \lvert f \rvert$, and hence its name}@}. This follows directly from {@{the [chain rule](chain%20rule.md): $(\ln \lvert f \rvert)' = \frac 1 {\lvert f \rvert} \cdot \operatorname{sgn}(f) \cdot f' = \frac {f'} f$}@}. <!--SR:!2026-11-01,754,330!2027-11-02,984,330-->
 
 ## basic properties
 

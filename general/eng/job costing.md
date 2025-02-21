@@ -25,7 +25,7 @@ Job costing \(known by some as {@{job order costing}@}, {@{a subset of which is 
 
 - (annotation: nature) ::@:: Process costing is used when the products are more homogeneous in nature.<sup>[\[1\]](#^ref-1)</sup> Conversely, job costing systems assign costs to distinct production jobs that are significantly different. An average cost per unit of product is then calculated for each job. <!--SR:!2025-02-26,10,281!2025-03-05,17,301-->
 - (annotation: average costs) ::@:: Process costing systems assign costs to one or more production processes. Because all units are identical or very similar, average costs for each unit of product are calculated by dividing the process costs by the number of units produced. <!--SR:!2025-02-26,10,281!2025-03-05,17,301-->
-- (annotation: costing mix) ::@:: Many businesses produce products with some unique features and some common processes. These businesses use costing systems that have both job and process costing features.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-21,7,261!2025-03-05,17,301-->
+- (annotation: costing mix) ::@:: Many businesses produce products with some unique features and some common processes. These businesses use costing systems that have both job and process costing features.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-19,26,281!2025-03-05,17,301-->
 
 ## using job costing
 

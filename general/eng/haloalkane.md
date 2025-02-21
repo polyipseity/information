@@ -66,7 +66,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[hydrolysis](#hydrolysis) <!--SR:!2026-08-04,774,272!2025-06-16,344,292-->
 - [hydrolysis](#hydrolysis)→::@::←[substitution](#substitution) <!--SR:!2026-03-01,595,232!2025-09-28,312,232-->
-- [substitution](#substitution)→::@::←_(end)_ <!--SR:!2026-05-05,678,277!2025-02-21,468,297-->
+- [substitution](#substitution)→::@::←_(end)_ <!--SR:!2026-05-05,678,277!2030-06-03,1928,317-->
 
 <!--/pytextgen-->
 

@@ -192,7 +192,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 
 {@{Fixing or choosing the _x_-axis}@} {@{determines the _y_-axis up to direction}@}. Namely, the _y_-axis is {@{necessarily the [perpendicular](perpendicular.md) to the _x_-axis through the point marked 0 on the _x_-axis}@}. But there is {@{a choice of which of the two half lines on the perpendicular to designate as positive and which as negative}@}. Each of these two choices determines {@{a different orientation \(also called _handedness_\) of the Cartesian plane}@}. <!--SR:!2025-03-01,17,309!2025-02-26,14,290!2025-02-26,14,290!2025-02-26,14,290!2025-02-27,15,290-->
 
-The usual way of orienting the plane, with {@{the positive _x_-axis pointing right and the positive _y_-axis pointing up \(and the _x_-axis being the "first" and the _y_-axis the "second" axis\)}@}, is considered {@{the _positive_ or _standard_ orientation, also called the _right-handed_ orientation}@}. <!--SR:!2025-02-21,10,270!2025-03-02,18,322-->
+The usual way of orienting the plane, with {@{the positive _x_-axis pointing right and the positive _y_-axis pointing up \(and the _x_-axis being the "first" and the _y_-axis the "second" axis\)}@}, is considered {@{the _positive_ or _standard_ orientation, also called the _right-handed_ orientation}@}. <!--SR:!2025-04-01,39,290!2025-03-02,18,322-->
 
 {@{A commonly used mnemonic for defining the positive orientation}@} is {@{the _[right-hand rule](right-hand%20rule.md)_}@}. Placing {@{a somewhat closed right hand on the plane with the thumb pointing up}@}, the fingers {@{point from the _x_-axis to the _y_-axis, in a positively oriented coordinate system}@}. <!--SR:!2025-02-26,14,290!2025-03-02,18,322!2025-02-26,14,290!2025-02-28,16,309-->
 

@@ -66,11 +66,11 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 - [Operational cash flows](operating%20cash%20flow.md): (annotation: Not to be confused with cash flow from operations (CFO) or operating/operational cash flow (OCF) in _accounting_!!!) ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by: <!--SR:!2025-03-09,45,290!2025-03-07,44,290-->
   - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation <!--SR:!2025-03-19,57,310!2025-03-04,42,290-->
   - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation <!--SR:!2025-03-08,44,290!2025-03-25,62,310-->
-  - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation <!--SR:!2025-02-21,33,270!2025-03-03,43,290-->
+  - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation <!--SR:!2025-06-27,126,290!2025-03-03,43,290-->
   - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\) <!--SR:!2025-05-15,85,270!2025-03-06,43,290-->
     - {@{Depreciation\*\(tax rate\) which locates at the end of the formula}@} is called {@{depreciation shield}@} through which we can see that {@{there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive))}@}.
 - Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory. <!--SR:!2025-03-03,43,290!2025-03-31,67,310-->
-- [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment. <!--SR:!2025-02-21,33,270!2025-03-03,43,290-->
+- [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment. <!--SR:!2025-06-28,127,290!2025-03-03,43,290-->
 
 {@{The sum of the three component above}@} will be {@{the cash flow for a project}@}. <!--SR:!2025-03-23,60,310!2025-03-19,57,310-->
 

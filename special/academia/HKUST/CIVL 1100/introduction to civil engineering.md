@@ -18,7 +18,7 @@ The content is in teaching order.
 - engineer
   - engineer, according to Wikipedia
     - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2025-07-08,334,378-->
-    - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
+    - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2027-05-12,810,360-->
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2025-10-08,405,377-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
@@ -82,7 +82,7 @@ The content is in teaching order.
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2025-03-13,235,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2026-11-01,696,319-->
-  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2025-10-11,431,401-->
+  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2025-06-05,319,367-->
@@ -464,7 +464,7 @@ testing materials
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
 - surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2025-05-20,207,272-->
-- testing materials→::@::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
+- testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2025-04-14,245,307-->
 
 <!--/pytextgen-->
 
@@ -1056,7 +1056,7 @@ Hong Kong Code
 - Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2028-04-01,1140,377-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
 - Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2026-07-19,600,357-->
-- Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->
+- Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2027-08-29,919,350-->
 
 <!--/pytextgen-->
 

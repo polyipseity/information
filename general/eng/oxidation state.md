@@ -59,7 +59,7 @@ return (
 <!--pytextgen generate section="341d9e"--><!-- The following content is generated at 2024-01-04T20:17:52.416402+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←element in a free form: 0 <!--SR:!2031-06-23,2402,330!2029-02-20,1796,350-->
-- element in a free form: 0→::@::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2025-02-21,620,310-->
+- element in a free form: 0→::@::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2030-05-28,1922,310-->
 - ionic compound or ion: _charge_→::@::←fluorine: -1 <!--SR:!2025-11-05,662,250!2026-02-04,496,270-->
 - fluorine: -1→::@::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2027-05-05,930,230!2025-09-19,714,270-->
 - (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→::@::←group I metal: +1 <!--SR:!2027-08-07,1101,270!2026-03-11,487,210-->

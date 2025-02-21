@@ -151,7 +151,7 @@ One can define {@{a [binary relation](binary%20relation.md) on the edges of an a
 > c_<sub>1</sub> = 2 <br/>
 > _c_<sub>2</sub> = 7 <br/>
 > _c_<sub>3</sub> = 8 <br/>
-> _c_<sub>4</sub> = 10 <!--SR:!2025-02-21,43,295!2025-03-15,64,315-->
+> _c_<sub>4</sub> = 10 <!--SR:!2025-08-18,178,315!2025-03-15,64,315-->
 
 ## see also
 

@@ -31,7 +31,7 @@ As {@{a [degenerate](degenerate%20(math).md) case of the general definition}@}, 
 
 {@{A binary equaliser \(that is, an equaliser of just two functions\)}@} is also called {@{a _difference kernel_}@}. This may also be denoted {@{DiffKer\(_f_, _g_\), Ker\(_f_, _g_\), or Ker\(_f_ − _g_\)}@}. The last notation shows {@{where this terminology comes from, and why it is most common in the context of [abstract algebra](abstract%20algebra.md)}@}: {@{The difference kernel of _f_ and _g_ is simply the [kernel](kernel%20(algebra).md) of the difference _f_ − _g_}@}. Furthermore, {@{the kernel of a single function _f_}@} can be {@{reconstructed as the difference kernel Eq\(_f_, 0\)}@}, where {@{0 is the [constant function](constant%20function.md) with value [zero](0%20(number).md)}@}. <!--SR:!2025-04-05,63,310!2025-03-14,45,290!2025-03-26,55,310!2025-03-25,54,310!2025-05-24,96,290!2025-03-29,58,310!2025-03-26,55,310!2025-03-17,45,290-->
 
-Of course, all of this presumes {@{an algebraic context where the kernel of a function is the [preimage](preimage.md#inverse%20image) of zero under that function}@}; that is {@{not true in all situations}@}. However, {@{the terminology "difference kernel" has no other meaning}@}. <!--SR:!2025-02-21,29,270!2025-03-29,58,310!2025-04-06,64,310-->
+Of course, all of this presumes {@{an algebraic context where the kernel of a function is the [preimage](preimage.md#inverse%20image) of zero under that function}@}; that is {@{not true in all situations}@}. However, {@{the terminology "difference kernel" has no other meaning}@}. <!--SR:!2025-06-10,109,290!2025-03-29,58,310!2025-04-06,64,310-->
 
 ## in category theory
 
@@ -51,7 +51,7 @@ It can be proved that {@{any equaliser in any category is a [monomorphism](monom
 
 {@{The notion of difference kernel}@} also makes sense in {@{a category-theoretic context}@}. {@{The terminology "difference kernel"}@} is {@{common throughout category theory for any binary equaliser}@}. In the case of {@{a [preadditive category](preadditive%20category.md) \(a category [enriched](enriched%20category.md) over the category of [Abelian groups](abelian%20group.md)\)}@}, the term "difference kernel" may be {@{interpreted literally, since subtraction of morphisms makes sense}@}. That is, {@{Eq\(_f_, _g_\) = Ker\(_f_ - _g_\)}@}, where {@{Ker denotes the [category-theoretic kernel](kernel%20(category%20theory).md)}@}. <!--SR:!2025-04-03,62,310!2025-03-28,57,310!2025-03-25,54,310!2025-04-09,67,310!2025-03-01,32,270!2025-04-06,64,310!2025-04-01,60,310!2025-04-07,65,310-->
 
-Any category {@{with [fibre products](pullback%20(category%20theory).md) \(pullbacks\) and products}@} {@{has equalisers}@}. <!--SR:!2025-02-21,29,270!2025-04-05,63,310-->
+Any category {@{with [fibre products](pullback%20(category%20theory).md) \(pullbacks\) and products}@} {@{has equalisers}@}. <!--SR:!2025-06-09,108,290!2025-04-05,63,310-->
 
 ## see also
 
