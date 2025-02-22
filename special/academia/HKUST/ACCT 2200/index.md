@@ -149,7 +149,7 @@ The content is in teaching order.
   - process costing / overview ::@:: Raw material costs are first added to raw materials inventory. Then when they enter a process, the cost is transferred into the process's "direct materials" account. Conversion costs (direct labor + MOH) are directly added into the process's "conversion cost" account. <p> A unit may require multiple processes. When a unit is transferred from a process to another, we also need to transfer its corresponding cost, so we need to find out per unit cost in a process, which is what process costing does.
   - process costing / data ::@:: In a process, you need to track 4 things: direct materials (account), conversion cost (account), number of units in inventory (including new, WIP, and completed units), and percentage of completion (i.e. how much of units in the inventory are complete). <p> To do costing, first obtain the number for these 4 things at period start and period end.
     - process costing / data / direct materials ::@:: Basically just add the direct materials issued to the process during this period.
-    - process costing / data / conversion cost ::@:: Basically just add the conversion cost (direct labor + MOH) issued to the process during this period.
+    - process costing / data / conversion cost ::@:: Basically just add the conversion cost (direct labor + _applied_ MOH) issued to the process during this period. The _applied_ MOH can be found by multiplying POHR and the cost driver (usually direct labor hours) assigned to the process.
     - process costing / data / number of units in inventory ::@:: Count the units at period start and at period end. Also record how many unit started for production during this period. Then we can compute how many units have been transferred away (of course, the unit must be completed by the current process for it to be transferred away).
     - process costing / data / percentage of completion ::@:: It is likely given in the question. It only considers units that are in the inventory at period start and period end. <p> For weighted average cost, we do not need the number for period start.
   - process costing / steps ::@:: find physical units (transferred) → convert physical units into equivalent units → calculate cost per equivalent unit → reconcile costs (using per unit cost) → prepare production reports
@@ -185,6 +185,28 @@ The content is in teaching order.
   - process costing / first-in, first-out (FIFO)
     - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories.
     - process costing / first-in, first-out (FIFO) / disadvantages ::@:: It is more complicated, thus rarely used in the real world.
+
+## week 3 lecture
+
+- datetime: 2025-02-17T12:00:00+08:00/2025-02-17T13:20:00+08:00
+- topic: activity-based costing (ABC)
+- [activity-based costing](../../../../general/activity-based%20costing.md) ::@:: It is a costing method that identifies activities in an organization and assigns the cost of each activity to all products and services according to the actual consumption by each. Therefore, this model assigns more indirect costs (overhead) into direct costs compared to conventional costing.
+  - activity-based costing / the other costing method ::@:: volume-based costing (includes job costing, process costing)
+- volume-based costing
+  - volume-based costing / predetermined overhead rate (POHR) ::@:: POHR = estimated MOH / estimated cost driver. We need to identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base.
+  - volume-based costing / manufacturing overhead cost per unit ::@:: Find the cost driver assigned to the process producing the units. Then use POHR to find the (applied) manufacturing overhead. Finally divide it by the number of (equivalent) units produced. Less means the process is more efficient.
+  - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit.
+  - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get _this_.
+- activity-based costing
+  - activity-based costing / vs. volume-based costing ::@:: In volume-based costing, indirect costs are applied as applied MOH. POHR is used to find the applied MOH using a cost driver. <p> The problem is that MOH may be caused by multiple cost drivers. Using the same cost driver to estimate the actual MOH using applied MOH may be inaccurate. Activity-based costing assigns indirect costs to products and services based on the activities they require, making the applied MOH more accurate. This means using multiple cost drivers and having multiple POHR. <p> In this sense, activity-based costing _augments_ volume-based costing instead of _replacing_ it.
+  - activity-based costing / two-staged allocation ::@:: Assign indirect costs to _activity cost pools_. Then assign the pools to products or services. Note that an activity can be used by multiple products or services, and a product or service can use multiple pools.
+  - activity-based costing / activity classification ::@:: (largest to smallest) facility-level, product/service-level, batch-level, unit-level
+    - activity-based costing / activity classification / facility-level ::@:: They support the entire company, e.g. company-wide (but not a single product) advertising, human resources, plant (but not a single product line) supervision, etc.
+    - activity-based costing / activity classification / product/service-level ::@:: They support a specific product or service, e.g. product advertising, engineering and quality control, product testing, research and development, etc.
+    - activity-based costing / activity classification / batch-level ::@:: They support a batch (group of units/group of customers) at once, e.g. machine setup (one setup per batch), ordering materials, shipping a batch, etc.
+    - activity-based costing / activity classification / unit-level ::@:: They support a unit or a customer individually, e.g. machining, part installation, product painting, serving a customer, etc.
+  - activity-based costing / cost drivers ::@:: The cost drivers we have previously considered before ABC are _volume-based cost drivers_, e.g. direct materials, direct labor, machining hours, units produced, etc. In ABC, we also consider _non-volume-based cost drivers_, e.g. batch count, design count, processing time per unit, quality inspections, setup time, etc. <p> For each activity cost pool, we choose a cost driver that has a causal relationship with the activity, which should be non-volume-based cost drivers.
+    - activity-based costing / cost drivers / advantages ::@:: By also considering non-volume-based cost drivers, it can assign indirect costs to products or services more accurately, especially those that require more indirect costs.
 
 ## examination 1
 
