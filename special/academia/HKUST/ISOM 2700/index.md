@@ -128,7 +128,7 @@ The content is in teaching order.
 - [Gantt chart](../../../../general/Gantt%20chart.md)
   - Gantt chart / multiple flow units ::@:: When representing multiple flow units over several activities, a different color is used for each flow unit.
   - Gantt chart / bottlenecks ::@:: An activity that keeps processing units. Other activities may finish faster, so the other activities may wait for new units due to the aforementioned activity being unfinished.
-  - Gantt chart / finding flow time ::@:: Find the duration a color stays in the diagram.
+  - Gantt chart / finding flow time ::@:: Find the duration a color stays in the diagram. Or (assuming the system is stable) given a process diagram, add up the duration of tasks a unit needs to go through.
   - Gantt chart / finding flow rate ::@:: Find a regular pattern. Then find the number of colors being outputted in that time. Then divide by the time. <p> This is the reciprocal of cycle time, _by definition_.
   - Gantt chart / finding capacity ::@:: If there is a bottleneck, this equals the found flow rate.
   - Gantt chart / finding cycle time ::@:: Find a regular pattern. Then find the time between two colors being outputted. <p> This is the reciprocal of flow rate, _by definition_.
@@ -202,7 +202,7 @@ The content is in teaching order.
     - inventory / inventory turnover / interpretation ::@:: It can evaluate a firm's performance by comparing it with firms in the _same_ sector, since it can vary drastically across sectors (e.g. from 6.70 in consumer sector to 48.76 in finance sector).
 - [return on invested capital](../../../../general/return%20on%20capital.md) (ROIC) ::@:: It is a ratio used in finance, valuation and accounting, as a measure of the profitability and value-creating potential of companies relative to the amount of capital invested by shareholders and other debtholders. <p> It is calculated as: return (NOPAT) / average invested capital, where NOPAT is net operating income after tax
   - return on invested capital / economic value created ::@:: economic value created = capital \* (ROIC - WACC), where WACC is the weighted average cost of capital
-  - return on invested capital / OM ::@:: We can use the DuPont model to see how ROIC is related to OM measures, e.g. flow rate.
+  - return on invested capital / OM ::@:: We can either calculate NOPAT (which may be easier sometimes...), or use the DuPont model to see how ROIC is related to OM measures, e.g. flow rate.
   - return on invested capital / [DuPont analysis](../../../../general/DuPont%20analysis.md) ::@:: ROIC = return (NOPAT) / average invested capital = (return / revenue) \* (revenue / invested capital) = margin \* asset turnover
     - return on invested capital / DuPoint analysis / OM ::@:: margin = 1 − fixed costs / (_flow rate_ \* price) − variable costs / price <br/> asset turnover = _flow rate_ \* price / invested capital
       - return on invested capital / DuPoint analysis / OM / margin ::@:: Increasing flow rate increases margin by dividing the fixed costs by a larger denominator. This means the fixed costs are spread throughout more units. (Imagine infinite flow rate: fixed cost would be negligible compared to variable cost.)
