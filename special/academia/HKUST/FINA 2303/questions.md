@@ -185,3 +185,37 @@ tags:
 >
 > - solution: {@{2}@}
 > - explanation: {@{Beware of off-by-one errors!}@}
+
+## week 2 lecture 2
+
+> Q1. Will the price of the perpetuity change over time? That is, will its price 5 years from now be different from its price today?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{2}@}
+> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. For two series of cash flows with the same cash flow amount and time horizon, which PV is larger?
+>
+> 1. PV of an ordinary annuity
+> 2. PV of an annuity due
+>
+> - solution: {@{2}@}
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Suppose you have a chance to invest in a small business. By providing the owner with a sum of \$220&nbsp;000 today, in return you will receive yearly payments of \$50&nbsp;000 for the next six years.
+>
+> Similar types of investment opportunities will pay 10%.
+>
+> Should you accept this investment and why?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{2}@}
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@}
