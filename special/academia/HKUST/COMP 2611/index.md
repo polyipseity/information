@@ -170,6 +170,40 @@ The content is in teaching order.
 - datetime: 2025-02-11T18:00:00+08:00/2025-02-11T18:50:00+08:00
 - status: unscheduled, no tutorial
 
+## week 2 lecture 2
+
+- datetime: 2025-02-14T09:00:00+08:00/2025-02-14T10:20:00+08:00
+- topic: logical equivalence, Boolean algebra, K-map
+- [logical equivalence](../../../../general/logical%20equivalence.md) ::@:: Two statements are this if they have the same truth value in every model. <p> In the context of combinational logic, this means two Boolean functions have the same output for every combination of inputs.
+  - logical equivalence / methods ::@:: logical expression, truth table
+  - logical equivalence / truth table ::@:: Very easy to prove equivalence: Check if all rows are the same. However the number of rows grows exponentially: 2<sup>_n_</sup>.
+  - logical equivalence / logical expression ::@:: They give a more concise way to express Boolean functions, especially ones with many input variables. However, it is not always obvious that two different expressions are the same logically, so we need to simplify the expressions using Boolean algebra or Karnaugh map.
+- Boolean algebra
+  - Boolean algebra / laws ::@:: Translate logical statements into mathematical symbols. Then these laws may be used to simplify the mathematical expression. Then get back simplified logical statements.
+    - Boolean algebra / laws / identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$
+    - Boolean algebra / laws / domination laws (null laws) ::@:: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$
+    - Boolean algebra / laws / idempotent or tautology laws ::@:: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$
+    - Boolean algebra / laws / negation laws (inverse laws) ::@:: $$\begin{aligned} p \lor \lnot p & \equiv \top \\ p \land \lnot p & \equiv \bot \end{aligned}$$
+    - Boolean algebra / laws / [commutative laws](commutative%20property.md) ::@:: $$\begin{aligned} p\vee q & \equiv q\vee p \\ p\wedge q &\equiv q\wedge p \end{aligned}$$
+    - Boolean algebra / laws / [associative laws](associative%20property.md) ::@:: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$
+    - Boolean algebra / laws / [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$
+    - Boolean algebra / laws / [absorption laws](absorption%20law.md) ::@:: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$
+    - Boolean algebra / laws / [De Morgan's laws](De%20Morgan's%20laws.md) ::@:: $$\begin{aligned} \lnot (p \land q) & \equiv \lnot p \lor \lnot q \\ \lnot (p \lor q) & \equiv \lnot p \land \lnot q \end{aligned}$$
+    - Boolean algebra / laws / [double negation](double%20negation.md) law ::@:: $$\neg (\neg p)\equiv p$$
+- [Karnaugh map](../../../../general/Karnaugh%20map.md) (K-map) ::@:: A diagram that can be used to simplify a Boolean algebra expression. <p> (Note: K-map for 5 variables or more exist.)
+  - Karnaugh map / construction ::@:: The row and column indices (shown across the top and down the left side of the Karnaugh map) are ordered in Gray code rather than binary numerical order. Gray code ensures that only one variable changes between each pair of adjacent cells. Each cell of the completed Karnaugh map contains a binary digit representing the function's output for that combination of inputs (i.e. a minterm).
+    - Karnaugh map / construction / 2 inputs ::@:: ![Karnaugh map for 2 inputs](../../../../archives/Wikimedia%20Commons/K-map%202x2%20empty.svg)
+    - Karnaugh map / construction / 3 inputs ::@:: ![Karnaugh map for 3 inputs](../../../../archives/Wikimedia%20Commons/K-map%202x4%20empty.svg)
+    - Karnaugh map / construction / 4 inputs ::@:: ![Karnaugh map for 4 inputs](../../../../archives/Wikimedia%20Commons/K-map%204x4%20empty.svg)
+    - Karnaugh map / construction / 5 inputs ::@:: It is possible, but you will need to think in 3D. Stack 2 4x4 Karnaugh map vertically. It gets even harder for 6 inputs or more...
+    - Karnaugh map / construction / torus ::@:: You should not use a torus in practice. This is simply to demonstrate how a K-map can be made into a torus: ![Karnaugh map for 4 inputs as a torus](../../../../archives/Wikimedia%20Commons/Karnaugh%20map%20torus.svg)
+  - Karnaugh map / grouping ::@:: Group adjacent 1s in the diagram. The grid is toroidally connected (torus shaped), so _adjacent_ cells include wrapping across the edges of the diagram (left/right edge, top/bottom edge). That means groups can wrap across the edges.
+    - Karnaugh map / grouping / rules ::@:: The union of all groups covers all 1s. <br/> Each group has a size that is a power of 2 (i.e. 1, 2, 4, 8, ...). <br/> Each group should be as large as possible, so that the resulting minterm has the least number of variables. <br/> Number of groups should be the fewest, so that the resulting SOP has the least number of minterms. <br/> Groups may overlap: make use of this extensively to make the groups as large as possible and cover all 1s with the least number of groups. <p> Note that the best grouping may not be unique.
+  - Karnaugh map / solution ::@:: Each group corresponds to one minterm. It can be found by examining which variables stay the same within each box. Those that stay the same should be included, while those do not should be excluded. Intuitively, each term halves the grouping size. <p> Finally, add the minterms together to get a SOP.
+  - Karnaugh map / inverse ::@:: Group adjacent 0s in the diagram instead. This produces a SOP for the inverse. Using De Morgan's laws, we can obtain a POS for the original function.
+  - Karnaugh map / don't cares ::@:: Those cells are marked with a X. In that case, we can either cover or not cover them, choosing the one that gives the better grouping.
+- [seven-segment display](../../../../general/seven-segment%20display.md) ::@:: It is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays. <p> Basically a display with a gray 8-shape with sharp corners, which have certain edges of the 8-shape activated (glowing) to show a decimal (0123456789)/hexadecimal (0123456789AbCdEF) digit.
+
 ## assignments
 
 ## midterm examination
