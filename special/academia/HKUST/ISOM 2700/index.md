@@ -231,6 +231,39 @@ The content is in teaching order.
   - normal distribution / standard normal distribution ::@:: The __standard normal distribution__ has the mean, $\mu$, 0, and the variance, $\sigma^2$, 1. Its CDF is commonly denoted by $\Phi(z)$ while its PDF is commonly denoted by $\varphi(z)$. <p> A property of its CDF due to the even symmetry of its PDF: $$\Phi(-z) = 1 - \Phi(z) \,.$$
   - normal distribution / standardization ::@:: Any normal distribution can be __standardized__ by defining the random variable $$Z = \frac {X - \mu} {\sigma} \qquad X = \sigma Z + \mu \,.$$ Further, $$z = \frac {x - \mu} \sigma$$ is also known as the __standard score__ of the data _x_. <p> After standardization, a standard normal table that provides $\Phi(z)$ for different values of _z_ may be used to evaluate the CDF of any normal distribution. (The table may not show negative values of _z_. In that case, you need to use the property of its CDF above.)
 
+## week 3 lecture
+
+- datetime: 2025-02-17T10:30:00+08:00/2025-02-17T11:50:00+08:00
+- topic: managing uncertainty in service system, basics of queueing system
+- [queueing theory](../../../../general/queueing%20theory.md)
+  - queueing theory / motivation (OM) ::@:: Consider offering a service. Ideally there should be no variability in both arrival and service time, since in that case ensuring the utilization is below 100% suffices to avoid waiting. But in practice there are variability, which can cause waiting even if utilization is below 100%. The cause are that: one, services cannot be buffered (stored), unlike goods; two, there is short-term (temporary) mismatch between demand and supply.
+    - queueing theory / motivation (OM) / examples ::@:: call centers, hospitals, restaurants, theme parks
+  - queueing theory / why study ::@:: It can model queueing systems. Then we can describe its performance (description; e.g. queue size, waiting time) and improve it (optimization; e.g. reduce waiting time). For services, it can improve customer services, enhance their satisfaction, and increase our profits.
+  - queueing theory / queueing model ::@:: It can be described as _customers_ lining up in _queues_ to be served by _servers_. For simplicity, we assume any server can serve any customer here. <p> Many models require customer arrival (random) distribution, service time (random) distribution, and system configuration (e.g. FIFO, \# of queues, \# of servers). Then the model can tell us the system performance, e.g. average customers in a queue or the system, average waiting time in a queue or the system.
+  - queueing theory / server ::@:: A server is necessary resources to serve one customer _independently_ at _one time_. $n$ servers means you can at most server $n$ customers simultaneously. Note that a server does not necessarily correspond to a single machine or person.
+  - queueing theory / inter-arrival time ::@:: Time between two consecutive arrivals of customers. It can be random. <p> The others can be inferred from knowing one of these: arrival time, inter-arrival time, total arrivals.
+  - queueing theory / service time ::@:: Time to serve a customer. It can be random.
+  - queueing theory / arrival time ::@:: The time when a certain customer arrives. It can be random. <p> The others can be inferred from knowing one of these: arrival time, inter-arrival time, total arrivals.
+  - queueing theory / total arrivals ::@:: The number of customers that has arrived up to a time. It can be random. <p> The others can be inferred from knowing one of these: arrival time, inter-arrival time, total arrivals.
+- [M/M/c queue](../../../../general/M_M_c%20queue.md) (slides: M/M/s model) ::@:: M/M/s: _exponential_ inter-arrival time/_exponential_ service time/number of servers; assume one FIFO (first-in first-out)/FCFS (first-come first-serve) queue <p> However, we prefer to use rates instead of time. Exponential distributions in terms of time can be converted into Poisson distributions in terms of rate.
+  - M/M/c queue / inputs ::@:: arrival _rate_ (follows Poisson distribution): $\lambda$, average service _rate_ of _one_ server (follows Poisson distribution): $\mu$, number of servers: $c$ (slides: $s$), number of queues: 1 (fixed)
+  - M/M/c queue / assumptions ::@:: Since arrival rate and and average service rate are parameters of a Poisson distribution, we assume occurrences are independent. In this context, this means number of arrivals in two different periods (arrival rate \* period length) and inter-arrival times are independent. <p> In this course, we assume $\lambda < c \mu$. That is, on average, we can serve customers faster than they can come, so that our queues will not become unbounded (infinite).
+  - M/M/c queue / capacity, flow rate ::@:: The arrival rate $\lambda$ is the flow rate. The service rate $\mu$ is the capacity of _one_ server.
+  - M/M/c queue / server utilization ::@:: Calculated as: $\rho = \frac {\lambda} {\mu s} \,,$ which can be interpreted as the average fraction a server is busy. The _stable_ condition is when $\rho < 1$, i.e. $\lambda < c \mu$ (server customers faster than they can come), which is what we have assumed above.
+  - M/M/c queue / performance metrics ::@:: server utilization, queue/system average length, queue/system average waiting time, probability of waiting on arrival (queue being nonempty)
+  - M/M/c queue / queue average waiting time, system average waiting time ::@:: $W_s = W_q + \frac 1 \mu \,,$ where $W_s$ is average system waiting time and $W_q$ is average queue waiting time. They can be interpreted as flow time.
+  - M/M/c queue / queue average length, system average length ::@:: $L_s = L_q + \rho s \,,$ where $L_s$ is average system length and $L_q$ is average queue length. They can be interpreted as average inventory.
+  - M/M/c queue / Little's law ::@:: $L_s = \lambda W_s \qquad L_q = \lambda W_q$
+- [M/M/1 queue](../../../../general/M_M_1%20queue.md) ::@:: M/M/1: _exponential_ inter-arrival time/_exponential_ service time/1 server; assume one FIFO (first-in first-out)/FCFS (first-come first-serve) queue
+  - M/M/1 queue / server utilization ::@:: Assuming the system is stable ($\lambda < \mu$). It is: $\rho = \frac \lambda \mu \,,$ since $s = 1$.
+  - M/M/1 queue / system average length ::@:: Assuming the system is stable ($\lambda < \mu$). The probability of having $n$ customers in the system (including the one being served): $P_n = (1 - \rho) \rho^n$, a geometric distribution with the success probability $1 - \rho$.
+  - M/M/1 queue / probability of waiting ::@:: Assuming the system is stable ($\lambda < \mu$). This equals the probability of having nonzero customers in the system: $1 - P_0 = 1 - (1 - \rho) = \rho$, which equals server utilization (intuitively).
+  - M/M/1 queue / system average length ::@:: Assuming the system is stable ($\lambda < \mu$). $L_s = \frac {\lambda} {\mu - \lambda} = \frac {\rho} {1 - \rho}$, the mean of a geometric distribution with the success probability $1 - \rho$.
+  - M/M/1 queue / queue average length ::@:: Assuming the system is stable ($\lambda < \mu$). $L_q = \rho L_s = \frac {\lambda} {\mu} \frac {\lambda} {\mu - \lambda} = \frac {\rho^2} {1 - \rho}$
+  - M/M/1 queue / system average waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_s = \frac {L_s} {\lambda} = \frac 1 {\mu - \lambda}$
+  - M/M/1 queue / queue average waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_q = \frac {L_q} {\lambda} = \frac \rho {\mu - \lambda}$
+  - M/M/1 queue / insight ::@:: The system average size being $\frac {\rho} {1 - \rho}$ implies that it grows super-linearity as $\rho$ approaches 1. That means it is very costly (congestion) to have near maximum utilization when there are variations. With no variations, congestion will not happen even if $\rho < 1$ is very near 1.
+
 ## midterm examination
 
 ## final examination
