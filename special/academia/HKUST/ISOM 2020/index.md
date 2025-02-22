@@ -251,7 +251,7 @@ The content is in teaching order.
   - `=` vs `==` ::@:: Do not mix up the assignment operator and comparison operator. <!--SR:!2026-06-07,479,386!2026-05-29,471,386-->
   - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2026-06-25,494,386!2026-05-24,467,386-->
   - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2026-06-28,497,386!2026-05-25,468,386-->
-  - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2026-05-19,463,386!2025-02-22,103,380-->
+  - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2026-05-19,463,386!2026-08-12,536,400-->
   - indentation ::@:: Indentation matters in Python!!! <!--SR:!2026-06-24,494,386!2026-06-17,487,386-->
   - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2026-06-29,498,386!2026-06-23,493,386-->
 - week 7 lecture materials

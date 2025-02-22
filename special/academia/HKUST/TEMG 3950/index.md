@@ -35,7 +35,7 @@ The content is in teaching order.
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::@:: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2025-08-13,324,290!2027-02-25,781,330-->
-- International Business Plan Competition ::@:: IBPC <!--SR:!2025-02-22,234,330!2025-04-24,282,330-->
+- International Business Plan Competition ::@:: IBPC <!--SR:!2028-01-18,1060,350!2025-04-24,282,330-->
 - transferrable technology ::@:: Technology that can potentially target multiple market segments. <!--SR:!2025-04-09,269,330!2027-02-17,774,330-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
@@ -231,7 +231,7 @@ The content is in teaching order.
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2025-10-01,385,381-->
 - cause mapping extensions ::@:: facts table, solutions table <!--SR:!2025-09-03,361,381!2025-08-07,318,361-->
   - facts table ::@:: what, when, where, impact <!--SR:!2025-11-13,420,381!2027-05-16,828,361-->
-  - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2025-08-10,321,361-->
+  - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2026-11-22,638,341!2025-08-10,321,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2026-02-04,484,381-->
   - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2025-09-17,349,361-->
   - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2025-12-24,450,381!2025-12-06,439,381-->

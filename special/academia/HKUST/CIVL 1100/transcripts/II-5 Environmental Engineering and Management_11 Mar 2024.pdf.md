@@ -294,7 +294,7 @@ Noise Pollution: A serious problem in Hong Kong?
 Noise Levels and Causes
 
 - noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2025-04-01,243,330-->
-  - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2025-02-22,194,310-->
+  - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
   - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2025-04-23,237,290-->
@@ -426,7 +426,7 @@ Concentration Units for Liquids
 Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::@:: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2025-10-21,344,290!2025-06-08,296,330-->
-  - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2025-03-20,216,310!2025-02-22,209,330-->
+  - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2025-03-20,216,310!2027-10-07,957,350-->
   - density of water ::@:: about 1 kg/L <!--SR:!2025-05-25,284,330!2025-03-15,230,330-->
 
 ## page 35

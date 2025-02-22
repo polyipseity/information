@@ -113,9 +113,9 @@ The content is in teaching order.
   - design thinking / curiosity ::@:: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities. <!--SR:!2025-03-03,97,382!2025-02-23,90,382-->
   - design thinking / bias toward action ::@:: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time. <!--SR:!2025-03-07,100,382!2025-03-01,95,382-->
   - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2025-03-09,102,382!2025-03-01,95,382-->
-- information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2025-02-22,89,382!2025-02-23,90,382-->
+- information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2026-06-07,470,402!2025-02-23,90,382-->
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2025-02-27,93,382!2025-03-08,101,382-->
-  - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2025-02-22,89,382!2026-06-03,466,402-->
+  - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2026-06-03,466,402-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2025-03-06,99,382!2025-02-24,91,382-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2025-03-01,95,382!2025-02-24,91,382-->
 
@@ -134,7 +134,7 @@ The content is in teaching order.
 - datetime: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
   - design thinking / reframing
-    - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2025-02-24,91,382!2025-02-22,89,382-->
+    - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2025-02-24,91,382!2026-06-02,465,402-->
 - sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2026-02-06,365,382!2025-03-07,100,382-->
   - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2025-03-04,97,382!2025-03-06,99,382-->
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2025-02-28,94,382!2025-03-07,100,382-->

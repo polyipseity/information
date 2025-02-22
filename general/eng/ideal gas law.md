@@ -20,7 +20,7 @@ The __ideal gas law__, also called the __general gas equation__, is {@{the [equa
 > - where
 >   - [state variables](state%20variable.md): {@{$p$ is the absolute [pressure](pressure.md) of the gas, $V$ is the [volume](volume.md) of the gas, $T$ is the [absolute temperature](thermodynamic%20temperature.md) of the gas, $n$ is the [amount of substance](amount%20of%20substance.md) (i.e. number of moles) of the gas, and $N$ is the [number of particles](particle%20number.md) of the gas}@}
 >   - {@{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}@}
->   - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}@} <!--SR:!2028-03-31,1219,350!2027-04-22,809,290!2025-02-22,97,170!2025-07-06,194,190-->
+>   - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}@} <!--SR:!2028-03-31,1219,350!2027-04-22,809,290!2025-08-06,165,170!2025-07-06,194,190-->
 
 ## energy associated with a gas
 

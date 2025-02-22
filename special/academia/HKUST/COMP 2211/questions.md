@@ -496,7 +496,7 @@ tags:
 >
 > Your code should be at most five lines and should not contain any loops.
 >
-> - solution: {@{`(a[..., numpy.newaxis] == numpy.arange(len(a))).astype(int)`}@} <!--SR:!2025-02-22,45,290-->
+> - solution: {@{`(a[..., numpy.newaxis] == numpy.arange(len(a))).astype(int)`}@} <!--SR:!2025-07-01,129,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-03-15,65,310!2025-02-22,45,290-->
+> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-03-15,65,310!2025-07-01,129,290-->
 
 <!-- markdownlint MD028 -->
 

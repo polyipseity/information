@@ -11,7 +11,7 @@ tags:
 
 ## normal forms
 
-A relational database is informally described as "normalized" if {@{it satisfies [third normal form](third%20normal%20form.md)}@}. <!--SR:!2025-02-22,394,330-->
+A relational database is informally described as "normalized" if {@{it satisfies [third normal form](third%20normal%20form.md)}@}. <!--SR:!2028-09-14,1300,330-->
 
 ## references
 

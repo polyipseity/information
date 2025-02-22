@@ -811,7 +811,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg):@:[voiced bilabial fricative](voiced%20bilabial%20fricative.md) <!--SR:!2026-04-14,463,251-->
 - ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg):@:[voiced bilabial trill](voiced%20bilabial%20trill.md) <!--SR:!2025-03-31,267,231-->
 - ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg):@:[voiceless palatal plosive](voiceless%20palatal%20plosive.md) <!--SR:!2025-02-25,12,130-->
-- ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg):@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!2025-02-22,2,130-->
+- ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg):@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!2025-02-25,3,130-->
 - ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg):@:[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) <!--SR:!2025-02-23,5,130-->
 - ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg):@:[voiced alveolar plosive](voiced%20alveolar%20plosive.md) <!--SR:!2025-03-24,151,171-->
 - ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg):@:[voiced alveolar implosive](voiced%20alveolar%20implosive.md) <!--SR:!2025-03-07,19,130-->
@@ -959,7 +959,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced glottal fricative](voiced%20glottal%20fricative.md):@:[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\] <!--SR:!2025-07-13,312,237-->
 - [aspirated consonant](aspirated%20consonant.md):@:[English](English%20langugae.md) _**t**op_ \[tʰɒp\] <!--SR:!2025-06-09,514,357-->
 - [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md):@:[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\] <!--SR:!2025-03-10,140,257-->
-- [close front unrounded vowel](close%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _fr**ee**_ \[fɹiː\] <!--SR:!2025-02-22,42,137-->
+- [close front unrounded vowel](close%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _fr**ee**_ \[fɹiː\] <!--SR:!2025-04-21,58,137-->
 - [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**i**t_ \[bɪʔt\] <!--SR:!2025-03-11,107,157-->
 - [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you" <!--SR:!2025-02-24,9,130-->
 - [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!2025-03-08,79,158-->

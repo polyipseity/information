@@ -90,7 +90,7 @@ return chain.from_iterable(await gather(
 - waxing [crescent](crescent.md):@:late morning to post-dusk <!--SR:!2025-12-07,351,290-->
 - first quarter:@:afternoon to early night <!--SR:!2025-08-03,299,330-->
 - waxing gibbous:@:late afternoon to most of night <!--SR:!2025-06-03,212,270-->
-- [full moon](full%20moon.md):@:all night (sunset to sunrise) <!--SR:!2025-02-22,172,310-->
+- [full moon](full%20moon.md):@:all night (sunset to sunrise) <!--SR:!2027-03-02,738,330-->
 - waning gibbous:@:most of night to early morning <!--SR:!2026-01-16,380,290-->
 - last quarter:@:late night to morning <!--SR:!2025-03-16,188,310-->
 - waning [crescent](cresceent.md):@:pre-dawn to early afternoon <!--SR:!2025-09-08,258,250-->
@@ -104,7 +104,7 @@ return chain.from_iterable(await gather(
 - afternoon to early night:@:first quarter <!--SR:!2025-03-09,145,270-->
 - late afternoon to most of night:@:waxing gibbous <!--SR:!2025-08-01,235,250-->
 - all night (sunset to sunrise):@:[full moon](full%20moon.md) <!--SR:!2025-03-08,173,310-->
-- most of night to early morning:@:waning gibbous <!--SR:!2025-02-22,168,310-->
+- most of night to early morning:@:waning gibbous <!--SR:!2026-07-29,522,310-->
 - late night to morning:@:last quarter <!--SR:!2025-03-20,192,310-->
 - pre-dawn to early afternoon:@:waning [crescent](cresceent.md) <!--SR:!2025-03-23,166,270-->
 

@@ -47,7 +47,7 @@ The BL-MoM has been reported on in only {@{the applied statistics literature in 
 
 ## examples
 
-An example application of the method of moments is to {@{estimate polynomial probability density distributions}@}. In this case, {@{an approximating polynomial of order $N$ is defined on an interval $[a,b]$}@}. The method of moments then {@{yields a system of equations}@}, whose solution involves {@{the inversion of a [Hankel matrix](Hankel%20matrix.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-18,62,310!2025-06-08,111,290!2025-03-10,55,310!2025-02-22,43,290-->
+An example application of the method of moments is to {@{estimate polynomial probability density distributions}@}. In this case, {@{an approximating polynomial of order $N$ is defined on an interval $[a,b]$}@}. The method of moments then {@{yields a system of equations}@}, whose solution involves {@{the inversion of a [Hankel matrix](Hankel%20matrix.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-18,62,310!2025-06-08,111,290!2025-03-10,55,310!2025-08-17,176,310-->
 
 ### proving the central limit theorem
 

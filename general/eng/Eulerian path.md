@@ -17,7 +17,7 @@ tags:
 
 > {@{![[multigraphs](multigraph.md) of [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [five room puzzles](five-room%20puzzle.md)](../../archives/Wikimedia%20Commons/Comparison%207%20bridges%20of%20Konigsberg%205%20room%20puzzle%20graphs.svg)}@}
 >
-> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2025-02-22,73,342!2025-10-31,262,342!2025-03-04,81,342!2025-12-16,301,336!2025-07-30,191,330-->
+> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2026-02-04,347,362!2025-10-31,262,342!2025-03-04,81,342!2025-12-16,301,336!2025-07-30,191,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -163,7 +163,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >
-> {@{An even mixed graph that violates the balanced set condition and is therefore not Eulerian.}@} <!--SR:!2025-10-01,238,342!2025-02-22,73,342-->
+> {@{An even mixed graph that violates the balanced set condition and is therefore not Eulerian.}@} <!--SR:!2025-10-01,238,342!2025-11-05,256,342-->
 
 <!-- markdownlint MD028 -->
 

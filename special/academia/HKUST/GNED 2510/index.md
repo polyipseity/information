@@ -148,7 +148,7 @@ The content is in teaching order.
 
 - datetime: 2023-11-01T17:00:00+08:00/2023-11-01T18:50:00+08:00
 - topic: Interview (I): Interview Like a PRO
-- first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2025-10-24,303,330!2025-02-22,102,290-->
+- first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2025-10-24,303,330!2026-04-09,411,310-->
 - video interview
   - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2025-08-30,263,330!2025-05-26,189,310-->
 - self-introduction
