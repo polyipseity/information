@@ -1013,7 +1013,7 @@ tags:
 > 3. Reducing the number of training data can help avoid over-fitting.
 > 4. Reducing the number of training epochs can help avoid over-fitting.
 >
-> - solution: {@{3}@} <!--SR:!2025-02-23,46,290-->
+> - solution: {@{3}@} <!--SR:!2025-08-23,181,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1406,7 +1406,7 @@ tags:
 > 3. Training data
 >
 > - solution: {@{1}@}
-> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-03-04,56,310!2025-02-23,46,290-->
+> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-03-04,56,310!2025-08-25,183,310-->
 
 <!-- markdownlint MD028 -->
 

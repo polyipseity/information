@@ -70,7 +70,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 >
 > The above benefit table shows that the resulting greedy selection is {@{"ps" and _then_ "c"}@}. <!--SR:!2025-04-14,231,330!2025-11-19,347,290-->
 
-The resulting selection is {@{greedy and may not be the optimal solution}@}. When {@{the heuristic function is simply the benefit}@}, the above problem is {@{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}@}. In this case, it has been proven that the greedy selection {@{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}@}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2025-03-04,196,310!2025-02-23,190,310!2025-09-13,308,290!2025-03-12,195,290-->
+The resulting selection is {@{greedy and may not be the optimal solution}@}. When {@{the heuristic function is simply the benefit}@}, the above problem is {@{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}@}. In this case, it has been proven that the greedy selection {@{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}@}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2025-03-04,196,310!2026-09-30,584,310!2025-09-13,308,290!2025-03-12,195,290-->
 
 ## references
 

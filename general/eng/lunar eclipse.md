@@ -19,7 +19,7 @@ A __lunar eclipse__ is {@{an astronomical event that occurs when the [Moon](Moon
 
 ## types of lunar eclipse
 
-[Earth's shadow](Earth's%20shadow.md) can be divided into {@{two distinctive parts: the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) and [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra)}@}. <!--SR:!2025-02-23,162,310-->
+[Earth's shadow](Earth's%20shadow.md) can be divided into {@{two distinctive parts: the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) and [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra)}@}. <!--SR:!2027-01-19,695,330-->
 
 ### penumbral lunar eclipse
 

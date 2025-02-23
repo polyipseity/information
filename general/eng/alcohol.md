@@ -71,7 +71,7 @@ return await memorize_seq(
 <!--pytextgen generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.145207+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[dehydration](#dehydration) <!--SR:!2025-05-04,466,255!2027-12-13,1243,340-->
-- [dehydration](#dehydration)→::@::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2025-02-23,153,195!2025-04-17,84,260-->
+- [dehydration](#dehydration)→::@::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2025-12-21,301,195!2025-04-17,84,260-->
 - [nucleophilic substitution](#nucleophilic%20substitution)→::@::←[oxidation](#oxidation) <!--SR:!2026-02-28,571,275!2025-03-04,13,130-->
 - [oxidation](#oxidation)→::@::←_(end)_ <!--SR:!2026-04-12,758,315!2028-11-21,1605,355-->
 

@@ -402,7 +402,7 @@ return await memorize_seq(
 
 Observed Global Climate Change
 
-- climate change consequences in the Northern Hemisphere ::@:: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2025-02-23,211,330!2025-03-14,210,310-->
+- climate change consequences in the Northern Hemisphere ::@:: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2027-01-20,696,330!2025-03-14,210,310-->
 
 ## page 32
 

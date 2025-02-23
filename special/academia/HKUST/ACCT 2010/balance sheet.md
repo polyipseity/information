@@ -24,15 +24,15 @@ tags:
 
 ## format
 
-- header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2025-06-30,136,290!2025-02-23,58,310-->
+- header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2025-06-30,136,290!2025-08-19,177,310-->
   - header / date ::@:: example: `December 31, 2019` <!--SR:!2025-07-03,154,310!2025-05-16,106,290-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-02-28,62,310!2025-02-26,60,310-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!2025-05-07,107,290!2025-07-18,162,310-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity <!--SR:!2025-05-14,104,290!2025-03-17,62,250-->
   - totals / format ::@:: Indent totals at least twice. <p> Add a (over)line above totals. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals. <!--SR:!2025-05-23,121,290!2025-05-15,105,290-->
-- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-02-27,61,310!2025-02-23,58,310-->
+- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-02-27,61,310!2025-11-05,255,330-->
 - casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-03-04,65,310!2025-03-06,67,310-->
-- (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+) <!--SR:!2025-02-23,58,310!2025-02-24,58,310-->
+- (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+) <!--SR:!2025-08-20,178,310!2025-02-24,58,310-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-03-05,66,310!2025-02-25,59,310-->
   - (root) / assets ::@:: example: <br/> current assets (+) <br/> property and equipment (+) <br/> intangible assets <br/> total assets: sum above appropriately <!--SR:!2025-04-06,76,270!2025-06-27,148,310-->
     - (root) / assets / current assets ::@:: example: <br/> cash <br/> short-term investments <br/> accounts receivable <br/> supplies <br/> prepaid expanses <br/> total current assets: sum above appropriately <!--SR:!2025-04-03,73,270!2025-04-07,83,270-->
@@ -41,4 +41,4 @@ tags:
     - (root) / liabilities and stockholders' equity / current liabilities ::@:: example: <br/> accounts payable <br/> unearned revenue <br/> accrued expenses payable (+) <br/> total current liabilities: sum above appropriately <!--SR:!2025-03-31,70,270!2025-04-05,75,270-->
       - (root) / liabilities and stockholders' equity / current liabilities / accrued expenses payable ::@:: example: <br/> wages payable <br/> utilities payable <br/> current lease liabilities <!--SR:!2025-05-18,117,290!2025-05-02,105,290-->
     - (root) / liabilities and stockholders' equity / stockholders' equity ::@:: example: <br/> common stock (\$0.01 par value) <br/> additional paid-in capital <br/> treasury stock <br/> retained earnings <br/> total stockholders' equity: sum above <!--SR:!2025-04-17,86,270!2025-03-18,63,250-->
-- validation ::@:: Total assets should equal total liabilities and stockholders' equity. <!--SR:!2025-02-23,58,310!2025-06-28,149,310-->
+- validation ::@:: Total assets should equal total liabilities and stockholders' equity. <!--SR:!2025-08-22,180,310!2025-06-28,149,310-->

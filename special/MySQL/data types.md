@@ -32,7 +32,7 @@ tags:
     - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. Shared among columns in a row. <!--SR:!2025-02-28,406,330!2027-10-13,1010,310-->
   - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings. <!--SR:!2025-04-05,421,330!2025-03-08,409,330-->
     - `TINYBLOB` ::@:: Up to 2<sup>8</sup> - 1 bytes of binary string. <!--SR:!2026-09-21,752,310!2025-03-28,414,330-->
-    - `BLOB` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. <!--SR:!2025-04-12,426,330!2025-02-23,402,330-->
+    - `BLOB` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. <!--SR:!2025-04-12,426,330!2030-02-25,1828,350-->
     - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup> - 1 bytes of binary string. <!--SR:!2026-11-04,783,310!2028-07-25,1271,330-->
     - `LONGBLOB` ::@:: Up to 2<sup>32</sup> - 1 bytes of binary string. <!--SR:!2025-08-06,391,290!2027-11-14,1140,330-->
   - `CHAR`, `VARCHAR` ::@:: Strings. Length of the former is fixed and of the latter is variable. <!--SR:!2030-01-04,1787,350!2028-06-11,1286,330-->

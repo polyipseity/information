@@ -62,12 +62,12 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[boiling point](boiling%20point.md) <!--SR:!2026-10-14,644,290!2028-07-08,1498,350-->
 - [boiling point](boiling%20point.md)→::@::←[color](color.md) <!--SR:!2027-02-22,801,270!2025-03-23,180,250-->
-- [color](color.md)→::@::←[density](density.md) <!--SR:!2025-02-23,439,270!2027-05-11,1078,330-->
+- [color](color.md)→::@::←[density](density.md) <!--SR:!2029-09-05,1655,290!2027-05-11,1078,330-->
 - [density](density.md)→::@::←[ductility](ductility.md) <!--SR:!2025-03-25,151,170!2028-06-23,1486,350-->
 - [ductility](ductility.md)→::@::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2027-01-14,933,290!2025-08-17,531,270-->
 - [electrical conductivity](electrical%20conductivity.md)→::@::←[hardness](hardness.md) <!--SR:!2026-01-25,410,230!2025-08-09,233,290-->
 - [hardness](hardness.md)→::@::←[malleability](malleability.md) <!--SR:!2028-03-20,1192,290!2025-03-17,33,130-->
-- [malleability](malleability.md)→::@::←[melting point](melting%20point.md) <!--SR:!2025-04-11,517,310!2025-02-23,293,230-->
+- [malleability](malleability.md)→::@::←[melting point](melting%20point.md) <!--SR:!2025-04-11,517,310!2026-12-29,674,230-->
 - [melting point](melting%20point.md)→::@::←[odor](odor.md) <!--SR:!2026-12-29,822,250!2026-10-02,618,250-->
 - [odor](odor.md)→::@::←[physical state](physical%20state.md) <!--SR:!2025-10-04,598,270!2028-01-03,1211,310-->
 - [physical state](physical%20state.md)→::@::←[solubility](solubility.md) <!--SR:!2026-10-31,708,250!2025-08-08,274,170-->

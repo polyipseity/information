@@ -97,7 +97,7 @@ One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{
 
 __[Diagram](diagram%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a diagram of type _J_ (annotation: the categorical analogue of an indexed family in set theory) in _C_ is a covariant functor $D\colon J\to C$. <!--SR:!2025-03-05,43,317!2025-04-09,72,337-->
 
-__[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a _J_-presheaf on _C_ is a contravariant (annotation: _not_ covariant) functor $D\colon C\to J$. <p> In the special case when J is __Set__, the category of sets and functions, _D_ is called a [presheaf](presheaf%20(category%20theory).md) on _C_. <!--SR:!2025-02-23,34,297!2025-04-03,67,310-->
+__[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a _J_-presheaf on _C_ is a contravariant (annotation: _not_ covariant) functor $D\colon C\to J$. <p> In the special case when J is __Set__, the category of sets and functions, _D_ is called a [presheaf](presheaf%20(category%20theory).md) on _C_. <!--SR:!2025-06-01,98,297!2025-04-03,67,310-->
 
 __Presheaves \(over a topological space\)__
 
@@ -144,7 +144,7 @@ __Tangent and cotangent bundles__
 
 &emsp; The map which {@{sends every [differentiable manifold](differentiable%20manifold.md) to its [tangent bundle](tangent%20bundle.md) and every [smooth map](smooth%20map.md) to its [derivative](derivative.md)}@} is {@{a covariant functor from the category of differentiable manifolds to the category of [vector bundles](vector%20bundle.md)}@}. <!--SR:!2025-03-31,39,226!2025-04-24,70,266-->
 
-&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2025-02-23,34,297!2025-05-29,96,297!2025-02-27,29,230!2025-02-28,40,306!2025-03-15,48,290-->
+&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2025-07-13,140,317!2025-05-29,96,297!2025-02-27,29,230!2025-02-28,40,306!2025-03-15,48,290-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__
@@ -168,7 +168,7 @@ __Free functors__
 <!-- markdownlint-disable-next-line MD036 -->
 __Homomorphism groups__
 
-&emsp; {@{To every pair _A_, _B_ of [abelian groups](group%20(mathematics).md)}@} one can {@{assign the abelian group Hom\(_A_, _B_\) consisting of all [group homomorphisms](group%20homomorphism.md) from _A_ to _B_}@}. This is {@{a functor which is contravariant in the first and covariant in the second argument, i.e. it is a functor __Ab__<sup>op</sup> × __Ab__ → __Ab__ \(where __Ab__ denotes the [category of abelian groups](category%20of%20abelian%20groups.md) with group homomorphisms\)}@}. If {@{_f_ : _A_<sub>1</sub> → _A_<sub>2</sub> and _g_ : _B_<sub>1</sub> → _B_<sub>2</sub> are morphisms in __Ab__}@}, then {@{the group homomorphism Hom\(_f_, _g_\): Hom\(_A_<sub>2</sub>, _B_<sub>1</sub>\) → Hom\(_A_<sub>1</sub>, _B_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_. See [Hom functor](hom%20functor.md)}@}. <!--SR:!2025-04-11,74,337!2025-04-10,73,337!2025-03-10,47,317!2025-04-12,75,337!2025-04-03,67,310!2025-02-23,34,297-->
+&emsp; {@{To every pair _A_, _B_ of [abelian groups](group%20(mathematics).md)}@} one can {@{assign the abelian group Hom\(_A_, _B_\) consisting of all [group homomorphisms](group%20homomorphism.md) from _A_ to _B_}@}. This is {@{a functor which is contravariant in the first and covariant in the second argument, i.e. it is a functor __Ab__<sup>op</sup> × __Ab__ → __Ab__ \(where __Ab__ denotes the [category of abelian groups](category%20of%20abelian%20groups.md) with group homomorphisms\)}@}. If {@{_f_ : _A_<sub>1</sub> → _A_<sub>2</sub> and _g_ : _B_<sub>1</sub> → _B_<sub>2</sub> are morphisms in __Ab__}@}, then {@{the group homomorphism Hom\(_f_, _g_\): Hom\(_A_<sub>2</sub>, _B_<sub>1</sub>\) → Hom\(_A_<sub>1</sub>, _B_<sub>2</sub>\)}@} is given by {@{_φ_ ↦ _g_ ∘ _φ_ ∘ _f_. See [Hom functor](hom%20functor.md)}@}. <!--SR:!2025-04-11,74,337!2025-04-10,73,337!2025-03-10,47,317!2025-04-12,75,337!2025-04-03,67,310!2025-06-02,99,297-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Representable functors__

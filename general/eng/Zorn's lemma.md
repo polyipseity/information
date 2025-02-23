@@ -47,7 +47,7 @@ Zorn's lemma can then be stated as:
 >
 > Then {@{$P$ has at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2025-09-04,196,330-->
 
-In fact, {@{property \(1\) is redundant}@}, since {@{property \(2\) says, in particular, that the empty chain has an upper bound in $P$}@}, implying {@{$P$ is nonempty}@}. However, in practice, {@{one often checks \(1\) and then verifies \(2\) only for nonempty chains}@}, since {@{the case of the empty chain is taken care by \(1\)}@}. <!--SR:!2025-03-10,60,318!2025-03-06,53,310!2025-03-18,67,330!2025-03-27,74,330!2025-02-23,48,298-->
+In fact, {@{property \(1\) is redundant}@}, since {@{property \(2\) says, in particular, that the empty chain has an upper bound in $P$}@}, implying {@{$P$ is nonempty}@}. However, in practice, {@{one often checks \(1\) and then verifies \(2\) only for nonempty chains}@}, since {@{the case of the empty chain is taken care by \(1\)}@}. <!--SR:!2025-03-10,60,318!2025-03-06,53,310!2025-03-18,67,330!2025-03-27,74,330!2025-09-08,197,318-->
 
 In {@{the terminology of Bourbaki}@}, a partially ordered set is called {@{__inductive__}@} if {@{each chain has an upper bound in the set \(in particular, the set is then nonempty\)}@}.<sup>[\[10\]](#^ref-10)</sup> Then the lemma can be stated as: <!--SR:!2025-02-28,51,310!2025-03-25,72,330!2025-05-13,92,278-->
 
@@ -97,11 +97,11 @@ Because {@{_T_ contains at least one element}@}, and {@{that element contains at
 
 __\#2 - For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_.__
 
-Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}. <!--SR:!2025-03-28,75,330!2025-03-18,67,330!2025-02-28,51,310!2025-07-06,146,310!2025-03-15,64,318!2025-02-23,47,290!2025-03-10,60,318-->
+Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}. <!--SR:!2025-03-28,75,330!2025-03-18,67,330!2025-02-28,51,310!2025-07-06,146,310!2025-03-15,64,318!2025-09-04,193,310!2025-03-10,60,318-->
 
 __\#3 - For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_.__
 
-Suppose {@{_x_ is an element of _I_}@}. Then {@{there exists an ideal _J_ ∈ _T_ such that _x_ is in _J_}@}. If {@{_r_ ∈ _R_}@}, then {@{_rx_ is an element of _J_ and hence an element of _I_}@}. Thus, {@{_I_ is an ideal in _R_}@}. <!--SR:!2025-03-16,65,318!2025-03-09,59,318!2025-03-27,74,330!2025-03-25,72,330!2025-02-23,47,290-->
+Suppose {@{_x_ is an element of _I_}@}. Then {@{there exists an ideal _J_ ∈ _T_ such that _x_ is in _J_}@}. If {@{_r_ ∈ _R_}@}, then {@{_rx_ is an element of _J_ and hence an element of _I_}@}. Thus, {@{_I_ is an ideal in _R_}@}. <!--SR:!2025-03-16,65,318!2025-03-09,59,318!2025-03-27,74,330!2025-03-25,72,330!2025-08-27,185,310-->
 
 Now, we show that {@{_I_ is a _proper_ ideal}@}. An ideal is {@{equal to _R_}@} {@{[if and only if](if%20and%20only%20if.md) it contains 1}@}. \(It is clear that {@{if it is _R_ then it contains 1}@}; on the other hand, {@{if it contains 1 and _r_ is an arbitrary element of _R_, then _r_<!-- markdown separator -->1 = _r_ is an element of the ideal}@}, and {@{so the ideal is equal to _R_}@}.\) So, if {@{_I_ were equal to _R_}@}, then {@{it would contain 1}@}, and that means {@{one of the members of _T_ would contain 1}@} and {@{would thus be equal to _R_ – but _R_ is explicitly excluded from _P_}@}. <!--SR:!2025-03-26,73,330!2025-03-15,64,318!2025-03-26,73,330!2025-03-29,76,330!2025-03-08,58,310!2025-03-28,75,330!2025-03-26,73,330!2025-03-29,76,330!2025-03-18,67,330!2025-03-29,76,330-->
 

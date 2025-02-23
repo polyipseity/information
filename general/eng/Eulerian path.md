@@ -31,7 +31,7 @@ In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian p
 
 Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2025-08-15,205,342!2025-09-09,225,342!2025-03-05,82,342!2025-04-21,100,290!2025-12-17,303,336!2025-03-03,80,342-->
 
-> {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2025-02-27,76,342!2025-02-23,74,342!2025-03-02,79,342-->
+> {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2025-02-27,76,342!2026-02-13,355,362!2025-03-02,79,342-->
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-12,299,336!2025-03-06,83,342!2025-03-06,83,342!2025-02-28,77,342!2025-03-01,78,342-->
 
@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-12-13,298,336!2025-03-02,79,342!2025-10-29,261,342!2025-03-05,82,342!2025-09-27,234,342!2025-02-23,74,342!2025-03-06,83,342!2025-10-22,256,342!2025-09-20,227,330!2026-02-02,346,362!2025-03-02,79,342-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-12-13,298,336!2025-03-02,79,342!2025-10-29,261,342!2025-03-05,82,342!2025-09-27,234,342!2026-02-11,353,362!2025-03-06,83,342!2025-10-22,256,342!2025-09-20,227,330!2026-02-02,346,362!2025-03-02,79,342-->
 
 ### Fleury's algorithm
 
@@ -147,7 +147,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2025-02-26,75,330!2025-12-14,299,336!2025-03-03,80,342-->
 
-{@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-03-06,83,342!2025-02-23,74,342-->
+{@{Hierholzer's linear time algorithm for constructing an Eulerian tour}@} is {@{also applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-03-06,83,342!2026-02-12,354,362-->
 
 ## mixed Eulerian graphs
 

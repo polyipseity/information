@@ -106,7 +106,7 @@ The content is in teaching order.
   - [§ characteristics](../../../../general/truss.md#characteristics)
   - [§ analysis](../../../../general/truss.md#analysis)
   - [§ forces in members](../../../../general/truss.md#forces%20in%20members)
-    - methods for calculating forces in members ::@:: only the method of joints is discussed <!--SR:!2025-02-23,208,321!2025-07-13,327,350-->
+    - methods for calculating forces in members ::@:: only the method of joints is discussed <!--SR:!2027-09-02,921,341!2025-07-13,327,350-->
   - [§ method of joints](../../../../general/truss.md#method%20of%20joints)
 - [zero force member](../../../../general/zero%20force%20member.md)
   - [§ description](../../../../general/zero%20force%20member.md#description)

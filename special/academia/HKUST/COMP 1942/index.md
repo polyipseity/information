@@ -30,7 +30,7 @@ The content is in teaching order.
 ## week 1 lecture
 
 - datetime: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
-- 6 major topics ::@:: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2025-02-23,224,250!2028-04-10,1183,350-->
+- 6 major topics ::@:: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2027-04-18,784,270!2028-04-10,1183,350-->
 - association ::@:: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2026-02-11,531,310!2026-11-10,719,330-->
 - clustering ::@:: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2027-02-01,818,330!2028-08-19,1288,350-->
 - classification ::@:: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2025-11-06,462,310!2028-09-08,1300,350-->

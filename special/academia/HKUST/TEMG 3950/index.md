@@ -143,7 +143,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-02-23,21,155!2025-07-12,282,295-->
+  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-03-28,33,155!2025-07-12,282,295-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -216,7 +216,7 @@ The content is in teaching order.
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2025-03-13,207,361!2027-02-15,768,361-->
 - casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->
-- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2025-02-23,199,341!2025-04-16,243,361-->
+- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2025-04-16,243,361-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2025-03-06,200,341-->
 - cause mapping notation (at least for this course)

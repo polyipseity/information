@@ -19,7 +19,7 @@ tags:
 
 ## examples
 
-- [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) ::@:: ![`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) <!--SR:!2025-06-04,118,290!2025-02-23,58,310-->
+- [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) ::@:: ![`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) <!--SR:!2025-06-04,118,290!2025-08-21,179,310-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / language ::@:: Yeah, it's in Russian... <!--SR:!2025-03-06,67,310!2025-03-03,64,310-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / account captions ::@:: Notice they have used numbers to identify accounts. In this course, we should simply use the account captions (account names) directly. <!--SR:!2025-06-27,135,290!2025-03-01,63,310-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / adjustments ::@:: In this example, the total debit and credit of all relevant adjusting entries of the same account are summed and recorded as one. <p> In exams, you should probably record them separately. When you record them separately, each adjusting entry should change either debit or credit but not both. <!--SR:!2025-05-15,105,290!2025-02-25,59,310-->
@@ -40,5 +40,5 @@ tags:
     - (root) / adjustments: identify adjusting entries ::@:: Optionally, questions may ask you to write each adjustment separately and identify each adjustment with adjusting entries. <p> Add another column at the start, and identify adjusting entries by writing `(AJE *)` on said column. <!--SR:!2025-06-29,135,290!2025-05-18,108,290-->
   - (root) / adjusted ::@:: Write the account balance in either debit or credit. If the balance is zero (for accounts which had a balance before adjustment), write a "-" on the side of the account's normal balance (normally debit or normally credit?). <p> Remember to calculate and check the total debit and credit. <!--SR:!2025-06-06,120,290!2025-07-01,152,310-->
 - variations ::@:: unadjusted trial balance: Only show unadjusted. <p> adjusted trial balance: Only show adjusted. <p> post-closing trial balance: Shows the balance after closing the books. <!--SR:!2025-03-05,66,310!2025-06-08,122,290-->
-- retained earnings ::@:: Retained earnings should not be adjusted, since this is part of closing the books, but trial balances, including adjusted, are usually prepared before closing the books (exception: post-closing trial balance). <!--SR:!2025-02-23,58,310!2025-03-06,67,310-->
-- validation ::@:: Total debit always equal total credits for all sections. <!--SR:!2025-02-23,58,310!2025-02-23,58,310-->
+- retained earnings ::@:: Retained earnings should not be adjusted, since this is part of closing the books, but trial balances, including adjusted, are usually prepared before closing the books (exception: post-closing trial balance). <!--SR:!2025-08-20,178,310!2025-03-06,67,310-->
+- validation ::@:: Total debit always equal total credits for all sections. <!--SR:!2025-10-30,249,330!2025-11-05,255,330-->

@@ -51,7 +51,7 @@ English
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::@:: (i\_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2026-02-06,547,324!2025-03-03,110,264-->
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::@:: (i\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2025-06-30,389,390!2025-05-08,282,330-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::@:: (i\_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2028-01-19,1072,344!2025-03-05,334,344-->
-- [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::@:: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2025-02-23,324,344!2025-03-08,334,344-->
+- [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::@:: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2028-03-14,1115,344!2025-03-08,334,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::@:: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2025-02-25,178,284!2026-11-09,725,324-->
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::@:: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2026-09-27,594,328-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::@:: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2026-02-28,513,284-->
@@ -87,7 +87,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::@:: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2026-07-29,611,284!2026-11-15,799,344-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::@:: (t\_y) The extent to which something is transmissible. <!--SR:!2028-08-17,1330,364!2026-10-21,710,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::@:: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2026-04-02,565,290!2026-08-02,629,290-->
-- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::@:: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2026-09-24,695,348-->
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::@:: (u\_s) Widespread. <!--SR:!2028-05-05,1167,388!2026-09-24,695,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: (v\_s) Empty, void. <!--SR:!2028-04-28,1242,364!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
