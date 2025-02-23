@@ -241,6 +241,7 @@ The content is in teaching order.
 - topic: introduction to Logisim, combinational circuits
 - Logisim ::@:: It is an interactive graphical interface for designing, simulating digital logic circuit. (Runs on Java 5... ancient software?!?)
   - Logisim / download ::@:: <https://sourceforge.net/projects/circuit/>
+  - Logisim / installation
   - Logisim / usage
   - Logisim / save as library
 

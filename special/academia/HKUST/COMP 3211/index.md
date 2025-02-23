@@ -113,8 +113,8 @@ The content is in teaching order.
 - [perceptron](../../../../general/perceptron.md)
   - perceptron / alias ::@:: threshold logical unit (TLU)
   - perceptron / supervised learning ::@:: It requires a training dataset. Each data in the dataset consists of _n_ _inputs_ as a _n_-dimensional vector and a _label_ (e.g. desired output). <p> Then, the task is computing a function that computes a "good" label from arbitrary _n_ inputs. This usually means agreeing with the training dataset's labels as much as possible (accuracy metric). <p> Here, we consider using a threshold linear unit (TLU; a.k.a perceptron) to learn the function.
-  - [perceptron](../../../../general/perceptron.md) / computation ::@:: Given a data vector $\mathbf x$; and weights $\mathbf w$, the bias $\theta$, and the activation function $f$ of a perceptron, the result is computed by: $$y = f(\mathbf x \cdot \mathbf w + \theta) \,.$$ <p> Given $n$ row data vectors vertically stacked as a matrix $\mathbf X$, the $n$ results as a column vector is computed by: $$\mathbf y = f\left(\mathbf X \mathbf w + \mathbf 1 \theta \right) \,.$$
-    - perceptron / computation / activation function ::@:: $$f(u) = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$ <p> Usually, the threshold _θ_ is chosen to be 0. This is because we can always add to a perceptron, an new input that is always 1, and its weight set to the negation of the original threshold.
+  - perceptron / computation ::@:: Given a data vector $\mathbf x$; and weights $\mathbf w$, the bias $\theta$, and the activation function $f$ of a perceptron, the result is computed by: $$y = f(\mathbf x \cdot \mathbf w + \theta) \,.$$ <p> Given $n$ row data vectors vertically stacked as a matrix $\mathbf X$, the $n$ results as a column vector is computed by: $$\mathbf y = f\left(\mathbf X \mathbf w + \mathbf 1 \theta \right) \,.$$
+    - perceptron / computation / activation function ::@:: $$f(u) = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$ <p> Usually, the threshold _θ_ is chosen to be 0. This is because we can always add to a perceptron, an new input that is always 1, and its weight set to the negation of the original threshold. Such a weight is known as the _bias_.
   - perceptron / Boolean functions ::@:: A function whose inputs are Booleans (0: false, 1: true) and the output is also a Boolean (0: false, 1: true). <p> _Linearly separable_ functions can be _learnt_ by a perceptron. But not all such functions are linearly separable, e.g. $x_1 \overline {x_2} + \overline {x_1} x_2$ (($x_1$ AND NOT $x_2$) OR (NOT $x_1$ AND $x_2$)).
   - [perceptron § steps](../../../../general/perceptron.md#steps)
     - [perceptron § steps](../../../../general/perceptron.md#steps) / initialization ::@:: Initialize the weights arbitrarily. Weights may be initialized to 0 or small random values.
@@ -166,6 +166,32 @@ The content is in teaching order.
 
 - datetime: 2025-02-18T12:30:00+08:00/2025-02-18T13:20:00+08:00
 - topic: TLU basics
+- [object detection](../../../../general/object%20detection.md)
+  - object detection / transplanted objects ::@:: elephant in the room: Transplanting such an object onto an image, it itself is often not detected or assumes wrong identities. It also has non-local effects, causing other previously correctly detected objects to go missing.
+- [computer vision](../../../../general/computer%20vision.md)
+  - computer vision / image recognition
+    - computer vision / image recognition / fooling them ::@:: Current systems are easily fooled by: adding human-undetectable noise, adding small obstructions to an image, random patterns, geometric transformation of an object in the image, etc.
+- [natural language processing](../../../../general/natural%20language%20processing.md) (NLP)
+  - natural language processing / hallucinations ::@:: They are prone to creating content that do not match real-world facts (factuality hallucination) or user inputs (faithfulness hallucination, e.g. the year of an event being replaced by the year of another event). <p> Vision language models (VLMs) are also prone to this.
+- [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)
+  - artificial intelligence / recent trend ::@:: Its performance has been improving! For example, see the performance of works from different years on an object detection benchmark (COCO).
+- [perceptron](../../../../general/perceptron.md)
+  - perceptron / alias
+  - perceptron / supervised learning
+  - perceptron / computation
+    - perceptron / computation / activation function
+  - [perceptron § steps](../../../../general/perceptron.md#steps)
+    - [perceptron § steps](../../../../general/perceptron.md#steps) / initialization
+    - [perceptron § steps](../../../../general/perceptron.md#steps) / training
+      - [perceptron § steps](../../../../general/perceptron.md#steps) / training / forward
+      - [perceptron § steps](../../../../general/perceptron.md#steps) / training / backward
+    - [perceptron § steps](../../../../general/perceptron.md#steps) / termination
+- [feature engineering](../../../../general/feature%20engineering.md) ::@:: It is a preprocessing step in supervised machine learning and statistical modeling which transforms raw data into a more effective set of inputs. <p> Input variables may be created, modified, or selected (filtered/filtered out).
+  - feature engineering / example: perceptron ::@:: A perceptron can only classify linearly separable data. <p> Given a non-linearly separable data, sometimes we may be able to derive a new input from the original inputs (e.g. _z_ = _x_<sup>2</sup> + _y_<sup>2</sup>) such that the data based on the new input is linearly separable.
+- [Anaconda](../../../../general/Anaconda%20(Python%20distribution).md) ::@:: It is an open source data science and artificial intelligence distribution platform for Python and R programming languages.
+  - Anaconda / download ::@:: <https://anaconda.com/download>
+  - Anaconda / installation
+  - Anaconda / usage
 
 ## week 3 lecture
 
