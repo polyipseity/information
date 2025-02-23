@@ -155,10 +155,10 @@ The content is in teaching order.
 - law of one price
 - time value of money
   - time value of money / timeline ::@:: This tool can visualize cash inflows and outflows easily. It is a number line staring from time 0 on the left. Label cash inflows (positive; e.g. return), cash outflows (negative; e.g. investments), and their amounts under the number line. <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
-  - time value of money / future value ::@:: Move the cashflow forward in time: $FV = PV \cdot (1 + r)^t$, where $t$ is the number of time periods forward (beware of off-by-one error). <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
+  - time value of money / future value ::@:: Move the cash flow forward in time: $FV = PV \cdot (1 + r)^t$, where $t$ is the number of time periods forward (beware of off-by-one error). <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
     - time value of money / future value / compounding ::@:: Future value uses compound interest instead of simple interest. In the former, interest is earned on principal only. In the latter, interest is earned on principal and interest received. <p> Given a long enough time, compound interest gives much money money than simple interest. On a graph, compound interest increases exponentially while simple interest increases linearly. <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
-  - time value of money / present value ::@:: Move the cashflow backward in time: $PV = \frac {FV} {(1 + r)^t}$, where $t$ is the number of time periods backwards (beware of off-by-one error). <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
-  - time value of money / combining cash flow ::@:: Only cashflow at the same time can be added together. Cashflows at different time must be converted to cashflow at the same time by either compounding a cashflow or discounting the other cashflow. <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
+  - time value of money / present value ::@:: Move the cash flow backward in time: $PV = \frac {FV} {(1 + r)^t}$, where $t$ is the number of time periods backwards (beware of off-by-one error). <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
+  - time value of money / combining cash flow ::@:: Only cash flows at the same time can be added together. cash flows at different time must be converted to cash flows at the same time by either compounding or discounting cash flows. <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
 - [financial calculator](../../../../general/financial%20calculator.md)
   - financial calculator / common acronyms ::@:: CPT: compute (compute the missing value from the other 4 values), FV: future value, N: number of periods, I: interest rate per period (in percentage), PMT: annuity payment, PV: present value <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
   - financial calculator / hints ::@:: Remember to clear out registers between different questions. <br/> Interest rate is usually in percentage. Avoid rounding off intermediate values: use registers to store values. <br/> Negative values are cash outflows while positive values are cash inflows. <!--SR:!2025-02-24,4,308!2025-02-24,4,308-->
@@ -174,6 +174,27 @@ The content is in teaching order.
 
 - datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00
 - status: hybrid (online, physical), optional
+
+## week 2 lecture 2
+
+- datetime: 2025-02-14T16:30:00+08:00/2025-02-14T17:50:00+08:00
+- topic: time value of money: valuing cash flow streams
+- time value of money
+  - time value of money / timeline
+  - time value of money / combining cash flow
+  - time value of money / multiple cash flows ::@:: annuity (annuity due, ordinary annuity), perpetuity; growing annuity, growing perpetuity
+- [perpetuity](../../../../general/perpetuity.md) ::@:: It is an annuity that has no end, or a stream of cash payments that continues forever.
+  - perpetuity / intuition ::@:: You want to earn $C$ at the end of each year forever (excluding year 0). Assuming the interest rate $r$ is fixed. Then you need to invest $P = C / r$ at year 0. This $P$ is also how one calculates the present value of a perpetuity.
+  - perpetuity / equation for PV ::@:: $$PV = C / r$$ <p> This equation assumes the first payment is at first year end. Multiply by $1 + r$ if the first payment is at first year start, which advances all payments backward in time by 1 period.
+  - perpetuity / present value ::@:: Notice that the present value is always the same when evaluated at any time.
+- [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals.
+  - annuity / types ::@:: ordinary annuity: payment is made at period end, annuity due: payment is made at period start
+  - annuity / relation to perpetuity ::@:: You can interpret as an annuity as a perpetuity that you transfer away to others for free at annuity end (after getting the cash flow for annuity end). <p> This gives the equation for an annuity directly by subtracting the PV of the perpetuity at annuity end from the PV of perpetuity at annuity start.
+  - annuity / equation for PV ::@:: $$PV = \frac C r \left(1 - \frac 1 {(1 + r)^t} \right) \,,$$ where $t$ is the number of periods. <p> This equation assumes the annuity is an ordinary annuity. For annuity due, multiply by $1 + r$, which advances all payments backward in time by 1 period.
+  - annuity / equation for FV ::@:: Just multiple the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C r \left((1 + r)^t - 1 \right) \,,$$ if $t$ is also the annuity end.
+- [questions § week 2 lecture 2](questions.md#week%202%20lecture%202)
+- [TAPPS/week 2 lecture 2](assignments/TAPPS/week%202%20lecture%202.md)
+- readings: chapter 4
 
 ## assignments
 

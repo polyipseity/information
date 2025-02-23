@@ -70,7 +70,7 @@ The content is in teaching order.
       - Each paper should be a half of a page to a full page.
       - Students must attach a screenshot of the virtual concert to their paper or if the concert is seen in person, a normal photo of the band will suffice.
       - The concert must be within the jazz idiom; classical, rock or pop concerts will not count.
-      - The concert must be seen in real time. No prerecorded concerts
+      - The concert must be seen in real time. No prerecorded concerts.
 - syllabus
   - concert attendance
     - virtual jazz club "Monks": <https://livestream.monksjazz.com/>
@@ -299,4 +299,48 @@ The content is in teaching order.
 - [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2025-02-24,5,352!2025-02-24,5,352-->
   - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2025-02-24,5,352!2025-02-24,5,352-->
   - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2025-02-24,5,352!2025-02-24,5,352-->
+- assignment: (none)
+
+## week 5 lecture 2
+
+- datetime: 2025-02-12T08:30:00-05:00/2025-02-12T09:50:00-05:00
+  - local: 2025-02-12T21:30:00+08:00/2025-02-12T22:50:00+08:00
+- popular music
+  - popular music / in older times
+- jazz standard
+- thirty-two-bar form
+- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries.
+  - Tin Pan Alley / composers: Cole Porter, George & Ira Gershwin, Harold Arlen, Rodgers & Hart, Sammy Kahn
+- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.)
+  - contrafact / example ::@:: "Cottontail" – Duke Ellington
+- [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.)
+  - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war.
+  - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller
+- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands.
+  - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?)
+  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star.
+- [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture.
+  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture.
+- Benny Goodman
+  - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman
+- swing era
+  - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
+- assignment: (none)
+
+## week 6 lecture
+
+- datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00
+  - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00
+- quiz: [quiz 2](questions/quiz%202.md)
+- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm.
+  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc.
+  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars
+  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli
+- [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli
+- [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris.
+  - Django Reinhardt / quote from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist
+  - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43.
+- gypsy jazz
+  - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe.
 - assignment: (none)
