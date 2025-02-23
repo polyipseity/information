@@ -326,3 +326,21 @@ The content is in teaching order.
 - swing era
   - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
+
+## week 6 lecture
+
+- datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00
+  - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00
+- quiz: [quiz 2](questions/quiz%202.md)
+- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm.
+  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc.
+  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars
+  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli
+- [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli
+- [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris.
+  - Django Reinhardt / quote from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist
+  - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43.
+- gypsy jazz
+  - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe.
+- assignment: (none)

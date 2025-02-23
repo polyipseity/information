@@ -16,6 +16,7 @@ tags:
 ## children
 
 - [quiz 1](quiz%201.md)
+- [quiz 2](quiz%202.md)
 
 ## African traits in early jazz
 
