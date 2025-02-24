@@ -219,3 +219,52 @@ tags:
 >
 > - solution: {@{2}@}
 > - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@}
+
+## week 3 lecture
+
+> Q1. You want to set up a growing perpetuity which will increase its perpetual payments by 4% annually. Your required rate of return is 6%. What rate does the principal of this perpetuity have to grow to generate the growing perpetual payments?
+>
+> 1. 2%
+> 2. 4%
+> 3. 6%
+> 4. Cannot be determined
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Can you use the financial calculator to solve for PV or FV of growing annuities?
+>
+> 1. Yes
+> 2. No
+>
+> - solution: {@{2}@}
+> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. An annuity pays an annual payment with a 5% increase annually in its payments for the next 10 years. To find out its value, we should compute the difference between
+>
+> 1. PV of a 10 year growing annuity with payment starting in year 1 and PV of a growing perpetuity with payment starting in year 11
+> 2. PV of a growing perpetuity with payment starting now and PV of a 10 year annuity with payment starting in year 10
+> 3. PV of a growing perpetuity with payment starting in year 1 and PV of a growing perpetuity with payment starting in year 11
+> 4. PV of a growing perpetuity with payment starting in year 0 and PV of a growing perpetuity with payment starting in year 11
+>
+> - solution: {@{3}@}
+> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Suppose your firm needs to purchase a new forklift. The dealer offers you two options:
+>
+> 1. Pay a price of \$40&nbsp;000 if you pay cash for the lump sum now.
+> 2. Make four annual payments of $15,000, no money down.
+>
+> You can borrow from the bank at an interest rate of 15%.
+>
+> 1. Option 1
+> 2. Option 2
+>
+> - solution: {@{1}@}
+> - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}.
