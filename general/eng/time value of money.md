@@ -142,7 +142,7 @@ The following table summarizes {@{the different formulas commonly used in calcul
 Notes:
 
 - _A_ ::@:: is a fixed payment amount, every period
-- _G_ ::@:: is the initial payment amount of an increasing payment amount, that starts at _G_ and increases by _G_ for each subsequent period.
+- _G_ ::@:: is the initial payment amount of an increasing payment amount, that starts at 0 (not _G_) and increases by _G_ for each subsequent period.
 - _D_ ::@:: is the initial payment amount of an exponentially \(geometrically\) increasing payment amount, that starts at _D_ and increases by a factor of \(1 + _g_\) each subsequent period.
 
 > __flashcards__
@@ -153,9 +153,9 @@ Notes:
 > - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$
 > - __find__: Future value \(F\) <br/> __given__: Repeating payment \(A\) ::@:: $F=A\cdot {\frac {(1+i)^{n}-1}{i} }$
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$
-> - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$
-> - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$
-> - __find__: Fixed payment \(A\) (annotation: i.e. converting gradient payments to fixed payments) <br/> __given__: Initial gradient payment \(G\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$
+> - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) (note that the first payment at year end is 0) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$
+> - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) (note that the first payment at year end is 0) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$
+> - __find__: Fixed payment \(A\) (annotation: i.e. converting gradient payments to fixed payments of equivalent value) <br/> __given__: Initial gradient payment \(G\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$
 > - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\)
 > - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\)
 
