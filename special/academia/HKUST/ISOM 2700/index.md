@@ -63,6 +63,7 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/)
+- [questions](questions.md)
 
 ## assessments
 
@@ -263,6 +264,29 @@ The content is in teaching order.
   - M/M/1 queue / system average waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_s = \frac {L_s} {\lambda} = \frac 1 {\mu - \lambda}$
   - M/M/1 queue / queue average waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_q = \frac {L_q} {\lambda} = \frac \rho {\mu - \lambda}$
   - M/M/1 queue / insight ::@:: The system average size being $\frac {\rho} {1 - \rho}$ implies that it grows super-linearity as $\rho$ approaches 1. That means it is very costly (congestion) to have near maximum utilization when there are variations. With no variations, congestion will not happen even if $\rho < 1$ is very near 1.
+
+## week 3 lecture 2
+
+- datetime: 2025-02-19T10:30:00+08:00/2025-02-19T11:50:00+08:00
+- topic: managing uncertainty in service system, M/M/s queuing systems
+- attendance
+- M/M/1 queue
+- M/M/c queue
+  - M/M/c queue / difference from M/M/1 queue ::@:: Arrival rate $\lambda$ and service rate (of _one_ server) $\mu$ means the same thing. The only difference is that $c$ is not restricted to being 1. <p> We still assume the system is _stable_, i.e. $\lambda < c \mu$.
+  - M/M/c queue / metrics ::@:: Similar to that of M/M/1 queue, we have: $L_q$, $L_s$, $W_q$, $W_s$, $P(0)$, $P(\mathrm{delay})$, and $\rho$.
+    - M/M/c queue / metrics / equations ::@:: Unfortunately, there are equations for the performance of the system, but many of them are complicated, so we provide a M/M/c queueing spreadsheet for you instead.
+    - M/M/c queue / metrics / equations (simple) ::@:: Utilization is similar: $\rho = \lambda / c \mu$. Relationships between $L_q$ and $L_s$: $L_s = L_q + c \rho$; and $W_q$ and $W_s = W_q + \frac 1 \mu$ still holds. <p> However, $P(\mathrm{delay})$ can be less than $1 - P(0)$ instead of being equal to, since there can be multiple servers now.
+  - M/M/c queue / benefits over M/M/1 queue ::@:: Average queue length, average system length, average waiting time, and probability of waiting all decrease significantly.
+- queueing theory
+  - queueing theory / cost ::@:: There can be many ways to measure cost. One simple way is: <p> &emsp; total cost (per unit of time) = service cost (per unit of time) + waiting cost (per unit of time) <p> where service cost is proportional to number of servers $S$ while waiting cost is proportional to mean queue length $L_q$ (_not_ mean system length $L_s$). So we have: $$C = C_s S + C_w L_q \,,$$ where $C_s$ is the service cost per server (per unit of time) and $C_w$ is the waiting cost per customer (per unit of time).
+    - queueing theory / cost / optimization ::@:: To optimize it, find where the total cost is minimum. <p> To compare two scenarios, compare their total costs and choose the one that is lower. Irrelevant costs (cost that do not differ between the scenarios) can be ignored.
+    - queueing theory / cost / insight ::@:: How many servers should we add? It is not the case that more servers is better. This is because while service cost grows linearly wth number of servers, waiting cost does not shrink linearly: an example of diminishing returns.
+  - queueing theory / pooled vs. separate ::@:: Pooled queue (1 queue for all servers) and separate queue (1 queue per server) can be compared using queue theory.
+    - queueing theory / pooled vs. separate / models ::@:: Let $\lambda'$ be the arrival rate, $\mu'$ be the service rate of _one_ server, and $s$ be the number of servers. Then: <p> (former): M/M/c model with $\lambda = \lambda', \mu = \mu', c = s$ <br/> (latter) M/M/1 model with $\lambda = \lambda' / s, \mu = \mu', c = 1$.
+    - queueing theory / pooled vs. separate / results ::@:: We see that the utilization $\rho$ is still the same, but significantly less average queue waiting time $L_q$ for the former. <p> Indeed, as utilization approaches 1, while $L_q$ for both goes to infinity quickly, the former does so significantly slower than the latter.
+    - queueing theory / pooled vs. separate / insight ::@:: In the former, it is impossible for someone to be in queue while there are server being idle. This is possible in the latter. So this is why the former performs better than the latter: it leads to better _matching_ between _supply and demand_. <p> So how should we pool the servers? If we _only_ care about waiting time, then we should pool all servers together. Even if this is not possible, some initial degree of pooling still yields most of the improvements (with further pooling yielding diminishing returns).
+    - queueing theory / disadvantages ::@:: The advantages are obvious. But there are also disadvantages. The queue is more crowded/longer. As a result, customers _feel_ they have less ownership, and there may be negative behavioral and psychological effects on them. <p> Remember that _feelings of your customers_ sometimes matter as much as the _actual_ waiting time, and it all depends on the situation.
+- [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
 
 ## midterm examination
 
