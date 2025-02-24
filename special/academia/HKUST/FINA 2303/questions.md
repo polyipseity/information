@@ -146,7 +146,7 @@ tags:
 > 4. to receive \$133.1 at the end of year 2016
 > 5. choices 1, 2, 3 and 4 are equally attractive
 >
-> - solution: {@{5}@} <!--SR:!2025-02-24,4,297-->
+> - solution: {@{5}@} <!--SR:!2025-03-13,17,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -160,7 +160,7 @@ tags:
 > 4. \$145&nbsp;998
 >
 > - solution: {@{1}@}
-> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2025-02-24,4,297!2025-02-24,4,297-->
+> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2025-03-13,17,317!2025-03-13,17,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -172,7 +172,7 @@ tags:
 > 4. 9%
 >
 > - solution: {@{2}@}
-> - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2025-02-24,4,297!2025-02-24,4,297-->
+> - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2025-03-13,17,317!2025-03-13,17,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -184,7 +184,7 @@ tags:
 > 4. 40
 >
 > - solution: {@{2}@}
-> - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2025-02-24,4,297!2025-02-24,4,297-->
+> - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2025-03-13,17,317!2025-03-13,17,317-->
 
 ## week 2 lecture 2
 

@@ -32,4 +32,4 @@ tags:
 ## macro constants
 
 - _defined in {@{[`<stdio.h>`](../../general/C%20file%20input_output.md)}@}_ <!--SR:!2024-05-05,184,310-->
-- `EOF` ::@:: negative `int` constant expression indicating end-of-file <!--SR:!2025-02-24,406,310!2025-03-22,292,352-->
+- `EOF` ::@:: negative `int` constant expression indicating end-of-file <!--SR:!2029-12-01,1741,330!2025-03-22,292,352-->

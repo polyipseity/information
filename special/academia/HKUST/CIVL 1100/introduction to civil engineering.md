@@ -232,7 +232,7 @@ water security
 
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2025-02-24,228,350-->
+- _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2028-02-26,1097,370-->
 - climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->

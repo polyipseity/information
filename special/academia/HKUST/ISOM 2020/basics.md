@@ -227,7 +227,7 @@ return _chain.from_iterable(await _gather(
 - `math.log(<int/float>)` ::@:: Requires importing `math` first by `import math`. Returns the natural logarithm (base is _e_) of the provided number. Always output a `float`. It does not accept nonpositive (raises a `ValueError` error) or complex numbers (raises a `TypeError` error). The number provided to `sqrt` is always converted into a `float` first before applying the natural algorithm on it. <!--SR:!2026-04-05,411,343!2025-04-27,170,343-->
 - `math.pi` ::@:: A `float` representing the value of pi. It is NOT a function (so `math.pi()` is invalid), but a variable. <!--SR:!2025-09-13,287,363!2026-05-05,478,383-->
 - `math.sqrt(<int/float>)` ::@:: Requires importing `math` first by `import math`. Returns the square root of the provided number. Always output a `float`. The differences from `<int/float> ** 0.5` are that `sqrt` does not accept negative (raises a `ValueError` error) or complex numbers (raises a `TypeError` error), and the number provided to `sqrt` is always converted into a `float` first before applying the square root on it. <!--SR:!2025-05-26,197,322!2025-05-06,169,302-->
-- `random.randint(a, b)` ::@:: Requires importing `random` first by `import random`. Returns a random `int` _N_ such that _a_ ≤ _N_ ≤ _b_. If _a_ > _b_, then raises a `ValueError`. <!--SR:!2025-03-20,125,397!2025-02-24,38,357-->
+- `random.randint(a, b)` ::@:: Requires importing `random` first by `import random`. Returns a random `int` _N_ such that _a_ ≤ _N_ ≤ _b_. If _a_ > _b_, then raises a `ValueError`. <!--SR:!2025-03-20,125,397!2025-08-25,182,377-->
 
 ## string
 

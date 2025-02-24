@@ -43,7 +43,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.753308+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2025-09-28,385,309!2025-02-24,225,329-->
+- _(begin)_→::@::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2025-09-28,385,309!2027-12-12,1021,349-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2025-05-07,247,289!2025-04-16,178,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→::@::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2025-11-27,370,269!2025-03-16,220,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2026-05-26,463,249!2026-04-14,456,269-->

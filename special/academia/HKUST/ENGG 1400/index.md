@@ -107,7 +107,7 @@ The content is in teaching order.
   - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!2026-06-15,477,402!2025-02-28,94,382-->
   - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2025-03-09,102,382!2025-03-02,96,382-->
   - design thinking / reframing ::@:: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation. <!--SR:!2025-03-01,95,382!2025-03-07,100,382-->
-- job hunting ::@:: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)? <!--SR:!2025-03-05,98,382!2025-02-24,91,382-->
+- job hunting ::@:: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)? <!--SR:!2025-03-05,98,382!2026-06-17,478,402-->
   - job hunting / iceberg problem ::@:: visible job market (agency, jobs board, social media): 30%; hidden market (HR connection, direct application, networking): 70% <!--SR:!2025-03-06,99,382!2025-03-07,100,382-->
 - design thinking
   - design thinking / curiosity ::@:: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities. <!--SR:!2025-03-03,97,382!2026-06-09,471,402-->
@@ -116,8 +116,8 @@ The content is in teaching order.
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2026-06-07,470,402!2026-06-08,470,402-->
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2025-02-27,93,382!2025-03-08,101,382-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2026-06-03,466,402-->
-  - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2025-03-06,99,382!2025-02-24,91,382-->
-  - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2025-03-01,95,382!2025-02-24,91,382-->
+  - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2025-03-06,99,382!2026-06-18,479,402-->
+  - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2025-03-01,95,382!2026-06-19,480,402-->
 
 ## week 6 tutorial
 
@@ -134,7 +134,7 @@ The content is in teaching order.
 - datetime: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
   - design thinking / reframing
-    - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2025-02-24,91,382!2026-06-02,465,402-->
+    - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2026-06-20,481,402!2026-06-02,465,402-->
 - sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2026-02-06,365,382!2025-03-07,100,382-->
   - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2025-03-04,97,382!2025-03-06,99,382-->
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2025-02-28,94,382!2025-03-07,100,382-->
@@ -154,7 +154,7 @@ The content is in teaching order.
 - datetime: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
 - activity 1: how many uses ::@:: Think of as many uses for a paperclip in 3 minutes. Play intense music. <!--SR:!2025-03-30,119,394!2025-03-31,120,394-->
   - activity 1: how many uses / takeaways ::@:: Did you get stuck? If no, then good! Yes, it is normal. You can improve this by using different _schemas_, collaborating with others, and think in a more relaxed environment (No intense music!). <!--SR:!2025-04-01,121,394!2025-03-31,120,394-->
-- activity 2: how many uses, better ::@:: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2025-02-24,85,374!2025-04-11,129,394-->
+- activity 2: how many uses, better ::@:: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2026-01-12,322,374!2025-04-11,129,394-->
   - activity 2: how many uses, better / takeaways ::@:: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2025-04-06,124,394!2025-04-07,125,394-->
 - activity 3: Are you creative? ::@:: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 4 things, each in 10 seconds: baby, door, house, and innovation. Finally, share, compare, and discuss with others. <!--SR:!2025-04-09,127,394!2025-04-07,125,394-->
 - design thinking
@@ -185,7 +185,7 @@ The content is in teaching order.
     - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2025-04-04,122,394!2026-05-05,440,394-->
     - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2025-03-29,118,394!2025-04-01,121,394-->
     - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2025-02-25,86,374!2025-04-06,124,394-->
-    - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2025-02-24,90,374-->
+    - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2026-02-01,342,374-->
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2025-04-01,121,394!2025-04-11,129,394-->
 - decision making
   - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2025-04-09,127,394!2025-03-30,119,394-->

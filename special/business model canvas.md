@@ -62,7 +62,7 @@ C$: [cost structure](#cost%20structure)
 - _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2025-03-04,249,337-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2025-08-31,261,277-->
 - VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-03-07,36,254!2025-05-23,274,297-->
-- CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2025-02-24,242,334-->
+- CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-04-29,65,194!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2025-08-20,304,257!2025-06-12,259,257-->
 - KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2025-10-15,333,257!2025-03-14,218,274-->
@@ -173,7 +173,7 @@ risk reduction
 - newness→::@::←performance <!--SR:!2025-03-26,85,257!2025-06-06,253,257-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
-- price→::@::←risk reduction <!--SR:!2025-02-24,204,274!2025-03-28,228,274-->
+- price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2025-03-28,228,274-->
 - risk reduction→::@::←_(end)_ <!--SR:!2025-10-02,364,297!2025-11-24,358,257-->
 
 <!--/pytextgen-->

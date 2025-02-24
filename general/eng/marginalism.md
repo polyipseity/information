@@ -120,7 +120,7 @@ Both neoclassical economics and thorough-going marginalism could be said to {@{e
 
 Marginalists in the tradition of {@{[Marshall](Alfred%20Marshall.md) and neoclassical economists}@} tend to represent the supply curve for any producer as {@{a curve of marginal pecuniary costs objectively determined by physical processes, with an upward slope determined by [diminishing returns](diminishing%20returns.md)}@}. <!--SR:!2025-11-02,313,347!2025-05-04,150,307-->
 
-A more thorough-going marginalism represents the supply curve as {@{a _complementary demand curve_ – where the demand is _for_ money and the purchase is made _with_ a good or service}@}.<sup>[\[10\]](#^ref-10)</sup> The shape of that curve is then {@{determined by marginal rates of substitution of money for that good or service}@}. <!--SR:!2026-01-10,368,347!2025-02-24,98,287-->
+A more thorough-going marginalism represents the supply curve as {@{a _complementary demand curve_ – where the demand is _for_ money and the purchase is made _with_ a good or service}@}.<sup>[\[10\]](#^ref-10)</sup> The shape of that curve is then {@{determined by marginal rates of substitution of money for that good or service}@}. <!--SR:!2026-01-10,368,347!2025-12-09,288,287-->
 
 ### markets
 

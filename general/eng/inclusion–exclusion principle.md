@@ -127,7 +127,7 @@ A well known application of the principle is {@{the construction of the [chromat
 
 ### bipartite graph perfect matchings
 
-{@{The number of [perfect matchings](perfect%20matching.md) of a [bipartite graph](bipartite%20graph.md)}@} can be calculated using the principle.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-24,39,311-->
+{@{The number of [perfect matchings](perfect%20matching.md) of a [bipartite graph](bipartite%20graph.md)}@} can be calculated using the principle.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-08-11,168,331-->
 
 ### number of onto functions
 
