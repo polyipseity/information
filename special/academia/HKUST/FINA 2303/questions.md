@@ -194,7 +194,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@}
+> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2025-02-27,4,302!2025-02-27,4,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -204,7 +204,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@}
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-02-27,4,302!2025-02-27,4,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -218,4 +218,4 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@}
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2025-02-27,4,302!2025-02-26,3,282-->

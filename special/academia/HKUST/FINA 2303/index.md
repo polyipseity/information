@@ -182,16 +182,16 @@ The content is in teaching order.
 - time value of money
   - time value of money / timeline
   - time value of money / combining cash flow
-  - time value of money / multiple cash flows ::@:: annuity (annuity due, ordinary annuity), perpetuity; growing annuity, growing perpetuity
-- [perpetuity](../../../../general/perpetuity.md) ::@:: It is an annuity that has no end, or a stream of cash payments that continues forever.
-  - perpetuity / intuition ::@:: You want to earn $C$ at the end of each year forever (excluding year 0). Assuming the interest rate $r$ is fixed. Then you need to invest $P = C / r$ at year 0. This $P$ is also how one calculates the present value of a perpetuity.
-  - perpetuity / equation for PV ::@:: $$PV = C / r$$ <p> This equation assumes the first payment is at first year end. Multiply by $1 + r$ if the first payment is at first year start, which advances all payments backward in time by 1 period.
-  - perpetuity / present value ::@:: Notice that the present value is always the same when evaluated at any time.
-- [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals.
-  - annuity / types ::@:: ordinary annuity: payment is made at period end, annuity due: payment is made at period start
-  - annuity / relation to perpetuity ::@:: You can interpret as an annuity as a perpetuity that you transfer away to others for free at annuity end (after getting the cash flow for annuity end). <p> This gives the equation for an annuity directly by subtracting the PV of the perpetuity at annuity end from the PV of perpetuity at annuity start.
-  - annuity / equation for PV ::@:: $$PV = \frac C r \left(1 - \frac 1 {(1 + r)^t} \right) \,,$$ where $t$ is the number of periods. <p> This equation assumes the annuity is an ordinary annuity. For annuity due, multiply by $1 + r$, which advances all payments backward in time by 1 period.
-  - annuity / equation for FV ::@:: Just multiple the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C r \left((1 + r)^t - 1 \right) \,,$$ if $t$ is also the annuity end.
+  - time value of money / multiple cash flows ::@:: annuity (annuity due, ordinary annuity), perpetuity; growing annuity, growing perpetuity <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+- [perpetuity](../../../../general/perpetuity.md) ::@:: It is an annuity that has no end, or a stream of cash payments that continues forever. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - perpetuity / intuition ::@:: You want to earn $C$ at the end of each year forever (excluding year 0). Assuming the interest rate $r$ is fixed. Then you need to invest $P = C / r$ at year 0. This $P$ is also how one calculates the present value of a perpetuity. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - perpetuity / equation for PV ::@:: $$PV = C / r$$ <p> This equation assumes the first payment is at first year end. Multiply by $1 + r$ if the first payment is at first year start, which advances all payments backward in time by 1 period. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - perpetuity / present value ::@:: Notice that the present value is always the same when evaluated at any time. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+- [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - annuity / types ::@:: ordinary annuity: payment is made at period end, annuity due: payment is made at period start <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - annuity / relation to perpetuity ::@:: You can interpret as an annuity as a perpetuity that you transfer away to others for free at annuity end (after getting the cash flow for annuity end). <p> This gives the equation for an annuity directly by subtracting the PV of the perpetuity at annuity end from the PV of perpetuity at annuity start. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - annuity / equation for PV ::@:: $$PV = \frac C r \left(1 - \frac 1 {(1 + r)^t} \right) \,,$$ where $t$ is the number of periods. <p> This equation assumes the annuity is an ordinary annuity. For annuity due, multiply by $1 + r$, which advances all payments backward in time by 1 period. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
+  - annuity / equation for FV ::@:: Just multiple the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C r \left((1 + r)^t - 1 \right) \,,$$ if $t$ is also the annuity end. <!--SR:!2025-02-27,4,311!2025-02-27,4,311-->
 - [questions § week 2 lecture 2](questions.md#week%202%20lecture%202)
 - [TAPPS/week 2 lecture 2](assignments/TAPPS/week%202%20lecture%202.md)
 - readings: chapter 4
