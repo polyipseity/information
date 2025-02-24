@@ -199,7 +199,7 @@ The content is in teaching order.
   - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\).
 - activity-based costing
   - activity-based costing / vs. volume-based costing ::@:: In volume-based costing, indirect costs are applied as applied MOH. POHR is used to find the applied MOH using a cost driver. <p> The problem is that MOH may be caused by multiple cost drivers. Using the same cost driver to estimate the actual MOH using applied MOH may be inaccurate. Activity-based costing assigns indirect costs to products and services based on the activities they require, making the applied MOH more accurate. This means using multiple cost drivers and having multiple POHR. <p> In this sense, activity-based costing _augments_ volume-based costing instead of _replacing_ it.
-  - activity-based costing / two-staged allocation ::@:: Assign indirect costs to _activity cost pools_. Then assign the pools to products or services. Note that an activity can be used by multiple products or services, and a product or service can use multiple pools.
+  - activity-based costing / two-staged allocation ::@:: Assign indirect costs to _activity cost pools_ (the costs over all pools _should_ sum up to the indirect costs). Then assign the pools to products or services. Note that an activity can be used by multiple products or services, and a product or service can use multiple pools.
   - activity-based costing / activity classification ::@:: (largest to smallest) facility-level, product/service-level, batch-level, unit-level
     - activity-based costing / activity classification / facility-level ::@:: They support the entire company, e.g. company-wide (but not a single product) advertising, human resources, plant (but not a single product line) supervision, etc.
     - activity-based costing / activity classification / product/service-level ::@:: They support a specific product or service, e.g. product advertising, engineering and quality control, product testing, research and development, etc.
@@ -207,6 +207,27 @@ The content is in teaching order.
     - activity-based costing / activity classification / unit-level ::@:: They support a unit or a customer individually, e.g. machining, part installation, product painting, serving a customer, etc.
   - activity-based costing / cost drivers ::@:: The cost drivers we have previously considered before ABC are _volume-based cost drivers_, e.g. direct materials, direct labor, machining hours, units produced, etc. In ABC, we also consider _non-volume-based cost drivers_, e.g. batch count, design count, processing time per unit, quality inspections, setup time, etc. <p> For each activity cost pool, we choose a cost driver that has a causal relationship with the activity, which should be non-volume-based cost drivers.
     - activity-based costing / cost drivers / advantages ::@:: By also considering non-volume-based cost drivers, it can assign indirect costs to products or services more accurately, especially those that require more indirect costs.
+
+## week 3 lecture 2
+
+- datetime: 2025-02-19T12:00:00+08:00/2025-02-19T13:20:00+08:00
+- topic: activity-based costing (ABC)
+- activity-based costing
+  - activity-based costing / activity-rate method ::@:: For each activity cost pool, choose a cost driver. Calculate the activity rate using: <p> activity rate = total activity cost / total cost driver <p> You may use a _table_ to calculate the total cost driver. You may also use a _table_ to allocate the costs to different processes/products/services.
+    - activity-based costing / activity-rate method / table (total cost driver) ::@:: column headers: activity cost pool, total activity cost, (processes...), _total_
+    - activity-based costing / activity-rate method / table (total cost driver: number of setups) ::@:: row headers: total number of units produced, average units per batch, number of setups <br/> column headers: activity cost pool, (processes...), _total_
+    - activity-based costing / activity-rate method / table (cost allocation) ::@:: row headers: (cost driver), activity rate, _total_ <br/> column headers: activity cost pool, (processes...), _total_
+  - activity-based costing / total manufacturing overhead ::@:: Add up all manufacturing overheads obtained using activity-based costing. This calculated MOH is _applied_ or _actual_ depending on how the original activity rate was calculated (usually _applied_). <p> You may use a _table_.
+    - activity-based costing / total manufacturing overhead / table ::@:: row headers: activity cost pool, (processes...), _total_ <br/> column headers: (pools...), _total_ manufacturing overhead cost
+  - activity-based costing / manufacturing overhead cost per unit ::@:: For each process/product/service, simply divide total manufacturing overhead by number of (equivalent) units produced. <p> You may use a _table_.
+  - activity-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <p> Actually same as that in volume-based activity. <p> You may use a _table_.
+  - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_.
+- [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc.
+  - activity-based management / example ::@:: Instead of looking at processes/jobs to improve, we look at the activities that processes/jobs require across all processes/jobs. <p> Using ABC, then we can find high-cost activities, and improve on them. We can also identify _value-added_ costs (e.g. designing, machining) and _non-value-added_ costs (e.g. advertising, billing, inspection, meeting, transportation).
+- price setting ::@:: markup, target costing, etc.
+- [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_.
+- [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered.
+  - target costing / equation ::@:: The target profit % (margin) is used to calculate the target profit from the target price. Then use the following equation: <p> target price – target profit = target cost <p> And then the target cost is the maximum amount spendable for lifecycle cost while ensuring a XX% profit/return.
 
 ## examination 1
 
