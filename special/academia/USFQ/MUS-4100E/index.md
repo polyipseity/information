@@ -370,3 +370,20 @@ The content is in teaching order.
   - swing music / singers
     - swing music / singers / examples: Anita O'day, Carmen McCrae, Jon Hendricks, Mel Torme, Nina Simone, Peggy Lee, Sarah Vaughan
 - assignment: (none)
+
+## week 7 lecture
+
+- datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00
+  - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00
+- [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance
+  - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis).
+  - stride / originator ::@:: James P. Johnson (largely forgotten)
+  - stride / players ::@:: Art Tatum, Fats Waller
+- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance
+  - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten.
+  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson
+- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer
+  - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz"
+- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play
+  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist
+  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum
