@@ -26,7 +26,7 @@ tags:
 
 - header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2025-06-30,136,290!2025-08-19,177,310-->
   - header / date ::@:: example: `December 31, 2019` <!--SR:!2025-07-03,154,310!2025-05-16,106,290-->
-  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-02-28,62,310!2025-02-26,60,310-->
+  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-02-28,62,310!2025-08-31,186,310-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!2025-05-07,107,290!2025-07-18,162,310-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity <!--SR:!2025-05-14,104,290!2025-03-17,62,250-->
   - totals / format ::@:: Indent totals at least twice. <p> Add a (over)line above totals. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals. <!--SR:!2025-05-23,121,290!2025-05-15,105,290-->

@@ -164,7 +164,7 @@ Bouton's analysis {@{carries over easily to the general multiple-heap version of
 - 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2025-03-26,121,310!2025-11-22,315,341-->
 - 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2025-09-23,247,321!2025-03-01,101,301-->
 
-This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-02-26,98,301-->
+This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-12-24,301,301-->
 
 from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2025-11-04,300,341-->
 

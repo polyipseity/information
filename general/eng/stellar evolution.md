@@ -9,7 +9,7 @@ tags:
 
 # stellar evolution
 
-__Stellar evolution__ is {@{the process by which a [star](star.md) changes over the course of its lifetime and how it can lead to the creation of a new star}@}. Depending on {@{the mass of the star}@}, its lifetime can range from {@{a few million years for the most massive to trillions of years for the least massive, which is considerably longer than the current [age of the universe](age%20of%20the%20universe.md)}@}. <!--SR:!2026-06-21,481,308!2025-12-25,389,328!2025-02-26,147,308-->
+__Stellar evolution__ is {@{the process by which a [star](star.md) changes over the course of its lifetime and how it can lead to the creation of a new star}@}. Depending on {@{the mass of the star}@}, its lifetime can range from {@{a few million years for the most massive to trillions of years for the least massive, which is considerably longer than the current [age of the universe](age%20of%20the%20universe.md)}@}. <!--SR:!2026-06-21,481,308!2025-12-25,389,328!2026-05-25,453,308-->
 
 ## mature stars
 

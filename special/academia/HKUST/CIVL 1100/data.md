@@ -94,7 +94,7 @@ See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::@:: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2026-10-10,595,292!2025-11-09,454,387-->
-- height ::@:: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2025-02-26,64,161!2025-02-27,231,352-->
+- height ::@:: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2025-03-31,33,141!2025-02-27,231,352-->
 - image ::@:: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2026-03-05,542,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ebde3927-b7ca-4808-9e3c-bf6078be3654 -->::@:: reinforced concrete <!--SR:!2026-11-22,655,360!2025-12-04,469,400-->
 

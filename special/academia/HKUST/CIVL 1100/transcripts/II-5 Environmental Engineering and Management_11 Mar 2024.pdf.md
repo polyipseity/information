@@ -301,7 +301,7 @@ Noise Levels and Causes
   - train passing ::@:: 80 dB(A) <!--SR:!2025-02-28,200,310!2026-08-28,569,310-->
   - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2025-12-20,382,290-->
   - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!2026-06-09,520,310-->
-  - library ::@:: 40 dB(A) <!--SR:!2025-02-26,198,310!2026-03-31,462,310-->
+  - library ::@:: 40 dB(A) <!--SR:!2026-11-05,617,310!2026-03-31,462,310-->
   - park ::@:: 30 dB(A) <!--SR:!2025-04-23,258,330!2027-10-14,961,350-->
 
 ## page 25
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-02-26,8,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-03-07,9,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2025-03-30,222,310-->
 

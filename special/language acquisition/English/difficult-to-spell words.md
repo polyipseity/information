@@ -54,7 +54,7 @@ English
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::@:: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2028-03-14,1115,344!2025-03-08,334,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::@:: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2026-07-18,508,284!2026-11-09,725,324-->
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::@:: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2026-09-27,594,328-->
-- [negligible](https://en.wiktionary.org/wiki/negligible) ::@:: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2026-02-28,513,284-->
+- [negligible](https://en.wiktionary.org/wiki/negligible) ::@:: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2028-03-17,1115,344!2026-02-28,513,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::@:: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2025-10-13,440,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::@:: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2025-04-22,351,392-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::@:: (o\_e) An event or happening. <!--SR:!2027-04-06,949,430!2029-01-14,1443,390-->
@@ -73,7 +73,7 @@ English
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2028-12-03,1409,408-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
-- [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
+- [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2028-06-25,1215,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: (r\_r) A source or sink of something. <!--SR:!2027-10-20,1003,330!2027-03-11,779,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2025-07-01,288,336-->

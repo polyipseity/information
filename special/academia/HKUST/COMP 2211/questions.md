@@ -302,7 +302,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[24 24 23 23] [12 13 14 15]]`}@} <!--SR:!2025-02-26,48,290-->
+> - solution: {@{(newlines omitted) `[[24 24 23 23] [12 13 14 15]]`}@} <!--SR:!2025-09-10,196,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1204,7 +1204,7 @@ tags:
 >
 > Note: Without context, $\gamma$ as described above is most likely the _decoding value_, but we are doing _encoding_. One could argue this is confusing, but this is the current convention (unfortunately).
 >
-> - solution: {@{The image becomes darker.}@} <!--SR:!2025-02-26,48,290-->
+> - solution: {@{The image becomes darker.}@} <!--SR:!2025-07-13,137,290-->
 
 <!-- markdownlint MD028 -->
 

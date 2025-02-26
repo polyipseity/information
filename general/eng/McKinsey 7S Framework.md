@@ -19,7 +19,7 @@ tags:
 
 The framework has {@{7 _interdependent_ elements}@}, of which {@{3 are _hard elements_ and 4 are _soft elements_}@}. Hard elements {@{might be easier to define than soft elements but they are equally important}@}. The most important element is {@{shared values}@}. <!--SR:!2026-08-26,555,310!2025-06-30,299,330!2025-03-05,205,330!2025-03-09,194,310-->
 
-The 3 hard elements are {@{_strategy_, _structure_, and _systems_}@}. <!--SR:!2025-02-26,188,290-->
+The 3 hard elements are {@{_strategy_, _structure_, and _systems_}@}. <!--SR:!2027-03-24,756,310-->
 
 - _strategy_ ::@:: actions intended to enhance competitive advantage <!--SR:!2026-06-24,566,330!2025-04-16,239,330-->
 - _structure_ ::@:: coordination and integration mechanisms, and division of activities <!--SR:!2026-04-06,426,270!2026-12-02,691,330-->

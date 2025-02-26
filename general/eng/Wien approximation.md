@@ -25,7 +25,7 @@ This same equation using {@{[wavelength](wavelength.md)}@} is obtained by {@{usi
 
 The peak value of this curve can be determined by {@{setting the [derivative](derivative.md) of the equation to zero and solving it}@}. <!--SR:!2025-05-29,219,310-->
 
-The peak value occurs at, for wavelength, {@{$$\lambda_{\text{max} } = \frac {hc} {5 k_{\mathrm B} T} \approx \frac {2.878 \times 10^{-3}~\mathrm{m \cdot K} } T$$}@}, and for frequency, {@{$$\nu_{\text{max} } = \frac {3 k_{\mathrm B} T} h \approx 6.25 \times 10^{10}~\frac {\mathrm{Hz} } {\mathrm{K} } \cdot T$$}@}. <!--SR:!2025-03-30,84,170!2025-02-26,48,170-->
+The peak value occurs at, for wavelength, {@{$$\lambda_{\text{max} } = \frac {hc} {5 k_{\mathrm B} T} \approx \frac {2.878 \times 10^{-3}~\mathrm{m \cdot K} } T$$}@}, and for frequency, {@{$$\nu_{\text{max} } = \frac {3 k_{\mathrm B} T} h \approx 6.25 \times 10^{10}~\frac {\mathrm{Hz} } {\mathrm{K} } \cdot T$$}@}. <!--SR:!2025-03-30,84,170!2025-05-21,84,170-->
 
 ## references
 

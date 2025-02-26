@@ -62,7 +62,7 @@ Note that {@{the equality _b_<sup>2</sup> = 2 cannot hold}@} since {@{[${\sqrt {
 
 ## relation to interval arithmetic
 
-Given {@{a Dedekind cut representing the real number $r$}@} by {@{splitting the rationals into $(A,B)$ where rationals in $A$ are less than $r$ and rationals in $B$ are greater than $r$}@}, it can be equivalently {@{represented as the set of pairs $(a,b)$ with $a\in A$ and $b\in B$}@}, with {@{the lower cut and the upper cut being given by projections}@}. This corresponds {@{exactly to the set of intervals approximating $r$}@}. <!--SR:!2025-03-13,62,310!2025-03-18,66,310!2025-02-26,46,290!2025-03-07,57,310!2025-03-08,58,310-->
+Given {@{a Dedekind cut representing the real number $r$}@} by {@{splitting the rationals into $(A,B)$ where rationals in $A$ are less than $r$ and rationals in $B$ are greater than $r$}@}, it can be equivalently {@{represented as the set of pairs $(a,b)$ with $a\in A$ and $b\in B$}@}, with {@{the lower cut and the upper cut being given by projections}@}. This corresponds {@{exactly to the set of intervals approximating $r$}@}. <!--SR:!2025-03-13,62,310!2025-03-18,66,310!2025-08-29,184,310!2025-03-07,57,310!2025-03-08,58,310-->
 
 This allows {@{the basic arithmetic operations on the real numbers to be defined in terms of [interval arithmetic](interval%20arithmetic.md)}@}. {@{This property and its relation with real numbers given only in terms of $A$ and $B$}@} is {@{particularly important in weaker foundations such as [constructive analysis](constructive%20analysis.md)}@}. <!--SR:!2025-03-14,63,310!2025-03-08,58,310!2025-03-17,65,310-->
 
@@ -76,7 +76,7 @@ If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called 
 
 ### surreal numbers
 
-{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}. <!--SR:!2025-03-19,67,310!2025-02-26,46,290!2025-08-13,173,310!2025-08-29,185,310-->
+{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}. <!--SR:!2025-03-19,67,310!2025-08-30,185,310!2025-08-13,173,310!2025-08-29,185,310-->
 
 ### partially ordered sets
 
