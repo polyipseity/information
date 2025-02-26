@@ -265,6 +265,28 @@ The content is in teaching order.
   - multiplexer / input bit width ::@:: Its output bit width is the same as its input bit width.
   - multiplexer / control bit width ::@:: Given _n_ control bits, the _maximum_ number of inputs is 2<sup>_n_</sup>. <br/> Given _n_ inputs, the _minimum_ number of control bits is ceil\(log<sub>2</sub>\(_n_\)\). <p> (Of course, you can violate these, but then it is not a multiplexer, isn't it?)
 
+## week 3 lecture 2
+
+- datetime: 2025-02-21T09:00:00+08:00/2025-02-21T10:20:00+08:00
+- topic: 2's complement, max, min, range
+- [computer number format](../../../../general/computer%20number%20format.md) ::@:: It is the internal representation of numeric values in digital device hardware and software, such as in programmable computers and calculators.
+  - computer number format / motivation ::@:: This is one of the ways to represent numbers using bits. We may want to know more: how about unsigned integers, fractions, and reals? And what are their representable ranges? And how to do arithmetic operations on them?
+  - computer number format / bits ::@:: They are represented by a group of bits, i.e. a bit sequence. They are group from the right (least significant bits) to the left (most significant bits).
+  - computer number format / unsigned integer ::@:: It is literally positional notation but with base 2.
+    - computer number format / unsigned integer / range ::@:: _n_ bits: \[0, 2<sup>_n_</sup>−1\]
+    - computer number format / unsigned integer / max ::@:: It has all bits set to 1.
+    - computer number format / unsigned integer / min ::@:: It has all bits set to 0.
+- [two's complement](../../../../general/two's%20complement.md) ::@:: It is the most common method of representing signed (positive, negative, and zero) integers on computers, and more generally, fixed point binary values. <p> We can do natural arithmetic on it without using special rules.
+  - two's complement / sign bit ::@:: The most significant bit (MSB) is \(_this_\). If 0, then positive. If 1, then negative.
+  - two's complement / nonnegative integers ::@:: Same as that for unsigned integers. Beware of the range though... in particular, the _sign bit_ is always 0. (Or you can use the _sign bit_ anyway; but when it is 1, the result after the whole procedure overflows and becomes a negative integer.)
+  - two's complement / negative integers ::@:: Start with the absolute binary representation of the number, with the leading bit being a sign bit. (If the _sign bit_ is 1, the result after the whole procedure overflows (less accurately "underflows") and becomes a positive integer.) Then invert (or flip) all bits – changing every 0 to 1, and every 1 to 0. Finally, add 1 to the entire inverted number, ignoring any overflow. Accounting for overflow will produce the wrong value for the result.
+  - two's complement / range ::@:: _n_ bits: \[−2<sup>_n_<!-- markdown separator -->−1</sup>, 2<sup>_n_<!-- markdown separator -->−1</sup>−1\]
+  - two's complement / max ::@:: It has all bits set to 1 except for the sign bit, which is set to 0.
+  - two's complement / min ::@:: It has all bits se to 0 except for the sign bit, which is set to 1.
+    - two's complement / min / weirdness ::@:: Notice what happens if we try to negate the minimum integer. It becomes itself instead of actually negating. This is because its corresponding positive integer is not representable.
+- [integer overflow](../../../../general/integer%20overflow.md) ::@:: It occurs when an arithmetic operation on integers attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value. <p> (_Important_: In this course, we also use "integer underflow", see below.)
+  - integer overflow / integer underflow ::@:: The above definition of "integer overflow" refers to the ideal result being outside the representable range. <p> An alternative definition uses "integer overflow" to refer to the ideal result being _higher_ than the maximum representable integer, while using "integer underflow" to refer to the ideal result being _lower_ than the minimum representable integer. <p> (_Important_: In this course, we use the latter definition.)
+
 ## assignments
 
 ## midterm examination
