@@ -212,6 +212,50 @@ The content is in teaching order.
 - search problem
   - search problem / elements ::@:: set of states, start state, goal state (goal test), successor function (deterministic actins); if cost needs to be considered (considered in this course), a path cost function
 
+## week 3 lecture 2
+
+- datetime: 2025-02-21T13:30:00+08:00/2025-02-21T14:50:00+08:00
+- topic: search
+- search problem
+  - search problem / problem-solving agent ::@:: These agents solve search problems, and are often _goal-directed_. <p> They find the best or "good enough" solution by _systematically_ considering different paths (sequences of actions) that may lead to the goal state. The different path are in a _representation space_, and this is where our agents search in. <p> After _finding a solution_, the agent _executes_ it.
+  - search problem / [search algorithm](../../../../general/search%20algorithm.md) (search method) ::@:: Searching a solution can be thought of lazily expanding a search tree. The root is the initial state. A leaf node is expanded by applying all possible actions to the corresponding state. If a state that is a goal state is found, return it. Otherwise, if there are no more leaf nodes to expand, we could not a find a solution and return failure. <p> Choosing a leaf node to expand defines the _search strategy_, which is what we are studying here.
+- [search algorithm](../../../../general/search%20algorithm.md) (search method) ::@:: an algorithm designed to solve a search problem
+  - search algorithm / types ::@:: game tree, heuristic/informed, local, uninformed/blind, etc.
+  - search algorithm / uninformed, blind ::@:: breadth-first search (BFS), depth-first search (DFS, backtracking search), iterative deepening search, etc.
+  - search algorithm / explicit graph ::@:: A graph that is not too large (or infinite) to store explicitly. Often, repetitions can be identified and avoided. <p> We can measure its number of vertices $\lvert V \rvert$ and number of edges $\lvert E \rvert$. Note that $O(\lvert E \rvert)$ varies in between $O(1)$ and $O\left(\lvert V \rvert^2)$, depending on how sparse the input graph is.
+  - search algorithm / implicit graph ::@:: A graph that is too large (or infinite) to store explicitly. <p> We can measure its branching factor $b$ (average out-degree).
+- [breadth-first search](../../../../general/breadth-first%20search.md) (BFS) ::@:: It is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue, is needed to keep track of the child nodes that were encountered but not yet explored.
+  - breadth-first search / completeness ::@:: If there is a solution, BFS will find it eventually, given unlimited time and space. (For this course: Yes.)
+  - breadth-first search / optimality ::@:: Yes. If there are multiple solutions, BFS will find a solution with a shortest path from the root. (For this course: Yes.)
+  - breadth-first search / time complexity ::@:: Explicit graph (without repetition): $O(\lvert V \rvert + \lvert E \rvert)$. Implicit graph (possibly with repetition): $O\left(b^{d + 1} \right)$, where $b$ is the branching factor (average out-degree) and $d$ is the number of edges to reach the solution. (For this course, use the implicit one, and remove the $+ 1$.) <p> It is impractical for most real world problems, and there are algorithms with better time complexity.
+  - breadth-first search / space complexity ::@:: Explicit graph (without repetition): $O(\lvert V \rvert)$. Implicit graph (possibly with repetition): $O\left(b^{d + 1} \right)$, where $b$ is the branching factor (average out-degree) and $d$ is the number of edges to reach the solution. (For this course, use the implicit one, and remove the $+ 1$.) <p> It is impractical for most real world problems, and there are algorithms with better space complexity.
+- search algorithm
+  - search algorithm / importance ::@:: It determines the order of states expanded in the search state. Different algorithms lead to different search trees, and have different time and space complexities.
+  - search algorithm / properties ::@:: completeness, optimality, space complexity, time complexity
+  - search algorithm / completeness ::@:: Is the algorithm guaranteed to find a solution if it exists.
+  - search algorithm / time complexity ::@:: How long does the algorithm take to find a solution? Note that it is frequently denoted using big O notation.
+  - search algorithm / space complexity ::@:: How much memory does the algorithm use? Note that it is frequently denoted using big O notation.
+  - search algorithm / optimality ::@:: Does the algorithm find an "_optimal_" solution if there are multiple solutions?
+- [depth-first search](../../../../general/depth-first%20search.md) (DFS, backtracking search) ::@:: It is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. Extra memory, usually a stack, is needed to keep track of the nodes discovered so far along a specified branch which helps in backtracking of the graph.
+  - depth-first search / depth bound ::@:: A variation uses the _depth bound_, denoted $m$. It means the maximum depth (in terms of edges, inclusive) that DFS will search. Any deeper states are left un-generated (thus unexplored).
+  - depth-first search / completeness ::@:: If there is a solution, DFS will find it eventually, given unlimited time and space. If _depth bound_ is used, we also require $m \ge d$, where $d$ is the number of edges to reach the solution. (For this course: Yes, if $m \ge d$.)
+  - depth-first search / optimality ::@:: If there are multiple solutions, DFS will find a solution that comes first in lexicographic DFS ordering. (For this course: No.)
+  - breadth-first search / time complexity ::@:: Explicit graph (without repetition): $O(\lvert V \rvert + \lvert E \rvert)$. Implicit graph (possibly with repetition): $O\left(b^{m + 1} \right)$, where $b$ is the branching factor (average out-degree) and $m$ is the depth bound (number of edges). (For this course, use the implicit one, and remove the $+ 1$.) <p> It is impractical for most real world problems, and there are algorithms with better time complexity.
+  - breadth-first search / space complexity ::@:: Explicit graph (without repetition): $O(\lvert V \rvert)$. Implicit graph (possibly with repetition): $O(bm)$, where $b$ is the branching factor (average out-degree) and $m$ is the depth bound (number of edges). (For this course, use the implicit one.) <p> It is impractical for most real world problems, and there are algorithms with better space complexity.
+- [iterative deepening search](../../../../general/iterative%20deepening%20depth-first%20search.md) (IDS, IDDFS) ::@:: A state space/graph search strategy in which a depth-limited version of depth-first search is run repeatedly with increasing depth limits until the goal is found.
+  - iterative deepening search / motivation ::@:: What if we want the completeness, optimality of BFS while having the space complexity of DFS? (For time complexity, BFS and DFS are similar.)
+  - iterative deepening search / description ::@:: Perform DFS with a depth bound repeatedly. The depth bound starts from 0, and increase by 1 each time DFS finishes, until a goal state is found.
+  - iterative deepening search / completeness ::@:: If there is a solution, IDDFS will find it eventually, given unlimited time and space. (For this course: Yes.)
+  - iterative deepening search / optimality ::@:: Yes. If there are multiple solutions, IDDFS will find a solution with a shortest path from the root. This is because the cumulative order in which nodes are first visited is effectively the same as in BFS. (For this course: Yes.)
+  - iterative deepening search / time complexity ::@:: Implicit graph (possibly with repetition): $O\left(b^{d + 1} \right)$, where $b$ is the branching factor (average out-degree) and $d$ is the number of edges to reach the solution. (For this course, remove the $+ 1$.)
+  - iterative deepening search / space complexity ::@:: Implicit graph (possibly with repetition): $O(d)$, where $d$ is the number of edges to reach the solution.
+- search algorithm
+  - search algorithm / implicit graph
+    - search algorithm / implicit graph / repetition ::@:: As mentioned above, implicit graphs may repeat states. There are several ways to deal with this, in increasing effectiveness and overhead: do not return to the state we have just come from, which requires tracking the last state; do not create cycles, which requires tracking the current path; do not generate any state that has been generated, which requires tracking the set of generated states.
+  - search algorithm / heuristic (informed) ::@:: The search uses a _heuristic function_, which given the current path and search tree, maps states to real numbers. The leaf with the smallest heuristic function value is expanded first.
+    - search algorithm / heuristic / heuristic function ::@:: Given the current path and search tree, it usually measures how far the inputted state and path is from a goal state.
+      - search algorithm / heuristic / heuristic function / examples ::@:: 8 puzzle: number of tiles out of place, current path length + number of tiles out of place, etc.
+
 ## assignments
 
 ## midterm examination
