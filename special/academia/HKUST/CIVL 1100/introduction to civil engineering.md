@@ -22,7 +22,7 @@ The content is in teaching order.
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2025-10-08,405,377-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2025-02-25,250,330-->
+    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2028-04-08,1138,350-->
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2026-08-28,633,330-->
@@ -949,7 +949,7 @@ wave
 
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2025-02-25,240,357-->
+- _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2028-05-16,1176,377-->
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
 - flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->

@@ -138,7 +138,7 @@ return _chain.from_iterable(await _gather(
 - [kerosene](kerosene.md):@:fuel for domestic use <!--SR:!2025-10-28,637,294-->
 - [fuel oil](fuel%20oil.md):@:fuel for [power plants](power%20station.md) and [ships](ship.md) <!--SR:!2025-11-18,613,274-->
 - [diesel fuel](diesel%20fuel.md):@:fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2025-06-19,270,234-->
-- [paraffin wax](paraffin%20wax.md):@:[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2025-02-25,522,314-->
+- [paraffin wax](paraffin%20wax.md):@:[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2029-08-26,1643,314-->
 - [bitumen](bitumen.md):@:[road construction](road%20construction.md) <!--SR:!2028-09-16,1559,354-->
 
 <!--/pytextgen-->

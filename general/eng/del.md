@@ -119,7 +119,7 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > - $\nabla (fg)$ ::@:: $=f\nabla g+g\nabla f$ <!--SR:!2025-03-09,14,290!2025-03-09,14,290-->
 > - $\nabla (\mathbf {u} \cdot \mathbf {v} )$ ::@:: $=\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )+(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u}$ <!--SR:!2025-03-01,7,250!2025-03-06,11,270-->
 > - $\nabla \cdot (f\mathbf {v} )$ ::@:: $=f(\nabla \cdot \mathbf {v} )+\mathbf {v} \cdot (\nabla f)$ <!--SR:!2025-03-05,10,270!2025-03-09,14,290-->
-> - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-02-25,2,250!2025-03-03,9,250-->
+> - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-03-02,5,250!2025-03-03,9,250-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2025-03-01,7,250!2025-03-11,16,290-->
 > - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-03-06,11,270!2025-03-02,8,250-->
 > - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-02-27,5,230!2025-03-02,8,250-->

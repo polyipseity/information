@@ -99,10 +99,10 @@ The content is in teaching order.
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2025-03-09,102,382!2025-03-03,97,382-->
 - success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2025-03-02,96,382!2026-06-04,467,402-->
   - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2025-02-28,94,382!2025-03-02,96,382-->
-  - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2025-02-25,92,382!2025-02-27,93,382-->
+  - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2026-02-16,356,382!2025-02-27,93,382-->
 - design thinking
   - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2025-03-01,95,382!2025-03-05,98,382-->
-  - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2025-02-28,94,382!2025-02-25,92,382-->
+  - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2025-02-28,94,382!2026-02-15,355,382-->
   - design thinking / life design: ideate ::@:: You give yourself permission to have unreserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in. <!--SR:!2025-03-05,98,382!2025-03-06,99,382-->
   - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!2026-06-15,477,402!2025-02-28,94,382-->
   - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2025-03-09,102,382!2025-03-02,96,382-->
@@ -143,7 +143,7 @@ The content is in teaching order.
 - activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2025-03-08,101,382!2026-05-14,449,402-->
   - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2026-05-23,457,402!2025-03-03,97,382-->
 - ways of thinking
-  - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2025-03-02,96,382!2025-02-25,92,382-->
+  - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2025-03-02,96,382!2026-06-27,487,402-->
     - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2025-03-08,101,382!2025-03-09,102,382-->
     - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2025-03-08,101,382!2026-05-28,460,402-->
     - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2025-03-04,97,382!2025-03-02,96,382-->
@@ -184,7 +184,7 @@ The content is in teaching order.
     - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2025-04-05,123,394!2025-04-11,129,394-->
     - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2025-04-04,122,394!2026-05-05,440,394-->
     - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2025-03-29,118,394!2025-04-01,121,394-->
-    - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2025-02-25,86,374!2025-04-06,124,394-->
+    - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2026-01-20,329,374!2025-04-06,124,394-->
     - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2026-02-01,342,374-->
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2025-04-01,121,394!2025-04-11,129,394-->
 - decision making

@@ -263,7 +263,7 @@ subscription fee
 
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
+- _(begin)_→::@::←advertising <!--SR:!2025-05-02,251,274!2027-11-01,979,337-->
 - advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2025-06-13,192,237!2025-09-18,322,254-->

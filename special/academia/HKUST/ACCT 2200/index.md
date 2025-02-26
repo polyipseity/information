@@ -97,7 +97,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-05T12:00:00+08:00/2025-02-05T13:20:00+08:00
 - topic: job order costing
-- [job costing](../../../../general/job%20costing.md) ::@:: accounting which tracks the costs and revenues by "job" and enables standardized reporting of profitability by job <!--SR:!2025-03-05,18,328!2025-02-25,11,308-->
+- [job costing](../../../../general/job%20costing.md) ::@:: accounting which tracks the costs and revenues by "job" and enables standardized reporting of profitability by job <!--SR:!2025-03-05,18,328!2025-04-14,48,328-->
   - job costing / the other costing method ::@:: process costing <!--SR:!2025-03-04,17,328!2025-03-05,18,328-->
   - job costing / vs. process costing ::@:: approach, cost accumulation, product type, report types <!--SR:!2025-03-04,17,328!2025-03-05,18,328-->
     - job costing / vs. process costing / approach ::@:: customized to the needs of clients or customers; mass produced using standardized processes <!--SR:!2025-03-05,18,328!2025-03-04,17,328-->

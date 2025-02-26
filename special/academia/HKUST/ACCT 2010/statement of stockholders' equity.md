@@ -32,7 +32,7 @@ tags:
 - (root) ::@:: description: 1 column <br/> common stock: 1 column <br/> additional paid-in capital: 1 column <br/> retained earnings: 1 column <br/> total stockholders' equity: 1 column <!--SR:!2025-08-16,185,310!2025-06-07,121,290-->
   - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2025-04-08,78,270!2025-05-16,106,290-->
   - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2025-05-29,113,290!2025-07-13,158,310-->
-  - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2025-06-28,136,290!2025-02-25,59,310-->
+  - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2025-06-28,136,290!2025-11-10,258,330-->
   - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2025-03-05,66,310!2025-11-04,254,330-->
   - (root) / total stockholders' equity ::@:: Sum up the rows. <!--SR:!2025-03-05,66,310!2025-03-05,66,310-->
 - validation ::@:: The totals for each row should add up to the final total. The totals for each column should add up to the final total. <!--SR:!2025-02-26,60,310!2025-11-04,254,330-->

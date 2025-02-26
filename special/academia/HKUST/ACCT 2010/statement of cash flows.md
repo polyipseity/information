@@ -20,7 +20,7 @@ tags:
 ## examples
 
 - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) ::@:: ![`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) <!--SR:!2025-04-18,87,270!2025-07-03,138,290-->
-  - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) / note ::@:: It is using the direct method instead of indirect method, however... The format otherwise looks pretty good. <!--SR:!2025-02-25,59,310!2025-03-02,63,310-->
+  - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) / note ::@:: It is using the direct method instead of indirect method, however... The format otherwise looks pretty good. <!--SR:!2025-08-23,179,310!2025-03-02,63,310-->
 
 ## format
 

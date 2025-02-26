@@ -53,7 +53,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 >
 > {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2025-03-09,59,312!2025-03-09,59,312-->
 
-__Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {@{[A002218](https://oeis.org/A002218)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)__ <!--SR:!2025-02-25,23,232-->
+__Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {@{[A002218](https://oeis.org/A002218)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)__ <!--SR:!2025-04-17,51,232-->
 
 | Vertices | Number of Possibilities             |
 |:--------:|:-----------------------------------:|

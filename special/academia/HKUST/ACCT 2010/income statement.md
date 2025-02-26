@@ -20,7 +20,7 @@ tags:
 ## examples
 
 - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) ::@:: ![`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) <!--SR:!2025-05-30,114,290!2025-04-03,76,270-->
-  - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) / gross profit ::@:: It should better be called `Total revenue` instead... <!--SR:!2025-02-25,59,310!2025-03-03,64,310-->
+  - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) / gross profit ::@:: It should better be called `Total revenue` instead... <!--SR:!2025-11-09,257,330!2025-03-03,64,310-->
 
 ## format
 

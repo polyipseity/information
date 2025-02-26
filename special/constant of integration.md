@@ -13,7 +13,7 @@ tags:
 
 ## absorption
 
-A constant of integration can absorb {@{expressions such that the constant remains arbitrary}@}. For example, $C+1$ and $2C$ can be rewritten as $C$. It may be desirable to {@{absorb expressions aggressively as to reduce the complexity of expressions}@}. However, there are several pitfalls outlined below. <!--SR:!2025-02-25,389,330!2028-06-12,1287,330-->
+A constant of integration can absorb {@{expressions such that the constant remains arbitrary}@}. For example, $C+1$ and $2C$ can be rewritten as $C$. It may be desirable to {@{absorb expressions aggressively as to reduce the complexity of expressions}@}. However, there are several pitfalls outlined below. <!--SR:!2029-12-31,1770,350!2028-06-12,1287,330-->
 
 ### restricted arbitrariness
 
