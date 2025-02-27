@@ -40,7 +40,7 @@ One can create {@{a customer profile that shows a typical person}@} for each cus
 
 ### customer validation
 
-After [customer discovery](#customer%20discovery), we need to do {@{customer validation}@}. The goal of customer validation is to {@{determine whether your product should be created in the first place}@}. Even if yor customer profile is accurate, {@{the customer might not use your products anyway when put into actual practice}@}. This is because {@{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}@}. <!--SR:!2026-10-03,669,330!2025-11-26,422,310!2025-02-27,210,290!2026-01-24,444,290-->
+After [customer discovery](#customer%20discovery), we need to do {@{customer validation}@}. The goal of customer validation is to {@{determine whether your product should be created in the first place}@}. Even if yor customer profile is accurate, {@{the customer might not use your products anyway when put into actual practice}@}. This is because {@{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}@}. <!--SR:!2026-10-03,669,330!2025-11-26,422,310!2027-06-22,845,310!2026-01-24,444,290-->
 
 To validate your customers, {@{interact with your customers, such as talking to them, showing them your product prototype}@}, etc. <!--SR:!2025-04-05,212,270-->
 

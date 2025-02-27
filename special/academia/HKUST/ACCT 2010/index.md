@@ -337,7 +337,7 @@ The content is in teaching order.
   - Need to recheck the textbook when will a recording mistake of transaction be found...
     - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2025-10-02,258,369!2026-01-12,336,369-->
   - Forgot, something related to accrued expense, insurance, insurance premium...
-    - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2025-02-27,88,369!2026-01-01,313,369-->
+    - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2026-05-20,447,389!2026-01-01,313,369-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)
 - check
   - note: Send an email to TA by yourself to appoint a timing.
@@ -373,7 +373,7 @@ The content is in teaching order.
   - [impaired asset](../../../../general/imparied%20asset.md)
   - impairment / indicators ::@:: examples: <br/> significant pattern of decline in the market price of the PPE <br/> lower demand for a medium to long-term period for the asset's service due to global economic conditions <br/> severe change in economic or legal factors affecting the company or its assets <br/> obsolescence or physical damage to the PPE <br/> asset is held for disposal or is part of a restructuring <!--SR:!2025-09-20,211,363!2025-04-30,100,323-->
   - impairment / recoverability ::@:: If the assets' estimated future cash flows (FCF) is at least its net book value (NBV), nothing happens. Otherwise, impairment occurs. <!--SR:!2025-04-04,93,376!2025-04-14,102,383-->
-    - [discounted cash flow](../../../../general/discounted%20cash%20flow.md) ::@:: It is a method used to value a security, project, company, or asset, that incorporates the time value of money. <!--SR:!2025-03-31,90,383!2025-02-27,63,363-->
+    - [discounted cash flow](../../../../general/discounted%20cash%20flow.md) ::@:: It is a method used to value a security, project, company, or asset, that incorporates the time value of money. <!--SR:!2025-03-31,90,383!2026-01-13,320,383-->
   - impairment / measurement ::@:: The FCF is below NBV. Now measure the fair value (FV) of the asset. This may be computed from the FCF using discounted cash flow (DCF; not covered now), or other methods. It should be the case that FV ≤ FCF. The difference between FV and NBV is the impairment loss. <p> The adjustment entry debits expense "Impairment loss" and credits the relevant assets. <!--SR:!2025-03-28,87,376!2025-04-10,98,376-->
     - [fair value](../../../../general/fair%20value.md) ::@:: It is a rational and unbiased estimate of the potential market price of a good, service, or asset. <!--SR:!2025-03-30,89,383!2025-04-15,103,383-->
 - fixed asset
@@ -481,7 +481,7 @@ The content is in teaching order.
   - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2025-04-15,103,383!2025-04-09,98,383-->
     - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2025-04-02,92,383!2025-04-11,99,383-->
     - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2025-07-12,153,343!2025-02-28,64,363-->
-  - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2025-04-01,91,383!2025-02-27,63,363-->
+  - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2025-04-01,91,383!2026-01-12,319,383-->
     - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!2025-03-12,70,363!2025-06-12,134,336-->
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2025-03-18,75,363!2025-04-07,96,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2025-09-16,217,363!2025-09-08,212,363-->

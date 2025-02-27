@@ -99,7 +99,7 @@ The content is in teaching order.
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2025-03-09,102,382!2025-03-03,97,382-->
 - success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2025-03-02,96,382!2026-06-04,467,402-->
   - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2025-02-28,94,382!2025-03-02,96,382-->
-  - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2026-02-16,356,382!2025-02-27,93,382-->
+  - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2026-02-16,356,382!2026-07-02,490,402-->
 - design thinking
   - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2025-03-01,95,382!2025-03-05,98,382-->
   - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2025-02-28,94,382!2026-02-15,355,382-->
@@ -114,7 +114,7 @@ The content is in teaching order.
   - design thinking / bias toward action ::@:: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time. <!--SR:!2025-03-07,100,382!2025-03-01,95,382-->
   - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2025-03-09,102,382!2025-03-01,95,382-->
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2026-06-07,470,402!2026-06-08,470,402-->
-  - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2025-02-27,93,382!2025-03-08,101,382-->
+  - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2026-07-05,493,402!2025-03-08,101,382-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2026-06-03,466,402-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2025-03-06,99,382!2026-06-18,479,402-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2025-03-01,95,382!2026-06-19,480,402-->

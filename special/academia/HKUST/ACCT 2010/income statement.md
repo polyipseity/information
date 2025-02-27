@@ -32,7 +32,7 @@ tags:
   - total / format ::@:: Indent totals at least once. <p> Add a (over)line above totals. <p> For income from operations, income before income taxes, and net income, do not indent and bold the names. <p> For net income (and earnings per share), additionally add double (under)lines below the totals. <!--SR:!2025-04-05,75,270!2025-04-28,97,290-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-02-28,62,310!2025-03-03,64,310-->
   - negative number / expenses ::@:: Note that expenses, while they reduce net income, are still written as positive numbers. This includes income tax expense. <p> One exception is when the revenues and expenses are mixed together in the other items. <!--SR:!2025-10-28,247,330!2025-04-28,98,290-->
-- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-10-31,250,330!2025-02-27,61,310-->
+- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-10-31,250,330!2025-11-19,265,330-->
 - (root) ::@:: operating (+) <br/> other items (+) <br/> income tax expense <br/> __net income__: income before income taxes − income tax expense <br/> earnings per share <!--SR:!2025-05-17,107,290!2025-05-25,110,290-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-11-01,251,330!2025-08-15,184,310-->
   - (root) / operating ::@:: example: <br/> sales revenue <br/> operating expenses (+) <br/> __income from operations__: sum above appropriately <!--SR:!2025-07-05,156,310!2025-07-02,152,310-->

@@ -55,7 +55,7 @@ The amount of materials and labor that {@{goes into each shirt increases with th
 
 {@{Over a five-year horizon}@}, {@{all costs can become variable costs}@}. The business can {@{decide to shut down and sell off its buildings and equipment}@} if {@{long-run total cost exceeds their long-run total revenue}@}, or to {@{expand and increase the amount of both of them}@} if {@{their long-run total revenue exceeds their long-run total cost}@}, which would {@{include their variable costs}@}. It can {@{change its entire labor force, managerial as well as line workers}@}. <!--SR:!2025-03-23,57,310!2025-03-24,58,310!2025-03-09,42,290!2025-03-28,61,310!2025-04-04,67,310!2025-04-04,67,310!2025-03-24,58,310!2025-03-26,59,310-->
 
-Thus, {@{which costs are classified as variable and which as fixed}@} {@{depends on the time horizon}@}, most {@{simply classified into short run and long run}@}, but really {@{with an entire range of time horizons}@}. <!--SR:!2025-02-27,37,290!2025-03-22,56,310!2025-03-26,59,310!2025-03-22,56,310-->
+Thus, {@{which costs are classified as variable and which as fixed}@} {@{depends on the time horizon}@}, most {@{simply classified into short run and long run}@}, but really {@{with an entire range of time horizons}@}. <!--SR:!2025-07-26,149,310!2025-03-22,56,310!2025-03-26,59,310!2025-03-22,56,310-->
 
 ## see also
 

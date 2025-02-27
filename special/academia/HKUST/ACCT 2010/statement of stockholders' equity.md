@@ -27,8 +27,8 @@ tags:
 - dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2025-03-05,66,310!2025-03-03,32,250-->
 - total ::@:: Calculate the total for each column and each row. <!--SR:!2025-03-05,66,310!2025-03-05,66,310-->
   - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2025-04-27,91,270!2025-11-05,255,330-->
-- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-03-05,66,310!2025-02-27,61,310-->
-- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-02-27,61,310!2025-11-03,253,330-->
+- negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-03-05,66,310!2025-11-17,263,330-->
+- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-11-22,268,330!2025-11-03,253,330-->
 - (root) ::@:: description: 1 column <br/> common stock: 1 column <br/> additional paid-in capital: 1 column <br/> retained earnings: 1 column <br/> total stockholders' equity: 1 column <!--SR:!2025-08-16,185,310!2025-06-07,121,290-->
   - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2025-04-08,78,270!2025-05-16,106,290-->
   - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2025-05-29,113,290!2025-07-13,158,310-->

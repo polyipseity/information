@@ -23,7 +23,7 @@ tags:
 
 > ![a labeled Eulerian graph](../../archives/Wikimedia%20Commons/Labelled%20Eulergraph.svg)
 >
-> {@{Every vertex of this graph}@} has {@{an even degree}@}. Therefore, {@{this is an Eulerian graph}@}. {@{Following the edges in alphabetical order}@} gives {@{an Eulerian circuit/cycle}@}. <!--SR:!2025-02-27,76,342!2025-02-27,76,342!2025-12-15,301,336!2025-03-01,78,342!2025-03-04,81,342-->
+> {@{Every vertex of this graph}@} has {@{an even degree}@}. Therefore, {@{this is an Eulerian graph}@}. {@{Following the edges in alphabetical order}@} gives {@{an Eulerian circuit/cycle}@}. <!--SR:!2026-02-26,364,362!2026-02-23,361,362!2025-12-15,301,336!2025-03-01,78,342!2025-03-04,81,342-->
 
 In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian path__\)}@} is {@{a [trail](path%20(graph%20theory).md#walk,%20trail,%20and%20path) in a finite [graph](graph%20(discrete%20mathematics).md) that visits every [edge](glossary%20of%20graph%20theory.md#edge) exactly once \(allowing for revisiting vertices\)}@}. Similarly, {@{an __Eulerian circuit__ or __Eulerian cycle__}@} is {@{an Eulerian trail that starts and ends on the same [vertex](vertex%20(graph%20theory).md)}@}. They were first {@{discussed by [Leonhard Euler](Leonhard%20Euler.md)}@} while {@{solving the famous [Seven Bridges of Königsberg](Seven%20Bridges%20of%20Königsberg.md) problem in 1736}@}. The problem can be stated mathematically like this: <!--SR:!2026-02-14,354,362!2025-10-17,235,330!2025-10-13,249,342!2025-03-04,81,342!2025-11-06,253,330!2025-06-10,140,310-->
 
@@ -31,7 +31,7 @@ In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian p
 
 Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2025-08-15,205,342!2025-09-09,225,342!2025-03-05,82,342!2025-04-21,100,290!2025-12-17,303,336!2025-03-03,80,342-->
 
-> {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2025-02-27,76,342!2026-02-13,355,362!2025-03-02,79,342-->
+> {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2026-02-27,365,362!2026-02-13,355,362!2025-03-02,79,342-->
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-12,299,336!2025-03-06,83,342!2025-03-06,83,342!2025-02-28,77,342!2025-03-01,78,342-->
 
@@ -47,7 +47,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 
 {@{The definition and properties of Eulerian trails, cycles and graphs}@} are {@{valid for [multigraphs](multigraph.md)}@} as well. <!--SR:!2026-02-07,346,350!2025-12-15,300,336-->
 
-{@{An __Eulerian orientation__}@} of {@{an undirected graph _G_ is an assignment of a direction to each edge of _G_}@} such that, {@{at each vertex _v_, the [indegree](directed%20graph.md#indegree%20and%20outdegree) of _v_ equals the [outdegree](directed%20graph.md#indegree%20and%20outdegree) of _v_}@}. {@{Such an orientation exists}@} for {@{any undirected graph in which every vertex has even degree}@}, and may be found by {@{constructing an Euler tour in each connected component of _G_ and then orienting the edges according to the tour}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Every Eulerian orientation of a connected graph}@} is {@{a [strong orientation](strong%20orientation.md), an orientation that makes the resulting directed graph [strongly connected](strongly%20connected%20component.md)}@}. <!--SR:!2025-02-27,76,330!2025-03-03,80,342!2025-03-03,80,342!2025-03-04,81,342!2025-09-15,211,316!2025-08-12,185,322!2025-11-02,264,342!2025-03-03,80,342-->
+{@{An __Eulerian orientation__}@} of {@{an undirected graph _G_ is an assignment of a direction to each edge of _G_}@} such that, {@{at each vertex _v_, the [indegree](directed%20graph.md#indegree%20and%20outdegree) of _v_ equals the [outdegree](directed%20graph.md#indegree%20and%20outdegree) of _v_}@}. {@{Such an orientation exists}@} for {@{any undirected graph in which every vertex has even degree}@}, and may be found by {@{constructing an Euler tour in each connected component of _G_ and then orienting the edges according to the tour}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Every Eulerian orientation of a connected graph}@} is {@{a [strong orientation](strong%20orientation.md), an orientation that makes the resulting directed graph [strongly connected](strongly%20connected%20component.md)}@}. <!--SR:!2026-02-14,352,350!2025-03-03,80,342!2025-03-03,80,342!2025-03-04,81,342!2025-09-15,211,316!2025-08-12,185,322!2025-11-02,264,342!2025-03-03,80,342-->
 
 ## properties
 
@@ -56,7 +56,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 - An undirected graph has an Eulerian trail ::@:: if and only if exactly zero or two vertices have odd degree, and all of its vertices with nonzero degree belong to a single connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-12,259,342!2025-09-16,212,316-->
 - A directed graph has an Eulerian cycle ::@:: if and only if every vertex has equal [in degree](degree%20(graph%20theory).md) and [out degree](degree%20(graph%20theory).md), and all of its vertices with nonzero degree belong to a single [strongly connected component](strongly%20connected%20component.md). <!--SR:!2025-09-16,211,316!2025-09-28,235,342-->
   - Equivalently, a directed graph has an Eulerian cycle ::@:: if and only if it can be decomposed into edge-disjoint [directed cycles](cycle%20(graph%20theory).md) and all of its vertices with nonzero degree belong to a single strongly connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-09-20,227,330!2025-11-01,263,342-->
-- A directed graph has an Eulerian trail ::@:: if and only if at most one vertex has \([out-degree](degree%20(graph%20theory).md)\) − \([in-degree](degree%20(graph%20theory).md)\) = 1, at most one vertex has \(in-degree\) − \(out-degree\) = 1, every other vertex has equal in-degree and out-degree, and all of its vertices with nonzero degree belong to a single connected component of the underlying undirected graph.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-27,76,330!2025-11-04,251,330-->
+- A directed graph has an Eulerian trail ::@:: if and only if at most one vertex has \([out-degree](degree%20(graph%20theory).md)\) − \([in-degree](degree%20(graph%20theory).md)\) = 1, at most one vertex has \(in-degree\) − \(out-degree\) = 1, every other vertex has equal in-degree and out-degree, and all of its vertices with nonzero degree belong to a single connected component of the underlying undirected graph.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-07,253,330!2025-11-04,251,330-->
 
 ## constructing Eulerian trails and circuits
 
@@ -82,7 +82,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is {@{not possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as {@{there exists a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and {@{join the tour formed in this way to the previous tour}@}.
-- Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2026-01-16,330,350!2025-09-17,212,316!2025-03-04,81,342!2025-03-01,78,342!2025-03-03,80,342!2025-10-31,264,342!2025-03-04,81,342!2025-07-31,192,330!2025-12-12,299,336!2025-02-27,76,330!2025-09-30,237,342-->
+- Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2026-01-16,330,350!2025-09-17,212,316!2025-03-04,81,342!2025-03-01,78,342!2025-03-03,80,342!2025-10-31,264,342!2025-03-04,81,342!2025-07-31,192,330!2025-12-12,299,336!2026-02-11,349,350!2025-09-30,237,342-->
 
 By using {@{a data structure such as a [doubly linked list](doubly%20linked%20list.md)}@} {@{to maintain the set of unused edges incident to each vertex, to maintain the list of vertices on the current tour that have unused edges, and to maintain the tour itself}@}, {@{the individual operations of the algorithm}@} \({@{finding unused edges exiting each vertex, finding a new starting vertex for a tour, and connecting two tours that share a vertex}@}\) may be {@{performed in constant time each}@}, so {@{the overall algorithm takes [linear time](time%20complexity.md#linear%20time), $O(|E|)$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-03-01,78,342!2025-04-19,103,302!2025-03-03,80,342!2025-03-01,78,342!2025-09-29,236,342!2025-10-31,264,342-->
 
@@ -114,7 +114,7 @@ A similar formula was {@{later obtained by M.I. Isaev \(2009\)}@} for {@{[comple
 
 ## applications
 
-Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reconstruct the [DNA sequence](nucleic%20acid%20sequence.md) from its fragments}@}.<sup>[\[13\]](#^ref-13)</sup> They are also used in {@{[CMOS](CMOS.md) circuit design}@} to {@{find an optimal [logic gate](logic%20gate.md) ordering}@}.<sup>[\[14\]](#^ref-14)</sup> There are {@{some algorithms for processing [trees](tree%20(graph%20theory).md)}@} that {@{rely on an Euler tour of the tree \(where each edge is treated as a pair of arcs\)}@}.<sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> {@{The [de Bruijn sequences](de%20Bruijn%20sequence.md)}@} can be constructed as {@{Eulerian trails of [de Bruijn graphs](de%20Bruijn%20graph.md)}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2025-03-06,83,342!2025-10-26,259,342!2025-10-31,263,342!2025-02-28,77,342!2025-02-27,76,330!2025-11-04,266,342!2025-03-01,78,342!2025-10-16,251,342-->
+Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reconstruct the [DNA sequence](nucleic%20acid%20sequence.md) from its fragments}@}.<sup>[\[13\]](#^ref-13)</sup> They are also used in {@{[CMOS](CMOS.md) circuit design}@} to {@{find an optimal [logic gate](logic%20gate.md) ordering}@}.<sup>[\[14\]](#^ref-14)</sup> There are {@{some algorithms for processing [trees](tree%20(graph%20theory).md)}@} that {@{rely on an Euler tour of the tree \(where each edge is treated as a pair of arcs\)}@}.<sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> {@{The [de Bruijn sequences](de%20Bruijn%20sequence.md)}@} can be constructed as {@{Eulerian trails of [de Bruijn graphs](de%20Bruijn%20graph.md)}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2025-03-06,83,342!2025-10-26,259,342!2025-10-31,263,342!2025-02-28,77,342!2026-02-15,353,350!2025-11-04,266,342!2025-03-01,78,342!2025-10-16,251,342-->
 
 ## in infinite graphs
 
@@ -133,15 +133,15 @@ In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the
 
 Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-10-18,253,342!2025-03-04,81,342!2025-03-04,81,342!2025-10-28,261,342!2025-03-06,83,342!2025-12-16,301,336!2025-03-05,82,342-->
 
-The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-04-04,93,302!2025-12-13,300,336!2025-02-27,76,342-->
+The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-04-04,93,302!2025-12-13,300,336!2026-02-21,359,362-->
 
-{@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2025-10-02,239,342!2025-02-27,76,330-->
+{@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2025-10-02,239,342!2026-02-13,351,350-->
 
 ## directed Eulerian graphs
 
 > {@{![a directed graph with all even degrees that is not Eulerian](../../archives/Wikimedia%20Commons/Even%20directed%20graph%20that%20is%20not%20Eulerian%20counterexample.svg)}@}
 >
-> {@{A directed graph with all even degrees that is not Eulerian}@}, serving as {@{a counterexample to the statement that a sufficient condition for a directed graph to be Eulerian is that it has all even degrees}@} <!--SR:!2025-02-27,76,330!2025-03-05,82,342!2025-05-25,137,322-->
+> {@{A directed graph with all even degrees that is not Eulerian}@}, serving as {@{a counterexample to the statement that a sufficient condition for a directed graph to be Eulerian is that it has all even degrees}@} <!--SR:!2025-11-11,257,330!2025-03-05,82,342!2025-05-25,137,322-->
 
 It is possible to {@{have a [directed graph](directed%20graph.md) that has all even out-degrees but is not Eulerian}@}. Since {@{an Eulerian circuit leaves a vertex the same number of times as it enters that vertex}@}, {@{a necessary condition for an Eulerian circuit to exist}@} is that {@{the in-degree and out-degree are equal at each vertex}@}. Obviously, {@{connectivity is also necessary}@}. {@{König}@} proved that {@{these conditions are also sufficient}@}. That is, {@{a directed graph is Eulerian if and only if it is connected and the in-degree and out-degree are equal at each vertex}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-03-01,78,342!2025-12-08,295,332!2025-10-05,228,330!2025-10-17,252,342!2025-06-21,149,310!2025-09-27,234,342!2025-10-21,238,330!2026-01-27,341,362-->
 
@@ -176,7 +176,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 - [Eulerian matroid](Eulerian%20matroid.md), an abstract generalization of Eulerian graphs
 - [five room puzzle](five-room%20puzzle.md)
 - [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2025-09-21,228,330!2025-09-12,208,310-->
-- [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2026-02-02,346,362!2025-02-27,76,342-->
+- [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2026-02-02,346,362!2026-02-22,360,362-->
 - [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2025-10-24,258,342!2025-03-03,80,342-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2025-03-06,83,342!2025-07-22,167,310-->
 

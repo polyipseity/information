@@ -83,7 +83,7 @@ tags:
 > 3. 1.0868
 > 4. 1.1026
 >
-> - solution: {@{3}@} <!--SR:!2025-02-27,10,270-->
+> - solution: {@{3}@} <!--SR:!2025-03-26,27,270-->
 
 ## week 1 lecture 2
 
@@ -194,7 +194,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2025-02-27,4,302!2025-02-27,4,302-->
+> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2025-03-15,16,322!2025-03-16,17,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -204,7 +204,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-02-27,4,302!2025-02-27,4,302-->
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-03-17,18,322!2025-03-16,17,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -218,4 +218,4 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2025-02-27,4,302!2025-03-05,7,282-->
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2025-03-15,16,322!2025-03-05,7,282-->

@@ -15,7 +15,7 @@ When $f$ is {@{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deri
 
 ## basic properties
 
-{@{Many properties of the real [logarithm](logarithm.md)}@} applies to the logarithmic derivative whenever $f \ne 0$. This can be easily seen from {@{[linearity of differentiation](linearity%20of%20differentiation.md)}@}. See [list of logarithmic identities](list%20of%20logarithmic%20identities.md). <!--SR:!2025-02-27,304,330!2027-10-13,1051,350-->
+{@{Many properties of the real [logarithm](logarithm.md)}@} applies to the logarithmic derivative whenever $f \ne 0$. This can be easily seen from {@{[linearity of differentiation](linearity%20of%20differentiation.md)}@}. See [list of logarithmic identities](list%20of%20logarithmic%20identities.md). <!--SR:!2028-12-12,1384,350!2027-10-13,1051,350-->
 
 ### select properties
 
