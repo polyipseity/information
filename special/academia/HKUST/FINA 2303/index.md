@@ -233,6 +233,25 @@ The content is in teaching order.
 - datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00
 - status: hybrid (online, physical), optional
 
+## week 3 lecture 2
+
+- datetime: 2025-02-21T16:30:00+08:00/2025-02-21T17:50:00+08:00
+- topic: interest rates
+- interest rate
+  - interest rate / quoted in ::@:: annual percentage rate (APR), effective annual rate (EAR); both are _nominal_
+- [annual percentage rate](../../../../general/annual%20percentage%20rate.md) (APR) ::@:: the _simple-interest_ rate for a _whole year_ (annualized), rather than just a monthly fee/rate
+  - annual percentage rate / prevalence ::@:: It is almost always the rate quoted in industry. <p> _Important_: Unless otherwise specified, interest rates given in questions are always this.
+  - annual percentage rate / conversion between durations ::@:: If the time duration is multiplied by $k$, multiply the interest rate by $k$ as well: $$r_{\text{new} } = k r_{\text{old} } \,.$$ <p> Note: APR requires the duration to be a year. If not, it would be just annual \(something\) rate.
+  - annual percentage rate / to effective annual rate ::@:: $$\text{EAR} = (1 + \text{APR} / m)^m - 1 \,,$$ where $m$ is the number of compounding in a year.
+- [effective annual rate](../../../../general/effective%20interest%20rate.md) (EAR) ::@:: the percentage of interest on a loan or financial product for a _whole year_ if _compound interest_ accumulates in periods different than a year
+  - effective annual rate / motivation ::@:: Always use this rather than the other one when comparing interest rates for decision-making! It can also be used to value non-annual cash flows.
+  - effective annual rate / conversion between durations ::@:: If the time duration is multiplied by $k$ is multiplied by $k$, you need to do an exponentiation: $$r_{\text{new} } = (1 + r_{\text{old} })^k - 1 \,.$$ Importantly, do _not_ simply just multiply by $k$! <p> Note: EAR requires the duration to be a year. If not, it would be just effective interest rate (EIR).
+  - effective annual rate / vs. annual percentage rate ::@:: We see that EAR equals APR if the interest rate is compounded annually. Otherwise, EAR > APR if the interest rate is compounded more frequently than annually, and EAR < APR if the interest rate is compounded less frequently than annually.
+  - effective annual rate / to annual percentage rate ::@:: $$\text{APR} = m \left((1 + \text{EAR})^{1 / m} - 1\right) \,,$$ where $m$ is the number of compounding in a year.
+- [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
+- [TAPPS/week 3 lecture 2](assignments/TAPPS/week%203%20lecture%202.md)
+- readings: chapter 5 (skip 5.3)
+
 ## assignments
 
 ## midterm examination

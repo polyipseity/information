@@ -268,3 +268,58 @@ tags:
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
 > - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}.
+
+## week 3 lecture 2
+
+> Q1. A savings account pays 42% interest annually. The APR and EAR of this savings account is different only if the interest rate is compounded non-annually.
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. ABC Bank pays 4% interest annually, compounded quarterly. If you find out XYZ bank pays 4% annual interest and the interest rate is <u>compounded monthly</u>, will you change your decision to XYZ bank?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Suppose Bank A pays interest monthly with an APR of 6%, compounded monthly.  Bank B pays interest monthly with an EAR of 6%, compounded monthly.
+>
+> Which bank will offer you more interest in one year?
+>
+> 1. Bank A
+> 2. Bank B
+> 3. They are the same
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Ellen is 35 years old now. She has a retirement saving target of \$3 million when she retires at 65. She plans to save monthly in an account which pays 6% annual interest, compounded monthly.
+>
+> What should be the number of time periods on the timeline?
+>
+> 1. 30
+> 2. 31
+> 3. 360
+> 4. 372
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Suppose your bank account pays interest monthly with an effective annual rate of 6%. What is the APR offered by your bank?
+>
+> 1. 0.4868%
+> 2. 0.50%
+> 3. 5.8416%
+> 4. 6.00%
+>
+> - solution: {@{3}@}
+> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@}
