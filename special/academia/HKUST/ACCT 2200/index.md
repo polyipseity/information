@@ -214,11 +214,11 @@ The content is in teaching order.
 - topic: activity-based costing (ABC)
 - activity-based costing
   - activity-based costing / activity-rate method ::@:: For each activity cost pool, choose a cost driver. Calculate the activity rate using: <p> activity rate = total activity cost / total cost driver <p> You may use a _table_ to calculate the total cost driver. You may also use a _table_ to allocate the costs to different processes/products/services.
-    - activity-based costing / activity-rate method / table (total cost driver) ::@:: column headers: activity cost pool, total activity cost, (processes...), _total_
-    - activity-based costing / activity-rate method / table (total cost driver: number of setups) ::@:: row headers: total number of units produced, average units per batch, number of setups <br/> column headers: activity cost pool, (processes...), _total_
-    - activity-based costing / activity-rate method / table (cost allocation) ::@:: row headers: (cost driver), activity rate, _total_ <br/> column headers: activity cost pool, (processes...), _total_
+    - activity-based costing / activity-rate method / table (total cost driver) ::@:: column headers: activity cost pool, total activity cost, (processes...), _total_ activity
+    - activity-based costing / activity-rate method / table (total cost driver: number of setups) ::@:: row headers: total number of units produced, average units per batch, number of setups <br/> column headers: activity cost pool, (processes...), _total_ (number)
+    - activity-based costing / activity-rate method / table (cost allocation) ::@:: row headers: (activity pool), activity rate, _total_ costs <br/> column headers: activity cost pool, (processes...), _total_ costs
   - activity-based costing / total manufacturing overhead ::@:: Add up all manufacturing overheads obtained using activity-based costing. This calculated MOH is _applied_ or _actual_ depending on how the original activity rate was calculated (usually _applied_). <p> You may use a _table_.
-    - activity-based costing / total manufacturing overhead / table ::@:: row headers: activity cost pool, (processes...), _total_ <br/> column headers: (pools...), _total_ manufacturing overhead cost
+    - activity-based costing / total manufacturing overhead / table ::@:: row headers: activity cost pool, (processes...), _total_ costs <br/> column headers: (pools...), _total_ manufacturing overhead cost
   - activity-based costing / manufacturing overhead cost per unit ::@:: For each process/product/service, simply divide total manufacturing overhead by number of (equivalent) units produced. <p> You may use a _table_.
   - activity-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <p> Actually same as that in volume-based activity. <p> You may use a _table_.
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_.
@@ -228,6 +228,49 @@ The content is in teaching order.
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_.
 - [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered.
   - target costing / equation ::@:: The target profit % (margin) is used to calculate the target profit from the target price. Then use the following equation: <p> target price – target profit = target cost <p> And then the target cost is the maximum amount spendable for lifecycle cost while ensuring a XX% profit/return.
+
+## week 4 lecture
+
+- datetime: 2025-02-24T12:00:00+08:00/2025-02-24T13:20:00+08:00
+- topic: cost behavior
+- cost behavior ::@:: It describes how total cost changes when activity changes.
+  - cost behavior / assumptions ::@:: We assume _unit variable costs_ and _total fixed costs_ both remain _unchanged_. The range of activity for which these holds is called the _relevant range_. There can be multiple relevant ranges.
+- variable cost
+  - variable cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is proportional to activity. Per unit cost of this type is constant with regards to activity.
+- fixed cost
+  - fixed cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is constant with regards to activity. Per unit cost of this type is inversely proportional to activity.
+- mixed cost ::@:: fixed cost + variable cost, e.g. a cell phone plan with monthly charge plus usage charge
+- cost behavior
+  - cost behavior / linear equation ::@:: $$y = a + bx \,,$$ where $y$ is the total cost, $a$ is the _total_ fixed cost, $b$ is the _unit_ variable cost, $x$ is activity/cost driver.
+  - cost behavior / graph ::@:: $y$ is plotted on the vertical axis, called the _dependent variable_. $x$ is plotted on the horizontal axis, called the _independent variable_.
+- [scatter plot](../../../../general/scatter%20plot.md) (scattergraph) ::@:: a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data
+- cost behavior
+  - cost behavior / linear regression ::@:: scattergraph, high—low method, least squares
+    - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points.
+    - cost behavior / linear regression / high—low method ::@:: Find two data points: one with min $x$, the other with max $x$. Find the slope $b$ (unit variable cost) of the line connecting them. This will be $b$. Then find the y-intercept $a$ (fixed cost) on the line connecting them.
+    - cost behavior / linear regression / least squares ::@:: Minimize the sum of squared $y$ errors with the fitted line. Software, e.g. Excel, can be used to find the line. The intercept $a$ and the slope $b$ means the same thing as the other methods.
+      - [least squares](../../../../general/least%20squares.md) ::@:: a parameter estimation method based on minimizing the sum of the squares of the residuals (a residual being the difference between an observed value and the fitted value provided by a model) made in the results of each individual equation
+      - cost behavior / linear regression / least squares / outputs ::@:: R square \(R<sup>2</sup>\): how closely the relation is explained by the fitted line <br/> intercept: estimated total fixed costs <br/> $x$ coefficient/slope: estimated unit variable costs
+      - cost behavior / linear regression / least squares / significance ::@:: significance F, p-value (for the $x$ coefficient/slope): They are the same when one independent variable is used to predict one dependent variable. Compare them with the significance level: The value being lower than the significance level means the result is significant (useful).
+    - cost behavior / linear regression / advantages ::@:: scattergraph, high—low method: intuitive, simple <br/> least squares: easy using Excel, uses all data points
+    - cost behavior / linear regression / disadvantages ::@:: scattergraph: inexact, subjective <br/> high—low method: uses only two data points at the extreme but not at the middle <br/> least squares: requires proper interpretation, uses more assumptions and data
+- [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> (alternative, in this course: sales revenue minus variable costs)
+  - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> (alternative, in this course: contribution margin / sales revenue)
+  - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: increased sales; less: increased variable costs; increased contribution margin; less: increased fixed costs; (total:) increased net operating income
+- [variable costing](../../../../general/variable%20costing.md) ::@:: Under this method, manufacturing overhead is incurred in the period that a product is produced. This addresses the issue of absorption costing that allows income to rise as production rises. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP.
+  - variable costing / purpose ::@:: cost accounting for internal decision making
+  - variable costing / cost classification ::@:: costs are mainly split into fixed costs, variable costs
+  - variable costing / manufacturing overhead ::@:: incurred in the period that a product is produced
+  - variable costing / formula ::@:: (net) sales, less: variable costs, (subtotal:) _contribution margin_, less: fixed costs, (total:) net operating income
+- [total absorption costing](../../../../general/total%20absorption%20costing.md) ::@:: Under an absorption cost method, management can push forward costs to the next period when products are sold. This artificially inflates profits in the period of production by incurring less cost than would be incurred under a variable costing system. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP.
+  - total absorption costing / purpose ::@:: cost accounting for external financial reporting (GAAP)
+  - total absorption costing / cost classification ::@:: costs are mainly split into manufacturing costs, non-manufacturing costs
+  - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold)
+  - total absorption / formula ::@:: (net) sales, less: cost of goods sold, (subtotal:) _gross margin_, less: non-manufacturing expenses, (total:) net operating income
+- variable costing
+  - variable costing / from total absorption costing ::@:: Move all variable costs in manufacturing (e.g. variable manufacturing costs) _and_ non-manufacturing overhead (e.g. variable selling expenses) to variable costs. Move all fixed costs in manufacturing (e.g. manufacturing overhead) _and_ non-manufacturing overhead (e.g. general and administrative expenses). <p> _Importantly_, _all_ manufacturing overhead incurred (instead of the portion corresponding to sold goods) during the period is expensed.
+  - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs.
+    - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP.
 
 ## examination 1
 
