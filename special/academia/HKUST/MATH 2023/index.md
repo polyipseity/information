@@ -32,7 +32,7 @@ The content is in teaching order.
 
 ## children
 
-<!-- - [questions](questions.md) -->
+- [questions](questions.md)
 
 ## week 1 lecture
 
@@ -54,7 +54,7 @@ The content is in teaching order.
   - Cartesian coordinate system / symbols ::@:: Using real numbers, $\mathbb R^n$, where $n$ is the dimension of the entire space. <!--SR:!2025-04-23,56,310!2025-04-01,39,290-->
   - Cartesian coordinate system / orientation ::@:: left-hand side, right-hand side; by most convention (including this course), we use right-hand side <!--SR:!2025-04-22,55,310!2025-04-21,54,310-->
   - Cartesian coordinate system / shape description ::@:: Equations can describe a subset of points of the entire space. Intersection and/or union may be used to define shapes defined by multiple equations. <p> For example: $x^2 + y^2 + z^2 = r^2$ is a 3D sphere of radius $r$. <!--SR:!2025-04-22,55,310!2025-04-23,56,310-->
-  - Cartesian coordinate system / projection ::@:: Orthogonal project may be used to extract a specific coordinate of a point. <!--SR:!2025-04-10,43,290!2025-04-22,55,310-->
+  - Cartesian coordinate system / projection ::@:: Orthogonal projection may be used to extract a specific coordinate of a point. <!--SR:!2025-04-10,43,290!2025-04-22,55,310-->
 - [Euclidean vector](../../../../general/Euclidean%20vector.md) ::@:: A set whose elements, often called _vectors_, can be added together and multiplied ("scaled") by numbers called _scalars_. <!--SR:!2025-04-08,41,290!2025-04-25,58,310-->
   - Euclidean vector / vector ::@:: A line segment with a direction, up to translation. That is, two vectors are the same if they have the same length and direction. <p> The zero vector has 0 length and no direction. <!--SR:!2025-04-24,57,310!2025-04-21,54,310-->
   - Euclidean vector / scalar ::@:: A real number. In general, the field associated with the vector space. <!--SR:!2025-04-22,55,310!2025-04-24,57,310-->
@@ -135,7 +135,7 @@ The content is in teaching order.
   - Hesse normal form / expression ::@:: It is written in vector notation as $${\vec {r} }\cdot {\vec {n} }_{0}-d=0.\,$$ The dot $\cdot$ indicates the [dot product](../../../../general/dot%20product.md) \(or scalar product\). Vector ${\vec {r} }$ points from the origin of the coordinate system, _O_, to any point _P_ that lies precisely in plane or on line _E_. The vector ${\vec {n} }_{0}$ represents the [unit](../../../../general/unit%20vector.md) [normal vector](../../../../general/normal%20vector.md) of plane or line _E_. The distance $d$ is the shortest _signed_ (positive in the direction of $\vec n_0$) distance from the origin _O_ to the plane or line. <!--SR:!2025-03-18,19,350!2025-03-12,14,330-->
 - Euclidean plane
   - Euclidean plane / cross product ::@:: In 3D space, we can find the plane two non-parallel vectors lie in. Find the cross product of the two vectors. Then the resulting vector is a normal vector of the plane. <!--SR:!2025-03-17,18,350!2025-03-17,18,350-->
-  - Euclidean plane / angle between two planes ::@:: The angle is the same as the angle between their two normal vectors. So you can use dot product (and cross product if in 3D space) to find it. <!--SR:!2025-03-12,13,330!2025-03-17,18,350-->
+  - Euclidean plane / angle between two planes ::@:: The angle is the same as the angle between their two normal vectors. So you can use dot product (and cross product if in 3D space) to find it. <!--SR:!2025-03-12,13,330!2025-03-17,18,350--> <p> Note: What if the normal of one is reversed? It turns out there are two angles definable between two planes, but they must add up to 180 degrees. Use the lower one.
   - Euclidean plane / relations with other planes ::@:: same: same plane <br/> intersect: _distinct_ planes that intersect at a line <br/> parallel: _distinct_ planes that do not intersect <!--SR:!2025-03-18,19,350!2025-03-16,17,350-->
     - Euclidean plane / relations with other planes / checking ::@:: Check if their normal vectors are parallel. If so, they are either the same or parallel. Otherwise, they are intersect. <!--SR:!2025-03-16,17,350!2025-03-18,19,350-->
   - Euclidean plane / distance to a point ::@:: This is the length of the line connecting the point to the plane parallel to the plane normal vector. <!--SR:!2025-03-17,18,350!2025-03-16,17,350-->
@@ -149,7 +149,7 @@ The content is in teaching order.
   - parametric equation / parametric curve ::@:: A curve described by a parametric equation: $\gamma : A \to \mathbb R^n$, where $A \subseteq \mathbb R$. <!--SR:!2025-03-18,19,350!2025-03-17,18,350-->
     - parametric equation / parametric curve / circle ::@:: $$(x, y) = (x_0 + r \cos at, y_0 + r \sin at)$$, where $(x_0, y_0)$ is the center, $r$ is the radius, $a \ne 0$ is "the rate of running along the shape". <!--SR:!2025-03-17,18,350!2025-03-17,18,350-->
     - parametric equation / parametric curve / graph of a function ::@:: $$(x, y) = (t, f(t))$$, where $f$ is a function. <!--SR:!2025-03-16,17,350!2025-03-18,19,350-->
-    - parametric equation / parametric curve / cycloid ::@:: Consider the cycloid through the origin, generated by a circle of radius _r_ rolling over the _x_-axis on the positive side (_y_ ≥ 0). <p> To derive the equation, consider the circle that is not rolling: $\gamma'(\theta) = (r \sin \theta, r(1 - \cos \theta))$. Then consider that the circle rolls to the right by $r \, \mathrm d\theta$ per $\mathrm d\theta$ (compare when $\theta = 0$ and $\theta = 2\pi$). So we have: $$\gamma(\theta) = (r(\theta - \sin \theta), r(1- \cos \theta))$$. <!--SR:!2025-03-06,8,310!2025-03-16,17,350-->
+    - parametric equation / parametric curve / cycloid ::@:: Consider the cycloid through the origin, generated by a circle of radius _r_ rolling over the _x_-axis on the positive side (_y_ ≥ 0). <p> To derive the equation, consider a non-rolling circle: $\gamma'(\theta) = (r \sin \theta, r(1 - \cos \theta))$. Then consider the circle rolling to the right by $r \, \mathrm d\theta$ per $\mathrm d\theta$ (compare when $\theta = 0$ and $\theta = 2\pi$), producing a cycloid. So we have: $$\gamma(\theta) = (r(\theta - \sin \theta), r(1- \cos \theta))$$. <!--SR:!2025-03-06,8,310!2025-03-16,17,350-->
 - [cycloid](../../../../general/cycloid.md) ::@:: the curve traced by a point on a circle as it rolls along a straight line without slipping <!--SR:!2025-03-17,18,350!2025-03-18,19,350-->
 - [parametric derivative](../../../../general/parametric%20derivative.md) ::@:: It is a derivative of a dependent variable with respect to another dependent variable that is taken when both variables depend on an independent third variable, usually thought of as "time" (that is, when the dependent variables are _x_ and _y_ and are given by parametric equations in _t_). <!--SR:!2025-03-13,14,330!2025-03-17,18,350-->
   - parametric derivative / intuition ::@:: Recall we can consider changing $t$ as running along the curve. Then its parametric derivative is the velocity (vector) of running. <!--SR:!2025-03-17,18,350!2025-03-16,17,350-->
@@ -171,6 +171,24 @@ The content is in teaching order.
 - datetime: 2025-02-18T16:00:00+08:00/2025-02-18T16:50:00+08:00
 - [week 3 lecture](#week%203%20lecture)
 - [week 3 lecture 2](#week%203%20lecture%202)
+
+## week 3 lecture 2
+
+- datetime: 2025-02-20T13:30:00+08:00/2025-02-20T14:50:00+08:00
+- function of several real variables
+- level set
+- [limit of a function](../../../../general/limit%20of%20a%20function.md) ::@:: a fundamental concept in calculus and analysis concerning the behavior of that function near a particular input which may or may not be in the domain of the function
+  - limit of a function / definition (single variable) ::@:: __The limit of _f_ of _x_, as _x_ approaches _p_, exists, and it equals _L_<!-- markdown separator -->__ and write, $$\lim _{x\to p}f(x)=L,$$ if the following property holds: for every real _ε_ \> 0, there exists a real _δ_ \> 0 such that for all real _x_, 0 \< \|_x_ − _p_\| \< _δ_ implies \|_f_\(_x_\) − _L_\| \< _ε_.
+  - limit of a function / definition (multivariate) ::@:: __The limit of _f_ as \(_x_, _y_\) approaches \(_p_, _q_\) is _L_<!-- markdown separator -->__, written $$\lim _{(x,y)\to (p,q)}f(x,y)=L$$ if the following condition holds: For every _ε_ \> 0, there exists a _δ_ \> 0 such that for all _x_ in _S_ and _y_ in _T_, whenever $0<{\sqrt {(x-p)^{2}+(y-q)^{2} } }<\delta$, we have \|_f_\(_x_, _y_\) − _L_\| \< _ε_
+    - limit of a function / definition / proving ::@:: To disprove it, it suffices to show there exists two paths to \(_x_, _y_\) with different limits. <p> To prove it, the definition is required, since if we use try to use paths to prove (which we will usually not in practice), we need to check the infinite many ways to make a path, which includes curved paths.
+  - algebraic limit theorem ::@:: Taking the limit of algebraic operations (addition, subtraction, multiplication, division, exponentiation) on two functions are compatible with the operation on the limits of the two functions _under some condition_. <p> The _main_ condition is that the limits of the two functions exist (finite, not indeterminate/infinity). Division and exponentiation has some _extra_ conditions.
+    - algebraic limit theorem / division ::@:: The limit of the divisor (i.e. $g(x)$ in $f(x)/g(x)$) is non-zero.
+    - algebraic limit theorem / exponentiation ::@:: The limit of the base (i.e. $f(x)$ in $(f(x))^{g(x)}$) is either positive, or zero while the limit of the exponent (i.e. $g(x)$ in $(f(x))^{g(x)}$) is positive (finite).
+    - algebraic limit theorem / polynomials, rational functions ::@:: This basically allows us to say polynomials have limits everywhere, and rational functions have limits _almost_ everywhere (where the denominator is nonzero).
+- [squeeze theorem](../../../../general/squeeze%20theorem.md) ::@:: a theorem regarding the limit of a function that is bounded between two other functions
+  - squeeze theorem / theorem (single-variable) ::@:: Let _I_ be an [interval](../../../../general/interval%20(mathematics).md) containing the point _a_. Let _g_, _f_, and _h_ be [functions](../../../../general/function%20(mathematics).md) defined on _I_, except possibly at _a_ itself. Suppose that for every _x_ in _I_ not equal to _a_, we have $$g(x)\leq f(x)\leq h(x)$$ and also suppose that $$\lim _{x\to a}g(x)=\lim _{x\to a}h(x)=L.$$ Then $\lim _{x\to a}f(x)=L$.
+  - squeeze theorem / theorem (multivariate) ::@:: The squeeze theorem can still be used in multivariable calculus but the lower (and upper functions) must be below (and above) the target function not just along a path but around the entire neighborhood of the point of interest and it only works if the function really does have a limit there. It can, therefore, be used to prove that a function has a limit at a point, but it can never be used to prove that a function does not have a limit at a point.
+- [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
 
 ## assignments
 

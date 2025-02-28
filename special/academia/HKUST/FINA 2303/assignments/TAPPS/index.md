@@ -22,3 +22,6 @@ tags:
 - [week 1 lecture](week%201%20lecture.md)
 - [week 1 lecture 2](week%201%20lecture%202.md)
 - [week 2 lecture](week%202%20lecture.md)
+- [week 2 lecture 2](week%202%20lecture%202.md)
+- [week 3 lecture](week%203%20lecture.md)
+- [week 3 lecture 2](week%203%20lecture%202.md)

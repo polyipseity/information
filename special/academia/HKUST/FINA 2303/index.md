@@ -158,7 +158,7 @@ The content is in teaching order.
   - time value of money / future value ::@:: Move the cash flow forward in time: $FV = PV \cdot (1 + r)^t$, where $t$ is the number of time periods forward (beware of off-by-one error). <!--SR:!2025-03-14,18,328!2025-03-13,17,328-->
     - time value of money / future value / compounding ::@:: Future value uses compound interest instead of simple interest. In the former, interest is earned on principal only. In the latter, interest is earned on principal and interest received. <p> Given a long enough time, compound interest gives much money money than simple interest. On a graph, compound interest increases exponentially while simple interest increases linearly. <!--SR:!2025-03-14,18,328!2025-03-07,11,308-->
   - time value of money / present value ::@:: Move the cash flow backward in time: $PV = \frac {FV} {(1 + r)^t}$, where $t$ is the number of time periods backwards (beware of off-by-one error). <!--SR:!2025-03-14,18,328!2025-03-12,16,328-->
-  - time value of money / combining cash flow ::@:: Only cash flows at the same time can be added together. cash flows at different time must be converted to cash flows at the same time by either compounding or discounting cash flows. <!--SR:!2025-03-14,18,328!2025-03-07,11,308-->
+  - time value of money / combining cash flow ::@:: Only cash flows at the same time can be added together. Cash flows at different time must be converted to cash flows at the same time by either compounding or discounting cash flows. <!--SR:!2025-03-14,18,328!2025-03-07,11,308-->
 - [financial calculator](../../../../general/financial%20calculator.md)
   - financial calculator / common acronyms ::@:: CPT: compute (compute the missing value from the other 4 values), FV: future value, N: number of periods, I: interest rate per period (in percentage), PMT: annuity payment, PV: present value <!--SR:!2025-03-12,16,328!2025-03-14,18,328-->
   - financial calculator / hints ::@:: Remember to clear out registers between different questions. <br/> Interest rate is usually in percentage. Avoid rounding off intermediate values: use registers to store values. <br/> Negative values are cash outflows while positive values are cash inflows. <!--SR:!2025-03-14,18,328!2025-03-07,11,308-->
@@ -184,17 +184,73 @@ The content is in teaching order.
   - time value of money / combining cash flow
   - time value of money / multiple cash flows ::@:: annuity (annuity due, ordinary annuity), perpetuity; growing annuity, growing perpetuity <!--SR:!2025-03-15,16,331!2025-03-12,13,311-->
 - [perpetuity](../../../../general/perpetuity.md) ::@:: It is an annuity that has no end, or a stream of cash payments that continues forever. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
-  - perpetuity / intuition ::@:: You want to earn $C$ at the end of each year forever (excluding year 0). Assuming the interest rate $r$ is fixed. Then you need to invest $P = C / r$ at year 0. This $P$ is also how one calculates the present value of a perpetuity. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
+  - perpetuity / intuition ::@:: You want to earn $C$ at the end of each year forever (excluding year 0). <p> Assuming the interest rate $r$ is fixed. Then you need to invest $P = C / r$ at year 0. This $P$ is also how one calculates the present value of a perpetuity. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
   - perpetuity / equation for PV ::@:: $$PV = C / r$$ <p> This equation assumes the first payment is at first year end. Multiply by $1 + r$ if the first payment is at first year start, which advances all payments backward in time by 1 period. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
   - perpetuity / present value ::@:: Notice that the present value is always the same when evaluated at any time. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
 - [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals. <!--SR:!2025-03-15,16,331!2025-03-12,13,311-->
   - annuity / types ::@:: ordinary annuity: payment is made at period end, annuity due: payment is made at period start <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
   - annuity / relation to perpetuity ::@:: You can interpret as an annuity as a perpetuity that you transfer away to others for free at annuity end (after getting the cash flow for annuity end). <p> This gives the equation for an annuity directly by subtracting the PV of the perpetuity at annuity end from the PV of perpetuity at annuity start. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
   - annuity / equation for PV ::@:: $$PV = \frac C r \left(1 - \frac 1 {(1 + r)^t} \right) \,,$$ where $t$ is the number of periods. <p> This equation assumes the annuity is an ordinary annuity. For annuity due, multiply by $1 + r$, which advances all payments backward in time by 1 period. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
-  - annuity / equation for FV ::@:: Just multiple the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C r \left((1 + r)^t - 1 \right) \,,$$ if $t$ is also the annuity end. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
+  - annuity / equation for FV ::@:: Just multiply the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C r \left((1 + r)^t - 1 \right) \,,$$ if $FV$ is evaluated at the annuity end. <!--SR:!2025-03-15,16,331!2025-03-15,16,331-->
 - [questions § week 2 lecture 2](questions.md#week%202%20lecture%202)
 - [TAPPS/week 2 lecture 2](assignments/TAPPS/week%202%20lecture%202.md)
 - readings: chapter 4
+
+## week 3 lecture
+
+- datetime: 2025-02-19T16:30:00+08:00/2025-02-19T17:50:00+08:00
+- topic: time value of money: valuing cash flow streams
+- perpetuity
+  - perpetuity / equation for PV
+- annuity
+  - annuity / equation for PV
+  - annuity / equation for FV
+- perpetuity
+  - perpetuity / growing ::@:: The payment grows exponentially instead of staying constant. It continues forever. <p> More precisely, the first payment starts at $C$, and then each year after it grows by $g$ (multiplied by $1 + g$).
+    - perpetuity / growing / intuition ::@:: Recall the intuition for non-growing perpetuity. <p> Then for growing perpetuity, your earnings grows by $g$ (multiplied by $1 + g$) each year after the first year. That means the principal in the fund will need to grow by $g$ as well. That means the interested you have earned on the principal needs to be separated into two parts: one to grow the principal by $g$, the other to provide the payment. The payment you actually obtain is $r - g$ of the principal then. <p> ou want to earn $C$ at the end of each year forever (excluding year 0). Assuming the interest rate $r$ is fixed. Then you need to invest $P = C / (r - g)$ at year 0. This $P$ is also how one calculates the present value of a growing perpetuity.
+    - perpetuity / growing / equation for PV ::@:: $$PV = \frac C {r - g}$$ <p> This equation assumes the first payment is at first year end. Multiply by $1 + r$ if the first payment is at first year start, which advances all payments backward in time by 1 period.
+    - perpetuity / growing / present value ::@:: Notice that the present value is _not_ always the same when evaluated at any time. Rather, it grows by $g$ (multiplied by $1 + g$) each year.
+- annuity
+  - annuity / growing ::@:: The payment grows exponentially instead of staying constant. It ends after some time. <p> More precisely, the first payment starts at $C$, and then each year after it grows by $g$ (multiplied by $1 + g$), until the annuity ends.
+    - annuity / growing / relation to perpetuity ::@:: The relation is exactly the same, but with growing payments instead of constant payments.
+    - annuity / growing / equation for PV ::@:: $$PV = \frac C {r - g} \left(1 - \frac {(1 + g)^t} {(1 + r)^t} \right) \,,$$ where $t$ is the number of periods. <p> This equation assumes the annuity is an ordinary annuity. For annuity due, multiply by $1 + r$, which advances all payments backward in time by 1 period.
+    - annuity / growing / equation for FV ::@:: Just multiply the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the growing annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C {r - g} \left((1 + r)^t - (1 + g)^t \right) \,,$$ if $FV$ is evaluated at the annuity end.
+- time value of money
+  - time value of money / rearranging formulas ::@:: Note that the formulas can be used flexibly. That is, it can be used for more than finding the variable at LHS. In fact, if you have all variables except for one, you can rearrange the equations to find the missing variable. <p> However, there are exceptions not having closed-form algebraic expressions... Interest rate is one of them.
+- annuity
+  - annuity / finding cash flow ::@:: Rearrange the formulas appropriately to find the cash flow/payment. Actually it is too simple that I will not list the equation here...
+  - annuity / finding interest rate ::@:: As mentioned above, there is no closed-form algebraic expression for finding the interest rate from other variables. <p> You can either use a financial calculator, or do trial-and-error (which is what calculators are doing behind the scenes...).
+    - annuity / finding interest rate / financial calculator ::@:: Simple, just fill in the other variables _properly_ and leave out the interest rate...
+    - annuity / finding interest rate / trial-and-error ::@:: Using intuition, guess an interest rate. Calculate the value for another variable assuming that interest rate. Observe the error between the actual value of that other variable. Using intuition, guess if the interest rate needs to be higher or lower, and by how much. Repeat until you get a good enough answer. <p> (The instructor told us that we will not need to calculate the exact value... But we still need to know how to guess.)
+  - annuity / finding number of periods ::@:: Given present value (money you have now) $PV$, future value (money to save) $PV$, interest rate $r$, and _ordinary_ annuity payment $C$, we can derive the equation for number of periods $t$: $$\begin{aligned} FV & = PV (1 + r)^t + \frac C r \left((1 + r)^t - 1 \right) \\ (1 + r)^t & = \frac {FV + \frac C r} {PV + \frac C r} = \frac {r \cdot FV + C} {r \cdot PV + C} \\ t & = \frac {\ln(r \cdot FV + C) - \ln(r \cdot FV + C)} {\ln(1 + r)} \,. \end{aligned} \,,$$ So the equation is the last expression, for those without a financial calculator.
+    - annuity / finding number of periods / intuition ::@:: Observe the equation: $$t = \frac {\ln(r \cdot FV + C) - \ln(r \cdot FV + C)} {\ln(1 + r)} \,.$$ You can see $r \cdot FV + C$ would have been the next payment after the annuity ends if the annuity had not ended. $r \cdot PV + C$ is the first payment. This is interesting... it seems like it somehow relates to the growth...
+- [questions § week 3 lecture](questions.md#week%203%20lecture)
+- [TAPPS/week 3 lecture](assignments/TAPPS/week%203%20lecture.md)
+- readings: chapter 5 (skip 5.3)
+
+## week 3 tutorial
+
+- datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00
+- status: hybrid (online, physical), optional
+
+## week 3 lecture 2
+
+- datetime: 2025-02-21T16:30:00+08:00/2025-02-21T17:50:00+08:00
+- topic: interest rates
+- interest rate
+  - interest rate / quoted in ::@:: annual percentage rate (APR), effective annual rate (EAR); both are _nominal_
+- [annual percentage rate](../../../../general/annual%20percentage%20rate.md) (APR) ::@:: the _simple-interest_ rate for a _whole year_ (annualized), rather than just a monthly fee/rate
+  - annual percentage rate / prevalence ::@:: It is almost always the rate quoted in industry. <p> _Important_: Unless otherwise specified, interest rates given in questions are always this.
+  - annual percentage rate / conversion between durations ::@:: If the time duration is multiplied by $k$, multiply the interest rate by $k$ as well: $$r_{\text{new} } = k r_{\text{old} } \,.$$ <p> Note: APR requires the duration to be a year. If not, it would be just annual \(something\) rate.
+  - annual percentage rate / to effective annual rate ::@:: $$\text{EAR} = (1 + \text{APR} / m)^m - 1 \,,$$ where $m$ is the number of compounding in a year.
+- [effective annual rate](../../../../general/effective%20interest%20rate.md) (EAR) ::@:: the percentage of interest on a loan or financial product for a _whole year_ if _compound interest_ accumulates in periods different than a year
+  - effective annual rate / motivation ::@:: Always use this rather than the other one when comparing interest rates for decision-making! It can also be used to value non-annual cash flows.
+  - effective annual rate / conversion between durations ::@:: If the time duration is multiplied by $k$ is multiplied by $k$, you need to do an exponentiation: $$r_{\text{new} } = (1 + r_{\text{old} })^k - 1 \,.$$ Importantly, do _not_ simply just multiply by $k$! <p> Note: EAR requires the duration to be a year. If not, it would be just effective interest rate (EIR).
+  - effective annual rate / vs. annual percentage rate ::@:: We see that EAR equals APR if the interest rate is compounded annually. Otherwise, EAR > APR if the interest rate is compounded more frequently than annually, and EAR < APR if the interest rate is compounded less frequently than annually.
+  - effective annual rate / to annual percentage rate ::@:: $$\text{APR} = m \left((1 + \text{EAR})^{1 / m} - 1\right) \,,$$ where $m$ is the number of compounding in a year.
+- [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
+- [TAPPS/week 3 lecture 2](assignments/TAPPS/week%203%20lecture%202.md)
+- readings: chapter 5 (skip 5.3)
 
 ## assignments
 
