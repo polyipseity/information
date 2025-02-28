@@ -75,8 +75,8 @@ The content is in teaching order.
 
 - datetime: 2025-02-06T13:30:00+08:00/2025-02-06T14:50:00+08:00
 - [dot product](../../../../general/dot%20product.md)
-  - dot product / algebraically ::@:: It is the sum of the products of the corresponding entries of the two sequences of numbers. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2025-03-07,18,327!2025-02-28,11,307-->
-  - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2025-03-07,18,327!2025-02-28,11,307-->
+  - dot product / algebraically ::@:: It is the sum of the products of the corresponding entries of the two sequences of numbers. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2025-03-07,18,327!2025-04-14,45,327-->
+  - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2025-03-07,18,327!2025-04-14,45,327-->
   - dot product / properties
     - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec v \rvert^2$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
     - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
@@ -86,8 +86,8 @@ The content is in teaching order.
   - polarization identity / variant ::@:: $\langle \vec x, \vec y \rangle = \frac 1 4 \left(\lVert x + y \rVert^2 - \lVert x - y \rVert^2 \right)$ <!--SR:!2025-03-07,18,327!2025-03-07,18,326-->
 - [dot product](../../../../general/dot%20product.md)
   - dot product / cosine ::@:: $\cos \theta = \frac {\vec u \cdot \vec v} {\lVert \vec u \rVert \lVert \vec v \rVert}$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
-    - dot product / cosine / applications ::@:: inscribed triangle with diameter has a right angle, law of cosine/generalized Pythagoras theorem <!--SR:!2025-03-07,18,327!2025-02-28,11,307-->
-  - dot product / projection ::@:: Project $\vec b$ onto $\vec a$: $\operatorname{proj}_{\vec a} \vec b = \frac {\vec a \cdot \vec b} {\vec a \cdot \vec a} \vec a$. $\frac {\vec a \cdot \vec b} {\vec a \cdot \vec a}$ can be interpreted as $\cos \theta$, where $\theta$ is the angle between them. <!--SR:!2025-02-28,11,307!2025-03-07,18,327-->
+    - dot product / cosine / applications ::@:: inscribed triangle with diameter has a right angle, law of cosine/generalized Pythagoras theorem <!--SR:!2025-03-07,18,327!2025-04-04,35,307-->
+  - dot product / projection ::@:: Project $\vec b$ onto $\vec a$: $\operatorname{proj}_{\vec a} \vec b = \frac {\vec a \cdot \vec b} {\vec a \cdot \vec a} \vec a$. $\frac {\vec a \cdot \vec b} {\vec a \cdot \vec a}$ can be interpreted as $\cos \theta$, where $\theta$ is the angle between them. <!--SR:!2025-04-04,35,307!2025-03-07,18,327-->
     - dot product / projection / scalar ::@:: It is simply the signed length of the projection, which is $\operatorname{comp}_{\vec a} \vec b = \frac {\vec a \cdot \vec b} {\lvert \vec a \rvert}$. <!--SR:!2025-03-07,18,326!2025-03-07,18,327-->
 - [cross product](../../../../general/cross%20product.md) ::@:: Given two linearly independent vectors $\mathbf a$ and $\mathbf b$, the cross product, $\mathbf a \times \mathbf b$ (read "a cross b"), is a vector that is perpendicular to both $\mathbf a$ and $\mathbf b$, and thus normal to the plane containing them. <p> The magnitude of the cross product equals the area of a parallelogram with the vectors for sides; in particular, the magnitude of the product of two perpendicular vectors is the product of their lengths, i.e. $\lVert \mathbf a \rVert \lVert \mathbf b \rVert \sin \theta$, where $\theta$ is the angle between them. <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
   - cross product / properties
@@ -96,7 +96,7 @@ The content is in teaching order.
     - cross product / properties / zero element ::@:: $\mathbf a \times \mathbf 0 = \mathbf 0 \times \mathbf a = \mathbf 0$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
     - cross product / properties / parallel ::@:: $\mathbf a \times \mathbf a = \mathbf 0$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
   - cross product / calculation
-    - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$ <!--SR:!2025-02-28,11,306!2025-03-07,18,327-->
+    - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$ <!--SR:!2025-04-14,45,326!2025-03-07,18,327-->
     - cross product / calculation / matrix determinant ::@:: $\mathbf a \times \mathbf b = \begin{vmatrix} \mathbf i & \mathbf j & \mathbf k \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$ <!--SR:!2025-03-07,18,327!2025-03-07,18,327-->
 
 ## week 2 lecture

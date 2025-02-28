@@ -77,7 +77,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2025-03-22,59,310!2025-03-19,57,310!2025-03-31,67,310-->
 
 - [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!2025-03-16,45,250!2025-03-04,42,290-->
-- Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2025-05-14,84,270!2025-02-28,40,290-->
+- Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2025-05-14,84,270!2025-08-07,160,310-->
 - Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends. <!--SR:!2025-03-05,43,290!2025-06-22,115,290-->
 
 {@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}. <!--SR:!2025-03-31,67,310!2025-03-19,57,310-->
@@ -105,7 +105,7 @@ The net cash flow only {@{provides a limited amount of information}@}. Compare, 
 | {@{Cash flow from investment}@} | -15M       | -15M       | -15M       | 0M         | 0M         | 0M         |
 | {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2025-03-25,62,310!2025-03-19,57,310!2025-03-19,57,310!2025-03-26,63,310-->
 
-Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2025-03-19,57,310!2025-03-30,66,310!2025-02-28,40,290-->
+Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2025-03-19,57,310!2025-03-30,66,310!2025-08-09,162,310-->
 
 ## see also
 

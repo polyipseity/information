@@ -27,7 +27,7 @@ tags:
 ## format
 
 - header ::@:: company name, `(Adjusted/Unadjusted/Post-closing) Trial Balance`, date, (monetary unit) <!--SR:!2025-07-02,137,290!2025-11-08,256,330-->
-  - header / date ::@:: Not duration, surprisingly. Example: `At December 31, 2019` <!--SR:!2025-05-13,106,290!2025-02-28,62,310-->
+  - header / date ::@:: Not duration, surprisingly. Example: `At December 31, 2019` <!--SR:!2025-05-13,106,290!2025-09-10,194,310-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2025-07-15,160,310!2025-11-11,259,330-->
 - dollar sign ::@:: There is no need to add it. It is supposed to be done in a spreadsheet anyway. <!--SR:!2025-03-02,63,310!2025-06-05,119,290-->
 - total ::@:: Calculate the total debit and credit for unadjusted, adjustments, and adjusted. The debit and credit should always equal. <!--SR:!2025-07-14,159,310!2025-11-16,263,330-->

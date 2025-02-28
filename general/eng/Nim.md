@@ -234,7 +234,7 @@ but then three objects cannot be taken out in one move.
 
 ### Grundy's game
 
-In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2025-02-28,100,301!2025-10-04,256,321!2025-11-01,297,341-->
+In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2026-04-21,417,321!2025-10-04,256,321!2025-11-01,297,341-->
 
 ### greedy nim
 

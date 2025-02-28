@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-03-25,57,255-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2025-04-03,165,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-02-28,22,155-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-04-04,35,155-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-04-25,78,275!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -225,7 +225,7 @@ Will this waste charging scheme waste generation?
 
 Environmental Levy Scheme (Plastic Shopping Bags)
 
-- Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2025-02-28,198,310-->
+- Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2027-06-27,849,330-->
   - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2025-09-06,333,310!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2026-09-09,631,330-->
   - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2025-03-07,183,270!2026-03-07,435,290-->
@@ -298,7 +298,7 @@ Noise Levels and Causes
   - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2025-04-23,237,290-->
-  - train passing ::@:: 80 dB(A) <!--SR:!2025-02-28,200,310!2026-08-28,569,310-->
+  - train passing ::@:: 80 dB(A) <!--SR:!2026-11-09,619,310!2026-08-28,569,310-->
   - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2025-12-20,382,290-->
   - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!2026-06-09,520,310-->
   - library ::@:: 40 dB(A) <!--SR:!2026-11-05,617,310!2026-03-31,462,310-->

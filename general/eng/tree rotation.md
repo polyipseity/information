@@ -116,7 +116,7 @@ All other connections are left as-is.
 
 There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-03-05,55,310!2025-03-16,64,310!2025-03-07,57,310!2025-07-08,135,290!2025-07-07,134,290!2025-03-07,57,310-->
 
-Tree rotations are {@{used in a number of tree [data structures](data%20structure.md)}@} such as {@{[AVL trees](AVL%20tree.md), [red–black trees](red–black%20tree.md), [WAVL trees](WAVL%20tree.md), [splay trees](splay%20tree.md), and [treaps](treap.md)}@}. They require {@{only constant time because they are _local_ transformations}@}: they {@{only operate on 5 nodes, and need not examine the rest of the tree}@}. <!--SR:!2025-07-07,147,310!2025-07-05,130,290!2025-08-27,185,310!2025-02-28,48,290-->
+Tree rotations are {@{used in a number of tree [data structures](data%20structure.md)}@} such as {@{[AVL trees](AVL%20tree.md), [red–black trees](red–black%20tree.md), [WAVL trees](WAVL%20tree.md), [splay trees](splay%20tree.md), and [treaps](treap.md)}@}. They require {@{only constant time because they are _local_ transformations}@}: they {@{only operate on 5 nodes, and need not examine the rest of the tree}@}. <!--SR:!2025-07-07,147,310!2025-07-05,130,290!2025-08-27,185,310!2025-09-12,196,310-->
 
 ## rotations for rebalancing
 

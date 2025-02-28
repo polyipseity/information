@@ -155,7 +155,7 @@ Notes:
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2025-03-07,14,290!2025-03-08,15,290-->
 > - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2025-03-17,18,250!2025-03-05,12,270-->
 > - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$ <!--SR:!2025-03-12,13,230!2025-03-05,12,270-->
-> - __find__: Fixed payment \(A\) (annotation: i.e. converting gradient payments to fixed payments) <br/> __given__: Initial gradient payment \(G\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-02-28,5,230!2025-03-02,3,210-->
+> - __find__: Fixed payment \(A\) (annotation: i.e. converting gradient payments to fixed payments) <br/> __given__: Initial gradient payment \(G\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-03-13,13,230!2025-03-02,3,210-->
 > - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-03-18,19,250!2025-03-04,11,270-->
 > - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-03-17,18,250!2025-03-05,12,270-->
 
@@ -191,7 +191,7 @@ __Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}
 
 __Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2025-03-04,11,270!2025-03-07,14,290-->
 
-__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-03-17,18,250!2025-02-28,7,250-->
+__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-03-17,18,250!2025-03-19,19,250-->
 
 These formulas assume that {@{payment A is made in the first payment period and annuity ends at time _t_}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-03-09,16,290-->
 

@@ -23,7 +23,7 @@ tags:
 
 - header ::@:: company name, `(Consolidated) Statement of Stockholders' Equity`, duration, (monetary unit) <!--SR:!2025-03-01,63,310!2025-05-28,113,290-->
   - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2025-03-05,66,310!2025-06-29,150,310-->
-  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2025-02-28,62,310!2025-11-01,251,330-->
+  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2025-11-27,272,330!2025-11-01,251,330-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2025-03-05,66,310!2025-03-03,32,250-->
 - total ::@:: Calculate the total for each column and each row. <!--SR:!2025-03-05,66,310!2025-03-05,66,310-->
   - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2025-04-27,91,270!2025-11-05,255,330-->

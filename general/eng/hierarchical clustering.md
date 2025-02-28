@@ -93,7 +93,7 @@ return chain.from_iterable(await gather(
 - centroid linkage clustering:@:UPGMC, unweighted centroid clustering <!--SR:!2026-03-10,465,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md):@:maximum linkage clustering <!--SR:!2026-12-10,744,335-->
 - median linkage clustering:@:WPGMC, weighted centroid clustering <!--SR:!2025-07-21,279,255-->
-- [single-linkage clustering](single-linkage%20clustering.md):@:minimum linkage clustering, nearest neighbor technique <!--SR:!2025-02-28,247,335-->
+- [single-linkage clustering](single-linkage%20clustering.md):@:minimum linkage clustering, nearest neighbor technique <!--SR:!2027-06-04,826,335-->
 - unweighted average linkage clustering:@:[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2025-09-05,347,295-->
 - weighted average linkage clustering:@:McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2025-05-06,236,255-->
 

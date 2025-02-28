@@ -144,7 +144,7 @@ __Tangent and cotangent bundles__
 
 &emsp; The map which {@{sends every [differentiable manifold](differentiable%20manifold.md) to its [tangent bundle](tangent%20bundle.md) and every [smooth map](smooth%20map.md) to its [derivative](derivative.md)}@} is {@{a covariant functor from the category of differentiable manifolds to the category of [vector bundles](vector%20bundle.md)}@}. <!--SR:!2025-03-31,39,226!2025-04-24,70,266-->
 
-&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2025-07-13,140,317!2025-05-29,96,297!2025-03-15,16,210!2025-02-28,40,306!2025-03-15,48,290-->
+&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2025-07-13,140,317!2025-05-29,96,297!2025-03-15,16,210!2025-08-14,167,326!2025-03-15,48,290-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__

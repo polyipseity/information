@@ -92,7 +92,7 @@ f(a) & = \begin{cases} 0, & a = 0 \\
 
 > [!tip] tips
 >
-> - takeaway ::@:: No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered. <!--SR:!2026-08-21,670,324!2025-02-28,272,344-->
+> - takeaway ::@:: No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered. <!--SR:!2026-08-21,670,324!2028-09-07,1287,364-->
 
 ### example 2: variable limits
 

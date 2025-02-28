@@ -480,7 +480,7 @@ The content is in teaching order.
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2025-04-06,95,383!2025-03-02,61,356-->
   - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2025-04-15,103,383!2025-04-09,98,383-->
     - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2025-04-02,92,383!2025-04-11,99,383-->
-    - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2025-07-12,153,343!2025-02-28,64,363-->
+    - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2025-07-12,153,343!2026-01-18,324,383-->
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2025-04-01,91,383!2026-01-12,319,383-->
     - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!2025-03-12,70,363!2025-06-12,134,336-->
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2025-03-18,75,363!2025-04-07,96,383-->

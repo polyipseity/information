@@ -27,7 +27,7 @@ The Graham and Dodd approach is referred to as [Fundamental analysis](fundamenta
 
 Horizontal analysis {@{compares financial information over time, typically from past quarters or years}@}. Horizontal analysis is performed by {@{comparing financial data from a past statement, such as the income statement}@}. When comparing this past information {@{one will want to look for variations such as higher or lower earnings}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-10-22,307,330!2025-05-05,158,310!2025-08-18,254,330-->
 
-Vertical analysis is {@{a percentage analysis of financial statements}@}. Each line item listed in the financial statement is {@{listed as the percentage of another line item}@}. For example, on an income statement {@{each line item will be listed as a percentage of gross sales}@}. This technique is also referred to as {@{normalization<sup>[\[6\]](#^ref-6)</sup> or common-sizing}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-08-19,255,330!2025-02-28,117,290!2025-09-30,290,330!2025-10-29,311,330-->
+Vertical analysis is {@{a percentage analysis of financial statements}@}. Each line item listed in the financial statement is {@{listed as the percentage of another line item}@}. For example, on an income statement {@{each line item will be listed as a percentage of gross sales}@}. This technique is also referred to as {@{normalization<sup>[\[6\]](#^ref-6)</sup> or common-sizing}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-08-19,255,330!2026-06-18,475,310!2025-09-30,290,330!2025-10-29,311,330-->
 
 ## financial ratio analysis
 

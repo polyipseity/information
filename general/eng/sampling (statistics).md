@@ -22,7 +22,7 @@ In {@{the most straightforward case, such as the sampling of a batch of material
 
 As a remedy, {@{we seek a [sampling frame](sampling%20frame.md) which has the property that we can identify every single element and include any in our sample}@}. The most straightforward type of frame is {@{a list of elements of the population (preferably the entire population) with appropriate contact information}@}. For example, in an [opinion poll](opinion%20poll.md), possible sampling frames include {@{an [electoral register](electoral%20roll.md) and a [telephone directory](telephone%20directory.md)}@}. <!--SR:!2025-06-07,176,270!2025-07-07,238,330!2025-04-09,167,310-->
 
-A __probability sample__ is {@{a sample in which every unit in the population has a chance (greater than zero) of being selected in the sample, and this probability can be accurately determined}@}. The combination of these traits makes it possible to {@{produce unbiased estimates of population totals, by weighting sampled units according to their probability of selection}@}. <!--SR:!2025-07-03,234,330!2025-02-28,121,290-->
+A __probability sample__ is {@{a sample in which every unit in the population has a chance (greater than zero) of being selected in the sample, and this probability can be accurately determined}@}. The combination of these traits makes it possible to {@{produce unbiased estimates of population totals, by weighting sampled units according to their probability of selection}@}. <!--SR:!2025-07-03,234,330!2026-07-06,493,310-->
 
 > [!example] example
 >

@@ -35,7 +35,7 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequence of truth valuations of variables in _AP_}@}. These sequences can be viewed as {@{a word on a path of a [Kripke structure](Kripke%20structure%20(model%20checking).md)}@} \({@{an [ω-word](omega%20language.md) over [alphabet](alphabet%20(formal%20languages).md) 2<sup>_AP_</sup>}@}\). Let {@{_w_ = a<sub>0</sub>,a<sub>1</sub>,a<sub>2</sub>,... be such an ω-word}@}. Let {@{_w_\(_i_\) = _a<sub>i</sub>_. Let _w_<sup>i</sup> = _a<sub>i</sub>_,_a_<sub>_i_+1</sub>,..., which is a suffix of _w_}@}. Formally, {@{the satisfaction relation ⊨ between a word and an LTL formula}@} is defined as follows: <!--SR:!2025-03-19,81,343!2025-08-05,167,310!2025-03-05,69,330!2025-03-12,75,330!2025-10-12,234,330!2025-03-12,75,330-->
 
 - satisfaction of a propositional variable ::@:: _w_ ⊨ _p_ if _p_ ∈ _w_\(0\) <!--SR:!2025-03-10,74,343!2025-03-10,74,343-->
-- law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2025-03-08,72,330!2025-02-28,65,330-->
+- law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2025-03-08,72,330!2025-12-28,303,350-->
 - or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!2025-03-10,74,343!2025-11-06,259,337-->
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2025-11-08,259,343!2025-03-18,80,343-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2025-03-13,76,330!2025-08-10,174,323-->
@@ -45,8 +45,8 @@ We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The 
 The additional logical operators are defined as follows:
 
 - and ::@:: φ ∧ ψ ≡ ¬\(¬φ ∨ ¬ψ\) <!--SR:!2025-03-21,83,343!2025-03-02,67,330-->
-- implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2025-02-28,65,317!2025-03-02,67,330-->
-- material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\) <!--SR:!2025-02-28,65,330!2025-03-16,79,343-->
+- implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2025-12-12,287,337!2025-03-02,67,330-->
+- material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\) <!--SR:!2025-12-27,302,350!2025-03-16,79,343-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2025-03-16,79,343!2025-03-15,78,343-->
 - false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2025-03-17,79,343!2025-10-26,249,337-->
 
@@ -54,7 +54,7 @@ The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as f
 
 - __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2025-04-17,96,290!2025-11-17,268,337-->
 - __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2025-05-29,127,297!2025-10-27,250,337-->
-- __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2025-02-28,65,330!2025-11-12,264,337-->
+- __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2025-12-26,301,350!2025-11-12,264,337-->
 
 ### weak until and strong release
 
@@ -80,7 +80,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 | {@{_ψ_ __U__ _φ_}@}                          | {@{$$\psi \;{\mathcal {U} }\,\varphi$$}@} | {@{__U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position.}@}                                   | {@{![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg)}@}                                                                                                                         |
 | {@{_ψ_ __R__ _φ_}@}                          | {@{$$\psi \;{\mathcal {R} }\,\varphi$$}@} | {@{__R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever.}@} | {@{![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg)}@} |
 | {@{_ψ_ __W__ _φ_}@}                          | {@{$$\psi \;{\mathcal {W} }\,\varphi$$}@} | {@{__W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever.}@}            | {@{![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg)}@}          |
-| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2025-03-16,79,343!2025-11-04,257,337!2025-11-29,276,330!2025-03-02,67,330!2025-09-06,206,330!2025-09-22,218,330!2025-03-02,67,330!2025-11-12,263,337!2025-03-18,80,343!2025-03-01,66,330!2025-02-28,65,330!2025-03-16,79,343!2025-03-15,78,343!2025-03-16,79,343!2025-03-15,78,343!2025-06-28,143,310!2025-03-15,78,343!2025-12-16,292,350!2025-11-07,258,343!2025-03-15,78,343!2025-03-01,66,330!2025-03-12,75,330!2025-11-09,261,337!2025-07-13,151,310!2025-03-16,79,343!2025-08-21,193,317!2025-03-16,79,343!2025-07-12,150,310-->
+| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2025-03-16,79,343!2025-11-04,257,337!2025-11-29,276,330!2025-03-02,67,330!2025-09-06,206,330!2025-09-22,218,330!2025-03-02,67,330!2025-11-12,263,337!2025-03-18,80,343!2025-03-01,66,330!2025-12-24,299,350!2025-03-16,79,343!2025-03-15,78,343!2025-03-16,79,343!2025-03-15,78,343!2025-06-28,143,310!2025-03-15,78,343!2025-12-16,292,350!2025-11-07,258,343!2025-03-15,78,343!2025-03-01,66,330!2025-03-12,75,330!2025-11-09,261,337!2025-07-13,151,310!2025-03-16,79,343!2025-08-21,193,317!2025-03-16,79,343!2025-07-12,150,310-->
 
 ## equivalences
 
@@ -106,7 +106,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 
 > __flashcards__
 >
-> - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2025-02-28,65,330!2025-11-10,262,337-->
+> - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2025-12-25,300,350!2025-11-10,262,337-->
 > - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2025-03-15,78,343!2025-03-02,67,330-->
 > - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2025-06-13,141,323!2025-11-01,254,330-->
 > - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2025-03-15,78,343!2025-03-10,73,330-->

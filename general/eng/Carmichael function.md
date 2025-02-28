@@ -17,7 +17,7 @@ In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics
 
 The Carmichael function is named after {@{the American mathematician [Robert Carmichael](Robert%20Daniel%20Carmichael.md) who defined it in 1910}@}.<sup>[\[1\]](#^ref-1)</sup> It is also known as {@{__Carmichael's λ function__, the __reduced totient function__, and the __least universal exponent function__}@}. <!--SR:!2025-07-06,131,290!2025-03-02,49,301-->
 
-{@{The order of the multiplicative group of integers modulo _n_}@} is {@{_φ_\(_n_\), where _φ_ is [Euler's totient function](Euler's%20totient%20function.md)}@}. Since {@{the order of an element of a finite group divides the order of the group}@}, {@{_λ_\(_n_\) divides _φ_\(_n_\)}@}. The following table compares the first 36 values of _λ_\(_n_\) \(sequence {@{[A002322](https://oeis.org/A002322)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) and _φ_\(_n_\) \(in __bold__ if they are different; the _n_<!-- markdown separator -->s such that they are different are listed in [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md): [A033949](https://oeis.org/A033949)\). <!--SR:!2025-02-28,48,301!2025-03-26,73,321!2025-03-16,65,321!2025-03-26,73,321!2025-03-16,35,201-->
+{@{The order of the multiplicative group of integers modulo _n_}@} is {@{_φ_\(_n_\), where _φ_ is [Euler's totient function](Euler's%20totient%20function.md)}@}. Since {@{the order of an element of a finite group divides the order of the group}@}, {@{_λ_\(_n_\) divides _φ_\(_n_\)}@}. The following table compares the first 36 values of _λ_\(_n_\) \(sequence {@{[A002322](https://oeis.org/A002322)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) and _φ_\(_n_\) \(in __bold__ if they are different; the _n_<!-- markdown separator -->s such that they are different are listed in [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md): [A033949](https://oeis.org/A033949)\). <!--SR:!2025-09-19,203,321!2025-03-26,73,321!2025-03-16,65,321!2025-03-26,73,321!2025-03-16,35,201-->
 
 | _n_            | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8     | 9 | 10 | 11 | 12    | 13 | 14 | 15    | 16    | 17 | 18 | 19 | 20    | 21     | 22 | 23 | 24    | 25 | 26 | 27 | 28     | 29 | 30    | 31 | 32     | 33     | 34 | 35     | 36     |
 | -------------- | - | - | - | - | - | - | - | ----- | - | -- | -- | ----- | -- | -- | ----- | ----- | -- | -- | -- | ----- | ------ | -- | -- | ----- | -- | -- | -- | ------ | -- | ----- | -- | ------ | ------ | -- | ------ | ------ |
@@ -128,7 +128,7 @@ indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 ha
 
 ### prevailing interval
 
-For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-05-19,97,281!2025-02-28,26,190!2025-03-24,59,261-->
+For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-05-19,97,281!2025-04-16,47,190!2025-03-24,59,261-->
 
 ### lower bounds
 
@@ -136,7 +136,7 @@ For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3<
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-03-09,48,261!2025-02-28,12,190-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-03-09,48,261!2025-03-22,22,190-->
 
 ### small values
 
@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-02-28,7,130-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-03-08,8,130-->
 
 ## use in cryptography
 
