@@ -256,6 +256,26 @@ The content is in teaching order.
     - search algorithm / heuristic / heuristic function ::@:: Given the current path and search tree, it usually measures how far the inputted state and path is from a goal state.
       - search algorithm / heuristic / heuristic function / examples ::@:: 8 puzzle: number of tiles out of place, current path length + number of tiles out of place, etc.
 
+## week 4 tutorial
+
+- datetime: 2025-02-25T12:30:00+08:00/2025-02-25T13:20:00+08:00
+- topic: simple agents
+- intelligent agent
+  - intelligent agent / aspects ::@:: memory, action, optimization, etc.
+    - intelligent agent / aspects / memory ::@:: without: stimulus-response agent, with: state machine
+    - intelligent agent / aspects / action ::@:: neural network, rule-based
+    - intelligent agent / aspects / optimization ::@:: genetic programming, gradient descent
+- production system
+  - production system / capabilities ::@:: goal representation, memory (e.g. How many past readings?), sensors, stopping guarantee; multi-agents?
+- genetic programming
+  - genetic programming / motivation
+  - genetic programming / overview
+  - genetic programming / initialization
+  - genetic programming / selection
+  - genetic programming / reproduction
+  - genetic programming / optimization ::@:: It can be considered as a zeroth-order optimization method (evolution). That is, the fitness/loss function is used directly, and its derivatives are not used.
+    - genetic programming / optimization / gradient descent, Newton's method ::@:: They are respectively one of the first-order and second-order optimization methods. <p> The first uses first derivatives (gradient). The second uses both first and second derivatives (Hessian matrix). <p> Usually, the higher the order of the derivatives used, the more efficient and also computationally expensive the method is. <p> The first is commonly used in deep learning and machine learning. The second is good for convex problems.
+
 ## assignments
 
 ## midterm examination
