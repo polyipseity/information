@@ -219,7 +219,7 @@ The content is in teaching order.
     - flip-flop / gated SR latch / symbol, figure ::@:: symbol: ![gated SR latch symbol](../../../../archives/Wikimedia%20Commons/Gated%20SR%20flip-flop%20Symbol.svg) <br/> figure: ![gated SR latch figure](../../../../archives/Wikimedia%20Commons/SR%20(Clocked)%20Flip-flop%20Diagram.svg)
   - flip-flop / gated D latch ::@:: This latch exploits the fact that, in the two active input combinations (01 and 10) of a gated SR latch, R is the complement of S. <p> So what we do is, on top of the gated SR latch, instead of having the inputs S and R, we have one input D (data) only, connecting to the (now internal) S an R inputs. Assuming E is 1. If D is 0, S is 0 and R is 1. Otherwise, S is 1 and R is 0. If E is 0, nothing happens, as in the gated SR latch. <p> When E is 1, it looks like the input D is being "written" into the gate memory, so D is called _data_. The "enable" input E is sometimes also called WE (write enable) instead for the same reason.
     - flip-flop / gated D latch / symbol, figure ::@:: symbol: ![gated D latch symbol](../../../../archives/Wikimedia%20Commons/Transparent%20Latch%20Symbol.svg) <br/> figure: ![gated D latch symbol](../../../../archives/Wikimedia%20Commons/D-type%20Transparent%20Latch%20(NOR).svg)
-    - flip-flop / gated D latch / register ::@:: It stores a multi-bit value. A _n_-bit \(_this_\) can be implemented using _n_ gated D-latches, all controlled by a common WE. Then when we want to write to the register, set WE to 1 and the _n_ D inputs to the desired data.
+    - flip-flop / gated D latch / register ::@:: It stores a multi-bit value. A _n_-bit \(_this_\) can be implemented using _n_ gated D latches, all controlled by a common WE. Then when we want to write to the register, set WE to 1 and the _n_ D inputs to the desired data.
 - [clock signal](../../../../general/clock%20signal.md) ::@:: It is an electronic logic signal (voltage or current) which oscillates between a high and a low state at a constant frequency and is used like a metronome to synchronize actions of digital circuits.
   - clock signal / synchronization ::@:: In a _synchronous_ logic circuit, the most common type of digital circuit, the clock signal is applied to all storage devices, flip-flops and latches, and causes them all to change state simultaneously, preventing race conditions. <p> In a computer, there are many types of circuits, and each take different time to complete (propagation delay). If we do not clock the circuits, then the outputs of circuits can change unpredictably. <p> A clock-less circuit is known as _asynchronous_ circuit, but it is much harder to design than _synchronous_ ones, and is out-of-scope for this course.
   - clock / terminology ::@:: A _clock_ is is a free-running signal with a fixed _cycle time_ (called _clock period_) or, equivalently, a fixed _clock frequency_ (i.e., inverse of the _cycle time_). _Edge-triggered clocking_ refers to state changes in a circuit on a clock (rising or falling) edge.
@@ -286,6 +286,73 @@ The content is in teaching order.
     - two's complement / min / weirdness ::@:: Notice what happens if we try to negate the minimum integer. It becomes itself instead of actually negating. This is because its corresponding positive integer is not representable.
 - [integer overflow](../../../../general/integer%20overflow.md) ::@:: It occurs when an arithmetic operation on integers attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value. <p> (_Important_: In this course, we also use "integer underflow", see below.)
   - integer overflow / integer underflow ::@:: The above definition of "integer overflow" refers to the ideal result being outside the representable range. <p> An alternative definition uses "integer overflow" to refer to the ideal result being _higher_ than the maximum representable integer, while using "integer underflow" to refer to the ideal result being _lower_ than the minimum representable integer. <p> (_Important_: In this course, we use the latter definition.)
+
+## week 4 lecture
+
+- datetime: 2025-02-24T13:30:00+08:00/2025-02-24T14:50:00+08:00
+- topic: signed/unsigned number, floating point, IEEE754 examples
+- two's complement
+  - two's complement / sign extension ::@:: When turning a two's-complement number with a certain number of bits into one with more bits (e.g., when copying from a one-byte variable to a two-byte variable), the most-significant bit must be repeated in all the extra bits. Other examples include: right shift (but not left shift, the sign bit is shifted out as normal).
+- [sign extension](../../../../general/sign%20extension.md) ::@:: the operation, in computer arithmetic, of increasing the number of bits of a binary number while preserving the number's sign (positive/negative) and value
+  - sign extension / zero extension ::@:: Fill in the missing most-significant bits with zero, e.g. bitwise logical operations, up-casting unsigned integers, etc.
+- [floating-point arithmetic](../../../../general/floating-point%20arithmetic.md)
+  - floating-point arithmetic / motivation ::@:: To represent non-integral numbers, which includes fractions, very small numbers, and very large numbers.
+  - floating-point arithmetic / representation ::@:: Roughly speaking, just like how we use a decimal point to represent non-integral numbers as decimal representation, computers use binary point to represent non-integral numbers as binary representation.
+- [scientific notation](../../../../general/scientific%20notation.md) ::@:: a way of expressing numbers that are too large or too small to be conveniently written in decimal form, since to do so would require writing out an inconveniently long string of digits
+  - scientific notation / form ::@:: Nonzero numbers are written in the form <p> _m_ × 10<sup>_n_</sup> <p> or _m_ times ten raised to the power of _n_, where _n_ is an [integer](../../../../general/integer.md), and the [coefficient](../../../../general/coefficient.md) _m_ is a nonzero [real number](../../../../general/real%20number.md) \(usually between 1 and 10 in absolute value, and nearly always written as a [terminating decimal](../../../../general/decimal.md)\). The integer _n_ is called the [exponent](../../../../general/exponent.md) and the real number _m_ is called the _[significand](../../../../general/significand.md)_ or _mantissa_ (not to be confused with that of the same name in floating-point arithmetic).
+    - scientific notation / form / normalized ::@:: When _m_ is at least 1 and less than (_not_ equal to) 10. <p> For _binary_ representation, this means the leading digit is always 1.
+- floating-point arithmetic
+  - floating-point arithmetic / name ::@:: It is _floating_ because the binary point is not fixed (affected by the significand).
+  - floating-point arithmetic / form ::@:: $$1.xxx \ldots xxx_2 \times 2^{yyy \ldots yyy_2} \,,$$ where $xxx \ldots xxx_2$ is the _significand_ or _mantissa_ (not to be confused with that of the same name in scientific notation) and $yyy \ldots yyy_2$ is the _exponent_. They have a fixed number of digits (bits).
+  - floating-point arithmetic / distribution ::@:: Looking at its form, we can see that the distribution of floating-point numbers is not even. The density of representable numbers doubles/halves every time you cross a power of 2.
+  - floating-point arithmetic / precision ::@:: The arithmetic is _approximate_ (i.e. not _exact_). Thus we say it has a finite range and _limited_ precision.
+- [single-precision floating-point format](../../../../genral/single-precision%20floating-point%20format.md) (`float`) ::@:: 32-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 8 exponent bits, and 23 significand bits.
+  - single-precision floating-point format / precision ::@:: about 7 significant _decimal_ digits (6 to 9)
+  - single-precision floating-point format / exponent range ::@:: about 10<sup>−38</sup> to 10<sup>+38</sup>
+  - single-precision floating-point format
+- [double-precision floating-point format](../../../../genral/double-precision%20floating-point%20format.md) (`double`) ::@:: 64-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 11 exponent bits, and 52 significand bits.
+  - double-precision floating-point format / precision ::@:: about 16 significant _decimal_ digits (15 to 17)
+  - double-precision floating-point format / exponent range ::@:: about 10<sup>−308</sup> to 10<sup>+308</sup>
+- [IEEE 754](../../../../general/IEEE%20754.md) ::@:: a technical standard for floating-point arithmetic originally established in 1985 by the Institute of Electrical and Electronics Engineers \(IEEE\)
+  - IEEE 754 / history (brief) ::@:: It was developed in response to divergence of representations, which can cause portability issues for scientific code. Now it is almost universally adopted.
+  - IEEE 754 / representations ::@:: single precision (32-bit), double precision (64-bit), ... (there are much more not covered in this course)
+
+## week 4 lab
+
+- datetime: 2025-02-25T15:00:00+08:00/2025-02-25T15:50:00+08:00
+- topic: building sequential logics with Logisim
+- Logisim
+  - Logisim / magnification ::@:: Use magnification to help you connect wires and draw graphics.
+  - Logisim / wire color ::@:: Light green means 1. Dark green means 0. Any other color means connection problem.
+  - Logisim / auto build ::@:: Given a logical expression, it can build a circuit for you. You can convert a truth table into an expression using SOP (or POS).
+- flip-flop
+  - flip-flop / SR NOR latch
+  - flip-flop / SR NAND latch
+  - flip-flop / gated D latch
+- clock
+- flip-flop
+  - flip-flop / master–slave edge-triggered D flip-flop
+  - flip-flop / gated D latch
+    - flip-flop / gated D latch / register
+
+## week 4 tutorial
+
+- datetime: 2025-02-25T18:00:00+08:00/2025-02-25T18:50:00+08:00
+- topic: sequential logic circuit
+- combinational logic
+- sequential logic
+- clock
+  - clock / terminology
+- flip-flop
+  - flip-flop / SR NAND latch
+- flip-flop
+  - flip-flop / gated D latch
+  - flip-flop / master–slave edge-triggered D flip-flop
+- [register file](../../../../general/register%20file.md) ::@:: an array of processor registers in a central processing unit (CPU)
+  - register file / implementation ::@:: fast static RAMs with multiple ports
+- [counter](../../../../general/counter%20(digital).md) ::@:: a device which stores (and sometimes displays) the number of times a particular event or process has occurred, often in relationship to a clock
+  - counter / synchronous 2-bit counter ::@:: The counter has 2 gated D latches, each linked to an output. The output cycles through 00, 01, 10, and 11. Its input has the clock only.  <p> The 2 required combinational logic gates are the NOT gate and XOR gate.
+    - counter / synchronous 2-bit counter / hints ::@:: truth table/transition table → K-map → logic simplification → circuit design
 
 ## assignments
 
