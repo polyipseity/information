@@ -229,7 +229,7 @@ tags:
 > 3. 6%
 > 4. Cannot be determined
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -239,7 +239,7 @@ tags:
 > 2. No
 >
 > - solution: {@{2}@}
-> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@}
+> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2025-03-04,4,313!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -251,7 +251,7 @@ tags:
 > 4. PV of a growing perpetuity with payment starting in year 0 and PV of a growing perpetuity with payment starting in year 11
 >
 > - solution: {@{3}@}
-> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@}
+> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!2025-03-04,4,313!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -267,7 +267,7 @@ tags:
 >
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
-> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}.
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2025-03-04,4,313!2025-03-03,3,293!2025-03-04,4,313-->
 
 ## week 3 lecture 2
 
@@ -276,7 +276,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -285,7 +285,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -297,7 +297,7 @@ tags:
 > 2. Bank B
 > 3. They are the same
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -310,7 +310,7 @@ tags:
 > 3. 360
 > 4. 372
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-03-04,4,313-->
 
 <!-- markdownlint MD028 -->
 
@@ -322,4 +322,4 @@ tags:
 > 4. 6.00%
 >
 > - solution: {@{3}@}
-> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@}
+> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!2025-03-04,4,313!2025-03-04,4,313-->
