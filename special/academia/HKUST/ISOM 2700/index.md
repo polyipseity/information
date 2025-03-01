@@ -329,6 +329,70 @@ The content is in teaching order.
   - Monte Carlo method / identify relations between random and performance variables ::@:: Determine how system dynamics relate the variables in the system. The relations start from the representative random variables. Intermediate variables may be used, e.g. arrival time, service completion time, service start time, etc.
   - Monte Carlo method / run simulation and inspect results ::@:: This highly depends on how you make the model, e.g. using Microsoft Excel spreadsheets and its `RAND()` function, etc.
 
+## week 4 lecture 2
+
+- datetime: 2025-02-26T10:30:00+08:00/2025-02-26T11:50:00+08:00
+- topic: quality management, variability in quality, capability analysis
+- [quality](../../../../general/quality%20(business.md)) ::@:: It has a pragmatic interpretation as the non-inferiority or superiority of something (goods or services); it is also defined as being suitable for the intended purpose (fitness for purpose) while satisfying customer expectations.
+  - quality / definitions
+    - quality / definitions / goodness ::@:: design quality, distinctiveness, outcomes, standards
+    - quality / definitions / conformance, consistency ::@:: measure of process variability
+    - quality / definitions / relativity ::@:: degree of satisfaction, expectation vs. perception
+    - quality / definitions / who ::@:: competitors, customers, producers, regulators
+  - quality / cost ::@:: cost of good quality, cost of poor quality
+    - quality / cost / good quality ::@:: appraisal (e.g. inspection, testing), prevention (e.g. maintenance, training)
+    - quality / cost / poor quality ::@:: external (e.g. recall, warranty), hidden (e.g. brand reputation, customer satisfaction, market share), internal (e.g. reworking, scrapping)
+      - quality / cost / poor quality / examples ::@:: Boeing having their planes grounded. Tesla recalling their cars. J&J scrapping their COVID-19 vaccines.
+- [common cause and special cause](../../../../general/common%20cause%20and%20special%20cause%20(statistics).md) ::@:: two distinct origins of variation in a process, as defined in the statistical thinking and methods of Walter A. Shewhart and W. Edwards Deming
+  - common cause and special cause / synonyms ::@:: (former): natural variations, normal variability <br/> (latter): abnormal variability, assignable variations, systematic errors
+  - common cause and special cause / common cause (natural variations) ::@:: inherent random errors; cannot be eliminated without changing the process; describable by a pattern or distribution
+  - common cause and special cause / special cause (assignable variations) ::@:: discoverable and traceable reason; can be eliminated by operation or management; e.g. machine fault, poor material, unskilled workers
+  - common cause and special cause / effect on processes ::@:: (former): process output forms a distribution that is _predictable_ and _stable over time_ <br/> (latter): process output is _unpredictable_ and _unstable over time_
+- [statistical process control](../../../../general/statistical%20process%20control.md) ::@:: It is the application of statistical methods to monitor and control the quality of a production process. This helps to ensure that the process operates efficiently, producing more specification-conforming products with less waste scrap.
+  - statistical process control / capability analysis ::@:: It analyzes how variation affects process capability, e.g. defect likelihood, outcome specification, etc.
+    - statistical process control / capability analysis / tools ::@:: capability index, six-sigma criteria, etc.
+  - statistical process control / conformance analysis ::@:: It analyzes if assignable variations exist in a process, e.g. abnormal instances, actions to take, system errors, etc.
+    - statistical process control / conformance analysis / tools ::@:: control chart, p-chart, etc.
+  - statistical process control / steps ::@:: capability analysis → conformance analysis → cause identification → cause elimination → (repeat)
+  - statistical process control / goals ::@:: _capable_: output likely meets design specifications <br/> _in control_/_controllable_: process is consistent and stable over time, i.e. no assignable variations; if _out of control_, take corrective actions
+- [engineering tolerance](../../../../general/engineering%20tolerance.md) (specification limits) ::@:: specified by engineering designs; has lower spec limit (LSL) and upper spec limit (USL), and quality is consider _acceptable_ if within this range, otherwise a _defect_
+  - engineering tolerance / defective likelihood ::@:: How likely is an output defective? It depends on the _tightness_ of the two limits (wider means less defects) and _variability_ of the outputs (higher means more defects).
+- [process capability index](../../../../general/process%20capability%20index.md) ::@:: It is a statistical measure of process capability: the ability of an engineering process to produce an output within specification limits.
+  - process capability index / variability ::@:: It can be measured using _standard deviation_. Larger means higher defective likelihood.
+  - process capability index / asymmetry ::@:: Sometimes the _mean_ may not lie in the middle of the LSL and USL. We will focus on the narrower side since it is more likely to violate the limit on that side. The idea is to be conservative in quality management. This is why we take the minimum of the two terms in the formula.
+  - process capability index / intuition ::@:: How many 3 standard deviations can we fit in between the _smaller_ side of the mean and its corresponding spec limit (LSL/USL)? Obviously, the higher the better.
+  - process capability index / formula ::@:: $$C_{\text{pk} } = \min \left[ \frac {\hat \mu - \text{LSL} } {3 \hat \sigma}, \frac {\text{USL} - \hat \mu} {3 \hat \sigma} \right] \,,$$ whee $\hat \mu$ is the _sample_ average and $\hat \sigma$ is the _sample_ standard deviation.
+  - process capability index / interpretation ::@:: A higher index means less defective likelihood. <p> Widening the limits leads to a larger index. Decreasing standard deviation can also lead to a larger index.
+- \#-sigma quality ::@:: Literally just process capability index multiplied by 3.
+  - \#-sigma quality / interpretation ::@:: The number of standard deviations that we can fit in between the _smaller_ side of the mean and its corresponding spec limit (LSL/USL).
+  - \#-sigma quality / examples ::@:: 3-sigma quality: C<sub>pk</sub> ≥ 1 <br/> 6-sigma quality: C<sub>pk</sub> ≥ 2
+  - 3-sigma quality ::@:: tolerance distance on both sides is at least 3 times of the standard deviation <p> defective likelihood: \< 0.27% or 1 in 370
+  - 6-sigma quality ::@:: tolerance distance on both sides is at least 6 times of the standard deviation; likely requires limiting process variability to be viable <p> defective likelihood: 0.000&nbsp;000&nbsp;001&nbsp;973 (no %) or 1 in 506&nbsp;797&nbsp;346
+- [Six Sigma](../../../../general/Six%20Sigma.md) ::@:: a set of techniques and tools for process improvement (e.g. manufacturing quality)
+  - Six Sigma / brief history ::@:: It was first developed at Motorola in the 1980s. Then it was adopted by 2/3 of Fortune 500 organizations by the late 1990s.
+  - Six Sigma / core ideas ::@:: _All_ processes (especially those requiring humans) have variations which is the _main cause_ for quality issues. We can _identify, quantify, and control_ the variations to _effectively_ improve quality.
+- \#-sigma quality
+  - 6-sigma quality
+    - 6-sigma quality / need ::@:: There are industries with very high quality requirements, e.g. cars, jet engines, medicines, vaccines, etc. <p> Further, errors can accumulate. Chaining multiple processes with very low defective likelihoods together can lead to a process with high defective likelihood.
+- Six Sigma
+  - Six Sigma / defect handling ::@:: rework/bounce-back: requires additional resources that increase workload; requires balancing making things right the first time (which may decrease efficiency) vs. save capacity (by avoiding rework); e.g. early discharge of patients from hospital <br/> scrap/eliminate: output volume uncertainty, waste resources
+  - Six Sigma / tools ::@:: (optional in this course) Ishikawa diagram/fishbone diagram, process control chart, etc.
+- [Ishikawa diagram](../../../../general/Ishikawa%20diagram.md) ::@:: They are causal diagrams created by Kaoru Ishikawa that show the potential causes of a specific event.
+- Six Sigma
+  - Six Sigma / process control chart ::@:: Essentially a process flow chart with decisions. Value-added activities are on the left and non-value added activities are on the right.
+- statistical process control
+  - statistical process control / conformance analysis
+  - statistical process control / goals
+  - statistical process control / conformance analysis
+    - statistical process control / conformance analysis / goals ::@:: Control the process to control the output quality. Make use of control charts and statistics to indicate when to adjust a process.
+    - statistical process control / conformance analysis / steps ::@:: create standards (LSL, USL) → measure sample outputs (e.g. mean, range) → take corrective actions if necessary
+- [control chart](../../../../general/control%20chart.md) ::@:: They are graphical plots used in production control to determine whether quality and manufacturing processes are being controlled under stable conditions.
+  - control chart / idea ::@:: Monitor the variation of outputs to assess process evolution. If the process is indeed stable, the probability of violating the limits is _rare_. So if the limits are violated, then the process is _likely unstable_.
+  - control chart / types ::@:: based on variables: continuous variables (e.g. $\bar x$ chart/x-bar chart), discrete/attribute variables (e.g. p-chart) <p> There are other classifications unmentioned here.
+- [x̅ and s chart](../../../../general/x̅_and_s_chart.md) ::@:: It is a type of control chart used to monitor the _mean_ and _standard deviation_ of a _normally distributed_ variables data when samples are collected at regular intervals from a business or industrial process.
+- [x̅ and R chart](../../../../general/x̅_and_R_chart.md) ::@:: It is a type of scheme, popularly known as control chart, used to monitor the _mean_ and _range_ of a _normally distributed_ variables simultaneously, when samples are collected at regular intervals from a business or industrial process.
+- [p-chart](../../../../general/p-chart.md) ::@:: It is a type of control chart used to monitor the _proportion of nonconforming units_ in a sample, where the sample proportion nonconforming is defined as the ratio of the number of nonconforming units to the sample size, _n_.
+
 ## midterm examination
 
 ## final examination
