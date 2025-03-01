@@ -258,7 +258,7 @@ tags:
 > Q4. Suppose your firm needs to purchase a new forklift. The dealer offers you two options:
 >
 > 1. Pay a price of \$40&nbsp;000 if you pay cash for the lump sum now.
-> 2. Make four annual payments of $15,000, no money down.
+> 2. Make four annual payments of \$15&nbsp;000, no money down.
 >
 > You can borrow from the bank at an interest rate of 15%.
 >

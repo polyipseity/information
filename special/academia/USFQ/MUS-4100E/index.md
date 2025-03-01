@@ -37,7 +37,7 @@ The content is in teaching order.
         - Louis Armstrong – 1927 Hot 5 & Hot 7 (not the personnel)
           - The Hot Five and Hot Seven recordings by Louis Armstrong are a series of individual recordings from 1925 – 1928 that have been grouped into 1  record.
         - Art Tatum- Gene Norman Present an Art Tatum Recording
-        - Billie Holliday – Lady Sings The Blues (not the personnel)
+        - Billie Holiday – Lady Sings The Blues (not the personnel)
         - Ella Fitzgerald – Ella and Louis
         - Benny Goodman – The Famous 1938 Carnegie Hall Jazz Concert (not the personnel)
         - Duke Ellington – Ellington at Newport (not the personnel)
@@ -358,10 +358,10 @@ The content is in teaching order.
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death.
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald
   - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys
-- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@::
+- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story"
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels.
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money.
-  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story"
+  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s.
