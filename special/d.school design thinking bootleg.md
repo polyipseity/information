@@ -66,7 +66,7 @@ Ideate is {@{generating _radical_ design alternatives, going wild with your imag
 
 ### prototype
 
-Prototype is {@{making your idea physical}@}. In early stages, {@{keep the prototypes inexpensive to reiterate quickly}@}. Ideally, the prototypes are {@{interactive}@}. <!--SR:!2026-11-01,664,290!2025-08-16,335,290!2025-03-01,256,330-->
+Prototype is {@{making your idea physical}@}. In early stages, {@{keep the prototypes inexpensive to reiterate quickly}@}. Ideally, the prototypes are {@{interactive}@}. <!--SR:!2026-11-01,664,290!2025-08-16,335,290!2028-05-13,1169,350-->
 
 ### test
 
@@ -121,7 +121,7 @@ return await memorize_seq(
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2025-03-19,219,270!2025-04-23,77,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2025-04-05,282,330-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-03-27,65,130!2025-03-06,163,210-->
-- (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-03-05,13,130!2025-03-01,43,170-->
+- (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-03-05,13,130!2025-05-16,76,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2025-05-15,259,250!2025-10-19,322,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-04-01,40,130!2025-03-05,31,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→::@::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2025-07-28,329,270!2025-03-05,67,130-->

@@ -21,7 +21,7 @@ tags:
 
 - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) ::@:: ![`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) <!--SR:!2025-06-04,118,290!2025-08-21,179,310-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / language ::@:: Yeah, it's in Russian... <!--SR:!2025-03-06,67,310!2025-03-03,64,310-->
-  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / account captions ::@:: Notice they have used numbers to identify accounts. In this course, we should simply use the account captions (account names) directly. <!--SR:!2025-06-27,135,290!2025-03-01,63,310-->
+  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / account captions ::@:: Notice they have used numbers to identify accounts. In this course, we should simply use the account captions (account names) directly. <!--SR:!2025-06-27,135,290!2025-09-14,197,310-->
   - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / adjustments ::@:: In this example, the total debit and credit of all relevant adjusting entries of the same account are summed and recorded as one. <p> In exams, you should probably record them separately. When you record them separately, each adjusting entry should change either debit or credit but not both. <!--SR:!2025-05-15,105,290!2025-08-23,179,310-->
 
 ## format

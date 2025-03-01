@@ -158,7 +158,7 @@ Other identities arise by {@{exchanging the order of summation, taking derivativ
 
 ### asymptotics
 
-The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2025-03-01,27,191!2025-06-02,130,271-->
+The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2025-03-15,14,171!2025-06-02,130,271-->
 
 For fixed $n$ (growing $k$) we have the following estimate: ::@:: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2025-04-17,106,251!2025-03-20,97,271-->
 
@@ -170,7 +170,7 @@ As discussed earlier, by {@{[Vieta's formulas](Vieta's%20formulas.md)}@}, one ge
 
 The Stirling number _s(n,n-p)_ can be found from the formula<sup>[\[18\]](#^ref-18)</sup> $${\begin{aligned}s(n,n-p)&={\frac {1}{(n-p-1)!} }\sum _{0\leq k_{1},\ldots ,k_{p}:\sum _{1}^{p}mk_{m}=p}(-1)^{K}{\frac {(n+K-1)!}{k_{1}!k_{2}!\cdots k_{p}!~2!^{k_{1} }3!^{k_{2} }\cdots (p+1)!^{k_{p} } } },\end{aligned} }$$ where $K=k_{1}+\cdots +k_{p}.$ The sum is a sum over all [partitions](integer%20partition.md) of _p_.
 
-Another exact nested sum expansion for these Stirling numbers is computed by {@{[elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) corresponding to the coefficients in $x$ of a product of the form $(1+c_{1}x)\cdots (1+c_{n-1}x)$}@}. In particular, we see that {@{$${\begin{aligned}\left[{n \atop k+1}\right]&=[x^{k}](x+1)(x+2)\cdots (x+n-1)=(n-1)!\cdot [x^{k}](x+1)\left({\frac {x}{2} }+1\right)\cdots \left({\frac {x}{n-1} }+1\right)\\&=\sum _{1\leq i_{1}<\cdots <i_{k}<n}{\frac {(n-1)!}{i_{1}\cdots i_{k} } }.\end{aligned} }$$}@} {@{[Newton's identities](newton's%20identities.md) combined with the above expansions}@} may be used to {@{give an alternate proof of the weighted expansions involving the generalized [harmonic numbers](harmonic%20number.md) already [noted above](#expansions%20for%20fixed%20k)}@}. <!--SR:!2025-06-17,164,311!2025-03-01,43,231!2025-08-21,231,331!2025-03-05,56,271-->
+Another exact nested sum expansion for these Stirling numbers is computed by {@{[elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) corresponding to the coefficients in $x$ of a product of the form $(1+c_{1}x)\cdots (1+c_{n-1}x)$}@}. In particular, we see that {@{$${\begin{aligned}\left[{n \atop k+1}\right]&=[x^{k}](x+1)(x+2)\cdots (x+n-1)=(n-1)!\cdot [x^{k}](x+1)\left({\frac {x}{2} }+1\right)\cdots \left({\frac {x}{n-1} }+1\right)\\&=\sum _{1\leq i_{1}<\cdots <i_{k}<n}{\frac {(n-1)!}{i_{1}\cdots i_{k} } }.\end{aligned} }$$}@} {@{[Newton's identities](newton's%20identities.md) combined with the above expansions}@} may be used to {@{give an alternate proof of the weighted expansions involving the generalized [harmonic numbers](harmonic%20number.md) already [noted above](#expansions%20for%20fixed%20k)}@}. <!--SR:!2025-06-17,164,311!2025-06-08,99,231!2025-08-21,231,331!2025-03-05,56,271-->
 
 ### relations to natural logarithm function
 

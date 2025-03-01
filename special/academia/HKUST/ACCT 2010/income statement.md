@@ -25,7 +25,7 @@ tags:
 ## format
 
 - header ::@:: company name, `(Consolidated) Statement of Income`, duration, (monetary unit) <!--SR:!2025-05-14,104,290!2025-05-16,106,290-->
-  - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-03-01,63,310!2025-06-30,151,310-->
+  - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-12-02,276,330!2025-06-30,151,310-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-03-04,65,310!2025-11-12,259,330-->
 - dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2025-03-05,66,310!2025-04-17,86,270-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income <!--SR:!2025-03-17,62,250!2025-04-06,76,270-->
@@ -38,7 +38,7 @@ tags:
   - (root) / operating ::@:: example: <br/> sales revenue <br/> operating expenses (+) <br/> __income from operations__: sum above appropriately <!--SR:!2025-07-05,156,310!2025-07-02,152,310-->
     - (root) / operating / operating expenses ::@:: example: (many items on this level) (+) <br/> general and administrative expenses (+) <br/> depreciation expense <br/> loss on disposal of assets <br/> total operating expenses: sum above appropriately <!--SR:!2025-05-15,105,290!2025-03-31,69,270-->
       - (root) / operating / operating expenses / (many items on this level) ::@:: example: <br/> supplies expense <br/> wages expense <br/> rent expense <br/> insurance expense <br/> utilities expense <br/> repairs expense <br/> other operating expenses <!--SR:!2025-08-22,180,310!2025-05-11,110,290-->
-      - (root) / operating / operating expenses / general and administrative expenses ::@:: example: <br/> training expense <br/> advertising expense <!--SR:!2025-03-01,63,310!2025-08-21,179,310-->
+      - (root) / operating / operating expenses / general and administrative expenses ::@:: example: <br/> training expense <br/> advertising expense <!--SR:!2025-12-02,276,330!2025-08-21,179,310-->
   - (root) / other items ::@:: example: <br/> interest revenue <br/> interest expense <br/> __income before income taxes__: sum above appropriately <!--SR:!2025-03-05,66,310!2025-05-04,104,290-->
 - financial metrics ::@:: Calculate earnings per share, at least round to 2 decimal places. Additionally add double (under)lines below it. <!--SR:!2025-11-26,271,330!2025-03-02,63,310-->
   - earnings per share :: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$

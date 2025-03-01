@@ -36,7 +36,7 @@ tags:
 
 {@{__Earnings per share__ \(__EPS__\)}@} is {@{the monetary value of [earnings](earnings.md) per [outstanding share](shares%20outstanding.md) of [common stock](common%20stock.md) for a company during a defined period of time}@}. It is {@{a key measure of corporate profitability}@}, focussing on {@{the interests of the company's owners \([shareholders](shareholder.md)\)}@},<sup>[\[1\]](#^ref-1)</sup> and is commonly used to {@{price stocks}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-26,63,310!2025-06-23,116,290!2025-03-30,66,310!2025-03-30,66,310!2025-03-23,60,310-->
 
-In the United States, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} requires {@{EPS information for the four major categories of the [income statement](income%20statement.md)}@}: {@{continuing operations, discontinued operations, extraordinary items, and [net income](net%20income.md)}@}. <!--SR:!2025-03-22,59,310!2025-03-18,56,310!2025-03-01,39,290-->
+In the United States, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} requires {@{EPS information for the four major categories of the [income statement](income%20statement.md)}@}: {@{continuing operations, discontinued operations, extraordinary items, and [net income](net%20income.md)}@}. <!--SR:!2025-03-22,59,310!2025-03-18,56,310!2025-08-07,159,310-->
 
 ## calculation
 

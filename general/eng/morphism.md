@@ -47,7 +47,7 @@ Dually to {@{monomorphisms}@}, {@{a morphism _f_ : _X_ → _Y_ is called an [epi
 
 If {@{a monomorphism _f_ splits with left inverse _g_}@}, then {@{_g_ is a split epimorphism with right inverse _f_}@}. In {@{[concrete categories](concrete%20category.md), a function that has a right inverse is [surjective](surjective%20function.md)}@}. Thus {@{in concrete categories, epimorphisms are often, but not always, surjective}@}. {@{The condition of being a surjection}@} is {@{stronger than that of being an epimorphism, but weaker than that of being a split epimorphism}@}. In {@{the [category of sets](category%20of%20sets.md)}@}, the statement that {@{every surjection has a section is equivalent to the [axiom of choice](axiom%20of%20choice.md)}@}. (annotation: the section is constructed by: {@{for every element _y_ of the codomain, choose an <!-- previously unchosen (unnecessary since the surjection is a function) --> element _x_ in the domain that maps to _y_, and define the section to map _y_ to _x_, and the resulting section is invertible by the surjection; choosing an element in the domain that maps to _y_, in general, requires the axiom of choice}@}) <!--SR:!2025-03-21,58,310!2025-03-28,63,310!2025-03-30,65,310!2025-03-28,63,310!2025-08-10,163,310!2025-03-31,66,310!2025-03-21,58,310!2025-05-13,83,270!2025-03-13,48,290-->
 
-{@{A morphism that is both an epimorphism and a monomorphism}@} is called {@{a __bimorphism__}@}. <!--SR:!2025-03-01,41,290!2025-03-30,65,310-->
+{@{A morphism that is both an epimorphism and a monomorphism}@} is called {@{a __bimorphism__}@}. <!--SR:!2025-08-12,164,310!2025-03-30,65,310-->
 
 ### isomorphisms
 

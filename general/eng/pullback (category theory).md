@@ -54,7 +54,7 @@ In {@{complete analogy to the example of commutative rings above}@}, one can sho
 
 ### sets
 
-In {@{the [category of sets](category%20of%20sets.md)}@}, {@{the pullback of functions _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_ always exists}@} and is given by {@{the set $$X\times _{Z}Y=\{(x,y)\in X\times Y|f(x)=g(y)\}=\bigcup _{z\in f(X)\cap g(Y)}f^{-1}[\{z\}]\times g^{-1}[\{z\}],$$}@} together with {@{the [restrictions](restriction%20(mathematics).md) of the [projection maps](projection%20map.md) _π_<sub>1</sub> and _π_<sub>2</sub> to _X_ ×<sub>_Z_</sub> _Y_}@}. <!--SR:!2025-04-25,66,310!2025-04-20,62,310!2025-03-01,20,250!2025-04-04,46,290-->
+In {@{the [category of sets](category%20of%20sets.md)}@}, {@{the pullback of functions _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_ always exists}@} and is given by {@{the set $$X\times _{Z}Y=\{(x,y)\in X\times Y|f(x)=g(y)\}=\bigcup _{z\in f(X)\cap g(Y)}f^{-1}[\{z\}]\times g^{-1}[\{z\}],$$}@} together with {@{the [restrictions](restriction%20(mathematics).md) of the [projection maps](projection%20map.md) _π_<sub>1</sub> and _π_<sub>2</sub> to _X_ ×<sub>_Z_</sub> _Y_}@}. <!--SR:!2025-04-25,66,310!2025-04-20,62,310!2025-05-13,73,270!2025-04-04,46,290-->
 
 Alternatively one may view {@{the pullback in __Set__ asymmetrically}@}: {@{$$X\times _{Z}Y\cong \coprod _{x\in X}g^{-1}[\{f(x)\}]\cong \coprod _{y\in Y}f^{-1}[\{g(y)\}]$$}@} where {@{$\coprod$ is the [disjoint union](disjoint%20union.md) of sets}@} \(the involved sets are {@{not disjoint on their own unless _f_ resp. _g_ is [injective](injective.md)}@}\). In the first case, the projection _π_<sub>1</sub> {@{extracts the _x_ index while _π_<sub>2</sub> forgets the index, leaving elements of _Y_}@}. <!--SR:!2025-04-16,58,310!2025-04-15,47,250!2025-04-25,66,310!2025-03-29,43,290!2025-04-16,58,310-->
 
@@ -90,7 +90,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
   - if maps _f_ : _A_ → _C_, _g_ : _B_ → _C_ and _h_ : _D_ → _B_ are given and
   - the pullback of _f_ and _g_ is given by _r_ : _P_ → _A_ and _s_ : _P_ → _B_, and
   - the pullback of _s_ and _h_ is given by _t_ : _Q_ → _P_ and _u_ : _Q_ → _D_ ,
-  - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_. <!--SR:!2025-04-17,59,310!2025-04-26,67,310!2025-05-06,68,270!2025-04-14,46,250!2025-04-15,58,310!2025-04-25,66,310!2025-04-01,46,290!2025-03-30,42,290!2025-03-01,18,270!2025-04-25,66,310!2025-04-19,61,310!2025-04-14,57,310!2025-03-19,33,270-->
+  - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_. <!--SR:!2025-04-17,59,310!2025-04-26,67,310!2025-05-06,68,270!2025-04-14,46,250!2025-04-15,58,310!2025-04-25,66,310!2025-04-01,46,290!2025-03-30,42,290!2025-05-11,71,290!2025-04-25,66,310!2025-04-19,61,310!2025-04-14,57,310!2025-03-19,33,270-->
 
   Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@}
 - Any category with pullbacks and products ::@:: has equalizers. <!--SR:!2025-04-20,62,310!2025-03-18,32,270-->

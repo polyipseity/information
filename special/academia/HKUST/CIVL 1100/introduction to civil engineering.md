@@ -62,7 +62,7 @@ The content is in teaching order.
       - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2025-03-29,154,245!2025-03-16,243,344-->
   - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2025-03-01,249,367-->
+- geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2028-08-04,1252,387-->
   - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2025-03-20,147,300-->
 - reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-03-13,189,261-->
 - sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2026-03-21,463,301-->
-- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-03-01,67,150-->
+- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-06-13,104,150-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->

@@ -126,7 +126,7 @@ In {@{[projective geometry](projective%20geometry.md)}@}, {@{[Levi graphs](levi%
 
 ## see also
 
-- [bipartite dimension](bipartite%20dimension.md), ::@:: the minimum number of complete bipartite graphs whose union is the given graph <!--SR:!2025-03-01,77,270!2025-06-11,153,290-->
+- [bipartite dimension](bipartite%20dimension.md), ::@:: the minimum number of complete bipartite graphs whose union is the given graph <!--SR:!2025-12-23,297,290!2025-06-11,153,290-->
 - [bipartite double cover](bipartite%20double%20cover.md), ::@:: a way of transforming any graph into a bipartite graph by doubling its vertices <!--SR:!2025-05-19,146,310!2025-08-13,199,310-->
 - [bipartite hypergraph](bipartite%20hypergraph.md), ::@:: a generalization of bipartiteness to [hypergraphs](hypergraph.md). <!--SR:!2025-05-22,149,310!2025-10-02,255,330-->
 - [bipartite matroid](bipartite%20matroid.md), ::@:: a class of matroids that includes the [graphic matroids](graphic%20matroid.md) of bipartite graphs <!--SR:!2025-04-13,110,290!2025-08-17,202,310-->
