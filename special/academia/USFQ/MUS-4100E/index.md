@@ -75,6 +75,11 @@ The content is in teaching order.
   - concert attendance
     - virtual jazz club "Monks": <https://livestream.monksjazz.com/>
 
+## children
+
+- [assignments](assignments/)
+- [questions](questions/index.md)
+
 ## week 1 lecture
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00
@@ -387,3 +392,11 @@ The content is in teaching order.
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist
   - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum
+- assignment: (none)
+
+## week 7 lecture 2
+
+- datetime: 2025-02-26T08:30:00-05:00/2025-02-26T09:00:00-05:00
+  - local: 2025-02-26T21:30:00+08:00/2025-02-26T22:00:00+08:00
+- quiz: [listening test 1](questions/listening%20test%201.md)
+- assignment: [concert 1](assignments/concert%201/index.md)
