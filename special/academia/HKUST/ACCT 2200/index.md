@@ -268,9 +268,33 @@ The content is in teaching order.
   - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold)
   - total absorption / formula ::@:: (net) sales, less: cost of goods sold, (subtotal:) _gross margin_, less: non-manufacturing expenses, (total:) net operating income
 - variable costing
-  - variable costing / from total absorption costing ::@:: Move all variable costs in manufacturing (e.g. variable manufacturing costs) _and_ non-manufacturing overhead (e.g. variable selling expenses) to variable costs. Move all fixed costs in manufacturing (e.g. manufacturing overhead) _and_ non-manufacturing overhead (e.g. general and administrative expenses). <p> _Importantly_, _all_ manufacturing overhead incurred (instead of the portion corresponding to sold goods) during the period is expensed.
+  - variable costing / from total absorption costing ::@:: Move all variable costs in manufacturing (e.g. variable manufacturing costs) _and_ non-manufacturing overhead (e.g. variable selling expenses) to variable costs. The variable costs should be based on units _sold_, not _manufactured_. <p> Move all fixed costs in manufacturing (e.g. manufacturing overhead) _and_ non-manufacturing overhead (e.g. general and administrative expenses). _Importantly_, _all_ manufacturing overhead incurred (instead of the portion corresponding to sold goods) during the period is expensed.
   - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs.
     - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP.
+
+## week 4 lecture 2
+
+- datetime: 2025-02-26T12:00:00+08:00/2025-02-26T13:20:00+08:00
+- topic: cost–volume–profit (CVP) analysis
+- [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions.
+- [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even".
+- cost–volume–profit analysis
+  - cost–volume–profit analysis / method ::@:: contribution margin ratio method, profit equation method, unit contribution margin method
+  - cost–volume–profit analysis / profit equation method ::@:: Write profit (net operating income) as a function of quantity. Equate it to _0_ and solve for quantity.
+    - cost–volume–profit analysis / profit equation method / equation ::@:: unit price × quantity − unit variable costs × quantity - fixed costs
+    - cost–volume–profit analysis / profit equation method / target profit ::@:: Write profit (net operating income) as a function of quantity. Equate it to the _target profit_ and solve for quantity.
+  - cost–volume–profit analysis / graph ::@:: The graph shows both profit method and contribution method: ![cost–volume–profit analysis graph](../../../../archives/Wikimedia%20Commons/CVP-TC-FC-VC-Sales-Contrib-VC-PL-compat.svg)
+  - cost–volume–profit analysis / unit contribution margin method ::@:: Find the _unit_ contribution margin. Then find _break-even units_ by dividing _fixed_ costs by unit contribution margin. Then find _break-even sales_ by multiplying break-even units by selling price. <p> You may use a _table_. (But really, is it necessary?)
+    - cost–volume–profit analysis / unit contribution margin method / target profit ::@:: Find the _unit_ contribution margin. Then find _target units_ by adding fixed costs _and_ target profit, and then dividing it by unit contribution margin. Then find _target sales_ by multiplying target units by selling price.
+  - cost–volume–profit analysis / contribution margin ratio method ::@:: Find the contribution margin _ratio_. Then find _break-even sales_ by dividing _fixed_ costs by contribution margin ratio. <p> You may use a _table_. (But really, is it necessary?)
+    - cost–volume–profit analysis / contribution margin ratio method / target sales ::@:: Find the contribution margin _ratio_. Then find _target sales_ by adding fixed costs _and_ target profit, and then dividing it by contribution margin ratio.
+  - cost–volume–profit analysis / assumptions::@:: classification, factors, linearity, product mix, production
+    - cost–volume–profit analysis / assumptions / linearity ::@:: The behavior of both costs and revenues is linear throughout the _relevant range_ of activity. <p> For example, volume discounts on purchases or sales are precluded.
+    - cost–volume–profit analysis / assumptions / classification ::@:: Costs can be classified accurately as either fixed or variable.
+    - cost–volume–profit analysis / assumptions / factors ::@:: Changes in activity/volume are the only factors that affect costs. <p> For example, learning curves, productivity gains, and volume discounts are precluded.
+    - cost–volume–profit analysis / assumptions / production ::@:: All units produced are sold (there is no ending finished goods inventory). <p> This simplification is because some costs vary with production while others vary with sales. No ending inventory change also means the net operating income/profit is the same between total absorption costing and variable costing.
+    - cost–volume–profit analysis / assumptions / product mix ::@:: When a company sells more than one type of product, the product mix (the ratio of each product to total sales) will remain constant.
+  - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted (net) sales and break-even point: <p> actual/budgeted (net) sales − break-even point <p> It represents the strength of the business.
 
 ## examination 1
 
