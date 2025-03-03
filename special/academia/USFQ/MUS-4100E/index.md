@@ -400,3 +400,15 @@ The content is in teaching order.
   - local: 2025-02-26T21:30:00+08:00/2025-02-26T22:00:00+08:00
 - quiz: [listening test 1](questions/listening%20test%201.md)
 - assignment: [concert 1](assignments/concert%201/index.md)
+
+## week 8 lecture
+
+- datetime: 2025-03-03T08:30:00-05:00/2025-03-03T09:50:00-05:00
+  - local: 2025-03-03T21:30:00+08:00/2025-03-03T22:50:00+08:00
+- status: unscheduled, holiday
+
+## week 8 lecture 2
+
+- datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:00:00-05:00
+  - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:00:00+08:00
+- status: unscheduled, holiday
