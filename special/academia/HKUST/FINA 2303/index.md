@@ -252,6 +252,78 @@ The content is in teaching order.
 - [TAPPS/week 3 lecture 2](assignments/TAPPS/week%203%20lecture%202.md)
 - readings: chapter 5 (skip 5.3)
 
+## week 4 lecture
+
+- datetime: 2025-02-26T16:30:00+08:00/2025-02-26T17:50:00+08:00
+- topic: interest rates
+- annual percentage rate
+- effective annual rate
+- [amortizing loan](../../../../general/amortizing%20loan.md) ::@:: a loan where the principal of the loan is paid down over the life of the loan (that is, amortized) according to an amortization schedule, typically through equal payments
+  - amortizing loan / equated monthly installment (EMI) ::@:: Payments are divided into equal amounts for the duration of the loan, making it the simplest repayment model. A greater amount of the payment is applied to _interest_ at the beginning of the amortization schedule, while more money is applied to _principal_ at the end.
+  - amortizing loan / terminology ::@:: balance/principal outstanding, interest, principal
+  - amortizing loan / amortizing schedule ::@:: It can be an Excel spreadsheet showing balance/principal outstanding, interest paid, and principal paid.
+  - amortizing loan / intuition ::@:: Literally just ordinary annuity, but the direction of payment is reversed.
+  - amortizing loan / equated monthly installment
+    - amortizing loan / equated monthly installment / formula ::@:: This is captured by the formula $$P\,=\,A\cdot {\frac {1-\left({\frac {1}{1+r} }\right)^{n} }{r} }$$ or, equivalently, $$A\,=\,P\cdot {\frac {r(1+r)^{n} }{(1+r)^{n}-1} }$$ where: _P_ is the principal amount borrowed, _A_ is the periodic amortization payment, _r_ is the periodic interest rate divided by 100 \(nominal annual interest rate also divided by 12 in case of monthly installments\), and _n_ is the total number of payments \(for a 30-year loan with monthly payments _n_ = 30 × 12 = 360\).
+  - amortizing loan / outstanding balance ::@:: You want to find the outstanding loan balance at time _t_. <p> First, assuming EMI, find the installment using the above formulas. Then, you can either consider the _remaining balance_, which is the PV evaluated at time _t_ of the remaining payments, or consider the _outstanding loan_, which is the FV evaluated at time _t_ of the original loan minus the FV evaluated at time _t_ of the paid payments. <p> (The former one seems easier...)
+    - amortizing loan / outstanding balance / formula ::@:: Assuming EMI. The outstanding principal at time _t_ is: $$P_t = P_0 \frac {1 - \frac 1 {(1 + r)^{T - t} } } {1 - \frac 1 {(1 + r)^T } } \,,$$ where _P_<sub>0</sub> is the \(original\) principal, _r_ is the interest rate, and _T_ is the total number of payments (paid _and_ remaining).
+- [opportunity cost of capital](../../../../general/cost%20of%20capital.md) ::@:: It is the cost of a company's funds (both debt and equity), or from an investor's point of view is "the required rate of return on a portfolio company's existing securities". <p> It is the best available expected return offered in the market on an investment of _comparable risk and term_ to the cash flows being discounted.
+  - opportunity cost of capital / risk-free return ::@:: Many investors consider US Treasury bonds as "risk-free". Thus for any borrowing that is not considered "risk-free", investors require a higher rate of return.
+- [questions § week 4 lecture](questions.md#week%204%20lecture)
+- [TAPPS/week 4 lecture](assignments/TAPPS/week%204%20lecture.md)
+- readings: chapter 8 \(skip MIRR and 8.6\)
+
+## week 4 tutorial
+
+- datetime: 2025-02-28T10:30:00+08:00/2025-02-28T11:20:00+08:00
+- status: hybrid \(online, physical\), optional
+
+## week 4 lecture 2
+
+- datetime: 2025-02-28T16:30:00+08:00/2025-02-28T17:50:00+08:00
+- topic: investment decision rules
+- investment decision rules ::@:: Rules for making investments, _usually_ to maximize value.
+  - investment decision rules / project types ::@:: standalone projects, mutually exclusive projects, mix of the above
+- standalone project ::@:: discounted payback period, internal rate of return, net present value, payback period, etc.
+- mutually exclusive project ::@:: lives difference, scale difference, timing difference, etc.
+- net present value
+  - net present value / interpretation ::@:: Zero NPV (cf. _normal profit_ in economics) allows us to recover invested capital (i.e. no loss) and receive return on capital (i.e. return comparable with the market interest rate). Positive NPV (cf. _abnormal profit_ in economics) _additionally_ allows us to create _value_ for investors (i.e. extra return above the market interest rate).
+    - net present value / interpretation / zero NPV ::@:: From an economics standpoint, in a _perfectly_ competitive/efficient market, there should not be any abnormal profit, i.e. no investments with positive NPV. Investments are either zero or negative NPV. So you _should accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to. <p> \(Of course, the real world is not _perfectly_ competitive/efficient...\)
+  - net present value / decision rule ::@:: For standalone projects \(i.e. either take or leave\), _accept_ positive NPV projects. _Reject_ negative NPV projects. _Accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to, for the reasons described above. <p> To choose among mutually exclusive projects, choose the alternative with the _highest non-negative_ NPV. If all projects have negative NPV, then _reject all_.
+  - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 (zero NPV) has an _x_ value that is the _internal rate of return_ (IRR). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing.
+- [internal rate of return](../../../../general/internal%20rate%20of%20return.md) \(IRR\) ::@:: It is a method of calculating an investment's rate of return. The term _internal_ refers to the fact that the calculation excludes external factors, such as the risk-free rate, inflation, the cost of capital, or financial risk.
+  - internal rate of return / application timing ::@:: The method may be applied either ex-post (after) or ex-ante (before). Applied ex-ante, the IRR is an estimate of a future annual rate of return. Applied ex-post, it measures the actual achieved investment return of a historical investment.
+  - internal rate of return / definition ::@:: It of an investment or project is the "annualized effective compounded return rate" or rate of return that sets the net present value (NPV) of all cash flows (both positive and negative) from the investment equal to zero.
+  - internal rate of return / calculation ::@:: Similar to calculating interest rate, there is no closed formula for it. Either use a financial calculator or use trial-and-error.
+  - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\)
+  - internal rate of return / intuition ::@:: It is the discount rate needed to make all cash flows now and in the future to have a net present value of zero. Notice that it does not distinguish between inflow and outflow: Both are discounted by equal amount given that they have the same timing. This means if more inflows are in the farther future, inflows are discounted more. Same goes for outflows. <p> This explains the difference in the decision rules for investment and loan/delayed investment. In the former, the cash flows being discounted are the inflows. Higher IRR means the inflows are worth more to begin with before being discounted. So higher is better. In the latter the cash flows being discounted are the outflows. Higher IRR means the outflows are worth more to being with before being discounted. So lower is better.
+  - internal rate of return / weakness ::@:: It generally cannot be used for non-conventional cash flows (neither an investment nor a loan/delayed investment). <p> For mutually exclusive projects, IRR is _scale-independent_ and _timing-dependent_, so it is not suitable. <p> Since all cash flows are assumed to be discounted at the internal rate of return, this means we are assuming an environment where all cash inflows can be \(re-\)invested at the internal rate of return rather than the cost of capital. For an investment with high IRR, this may over-estimate the return.
+  - internal rate of return / decision rule ::@:: For a standalone investment, _accept_ those with an IRR of _at least_ the cost of capital. _Reject_ others. For a standalone loan/delayed investment, _accept_ those with an IRR _not higher than_ the cost of capital. _Reject_ others. These rules are _consistent_ (i.e. make the same decision) as that for NPV. <p> For non-conventional cash flows (neither an investment nor a loan/delayed investment) or mutually exclusive projects, IRR is generally unsuitable, and we should use NPV or other rules instead.
+    - internal rate of return / investment, loan/delayed investment ::@:: The former refers to cash outflow _now_ and receiving cash inflows _later_. The latter refers to cash inflow _now_ and paying cash outflows _later_.
+  - internal rate of return / notes ::@:: In this course, use the NPV rule instead of IRR rule, even for loan/delayed investment.
+- [payback period](../../../../general/payback%20period.md) ::@:: It is the time required to recoup the funds expended in an investment, or to reach the break-even point. <p> It _does not discount_ the cash flows.
+  - payback period / decision rule ::@:: First, define a pre-specified length of time is the _maximum payback period_. <p> For a standalone project, if the payload period is _not greater than_ the maximum, _accept_ the project. Otherwise _reject_. <p> This rule is generally _not consistent_ with NPV.
+  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done.
+  - payback period / decision rule
+    - payback period / decision rule / advantages ::@:: Simple. Favors liquidity.
+    - payback period / decision rule / disadvantages ::@:: The maximum payback period/payback period cutoff is arbitrary. Cash flows after the cutoff is ignored. Not necessarily consistent with maximizing shareholder value (since it is not generally consistent with NPV).
+- net present value
+  - net present value / decision rule
+    - net present value / decision rule / advantages ::@:: The impact to the firm's value is calculated. Consistent with maximizing shareholder value (since it is a direct application of the valuation principle).
+    - net present value / decision rule / disadvantages ::@:: Can be complicated and time-consuming to calculate. A somewhat accurate interest rate is required.
+- internal rate of return
+  - internal rate of return / decision rule
+    - internal rate of return / decision rule / advantages ::@:: For conventional cash flows, it is consistent with NPV, and thus maximizing shareholder value.
+    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects (as the multiple IRRs obtained cannot be compared directly). Can be misleading for loan/delayed investment and projects with unconventional cash flows.
+- [discounted payback period](../../../../general/discounted%20payback%20period.md) ::@:: \(untaught\) It is the amount of time that it takes (in years) for the initial cost of a project to equal to the _discounted_ value of expected cash flows, or the time it takes to break even from an investment. It is the period in which the cumulative net present value of a project equals zero. <p> It _does discount_ the cash flows.
+- mutually exclusive project
+  - mutually exclusive project / scale difference ::@:: NPV measures _total impact on value_ and is scale-dependent. IRR measures _average return_ and is scale-independent. When you scale up a project while keeping everything else the same, NPV scale ups proportionally while IRR remains the same. As NPV is consistent with maximizing wealth (as a direct application of the valuation principle), we should use NPV for projects of different scales.
+    - mutually exclusive project / scale difference / using IRR ::@:: What if you want to use IRR for projects of different scales anyway? Use incremental cash flows (larger project cash flows minus smaller project cash flows, including the starting cash flow) instead and compute its internal rate of return. <p> Intuitively, the incremental cash flows give the difference if we choose the larger project and giving up the smaller project. Now our decision becomes between accepting the difference and rejecting it. This decision can be considered a standalone project. This difference is worth it if its NPV is nonnegative. So we can use IRR again.
+    - mutually exclusive project / scale difference / NPV profile ::@:: If the projects/investments are of the same scale, the NPV graph of the project with a higher IRR is always higher than that with a lower IRR and never intersects. However, if they are of different scales, then the two graphs can intersect each other. This intersection point is known as the _crossover_, its _x_ value is the cost of capital for which the NPVs of the two projects are equal, and its _y_ value is the corresponding NPV.
+- [questions § week 4 lecture 2](questions.md#week%204%20lecture%202)
+- [TAPPS/week 4 lecture 2](assignments/TAPPS/week%204%20lecture%202.md)
+- readings: chapter 8 \(skip 8.6\)
+
 ## assignments
 
 ## midterm examination

@@ -323,3 +323,68 @@ tags:
 >
 > - solution: {@{3}@}
 > - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@}
+
+## week 4 lecture
+
+> Q1. An online bank is offering to pay 1.4% interest per month on deposits. Your local bank offers to pay 4.2% interest quarterly (every 3 months).
+>
+> Which bank offers the higher interest rate?
+>
+> 1. online bank
+> 2. local bank
+> 3. they are the same
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. In an amortized loan, which of the following amount increases over time?
+>
+> 1. principal repayment
+> 2. outstanding balance
+> 3. loan interest
+>
+> - solution: {@{1}@}
+
+## week 4 lecture 2
+
+> Q1. The PV of all cash flows generated in a project is 3 million dollar at a discount rate of 15%.  It has a positive NPV of 1 million dollar. What must be the initial cost of this project?
+>
+> 1. \$2.6 million
+> 2. \$2 million
+> 3. \$1.6 million
+> 4. \$1 million
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. The PV of all cash flows generated in a project is 3 million dollar at a discount rate of 15%.  It has a positive NPV of 1 million dollar. What must be its IRR?
+>
+> 1. \>15%
+> 2. 15%
+> 3. \<15%
+> 4. not enough information
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Your firm is negotiating a 4 year loan of \$1.5 million with a dealer. The monthly payment is \$40&nbsp;000. Your firm can borrow money from the bank at 12% APR with monthly compounding.
+>
+> Should your firm take out this loan?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{2}@}
+> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. One may reject positive NPV projects using the payback rule.
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{1}@}
