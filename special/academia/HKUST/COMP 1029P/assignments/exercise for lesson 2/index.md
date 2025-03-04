@@ -10,13 +10,16 @@ tags:
 
 - HKUST COMP 1029P
 
-<!-- list separator -->
+---
 
+- title: Exercise for Lesson 2
 - due: 2024-01-10T23:59:59+08:00
 - points: 100
 - submitting: a file upload
 - file types: py
 - available: until 2024-01-10T23:59:59+08:00
+
+---
 
 ## __Scrabble Word/Letter Score__
 

@@ -10,13 +10,16 @@ tags:
 
 - HKUST COMP 1029J
 
-<!-- list separator -->
+---
 
+- title: Exercise for Lesson 3
 - due: 2024-01-16T23:59:59+08:00
 - points: 100
 - submitting: a file upload
 - file types: java
 - available: until 2024-01-16T23:59:59+08:00
+
+---
 
 ## __Dim Sum Ordering System__
 
