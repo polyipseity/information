@@ -33,7 +33,7 @@ Buyers' power is high if {@{there are many alternatives, and low if there are fe
 
 ### bargaining power of suppliers
 
-Suppliers' power is high if {@{there are few suppliers, and low if there are many}@}. <!--SR:!2025-03-03,191,310-->
+Suppliers' power is high if {@{there are few suppliers, and low if there are many}@}. <!--SR:!2027-06-01,819,330-->
 
 ### industry rivalry
 

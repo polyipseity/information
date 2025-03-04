@@ -14,7 +14,7 @@ In [mathematics](mathematics.md), {@{the __mex__ \("<!-- markdown separator -->_
 
 Beyond sets, {@{[subclasses](subclass%20(set%20theory).md) of well-ordered [classes](class%20(set%20theory).md) have minimum excluded values}@}. {@{Minimum excluded values of subclasses of the [ordinal numbers](ordinal%20number.md)}@} are {@{used in [combinatorial game theory](combinatorial%20game%20theory.md)}@} to {@{assign [nim-values](Sprague–Grundy%20theorem.md) to [impartial games](impartial%20game.md)}@}. According to {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, {@{the nim-value of a game position}@} is {@{the minimum excluded value of the class of values of the positions that can be reached in a single move from the given position}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-11-27,275,330!2025-08-18,180,310!2025-10-24,247,330!2025-11-29,276,330!2025-05-15,114,290!2025-11-21,269,330!2025-04-18,87,270-->
 
-{@{Minimum excluded values}@} are also {@{used in [graph theory](graph%20theory.md), in [greedy coloring](greedy%20coloring.md) algorithms}@}. These algorithms typically {@{choose an ordering of the vertices of a graph and choose a numbering of the available vertex colors}@}. They then {@{consider the vertices in order}@}, for {@{each vertex choosing its color to be the minimum excluded value of the set of colors already assigned to its neighbors}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-01,254,330!2025-11-28,276,330!2025-07-23,169,310!2025-03-02,67,310!2025-05-23,111,290-->
+{@{Minimum excluded values}@} are also {@{used in [graph theory](graph%20theory.md), in [greedy coloring](greedy%20coloring.md) algorithms}@}. These algorithms typically {@{choose an ordering of the vertices of a graph and choose a numbering of the available vertex colors}@}. They then {@{consider the vertices in order}@}, for {@{each vertex choosing its color to be the minimum excluded value of the set of colors already assigned to its neighbors}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-01,254,330!2025-11-28,276,330!2025-07-23,169,310!2025-12-23,294,330!2025-05-23,111,290-->
 
 ## examples
 
@@ -28,7 +28,7 @@ For example, in {@{a one-pile version of [Nim](Nim.md)}@}, the game starts with 
 
 If {@{we change the game so that the player to move can take up to 3 stones only}@}, then {@{with _n_ = 4 stones}@}, {@{the successor states have nimbers {1, 2, 3}, giving a mex of 0}@}. Since {@{the nimber for 4 stones is 0}@}, {@{the first player loses}@}. The second player's strategy is {@{to respond to whatever move the first player makes by taking the rest of the stones}@}. For {@{_n_ = 5 stones}@}, {@{the nimbers of the successor states of 2, 3, and 4 stones are the nimbers 2, 3, and 0 \(as we just calculated\)}@}; {@{the mex of the set of nimbers {0, 2, 3} is the nimber 1}@}, so {@{starting with 5 stones in this game is a win for the first player}@}. <!--SR:!2025-11-28,276,330!2025-11-25,273,330!2025-08-13,185,310!2025-10-21,244,330!2025-11-25,273,330!2025-05-18,117,290!2025-10-20,243,330!2025-11-22,271,330!2025-11-01,254,330!2025-05-16,115,290-->
 
-{@{See [nimbers](nimber.md)}@} for {@{more details on the meaning of nimber values}@}. <!--SR:!2025-11-28,276,330!2025-03-02,67,310-->
+{@{See [nimbers](nimber.md)}@} for {@{more details on the meaning of nimber values}@}. <!--SR:!2025-11-28,276,330!2025-12-22,293,330-->
 
 ## references
 

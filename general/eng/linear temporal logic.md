@@ -44,8 +44,8 @@ We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The 
 
 The additional logical operators are defined as follows:
 
-- and ::@:: φ ∧ ψ ≡ ¬\(¬φ ∨ ¬ψ\) <!--SR:!2025-03-21,83,343!2025-03-02,67,330-->
-- implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2025-12-12,287,337!2025-03-02,67,330-->
+- and ::@:: φ ∧ ψ ≡ ¬\(¬φ ∨ ¬ψ\) <!--SR:!2025-03-21,83,343!2026-01-09,312,350-->
+- implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2025-12-12,287,337!2026-01-09,312,350-->
 - material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\) <!--SR:!2025-12-27,302,350!2025-03-16,79,343-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2025-03-16,79,343!2025-03-15,78,343-->
 - false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2025-03-17,79,343!2025-10-26,249,337-->
@@ -60,13 +60,13 @@ The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as f
 
 Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, with semantics {@{similar to that of the until operator but the stop condition is not required to occur \(similar to release\)}@}.<sup>[\[8\]](#^ref-8)</sup> It is sometimes useful since {@{both __U__ and __R__ can be defined in terms of the weak until}@}: <!--SR:!2025-03-19,81,343!2025-03-15,78,343!2025-07-14,152,310-->
 
-- __w__<!-- markdown separator -->eak until (annotation: in terms of _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_) ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2025-05-06,102,303!2025-03-02,58,277-->
+- __w__<!-- markdown separator -->eak until (annotation: in terms of _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_) ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2025-05-06,102,303!2025-08-09,159,277-->
 - __u__<!-- markdown separator -->ntil (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2025-05-26,124,297!2025-06-16,143,323-->
 - __r__<!-- markdown separator -->elease (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2025-05-15,97,263!2025-05-25,114,303-->
 
 {@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2025-03-11,74,330!2025-03-15,78,343!2025-11-04,255,343!2025-07-15,163,317-->
 
-- strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2025-03-04,39,243!2025-07-23,150,283-->
+- strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2025-06-07,95,243!2025-07-23,150,283-->
 
 {@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2025-03-15,78,343-->
 
@@ -80,7 +80,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 | {@{_ψ_ __U__ _φ_}@}                          | {@{$$\psi \;{\mathcal {U} }\,\varphi$$}@} | {@{__U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position.}@}                                   | {@{![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg)}@}                                                                                                                         |
 | {@{_ψ_ __R__ _φ_}@}                          | {@{$$\psi \;{\mathcal {R} }\,\varphi$$}@} | {@{__R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever.}@} | {@{![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg)}@} |
 | {@{_ψ_ __W__ _φ_}@}                          | {@{$$\psi \;{\mathcal {W} }\,\varphi$$}@} | {@{__W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever.}@}            | {@{![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg)}@}          |
-| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2025-03-16,79,343!2025-11-04,257,337!2025-11-29,276,330!2025-03-02,67,330!2025-09-06,206,330!2025-09-22,218,330!2025-03-02,67,330!2025-11-12,263,337!2025-03-18,80,343!2025-12-29,303,350!2025-12-24,299,350!2025-03-16,79,343!2025-03-15,78,343!2025-03-16,79,343!2025-03-15,78,343!2025-06-28,143,310!2025-03-15,78,343!2025-12-16,292,350!2025-11-07,258,343!2025-03-15,78,343!2026-01-01,306,350!2025-03-12,75,330!2025-11-09,261,337!2025-07-13,151,310!2025-03-16,79,343!2025-08-21,193,317!2025-03-16,79,343!2025-07-12,150,310-->
+| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2025-03-16,79,343!2025-11-04,257,337!2025-11-29,276,330!2026-01-08,311,350!2025-09-06,206,330!2025-09-22,218,330!2026-01-05,308,350!2025-11-12,263,337!2025-03-18,80,343!2025-12-29,303,350!2025-12-24,299,350!2025-03-16,79,343!2025-03-15,78,343!2025-03-16,79,343!2025-03-15,78,343!2025-06-28,143,310!2025-03-15,78,343!2025-12-16,292,350!2025-11-07,258,343!2025-03-15,78,343!2026-01-01,306,350!2025-03-12,75,330!2025-11-09,261,337!2025-07-13,151,310!2025-03-16,79,343!2025-08-21,193,317!2025-03-16,79,343!2025-07-12,150,310-->
 
 ## equivalences
 
@@ -107,7 +107,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 > __flashcards__
 >
 > - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2025-12-25,300,350!2025-11-10,262,337-->
-> - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2025-03-15,78,343!2025-03-02,67,330-->
+> - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2025-03-15,78,343!2026-01-09,312,350-->
 > - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2025-06-13,141,323!2025-11-01,254,330-->
 > - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2025-03-15,78,343!2025-03-10,73,330-->
 
@@ -130,7 +130,7 @@ All the formulas of LTL can be {@{transformed into _negation normal form_}@}, wh
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2025-09-18,203,317!2025-11-02,255,330-->
 - only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2025-03-16,79,343!2025-03-15,78,343-->
 
-{@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2025-03-13,76,330!2025-11-07,259,337!2025-03-09,73,343!2025-03-02,67,330!2025-03-11,74,330-->
+{@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2025-03-13,76,330!2025-11-07,259,337!2025-03-09,73,343!2025-10-07,218,330!2025-03-11,74,330-->
 
 ## relations with other logics
 
@@ -164,7 +164,7 @@ More generally, safety properties are {@{those for which every [counterexample](
 <!-- markdownlint-disable-next-line MD036 -->
 __specification language__
 
-{@{One of the applications of linear temporal logic}@} is {@{the specification of [preferences](preference.md)}@} in {@{the [Planning Domain Definition Language](Planning%20Domain%20Definition%20Language.md)}@} for {@{the purpose of [preference-based planning](preference-based%20planning.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2025-03-16,79,343!2025-03-02,67,330!2025-03-10,73,330!2025-03-12,75,330-->
+{@{One of the applications of linear temporal logic}@} is {@{the specification of [preferences](preference.md)}@} in {@{the [Planning Domain Definition Language](Planning%20Domain%20Definition%20Language.md)}@} for {@{the purpose of [preference-based planning](preference-based%20planning.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2025-03-16,79,343!2026-01-08,311,350!2025-03-10,73,330!2025-03-12,75,330-->
 
 ## extensions
 

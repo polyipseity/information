@@ -88,7 +88,7 @@ The solution is as below, which matches with our physical intuition:
 
 > [!tip] tips
 >
-> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::@:: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$, matching the given initial values. <!--SR:!2027-08-10,1026,356!2025-03-03,275,348-->
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::@:: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$, matching the given initial values. <!--SR:!2027-08-10,1026,356!2027-10-10,951,348-->
 
 ### sinusoidal driving force
 

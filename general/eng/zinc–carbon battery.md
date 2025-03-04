@@ -24,7 +24,7 @@ For [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md):
 
 For [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md):
 
-- cathode for [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md) ::@:: ZnCl<sub>2</sub>(aq) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) + 2e<sup>-</sup> → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s) + 2Cl<sup>-</sup>(aq) <!--SR:!2025-03-02,94,150!2025-04-18,243,252-->
+- cathode for [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md) ::@:: ZnCl<sub>2</sub>(aq) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) + 2e<sup>-</sup> → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s) + 2Cl<sup>-</sup>(aq) <!--SR:!2025-07-22,141,150!2025-04-18,243,252-->
 - overall for [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md) ::@:: Zn(s) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s) <!--SR:!2026-01-13,535,250!2025-04-25,263,272-->
 
 ## references

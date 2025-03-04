@@ -77,10 +77,10 @@ return chain.from_iterable(await gather(
 - waxing [crescent](crescent.md)→::@::←first quarter <!--SR:!2026-02-23,390,310!2025-07-30,295,330-->
 - first quarter→::@::←waxing gibbous <!--SR:!2026-05-12,471,310!2025-10-30,273,290-->
 - waxing gibbous→::@::←[full moon](full%20moon.md) <!--SR:!2025-06-23,273,330!2025-04-16,218,330-->
-- [full moon](full%20moon.md)→::@::←waning gibbous <!--SR:!2025-03-03,170,310!2025-07-21,291,330-->
+- [full moon](full%20moon.md)→::@::←waning gibbous <!--SR:!2027-03-04,730,330!2025-07-21,291,330-->
 - waning gibbous→::@::←last quarter <!--SR:!2025-04-24,224,330!2025-08-14,310,330-->
 - last quarter→::@::←waning [crescent](cresceent.md) <!--SR:!2026-04-18,434,290!2025-06-23,268,330-->
-- waning [crescent](cresceent.md)→::@::←_(end)_ <!--SR:!2025-04-11,214,330!2025-03-04,170,310-->
+- waning [crescent](cresceent.md)→::@::←_(end)_ <!--SR:!2025-04-11,214,330!2027-03-05,731,330-->
 
 <!--/pytextgen-->
 

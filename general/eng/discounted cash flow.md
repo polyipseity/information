@@ -72,7 +72,7 @@ If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite
 
 ### continuous cash flows
 
-For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2025-05-05,71,329!2025-04-18,57,310!2025-03-03,19,250!2025-03-15,28,270-->
+For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2025-05-05,71,329!2025-04-18,57,310!2025-05-12,69,270!2025-03-15,28,270-->
 
 ## discount rate
 
@@ -107,7 +107,7 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 - [Adjusted present value](adjusted%20present%20value.md) approach \(APV\)
   - (annotation: adjusted present value) ::@:: Discount the cash flows before allowing for the debt capital \(but allowing for the tax relief obtained on the debt capital\) <!--SR:!2025-03-20,31,270!2025-03-10,24,269-->
   - (annotation: adjusted present value) Advantages: ::@:: Simpler to apply if a specific project is being valued which does not have earmarked debt capital finance <!--SR:!2025-04-04,43,290!2025-04-05,46,290-->
-  - (annotation: adjusted present value) Disadvantages: ::@:: Requires judgement on choice of discount rate; no explicit allowance for cost of debt capital, which may be much higher than a [risk-free rate](risk-free%20rate.md) <!--SR:!2025-05-07,73,329!2025-03-03,19,250-->
+  - (annotation: adjusted present value) Disadvantages: ::@:: Requires judgement on choice of discount rate; no explicit allowance for cost of debt capital, which may be much higher than a [risk-free rate](risk-free%20rate.md) <!--SR:!2025-05-07,73,329!2025-05-13,70,270-->
 - [Weighted average cost of capital](weighted%20average%20cost%20of%20capital.md) approach \(WACC\)
   - (annotation: weighted average cost of capital) ::@:: Derive a weighted cost of the capital obtained from the various sources and use that discount rate to discount the unlevered free cash flows from the project <!--SR:!2025-03-06,21,250!2025-03-18,29,270-->
   - (annotation: weighted average cost of capital) Advantages: ::@:: Overcomes the requirement for debt capital finance to be earmarked to particular projects <!--SR:!2025-03-14,26,270!2025-05-08,74,329-->

@@ -40,7 +40,7 @@ More specifically, for {@{any scalar field $f$ and any vector field $\mathbf {F}
 
 - (annotation: gradient, component) ::@:: $$\left(\mathbf {e} _{i}{\partial  \over \partial x_{i} }\right)f:={\partial  \over \partial x_{i} }(\mathbf {e} _{i}f)={\partial f \over \partial x_{i} }\mathbf {e} _{i}$$ <!--SR:!2025-03-10,15,290!2025-03-11,16,290-->
 - (annotation: divergence, component) ::@:: $$\left(\mathbf {e} _{i}{\partial  \over \partial x_{i} }\right)\cdot \mathbf {F} :={\partial  \over \partial x_{i} }(\mathbf {e} _{i}\cdot \mathbf {F} )={\partial F_{i} \over \partial x_{i} }$$ <!--SR:!2025-03-10,15,290!2025-03-09,14,290-->
-- (annotation: curl, component _x_) ::@:: $$\left(\mathbf {e} _{x}{\partial  \over \partial x}\right)\times \mathbf {F} :={\partial  \over \partial x}(\mathbf {e} _{x}\times \mathbf {F} )={\partial  \over \partial x}(0,-F_{z},F_{y})$$ <!--SR:!2025-03-03,9,250!2025-03-09,14,290-->
+- (annotation: curl, component _x_) ::@:: $$\left(\mathbf {e} _{x}{\partial  \over \partial x}\right)\times \mathbf {F} :={\partial  \over \partial x}(\mathbf {e} _{x}\times \mathbf {F} )={\partial  \over \partial x}(0,-F_{z},F_{y})$$ <!--SR:!2025-04-06,33,270!2025-03-09,14,290-->
 - (annotation: curl, component _y_) ::@:: $$\left(\mathbf {e} _{y}{\partial  \over \partial y}\right)\times \mathbf {F} :={\partial  \over \partial y}(\mathbf {e} _{y}\times \mathbf {F} )={\partial  \over \partial y}(F_{z},0,-F_{x})$$ <!--SR:!2025-03-10,15,290!2025-03-06,12,270-->
 - (annotation: curl, component _z_) ::@:: $$\left(\mathbf {e} _{z}{\partial  \over \partial z}\right)\times \mathbf {F} :={\partial  \over \partial z}(\mathbf {e} _{z}\times \mathbf {F} )={\partial  \over \partial z}(-F_{y},F_{x},0),$$ <!--SR:!2025-03-06,11,270!2025-03-11,16,290-->
 
@@ -62,7 +62,7 @@ Del is used as {@{a shorthand form to simplify many long mathematical expression
 
 It always {@{points in the [direction](direction%20(geometry).md) of greatest increase of $f$}@}, and it has {@{a [magnitude](magnitude%20(mathematics).md) equal to the maximum rate of increase at the point}@}—just like {@{a standard derivative}@}. In particular, if {@{a hill is defined as a height function over a plane $h(x,y)$}@}, {@{the gradient at a given location}@} will be {@{a vector in the xy-plane \(visualizable as an arrow on a map\) pointing along the steepest direction}@}. {@{The magnitude of the gradient}@} is {@{the value of this steepest slope}@}. <!--SR:!2025-03-11,16,290!2025-03-10,15,290!2025-03-11,16,290!2025-03-09,14,290!2025-03-10,15,290!2025-03-09,14,290!2025-03-09,14,290!2025-03-11,16,290-->
 
-In particular, this notation is powerful because {@{the gradient product rule looks very similar to the 1d-derivative case}@}: {@{$$\nabla (fg)=f\nabla g+g\nabla f$$}@} However, {@{the rules for [dot products](dot%20product.md) do not turn out to be simple}@}, as illustrated by: {@{$$\nabla (\mathbf {u} \cdot \mathbf {v} )=(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u} +\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )$$}@} <!--SR:!2025-03-11,16,290!2025-03-10,15,290!2025-03-11,16,290!2025-03-04,3,210-->
+In particular, this notation is powerful because {@{the gradient product rule looks very similar to the 1d-derivative case}@}: {@{$$\nabla (fg)=f\nabla g+g\nabla f$$}@} However, {@{the rules for [dot products](dot%20product.md) do not turn out to be simple}@}, as illustrated by: {@{$$\nabla (\mathbf {u} \cdot \mathbf {v} )=(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u} +\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )$$}@} <!--SR:!2025-03-11,16,290!2025-03-10,15,290!2025-03-11,16,290!2025-03-10,6,210-->
 
 ### divergence
 
@@ -80,7 +80,7 @@ The divergence is roughly {@{a measure of a vector field's increase in the direc
 
 {@{The vector product operation}@} can be visualized as {@{a pseudo-[determinant](determinant.md)}@}: {@{$$\nabla \times \mathbf {v} =\left|{\begin{matrix}{\hat {\mathbf {x} } }&{\hat {\mathbf {y} } }&{\hat {\mathbf {z} } }\\[2pt]{\frac {\partial }{\partial x} }&{\frac {\partial }{\partial y} }&{\frac {\partial }{\partial z} }\\[2pt]v_{x}&v_{y}&v_{z}\end{matrix} }\right|$$}@} <!--SR:!2025-03-09,14,290!2025-03-10,15,290!2025-03-09,14,290-->
 
-Again {@{the power of the notation}@} is shown by {@{the product rule}@}: {@{$$\nabla \times (f\mathbf {v} )=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$$}@} {@{The rule for the vector product}@} does not turn out to be simple: {@{$$\nabla \times (\mathbf {u} \times \mathbf {v} )=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$$}@} <!--SR:!2025-03-10,15,290!2025-03-10,15,290!2025-03-11,16,290!2025-03-05,10,270!2025-03-03,9,250-->
+Again {@{the power of the notation}@} is shown by {@{the product rule}@}: {@{$$\nabla \times (f\mathbf {v} )=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$$}@} {@{The rule for the vector product}@} does not turn out to be simple: {@{$$\nabla \times (\mathbf {u} \times \mathbf {v} )=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$$}@} <!--SR:!2025-03-10,15,290!2025-03-10,15,290!2025-03-11,16,290!2025-03-05,10,270!2025-03-28,24,250-->
 
 ### directional derivative
 
@@ -119,10 +119,10 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > - $\nabla (fg)$ ::@:: $=f\nabla g+g\nabla f$ <!--SR:!2025-03-09,14,290!2025-03-09,14,290-->
 > - $\nabla (\mathbf {u} \cdot \mathbf {v} )$ ::@:: $=\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )+(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u}$ <!--SR:!2025-03-20,19,250!2025-03-06,11,270-->
 > - $\nabla \cdot (f\mathbf {v} )$ ::@:: $=f(\nabla \cdot \mathbf {v} )+\mathbf {v} \cdot (\nabla f)$ <!--SR:!2025-03-05,10,270!2025-03-09,14,290-->
-> - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-03-02,5,250!2025-03-03,9,250-->
+> - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-03-18,14,250!2025-03-28,24,250-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2025-03-20,19,250!2025-03-11,16,290-->
-> - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-03-06,11,270!2025-03-02,8,250-->
-> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-03-12,13,230!2025-03-02,8,250-->
+> - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-03-06,11,270!2025-03-24,20,250-->
+> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-03-12,13,230!2025-03-25,21,250-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2025-03-09,14,290!2025-03-26,25,270-->
 
 ## second derivatives
@@ -147,9 +147,9 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{Two of them are always equal}@}: {@{$$\operatorname {div} (\operatorname {grad} f)=\nabla \cdot (\nabla f)=\nabla ^{2}f=\Delta f$$}@} <!--SR:!2025-03-09,14,290!2025-03-09,14,290-->
 
-{@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2025-03-10,15,290!2025-03-02,8,250-->
+{@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2025-03-10,15,290!2025-03-23,19,250-->
 
-And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2025-03-06,11,270!2025-03-04,3,210-->
+And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2025-03-06,11,270!2025-03-10,6,210-->
 
 ## precautions
 

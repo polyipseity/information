@@ -15,7 +15,7 @@ An __acid__ is {@{a [molecule](molecule.md) or [ion](ion.md) that can donate a [
 
 It is {@{an [electrolyte](electrolyte.md)}@}, tastes {@{sour}@}, turns {@{blue [litmus](litmus.md) red}@}, reacts with some [metals](metal.md) to {@{form [salts](salt%20(chemistry).md)}@}, and [neutralizes](neutralization%20(chemistry).md) {@{[bases](base%20(chemistry).md) to form [salts](salt%20(chemistry).md)}@}. {@{[Strong acids](acid%20strength.md) and some concentrated weak acids}@} are [corrosive](corrsive%20substance.md). <!--SR:!2025-08-30,622,310!2028-04-14,1437,350!2025-04-12,560,310!2025-11-10,625,270!2028-12-07,1555,310!2028-06-05,1418,310-->
 
-Common aqueous acids include {@{[hydrochloric acid](hydrochloric%20acid) (HCl), [sulfuric acid](sulfuric%20acid.md) (H<sub>2</sub>SO<sub>4</sub>), and [nitric acid](nitric%20acid.md) (HNO<sub>3</sub>)}@}. These three are also called {@{[mineral acids](mineral%20acid.md) because they are [inorganic](inorganic%20chemistry.md)}@}. <!--SR:!2028-02-27,1400,350!2025-03-03,520,310-->
+Common aqueous acids include {@{[hydrochloric acid](hydrochloric%20acid) (HCl), [sulfuric acid](sulfuric%20acid.md) (H<sub>2</sub>SO<sub>4</sub>), and [nitric acid](nitric%20acid.md) (HNO<sub>3</sub>)}@}. These three are also called {@{[mineral acids](mineral%20acid.md) because they are [inorganic](inorganic%20chemistry.md)}@}. <!--SR:!2028-02-27,1400,350!2031-04-12,2230,330-->
 
 ## nomenclature
 

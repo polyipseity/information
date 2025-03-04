@@ -23,7 +23,7 @@ tags:
 
 ### sensitivity
 
-Sensitivity, is also called {@{recall, true positive rate, or detection rate in a clinical setting}@}. Mathematically, it can be expressed as: {@{$$\text{sensitivity} = \frac {\text{TP} } {\text{TP} + \text{FN} }$$}@}, where {@{TP are true positives and FN are false negatives (see [false positives and false negatives](false%20positives%20and%20false%20negatives.md))}@}. <!--SR:!2025-03-02,178,270!2025-06-27,289,330!2027-05-10,810,330-->
+Sensitivity, is also called {@{recall, true positive rate, or detection rate in a clinical setting}@}. Mathematically, it can be expressed as: {@{$$\text{sensitivity} = \frac {\text{TP} } {\text{TP} + \text{FN} }$$}@}, where {@{TP are true positives and FN are false negatives (see [false positives and false negatives](false%20positives%20and%20false%20negatives.md))}@}. <!--SR:!2027-01-06,673,290!2025-06-27,289,330!2027-05-10,810,330-->
 
 ### specificity
 

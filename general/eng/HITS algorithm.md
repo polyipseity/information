@@ -74,7 +74,7 @@ Notice that both iterations involve {@{left multiplying the authority vector by 
 
 ### hub update rule
 
-For each $p$, we {@{update $h(p)$ to $h(p) = \sum_{q \in p_{\text{from} } } a(q)$ where $p_{\text{from} }$ are all pages linked from $p$}@}. That is, a page's hub value is {@{the sum of the authority values of nodes it points to}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_k$ for async iteration and $\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_{k - 1}$ for sync iteration}@}. <!--SR:!2025-04-20,237,334!2025-03-03,195,314!2025-05-07,251,334!2025-03-21,211,334-->
+For each $p$, we {@{update $h(p)$ to $h(p) = \sum_{q \in p_{\text{from} } } a(q)$ where $p_{\text{from} }$ are all pages linked from $p$}@}. That is, a page's hub value is {@{the sum of the authority values of nodes it points to}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_k$ for async iteration and $\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_{k - 1}$ for sync iteration}@}. <!--SR:!2025-04-20,237,334!2027-06-28,847,334!2025-05-07,251,334!2025-03-21,211,334-->
 
 Consider the hub vector after several updates (without normalization):
 

@@ -20,7 +20,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-The __Kepler's laws of planetary motion__ describe {@{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}@}. They were {@{published by [Johannes Kepler](Johannes%20Kepler.md) between 1609 and 1619}@}. They state that: <!--SR:!2026-01-05,712,310!2025-03-04,173,310-->
+The __Kepler's laws of planetary motion__ describe {@{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}@}. They were {@{published by [Johannes Kepler](Johannes%20Kepler.md) between 1609 and 1619}@}. They state that: <!--SR:!2026-01-05,712,310!2026-08-21,535,310-->
 
 ```Python
 # pytextgen generate data

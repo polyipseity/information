@@ -383,8 +383,8 @@ return await memorize_map(
 - [silver ethanoate](silver%20ethanoate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-08-23,455,298-->
 - [silver iodide](silver%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-06-11,404,298-->
 - [silver nitrate](silver%20nitrate.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-06-24,692,318-->
-- [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-03-04,34,130-->
-- [sodium carbonate](sodium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-03-02,333,298-->
+- [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-04-15,42,130-->
+- [sodium carbonate](sodium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-11-21,992,298-->
 - [sodium chloride](sodium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-09-04,807,338-->
 - [sodium fluoride](sodium%20fluoride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-01-28,587,318-->
 - [sodium hydroxide](sodium%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-07-27,777,338-->
@@ -392,7 +392,7 @@ return await memorize_map(
 - [sodium phosphate](sodium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-05-03,823,278-->
 - [sodium sulfide](sodium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-11-23,720,278-->
 - [sodium sulfite](sodium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-10-11,460,278-->
-- [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-03-03,6,130-->
+- [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-03-15,11,150-->
 - [strontium oxide](strontium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2025-03-09,321,278-->
 - [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-11,196,158-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-03-09,504,258-->

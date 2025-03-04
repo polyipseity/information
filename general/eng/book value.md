@@ -34,7 +34,7 @@ In {@{the United Kingdom}@}, {@{the term [net asset value](net%20asset%20value.m
 
 {@{The balance sheet valuation for an asset}@} is {@{the asset's cost basis minus accumulated depreciation}@}.<sup>[\[8\]](#^ref-8)</sup> Similar bookkeeping transactions are used to {@{record amortization and depletion}@}. <!--SR:!2025-04-07,65,310!2025-04-07,65,310!2025-03-21,48,290-->
 
-"{@{Discount on notes payable}@}" is {@{a contra-liability account}@} which {@{decreases the balance sheet valuation of the liability}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-02,61,310!2025-03-26,55,310!2025-03-02,33,270-->
+"{@{Discount on notes payable}@}" is {@{a contra-liability account}@} which {@{decreases the balance sheet valuation of the liability}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-02,61,310!2025-03-26,55,310!2025-06-02,91,270-->
 
 When {@{a company sells \(issues\) [bonds](bond%20(finance).md)}@}, this debt is {@{a [long-term liability](long-term%20liability.md) on the company's balance sheet}@}, recorded in {@{the account Bonds Payable based on the contract amount}@}. After {@{the bonds are sold}@}, {@{the book value of Bonds Payable}@} is {@{increased or decreased to reflect the actual amount received in payment for the bonds}@}. If {@{the bonds sell for less than [face value](face%20value.md)}@}, {@{the contra account Discount on Bonds Payable}@} is {@{debited for the difference between the amount of cash received and the face value of the bonds}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-03-29,58,310!2025-03-25,54,310!2025-03-27,56,310!2025-03-26,55,310!2025-03-20,47,290!2025-03-12,43,290!2025-03-28,57,310!2025-03-17,45,290!2025-03-12,43,290-->
 
@@ -48,7 +48,7 @@ Financial assets include {@{stock shares and bonds owned by an individual or com
 
 ## corporate book value
 
-{@{A company or corporation's book value}@}, as {@{an asset held by a separate economic entity}@}, is {@{the company or corporation's [shareholders' equity](shareholders'%20equity.md)}@}, {@{the acquisition cost of the shares}@}, or {@{the market value of the shares owned by the separate economic entity}@}. <!--SR:!2025-04-08,66,310!2025-04-05,63,310!2025-03-04,38,290!2025-04-03,62,310!2025-04-07,65,310-->
+{@{A company or corporation's book value}@}, as {@{an asset held by a separate economic entity}@}, is {@{the company or corporation's [shareholders' equity](shareholders'%20equity.md)}@}, {@{the acquisition cost of the shares}@}, or {@{the market value of the shares owned by the separate economic entity}@}. <!--SR:!2025-04-08,66,310!2025-04-05,63,310!2025-08-03,152,310!2025-04-03,62,310!2025-04-07,65,310-->
 
 A corporation's book value is used {@{in fundamental financial analysis to help determine whether the market value of corporate shares}@} is {@{above or below the book value of corporate shares}@}. {@{Neither market value nor book value}@} is {@{an unbiased estimate of a corporation's value}@}. {@{The corporation's bookkeeping or accounting records}@} {@{do not generally reflect the market value of assets and liabilities}@}, and {@{the market or trade value of the corporation's stock}@} is {@{subject to variations}@}. <!--SR:!2025-03-18,46,290!2025-04-01,60,310!2025-04-04,63,310!2025-03-26,55,310!2025-04-04,63,310!2025-03-16,47,290!2025-03-27,56,310!2025-04-06,64,310-->
 
@@ -62,7 +62,7 @@ Since {@{tangible common equity subtracts preferred equity from the tangible boo
 
 To {@{clearly distinguish the [market price](market%20value.md) of shares}@} from {@{the core [ownership equity](ownership%20equity.md) or [shareholders' equity](shareholders'%20equity.md)}@}, {@{the term _book value_}@} is often used since it {@{focuses on the values that have been added and subtracted in the accounting books of a business \(assets – liabilities\)}@}. The term is also used to distinguish between {@{the [market price](market%20value.md) of any asset and its accounting value}@} which {@{depends more on [historical cost](historical%20cost.md) and [depreciation](depreciation.md)}@}. It may be {@{used interchangeably with carrying value}@}. While {@{it can be used to refer to the business' total [equity](ownership%20equity.md)}@}, it is most often used: <!--SR:!2025-04-04,63,310!2025-03-18,46,290!2025-04-04,63,310!2025-04-03,62,310!2025-04-04,63,310!2025-03-26,55,310!2025-03-26,55,310!2025-04-04,63,310-->
 
-- As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2025-03-02,33,270!2025-03-17,45,290-->
+- As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2025-05-30,88,270!2025-03-17,45,290-->
 - As a _diluted per share value_: ::@:: The equity is bumped up by the exercise price of the options, warrants or preferred shares. Then it is divided by the number of shares that has been increased by those added. <!--SR:!2025-03-20,47,290!2025-03-28,57,310-->
 
 ### uses of books
