@@ -192,6 +192,7 @@ The content is in teaching order.
   - annuity / relation to perpetuity ::@:: You can interpret as an annuity as a perpetuity that you transfer away to others for free at annuity end (after getting the cash flow for annuity end). <p> This gives the equation for an annuity directly by subtracting the PV of the perpetuity at annuity end from the PV of perpetuity at annuity start.
   - annuity / equation for PV ::@:: $$PV = \frac C r \left(1 - \frac 1 {(1 + r)^t} \right) \,,$$ where $t$ is the number of periods. <p> This equation assumes the annuity is an ordinary annuity. For annuity due, multiply by $1 + r$, which advances all payments backward in time by 1 period.
   - annuity / equation for FV ::@:: Just multiply the PV formula by $(1 + r)^t$, where $t$ is the number of periods in the future. This is because the annuity has the same value as a lump-sum of PV amount. <p> This changes the above equation to: $$FV = \frac C r \left((1 + r)^t - 1 \right) \,,$$ if $FV$ is evaluated at the annuity end.
+  - annuity / note ::@:: If a question does not explicitly mention if an annuity is ordinary or due, assume ordinary.
 - [questions § week 2 lecture 2](questions.md#week%202%20lecture%202)
 - [TAPPS/week 2 lecture 2](assignments/TAPPS/week%202%20lecture%202.md)
 - readings: chapter 4
