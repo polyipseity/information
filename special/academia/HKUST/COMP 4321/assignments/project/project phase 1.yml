@@ -28,7 +28,8 @@ assignment:
     file types:
     - zip
     points: 10
-    submitting: a file upload
+    submitting:
+    - a file upload
   submissions:
   - datetime: 2024-03-31 23:55:00+08:00
     id: -1
