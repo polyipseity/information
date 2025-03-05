@@ -9,6 +9,7 @@ aliases:
   - HKUST FINA2303 TAPPS - week 3 lecture 2
   - HKUST FINA2303 thinking aloud paired problem solving - week 3 lecture 2
 tags:
+  - date/2025/02/21
   - flashcard/active/special/academia/HKUST/FINA_2303/assignments/TAPPS/week_3_lecture_2
   - language/in/English
 ---
