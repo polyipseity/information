@@ -28,7 +28,7 @@ Although {@{the terms "countable" and "countably infinite" as defined here are q
 A set $S$ is {@{_countable_}@} if: <!--SR:!2025-08-31,189,310-->
 
 - countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-07-02,130,290!2025-05-13,101,290-->
-- countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-03-06,56,310!2025-07-27,163,310-->
+- countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-11-02,241,330!2025-07-27,163,310-->
 - countable, function to ::@:: $S$ is empty or there exists a [surjective function](surjective%20function.md) from $\mathbb {N}$ to $S$.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-07-19,156,310!2025-06-09,124,290-->
 - countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-08,58,310!2025-05-13,102,290-->
 - countable, finiteness ::@:: $S$ is either [finite](finite%20set.md) \($|S|<\aleph _{0}$\) or countably infinite.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-08,58,310!2025-03-11,60,310-->
@@ -68,7 +68,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 {@{Every countably infinite set}@} is {@{countable}@}, and {@{every infinite countable set}@} is {@{countably infinite}@}. Furthermore, {@{any subset of the natural numbers is countable}@}, and more generally: <!--SR:!2025-03-13,62,310!2025-06-01,118,290!2025-03-11,60,310!2025-03-13,62,310!2025-03-07,57,310-->
 
-> Theorem — A subset of {@{a countable set is countable}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-03-06,56,310-->
+> Theorem — A subset of {@{a countable set is countable}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-11-06,245,330-->
 
 {@{The set of all [ordered pairs](ordered%20pair.md) of natural numbers}@}, {@{the [Cartesian product](Cartesian%20product.md) of two sets of natural numbers, $\mathbb {N} \times \mathbb {N}$}@} is {@{countably infinite}@}, as can be seen by {@{following a path like the one in the picture}@}: <!--SR:!2025-03-09,58,310!2025-03-10,59,310!2025-07-23,160,310!2025-03-16,64,310-->
 
@@ -90,11 +90,11 @@ In a similar manner, {@{the set of [algebraic numbers](algebraic%20number.md)}@}
 
 Sometimes {@{more than one mapping is useful}@}: a set $A$ to be shown as countable is {@{one-to-one mapped \(injection\) to another set $B$}@}, then $A$ is proved {@{as countable if $B$ is one-to-one mapped to the set of natural numbers}@}. For example, {@{the set of positive [rational numbers](rational%20number.md)}@} can {@{easily be one-to-one mapped to the set of natural number pairs \(2-tuples\) because $p/q$ maps to $(p,q)$}@}. Since {@{the set of natural number pairs is one-to-one mapped \(actually one-to-one correspondence or bijection\) to the set of natural numbers as shown above}@}, {@{the positive rational number set}@} is {@{proved as countable}@}. <!--SR:!2025-08-08,169,310!2025-03-07,57,310!2025-06-06,122,290!2025-09-03,193,310!2025-03-09,58,310!2025-03-19,67,310!2025-03-19,67,310!2025-03-19,67,310-->
 
-> Theorem — Any {@{finite [union](union%20(set%20theory).md) of countable sets}@} is countable.<sup>[\[24\]](#^ref-24)</sup><sup>[\[25\]](#^ref-25)</sup><sup>[\[e\]](#^ref-e)</sup> <!--SR:!2025-03-06,56,310-->
+> Theorem — Any {@{finite [union](union%20(set%20theory).md) of countable sets}@} is countable.<sup>[\[24\]](#^ref-24)</sup><sup>[\[25\]](#^ref-25)</sup><sup>[\[e\]](#^ref-e)</sup> <!--SR:!2025-11-03,242,330-->
 
 With {@{the foresight of knowing that there are uncountable sets}@}, we can wonder {@{whether or not this last result can be pushed any further}@}. The answer is {@{"yes" and "no", we can extend it, but we need to assume a new axiom to do so}@}. <!--SR:!2025-05-05,95,290!2025-03-07,57,310!2025-03-11,60,310-->
 
-> Theorem — \(Assuming {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}\) The {@{union of countably many countable sets}@} is countable.<sup>[\[f\]](#^ref-f)</sup> <!--SR:!2025-03-19,67,310!2025-03-06,56,310-->
+> Theorem — \(Assuming {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}\) The {@{union of countably many countable sets}@} is countable.<sup>[\[f\]](#^ref-f)</sup> <!--SR:!2025-03-19,67,310!2025-11-05,244,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -102,7 +102,7 @@ With {@{the foresight of knowing that there are uncountable sets}@}, we can wond
 >
 > {@{Enumeration for countable number of countable sets}@} <!--SR:!2025-03-18,66,310!2025-10-27,236,330-->
 
-For example, given {@{countable sets ${\textbf {a} },{\textbf {b} },{\textbf {c} },\dots$}@}, we first {@{assign each element of each set a tuple}@}, then we {@{assign each tuple an index using a variant of the triangular enumeration we saw above}@}: {@{$${\begin{array}{c|c|c }{\text{Index} }&{\text{Tuple} }&{\text{Element} }\\\hline 0&(0,0)&{\textbf {a} }_{0}\\1&(0,1)&{\textbf {a} }_{1}\\2&(1,0)&{\textbf {b} }_{0}\\3&(0,2)&{\textbf {a} }_{2}\\4&(1,1)&{\textbf {b} }_{1}\\5&(2,0)&{\textbf {c} }_{0}\\6&(0,3)&{\textbf {a} }_{3}\\7&(1,2)&{\textbf {b} }_{2}\\8&(2,1)&{\textbf {c} }_{1}\\9&(3,0)&{\textbf {d} }_{0}\\10&(0,4)&{\textbf {a} }_{4}\\\vdots &&\end{array} }$$}@} We need {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md) to index _all_ the sets ${\textbf {a} },{\textbf {b} },{\textbf {c} },\dots$ simultaneously}@}. <!--SR:!2025-03-14,63,310!2025-08-02,168,310!2025-03-06,56,310!2025-06-11,124,290!2025-05-09,99,290-->
+For example, given {@{countable sets ${\textbf {a} },{\textbf {b} },{\textbf {c} },\dots$}@}, we first {@{assign each element of each set a tuple}@}, then we {@{assign each tuple an index using a variant of the triangular enumeration we saw above}@}: {@{$${\begin{array}{c|c|c }{\text{Index} }&{\text{Tuple} }&{\text{Element} }\\\hline 0&(0,0)&{\textbf {a} }_{0}\\1&(0,1)&{\textbf {a} }_{1}\\2&(1,0)&{\textbf {b} }_{0}\\3&(0,2)&{\textbf {a} }_{2}\\4&(1,1)&{\textbf {b} }_{1}\\5&(2,0)&{\textbf {c} }_{0}\\6&(0,3)&{\textbf {a} }_{3}\\7&(1,2)&{\textbf {b} }_{2}\\8&(2,1)&{\textbf {c} }_{1}\\9&(3,0)&{\textbf {d} }_{0}\\10&(0,4)&{\textbf {a} }_{4}\\\vdots &&\end{array} }$$}@} We need {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md) to index _all_ the sets ${\textbf {a} },{\textbf {b} },{\textbf {c} },\dots$ simultaneously}@}. <!--SR:!2025-03-14,63,310!2025-08-02,168,310!2025-11-07,246,330!2025-06-11,124,290!2025-05-09,99,290-->
 
 > Theorem — {@{The set of all finite-length [sequences](sequence.md)}@} of natural numbers is countable. <!--SR:!2025-03-17,65,310-->
 
@@ -117,13 +117,13 @@ This set is {@{the union of the length-1 sequences, the length-2 sequences, the 
 > 1. If {@{the function $f:S\to T$ is injective and $T$ is countable}@} then $S$ is countable.
 > 2. If {@{the function $g:S\to T$ is surjective and $S$ is countable}@} then $T$ is countable. <!--SR:!2025-10-19,229,330!2025-03-17,65,310-->
 
-These follow from {@{the definitions of countable set as injective / surjective functions}@}.<sup>[\[g\]](#^ref-g)</sup> <!--SR:!2025-03-06,56,310-->
+These follow from {@{the definitions of countable set as injective / surjective functions}@}.<sup>[\[g\]](#^ref-g)</sup> <!--SR:!2025-08-25,172,310-->
 
 {@{__[Cantor's theorem](Cantor's%20theorem.md)__}@} asserts that if {@{$A$ is a set and ${\mathcal {P} }(A)$ is its [power set](power%20set.md), i.e. the set of all subsets of $A$}@}, then {@{there is no surjective function from $A$ to ${\mathcal {P} }(A)$}@}. A proof is {@{given in the article [Cantor's theorem](Cantor's%20theorem.md)}@}. As {@{an immediate consequence of this and the Basic Theorem above}@} we have: <!--SR:!2025-08-01,167,310!2025-06-06,122,290!2025-03-18,66,310!2025-03-18,66,310!2025-04-28,84,270-->
 
 > Proposition — {@{The set ${\mathcal {P} }(\mathbb {N} )$}@} is {@{not countable; i.e. it is [uncountable](uncountable%20set.md)}@}. <!--SR:!2025-03-09,58,310!2025-03-09,58,310-->
 
-For {@{an elaboration of this result}@} see {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@}. <!--SR:!2025-03-18,66,310!2025-03-06,56,310-->
+For {@{an elaboration of this result}@} see {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@}. <!--SR:!2025-03-18,66,310!2025-11-07,246,330-->
 
 {@{The set of [real numbers](real%20number.md)}@} is uncountable,<sup>[\[h\]](#^ref-h)</sup> and so is {@{the set of all infinite [sequences](sequence.md) of natural numbers}@}. <!--SR:!2025-08-12,172,310!2025-10-26,236,330-->
 
@@ -167,7 +167,7 @@ In {@{both examples of well orders here}@}, {@{any subset has a _least element_}
 5. (e) __Proof:__ If {@{$A_{i}$ is a countable set for each $i$ in $I=\{1,\dots ,n\}$}@}, then {@{for each $i$ there is a surjective function $g_{i}:\mathbb {N} \to A_{i}$}@} and hence {@{the function $$G:I\times \mathbf {N} \to \bigcup _{i\in I}A_{i},$$ given by $G(i,m)=g_{i}(m)$ is a surjection}@}. Since {@{$I\times \mathbb {N}$ is countable}@}, {@{the union $\bigcup _{i\in I}A_{i}$ is countable}@}. <a id="^ref-e"></a>^ref-e
 6. (f) __Proof__: As {@{in the finite case}@}, but $I=\mathbb {N}$ and we use {@{the [axiom of countable choice](axiom%20of%20countable%20choice.md) to pick for each $i$ in $\mathbb {N}$ a surjection $g_{i}$ from the non-empty collection of surjections from $\mathbb {N}$ to $A_{i}$}@}.<sup>[\[26\]](#^ref-26)</sup> Note that since {@{we are considering the surjection $G:\mathbf {N} \times \mathbf {N} \to \bigcup _{i\in I}A_{i}$, rather than an injection}@}, there is {@{no requirement that the sets be disjoint}@}. <a id="^ref-f"></a>^ref-f
 7. (g) __Proof__: For \(1\) observe that if {@{$T$ is countable there is an injective function $h:T\to \mathbb {N}$}@}. Then if {@{$f:S\to T$ is injective the composition $h\circ f:S\to \mathbb {N}$ is injective}@}, so $S$ is countable. For \(2\) observe that if {@{$S$ is countable, either $S$ is empty or there is a surjective function $h:\mathbb {N} \to S$}@}. Then if {@{$g:S\to T$ is surjective, either $S$ and $T$ are both empty, or the composition $g\circ h:\mathbb {N} \to T$ is surjective}@}. In either case $T$ is countable. <a id="^ref-g"></a>^ref-g
-8. (h) See {@{[Cantor's first uncountability proof](Cantor's%20first%20set%20theory%20article.md), and also [Finite intersection property\#Applications](finite%20intersection%20property.md#applications)}@} for {@{a topological proof}@}. <a id="^ref-h"></a>^ref-h <!--SR:!2025-03-18,66,310!2025-03-18,66,310!2025-08-24,183,310!2025-03-17,65,310!2025-08-08,172,310!2025-03-08,58,310!2025-08-22,181,310!2025-07-10,137,290!2025-03-11,60,310!2025-03-13,50,250!2025-05-08,98,290!2025-03-12,61,310!2025-07-26,162,310!2025-09-02,192,310!2025-07-28,163,310!2025-07-03,131,290!2025-08-24,183,310!2025-07-21,158,310!2025-03-18,66,310!2025-05-01,87,270!2025-03-06,56,310!2025-10-26,235,330!2025-03-16,52,250!2025-06-08,124,290!2025-07-11,135,290!2025-03-08,58,310!2025-08-31,190,310!2025-03-21,55,250!2025-04-05,73,270!2025-08-06,171,310!2025-06-02,119,290!2025-03-18,66,310!2025-08-23,182,310!2025-04-15,76,270!2025-09-01,188,310!2025-04-15,76,270-->
+8. (h) See {@{[Cantor's first uncountability proof](Cantor's%20first%20set%20theory%20article.md), and also [Finite intersection property\#Applications](finite%20intersection%20property.md#applications)}@} for {@{a topological proof}@}. <a id="^ref-h"></a>^ref-h <!--SR:!2025-03-18,66,310!2025-03-18,66,310!2025-08-24,183,310!2025-03-17,65,310!2025-08-08,172,310!2025-03-08,58,310!2025-08-22,181,310!2025-07-10,137,290!2025-03-11,60,310!2025-03-13,50,250!2025-05-08,98,290!2025-03-12,61,310!2025-07-26,162,310!2025-09-02,192,310!2025-07-28,163,310!2025-07-03,131,290!2025-08-24,183,310!2025-07-21,158,310!2025-03-18,66,310!2025-05-01,87,270!2025-11-04,243,330!2025-10-26,235,330!2025-03-16,52,250!2025-06-08,124,290!2025-07-11,135,290!2025-03-08,58,310!2025-08-31,190,310!2025-03-21,55,250!2025-04-05,73,270!2025-08-06,171,310!2025-06-02,119,290!2025-03-18,66,310!2025-08-23,182,310!2025-04-15,76,270!2025-09-01,188,310!2025-04-15,76,270-->
 
 ## citations
 

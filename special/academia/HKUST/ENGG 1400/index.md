@@ -103,12 +103,12 @@ The content is in teaching order.
 - design thinking
   - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2026-07-12,498,402!2026-08-04,517,402-->
   - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2026-07-10,497,402!2026-02-15,355,382-->
-  - design thinking / life design: ideate ::@:: You give yourself permission to have unreserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in. <!--SR:!2026-08-03,516,402!2025-03-06,99,382-->
+  - design thinking / life design: ideate ::@:: You give yourself permission to have unreserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in. <!--SR:!2026-08-03,516,402!2026-08-07,519,402-->
   - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!2026-06-15,477,402!2026-07-10,497,402-->
   - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2025-03-09,102,382!2026-07-19,501,402-->
   - design thinking / reframing ::@:: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation. <!--SR:!2026-07-14,500,402!2025-03-07,100,382-->
 - job hunting ::@:: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)? <!--SR:!2026-08-02,515,402!2026-06-17,478,402-->
-  - job hunting / iceberg problem ::@:: visible job market (agency, jobs board, social media): 30%; hidden market (HR connection, direct application, networking): 70% <!--SR:!2025-03-06,99,382!2025-03-07,100,382-->
+  - job hunting / iceberg problem ::@:: visible job market (agency, jobs board, social media): 30%; hidden market (HR connection, direct application, networking): 70% <!--SR:!2026-08-06,518,402!2025-03-07,100,382-->
 - design thinking
   - design thinking / curiosity ::@:: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities. <!--SR:!2026-07-30,512,402!2026-06-09,471,402-->
   - design thinking / bias toward action ::@:: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time. <!--SR:!2025-03-07,100,382!2026-07-17,503,402-->
@@ -116,7 +116,7 @@ The content is in teaching order.
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2026-06-07,470,402!2026-06-08,470,402-->
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2026-07-05,493,402!2025-03-08,101,382-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2026-06-03,466,402-->
-  - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2025-03-06,99,382!2026-06-18,479,402-->
+  - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2026-08-08,520,402!2026-06-18,479,402-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2026-07-16,502,402!2026-06-19,480,402-->
 
 ## week 6 tutorial
@@ -136,7 +136,7 @@ The content is in teaching order.
   - design thinking / reframing
     - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2026-06-20,481,402!2026-06-02,465,402-->
 - sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2026-02-06,365,382!2025-03-07,100,382-->
-  - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2026-07-25,507,402!2025-03-06,99,382-->
+  - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2026-07-25,507,402!2026-08-05,517,402-->
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2026-07-08,495,402!2025-03-07,100,382-->
   - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2025-11-01,266,362!2026-07-31,513,402-->
   - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2026-07-27,509,402!2026-05-24,458,402-->

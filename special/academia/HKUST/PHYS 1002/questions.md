@@ -64,7 +64,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {@{3}@} <!--SR:!2025-03-06,189,317-->
+> - solution: {@{3}@} <!--SR:!2027-06-12,828,337-->
 
 <!-- markdownlint MD028 -->
 

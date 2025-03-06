@@ -128,7 +128,7 @@ There are {@{two [ternary operations](ternary%20operation.md)}@} involving {@{do
 
 {@{The __scalar triple product__ of three vectors}@} is defined as {@{$$\mathbf {a} \cdot (\mathbf {b} \times \mathbf {c} )=\mathbf {b} \cdot (\mathbf {c} \times \mathbf {a} )=\mathbf {c} \cdot (\mathbf {a} \times \mathbf {b} ).$$}@} Its value is {@{the [determinant](determinant.md) of the matrix whose columns are the [Cartesian coordinates](Cartesian%20coordinates.md) of the three vectors}@}. It is {@{the signed [volume](volume.md) of the [parallelepiped](parallelepiped.md) defined by the three vectors}@}, and is {@{isomorphic to the three-dimensional special case of the [exterior product](exterior%20product.md) of three vectors}@}. <!--SR:!2025-03-12,19,343!2025-03-11,18,343!2025-03-12,19,343!2025-03-11,18,343!2025-03-07,14,323-->
 
-{@{The __vector triple product__}@} is defined by<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> {@{$$\mathbf {a} \times (\mathbf {b} \times \mathbf {c} )=(\mathbf {a} \cdot \mathbf {c} )\,\mathbf {b} -(\mathbf {a} \cdot \mathbf {b} )\,\mathbf {c} .$$}@} {@{This identity, also known as _Lagrange's formula_}@}, [may be remembered](mnemonic.md) as {@{"ACB minus ABC", keeping in mind which vectors are dotted together}@}. This formula has applications in {@{simplifying vector calculations in [physics](physics.md)}@}. <!--SR:!2025-03-11,18,343!2025-03-06,12,303!2025-03-11,18,343!2025-03-10,17,343!2025-03-12,19,343-->
+{@{The __vector triple product__}@} is defined by<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> {@{$$\mathbf {a} \times (\mathbf {b} \times \mathbf {c} )=(\mathbf {a} \cdot \mathbf {c} )\,\mathbf {b} -(\mathbf {a} \cdot \mathbf {b} )\,\mathbf {c} .$$}@} {@{This identity, also known as _Lagrange's formula_}@}, [may be remembered](mnemonic.md) as {@{"ACB minus ABC", keeping in mind which vectors are dotted together}@}. This formula has applications in {@{simplifying vector calculations in [physics](physics.md)}@}. <!--SR:!2025-03-11,18,343!2025-04-27,52,323!2025-03-11,18,343!2025-03-10,17,343!2025-03-12,19,343-->
 
 ## physics
 
@@ -193,7 +193,7 @@ The inner product between {@{a [tensor](tensor.md) of order $n$ and a tensor of 
 
 A dot product function is included in:
 
-- [BLAS](BLAS.md) ::@:: level 1 real `SDOT`, `DDOT`; complex `CDOTU`, `ZDOTU = X^T * Y`, `CDOTC`, `ZDOTC = X^H * Y` <!--SR:!2025-03-24,24,303!2025-03-06,14,323-->
+- [BLAS](BLAS.md) ::@:: level 1 real `SDOT`, `DDOT`; complex `CDOTU`, `ZDOTU = X^T * Y`, `CDOTC`, `ZDOTC = X^H * Y` <!--SR:!2025-03-24,24,303!2025-05-10,65,343-->
 - [Fortran](Fortran.md) as `dot_product(A,B)` or `sum(conjg(A) * B)`
 - [Julia](Julia%20(programming%20language).md) as  `A' * B` or standard library LinearAlgebra as `dot(A, B)`
 - [R \(programming language\)](R%20(programming%20language).md) as `sum(A * B)` for vectors or, more generally for matrices, as `A %*% B`

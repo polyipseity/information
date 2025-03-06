@@ -234,7 +234,7 @@ water security
 
 - _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2028-02-26,1097,370-->
 - climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
-- extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
+- extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
 - mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2025-04-02,93,334-->
 - water security→::@::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->

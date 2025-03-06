@@ -9,7 +9,7 @@ tags:
 
 # stellar parallax
 
-__Stellar parallax__ is {@{the apparent shift of position ([_parallax_](parallax.md)) of any nearby star (or other object) against the background of distant stars}@}. <!--SR:!2025-03-06,159,270-->
+__Stellar parallax__ is {@{the apparent shift of position ([_parallax_](parallax.md)) of any nearby star (or other object) against the background of distant stars}@}. <!--SR:!2026-10-26,599,290-->
 
 ## references
 

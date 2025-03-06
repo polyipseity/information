@@ -398,7 +398,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {@{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}@}
 > - suffix: {@{-ene}@}
 > - infix: {@{(locant)}@}
-> - cyclic prefix: {@{cyclo-}@} <!--SR:!2029-02-17,1827,380!2030-04-15,2169,382!2027-04-03,1256,362!2026-07-29,935,302!2030-03-06,2134,382!2030-02-22,2124,382!2025-03-06,644,327-->
+> - cyclic prefix: {@{cyclo-}@} <!--SR:!2029-02-17,1827,380!2030-04-15,2169,382!2027-04-03,1256,362!2026-07-29,935,302!2030-03-06,2134,382!2030-02-22,2124,382!2033-02-17,2905,347-->
 
 <!-- markdownlint MD028 -->
 

@@ -12,7 +12,7 @@ tags:
 
 # spectroscopic parallax
 
-__Spectroscopic parallax__ or __main sequence fitting__<sup>[\[1\]](#^ref-1)</sup> is {@{an astronomical method for measuring the distances to stars}@}. <!--SR:!2025-03-06,155,310-->
+__Spectroscopic parallax__ or __main sequence fitting__<sup>[\[1\]](#^ref-1)</sup> is {@{an astronomical method for measuring the distances to stars}@}. <!--SR:!2026-12-26,660,330-->
 
 Despite its name, it {@{does not rely on the geometric [parallax](parallax.md) effect}@}. The spectroscopic parallax technique can be {@{applied to any [main sequence](main%20sequence.md) star for which a [spectrum](astronomical%20spectroscopy.md) can be recorded}@}. The method depends on {@{the star being sufficiently bright to provide a measurable spectrum, which as of 2013 limits its range to about 10&nbsp;000 [parsecs](parsec.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-26,272,330!2025-03-11,160,310!2025-11-01,300,290-->
 

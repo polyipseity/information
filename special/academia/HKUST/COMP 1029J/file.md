@@ -42,7 +42,7 @@ while ((line = reader.readLine()) != null) {
 }
 ```
 
-When done with reading, {@{close the reader to avoid locking the file by calling `reader.close()`}@}. A better method is {@{using `try...catch...finally`, and the best is using `try-with-resources`}@}, but they will not be mentioned here. <!--SR:!2025-03-06,308,330!2028-06-18,1245,350-->
+When done with reading, {@{close the reader to avoid locking the file by calling `reader.close()`}@}. A better method is {@{using `try...catch...finally`, and the best is using `try-with-resources`}@}, but they will not be mentioned here. <!--SR:!2029-01-04,1400,350!2028-06-18,1245,350-->
 
 ### writing text files
 

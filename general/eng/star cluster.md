@@ -9,7 +9,7 @@ tags:
 
 # star cluster
 
-__Star clusters__ are {@{large groups of [stars](star.md) held together by [self-gravitation](self-gravitation.md)}@}. {@{Two main types}@} of star clusters can be distinguished. {@{[Globular clusters](#globular%20cluster)}@} are {@{tight groups of ten thousand to millions of old stars which are [gravitationally](gravity.md) bound}@}. {@{[Open clusters](#open%20cluster)}@} are {@{more loosely clustered groups of stars, generally containing fewer than a few hundred members, that are often very young}@}. <!--SR:!2025-06-14,247,330!2025-07-16,274,330!2025-05-15,207,310!2025-03-06,168,310!2025-04-20,205,330!2025-04-18,190,310-->
+__Star clusters__ are {@{large groups of [stars](star.md) held together by [self-gravitation](self-gravitation.md)}@}. {@{Two main types}@} of star clusters can be distinguished. {@{[Globular clusters](#globular%20cluster)}@} are {@{tight groups of ten thousand to millions of old stars which are [gravitationally](gravity.md) bound}@}. {@{[Open clusters](#open%20cluster)}@} are {@{more loosely clustered groups of stars, generally containing fewer than a few hundred members, that are often very young}@}. <!--SR:!2025-06-14,247,330!2025-07-16,274,330!2025-05-15,207,310!2026-08-09,521,310!2025-04-20,205,330!2025-04-18,190,310-->
 
 ## astronomical significance
 

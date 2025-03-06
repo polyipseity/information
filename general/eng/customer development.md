@@ -46,7 +46,7 @@ To validate your customers, {@{interact with your customers, such as talking to 
 
 > [!example] examples
 >
-> - Old people are unhappy. Is it because they cannot move around easily? ::@:: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2025-12-24,442,310!2025-03-06,231,330-->
+> - Old people are unhappy. Is it because they cannot move around easily? ::@:: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2025-12-24,442,310!2028-01-21,1051,350-->
 
 ## references
 

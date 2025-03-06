@@ -80,7 +80,7 @@ English
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2025-07-28,345,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2026-01-10,480,332!2025-06-30,396,392-->
-- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2025-03-06,222,244-->
+- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2026-09-06,549,244-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2028-08-16,1304,390-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::@:: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2026-10-23,679,332!2025-06-17,391,392-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::@:: (t\_l) Of or relating to theory rather than practice. <!--SR:!2027-02-13,825,330!2026-02-02,521,290-->

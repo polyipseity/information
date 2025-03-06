@@ -80,7 +80,7 @@ value proposition canvas
 - design thinking→::@::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2025-06-20,154,170!2025-07-30,214,230-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→::@::←product validation <!--SR:!2025-07-03,222,230!2025-10-19,247,210-->
 - product validation→::@::←value proposition canvas <!--SR:!2025-05-26,146,170!2025-06-12,247,250-->
-- value proposition canvas→::@::←_(end)_ <!--SR:!2025-03-06,244,330!2025-03-27,159,250-->
+- value proposition canvas→::@::←_(end)_ <!--SR:!2028-03-20,1110,350!2025-03-27,159,250-->
 
 <!--/pytextgen-->
 

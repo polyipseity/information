@@ -21,7 +21,7 @@ In {@{[production](production%20(economics).md) and [project management](project
 
 An example is {@{the lack of [smelter](smelter.md) and [refinery](refining%20(metallurgy).md) supply}@} which {@{cause bottlenecks upstream}@}. <!--SR:!2025-03-11,16,290!2025-03-09,14,290-->
 
-Another example is in {@{a [surface-mount technology](surface-mount%20technology.md) board assembly line with several pieces of equipment aligned}@}. Usually the common sense strategy is to {@{set up and shift the bottleneck element towards the end of the process}@}, inducing {@{the better and faster machines}@} to {@{always keep the [printed circuit board](printed%20circuit%20board.md) \(PCB\) supply flowing up}@}, never {@{allowing the slower ones to fully stop}@}; a strategy that could {@{result in a deleterious \(or damaging\) and significant, overall drawback in the process}@}. <!--SR:!2025-03-06,11,270!2025-03-09,14,290!2025-03-11,16,290!2025-03-11,16,290!2025-03-09,14,290!2025-03-10,15,290-->
+Another example is in {@{a [surface-mount technology](surface-mount%20technology.md) board assembly line with several pieces of equipment aligned}@}. Usually the common sense strategy is to {@{set up and shift the bottleneck element towards the end of the process}@}, inducing {@{the better and faster machines}@} to {@{always keep the [printed circuit board](printed%20circuit%20board.md) \(PCB\) supply flowing up}@}, never {@{allowing the slower ones to fully stop}@}; a strategy that could {@{result in a deleterious \(or damaging\) and significant, overall drawback in the process}@}. <!--SR:!2025-04-14,39,290!2025-03-09,14,290!2025-03-11,16,290!2025-03-11,16,290!2025-03-09,14,290!2025-03-10,15,290-->
 
 ## identifying bottlenecks
 
@@ -29,7 +29,7 @@ Another example is in {@{a [surface-mount technology](surface-mount%20technology
 >
 > Cycle of {@{identifying, managing and preventing bottlenecks in production}@} <!--SR:!2025-03-09,14,290!2025-03-09,14,290-->
 
-{@{Almost every system}@} has {@{a bottleneck, even if it is a minor one}@}. If {@{every system was running at full capacity}@}, {@{at least one machine would be accumulating processes}@}.<sup>[\[3\]](#^ref-3)</sup> Identifying bottlenecks is {@{critical for improving efficiency in the production line}@} because it allows you to {@{determine the area where accumulation occurs}@}. {@{The machine or process that accumulates the longest queue}@} is {@{usually a bottleneck, however this isn't always the case}@}. Bottlenecks can be found through: {@{identifying the areas where accumulation occurs, evaluating the throughput}@}, {@{assessing whether each machine is being used at full capacity, and finding the machine with the high wait time}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-10,15,290!2025-03-09,14,290!2025-03-10,15,290!2025-03-10,15,290!2025-03-09,14,290!2025-03-06,12,270!2025-03-11,16,290!2025-03-11,16,290!2025-03-09,14,290!2025-03-11,16,290-->
+{@{Almost every system}@} has {@{a bottleneck, even if it is a minor one}@}. If {@{every system was running at full capacity}@}, {@{at least one machine would be accumulating processes}@}.<sup>[\[3\]](#^ref-3)</sup> Identifying bottlenecks is {@{critical for improving efficiency in the production line}@} because it allows you to {@{determine the area where accumulation occurs}@}. {@{The machine or process that accumulates the longest queue}@} is {@{usually a bottleneck, however this isn't always the case}@}. Bottlenecks can be found through: {@{identifying the areas where accumulation occurs, evaluating the throughput}@}, {@{assessing whether each machine is being used at full capacity, and finding the machine with the high wait time}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-10,15,290!2025-03-09,14,290!2025-03-10,15,290!2025-03-10,15,290!2025-03-09,14,290!2025-04-18,43,290!2025-03-11,16,290!2025-03-11,16,290!2025-03-09,14,290!2025-03-11,16,290-->
 
 ### accumulation
 
@@ -37,7 +37,7 @@ When {@{input comes in faster than the speed of the process}@}, {@{accumulation 
 
 ### throughput
 
-Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-03-06,12,270!2025-03-10,15,290!2025-03-11,16,290!2025-03-11,16,290!2025-03-10,15,290-->
+Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-04-19,44,290!2025-03-10,15,290!2025-03-11,16,290!2025-03-11,16,290!2025-03-10,15,290-->
 
 ### full capacity
 

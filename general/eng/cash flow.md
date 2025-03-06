@@ -67,7 +67,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
   - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation <!--SR:!2025-03-19,57,310!2025-08-19,168,310-->
   - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation <!--SR:!2025-03-08,44,290!2025-03-25,62,310-->
   - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation <!--SR:!2025-06-27,126,290!2025-07-05,124,290-->
-  - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\) <!--SR:!2025-05-15,85,270!2025-03-06,43,290-->
+  - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\) <!--SR:!2025-05-15,85,270!2025-07-08,124,290-->
     - {@{Depreciation\*\(tax rate\) which locates at the end of the formula}@} is called {@{depreciation shield}@} through which we can see that {@{there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive))}@}.
 - Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory. <!--SR:!2025-07-04,123,290!2025-03-31,67,310-->
 - [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment. <!--SR:!2025-06-28,127,290!2025-07-06,125,290-->

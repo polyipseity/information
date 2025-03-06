@@ -60,7 +60,7 @@ tags:
 > 3. Neurobiology
 > 4. Cognition science
 >
-> - solution: {@{2}@} <!--SR:!2025-03-06,58,310-->
+> - solution: {@{2}@} <!--SR:!2025-11-16,255,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -139,7 +139,7 @@ tags:
 > Q3. What does `print(len(r"\n Desmond is a good guy na!\n"))` output?
 >
 > - solution: {@{`30`}@}
-> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-03-06,58,310!2025-03-12,63,310-->
+> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-11-14,253,330!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -593,7 +593,7 @@ tags:
 >
 > What is the motivation behind such a formula?
 >
-> - solution: {@{To avoid floating-point underflow.}@} <!--SR:!2025-03-06,57,310-->
+> - solution: {@{To avoid floating-point underflow.}@} <!--SR:!2025-11-08,247,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -610,7 +610,7 @@ tags:
 > 3. O(n), O(1)
 > 4. O(1), O(n)
 >
-> - solution: {@{4 (in a computation model where storage takes constant time)}@} <!--SR:!2025-03-06,58,310-->
+> - solution: {@{4 (in a computation model where storage takes constant time)}@} <!--SR:!2025-11-16,255,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -644,7 +644,7 @@ tags:
 > 4. None of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-03-06,57,310!2025-05-07,98,290-->
+> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-11-09,248,330!2025-05-07,98,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -756,7 +756,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops. Hint: look at the `numpy.argmin` function.
 >
-> - solution: {@{`numpy.argmin(dists, axis=1)`, `numpy.argmin(dists, axis=-1)`}@} <!--SR:!2025-03-06,57,310-->
+> - solution: {@{`numpy.argmin(dists, axis=1)`, `numpy.argmin(dists, axis=-1)`}@} <!--SR:!2025-11-12,251,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -795,7 +795,7 @@ tags:
 > 4. Customer segmentation
 >
 > - solution: {@{4}@}
-> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-03-06,58,310!2025-03-17,67,310-->
+> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-11-15,254,330!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -817,7 +817,7 @@ tags:
 > 3. Perform principal component analysis (PCA)
 > 4. Shuffle the dataset
 >
-> - solution: {@{4}@} <!--SR:!2025-03-06,58,310-->
+> - solution: {@{4}@} <!--SR:!2025-11-14,253,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -847,7 +847,7 @@ tags:
 > 4. Every parameter must be updated during an epoch.
 >
 > - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-03-06,58,310!2025-03-16,66,310-->
+> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-11-15,254,330!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -956,7 +956,7 @@ tags:
 > _________________________________________________________________
 > ```
 >
-> - solution: {@{`flatten` → `Layer_1`: (32 \* 32) \* 4096 + 4096 = 4198400 <br/> `Layer_1` → `Layer_2`, `Layer_2` → `Layer_3`, `Layer_3` → `Layer_4`: 4096 \* 4096 + 4096 = 16781312 (for each in between layers) <br/> `Layer_4` → `Layer_5`: 4096 \* 10 + 10 = 40970 <br/> total params: 4198400 + 16781312 \* 3 + 40970 = 54583306}@} <!--SR:!2025-03-06,57,310-->
+> - solution: {@{`flatten` → `Layer_1`: (32 \* 32) \* 4096 + 4096 = 4198400 <br/> `Layer_1` → `Layer_2`, `Layer_2` → `Layer_3`, `Layer_3` → `Layer_4`: 4096 \* 4096 + 4096 = 16781312 (for each in between layers) <br/> `Layer_4` → `Layer_5`: 4096 \* 10 + 10 = 40970 <br/> total params: 4198400 + 16781312 \* 3 + 40970 = 54583306}@} <!--SR:!2025-08-30,177,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -979,7 +979,7 @@ tags:
 
 > Q5. Explain why activation functions have to be non-linear.
 >
-> - solution: {@{A MLP without activation functions is a linear transformation, so it can only separate linearly separable data. Activation functions are designed to make this not the case. However, if the activation function is linear, then the MLP is still a linear transformation, which defeats the purpose of activation functions. So they have to nonlinear for them to be useful in practice.}@} <!--SR:!2025-03-06,58,310-->
+> - solution: {@{A MLP without activation functions is a linear transformation, so it can only separate linearly separable data. Activation functions are designed to make this not the case. However, if the activation function is linear, then the MLP is still a linear transformation, which defeats the purpose of activation functions. So they have to nonlinear for them to be useful in practice.}@} <!--SR:!2025-11-13,252,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1383,7 +1383,7 @@ tags:
 
 > Q4. (medium) One of the problems with setting principles for AI is that the principles may conflict with each other. With regards to the collection of healthcare data, which 2 principles have a conflict?
 >
-> - solution: {@{__Autonomy__ and __beneficence__. The former says people should have control over their use of data, but people not agreeing to their data being used means healthcare models based on said healthcare data is less accurate, which harms the society.}@} <!--SR:!2025-03-06,57,310-->
+> - solution: {@{__Autonomy__ and __beneficence__. The former says people should have control over their use of data, but people not agreeing to their data being used means healthcare models based on said healthcare data is less accurate, which harms the society.}@} <!--SR:!2025-11-12,251,330-->
 
 <!-- markdownlint MD028 -->
 
