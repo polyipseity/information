@@ -169,6 +169,12 @@ The content is in teaching order.
       - process costing / weighted average cost / prepare production reports / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
       - process costing / weighted average cost / prepare production reports / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
       - processing costing / weighted average cost / prepae production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
+
+## week 3 lecture
+
+- datetime: 2025-02-17T12:00:00+08:00/2025-02-17T13:20:00+08:00
+- topic: process costing
+- process costing
   - process costing / first-in, first-out (FIFO) ::@:: Essentially, the per unit cost for _newly added_ materials and _newly added_ conversion is calculated by dividing the _added_ direct materials and _added_ conversion cost by their respective equivalent units. Units in the _starting_ inventory are assumed to be finished and transferred first, hence FIFO. <!--SR:!2025-03-08,12,322!2025-03-15,19,342-->
     - process costing / first-in, first-out (FIFO) / find physical units ::@:: Compute units transferred (which must be completed for them to be transferred in the first place). Then compute units that are started (_not_ in the _starting_ inventory) and transferred during this period. Using FIFO, we assume units in the _starting_ inventory are completed first. <p> You may use a _table_ to compute the values. <!--SR:!2025-03-08,12,322!2025-04-02,28,302-->
       - process costing / first-in, first-out (FIFO) / find physical units / table: [formats § process costing \(first-in, first-out\)](formats.md#process%20costing%20(first-in,%20first-out))
@@ -193,9 +199,9 @@ The content is in teaching order.
     - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories. <!--SR:!2025-03-17,18,348!2025-03-18,19,348-->
     - process costing / first-in, first-out (FIFO) / disadvantages ::@:: It is more complicated, thus rarely used in the real world. <!--SR:!2025-03-16,17,348!2025-03-13,14,328-->
 
-## week 3 lecture
+## week 3 lecture 2
 
-- datetime: 2025-02-17T12:00:00+08:00/2025-02-17T13:20:00+08:00
+- datetime: 2025-02-19T12:00:00+08:00/2025-02-19T13:20:00+08:00
 - topic: activity-based costing (ABC)
 - [activity-based costing](../../../../general/activity-based%20costing.md) ::@:: It is a costing method that identifies activities in an organization and assigns the cost of each activity to all products and services according to the actual consumption by each. Therefore, this model assigns more indirect costs (overhead) into direct costs compared to conventional costing. <!--SR:!2025-03-17,18,348!2025-03-16,17,348-->
   - activity-based costing / the other costing method ::@:: volume-based costing (includes job costing, process costing) <!--SR:!2025-03-18,19,348!2025-03-18,19,348-->
@@ -204,6 +210,11 @@ The content is in teaching order.
   - volume-based costing / manufacturing overhead cost per unit ::@:: Find the cost driver assigned to the process producing the units. Then use POHR to find the (applied) manufacturing overhead. Finally divide it by the number of (equivalent) units produced. Less means the process is more efficient. <!--SR:!2025-04-10,35,328!2025-03-16,17,348-->
   - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <!--SR:!2025-03-17,18,348!2025-03-17,18,348-->
   - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <!--SR:!2025-03-13,14,328!2025-03-18,19,348-->
+
+## week 4 lecture
+
+- datetime: 2025-02-24T12:00:00+08:00/2025-02-24T13:20:00+08:00
+- topic: activity-based costing (ABC)
 - activity-based costing
   - activity-based costing / vs. volume-based costing ::@:: In volume-based costing, indirect costs are applied as applied MOH. POHR is used to find the applied MOH using a cost driver. <p> The problem is that MOH may be caused by multiple cost drivers. Using the same cost driver to estimate the actual MOH using applied MOH may be inaccurate. Activity-based costing assigns indirect costs to products and services based on the activities they require, making the applied MOH more accurate. This means using multiple cost drivers and having multiple POHR. <p> In this sense, activity-based costing _augments_ volume-based costing instead of _replacing_ it. <!--SR:!2025-03-13,14,328!2025-04-10,35,328-->
   - activity-based costing / two-staged allocation ::@:: Assign indirect costs to _activity cost pools_ (the costs over all pools _should_ sum up to the indirect costs). Then assign the pools to products or services. Note that an activity can be used by multiple products or services, and a product or service can use multiple pools. <!--SR:!2025-03-13,14,328!2025-03-17,18,348-->
@@ -215,9 +226,9 @@ The content is in teaching order.
   - activity-based costing / cost drivers ::@:: The cost drivers we have previously considered before ABC are _volume-based cost drivers_, e.g. direct materials, direct labor, machining hours, units produced, etc. In ABC, we also consider _non-volume-based cost drivers_, e.g. batch count, design count, processing time per unit, quality inspections, setup time, etc. <p> For each activity cost pool, we choose a cost driver that has a causal relationship with the activity, which should be non-volume-based cost drivers. <!--SR:!2025-04-09,34,328!2025-04-09,34,328-->
     - activity-based costing / cost drivers / advantages ::@:: By also considering non-volume-based cost drivers, it can assign indirect costs to products or services more accurately, especially those that require more indirect costs. <!--SR:!2025-03-17,18,348!2025-03-13,14,328-->
 
-## week 3 lecture 2
+## week 4 lecture 2
 
-- datetime: 2025-02-19T12:00:00+08:00/2025-02-19T13:20:00+08:00
+- datetime: 2025-02-26T12:00:00+08:00/2025-02-26T13:20:00+08:00
 - topic: activity-based costing (ABC)
 - activity-based costing
   - activity-based costing / activity-rate method ::@:: For each activity cost pool, choose a cost driver. Calculate the activity rate using: <p> activity rate = total activity cost / total cost driver <p> You may use a _table_ to calculate the total cost driver. You may also use a _table_ to allocate the costs to different processes/products/services. <!--SR:!2025-03-23,18,359!2025-03-23,18,359-->
@@ -236,9 +247,9 @@ The content is in teaching order.
 - [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered. <!--SR:!2025-03-24,19,359!2025-03-24,19,359-->
   - target costing / equation ::@:: The target profit % (margin) is used to calculate the target profit from the target price. Then use the following equation: <p> target price – target profit = target cost <p> And then the target cost is the maximum amount spendable for lifecycle cost while ensuring a XX% profit/return. <!--SR:!2025-03-23,18,359!2025-03-24,19,359-->
 
-## week 4 lecture
+## week 5 lecture
 
-- datetime: 2025-02-24T12:00:00+08:00/2025-02-24T13:20:00+08:00
+- datetime: 2025-03-03T12:00:00+08:00/2025-03-03T13:20:00+08:00
 - topic: cost behavior
 - cost behavior ::@:: It describes how total cost changes when activity changes.
   - cost behavior / assumptions ::@:: We assume _unit variable costs_ and _total fixed costs_ both remain _unchanged_. The range of activity for which these holds is called the _relevant range_. There can be multiple relevant ranges.
@@ -255,6 +266,13 @@ The content is in teaching order.
   - cost behavior / linear regression ::@:: scattergraph, high—low method, least squares
     - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points.
     - cost behavior / linear regression / high—low method ::@:: Find two data points: one with min $x$, the other with max $x$. Find the slope $b$ (unit variable cost) of the line connecting them. This will be $b$. Then find the y-intercept $a$ (fixed cost) on the line connecting them.
+
+## week 5 lecture 2
+
+- datetime: 2025-03-05T12:00:00+08:00/2025-03-05T13:20:00+08:00
+- topic: cost behavior
+- cost behavior
+  - cost behavior / linear regression
     - cost behavior / linear regression / least squares ::@:: Minimize the sum of squared $y$ errors with the fitted line. Software, e.g. Excel, can be used to find the line. The intercept $a$ and the slope $b$ means the same thing as the other methods.
       - [least squares](../../../../general/least%20squares.md) ::@:: a parameter estimation method based on minimizing the sum of the squares of the residuals (a residual being the difference between an observed value and the fitted value provided by a model) made in the results of each individual equation
       - cost behavior / linear regression / least squares / outputs ::@:: R square \(R<sup>2</sup>\): how closely the relation is explained by the fitted line <br/> intercept: estimated total fixed costs <br/> $x$ coefficient/slope: estimated unit variable costs
@@ -279,9 +297,9 @@ The content is in teaching order.
   - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs.
     - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP.
 
-## week 4 lecture 2
+## week 6 lecture
 
-- datetime: 2025-02-26T12:00:00+08:00/2025-02-26T13:20:00+08:00
+- datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
 - topic: cost–volume–profit (CVP) analysis
 - [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions.
 - [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even".
@@ -304,6 +322,15 @@ The content is in teaching order.
   - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted (net) sales and break-even point: <p> actual/budgeted (net) sales − break-even point <p> It represents the strength of the business.
 
 ## examination 1
+
+> Dear Students,
+>
+> The coverage is Chapters 2, 3, and 4 (Job costing, process costing and ABC). You will have three long questions. One chapter is for one question.
+>
+> Good luck on the exam.
+>
+> Best regards, <br/>
+> \[redacted\]
 
 ## examination 2
 
