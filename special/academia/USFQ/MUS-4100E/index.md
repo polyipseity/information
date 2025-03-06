@@ -37,7 +37,7 @@ The content is in teaching order.
         - Louis Armstrong – 1927 Hot 5 & Hot 7 (not the personnel)
           - The Hot Five and Hot Seven recordings by Louis Armstrong are a series of individual recordings from 1925 – 1928 that have been grouped into 1  record.
         - Art Tatum- Gene Norman Present an Art Tatum Recording
-        - Billie Holliday – Lady Sings The Blues (not the personnel)
+        - Billie Holiday – Lady Sings The Blues (not the personnel)
         - Ella Fitzgerald – Ella and Louis
         - Benny Goodman – The Famous 1938 Carnegie Hall Jazz Concert (not the personnel)
         - Duke Ellington – Ellington at Newport (not the personnel)
@@ -74,6 +74,11 @@ The content is in teaching order.
 - syllabus
   - concert attendance
     - virtual jazz club "Monks": <https://livestream.monksjazz.com/>
+
+## children
+
+- [assignments](assignments/)
+- [questions](questions/index.md)
 
 ## week 1 lecture
 
@@ -358,10 +363,10 @@ The content is in teaching order.
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-03-30,25,382!2025-03-20,15,362-->
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-03-22,17,362!2025-03-30,25,382-->
   - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
-- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: <!--SR:!2025-03-20,15,362!2025-03-15,10,342-->
+- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-03-20,15,362!2025-03-15,10,342-->
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
-  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-03-20,15,362!2025-03-29,24,382-->
+  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2025-03-20,15,362!2025-03-29,24,382-->
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-03-22,17,362!2025-03-31,26,382-->
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group <!--SR:!2025-03-31,26,382!2025-03-29,24,382-->
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-03-22,17,362!2025-03-29,24,382-->
@@ -387,3 +392,23 @@ The content is in teaching order.
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-03-29,24,382!2025-03-31,26,382-->
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
   - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
+- assignment: (none)
+
+## week 7 lecture 2
+
+- datetime: 2025-02-26T08:30:00-05:00/2025-02-26T09:00:00-05:00
+  - local: 2025-02-26T21:30:00+08:00/2025-02-26T22:00:00+08:00
+- quiz: [listening test 1](questions/listening%20test%201.md)
+- assignment: [concert 1](assignments/concert%201/index.md)
+
+## week 8 lecture
+
+- datetime: 2025-03-03T08:30:00-05:00/2025-03-03T09:50:00-05:00
+  - local: 2025-03-03T21:30:00+08:00/2025-03-03T22:50:00+08:00
+- status: unscheduled, holiday
+
+## week 8 lecture 2
+
+- datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:00:00-05:00
+  - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:00:00+08:00
+- status: unscheduled, holiday

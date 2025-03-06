@@ -169,6 +169,7 @@ archives/Wikimedia Commons
 - [Butterfly multitree.svg](Butterfly%20multitree.svg): <a href="https://commons.wikimedia.org/wiki/File:Butterfly_multitree.svg">David Eppstein</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, via Wikimedia Commons
 - [CC BY-SA icon.svg](CC%20BY-SA%20icon.svg): <a href="https://commons.wikimedia.org/wiki/File:CC_BY-SA_icon.svg">Creative Commons</a>, Public domain, via Wikimedia Commons
 - [CITIC Plaza 2017.jpg](CITIC%20Plaza%202017.jpg): <a href="https://commons.wikimedia.org/wiki/File:CITIC_Plaza_2017.jpg">そらみみ</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [CVP-TC-FC-VC-Sales-Contrib-VC-PL-compat.svg](CVP-TC-FC-VC-Sales-Contrib-VC-PL-compat.svg): <a href="https://commons.wikimedia.org/wiki/File:CVP-TC-FC-VC-Sales-Contrib-VC-PL-compat.svg">Nils R. Barth</a>, Public domain, via Wikimedia Commons
 - [CVP-TC-FC-VC.svg](CVP-TC-FC-VC.svg): <a href="https://commons.wikimedia.org/wiki/File:CVP-TC-FC-VC.svg">Nils R. Barth</a>, Public domain, via Wikimedia Commons
 - [Capitalismlogo.svg](Capitalismlogo.svg): <a href="https://commons.wikimedia.org/wiki/File:Capitalismlogo.svg">Oren neu dag</a>, Attribution, via Wikimedia Commons
 - [CardContin.svg](CardContin.svg): <a href="https://commons.wikimedia.org/wiki/File:CardContin.svg">en:User:Trovatore, recreated by User:Stannered</a>, Public domain, via Wikimedia Commons

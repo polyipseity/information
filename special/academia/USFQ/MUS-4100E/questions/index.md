@@ -15,6 +15,8 @@ tags:
 
 ## children
 
+- [listening test 1](listening%20test%201.md)
+- [listening test 2](listening%20test%202.md)
 - [quiz 1](quiz%201.md)
 - [quiz 2](quiz%202.md)
 

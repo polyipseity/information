@@ -61,7 +61,8 @@ assignment:
     - jpeg
     - jpg
     points: 1
-    submitting: a file upload
+    submitting:
+    - a file upload
   submissions:
   - datetime: 2024-10-26 19:16:00+08:00
     id: -1

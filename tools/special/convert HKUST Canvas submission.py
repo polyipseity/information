@@ -375,14 +375,14 @@ def parse_properties(
                     properties[key] = dt.result
                     generic = False
             case "file types":
-                properties[key] = (
-                    tuple(
-                        val2.lstrip().removeprefix("and ").strip()
-                        for val2 in val.split(",")
-                    )
-                    if val
-                    else ()
-                )
+                if vals := val.split(",") if val else ():
+                    vals[-1] = vals[-1].lstrip().removeprefix("and ")
+                properties[key] = tuple(val.strip() for val in vals)
+                generic = False
+            case "submitting":
+                if vals := val.split(",") if val else ():
+                    vals[-1] = vals[-1].lstrip().removeprefix("or ")
+                properties[key] = tuple(val.strip() for val in vals)
                 generic = False
             case _:
                 pass

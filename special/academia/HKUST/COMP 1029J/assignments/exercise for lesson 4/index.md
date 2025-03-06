@@ -10,13 +10,17 @@ tags:
 
 - HKUST COMP 1029J
 
-<!-- list separator -->
 
+---
+
+- title: Exercise for Lesson 4
 - due: 2024-01-22T23:59:59+08:00
 - points: 100
 - submitting: a file upload
 - file types: java
 - available: until 2024-01-22T23:59:59+08:00
+
+---
 
 ## __A Phone Book Program__
 

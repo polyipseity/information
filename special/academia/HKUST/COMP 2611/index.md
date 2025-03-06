@@ -211,7 +211,7 @@ The content is in teaching order.
 - [flip-flop](../../../../general/flip-flop%20(electronics).md) ::@:: They are circuits that have two stable states that can store state information – a bistable multivibrator. The circuit can be made to change state by signals applied to one or more control inputs and will output its state (often along with its logical complement too). It is the basic storage element in sequential logic. <!--SR:!2025-03-13,14,327!2025-03-16,17,347-->
   - flip-flop / SR NOR latch ::@:: An unclocked/asynchronous memory element. Its 2 inputs are S (set) and R (reset). Its 2 outputs are Q (stored output) and its complement. It consists of two parallel NOR gates where the output of each NOR is also fanned out into one input of the other NOR. <!--SR:!2025-03-18,19,347!2025-03-12,13,327-->
     - flip-flop / SR NOR latch / symbol, figure ::@:: symbol: ![SR NOR latch symbol](../../../../archives/Wikimedia%20Commons/SR%20(NAND)%20Flip-flop.svg) <br/> figure: ![SR NOR latch figure](../../../../archives/Wikimedia%20Commons/R-S%20mk2.gif) <!--SR:!2025-03-12,14,327!2025-03-17,18,347-->
-    - flip-flop / SR NOR latch / operations ::@:: hold/_quiescent_/latch state: If S and R are both 0, Q and its complement keep their previous outputs. <br/> set: If S is 1 and R is 0, Q becomes 1 and its complement becomes 0. <br/> unset: If S is 0 and R is 1, Q becomes 0 and its complement becomes 1. <br/> _race condition_: S and R are not allowed to be both 1, as both outputs are now 0. Then, if S and R both goes to 0 _simultaneously_ afterwards, the outputs are metastable and may eventually lock at either 1 or 0 depending on the propagation time relations between the gates. <!--SR:!2025-04-09,34,327!2025-03-18,19,347-->
+    - flip-flop / SR NOR latch / operations ::@:: hold/_quiescent_/latch state: If S and R are both 0, Q and its complement keep their previous outputs. <br/> set: If S is 1 and R is 0, Q becomes 1 and its complement becomes 0. <br/> unset: If S is 0 and R is 1, Q becomes 0 and its complement becomes 1. <br/> _forbidden/race condition_: S and R are not allowed to be both 1, as both outputs are now 0. Then, if S and R both goes to 0 _simultaneously_ afterwards, the outputs are metastable and may eventually lock at either 1 or 0 depending on the propagation time relations between the gates. <!--SR:!2025-04-09,34,327!2025-03-18,19,347--> <p> __Important__: In this course, whenever you have a SR latch and you put it into an invalid state, we consider it a _race condition_, even though if you hold the inputs forever, both outputs (or the one output if the complement is not outputted) will remain 0 forever and no "racing" occurs.
   - flip-flop / SR NAND latch ::@:: It is also possible to use NAND instead of NOR to make a SR latch. But it is more rare because the inputs' meaning are negated, i.e. the hold state requires both inputs to be 1. <!--SR:!2025-03-18,19,347!2025-03-18,19,347-->
   - flip-flop / SR AND-OR latch ::@:: It may be easier from a teaching point of view. See the figure and try to figure its mechanism yourself: ![SR AND-OR latch](../../../../archives/Wikimedia%20Commons/RS-and-or-flip-flop.png) <!--SR:!2025-03-17,18,347!2025-03-12,14,327-->
   - flip-flop / gated latches ::@:: Latches are designed to be _transparent_. That is, input signal changes cause immediate changes in output. Additional logic can be added to a transparent latch to make it _non-transparent_ or _opaque_ when another input (an "enable" input) is not asserted. <!--SR:!2025-03-17,18,347!2025-03-16,17,347-->
@@ -219,7 +219,7 @@ The content is in teaching order.
     - flip-flop / gated SR latch / symbol, figure ::@:: symbol: ![gated SR latch symbol](../../../../archives/Wikimedia%20Commons/Gated%20SR%20flip-flop%20Symbol.svg) <br/> figure: ![gated SR latch figure](../../../../archives/Wikimedia%20Commons/SR%20(Clocked)%20Flip-flop%20Diagram.svg) <!--SR:!2025-03-17,18,347!2025-03-17,18,347-->
   - flip-flop / gated D latch ::@:: This latch exploits the fact that, in the two active input combinations (01 and 10) of a gated SR latch, R is the complement of S. <p> So what we do is, on top of the gated SR latch, instead of having the inputs S and R, we have one input D (data) only, connecting to the (now internal) S an R inputs. Assuming E is 1. If D is 0, S is 0 and R is 1. Otherwise, S is 1 and R is 0. If E is 0, nothing happens, as in the gated SR latch. <p> When E is 1, it looks like the input D is being "written" into the gate memory, so D is called _data_. The "enable" input E is sometimes also called WE (write enable) instead for the same reason. <!--SR:!2025-04-10,35,327!2025-03-12,13,327-->
     - flip-flop / gated D latch / symbol, figure ::@:: symbol: ![gated D latch symbol](../../../../archives/Wikimedia%20Commons/Transparent%20Latch%20Symbol.svg) <br/> figure: ![gated D latch symbol](../../../../archives/Wikimedia%20Commons/D-type%20Transparent%20Latch%20(NOR).svg) <!--SR:!2025-04-09,34,327!2025-03-13,14,327-->
-    - flip-flop / gated D latch / register ::@:: It stores a multi-bit value. A _n_-bit \(_this_\) can be implemented using _n_ gated D-latches, all controlled by a common WE. Then when we want to write to the register, set WE to 1 and the _n_ D inputs to the desired data. <!--SR:!2025-03-17,18,347!2025-03-16,17,347-->
+    - flip-flop / gated D latch / register ::@:: It stores a multi-bit value. A _n_-bit \(_this_\) can be implemented using _n_ gated D latches, all controlled by a common WE. Then when we want to write to the register, set WE to 1 and the _n_ D inputs to the desired data. <!--SR:!2025-03-17,18,347!2025-03-16,17,347-->
 - [clock signal](../../../../general/clock%20signal.md) ::@:: It is an electronic logic signal (voltage or current) which oscillates between a high and a low state at a constant frequency and is used like a metronome to synchronize actions of digital circuits. <!--SR:!2025-03-18,19,347!2025-03-18,19,347-->
   - clock signal / synchronization ::@:: In a _synchronous_ logic circuit, the most common type of digital circuit, the clock signal is applied to all storage devices, flip-flops and latches, and causes them all to change state simultaneously, preventing race conditions. <p> In a computer, there are many types of circuits, and each take different time to complete (propagation delay). If we do not clock the circuits, then the outputs of circuits can change unpredictably. <p> A clock-less circuit is known as _asynchronous_ circuit, but it is much harder to design than _synchronous_ ones, and is out-of-scope for this course. <!--SR:!2025-03-17,18,347!2025-03-18,19,347-->
   - clock / terminology ::@:: A _clock_ is is a free-running signal with a fixed _cycle time_ (called _clock period_) or, equivalently, a fixed _clock frequency_ (i.e., inverse of the _cycle time_). _Edge-triggered clocking_ refers to state changes in a circuit on a clock (rising or falling) edge. <!--SR:!2025-03-16,17,347!2025-03-16,17,347-->
@@ -271,7 +271,7 @@ The content is in teaching order.
 - topic: 2's complement, max, min, range
 - [computer number format](../../../../general/computer%20number%20format.md) ::@:: It is the internal representation of numeric values in digital device hardware and software, such as in programmable computers and calculators. <!--SR:!2025-03-24,19,366!2025-03-24,19,366-->
   - computer number format / motivation ::@:: This is one of the ways to represent numbers using bits. We may want to know more: how about unsigned integers, fractions, and reals? And what are their representable ranges? And how to do arithmetic operations on them? <!--SR:!2025-03-20,15,346!2025-03-25,20,366-->
-  - computer number format / bits ::@:: They are represented by a group of bits, i.e. a bit sequence. They are group from the right (least significant bits) to the left (most significant bits). <!--SR:!2025-03-23,18,366!2025-03-25,20,366-->
+  - computer number format / bits ::@:: They are represented by a group of bits, i.e. a bit sequence. They are grouped from the right (least significant bits) to the left (most significant bits). <!--SR:!2025-03-23,18,366!2025-03-25,20,366-->
   - computer number format / unsigned integer ::@:: It is literally positional notation but with base 2. <!--SR:!2025-03-23,18,366!2025-03-25,20,366-->
     - computer number format / unsigned integer / range ::@:: _n_ bits: \[0, 2<sup>_n_</sup>−1\] <!--SR:!2025-03-25,20,366!2025-03-24,19,366-->
     - computer number format / unsigned integer / max ::@:: It has all bits set to 1. <!--SR:!2025-03-25,20,366!2025-03-24,19,366-->
@@ -282,10 +282,121 @@ The content is in teaching order.
   - two's complement / negative integers ::@:: Start with the absolute binary representation of the number, with the leading bit being a sign bit. (If the _sign bit_ is 1, the result after the whole procedure overflows (less accurately "underflows") and becomes a positive integer.) Then invert (or flip) all bits – changing every 0 to 1, and every 1 to 0. Finally, add 1 to the entire inverted number, ignoring any overflow. Accounting for overflow will produce the wrong value for the result. <!--SR:!2025-03-20,15,346!2025-03-19,14,346-->
   - two's complement / range ::@:: _n_ bits: \[−2<sup>_n_<!-- markdown separator -->−1</sup>, 2<sup>_n_<!-- markdown separator -->−1</sup>−1\] <!--SR:!2025-03-23,18,366!2025-03-24,19,366-->
   - two's complement / max ::@:: It has all bits set to 1 except for the sign bit, which is set to 0. <!--SR:!2025-03-25,20,366!2025-03-25,20,366-->
-  - two's complement / min ::@:: It has all bits se to 0 except for the sign bit, which is set to 1. <!--SR:!2025-03-25,20,366!2025-03-25,20,366-->
+  - two's complement / min ::@:: It has all bits set to 0 except for the sign bit, which is set to 1. <!--SR:!2025-03-25,20,366!2025-03-25,20,366-->
     - two's complement / min / weirdness ::@:: Notice what happens if we try to negate the minimum integer. It becomes itself instead of actually negating. This is because its corresponding positive integer is not representable. <!--SR:!2025-03-20,15,346!2025-03-24,19,366-->
 - [integer overflow](../../../../general/integer%20overflow.md) ::@:: It occurs when an arithmetic operation on integers attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value. <p> (_Important_: In this course, we also use "integer underflow", see below.) <!--SR:!2025-03-23,18,366!2025-03-24,19,366-->
   - integer overflow / integer underflow ::@:: The above definition of "integer overflow" refers to the ideal result being outside the representable range. <p> An alternative definition uses "integer overflow" to refer to the ideal result being _higher_ than the maximum representable integer, while using "integer underflow" to refer to the ideal result being _lower_ than the minimum representable integer. <p> (_Important_: In this course, we use the latter definition.) <!--SR:!2025-03-25,20,366!2025-03-25,20,366-->
+
+## week 4 lecture
+
+- datetime: 2025-02-24T13:30:00+08:00/2025-02-24T14:50:00+08:00
+- topic: signed/unsigned number, floating point, IEEE754 examples
+- two's complement
+  - two's complement / sign extension ::@:: When turning a two's-complement number with a certain number of bits into one with more bits (e.g., when copying from a one-byte variable to a two-byte variable), the most-significant bit must be repeated in all the extra bits. Other examples include: right shift (but not left shift, the sign bit is shifted out as normal).
+- [sign extension](../../../../general/sign%20extension.md) ::@:: the operation, in computer arithmetic, of increasing the number of bits of a binary number while preserving the number's sign (positive/negative) and value
+  - sign extension / zero extension ::@:: Fill in the missing most-significant bits with zero, e.g. bitwise logical operations, up-casting unsigned integers, etc.
+- [floating-point arithmetic](../../../../general/floating-point%20arithmetic.md)
+  - floating-point arithmetic / motivation ::@:: To represent non-integral numbers, which includes fractions, very small numbers, and very large numbers.
+  - floating-point arithmetic / representation ::@:: Roughly speaking, just like how we use a decimal point to represent non-integral numbers as decimal representation, computers use binary point to represent non-integral numbers as binary representation.
+- [scientific notation](../../../../general/scientific%20notation.md) ::@:: a way of expressing numbers that are too large or too small to be conveniently written in decimal form, since to do so would require writing out an inconveniently long string of digits
+  - scientific notation / form ::@:: Nonzero numbers are written in the form <p> _m_ × 10<sup>_n_</sup> <p> or _m_ times ten raised to the power of _n_, where _n_ is an [integer](../../../../general/integer.md), and the [coefficient](../../../../general/coefficient.md) _m_ is a nonzero [real number](../../../../general/real%20number.md) \(usually between 1 and 10 in absolute value, and nearly always written as a [terminating decimal](../../../../general/decimal.md)\). The integer _n_ is called the [exponent](../../../../general/exponent.md) and the real number _m_ is called the _[significand](../../../../general/significand.md)_ or _mantissa_ (not to be confused with that of the same name in floating-point arithmetic).
+    - scientific notation / form / normalized ::@:: When _m_ is at least 1 and less than (_not_ equal to) 10. <p> For _binary_ representation, this means the leading digit is always 1.
+- floating-point arithmetic
+  - floating-point arithmetic / name ::@:: It is _floating_ because the binary point is not fixed (affected by the significand).
+  - floating-point arithmetic / form ::@:: $$1.xxx \ldots xxx_2 \times 2^{yyy \ldots yyy_2} \,,$$ where $xxx \ldots xxx_2$ is the _significand_ or _mantissa_ (not to be confused with that of the same name in scientific notation) and $yyy \ldots yyy_2$ is the _exponent_. They have a fixed number of digits (bits).
+  - floating-point arithmetic / distribution ::@:: Looking at its form, we can see that the distribution of floating-point numbers is not even. The density of representable numbers doubles/halves every time you cross a power of 2.
+  - floating-point arithmetic / precision ::@:: The arithmetic is _approximate_ (i.e. not _exact_). Thus we say it has a finite range and _limited_ precision.
+- [single-precision floating-point format](../../../../genral/single-precision%20floating-point%20format.md) (`float`) ::@:: 32-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 8 exponent bits, and 23 significand bits (precision is 24 bits).
+  - single-precision floating-point format / precision ::@:: about 7 significant _decimal_ digits (6 to 9)
+  - single-precision floating-point format / exponent range ::@:: 2<sup>−126</sup> ≈ 10<sup>−38</sup> to 2<sup>+127</sup> ≈ 10<sup>+38</sup>
+  - single-precision floating-point format
+- [double-precision floating-point format](../../../../genral/double-precision%20floating-point%20format.md) (`double`) ::@:: 64-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 11 exponent bits, and 52 significand bits (precision is 53 bits).
+  - double-precision floating-point format / precision ::@:: about 16 significant _decimal_ digits (15 to 17)
+  - double-precision floating-point format / exponent range ::@:: 2<sup>−1026</sup> ≈ 10<sup>−308</sup> to 2<sup>+1027</sup> ≈ 10<sup>+308</sup>
+    - double-precision floating-point format / exponent range / mnemonic ::@:: Compare the exponents with that of single-precision... notice that "0" is inserted as the 2nd digit. Hmm...
+- [IEEE 754](../../../../general/IEEE%20754.md) ::@:: a technical standard for floating-point arithmetic originally established in 1985 by the Institute of Electrical and Electronics Engineers \(IEEE\)
+  - IEEE 754 / history (brief) ::@:: It was developed in response to divergence of representations, which can cause portability issues for scientific code. Now it is almost universally adopted.
+  - IEEE 754 / representations ::@:: single precision (32-bit), double precision (64-bit), ... (there are much more not covered in this course)
+
+## week 4 lab
+
+- datetime: 2025-02-25T15:00:00+08:00/2025-02-25T15:50:00+08:00
+- topic: building sequential logics with Logisim
+- Logisim
+  - Logisim / magnification ::@:: Use magnification to help you connect wires and draw graphics.
+  - Logisim / wire color ::@:: Light green means 1. Dark green means 0. Any other color means connection problem.
+  - Logisim / auto build ::@:: Given a logical expression, it can build a circuit for you. You can convert a truth table into an expression using SOP (or POS).
+- flip-flop
+  - flip-flop / SR NOR latch
+  - flip-flop / SR NAND latch
+  - flip-flop / gated D latch
+- clock
+- flip-flop
+  - flip-flop / master–slave edge-triggered D flip-flop
+  - flip-flop / gated D latch
+    - flip-flop / gated D latch / register
+
+## week 4 tutorial
+
+- datetime: 2025-02-25T18:00:00+08:00/2025-02-25T18:50:00+08:00
+- topic: sequential logic circuit
+- combinational logic
+- sequential logic
+- clock
+  - clock / terminology
+- flip-flop
+  - flip-flop / SR NAND latch
+- flip-flop
+  - flip-flop / gated D latch
+  - flip-flop / master–slave edge-triggered D flip-flop
+- [register file](../../../../general/register%20file.md) ::@:: an array of processor registers in a central processing unit (CPU)
+  - register file / implementation ::@:: fast static RAMs with multiple ports
+- [counter](../../../../general/counter%20(digital).md) ::@:: a device which stores (and sometimes displays) the number of times a particular event or process has occurred, often in relationship to a clock
+  - counter / synchronous 2-bit counter ::@:: The counter has 2 gated D latches, each linked to an output. The output cycles through 00, 01, 10, and 11. Its input has the clock only.  <p> The 2 required combinational logic gates are the NOT gate and XOR gate.
+    - counter / synchronous 2-bit counter / hints ::@:: truth table/transition table → K-map → logic simplification → circuit design
+
+## week 4 lecture 2
+
+- datetime: 2025-02-28T09:00:00+08:00/2025-02-28T10:20:00+08:00
+- topic: IEEE754 rational: implicit 1, biased exponent, range, precision, special cases
+- IEEE 754
+  - IEEE 754 / format ::@:: It is composed of 3 parts, in order from MSB to LSB: a _sign_, an _exponent_, and then a _significand_.
+    - IEEE 754 / format / input ::@:: Inputs required to design a IEEE 754 format: a base _b_ that is either 2 or 10 (for simplicity, __we only consider _b_ = 2 henceforth__), a precision _p_, and an exponent range from _emin_ to _emax_ (inclusive) satisfying _emin_ = −(_emax_ − 1) = 1 − _emax_.
+    - IEEE 754 / format / number ::@:: We have 3 types of numbers: signed finite numbers (including two signed zeros), two infinities, and two kinds of NaN (not-a-number): a quiet NaN (qNaN) and a signaling NaN (sNaN).
+    - IEEE 754 / format / finite numbers ::@:: _s_ = a sign that is either 0 or 1, <br/> _c_ = a _significand_ that is an _integer_ from 0 to _b_<sup>_p_</sup>−1 (at most _p_ base-_b_ digits), and <br/> _q_ = an _exponent_ such that _emin_ ≤ _q_ + _p_ − 1 ≤ _emax_. <br/> The numerical value of such a finite number is \(−1\)<sup>_s_</sup> × _c_ × _b_<sup>_q_</sup>. <br/> _q_ = an _exponent_ such that _emin_ ≤ _q_ ≤ _emax_. <br> The numerical value of such a finite number is \(−1\)<sup>_s_</sup> × \(_c_ × _b_<sup>1 − _p_</sup>\) × _b_<sup>_q_</sup>, where \(_c_ × _b_<sup>1 − _p_</sup>\) can be interpreted as _c_ but the decimal point is right after the first digit. This latter definition more closely matches the actual binary representation. We will __use this latter definition henceforth__.
+    - IEEE 754 / format / sign bit ::@:: 0 is nonnegative, 1 is negative. This is obvious. <p> Using a binary bit
+    - IEEE 754 / format / significand bits ::@:: Given precision _p_ (number of digits), we could just simply have _p_ bits directly corresponding to the _p_ digits of _c_. However, we have a problem: 0 have many different representations, two (due to the sign bit) for each combination of exponent bits. <p> To avoid this, we use the _implicit bit convention_: the first digit of _c_ is always 1, and 0 is represented by the significand bits and exponent bits being all 0s.
+      - IEEE 754 / format / significand bits / implicit bit ::@:: This has two advantages: We now only have two representations for 0. And we can represent _p_ digits with only _p_ − 1 bits! The disadvantage is now we have _subnormal numbers_ (the other being named _normal numbers_) when the exponent bits are all 0s but not the significand bits, which has a precision less than _p_ depending on the value (and some other things mentioned below).
+    - IEEE 754 / format / exponent bits ::@:: Usually we decide the exponent range from the number of bits instead of the other way around. Given _n_ exponent bits, we have 2<sup>_n_</sup> combinations. For _normal numbers_, the exponent bits are not all 0s (_subnormal numbers_) and not all 1s (_infinities_ and _NaNs_). So we only have 2<sup>_n_</sup> − 2 combinations left. <p> Then the range is \[−(2<sup>_n_ − 1</sup> − 2), 2<sup>_n_ − 1</sup> − 1\]. The exponent bits are _biased_.
+      - IEEE 754 / format / exponent bits / bias ::@:: An actual exponent of 0 is represented by all bits 1 except for the MSB, which is 0. From this, we derive a _bias_, which is 2<sup>_n_ − 1</sup> − 1. <p> This can be interpreted as: interpreting the exponent bits as an _unsigned_ integer, _subtracting_ it by the _bias_ gives the actual exponent; or the exponent bits as an _unsigned_ integer stores the actual exponent _plus_ the _bias_. <p> Its advantage is that floating-point numbers of the _same sign_ can be compared directly as if they are unsigned integers (if the sign bit is 1, the ordering is reversed).
+    - IEEE 754 / format / infinity ::@:: The signed infinities are represented by setting the exponent bits to all 1s and the significand bits to all 0s. <p> The sign bit determines if it is positive or negative.
+    - IEEE 754 / format / NaN ::@:: NaNs are represented by setting the exponent bits to all 1s and the significand bits to _not_ all 0s. <p> The sign bit is ignored by most applications.
+      - IEEE 754 / format / NaN / quiet, signaling ::@:: If the most significant significand bit is 0, it is _signaling_. If it is 1, it is _quiet_. The remaining bits (and rarely the sign bit) is a _payload_ that can store anything. For signaling NaNs, the payload cannot be all 0s or else it becomes an infinity. <p> The above convention (0 is signal, 1 is quiet) means one can silence a signaling NaN into a quiet NaN by simply setting the most significant significand bit to 1. The reverse convention _may_ convert a signaling NaN to an infinity instead if the payload is all 0s.
+  - IEEE 754 / conversion from a number ::@:: (for humans) Write the number in terms of _normalized_ scientific notation in base _b_ for the significand. Set the sign bit directly, the exponent bits (remember to add the bias), and the significant bits (discarding the leading implicit 1). Finally, check that the resulting format represents a finite (normal) number instead of special numbers (or subnormal numbers). Otherwise, the number to be represented is out of range.
+- single-precision floating-point format
+  - single-precision floating-point format / range \(zero, normal\) ::@:: in absolute value (i.e. discard sign): 0, \[1×2<sup>–126</sup> ≈ 1.2×10<sup>–38</sup>, (2−2<sup>−23</sup>)×2<sup>+127</sup> ≈ 3.4×10<sup>+38</sup>\] (figure out the representations yourself)
+  - single-precision floating-point format / range \(subnormal\) ::@:: in absolute value (i.e. discard sign): \[2<sup>−23</sup>×2<sup>–126</sup> ≈ 1.4×10<sup>–45</sup>, (1−2<sup>−23</sup>)×2<sup>–126</sup> ≈ 1.2×10<sup>–38</sup>\] (figure out the representations yourself)
+- double-precision floating-point format
+  - double-precision floating-point format / range \(zero, normal\) ::@:: in absolute value (i.e. discard sign): 0, \[1×2<sup>–1022</sup> ≈ 2.2×10<sup>–308</sup>, (2−2<sup>−52</sup>)×2<sup>+1023</sup> ≈ 1.8×10<sup>+308</sup>\] (figure out the representations yourself)
+  - double-precision floating-point format / range \(subnormal\) ::@:: in absolute value (i.e. discard sign): \[2<sup>−52</sup>×2<sup>–1022</sup> ≈ 4.9×10<sup>–324</sup>, (1−2<sup>−52</sup>)×2<sup>–1022</sup> ≈ 2.2×10<sup>–308</sup>\] (figure out the representations yourself)
+- [arithmetic underflow](../../../../general/arithmetic%20underflow.md) ::@:: It is a condition in a computer program where the result of a calculation is a number of more precise absolute value than the computer can actually represent in memory on its central processing unit (CPU). <p> The exponent becomes too small (slides: negative exponent becomes too large) to fit in the exponent field. This is not the same as a number becoming too negative, which is arithmetic overflow instead.
+  - arithmetic underflow / arithmetic overflow ::@:: Similar to integer overflow. The (slides: positive) exponent becomes too large to fit in the exponent field. Equivalently, the number becomes too negative or too positive.
+  - arithmetic underflow / integer ::@:: First, see above discussion of "integer underflow" in integer overflow. <p> Unlike "integer underflow", arithmetic underflow is _not_ used like how "integer underflow" is used relative to "integer overflow". That is, arithmetic underflow never refers to a number becoming too negative.
+- [normal number](../../../../general/normal%20number%20(computing).md) ::@:: It is a normal number is a non-zero number in a floating-point representation which is within the balanced range supported by a given floating-point format: it is a floating point number that can be represented without leading zeros in its significand.
+- [subnormal number](../../../../general/subnormal%20number.md) ::@:: They fill the underflow gap around zero in floating-point arithmetic. Any non-zero number with magnitude smaller than the smallest positive normal number is _subnormal_, while _denormal_ can also refer to numbers outside that range.
+  - subnormal number / significand ::@:: Note that the leading _implicit_ bit is now 0 instead of 1. This is the defining characteristic.
+  - subnormal number / exponent ::@:: Note that the actual exponent for subnormal numbers is as if the exponent bits has an unsigned value of 1 instead of being all 0s, even though the exponent bits are actually all 0s.
+  - subnormal number / issues ::@:: They fill the underflow gap with _evenly_ spaced values, instead of being _logarithmically_ spaced like normal numbers. <p> Some system handle these numbers much more slowly than normal numbers.
+- IEEE 754
+  - IEEE 754 / format
+    - IEEE 754 / format / infinity
+      - IEEE 754 / format / infinity / usage ::@:: It can be used in subsequent calculations, which avoids need for checking overflows.
+    - IEEE 754 / format / NaN
+      - IEEE 754 / format / NaN / usage ::@:: It can be used in subsequent calculations, which avoids need for illegal checking illegal or undefined operations, e.g. dividing 0 by 0.
+- [ASCII](../../../../general/ASCII.md) ::@:: It is a character encoding standard for electronic communication, used by most computers today. <p> It is ais a 7-bit code, so there are 128 code points. Each unsigned integer maps to a character. But most of time we use an unsigned byte, which has 8 bits, to represent a character with the MSB set to 0.
+  - ASCII / acronym ::@:: American Standard Code for Information Interchange
+  - ASCII / patterns ::@:: Some notable patterns: <br/> Alphabets (A to Z, a to z) and numbers (0 to 9) are in order. <br/> groups: NUL (null) → control characters → punctuations → numbers → punctuations → big alphabets → punctuations → small alphabets → punctuations → DEL (a control character)
+  - ASCII / notes ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here.
 
 ## assignments
 

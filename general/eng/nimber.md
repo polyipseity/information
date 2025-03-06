@@ -71,7 +71,7 @@ For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_
 Just as {@{in the case of nimber addition}@}, there is {@{a means of computing the nimber product of finite ordinals}@}. This is determined by the rules that <!--SR:!2025-03-27,74,325!2025-03-16,64,310-->
 
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2025-08-02,152,305!2025-03-28,75,325-->
-2. The nimber square of a Fermat 2-power _x_ ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-03-09,28,245!2025-08-15,163,313-->
+2. The nimber square of a Fermat 2-power _x_ \(annotation: numbers of the form 2<sup>2<sup>_n_</sup></sup>\) ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-03-09,28,245!2025-08-15,163,313-->
 
 {@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-25,72,325!2025-03-09,58,310!2025-04-05,73,270-->
 
