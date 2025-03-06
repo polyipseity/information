@@ -17,7 +17,7 @@ tags:
 
 - HKUST ACCT 2200
 
-Do you really need to remember these exactly? ::@:: Not really...
+Do you really need to remember these _exactly_? ::@:: Not really... The approximate format should suffice.
 
 ## materials acquitision form
 
@@ -42,8 +42,10 @@ Do you really need to remember these exactly? ::@:: Not really...
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@}
 
 - materials requisition form ::@:: information, table, authorized signature
-  - materials requisition form / information ::@:: materials requsitiion number, date, job number, description
-  - materials requisition form / table ::@:: _column headers_: material description (including numbers or sizes if needed), quantity, unit cost, total cost <br> _row headers_: material description, (materials...), total cost
+  - materials requisition form / information ::@:: materials requisition number, date, job number, description
+  - materials requisition form / table
+    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost
+    - materials requisition form / table / row headers ::@:: material description, (materials...), total cost
 
 ## direct labor time ticket
 
@@ -54,7 +56,7 @@ Do you really need to remember these exactly? ::@:: Not really...
 > {@{__Direct Labor Time Ticket__}@}
 >
 > - {@{Dates: 2025-02-10 \(Monday\)—2025-02-14 \(Friday\)}@}
-> - {@{Ticket Number: TT 69}@}
+> - {@{Ticket Number: TT 1337}@}
 > - {@{Employee: Chris Wong}@}
 >
 > | {@{Date}@}       | {@{Time Started}@} | {@{Time Ended}@}   | {@{Total Hours}@} | {@{Hourly Rate}@} | {@{Total Amount}@} | {@{Job Number}@} |
@@ -65,13 +67,15 @@ Do you really need to remember these exactly? ::@:: Not really...
 > | {@{2025-02-13}@} | {@{04:00}@}        | {@{21:00}@}        | {@{17 hours}@}    | {@{100}@}         | {@{1&nbsp;700}@}   | {@{42}@}         |
 > | {@{2025-02-13}@} | {@{22:45}@}        | {@{23:45}@}        | {@{1 hour}@}      | {@{100}@}         | {@{100}@}          | {@{Training}@}   |
 > | {@{2025-02-14}@} | {@{07:00}@}        | {@{15:00}@}        | {@{8 hours}@}     | {@{100}@}         | {@{800}@}          | {@{69}@}         |
-> |                  |                    | {@{Weekly total}@} | {@{78 hours}@}    |                   | {@{\$7&nbsp;800}@} |                  |
+> |                  |                    | {@{Weekly Total}@} | {@{78 hours}@}    |                   | {@{\$7&nbsp;800}@} |                  |
 >
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@}
 
 - direct labor time ticket ::@:: information, table, authorized signature
   - direct labor time ticket / information ::@:: dates, ticket number, employee
-  - direct labor time ticket / table ::@:: _column headers_: date, time started, time ended, total hours, hourly rate, total amount, job number <br/> _row headers_: date, (consecutive working periods...), (whatever, e.g. weekly) total
+  - direct labor time ticket / table
+    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number
+    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total
 
 ## job cost sheet
 
@@ -89,7 +93,7 @@ Do you really need to remember these exactly? ::@:: Not really...
 > | {@{__Actual Direct Materials__}@} |                    | {@{__Actual Direct Labor__}@} |                 |                    | {@{__Applied Manufacturing Overhead__}@} |                  |
 > | --------------------------------- | ------------------:| ----------------------------- | ---------------:| ------------------:| ----------------------------------------:| ----------------:|
 > | {@{__Req. No__}@}                 | {@{__Amount__}@}   | {@{__Ticket__}@}              | {@{__Hours__}@} | {@{__Amount__}@}   | {@{__Hours__}@}                          | {@{__Amount__}@} |
-> | {@{MR 420}@}                      | {@{\$1&nbsp;234}@} | {@{TT 1337}@}                 | {@{69}@}        | {@{\$6&nbsp;900}@} | {@{69}@}                                 | {@{\$690}@}      |
+> | {@{MR 420}@}                      | {@{\$1&nbsp;700}@} | {@{TT 1337}@}                 | {@{69}@}        | {@{\$6&nbsp;900}@} | {@{69}@}                                 | {@{\$690}@}      |
 >
 > ---
 >
@@ -97,10 +101,10 @@ Do you really need to remember these exactly? ::@:: Not really...
 >
 > |                                      |                                |
 > | ------------------------------------ | ------------------------------:|
-> | {@{Direct Materials Cost}@}          | {@{\$&nbsp;1&nbsp;234}@}       |
+> | {@{Direct Materials Cost}@}          | {@{\$&nbsp;1&nbsp;700}@}       |
 > | {@{Direct Labor Cost}@}              | {@{6&nbsp;900}@}               |
 > | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}               |
-> | &emsp;{@{Total Cost}@}               | {@{<u>$&nbsp;8&nbsp;824</u>}@} |
+> | &emsp;{@{Total Cost}@}               | {@{<u>$&nbsp;9&nbsp;290</u>}@} |
 
 - job cost sheet ::@:: information, tables, cost summary
   - job cost sheet / information ::@:: job number, date started, date completed, description
@@ -127,7 +131,7 @@ Do you really need to remember these exactly? ::@:: Not really...
 > | {@{Manufacturing overhead applied}@}                  | {@{250}@}                     |
 > | {@{Total current manufacturing costs}@}               | {@{\$1&nbsp;750}@}            |
 > | &emsp;{@{Plus: Beginning work in process inventory}@} | {@{2&nbsp;000}@}              |
-> | &emsp;{@{Less: Ending work in process inventory}@}    | {@{1&nbsp;000}@}              |
+> | &emsp;{@{Less: Ending work in process inventory}@}    | {@{\(1&nbsp;000\)}@}          |
 > | {@{Cost of goods manufactured}@}                      | {@{__\$<u>2&nbsp;750</u>__}@} |
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured
@@ -161,7 +165,7 @@ Do you really need to remember these exactly? ::@:: Not really...
 >
 > |                         |                         |                                                    |                 |
 > | -----------------------:| -----------------------:|:-------------------------------------------------- |:--------------- |
-> |                         | {@{increase}@}          | {@{decrease}@}                                     |                 |
+> |                         | {@{Increase}@}          | {@{Decrease}@}                                     |                 |
 > |                         | {@{__Cash \(A\)__}@}    | {@{\(the left text should be centered instead\)}@} |                 |
 > |                         | __----------__          | __----------__                                     |                 |
 > |                         | {@{__Debits \(Dr\)__}@} | {@{__Credits \(Cr\)__}@}                           |                 |
@@ -225,7 +229,7 @@ Do you really need to remember these exactly? ::@:: Not really...
 > | {@{Total}@}                   | {@{\$&emsp;1&nbsp;100}@} | {@{\$&emsp;1&nbsp;090}@} | {@{\$&emsp;2&nbsp;190}@} |
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs
-  - process costing \(weighted average\) / column headers ::@:: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
+  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total
@@ -288,7 +292,7 @@ Do you really need to remember these exactly? ::@:: Not really...
 > | {@{Total}@}                                         | {@{\$&emsp;1&nbsp;100}@} | {@{\$&emsp;1&nbsp;090}@} | {@{\$&emsp;2&nbsp;190}@} |
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs
-  - process costing \(first-in, first-out\) / column headers ::@:: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
+  - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion
     - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total
