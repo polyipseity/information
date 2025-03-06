@@ -17,7 +17,7 @@ tags:
 
 - HKUST ACCT 2200
 
-Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
+Do you really need to remember these _exactly_? ::@:: Not really... The approximate format should suffice. <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
 
 ## materials acquitision form
 
@@ -42,8 +42,10 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290-->
 
 - materials requisition form ::@:: information, table, authorized signature <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
-  - materials requisition form / information ::@:: materials requsitiion number, date, job number, description <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
-  - materials requisition form / table ::@:: _column headers_: material description (including numbers or sizes if needed), quantity, unit cost, total cost <br> _row headers_: material description, (materials...), total cost <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
+  - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
+  - materials requisition form / table
+    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost
+    - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
 
 ## direct labor time ticket
 
@@ -54,7 +56,7 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > {@{__Direct Labor Time Ticket__}@}
 >
 > - {@{Dates: 2025-02-10 \(Monday\)—2025-02-14 \(Friday\)}@}
-> - {@{Ticket Number: TT 69}@}
+> - {@{Ticket Number: TT 1337}@}
 > - {@{Employee: Chris Wong}@}
 >
 > | {@{Date}@}       | {@{Time Started}@} | {@{Time Ended}@}   | {@{Total Hours}@} | {@{Hourly Rate}@} | {@{Total Amount}@} | {@{Job Number}@} |
@@ -65,13 +67,15 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > | {@{2025-02-13}@} | {@{04:00}@}        | {@{21:00}@}        | {@{17 hours}@}    | {@{100}@}         | {@{1&nbsp;700}@}   | {@{42}@}         |
 > | {@{2025-02-13}@} | {@{22:45}@}        | {@{23:45}@}        | {@{1 hour}@}      | {@{100}@}         | {@{100}@}          | {@{Training}@}   |
 > | {@{2025-02-14}@} | {@{07:00}@}        | {@{15:00}@}        | {@{8 hours}@}     | {@{100}@}         | {@{800}@}          | {@{69}@}         |
-> |                  |                    | {@{Weekly total}@} | {@{78 hours}@}    |                   | {@{\$7&nbsp;800}@} |                  |
+> |                  |                    | {@{Weekly Total}@} | {@{78 hours}@}    |                   | {@{\$7&nbsp;800}@} |                  |
 >
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290-->
 
 - direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
-  - direct labor time ticket / table ::@:: _column headers_: date, time started, time ended, total hours, hourly rate, total amount, job number <br/> _row headers_: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2025-03-10,4,270!2025-03-07,1,250-->
+  - direct labor time ticket / table
+    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number
+    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2025-03-10,4,270!2025-03-07,1,250-->
 
 ## job cost sheet
 
@@ -89,7 +93,7 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > | {@{__Actual Direct Materials__}@} |                    | {@{__Actual Direct Labor__}@} |                 |                    | {@{__Applied Manufacturing Overhead__}@} |                  |
 > | --------------------------------- | ------------------:| ----------------------------- | ---------------:| ------------------:| ----------------------------------------:| ----------------:|
 > | {@{__Req. No__}@}                 | {@{__Amount__}@}   | {@{__Ticket__}@}              | {@{__Hours__}@} | {@{__Amount__}@}   | {@{__Hours__}@}                          | {@{__Amount__}@} |
-> | {@{MR 420}@}                      | {@{\$1&nbsp;234}@} | {@{TT 1337}@}                 | {@{69}@}        | {@{\$6&nbsp;900}@} | {@{69}@}                                 | {@{\$690}@}      |
+> | {@{MR 420}@}                      | {@{\$1&nbsp;700}@} | {@{TT 1337}@}                 | {@{69}@}        | {@{\$6&nbsp;900}@} | {@{69}@}                                 | {@{\$690}@}      |
 >
 > ---
 >
@@ -97,10 +101,10 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 >
 > |                                      |                                |
 > | ------------------------------------ | ------------------------------:|
-> | {@{Direct Materials Cost}@}          | {@{\$&nbsp;1&nbsp;234}@}       |
+> | {@{Direct Materials Cost}@}          | {@{\$&nbsp;1&nbsp;700}@}       |
 > | {@{Direct Labor Cost}@}              | {@{6&nbsp;900}@}               |
 > | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}               |
-> | &emsp;{@{Total Cost}@}               | {@{<u>$&nbsp;8&nbsp;824</u>}@} | <!--SR:!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290-->
+> | &emsp;{@{Total Cost}@}               | {@{<u>$&nbsp;9&nbsp;290</u>}@} | <!--SR:!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290-->
 
 - job cost sheet ::@:: information, tables, cost summary <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
   - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
@@ -127,7 +131,7 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > | {@{Manufacturing overhead applied}@}                  | {@{250}@}                     |
 > | {@{Total current manufacturing costs}@}               | {@{\$1&nbsp;750}@}            |
 > | &emsp;{@{Plus: Beginning work in process inventory}@} | {@{2&nbsp;000}@}              |
-> | &emsp;{@{Less: Ending work in process inventory}@}    | {@{1&nbsp;000}@}              |
+> | &emsp;{@{Less: Ending work in process inventory}@}    | {@{\(1&nbsp;000\)}@}          |
 > | {@{Cost of goods manufactured}@}                      | {@{__\$<u>2&nbsp;750</u>__}@} | <!--SR:!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270-->
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
@@ -161,7 +165,7 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 >
 > |                         |                         |                                                    |                 |
 > | -----------------------:| -----------------------:|:-------------------------------------------------- |:--------------- |
-> |                         | {@{increase}@}          | {@{decrease}@}                                     |                 |
+> |                         | {@{Increase}@}          | {@{Decrease}@}                                     |                 |
 > |                         | {@{__Cash \(A\)__}@}    | {@{\(the left text should be centered instead\)}@} |                 |
 > |                         | __----------__          | __----------__                                     |                 |
 > |                         | {@{__Debits \(Dr\)__}@} | {@{__Credits \(Cr\)__}@}                           |                 |
@@ -176,7 +180,7 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 
 ## process costing (weighted average)
 
-> __example__: {@{find physical units}@}
+> __example__: {@{find physical units}@} <!-- flashcard ID: a557a424-95ef-40c6-9877-9ca8f66e3d9f -->
 >
 > ---
 >
@@ -225,20 +229,20 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > | {@{Total}@}                   | {@{\$&emsp;1&nbsp;100}@} | {@{\$&emsp;1&nbsp;090}@} | {@{\$&emsp;2&nbsp;190}@} | <!--SR:!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270-->
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
-  - process costing \(weighted average\) / column headers ::@:: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
+  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2025-03-09,3,270!2025-03-10,4,290-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
-- production report ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-10,4,301!2025-03-10,4,301-->
-  - production report / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
-  - production report / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-03-10,4,301!2025-03-10,4,301-->
+- production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-10,4,301!2025-03-10,4,301-->
+  - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
+  - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-03-10,4,301!2025-03-10,4,301-->
 
 ## process costing (first-in, first-out)
 
-> __example__: {@{find physical units}@}
+> __example__: {@{find physical units}@} <!-- flashcard ID: a2b2f0b3-4333-405b-8760-d42c786993d6 -->
 >
 > ---
 >
@@ -288,16 +292,16 @@ Do you really need to remember these exactly? ::@:: Not really... <!--SR:!2025-0
 > | {@{Total}@}                                         | {@{\$&emsp;1&nbsp;100}@} | {@{\$&emsp;1&nbsp;090}@} | {@{\$&emsp;2&nbsp;190}@} | <!--SR:!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,290!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,270!2025-03-10,4,290-->
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
-  - process costing \(first-in, first-out\) / column headers ::@:: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
+  - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
     - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
-- production report ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
-  - production report / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
-  - production report / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
+- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
+  - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
+  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
 
 ## activity cost pool
 
