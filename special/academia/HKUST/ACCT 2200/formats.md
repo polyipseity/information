@@ -180,7 +180,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 ## process costing (weighted average)
 
-> __example__: {@{find physical units}@}
+> __example__: {@{find physical units}@} <!-- flashcard ID: a557a424-95ef-40c6-9877-9ca8f66e3d9f -->
 >
 > ---
 >
@@ -236,13 +236,13 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total
-- production report ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
-  - production report / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
-  - production report / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
+- production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
+  - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
+  - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
 
 ## process costing (first-in, first-out)
 
-> __example__: {@{find physical units}@}
+> __example__: {@{find physical units}@} <!-- flashcard ID: a2b2f0b3-4333-405b-8760-d42c786993d6 -->
 >
 > ---
 >
@@ -299,9 +299,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total
-- production report ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
-  - production report / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
-  - production report / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
+- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
+  - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
+  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
 
 ## activity cost pool
 
