@@ -395,6 +395,97 @@ The content is in teaching order.
 - [x̅ and R chart](../../../../general/x̅_and_R_chart.md) ::@:: It is a type of scheme, popularly known as control chart, used to monitor the _mean_ and _range_ of a _normally distributed_ variables simultaneously, when samples are collected at regular intervals from a business or industrial process.
 - [p-chart](../../../../general/p-chart.md) ::@:: It is a type of control chart used to monitor the _proportion of nonconforming units_ in a sample, where the sample proportion nonconforming is defined as the ratio of the number of nonconforming units to the sample size, _n_.
 
+## week 5 lecture
+
+- datetime: 2025-03-03T10:30:00+08:00/2025-03-03T11:50:00+08:00
+- topic: quality management, conformance analysis, acceptance sampling
+- statistical process control
+  - statistical process control / conformance analysis
+    - statistical process control / conformance analysis / goals
+    - statistical process control / conformance analysis / steps
+- control chart
+  - control chart / idea
+  - control chart / types
+- [continuous or discrete variable](../../../../general/continuous%20or%20discrete%20variable.md) ::@:: a quantitative variable may be __continuous__ or __discrete__ if it is typically obtained by _measuring_ or _counting_, respectively
+  - continuous variable ::@:: can be measured continuously
+    - continuous variable / examples ::@:: length, speed, temperature, weight, width
+- x̅ and R chart
+  - x̅ and R chart / data ::@:: Take a series of samples over _time_. Each sample is taken on a small group (fixed size _n_) of products.
+  - x̅ and R chart / method ::@:: For each sample, compute mean $\overline x$ and range $R$. Then across all samples, compute mean of mean $\overline {\overline x}$ and mean of range $overline R$. Compute _control_ \(not _specification_\) limits using $A_2$ from $n$.
+  - x̅ and R chart / center line ::@:: $${\bar {\bar {x} } }={\frac {\sum _{i=1}^{m}\sum _{j=1}^{n}x_{ij} }{mn} }$$
+  - x̅ and R chart / control limits ::@:: $${\bar {\bar {x} } }\pm A_{2}{\bar {R} }$$
+  - x̅ and R chart / plotted statistic ::@:: $${\bar {x} }_{i}={\frac {\sum _{j=1}^{n}x_{j} }{n} }$$
+  - x̅ and R chart / sample size-specific anti-biasing constants ::@:: _A_<sub>2</sub> controls the width of lower and upper control limits \(LCL/UCL\). The larger the sample size _n_, the smaller _A_<sub>2</sub>, because less variation in the sample mean should be expected. <p> You do not need to compute this. A table will be provided.
+  - x̅ and R chart / plot ::@:: Plot the center line, control limits, and the data points for the plotted statistic. Optionally, join the data points.
+- statistical process control
+  - statistical process control / conformance analysis
+    - statistical process control / conformance analysis / control limits ::@:: used to tell if a process is _in-control_, computed from _samples_
+      - statistical process control / conformance analysis / control limits / vs. specification limits ::@:: determine if a process is _in-control_ vs. determine if a product is _defective_ <br/> computed from _samples_ vs. explicitly _specified_ beforehand
+  - statistical process control / conformance analysis / anomalies ::@:: long runs \(≥7) of consecutive points going up or down, long runs \(≥7\) of consecutive points on one side of the center line, points falling outside the control limits
+- continuous or discrete variable
+  - discrete variable ::@:: can be obtained by _counting_; binary: two possible values
+    - discrete variable / examples ::@:: defective or non-defective, good or bad, yes or no
+- p-chart
+  - p-chart / data ::@:: Take a series of samples over _time_. Each sample is taken on a small group (fixed size _n_) of products. The attribute should be binary, e.g. defectiveness.
+  - p-chart / method ::@:: For each sample, compute fraction of defects $p$. Then across all samples, compute mean of fraction of defects $\overline p$. Compute _control_ \(not _specification_\) limits by multiplying the standard deviation of $\overline p$ by 3.
+  - p-chart / center line ::@:: $${\bar {p} }={\frac {\sum _{i=1}^{m}\sum _{j=1}^{n}{\begin{cases}1&{\text{if } }x_{ij}{\text{ defective} }\\0&{\text{otherwise} }\end{cases} } }{mn} }$$
+  - p-chart / control limits ::@:: $${\bar {p} }\pm 3{\sqrt {\frac { {\bar {p} }(1-{\bar {p} })}{n} } }$$ <p> \(__Important__: In this course, the lower control limit should be _at least 0_.\)
+  - p-chart / plotted statistic $${\bar {p} }_{i}={\frac {\sum _{j=1}^{n}{\begin{cases}1&{\text{if } }x_{ij}{\text{ defective} }\\0&{\text{otherwise} }\end{cases} } }{n} }$$
+  - p-chart / plot ::@:: Plot the center line, control limits, and the data points for the plotted statistic. Optionally, join the data points.
+- [_kaizen_](../../../../general/kaizen.md) \(改善, "improvement"\) ::@:: a concept referring to business activities that continuously improve all functions and involve all employees
+  - _kaizen_ / control chart ::@:: from out-of-control (has anomalies), to in-control (no anomalies), to improvements (narrower control limits)
+- [acceptance sampling](../../../../general/acceptance%20sampling.md) ::@:: It uses statistical sampling to determine whether to accept or reject a production lot of material.
+  - acceptance sampling / decision rule ::@:: For a lot, specify the sample size _n_ and acceptance number _c_. Find the number of defectives _d_. If _d_ ≤ _c_, _accept_ the lot. Otherwise, _reject_ and _follow up_: perform full inspection, return lot, etc.
+  - acceptance sampling / model ::@:: In a lot, there are _N_ (population size) items with _P_ (_true_ population defective rate) of them being defective. We sample _n_ (sample size) size and find its _p_ (_estimated_ sample defective rate). <p> We want to _estimate_ _P_ using _p_, while ensuring _N_ >> _n_.
+  - acceptance sampling / conditions ::@:: In general, it is employed when one or several of the following hold: <p> testing is destructive; <br/> the cost of 100% inspection is very high; and <br/> 100% inspection takes too long.
+  - acceptance sampling / trade-off ::@:: cost of sampling vs. risk of wrong decision
+  - acceptance sampling / wrong decisions ::@:: rejected "good" lot: Type I error with probability $\alpha$ \(typically 5%\), false positive/rejection, _producer's risk_ <br/> accepted "bad" lot: Type II error with probability $\beta$ \(typically 10%\), false negative/acceptance, _consumer's risk_
+- [acceptable quality limit](../../../../general/acceptable%20quality%20limit.md) \(AQL\) ::@:: Maximum _true_ defective rate for producers. A lot is acceptable or "good" if _P_ ≤ AQL.
+- [lot tolerance percent defective](../../../../general/lot%20tolerance%20percent%20defective.md) \(LTPD\) ::@:: Maximum _true_ defective rate for consumers. A lot is unacceptable or "bad" if _P_ \> LTPD.
+- acceptance sampling
+  - acceptance sampling / wrong decisions
+    - acceptance sampling / wrong decisions / neither "good" nor "bad" ::@:: If the _true_ defective rate for a lot is AQL \< _P_ ≤ LTPD, then it is neither "good" nor "bad". Accept or reject are both "correct" decisions, i.e. neither Type I error nor Type II error.
+  - acceptance sampling / sampling plan ::@:: Given maximum Type I error rate $\alpha$, maximum Type II error rate $\beta$, AQL, and LTPD; solve for sample size _n_ and acceptance number _c_.
+    - acceptance sampling / sampling plan / table ::@:: Fixed parameters are maximum Type I error rate _α_ nd maximum Type II error rate _β_. The table has 3 columns: _c_ \(starting from 0\), LTPD÷AQL, n×AQL.
+      - acceptance sampling / sampling plan / table / use ::@:: Find the table for fixed maximum Type I error rate _α_ and maximum Type II error rate _β_. <p> _c_: Calculate LTPD÷AQL, and find the _smallest integer_ _c_ that has a value _at least_ the calculated LTPD÷AQL. This is the _c_. <br/> _n_: Use n×AQL of the found _c_. Find the _smallest integer_ _n_ such that n×AQL has a value of _at least_ that of the found _c_. Equivalently, divide n×AQL by AQL, and round up to the nearest integer.
+  - acceptance sampling / operating characteristic curve (OC curve) ::@:: \(optional\) The probability of acceptance given \(_n_, _c_\) is plotted on the _y_-axis, against the _true_ population defective rate plotted on the _x_-axis. _α_ and _β_ are indicated on the _y_-axis. AQL and LTPD are indicated on the _x_-axis.
+    - acceptance sampling / operating characteristic curve / _α_, _β_, AQL, LTPD ::@:: Type I error rate _α_ is the distance of the graph value from 100% at AQL. Type II error rate _β_ is the graph value at LTPD.
+    - acceptance sampling / operating characteristic curve / ideal curve ::@:: The ideal curve is 100% acceptance probability for true defective rate from 0 to AQL, and then 0% forever thereafter.
+
+## week 5 lecture 2
+
+- datetime: 2025-03-05T10:30:00+08:00/2025-03-05T11:50:00+08:00
+- topic: capacity planning, decision tree method and EVPI
+- [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ (JIT manufacturing in short).
+  - just-in-time manufacturing ::@:: \(optional\) Using production flow management and quality improvement to match supply with demand.
+    - just-in-time manufacturing / brief history ::@:: It was pioneered by Toyota in the 1980s. Later it was adopted by many famous manufacturers globally.
+- [capacity planning](../../../../general/capacity%20planning.md) ::@:: It is the process of determining the production capacity needed by an organization to meet changing demands for its products.
+  - capacity planning / capacity ::@:: It is the amount of output that a system can achieve over a specific period of time.
+  - capacity planning / levels ::@:: operational \(e.g. assignment, control, planning\), strategic \(e.g. fixed assets investments\), tactical \(e.g. human resources, minor investments\),
+- [economies of scale](../../../../general/economies%20of%20scale.md) ::@:: When output increases, average unit cost (LRATC) falls.
+- [diseconomies of scale](../../../../general/diseconomies%20of%20scale.md) ::@:: When output increases, average unit cost (LRATC) rises.
+- [minimum efficient scale](../../../../general/minimum%20efficient%20scale.md) ::@:: Output level with minimum average unit cost (LRATC).
+  - minimum efficient scale / aliases ::@:: best operating level
+- capacity planning
+  - capacity planning / uncertainty ::@:: In the real world, this comes in and affects demand, extreme events, production, supply, etc. <p> This makes capacity planning challenging, especially strategic planning in the _long term_.
+  - capacity planning / steps ::@:: specify _objectives_, find _alternatives_ in each step, analyze and compare, select the best alternative, implement and monitor
+- [decision tree](../../../../general/decision%20tree.md) ::@:: It is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility.
+  - decision tree / conditions ::@:: It cannot model any uncertainty. We need to know the possible random _scenarios_ and their _probabilities_, possible _actions_, and _payoffs_.
+  - decision tree / construction ::@:: We assume each _period_ has a decision, and then a random scenario. After a period, there may or may not be more periods after it. <p> Then your decision tree is listing all possible _actions_, and then for each action, listing all possible _scenarios_. Repeat until all periods have been exhausted. Finally, write the _payoffs_ at the tree ends (leaves).
+    - decision tree / construction / decision point ::@:: Represented by a square. Followed by alternative _decisions_ and their _expected values_ (either _given_ or computed backwardly via _backward induction_).
+    - decision tree / construction / event point ::@:: Represented by a circle. Followed by possible random _scenarios_ and their _probabilities_.
+  - decision tree / expected value ::@:: Consider a _period_. The expected payoff of an action is the weighted sum of the payoffs of its random _scenarios_ given the action, weighted by the scenario _probabilities_. <p> Since we choose the action with the best payoff, the _expected value of the whole tree_ is the payoff of the best action. <p> For multiple periods, use _backward induction_ as described below.
+    - decision tree / expected value / note ::@:: In practice, we also need to consider the decision _risk_, not just the expected payoff.
+  - decision tree / solution ::@:: Use _backward induction_ to find the _optimal_ action. <p> Start from the _last period_, and find the expected payoffs of all _actions_. Propagate the expected payoff of the _best_ action as the payoff of the corresponding random scenario of the previous period. Repeat until you have reached the _first period_. The action in the first period with the highest payoff is the _optimal_ action _right now_, and is also the _expected value_.
+- [backward induction](../../../../general/backward%20induction.md) ::@:: It is the process of determining a sequence of optimal choices by reasoning from the endpoint of a problem or situation back to its beginning using individual events or actions.
+- [expected value of perfect information](expected%20value%20of%20perfect%20information.md) \(EVPI\) ::@:: It is the price that one would be willing to pay in order to gain access to perfect information.
+  - expected value of perfect information / idea ::@:: The scenarios are still _random_, but you can know them _before_ making the decision.
+  - expected value of perfect information / equation ::@:: \(expected\) value _of_ perfect information = expected value _under_ perfect information − expected value \(_without_ perfect information\)
+  - expected value of perfect information / expected value _under_ perfect information ::@:: _List_ all scenarios. If there are multiple periods, combinations of all scenarios across periods. Compute their _probabilities_, either given, or calculated if across periods. <p> Then, for each combination of scenarios, compute the expected value of the decision tree again, but the random scenarios are fixed by the combination. <p> Finally, _sum_ the above expected values _weighted_ by their probabilities, and this is the expected value _under_ perfect information.
+- decision tree
+  - decision tree / summary ::@:: Information about the future is valuable (actually information in general is valuable). Thus it is desirable to reduce uncertainty as soon as possible.
+  - decision tree / summary / uncertainty reduction ::@:: data analytics, demand forecasting, feasibility study, market research, etc.
+
 ## midterm examination
 
 ## final examination
