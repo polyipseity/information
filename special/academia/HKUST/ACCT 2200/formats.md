@@ -44,7 +44,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - materials requisition form ::@:: information, table, authorized signature <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
   - materials requisition form / table
-    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost
+    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2025-03-10,4,302!2025-03-10,4,302-->
     - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2025-03-10,4,290!2025-03-10,4,270-->
 
 ## direct labor time ticket
@@ -74,7 +74,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - direct labor time ticket / table
-    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number
+    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2025-03-10,4,302!2025-03-10,4,302-->
     - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2025-03-10,4,270!2025-03-07,1,250-->
 
 ## job cost sheet
@@ -250,7 +250,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     |
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302!2025-03-10,4,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -299,9 +299,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2025-03-10,4,290!2025-03-10,4,290-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2025-03-10,4,270!2025-03-10,4,290-->
-- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
+- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-10,4,302!2025-03-10,4,302-->
   - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-03-10,4,270!2025-03-10,4,270-->
-  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
+  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-03-10,4,302!2025-03-10,4,302-->
 
 ## activity cost pool
 
