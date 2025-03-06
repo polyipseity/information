@@ -30,7 +30,7 @@ First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides
 After forming iron ions, {@{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}@}: <!--SR:!2026-12-30,677,250-->
 
 > - {@{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}@}
-> - {@{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}@} <!--SR:!2025-03-03,507,310!2027-01-08,986,330-->
+> - {@{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}@} <!--SR:!2029-06-24,1572,310!2027-01-08,986,330-->
 
 After forming iron hydroxides, {@{[dehydration](dehydration%20reaction.md) occurs in equilibra}@}: <!--SR:!2027-03-07,1030,330-->
 

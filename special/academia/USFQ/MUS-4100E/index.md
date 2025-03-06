@@ -79,7 +79,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00
   - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00
-- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-03-04,33,281!2025-04-17,70,321-->
+- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-06-05,92,281!2025-04-17,70,321-->
   - What is jazz? / students' answers: United States, created for rebellion
   - jazz / examples
     - "Struttin' with Some Barbecue" (1927) — Louis Armstrong and His Hot Five
@@ -164,7 +164,7 @@ The content is in teaching order.
 - datetime: 2025-01-22T08:30:00-05:00/2025-01-22T09:50:00-05:00
   - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00
 - [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2025-04-14,58,335!2025-04-24,63,335-->
-  - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2025-04-14,59,335!2025-03-05,24,295-->
+  - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2025-04-14,59,335!2025-06-11,98,315-->
   - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2025-04-15,59,335!2025-04-23,62,335-->
 - [jazz](../../../../general/jazz.md)
   - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2025-04-15,59,335!2025-04-16,56,335-->
@@ -172,10 +172,10 @@ The content is in teaching order.
   - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2025-05-06,76,355!2025-04-14,58,335-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2025-05-13,82,355!2025-05-12,81,355-->
   - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2025-04-16,56,335!2025-05-07,77,355-->
-- [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, painist, singer; first jazz composer to notate jazz <!--SR:!2025-03-28,41,315!2025-03-05,24,295-->
+- [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, painist, singer; first jazz composer to notate jazz <!--SR:!2025-03-28,41,315!2025-06-12,99,315-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2025-05-08,78,355!2025-05-15,84,355-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2025-05-15,84,355!2025-05-16,85,355-->
-  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2025-03-05,24,295!2025-04-14,59,335-->
+  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2025-06-10,97,315!2025-04-14,59,335-->
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2025-03-30,43,315!2025-04-18,58,335-->
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2025-05-11,80,355!2025-05-14,83,355-->
@@ -191,7 +191,7 @@ The content is in teaching order.
   - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00
 - [jazz](../../../../general/jazz.md)
   - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2025-04-14,58,335!2025-05-17,86,355-->
-- [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2025-03-27,40,315!2025-03-04,23,295-->
+- [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2025-03-27,40,315!2025-06-08,95,315-->
   - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2025-03-28,41,315!2025-03-27,41,315-->
   - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2025-04-14,59,335!2025-03-28,42,315-->
   - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2025-05-17,86,355!2025-04-14,58,335-->
@@ -199,11 +199,11 @@ The content is in teaching order.
   - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2025-04-24,63,335!2025-03-28,41,315-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2025-04-14,58,335!2025-03-13,32,315-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2025-04-23,62,335!2025-03-27,40,315-->
-  - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2025-03-04,23,295!2025-03-14,33,315-->
+  - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2025-06-10,97,315!2025-03-14,33,315-->
 - [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2025-04-14,58,335!2025-03-28,41,315-->
 - [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2025-04-22,61,335!2025-04-17,57,335-->
-  - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2025-04-14,59,335!2025-03-05,24,295-->
-  - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2025-03-04,23,295!2025-04-22,61,335-->
+  - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2025-04-14,59,335!2025-06-13,100,315-->
+  - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2025-06-08,95,315!2025-04-22,61,335-->
   - Louis Armstrong / fun facts ::@:: first jazz musician to appear on _Time_ magazine; appeared in over 35 films; oldest musician to have a number 1 hit "Hello, Dolly!" in 1964, knocking the Beatles off the number 1 spot; went on an England tour in 1932 <!--SR:!2025-03-27,40,315!2025-03-06,25,295-->
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2025-04-15,59,335!2025-04-14,59,335-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2025-04-15,59,335!2025-05-16,85,355-->
@@ -223,49 +223,49 @@ The content is in teaching order.
 - datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00
   - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00
 - [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-04-10,44,338!2025-04-12,46,338-->
-  - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2025-03-03,19,358!2025-03-03,19,358-->
+  - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2025-06-04,91,378!2025-06-07,94,378-->
 - [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2025-04-30,64,358!2025-03-21,29,318-->
-  - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-03-04,20,358!2025-03-21,29,318-->
+  - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-05-13,69,358!2025-03-21,29,318-->
   - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-04-03,42,338!2025-04-11,45,338-->
-  - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
+  - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
-- [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2025-03-03,19,358!2025-03-03,19,358-->
+  - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-06-07,94,378!2025-05-18,74,358-->
+- [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2025-05-13,69,358!2025-06-03,90,378-->
 - [big band](../../../../general/big%20band.md)
-  - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
+  - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2025-06-11,98,378!2025-06-12,99,378-->
 - [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-04-14,48,338!2025-04-11,45,338-->
-  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-03-04,20,358!2025-05-04,68,358-->
-  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2025-04-30,64,358!2025-03-03,19,358-->
+  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-06-13,100,378!2025-05-04,68,358-->
+  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2025-04-30,64,358!2025-06-08,95,378-->
 - [swing music](../../../../general/swing%20music.md)
-  - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
-- [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2025-04-11,45,338!2025-03-04,20,358-->
-  - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2025-04-12,46,338!2025-03-04,20,358-->
-  - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2025-03-04,20,358!2025-04-27,61,358-->
-  - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2025-03-04,20,358!2025-03-03,19,358-->
+  - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2025-06-13,100,378!2025-06-14,101,378-->
+- [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2025-04-11,45,338!2025-05-13,69,358-->
+  - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2025-04-12,46,338!2025-06-14,101,378-->
+  - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2025-06-11,98,378!2025-04-27,61,358-->
+  - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2025-06-13,100,378!2025-06-04,91,378-->
 - assignment: (none)
 
 ## week 4 lecture 2
 
 - datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00
   - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00
-- [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
+- [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2025-06-09,96,378!2025-06-14,101,378-->
   - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2025-04-29,63,358!2025-04-11,45,338-->
-- [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection
-  - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-04-13,47,338!2025-03-04,20,358-->
-  - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-04-12,46,338!2025-03-03,19,358-->
-- [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
-  - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2025-03-03,19,358!2025-03-03,19,358-->
+- [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them ; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection <!--SR:!2025-06-05,92,378!2025-06-11,98,378-->
+  - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-04-13,47,338!2025-06-10,97,378-->
+  - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-04-12,46,338!2025-06-06,93,378-->
+- [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-06-06,93,378!2025-06-13,100,378-->
+  - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2025-06-04,91,378!2025-06-03,90,378-->
 - [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-04-10,44,338!2025-04-03,42,338-->
-- [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
-- [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2025-03-04,20,358!2025-03-03,19,358-->
-  - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2025-03-03,19,358!2025-03-04,20,358-->
+- [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2025-05-15,71,358!2025-06-10,97,378-->
+- [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2025-05-13,69,358!2025-06-09,96,378-->
+  - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2025-05-13,69,358!2025-06-12,99,378-->
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
-  - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2025-03-04,20,358!2025-03-03,19,358-->
+  - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2025-05-14,70,358!2025-06-09,96,378-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2025-03-03,19,358!2025-03-03,19,358-->
-- [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-03-03,19,358!2025-03-20,28,318-->
+  - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2025-06-03,90,378!2025-06-06,93,378-->
+- [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-06-07,94,378!2025-03-20,28,318-->
   - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-03-21,29,318!2025-05-04,68,358-->
-  - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2025-03-04,20,358!2025-03-04,20,358-->
+  - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz
 - assignment: (none)
@@ -280,8 +280,8 @@ The content is in teaching order.
   - swing music / vs. New Orleans jazz
 - [Fletcher Henderson](Fletcher%20Henderson.md)
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md)
-- [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2025-03-15,19,352!2025-03-05,11,332-->
-- [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2025-03-15,19,352!2025-03-05,11,332-->
+- [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2025-03-15,19,352!2025-04-24,50,352-->
+- [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2025-03-15,19,352!2025-04-10,36,332-->
   - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2025-03-09,15,352!2025-03-15,19,352-->
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2025-03-19,23,372!2025-03-20,24,372-->
 - [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show. <!--SR:!2025-03-21,25,372!2025-03-15,19,352-->
@@ -290,9 +290,9 @@ The content is in teaching order.
   - Duke Ellington / works ::@:: "Jungle Nights in Harlem" (1930) — Duke Ellington & His Cotton Club Orchestra <!--SR:!2025-03-20,24,372!2025-03-20,24,372-->
   - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually. <!--SR:!2025-03-21,25,372!2025-03-19,23,372-->
     - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington <!--SR:!2025-03-15,19,352!2025-03-15,19,352-->
-    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2025-03-21,25,372!2025-03-05,11,332-->
+    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2025-03-21,25,372!2025-04-10,36,332-->
     - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2025-03-08,14,352!2025-03-19,23,372-->
-    - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-03-04,10,332!2025-03-15,19,352-->
+    - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-04-18,44,352!2025-03-15,19,352-->
 - [popular music](../../../../general/popular%20music.md)
   - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2025-03-19,23,372!2025-03-20,24,372-->
 - [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2025-03-21,25,372!2025-03-19,23,372-->
@@ -342,7 +342,7 @@ The content is in teaching order.
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist <!--SR:!2025-03-13,15,356!2025-03-24,24,376-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-03-23,23,376!2025-03-24,24,376-->
 - gypsy jazz
-  - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
+  - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
 - assignment: (none)
 
 ## week 6 lecture 2
@@ -350,22 +350,22 @@ The content is in teaching order.
 - datetime: 2025-02-19T08:30:00-05:00/2025-02-19T09:50:00-05:00
   - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00
 - swing music
-  - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-    - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2025-03-03,3,342!2025-03-05,5,362-->
-  - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-03-05,5,362!2025-03-03,3,342-->
-  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: <!--SR:!2025-03-03,3,342!2025-03-03,3,342-->
-  - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-03-03,3,342!2025-03-05,5,362-->
-  - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
+  - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
+    - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-03-31,26,382!2025-03-29,24,382-->
+- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2025-03-30,25,382!2025-03-29,24,382-->
+  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-03-30,25,382!2025-03-29,24,382-->
+- [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2025-03-20,15,362!2025-03-29,24,382-->
+  - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-03-30,25,382!2025-03-20,15,362-->
+  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-03-22,17,362!2025-03-30,25,382-->
+  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: <!--SR:!2025-03-20,15,362!2025-03-15,10,342-->
+  - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+  - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
+  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-03-20,15,362!2025-03-29,24,382-->
+  - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-03-22,17,362!2025-03-31,26,382-->
+- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group <!--SR:!2025-03-31,26,382!2025-03-29,24,382-->
+- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-03-22,17,362!2025-03-29,24,382-->
+  - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2025-03-30,25,382!2025-03-30,25,382-->
 - swing music
   - swing music / singers
     - swing music / singers / examples: Anita O'day, Carmen McCrae, Jon Hendricks, Mel Torme, Nina Simone, Peggy Lee, Sarah Vaughan
@@ -375,15 +375,15 @@ The content is in teaching order.
 
 - datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00
   - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00
-- [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2025-03-03,3,342!2025-03-05,5,362-->
-- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
-  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-03-05,5,362!2025-03-05,5,362-->
+- [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
+  - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
+  - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
+- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
+  - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2025-03-22,17,362!2025-03-31,26,382-->
+  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+  - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2025-03-20,15,362!2025-03-22,17,362-->
+- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-03-29,24,382!2025-03-31,26,382-->
+  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
+  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->

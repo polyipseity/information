@@ -137,14 +137,14 @@ return _chain.from_iterable(await _gather(
 - [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!2025-07-05,177,210!2025-04-13,179,250-->
 - [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-03-10,93,210-->
 - [magnesium](magnesium.md)→::@::←[beryllium](beryllium.md) <!--SR:!2025-03-31,132,270!2027-04-07,988,290-->
-- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-03-03,4,150-->
+- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-03-11,6,150-->
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2025-04-25,129,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-03-10,81,150!2025-04-10,266,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-03-15,226,210!2025-05-06,383,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2025-04-19,242,190-->
-- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-05,12,150-->
-- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2025-03-23,166,190!2025-03-03,40,130-->
+- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-11,6,130-->
+- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2025-03-23,166,190!2025-04-28,54,130-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2025-04-20,82,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2025-03-23,89,170-->
 - [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2025-07-07,539,250-->
@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2025-11-08,643,290-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2025-06-26,204,210!2027-10-15,993,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-09-03,213,250-->
-- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-03-03,7,130-->
+- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-03-15,10,130-->
 - [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2025-12-30,464,310-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->

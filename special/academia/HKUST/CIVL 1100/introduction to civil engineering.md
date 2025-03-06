@@ -236,7 +236,7 @@ water security
 - climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
-- mega-cities→::@::←water security <!--SR:!2025-03-02,229,360!2025-04-02,93,334-->
+- mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2025-04-02,93,334-->
 - water security→::@::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
 
 <!--/pytextgen-->
@@ -404,7 +404,7 @@ Water Cube
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
-- Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2025-03-04,182,305-->
+- Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2027-04-10,766,325-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
 - Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2027-09-14,985,377-->
 
@@ -539,7 +539,7 @@ wood
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
-- brick→::@::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
+- brick→::@::←concrete <!--SR:!2027-04-26,782,325!2026-02-28,548,397-->
 - concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2026-06-11,551,341-->
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
 - steel→::@::←stone <!--SR:!2025-04-04,202,320!2026-12-18,745,360-->
@@ -708,7 +708,7 @@ soil liquefaction
 
 - _(begin)_→::@::←debris flow <!--SR:!2025-03-31,235,314!2025-11-14,459,398-->
 - debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
-- landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2025-03-02,211,320-->
+- landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2025-08-03,318,270-->
 - soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
 
@@ -880,7 +880,7 @@ developing strengthening techniques for damaged structures or structural members
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
 - designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-12-27,340,297-->
-- developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
+- developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2025-07-13,317,324-->
 
 <!--/pytextgen-->
 
@@ -1189,10 +1189,10 @@ water transport
 
 - _(begin)_→::@::←airport <!--SR:!2027-01-13,721,310!2025-10-07,430,395-->
 - airport→::@::←bicycle path <!--SR:!2025-03-09,237,355!2025-12-19,472,357-->
-- bicycle path→::@::←highway <!--SR:!2027-10-01,983,380!2025-03-05,232,360-->
+- bicycle path→::@::←highway <!--SR:!2027-10-01,983,380!2028-04-24,1146,380-->
 - highway→::@::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
 - pier→::@::←pipeline <!--SR:!2026-12-01,676,380!2026-10-13,614,314-->
-- pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-03-03,56,275-->
+- pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-10-02,211,295-->
 - railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
 - water transport→::@::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 

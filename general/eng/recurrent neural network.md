@@ -11,7 +11,7 @@ tags:
 
 # recurrent neural network
 
-A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [neural network](neural%20network%20(machine%20learning).md)}@}, characterized by {@{the direction of information flow between its layers}@}. In contrast to {@{the unidirectional [feedforward neural network](feedforward%20nerual%20network.md), an RNN allows outputs from some neurons to affect subsequent inputs to the same neurons}@}. <!--SR:!2026-02-07,439,310!2025-03-05,195,310!2026-01-19,426,310-->
+A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [neural network](neural%20network%20(machine%20learning).md)}@}, characterized by {@{the direction of information flow between its layers}@}. In contrast to {@{the unidirectional [feedforward neural network](feedforward%20nerual%20network.md), an RNN allows outputs from some neurons to affect subsequent inputs to the same neurons}@}. <!--SR:!2026-02-07,439,310!2027-06-14,831,330!2026-01-19,426,310-->
 
 An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This makes it suitable for datasets {@{with temporal relationship between the samples}@}. <!--SR:!2025-07-12,301,330!2025-04-08,225,330-->
 

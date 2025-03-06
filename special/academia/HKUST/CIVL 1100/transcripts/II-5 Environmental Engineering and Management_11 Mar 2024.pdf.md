@@ -155,7 +155,7 @@ return await memorize_seq(
 - air sparging→::@::←bioremediation <!--SR:!2025-11-12,355,315!2026-10-01,593,335-->
 - bioremediation→::@::←catalytic oxidation <!--SR:!2026-04-21,507,335!2025-03-14,197,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2025-04-11,197,295!2026-06-16,518,335-->
-- ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2026-06-11,515,335-->
+- ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2027-07-13,860,355!2026-06-11,515,335-->
 - ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2025-11-17,413,375!2026-09-12,580,335-->
 
 <!--/pytextgen-->
@@ -197,7 +197,7 @@ Sustainable Waste Management
 
 3Rs Concept
 
-- 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2025-03-05,201,310-->
+- 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2027-07-12,859,330-->
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2025-04-21,258,330-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2025-04-17,252,330-->
@@ -215,8 +215,8 @@ How to provide motivation for waste reduction, reuse and recycling?
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-05-24,127,230!2025-04-16,214,270-->
-  - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2025-03-03,203,310!2026-07-17,600,330-->
-  - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
+  - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!2026-07-17,600,330-->
+  - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2026-09-01,583,310-->
 
 Will this waste charging scheme waste generation?
@@ -315,7 +315,7 @@ Properties of Sound Waves
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2025-10-16,381,310!2025-03-04,202,310-->
+- regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2025-10-16,381,310!2027-07-20,867,330-->
 - global air pollution concerns ::@:: acid rain and climate change <!--SR:!2025-05-16,275,330!2027-01-03,720,330-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
@@ -343,7 +343,7 @@ FORECAST of Health Risk
 
 Indoor Air Quality
 
-- sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2025-03-04,219,330-->
+- sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2027-11-25,995,350-->
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2025-05-05,266,330-->
   - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2026-05-06,490,310-->
     - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2025-03-18,80,290-->
@@ -411,7 +411,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2025-03-16,212,310-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2027-02-05,754,330-->
-  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2025-03-05,205,310-->
+  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2027-08-02,880,330-->
 
 ## page 33
 

@@ -153,7 +153,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-Also, one cannot chain {@{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}@}. <!--SR:!2025-03-02,303,330-->
+Also, one cannot chain {@{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}@}. <!--SR:!2028-12-20,1386,350-->
 
 ## functions
 
@@ -337,7 +337,7 @@ return _chain.from_iterable(await _gather(
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2028-03-02,1160,350!2027-11-18,1078,350-->
 - `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2026-01-20,362,210!2025-04-21,291,270-->
 - `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2025-08-22,358,270-->
-- `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2026-01-20,504,290-->
+- `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2028-12-21,1387,350!2026-01-20,504,290-->
 - `SUM(numbers...)`→::@::←_(end)_ <!--SR:!2027-12-16,1023,310!2026-02-05,476,270-->
 
 <!--/pytextgen-->
@@ -350,7 +350,7 @@ return _chain.from_iterable(await _gather(
 - `MAX(numbers...)`:@:maximum <!--SR:!2027-12-16,1097,350-->
 - `MIN(numbers...)`:@:minimum <!--SR:!2027-02-10,789,330-->
 - `RANK(number, numbers...)`:@:rank of `number` in `numbers`, starting from 1 <!--SR:!2026-02-17,387,310-->
-- `STDEV(numbers...)`:@:standard deviation <!--SR:!2025-03-02,305,330-->
+- `STDEV(numbers...)`:@:standard deviation <!--SR:!2028-12-22,1388,350-->
 - `SUM(numbers...)`:@:summation <!--SR:!2028-05-30,1229,350-->
 
 <!--/pytextgen-->

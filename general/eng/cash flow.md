@@ -78,7 +78,7 @@ And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotatio
 
 - [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!2025-03-16,45,250!2025-08-18,167,310-->
 - Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2025-05-14,84,270!2025-08-07,160,310-->
-- Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends. <!--SR:!2025-03-05,43,290!2025-06-22,115,290-->
+- Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends. <!--SR:!2025-08-23,171,310!2025-06-22,115,290-->
 
 {@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}. <!--SR:!2025-03-31,67,310!2025-03-19,57,310-->
 

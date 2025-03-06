@@ -40,7 +40,7 @@ In the United States, {@{the [Financial Accounting Standards Board](Financial%20
 
 ## calculation
 
-{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-03-20,58,310!2025-03-23,60,310!2025-03-31,67,310!2025-03-07,44,290!2025-03-03,41,290!2025-03-31,67,310!2025-03-05,42,290-->
+{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-03-20,58,310!2025-03-23,60,310!2025-03-31,67,310!2025-03-07,44,290!2025-08-15,163,310!2025-03-31,67,310!2025-08-21,169,310-->
 
 __Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-03-06,43,290!2025-03-18,56,310-->
 
@@ -54,13 +54,13 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ### calculations
 
-{@{Calculations of diluted EPS}@} vary. [Morningstar](Morningstar,%20Inc..md) reports {@{diluted EPS "Earnings/Share \$"}@}, which is {@{net income minus preferred stock dividends divided by the [weighted average](weighted%20arithmetic%20mean.md) of common stock shares outstanding over the past year; this is adjusted for dilutive shares}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> Some data sources may {@{simplify this calculation by using the number of shares outstanding at the end of a reporting period}@}.<sup>[\[6\]](#^ref-6)</sup> The methods of {@{simplifying EPS calculations and eliminating inappropriate assumptions}@} include replacing {@{primary EPS with basic EPS}@}, eliminating {@{the treasury stock method of accounting from fully diluted EPS, eliminating the three-percent test for dual presentation}@}, and providing {@{information on individual dilative securities}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-03-31,67,310!2025-03-31,67,310!2025-03-06,43,290!2025-03-06,46,290!2025-03-02,42,290!2025-03-17,55,310!2025-05-04,81,270!2025-03-03,41,290-->
+{@{Calculations of diluted EPS}@} vary. [Morningstar](Morningstar,%20Inc..md) reports {@{diluted EPS "Earnings/Share \$"}@}, which is {@{net income minus preferred stock dividends divided by the [weighted average](weighted%20arithmetic%20mean.md) of common stock shares outstanding over the past year; this is adjusted for dilutive shares}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> Some data sources may {@{simplify this calculation by using the number of shares outstanding at the end of a reporting period}@}.<sup>[\[6\]](#^ref-6)</sup> The methods of {@{simplifying EPS calculations and eliminating inappropriate assumptions}@} include replacing {@{primary EPS with basic EPS}@}, eliminating {@{the treasury stock method of accounting from fully diluted EPS, eliminating the three-percent test for dual presentation}@}, and providing {@{information on individual dilative securities}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-03-31,67,310!2025-03-31,67,310!2025-03-06,43,290!2025-03-06,46,290!2025-08-20,168,310!2025-03-17,55,310!2025-05-04,81,270!2025-08-16,164,310-->
 
 ### U.S. GAAP
 
 {@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2025-03-30,66,310!2025-03-24,50,250!2025-03-26,63,310!2025-03-17,55,310!2025-03-20,58,310!2025-03-08,44,290-->
 
-_Diluted shares:_ ::@:: To calculate the total number of shares used in the calculation, FASB prescribes using the treasury method to calculate the dilutive effect of any instruments that could result in the issuance of shares, including: <!--SR:!2025-03-03,43,290!2025-03-02,40,290-->
+_Diluted shares:_ ::@:: To calculate the total number of shares used in the calculation, FASB prescribes using the treasury method to calculate the dilutive effect of any instruments that could result in the issuance of shares, including: <!--SR:!2025-08-22,170,310!2025-06-29,116,290-->
 
 - [Stock options](option%20(finance).md)
 - [Stock Warrants](warrant%20(finance).md)
@@ -76,7 +76,7 @@ As mentioned above, a helpful way to {@{consider the effect of dilutive instrume
 
 ### international financial reporting standards
 
-Under {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md)}@}, diluted earnings per share is calculated by {@{adjusting the earnings and number of shares for the effects of dilutive options and other dilutive potential [common stock](common%20stock.md)}@}.<sup>[\[10\]](#^ref-10)</sup> Dilutive potential common stock includes:<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-03-31,67,310!2025-03-02,40,290-->
+Under {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md)}@}, diluted earnings per share is calculated by {@{adjusting the earnings and number of shares for the effects of dilutive options and other dilutive potential [common stock](common%20stock.md)}@}.<sup>[\[10\]](#^ref-10)</sup> Dilutive potential common stock includes:<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-03-31,67,310!2025-08-14,162,310-->
 
 - [convertible debt](convertible%20bond.md)
 - convertible [preferred stock](preferred%20stock.md)

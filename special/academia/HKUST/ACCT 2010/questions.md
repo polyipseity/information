@@ -97,7 +97,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the investing activities involve instantaneous transfer of cash}@} <!--SR:!2025-03-04,110,290-->
+> - solution: {@{1, and also 3 if the investing activities involve instantaneous transfer of cash}@} <!--SR:!2026-01-21,322,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +585,7 @@ tags:
 > 2. Dr. Lease asset (ROU); Cr. Lease liability
 > 3. Both ways would do
 >
-> - solution: {@{1}@} <!--SR:!2025-03-05,63,341-->
+> - solution: {@{1}@} <!--SR:!2025-12-31,301,361-->
 
 <!-- markdownlint MD028 -->
 

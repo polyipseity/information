@@ -49,7 +49,7 @@ tags:
 > 3. Keras
 > 4. Vulpix
 >
-> - solution: {@{3}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{3}@} <!--SR:!2025-11-04,244,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -72,7 +72,7 @@ tags:
 > 4. Content mining
 >
 > - solution: {@{4}@}
-> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-03-05,57,310!2025-03-09,60,310-->
+> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-11-07,247,330!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -115,7 +115,7 @@ tags:
 > 3. Python is a dynamically typed language
 > 4. Python is popular and has a large community
 >
-> - solution: {@{3}@} <!--SR:!2025-03-03,55,310-->
+> - solution: {@{3}@} <!--SR:!2025-11-01,241,330-->
 
 ## Python fundamentals for artificial intelligence
 
@@ -126,7 +126,7 @@ tags:
 > 3. `{"a", "b"}`
 > 4. `{"a": "b"}`
 >
-> - solution: {@{4}@} <!--SR:!2025-03-02,54,310-->
+> - solution: {@{4}@} <!--SR:!2025-10-19,228,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -150,7 +150,7 @@ tags:
 > 3. Dictionaries
 > 4. Sets
 >
-> - solution: {@{2}@} <!--SR:!2025-03-03,55,310-->
+> - solution: {@{2}@} <!--SR:!2025-10-23,232,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ tags:
 >
 > Your code should be at most one line.
 >
-> - solution: {@{`print(numpy.zeros((3, 5)))`}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{`print(numpy.zeros((3, 5)))`}@} <!--SR:!2025-11-06,246,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -259,7 +259,7 @@ tags:
 >   return False
 > ```
 >
-> - solution: {@{C}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{C}@} <!--SR:!2025-11-05,245,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -270,7 +270,7 @@ tags:
 > 3. `M * C`, where `C` is an array of shape (4, 1)
 > 4. `M * D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{3}@} <!--SR:!2025-03-05,57,310-->
+> - solution: {@{3}@} <!--SR:!2025-11-09,249,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -404,7 +404,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(a + np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{`print(a + np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-11-02,242,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -454,7 +454,7 @@ tags:
 > ```
 >
 > - solution: {@{(almost always) `True`}@}
-> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-03-03,55,310!2025-03-17,67,310-->
+> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-10-31,240,330!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -462,7 +462,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: take a look at the "axis" argument that appears in many common NumPy functions.
 >
-> - solution: {@{`numpy.min(a, axis=1)`, `numpy.min(a, axis=-1)`}@} <!--SR:!2025-03-05,57,310-->
+> - solution: {@{`numpy.min(a, axis=1)`, `numpy.min(a, axis=-1)`}@} <!--SR:!2025-11-11,251,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -513,7 +513,7 @@ tags:
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
 > - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-03-08,59,310!2025-03-03,55,310-->
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-03-08,59,310!2025-10-22,231,330-->
 
 ## naive Bayes classifier
 
@@ -529,7 +529,7 @@ tags:
 > 2. The naive Bayes classifier is uses a labeled dataset.
 > 3. The naive Bayes classifier assumes independence of events (features).
 >
-> - solution: {@{2, 3}@} <!--SR:!2025-03-05,57,310-->
+> - solution: {@{2, 3}@} <!--SR:!2025-11-11,251,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -557,7 +557,7 @@ tags:
 > 3. $P(E \mid F) = P(E)$
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-03-08,59,310!2025-03-05,57,310-->
+> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-03-08,59,310!2025-11-10,250,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +585,7 @@ tags:
 > Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
 > - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2025-03-03,55,310!2025-03-15,65,310-->
+> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2025-10-24,233,330!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -599,7 +599,7 @@ tags:
 
 > Q10. (simple) State __one__ advantage and __one__ disadvantage of the naive Bayes classifier.
 >
-> - solution: {@{(for reference) It is easy to implement. But its accuracy is low for a small dataset.}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{(for reference) It is easy to implement. But its accuracy is low for a small dataset.}@} <!--SR:!2025-11-06,246,330-->
 
 ## _k_-nearest neighbors
 
@@ -659,7 +659,7 @@ tags:
 
 > Q7. Suppose we have performed D-fold validation on our data to help decide the best K, and we obtain an error rate for each K. How to choose the best K?
 >
-> - solution: {@{Choose the K with the lowest error rate.}@} <!--SR:!2025-03-02,54,310-->
+> - solution: {@{Choose the K with the lowest error rate.}@} <!--SR:!2025-10-18,227,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -680,7 +680,7 @@ tags:
 > Using the L1 distance metric and KNN classification algorithm, propose 2 ways to produce new images from <!-- a given image -->the first image, such that the produced images have the same L1 distances to <!-- the original image -->the first image as the second image.
 >
 > - solution: {@{One solution is masking out certain pixels in the first image such that the sum of masked out pixels equals the L1 distance. <p> Another solution is adjusting the brightness of the first image.}@}
-> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-03-02,54,310!2025-03-08,59,310-->
+> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-08-17,165,310!2025-03-08,59,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -699,7 +699,7 @@ tags:
 >
 > Assume we use the KNN classification algorithm with K=3 on new data (1,1). Which class will this new data be predicted as?
 >
-> - solution: {@{+}@} <!--SR:!2025-03-03,55,310-->
+> - solution: {@{+}@} <!--SR:!2025-10-27,236,330-->
 
 ## _k_-means clustering
 
@@ -905,7 +905,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-03-02,54,310!2025-03-11,62,310-->
+> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-10-19,228,330!2025-03-11,62,310-->
 
 ## multilayer perceptron
 
@@ -1023,7 +1023,7 @@ tags:
 >
 > You classify all inputs with a final value y >= 0.5 as positive. What is the problem with this network?
 >
-> - solution: {@{y is always >= 0.5, so the classification is always positive.}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{y is always >= 0.5, so the classification is always positive.}@} <!--SR:!2025-11-03,243,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1043,13 +1043,13 @@ tags:
 
 > Q11. Given a MLP with all weights and biases set to 0 and all activation functions set to the sigmoid function, find its output.
 >
-> - solution: {@{0.5}@} <!--SR:!2025-03-02,54,310-->
+> - solution: {@{0.5}@} <!--SR:!2025-10-20,229,330-->
 
 <!-- markdownlint MD028 -->
 
 > Q12. Consider an MLP network with one input layer, one hidden layer and one output layer. The activation function for the output layer is softmax (to be followed with cross-entropy loss), and the activation function for the hidden layer is the step function. Please explain whether there will be a problem if we train this network using gradient descent and why.
 >
-> - solution: {@{The activation function, the step function, for the hidden layer has a derivative of 0 at every point it is defined (henceforth, assume the derivative is 0, even for the point where the derivative is undefined). So the calculated gradient for the hidden layer is always 0 no matter how large the error output is. Gradient descent never updates their weights.}@} <!--SR:!2025-03-05,57,310-->
+> - solution: {@{The activation function, the step function, for the hidden layer has a derivative of 0 at every point it is defined (henceforth, assume the derivative is 0, even for the point where the derivative is undefined). So the calculated gradient for the hidden layer is always 0 no matter how large the error output is. Gradient descent never updates their weights.}@} <!--SR:!2025-11-10,250,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1072,7 +1072,7 @@ tags:
 > 4. (199, 99)
 >
 > - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-03-04,56,310!2025-03-12,63,310-->
+> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-11-03,243,330!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1150,7 +1150,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \end{array}$$}@} <!--SR:!2025-03-03,55,310-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \end{array}$$}@} <!--SR:!2025-08-22,170,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1196,7 +1196,7 @@ tags:
 > 1. Write down the resulting pixel intensities at each coordinate.
 > 2. Desmond is not satisfied with the above algorithm. Name another algorithm which can produce better results.
 >
-> - solution: {@{For 1, the image remains unchanged. <p> For 2, we can use histogram equalization instead of contrast stretching as used here.}@} <!--SR:!2025-03-05,57,310-->
+> - solution: {@{For 1, the image remains unchanged. <p> For 2, we can use histogram equalization instead of contrast stretching as used here.}@} <!--SR:!2025-11-08,248,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1286,7 +1286,7 @@ tags:
 
 > Q7. Name 3 hyperparameters in pooling layers.
 >
-> - solution: {@{pooling operation, pool size, stride}@} <!--SR:!2025-03-03,55,310-->
+> - solution: {@{pooling operation, pool size, stride}@} <!--SR:!2025-10-29,238,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1298,7 +1298,7 @@ tags:
 > 4. The higher the dropout rate, the better the model performance.
 >
 > - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-03-02,54,310!2025-03-07,58,310-->
+> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-10-21,230,330!2025-03-07,58,310-->
 
 ## minimax & alpha–beta pruning
 
@@ -1310,7 +1310,7 @@ tags:
 > 4. Contract bridge
 >
 > - solution: {@{2}@}
-> - explanation: {@{The minimax algorithm as taught in the course only applies to deterministic, perfect information, and zero-sum games. <p> There may be extensions of minimax algorithm that apply to more games, but ignore this for the examinations...}@} <!--SR:!2025-03-02,54,310!2025-03-03,55,310-->
+> - explanation: {@{The minimax algorithm as taught in the course only applies to deterministic, perfect information, and zero-sum games. <p> There may be extensions of minimax algorithm that apply to more games, but ignore this for the examinations...}@} <!--SR:!2025-10-23,232,330!2025-10-30,239,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1366,7 +1366,7 @@ tags:
 > 2. Producing wrong predictions due to model implementation issues.
 > 3. Obscuring the legal responsibilities.
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{1, 2, 3}@} <!--SR:!2025-11-02,242,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1406,7 +1406,7 @@ tags:
 > 3. Training data
 >
 > - solution: {@{1}@}
-> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-03-04,56,310!2025-08-25,183,310-->
+> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-11-04,244,330!2025-08-25,183,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1429,7 +1429,7 @@ tags:
 > 2. The present captures information about the future.
 > 3. Once the present is known, history may be thrown away.
 >
-> - solution: {@{1, 3}@} <!--SR:!2025-03-04,56,310-->
+> - solution: {@{1, 3}@} <!--SR:!2025-11-05,245,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1468,7 +1468,7 @@ tags:
 > 3. $P(X_0=S_0) + P(X_1=S_0) + \cdots + P(X_N = S_0) = 1$
 > 4. $P(X_0=S_0) + P(X_0=S_1) + \cdots + P(X_0 = S_N) = 1$
 >
-> - solution: {@{4}@} <!--SR:!2025-03-03,55,310-->
+> - solution: {@{4}@} <!--SR:!2025-10-26,235,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1589,7 +1589,7 @@ tags:
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
 > - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-03-07,58,310!2025-03-02,54,310-->
+> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-03-07,58,310!2025-08-16,164,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1607,4 +1607,4 @@ tags:
 
 > Q18. (simple) State __one__ advantage and __one__ disadvantage of solving a Markov system by value iteration.
 >
-> - solution: {@{(for reference) An advantage is that we will converge to the optimal solution. <p> An disadvantage is that the time it takes to converge increases with the number of states and actions.}@} <!--SR:!2025-03-02,54,310-->
+> - solution: {@{(for reference) An advantage is that we will converge to the optimal solution. <p> An disadvantage is that the time it takes to converge increases with the number of states and actions.}@} <!--SR:!2025-10-18,227,330-->

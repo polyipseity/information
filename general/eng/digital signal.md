@@ -10,7 +10,7 @@ tags:
 # digital signal
 
 - This article is about {@{digital signals in electronics}@}. For {@{digital data and systems}@}, see {@{[Digital data](digital%20data.md)}@}. For {@{digital signals that specifically represent analog waveforms}@}, see {@{[Digital signal \(signal processing\)](digital%20signal%20(signal%20processing).md)}@}. For other uses, see [Digital signal \(disambiguation\)](digital%20signal%20(disambiguation).md).
-- For broader {@{coverage of this topic}@}, see {@{[Signal](signal.md)}@}. <!--SR:!2025-03-08,15,290!2025-03-07,14,290!2025-03-05,12,270!2025-03-07,14,290!2025-03-08,15,290!2025-03-09,16,290!2025-03-07,14,290-->
+- For broader {@{coverage of this topic}@}, see {@{[Signal](signal.md)}@}. <!--SR:!2025-03-08,15,290!2025-03-07,14,290!2025-04-17,43,290!2025-03-07,14,290!2025-03-08,15,290!2025-03-09,16,290!2025-03-07,14,290-->
 
 > {@{![A binary signal, also known as a logic signal, is a digital signal with two distinguishable levels](../../archives/Wikimedia%20Commons/Original%20message.jpg)}@}
 >
@@ -50,7 +50,7 @@ In [digital electronics](digital%20electronics.md), a digital signal is {@{a [pu
 
 - Main article: ::@:: [Digital signal \(signal processing\)](digital%20signal%20(signal%20processing).md) <!--SR:!2025-03-08,15,290!2025-03-09,16,290-->
 
-In {@{[digital signal processing](digital%20signal%20processing.md)}@}, a digital signal is {@{a representation of a physical signal that is sampled and quantized}@}. A digital signal is {@{an abstraction that is discrete in time and amplitude}@}. The signal's value {@{only exists at regular time intervals}@}, since {@{only the values of the corresponding physical signal at those sampled moments are significant for further digital processing}@}. The digital signal is {@{a sequence of codes drawn from a finite set of values}@}.<sup>[\[10\]](#^ref-10)</sup> The digital signal may be {@{stored, processed or transmitted physically as a [pulse-code modulation](pulse-code%20modulation.md) \(PCM\) signal}@}. <!--SR:!2025-03-09,16,290!2025-03-04,11,270!2025-03-09,16,290!2025-03-09,16,290!2025-03-07,14,290!2025-03-08,15,290!2025-03-07,14,290-->
+In {@{[digital signal processing](digital%20signal%20processing.md)}@}, a digital signal is {@{a representation of a physical signal that is sampled and quantized}@}. A digital signal is {@{an abstraction that is discrete in time and amplitude}@}. The signal's value {@{only exists at regular time intervals}@}, since {@{only the values of the corresponding physical signal at those sampled moments are significant for further digital processing}@}. The digital signal is {@{a sequence of codes drawn from a finite set of values}@}.<sup>[\[10\]](#^ref-10)</sup> The digital signal may be {@{stored, processed or transmitted physically as a [pulse-code modulation](pulse-code%20modulation.md) \(PCM\) signal}@}. <!--SR:!2025-03-09,16,290!2025-04-13,39,290!2025-03-09,16,290!2025-03-09,16,290!2025-03-07,14,290!2025-03-08,15,290!2025-03-07,14,290-->
 
 ### in communications
 
@@ -82,15 +82,15 @@ The two states are usually {@{represented by some measurement of an electrical p
 
 {@{The [clock signal](clock%20signal.md)}@} is {@{a special digital signal that is used to [synchronize](synchronize.md) many digital circuits}@}. The image shown can be considered {@{the waveform of a clock signal}@}. Logic changes are {@{triggered either by the rising edge or the falling edge}@}. {@{The rising edge}@} is {@{the transition from a low voltage \(level 1 in the diagram\) to a high voltage \(level 2\)}@}. {@{The falling edge is the transition from a high voltage to a low one}@}. <!--SR:!2025-03-07,14,290!2025-03-07,14,290!2025-03-08,15,290!2025-03-09,16,290!2025-03-09,16,290!2025-03-08,15,290!2025-03-08,15,290-->
 
-Although in {@{a highly simplified and idealized model of a digital circuit}@}, we may wish {@{for these transitions to occur instantaneously}@}, {@{no real-world circuit is purely resistive and therefore no circuit can instantly change voltage levels}@}. This means that {@{during a short, finite [transition time](transition%20time.md) the output may not properly reflect the input}@}, and {@{will not correspond to either a logically high or low voltage}@}. <!--SR:!2025-03-07,14,290!2025-03-09,16,290!2025-03-08,15,290!2025-03-04,11,270!2025-03-08,15,290-->
+Although in {@{a highly simplified and idealized model of a digital circuit}@}, we may wish {@{for these transitions to occur instantaneously}@}, {@{no real-world circuit is purely resistive and therefore no circuit can instantly change voltage levels}@}. This means that {@{during a short, finite [transition time](transition%20time.md) the output may not properly reflect the input}@}, and {@{will not correspond to either a logically high or low voltage}@}. <!--SR:!2025-03-07,14,290!2025-03-09,16,290!2025-03-08,15,290!2025-04-14,40,290!2025-03-08,15,290-->
 
 ## modulation
 
 - Main article: ::@:: [Modulation § Digital modulation methods](modulation.md#digital%20modulation%20methods) <!--SR:!2025-03-09,16,290!2025-03-09,16,290-->
 
-To {@{create a digital signal}@}, an analog signal must be {@{modulated with a control signal to produce it}@}. {@{The simplest modulation, a type of [unipolar encoding](unipolar%20encoding.md)}@}, is simply to {@{switch on and off a DC signal so that high voltages represent a '1' and low voltages are '0'}@}. <!--SR:!2025-03-09,16,290!2025-03-09,16,290!2025-03-05,12,270!2025-03-07,14,290-->
+To {@{create a digital signal}@}, an analog signal must be {@{modulated with a control signal to produce it}@}. {@{The simplest modulation, a type of [unipolar encoding](unipolar%20encoding.md)}@}, is simply to {@{switch on and off a DC signal so that high voltages represent a '1' and low voltages are '0'}@}. <!--SR:!2025-03-09,16,290!2025-03-09,16,290!2025-04-17,43,290!2025-03-07,14,290-->
 
-In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier waves are [amplitude](amplitude%20modulation.md), [frequency](frequency%20modulation.md) or [phase modulated](phase%20modulated.md) by the control signal}@} to {@{produce a digital signal suitable for transmission}@}. <!--SR:!2025-03-07,14,290!2025-03-05,12,270!2025-03-08,15,290-->
+In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier waves are [amplitude](amplitude%20modulation.md), [frequency](frequency%20modulation.md) or [phase modulated](phase%20modulated.md) by the control signal}@} to {@{produce a digital signal suitable for transmission}@}. <!--SR:!2025-03-07,14,290!2025-04-19,45,290!2025-03-08,15,290-->
 
 {@{[Asymmetric Digital Subscriber Line](Asymmetric%20Digital%20Subscriber%20Line.md) \(ADSL\) over [telephone wires](telephone%20wire.md)}@}, does not {@{primarily use binary logic}@}; {@{the digital signals for individual carriers}@} are {@{modulated with different valued logics}@}, depending on {@{the [Shannon capacity](Shannon%20capacity.md) of the individual channel}@}. <!--SR:!2025-03-09,16,290!2025-03-07,14,290!2025-03-08,15,290!2025-03-07,14,290!2025-03-07,14,290-->
 
@@ -100,7 +100,7 @@ In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier wave
 >
 > {@{Clocking digital signals through a clocked flip-flop}@} <!--SR:!2025-03-08,15,290!2025-03-09,16,290-->
 
-{@{Digital signals may be _sampled_ by a clock signal at regular intervals}@} by {@{passing the signal through a [flip-flop](flip-flop%20(electronics).md)}@}. When this is done, the input is {@{measured at the clock edge and the signal from that time}@}. The signal is then {@{held steady until the next clock}@}. This process is {@{the basis of [synchronous logic](synchronous%20logic.md)}@}. <!--SR:!2025-03-07,14,290!2025-03-07,14,290!2025-03-05,12,270!2025-03-07,14,290!2025-03-09,16,290-->
+{@{Digital signals may be _sampled_ by a clock signal at regular intervals}@} by {@{passing the signal through a [flip-flop](flip-flop%20(electronics).md)}@}. When this is done, the input is {@{measured at the clock edge and the signal from that time}@}. The signal is then {@{held steady until the next clock}@}. This process is {@{the basis of [synchronous logic](synchronous%20logic.md)}@}. <!--SR:!2025-03-07,14,290!2025-03-07,14,290!2025-04-18,44,290!2025-03-07,14,290!2025-03-09,16,290-->
 
 {@{[Asynchronous logic](asynchronous%20logic.md#asynchronous%20logic) also exists}@}, which {@{uses no single clock}@}, and {@{generally operates more quickly, and may use less power, but is significantly harder to design}@}. <!--SR:!2025-03-09,16,290!2025-03-09,16,290!2025-03-09,16,290-->
 

@@ -59,7 +59,7 @@ C$: [cost structure](#cost%20structure)
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2025-03-04,249,337-->
+- _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2028-05-07,1159,357-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2025-08-31,261,277-->
 - VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-03-07,36,254!2025-05-23,274,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->

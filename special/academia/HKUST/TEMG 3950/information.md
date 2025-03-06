@@ -20,7 +20,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {@{future jobs that we do not know now}@}. This is needed to adapt in our {@{very fast moving world of disruptive technology}@}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {@{learning [metaknowledge](../../../../general/metaknowledge.md)}@}. <!--SR:!2026-03-21,520,310!2027-04-26,837,330!2025-03-02,241,330-->
+Education needs to prepare for {@{future jobs that we do not know now}@}. This is needed to adapt in our {@{very fast moving world of disruptive technology}@}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {@{learning [metaknowledge](../../../../general/metaknowledge.md)}@}. <!--SR:!2026-03-21,520,310!2027-04-26,837,330!2028-03-06,1097,350-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {@{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}@}. <!--SR:!2025-08-09,286,250-->
 
@@ -137,7 +137,7 @@ root cause analysis, 5 whys
 - 5-step persuasive selling→::@::←5C: Chernev 5C framework <!--SR:!2026-03-12,433,301!2026-03-12,477,321-->
 - 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2025-06-28,254,281!2026-09-08,609,321-->
 - 5F: Porter's 5 forces framework→::@::←7S: McKinsey 7S framework <!--SR:!2026-01-21,400,301!2025-03-23,206,321-->
-- 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-03-02,111,261!2025-03-17,68,261-->
+- 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-12-27,297,261!2025-03-17,68,261-->
 - PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2025-03-30,181,281-->
 - PPTG: people, process, technology, governance framework→::@::←blue ocean strategy <!--SR:!2025-03-09,72,281!2026-06-01,535,321-->
 - blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-03-15,166,241-->

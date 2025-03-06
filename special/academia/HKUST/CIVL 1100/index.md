@@ -59,7 +59,7 @@ The content is in teaching order.
   - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2025-06-22,308,341-->
     - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2025-05-12,277,350-->
     - "weak" object examples ::@:: mattress <!--SR:!2025-06-21,308,350!2025-04-18,239,321-->
-  - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2025-03-03,218,330-->
+  - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2027-11-22,992,350-->
     - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2025-07-21,333,350-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
@@ -78,7 +78,7 @@ The content is in teaching order.
   - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2025-06-18,308,350!2025-06-02,294,350-->
   - torque conventions ::@:: __counterclockwise positive__, clockwise negative <!--SR:!2027-08-15,918,350!2025-05-19,280,341-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
-    - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2025-12-09,388,310!2025-03-05,221,330-->
+    - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2025-12-09,388,310!2027-03-06,731,330-->
 - [bending](../../../../general/bending.md)
   - bending conditions ::@:: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2025-08-10,337,321!2025-05-16,277,341-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)

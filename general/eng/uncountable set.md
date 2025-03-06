@@ -11,7 +11,7 @@ tags:
 
 - "Uncountable" redirects here. For {@{the linguistic concept}@}, see {@{[Uncountable noun](mass%20noun.md)}@}. <!--SR:!2025-09-02,191,310!2025-08-08,171,310-->
 
-In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2025-05-12,101,290!2025-03-04,54,310!2025-03-19,67,310!2025-05-08,89,270-->
+In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2025-05-12,101,290!2025-10-23,232,330!2025-03-19,67,310!2025-05-08,89,270-->
 
 ## characterizations
 
@@ -26,11 +26,11 @@ There are {@{many equivalent characterizations of uncountability}@}. A set _X_ i
 
 ## properties
 
-- If an uncountable set _X_ is a subset of set _Y_, ::@:: then _Y_ is uncountable. <!--SR:!2025-03-19,67,310!2025-03-05,55,310-->
+- If an uncountable set _X_ is a subset of set _Y_, ::@:: then _Y_ is uncountable. <!--SR:!2025-03-19,67,310!2025-10-25,234,330-->
 
 ## examples
 
-The best known example of an uncountable set is {@{the set ⁠$\mathbb {R}$⁠ of all [real numbers](real%20number.md)}@}; {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@} shows that this set is uncountable. {@{The diagonalization proof technique}@} can also be {@{used to show that several other sets are uncountable}@}, such as {@{the set of all infinite [sequences](sequence.md) of [natural numbers](natural%20number.md) ⁠$\mathbb {N}$⁠, and the [set of all subsets](power%20set.md) of the set of natural numbers}@}. {@{The cardinality of ⁠$\mathbb {R}$}@}⁠ is often called {@{the [cardinality of the continuum](cardinality%20of%20the%20continuum.md)}@}, and denoted by {@{${\mathfrak {c} }$, or $2^{\aleph _{0} }$, or $\beth _{1}$ \([beth-one](cardinality%20of%20the%20continuum.md)\)}@}. <!--SR:!2025-08-27,185,310!2025-08-29,187,310!2025-08-09,172,310!2025-09-01,191,310!2025-03-15,52,250!2025-03-05,55,310!2025-03-19,67,310!2025-03-27,59,250-->
+The best known example of an uncountable set is {@{the set ⁠$\mathbb {R}$⁠ of all [real numbers](real%20number.md)}@}; {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@} shows that this set is uncountable. {@{The diagonalization proof technique}@} can also be {@{used to show that several other sets are uncountable}@}, such as {@{the set of all infinite [sequences](sequence.md) of [natural numbers](natural%20number.md) ⁠$\mathbb {N}$⁠, and the [set of all subsets](power%20set.md) of the set of natural numbers}@}. {@{The cardinality of ⁠$\mathbb {R}$}@}⁠ is often called {@{the [cardinality of the continuum](cardinality%20of%20the%20continuum.md)}@}, and denoted by {@{${\mathfrak {c} }$, or $2^{\aleph _{0} }$, or $\beth _{1}$ \([beth-one](cardinality%20of%20the%20continuum.md)\)}@}. <!--SR:!2025-08-27,185,310!2025-08-29,187,310!2025-08-09,172,310!2025-09-01,191,310!2025-03-15,52,250!2025-10-28,237,330!2025-03-19,67,310!2025-03-27,59,250-->
 
 {@{The [Cantor set](Cantor%20set.md)}@} is {@{an uncountable [subset](subset.md) of ⁠$\mathbb {R}$⁠}@}. The Cantor set is {@{a [fractal](fractal.md)}@} and has {@{[Hausdorff dimension](hausdorff%20dimension.md) greater than zero but less than one \(⁠$\mathbb {R}$⁠ has dimension one\)}@}. This is {@{an example of the following fact}@}: {@{any subset of ⁠$\mathbb {R}$⁠ of Hausdorff dimension strictly greater than zero must be uncountable}@}. <!--SR:!2025-03-19,67,310!2025-03-07,57,310!2025-08-12,175,310!2025-07-19,156,310!2025-09-01,190,310!2025-04-29,85,270-->
 

@@ -13,7 +13,7 @@ tags:
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2025-03-30,66,310!2025-03-22,59,310!2025-03-30,66,310-->
 
-{@{The __edge-connectivity__ of a graph}@} is {@{the largest _k_ for which the graph is _k_-edge-connected}@}. <!--SR:!2025-03-31,67,310!2025-03-05,42,290-->
+{@{The __edge-connectivity__ of a graph}@} is {@{the largest _k_ for which the graph is _k_-edge-connected}@}. <!--SR:!2025-03-31,67,310!2025-08-19,167,310-->
 
 {@{Edge connectivity and the [enumeration](graph%20enumeration.md) of _k_-edge-connected graphs}@} was studied by {@{[Camille Jordan](Camille%20Jordan.md) in 1869}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-08-04,157,310!2025-04-11,50,210-->
 

@@ -116,7 +116,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 - description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2027-03-05,761,347!2027-07-08,933,350-->
 - height ::@:: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2025-06-06,281,317!2028-02-15,1110,350-->
 - image ::@:: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2026-03-13,549,400-->
-- shape ::@:: exponential <!--SR:!2025-03-03,272,350!2028-03-21,1160,355-->
+- shape ::@:: exponential <!--SR:!2028-10-03,1308,370!2028-03-21,1160,355-->
 
 ## Empire State Building
 
@@ -154,7 +154,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
-- description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2025-03-05,256,330-->
+- description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
 - height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2025-05-07,325,350-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
@@ -223,7 +223,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2026-01-25,346,296!2026-12-05,758,416-->
   - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
-- length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2025-03-02,114,296!2026-02-17,488,396-->
+- length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2025-04-24,123,256!2025-05-30,281,376-->
 - width ::@:: 32.05 m <!--SR:!2025-03-07,38,316!2025-08-02,326,376-->

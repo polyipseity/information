@@ -32,7 +32,7 @@ When defining customers, one should avoid {@{vagueness}@}. To avoid it, some fac
 
 Discovering and defining your customer segments is important so that {@{the market size can be accurately estimated}@}. Also, they affect {@{your products' properties}@}. Customer segments can be broadly classified into {@{mass market, a large group with broadly similar needs; niche market, a small group with specific needs; and in the middle of the road, segmented market, different groups with different needs}@}. In terms of profits, {@{mass market has lower profit margins but higher volume, while the opposite is true for niche market}@}. <!--SR:!2026-10-26,686,330!2026-05-05,534,310!2025-10-22,361,270!2025-04-27,225,270-->
 
-One can create {@{a customer profile that shows a typical person}@} for each customer segment. The profile lists {@{the customer information, jobs, pains, and gains}@}. Note that in a customer segment, users of the product {@{might not be the buyers, such as children buying stuff for elderly}@}. In that case, {@{the buyer should have a customer profile as well}@}. <!--SR:!2025-03-11,235,330!2025-07-08,260,250!2025-03-05,218,290!2025-03-23,225,310-->
+One can create {@{a customer profile that shows a typical person}@} for each customer segment. The profile lists {@{the customer information, jobs, pains, and gains}@}. Note that in a customer segment, users of the product {@{might not be the buyers, such as children buying stuff for elderly}@}. In that case, {@{the buyer should have a customer profile as well}@}. <!--SR:!2025-03-11,235,330!2025-07-08,260,250!2027-08-01,879,310!2025-03-23,225,310-->
 
 > [!example] examples
 >

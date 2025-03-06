@@ -62,7 +62,7 @@ There are {@{several instructions that modify the stack memory and the `rsp` and
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2025-10-06,293,330!2025-06-07,193,310-->
 - `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2025-10-06,286,330!2025-08-16,252,330-->
 - `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2025-09-04,268,330!2025-08-28,229,290-->
-- `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2025-05-26,189,310!2025-03-03,113,290-->
+- `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2025-05-26,189,310!2026-02-03,335,290-->
 
 A related instruction is {@{`lea`}@}: <!--SR:!2025-10-01,288,330-->
 
@@ -132,7 +132,7 @@ Commands names can be {@{truncated at the end to produce an abbreviation if the 
 
 ## buffer overflow
 
-A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2025-10-11,291,330!2025-05-31,193,310!2025-06-23,198,310!2025-03-03,121,310!2025-05-05,168,310!2025-07-05,219,330-->
+A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2025-10-11,291,330!2025-05-31,193,310!2025-06-23,198,310!2026-03-17,377,310!2025-05-05,168,310!2025-07-05,219,330-->
 
 The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2025-09-08,271,330!2025-05-15,174,310-->
 

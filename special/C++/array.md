@@ -11,7 +11,7 @@ tags:
 
 ## multidimensional arrays
 
-A multidimensional array is {@{an array with another array as its element type}@}. The declaration order of dimensions is {@{the same as the acccess order, i.e. `int a[2][3]` means `a[0][0], a[0][1], a[0][2], a[1][0], a[1][1], a[1][2]` are accessible}@}. <!--SR:!2025-03-05,396,330!2029-03-30,1550,350-->
+A multidimensional array is {@{an array with another array as its element type}@}. The declaration order of dimensions is {@{the same as the acccess order, i.e. `int a[2][3]` means `a[0][0], a[0][1], a[0][2], a[1][0], a[1][1], a[1][2]` are accessible}@}. <!--SR:!2030-02-07,1800,350!2029-03-30,1550,350-->
 
 ```Cpp
 int a[2][3]{ {0, 1, 2}, {3, 4, 5} };
