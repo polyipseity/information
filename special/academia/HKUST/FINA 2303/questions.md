@@ -334,7 +334,7 @@ tags:
 > 2. local bank
 > 3. they are the same
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-10,4,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -344,7 +344,7 @@ tags:
 > 2. outstanding balance
 > 3. loan interest
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-10,4,329-->
 
 ## week 4 lecture 2
 
@@ -355,7 +355,7 @@ tags:
 > 3. \$1.6 million
 > 4. \$1 million
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-03-10,4,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -366,7 +366,7 @@ tags:
 > 3. \<15%
 > 4. not enough information
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-10,4,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -378,7 +378,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@}
+> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2025-03-10,4,329!2025-03-10,4,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -387,4 +387,4 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-10,4,329-->
