@@ -397,12 +397,36 @@ The content is in teaching order.
 - [ASCII](../../../../general/ASCII.md) ::@:: It is a character encoding standard for electronic communication, used by most computers today. <p> It is a 7-bit code, so there are 128 code points. Each unsigned integer maps to a character. But most of time we use an unsigned byte, which has 8 bits, to represent a character with the MSB set to 0.
   - ASCII / acronym ::@:: American Standard Code for Information Interchange
   - ASCII / patterns ::@:: Some notable patterns: <br/> Alphabets (A to Z, a to z) and numbers (0 to 9) are in order. <br/> groups: NUL (null) → control characters → punctuations → numbers → punctuations → big alphabets → punctuations → small alphabets → punctuations → DEL (a control character)
-  - ASCII / notes ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here.
+  - ASCII / note ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here.
 
 ## week 5 lecture
 
 - datetime: 2025-03-03T13:30:00+08:00/2025-03-03T14:50:00+08:00
 - topic: basic instructions, register, memory operand
+- instruction set architecture
+  - instruction set architecture / analogy as a language ::@:: Words are _instructions_. A vocabulary (set of all words\) is an _instruction set_. Programmers write in _assembly language_. After assembly by an _assembler_, it becomes _machine language_, which hardware can understand.
+  - instruction set architecture / specifications ::@:: addressing modes, exception handling, external I/O, native data types, instructions, interrupt handling, memory architecture, opcodes \(machine language\), registers
+  - instruction set architecture / vs. assembly language ::@:: The former is a public interface to processors implementing this ISA. The latter is simply a programming language. <p> Ideally, a ISA should have a corresponding language. In practice, there are variations. They are defined by the assembler.
+  - instruction set architecture / advantages
+    - instruction set architecture / advantages / compatibility ::@:: Hardware changes will \(usually\) not impact existing programs: no re-programming is required. Hardware improvement can be made as long as it conforms to the ISA.
+  - instruction set architecture / examples
+- [reduced instruction set computer](../../../../general/reduced%20instruction%20set%20computer.md) \(RISC\) ::@:: It is a computer architecture designed to simplify the individual instructions given to the computer to accomplish tasks.
+  - reduced instruction set computer / comparison ::@:: Compared to the instructions given to a complex instruction set computer (CISC), a RISC computer might require more instructions (more code) in order to accomplish a task because the individual instructions are written in simpler code.
+  - reduced instruction set computer / advantages ::@:: Easy to learn and understand. Have a large share of the embedded computers market. Less instructions.
+  - reduced instruction set computer / principles ::@:: good compromises, make common cases fast, simplicity favors regularity \(less cases\), smaller is faster
+- [MIPS architecture](../../../../general/MIPS%20architecture.md) ::@:: It is the RISC that we will learn here. <p> It was a research project conducted by John L. Hennessy at Stanford University between 1981 and 1984. Then it was commercialized and developed by MIPS Technologies.
+  - MIPS architecture / acronym ::@:: Microprocessor without Interlocked Pipeline Stages
+  - MIPS architecture / reference ::@:: MIPS reference data green card
+  - [MIPS](MIPS.md)
+    - [§ principles](MIPS.md#principles)
+    - [§ arithmetic](MIPS.md#arithmetic)
+    - [§ instructions](MIPS.md#instructions)
+    - [§ registers](MIPS.md#registers)
+    - [§ main memory](MIPS.md#main%20memory)
+    - [§ data transfer](MIPS.md#data%20transfer)
+    - [§ endianness](MIPS.md#endianness)
+    - [§ operands](MIPS.md#operands)
+    - [§ logical](MIPS.md#logical)
 
 ## assignments
 
