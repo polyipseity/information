@@ -121,7 +121,7 @@ The content is in teaching order.
 - datetime: 2025-02-07T16:30:00+08:00/2025-02-07T17:50:00+08:00
 - topic: time value of money (TVM)
 - [time value of money](../../../../general/time%20value%20of%20money.md) ::@:: It refers to the fact that there is normally a greater benefit to receiving a sum of money now rather than an identical sum later. It may be seen as an implication of the later-developed concept of time preference.
-  - time value of money / cost—benefit analysis ::@:: Consider the _present value_ cost and benefits of a decision. If cost is larger than benefit, then _reject_. If cost is smaller than benefit, then _accept_. Otherwise, you are _indifferent_ to the decision.
+  - time value of money / cost—benefit analysis ::@:: Consider the _present value_ cost and benefits of a decision. If cost is larger than benefit, then _reject_. If cost is smaller than benefit, then _accept_. Otherwise, you usually still _accept_ the decision.
     - time value of money / cost—benefit analysis / example ::@:: Your company needs to make a decision. How should the managers decide whether to proceed or not? <p> Identify the _present value_ costs and benefits.
     - time value of money / cost—benefit analysis / present value costs ::@:: e.g. additional maintenance, construction costs, increase in labor costs, land purchase
     - time value of money / cost—benefit analysis / present value benefits ::@:: e.g. better volume discounts, increased profit/margins, increased scales
