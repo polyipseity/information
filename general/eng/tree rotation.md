@@ -41,7 +41,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 
 When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2025-03-13,62,310!2025-05-09,100,290!2025-03-19,66,310!2025-03-14,63,310-->
 
-Consider the terminology of {@{__Root__ for the parent node of the subtrees to rotate}@}, {@{__Pivot__ for the node which will become the new parent node}@}, {@{__RS__ for the side of rotation and __OS__ for the opposite side of rotation}@}. For the root Q in the diagram above, __RS__ is C and __OS__ is P. Using these terms, the pseudo code for the rotation is: <!--SR:!2025-03-11,60,310!2025-10-30,238,330!2025-03-07,57,310-->
+Consider the terminology of {@{__Root__ for the parent node of the subtrees to rotate}@}, {@{__Pivot__ for the node which will become the new parent node}@}, {@{__RS__ for the side of rotation and __OS__ for the opposite side of rotation}@}. For the root Q in the diagram above, __RS__ is C and __OS__ is P. Using these terms, the pseudo code for the rotation is: <!--SR:!2025-03-11,60,310!2025-10-30,238,330!2025-11-13,251,330-->
 
 ```pseudocode
 let Pivot = Root.OS
@@ -89,7 +89,7 @@ def right_rotation(treenode):
 >     {@{<!-- <span class="n"> --><span style="">left</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">treenode</span>}@}
 >     {@{<!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">B</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">left</span>}@}
 >     {@{<!-- <span class="k"> --><span style="color: #008000; font-weight: bold;">return</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">B</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span><!-- <span class="p"> --><span style="">))</span>}@}
-> </pre> <!--SR:!2025-10-22,232,330!2025-03-12,61,310!2025-03-13,62,310!2025-03-07,57,310!2025-03-16,63,310-->
+> </pre> <!--SR:!2025-10-22,232,330!2025-03-12,61,310!2025-03-13,62,310!2025-11-08,246,330!2025-03-16,63,310-->
 
 Another way of looking at it is:
 
@@ -114,7 +114,7 @@ Set Q's left child to be P.
 All other connections are left as-is.
 ```
 
-There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-10-24,233,330!2025-03-16,64,310!2025-03-07,57,310!2025-07-08,135,290!2025-07-07,134,290!2025-03-07,57,310-->
+There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-10-24,233,330!2025-03-16,64,310!2025-08-31,177,310!2025-07-08,135,290!2025-07-07,134,290!2025-11-09,247,330-->
 
 Tree rotations are {@{used in a number of tree [data structures](data%20structure.md)}@} such as {@{[AVL trees](AVL%20tree.md), [red–black trees](red–black%20tree.md), [WAVL trees](WAVL%20tree.md), [splay trees](splay%20tree.md), and [treaps](treap.md)}@}. They require {@{only constant time because they are _local_ transformations}@}: they {@{only operate on 5 nodes, and need not examine the rest of the tree}@}. <!--SR:!2025-07-07,147,310!2025-07-05,130,290!2025-08-27,185,310!2025-09-12,196,310-->
 
@@ -145,7 +145,7 @@ It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [poly
 ## see also
 
 - [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2025-03-15,63,310!2025-10-29,237,330-->
-- [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-03-07,57,310!2025-03-20,67,310-->
+- [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-11-10,248,330!2025-03-20,67,310-->
 - The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-07-11,138,290!2025-04-01,51,270-->
 - [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2025-06-10,116,290!2025-04-12,61,270-->
 

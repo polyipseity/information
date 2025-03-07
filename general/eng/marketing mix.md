@@ -13,7 +13,7 @@ tags:
 
 ## McCarthy's 4 Ps
 
-The original marketing mix, or 4Ps, are {@{_product_, _price_, _place_, and _promotion_}@}. <!--SR:!2025-03-07,209,330-->
+The original marketing mix, or 4Ps, are {@{_product_, _price_, _place_, and _promotion_}@}. <!--SR:!2027-10-14,951,350-->
 
 __Product__ refers to {@{the offered products or services}@}. For example, it includes {@{brand, functionality, packaging, services, etc.}@} <!--SR:!2025-06-02,277,330!2025-07-16,231,290-->
 

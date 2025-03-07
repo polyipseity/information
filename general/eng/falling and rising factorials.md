@@ -57,7 +57,7 @@ The falling factorial can be {@{extended to [real](real%20number.md) values of $
 
 Falling factorials appear in {@{multiple [differentiation](derivative.md) of simple power functions}@}: {@{$$\left({\frac {\mathrm {d} }{\mathrm {d} x} }\right)^{n}x^{a}=(a)_{n}\cdot x^{a-n}.$$}@} <!--SR:!2025-10-29,283,330!2025-07-16,186,310-->
 
-The rising factorial is also integral to {@{the definition of the [hypergeometric function](hypergeometric%20function.md): The hypergeometric function}@} is defined for {@{$|z|<1$ by the [power series](power%20series.md)$${}_{2}F_{1}(a,b;c;z)=\sum _{n=0}^{\infty }{\frac {a^{(n)}b^{(n)} }{c^{(n)} } }{\frac {z^{n} }{n!} }$$ provided that $c\neq 0,-1,-2,\ldots$}@}. Note, however, that {@{the hypergeometric function literature typically uses the notation $(a)_{n}$ for rising factorials}@}. <!--SR:!2025-07-08,180,310!2025-03-07,86,270!2025-04-12,122,290-->
+The rising factorial is also integral to {@{the definition of the [hypergeometric function](hypergeometric%20function.md): The hypergeometric function}@} is defined for {@{$|z|<1$ by the [power series](power%20series.md)$${}_{2}F_{1}(a,b;c;z)=\sum _{n=0}^{\infty }{\frac {a^{(n)}b^{(n)} }{c^{(n)} } }{\frac {z^{n} }{n!} }$$ provided that $c\neq 0,-1,-2,\ldots$}@}. Note, however, that {@{the hypergeometric function literature typically uses the notation $(a)_{n}$ for rising factorials}@}. <!--SR:!2025-07-08,180,310!2025-10-26,233,270!2025-04-12,122,290-->
 
 ## connection coefficients and identities
 
@@ -95,7 +95,7 @@ A similar result holds for {@{the rising factorial and the backward difference o
 
 {@{The study of analogies of this type}@} is known as {@{[umbral calculus](umbral%20calculus.md)}@}. {@{A general theory covering such relations, including the falling and rising factorial functions}@}, is given by {@{the theory of [polynomial sequences of binomial type](binomial%20type.md) and [Sheffer sequences](Sheffer%20sequence.md)}@}. Falling and rising factorials are {@{Sheffer sequences of binomial type}@}, as shown by the relations: {@{$${\begin{aligned}(a+b)_{n}&=\sum _{j=0}^{n}{\binom {n}{j} }(a)_{n-j}(b)_{j}\\[6pt](a+b)^{(n)}&=\sum _{j=0}^{n}{\binom {n}{j} }a^{(n-j)}b^{(j)}\end{aligned} }$$}@} where the coefficients are {@{the same as those in the [binomial theorem](binomial%20theorem.md)}@}. <!--SR:!2025-10-28,282,330!2025-07-02,185,310!2025-11-02,287,330!2025-05-12,135,290!2025-09-24,256,330!2025-03-08,87,270!2025-10-02,263,330-->
 
-Similarly, {@{the generating function of Pochhammer polynomials (the sequence of $(x)_n$)}@} then {@{amounts to the umbral exponential}@}, {@{$$\sum _{n=0}^{\infty }(x)_{n}{\frac {t^{n} }{n!} }=\left(1+t\right)^{x},$$}@} since {@{$$\operatorname {\Delta } _{x}\left(1+t\right)^{x}=t\cdot \left(1+t\right)^{x}.$$}@} (annotation: $\Delta_x$ is {@{the forward difference operator}@}.) <!--SR:!2025-05-08,132,290!2025-05-02,136,290!2025-03-07,86,270!2025-09-15,250,330!2025-10-12,271,330-->
+Similarly, {@{the generating function of Pochhammer polynomials (the sequence of $(x)_n$)}@} then {@{amounts to the umbral exponential}@}, {@{$$\sum _{n=0}^{\infty }(x)_{n}{\frac {t^{n} }{n!} }=\left(1+t\right)^{x},$$}@} since {@{$$\operatorname {\Delta } _{x}\left(1+t\right)^{x}=t\cdot \left(1+t\right)^{x}.$$}@} (annotation: $\Delta_x$ is {@{the forward difference operator}@}.) <!--SR:!2025-05-08,132,290!2025-05-02,136,290!2025-10-24,231,270!2025-09-15,250,330!2025-10-12,271,330-->
 
 ## alternative notations
 

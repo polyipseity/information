@@ -105,7 +105,7 @@ Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \
 
 Note that all the combinatorial proofs above {@{use either binomials or multinomials of $n$}@}. <!--SR:!2025-05-23,141,290-->
 
-Therefore if {@{$p$ is prime}@}, then: {@{$$p\ |\left[{p \atop k}\right] \text{ for } 1<k<p \,.$$}@} <!--SR:!2025-07-18,196,310!2025-03-07,40,230-->
+Therefore if {@{$p$ is prime}@}, then: {@{$$p\ |\left[{p \atop k}\right] \text{ for } 1<k<p \,.$$}@} <!--SR:!2025-07-18,196,310!2025-06-07,92,230-->
 
 ### expansions for fixed _k_
 

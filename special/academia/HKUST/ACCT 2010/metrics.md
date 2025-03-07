@@ -21,7 +21,7 @@ tags:
 
 - easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-04-13,82,282!2025-07-30,160,302-->
 - non-ratios ::@:: free cash flow, working capital <!--SR:!2025-03-12,72,322!2025-03-13,73,322-->
-- reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2025-03-07,67,319!2025-07-16,148,302-->
+- reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2025-12-28,296,339!2025-07-16,148,302-->
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-05-31,116,296!2025-03-14,74,322-->
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2025-05-27,116,299!2025-07-16,148,302-->
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2025-05-10,109,302!2025-09-08,203,319-->
@@ -43,7 +43,7 @@ The list is not exhaustive.
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2025-05-26,115,302!2025-03-25,69,262-->
 - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2025-03-11,71,322!2025-03-08,68,322-->
 - fixed asset turnover ::@:: $$\frac {\text{net sales} } {\text{average net fixed assets} }$$ The average _net fixed_ assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that the _net_ means accumulated depreciation needs to be less from fixed assets first for both balances. <!--SR:!2025-05-11,73,242!2025-03-12,72,322-->
-- [working capital](../../../../general/working%20capital.md) ::@:: $$\text{current assets (CA)} - \text{current liabilities (CL)}$$ <!--SR:!2025-03-07,67,319!2025-07-21,152,302-->
+- [working capital](../../../../general/working%20capital.md) ::@:: $$\text{current assets (CA)} - \text{current liabilities (CL)}$$ <!--SR:!2025-12-29,297,339!2025-07-21,152,302-->
 - accounts payable turnover ::@:: $$\frac {\text{total supplier purchases} } {\text{average accounts payable} }$$ Average accounts payable is not time-weighted. It is simply the average of the beginning balance and ending balance. <p> (Funny history... The book has "cost of goods sold" as the numerator instead. Anyways, use the above definition.) <!--SR:!2025-04-10,80,276!2025-08-01,160,302-->
 - average days to pay payables ::@:: $$\frac {365} {\text{accounts payable turnover} }$$ <!--SR:!2025-08-14,183,310!2025-03-10,70,322-->
 - [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2025-04-15,85,282!2025-06-08,135,302-->

@@ -575,7 +575,7 @@ tags:
 > 2. current assets divided by current liabilities
 > 3. current assets add current liabilities
 >
-> - solution: {@{1}@} <!--SR:!2025-03-07,65,341-->
+> - solution: {@{1}@} <!--SR:!2026-01-06,305,361-->
 
 <!-- markdownlint MD028 -->
 

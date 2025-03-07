@@ -96,7 +96,7 @@ The content is in teaching order.
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2025-04-01,43,290!2025-04-10,46,290-->
     - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-03-22,31,270!2025-03-13,27,270-->
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-03-09,24,270!2025-04-16,54,310-->
-  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-03-20,33,270!2025-03-07,21,250-->
+  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-03-20,33,270!2025-04-29,53,250-->
 
 ## week 1 lecture 2
 
@@ -167,8 +167,8 @@ The content is in teaching order.
 - [bottleneck](../../../../general/bottleneck%20(production).md)
   - bottleneck / utilization ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), if a resource has lower capacity, it has higher utilization. So the bottleneck can also be stated as the resource with _highest utilization_. <!--SR:!2025-03-14,19,341!2025-03-08,13,321-->
 - [capacity utilization](../../../../general/capacity%20utilization.md)
-  - capacity utilization / utilization profile chart ::@:: Plot a bar chart of each resource and its utilization (in percentage). <!--SR:!2025-03-07,12,321!2025-03-14,19,341-->
-    - capacity utilization / utilization profile chart / interpretation ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), the resource with the highest utilization is the _bottleneck_. The gap between the highest utilization and the lowest utilization is the _imbalance_ relative to the bottleneck. The gap between 100% and the highest utilization is the _mismatch between supply and demand_ (explained below). <!--SR:!2025-03-14,19,341!2025-03-07,12,321-->
+  - capacity utilization / utilization profile chart ::@:: Plot a bar chart of each resource and its utilization (in percentage). <!--SR:!2025-04-29,53,341!2025-03-14,19,341-->
+    - capacity utilization / utilization profile chart / interpretation ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), the resource with the highest utilization is the _bottleneck_. The gap between the highest utilization and the lowest utilization is the _imbalance_ relative to the bottleneck. The gap between 100% and the highest utilization is the _mismatch between supply and demand_ (explained below). <!--SR:!2025-03-14,19,341!2025-04-14,38,321-->
 - flow rate
   - flow rate / input, process capacity, potential demand ::@:: It is the minimum between input, process capacity, and potential demand. <!--SR:!2025-03-13,18,341!2025-03-13,18,341-->
   - flow rate / input-constrained ::@:: Input is fully used. Process capacity is not fully used. Potential demand is not fully satisfied. <!--SR:!2025-03-13,18,341!2025-03-14,19,341-->
@@ -182,7 +182,7 @@ The content is in teaching order.
 
 - tag: optional
 - [capacity utilization](../../../../general/capacity%20utilization.md)
-  - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2025-03-07,12,321!2025-03-14,19,341-->
+  - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2025-04-14,38,321!2025-03-14,19,341-->
   - capacity utilization / implied utilization ::@:: demand for a resource over all types of flow units / capacity of a resource <p> It can be higher than 100%, implying that the capacity cannot meet the demand. <!--SR:!2025-03-13,18,341!2025-03-14,19,341-->
 
 ## week 2 lecture 2

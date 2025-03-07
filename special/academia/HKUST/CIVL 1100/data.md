@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2025-04-24,123,256!2025-05-30,281,376-->
-- width ::@:: 32.05 m <!--SR:!2025-03-07,38,316!2025-08-02,326,376-->
+- width ::@:: 32.05 m <!--SR:!2025-08-17,163,336!2025-08-02,326,376-->
 
 ## Mont Cenis Base Tunnel
 
@@ -264,7 +264,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
-- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-03-07,20,160!2025-03-13,259,370-->
+- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-04-08,32,160!2025-03-13,259,370-->
 
 ## Sutong Yangtze River Bridge
 

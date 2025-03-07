@@ -30,7 +30,7 @@ The content is in teaching order.
 - [information § part 1: product innovation](information.md#part%201%20product%20innovation)
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
-- investor goals ::@:: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2025-03-07,201,270!2027-05-28,850,330-->
+- investor goals ::@:: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2027-04-05,759,290!2027-05-28,850,330-->
 - good business opportunities ::@:: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2026-01-22,410,250!2027-05-15,801,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)

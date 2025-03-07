@@ -31,7 +31,7 @@ An equivalent definition is that {@{a graph with at least two vertices is _k_-co
 
 ### components
 
-Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-03-30,66,310!2025-03-22,59,310!2025-03-07,44,290-->
+Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-03-30,66,310!2025-03-22,59,310!2025-08-29,175,310-->
 
 ### polyhedral combinatorics
 

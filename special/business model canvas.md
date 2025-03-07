@@ -61,7 +61,7 @@ C$: [cost structure](#cost%20structure)
 
 - _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2028-05-07,1159,357-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2025-08-31,261,277-->
-- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-03-07,36,254!2025-05-23,274,297-->
+- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-03-26,19,234!2025-05-23,274,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-04-29,65,194!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2025-08-20,304,257!2025-06-12,259,257-->
@@ -268,7 +268,7 @@ subscription fee
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2025-06-13,192,237!2025-09-18,322,254-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2025-04-03,223,257!2025-10-29,328,274-->
-- licensing→::@::←usage fee <!--SR:!2025-03-07,207,274!2025-06-03,198,254-->
+- licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2025-06-03,198,254-->
 - usage fee→::@::←subscription fee <!--SR:!2025-08-04,291,254!2025-06-09,103,257-->
 - subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2025-10-29,365,277-->
 

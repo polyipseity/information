@@ -145,7 +145,7 @@ Objectives include:
 - __systematic recording of transactions__ ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2025-06-26,205,290!2025-10-16,272,290-->
 - __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2025-05-01,158,270!2025-05-26,160,270-->
 - __ascertainment of the financial position of business__ ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2025-12-01,271,250!2026-01-10,328,290-->
-- __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2025-03-07,133,310!2025-08-13,213,270-->
+- __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2026-09-27,569,330!2025-08-13,213,270-->
 - __to know the solvency position__ ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2025-07-19,220,310!2025-08-14,244,290-->
 
 ## graphic definition
@@ -179,7 +179,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2025-05-14,181,310!2025-04-16,163,310-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2025-05-08,168,310-->
-- contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2025-03-07,133,310!2025-05-25,189,310-->
+- contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2026-09-30,572,330!2025-05-25,189,310-->
 
 ## financial accounting versus cost accounting
 

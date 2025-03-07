@@ -59,7 +59,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2025-03-07,222,330-->
+- _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2027-12-13,1011,350-->
 - air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
 - land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2025-05-16,255,290-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2025-11-18,365,290-->
@@ -228,7 +228,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 - Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2027-06-27,849,330-->
   - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2025-09-06,333,310!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2026-09-09,631,330-->
-  - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2025-03-07,183,270!2026-03-07,435,290-->
+  - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2026-07-14,494,270!2026-03-07,435,290-->
   - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2025-03-17,191,270!2026-02-21,470,310-->
 
 ## page 16
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-03-07,9,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-03-20,13,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2025-03-30,222,310-->
 
@@ -442,7 +442,7 @@ Relationship between PPM and mg/L
 
 Concentration Units for Gases
 
-- concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2025-03-07,203,310-->
+- concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2027-07-26,871,330-->
   - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2026-08-08,592,310-->
   - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2025-06-25,111,310-->
 

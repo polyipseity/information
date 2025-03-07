@@ -344,7 +344,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`a[a >= numpy.average(a)]`, `a[a >= numpy.mean(a)]`}@} <!--SR:!2025-03-07,58,310-->
+> - solution: {@{`a[a >= numpy.average(a)]`, `a[a >= numpy.mean(a)]`}@} <!--SR:!2025-11-17,255,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -893,7 +893,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2, 4}@}
-> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-03-11,62,310!2025-03-07,58,310-->
+> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-03-11,62,310!2025-11-14,252,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1037,7 +1037,7 @@ tags:
 >
 > Hint: Draw a graph of the above equations. Track the dependencies.
 >
-> - solution: {@{$$\begin{aligned} \frac {\partial e} {\partial a} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial a} = d \cdot b = (b + 1) \cdot b = 30 \\ \frac {\partial e} {\partial b} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial b} + \frac {\partial e} {\partial d} \frac {\partial d} {\partial b} = d \cdot a + c \cdot 1 = (b + 1) \cdot a + (a \cdot b) = 22 \end{aligned}$$}@} <!--SR:!2025-03-07,58,310-->
+> - solution: {@{$$\begin{aligned} \frac {\partial e} {\partial a} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial a} = d \cdot b = (b + 1) \cdot b = 30 \\ \frac {\partial e} {\partial b} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial b} + \frac {\partial e} {\partial d} \frac {\partial d} {\partial b} = d \cdot a + c \cdot 1 = (b + 1) \cdot a + (a \cdot b) = 22 \end{aligned}$$}@} <!--SR:!2025-11-17,255,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1298,7 +1298,7 @@ tags:
 > 4. The higher the dropout rate, the better the model performance.
 >
 > - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-10-21,230,330!2025-03-07,58,310-->
+> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-10-21,230,330!2025-11-15,253,330-->
 
 ## minimax & alpha–beta pruning
 
@@ -1570,7 +1570,7 @@ tags:
 >      = & P(E|X_1 = A)P(X_1=A) + P(E|X_1 = B)P(X_1=B) + P(E|X_1 = C)P(X_1=C) \,.
 >    \end{align*}$$ This formula was taught in the topic "Naive Bayes Classifier".
 >
-> - solution: {@{$$\begin{aligned} M^2_{s,t} & = \sum_{m = 0}^2 M_{s, m} M_{m, t} \\ & = \sum_{m = 0}^2 P(X_1 = m \mid X_0 = s) P(X_2 = t \mid X_1 = m) \\ & = P(X_2 = t \mid X_0 = s) \end{aligned}$$}@} <!--SR:!2025-03-07,58,310-->
+> - solution: {@{$$\begin{aligned} M^2_{s,t} & = \sum_{m = 0}^2 M_{s, m} M_{m, t} \\ & = \sum_{m = 0}^2 P(X_1 = m \mid X_0 = s) P(X_2 = t \mid X_1 = m) \\ & = P(X_2 = t \mid X_0 = s) \end{aligned}$$}@} <!--SR:!2025-09-03,180,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1589,7 +1589,7 @@ tags:
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
 > - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-03-07,58,310!2025-08-16,164,310-->
+> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-11-16,254,330!2025-08-16,164,310-->
 
 <!-- markdownlint MD028 -->
 

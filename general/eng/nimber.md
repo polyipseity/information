@@ -59,14 +59,14 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 {@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2025-03-27,74,325!2025-03-28,60,250-->
 
-Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-24,71,325!2025-03-07,57,310-->
+Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-24,71,325!2025-11-10,248,330-->
 
 Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2025-03-27,74,325!2025-04-15,76,270!2025-10-26,235,330!2025-03-17,65,310!2025-06-25,126,310!2025-10-12,221,333-->
 
 1. mex(_S_), base ::@:: 0 is an element of _S_; <!--SR:!2025-08-27,174,310!2025-03-26,73,325-->
-2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-03-07,16,225!2025-03-07,38,250-->
+2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-04-11,35,225!2025-06-10,95,250-->
 
-For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_n_</sup></sup>}@} form {@{the [Galois field](finite%20field.md) GF\(2<sup>2<sup>_n_</sup></sup>\) of order 2<sup>2<sup>_n_</sup></sup>}@}. (TODO: What is this abstract nonsense?) Therefore, {@{the set of finite nimbers}@} is {@{isomorphic to the [direct limit](direct%20limit.md) as _n_ → ∞ of the fields GF\(2<sup>2<sup>_n_</sup></sup>\)}@}. This subfield is {@{not algebraically closed}@}, since {@{no field GF\(2<sup>_k_</sup>\) with _k_ not a power of 2 is contained in any of those fields, and therefore not in their direct limit}@}; for instance {@{the polynomial _x_<sup>3</sup> + _x_ + 1}@}, which {@{has a root in GF\(2<sup>3</sup>\)}@}, {@{does not have a root in the set of finite nimbers}@}. <!--SR:!2025-07-31,155,305!2025-03-08,58,310!2025-03-25,72,325!2025-03-12,61,310!2025-03-08,55,313!2025-03-07,57,310!2025-08-17,164,313!2025-03-17,65,310!2025-05-08,91,285!2025-03-28,75,325-->
+For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_n_</sup></sup>}@} form {@{the [Galois field](finite%20field.md) GF\(2<sup>2<sup>_n_</sup></sup>\) of order 2<sup>2<sup>_n_</sup></sup>}@}. (TODO: What is this abstract nonsense?) Therefore, {@{the set of finite nimbers}@} is {@{isomorphic to the [direct limit](direct%20limit.md) as _n_ → ∞ of the fields GF\(2<sup>2<sup>_n_</sup></sup>\)}@}. This subfield is {@{not algebraically closed}@}, since {@{no field GF\(2<sup>_k_</sup>\) with _k_ not a power of 2 is contained in any of those fields, and therefore not in their direct limit}@}; for instance {@{the polynomial _x_<sup>3</sup> + _x_ + 1}@}, which {@{has a root in GF\(2<sup>3</sup>\)}@}, {@{does not have a root in the set of finite nimbers}@}. <!--SR:!2025-07-31,155,305!2025-03-08,58,310!2025-03-25,72,325!2025-03-12,61,310!2025-03-08,55,313!2025-11-11,249,330!2025-08-17,164,313!2025-03-17,65,310!2025-05-08,91,285!2025-03-28,75,325-->
 
 Just as {@{in the case of nimber addition}@}, there is {@{a means of computing the nimber product of finite ordinals}@}. This is determined by the rules that <!--SR:!2025-03-27,74,325!2025-03-16,64,310-->
 
@@ -83,7 +83,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 
 The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2025-07-21,159,310-->
 
-This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\) <!--SR:!2025-03-07,57,310!2025-03-25,72,325-->
+This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\) <!--SR:!2025-11-13,251,330!2025-03-25,72,325-->
 
 > {@{![nimber addition table among the first 16 nimbers](../../archives/Wikimedia%20Commons/Z2%5E4;%20Cayley%20table;%20binary.svg)}@}
 >
@@ -104,7 +104,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-07-02,130,290!2025-03-11,26,193!2025-08-11,177,325!2025-03-07,54,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-10-22,229,333!2025-07-02,130,290!2025-03-11,26,193!2025-08-11,177,325!2025-08-21,167,313-->
 
 ## see also
 

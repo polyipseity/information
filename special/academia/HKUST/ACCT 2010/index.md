@@ -354,7 +354,7 @@ The content is in teaching order.
   - fixed assets / acquisition ::@:: They may be acquired using cash, debt, non-cash methods (e.g. common stock, additional paid-in capital), or a combination of the above. <!--SR:!2025-12-19,299,383!2025-04-02,92,383-->
 - [cost principle](../../../../general/cost%20principle.md) ::@:: Assets should always be recorded at their cost, when the asset is new and also for the life of the asset. <p> Record at the current market value of the consideration given, or the current market value of the asset acquired, whichever is more clearly evident. <p> Such costs are said to be _capitalized_. <!--SR:!2025-04-13,101,376!2025-03-17,74,356-->
   - cost principle / by construction ::@:: All reasonable and necessary expenditures (e.g. _capitalized interest_, costs to get it up and running, materials, wages paid, etc.) in constructing an asset should be _capitalized_. <p> Do note, however, no actual expense or revenue is recorded. A conversion of non-fixed assets into fixed-assets is recorded instead. <!--SR:!2025-04-11,99,376!2025-04-06,95,383-->
-  - cost principle / exclusions ::@:: Costs do not include cash discounts or finance charges. <!--SR:!2025-03-07,66,363!2025-04-09,98,383-->
+  - cost principle / exclusions ::@:: Costs do not include cash discounts or finance charges. <!--SR:!2025-11-02,240,363!2025-04-09,98,383-->
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX)
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually <!--SR:!2025-09-11,213,363!2025-03-19,76,363-->
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2025-04-04,93,376!2025-09-03,208,363-->
@@ -486,7 +486,7 @@ The content is in teaching order.
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2025-03-18,75,363!2025-04-07,96,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2025-09-16,217,363!2025-09-08,212,363-->
     - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2025-03-19,76,363!2026-01-13,314,383-->
-    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2025-03-31,90,383!2025-03-07,66,363-->
+    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2025-03-31,90,383!2025-11-01,239,363-->
 
 ## week 11 lecture 2
 

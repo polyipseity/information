@@ -11,7 +11,7 @@ tags:
 
 # impairment
 
-__Impairment__ of {@{assets is the diminishing in quality, strength, amount, or value of an asset}@}. {@{An impairment cost must be included under expenses}@} when {@{the [book value](book%20value.md) of an [asset](asset.md) exceeds the recoverable amount}@}. {@{[Fixed assets](fixed%20asset.md), commonly known as PPE \(Property, Plant & Equipment\)}@}, refers to {@{long-lived assets such as buildings, land, machinery, and equipment}@}; these assets are {@{the most likely to experience impairment, which may be caused by several factors}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-29,67,310!2025-03-28,66,310!2025-03-07,45,290!2025-03-08,46,290!2025-03-07,45,290!2025-03-29,67,310-->
+__Impairment__ of {@{assets is the diminishing in quality, strength, amount, or value of an asset}@}. {@{An impairment cost must be included under expenses}@} when {@{the [book value](book%20value.md) of an [asset](asset.md) exceeds the recoverable amount}@}. {@{[Fixed assets](fixed%20asset.md), commonly known as PPE \(Property, Plant & Equipment\)}@}, refers to {@{long-lived assets such as buildings, land, machinery, and equipment}@}; these assets are {@{the most likely to experience impairment, which may be caused by several factors}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-29,67,310!2025-03-28,66,310!2025-09-08,185,310!2025-03-08,46,290!2025-09-01,178,310!2025-03-29,67,310-->
 
 ## history
 
@@ -64,7 +64,7 @@ Impairment is {@{currently governed by [IAS 36](list%20of%20International%20Fina
 - \(annotation: organization\) ::@:: is likely to undergo a major financial reorganization or enter bankruptcy, or <!--SR:!2025-03-08,46,290!2025-03-27,65,310-->
 - \(annotation: market\) ::@:: is in a market that is experiencing significant negative economic change. <!--SR:!2025-03-27,65,310!2025-03-29,67,310-->
 
-If {@{such evidence exists}@}, the next step is to {@{estimate the recoverable amount of investments}@}. {@{The __impairment cost__}@} would then be calculated as follows: {@{$${\text{Impairment Cost} }={ {\text{Recoverable Amount} }-{\text{Carrying Value} } }$$}@} {@{The [carrying value](book%20value.md)}@} is defined as {@{the (annotation: net) value of the asset appearing on the [balance sheet](balance%20sheet.md)}@}. {@{The recoverable amount}@} is {@{the higher of either the asset's [future value](future%20value.md)<sup>[\[12\]](#^ref-12)</sup> for the company or the amount it can be sold for, minus any [transaction costs](transaction%20cost.md)}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-03-26,64,310!2025-03-08,46,290!2025-03-26,64,310!2025-08-31,178,310!2025-03-26,64,310!2025-03-29,67,310!2025-08-18,168,310!2025-03-07,45,290-->
+If {@{such evidence exists}@}, the next step is to {@{estimate the recoverable amount of investments}@}. {@{The __impairment cost__}@} would then be calculated as follows: {@{$${\text{Impairment Cost} }={ {\text{Recoverable Amount} }-{\text{Carrying Value} } }$$}@} {@{The [carrying value](book%20value.md)}@} is defined as {@{the (annotation: net) value of the asset appearing on the [balance sheet](balance%20sheet.md)}@}. {@{The recoverable amount}@} is {@{the higher of either the asset's [future value](future%20value.md)<sup>[\[12\]](#^ref-12)</sup> for the company or the amount it can be sold for, minus any [transaction costs](transaction%20cost.md)}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-03-26,64,310!2025-03-08,46,290!2025-03-26,64,310!2025-08-31,178,310!2025-03-26,64,310!2025-03-29,67,310!2025-08-18,168,310!2025-07-16,131,290-->
 
 ### Expected Loss Model
 
@@ -74,7 +74,7 @@ For example, assume {@{a company has an investment in Company A bonds with a car
 
 ### effect on depreciation
 
-To {@{calculate [depreciation](depreciation.md) on the asset}@}, {@{the new non-current asset value is considered}@}. Continuing with the previous example and using {@{the [Straight line Depreciation](depreciation.md#methods%20of%20depreciation) method at say, 20%}@}, depreciation would be: {@{$$\$33000\cdot 0.2=\$6600$$}@} The depreciation charge is {@{smaller than if the original non-current asset value had been used}@}. <!--SR:!2025-03-29,67,310!2025-03-08,46,290!2025-03-28,66,310!2025-03-26,64,310!2025-03-07,45,290-->
+To {@{calculate [depreciation](depreciation.md) on the asset}@}, {@{the new non-current asset value is considered}@}. Continuing with the previous example and using {@{the [Straight line Depreciation](depreciation.md#methods%20of%20depreciation) method at say, 20%}@}, depreciation would be: {@{$$\$33000\cdot 0.2=\$6600$$}@} The depreciation charge is {@{smaller than if the original non-current asset value had been used}@}. <!--SR:!2025-03-29,67,310!2025-03-08,46,290!2025-03-28,66,310!2025-03-26,64,310!2025-09-07,184,310-->
 
 ### consequential asset value increases
 

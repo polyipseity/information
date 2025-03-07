@@ -51,7 +51,7 @@ If {@{the two production goods depicted are [capital](capital%20(economics).md) 
 
 > {@{![figure 3: production-possibilities frontier for an economy with two products illustrating Pareto efficiency](../../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-1.png)}@}
 >
-> figure 3: {@{production-possibilities frontier for an economy with two products illustrating Pareto efficiency}@} <!--SR:!2025-03-07,117,290!2025-08-28,257,330-->
+> figure 3: {@{production-possibilities frontier for an economy with two products illustrating Pareto efficiency}@} <!--SR:!2026-06-29,479,310!2025-08-28,257,330-->
 
 <!-- markdownlint MD028 -->
 
