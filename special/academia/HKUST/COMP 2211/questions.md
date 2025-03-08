@@ -289,7 +289,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`numpy.zeros((1920, 1080), dtype=numpy.uint8)`, `numpy.full((1920, 1080), fill_value=0, dtype=numpy.uint8)`}@} <!--SR:!2025-03-08,59,310-->
+> - solution: {@{`numpy.zeros((1920, 1080), dtype=numpy.uint8)`, `numpy.full((1920, 1080), fill_value=0, dtype=numpy.uint8)`}@} <!--SR:!2025-11-19,256,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -382,7 +382,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(a * np.ones((2211, 1), dtype=int))`, `print(a + np.zeros((2211, 1), dtype=int))`}@} <!--SR:!2025-03-08,59,310-->
+> - solution: {@{`print(a * np.ones((2211, 1), dtype=int))`, `print(a + np.zeros((2211, 1), dtype=int))`}@} <!--SR:!2025-11-20,257,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -506,14 +506,14 @@ tags:
 >
 > Your code should be at most five lines, and should not contain any loops. Try not to hard-code the numbers "2211" and "300" into your code.
 >
-> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - T) ** 2, axis=-1))`}@} <!--SR:!2025-03-08,59,310-->
+> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - T) ** 2, axis=-1))`}@} <!--SR:!2025-11-21,258,330-->
 
 <!-- markdownlint MD028 -->
 
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
 > - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-03-08,59,310!2025-10-22,231,330-->
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-11-22,259,330!2025-10-22,231,330-->
 
 ## naive Bayes classifier
 
@@ -557,7 +557,7 @@ tags:
 > 3. $P(E \mid F) = P(E)$
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-03-08,59,310!2025-11-10,250,330-->
+> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-11-19,256,330!2025-11-10,250,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -680,7 +680,7 @@ tags:
 > Using the L1 distance metric and KNN classification algorithm, propose 2 ways to produce new images from <!-- a given image -->the first image, such that the produced images have the same L1 distances to <!-- the original image -->the first image as the second image.
 >
 > - solution: {@{One solution is masking out certain pixels in the first image such that the sum of masked out pixels equals the L1 distance. <p> Another solution is adjusting the brightness of the first image.}@}
-> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-08-17,165,310!2025-03-08,59,310-->
+> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-08-17,165,310!2025-11-22,259,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1524,7 +1524,7 @@ tags:
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-03-08,59,310!2025-03-15,65,310-->
+> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-11-21,258,330!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 

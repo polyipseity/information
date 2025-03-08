@@ -159,7 +159,7 @@ return _chain.from_iterable(await _gather(
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-09-04,640,250!2025-03-14,83,150-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→::@::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-07-19,305,190!2027-10-26,1106,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→::@::←[graduated pipette](graduated%20pipette.md) <!--SR:!2026-02-04,402,230!2025-07-09,258,150-->
-- [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2025-03-08,81,170-->
+- [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2025-07-23,137,170-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→::@::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2027-07-04,1046,290!2025-05-25,272,250-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→::@::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2025-05-12,89,150!2026-07-27,697,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→::@::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2025-06-25,356,230!2026-08-20,785,270-->

@@ -13,7 +13,7 @@ tags:
 >
 > {@{Generic tree rotations.}@} <!--SR:!2025-03-14,63,310!2025-03-16,64,310-->
 
-In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-03-08,58,310!2025-07-08,148,310!2025-03-19,67,310!2025-03-08,58,310!2025-03-11,60,310!2025-11-02,241,330-->
+In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-11-16,253,330!2025-07-08,148,310!2025-03-19,67,310!2025-11-14,251,330!2025-03-11,60,310!2025-11-02,241,330-->
 
 There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-10-19,229,330!2025-05-03,97,290!2025-03-10,59,310!2025-06-19,123,290-->
 
@@ -57,7 +57,7 @@ Root = Pivot
 > {@{Root.OS = Pivot.RS}@}
 > {@{Pivot.RS = Root}@}
 > {@{Root = Pivot}@}
-> </pre> <!--SR:!2025-10-17,227,330!2025-03-08,58,310!2025-05-03,87,270!2025-07-17,155,310-->
+> </pre> <!--SR:!2025-10-17,227,330!2025-11-17,254,330!2025-05-03,87,270!2025-07-17,155,310-->
 
 This is a {@{constant time}@} operation. <!--SR:!2025-10-22,231,330-->
 
@@ -124,7 +124,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 >
 > {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2025-07-05,130,290!2025-04-20,84,270-->
 
-A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-08-30,189,310!2025-03-15,63,310!2025-03-12,61,310!2025-03-17,65,310!2025-03-08,58,310!2025-03-17,65,310!2025-03-17,64,310-->
+A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-08-30,189,310!2025-03-15,63,310!2025-03-12,61,310!2025-03-17,65,310!2025-11-15,252,330!2025-03-17,65,310!2025-03-17,64,310-->
 
 ## rotation distance
 
@@ -134,7 +134,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 >
 > _Can {@{the rotation distance between two binary trees be computed in polynomial time}@}?_
 >
-> [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-03-08,58,310-->
+> [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-11-18,255,330-->
 
 {@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-07-31,166,310!2025-09-03,192,310!2025-03-18,66,310!2025-03-12,61,310-->
 

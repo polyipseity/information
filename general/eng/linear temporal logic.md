@@ -35,7 +35,7 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequence of truth valuations of variables in _AP_}@}. These sequences can be viewed as {@{a word on a path of a [Kripke structure](Kripke%20structure%20(model%20checking).md)}@} \({@{an [ω-word](omega%20language.md) over [alphabet](alphabet%20(formal%20languages).md) 2<sup>_AP_</sup>}@}\). Let {@{_w_ = a<sub>0</sub>,a<sub>1</sub>,a<sub>2</sub>,... be such an ω-word}@}. Let {@{_w_\(_i_\) = _a<sub>i</sub>_. Let _w_<sup>i</sup> = _a<sub>i</sub>_,_a_<sub>_i_+1</sub>,..., which is a suffix of _w_}@}. Formally, {@{the satisfaction relation ⊨ between a word and an LTL formula}@} is defined as follows: <!--SR:!2025-03-19,81,343!2025-08-05,167,310!2026-01-20,321,350!2025-03-12,75,330!2025-10-12,234,330!2025-03-12,75,330-->
 
 - satisfaction of a propositional variable ::@:: _w_ ⊨ _p_ if _p_ ∈ _w_\(0\) <!--SR:!2025-03-10,74,343!2025-03-10,74,343-->
-- law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2025-03-08,72,330!2025-12-28,303,350-->
+- law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2026-02-02,331,350!2025-12-28,303,350-->
 - or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!2025-03-10,74,343!2025-11-06,259,337-->
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2025-11-08,259,343!2025-03-18,80,343-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2025-03-13,76,330!2025-08-10,174,323-->
@@ -126,7 +126,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 
 All the formulas of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2025-03-16,79,343-->
 
-- all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2025-11-05,258,337!2025-03-08,72,330-->
+- all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2025-11-05,258,337!2026-02-06,335,350-->
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2025-09-18,203,317!2025-11-02,255,330-->
 - only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2025-03-16,79,343!2025-03-15,78,343-->
 

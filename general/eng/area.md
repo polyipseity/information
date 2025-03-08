@@ -64,7 +64,7 @@ return _chain.from_iterable(await _gather(
 - rectangle→::@::←squeezing <!--SR:!2026-03-06,384,210!2025-10-05,261,230-->
 - squeezing→::@::←subtraction <!--SR:!2025-10-24,261,170!2026-08-08,568,250-->
 - subtraction→::@::←union and intersection <!--SR:!2026-12-14,657,270!2027-01-16,704,270-->
-- union and intersection→::@::←_(end)_ <!--SR:!2025-07-18,349,290!2025-03-08,269,290-->
+- union and intersection→::@::←_(end)_ <!--SR:!2025-07-18,349,290!2028-02-25,1084,310-->
 
 <!--/pytextgen-->
 

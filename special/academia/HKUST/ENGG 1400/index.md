@@ -114,7 +114,7 @@ The content is in teaching order.
   - design thinking / bias toward action ::@:: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time. <!--SR:!2026-08-12,523,402!2026-07-17,503,402-->
   - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2025-03-09,102,382!2026-07-15,501,402-->
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2026-06-07,470,402!2026-06-08,470,402-->
-  - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2026-07-05,493,402!2025-03-08,101,382-->
+  - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2026-07-05,493,402!2026-08-21,531,402-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2026-06-03,466,402-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2026-08-08,520,402!2026-06-18,479,402-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2026-07-16,502,402!2026-06-19,480,402-->
@@ -140,14 +140,14 @@ The content is in teaching order.
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2026-07-08,495,402!2026-08-14,525,402-->
   - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2025-11-01,266,362!2026-07-31,513,402-->
   - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2026-07-27,509,402!2026-05-24,458,402-->
-- activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2025-03-08,101,382!2026-05-14,449,402-->
+- activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2026-08-24,534,402!2026-05-14,449,402-->
   - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2026-05-23,457,402!2026-07-26,508,402-->
 - ways of thinking
   - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2026-07-22,504,402!2026-06-27,487,402-->
-    - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2025-03-08,101,382!2025-03-09,102,382-->
-    - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2025-03-08,101,382!2026-05-28,460,402-->
+    - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2026-08-23,533,402!2025-03-09,102,382-->
+    - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2026-08-22,532,402!2026-05-28,460,402-->
     - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2026-08-01,514,402!2026-07-18,500,402-->
-    - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2025-03-08,101,382!2026-07-23,505,402-->
+    - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2026-08-25,535,402!2026-07-23,505,402-->
 
 ## week 8 tutorial
 
@@ -160,7 +160,7 @@ The content is in teaching order.
 - design thinking
   - design thinking / creativity ::@:: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2025-04-03,121,394!2025-04-10,128,394-->
   - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2025-04-08,126,394!2025-04-11,129,394-->
-  - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2025-04-09,127,394!2025-03-08,95,374-->
+  - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2025-04-09,127,394!2026-07-15,494,394-->
 - activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2025-04-13,131,394!2025-03-29,118,394-->
   - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2025-03-29,118,394!2026-01-12,327,374-->
 - point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2025-04-08,126,394!2025-04-10,128,394-->

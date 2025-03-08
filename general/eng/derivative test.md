@@ -136,7 +136,7 @@ The _one-sided higher-order derivative test_ is {@{stronger than the two-sided h
 > - $f(x):=x^\frac13,c=0$ :@: Inconclusive because $f^{(n)}(0)$ for all $n\in\mathbb{N}^+$ does not exist $(f^{(n)}(0)=\pm\infty)$. Actual is [vertically rising inflection point](inflection%20point.md). <!--SR:!2026-01-01,563,312-->
 > - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+ \setminus \set{n \in \mathbb N^+ : 3 \mid n},c=0$ :@: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [stationary rising inflection point](inflection%20point.md). <!--SR:!2025-12-07,294,259-->
 > - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$ :@: Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test. <!--SR:!2025-05-24,320,274-->
-> - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :@: Inconclusive because the two-sided [second derivative](second%20derivative.md) $f''(0)$ and one-sided [second derivatives](second%20derivative.md) $f''_\pm(0)$ do not exist. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md). <!--SR:!2025-03-08,192,279-->
+> - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :@: Inconclusive because the two-sided [second derivative](second%20derivative.md) $f''(0)$ and one-sided [second derivatives](second%20derivative.md) $f''_\pm(0)$ do not exist. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md). <!--SR:!2026-08-26,536,279-->
 
 ## references
 

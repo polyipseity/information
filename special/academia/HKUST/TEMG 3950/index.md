@@ -208,7 +208,7 @@ The content is in teaching order.
 ## week 11 lecture
 
 - datetime: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
-- critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2025-07-24,308,361-->
+- critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
   - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2026-01-14,470,381-->

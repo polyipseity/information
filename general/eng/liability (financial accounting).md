@@ -9,7 +9,7 @@ tags:
 
 # liability
 
-In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2025-06-27,213,330!2025-03-08,127,310!2025-07-11,224,330-->
+In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2025-06-27,213,330!2026-04-10,398,310!2025-07-11,224,330-->
 
 ## characteristics
 

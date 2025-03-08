@@ -25,7 +25,7 @@ Energy is produced through {@{a [redox reaction](redox%20reaction.md) between [h
 > - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq) <!--SR:!2027-05-09,847,292!2026-09-07,629,320-->
 > - overall ::@:: 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) <!--SR:!2028-05-08,1454,352!2025-07-15,387,360-->
 
-Electrodes {@{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}@}. <!--SR:!2025-03-08,372,212-->
+Electrodes {@{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}@}. <!--SR:!2027-05-06,789,212-->
 
 Pure oxygen is needed {@{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}@}. <!--SR:!2025-05-26,480,252-->
 
@@ -58,7 +58,7 @@ return await memorize_seq(
 <!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-01-04T20:17:51.172248+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←+: efficiency as high as 70% <!--SR:!2026-08-05,739,292!2025-08-10,607,312-->
-- +: efficiency as high as 70%→::@::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2025-03-08,65,152!2026-01-17,704,312-->
+- +: efficiency as high as 70%→::@::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2025-07-29,143,172!2026-01-17,704,312-->
 - +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2025-05-09,420,252-->
 - +: products, which consist of [water](water.md), are clean→::@::←-: expensive <!--SR:!2025-11-08,578,272!2026-05-15,514,232-->
 - -: expensive→::@::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2027-04-25,912,250!2025-06-03,417,312-->

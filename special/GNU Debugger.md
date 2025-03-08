@@ -47,7 +47,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-05-22,185,345!2026-03-04,415,365-->
 - `rn` ::@:: rewind to the previous (source) line <!--SR:!2025-11-06,297,345!2025-08-21,264,345-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2026-03-05,416,365!2026-03-07,418,365-->
-- `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2025-03-08,122,325!2025-09-30,271,345-->
+- `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2026-04-14,402,325!2025-09-30,271,345-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2025-07-26,238,345!2025-11-06,297,345-->
 
 ### `pwndbg`

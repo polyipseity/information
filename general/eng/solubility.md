@@ -154,7 +154,7 @@ return (
 > sulfates
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}@} <!--SR:!2025-06-27,797,261!2025-03-08,193,210-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}@} <!--SR:!2025-06-27,797,261!2026-04-12,400,210-->
 
 <!-- markdownlint MD028 -->
 

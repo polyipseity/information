@@ -26,7 +26,7 @@ In the HITS algorithm, the 1st step is {@{retrieving the most relevant pages to 
 
 Authority and hub are defined {@{in terms of one another in [mutual recursion](mutual%20recursion.md)}@}. The authority value of a page is {@{computed as the sum of the scaled hub values that point to that page}@}. The hub value of a page is {@{computed as the sum of the scaled authority values the page points to}@}. <!--SR:!2025-04-02,222,334!2025-06-17,281,334!2025-03-19,207,314-->
 
-The algorithm performs {@{a series of iterations}@}, consisting of {@{2 main steps, starting with the authority update}@}: <!--SR:!2025-03-08,189,314!2025-06-05,276,334-->
+The algorithm performs {@{a series of iterations}@}, consisting of {@{2 main steps, starting with the authority update}@}: <!--SR:!2027-06-07,821,334!2025-06-05,276,334-->
 
 1. __authority update__ ::@:: Update each node's authority value to the sum of the hub values of nodes pointing to it. <!--SR:!2026-06-10,509,314!2025-06-20,284,334-->
 2. __hub update__ ::@:: Update each node's hub value to the sum of the authority values of nodes it points to. <!--SR:!2026-11-02,663,334!2025-06-15,279,334-->
