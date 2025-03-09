@@ -26,7 +26,7 @@ Depending on the 2 factors of {@{meeting the same customer needs and possessing 
 3. potential competitor ::@:: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2026-04-09,526,321!2025-05-12,282,341-->
 4. non-competitor ::@:: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2025-06-11,303,341-->
 
-Direct competitors are not {@{necessarily more important than indirect or potential competitors, and instead it depends on the market}@}. <!--SR:!2025-03-09,213,314-->
+Direct competitors are not {@{necessarily more important than indirect or potential competitors, and instead it depends on the market}@}. <!--SR:!2027-09-20,925,334-->
 
 > [!example] examples
 >
@@ -75,7 +75,7 @@ why: Why are people using competitors' products?
 - discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2025-04-02,169,221!2025-11-06,275,241-->
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-04-18,103,170!2025-06-15,175,241-->
 - pricing: Compare prices.→::@::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2025-03-15,169,261!2025-04-15,82,241-->
-- who: Who are the competitors? 3 to 5 is usually enough.→::@::←why: Why are people using competitors' products? <!--SR:!2025-12-09,420,301!2025-03-09,175,241-->
+- who: Who are the competitors? 3 to 5 is usually enough.→::@::←why: Why are people using competitors' products? <!--SR:!2025-12-09,420,301!2026-10-24,594,261-->
 - why: Why are people using competitors' products?→::@::←_(end)_ <!--SR:!2025-06-08,300,341!2025-05-06,232,281-->
 
 <!--/pytextgen-->

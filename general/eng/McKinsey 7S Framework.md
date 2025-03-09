@@ -17,7 +17,7 @@ tags:
 
 ## objective
 
-The framework has {@{7 _interdependent_ elements}@}, of which {@{3 are _hard elements_ and 4 are _soft elements_}@}. Hard elements {@{might be easier to define than soft elements but they are equally important}@}. The most important element is {@{shared values}@}. <!--SR:!2026-08-26,555,310!2025-06-30,299,330!2027-09-23,932,350!2025-03-09,194,310-->
+The framework has {@{7 _interdependent_ elements}@}, of which {@{3 are _hard elements_ and 4 are _soft elements_}@}. Hard elements {@{might be easier to define than soft elements but they are equally important}@}. The most important element is {@{shared values}@}. <!--SR:!2026-08-26,555,310!2025-06-30,299,330!2027-09-23,932,350!2027-06-18,831,330-->
 
 The 3 hard elements are {@{_strategy_, _structure_, and _systems_}@}. <!--SR:!2027-03-24,756,310-->
 

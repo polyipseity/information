@@ -45,7 +45,7 @@ The above [inhomogeneous ordinary differential equation](ordinary%20differential
 
 - see: [step response](step%20response.md)
 
-Consider a system {@{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t < 0 \end{cases}$$}@}. Physically, we expect {@{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}@}. Solve the equation: <!--SR:!2025-03-09,51,170!2026-09-21,713,332-->
+Consider a system {@{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t < 0 \end{cases}$$}@}. Physically, we expect {@{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}@}. Solve the equation: <!--SR:!2025-04-05,27,150!2026-09-21,713,332-->
 
 > [!info]- details
 >

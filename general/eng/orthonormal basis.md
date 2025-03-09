@@ -31,7 +31,7 @@ If we go on to {@{[Hilbert spaces](Hilbert%20space.md)}@}, {@{a non-orthonormal 
 - The set {@{$\left\{f_{n}:n\in \mathbb {Z} \right\}$ with $f_{n}(x)=\exp(2\pi inx)$}@}, where {@{$\exp$ denotes the [exponential function](exponential%20function.md)}@}, forms {@{an orthonormal basis of the space of functions}@} with {@{finite Lebesgue integrals, $L^{2}([0,1])$, with respect to the [2-norm](2-norm.md)}@}. This is {@{fundamental to the study of [Fourier series](Fourier%20series.md)}@}.
 - The {@{set $\left\{e_{b}:b\in B\right\}$ with $e_{b}(c)=1$ if $b=c$ and $e_{b}(c)=0$ otherwise}@} forms {@{an orthonormal basis of $\ell ^{2}(B)$}@}.
 - {@{[Eigenfunctions](eigenfunction.md)}@} of {@{a [Sturm–Liouville eigenproblem](Sturm–Liouville%20eigenproblem.md)}@}.
-- {@{The [column vectors](column%20vectors.md) of an [orthogonal matrix](orthogonal%20matrix.md)}@} form {@{an orthonormal set}@}. <!--SR:!2025-05-15,73,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-13,71,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-08,66,310!2025-05-17,75,324!2025-04-26,54,304!2025-05-17,75,324!2025-04-23,51,304!2025-05-17,75,324!2025-05-14,72,324!2025-05-06,66,324!2025-05-12,70,324!2025-05-17,75,324!2025-05-17,75,324!2025-03-29,32,284!2025-03-11,19,264!2025-05-17,75,324!2025-04-13,47,304!2025-04-01,35,284!2025-05-17,75,324!2025-05-17,75,324!2025-03-09,17,264!2025-05-11,69,324!2025-03-27,30,270!2025-05-17,75,324!2025-04-26,54,304-->
+- {@{The [column vectors](column%20vectors.md) of an [orthogonal matrix](orthogonal%20matrix.md)}@} form {@{an orthonormal set}@}. <!--SR:!2025-05-15,73,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-13,71,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-17,75,324!2025-05-08,66,310!2025-05-17,75,324!2025-04-26,54,304!2025-05-17,75,324!2025-04-23,51,304!2025-05-17,75,324!2025-05-14,72,324!2025-05-06,66,324!2025-05-12,70,324!2025-05-17,75,324!2025-05-17,75,324!2025-03-29,32,284!2025-03-11,19,264!2025-05-17,75,324!2025-04-13,47,304!2025-04-01,35,284!2025-05-17,75,324!2025-05-17,75,324!2025-05-11,63,284!2025-05-11,69,324!2025-03-27,30,270!2025-05-17,75,324!2025-04-26,54,304-->
 
 ## basic formula
 
@@ -84,7 +84,7 @@ In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal g
 - [Basis \(linear algebra\)](basis%20(linear%20algebra).md) ::@:: – Set of vectors used to define coordinates <!--SR:!2025-05-17,75,324!2025-05-17,75,324-->
 - [Orthonormal frame](affine%20space.md#affine%20coordinates) ::@:: – Euclidean space without distance and angles <!--SR:!2025-05-17,75,324!2025-05-06,64,310-->
 - [Schauder basis](Schauder%20basis.md) ::@:: – Computational tool <!--SR:!2025-05-17,75,324!2025-05-17,75,324-->
-- [Total set](total%20set.md) ::@:: – subset of a topological vector space whose linear span is dense <!--SR:!2025-03-09,17,264!2025-03-28,31,284-->
+- [Total set](total%20set.md) ::@:: – subset of a topological vector space whose linear span is dense <!--SR:!2025-05-14,66,284!2025-03-28,31,284-->
 
 ## notes
 

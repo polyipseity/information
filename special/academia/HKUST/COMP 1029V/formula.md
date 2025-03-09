@@ -68,7 +68,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`^` <!--SR:!2025-11-09,452,310!2025-03-09,307,330-->
+- _(begin)_→::@::←`^` <!--SR:!2025-11-09,452,310!2029-01-03,1396,350-->
 - `^`→::@::←`*` <!--SR:!2027-03-28,822,330!2026-08-23,697,330-->
 - `*`→::@::←`/` <!--SR:!2026-11-14,758,330!2027-07-06,972,350-->
 - `/`→::@::←`+` <!--SR:!2028-05-04,1206,350!2028-07-08,1259,350-->
@@ -132,7 +132,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`=` <!--SR:!2025-03-09,209,270!2026-07-17,626,310-->
+- _(begin)_→::@::←`=` <!--SR:!2027-05-05,787,290!2026-07-17,626,310-->
 - `=`→::@::←`<` <!--SR:!2025-11-08,425,290!2028-05-11,1177,330-->
 - `<`→::@::←`>` <!--SR:!2028-05-18,1222,350!2027-05-11,898,330-->
 - `>`→::@::←`<=` <!--SR:!2027-05-10,896,330!2025-11-02,355,250-->
@@ -332,7 +332,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`AVERAGE(numbers...)` <!--SR:!2025-12-27,485,290!2027-11-05,1067,350-->
 - `AVERAGE(numbers...)`→::@::←`COUNTIF(values, criteria)` <!--SR:!2027-03-19,750,290!2025-04-28,259,290-->
-- `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2025-03-09,231,290-->
+- `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2027-09-26,931,310-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2026-07-24,575,270-->
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2028-03-02,1160,350!2027-11-18,1078,350-->
 - `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2026-01-20,362,210!2025-04-21,291,270-->

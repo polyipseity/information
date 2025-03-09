@@ -75,7 +75,7 @@ Additionally, we can {@{expand generalized exponent laws and negative rising and
 
 - generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2025-11-05,290,330!2025-10-16,275,330-->
 - generalized exponent law for rising factorial ::@:: $$x^{(m+n)}=x^{(m)}(x+m)^{(n)}=x^{(n)}(x+n)^{(m)}$$ <!--SR:!2025-09-20,254,330!2025-09-21,255,330-->
-- negative rising factorial ::@:: $$x^{(-n)}={\frac {\Gamma (x-n)}{\Gamma (x)} }={\frac {(x-n-1)!}{(x-1)!} }={\frac {1}{(x-n)^{(n)} } }={\frac {1}{(x-1)_{n} } }={\frac {1}{(x-1)(x-2)\cdots (x-n)} }$$ <!--SR:!2025-03-09,88,270!2025-05-13,136,290-->
+- negative rising factorial ::@:: $$x^{(-n)}={\frac {\Gamma (x-n)}{\Gamma (x)} }={\frac {(x-n-1)!}{(x-1)!} }={\frac {1}{(x-n)^{(n)} } }={\frac {1}{(x-1)_{n} } }={\frac {1}{(x-1)(x-2)\cdots (x-n)} }$$ <!--SR:!2025-11-04,240,270!2025-05-13,136,290-->
 - negative falling factorial ::@:: $$(x)_{-n}={\frac {\Gamma (x+1)}{\Gamma (x+n+1)} }={\frac {x!}{(x+n)!} }={\frac {1}{(x+n)_{n} } }={\frac {1}{(x+1)^{(n)} } }={\frac {1}{(x+1)(x+2)\cdots (x+n)} }$$ <!--SR:!2025-05-10,134,290!2025-03-10,89,270-->
 
 Finally, {@{[duplication](multiplication%20theorem.md) and [multiplication formulas](multiplication%20theorem.md) for the falling and rising factorials}@} provide the next relations: <!--SR:!2025-10-31,285,330-->
@@ -112,7 +112,7 @@ For {@{any fixed arithmetic function $f:\mathbb {N} \rightarrow \mathbb {C}$ and
 - generalized [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) defined by the coefficients of the powers of _x_ in the expansions of (_x_)<sub>_n_,_f_,_t_</sub> ::@:: $$\left[{\begin{matrix}n\\k\end{matrix} }\right]_{f,t}=\left[x^{k - 1}\right](x)_{n,f,t}$$ <!--SR:!2025-05-12,135,290!2025-09-21,255,330-->
 - generalized [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) defined by a corresponding triangular recurrence relation ::@:: $$\left[{\begin{matrix}n\\k\end{matrix} }\right]_{f,t}=\frac {f(n-1)} {t^{n - 1} }\left[{\begin{matrix}n-1\\k\end{matrix} }\right]_{f,t}+\left[{\begin{matrix}n-1\\k-1\end{matrix} }\right]_{f,t}+\delta _{n,0}\delta _{k,0}$$ (annotation: Notice that the ordinary unsigned [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) also satisfies the above recurrence, but with $f(n) := n$ and $t = 1$ always. The unsigned one has $f(n) := -n$ and $t = 1$ always.) <!--SR:!2025-03-23,96,270!2025-10-17,225,270-->
 
-These coefficients satisfy {@{a number of analogous properties to those for the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)}@} as well as {@{recurrence relations and functional equations related to the _f_-harmonic numbers}@},<sup>[\[12\]](#^ref-12)</sup> {@{$$F_{n}^{(r)}(t):=\sum _{k\leq n}{\frac {t^{k} }{f(k)^{r} } }\,.$$}@} <!--SR:!2025-05-10,134,290!2025-07-08,157,250!2025-03-09,78,230-->
+These coefficients satisfy {@{a number of analogous properties to those for the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)}@} as well as {@{recurrence relations and functional equations related to the _f_-harmonic numbers}@},<sup>[\[12\]](#^ref-12)</sup> {@{$$F_{n}^{(r)}(t):=\sum _{k\leq n}{\frac {t^{k} }{f(k)^{r} } }\,.$$}@} <!--SR:!2025-05-10,134,290!2025-07-08,157,250!2025-11-22,258,250-->
 
 ## see also
 

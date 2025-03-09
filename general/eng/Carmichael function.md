@@ -45,7 +45,7 @@ This implies that {@{the order of every element of the multiplicative group of i
 
 If {@{_g_ is one of the primitive _λ_-roots guaranteed by the theorem}@}, then {@{$g^{m}\equiv 1{\pmod {n} }$ has no positive integer solutions _m_ less than _λ_\(_n_\)}@}, showing that {@{there is no positive _m_ \< _λ_\(_n_\) such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2025-11-09,247,330!2025-03-26,73,321!2025-05-02,87,281-->
 
-{@{The second statement of Theorem 2}@} does not imply that {@{all primitive _λ_-roots modulo _n_ are congruent to powers of a single root _g_}@}.<sup>[\[5\]](#^ref-5)</sup> For example, if {@{_n_ = 15}@}, then _λ_\(_n_\) = 4 while $\varphi (n)=8$ and $\varphi (\lambda (n))=2$. There are {@{four primitive _λ_-roots modulo 15}@}, namely {@{2, 7, 8, and 13 as $1\equiv 2^{4}\equiv 8^{4}\equiv 7^{4}\equiv 13^{4}$}@}. The roots 2 and 8 are {@{congruent to powers of each other and the roots 7 and 13 are congruent to powers of each other}@}, but {@{neither 7 nor 13 is congruent to a power of 2 or 8 and vice versa}@}. {@{The other four elements of the multiplicative group modulo 15}@}, namely {@{1, 4 \(which satisfies $4\equiv 2^{2}\equiv 8^{2}\equiv 7^{2}\equiv 13^{2}$\), 11, and 14}@}, are {@{not primitive _λ_-roots modulo 15}@}. <!--SR:!2025-03-22,70,321!2025-07-11,138,290!2025-08-27,185,310!2025-03-26,73,321!2025-06-12,128,301!2025-03-20,68,321!2025-08-26,182,310!2025-09-17,205,321!2025-03-09,48,261!2025-09-11,199,321-->
+{@{The second statement of Theorem 2}@} does not imply that {@{all primitive _λ_-roots modulo _n_ are congruent to powers of a single root _g_}@}.<sup>[\[5\]](#^ref-5)</sup> For example, if {@{_n_ = 15}@}, then _λ_\(_n_\) = 4 while $\varphi (n)=8$ and $\varphi (\lambda (n))=2$. There are {@{four primitive _λ_-roots modulo 15}@}, namely {@{2, 7, 8, and 13 as $1\equiv 2^{4}\equiv 8^{4}\equiv 7^{4}\equiv 13^{4}$}@}. The roots 2 and 8 are {@{congruent to powers of each other and the roots 7 and 13 are congruent to powers of each other}@}, but {@{neither 7 nor 13 is congruent to a power of 2 or 8 and vice versa}@}. {@{The other four elements of the multiplicative group modulo 15}@}, namely {@{1, 4 \(which satisfies $4\equiv 2^{2}\equiv 8^{2}\equiv 7^{2}\equiv 13^{2}$\), 11, and 14}@}, are {@{not primitive _λ_-roots modulo 15}@}. <!--SR:!2025-03-22,70,321!2025-07-11,138,290!2025-08-27,185,310!2025-03-26,73,321!2025-06-12,128,301!2025-03-20,68,321!2025-08-26,182,310!2025-09-17,205,321!2025-08-28,172,281!2025-09-11,199,321-->
 
 For a contrasting example, if {@{_n_ = 9}@}, then $\lambda (n)=\varphi (n)=6$ and $\varphi (\lambda (n))=2$. There are {@{two primitive _λ_-roots modulo 9}@}, namely {@{2 and 5}@}, each of which is {@{congruent to the fifth power of the other}@}. They are also {@{both primitive $\varphi$-roots modulo 9}@}. <!--SR:!2025-09-18,205,321!2025-03-25,72,321!2025-09-14,201,321!2025-07-29,166,321!2025-09-20,201,321-->
 
@@ -136,7 +136,7 @@ For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3<
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-03-09,48,261!2025-03-22,22,190-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-07-12,125,261!2025-03-22,22,190-->
 
 ### small values
 
@@ -148,7 +148,7 @@ The set of values of the Carmichael function has {@{counting function<sup>[\[12\
 
 ## use in cryptography
 
-The Carmichael function is {@{important in [cryptography](cryptography.md)}@} due to {@{its use in the [RSA encryption algorithm](RSA%20(cryptosystem).md)}@}. <!--SR:!2025-03-09,58,310!2025-10-21,231,330-->
+The Carmichael function is {@{important in [cryptography](cryptography.md)}@} due to {@{its use in the [RSA encryption algorithm](RSA%20(cryptosystem).md)}@}. <!--SR:!2025-11-19,255,330!2025-10-21,231,330-->
 
 ## proof of Theorem 1
 

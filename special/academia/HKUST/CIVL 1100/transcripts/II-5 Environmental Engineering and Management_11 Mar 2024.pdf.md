@@ -419,7 +419,7 @@ Concentration Units for Liquids
 
 - concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2025-06-07,242,270!2026-04-06,500,310-->
   - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2026-07-09,592,330!2026-09-02,573,310-->
-  - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2025-03-09,205,310!2025-06-21,306,330-->
+  - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2025-06-21,306,330-->
 
 ## page 34
 

@@ -18,7 +18,7 @@ Certain sets have {@{a definite 'length' or 'mass'}@}. For instance, {@{the [int
 
 There is {@{a natural question here}@}: if {@{_E_ is an arbitrary subset of the real line, does it have a 'mass' or 'total length'}@}? As an example, we might ask {@{what is the mass of the set of [rational numbers](rational%20number.md) between 0 and 1}@}, given that {@{the mass of the interval \[0, 1\] is 1}@}. {@{The rationals are [dense](dense%20set.md) in the reals}@}, so {@{any value between and including 0 and 1 may appear reasonable}@}. <!--SR:!2026-01-31,329,349!2025-03-13,75,329!2025-05-09,101,289!2025-09-19,215,329!2025-10-23,244,330!2025-08-27,198,329-->
 
-However {@{the closest generalization to mass is [sigma additivity](sigma-additive%20set%20function.md)}@}, which {@{gives rise to the [Lebesgue measure](Lebesgue%20measure.md)}@}. It assigns {@{a measure of _b_ − _a_ to the interval \[_a_, _b_\]}@}, but will assign {@{a measure of 0 to the set of rational numbers because it is [countable](countable%20set.md)}@}. {@{Any set which has a well-defined Lebesgue measure}@} is {@{said to be "measurable"}@}, but {@{the construction of the Lebesgue measure \(for instance using [Carathéodory's extension theorem](Carathéodory's%20extension%20theorem.md)\)}@} does not {@{make it obvious whether non-measurable sets exist}@}. The answer to that question {@{involves the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2026-01-30,328,349!2025-10-22,243,330!2025-03-09,71,329!2025-03-14,76,329!2025-11-03,255,330!2026-01-16,316,349!2025-09-17,213,329!2025-07-19,165,310!2026-01-30,328,349-->
+However {@{the closest generalization to mass is [sigma additivity](sigma-additive%20set%20function.md)}@}, which {@{gives rise to the [Lebesgue measure](Lebesgue%20measure.md)}@}. It assigns {@{a measure of _b_ − _a_ to the interval \[_a_, _b_\]}@}, but will assign {@{a measure of 0 to the set of rational numbers because it is [countable](countable%20set.md)}@}. {@{Any set which has a well-defined Lebesgue measure}@} is {@{said to be "measurable"}@}, but {@{the construction of the Lebesgue measure \(for instance using [Carathéodory's extension theorem](Carathéodory's%20extension%20theorem.md)\)}@} does not {@{make it obvious whether non-measurable sets exist}@}. The answer to that question {@{involves the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2026-01-30,328,349!2025-10-22,243,330!2026-02-01,329,349!2025-03-14,76,329!2025-11-03,255,330!2026-01-16,316,349!2025-09-17,213,329!2025-07-19,165,310!2026-01-30,328,349-->
 
 ## construction and proof
 
@@ -30,7 +30,7 @@ Every Vitali set $V$ is {@{uncountable}@}, and {@{$v-u$ is irrational for any $u
 
 > {@{![A possible enumeration of the positive rational numbers](../../archives/Wikimedia%20Commons/Diagonal%20argument.svg)}@}
 >
-> {@{A possible enumeration of the positive rational numbers}@} <!--SR:!2025-12-25,299,349!2025-03-09,71,329-->
+> {@{A possible enumeration of the positive rational numbers}@} <!--SR:!2025-12-25,299,349!2026-01-31,328,349-->
 
 A Vitali set is {@{non-measurable}@}. To show this, we {@{assume that $V$ is measurable and we derive a contradiction}@}. Let {@{$q_{1},q_{2},\dots$ be an enumeration of the rational numbers in $[-1,1]$}@} \(recall that {@{the rational numbers are [countable](countable%20set.md)}@}\). From {@{the construction of $V$}@}, we can show that {@{the translated sets $V_{k}=V+q_{k}=\{v+q_{k}:v\in V\}$, $k=1,2,\dots$ are pairwise disjoint}@}. \(If not, then {@{there exists distinct $v,u\in V$ and $k,\ell \in \mathbb {N}$}@} such that {@{$v+q_{k}=u+q_{\ell }\implies v-u=q_{\ell }-q_{k}\in \mathbb {Q}$, a contradiction}@}.\) <!--SR:!2025-10-26,247,330!2025-06-30,153,310!2025-10-24,245,330!2025-11-01,253,330!2025-10-22,243,330!2025-05-13,106,290!2025-10-27,248,330!2025-05-27,114,290-->
 
@@ -42,7 +42,7 @@ Apply {@{the Lebesgue measure to these inclusions using [sigma additivity](sigma
 
 No Vitali set has {@{the [property of Baire](property%20of%20Baire.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-21,167,310-->
 
-By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2025-10-30,251,330!2025-03-09,71,329!2025-11-02,254,330!2025-09-29,222,329-->
+By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2025-10-30,251,330!2026-01-30,327,349!2025-11-02,254,330!2025-09-29,222,329-->
 
 ## role of the axiom of choice
 

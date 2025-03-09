@@ -27,7 +27,7 @@ Alternatively, the exponential object may be {@{defined through equations}@}: <!
 
 - Existence of $\lambda g$ ::@:: is guaranteed by existence of the operation $\lambda -$. (annotation: the operation is defined for any morphism $g$) <!--SR:!2025-04-20,62,310!2025-04-22,63,310-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality $\forall g\colon X\times Y\to Z,\ \mathrm {eval} \circ (\lambda g\times \mathrm {id} _{Y})=g$. <!--SR:!2025-03-17,32,270!2025-05-23,76,270-->
-- Uniqueness of $\lambda g$ ::@:: is guaranteed by the equality $\forall h\colon X\to Z^{Y},\ \lambda (\mathrm {eval} \circ (h\times \mathrm {id} _{Y}))=h$. (annotation: an abuse of notation to help with understanding: $\mathrm{eval} \circ (h \times \mathrm {id}_Y) = \lambda^{-1} h$) <!--SR:!2025-04-18,48,250!2025-03-09,28,270-->
+- Uniqueness of $\lambda g$ ::@:: is guaranteed by the equality $\forall h\colon X\to Z^{Y},\ \lambda (\mathrm {eval} \circ (h\times \mathrm {id} _{Y}))=h$. (annotation: an abuse of notation to help with understanding: $\mathrm{eval} \circ (h \times \mathrm {id}_Y) = \lambda^{-1} h$) <!--SR:!2025-04-18,48,250!2025-05-26,78,270-->
 
 ### universal property
 

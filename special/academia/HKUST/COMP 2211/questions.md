@@ -72,7 +72,7 @@ tags:
 > 4. Content mining
 >
 > - solution: {@{4}@}
-> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-11-07,247,330!2025-03-09,60,310-->
+> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-11-07,247,330!2025-11-21,257,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -83,7 +83,7 @@ tags:
 > 3. Keras
 > 4. scikit-learn
 >
-> - solution: {@{4}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{4}@} <!--SR:!2025-11-22,258,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -336,7 +336,7 @@ tags:
 > print(haha)
 > ```
 >
-> - solution: {@{`[147 258 369]`}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{`[147 258 369]`}@} <!--SR:!2025-09-14,189,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -352,7 +352,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: use `numpy.argsort`.
 >
-> - solution: {@{`a[numpy.argsort(a)[-2]]`}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{`a[numpy.argsort(a)[-2]]`}@} <!--SR:!2025-11-27,263,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -567,7 +567,7 @@ tags:
 > 2. $P(B_1 \cap \cdots \cap B_n|E) = \frac{ P(E | B_1 \cap \cdots \cap B_n)P(B_1 \cap \cdots \cap B_n) }{ P(E) }$
 > 3. $P(B_1 \cap \cdots \cap B_n | E_1 \cap \cdots \cap E_n) = \frac{ P(B_1 \cap \cdots \cap B_n \cap E_1 \cap \cdots \cap E_n) }{ P(E_1 \cap \cdots \cap E_n) }$
 >
-> - solution: {@{none}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{none}@} <!--SR:!2025-11-25,261,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -653,7 +653,7 @@ tags:
 > 1. continuous variable
 > 2. categorical variable
 >
-> - solution: {@{1, 1, 2}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{1, 1, 2}@} <!--SR:!2025-11-20,256,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1389,7 +1389,7 @@ tags:
 
 > Q5. (medium) State __two__ ways to reduce the chances of introducing an unfair bias in an AI system.
 >
-> - solution: {@{(for reference) Ensure the training data used for the model is free from bias. <br/> Performing regular tests and audits. <br/> Ensure that the training data includes some samples from minority groups.}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{(for reference) Ensure the training data used for the model is free from bias. <br/> Performing regular tests and audits. <br/> Ensure that the training data includes some samples from minority groups.}@} <!--SR:!2025-11-26,262,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1517,7 +1517,7 @@ tags:
 >
 > Is $M$ a Markov chain? Explain your answer.
 >
-> - solution: {@{Yes. <p> The key is to realize that knowing the entire state history does not allow us to make better predictions than knowing only the current state. The key difference from the previous question is that the entire state history in the context of the previous Markov chain is encoded as the current state in the context of this Markov chain.}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{Yes. <p> The key is to realize that knowing the entire state history does not allow us to make better predictions than knowing only the current state. The key difference from the previous question is that the entire state history in the context of the previous Markov chain is encoded as the current state in the context of this Markov chain.}@} <!--SR:!2025-11-23,259,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1576,7 +1576,7 @@ tags:
 
 > Q14. (medium) Given a typical _transition probability matrix_ $\mathbf M$, a (vertex-based) rewards $\mathbf R$, and a discount factor $\gamma \in (0, 1)$, how to compute the exact expected reward starting from state $s$, $V(s)$?
 >
-> - solution: {@{Solve for the exact solution for $\mathbf V$ in $$\mathbf V = \mathbf R + \gamma \mathbf M \mathbf V \,.$$ <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-03-09,60,310-->
+> - solution: {@{Solve for the exact solution for $\mathbf V$ in $$\mathbf V = \mathbf R + \gamma \mathbf M \mathbf V \,.$$ <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-11-24,260,330-->
 
 <!-- markdownlint MD028 -->
 

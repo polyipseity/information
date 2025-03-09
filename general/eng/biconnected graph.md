@@ -15,19 +15,19 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Graph%20connectivity%20sidebar) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Graph%20connectivity%20sidebar) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AGraph%20connectivity%20sidebar) | -->
 
-In {@{[graph theory](graph%20theory.md)}@}, a __biconnected graph__ is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph has no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2025-03-15,64,312!2025-03-15,64,312!2025-03-11,60,310!2025-03-09,59,312-->
+In {@{[graph theory](graph%20theory.md)}@}, a __biconnected graph__ is {@{a connected and "nonseparable" [graph](graph%20(discrete%20mathematics).md)}@}, meaning that {@{if any one [vertex](vertex%20(graph%20theory).md) were to be removed, the graph will remain connected}@}. Therefore {@{a biconnected graph has no [articulation vertices](biconnected%20component.md)}@}. <!--SR:!2025-03-15,64,312!2025-03-15,64,312!2025-03-11,60,310!2025-11-23,259,332-->
 
-{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity, except that the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2025-03-15,64,312!2025-03-09,59,312-->
+{@{The property of being [2-connected](k-vertex-connected%20graph.md)}@} is {@{equivalent to biconnectivity, except that the [complete graph](complete%20graph.md) of two vertices is usually not regarded as 2-connected}@}. <!--SR:!2025-03-15,64,312!2025-11-23,259,332-->
 
 This property is especially {@{useful in maintaining a graph with a two-fold [redundancy](redundancy%20(engineering).md)}@}, to {@{prevent disconnection upon the removal of a single [edge](glossary%20of%20graph%20theory.md#edge) \(or connection\)}@}. <!--SR:!2025-03-20,68,312!2025-03-20,68,312-->
 
-{@{The use of __biconnected__ graphs}@} is {@{very important in the field of networking \(see [Network flow](flow%20network.md)\)}@}, because of {@{this property of redundancy}@}. <!--SR:!2025-03-20,68,312!2025-03-15,64,312!2025-03-09,59,312-->
+{@{The use of __biconnected__ graphs}@} is {@{very important in the field of networking \(see [Network flow](flow%20network.md)\)}@}, because of {@{this property of redundancy}@}. <!--SR:!2025-03-20,68,312!2025-03-15,64,312!2025-11-24,260,332-->
 
 ## definition
 
 {@{A __biconnected__ [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is {@{a connected graph that is not broken into disconnected pieces by deleting any single vertex \(and its incident edges\)}@}. <!--SR:!2025-03-15,64,312!2025-09-17,200,312-->
 
-{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2025-03-09,59,312!2025-07-23,161,312-->
+{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2025-11-21,257,332!2025-07-23,161,312-->
 
 ## examples
 
@@ -39,7 +39,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2025-03-09,59,312!2025-03-09,59,312-->
+> {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2025-11-24,260,332!2025-11-25,261,332-->
 
 <!-- markdownlint MD028 -->
 
@@ -51,7 +51,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/5%20Node%20Not-Biconnected.svg)}@}
 >
-> {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2025-03-09,59,312!2025-03-09,59,312-->
+> {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2025-11-25,261,332!2025-11-20,256,332-->
 
 __Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {@{[A002218](https://oeis.org/A002218)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)__ <!--SR:!2025-04-17,51,232-->
 
