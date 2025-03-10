@@ -344,6 +344,21 @@ The content is in teaching order.
     - DPLL algorithm / algorithm / note ::@:: The `__or__` in the `__return__` statement is a [short-circuiting operator](../../../../general/short-circuiting%20operator.md). `Φ __∧__ {l}` denotes the simplified result of substituting "true" for `l` in `Φ`.
   - DPLL algorithm / completeness ::@:: It is complete \(_constructive_ method\). <p> Notice that the algorithm without the pure literal rule is _almost_ simply trying all 2<sub>_n_</sub> possible inputs for the _n_ variables \(the unit propagation rule eliminates unit clauses in the _initial_ CNF formula, hence "almost"\). This is _backtracking_. Then, the pure literal rule is simply a _sound_ rule to _prune_ more of the search space.
 
+## week 5 tutorial
+
+- datetime: 2025-03-04T12:30:00+08:00/2025-03-04T13:20:00+08:00
+- topic: search
+- intelligent agents
+  - intelligent agents / search problem ::@:: Simple agents \(production system, state machine\) cannot do search problem by itself alone. Solving a search problem requires planning ahead \(e.g. evaluating states that have not been reached yet\). <p> After an agent computes a solution to a search problem, we can simply input the solution into another simple agent to "solve" it by executing the solution \(the simple agent does not even need computation and sensing\).
+- search problem
+  - search problem / notations ::@:: common notations: set of states $\mathcal S$, initial state $I \in \mathcal S$, set of goal states $\mathcal G \subseteq \mathcal S$ \(goal state $G \in \mathcal G \subseteq \mathcal S$\), set of actions $\mathcal A$, successor function $T: \mathcal S \times \mathcal A \to \mathcal S$, cost function $c: \mathcal S \times \mathcal A \to \mathbb R$, solution: a sequence of actions from $I$ to some $G \in \mathcal G$
+- search algorithm
+  - search algorithm / terminology ::@:: expansion, frontier/fringe, search tree, strategy, state space graph
+  - search algorithm / breadth-first search \(BFS\) ::@:: The strategy is expanding shallowest nodes first. It can be implemented using a FIFO queue. <p> It can be reduced from _uniform cost search_ by setting the cumulative cost function to the number of edges to reach the node.
+  - search algorithm / uniform cost search \(UCS\) ::@:: The strategy is expanding nodes with the lowest cumulative cost first. It can be implemented using a priority queue that puts nodes with lower cumulative cost earlier in the queue. <p> It generalizes _breadth-first search_ by allowing the edges to have weights, which specifies the cost of taking the edge in a solution. <p> An example is Dijkstra's algorithm.
+  - search algorithm / greedy search ::@:: The strategy is expanding nodes with the lowest _estimated_ cost to a goal state first. It can be implemented using a priority queue that puts nodes with lower estimated cost earlier in the queue. <p> It differs from BFS and UCS in that it uses the _estimated_ cost to a goal state rather than the cumulative cost from the initial state.
+  - search algorithm / A\* search algorithm ::@:: The strategy is expanding nodes with the lowest _sum_ of cumulative cost and _estimated_ cost to a goal state first. It can be implemented using a priority queue \(tie-breaking with the deepest node, i.e. LIFO\). <p> It can be seen as a hybrid of _uniform cost search_ \(cumulative cost\) and _greedy search_ \(estimated cost to a goal state\).
+
 ## week 5 lecture
 
 - datetime: 2025-03-05T13:30:00+08:00/2025-03-05T14:50:00+08:00
