@@ -17,13 +17,13 @@ tags:
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2025-03-29,65,310!2025-03-31,67,310!2025-03-29,65,310!2025-03-27,63,310-->
 
-{@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2025-03-29,65,310!2025-03-10,46,290-->
+{@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2025-03-29,65,310!2025-09-15,189,310-->
 
 ## definitions
 
 {@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources {@{modify the definition of connectivity to handle this case}@}, by {@{defining it as the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-28,64,310!2025-03-25,62,310!2025-03-30,66,310!2025-03-31,67,310!2025-03-26,63,310!2025-03-26,63,310!2025-03-23,60,310-->
 
-An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices, it is possible to find _k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices; see [Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-10,46,290!2025-04-22,73,270!2025-03-12,48,290-->
+An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices, it is possible to find _k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices; see [Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-09-14,188,310!2025-04-22,73,270!2025-03-12,48,290-->
 
 {@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-03-27,63,310!2025-03-23,60,310!2025-03-24,61,310-->
 

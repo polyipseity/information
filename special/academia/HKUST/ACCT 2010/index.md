@@ -45,7 +45,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
 - course logistics
-  - course aims ::@:: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2025-03-10,135,310!2025-08-07,253,330-->
+  - course aims ::@:: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2026-10-13,582,330!2025-08-07,253,330-->
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::@:: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2026-07-10,492,317!2025-07-02,178,257-->
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::@:: summarize, analyze, and report business transactions <!--SR:!2025-12-03,332,317!2025-03-19,135,317-->
@@ -139,7 +139,7 @@ The content is in teaching order.
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::@:: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2026-01-21,380,354!2025-06-07,197,334-->
 - [general journal](../../../../general/general%20journal.md) ::@:: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2025-09-23,263,334!2025-11-04,279,294-->
   - [§ general journal](../../../../general/general%20journal.md#general%20journal)
-- [general ledger](../../../../general/general%20ledger.md) ::@:: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2025-03-10,116,314!2025-07-02,218,334-->
+- [general ledger](../../../../general/general%20ledger.md) ::@:: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2026-08-01,509,334!2025-07-02,218,334-->
   - [§ general ledger](../../../../general/general%20ledger.md#general%20ledger)
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to end a reporting period for companies ::@:: Prepare an _unadjusted_ trial balance to check if debit amount equals credit amount. Adjust revenues and expenses on the trial balance to make it _adjusted_. Prepare financial statements from the _adjusted_ trial balance. Close (zero) the revenues, expenses, gains, and losses to retained earnings (or dividends). <!--SR:!2026-01-10,318,294!2025-04-23,149,294-->
@@ -266,7 +266,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-15T13:30:00+08:00/2024-10-15T14:50:00+08:00
 - [inventory](../../../../general/inventory.md)
-  - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested). <!--SR:!2025-03-10,68,356!2025-03-11,69,363-->
+  - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested). <!--SR:!2026-02-11,338,376!2025-03-11,69,363-->
 - [cost of goods sold](../../../../general/cost%20of%20goods%20sold.md) ::@:: $$\begin{aligned} \text{goods available for sale} & = \text{beginning inventory} + \text{purchases} \\ \text{cost of goods sold} & = \text{goods available for sale} - \text{ending inventory} \end{aligned}$$ (This should not be too hard...) <!--SR:!2025-04-11,99,383!2025-04-14,102,383-->
   - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer. <!--SR:!2025-04-12,100,383!2025-04-01,91,383-->
     - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2025-03-14,72,363!2025-04-11,99,376-->
@@ -333,7 +333,7 @@ The content is in teaching order.
     - high: 58
 - report
   - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2026-04-28,429,389!2026-06-24,475,389-->
-  - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2025-03-10,90,371!2026-06-04,452,391-->
+  - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2026-06-10,457,391!2026-06-04,452,391-->
   - Need to recheck the textbook when will a recording mistake of transaction be found...
     - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2025-10-02,258,369!2026-01-12,336,369-->
   - Forgot, something related to accrued expense, insurance, insurance premium...
@@ -443,7 +443,7 @@ The content is in teaching order.
   - share capital / accounting
     - share capital / accounting / issue ::@:: debit asset "Cash", credit equity "Common stock", credit equity "Additional paid-in capital" <!--SR:!2025-06-29,144,336!2025-04-09,98,383-->
     - share capital / accounting / repurchase ::@:: debit contra-equity "Treasury stock" (using cost), credit asset "Cash" <!--SR:!2025-03-17,74,356!2025-04-10,98,376-->
-    - share capital / accounting / reissue (after repurchase) ::@:: debit asset "Cash" (using actual received cash), credit contra-equity "Treasury stock" (using corresponding cost), credit or debit equity "Additional paid-in capital" (to balance the entry) <!--SR:!2025-04-13,101,383!2025-03-10,68,363-->
+    - share capital / accounting / reissue (after repurchase) ::@:: debit asset "Cash" (using actual received cash), credit contra-equity "Treasury stock" (using corresponding cost), credit or debit equity "Additional paid-in capital" (to balance the entry) <!--SR:!2025-04-13,101,383!2025-11-12,247,363-->
 
 ## week 10 lecture 2
 

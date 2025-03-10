@@ -79,7 +79,7 @@ The content is in teaching order.
   - instruction set architecture / examples ::@:: ARM, MIPS, PowerPC, SPARC, x86 <!--SR:!2025-04-23,56,310!2025-04-23,56,310-->
 - [computer](../../../../general/computer.md) ::@:: a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation) <!--SR:!2025-04-10,43,290!2025-04-25,58,310-->
   - computer / the very first computers ::@:: some uses punch cards as computer programs, very large (can be as large as a building), very low capabilities (compared to nowadays) <!--SR:!2025-04-21,54,310!2025-04-21,54,310-->
-- [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <p> in this course, 5 components: input, output, memory, processor (control + datapath) <!--SR:!2025-04-08,41,290!2025-03-10,19,250-->
+- [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <p> in this course, 5 components: input, output, memory, processor (control + datapath) <!--SR:!2025-04-08,41,290!2025-04-27,48,250-->
   - von Neumann architecture / input ::@:: communicate with the computers; transfer data and instructions to the memory <!--SR:!2025-04-23,56,310!2025-04-24,57,310-->
   - von Neumann architecture / output ::@:: communicate with the users; transfer data from the memory <!--SR:!2025-04-21,54,310!2025-04-21,54,310-->
   - von Neumann architecture / memory ::@:: store to keep data and instructions <!--SR:!2025-04-25,58,310!2025-04-08,41,290-->
@@ -88,7 +88,7 @@ The content is in teaching order.
 - [information age](../../../../general/informaion%20age.md) ::@:: the agricultural revolution, then the industrial revolution, then the information revolution (computer revolution); thus we have the information age, and computers are pervasive <!--SR:!2025-04-23,56,310!2025-04-23,56,310-->
   - information age / why ::@:: one of the reasons: Moore's law: the number of transistors in an integrated circuit (IC) doubles about every two years <!--SR:!2025-04-25,58,310!2025-04-11,46,290-->
   - information age / applications ::@:: artificial intelligence, automobile computers, human genome project, search engines, world wide web <!--SR:!2025-04-09,44,290!2025-04-11,46,290-->
-  - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s) <!--SR:!2025-03-29,24,230!2025-03-10,19,250-->
+  - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s) <!--SR:!2025-03-29,24,230!2025-04-28,49,250-->
 
 ## week 1 lab
 

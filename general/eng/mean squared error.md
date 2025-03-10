@@ -79,7 +79,7 @@ Further, while {@{the corrected sample variance is the [best unbiased estimator]
 
 ### Gaussian distribution
 
-The following table gives {@{several estimators of the true parameters of the population, μ and σ<sup>2</sup>, for the Gaussian case}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-03-10,55,310-->
+The following table gives {@{several estimators of the true parameters of the population, μ and σ<sup>2</sup>, for the Gaussian case}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-08-27,170,310-->
 
 | True value                    | Estimator                                                                                                                                                                                                                             | Mean squared error                                                                                                                               |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -106,7 +106,7 @@ MSE is also used in {@{several [stepwise regression](stepwise%20regression.md) t
 
 - Minimizing MSE is {@{a key criterion in selecting estimators: see [minimum mean-square error](minimum%20mean%20square%20error.md)}@}. Among {@{unbiased estimators}@}, {@{minimizing the MSE is equivalent to minimizing the variance}@}, and the estimator that {@{does this is the [minimum variance unbiased estimator](minimum-variance%20unbiased%20estimator.md)}@}. However, {@{a biased estimator may have lower MSE; see [estimator bias](bias%20of%20an%20estimator.md)}@}.
 - In {@{[statistical modelling](statistical%20model.md)}@} the MSE can {@{represent the difference between the actual observations and the observation values predicted by the model}@}. In this context, it is used to {@{determine the extent to which the model fits the data}@} as well as {@{whether removing some explanatory variables is possible without significantly harming the model's predictive ability}@}.
-- In {@{[forecasting](forecasting.md) and [prediction](prediction.md)}@}, {@{the [Brier score](Brier%20score.md)}@} is {@{a measure of [forecast skill](forecast%20skill.md) based on MSE}@}. <!--SR:!2025-03-30,72,327!2025-03-30,72,327!2025-03-10,55,310!2025-04-01,74,327!2025-09-23,204,327!2025-03-24,67,310!2025-03-31,73,327!2025-04-01,74,327!2025-07-10,133,290!2025-07-24,156,310!2025-03-31,73,327!2025-04-01,74,327-->
+- In {@{[forecasting](forecasting.md) and [prediction](prediction.md)}@}, {@{the [Brier score](Brier%20score.md)}@} is {@{a measure of [forecast skill](forecast%20skill.md) based on MSE}@}. <!--SR:!2025-03-30,72,327!2025-03-30,72,327!2025-10-30,234,330!2025-04-01,74,327!2025-09-23,204,327!2025-03-24,67,310!2025-03-31,73,327!2025-04-01,74,327!2025-07-10,133,290!2025-07-24,156,310!2025-03-31,73,327!2025-04-01,74,327-->
 
 ## loss function
 

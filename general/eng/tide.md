@@ -17,7 +17,7 @@ __Tides__ are {@{the rise and fall of [sea levels](sea%20level.md)}@} caused by 
 
 - see: [tidal range](tidal%20range.md)
 
-The semi-diurnal range ({@{the difference in height between high and low waters over about half a day}@}) varies in {@{a two-week cycle}@}. <!--SR:!2025-03-10,160,310!2025-08-23,304,330-->
+The semi-diurnal range ({@{the difference in height between high and low waters over about half a day}@}) varies in {@{a two-week cycle}@}. <!--SR:!2027-01-26,687,330!2025-08-23,304,330-->
 
 Approximately {@{twice a month, around [new moon](new%20moon.md) and [full moon](full%20moon.md) when the [Sun](Sun.md), [Moon](Moon.md), and [Earth](Earth.md) form a line (a configuration known as a [syzygy](syzygy%20(astronomy.md).md))}@}, the [tidal force](tidal%20force.md) {@{due to the Sun reinforces that due to the Moon}@}. The tide's range is then {@{at its maximum; this is called the __spring tide__ or sometimes __syzygy tides__}@}. It is {@{not named after the [spring season](spring%20(season).md), but rather, like the season, derives from the meaning "jump, burst forth, rise", as in a natural [spring](spring%20(hydrology).md)}@}. <!--SR:!2025-04-01,184,310!2025-05-16,226,330!2026-04-13,467,310!2025-03-23,166,310-->
 

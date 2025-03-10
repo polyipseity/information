@@ -142,7 +142,7 @@ The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete cat
 > - __Top__ ::@:: objects: topological spaces <br/> morphisms: continuous functions <!--SR:!2025-08-21,169,310!2025-03-29,65,310-->
 > - __Man__<sup>_p_</sup> ::@:: objects: smooth manifolds <br/> morphisms: _p_-times continuously differentiable maps <!--SR:!2025-03-20,58,310!2025-03-31,67,310-->
 
-{@{[Fiber bundles](fiber%20bundle.md) with [bundle maps](bundle%20map.md) between them}@} form {@{a concrete category}@}. <!--SR:!2025-03-10,46,290!2025-03-29,65,310-->
+{@{[Fiber bundles](fiber%20bundle.md) with [bundle maps](bundle%20map.md) between them}@} form {@{a concrete category}@}. <!--SR:!2025-09-15,189,310!2025-03-29,65,310-->
 
 The category {@{__[Cat](category%20of%20small%20categories.md)__}@} consists of {@{all small categories, with [functors](functor.md) between them as morphisms}@}. <!--SR:!2025-03-28,64,310!2025-03-29,65,310-->
 
@@ -160,7 +160,7 @@ If {@{_C_ and _D_ are categories}@}, one can form {@{the _product category_ _C_ 
 
 A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2025-03-25,62,310-->
 
-- a _[monomorphism](monomorphism.md)_ \(or _monic_\) ::@:: if it is left-cancellable, i.e. _fg<sub>1</sub>_ = _fg<sub>2</sub>_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g_<sub>1</sub>, _g<sub>2</sub>_ : _x_ → _a_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(x, a)$ is preserved in $\mathrm{hom}(x, b)$ by _f_) <!--SR:!2025-03-30,66,310!2025-03-10,46,290-->
+- a _[monomorphism](monomorphism.md)_ \(or _monic_\) ::@:: if it is left-cancellable, i.e. _fg<sub>1</sub>_ = _fg<sub>2</sub>_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g_<sub>1</sub>, _g<sub>2</sub>_ : _x_ → _a_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(x, a)$ is preserved in $\mathrm{hom}(x, b)$ by _f_) <!--SR:!2025-03-30,66,310!2025-07-20,132,290-->
 - an _[epimorphism](epimorphism.md)_ \(or _epic_\) ::@:: if it is right-cancellable, i.e. _g<sub>1</sub>f_ = _g<sub>2</sub>f_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g<sub>1</sub>_, _g<sub>2</sub>_ : _b_ → _x_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(b, x)$ is preserved in $\mathrm{hom}(a, x)$ by _f_) <!--SR:!2025-03-25,62,310!2025-03-30,66,310-->
 - a _[bimorphism](morphism.md#some%20specific%20morphisms)_ ::@:: if it is both a monomorphism and an epimorphism. <!--SR:!2025-08-11,161,310!2025-03-25,62,310-->
 - a _[retraction](section%20(category%20theory).md)_ ::@:: if it has a right inverse, i.e. if there exists a morphism _g_ : _b_ → _a_ with _fg_ = 1<sub>_b_</sub>. (annotation: intuitively, _f_ inverts _g_ on the class of objects _and_ the object itself) <!--SR:!2025-08-28,176,310!2025-03-25,62,310-->
@@ -182,7 +182,7 @@ A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2025-03-25,6
 - In {@{many categories, e.g. __[Ab](category%20of%20abelian%20groups.md)__ or [__Vect__<sub>_K_</sub>](category%20of%20modules.md)}@}, {@{the hom-sets hom\(_a_, _b_\)}@} are {@{not just sets but actually [abelian groups](abelian%20group.md)}@}, and {@{the composition of morphisms is compatible with these group structures; i.e. is [bilinear](bilinear%20form.md)}@}. Such a category is called {@{[preadditive](preadditive%20category.md)}@}. If, furthermore, {@{the category has all finite [products](product%20(category%20theory).md) and [coproducts](coproduct.md)}@}, it is called {@{an [additive category](additive%20category.md)}@}. If {@{all morphisms have a [kernel](kernel%20(category%20theory).md) and a [cokernel](cokernel.md)}@}, and {@{all epimorphisms are cokernels and all monomorphisms are kernels}@}, then we speak of {@{an [abelian category](abelian%20category.md)}@}. A typical example of an abelian category is {@{the category of abelian groups}@}.
 - A category is called [complete](complete%20category.md) ::@:: if all small [limits](limit%20(category%20theory).md) exist in it. The categories of sets, abelian groups and topological spaces are complete. <!--SR:!2025-03-12,48,290!2025-03-28,64,310-->
 - A category is called {@{[cartesian closed](Cartesian%20closed%20category.md)}@} if {@{it has finite direct products and a morphism defined on a finite product can always be represented by a morphism defined on just one of the factors}@}. Examples include {@{__[Set](category%20of%20sets.md)__ and __CPO__, the category of [complete partial orders](complete%20partial%20order.md) with [Scott-continuous functions](Scott%20continuity.md)}@}.
-- A [topos](topos.md) ::@:: is a certain type of cartesian closed category in which all of mathematics can be formulated \(just like classically all of mathematics is formulated in the category of sets\). A topos can also be used to represent a logical theory. <!--SR:!2025-03-12,48,290!2025-03-10,46,290-->
+- A [topos](topos.md) ::@:: is a certain type of cartesian closed category in which all of mathematics can be formulated \(just like classically all of mathematics is formulated in the category of sets\). A topos can also be used to represent a logical theory. <!--SR:!2025-03-12,48,290!2025-09-14,188,310-->
 
 ## see also
 

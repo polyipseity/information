@@ -78,7 +78,7 @@ For example:
 
 $${\begin{aligned}a+1&=a+S(0)&{\text{by definition} }\\&=S(a+0)&{\text{using (2)} }\\&=S(a),&{\text{using (1)} }\\\\a+2&=a+S(1)&{\text{by definition} }\\&=S(a+1)&{\text{using (2)} }\\&=S(S(a))&{\text{using } }a+1=S(a)\\\\a+3&=a+S(2)&{\text{by definition} }\\&=S(a+2)&{\text{using (2)} }\\&=S(S(S(a)))&{\text{using } }a+2=S(S(a)) \\ {\text{etc.} }&\\\end{aligned} }$$
 
-To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}@}. The [structure](mathematical%20structure.md) (__N__, +) is {@{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}@}. The smallest group embedding __N__ is {@{the [integers](integer.md)}@}. <!--SR:!2025-04-22,172,325!2025-08-30,272,330!2025-03-10,68,210!2025-09-30,273,290-->
+To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}@}. The [structure](mathematical%20structure.md) (__N__, +) is {@{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}@}. The smallest group embedding __N__ is {@{the [integers](integer.md)}@}. <!--SR:!2025-04-22,172,325!2025-08-30,272,330!2025-07-28,140,210!2025-09-30,273,290-->
 
 > [!tip] tips
 >

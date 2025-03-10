@@ -132,7 +132,7 @@ tags:
 
 > Q2. What does `print(len("hehehaha"))` output?
 >
-> - solution: {@{`8`}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{`8`}@} <!--SR:!2025-11-30,265,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -632,7 +632,7 @@ tags:
 
 > Q4. To select the best K for our problem, we often divide our data into the training set, validation set, and test set, and check the performance of some K on the validation set. Explain why we do this on the validation set but not the training or test set.
 >
-> - solution: {@{(for reference) If we were to do so on the training set, the optimal K would have been 1. If we were to do so on the test set, then it would have defeated the purpose of the test data – reflecting the performance of our model on unseen data.}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{(for reference) If we were to do so on the training set, the optimal K would have been 1. If we were to do so on the test set, then it would have defeated the purpose of the test data – reflecting the performance of our model on unseen data.}@} <!--SR:!2025-12-03,268,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -748,7 +748,7 @@ tags:
 >        [0.78, 0.15, 0.10]])
 > ```
 >
-> - solution: {@{0, 1, 0, 2}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{0, 1, 0, 2}@} <!--SR:!2025-12-03,268,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.
 > 4. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a less curvatured decision boundary than well-fitted model.
 >
-> - solution: {@{1, 3}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{1, 3}@} <!--SR:!2025-12-02,267,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1122,7 +1122,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & \times & 4      & \times & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline \end{array}$$}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & \times & 4      & \times & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline \end{array}$$}@} <!--SR:!2025-12-01,266,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1280,7 +1280,7 @@ tags:
 > 3. It is not a differentiable operation.
 > 4. The number of learnable parameters in a pooling layer is the same as the filter size.
 >
-> - solution: {@{3, 4}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{3, 4}@} <!--SR:!2025-12-02,267,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1457,7 +1457,7 @@ tags:
 > 4. $X_0$ is a state.
 > 5. None of the above.
 >
-> - solution: {@{2}@} <!--SR:!2025-03-10,61,310-->
+> - solution: {@{2}@} <!--SR:!2025-12-01,266,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-03-15,65,310!2025-03-10,61,310-->
+> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-03-15,65,310!2025-12-01,266,330-->
 
 <!-- markdownlint MD028 -->
 

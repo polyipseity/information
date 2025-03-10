@@ -39,7 +39,7 @@ Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be
 
 ## table of values
 
-Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2025-09-06,219,310!2025-03-10,29,250-->
+Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2025-09-06,219,310!2025-05-25,76,250-->
 
 | ___k___\\___n___ | __0__ | __1__ | __2__ | __3__ | __4__ | __5__ | __6__ | __7__ | __8__ | __9__ | __10__ |
 | ----------------:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| ------:|
@@ -155,7 +155,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### associated Stirling numbers of the second kind
 
-{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-04-01,63,270!2025-03-10,29,250!2025-12-07,311,330!2025-05-19,120,250!2025-05-24,139,290-->
+{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-04-01,63,270!2025-06-21,103,270!2025-12-07,311,330!2025-05-19,120,250!2025-05-24,139,290-->
 
 {@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2025-05-26,143,290!2025-06-25,121,250!2025-03-30,61,270-->
 

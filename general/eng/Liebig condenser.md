@@ -10,7 +10,7 @@ tags:
 
 ![LiebigCondenser](../../archives/Wikimedia%20Commons/LiebigCondenser.jpg)
 
-A __Liebig condenser__ is {@{a [laboratory equipment](laboratory%20equipment.md) that is a [condenser](condenser.md) consisting of a straight [glass](glass.md) tube enclosed in a [water jacket](water%20jacket.md)}@}. <!--SR:!2025-03-10,429,250-->
+A __Liebig condenser__ is {@{a [laboratory equipment](laboratory%20equipment.md) that is a [condenser](condenser.md) consisting of a straight [glass](glass.md) tube enclosed in a [water jacket](water%20jacket.md)}@}. <!--SR:!2028-02-17,1074,250-->
 
 [Water](water.md) is {@{passed into the condenser from the bottom inlet and exits from the top outlet to increase cooling effect}@}. <!--SR:!2026-06-19,747,270-->
 

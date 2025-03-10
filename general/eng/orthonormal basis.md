@@ -74,7 +74,7 @@ In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal g
 {@{The other Stiefel manifolds $V_{k}(\mathbb {R} ^{n})$}@} for {@{$k<n$ of _incomplete_ orthonormal bases \(orthonormal $k$-frames\)}@} are {@{still homogeneous spaces for the orthogonal group}@}, but {@{not _principal_ homogeneous spaces}@}: {@{any $k$-frame can be taken to any other $k$-frame by an orthogonal map}@}, but {@{this map is not uniquely determined}@}. <!--SR:!2025-04-01,35,284!2025-05-17,75,324!2025-05-17,75,324!2025-05-14,72,324!2025-04-26,54,304!2025-05-17,75,324-->
 
 - The set of orthonormal bases for $\mathbb {R} ^{p,q}$ ::@:: is a G-torsor for $G={\text{O} }(p,q)$. <!--SR:!2025-05-15,73,324!2025-05-17,75,324-->
-- The set of orthonormal bases for $\mathbb {C} ^{n}$ ::@:: is a G-torsor for $G={\text{U} }(n)$. <!--SR:!2025-03-10,18,264!2025-05-17,75,324-->
+- The set of orthonormal bases for $\mathbb {C} ^{n}$ ::@:: is a G-torsor for $G={\text{U} }(n)$. <!--SR:!2025-05-18,69,284!2025-05-17,75,324-->
 - The set of orthonormal bases for $\mathbb {C} ^{p,q}$ ::@:: is a G-torsor for $G={\text{U} }(p,q)$. <!--SR:!2025-05-16,74,324!2025-05-17,75,324-->
 - The set of right-handed orthonormal bases for $\mathbb {R} ^{n}$ ::@:: is a G-torsor for $G={\text{SO} }(n)$ <!--SR:!2025-04-26,54,304!2025-03-19,27,284-->
 

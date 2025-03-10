@@ -37,7 +37,7 @@ The Carmichael function is named after {@{the American mathematician [Robert Car
 
 Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(_n_\) is considered as defined by the recurrence of the previous section}@}, then {@{it satisfies the property stated in the introduction, namely that it is the smallest positive integer _m_ such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2025-03-22,70,321!2025-09-12,200,321!2025-07-02,133,301-->
 
-> Theorem 1 ::@:: — If _a_ is relatively prime to _n_ then $a^{\lambda (n)}\equiv 1{\pmod {n} }$.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-10,59,310!2025-08-31,189,310-->
+> Theorem 1 ::@:: — If _a_ is relatively prime to _n_ then $a^{\lambda (n)}\equiv 1{\pmod {n} }$.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-20,255,330!2025-08-31,189,310-->
 
 This implies that {@{the order of every element of the multiplicative group of integers modulo _n_ divides _λ_\(_n_\)}@}. Carmichael calls {@{an element _a_ for which $a^{\lambda (n)}$ is the least power of _a_ congruent to 1 \(mod _n_\)}@} {@{a _primitive λ-root modulo n_}@}.<sup>[\[3\]](#^ref-3)</sup> \(This is {@{not to be confused with a [primitive root modulo _n_](primitive%20root%20modulo%20n.md)}@}, which Carmichael sometimes refers to as {@{a primitive $\varphi$-root modulo _n_}@}.\) <!--SR:!2025-07-21,146,301!2025-07-23,148,301!2025-03-26,73,321!2025-08-03,168,310!2025-03-27,74,321-->
 

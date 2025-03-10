@@ -535,7 +535,7 @@ tags:
 > 2. to find out the selling price of assets under disposal
 > 3. to find out whether the PPE's NBV is recoverable through estimated future cash flows
 >
-> - solution: {@{3}@} <!--SR:!2025-03-10,68,341-->
+> - solution: {@{3}@} <!--SR:!2026-01-29,325,361-->
 
 <!-- markdownlint MD028 -->
 
