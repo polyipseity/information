@@ -368,7 +368,8 @@ The content is in teaching order.
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money.
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor
-- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group
+- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group; led the first black band to tour the American South
+  - Cab Calloway / works ::@:: \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s.
   - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas.
 - swing music
@@ -412,3 +413,16 @@ The content is in teaching order.
 - datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:00:00-05:00
   - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:00:00+08:00
 - status: unscheduled, holiday
+
+## week 9 lecture
+
+> Buenas Días,
+>
+> Please go to D2L and take the Midterm. It is open book so you may use your notes, or the internet to help you. Just remembered that the exam is timed. When you finish the Midterm you may leave. Good luck on the rest of your midterms and I will see you all Wednesday at 8:30.
+>
+>-\[redacted\]
+
+- datetime: 2025-03-10T08:30:00-05:00/2025-03-10T09:00:00-05:00
+  - local: 2025-03-10T21:30:00+08:00/2025-03-10T22:00:00+08:00
+- examination: [midterm examination](questions/midterm%20examination.md)
+- assignment: \(none\)
