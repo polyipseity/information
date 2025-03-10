@@ -395,7 +395,7 @@ The content is in teaching order.
     - IEEE 754 / format / NaN
       - IEEE 754 / format / NaN / usage ::@:: It can be used in subsequent calculations, which avoids need for illegal checking illegal or undefined operations, e.g. dividing 0 by 0.
 - [ASCII](../../../../general/ASCII.md) ::@:: It is a character encoding standard for electronic communication, used by most computers today. <p> It is a 7-bit code, so there are 128 code points. Each unsigned integer maps to a character. But most of time we use an unsigned byte, which has 8 bits, to represent a character with the MSB set to 0.
-  - ASCII / acronym ::@:: American Standard Code for Information Interchange
+  - ASCII / full name ::@:: American Standard Code for Information Interchange
   - ASCII / patterns ::@:: Some notable patterns: <br/> Alphabets (A to Z, a to z) and numbers (0 to 9) are in order. <br/> groups: NUL (null) → control characters → punctuations → numbers → punctuations → big alphabets → punctuations → small alphabets → punctuations → DEL (a control character)
   - ASCII / note ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here.
 
@@ -415,7 +415,7 @@ The content is in teaching order.
   - reduced instruction set computer / advantages ::@:: Easy to learn and understand. Have a large share of the embedded computers market. Less instructions.
   - reduced instruction set computer / principles ::@:: good compromises, make common cases fast, simplicity favors regularity \(less cases\), smaller is faster
 - [MIPS architecture](../../../../general/MIPS%20architecture.md) ::@:: It is the RISC that we will learn here. <p> It was a research project conducted by John L. Hennessy at Stanford University between 1981 and 1984. Then it was commercialized and developed by MIPS Technologies.
-  - MIPS architecture / acronym ::@:: Microprocessor without Interlocked Pipeline Stages
+  - MIPS architecture / full name ::@:: Microprocessor without Interlocked Pipeline Stages
   - MIPS architecture / reference ::@:: MIPS reference data green card
   - [MIPS](MIPS.md)
     - [§ principles](MIPS.md#principles)
