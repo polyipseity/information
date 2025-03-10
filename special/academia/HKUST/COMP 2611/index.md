@@ -428,6 +428,19 @@ The content is in teaching order.
     - [§ operands](MIPS.md#operands)
     - [§ logical](MIPS.md#logical)
 
+## week 5 lecture 2
+
+- datetime: 2025-03-07T09:00:00+08:00/2025-03-07T10:20:00+08:00
+- topic: first MIPS program, MIPS Control Flow, branch, loop
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ assembly](MIPS.md#assembly)
+    - [§ assembly format](MIPS.md#assembly%20format)
+    - [§ assembly directives](MIPS.md#assembly%20directives)
+    - [§ entry point](MIPS.md#entry%20point)
+    - [§ control flow](MIPS.md#control%20flow)
+    - [§ jump](MIPS.md#jump)
+
 ## assignments
 
 ## midterm examination
