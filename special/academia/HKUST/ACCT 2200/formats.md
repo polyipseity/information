@@ -32,12 +32,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > - {@{Job Number: 42}@}
 > - {@{Description: Home}@}
 >
-> | {@{<u>Material Description</u>}@} | {@{<u>Quantity</u>}@} | {@{<u>Unit Cost</u>}@} | {@{<u>Total Cost</u>}@} |
-> | --------------------------------- | ---------------------:| ----------------------:| -----------------------:|
-> | {@{1 × 1 meter wooden planks}@}   | {@{100 sq. m}@}       | {@{\$2.00}@}           | {@{\$200}@}             |
-> | {@{24 bags of sand}@}             | {@{100 kg}@}          | {@{\$10.00}@}          | {@{1&nbsp;000}@}        |
-> | {@{3 bags of coal}@}              | {@{20 kg}@}           | {@{\$25.00}@}          | {@{<u>500</u>}@}        |
-> | &emsp;{@{Total cost}@}            |                       |                        | {@{\$1&nbsp;700}@}      |
+> | {@{<u>Material Description</u>}@} | {@{<u>Quantity</u>}@} | {@{<u>Unit Cost</u>}@} | {@{<u>Total Cost</u>}@}  |
+> | --------------------------------- | ---------------------:| ----------------------:| ------------------------:|
+> | {@{1 × 1 meter wooden planks}@}   | {@{100 sq. m}@}       | {@{&dollar;2.00}@}     | {@{&dollar;200}@}        |
+> | {@{24 bags of sand}@}             | {@{100 kg}@}          | {@{&dollar;10.00}@}    | {@{1&nbsp;000}@}         |
+> | {@{3 bags of coal}@}              | {@{20 kg}@}           | {@{&dollar;25.00}@}    | {@{<u>500</u>}@}         |
+> | &emsp;{@{Total cost}@}            |                       |                        | {@{&dollar;1&nbsp;700}@} |
 >
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@}
 
@@ -59,15 +59,15 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > - {@{Ticket Number: TT 1337}@}
 > - {@{Employee: Chris Wong}@}
 >
-> | {@{Date}@}       | {@{Time Started}@} | {@{Time Ended}@}   | {@{Total Hours}@} | {@{Hourly Rate}@} | {@{Total Amount}@} | {@{Job Number}@} |
-> | ---------------- | ------------------ | ------------------ | -----------------:| -----------------:| ------------------:| ---------------- |
-> | {@{2025-02-10}@} | {@{03:00}@}        | {@{23:00}@}        | {@{20 hours}@}    | {@{\$100}@}       | {@{\$2&nbsp;000}@} | {@{42}@}         |
-> | {@{2025-02-11}@} | {@{06:00}@}        | {@{22:00}@}        | {@{16 hours}@}    | {@{100}@}         | {@{1&nbsp;600}@}   | {@{42}@}         |
-> | {@{2025-02-12}@} | {@{06:30}@}        | {@{22:30}@}        | {@{16 hours}@}    | {@{100}@}         | {@{1&nbsp;600}@}   | {@{42}@}         |
-> | {@{2025-02-13}@} | {@{04:00}@}        | {@{21:00}@}        | {@{17 hours}@}    | {@{100}@}         | {@{1&nbsp;700}@}   | {@{42}@}         |
-> | {@{2025-02-13}@} | {@{22:45}@}        | {@{23:45}@}        | {@{1 hour}@}      | {@{100}@}         | {@{100}@}          | {@{Training}@}   |
-> | {@{2025-02-14}@} | {@{07:00}@}        | {@{15:00}@}        | {@{8 hours}@}     | {@{100}@}         | {@{800}@}          | {@{69}@}         |
-> |                  |                    | {@{Weekly Total}@} | {@{78 hours}@}    |                   | {@{\$7&nbsp;800}@} |                  |
+> | {@{Date}@}       | {@{Time Started}@} | {@{Time Ended}@}   | {@{Total Hours}@} | {@{Hourly Rate}@} | {@{Total Amount}@}       | {@{Job Number}@} |
+> | ---------------- | ------------------ | ------------------ | -----------------:| -----------------:| ------------------------:| ---------------- |
+> | {@{2025-02-10}@} | {@{03:00}@}        | {@{23:00}@}        | {@{20 hours}@}    | {@{&dollar;100}@} | {@{2&nbsp;000}@}         | {@{42}@}         |
+> | {@{2025-02-11}@} | {@{06:00}@}        | {@{22:00}@}        | {@{16 hours}@}    | {@{100}@}         | {@{1&nbsp;600}@}         | {@{42}@}         |
+> | {@{2025-02-12}@} | {@{06:30}@}        | {@{22:30}@}        | {@{16 hours}@}    | {@{100}@}         | {@{1&nbsp;600}@}         | {@{42}@}         |
+> | {@{2025-02-13}@} | {@{04:00}@}        | {@{21:00}@}        | {@{17 hours}@}    | {@{100}@}         | {@{1&nbsp;700}@}         | {@{42}@}         |
+> | {@{2025-02-13}@} | {@{22:45}@}        | {@{23:45}@}        | {@{1 hour}@}      | {@{100}@}         | {@{100}@}                | {@{Training}@}   |
+> | {@{2025-02-14}@} | {@{07:00}@}        | {@{15:00}@}        | {@{8 hours}@}     | {@{100}@}         | {@{800}@}                | {@{69}@}         |
+> |                  |                    | {@{Weekly Total}@} | {@{78 hours}@}    |                   | {@{&dollar;7&nbsp;800}@} |                  |
 >
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@}
 
@@ -90,21 +90,21 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > - {@{Date Completed:}@}
 > - {@{Description: Home, Job \#42}@}
 >
-> | {@{__Actual Direct Materials__}@} |                    | {@{__Actual Direct Labor__}@} |                 |                    | {@{__Applied Manufacturing Overhead__}@} |                  |
-> | --------------------------------- | ------------------:| ----------------------------- | ---------------:| ------------------:| ----------------------------------------:| ----------------:|
-> | {@{__Req. No__}@}                 | {@{__Amount__}@}   | {@{__Ticket__}@}              | {@{__Hours__}@} | {@{__Amount__}@}   | {@{__Hours__}@}                          | {@{__Amount__}@} |
-> | {@{MR 420}@}                      | {@{\$1&nbsp;700}@} | {@{TT 1337}@}                 | {@{69}@}        | {@{\$6&nbsp;900}@} | {@{69}@}                                 | {@{\$690}@}      |
+> | {@{__Actual Direct Materials__}@} |                          | {@{__Actual Direct Labor__}@} |                 |                          | {@{__Applied Manufacturing Overhead__}@} |                   |
+> | --------------------------------- | ------------------------:| ----------------------------- | ---------------:| ------------------------:| ----------------------------------------:| -----------------:|
+> | {@{__Req. No__}@}                 | {@{__Amount__}@}         | {@{__Ticket__}@}              | {@{__Hours__}@} | {@{__Amount__}@}         | {@{__Hours__}@}                          | {@{__Amount__}@}  |
+> | {@{MR 420}@}                      | {@{&dollar;1&nbsp;700}@} | {@{TT 1337}@}                 | {@{69}@}        | {@{&dollar;6&nbsp;900}@} | {@{69}@}                                 | {@{&dollar;690}@} |
 >
 > ---
 >
 > {@{__Cost Summary__}@}
 >
-> |                                      |                                |
-> | ------------------------------------ | ------------------------------:|
-> | {@{Direct Materials Cost}@}          | {@{\$&nbsp;1&nbsp;700}@}       |
-> | {@{Direct Labor Cost}@}              | {@{6&nbsp;900}@}               |
-> | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}               |
-> | &emsp;{@{Total Cost}@}               | {@{<u>$&nbsp;9&nbsp;290</u>}@} |
+> |                                      |                                       |
+> | ------------------------------------ | -------------------------------------:|
+> | {@{Direct Materials Cost}@}          | {@{&dollar;&nbsp;1&nbsp;700}@}        |
+> | {@{Direct Labor Cost}@}              | {@{6&nbsp;900}@}                      |
+> | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}                      |
+> | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} |
 
 - job cost sheet ::@:: information, tables, cost summary
   - job cost sheet / information ::@:: job number, date started, date completed, description
@@ -120,19 +120,19 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> |                                                       |                               |
-> | ----------------------------------------------------- | -----------------------------:|
-> | {@{Beginning raw materials inventory}@}               | {@{\$400}@}                   |
-> | &emsp;{@{Plus: Raw materials purchase}@}              | {@{500}@}                     |
-> | &emsp;{@{Less: Indirect materials}@}                  | {@{\(100\)}@}                 |
-> | &emsp;{@{Less: Ending raw materials inventory}@}      | {@{\(200\)}@}                 |
-> | {@{Direct materials used}@}                           | {@{\$600}@}                   |
-> | {@{Direct labor}@}                                    | {@{900}@}                     |
-> | {@{Manufacturing overhead applied}@}                  | {@{250}@}                     |
-> | {@{Total current manufacturing costs}@}               | {@{\$1&nbsp;750}@}            |
-> | &emsp;{@{Plus: Beginning work in process inventory}@} | {@{2&nbsp;000}@}              |
-> | &emsp;{@{Less: Ending work in process inventory}@}    | {@{\(1&nbsp;000\)}@}          |
-> | {@{Cost of goods manufactured}@}                      | {@{__\$<u>2&nbsp;750</u>__}@} |
+> |                                                       |                                     |
+> | ----------------------------------------------------- | -----------------------------------:|
+> | {@{Beginning raw materials inventory}@}               | {@{&dollar;400}@}                   |
+> | &emsp;{@{Plus: Raw materials purchase}@}              | {@{500}@}                           |
+> | &emsp;{@{Less: Indirect materials}@}                  | {@{\(100\)}@}                       |
+> | &emsp;{@{Less: Ending raw materials inventory}@}      | {@{\(200\)}@}                       |
+> | {@{Direct materials used}@}                           | {@{&dollar;600}@}                   |
+> | {@{Direct labor}@}                                    | {@{900}@}                           |
+> | {@{Manufacturing overhead applied}@}                  | {@{250}@}                           |
+> | {@{Total current manufacturing costs}@}               | {@{&dollar;1&nbsp;750}@}            |
+> | &emsp;{@{Plus: Beginning work in process inventory}@} | {@{2&nbsp;000}@}                    |
+> | &emsp;{@{Less: Ending work in process inventory}@}    | {@{\(1&nbsp;000\)}@}                |
+> | {@{Cost of goods manufactured}@}                      | {@{__&dollar;<u>2&nbsp;750</u>__}@} |
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured
   - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\)
@@ -208,13 +208,13 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Cost to be Accounted For}@}  | {@{Direct Materials}@}  | {@{Conversion}@}        | {@{Total}@}              |
-> | ------------------------------- | -----------------------:| -----------------------:| ------------------------:|
-> | {@{Beginning Inventory}@}       | {@{\$&emsp;700}@}       | {@{\$&emsp;600}@}       | {@{\$&emsp;1&nbsp;300}@} |
-> | {@{Cost Added in This Period}@} | {@{400}@}               | {@{490}@}               | {@{890}@}                |
-> | {@{Total Cost}@}                | {@{1&nbsp;100}@}        | {@{1&nbsp;090}@}        | {@{\$&emsp;2&nbsp;190}@} |
-> | {@{Equivalent Units}@}          | {@{÷&emsp;1&nbsp;100}@} | {@{÷&emsp;1&nbsp;090}@} |                          |
-> | {@{Cost Per Equivalent Unit}@}  | {@{\$&emsp;1}@}         | {@{\$&emsp;1}@}         | {@{\$&emsp;2}@}          |
+> | {@{Cost to be Accounted For}@}  | {@{Direct Materials}@}  | {@{Conversion}@}        | {@{Total}@}                    |
+> | ------------------------------- | -----------------------:| -----------------------:| ------------------------------:|
+> | {@{Beginning Inventory}@}       | {@{&dollar;&emsp;700}@} | {@{&dollar;&emsp;600}@} | {@{&dollar;&emsp;1&nbsp;300}@} |
+> | {@{Cost Added in This Period}@} | {@{400}@}               | {@{490}@}               | {@{890}@}                      |
+> | {@{Total Cost}@}                | {@{1&nbsp;100}@}        | {@{1&nbsp;090}@}        | {@{&dollar;&emsp;2&nbsp;190}@} |
+> | {@{Equivalent Units}@}          | {@{÷&emsp;1&nbsp;100}@} | {@{÷&emsp;1&nbsp;090}@} |                                |
+> | {@{Cost Per Equivalent Unit}@}  | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;2}@}          |
 
 <!-- markdownlint MD028 -->
 
@@ -222,11 +222,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Cost Accounted For}@}      | {@{Direct Materials}@}   | {@{Conversion}@}         | {@{Total}@}              |
-> | ----------------------------- | ------------------------:| ------------------------:| ------------------------:|
-> | {@{Cost of Units Completed}@} | {@{\$&emsp;500}@}        | {@{\$&emsp;500}@}        | {@{\$&emsp;1&nbsp;000}@} |
-> | {@{Ending Inventory}@}        | {@{600}@}                | {@{590}@}                | {@{1&nbsp;190}@}         |
-> | {@{Total}@}                   | {@{\$&emsp;1&nbsp;100}@} | {@{\$&emsp;1&nbsp;090}@} | {@{\$&emsp;2&nbsp;190}@} |
+> | {@{Cost Accounted For}@}      | {@{Direct Materials}@}         | {@{Conversion}@}               | {@{Total}@}                    |
+> | ----------------------------- | ------------------------------:| ------------------------------:| ------------------------------:|
+> | {@{Cost of Units Completed}@} | {@{&dollar;&emsp;500}@}        | {@{&dollar;&emsp;500}@}        | {@{&dollar;&emsp;1&nbsp;000}@} |
+> | {@{Ending Inventory}@}        | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
+> | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} |
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
@@ -271,11 +271,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Cost to be Accounted For}@}  | {@{Direct Materials}@} | {@{Conversion}@}  | {@{Total}@}              |
-> | ------------------------------- | ----------------------:| -----------------:| ------------------------:|
-> | {@{Cost Added in This Period}@} | {@{\$&emsp;690}@}      | {@{\$&emsp;700}@} | {@{\$&emsp;1&nbsp;390}@} |
-> | {@{Equivalent Units}@}          | {@{÷&emsp;690}@}       | {@{÷&emsp;700}@}  |                          |
-> | {@{Cost Per Equivalent Unit}@}  | {@{\$&emsp;1}@}        | {@{\$&emsp;1}@}   | {@{\$&emsp;2}@}          |
+> | {@{Cost to be Accounted For}@}  | {@{Direct Materials}@}  | {@{Conversion}@}        | {@{Total}@}                    |
+> | ------------------------------- | -----------------------:| -----------------------:| ------------------------------:|
+> | {@{Cost Added in This Period}@} | {@{&dollar;&emsp;690}@} | {@{&dollar;&emsp;700}@} | {@{&dollar;&emsp;1&nbsp;390}@} |
+> | {@{Equivalent Units}@}          | {@{÷&emsp;690}@}        | {@{÷&emsp;700}@}        |                                |
+> | {@{Cost Per Equivalent Unit}@}  | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;1}@}   | {@{&dollar;&emsp;2}@}          |
 
 <!-- markdownlint MD028 -->
 
@@ -283,13 +283,13 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Cost Accounted For}@}                            | {@{Direct Materials}@}   | {@{Conversion}@}         | {@{Total}@}              |
-> | --------------------------------------------------- | ------------------------:| ------------------------:| ------------------------:|
-> | {@{Cost Added to Beginning Inventory Last Period}@} | {@{\$&emsp;410}@}        | {@{\$&emsp;390}@}        | {@{\$&emsp;800}@}        |
-> | {@{Cost to Complete Beginning Inventory}@}          | {@{10}@}                 | {@{30}@}                 | {@{40}@}                 |
-> | {@{Started and Completed}@}                         | {@{80}@}                 | {@{80}@}                 | {@{160}@}                |
-> | {@{Ending Inventory}@}                              | {@{600}@}                | {@{590}@}                | {@{1&nbsp;190}@}         |
-> | {@{Total}@}                                         | {@{\$&emsp;1&nbsp;100}@} | {@{\$&emsp;1&nbsp;090}@} | {@{\$&emsp;2&nbsp;190}@} |
+> | {@{Cost Accounted For}@}                            | {@{Direct Materials}@}         | {@{Conversion}@}               | {@{Total}@}                    |
+> | --------------------------------------------------- | ------------------------------:| ------------------------------:| ------------------------------:|
+> | {@{Cost Added to Beginning Inventory Last Period}@} | {@{&dollar;&emsp;410}@}        | {@{&dollar;&emsp;390}@}        | {@{&dollar;&emsp;800}@}        |
+> | {@{Cost to Complete Beginning Inventory}@}          | {@{10}@}                       | {@{30}@}                       | {@{40}@}                       |
+> | {@{Started and Completed}@}                         | {@{80}@}                       | {@{80}@}                       | {@{160}@}                      |
+> | {@{Ending Inventory}@}                              | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
+> | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} |
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
@@ -309,9 +309,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Activity Cost Pool}@} | {@{Total Activity Cost}@} | {@{Process A}@} | {@{Process B}@} | {@{Total}@} |
-> | ------------------------ | -------------------------:| ---------------:| ---------------:| -----------:|
-> | {@{Machining}@}          | {@{\$&emsp;4&nbsp;200}@}  | {@{200}@}       | {@{220}@}       | {@{420}@}   |
+> | {@{Activity Cost Pool}@} | {@{Total Activity Cost}@}      | {@{Process A}@} | {@{Process B}@} | {@{Total}@} |
+> | ------------------------ | ------------------------------:| ---------------:| ---------------:| -----------:|
+> | {@{Machining}@}          | {@{&dollar;&emsp;4&nbsp;200}@} | {@{200}@}       | {@{220}@}       | {@{420}@}   |
 
 - activity cost pool ::@:: _column headers_: activity cost pool, total activity cost, \(processes...\), total
 
@@ -321,11 +321,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Activity Cost Pool}@} | {@{Process A}@}          | {@{Process B}@}          | {@{Total}@}              |
-> | ------------------------ | ------------------------:| ------------------------:| ------------------------:|
-> | {@{Machine Hours}@}      | {@{200}@}                | {@{220}@}                | {@{420}@}                |
-> | {@{Activity Rate}@}      | {@{×&nbsp;\$&emsp;10}@}  | {@{×&nbsp;\$&emsp;10}@}  |                          |
-> |                          | {@{\$&emsp;2&nbsp;000}@} | {@{\$&emsp;2&nbsp;200}@} | {@{\$&emsp;4&nbsp;200}@} |
+> | {@{Activity Cost Pool}@} | {@{Process A}@}                | {@{Process B}@}                | {@{Total}@}                    |
+> | ------------------------ | ------------------------------:| ------------------------------:| ------------------------------:|
+> | {@{Machine Hours}@}      | {@{200}@}                      | {@{220}@}                      | {@{420}@}                      |
+> | {@{Activity Rate}@}      | {@{×&nbsp;&dollar;&emsp;10}@}  | {@{×&nbsp;&dollar;&emsp;10}@}  |                                |
+> |                          | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} |
 
 - activity cost allocation
   - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total
@@ -353,11 +353,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > ---
 >
-> | {@{Activity Cost Pool}@}                | {@{Process A}@}          | {@{Process B}@}          | {@{Total}@}              |
-> | --------------------------------------- | ------------------------:| ------------------------:| ------------------------:|
-> | {@{Machining}@}                         | {@{\$&emsp;2&nbsp;000}@} | {@{\$&emsp;2&nbsp;200}@} | {@{\$&emsp;4&nbsp;200}@} |
-> | {@{Setup}@}                             | {@{1&nbsp;500}@}         | {@{2&nbsp;000}@}         | {@{3&nbsp;500}@}         |
-> | {@{Total Manufacturing Overhead Cost}@} | {@{\$&emsp;3&nbsp;500}@} | {@{\$&emsp;4&nbsp;200}@} | {@{\$&emsp;7&nbsp;700}@} |
+> | {@{Activity Cost Pool}@}                | {@{Process A}@}                | {@{Process B}@}                | {@{Total}@}                    |
+> | --------------------------------------- | ------------------------------:| ------------------------------:| ------------------------------:|
+> | {@{Machining}@}                         | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} |
+> | {@{Setup}@}                             | {@{1&nbsp;500}@}               | {@{2&nbsp;000}@}               | {@{3&nbsp;500}@}               |
+> | {@{Total Manufacturing Overhead Cost}@} | {@{&dollar;&emsp;3&nbsp;500}@} | {@{&dollar;&emsp;4&nbsp;200}@} | {@{&dollar;&emsp;7&nbsp;700}@} |
 
 - total manufacturing overhead
   - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost
