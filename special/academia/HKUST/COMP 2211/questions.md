@@ -648,7 +648,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> Q6. Match the following distance metrics with their applicable data: L1 distance can be used for \_\_\_, L2 distance can be used for \_\_\_, and hamming distance can be used for \_\_\_.
+> Q6. Match the following distance metrics with their applicable data: L1 distance can be used for \_\_\_, L2 distance can be used for \_\_\_, and Hamming distance can be used for \_\_\_.
 >
 > 1. continuous variable
 > 2. categorical variable
