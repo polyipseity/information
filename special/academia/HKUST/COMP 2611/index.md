@@ -428,6 +428,49 @@ The content is in teaching order.
     - [§ operands](MIPS.md#operands)
     - [§ logical](MIPS.md#logical)
 
+## week 5 lab
+
+- datetime: 2025-03-04T15:00:00+08:00/2025-03-04T15:50:00+08:00
+- topic: building registers
+- [processor register](../../../../general/processor%20register.md) ::@:: a quickly accessible location available to a computer's processor
+  - processor register / implementation
+    - processor register / implementation / 2-bit register ::@:: Have 2 D flip-flops. Connect the same clock signal to both of them. Split the 2-bit data inputs via a "splitter", and connect each to a D flip-flop. Combine their output as 2-bit data outputs via a "combiner".
+      - processor register / implementation / 2-bit register / write enabled ::@:: Add a muxer that selects between the current input and the current output. The 2 D flip-flops inputs are now provided by the muxer instead of the current input. Add a write enabled \(WE\) input that connects to the muxer to select the appropriate muxer input.
+- register file
+  - register file / implementation ::@:: The idea is that we have several registers, and a register file has an input to select which register to use. <p> Have several registers. Connect the same clock signal to all registers. Add an input that selects a register for both writing and reading. Add a decoder that uses the register selection to write-enable _exactly one_ of the registers. Add a muxer that uses the register selection to select the output of _exactly one_ of the registers.
+    - register file / implementation / extensions ::@:: We could separate the register selection for writing and reading. We could also add a write-enable input.
+
+## week 5 tutorial
+
+- datetime: 2025-03-04T18:00:00+08:00/2025-03-04T18:50:00+08:00
+- topic: base conversion, integer representation
+- positional notation
+  - positional notation / integral conversion
+    - positional notation / integral conversion / base 2, base 16
+- [hexadecimal](../../../../general/hexadecimal.md)
+  - hexadecimal / notations ::@:: In mathematics, a subscript is typically used to specify the base. For example, the decimal value 711 would be expressed in hexadecimal as 2C7<sub>16</sub>. \(A rarely seen notation is 2C7<sub>hex</sub>.\) In programming, several notations denote hexadecimal numbers, usually involving a prefix. The prefix `0x` is used in [C](c%20(programming%20language).md), which would denote this value as `0x2C7`. <p> In writing, we may express it as 2C7<sub>(16)</sub>, so that the base is distinguished from the number even with bad handwriting.
+- [signed number representations](../../../../general/signed%20number%20representations.md) ::@:: In mathematics, negative numbers in any base are represented by prefixing them with a minus sign ("−"). However, in RAM or CPU registers, numbers are represented only as sequences of bits, without extra symbols.
+  - [sign–magnitude](../../../../general/signed%20number%20representations.md#sign–magnitude) ::@:: The sign bit is 0 if positive, 1 if negative. The magnitude is represented by the remaining bits. <p> examples: IEEE 754 _significand_ field
+    - sign–magnitude / addition ::@:: If the signs are the same, add the magnitude. If the signs are different, subtract the larger magnitude from the smaller magnitude. The sign is the same as the number with the larger magnitude.
+    - sign–magnitude / disadvantages ::@:: Arithmetic is complex, so are the circuits to implement it.
+  - signed number representations / systems ::@:: sign–magnitude, offset binary, one's complement, two's complement, etc.
+- [one's complement](../../../../general/one's%20complement.md) ::@:: It of a binary number is the value obtained by inverting (flipping) all the bits in the binary representation of the number. The sign bit is 0 if the number is positive, 1 if negative.
+  - one's complement / naming ::@:: The name "ones' complement" refers to the fact that such an inverted value, if added to the original, would always produce an "all ones" number (the term "complement" refers to such pairs of mutually additive inverse numbers, here in respect to a non-0 base number).
+  - one's complement / addition ::@:: Adding two values is straightforward. Simply align the values on the least significant bit and add, propagating any carry to the bit one position left. If the carry extends past the end of the word it is said to have "wrapped around", a condition called an "_end-around carry_". This phenomenon does not occur in two's complement arithmetic.
+  - one's complement / subtraction ::@:: When this occurs, the bit must be added back in at the right-most bit. <p> Subtraction is similar, except that borrows, rather than carries, are propagated to the left. If the borrow extends past the end of the word it is said to have "wrapped around", a condition called an "_end-around borrow_". When this occurs, the bit must be subtracted from the right-most bit. This phenomenon does not occur in two's complement arithmetic. <p> An alternative is using the [method of complements](../../../../general/method%20of%20complements.md) to implement subtraction. For example, subtracting −5 from 15 is just adding 5 to 15.
+  - one's complement / advantages ::@:: Arithmetic is simpler \(slightly more complex than two's complement\), so are the circuits to implement it. Negation is always possible.
+  - one's complement / disadvantages ::@:: Zero is signed \(this may be an advantage in some scenarios\). Addition and subtraction requires carrying and borrowing respectively.
+- [two's complement](../../../../general/two's%20complement.md)
+  - two's complement / addition ::@:: Adding two's complement numbers requires no special processing even if the operands have opposite signs; the sign of the result is determined automatically. Simply align the values on the least significant bit and add, propagating any carry to the bit one position left. If the carry extends past the end of the word, discard it. <p> This actually reflects the [ring](../../../../general/ring%20(mathematics).md) structure on all integers [modulo](../../../../general/modular%20arithmetic.md) [2<sup>_N_</sup>](../../../../general/power%20of%20two.md): $\mathbb {Z} /2^{N}\mathbb {Z}$.
+  - two's complement / subtraction ::@:: Computers usually use the [method of complements](../../../../general/method%20of%20complements.md) to implement subtraction. For example, subtracting −5 from 15 is just adding 5 to 15.
+  - two's complement / advantages ::@:: Arithmetic is simpler \(even simpler than one's complement\), so are the circuits to implement it. Zero is unsigned \(this may be an disadvantage in some scenarios\).
+  - two's complement / disadvantages ::@:: Negation is not possible for the most negative number.
+- integer overflow
+  - integer overflow / integer underflow
+- [offset binary](../../../../general/offset%20binary.md) ::@:: \(untaught\) It is a method for [signed number representation](signed%20number%20representation.md) where a signed number _n_ is represented by the bit pattern corresponding to the unsigned number _n_+_K_, _K_ being the _biasing value_ or _offset_. <p> examples: IEEE 754 _exponent_ field \(_K_ = 2<sup>_n_<!-- markdown separator -->−1</sup> − 1\)
+  - offset binary / value of _K_ ::@:: There is no standard for offset binary, but most often the _K_ for an _n_-bit binary word is _K_ = 2<sup>_n_<!-- markdown separator -->−1</sup> \(for example, the offset for a four-digit binary number would be 2<sup>3</sup>=8\). This has the consequence that the minimal negative value is represented by all-zeros, the "zero" value is represented by a 1 in the most significant bit and zero in all other bits, and the [maximal positive value](../../../../general/integer%20overflow.md) is represented by all-ones \(conveniently, this is the same as using [two's complement](../../../../general/two's%20complement.md) but with the most significant bit inverted\). <p> For IEEE 754, unusually however, instead of using "excess 2<sup>_n_<!-- markdown separator -->−1</sup>" it uses "excess 2<sup>_n_<!-- markdown separator -->−1</sup> − 1" which means that inverting the leading (high-order) bit of the exponent will not convert the exponent to correct two's complement notation.
+  - offset binary / advantages ::@:: In a logical comparison operation, one gets the same result as with a true form numerical comparison operation, whereas, in two's complement notation a logical comparison will agree with true form numerical comparison operation if and only if the numbers being compared have the same sign. Otherwise the sense of the comparison will be inverted, with all negative values being taken as being larger than all positive values.
+
 ## week 5 lecture 2
 
 - datetime: 2025-03-07T09:00:00+08:00/2025-03-07T10:20:00+08:00
