@@ -10,7 +10,7 @@ aliases:
   - HKUST FINA2303 thinking aloud paired problem solving - week 4 lecture
 tags:
   - date/2025/02/26
-  - flashcard/active/special/academia/HKUST/FINA_2303/assignments/TAPPS/week_3_lecture
+  - flashcard/active/special/academia/HKUST/FINA_2303/assignments/TAPPS/week_4_lecture
   - language/in/English
 ---
 

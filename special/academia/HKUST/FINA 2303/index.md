@@ -317,12 +317,10 @@ The content is in teaching order.
 - internal rate of return
   - internal rate of return / decision rule
     - internal rate of return / decision rule / advantages ::@:: For conventional cash flows, it is consistent with NPV (given duration/life, scale, and timing are _similar_), and thus maximizing shareholder value.
-    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects. Can be misleading for loan/delayed investment and projects with unconventional cash flows. There may be _multiple IRRs_ (roots in the NPV profile) for unconventional cash flows.
+    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects \(at least not by directly comparing IRRs\). Can be misleading for loan/delayed investment and projects with unconventional cash flows. There may be _multiple IRRs_ (roots in the NPV profile) for unconventional cash flows.
 - [discounted payback period](../../../../general/discounted%20payback%20period.md) ::@:: \(untaught\) It is the amount of time that it takes (in years) for the initial cost of a project to equal to the _discounted_ value of expected cash flows, or the time it takes to break even from an investment. It is the period in which the cumulative net present value of a project equals zero. <p> It _does discount_ the cash flows.
 - mutually exclusive project
   - mutually exclusive project / scale difference ::@:: NPV measures _total impact on value_ and is scale-dependent. IRR measures _average return_ and is scale-independent. When you scale up a project while keeping everything else the same, NPV scales up proportionally while IRR remains the same. As NPV is consistent with maximizing wealth (as a direct application of the valuation principle), we should use NPV for projects of different scales.
-    - mutually exclusive project / scale difference / using IRR ::@:: What if you want to use IRR for projects of different scales anyway? Use incremental cash flows (larger project cash flows minus smaller project cash flows, including the starting cash flow) instead and compute its internal rate of return. \(The steps and _precautions_ are mentioned below.\)
-    - mutually exclusive project / scale difference / NPV profile ::@:: If the projects/investments are of the same scale, the NPV graph of the project with a higher IRR is always higher than that with a lower IRR and never intersects. However, if they are of different scales, then the two graphs can intersect each other. This intersection point is known as the _crossover_, its _x_ value is the cost of capital for which the NPVs of the two projects are equal, and its _y_ value is the corresponding NPV.
 - [questions § week 4 lecture 2](questions.md#week%204%20lecture%202)
 - [TAPPS/week 4 lecture 2](assignments/TAPPS/week%204%20lecture%202.md)
 - readings: chapter 8 \(skip 8.6\)
@@ -330,10 +328,98 @@ The content is in teaching order.
 ## week 5 lecture
 
 - datetime: 2025-03-05T16:30:00+08:00/2025-03-05T17:50:00+08:00
+- topic: investment decision rules
+- mutually exclusive project
+  - mutually exclusive project / scale difference
+    - mutually exclusive project / scale difference / using IRR ::@:: What if you want to use IRR for projects of different scales anyway? Use incremental cash flows (larger project cash flows minus smaller project cash flows, including the starting cash flow) instead and compute its internal rate of return. \(The steps and _precautions_ are mentioned below.\)
+    - mutually exclusive project / scale difference / NPV profile ::@:: If the projects/investments are of the same scale, the NPV graph of the project with a higher IRR is always higher than that with a lower IRR and never intersects. However, if they are of different scales, then the two graphs can intersect each other. This intersection point is known as the _crossover point_, its _x_ value is the cost of capital for which the NPVs of the two projects are equal, and its _y_ value is the corresponding NPV.
 - internal rate of return
-  - internal rate of return / incremental ::@:: Compute incremental cash flows \(_larger_ project cash flows minus _smaller_ project cash flows, including the starting cash flow\). Check if the cash flows is a normal investment, as opposed to a loan/delayed investment or unconventional cash flows. (If not, see below.) <p> Compute its internal rate of return. If it is higher than or equal to the cost of capital, accept the _larger_ project. Otherwise reject.
+  - internal rate of return / incremental ::@:: Compute incremental cash flows \(_larger_ project cash flows minus _smaller_ project cash flows, including the starting cash flow\). Check if the cash flows is a normal investment, as opposed to a loan/delayed investment or unconventional cash flows. (If not, see below.) <p> Compute its internal rate of return. This is known as the _crossover point_. If it is higher than or equal to the cost of capital, accept the _larger_ project. Otherwise reject.
     - internal rate of return / incremental / intuition ::@:: Intuitively, the incremental cash flows give the difference if we choose the larger project and giving up the smaller project. Now our decision becomes between accepting the difference and rejecting it. This decision can be considered a standalone project (and it is a normal investment since increment cash outflows are before incremental cash inflows). This difference is worth it if its NPV is nonnegative. So we can use IRR again.
     - internal rate of return / increment / caution ::@:: If you find the cash flow is a loan/delayed investment, you have probably done _smaller_ project cash flow minus _larger_ cash flow. The IRR calculated will be the same, but your decision rule is reversed, i.e. reject the _smaller_ project (accept the _larger_ project) if IRR is higher than or equal to the cost of capital. Otherwise reject <p> If you find the cash flow is unconventional, you should not use the IRR decision rule. Use another one as appropriate, e.g. equivalent annual annuity (EAA/EAC), net present value (NPV), etc.
+- mutually exclusive project
+  - mutually exclusive project / timing difference ::@:: Timing of cash flows affects both NPV and IRR, and in different ways. IRR is more sensitive to timing. It is possible to alter the ranking of projects based on IRR without altering that based on NPV. <p> Thus using IRR is _not_ consistent with using NPV with different timing. In this case, we should always rely on NPV, since it is a direct application of the valuation principle. <p> On a NPV profile, with different timing, it is possible for _crossover points_ to appear even if the two projects have the same scale.
+- internal rate of return
+  - internal rate of return / decision rule
+    - internal rate of return / decision rule / advantages
+    - internal rate of return / decision rule / disadvantages
+- mutually exclusive project
+  - mutually exclusive project / duration difference \(different lives\) ::@:: If two investments last for different durations \(e.g. a service\), computing NPV ignores their useful durations. But this is easily fixed by doing an extra thing: calculating the _equivalent annual annuity_ \(EAA\) that last for the duration of the respective investment. \(Directly dividing the NPV by the duration ignores the _time value of money_.\)
+- [equivalent annual cost](../../../../general/equivalent%20annual%20cost.md) \(EAC\) ::@:: It is the cost per year of owning and operating an asset over its entire lifespan.
+  - equivalent annual cost / calculation ::@:: It is calculated by dividing the negative [NPV](../../../../general/net%20present%20value.md) of a project by the "present value of [annuity](../../../../general/annuity%20(finance%20theory).md) factor": $$\mathrm {EAC} =-{\frac {\mathrm {NPV} }{A_{t,r} } }$$, where $${A_{t,r} }={\frac {1-{\frac {1}{(1+r)^{t} } } }{r} }$$ where _r_ is the annual interest rate and _t_ is the number of years. <p> Alternatively, EAC can be obtained by multiplying the NPV of the project by the "loan repayment factor".
+  - equivalent annual cost / equivalent annual annuity \(EAA\) ::@:: This different naming \(used by the course and the book\) is to reflect that this can be used for more than costs. <p> Note that in this case, the resulting sign is inverted, since we are considering an "annuity" instead of "cost" now.
+  - equivalent annual cost / additional considerations ::@:: Consider all available options and possible scenarios beyond replacement cost and required life, e.g. flexibility, risk, etc.
+- [questions § week 5 lecture](questions.md#week%204%20lecture)
+- [TAPPS/week 5 lecture](assignments/TAPPS/week%205%20lecture.md)
+- readings: chapter 2 \(skip 2.5, 2.6, 2.7\)
+
+## week 5 tutorial
+
+- datetime: 2025-03-07T10:30:00+08:00/2025-03-07T11:20:00+08:00
+- status: hybrid \(online, physical\), optional
+
+## week 5 lecture 2
+
+- datetime: 2025-03-07T16:30:00+08:00/2025-03-07T17:50:00+08:00
+- topic: measuring cash flows
+- [financial accounting § three components of financial statements](../../../../general/financial%20accounting.md#three%20components%20of%20financial%20statements) (four) ::@:: income statement, balance sheet, statement of stakeholder's equity, statement of cash flows; usual preparation order: income statement → statement of stakeholder's equity (retained earnings) → balance sheet (→ statement of cash flows)
+  - [financial accounting § statement of financial performance](../../../../general/financial%20accounting.md#statement%20of%20financial%20performance) ::@:: Indicates financial performance (profit and loss) for the reporting period, usually 12 months.
+  - [financial accounting § statement of financial position](../../../../general/financial%20accounting.md#statement%20of%20financial%20position) ::@:: Shows financial position ("net" asset value or balance sheet value) as of the reporting date. The statement may be produced yearly, quarterly, during the interim of a fiscal year, at month end, etc.
+  - [financial accounting § statement of retained earnings](../../../../general/financial%20accounting.md#statement%20of%20retained%20earnings) ::@:: Keeps track of issued capital (_dividends_) and _retained earnings_. (Positive) net income (profit minus loss, including taxes and excluding bonus shares and dividends) increases retained earnings, while dividends paid decreases it.
+  - [financial accounting § statement of cash flows](../../../../general/financial%20accounting.md#statement%20of%20cash%20flows) ::@:: Shows the movement of cash and cash equivalent under _operating_, _investing_, and _financing_ (this categorization may be tested in the examinations) activities of a reporting entity for the reporting period, usually 12 months.
+- [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::@:: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios
+  - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
+  - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::@:: ratios that show the relationship between two financial variables
+- [accounting equation](../../../../general/accounting%20equation.md) ::@:: $$\text{assets (A)} = \text{liabilities (L)} + \text{stockholders' equity (SE)}$$
+- [fixed asset](../../../../general/fixed%20asset.md) ::@:: It is is a term used in accounting for assets and property that may not easily be converted into cash. It may be tangible or intangible, but usually only tangible ones are referred as such; intangible ones are directly referred by a more specific name. <p> IAS 16.6 defines it as _tangible items_ that (a) are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes and (b) are expected to be used during more than one period.
+  - tangible asset ::@:: They are assets that have a physical substance. Examples include land (_not_ depreciable), assets subject to _depreciation_, natural resources subject to _depletion_, etc.
+  - [intangible asset](../../../../general/intangible%20asset.md) ::@:: It is an asset that lacks physical substance. Definite-life examples include copyrights, franchises, patents, rights-of-use, etc. Indefinite-life examples include goodwill, trademarks, etc.
+  - fixed assets / acquisition ::@:: They may be acquired using cash, debt, non-cash methods (e.g. common stock, additional paid-in capital), or a combination of the above.
+- [balance sheet](../../../../general/balance%20sheet.md)
+  - [ACCT 2010/balance sheet](../ACCT%202010/balance%20sheet.md)
+  - [balance sheet](../../../../general/balance%20sheet.md) / elements ::@:: titles, name of the financial statement, reporting period or point in time, currency and basis of monetary unit, assets (in decreasing/increasing liquidity), liabilities (in decreasing/increasing maturity)
+  - balance sheet / GAAP vs. IFRS ::@:: The former lists current assets before non-current assets \(decreasing liquidity\). The latter lists non-current assets before current assets \(increasing liquidity\). Both shows current liabilities before non-current liabilities \(decreasing maturity\).
+- [historical cost](../../../../general/historical%20cost.md) ::@:: It is the value of the costs incurred in acquiring or creating the asset, comprising the consideration paid to acquire or create the asset plus transaction costs.
+  - historical cost / balance sheet ::@:: Balance sheet records amounts measured at historical values and historical exchange rates.
+- [depreciation](../../../../general/depreciation.md) ::@:: As fixed assets are used to earn revenue, they become "used". According to the matching principle, an expense should be recorded. <p> To do so, expense "Depreciated account" is debited while contra-asset "Accumulated depreciation" is credited.
+  - [net book value](../../../../general/book%20value.md) ::@:: $$\text{cost of fixed asset} - \text{corresponding accumulated depreciation}$$
+- [goodwill](../../../../general/goodwill%20(accounting).md) ::@:: It is an intangible asset recognized when a firm is purchased as a going concern. It reflects the premium that the buyer pays in addition to the net value of its other assets. It is often understood to represent the firm's intrinsic ability to acquire and retain customer business, where that ability is not otherwise attributable to brand name recognition, contractual arrangements or other specific factors. It is classified as an intangible asset on the balance sheet, since it can neither be seen nor touched.
+  - goodwill / creation ::@:: It is recognized only through an acquisition; it cannot be self-created.
+- [working capital](../../../../general/working%20capital.md) ::@:: $$\text{current assets (CA)} - \text{current liabilities (CL)}$$
+  - working capital / interpretation ::@:: It affects a company's long-term _investment effectiveness_, _financial strength_ to cover short-term liabilities, and represents what a company currently has to finance its _immediate operational needs_, e.g., to pay vendors, acquire inventories etc. <p> Changes in working capital accounts are important to managers & analysts because they have a direct impact on cash flows from _operating activities_. <p> Too much of it may tie up resources in unproductive assets.
+- [book value](../../../../general/book%20value.md) ::@:: It is the value of an asset according to its [balance sheet](../../../../general/balance%20sheet.md) account balance. For assets, the value is based on the original cost of the asset less any [depreciation](../../../../general/depreciation.md), [amortization](../../../../general/amortization%20(accounting).md) or [impairment costs](../../../../general/impairment%20cost.md) made against the asset.
+  - book value / problems ::@:: They are based on historical cost. Not all assets and liabilities are included. Assets and liabilities may be understated or overstated. Examples include brand value, contingent liabilities, goodwill, patents, etc. <p> Market value provides an alternative way to value a company without the above problems.
+- [market value](../../../../general/market%20value.md) ::@:: It is the price at which an asset would trade in a competitive auction setting.
+- [equity](../../../../general/equity%20(finance).md) ::@:: It is an ownership interest in property that may be offset by debts or other liabilities.
+  - equity / book value ::@:: book value of assets − book value of liabilities; thus it can be negative
+  - equity / market value ::@:: see: [market capitalization](../../../../general/market%20capitalization.md)
+- [market capitalization](../../../../general/market%20capitalization.md) ::@:: It is the total value of a publicly traded company's outstanding common shares owned by stockholders.
+  - market capitalization / formula ::@:: It equals to the market price per common share multiplied by the number of common shares outstanding. Thus it cannot be negative.
+- [enterprise value](../../../../general/enterprise%20value.md) \(EV\) ::@:: It is an economic measure reflecting the market value of a business (i.e. as distinct from market price). It is a sum of claims by all claimants: creditors (secured and unsecured) and shareholders (preferred and common).
+  - enterprise value / formula ::@:: enterprise value = <br/> common equity at market value (this line item is also known as "market cap") <br/> + debt at market value (here debt refers to interest-bearing liabilities, both long-term and short-term) <br/> + preferred equity at market value <br/> + unfunded pension liabilities and other debt-deemed provisions <br/> – value of associate companies <br/> – cash and cash equivalents
+    - enterprise value / formula / simplified ::@:: enterprise value = common equity at market value + debt at market value – cash and cash equivalents <p> If debt at market value is unavailable, debt at book value may be used instead, though it is less accurate.
+  - enterprise value / interpretation ::@:: It is the net cost to take over the business: cost to buy all equity and pay off its debts and receive its cash.
+- [income statement](../../../../general/income%20statement.md)
+  - [ACCT 2010/income statement](../ACCT%202010/income%20statement.md)
+  - [net income](../../../../general/net%20income.md)
+  - income statement / major numbers ::@:: gross profit, operating expenses, operating income, earnings before interest and taxes \(EBIT\), profit before taxation, net income
+- [earnings per share](../../../../general/earnings%20per%20share.md) \(EPS\) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$
+  - earnings per share / diluted ::@:: It is a company's earnings per share calculated using fully diluted shares outstanding (i.e. including the impact of stock option grants and convertible bonds). Diluted EPS indicates a "worst case" scenario, one that reflects the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share.
+- [retained earnings](../../../../general/retained%20earnings.md) ::@:: It of a corporation is the accumulated net income of the corporation that is retained by the corporation at a particular point in time, such as at the end of the reporting period.
+  - retained earnings / change ::@:: At the end of that period, the net income (or net loss) at that point \(minus _dividends_\) is transferred from the Profit and Loss Account to the retained earnings account.
+- [income statement](../../../../general/income%20statement.md) ::@:: It is one of the financial statements of a company and shows the company's revenues and expenses during a particular period.
+  - [ACCT 2010/income statement](../ACCT%202010/income%20statement.md)
+- [net income](../../../../general/net%20income.md) ::@:: It is an entity's income minus cost of goods sold, expenses, depreciation and amortization, interest, and taxes, and other expenses for an accounting period. \(Dividends are not expenses.\)
+  - net income / problems ::@:: It typically does not equal the earned cash and cash equivalents. A firm may be profitable by net income but short of cash and cash equivalents, which is important because it is needed to maintain operations, pay bills, and pay dividends \(return for investors\).
+    - net income / problems / sources ::@:: Net income is based on accrual accounting. It also includes non-cash items, e.g. credit sales, depreciation & amortization, etc. Conversion of cash into non-cash is not accounted for, e.g. investment in PPE.
+  - net income / conversion to cash ::@:: Identify cash and non-cash items. <p> cash: cash sales, cost of goods sold \(in finance\), selling expense, taxes, etc. <br> non-cash: amortization, credit sales, depreciation, etc.
+- [cash basis accounting](../../../../general/cash%20method%20of%20accounting) ::@:: Receiving cash or cash equivalents is revenue. Paying cash or cash equivalents is expense. There are no concepts of accruals, deferrals, etc. <p> Usually not used because it presents a distorted and misleading picture. Not relevant for external decision makers. _Not permissible_ under GAAP.
+- [accrual accounting](../../../../general/basis%20of%20accounting.md#accrual%20basis) ::@:: Performing the work for others to earn (earning) is revenue. Having others perform the work (incurring) is expense. When the cash or cash equivalent is received or paid is irrelevant. <p> It is relevant to external decision makers. _Required_ under GAAP.
+- [revenue recognition](../../../../general/revenue%20recognition.md) ::@:: It states that revenues are earned and recognized when they are realized or realizable, no matter when cash is received. <p> Note that it does not say anything about expenses. This requires the _matching principle_.
+- [matching principle](../../../../general/matching%20principle.md) ::@:: It dictates that an expense should be reported in the same period as the corresponding revenue is earned. <p> Note that it works together with the revenue recognition principle to form the basis of accrual accounting.
+- [questions § week 5 lecture 2](questions.md#week%205%20lecture%202)
+- [TAPPS/week 5 lecture 2](assignments/TAPPS/week%205%20lecture%202.md)
+- readings: chapter 2 \(skip 2.5, 2.6, 2.7\)
 
 ## assignments
 

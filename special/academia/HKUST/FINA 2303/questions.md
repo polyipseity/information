@@ -388,3 +388,146 @@ tags:
 > 2. no
 >
 > - solution: {@{1}@}
+
+## week 5 lecture
+
+> Q1.
+>
+> |                    | Project A    | Project B     |
+> | ------------------ |:------------:|:-------------:|
+> | Initial Investment | \$1&nbsp;000 | \$10&nbsp;000 |
+> | NPV                | \$600        | \$1&nbsp;900  |
+> | IRR                | 50%          | 20%           |
+> | Cost of Capital    | 12%          | 12%           |
+>
+> If projects A and B are mutually exclusive, which project should you choose and why?
+>
+> 1. project A
+> 2. project B
+> 3. both
+> 4. neither
+>
+> - solution: {@{2}@}
+> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2.
+>
+> | Year | Project A    | Project B    |
+> |:----:|:------------:|:------------:|
+> | 0    | –50&nbsp;000 | –28&nbsp;000 |
+> | 1    | 26&nbsp;000  | 15&nbsp;000  |
+> | 2    | 26&nbsp;000  | 15&nbsp;000  |
+> | 3    | 26&nbsp;000  | 15&nbsp;000  |
+>
+> Projects A and B are mutually exclusive. Your cost of capital is 15%. Compute the crossover point \(incremental IRR\) in order to rank the projects.
+>
+> Given the crossover point \(which is  using incremental IRR\), which project should you choose?
+>
+> 1. project A
+> 2. project B
+> 3. both
+> 4. neither
+>
+> - solution: {@{1}@}
+> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Your firm is choosing between two models for its network server, with the costs shown below. How will you choose between these two models?
+>
+> | Model | 0    | 1   | 2   | 3  | 4  | 5  |
+> |:-----:|:----:|:---:|:---:|:--:|:--:|:--:|
+> | A     | –300 | –5  | –5  | –5 | –5 | –5 |
+> | B     | –100 | –30 | –30 |    |    |    |
+>
+> 1. compute NPV and use NPV rule
+> 2. compute IRR and use IRR rule
+> 3. compute crossover point \(or incremental IRR\) and use IRR rule
+> 4. compute equivalent annual annuity \(EAA\)
+>
+> - solution: {@{4}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Your firm is choosing between two models for its network server, with the costs shown below. At a cost of capital of 10%, which model should your firm choose?
+>
+> | Model | 0    | 1   | 2   | 3  | 4  | 5  |
+> |:-----:|:----:|:---:|:---:|:--:|:--:|:--:|
+> | A     | –300 | –5  | –5  | –5 | –5 | –5 |
+> | B     | –100 | –30 | –30 |    |    |    |
+>
+> 1. Model A
+> 2. Model B
+> 3. both
+> 4. neither
+>
+> - solution: {@{1}@}
+> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@}
+
+## week 5 lecture 2
+
+> Q1. Two firms have their balance sheet data below:
+>
+> | <u>Firm A</u>       | \$ billion |
+> | ------------------- | ----------:|
+> | Current assets      | 4          |
+> | Fixed assets        | 10         |
+> | Current liabilities | 3          |
+> | Long term debt      | 7          |
+> | Equity              | 4          |
+>
+> | <u>Firm B</u>       | \$ billion |
+> | ------------------- | ----------:|
+> | Current assets      | 3          |
+> | Fixed assets        | 6          |
+> | Current liabilities | 3          |
+> | Long term debt      | 4          |
+> | Equity              | 2          |
+>
+> Which firm appears to be more insolvent (less liquid)?
+>
+> 1. Firm A
+> 2. Firm B
+>
+> - solution: {@{2}@}
+> - explanation: {@{Its net working capital \(NWC\) is smaller.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Can the market value of equity be negative?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Can the book value of equity be negative?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Profits on income statement represents the cash earned by the firm during the period.
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. What are your expected correct question number out of 7 questions in Quiz 1?
+>
+> 1. 6–7
+> 2. 4–5
+> 3. 2–3
+> 4. below 2
+>
+> - solution: {@{1/2/3/4}@}
