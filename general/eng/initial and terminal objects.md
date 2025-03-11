@@ -60,7 +60,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 - {@{__Cat__, the [category of small categories](category%20of%20small%20categories.md) with [functors](functor.md) as morphisms}@} has {@{the empty category, __0__ \(with no objects and no morphisms\), as initial object}@} and {@{the terminal category, __1__ \(with a single object with a single identity morphism\), as terminal object}@}.
 - In {@{the category of [schemes](scheme%20(mathematics).md)}@}, {@{Spec\(__Z__\), the [prime spectrum](spectrum%20of%20a%20ring.md) of the ring of integers}@}, is {@{a terminal object}@}. {@{The empty scheme \(equal to the prime spectrum of the [zero ring](zero%20ring.md)\)}@} is {@{an initial object}@}.
 - {@{A [limit](limit%20(category%20theory).md) of a [diagram](diagram%20(category%20theory).md) _F_}@} may be {@{characterised as a terminal object in the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Likewise, {@{a colimit of _F_}@} may be characterised as {@{an initial object in the category of co-cones from _F_}@}.
-- In the category __Ch<sub>_R_</sub>__ of chain complexes over a commutative ring _R_, ::@:: the zero complex is a zero object. <!--SR:!2025-03-11,40,290!2025-07-02,124,297-->
+- In the category __Ch<sub>_R_</sub>__ of chain complexes over a commutative ring _R_, ::@:: the zero complex is a zero object. <!--SR:!2025-07-04,115,290!2025-07-02,124,297-->
 - In a [short exact sequence](exact%20sequence.md) of the form 0 → _a_ → _b_ → _c_ → 0, ::@:: the initial and terminal objects are the anonymous zero object. This is used frequently in [cohomology theories](cohomology.md). <!--SR:!2025-04-21,78,339!2025-04-20,77,337-->
 
 ## properties

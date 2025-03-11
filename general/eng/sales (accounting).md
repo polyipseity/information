@@ -29,7 +29,7 @@ Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[
 
 A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[double-entry bookkeeping](double-entry%20bookkeeping.md)}@}, {@{a sale of [merchandise](merchandise.md)}@} is recorded {@{in the [general journal](general%20journal.md) as a [debit](debits%20and%20credits.md) to cash or [accounts receivable](accounts%20receivable.md) and a [credit](debits%20and%20credits.md) to the sales account}@}.<sup>[\[3\]](#^ref-3)</sup> The amount recorded is {@{the actual monetary value of the transaction, not the [list price](list%20price.md) of the merchandise}@}. {@{A [discount](discounts%20and%20allowances.md) from list price}@} {@{might be noted if it applies to the sale}@}. <!--SR:!2025-03-14,46,290!2025-03-27,56,310!2025-03-29,58,310!2025-04-04,63,310!2025-04-08,66,310!2025-03-26,55,310!2025-08-12,155,310-->
 
-{@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-03-26,55,310!2025-03-26,55,310!2025-04-06,64,310!2025-03-11,40,290-->
+{@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-03-26,55,310!2025-03-26,55,310!2025-04-06,64,310!2025-08-17,159,310-->
 
 ## gross sales and net sales
 

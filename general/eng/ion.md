@@ -435,7 +435,7 @@ return chain.from_iterable(await gather(
 - hydride ion:@:1- <!--SR:!2027-09-22,1543,319-->
 - fluoride ion:@:1- <!--SR:!2025-04-20,869,292-->
 - chloride ion:@:1- <!--SR:!2028-03-14,1789,374-->
-- bromide ion:@:1- <!--SR:!2025-03-11,823,293-->
+- bromide ion:@:1- <!--SR:!2031-10-17,2411,293-->
 - iodide ion:@:1- <!--SR:!2027-03-29,1317,279-->
 - hydroxide ion:@:1- <!--SR:!2026-10-01,1257,313-->
 - nitrate ion:@:1- <!--SR:!2027-07-01,1176,270-->

@@ -17,7 +17,7 @@ Financial accountancy is governed by {@{both local and international accounting 
 
 On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2025-09-05,276,330!2025-07-07,229,330!2025-10-11,305,330!2025-07-25,244,330-->
 
-While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2025-03-11,133,290!2025-07-11,232,330-->
+While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2026-09-02,540,310!2025-07-11,232,330-->
 
 ## principles
 

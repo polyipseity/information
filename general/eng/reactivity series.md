@@ -137,13 +137,13 @@ return _chain.from_iterable(await _gather(
 - [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!2025-07-05,177,210!2025-04-13,179,250-->
 - [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-04-28,49,190-->
 - [magnesium](magnesium.md)→::@::←[beryllium](beryllium.md) <!--SR:!2025-03-31,132,270!2027-04-07,988,290-->
-- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-03-11,6,150-->
+- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-03-21,10,150-->
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2025-04-25,129,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2025-04-10,266,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-03-15,226,210!2025-05-06,383,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2025-04-19,242,190-->
-- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-11,6,130-->
+- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-14,3,130-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2025-03-23,166,190!2025-04-28,54,130-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2025-04-20,82,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2025-03-23,89,170-->
