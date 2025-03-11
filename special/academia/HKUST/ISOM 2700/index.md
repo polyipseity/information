@@ -411,7 +411,7 @@ The content is in teaching order.
     - continuous variable / examples ::@:: length, speed, temperature, weight, width
 - x̅ and R chart
   - x̅ and R chart / data ::@:: Take a series of samples over _time_. Each sample is taken on a small group (fixed size _n_) of products.
-  - x̅ and R chart / method ::@:: For each sample, compute mean $\overline x$ and range $R$. Then across all samples, compute mean of mean $\overline {\overline x}$ and mean of range $\overline R$. Compute _control_ \(not _specification_\) limits using $A_2$ from $n$.
+  - x̅ and R chart / method ::@:: For each sample, compute mean $\overline x$ and range $R$. Then across all samples, compute mean of mean $\overline {\overline x}$ and mean of range $\overline R$. Compute _control_ \(not _specification_\) limits by multiplying the mean of range $\overline R$ by $A_2$ that is obtained given $n$.
   - x̅ and R chart / center line ::@:: $${\bar {\bar {x} } }={\frac {\sum _{i=1}^{m}\sum _{j=1}^{n}x_{ij} }{mn} }$$
   - x̅ and R chart / control limits ::@:: $${\bar {\bar {x} } }\pm A_{2}{\bar {R} }$$
   - x̅ and R chart / plotted statistic ::@:: $${\bar {x} }_{i}={\frac {\sum _{j=1}^{n}x_{j} }{n} }$$
