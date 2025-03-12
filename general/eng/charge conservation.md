@@ -21,7 +21,7 @@ Although conservation of charge requires that {@{the total quantity of charge in
 
 ## history
 
-{@{Charge conservation}@} was first proposed by {@{British scientist [William Watson](William%20Watson%20(scientist).md) in 1746}@} and {@{American statesman and scientist [Benjamin Franklin](Benjamin%20Franklin.md) in 1747}@}, although {@{the first convincing proof}@} was given by {@{[Michael Faraday](Michael%20Faraday.md) in 1843}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-05-03,68,314!2025-05-03,68,314!2025-03-12,26,274!2025-05-02,67,314!2025-03-23,32,274-->
+{@{Charge conservation}@} was first proposed by {@{British scientist [William Watson](William%20Watson%20(scientist).md) in 1746}@} and {@{American statesman and scientist [Benjamin Franklin](Benjamin%20Franklin.md) in 1747}@}, although {@{the first convincing proof}@} was given by {@{[Michael Faraday](Michael%20Faraday.md) in 1843}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-05-03,68,314!2025-05-03,68,314!2025-06-21,101,294!2025-05-02,67,314!2025-03-23,32,274-->
 
 > it is now {@{discovered and demonstrated}@}, both {@{here and in Europe}@}, that {@{the Electrical Fire is a real Element, or Species of Matter}@}, {@{not _created_ by the Friction, but _collected_ only}@}.
 >

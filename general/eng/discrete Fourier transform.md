@@ -28,7 +28,7 @@ The _discrete Fourier transform_ {@{transforms a [sequence](sequence.md) of _N_ 
 
 The transform is sometimes denoted by {@{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}@}. <!--SR:!2025-07-29,274,330-->
 
-__Eq.1__ can be {@{interpreted or derived in various ways}@}, for example: <!--SR:!2025-03-12,162,310-->
+__Eq.1__ can be {@{interpreted or derived in various ways}@}, for example: <!--SR:!2027-02-05,695,330-->
 
 - discrete Fourier transform & discrete-time Fourier transform ::@:: It completely describes the [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) (DTFT) of an $N$-periodic sequence, which comprises only discrete frequency components. ([Using the DTFT with periodic data](discrete-time%20Fourier%20transform.md#periodic%20data)) <!--SR:!2025-12-10,330,290!2025-03-17,160,310-->
 - discrete Fourier transform & sampling ::@:: It can also provide uniformly spaced samples of the continuous DTFT of a finite length sequence. The sampling interval is the reciprocal of the duration of the input sequence. ([§ sampling the DTFT](discrete-time%20Fourier%20transform.md#sampling%20the%20DTFT)) <!--SR:!2025-10-17,289,290!2026-12-17,653,330-->

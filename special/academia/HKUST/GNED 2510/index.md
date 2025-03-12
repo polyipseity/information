@@ -163,7 +163,7 @@ The content is in teaching order.
 - topic: Interview (II): Group Discussion Skills
 - activity: leadership exercise
 - leadership
-  - leadership tips ::@:: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2025-03-28,126,270!2025-03-11,129,290-->
+  - leadership tips ::@:: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2025-03-28,126,270!2026-08-12,518,310-->
   - teamwork tips ::@:: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2025-05-18,148,250!2025-10-12,252,270-->
 - structured group discussion
 - presentation

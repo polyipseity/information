@@ -62,7 +62,7 @@ The content is in teaching order.
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2025-05-02,67,310!2025-05-02,67,310-->
     - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2025-04-13,48,290!2025-04-13,48,290-->
     - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2025-04-13,48,290!2025-05-02,67,310-->
-    - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2025-04-13,48,290!2025-03-11,25,270-->
+    - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2025-04-13,48,290!2025-05-21,70,270-->
   - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2025-05-02,67,310!2025-05-02,67,310-->
   - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2025-04-13,48,290!2025-03-21,30,270-->
 - organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2025-05-02,67,310!2025-05-02,67,310-->

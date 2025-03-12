@@ -399,7 +399,7 @@ Water Cube
 
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
+- _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2028-09-25,1293,387-->
 - Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
@@ -538,7 +538,7 @@ wood
 
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
+- _(begin)_→::@::←brick <!--SR:!2028-04-23,1138,377!2026-12-30,786,332-->
 - brick→::@::←concrete <!--SR:!2027-04-26,782,325!2026-02-28,548,397-->
 - concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2026-06-11,551,341-->
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
@@ -778,7 +778,7 @@ levee
 - canal→::@::←channel <!--SR:!2027-03-28,851,377!2027-02-26,811,372-->
 - channel→::@::←dam <!--SR:!2025-12-15,420,327!2027-01-07,696,290-->
 - dam→::@::←levee <!--SR:!2027-02-21,795,360!2026-02-22,475,332-->
-- levee→::@::←_(end)_ <!--SR:!2025-11-22,467,395!2025-03-11,136,238-->
+- levee→::@::←_(end)_ <!--SR:!2025-11-22,467,395!2026-06-11,456,258-->
 
 <!--/pytextgen-->
 
@@ -1055,7 +1055,7 @@ Hong Kong Code
 - American Code→::@::←Australian Standard <!--SR:!2027-07-26,941,375!2025-12-14,487,395-->
 - Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2028-04-01,1140,377-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
-- Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2026-07-19,600,357-->
+- Eurocode→::@::←Hong Kong Code <!--SR:!2028-11-05,1334,396!2026-07-19,600,357-->
 - Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2027-08-29,919,350-->
 
 <!--/pytextgen-->

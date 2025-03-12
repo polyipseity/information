@@ -19,7 +19,7 @@ At the anode, {@{[zinc](zinc.md) is oxidized by [chloride](chloride.md) [anions]
 
 For [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md):
 
-- cathode for [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md) ::@:: 2NH<sub>4</sub>Cl(aq) + 2e<sup>-</sup> → 2NH<sub>3</sub>(aq) + H<sub>2</sub>(g) + 2Cl<sup>-</sup>(aq) <br/> 2MnO<sub>2</sub>(s) + H<sub>2</sub>(g) → Mn<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l) <!--SR:!2026-03-23,718,290!2025-03-12,233,272-->
+- cathode for [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md) ::@:: 2NH<sub>4</sub>Cl(aq) + 2e<sup>-</sup> → 2NH<sub>3</sub>(aq) + H<sub>2</sub>(g) + 2Cl<sup>-</sup>(aq) <br/> 2MnO<sub>2</sub>(s) + H<sub>2</sub>(g) → Mn<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l) <!--SR:!2026-03-23,718,290!2026-12-06,634,272-->
 - overall for [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md) ::@:: Zn(s) + 2NH<sub>4</sub>Cl(aq) + 2MnO<sub>2</sub>(s) → ZnCl<sub>2</sub>(aq) + 2NH<sub>3</sub>(aq) + Mn<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l) <!--SR:!2027-07-29,873,290!2026-09-25,588,272-->
 
 For [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md):

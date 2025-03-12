@@ -70,7 +70,7 @@ In particular, this notation is powerful because {@{the gradient product rule lo
 
 The divergence is roughly {@{a measure of a vector field's increase in the direction it points}@}; but more accurately, it is {@{a measure of that field's tendency to converge toward or diverge from a point}@}. <!--SR:!2025-05-17,67,310!2025-05-03,55,310-->
 
-{@{The power of the del notation}@} is shown by {@{the following product rule}@}: {@{$$\nabla \cdot (f\mathbf {v} )=(\nabla f)\cdot \mathbf {v} +f(\nabla \cdot \mathbf {v} )$$}@} {@{The formula for the [vector product](vector%20product.md) is slightly less intuitive}@}, because {@{this product is not commutative}@}: {@{$$\nabla \cdot (\mathbf {u} \times \mathbf {v} )=(\nabla \times \mathbf {u} )\cdot \mathbf {v} -\mathbf {u} \cdot (\nabla \times \mathbf {v} )$$}@} <!--SR:!2025-05-05,57,310!2025-05-06,58,310!2025-04-21,42,290!2025-04-11,37,290!2025-04-19,44,290!2025-03-12,13,230-->
+{@{The power of the del notation}@} is shown by {@{the following product rule}@}: {@{$$\nabla \cdot (f\mathbf {v} )=(\nabla f)\cdot \mathbf {v} +f(\nabla \cdot \mathbf {v} )$$}@} {@{The formula for the [vector product](vector%20product.md) is slightly less intuitive}@}, because {@{this product is not commutative}@}: {@{$$\nabla \cdot (\mathbf {u} \times \mathbf {v} )=(\nabla \times \mathbf {u} )\cdot \mathbf {v} -\mathbf {u} \cdot (\nabla \times \mathbf {v} )$$}@} <!--SR:!2025-05-05,57,310!2025-05-06,58,310!2025-04-21,42,290!2025-04-11,37,290!2025-04-19,44,290!2025-03-19,7,210-->
 
 ### curl
 
@@ -122,7 +122,7 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-03-18,14,250!2025-03-28,24,250-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2025-03-20,19,250!2025-05-16,66,310-->
 > - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-04-06,31,270!2025-03-24,20,250-->
-> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-03-12,13,230!2025-03-25,21,250-->
+> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-03-19,7,210!2025-03-25,21,250-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2025-05-05,57,310!2025-03-26,25,270-->
 
 ## second derivatives

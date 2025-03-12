@@ -21,7 +21,7 @@ There exists {@{an inconsistency in different descriptions as to the definition 
 
 > {@{![tree rotation](../../archives/Wikimedia%20Commons/Tree%20rotation.png)}@}
 >
-> {@{tree rotation}@} <!--SR:!2025-08-28,186,310!2025-03-12,61,310-->
+> {@{tree rotation}@} <!--SR:!2025-08-28,186,310!2025-12-05,268,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -61,7 +61,7 @@ Root = Pivot
 
 This is a {@{constant time}@} operation. <!--SR:!2025-10-22,231,330-->
 
-The programmer must {@{also make sure that the root's parent points to the pivot after the rotation}@}. Also, the programmer should note that {@{this operation may result in a new root for the entire tree and take care to update pointers accordingly}@}. <!--SR:!2025-11-27,261,330!2025-03-12,61,310-->
+The programmer must {@{also make sure that the root's parent points to the pivot after the rotation}@}. Also, the programmer should note that {@{this operation may result in a new root for the entire tree and take care to update pointers accordingly}@}. <!--SR:!2025-11-27,261,330!2025-11-30,263,330-->
 
 ## inorder invariance
 
@@ -89,7 +89,7 @@ def right_rotation(treenode):
 >     {@{<!-- <span class="n"> --><span style="">left</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">treenode</span>}@}
 >     {@{<!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">B</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">left</span>}@}
 >     {@{<!-- <span class="k"> --><span style="color: #008000; font-weight: bold;">return</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">B</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span><!-- <span class="p"> --><span style="">))</span>}@}
-> </pre> <!--SR:!2025-10-22,232,330!2025-03-12,61,310!2025-03-13,62,310!2025-11-08,246,330!2025-03-16,63,310-->
+> </pre> <!--SR:!2025-10-22,232,330!2025-12-02,265,330!2025-03-13,62,310!2025-11-08,246,330!2025-03-16,63,310-->
 
 Another way of looking at it is:
 
@@ -124,7 +124,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 >
 > {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2025-07-05,130,290!2025-04-20,84,270-->
 
-A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-08-30,189,310!2025-03-15,63,310!2025-03-12,61,310!2025-03-17,65,310!2025-11-15,252,330!2025-03-17,65,310!2025-03-17,64,310-->
+A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-08-30,189,310!2025-03-15,63,310!2025-12-03,266,330!2025-03-17,65,310!2025-11-15,252,330!2025-03-17,65,310!2025-03-17,64,310-->
 
 ## rotation distance
 
@@ -136,7 +136,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 >
 > [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-11-18,255,330-->
 
-{@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-07-31,166,310!2025-09-03,192,310!2025-03-18,66,310!2025-03-12,61,310-->
+{@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-07-31,166,310!2025-09-03,192,310!2025-03-18,66,310!2025-12-01,264,330-->
 
 It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-20,230,330!2025-08-26,185,310!2025-03-22,62,270-->
 

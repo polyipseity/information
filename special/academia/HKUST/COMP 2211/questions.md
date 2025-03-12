@@ -139,7 +139,7 @@ tags:
 > Q3. What does `print(len(r"\n Desmond is a good guy na!\n"))` output?
 >
 > - solution: {@{`30`}@}
-> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-11-14,253,330!2025-03-12,63,310-->
+> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-11-14,253,330!2025-12-11,274,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -194,7 +194,7 @@ tags:
 
 > Q8. Return the maximum value within a NumPy array `a`.
 >
-> - solution: {@{`numpy.max(a)`, `a.max()`}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{`numpy.max(a)`, `a.max()`}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -224,7 +224,7 @@ tags:
 > 3. `M + C`, where `C` is an array of shape (5, 3)
 > 4. `M + D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{4}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{4}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -323,7 +323,7 @@ tags:
 > 3. It is a package
 > 4. It is a library
 >
-> - solution: {@{2}@} <!--SR:!2025-03-12,63,310-->
+> - solution: {@{2}@} <!--SR:!2025-12-13,276,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -360,7 +360,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: the last question might help.
 >
-> - solution: {@{`students[numpy.argsort(marks)[-len(students) // 4:]]`}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{`students[numpy.argsort(marks)[-len(students) // 4:]]`}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -893,7 +893,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2, 4}@}
-> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-03-11,62,310!2025-11-14,252,330-->
+> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-12-09,272,330!2025-11-14,252,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-10-19,228,330!2025-03-11,62,310-->
+> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-10-19,228,330!2025-12-09,272,330-->
 
 ## multilayer perceptron
 
@@ -916,7 +916,7 @@ tags:
 > 3. MLP is a feed-forward neural network designed to work exactly as human brains learn.
 > 4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.
 >
-> - solution: {@{4}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{4}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1072,7 +1072,7 @@ tags:
 > 4. (199, 99)
 >
 > - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-11-03,243,330!2025-03-12,63,310-->
+> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-11-03,243,330!2025-12-13,276,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1178,7 +1178,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline \times & \times & \times & \times & 9 & 9 & 9 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \end{array}$$}@} <!--SR:!2025-03-12,63,310-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline \times & \times & \times & \times & 9 & 9 & 9 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \end{array}$$}@} <!--SR:!2025-12-12,275,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1233,7 +1233,7 @@ tags:
 > 3. The total number of parameters depends on the stride.
 > 4. The total number of parameters depends on the padding.
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-03-12,63,310-->
+> - solution: {@{1, 2}@} <!--SR:!2025-09-26,198,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1244,7 +1244,7 @@ tags:
 > 3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything.
 > 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.
 >
-> - solution: {@{3, 4}@} <!--SR:!2025-03-12,63,310-->
+> - solution: {@{3, 4}@} <!--SR:!2025-12-12,275,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1261,7 +1261,7 @@ tags:
 >
 > Explain which method is better and why?
 >
-> - solution: {@{Actually they are the same thing. The mathematical operations are the same.}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{Actually they are the same thing. The mathematical operations are the same.}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1321,7 +1321,7 @@ tags:
 > 3. Dijkstra's
 > 4. Bellman-Ford
 >
-> - solution: {@{2}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{2}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1377,7 +1377,7 @@ tags:
 > 3. Non-maleficence
 > 4. Benevolence
 >
-> - solution: {@{4}@} <!--SR:!2025-03-12,63,310-->
+> - solution: {@{4}@} <!--SR:!2025-12-10,273,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1395,7 +1395,7 @@ tags:
 
 > Q6. (medium) State __one__ advantage and __one__ disadvantage of using AI systems for resume screening.
 >
-> - solution: {@{(for reference) Advantages are it increases productivity and is cheaper for companies. <p> Disadvantages are it may be biased based on gender or biased against minorities. There is also a lack of transparency (on why a person is hired or not hired).}@} <!--SR:!2025-03-12,63,310-->
+> - solution: {@{(for reference) Advantages are it increases productivity and is cheaper for companies. <p> Disadvantages are it may be biased based on gender or biased against minorities. There is also a lack of transparency (on why a person is hired or not hired).}@} <!--SR:!2025-12-12,275,330-->
 
 ## introduction to reinforcement learning
 
@@ -1488,7 +1488,7 @@ tags:
 >
 > Using the definition of a Markov chain, justify or refute the student's claim.
 >
-> - solution: {@{No. <p> Simply consider a Markov chain with 1 state that always transit back to itself. Or consider that one can run a Markov chain infinitely many times, but a Markov chain (usually) has finitely many states, so by the pigeonhole principle, at least one state must repeat itself.}@} <!--SR:!2025-03-11,62,310-->
+> - solution: {@{No. <p> Simply consider a Markov chain with 1 state that always transit back to itself. Or consider that one can run a Markov chain infinitely many times, but a Markov chain (usually) has finitely many states, so by the pigeonhole principle, at least one state must repeat itself.}@} <!--SR:!2025-12-09,272,330-->
 
 <!-- markdownlint MD028 -->
 

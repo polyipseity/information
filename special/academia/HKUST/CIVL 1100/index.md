@@ -56,7 +56,7 @@ The content is in teaching order.
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2025-04-10,245,330!2026-03-27,479,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
-  - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2025-06-22,308,341-->
+  - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2027-11-12,975,341!2025-06-22,308,341-->
     - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2025-05-12,277,350-->
     - "weak" object examples ::@:: mattress <!--SR:!2025-06-21,308,350!2025-04-18,239,321-->
   - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2027-11-22,992,350-->

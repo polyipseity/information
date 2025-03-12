@@ -88,7 +88,7 @@ The content is in teaching order.
     - statistics / definition (data) / examples ::@:: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2025-12-21,353,310!2025-06-24,228,330-->
   - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2025-07-16,246,330!2025-06-22,218,310-->
     - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2025-03-26,136,290-->
-  - statistics / definition (inference) ::@:: the art and science of answering questions and exploring ideas through the processes of gathering data, describing data, and _making inferences_ about a population on the basis of a smaller sample <!--SR:!2025-11-10,293,290!2025-03-12,131,290-->
+  - statistics / definition (inference) ::@:: the art and science of answering questions and exploring ideas through the processes of gathering data, describing data, and _making inferences_ about a population on the basis of a smaller sample <!--SR:!2025-11-10,293,290!2026-08-23,529,310-->
   - statistics / branches ::@:: descriptive statistics, inferential statistics <!--SR:!2025-04-18,174,310!2025-05-08,186,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2025-04-21,162,310!2025-07-08,239,330-->
   - descriptive statistics / methodologies ::@:: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2025-04-11,166,310!2025-05-18,193,310-->
@@ -472,9 +472,9 @@ The content is in teaching order.
     - high: 50
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
-    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2026-07-09,491,404!2025-03-12,99,384-->
+    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2026-07-09,491,404!2026-08-14,520,404-->
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
-    - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
+    - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2026-08-10,516,404!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
   - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2025-06-01,131,407!2025-06-11,140,407-->
 - check

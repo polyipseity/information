@@ -443,7 +443,7 @@ return chain.from_iterable(await gather(
 - hydrogencarbonate ion:@:1- <!--SR:!2028-08-20,1752,310-->
 - hydrogensulfite ion:@:1- <!--SR:!2033-12-18,3288,339-->
 - hydrogensulfate ion:@:1- <!--SR:!2025-08-28,863,284-->
-- permanganate ion:@:1- <!--SR:!2025-03-12,226,250-->
+- permanganate ion:@:1- <!--SR:!2026-09-23,560,250-->
 - oxide ion:@:2- <!--SR:!2026-10-22,1271,310-->
 - sulfide ion:@:2- <!--SR:!2028-04-19,1267,250-->
 - sulfate ion:@:2- <!--SR:!2028-06-08,1688,310-->

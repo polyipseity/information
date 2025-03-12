@@ -26,7 +26,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-In __management accounting__ or __managerial accounting__, managers {@{use [accounting](accounting.md) information in decision-making and to assist in the [management](management.md) and performance of their control functions}@}. <!--SR:!2025-03-12,135,310-->
+In __management accounting__ or __managerial accounting__, managers {@{use [accounting](accounting.md) information in decision-making and to assist in the [management](management.md) and performance of their control functions}@}. <!--SR:!2026-05-06,420,310-->
 
 ## definition
 
@@ -60,7 +60,7 @@ Management accountants are seen as {@{the "value-creators" amongst the accountan
 
 Management accounting information differs from [financial accountancy](financial%20accounting.md) information in several ways:
 
-- audiences ::@:: while shareholders, creditors, and public regulators use publicly reported financial accountancy, information, only managers within the organization use the normally confidential management accounting information; <!--SR:!2025-03-12,133,290!2025-09-01,272,330-->
+- audiences ::@:: while shareholders, creditors, and public regulators use publicly reported financial accountancy, information, only managers within the organization use the normally confidential management accounting information; <!--SR:!2026-09-04,541,310!2025-09-01,272,330-->
 - principles ::@:: while financial accountancy information is historical, management accounting information is primarily forward-looking<sup>[\[9\]](#^ref-9)</sup>; <!--SR:!2026-08-23,533,310!2025-08-12,259,330-->
 - basis ::@:: while financial accountancy information is case-based, management accounting information is model-based with a degree of abstraction in order to support generic decision making; <!--SR:!2025-06-13,208,310!2026-01-31,362,290-->
 - format ::@:: while financial accountancy information is computed by reference to general financial accounting standards, management accounting information is computed by reference to the needs of managers, often using [management information systems](management%20information%20system.md). <!--SR:!2025-12-13,312,290!2025-03-25,147,310-->

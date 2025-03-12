@@ -69,7 +69,7 @@ In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [St
 
 ### recurrence relations
 
-The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=(n+k)L(n,k)+L(n,k-1)\\&=k(k+1)L(n,k+1)+2kL(n,k)+L(n,k-1)\end{aligned} }$$}@} (annotation: The above can be derived combinatorically by {@{using the method of distinguished element}@}.) where {@{$L(n,0)=\delta _{n}$, the [Kronecker delta](kronecker%20delta.md), and $L(n,k)=0$ for all $k>n$}@}. <!--SR:!2025-03-12,91,270!2025-11-29,307,330!2025-12-04,311,330-->
+The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=(n+k)L(n,k)+L(n,k-1)\\&=k(k+1)L(n,k+1)+2kL(n,k)+L(n,k-1)\end{aligned} }$$}@} (annotation: The above can be derived combinatorically by {@{using the method of distinguished element}@}.) where {@{$L(n,0)=\delta _{n}$, the [Kronecker delta](kronecker%20delta.md), and $L(n,k)=0$ for all $k>n$}@}. <!--SR:!2025-11-19,252,270!2025-11-29,307,330!2025-12-04,311,330-->
 
 ### exponential generating function
 

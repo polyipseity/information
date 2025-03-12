@@ -235,7 +235,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 Water Pollution: A serious problem in Hong Kong?
 
-- wastewater ::@:: drinking water after use <!--SR:!2025-03-16,231,330!2025-03-11,209,310-->
+- wastewater ::@:: drinking water after use <!--SR:!2025-03-16,231,330!2027-08-26,897,330-->
 
 ## page 17
 
@@ -308,7 +308,7 @@ Noise Levels and Causes
 
 Properties of Sound Waves
 
-- sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2025-03-11,207,310!2025-05-27,286,330-->
+- sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2027-08-20,891,330!2025-05-27,286,330-->
   - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2025-11-29,369,290!2025-05-22,281,330-->
 
 ## page 26
@@ -329,7 +329,7 @@ Air Quality Health Index
 
 - Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2025-06-10,298,330-->
   - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2025-05-03,264,330-->
-  - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
+  - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2028-01-04,1028,350-->
   - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2025-03-13,228,330-->
 
 ## page 28

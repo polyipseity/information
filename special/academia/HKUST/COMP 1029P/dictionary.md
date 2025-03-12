@@ -32,4 +32,4 @@ To add a value for a key not yet in the dictionary or update the value for a key
 
 ## iteration
 
-You can iterate through the keys of a dictionary by {@{`for key in dictionary:` or `for key in dictionary.keys():`}@}. For values, do {@{`for value in dictionary.values():`}@}. For both, do {@{`for key, value in dictionary.items():`}@}. <!--SR:!2025-03-11,313,330!2028-10-08,1330,350!2028-01-23,1124,350-->
+You can iterate through the keys of a dictionary by {@{`for key in dictionary:` or `for key in dictionary.keys():`}@}. For values, do {@{`for value in dictionary.values():`}@}. For both, do {@{`for key, value in dictionary.items():`}@}. <!--SR:!2029-02-03,1424,350!2028-10-08,1330,350!2028-01-23,1124,350-->
