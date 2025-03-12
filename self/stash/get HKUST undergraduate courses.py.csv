@@ -17,8 +17,6 @@ ACCT 4710	Accounting Analytics for Professional Accountants	3
 ACCT 4720	Equity Investment with Machine Learning	3
 ACCT 4980	Independent Study	1-4
 AISC 2500	Special Topics (I)	1-4
-AISC 2910	Undergraduate Teaching Opportunities	3
-AISC 2920	Undergraduate Practice Opportunities	3
 AISC 3500	Special Topics (II)	1-4
 AISC 4500	Special Topics (III)	1-4
 AISC 4950	Interdisciplinary Special Project	0-4
@@ -151,7 +149,7 @@ CHEM 4691	Capstone Research I	3
 CHEM 4692	Capstone Research II	3
 CIVL 1010	Academic and Professional Development I	0
 CIVL 1100	Discovering Civil and Environmental Engineering	3
-CIVL 1140	Environmental Quality Control and Improvement	3
+CIVL 1140	Environment and Society: Sustainable Development Goals and Carbon Neutrality	3
 CIVL 1160	Civil Engineering and Modern Society	3
 CIVL 1180	Monitoring Changing Climate from Space	3
 CIVL 1190	Climate Change, Big History and Sustainability	3
@@ -186,6 +184,7 @@ CIVL 4310	Energy System Modeling for Buildings and Cities	3
 CIVL 4320	Structural Steel Design	3
 CIVL 4330	Introduction to Structural Dynamics	3
 CIVL 4340	Prestressed Concrete Design	3
+CIVL 4360	Implementing Artificial Intelligence in Smart Buildings	3
 CIVL 4370	Computer Methods of Structural Analysis	3
 CIVL 4380	Introduction to Wind Effects on Buildings and Structures	3
 CIVL 4430	Environmental Impact Assessment	3
@@ -344,38 +343,36 @@ ELEC 1095	Special Topics	1-4
 ELEC 1100	Introduction to Electro-Robot Design	4
 ELEC 1200	A System View of Communications: from Signals to Packets	4
 ELEC 2100	Signals and Systems	4
-ELEC 2100H	Honors Signals and Systems	4
 ELEC 2350	Introduction to Computer Organization and Design	4
 ELEC 2400	Electronic Circuits	4
 ELEC 2420	Basic Electronics	3
 ELEC 2600	Probability and Random Processes in Engineering	4
-ELEC 2600H	Honors Probability and Random Processes in Engineering	4
 ELEC 2910	Academic and Professional Development I	0
 ELEC 2991	Industrial Experience (Electronic Engineering)	0
 ELEC 3100	Signal Processing and Communications	4
 ELEC 3120	Computer Communication Networks	3
+ELEC 3130	Digital Image Processing	3
 ELEC 3180	Data-Driven Portfolio Optimization	3
 ELEC 3200	System Modeling, Analysis and Control	4
 ELEC 3210	Introduction to Mobile Robotics	3
 ELEC 3300	Introduction to Embedded Systems	4
 ELEC 3310	Digital Fundamentals and System Design	4
+ELEC 3350	Principles of Machine Learning	3
 ELEC 3400	Introduction to Integrated Circuits and Systems	4
-ELEC 3450	Introduction to Smart Electric Power Systems	3
+ELEC 3410	CMOS VLSI Design	3
 ELEC 3500	Integrated Circuit Devices	4
 ELEC 3600	Electromagnetics: From Wireless to Photonic Applications	4
 ELEC 3810	Data Science for Neural Engineering	3
 ELEC 3910	Academic and Professional Development II	0
 ELEC 4010	Special Topics	1-4
 ELEC 4110	Digital Communications and Wireless Systems	3
-ELEC 4130	Machine Learning on Images	3
-ELEC 4150	Information Theory and Error-Correcting Codes	3
 ELEC 4210	Control System Design	3
-ELEC 4220	Introduction to Robotics: From Mobile Robots to Manipulators	4
-ELEC 4230	Deep Learning for Natural Language Processing	3
+ELEC 4220	Robotics: Modeling, Control and Planning	3
 ELEC 4240	Deep Learning in Computer Vision	3
+ELEC 4260	Intelligent Robots and Embodied AI	3
 ELEC 4310	Embedded System Design	4
 ELEC 4320	FPGA-based Design: From Theory to Practice	3
-ELEC 4410	CMOS VLSI Design	3
+ELEC 4350	AI Processor Architecture	3
 ELEC 4420	Analogue Integrated Circuits Design and Analysis	4
 ELEC 4430	Integrated Power Electronics	3
 ELEC 4510	Semiconductor Materials and Devices	3
@@ -389,13 +386,13 @@ ELEC 4830	Statistical Signal Analysis and Applications in Neural Engineering	3
 ELEC 4840	Artificial Intelligence for Medical Image Analysis	3
 ELEC 4900	Final Year Design Project	6
 ELEC 4901	Final Year Thesis	6
-ELEC 4907	Final Year Project	9
 ELEC 4910	Co-op Program	6
 ELEC 4940	Independent Study	1-3
 EMIA 2010	Cross-disciplinary Seminar	0
 EMIA 2020	Cross-disciplinary Design Thinking	3
 EMIA 2200	Introduction to Digital Media	3
 EMIA 2210	Sci-Fi Storytelling	3
+EMIA 2220	Technical Theater Arts	3
 EMIA 2500	Special Topics (I)	1-4
 EMIA 3500	Special Topics (II)	1-4
 EMIA 4110	Practical Machine Learning	3
@@ -433,10 +430,10 @@ ENGG 4901	Integrated Final Year Project - First Major	3
 ENGG 4902	Integrated Final Year Project - Second Major	3
 ENGG 4903	Integrated Final Year Thesis - First Major	3
 ENGG 4904	Integrated Final Year Thesis - Second Major	3
-ENGG 4930	Design for Global Health	3
 ENGG 4950	Engineering Special Project	1-4
 ENTR 1001	Entrepreneurship 1001: Designing Your Future	3
 ENTR 2010	Entrepreneurship Mentorship and Readings	1
+ENTR 3013	Prototyping Skills for Entrepreneurs	3
 ENTR 3030	Social Innovations and Entrepreneurship	3
 ENTR 3100	Industrial Landscape: Understanding the Elements to Start a Business	3
 ENTR 3350	Global Product Development	3
@@ -461,7 +458,7 @@ ENVR 2050	Sustainability Thinking	3
 ENVR 2060	From Trash to Treasure: Managing Waste to Resources	3
 ENVR 2070	Smart Buildings for a Warming Planet	3
 ENVR 2080	Circular Economy and Life Cycle Assessment	3
-ENVR 2090	Environmental Laboratory	2
+ENVR 2090	Environmental Laboratory	3
 ENVR 2811	Environmental Management and Technology Study Trip II	1
 ENVR 2900	Internship/Service Learning	1
 ENVR 3001	Academic and Professional Development II	1
@@ -497,6 +494,7 @@ FINA 2203	Fundamentals of Business Finance	3
 FINA 2303	Financial Management	3
 FINA 3001	Key Skills for Finance Professionals (A)	1
 FINA 3103	Intermediate Investments	3
+FINA 3111	Finance Professional Development	1
 FINA 3203	Derivative Securities	3
 FINA 3303	Intermediate Corporate Finance	3
 FINA 3810	Bloomberg Market Concepts Certification	0
@@ -557,11 +555,12 @@ HUMA 1001	Foundational Texts in the Humanities	3
 HUMA 1009	Special Topics	3
 HUMA 1010	Introduction to Language	3
 HUMA 1020	Chinese Writing and Culture	3
-HUMA 1030	Structure of Chinese	3
+HUMA 1030	Structure of the Chinese Language	3
 HUMA 1060	Introduction to Mandarin Chinese Grammar	3
 HUMA 1100	Music of the World	3
 HUMA 1102	Enjoyment of Classical Music	3
 HUMA 1107	Music and Film	3
+HUMA 1108	Expressive Sounds	3
 HUMA 1150	Exploration of Drawing	3
 HUMA 1154	Photography	3
 HUMA 1155	Video Art	3
@@ -583,6 +582,7 @@ HUMA 1671	Cantonese Opera in Hong Kong Culture	3
 HUMA 1672	Studio Arts Workshops: Cantonese Opera	1
 HUMA 1673	Art and Digital Culture	3
 HUMA 1674	China in Historical Maps	3
+HUMA 1675	Global History of Explorations	3
 HUMA 1710	The Art of Thinking in the Hong Kong Context	3
 HUMA 1720	Logic	3
 HUMA 1810	Introduction to Chinese Philosophy	3
@@ -603,7 +603,7 @@ HUMA 2105	Music, Drama, and Theatre	3
 HUMA 2107	Introduction to Electronic Music Composition	3
 HUMA 2108	Music of China	3
 HUMA 2109	East Asian Popular Music	3
-HUMA 2202	The Modern Japanese Novel	3
+HUMA 2202	The Japanese Novel	3
 HUMA 2203	Japanese Cinema	3
 HUMA 2240	Reading Chinese Literature: Dreams of the Red Chamber	3
 HUMA 2250	Modern Chinese Fiction (1917-1949)	3
@@ -612,7 +612,7 @@ HUMA 2300	Traditional Chinese Poetry: Early Chinese Poetry	3
 HUMA 2310	Traditional Chinese Fiction	3
 HUMA 2320	Chinese Drama	3
 HUMA 2330	Anime	3
-HUMA 2331	Media Theories of Japanese Animation	3
+HUMA 2331	Japanese Animation: Technology, Gender, and History	3
 HUMA 2340	Between Old and New: Chinese Stories and Their Reinventions	3
 HUMA 2400	Approaches to Humanities in China Studies	3
 HUMA 2420	Late Imperial China	3
@@ -627,6 +627,7 @@ HUMA 2597	Environmental History	3
 HUMA 2621	Culture and Environment	3
 HUMA 2623	Cultural Sustainability in South China	3
 HUMA 2632	Chinese Culture and Society in Anthropological Perspectives	3
+HUMA 2634	Global History: New Anthropological Perspectives	3
 HUMA 2635	Cultural Diversity in China	3
 HUMA 2638	Peoples and Cultures in Southeast Asia	3
 HUMA 2640	Unofficial China: Social History 1800s-1930s	3
@@ -634,6 +635,8 @@ HUMA 2660	Introduction to Chinese Painting	3
 HUMA 2661	Chinese Oil Painting	3
 HUMA 2670	Understanding Western Painting	3
 HUMA 2680	Understanding Western Architecture	3
+HUMA 2831	Metaphysics: Study of Reality and Existence	3
+HUMA 2832	Philosophy of Mind	3
 HUMA 2840	Buddhism and the Chinese Intellectual Tradition	3
 HUMA 2911	Buddhism: Origin and Growth	3
 HUMA 2921	Ethical Theories and Contemporary Issues	3
@@ -733,18 +736,20 @@ ISDN 1004	Sketching	1
 ISDN 1006	Human-centered Innovation	3
 ISDN 1010	Academic and Professional Development I	0
 ISDN 1011	Industrial Training	0
-ISDN 1100	Experiencing Design	3
+ISDN 1100	Experiencing Design	3
 ISDN 2000	What is Design and Why Design?	3
 ISDN 2001	Second Year Design Project I	1
 ISDN 2002	Second Year Design Project II	3
 ISDN 2010	Academic and Professional Development II	0
 ISDN 2200	Systems Thinking and Design	3
+ISDN 2210	Introduction to Brand Design	3
 ISDN 2300	Introduction to 3D Design	3
 ISDN 2400	Physical Prototyping	3
 ISDN 2500	Introduction to Systems Design Engineering	3
 ISDN 2601	Exploring the World through Smart Mechatronics	3
 ISDN 2602	Internet of Things: Integrative System Design	3
 ISDN 2603	Materials, Shape and Design	3
+ISDN 3000	Special Topics	1-3
 ISDN 3001	Third Year Design Project I	3
 ISDN 3002	Third Year Design Project II	3
 ISDN 3004	Advanced Sketching	2
@@ -780,6 +785,7 @@ ISOM 3180	Telecommunications and Computer Networking Management	3
 ISOM 3210	Information Systems Analysis and Design	3
 ISOM 3230	Business Programming in VBA	3
 ISOM 3260	Database Design and Administration	4
+ISOM 3270	Blockchain Programming in Business Applications	3
 ISOM 3310	e-Business Management and Web Analytics	3
 ISOM 3320	Business Applications Development in Java	3
 ISOM 3330	Data Visualization and Visual Analytics	1
@@ -801,7 +807,8 @@ ISOM 3900	Decision Analytics	3
 ISOM 4000	Special Topics in Information Systems	0-4
 ISOM 4010	Digital Business Strategy: Harnessing Platform, Crowd, and Machine	3
 ISOM 4020	Innovation Management and Technology Entrepreneurship	3
-ISOM 4030	Natural Language Processing in Business Using Deep Learning	3
+ISOM 4030	Deep Learning for Business Applications	3
+ISOM 4040	Digital Strategy and Transformation	3
 ISOM 4100	Information Systems Auditing	3
 ISOM 4200	Information and Cyber Security Management	3
 ISOM 4300	Information Systems Control and Assurance	3
@@ -855,9 +862,14 @@ LANG 2010	English for Science I	3
 LANG 2030	Technical Communication I	3
 LANG 2061	Professional Writing for the Workplace	3
 LANG 2062	Professional Speaking for the Workplace	3
+LANG 2063	Writing for Workplace Success	3
+LANG 2064	Speaking for Workplace Success	3
+LANG 2065	Research Writing	3
 LANG 2070	English Communication for Humanities and Social Science Studies I	3
 LANG 2082	Communication for Environmental Management and Technology I	2
 LANG 2083	Communication for Environmental Management and Technology II	2
+LANG 2090	Exploring Language and Communication with Big Data	3
+LANG 2091	Phonetics and Speech Technology	3
 LANG 2170	Chinese Communication Skills for Humanities & Social Science Studies	3
 LANG 3021	Science Communication in English (Mathematics)	3
 LANG 3022	Science Communication in English (Chemistry)	3
@@ -926,6 +938,7 @@ LIFS 4630	Advanced Topics in Biotechnology	3
 LIFS 4760	Biochemistry of Diseases	3
 LIFS 4800	Epigenetics and Chromosome Biology	3
 LIFS 4820	Entrepreneurship in Biotechnology	3
+LIFS 4882	Investigative Pharmacology	3
 LIFS 4884	Application of RNA Technology to Human Diseases	3
 LIFS 4888	Development and Registration of Pharmaceutical Products	3
 LIFS 4910	Independent Study	1-4
@@ -1049,6 +1062,7 @@ MECH 1902	Energy Systems in a Sustainable World	3
 MECH 1905	Buildings for Contemporary Living	3
 MECH 1906	Mechanical Engineering for Modern Life	3
 MECH 1907	Introduction to Aerospace Engineering	3
+MECH 1908	Exploration of Mechanical Design and Engineering	3
 MECH 1990	Industrial Training	0
 MECH 2020	Statics and Dynamics	3
 MECH 2040	Solid Mechanics I	3
@@ -1135,6 +1149,7 @@ OCES 3130	Marine Biology	3
 OCES 3160	Ecology	3
 OCES 3201	Biological Oceanography	3
 OCES 3203	Physical Oceanography	3
+OCES 3204	Essential Oceanography	3
 OCES 3301	Data Analysis in Ocean Science	3
 OCES 3302	Marine Pollution Tracking	3
 OCES 3330	Marine Biology Laboratory	3
@@ -1204,6 +1219,7 @@ PHYS 4811	Contemporary Applications of Physics: Machine Learning in Physics	1
 PHYS 4812	Contemporary Applications of Physics: Quantum Information Technology	1
 PHYS 4813	Contemporary Applications of Physics: Atmospheric Physics - Making Sense of Weather and Climate	1
 PHYS 4814	Contemporary Applications of Physics: Medical Physics	1
+PPOL 1110	Public Policy in Cases	3
 PPOL 2000	Special Topics in Public Policy	1-4
 PPOL 2110	Science, Technology and Society in China	3
 PPOL 3000	Special Topics in Public Policy	1-4
@@ -1219,7 +1235,6 @@ RMBI 3010	Data Analytics with R	2
 RMBI 3020	Practicing Risk Management using Case Studies	3
 RMBI 3110	Introduction to Risk Management and Business Intelligence	3
 RMBI 4000	Special Topics in Risk Management and Business Intelligence	1-4
-RMBI 4110	Financial Service Operations Management	3
 RMBI 4210	Quantitative Methods for Risk Management	3
 RMBI 4220	Life Contingencies Models and Insurance Risk	3
 RMBI 4310	Advanced Data Mining for Risk Management and Business Intelligence	3
@@ -1365,6 +1380,7 @@ SOSC 2320	Exploring Political Theory	3
 SOSC 2330	Environmental Politics and Policy	3
 SOSC 2400	Quantitative Data Analysis for Social Research II	3
 SOSC 2740	Gender and Society	3
+SOSC 2800	Cognitive Science	3
 SOSC 2888	Special Topics in Psychology	1-4
 SOSC 2980	Personality Psychology	3
 SOSC 2990	Developmental Psychology	3
@@ -1406,6 +1422,8 @@ SOSC 4600	Understanding Chinese Politics	3
 SUST 1000	Sustainability Fundamentals	3
 SUST 1001	Special Topics in Sustainability	1-4
 SUST 1010	Introduction to Sustainability	3
+SUST 1020	Climate Films and Sustainable Future	3
+SUST 1101	Environmental, Social, and Governance Fundamentals	3
 SUST 2001	Special Topics in Sustainability	1-4
 SUST 3001	Special Topics in Sustainability	1-4
 SUST 4001	Special Topics in Sustainability	1-4
@@ -1415,12 +1433,16 @@ TEMG 4000	Special Topics	0-4
 TEMG 4940	T&M Prototyping and Research Project	3-5
 TEMG 4950	T&M Corporate Consulting Project	3-5
 TEMG 4970	T&M IBPC Startup Project	1-5
+UCOP 3200	Design for Global Health	3
+UPOP 1920	Career Readiness Training Program	1
 UROP 1000	Undergraduate Research Opportunities	0
 UROP 1100	Undergraduate Research Opportunities Series 1	1
 UROP 2100	Undergraduate Research Opportunities Series 2	1
 UROP 3100	Undergraduate Research Opportunities Series 3	1
 UROP 3200	Undergraduate Research Opportunities with Mini-conference Experience	1
 UROP 4100	Undergraduate Research Opportunities Series 4	1
+UTOP 2910	Pathways to Teaching for Future Educators	3
+WBBA 2000	Special Topics in World Business	0-4
 WBBA 2010	Understanding Business in Asia	2
 WBBA 2020	Seminars in Asia's Business	1
 WBBA 2030	Effective Communication in Business	3

@@ -366,14 +366,14 @@ The content is in teaching order.
     - IEEE 754 / format / number ::@:: We have 3 types of numbers: signed finite numbers (including two signed zeros), two infinities, and two kinds of NaN (not-a-number): a quiet NaN (qNaN) and a signaling NaN (sNaN). <!--SR:!2025-04-04,23,371!2025-04-06,25,371-->
     - IEEE 754 / format / finite numbers ::@:: _s_ = a sign that is either 0 or 1, <br/> _c_ = a _significand_ that is an _integer_ from 0 to _b_<sup>_p_</sup>−1 (at most _p_ base-_b_ digits), and <br/> _q_ = an _exponent_ such that _emin_ ≤ _q_ + _p_ − 1 ≤ _emax_. <br/> The numerical value of such a finite number is \(−1\)<sup>_s_</sup> × _c_ × _b_<sup>_q_</sup>. <p> Equivalently, _q_ = an _exponent_ such that _emin_ ≤ _q_ ≤ _emax_. <br> The numerical value of such a finite number is \(−1\)<sup>_s_</sup> × \(_c_ × _b_<sup>1 − _p_</sup>\) × _b_<sup>_q_</sup>, where \(_c_ × _b_<sup>1 − _p_</sup>\) can be interpreted as _c_ but the decimal point is right after the first digit. This latter definition more closely matches the actual binary representation. We will __use this latter definition henceforth__. <!--SR:!2025-03-20,11,331!2025-03-22,13,351-->
     - IEEE 754 / format / sign bit ::@:: 0 is nonnegative, 1 is negative. This is obvious. <!--SR:!2025-04-04,23,371!2025-04-04,23,371-->
-    - IEEE 754 / format / significand bits ::@:: Given precision _p_ (number of digits), we could just simply have _p_ bits directly corresponding to the _p_ digits of _c_. However, we have a problem: 0 have many different representations, two (due to the sign bit) for each combination of exponent bits. <p> To avoid this, we use the _implicit bit convention_: the first digit of _c_ is always 1, and 0 is represented by the significand bits and exponent bits being all 0s. <!--SR:!2025-04-04,23,371!2025-03-20,11,331-->
+    - IEEE 754 / format / significand bits ::@:: Given precision _p_ (number of digits), we could just simply have _p_ bits directly corresponding to the _p_ digits of _c_. However, we have a problem: 0 have many different representations, two (due to the sign bit) for each combination of exponent bits. <p> To avoid this, we use the _implicit bit convention_: the first digit of _c_ is always 1, except when representing 0 \(and subnormal numbers\). 0 is represented by the significand bits and exponent bits being all 0s. <!--SR:!2025-04-04,23,371!2025-03-20,11,331-->
       - IEEE 754 / format / significand bits / implicit bit ::@:: This has two advantages: We now only have two representations for 0. And we can represent _p_ digits with only _p_ − 1 bits! The disadvantage is now we have _subnormal numbers_ (the other being named _normal numbers_) when the exponent bits are all 0s but not the significand bits, which has a precision less than _p_ depending on the value (and some other things mentioned below). <!--SR:!2025-04-04,23,371!2025-04-05,24,371-->
     - IEEE 754 / format / exponent bits ::@:: Usually we decide the exponent range from the number of bits instead of the other way around. Given _n_ exponent bits, we have 2<sup>_n_</sup> combinations. For _normal numbers_, the exponent bits are not all 0s (_subnormal numbers_) and not all 1s (_infinities_ and _NaNs_). So we only have 2<sup>_n_</sup> − 2 combinations left. <p> Then the range is \[−(2<sup>_n_ − 1</sup> − 2), 2<sup>_n_ − 1</sup> − 1\]. The exponent bits are _biased_. <!--SR:!2025-04-04,23,371!2025-04-05,24,371-->
       - IEEE 754 / format / exponent bits / bias ::@:: An actual exponent of 0 is represented by all bits 1 except for the MSB, which is 0. From this, we derive a _bias_, which is 2<sup>_n_ − 1</sup> − 1. <p> This can be interpreted as: interpreting the exponent bits as an _unsigned_ integer, _subtracting_ it by the _bias_ gives the actual exponent; or the exponent bits as an _unsigned_ integer stores the actual exponent _plus_ the _bias_. <p> Its advantage is that floating-point numbers of the _same sign_ can be compared directly as if they are unsigned integers (if the sign bit is 1, the ordering is reversed). <!--SR:!2025-04-04,23,371!2025-04-04,23,371-->
     - IEEE 754 / format / infinity ::@:: The signed infinities are represented by setting the exponent bits to all 1s and the significand bits to all 0s. <p> The sign bit determines if it is positive or negative. <!--SR:!2025-04-04,23,371!2025-04-05,24,371-->
     - IEEE 754 / format / NaN ::@:: NaNs are represented by setting the exponent bits to all 1s and the significand bits to _not_ all 0s. <p> The sign bit is ignored by most applications. <!--SR:!2025-04-04,23,371!2025-04-05,24,371-->
       - IEEE 754 / format / NaN / quiet, signaling ::@:: If the most significant significand bit is 0, it is _signaling_. If it is 1, it is _quiet_. The remaining bits (and rarely the sign bit) is a _payload_ that can store anything. For signaling NaNs, the payload cannot be all 0s or else it becomes an infinity. <p> The above convention (0 is signal, 1 is quiet) means one can silence a signaling NaN into a quiet NaN by simply setting the most significant significand bit to 1. The reverse convention _may_ convert a signaling NaN to an infinity instead if the payload is all 0s. <!--SR:!2025-04-06,25,371!2025-03-31,19,351-->
-  - IEEE 754 / conversion from a number ::@:: (for humans) Write the number in terms of _normalized_ scientific notation in base _b_ for the significand. Set the sign bit directly, the exponent bits (remember to add the bias), and the significant bits (discarding the leading implicit 1). Finally, check that the resulting format represents a finite (normal) number instead of special numbers (or subnormal numbers). Otherwise, the number to be represented is out of range. <!--SR:!2025-04-05,24,371!2025-03-31,19,351-->
+  - IEEE 754 / conversion from a number ::@:: (for humans) Write the number in terms of _normalized_ scientific notation in base _b_ for the significand. Set the sign bit directly, the exponent bits (remember to add the bias), and the significant bits (discarding the leading implicit 1). Finally, check that the resulting format represents a finite (normal) number instead of special numbers \(may include subnormal numbers depending on the context\). Otherwise, the number to be represented is out of range. <!--SR:!2025-04-05,24,371!2025-03-31,19,351-->
 - single-precision floating-point format
   - single-precision floating-point format / range \(zero, normal\) ::@:: in absolute value (i.e. discard sign): 0, \[1×2<sup>–126</sup> ≈ 1.2×10<sup>–38</sup>, (2−2<sup>−23</sup>)×2<sup>+127</sup> ≈ 3.4×10<sup>+38</sup>\] (figure out the representations yourself) <!--SR:!2025-04-05,24,371!2025-04-06,25,371-->
   - single-precision floating-point format / range \(subnormal\) ::@:: in absolute value (i.e. discard sign): \[2<sup>−23</sup>×2<sup>–126</sup> ≈ 1.4×10<sup>–45</sup>, (1−2<sup>−23</sup>)×2<sup>–126</sup> ≈ 1.2×10<sup>–38</sup>\] (figure out the representations yourself) <!--SR:!2025-03-20,11,331!2025-03-31,19,351-->
@@ -395,14 +395,94 @@ The content is in teaching order.
     - IEEE 754 / format / NaN
       - IEEE 754 / format / NaN / usage ::@:: It can be used in subsequent calculations, which avoids need for illegal checking illegal or undefined operations, e.g. dividing 0 by 0. <!--SR:!2025-04-05,24,371!2025-04-04,23,371-->
 - [ASCII](../../../../general/ASCII.md) ::@:: It is a character encoding standard for electronic communication, used by most computers today. <p> It is a 7-bit code, so there are 128 code points. Each unsigned integer maps to a character. But most of time we use an unsigned byte, which has 8 bits, to represent a character with the MSB set to 0. <!--SR:!2025-04-04,23,371!2025-04-06,25,371-->
-  - ASCII / acronym ::@:: American Standard Code for Information Interchange <!--SR:!2025-04-05,24,371!2025-04-06,25,371-->
+  - ASCII / full name ::@:: American Standard Code for Information Interchange <!--SR:!2025-04-05,24,371!2025-04-06,25,371-->
   - ASCII / patterns ::@:: Some notable patterns: <br/> Alphabets (A to Z, a to z) and numbers (0 to 9) are in order. <br/> groups: NUL (null) → control characters → punctuations → numbers → punctuations → big alphabets → punctuations → small alphabets → punctuations → DEL (a control character) <!--SR:!2025-03-19,10,331!2025-04-04,23,371-->
-  - ASCII / notes ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here. <!--SR:!2025-04-06,25,371!2025-04-05,24,371-->
+  - ASCII / note ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here. <!--SR:!2025-04-06,25,371!2025-04-05,24,371-->
 
 ## week 5 lecture
 
 - datetime: 2025-03-03T13:30:00+08:00/2025-03-03T14:50:00+08:00
 - topic: basic instructions, register, memory operand
+- instruction set architecture
+  - instruction set architecture / analogy as a language ::@:: Words are _instructions_. A vocabulary (set of all words\) is an _instruction set_. Programmers write in _assembly language_. After assembly by an _assembler_, it becomes _machine language_, which hardware can understand.
+  - instruction set architecture / specifications ::@:: addressing modes, exception handling, external I/O, native data types, instructions, interrupt handling, memory architecture, opcodes \(machine language\), registers
+  - instruction set architecture / vs. assembly language ::@:: The former is a public interface to processors implementing this ISA. The latter is simply a programming language. <p> Ideally, a ISA should have a corresponding language. In practice, there are variations. They are defined by the assembler.
+  - instruction set architecture / advantages
+    - instruction set architecture / advantages / compatibility ::@:: Hardware changes will \(usually\) not impact existing programs: no re-programming is required. Hardware improvement can be made as long as it conforms to the ISA.
+  - instruction set architecture / examples
+- [reduced instruction set computer](../../../../general/reduced%20instruction%20set%20computer.md) \(RISC\) ::@:: It is a computer architecture designed to simplify the individual instructions given to the computer to accomplish tasks.
+  - reduced instruction set computer / comparison ::@:: Compared to the instructions given to a complex instruction set computer (CISC), a RISC computer might require more instructions (more code) in order to accomplish a task because the individual instructions are written in simpler code.
+  - reduced instruction set computer / advantages ::@:: Easy to learn and understand. Have a large share of the embedded computers market. Less instructions.
+  - reduced instruction set computer / principles ::@:: good compromises, make common cases fast, simplicity favors regularity \(less cases\), smaller is faster
+- [MIPS architecture](../../../../general/MIPS%20architecture.md) ::@:: It is the RISC that we will learn here. <p> It was a research project conducted by John L. Hennessy at Stanford University between 1981 and 1984. Then it was commercialized and developed by MIPS Technologies.
+  - MIPS architecture / full name ::@:: Microprocessor without Interlocked Pipeline Stages
+  - MIPS architecture / reference ::@:: MIPS reference data green card
+  - [MIPS](MIPS.md)
+    - [§ principles](MIPS.md#principles)
+    - [§ arithmetic](MIPS.md#arithmetic)
+    - [§ instructions](MIPS.md#instructions)
+    - [§ registers](MIPS.md#registers)
+    - [§ main memory](MIPS.md#main%20memory)
+    - [§ data transfer](MIPS.md#data%20transfer)
+    - [§ endianness](MIPS.md#endianness)
+    - [§ operands](MIPS.md#operands)
+    - [§ logical](MIPS.md#logical)
+
+## week 5 lab
+
+- datetime: 2025-03-04T15:00:00+08:00/2025-03-04T15:50:00+08:00
+- topic: building registers
+- [processor register](../../../../general/processor%20register.md) ::@:: a quickly accessible location available to a computer's processor
+  - processor register / implementation
+    - processor register / implementation / 2-bit register ::@:: Have 2 D flip-flops. Connect the same clock signal to both of them. Split the 2-bit data inputs via a "splitter", and connect each to a D flip-flop. Combine their output as 2-bit data outputs via a "combiner".
+      - processor register / implementation / 2-bit register / write enabled ::@:: Add a muxer that selects between the current input and the current output. The 2 D flip-flops inputs are now provided by the muxer instead of the current input. Add a write enabled \(WE\) input that connects to the muxer to select the appropriate muxer input.
+- register file
+  - register file / implementation ::@:: The idea is that we have several registers, and a register file has an input to select which register to use. <p> Have several registers. Connect the same clock signal to all registers. Add an input that selects a register for both writing and reading. Add a decoder that uses the register selection to write-enable _exactly one_ of the registers. Add a muxer that uses the register selection to select the output of _exactly one_ of the registers.
+    - register file / implementation / extensions ::@:: We could separate the register selection for writing and reading. We could also add a write-enable input.
+
+## week 5 tutorial
+
+- datetime: 2025-03-04T18:00:00+08:00/2025-03-04T18:50:00+08:00
+- topic: base conversion, integer representation
+- positional notation
+  - positional notation / integral conversion
+    - positional notation / integral conversion / base 2, base 16
+- [hexadecimal](../../../../general/hexadecimal.md)
+  - hexadecimal / notations ::@:: In mathematics, a subscript is typically used to specify the base. For example, the decimal value 711 would be expressed in hexadecimal as 2C7<sub>16</sub>. \(A rarely seen notation is 2C7<sub>hex</sub>.\) In programming, several notations denote hexadecimal numbers, usually involving a prefix. The prefix `0x` is used in [C](c%20(programming%20language).md), which would denote this value as `0x2C7`. <p> In writing, we may express it as 2C7<sub>(16)</sub>, so that the base is distinguished from the number even with bad handwriting.
+- [signed number representations](../../../../general/signed%20number%20representations.md) ::@:: In mathematics, negative numbers in any base are represented by prefixing them with a minus sign ("−"). However, in RAM or CPU registers, numbers are represented only as sequences of bits, without extra symbols.
+  - [sign–magnitude](../../../../general/signed%20number%20representations.md#sign–magnitude) ::@:: The sign bit is 0 if positive, 1 if negative. The magnitude is represented by the remaining bits. <p> examples: IEEE 754 _significand_ field
+    - sign–magnitude / addition ::@:: If the signs are the same, add the magnitude. If the signs are different, subtract the larger magnitude from the smaller magnitude. The sign is the same as the number with the larger magnitude.
+    - sign–magnitude / disadvantages ::@:: Arithmetic is complex, so are the circuits to implement it.
+  - signed number representations / systems ::@:: sign–magnitude, offset binary, one's complement, two's complement, etc.
+- [one's complement](../../../../general/one's%20complement.md) ::@:: It of a binary number is the value obtained by inverting (flipping) all the bits in the binary representation of the number. The sign bit is 0 if the number is positive, 1 if negative.
+  - one's complement / naming ::@:: The name "ones' complement" refers to the fact that such an inverted value, if added to the original, would always produce an "all ones" number (the term "complement" refers to such pairs of mutually additive inverse numbers, here in respect to a non-0 base number).
+  - one's complement / addition ::@:: Adding two values is straightforward. Simply align the values on the least significant bit and add, propagating any carry to the bit one position left. If the carry extends past the end of the word it is said to have "wrapped around", a condition called an "_end-around carry_". This phenomenon does not occur in two's complement arithmetic.
+  - one's complement / subtraction ::@:: When this occurs, the bit must be added back in at the right-most bit. <p> Subtraction is similar, except that borrows, rather than carries, are propagated to the left. If the borrow extends past the end of the word it is said to have "wrapped around", a condition called an "_end-around borrow_". When this occurs, the bit must be subtracted from the right-most bit. This phenomenon does not occur in two's complement arithmetic. <p> An alternative is using the [method of complements](../../../../general/method%20of%20complements.md) to implement subtraction. For example, subtracting −5 from 15 is just adding 5 to 15.
+  - one's complement / advantages ::@:: Arithmetic is simpler \(slightly more complex than two's complement\), so are the circuits to implement it. Negation is always possible.
+  - one's complement / disadvantages ::@:: Zero is signed \(this may be an advantage in some scenarios\). Addition and subtraction requires carrying and borrowing respectively.
+- [two's complement](../../../../general/two's%20complement.md)
+  - two's complement / addition ::@:: Adding two's complement numbers requires no special processing even if the operands have opposite signs; the sign of the result is determined automatically. Simply align the values on the least significant bit and add, propagating any carry to the bit one position left. If the carry extends past the end of the word, discard it. <p> This actually reflects the [ring](../../../../general/ring%20(mathematics).md) structure on all integers [modulo](../../../../general/modular%20arithmetic.md) [2<sup>_N_</sup>](../../../../general/power%20of%20two.md): $\mathbb {Z} /2^{N}\mathbb {Z}$.
+  - two's complement / subtraction ::@:: Computers usually use the [method of complements](../../../../general/method%20of%20complements.md) to implement subtraction. For example, subtracting −5 from 15 is just adding 5 to 15.
+  - two's complement / advantages ::@:: Arithmetic is simpler \(even simpler than one's complement\), so are the circuits to implement it. Zero is unsigned \(this may be an disadvantage in some scenarios\).
+  - two's complement / disadvantages ::@:: Negation is not possible for the most negative number.
+- integer overflow
+  - integer overflow / integer underflow
+- [offset binary](../../../../general/offset%20binary.md) ::@:: \(untaught\) It is a method for [signed number representation](signed%20number%20representation.md) where a signed number _n_ is represented by the bit pattern corresponding to the unsigned number _n_+_K_, _K_ being the _biasing value_ or _offset_. <p> examples: IEEE 754 _exponent_ field \(_K_ = 2<sup>_n_<!-- markdown separator -->−1</sup> − 1\)
+  - offset binary / value of _K_ ::@:: There is no standard for offset binary, but most often the _K_ for an _n_-bit binary word is _K_ = 2<sup>_n_<!-- markdown separator -->−1</sup> \(for example, the offset for a four-digit binary number would be 2<sup>3</sup>=8\). This has the consequence that the minimal negative value is represented by all-zeros, the "zero" value is represented by a 1 in the most significant bit and zero in all other bits, and the [maximal positive value](../../../../general/integer%20overflow.md) is represented by all-ones \(conveniently, this is the same as using [two's complement](../../../../general/two's%20complement.md) but with the most significant bit inverted\). <p> For IEEE 754, unusually however, instead of using "excess 2<sup>_n_<!-- markdown separator -->−1</sup>" it uses "excess 2<sup>_n_<!-- markdown separator -->−1</sup> − 1" which means that inverting the leading (high-order) bit of the exponent will not convert the exponent to correct two's complement notation.
+  - offset binary / advantages ::@:: In a logical comparison operation, one gets the same result as with a true form numerical comparison operation, whereas, in two's complement notation a logical comparison will agree with true form numerical comparison operation if and only if the numbers being compared have the same sign. Otherwise the sense of the comparison will be inverted, with all negative values being taken as being larger than all positive values.
+
+## week 5 lecture 2
+
+- datetime: 2025-03-07T09:00:00+08:00/2025-03-07T10:20:00+08:00
+- topic: first MIPS program, MIPS Control Flow, branch, loop
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ assembly](MIPS.md#assembly)
+    - [§ assembly format](MIPS.md#assembly%20format)
+    - [§ assembly directives](MIPS.md#assembly%20directives)
+    - [§ entry point](MIPS.md#entry%20point)
+    - [§ control flow](MIPS.md#control%20flow)
+    - [§ jump](MIPS.md#jump)
 
 ## assignments
 
