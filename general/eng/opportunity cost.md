@@ -54,7 +54,7 @@ Sunk costs (also referred to as {@{historical costs}@}) are {@{costs that have b
 
 From {@{the traceability source of costs}@}, sunk costs can be {@{direct costs or indirect costs}@}. If {@{the sunk cost can be summarized as a single component}@}, it is {@{a direct cost}@}; if {@{it is caused by several products or departments}@}, it is {@{an indirect cost}@}. <!--SR:!2025-08-23,253,330!2025-08-25,255,330!2026-02-02,366,310!2026-07-04,483,310!2025-10-14,294,330!2025-09-20,276,330-->
 
-Analyzing from {@{the composition of costs}@}, sunk costs can be {@{either fixed costs or variable costs}@}. When {@{a company abandons a certain component or stops processing a certain product}@}, the sunk cost usually includes {@{fixed costs such as rent for equipment and wages, but it also includes variable costs due to changes in time or materials}@}. Usually, {@{fixed costs are more likely}@} to constitute sunk costs. <!--SR:!2025-09-21,277,330!2025-08-06,239,330!2025-05-01,159,310!2025-03-13,124,310!2025-08-08,241,330-->
+Analyzing from {@{the composition of costs}@}, sunk costs can be {@{either fixed costs or variable costs}@}. When {@{a company abandons a certain component or stops processing a certain product}@}, the sunk cost usually includes {@{fixed costs such as rent for equipment and wages, but it also includes variable costs due to changes in time or materials}@}. Usually, {@{fixed costs are more likely}@} to constitute sunk costs. <!--SR:!2025-09-21,277,330!2025-08-06,239,330!2025-05-01,159,310!2026-09-02,538,330!2025-08-08,241,330-->
 
 Generally speaking, {@{the stronger the liquidity, versatility, and compatibility of the asset}@}, {@{the less its sunk cost will be}@}. <!--SR:!2025-09-20,276,330!2025-08-24,254,330-->
 

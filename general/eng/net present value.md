@@ -35,7 +35,7 @@ In the case when {@{all future cash flows are positive, or incoming}@} \(such as
 
 - _t_ ::@:: is the time of the cash flow <!--SR:!2025-05-31,81,339!2025-05-31,81,339-->
 - _i_ ::@:: is the discount rate, i.e. the [return](rate%20of%20return.md) that could be earned per unit of time on an [investment with similar risk](opportunity%20cost.md) <!--SR:!2025-05-24,75,329!2025-06-02,83,345-->
-- $R_{t}$ <!-- flashcard ID: 07a9f752-575e-4aa0-bdfb-c2cfcecb56b4 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2025-03-13,18,334!2025-03-13,18,334-->
+- $R_{t}$ <!-- flashcard ID: 07a9f752-575e-4aa0-bdfb-c2cfcecb56b4 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2025-06-06,85,354!2025-06-05,84,354-->
 - $1/(1+i)^{t}$ ::@:: is the discount factor, also known as the present value factor. <!--SR:!2025-05-28,79,345!2025-05-01,55,310-->
 
 {@{The result of this formula}@} is {@{multiplied with the Annual Net cash in-flows and reduced by Initial Cash outlay the present value}@}, but in {@{cases where the cash flows are not equal in amount}@}, {@{the previous formula will be used to determine the present value of each cash flow separately}@}. {@{Any cash flow within 12 months will not be discounted for NPV purpose}@}, nevertheless {@{the usual initial investments during the first year _R_<sub>0</sub> are summed up a negative cash flow}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-05-08,61,310!2025-05-22,73,337!2025-05-14,67,329!2025-05-10,63,310!2025-06-03,84,345!2025-05-04,58,310-->
@@ -60,7 +60,7 @@ where:
 
 The NPV method can be {@{slightly adjusted to calculate how much money is contributed to a project's investment per dollar invested}@}. This is known as {@{the capital efficiency ratio}@}. {@{The formula for the net present value per dollar investment \(NPVI\)}@} is given below: {@{$$\mathrm {NPVI} (i,N)={\frac {\sum _{t=1}^{N}{\frac {R_{t} }{(1+i)^{t} } } }{\sum _{t=1}^{N}{\frac {C_{t} }{(1+i)^{t} } } } }$$}@} where: <!--SR:!2025-06-02,83,345!2025-05-05,58,310!2025-06-02,83,345!2025-05-11,61,325-->
 
-- $R_{t}$ <!-- flashcard ID: 6db1aa57-6f77-48d3-a995-9699c9b82171 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2025-03-13,18,334!2025-03-13,18,334-->
+- $R_{t}$ <!-- flashcard ID: 6db1aa57-6f77-48d3-a995-9699c9b82171 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2025-06-04,83,354!2025-06-07,86,354-->
 - $C_{t}$ ::@:: are the net cash outflows, at time _t_. <!--SR:!2025-06-01,82,339!2025-06-02,83,345-->
 
 ### example

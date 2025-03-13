@@ -15,7 +15,7 @@ tags:
 
 # eigenvalues and eigenvectors
 
-In [linear algebra](linear%20algebra.md), it is often important to {@{know which [vectors](vector%20space.md) have their directions unchanged by a given [linear transformation](linear%20map.md)}@}. An {@{__eigenvector__ (/ˈaɪɡən-/ EYE-gən-) or __characteristic vector__}@} is such a vector. More precisely, an eigenvector $\mathbf v$ of a linear transformation $T$ is {@{a nonzero vector that is [scaled by a constant factor](scalar%20multiplication.md) $\lambda$ when the linear transformation is applied to it: $T \mathbf v = \lambda \mathbf v \quad \mathbf v \ne \mathbf 0$}@}. The multiplying factor $\lambda$ is {@{the corresponding __eigenvalue__, __characteristic value__, or __characteristic root__}@}. <!--SR:!2025-04-24,208,326!2025-09-02,327,346!2026-05-25,517,326!2025-03-13,185,326-->
+In [linear algebra](linear%20algebra.md), it is often important to {@{know which [vectors](vector%20space.md) have their directions unchanged by a given [linear transformation](linear%20map.md)}@}. An {@{__eigenvector__ (/ˈaɪɡən-/ EYE-gən-) or __characteristic vector__}@} is such a vector. More precisely, an eigenvector $\mathbf v$ of a linear transformation $T$ is {@{a nonzero vector that is [scaled by a constant factor](scalar%20multiplication.md) $\lambda$ when the linear transformation is applied to it: $T \mathbf v = \lambda \mathbf v \quad \mathbf v \ne \mathbf 0$}@}. The multiplying factor $\lambda$ is {@{the corresponding __eigenvalue__, __characteristic value__, or __characteristic root__}@}. <!--SR:!2025-04-24,208,326!2025-09-02,327,346!2026-05-25,517,326!2027-06-23,832,346-->
 
 ## definition
 

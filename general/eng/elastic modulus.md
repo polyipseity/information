@@ -44,7 +44,7 @@ return (
 )
 ```
 
-There are many types of elastic moduli that can be defined. The {@{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}@} primary ones are: <!--SR:!2025-03-13,229,330-->
+There are many types of elastic moduli that can be defined. The {@{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}@} primary ones are: <!--SR:!2028-01-18,1041,350-->
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-05-13T21:24:01.864042+08:00. Any edits will be overridden! -->
 

@@ -36,7 +36,7 @@ Explicitly, {@{a pullback of the morphisms $f$ and $g$}@} consists of {@{an [obj
 
 ## pullback and product
 
-The pullback is {@{similar to the [product](product%20(category%20theory).md), but not the same}@}. One may obtain the product by {@{"forgetting" that the morphisms _f_ and _g_ exist, and forgetting that the object _Z_ exists}@}. One is then left with {@{a [discrete category](discrete%20category.md) containing only the two objects _X_ and _Y_, and no arrows between them}@}. This discrete category may be used as {@{the index set to construct the ordinary binary product}@}. Thus, the pullback can be thought of as {@{the ordinary \(Cartesian\) product, but with additional structure}@}. Instead of {@{"forgetting" _Z_, _f_, and _g_}@}, one can also {@{"trivialize" them by specializing _Z_ to be the [terminal object](terminal%20object.md) \(assuming it exists\)}@}. _f_ and _g_ are {@{then uniquely determined and thus carry no information}@}, and {@{the pullback of this cospan can be seen to be the product of _X_ and _Y_}@}. <!--SR:!2025-04-18,60,310!2025-04-17,59,310!2025-04-02,47,290!2025-04-17,59,310!2025-04-02,47,290!2025-04-25,66,310!2025-03-31,45,290!2025-03-13,29,270!2025-04-26,67,310-->
+The pullback is {@{similar to the [product](product%20(category%20theory).md), but not the same}@}. One may obtain the product by {@{"forgetting" that the morphisms _f_ and _g_ exist, and forgetting that the object _Z_ exists}@}. One is then left with {@{a [discrete category](discrete%20category.md) containing only the two objects _X_ and _Y_, and no arrows between them}@}. This discrete category may be used as {@{the index set to construct the ordinary binary product}@}. Thus, the pullback can be thought of as {@{the ordinary \(Cartesian\) product, but with additional structure}@}. Instead of {@{"forgetting" _Z_, _f_, and _g_}@}, one can also {@{"trivialize" them by specializing _Z_ to be the [terminal object](terminal%20object.md) \(assuming it exists\)}@}. _f_ and _g_ are {@{then uniquely determined and thus carry no information}@}, and {@{the pullback of this cospan can be seen to be the product of _X_ and _Y_}@}. <!--SR:!2025-04-18,60,310!2025-04-17,59,310!2025-04-02,47,290!2025-04-17,59,310!2025-04-02,47,290!2025-04-25,66,310!2025-03-31,45,290!2025-06-28,107,290!2025-04-26,67,310-->
 
 ## examples
 
@@ -97,7 +97,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
 
 ## weak pullbacks
 
-{@{A __weak pullback__ of a [cospan](span%20(category%20theory).md) _X_ → _Z_ ← _Y_}@} is {@{a [cone](cone%20(category%20theory).md) over the cospan that is only [weakly universal](weakly%20universal%20property.md)}@}, that is, {@{the mediating morphism _u_ : _Q_ → _P_ above is not required to be unique}@}. <!--SR:!2025-04-26,67,310!2025-03-13,29,270!2025-04-14,57,310-->
+{@{A __weak pullback__ of a [cospan](span%20(category%20theory).md) _X_ → _Z_ ← _Y_}@} is {@{a [cone](cone%20(category%20theory).md) over the cospan that is only [weakly universal](weakly%20universal%20property.md)}@}, that is, {@{the mediating morphism _u_ : _Q_ → _P_ above is not required to be unique}@}. <!--SR:!2025-04-26,67,310!2025-06-30,109,290!2025-04-14,57,310-->
 
 ## see also
 

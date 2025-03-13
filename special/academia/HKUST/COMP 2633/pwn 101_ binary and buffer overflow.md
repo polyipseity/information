@@ -232,7 +232,7 @@ As mentioned above, stack canary can be bypassed {@{if you know the canary value
 
 ### address randomization
 
-Buffer overflow is often used to {@{jump to a particular function}@}. This can be inhibited if {@{the function addresses are randomized each time the program is executed}@}. Then {@{the attacker will need to find out the address of that particular function during that one program execution (does not work across execution)}@}. <!--SR:!2025-08-13,249,330!2025-05-17,176,310!2025-03-13,130,310-->
+Buffer overflow is often used to {@{jump to a particular function}@}. This can be inhibited if {@{the function addresses are randomized each time the program is executed}@}. Then {@{the attacker will need to find out the address of that particular function during that one program execution (does not work across execution)}@}. <!--SR:!2025-08-13,249,330!2025-05-17,176,310!2026-09-22,558,330-->
 
 To do so, the executable must {@{consists of position-independent code (PIC), making the executable a position-independent executable (PIE)}@}. Said code {@{can work properly regardless of the code's base (start) address (thus cannot refer to absolute addresses)}@}. Then the technique of {@{address space layout randomization (ASLR)}@} can be applied. Usually, it will {@{randomize the base (start) address of the program (read-execute and read-write segment are treated as one segment for ASLR), the heap, and the stack}@}. However, {@{as only the base (start) address of segments are randomized}@}, {@{functions and data inside the same segment still have the same relative offset to each other}@}. <!--SR:!2025-06-11,185,310!2025-10-12,292,330!2025-08-12,248,330!2025-10-09,289,330!2025-08-25,261,330!2025-10-09,289,330-->
 

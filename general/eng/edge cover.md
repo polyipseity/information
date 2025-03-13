@@ -27,13 +27,13 @@ In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](gr
 
 Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../../archives/Wikimedia%20Commons/Edge-cover.svg)}@} <!--SR:!2025-08-27,186,310!2025-03-14,63,310!2025-03-14,63,310!2025-03-19,67,310-->
 
-A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@} <!--SR:!2025-03-13,62,310!2025-05-09,99,290!2025-03-14,63,310!2025-06-24,127,290-->
+A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@} <!--SR:!2025-12-07,269,330!2025-05-09,99,290!2025-03-14,63,310!2025-06-24,127,290-->
 
 Note that the figure on the right is {@{not only an edge cover but also a [matching](matching%20(graph%20theory).md)}@}. In particular, it is {@{a [perfect matching](perfect%20matching.md): a matching _M_ in which every vertex is incident with exactly one edge in _M_}@}. {@{A perfect matching \(if it exists\)}@} is {@{always a minimum edge covering}@}. <!--SR:!2025-11-30,263,330!2025-07-05,130,290!2025-12-04,267,330!2025-12-02,265,330-->
 
 ### examples
 
-- The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices. <!--SR:!2025-12-05,268,330!2025-03-13,62,310-->
+- The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices. <!--SR:!2025-12-05,268,330!2025-12-10,272,330-->
 - The [complete bipartite graph](complete%20bipartite%20graph.md) _K<sub>m,n</sub>_ ::@:: has edge covering number max\(_m_, _n_\). <!--SR:!2025-09-16,189,310!2025-03-18,66,310-->
 
 ## algorithms
@@ -42,12 +42,12 @@ A smallest edge cover can be {@{found in [polynomial time](time%20complexity.md#
 
 On the other hand, the related problem of {@{finding a smallest [vertex cover](vertex%20cover.md)}@} is {@{an [NP-hard](NP-hardness.md) problem}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-12-01,264,330!2025-03-14,63,310-->
 
-{@{Looking at the image}@} it already becomes obvious why, for {@{a given minimum edge cover $C$ and [maximum matching](maximum%20cardinality%20matching.md) $M$, letting $c$ and $m$ be the number of edges in $C$ and $M$ respectively}@}, we have:<sup>[\[3\]](#^ref-3)</sup> {@{$|V|=c+m$}@}. Indeed, {@{$C$ contains a maximum matching}@}, so {@{the edges of $C$ can be decomposed between the $m$ edges of a maximum matching, covering $2m$ vertices}@}, and {@{the $c-m$ other edges that each cover one other vertex}@}. Thus, as {@{$C$ covers all of the $|V|$ vertices, we have $|V|=2m+(c-m)$ giving the desired equality}@}. <!--SR:!2025-03-13,62,310!2025-09-05,190,310!2025-03-13,62,310!2025-03-13,62,310!2025-06-01,110,290!2025-11-29,263,330!2025-07-06,134,290-->
+{@{Looking at the image}@} it already becomes obvious why, for {@{a given minimum edge cover $C$ and [maximum matching](maximum%20cardinality%20matching.md) $M$, letting $c$ and $m$ be the number of edges in $C$ and $M$ respectively}@}, we have:<sup>[\[3\]](#^ref-3)</sup> {@{$|V|=c+m$}@}. Indeed, {@{$C$ contains a maximum matching}@}, so {@{the edges of $C$ can be decomposed between the $m$ edges of a maximum matching, covering $2m$ vertices}@}, and {@{the $c-m$ other edges that each cover one other vertex}@}. Thus, as {@{$C$ covers all of the $|V|$ vertices, we have $|V|=2m+(c-m)$ giving the desired equality}@}. <!--SR:!2025-12-07,269,330!2025-09-05,190,310!2025-12-09,271,330!2025-12-08,270,330!2025-06-01,110,290!2025-11-29,263,330!2025-07-06,134,290-->
 
 ## see also
 
 - [Vertex cover](vertex%20cover.md)
-- [Set cover](set%20cover%20problem.md) – ::@:: the edge cover problem is a special case of the set cover problem: the elements of the _universe_ are vertices, and each _subset_ covers exactly two elements. <!--SR:!2025-08-15,160,270!2025-03-13,62,310-->
+- [Set cover](set%20cover%20problem.md) – ::@:: the edge cover problem is a special case of the set cover problem: the elements of the _universe_ are vertices, and each _subset_ covers exactly two elements. <!--SR:!2025-08-15,160,270!2025-12-06,268,330-->
 
 ## notes
 

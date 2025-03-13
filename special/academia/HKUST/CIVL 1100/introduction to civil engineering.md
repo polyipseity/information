@@ -80,7 +80,7 @@ The content is in teaching order.
     - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
     - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2025-03-13,235,352-->
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2026-11-01,696,319-->
   - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→::@::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2025-03-20,147,300-->
-- reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-03-13,189,261-->
+- reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-06-19,98,241-->
 - sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2026-03-21,463,301-->
 - transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-06-13,104,150-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
@@ -1231,6 +1231,6 @@ water treatment
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2027-04-11,815,337-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2026-01-29,404,280!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->
-- water treatment→::@::←_(end)_ <!--SR:!2025-03-13,240,354!2026-05-18,524,286-->
+- water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2026-05-18,524,286-->
 
 <!--/pytextgen-->

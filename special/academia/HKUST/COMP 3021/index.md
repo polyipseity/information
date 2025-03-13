@@ -57,7 +57,7 @@ The content is in teaching order.
 - report
   - examination format ::@:: There are 20 multiple choice questions (MCQ), each worth 5 score. Each MCQ has a variable number of choices, with the most up to about 10 choices. Choosing any wrong option yields 0 score. Otherwise, you get $\text{score} = 5 \cdot \frac {\text{\# of answers} } {\text{\# of solutions} }$. <!--SR:!2025-03-19,67,310!2025-11-02,241,330-->
   - conservative strategy ::@:: Er... Somehow did not select any wrong answers. It was a very nice strategy to be conservative... <!--SR:!2025-09-01,190,310!2025-03-18,66,310-->
-  - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers. <!--SR:!2025-07-22,159,310!2025-03-13,62,310-->
+  - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers. <!--SR:!2025-07-22,159,310!2025-12-09,271,330-->
 - check
   - datetime: 2024-12-18T12:30:00+08:00/2024-12-18T14:30:00+08:00, PT2H
   - venue: Room 2128C, Academic Building

@@ -8,7 +8,7 @@ tags:
 
 # physical change
 
-__Physical changes__ are {@{changes affecting the form of [chemical substances](chemical%20substance.md)}@}. They contrast with [chemical changes](chemical%20change.md). <!--SR:!2025-03-13,468,270-->
+__Physical changes__ are {@{changes affecting the form of [chemical substances](chemical%20substance.md)}@}. They contrast with [chemical changes](chemical%20change.md). <!--SR:!2030-01-14,1768,290-->
 
 In a physical change, substances {@{undergo a change without affecting their [chemical composition](chemical%20composition.md)}@}. No {@{new substances are formed}@}. <!--SR:!2029-08-23,1679,290!2027-04-08,1052,330-->
 

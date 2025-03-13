@@ -9,7 +9,7 @@ tags:
 
 # Java string
 
-A `String` is a piece of text. It is declared by {@{enclosing the text in double quotes `"`, like `"example"`}@}. A `char` is a single character. It is declared by {@{enclosing the character in single quotes `'`, like `'a'`}@}. <!--SR:!2025-03-13,314,336!2027-11-26,1088,356-->
+A `String` is a piece of text. It is declared by {@{enclosing the text in double quotes `"`, like `"example"`}@}. A `char` is a single character. It is declared by {@{enclosing the character in single quotes `'`, like `'a'`}@}. <!--SR:!2029-03-05,1453,356!2027-11-26,1088,356-->
 
 To put double quotes inside a `String`, one needs to {@{escape them by adding `\` before the double quote, like `"quote, \"something\", unquote"`}@}. Similarly, for `char`, one needs to {@{escape the single quote, like `'\''`}@}. <!--SR:!2027-08-19,934,336!2027-08-08,995,350-->
 

@@ -51,7 +51,7 @@ Alternatively, the product may be {@{defined through equations}@}. So, for examp
 
 - Existence of $f$ ::@:: is guaranteed by existence of the operation $\langle \cdot ,\cdot \rangle$. <!--SR:!2025-04-02,61,310!2025-03-31,59,310-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality: for all $f_{1},f_{2}$ and all $i\in \{1,2\}$, $\pi _{i}\circ \left\langle f_{1},f_{2}\right\rangle =f_{i}$ <!--SR:!2025-03-31,59,310!2025-04-04,63,310-->
-- Uniqueness of $f$ ::@:: is guaranteed by the equality: for all $g:Y\to X_{1}\times X_{2}$, $\left\langle \pi _{1}\circ g,\pi _{2}\circ g\right\rangle =g$.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-17,45,290!2025-03-13,44,290-->
+- Uniqueness of $f$ ::@:: is guaranteed by the equality: for all $g:Y\to X_{1}\times X_{2}$, $\left\langle \pi _{1}\circ g,\pi _{2}\circ g\right\rangle =g$.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-17,45,290!2025-07-19,128,290-->
 
 ### as a limit
 
