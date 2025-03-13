@@ -107,7 +107,7 @@ The content is in teaching order.
     - job costing / vs. process costing / report types ::@:: job cost sheet per customer/project/job; production report per process
   - job cost / manufacturing costs ::@:: direct materials, direct labor, manufacturing overhead; add them together
   - job cost / source documents ::@:: documents to assign direct costs to jobs; direct materials: materials requisition form, direct labor: labor time ticket
-  - job cost / materials requisition form: [formats § direct materials requisition form](formats.md#direct%20materials%20acquitision%20form)
+  - job cost / materials requisition form: [formats § materials requisition form](formats.md#materials%20requisition%20form)
   - job cost / (direct) labor time ticket: [formats § job cost sheet](formats.md#labor%20time%20ticket)
   - job cost / job cost sheet: [formats § job cost sheet](formats.md#job%20cost%20sheet)
   - job cost / [manufacturing overhead](../../../../general/factory%20overhead.md) (MOH) ::@:: Applied Manufacturing Overhead = Predetermined Overhead Rate (POHR) × Actual Cost Driver <p> The actual cost driver/allocation base may be direct labor costs (less common), direct labor hours (more common), direct materials costs, etc.

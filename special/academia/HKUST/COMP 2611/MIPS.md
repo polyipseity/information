@@ -42,7 +42,7 @@ In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{value
 
 We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written using hexadecimal}@}.
 
-In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size}@}. {@{The _memory operand_ syntax}@} is {@{`$offset($base)`, e.g. `-4($s0)`}@}.
+In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}.
 
 ### endianness
 
@@ -52,7 +52,7 @@ When {@{addressing multiple bytes}@}, it is important to {@{take note of _endian
 
 Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is the instruction and `op_i` are its operands}@}. Each line {@{contain at most one instruction}@}. Comments {@{start with `#` and end with a newline}@}.
 
-Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: `$s_` can be {@{any register}@}. `imm_` can be {@{any constant}@}. `sym_` can be {@{any address, symbol, or label}@}.
+Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: `$reg_` can be {@{any register}@}. `imm_` can be {@{any constant}@}. `addr_` can be {@{any address, symbol, or label}@}.
 
 ### operands
 
@@ -64,32 +64,32 @@ Note that while {@{`$zero` or `$0`}@} has {@{a semantic of _constant_ zero}@}, i
 
 ### arithmetic
 
-- add ::@:: `add $s0, $s1, $s2`: `$s0 = $s1 + $s2`
-- add immediate ::@:: `addi $s0, $s1, imm0`: `$s0 = $s1 - imm0`
-- subtract ::@:: `sub $s0, $s1, $s2`: `$s0 = $s1 - $s2`
+- add ::@:: `add $reg0, $reg1, $reg2`: `$reg0 = $reg1 + $reg2;`
+- add immediate ::@:: `addi $reg0, $reg1, imm0`: `$reg0 = $reg1 + imm0;`
+- subtract ::@:: `sub $reg0, $reg1, $reg2`: `$reg0 = $reg1 - $reg2;`
 - subtract immediate ::@:: This does not exist. Use `addi` with a negative constant instead.
 
 ### logical
 
-- logical and ::@:: `and $s0, $s1, $s2`: `$s0 = $s1 & $s2`
-- logical and immediate ::@:: `andi $s0, $s1, imm0`: `$s0 = $s1 & imm0`
-- logical nor ::@:: `nor $s0, $s1, $s2`: `$s0 = ~($s1 | $s2)`
-- logical nor immediate ::@:: This does not exist. Unfortunately, it cannot be directly replaced with `ori`.
-- logical or ::@:: `or $s0, $s1, $s2`: `$s0 = $s1 | $s2`
-- logical or immediate ::@:: `ori $s0, $s1, imm0`: `$s0 = $s1 | imm0`
-- shift left logical ::@:: `sll $s0, $s1, imm0`: `$s0 = $s1 << imm0`, padded by 0
-- shift right logical ::@:: `srl $s0, $s1, imm0`: `$s0 = $s1 >> imm0`, padded by 0
+- logical and ::@:: `and $reg0, $reg1, $reg2`: `$reg0 = $reg1 & $reg2;`
+- logical and immediate ::@:: `andi $reg0, $reg1, imm0`: `$reg0 = $reg1 & imm0;`
+- logical nor ::@:: `nor $reg0, $reg1, $reg2`: `$reg0 = ~($reg1 | $reg2);`
+- logical nor immediate ::@:: This does not exist. Unfortunately, it cannot be replaced by a single instruction. It can be replaced by `ori` and then a `nor` with `$0`.
+- logical or ::@:: `or $reg0, $reg1, $reg2`: `$reg0 = $reg1 | $reg2;`
+- logical or immediate ::@:: `ori $reg0, $reg1, imm0`: `$reg0 = $reg1 | imm0;`
+- shift left logical ::@:: `sll $reg0, $reg1, imm0`: `$reg0 = $reg1 << imm0;`, padded by 0
+- shift right logical ::@:: `srl $reg0, $reg1, imm0`: `$reg0 = $reg1 >> imm0;`, padded by 0
 
 ### data transfer
 
-- load word ::@:: `lw $s0, imm0($s1)`: `$s0 = mem[$s1 + imm0]`
-- store word ::@:: `sw $s0, imm0($s1)`: `mem[$s1 + imm0] = $s0`
+- load word ::@:: `lw $reg0, imm0($reg1)`: `$reg0 = mem[$reg1 + imm0];`
+- store word ::@:: `sw $reg0, imm0($reg1)`: `mem[$reg1 + imm0] = $reg0;`
 
 ### jump
 
-- branch if equal ::@:: `beq $s0, $s1, sym0`: `if ($s0 == $s1) { goto sym0; }`
-- branch if not equal ::@:: `bne $s0, $s1, sym0`: `if ($s0 != $s1) { goto sym0; }`
-- jump ::@:: `j sym0`: `goto sym0`
+- branch if equal ::@:: `beq $reg0, $reg1, addr0`: `if ($reg0 == $reg1) { goto addr0; }`
+- branch if not equal ::@:: `bne $reg0, $reg1, addr0`: `if ($reg0 != $reg1) { goto addr0; }`
+- jump ::@:: `j addr0`: `goto addr0;`
 
 ## calling conventions
 
@@ -139,7 +139,7 @@ The 32 registers are used as follows:
 
 ### assembly format
 
-Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the instruction `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}.
+Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the instruction `la $reg0, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}.
 
 In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}.
 
@@ -163,7 +163,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 
 ### entry point
 
-The convention is {@{the entry point \(first instruction to be executed when a program starts\) is labeled by the label `.__start`}@}. Additionally, {@{the label needs to be global, specified using `.globl __start`}@}. For example, a way to start a program is: <p> {@{<pre>.text<br/>.globl __start<br/>__start:<br/># your instructions here</pre>}@}.
+The convention is {@{the entry point \(first instruction to be executed when a program starts\) is labeled by the label `.__start`}@}. Additionally, {@{the label needs to be global, specified using `.globl __start`}@}. For example, a way to start a program is: <p> {@{<pre>.text<br/>.globl \_\_start<br/>\_\_start:<br/># your instructions here</pre>}@}.
 
 ## control flow
 

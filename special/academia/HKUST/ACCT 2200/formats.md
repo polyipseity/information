@@ -19,7 +19,7 @@ tags:
 
 Do you really need to remember these _exactly_? ::@:: Not really... The approximate format should suffice.
 
-## materials acquitision form
+## materials requisition form
 
 > __example__
 >

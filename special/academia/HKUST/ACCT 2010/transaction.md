@@ -79,21 +79,21 @@ tags:
 
 > Company G {@{repaid \$5000 in cash on a bond as interest; using effective-interest amortization, the amortization amount was \$792}@}
 >
-> | December 31, 2024                                | {@{Credit}@} | {@{Debit}@} |
-> | ------------------------------------------------ |:------------:|:-----------:|
-> | {@{Interest expense (+E, −SE)}@}                 | {@{5792}@}   |             |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Bond discount (+L)}@} |              | {@{792}@}   |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@}          |              | {@{5000}@}  |
+> | December 31, 2024                                | {@{Debit}@} | {@{Credit}@} |
+> | ------------------------------------------------ |:-----------:|:------------:|
+> | {@{Interest expense (+E, −SE)}@}                 | {@{5792}@}  |              |
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Bond discount (+L)}@} |             | {@{792}@}    |
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@}          |             | {@{5000}@}   |
 
 <!-- markdownlint MD028 -->
 
 > Company H {@{repaid \$5000 in cash on a bond as interest; using effective-interest amortization, the amortization amount was −\$855}@}
 >
-> | December 31, 2024                       | {@{Credit}@} | {@{Debit}@} |
-> | --------------------------------------- |:------------:|:-----------:|
-> | {@{Interest expense (+E, −SE)}@}        | {@{4145}@}   |             |
-> | {@{Bond premium (−L)}@}                 | {@{855}@}    |             |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |              | {@{5000}@}  |
+> | December 31, 2024                       | {@{Debit}@} | {@{Credit}@} |
+> | --------------------------------------- |:-----------:|:------------:|
+> | {@{Interest expense (+E, −SE)}@}        | {@{4145}@}  |              |
+> | {@{Bond premium (−L)}@}                 | {@{855}@}   |              |
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |             | {@{5000}@}   |
 
 ## format
 

@@ -369,7 +369,7 @@ The content is in teaching order.
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group; led the first black band to tour the American South
-  - Cab Calloway / works ::@:: \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer
+  - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s.
   - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas.
 - swing music
