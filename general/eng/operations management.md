@@ -280,7 +280,7 @@ In this context problems of {@{[scheduling \(sequencing of production\)](schedul
 
 > {@{![This a simple description of a Kanban utilization.](../../archives/Wikimedia%20Commons/Kanban%20esp.png)}@}
 >
-> When {@{introducing kanbans in real production systems}@}, {@{attaining unitary lot from the start}@} maybe unfeasible, therefore the kanban will {@{represent a given lot size defined by management}@}. <!--SR:!2025-03-14,28,270!2025-04-28,64,310!2025-05-01,67,310!2025-04-25,62,310-->
+> When {@{introducing kanbans in real production systems}@}, {@{attaining unitary lot from the start}@} maybe unfeasible, therefore the kanban will {@{represent a given lot size defined by management}@}. <!--SR:!2025-06-28,106,290!2025-04-28,64,310!2025-05-01,67,310!2025-04-25,62,310-->
 
 {@{A series of tools}@} have been {@{developed mainly with the objective of replicating Toyota success}@}: {@{a very common implementation}@} involves {@{small cards known as [kanbans](kanbans.md)}@}; these also come in some varieties: {@{reorder kanbans, alarm kanbans, triangular kanbans, etc.}@} In {@{the classic kanban procedure with one card}@}: <!--SR:!2025-04-30,66,310!2025-04-20,58,310!2025-04-28,64,310!2025-04-26,63,310!2025-04-18,56,310!2025-04-23,60,310-->
 

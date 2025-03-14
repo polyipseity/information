@@ -84,7 +84,7 @@ The content is in teaching order.
 - datetime: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
 - topic: Portfolio Building (II)
 - [cover letter](../../../cover%20letter.md)
-  - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2025-03-14,130,290!2025-10-24,303,330-->
+  - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2026-08-17,521,310!2025-10-24,303,330-->
 - transferrable skills, portable skills
 - professional social media ::@:: LinkedIn <!--SR:!2025-09-16,277,330!2025-08-16,251,330-->
 - elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2025-10-21,300,330!2025-08-19,254,330-->

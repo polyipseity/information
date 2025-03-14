@@ -138,7 +138,7 @@ A similar result {@{even holds for moments of random vectors}@}. The _problem of
 
 Partial moments are sometimes referred to as {@{"one-sided moments"}@}. {@{The _n_-th order lower and upper partial moments with respect to a reference point _r_}@} may be expressed as {@{$$\mu _{n}^{-}(r)=\int _{-\infty }^{r}(r-x)^{n}\,f(x)\,\mathrm {d} x,$$ <br/> $$\mu _{n}^{+}(r)=\int _{r}^{\infty }(x-r)^{n}\,f(x)\,\mathrm {d} x.$$}@} If {@{the integral function does not converge}@}, {@{the partial moment does not exist}@}. <!--SR:!2025-03-18,62,310!2025-09-10,181,310!2025-03-22,65,310!2025-03-17,61,310!2025-11-22,254,330-->
 
-Partial moments are normalized by {@{being raised to the power 1/_n_}@}. {@{The [upside potential ratio](upside%20potential%20ratio.md)}@} may be expressed as {@{a ratio of a first-order upper partial moment to a normalized second-order lower partial moment}@}. <!--SR:!2025-03-24,67,310!2025-07-03,128,290!2025-03-14,39,250-->
+Partial moments are normalized by {@{being raised to the power 1/_n_}@}. {@{The [upside potential ratio](upside%20potential%20ratio.md)}@} may be expressed as {@{a ratio of a first-order upper partial moment to a normalized second-order lower partial moment}@}. <!--SR:!2025-03-24,67,310!2025-07-03,128,290!2025-06-23,101,250-->
 
 ## central moments in metric spaces
 

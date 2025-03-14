@@ -116,13 +116,13 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-09-12,223,225!2025-05-29,247,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2025-05-21,119,189-->
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-03-18,122,169!2025-04-08,154,229-->
-- vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2025-03-14,236,329!2025-04-19,242,289-->
+- vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2025-04-19,242,289-->
 
 <!--/pytextgen-->
 
 ### value map
 
-Products and services is {@{simply a list of what you offer}@}, and can also include {@{supporting products and services}@}. It can be {@{physical, intangible, digital, or financial}@}. It is important to recognize products and services do not {@{create value by themselves (no intrinsic values), but in relationship with the customer segment}@}. Note that products and services {@{can have different relevance to your customers}@}. <!--SR:!2026-11-03,648,310!2025-03-28,239,309!2025-06-27,276,269!2025-03-14,220,270!2026-06-29,611,329-->
+Products and services is {@{simply a list of what you offer}@}, and can also include {@{supporting products and services}@}. It can be {@{physical, intangible, digital, or financial}@}. It is important to recognize products and services do not {@{create value by themselves (no intrinsic values), but in relationship with the customer segment}@}. Note that products and services {@{can have different relevance to your customers}@}. <!--SR:!2026-11-03,648,310!2025-03-28,239,309!2025-06-27,276,269!2026-11-04,600,270!2026-06-29,611,329-->
 
 Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!2026-08-09,632,329!2025-05-28,285,290!2026-04-06,502,310-->
 

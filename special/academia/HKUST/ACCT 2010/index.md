@@ -269,7 +269,7 @@ The content is in teaching order.
   - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested). <!--SR:!2026-02-11,338,376!2026-02-25,350,383-->
 - [cost of goods sold](../../../../general/cost%20of%20goods%20sold.md) ::@:: $$\begin{aligned} \text{goods available for sale} & = \text{beginning inventory} + \text{purchases} \\ \text{cost of goods sold} & = \text{goods available for sale} - \text{ending inventory} \end{aligned}$$ (This should not be too hard...) <!--SR:!2025-04-11,99,383!2025-04-14,102,383-->
   - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer. <!--SR:!2025-04-12,100,383!2025-04-01,91,383-->
-    - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2025-03-14,72,363!2025-04-11,99,376-->
+    - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2026-03-14,365,383!2025-04-11,99,376-->
     - inventory / types / manufacturer ::@:: raw materials inventory → work-in-process inventory → finished goods inventory <!--SR:!2025-03-18,75,363!2025-09-05,209,363-->
 - [inventory valuation](../../../../general/inventory%20valuation.md) ::@:: 2 main methods to value your inventory: perpetual inventory, periodic inventory <!--SR:!2025-04-08,97,383!2025-03-30,89,383-->
   - [periodic inventory](../../../../general/periodic%20inventory.md) ::@:: A physical inventory (counting the entire inventory) is taken at year end to determine the cost of goods sold. <!--SR:!2025-04-05,94,383!2025-04-12,100,383-->
@@ -292,7 +292,7 @@ The content is in teaching order.
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2025-06-05,128,343!2026-02-21,346,376-->
   - inventory turnover / interpretation ::@:: This ratio reflects how many times average inventory was produced or purchased and sold during the period. <p> A higher ratio indicates that inventory moves more quickly (strong sales), thus reducing storage & obsolescence costs. <p> Caution: it could also mean ineffective buying (or without a good buying plan to meet the customers' demand). <!--SR:!2025-09-10,203,356!2025-07-03,146,343-->
   - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2025-04-05,94,383!2025-03-19,76,363-->
-    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2025-03-14,72,363!2025-03-19,76,363-->
+    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2026-03-14,365,383!2025-03-19,76,363-->
 - [inventory valuation](../../../../general/inventory%20valuation.md)
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
     - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2025-09-02,207,363!2025-12-21,301,383-->
@@ -381,7 +381,7 @@ The content is in teaching order.
 - depreciation
   - depreciation / change ::@:: If net book value or residual value changes, the expense is calculated using net book value, residual value, and remaining useful life or production. <!--SR:!2025-06-11,130,336!2025-04-07,96,383-->
 - [asset turnover](../../../../general/asset%20turnover.md)
-  - fixed asset turnover ::@:: $$\frac {\text{net sales} } {\text{average net fixed assets} }$$ The average _net fixed_ assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that the _net_ means accumulated depreciation needs to be less from fixed assets first for both balances. <!--SR:!2026-01-12,313,383!2025-03-14,72,363-->
+  - fixed asset turnover ::@:: $$\frac {\text{net sales} } {\text{average net fixed assets} }$$ The average _net fixed_ assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that the _net_ means accumulated depreciation needs to be less from fixed assets first for both balances. <!--SR:!2026-01-12,313,383!2025-12-06,267,363-->
     - fixed asset turnover / interpretation ::@:: It measures how efficient management is at using _fixed_ assets to generate sales. Usually, high means effective management, low may mean there is a problem with using one or more fixed assets. <!--SR:!2026-01-16,317,383!2025-06-17,136,343-->
 - [§ week 8 review](questions.md#week%208%20review)
 
@@ -435,7 +435,7 @@ The content is in teaching order.
   - equity / primary sources ::@:: retained earnings, contributed capital (common stock, par value + additional paid-in capital) <!--SR:!2025-04-09,98,383!2025-03-17,74,356-->
 - [par value](../../../../general/par%20value.md) ::@:: It means  stated value or face value of a financial instrument. It may be a nominal value. It may also be a legal capital (the amount of capital, required by the state, that must remain invested in the business). <!--SR:!2025-04-14,102,383!2026-02-07,335,383-->
   - par value / interpretation ::@:: Par value does not equal market value. It is misleading to a certain extent. It is arbitrarily assigned to each share of stock in the memorandum of association (corporate charter). <!--SR:!2025-04-04,93,383!2025-04-12,100,383-->
-  - par value / legislation ::@:: In the US, most states allow the issue of no-par stock. But, corporations must state whether the shares are with par value or without par value. <p> With effect from 2014-03-03, effective date of the new Companies Ordinance (Cap.622), HK retires the concept of par value. <!--SR:!2025-03-14,72,363!2025-04-28,98,323-->
+  - par value / legislation ::@:: In the US, most states allow the issue of no-par stock. But, corporations must state whether the shares are with par value or without par value. <p> With effect from 2014-03-03, effective date of the new Companies Ordinance (Cap.622), HK retires the concept of par value. <!--SR:!2026-03-13,364,383!2025-04-28,98,323-->
 - initial public offering (IPO) ::@:: first time sells its stock to the public <!--SR:!2025-04-14,102,383!2025-04-13,101,383-->
 - seasoned equity issue (SEO) ::@:: new equity issue by an already publicly traded company <!--SR:!2025-03-29,88,376!2025-04-12,100,383-->
 - share capital
@@ -517,7 +517,7 @@ The content is in teaching order.
 - datetime: 2024-11-19T13:30:00+08:00/2024-11-19T14:50:00+08:00
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
   - investing activities
-    - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2025-04-07,96,383!2025-03-14,72,363-->
+    - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2025-04-07,96,383!2026-03-13,364,383-->
     - investing activities / calculation ::@:: purchase PPE or tangible assets for _cash_: outflow (−) <br/> sell or dispose PPE or intangible assets for _cash_: inflow (+) <br/> purchase investment securities for _cash_: outflow (−) <br/> sell (mature) investment securities for _cash_: inflow (+) <!--SR:!2025-03-19,76,363!2025-04-05,94,383-->
     - investing activities / interpretation ::@:: To assess a company's ability to internally finance its expansion needs <br/> Two categories: PPE, short- and long-term investments <!--SR:!2025-04-08,97,383!2025-04-12,100,383-->
   - financing activities

@@ -56,7 +56,7 @@ A corporation's book value is used {@{in fundamental financial analysis to help 
 
 {@{A variation of book value, [tangible common equity](tangible%20common%20equity.md)}@}, has {@{recently come into use by the U.S. federal government in the valuation of troubled banks}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> {@{Tangible common equity}@} is calculated as {@{total book value minus [intangible assets](intangible%20asset.md), [goodwill](goodwill%20(accounting).md), and [preferred equity](preferred%20stock.md)}@}, and can thus be {@{considered the most conservative valuation of a company and the best approximation of its value should it be forced to liquidate}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-03-20,47,290!2025-03-15,46,290!2025-03-29,58,310!2025-03-20,47,290!2025-05-17,90,290-->
 
-Since {@{tangible common equity subtracts preferred equity from the tangible book value}@}, it does {@{a better job estimating what the value of the company is}@} to {@{holders of specifically _common_ stock compared to standard calculations of book value}@}. <!--SR:!2025-03-18,46,290!2025-03-28,57,310!2025-03-14,45,290-->
+Since {@{tangible common equity subtracts preferred equity from the tangible book value}@}, it does {@{a better job estimating what the value of the company is}@} to {@{holders of specifically _common_ stock compared to standard calculations of book value}@}. <!--SR:!2025-03-18,46,290!2025-03-28,57,310!2025-09-15,185,310-->
 
 ## stock pricing book value
 
@@ -75,7 +75,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 1. The sale of shares/units by the business ::@:: increases the total book value. Book/sh will increase if the additional shares are issued at a price higher than the pre-existing book/sh. <!--SR:!2025-03-18,46,290!2025-04-03,62,310-->
 2. The purchase of its own shares by the business ::@:: will decrease total book value. Book/shares will decrease if more is paid for them than was received when originally issued \(pre-existing book/sh\). <!--SR:!2025-03-16,47,290!2025-04-06,64,310-->
 3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!2025-05-21,94,290!2025-04-04,63,310-->
-4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2025-04-08,66,310!2025-04-06,64,310!2025-04-05,63,310!2025-03-14,45,290!2025-03-21,48,290-->
+4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2025-04-08,66,310!2025-04-06,64,310!2025-04-05,63,310!2025-09-14,184,310!2025-03-21,48,290-->
 
 ### new share issues and dilution
 

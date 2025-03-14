@@ -78,7 +78,7 @@ Because of {@{this example}@}, in {@{a general category}@} {@{the pullback of a 
 
 ### least common multiple
 
-Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](integer.md) __Z__<sub>+</sub> as a category with one object (annotation: morphisms are the positive integers; composition of morphisms is multiplication)}@}. In this category, {@{the pullback of two positive integers _m_ and _n_}@} is {@{just the pair $\left({\frac {\operatorname {lcm} (m,n)}{m} },{\frac {\operatorname {lcm} (m,n)}{n} }\right)$}@}, where {@{the numerators are both the [least common multiple](least%20common%20multiple.md) of _m_ and _n_}@}. The same pair is {@{also the pushout}@}. <!--SR:!2025-03-14,30,270!2025-04-21,63,310!2025-04-16,58,310!2025-03-25,41,290!2025-04-15,58,310-->
+Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](integer.md) __Z__<sub>+</sub> as a category with one object (annotation: morphisms are the positive integers; composition of morphisms is multiplication)}@}. In this category, {@{the pullback of two positive integers _m_ and _n_}@} is {@{just the pair $\left({\frac {\operatorname {lcm} (m,n)}{m} },{\frac {\operatorname {lcm} (m,n)}{n} }\right)$}@}, where {@{the numerators are both the [least common multiple](least%20common%20multiple.md) of _m_ and _n_}@}. The same pair is {@{also the pushout}@}. <!--SR:!2025-07-04,112,290!2025-04-21,63,310!2025-04-16,58,310!2025-03-25,41,290!2025-04-15,58,310-->
 
 ## properties
 

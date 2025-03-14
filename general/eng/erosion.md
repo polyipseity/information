@@ -6,7 +6,7 @@ tags:
 
 # erosion
 
-__Erosion__ is {@{the [relocation](sediment%20transport.md) of [material](material.md) by the action of surface processes}@}. It is distinct from {@{[weathering](weathering.md) which involves no movement}@}. <!--SR:!2025-03-14,457,250!2028-09-20,1326,290-->
+__Erosion__ is {@{the [relocation](sediment%20transport.md) of [material](material.md) by the action of surface processes}@}. It is distinct from {@{[weathering](weathering.md) which involves no movement}@}. <!--SR:!2029-08-04,1604,270!2028-09-20,1326,290-->
 
 ## references
 

@@ -27,7 +27,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 >
 > Question: When will we be able to see what it looks like __now__?
 >
-> - solution: {@{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way.}@} <!--SR:!2025-03-14,188,310-->
+> - solution: {@{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way.}@} <!--SR:!2027-06-01,809,330-->
 
 <!-- markdownlint MD028 -->
 

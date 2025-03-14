@@ -75,7 +75,7 @@ Here are {@{some examples of the moment-generating function and the characterist
 - For a continuous [probability density function](probability%20density%20function.md), ::@:: $M_{X}(t)=\int _{-\infty }^{\infty }e^{tx}f(x)\,dx$ <!--SR:!2025-04-07,65,310!2025-04-08,66,310-->
 - In the general case: ::@:: $M_{X}(t)=\int _{-\infty }^{\infty }e^{tx}\,dF(x)$, using the [Riemann–Stieltjes integral](Riemann–Stieltjes%20integral.md), and where $F$ is the [cumulative distribution function](cumulative%20distribution%20function.md). This is simply the [Laplace-Stieltjes transform](Laplace-Stieltjes%20transform.md) of $F$, but with the sign of the argument reversed. <!--SR:!2025-03-21,48,290!2025-04-04,63,310-->
 
-Note that for {@{the case where $X$ has a continuous [probability density function](probability%20density%20function.md) $f(x)$}@}, {@{$M_{X}(-t)$ is the [two-sided Laplace transform](two-sided%20Laplace%20transform.md) of $f(x)$}@}. {@{$${\begin{aligned}M_{X}(t)&=\int _{-\infty }^{\infty }e^{tx}f(x)\,dx\\&=\int _{-\infty }^{\infty }\left(1+tx+{\frac {t^{2}x^{2} }{2!} }+\cdots +{\frac {t^{n}x^{n} }{n!} }+\cdots \right)f(x)\,dx\\&=1+tm_{1}+{\frac {t^{2}m_{2} }{2!} }+\cdots +{\frac {t^{n}m_{n} }{n!} }+\cdots ,\end{aligned} }$$}@} where {@{$m_{n}$ is the $n$<!-- LaTeX separator -->th [moment](moment%20(mathematics).md)}@}. <!--SR:!2025-03-14,45,290!2025-04-08,66,310!2025-03-16,47,290!2025-03-27,56,310-->
+Note that for {@{the case where $X$ has a continuous [probability density function](probability%20density%20function.md) $f(x)$}@}, {@{$M_{X}(-t)$ is the [two-sided Laplace transform](two-sided%20Laplace%20transform.md) of $f(x)$}@}. {@{$${\begin{aligned}M_{X}(t)&=\int _{-\infty }^{\infty }e^{tx}f(x)\,dx\\&=\int _{-\infty }^{\infty }\left(1+tx+{\frac {t^{2}x^{2} }{2!} }+\cdots +{\frac {t^{n}x^{n} }{n!} }+\cdots \right)f(x)\,dx\\&=1+tm_{1}+{\frac {t^{2}m_{2} }{2!} }+\cdots +{\frac {t^{n}m_{n} }{n!} }+\cdots ,\end{aligned} }$$}@} where {@{$m_{n}$ is the $n$<!-- LaTeX separator -->th [moment](moment%20(mathematics).md)}@}. <!--SR:!2025-09-13,183,310!2025-04-08,66,310!2025-03-16,47,290!2025-03-27,56,310-->
 
 ### linear transformations of random variables
 
@@ -115,7 +115,7 @@ As an example, consider {@{$X\sim {\text{Chi-Squared} }$ with $k$ degrees of fre
 
 ## relation to other functions
 
-{@{Related to the moment-generating function}@} are {@{a number of other [transforms](integral%20transform.md) that are common in probability theory}@}: (annotation: 3 listed below: {@{characteristic function, cumulant-generating function, probability generating function}@}) <!--SR:!2025-03-27,56,310!2025-04-09,67,310!2025-03-14,46,290-->
+{@{Related to the moment-generating function}@} are {@{a number of other [transforms](integral%20transform.md) that are common in probability theory}@}: (annotation: 3 listed below: {@{characteristic function, cumulant-generating function, probability generating function}@}) <!--SR:!2025-03-27,56,310!2025-04-09,67,310!2025-09-18,188,310-->
 
 __[Characteristic function](characteristic%20function%20(probability%20theory).md)__
 
