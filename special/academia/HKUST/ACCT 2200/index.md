@@ -283,6 +283,11 @@ The content is in teaching order.
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> (alternative, in this course: sales revenue minus variable costs)
   - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> (alternative, in this course: contribution margin / sales revenue)
   - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: increased sales; less: increased variable costs; \(subtotal:\) increased contribution margin; less: increased fixed costs; \(total:\) increased net operating income
+
+## week 6 lecture
+
+- datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
+- topic: cost behavior
 - [variable costing](../../../../general/variable%20costing.md) ::@:: Under this method, manufacturing overhead is incurred in the period that a product is produced. This addresses the issue of absorption costing that allows income to rise as production rises. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP.
   - variable costing / purpose ::@:: cost accounting for internal decision making
   - variable costing / cost classification ::@:: costs are mainly split into fixed costs, variable costs
@@ -298,9 +303,24 @@ The content is in teaching order.
   - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs.
     - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP.
 
-## week 6 lecture
+## week 6 lecture 2
 
-- datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
+> Dear students,
+>
+> As you have an exam next week, the lecture will be held as usual on 10 March (Monday), you can watch the RVC if you do not come to the campus on the day.
+>
+> There will be NO lecture on 11 & 12 March. You can prepare for your exam and manage your study time.
+>
+> All the best with your studies!
+>
+> \[redacted\]
+
+- datetime: 2025-03-12T12:00:00+08:00/2025-03-12T13:20:00+08:00
+- status: canceled
+
+## week 7 lecture
+
+- datetime: 2025-03-17T12:00:00+08:00/2025-03-17T13:20:00+08:00
 - topic: cost–volume–profit (CVP) analysis
 - [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions.
 - [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even".
@@ -332,6 +352,10 @@ The content is in teaching order.
 >
 > Best regards, <br/>
 > \[redacted\]
+
+- datetime: 2025-03-12T19:00:00+08:00/2025-03-12T20:30:00+08:00, PT1H30M
+- venue: Lecture Theater A
+- format: calculator, closed book, closed notes, no cheatsheet
 
 ## examination 2
 
