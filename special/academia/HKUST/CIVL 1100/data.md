@@ -28,7 +28,7 @@ Things to memorize. Yes... 🫠
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2025-05-18,232,294!2025-08-31,367,380-->
-- description ::@:: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
+- description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2025-05-16,292,375-->
 - image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2025-10-26,436,400-->
 - length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2025-06-20,319,372-->
 

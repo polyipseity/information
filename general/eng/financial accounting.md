@@ -36,7 +36,7 @@ __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representa
 __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2025-10-24,277,290!2025-07-16,237,330-->
 
 - __Verifiability__ ::@:: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2026-07-30,512,310!2025-10-01,248,270-->
-- __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-09-17,250,290!2025-03-15,135,290-->
+- __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-09-17,250,290!2026-09-14,548,310-->
 - __Understandability__ ::@:: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2025-03-19,130,290-->
 - __Timeliness__ ::@:: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2025-10-02,298,330!2025-07-01,224,330-->
 
@@ -104,7 +104,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2025-05-25,192,310!2026-04-14,425,310-->
 - [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2025-09-16,285,330-->
 
-Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2025-03-15,135,290-->
+Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
 - _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2025-07-15,217,310-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2025-03-21,131,290!2025-05-06,179,310-->

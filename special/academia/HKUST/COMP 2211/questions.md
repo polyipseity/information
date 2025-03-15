@@ -27,7 +27,7 @@ tags:
 > 4. AI is the science and engineering of making intelligent machines.
 >
 > - solution: {@{4}@}
-> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2025-03-17,67,310!2025-03-15,65,310-->
+> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2025-03-17,67,310!2025-12-22,282,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -213,7 +213,7 @@ tags:
 > print(a.transpose())
 > ```
 >
-> - solution: {@{(newlines omitted) `[[1 5] [2 6] [3 7] [4 8]]`}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{(newlines omitted) `[[1 5] [2 6] [3 7] [4 8]]`}@} <!--SR:!2025-12-17,277,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -237,7 +237,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]]`}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]]`}@} <!--SR:!2025-12-21,281,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +585,7 @@ tags:
 > Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
 > - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2025-10-24,233,330!2025-03-15,65,310-->
+> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2025-10-24,233,330!2025-12-25,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -727,7 +727,7 @@ tags:
 
 > Q3. In an iteration of K-means clustering, the data points with coordinates (9,7), (9,2) and (7,9) are labelled as "Category 1". What is the new position of the centroid for "Category 1"?
 >
-> - solution: {@{\(25/3, 6\)}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{\(25/3, 6\)}@} <!--SR:!2025-12-20,280,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -806,7 +806,7 @@ tags:
 > 3. K-means clustering always minimizes the sum of inter-cluster distance.
 > 4. K-means clustering is deterministic - i.e. it always produces the same result on the same dataset.
 >
-> - solution: {@{1. true (false if not using Euclidean distance, but ignore this for exams) <br/> 2. true <br/> 3. false, not necessarily global minimum, only local minimum <br/> 4. false (assuming initial centroids are initialized randomly, which is usually the case)}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{1. true (false if not using Euclidean distance, but ignore this for exams) <br/> 2. true <br/> 3. false, not necessarily global minimum, only local minimum <br/> 4. false (assuming initial centroids are initialized randomly, which is usually the case)}@} <!--SR:!2025-12-20,280,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -827,7 +827,7 @@ tags:
 > array([0.56, 0.38, 0.48, 0.51, 0.7, 0.98, 0.6, 0.87, 0.61, 0.54])
 > ```
 >
-> - solution: {@{centroid 0: (0.02 + 0.45 + 0.41 + 0.03)/4 = 0.2275 <br/> centroid 1: (0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53)/6 = 0.675}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{centroid 0: (0.02 + 0.45 + 0.41 + 0.03)/4 = 0.2275 <br/> centroid 1: (0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53)/6 = 0.675}@} <!--SR:!2025-12-24,284,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -858,13 +858,13 @@ tags:
 > 3. Its output is equivalent to the direct result of a weighted sum of the inputs plus a bias.
 > 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.
 >
-> - solution: {@{2, 4}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{2, 4}@} <!--SR:!2025-12-18,278,330-->
 
 <!-- markdownlint MD028 -->
 
 > Q3. Suppose we have a dataset with many data points, each with N features. Each feature is either positive (with value 1) or negative (with value -1). We say a data point is "positive" if it has more positive features than negative features, and "negative" otherwise. Design the weights, bias and activation function of a perceptron to classify positive data points from negative data points.
 >
-> - solution: {@{Actually you do not need to tune the weights and biases: leave the former at 1 and the latter at 0. Simply tune the activation function to behave as described above.}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{Actually you do not need to tune the weights and biases: leave the former at 1 and the latter at 0. Simply tune the activation function to behave as described above.}@} <!--SR:!2025-10-02,201,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -881,7 +881,7 @@ tags:
 
 > Q5. Suppose we use perceptron to learn on K training samples where each sample is represented in n-dimensional space. We stopped training after e epochs. How many arithmetic operations were done during training? Express it in terms of K, e and n. (arithmetic operations include both multiplication and addition, ignore the operations for parameter update and the operations in the activation function)
 >
-> - solution: {@{2eKn (remember to include the bias addition)}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{2eKn (remember to include the bias addition)}@} <!--SR:!2025-10-03,202,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,13 +1216,13 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-03-15,65,310!2025-07-01,129,290-->
+> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-12-24,284,330!2025-07-01,129,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q10. (simple) What is the advantage of using Otsu's <!-- osu!: Haha Hehe Desmond GOOD guy --> method for image thresholding compared to the regular image thresholding algorithm?
 >
-> - solution: {@{The result is reproducible.}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{The result is reproducible.}@} <!--SR:!2025-12-25,285,330-->
 
 ## convolutional neural network
 
@@ -1478,7 +1478,7 @@ tags:
 >
 > Do you agree with the student's claim? Justify your answer.
 >
-> - solution: {@{No. <p> For a Markov chain, the state at time $t$ is independent of the values previous processes $X_1, X_2, \cdots, X_{t - 2}$ take. But it _may_ (or _may not_) depend on $X_{t - 1}$.}@} <!--SR:!2025-03-15,65,310-->
+> - solution: {@{No. <p> For a Markov chain, the state at time $t$ is independent of the values previous processes $X_1, X_2, \cdots, X_{t - 2}$ take. But it _may_ (or _may not_) depend on $X_{t - 1}$.}@} <!--SR:!2025-12-19,279,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1524,7 +1524,7 @@ tags:
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-11-21,258,330!2025-03-15,65,310-->
+> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-11-21,258,330!2025-12-23,283,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-03-15,65,310!2025-12-01,266,330-->
+> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-12-23,283,330!2025-12-01,266,330-->
 
 <!-- markdownlint MD028 -->
 

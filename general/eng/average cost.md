@@ -14,7 +14,7 @@ tags:
 
 In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cost__}@} is {@{equal to [total cost](total%20cost.md) \(TC\) divided by the number of units of a [good](goods.md) produced \(the [output](output%20(economics).md) Q\): $$AC={\frac {TC}{Q} }.$$}@} <!--SR:!2025-04-23,70,322!2025-04-23,70,322!2025-04-06,55,310-->
 
-{@{Average cost is an important factor}@} in {@{determining how businesses will choose to [price](pricing.md) their products}@}. <!--SR:!2025-04-21,68,322!2025-03-15,38,290-->
+{@{Average cost is an important factor}@} in {@{determining how businesses will choose to [price](pricing.md) their products}@}. <!--SR:!2025-04-21,68,322!2025-08-13,151,310-->
 
 ## short-run average cost
 

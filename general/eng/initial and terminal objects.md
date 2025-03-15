@@ -40,7 +40,7 @@ In {@{[category theory](category%20theory.md), a branch of [mathematics](mathema
 
 If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2025-04-11,69,317!2025-03-30,59,317!2025-03-30,59,317!2025-04-20,77,337-->
 
-{@{A [strict initial object](strict%20initial%20object.md) _I_}@} is one {@{for which every morphism into _I_ is an [isomorphism](isomorphism.md)}@}. <!--SR:!2025-04-19,76,332!2025-03-15,33,317-->
+{@{A [strict initial object](strict%20initial%20object.md) _I_}@} is one {@{for which every morphism into _I_ is an [isomorphism](isomorphism.md)}@}. <!--SR:!2025-04-19,76,332!2025-08-06,144,337-->
 
 ## examples
 

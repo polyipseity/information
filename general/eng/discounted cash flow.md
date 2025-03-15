@@ -51,7 +51,7 @@ For further context see [Valuation \(finance\) § Valuation overview](valuation%
 
 {@{Discounted cash flow calculations}@} have been used in {@{some form since money was first lent at interest in ancient times}@}. Studies of {@{ancient [Egyptian](Ancient%20Egyptian%20mathematics.md) and [Babylonian mathematics](Babylonian%20mathematics.md)}@} suggest that they used {@{techniques similar to discounting future cash flows}@}. {@{Modern discounted cash flow analysis}@} has been used since {@{at least the early 1700s in the UK coal industry}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-05-04,70,329!2025-04-22,60,310!2025-05-05,71,329!2025-04-10,50,309!2025-05-06,72,329!2025-04-06,47,290-->
 
-{@{Discounted cash flow valuation}@} is differentiated from {@{the accounting [book value](book%20value.md)}@}, which is {@{based on the amount paid for the asset}@}.<sup>[\[4\]](#^ref-4)</sup> Following {@{the [stock market crash of 1929](Wall%20Street%20crash%20of%201929.md)}@}, discounted cash flow analysis {@{gained popularity as a valuation method for [stocks](capital%20stock.md)}@}. {@{[Irving Fisher](Irving%20Fisher.md) in his 1930}@} book {@{_The Theory of Interest_}@} and {@{[John Burr Williams](John%20Burr%20Williams.md)'s 1938}@} text {@{_[The Theory of Investment Value](The%20Theory%20of%20Investment%20Value.md#theory)_}@} first {@{formally expressed the DCF method in modern economic terms}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-04-16,55,310!2025-05-04,70,329!2025-04-10,50,309!2025-03-15,27,270!2025-04-24,62,310!2025-03-30,39,289!2025-03-26,39,290!2025-03-29,38,289!2025-04-15,54,310!2025-05-05,71,329-->
+{@{Discounted cash flow valuation}@} is differentiated from {@{the accounting [book value](book%20value.md)}@}, which is {@{based on the amount paid for the asset}@}.<sup>[\[4\]](#^ref-4)</sup> Following {@{the [stock market crash of 1929](Wall%20Street%20crash%20of%201929.md)}@}, discounted cash flow analysis {@{gained popularity as a valuation method for [stocks](capital%20stock.md)}@}. {@{[Irving Fisher](Irving%20Fisher.md) in his 1930}@} book {@{_The Theory of Interest_}@} and {@{[John Burr Williams](John%20Burr%20Williams.md)'s 1938}@} text {@{_[The Theory of Investment Value](The%20Theory%20of%20Investment%20Value.md#theory)_}@} first {@{formally expressed the DCF method in modern economic terms}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-04-16,55,310!2025-05-04,70,329!2025-04-10,50,309!2025-06-26,103,290!2025-04-24,62,310!2025-03-30,39,289!2025-03-26,39,290!2025-03-29,38,289!2025-04-15,54,310!2025-05-05,71,329-->
 
 ## mathematics
 
@@ -72,7 +72,7 @@ If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite
 
 ### continuous cash flows
 
-For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2025-05-05,71,329!2025-04-18,57,310!2025-05-12,69,270!2025-03-15,28,270-->
+For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2025-05-05,71,329!2025-04-18,57,310!2025-05-12,69,270!2025-06-27,104,290-->
 
 ## discount rate
 

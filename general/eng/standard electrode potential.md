@@ -201,7 +201,7 @@ return (
 
 <!--pytextgen generate section="9209fd"--><!-- The following content is generated at 2024-06-09T06:27:26.493298+08:00. Any edits will be overridden! -->
 
-- K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s):@:-2.931 <!--SR:!2025-03-15,185,190-->
+- K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s):@:-2.931 <!--SR:!2025-06-19,96,170-->
 - Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s):@:-2.868 <!--SR:!2025-11-02,358,150-->
 - Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s):@:-2.71 <!--SR:!2025-04-15,104,130-->
 - Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s):@:-2.372 <!--SR:!2025-04-17,62,130-->
@@ -210,7 +210,7 @@ return (
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s):@:-0.7618 <!--SR:!2025-03-24,77,150-->
 - Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s):@:-0.744 <!--SR:!2025-05-30,86,136-->
 - Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s):@:-0.44 <!--SR:!2025-04-18,41,130-->
-- Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq):@:-0.407 <!--SR:!2025-03-15,23,130-->
+- Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq):@:-0.407 <!--SR:!2025-04-13,29,130-->
 - Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s):@:-0.28 <!--SR:!2025-05-23,79,130-->
 - Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s):@:-0.257 <!--SR:!2025-06-10,111,150-->
 - Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s):@:-0.13 <!--SR:!2025-04-28,114,150-->

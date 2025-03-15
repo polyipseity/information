@@ -37,7 +37,7 @@ For example, of {@{the $3!=6$ permutations of three elements}@}, there is {@{one
 
 For another example, the image at right shows that {@{$\left[{4 \atop 2}\right]=11$: the [symmetric group](symmetric%20group.md) on 4 objects}@} has {@{3 permutations of the form <p> $(\bullet \bullet )(\bullet \bullet )$ (having 2 orbits, each of size 2)}@}, <p> and {@{8 permutations of the form <p> $(\bullet \bullet \bullet )(\bullet )$ (having 1 orbit of size 3 and 1 orbit of size 1)}@}. <!--SR:!2025-11-27,307,330!2025-11-14,296,330!2025-11-05,290,330-->
 
-These numbers can be calculated by {@{considering the orbits as [conjugancy classes](conjugacy%20class.md#properties)}@}. [Alfréd Rényi](Alfréd%20Rényi.md) observed that {@{the unsigned Stirling number of the first kind $\left[{n \atop k}\right]$}@} also counts {@{the number of permutations of size $n$ with $k$ left-to-right maxima}@}.<sup>[\[3\]](#^ref-3)</sup> (annotation: A left-to-right maximum in a permutation is {@{a number in the permutation that is greater all elements to its left}@}.) <!--SR:!2025-03-15,92,270!2025-12-04,312,330!2025-07-16,196,310!2025-05-15,139,290-->
+These numbers can be calculated by {@{considering the orbits as [conjugancy classes](conjugacy%20class.md#properties)}@}. [Alfréd Rényi](Alfréd%20Rényi.md) observed that {@{the unsigned Stirling number of the first kind $\left[{n \atop k}\right]$}@} also counts {@{the number of permutations of size $n$ with $k$ left-to-right maxima}@}.<sup>[\[3\]](#^ref-3)</sup> (annotation: A left-to-right maximum in a permutation is {@{a number in the permutation that is greater all elements to its left}@}.) <!--SR:!2025-11-23,253,270!2025-12-04,312,330!2025-07-16,196,310!2025-05-15,139,290-->
 
 ### signs
 
@@ -109,7 +109,7 @@ Therefore if {@{$p$ is prime}@}, then: {@{$$p\ |\left[{p \atop k}\right] \text{ 
 
 ### expansions for fixed _k_
 
-Since {@{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}@}, one has by {@{[Vieta's formulas](Vieta's%20formulas.md)}@} that {@{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}@} <!--SR:!2025-12-08,316,330!2025-03-15,92,270!2025-06-04,136,250-->
+Since {@{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}@}, one has by {@{[Vieta's formulas](Vieta's%20formulas.md)}@} that {@{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}@} <!--SR:!2025-12-08,316,330!2026-03-04,354,290!2025-06-04,136,250-->
 
 In other words, {@{the Stirling numbers of the first kind}@} are {@{given by [elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) evaluated at 0, 1, ..., _n_ − 1}@}.<sup>[\[5\]](#^ref-5)</sup> In this form, the simple identities given above take the form {@{$$\begin{aligned} \left[{\begin{matrix}n\\n-1\end{matrix} }\right]& =\sum _{i=0}^{n-1}i={\binom {n}{2} }, \\ \left[{\begin{matrix}n\\n-2\end{matrix} }\right]& =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}ij={\frac {3n-1}{4} }{\binom {n}{3} }, \\ \left[{\begin{matrix}n\\n-3\end{matrix} }\right] & =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}\sum _{k=0}^{j-1}ijk={\binom {n}{2} }{\binom {n}{4} }, \end{aligned}$$ and so on}@}. <!--SR:!2025-11-22,303,330!2025-08-22,212,310!2025-06-17,121,250-->
 
@@ -121,7 +121,7 @@ More generally, {@{sums related to these weighted harmonic number expansions of 
 
 One can also {@{"invert" the relations for these Stirling numbers given in terms of the $k$-order harmonic numbers}@} to {@{write the integer-order generalized harmonic numbers in terms of weighted sums of terms involving the Stirling numbers of the first kind}@}. For example, when $k=2,3$ the second-order and third-order harmonic numbers are given by $$\begin{aligned} (n!)^{2}\cdot H_{n}^{(2)} & =\left[{\begin{matrix}n+1\\2\end{matrix} }\right]^{2}-2\left[{\begin{matrix}n+1\\1\end{matrix} }\right]\left[{\begin{matrix}n+1\\3\end{matrix} }\right] \\ (n!)^{3}\cdot H_{n}^{(3)} & =\left[{\begin{matrix}n+1\\2\end{matrix} }\right]^{3}-3\left[{\begin{matrix}n+1\\1\end{matrix} }\right]\left[{\begin{matrix}n+1\\2\end{matrix} }\right]\left[{\begin{matrix}n+1\\3\end{matrix} }\right]+3\left[{\begin{matrix}n+1\\1\end{matrix} }\right]^{2}\left[{\begin{matrix}n+1\\4\end{matrix} }\right]. \end{aligned}$$ <!--SR:!2025-12-13,324,351!2025-04-11,113,289-->
 
-More generally, one can {@{invert the [Bell polynomial](bell%20polynomials.md) generating function for the Stirling numbers expanded in terms of the $m$-order [harmonic numbers](harmonic%20number.md)}@} to obtain that {@{for integers $m\geq 2$ $$H_{n}^{(m)}=-m\times [x^{m}]\log \left(1+\sum _{k\geq 1}\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\frac {(-x)^{k} }{n!} }\right).$$}@} <!--SR:!2025-03-15,94,289!2025-04-17,79,291-->
+More generally, one can {@{invert the [Bell polynomial](bell%20polynomials.md) generating function for the Stirling numbers expanded in terms of the $m$-order [harmonic numbers](harmonic%20number.md)}@} to obtain that {@{for integers $m\geq 2$ $$H_{n}^{(m)}=-m\times [x^{m}]\log \left(1+\sum _{k\geq 1}\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\frac {(-x)^{k} }{n!} }\right).$$}@} <!--SR:!2025-12-18,278,289!2025-04-17,79,291-->
 
 ### finite sums
 
@@ -158,7 +158,7 @@ Other identities arise by {@{exchanging the order of summation, taking derivativ
 
 ### asymptotics
 
-The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2025-03-15,14,171!2025-06-02,130,271-->
+The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2025-04-09,25,171!2025-06-02,130,271-->
 
 For fixed $n$ (growing $k$) we have the following estimate: ::@:: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2025-04-17,106,251!2025-03-20,97,271-->
 

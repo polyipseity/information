@@ -29,7 +29,7 @@ In {@{the United Kingdom}@}, {@{the term [net asset value](net%20asset%20value.m
 
 {@{Sample [general journal](general%20journal.md) entry}@} for depreciation<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-04-04,63,310-->
 
-- Depreciation expenses: ::@:: building... debit = \$150, under expenses in retained earnings <!--SR:!2025-03-15,46,290!2025-04-04,63,310-->
+- Depreciation expenses: ::@:: building... debit = \$150, under expenses in retained earnings <!--SR:!2025-09-18,187,310!2025-04-04,63,310-->
 - Accumulated depreciation: ::@:: building... credit = \$150, under assets <!--SR:!2025-03-21,48,290!2025-04-09,67,310-->
 
 {@{The balance sheet valuation for an asset}@} is {@{the asset's cost basis minus accumulated depreciation}@}.<sup>[\[8\]](#^ref-8)</sup> Similar bookkeeping transactions are used to {@{record amortization and depletion}@}. <!--SR:!2025-04-07,65,310!2025-04-07,65,310!2025-03-21,48,290-->
@@ -54,7 +54,7 @@ A corporation's book value is used {@{in fundamental financial analysis to help 
 
 ## tangible common equity
 
-{@{A variation of book value, [tangible common equity](tangible%20common%20equity.md)}@}, has {@{recently come into use by the U.S. federal government in the valuation of troubled banks}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> {@{Tangible common equity}@} is calculated as {@{total book value minus [intangible assets](intangible%20asset.md), [goodwill](goodwill%20(accounting).md), and [preferred equity](preferred%20stock.md)}@}, and can thus be {@{considered the most conservative valuation of a company and the best approximation of its value should it be forced to liquidate}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-03-20,47,290!2025-03-15,46,290!2025-03-29,58,310!2025-03-20,47,290!2025-05-17,90,290-->
+{@{A variation of book value, [tangible common equity](tangible%20common%20equity.md)}@}, has {@{recently come into use by the U.S. federal government in the valuation of troubled banks}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> {@{Tangible common equity}@} is calculated as {@{total book value minus [intangible assets](intangible%20asset.md), [goodwill](goodwill%20(accounting).md), and [preferred equity](preferred%20stock.md)}@}, and can thus be {@{considered the most conservative valuation of a company and the best approximation of its value should it be forced to liquidate}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-03-20,47,290!2025-09-17,186,310!2025-03-29,58,310!2025-03-20,47,290!2025-05-17,90,290-->
 
 Since {@{tangible common equity subtracts preferred equity from the tangible book value}@}, it does {@{a better job estimating what the value of the company is}@} to {@{holders of specifically _common_ stock compared to standard calculations of book value}@}. <!--SR:!2025-03-18,46,290!2025-03-28,57,310!2025-09-15,185,310-->
 

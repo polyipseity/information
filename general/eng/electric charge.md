@@ -135,7 +135,7 @@ When {@{a piece of glass and a piece of resin}@}—neither of which {@{exhibit a
 {@{A second piece of glass rubbed with a second piece of resin}@}, then {@{separated and suspended near the former pieces of glass and resin}@} causes these phenomena: (annotation: 3 items: {@{two pieces of glasses, piece of glass and piece of resin, two pieces of resin}@}) <!--SR:!2025-04-29,65,310!2025-04-05,43,290!2025-04-20,58,310-->
 
 - (annotation: two pieces of glass) ::@:: The two pieces of glass repel each other. <!--SR:!2025-04-23,60,310!2025-04-17,55,310-->
-- (annotation: piece of glass, piece of resin) ::@:: Each piece of glass attracts each piece of resin. <!--SR:!2025-04-26,63,310!2025-03-15,29,270-->
+- (annotation: piece of glass, piece of resin) ::@:: Each piece of glass attracts each piece of resin. <!--SR:!2025-04-26,63,310!2025-06-30,107,290-->
 - (annotation: two pieces of resin) ::@:: The two pieces of resin repel each other. <!--SR:!2025-04-20,58,310!2025-04-20,58,310-->
 
 {@{This attraction and repulsion}@} is {@{an _electrical phenomenon_}@}, and {@{the bodies that exhibit them}@} are said to be {@{_electrified_, or _electrically charged_}@}. {@{Bodies may be electrified}@} in {@{many other ways, as well as by sliding}@}. {@{The electrical properties of the two pieces of glass}@} are {@{similar to each other but opposite to those of the two pieces of resin}@}: The glass {@{attracts what the resin repels and repels what the resin attracts}@}. <!--SR:!2025-04-19,57,310!2025-05-01,67,310!2025-04-18,56,310!2025-05-01,67,310!2025-04-29,65,310!2025-04-19,57,310!2025-04-18,56,310!2025-04-25,62,310!2025-04-18,56,310-->

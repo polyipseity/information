@@ -77,7 +77,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2025-08-03,187,312!2025-09-16,206,312!2025-10-29,258,332!2025-11-20,278,332!2025-11-18,275,332!2025-05-28,123,292!2025-07-14,170,312!2025-06-22,157,312!2025-05-10,119,292!2025-09-20,209,312-->
 
-{@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}. <!--SR:!2025-12-17,297,332!2025-03-15,26,232!2025-12-15,295,332-->
+{@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}. <!--SR:!2025-12-17,297,332!2025-05-16,62,232!2025-12-15,295,332-->
 
 > {@{__3-element permutations for comparison__}@}
 >

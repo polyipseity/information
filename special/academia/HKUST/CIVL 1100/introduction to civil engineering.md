@@ -31,7 +31,7 @@ The content is in teaching order.
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2025-05-20,310,380-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2027-09-20,994,350-->
-    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2025-03-15,237,345-->
+    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2028-04-12,1124,365-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
@@ -280,7 +280,7 @@ workmanship
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
-- economics→::@::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
+- economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2025-04-26,191,260-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2025-04-18,249,312-->

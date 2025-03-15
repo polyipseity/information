@@ -140,7 +140,7 @@ root cause analysis, 5 whys
 - 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-12-27,297,261!2025-03-17,68,261-->
 - PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2025-03-30,181,281-->
 - PPTG: people, process, technology, governance framework→::@::←blue ocean strategy <!--SR:!2025-09-23,198,281!2026-06-01,535,321-->
-- blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-03-15,166,241-->
+- blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-06-09,86,221-->
 - interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2026-04-23,426,261!2025-09-01,283,241-->
 - profitability framework→::@::←root cause analysis, 5 whys <!--SR:!2025-10-30,331,281!2026-02-23,363,241-->
 - root cause analysis, 5 whys→::@::←_(end)_ <!--SR:!2025-03-25,220,321!2026-04-08,452,301-->
