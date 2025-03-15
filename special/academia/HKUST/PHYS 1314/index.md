@@ -356,6 +356,29 @@ The content is in teaching order.
   - network analysis / series, parallel ::@:: Some two terminal network of impedances can eventually be reduced to a single impedance by successive applications of impedances in series or impedances in parallel. <p> - Impedances in [series](../../../../general/series%20and%20parallel%20circuits.md#series%20circuits): $$Z_{\mathrm {eq} }=Z_{1}+Z_{2}+\,\cdots \,+Z_{n}.$$ <br/> - Impedances in [parallel](../../../../general/series%20and%20parallel%20circuits.md#parallel%20circuits): $${\frac {1}{Z_{\mathrm {eq} } } }={\frac {1}{Z_{1} } }+{\frac {1}{Z_{2} } }+\,\cdots \,+{\frac {1}{Z_{n} } }.$$
   - network analysis / Kirchhoff's circuit laws ::@:: There are complicated circuits that cannot be reduced by using only series and parallel transformations. To analyze such circuits, we consider as a network of loops and junctions, and apply Kirchhoff's circuit laws on it. <p> \(The concrete steps involved are complex and is not listed here.\)
 
+## week 6 lecture
+
+> Dear Student,
+>
+> please be reminded that I am on a duty trip out of Hong Kong. Tomorrow, the lecture will be used for a flipped class room session during which you have the chance to practice your problem solving skills under the guidance of our TA \[redacted\]. The problem sets will be available on Canvas tomorrow morning and they are comparable to the problems that you will find in the midterm exam. So this is a good practice and I encourage you make use of this opportunity.
+>
+> Best,
+>
+> \[redacted\]
+
+- datetime: 2025-03-10T09:00:00+08:00/2025-03-10T10:20:00+08:00
+- topic: flipped classroom
+
+## week 6 lecture 2
+
+- datetime: 2025-03-12T09:00:00+08:00/2025-03-12T10:20:00+08:00
+- status: unscheduled
+
+## week 6 tutorial
+
+- datetime: 2025-03-13T18:00:00+08:00/2025-03-13T18:50:00+08:00
+- status: unscheduled
+
 ## final examination
 
 ## aftermath
