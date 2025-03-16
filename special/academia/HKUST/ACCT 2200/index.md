@@ -107,7 +107,7 @@ The content is in teaching order.
     - job costing / vs. process costing / report types ::@:: job cost sheet per customer/project/job; production report per process <!--SR:!2025-05-27,83,348!2025-05-21,77,348-->
   - job cost / manufacturing costs ::@:: direct materials, direct labor, manufacturing overhead; add them together <!--SR:!2025-05-22,78,348!2025-04-19,51,328-->
   - job cost / source documents ::@:: documents to assign direct costs to jobs; direct materials: materials requisition form, direct labor: labor time ticket <!--SR:!2025-05-01,57,328!2025-05-24,80,348-->
-  - job cost / materials requisition form: [formats § direct materials requisition form](formats.md#direct%20materials%20acquitision%20form)
+  - job cost / materials requisition form: [formats § materials requisition form](formats.md#materials%20requisition%20form)
   - job cost / (direct) labor time ticket: [formats § job cost sheet](formats.md#labor%20time%20ticket)
   - job cost / job cost sheet: [formats § job cost sheet](formats.md#job%20cost%20sheet)
   - job cost / [manufacturing overhead](../../../../general/factory%20overhead.md) (MOH) ::@:: Applied Manufacturing Overhead = Predetermined Overhead Rate (POHR) × Actual Cost Driver <p> The actual cost driver/allocation base may be direct labor costs (less common), direct labor hours (more common), direct materials costs, etc. <!--SR:!2025-05-02,58,328!2025-05-02,58,328-->
@@ -156,6 +156,7 @@ The content is in teaching order.
   - process costing / steps ::@:: find physical units (transferred) → convert physical units into equivalent units → calculate cost per equivalent unit → reconcile costs (using per unit cost) → prepare production reports <!--SR:!2025-04-29,52,342!2025-06-10,87,362-->
   - process costing / methods ::@:: first-in, first-out (FIFO), weighted average cost, etc. <!--SR:!2025-06-15,92,362!2025-06-13,90,362-->
   - process costing / equivalent units ::@:: Remember in accounting, costs are only incurred when the performance happens. Since not all physical units in an inventory have been finished, equivalent units account for this by multiplying the completion percentage. <p> Note that it is calculated separately for direct materials (materials may not be all added at the process start) and conversion cost (WIP units). <!--SR:!2025-04-15,38,322!2025-06-15,92,362-->
+    - process costing / equivalent units / different methods ::@:: weighted average cost method: The equivalent units include those in the starting inventory. <br/> first-in, first-out \(FIFO\) method: The equivalent units do _not_ include those in the starting inventory.
   - process costing / weighted average cost ::@:: Essentially, the per unit cost is calculated by dividing the _ending_ direct materials and _ending_ conversion cost by their respective equivalent units. <!--SR:!2025-05-22,68,342!2025-04-29,52,342-->
     - process costing / weighted average cost / find physical units ::@:: Compute units transferred (which must be completed for them to be transferred in the first place). <p> You may use a _table_ to compute the values. <!--SR:!2025-05-22,68,342!2025-04-29,52,342-->
       - process costing / weighted average cost / find physical units / table: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
@@ -282,6 +283,11 @@ The content is in teaching order.
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> (alternative, in this course: sales revenue minus variable costs) <!--SR:!2025-03-28,18,366!2025-03-30,20,366-->
   - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> (alternative, in this course: contribution margin / sales revenue) <!--SR:!2025-03-29,19,366!2025-03-30,20,366-->
   - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: increased sales; less: increased variable costs; \(subtotal:\) increased contribution margin; less: increased fixed costs; \(total:\) increased net operating income <!--SR:!2025-03-30,20,366!2025-03-20,11,326-->
+
+## week 6 lecture
+
+- datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
+- topic: cost behavior
 - [variable costing](../../../../general/variable%20costing.md) ::@:: Under this method, manufacturing overhead is incurred in the period that a product is produced. This addresses the issue of absorption costing that allows income to rise as production rises. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP. <!--SR:!2025-03-30,20,366!2025-03-29,19,366-->
   - variable costing / purpose ::@:: cost accounting for internal decision making <!--SR:!2025-03-30,20,366!2025-03-29,19,366-->
   - variable costing / cost classification ::@:: costs are mainly split into fixed costs, variable costs <!--SR:!2025-03-30,20,366!2025-03-29,19,366-->
@@ -297,9 +303,24 @@ The content is in teaching order.
   - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs. <!--SR:!2025-03-28,18,366!2025-03-24,14,346-->
     - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP. <!--SR:!2025-03-28,18,366!2025-03-29,19,366-->
 
-## week 6 lecture
+## week 6 lecture 2
 
-- datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
+> Dear students,
+>
+> As you have an exam next week, the lecture will be held as usual on 10 March (Monday), you can watch the RVC if you do not come to the campus on the day.
+>
+> There will be NO lecture on 11 & 12 March. You can prepare for your exam and manage your study time.
+>
+> All the best with your studies!
+>
+> \[redacted\]
+
+- datetime: 2025-03-12T12:00:00+08:00/2025-03-12T13:20:00+08:00
+- status: canceled
+
+## week 7 lecture
+
+- datetime: 2025-03-17T12:00:00+08:00/2025-03-17T13:20:00+08:00
 - topic: cost–volume–profit (CVP) analysis
 - [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions. <!--SR:!2025-03-28,18,366!2025-03-28,18,366-->
 - [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even". <!--SR:!2025-03-29,19,366!2025-03-28,18,366-->
@@ -331,6 +352,10 @@ The content is in teaching order.
 >
 > Best regards, <br/>
 > \[redacted\]
+
+- datetime: 2025-03-12T19:00:00+08:00/2025-03-12T20:30:00+08:00, PT1H30M
+- venue: Lecture Theater A
+- format: calculator, closed book, closed notes, no cheatsheet
 
 ## examination 2
 

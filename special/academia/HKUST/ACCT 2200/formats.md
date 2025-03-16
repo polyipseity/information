@@ -19,7 +19,7 @@ tags:
 
 Do you really need to remember these _exactly_? ::@:: Not really... The approximate format should suffice. <!--SR:!2025-03-26,16,310!2025-03-25,15,310-->
 
-## materials acquitision form
+## materials requisition form
 
 > __example__
 >
@@ -167,12 +167,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | -----------------------:| -----------------------:|:-------------------------------------------------- |:--------------- |
 > |                         | {@{Increase}@}          | {@{Decrease}@}                                     |                 |
 > |                         | {@{__Cash \(A\)__}@}    | {@{\(the left text should be centered instead\)}@} |                 |
-> |                         | __----------__          | __----------__                                     |                 |
+> |                         | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯              | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯                                         |                 |
 > |                         | {@{__Debits \(Dr\)__}@} | {@{__Credits \(Cr\)__}@}                           |                 |
 > | {@{Beginning balance}@} | {@{100}@}               |                                                    |                 |
 > | {@{Income}@}            | {@{100}@}               |                                                    |                 |
 > |                         |                         | {@{50}@}                                           | {@{Transport}@} |
-> |                         | __----------__          | __----------__                                     |                 |
+> |                         | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯              | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯                                         |                 |
 > | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 | <!--SR:!2025-03-27,17,310!2025-03-24,14,290!2025-03-26,16,310!2025-03-26,16,290!2025-03-26,16,310!2025-03-24,14,290!2025-03-26,16,310!2025-03-26,16,310!2025-03-26,16,290!2025-03-27,17,310!2025-03-25,15,310!2025-03-24,14,290!2025-03-25,15,290!2025-03-26,16,310-->
 
 - T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance. <!--SR:!2025-03-25,15,310!2025-03-26,16,310-->

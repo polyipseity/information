@@ -1,0 +1,1 @@
+voltage divider.md
