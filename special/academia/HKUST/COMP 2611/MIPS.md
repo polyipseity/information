@@ -67,7 +67,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 
 Common instruction variants include {@{immediate `_i`, unsigned `_u`}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand instead of a register}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}.
 
-One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2025-03-17,4,270!2025-03-17,4,270!2025-03-17,4,270!2025-03-17,4,270-->
+One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2025-03-17,4,270!2025-03-17,4,270-->
 
 ### operands
 
