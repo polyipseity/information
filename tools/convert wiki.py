@@ -83,8 +83,12 @@ _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
     _names_map_manual = load(names_map_file)
 _names_map = {
-    f"{filename[:1].upper()}{filename[1:-3]}": filename[:-3]
+    key: val
     for filename in iglob("*.md", root_dir=_CONVERTED_WIKI_DIRECTORY)
+    for key, val in (
+        (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
+        (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
+    )
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
@@ -175,7 +179,7 @@ async def wiki_html_to_plaintext(
     prefix, suffix = "", ""
     match ele.name:
         # headers, should come before bold
-        case name if (header_match := __HEADER_PATTERN.match(name)):
+        case name if header_match := __HEADER_PATTERN.match(name):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
             process_strings = lambda strings: _fix_name_maybe(strings.strip())
         # bold, italic, bold & italic
@@ -381,10 +385,14 @@ async def wiki_html_to_plaintext(
 
             process_strings = process_strings_tdh
         # images
-        case _ if ele.name == "img" and not {
-            "mwe-math-fallback-image-display",
-            "mwe-math-fallback-image-inline",
-        } & classes:
+        case _ if (
+            ele.name == "img"
+            and not {
+                "mwe-math-fallback-image-display",
+                "mwe-math-fallback-image-inline",
+            }
+            & classes
+        ):
 
             def process_strings_img(strings: str, ele: Tag = ele):
                 if src := ele.get("src"):
