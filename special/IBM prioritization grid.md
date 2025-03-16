@@ -52,7 +52,7 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 - Plot the ideas on the graph based on votes.→::@::←Discuss the ideas and adjust the plotting, based on relative strength. <!--SR:!2026-08-22,557,272!2026-03-27,451,252-->
 - Discuss the ideas and adjust the plotting, based on relative strength.→::@::←Assess the ideas by drawing two arcs, splitting the grid into 3 quadrants. Label the top quadrant "no-brainers", the middle quadrant "big bets" for higher [value](#value%20to%20the%20user) and "utilities" for higher [feasibility](#feasibility%20for%20us), and the bottom quadrant "further exploration". <!--SR:!2025-10-07,339,252!2025-09-27,334,252-->
 - Assess the ideas by drawing two arcs, splitting the grid into 3 quadrants. Label the top quadrant "no-brainers", the middle quadrant "big bets" for higher [value](#value%20to%20the%20user) and "utilities" for higher [feasibility](#feasibility%20for%20us), and the bottom quadrant "further exploration".→::@::←Focus the discussion around "big bets", though do not completely ignore the other ideas. <!--SR:!2025-05-09,263,272!2026-02-05,471,272-->
-- Focus the discussion around "big bets", though do not completely ignore the other ideas.→::@::←_(end)_ <!--SR:!2025-03-16,275,332!2025-09-24,364,292-->
+- Focus the discussion around "big bets", though do not completely ignore the other ideas.→::@::←_(end)_ <!--SR:!2027-09-14,912,332!2025-09-24,364,292-->
 
 <!--/pytextgen-->
 

@@ -129,7 +129,7 @@ Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}
 
 {@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-07-24,191,319!2026-03-12,392,359-->
 
-- reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$ <!--SR:!2025-04-14,37,239!2025-03-16,31,259-->
+- reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$ <!--SR:!2025-04-14,37,239!2025-06-07,83,259-->
 - increment by combinatorial argument ::@:: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n} \frac {n!} {k!} \left[{k \atop m}\right]$$  (annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.) <!--SR:!2025-07-30,192,319!2025-05-07,129,299-->
 - increment by summing up to _k_ ::@:: $$\left[{n + k +1 \atop n}\right]=\sum _{j=0}^{k}(n+j)\left[{n+j \atop j}\right]$$ <!--SR:!2025-07-06,160,279!2025-05-02,125,299-->
 - partition then choose partitions ::@:: $$\left[{n \atop l+m}\right]{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left[{k \atop l}\right]\left[{n-k \atop m}\right]$$  (annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ cycles. Partition the remaining _n_ − _k_ elements into the unchosen _m_ cycles.) <!--SR:!2025-12-18,328,351!2025-12-16,326,355-->

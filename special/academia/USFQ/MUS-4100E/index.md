@@ -99,7 +99,7 @@ The content is in teaching order.
     - "Strasbourg" (2008) — Roy Hargrove
     - "Black Radio" (2012) — Robert Glasper
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
-  - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-03-16,43,290!2025-04-21,73,321-->
+  - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-07-19,125,290!2025-04-21,73,321-->
 - [music](../../../../general/music.md)
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2025-04-09,63,310-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-08-29,167,310!2025-08-16,159,321-->
@@ -159,7 +159,7 @@ The content is in teaching order.
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-04-10,56,320!2025-05-06,78,340-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-05-13,83,340!2025-05-08,78,340-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-03-16,36,300!2025-03-24,39,300-->
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-07-02,108,300!2025-03-24,39,300-->
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-05-11,81,340!2025-04-10,56,320-->
 - quiz (attendance): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)

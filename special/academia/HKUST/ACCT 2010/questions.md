@@ -117,7 +117,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the procurement involves instantaneous transfer of cash}@} <!--SR:!2025-03-16,133,290-->
+> - solution: {@{1, and also 3 if the procurement involves instantaneous transfer of cash}@} <!--SR:!2026-09-05,538,310-->
 
 <!-- markdownlint MD028 -->
 

@@ -19,7 +19,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: [rule of sum](addition%20principle.md)
 
-The rule of sum is {@{an intuitive principle}@} stating that if {@{there are _a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing), and the two events cannot both occur (or the two things can't both be done)}@}, then {@{there are _a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md) is equal to the size of their union}@}. <!--SR:!2025-10-25,289,330!2025-10-26,290,330!2025-11-18,309,330!2025-03-16,103,290-->
+The rule of sum is {@{an intuitive principle}@} stating that if {@{there are _a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing), and the two events cannot both occur (or the two things can't both be done)}@}, then {@{there are _a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md) is equal to the size of their union}@}. <!--SR:!2025-10-25,289,330!2025-10-26,290,330!2025-11-18,309,330!2026-01-15,305,290-->
 
 ## rule of product
 

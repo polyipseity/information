@@ -50,7 +50,7 @@ Financial assets include {@{stock shares and bonds owned by an individual or com
 
 {@{A company or corporation's book value}@}, as {@{an asset held by a separate economic entity}@}, is {@{the company or corporation's [shareholders' equity](shareholders'%20equity.md)}@}, {@{the acquisition cost of the shares}@}, or {@{the market value of the shares owned by the separate economic entity}@}. <!--SR:!2025-04-08,66,310!2025-04-05,63,310!2025-08-03,152,310!2025-04-03,62,310!2025-04-07,65,310-->
 
-A corporation's book value is used {@{in fundamental financial analysis to help determine whether the market value of corporate shares}@} is {@{above or below the book value of corporate shares}@}. {@{Neither market value nor book value}@} is {@{an unbiased estimate of a corporation's value}@}. {@{The corporation's bookkeeping or accounting records}@} {@{do not generally reflect the market value of assets and liabilities}@}, and {@{the market or trade value of the corporation's stock}@} is {@{subject to variations}@}. <!--SR:!2025-03-18,46,290!2025-04-01,60,310!2025-04-04,63,310!2025-03-26,55,310!2025-04-04,63,310!2025-03-16,47,290!2025-03-27,56,310!2025-04-06,64,310-->
+A corporation's book value is used {@{in fundamental financial analysis to help determine whether the market value of corporate shares}@} is {@{above or below the book value of corporate shares}@}. {@{Neither market value nor book value}@} is {@{an unbiased estimate of a corporation's value}@}. {@{The corporation's bookkeeping or accounting records}@} {@{do not generally reflect the market value of assets and liabilities}@}, and {@{the market or trade value of the corporation's stock}@} is {@{subject to variations}@}. <!--SR:!2025-03-18,46,290!2025-04-01,60,310!2025-04-04,63,310!2025-03-26,55,310!2025-04-04,63,310!2025-09-24,192,310!2025-03-27,56,310!2025-04-06,64,310-->
 
 ## tangible common equity
 
@@ -73,7 +73,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 ### changes are caused by
 
 1. The sale of shares/units by the business ::@:: increases the total book value. Book/sh will increase if the additional shares are issued at a price higher than the pre-existing book/sh. <!--SR:!2025-03-18,46,290!2025-04-03,62,310-->
-2. The purchase of its own shares by the business ::@:: will decrease total book value. Book/shares will decrease if more is paid for them than was received when originally issued \(pre-existing book/sh\). <!--SR:!2025-03-16,47,290!2025-04-06,64,310-->
+2. The purchase of its own shares by the business ::@:: will decrease total book value. Book/shares will decrease if more is paid for them than was received when originally issued \(pre-existing book/sh\). <!--SR:!2025-09-23,191,310!2025-04-06,64,310-->
 3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!2025-05-21,94,290!2025-04-04,63,310-->
 4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2025-04-08,66,310!2025-04-06,64,310!2025-04-05,63,310!2025-09-14,184,310!2025-03-21,48,290-->
 

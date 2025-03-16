@@ -194,7 +194,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2025-05-28,74,342!2025-03-16,17,322-->
+> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2025-05-28,74,342!2025-05-12,57,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -204,7 +204,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-03-17,18,322!2025-03-16,17,322-->
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-03-17,18,322!2025-06-03,79,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -408,7 +408,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{2}@}
-> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2025-03-16,4,339!2025-03-16,4,339-->
+> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2025-04-03,18,359!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -431,7 +431,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!2025-03-16,4,339!2025-03-16,4,339-->
+> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!2025-04-03,18,359!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -447,7 +447,7 @@ tags:
 > 3. compute crossover point \(or incremental IRR\) and use IRR rule
 > 4. compute equivalent annual annuity \(EAA\)
 >
-> - solution: {@{4}@} <!--SR:!2025-03-16,4,339-->
+> - solution: {@{4}@} <!--SR:!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -464,7 +464,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2025-03-16,4,339!2025-03-16,4,339-->
+> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2025-04-03,18,359!2025-04-03,18,359-->
 
 ## week 5 lecture 2
 
@@ -492,7 +492,7 @@ tags:
 > 2. Firm B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Its net working capital \(NWC\) is smaller.}@} <!--SR:!2025-03-16,4,339!2025-03-16,4,339-->
+> - explanation: {@{Its net working capital \(NWC\) is smaller.}@} <!--SR:!2025-04-03,18,359!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -501,7 +501,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-03-16,4,339-->
+> - solution: {@{2}@} <!--SR:!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -510,7 +510,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-03-16,4,339-->
+> - solution: {@{1}@} <!--SR:!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -519,7 +519,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-03-16,4,339-->
+> - solution: {@{2}@} <!--SR:!2025-04-03,18,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -530,4 +530,4 @@ tags:
 > 3. 2–3
 > 4. below 2
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2025-03-16,4,339-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2025-04-03,18,359-->

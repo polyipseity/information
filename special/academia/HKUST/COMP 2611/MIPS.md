@@ -78,7 +78,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{a semantic of _constant_ zero}@}, i
 - logical or ::@:: `or $s0, $s1, $s2`: `$s0 = $s1 | $s2` <!--SR:!2025-03-17,4,270!2025-03-17,4,270-->
 - logical or immediate ::@:: `ori $s0, $s1, imm0`: `$s0 = $s1 | imm0` <!--SR:!2025-03-17,4,270!2025-03-17,4,270-->
 - shift left logical ::@:: `sll $s0, $s1, imm0`: `$s0 = $s1 << imm0`, padded by 0 <!--SR:!2025-03-17,4,270!2025-03-17,4,270-->
-- shift right logical ::@:: `srl $s0, $s1, imm0`: `$s0 = $s1 >> imm0`, padded by 0 <!--SR:!2025-03-16,3,250!2025-03-17,4,270-->
+- shift right logical ::@:: `srl $s0, $s1, imm0`: `$s0 = $s1 >> imm0`, padded by 0 <!--SR:!2025-03-18,2,230!2025-03-17,4,270-->
 
 ### data transfer
 

@@ -235,7 +235,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 Water Pollution: A serious problem in Hong Kong?
 
-- wastewater ::@:: drinking water after use <!--SR:!2025-03-16,231,330!2027-08-26,897,330-->
+- wastewater ::@:: drinking water after use <!--SR:!2028-01-31,1051,350!2027-08-26,897,330-->
 
 ## page 17
 
@@ -409,7 +409,7 @@ Observed Global Climate Change
 Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
-  - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2025-03-16,212,310-->
+  - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2027-09-11,909,330-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2027-02-05,754,330-->
   - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2027-08-02,880,330-->
 

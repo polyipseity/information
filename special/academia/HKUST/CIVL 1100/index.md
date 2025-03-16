@@ -118,7 +118,7 @@ The content is in teaching order.
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
   - soil load ::@:: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2026-06-06,567,330!2025-05-28,289,350-->
-  - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2025-08-11,347,350!2025-03-16,214,321-->
+  - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2025-08-11,347,350!2027-10-21,949,341-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2026-11-11,647,330!2025-07-21,331,341-->
 - [structural system](../../../../general/structural%20system.md)
@@ -131,7 +131,7 @@ The content is in teaching order.
 - wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2026-12-17,670,330!2026-11-30,660,330-->
   - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2025-09-04,370,350-->
   - wall-frame economic limit ::@:: up to about 50 stories <!--SR:!2025-07-29,340,350!2027-09-03,933,350-->
-- framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2025-03-16,216,330-->
+- framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2027-11-24,983,350-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::@:: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2025-05-05,256,330!2025-09-04,320,301-->
 

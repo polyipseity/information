@@ -44,13 +44,13 @@ In the United States, {@{the [Financial Accounting Standards Board](Financial%20
 
 __Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-07-07,123,290!2025-03-18,56,310-->
 
-__Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-03-16,54,310!2025-03-25,62,310-->
+__Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-08-28,165,310!2025-03-25,62,310-->
 
 __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠income from continuing operations} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-06-27,126,290!2025-03-25,62,310-->
 
 ## diluted earnings per share
 
-{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-24,61,310!2025-03-16,54,310!2025-03-30,66,310!2025-09-10,185,310!2025-04-21,72,270-->
+{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-24,61,310!2025-08-27,164,310!2025-03-30,66,310!2025-09-10,185,310!2025-04-21,72,270-->
 
 ### calculations
 

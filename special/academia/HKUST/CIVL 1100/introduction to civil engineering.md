@@ -59,7 +59,7 @@ The content is in teaching order.
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2025-03-29,154,245!2025-03-16,243,344-->
+      - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2025-03-29,154,245!2027-07-04,840,344-->
   - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2028-08-04,1252,387-->

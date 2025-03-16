@@ -80,12 +80,12 @@ The content is in teaching order.
   - hallucination / causes ::@:: These errors can be caused by a variety of factors, including data biases, incorrect model assumptions, insufficient training data, etc. <!--SR:!2025-04-11,41,290!2025-04-28,58,310-->
   - hallucination / examples ::@:: DALL-E 2 or Midjourney unable to create the image you want because the AI does not understand your desired context. <!--SR:!2025-03-23,26,270!2025-04-05,39,290-->
 - [model collapse](../../../../general/model%20collapse.md) ::@:: It is a phenomenon where machine learning models gradually degrade due to errors coming from uncurated training on the outputs of another model, including prior versions of itself. Such outputs are known as synthetic data. <p> A study in 2024 shows this. For example, after successive generations, nonsense text are generated. Biases in the dataset get amplified, e.g. forgetting obscure dog breeds exist due to under-representation in the initial dataset. <!--SR:!2025-03-23,26,270!2025-04-27,57,310-->
-- [intelligent agent](../../../../general/intelligent%20agent.md) ::@:: It is an entity that perceives its environment, takes actions autonomously to achieve goals, and may improve its performance through machine learning or by acquiring knowledge. <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
-  - intelligent agent / features ::@:: can perceive, can perform actions, has an objective/goal <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
-  - intelligent agent / learning objectives (in this course) ::@:: stimulus-response agent (stateless), then add states <!--SR:!2025-03-17,18,329!2025-03-16,17,329-->
-  - intelligent agent / control ::@:: e.g. designed vs. evolved/learned, genetic algorithms, neural networks, rules <!--SR:!2025-03-16,17,329!2025-05-30,76,349-->
+- [intelligent agent](../../../../general/intelligent%20agent.md) ::@:: It is an entity that perceives its environment, takes actions autonomously to achieve goals, and may improve its performance through machine learning or by acquiring knowledge. <!--SR:!2025-05-13,58,329!2025-05-13,58,329-->
+  - intelligent agent / features ::@:: can perceive, can perform actions, has an objective/goal <!--SR:!2025-06-04,80,349!2025-05-13,58,329-->
+  - intelligent agent / learning objectives (in this course) ::@:: stimulus-response agent (stateless), then add states <!--SR:!2025-03-17,18,329!2025-05-13,58,329-->
+  - intelligent agent / control ::@:: e.g. designed vs. evolved/learned, genetic algorithms, neural networks, rules <!--SR:!2025-06-04,80,349!2025-05-30,76,349-->
   - intelligent agent / stimulus-response agent ::@:: Stateless machines that reacts to _immediate_ stimulus from the environment. <!--SR:!2025-03-17,18,329!2025-03-17,18,329-->
-    - intelligent agent / stimulus-response agent / example ::@:: actions: up/down/left/right (cannot go into walls) <br/> environment: an enclosed 2D grid with walls <br/> objective: follow the boundary of the first obstacle met <br/> perceptions: 8 sensors for 8 adjacent cells, each testing if the corresponding cell is occupied <br/> policy: an algorithm to control the robot <!--SR:!2025-03-17,18,329!2025-03-16,17,329-->
+    - intelligent agent / stimulus-response agent / example ::@:: actions: up/down/left/right (cannot go into walls) <br/> environment: an enclosed 2D grid with walls <br/> objective: follow the boundary of the first obstacle met <br/> perceptions: 8 sensors for 8 adjacent cells, each testing if the corresponding cell is occupied <br/> policy: an algorithm to control the robot <!--SR:!2025-03-17,18,329!2025-06-04,80,349-->
 
 ## week 1 lecture 2
 
@@ -172,14 +172,14 @@ The content is in teaching order.
 - datetime: 2025-02-18T12:30:00+08:00/2025-02-18T13:20:00+08:00
 - topic: TLU basics
 - [object detection](../../../../general/object%20detection.md)
-  - object detection / transplanted objects ::@:: elephant in the room: Transplanting such an object onto an image, it itself is often not detected or assumes wrong identities. It also has non-local effects, causing other previously correctly detected objects to go missing. <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
+  - object detection / transplanted objects ::@:: elephant in the room: Transplanting such an object onto an image, it itself is often not detected or assumes wrong identities. It also has non-local effects, causing other previously correctly detected objects to go missing. <!--SR:!2025-05-13,58,329!2025-06-04,80,349-->
 - [computer vision](../../../../general/computer%20vision.md)
   - computer vision / image recognition
-    - computer vision / image recognition / fooling them ::@:: Current systems are easily fooled by: adding human-undetectable noise, adding small obstructions to an image, random patterns, geometric transformation of an object in the image, etc. <!--SR:!2025-03-17,18,329!2025-03-16,17,329-->
+    - computer vision / image recognition / fooling them ::@:: Current systems are easily fooled by: adding human-undetectable noise, adding small obstructions to an image, random patterns, geometric transformation of an object in the image, etc. <!--SR:!2025-03-17,18,329!2025-06-04,80,349-->
 - [natural language processing](../../../../general/natural%20language%20processing.md) (NLP)
-  - natural language processing / hallucinations ::@:: They are prone to creating content that do not match real-world facts (factuality hallucination) or user inputs (faithfulness hallucination, e.g. the year of an event being replaced by the year of another event). <p> Vision language models (VLMs) are also prone to this. <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
+  - natural language processing / hallucinations ::@:: They are prone to creating content that do not match real-world facts (factuality hallucination) or user inputs (faithfulness hallucination, e.g. the year of an event being replaced by the year of another event). <p> Vision language models (VLMs) are also prone to this. <!--SR:!2025-05-13,58,329!2025-05-13,58,329-->
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)
-  - artificial intelligence / recent trend ::@:: Its performance has been improving! For example, see the performance of works from different years on an object detection benchmark (COCO). <!--SR:!2025-03-16,17,329!2025-03-17,18,329-->
+  - artificial intelligence / recent trend ::@:: Its performance has been improving! For example, see the performance of works from different years on an object detection benchmark (COCO). <!--SR:!2025-06-04,80,349!2025-03-17,18,329-->
 - [perceptron](../../../../general/perceptron.md)
   - perceptron / alias
   - perceptron / supervised learning
@@ -191,10 +191,10 @@ The content is in teaching order.
       - [perceptron § steps](../../../../general/perceptron.md#steps) / training / forward
       - [perceptron § steps](../../../../general/perceptron.md#steps) / training / backward
     - [perceptron § steps](../../../../general/perceptron.md#steps) / termination
-- [feature engineering](../../../../general/feature%20engineering.md) ::@:: It is a preprocessing step in supervised machine learning and statistical modeling which transforms raw data into a more effective set of inputs. <p> Input variables may be created, modified, or selected (filtered/filtered out). <!--SR:!2025-03-17,18,329!2025-03-16,17,329-->
-  - feature engineering / example: perceptron ::@:: A perceptron can only classify linearly separable data. <p> Given a non-linearly separable data, sometimes we may be able to derive a new input from the original inputs (e.g. _z_ = _x_<sup>2</sup> + _y_<sup>2</sup>) such that the data based on the new input is linearly separable. <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
-- [Anaconda](../../../../general/Anaconda%20(Python%20distribution).md) ::@:: It is an open source data science and artificial intelligence distribution platform for Python and R programming languages. <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
-  - Anaconda / download ::@:: <https://anaconda.com/download> <!--SR:!2025-03-16,17,329!2025-03-16,17,329-->
+- [feature engineering](../../../../general/feature%20engineering.md) ::@:: It is a preprocessing step in supervised machine learning and statistical modeling which transforms raw data into a more effective set of inputs. <p> Input variables may be created, modified, or selected (filtered/filtered out). <!--SR:!2025-03-17,18,329!2025-06-04,80,349-->
+  - feature engineering / example: perceptron ::@:: A perceptron can only classify linearly separable data. <p> Given a non-linearly separable data, sometimes we may be able to derive a new input from the original inputs (e.g. _z_ = _x_<sup>2</sup> + _y_<sup>2</sup>) such that the data based on the new input is linearly separable. <!--SR:!2025-06-04,80,349!2025-06-04,80,349-->
+- [Anaconda](../../../../general/Anaconda%20(Python%20distribution).md) ::@:: It is an open source data science and artificial intelligence distribution platform for Python and R programming languages. <!--SR:!2025-06-04,80,349!2025-06-04,80,349-->
+  - Anaconda / download ::@:: <https://anaconda.com/download> <!--SR:!2025-06-04,80,349!2025-06-04,80,349-->
   - Anaconda / installation
   - Anaconda / usage
 

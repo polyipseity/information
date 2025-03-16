@@ -39,7 +39,7 @@ tags:
 
 > {@{![Discounted Cash Flow Calculator - is a tool to help estimate the present value of a stream of free cash flows discounted to the present.](../../archives/Wikimedia%20Commons/DCFM%20Calculator.JPG)}@}
 >
-> Here, {@{a [spreadsheet](spreadsheet.md) valuation}@}, uses {@{[Free cash flows](free%20cash%20flow.md)}@} to {@{estimate stock's [Fair Value](fair%20value.md)}@} and {@{measure the [sensitivity](sensitivity%20analysis.md) of [WACC](weighted%20average%20cost%20of%20capital.md) and [Perpetual growth](dividend%20discount%20model.md)}@} <!--SR:!2025-03-29,40,290!2025-04-28,65,310!2025-04-30,67,310!2025-04-15,54,310!2025-03-16,28,270-->
+> Here, {@{a [spreadsheet](spreadsheet.md) valuation}@}, uses {@{[Free cash flows](free%20cash%20flow.md)}@} to {@{estimate stock's [Fair Value](fair%20value.md)}@} and {@{measure the [sensitivity](sensitivity%20analysis.md) of [WACC](weighted%20average%20cost%20of%20capital.md) and [Perpetual growth](dividend%20discount%20model.md)}@} <!--SR:!2025-03-29,40,290!2025-04-28,65,310!2025-04-30,67,310!2025-04-15,54,310!2025-06-03,79,270-->
 
 In {@{__discount cash flow analysis__}@}, {@{all future cash flows are estimated and [discounted](discounting.md)}@} by {@{using [cost of capital](cost%20of%20capital.md) to give their [present values](present%20value.md) \(PVs\)}@}. {@{The sum of all future cash flows, both incoming and outgoing}@}, is {@{the [net present value](net%20present%20value.md) \(NPV\)}@}, which is taken as {@{the value of the cash flows in question}@};<sup>[\[2\]](#^ref-2)</sup> see aside. <!--SR:!2025-05-09,75,329!2025-05-09,75,329!2025-03-29,38,289!2025-04-21,59,310!2025-05-06,72,329!2025-04-25,63,310-->
 

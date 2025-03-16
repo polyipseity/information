@@ -38,7 +38,7 @@ tags:
 > 3. Frank Rosenblatt
 > 4. Desmond <!-- ____ -->
 >
-> - solution: {@{1}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{1}@} <!--SR:!2025-12-27,286,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -426,7 +426,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(2 * a + 4 * np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{`print(2 * a + 4 * np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-10-05,203,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 4. `5 // 3 == 1`
 >
 > - solution: {@{2}@}
-> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2025-03-17,67,310!2025-03-16,66,310-->
+> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2025-03-17,67,310!2025-12-31,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -535,7 +535,7 @@ tags:
 
 > Q3. (medium) Consider a random bit string with length 4 (a bit string is a sequence of 0s and 1s, e.g. 0000 or 0101). What is the probability that it contains two consecutive 0s, given that the first bit is 0?
 >
-> - solution: {@{$$1/2 + 1/2 \times 1/4 = 5/8$$}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{$$1/2 + 1/2 \times 1/4 = 5/8$$}@} <!--SR:!2025-12-28,287,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -620,7 +620,7 @@ tags:
 > 2. Distance metric
 > 3. Number of samples
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{1, 2}@} <!--SR:!2025-12-31,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -735,7 +735,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops.
 >
-> - solution: {@{`numpy.average(data, axis=0)`, `numpy.mean(data, axis=0)`}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{`numpy.average(data, axis=0)`, `numpy.mean(data, axis=0)`}@} <!--SR:!2025-12-28,287,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 >        [ 0.9, 0.59, 0.65]])
 > ```
 >
-> - solution: {@{0.67372101, 0.2805352, 0.38626416, 0.51048996}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{0.67372101, 0.2805352, 0.38626416, 0.51048996}@} <!--SR:!2025-12-29,288,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -777,13 +777,13 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops. Hint: reviewing the last question of the self test on Python Fundamentals might help :D
 >
-> - solution: {@{`numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=-1))`, `numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=1))`}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{`numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=-1))`, `numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=1))`}@} <!--SR:!2025-10-08,206,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q9. Can K-means clustering under Euclidean distance produce any kind of cluster shapes?
 >
-> - solution: {@{No. The shape needs to be circles or ellipsoids.}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{No. The shape needs to be circles or ellipsoids.}@} <!--SR:!2025-12-30,289,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -847,7 +847,7 @@ tags:
 > 4. Every parameter must be updated during an epoch.
 >
 > - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-11-15,254,330!2025-03-16,66,310-->
+> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-11-15,254,330!2025-12-26,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -875,7 +875,7 @@ tags:
 > 3. choice of having a bias term or not
 > 4. choice of the number of inputs
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{1, 2, 3}@} <!--SR:!2025-12-28,287,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1085,7 +1085,7 @@ tags:
 > 3. The resulting image will be brighter.
 > 4. No image can be formed.
 >
-> - solution: {@{2}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{2}@} <!--SR:!2025-12-27,286,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1269,7 +1269,7 @@ tags:
 >
 > Explain why CNNs can improve performance on image classification.
 >
-> - solution: {@{(for reference) Convolutional layers automates feature engineering on a large scale and are likely much better than humans at extracting image features.}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{(for reference) Convolutional layers automates feature engineering on a large scale and are likely much better than humans at extracting image features.}@} <!--SR:!2025-12-27,286,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1445,7 +1445,7 @@ tags:
 > 2. The __state__ of a Markov chain at time $t$ is...
 > 3. The __state space__ of a Markov chain is...
 >
-> - solution: {@{1. definition 3 <br/> 2. definition 1 <br/> 3. definition 2}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{1. definition 3 <br/> 2. definition 1 <br/> 3. definition 2}@} <!--SR:!2025-12-30,289,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1501,7 +1501,7 @@ tags:
 >
 > Is $M$ a Markov chain? Explain your answer.
 >
-> - solution: {@{No. <p> The key is to realize that knowing the entire state history (in this case, which additionally allows us to know how many of each coin has been drawn) allows us to make better predictions than knowing only the current state.}@} <!--SR:!2025-03-16,66,310-->
+> - solution: {@{No. <p> The key is to realize that knowing the entire state history (in this case, which additionally allows us to know how many of each coin has been drawn) allows us to make better predictions than knowing only the current state.}@} <!--SR:!2025-12-31,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-03-16,66,310!2025-04-07,68,270-->
+> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-12-29,288,330!2025-04-07,68,270-->
 
 <!-- markdownlint MD028 -->
 

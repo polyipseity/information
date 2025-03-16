@@ -19,7 +19,7 @@ tags:
 
 # neon-burning process
 
-The __neon-burning process__ is {@{a set of [nuclear fusion](nuclear%20fusion.md) reactions that take place in [evolved](stellar%20evolution.md) massive [stars](star.md) with at least 8 [solar masses](solar%20mass.md)}@}. Neon burning requires {@{high [temperatures](temperature.md) and [densities](density.md) (around 1.2×10<sup>9</sup> [K](Kelvin.md) or 100 [keV](electronvolt.md) and 4×10<sup>9</sup> kg/m<sup>3</sup> or 4×10<sup>6</sup> g/cm<sup>3</sup>)}@}. <!--SR:!2025-10-23,270,250!2025-03-16,56,170-->
+The __neon-burning process__ is {@{a set of [nuclear fusion](nuclear%20fusion.md) reactions that take place in [evolved](stellar%20evolution.md) massive [stars](star.md) with at least 8 [solar masses](solar%20mass.md)}@}. Neon burning requires {@{high [temperatures](temperature.md) and [densities](density.md) (around 1.2×10<sup>9</sup> [K](Kelvin.md) or 100 [keV](electronvolt.md) and 4×10<sup>9</sup> kg/m<sup>3</sup> or 4×10<sup>6</sup> g/cm<sup>3</sup>)}@}. <!--SR:!2025-10-23,270,250!2025-06-22,98,170-->
 
 At such high temperatures {@{[photodisintegration](photodisintegration.md) becomes a significant effect, so some neon [nuclei](atomic%20nucleus.md) decompose, absorbing 4.73 MeV and releasing [alpha particles](alpha%20particle.md)}@}. This free helium nucleus can then {@{fuse with neon to produce [magnesium](magnesium.md), releasing 9.316 MeV}@}. <!--SR:!2025-06-26,126,190!2025-04-10,132,210-->
 
