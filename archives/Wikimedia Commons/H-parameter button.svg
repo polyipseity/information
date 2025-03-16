@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="146.25444"
+   height="133.12245"
+   id="svg3405"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="h-parameter button.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-152.32587"
+     inkscape:cy="8.7386023"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient5642">
+      <stop
+         id="stop5644"
+         offset="0"
+         style="stop-color:#b29a15;stop-opacity:1;" />
+      <stop
+         style="stop-color:#eedc76;stop-opacity:1;"
+         offset="0.19085097"
+         id="stop5662" />
+      <stop
+         id="stop5664"
+         offset="0.80394602"
+         style="stop-color:#efdb77;stop-opacity:1;" />
+      <stop
+         style="stop-color:#b19a15;stop-opacity:1;"
+         offset="1"
+         id="stop5650" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective3411"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="357.30066"
+       x2="415.86475"
+       y1="357.88229"
+       x1="270.32468"
+       id="linearGradient5658"
+       xlink:href="#linearGradient5642"
+       inkscape:collect="always" />
+  </defs>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-270.32465,-291.32107)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       ry="20.5263"
+       y="293.73761"
+       x="272.74118"
+       height="128.28938"
+       width="141.42137"
+       id="rect3414"
+       style="opacity:1;fill:url(#linearGradient5658);fill-opacity:1;fill-rule:evenodd;stroke:#646464;stroke-width:4.83300018;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="g12243"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35700231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(8.9006335,0,0,-7.9337686,-1694.557,5986.6846)">
+<polygon
+   id="polygon12245"
+   style="stroke-width:0.35700231;fill:black;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   points="225.97,704.63 225.97,705.03 225.01,705.03 225.01,714.2 225.97,714.2 225.97,714.59 224.61,714.59 224.61,704.63 " />
+<path
+   id="path12247"
+   style="stroke-width:0.35700231;fill:black;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   d="M229.06,713.93 L229.06,713.93 L229.06,713.93 L229.06,713.93 L229.06,713.93 L229.06,713.93 L229.06,713.94 L229.06,713.94 L229.06,713.94 L229.06,713.95 L229.06,713.95 L229.06,713.96 L229.05,713.96 L229.05,713.97 L229.05,713.97 L229.05,713.98 L229.05,713.98 L229.04,713.99 L229.04,713.99 L229.04,714 L229.03,714 L229.03,714 L229.03,714.01 L229.02,714.01 L229.02,714.01 L229.02,714.01 L229.01,714.02 L229.01,714.02 L229.01,714.02 L229,714.02 L229,714.02 L229,714.02 L228.99,714.03 L228.99,714.03 L228.99,714.03 L228.98,714.03 L228.98,714.03 L228.97,714.03 L228.97,714.03 L228.96,714.03 L228.96,714.04 L228.95,714.04 L228.95,714.04 L228.94,714.04 L228.94,714.04 L228.93,714.04 C228.7,714.04,227.97,713.96,227.71,713.94 C227.63,713.93,227.52,713.92,227.52,713.74 C227.52,713.62,227.62,713.62,227.76,713.62 C228.24,713.62,228.26,713.55,228.26,713.45 L228.23,713.25 L226.79,707.51 C226.75,707.37,226.75,707.35,226.75,707.29 C226.75,707.06,226.95,707.01,227.04,707.01 C227.2,707.01,227.36,707.13,227.4,707.27 L227.6,708.03 C227.66,708.33,227.74,708.63,227.81,708.93 C227.87,709.15,227.93,709.36,227.98,709.59 C228,709.65,228.08,709.98,228.09,710.04 C228.12,710.13,228.43,710.69,228.77,710.96 C228.99,711.12,229.3,711.31,229.73,711.31 C230.15,711.31,230.26,710.97,230.26,710.61 C230.26,710.07,229.89,708.99,229.65,708.38 C229.57,708.15,229.52,708.03,229.52,707.83 C229.52,707.36,229.87,707.01,230.34,707.01 C231.27,707.01,231.64,708.47,231.64,708.55 C231.64,708.65,231.55,708.65,231.52,708.65 C231.42,708.65,231.42,708.62,231.37,708.47 C231.22,707.94,230.9,707.23,230.35,707.23 C230.18,707.23,230.12,707.33,230.12,707.56 C230.12,707.81,230.21,708.05,230.29,708.27 C230.45,708.7,230.9,709.88,230.9,710.46 C230.9,711.11,230.5,711.53,229.76,711.53 C229.13,711.53,228.65,711.22,228.28,710.76 Z " />
+<polygon
+   id="polygon12249"
+   style="stroke-width:0.35700231;fill:black;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   points="233.52,714.59 232.16,714.59 232.16,714.2 233.12,714.2 233.12,705.03 232.16,705.03 232.16,704.63 233.52,704.63 " />
+</g>  </g>
+</svg>

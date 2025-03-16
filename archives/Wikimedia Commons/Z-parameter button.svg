@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="146.25444"
+   height="133.12245">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient5642">
+      <stop
+         id="stop5644"
+         offset="0"
+         style="stop-color:#b29a15;stop-opacity:1;" />
+      <stop
+         style="stop-color:#eedc76;stop-opacity:1;"
+         offset="0.19085097"
+         id="stop5662" />
+      <stop
+         id="stop5664"
+         offset="0.80394602"
+         style="stop-color:#efdb77;stop-opacity:1;" />
+      <stop
+         style="stop-color:#b19a15;stop-opacity:1;"
+         offset="1"
+         id="stop5650" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective3411"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="357.30066"
+       x2="415.86475"
+       y1="357.88229"
+       x1="270.32468"
+       id="linearGradient5658"
+       xlink:href="#linearGradient5642"
+       inkscape:collect="always" />
+  </defs>
+  <g
+     transform="translate(-270.32465,-291.32107)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       ry="20.5263"
+       y="293.73761"
+       x="272.74118"
+       height="128.28938"
+       width="141.42137"
+       id="rect3414"
+       style="opacity:1;fill:url(#linearGradient5658);fill-opacity:1;fill-rule:evenodd;stroke:#646464;stroke-width:4.83300018;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="g12131"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35700232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(8.9006335,0,0,-7.9337686,-1694.557,5986.6846)">
+<polygon
+   id="polygon12133"
+   style="fill:#000000;stroke-width:0.35700232;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   points="225.97,704.63 225.97,705.03 225.01,705.03 225.01,714.2 225.97,714.2 225.97,714.59 224.61,714.59 224.61,704.63 225.97,704.63 " />
+<path
+   id="path12135"
+   style="fill:#000000;stroke-width:0.35700232;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   d="M 227.52,707.95 L 227.57,708 L 227.62,708.05 L 227.67,708.1 L 227.72,708.15 L 227.76,708.2 L 227.8,708.24 L 227.85,708.29 L 227.89,708.33 L 227.93,708.37 L 227.97,708.41 L 228,708.44 L 228.04,708.48 L 228.08,708.52 L 228.11,708.55 L 228.19,708.62 L 228.25,708.68 L 228.32,708.74 L 228.39,708.8 L 228.45,708.86 L 228.58,708.97 L 228.64,709.03 L 228.71,709.09 C 228.71,709.09 229.33,709.62 229.69,709.98 C 230.63,710.91 230.85,711.39 230.85,711.43 C 230.85,711.53 230.76,711.53 230.74,711.53 C 230.67,711.53 230.64,711.51 230.59,711.42 C 230.29,710.94 230.09,710.78 229.85,710.78 C 229.61,710.78 229.49,710.93 229.34,711.1 C 229.15,711.33 228.98,711.53 228.65,711.53 C 227.9,711.53 227.45,710.6 227.45,710.39 C 227.45,710.34 227.48,710.28 227.57,710.28 C 227.65,710.28 227.67,710.33 227.69,710.39 C 227.88,710.85 228.46,710.86 228.54,710.86 C 228.75,710.86 228.94,710.79 229.17,710.71 C 229.57,710.56 229.68,710.56 229.94,710.56 C 229.58,710.13 228.74,709.41 228.55,709.26 C 228.05,708.81 228.04,708.8 227.65,708.42 C 226.98,707.75 226.63,707.18 226.63,707.11 C 226.63,707.01 226.73,707.01 226.75,707.01 C 226.83,707.01 226.85,707.03 226.91,707.14 C 227.14,707.49 227.43,707.76 227.75,707.76 C 227.98,707.76 228.08,707.67 228.33,707.38 C 228.5,707.17 228.68,707.01 228.97,707.01 C 229.96,707.01 230.53,708.28 230.53,708.55 C 230.53,708.6 230.49,708.65 230.41,708.65 C 230.32,708.65 230.3,708.59 230.27,708.52 C 230.05,707.87 229.41,707.68 229.08,707.68 C 228.88,707.68 228.7,707.74 228.49,707.81 C 228.15,707.94 228,707.98 227.79,707.98 C 227.77,707.98 227.62,707.98 227.52,707.95 z" />
+<polygon
+   id="polygon12137"
+   style="fill:#000000;stroke-width:0.35700232;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   points="232.85,714.59 231.49,714.59 231.49,714.2 232.46,714.2 232.46,705.03 231.49,705.03 231.49,704.63 232.85,704.63 232.85,714.59 " />
+</g>  </g>
+</svg>

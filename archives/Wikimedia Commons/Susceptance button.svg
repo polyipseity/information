@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="146.25444"
+   height="133.12245"
+   id="svg3405"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="Susceptance  button.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient5642">
+      <stop
+         style="stop-color:#67acb1;stop-opacity:1;"
+         offset="0"
+         id="stop5644" />
+      <stop
+         id="stop5662"
+         offset="0.19085097"
+         style="stop-color:#c0e2e4;stop-opacity:1;" />
+      <stop
+         style="stop-color:#c0e2e4;stop-opacity:1;"
+         offset="0.80394602"
+         id="stop5664" />
+      <stop
+         id="stop5650"
+         offset="1"
+         style="stop-color:#67adb1;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3411" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5642"
+       id="linearGradient5658"
+       x1="270.32468"
+       y1="357.88229"
+       x2="415.86475"
+       y2="357.30066"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-270.32465,-291.32107)">
+    <rect
+       style="opacity:1;fill:url(#linearGradient5658);fill-opacity:1;fill-rule:evenodd;stroke:#646464;stroke-width:4.843;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7.21649981;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3414"
+       width="141.42137"
+       height="128.28938"
+       x="272.74118"
+       y="293.73761"
+       ry="20.5263" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 333.90592,379.8823 L 291.47952,379.8823 L 291.47952,379.8823"
+       id="path4666" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 355.11913,379.8823 L 395.42421,379.8823"
+       id="path4668" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       rx="0"
+       ry="6.9352922"
+       y="307.00888"
+       x="-391.05719"
+       height="69.11937"
+       width="23.241219"
+       id="rect2913"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="g14962"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.22354817;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(4.7428709,0,0,-4.2190673,-738.2279,3325.0534)">
+<path
+   id="path14964"
+   style="fill:#000000;stroke-width:0.22354817;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+   d="M 225.03,707.9 L 225.02,707.86 L 225.01,707.83 L 225,707.8 L 224.99,707.77 L 224.98,707.74 L 224.97,707.71 L 224.96,707.69 L 224.95,707.66 L 224.94,707.64 L 224.93,707.62 L 224.92,707.6 L 224.9,707.58 L 224.89,707.56 L 224.87,707.55 L 224.85,707.53 L 224.83,707.52 L 224.81,707.51 L 224.78,707.5 L 224.76,707.49 L 224.73,707.48 L 224.69,707.47 L 224.68,707.46 L 224.66,707.46 L 224.64,707.46 L 224.62,707.46 L 224.6,707.45 L 224.58,707.45 L 224.56,707.45 L 224.54,707.44 L 224.51,707.44 L 224.49,707.44 L 224.46,707.44 L 224.44,707.44 L 224.41,707.44 L 224.38,707.44 L 224.35,707.43 L 224.32,707.43 L 224.29,707.43 L 224.26,707.43 L 224.23,707.43 L 224.19,707.43 L 224.16,707.43 L 224.12,707.43 C 223.95,707.43 223.85,707.43 223.85,707.23 C 223.85,707.12 223.94,707.12 224.12,707.12 L 227.68,707.12 C 229.25,707.12 230.43,708.3 230.43,709.27 C 230.43,709.99 229.85,710.57 228.88,710.68 C 229.92,710.87 230.96,711.61 230.96,712.55 C 230.96,713.29 230.31,713.93 229.11,713.93 L 228.97,713.62 C 229.85,713.62 230.06,713.03 230.06,712.59 C 230.06,711.72 229.2,710.77 227.99,710.77 L 226.53,710.77 L 226.47,710.55 L 228.35,710.55 C 229.31,710.55 229.5,709.81 229.5,709.38 C 229.5,708.4 228.61,707.43 227.44,707.43 L 226.08,707.43 C 225.94,707.43 225.92,707.43 225.86,707.44 C 225.76,707.45 225.73,707.46 225.73,707.54 C 225.73,707.57 225.73,707.59 225.78,707.77 L 226.47,710.55 L 226.53,710.77 L 227.15,713.24 C 227.24,713.59 227.26,713.62 227.69,713.62 L 228.97,713.62 L 229.11,713.93 L 225.76,713.93 C 225.57,713.93 225.48,713.93 225.48,713.73 C 225.48,713.62 225.56,713.62 225.75,713.62 C 225.77,713.62 225.96,713.62 226.13,713.6 C 226.31,713.58 226.4,713.57 226.4,713.44 C 226.4,713.4 226.39,713.37 226.36,713.25 L 225.03,707.9 z" />
+</g>  </g>
+</svg>

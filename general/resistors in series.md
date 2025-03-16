@@ -1,0 +1,1 @@
+eng/resistors in series.md

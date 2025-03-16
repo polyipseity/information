@@ -1,0 +1,1 @@
+electronic component.md
