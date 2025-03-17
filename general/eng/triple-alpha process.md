@@ -27,10 +27,10 @@ Nuclear fusion reaction of two helium-4 nuclei {@{produces [beryllium-8](berylli
 
 The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2025-10-27,285,270-->
 
-As a side effect of the process, {@{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}@} when {@{the temperature rises above 2×10<sup>8</sup> K}@}, called {@{[_alpha capture_](alpha%20process.md)}@}: <!--SR:!2025-10-30,299,290!2025-03-17,117,310!2025-03-31,179,310-->
+As a side effect of the process, {@{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}@} when {@{the temperature rises above 2×10<sup>8</sup> K}@}, called {@{[_alpha capture_](alpha%20process.md)}@}: <!--SR:!2025-10-30,299,290!2026-08-02,503,330!2025-03-31,179,310-->
 
 1. [alpha capture](alpha%20process.md) ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2025-05-13,136,210!2025-04-22,95,230-->
-    - [alpha capture](alpha%20process.md) / energy release ::@:: +7.162 MeV <!--SR:!2025-03-17,36,150!2025-07-28,232,270-->
+    - [alpha capture](alpha%20process.md) / energy release ::@:: +7.162 MeV <!--SR:!2025-05-11,55,150!2025-07-28,232,270-->
 
 Nuclear fusion reactions of {@{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}@}, which also is {@{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}@}. <!--SR:!2026-05-10,473,310!2025-06-10,101,170-->
 

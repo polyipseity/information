@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2025-03-20,147,300-->
 - reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-06-19,98,241-->
-- sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2026-03-21,463,301-->
+- sewage treatment→::@::←transport <!--SR:!2026-04-09,388,230!2026-03-21,463,301-->
 - transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-06-13,104,150-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
@@ -504,7 +504,7 @@ teaming up with others
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
-- teaming up with others→::@::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
+- teaming up with others→::@::←_(end)_ <!--SR:!2025-05-28,321,375!2027-04-08,752,292-->
 
 <!--/pytextgen-->
 
@@ -1190,7 +1190,7 @@ water transport
 - _(begin)_→::@::←airport <!--SR:!2027-01-13,721,310!2025-10-07,430,395-->
 - airport→::@::←bicycle path <!--SR:!2028-05-08,1156,375!2025-12-19,472,357-->
 - bicycle path→::@::←highway <!--SR:!2027-10-01,983,380!2028-04-24,1146,380-->
-- highway→::@::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
+- highway→::@::←pier <!--SR:!2025-10-07,364,320!2027-09-06,903,320-->
 - pier→::@::←pipeline <!--SR:!2026-12-01,676,380!2026-10-13,614,314-->
 - pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-10-02,211,295-->
 - railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->

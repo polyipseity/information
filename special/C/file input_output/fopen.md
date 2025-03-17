@@ -85,4 +85,4 @@ return await memorize_table(
 ## return value
 
 - (1) :@: If successful, a pointer to the new file stream. On error, `NULL`. <!--SR:!2025-05-07,451,290-->
-- (2) :@: If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`. <!--SR:!2025-03-17,342,250-->
+- (2) :@: If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`. <!--SR:!2027-07-26,860,250-->

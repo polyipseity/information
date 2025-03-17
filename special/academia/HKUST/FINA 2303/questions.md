@@ -204,7 +204,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-03-17,18,322!2025-06-03,79,342-->
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-06-05,80,342!2025-06-03,79,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -267,7 +267,7 @@ tags:
 >
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
-> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2025-03-21,16,333!2025-03-17,12,313!2025-03-19,14,313-->
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2025-03-21,16,333!2025-05-08,52,333!2025-03-19,14,313-->
 
 ## week 3 lecture 2
 

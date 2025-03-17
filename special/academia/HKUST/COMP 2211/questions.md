@@ -27,7 +27,7 @@ tags:
 > 4. AI is the science and engineering of making intelligent machines.
 >
 > - solution: {@{4}@}
-> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2025-03-17,67,310!2025-12-22,282,330-->
+> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2026-01-01,290,330!2025-12-22,282,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -93,7 +93,7 @@ tags:
 > 2. Convolutional Neural Network (CNN)
 > 3. Minimax and Alpha-Beta Pruning
 >
-> - solution: {@{3}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{3}@} <!--SR:!2026-01-04,293,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 3. The second AI winter happened in 1987–1993
 > 4. The natural language processing AI, ELIZA, passes the Turing test
 >
-> - solution: {@{4}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{4}@} <!--SR:!2026-01-05,294,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -171,7 +171,7 @@ tags:
 >        [13, 14, 15, 16]])
 > ```
 >
-> - solution: {@{`numpy.arange(1, 17).reshape((4, 4))`}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{`numpy.arange(1, 17).reshape((4, 4))`}@} <!--SR:!2026-01-02,291,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ tags:
 >         [13, 14, 15, 16]]])
 > ```
 >
-> - solution: {@{\(3, 2, 4\)}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{\(3, 2, 4\)}@} <!--SR:!2025-10-10,206,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -200,7 +200,7 @@ tags:
 
 > Q9. Return the minimum value within a NumPy array `a`.
 >
-> - solution: {@{`numpy.min(a)`, `a.min()`}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{`numpy.min(a)`, `a.min()`}@} <!--SR:!2026-01-03,292,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -454,7 +454,7 @@ tags:
 > ```
 >
 > - solution: {@{(almost always) `True`}@}
-> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-10-31,240,330!2025-03-17,67,310-->
+> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-10-31,240,330!2025-10-11,208,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 4. `5 // 3 == 1`
 >
 > - solution: {@{2}@}
-> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2025-03-17,67,310!2025-12-31,290,330-->
+> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2026-01-03,292,330!2025-12-31,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -488,7 +488,7 @@ tags:
 > print(haha)
 > ```
 >
-> - solution: {@{`[1 2 999]`}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{`[1 2 999]`}@} <!--SR:!2026-01-01,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -519,7 +519,7 @@ tags:
 
 > Q1. (simple) True or false: The naive Bayes classifier uses a labeled dataset.
 >
-> - solution: {@{true}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{true}@} <!--SR:!2026-01-04,293,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -546,7 +546,7 @@ tags:
 > 1. Since the breath analyzer has an error rate of 5%, a student claims the probability that the driver is drunk driving should be 95%. Explain why this intuition is wrong.
 > 2. Using Bayes Theorem, find the true probability that the driver is drunk driving, i.e. find $P( \text{ drunk driving } | \text{ reported drunk by breath analyzer } )$.
 >
-> - solution: {@{For 1, it neglects the base rate, i.e. 1 in 1000 drivers drunk drives (see base rate fallacy). <p> For 2, this is $$\frac {1 / 1000 \times 0.95} {(1 / 1000 \times 0.95) + (999 / 1000 \times 0.05)} \approx 1.87\% \,.$$}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{For 1, it neglects the base rate, i.e. 1 in 1000 drivers drunk drives (see base rate fallacy). <p> For 2, this is $$\frac {1 / 1000 \times 0.95} {(1 / 1000 \times 0.95) + (999 / 1000 \times 0.05)} \approx 1.87\% \,.$$}@} <!--SR:!2026-01-03,292,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -578,7 +578,7 @@ tags:
 > 3. The naive Bayes classifier always predicts correct results.
 > 4. None of the above
 >
-> - solution: {@{2}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{2}@} <!--SR:!2025-12-30,287,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -626,7 +626,7 @@ tags:
 
 > Q3. Suppose we have two points, A and B, in a Cartesian coordinate system, where the location of A is (1,5) and the location of B is (4,1). The L1 (Manhattan) distance between A and B is \_\_\_, and the L2 (Euclidean) distance between A and B is \_\_\_.
 >
-> - solution: {@{7, 5}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{7, 5}@} <!--SR:!2026-01-05,294,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -710,7 +710,7 @@ tags:
 > 3. The "K" in K-means clustering refers to the number of data points
 > 4. K-means clustering achieves categorization of data points
 >
-> - solution: {@{4}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{4}@} <!--SR:!2026-01-02,291,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -721,7 +721,7 @@ tags:
 > 3. Choose K random points to be the initial centroids
 > 4. Recompute the centroids according to the labelling
 >
-> - solution: {@{3 → 1 → 2 → 4}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{3 → 1 → 2 → 4}@} <!--SR:!2025-12-31,288,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -795,7 +795,7 @@ tags:
 > 4. Customer segmentation
 >
 > - solution: {@{4}@}
-> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-11-15,254,330!2025-03-17,67,310-->
+> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-11-15,254,330!2026-01-01,290,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -835,7 +835,7 @@ tags:
 >
 > Try to not use any explicit Python loops. The solution below has 4 lines.
 >
-> - solution: <p> {@{`squared_dists = numpy.sum((centroids[..., numpy.newaxis, :] - data) ** 2, axis=-1)` <br/> `mins = numpy.argmin(squared_dists, axis=-2)` <br/> `min_mask = numpy.arange(len(centroids))[..., numpy.newaxis] == mins` <br/> `centroids = numpy.mean(numpy.repeat(data[numpy.newaxis, ...], len(centroids), axis=0), axis=-2, where=min_mask[..., numpy.newaxis])` <p> Note: This code will result in `nan`s if some centroids have no data points assigned to it. See if you can figure out a solution yourself...}@} <!--SR:!2025-03-17,67,310-->
+> - solution: <p> {@{`squared_dists = numpy.sum((centroids[..., numpy.newaxis, :] - data) ** 2, axis=-1)` <br/> `mins = numpy.argmin(squared_dists, axis=-2)` <br/> `min_mask = numpy.arange(len(centroids))[..., numpy.newaxis] == mins` <br/> `centroids = numpy.mean(numpy.repeat(data[numpy.newaxis, ...], len(centroids), axis=0), axis=-2, where=min_mask[..., numpy.newaxis])` <p> Note: This code will result in `nan`s if some centroids have no data points assigned to it. See if you can figure out a solution yourself...}@} <!--SR:!2025-10-09,205,310-->
 
 ## perceptron
 
@@ -927,7 +927,7 @@ tags:
 > 3. Activation functions have to be continuous and differentiable at every point.
 > 4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.
 >
-> - solution: {@{4}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{4}@} <!--SR:!2026-01-05,294,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -991,7 +991,7 @@ tags:
 > 4. It is based on the recursive use of the Leibniz integral rule.
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2025-03-17,67,310!2025-03-17,67,310-->
+> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2026-01-04,293,330!2026-01-01,289,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-03-17,50,270!2025-05-07,98,290-->
+> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-09-22,189,290!2025-05-07,98,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1250,7 +1250,7 @@ tags:
 
 > Q3. Suppose we have a conventional CNN architecture: input 32\*32\*3 RGB image, first convolutional layer has 256 3\*3 filters, followed by a 2\*2 (non-overlapping) max pooling layer, followed by convolutional layer with 128 3\*3 filters, followed by another 2\*2 (non-overlapping) max pooling layer, followed by convolutional layer with 64 3\*3 filters, then a 2\*2 (non-overlapping) max pooling layer, then a flattening layer, a dense layer with 1000 neurons, and output layer with 10 neurons. What is the total number of parameters in the network, including bias, assuming no padding is done for any convolutional layer?
 >
-> - solution: {@{input shape to flattening layer: 32\*32\*3 → 30\*30\*256 → 15\*15\*256 → 13\*13\*128 → 6\*6\*128 → 4\*4\*64 → 2\*2\*64 <br/> total params: (3\*3\*3 \* 256 + 256) + (3\*3\*256 \* 128 + 128) + (3\*3\*128 \* 64 + 64) + (2\*2\*64 \* 1000 + 1000) + (1000 \* 10 + 10) = 643010}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{input shape to flattening layer: 32\*32\*3 → 30\*30\*256 → 15\*15\*256 → 13\*13\*128 → 6\*6\*128 → 4\*4\*64 → 2\*2\*64 <br/> total params: (3\*3\*3 \* 256 + 256) + (3\*3\*256 \* 128 + 128) + (3\*3\*128 \* 64 + 64) + (2\*2\*64 \* 1000 + 1000) + (1000 \* 10 + 10) = 643010}@} <!--SR:!2025-10-10,207,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1332,7 +1332,7 @@ tags:
 > 3. Alpha–beta pruning is guaranteed to speed up the minimax algorithm.
 > 4. We can use GPU to speed up the minimax algorithm.
 >
-> - solution: {@{1. false, not perfect information <br/> 2. false, theoretically possible, but practically too many nodes in the game tree <br/> 3. false <br/> 4. false, because GPUs are only good at matrix multiplication (Actually, true would also make sense, considering GPGPUs (general-purpose graphical processing units)...)}@} <!--SR:!2025-03-17,67,310-->
+> - solution: {@{1. false, not perfect information <br/> 2. false, theoretically possible, but practically too many nodes in the game tree <br/> 3. false <br/> 4. false, because GPUs are only good at matrix multiplication (Actually, true would also make sense, considering GPGPUs (general-purpose graphical processing units)...)}@} <!--SR:!2026-01-02,291,330-->
 
 ## ethics of artificial intelligence
 

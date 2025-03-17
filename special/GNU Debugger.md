@@ -15,7 +15,7 @@ tags:
 
 ## commands
 
-Command names can be {@{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}@}. For example, `disassemble` can be {@{abbreviated to `disass` or even the more ugly `disassem`}@}. <!--SR:!2025-03-17,130,325!2026-03-11,422,365-->
+Command names can be {@{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}@}. For example, `disassemble` can be {@{abbreviated to `disass` or even the more ugly `disassem`}@}. <!--SR:!2026-05-16,424,325!2026-03-11,422,365-->
 
 ### common commands
 

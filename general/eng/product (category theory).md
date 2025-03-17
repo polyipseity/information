@@ -51,7 +51,7 @@ Alternatively, the product may be {@{defined through equations}@}. So, for examp
 
 - Existence of $f$ ::@:: is guaranteed by existence of the operation $\langle \cdot ,\cdot \rangle$. <!--SR:!2025-04-02,61,310!2025-03-31,59,310-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality: for all $f_{1},f_{2}$ and all $i\in \{1,2\}$, $\pi _{i}\circ \left\langle f_{1},f_{2}\right\rangle =f_{i}$ <!--SR:!2025-03-31,59,310!2025-04-04,63,310-->
-- Uniqueness of $f$ ::@:: is guaranteed by the equality: for all $g:Y\to X_{1}\times X_{2}$, $\left\langle \pi _{1}\circ g,\pi _{2}\circ g\right\rangle =g$.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-17,45,290!2025-07-19,128,290-->
+- Uniqueness of $f$ ::@:: is guaranteed by the equality: for all $g:Y\to X_{1}\times X_{2}$, $\left\langle \pi _{1}\circ g,\pi _{2}\circ g\right\rangle =g$.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-09-14,181,310!2025-07-19,128,290-->
 
 ### as a limit
 
@@ -67,7 +67,7 @@ In {@{the [category of sets](category%20of%20sets.md)}@}, {@{the product \(in th
 
 Other examples:
 
-- In the [category of topological spaces](category%20of%20topological%20spaces.md), the product ::@:: is the space whose underlying set is the Cartesian product and which carries the [product topology](product%20topology.md). The product topology is the [coarsest topology](coarsest%20topology.md) for which all the projections are [continuous](continuous%20function%20(topology).md#continuous%20functions%20between%20topological%20spaces). <!--SR:!2025-06-29,120,290!2025-03-17,45,290-->
+- In the [category of topological spaces](category%20of%20topological%20spaces.md), the product ::@:: is the space whose underlying set is the Cartesian product and which carries the [product topology](product%20topology.md). The product topology is the [coarsest topology](coarsest%20topology.md) for which all the projections are [continuous](continuous%20function%20(topology).md#continuous%20functions%20between%20topological%20spaces). <!--SR:!2025-06-29,120,290!2025-07-25,130,290-->
 - In the [category of modules](category%20of%20modules.md) over some ring $R$, the product ::@:: is the Cartesian product with addition defined componentwise and distributive multiplication. <!--SR:!2025-05-26,87,270!2025-07-13,120,270-->
 - In the [category of groups](category%20of%20groups.md), the product ::@:: is the [direct product of groups](direct%20product%20of%20groups.md) given by the Cartesian product with multiplication defined componentwise. <!--SR:!2025-05-26,87,270!2025-08-16,158,310-->
 - In the [category of graphs](graph%20homomorphism.md#structure%20of%20homomorphisms), the product ::@:: is the [tensor product of graphs](tensor%20product%20of%20graphs.md). <!--SR:!2025-05-28,88,270!2025-03-18,46,290-->

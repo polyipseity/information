@@ -25,7 +25,7 @@ This explains why `equals` is used instead of `==` for `String`s in [string § e
 
 ## class
 
-To create an object, one needs to first create a class. A class consists of {@{a name, fields (i.e. properties of an object), and methods}@}: <!--SR:!2025-03-17,315,330-->
+To create an object, one needs to first create a class. A class consists of {@{a name, fields (i.e. properties of an object), and methods}@}: <!--SR:!2029-02-14,1430,350-->
 
 ```Java
 public class Name {

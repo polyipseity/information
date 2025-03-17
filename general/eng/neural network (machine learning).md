@@ -19,7 +19,7 @@ tags:
 
 # neural network
 
-Advantages of neural network include {@{highly parallel, making it suitable for parallel processing, and fault tolerance, in which small number of broken neurons degrade the model only slightly}@}. <!--SR:!2025-03-17,209,330-->
+Advantages of neural network include {@{highly parallel, making it suitable for parallel processing, and fault tolerance, in which small number of broken neurons degrade the model only slightly}@}. <!--SR:!2027-10-25,952,350-->
 
 ## models
 

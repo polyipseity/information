@@ -10,7 +10,7 @@ tags:
 
 ## unification of gravity and astronomy
 
-The "first great unification" was {@{[Isaac Newton](Issac%20Newton.md)'s 17th century [unification of gravity](Newton's%20law%20of%20universal%20gravitation.md)}@}, which {@{brought together the understandings of the observable phenomena of gravity on Earth with the observable behavior of [celestial bodies](astronomical%20object.md) in [space](outer%20space.md)}@}. <!--SR:!2025-04-29,201,310!2025-03-17,180,310-->
+The "first great unification" was {@{[Isaac Newton](Issac%20Newton.md)'s 17th century [unification of gravity](Newton's%20law%20of%20universal%20gravitation.md)}@}, which {@{brought together the understandings of the observable phenomena of gravity on Earth with the observable behavior of [celestial bodies](astronomical%20object.md) in [space](outer%20space.md)}@}. <!--SR:!2025-04-29,201,310!2027-04-28,772,330-->
 
 ## references
 

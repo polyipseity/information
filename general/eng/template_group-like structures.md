@@ -51,7 +51,7 @@ tags:
 > - commutative magma ::@:: total, commutative <!--SR:!2025-03-31,67,310!2025-03-30,66,310-->
 > - quasigroup ::@:: total, divisible <!--SR:!2025-04-18,70,270!2025-03-23,50,250-->
 > - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-06-28,117,290!2025-07-15,129,290-->
-> - unital magma ::@:: total, identity <!--SR:!2025-03-17,55,310!2025-06-25,114,290-->
+> - unital magma ::@:: total, identity <!--SR:!2025-11-06,234,330!2025-06-25,114,290-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-03-20,58,310!2025-08-20,170,310-->
 > - loop ::@:: total, identity, divisible <!--SR:!2025-05-02,79,270!2025-06-21,106,250-->
 > - semigroup ::@:: total, associative <!--SR:!2025-06-24,106,250!2025-04-09,24,230-->

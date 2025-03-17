@@ -153,11 +153,11 @@ Notes:
 > - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$ <!--SR:!2025-03-18,19,250!2025-04-07,33,270-->
 > - __find__: Future value \(F\) <br/> __given__: Repeating payment \(A\) ::@:: $F=A\cdot {\frac {(1+i)^{n}-1}{i} }$ <!--SR:!2025-05-15,67,310!2025-05-02,56,310-->
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2025-05-01,55,310!2025-05-06,59,310-->
-> - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2025-03-17,18,250!2025-04-07,33,270-->
+> - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2025-03-25,8,230!2025-04-07,33,270-->
 > - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$ <!--SR:!2025-03-19,7,210!2025-04-07,33,270-->
 > - __find__: Fixed payment \(A\) \(annotation: i.e. converting gradient payments to fixed payments of equivalent value\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-03-20,7,210!2025-03-21,12,210-->
 > - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-03-18,19,250!2025-04-04,31,270-->
-> - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-03-17,18,250!2025-04-07,33,270-->
+> - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-04-29,43,250!2025-04-07,33,270-->
 
 ## derivations
 
@@ -187,11 +187,11 @@ __Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2
 
 __Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2025-04-04,31,270!2025-05-12,64,310-->
 
-__Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}-1}$$ <!--SR:!2025-03-17,18,250!2025-03-17,18,250-->
+__Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}-1}$$ <!--SR:!2025-03-27,10,230!2025-03-26,9,230-->
 
 __Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2025-04-04,31,270!2025-04-15,39,290-->
 
-__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-03-17,18,250!2025-03-19,19,250-->
+__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-04-29,43,250!2025-03-19,19,250-->
 
 These formulas assume that {@{payment A is made in the first payment period and annuity ends at time _t_}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-05-14,66,310-->
 

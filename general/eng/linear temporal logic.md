@@ -26,8 +26,8 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 
 - __G__ ::@:: for always \(__g__<!-- markdown separator -->lobally\) <!--SR:!2025-12-13,273,343!2026-03-25,374,363-->
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2026-03-16,366,363!2025-11-05,256,343-->
-- __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2026-03-26,375,363!2025-03-17,79,343-->
-- __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2026-03-18,368,363!2025-03-17,79,343-->
+- __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2026-03-26,375,363!2025-12-19,277,343-->
+- __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2026-03-18,368,363!2026-03-25,373,363-->
 - __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-08-03,183,330!2025-11-13,264,337-->
 
 ## semantics
@@ -48,7 +48,7 @@ The additional logical operators are defined as follows:
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2025-12-12,287,337!2026-01-09,312,350-->
 - material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\) <!--SR:!2025-12-27,302,350!2026-03-23,372,363-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2026-03-27,376,363!2025-12-11,271,343-->
-- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2025-03-17,79,343!2025-10-26,249,337-->
+- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2026-03-24,372,363!2025-10-26,249,337-->
 
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2025-12-12,272,343-->
 
