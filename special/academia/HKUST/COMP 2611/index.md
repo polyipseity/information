@@ -501,18 +501,18 @@ The content is in teaching order.
 
 - datetime: 2025-03-11T15:00:00+08:00/2025-03-11T15:50:00+08:00
 - topic: introduction to MARS, MIPS syscall services
-- MARS ::@:: It is a GUI-based MIPS emulator designed for use in education, specifically for use with Hennessy's _Computer Organization and Design_. (Runs on Java 8... slightly less ancient software...)
-  - MARS / architecture ::@:: MARS opens an assembly program into its memory. Then the memory is manipulated using a simulated MIPS processor. The processor can additionally interact with a console I/O window through I/O. <p> For debugging, MARS provides data segment window, register window, messages window, and text segment window.
-  - MARS / download ::@:: <https://computerscience.missouristate.edu/mars-mips-simulator.htm> <!-- <https://courses.missouristate.edu/KenVollmar/MARS/> --> \(GitHub: <https://github.com/dpetersanderson/MARS/>\)
+- MARS ::@:: It is a GUI-based MIPS emulator designed for use in education, specifically for use with Hennessy's _Computer Organization and Design_. (Runs on Java 8... slightly less ancient software...) <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
+  - MARS / architecture ::@:: MARS opens an assembly program into its memory. Then the memory is manipulated using a simulated MIPS processor. The processor can additionally interact with a console I/O window through I/O. <p> For debugging, MARS provides data segment window, register window, messages window, and text segment window. <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
+  - MARS / download ::@:: <https://computerscience.missouristate.edu/mars-mips-simulator.htm> <!-- <https://courses.missouristate.edu/KenVollmar/MARS/> --> \(GitHub: <https://github.com/dpetersanderson/MARS/>\) <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
   - MARS / installation
   - MARS / usage
   - MARS / windows :;@:: console I/O window, data segment window, register window, messages window, text segment window
     - MARS / windows / console I/O window
-    - MARS / windows / data segment window ::@:: It shows the data segment in the memory, which stores your data \(`.data`\). By default, it starts from 0x10010000, goes upward in address. Static data is stored first, and then dynamic data. When more space is needed for dynamic data, it grows upwards in address.
+    - MARS / windows / data segment window ::@:: It shows the data segment in the memory, which stores your data \(`.data`\). By default, it starts from 0x10010000, goes upward in address. Static data is stored first, and then dynamic data. When more space is needed for dynamic data, it grows upwards in address. <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
     - MARS / windows / register window
     - MARS / windows / messages window
-    - MARS / windows / text segment window ::@:: It shows the text segment in the memory, which stores your program \(`.text`\). By default, it starts from 0x00400000, and goes upward in address.
-- [system call](../../../../general/system%20call.md) ::@:: It is the programmatic way in which a computer program requests a service from the operating system on which it is executed. This may include hardware-related services \(for example, accessing a hard disk drive or accessing the device's camera\), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system.
+    - MARS / windows / text segment window ::@:: It shows the text segment in the memory, which stores your program \(`.text`\). By default, it starts from 0x00400000, and goes upward in address. <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
+- [system call](../../../../general/system%20call.md) ::@:: It is the programmatic way in which a computer program requests a service from the operating system on which it is executed. This may include hardware-related services \(for example, accessing a hard disk drive or accessing the device's camera\), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system. <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
 - MARS
   - MARS / system call
   - [MARS](MARS.md)
@@ -526,7 +526,7 @@ The content is in teaching order.
 - datetime: 2025-03-11T18:00:00+08:00/2025-03-11T18:50:00+08:00
 - topic: floating point number representation, character
 - single-precision floating-point format
-  - single-precision floating-point format / conversion from decimal ::@:: First, write the decimal in scientific notation, with the significand in base 2. Normalize the scientific notation. <p> Write the sign bit, with positive being 0 and negative being 1. Write the exponent bits by addig the bias to the exponent, and representing it as an unsigned integer. Write the significand bits by discarding the leading 1 digit and writing the remaining digits verbatim, zero-padding at the end if necessary. <p> Finally, check if the resulting format represents a finite (normal) number instead of special numbers \(may include subnormal numbers depending on the context\). Otherwise, the decimal is out of range. <p> If the decimal requires too many digits to be written \(more than the number of significand bits, ignoring the implicit leading 1\), then the conversion is inexact. \(this course: we also say such a decimal is not representable\)
+  - single-precision floating-point format / conversion from decimal ::@:: First, write the decimal in scientific notation, with the significand in base 2. Normalize the scientific notation. <p> Write the sign bit, with positive being 0 and negative being 1. Write the exponent bits by addig the bias to the exponent, and representing it as an unsigned integer. Write the significand bits by discarding the leading 1 digit and writing the remaining digits verbatim, zero-padding at the end if necessary. <p> Finally, check if the resulting format represents a finite (normal) number instead of special numbers \(may include subnormal numbers depending on the context\). Otherwise, the decimal is out of range. <p> If the decimal requires too many digits to be written \(more than the number of significand bits, ignoring the implicit leading 1\), then the conversion is inexact. \(this course: we also say such a decimal is not representable\) <!--SR:!2025-03-21,5,368!2025-03-19,3,348-->
 - double-precision floating-point format
 
 ## week 6 lecture 2
@@ -540,8 +540,8 @@ The content is in teaching order.
     - [§ data instructions](MIPS.md#data%20instructions): `lb`, `lbu`, `sb`
     - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `not`
     - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `nor`, `sllv`, `srlv`
-- [stored-program computer](../../../../general/stored-program%20computer.md) ::@:: It is a computer that stores program instructions in electronically, electromagnetically, or optically accessible memory. This contrasts with systems that stored the program instructions with plugboards or similar mechanisms. <p> The definition is often extended with the requirement that the treatment of programs and data in memory be interchangeable or uniform.
-  - stored-program computer / examples ::@:: Instructions and data are both represented by binary. They can be both stored in memory. Programs can operate on programs. Binary compatibility \(e.g. ISA\) allows programs to work on different computers.
+- [stored-program computer](../../../../general/stored-program%20computer.md) ::@:: It is a computer that stores program instructions in electronically, electromagnetically, or optically accessible memory. This contrasts with systems that stored the program instructions with plugboards or similar mechanisms. <p> The definition is often extended with the requirement that the treatment of programs and data in memory be interchangeable or uniform. <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
+  - stored-program computer / examples ::@:: Instructions and data are both represented by binary. They can be both stored in memory. Programs can operate on programs. Binary compatibility \(e.g. ISA\) allows programs to work on different computers. <!--SR:!2025-03-21,5,368!2025-03-21,5,368-->
 
 ## assignments
 
