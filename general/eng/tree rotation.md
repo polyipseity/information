@@ -27,7 +27,7 @@ There exists {@{an inconsistency in different descriptions as to the definition 
 
 > {@{![tree rotation animation](../../archives/Wikimedia%20Commons/Tree%20rotation%20animation%20250x250.gif)}@}
 >
-> {@{tree rotation animation}@} <!--SR:!2025-03-18,66,310!2025-03-19,67,310-->
+> {@{tree rotation animation}@} <!--SR:!2026-01-01,289,330!2025-03-19,67,310-->
 
 {@{The right rotation operation}@} as shown in the adjacent image is performed {@{with _Q_ as the root and hence is a right rotation on, or rooted at, _Q_}@}. This operation results in {@{a rotation of the tree in the clockwise direction}@}. {@{The inverse operation}@} is {@{the left rotation, which results in a movement in a counter-clockwise direction}@} \(the left rotation shown above is {@{rooted at _P_}@}\). The key to understanding how a rotation functions is {@{to understand its constraints}@}. In particular {@{the order of the leaves of the tree \(when read left to right for example\) cannot change}@} \(another way to think of it is that {@{the order that the leaves would be visited in an in-order traversal must be the same after the operation as before}@}\). Another constraint is {@{the main property of a binary search tree}@}, namely that {@{all nodes in the right subtree are greater than the parent and all nodes in the left subtree are less than the [parent](tree%20(abstract%20data%20type).md)}@}. Notice that {@{the [right child](binary%20tree.md#right%20child) of a left child of the root of a sub-tree}@} \(for example node B in the diagram for the tree rooted at Q\) can {@{become the left child of the root}@}, that itself {@{becomes the right child of the "new" root in the rotated sub-tree}@}, without {@{violating either of those constraints}@}. As seen in the diagram, {@{the order of the leaves doesn't change}@}. The opposite operation also {@{preserves the order and is the second kind of rotation}@}. <!--SR:!2025-12-09,271,330!2025-12-15,276,330!2025-10-30,239,330!2025-03-19,67,310!2025-10-31,240,330!2025-12-26,284,330!2025-10-23,232,330!2025-06-08,124,290!2025-12-10,272,330!2025-12-15,276,330!2025-12-14,275,330!2025-11-03,242,330!2025-12-07,269,330!2025-04-25,81,270!2025-10-18,228,330!2025-12-23,281,330!2025-07-09,137,290-->
 
@@ -37,7 +37,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 
 > {@{![Pictorial description of how rotations are made.](../../archives/Wikimedia%20Commons/Tree%20Rotations.gif)}@}
 >
-> {@{Pictorial description of how rotations are made.}@} <!--SR:!2025-12-20,279,330!2025-03-18,65,310-->
+> {@{Pictorial description of how rotations are made.}@} <!--SR:!2025-12-20,279,330!2025-12-28,285,330-->
 
 When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2025-12-08,270,330!2025-05-09,100,290!2025-03-19,66,310!2025-12-15,276,330-->
 
@@ -71,7 +71,7 @@ The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))
 ```
 
-Computing {@{one from the other is very simple}@}. The following is example [Python](python%20(programming%20language).md) code that performs that computation: <!--SR:!2025-03-18,66,310-->
+Computing {@{one from the other is very simple}@}. The following is example [Python](python%20(programming%20language).md) code that performs that computation: <!--SR:!2026-01-02,290,330-->
 
 ```Python
 def right_rotation(treenode):
@@ -136,7 +136,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 >
 > [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-11-18,255,330-->
 
-{@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-07-31,166,310!2025-09-03,192,310!2025-03-18,66,310!2025-12-01,264,330-->
+{@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-07-31,166,310!2025-09-03,192,310!2025-12-31,288,330!2025-12-01,264,330-->
 
 It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-20,230,330!2025-08-26,185,310!2025-03-22,62,270-->
 

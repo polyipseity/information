@@ -296,7 +296,7 @@ Noise Levels and Causes
 - noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2025-04-01,243,330-->
   - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
   - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
-  - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
+  - concert ::@:: 100 dB(A) <!--SR:!2027-09-22,918,330!2025-03-22,218,310-->
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2025-04-23,237,290-->
   - train passing ::@:: 80 dB(A) <!--SR:!2026-11-09,619,310!2026-08-28,569,310-->
   - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2025-12-20,382,290-->
@@ -346,7 +346,7 @@ Indoor Air Quality
 - sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2027-11-25,995,350-->
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2025-05-05,266,330-->
   - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2026-05-06,490,310-->
-    - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2025-03-18,80,290-->
+    - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2026-02-10,329,310-->
     - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2025-04-29,128,210!2026-06-19,518,310-->
     - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2025-06-02,237,290-->
 

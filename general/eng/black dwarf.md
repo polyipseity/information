@@ -19,7 +19,7 @@ The name "black dwarf" has also been applied to {@{hypothetical late-stage coole
 
 - see: [event horizon](event%20horizon.md)
 
-The defining feature of a black hole is {@{the appearance of an event horizon—a boundary in [spacetime](spacetime.md) through which matter and light can pass only inward towards the mass of the black hole}@}. {@{Nothing, not even light}@}, can {@{escape from inside the event horizon}@}. The event horizon is referred to as such because {@{if an event occurs within the boundary, information from that event cannot reach an outside observer, making it impossible to determine whether such an event occurred}@}. <!--SR:!2025-03-18,154,300!2025-06-18,246,340!2025-08-28,304,340!2025-05-11,208,320-->
+The defining feature of a black hole is {@{the appearance of an event horizon—a boundary in [spacetime](spacetime.md) through which matter and light can pass only inward towards the mass of the black hole}@}. {@{Nothing, not even light}@}, can {@{escape from inside the event horizon}@}. The event horizon is referred to as such because {@{if an event occurs within the boundary, information from that event cannot reach an outside observer, making it impossible to determine whether such an event occurred}@}. <!--SR:!2026-12-19,641,320!2025-06-18,246,340!2025-08-28,304,340!2025-05-11,208,320-->
 
 ### singularity
 

@@ -24,12 +24,12 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - help::@::F1 <!--SR:!2028-12-22,1513,310!2028-05-26,1213,290-->
 - rename active::@::F2 <!--SR:!2026-05-10,876,296!2025-08-15,302,176-->
 - menu search::@::F3 <!--SR:!2030-01-18,1804,316!2026-01-25,575,256-->
-- file context menu::@::F4 <!--SR:!2025-03-18,152,170!2026-08-27,855,276-->
+- file context menu::@::F4 <!--SR:!2025-12-06,263,170!2026-08-27,855,276-->
 - show render window::@::F11 <!--SR:!2025-09-03,725,315!2026-02-08,678,276-->
 - render::@::F12 <!--SR:!2030-09-22,2158,336!2025-11-29,812,336-->
 - quick access::@::Q <!--SR:!2025-11-25,753,290!2025-05-12,197,230-->
 - toggle maximize area::@::Ctrl+Space <!--SR:!2025-08-07,171,150!2027-07-21,1007,256-->
-- toggle fullscreen area::@::Ctrl+Alt+Space <!--SR:!2025-03-18,56,150!2025-06-03,434,196-->
+- toggle fullscreen area::@::Ctrl+Alt+Space <!--SR:!2025-04-14,27,130!2025-06-03,434,196-->
 - cycle workspace::@::Ctrl+PageUp/PageDown <!--SR:!2026-01-04,419,250!2031-01-19,2240,336-->
 - play/tools/search::@::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
 - reverse playback::@::⇧Shift+Ctrl+Space <!--SR:!2025-04-30,257,190!2025-05-28,146,155-->

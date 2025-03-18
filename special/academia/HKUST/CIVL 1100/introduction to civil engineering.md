@@ -98,7 +98,7 @@ The content is in teaching order.
 - civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2028-11-25,1352,370-->
   - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
+  - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2028-07-09,1209,350-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
       - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
@@ -672,7 +672,7 @@ socioeconomic
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
-- biological→::@::←chemical <!--SR:!2025-12-06,424,337!2025-03-18,247,357-->
+- biological→::@::←chemical <!--SR:!2025-12-06,424,337!2027-08-16,881,357-->
 - chemical→::@::←cultural <!--SR:!2025-10-17,333,280!2027-03-26,849,377-->
 - cultural→::@::←physical <!--SR:!2026-07-28,649,365!2026-07-24,556,320-->
 - physical→::@::←socioeconomic <!--SR:!2025-08-22,264,277!2025-04-02,244,361-->
@@ -1019,7 +1019,7 @@ Taipei 101
 - HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2025-05-06,208,334-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
-- Taipei 101→::@::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->
+- Taipei 101→::@::←_(end)_ <!--SR:!2025-04-10,280,367!2026-05-17,425,301-->
 
 <!--/pytextgen-->
 

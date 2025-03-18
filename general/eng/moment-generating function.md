@@ -17,7 +17,7 @@ In {@{[probability theory](probability%20theory.md) and [statistics](statistics.
 
 As {@{its name implies}@}, the moment-[generating function](generating%20function.md) can be {@{used to compute a distribution’s [moments](moment%20(mathematics).md)}@}: {@{the _n_<!-- markdown separator -->th moment about 0 is the _n_<!-- markdown separator -->th derivative of the moment-generating function, evaluated at 0}@}. <!--SR:!2025-03-26,55,310!2025-04-07,65,310!2025-04-05,63,310-->
 
-In addition to {@{real-valued distributions \(univariate distributions\)}@}, moment-generating functions can be {@{defined for vector- or matrix-valued random variables, and can even be extended to more general cases}@}. <!--SR:!2025-04-07,65,310!2025-03-18,46,290-->
+In addition to {@{real-valued distributions \(univariate distributions\)}@}, moment-generating functions can be {@{defined for vector- or matrix-valued random variables, and can even be extended to more general cases}@}. <!--SR:!2025-04-07,65,310!2025-07-28,132,290-->
 
 The moment-generating function of a real-valued distribution {@{does not always exist, unlike the [characteristic function](characteristic%20function%20(probability%20theory).md)}@}. There are relations between {@{the behavior of the moment-generating function of a distribution and properties of the distribution}@}, such as {@{the existence of moments}@}. <!--SR:!2025-04-08,66,310!2025-04-08,66,310!2025-04-04,63,310-->
 
@@ -60,7 +60,7 @@ Here are {@{some examples of the moment-generating function and the characterist
 >
 > - [degenerate](degenerate%20distribution.md) $\delta _{a}$ ::@:: $M_X(t) = e^{ta}$, $\varphi_X(t) = e^{ita}$ <!--SR:!2025-03-25,54,310!2025-03-29,58,310-->
 > - [Bernoulli](Bernoulli%20distribution.md) $P(X=1)=p$ ::@:: $M_X(t) = 1-p+pe^{t}$, $\varphi_X(t) = 1-p+pe^{it}$ <!--SR:!2025-04-07,65,310!2025-04-07,65,310-->
-> - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi_X(t) = \left(1-p+pe^{it}\right)^{n}$ <!--SR:!2025-03-18,46,290!2025-03-21,48,290-->
+> - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi_X(t) = \left(1-p+pe^{it}\right)^{n}$ <!--SR:!2025-07-31,135,290!2025-03-21,48,290-->
 > - [Poisson](Poisson%20distribution.md) $\operatorname {Pois} (\lambda )$ ::@:: $M_X(t) = e^{\lambda (e^{t}-1)}$, $\varphi_X(t) = e^{\lambda (e^{it}-1)}$ <!--SR:!2025-04-02,42,250!2025-04-09,67,310-->
 > - [uniform \(continuous\)](uniform%20distribution%20(continuous).md) $\operatorname {U} (a,b)$ ::@:: $M_X(t) = {\frac {e^{tb}-e^{ta} }{t(b-a)} }$, $\varphi_X(t) = {\frac {e^{itb}-e^{ita} }{it(b-a)} }$ <!--SR:!2025-04-09,67,310!2025-05-24,86,270-->
 > - [normal](normal%20distribution.md) $N(\mu ,\sigma ^{2})$ ::@:: $M_X(t) = e^{t\mu +{\frac {1}{2} }\sigma ^{2}t^{2} }$, $\varphi_X(t) = e^{it\mu -{\frac {1}{2} }\sigma ^{2}t^{2} }$ <!--SR:!2025-09-15,182,310!2025-05-08,75,270-->
@@ -79,7 +79,7 @@ Note that for {@{the case where $X$ has a continuous [probability density functi
 
 ### linear transformations of random variables
 
-If {@{random variable $X$ has moment generating function $M_{X}(t)$}@}, then {@{$\alpha X+\beta$ has moment generating function $M_{\alpha X+\beta }(t)=e^{\beta t}M_{X}(\alpha t)$}@} {@{$$M_{\alpha X+\beta }(t)=E[e^{(\alpha X+\beta )t}]=e^{\beta t}E[e^{\alpha Xt}]=e^{\beta t}M_{X}(\alpha t)$$}@} <!--SR:!2025-04-07,65,310!2025-04-09,67,310!2025-03-18,46,290-->
+If {@{random variable $X$ has moment generating function $M_{X}(t)$}@}, then {@{$\alpha X+\beta$ has moment generating function $M_{\alpha X+\beta }(t)=e^{\beta t}M_{X}(\alpha t)$}@} {@{$$M_{\alpha X+\beta }(t)=E[e^{(\alpha X+\beta )t}]=e^{\beta t}E[e^{\alpha Xt}]=e^{\beta t}M_{X}(\alpha t)$$}@} <!--SR:!2025-04-07,65,310!2025-04-09,67,310!2025-07-27,131,290-->
 
 ### linear combination of independent random variables
 
@@ -127,7 +127,7 @@ __[Cumulant-generating function](cumulant-generating%20function.md)__
 
 __[Probability-generating function](probability-generating%20function.md)__
 
-&emsp; {@{The [probability-generating function](probability-generating%20function.md)}@} is defined as {@{$G(z)=E\left[z^{X}\right].\,$}@} This immediately implies that {@{$G(e^{t})=E\left[e^{tX}\right]=M_{X}(t).\,$}@} <!--SR:!2025-03-18,46,290!2025-08-13,156,310!2025-04-04,63,310-->
+&emsp; {@{The [probability-generating function](probability-generating%20function.md)}@} is defined as {@{$G(z)=E\left[z^{X}\right].\,$}@} This immediately implies that {@{$G(e^{t})=E\left[e^{tX}\right]=M_{X}(t).\,$}@} <!--SR:!2025-07-26,130,290!2025-08-13,156,310!2025-04-04,63,310-->
 
 ## see also
 

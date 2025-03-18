@@ -197,7 +197,7 @@ The content is in teaching order.
     - process costing / weighted average / advantages ::@:: It is simpler, thus more often used in the real world. <!--SR:!2025-06-15,92,362!2025-06-15,92,362-->
     - process costing / weighted average / disadvantages ::@:: May not be as accurate, especially for companies with significant inventories. <!--SR:!2025-04-28,51,342!2025-06-11,88,362-->
   - process costing / first-in, first-out (FIFO)
-    - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories. <!--SR:!2025-06-15,89,368!2025-03-18,19,348-->
+    - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories. <!--SR:!2025-06-15,89,368!2025-06-19,93,368-->
     - process costing / first-in, first-out (FIFO) / disadvantages ::@:: It is more complicated, thus rarely used in the real world. <!--SR:!2025-06-07,83,368!2025-05-18,66,348-->
 
 ## week 3 lecture 2
@@ -205,12 +205,12 @@ The content is in teaching order.
 - datetime: 2025-02-19T12:00:00+08:00/2025-02-19T13:20:00+08:00
 - topic: activity-based costing (ABC)
 - [activity-based costing](../../../../general/activity-based%20costing.md) ::@:: It is a costing method that identifies activities in an organization and assigns the cost of each activity to all products and services according to the actual consumption by each. Therefore, this model assigns more indirect costs (overhead) into direct costs compared to conventional costing. <!--SR:!2025-06-14,88,368!2025-05-16,61,348-->
-  - activity-based costing / the other costing method ::@:: volume-based costing (includes job costing, process costing) <!--SR:!2025-03-18,19,348!2025-03-18,19,348-->
+  - activity-based costing / the other costing method ::@:: volume-based costing (includes job costing, process costing) <!--SR:!2025-06-18,92,368!2025-06-18,92,368-->
 - volume-based costing
   - volume-based costing / predetermined overhead rate (POHR) ::@:: POHR = estimated MOH / estimated cost driver. We need to identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. <!--SR:!2025-04-10,35,328!2025-05-23,66,348-->
   - volume-based costing / manufacturing overhead cost per unit ::@:: Find the cost driver assigned to the process producing the units. Then use POHR to find the (applied) manufacturing overhead. Finally divide it by the number of (equivalent) units produced. Less means the process is more efficient. <!--SR:!2025-04-10,35,328!2025-05-15,60,348-->
   - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <!--SR:!2025-06-12,86,368!2025-06-14,88,368-->
-  - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <!--SR:!2025-05-18,66,348!2025-03-18,19,348-->
+  - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <!--SR:!2025-05-18,66,348!2025-05-26,69,348-->
 
 ## week 4 lecture
 
@@ -219,9 +219,9 @@ The content is in teaching order.
 - activity-based costing
   - activity-based costing / vs. volume-based costing ::@:: In volume-based costing, indirect costs are applied as applied MOH. POHR is used to find the applied MOH using a cost driver. <p> The problem is that MOH may be caused by multiple cost drivers. Using the same cost driver to estimate the actual MOH using applied MOH may be inaccurate. Activity-based costing assigns indirect costs to products and services based on the activities they require, making the applied MOH more accurate. This means using multiple cost drivers and having multiple POHR. <p> In this sense, activity-based costing _augments_ volume-based costing instead of _replacing_ it. <!--SR:!2025-05-18,66,348!2025-04-10,35,328-->
   - activity-based costing / two-staged allocation ::@:: Assign indirect costs to _activity cost pools_ (the costs over all pools _should_ sum up to the indirect costs). Then assign the pools to products or services. Note that an activity can be used by multiple products or services, and a product or service can use multiple pools. <!--SR:!2025-05-18,66,348!2025-06-12,86,368-->
-  - activity-based costing / activity classification ::@:: (largest to smallest) facility-level, product/service-level, batch-level, unit-level <!--SR:!2025-03-18,19,348!2025-06-15,89,368-->
-    - activity-based costing / activity classification / facility-level ::@:: They support the entire company, e.g. company-wide (but not a single product) advertising, human resources, plant (but not a single product line) supervision, etc. <!--SR:!2025-03-18,19,348!2025-03-18,19,348-->
-    - activity-based costing / activity classification / product/service-level ::@:: They support a specific product or service, e.g. product advertising, engineering and quality control, product testing, research and development, etc. <!--SR:!2025-03-18,19,348!2025-05-23,66,348-->
+  - activity-based costing / activity classification ::@:: (largest to smallest) facility-level, product/service-level, batch-level, unit-level <!--SR:!2025-06-17,91,368!2025-06-15,89,368-->
+    - activity-based costing / activity classification / facility-level ::@:: They support the entire company, e.g. company-wide (but not a single product) advertising, human resources, plant (but not a single product line) supervision, etc. <!--SR:!2025-06-17,91,368!2025-06-20,94,368-->
+    - activity-based costing / activity classification / product/service-level ::@:: They support a specific product or service, e.g. product advertising, engineering and quality control, product testing, research and development, etc. <!--SR:!2025-05-26,69,348!2025-05-23,66,348-->
     - activity-based costing / activity classification / batch-level ::@:: They support a batch (group of units/group of customers) at once, e.g. machine setup (one setup per batch), ordering materials, shipping a batch, etc. <!--SR:!2025-05-18,66,348!2025-05-18,66,348-->
     - activity-based costing / activity classification / unit-level ::@:: They support a unit or a customer individually, e.g. machining, part installation, product painting, serving a customer, etc. <!--SR:!2025-06-06,82,368!2025-05-18,66,348-->
   - activity-based costing / cost drivers ::@:: The cost drivers we have previously considered before ABC are _volume-based cost drivers_, e.g. direct materials, direct labor, machining hours, units produced, etc. In ABC, we also consider _non-volume-based cost drivers_, e.g. batch count, design count, processing time per unit, quality inspections, setup time, etc. <p> For each activity cost pool, we choose a cost driver that has a causal relationship with the activity, which should be non-volume-based cost drivers. <!--SR:!2025-04-09,34,328!2025-04-09,34,328-->

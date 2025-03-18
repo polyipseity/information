@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - ![filter funnel](../../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg):@:[filter funnel](filter%20funnel.md) <!--SR:!2027-01-23,998,330-->
 - ![flat-bottom(ed) flask](../../archives/Wikimedia%20Commons/TGI%20250.jpg):@:[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2026-04-12,794,330-->
 - ![gas jar/pneumatic trough](../../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg):@:[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-01-23,784,330-->
-- ![glass stirring rod/glass rod/stir(ring) rod](../../archives/Wikimedia%20Commons/Stirring%20rod.jpg):@:[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-03-18,535,310-->
+- ![glass stirring rod/glass rod/stir(ring) rod](../../archives/Wikimedia%20Commons/Stirring%20rod.jpg):@:[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2031-06-30,2295,330-->
 - ![graduated pipette](../../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg):@:[graduated pipette](graduated%20pipette.md) <!--SR:!2029-03-22,1501,330-->
 - ![heat-resistant mat/heatproof mat](../../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg):@:[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-12-08,737,330-->
 - ![measuring cylinder/graduated cylinder/mixing cylinder](../../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg):@:[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2025-11-14,728,330-->

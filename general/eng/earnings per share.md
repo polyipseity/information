@@ -36,13 +36,13 @@ tags:
 
 {@{__Earnings per share__ \(__EPS__\)}@} is {@{the monetary value of [earnings](earnings.md) per [outstanding share](shares%20outstanding.md) of [common stock](common%20stock.md) for a company during a defined period of time}@}. It is {@{a key measure of corporate profitability}@}, focussing on {@{the interests of the company's owners \([shareholders](shareholder.md)\)}@},<sup>[\[1\]](#^ref-1)</sup> and is commonly used to {@{price stocks}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-03-26,63,310!2025-06-23,116,290!2025-03-30,66,310!2025-03-30,66,310!2025-03-23,60,310-->
 
-In the United States, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} requires {@{EPS information for the four major categories of the [income statement](income%20statement.md)}@}: {@{continuing operations, discontinued operations, extraordinary items, and [net income](net%20income.md)}@}. <!--SR:!2025-03-22,59,310!2025-03-18,56,310!2025-08-07,159,310-->
+In the United States, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} requires {@{EPS information for the four major categories of the [income statement](income%20statement.md)}@}: {@{continuing operations, discontinued operations, extraordinary items, and [net income](net%20income.md)}@}. <!--SR:!2025-03-22,59,310!2025-11-12,239,330!2025-08-07,159,310-->
 
 ## calculation
 
 {@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-03-20,58,310!2025-03-23,60,310!2025-03-31,67,310!2025-07-13,128,290!2025-08-15,163,310!2025-03-31,67,310!2025-08-21,169,310-->
 
-__Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-07-07,123,290!2025-03-18,56,310-->
+__Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-07-07,123,290!2025-11-11,238,330-->
 
 __Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-08-28,165,310!2025-03-25,62,310-->
 

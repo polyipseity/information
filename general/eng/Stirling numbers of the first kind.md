@@ -125,7 +125,7 @@ More generally, one can {@{invert the [Bell polynomial](bell%20polynomials.md) g
 
 ### finite sums
 
-Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}^{n}\left[{n \atop k}\right]=n!$$}@} The identity {@{$$\sum _{p=k}^{n}{\left[{n \atop p}\right]{\binom {p}{k} } }=\left[{n+1 \atop k+1}\right]$$}@} can be proved by {@{the techniques on the page [Stirling numbers and exponential generating functions](Stirling%20numbers%20and%20exponential%20generating%20functions%20in%20symbolic%20combinatorics.md)}@}. <!--SR:!2025-06-18,165,311!2025-03-18,44,231!2025-08-13,222,331-->
+Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}^{n}\left[{n \atop k}\right]=n!$$}@} The identity {@{$$\sum _{p=k}^{n}{\left[{n \atop p}\right]{\binom {p}{k} } }=\left[{n+1 \atop k+1}\right]$$}@} can be proved by {@{the techniques on the page [Stirling numbers and exponential generating functions](Stirling%20numbers%20and%20exponential%20generating%20functions%20in%20symbolic%20combinatorics.md)}@}. <!--SR:!2025-06-18,165,311!2025-06-25,99,231!2025-08-13,222,331-->
 
 {@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-07-24,191,319!2026-03-12,392,359-->
 
