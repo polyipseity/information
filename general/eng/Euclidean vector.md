@@ -394,7 +394,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Euclidean_vector)
 
 <!-- markdownlint MD028 -->
 
-> ![Wikibooks logo](../../archives/Wikimedia%20Commons/Wikibooks-logo-en-noslogan.svg) The Wikibook _[Waves](wikibooks_Waves.md)_ has a page on the topic of: ___[Vectors](wikibooks_Waves_Vectors.md)___
+> ![Wikibooks logo](../../archives/Wikimedia%20Commons/Wikibooks-logo-en-noslogan.svg) The Wikibook _[Waves](https://en.wikibooks.org/wiki/Waves)_ has a page on the topic of: ___[Vectors](https://en.wikibooks.org/wiki/Waves/Vectors)___
 
 - ["Vector"](https://www.encyclopediaofmath.org/index.php?title=Vector), _[Encyclopedia of Mathematics](Encyclopedia%20of%20Mathematics.md)_, [EMS Press](European%20Mathematical%20Society.md), 2001 \[1994\]
 - [Online vector identities](https://web.archive.org/web/20120801005307/http://wwwppd.nrl.navy.mil/nrlformulary/vector_identities.pdf) \([PDF](Portable%20Document%20Format.md)\)

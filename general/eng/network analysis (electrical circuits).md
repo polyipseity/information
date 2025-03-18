@@ -58,7 +58,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 ## equivalent circuits
 
-{@{![circuit equivalence](../../archives/Wikimedia%20Commons/Circuit%20equivalence.png)}@} <!--SR:!2025-03-20,4,300-->
+\(annotation: image\) ::@:: ![circuit equivalence](../../archives/Wikimedia%20Commons/Circuit%20equivalence.png) <!--SR:!2025-03-20,4,300-->
 
 - Main article: ::@:: [Equivalent impedance transforms](equivalent%20impedance%20transforms.md) <!--SR:!2025-03-20,4,270!2025-03-21,4,289-->
 
@@ -86,7 +86,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 - Main article: ::@:: [Y-Δ transform](Y-Δ%20transform.md) <!--SR:!2025-03-21,4,289!2025-03-20,4,289-->
 
-{@{![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg)}@} <!--SR:!2025-03-20,4,300-->
+\(annotation: image\) ::@:: ![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg) <!--SR:!2025-03-20,4,300-->
 
 {@{A network of impedances with more than two terminals}@} {@{cannot be reduced to a single impedance equivalent circuit}@}. {@{An _n_-terminal network}@} can, {@{at best, be reduced to _n_ impedances \(at worst [$${\tbinom {n}{2} }$$](binomial%20coefficient.md)\)}@}. For {@{a three terminal network}@}, the three impedances can be expressed as {@{a three node delta \(Δ\) network or four node star \(Y\) network}@}. These two networks are {@{equivalent and the transformations between them are given below}@}. {@{A general network with an arbitrary number of nodes}@} cannot be {@{reduced to the minimum number of impedances using only series and parallel combinations}@}. In general, {@{Y-Δ and Δ-Y transformations must also be used}@}. For some networks {@{the extension of Y-Δ to [star-polygon](#general%20form%20of%20network%20node%20elimination) transformations may also be required}@}. <!--SR:!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,289!2025-03-20,4,270!2025-03-21,4,289!2025-03-20,4,300!2025-03-20,4,289!2025-03-20,4,270-->
 
@@ -106,15 +106,15 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 {@{The star-to-delta and series-resistor transformations}@} are {@{special cases of the general resistor network node elimination algorithm}@}. {@{Any node connected by _N_ resistors \(_R_<sub>1</sub> … _R<sub>N</sub>_\) to nodes __1__ … ___N___}@} can be {@{replaced by ${\tbinom {N}{2} }$ resistors interconnecting the remaining _N_ nodes}@}. {@{The resistance between any two nodes _x, y_}@} is given by: {@{$$R_{\mathrm {xy} }=R_{x}R_{y}\sum _{i=1}^{N}{\frac {1}{R_{i} } }$$}@} <!--SR:!2025-03-20,4,270!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,300-->
 
-For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R} }_{a}+{\frac {1}{R} }_{b}+{\frac {1}{R} }_{c}\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2025-03-20,4,270!2025-03-20,4,270-->
+For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }+{\frac {1}{R_{c} } }\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2025-03-20,4,270!2025-03-20,4,270-->
 
-For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R} }_{a}+{\frac {1}{R} }_{b}\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2025-03-20,4,289!2025-03-20,4,270-->
+For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2025-03-20,4,289!2025-03-20,4,270-->
 
 For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of the resistor because ${\tbinom {1}{2} }=0$}@}. <!--SR:!2025-03-21,4,289!2025-03-20,4,300-->
 
 ### source transformation
 
-> {@{![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg)}@} <!--SR:!2025-03-21,4,289-->
+> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2025-03-21,4,289-->
 
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2025-03-20,4,289!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,300!2025-03-20,4,270!2025-03-20,4,300-->
 

@@ -1,0 +1,1 @@
+minor (linear algebra).md
