@@ -89,7 +89,7 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\cos^2 6.52 + \sin^2 6.52$ ::@:: $1$ <!--SR:!2025-04-15,369,360!2025-03-19,350,360-->
+> - $\cos^2 6.52 + \sin^2 6.52$ ::@:: $1$ <!--SR:!2025-04-15,369,360!2029-12-10,1727,380-->
 > - $\cot^2 (-3.52) + 1$ ::@:: $\csc^2 (-3.52)$ <!--SR:!2027-02-07,806,340!2025-04-09,364,360-->
 > - $1 + \tan^2 (-7.23)$ ::@:: $\sec^2 (-7.23)$ <!--SR:!2027-04-19,853,340!2025-06-19,370,320-->
 > - $\csc^2 0.23 + \sec^2 0.23$ ::@:: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2026-08-24,527,339!2026-02-22,516,340-->
@@ -212,7 +212,7 @@ return await memorize_map(
 - sine:@:$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2026-04-04,451,336-->
 - cosine:@:$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2026-02-17,437,336-->
 - tangent:@:$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2025-03-26,56,196-->
-- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2025-03-19,162,296-->
+- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2025-06-11,84,276-->
 - cosecant:@:$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2025-07-05,240,296-->
 - cotangent:@:$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2025-04-02,119,236-->
 

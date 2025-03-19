@@ -15,7 +15,7 @@ tags:
 
 {@{A firm will choose to implement a __shutdown__ of [production](production%20(economics).md)}@} when {@{the [revenue](revenue.md) received from the sale of the [goods or services](goods%20and%20services.md) produced cannot even cover the [variable costs](variable%20cost.md) of production}@}. In that situation, the firm will {@{experience a higher loss when it produces, compared to not producing at all}@}. <!--SR:!2025-04-16,60,310!2025-03-20,39,290!2025-04-21,64,310-->
 
-Technically, shutdown occurs {@{if [average revenue](total%20revenue.md) is below [average variable cost](average%20variable%20cost.md) at the profit-maximizing positive level of output}@}. {@{Producing anything}@} would {@{not generate enough revenue to offset the associated variable costs}@}; {@{producing some output}@} would {@{add further costs in excess of revenues to the costs inevitably being incurred \(the [fixed costs](fixed%20cost.md)\)}@}. By {@{not producing, the firm loses only the fixed costs}@}. <!--SR:!2025-04-22,65,310!2025-04-16,60,310!2025-04-17,61,310!2025-03-19,37,290!2025-04-22,65,310!2025-04-12,57,310-->
+Technically, shutdown occurs {@{if [average revenue](total%20revenue.md) is below [average variable cost](average%20variable%20cost.md) at the profit-maximizing positive level of output}@}. {@{Producing anything}@} would {@{not generate enough revenue to offset the associated variable costs}@}; {@{producing some output}@} would {@{add further costs in excess of revenues to the costs inevitably being incurred \(the [fixed costs](fixed%20cost.md)\)}@}. By {@{not producing, the firm loses only the fixed costs}@}. <!--SR:!2025-04-22,65,310!2025-04-16,60,310!2025-04-17,61,310!2025-08-12,146,310!2025-04-22,65,310!2025-04-12,57,310-->
 
 ## explanation
 

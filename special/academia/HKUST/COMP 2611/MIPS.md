@@ -60,7 +60,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 
 - `$s`, `$t`, and `$d` \(in order of instruction encoding\) ::@:: It can be any 32-bit named/numbered register \(5 bits to encode\). <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - `imm` ::@:: It can be any 16-bit constant, which may be unextended, sign-extended, or zero-extended depending on the instruction. <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
-- `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2025-03-19,3,275!2025-03-20,4,295-->
+- `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2025-04-01,13,295!2025-03-20,4,295-->
 - `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!2025-03-20,4,295!2025-03-20,4,290-->
 - `h` ::@:: It can be any 5-bit unsigned constant. It is used for bit-shit instructions. <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
@@ -84,7 +84,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(surprise!\) <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
   - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow. <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
-  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2025-03-19,3,275!2025-03-20,4,295-->
+  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2025-04-01,13,295!2025-03-20,4,295-->
 - divide ::@:: `div $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, signed; `$LO` \(quotient\) is rounded towards zero, while `$HI` \(remainder\) is such that `$s == $t * $LO + $HI` <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - divide immediate ::@:: `divi` does not exist. <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - divide immediate unsigned ::@:: `diviu` does not exist. <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
@@ -177,7 +177,7 @@ The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, an
 - rs ::@:: 5 bits; R format: first source register operand; I format: source or memory register operand <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - rt ::@:: 5 bits; R format: second source register operand; I format: destination or non-memory register operand <!--SR:!2025-03-20,4,290!2025-03-20,4,295-->
 - rd ::@:: 5 bits; R format: destination register operand <!--SR:!2025-03-20,4,290!2025-03-20,4,290-->
-- shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2025-03-20,4,290!2025-03-19,3,275-->
+- shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2025-03-20,4,290!2025-04-01,13,295-->
 - funct ::@:: 6 bits; R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!2025-03-20,4,290!2025-03-20,4,290-->
 - imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
 - pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2025-03-20,4,295!2025-03-20,4,295-->
@@ -276,6 +276,6 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 
 - load address ::@:: `la $d, addr`; `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, 0x1001; ori $d, $at, addr[0:16];` <!--SR:!2025-03-20,4,295!2025-03-20,4,290-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2025-03-20,4,290!2025-03-20,4,290-->
-- not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-03-19,3,275!2025-03-20,4,295-->
+- not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-03-28,9,275!2025-03-20,4,295-->
 
 \(this course: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2025-03-20,4,295-->

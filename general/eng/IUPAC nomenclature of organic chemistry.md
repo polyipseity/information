@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCOR'}@}
 > - prefix: {@{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}@}
 > - suffix: {@{-one}@}
-> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2032-06-01,2637,341!2025-03-19,92,130!2027-03-07,780,342!2028-07-31,1552,362-->
+> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2032-06-01,2637,341!2025-07-17,120,130!2027-03-07,780,342!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 

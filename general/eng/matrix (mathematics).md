@@ -19,7 +19,7 @@ The _sum_ of {@{two matrices __A__ and __B__ of the same size _m_ × _n_}@} is d
 
 #### scalar multiplication
 
-The _product_ of {@{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}@} is denoted {@{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}@}. It is calculated by {@{multiplying every element of __A__ by _c_}@}: {@{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2025-06-22,286,330!2026-11-21,675,330!2026-03-15,469,310!2025-03-19,209,310-->
+The _product_ of {@{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}@} is denoted {@{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}@}. It is calculated by {@{multiplying every element of __A__ by _c_}@}: {@{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2025-06-22,286,330!2026-11-21,675,330!2026-03-15,469,310!2027-09-02,897,330-->
 
 #### subtraction
 

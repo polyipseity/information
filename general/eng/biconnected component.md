@@ -32,7 +32,7 @@ The depth is {@{standard to maintain during a depth-first search}@}. The lowpoin
 
 The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation point\) separating two biconnected components}@} {@{if and only if there is a child _y_ of _v_ such that lowpoint\(_y_\) ≥ depth\(_v_\)}@}. {@{This property can be tested}@} once {@{the depth-first search returned from every child of _v_ \(i.e., just before _v_ gets popped off the depth-first-search stack\)}@}, and if {@{__true__, _v_ separates the graph into different biconnected components}@}. This can be represented by {@{computing one biconnected component out of every such _y_ \(a component which contains _y_ will contain the subtree of _y_, plus _v_\)}@}, and {@{then erasing the subtree of _y_ from the tree}@}. <!--SR:!2025-04-21,85,275!2025-07-14,153,310!2025-07-06,146,310!2025-03-26,59,255!2025-03-20,68,315!2025-05-06,87,275!2025-06-03,120,295-->
 
-{@{The root vertex must be handled separately}@}: it is {@{a cut vertex if and only if it has at least two children in the DFS tree}@}. Thus, it {@{suffices to simply build one component out of each child subtree of the root \(including the root\)}@}. <!--SR:!2025-12-23,283,335!2025-03-19,67,310!2025-06-08,124,295-->
+{@{The root vertex must be handled separately}@}: it is {@{a cut vertex if and only if it has at least two children in the DFS tree}@}. Thus, it {@{suffices to simply build one component out of each child subtree of the root \(including the root\)}@}. <!--SR:!2025-12-23,283,335!2025-10-08,203,310!2025-06-08,124,295-->
 
 ### pseudocode
 

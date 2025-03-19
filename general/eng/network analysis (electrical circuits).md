@@ -53,7 +53,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 > - __[Mesh](mesh%20analysis.md)__ ::@:: A group of branches within a network joined so as to form a complete loop such that there is no other loop inside it. <!--SR:!2025-03-21,4,289!2025-03-20,4,289-->
 > - __[Port](port%20(circuit%20theory).md)__ ::@:: Two terminals where the current into one is identical to the current out of the other. <!--SR:!2025-03-20,4,289!2025-03-20,4,300-->
 > - __[Circuit](electrical%20circuit.md)__: {@{A current from one terminal of a [generator](generator%20(circuit%20theory).md)}@}, through {@{load component\(s\) and back into the other terminal}@}. A circuit is, in this sense, {@{a one-port network and is a trivial case to analyse}@}. If {@{there is any connection to any other circuits}@} then {@{a non-trivial network has been formed and at least two ports must exist}@}. Often, {@{"circuit" and "network" are used interchangeably}@}, but {@{many analysts reserve "network" to mean an idealised model consisting of ideal components}@}.<sup>[\[1\]](#^ref-1)</sup>
-> - __[Transfer function](transfer%20function.md)__ ::@:: The relationship of the currents and/or voltages between two ports. Most often, an input port and an output port are discussed and the transfer function is described as gain or attenuation. <!--SR:!2025-03-20,4,300!2025-03-19,3,250-->
+> - __[Transfer function](transfer%20function.md)__ ::@:: The relationship of the currents and/or voltages between two ports. Most often, an input port and an output port are discussed and the transfer function is described as gain or attenuation. <!--SR:!2025-03-20,4,300!2025-03-31,12,270-->
 > - __Component transfer function__: For {@{a two-terminal component \(i.e. one-port component\)}@}, {@{the current and voltage are taken as the input and output}@} and the transfer function will {@{have units of impedance or admittance \(it is usually a matter of arbitrary convenience whether voltage or current is considered the input\)}@}. {@{A three \(or more\) terminal component}@} effectively has {@{two \(or more\) ports}@} and {@{the transfer function cannot be expressed as a single impedance}@}. The usual approach is to {@{express the transfer function as a matrix of parameters}@}. These parameters can be {@{impedances}@}, but there is {@{a large number of other approaches \(see [two-port network](two-port%20network.md)\)}@}. <!--SR:!2025-03-20,4,289!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,270-->
 
 ## equivalent circuits
@@ -62,7 +62,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 - Main article: ::@:: [Equivalent impedance transforms](equivalent%20impedance%20transforms.md) <!--SR:!2025-03-20,4,270!2025-03-21,4,289-->
 
-{@{A useful procedure in network analysis}@} is to {@{simplify the network by reducing the number of components}@}. This can be done by {@{replacing physical components with other notional components that have the same effect}@}. {@{A particular technique}@} might {@{directly reduce the number of components}@}, for instance by {@{combining impedances in series}@}. On the other hand, it might {@{merely change the form into one in which the components can be reduced in a later operation}@}. For instance, one might {@{transform a voltage generator into a current generator using Norton's theorem}@} in order to {@{be able to later combine the internal resistance of the generator with a parallel impedance load}@}. <!--SR:!2025-03-20,4,300!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,300!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,300!2025-03-19,3,250-->
+{@{A useful procedure in network analysis}@} is to {@{simplify the network by reducing the number of components}@}. This can be done by {@{replacing physical components with other notional components that have the same effect}@}. {@{A particular technique}@} might {@{directly reduce the number of components}@}, for instance by {@{combining impedances in series}@}. On the other hand, it might {@{merely change the form into one in which the components can be reduced in a later operation}@}. For instance, one might {@{transform a voltage generator into a current generator using Norton's theorem}@} in order to {@{be able to later combine the internal resistance of the generator with a parallel impedance load}@}. <!--SR:!2025-03-20,4,300!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,300!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,300!2025-03-31,12,270-->
 
 {@{A [resistive circuit](resistive%20circuit.md)}@} is {@{a circuit containing only [resistors](resistors.md), ideal [current sources](current%20source.md), and ideal [voltage sources](voltage%20source.md)}@}. If {@{the sources are constant \([DC](direct%20current.md)\) sources}@}, the result is {@{a [DC circuit](direct%20current%20circuit.md)}@}. {@{Analysis of a circuit}@} consists of {@{solving for the voltages and currents present in the circuit}@}. {@{The solution principles outlined here}@} also {@{apply to [phasor](phasor%20(electronics).md) analysis of [AC circuits](#AC%20circuits)}@}. <!--SR:!2025-03-21,4,289!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270!2025-03-21,4,289!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,300-->
 
@@ -94,7 +94,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### delta-to-star transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ <!--SR:!2025-03-19,3,280!2025-03-20,4,300-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ <!--SR:!2025-03-21,2,260!2025-03-20,4,300-->
 
 #### star-to-delta transformation equations
 
@@ -119,7 +119,7 @@ For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of th
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2025-03-20,4,289!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,300!2025-03-20,4,270!2025-03-20,4,300-->
 
 - [Norton's theorem](Norton's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal current generator and a parallel impedance. <!--SR:!2025-03-21,4,289!2025-03-20,4,300-->
-- [Thévenin's theorem](Thévenin's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal voltage generator plus a series impedance. <!--SR:!2025-03-19,3,250!2025-03-20,4,300-->
+- [Thévenin's theorem](Thévenin's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal voltage generator plus a series impedance. <!--SR:!2025-03-31,12,270!2025-03-20,4,300-->
 
 ## simple networks
 
@@ -135,7 +135,7 @@ Consider {@{n impedances that are connected in __series__}@}. {@{The voltage $V_
 
 - Main article: ::@:: [current division](current%20division.md) <!--SR:!2025-03-20,4,270!2025-03-20,4,300-->
 
-Consider {@{n admittances that are connected in __parallel__}@}. {@{The current $I_{i}$ through any admittance}@} $Y_{i}$ is {@{$$I_{i}=Y_{i}V=\left({\frac {Y_{i} }{Y_{1}+Y_{2}+\cdots +Y_{n} } }\right)I$$ for $i=1,2,...,n$}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,300!2025-03-19,3,250-->
+Consider {@{n admittances that are connected in __parallel__}@}. {@{The current $I_{i}$ through any admittance}@} $Y_{i}$ is {@{$$I_{i}=Y_{i}V=\left({\frac {Y_{i} }{Y_{1}+Y_{2}+\cdots +Y_{n} } }\right)I$$ for $i=1,2,...,n$}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,300!2025-03-31,12,270-->
 
 #### special case: current division of two parallel components
 
@@ -184,7 +184,7 @@ There is {@{an underlying assumption to this method}@} that {@{the total current
 
 {@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If {@{the network is particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits may yield the answer without recourse to the more systematic methods}@}. <!--SR:!2025-03-20,4,289!2025-03-20,4,300!2025-03-20,4,289!2025-03-20,4,270-->
 
-- [Nodal analysis](nodal%20analysis.md): ::@:: The number of voltage variables, and hence simultaneous equations to solve, equals the number of nodes minus one. Every voltage source connected to the reference node reduces the number of unknowns and equations by one. <!--SR:!2025-03-20,4,300!2025-03-19,3,280-->
+- [Nodal analysis](nodal%20analysis.md): ::@:: The number of voltage variables, and hence simultaneous equations to solve, equals the number of nodes minus one. Every voltage source connected to the reference node reduces the number of unknowns and equations by one. <!--SR:!2025-03-20,4,300!2025-04-01,13,300-->
 - [Mesh analysis](mesh%20analysis.md): ::@:: The number of current variables, and hence simultaneous equations to solve, equals the number of meshes. Every current source in a mesh reduces the number of unknowns by one. Mesh analysis can only be used with networks which can be drawn as a [planar](planar%20graph.md) network, that is, with no crossing components.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup> <!--SR:!2025-03-21,4,289!2025-03-21,4,289-->
 - [Superposition](superposition%20theorem.md) ::@:: is possibly the most conceptually simple method but rapidly leads to a large number of equations and messy impedance combinations as the network becomes larger. <!--SR:!2025-03-20,4,300!2025-03-20,4,270-->
 - {@{[Effective medium approximations](effective%20medium%20approximations.md)}@}: For {@{a network consisting of a high density of random resistors}@}, {@{an exact solution for each individual element may be impractical or impossible}@}. Instead, {@{the effective resistance and current distribution properties}@} can be {@{modelled in terms of [graph](graph%20(discrete%20mathematics).md) measures and geometrical properties of networks}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-20,4,270!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,289!2025-03-20,4,300-->
@@ -209,7 +209,7 @@ For {@{two terminal components}@} {@{the transfer function, or more generally fo
 >
 > - resistor, general ::@:: $Z(s) = R$ <!--SR:!2025-03-20,4,270!2025-03-20,4,270-->
 > - inductor, general ::@:: $Z(s) = sL$ <!--SR:!2025-03-21,4,289!2025-03-21,4,289-->
-> - capacitor, general ::@:: $Z(s) = \frac 1 {sC}$ <!--SR:!2025-03-20,4,300!2025-03-19,3,250-->
+> - capacitor, general ::@:: $Z(s) = \frac 1 {sC}$ <!--SR:!2025-03-20,4,300!2025-03-31,12,270-->
 
 For {@{a network to which only steady ac signals are applied}@}, {@{s is replaced with _jω_}@} and {@{the more familiar values from ac network theory result}@}. <!--SR:!2025-03-20,4,300!2025-03-20,4,270!2025-03-21,4,289-->
 
@@ -237,7 +237,7 @@ Finally, for {@{a network to which only steady dc is applied}@}, {@{s is replace
 >
 > - resistor, steady DC ::@:: $Z = R$ <!--SR:!2025-03-20,4,270!2025-03-20,4,289-->
 > - inductor, steady DC ::@:: $Z = 0$ <!--SR:!2025-03-20,4,270!2025-03-21,4,289-->
-> - capacitor, steady DC ::@:: $Z = \infty$ <!--SR:!2025-03-20,4,270!2025-03-19,3,269-->
+> - capacitor, steady DC ::@:: $Z = \infty$ <!--SR:!2025-03-20,4,270!2025-03-31,12,289-->
 
 ### two port network transfer function
 
@@ -271,7 +271,7 @@ Where {@{a network is composed of discrete components}@}, {@{analysis using two-
 
 {@{Simulation-based methods for time-based network analysis}@} solve {@{a circuit that is posed as an [initial value problem](initial%20value%20problem.md) \(IVP\)}@}. That is, {@{the values of the components with memories \(for example, the voltages on capacitors and currents through inductors\)}@} are {@{given at an initial point of time t<sub>0</sub>}@}, and the analysis is {@{done for the time $t_{0}\leq t\leq t_{f}$}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;206-207&hairsp;</sup> Since {@{finding numerical results for the infinite number of time points from t<sub>0</sub> to t<sub>f</sub> is not possible}@}, this time period is {@{discretized into discrete time instances}@}, and {@{the numerical solution is found for every instance}@}. {@{The time between the time instances}@} is called {@{the time step and can be fixed throughout the whole simulation or may be [adaptive](adaptive%20step%20size.md)}@}. <!--SR:!2025-03-20,4,289!2025-03-21,4,289!2025-03-20,4,300!2025-03-20,4,289!2025-03-20,4,270!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,289!2025-03-20,4,289!2025-03-20,4,300-->
 
-In {@{an IVP, when finding a solution for time t<sub>n+1</sub>}@}, {@{the solution for time t<sub>n</sub> is already known}@}. Then, {@{[temporal discretization](temporal%20discretization.md)}@} is used to {@{replace the derivatives with differences}@}, such as {@{$$x'(t_{n+1})\approx {\frac {x_{n+1}-x_{n} }{h_{n+1} } }$$ for the [backward Euler method](backward%20Euler%20method.md)}@}, where {@{h<sub>n+1</sub> is the time step}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;266&hairsp;</sup> <!--SR:!2025-03-20,4,300!2025-03-21,4,289!2025-03-21,4,289!2025-03-20,4,300!2025-03-19,3,280!2025-03-20,4,289-->
+In {@{an IVP, when finding a solution for time t<sub>n+1</sub>}@}, {@{the solution for time t<sub>n</sub> is already known}@}. Then, {@{[temporal discretization](temporal%20discretization.md)}@} is used to {@{replace the derivatives with differences}@}, such as {@{$$x'(t_{n+1})\approx {\frac {x_{n+1}-x_{n} }{h_{n+1} } }$$ for the [backward Euler method](backward%20Euler%20method.md)}@}, where {@{h<sub>n+1</sub> is the time step}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;266&hairsp;</sup> <!--SR:!2025-03-20,4,300!2025-03-21,4,289!2025-03-21,4,289!2025-03-20,4,300!2025-03-28,9,280!2025-03-20,4,289-->
 
 If {@{all circuit components were linear or the circuit was linearized beforehand}@}, {@{the equation system at this point is a [system of linear equations](system%20of%20linear%20equations.md)}@} and is {@{solved with [numerical linear algebra](numerical%20linear%20algebra.md) methods}@}. Otherwise, it is {@{a nonlinear algebraic equation system}@} and is {@{solved with [nonlinear numerical methods](equation%20solving.md#numerical%20methods) such as [Root-finding algorithms](root-finding%20algorithms.md)}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,300!2025-03-20,4,300!2025-03-20,4,289-->
 

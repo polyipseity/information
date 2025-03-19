@@ -11,7 +11,7 @@ tags:
 
 ## characteristics
 
-Empathy is the foundation of {@{a human-centered design process}@}. <!--SR:!2025-03-19,241,330-->
+Empathy is the foundation of {@{a human-centered design process}@}. <!--SR:!2028-03-16,1093,350-->
 
 ### difference from sympathy
 

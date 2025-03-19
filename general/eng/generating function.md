@@ -232,7 +232,7 @@ Tools for processing and working with _P_-recursive sequences in {@{_[Mathematic
 
 - see: [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md)
 
-When {@{the series [converges absolutely](absolute%20convergence.md)}@}, {@{$$G\left(a_{n};e^{-i\omega }\right)=\sum _{n=0}^{\infty }a_{n}e^{-i\omega n}$$}@} is {@{the discrete-time Fourier transform of the sequence _a_<sub>0</sub>, _a_<sub>1</sub>, ...}@}. <!--SR:!2025-08-25,224,310!2025-08-11,195,270!2025-03-19,106,290-->
+When {@{the series [converges absolutely](absolute%20convergence.md)}@}, {@{$$G\left(a_{n};e^{-i\omega }\right)=\sum _{n=0}^{\infty }a_{n}e^{-i\omega n}$$}@} is {@{the discrete-time Fourier transform of the sequence _a_<sub>0</sub>, _a_<sub>1</sub>, ...}@}. <!--SR:!2025-08-25,224,310!2025-08-11,195,270!2026-05-20,427,310-->
 
 ### asymptotic growth of a sequence
 
@@ -342,7 +342,7 @@ Generating functions give us {@{several methods to manipulate sums and to establ
 
 The simplest case occurs when {@{_s<sub>n</sub>_ = Σ<sup>_n_</sup><sub>_k_ = 0</sub> _a<sub>k</sub>_ (_s<sub>n</sub>_ is the cumulative sum from _a<sub>0</sub>_ to _a<sub>n</sub>_)}@}. We then know that {@{$S(z) = \frac {A(z)} {1 - z}$ for the corresponding ordinary generating functions}@}. <!--SR:!2025-08-21,220,310!2025-09-28,271,330-->
 
-For example, we can manipulate {@{$$s_{n}=\sum _{k=1}^{n}H_{k}\,,$$}@} where {@{_H<sub>k</sub>_ = 1 + ⁠1/2⁠ + ⋯ + ⁠1/_k_⁠ are the [harmonic numbers](harmonic%20number.md)}@}. Let {@{$$H(z)=\sum _{n=1}^{\infty }{H_{n}z^{n} }$$ be the ordinary generating function of the harmonic numbers}@}. Then {@{$$H(z)={\frac {1}{1-z} }\sum _{n=1}^{\infty }{\frac {z^{n} }{n} }\,,$$}@} and thus {@{$$S(z)=\sum _{n=1}^{\infty }{s_{n}z^{n} }={\frac {1}{(1-z)^{2} } }\sum _{n=1}^{\infty }{\frac {z^{n} }{n} }\,.$$}@} Using {@{$${\frac {1}{(1-z)^{2} } }=\sum _{n=0}^{\infty }(n+1)z^{n}\,,$$}@} {@{[convolution](#Convolution%20(Cauchy%20products)) with the numerator}@} yields {@{$$s_{n}=\sum _{k=1}^{n}{\frac {n+1-k}{k} }=(n+1)H_{n}-n\,,$$}@} which can also be written as {@{$$s_n = \sum _{k=1}^{n}{H_{k} } = (n + 1) H_n - n = (n + 1) \left(H_n + \frac 1 {n + 1} \right) - (n + 1) =(n+1)(H_{n+1}-1)\,.$$}@} <!--SR:!2025-11-16,307,330!2025-09-22,265,330!2025-07-10,191,310!2025-07-03,185,310!2025-08-07,212,290!2025-03-19,106,290!2025-11-08,299,330!2026-01-05,297,290!2025-04-29,133,290-->
+For example, we can manipulate {@{$$s_{n}=\sum _{k=1}^{n}H_{k}\,,$$}@} where {@{_H<sub>k</sub>_ = 1 + ⁠1/2⁠ + ⋯ + ⁠1/_k_⁠ are the [harmonic numbers](harmonic%20number.md)}@}. Let {@{$$H(z)=\sum _{n=1}^{\infty }{H_{n}z^{n} }$$ be the ordinary generating function of the harmonic numbers}@}. Then {@{$$H(z)={\frac {1}{1-z} }\sum _{n=1}^{\infty }{\frac {z^{n} }{n} }\,,$$}@} and thus {@{$$S(z)=\sum _{n=1}^{\infty }{s_{n}z^{n} }={\frac {1}{(1-z)^{2} } }\sum _{n=1}^{\infty }{\frac {z^{n} }{n} }\,.$$}@} Using {@{$${\frac {1}{(1-z)^{2} } }=\sum _{n=0}^{\infty }(n+1)z^{n}\,,$$}@} {@{[convolution](#Convolution%20(Cauchy%20products)) with the numerator}@} yields {@{$$s_{n}=\sum _{k=1}^{n}{\frac {n+1-k}{k} }=(n+1)H_{n}-n\,,$$}@} which can also be written as {@{$$s_n = \sum _{k=1}^{n}{H_{k} } = (n + 1) H_n - n = (n + 1) \left(H_n + \frac 1 {n + 1} \right) - (n + 1) =(n+1)(H_{n+1}-1)\,.$$}@} <!--SR:!2025-11-16,307,330!2025-09-22,265,330!2025-07-10,191,310!2025-07-03,185,310!2025-08-07,212,290!2026-01-25,312,290!2025-11-08,299,330!2026-01-05,297,290!2025-04-29,133,290-->
 
 > [!tip] tips
 >

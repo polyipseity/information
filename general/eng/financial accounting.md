@@ -26,7 +26,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-26,171,310!2025-09-14,235,270-->
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-25,358,290!2025-03-21,139,290-->
 
-Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2025-03-19,143,310!2025-09-19,286,330!2026-04-21,438,310-->
+Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2026-06-09,447,310!2025-09-19,286,330!2026-04-21,438,310-->
 
 __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2025-08-15,261,330!2025-04-20,165,310-->
 
@@ -37,7 +37,7 @@ __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, un
 
 - __Verifiability__ ::@:: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2026-07-30,512,310!2025-10-01,248,270-->
 - __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-09-17,250,290!2026-09-14,548,310-->
-- __Understandability__ ::@:: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2025-03-19,130,290-->
+- __Understandability__ ::@:: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2026-08-26,525,310-->
 - __Timeliness__ ::@:: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2025-10-02,298,330!2025-07-01,224,330-->
 
 ## three components of financial statements
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2025-10-05,299,330!2025-09-14,284,330!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2025-10-05,299,330!2025-09-14,284,330!2025-03-24,147,310!2026-11-20,611,330!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
 
 <!-- markdownlint MD028 -->
 

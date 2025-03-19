@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-03-19,11,130-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-03-25,6,130-->
 
 ## use in cryptography
 

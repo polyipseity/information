@@ -77,13 +77,13 @@ The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=
 
 ### derivative of exp(1/_x_)
 
-{@{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}@} can be {@{expressed with the Lah numbers}@}, as follows<sup>[\[7\]](#^ref-7)</sup> {@{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-x)^{-n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{k} } }\cdot e^{\frac {1}{x} }.$$}@} <!--SR:!2025-06-03,151,290!2025-03-19,92,270!2025-03-23,85,230-->
+{@{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}@} can be {@{expressed with the Lah numbers}@}, as follows<sup>[\[7\]](#^ref-7)</sup> {@{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-x)^{-n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{k} } }\cdot e^{\frac {1}{x} }.$$}@} <!--SR:!2025-06-03,151,290!2025-05-02,44,250!2025-03-23,85,230-->
 
 For example, $$\begin{aligned} {\frac {\textrm {d} }{ {\textrm {d} }x} }e^{\frac {1}{x} } & = -{\frac {1}{x^{2} } }\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{2} }{ {\textrm {d} }x^{2} } }e^{\frac {1}{x} } & = {\frac {\textrm {d} }{ {\textrm {d} }x} }\left(-{\frac {1}{x^{2} } }e^{\frac {1}{x} }\right)=-{\frac {-2}{x^{3} } }\cdot e^{\frac {1}{x} }-{\frac {1}{x^{2} } }\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{3} }{ {\textrm {d} }x^{3} } }e^{\frac {1}{x} } & ={\frac {\textrm {d} }{ {\textrm {d} }x} }\left(\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} }\right)=\left({\frac {-6}{x^{4} } }+{\frac {-4}{x^{5} } }\right)\cdot e^{\frac {1}{x} }+\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=-\left({\frac {6}{x^{4} } }+{\frac {6}{x^{5} } }+{\frac {1}{x^{6} } }\right)\cdot e^{\frac {1}{x} } \,. \end{aligned}$$
 
 ## link to Laguerre polynomials
 
-{@{Generalized [Laguerre polynomials](Laguerre%20polynomials.md) $L_{n}^{(\alpha )}(x)$}@} are {@{linked to Lah numbers upon setting $\alpha =-1$}@} {@{$$n!L_{n}^{(-1)}(x)=\sum_{k=0}^{n}L(n,k)(-x)^{k}$$}@} This formula is {@{the default [Laguerre polynomial](Laguerre%20polynomials.md) in [umbral calculus](umbral%20calculus.md) convention}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-12,114,290!2025-09-03,198,270!2025-03-19,82,230!2025-09-04,220,310-->
+{@{Generalized [Laguerre polynomials](Laguerre%20polynomials.md) $L_{n}^{(\alpha )}(x)$}@} are {@{linked to Lah numbers upon setting $\alpha =-1$}@} {@{$$n!L_{n}^{(-1)}(x)=\sum_{k=0}^{n}L(n,k)(-x)^{k}$$}@} This formula is {@{the default [Laguerre polynomial](Laguerre%20polynomials.md) in [umbral calculus](umbral%20calculus.md) convention}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-12,114,290!2025-09-03,198,270!2025-04-27,39,210!2025-09-04,220,310-->
 
 ## practical application
 

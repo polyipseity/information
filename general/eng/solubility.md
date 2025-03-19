@@ -362,7 +362,7 @@ return await memorize_map(
 - [copper(II) chloride](copper(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-04-17,366,298-->
 - [copper(II) ethanoate](copper(II)%20ethanoate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-12-18,586,318-->
 - [copper(II) hydroxide](copper(II)%20hydroxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-05-02,64,238-->
-- [copper(II) iodide](copper(II)%20iodide.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-03-19,345,298-->
+- [copper(II) iodide](copper(II)%20iodide.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-01-10,1027,298-->
 - [copper(II) oxide](copper(II)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-03-07,1096,278-->
 - [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-07-20,149,238-->
 - [copper(II) sulfate](copper(II)%20sulfate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-04-21,369,298-->
@@ -370,7 +370,7 @@ return await memorize_map(
 - [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-06-27,178,198-->
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-04-11,26,130-->
-- [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-19,34,130-->
+- [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-04-30,42,130-->
 - [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-11,315,198-->
 - [mercury(I) bromide](mercury(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-03-27,660,318-->
 - [mercury(I) chloride](mercury(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-03-24,120,218-->

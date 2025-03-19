@@ -40,7 +40,7 @@ A good way to satisfy the third normal form is by following the below three rule
 
 <!--pytextgen generate section="3ffa"--><!-- The following content is generated at 2024-01-04T20:17:52.886708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←No duplicated data. To deduplicate data, move them to a new table. <!--SR:!2025-03-19,407,330!2029-10-03,1715,350-->
+- _(begin)_→::@::←No duplicated data. To deduplicate data, move them to a new table. <!--SR:!2028-11-20,1342,330!2029-10-03,1715,350-->
 - No duplicated data. To deduplicate data, move them to a new table.→::@::←Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended. <!--SR:!2026-12-03,802,310!2025-03-24,411,330-->
 - Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→::@::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys". <!--SR:!2026-02-28,594,290!2027-04-11,879,310-->
 - Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".→::@::←_(end)_ <!--SR:!2025-04-14,428,330!2027-05-08,836,270-->

@@ -27,24 +27,24 @@ A Dedekind cut is {@{a partition of the rationals $\mathbb {Q}$ into two subsets
 
 1. non-emptyness ::@:: $A$ is nonempty. <!--SR:!2025-11-26,260,330!2025-10-24,233,330-->
 2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2025-12-14,275,330!2025-11-18,255,330-->
-3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2025-12-20,279,330!2025-03-19,67,310-->
+3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2025-12-20,279,330!2025-12-27,283,330-->
 4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2025-11-11,249,330!2025-09-12,196,310-->
 
-By {@{omitting the first two requirements (annotation: non-emptyness of both $A$ and $B$)}@}, we {@{formally obtain the [extended real number line](extended%20real%20number%20line.md)}@}. <!--SR:!2025-03-19,67,310!2025-06-12,124,290-->
+By {@{omitting the first two requirements (annotation: non-emptyness of both $A$ and $B$)}@}, we {@{formally obtain the [extended real number line](extended%20real%20number%20line.md)}@}. <!--SR:!2025-12-26,282,330!2025-06-12,124,290-->
 
 ## representations
 
 It is {@{more symmetrical to use the \(_A_, _B_\) notation for Dedekind cuts}@}, but {@{each of _A_ and _B_ does determine the other}@}. It can be {@{a simplification, in terms of notation if nothing more}@}, to {@{concentrate on one "half" — say, the lower one}@} — and {@{call any downward-closed set _A_ without greatest element a "Dedekind cut"}@}. <!--SR:!2025-11-07,246,330!2025-11-01,241,330!2025-11-23,257,330!2025-12-05,268,330!2025-09-20,192,310-->
 
-If {@{the ordered set _S_ is complete}@}, then, {@{for every Dedekind cut \(_A_, _B_\) of _S_}@}, {@{the set _B_ must have a minimal element _b_}@}, hence we must have that {@{_A_ is the [interval](interval%20(mathematics).md) \(−∞, _b_\), and _B_ the interval \[_b_, +∞\)}@}. In this case, we say that {@{_b_ _is represented by_ the cut \(_A_, _B_\)}@}. <!--SR:!2025-03-19,67,310!2025-12-21,280,330!2025-03-19,67,310!2025-12-30,287,330!2025-11-12,249,330-->
+If {@{the ordered set _S_ is complete}@}, then, {@{for every Dedekind cut \(_A_, _B_\) of _S_}@}, {@{the set _B_ must have a minimal element _b_}@}, hence we must have that {@{_A_ is the [interval](interval%20(mathematics).md) \(−∞, _b_\), and _B_ the interval \[_b_, +∞\)}@}. In this case, we say that {@{_b_ _is represented by_ the cut \(_A_, _B_\)}@}. <!--SR:!2025-12-29,285,330!2025-12-21,280,330!2026-01-02,289,330!2025-12-30,287,330!2025-11-12,249,330-->
 
-{@{The important purpose of the Dedekind cut}@} is to {@{work with number sets that are _not_ complete}@}. The cut itself can {@{represent a number not in the original collection of numbers \(most often [rational numbers](rational%20number.md)\)}@}. The cut can represent {@{a number _b_}@}, even though {@{the numbers contained in the two sets _A_ and _B_ do not actually include the number _b_ that their cut represents}@}. <!--SR:!2025-12-02,265,330!2025-03-19,67,310!2025-08-26,173,310!2025-12-18,277,330!2025-12-10,272,330-->
+{@{The important purpose of the Dedekind cut}@} is to {@{work with number sets that are _not_ complete}@}. The cut itself can {@{represent a number not in the original collection of numbers \(most often [rational numbers](rational%20number.md)\)}@}. The cut can represent {@{a number _b_}@}, even though {@{the numbers contained in the two sets _A_ and _B_ do not actually include the number _b_ that their cut represents}@}. <!--SR:!2025-12-02,265,330!2025-12-28,284,330!2025-08-26,173,310!2025-12-18,277,330!2025-12-10,272,330-->
 
 For example if {@{_A_ and _B_ only contain [rational numbers](rational%20number.md)}@}, they can still be {@{cut at ${\sqrt {2} }$}@} by {@{putting every negative rational number in _A_, along with every non-negative rational number whose square is less than 2}@}; similarly {@{_B_ would contain every positive rational number whose square is greater than or equal to 2}@}. Even though {@{there is no rational value for ${\sqrt {2} }$}@}, if {@{the rational numbers are partitioned into _A_ and _B_ this way}@}, {@{the partition itself represents an [irrational number](irrational%20number.md)}@}. <!--SR:!2025-11-24,258,330!2025-08-28,187,310!2025-12-10,272,330!2025-12-19,278,330!2025-12-27,285,330!2025-07-09,149,310!2025-12-10,272,330-->
 
 ## ordering of cuts
 
-Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C_, _D_\) \(of the same superset\)}@} if {@{_A_ is a proper subset of _C_}@}. Equivalently, if {@{_D_ is a proper subset of _B_}@}, {@{the cut \(_A_, _B_\) is again _less than_ \(_C_, _D_\)}@}. In this way, {@{set inclusion can be used to represent the ordering of numbers}@}, and {@{all other relations \(_greater than_, _less than or equal to_, _equal to_, and so on\) can be similarly created from set relations}@}. <!--SR:!2025-11-18,255,330!2025-07-25,161,310!2025-10-30,239,330!2025-08-04,169,310!2025-12-10,272,330!2025-03-19,67,310-->
+Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C_, _D_\) \(of the same superset\)}@} if {@{_A_ is a proper subset of _C_}@}. Equivalently, if {@{_D_ is a proper subset of _B_}@}, {@{the cut \(_A_, _B_\) is again _less than_ \(_C_, _D_\)}@}. In this way, {@{set inclusion can be used to represent the ordering of numbers}@}, and {@{all other relations \(_greater than_, _less than or equal to_, _equal to_, and so on\) can be similarly created from set relations}@}. <!--SR:!2025-11-18,255,330!2025-07-25,161,310!2025-10-30,239,330!2025-08-04,169,310!2025-12-10,272,330!2026-01-01,288,330-->
 
 {@{The set of all Dedekind cuts}@} is {@{itself a linearly ordered set \(of sets\)}@}. Moreover, {@{the set of Dedekind cuts has the [least-upper-bound property](least-upper-bound%20property.md)}@}, i.e., {@{every nonempty subset of it that has any upper bound has a _least_ upper bound}@}. Thus, {@{constructing the set of Dedekind cuts}@} serves the purpose of {@{embedding the original ordered set _S_, which might not have had the least-upper-bound property}@}, within {@{a \(usually larger\) linearly ordered set that does have this useful property}@}. <!--SR:!2025-10-20,230,330!2025-12-04,267,330!2026-01-01,289,330!2025-12-13,274,330!2025-12-26,284,330!2025-12-10,272,330!2025-11-13,251,330-->
 
@@ -70,13 +70,13 @@ This allows {@{the basic arithmetic operations on the real numbers to be defined
 
 ### arbitrary linearly ordered sets
 
-In the general case of {@{an arbitrary linearly ordered set _X_}@}, a __cut__ is {@{a pair $(A,B)$ such that $A\cup B=X$ and $a\in A$, $b\in B$ imply $a<b$}@}. Some authors {@{add the requirement that both _A_ and _B_ are nonempty}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-05-11,102,290!2025-12-10,272,330!2025-03-19,67,310-->
+In the general case of {@{an arbitrary linearly ordered set _X_}@}, a __cut__ is {@{a pair $(A,B)$ such that $A\cup B=X$ and $a\in A$, $b\in B$ imply $a<b$}@}. Some authors {@{add the requirement that both _A_ and _B_ are nonempty}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-05-11,102,290!2025-12-10,272,330!2026-01-03,290,330-->
 
 If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called a __gap__}@}. {@{A linearly ordered set endowed with the order topology is compact}@} {@{if and only if it has no gap}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-12-01,264,330!2025-12-02,265,330!2025-11-28,262,330!2025-12-03,266,330-->
 
 ### surreal numbers
 
-{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}. <!--SR:!2025-03-19,67,310!2025-08-30,185,310!2025-08-13,173,310!2025-08-29,185,310-->
+{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}. <!--SR:!2026-01-04,291,330!2025-08-30,185,310!2025-08-13,173,310!2025-08-29,185,310-->
 
 ### partially ordered sets
 

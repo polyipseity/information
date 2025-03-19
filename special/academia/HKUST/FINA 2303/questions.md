@@ -267,7 +267,7 @@ tags:
 >
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
-> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2025-03-21,16,333!2025-05-08,52,333!2025-03-19,14,313-->
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2025-03-21,16,333!2025-05-08,52,333!2025-05-21,63,333-->
 
 ## week 3 lecture 2
 
