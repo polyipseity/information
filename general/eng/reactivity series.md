@@ -143,7 +143,7 @@ return _chain.from_iterable(await _gather(
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2025-04-10,266,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-07-08,115,190!2025-05-06,383,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2025-04-19,242,190-->
-- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-20,2,130-->
+- [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-03-23,3,130-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2025-03-23,166,190!2025-04-28,54,130-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2025-04-20,82,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2025-03-23,89,170-->
@@ -211,7 +211,7 @@ return _chain.from_iterable(await _gather(
 - Al<sup>3+</sup>:@:[aluminium](aluminium.md) <!--SR:!2025-04-17,331,365-->
 - Ti<sup>4+</sup>:@:[titanium](titanium.md) <!--SR:!2025-06-07,374,365-->
 - Mn<sup>2+</sup>:@:[manganese](manganese.md) <!--SR:!2028-10-16,1319,365-->
-- Zn<sup>2+</sup>:@:[zinc](zinc.md) <!--SR:!2025-03-20,311,365-->
+- Zn<sup>2+</sup>:@:[zinc](zinc.md) <!--SR:!2025-08-23,156,345-->
 - Cr<sup>3+</sup>:@:[chromium](chromium.md) <!--SR:!2025-07-02,395,367-->
 - Fe<sup>2+</sup>:@:[iron](iron.md) <!--SR:!2025-05-15,355,365-->
 - Cd<sup>2+</sup>:@:[cadmium](cadmium.md) <!--SR:!2025-05-14,354,365-->
@@ -240,7 +240,7 @@ return _chain.from_iterable(await _gather(
 - [sodium](sodium.md):@:reacts with cold [water](water.md) <!--SR:!2026-03-14,773,330-->
 - [lithium](lithium.md):@:reacts with cold [water](water.md) <!--SR:!2026-04-15,831,330-->
 - [barium](barium.md):@:reacts with cold [water](water.md) <!--SR:!2029-05-27,1534,310-->
-- [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2025-03-20,497,310-->
+- [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2029-06-08,1541,310-->
 - [calcium](calcium.md):@:reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
 - [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2025-04-27,96,150-->
 - [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-03-30,144,150-->

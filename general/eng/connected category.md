@@ -15,7 +15,7 @@ In {@{[category theory](category%20theory.md), a branch of [mathematics](mathema
 
 {@{A [small category](small%20category.md#small%20and%20large%20categories) is connected}@} {@{[if and only if](if%20and%20only%20if.md) its underlying graph is [weakly connected](connected%20graph.md#connected%20vertices%20and%20graphs)}@}, meaning that {@{it is connected if one disregards the direction of the arrows}@}. <!--SR:!2025-03-30,55,310!2025-03-31,56,310!2025-03-31,56,310-->
 
-{@{Each category _J_}@} can be {@{written as a disjoint union \(or [coproduct](coproduct.md)\) of a collection of connected categories}@}, which are called {@{the __connected components__ of _J_}@}. {@{Each connected component}@} is {@{a [full subcategory](full%20subcategory.md) of _J_}@}. <!--SR:!2025-04-02,58,310!2025-03-20,47,290!2025-04-02,58,310!2025-04-02,58,310!2025-03-20,47,290-->
+{@{Each category _J_}@} can be {@{written as a disjoint union \(or [coproduct](coproduct.md)\) of a collection of connected categories}@}, which are called {@{the __connected components__ of _J_}@}. {@{Each connected component}@} is {@{a [full subcategory](full%20subcategory.md) of _J_}@}. <!--SR:!2025-04-02,58,310!2025-08-03,136,290!2025-04-02,58,310!2025-04-02,58,310!2025-09-25,189,310-->
 
 ## references
 

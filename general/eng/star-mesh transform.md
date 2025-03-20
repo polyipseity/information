@@ -15,23 +15,23 @@ tags:
 
 # star-mesh transform
 
-The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270-->
+The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathematical [circuit analysis](circuit%20analysis.md) technique to transform a [resistive network](network%20analysis%20(electrical%20circuits).md) into an equivalent network with one less node}@}. The equivalence follows from {@{the [Schur complement](Schur%20complement.md) identity applied to the [Kirchhoff matrix](Kirchhoff%20matrix.md) of the network}@}. <!--SR:!2025-04-04,15,290!2025-04-04,15,290!2025-04-04,15,290-->
 
-> {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@} <!--SR:!2025-03-20,4,270-->
+> {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@} <!--SR:!2025-04-03,14,290-->
 
-{@{The equivalent impedance betweens nodes A and B}@} is given by: {@{$$z_{\text{AB} }=z_{\text{A} }z_{\text{B} }\sum {\frac {1}{z} },$$}@} where {@{$z_{\text{A} }$ is the impedance between node A and the central node being removed}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270-->
+{@{The equivalent impedance betweens nodes A and B}@} is given by: {@{$$z_{\text{AB} }=z_{\text{A} }z_{\text{B} }\sum {\frac {1}{z} },$$}@} where {@{$z_{\text{A} }$ is the impedance between node A and the central node being removed}@}. <!--SR:!2025-04-05,16,290!2025-04-05,16,290!2025-04-03,14,290-->
 
-The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270-->
+The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}. <!--SR:!2025-04-03,14,290!2025-04-04,15,290!2025-04-03,14,290-->
 
-It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2025-03-20,4,270!2025-03-20,4,270!2025-03-20,4,270-->
+It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2025-04-04,15,290!2025-04-05,16,290!2025-04-04,15,290-->
 
 ## special cases
 
 When _N_ is:
 
-1. For a single dangling resistor, ::@:: the transform eliminates the resistor. <!--SR:!2025-03-20,4,270!2025-03-20,4,270-->
-2. For two resistors, ::@:: the "star" is simply the two resistors in series, and the transform yields a single equivalent resistor. <!--SR:!2025-03-20,4,270!2025-03-20,4,270-->
-3. The special case of three resistors ::@:: is better known as the [Y-Δ transform](Y-Δ%20transform.md). Since the result also has three resistors, this transform has an inverse Δ-Y transform. <!--SR:!2025-03-20,4,270!2025-03-20,4,270-->
+1. For a single dangling resistor, ::@:: the transform eliminates the resistor. <!--SR:!2025-04-05,16,290!2025-04-03,14,290-->
+2. For two resistors, ::@:: the "star" is simply the two resistors in series, and the transform yields a single equivalent resistor. <!--SR:!2025-04-03,14,290!2025-04-05,16,290-->
+3. The special case of three resistors ::@:: is better known as the [Y-Δ transform](Y-Δ%20transform.md). Since the result also has three resistors, this transform has an inverse Δ-Y transform. <!--SR:!2025-04-03,14,290!2025-04-05,16,290-->
 
 ## see also
 

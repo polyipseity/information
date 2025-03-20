@@ -160,7 +160,7 @@ Other identities arise by {@{exchanging the order of summation, taking derivativ
 
 The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2025-04-09,25,171!2025-06-02,130,271-->
 
-For fixed $n$ (growing $k$) we have the following estimate: ::@:: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2025-04-17,106,251!2025-03-20,97,271-->
+For fixed $n$ (growing $k$) we have the following estimate: ::@:: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2025-04-17,106,251!2025-12-11,266,271-->
 
 ### explicit formula
 

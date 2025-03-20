@@ -121,7 +121,7 @@ If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^
 
 For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2025-04-28,132,290!2025-03-22,25,170-->
 
-If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-03-20,24,230!2025-05-22,123,250-->
+If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-06-08,80,250!2025-05-22,123,250-->
 
 {@{A uniformly valid approximation}@} also exists: for {@{all _k_ such that 1 < _k_ < _n_}@}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {@{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}@}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {@{bounded by about $0.066/n$}@}. <!--SR:!2025-07-12,188,310!2025-11-28,303,330!2025-05-20,121,250!2025-05-24,125,250-->
 

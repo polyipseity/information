@@ -95,7 +95,7 @@ On {@{[restaurant](restaurant.md) [menus](menu.md)}@}, {@{the market price \(oft
 
 ## other terms
 
-__Basic Price__: ::@:: It is the amount that producer receive from buyer for a unit of good or service produced minus any taxes payable and plus subsidies payable on that unit as the result of its production or sales. It does not include any producer transport charges which are involved separately.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-04-20,57,230!2025-03-20,81,270-->
+__Basic Price__: ::@:: It is the amount that producer receive from buyer for a unit of good or service produced minus any taxes payable and plus subsidies payable on that unit as the result of its production or sales. It does not include any producer transport charges which are involved separately.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-04-20,57,230!2025-10-22,216,270-->
 
 __Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-13,180,310!2025-11-25,289,330-->
 

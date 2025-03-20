@@ -87,7 +87,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 {@{Two important consequences}@} of the functor [axioms](axiom.md) are: <!--SR:!2025-04-07,70,326-->
 
 - (annotation: commutative diagram) ::@:: _F_ transforms each [commutative diagram](commutative%20diagram.md) in _C_ into a commutative diagram in _D_; <!--SR:!2025-04-09,73,337!2025-04-12,75,337-->
-- (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2025-03-20,53,317!2025-04-03,67,310-->
+- (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2025-04-15,26,297!2025-04-03,67,310-->
 
 One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{_G_ is a functor from _B_ to _C_ then one can form the composite functor _G_ ∘ _F_ from _A_ to _C_}@}. {@{Composition of functors}@} is {@{associative where defined}@}. {@{Identity of composition of functors}@} is {@{the identity functor}@}. This shows that {@{functors can be considered as morphisms in categories of categories}@}, for example in {@{the [category of small categories](category%20of%20small%20categories.md)}@}. <!--SR:!2025-04-11,74,337!2025-04-11,74,337!2025-04-06,70,326!2025-04-14,77,337!2025-04-03,67,310!2025-04-08,71,326!2025-04-08,72,337!2025-04-12,75,337-->
 
@@ -189,7 +189,7 @@ Functors are often {@{defined by [universal properties](universal%20property.md)
 
 - Main article: [Functor \(functional programming\)](functor%20(functional%20programming).md)
 
-Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-04-10,73,337!2025-04-06,70,326!2025-04-03,67,310!2025-03-20,53,317!2025-04-12,75,337-->
+Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-04-10,73,337!2025-04-06,70,326!2025-04-03,67,310!2025-09-03,167,317!2025-04-12,75,337-->
 
 ## see also
 

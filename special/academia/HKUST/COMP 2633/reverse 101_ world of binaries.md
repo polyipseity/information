@@ -27,7 +27,7 @@ However, we can go further than this. The program `<output>` is {@{actually a fo
 
 Instead, we are more interested in {@{the compilation process itself}@}. We like to think of compilation as a single process, but {@{it is really composed of several steps: preprocessing (`-E`), then compilation (`-S`), then assembly (`-c`), and finally linking (none)}@}. <!--SR:!2025-12-28,380,365!2025-10-29,326,343-->
 
-Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2025-12-22,374,365!2025-07-31,254,345!2025-03-20,139,303-->
+Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2025-12-22,374,365!2025-07-31,254,345!2026-05-09,415,303-->
 
 Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-12-02,310,303-->
 

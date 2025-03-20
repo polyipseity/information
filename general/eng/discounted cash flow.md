@@ -105,7 +105,7 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 ### entity-approach
 
 - [Adjusted present value](adjusted%20present%20value.md) approach \(APV\)
-  - (annotation: adjusted present value) ::@:: Discount the cash flows before allowing for the debt capital \(but allowing for the tax relief obtained on the debt capital\) <!--SR:!2025-03-20,31,270!2025-06-11,93,289-->
+  - (annotation: adjusted present value) ::@:: Discount the cash flows before allowing for the debt capital \(but allowing for the tax relief obtained on the debt capital\) <!--SR:!2025-07-16,118,290!2025-06-11,93,289-->
   - (annotation: adjusted present value) Advantages: ::@:: Simpler to apply if a specific project is being valued which does not have earmarked debt capital finance <!--SR:!2025-04-04,43,290!2025-04-05,46,290-->
   - (annotation: adjusted present value) Disadvantages: ::@:: Requires judgement on choice of discount rate; no explicit allowance for cost of debt capital, which may be much higher than a [risk-free rate](risk-free%20rate.md) <!--SR:!2025-05-07,73,329!2025-05-13,70,270-->
 - [Weighted average cost of capital](weighted%20average%20cost%20of%20capital.md) approach \(WACC\)

@@ -118,7 +118,7 @@ In {@{the mid- to late-1990s}@} {@{several books were written about accounting i
 
 - see: [resource consumption accounting](resource%20consumption%20accounting.md)
 
-Resource consumption accounting (RCA) is formally defined as {@{a dynamic, fully integrated, principle-based, and comprehensive management accounting approach}@} that {@{provides managers with decision support information for enterprise optimization}@}. RCA emerged as {@{a management accounting approach around 2000}@} and was subsequently {@{developed at CAM-I,<sup>[\[20\]](#^ref-20)</sup> the Consortium for Advanced Manufacturing–International}@}, in {@{a Cost Management Section _RCA interest group_<sup>[\[21\]](#^ref-21)</sup> in December 2001}@}. <!--SR:!2025-06-13,187,270!2025-08-20,263,330!2025-11-14,309,290!2026-03-31,407,306!2025-03-20,139,306-->
+Resource consumption accounting (RCA) is formally defined as {@{a dynamic, fully integrated, principle-based, and comprehensive management accounting approach}@} that {@{provides managers with decision support information for enterprise optimization}@}. RCA emerged as {@{a management accounting approach around 2000}@} and was subsequently {@{developed at CAM-I,<sup>[\[20\]](#^ref-20)</sup> the Consortium for Advanced Manufacturing–International}@}, in {@{a Cost Management Section _RCA interest group_<sup>[\[21\]](#^ref-21)</sup> in December 2001}@}. <!--SR:!2025-06-13,187,270!2025-08-20,263,330!2025-11-14,309,290!2026-03-31,407,306!2026-10-27,586,326-->
 
 ### throughput accounting
 

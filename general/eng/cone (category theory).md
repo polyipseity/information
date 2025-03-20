@@ -41,7 +41,7 @@ If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equiv
 
 - (annotation: co-cone) ::@:: ψ is a co-cone from _F_ to _N_ <!--SR:!2025-04-12,67,310!2025-04-06,62,310-->
 - (annotation: co-cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from _F_ to Δ\(_N_\) <!--SR:!2025-04-21,75,332!2025-04-12,67,310-->
-- (annotation: co-cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(_F_ ↓ Δ\) (annotation: note that this is actually a co-slice category, meaning the _F_ on the left is more accurately the functor that maps the only object in __1__ to the diagram _F_) <!--SR:!2025-03-20,45,290!2025-04-12,67,310-->
+- (annotation: co-cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(_F_ ↓ Δ\) (annotation: note that this is actually a co-slice category, meaning the _F_ on the left is more accurately the functor that maps the only object in __1__ to the diagram _F_) <!--SR:!2025-08-01,134,290!2025-04-12,67,310-->
 
 {@{These statements can all be verified}@} by {@{a straightforward application of the definitions}@}. Thinking of {@{cones as natural transformations}@} we see that they are {@{just morphisms in _C_<sup>_J_</sup> with source \(or target\) a constant functor}@}. <!--SR:!2025-04-07,63,310!2025-04-06,62,310!2025-04-07,63,310!2025-04-06,62,310-->
 

@@ -280,7 +280,7 @@ Sewage Conveyance System
 
 Clean Victoria Harbor
 
-- HATS result ::@:: clean Victoria Harbor <!--SR:!2027-03-18,772,330!2025-03-20,233,330-->
+- HATS result ::@:: clean Victoria Harbor <!--SR:!2027-03-18,772,330!2028-02-13,1060,350-->
   - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2025-04-05,143,230!2025-03-28,237,330-->
 
 ## page 23
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-03-20,13,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-04-07,18,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2025-03-30,222,310-->
 
@@ -426,7 +426,7 @@ Concentration Units for Liquids
 Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::@:: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2025-10-21,344,290!2025-06-08,296,330-->
-  - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2025-03-20,216,310!2027-10-07,957,350-->
+  - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2027-10-05,929,330!2027-10-07,957,350-->
   - density of water ::@:: about 1 kg/L <!--SR:!2025-05-25,284,330!2027-04-12,758,330-->
 
 ## page 35

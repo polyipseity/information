@@ -64,7 +64,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::@:: skyscraper in the central business district of Beijing, China <!--SR:!2026-02-12,475,332!2025-08-30,398,387-->
 - height ::@:: roof: 234 m <!--SR:!2025-08-30,265,240!2026-03-08,556,397-->
-- image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2025-03-20,235,360!2026-01-09,498,400-->
+- image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2028-05-24,1161,380!2026-01-09,498,400-->
 - shape ::@:: big pants <!--SR:!2025-11-28,469,385!2025-12-25,483,400-->
 
 ## CN Tower

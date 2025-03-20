@@ -40,7 +40,7 @@ In the United States, {@{the [Financial Accounting Standards Board](Financial%20
 
 ## calculation
 
-{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-03-20,58,310!2025-03-23,60,310!2025-03-31,67,310!2025-07-13,128,290!2025-08-15,163,310!2025-03-31,67,310!2025-08-21,169,310-->
+{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-11-28,253,330!2025-03-23,60,310!2025-03-31,67,310!2025-07-13,128,290!2025-08-15,163,310!2025-03-31,67,310!2025-08-21,169,310-->
 
 __Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-07-07,123,290!2025-11-11,238,330-->
 
@@ -58,7 +58,7 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ### U.S. GAAP
 
-{@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2025-03-30,66,310!2025-03-24,50,250!2025-03-26,63,310!2025-11-08,236,330!2025-03-20,58,310!2025-09-01,177,310-->
+{@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2025-03-30,66,310!2025-03-24,50,250!2025-03-26,63,310!2025-11-08,236,330!2025-11-29,254,330!2025-09-01,177,310-->
 
 _Diluted shares:_ ::@:: To calculate the total number of shares used in the calculation, FASB prescribes using the treasury method to calculate the dilutive effect of any instruments that could result in the issuance of shares, including: <!--SR:!2025-08-22,170,310!2025-06-29,116,290-->
 
