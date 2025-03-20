@@ -29,3 +29,5 @@ tags:
 - [week 4 lecture 2](week%204%20lecture%202.md)
 - [week 5 lecture](week%205%20lecture.md)
 - [week 5 lecture 2](week%205%20lecture%202.md)
+- [week 6 lecture](week%206%20lecture.md)
+- [week 6 lecture 2](week%206%20lecture%202.md)
