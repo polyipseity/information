@@ -132,7 +132,7 @@ To protect against soil loads, {@{retaining structures are built and weep holes 
 
 Seismic load are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}. <!--SR:!2026-04-30,524,310!2026-12-20,729,340-->
 
-The consequences are {@{partial or complete collapse of structural elements or entire buildings}@}. <!--SR:!2025-03-21,219,310-->
+The consequences are {@{partial or complete collapse of structural elements or entire buildings}@}. <!--SR:!2027-10-16,939,330-->
 
 #### thermal load
 
@@ -142,7 +142,7 @@ For example, {@{a beam in between two fixed support creates thermal load under h
 
 #### wind load
 
-[Wind](wind.md) is {@{movement of air}@}. When wind moves past a building, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. Positive pressure outside {@{causes inward forces while negative causes outward (uplift for roof) forces}@}. This is wind load. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2025-03-21,232,320!2027-03-28,798,330!2026-05-07,533,320!2027-11-20,985,340!2025-11-22,415,320-->
+[Wind](wind.md) is {@{movement of air}@}. When wind moves past a building, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. Positive pressure outside {@{causes inward forces while negative causes outward (uplift for roof) forces}@}. This is wind load. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2026-05-07,533,320!2027-11-20,985,340!2025-11-22,415,320-->
 
 Wind load causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. Less serious consequences include {@{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2026-04-30,481,300-->
 

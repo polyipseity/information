@@ -105,7 +105,7 @@ return chain.from_iterable(await gather(
 - UPGMC, unweighted centroid clustering:@:centroid linkage clustering <!--SR:!2026-09-23,629,315-->
 - maximum linkage clustering:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-03-28,269,335-->
 - WPGMC, weighted centroid clustering:@:median linkage clustering <!--SR:!2025-06-17,289,275-->
-- minimum linkage clustering, nearest neighbor technique:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2025-03-21,265,335-->
+- minimum linkage clustering, nearest neighbor technique:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-07-26,1223,355-->
 - [UPGMA](UPGMA.md), group average linkage clustering:@:unweighted average linkage clustering <!--SR:!2026-10-26,631,295-->
 - McQuitty's Method, [WPGMA](WPGMA.md):@:weighted average linkage clustering <!--SR:!2025-05-13,267,295-->
 
@@ -139,7 +139,7 @@ return chain.from_iterable(await gather(
 
 ## agglomerative clustering
 
-Note that [distance](distance.md) described below is {@{<!-- flashcard ID: a2c1b40f-e67e-45fd-ad01-b9449a7c2df4 -->the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)}@}, so the method is applicable to {@{<!-- flashcard ID: 9bb1c2ee-7fda-427b-8bc0-8af05b09ab26-->any distance functions and [cluster linkages](#cluster%20linkage)}@}. <!--SR:!2025-09-03,354,309!2025-03-21,246,329-->
+Note that [distance](distance.md) described below is {@{<!-- flashcard ID: a2c1b40f-e67e-45fd-ad01-b9449a7c2df4 -->the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)}@}, so the method is applicable to {@{<!-- flashcard ID: 9bb1c2ee-7fda-427b-8bc0-8af05b09ab26-->any distance functions and [cluster linkages](#cluster%20linkage)}@}. <!--SR:!2025-09-03,354,309!2028-04-11,1117,349-->
 
 To perform agglomerative clustering, initially {@{create a cluster for each observation, containing the observation itself}@}. Then {@{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}@}. Keep track of the {@{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}@}. Repeat this until {@{you have only one cluster left}@}. Then your dendrogram is the result, and {@{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}@}. <!--SR:!2025-09-18,356,295!2026-07-30,534,275!2026-08-27,554,275!2025-03-27,248,295!2026-03-28,466,270-->
 

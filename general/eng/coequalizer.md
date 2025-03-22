@@ -19,7 +19,7 @@ In {@{[category theory](category%20theory.md)}@}, {@{a __coequalizer__ \(or __co
 
 ## definition
 
-{@{A __coequalizer__}@} is {@{the [colimit](colimit.md) of a diagram consisting of two objects _X_ and _Y_ and two parallel [morphisms](morphism.md) _f_, _g_ : _X_ → _Y_}@}. <!--SR:!2025-04-09,58,310!2025-03-21,43,290-->
+{@{A __coequalizer__}@} is {@{the [colimit](colimit.md) of a diagram consisting of two objects _X_ and _Y_ and two parallel [morphisms](morphism.md) _f_, _g_ : _X_ → _Y_}@}. <!--SR:!2025-04-09,58,310!2025-09-12,175,310-->
 
 More explicitly, {@{a coequalizer of the parallel morphisms _f_ and _g_}@} can be defined as {@{an object _Q_ together with a morphism _q_ : _Y_ → _Q_ such that _q_ ∘ _f_ = _q_ ∘ _g_}@}. Moreover, {@{the pair \(_Q_, _q_\) must be [universal](universal%20property.md)}@} in the sense that {@{given any other such pair \(_Q_<!-- markdown separator -->′, _q_<!-- markdown separator -->′\) there exists a unique morphism _u_ : _Q_ → _Q_<!-- markdown separator -->′ such that _u_ ∘ _q_ = _q_<!-- markdown separator -->′}@}. This information can be captured by {@{the following [commutative diagram](commutative%20diagram.md): <p> &emsp; ![[w:Commutative diagram](commutative%20diagram.md) for [w:Coequalizer](coequalizer.md)](../../archives/Wikimedia%20Commons/Coequalizer-01.svg)}@} <!--SR:!2025-04-15,63,310!2025-03-23,43,290!2025-04-20,67,310!2025-04-07,56,310!2025-04-09,58,310-->
 

@@ -171,7 +171,7 @@ The steps for naming an organic compound are:
 - identify remaining functional groups→::@::←identify multiple bonds <!--SR:!2026-07-16,523,190!2026-06-27,690,207-->
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2025-09-21,213,190-->
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2026-01-17,579,190!2026-03-01,749,265-->
-- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2025-03-21,156,207!2027-03-29,824,230-->
+- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2026-02-13,329,207!2027-03-29,824,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2025-04-05,214,207-->
 - (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2026-06-08,527,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2025-12-06,562,267-->
@@ -201,7 +201,7 @@ The steps for naming an organic compound are:
 - most multiple bonds→::@::←maximum length <!--SR:!2028-01-16,1064,256!2025-10-04,690,282-->
 - maximum length→::@::←most prefixes <!--SR:!2029-03-14,1515,261!2029-10-12,1758,325-->
 - most prefixes→::@::←most single bonds <!--SR:!2027-12-09,1307,261!2028-06-28,1212,282-->
-- most single bonds→::@::←_(end)_ <!--SR:!2025-08-10,470,325!2025-03-21,668,345-->
+- most single bonds→::@::←_(end)_ <!--SR:!2025-08-10,470,325!2033-11-26,3172,365-->
 
 <!--/pytextgen-->
 
@@ -631,7 +631,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
-- nitrile→::@::←aldehyde <!--SR:!2025-03-21,3,130!2025-05-14,154,190-->
+- nitrile→::@::←aldehyde <!--SR:!2025-03-25,4,130!2025-05-14,154,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-03-27,75,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->

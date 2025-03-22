@@ -33,7 +33,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md) (also known as the Pochhammer symbol) as polynomials}@}. <!--SR:!2025-11-28,306,330-->
 
-That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2025-12-02,309,330!2025-09-13,203,270!2025-03-21,104,290-->
+That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2025-12-02,309,330!2025-09-13,203,270!2026-01-23,308,290-->
 
 Note that {@{$\ (x)_{0}\equiv 1\ ,$ by convention}@}, because {@{it is an [empty product](empty%20product.md)}@}. {@{The notations $\ x^{\underline {n} }{\ }$ for the falling factorial and $\ x^{\overline {n} }{\ }$ for the rising factorial}@} are also often used.<sup>[\[5\]](#^ref-5)</sup> (Confusingly, {@{the Pochhammer symbol that many use for _falling_ factorials}@} is {@{used in [special functions](special%20functions.md) for _rising_ factorials}@}.) <!--SR:!2025-11-11,292,330!2025-10-26,277,330!2025-10-25,276,330!2025-11-23,302,330!2025-12-04,311,330-->
 
@@ -81,7 +81,7 @@ For {@{any pair of sequences, $\{f_{n}\}$ and $\{g_{n}\}$}@}, related by {@{a fi
 
 For {@{$D=d/dx$}@}, {@{the [differential operators](differential%20operator.md) $x^{n}D^{n}$ and $(xD)^{n}$}@} are {@{related by the following formulas}@} for {@{all integers $n\geq 0$}@}:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{aligned}(xD)^{n}&=\sum _{k=0}^{n}S(n,k)x^{k}D^{k}\\x^{n}D^{n}&=\sum _{k=0}^{n}s(n,k)(xD)^{k}=(xD)_{n}=xD(xD-1)\ldots (xD-n+1)\end{aligned} }$$}@} <!--SR:!2025-08-23,211,310!2025-03-24,95,270!2025-11-24,303,330!2025-08-27,214,310!2025-07-13,131,230-->
 
-{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2025-11-29,307,330!2025-09-22,211,270!2025-03-25,96,270!2025-03-21,15,190-->
+{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2025-11-29,307,330!2025-09-22,211,270!2025-03-25,96,270!2025-03-29,8,170-->
 
 ## similar properties
 

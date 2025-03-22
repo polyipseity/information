@@ -72,7 +72,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[dehydration](#dehydration) <!--SR:!2025-05-04,466,255!2027-12-13,1243,340-->
 - [dehydration](#dehydration)→::@::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2025-12-21,301,195!2025-04-17,84,260-->
-- [nucleophilic substitution](#nucleophilic%20substitution)→::@::←[oxidation](#oxidation) <!--SR:!2026-02-28,571,275!2025-03-21,17,130-->
+- [nucleophilic substitution](#nucleophilic%20substitution)→::@::←[oxidation](#oxidation) <!--SR:!2026-02-28,571,275!2025-04-23,33,150-->
 - [oxidation](#oxidation)→::@::←_(end)_ <!--SR:!2026-04-12,758,315!2028-11-21,1605,355-->
 
 <!--/pytextgen-->

@@ -24,7 +24,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 {@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2025-09-21,288,330-->
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-26,171,310!2025-09-14,235,270-->
-2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-25,358,290!2025-03-21,139,290-->
+2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-25,358,290!2026-10-09,567,310-->
 
 Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2026-06-09,447,310!2025-09-19,286,330!2026-04-21,438,310-->
 
@@ -107,7 +107,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
 - _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2025-07-15,217,310-->
-- _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2025-03-21,131,290!2025-05-06,179,310-->
+- _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2026-09-03,531,310!2025-05-06,179,310-->
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
 

@@ -287,7 +287,7 @@ Clean Victoria Harbor
 
 Noise Pollution: A serious problem in Hong Kong?
 
-- sound vs. noise ::@:: noise is undesirable sound <!--SR:!2027-04-13,795,330!2025-03-21,230,330-->
+- sound vs. noise ::@:: noise is undesirable sound <!--SR:!2027-04-13,795,330!2028-02-02,1048,350-->
 
 ## page 24
 

@@ -74,7 +74,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2025-03-27,17,310!2025-03-27,17,310-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2025-03-27,17,310!2025-03-26,16,310-->
   - direct labor time ticket / table
-    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2025-03-28,18,322!2025-03-21,11,302-->
+    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2025-03-28,18,322!2025-04-24,34,302-->
     - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2025-03-24,14,290!2025-03-28,16,290-->
 
 ## job cost sheet
@@ -106,7 +106,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}                      |
 > | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} | <!--SR:!2025-03-24,14,290!2025-03-25,15,290!2025-03-26,16,310!2025-03-26,16,310!2025-03-26,16,290!2025-03-26,16,310!2025-03-25,15,290!2025-03-26,16,310!2025-03-27,17,310!2025-03-24,14,290!2025-03-26,16,310!2025-03-27,17,310!2025-03-25,15,290!2025-03-24,14,290!2025-03-24,14,290!2025-03-25,15,310!2025-03-26,16,310!2025-03-26,16,310!2025-03-24,14,290!2025-03-27,17,310!2025-03-25,15,290!2025-03-27,17,310!2025-03-27,17,310!2025-03-26,16,290!2025-03-26,16,310!2025-03-24,14,290!2025-03-24,14,290!2025-03-24,14,290!2025-03-26,16,310!2025-03-26,16,290!2025-03-26,16,310-->
 
-- job cost sheet ::@:: information, tables, cost summary <!--SR:!2025-03-24,14,290!2025-03-21,11,270-->
+- job cost sheet ::@:: information, tables, cost summary <!--SR:!2025-03-24,14,290!2025-04-29,39,290-->
   - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2025-03-27,17,310!2025-03-24,14,290-->
   - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead <!--SR:!2025-03-25,15,310!2025-03-25,15,290-->
     - job cost sheet / tables / actual direct materials ::@:: req. no, amount <!--SR:!2025-03-26,16,310!2025-03-27,17,310-->
@@ -136,7 +136,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2025-03-24,14,290!2025-03-27,17,310-->
   - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\) <!--SR:!2025-03-27,17,310!2025-03-25,15,290-->
-  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-03-21,11,290!2025-03-27,17,310-->
+  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-04-21,31,290!2025-03-27,17,310-->
 
 ## income statement (cost of goods sold)
 
@@ -228,12 +228,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending Inventory}@}        | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
 > | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2025-03-24,14,290!2025-03-25,15,310!2025-03-27,17,310!2025-03-26,16,310!2025-03-26,16,310!2025-03-27,17,310!2025-03-26,16,310!2025-03-26,16,310!2025-03-27,17,310!2025-03-26,16,290!2025-03-24,14,290!2025-03-26,16,310!2025-03-24,14,290!2025-03-27,17,310!2025-03-24,14,290!2025-03-26,16,310!2025-03-26,16,290-->
 
-- process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-03-25,15,310!2025-03-21,11,270-->
+- process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-03-25,15,310!2025-04-29,39,290-->
   - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-03-25,15,310!2025-03-24,14,290-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-03-24,14,290!2025-03-24,14,290-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-03-25,15,290!2025-03-26,16,310-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-03-24,14,290!2025-03-25,15,290-->
-  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-03-21,11,290!2025-03-24,14,290-->
+  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-05-04,44,310!2025-03-24,14,290-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2025-04-11,24,270!2025-03-27,17,310-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2025-03-27,17,310!2025-03-25,15,290-->
 - production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-28,18,321!2025-03-28,18,321-->
@@ -291,14 +291,14 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending Inventory}@}                              | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
 > | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2025-03-27,17,310!2025-03-27,17,310!2025-03-26,16,310!2025-03-26,16,310!2025-03-27,17,310!2025-03-27,17,310!2025-03-25,15,310!2025-03-26,16,290!2025-03-26,16,310!2025-03-24,14,290!2025-03-27,17,310!2025-03-24,14,290!2025-03-25,15,290!2025-03-27,17,310!2025-03-26,16,290!2025-03-26,16,310!2025-03-27,17,310!2025-03-26,16,310!2025-03-27,17,310!2025-03-27,17,310!2025-03-26,16,290!2025-03-26,16,290!2025-03-25,15,290!2025-03-24,14,290!2025-03-27,17,310-->
 
-- process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-03-25,15,290!2025-03-21,11,290-->
+- process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-03-25,15,290!2025-05-05,45,310-->
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-03-26,16,290!2025-03-26,16,290-->
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-03-24,14,290!2025-03-27,17,310-->
-    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-03-21,11,290!2025-03-24,14,290-->
+    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-05-02,42,310!2025-03-24,14,290-->
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-03-25,15,290!2025-03-24,14,290-->
-  - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2025-03-21,11,290!2025-03-25,15,310-->
+  - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2025-04-21,31,290!2025-03-25,15,310-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2025-03-27,17,310!2025-03-27,17,310-->
-  - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2025-03-21,11,270!2025-03-27,17,310-->
+  - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2025-04-19,29,270!2025-03-27,17,310-->
 - production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-28,18,322!2025-03-27,17,322-->
   - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-03-24,14,290!2025-03-26,16,290-->
   - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-03-26,16,322!2025-03-28,18,322-->
@@ -329,7 +329,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - activity cost allocation
   - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2025-03-27,17,310!2025-03-25,15,290-->
-  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2025-03-24,14,290!2025-03-21,11,290-->
+  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2025-03-24,14,290!2025-05-03,43,310-->
 
 ## activity cost driver - setups
 
