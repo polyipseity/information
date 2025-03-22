@@ -72,7 +72,7 @@ The content is in teaching order.
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2027-01-22,736,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2025-03-22,268,376-->
+- environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2028-12-31,1380,396-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
     - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
@@ -502,7 +502,7 @@ teaming up with others
 - business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
-- management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
+- management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2025-07-08,306,320-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
 - teaming up with others→::@::←_(end)_ <!--SR:!2025-05-28,321,375!2027-04-08,752,292-->
 

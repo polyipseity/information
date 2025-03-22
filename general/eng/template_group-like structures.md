@@ -56,7 +56,7 @@ tags:
 > - loop ::@:: total, identity, divisible <!--SR:!2025-05-02,79,270!2025-06-21,106,250-->
 > - semigroup ::@:: total, associative <!--SR:!2025-06-24,106,250!2025-04-09,24,230-->
 > - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-06-14,98,250!2025-04-27,38,210-->
-> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-04-07,66,270!2025-03-22,35,210-->
+> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-04-07,66,270!2025-06-07,77,210-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-05-16,56,270!2025-04-22,62,230-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-03-26,23,270!2025-03-29,60,270-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-04-12,70,270!2025-04-29,49,170-->

@@ -35,7 +35,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-If {@{the index (but not slicing) is out of range (regardless if it is positive or negative)}@}, then {@{an `IndexError` will be raised}@}. <!--SR:!2026-09-21,565,334!2025-03-22,145,314-->
+If {@{the index (but not slicing) is out of range (regardless if it is positive or negative)}@}, then {@{an `IndexError` will be raised}@}. <!--SR:!2026-09-21,565,334!2026-12-07,625,334-->
 
 ## manipulation
 
@@ -53,7 +53,7 @@ To {@{concatenate/join two lists (or strings)}@}, use {@{the `+` operator}@}. No
 
 ## aggregate functions
 
-Aggregate functions {@{summarize a result from a list}@}. <!--SR:!2025-03-22,145,314-->
+Aggregate functions {@{summarize a result from a list}@}. <!--SR:!2026-12-16,634,334-->
 
 - `max(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If `list` consists of `float`s and `int`s only, the largest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the last string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2025-06-24,137,274!2026-04-01,389,294-->
 - `min(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If the `list` consists of `float`s and `int`s only, the smallest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the first string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2026-09-08,556,334!2025-05-09,181,314-->

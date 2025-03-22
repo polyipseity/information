@@ -31,7 +31,7 @@ An equivalent definition is that {@{a graph with at least two vertices is _k_-co
 
 ### components
 
-Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-03-30,66,310!2025-03-22,59,310!2025-08-29,175,310-->
+Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-03-30,66,310!2025-12-06,259,330!2025-08-29,175,310-->
 
 ### polyhedral combinatorics
 
@@ -52,7 +52,7 @@ Let {@{_k≥2_}@}. <!--SR:!2025-03-27,63,310-->
 
 ## _k_-linked graph
 
-{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-08-06,160,310!2025-06-29,120,290!2025-03-22,59,310!2025-07-04,122,290-->
+{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-08-06,160,310!2025-06-29,120,290!2025-12-04,257,330!2025-07-04,122,290-->
 
 If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-08-09,148,270!2025-08-18,166,310-->
 

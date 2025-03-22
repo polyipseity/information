@@ -76,7 +76,7 @@ The Bohr model fails to explain:
 > | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
 > | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
 > | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2027-05-17,908,353!2027-01-19,749,333!2025-05-03,328,361!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
+> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2025-05-03,328,361!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
 
 <!--/pytextgen-->
 

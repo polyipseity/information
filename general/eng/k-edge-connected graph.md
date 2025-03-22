@@ -11,7 +11,7 @@ tags:
 
 # k-edge-connected graph
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2025-03-30,66,310!2025-03-22,59,310!2025-03-30,66,310-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2025-03-30,66,310!2025-12-06,259,330!2025-03-30,66,310-->
 
 {@{The __edge-connectivity__ of a graph}@} is {@{the largest _k_ for which the graph is _k_-edge-connected}@}. <!--SR:!2025-03-31,67,310!2025-08-19,167,310-->
 
@@ -37,11 +37,11 @@ Edge connectivity is {@{the dual concept to [girth](girth%20(graph%20theory).md)
 
 ## computational aspects
 
-There is {@{a polynomial-time algorithm}@} to {@{determine the largest _k_ for which a graph _G_ is _k_-edge-connected}@}. A simple algorithm would, {@{for every pair _\(u,v\)_, determine the [maximum flow](maximum%20flow%20problem.md) from _u_ to _v_ with the capacity of all edges in _G_ set to 1 for both directions}@}. {@{A graph is _k_-edge-connected}@} {@{if and only if the maximum flow from _u_ to _v_ is at least _k_ for any pair _\(u,v\)_}@}, so {@{_k_ is the least _u-v_-flow among all _\(u,v\)_}@}. <!--SR:!2025-03-22,59,310!2025-03-26,63,310!2025-03-25,62,310!2025-03-30,66,310!2025-03-25,62,310!2025-03-31,67,310-->
+There is {@{a polynomial-time algorithm}@} to {@{determine the largest _k_ for which a graph _G_ is _k_-edge-connected}@}. A simple algorithm would, {@{for every pair _\(u,v\)_, determine the [maximum flow](maximum%20flow%20problem.md) from _u_ to _v_ with the capacity of all edges in _G_ set to 1 for both directions}@}. {@{A graph is _k_-edge-connected}@} {@{if and only if the maximum flow from _u_ to _v_ is at least _k_ for any pair _\(u,v\)_}@}, so {@{_k_ is the least _u-v_-flow among all _\(u,v\)_}@}. <!--SR:!2025-12-02,255,330!2025-03-26,63,310!2025-03-25,62,310!2025-03-30,66,310!2025-03-25,62,310!2025-03-31,67,310-->
 
 If {@{_n_ is the number of vertices in the graph}@}, this simple algorithm would {@{perform $O(n^{2})$ iterations of the Maximum flow problem, which can be solved in $O(n^{3})$ time}@}. Hence {@{the complexity of the simple algorithm described above is $O(n^{5})$ in total}@}. <!--SR:!2025-03-29,65,310!2025-03-26,63,310!2025-03-23,60,310-->
 
-An improved algorithm will {@{solve the maximum flow problem for every pair _\(u,v\)_ where _u_ is arbitrarily fixed while _v_ varies over all vertices}@}. This {@{reduces the complexity to $O(n^{4})$}@} and is {@{sound since, if a [cut](cut%20(graph%20theory).md) of capacity less than _k_ exists, it is bound to separate _u_ from some other vertex}@}. It can be further improved by {@{an algorithm of [Gabow](Harold%20N.%20Gabow.md)}@} that runs in {@{worst case $O(n^{3})$ time}@}. <sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-27,63,310!2025-03-22,59,310!2025-03-26,63,310!2025-06-20,120,290!2025-06-05,107,290-->
+An improved algorithm will {@{solve the maximum flow problem for every pair _\(u,v\)_ where _u_ is arbitrarily fixed while _v_ varies over all vertices}@}. This {@{reduces the complexity to $O(n^{4})$}@} and is {@{sound since, if a [cut](cut%20(graph%20theory).md) of capacity less than _k_ exists, it is bound to separate _u_ from some other vertex}@}. It can be further improved by {@{an algorithm of [Gabow](Harold%20N.%20Gabow.md)}@} that runs in {@{worst case $O(n^{3})$ time}@}. <sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-27,63,310!2025-12-05,258,330!2025-03-26,63,310!2025-06-20,120,290!2025-06-05,107,290-->
 
 {@{The Karger–Stein variant of [Karger's algorithm](Karger's%20algorithm.md)}@} provides {@{a faster [randomized algorithm](randomized%20algorithm.md) for determining the connectivity}@}, with {@{expected runtime $O(n^{2}\log ^{3}n)$}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-05-08,73,230!2025-03-25,62,310!2025-04-27,52,210-->
 

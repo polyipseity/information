@@ -261,7 +261,7 @@ Variable names are {@{case sensitive, cannot be keywords, cannot have some chara
 
 Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2025-10-05,308,342-->
 
-ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should NOT be used in exercises or exams}@}. <!--SR:!2025-03-22,127,397!2027-02-04,685,417-->
+ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should NOT be used in exercises or exams}@}. <!--SR:!2027-02-08,688,417!2027-02-04,685,417-->
 
 ## data types
 

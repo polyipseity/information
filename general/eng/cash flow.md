@@ -35,7 +35,7 @@ __Cash flow__, {@{in general, refers to payments made into or out of a business,
 - Cash flow, in its narrow sense, is ::@:: a [payment](payment.md) \(in a [currency](currency.md)\), especially from one [central bank](central%20bank.md) account to another. The term 'cash flow' is mostly used to describe payments that are expected to happen in the future, are thus uncertain, and therefore need to be [forecast](cash%20flow%20forecasting.md) with cash flows. <!--SR:!2025-07-13,116,250!2025-03-31,67,310-->
 - A cash flow \(CF\) is determined by ::@:: its time _t_, [nominal amount](real%20and%20nominal%20value.md) _N_, currency CCY, and account A; symbolically, CF = CF\(_t_, _N_, CCY, A\). <!--SR:!2025-05-13,83,270!2025-11-17,243,330-->
 
-Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}. <!--SR:!2025-03-22,59,310!2025-03-22,59,310!2025-03-26,63,310!2025-03-23,60,310!2025-07-21,134,290-->
+Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}. <!--SR:!2025-12-04,257,330!2025-12-05,258,330!2025-03-26,63,310!2025-03-23,60,310!2025-07-21,134,290-->
 
 ## cash flow analysis
 
@@ -74,7 +74,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 
 {@{The sum of the three component above}@} will be {@{the cash flow for a project}@}. <!--SR:!2025-03-23,60,310!2025-11-25,251,330-->
 
-And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2025-03-22,59,310!2025-11-18,244,330!2025-03-31,67,310-->
+And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2025-12-03,256,330!2025-11-18,244,330!2025-03-31,67,310-->
 
 - [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!2025-07-07,113,250!2025-08-18,167,310-->
 - Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2025-05-14,84,270!2025-08-07,160,310-->
@@ -93,7 +93,7 @@ And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotatio
 | &emsp;Taxes                          | -5            |               |
 | {@{__Cash flow from investments__}@} |               | {@{__-10__}@} |
 | &emsp;Purchased capital              | -10           |               |
-| {@{__Total__}@}                      |               | {@{__60__}@}  | <!--SR:!2025-12-01,255,330!2025-03-22,59,310!2025-03-31,67,310!2025-11-16,242,330!2025-03-31,67,310!2025-11-19,243,330-->
+| {@{__Total__}@}                      |               | {@{__60__}@}  | <!--SR:!2025-12-01,255,330!2025-12-06,259,330!2025-03-31,67,310!2025-11-16,242,330!2025-03-31,67,310!2025-11-19,243,330-->
 
 The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies: <!--SR:!2025-11-22,248,330-->
 

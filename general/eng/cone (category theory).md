@@ -23,7 +23,7 @@ Let {@{_F_ : _J_ → _C_ be a [diagram](diagram%20(category%20theory).md) in _C_
 
 Let {@{_N_ be an object of _C_}@}. {@{A __cone__ from _N_ to _F_}@} is {@{a family of morphisms $$\psi _{X}\colon N\to F(X)\,$$ for each object _X_ of _J_}@}, such that {@{for every morphism _f_ : _X_ → _Y_ in _J_ the following diagram [commutes](commutative%20diagram.md): <p> ![Part of a cone from N to F](../../archives/Wikimedia%20Commons/Functor%20cone.svg)}@} <p> {@{The \(usually infinite\) collection of all these triangles}@} can be {@{\(partially\) depicted in the shape of a [cone](cone%20(geometry).md) with the apex _N_}@}. {@{The cone ψ}@} is sometimes said to {@{have __vertex__ _N_ and __base__ _F_}@}. <!--SR:!2025-09-22,185,310!2025-04-21,75,332!2025-04-22,76,332!2025-04-05,61,310!2025-04-20,74,332!2025-04-22,76,332!2025-04-21,75,332!2025-04-16,71,329-->
 
-One can also define {@{the [dual](dual%20(category%20theory).md) notion of a __cone__ from _F_ to _N_ \(also called a __co-cone__\)}@} by {@{reversing all the arrows above}@}. Explicitly, {@{a co-cone from _F_ to _N_}@} is {@{a family of morphisms $$\psi _{X}\colon F(X)\to N\,$$ for each object _X_ of _J_}@}, such that {@{for every morphism _f_ : _X_ → _Y_ in _J_ the following diagram commutes: <p> ![Part of a cone from F to N](../../archives/Wikimedia%20Commons/Functor%20co-cone.svg)}@} <!--SR:!2025-04-17,72,332!2025-04-06,62,310!2025-04-22,76,332!2025-04-12,67,310!2025-03-22,47,312-->
+One can also define {@{the [dual](dual%20(category%20theory).md) notion of a __cone__ from _F_ to _N_ \(also called a __co-cone__\)}@} by {@{reversing all the arrows above}@}. Explicitly, {@{a co-cone from _F_ to _N_}@} is {@{a family of morphisms $$\psi _{X}\colon F(X)\to N\,$$ for each object _X_ of _J_}@}, such that {@{for every morphism _f_ : _X_ → _Y_ in _J_ the following diagram commutes: <p> ![Part of a cone from F to N](../../archives/Wikimedia%20Commons/Functor%20co-cone.svg)}@} <!--SR:!2025-04-17,72,332!2025-04-06,62,310!2025-04-22,76,332!2025-04-12,67,310!2025-10-09,201,332-->
 
 ## equivalent formulations
 
@@ -35,7 +35,7 @@ If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equiv
 
 - (annotation: cone) ::@:: ψ is a cone from _N_ to _F_ <!--SR:!2025-04-22,76,332!2025-04-11,66,310-->
 - (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_ <!--SR:!2025-03-31,57,310!2025-04-21,75,332-->
-- (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor that maps the only object in __1__ to the diagram _F_) <!--SR:!2025-04-07,63,310!2025-03-22,50,312-->
+- (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor that maps the only object in __1__ to the diagram _F_) <!--SR:!2025-04-07,63,310!2025-08-25,156,312-->
 
 {@{The dual statements}@} are also equivalent: <!--SR:!2025-04-12,67,310-->
 

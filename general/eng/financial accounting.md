@@ -80,7 +80,7 @@ Important: the cash flow statement {@{only considers the exchange of __actual__ 
 
 The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2025-08-06,232,335-->
 
-The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2025-03-22,131,290!2026-05-21,461,310-->
+The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2026-09-05,532,310!2026-05-21,461,310-->
 
 The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2025-05-17,143,230-->
 
@@ -191,7 +191,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 ## related qualification
 
-{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2025-09-15,285,330!2025-03-22,117,250!2025-06-23,147,321-->
+{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2025-09-15,285,330!2026-01-12,296,250!2025-06-23,147,321-->
 
 ## see also
 

@@ -87,7 +87,7 @@ The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an 
 
 ### Dirichlet series generating functions (DGFs)
 
-[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2025-07-18,197,310!2025-07-13,194,310!2025-03-22,84,210-->
+[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2025-07-18,197,310!2025-07-13,194,310!2025-09-15,177,210-->
 
 The Dirichlet series generating function is especially useful when {@{_a_<sub>_n_</sub> is a [multiplicative function](multiplicative%20function.md)}@}, in which case {@{it has an [Euler product](euler%20product.md) expression<sup>[\[7\]](#^ref-7)</sup> in terms of the function's Bell series}@}: {@{$$\operatorname {DG} (a_{n};s)=\prod _{p}\operatorname {BG} _{p}(a_{n};p^{-s})\,.$$}@} <!--SR:!2025-07-31,208,290!2025-06-11,148,250!2025-03-23,52,150-->
 
@@ -240,7 +240,7 @@ In calculus, often {@{the growth rate of the coefficients of a power series}@} c
 
 For instance, if {@{an ordinary generating function _G_(_a_<sub>_n_</sub>; _x_) that has a finite radius of convergence of _r_}@} can be written as {@{$$G(a_{n};x)={\frac {A(x)+B(x)\left(1-{\frac {x}{r} }\right)^{-\beta } }{x^{\alpha } } }$$}@} where {@{each of _A_(_x_) and _B_(_x_) is a function that is [analytic](analytic%20function.md) to a radius of convergence greater than _r_ (or is [entire](entire%20function.md)), and where _B_(_r_) ≠ 0}@} then: <!--SR:!2025-09-24,267,330!2025-04-01,101,250!2025-05-13,128,250-->
 
-- asymptotic growth of an ordinary generating function using [gamma function](gamma%20function.md) ::@:: $$a_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}$$ <!--SR:!2025-03-22,24,190!2025-08-14,196,270-->
+- asymptotic growth of an ordinary generating function using [gamma function](gamma%20function.md) ::@:: $$a_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}$$ <!--SR:!2025-05-09,48,190!2025-08-14,196,270-->
 - asymptotic growth of an ordinary generating function using [binomial coefficient](binomial%20coefficient.md) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }{\binom {n+\beta -1}{n} }\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for multiset coefficient, not just asymptotic to it) <!--SR:!2025-08-06,191,270!2025-04-06,85,230-->
 - asymptotic growth of an ordinary generating function using [multiset coefficient](multiset.md#counting%20multisets) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }\left(\!\!{\binom {\beta }{n} }\!\!\right)\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for binomial coefficient, not just asymptotic to it) <!--SR:!2025-08-16,195,270!2025-11-20,270,290-->
 

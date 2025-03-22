@@ -104,10 +104,10 @@ The content is in teaching order.
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2025-04-09,63,310-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-08-29,167,310!2025-08-16,159,321-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2025-04-12,66,321!2025-04-20,72,321-->
-  - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-04-03,58,310!2025-03-22,48,301-->
+  - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-04-03,58,310!2025-10-08,200,321-->
   - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2025-04-12,66,321!2025-04-03,58,310-->
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-03-30,55,310!2025-04-12,66,321-->
-    - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-03-22,45,301!2025-04-16,69,321-->
+    - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-09-26,188,321!2025-04-16,69,321-->
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
 - assignment: (none)
 
@@ -361,16 +361,16 @@ The content is in teaching order.
   - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-03-30,25,382!2025-03-29,24,382-->
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2025-05-14,55,362!2025-03-29,24,382-->
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-03-30,25,382!2025-05-15,56,362-->
-  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-03-22,17,362!2025-03-30,25,382-->
+  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-05-26,65,362!2025-03-30,25,382-->
   - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
 - [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-06-05,77,382!2025-04-18,34,342-->
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2025-06-05,77,382!2025-03-29,24,382-->
-  - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-03-22,17,362!2025-03-31,26,382-->
+  - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-06-17,87,382!2025-03-31,26,382-->
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group <!--SR:!2025-03-31,26,382!2025-03-29,24,382-->; led the first black band to tour the American South
   - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer <!--SR:!2025-04-13,26,390!2025-04-13,26,390-->
-- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-03-22,17,362!2025-03-29,24,382-->
+- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-06-17,87,382!2025-03-29,24,382-->
   - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2025-03-30,25,382!2025-03-30,25,382-->
 - swing music
   - swing music / singers
@@ -386,10 +386,10 @@ The content is in teaching order.
   - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
-  - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2025-03-22,17,362!2025-03-31,26,382-->
+  - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2025-06-17,87,382!2025-03-31,26,382-->
   - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
-  - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2025-05-15,56,362!2025-03-22,17,362-->
+  - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2025-05-15,56,362!2025-06-17,87,382-->
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-03-29,24,382!2025-03-31,26,382-->
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
   - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->

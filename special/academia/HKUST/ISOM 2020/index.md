@@ -48,7 +48,7 @@ The content is in teaching order.
   - [§ output](basics.md#output)
     - [basics § output](basics.md#output) / note ::@:: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2025-03-25,141,323!2025-06-27,214,343-->
   - [§ variable](basics.md#variable)
-    - [basics § variable](basics.md#variable) / note ::@:: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2025-04-19,170,312!2025-03-22,146,312-->
+    - [basics § variable](basics.md#variable) / note ::@:: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2025-04-19,170,312!2026-12-15,633,332-->
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2026-01-18,373,312!2025-08-09,260,332-->
 - week 1 exercise: 1/1, graded
@@ -75,7 +75,7 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
-    - [basics § input](basics.md#input) / note ::@:: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2025-03-22,142,309!2025-12-30,373,349-->
+    - [basics § input](basics.md#input) / note ::@:: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2026-11-25,613,329!2025-12-30,373,349-->
 - [list](list.md)
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)

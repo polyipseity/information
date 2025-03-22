@@ -65,7 +65,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 - `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!2025-04-07,17,315!2025-04-07,17,310-->
 - `h` ::@:: It can be any 5-bit unsigned constant. It is used for bit-shit instructions. <!--SR:!2025-04-07,17,315!2025-04-07,17,315-->
 
-Common instruction variants include {@{immediate `_i`, unsigned `_u`}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2025-04-07,17,315!2025-04-07,17,310!2025-04-07,17,315!2025-03-22,4,312-->
+Common instruction variants include {@{immediate `_i`, unsigned `_u`}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2025-04-07,17,315!2025-04-07,17,310!2025-04-07,17,315!2025-04-09,18,332-->
 
 One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2025-04-01,15,290!2025-04-02,16,290-->
 
@@ -90,8 +90,8 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - divide immediate unsigned ::@:: `diviu` does not exist. <!--SR:!2025-04-07,17,315!2025-04-07,17,315-->
 - divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned <!--SR:!2025-04-07,17,315!2025-04-05,15,315-->
   - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2025-04-06,16,315!2025-04-06,16,315-->
-- multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2025-03-22,4,312!2025-03-22,4,312-->
-- multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2025-03-22,4,312!2025-03-22,4,312-->
+- multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2025-04-02,11,312!2025-04-08,17,332-->
+- multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2025-04-08,17,332!2025-04-09,18,332-->
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed <!--SR:!2025-04-07,17,315!2025-04-05,15,315-->
 - multiply immediate ::@:: `multi` does not exist. <!--SR:!2025-04-06,16,315!2025-04-07,17,310-->
 - multiply immediate unsigned ::@:: `multiu` does not exist. <!--SR:!2025-04-05,15,315!2025-04-05,15,315-->
@@ -117,7 +117,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2025-04-07,17,315!2025-04-02,12,295-->
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-04-07,17,315!2025-04-06,16,315-->
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2025-04-05,15,310!2025-04-05,15,310-->
-- shift right arithmetic variable ::@:: `srav $d, $t, h`: `$d = $t >> h;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-03-22,4,312!2025-03-22,4,312-->
+- shift right arithmetic variable ::@:: `srav $d, $t, h`: `$d = $t >> h;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-04-09,18,332!2025-04-02,11,312-->
 - shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0 <!--SR:!2025-04-07,17,310!2025-04-07,17,310-->
 - shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-04-06,16,310!2025-04-01,11,295-->
 
@@ -184,9 +184,9 @@ The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, an
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2025-04-05,15,310-->
 
-For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. <!--SR:!2025-03-22,4,312!2025-03-22,4,312!2025-03-22,4,312!2025-03-22,4,312!2025-03-22,4,312-->
+For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. <!--SR:!2025-04-08,17,332!2025-04-09,18,332!2025-04-09,18,332!2025-04-08,17,332!2025-04-09,18,332-->
 
-Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2025-04-06,16,315!2025-04-07,17,315!2025-03-22,4,312-->
+Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2025-04-06,16,315!2025-04-07,17,315!2025-04-08,17,332-->
 
 ## calling conventions
 

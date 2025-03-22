@@ -74,7 +74,7 @@ The content is in teaching order.
 - about the instructor
 - course logistics
 - [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2025-04-06,46,290!2025-04-30,66,310-->
-  - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2025-03-22,31,270!2025-04-27,63,310-->
+  - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2025-07-16,116,290!2025-04-27,63,310-->
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-03-27,39,290!2025-04-17,55,310-->
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-05-13,69,270!2025-04-09,46,290-->
   - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis <!--SR:!2025-04-17,54,310!2025-06-15,97,290-->
@@ -85,16 +85,16 @@ The content is in teaching order.
   - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights <!--SR:!2025-05-01,67,310!2025-04-07,47,290-->
     - operations management / practical relevance / examples ::@:: allocation of ICU beds during the pandemic; fairness, equity, social responsibility, not just profit maximization <!--SR:!2025-04-11,47,290!2025-04-12,48,290-->
   - operations management / steps ::@:: description, optimization <!--SR:!2025-04-25,62,310!2025-04-18,56,310-->
-  - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!2025-03-22,31,270!2025-04-05,45,290-->
+  - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!2025-07-14,114,290!2025-04-05,45,290-->
   - operations management / optimization ::@:: identify the ways to improve the system performance (like engineering), e.g. how to order, how to allocate <!--SR:!2025-03-25,37,290!2025-04-08,45,290-->
   - operations management / decisions
     - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain <!--SR:!2025-04-08,45,290!2025-04-20,58,310-->
   - operations management / concepts
-    - operations management / concepts / examples ::@:: (chronological order) manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability <!--SR:!2025-06-21,92,270!2025-03-22,31,270-->
-  - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touch-points with technology, enhancing performance using data <!--SR:!2025-03-22,31,270!2025-07-24,125,290-->
+    - operations management / concepts / examples ::@:: (chronological order) manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability <!--SR:!2025-06-21,92,270!2025-07-20,120,290-->
+  - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touch-points with technology, enhancing performance using data <!--SR:!2025-07-17,117,290!2025-07-24,125,290-->
   - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2025-04-23,60,310!2025-04-28,64,310-->
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2025-04-01,43,290!2025-04-10,46,290-->
-    - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-03-22,31,270!2025-06-24,103,290-->
+    - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-07-19,119,290!2025-06-24,103,290-->
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-06-07,90,290!2025-04-16,54,310-->
   - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-07-22,123,290!2025-04-29,53,250-->
 
@@ -461,7 +461,7 @@ The content is in teaching order.
     - just-in-time manufacturing / brief history ::@:: It was pioneered by Toyota in the 1980s. Later it was adopted by many famous manufacturers globally. <!--SR:!2025-04-03,23,376!2025-04-06,26,379-->
 - [capacity planning](../../../../general/capacity%20planning.md) ::@:: It is the process of determining the production capacity needed by an organization to meet changing demands for its products. <!--SR:!2025-04-05,25,379!2025-04-03,23,376-->
   - capacity planning / capacity ::@:: It is the amount of output that a system can achieve over a specific period of time. <!--SR:!2025-04-04,24,379!2025-04-06,26,379-->
-  - capacity planning / levels ::@:: operational \(e.g. assignment, control, planning\), strategic \(e.g. fixed assets investments\), tactical \(e.g. human resources, minor investments\) <!--SR:!2025-04-06,26,379!2025-03-22,13,356-->
+  - capacity planning / levels ::@:: operational \(e.g. assignment, control, planning\), strategic \(e.g. fixed assets investments\), tactical \(e.g. human resources, minor investments\) <!--SR:!2025-04-06,26,379!2025-05-28,67,376-->
 - [economies of scale](../../../../general/economies%20of%20scale.md) ::@:: When output increases, average unit cost (LRATC) falls. <!--SR:!2025-04-05,25,379!2025-03-30,19,356-->
 - [diseconomies of scale](../../../../general/diseconomies%20of%20scale.md) ::@:: When output increases, average unit cost (LRATC) rises. <!--SR:!2025-04-05,25,379!2025-04-04,24,379-->
 - [minimum efficient scale](../../../../general/minimum%20efficient%20scale.md) ::@:: Output level with minimum average unit cost (LRATC). <!--SR:!2025-04-05,25,379!2025-04-06,26,379-->

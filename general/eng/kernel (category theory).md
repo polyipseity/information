@@ -17,7 +17,7 @@ tags:
 
 In {@{[category theory](category%20theory.md) and its applications to other branches of [mathematics](mathematics.md)}@}, {@{__kernels__}@} are a generalization of {@{the kernels of [group homomorphisms](group%20homomorphism.md), the kernels of [module homomorphisms](module%20homomorphism.md) and certain other [kernels from algebra](kernel%20(algebra).md)}@}. Intuitively, {@{the kernel of the [morphism](morphism.md) _f_ : _X_ → _Y_}@} is {@{the "most general" morphism _k_ : _K_ → _X_ that yields zero when composed with \(followed by\) _f_}@}. <!--SR:!2025-04-05,66,322!2025-04-08,68,322!2025-05-15,83,282!2025-03-23,54,310!2025-04-09,69,322-->
 
-Note that {@{[kernel pairs](kernel%20pair.md) and [difference kernels](difference%20kernel.md) \(also known as binary [equalisers](equaliser%20(mathematics).md)\)}@} sometimes {@{go by the name "kernel"}@}; while {@{related, these aren't quite the same thing and are not discussed in this article}@}. <!--SR:!2025-03-22,50,302!2025-04-15,74,322!2025-06-20,116,290-->
+Note that {@{[kernel pairs](kernel%20pair.md) and [difference kernels](difference%20kernel.md) \(also known as binary [equalisers](equaliser%20(mathematics).md)\)}@} sometimes {@{go by the name "kernel"}@}; while {@{related, these aren't quite the same thing and are not discussed in this article}@}. <!--SR:!2025-10-14,206,322!2025-04-15,74,322!2025-06-20,116,290-->
 
 ## definition
 
@@ -38,7 +38,7 @@ Note that in {@{the category of [monoids](monoid.md)}@}, {@{category-theoretic k
 
 In {@{the [category of unital rings](category%20of%20rings.md)}@}, there are {@{no kernels in the category-theoretic sense; indeed, this category does not even have zero morphisms}@}. Nevertheless, there is {@{still a notion of kernel studied in ring theory that corresponds to kernels in the [category of non-unital rings](category%20of%20rings.md#rings%20without%20identity)}@}. <!--SR:!2025-03-23,51,302!2025-04-08,68,322!2025-04-20,71,282-->
 
-In {@{the category of [pointed topological spaces](pointed%20space.md)}@}, if {@{_f_ : _X_ → _Y_ is a continuous pointed map}@}, then {@{the preimage of the distinguished point (annotation: in _Y_), _K_, is a subspace of _X_}@}. {@{The inclusion map of _K_ into _X_}@} is {@{the categorical kernel of _f_}@}. <!--SR:!2025-03-22,50,302!2025-04-05,66,322!2025-04-08,68,322!2025-04-15,74,322!2025-09-28,195,322-->
+In {@{the category of [pointed topological spaces](pointed%20space.md)}@}, if {@{_f_ : _X_ → _Y_ is a continuous pointed map}@}, then {@{the preimage of the distinguished point (annotation: in _Y_), _K_, is a subspace of _X_}@}. {@{The inclusion map of _K_ into _X_}@} is {@{the categorical kernel of _f_}@}. <!--SR:!2025-10-13,205,322!2025-04-05,66,322!2025-04-08,68,322!2025-04-15,74,322!2025-09-28,195,322-->
 
 ## relation to other categorical concepts
 
@@ -48,7 +48,7 @@ As mentioned above, a kernel is {@{a type of binary equaliser, or [difference ke
 
 {@{Every kernel, like any other equaliser}@}, is {@{a [monomorphism](monomorphism.md)}@}. Conversely, {@{a monomorphism is called _[normal](normal%20morphism.md)_ if it is the kernel of some morphism}@}. A category is called {@{_normal_ if every monomorphism is normal}@}. <!--SR:!2025-04-05,66,322!2025-10-06,204,322!2025-08-26,168,310!2025-03-24,55,310-->
 
-{@{[Abelian categories](abelian%20categories.md)}@}, in particular, are {@{always normal}@}. In this situation, {@{the kernel of the [cokernel](cokernel.md) of any morphism}@} \(which {@{always exists in an abelian category}@}\) turns out to be {@{the [image](image%20(category%20theory).md) of that morphism}@}; in symbols: <p> &emsp; {@{im _f_ = ker coker _f_ \(in an abelian category\)}@} <p> When {@{_m_ is a monomorphism}@}, it {@{must be its own image}@}; thus, not only are {@{abelian categories normal, so that every monomorphism is a kernel}@}, but we also know {@{_which_ morphism the monomorphism is a kernel of, to wit, its cokernel}@}. In symbols: &emsp; {@{_m_ = ker \(coker _m_\) \(for monomorphisms in an abelian category\)}@} <!--SR:!2025-03-27,58,310!2025-09-30,197,322!2025-08-14,158,310!2025-04-05,66,322!2025-03-22,50,302!2025-10-11,204,322!2025-08-12,157,310!2025-04-10,70,322!2025-05-08,59,282!2025-05-23,86,270!2025-06-01,93,282-->
+{@{[Abelian categories](abelian%20categories.md)}@}, in particular, are {@{always normal}@}. In this situation, {@{the kernel of the [cokernel](cokernel.md) of any morphism}@} \(which {@{always exists in an abelian category}@}\) turns out to be {@{the [image](image%20(category%20theory).md) of that morphism}@}; in symbols: <p> &emsp; {@{im _f_ = ker coker _f_ \(in an abelian category\)}@} <p> When {@{_m_ is a monomorphism}@}, it {@{must be its own image}@}; thus, not only are {@{abelian categories normal, so that every monomorphism is a kernel}@}, but we also know {@{_which_ morphism the monomorphism is a kernel of, to wit, its cokernel}@}. In symbols: &emsp; {@{_m_ = ker \(coker _m_\) \(for monomorphisms in an abelian category\)}@} <!--SR:!2025-03-27,58,310!2025-09-30,197,322!2025-08-14,158,310!2025-04-05,66,322!2025-10-12,204,322!2025-10-11,204,322!2025-08-12,157,310!2025-04-10,70,322!2025-05-08,59,282!2025-05-23,86,270!2025-06-01,93,282-->
 
 ## relationship to algebraic kernels
 

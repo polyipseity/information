@@ -58,7 +58,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 ## equivalent circuits
 
-\(annotation: image\) ::@:: ![circuit equivalence](../../archives/Wikimedia%20Commons/Circuit%20equivalence.png) <!--SR:!2025-04-07,18,320!2025-03-22,4,306-->
+\(annotation: image\) ::@:: ![circuit equivalence](../../archives/Wikimedia%20Commons/Circuit%20equivalence.png) <!--SR:!2025-04-07,18,320!2025-04-08,17,326-->
 
 - Main article: ::@:: [Equivalent impedance transforms](equivalent%20impedance%20transforms.md) <!--SR:!2025-04-03,14,290!2025-04-07,17,309-->
 
@@ -86,7 +86,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 - Main article: ::@:: [Y-Δ transform](Y-Δ%20transform.md) <!--SR:!2025-04-07,17,309!2025-04-05,16,309-->
 
-\(annotation: image\) ::@:: ![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg) <!--SR:!2025-04-07,18,320!2025-03-22,4,306-->
+\(annotation: image\) ::@:: ![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg) <!--SR:!2025-04-07,18,320!2025-04-08,17,326-->
 
 {@{A network of impedances with more than two terminals}@} {@{cannot be reduced to a single impedance equivalent circuit}@}. {@{An _n_-terminal network}@} can, {@{at best, be reduced to _n_ impedances \(at worst [$${\tbinom {n}{2} }$$](binomial%20coefficient.md)\)}@}. For {@{a three terminal network}@}, the three impedances can be expressed as {@{a three node delta \(Δ\) network or four node star \(Y\) network}@}. These two networks are {@{equivalent and the transformations between them are given below}@}. {@{A general network with an arbitrary number of nodes}@} cannot be {@{reduced to the minimum number of impedances using only series and parallel combinations}@}. In general, {@{Y-Δ and Δ-Y transformations must also be used}@}. For some networks {@{the extension of Y-Δ to [star-polygon](#general%20form%20of%20network%20node%20elimination) transformations may also be required}@}. <!--SR:!2025-04-05,16,309!2025-04-04,15,290!2025-04-04,15,290!2025-04-05,16,290!2025-04-03,14,290!2025-04-05,16,309!2025-04-03,14,290!2025-04-07,17,309!2025-04-07,18,320!2025-04-05,16,309!2025-04-04,15,290-->
 
@@ -114,7 +114,7 @@ For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of th
 
 ### source transformation
 
-> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2025-04-07,17,309!2025-03-22,4,306-->
+> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2025-04-07,17,309!2025-04-08,17,326-->
 
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2025-04-04,15,309!2025-04-06,17,309!2025-04-03,14,290!2025-04-07,18,320!2025-04-03,14,290!2025-04-07,18,320-->
 

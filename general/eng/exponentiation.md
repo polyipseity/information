@@ -18,7 +18,7 @@ tags:
 > __examples of identities not true in general for [complex numbers](complex%20number.md)__
 >
 > - $\log\left(b^x\right) = x \log b \qquad (b \in \mathbb{R}^+, x \in \mathbb{R})$ ::@:: <br/> __counterexample__: $b = -i, x = 2$ <br/> __fix__: $\log(b^x) = x \log b \pmod{2\pi i} \qquad (\log(*) \text{ is single-valued})$ <!--SR:!2025-03-27,32,235!2025-05-22,64,235-->
-> - $(bc)^x = b^x c^x \text{ and }(b / c)^x = b^x / c^x \qquad (b,c \in \mathbb{R}^+, x \in \mathbb{R} \text{ or } b,c \in \mathbb{C}_{\ne 0}, x \in \mathbb{Z})$ ::@:: <br/> __counterexample__: $b = -1, c = -1, x = 0.5$ <br/> __fix__: consider $a^*$ as a [multi-valued function](multivalued%20function.md) <!--SR:!2025-05-25,66,235!2025-03-22,28,235-->
+> - $(bc)^x = b^x c^x \text{ and }(b / c)^x = b^x / c^x \qquad (b,c \in \mathbb{R}^+, x \in \mathbb{R} \text{ or } b,c \in \mathbb{C}_{\ne 0}, x \in \mathbb{Z})$ ::@:: <br/> __counterexample__: $b = -1, c = -1, x = 0.5$ <br/> __fix__: consider $a^*$ as a [multi-valued function](multivalued%20function.md) <!--SR:!2025-05-25,66,235!2025-05-30,69,235-->
 > - $\left(e^x\right)^y = e^{xy} \qquad (x,y \in \mathbb{R})$ ::@:: <br/> __counterexample__: $x = 1 + 2n\pi i, y = 1 + 2n\pi i \quad \forall{n} \in \mathbb{Z}_{\ne 0}$ <br/> __fix__: $\left(e^x\right)^y = e^{y \log e^x} \qquad (\log(*) \text{ is multi-valued})$ <!--SR:!2025-07-03,132,170!2025-08-04,182,190-->
 
 ## references
