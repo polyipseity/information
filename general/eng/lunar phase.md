@@ -18,7 +18,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-A __lunar phase__ or __Moon phase__ is {@{the apparent shape of the [Moon](Moon.md)'s directly sunlit portion as viewed from [Earth](Earth.md)}@}. In common usage, the four major phases are {@{the [new moon](new%20moon.md), the first quarter, the [full moon](full%20moon.md) and the last quarter}@}; the four minor phases are {@{waxing crescent, waxing gibbous, waning gibbous, and waning crescent}@}. A [lunar month](lunar%20month.md) is thus {@{the time between successive recurrences of the same phase}@}. The duration is {@{not perfectly constant due to [eccentricity](orbital%20eccentricity.md) of the Moon's orbit, but averages out to about 29.5 days, which is also the [synodic orbital period](orbital%20period.md#synodic%20period) of the Moon}@}. <!--SR:!2025-03-24,184,310!2025-03-25,192,310!2027-04-18,774,330!2025-05-18,222,310!2025-08-10,256,270-->
+A __lunar phase__ or __Moon phase__ is {@{the apparent shape of the [Moon](Moon.md)'s directly sunlit portion as viewed from [Earth](Earth.md)}@}. In common usage, the four major phases are {@{the [new moon](new%20moon.md), the first quarter, the [full moon](full%20moon.md) and the last quarter}@}; the four minor phases are {@{waxing crescent, waxing gibbous, waning gibbous, and waning crescent}@}. A [lunar month](lunar%20month.md) is thus {@{the time between successive recurrences of the same phase}@}. The duration is {@{not perfectly constant due to [eccentricity](orbital%20eccentricity.md) of the Moon's orbit, but averages out to about 29.5 days, which is also the [synodic orbital period](orbital%20period.md#synodic%20period) of the Moon}@}. <!--SR:!2027-05-21,788,330!2025-03-25,192,310!2027-04-18,774,330!2025-05-18,222,310!2025-08-10,256,270-->
 
 The appearance of the [Moon](Moon.md) (its phase) depends on {@{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}@}. It gradually {@{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}@}. Half of the Moon is {@{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}@}, varying from {@{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}@}. The rotation of Earth {@{has only little effect on the phase}@} because {@{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}@}. This partially contributes to {@{[lunar libration](libration.md) slightly}@}. <!--SR:!2026-12-13,669,330!2026-08-13,539,310!2025-05-31,252,330!2025-04-27,225,330!2026-09-23,592,310!2025-03-29,196,310!2025-07-10,281,330-->
 
@@ -106,7 +106,7 @@ return chain.from_iterable(await gather(
 - all night (sunset to sunrise):@:[full moon](full%20moon.md) <!--SR:!2027-03-20,742,330-->
 - most of night to early morning:@:waning gibbous <!--SR:!2026-07-29,522,310-->
 - late night to morning:@:last quarter <!--SR:!2027-06-22,824,330-->
-- pre-dawn to early afternoon:@:waning [crescent](cresceent.md) <!--SR:!2025-03-23,166,270-->
+- pre-dawn to early afternoon:@:waning [crescent](cresceent.md) <!--SR:!2026-12-06,623,290-->
 
 <!--/pytextgen-->
 

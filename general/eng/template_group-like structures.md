@@ -49,7 +49,7 @@ tags:
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-04-11,27,190!2025-03-26,63,310-->
 > - magma ::@:: total <!--SR:!2025-03-31,67,310!2025-03-26,63,310-->
 > - commutative magma ::@:: total, commutative <!--SR:!2025-03-31,67,310!2025-03-30,66,310-->
-> - quasigroup ::@:: total, divisible <!--SR:!2025-04-18,70,270!2025-03-23,50,250-->
+> - quasigroup ::@:: total, divisible <!--SR:!2025-04-18,70,270!2025-07-29,128,250-->
 > - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-06-28,117,290!2025-07-15,129,290-->
 > - unital magma ::@:: total, identity <!--SR:!2025-11-06,234,330!2025-06-25,114,290-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-11-30,255,330!2025-08-20,170,310-->

@@ -54,7 +54,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2025-08-07,356,374-->
-- height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-03-23,54,241!2025-09-17,384,377-->
+- height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-07-31,130,241!2025-09-17,384,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2025-07-08,324,380!2025-04-18,271,380-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: e75e9185-3454-4c54-a9c9-5a05c6b26732 -->::@:: aluminum, reinforced concrete, steel <!--SR:!2025-10-15,407,341!2027-03-07,764,330-->
 
@@ -273,7 +273,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
-- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-03-24,68,197!2027-02-28,756,355-->
+- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-08-02,131,197!2027-02-28,756,355-->
 
 ## Taipei 101
 

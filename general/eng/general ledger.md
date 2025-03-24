@@ -21,7 +21,7 @@ The general ledger contains {@{a page for all accounts in the chart of accounts<
 
 Posting is {@{the process of recording amounts as credits (right side), and amounts as debits (left side), in the pages of the general ledger}@}. {@{Additional columns to the right}@} hold {@{a running activity total (similar to a chequebook)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-06-13,199,310!2025-06-16,200,310!2025-06-07,194,310-->
 
-The general ledger should include {@{the date, description and balance or total amount for each account}@}. <!--SR:!2025-03-24,125,290-->
+The general ledger should include {@{the date, description and balance or total amount for each account}@}. <!--SR:!2026-08-13,507,310-->
 
 Because {@{each bookkeeping entry debits one account and credits another account in an equal amount}@}, {@{the [double-entry bookkeeping system](double-entry%20bookkeeping.md)}@} helps {@{ensure that the general ledger is always in balance, thus maintaining the [accounting equation](accounting%20equation.md)}@}: {@{Assets = Liabilities + (Shareholder's or Owner's equity)}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-04-15,152,310!2025-05-04,167,310!2025-08-24,260,330!2025-08-25,261,330-->
 

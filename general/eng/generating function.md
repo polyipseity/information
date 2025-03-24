@@ -83,13 +83,13 @@ The [main article](lambert%20series.md) provides {@{several more classical, or a
 
 ### Bell series
 
-The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an expression in terms of {@{both an indeterminate _x_ and a prime _p_}@} and is given by:<sup>[\[5\]](#^ref-5)</sup> {@{$$\operatorname {BG} _{p}(a_{n};x)=\sum _{n=0}^{\infty }a_{p^{n} }x^{n}\,.$$}@} <!--SR:!2025-09-13,257,330!2025-03-24,119,310!2025-12-23,285,250-->
+The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an expression in terms of {@{both an indeterminate _x_ and a prime _p_}@} and is given by:<sup>[\[5\]](#^ref-5)</sup> {@{$$\operatorname {BG} _{p}(a_{n};x)=\sum _{n=0}^{\infty }a_{p^{n} }x^{n}\,.$$}@} <!--SR:!2025-09-13,257,330!2026-08-18,512,330!2025-12-23,285,250-->
 
 ### Dirichlet series generating functions (DGFs)
 
 [Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2025-07-18,197,310!2025-07-13,194,310!2025-09-15,177,210-->
 
-The Dirichlet series generating function is especially useful when {@{_a_<sub>_n_</sub> is a [multiplicative function](multiplicative%20function.md)}@}, in which case {@{it has an [Euler product](euler%20product.md) expression<sup>[\[7\]](#^ref-7)</sup> in terms of the function's Bell series}@}: {@{$$\operatorname {DG} (a_{n};s)=\prod _{p}\operatorname {BG} _{p}(a_{n};p^{-s})\,.$$}@} <!--SR:!2025-07-31,208,290!2025-06-11,148,250!2025-03-23,52,150-->
+The Dirichlet series generating function is especially useful when {@{_a_<sub>_n_</sub> is a [multiplicative function](multiplicative%20function.md)}@}, in which case {@{it has an [Euler product](euler%20product.md) expression<sup>[\[7\]](#^ref-7)</sup> in terms of the function's Bell series}@}: {@{$$\operatorname {DG} (a_{n};s)=\prod _{p}\operatorname {BG} _{p}(a_{n};p^{-s})\,.$$}@} <!--SR:!2025-07-31,208,290!2025-06-11,148,250!2025-06-06,75,150-->
 
 If {@{_a_<sub>_n_</sub> is a [Dirichlet character](Dirichlet%20character.md)}@} then {@{its Dirichlet series generating function is called a [Dirichlet _L_-series](Dirichlet%20L-function.md)}@}. We also have a relation between {@{the pair of coefficients in the [Lambert series](Lambert%20series.md) expansions above and their DGFs}@}. Namely, we can prove that: {@{$$[x^{n}]\operatorname {LG} (a_{n};x)=b_{n}$$ if and only if $$\operatorname {DG} (a_{n};s)\zeta (s)=\operatorname {DG} (b_{n};s)\,,$$}@} where {@{_ζ_(_s_) is the [Riemann zeta function](riemann%20zeta%20function.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-01-09,299,290!2025-05-27,153,290!2025-08-01,187,270!2025-10-01,201,230!2025-07-13,194,310-->
 
@@ -183,7 +183,7 @@ Multiplication of ordinary generating functions yields {@{a discrete [convolutio
 For {@{integers _m_ ≥ 1}@}, we have {@{the following two analogous identities for the modified generating functions enumerating the shifted sequence variants of ⟨ _g_<sub>_n_ − _m_</sub> ⟩ and ⟨ _g_<sub>_n_ + _m_</sub> ⟩}@}, respectively: <!--SR:!2025-09-26,269,330!2025-09-18,262,330-->
 
 - shift coefficients right (to higher order) ::@:: $$z^{m}G(z)=\sum _{n=m}^{\infty }g_{n-m}z^{n}$$ <!--SR:!2025-11-10,301,330!2025-05-27,153,290-->
-- discard leading coefficients and shift coefficients left (to lower order) ::@:: $${\frac {G(z)-g_{0}-g_{1}z-\cdots -g_{m-1}z^{m-1} }{z^{m} } }=\sum _{n=0}^{\infty }g_{n+m}z^{n}$$ <!--SR:!2025-03-23,118,310!2025-12-14,289,290-->
+- discard leading coefficients and shift coefficients left (to lower order) ::@:: $${\frac {G(z)-g_{0}-g_{1}z-\cdots -g_{m-1}z^{m-1} }{z^{m} } }=\sum _{n=0}^{\infty }g_{n+m}z^{n}$$ <!--SR:!2026-03-17,359,310!2025-12-14,289,290-->
 
 #### differentiation and integration of generating functions
 

@@ -28,7 +28,7 @@ The idea is to {@{run a depth-first search while maintaining the following infor
 1. depth ::@:: the depth of each vertex in the depth-first-search tree \(once it gets visited\), and <!--SR:!2026-01-21,306,335!2025-10-04,203,315-->
 2. lowpoint ::@:: for each vertex _v_, the lowest depth of neighbors of all descendants of _v_ \(including _v_ itself\) in the depth-first-search tree, called the __lowpoint__. <!--SR:!2025-04-30,86,270!2025-06-01,118,295-->
 
-The depth is {@{standard to maintain during a depth-first search}@}. The lowpoint of _v_ can be {@{computed after visiting all descendants of _v_ \(i.e., just before _v_ gets popped off the depth-first-search [stack](stack%20(abstract%20data%20type).md)\)}@} as {@{the minimum of the depth of _v_, the depth of all neighbors of _v_ \(other than the parent of _v_ in the depth-first-search tree\) and the lowpoint of all children of _v_ in the depth-first-search tree}@}. <!--SR:!2025-11-24,259,330!2025-06-05,121,290!2025-03-23,57,255-->
+The depth is {@{standard to maintain during a depth-first search}@}. The lowpoint of _v_ can be {@{computed after visiting all descendants of _v_ \(i.e., just before _v_ gets popped off the depth-first-search [stack](stack%20(abstract%20data%20type).md)\)}@} as {@{the minimum of the depth of _v_, the depth of all neighbors of _v_ \(other than the parent of _v_ in the depth-first-search tree\) and the lowpoint of all children of _v_ in the depth-first-search tree}@}. <!--SR:!2025-11-24,259,330!2025-06-05,121,290!2025-08-12,142,255-->
 
 The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation point\) separating two biconnected components}@} {@{if and only if there is a child _y_ of _v_ such that lowpoint\(_y_\) ≥ depth\(_v_\)}@}. {@{This property can be tested}@} once {@{the depth-first search returned from every child of _v_ \(i.e., just before _v_ gets popped off the depth-first-search stack\)}@}, and if {@{__true__, _v_ separates the graph into different biconnected components}@}. This can be represented by {@{computing one biconnected component out of every such _y_ \(a component which contains _y_ will contain the subtree of _y_, plus _v_\)}@}, and {@{then erasing the subtree of _y_ from the tree}@}. <!--SR:!2025-04-21,85,275!2025-07-14,153,310!2025-07-06,146,310!2025-03-26,59,255!2025-10-16,210,315!2025-05-06,87,275!2025-06-03,120,295-->
 
@@ -106,7 +106,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 >             {@{low[i]&nbsp;:= Min (low[i], depth[ni])}@}
 >     <b>if</b> {@{(parent[i] ≠ <b>null</b> <b>and</b> isArticulation) <b>or</b> (parent[i] = <b>null</b> <b>and</b> childCount &gt; 1)}@} <b>then</b>
 >         {@{Output i as articulation point}@}
-> </pre> <!--SR:!2026-01-16,301,335!2025-11-24,260,335!2025-12-24,284,335!2025-06-04,121,295!2025-12-25,285,335!2026-01-10,296,335!2025-11-20,256,335!2025-11-26,262,335!2025-11-27,263,335!2025-03-25,58,250!2025-05-30,116,290!2025-03-24,58,255!2025-09-28,198,310!2025-09-30,199,315!2025-06-05,122,295!2025-07-15,141,295!2025-07-23,144,295!2025-06-01,118,290-->
+> </pre> <!--SR:!2026-01-16,301,335!2025-11-24,260,335!2025-12-24,284,335!2025-06-04,121,295!2025-12-25,285,335!2026-01-10,296,335!2025-11-20,256,335!2025-11-26,262,335!2025-11-27,263,335!2025-03-25,58,250!2025-05-30,116,290!2025-10-12,202,275!2025-09-28,198,310!2025-09-30,199,315!2025-06-05,122,295!2025-07-15,141,295!2025-07-23,144,295!2025-06-01,118,290-->
 
 <!-- markdownlint MD028 -->
 

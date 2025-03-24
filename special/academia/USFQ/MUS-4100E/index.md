@@ -144,7 +144,7 @@ The content is in teaching order.
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2025-05-03,75,340!2025-05-08,78,340-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-04-10,52,320!2025-05-10,80,340-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-05-12,82,340!2025-05-04,76,340-->
-  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-06-28,105,300!2025-03-23,38,300-->
+  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-06-28,105,300!2025-08-30,159,320-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-05-09,79,340!2025-05-05,77,340-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-04-17,57,320!2025-04-10,52,320-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-04-05,52,320!2025-05-05,77,340-->
@@ -159,7 +159,7 @@ The content is in teaching order.
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-04-10,56,320!2025-05-06,78,340-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-05-13,83,340!2025-05-08,78,340-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-07-02,108,300!2025-03-24,39,300-->
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-07-02,108,300!2025-04-13,20,280-->
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-05-11,81,340!2025-04-10,56,320-->
 - quiz (attendance): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
@@ -314,20 +314,20 @@ The content is in teaching order.
   - popular music / in older times
 - jazz standard
 - thirty-two-bar form
-- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries. <!--SR:!2025-03-25,25,376!2025-03-24,24,376-->
+- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries. <!--SR:!2025-03-25,25,376!2025-07-26,124,396-->
   - Tin Pan Alley / composers: Cole Porter, George & Ira Gershwin, Harold Arlen, Rodgers & Hart, Sammy Kahn
-- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2025-03-24,24,376!2025-03-25,25,376-->
-  - contrafact / example ::@:: "Cottontail" – Duke Ellington <!--SR:!2025-03-25,25,376!2025-03-24,24,376-->
-- [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2025-03-23,23,376!2025-05-29,71,356-->
-  - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-03-24,24,376!2025-03-24,24,376-->
-  - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller <!--SR:!2025-03-23,23,376!2025-03-24,24,376-->
+- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2025-07-25,123,396!2025-03-25,25,376-->
+  - contrafact / example ::@:: "Cottontail" – Duke Ellington <!--SR:!2025-03-25,25,376!2025-07-26,124,396-->
+- [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2025-06-21,89,376!2025-05-29,71,356-->
+  - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-07-29,127,396!2025-07-24,122,396-->
+  - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller <!--SR:!2025-06-21,89,376!2025-07-27,125,396-->
 - [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-04-07,31,336!2025-04-16,40,356-->
-  - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2025-06-23,96,376!2025-03-24,24,376-->
-  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-04-07,31,336!2025-03-23,23,376-->
-- [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-03-23,23,376!2025-03-23,23,376-->
-  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-03-24,24,376!2025-04-07,31,336-->
+  - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2025-06-23,96,376!2025-07-27,125,396-->
+  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-04-07,31,336!2025-07-18,116,396-->
+- [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-07-20,118,396!2025-07-20,118,396-->
+  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2025-04-07,31,336-->
 - Benny Goodman
-  - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman <!--SR:!2025-03-23,23,376!2025-03-25,25,376-->
+  - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman <!--SR:!2025-07-19,117,396!2025-03-25,25,376-->
 - swing era
   - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
@@ -337,15 +337,15 @@ The content is in teaching order.
 - datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00
   - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00
 - quiz: [quiz 2](questions/quiz%202.md)
-- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2025-03-23,23,376!2025-03-23,23,376-->
-  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-03-23,23,376!2025-03-25,25,376-->
-  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-03-23,23,376!2025-03-25,25,376-->
-  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-03-25,25,376!2025-03-23,23,376-->
+- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2025-07-17,115,396!2025-07-21,119,396-->
+  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-07-19,117,396!2025-03-25,25,376-->
+  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-03-25,25,376-->
+  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-03-25,25,376!2025-06-21,89,376-->
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2025-04-07,31,336!2025-05-29,71,356-->
-  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli <!--SR:!2025-04-16,40,356!2025-03-24,24,376-->
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli <!--SR:!2025-04-16,40,356!2025-07-29,127,396-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2025-05-29,71,356!2025-04-07,31,336-->
-  - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist <!--SR:!2025-05-27,75,376!2025-03-24,24,376-->
-  - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-03-23,23,376!2025-03-24,24,376-->
+  - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist <!--SR:!2025-05-27,75,376!2025-07-25,123,396-->
+  - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-07-22,120,396!2025-07-23,121,396-->
 - gypsy jazz
   - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
 - assignment: (none)

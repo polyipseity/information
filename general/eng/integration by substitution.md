@@ -22,7 +22,7 @@ tags:
 
 ### proof
 
-Integration by substitution can be derived from {@{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md)}@}. <!--SR:!2025-03-23,243,334-->
+Integration by substitution can be derived from {@{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md)}@}. <!--SR:!2028-04-15,1119,354-->
 
 ## references
 

@@ -193,7 +193,7 @@ The inner product between {@{a [tensor](tensor.md) of order $n$ and a tensor of 
 
 A dot product function is included in:
 
-- [BLAS](BLAS.md) ::@:: level 1 real `SDOT`, `DDOT`; complex `CDOTU`, `ZDOTU = X^T * Y`, `CDOTC`, `ZDOTC = X^H * Y` <!--SR:!2025-03-24,24,303!2025-05-10,65,343-->
+- [BLAS](BLAS.md) ::@:: level 1 real `SDOT`, `DDOT`; complex `CDOTU`, `ZDOTU = X^T * Y`, `CDOTC`, `ZDOTC = X^H * Y` <!--SR:!2025-06-06,74,303!2025-05-10,65,343-->
 - [Fortran](Fortran.md) as `dot_product(A,B)` or `sum(conjg(A) * B)`
 - [Julia](Julia%20(programming%20language).md) as  `A' * B` or standard library LinearAlgebra as `dot(A, B)`
 - [R \(programming language\)](R%20(programming%20language).md) as `sum(A * B)` for vectors or, more generally for matrices, as `A %*% B`

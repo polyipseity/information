@@ -147,7 +147,7 @@ One way to implement this is, after creating a cluster for each observation, {@{
 
 ## divisive clustering
 
-Note that [distance](distance.md) described below is {@{<!-- flashcard ID: 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)}@}, so the method is applicable to {@{<!-- flashcard ID: bf2e7702-5a6b-460b-a424-475b27c6f443 -->any distance functions and [cluster linkages](#cluster%20linkage)}@}. <!--SR:!2026-12-06,736,329!2025-03-24,249,329-->
+Note that [distance](distance.md) described below is {@{<!-- flashcard ID: 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)}@}, so the method is applicable to {@{<!-- flashcard ID: bf2e7702-5a6b-460b-a424-475b27c6f443 -->any distance functions and [cluster linkages](#cluster%20linkage)}@}. <!--SR:!2026-12-06,736,329!2028-04-27,1130,349-->
 
 The basic principle of divisive clustering was {@{published as the DIANA (DIvisive ANAlysis clustering) algorithm}@}.<sup>[\[1\]](#^ref-Kaufman-2009)</sup> <!--SR:!2027-05-01,854,335-->
 

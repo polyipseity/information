@@ -198,7 +198,7 @@ Sustainable Waste Management
 3Rs Concept
 
 - 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2027-07-12,859,330-->
-  - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2025-04-21,258,330-->
+  - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2025-04-21,258,330-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2025-04-17,252,330-->
     - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2025-03-26,235,330-->
@@ -329,7 +329,7 @@ Air Quality Health Index
 
 - Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2025-06-10,298,330-->
   - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2025-05-03,264,330-->
-  - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2028-01-04,1028,350-->
+  - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2028-02-17,1060,350!2028-01-04,1028,350-->
   - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2027-04-02,750,330-->
 
 ## page 28
@@ -410,7 +410,7 @@ Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2027-09-11,909,330-->
-  - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2027-02-05,754,330-->
+  - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
   - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2027-08-02,880,330-->
 
 ## page 33

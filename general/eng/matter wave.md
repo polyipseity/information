@@ -13,7 +13,7 @@ __Matter waves__ {@{describe the [wave](wave.md)-like behavior of all [matter](m
 
 ## de Broglie relations
 
-The _de Broglie wavelength_ $\lambda$ {@{relates to the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: <!--SR:!2025-03-23,454,290-->
+The _de Broglie wavelength_ $\lambda$ {@{relates to the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: <!--SR:!2028-10-30,1317,290-->
 
 > The de Broglie equations:
 >

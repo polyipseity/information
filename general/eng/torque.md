@@ -14,7 +14,7 @@ In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known a
 
 ## principles of moments
 
-The principle of moments, also known as {@{[Varignon's theorem](Varignon's%20theorem%20(mechanics).md)}@}, states {@{the resultant torques about several forces applied to a point equals the sum of the individual torques}@}: {@{$$\tau = \vec{r}_1 \times \vec{F}_1 + \vec{r}_2 \times \vec{F}_2 + \cdots + r_N \times \vec{F}_N = \sum_{i = 1}^N \vec{r}_i \times \vec{F}_i$$}@} <!--SR:!2026-06-21,572,310!2025-03-23,239,330!2026-06-21,583,330-->
+The principle of moments, also known as {@{[Varignon's theorem](Varignon's%20theorem%20(mechanics).md)}@}, states {@{the resultant torques about several forces applied to a point equals the sum of the individual torques}@}: {@{$$\tau = \vec{r}_1 \times \vec{F}_1 + \vec{r}_2 \times \vec{F}_2 + \cdots + r_N \times \vec{F}_N = \sum_{i = 1}^N \vec{r}_i \times \vec{F}_i$$}@} <!--SR:!2026-06-21,572,310!2028-03-13,1086,350!2026-06-21,583,330-->
 
 ## special cases and other facts
 

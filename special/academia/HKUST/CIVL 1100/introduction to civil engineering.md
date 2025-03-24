@@ -49,7 +49,7 @@ The content is in teaching order.
     - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2026-10-21,698,360-->
 - civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
-  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
+  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
@@ -284,7 +284,7 @@ workmanship
 - impacts to surrounding→::@::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2025-04-18,249,312-->
-- politics→::@::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
+- politics→::@::←social <!--SR:!2028-07-27,1221,380!2025-05-03,262,337-->
 - social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-11-22,303,210-->
 - workmanship→::@::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
 
@@ -458,7 +458,7 @@ testing materials
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
 - logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
-- procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2025-03-23,213,281-->
+- procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2027-07-08,836,301-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2025-05-11,168,235-->
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->

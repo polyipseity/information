@@ -98,9 +98,9 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 ### equity-approach
 
 - [Flows to equity](flows%20to%20equity.md) approach \(FTE\)
-  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2025-03-24,37,290!2025-03-23,33,270-->
+  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2025-08-17,146,310!2025-07-28,127,290-->
   - (annotation: flows to equity) Advantages: ::@:: Makes explicit allowance for the cost of debt capital <!--SR:!2025-05-08,74,329!2025-04-27,64,310-->
-  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2025-04-12,52,309!2025-03-24,37,290-->
+  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2025-04-12,52,309!2025-08-18,147,310-->
 
 ### entity-approach
 

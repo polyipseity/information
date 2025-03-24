@@ -8,7 +8,7 @@ tags:
 
 # extreme value theorem
 
-In [mathematics](mathematics.md), the __extreme value theorem__ states that {@{if a [real-valued function](real-valued%20function.md) $f$ is [continuous](continuous%20function.md) over the closed [interval](interval%20(mathematics).md) and [bounded](bounded%20set.md) $[a,b]$, then $f(x)$ attains a [maximum and minimum](maximum%20and%20minimum.md) each at least once}@}. <!--SR:!2025-03-24,317,290-->
+In [mathematics](mathematics.md), the __extreme value theorem__ states that {@{if a [real-valued function](real-valued%20function.md) $f$ is [continuous](continuous%20function.md) over the closed [interval](interval%20(mathematics).md) and [bounded](bounded%20set.md) $[a,b]$, then $f(x)$ attains a [maximum and minimum](maximum%20and%20minimum.md) each at least once}@}. <!--SR:!2027-09-24,914,290-->
 
 > __extreme value theorem__
 >

@@ -116,7 +116,7 @@ return await memorize_seq(
 
 #### hydrostatic load
 
-Hydrostatic load refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}. <!--SR:!2025-04-04,248,330!2025-03-23,239,330-->
+Hydrostatic load refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}. <!--SR:!2025-04-04,248,330!2027-05-18,786,330-->
 
 For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For pure water, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}. <!--SR:!2025-04-21,261,330!2027-12-15,1005,340!2025-04-20,262,330-->
 
@@ -150,7 +150,7 @@ Wind load causes {@{lateral deflection, which may further lead to toppling of th
 
 ### load combinations
 
-{@{Load (amplifying) factors}@} are used in {@{design equations to increase the design loads}@}, to {@{account for uncertainties involved when estimating loads}@}. An example is {@{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}@}. <!--SR:!2025-05-07,274,330!2025-03-24,240,330!2026-07-15,560,320!2027-09-12,936,340-->
+{@{Load (amplifying) factors}@} are used in {@{design equations to increase the design loads}@}, to {@{account for uncertainties involved when estimating loads}@}. An example is {@{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}@}. <!--SR:!2025-05-07,274,330!2028-03-24,1096,350!2026-07-15,560,320!2027-09-12,936,340-->
 
 ## references
 

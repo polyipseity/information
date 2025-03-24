@@ -232,7 +232,7 @@ In this example, {@{the equation can be solved in _y_}@}, giving {@{$y=\pm {\sqr
 
 ### using differential calculus
 
-Many functions can be {@{defined as the [antiderivative](antiderivative.md) of another function}@}. This is the case of {@{the [natural logarithm](natural%20logarithm.md)}@}, which is {@{the antiderivative of 1/_x_ that is 0 for _x_ = 1}@}. Another common example is {@{the [error function](error%20function.md)}@}. <!--SR:!2025-05-14,75,330!2025-05-22,82,347!2025-03-24,33,290!2025-05-19,79,345-->
+Many functions can be {@{defined as the [antiderivative](antiderivative.md) of another function}@}. This is the case of {@{the [natural logarithm](natural%20logarithm.md)}@}, which is {@{the antiderivative of 1/_x_ that is 0 for _x_ = 1}@}. Another common example is {@{the [error function](error%20function.md)}@}. <!--SR:!2025-05-14,75,330!2025-05-22,82,347!2025-08-01,130,310!2025-05-19,79,345-->
 
 More generally, {@{many functions, including most [special functions](special%20function.md)}@}, can be defined as {@{solutions of [differential equations](differential%20equation.md)}@}. The simplest example is probably {@{the [exponential function](exponential%20function.md)}@}, which can be defined as {@{the unique function that is equal to its derivative and takes the value 1 for _x_ = 0}@}. <!--SR:!2025-05-20,80,345!2025-05-26,82,347!2025-05-15,76,330!2025-05-28,84,347-->
 
@@ -443,7 +443,7 @@ When {@{the elements of the codomain of a function are [vectors](vector%20(mathe
 
 In {@{[mathematical analysis](mathematical%20analysis.md), and more specifically in [functional analysis](functional%20analysis.md)}@}, {@{a __function space__}@} is {@{a set of [scalar-valued](scalar-valued%20function.md) or [vector-valued functions](vector-valued%20function.md)}@}, which {@{share a specific property and form a [topological vector space](topological%20vector%20space.md)}@}. For example, {@{the real [smooth functions](smooth%20function.md) with a [compact support](compact%20support.md#compact%20support)}@} \(that is, they are {@{zero outside some [compact set](compact%20set.md)}@}\) form {@{a function space that is at the basis of the theory of [distributions](distribution%20(mathematics).md)}@}. <!--SR:!2025-04-24,58,310!2025-05-07,69,330!2025-05-23,83,347!2025-05-28,84,347!2025-05-13,74,330!2025-05-12,73,330!2025-05-28,84,347-->
 
-Function spaces play {@{a fundamental role in advanced mathematical analysis}@}, by allowing {@{the use of their algebraic and [topological](topology.md) properties for studying properties of functions}@}. For example, {@{all theorems of existence and uniqueness of solutions}@} of {@{[ordinary](ordinary%20differential%20equation.md) or [partial differential equations](partial%20differential%20equation.md)}@} {@{result of the study of function spaces}@}. <!--SR:!2025-05-04,67,330!2025-03-24,33,290!2025-05-09,71,330!2025-05-05,67,310!2025-05-07,69,330-->
+Function spaces play {@{a fundamental role in advanced mathematical analysis}@}, by allowing {@{the use of their algebraic and [topological](topology.md) properties for studying properties of functions}@}. For example, {@{all theorems of existence and uniqueness of solutions}@} of {@{[ordinary](ordinary%20differential%20equation.md) or [partial differential equations](partial%20differential%20equation.md)}@} {@{result of the study of function spaces}@}. <!--SR:!2025-05-04,67,330!2025-06-30,98,290!2025-05-09,71,330!2025-05-05,67,310!2025-05-07,69,330-->
 
 ## multi-valued functions
 
