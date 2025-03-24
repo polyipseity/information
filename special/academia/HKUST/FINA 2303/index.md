@@ -378,7 +378,7 @@ The content is in teaching order.
 - [balance sheet](../../../../general/balance%20sheet.md)
   - [ACCT 2010/balance sheet](../ACCT%202010/balance%20sheet.md)
   - [balance sheet](../../../../general/balance%20sheet.md) / elements ::@:: titles, name of the financial statement, reporting period or point in time, currency and basis of monetary unit, assets (in decreasing/increasing liquidity), liabilities (in decreasing/increasing maturity)
-  - balance sheet / GAAP vs. IFRS ::@:: The former lists current assets before non-current assets \(decreasing liquidity\). The latter lists non-current assets before current assets \(increasing liquidity\). Both shows current liabilities before non-current liabilities \(decreasing maturity\).
+  - balance sheet / GAAP vs. IFRS ::@:: The former lists current assets/liabilities before non-current assets/liabilities \(decreasing liquidity\). The latter lists non-current assets/liabilities before current assets/liabilities \(increasing liquidity\).
 - [historical cost](../../../../general/historical%20cost.md) ::@:: It is the value of the costs incurred in acquiring or creating the asset, comprising the consideration paid to acquire or create the asset plus transaction costs.
   - historical cost / balance sheet ::@:: Balance sheet records amounts measured at historical values and historical exchange rates.
 - [depreciation](../../../../general/depreciation.md) ::@:: As fixed assets are used to earn revenue, they become "used". According to the matching principle, an expense should be recorded. <p> To do so, expense "Depreciated account" is debited while contra-asset "Accumulated depreciation" is credited.
