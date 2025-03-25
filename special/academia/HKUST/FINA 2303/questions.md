@@ -531,3 +531,90 @@ tags:
 > 4. below 2
 >
 > - solution: {@{1/2/3/4}@} <!--SR:!2025-04-03,18,359-->
+
+## week 6 lecture
+
+> Q1. Suppose a company reported an additional 100 million dollars depreciation expense.  Will the amount of net income decrease by 100 million dollars?
+>
+> 1. Yes
+> 2. No
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. What is Vodafone's EBITDA (in mil) in 2012?
+>
+> |                                                 | 2013           | 2012           |
+> | ----------------------------------------------- | --------------:| --------------:|
+> | ...                                             | ...            | ...            |
+> | __Gross profit__                                | 13&nbsp;940    | 14&nbsp;871    |
+> | ...                                             | ...            | ...            |
+> | Depreciation/Impairment losses                  | \(7&nbsp;700\) | \(4&nbsp;050\) |
+> | ...                                             | ...            | ...            |
+> | __Operating income__                            | 4&nbsp;728     | 11&nbsp;187    |
+> | Other income                                    | 315            | 294            |
+> | __Earnings before interest and taxes \(EBIT\)__ | 5&nbsp;043     | 11&nbsp;481    |
+> | Interest income \(expense\)                     | \(1&nbsp;788\) | \(1&nbsp;932\) |
+> | __Profit before tax__                           | 3&nbsp;255     | 9&nbsp;549     |
+> | Tax                                             | \(2&nbsp;582\) | \(2&nbsp;546\) |
+> | __Net income__                                  | 673            | 7&nbsp;003     |
+>
+> 1. 4&nbsp;050
+> 2. 7&nbsp;431
+> 3. 11&nbsp;481
+> 4. 15&nbsp;531
+>
+> - solution: {@{4}@}
+
+## week 6 lecture 2
+
+> Q1. Has the firm increased or decreased in its cash from _decreasing_ accounts receivable<!-- during 2013 -->?
+>
+> 1. increased cash
+> 2. decreased cash
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Will the income statement record a capital expenditure of \$1.02 million?
+>
+> 1. Yes
+> 2. No
+> 3. Cannot be determined
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Given an expected incremental operating losses of 10 million dollars, will a company's forecasted net income decrease by 10 million dollars?
+>
+> 1. Yes
+> 2. No
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. What is the annual depreciation amount of this project?
+>
+> The project that will require \$80&nbsp;000 in fixed assets at year 0. The project has a 4-year life. The company uses straight-line depreciation.
+>
+> 1. 20&nbsp;000
+> 2. 27&nbsp;500
+> 3. 70&nbsp;000
+> 4. 80&nbsp;000
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. In a project, which of the following is included in the calculation of unlevered net income during the project's life?
+>
+> 1. full cost of equipment
+> 2. interest on borrowing
+> 3. full recovery of net working capital
+> 4. projected revenue
+>
+> - solution: {@{4}@}

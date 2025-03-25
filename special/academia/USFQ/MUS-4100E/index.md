@@ -410,8 +410,8 @@ The content is in teaching order.
 
 ## week 8 lecture 2
 
-- datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:00:00-05:00
-  - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:00:00+08:00
+- datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:50:00-05:00
+  - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:50:00+08:00
 - status: unscheduled, holiday
 
 ## week 9 lecture
@@ -425,4 +425,37 @@ The content is in teaching order.
 - datetime: 2025-03-10T08:30:00-05:00/2025-03-10T09:00:00-05:00
   - local: 2025-03-10T21:30:00+08:00/2025-03-10T22:00:00+08:00
 - examination: [midterm examination](questions/midterm%20examination.md)
+- assignment: \(none\)
+
+## week 9 lecture 2
+
+- datetime: 2025-03-12T08:30:00-05:00/2025-03-12T09:50:00-05:00
+  - local: 2025-03-12T21:30:00+08:00/2025-03-12T22:50:00+08:00
+- ???
+- assignment: read "When Bebop was Born"
+- assignment \(attendance\): [Birth of Bebop](questions/index.md#Birth%20of%20Bebop)
+
+## week 10 lecture
+
+- datetime: 2025-03-17T08:30:00-05:00/2025-03-17T09:00:00-05:00
+  - local: 2025-03-17T21:30:00+08:00/2025-03-17T22:00:00+08:00
+- [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. <p> The name comes from the rhythm.
+- [Minton's Playhouse](../../../../general/Minton's%20Playhouse.md) ::@:: a jazz club in Harlem, New York City; held regular jam sessions
+  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc.
+  - Minton's Playhouse / characteristic ::@:: Many experimental musicians pushing the limits of music. This led to a new "way" to play jazz: bebop.
+  - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation.
+- Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity
+  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca".
+  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs.
+- [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands
+  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s.
+  - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House"
+- bebop
+  - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes.
+  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well.
+- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh.
+- bebop
+  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington
+- Charlie Parker
+  - Charlie Parker / effect ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop.
 - assignment: \(none\)

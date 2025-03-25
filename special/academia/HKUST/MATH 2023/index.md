@@ -278,6 +278,7 @@ The content is in teaching order.
 - [critical point](../../../../general/critical%20point%20(mathematics).md) ::@:: It is the argument of a function where the function derivative is zero \(or undefined, as specified below\). <!--SR:!2025-04-12,26,386!2025-04-12,26,386-->
   - critical point / multivariate ::@:: It is a point where the gradient is zero or undefined. <!--SR:!2025-04-12,26,386!2025-04-10,24,386-->
   - critical point / interpretation ::@:: A critical point \(where the function is _differentiable_\) may be either a [local maximum](../../../../general/local%20maximum.md), a [local minimum](../../../../general/local%20minimum.md) or a [saddle point](../../../../general/saddle%20point.md). <p> In univariate calculus, saddle point is a [point](../../../../general/point%20(geometry).md) which is both a [stationary point](../../../../general/stationary%20point.md) and a [point of inflection](../../../../general/inflection%20point.md). <!--SR:!2025-04-03,17,366!2025-04-12,26,386-->
+- [saddle point](../../../../general/saddle%20point.md) ::@:: It is a point on the surface of the graph of a function where the slopes \(derivatives\) in orthogonal directions are all zero \(a _critical point_\), but which is not a local extremum of the function.
 
 ## week 6 lecture
 

@@ -50,6 +50,8 @@ In MIPS, to address a memory location, we need {@{a base address and an offset}@
 
 When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. <!--SR:!2025-04-02,16,290!2025-04-01,15,290!2025-04-02,16,290!2025-04-02,16,290!2025-04-01,15,290!2025-04-01,15,290!2025-04-01,15,290-->
 
+For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}.
+
 Note that it does not make sense to {@{talk about the endianness of a register, as they have no memory addresses}@}. When transferring multiple bytes from and to the main memory, big-endian systems {@{stores them in the main memory in big-endian, transfers them to registers by interpreting them in big-endian, and receives them from registers by writing them in big-endian}@}, and {@{vice versa for little-endian}@}. In both cases, {@{the data transfer instructions are agnostic of the endianness, i.e. does not need to care about the endianness}@}. <!--SR:!2025-04-07,17,315!2025-04-07,17,315!2025-04-06,16,315!2025-04-05,15,315-->
 
 ## instructions
@@ -108,7 +110,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - bitwise and ::@:: `and $d, $s, $t`: `$d = $s & $t;` <!--SR:!2025-04-07,17,315!2025-04-06,16,315-->
 - bitwise and immediate ::@:: `andi $t, $s, imm`: `$t = $s & imm;`; `imm` is zero-extended <!--SR:!2025-04-05,15,310!2025-04-07,17,310-->
 - bitwise exclusive or ::@:: `xor $d, $s, $t`: `$d = $s ^ $t;` <!--SR:!2025-04-06,16,310!2025-04-07,17,310-->
-- bitwise exclusive or immediate ::@:: `xor, $t, $s, imm`: `$t = $s ^ imm;`; `imm` is zero-extended <!--SR:!2025-04-06,16,310!2025-04-05,15,315-->
+- bitwise exclusive or immediate ::@:: `xori $t, $s, imm`: `$t = $s ^ imm;`; `imm` is zero-extended <!--SR:!2025-04-06,16,310!2025-04-05,15,315-->
 - bitwise nor ::@:: `nor $d, $s, $t`: `$d = ~($s | $t);` <!--SR:!2025-04-05,15,315!2025-04-07,17,315-->
 - bitwise nor immediate ::@:: `nori` does not exist. Unfortunately, it cannot be replaced by a single instruction. It can be replaced by `ori` and then a `nor` with `$0`. <!--SR:!2025-04-06,16,315!2025-04-07,17,310-->
 - bitwise or ::@:: `or $d, $s, $t`: `$d = $s | $t;` <!--SR:!2025-04-05,15,315!2025-04-07,17,315-->
@@ -277,5 +279,7 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 - load address ::@:: `la $d, addr`; `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, 0x1001; ori $d, $at, addr[0:16];` <!--SR:!2025-04-05,15,315!2025-04-05,15,310-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2025-04-05,15,310!2025-04-07,17,310-->
 - not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-03-28,9,275!2025-04-07,17,315-->
+
+Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}.
 
 \(this course: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2025-04-07,17,315-->

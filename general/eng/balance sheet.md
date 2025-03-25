@@ -144,7 +144,7 @@ Balance sheet substantiation is {@{a key control process in the [SOX 404 top-dow
 
 The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well. <!--SR:!2025-06-28,214,330!2025-05-03,166,310-->
 
-{@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-08-08,247,330!2026-11-08,599,330!2025-04-29,143,270-->
+{@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the least immediate liability to be paid i.e. long-term debt such as mortgages to the most \(usual account payable\) and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-08-08,247,330!2026-11-08,599,330!2025-04-29,143,270-->
 
 <pre>
 <b>Consolidated Statement of Finance Position of XYZ, Ltd.</b>
@@ -179,19 +179,19 @@ The following balance sheet is a very brief example prepared in accordance with 
 
 <pre>
 <b>LIABILITIES and EQUITY</b>
- <b>Current Liabilities (Creditors: amounts falling due within one year)</b>
-  <a href="accounts payable.md" title="Accounts Payable">Accounts Payable</a>
-  Current Income <a href="tax.md" title="Tax">Tax</a> Payable
-  Current portion of Loans Payable
-  <a href="provision (accounting).md" title="Provision (accounting)">Short-term Provisions</a>
-  Other Current Liabilities, e.g. <a href="deferral.md" title="Deferred income">Deferred income</a>, <a href="security deposit.md" title="Security deposit">Security deposits</a>
-
  <b>Non-Current Liabilities (Creditors: amounts falling due after more than one year)</b>
-  <a href="loan.md" title="Loan">Loans</a> Payable
-  <a href="security (finance).md" title="Security (finance)">Issued Debt Securities</a>, e.g. Notes/Bonds Payable
-  <a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Liabilities
-  <a href="provision (accounting).md" title="Provision (accounting)">Provisions</a>, e.g. Pension Obligations
   Other Non-Current Liabilities, e.g. <a href="finance lease.md" title="Finance lease">Lease Obligations</a>
+  <a href="provision (accounting).md" title="Provision (accounting)">Provisions</a>, e.g. Pension Obligations
+  <a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Liabilities
+  <a href="security (finance).md" title="Security (finance)">Issued Debt Securities</a>, e.g. Notes/Bonds Payable
+  <a href="loan.md" title="Loan">Loans</a> Payable
+
+ <b>Current Liabilities (Creditors: amounts falling due within one year)</b>
+  Other Current Liabilities, e.g. <a href="deferral.md" title="Deferred income">Deferred income</a>, <a href="security deposit.md" title="Security deposit">Security deposits</a>
+  <a href="provision (accounting).md" title="Provision (accounting)">Short-term Provisions</a>
+  Current portion of Loans Payable
+  Current Income <a href="tax.md" title="Tax">Tax</a> Payable
+  <a href="accounts payable.md" title="Accounts Payable">Accounts Payable</a>
 
  <b>EQUITY</b>
   <b><a href="paid-in capital.md" title="Paid-in Capital">Paid-in Capital</a></b>
@@ -245,19 +245,19 @@ The following balance sheet is a very brief example prepared in accordance with 
 >
 > ```text
 > LIABILITIES and EQUITY
->  Current Liabilities (Creditors: amounts falling due within one year)
->   Accounts Payable
->   Current Income Tax Payable
->   Current portion of Loans Payable
->   Short-term Provisions
->   Other Current Liabilities, e.g. Deferred income, Security deposits
-> 
 >  Non-Current Liabilities (Creditors: amounts falling due after more than one year)
->   Loans Payable
->   Issued Debt Securities, e.g. Notes/Bonds Payable
->   Deferred Tax Liabilities
->   Provisions, e.g. Pension Obligations
 >   Other Non-Current Liabilities, e.g. Lease Obligations
+>   Provisions, e.g. Pension Obligations
+>   Deferred Tax Liabilities
+>   Issued Debt Securities, e.g. Notes/Bonds Payable
+>   Loans Payable
+>
+>  Current Liabilities (Creditors: amounts falling due within one year)
+>   Other Current Liabilities, e.g. Deferred income, Security deposits
+>   Short-term Provisions
+>   Current portion of Loans Payable
+>   Current Income Tax Payable
+>   Accounts Payable
 > 
 >  EQUITY
 >   Paid-in Capital
@@ -313,19 +313,19 @@ The following balance sheet is a very brief example prepared in accordance with 
 >
 > <pre>
 > {@{<b>LIABILITIES and EQUITY</b>}@}
->  {@{<b>Current Liabilities (Creditors: amounts falling due within one year)</b>}@}
->   {@{<a href="accounts payable.md" title="Accounts Payable">Accounts Payable</a>}@}
->   {@{Current Income <a href="tax.md" title="Tax">Tax</a> Payable}@}
->   {@{Current portion of Loans Payable}@}
->   {@{<a href="provision (accounting).md" title="Provision (accounting)">Short-term Provisions</a>}@}
->   {@{Other Current Liabilities, e.g. <a href="deferral.md" title="Deferred income">Deferred income</a>, <a href="security deposit.md" title="Security deposit">Security deposits</a>}@}
->
 >  {@{<b>Non-Current Liabilities (Creditors: amounts falling due after more than one year)</b>}@}
->   {@{<a href="loan.md" title="Loan">Loans</a> Payable}@}
->   {@{<a href="security (finance).md" title="Security (finance)">Issued Debt Securities</a>, e.g. Notes/Bonds Payable}@}
->   {@{<a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Liabilities}@}
->   {@{<a href="provision (accounting).md" title="Provision (accounting)">Provisions</a>, e.g. Pension Obligations}@}
 >   {@{Other Non-Current Liabilities, e.g. <a href="finance lease.md" title="Finance lease">Lease Obligations</a>}@}
+>   {@{<a href="provision (accounting).md" title="Provision (accounting)">Provisions</a>, e.g. Pension Obligations}@}
+>   {@{<a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Liabilities}@}
+>   {@{<a href="security (finance).md" title="Security (finance)">Issued Debt Securities</a>, e.g. Notes/Bonds Payable}@}
+>   {@{<a href="loan.md" title="Loan">Loans</a> Payable}@}
+>
+>  {@{<b>Current Liabilities (Creditors: amounts falling due within one year)</b>}@}
+>   {@{Other Current Liabilities, e.g. <a href="deferral.md" title="Deferred income">Deferred income</a>, <a href="security deposit.md" title="Security deposit">Security deposits</a>}@}
+>   {@{<a href="provision (accounting).md" title="Provision (accounting)">Short-term Provisions</a>}@}
+>   {@{Current portion of Loans Payable}@}
+>   {@{Current Income <a href="tax.md" title="Tax">Tax</a> Payable}@}
+>   {@{<a href="accounts payable.md" title="Accounts Payable">Accounts Payable</a>}@}
 >
 >  {@{<b>EQUITY</b>}@}
 >   {@{<b><a href="paid-in capital.md" title="Paid-in Capital">Paid-in Capital</a></b>}@}
