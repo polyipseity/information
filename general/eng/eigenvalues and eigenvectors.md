@@ -32,7 +32,7 @@ For {@{finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vec
 Eigenvalues and eigenvectors give rise to {@{many closely related mathematical concepts}@}, and {@{the prefix _eigen-_ is applied liberally when naming them}@}: <!--SR:!2025-08-08,309,346!2025-04-03,192,326-->
 
 - __eigensystem__ of a linear transformation ::@:: the set of all eigenvectors of the linear transformation, each paired with its corresponding eigenvalue <!--SR:!2025-09-07,332,346!2025-05-28,232,326-->
-- __eigenspace__ or __characteristic space__ of a eigenvalue of a linear transformation ::@:: the set of all eigenvectors of the linear transformation corresponding to the same eigenvalue, together with the zero vector <!--SR:!2025-06-29,257,326!2025-03-25,183,326-->
+- __eigenspace__ or __characteristic space__ of a eigenvalue of a linear transformation ::@:: the set of all eigenvectors of the linear transformation corresponding to the same eigenvalue, together with the zero vector <!--SR:!2025-06-29,257,326!2027-06-26,823,346-->
 - __eigenbasis__ ::@::  the set of eigenvectors of a linear transformation that also forms a [basis](basis%20(linear%20algebra.md)) of the domain of the same linear transformation <!--SR:!2025-07-27,280,306!2025-06-04,255,346-->
 
 ## eigenvalues and eigenvectors of matrices

@@ -44,9 +44,9 @@ In the United States, {@{the [Financial Accounting Standards Board](Financial%20
 
 __Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-07-07,123,290!2025-11-11,238,330-->
 
-__Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-08-28,165,310!2025-03-25,62,310-->
+__Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-08-28,165,310!2025-10-02,191,310-->
 
-__Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠income from continuing operations} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-06-27,126,290!2025-03-25,62,310-->
+__Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠income from continuing operations} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-06-27,126,290!2025-12-21,271,330-->
 
 ## diluted earnings per share
 

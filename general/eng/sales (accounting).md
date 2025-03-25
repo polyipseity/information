@@ -21,7 +21,7 @@ In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial
 
 In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2025-04-04,63,310!2025-03-27,56,310!2025-07-27,133,290-->
 
-Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2025-03-29,58,310!2025-04-05,63,310!2025-04-08,66,310!2025-03-25,54,310!2025-04-05,63,310!2025-04-04,63,310!2025-04-05,63,310-->
+Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2025-03-29,58,310!2025-04-05,63,310!2025-04-08,66,310!2025-11-13,233,330!2025-04-05,63,310!2025-04-04,63,310!2025-04-05,63,310-->
 
 |   |                 |   |       |
 | - | --------------- | - | ----- |
@@ -44,7 +44,7 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 > |            | Full credit for {@{customer return of merchandise purchased on account}@}. |             |              |
 > | 8-7        | {@{Inventory}@}                                                            | {@{15.00}@} |              |
 > |            | &ensp;{@{Cost of goods sold}@}                                             |             | {@{15.00}@}  |
-> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2025-03-27,56,310!2025-04-09,67,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-07,65,310!2025-04-09,67,310!2025-04-06,64,310!2025-03-25,54,310!2025-04-04,63,310!2025-04-04,63,310-->
+> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2025-03-27,56,310!2025-04-09,67,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-04,63,310!2025-04-07,65,310!2025-04-09,67,310!2025-04-06,64,310!2025-09-09,168,310!2025-04-04,63,310!2025-04-04,63,310-->
 
 {@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-04-04,63,310!2025-04-09,67,310!2025-04-04,63,310!2025-09-22,190,310!2025-04-07,65,310!2025-09-23,191,310-->
 

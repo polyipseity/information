@@ -17,7 +17,7 @@ A roller support prevents {@{vertical (relative to a support on the ground) tran
 
 A roller support is drawn as {@{a circle or a triangle with two or more circles underneath}@}. <!--SR:!2025-08-01,287,290-->
 
-Examples include {@{roller supports under an overhanging highway, wheels of a table with wheels}@}. <!--SR:!2025-03-25,239,330-->
+Examples include {@{roller supports under an overhanging highway, wheels of a table with wheels}@}. <!--SR:!2028-03-15,1086,350-->
 
 ### pinned support
 

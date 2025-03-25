@@ -10,7 +10,7 @@ tags:
 
 # FP-growth algorithm
 
-FP stands for {@{frequent pattern}@}. <!--SR:!2025-03-25,265,330-->
+FP stands for {@{frequent pattern}@}. <!--SR:!2028-07-13,1206,350-->
 
 ## overview
 

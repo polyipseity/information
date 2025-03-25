@@ -101,7 +101,7 @@ Another explicit formula given in {@{the _NIST Handbook of Mathematical Function
 
 {@{The [parity](parity%20(mathematics).md) of a Stirling number of the second kind}@} is {@{same as the parity of a related [binomial coefficient](binomial%20coefficient.md)}@}: <p> {@{$\left\{ {n \atop k}\right\}\equiv {\binom {z}{w} }\ {\pmod {2} },$ where $z=n-\left\lceil \displaystyle {\frac {k+1}{2} }\right\rceil ,\ w=\left\lfloor \displaystyle {\frac {k-1}{2} }\right\rfloor .$}@} This relation is specified by {@{mapping _n_ and _k_ coordinates onto the [Sierpiński triangle](Sierpiński%20triangle.md)}@}. <!--SR:!2025-07-15,191,310!2025-04-24,89,290!2025-06-01,130,250!2025-07-14,190,310-->
 
-More directly, let {@{two sets contain positions of 1's in binary representations of results of respective expressions}@}: {@{$${\begin{aligned}\mathbb {A} :\ \sum _{i\in \mathbb {A} }2^{i}&=n-k,\\\mathbb {B} :\ \sum _{j\in \mathbb {B} }2^{j}&=\left\lfloor {\dfrac {k-1}{2} }\right\rfloor .\\\end{aligned} }$$}@} One can {@{mimic a [bitwise AND](bitwise%20operation.md#AND) operation by intersecting these two sets: $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2={\begin{cases}0,&\mathbb {A} \cap \mathbb {B} \neq \emptyset ;\\1,&\mathbb {A} \cap \mathbb {B} =\emptyset ;\end{cases} }$$}@} to {@{obtain the parity of a Stirling number of the second kind in [_O_(1)](Big%20O%20notation.md) time}@}. In {@{[pseudocode](pseudocode.md): $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2:=\left[\left(\left(n-k\right)\ \And \ \left(\left(k-1\right)\,\mathrm {div} \,2\right)\right)=0\right];$$}@} where {@{$\left[b\right]$ is the [Iverson bracket](Iverson%20bracket.md)}@}. <!--SR:!2025-03-25,107,290!2025-03-30,99,270!2025-09-13,226,310!2025-08-21,208,310!2025-05-23,124,250!2025-07-13,189,310-->
+More directly, let {@{two sets contain positions of 1's in binary representations of results of respective expressions}@}: {@{$${\begin{aligned}\mathbb {A} :\ \sum _{i\in \mathbb {A} }2^{i}&=n-k,\\\mathbb {B} :\ \sum _{j\in \mathbb {B} }2^{j}&=\left\lfloor {\dfrac {k-1}{2} }\right\rfloor .\\\end{aligned} }$$}@} One can {@{mimic a [bitwise AND](bitwise%20operation.md#AND) operation by intersecting these two sets: $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2={\begin{cases}0,&\mathbb {A} \cap \mathbb {B} \neq \emptyset ;\\1,&\mathbb {A} \cap \mathbb {B} =\emptyset ;\end{cases} }$$}@} to {@{obtain the parity of a Stirling number of the second kind in [_O_(1)](Big%20O%20notation.md) time}@}. In {@{[pseudocode](pseudocode.md): $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2:=\left[\left(\left(n-k\right)\ \And \ \left(\left(k-1\right)\,\mathrm {div} \,2\right)\right)=0\right];$$}@} where {@{$\left[b\right]$ is the [Iverson bracket](Iverson%20bracket.md)}@}. <!--SR:!2026-02-04,316,290!2025-03-30,99,270!2025-09-13,226,310!2025-08-21,208,310!2025-05-23,124,250!2025-07-13,189,310-->
 
 {@{The parity of a central Stirling number of the second kind $\textstyle \left\{ {2n \atop n}\right\}$ is odd}@} if and only if {@{$n$ is a [fibbinary number](fibbinary%20number.md), a number whose [binary representation](binary%20number.md) has no two consecutive 1s}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-03-26,95,270!2025-06-18,104,290-->
 
@@ -115,7 +115,7 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-25,94,270!2025-04-08,20,150-->
+If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-04-08,20,150-->
 
 ### asymptotic approximation
 
@@ -139,7 +139,7 @@ If {@{_X_ is a [random variable](random%20variable.md) with a [Poisson distribut
 
 ### moments of fixed points of random permutations
 
-Let {@{the random variable _X_ be the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}@}. Then the _n_-th moment of _X_ is {@{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$ <p> __Note:__ The upper bound of summation is _m_, not _n_}@}. <!--SR:!2025-03-27,96,270!2025-03-25,94,270-->
+Let {@{the random variable _X_ be the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}@}. Then the _n_-th moment of _X_ is {@{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$ <p> __Note:__ The upper bound of summation is _m_, not _n_}@}. <!--SR:!2025-03-27,96,270!2025-05-11,47,250-->
 
 In other words, {@{the _n_-th moment of this [probability distribution](probability%20distribution.md)}@} is {@{the number of partitions of a set of size _n_ into no more than _m_ parts}@}. This is proved in the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points), although the notation is a bit different. <!--SR:!2025-08-25,211,310!2025-06-24,145,250-->
 

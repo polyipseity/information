@@ -69,7 +69,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 {@{Initial and terminal objects}@} are {@{not required to exist in a given category}@}. However, {@{if they do exist, they are essentially unique}@}. Specifically, if {@{_I_<sub>1</sub> and _I_<sub>2</sub> are two different initial objects}@}, then {@{there is a unique [isomorphism](isomorphism.md) between them}@}. Moreover, {@{if _I_ is an initial object then any object isomorphic to _I_ is also an initial object}@}. The same is {@{true for terminal objects}@}. <!--SR:!2025-04-19,76,332!2025-04-11,69,317!2025-04-19,76,332!2025-04-11,69,317!2025-03-31,60,317!2025-04-10,68,317!2025-04-18,75,332-->
 
-For {@{[complete categories](complete%20category.md)}@} there is {@{an existence theorem for initial objects}@}. Specifically, {@{a \([locally small](locally%20small%20category.md#small%20and%20large%20categories)\) complete category _C_ has an initial object}@} {@{if and only if there exist a set _I_ \(not a [proper class](proper%20class.md)\) and an _I_-[indexed family](indexed%20family.md) \(_K_<sub>_i_</sub>\) of objects of _C_}@} such that {@{for any object _X_ of _C_, there is at least one morphism _K_<sub>_i_</sub> → _X_ for some _i_ ∈ _I_}@}. <!--SR:!2025-03-31,60,317!2025-04-20,77,337!2025-07-13,125,317!2025-04-06,65,317!2025-03-25,44,257-->
+For {@{[complete categories](complete%20category.md)}@} there is {@{an existence theorem for initial objects}@}. Specifically, {@{a \([locally small](locally%20small%20category.md#small%20and%20large%20categories)\) complete category _C_ has an initial object}@} {@{if and only if there exist a set _I_ \(not a [proper class](proper%20class.md)\) and an _I_-[indexed family](indexed%20family.md) \(_K_<sub>_i_</sub>\) of objects of _C_}@} such that {@{for any object _X_ of _C_, there is at least one morphism _K_<sub>_i_</sub> → _X_ for some _i_ ∈ _I_}@}. <!--SR:!2025-03-31,60,317!2025-04-20,77,337!2025-07-13,125,317!2025-04-06,65,317!2025-07-14,111,257-->
 
 ### equivalent formulations
 
@@ -84,7 +84,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 
 ### relation to other categorical constructions
 
-{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object in a suitable category}@}. <!--SR:!2025-04-10,68,317!2025-03-25,51,312-->
+{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object in a suitable category}@}. <!--SR:!2025-04-10,68,317!2025-10-30,219,332-->
 
 - {@{A [universal morphism](universal%20morphism.md) from an object _X_ to a functor _U_}@} can be defined as {@{an initial object in the [comma category](comma%20category.md) \(_X_ ↓ _U_\)}@}. Dually, {@{a universal morphism from _U_ to _X_}@} is {@{a terminal object in \(_U_ ↓ _X_\)}@}.
 - {@{The limit of a diagram _F_}@} is {@{a terminal object in Cone\(_F_\), the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Dually, {@{a colimit of _F_}@} is {@{an initial object in the category of cones from _F_}@}.

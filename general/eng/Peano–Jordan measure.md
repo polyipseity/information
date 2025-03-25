@@ -51,7 +51,7 @@ Using the above definition with half-open rectangles, {@{notice that a closed re
 
 We can extend the above restricted definition by defining {@{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}@}. <!--SR:!2026-04-10,557,310-->
 
-Formally, {@{for a bounded set $B$, define its _inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$ and _outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}@}: <!--SR:!2025-03-25,280,290-->
+Formally, {@{for a bounded set $B$, define its _inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$ and _outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}@}: <!--SR:!2028-04-26,1128,310-->
 
 $$\begin{aligned}
 m_*(B) := \sup_{S \subseteq B} m(S) \\

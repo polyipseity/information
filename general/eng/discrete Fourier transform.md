@@ -87,7 +87,7 @@ The vectors {@{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\l
 
 If {@{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}@} then {@{[Parseval's theorem](parseval's%20theorem.md)}@} states: {@{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}@} where the star denotes [complex conjugation](complex%20conjugate.md). {@{The [Plancherel theorem](plancherel%20theorem.md)}@} is {@{a special case of Parseval's theorem}@} and states: {@{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}@}. <!--SR:!2025-06-18,239,336!2026-11-27,629,336!2026-06-29,486,336!2025-09-30,296,296!2025-04-10,182,336!2025-09-08,310,356-->
 
-These theorems are {@{also equivalent to the unitary condition below}@}. <!--SR:!2025-03-25,157,316-->
+These theorems are {@{also equivalent to the unitary condition below}@}. <!--SR:!2027-02-09,686,336-->
 
 ### periodicity
 

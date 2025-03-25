@@ -213,7 +213,7 @@ The content is in teaching order.
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2025-04-15,59,335!2025-04-14,59,335-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2025-04-15,59,335!2025-05-16,85,355-->
   - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2025-04-16,56,335!2025-04-15,59,335-->
-  - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2025-03-25,39,315!2025-05-11,80,355-->
+  - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2025-09-10,169,335!2025-05-11,80,355-->
 - assignment: (none)
 
 ## week 3 lecture 2
@@ -314,10 +314,10 @@ The content is in teaching order.
   - popular music / in older times
 - jazz standard
 - thirty-two-bar form
-- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries. <!--SR:!2025-03-25,25,376!2025-07-26,124,396-->
+- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries. <!--SR:!2025-08-02,130,396!2025-07-26,124,396-->
   - Tin Pan Alley / composers: Cole Porter, George & Ira Gershwin, Harold Arlen, Rodgers & Hart, Sammy Kahn
-- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2025-07-25,123,396!2025-03-25,25,376-->
-  - contrafact / example ::@:: "Cottontail" – Duke Ellington <!--SR:!2025-03-25,25,376!2025-07-26,124,396-->
+- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2025-07-25,123,396!2025-07-30,127,396-->
+  - contrafact / example ::@:: "Cottontail" – Duke Ellington <!--SR:!2025-07-31,128,396!2025-07-26,124,396-->
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2025-06-21,89,376!2025-05-29,71,356-->
   - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-07-29,127,396!2025-07-24,122,396-->
   - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller <!--SR:!2025-06-21,89,376!2025-07-27,125,396-->
@@ -327,7 +327,7 @@ The content is in teaching order.
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-07-20,118,396!2025-07-20,118,396-->
   - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2025-04-07,31,336-->
 - Benny Goodman
-  - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman <!--SR:!2025-07-19,117,396!2025-03-25,25,376-->
+  - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman <!--SR:!2025-07-19,117,396!2025-07-30,127,396-->
 - swing era
   - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
@@ -338,9 +338,9 @@ The content is in teaching order.
   - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00
 - quiz: [quiz 2](questions/quiz%202.md)
 - [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2025-07-17,115,396!2025-07-21,119,396-->
-  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-07-19,117,396!2025-03-25,25,376-->
-  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-03-25,25,376-->
-  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-03-25,25,376!2025-06-21,89,376-->
+  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-07-19,117,396!2025-08-01,129,396-->
+  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-08-01,129,396-->
+  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-07-31,128,396!2025-06-21,89,376-->
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2025-04-07,31,336!2025-05-29,71,356-->
   - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli <!--SR:!2025-04-16,40,356!2025-07-29,127,396-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2025-05-29,71,356!2025-04-07,31,336-->

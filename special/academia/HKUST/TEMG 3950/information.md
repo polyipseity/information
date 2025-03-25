@@ -143,6 +143,6 @@ root cause analysis, 5 whys
 - blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-06-09,86,221-->
 - interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2026-04-23,426,261!2025-09-01,283,241-->
 - profitability framework→::@::←root cause analysis, 5 whys <!--SR:!2025-10-30,331,281!2026-02-23,363,241-->
-- root cause analysis, 5 whys→::@::←_(end)_ <!--SR:!2025-03-25,220,321!2026-04-08,452,301-->
+- root cause analysis, 5 whys→::@::←_(end)_ <!--SR:!2027-11-28,978,341!2026-04-08,452,301-->
 
 <!--/pytextgen-->
