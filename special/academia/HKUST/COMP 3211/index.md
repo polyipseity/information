@@ -391,7 +391,7 @@ The content is in teaching order.
 - [unsupervised learning](../../../../general/unsupervised%20learning.md) ::@:: It is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data.
   - unsupervised learning / contrast ::@:: reinforcement learning \(even though it also does not require labeled data\), supervised learning
   - unsupervised learning / examples ::@:: Brown/IBM clustering, image clustering
-- [reinforcement learning](../../../../general/reinforcement%20learning.md) ::@:: It is an interdisciplinary area of machine learning and optimal control concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal.
+- [reinforcement learning](../../../../general/reinforcement%20learning.md) \(RL\) ::@:: It is an interdisciplinary area of machine learning and optimal control concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. It is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
 - [Brown clustering](../../../../general/Brown%20clustering.md)
   - Brown clustering / natural language processing ::@:: In natural language processing \(NLP\), it is a form of hierarchical clustering of words based on the contexts in which they occur, proposed in 1992.
 
@@ -508,6 +508,60 @@ The content is in teaching order.
   - Markov decision process / run ::@:: A way to express a run of a MDP is: $$\text{state, action, reward, state, action, reward, state, ..., state} \,.$$ <p> For a typical MDP, there are many possible runs, usually infinite.
   - Markov decision process / optimization objective ::@:: The reward of a run is easily calculated. The formula is simply the expression in the expected value operator below. Note that the first reward obtained is not discounted, i.e. multiplied by $\gamma^0 = 1$. <p> But there are many possible runs for a typical MDP. The objective is to choose a policy $\pi$ that will maximize some cumulative function of the random rewards, typically the expected discounted sum over a potentially infinite horizon <p> &emsp; $E\left[\sum _{t=0}^{\infty }{\gamma ^{t}R_{a_{t} }(s_{t},s_{t+1})}\right]$ \(where we choose $a_{t}=\pi (s_{t})$, i.e. actions given by the policy\). And the expectation is taken over $s_{t+1}\sim P_{a_{t} }(s_{t},s_{t+1})$ <p> where $\ \gamma \ {}$ is the discount factor satisfying $0\leq \ \gamma \ \leq \ 1$.
   - Markov decision process / discount factor ::@:: $\ \gamma \ {}$ a discount factor satisfying $0\leq \ \gamma \ \leq \ 1$, which is usually close to $1$ \(for example, $\gamma =1/(1+r)$ for some discount rate $r$\). A lower discount factor motivates the decision maker to favor taking actions early, rather than postpone them indefinitely.
+
+## week 7 tutorial
+
+- datetime: 2025-03-18T12:30:00+08:00/2025-03-18T13:20:00+08:00
+- topic: minimax, alpha–beta pruning
+- minimax
+- game
+  - game / uncertainty
+  - game / characteristics
+    - perfect information
+    - zero-sum game
+    - deterministic game
+- minimax
+  - minimax / visual execution
+  - minimax / recursive execution
+- alpha–beta pruning
+  - alpha–beta pruning / idea
+  - alpha–beta pruning / alpha
+  - alpha–beta pruning / beta
+  - alpha–beta pruning / visual execution
+  - alpha–beta pruning / recursive execution
+  - alpha–beta pruning / search order
+
+## week 7 lecture
+
+- datetime: 2025-03-19T13:30:00+08:00/2025-03-19T14:50:00+08:00
+- topic: Markov decision process \(MDP\)
+- Markov decision process
+  - Markov decision process / value function ::@:: Given a policy, the value function gives the expected utility starting from a certain state. It can be defined using recursion \(notice $V_\pi$ appears in its own definition\): $$V_\pi(s) = \begin{cases} 0 & \text{if }s\text{ is an ending state} \\ \sum_{s'} T(s, \pi(s), s') (R(s, \pi(s), s') + \gamma V_\pi(s') ) & \text{otherwise} \end{cases} \,,$$ where $\sum_{s'}$ sums over all states. <p> Intuitively, after a state transition due to an action, the future expected utility only depends on the current state, but not past state. So recursion can be used.
+    - Markov decision process / value function / Q-value ::@:: \(this course: For some reason, it mentions Q-value not in the context of Q-learning, but in the context of evaluating the value function...\) <p> Q-value is the expected utility of doing $a$ in $s$, and then following the policy $\pi$: $$Q_\pi(s, a) = \sum_{s'} T(s, a, s') (R(s, a, s') + \gamma V_\pi(s') ) \,.$$ So the value function can be rewritten as: $$V_\pi(s) = \begin{cases} 0 & \text{if }s\text{ is an ending state} \\ Q_\pi(s, \pi(a)) & \text{otherwise} \,. \end{cases}$$ <p> Using this, for very simple MDP, we can get a closed solution for the value function.
+    - Markov decision process / value function / iteration ::@:: What if a closed solution for the value function does not exist or is difficult to find? <p> The idea is we initialize the value function to all 0s. Then we use the recursive definition to get a new value function in terms of the old value function. Repeat this until max iteration or some termination condition, e.g. the new value function does not differ too much from the old value function. <p> Formally, each iteration involves: $$V_\pi^{t + 1}(s) = \sum_{s'} T(s, \pi(s), s') (R(s, \pi(s), s') + \gamma V_\pi^t(s')) \,,$$ where the superscript denote the value function at iteration $t$. The starting values are $$V_\pi^0(s) = 0 \,.$$
+    - Markov decision process / value function / optimal ::@:: Given a starting state, an _optimal_ policy is one that _maximizes_ the value function evaluated at the starting state. The value function is said to be an _optimal_ value function. <p> Two popular methods to find the optimal value function are policy iteration and value iteration.
+      - Markov decision process / value function / optimal / note ::@:: \(this course: __Important__. The lecture slides uses that an optimal policy is one that maximizes the value function _for all_ starting states. But this is not exactly correct: A MDP can have multiple distinct optimal policies, and is a function of the starting state. Indeed, an optimal policy as defined in the lecture slides may not even exist. <p> For optimal value function, the definition is the same: Given a starting state, an optimal value function is one has the maximum value evaluated at the starting state.\)
+  - Markov decision process / policy iteration ::@:: The idea is we start with a random policy. Then we improve the policy \(_policy improvement_\) until max iteration or some termination condition, e.g. the policy stops changing. <p> We initialize the policy function randomly. We initialize the value function to all 0s. Then while the policy function has changed in the last iteration \(for the first iteration, this is true\), iterate: update the value function \(this will be used as the Q-values for updating the policy function\), then update the policy function.
+    - Markov decision process / policy iteration / policy improvement ::@:: Given we have a \(not necessarily optimal\) policy $\pi$ and a \(not necessarily optimal\) value function $V_\pi(s)$, we can improve the policy. <p> Calculate the Q-value for each combination of state and action. Then for each state, choose the action that has the highest Q-value. This is the new policy function. Mathematically, this is $$\pi_{\text{new} }(s) = \argmax_{a \in \operatorname{actions}(s)} Q(s, a) \,.$$
+    - Markov decision process / policy iteration / monotonicity ::@:: The sequence of value functions obtained is monotonically increasing. The sequence of action functions is monotonically improving \(i.e. it cannot regress\).
+
+## week 7 lecture 2
+
+- datetime: 2025-03-21T13:30:00+08:00/2025-03-21T14:50:00+08:00
+- topic: Markov decision process \(MDP\), reinforcement learning
+- Markov decision process
+  - Markov decision process / value iteration ::@:: \(Bellman 1957\) In policy iteration, we update the value function and policy function alternatively. What if we combine these together into one step? This is value iteration. <p> We initialize the value function to all 0s. Repeat this until max iteration or some termination condition, e.g. the new value function does not differ too much from the old value function: update the value function as follows: $$V_{\text{opt} }^{t + 1}(s) = \max_{a \in \operatorname{action}(s)} \sum_{s'} T(s, a, s') (R(s, a, s') + \gamma V_{\text{opt} }^t(s') ) \,.$$ That is, it is similar to finding the value function for a fixed policy using iteration, but this time the action used is not from a fixed policy, but instead maximizes the value function.
+    - Markov decision process / value iteration / policy extraction ::@:: Finally, the policy function can be extracted \(_policy extraction_) from the almost optimal value function, which is simply finding the action that maximizes the expected utility for each state. <p> Note that an almost optimal value function can yield the same policy function as an optimal value function \(given the actions are discrete\).
+  - Markov decision process / convergence ::@:: If either the MDP is acyclic \(directed acyclic graph\) or the discount factor is less than 1, then both policy iteration and value iteration converges to an optimal solution. <p> The intuition is that if the MDP is acyclic, each run is finite. For if the discount factor is less than 1, it is harder to explain, but consider that a geometric sum converges if the factor is less than 1. <p> \(this course: Proof is not required here.\)
+  - Markov decision process / policy iteration
+    - Markov decision process / policy iteration / vs. value iteration ::@:: Policy iteration has the advantage that there is a definite stopping condition: when the array $\pi$ does not change in the course of applying step 1 to all states, the algorithm is completed. <p> Policy iteration is usually slower than value iteration for a large number of possible states.
+- reinforcement learning
+  - reinforcement learning / motivation ::@:: In MDPs, the environment or the model is fully specified, only that action outcomes are random. That is, we know the actions, reward functions, states, and transition probabilities. <p> But it is possible that not all of the above information is available, or too difficult to represent. <p> Reinforcement learning is about learning using reward signals.
+  - reinforcement learning / considerations ::@:: Assume we know the states and actions available in a state. We want to learn a policy that maximizes the rewards.
+  - reinforcement learning / framework ::@:: The agent is in a state. The agent acts. The agent observes the updated state and the rewards. The agent updates itself \(its parameters\) to better maximize the rewards.
+  - reinforcement learning / tradeoff ::@:: Reinforcement learning is about balancing _exploration_ and _exploitation_. Unless we have a perfect model of the world, both needs to be done. <p> Exploration tries to improve the agent itself to get better long-term benefits, at the cost of getting less rewards in the near future. Exploitation tries to get the most rewards, preferably in the near future, but this may lead to the agent missing out on actions that gives more rewards in the long-term.
+  - reinforcement learning / ε-greedy ::@:: $0<\varepsilon <1$ is a parameter controlling the amount of exploration vs. exploitation. With probability $1-\varepsilon$, exploitation is chosen, and the agent chooses the action that it believes has the best long-term effect \(ties between actions are broken uniformly at random\). Alternatively, with probability $\varepsilon$, exploration is chosen, and the action is chosen uniformly at random. $\varepsilon$ is usually a fixed parameter but can be adjusted either according to a schedule \(making the agent explore progressively less\), or adaptively based on heuristics. <p> mnemonics: $\varepsilon$ is the probability of exploration because $\varepsilon$ usually stands for a small number and the probability of exploration should be small.
+    - reinforcement learning / ε-greedy / Q-value ::@:: In terms of Q-value, this can be expressed as: $$\pi(s) = \begin{cases} \argmax_{a \in \operatorname{action}(s)} \hat Q(s, a) & \text{with probability }1 - \varepsilon \\ \text{random }a \in \operatorname{action}(s) & \text{with probability }\varepsilon \,, \end{cases}$$ where $\hat Q(s, a)$ is the current _estimated_ Q-value.
 
 ## midterm examination
 
