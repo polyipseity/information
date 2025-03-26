@@ -136,7 +136,7 @@ Apart from the above, below are some tools useful in general:
 
 ### tools for static analysis
 
-Static analysis is {@{analyzing the program without actually executing it}@}. Of course, {@{simulating its execution or constucting its control flow graph}@} is also static analysis as long as {@{the program is not actually executed by an actual runtime}@}. An analog is {@{staring at the program until it makes sense}@}. <!--SR:!2025-09-01,280,345!2025-11-24,352,365!2025-03-26,154,325!2025-11-05,335,357-->
+Static analysis is {@{analyzing the program without actually executing it}@}. Of course, {@{simulating its execution or constucting its control flow graph}@} is also static analysis as long as {@{the program is not actually executed by an actual runtime}@}. An analog is {@{staring at the program until it makes sense}@}. <!--SR:!2025-09-01,280,345!2025-11-24,352,365!2027-02-15,691,345!2025-11-05,335,357-->
 
 Some common tools are:
 

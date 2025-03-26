@@ -87,7 +87,7 @@ The content is in teaching order.
   - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2025-08-25,272,330!2025-11-26,309,290-->
     - statistics / definition (data) / examples ::@:: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2025-12-21,353,310!2025-06-24,228,330-->
   - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2025-07-16,246,330!2025-06-22,218,310-->
-    - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2025-03-26,136,290-->
+    - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2026-10-01,554,310-->
   - statistics / definition (inference) ::@:: the art and science of answering questions and exploring ideas through the processes of gathering data, describing data, and _making inferences_ about a population on the basis of a smaller sample <!--SR:!2025-11-10,293,290!2026-08-23,529,310-->
   - statistics / branches ::@:: descriptive statistics, inferential statistics <!--SR:!2025-04-18,174,310!2025-05-08,186,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2025-04-21,162,310!2025-07-08,239,330-->
@@ -99,7 +99,7 @@ The content is in teaching order.
   - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2026-02-12,361,290!2026-02-11,350,290-->
     - inferential statistics / procedures / analysis of variance ::@:: used to test the difference between two or more means <!--SR:!2025-09-20,294,330!2026-03-23,415,310-->
     - inferential statistics / procedures / estimation of parameters ::@:: estimate unknown parameters of a population based on a sample of the population <!--SR:!2025-10-17,316,330!2025-04-22,168,310-->
-    - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-10-29,273,270!2025-03-26,152,290-->
+    - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-10-29,273,270!2026-11-29,613,310-->
     - inferential statistics / procedures / hypothesis testing ::@:: test a statement about the unknown parameters <!--SR:!2025-06-19,224,330!2026-02-04,387,310-->
     - inferential statistics / procedures / probability distribution ::@:: mathematical function that gives the probabilities of occurrence of possible outcomes for an experiment <!--SR:!2025-09-15,289,330!2025-10-26,297,290-->
     - inferential statistics / procedures / regression ::@:: estimate the relationships between a dependent variable (output) and one or more independent variables (inputs) <!--SR:!2025-06-24,227,330!2025-08-01,258,330-->
@@ -211,7 +211,7 @@ The content is in teaching order.
   - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::@:: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2025-06-14,211,310!2025-05-30,205,310-->
     - non-probability sampling / examples ::@:: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2026-03-18,369,290!2025-08-14,220,270-->
     - non-probability sampling / convenience sampling ::@:: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2025-06-01,201,310!2025-06-04,209,310-->
-    - non-probability sampling / voluntary response sampling ::@:: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2026-02-14,395,310!2025-03-26,152,310-->
+    - non-probability sampling / voluntary response sampling ::@:: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2026-02-14,395,310!2027-01-06,651,330-->
     - non-probability sampling / purposive sampling ::@:: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2025-05-25,202,330!2025-07-09,240,330-->
     - non-probability sampling / snowball sampling ::@:: Some individuals of a population are sampled initially. Individuals sampled recruit other individuals for sampling. This recruitment chain continues indefinitely, hence snowballing. <!--SR:!2025-07-28,253,330!2025-06-08,215,330-->
 

@@ -201,7 +201,7 @@ Sustainable Waste Management
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2025-04-21,258,330-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2025-04-17,252,330-->
-    - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2025-03-26,235,330-->
+    - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2027-05-11,776,330-->
 
 ## page 13
 
@@ -241,7 +241,7 @@ Water Pollution: A serious problem in Hong Kong?
 
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
-- Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
+- Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2028-03-09,1079,350!2025-04-16,251,330-->
   - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
   - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2025-05-15,152,270!2025-05-18,229,270-->
   - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2026-08-17,562,310-->
@@ -295,7 +295,7 @@ Noise Levels and Causes
 
 - noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2025-04-01,243,330-->
   - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
-  - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
+  - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2027-02-10,686,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2027-09-22,918,330!2027-10-13,935,330-->
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2025-04-23,237,290-->
   - train passing ::@:: 80 dB(A) <!--SR:!2026-11-09,619,310!2026-08-28,569,310-->
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-04-07,18,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-07,18,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2025-03-30,222,310-->
 

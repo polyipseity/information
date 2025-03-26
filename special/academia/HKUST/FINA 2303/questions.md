@@ -83,7 +83,7 @@ tags:
 > 3. 1.0868
 > 4. 1.1026
 >
-> - solution: {@{3}@} <!--SR:!2025-03-26,27,270-->
+> - solution: {@{3}@} <!--SR:!2025-06-10,76,270-->
 
 ## week 1 lecture 2
 
@@ -218,7 +218,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2025-05-27,73,342!2025-03-26,21,282-->
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2025-05-27,73,342!2025-06-19,85,302-->
 
 ## week 3 lecture
 

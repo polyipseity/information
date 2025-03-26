@@ -61,7 +61,7 @@ C$: [cost structure](#cost%20structure)
 
 - _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2028-05-07,1159,357-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2025-08-31,261,277-->
-- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-03-26,19,234!2025-05-23,274,297-->
+- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-05-29,64,254!2025-05-23,274,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-04-29,65,194!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2025-08-20,304,257!2025-06-12,259,257-->
@@ -170,7 +170,7 @@ risk reduction
 - cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-07-31,183,177-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2025-04-26,228,257!2025-04-08,74,214-->
-- newness→::@::←performance <!--SR:!2025-03-26,85,257!2025-06-06,253,257-->
+- newness→::@::←performance <!--SR:!2026-02-01,312,277!2025-06-06,253,257-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2025-03-28,228,274-->
@@ -219,7 +219,7 @@ personal assistance
 - _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2027-01-11,764,330-->
 - automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2026-10-08,642,294-->
 - co-creation→::@::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
-- communities→::@::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2025-06-04,268,274-->
+- communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2025-06-04,268,274-->
 - dedicated personal assistance→::@::←personal assistance <!--SR:!2026-11-24,658,317!2026-09-07,605,317-->
 - personal assistance→::@::←_(end)_ <!--SR:!2027-06-14,872,337!2027-01-23,701,317-->
 

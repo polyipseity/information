@@ -217,7 +217,7 @@ Some authors call {@{a matrix _primitive_}@} iff {@{there exists some integer $k
 There are {@{several combinatorial results about the exponent}@} when {@{there are finitely many states}@}. Let {@{$n$ be the number of states}@}, then<sup>[\[55\]](#^ref-55)</sup> <!--SR:!2025-12-21,292,330!2026-01-09,308,341!2026-01-01,303,341-->
 
 - The exponent is {@{$\leq (n-1)^{2}+1$}@}. {@{The only case where it is an equality}@} is {@{when the graph of $M$ goes like $1\to 2\to \dots \to n\to 1{\text{ and } }2$}@}.
-- If $M$ has $k\geq 1$ diagonal entries, ::@:: then its exponent is $\leq 2n-k-1$. <!--SR:!2025-05-21,113,299!2025-03-26,70,267-->
+- If $M$ has $k\geq 1$ diagonal entries, ::@:: then its exponent is $\leq 2n-k-1$. <!--SR:!2025-05-21,113,299!2025-09-26,184,267-->
 - If $\mathrm {sign} (M)$ is symmetric, ::@:: then $M^{2}$ has positive diagonal entries, which by previous proposition means its exponent is $\leq 2n-2$. <!--SR:!2025-03-31,76,279!2025-07-02,154,327-->
 - \(Dulmage-Mendelsohn theorem\) ::@:: The exponent is $\leq n+s(n-2)$ where $s$ is the [girth of the graph](girth%20(graph%20theory).md). It can be improved to $\leq (d+1)+s(d+1-2)$ (annotation: Replace with $n$ with $d + 1$.), where $d$ is the [diameter of the graph](distance%20(graph%20theory).md).<sup>[\[56\]](#^ref-56)</sup> <!--SR:!2025-04-13,74,241!2025-04-10,81,287-->
 

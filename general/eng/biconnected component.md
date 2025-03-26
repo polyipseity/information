@@ -21,7 +21,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected component__ or __
 
 ### linear time depth-first search
 
-{@{The classic [sequential algorithm](sequential%20algorithm.md) for computing biconnected components in a connected [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is due to {@{[John Hopcroft](John%20Hopcroft.md) and [Robert Tarjan](Robert%20Tarjan.md) \(1973\)}@}.<sup>[\[2\]](#^ref-2)</sup> It runs in {@{[linear time](time%20complexity.md#linear%20time)}@}, and is {@{based on [depth-first search](depth-first%20search.md)}@}. This algorithm is also outlined as {@{Problem 22-2 of [Introduction to Algorithms](Introduction%20to%20Algorithms.md) \(both 2nd and 3rd editions\)}@}. <!--SR:!2025-04-24,87,270!2025-08-05,137,250!2025-11-04,242,330!2025-08-15,178,315!2025-03-26,58,250-->
+{@{The classic [sequential algorithm](sequential%20algorithm.md) for computing biconnected components in a connected [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is due to {@{[John Hopcroft](John%20Hopcroft.md) and [Robert Tarjan](Robert%20Tarjan.md) \(1973\)}@}.<sup>[\[2\]](#^ref-2)</sup> It runs in {@{[linear time](time%20complexity.md#linear%20time)}@}, and is {@{based on [depth-first search](depth-first%20search.md)}@}. This algorithm is also outlined as {@{Problem 22-2 of [Introduction to Algorithms](Introduction%20to%20Algorithms.md) \(both 2nd and 3rd editions\)}@}. <!--SR:!2025-04-24,87,270!2025-08-05,137,250!2025-11-04,242,330!2025-08-15,178,315!2025-10-11,199,270-->
 
 The idea is to {@{run a depth-first search while maintaining the following information}@}: <!--SR:!2025-11-18,255,330-->
 
@@ -30,7 +30,7 @@ The idea is to {@{run a depth-first search while maintaining the following infor
 
 The depth is {@{standard to maintain during a depth-first search}@}. The lowpoint of _v_ can be {@{computed after visiting all descendants of _v_ \(i.e., just before _v_ gets popped off the depth-first-search [stack](stack%20(abstract%20data%20type).md)\)}@} as {@{the minimum of the depth of _v_, the depth of all neighbors of _v_ \(other than the parent of _v_ in the depth-first-search tree\) and the lowpoint of all children of _v_ in the depth-first-search tree}@}. <!--SR:!2025-11-24,259,330!2025-06-05,121,290!2025-08-12,142,255-->
 
-The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation point\) separating two biconnected components}@} {@{if and only if there is a child _y_ of _v_ such that lowpoint\(_y_\) ≥ depth\(_v_\)}@}. {@{This property can be tested}@} once {@{the depth-first search returned from every child of _v_ \(i.e., just before _v_ gets popped off the depth-first-search stack\)}@}, and if {@{__true__, _v_ separates the graph into different biconnected components}@}. This can be represented by {@{computing one biconnected component out of every such _y_ \(a component which contains _y_ will contain the subtree of _y_, plus _v_\)}@}, and {@{then erasing the subtree of _y_ from the tree}@}. <!--SR:!2025-04-21,85,275!2025-07-14,153,310!2025-07-06,146,310!2025-03-26,59,255!2025-10-16,210,315!2025-05-06,87,275!2025-06-03,120,295-->
+The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation point\) separating two biconnected components}@} {@{if and only if there is a child _y_ of _v_ such that lowpoint\(_y_\) ≥ depth\(_v_\)}@}. {@{This property can be tested}@} once {@{the depth-first search returned from every child of _v_ \(i.e., just before _v_ gets popped off the depth-first-search stack\)}@}, and if {@{__true__, _v_ separates the graph into different biconnected components}@}. This can be represented by {@{computing one biconnected component out of every such _y_ \(a component which contains _y_ will contain the subtree of _y_, plus _v_\)}@}, and {@{then erasing the subtree of _y_ from the tree}@}. <!--SR:!2025-04-21,85,275!2025-07-14,153,310!2025-07-06,146,310!2025-10-18,206,275!2025-10-16,210,315!2025-05-06,87,275!2025-06-03,120,295-->
 
 {@{The root vertex must be handled separately}@}: it is {@{a cut vertex if and only if it has at least two children in the DFS tree}@}. Thus, it {@{suffices to simply build one component out of each child subtree of the root \(including the root\)}@}. <!--SR:!2025-12-23,283,335!2025-10-08,203,310!2025-06-08,124,295-->
 
@@ -112,7 +112,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 
 > {@{![A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.](../../archives/Wikimedia%20Commons/TarjanAPDemoDepth.gif)}@}
 >
-> {@{A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.}@} <!--SR:!2025-06-15,130,295!2025-03-26,59,255-->
+> {@{A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.}@} <!--SR:!2025-06-15,130,295!2025-08-20,147,255-->
 
 ### other algorithms
 

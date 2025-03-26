@@ -42,7 +42,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 - Determining the state ::@:: has a low and constant cost of accessing one [flip-flop](flip-flop%20(electronics).md) <!--SR:!2025-04-15,54,310!2025-04-21,59,310-->
 - Changing the state ::@:: has the constant cost of accessing two flip-flops <!--SR:!2025-04-24,62,310!2025-04-21,59,310-->
-- (annotation: design) Easy to ::@:: design and modify <!--SR:!2025-04-25,63,310!2025-03-26,38,290-->
+- (annotation: design) Easy to ::@:: design and modify <!--SR:!2025-04-25,63,310!2025-07-14,110,290-->
 - (annotation: states) Easy to ::@:: detect illegal states <!--SR:!2025-04-24,62,310!2025-04-15,54,310-->
 - Takes advantage of ::@:: an [FPGA](field-programmable%20gate%20array.md)'s abundant flip-flops <!--SR:!2025-04-19,58,310!2025-04-28,65,310-->
 - Using a one-hot implementation ::@:: typically allows a state machine to run at a faster clock rate than any other encoding of that state machine<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-18,57,310!2025-04-29,66,310-->

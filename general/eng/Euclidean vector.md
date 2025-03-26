@@ -251,7 +251,7 @@ All examples thus far have {@{dealt with vectors expressed in terms of the same 
 
 The properties of a direction cosine matrix, C are:<sup>[\[20\]](#^ref-20)</sup>
 
-- (annotation: direction cosine matrix) the determinant ::@:: is unity, \|C\| = 1; <!--SR:!2025-05-25,82,339!2025-03-26,22,272-->
+- (annotation: direction cosine matrix) the determinant ::@:: is unity, \|C\| = 1; <!--SR:!2025-05-25,82,339!2025-06-21,87,292-->
 - (annotation: direction cosine matrix) the inverse ::@:: is equal to the transpose; <!--SR:!2025-05-25,82,339!2025-04-27,58,312-->
 - (annotation: direction cosine matrix) the rows and columns ::@:: are orthogonal unit vectors, therefore their dot products are zero. <!--SR:!2025-05-25,82,339!2025-05-19,76,332-->
 

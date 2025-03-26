@@ -23,7 +23,7 @@ The content is in teaching order.
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2028-04-08,1138,350-->
-    - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2025-03-26,269,365-->
+    - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2026-08-28,633,330-->
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->

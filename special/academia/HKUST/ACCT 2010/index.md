@@ -70,7 +70,7 @@ The content is in teaching order.
 - [financial accounting](../../../../general/financial%20accounting.md) / theoretical reasons ::@:: communicate financial information to external entities, signaling by the quality of financial statements, market reacts to financial statements <!--SR:!2025-09-06,229,277!2025-09-14,278,337-->
 - [financial accounting](../../../../general/financial%20accounting.md) / prepared by... ::@:: theoretically/legally: the board of directors; in practice: accounting and finance people, certified public accountants (CPAs) <!--SR:!2025-11-22,327,337!2025-04-11,153,317-->
 - [financial accounting](../../../../general/financial%20accounting.md) / prepared for... ::@:: Stewardship-wise, shareholders. For decision making, all other stakeholders, such as creditors, corporate social responsibility (CSR) activists, government agencies, (environment, social, and governance (ESG)) investors, retirement funds, etc. <!--SR:!2025-10-02,247,277!2025-09-13,277,337-->
-- [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: Generally Accepted Accounting Principles (GAAP), including financial reporting standards (FRS), company laws, and listing rules <!--SR:!2025-09-14,278,337!2025-03-26,125,297-->
+- [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: Generally Accepted Accounting Principles (GAAP), including financial reporting standards (FRS), company laws, and listing rules <!--SR:!2025-09-14,278,337!2026-08-26,518,317-->
 
 ## week 2 lecture
 

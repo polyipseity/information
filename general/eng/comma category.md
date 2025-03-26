@@ -42,7 +42,7 @@ Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are 
 
 - Main article: [Overcategory](overcategory.md)
 
-{@{The [dual](dual%20(category%20theory).md) concept to a slice category}@} is {@{a coslice category}@}. Here, {@{${\mathcal {C} }={\mathcal {B} }$, $S$ has domain ${\textbf {1} }$ and $T$ is an identity functor}@}. {@{$${\textbf {1} }\xrightarrow {\;\;B_{*}\;\;} {\mathcal {B} }\xleftarrow {\;\;\mathrm {id} _{\mathcal {B} }\;\;} {\mathcal {B} }$$}@} In this case, the comma category is often written {@{$(B_{*}\downarrow {\mathcal {B} })$}@}, where {@{$B_{*}=S(*)$ is the object of ${\mathcal {B} }$ selected by $S$}@}. It is called {@{the _coslice category_ with respect to $B_{*}$, or the category of _objects under_ $B_{*}$}@}. The objects are {@{pairs $(B,\iota _{B})$ with $\iota _{B}:B_{*}\rightarrow B$}@}. Given {@{$(B,\iota _{B})$ and $(B',\iota _{B'})$}@}, {@{a morphism in the coslice category is a map $g:B\rightarrow B'$}@} making {@{the following diagram commute: <p> &emsp; ![Coslice Diagram](../../archives/Wikimedia%20Commons/Coslice%20Diagram.svg)}@} <!--SR:!2025-04-23,70,322!2025-04-16,64,322!2025-04-19,67,334!2025-04-24,71,334!2025-04-22,69,334!2025-09-13,174,310!2025-03-29,42,262!2025-06-09,95,282!2025-05-06,68,262!2025-03-26,46,302!2025-05-08,70,282-->
+{@{The [dual](dual%20(category%20theory).md) concept to a slice category}@} is {@{a coslice category}@}. Here, {@{${\mathcal {C} }={\mathcal {B} }$, $S$ has domain ${\textbf {1} }$ and $T$ is an identity functor}@}. {@{$${\textbf {1} }\xrightarrow {\;\;B_{*}\;\;} {\mathcal {B} }\xleftarrow {\;\;\mathrm {id} _{\mathcal {B} }\;\;} {\mathcal {B} }$$}@} In this case, the comma category is often written {@{$(B_{*}\downarrow {\mathcal {B} })$}@}, where {@{$B_{*}=S(*)$ is the object of ${\mathcal {B} }$ selected by $S$}@}. It is called {@{the _coslice category_ with respect to $B_{*}$, or the category of _objects under_ $B_{*}$}@}. The objects are {@{pairs $(B,\iota _{B})$ with $\iota _{B}:B_{*}\rightarrow B$}@}. Given {@{$(B,\iota _{B})$ and $(B',\iota _{B'})$}@}, {@{a morphism in the coslice category is a map $g:B\rightarrow B'$}@} making {@{the following diagram commute: <p> &emsp; ![Coslice Diagram](../../archives/Wikimedia%20Commons/Coslice%20Diagram.svg)}@} <!--SR:!2025-04-23,70,322!2025-04-16,64,322!2025-04-19,67,334!2025-04-24,71,334!2025-04-22,69,334!2025-09-13,174,310!2025-03-29,42,262!2025-06-09,95,282!2025-05-06,68,262!2025-08-09,136,302!2025-05-08,70,282-->
 
 ### arrow category
 
@@ -60,7 +60,7 @@ Another special case occurs when {@{both $S$ and $T$ are functors with domain ${
 
 ## properties
 
-For {@{each comma category}@} there are {@{forgetful functors from it (annotation: they are the domain, codomain, and arrow functor)}@}. <!--SR:!2025-03-26,46,302!2025-04-20,68,334-->
+For {@{each comma category}@} there are {@{forgetful functors from it (annotation: they are the domain, codomain, and arrow functor)}@}. <!--SR:!2025-10-05,193,322!2025-04-20,68,334-->
 
 - Domain functor, ::@:: $S\downarrow T\to {\mathcal {A} }$, which maps: <!--SR:!2025-05-01,77,334!2025-05-01,77,334-->
   - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$; <!--SR:!2025-04-25,72,334!2025-04-25,72,334-->

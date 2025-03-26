@@ -63,7 +63,7 @@ Mathematically: {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F}
 
 ### real and imaginary part
 
-This table shows {@{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}@}. <!--SR:!2025-03-26,169,336-->
+This table shows {@{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}@}. <!--SR:!2026-10-15,568,336-->
 
 | property                    | time domain $x_{n}$                                | frequency domain $X_{k}$                           |
 | --------------------------- | -------------------------------------------------- | -------------------------------------------------- |
@@ -126,7 +126,7 @@ Similar to above, by {@{applying the [circular convolution theorem](#ciruclar%20
 
 ### uniqueness of the discrete Fourier transform
 
-As seen above, the discrete Fourier transform has {@{the fundamental property of carrying convolution into componentwise product}@}. A natural question is {@{whether it is the only one with this ability}@}. It has been shown that {@{any linear transform that turns convolution into pointwise product is the DFT up to a permutation of coefficients}@}. Since {@{the number of permutations of n elements equals n!}@}, there exists {@{exactly n! linear and invertible maps with the same fundamental property as the DFT with respect to convolution}@}. <!--SR:!2025-08-09,275,352!2026-02-09,425,372!2025-07-19,255,352!2025-03-26,162,332!2026-01-06,397,372-->
+As seen above, the discrete Fourier transform has {@{the fundamental property of carrying convolution into componentwise product}@}. A natural question is {@{whether it is the only one with this ability}@}. It has been shown that {@{any linear transform that turns convolution into pointwise product is the DFT up to a permutation of coefficients}@}. Since {@{the number of permutations of n elements equals n!}@}, there exists {@{exactly n! linear and invertible maps with the same fundamental property as the DFT with respect to convolution}@}. <!--SR:!2025-08-09,275,352!2026-02-09,425,372!2025-07-19,255,352!2027-04-05,740,352!2026-01-06,397,372-->
 
 ### convolution theorem duality
 

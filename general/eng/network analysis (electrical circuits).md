@@ -94,7 +94,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### delta-to-star transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ <!--SR:!2025-03-26,5,260!2025-04-01,12,300-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ <!--SR:!2025-04-09,14,260!2025-04-01,12,300-->
 
 #### star-to-delta transformation equations
 

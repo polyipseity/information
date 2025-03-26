@@ -13,7 +13,7 @@ tags:
 
 > {@{![Order book depth chart on a currency exchange.](../../archives/Wikimedia%20Commons/Order%20book%20depth%20chart.gif)}@}
 >
-> {@{Order book depth chart on a currency exchange}@}. {@{The x-axis is the unit price}@}, {@{the y-axis is cumulative order depth}@}. {@{Bids \(buyers\) on the left}@}, {@{asks \(sellers\) on the right}@}, with {@{a bid–ask spread in the middle}@}. <!--SR:!2025-03-26,27,270!2025-04-11,43,290!2025-05-19,74,322!2025-05-18,73,322!2025-05-16,71,322!2025-05-19,74,322!2025-05-17,72,322-->
+> {@{Order book depth chart on a currency exchange}@}. {@{The x-axis is the unit price}@}, {@{the y-axis is cumulative order depth}@}. {@{Bids \(buyers\) on the left}@}, {@{asks \(sellers\) on the right}@}, with {@{a bid–ask spread in the middle}@}. <!--SR:!2025-07-07,103,290!2025-04-11,43,290!2025-05-19,74,322!2025-05-18,73,322!2025-05-16,71,322!2025-05-19,74,322!2025-05-17,72,322-->
 
 The {@{__bid–ask spread__}@} \(also {@{__bid–offer__ or __bid/ask__ and __buy/sell__ in the case of a [market maker](market%20maker.md)}@}\) is {@{the difference between the prices quoted \(either by a single [market maker](market%20maker.md) or in a [limit order book](order%20book%20(trading).md)\)}@} for {@{an immediate sale \([ask](ask%20price.md)\) and an immediate purchase \([bid](bid%20price.md)\) for [stocks](shares.md), [futures contracts](futures%20contract.md), [options](option%20(finance).md), or [currency pairs](currency%20pair.md) in some auction scenario}@}. {@{The size of the bid–ask spread in a security}@} is {@{one measure of the liquidity of the market and of the size of the [transaction cost](transaction%20cost.md)}@}.<sup>[\[1\]](#^ref-1)</sup> If {@{the spread is 0}@} then {@{it is a [frictionless asset](frictionless%20market.md)}@}. <!--SR:!2025-05-14,69,322!2025-04-08,40,302!2025-05-15,70,322!2025-04-06,38,290!2025-05-19,74,322!2025-05-15,70,322!2025-05-19,74,322!2025-05-17,72,322-->
 
@@ -45,7 +45,7 @@ Quoted spreads often {@{over-state the spreads finally paid by traders, due to "
 
 If {@{the current bid price for the EUR/USD currency pair is 1.5760 and the current offer price is 1.5763}@}, this means that {@{currently you can sell the EUR/USD at 1.5760 (annotation: 1 EUR to USD) and buy at 1.5763 (annotation: USD to 1 EUR)}@}. {@{The difference between those prices \(3 [pips](percentage%20in%20point.md)\)}@} is {@{the spread}@}. <!--SR:!2025-04-08,40,302!2025-03-27,28,282!2025-05-18,73,322!2025-05-18,73,322-->
 
-If {@{the USD/JPY currency pair is currently trading at 101.89/101.92}@}, that is another way of saying that {@{the bid for the USD/JPY is 101.89 and the offer is 101.92}@}. This means that currently, {@{holders of USD can sell US\$1 for 101.89 JPY and investors who wish to buy dollars can do so at a cost of 101.92 JPY per US\$1}@}. <!--SR:!2025-03-26,28,270!2025-04-28,53,302!2025-03-28,29,282-->
+If {@{the USD/JPY currency pair is currently trading at 101.89/101.92}@}, that is another way of saying that {@{the bid for the USD/JPY is 101.89 and the offer is 101.92}@}. This means that currently, {@{holders of USD can sell US\$1 for 101.89 JPY and investors who wish to buy dollars can do so at a cost of 101.92 JPY per US\$1}@}. <!--SR:!2025-06-13,79,270!2025-04-28,53,302!2025-03-28,29,282-->
 
 ### metals
 

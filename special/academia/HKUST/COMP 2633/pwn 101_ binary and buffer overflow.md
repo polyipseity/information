@@ -52,7 +52,7 @@ The program header table {@{specifies how the process image is created, i.e. how
 
 Revisiting reverse 101... We will use {@{the Intel syntax}@} here. <!--SR:!2025-05-23,171,310-->
 
-In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}@}. (We will use the x86-64 registers thereafter.) <!--SR:!2025-03-26,140,310-->
+In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}@}. (We will use the x86-64 registers thereafter.) <!--SR:!2026-11-17,601,330-->
 
 `rsp` is {@{the stack pointer, which points to the top (low address) of the stack memory}@}. This is easy to understand. The more difficult one is {@{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}@}. Yet we do not know {@{what a stack/function frame is, and this will be introduced later}@}. <!--SR:!2025-08-10,248,330!2025-05-08,170,310!2025-07-21,232,330-->
 

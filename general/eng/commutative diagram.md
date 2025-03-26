@@ -37,7 +37,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-04-04,43,290!2025-04-29,66,310-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-04-28,65,310!2025-08-20,148,310-->
 
-{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-04-15,54,310!2025-04-28,65,310!2025-04-19,58,310!2025-04-17,56,310!2025-03-26,39,290-->
+{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-04-15,54,310!2025-04-28,65,310!2025-04-19,58,310!2025-04-17,56,310!2025-09-01,159,310-->
 
 ### verifying commutativity
 

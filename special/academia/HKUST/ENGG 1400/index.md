@@ -169,7 +169,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
-  - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2025-03-28,117,394!2025-03-26,115,394-->
+  - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2025-03-28,117,394!2026-12-03,617,414-->
   - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2025-04-12,130,394!2025-03-27,116,394-->
 - activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2025-03-30,119,394!2025-03-28,117,394-->
 - decision making
@@ -190,7 +190,7 @@ The content is in teaching order.
 - decision making
   - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2025-04-09,127,394!2025-03-30,119,394-->
   - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2025-04-07,125,394!2025-03-27,116,394-->
-    - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2025-03-26,115,394!2025-04-10,128,394-->
+    - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2025-04-10,128,394-->
 
 ## week 10 tutorial
 
@@ -203,7 +203,7 @@ The content is in teaching order.
 - paying attention
   - pay attention / types ::@:: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.). <!--SR:!2026-10-20,575,417!2025-04-01,108,397-->
 - activity 2: gratefulness exercise ::@:: Spend 5 minutes to write down things that you are grateful for. The thing does not need to be big: it can be small things. <!--SR:!2026-10-12,569,417!2025-05-02,140,417-->
-  - activity 2: gratefulness exercise / debrief ::@:: You may find it surprisingly comfortable. You may see things that you have remembered in a different way. <p> "Participants who kept a gratitude journal weekly for 10 weeks or daily for two weeks experienced more gratitude, positive moods, optimism about the future, and better sleep." — Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of personality and social psychology_, _84_(2), 377. <!--SR:!2025-03-26,103,397!2025-03-31,107,397-->
+  - activity 2: gratefulness exercise / debrief ::@:: You may find it surprisingly comfortable. You may see things that you have remembered in a different way. <p> "Participants who kept a gratitude journal weekly for 10 weeks or daily for two weeks experienced more gratitude, positive moods, optimism about the future, and better sleep." — Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of personality and social psychology_, _84_(2), 377. <!--SR:!2026-10-04,557,417!2025-03-31,107,397-->
 - odyssey ::@:: Ideate own life's possibilities. This is using _reframing_. <!--SR:!2025-03-28,104,397!2025-05-06,144,417-->
   - odyssey / dysfunctional belief ::@:: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional... <!--SR:!2025-03-28,104,397!2025-05-03,141,417-->
   - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations. <!--SR:!2025-03-29,105,397!2025-05-05,143,417-->

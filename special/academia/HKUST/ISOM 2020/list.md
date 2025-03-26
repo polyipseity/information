@@ -15,7 +15,7 @@ If you try to {@{get the type of a list using `type(list)`}@}, {@{the returned t
 
 ## syntax
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. An empty list is {@{allowed and created using `[]`, and can be expanded later}@}. A trailing comma is {@{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}@}. Note that a list can {@{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}@}. <!--SR:!2025-03-26,148,314!2026-10-22,591,334!2026-03-11,402,314!2025-04-15,160,314-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. An empty list is {@{allowed and created using `[]`, and can be expanded later}@}. A trailing comma is {@{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}@}. Note that a list can {@{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}@}. <!--SR:!2026-12-31,645,334!2026-10-22,591,334!2026-03-11,402,314!2025-04-15,160,314-->
 
 ISOM 2020 note: Note that {@{`(..., ...)`}@} is {@{creating a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}@}. But you {@{do not need to care or know about it}@}. <!--SR:!2026-03-16,410,380!2026-04-04,426,380!2026-04-09,430,380-->
 

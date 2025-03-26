@@ -15,7 +15,7 @@ In {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, the {@{_
 
 {@{The __Grundy value__ or __nim-value__ of any impartial game}@} is {@{the unique nimber that the game is equivalent to}@}. In the case of {@{a game whose positions are indexed by the natural numbers \(like nim itself, which is indexed by its heap sizes\)}@}, {@{the sequence of nimbers for successive positions of the game}@} is {@{called the __nim-sequence__ of the game}@}. <!--SR:!2025-12-14,275,330!2025-11-08,246,330!2025-10-22,231,330!2025-12-27,285,330!2025-11-13,250,330-->
 
-{@{The Sprague–Grundy theorem and its proof}@} encapsulate the main results of a theory discovered {@{independently by [R. P. Sprague](Roland%20Sprague.md) \(1936\)<sup>[\[1\]](#^ref-1)</sup> and [P. M. Grundy](Patrick%20Michael%20Grundy.md) \(1939\)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-14,275,330!2025-03-26,59,250-->
+{@{The Sprague–Grundy theorem and its proof}@} encapsulate the main results of a theory discovered {@{independently by [R. P. Sprague](Roland%20Sprague.md) \(1936\)<sup>[\[1\]](#^ref-1)</sup> and [P. M. Grundy](Patrick%20Michael%20Grundy.md) \(1939\)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-14,275,330!2025-08-19,146,250-->
 
 ## definitions
 
