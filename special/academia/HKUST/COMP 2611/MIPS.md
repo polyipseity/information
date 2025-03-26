@@ -36,6 +36,8 @@ Almost always, {@{the number of variables in a program is much higher than the n
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}.
 
+\(this course: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\)
+
 ## memory
 
 The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much more than the registers}@}.
@@ -71,6 +73,14 @@ Common instruction variants include {@{immediate `_i`, unsigned `_u`}@}. The for
 
 One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}.
 
+### program counter
+
+{@{The program counter \(PC\) or instruction address register}@} contains {@{the 32-bit address of the current instruction}@}. The _concept_ {@{next program counter \(nPC\)}@} contains {@{the next instruction to be executed}@}. Every time {@{an instruction is executed}@}, {@{the PC is updated to the nPC, and nPC is usually added 4 \(next instruction\)}@}. Note that some instruction {@{causes nPC to be added by an offset \(e.g. relative jump instructions\) or causes nPC to be set to a register \(e.g. semi-absolute jump instructions\)}@}. {@{The `goto` in the pseudo C code below}@} is {@{meant to indicate this}@}. Note that in these cases, {@{the PC is still updated to the nPC before updating the nPC}@}, e.g. {@{the next instruction in memory after a jump instruction is still executed}@}. This is why {@{_branch delay slots_ \(mentioned below\) are added after jump instructions}@}. This also explains why {@{PC-relative addressing mode is based on nPC or PC + 4}@}.
+
+\(this course: For this course, {@{you do not need to know _branch delay slots_}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_, which allures to the above concept of that nPC instead of PC is updated by branching instructions}@}.\)
+
+The program counter {@{cannot be read or written directly}@}. However, it can be indirectly read {@{using `jal`, where the PC of the `jal` instruction is saved to `$ra`}@}. It is indirectly written {@{by executing instructions, or branching and jump instructions}@}.
+
 ### operands
 
 There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}.
@@ -90,7 +100,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - divide ::@:: `div $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, signed; `$LO` \(quotient\) is rounded towards zero, while `$HI` \(remainder\) is such that `$s == $t * $LO + $HI`
 - divide immediate ::@:: `divi` does not exist.
 - divide immediate unsigned ::@:: `diviu` does not exist.
-- divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned
+- divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned; `$LO` \(quotient\) is rounded towards zero
   - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent.
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> -->
 - multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist.
@@ -194,6 +204,8 @@ Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(
 
 There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course.
 
+Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. This is explained in [§ procedures](#procedures) below.
+
 ### O32 calling convention
 
 The 32 registers are used as follows:
@@ -208,7 +220,7 @@ The 32 registers are used as follows:
 | __`$s0`–`$s7`__ | `$16`–`$23` | saved temporaries                                                         | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$t8`–`$t9`__ | `$24`–`$25` | temporaries                                                               | <div style="background: #FFC7C7; color: black; vertical-align: middle; text-align: center;">No</div>                    |
 | __`$k0`–`$k1`__ | `$26`–`$27` | reserved for OS kernel                                                    | —                                                                                                                       |
-| __`$gp`__       | `$28`       | global pointer                                                            | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes (except PIC code)</div> |
+| __`$gp`__       | `$28`       | global pointer \(for static data\)                                        | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes (except PIC code)</div> |
 | __`$sp`__       | `$29`       | [stack pointer](../../../../general/stack-based%20memory%20allocation.md) | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$fp`__       | `$30`       | [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER)     | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$ra`__       | `$31`       | [return address](../../../../general/return%20statement.md)               | —                                                                                                                       |
@@ -225,12 +237,14 @@ The 32 registers are used as follows:
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel
-> - __`$gp`__ ::@:: `$28`: global pointer
+> - __`$gp`__ ::@:: `$28`: global pointer \(for static data\)
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md)
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER)
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md)
 > - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <br/> in this course: return addr
 > - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp
+
+The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}.
 
 ## assembly
 
@@ -257,6 +271,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 - `.float <f1>, ..., <fn>` ::@:: Stores the specified _n_ floats \(32 bits, 4 bytes\).
 - `.globl <sym>` ::@:: \(The name is _not_ a typo!\) Declare the symbol `<sym>` is global. The symbol is not removed from the resulting object/program file. That is, other assembly files can reference it. This is also required for the entry point label, so that the OS knows where to start the program.
 - `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\).
+- `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables.
 - `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`.
 - `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\).
 
@@ -274,12 +289,67 @@ To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bu
 
 ## pseudo-instructions
 
-Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}.
+Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}.
 
-- load address ::@:: `la $d, addr`; `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, 0x1001; ori $d, $at, addr[0:16];`
+The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\)
+
+- absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 8; sub $d, $zero, $s;`
+- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto PC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;`
+- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto PC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;`
+- branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto PC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;`
+- branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto PC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;`
+- load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];`
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];`
-- not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;`
+- move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `add $d, $zero, $s;`
+- negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;`
+- not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;`
+- pop ::@:: `$pop [$d=$ra]`: pops a 32-bit value from the stack to `$d`; implemented by `lw $d, 0($sp); addi, $sp, $sp, 4;`
+- push ::@:: `$push [$s=$ra]`: pushes the 32-bit value of `$s` to the stack; implemented by `addi $sp, $sp, -4; sw $s, 0($sp);`
+- set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;`
+- set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;`
 
 Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}.
 
 \(this course: Some questions may {@{require you to not use any pseudo-instructions}@}.\)
+
+## procedures
+
+In {@{higher level programming languages}@}, we have {@{functions/procedures/subroutines for to group related code and reuse them}@}. In MIPS, we can {@{emulate this feature}@}. Note that a high-level language compiler {@{does essentially the same thing when compiling your program, but they are abstracted away}@}.
+
+Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments/parameters in specified locations, then transfer control \(jump and link\) to the callee}@}. Then, the callee {@{pushes `$ra` to the stack, acquires the necessary resources, and performs its task}@}. Finally, {@{the callee places the return value \(if any\) in a specified location, pops the stack to `$ra`, and return control \(return\) to the caller}@}. The caller then {@{may access the return value for further use}@}. The specified locations are specified by {@{a calling convention}@}. Note that {@{if you do not call any other procedures in your procedure and your procedure does not modify `$ra` explicitly}@}, you can {@{skip pushing `$ra` to the stack at the beginning and popping `$ra` from the stack at the end}@}. \(this course: In this course, we use {@{the [O32 calling convention](#O32%20calling%20convention)}@}.\)
+
+Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}.
+
+## memory layout
+
+A typical MIPS program memory is {@{addressed by 32-bit unsigned integers}@}. Thus, there are {@{2<sup>32</sup> memory byte locations, or 2<sup>30</sup> memory _word_ locations}@}.
+
+It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}.
+
+The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}.
+
+The static data segment {@{holds global variables}@}, corresponding to {@{the `.data` segment in your assembly file}@}.
+
+The dynamic data segment is {@{the heap, and is allocated using `malloc` in C \(e.g. C++, Java: `new`\)}@}. It does not {@{correspond to any segment in your assembly file}@}.
+
+The stack segment is {@{automatic storage, used to store local variables in higher level programming language}@}. It does not {@{correspond to any segment in your assembly file}@}. In MIPS, you use it to {@{store extra local variables more than that allowed by the number of registers, and the return address `$ra`}@}. To manipulate this segment, you can use {@{the pseudo-instructions `push` and `pop` to push or pop a 32-bit value to the stack}@}, which manipulates this segment {@{like the data structure _stack_, last-in first-out \(hence its name\)}@}. \(See above for what real instructions they translate to.\) The {@{address of the stack top}@} is {@{stored in `$sp`}@}.
+
+## addressing modes
+
+MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}.
+
+\(this course: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}.
+
+- immediate addressing ::@:: Not really an addressing mode... It refers to the 16-bit immediate field in an I instruction.
+- register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction.
+- base \(+ displacement\) addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the value of the `$s` register. The `$s` is known as the _base_ and the offset is known as the _displacement_. The operand is written as `offset($s)`.
+- PC-relative addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the program counter \(PC\). These instructions are branch instructions. <p> The address offset is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. The address offset \(multiplied by 4\) is added to nPC \(or PC + 4\) to find the branch target \(the reason is mentioned above\). This means instructions up to 2<sup>15</sup> words/instructions or 128 kiB away are addressable. <p> Simply put, the branch address is `nPC + offset << 2` or `PC + 4 + offset << 2`.
+- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(PC & 0xf0000000) | (offset << 2)`.
+
+A problem with PC-relative addressing is that {@{the branch target may be too far away}@}. The assembler {@{may rewrite a branch instruction as a branch instruction followed by a jump instruction, so that pseudo-direct addressing can be used}@}. If pseudo-direct addressing is insufficient, {@{storing the 32-bit address into a register and using `jr` suffices}@}.
+
+## miscellaneous
+
+### 32-bit immediate
+
+The immediate field can {@{only up to 16 bits}@}. A natural question arises: {@{How do we store a 32-bit signed/unsigned integer}@}? The answer is {@{using `lui` and `ori` together}@}. Since {@{this is a common operation}@}, {@{the pseudo-instruction `li` is available and does the same thing}@}.

@@ -508,7 +508,7 @@ The content is in teaching order.
   - MARS / usage
   - MARS / windows :;@:: console I/O window, data segment window, register window, messages window, text segment window
     - MARS / windows / console I/O window
-    - MARS / windows / data segment window ::@:: It shows the data segment in the memory, which stores your data \(`.data`\). By default, it starts from 0x1001&nbsp;0000, goes upward in address. Static data is stored first, and then dynamic data. When more space is needed for dynamic data, it grows upwards in address.
+    - MARS / windows / data segment window ::@:: It shows the data segment in the memory, which stores your data \(`.data`\). By default, it starts from 0x1001&nbsp;000 \(global pointer `$gp`\), goes upward in address. Static data is stored first, and then dynamic data. When more space is needed for dynamic data, it grows upwards in address.
     - MARS / windows / register window
     - MARS / windows / messages window
     - MARS / windows / text segment window ::@:: It shows the text segment in the memory, which stores your program \(`.text`\). By default, it starts from 0x0040&nbsp;0000, and goes upward in address.
@@ -542,6 +542,76 @@ The content is in teaching order.
     - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `nor`, `sllv`, `srlv`
 - [stored-program computer](../../../../general/stored-program%20computer.md) ::@:: It is a computer that stores program instructions in electronically, electromagnetically, or optically accessible memory. This contrasts with systems that stored the program instructions with plugboards or similar mechanisms. <p> The definition is often extended with the requirement that the treatment of programs and data in memory be interchangeable or uniform.
   - stored-program computer / examples ::@:: Instructions and data are both represented by binary. They can be both stored in memory. Programs can operate on programs. Binary compatibility \(e.g. ISA\) allows programs to work on different computers.
+
+## week 7 lecture
+
+- datetime: 2025-03-17T13:30:00+08:00/2025-03-17T14:50:00+08:00
+- topic: procedure, nested procedures with stack
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures)
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ jump instructions](MIPS.md#jump%20instructions): `jal`, `jr`
+    - [§ program counter](MIPS.md#program%20counter)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention)
+    - [§ memory layout](MIPS.md#memory%20layout)
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `push`, `pop`
+- ASCII
+  - ASCII / full name
+  - ASCII / common characters ::@:: space: 0x20 \(32\)
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ data instructions](MIPS.md#data%20instructions): `lb`, `sb`, `lbu`
+
+## week 7 lab
+
+- datetime: 2025-03-18T15:00:00+08:00/2025-03-18T15:50:00+08:00
+- topic: MIPS programming
+- MARS
+  - [MARS](MARS.md)
+  - MARS / exercises ::@:: number guessing game \(and enhancing it\), number multiplier, etc.
+
+## week 7 tutorial
+
+- datetime: 2025-03-18T18:00:00+08:00/2025-03-18T18:50:00+08:00
+- topic: introduction to MIPS assembly
+- instruction set architecture
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention)
+    - [§ assembly directives](MIPS.md#assembly%20directives): `.space`
+    - [§ instructions](MIPS.md#instructions)
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `addi`, `add`, `sub`
+    - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `sll`, `and`, `nor`, `xor`, `srl`, `sra`
+    - [§ entry point](MIPS.md#entry%20point)
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `not`, `abs`, `blt`, `bgt`, `ble`, `bge`, `neg`, `not`, `li`, `la`, `move`, `sge`, `sgt`
+    - [§ data instructions](MIPS.md#data%20instructions): `lb`, `lw`, `sw`
+    - [§ memory layout](MIPS.md#memory%20layout)
+
+## week 7 lecture 2
+
+- datetime: 2025-03-21T09:00:00+08:00/2025-03-21T10:20:00+08:00
+- topic: 32-bit immediate, addressing mode, jump range, CISC/RISC
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ data instructions](MIPS.md#data%20instructions): `lui`
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `move`, `blt`, `ble`, `bgt`, `bge`
+    - [§ addressing modes](MIPS.md#addressing%20modes)
+    - [§ jump instructions](MIPS.md#jump%20instructions): `j`, `jr`
+- reduced instruction set computer
+  - reduced instruction set computer / antonym ::@:: complex instruction set computer \(CISC\) <p> fun fact: CISC was retroactively coined in contrast to RISC.
+  - reduced instruction set computer / characteristics ::@:: Since each instruction \(at least tries to\) do one thing, more instructions are needed in a program. However, executing each instruction is usually faster. Hardware design is simple.
+    - reduced instruction set computer / characteristics / motivation ::@:: After quantitative measurement, the most useful instructions and addressing modes are chosen.
+    - reduced instruction set computer / characteristics / hardware ::@:: Machine code is usually directly executed on the hardware.
+    - reduced instruction set computer / characteristics / memory ::@:: Due to simple hardware, more registers and bigger CPU caches can be equipped.
+    - reduced instruction set computer / characteristics / use ::@:: Assembly language is harder to write. Compilers are harder to write as well.
+- [complex instruction set computer](../../../../general/complex%20instruction%20set%20computer.md) \(CISC\) ::@:: It is a computer architecture in which single instructions can execute several low-level operations (such as a load from memory, an arithmetic operation, and a memory store) or are capable of multi-step operations or addressing modes within single instructions.
+  - complex instruction set computer / characteristics ::@:: Since each instruction may do many things, less instructions are needed in a program. However, executing each instruction is usually slower. Hardware design is complex.
+    - complex instruction set computer / characteristics / motivation ::@:: Instructions and addressing modes are chosen to make translation of high-level programming language to assembly easier.
+    - complex instruction set computer / characteristics / hardware ::@:: Machine code is usually executed in microcode, which sits in between the hardware and the machine code.
+    - complex instruction set computer / characteristics / memory ::@:: Due to complex hardware, less registers and smaller CPU caches can be equipped.
+    - complex instruction set computer / characteristics / use ::@:: Assembly language is easier to write. Compilers are easier to write as well.
 
 ## assignments
 
