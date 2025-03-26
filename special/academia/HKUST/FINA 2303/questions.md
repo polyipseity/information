@@ -539,7 +539,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-03-30,5,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -565,7 +565,7 @@ tags:
 > 3. 11&nbsp;481
 > 4. 15&nbsp;531
 >
-> - solution: {@{4}@}
+> - solution: {@{4}@} <!--SR:!2025-03-30,5,359-->
 
 ## week 6 lecture 2
 
@@ -574,7 +574,7 @@ tags:
 > 1. increased cash
 > 2. decreased cash
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-30,5,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -584,7 +584,7 @@ tags:
 > 2. No
 > 3. Cannot be determined
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-03-28,3,339-->
 
 <!-- markdownlint MD028 -->
 
@@ -593,7 +593,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-03-30,5,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -606,7 +606,7 @@ tags:
 > 3. 70&nbsp;000
 > 4. 80&nbsp;000
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-03-30,5,358-->
 
 <!-- markdownlint MD028 -->
 
@@ -617,4 +617,4 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{4}@}
+> - solution: {@{4}@} <!--SR:!2025-03-30,5,359-->

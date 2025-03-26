@@ -123,7 +123,7 @@ tags:
 >
 > What was the new style of music developed by Charlie Parker and Dizzy Gillespie in the 1940s?
 >
-> - solution: {@{Bebop}@}
+> - solution: {@{Bebop}@} <!--SR:!2025-03-29,4,300-->
 
 <!-- markdownlint MD028 -->
 
@@ -138,7 +138,7 @@ tags:
 > 5. John Coltrane
 >
 > - solution: {@{5}@}
-> - explanation: {@{He was not part of the movement, but he was influenced by it.}@}
+> - explanation: {@{He was not part of the movement, but he was influenced by it.}@} <!--SR:!2025-03-29,4,300!2025-03-29,4,300-->
 
 <!-- markdownlint MD028 -->
 
@@ -146,7 +146,7 @@ tags:
 >
 > What was the name of the song that Charlie Parker was playing when he had a "musical epiphany" that allowed him to help create this new style of music?
 >
-> - solution: {@{Cherokee}@}
+> - solution: {@{Cherokee}@} <!--SR:!2025-03-29,4,300-->
 
 <!-- markdownlint MD028 -->
 
@@ -154,7 +154,7 @@ tags:
 >
 > Why was no music recorded between 1942 and 1944?
 >
-> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially.}@}
+> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially.}@} <!--SR:!2025-03-28,3,280-->
 
 <!-- markdownlint MD028 -->
 
@@ -175,4 +175,4 @@ tags:
 > 4. Thelonious Monk
 > 5. Charlie Christian
 >
-> - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@}
+> - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@} <!--SR:!2025-03-28,3,280-->
