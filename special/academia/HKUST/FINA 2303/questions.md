@@ -355,7 +355,7 @@ tags:
 > 3. \$1.6 million
 > 4. \$1 million
 >
-> - solution: {@{2}@} <!--SR:!2025-03-27,17,349-->
+> - solution: {@{2}@} <!--SR:!2025-06-20,85,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -378,7 +378,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2025-03-27,17,349!2025-03-27,17,349-->
+> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2025-06-18,83,369!2025-06-17,82,369-->
 
 <!-- markdownlint MD028 -->
 

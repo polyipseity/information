@@ -126,7 +126,7 @@ Let's also learn some basic `pwndbg` commands:
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2025-08-27,263,330!2025-08-07,245,330-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2025-09-10,271,330!2025-08-27,263,330-->
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2025-09-06,269,330!2025-05-17,182,310-->
-- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-10-04,291,330!2025-03-27,139,290-->
+- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-10-04,291,330!2026-10-08,560,310-->
 
 Commands names can be {@{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}@}. For example, `disassemble` can be {@{abbreviated to `disass` or the uglier `disassem`}@}. <!--SR:!2025-05-27,184,310!2025-10-06,286,330-->
 
@@ -207,7 +207,7 @@ pwndbg> checksec
 
 ### avoiding buffer overflows
 
-The best way to avoid buffer overflows being exploited is {@{simply not have buffer overflows in the first place}@}. <!--SR:!2025-03-27,136,310-->
+The best way to avoid buffer overflows being exploited is {@{simply not have buffer overflows in the first place}@}. <!--SR:!2026-10-31,583,330-->
 
 Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2025-06-23,209,330!2026-01-18,344,290!2025-08-01,241,330!2025-05-29,187,310-->
 

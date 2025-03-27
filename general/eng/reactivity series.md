@@ -192,7 +192,7 @@ return _chain.from_iterable(await _gather(
 - [mercury](mercury%20(element).md):@:Hg<sup>2+</sup> <!--SR:!2025-12-14,469,270-->
 - [silver](silver.md):@:Ag<sup>+</sup> <!--SR:!2025-07-03,572,310-->
 - [gold](gold.md):@:Au<sup>3+</sup> <!--SR:!2025-04-23,526,310-->
-- [platinum](platinum.md):@:Pt<sup>4+</sup> <!--SR:!2025-03-27,498,310-->
+- [platinum](platinum.md):@:Pt<sup>4+</sup> <!--SR:!2029-06-25,1551,310-->
 
 <!--/pytextgen-->
 

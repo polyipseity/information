@@ -75,7 +75,7 @@ The content is in teaching order.
 - course logistics
 - [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2025-04-06,46,290!2025-04-30,66,310-->
   - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2025-07-16,116,290!2025-04-27,63,310-->
-  - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-03-27,39,290!2025-04-17,55,310-->
+  - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-09-03,160,310!2025-04-17,55,310-->
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-05-13,69,270!2025-04-09,46,290-->
   - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis <!--SR:!2025-04-17,54,310!2025-06-15,97,290-->
   - operations management / generality and broadness ::@:: apply to many business settings <!--SR:!2025-04-19,57,310!2025-04-26,63,310-->

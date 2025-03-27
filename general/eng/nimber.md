@@ -11,7 +11,7 @@ tags:
 
 # nimber
 
-- Not to be confused with {@{[Number](number.md)}@}. <!--SR:!2025-03-27,74,325-->
+- Not to be confused with {@{[Number](number.md)}@}. <!--SR:!2026-03-01,339,345-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Nimber)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Nimber)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_| This article's __[lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section) contains information that is not included elsewhere in the article__. _\(January 2019\)_ | <p>  <br/> | This article's [lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section#Length) __may be too short to adequately [summarize](https://en.wikipedia.org/wiki/Wikipedia:Summary%20style) the key points__. _\(January 2019\)_ | | -->
 
@@ -19,7 +19,7 @@ In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbe
 
 Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} which {@{states that every [impartial game](impartial%20game.md) is equivalent to a Nim heap of a certain size}@}, nimbers {@{arise in a much larger class of impartial games}@}. They may also occur in {@{[partisan games](partisan%20game.md)}@} like {@{[Domineering](Domineering.md)}@}. <!--SR:!2026-02-12,325,345!2026-02-17,329,345!2025-03-30,77,333!2026-02-20,331,345!2025-12-06,268,330-->
 
-{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2026-02-22,333,345!2025-03-28,75,325!2025-09-28,209,325!2025-03-27,74,325!2025-11-03,242,330!2025-04-09,76,270-->
+{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2026-02-22,333,345!2025-03-28,75,325!2025-09-28,209,325!2026-02-28,338,345!2025-11-03,242,330!2025-04-09,76,270-->
 
 ## uses
 
@@ -27,7 +27,7 @@ Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} w
 
 - Main article: [Nim](Nim.md)
 
-Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-01,241,330!2025-10-27,236,330!2025-12-16,276,330!2025-10-21,230,330!2025-03-30,77,333!2025-12-10,272,330!2025-07-27,151,305!2025-08-19,163,270!2025-03-27,74,325-->
+Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-01,241,330!2025-10-27,236,330!2025-12-16,276,330!2025-10-21,230,330!2025-03-30,77,333!2025-12-10,272,330!2025-07-27,151,305!2025-08-19,163,270!2026-03-01,339,345-->
 
 ### Cram
 
@@ -57,18 +57,18 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 ## multiplication
 
-{@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2025-03-27,74,325!2025-03-28,60,250-->
+{@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2026-03-01,339,345!2025-03-28,60,250-->
 
 Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-12,325,345!2025-11-10,248,330-->
 
-Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2025-03-27,74,325!2025-04-15,76,270!2025-10-26,235,330!2025-12-24,282,330!2025-06-25,126,310!2025-10-12,221,333-->
+Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2026-02-27,337,345!2025-04-15,76,270!2025-10-26,235,330!2025-12-24,282,330!2025-06-25,126,310!2025-10-12,221,333-->
 
 1. mex(_S_), base ::@:: 0 is an element of _S_; <!--SR:!2025-08-27,174,310!2026-02-22,333,345-->
 2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-04-11,35,225!2025-06-10,95,250-->
 
 For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_n_</sup></sup>}@} form {@{the [Galois field](finite%20field.md) GF\(2<sup>2<sup>_n_</sup></sup>\) of order 2<sup>2<sup>_n_</sup></sup>}@}. (TODO: What is this abstract nonsense?) Therefore, {@{the set of finite nimbers}@} is {@{isomorphic to the [direct limit](direct%20limit.md) as _n_ → ∞ of the fields GF\(2<sup>2<sup>_n_</sup></sup>\)}@}. This subfield is {@{not algebraically closed}@}, since {@{no field GF\(2<sup>_k_</sup>\) with _k_ not a power of 2 is contained in any of those fields, and therefore not in their direct limit}@}; for instance {@{the polynomial _x_<sup>3</sup> + _x_ + 1}@}, which {@{has a root in GF\(2<sup>3</sup>\)}@}, {@{does not have a root in the set of finite nimbers}@}. <!--SR:!2025-07-31,155,305!2025-11-17,254,330!2026-02-18,330,345!2025-12-05,268,330!2025-10-31,237,333!2025-11-11,249,330!2025-08-17,164,313!2025-12-27,285,330!2025-05-08,91,285!2025-03-28,75,325-->
 
-Just as {@{in the case of nimber addition}@}, there is {@{a means of computing the nimber product of finite ordinals}@}. This is determined by the rules that <!--SR:!2025-03-27,74,325!2025-12-22,281,330-->
+Just as {@{in the case of nimber addition}@}, there is {@{a means of computing the nimber product of finite ordinals}@}. This is determined by the rules that <!--SR:!2026-03-01,339,345!2025-12-22,281,330-->
 
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2025-08-02,152,305!2025-03-28,75,325-->
 2. The nimber square of a Fermat 2-power _x_ \(annotation: numbers of the form 2<sup>2<sup>_n_</sup></sup>\) ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-05-20,72,245!2025-08-15,163,313-->
@@ -89,7 +89,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber addition}@} \(sequence {@{[A003987](https://oeis.org/A003987)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > This is also {@{the [Cayley table](cayley%20table.md) of [Z<sub>2</sub><sup>4</sup>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups) – or the table of [bitwise](bitwise%20operation.md) [XOR](exclusive%20or.md) operations}@}. <br/>
-> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-03-27,62,273!2025-11-23,258,330!2025-04-25,83,285!2025-03-30,77,333!2025-07-28,152,305-->
+> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-11-20,238,293!2025-11-23,258,330!2025-04-25,83,285!2025-03-30,77,333!2025-07-28,152,305-->
 
 <!-- markdownlint MD028 -->
 

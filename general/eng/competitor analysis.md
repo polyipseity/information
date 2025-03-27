@@ -71,7 +71,7 @@ why: Why are people using competitors' products?
 
 - _(begin)_→::@::←compare: Identify similarities and differences between our and their products. <!--SR:!2026-02-12,381,261!2025-04-15,260,334-->
 - compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2026-08-10,523,274!2025-06-06,281,301-->
-- copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2025-03-27,160,241!2026-04-07,406,241-->
+- copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2026-04-20,389,241!2026-04-07,406,241-->
 - discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2025-04-02,169,221!2025-11-06,275,241-->
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-04-18,103,170!2025-06-15,175,241-->
 - pricing: Compare prices.→::@::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2026-06-06,448,261!2025-04-15,82,241-->
@@ -113,7 +113,7 @@ pricing: Find suitable prices catering to different market segment and economies
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2026-03-19,453,301!2026-06-26,573,321-->
-- differentiate: Differentiate our products to make it a hit with customers.→::@::←discover: Find holes in existing products. <!--SR:!2026-03-25,433,281!2025-03-27,225,321-->
+- differentiate: Differentiate our products to make it a hit with customers.→::@::←discover: Find holes in existing products. <!--SR:!2026-03-25,433,281!2027-03-20,723,321-->
 - discover: Find holes in existing products.→::@::←know ourselves: See if our products are sticky. <!--SR:!2025-10-21,290,221!2025-10-30,279,241-->
 - know ourselves: See if our products are sticky.→::@::←know them: See how big of a threat competitors pose. <!--SR:!2026-10-11,650,321!2026-10-24,615,314-->
 - know them: See how big of a threat competitors pose.→::@::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2026-07-19,482,261!2026-01-01,371,261-->

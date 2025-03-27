@@ -120,7 +120,7 @@ return await memorize_seq(
 - (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2026-03-13,502,310-->
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2025-04-23,77,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2025-04-05,282,330-->
-- (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-03-27,65,130!2026-02-18,349,210-->
+- (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-06-23,88,130!2026-02-18,349,210-->
 - (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-04-13,22,130!2025-05-16,76,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2025-05-15,259,250!2025-10-19,322,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-04-01,40,130!2025-04-12,38,130-->
@@ -128,7 +128,7 @@ return await memorize_seq(
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→::@::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2025-06-05,92,210!2026-02-22,363,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→::@::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2025-04-18,78,130!2025-05-26,74,170-->
 - (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→::@::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2025-04-14,33,130!2025-08-05,250,210-->
-- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→::@::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2025-07-14,125,150!2025-03-27,21,130-->
+- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→::@::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2025-07-14,125,150!2025-04-22,26,130-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→::@::←_(end)_ <!--SR:!2026-06-06,604,330!2025-05-01,250,270-->
 
 <!--/pytextgen-->

@@ -67,7 +67,7 @@ Customer jobs can be split into three categories: {@{functional jobs; social job
 
 Since customer jobs has {@{functional and non-functional aspects}@}, the resulting products can be categorized by {@{functional complexity and emotional complexity}@}. It is important that non-functional aspects are {@{not ignored}@}. For example, a hunching old person needs a stick, but {@{the person also wants to not feel bad while using the stick}@}. Sometimes, non-functional aspects are {@{more important than functional ones}@}, such as {@{an extremely expensive sports car, which is mainly for showing status instead of driving on it}@}. So a {@{deep understanding}@} of customer jobs is required. <!--SR:!2025-10-17,414,365!2025-09-26,393,365!2026-06-30,547,325!2028-03-19,1104,365!2025-09-07,381,365!2026-12-28,669,325!2025-07-23,345,365-->
 
-The concept of customer jobs is based on {@{the jobs to be done theory}@}, which states that {@{customers "hire" a product to do a "job" instead of simply buying a product}@}. <!--SR:!2025-03-27,248,345!2027-08-22,914,345-->
+The concept of customer jobs is based on {@{the jobs to be done theory}@}, which states that {@{customers "hire" a product to do a "job" instead of simply buying a product}@}. <!--SR:!2028-06-16,1177,365!2027-08-22,914,345-->
 
 Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pains {@{concrete}@}. Note that pains {@{can have different severity}@}. <!--SR:!2025-09-26,367,290!2027-12-17,1025,349!2026-07-26,620,329-->
 

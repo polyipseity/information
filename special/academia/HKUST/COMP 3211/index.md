@@ -56,7 +56,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-05T13:30:00+08:00/2025-02-04T14:50:00+08:00
 - topic: introduction, reactive agents
-- [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI) ::@:: John McCarthy, one of the founders of AI — "It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable." <!--SR:!2025-03-27,30,270!2025-07-01,99,290-->
+- [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI) ::@:: John McCarthy, one of the founders of AI — "It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable." <!--SR:!2025-07-18,113,290!2025-07-01,99,290-->
   - artificial intelligence (AI) / intuition ::@:: What is it? A calculator? An operating system? A text editor? ChatGPT or DeepSeek? <!--SR:!2025-04-26,56,310!2025-04-26,56,310-->
   - artificial intelligence (AI) / motivations ::@:: forefront of computer applications; make machines do things so far that can be done by humans; in the long-term, make machines that can act, sense, and think intelligently <!--SR:!2025-04-26,56,310!2025-05-06,62,310-->
   - artificial intelligence (AI) / algorithms, techniques ::@:: heuristic search algorithms, knowledge representation languages, machine learning algorithms and reasoners, etc. <!--SR:!2025-04-05,39,290!2025-04-05,39,290-->

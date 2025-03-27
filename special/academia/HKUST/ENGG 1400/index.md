@@ -170,7 +170,7 @@ The content is in teaching order.
 - datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
   - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2025-03-28,117,394!2026-12-03,617,414-->
-  - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2025-04-12,130,394!2025-03-27,116,394-->
+  - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2025-04-12,130,394!2026-12-10,623,414-->
 - activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2025-03-30,119,394!2025-03-28,117,394-->
 - decision making
   - decision making / elements ::@:: information, objectives, options <!--SR:!2025-03-31,120,394!2025-04-09,127,394-->
@@ -189,7 +189,7 @@ The content is in teaching order.
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2025-04-01,121,394!2025-04-11,129,394-->
 - decision making
   - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2025-04-09,127,394!2025-03-30,119,394-->
-  - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2025-04-07,125,394!2025-03-27,116,394-->
+  - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2025-04-07,125,394!2026-12-11,624,414-->
     - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2025-04-10,128,394-->
 
 ## week 10 tutorial

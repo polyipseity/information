@@ -19,7 +19,7 @@ Business model generation is for {@{the entrepreneurial-spirited, value creators
 
 ## canvas
 
-The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2025-03-27,243,294!2025-07-31,322,294-->
+The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2025-07-31,322,294-->
 
 ### building blocks
 
@@ -165,7 +165,7 @@ risk reduction
 
 - _(begin)_→::@::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
 - accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2026-08-06,537,274-->
-- brand or status→::@::←convenience or usability <!--SR:!2025-03-27,135,214!2025-09-18,287,234-->
+- brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-07-31,183,177-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->

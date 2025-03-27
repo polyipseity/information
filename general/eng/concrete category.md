@@ -20,7 +20,7 @@ A concrete category, when {@{defined without reference to the notion of a catego
 - _C_ ::@:: is a category, and <!--SR:!2025-03-30,60,310!2025-12-02,251,330-->
 - _U_ : _C_ → __Set__ \(the category of sets and functions\) ::@:: is a [faithful functor](faithful%20functor.md). <!--SR:!2025-04-08,68,324!2025-08-13,158,310-->
 
-{@{The functor _U_}@} is to be {@{thought of as a [forgetful functor](forgetful%20functor.md)}@}, which {@{assigns to every object of _C_ its "underlying set", and to every morphism in _C_ its "underlying function"}@}. <!--SR:!2025-04-05,65,310!2025-03-27,58,310!2025-03-30,60,310-->
+{@{The functor _U_}@} is to be {@{thought of as a [forgetful functor](forgetful%20functor.md)}@}, which {@{assigns to every object of _C_ its "underlying set", and to every morphism in _C_ its "underlying function"}@}. <!--SR:!2025-04-05,65,310!2025-12-07,255,330!2025-03-30,60,310-->
 
 It is customary to call {@{the morphisms in a concrete category _homomorphisms_ \(e.g., group homomorphisms, ring homomorphisms, etc.\)}@} Because of {@{the faithfulness of the functor _U_}@}, {@{the homomorphisms of a concrete category}@} may be {@{formally identified with their underlying functions \(i.e., their images under _U_\)}@}; the homomorphisms then {@{regain the usual interpretation as "structure-preserving" functions}@}. <!--SR:!2025-09-17,185,310!2025-04-15,74,324!2025-07-28,149,310!2025-06-27,116,304!2025-04-09,69,324-->
 
@@ -61,9 +61,9 @@ The class of {@{all _N_-ary predicates and _N_-ary operations of a concrete cate
 
 ## relative concreteness
 
-In {@{some parts of category theory, most notably [topos theory](topos%20theory.md)}@}, it is common to {@{replace the category __Set__ with a different category _X_}@}, often called {@{a _base category_}@}. For this reason, it makes sense to {@{call a pair \(_C_, _U_\) where _C_ is a category and _U_ a faithful functor _C_ → _X_}@} {@{a __concrete category over__ _X_}@}. For example, it may be useful to think of {@{the models (annotation: model theory...?) of a theory [with _N_ sorts](structure%20(mathematical%20logic).md#many-sorted%20structures)}@} as {@{forming a concrete category over __Set__<sup>_N_</sup>}@}. <!--SR:!2025-08-19,162,310!2025-03-29,59,310!2025-06-09,109,290!2025-04-09,69,324!2025-03-27,58,310!2025-04-02,63,310!2025-08-13,161,310-->
+In {@{some parts of category theory, most notably [topos theory](topos%20theory.md)}@}, it is common to {@{replace the category __Set__ with a different category _X_}@}, often called {@{a _base category_}@}. For this reason, it makes sense to {@{call a pair \(_C_, _U_\) where _C_ is a category and _U_ a faithful functor _C_ → _X_}@} {@{a __concrete category over__ _X_}@}. For example, it may be useful to think of {@{the models (annotation: model theory...?) of a theory [with _N_ sorts](structure%20(mathematical%20logic).md#many-sorted%20structures)}@} as {@{forming a concrete category over __Set__<sup>_N_</sup>}@}. <!--SR:!2025-08-19,162,310!2025-03-29,59,310!2025-06-09,109,290!2025-04-09,69,324!2025-12-07,255,330!2025-04-02,63,310!2025-08-13,161,310-->
 
-In this context, {@{a concrete category over __Set__}@} is sometimes called {@{a _construct_}@}. <!--SR:!2025-04-08,68,324!2025-03-27,58,310-->
+In this context, {@{a concrete category over __Set__}@} is sometimes called {@{a _construct_}@}. <!--SR:!2025-04-08,68,324!2025-12-07,255,330-->
 
 ## notes
 
