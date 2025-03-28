@@ -15,7 +15,7 @@ A __neutron star__ is {@{the [collapsed](gravitational%20collapse.md) [core](ste
 
 ### spin up
 
-Neutron star rotational speeds can {@{increase, a process known as spin up}@}. Sometimes neutron stars {@{absorb orbiting matter from companion stars}@}, increasing {@{the rotation rate and reshaping the neutron star into an [oblate spheroid](spheroid.md#oblate%20spheroids)}@}. This causes {@{an increase in the rate of rotation of the neutron star of over a hundred times per second in the case of millisecond pulsars}@}. <!--SR:!2025-08-29,300,330!2025-04-03,177,310!2025-03-28,176,310!2025-09-13,287,290-->
+Neutron star rotational speeds can {@{increase, a process known as spin up}@}. Sometimes neutron stars {@{absorb orbiting matter from companion stars}@}, increasing {@{the rotation rate and reshaping the neutron star into an [oblate spheroid](spheroid.md#oblate%20spheroids)}@}. This causes {@{an increase in the rate of rotation of the neutron star of over a hundred times per second in the case of millisecond pulsars}@}. <!--SR:!2025-08-29,300,330!2025-04-03,177,310!2027-04-29,762,330!2025-09-13,287,290-->
 
 ## references
 

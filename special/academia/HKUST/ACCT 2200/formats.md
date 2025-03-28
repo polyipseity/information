@@ -44,7 +44,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - materials requisition form ::@:: information, table, authorized signature <!--SR:!2025-06-11,76,330!2025-06-11,76,330-->
   - materials requisition form / information ::@:: materials requisition number, date, job number, description <!--SR:!2025-05-19,56,310!2025-06-11,76,330-->
   - materials requisition form / table
-    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2025-05-18,53,322!2025-03-28,18,322-->
+    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost <!--SR:!2025-05-18,53,322!2025-05-25,58,322-->
     - materials requisition form / table / row headers ::@:: material description, (materials...), total cost <!--SR:!2025-06-05,71,330!2025-05-11,46,290-->
 
 ## direct labor time ticket
@@ -74,8 +74,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2025-06-10,75,330!2025-05-21,55,310-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2025-06-11,76,330!2025-06-05,71,330-->
   - direct labor time ticket / table
-    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2025-03-28,18,322!2025-04-24,34,302-->
-    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2025-05-20,57,310!2025-03-28,16,290-->
+    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2025-06-16,80,342!2025-04-24,34,302-->
+    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2025-05-20,57,310!2025-06-03,67,310-->
 
 ## job cost sheet
 
@@ -188,7 +188,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-03-28,18,321!2025-06-08,74,341!2025-03-28,18,321!2025-03-28,18,321!2025-03-28,18,321!2025-03-28,18,321!2025-06-07,73,341!2025-03-28,18,321!2025-03-28,18,321-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-06-19,83,341!2025-06-08,74,341!2025-06-16,80,341!2025-06-18,82,341!2025-06-17,81,341!2025-06-17,81,341!2025-06-07,73,341!2025-06-18,82,341!2025-06-16,80,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -236,9 +236,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-05-04,44,310!2025-05-20,57,310-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2025-04-11,24,270!2025-06-11,76,330-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2025-06-11,76,330!2025-05-26,62,310-->
-- production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-28,18,321!2025-03-28,18,321-->
+- production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-06-15,79,341!2025-06-17,81,341-->
   - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-05-02,39,290!2025-05-17,52,310-->
-  - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-03-28,18,321!2025-03-28,18,321-->
+  - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-06-15,79,341!2025-06-17,81,341-->
 
 ## process costing (first-in, first-out)
 
@@ -250,7 +250,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-03-28,18,322!2025-03-28,18,322!2025-06-14,79,342!2025-06-14,79,342!2025-03-28,18,322!2025-03-28,18,322!2025-03-28,18,322!2025-03-28,18,322!2025-03-28,18,322-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-06-19,83,342!2025-06-19,83,342!2025-06-14,79,342!2025-06-14,79,342!2025-06-16,80,342!2025-06-19,83,342!2025-06-18,82,342!2025-06-17,81,342!2025-06-18,82,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -299,9 +299,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2025-04-21,31,290!2025-05-13,49,310-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2025-06-08,73,330!2025-06-11,76,330-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2025-04-19,29,270!2025-06-07,72,330-->
-- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-03-28,18,322!2025-06-14,79,342-->
+- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-06-16,80,342!2025-06-14,79,342-->
   - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-05-20,57,310!2025-05-31,66,310-->
-  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-06-07,73,342!2025-03-28,18,322-->
+  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-06-07,73,342!2025-06-19,83,342-->
 
 ## activity cost pool
 

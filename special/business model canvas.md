@@ -109,7 +109,7 @@ segmented: splitting slightly different customer segments
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2026-09-09,533,257!2027-01-06,689,317-->
-- diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2025-03-28,199,237!2025-05-24,243,254-->
+- diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2026-07-13,472,237!2025-05-24,243,254-->
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2025-04-04,150,277-->
 - multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2025-03-31,200,254-->
 - niche market: focusing on specific, specialized customer segments→::@::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2025-09-15,174,177-->
@@ -173,7 +173,7 @@ risk reduction
 - newness→::@::←performance <!--SR:!2026-02-01,312,277!2025-06-06,253,257-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
-- price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2025-03-28,228,274-->
+- price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2026-12-09,621,274-->
 - risk reduction→::@::←_(end)_ <!--SR:!2025-10-02,364,297!2025-11-24,358,257-->
 
 <!--/pytextgen-->

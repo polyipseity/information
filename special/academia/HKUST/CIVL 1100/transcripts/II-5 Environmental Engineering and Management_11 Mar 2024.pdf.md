@@ -225,7 +225,7 @@ Will this waste charging scheme waste generation?
 
 Environmental Levy Scheme (Plastic Shopping Bags)
 
-- Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2027-06-27,849,330-->
+- Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2028-03-25,1093,350!2027-06-27,849,330-->
   - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2025-09-06,333,310!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2026-09-09,631,330-->
   - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2026-07-14,494,270!2026-03-07,435,290-->
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::@:: clean Victoria Harbor <!--SR:!2027-03-18,772,330!2028-02-13,1060,350-->
-  - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2025-04-05,143,230!2025-03-28,237,330-->
+  - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2025-04-05,143,230!2028-03-03,1071,350-->
 
 ## page 23
 

@@ -19,7 +19,7 @@ A __refracting telescope__ (also called a __refractor__) is {@{a type of [optica
 
 Refractors suffer from {@{residual [chromatic](chromatic%20aberration.md) and [spherical aberration](spherical%20aberration.md)}@}. <!--SR:!2025-08-17,301,330-->
 
-In very large apertures, there is also {@{a problem of [lens sagging](lens%20sag.md), a result of [gravity](gravity.md) deforming [glass](glass.md)}@}. Since a lens can {@{only be held in place by its edge, the center of a large lens sags due to gravity, distorting the images it produces}@}. The largest practical lens size in a refracting telescope is {@{around 1 meter (39 in)}@}. <!--SR:!2025-06-04,239,330!2025-03-28,182,310!2026-04-05,451,310-->
+In very large apertures, there is also {@{a problem of [lens sagging](lens%20sag.md), a result of [gravity](gravity.md) deforming [glass](glass.md)}@}. Since a lens can {@{only be held in place by its edge, the center of a large lens sags due to gravity, distorting the images it produces}@}. The largest practical lens size in a refracting telescope is {@{around 1 meter (39 in)}@}. <!--SR:!2025-06-04,239,330!2026-10-13,564,310!2026-04-05,451,310-->
 
 ## references
 

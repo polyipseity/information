@@ -15,7 +15,7 @@ tags:
 
 #### addition
 
-The _sum_ of {@{two matrices __A__ and __B__ of the same size _m_ × _n_}@} is denoted {@{__A__ + __B__}@}. It is calculated by {@{adding the matrices element-wise}@}: {@{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2025-07-23,311,330!2025-03-28,218,330!2025-04-30,244,330!2025-05-25,264,330-->
+The _sum_ of {@{two matrices __A__ and __B__ of the same size _m_ × _n_}@} is denoted {@{__A__ + __B__}@}. It is calculated by {@{adding the matrices element-wise}@}: {@{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2025-07-23,311,330!2027-12-15,992,350!2025-04-30,244,330!2025-05-25,264,330-->
 
 #### scalar multiplication
 

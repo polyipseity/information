@@ -117,7 +117,7 @@ The content is in teaching order.
   - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00
 - [jazz](../../../../general/jazz.md)
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2025-05-04,76,340!2025-05-09,79,340-->
-- [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2025-03-28,41,315!2025-03-28,42,315-->
+- [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2025-09-25,181,335!2025-09-28,184,335-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2025-05-07,77,355!2025-05-07,77,355-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2025-09-19,176,335!2025-04-15,59,335-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2025-05-16,85,355!2025-04-14,59,335-->
@@ -129,7 +129,7 @@ The content is in teaching order.
   - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2025-04-14,58,335!2025-05-14,83,355-->
 - [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2025-03-29,42,315!2025-09-17,174,335-->
   - American Civil War / emancipation ::@:: In 1864, Abraham Lincoln emancipated the slaves. <!--SR:!2025-04-19,59,335!2025-05-14,83,355-->
-- [Reconstruction era](../../../../general/Reconstruction%20era.md) (1865–1877) ::@:: After the war, the federal government helped rebuild society in the south and to protect the newly freed slaves. It worked a little until the Jim Crow laws started. <!--SR:!2025-05-13,82,355!2025-03-28,41,315-->
+- [Reconstruction era](../../../../general/Reconstruction%20era.md) (1865–1877) ::@:: After the war, the federal government helped rebuild society in the south and to protect the newly freed slaves. It worked a little until the Jim Crow laws started. <!--SR:!2025-05-13,82,355!2025-09-22,178,335-->
 - [Jim Crow laws](../../../../general/Jim%20Crow%20laws.md) ::@:: They were local and state laws passed after reconstruction and became engrained in the south after the 1897 Supreme Court case _Plessy v. Ferguson_. <p> They are named after the blackfaced minstrel (a song and dance) "Jump Jim Crow" in 1828. <!--SR:!2025-09-14,171,335!2025-04-14,59,335-->
   - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc. <!--SR:!2025-03-29,42,315!2025-05-21,76,295-->
   - Jim Crow laws / end ::@:: Segregation remained primarily in the south until the civil rights movement in the 1960s. <!--SR:!2025-04-19,59,335!2025-05-10,80,355-->
@@ -155,7 +155,7 @@ The content is in teaching order.
   - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2025-05-10,80,340!2025-05-04,76,340-->
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-04-20,60,320!2025-10-07,194,340-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-05-02,74,340!2025-05-06,78,340-->
-  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-08-03,142,320!2025-03-28,45,320-->
+  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-08-03,142,320!2025-10-14,200,340-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-04-10,56,320!2025-05-06,78,340-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-05-13,83,340!2025-05-08,78,340-->
   - [syncopation](../../../../general/syncopation.md)
@@ -177,7 +177,7 @@ The content is in teaching order.
   - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2025-05-06,76,355!2025-04-14,58,335-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2025-05-13,82,355!2025-05-12,81,355-->
   - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2025-04-16,56,335!2025-05-07,77,355-->
-- [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, painist, singer; first jazz composer to notate jazz <!--SR:!2025-03-28,41,315!2025-06-12,99,315-->
+- [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, painist, singer; first jazz composer to notate jazz <!--SR:!2025-09-26,182,335!2025-06-12,99,315-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2025-05-08,78,355!2025-05-15,84,355-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2025-05-15,84,355!2025-05-16,85,355-->
   - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2025-06-10,97,315!2025-04-14,59,335-->
@@ -186,7 +186,7 @@ The content is in teaching order.
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2025-05-11,80,355!2025-05-14,83,355-->
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!2025-05-11,80,355!2025-05-17,86,355-->
     - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2025-04-15,59,335!2025-05-13,82,355-->
-- Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2025-04-14,58,335!2025-03-28,41,315-->
+- Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2025-04-14,58,335!2025-09-24,180,335-->
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!2025-05-11,80,355!2025-04-19,59,335-->
 - assignment (attendance): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
 
@@ -197,15 +197,15 @@ The content is in teaching order.
 - [jazz](../../../../general/jazz.md)
   - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2025-04-14,58,335!2025-05-17,86,355-->
 - [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2025-09-15,172,335!2025-06-08,95,315-->
-  - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2025-03-28,41,315!2025-08-04,130,315-->
-  - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2025-04-14,59,335!2025-03-28,42,315-->
+  - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2025-08-05,130,315!2025-08-04,130,315-->
+  - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2025-04-14,59,335!2025-09-27,183,335-->
   - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2025-05-17,86,355!2025-04-14,58,335-->
 - [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2025-04-15,59,335!2025-04-18,58,335-->
-  - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2025-04-24,63,335!2025-03-28,41,315-->
+  - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2025-04-24,63,335!2025-09-23,179,335-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2025-04-14,58,335!2025-06-23,102,315-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2025-04-23,62,335!2025-09-16,173,335-->
   - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2025-06-10,97,315!2025-08-05,144,335-->
-- [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2025-04-14,58,335!2025-03-28,41,315-->
+- [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2025-04-14,58,335!2025-09-23,179,335-->
 - [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2025-04-22,61,335!2025-04-17,57,335-->
   - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2025-04-14,59,335!2025-06-13,100,315-->
   - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2025-06-08,95,315!2025-04-22,61,335-->

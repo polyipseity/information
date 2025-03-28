@@ -92,7 +92,7 @@ English
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2025-09-01,433,324-->
-- [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: (v\_r) To do or offer to do something voluntarily. <!--SR:!2025-03-28,357,372!2025-04-09,369,372-->
+- [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: (v\_r) To do or offer to do something voluntarily. <!--SR:!2030-03-21,1819,392!2025-04-09,369,372-->
 
 ## references
 

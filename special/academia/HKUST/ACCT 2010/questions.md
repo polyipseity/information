@@ -233,7 +233,7 @@ tags:
 > 3. income from principal business activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2025-03-29,87,361!2025-03-28,86,361-->
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2025-03-29,87,361!2026-06-04,433,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -244,7 +244,7 @@ tags:
 > 3. income from peripheral activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2025-03-30,88,361!2025-03-28,86,361-->
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2025-03-30,88,361!2026-06-01,430,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -296,7 +296,7 @@ tags:
 > 3. period end adjustments are part of account closing procedures
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2025-03-28,86,361!2025-08-17,181,341-->
+> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2026-06-02,431,381!2025-08-17,181,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -410,7 +410,7 @@ tags:
 > 2. profitability ratio
 > 3. efficiency (activity) ratio
 >
-> - solution: {@{3}@} <!--SR:!2025-03-28,86,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-03,432,381-->
 
 ## week 7 review
 
@@ -443,7 +443,7 @@ tags:
 > 3. all of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!2025-03-31,89,361!2025-03-28,86,361-->
+> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!2025-03-31,89,361!2026-06-04,433,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -494,7 +494,7 @@ tags:
 > 2. to get expected return from such investment
 > 3. both of them are the reasons
 >
-> - solution: {@{3}@} <!--SR:!2025-03-28,86,361-->
+> - solution: {@{3}@} <!--SR:!2026-05-29,427,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -504,7 +504,7 @@ tags:
 > 2. a deferred interest expense
 > 3. it should not be an expense
 >
-> - solution: {@{3}@} <!--SR:!2025-03-28,86,361-->
+> - solution: {@{3}@} <!--SR:!2026-05-27,425,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -525,7 +525,7 @@ tags:
 > 3. Accelerated depreciation
 >
 > - solution: {@{1}@}
-> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2025-04-03,92,361!2025-03-28,86,361-->
+> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2025-04-03,92,361!2026-06-03,432,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -717,7 +717,7 @@ tags:
 > 2. Preferred stock gives extra voting power to preferred stockholders in the Annual General Meeting
 > 3. They would like to exercise the voting power attached to preferred stocks in the Annual General Meeting
 >
-> - solution: {@{1}@} <!--SR:!2025-03-28,86,361-->
+> - solution: {@{1}@} <!--SR:!2026-05-28,426,381-->
 
 <!-- markdownlint MD028 -->
 

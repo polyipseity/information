@@ -59,7 +59,7 @@ The content is in teaching order.
     - [§ tautology](../../../../general/tautology%20(logic).md#tautology)
   - [contradiction](../../../../general/contradiction.md) (false) ::@:: A proposition that is always false, no matter how the atomic propositions (terms with no operations) are assigned. <!--SR:!2025-03-30,152,323!2025-09-28,297,343-->
     - [§ contradiction](../../../../general/contradiction.md#contradiction)
-  - propositional calculus / real life application ::@:: Consider making a one bit half adder. You want: $$\begin{aligned} 0 + 0 & = 0 \\ 1 + 0 & = 1 \\ 0 + 1 & = 1 \\ 1 + 1 & = 0 \end{aligned}$$. This can be expressed as $$\begin{aligned} \text{sum of products: } & (a \land \lnot b) \lor (\lnot a \land b) \\ \text{product of sums: } & (\lnot a \lor \lnot b) \land (a \lor b) \end{aligned}$$. This is also known as the exclusive-or (xor) operation. <!--SR:!2025-03-28,148,323!2025-06-26,218,330-->
+  - propositional calculus / real life application ::@:: Consider making a one bit half adder. You want: $$\begin{aligned} 0 + 0 & = 0 \\ 1 + 0 & = 1 \\ 0 + 1 & = 1 \\ 1 + 1 & = 0 \end{aligned}$$. This can be expressed as $$\begin{aligned} \text{sum of products: } & (a \land \lnot b) \lor (\lnot a \land b) \\ \text{product of sums: } & (\lnot a \lor \lnot b) \land (a \lor b) \end{aligned}$$. This is also known as the exclusive-or (xor) operation. <!--SR:!2027-01-17,660,343!2025-06-26,218,330-->
   - [logical equivalence](../../../../general/logical%20equivalence.md) ::@:: Two propositions have the same truth values, no matter how the atomic propositions (terms with no operations) are assigned. One simple way to prove it is via a truth table and compare whether the rows are equivalent. <!--SR:!2025-11-16,334,343!2025-05-19,184,310-->
     - [§ logical equivalence](../../../../general/logical%20equivalence.md#logical%20equivalence)
     - [§ relation to material equivalence](../../../../general/logical%20equivalence.md#relation%20to%20material%20equivalence) ::@:: Material equivalence is simply a proposition that says two propositions have the same truth values. It may be false or true. Two propositions are logically equivalent if the material equivalence between them is true, no matter how the atomic propositions (terms with no operations) are assigned. <!--SR:!2025-08-07,236,323!2025-08-24,269,343-->
@@ -92,7 +92,7 @@ The content is in teaching order.
     - rules of inference / disjunctive syllogism ::@:: $$\begin{aligned} & p \lor q \\ & \underline{\lnot p \!\!\!\! \phantom{\lor q} } \\ & q \end{aligned}$$ <!--SR:!2025-05-30,200,323!2025-09-29,296,343-->
     - rules of inference / transposition (with $F$ as the consequent) ::@:: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2025-08-20,263,330!2025-08-08,256,343-->
     - rules of inference / simplification ::@:: $$\begin{aligned} & \underline{p \land q} \\ & p \end{aligned}$$ <!--SR:!2025-11-17,335,343!2025-09-24,293,343-->
-    - rules of inference / addition ::@:: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2025-09-05,278,343!2025-03-28,147,310-->
+    - rules of inference / addition ::@:: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2025-09-05,278,343!2026-12-24,636,330-->
     - rules of inference / importation (applied form) ::@:: $$\begin{aligned} & p \land q \\ & \underline{p \rightarrow (q \rightarrow r)} \\ & r \end{aligned}$$ <!--SR:!2026-02-07,349,290!2025-07-21,223,323-->
     - rules of inference / constructive dilemma ::@:: $$\begin{aligned} & p \rightarrow q \\ & r \rightarrow s \\ & \underline{p \lor r \phantom{s} } \\ & q \lor s \end{aligned}$$ <!--SR:!2026-02-02,346,303!2025-04-24,165,310-->
     - rules of inference / destructive dilemma ::@:: $$\begin{aligned} & p \rightarrow q \\ & r \rightarrow s \\ & \underline{\lnot q \lor \lnot s} \\ & \lnot p \lor \lnot r \end{aligned}$$ <!--SR:!2025-06-08,202,323!2025-10-14,310,343-->
@@ -660,7 +660,7 @@ The content is in teaching order.
     - greatest common divisor / [Bézout's identity](../../../../general/Bézout's%20identity.md) / corollary ::@:: For every two nonzero integers _a_, _b_, $$\set{ax + by \mid x, y \in \mathbb Z} = \set{q \cdot \gcd(a, b) \mid q \in \mathbb Z} \,.$$ <!--SR:!2025-05-19,143,414!2025-05-16,138,416-->
 - [coprime integers](../../../../general/coprime%20integers.md) ::@:: Two integers are coprime iff their greatest common divisor is 1. It is denoted with $a \perp b$. <!--SR:!2025-05-18,140,416!2025-04-03,96,396-->
 - theorem: coprime integers, greatest common divisor ::@:: If $\gcd(a, b) = d$, then $\gcd(a / d, b / d) = 1$. <!--SR:!2025-05-12,135,416!2025-05-25,146,416-->
-- theorem: coprime integers, divisor, multiplication ::@:: If two coprime integers $a, b$ divide the same number $c$, then $ab \mid c$. <!--SR:!2025-05-19,141,416!2025-03-28,96,396-->
+- theorem: coprime integers, divisor, multiplication ::@:: If two coprime integers $a, b$ divide the same number $c$, then $ab \mid c$. <!--SR:!2025-05-19,141,416!2026-09-04,525,416-->
 - theorem: [Euclid's lemma](../../../../general/Euclid's%20lemma.md) ::@:: If $a \mid bc$ and $\gcd(a, b) = 1$, then $a \mid c$. <!--SR:!2025-05-25,146,416!2025-05-17,139,416-->
 - [questions/2024-10-21/lecture](questions/2024-10-21%20lecture.md)
 - materials

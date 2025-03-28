@@ -344,7 +344,7 @@ tags:
 > 2. outstanding balance
 > 3. loan interest
 >
-> - solution: {@{1}@} <!--SR:!2025-03-28,18,349-->
+> - solution: {@{1}@} <!--SR:!2025-06-24,88,369-->
 
 ## week 4 lecture 2
 
@@ -387,7 +387,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-03-28,18,349-->
+> - solution: {@{1}@} <!--SR:!2025-06-25,89,369-->
 
 ## week 5 lecture
 
@@ -584,7 +584,7 @@ tags:
 > 2. No
 > 3. Cannot be determined
 >
-> - solution: {@{2}@} <!--SR:!2025-03-28,3,339-->
+> - solution: {@{2}@} <!--SR:!2025-04-12,15,359-->
 
 <!-- markdownlint MD028 -->
 

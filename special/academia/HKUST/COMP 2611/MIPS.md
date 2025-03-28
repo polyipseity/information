@@ -230,7 +230,7 @@ The 32 registers are used as follows:
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2025-04-02,16,290!2025-04-02,16,290-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2025-03-31,14,290!2025-04-02,16,290-->
 > - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <br/> in this course: return addr <!--SR:!2025-04-01,15,290!2025-03-29,12,270-->
-> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2025-04-02,16,290!2025-03-28,11,270-->
+> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2025-04-02,16,290!2025-05-10,43,290-->
 
 ## assembly
 
@@ -278,7 +278,7 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 
 - load address ::@:: `la $d, addr`; `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, 0x1001; ori $d, $at, addr[0:16];` <!--SR:!2025-04-05,15,315!2025-04-05,15,310-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2025-04-05,15,310!2025-04-07,17,310-->
-- not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-03-28,9,275!2025-04-07,17,315-->
+- not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-05-01,34,295!2025-04-07,17,315-->
 
 Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323-->
 

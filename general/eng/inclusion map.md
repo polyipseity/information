@@ -27,11 +27,11 @@ In {@{[mathematics](mathematics.md)}@}, if {@{$A$ is a [subset](subset.md) of $B
 
 {@{This and other analogous [injective](injective.md) functions<sup>[\[3\]](#^ref-3)</sup> from [substructures](substructure%20(mathematics).md)}@} are sometimes called {@{__natural injections__}@}. <!--SR:!2025-07-10,120,290!2025-04-07,67,310-->
 
-Given {@{any [morphism](morphism.md) $f$ between [objects](object%20(category%20theory).md) $X$ and $Y$}@}, if {@{there is an inclusion map $\iota :A\to X$ into the [domain](domain%20of%20a%20function.md) $X$}@}, then one can form {@{the [restriction](restriction%20(mathematics).md) $f\circ \iota$ of $f$}@}. In many instances, one can also construct {@{a canonical inclusion into the [codomain](codomain.md) $R\to Y$}@} known as {@{the [range](range%20of%20a%20function.md) of $f$}@}. <!--SR:!2025-04-06,66,310!2025-03-30,60,310!2025-03-28,58,310!2025-04-02,63,310!2025-04-06,66,310-->
+Given {@{any [morphism](morphism.md) $f$ between [objects](object%20(category%20theory).md) $X$ and $Y$}@}, if {@{there is an inclusion map $\iota :A\to X$ into the [domain](domain%20of%20a%20function.md) $X$}@}, then one can form {@{the [restriction](restriction%20(mathematics).md) $f\circ \iota$ of $f$}@}. In many instances, one can also construct {@{a canonical inclusion into the [codomain](codomain.md) $R\to Y$}@} known as {@{the [range](range%20of%20a%20function.md) of $f$}@}. <!--SR:!2025-04-06,66,310!2025-03-30,60,310!2025-12-08,255,330!2025-04-02,63,310!2025-04-06,66,310-->
 
 ## applications of inclusion maps
 
-Inclusion maps tend to be {@{[homomorphisms](homomorphism.md) of [algebraic structures](algebraic%20structure.md)}@}; thus, such inclusion maps are {@{[embeddings](embedding.md)}@}. More precisely, given {@{a substructure closed under some operations}@}, the inclusion map will be {@{an embedding for tautological reasons}@}. For example, for {@{some binary operation $\star$}@}, to {@{require that $$\iota (x\star y)=\iota (x)\star \iota (y)$$}@} is simply to say that {@{$\star$ is consistently computed in the sub-structure and the large structure}@}. The case of {@{a [unary operation](unary%20operation.md) is similar}@}; but one should also {@{look at [nullary](nullary.md#nullary) operations, which pick out a _constant_ element}@}. Here the point is that {@{[closure](closure%20(mathematics).md) means such constants must already be given in the substructure}@}. <!--SR:!2025-09-09,179,310!2025-12-03,251,330!2025-04-06,66,310!2025-04-07,67,310!2025-03-28,58,310!2025-03-31,61,310!2025-09-03,174,310!2025-03-29,59,310!2025-03-30,60,310!2025-09-18,186,310-->
+Inclusion maps tend to be {@{[homomorphisms](homomorphism.md) of [algebraic structures](algebraic%20structure.md)}@}; thus, such inclusion maps are {@{[embeddings](embedding.md)}@}. More precisely, given {@{a substructure closed under some operations}@}, the inclusion map will be {@{an embedding for tautological reasons}@}. For example, for {@{some binary operation $\star$}@}, to {@{require that $$\iota (x\star y)=\iota (x)\star \iota (y)$$}@} is simply to say that {@{$\star$ is consistently computed in the sub-structure and the large structure}@}. The case of {@{a [unary operation](unary%20operation.md) is similar}@}; but one should also {@{look at [nullary](nullary.md#nullary) operations, which pick out a _constant_ element}@}. Here the point is that {@{[closure](closure%20(mathematics).md) means such constants must already be given in the substructure}@}. <!--SR:!2025-09-09,179,310!2025-12-03,251,330!2025-04-06,66,310!2025-04-07,67,310!2025-12-08,255,330!2025-03-31,61,310!2025-09-03,174,310!2025-03-29,59,310!2025-03-30,60,310!2025-09-18,186,310-->
 
 Inclusion maps are seen in {@{[algebraic topology](algebraic%20topology.md)}@} where if {@{$A$ is a [strong deformation retract](strong%20deformation%20retract.md) of $X$}@}, the inclusion map yields {@{an [isomorphism](group%20isomorphism.md) between all [homotopy groups](homotopy%20groups.md) \(that is, it is a [homotopy equivalence](homotopy.md)\)}@}. <!--SR:!2025-04-06,66,310!2025-05-26,88,270!2025-03-29,49,250-->
 
@@ -39,8 +39,8 @@ Inclusion maps are seen in {@{[algebraic topology](algebraic%20topology.md)}@} w
 
 ## see also
 
-- [Cofibration](cofibration.md) – ::@:: continuous mapping between topological spaces <!--SR:!2025-03-28,48,250!2025-09-08,178,310-->
-- [Identity function](identity%20function.md) – ::@:: In mathematics, a function that always returns the same value that was used as its argument <!--SR:!2025-03-28,58,310!2025-03-30,60,310-->
+- [Cofibration](cofibration.md) – ::@:: continuous mapping between topological spaces <!--SR:!2025-09-13,169,270!2025-09-08,178,310-->
+- [Identity function](identity%20function.md) – ::@:: In mathematics, a function that always returns the same value that was used as its argument <!--SR:!2025-12-08,255,330!2025-03-30,60,310-->
 
 ## references
 

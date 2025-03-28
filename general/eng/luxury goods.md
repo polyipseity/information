@@ -178,7 +178,7 @@ Since {@{the development of [mass-market](mass%20market.md) "luxury" brands in t
 
 {@{Many innovative technologies}@} are being {@{added to [mass-market](mass%20market.md) products}@} and then {@{transformed into luxury items to be placed in department stores}@}.<sup>[\[55\]](#^ref-55)</sup> <!--SR:!2025-11-09,271,330!2025-11-29,288,330!2025-11-28,287,330-->
 
-{@{Department stores that sell major luxury brands}@} have {@{opened up in most major cities worldwide}@}. {@{[Le Bon Marché](Le%20Bon%20Marché.md) in [Paris](Paris.md), [France](France.md)}@} is {@{credited as one of the first of its kind}@}. <!--SR:!2025-12-04,292,330!2025-10-08,246,330!2025-03-28,82,270!2025-11-08,270,330-->
+{@{Department stores that sell major luxury brands}@} have {@{opened up in most major cities worldwide}@}. {@{[Le Bon Marché](Le%20Bon%20Marché.md) in [Paris](Paris.md), [France](France.md)}@} is {@{credited as one of the first of its kind}@}. <!--SR:!2025-12-04,292,330!2025-10-08,246,330!2026-02-06,315,290!2025-11-08,270,330-->
 
 In {@{the United States}@}, {@{the development of luxury-oriented department stores}@} not only {@{changed the retail industry}@}, but also {@{ushered the idea of freedom through [consumerism](consumerism.md)}@}, and {@{a new opportunity for middle- and upper-class women}@}.<sup>[\[56\]](#^ref-56)</sup> <!--SR:!2025-10-03,242,330!2025-10-12,251,330!2025-09-24,236,330!2025-11-11,273,330!2025-11-21,281,330-->
 

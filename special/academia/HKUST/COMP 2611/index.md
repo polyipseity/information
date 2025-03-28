@@ -31,7 +31,7 @@ The content is in teaching order.
     - final exam: 40%
 - logistics
   - course learning outcomes (CLOs) ::@:: assembly language, digital logic, instruction set architecture (ISA), organizational paradigms, processor & memory <!--SR:!2025-04-21,54,310!2025-04-22,55,310-->
-  - topics ::@:: brief digital circuit, data representation and arithmetic, instruction set architecture and assembly, computer architecture <!--SR:!2025-04-12,47,290!2025-03-28,32,270-->
+  - topics ::@:: brief digital circuit, data representation and arithmetic, instruction set architecture and assembly, computer architecture <!--SR:!2025-04-12,47,290!2025-07-29,123,290-->
     1. digital logic: combinational, sequential
     2. data representation: integer, fractional, character
     3. instruction set architecture (ISA)
@@ -86,7 +86,7 @@ The content is in teaching order.
   - von Neumann architecture / output ::@:: communicate with the users; transfer data from the memory <!--SR:!2025-04-21,54,310!2025-04-21,54,310-->
   - von Neumann architecture / memory ::@:: store to keep data and instructions <!--SR:!2025-04-25,58,310!2025-04-08,41,290-->
   - von Neumann architecture / processing unit (datapath) ::@:: unit to process data according to instructions <!--SR:!2025-04-09,42,290!2025-04-10,43,290-->
-  - von Neumann architecture / control unit (control) ::@:: unit to control input, output, memory, and processing unit <!--SR:!2025-03-28,32,270!2025-04-10,43,290-->
+  - von Neumann architecture / control unit (control) ::@:: unit to control input, output, memory, and processing unit <!--SR:!2025-07-30,124,290!2025-04-10,43,290-->
 - [information age](../../../../general/informaion%20age.md) ::@:: the agricultural revolution, then the industrial revolution, then the information revolution (computer revolution); thus we have the information age, and computers are pervasive <!--SR:!2025-04-23,56,310!2025-04-23,56,310-->
   - information age / why ::@:: one of the reasons: Moore's law: the number of transistors in an integrated circuit (IC) doubles about every two years <!--SR:!2025-04-25,58,310!2025-04-11,46,290-->
   - information age / applications ::@:: artificial intelligence, automobile computers, human genome project, search engines, world wide web <!--SR:!2025-04-09,44,290!2025-04-11,46,290-->
@@ -461,7 +461,7 @@ The content is in teaching order.
   - one's complement / addition ::@:: Adding two values is straightforward. Simply align the values on the least significant bit and add, propagating any carry to the bit one position left. If the carry extends past the end of the word it is said to have "wrapped around", a condition called an "_end-around carry_". When this occurs, the bit must be added back in at the right-most bit. This phenomenon does not occur in two's complement arithmetic. <!--SR:!2025-04-03,17,364!2025-04-11,25,384-->
   - one's complement / subtraction ::@:: Subtraction is similar, except that borrows, rather than carries, are propagated to the left. If the borrow extends past the end of the word it is said to have "wrapped around", a condition called an "_end-around borrow_". When this occurs, the bit must be subtracted from the right-most bit. This phenomenon does not occur in two's complement arithmetic. <p> An alternative is using the [method of complements](../../../../general/method%20of%20complements.md) to implement subtraction. For example, subtracting −5 from 15 is just adding 5 to 15. <!--SR:!2025-04-11,25,384!2025-05-05,42,364-->
   - one's complement / advantages ::@:: Arithmetic is simpler \(slightly more complex than two's complement\), so are the circuits to implement it. Negation is always possible. <!--SR:!2025-04-11,25,384!2025-04-10,24,384-->
-  - one's complement / disadvantages ::@:: Zero is signed \(this may be an advantage in some scenarios\). Addition and subtraction requires _end-around_ carrying and _end-around_ borrowing respectively. <!--SR:!2025-03-28,13,364!2025-04-11,25,384-->
+  - one's complement / disadvantages ::@:: Zero is signed \(this may be an advantage in some scenarios\). Addition and subtraction requires _end-around_ carrying and _end-around_ borrowing respectively. <!--SR:!2025-06-04,68,384!2025-04-11,25,384-->
 - [two's complement](../../../../general/two's%20complement.md)
   - two's complement / addition ::@:: Adding two's complement numbers requires no special processing even if the operands have opposite signs; the sign of the result is determined automatically. Simply align the values on the least significant bit and add, propagating any carry to the bit one position left. If the carry extends past the end of the word, discard it. <p> This actually reflects the [ring](../../../../general/ring%20(mathematics).md) structure on all integers [modulo](../../../../general/modular%20arithmetic.md) [2<sup>_N_</sup>](../../../../general/power%20of%20two.md): $\mathbb {Z} /2^{N}\mathbb {Z}$. <!--SR:!2025-04-12,26,384!2025-04-10,24,384-->
   - two's complement / subtraction ::@:: Computers usually use the [method of complements](../../../../general/method%20of%20complements.md) to implement subtraction. For example, subtracting −5 from 15 is just adding 5 to 15. <!--SR:!2025-04-12,26,384!2025-04-10,24,384-->

@@ -111,7 +111,7 @@ tags:
 >
 > Why was Sydney Bechet important and what are some of his contributions in jazz?
 >
-> - solution: {@{(for reference) <p> He was important because he contributed significantly to the development of Jazz. He helped develop swing, and he was the first influential person to use the soprano saxophone to play jazz, leading it becoming a popular jazz instrument.}@} <!--SR:!2025-03-28,44,290-->
+> - solution: {@{(for reference) <p> He was important because he contributed significantly to the development of Jazz. He helped develop swing, and he was the first influential person to use the soprano saxophone to play jazz, leading it becoming a popular jazz instrument.}@} <!--SR:!2025-09-24,180,310-->
 
 ## Birth of Bebop
 
@@ -154,7 +154,7 @@ tags:
 >
 > Why was no music recorded between 1942 and 1944?
 >
-> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially.}@} <!--SR:!2025-03-28,3,280-->
+> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially.}@} <!--SR:!2025-04-09,12,300-->
 
 <!-- markdownlint MD028 -->
 
@@ -175,4 +175,4 @@ tags:
 > 4. Thelonious Monk
 > 5. Charlie Christian
 >
-> - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@} <!--SR:!2025-03-28,3,280-->
+> - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@} <!--SR:!2025-04-08,11,300-->
