@@ -564,6 +564,45 @@ The content is in teaching order.
     - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually
   - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(this course: We use the "clean" one for simplicity.\)
   - bond / risk ::@:: A bond may be considered either risk-free or has default risk. <p> Government bonds, e.g. United States Treasury bills, are generally considered risk-free. But note that some countries have \(repeatedly\) defaulted on their government bonds.
+- [zero-coupon bond](../../../../general/zero-coupon%20bond.md) ::@:: It is a bond in which the face value is repaid at the time of maturity. Unlike regular bonds, it does not make periodic interest payments or have so-called coupons, hence the term zero-coupon bond. When the bond reaches maturity, its investor receives its par (or face) value.
+  - zero-coupon bond / examples ::@:: US Treasury bills, US savings bonds, long-term zero-coupon bonds, and any type of coupon bond that has been stripped of its coupons
+  - zero-coupon bond / aliases ::@:: deep discount bond, discount bond, pure discount bond
+- [yield to maturity](../../../../general/yield%20to%20maturity.md) \(YTM\) ::@:: It is an estimate of the total rate of return anticipated to be earned by an investor who buys it at a given market price, holds it to maturity, and receives all interest payments and the capital redemption on schedule. <p> The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed.
+  - yield to maturity / internal rate of return ::@:: It is the theoretical internal rate of return, or the overall interest rate, of a bond — the discount rate at which the present value of all future cash flows from the bond is equal to the current price of the bond.
+  - yield to maturity / zero-coupon bonds ::@:: $${\text{Yield to maturity(YTM)} }={\sqrt[{\text{Time period} }]{\dfrac {\text{Face value} }{\text{Present value} } } }-1$$
+- [risk-free bond](../../../../general/risk-free%20bond.md) ::@:: It is a theoretical bond that repays interest and principal with absolute certainty. The rate of return would be the risk-free interest rate.
+  - risk-free bond / arbitrage ::@:: In a competitive market, risk-free investments all have the same rate of return over the same period. Otherwise, arbitrage opportunities exist.
+- yield to maturity
+  - yield to maturity / spot interest rate ::@:: It is the rate of return earned when a bond is bought now and sold at maturity without collecting coupon payments.
+- [yield curve](../../../../general/yield%20curve.md) ::@:: It is a graph which depicts how the yields on debt instruments – such as bonds – vary as a function of their years remaining to maturity.
+  - yield curve / graph ::@:: Typically, the graph's horizontal or x-axis is a time line of months or years remaining to maturity, with the shortest maturity on the left and progressively longer time periods on the right. The vertical or y-axis depicts the annualized yield to maturity.
+  - yield curve / types ::@:: normal, flat, humped, inverted
+    - yield curve / types / normal ::@:: It means that yields rise as maturity lengthens \(i.e., the slope of the yield curve is positive\).
+    - yield curve / types / flat ::@:: It is observed when all maturities have similar yields.
+    - yield curve / types / humped ::@:: It results when short-term and long-term yields are equal and medium-term yields are higher than those of the short-term and long-term.
+    - yield curve / types / inverted ::@:: Under unusual circumstances, yields falls as maturity lengthens \(i.e., the slope of the yield curve is negative\).
+- [coupon](../../../../general/coupon%20(finance).md) ::@:: It is the interest payment received by a bondholder from the date of issuance until the date of maturity of a bond.
+  - coupon / coupon rate ::@:: Coupons are normally described in terms of the "coupon rate", which is calculated by adding the sum of coupons paid per year and dividing it by the bond's face value.
+- [United States Treasury security](../../../../general/United%20States%20Treasury%20security.md) ::@:: They are government debt instruments issued by the United States Department of the Treasury to finance government spending, in addition to taxation.
+  - United States Treasury security / types ::@:: \(in increasing terms\) treasury bill, treasury note, treasury bond
+  - United States Treasury security / treasury bill \(T-bill\) ::@:: They are zero-coupon bonds that mature in one year or less \(4 weeks, 13 weeks, 26 weeks, etc.\). They are bought at a discount of the par value and, instead of paying a coupon interest, are eventually redeemed at that par value to create a positive yield to maturity.
+  - United States Treasury security / treasury note \(T-note\) ::@:: They have maturities of 2, 3, 5, 7, or 10 years, have a coupon payment every six months, and are sold in increments of $100.
+  - United States Treasury security / treasury bond \(T-bond\) ::@:: They have the longest maturity at twenty or thirty years. They have a coupon payment every six months like T-notes.
+- bond
+  - bond / market price
+    - bond / market price / quote ::@:: Both market price and yield can be used to quote bonds. Higher price means lower yield, and vice versa.
+    - bond / market price / issuance ::@:: The issue price at which investors buy the bonds when they are first issued will typically be approximately equal to the nominal amount. The net proceeds that the issuer receives are thus the issue price, less issuance fees.
+- yield to maturity
+  - yield to maturity / coupon-bearing bonds ::@:: For bonds with multiple coupons, it is not generally possible to solve for yield in terms of price algebraically. A numerical root-finding technique such as Newton's method must be used to approximate the yield, which renders the present value of future cash flows equal to the bond price. <p> \(this course: use a financial calculator\)
+  - yield to maturity / quote ::@:: The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <p> \(this course: use APR\)
+  - yield to maturity / assumptions ::@:: consistency, default risk, held to maturity, reinvestment risk
+    - yield to maturity / assumptions / held to maturity ::@:: The owner holds the security to maturity.
+    - yield to maturity / assumptions / reinvestment risk ::@:: The owner reinvests all interest payments \(at YTM\) rather than spending them, to gain the benefit of compounded returns.
+    - yield to maturity / assumptions / default risk ::@:: The issuer makes all interest and principal payments on time and in full.
+    - yield to maturity / assumptions / consistency ::@:: The market provides consistent reinvestment opportunity at the YTM rate throughout the future \(flat yield curve\), with no cost to transact.
+- bond
+  - bond / market price
+    - bond / market price / coupon-bearing bonds ::@:: For bonds with multiple bonds, it is: $$P = \text{coupon payment} \times \frac 1 y \left(1 - \frac 1 {(1 + y)^t} \right) + \frac {\text{face value} } {(1 + y)^t} \,.$$ The above equation assumes "clean" price. <p> If coupon payment equals face value multiplied by YTM, then market price equals face value from the above equation. This is why if coupon rate equals YTM, then a bond is selling at par.
 - [questions § week 8 lecture](questions.md#week%208%20lecture)
 - [TAPPS/week 8 lecture](assignments/TAPPS/week%208%20lecture.md)
 - readings: chapter 6

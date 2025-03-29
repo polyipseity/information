@@ -763,7 +763,7 @@ tags:
 > 3. the same yields as
 >
 > - solution: {@{2}@}
-> - explanation: {@{The yield curve graphs the yield \(y-axis\) against the maturity time \(x-axis, increasing\).}@}
+> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@}
 
 <!-- markdownlint MD028 -->
 
