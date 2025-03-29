@@ -89,7 +89,7 @@ The content is in teaching order.
   - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits
 - period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly)
-- [relevant cost](../../../../genera/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs)
+- [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs)
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs
 - out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash
 - [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken

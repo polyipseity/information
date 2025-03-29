@@ -382,7 +382,7 @@ The content is in teaching order.
 - [historical cost](../../../../general/historical%20cost.md) ::@:: It is the value of the costs incurred in acquiring or creating the asset, comprising the consideration paid to acquire or create the asset plus transaction costs.
   - historical cost / balance sheet ::@:: Balance sheet records amounts measured at historical values and historical exchange rates.
 - [depreciation](../../../../general/depreciation.md) ::@:: As fixed assets are used to earn revenue, they become "used". According to the matching principle, an expense should be recorded. <p> To do so, expense "Depreciated account" is debited while contra-asset "Accumulated depreciation" is credited.
-  - [net book value](../../../../general/book%20value.md) ::@:: $$\text{cost of fixed asset} - \text{corresponding accumulated depreciation}$$
+- [net book value](../../../../general/book%20value.md) ::@:: $$\text{cost of fixed asset} - \text{corresponding accumulated depreciation}$$
 - [goodwill](../../../../general/goodwill%20(accounting).md) ::@:: It is an intangible asset recognized when a firm is purchased as a going concern. It reflects the premium that the buyer pays in addition to the net value of its other assets. It is often understood to represent the firm's intrinsic ability to acquire and retain customer business, where that ability is not otherwise attributable to brand name recognition, contractual arrangements or other specific factors. It is classified as an intangible asset on the balance sheet, since it can neither be seen nor touched.
   - goodwill / creation ::@:: It is recognized only through an acquisition; it cannot be self-created.
 - [working capital](../../../../general/working%20capital.md) ::@:: $$\text{current assets (CA)} - \text{current liabilities (CL)}$$
@@ -425,6 +425,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-12T16:30:00+08:00/2025-03-12T17:50:00+08:00
 - topic: measuring cash flows
+
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity.
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later.
@@ -434,7 +435,7 @@ The content is in teaching order.
 - depreciation
   - depreciation / effect ::@:: Say there is additional depreciation \(increase in expense\). <p> Net income would decrease, but mitigated by the tax rate, so the decrease is the additional depreciation multiplied by \(1 − tax rate\). Cash would increase, since the increase in depreciation is not cash flow, but the decrease in tax is cash flow, so the increase is the additional depreciation multiplied by tax rate. <p> This is because tax depends on pretax income.
 - [cash flow](../../../../general/cash%20flow.md) ::@:: It, in general, refers to payments made into or out of a business, project, or financial product.
-  - cash flow / operational cash flow ::@:: incremental earnings + depreciation
+  - cash flow / operational cash flow ::@:: incremental earnings \(_unlevered_ net income\) + depreciation
 - [earnings before interest, taxes, depreciation and amortization](../../../../general/earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md) \(EBITDA\) ::@:: It is a measure of a company's profitability of the operating business only, thus before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base.
   - earnings before interest, taxes, depreciation and amortization / motivation ::@:: Depreciation and amortization are not cash flows. Excluding them and additionally leverage \(debt\), it reflects the cash a firm has earned from operations by utilizing the assets.
   - earnings before interest, taxes, depreciation and amortization ::@:: EBITDA = EBIT + depreciation and amortization
@@ -483,12 +484,99 @@ The content is in teaching order.
 - operating expense
 - free cash flow
   - free cash flow / tax ::@:: Calculated as EBIT × _marginal_ corporate tax rate. It is a cash outflow. If negative, it becomes _tax credit_ and is a cash inflow. \(In accounting, the treatment of taxes is much more complicated.\) <p> Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is ignored. This explains why tax is calculated using EBIT instead of \(EBIT – interest\), even though the _actual_ tax is based on the latter.
-  - free cash flow / incremental earnings ::@:: Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is ignored. Or equivalently, the incremental earning calculates tax using EBIT instead of \(EBIT – interest\).
+  - free cash flow / incremental earnings ::@:: Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is also ignored \(apart from ignoring interest expense\). Thus, the incremental earning calculates tax using EBIT instead of \(EBIT – interest\). Hence, incremental earnings is also called _unlevered_ net income.
   - free cash flow / interest expense ::@:: Interest expense and tax shield due to interest expense is not included. <p> The motivation is FCF is cash distributable to both stockholders and _debt holders_. So a project should be judged with its operating cost, not financing cost. <p> The debt—equity mix should be considered separately.
   - free cash flow / depreciation ::@:: Depreciation is based on accounting rules, and generally does not equal economic life of the asset. So it is possible for cash inflow due to depreciation to last shorter or longer than the project life.
 - [questions § week 6 lecture 2](questions.md#week%206%20lecture%202)
 - [TAPPS/week 6 lecture 2](assignments/TAPPS/week%206%20lecture%202.md)
 - readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
+
+## week 7 lecture
+
+- datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00
+- topic: fundamentals of capital budgeting
+- free cash flow
+  - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital
+    - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\)
+    - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense
+  - free cash flow / depreciation
+  - free cash flow / capital expenditure ::@:: Cash outflows when you have capital expenditure. But this is not immediately recognized in an income statement. So we need to add this <p> By the cost principle, all reasonable and necessary expenditures \(e.g. _capitalized interest_, costs to get it up and running, materials, wages paid, etc.\) in constructing an asset should be _capitalized_ \(i.e. considered capital expenditure\).
+  - free cash flow / changes in working capital ::@:: Increase in held cash, inventory, receivables, etc. \(current assets\) increases net income, but they do not increase cash flow. So this increase needs to be subtracted from FCF. Increase in payables, etc. \(current liabilities\) decreases net income, but they do not decrease cash flow. So this increase needs to be added to FCF. <p> Overall, increase in CA subtracted by increase in CL is changes in working capital. So changes in working capital needs to be subtracted from FCF.
+    - free cash flow / changes in working capital / working capital ::@:: current assets − current liabilities = cash + inventory + accounts receivables − payables <p> Note when calculating the FCF for a project, these accounts are for the project only.
+    - free cash flow / changes in working capital / pattern ::@:: Typically, there is an increase in NWC during the initial outlay of a project \(usually year 0\). At the end of a project, the NWC is typically fully recovered \(full recovery of NWC\), i.e. its balance equals its beginning balance \(usually but not necessarily zero\).
+    - free cash flow / changes in working capital / cash ::@:: Notice the "cash" account is _not_ specially handled when calculating current assets. This is because the "cash" account is for incremental cash requirement, i.e. requirement to hold cash for a project. As the cash is held, it is not free cash flow.
+    - free cash flow / changes in working capital / trade credit ::@:: receivables − payables <p> It can be interpreted as the net capital held up in credit transactions.
+    - free cash flow / changes in working capital / recovery ::@:: Typically at the end of a project, payables are paid off, inventory are sold off, receivables are collected, so NWC equals its beginning balance, i.e. fully recovered. <p> Some NWC may not be recoverable, e.g. bad inventory, bad receivables, etc. However, accounting principles ensure these non-recoverable NWC is written off as expense, so that the total changes in NWC over a project is zero.
+  - free cash flow / net present value ::@:: To evaluate a project, find the _incremental_ free cash flows. Find the NPV of these cash flows. Apply decision rules as needed. <p> Note that some decision rules above, applicable \(i.e. consistent with NPV\) in some situation, does not require you to calculate the NPV.
+- [questions § week 7 lecture](questions.md#week%207%20lecture)
+- [TAPPS/week 7 lecture](assignments/TAPPS/week%207%20lecture.md)
+- readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
+
+## week 7 tutorial
+
+- datetime: 2025-03-21T10:30:00+08:00/2025-03-21T11:20:00+08:00
+- status: hybrid \(online, physical\), optional
+
+## week 7 lecture 2
+
+- datetime: 2025-03-21T16:30:00+08:00/2025-03-21T17:50:00+08:00
+- topic: fundamentals of capital budgeting
+- free cash flow
+  - free cash flow / terminal cash flow ::@:: They happen at or after the end of a project. They include recovering net working capital, \(after-tax\) shutdown costs, after-tax liquidation value \(asset sale\), etc.
+- depreciation
+- net book value
+  - net book value / after-tax salvage value ::@:: The difference between the actual sale value and the net book value is the gain or loss from selling the asset in accounting. This gain or loss is subject to tax. If you have gain, you have tax due. If you have loss, you have tax credit. <p> Thus, the actual cash flow is the actual sale value and the tax effect: $$\text{after-tax salvage value} = \text{sale price} - \text{gain} \times \text{corporate marginal tax rate} \,.$$ For loss, the "gain" is negative, so the above equation still applies.
+- free cash flow
+  - free cash flow / terminal cash flow
+    - free cash flow / terminal cash flow / asset sale ::@:: Compare leaving an asset for it to be depreciated versus selling it, there are 2 effects to FCF: add the after-tax salvage value at the year of sale, and remove depreciation for years after the sale. Note that removing depreciation affects the depreciation added to calculate FCF, and affects the incremental earnings.
+  - free cash flow / adjustments ::@:: timing of cash flows, accelerated depreciation \(MACRS\), tax carryforwards and carrybacks
+    - free cash flow / adjustments / timing of cash flows ::@:: Incremental cash flows can be calculated monthly or quarterly, instead of annually.
+    - free cash flow / adjustments / accelerated depreciation ::@:: Depreciation is larger earlier in the asset's life. Present value of the depreciation tax shield is thus larger. This is governed by depreciation schedules required by the relevant tax authorities \(US: IRS, HK: IRD\). <p> example: Modified Accelerated Cost Recovery System \(MACRS\)
+    - free cash flow / adjustments / tax carryforwards and carrybacks ::@:: Above, we assume that tax due is paid and tax credit is received on the year it occurs. This is the most simple way to handle taxes. <p> In practice, companies can take losses in a year and offset them against profits in nearby years for tax purposes. This is governed by the relevant tax laws.
+  - free cash flow / incremental ::@:: Note that the FCF we have been discussing above is _incremental_. This means it is comparing changes in a firm's FCF comparing taking and not taking the project. <p> Cash flows that are _included_ include _opportunity costs_ and _project externalities_, etc. Cash flows that are _excluded_ include _sunk costs_, etc.
+- [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken
+- [externality](../../../../general/externality.md) ::@:: It is an indirect cost or benefit to an uninvolved third party that arises as an effect of another party's (or parties') activity. Externalities can be considered as unpriced components that are involved in either consumer or producer market transactions. <p> A positive externality is when an individual's consumption in a market increases the well-being of others, but the individual does not charge the third party for the benefit. A negative externality is defined analogously.
+  - externality / project ::@:: project _synergy_: The project increases cash flows of other projects, e.g. a new product may increase sale of existing products. <br/> project _cannibalization_: The project decreases cash flows of other projects, e.g. a new product may decrease sale of existing products. <p> This externality should be considered part of the incremental FCF of a project. When calculating the externality, be careful to consider any other incremental changes, e.g. tax changes.
+- [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs)
+  - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs
+    - irrelevant cost / project ::@:: In a project, some common sunk costs are: fixed overhead expenses \(unless the expense is incremental to the project\), past R&D expenditure, unavoidable competitive effects, etc.
+      - irrelevant cost / project / unavoidable competitive effects ::@:: Above, we have considered a specific example of _project cannibalization_, where a new product may decrease sale of existing products. <p> But if this loss of sales is _likely_ to happen anyway due to new products introduced by competitors, then this decrease in sale is a sunk cost, and can be ignored when calculating the incremental FCF of the project.
+- [tax shield](../../../../general/tax%20shield.md) ::@:: It is the reduction in income taxes that results from taking an allowable deduction from taxable income. For example, because interest on debt is a tax-deductible expense, taking on debt creates a tax shield. <p> \(Note that FCF is usually _unlevered_, so debt tax shield is excluded.\)
+  - tax shield / importance ::@:: Since a tax shield is a way to save cash flows, it increases the value of the business, and it is an important aspect of business valuation.
+  - tax shield / free cash flow ::@:: When calculating incremental earnings/_unlevered_ net income, depreciation is subtracted before applying the tax rate. Then, when calculating FCF, depreciation is added back. <p> With the tax shield approach, when calculating FCF, depreciation is _not_ subtracted before applying the tax rate. After applying the tax rate, depreciation _multiplied by the tax rate_ is added back. This is mathematically equivalent to the previous paragraph. <p> Note that FCF is usually _unlevered_, so debt tax shield is excluded.
+    - tax shield / free cash flow / application ::@:: The tax shield approach is very good for simplifying calculations, as long as you understand it. For example, it can be used to compute the change in FCF after buying an equipment due to depreciation.
+- [questions § week 7 lecture 2](questions.md#week%207%20lecture%202)
+- [TAPPS/week 7 lecture 2](assignments/TAPPS/week%207%20lecture%202.md)
+- readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
+
+## week 8 lecture
+
+- datetime: 2025-03-26T16:30:00+08:00/2025-03-26T17:50:00+08:00
+- topic: bonds
+- [bond](../../../../bond%20(finance).md) ::@:: It is a type of security under which the issuer \(debtor\) owes the holder \(creditor\) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor.
+  - bond / cash flows ::@:: Typical cash flows are repaying the principal \(i.e. amount borrowed\) of the bond at the maturity date and interest \(called the coupon\) over a specified amount of time.
+  - bond / terminology ::@:: indenture & covenant, maturity date
+    - bond / terminology / indenture, covenant ::@:: An indenture is a formal debt agreement that establishes the terms of a bond issue, while covenants are the clauses of such an agreement.
+    - bond / terminology / maturity date ::@:: final payment date
+    - bond / terminology / term ::@:: duration from issuing date to maturity date
+    - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments
+    - bond / terminology / coupon rate ::@:: interest to compute coupon payments based on the face value; often expressed as APR
+    - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually
+  - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(this course: We use the "clean" one for simplicity.\)
+  - bond / risk ::@:: A bond may be considered either risk-free or has default risk. <p> Government bonds, e.g. United States Treasury bills, are generally considered risk-free. But note that some countries have \(repeatedly\) defaulted on their government bonds.
+- [questions § week 8 lecture](questions.md#week%208%20lecture)
+- [TAPPS/week 8 lecture](assignments/TAPPS/week%208%20lecture.md)
+- readings: chapter 6
+
+## week 8 tutorial
+
+- datetime: 2025-03-28T10:30:00+08:00/2025-03-28T11:20:00+08:00
+- status: hybrid \(online, physical\), optional
+
+## week 8 lecture 2
+
+- datetime: 2025-03-28T16:30:00+08:00/2025-03-28T17:50:00+08:00
+- status: unscheduled, day off for midterm
 
 ## assignments
 
