@@ -15,7 +15,7 @@ A concrete category, when {@{defined without reference to the notion of a catego
 
 ## definition
 
-{@{A __concrete category__}@} is {@{a pair \(_C_,_U_\)}@} such that <!--SR:!2025-03-29,59,310!2025-12-08,255,330-->
+{@{A __concrete category__}@} is {@{a pair \(_C_,_U_\)}@} such that <!--SR:!2025-12-12,258,330!2025-12-08,255,330-->
 
 - _C_ ::@:: is a category, and <!--SR:!2025-03-30,60,310!2025-12-02,251,330-->
 - _U_ : _C_ → __Set__ \(the category of sets and functions\) ::@:: is a [faithful functor](faithful%20functor.md). <!--SR:!2025-04-08,68,324!2025-08-13,158,310-->
@@ -51,7 +51,7 @@ Similarly, {@{any set with four elements can be given two non-isomorphic group s
 
 ## counter-examples
 
-{@{The category __[hTop](homotopy%20category%20of%20topological%20spaces.md)__}@}, where {@{the objects are [topological spaces](topological%20space.md) and the morphisms are [homotopy classes](homotopy.md) of continuous functions}@}, is {@{an example of a category that is not concretizable}@}. While {@{the objects are sets \(with additional structure\)}@}, {@{the morphisms are not actual functions between them, but rather classes of functions}@}. The fact that {@{there does not exist _any_ faithful functor from __hTop__ to __Set__}@} was first {@{proven by [Peter Freyd](Peter%20Freyd.md)}@}. In the same article, Freyd cites an earlier result that {@{the category of "small categories and [natural equivalence](natural%20equivalence.md)-classes of functors" also fails to be concretizable}@}. <!--SR:!2025-08-11,156,310!2025-08-31,160,270!2025-04-16,75,324!2025-03-29,59,310!2025-10-21,212,324!2025-10-25,215,324!2025-04-14,66,270!2025-04-19,70,270-->
+{@{The category __[hTop](homotopy%20category%20of%20topological%20spaces.md)__}@}, where {@{the objects are [topological spaces](topological%20space.md) and the morphisms are [homotopy classes](homotopy.md) of continuous functions}@}, is {@{an example of a category that is not concretizable}@}. While {@{the objects are sets \(with additional structure\)}@}, {@{the morphisms are not actual functions between them, but rather classes of functions}@}. The fact that {@{there does not exist _any_ faithful functor from __hTop__ to __Set__}@} was first {@{proven by [Peter Freyd](Peter%20Freyd.md)}@}. In the same article, Freyd cites an earlier result that {@{the category of "small categories and [natural equivalence](natural%20equivalence.md)-classes of functors" also fails to be concretizable}@}. <!--SR:!2025-08-11,156,310!2025-08-31,160,270!2025-04-16,75,324!2025-12-11,257,330!2025-10-21,212,324!2025-10-25,215,324!2025-04-14,66,270!2025-04-19,70,270-->
 
 ## implicit structure of concrete categories
 
@@ -61,7 +61,7 @@ The class of {@{all _N_-ary predicates and _N_-ary operations of a concrete cate
 
 ## relative concreteness
 
-In {@{some parts of category theory, most notably [topos theory](topos%20theory.md)}@}, it is common to {@{replace the category __Set__ with a different category _X_}@}, often called {@{a _base category_}@}. For this reason, it makes sense to {@{call a pair \(_C_, _U_\) where _C_ is a category and _U_ a faithful functor _C_ → _X_}@} {@{a __concrete category over__ _X_}@}. For example, it may be useful to think of {@{the models (annotation: model theory...?) of a theory [with _N_ sorts](structure%20(mathematical%20logic).md#many-sorted%20structures)}@} as {@{forming a concrete category over __Set__<sup>_N_</sup>}@}. <!--SR:!2025-08-19,162,310!2025-03-29,59,310!2025-06-09,109,290!2025-04-09,69,324!2025-12-07,255,330!2025-04-02,63,310!2025-08-13,161,310-->
+In {@{some parts of category theory, most notably [topos theory](topos%20theory.md)}@}, it is common to {@{replace the category __Set__ with a different category _X_}@}, often called {@{a _base category_}@}. For this reason, it makes sense to {@{call a pair \(_C_, _U_\) where _C_ is a category and _U_ a faithful functor _C_ → _X_}@} {@{a __concrete category over__ _X_}@}. For example, it may be useful to think of {@{the models (annotation: model theory...?) of a theory [with _N_ sorts](structure%20(mathematical%20logic).md#many-sorted%20structures)}@} as {@{forming a concrete category over __Set__<sup>_N_</sup>}@}. <!--SR:!2025-08-19,162,310!2025-12-13,259,330!2025-06-09,109,290!2025-04-09,69,324!2025-12-07,255,330!2025-04-02,63,310!2025-08-13,161,310-->
 
 In this context, {@{a concrete category over __Set__}@} is sometimes called {@{a _construct_}@}. <!--SR:!2025-04-08,68,324!2025-12-07,255,330-->
 

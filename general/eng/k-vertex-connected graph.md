@@ -15,9 +15,9 @@ tags:
 >
 > {@{A graph with connectivity 4.}@} <!--SR:!2026-01-02,280,330!2025-03-31,67,310-->
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2025-03-29,65,310!2025-03-31,67,310!2025-03-29,65,310!2025-12-17,265,330-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2026-01-05,282,330!2025-03-31,67,310!2026-01-06,283,330!2025-12-17,265,330-->
 
-{@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2025-03-29,65,310!2025-09-15,189,310-->
+{@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2026-01-07,284,330!2025-09-15,189,310-->
 
 ## definitions
 
@@ -35,7 +35,7 @@ Every graph {@{decomposes into a disjoint union of [1-connected components](comp
 
 ### polyhedral combinatorics
 
-{@{The 1-[skeleton](n-skeleton.md) (annotation: i.e. vertices and edges of the polytope represented as a graph) of any _k_-dimensional convex [polytope](polytope.md)}@} forms {@{a _k_-vertex-connected graph \([Balinski's theorem](Balinski's%20theorem.md)\)}@}.<sup>[\[3\]](#^ref-3)</sup> As {@{a partial converse, [Steinitz's theorem](Steinitz's%20theorem.md)}@} states that {@{any 3-vertex-connected [planar graph](planar%20graph.md) forms the skeleton of a convex [polyhedron](polyhedron.md)}@}. <!--SR:!2025-04-19,71,270!2025-04-14,53,230!2025-03-29,65,310!2025-05-08,80,270-->
+{@{The 1-[skeleton](n-skeleton.md) (annotation: i.e. vertices and edges of the polytope represented as a graph) of any _k_-dimensional convex [polytope](polytope.md)}@} forms {@{a _k_-vertex-connected graph \([Balinski's theorem](Balinski's%20theorem.md)\)}@}.<sup>[\[3\]](#^ref-3)</sup> As {@{a partial converse, [Steinitz's theorem](Steinitz's%20theorem.md)}@} states that {@{any 3-vertex-connected [planar graph](planar%20graph.md) forms the skeleton of a convex [polyhedron](polyhedron.md)}@}. <!--SR:!2025-04-19,71,270!2025-04-14,53,230!2026-01-08,285,330!2025-05-08,80,270-->
 
 ## computational complexity
 

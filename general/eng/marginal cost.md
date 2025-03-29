@@ -23,7 +23,7 @@ If {@{the [cost function](cost%20curve.md) $C$ is continuous and [differentiable
 >
 > {@{Short Run Marginal Cost}@} <!--SR:!2025-04-24,71,332!2025-04-05,55,312-->
 
-{@{Short run marginal cost}@} is {@{the change in total cost when an additional output is produced in the short run and some costs are fixed}@}. On the right side of the page, the short-run marginal cost forms {@{a U-shape, with quantity on the x-axis and cost per unit on the y-axis}@}. <!--SR:!2025-04-20,68,332!2025-04-10,59,314!2025-03-29,46,312-->
+{@{Short run marginal cost}@} is {@{the change in total cost when an additional output is produced in the short run and some costs are fixed}@}. On the right side of the page, the short-run marginal cost forms {@{a U-shape, with quantity on the x-axis and cost per unit on the y-axis}@}. <!--SR:!2025-04-20,68,332!2025-04-10,59,314!2025-10-14,199,332-->
 
 On {@{the short run}@}, the firm has {@{some costs that are fixed independently of the quantity of output \(e.g. buildings, machinery\)}@}. {@{Other costs such as labor and materials}@} {@{vary with output, and thus show up in marginal cost}@}. The marginal cost {@{may first decline, as in the diagram, if the additional cost per unit is high, if the firm operates at too low a level of output}@}, or {@{it may start flat or rise immediately}@}. At some point, {@{the marginal cost rises}@} as {@{increases in the variable inputs such as labor put increasing pressure on the fixed assets such as the size of the building}@}. In {@{the long run}@}, the firm would {@{increase its fixed assets to correspond to the desired output}@}; the short run is {@{defined as the period in which those assets cannot be changed}@}. <!--SR:!2025-04-20,68,332!2025-04-26,72,332!2025-04-24,71,332!2025-04-10,59,314!2025-07-27,136,312!2025-04-10,59,314!2025-04-24,71,332!2025-04-25,72,332!2025-04-28,74,332!2025-04-09,55,312!2025-09-20,180,314-->
 
@@ -118,7 +118,7 @@ Such production creates {@{a social cost curve that is below the private cost cu
 
 > {@{![Relationship between marginal cost and average total cost](../../archives/Wikimedia%20Commons/Avc%20atc%20mc.png)}@}
 >
-> {@{Relationship between marginal cost and average total cost}@} <!--SR:!2025-04-26,72,332!2025-03-29,49,312-->
+> {@{Relationship between marginal cost and average total cost}@} <!--SR:!2025-04-26,72,332!2025-10-21,206,332-->
 
 Say {@{the starting point of level of output produced is n}@}. {@{Marginal cost}@} is {@{the change of the total cost from an additional output \[\(n+1\)th unit\]}@}. Therefore, \(refer to "Average cost" labelled picture on the right side of the screen)... (annotation: $$AC_n = \frac {TC_n} {Q_n}$$ and the AC at the level $Q_{n + 1}$ is $$AC_{n + 1} = \frac {TC_{n + 1} } {Q_{n + 1} } \,.$$ Clearly, $$TC_{n + 1} = TC_n + MC \,.$$) <!--SR:!2025-04-17,65,332!2025-04-27,73,332!2025-04-24,71,332-->
 

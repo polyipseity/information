@@ -147,7 +147,7 @@ E & = K + U \\
 > - where
 >     - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
 >     - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}@}
->     - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@} <!--SR:!2025-10-17,452,296!2025-12-05,495,316!2025-03-29,358,378!2027-05-30,949,358!2025-04-11,339,370-->
+>     - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@} <!--SR:!2025-10-17,452,296!2025-12-05,495,316!2028-12-10,1352,378!2027-05-30,949,358!2025-04-11,339,370-->
 
 ## references
 

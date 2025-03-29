@@ -21,7 +21,7 @@ tags:
 
 For all natural numbers $a$ and $b$, prove that {@{addition as defined in the (second-order formulation of) Peano axioms commutates, i.e. $$a + b = b + a$$. Then, given that addition associates (i.e. $(a + b) + c = a + (b + c)$) and commutates, prove that multiplication commutates, i.e. $$a \cdot b = b \cdot a$$}@}. <!--SR:!2025-11-08,326,340-->
 
-- strategy ::@:: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2025-04-26,156,270!2025-03-29,150,320-->
+- strategy ::@:: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2025-04-26,156,270!2027-01-21,663,340-->
 
 1. definitions ::@:: For all natural numbers $a$ and $b$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ a + S(b) & = S(a + b) && \text{definition 2} \\ a \cdot 0 & = 0 && \text{definition 3} \\ a \cdot S(b) & = a + a \cdot b && \text{definition 4} \end{aligned}$$. <!--SR:!2025-07-15,232,320!2025-11-18,336,340-->
 2. commutativity of addition / lemma 1 (commutativity of definition 1) ::@:: Lemma 1 (commutativity of definition 1): $$0 + b = b$$ holds for all $b \in \mathbb N_0$. When $b = 0$, $0 + 0 = 0$ by definition 1. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} 0 + b & = b && \text{assumption} \\ S(0 + b) & = S(b) && S\text{ is a function} \\ 0 + S(b) & = S(b) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(a)$. By induction, the lemma is proved for all natural numbers. <!--SR:!2026-02-09,388,320!2025-04-07,150,300-->

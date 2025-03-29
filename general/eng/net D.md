@@ -19,7 +19,7 @@ tags:
 
 {@{__Net 10__, __net 15__, __net 30__ and __net 60__}@} \(often {@{hyphenated "net-" and/or followed by "days", e.g., "net 10 days"}@}\) are {@{__payment terms__ for [trade credit](trade%20credit.md)}@}, which {@{specify that the [net](net%20(economics).md) amount \(the total outstanding on the invoice\) is expected to be [paid](payment.md) in full by the buyer}@} {@{within 10, 15, 30 or 60 days of the date when the goods are dispatched or the service is completed}@}. Net 30 or net 60 terms are often {@{coupled with a credit for early payment}@}. <!--SR:!2025-04-09,67,310!2025-04-08,66,310!2025-04-04,63,310!2025-11-07,227,330!2025-04-04,63,310!2025-04-04,63,310-->
 
-{@{The word _net_ in this sense}@} means "{@{total after all discounts}@}". It originally derives from {@{the Latin _nitere_ \(to shine\) and _nitidus_ \(elegant, trim\)}@}, and more recently from {@{the French _net_ \(sharp, neat, clean\)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-03-29,58,310!2025-04-04,63,310!2025-07-07,105,250!2025-04-04,63,310-->
+{@{The word _net_ in this sense}@} means "{@{total after all discounts}@}". It originally derives from {@{the Latin _nitere_ \(to shine\) and _nitidus_ \(elegant, trim\)}@}, and more recently from {@{the French _net_ \(sharp, neat, clean\)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-12-09,255,330!2025-04-04,63,310!2025-07-07,105,250!2025-04-04,63,310-->
 
 ## examples
 
@@ -28,7 +28,7 @@ tags:
 
 ## usage
 
-{@{Net 30}@} is a term that {@{most business and municipalities \(federal, state, and local\) use in the United States}@}. {@{Net 10 and net 15}@} are {@{widely used as well}@}, especially for {@{contractors and service-oriented businesses \(as opposed to those that deal with tangible goods\)}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> {@{Net 60}@} is {@{not used as frequently due to its longer payment term}@}. <!--SR:!2025-04-04,63,310!2025-04-04,63,310!2025-03-29,58,310!2025-04-05,63,310!2025-08-18,160,310!2025-04-04,63,310!2025-11-26,244,330-->
+{@{Net 30}@} is a term that {@{most business and municipalities \(federal, state, and local\) use in the United States}@}. {@{Net 10 and net 15}@} are {@{widely used as well}@}, especially for {@{contractors and service-oriented businesses \(as opposed to those that deal with tangible goods\)}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> {@{Net 60}@} is {@{not used as frequently due to its longer payment term}@}. <!--SR:!2025-04-04,63,310!2025-04-04,63,310!2025-12-06,252,330!2025-04-05,63,310!2025-08-18,160,310!2025-04-04,63,310!2025-11-26,244,330-->
 
 Legally speaking, net 30 means that {@{buyer will pay seller in full on or before the 30th calendar day \(including weekends and holidays\)}@} of {@{when the goods were dispatched by the seller or the services were fully provided}@}. {@{Transit time is included when counting the days}@}, i.e. a purchase in transit for 7 days before receipt has {@{just 23 additional days until payment is due to the seller}@}. Net 30 payment terms typically have {@{an interest penalty for not meeting these terms}@} and they {@{begin accruing on the 31st day after dispatch}@}. The same happens with net 60, but {@{60 days are given for payment}@}, interest penalties {@{begin on the 61st day}@} and thus a purchase in transit for 7 days has {@{now 53 days until payment is due to the seller}@}. <!--SR:!2025-11-25,243,330!2025-07-18,128,290!2025-04-04,63,310!2025-04-07,65,310!2025-07-31,148,310!2025-11-30,247,330!2025-11-19,238,330!2025-04-07,65,310!2025-04-06,64,310-->
 

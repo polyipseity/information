@@ -50,7 +50,7 @@ In MIPS, to address a memory location, we need {@{a base address and an offset}@
 
 When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. <!--SR:!2025-04-02,16,290!2025-04-01,15,290!2025-04-02,16,290!2025-04-02,16,290!2025-04-01,15,290!2025-04-01,15,290!2025-04-01,15,290-->
 
-For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2025-03-29,4,323!2025-03-29,4,323-->
+For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2025-04-15,17,343!2025-04-15,17,343-->
 
 Note that it does not make sense to {@{talk about the endianness of a register, as they have no memory addresses}@}. When transferring multiple bytes from and to the main memory, big-endian systems {@{stores them in the main memory in big-endian, transfers them to registers by interpreting them in big-endian, and receives them from registers by writing them in big-endian}@}, and {@{vice versa for little-endian}@}. In both cases, {@{the data transfer instructions are agnostic of the endianness, i.e. does not need to care about the endianness}@}. <!--SR:!2025-04-07,17,315!2025-04-07,17,315!2025-04-06,16,315!2025-04-05,15,315-->
 
@@ -215,7 +215,7 @@ The 32 registers are used as follows:
 
 > __flashcards__
 >
-> - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2025-03-29,12,270!2025-04-01,15,290-->
+> - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2025-04-29,31,270!2025-04-01,15,290-->
 >   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2025-04-02,16,290!2025-04-02,16,290-->
 > - __`$zero`__ ::@:: `$0`: constant 0 <!--SR:!2025-04-02,16,290!2025-04-02,16,290-->
 > - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2025-04-02,16,290!2025-04-01,15,290-->
@@ -229,7 +229,7 @@ The 32 registers are used as follows:
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2025-03-31,14,290!2025-04-01,15,290-->
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2025-04-02,16,290!2025-04-02,16,290-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2025-03-31,14,290!2025-04-02,16,290-->
-> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <br/> in this course: return addr <!--SR:!2025-04-01,15,290!2025-03-29,12,270-->
+> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <br/> in this course: return addr <!--SR:!2025-04-01,15,290!2025-05-15,47,290-->
 > - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2025-04-02,16,290!2025-05-10,43,290-->
 
 ## assembly
@@ -280,6 +280,6 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2025-04-05,15,310!2025-04-07,17,310-->
 - not ::@:: `not $d, $s`: `$d = ~$s`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-05-01,34,295!2025-04-07,17,315-->
 
-Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323!2025-03-29,4,323-->
+Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-04-17,19,343!2025-04-16,18,343!2025-04-17,19,343!2025-04-12,14,323!2025-04-16,18,343!2025-04-17,19,343-->
 
 \(this course: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2025-04-07,17,315-->

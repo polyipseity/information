@@ -125,13 +125,13 @@ The content is in teaching order.
 - [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2025-04-15,59,335!2025-05-12,81,355-->
   - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2025-04-14,58,335!2025-09-16,174,335-->
   - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2025-05-12,81,355!2025-05-07,77,355-->
-- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-03-29,42,315!2025-04-17,57,335-->
+- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-09-28,183,335!2025-04-17,57,335-->
   - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2025-04-14,58,335!2025-05-14,83,355-->
-- [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2025-03-29,42,315!2025-09-17,174,335-->
+- [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2025-09-27,182,335!2025-09-17,174,335-->
   - American Civil War / emancipation ::@:: In 1864, Abraham Lincoln emancipated the slaves. <!--SR:!2025-04-19,59,335!2025-05-14,83,355-->
 - [Reconstruction era](../../../../general/Reconstruction%20era.md) (1865–1877) ::@:: After the war, the federal government helped rebuild society in the south and to protect the newly freed slaves. It worked a little until the Jim Crow laws started. <!--SR:!2025-05-13,82,355!2025-09-22,178,335-->
 - [Jim Crow laws](../../../../general/Jim%20Crow%20laws.md) ::@:: They were local and state laws passed after reconstruction and became engrained in the south after the 1897 Supreme Court case _Plessy v. Ferguson_. <p> They are named after the blackfaced minstrel (a song and dance) "Jump Jim Crow" in 1828. <!--SR:!2025-09-14,171,335!2025-04-14,59,335-->
-  - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc. <!--SR:!2025-03-29,42,315!2025-05-21,76,295-->
+  - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc. <!--SR:!2025-08-08,132,315!2025-05-21,76,295-->
   - Jim Crow laws / end ::@:: Segregation remained primarily in the south until the civil rights movement in the 1960s. <!--SR:!2025-04-19,59,335!2025-05-10,80,355-->
 - [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands. <!--SR:!2025-04-14,58,335!2025-04-14,58,335-->
 - assignment: read "African Music in Early Jazz"
@@ -355,22 +355,22 @@ The content is in teaching order.
 - datetime: 2025-02-19T08:30:00-05:00/2025-02-19T09:50:00-05:00
   - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00
 - swing music
-  - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
-    - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-03-31,26,382!2025-03-29,24,382-->
-- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2025-03-30,25,382!2025-03-29,24,382-->
-  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-03-30,25,382!2025-03-29,24,382-->
-- [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2025-05-14,55,362!2025-03-29,24,382-->
+  - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2025-07-01,94,382!2025-03-30,25,382-->
+    - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-03-31,26,382!2025-07-30,123,402-->
+- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2025-03-30,25,382!2025-08-02,126,402-->
+  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-03-30,25,382!2025-06-29,92,382-->
+- [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2025-05-14,55,362!2025-08-03,127,402-->
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-03-30,25,382!2025-05-15,56,362-->
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-05-26,65,362!2025-03-30,25,382-->
   - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
 - [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-06-05,77,382!2025-04-18,34,342-->
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
-  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2025-06-05,77,382!2025-03-29,24,382-->
+  - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2025-06-05,77,382!2025-08-04,128,402-->
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-06-17,87,382!2025-03-31,26,382-->
-- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group <!--SR:!2025-03-31,26,382!2025-03-29,24,382-->; led the first black band to tour the American South
+- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group ; led the first black band to tour the American South <!--SR:!2025-03-31,26,382!2025-07-31,124,402-->
   - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer <!--SR:!2025-04-13,26,390!2025-04-13,26,390-->
-- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-06-17,87,382!2025-03-29,24,382-->
+- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-06-17,87,382!2025-08-04,128,402-->
   - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2025-03-30,25,382!2025-03-30,25,382-->
 - swing music
   - swing music / singers
@@ -383,16 +383,16 @@ The content is in teaching order.
   - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
   - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
-  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
+  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-03-30,25,382-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
-- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
+- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2025-07-02,95,382-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2025-06-17,87,382!2025-03-31,26,382-->
   - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2025-05-15,56,362!2025-06-17,87,382-->
-- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-03-29,24,382!2025-03-31,26,382-->
-  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-03-29,24,382!2025-03-29,24,382-->
-  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-03-29,24,382!2025-03-30,25,382-->
+- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-08-01,125,402!2025-03-31,26,382-->
+  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-08-02,126,402!2025-08-04,128,402-->
+  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-08-03,127,402!2025-03-30,25,382-->
 - assignment: (none)
 
 ## week 7 lecture 2
@@ -446,13 +446,13 @@ The content is in teaching order.
   - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
 - Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
   - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-03-30,5,374!2025-03-29,4,354-->
+  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-03-30,5,374!2025-04-13,15,354-->
 - [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
   - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
 - bebop
   - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2025-03-29,4,354!2025-03-30,5,374-->
+  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2025-04-13,15,354!2025-03-30,5,374-->
 - [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
 - bebop
   - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->

@@ -334,7 +334,7 @@ tags:
 > 2. local bank
 > 3. they are the same
 >
-> - solution: {@{1}@} <!--SR:!2025-03-29,19,349-->
+> - solution: {@{1}@} <!--SR:!2025-06-29,92,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -366,7 +366,7 @@ tags:
 > 3. \<15%
 > 4. not enough information
 >
-> - solution: {@{1}@} <!--SR:!2025-03-29,19,349-->
+> - solution: {@{1}@} <!--SR:!2025-06-30,93,369-->
 
 <!-- markdownlint MD028 -->
 

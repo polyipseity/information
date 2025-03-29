@@ -90,7 +90,7 @@ The content is in teaching order.
 - [information age](../../../../general/informaion%20age.md) ::@:: the agricultural revolution, then the industrial revolution, then the information revolution (computer revolution); thus we have the information age, and computers are pervasive <!--SR:!2025-04-23,56,310!2025-04-23,56,310-->
   - information age / why ::@:: one of the reasons: Moore's law: the number of transistors in an integrated circuit (IC) doubles about every two years <!--SR:!2025-04-25,58,310!2025-04-11,46,290-->
   - information age / applications ::@:: artificial intelligence, automobile computers, human genome project, search engines, world wide web <!--SR:!2025-04-09,44,290!2025-04-11,46,290-->
-  - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s) <!--SR:!2025-03-29,24,230!2025-04-28,49,250-->
+  - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s) <!--SR:!2025-06-18,81,250!2025-04-28,49,250-->
 
 ## week 1 lab
 
@@ -406,7 +406,7 @@ The content is in teaching order.
 - datetime: 2025-03-03T13:30:00+08:00/2025-03-03T14:50:00+08:00
 - topic: basic instructions, register, memory operand
 - instruction set architecture
-  - instruction set architecture / analogy as a language ::@:: Words are _instructions_. A vocabulary (set of all words\) is an _instruction set_. Programmers write in _assembly language_. After assembly by an _assembler_, it becomes _machine language_, which hardware can understand. <!--SR:!2025-03-29,14,364!2025-04-11,25,384-->
+  - instruction set architecture / analogy as a language ::@:: Words are _instructions_. A vocabulary (set of all words\) is an _instruction set_. Programmers write in _assembly language_. After assembly by an _assembler_, it becomes _machine language_, which hardware can understand. <!--SR:!2025-06-08,71,384!2025-04-11,25,384-->
   - instruction set architecture / specifications ::@:: addressing modes, exception handling, external I/O, native data types, instructions, interrupt handling, memory architecture, opcodes \(machine language\), registers <!--SR:!2025-05-12,48,364!2025-04-03,17,364-->
   - instruction set architecture / vs. assembly language ::@:: The former is a public interface to processors implementing this ISA. The latter is simply a programming language. <p> Ideally, a ISA should have a corresponding language. In practice, there are variations. They are defined by the assembler. <!--SR:!2025-04-10,24,384!2025-04-10,24,384-->
   - instruction set architecture / advantages

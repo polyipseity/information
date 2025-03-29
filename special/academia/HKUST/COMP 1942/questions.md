@@ -248,7 +248,7 @@ tags:
 > 1. Dimension X1
 > 2. Dimension X2
 >
-> - choice: {@{1}@} <!--SR:!2025-03-29,235,330-->
+> - choice: {@{1}@} <!--SR:!2028-03-02,1069,350-->
 
 <!-- markdownlint MD028 -->
 

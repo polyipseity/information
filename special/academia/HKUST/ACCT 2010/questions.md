@@ -233,7 +233,7 @@ tags:
 > 3. income from principal business activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2025-03-29,87,361!2026-06-04,433,381-->
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2026-06-08,436,381!2026-06-04,433,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -264,7 +264,7 @@ tags:
 > 2. Seller discharged all the obligations under contract
 > 3. Seller received the cash from customers
 >
-> - solution: {@{2}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-06,434,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -368,7 +368,7 @@ tags:
 > 2. when seller discharged its obligations under contracts
 > 3. when goods have been loaded on vessel under FOB destination shipping terms
 >
-> - solution: {@{2}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-10,438,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{1}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-09,437,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -514,7 +514,7 @@ tags:
 > 2. purchase price plus all other transaction costs necessary to get the capital assets operational
 > 3. purchase price plus financing charges and cash discounts
 >
-> - solution: {@{2}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-03,431,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -545,7 +545,7 @@ tags:
 > 2. how well a company is utilizing its fixed assets and resources
 > 3. the amount of capital that comes from debt
 >
-> - solution: {@{2}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-08,436,381-->
 
 ## week 9 review
 
@@ -626,7 +626,7 @@ tags:
 > 2. could also indicate the company is not reinvesting back into its business, which could result in a lower growth rate and lower earnings for the company in the long term
 > 3. both of them are relevant
 >
-> - solution: {@{3}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-09,437,381-->
 
 ## week 10 review
 
@@ -697,7 +697,7 @@ tags:
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
 > - solution: {@{1}@}
-> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2025-03-29,87,361!2025-03-31,89,361-->
+> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2026-02-10,318,361!2025-03-31,89,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -707,7 +707,7 @@ tags:
 > 2. stock splits change both the par value of each share and the total par value
 > 3. stock splits change only the par value of each share, but total par value remains unchanged
 >
-> - solution: {@{3}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-07,435,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -789,7 +789,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@} <!--SR:!2025-03-29,87,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-10,438,381-->
 
 <!-- markdownlint MD028 -->
 

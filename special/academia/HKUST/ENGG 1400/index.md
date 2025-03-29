@@ -52,7 +52,7 @@ The content is in teaching order.
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
   - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2026-06-27,479,310!2025-10-24,303,330-->
-  - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2025-07-01,216,330!2025-03-29,142,310-->
+  - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2025-07-01,216,330!2026-12-01,612,330-->
 - class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2025-05-26,185,310!2025-08-18,254,330-->
 - activity 1: art to building community
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2025-07-15,227,330-->
@@ -161,8 +161,8 @@ The content is in teaching order.
   - design thinking / creativity ::@:: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2025-04-03,121,394!2025-04-10,128,394-->
   - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2025-04-08,126,394!2025-04-11,129,394-->
   - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2025-04-09,127,394!2026-07-15,494,394-->
-- activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2025-04-13,131,394!2025-03-29,118,394-->
-  - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2025-03-29,118,394!2026-01-12,327,374-->
+- activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2025-04-13,131,394!2026-12-26,637,414-->
+  - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2026-12-25,636,414!2026-01-12,327,374-->
 - point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2025-04-08,126,394!2025-04-10,128,394-->
 
 ## week 9 tutorial
@@ -183,7 +183,7 @@ The content is in teaching order.
   - design thinking / discernment ::@:: __Discernment__ is integrating _multiple_ ways of knowing, which includes cognitive/intellectual, emotional/affective, physical/kinesthetic, and social. <!--SR:!2026-12-15,627,414!2025-04-01,121,394-->
     - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2025-04-05,123,394!2025-04-11,129,394-->
     - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2025-04-04,122,394!2026-05-05,440,394-->
-    - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2025-03-29,118,394!2025-04-01,121,394-->
+    - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2026-12-27,638,414!2025-04-01,121,394-->
     - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2026-01-20,329,374!2025-04-06,124,394-->
     - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2026-02-01,342,374-->
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2025-04-01,121,394!2025-04-11,129,394-->
@@ -206,7 +206,7 @@ The content is in teaching order.
   - activity 2: gratefulness exercise / debrief ::@:: You may find it surprisingly comfortable. You may see things that you have remembered in a different way. <p> "Participants who kept a gratitude journal weekly for 10 weeks or daily for two weeks experienced more gratitude, positive moods, optimism about the future, and better sleep." — Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of personality and social psychology_, _84_(2), 377. <!--SR:!2026-10-04,557,417!2025-03-31,107,397-->
 - odyssey ::@:: Ideate own life's possibilities. This is using _reframing_. <!--SR:!2026-10-12,563,417!2025-05-06,144,417-->
   - odyssey / dysfunctional belief ::@:: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional... <!--SR:!2026-10-14,565,417!2025-05-03,141,417-->
-  - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations. <!--SR:!2025-03-29,105,397!2025-05-05,143,417-->
+  - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations. <!--SR:!2026-10-22,572,417!2025-05-05,143,417-->
 - activity 3: odyssey planning – 3 versions of my life ::@:: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints! <!--SR:!2025-03-31,107,397!2025-05-04,142,417-->
   - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise? <!--SR:!2026-09-25,550,417!2025-04-02,109,397-->
 

@@ -93,7 +93,7 @@ Note that if {@{you try to use Python to repeat the above mathematical proofs}@}
 
 ## spectrums
 
-{@{The magnitude spectrum}@} is {@{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}@}. For easier visualization, the magnitude may be {@{in logarithm scale}@}. The magnitude, intuitively, represents {@{the loudness of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-07,304,330!2025-08-19,288,330!2025-08-17,286,330!2025-03-29,170,310-->
+{@{The magnitude spectrum}@} is {@{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}@}. For easier visualization, the magnitude may be {@{in logarithm scale}@}. The magnitude, intuitively, represents {@{the loudness of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-07,304,330!2025-08-19,288,330!2025-08-17,286,330!2027-03-22,723,330-->
 
 {@{The phase spectrum}@} is {@{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}@}. The phase, intuitively, represents {@{the time offset of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-06,292,353!2025-09-03,292,353!2026-02-03,417,373-->
 
@@ -133,4 +133,4 @@ The most common form of FFT is {@{the Cooley–Tukey algorithm}@} that {@{divide
 
 Note that when {@{zero padding a signal for FFT}@}, it is important to {@{apply the zero-centered variant instead of the causal one}@}. (The reason is mentioned above already.) <!--SR:!2025-09-06,294,353!2026-01-18,404,373-->
 
-Note that FFT is fundamentally {@{the same thing as DFT}@}, with the only difference being {@{how the values are actually computed}@}. <!--SR:!2025-07-22,260,353!2025-03-29,162,333-->
+Note that FFT is fundamentally {@{the same thing as DFT}@}, with the only difference being {@{how the values are actually computed}@}. <!--SR:!2025-07-22,260,353!2027-04-11,743,353-->
