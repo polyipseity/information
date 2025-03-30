@@ -243,7 +243,7 @@ return _chain.from_iterable(await _gather(
 - [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2029-06-08,1541,310-->
 - [calcium](calcium.md):@:reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
 - [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2025-04-27,96,150-->
-- [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-03-30,144,150-->
+- [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-10-28,212,150-->
 - [aluminium](aluminium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-05-11,123,150-->
 - [titanium](titanium.md):@:reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2028-01-01,1043,250-->
 - [manganese](manganese.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2025-05-14,118,150-->

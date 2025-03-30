@@ -90,7 +90,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {@{identifying assumptions, issues, and relationships}@}. From said information, {@{conclusions, deductions, and inferences can be made}@}. It also helps with {@{evaluating authority, evidence, and logicalness of your thinking}@}, {@{making self-corrections}@} as necessary. Finally, you can {@{present your solution persuasively}@}. <!--SR:!2026-09-22,620,321!2025-03-30,213,321!2026-06-14,547,321!2025-07-27,323,341!2025-07-09,309,341-->
+The case method, i.e. using case analysis for teaching, can teach {@{identifying assumptions, issues, and relationships}@}. From said information, {@{conclusions, deductions, and inferences can be made}@}. It also helps with {@{evaluating authority, evidence, and logicalness of your thinking}@}, {@{making self-corrections}@} as necessary. Finally, you can {@{present your solution persuasively}@}. <!--SR:!2026-09-22,620,321!2027-10-30,944,341!2026-06-14,547,321!2025-07-27,323,341!2025-07-09,309,341-->
 
 ### case analysis elements
 
@@ -138,7 +138,7 @@ root cause analysis, 5 whys
 - 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2025-06-28,254,281!2026-09-08,609,321-->
 - 5F: Porter's 5 forces framework→::@::←7S: McKinsey 7S framework <!--SR:!2026-01-21,400,301!2027-09-23,913,341-->
 - 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-12-27,297,261!2025-09-12,179,261-->
-- PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2025-03-30,181,281-->
+- PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2026-08-21,509,281-->
 - PPTG: people, process, technology, governance framework→::@::←blue ocean strategy <!--SR:!2025-09-23,198,281!2026-06-01,535,321-->
 - blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-06-09,86,221-->
 - interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2026-04-23,426,261!2025-09-01,283,241-->

@@ -12,7 +12,7 @@ tags:
 
 In a rigid frame, structural elements like {@{beams, columns, and floor slabs are rigidly connected}@}. Typically, the material used is {@{reinforced concrete}@}. At {@{junctions joining the structural elements}@}, the joints are {@{fixed and rigid}@}. <!--SR:!2027-08-28,901,330!2026-01-12,333,270!2025-05-01,269,330!2025-05-25,286,330-->
 
-Usually, the building plan is {@{open and are rectangular grids, making space planning easy}@}. Even {@{the vertical plan (elevation)}@} are {@{rectangular grids}@}. You can think of the structural elements as {@{a 3D lattice}@}, where the vertical structural elements are the {@{columns or walls}@} and others are the {@{beams}@}. <!--SR:!2026-05-13,508,310!2025-05-15,280,330!2026-07-12,578,310!2025-03-30,244,330!2027-03-18,788,330!2028-02-12,1062,350-->
+Usually, the building plan is {@{open and are rectangular grids, making space planning easy}@}. Even {@{the vertical plan (elevation)}@} are {@{rectangular grids}@}. You can think of the structural elements as {@{a 3D lattice}@}, where the vertical structural elements are the {@{columns or walls}@} and others are the {@{beams}@}. <!--SR:!2026-05-13,508,310!2025-05-15,280,330!2026-07-12,578,310!2028-04-07,1104,350!2027-03-18,788,330!2028-02-12,1062,350-->
 
 It is used in {@{car parks, low-rise factories, etc.}@} Economically, it makes sense {@{up to about 25 stories}@}, after which {@{the lateral stiffness is too low, making it not suitable for tall buildings}@}. <!--SR:!2027-08-22,896,330!2027-06-09,841,330!2027-05-19,837,330-->
 

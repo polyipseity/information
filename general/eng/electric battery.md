@@ -227,7 +227,7 @@ return chain.from_iterable(await gather(
 
 - [NiMH](nickel–metal%20hydride%20battery.md):@:[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md) <!--SR:!2026-03-04,371,263-->
 - [lead–acid](lead–acid%20battery.md):@:[PbO<sub>2</sub>](lead%20dioxide.md) <!--SR:!2026-08-27,631,323-->
-- [lithium-ion](lithium-ion%20battery.md):@:[Li](lithium.md) metal [oxide](oxide.md) <!--SR:!2025-03-30,123,243-->
+- [lithium-ion](lithium-ion%20battery.md):@:[Li](lithium.md) metal [oxide](oxide.md) <!--SR:!2026-01-30,306,243-->
 
 <!--/pytextgen-->
 

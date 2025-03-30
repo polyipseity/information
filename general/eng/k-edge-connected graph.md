@@ -11,7 +11,7 @@ tags:
 
 # k-edge-connected graph
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2025-03-30,66,310!2025-12-06,259,330!2025-03-30,66,310-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md)}@} is ___k_-edge-connected__ if {@{it remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ edges are removed}@}. <!--SR:!2026-01-14,290,330!2025-12-06,259,330!2025-10-16,200,310-->
 
 {@{The __edge-connectivity__ of a graph}@} is {@{the largest _k_ for which the graph is _k_-edge-connected}@}. <!--SR:!2025-03-31,67,310!2025-08-19,167,310-->
 
@@ -21,15 +21,15 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(disc
 
 > {@{![A 2-edge-connected graph](../../archives/Wikimedia%20Commons/2-edge%20connected%20graph.svg)}@}
 >
-> {@{A 2-edge-connected graph}@} <!--SR:!2025-03-30,66,310!2025-03-30,66,310-->
+> {@{A 2-edge-connected graph}@} <!--SR:!2026-01-14,290,330!2026-01-14,290,330-->
 
-Let {@{$G=(V,E)$ be an arbitrary graph}@}. If {@{the [subgraph](glossary%20of%20graph%20theory.md#subgraphs) $G'=(V,E\setminus X)$ is connected for all $X\subseteq E$ where $|X|<k$}@}, then {@{_G_ is said to be _k_-edge-connected}@}. {@{The edge connectivity of $G$}@} is {@{the maximum value _k_ such that _G_ is _k_-edge-connected}@}. {@{The smallest set _X_ whose removal disconnects _G_}@} is {@{a [minimum cut](minimum%20cut.md) in _G_}@}. <!--SR:!2025-12-10,262,330!2025-07-22,135,290!2025-12-22,272,330!2025-12-15,266,330!2025-03-30,66,310!2025-10-09,197,310!2025-11-29,253,330-->
+Let {@{$G=(V,E)$ be an arbitrary graph}@}. If {@{the [subgraph](glossary%20of%20graph%20theory.md#subgraphs) $G'=(V,E\setminus X)$ is connected for all $X\subseteq E$ where $|X|<k$}@}, then {@{_G_ is said to be _k_-edge-connected}@}. {@{The edge connectivity of $G$}@} is {@{the maximum value _k_ such that _G_ is _k_-edge-connected}@}. {@{The smallest set _X_ whose removal disconnects _G_}@} is {@{a [minimum cut](minimum%20cut.md) in _G_}@}. <!--SR:!2025-12-10,262,330!2025-07-22,135,290!2025-12-22,272,330!2025-12-15,266,330!2025-10-16,200,310!2025-10-09,197,310!2025-11-29,253,330-->
 
 {@{The edge connectivity version of [Menger's theorem](Menger's%20theorem.md)}@} provides {@{an alternative and equivalent characterization, in terms of edge-disjoint paths in the graph}@}. {@{If and only if every two [vertices](vertex%20(graph%20theory).md) of _G_ form the endpoints of _k_ paths, no two of which share an edge with each other}@}, then {@{_G_ is _k_-edge-connected}@}. In one direction this is easy: {@{if a system of paths like this exists, then every set _X_ of fewer than _k_ edges is disjoint from at least one of the paths}@}, and {@{the pair of vertices remains connected to each other even after _X_ is deleted}@}. In the other direction, {@{the existence of a system of paths for each pair of vertices in a graph that cannot be disconnected by the removal of few edges}@} can be proven {@{using the [max-flow min-cut theorem](max-flow%20min-cut%20theorem.md) from the theory of [network flows](flow%20network.md)}@}. <!--SR:!2025-09-03,179,310!2025-07-26,136,290!2025-07-17,131,290!2025-12-31,278,330!2025-03-31,67,310!2025-03-31,67,310!2025-07-21,133,290!2025-09-05,180,310-->
 
 ## related concepts
 
-{@{Minimum [vertex degree](degree%20(graph%20theory).md)}@} gives {@{a trivial upper bound on edge-connectivity}@}. That is, if {@{a graph $G=(V,E)$ is _k_-edge-connected}@} then {@{it is necessary that _k_ ≤ δ\(_G_\), where δ\(_G_\) is the minimum degree of any vertex _v_ ∈ _V_}@}. {@{Deleting all edges incident to a vertex _v_}@} would {@{disconnect _v_ from the graph}@}. <!--SR:!2025-12-16,267,330!2025-03-30,66,310!2025-12-01,255,330!2025-09-29,189,310!2025-11-28,252,330!2025-09-20,193,310-->
+{@{Minimum [vertex degree](degree%20(graph%20theory).md)}@} gives {@{a trivial upper bound on edge-connectivity}@}. That is, if {@{a graph $G=(V,E)$ is _k_-edge-connected}@} then {@{it is necessary that _k_ ≤ δ\(_G_\), where δ\(_G_\) is the minimum degree of any vertex _v_ ∈ _V_}@}. {@{Deleting all edges incident to a vertex _v_}@} would {@{disconnect _v_ from the graph}@}. <!--SR:!2025-12-16,267,330!2025-10-16,200,310!2025-12-01,255,330!2025-09-29,189,310!2025-11-28,252,330!2025-09-20,193,310-->
 
 Edge connectivity is {@{the dual concept to [girth](girth%20(graph%20theory).md), the length of the shortest cycle in a graph}@}, in the sense that {@{the girth of a [planar graph](planar%20graph.md) is the edge connectivity of its [dual graph](dual%20graph.md), and vice versa}@}. These concepts are {@{unified in [matroid theory](matroid.md)}@} by {@{the [girth of a matroid](matroid%20girth.md), the size of the smallest dependent set in the matroid}@}. For {@{a [graphic matroid](graphic%20matroid.md)}@}, {@{the matroid girth equals the girth of the underlying graph}@}, while {@{for a co-graphic matroid it equals the edge connectivity}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-09-06,181,310!2025-05-03,80,270!2025-08-19,169,310!2025-04-06,65,270!2025-03-31,67,310!2025-05-11,81,270!2025-08-05,134,270-->
 
@@ -37,7 +37,7 @@ Edge connectivity is {@{the dual concept to [girth](girth%20(graph%20theory).md)
 
 ## computational aspects
 
-There is {@{a polynomial-time algorithm}@} to {@{determine the largest _k_ for which a graph _G_ is _k_-edge-connected}@}. A simple algorithm would, {@{for every pair _\(u,v\)_, determine the [maximum flow](maximum%20flow%20problem.md) from _u_ to _v_ with the capacity of all edges in _G_ set to 1 for both directions}@}. {@{A graph is _k_-edge-connected}@} {@{if and only if the maximum flow from _u_ to _v_ is at least _k_ for any pair _\(u,v\)_}@}, so {@{_k_ is the least _u-v_-flow among all _\(u,v\)_}@}. <!--SR:!2025-12-02,255,330!2025-12-22,271,330!2025-12-20,270,330!2025-03-30,66,310!2025-12-19,269,330!2025-03-31,67,310-->
+There is {@{a polynomial-time algorithm}@} to {@{determine the largest _k_ for which a graph _G_ is _k_-edge-connected}@}. A simple algorithm would, {@{for every pair _\(u,v\)_, determine the [maximum flow](maximum%20flow%20problem.md) from _u_ to _v_ with the capacity of all edges in _G_ set to 1 for both directions}@}. {@{A graph is _k_-edge-connected}@} {@{if and only if the maximum flow from _u_ to _v_ is at least _k_ for any pair _\(u,v\)_}@}, so {@{_k_ is the least _u-v_-flow among all _\(u,v\)_}@}. <!--SR:!2025-12-02,255,330!2025-12-22,271,330!2025-12-20,270,330!2025-10-17,201,310!2025-12-19,269,330!2025-03-31,67,310-->
 
 If {@{_n_ is the number of vertices in the graph}@}, this simple algorithm would {@{perform $O(n^{2})$ iterations of the Maximum flow problem, which can be solved in $O(n^{3})$ time}@}. Hence {@{the complexity of the simple algorithm described above is $O(n^{5})$ in total}@}. <!--SR:!2026-01-08,285,330!2025-10-07,195,310!2025-12-11,263,330-->
 

@@ -177,7 +177,7 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2025-04-12,207,270!2025-03-30,239,330-->
+  - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2025-04-12,207,270!2027-05-29,790,330-->
   - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2026-06-18,554,310!2027-04-21,802,330-->
 
 ## page 10
@@ -394,7 +394,7 @@ return await memorize_seq(
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-07,18,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2026-07-31,505,270-->
-- sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2025-03-30,222,310-->
+- sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2027-02-16,688,310-->
 
 <!--/pytextgen-->
 

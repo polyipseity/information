@@ -99,7 +99,7 @@ Now {@{the covariant hom-functor $\mathrm {Hom} _{\mathcal {C} }(*,-)$}@} corres
 ## notes
 
 1. a. Recall that {@{$\Phi _{A}:\mathrm {Hom} (A,A)\to F(A)$}@} so the last expression is {@{well-defined and sends a morphism from $A$ to $A$, to an element in $F(A)$}@}. <a id="^ref-a"></a>^ref-a
-2. b. {@{A notable exception to modern algebraic geometry texts following the conventions of this article}@} is {@{_Commutative algebra with a view toward algebraic geometry_ / David Eisenbud \(1995\)}@}, which {@{uses $h_{A}$ to mean the covariant hom-functor}@}. However, the later book {@{_The geometry of schemes_ / David Eisenbud, Joe Harris \(1998\)}@} {@{reverses this and uses $h_{A}$ to mean the contravariant hom-functor}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2025-04-13,76,329!2025-04-09,72,329!2025-04-12,75,329!2025-05-28,95,289!2025-04-02,67,310!2025-03-30,54,289!2025-04-02,67,310-->
+2. b. {@{A notable exception to modern algebraic geometry texts following the conventions of this article}@} is {@{_Commutative algebra with a view toward algebraic geometry_ / David Eisenbud \(1995\)}@}, which {@{uses $h_{A}$ to mean the covariant hom-functor}@}. However, the later book {@{_The geometry of schemes_ / David Eisenbud, Joe Harris \(1998\)}@} {@{reverses this and uses $h_{A}$ to mean the contravariant hom-functor}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2025-04-13,76,329!2025-04-09,72,329!2025-04-12,75,329!2025-05-28,95,289!2025-04-02,67,310!2025-11-01,216,309!2025-04-02,67,310-->
 
 ## references
 

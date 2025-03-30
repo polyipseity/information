@@ -152,7 +152,7 @@ The content is in teaching order.
 ## week 8 tutorial
 
 - datetime: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
-- activity 1: how many uses ::@:: Think of as many uses for a paperclip in 3 minutes. Play intense music. <!--SR:!2025-03-30,119,394!2025-03-31,120,394-->
+- activity 1: how many uses ::@:: Think of as many uses for a paperclip in 3 minutes. Play intense music. <!--SR:!2026-12-30,640,414!2025-03-31,120,394-->
   - activity 1: how many uses / takeaways ::@:: Did you get stuck? If no, then good! Yes, it is normal. You can improve this by using different _schemas_, collaborating with others, and think in a more relaxed environment (No intense music!). <!--SR:!2025-04-01,121,394!2025-03-31,120,394-->
 - activity 2: how many uses, better ::@:: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2026-01-12,322,374!2025-04-11,129,394-->
   - activity 2: how many uses, better / takeaways ::@:: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2025-04-06,124,394!2025-04-07,125,394-->
@@ -171,7 +171,7 @@ The content is in teaching order.
 - wild ideas
   - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2026-12-21,633,414!2026-12-03,617,414-->
   - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2025-04-12,130,394!2026-12-10,623,414-->
-- activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2025-03-30,119,394!2026-12-23,635,414-->
+- activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2027-01-01,642,414!2026-12-23,635,414-->
 - decision making
   - decision making / elements ::@:: information, objectives, options <!--SR:!2025-03-31,120,394!2025-04-09,127,394-->
   - decision making / process (bad) ::@:: gather & create → narrow down → choose → _agonize_ <!--SR:!2025-04-12,130,394!2025-04-08,126,394-->
@@ -188,7 +188,7 @@ The content is in teaching order.
     - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2026-02-01,342,374-->
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2025-04-01,121,394!2025-04-11,129,394-->
 - decision making
-  - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2025-04-09,127,394!2025-03-30,119,394-->
+  - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2025-04-09,127,394!2026-12-29,639,414-->
   - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2025-04-07,125,394!2026-12-11,624,414-->
     - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2025-04-10,128,394-->
 
@@ -198,7 +198,7 @@ The content is in teaching order.
 - assignments: [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
 - mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally. <!--SR:!2026-09-17,542,417!2026-09-26,551,417-->
   - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_? <!--SR:!2025-05-11,148,417!2025-05-10,147,417-->
-- activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2025-04-03,110,397!2025-03-30,106,397-->
+- activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2025-04-03,110,397!2026-10-26,575,417-->
   - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2025-05-03,141,417!2025-05-06,144,417-->
 - paying attention
   - pay attention / types ::@:: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.). <!--SR:!2026-10-20,575,417!2025-04-01,108,397-->

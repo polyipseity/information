@@ -244,7 +244,7 @@ tags:
 > 3. income from peripheral activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2025-03-30,88,361!2026-06-01,430,381-->
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2026-06-08,435,381!2026-06-01,430,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -285,7 +285,7 @@ tags:
 > 3. Normally, the smaller the better
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!2025-03-30,88,361!2025-04-02,91,361-->
+> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!2026-06-09,436,381!2025-04-02,91,361-->
 
 ## week 4 review
 
@@ -348,7 +348,7 @@ tags:
 > 2. denotes how much net asset value is associated with one unit of common stock of a company
 > 3. represents the pre-tax income of a company
 >
-> - solution: {@{1}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-15,442,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -400,7 +400,7 @@ tags:
 > 2. by ageing of accounts receivable (ageing analysis)
 > 3. both of them could be used
 >
-> - solution: {@{3}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-13,440,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -464,7 +464,7 @@ tags:
 > 3. LIFO
 >
 > - solution: {@{2}@}
-> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2025-04-02,91,361!2025-03-30,88,361-->
+> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2025-04-02,91,361!2026-06-14,441,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -484,7 +484,7 @@ tags:
 > 2. the above principle requires company to adjust market value movements of its inventories left unsold
 > 3. the inventory value is determined by the selling price of the last transaction done at the end of the year
 >
-> - solution: {@{1}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-12,439,381-->
 
 ## week 8 review
 
@@ -605,7 +605,7 @@ tags:
 > 2. A sum of money is worth more now than the same sum will be at a future date due to its earning potential
 > 3. Both of them are correct
 >
-> - solution: {@{3}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-07,434,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -666,7 +666,7 @@ tags:
 > 2. treasury shares
 > 3. preferred shares
 >
-> - solution: {@{1}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{1}@} <!--SR:!2026-02-12,319,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -676,7 +676,7 @@ tags:
 > 2. treasury shares
 > 3. ordinary shares or common stocks
 >
-> - solution: {@{2}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-10,437,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -809,7 +809,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{2}@} <!--SR:!2025-03-30,88,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-16,443,381-->
 
 <!-- markdownlint MD028 -->
 

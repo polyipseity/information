@@ -205,7 +205,7 @@ return (
 - Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s):@:-2.868 <!--SR:!2025-11-02,358,150-->
 - Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s):@:-2.71 <!--SR:!2025-04-15,104,130-->
 - Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s):@:-2.372 <!--SR:!2025-04-17,62,130-->
-- Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s):@:-1.662 <!--SR:!2025-03-30,59,130-->
+- Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s):@:-1.662 <!--SR:!2025-06-15,77,130-->
 - 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>:@:-0.8277 <!--SR:!2025-04-02,27,130-->
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s):@:-0.7618 <!--SR:!2025-05-01,38,130-->
 - Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s):@:-0.744 <!--SR:!2025-05-30,86,136-->
@@ -221,7 +221,7 @@ return (
 - Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq):@:0.151 <!--SR:!2025-04-13,22,130-->
 - HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.16 <!--SR:!2025-04-29,49,130-->
 - SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.17 <!--SR:!2026-03-29,430,210-->
-- Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2025-03-30,55,130-->
+- Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2025-06-13,75,130-->
 - O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq):@:0.401 <!--SR:!2026-09-06,703,210-->
 - SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l):@:0.5 <!--SR:!2025-04-15,81,150-->
 - CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l):@:0.52 <!--SR:!2025-04-19,38,130-->

@@ -44,11 +44,11 @@ tags:
 > - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-11-26,251,330!2025-12-23,272,330-->
 > - partial magma ::@:: (none) <!--SR:!2025-12-19,268,330!2025-12-17,266,330-->
 > - semigroupoid ::@:: associative <!--SR:!2025-06-01,85,230!2025-07-15,118,250-->
-> - small category ::@:: associative, identity <!--SR:!2025-10-08,196,310!2025-03-30,66,310-->
+> - small category ::@:: associative, identity <!--SR:!2025-10-08,196,310!2026-01-14,290,330-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2025-07-03,122,290!2025-06-25,105,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-04-11,27,190!2025-10-06,194,310-->
 > - magma ::@:: total <!--SR:!2025-03-31,67,310!2025-12-24,273,330-->
-> - commutative magma ::@:: total, commutative <!--SR:!2025-03-31,67,310!2025-03-30,66,310-->
+> - commutative magma ::@:: total, commutative <!--SR:!2025-03-31,67,310!2026-01-14,290,330-->
 > - quasigroup ::@:: total, divisible <!--SR:!2025-04-18,70,270!2025-07-29,128,250-->
 > - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-06-28,117,290!2025-07-15,129,290-->
 > - unital magma ::@:: total, identity <!--SR:!2025-11-06,234,330!2025-06-25,114,290-->
@@ -61,7 +61,7 @@ tags:
 > - monoid ::@:: total, associative, identity <!--SR:!2025-05-30,65,270!2025-09-07,162,270-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-04-12,70,270!2025-04-29,49,170-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2025-03-31,67,310!2025-09-10,176,310-->
-> - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-12-18,267,330!2025-03-30,66,310-->
+> - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-12-18,267,330!2026-01-14,290,330-->
 
 ## references
 

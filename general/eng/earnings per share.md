@@ -34,7 +34,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-{@{__Earnings per share__ \(__EPS__\)}@} is {@{the monetary value of [earnings](earnings.md) per [outstanding share](shares%20outstanding.md) of [common stock](common%20stock.md) for a company during a defined period of time}@}. It is {@{a key measure of corporate profitability}@}, focussing on {@{the interests of the company's owners \([shareholders](shareholder.md)\)}@},<sup>[\[1\]](#^ref-1)</sup> and is commonly used to {@{price stocks}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-25,274,330!2025-06-23,116,290!2025-03-30,66,310!2025-03-30,66,310!2025-12-11,263,330-->
+{@{__Earnings per share__ \(__EPS__\)}@} is {@{the monetary value of [earnings](earnings.md) per [outstanding share](shares%20outstanding.md) of [common stock](common%20stock.md) for a company during a defined period of time}@}. It is {@{a key measure of corporate profitability}@}, focussing on {@{the interests of the company's owners \([shareholders](shareholder.md)\)}@},<sup>[\[1\]](#^ref-1)</sup> and is commonly used to {@{price stocks}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-25,274,330!2025-06-23,116,290!2025-10-16,200,310!2026-01-10,286,330!2025-12-11,263,330-->
 
 In the United States, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} requires {@{EPS information for the four major categories of the [income statement](income%20statement.md)}@}: {@{continuing operations, discontinued operations, extraordinary items, and [net income](net%20income.md)}@}. <!--SR:!2025-09-20,182,310!2025-11-12,239,330!2025-08-07,159,310-->
 
@@ -50,7 +50,7 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ## diluted earnings per share
 
-{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-15,266,330!2025-08-27,164,310!2025-03-30,66,310!2025-09-10,185,310!2025-04-21,72,270-->
+{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-15,266,330!2025-08-27,164,310!2026-01-12,288,330!2025-09-10,185,310!2025-04-21,72,270-->
 
 ### calculations
 
@@ -58,7 +58,7 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ### U.S. GAAP
 
-{@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2025-03-30,66,310!2025-09-17,177,270!2025-12-26,275,330!2025-11-08,236,330!2025-11-29,254,330!2025-09-01,177,310-->
+{@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2026-01-14,290,330!2025-09-17,177,270!2025-12-26,275,330!2025-11-08,236,330!2025-11-29,254,330!2025-09-01,177,310-->
 
 _Diluted shares:_ ::@:: To calculate the total number of shares used in the calculation, FASB prescribes using the treasury method to calculate the dilutive effect of any instruments that could result in the issuance of shares, including: <!--SR:!2025-08-22,170,310!2025-06-29,116,290-->
 
@@ -87,7 +87,7 @@ Under {@{[International Financial Reporting Standards](International%20Financial
 - contractual rights to purchase shares
 - contingent issuance contracts or agreement
 
-The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2025-07-14,117,250!2025-07-20,133,290!2025-03-30,66,310-->
+The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2025-07-14,117,250!2025-07-20,133,290!2026-01-13,289,330-->
 
 The differences that remain are the result of differences in {@{the application of the treasury stock method, the treatment of contracts that may be settled in shares or cash, and contingently issuable shares}@}. <!--SR:!2025-09-18,178,270-->
 

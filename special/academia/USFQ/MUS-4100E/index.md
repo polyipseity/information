@@ -106,7 +106,7 @@ The content is in teaching order.
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2025-04-12,66,321!2025-04-20,72,321-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-04-03,58,310!2025-10-08,200,321-->
   - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2025-04-12,66,321!2025-04-03,58,310-->
-    - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-03-30,55,310!2025-04-12,66,321-->
+    - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-11-22,237,330!2025-04-12,66,321-->
     - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-09-26,188,321!2025-04-16,69,321-->
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
 - assignment: (none)
@@ -121,7 +121,7 @@ The content is in teaching order.
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2025-05-07,77,355!2025-05-07,77,355-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2025-09-19,176,335!2025-04-15,59,335-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2025-05-16,85,355!2025-04-14,59,335-->
-  - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2025-04-15,59,335!2025-03-30,43,315-->
+  - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2025-04-15,59,335!2025-10-02,186,335-->
 - [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2025-04-15,59,335!2025-05-12,81,355-->
   - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2025-04-14,58,335!2025-09-16,174,335-->
   - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2025-05-12,81,355!2025-05-07,77,355-->
@@ -181,7 +181,7 @@ The content is in teaching order.
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2025-05-08,78,355!2025-05-15,84,355-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2025-05-15,84,355!2025-05-16,85,355-->
   - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2025-06-10,97,315!2025-04-14,59,335-->
-  - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2025-03-30,43,315!2025-04-18,58,335-->
+  - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2025-10-01,185,335!2025-04-18,58,335-->
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2025-05-11,80,355!2025-05-14,83,355-->
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!2025-05-11,80,355!2025-05-17,86,355-->
@@ -347,7 +347,7 @@ The content is in teaching order.
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist <!--SR:!2025-05-27,75,376!2025-07-25,123,396-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-07-22,120,396!2025-07-23,121,396-->
 - gypsy jazz
-  - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
+  - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2025-08-11,134,402!2025-03-31,26,382-->
 - assignment: (none)
 
 ## week 6 lecture 2
@@ -355,23 +355,23 @@ The content is in teaching order.
 - datetime: 2025-02-19T08:30:00-05:00/2025-02-19T09:50:00-05:00
   - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00
 - swing music
-  - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2025-07-01,94,382!2025-03-30,25,382-->
+  - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2025-07-01,94,382!2025-08-10,133,402-->
     - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-03-31,26,382!2025-07-30,123,402-->
-- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2025-03-30,25,382!2025-08-02,126,402-->
-  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-03-30,25,382!2025-06-29,92,382-->
+- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2025-07-07,99,382!2025-08-02,126,402-->
+  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-08-09,132,402!2025-06-29,92,382-->
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2025-05-14,55,362!2025-08-03,127,402-->
-  - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-03-30,25,382!2025-05-15,56,362-->
-  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-05-26,65,362!2025-03-30,25,382-->
-  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+  - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2025-07-07,99,382!2025-05-15,56,362-->
+  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2025-05-26,65,362!2025-08-08,131,402-->
+  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-03-31,26,382!2025-08-09,132,402-->
 - [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2025-06-05,77,382!2025-04-18,34,342-->
-  - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
-  - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-03-30,25,382!2025-03-31,26,382-->
+  - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-03-31,26,382!2025-08-09,132,402-->
+  - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-08-10,133,402!2025-03-31,26,382-->
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2025-06-05,77,382!2025-08-04,128,402-->
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor <!--SR:!2025-06-17,87,382!2025-03-31,26,382-->
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group ; led the first black band to tour the American South <!--SR:!2025-03-31,26,382!2025-07-31,124,402-->
   - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer <!--SR:!2025-04-13,26,390!2025-04-13,26,390-->
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2025-06-17,87,382!2025-08-04,128,402-->
-  - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2025-03-30,25,382!2025-03-30,25,382-->
+  - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2025-07-07,99,382!2025-08-10,133,402-->
 - swing music
   - swing music / singers
     - swing music / singers / examples: Anita O'day, Carmen McCrae, Jon Hendricks, Mel Torme, Nina Simone, Peggy Lee, Sarah Vaughan
@@ -382,17 +382,17 @@ The content is in teaching order.
 - datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00
   - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
-  - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
-  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-03-30,25,382-->
+  - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-03-31,26,382!2025-07-06,98,382-->
+  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-08-11,134,402-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-03-31,26,382!2025-03-31,26,382-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2025-07-02,95,382-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2025-06-17,87,382!2025-03-31,26,382-->
-  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
-- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-03-31,26,382!2025-03-30,25,382-->
+  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-03-31,26,382!2025-08-08,131,402-->
+- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-03-31,26,382!2025-07-06,98,382-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2025-05-15,56,362!2025-06-17,87,382-->
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-08-01,125,402!2025-03-31,26,382-->
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist <!--SR:!2025-08-02,126,402!2025-08-04,128,402-->
-  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-08-03,127,402!2025-03-30,25,382-->
+  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-08-03,127,402!2025-08-08,131,402-->
 - assignment: (none)
 
 ## week 7 lecture 2
@@ -439,23 +439,23 @@ The content is in teaching order.
 
 - datetime: 2025-03-17T08:30:00-05:00/2025-03-17T09:00:00-05:00
   - local: 2025-03-17T21:30:00+08:00/2025-03-17T22:00:00+08:00
-- [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. <p> The name comes from the rhythm. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-- [Minton's Playhouse](../../../../general/Minton's%20Playhouse.md) ::@:: a jazz club in Harlem, New York City; held regular jam sessions <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Minton's Playhouse / characteristic ::@:: Many experimental musicians pushing the limits of music. This led to a new "way" to play jazz: bebop. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-- Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-03-30,5,374!2025-04-13,15,354-->
-- [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
+- [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. <p> The name comes from the rhythm. <!--SR:!2025-04-25,26,394!2025-04-24,25,394-->
+- [Minton's Playhouse](../../../../general/Minton's%20Playhouse.md) ::@:: a jazz club in Harlem, New York City; held regular jam sessions <!--SR:!2025-04-25,26,394!2025-04-24,25,394-->
+  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-04-26,27,394!2025-04-19,20,374-->
+  - Minton's Playhouse / characteristic ::@:: Many experimental musicians pushing the limits of music. This led to a new "way" to play jazz: bebop. <!--SR:!2025-04-24,25,394!2025-04-25,26,394-->
+  - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-04-25,26,394!2025-04-25,26,394-->
+- Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-04-26,27,394!2025-04-26,27,394-->
+  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-04-26,27,394!2025-04-19,20,374-->
+  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-04-19,20,374!2025-04-13,15,354-->
+- [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-04-24,25,394!2025-04-19,20,374-->
+  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-04-24,25,394!2025-04-26,27,394-->
+  - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-04-25,26,394!2025-04-24,25,394-->
 - bebop
-  - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
-  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2025-04-13,15,354!2025-03-30,5,374-->
-- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
+  - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2025-04-24,25,394!2025-04-25,26,394-->
+  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2025-04-13,15,354!2025-04-24,25,394-->
+- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-04-25,26,394!2025-04-26,27,394-->
 - bebop
-  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
+  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2025-04-19,20,374!2025-04-26,27,394-->
 - Charlie Parker
-  - Charlie Parker / effect ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-03-30,5,374!2025-03-30,5,374-->
+  - Charlie Parker / effect ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-04-26,27,394!2025-04-25,26,394-->
 - assignment: \(none\)

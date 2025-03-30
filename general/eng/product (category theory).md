@@ -93,7 +93,7 @@ The product is {@{[associative](associative.md)}@}. Suppose {@{$C$ is a Cartesia
 
 - Main article: [Distributive category](distributive%20category.md)
 
-For {@{any objects $X,Y,{\text{ and } }Z$ of a category with finite products and coproducts}@}, there is {@{a [canonical](list%20of%20mathematical%20jargon.md#canonical) morphism $X\times Y+X\times Z\to X\times (Y+Z)$}@}, where {@{the plus sign here denotes the [coproduct](coproduct.md)}@}. To see this, note that {@{the universal property of the coproduct $X\times Y+X\times Z$ guarantees the existence of unique arrows filling out the following diagram \(the induced arrows are dashed\)}@}: <p> {@{![product—coproduct distributivity](../../archives/Wikimedia%20Commons/Product-Coproduct%20Distributivity%20SVG.svg)}@} <!--SR:!2025-11-21,240,330!2025-03-30,58,310!2025-04-04,63,310!2025-03-30,58,310!2025-05-24,85,270-->
+For {@{any objects $X,Y,{\text{ and } }Z$ of a category with finite products and coproducts}@}, there is {@{a [canonical](list%20of%20mathematical%20jargon.md#canonical) morphism $X\times Y+X\times Z\to X\times (Y+Z)$}@}, where {@{the plus sign here denotes the [coproduct](coproduct.md)}@}. To see this, note that {@{the universal property of the coproduct $X\times Y+X\times Z$ guarantees the existence of unique arrows filling out the following diagram \(the induced arrows are dashed\)}@}: <p> {@{![product—coproduct distributivity](../../archives/Wikimedia%20Commons/Product-Coproduct%20Distributivity%20SVG.svg)}@} <!--SR:!2025-11-21,240,330!2025-09-28,182,310!2025-04-04,63,310!2025-12-10,255,330!2025-05-24,85,270-->
 
 {@{The universal property of the product $X\times (Y+Z)$}@} then {@{guarantees a unique morphism $X\times Y+X\times Z\to X\times (Y+Z)$ induced by the dashed arrows (annotation: the the dashed arrows are the unique projection morphisms) in the above diagram}@}. {@{A [distributive category](distributive%20category.md)}@} is one {@{in which this morphism is actually an isomorphism}@}. Thus in {@{a distributive category, there is the canonical isomorphism $$X\times (Y+Z)\simeq (X\times Y)+(X\times Z).$$}@} <!--SR:!2025-04-05,63,310!2025-05-25,86,270!2025-04-06,64,310!2025-04-05,63,310!2025-06-30,121,290-->
 
@@ -103,7 +103,7 @@ For {@{any objects $X,Y,{\text{ and } }Z$ of a category with finite products and
 - [Diagonal functor](diagonal%20functor.md) – ::@:: the [left adjoint](left%20adjoint.md) of the product functor. <!--SR:!2025-05-25,86,270!2025-03-31,49,250-->
 - [Limit and colimits](limit%20(category%20theory).md) – ::@:: Mathematical concept <!--SR:!2025-04-04,63,310!2025-04-06,64,310-->
 - [Equalizer](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2025-04-01,60,310!2025-04-06,64,310-->
-- [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2025-12-07,253,330!2025-03-30,58,310-->
+- [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2025-12-07,253,330!2025-12-10,255,330-->
 - [Cartesian closed category](Cartesian%20closed%20category.md) – ::@:: Type of category in category theory <!--SR:!2025-04-08,66,310!2025-04-05,63,310-->
 - [Categorical pullback](categorical%20pullback.md) – ::@:: Most general completion of a commutative square given two morphisms with same codomain <!--SR:!2025-05-23,84,270!2025-06-12,111,290-->
 
