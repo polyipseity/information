@@ -16,24 +16,24 @@ tags:
 
 ### avatar set 1
 
-- <https://discord.com/>: (redacted)
-- <https://im.qq.com/>: (redacted)
+- <https://discord.com/>: \[redacted\]
+- <https://im.qq.com/>: \[redacted\]
 - <https://studio.buymeacoffee.com/my-account/edit-profile>: polyipseity
-- <https://wechat.com/>: (redacted)
+- <https://wechat.com/>: \[redacted\]
 
 ### avatar set 2
 
-- <https://linkedin.com/in/(redacted)>
+- <https://linkedin.com/in/\[redacted\]>
 
 ### avatar set 3
 
 - contacts
-- <https://apc.delve.office.com/?v=editprofile>: (redacted)
-- <https://facebook.com/(redacted)>
-- <https://hkust.zoom.us/profile>: (redacted)
-- <https://instagram.com/(redacted)>
-- <https://piazza.com/careers/dashboard#/my_profile>: \(redacted\)
-- <https://whatsapp.com/>: (redacted)
+- <https://apc.delve.office.com/?v=editprofile>: \[redacted\]
+- <https://facebook.com/\[redacted\]>
+- <https://hkust.zoom.us/profile>: \[redacted\]
+- <https://instagram.com/\[redacted\]>
+- <https://piazza.com/careers/dashboard#/my_profile>: \[redacted\]
+- <https://whatsapp.com/>: \[redacted\]
 
 ### avatar set 4
 
@@ -41,7 +41,7 @@ tags:
 - <https://appleid.apple.com/account/manage/section/information>: <polyipseity@gmail.com>
 - <https://discord.com/>: polyipseity
 - <https://github.com/polyipseity>
-- <https://instagram.com/(redacted)>
+- <https://instagram.com/\[redacted\]>
 - <https://myaccount.google.com/>: <polyipseity@gmail.com>
 - <https://t.me/quizzaciously>
 - <https://twitch.tv/settings/profile>: polyipseity
@@ -49,7 +49,7 @@ tags:
 
 ### avatar set 5
 
-- <https://youtube.com/channel/(redacted)>
+- <https://youtube.com/channel/\[redacted\]>
 
 ## email
 
@@ -64,7 +64,7 @@ tags:
 
 ### email set 2
 
-- <https://linkedin.com/in/(redacted)>
+- <https://linkedin.com/in/\[redacted\]>
 
 ## export
 

@@ -962,4 +962,4 @@ The content is in teaching order.
 > Thank you very much.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]

@@ -126,7 +126,7 @@ The content is in teaching order.
   - format: part 1: instructor interviews guests; part 2: small-talk circle format
   - dress code: business casual
   - has food and drinks
-  - 2 guests: Mr. Alex (redacted), Mr. Derek (redacted)
+  - 2 guests: \[redacted\], \[redacted\]
   - network practicum / takeaways ::@:: Learn from others' stories (collect data), and be inspired in your life planning!
 
 ## week 7 tutorial
@@ -256,6 +256,6 @@ The content is in teaching order.
 >
 > Wish you all the best in life!
 >
-> \(redacted\) & \(redacted\)
+> \[redacted\] & \[redacted\]
 >
 > <small>---Fill out the SFQ survey as well if you have not as yet. Your voice matters!</small>

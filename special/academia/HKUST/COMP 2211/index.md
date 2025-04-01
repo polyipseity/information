@@ -792,7 +792,7 @@ ID: 23456789
 > Thank you, and good luck with your midterms, including those for your other courses.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## midterm examination
 
@@ -1127,12 +1127,12 @@ ID: 23456789
 
 > Dear all,
 >
-> Please note that tomorrow's lab sessions (i.e., the ones on November 28) will be dedicated to questions and answers to assist you in preparing for the final exams. Of course, you are also welcome to ask any questions regarding Lab 8, Lab 9, and PA 2 during this time. Attendance is not mandatory, so feel free to bring your questions and discuss them with your TAs (\(redacted\) and \(redacted\)).
+> Please note that tomorrow's lab sessions (i.e., the ones on November 28) will be dedicated to questions and answers to assist you in preparing for the final exams. Of course, you are also welcome to ask any questions regarding Lab 8, Lab 9, and PA 2 during this time. Attendance is not mandatory, so feel free to bring your questions and discuss them with your TAs (\[redacted\] and \[redacted\]).
 >
 > Thanks.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## week 13 lecture 2
 
@@ -1296,7 +1296,7 @@ ID: 23456789
 > Thanks, and see you all tomorrow morning.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## aftermath
 

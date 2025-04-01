@@ -310,7 +310,7 @@ The content is in teaching order.
 > I'd advised you in the classes last week, the classes today have been cancelled for your revisions.  This serves as a reminder.  Thank you.
 >
 > Warm regards, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## midterm examination
 
@@ -510,7 +510,7 @@ The content is in teaching order.
 > The above arrangements are arranged to address the safety concerns of the individuals involved, as well as the acute traffic and/or road conditions that happened in their neighborhoods.
 >
 > Warm regards, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## week 12 lecture 1
 
@@ -623,4 +623,4 @@ The content is in teaching order.
 > 7. Bring your own push-button handheld calculators.  Models that are approved by public examination authorities would be allowable.  But, no other electronic devices are allowed to be used in the examination.
 >
 > Warm regards, <br/>
-> \(redacted\)
+> \[redacted\]
