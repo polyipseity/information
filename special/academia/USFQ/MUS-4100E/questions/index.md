@@ -123,7 +123,7 @@ tags:
 >
 > What was the new style of music developed by Charlie Parker and Dizzy Gillespie in the 1940s?
 >
-> - solution: {@{Bebop}@}
+> - solution: {@{bebop}@}
 
 <!-- markdownlint MD028 -->
 

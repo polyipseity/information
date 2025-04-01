@@ -280,7 +280,7 @@ The content is in teaching order.
     - computer number format / unsigned integer / max ::@:: It has all bits set to 1.
     - computer number format / unsigned integer / min ::@:: It has all bits set to 0.
 - [two's complement](../../../../general/two's%20complement.md) ::@:: It is the most common method of representing signed (positive, negative, and zero) integers on computers, and more generally, fixed point binary values. <p> We can do natural arithmetic on it without using special rules.
-  - two's complement / sign bit ::@:: The most significant bit (MSB) is \(_this_\). If 0, then positive. If 1, then negative.
+  - two's complement / sign bit ::@:: The most significant bit (MSB) is \(_this_\). If 0, then nonnegative \(_not_ just positive\). If 1, then negative.
   - two's complement / nonnegative integers ::@:: Same as that for unsigned integers. Beware of the range though... in particular, the _sign bit_ is always 0. (Or you can use the _sign bit_ anyway; but when it is 1, the result after the whole procedure overflows and becomes a negative integer.)
   - two's complement / negative integers ::@:: Start with the absolute binary representation of the number, with the leading bit being a sign bit. (If the _sign bit_ is 1, the result after the whole procedure overflows (less accurately "underflows") and becomes a positive integer.) Then invert (or flip) all bits – changing every 0 to 1, and every 1 to 0. Finally, add 1 to the entire inverted number, ignoring any overflow. Accounting for overflow will produce the wrong value for the result.
   - two's complement / range ::@:: _n_ bits: \[−2<sup>_n_<!-- markdown separator -->−1</sup>, 2<sup>_n_<!-- markdown separator -->−1</sup>−1\]

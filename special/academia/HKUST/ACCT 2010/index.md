@@ -360,7 +360,7 @@ The content is in teaching order.
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later.
 - [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system.
   - revenue expenditure / characteristics ::@:: does not extend useful life beyond original estimate <br/> does not increase efficiency <br/> maintains normal operating conditions <br/> recurring in nature and involves small amounts of money at each occurrence
-  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Accumulated deprecation is lower later.
+  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Deprecation expense is lower later.
 - capital expenditure vs. operating expenditure ::@:: Since they have different effects, many companies have policies regarding the expensing of all expenditures below a certain amount according to the _materiality constraint_.
 - [depreciation](../../../../general/depreciation.md) ::@:: As fixed assets are used to earn revenue, they become "used". According to the matching principle, an expense should be recorded. <p> To do so, expense "Depreciation" is debited while contra-asset "Accumulated depreciation" is credited.
   - depreciation / required information ::@:: acquisition cost, estimated useful life, estimated residual value (at the end of useful life)

@@ -295,7 +295,7 @@ The content is in teaching order.
 - topic: queueing system, simulation method
 - M/M/1 queue
 - M/M/c queue
-- [G/G/1 queue](../../../../general/G_G_1%20queue.md) ::@:: M/M/1: _general_ (unknown distribution) inter-arrival time/_general_ (unknown distribution) service time/1 server; assume one FIFO (first-in first-out)/FCFS (first-come first-serve) queue
+- [G/G/1 queue](../../../../general/G_G_1%20queue.md) ::@:: G/G/1: _general_ (unknown distribution) inter-arrival time/_general_ (unknown distribution) service time/1 server; assume one FIFO (first-in first-out)/FCFS (first-come first-serve) queue
   - G/G/1 queue / motivation ::@:: In M/M/1 queue, we assume inter-arrival times and service times follow exponential distributions. But this may not hold in many situations. If we drop the above assumption, then we get this model. <p> Note that M/M/1 (_not_ M/M/c though) is a _special case_ of this.
   - G/G/1 queue / parameters ::@:: arrival: average rate $\lambda$, coefficient of variation $\text{CV}_a$ (use the distribution of the inter-arrival time, e.g. exponential) <br/> service: average rate $\mu$ (average service time: $T_p = 1 / \mu$), coefficient of variation $\text{CV}_p$ (use the distribution of the service time, e.g. exponential)
   - G/G/1 queue / average queue waiting time ::@:: It is given by the [Kingman's formula](../../../../general/Kingman's%20formula.md): $$W_q = \left(\frac \rho {1 - \rho}\right) \left(\frac {\text{CV}_a^2 + \text{CV}_p^2} 2 \right) T_p \,.$$ <p> Note that this is the _queue_ average waiting time, not _system_ average waiting time.
