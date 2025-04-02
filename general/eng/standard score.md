@@ -43,7 +43,7 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 
 {@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, {@{knowing the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2025-04-22,63,310!2025-04-17,59,310!2025-04-24,65,310!2025-04-22,63,310!2025-04-25,66,310-->
 
-When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-04-14,57,310!2025-04-24,65,310!2025-04-02,47,290-->
+When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-04-14,57,310!2025-04-24,65,310!2025-10-08,189,310-->
 
 In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2025-04-14,57,310-->
 
@@ -62,7 +62,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 ### prediction intervals
 
-{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2025-04-15,58,310!2025-04-20,62,310!2025-04-21,63,310!2025-04-15,58,310!2025-04-24,65,310!2025-04-26,67,310!2025-03-31,43,290!2025-04-04,46,290!2025-04-14,57,310-->
+{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2025-04-15,58,310!2025-04-20,62,310!2025-04-21,63,310!2025-04-15,58,310!2025-04-24,65,310!2025-04-26,67,310!2025-09-23,175,310!2025-04-04,46,290!2025-04-14,57,310-->
 
 ### process control
 

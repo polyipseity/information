@@ -9,7 +9,7 @@ tags:
 
 # five whys
 
-__Five whys__ (or __5 whys__) is {@{an [iterative](iteration.md) interrogative [technique](skill.md) to discover [casual relationships](casuality.md) underlying a problem}@}. The technique involves {@{repeating the question "Why?" 5 or more times, directing the current "Why?" to the answer of the previous "Why?"}@}. <!--SR:!2025-04-01,230,330!2026-12-10,698,330-->
+__Five whys__ (or __5 whys__) is {@{an [iterative](iteration.md) interrogative [technique](skill.md) to discover [casual relationships](casuality.md) underlying a problem}@}. The technique involves {@{repeating the question "Why?" 5 or more times, directing the current "Why?" to the answer of the previous "Why?"}@}. <!--SR:!2028-02-12,1047,350!2026-12-10,698,330-->
 
 ## references
 

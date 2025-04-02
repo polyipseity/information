@@ -19,7 +19,7 @@ The __alkali metals__ {@{consist of the [chemical elements](chemical%20element.m
 
 ## representative reactions
 
-Alkali metals {@{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}@}. <!--SR:!2025-03-31,444,250-->
+Alkali metals {@{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}@}. <!--SR:!2029-07-10,1561,270-->
 
 ### reaction with water
 

@@ -36,7 +36,7 @@ In {@{a perfectly competitive market}@}, capital market resources should be {@{a
 
 __Best trade outcome__ ::@:: <p> Even if you trade again, individuals cannot get greater benefits from it. At this time, for any two consumers, the marginal substitution rate of any two commodities is the same, and the utility of the two consumers is maximized at the same time. <!--SR:!2025-08-25,201,314!2025-11-10,278,334-->
 
-__Optimal production__ ::@:: <p> This economy must be on the boundary of its own production possibilities. At this time, for any two producers who produce different products, the marginal technology substitution rate of the two production factors that need to be input is the same, and the output of the two consumers is maximized at the same time. <!--SR:!2025-04-02,90,274!2025-09-10,213,314-->
+__Optimal production__ ::@:: <p> This economy must be on the boundary of its own production possibilities. At this time, for any two producers who produce different products, the marginal technology substitution rate of the two production factors that need to be input is the same, and the output of the two consumers is maximized at the same time. <!--SR:!2026-03-18,350,294!2025-09-10,213,314-->
 
 __Optimal product mix__ ::@:: <p> The combination of products produced by the economy must reflect consumer preferences. At this time, the marginal rate of substitution between any two commodities must be the same as the marginal product conversion rate of any producer between these two commodities. <!--SR:!2025-07-11,165,316!2025-07-25,177,316-->
 

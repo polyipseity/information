@@ -285,7 +285,7 @@ tags:
 > 3. Normally, the smaller the better
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!2026-06-09,436,381!2025-04-02,91,361-->
+> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!2026-06-09,436,381!2026-07-03,457,381-->
 
 ## week 4 review
 
@@ -307,7 +307,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2025-04-03,92,361!2025-03-31,89,361-->
+> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2025-04-03,92,361!2026-06-19,443,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -318,7 +318,7 @@ tags:
 > 3. contractual liability
 >
 > - solution: {@{1}@}
-> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2025-04-01,90,361!2025-04-03,92,361-->
+> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2026-06-28,452,381!2025-04-03,92,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -328,7 +328,7 @@ tags:
 > 2. deferred revenue
 > 3. current asset
 >
-> - solution: {@{2}@} <!--SR:!2025-03-31,89,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-21,445,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -379,7 +379,7 @@ tags:
 > 3. Sales discounts
 >
 > - solution: {@{2}@}
-> - explanation: {@{It is not even in the equation...}@} <!--SR:!2025-04-01,90,361!2025-04-01,90,361-->
+> - explanation: {@{It is not even in the equation...}@} <!--SR:!2026-06-26,450,381!2026-06-29,453,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -421,7 +421,7 @@ tags:
 > 3. both of them
 >
 > - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2025-04-03,92,361!2025-04-02,91,361-->
+> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2025-04-03,92,361!2026-06-30,454,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -432,7 +432,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2025-10-29,252,361!2025-04-01,90,361-->
+> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2025-10-29,252,361!2026-06-27,451,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -443,7 +443,7 @@ tags:
 > 3. all of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!2025-03-31,89,361!2026-06-04,433,381-->
+> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!2026-06-24,448,381!2026-06-04,433,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -453,7 +453,7 @@ tags:
 > 2. weighted average
 > 3. specific identification
 >
-> - solution: {@{3}@} <!--SR:!2025-04-01,90,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-26,450,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -464,7 +464,7 @@ tags:
 > 3. LIFO
 >
 > - solution: {@{2}@}
-> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2025-04-02,91,361!2026-06-14,441,381-->
+> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2026-07-01,455,381!2026-06-14,441,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -555,7 +555,7 @@ tags:
 > 2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.
 > 3. Equity financing is riskier than debt.
 >
-> - solution: {@{2}@} <!--SR:!2025-03-31,89,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-20,444,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -565,7 +565,7 @@ tags:
 > 2. Make a corresponding note disclosure
 > 3. Note disclosure is not required
 >
-> - solution: {@{2}@} <!--SR:!2025-04-02,91,361-->
+> - solution: {@{2}@} <!--SR:!2026-07-04,458,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -595,7 +595,7 @@ tags:
 > 2. it carries only balance sheet effect
 > 3. it carries only income statement effect
 >
-> - solution: {@{1}@} <!--SR:!2025-03-31,89,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-21,445,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -616,7 +616,7 @@ tags:
 > 3. net sales / average accounts payable
 >
 > - solution: {@{2}@}
-> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!2025-04-02,91,361!2025-04-01,90,361-->
+> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!2026-07-04,458,381!2026-06-22,446,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -656,7 +656,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{2}@} <!--SR:!2025-04-02,91,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-30,454,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -686,7 +686,7 @@ tags:
 > 2. the legal capital required by the respective Companies Ordinance or Act
 > 3. all of the above
 >
-> - solution: {@{3}@} <!--SR:!2025-03-31,89,361-->
+> - solution: {@{3}@} <!--SR:!2026-06-23,447,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -697,7 +697,7 @@ tags:
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
 > - solution: {@{1}@}
-> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2026-02-10,318,361!2025-03-31,89,361-->
+> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2026-02-10,318,361!2026-06-24,448,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -728,7 +728,7 @@ tags:
 > 3. Dividend Yield
 >
 > - solution: {@{2}@}
-> - explanation: {@{2 is the only one that does not involve market price per share. <p> (Actually the professor uses "market-to-book ratio" instead oddly... "Market ratios" is a better term.)}@} <!--SR:!2025-03-31,89,361!2025-10-16,222,341-->
+> - explanation: {@{2 is the only one that does not involve market price per share. <p> (Actually the professor uses "market-to-book ratio" instead oddly... "Market ratios" is a better term.)}@} <!--SR:!2026-06-23,447,381!2025-10-16,222,341-->
 
 ## week 12 review
 
@@ -739,7 +739,7 @@ tags:
 > 3. Shareholders demand for the information
 >
 > - solution: {@{2}@}
-> - explanation: {@{1 and 3 are extensions of 2.}@} <!--SR:!2025-04-01,90,361!2025-04-01,90,361-->
+> - explanation: {@{1 and 3 are extensions of 2.}@} <!--SR:!2026-06-28,452,381!2026-06-29,453,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +759,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{1}@} <!--SR:!2025-04-02,91,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-27,451,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{2}@} <!--SR:!2025-03-31,89,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-22,446,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -779,7 +779,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{3}@} <!--SR:!2025-04-02,91,361-->
+> - solution: {@{3}@} <!--SR:!2026-07-01,455,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -799,7 +799,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@} <!--SR:!2025-04-01,90,361-->
+> - solution: {@{1}@} <!--SR:!2026-06-25,449,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -819,7 +819,7 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{2}@} <!--SR:!2025-04-01,90,361-->
+> - solution: {@{2}@} <!--SR:!2026-06-25,449,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -829,4 +829,4 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{1}@} <!--SR:!2025-04-02,91,361-->
+> - solution: {@{1}@} <!--SR:!2026-07-02,456,381-->

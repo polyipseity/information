@@ -111,7 +111,7 @@ segmented: splitting slightly different customer segments
 - _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2026-09-09,533,257!2027-01-06,689,317-->
 - diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2026-07-13,472,237!2025-05-24,243,254-->
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2025-04-04,150,277-->
-- multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2025-03-31,200,254-->
+- multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2027-03-15,712,274-->
 - niche market: focusing on specific, specialized customer segments→::@::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2025-09-15,174,177-->
 - segmented: splitting slightly different customer segments→::@::←_(end)_ <!--SR:!2026-06-13,507,274!2025-09-04,308,254-->
 

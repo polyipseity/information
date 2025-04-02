@@ -55,7 +55,7 @@ return await memorize_table(
 <!--pytextgen generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←GHS01: [explosive](explosive.md) <!--SR:!2027-07-09,1214,350!2027-12-17,1341,350-->
-- GHS01: [explosive](explosive.md)→::@::←GHS02: [flammable](flammability.md) <!--SR:!2025-04-01,434,250!2027-08-02,1232,350-->
+- GHS01: [explosive](explosive.md)→::@::←GHS02: [flammable](flammability.md) <!--SR:!2029-05-26,1516,270!2027-08-02,1232,350-->
 - GHS02: [flammable](flammability.md)→::@::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2026-08-22,890,330!2026-04-22,801,330-->
 - GHS03: [oxidizing](oxidizing%20agent.md)→::@::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2027-04-04,805,250!2028-01-01,1173,290-->
 - GHS04: [compressed gas](compressed%20fluid.md)→::@::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2025-06-07,501,270!2025-05-16,341,290-->

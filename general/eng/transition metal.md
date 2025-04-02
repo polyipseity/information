@@ -40,7 +40,7 @@ return await memorize_table(
 > |-|-|
 > | {@{[catalytic](catalysis.md) properties}@} | {@{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}@} |
 > | {@{colored [ions](ion.md)}@} | {@{Most transition metals ions are colored.}@} |
-> | {@{variable [oxidation states](oxidation%20state.md)}@} | {@{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}@} | <!--SR:!2027-09-21,1264,350!2027-04-19,991,290!2027-03-20,1118,350!2025-08-30,652,310!2027-10-08,1278,350!2025-03-31,542,310-->
+> | {@{variable [oxidation states](oxidation%20state.md)}@} | {@{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}@} | <!--SR:!2027-09-21,1264,350!2027-04-19,991,290!2027-03-20,1118,350!2025-08-30,652,310!2027-10-08,1278,350!2031-08-13,2325,330-->
 
 <!--/pytextgen-->
 

@@ -21,7 +21,7 @@ To {@{simplify analysis}@}, {@{2}@} assumptions are often made: {@{external forc
 
 Under these assumptions, each truss member {@{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}@}. By this, each truss member is {@{either a [zero force member](zero%20force%20member.md) (0), in tension (positive values), or in compression (negative values)}@}. <!--SR:!2027-03-09,733,330!2026-08-09,617,330-->
 
-To analyze a truss, {@{design the truss and determine the support sizes}@}. Then calculate {@{the support reactions and member forces under a specific loading condition}@} to {@{confirm that the supports and members are strong enough}@}. In detail, solve for {@{the support reactions by considering the entire truss as a free body}@}. Next, {@{solve for [forces in all members](#forces%20in%20members)}@}. <!--SR:!2027-02-18,755,330!2028-03-12,1083,350!2025-04-02,244,330!2027-03-30,795,330!2025-06-13,301,330-->
+To analyze a truss, {@{design the truss and determine the support sizes}@}. Then calculate {@{the support reactions and member forces under a specific loading condition}@} to {@{confirm that the supports and members are strong enough}@}. In detail, solve for {@{the support reactions by considering the entire truss as a free body}@}. Next, {@{solve for [forces in all members](#forces%20in%20members)}@}. <!--SR:!2027-02-18,755,330!2028-03-12,1083,350!2028-04-16,1110,350!2027-03-30,795,330!2025-06-13,301,330-->
 
 ### forces in members
 

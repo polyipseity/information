@@ -17,7 +17,7 @@ tags:
 
 - HKUST PHYS 1002
 
-The parenthesized text at the beginning of of each question is {@{the location the question appears in}@}. Questions beginning with `(derived)` are {@{derived from other questions and only appear here}@}. <!--SR:!2025-04-01,209,317!2027-07-31,867,337-->
+The parenthesized text at the beginning of of each question is {@{the location the question appears in}@}. Questions beginning with `(derived)` are {@{derived from other questions and only appear here}@}. <!--SR:!2027-10-05,916,337!2027-07-31,867,337-->
 
 Marking is done as follows. iPRS and MCQ questions are considered separately. For each type of questions, the best 80% are counted. Then the percentage is linearly scaled onto a 10-mark scale for iPRS and 15-mark scale for MCQ.
 

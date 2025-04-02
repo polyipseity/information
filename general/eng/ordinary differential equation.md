@@ -121,7 +121,7 @@ F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
 
 ##### first-order, homogeneous
 
-- form :@: $\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integraable.md) [function](function%20(mathematics).md). <!--SR:!2025-03-31,397,340-->
+- form :@: $\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integraable.md) [function](function%20(mathematics).md). <!--SR:!2028-12-08,1347,340-->
 - solution :@: Substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2026-04-20,412,300-->
 
 The general solution is:

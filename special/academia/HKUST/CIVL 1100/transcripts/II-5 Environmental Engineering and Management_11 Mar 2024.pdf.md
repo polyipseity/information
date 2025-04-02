@@ -293,7 +293,7 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2025-04-01,243,330-->
+- noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2027-06-14,803,330-->
   - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
   - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2027-02-10,686,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2027-09-22,918,330!2027-10-13,935,330-->

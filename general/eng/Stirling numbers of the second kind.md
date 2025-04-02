@@ -21,7 +21,7 @@ In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatori
 
 {@{The Stirling numbers of the first kind}@} may be characterized as {@{the numbers that arise when one expresses powers of an indeterminate _x_ in terms of the [falling factorials](falling%20and%20rising%20factorials.md)<sup>[\[3\]](#^ref-3)</sup> $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1).$$}@} (In particular, {@{(_x_)<sub>0</sub> = 1 because it is an [empty product](empty%20product.md)}@}.) <!--SR:!2025-09-12,226,310!2025-11-26,303,330!2025-11-30,306,330-->
 
-{@{Stirling numbers of the second kind}@} satisfy {@{the relation $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}.$$}@} <!--SR:!2025-12-08,312,330!2025-03-31,100,270-->
+{@{Stirling numbers of the second kind}@} satisfy {@{the relation $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}.$$}@} <!--SR:!2025-12-08,312,330!2026-01-01,276,270-->
 
 ## notation
 
@@ -155,7 +155,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### associated Stirling numbers of the second kind
 
-{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-04-01,63,270!2025-06-21,103,270!2025-12-07,311,330!2025-05-19,120,250!2025-05-24,139,290-->
+{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-11-24,237,290!2025-06-21,103,270!2025-12-07,311,330!2025-05-19,120,250!2025-05-24,139,290-->
 
 {@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2025-05-26,143,290!2025-06-25,121,250!2025-09-12,166,270-->
 

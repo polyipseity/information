@@ -70,7 +70,7 @@ In particular, this notation is powerful because {@{the gradient product rule lo
 
 The divergence is roughly {@{a measure of a vector field's increase in the direction it points}@}; but more accurately, it is {@{a measure of that field's tendency to converge toward or diverge from a point}@}. <!--SR:!2025-05-17,67,310!2025-05-03,55,310-->
 
-{@{The power of the del notation}@} is shown by {@{the following product rule}@}: {@{$$\nabla \cdot (f\mathbf {v} )=(\nabla f)\cdot \mathbf {v} +f(\nabla \cdot \mathbf {v} )$$}@} {@{The formula for the [vector product](vector%20product.md) is slightly less intuitive}@}, because {@{this product is not commutative}@}: {@{$$\nabla \cdot (\mathbf {u} \times \mathbf {v} )=(\nabla \times \mathbf {u} )\cdot \mathbf {v} -\mathbf {u} \cdot (\nabla \times \mathbf {v} )$$}@} <!--SR:!2025-05-05,57,310!2025-05-06,58,310!2025-04-21,42,290!2025-04-11,37,290!2025-04-19,44,290!2025-04-02,14,210-->
+{@{The power of the del notation}@} is shown by {@{the following product rule}@}: {@{$$\nabla \cdot (f\mathbf {v} )=(\nabla f)\cdot \mathbf {v} +f(\nabla \cdot \mathbf {v} )$$}@} {@{The formula for the [vector product](vector%20product.md) is slightly less intuitive}@}, because {@{this product is not commutative}@}: {@{$$\nabla \cdot (\mathbf {u} \times \mathbf {v} )=(\nabla \times \mathbf {u} )\cdot \mathbf {v} -\mathbf {u} \cdot (\nabla \times \mathbf {v} )$$}@} <!--SR:!2025-05-05,57,310!2025-05-06,58,310!2025-04-21,42,290!2025-04-11,37,290!2025-04-19,44,290!2025-04-30,28,210-->
 
 ### curl
 
@@ -104,7 +104,7 @@ While {@{$\nabla ^{2}$ usually represents the [Laplacian](Laplacian.md)}@}, some
 
 Del can also be {@{applied to a vector field with the result being a [tensor](tensor.md)}@}. {@{The [tensor derivative](tensor%20derivative.md) of a vector field $\mathbf {v}$ \(in three dimensions\)}@} is {@{a 9-term second-rank tensor – that is, a 3×3 matrix}@} – but can be denoted simply as {@{$\nabla \otimes \mathbf {v}$}@}, where {@{$\otimes$ represents the [dyadic product](dyadic%20product.md)}@}. This quantity is equivalent to {@{the transpose of the [Jacobian matrix](Jacobian%20matrix.md) of the vector field with respect to space}@}. {@{The divergence of the vector field}@} can then be expressed as {@{the [trace](trace%20(linear%20algebra).md) of this matrix}@}. <!--SR:!2025-05-06,58,310!2025-04-14,39,290!2025-05-17,67,310!2025-05-17,67,310!2025-05-08,59,310!2025-05-17,67,310!2025-05-09,60,310!2025-05-06,58,310-->
 
-For {@{a small displacement $\delta \mathbf {r}$}@}, {@{the change in the vector field}@} is given by: {@{$$\delta \mathbf {v} =(\nabla \otimes \mathbf {v} )^{T}\cdot \delta \mathbf {r}$$ (annotation: $(\nabla \otimes \mathbf v)^\intercal$ is the Jacobian matrix)}@} <!--SR:!2025-04-18,43,290!2025-04-19,44,290!2025-04-02,28,270-->
+For {@{a small displacement $\delta \mathbf {r}$}@}, {@{the change in the vector field}@} is given by: {@{$$\delta \mathbf {v} =(\nabla \otimes \mathbf {v} )^{T}\cdot \delta \mathbf {r}$$ (annotation: $(\nabla \otimes \mathbf v)^\intercal$ is the Jacobian matrix)}@} <!--SR:!2025-04-18,43,290!2025-04-19,44,290!2025-06-20,79,270-->
 
 ## product rules
 
@@ -122,7 +122,7 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-04-09,15,230!2025-05-30,63,250-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2025-05-09,50,250!2025-05-16,66,310-->
 > - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-04-06,31,270!2025-05-15,52,250-->
-> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-03-31,8,190!2025-05-19,55,250-->
+> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-04-15,14,190!2025-05-19,55,250-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2025-05-05,57,310!2025-06-04,70,270-->
 
 ## second derivatives

@@ -19,7 +19,7 @@ Popular rules of inference in [propositional logic](propositional%20calculus.md)
 
 ## standard form
 
-In {@{[formal logic](logic.md#formal%20logic) (and many related areas)}@}, rules of inference are usually given in the following standard form: (description: {@{All premises are listed above a line. One conclusion is listed below the line.}@}) <!--SR:!2025-04-01,153,314!2025-10-22,315,334-->
+In {@{[formal logic](logic.md#formal%20logic) (and many related areas)}@}, rules of inference are usually given in the following standard form: (description: {@{All premises are listed above a line. One conclusion is listed below the line.}@}) <!--SR:!2027-01-25,664,334!2025-10-22,315,334-->
 
 Premise#1 <br/>
 Premise#2 <br/>

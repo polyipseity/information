@@ -13,7 +13,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-An __elastic modulus__ (also known as {@{__modulus of elasticity__}@}) is {@{a measure of an object's resistance to being deformed elastically when [stress](stress%20(mechanics).md) is applied}@}. <!--SR:!2026-10-16,673,330!2025-04-01,225,310-->
+An __elastic modulus__ (also known as {@{__modulus of elasticity__}@}) is {@{a measure of an object's resistance to being deformed elastically when [stress](stress%20(mechanics).md) is applied}@}. <!--SR:!2026-10-16,673,330!2027-11-22,965,330-->
 
 ## definition
 

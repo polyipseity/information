@@ -34,13 +34,13 @@ One simple definition of management accounting is {@{the provision of financial 
 
 According to {@{the [Institute of Management Accountants](Institute%20of%20Management%20Accountants.md) (IMA)}@}, "Management accounting is a profession that {@{involves partnering in management decision making, devising planning and performance management systems, and providing expertise in financial reporting and control}@} to {@{assist management in the formulation and implementation of an organization's strategy}@}."<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-12-19,631,330!2026-02-07,331,250!2026-11-26,610,326-->
 
-Management accountants (also called managerial accountants) look at {@{the events that happen in and around a business while considering the needs of the business}@}. From this, data and estimates emerge. Cost accounting is {@{the process of translating these estimates and data into knowledge that will ultimately be used to guide decision-making}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-31,152,310!2025-05-07,179,310-->
+Management accountants (also called managerial accountants) look at {@{the events that happen in and around a business while considering the needs of the business}@}. From this, data and estimates emerge. Cost accounting is {@{the process of translating these estimates and data into knowledge that will ultimately be used to guide decision-making}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2027-01-12,651,330!2025-05-07,179,310-->
 
 {@{The [Chartered Institute of Management Accountants](Chartered%20Institute%20of%20Management%20Accountants.md) (CIMA)}@} being the largest management accounting institute with over 100&nbsp;000 members describes Management accounting as {@{analysing information to advise business strategy and drive sustainable business success}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-06-13,174,270!2025-09-26,272,290-->
 
 {@{The [Institute of Certified Management Accountants](Institute%20of%20Certified%20Management%20Accountants.md) (ICMA)}@} has over 15&nbsp;000 qualified professionals worldwide, with members in 50-countries. Its CMA postgraduate education program now is firmly established in 19 overseas markets, namely Bangladesh, Cambodia, China, Cyprus, Dubai, Hong Kong, India, Indonesia, Iran, Japan, Lebanon, Malaysia, Nepal, New Zealand, Papua New Guinea, Philippines; Singapore, Sri Lanka, Thailand and Vietnam. <!--SR:!2025-04-21,169,310-->
 
-To facilitate its educational objectives, the Institute has {@{accredited a number of universities which have master's degree subjects that are equivalent to the CMA program}@}. Some of these universities {@{also provide in-house training and examinations of the CMA program. Accounting graduates can do CMA accredited units at these universities to qualify for CMA status}@}. The ICMA also has {@{a number of Recognised Provider Institutions (RPIs) that run the CMA program in Australia and overseas}@}. The CMA program is also available {@{online in regions where the face-to-face delivery of the program is not possible}@}. <!--SR:!2025-04-01,152,310!2026-04-19,389,290!2026-04-20,431,310!2025-04-23,169,310-->
+To facilitate its educational objectives, the Institute has {@{accredited a number of universities which have master's degree subjects that are equivalent to the CMA program}@}. Some of these universities {@{also provide in-house training and examinations of the CMA program. Accounting graduates can do CMA accredited units at these universities to qualify for CMA status}@}. The ICMA also has {@{a number of Recognised Provider Institutions (RPIs) that run the CMA program in Australia and overseas}@}. The CMA program is also available {@{online in regions where the face-to-face delivery of the program is not possible}@}. <!--SR:!2027-01-09,648,330!2026-04-19,389,290!2026-04-20,431,310!2025-04-23,169,310-->
 
 ## scope, practice, and application
 
@@ -98,7 +98,7 @@ Given the above, {@{one view of the progression of the accounting and finance ca
 
 ### activity-based costing (ABC)
 
-[Activity-based costing](activity-based%20costing.md) was first {@{clearly defined in 1987 by [Robert S. Kaplan](Robert%20S.%20Kaplan.md) and W. Bruns}@} as {@{a chapter in their book _Accounting and Management: A Field Study Perspective_}@}. They initially {@{focused on the manufacturing industry, where increasing technology and productivity improvements have reduced the relative proportion of the direct costs of labor and materials, but have increased relative proportion of indirect costs}@}. For example, {@{increased automation has reduced labor, which is a direct cost, but has increased depreciation, which is an indirect cost}@}. <!--SR:!2025-05-05,68,210!2025-04-01,136,270!2025-12-13,296,270!2025-07-14,235,330-->
+[Activity-based costing](activity-based%20costing.md) was first {@{clearly defined in 1987 by [Robert S. Kaplan](Robert%20S.%20Kaplan.md) and W. Bruns}@} as {@{a chapter in their book _Accounting and Management: A Field Study Perspective_}@}. They initially {@{focused on the manufacturing industry, where increasing technology and productivity improvements have reduced the relative proportion of the direct costs of labor and materials, but have increased relative proportion of indirect costs}@}. For example, {@{increased automation has reduced labor, which is a direct cost, but has increased depreciation, which is an indirect cost}@}. <!--SR:!2025-05-05,68,210!2026-08-31,517,290!2025-12-13,296,270!2025-07-14,235,330-->
 
 ### Grenzplankostenrechnung
 
@@ -166,7 +166,7 @@ Listed below are the primary tasks/services performed by management accountants.
 
 ## related qualifications
 
-There are {@{several related professional qualifications and certifications}@} in the field of accountancy including: <!--SR:!2025-03-31,152,310-->
+There are {@{several related professional qualifications and certifications}@} in the field of accountancy including: <!--SR:!2027-01-16,655,330-->
 
 - Management Accountancy Qualifications
   - [CIMA](Chartered%20Institute%20of%20Management%20Accountants.md)

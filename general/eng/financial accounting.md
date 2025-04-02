@@ -11,7 +11,7 @@ tags:
 
 # financial accounting
 
-__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-09-05,229,270!2025-04-01,139,290!2025-09-20,287,330-->
+__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-09-05,229,270!2026-05-11,405,290!2025-09-20,287,330-->
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
@@ -50,7 +50,7 @@ The three components of financial statements are {@{[statement of cash flows](ca
 
 The statement of cash flows is also called {@{cash flow statement}@}. <!--SR:!2025-11-01,319,355-->
 
-The statement of cash flows {@{considers the inputs and outputs in concrete cash within a stated period}@}. The general template of a cash flow statement is as follows: {@{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}@} <!--SR:!2025-05-07,180,310!2025-04-01,152,310-->
+The statement of cash flows {@{considers the inputs and outputs in concrete cash within a stated period}@}. The general template of a cash flow statement is as follows: {@{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}@} <!--SR:!2025-05-07,180,310!2027-01-12,651,330-->
 
 > [!example] example 1
 >
@@ -92,7 +92,7 @@ The statement of financial position is also called {@{balance sheet}@}. <!--SR:!
 
 The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2025-04-07,157,310!2025-09-18,285,330!2025-09-17,286,330-->
 
-The statement can be used to {@{help show the financial position of a company}@} because {@{liability accounts are external claims on the firm's assets while equity accounts are internal claims on the firm's assets}@}. <!--SR:!2025-03-31,138,290!2025-09-25,292,330-->
+The statement can be used to {@{help show the financial position of a company}@} because {@{liability accounts are external claims on the firm's assets while equity accounts are internal claims on the firm's assets}@}. <!--SR:!2026-10-15,562,310!2025-09-25,292,330-->
 
 Accounting standards often {@{set out a general format that companies are expected to follow when presenting their balance sheets}@}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {@{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}@}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {@{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}@}. However, an IFRS-compliant balance sheet must {@{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-08-28,225,270!2025-04-07,157,310!2026-03-02,344,270!2025-04-10,145,290-->
 
@@ -102,7 +102,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
 - merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2025-04-15,149,290!2025-10-23,290,290-->
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2025-05-25,192,310!2026-04-14,425,310-->
-- [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2025-09-16,285,330-->
+- [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2027-01-13,652,330!2025-09-16,285,330-->
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
@@ -152,7 +152,7 @@ Objectives include:
 
 The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}@} are the main topics of financial accounting. <!--SR:!2025-09-06,277,330-->
 
-{@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company}@} on {@{the date to which the accounts were prepared}@}. <!--SR:!2025-04-22,165,310!2026-05-21,463,310!2025-04-08,157,310!2026-11-14,606,330!2025-05-02,54,230!2025-04-02,17,348-->
+{@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company}@} on {@{the date to which the accounts were prepared}@}. <!--SR:!2025-04-22,165,310!2026-05-21,463,310!2025-04-08,157,310!2026-11-14,606,330!2025-05-02,54,230!2025-06-02,61,348-->
 
 {@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2025-09-13,283,330!2026-01-20,364,310-->
 

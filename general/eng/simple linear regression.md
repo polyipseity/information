@@ -112,7 +112,7 @@ Since {@{$\operatorname {Var} (y_{d})=\sigma ^{2}$ \(a fixed but unknown paramet
 
 ### confidence intervals
 
-{@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_ — that is, the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}. <!--SR:!2025-04-19,58,310!2025-04-01,43,290!2025-04-24,62,310!2025-04-10,47,290!2025-04-06,47,290!2025-04-25,63,310-->
+{@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_ — that is, the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}. <!--SR:!2025-04-19,58,310!2025-09-22,174,310!2025-04-24,62,310!2025-04-10,47,290!2025-04-06,47,290!2025-04-25,63,310-->
 
 {@{The standard method of constructing confidence intervals for linear regression coefficients}@} {@{relies on the normality assumption, which is justified}@} if either: <!--SR:!2025-04-06,47,290!2025-09-04,160,310-->
 
@@ -183,7 +183,7 @@ There are {@{_n_ = 15 points in this data set}@}. Hand calculations would be sta
 
 > {@{![Calculating the parameters of a linear model by minimizing the squared error.](../../archives/Wikimedia%20Commons/Fitting%20a%20straight%20line%20to%20a%20data%20with%20outliers.png)}@}
 >
-> Calculating {@{the parameters of a linear model by minimizing the squared error}@}. <!--SR:!2025-03-31,42,290!2025-04-17,56,310-->
+> Calculating {@{the parameters of a linear model by minimizing the squared error}@}. <!--SR:!2025-09-17,169,310!2025-04-17,56,310-->
 
 In SLR, there is {@{an underlying assumption that only the dependent variable contains measurement error}@}; if {@{the explanatory variable is also measured with error}@}, then {@{simple regression is not appropriate for estimating the underlying relationship}@} because {@{it will be biased due to [regression dilution](regression%20dilution.md)}@}. <!--SR:!2025-07-18,120,290!2025-04-24,62,310!2025-06-30,106,290!2025-04-06,47,290-->
 
@@ -197,7 +197,7 @@ In SLR, there is {@{an underlying assumption that only the dependent variable co
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Edit-clear.svg) | The present page holds the title of a __[primary topic](https://en.wikipedia.org/wiki/Wikipedia:Disambiguation#Is%20there%20a%20primary%20topic%3F)__, and __an article needs to be written__ about it. It is believed to qualify as a __[broad-concept article](https://en.wikipedia.org/wiki/Wikipedia:Broad-concept%20article)__. It may be written directly at this page or [drafted](https://en.wikipedia.org/wiki/Wikipedia:Drafts) elsewhere and then moved to _this_ title. Related titles should be described in __Simple linear regression__, while unrelated titles should be moved to __[Simple linear regression \(disambiguation\)](simple%20linear%20regression%20(disambiguation).md)__. _\(May 2019\)_ | ![](../../archives/Wikimedia%20Commons/Merge-arrow.svg) | -->
 
-{@{[Line fitting](line%20fitting.md)}@} is {@{the process of constructing a [straight line](straight%20line.md) that has the best fit to a series of data points}@}. <!--SR:!2025-04-30,67,310!2025-03-31,42,290-->
+{@{[Line fitting](line%20fitting.md)}@} is {@{the process of constructing a [straight line](straight%20line.md) that has the best fit to a series of data points}@}. <!--SR:!2025-04-30,67,310!2025-09-16,168,310-->
 
 Several methods exist, considering:
 

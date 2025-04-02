@@ -131,7 +131,7 @@ The content is in teaching order.
   - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2025-04-23,169,310!2025-06-19,223,330-->
     - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2025-08-04,260,330!2025-05-04,173,310-->
     - sample mean vs sample median / trimmed (sample) mean ::@:: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean. <!--SR:!2025-07-08,238,330!2025-09-19,293,330-->
-      - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2025-06-18,202,310!2025-04-01,141,290-->
+      - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2025-06-18,202,310!2026-10-29,575,310-->
 
 ## week 1 lecture 2
 
@@ -171,7 +171,7 @@ The content is in teaching order.
     - quartile / _R_ ::@:: use `quantile(...)`, not `quartile` (note that the procedure of `quantile` is different from discussed above) <!--SR:!2025-04-28,169,310!2025-06-07,214,330-->
   - extrema ::@:: 0th quartile/minimum (Q0) = 0th percentile/0.00 quantile, 4th quartile/maximum (Q4) = 100th percentile/1.00 quantile <!--SR:!2025-07-28,254,330!2025-08-25,276,330-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
-  - box plot ::@:: A box plot labels the least data that is not an outlier (instead of the value $Q_1 - 1.5 \cdot \text{IQR}$), the lower quartile (Q1), median (Q2), upper quartile (Q3), and the greatest data that is not an outlier (instead of the value $Q_3 + 1.5 \cdot \text{IQR}$) as lines; and outliers as dots (with "min" and "max" labels on 2 of them). Additional lines are added so that the lines of Q1 and Q3 forms a rectangle (box). (See that thing on Canvas grade stats...?) <!--SR:!2025-04-02,142,290!2025-04-05,144,290-->
+  - box plot ::@:: A box plot labels the least data that is not an outlier (instead of the value $Q_1 - 1.5 \cdot \text{IQR}$), the lower quartile (Q1), median (Q2), upper quartile (Q3), and the greatest data that is not an outlier (instead of the value $Q_3 + 1.5 \cdot \text{IQR}$) as lines; and outliers as dots (with "min" and "max" labels on 2 of them). Additional lines are added so that the lines of Q1 and Q3 forms a rectangle (box). (See that thing on Canvas grade stats...?) <!--SR:!2026-05-23,416,290!2025-04-05,144,290-->
     - box plot / outliers ::@:: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007). <!--SR:!2025-10-04,277,290!2026-04-13,391,290-->
     - box plot / _R_ ::@:: use `boxplot(...)` <!--SR:!2025-07-07,238,330!2025-09-11,285,330-->
 

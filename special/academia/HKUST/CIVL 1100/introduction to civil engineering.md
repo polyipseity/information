@@ -236,7 +236,7 @@ water security
 - climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
-- mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2025-04-02,93,334-->
+- mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
 - water security→::@::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
 
 <!--/pytextgen-->
@@ -281,7 +281,7 @@ workmanship
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2025-04-26,191,260-->
-- impacts to surrounding→::@::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
+- impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2025-05-10,261,320-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2025-04-18,249,312-->
 - politics→::@::←social <!--SR:!2028-07-27,1221,380!2025-05-03,262,337-->
@@ -675,7 +675,7 @@ socioeconomic
 - biological→::@::←chemical <!--SR:!2025-12-06,424,337!2027-08-16,881,357-->
 - chemical→::@::←cultural <!--SR:!2025-10-17,333,280!2027-03-26,849,377-->
 - cultural→::@::←physical <!--SR:!2026-07-28,649,365!2026-07-24,556,320-->
-- physical→::@::←socioeconomic <!--SR:!2025-08-22,264,277!2025-04-02,244,361-->
+- physical→::@::←socioeconomic <!--SR:!2025-08-22,264,277!2028-07-24,1209,381-->
 - socioeconomic→::@::←_(end)_ <!--SR:!2026-10-27,667,354!2025-05-29,247,277-->
 
 <!--/pytextgen-->
@@ -706,7 +706,7 @@ soil liquefaction
 
 <!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←debris flow <!--SR:!2025-03-31,235,314!2025-11-14,459,398-->
+- _(begin)_→::@::←debris flow <!--SR:!2028-01-16,1020,334!2025-11-14,459,398-->
 - debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2025-08-03,318,270-->
@@ -916,7 +916,7 @@ polypropylene fiber reinforced concrete
 - artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
 - cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
-- fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
+- fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2025-08-14,344,335-->
 - polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
 
 <!--/pytextgen-->
@@ -1015,7 +1015,7 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
+- _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2029-02-17,1418,350-->
 - HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2025-05-06,208,334-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->

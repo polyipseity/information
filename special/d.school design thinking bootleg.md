@@ -43,10 +43,10 @@ return await memorize_seq(
 
 <!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2026-03-03,511,310!2025-03-31,278,330-->
+- _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2026-03-03,511,310!2028-09-18,1265,350-->
 - [empathize](#empathize) (blue)→::@::←[define](#define) (green) <!--SR:!2025-04-15,239,270!2025-04-14,289,330-->
 - [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2025-06-21,296,270!2025-11-05,352,250-->
-- [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2025-07-26,324,290!2025-04-02,229,270-->
+- [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2025-07-26,324,290!2027-08-13,863,290-->
 - [prototype](#prototype) (red)→::@::←[test](#test) (brown) <!--SR:!2025-05-31,286,290!2026-07-23,578,310-->
 - [test](#test) (brown)→::@::←_(end)_ <!--SR:!2025-04-15,290,330!2027-03-14,770,330-->
 
@@ -123,7 +123,7 @@ return await memorize_seq(
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-06-23,88,130!2026-02-18,349,210-->
 - (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-04-13,22,130!2025-05-16,76,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2025-05-15,259,250!2025-10-19,322,230-->
-- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-04-01,40,130!2025-04-12,38,130-->
+- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-05-24,52,130!2025-04-12,38,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→::@::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2025-07-28,329,270!2025-05-31,87,130-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→::@::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2025-06-05,92,210!2026-02-22,363,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→::@::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2025-04-18,78,130!2025-05-26,74,170-->
