@@ -32,7 +32,7 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/)
+- [assignments](assignments/index.md)
 - [questions](questions.md)
 
 ## assessments
@@ -521,6 +521,7 @@ The content is in teaching order.
   - calculator: yes
   - cheatsheet: no
   - referencing: closed book
+  - provided: \(none\)
   - questions: long questions ×4
 - grades: ?/36 + ?/4
   - statistics
