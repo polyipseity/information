@@ -409,7 +409,7 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - datetime: 2025-03-19T09:00:00+08:00/2025-03-19T10:20:00+08:00
-- status: Maxwell equation of magnetostatics, magnetic potential
+- topic: Maxwell equation of magnetostatics, magnetic potential
 - [Ampère's circuital law](../../../../general/Ampère's%20circuital%20law.md) ::@:: It relates the circulation of a magnetic field around a closed loop to the electric current passing through the loop.
   - Ampère's circuital law / integral form ::@:: $$\oint _{C}\mathbf {B} \cdot \mathrm {d} {\boldsymbol {l} }=\mu _{0}\iint _{S}\mathbf {J} \cdot \mathrm {d} \mathbf {S} =\mu _{0}I_{\mathrm {enc} }$$ <p> Any surface $\mathbf S$ can be chosen. Use the right hand grip rule to determine the signs.
     - Ampère's circuital law / integral form / derivation ::@:: One can consider evaluating a closed loop \(not necessarily circular\) around a current-carrying wire. Then replace the current-carrying wire by current density going through the closed loop.
@@ -483,7 +483,7 @@ The content is in teaching order.
 ## week 8 lecture 2
 
 - datetime: 2025-03-26T09:00:00+08:00/2025-03-26T10:20:00+08:00
-- status: electrodynamics, Faraday's law, Lenz's law
+- topic: electrodynamics, Faraday's law, Lenz's law
 - [Faraday's law of induction](../../../../general/Faraday's%20law%20of%20induction.md) ::@:: It is a law of electromagnetism predicting how a magnetic field will interact with an electric circuit to produce an electromotive force \(emf\).
   - Faraday's law of induction / motivation ::@:: Consider a rectangular loop, with one side in a uniform magnetic field. When we pull the rectangular loop out from the magnetic field, charges in the loop should experience Lorentz force. The emf generated is: $$\mathcal E = \frac W q = \frac {qvB \cdot l} q = vBl \,,$$ where $l$ is the length of that side of the rectangular loop. <p> Conveniently, this is also the decrease of the magnetic flux through the rectangular loop. So we have: $$\mathcal E = -\frac {\mathrm d \Phi_B} {\mathrm dt} \,.$$ In fact, this equation applies very generally to any loops, even changing loops \(assuming the velocity of the abstract curve ∂Σ matches the actual velocity of the material conducting the electricity\). <p> \(We also note that Lorentz force should not do any work, so where does the work come from? It turns out moving the loop provides the work.\)
   - Faraday's law of induction / mathematical statement ::@:: Faraday's law states that the emf is also given by the [rate of change](../../../../general/time%20derivative.md) of the magnetic flux: $${\mathcal {E} }=-{\frac {\mathrm {d} \Phi _{B} }{\mathrm {d} t} },$$ where ${\mathcal {E} }$ is the [electromotive force](../../../../general/electromotive%20force.md) \(emf\) and Φ<sub>_B_</sub> is the [magnetic flux](../../../../general/magnetic%20flux.md). <p> The direction of the electromotive force is given by [Lenz's law](../../../../general/Lenz's%20law.md).
@@ -506,6 +506,71 @@ The content is in teaching order.
   - note / rotating field ::@:: \(this course: Divergence is zero. Curl is nonzero.\)
 - [metric prefix](../../../../general/metric%20prefix.md) ::@:: It is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. All metric prefixes used today are decadic. Each prefix has a unique symbol that is prepended to any unit symbol.
   - metric prefix / common prefixes ::@:: \(in increasing order of magnitude, each separated by 3 OoMs\) femto-/f ← pico-/p ← nano-/n ← micro-/μ ← milli-/m ← \(unit\) → kilo/k → mega/M → giga/G → tera/T → peta/P
+
+## week 9 lecture
+
+- datetime: 2025-03-31T09:00:00+08:00/2025-03-31T10:20:00+08:00, PT1H20M
+- topic: midterm examination
+- [§ midterm examination](#midterm%20examination)
+
+## midterm examination
+
+- datetime: 2025-03-31T09:00:00+08:00/2025-03-31T10:15:00+08:00, PT1H15M
+- venue: Room 1527, Academic Building
+- format
+  - calculator: yes
+  - cheatsheet: no
+  - referencing: closed book
+  - questions: long questions ×4
+- grades: ?/36 + ?/4
+  - statistics
+    - timestamps: ?
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
+- report
+  - time limit ::@:: It was barely sufficient to finish all 4 long questions without checking.
+- check
+  - datetime: ?
+  - venue: ?
+
+> Dear Students,
+>
+> Please find important information on the exam below. The midterm is a closed book exam, that is, no cheat sheets, personal notes or any other type of write up are permitted to be used. As I mentioned during the lecture, all relevant mathematical identities and physical constants will be given.
+>
+> Let me know if you have any questions. I will see you tonight at the exam Q&A.
+>
+> Best,
+>
+> \[redacted\]
+>
+> __Time:__ March 31st, 08:45-10:15 <br/>
+> __Exam Venue:__ 1527 <br/>
+> __Exam Duration:__ 75 min
+>
+> __Exam Run-Down:__
+>
+> 1. Arrive at exam venue at 08:45
+> 2. Go inside at 08:55 and choose seat and prepare writing utensils and calculator.
+> 3. Exam starts at 09:00am sharp. Duration of exam is 75 min.
+> 4. Put pencils down at 10:15.
+> 5. We will collect exam booklet, answer booklet, and draft paper.
+> 6. Once all materials have been collected, students leave exam venue quietly.
+
+## week 9 lecture 2
+
+- datetime: 2025-04-02T09:00:00+08:00/2025-04-02T10:20:00+08:00, PT1H20M
+- status: unscheduled, midterm break
+
+## week 9 tutorial
+
+- datetime: 2025-04-03T18:00:00+08:00/2025-04-03T18:50:00+08:00, PT1H20M
+- status: unscheduled, midterm break
 
 ## final examination
 
