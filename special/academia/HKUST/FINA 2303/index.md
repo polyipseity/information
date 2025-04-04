@@ -61,7 +61,7 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/)
+- [assignments](assignments/index.md)
   - [TAPPS](assignments/TAPPS/index.md)
 - [questions](questions.md)
 
@@ -114,7 +114,7 @@ The content is in teaching order.
 ## week 1 tutorial
 
 - datetime: 2025-02-07T10:30:00+08:00/2025-02-07T11:20:00+08:00
-- status: hybrid (online, physical), optional
+- status: unscheduled, unannounced
 
 ## week 1 lecture 2
 
@@ -139,6 +139,7 @@ The content is in teaching order.
   - interest rate / _risk-free_ interest rate, discount rate, $r_f$ ::@:: The interest rate at which money can be borrowed or lent without risk. By depositing money, we convert money today into money in the future. By borrowing money, we exchange money in the future for money today.
   - interest rate / interest rate factor ::@:: It is the rate of exchange _from_ dollars today _to_ dollars in the future, calculated as $(1 + r_f)^t$.
   - interest rate / discount factor ::@:: It is the rate of exchange between dollars _from_ the future _to_ dollars today, calculated as $1 / (1 + r_f)^t$.
+  - interest rate / negative ::@:: Nominal interest rate cannot be negative: you can always just keep save the money as cash to avoid the negative nominal interest rate. Real interest rate can be negative, which happens if inflation is higher than nominal interest rate.
 - [net present value](../../../../general/net%20present%20value.md) (NPV) ::@:: net present value (NPV) = present value (benefits/cash inflows) − present value (costs/cash outflows)
 - [questions § week 1 lecture 2](questions.md#week%201%20lecture%202)
 - [TAPPS/week 1 lecture 2](assignments/TAPPS/week%201%20lecture%202.md)
@@ -174,6 +175,10 @@ The content is in teaching order.
 
 - datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00
 - status: hybrid (online, physical), optional
+- [§ week 1 lecture](#week%201%20lecture)
+- [§ week 1 lecture 2](#week%201%20lecture%202)
+- [§ week 2 lecture](#week%202%20lecture)
+- [§ week 2 lecture 2](#week%202%20lecture%202)
 
 ## week 2 lecture 2
 
@@ -233,6 +238,8 @@ The content is in teaching order.
 
 - datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00
 - status: hybrid (online, physical), optional
+- [§ week 3 lecture](#week%203%20lecture)
+- [§ week 3 lecture 2](#week%203%20lecture%202)
 
 ## week 3 lecture 2
 
@@ -278,6 +285,8 @@ The content is in teaching order.
 
 - datetime: 2025-02-28T10:30:00+08:00/2025-02-28T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 4 lecture](#week%204%20lecture)
+- [§ week 4 lecture 2](#week%204%20lecture%202)
 
 ## week 4 lecture 2
 
@@ -306,7 +315,7 @@ The content is in teaching order.
   - internal rate of return / note ::@:: In this course, use the NPV rule instead of IRR rule, even for loan/delayed investment.
 - [payback period](../../../../general/payback%20period.md) ::@:: It is the time required to recoup the funds expended in an investment, or to reach the break-even point. <p> It _does not discount_ the cash flows.
   - payback period / decision rule ::@:: First, define a pre-specified length of time is the _maximum payback period_. <p> For a standalone project, if the payback period is _not greater than_ the maximum, _accept_ the project. Otherwise _reject_. <p> This rule is generally _not consistent_ with NPV.
-  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> (In the book and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.)
+  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> \(this course: In book, course, and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.\)
   - payback period / decision rule
     - payback period / decision rule / advantages ::@:: Simple. Favors liquidity.
     - payback period / decision rule / disadvantages ::@:: The maximum payback period/payback period cutoff is arbitrary. Cash flows after the cutoff is ignored. Not necessarily consistent with maximizing shareholder value (since it is not generally consistent with NPV).
@@ -318,7 +327,7 @@ The content is in teaching order.
 - internal rate of return
   - internal rate of return / decision rule
     - internal rate of return / decision rule / advantages ::@:: For conventional cash flows, it is consistent with NPV (given duration/life, scale, and timing are _similar_), and thus maximizing shareholder value.
-    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects \(at least not by directly comparing IRRs\). Can be misleading for loan/delayed investment and projects with unconventional cash flows. There may be _multiple IRRs_ (roots in the NPV profile) for unconventional cash flows.
+    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects \(at least not by directly comparing IRRs\). Can be misleading for loan/delayed investment and projects with unconventional cash flows. There may be _no or multiple IRRs_ (roots in the NPV profile) for unconventional cash flows.
 - [discounted payback period](../../../../general/discounted%20payback%20period.md) ::@:: \(untaught\) It is the amount of time that it takes (in years) for the initial cost of a project to equal to the _discounted_ value of expected cash flows, or the time it takes to break even from an investment. It is the period in which the cumulative net present value of a project equals zero. <p> It _does discount_ the cash flows.
 - mutually exclusive project
   - mutually exclusive project / scale difference ::@:: NPV measures _total impact on value_ and is scale-dependent. IRR measures _average return_ and is scale-independent. When you scale up a project while keeping everything else the same, NPV scales up proportionally while IRR remains the same. As NPV is consistent with maximizing wealth (as a direct application of the valuation principle), we should use NPV for projects of different scales.
@@ -358,6 +367,8 @@ The content is in teaching order.
 
 - datetime: 2025-03-07T10:30:00+08:00/2025-03-07T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 5 lecture](#week%205%20lecture)
+- [§ week 5 lecture 2](#week%205%20lecture%202)
 
 ## week 5 lecture 2
 
@@ -471,6 +482,9 @@ The content is in teaching order.
 
 - datetime: 2025-03-14T10:30:00+08:00/2025-03-14T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 6 lecture](#week%206%20lecture)
+- [§ week 6 lecture 2](#week%206%20lecture%202)
+- [P/B ratio](../../../../general/P_B%20ratio.md), market-to-book ratio ::@:: It is a [financial ratio](../../../../general/financial%20ratio.md) used to compare a company's current market value to its [book value](../../../../general/book%20value.md) \(where _book value_ is the value of all assets minus liabilities owned by a company\).
 
 ## week 6 lecture 2
 
@@ -517,6 +531,8 @@ The content is in teaching order.
 
 - datetime: 2025-03-21T10:30:00+08:00/2025-03-21T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 2](#week%207%20lecture%202)
 
 ## week 7 lecture 2
 
@@ -611,16 +627,75 @@ The content is in teaching order.
 ## week 8 tutorial
 
 - datetime: 2025-03-28T10:30:00+08:00/2025-03-28T11:20:00+08:00
-- status: hybrid \(online, physical\), optional
+- status: unscheduled, day off for midterm
 
 ## week 8 lecture 2
 
 - datetime: 2025-03-28T16:30:00+08:00/2025-03-28T17:50:00+08:00
 - status: unscheduled, day off for midterm
 
-## assignments
-
 ## midterm examination
+
+- datetime: 2025-03-29T17:00:00+08:00/2025-03-29T19:15:00+08:00, PT2H15M
+- venue: Lecture Theater A; Lecture Theater B
+- format
+  - calculator: yes; financial calculator
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: formulas
+  - questions: multiple choice questions ×42
+- grades: 87.78/100 \(79/90\)
+  - breakdown
+    - challenging: 15/18
+      - multiple choice questions ×6
+    - conceptual: 28/34
+      - multiple choice questions ×17
+    - numerical: 36/38
+      - multiple choice questions ×19
+  - statistics
+    - timestamps: 2025-04-04T20:45:00+08:00
+    - mean: 76.8 \(provided: 76.59\)
+    - standard deviation: ? \(provided: 14.06\)
+    - low: 30 \(provided: 30\)
+    - lower quartile: 68.89
+    - median: 81.11 \(provided: 81.11\)
+    - upper quartile: 86.67
+    - high: 97.78 \(provided: 97.78\)
+    - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.svg)
+- report
+  - \(none\)
+- check
+  - datetime: ?
+  - venue: ?
+
+> __Reminder: no class on Thur/Fri__
+>
+> Dear student,
+>
+> Please check your seat assignment on the sealing plan posted on canvas.
+>
+> Also, there will be no class on Thursday and Friday.
+>
+> Study well and see you on Saturday.
+>
+> Regards,
+>
+> \[redacted\]
+
+## week 9 lecture
+
+- datetime: 2025-04-02T16:30:00+08:00/2025-04-02T17:50:00+08:00
+- status: unscheduled, midterm break
+
+## week 9 tutorial
+
+- datetime: 2025-04-04T10:30:00+08:00/2025-04-04T11:20:00+08:00
+- status: unscheduled, midterm break, public holiday
+
+## week 9 lecture 2
+
+- datetime: 2025-04-04T16:30:00+08:00/2025-04-04T17:50:00+08:00
+- status: unscheduled, midterm break, public holiday
 
 ## final examination
 

@@ -17,6 +17,10 @@ tags:
 
 - HKUST FINA 2303
 
+## children
+
+- [quiz 1 derivative](../../../../general/quiz%201%20derivative.md)
+
 ## week 1 lecture
 
 > Q1. Have you used PRS in classes before?
