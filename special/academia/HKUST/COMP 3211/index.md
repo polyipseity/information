@@ -42,10 +42,8 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/)
+- [assignments](assignments/index.md)
 <!-- - [questions](questions.md) -->
-
-## assignments
 
 ## week 1 tutorial
 
@@ -567,7 +565,117 @@ The content is in teaching order.
   - reinforcement learning / ε-greedy ::@:: $0<\varepsilon <1$ is a parameter controlling the amount of exploration vs. exploitation. With probability $1-\varepsilon$, exploitation is chosen, and the agent chooses the action that it believes has the best long-term effect \(ties between actions are broken uniformly at random\). Alternatively, with probability $\varepsilon$, exploration is chosen, and the action is chosen uniformly at random. $\varepsilon$ is usually a fixed parameter but can be adjusted either according to a schedule \(making the agent explore progressively less\), or adaptively based on heuristics. <p> mnemonics: $\varepsilon$ is the probability of exploration because $\varepsilon$ usually stands for a small number and the probability of exploration should be small.
     - reinforcement learning / ε-greedy / Q-value ::@:: In terms of Q-value, this can be expressed as: $$\pi(s) = \begin{cases} \operatorname{argmax}_{a \in \operatorname{action}(s)} \hat Q(s, a) & \text{with probability }1 - \varepsilon \\ \text{random }a \in \operatorname{action}(s) & \text{with probability }\varepsilon \,, \end{cases}$$ where $\hat Q(s, a)$ is the current _estimated_ Q-value.
 
+## week 8 tutorial
+
+- datetime: 2025-03-25T12:30:00+08:00/2025-03-25T13:20:00+08:00, PT50M
+- topic: midterm Q&A
+
+## week 8 lecture
+
+- datetime: 2025-03-26T13:30:00+08:00/2025-03-26T14:50:00+08:00, PT1H20M
+- topic: reinforcement learning
+- reinforcement learning
+  - reinforcement learning / key algorithms ::@:: Monte Carlo
+    - reinforcement learning / key algorithms / representation ::@:: approximation: efficiently approximate the observed values by functions, e.g. Monte Carlo, Q-values, temporal difference, Q-learning <br/> tabular representation: store the observed values in tables, e.g. deep Q-learning, policy gradient
+  - reinforcement learning / Monte Carlo ::@:: Given a sample run $D = (s_1, a_1, r_1, s_2, a_2, r_2, \ldots)$, estimate the sample transition probabilities and reward functions. In particular, we have $$\begin{aligned} \hat T(s, a, s') & = \frac {\#(s, a, s') \in D} {\sum_{s''} \#(s, a, s'') \in D} \\ R(s, a, s') & = \operatorname E\set{r : (s, a, r, s') \in D} \\ R(s, a) & = \operatorname E\set{r: (s, a, r) \in D} \,, \end{aligned}$$ which you should be able to infer yourself.
+  - reinforcement learning / Q-values ::@:: Given a sample run $D = (s_1, a_1, r_1, s_2, a_2, r_2, \ldots)$, estimate the Q-values $Q_\pi(s, a)$ for each combination of state $s$ and action $a$. <p> We can derive the utility at state $s_t$, where $t$ is time: $$u_t = r_t + \gamma r_{t + 1} + \gamma^2 r_{t + 2} + \cdots \,,$$ where $\gamma$ is the discount factor. Then, the Q-value $Q_\pi(s, a)$ is estimated as $$Q_\pi(s, a) = \operatorname E\set{u_t : (s_t, a_t) = (s, a)} \,,$$ that is, the average utility at time $t$ where the state is $s$ and you take action $a$.
+  - reinforcement learning / temporal difference ::@:: It refers to a class of model-free reinforcement learning methods which learn by bootstrapping from the current estimate of the value function. These methods sample from the environment, like Monte Carlo methods, and perform updates based on current estimates, like dynamic programming methods. <p> This method is in contrast to Monte Carlo methods. <p> examples: Q-learning
+  - reinforcement learning / Q-learning ::@:: Initialize Q-values $\hat Q(s, a)$ for each combination of state $s$ and $a$ to zero. <p> An agent at state $s$ performs an action $a$, recevies reward $r$, and reaches state $s'$, i.e. $(s, a, r, s')$. The original new value of Q-value is thus: $$\hat Q'(s, a) = r + \gamma \hat V(s') \,,$$ where $V(s') = \max_a \hat Q(s', a)$ is the highest possible Q-value for state $s'$. <p> The method of _temporal difference_ additionally requires a _learning rate_ $\mu \in [0, 1]$ to control how much the new value replaces the old value: $$\hat Q_{\text{new} }(s, a) = (1 - \mu) \hat Q(s, a) + \mu \hat Q'(s, a) = (1 - \mu) \hat Q(s, a) + \mu(r + \gamma \hat V(s')) \,.$$
+  - reinforcement learning / deep Q-learning ::@:: When there are many states, Q-learning may not be efficient enough at estimating the real Q-values. A deep neural network is used to represent the Q-values as a Q-function. <p> The DeepMind system used a deep convolutional neural network, with layers of tiled convolutional filters to mimic the effects of receptive fields. \(<https://arxiv.org/pdf/1312.5602.pdf>\)
+  - reinfrocement learning / policy gradient ::@:: [Gradient](../../../../general/gradient.md)-based methods \(_policy gradient methods_\) start with a mapping from a finite-dimensional \(parameter\) space to the space of policies: given the parameter vector $\theta$, let $\pi _{\theta }$ denote the policy associated to $\theta$. Defining the performance function by $\rho (\theta )=\rho ^{\pi _{\theta } }$ under mild conditions this function will be differentiable as a function of the parameter vector $\theta$. If the gradient of $\rho$ was known, one could use [gradient ascent](../../../../general/gradient%20descent.md).
+    - reinforcement learning / policy gradient / approximation ::@:: Since an analytic expression for the gradient is not available, only a noisy estimate is available. Such an estimate can be constructed in many ways, giving rise to algorithms such as Williams's REINFORCE method \(which is known as the likelihood ratio method in the [simulation-based optimization](../../../../general/simulation-based%20optimization.md) literature\).
+
 ## midterm examination
+
+- datetime: 2025-03-26T19:30:00+08:00/2025-03-26T21:30:00+08:00, PT2H
+- venue: Lecture Theater B
+- format
+  - calculator: yes
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: select lecture slides
+  - questions: long questions ×8
+- grades: ?/100
+  - statistics
+    - timestamps: ?
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
+- report
+  - \(none\)
+- check
+  - datetime: ?
+  - venue: ?
+
+> __<big>Midterm Information and Past Midterm Exam Papers</big>__
+>
+> <big>Midterm Information</big>
+>
+> COMP3211 midterm exam will be held __on March 26 \(Wed\), from 7:30pm to 9:30pm, in LTB__. The special arrangement exam venue for those with time conflicts will be informed via email in a few days.
+>
+> - The midterm coverage is from the beginning to Page 30 \(including\) of _Lecture 6: MDP and Reinforcement Learning_, everything in the lecture notes and the first two assignments.
+> - The exam is closed-book. No cheat sheet is allowed.
+> - Calculators are allowed.
+> - Written programming/coding won't be tested in the exam.
+>
+> <big>Midterm Q&A Sessions</big>
+>
+> The tutorials on March 21 \(Fri\) and March 25 \(Tue\) will be midterm Q&A sessions. No new materials will be conducted. You can feel free to go to the Q&A sessions if you have any question regarding the course contents.
+>
+> <big>Past Midterm Exam Papers</big>
+>
+> 23-midterm.pdf, 20-midterm.pdf
+
+## week 8 lecture 2
+
+- datetime: 2025-03-28T13:30:00+08:00/2025-03-28T14:50:00+08:00, PT1H20M
+- topic: game theory
+- [multi-agent system](../../../../general/multi-agent%20system.md) \(MAS\) ::@:: It is a computerized system composed of multiple interacting intelligent agents.
+  - multi-agent system / issues ::@:: communication, cooperation, reaction \(facing adversity\), etc.
+  - multi-agent system / examples ::@:: chess, contract bridge, market mechanism, most sport games, resource allocation, tic-tac-toe
+- [game theory](../../../../general/game%20theory.md) ::@:: It is the study of [mathematical models](../../../../general/mathematical%20model.md) of strategic interactions. <p> It studies players (decision makers), strategies (players' complete plan of actions), and payoffs (outcomes, which can be rewards or punishments). Usually there are two players, but any number of players can be analyzed.
+  - game theory / normal form ::@:: They are the simplest games studied in game theory and also most fundamental ones. \(To be defined later...\)
+- [preference](../../../../general/preference%20(economics).md) ::@:: It refers to an order by which an agent, while in search of an "optimal choice", ranks alternatives based on their respective utility.
+  - preference / properties ::@:: completeness, continuity, decomposability, monotonicity, substituability, transitivity
+    - preference / properties / completeness ::@:: Every pair of two bundles is comparable by ≽. Either _A_ ≽ _B_, _B_ ≽ _A_, or both.
+    - preference / properties / transitivty ::@:: _A_ ≽ _B_ and _B_ ≽ _C_ implies _A_ ≽ _C_.
+    - preference / properties / substituability ::@:: In a bundle _A_, there may be multiple \(repeated\) elements. The desirability of an element is not affected by the presence or absence of other elements.
+    - preference / properties / decomposability ::@:: The set of bundles _O_ can be decomposed into two sets _O_<sub>1</sub> and _O_<sub>2</sub>. The most preferred option of _O_ is either that in _O_<sub>1</sub> or _O_<sub>2</sub>.  
+    - preference / properties / monotonicity ::@:: Comparing two bundles, if an element occurs in a bundle _A_ more times than the other bundle _B_, and no less for other elements, then _A_ ≽ _B_.
+    - preference / properties / continuity ::@:: If _A_ ≽ _B_, and _C_ is sufficiently close to _A_, then _C_ ≽ _B_.
+  - preference / utility function ::@:: \(von Neumann and Morgenstern, 1944\) If a preference relation ≽ satisfies 6 properties:  completeness, continuity, decomposability, monotonicity, substituability, transitivity, then: <p> We can map the bundles to a real number in \[0, 1\]. This function can be considered a _utility function_. It respects that if _A_ ≽ _B_, then _u_(_A_) ≥ _u_(_B_). Further, the utility of a lottery of bundles is simply the weighted sum of the bundle utilities, weighted by their probabilities.
+- [normal-form game](../../../../general/normal-form%20game.md) ::@:: It is a description of a _game_. Unlike [extensive form](../../../../general/extensive-form%20game.md), normal-form representations are not [graphical](../../../../general/graph%20(discrete%20mathematics).md) _per se_, but rather represent the game by way of a [matrix](../../../../general/matrix%20(mathematics).md).
+  - normal-form game / formal definition ::@:: The game has _n_ players. Each player has their own set of actions _A_<sub>_i_</sub>. Each player also has their own utility function _u_<sub>_i_</sub>, which maps from the Cartesian product of all sets of actions to a real number. <p> This is because the utility for a player also depends on the actions of other players.
+  - normal-form game / matrix ::@:: For _n_ players, we can represent the _n_ utilities for _n_ players in a _n_-dimensional matrix. Each dimension corresponds to the set of actions for a player.
+- [prisoners' dilemma](../../../../general/prisoners'%20dilemma.md) ::@:: It is a [game theory](../../../../general/game%20theory.md) thought experiment involving two [rational agents](../../../../general/rational%20agent.md), each of whom can either cooperate for mutual benefit or betray their partner \("defect"\) for individual gain. The dilemma arises from the fact that while defecting is rational for each agent, cooperation yields a higher payoff for each.
+- [coordination game](../../../../general/coordination%20game.md) ::@:: It is a type of simultaneous game found in game theory. It describes the situation where a player will earn a higher payoff when they select the same course of action as another player. The game is not one of pure conflict, which results in multiple pure strategy Nash equilibria in which players choose matching strategies.
+- [matching pennies](../../../../general/matching%20pennies.md) ::@:: __Matching pennies__ is a [non-cooperative game](../../../../general/non-cooperative%20game%20theory.md) studied in [game theory](../../../../general/game%20theory.md). It is played between two players, Even and Odd. Each player has a [penny](../../../../general/penny.md) and must secretly turn the penny to heads or tails. The players then reveal their choices simultaneously. If the pennies match \(both heads or both tails\), then Even wins and keeps both pennies. If the pennies do not match \(one heads and one tails\), then Odd wins and keeps both pennies.
+- [Nash equilibrium](../../../../general/Nash%20equilibrium.md) ::@:: In [game theory](../../../../general/game%20theory.md), it is the most commonly-used [solution concept](../../../../general/solution%20concept.md) for [non-cooperative games](../../../../general/non-cooperative%20game%20theory.md). It is a situation where no player could gain by changing their own strategy \(holding all other players' strategies fixed\). <p> If each player has chosen a [strategy](../../../../general/strategy%20(game%20theory).md) – an action plan based on what has happened so far in the game – and no one can increase one's own expected payoff by changing one's strategy while the other players keep theirs unchanged, then the current set of strategy choices constitutes this. <p> Note that the strategy may be pure (one could also considered pure as a degenerate form of mixed) or mixed.
+  - Nash equilibrium / number ::@:: There may be one, multiple, or no _pure_ Nash equilibria. <p> Under some conditions, a _possibly mixed_ Nash equilibrium must exist.
+- prisoners' dilemma
+  - prisoners' dilemma / Nash equilibrium ::@:: Both prisoners' confessing is the unique Nash equilibrium.
+- coordination game
+  - coordination game / Nash equilibrium ::@:: Both players doing the same thing, for which there are two profiles, are the two Nash equilibra.
+
+## week 9 tutorial
+
+- datetime: 2025-04-01T12:30:00+08:00/2025-04-01T13:20:00+08:00, PT50M
+- status: unscheduled, midterm break
+
+## week 9 lecture
+
+- datetime: 2025-04-02T13:30:00+08:00/2025-04-02T14:50:00+08:00, PT1H20M
+- status: unscheduled, midterm break
+
+## week 9 lecture 2
+
+- datetime: 2025-04-04T13:30:00+08:00/2025-04-04T14:50:00+08:00, PT1H20M
+- status: unscheduled, midterm break
 
 ## final examination
 
