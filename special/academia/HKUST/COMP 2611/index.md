@@ -43,6 +43,7 @@ The content is in teaching order.
 
 - [MARS](MARS.md)
 - [MIPS](MIPS.md)
+- [assignments](assignments/index.md)
 <!-- - [questions](questions.md) -->
 
 ## week 1 lecture
@@ -315,7 +316,7 @@ The content is in teaching order.
   - single-precision floating-point format
 - [double-precision floating-point format](../../../../genral/double-precision%20floating-point%20format.md) (`double`) ::@:: 64-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 11 exponent bits, and 52 significand bits (precision is 53 bits).
   - double-precision floating-point format / precision ::@:: about 16 significant _decimal_ digits (15 to 17)
-  - double-precision floating-point format / exponent range ::@:: 2<sup>−1026</sup> ≈ 10<sup>−308</sup> to 2<sup>+1027</sup> ≈ 10<sup>+308</sup>
+  - double-precision floating-point format / exponent range ::@:: 2<sup>−1022</sup> ≈ 10<sup>−308</sup> to 2<sup>+1023</sup> ≈ 10<sup>+308</sup>
     - double-precision floating-point format / exponent range / mnemonic ::@:: Compare the exponents with that of single-precision... notice that "0" is inserted as the 2nd digit. Hmm...
 - [IEEE 754](../../../../general/IEEE%20754.md) ::@:: a technical standard for floating-point arithmetic originally established in 1985 by the Institute of Electrical and Electronics Engineers \(IEEE\)
   - IEEE 754 / history (brief) ::@:: It was developed in response to divergence of representations, which can cause portability issues for scientific code. Now it is almost universally adopted.
@@ -613,9 +614,181 @@ The content is in teaching order.
     - complex instruction set computer / characteristics / memory ::@:: Due to complex hardware, less registers and smaller CPU caches can be equipped.
     - complex instruction set computer / characteristics / use ::@:: Assembly language is easier to write. Compilers are easier to write as well.
 
-## assignments
+## week 8 lecture
+
+- datetime: 2025-03-24T13:30:00+08:00/2025-03-24T14:50:00+08:00, PT1H20M
+- topic: MIPS recursion, computer arithmetic, addition, subtraction, overflow
+- two's complement
+  - two's complement / addition
+  - two's complement / subtraction
+- [method of complements](../../../../general/method%20of%20complements.md) ::@:: It is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm (or mechanism) for addition throughout the whole range.
+  - method of complements / binary method ::@:: The method of complements is especially useful in binary \(radix 2\) since the ones' complement is very easily obtained by inverting each bit \(changing '0' to '1' and vice versa\). Adding 1 to get the two's complement can be done by simulating a carry into the least significant bit.
+- two's complement
+  - two's complement / addition
+    - two's complement / addition / overflow ::@:: The last two bits of the carry row \(reading right-to-left\) contain vital information: whether the calculation resulted in an arithmetic overflow, a number too large for the binary system to represent. An overflow condition exists when these last two bits are different from one another.
+      - two's complement / addition / overflow / alternative ::@:: When two numbers have the same sign, but the resulting number has a different sign from the first number, then overflow occurs.
+  - two's complement / subtraction
+    - two's complement / subtraction / overflow ::@:: Overflow is detected the same way as for addition, by examining the two leftmost (most significant) bits of the borrows; overflow has occurred if they are different.
+      - two's complement / addition / overflow / alternative ::@:: When two numbers have different signs, but the resulting number has a different sign from the first number, then overflow occurs.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ instructions](MIPS.md#data%20instructions): two's complement is used to represent signed integers
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `addu`, `subu`, `addiu`
+    - [§ comparison instructions](MIPS.md#comparison%20instructions): `sltu`, `sltui`
+    - [§ data instructions](MIPS.md#data%20instructions): `lhu`, `lbu`
+    - [§ interrupt](MIPS.md#interrupt)
+- [interrupt](../../../../general/interrupt.md) ::@:: It is a request for the processor to interrupt currently executing code \(when permitted\), so that the event can be processed in a timely manner.
+- sign extension
+  - sign extension / zero extension
 
 ## midterm examination
+
+- datetime: 2025-03-24T19:30:00+08:00/2025-03-24T21:00:00+08:00, PT1H30M
+  - actual: 2025-03-24T19:30:00+08:00/2025-03-24T21:10:00+08:00, PT1H40M
+- venue: Lecture Theater A; Lecture Theater B
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: multiple choice questions ×8, long questions ×5
+- grades: 91/100 → 96/100
+  - statistics
+    - timestamps: 2025-03-27T15:17+08:00 → 2025-03-29+08:00
+    - mean: ? \(provided: 71.56\) → 70.54
+    - standard deviation: ? \(provided: 16.41) → ?
+    - low: 0 → 0
+    - lower quartile: 60 → 60
+    - median: 73 \(provided: 73\) → 73
+    - upper quartile: 84 → 84
+    - high: 97 → 100
+    - distribution: ![midterm examination distribution](attachments/distribution.png) → ?
+- report
+  - \(none\)
+- check
+  - datetime: 2025-03-28T19:00:00+08:00 → 2025-03-28T20:30:00+08:00
+  - venue: Lecture Theater C
+  - report
+
+## week 8 lab
+
+- datetime: 2025-03-25T15:00:00+08:00/2025-03-25T15:50:00+08:00, PT50M
+- topic: MIPS procedures
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures)
+    - [§ memory layout](MIPS.md#memory%20layout): stack
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `push`, `pop`
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): passing more than 4 arguments
+
+## week 8 tutorial
+
+- datetime: 2025-03-25T18:00:00+08:00/2025-03-25T18:50:00+08:00, PT50M
+- topic: MIPS branches, jump instructions
+- MARS
+  - [MARS](MARS.md)
+    - [§ system calls](MARS.md#system%20calls)
+    - MARS / generate random numbers ::@:: Usually in C, we use the current system timestamp as the RNG seed. Then we generate random numbers, limiting its range using the modulo operator. <p> We can do the same in MARS using syscalls.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ jump instructions](MIPS.md#jump%20instructions): `beq`, `bne`, `j`
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `addu`, `subu`, `addiu`
+    - [§ comparison instructions](MIPS.md#comparison%20instructions): `slt`, `slti`
+    - [§ control flow](MIPS.md#control%20flow)
+
+## week 8 lecture 2
+
+- datetime: 2025-03-28T09:00:00+08:00/2025-03-28T10:20:00+08:00, PT1H20M
+- topic: arithmetic logic unit \(ALU\)
+- [arithmetic logic unit](../../../../general/arithmetic%20logic%20unit.md) \(ALU\) ::@:: It is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
+  - arithmetic logic unit / processor ::@:: It is an important part of a processor, with the other parts being cache, control unit, and registers.
+  - arithmetic logic unit / bitwidth ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together.
+  - arithmetic logic unit / functions ::@:: arithmetic, bit shift, bitwise logical, other \(passthrough\)
+    - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output.
+- [adder](../../../../general/adder%20(electronics).md) ::@:: It is a digital circuit that performs addition of numbers.
+  - adder / half adder ::@:: It adds two single binary digits $A$ and $B$. It has two outputs, sum \($S$\) and carry \($C$\). The carry signal represents an [overflow](../../../../general/integer%20overflow.md) into the next digit of a multi-digit addition. The value of the sum is $2C+S$.
+    - add / half adder / implementation ::@:: The simplest half-adder design, pictured on the right, incorporates an [XOR gate](../../../../general/XOR%20gate.md) for $S$ and an [AND gate](../../../../general/AND%20gate.md) for $C$. The Boolean logic for the sum \(in this case $S$\) will be $A\oplus B$ whereas for the carry \($C$\) will be $A\cdot B$. With the addition of an [OR gate](../../../../general/OR%20gate.md) to combine their carry outputs, two half adders can be combined to make a full adder.
+    - add / half adder / schematic ::@:: [Schematic](../../../../general/schematic.md) of half adder implemented with one [XOR gate](../../../../general/XOR%20gate.md) and one [AND gate](../../../../general/AND%20gate.md): <p> ![Schematic of half adder implemented with one XOR gate and one AND gate.](../../../../archives/Wikimedia%20Commons/Half%20Adder.svg)
+  - adder / full adder ::@:: It adds binary numbers and accounts for values carried in as well as out. A one-bit full-adder adds three one-bit numbers, often written as $A$, $B$, and $C_{in}$; $A$ and $B$ are the operands, and $C_{in}$ is a bit carried in from the previous less-significant stage. The circuit produces a two-bit output.
+    - adder / full adder / implementation ::@:: A full adder can be implemented in many different ways such as with a custom [transistor](../../../../general/transistor.md)-level circuit or composed of other gates. The most common implementation is with: $$\begin{aligned} S & = A\oplus B\oplus C_{in} \\ C_{out} & = (A\cdot B)+(C_{in}\cdot (A\oplus B)) \end{aligned}$$ The above expressions for $S$ and $C_{in}$ can be derived from using a [Karnaugh map](../../../../general/Karnaugh%20map.md) to simplify the truth table.
+    - adder / full adder / schematic ::@:: [Schematic](../../../../general/schematic.md) of full adder implemented with two [XOR gates](../../../../general/XOR%20gate.md), two [AND gates](../../../../general/AND%20gate.md), one [OR gate](../../../../general/OR%20gate.md): <p> ![Schematic of full adder implemented with two XOR gates, two AND gates, one OR gate.](../../../../archives/Wikimedia%20Commons/Full-adder%20logic%20diagram.svg)
+  - adder / ripple-carry adder ::@:: It is possible to create a logical circuit using multiple full adders to add _N_-bit numbers. Each full adder inputs a $C_{in}$, which is the $C_{out}$ of the previous adder. This kind of adder is called a __ripple-carry adder__ \(RCA\), since each carry bit "ripples" to the next full adder. The first \(and only the first\) full adder may be replaced by a half adder \(under the assumption that $C_{in}=0$\).
+    - adder / ripple-carry adder / characteristics ::@:: The layout of a ripple-carry adder is simple, which allows fast design time; however, the ripple-carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder.
+- method of complements
+- arithmetic logic unit
+  - arithemtic logic unit / signals ::@:: data, opcode, status \(outputs, inputs)
+    - arithmetic logic unit / signals / data ::@:: 2 inputs, 1 output; their bit widths are usually the same, and same as the native ISA
+    - arithmetic logic unit / signals / opcode ::@:: It conveys to the ALU an operation selection code, which is an enumerated value that specifies the desired arithmetic or logic operation to be performed by the ALU. <p> Passing it to a multiplexor/selector can be used to choose the right output.
+    - arithmetic logic unit / signals / status outputs ::@:: carry-out, zero, negative, overflow, parity, etc.
+    - arithmetic logic unit / signals / status inputs ::@:: carry-in, etc.
+  - arithmetic logic unit / functions
+    - arithmetic logic unit / functions / bitwise operations ::@:: Use the corresponding logic gates.
+    - arithmetic logic unit / functions / addition ::@:: Use full-adders. Two common ways to add multiple-bit numbers are _ripple carry_ and _carry lookahead_.
+    - arithmetic logic unit / functions / subtraction ::@:: Assuming signed integers are represented using two's complement. <p> The circuit for addition can be reused. However, the second operand \(the _subtrahend_\) needs to be inverted and then added one to get its complement. One way to implement this is to invert the second operand \(by setting an additional input _binvert_ to 1\), and additionally set the carry-in of the LSB full-adder to 1. We could combine these two inputs \(_binvert_ + carry-in of LSB\) as an input _bnegate_.
+    - arithmetic logic unit / functions / comparison ::@:: To check if `$s < $t`, we can use `slt $d, $s, $t`. This is equivalent to checking `$s - $t < 0`, i.e. checking if the sign bit \(assuming no oveflow\) of `$s - $t` equals 1. <p> To implement `slt`, we can add a _less_ input to all ALUs, which is passthrough as the output when the opcode is for `slt`. Then, the _less_ input is always zero except for the LSB ALU, which is connected to the _set_ output of the MSB ALU. The _set_ output is simply the subtraction MSB bit. \(this course: The lecture slides do not handle overflows. To handle overflows, detect if a subtraction overflow is possible, i.e. the two operand sign bits are different, and if so, the _set_ output uses the sign bit of the second operand.\) <p> Remember to also set the carry-in bit of the LSB to perform subtraction properly.
+    - arithmetic logic unit / functions / equal ::@:: To check if `$s = $t` \(e.g. `beq`\), this is equivalent to checking `$s - $t == 0`. <p> To implement this, it is similar to subtraction, but you additionally add a NOR gate acting on all the output bits. This produces a _zero_ status output, which indicates if the subtraction result is zero. Also in this case, you do not need to worry about oveflow affecting the result.
+  - arithmetic logic unit / diagram ::@:: An arithmetic logic unit and its associated status register. The stored carry-out is connected to carry-in to facilitate efficient carry propagation: <p> ![An arithmetic logic unit and its associated status register.](../../../../archives/Wikimedia%20Commons/AluStatusRegister.svg)
+  - arithmetic logic unit / note ::@:: \(this course: Our 32-bit ALU has an AND gate \(00\), a OR gate \(01\), a full adder \(10\), and _less_ passthrough \(11\). Additionally, it has a _bnegate_ input as the 3rd control signal. Thus we support 5 operations: 000: AND; 001: OR; 010: ADD; 110: SUB; 111: SLT.\)
+- adder
+  - adder / carry-lookahead adder ::@:: Two signals \($P$ and $G$\) are introduced for each bit position, based on whether a carry is propagated through from a less significant bit position \(at least one input is a 1\), generated in that bit position \(both inputs are 1\), or killed in that bit position \(both inputs are 0\). In most cases, $P$ is simply the sum output of a half adder and $G$ is the carry output of the same adder. After $P$ and $G$ are generated, the carries for every bit position are created. <p> Note: $P = A + B$ \(described in the first sentence\) or $P = A \oplus B$ \(the output of a half-adder\) are both acceptable, since if $A = B = 1$, the next carry bit is generated, so whether the current carry bit is propagated has no effect. \(this course: use $A \oplus B$\)
+    - adder / carry-lookahead adder / carry bits ::@:: The _n_-th \(0-based\) carry bit is: $$C_n = G_{n - 1} + G_{n - 2} P_{n - 1} + \cdots + G_0 P_1 \cdots P_{n - 1} + C_0 P_0 \cdots P_{n - 1} \,,$$ where $C_0$ is the LSB carry bit. <p> The above can be intutively understood: A carry bit is generated or propagated from any of the previous/lower carry bits.
+    - adder / carry-lookahead adder / characteristics ::@:: Now we can add the two numbers and then the carry bits in parallel without rippling. <p> This is possible because electronic chips are becoming cheaper and denser.
+
+## week 9 lecture
+
+- datetime: 2025-03-31T13:30:00+08:00/2025-03-31T14:50:00+08:00, PT1H20M
+- topic: multiplication
+- [binary multiplier](../../../../general/binary%20multiplier.md) ::@:: It is an electronic circuit used in digital electronics, such as a computer, to multiply two binary numbers.
+  - binary multiplier / binary long multiplication ::@:: The method taught in school for multiplying decimal numbers is based on calculating partial products, shifting them to the left and then adding them together. <p> A binary computer does exactly the same multiplication as decimal numbers do, but with binary numbers. In binary encoding each long number is multiplied by one digit \(either 0 or 1\), and that is much easier than in decimal, as the product by 0 or 1 is just 0 or the same number. Therefore, the multiplication of two binary numbers comes down to calculating partial products \(which are 0 or the first number\), shifting them left, and then adding them together \(a binary addition, of course\).
+  - binary multiplier / bit width ::@:: Ignoring the sign bit, multiplying a _n_-bit number with a _m_-bit number yields at most a _n_&nbsp;+&nbsp;_m_-bit number.
+  - binary multiplier / binary long multiplication
+    - binary multiplier / binary long multiplication / implementation, naive ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, zero-extend the multiplicand to 2\*_n_ bits. Have another 2\*_n_-bit register to store the _product_, initialized to all 0s. <p> Perform the following steps _n_ times: Add the multiplicand to the product if the LSB of the multiplier is 1. Then shift the multiplicand left by 1 bit and the multiplier right by 1 bit.
+      - binary multiplier / binary long multiplication / implementation, naive / observations ::@:: Only half of the zero-extended multiplicand bits ever contain useful information. Also, using a 2\*_n_-bit ALU is slower than using a _n_-bit ALU. <p> We also note that later addition does not affect LSBs. This hints at a better implementation...
+    - binary multiplier / binary long multiplication / implementation ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, have another 2\*_n_-bit register to store the _product_. <p> Perform the following steps _n_ times: Add the multiplicand to the _upper half bits_ of product if the LSB of the multiplier is 1. Then shift the _product_ and the multiplier right by 1 bit.
+      - binary multiplier / binary long multiplication / implementation / observations ::@:: No multiplicand bits are wasted. We can keep using a _n_-bit ALU. <p> We also note that the product contains 1 _more_ bit of useful information and the multiplier contains 1 _less_ bit of useful information per addition. This means we can combine the product and multiplier registers into one 2\*_n_-bit register, and shift them right by 1 bit together per addition.
+    <!-- - binary multiplier / binary long multiplication / implementation, smart ::@:: For multiplying two _n_-bit numbers, the above less-naive implementation takes _n_–1 addition on the _n_ _n_-bit partial products. <p> We can instead do addition on the _n_-bit partial sums like a _binary tree_. Then, we have _n_–1 adder connected like a binary tree, and takes log<sub>2</sub>(_n_) adder time to finish. One should notice that adding two _n_-bit unsigned integers produce an integer at most _n_+1-bit. To solve this, an extra bit is taken away from one of the operand and set to 0. \(Wait, this makes no sense...?\) This extra 1 bit contributes to either the upper 16 bits or the lower 16 bits. The final adder in the tree contributes to the middle 32 bits. -->
+  - binary multiplier / signed ::@:: The simplest idea is to consider the sign explicitly. Both the multiplicand and the multiplier are forced to become positive. Multiply them to get a positive product. Finally, if the original multiplicand and multiplier signs disagr3ee, negate the product. <p> A more efficient and elegant idea is [Booth's multiplication algorithm](../../../../general/Booth's%20multiplication%20algorithm.md).
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ instructions](MIPS.md#data%20instructions): two's complement is used to represent signed integers
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `mult`, `multu`
+    - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `srl`, `sra`
+
+## week 9 lab
+
+- datetime: 2025-04-01T15:00:00+08:00/2025-04-01T15:50:00+08:00, PT50M
+- status: unscheduled, midterm break
+
+## week 9 tutorial
+
+- datetime: 2025-04-01T18:00:00+08:00/2025-04-01T18:50:00+08:00, PT50M
+- status: unscheduled, midterm break
+
+## week 9 lecture makeup
+
+- datetime: 2025-04-02T14:00:00+08:00/2025-04-02T15:30:00+08:00, PT1H30M
+- topic: multiplication, division
+- status: makeup, online, recorded
+
+> Dear student of COMP2611 L2,
+>
+> As you may know, we are going to lose quite a number of lectures in the front \(i.e. we will lose 3 classes in April and 1 class in May\). Because of this, we will have 1 less class than the other two COMP2611 sections. That will put our section in an extremely disadvantageous position when it comes to doing HW4 and preparing for the final exam.
+>
+> Therefore, I decided to hold an online makeup class this Wednesday \(2/4\) from 2:00pm to 3:30pm. This time is carefully chosen - it happens during the mid-semester break and we will do it in the afternoon (so that you don't need to wake up early). The link for the makeup class is at : \[redacted\]
+>
+> The class will be video recorded and I will send you the video link as soon as I have received it \(likely to be on this Wed or Thur\). During the makeup class, we will do a quick revision of versions 2 and 3 of the multiplication algorithm and finish the division algorithms \(i.e. slides 38-61 of \[redacted\] \).
+>
+> Moreover, I added some additional slides to the arithmetic note set to explain the multiplication and division algorithms. I am attaching this modified arithmetic note set to the email in case it would be useful. In this modified note set, I added slides 39-42 and slides 57-75.
+>
+> Hope this helps! I hope you will have plenty of rest in the break and I also hope you will have a happy and fruitful break!
+>
+> \[redacted\]
+
+## week 9 lecture 2
+
+- datetime: 2025-04-04T09:00:00+08:00/2025-04-04T10:20:00+08:00, PT1H20M
+- status: unscheduled, midterm break
 
 ## final examination
 

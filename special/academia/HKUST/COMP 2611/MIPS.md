@@ -94,7 +94,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 - add ::@:: `add $d, $s, $t`: `$d = $s + $t;`, signed, traps on overflow
 - add immediate ::@:: `addi $t, $s, imm`: `$t = $s + imm;`, signed, traps on overflow; `imm` is sign-extended
-- add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(surprise!\)
+- add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(_surprise_!\)
   - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow.
 - add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow
   - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow.
@@ -105,11 +105,13 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
   - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent.
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> -->
 - multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist.
-- multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed
+- multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed; note the register placeholder `$d` is unused
+  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\)
 - multiply immediate ::@:: `multi` does not exist.
 - multiply immediate unsigned ::@:: `multiu` does not exist.
-- multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned
+- multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused
   - multiply unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent.
+  - multiply unsigned / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` is 0.\)
 - subtract ::@:: `sub $d, $s, $t`: `$d = $s - $t;`, signed, traps on overflow
 - subtract immediate ::@:: `subi` does not exist. Use `addi` with a negative constant instead.
 - subtract immediate unsigned ::@:: `subiu` does not exist. Use `addiu` with a negative constant instead.
@@ -128,10 +130,13 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - bitwise or immediate ::@:: `ori $t, $s, imm`: `$t = $s | imm;`; `imm` is zero-extended
 - shift left arithmetic ::@:: `sla` does not exist. It would have been equivalent to `sll`.
 - shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0
+  - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>.
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended
+  - shift right arithmetic / arithmetic ::@:: It has the same effect as dividing \(rounded towards zero\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible.
 - shift right arithmetic variable ::@:: `srav $d, $t, h`: `$d = $t >> h;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits
 - shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0
+  - shift right logical / arithmetic ::@:: It has the same effect as dividing \(rounded towards zero\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible.
 - shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits
 
 ### data instructions
@@ -168,7 +173,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 - set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended
-- set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(surprise!\)
+- set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\)
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned
 
 ### miscellaneous instructions
@@ -247,6 +252,8 @@ The 32 registers are used as follows:
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}.
 
+If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments, _pushing_ from _right to left_ \(so that the stack top points to the 1st extra argument\)}@}. Then, the callee {@{_pops_ the extra arguments from the stack and uses them}@}, so {@{the caller does not need to pop the extra arguments from the stack itself}@}.
+
 ## assembly
 
 {@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}.
@@ -305,7 +312,9 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;`
 - not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;`
 - pop ::@:: `$pop [$d=$ra]`: pops a 32-bit value from the stack to `$d`; implemented by `lw $d, 0($sp); addi, $sp, $sp, 4;`
+  - pop / usage ::@:: In practice, when you want to pop multiple values at once \(e.g. popping extra arguments from the stack\), using multiple `pop` is inefficient. Instead, you retrive the multiple values directly using `lw` using offsets from `$sp`, then adjust `$sp` upward apporpriately to shrink the stack.
 - push ::@:: `$push [$s=$ra]`: pushes the 32-bit value of `$s` to the stack; implemented by `addi $sp, $sp, -4; sw $s, 0($sp);`
+  - push / usage ::@:: In practice, when you want to push multiple values at once \(e.g. pushing extra arguments to the stack\), using multiple `push` is inefficient. Instead, you adjust `$sp` downward appropriately to grow the stack, then save the multiple values directly using `sw` using offsets from `$sp`.
 - set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;`
 - set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;`
 
@@ -348,6 +357,14 @@ MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}.
 - pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(PC & 0xf0000000) | (offset << 2)`.
 
 A problem with PC-relative addressing is that {@{the branch target may be too far away}@}. The assembler {@{may rewrite a branch instruction as a branch instruction followed by a jump instruction, so that pseudo-direct addressing can be used}@}. If pseudo-direct addressing is insufficient, {@{storing the 32-bit address into a register and using `jr` suffices}@}.
+
+## interrupt
+
+{@{An _interrupt_, _exception_, or _trap_}@} is {@{a request for the processor to interrupt currently executing code \(when permitted\), so that the event can be processed in a timely manner}@}. MIPS {@{supports interrupts}@}.
+
+When {@{an interrupt occurs}@}, control {@{jumps to a predefeined address containing instructions to handle the interrupt}@}. {@{The address of the interrupted instruction}@} is {@{saved to an _exception program counter_ \(EPC\)}@}, so that {@{the interrupt handler can _choose_ to resume the interrupted code using `jr` \(jump register\)}@}.
+
+A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}.
 
 ## miscellaneous
 
