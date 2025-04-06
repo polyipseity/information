@@ -824,10 +824,10 @@ tags:
 > Q13. Suppose we have the following one-dimensional dataset with 10 data points, and we want to perform K-means clustering with K=2. We choose our initial centroids as 0 and 1. What are the centroid positions after one iteration of K-means clustering?
 >
 > ```Python
-> array([0.56, 0.38, 0.48, 0.51, 0.7, 0.98, 0.6, 0.87, 0.61, 0.54])
+> array([0.02, 0.93, 0.45, 0.7, 0.41, 0.78, 0.03, 0.52, 0.59, 0.53])
 > ```
 >
-> - solution: {@{centroid 0: (0.02 + 0.45 + 0.41 + 0.03)/4 = 0.2275 <br/> centroid 1: (0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53)/6 = 0.675}@}
+> - solution: {@{centroid 0: \(0.02 + 0.45 + 0.41 + 0.03\)/4 = 0.2275 <br/> centroid 1: \(0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53\)/6 = 0.675}@}
 
 <!-- markdownlint MD028 -->
 
