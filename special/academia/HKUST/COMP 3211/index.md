@@ -607,7 +607,7 @@ The content is in teaching order.
     - high: ?
     - distribution: ?
 - report
-  - \(none\)
+  - breadth-first search, depth-first search, A\* search \(?\) ::@:: Take note of how states are deduplicated. In the exam, BFS and DFS deduplicates _generated_ states, while A\* search deduplicates _visited_/_expanded_ states \(wording: "ancestors"\). <p> It turns out it is very easy to get this wrong if you try to run the algorithm by hand... For BFS and DFS, it is easy to get the depth wrong, since the depth is based on _generation_ instead of _expansion_. For A\* search, it is troublesome in general, since the same state may be generated multiple times with different _g_ and thus _f_ values, so these generated states are considered distinct.
 - check
   - datetime: ?
   - venue: ?
