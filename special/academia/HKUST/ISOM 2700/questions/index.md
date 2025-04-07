@@ -45,3 +45,15 @@ tags:
 > 5. longer than 90 minutes
 >
 > - solution: {@{1/2/3/4/5}@}
+
+## week 7 lecture
+
+> Q1. What is your estimated workload for this semester \(normalize this course to one\)?
+>
+> 1. ≤3
+> 2. 4
+> 3. 5
+> 4. 6
+> 5. \>6
+>
+> - solution: {@{1/2/3/4/5}@}

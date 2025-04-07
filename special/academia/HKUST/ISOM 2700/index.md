@@ -270,7 +270,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-19T10:30:00+08:00/2025-02-19T11:50:00+08:00
 - topic: managing uncertainty in service system, M/M/s queuing systems
-- attendance
+- status: attendance
 - M/M/1 queue
 - M/M/c queue
   - M/M/c queue / difference from M/M/1 queue ::@:: Arrival rate $\lambda$ and service rate (of _one_ server) $\mu$ means the same thing. The only difference is that $c$ is not restricted to being 1. <p> We still assume the system is _stable_, i.e. $\lambda < c \mu$.
@@ -456,6 +456,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-05T10:30:00+08:00/2025-03-05T11:50:00+08:00
 - topic: capacity planning, decision tree method and EVPI
+- status: attendance
 - [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ (JIT manufacturing in short).
   - just-in-time manufacturing ::@:: \(optional\) Using production flow management and quality improvement to match supply with demand.
     - just-in-time manufacturing / brief history ::@:: It was pioneered by Toyota in the 1980s. Later it was adopted by many famous manufacturers globally.
@@ -540,7 +541,9 @@ The content is in teaching order.
 
 - datetime: 2025-03-17T10:30:00+08:00/2025-03-17T11:50:00+08:00, PT1H20M
 - topic: midterm review
+- status: attendance
 - [§ midterm examination](#midterm%20examination)
+- [questions § week 7 lecture](questions/index.md#week%207%20lecture)
 
 ## week 7 lecture 2
 
