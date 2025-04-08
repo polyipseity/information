@@ -660,6 +660,8 @@ tags:
 > - tax rate = 34%
 > - cost of capital = 20%
 >
+> <!-- list separator -->
+>
 > - solution: {@{year 3}@}
 
 <!-- markdownlint MD028 -->

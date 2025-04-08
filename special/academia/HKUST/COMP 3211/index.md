@@ -658,7 +658,7 @@ The content is in teaching order.
 - [Nash equilibrium](../../../../general/Nash%20equilibrium.md) ::@:: In [game theory](../../../../general/game%20theory.md), it is the most commonly-used [solution concept](../../../../general/solution%20concept.md) for [non-cooperative games](../../../../general/non-cooperative%20game%20theory.md). It is a situation where no player could gain by changing their own strategy \(holding all other players' strategies fixed\). <p> If each player has chosen a [strategy](../../../../general/strategy%20(game%20theory).md) – an action plan based on what has happened so far in the game – and no one can increase one's own expected payoff by changing one's strategy while the other players keep theirs unchanged, then the current set of strategy choices constitutes this. <p> Note that the strategy may be pure (one could also considered pure as a degenerate form of mixed) or mixed.
   - Nash equilibrium / number ::@:: There may be one, multiple, or no _pure_ Nash equilibria. <p> Under some conditions, a _possibly mixed_ Nash equilibrium must exist.
 - prisoners' dilemma
-  - prisoners' dilemma / Nash equilibrium ::@:: Both prisoners' confessing is the unique Nash equilibrium.
+  - prisoners' dilemma / Nash equilibrium ::@:: Both prisoners confessing \(which is worse than both prisoners denying for both prisoners\) is the unique Nash equilibrium.
 - coordination game
   - coordination game / Nash equilibrium ::@:: Both players doing the same thing, for which there are two profiles, are the two Nash equilibra.
 
