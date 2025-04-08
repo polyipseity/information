@@ -15,7 +15,7 @@ tags:
 
 ## effects
 
-For {@{uniaxial compression}@}, ordinary material are likely to undergo {@{elastic deformation}@}; that is, {@{shortening in length and bulging in the middle, and returning to its original length and shape once the compression is removed}@}. <!--SR:!2027-02-15,719,330!2025-04-06,248,330!2025-04-07,205,270-->
+For {@{uniaxial compression}@}, ordinary material are likely to undergo {@{elastic deformation}@}; that is, {@{shortening in length and bulging in the middle, and returning to its original length and shape once the compression is removed}@}. <!--SR:!2027-02-15,719,330!2028-05-11,1130,350!2027-05-20,773,290-->
 
 ## references
 

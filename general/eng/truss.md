@@ -31,11 +31,11 @@ Note that some members can have {@{zero forces, i.e. neither in tension nor in c
 
 #### method of joints
 
-The principle is simple: {@{Consider the equilibrium of each joint one by one, starting with those with 2 or less unknown forces}@}. For each joint, {@{draw the [free body diagram](free%20body%20diagram.md), and determine the axial forces of members connected to the joint}@}. <!--SR:!2026-10-06,611,310!2025-04-06,246,330-->
+The principle is simple: {@{Consider the equilibrium of each joint one by one, starting with those with 2 or less unknown forces}@}. For each joint, {@{draw the [free body diagram](free%20body%20diagram.md), and determine the axial forces of members connected to the joint}@}. <!--SR:!2026-10-06,611,310!2028-04-29,1118,350-->
 
 Note that when a truss member is in tension, it is actually {@{pulling on the two joints instead of pushing them}@}, and vice versa for compression. <!--SR:!2025-06-16,304,330-->
 
-The steps are {@{label all joints, members, and the support reactions}@}. Then, {@{compute the support reactions by considering the entire truss}@}. Finally, use {@{the method of joints to determine forces in all members}@}. <!--SR:!2027-05-05,820,330!2025-04-08,248,330!2026-04-20,488,310-->
+The steps are {@{label all joints, members, and the support reactions}@}. Then, {@{compute the support reactions by considering the entire truss}@}. Finally, use {@{the method of joints to determine forces in all members}@}. <!--SR:!2027-05-05,820,330!2028-05-12,1130,350!2026-04-20,488,310-->
 
 Note that after finishing with the method of joints, there is {@{no need to consider the global (the entire truss) equilibrium again}@}. This is because {@{the global equilibrium is automatically satisfied afterwards}@}, given that {@{the calculations are done correctly}@}. So this can also serve as a way to {@{check the by-hand calculations}@}. <!--SR:!2025-04-17,256,330!2027-12-05,1005,350!2027-05-01,824,330!2026-01-12,445,310-->
 

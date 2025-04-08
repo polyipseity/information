@@ -52,7 +52,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hundred trillion years
 >
 > - solution: {@{5}@}
-> - explanation: {@{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}@} <!--SR:!2025-04-08,209,310!2025-07-12,268,290-->
+> - explanation: {@{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}@} <!--SR:!2027-09-21,896,330!2025-07-12,268,290-->
 
 ## 2024-06-27
 
@@ -168,7 +168,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 7/6 years
 >
 > - solution: {@{6}@}
-> - explanation: {@{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}@} <!--SR:!2025-04-08,182,290!2026-08-29,592,330-->
+> - explanation: {@{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}@} <!--SR:!2027-04-04,726,310!2026-08-29,592,330-->
 
 ## 2024-07-04
 
@@ -329,7 +329,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. almost no shift for both stars
 >
 > - solution: {@{6}@}
-> - explanation: {@{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}@} <!--SR:!2025-04-04,178,328!2025-06-12,212,288-->
+> - explanation: {@{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}@} <!--SR:!2027-06-18,805,348!2025-06-12,212,288-->
 
 ## 2024-07-23
 
@@ -479,7 +479,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 7.85×10<sup>16</sup> ly
 >
 > - solution: {@{1}@}
-> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}@} <!--SR:!2025-11-17,301,285!2025-04-03,175,345-->
+> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}@} <!--SR:!2025-11-17,301,285!2027-07-20,837,365-->
 
 ## 2024-08-01
 

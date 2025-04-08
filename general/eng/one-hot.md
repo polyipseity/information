@@ -88,8 +88,8 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 
 ## see also
 
-- [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-04-17,56,310!2025-04-08,46,290-->
-- [Two-out-of-five code](two-out-of-five%20code.md) – ::@:: Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges <!--SR:!2025-04-05,46,290!2025-08-20,149,310-->
+- [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-04-17,56,310!2025-10-08,183,310-->
+- [Two-out-of-five code](two-out-of-five%20code.md) – ::@:: Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges <!--SR:!2025-10-07,185,310!2025-08-20,149,310-->
 - [Bi-quinary coded decimal](bi-quinary%20coded%20decimal.md) – ::@:: Numeral encoding scheme <!--SR:!2025-09-19,171,310!2025-04-10,47,290-->
 - [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2025-04-27,64,310!2025-04-16,55,310-->
 - [Kronecker delta](Kronecker%20delta.md) – ::@:: Mathematical function of two variables; outputs 1 if they are equal, 0 otherwise <!--SR:!2025-04-18,57,310!2025-04-25,63,310-->

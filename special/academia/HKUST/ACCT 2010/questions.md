@@ -254,7 +254,7 @@ tags:
 > 2. Cash based accounting
 > 3. Both of them would
 >
-> - solution: {@{1}@} <!--SR:!2025-04-03,92,361-->
+> - solution: {@{1}@} <!--SR:!2026-07-09,461,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -307,7 +307,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2025-04-03,92,361!2026-06-19,443,381-->
+> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2026-07-10,462,381!2026-06-19,443,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -318,7 +318,7 @@ tags:
 > 3. contractual liability
 >
 > - solution: {@{1}@}
-> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2026-06-28,452,381!2025-04-03,92,361-->
+> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2026-06-28,452,381!2026-02-26,328,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -338,7 +338,7 @@ tags:
 > 2. deferred expense
 > 3. contractual liability
 >
-> - solution: {@{2}@} <!--SR:!2025-04-03,92,361-->
+> - solution: {@{2}@} <!--SR:!2026-07-11,463,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -390,7 +390,7 @@ tags:
 > 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
 > - solution: {@{3}@}
-> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2025-08-16,180,341!2025-04-03,92,361-->
+> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2025-08-16,180,341!2026-07-11,463,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -421,7 +421,7 @@ tags:
 > 3. both of them
 >
 > - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2025-04-03,92,361!2026-06-30,454,381-->
+> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2026-07-10,462,381!2026-06-30,454,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -525,7 +525,7 @@ tags:
 > 3. Accelerated depreciation
 >
 > - solution: {@{1}@}
-> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2025-04-03,92,361!2026-06-03,432,381-->
+> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2026-02-25,327,361!2026-06-03,432,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -646,7 +646,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{1}@} <!--SR:!2025-04-03,92,361-->
+> - solution: {@{1}@} <!--SR:!2026-07-08,460,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -749,7 +749,7 @@ tags:
 > 2. Cash Flow Statement is linked to Income Statement by Net Profit under Indirect Method.
 > 3. Both of them are relevant.
 >
-> - solution: {@{3}@} <!--SR:!2025-04-03,92,361-->
+> - solution: {@{3}@} <!--SR:!2026-07-06,458,381-->
 
 <!-- markdownlint MD028 -->
 

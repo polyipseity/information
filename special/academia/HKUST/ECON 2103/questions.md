@@ -83,7 +83,7 @@ tags:
 > Q7. Think of possible (intended or unintended) consequences for each of the following problem-and-solution pair.
 >
 > - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2025-10-07,287,330!2025-10-09,289,330-->
-> - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2025-04-05,136,310!2025-11-03,310,330-->
+> - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2026-06-03,422,310!2025-11-03,310,330-->
 > - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2025-06-18,183,310!2025-04-21,139,290-->
 > - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2025-07-05,196,310!2026-04-19,410,310-->
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::@:: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2025-08-02,234,330!2025-08-01,233,330-->
@@ -310,7 +310,7 @@ tags:
 > 3. an increase in the fixed amount of liability insurance premiums that XYZ pays for its business
 > 4. both answers 1 and 3 are correct
 >
-> - solution: {@{4}@} <!--SR:!2025-04-07,88,374-->
+> - solution: {@{4}@} <!--SR:!2026-03-02,329,374-->
 
 ### chapter 14 lecture
 
@@ -321,7 +321,7 @@ tags:
 > 3. Marginal revenue can be calculated as total revenue divided by the quantity sold
 > 4. Only for competitive firms does average revenue equal marginal revenue
 >
-> - solution: {@{2}@} <!--SR:!2025-04-08,89,374-->
+> - solution: {@{2}@} <!--SR:!2026-07-12,460,394-->
 
 ### chapter 15 lecture
 
@@ -345,7 +345,7 @@ tags:
 > 3. Mary pays Cathy \$14 so that Mary can smoke.
 > 4. Cathy offers Mary \$15 not to smoke. Mary accepts and does not smoke.
 >
-> - solution: {@{2}@} <!--SR:!2025-04-05,86,374-->
+> - solution: {@{2}@} <!--SR:!2026-03-01,328,374-->
 
 ### chapter 11 lecture
 

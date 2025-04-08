@@ -34,7 +34,7 @@ Direct competitors are not {@{necessarily more important than indirect or potent
 >
 > - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2025-05-29,294,341-->
 > - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2026-12-25,689,301!2025-07-11,327,341-->
-> - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2025-04-06,233,321!2025-08-07,349,341-->
+> - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2028-02-03,1032,341!2025-08-07,349,341-->
 > - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2025-05-14,282,341-->
 
 ### considerations
@@ -127,7 +127,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {@{anytime as needed}@}. For example, it can expose holes in existing products during {@{idea screening}@}, or determine suitable prices during {@{commercialization}@}. <!--SR:!2026-12-01,714,330!2025-04-06,252,341!2025-06-10,269,294-->
+Competitor analysis can be done {@{anytime as needed}@}. For example, it can expose holes in existing products during {@{idea screening}@}, or determine suitable prices during {@{commercialization}@}. <!--SR:!2026-12-01,714,330!2028-07-03,1183,361!2025-06-10,269,294-->
 
 ### comparison parameters
 
@@ -169,11 +169,11 @@ number of features
 - _(most important)_→::@::←price <!--SR:!2025-06-23,313,341!2025-06-24,314,341-->
 - price→::@::←benefit <!--SR:!2026-03-14,472,314!2025-07-14,290,301-->
 - benefit→::@::←quality <!--SR:!2027-01-21,704,294!2026-06-07,560,321-->
-- quality→::@::←durability <!--SR:!2025-04-06,123,181!2026-02-02,398,321-->
+- quality→::@::←durability <!--SR:!2026-02-28,327,201!2026-02-02,398,321-->
 - durability→::@::←service <!--SR:!2025-10-13,215,281!2025-07-25,227,241-->
-- service→::@::←convenience <!--SR:!2025-04-06,56,161!2025-06-19,213,281-->
+- service→::@::←convenience <!--SR:!2025-07-09,93,161!2025-06-19,213,281-->
 - convenience→::@::←ease of use <!--SR:!2025-11-06,376,281!2027-01-27,747,334-->
-- ease of use→::@::←number of features <!--SR:!2026-05-23,482,281!2025-04-03,128,234-->
+- ease of use→::@::←number of features <!--SR:!2026-05-23,482,281!2026-02-03,306,234-->
 - number of features→::@::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
 
 <!--/pytextgen-->

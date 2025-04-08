@@ -110,7 +110,7 @@ segmented: splitting slightly different customer segments
 
 - _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2026-09-09,533,257!2027-01-06,689,317-->
 - diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2026-07-13,472,237!2025-05-24,243,254-->
-- mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2025-04-04,150,277-->
+- mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2026-05-25,416,277-->
 - multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2027-03-15,712,274-->
 - niche market: focusing on specific, specialized customer segments→::@::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2025-09-15,174,177-->
 - segmented: splitting slightly different customer segments→::@::←_(end)_ <!--SR:!2026-06-13,507,274!2025-09-04,308,254-->
@@ -169,7 +169,7 @@ risk reduction
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-07-31,183,177-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
-- design→::@::←newness <!--SR:!2025-04-26,228,257!2025-04-08,74,214-->
+- design→::@::←newness <!--SR:!2025-04-26,228,257!2025-11-19,225,234-->
 - newness→::@::←performance <!--SR:!2026-02-01,312,277!2025-06-06,253,257-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
@@ -267,7 +267,7 @@ subscription fee
 - advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2025-06-13,192,237!2025-09-18,322,254-->
-- lending, renting, or leasing→::@::←licensing <!--SR:!2025-04-03,223,257!2025-10-29,328,274-->
+- lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2025-10-29,328,274-->
 - licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2025-06-03,198,254-->
 - usage fee→::@::←subscription fee <!--SR:!2025-08-04,291,254!2025-06-09,103,257-->
 - subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2025-10-29,365,277-->
@@ -284,7 +284,7 @@ The key activities building block shows {@{important activities required for the
 
 #### key partnerships
 
-The key partnerships building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}@}. Partnerships can {@{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2025-04-04,146,217!2026-03-14,402,237-->
+The key partnerships building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}@}. Partnerships can {@{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2026-02-15,317,217!2026-03-14,402,237-->
 
 #### cost structure
 
@@ -298,4 +298,4 @@ Business model fit can be achieved by {@{reiteration between changing the value 
 
 ## comparison with other models
 
-The business model canvas can be grouped into {@{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2025-10-09,341,289!2026-07-04,473,270!2025-04-05,236,329-->
+The business model canvas can be grouped into {@{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}. <!--SR:!2025-10-09,341,289!2026-07-04,473,270!2027-05-24,776,329-->

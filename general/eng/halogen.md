@@ -72,7 +72,7 @@ return await memorize_map(
 - reacts explosively in light and heat; slowly without:@:[chlorine](chlorine.md) <!--SR:!2027-01-30,791,230-->
 - reacts explosively in flames; moderately in light and heat:@:[bromine](bromine.md) <!--SR:!2026-01-30,709,310-->
 - reacts partially; virtually no reaction:@:[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2028-07-11,1502,350-->
-- unknown:@:[tennessine](tennessine.md) <!--SR:!2025-04-07,289,210-->
+- unknown:@:[tennessine](tennessine.md) <!--SR:!2027-08-18,863,230-->
 
 <!--/pytextgen-->
 

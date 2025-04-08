@@ -286,7 +286,7 @@ workmanship
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2025-04-18,249,312-->
 - politics→::@::←social <!--SR:!2028-07-27,1221,380!2025-05-03,262,337-->
 - social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-11-22,303,210-->
-- workmanship→::@::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
+- workmanship→::@::←_(end)_ <!--SR:!2025-09-26,419,385!2027-10-10,916,355-->
 
 <!--/pytextgen-->
 
@@ -452,7 +452,7 @@ testing materials
 
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2025-04-08,277,375-->
+- _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2029-03-01,1423,395-->
 - budgeting→::@::←contracting <!--SR:!2025-09-10,377,334!2026-03-06,483,327-->
 - contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2025-04-22,236,295-->
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
@@ -542,7 +542,7 @@ wood
 - brick→::@::←concrete <!--SR:!2027-04-26,782,325!2026-02-28,548,397-->
 - concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2026-06-11,551,341-->
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
-- steel→::@::←stone <!--SR:!2025-04-04,202,320!2026-12-18,745,360-->
+- steel→::@::←stone <!--SR:!2027-01-10,646,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
 - wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2026-12-17,711,380-->
 
@@ -950,7 +950,7 @@ wave
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2028-05-16,1176,377-->
-- earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
+- earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2028-09-16,1261,380-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
 - flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2025-08-18,314,294-->

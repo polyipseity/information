@@ -13,7 +13,7 @@ tags:
 
 # pwn 101: binary and buffer overflow
 
-__Pwn__, in a general context, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In CTFs, it is {@{one of the major categories and usually refers to __binary exploitation__}@}. <!--SR:!2025-05-25,183,310!2025-04-08,146,310-->
+__Pwn__, in a general context, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In CTFs, it is {@{one of the major categories and usually refers to __binary exploitation__}@}. <!--SR:!2025-05-25,183,310!2026-12-24,625,330-->
 
 __Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}. <!--SR:!2025-09-14,275,330!2025-08-21,257,330-->
 
@@ -44,7 +44,7 @@ Note that the `.rodata` (read-only data) section is located on the read-execute 
 
 For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2025-07-30,239,330!2025-08-30,263,330-->
 
-Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2025-10-18,298,330!2025-07-19,231,330!2025-05-22,170,310!2025-04-03,132,290-->
+Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2025-10-18,298,330!2025-07-19,231,330!2025-05-22,170,310!2026-09-20,534,310-->
 
 The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2025-07-10,205,310!2025-08-03,241,330!2025-07-01,216,330-->
 
@@ -88,7 +88,7 @@ In System V AMD64 ABI, the process of creating and destroying a stack frame are 
 
 The above only describes how a stack frame is created or destroyed. The missing thing is {@{how arguments and return value are passed}@}. Arguments are passed {@{using registers, and also the stack if there are too many arguments or the arguments are too large in size}@}. To {@{describe how arguments of any type are passed}@} is too complicated here, so we will {@{only consider passing 64-bit integers or pointers}@}. The first 6 arguments goes into {@{the registers, in order, `rdi`, `rsi`, `rdx`, `rcx`, `r8`, and `r9`}@}. The rest are {@{pushed onto the stack before calling the function (`call`)}@}. The return value is {@{also passed using registers}@}. If {@{the return value is within 64 bits, then `rax` is used, or if within 128 bits, then `rdx:rax` is used}@}. Otherwise, {@{the caller will provide a space to store the return value and pass a pointer to that space as the 1st argument, shifting all other arguments by 1}@}. The passed pointer will {@{be written to `rax` by the callee just before returning (`ret`)}@}. An important note is that {@{the argument order does not necessarily match that in the high-level programming language}@}. When C code is compiled with System V AMD64 ABI in GCC, while {@{the first 6 arguments are assigned left to right, the remaining arguments are pushed from right to left \(rightmost argument is pushed first\)}@}. <!--SR:!2025-10-09,289,330!2025-05-07,169,310!2026-01-24,332,290!2025-08-24,260,330!2025-06-05,180,310!2025-05-13,172,310!2025-10-06,286,330!2025-05-10,172,310!2025-06-16,203,330!2025-05-23,182,310!2025-08-02,240,330!2026-02-01,331,290-->
 
-To summarize, the process of calling a function is: {@{passing the arguments, calling the function (`call`), creating a stack frame, doing stuff and setting the return value, restoring the previous stack frame, returning from the function (`ret`), and finally cleaning up the passed arguments}@}. <!--SR:!2025-04-05,133,290-->
+To summarize, the process of calling a function is: {@{passing the arguments, calling the function (`call`), creating a stack frame, doing stuff and setting the return value, restoring the previous stack frame, returning from the function (`ret`), and finally cleaning up the passed arguments}@}. <!--SR:!2026-09-27,537,310-->
 
 ## GNU Debugger and pwndbg
 
@@ -116,7 +116,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-05,285,330!2025-08-11,249,330-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2025-07-23,234,330-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2025-08-26,262,330!2025-07-26,235,330-->
-- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2025-04-04,131,290!2025-08-06,244,330-->
+- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2025-08-06,244,330-->
 - `rc` ::@:: reverse continue <!--SR:!2025-06-22,208,330!2025-07-26,235,330-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-09-22,282,330!2025-07-06,220,330-->
 
@@ -163,7 +163,7 @@ By now, you should have figured out how to identify code that is vulnerable to b
 
 #### exploiting buffer overflows
 
-Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}? <!--SR:!2025-05-25,184,310!2025-05-20,180,310!2025-09-27,284,330!2025-08-17,255,330!2025-06-02,189,310!2025-04-04,143,310!2025-07-12,224,330-->
+Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}? <!--SR:!2025-05-25,184,310!2025-05-20,180,310!2025-09-27,284,330!2025-08-17,255,330!2025-06-02,189,310!2026-12-01,606,330!2025-07-12,224,330-->
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2025-10-10,297,330!2025-10-11,298,330-->
 
@@ -228,7 +228,7 @@ Usually, the stack canary is {@{random, so that the attacker cannot know the sta
 
 We will only discuss _terminator canary_ in more details. In particular, {@{many C string functions treat the null terminator as the end of string}@}. So if {@{an attacker were to read the canary value for exploitation}@}, {@{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}@}. Even if {@{the attacker knows the canary value to be written and include it in the payload}@}, {@{C string writing functions cannot write past the canary value because they would think the payload ends at the null terminator}@}. However, {@{non-string functions are not affected by the above, as they do not treat the null terminator specially}@}. <!--SR:!2026-10-04,568,330!2025-08-08,246,330!2025-10-14,294,330!2025-08-18,254,330!2025-05-24,182,310!2025-05-25,182,310-->
 
-As mentioned above, stack canary can be bypassed {@{if you know the canary value and is able to write past the canary}@}. The canary value {@{may be obtained by another buffer overflow that causes the canary value to be leaked}@}. <!--SR:!2025-04-06,144,310!2025-07-31,240,330-->
+As mentioned above, stack canary can be bypassed {@{if you know the canary value and is able to write past the canary}@}. The canary value {@{may be obtained by another buffer overflow that causes the canary value to be leaked}@}. <!--SR:!2026-12-16,617,330!2025-07-31,240,330-->
 
 ### address randomization
 

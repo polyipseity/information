@@ -15,7 +15,7 @@ tags:
 
 # lunar eclipse
 
-A __lunar eclipse__ is {@{an astronomical event that occurs when the [Moon](Moon.md) moves into the [Earth](Earth.md)'s [shadow](shadow.md), causing the Moon to be darkened}@}. Such an alignment occurs {@{during an [eclipse season](eclipse%20season.md), approximately every six months, during the [full moon](full%20moon.md) phase}@}, when {@{the Moon is closest to the plane of the [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2027-02-22,721,330!2026-05-19,476,310!2025-04-04,207,330-->
+A __lunar eclipse__ is {@{an astronomical event that occurs when the [Moon](Moon.md) moves into the [Earth](Earth.md)'s [shadow](shadow.md), causing the Moon to be darkened}@}. Such an alignment occurs {@{during an [eclipse season](eclipse%20season.md), approximately every six months, during the [full moon](full%20moon.md) phase}@}, when {@{the Moon is closest to the plane of the [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2027-02-22,721,330!2026-05-19,476,310!2027-11-02,942,350-->
 
 ## types of lunar eclipse
 

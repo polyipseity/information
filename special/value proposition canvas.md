@@ -57,7 +57,7 @@ Value proposition design works for {@{both new ventures and established organiza
 
 ## canvas
 
-The value proposition canvas has two parts: {@{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}@}. <!--SR:!2025-04-04,235,289-->
+The value proposition canvas has two parts: {@{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}@}. <!--SR:!2027-02-12,679,289-->
 
 The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2027-07-06,896,347!2025-05-02,304,330!2026-12-05,722,329-->
 
@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-07-17,195,249-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-09-12,223,225!2025-05-29,247,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2025-05-21,119,189-->
-- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-10-05,201,169!2025-04-08,154,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-10-05,201,169!2026-03-27,353,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2025-04-19,242,289-->
 
 <!--/pytextgen-->

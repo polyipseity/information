@@ -25,7 +25,7 @@ The [time](time.md) value of money is among {@{the factors considered when weigh
 
 {@{The [Talmud](Talmud.md) \(~500 CE\)}@} {@{recognizes the time value of money}@}. In {@{Tractate [Makkos](Makkot.md) page 3a}@} the Talmud discusses {@{a case where witnesses falsely claimed that the term of a loan was 30 days when it was actually 10 years}@}. The false witnesses must {@{pay the difference of the value of the loan}@} "{@{in a situation where he would be required to give the money back \(within\) thirty days..., and that same sum in a situation where he would be required to give the money back \(within\) 10 years...}@} The difference is {@{the sum that the testimony of the \(false\) witnesses sought to have the borrower lose}@}; therefore, {@{it is the sum that they must pay}@}."<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-05-15,67,310!2025-05-05,58,310!2025-05-05,58,310!2025-06-24,93,290!2025-05-14,66,310!2025-05-12,64,310!2025-05-13,65,310!2025-05-01,55,310-->
 
-The notion was later described by {@{[Martín de Azpilcueta](Martín%20de%20Azpilcueta.md) \(1491–1586\) of the [School of Salamanca](School%20of%20Salamanca.md)}@}. <!--SR:!2025-04-07,33,270-->
+The notion was later described by {@{[Martín de Azpilcueta](Martín%20de%20Azpilcueta.md) \(1491–1586\) of the [School of Salamanca](School%20of%20Salamanca.md)}@}. <!--SR:!2025-08-11,126,290-->
 
 ## calculations
 
@@ -149,15 +149,15 @@ Notes:
 >
 > - __find__: Future value \(F\) <br/> __given__: Present value \(P\) ::@:: $F=P\cdot (1+i)^{n}$ <!--SR:!2025-05-08,61,310!2025-05-01,55,310-->
 > - __find__: Present value \(P\) <br/> __given__: Future value \(F\) ::@:: $P=F\cdot (1+i)^{-n}$ <!--SR:!2025-05-04,58,310!2025-05-15,67,310-->
-> - __find__: Repeating payment \(A\) <br/> __given__: Future value \(F\) ::@:: $A=F\cdot {\frac {i}{(1+i)^{n}-1} }$ <!--SR:!2025-05-14,66,310!2025-04-07,33,270-->
-> - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$ <!--SR:!2025-05-27,70,270!2025-04-07,33,270-->
+> - __find__: Repeating payment \(A\) <br/> __given__: Future value \(F\) ::@:: $A=F\cdot {\frac {i}{(1+i)^{n}-1} }$ <!--SR:!2025-05-14,66,310!2025-08-10,125,290-->
+> - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$ <!--SR:!2025-05-27,70,270!2025-07-08,92,270-->
 > - __find__: Future value \(F\) <br/> __given__: Repeating payment \(A\) ::@:: $F=A\cdot {\frac {(1+i)^{n}-1}{i} }$ <!--SR:!2025-05-15,67,310!2025-05-02,56,310-->
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2025-05-01,55,310!2025-05-06,59,310-->
-> - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2025-04-05,7,210!2025-04-07,33,270-->
-> - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$ <!--SR:!2025-04-09,7,190!2025-04-07,33,270-->
-> - __find__: Fixed payment \(A\) \(annotation: i.e. converting gradient payments to fixed payments of equivalent value\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-04-03,14,210!2025-04-14,24,210-->
-> - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-05-04,47,250!2025-04-04,31,270-->
-> - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-04-29,43,250!2025-04-07,33,270-->
+> - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2025-04-28,21,230!2025-04-24,17,250-->
+> - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$ <!--SR:!2025-04-09,7,190!2025-07-07,91,270-->
+> - __find__: Fixed payment \(A\) \(annotation: i.e. converting gradient payments to fixed payments of equivalent value\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2025-05-02,29,210!2025-04-14,24,210-->
+> - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-05-04,47,250!2025-06-27,84,270-->
+> - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2025-04-29,43,250!2025-07-08,92,270-->
 
 ## derivations
 
@@ -165,7 +165,7 @@ Notes:
 
 {@{The formula for the present value of a regular stream of future payments \(an annuity\)}@} is derived from {@{a sum of the formula for future value of a single future payment}@}, as below, where {@{_C_ is the payment amount and _n_ the period}@}. <!--SR:!2025-05-02,56,310!2025-05-01,55,310!2025-05-15,67,310-->
 
-{@{A single payment _C_ at future time _m_}@} has {@{the following future value at future time _n_}@}: {@{$$FV\ =C(1+i)^{n-m}$$}@} Summing over {@{all payments from time 1 to time _n_}@}, then {@{reversing the order of terms and substituting _k_ = _n_ − _m_}@}: {@{$$FVA\ =\sum _{m=1}^{n}C(1+i)^{n-m}\ =\sum _{k=0}^{n-1}C(1+i)^{k}$$}@} Note that {@{this is a [geometric series](geometric%20series.md)}@}, with {@{the initial value being _a_ = _C_, the multiplicative factor being 1 + _i_, with _n_ terms}@}. Applying {@{the formula for geometric series}@}, we get: {@{$$FVA\ ={\frac {C(1-(1+i)^{n})}{1-(1+i)} }\ ={\frac {C(1-(1+i)^{n})}{-i} }$$}@} <!--SR:!2025-05-07,60,310!2025-05-05,58,310!2025-05-04,58,310!2025-04-17,43,290!2025-05-04,58,310!2025-05-06,59,310!2025-05-05,58,310!2025-05-12,64,310!2025-04-16,43,290!2025-04-07,33,270-->
+{@{A single payment _C_ at future time _m_}@} has {@{the following future value at future time _n_}@}: {@{$$FV\ =C(1+i)^{n-m}$$}@} Summing over {@{all payments from time 1 to time _n_}@}, then {@{reversing the order of terms and substituting _k_ = _n_ − _m_}@}: {@{$$FVA\ =\sum _{m=1}^{n}C(1+i)^{n-m}\ =\sum _{k=0}^{n-1}C(1+i)^{k}$$}@} Note that {@{this is a [geometric series](geometric%20series.md)}@}, with {@{the initial value being _a_ = _C_, the multiplicative factor being 1 + _i_, with _n_ terms}@}. Applying {@{the formula for geometric series}@}, we get: {@{$$FVA\ ={\frac {C(1-(1+i)^{n})}{1-(1+i)} }\ ={\frac {C(1-(1+i)^{n})}{-i} }$$}@} <!--SR:!2025-05-07,60,310!2025-05-05,58,310!2025-05-04,58,310!2025-04-17,43,290!2025-05-04,58,310!2025-05-06,59,310!2025-05-05,58,310!2025-05-12,64,310!2025-04-16,43,290!2025-07-08,92,270-->
 
 {@{The present value of the annuity \(PVA\)}@} is {@{obtained by simply dividing by $(1+i)^{n}$}@}: {@{$$PVA\ ={\frac {FVA}{(1+i)^{n} } }={\frac {C}{i} }\left(1-{\frac {1}{(1+i)^{n} } }\right)$$}@} <!--SR:!2025-05-03,57,310!2025-05-03,57,310!2025-05-13,65,310-->
 
@@ -183,13 +183,13 @@ Rates are sometimes {@{converted into the [continuous compound interest](continu
 
 {@{Using continuous compounding}@} yields {@{the following formulas for various instruments}@}: (annotation: replace {@{$i$ and $g$ for discrete compounding with respectively $e^r - 1$ and $e^g - 1$}@}) <!--SR:!2025-05-14,66,310!2025-05-03,57,310!2025-05-06,59,310-->
 
-__Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2025-05-05,48,250!2025-04-04,31,270-->
+__Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2025-05-05,48,250!2025-04-21,17,250-->
 
-__Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2025-04-04,31,270!2025-05-12,64,310-->
+__Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2025-07-29,116,290!2025-05-12,64,310-->
 
 __Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}-1}$$ <!--SR:!2025-04-20,24,230!2025-04-17,22,230-->
 
-__Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2025-04-04,31,270!2025-04-15,39,290-->
+__Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2025-06-28,85,270!2025-04-15,39,290-->
 
 __Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2025-04-29,43,250!2025-05-06,48,250-->
 
@@ -207,9 +207,9 @@ Formally, {@{the statement that "value decreases over time"}@} is given by {@{de
 
 {@{The Green's function for the value at time _t_ of a £1 cash flow at time _u_}@} is {@{$$b(t;u):=H(u-t)\cdot \exp \left(-\int _{t}^{u}r(v)\,dv\right)$$}@} where {@{_H_ is the [Heaviside step function](Heaviside%20step%20function.md)}@}. {@{The notation "$;u$"}@} is to {@{emphasize that _u_ is a _parameter_ \(fixed in any instance—the time when the cash flow will occur\)}@}, while {@{_t_ is a _variable_ \(time\)}@}. In other words, {@{future cash flows}@} are {@{exponentially discounted \(exp\) by the sum \(integral, $\textstyle {\int }$\) of the future discount rates \($\textstyle {\int _{t}^{u} }$ for future, _r_\(_v_\) for discount rates\)}@}, while {@{past cash flows are worth 0 \($H(u-t)=1{\text{ if } }t<u,0{\text{ if } }t>u$\), because they have already occurred}@}. Note that {@{the value _at_ the moment of a cash flow is not well-defined}@}—there is {@{a discontinuity at that point}@}, and one can {@{use a convention \(assume cash flows have already occurred, or not already occurred\), or simply not define the value at that point}@}. <!--SR:!2025-05-04,58,310!2025-05-27,70,270!2025-05-11,63,310!2025-05-15,67,310!2025-05-07,60,310!2025-05-07,60,310!2025-05-04,58,310!2025-05-04,58,310!2025-05-09,62,310!2025-04-23,45,290!2025-04-17,43,290!2025-04-24,46,290-->
 
-In case {@{the discount rate is constant, $r(v)\equiv r$}@}, this simplifies to {@{$$b(t;u)=H(u-t)\cdot e^{-(u-t)r}={\begin{cases}e^{-(u-t)r}&t<u\\0&t>u,\end{cases} }$$}@} where {@{$(u-t)$ is "time remaining until cash flow"}@}. <!--SR:!2025-05-14,66,310!2025-04-04,31,270!2025-04-15,39,290-->
+In case {@{the discount rate is constant, $r(v)\equiv r$}@}, this simplifies to {@{$$b(t;u)=H(u-t)\cdot e^{-(u-t)r}={\begin{cases}e^{-(u-t)r}&t<u\\0&t>u,\end{cases} }$$}@} where {@{$(u-t)$ is "time remaining until cash flow"}@}. <!--SR:!2025-05-14,66,310!2025-06-30,87,270!2025-04-15,39,290-->
 
-Thus for {@{a stream of cash flows _f_\(_u_\) ending by time _T_ \(which can be set to $T=+\infty$ for no time horizon\)}@} {@{the value at time _t_, $V(t;T)$}@} is given by {@{combining the values of these individual cash flows}@}: {@{$$V(t;T)=\int _{t}^{T}f(u)b(t;u)\,du.$$}@} This formalizes {@{time value of money to future values of cash flows with varying discount rates}@}, and is {@{the basis of many formulas in financial mathematics}@}, such as {@{the [Black–Scholes formula](Black–Scholes%20formula.md#Black–Scholes%20formula) with [varying interest rates](Black–Scholes.md#interest%20rate%20curve)}@}. <!--SR:!2025-04-17,44,290!2025-04-19,45,290!2025-05-07,60,310!2025-04-04,31,270!2025-05-01,55,310!2025-05-15,67,310!2025-05-09,62,310-->
+Thus for {@{a stream of cash flows _f_\(_u_\) ending by time _T_ \(which can be set to $T=+\infty$ for no time horizon\)}@} {@{the value at time _t_, $V(t;T)$}@} is given by {@{combining the values of these individual cash flows}@}: {@{$$V(t;T)=\int _{t}^{T}f(u)b(t;u)\,du.$$}@} This formalizes {@{time value of money to future values of cash flows with varying discount rates}@}, and is {@{the basis of many formulas in financial mathematics}@}, such as {@{the [Black–Scholes formula](Black–Scholes%20formula.md#Black–Scholes%20formula) with [varying interest rates](Black–Scholes.md#interest%20rate%20curve)}@}. <!--SR:!2025-04-17,44,290!2025-04-19,45,290!2025-05-07,60,310!2025-06-30,87,270!2025-05-01,55,310!2025-05-15,67,310!2025-05-09,62,310-->
 
 ## see also
 

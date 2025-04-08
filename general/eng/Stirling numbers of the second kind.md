@@ -115,11 +115,11 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-04-08,20,150-->
+If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-05-08,30,150-->
 
 ### asymptotic approximation
 
-For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2025-04-28,132,290!2025-04-04,13,150-->
+For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2025-04-28,132,290!2025-04-11,7,130-->
 
 If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-06-08,80,250!2025-05-22,123,250-->
 

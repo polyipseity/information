@@ -98,17 +98,17 @@ The content is in teaching order.
     - "Chank" (1998) — John Scofield
     - "Strasbourg" (2008) — Roy Hargrove
     - "Black Radio" (2012) — Robert Glasper
-  - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
+  - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-12-14,254,330!2025-12-15,255,330-->
   - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-07-19,125,290!2025-04-21,73,321-->
 - [music](../../../../general/music.md)
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2025-04-09,63,310-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-08-29,167,310!2025-08-16,159,321-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2025-04-12,66,321!2025-04-20,72,321-->
-  - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-04-03,58,310!2025-10-08,200,321-->
-  - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2025-04-12,66,321!2025-04-03,58,310-->
+  - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-10-01,180,310!2025-10-08,200,321-->
+  - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2025-04-12,66,321!2025-12-15,255,330-->
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-11-22,237,330!2025-04-12,66,321-->
     - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-09-26,188,321!2025-04-16,69,321-->
-  - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
+  - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-12-14,254,330!2025-09-30,179,310-->
 - assignment: (none)
 
 ## week 1 lecture 2
@@ -147,7 +147,7 @@ The content is in teaching order.
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-06-28,105,300!2025-08-30,159,320-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-05-09,79,340!2025-05-05,77,340-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-04-17,57,320!2025-04-10,52,320-->
-- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-04-05,52,320!2025-05-05,77,340-->
+- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2025-05-05,77,340-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2025-05-03,75,340!2025-05-09,79,340-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2025-05-08,78,340!2025-05-05,77,340-->
     - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2025-05-03,75,340!2025-05-11,81,340-->
@@ -231,7 +231,7 @@ The content is in teaching order.
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2025-06-04,91,378!2025-06-07,94,378-->
 - [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2025-04-30,64,358!2025-07-26,127,338-->
   - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-05-13,69,358!2025-07-25,126,338-->
-  - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-04-03,42,338!2025-04-11,45,338-->
+  - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-08-24,142,338!2025-04-11,45,338-->
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
 - [jazz](../../../../general/jazz.md)
   - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-06-07,94,378!2025-05-18,74,358-->
@@ -260,7 +260,7 @@ The content is in teaching order.
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-04-12,46,338!2025-06-06,93,378-->
 - [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-06-06,93,378!2025-06-13,100,378-->
   - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2025-06-04,91,378!2025-06-03,90,378-->
-- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-04-10,44,338!2025-04-03,42,338-->
+- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-04-10,44,338!2025-10-14,193,358-->
 - [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2025-05-15,71,358!2025-06-10,97,378-->
 - [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2025-05-13,69,358!2025-06-09,96,378-->
   - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2025-05-13,69,358!2025-06-12,99,378-->
@@ -321,11 +321,11 @@ The content is in teaching order.
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2025-06-21,89,376!2025-05-29,71,356-->
   - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-07-29,127,396!2025-07-24,122,396-->
   - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller <!--SR:!2025-06-21,89,376!2025-07-27,125,396-->
-- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-04-07,31,336!2025-04-16,40,356-->
+- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-07-19,102,336!2025-04-16,40,356-->
   - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2025-06-23,96,376!2025-07-27,125,396-->
-  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-04-07,31,336!2025-07-18,116,396-->
+  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-07-20,103,336!2025-07-18,116,396-->
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-07-20,118,396!2025-07-20,118,396-->
-  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2025-04-07,31,336-->
+  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2025-07-19,102,336-->
 - Benny Goodman
   - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman <!--SR:!2025-07-19,117,396!2025-07-30,127,396-->
 - swing era
@@ -341,9 +341,9 @@ The content is in teaching order.
   - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-07-19,117,396!2025-08-01,129,396-->
   - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-08-01,129,396-->
   - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-07-31,128,396!2025-06-21,89,376-->
-- [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2025-04-07,31,336!2025-05-29,71,356-->
+- [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2025-07-21,104,336!2025-05-29,71,356-->
   - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli <!--SR:!2025-04-16,40,356!2025-07-29,127,396-->
-- [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2025-05-29,71,356!2025-04-07,31,336-->
+- [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2025-05-29,71,356!2025-07-22,105,336-->
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist <!--SR:!2025-05-27,75,376!2025-07-25,123,396-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-07-22,120,396!2025-07-23,121,396-->
 - gypsy jazz

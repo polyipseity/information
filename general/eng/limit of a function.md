@@ -57,7 +57,7 @@ The {@{[Dirichlet function](Dirichlet%20function.md): $$f(x) = \begin{cases} 1 &
 
 #### non-equality of one-sided limits
 
-The function {@{$$f(x) = \begin{cases} 1 & x \ge 0 \\ -1 & x < 0 \end{cases}$$}@} has a limit at every nonzero $x$. It has no limit at $0$. <!--SR:!2025-04-04,307,364-->
+The function {@{$$f(x) = \begin{cases} 1 & x \ge 0 \\ -1 & x < 0 \end{cases}$$}@} has a limit at every nonzero $x$. It has no limit at $0$. <!--SR:!2029-06-13,1531,384-->
 
 #### limits at only one point
 

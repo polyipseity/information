@@ -40,7 +40,7 @@ More specifically, for {@{any scalar field $f$ and any vector field $\mathbf {F}
 
 - (annotation: gradient, component) ::@:: $$\left(\mathbf {e} _{i}{\partial  \over \partial x_{i} }\right)f:={\partial  \over \partial x_{i} }(\mathbf {e} _{i}f)={\partial f \over \partial x_{i} }\mathbf {e} _{i}$$ <!--SR:!2025-05-10,61,310!2025-05-17,67,310-->
 - (annotation: divergence, component) ::@:: $$\left(\mathbf {e} _{i}{\partial  \over \partial x_{i} }\right)\cdot \mathbf {F} :={\partial  \over \partial x_{i} }(\mathbf {e} _{i}\cdot \mathbf {F} )={\partial F_{i} \over \partial x_{i} }$$ <!--SR:!2025-05-12,63,310!2025-05-05,57,310-->
-- (annotation: curl, component _x_) ::@:: $$\left(\mathbf {e} _{x}{\partial  \over \partial x}\right)\times \mathbf {F} :={\partial  \over \partial x}(\mathbf {e} _{x}\times \mathbf {F} )={\partial  \over \partial x}(0,-F_{z},F_{y})$$ <!--SR:!2025-04-06,33,270!2025-05-05,57,310-->
+- (annotation: curl, component _x_) ::@:: $$\left(\mathbf {e} _{x}{\partial  \over \partial x}\right)\times \mathbf {F} :={\partial  \over \partial x}(\mathbf {e} _{x}\times \mathbf {F} )={\partial  \over \partial x}(0,-F_{z},F_{y})$$ <!--SR:!2025-08-11,126,290!2025-05-05,57,310-->
 - (annotation: curl, component _y_) ::@:: $$\left(\mathbf {e} _{y}{\partial  \over \partial y}\right)\times \mathbf {F} :={\partial  \over \partial y}(\mathbf {e} _{y}\times \mathbf {F} )={\partial  \over \partial y}(F_{z},0,-F_{x})$$ <!--SR:!2025-05-11,62,310!2025-04-20,45,290-->
 - (annotation: curl, component _z_) ::@:: $$\left(\mathbf {e} _{z}{\partial  \over \partial z}\right)\times \mathbf {F} :={\partial  \over \partial z}(\mathbf {e} _{z}\times \mathbf {F} )={\partial  \over \partial z}(-F_{y},F_{x},0),$$ <!--SR:!2025-04-15,40,290!2025-04-27,47,290-->
 
@@ -112,16 +112,16 @@ For {@{[vector calculus](vector%20calculus.md)}@}: $${\begin{aligned}\nabla (fg)
 
 For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \mathbf {v}$ can be written $\mathbf {u} ^{\text{T} }\mathbf {v}$\)}@}: {@{$${\begin{aligned}\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u} &=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u} \end{aligned} }$$}@} <!--SR:!2025-04-25,46,290!2025-06-06,69,286-->
 
-{@{Another relation of interest \(see e.g. _[Euler equations](Euler%20equations.md#equations)_\)}@} is the following, where {@{$\mathbf {u} \otimes \mathbf {v}$ is the [outer product](outer%20product.md) tensor}@}: {@{$${\begin{aligned}\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v} \end{aligned} }$$}@} <!--SR:!2025-05-09,60,310!2025-04-08,33,270!2025-04-08,33,306-->
+{@{Another relation of interest \(see e.g. _[Euler equations](Euler%20equations.md#equations)_\)}@} is the following, where {@{$\mathbf {u} \otimes \mathbf {v}$ is the [outer product](outer%20product.md) tensor}@}: {@{$${\begin{aligned}\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v} \end{aligned} }$$}@} <!--SR:!2025-05-09,60,310!2025-07-08,91,270!2025-08-25,139,326-->
 
 > __flashcards__
 >
 > - $\nabla (fg)$ ::@:: $=f\nabla g+g\nabla f$ <!--SR:!2025-05-05,57,310!2025-05-05,57,310-->
-> - $\nabla (\mathbf {u} \cdot \mathbf {v} )$ ::@:: $=\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )+(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u}$ <!--SR:!2025-05-09,50,250!2025-04-06,31,270-->
+> - $\nabla (\mathbf {u} \cdot \mathbf {v} )$ ::@:: $=\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )+(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u}$ <!--SR:!2025-05-09,50,250!2025-08-05,120,290-->
 > - $\nabla \cdot (f\mathbf {v} )$ ::@:: $=f(\nabla \cdot \mathbf {v} )+\mathbf {v} \cdot (\nabla f)$ <!--SR:!2025-04-11,37,290!2025-05-03,55,310-->
 > - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-04-09,15,230!2025-05-30,63,250-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2025-05-09,50,250!2025-05-16,66,310-->
-> - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-04-06,31,270!2025-05-15,52,250-->
+> - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-04-22,15,250!2025-05-15,52,250-->
 > - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-04-15,14,190!2025-05-19,55,250-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2025-05-05,57,310!2025-06-04,70,270-->
 
@@ -149,7 +149,7 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2025-05-09,60,310!2025-05-12,50,250-->
 
-And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2025-04-06,31,270!2025-04-16,25,210-->
+And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2025-08-04,119,290!2025-04-16,25,210-->
 
 ## precautions
 

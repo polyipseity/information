@@ -20,7 +20,7 @@ tags:
 
 #### relationship to trigonometry
 
-Euler's formula, the definitions of the trigonometric functions and the standard identities for exponentials are {@{sufficient to easily derive most trigonometric identities}@}. It provides {@{a powerful connection between [analysis](mathematical%20analysis.md) and [trigonometry](trigonometry.md)}@}, and provides an interpretation of the sine and cosine functions as {@{[weighted sums](weight%20function.md) of the exponential function}@}: {@{$$\begin{aligned} \cos x & = \operatorname{Re}\left(e^{ix}\right) = \frac {e^{ix} + e^{-ix} } 2 \\ \sin x & = \operatorname{Im}\left(e^{ix}\right) = \frac {e^{ix} - e^{-ix} } {2i} \end{aligned}$$}@}. <!--SR:!2025-04-06,180,318!2027-04-09,749,338!2026-03-01,391,298!2025-04-04,176,278-->
+Euler's formula, the definitions of the trigonometric functions and the standard identities for exponentials are {@{sufficient to easily derive most trigonometric identities}@}. It provides {@{a powerful connection between [analysis](mathematical%20analysis.md) and [trigonometry](trigonometry.md)}@}, and provides an interpretation of the sine and cosine functions as {@{[weighted sums](weight%20function.md) of the exponential function}@}: {@{$$\begin{aligned} \cos x & = \operatorname{Re}\left(e^{ix}\right) = \frac {e^{ix} + e^{-ix} } 2 \\ \sin x & = \operatorname{Im}\left(e^{ix}\right) = \frac {e^{ix} - e^{-ix} } {2i} \end{aligned}$$}@}. <!--SR:!2027-06-06,790,338!2027-04-09,749,338!2026-03-01,391,298!2026-08-06,489,278-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # predicate
 
-In [logic](mathematical%20logic.md), a __predicate__ is {@{a symbol that represents a property or a relation}@}. For instance, in {@{the [first-order formula](first-order%20logic.md) $P(a)$}@}, the symbol $P$ is {@{a predicate that applies to the [individual constant](non-logical%20symbol.md) $a$}@}. Similarly, in {@{the formula $R(a,b)$}@}, the symbol $R$ is {@{a predicate that applies to the individual constants $a$ and $b$}@}. <!--SR:!2025-04-08,157,310!2025-06-05,201,310!2025-04-21,166,310!2025-05-18,188,310!2025-05-31,197,310-->
+In [logic](mathematical%20logic.md), a __predicate__ is {@{a symbol that represents a property or a relation}@}. For instance, in {@{the [first-order formula](first-order%20logic.md) $P(a)$}@}, the symbol $P$ is {@{a predicate that applies to the [individual constant](non-logical%20symbol.md) $a$}@}. Similarly, in {@{the formula $R(a,b)$}@}, the symbol $R$ is {@{a predicate that applies to the individual constants $a$ and $b$}@}. <!--SR:!2027-02-14,677,330!2025-06-05,201,310!2025-04-21,166,310!2025-05-18,188,310!2025-05-31,197,310-->
 
 According to [Gottlob Frege](Gottlob%20Frege.md), the __meaning__ of a _predicate_ is {@{exactly a function from the _domain_ of objects to the truth-values "true" and "false"}@}. <!--SR:!2025-05-10,181,310-->
 

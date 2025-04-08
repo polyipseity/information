@@ -10,7 +10,7 @@ tags:
 
 # extinction
 
-In [astronomy](astronomy.md), __extinction__ is {@{the [absorption](absorption%20(electromagnetic%20radiation).md) and [scattering](scattering.md#electromagnetics) of [electromagnetic radiation](electromagnetic%20radiation.md) by dust and gas between an emitting [astronomical object](astronomical%20object.md) and the [observer](observation.md)}@}. <!--SR:!2025-04-03,180,310-->
+In [astronomy](astronomy.md), __extinction__ is {@{the [absorption](absorption%20(electromagnetic%20radiation).md) and [scattering](scattering.md#electromagnetics) of [electromagnetic radiation](electromagnetic%20radiation.md) by dust and gas between an emitting [astronomical object](astronomical%20object.md) and the [observer](observation.md)}@}. <!--SR:!2026-10-17,562,310-->
 
 ## interstellar reddening
 

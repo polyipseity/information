@@ -99,8 +99,8 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-10-12,201,275-->
-- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2025-04-03,165,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-04-04,35,155-->
+- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2026-09-09,523,315-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-04-21,17,135-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-04-25,78,275!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -216,7 +216,7 @@ MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-05-24,127,230!2025-04-16,214,270-->
   - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!2026-07-17,600,330-->
-  - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2025-04-05,245,330-->
+  - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2028-04-24,1113,350-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2026-09-01,583,310-->
 
 Will this waste charging scheme waste generation?
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::@:: clean Victoria Harbor <!--SR:!2027-03-18,772,330!2028-02-13,1060,350-->
-  - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2025-04-05,143,230!2028-03-03,1071,350-->
+  - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2026-03-04,331,230!2028-03-03,1071,350-->
 
 ## page 23
 
@@ -337,7 +337,7 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2027-04-07,788,330!2025-05-12,271,330-->
-  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2026-01-07,385,270!2025-04-06,246,330-->
+  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2026-01-07,385,270!2028-05-01,1120,350-->
 
 ## page 29
 
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-07,18,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-29,22,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2027-02-16,688,310-->
 
@@ -436,7 +436,7 @@ Relationship between PPM and mg/L
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
   - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2025-09-28,328,290!2026-06-04,512,310-->
-- specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2025-04-03,245,330!2025-05-19,278,330-->
+- specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2028-04-23,1115,350!2025-05-19,278,330-->
 
 ## page 36
 
@@ -450,7 +450,7 @@ Concentration Units for Gases
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
-- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2025-04-05,226,310!2026-07-28,609,330-->
+- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2027-12-03,970,330!2026-07-28,609,330-->
   - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2026-07-09,569,310!2025-05-14,273,330-->
 
 ## page 38

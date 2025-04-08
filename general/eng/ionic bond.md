@@ -11,7 +11,7 @@ tags:
 
 # ionic bond
 
-__Ionic bonding__ is {@{a type of [chemical bonding](chemical%20bond.md) involving the [electrostatic attraction](Coulomb's%20law.md) between oppositely charged [ions](ion.md) or [atoms](atom.md) with greatly differing [electronegativity](electronegativity.md)}@}. It is the primary interaction in {@{[ionic compounds](ionic%20compound.md)}@}. {@{A transfer of [electrons](electron.md)}@} takes place, which is also known as {@{__electrovalence__ in contrast to [covalence](covalent%20bond.md)}@}. Atoms that {@{gain electrons become [anions](ion.md) while those that lose electrons become [cations](ion.md)}@}. <!--SR:!2025-04-08,337,190!2027-03-18,1121,350!2027-07-20,1222,350!2027-08-03,886,290!2028-04-18,1436,350-->
+__Ionic bonding__ is {@{a type of [chemical bonding](chemical%20bond.md) involving the [electrostatic attraction](Coulomb's%20law.md) between oppositely charged [ions](ion.md) or [atoms](atom.md) with greatly differing [electronegativity](electronegativity.md)}@}. It is the primary interaction in {@{[ionic compounds](ionic%20compound.md)}@}. {@{A transfer of [electrons](electron.md)}@} takes place, which is also known as {@{__electrovalence__ in contrast to [covalence](covalent%20bond.md)}@}. Atoms that {@{gain electrons become [anions](ion.md) while those that lose electrons become [cations](ion.md)}@}. <!--SR:!2027-10-19,924,210!2027-03-18,1121,350!2027-07-20,1222,350!2027-08-03,886,290!2028-04-18,1436,350-->
 
 ## references
 

@@ -47,11 +47,11 @@ otherwise: Substitute $u = \tan \frac t 2$.
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-07-02T17:25:31.891084+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←$\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$. <!--SR:!2026-03-10,392,270!2025-07-14,285,330-->
-- $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→::@::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$. <!--SR:!2025-04-07,179,270!2025-04-24,210,290-->
-- $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→::@::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$. <!--SR:!2025-04-06,194,310!2025-04-16,78,290-->
+- $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→::@::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$. <!--SR:!2027-02-13,677,290!2025-04-24,210,290-->
+- $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→::@::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$. <!--SR:!2026-11-29,601,310!2025-04-16,78,290-->
 - $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→::@::←two preceding relations hold: Substitute $u = \cos 2t$. <!--SR:!2025-12-09,347,290!2025-07-18,288,330-->
 - two preceding relations hold: Substitute $u = \cos 2t$.→::@::←otherwise: Substitute $u = \tan \frac t 2$. <!--SR:!2025-04-27,210,310!2025-12-18,351,290-->
-- otherwise: Substitute $u = \tan \frac t 2$.→::@::←_(end)_ <!--SR:!2025-04-05,208,310!2026-11-18,607,310-->
+- otherwise: Substitute $u = \tan \frac t 2$.→::@::←_(end)_ <!--SR:!2027-09-14,892,330!2026-11-18,607,310-->
 
 <!--/pytextgen-->
 

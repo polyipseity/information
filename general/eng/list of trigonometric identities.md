@@ -45,7 +45,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-07-11T08:29:28.983272+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2025-04-05,361,362-->
+- _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2030-02-28,1790,382-->
 - [Pythagorean identities](#Pythagorean%20identities)→::@::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2028-09-15,1546,350-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!2026-09-25,660,289!2027-01-01,776,329-->
 - [linear combination](#linear%20combination)→::@::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2027-07-22,1124,330-->
@@ -228,7 +228,7 @@ return await memorize_map(
 > - $\tan (-9.6)$ (tangent and secant) ::@:: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2025-08-27,246,276!2026-08-03,533,336-->
 > - $\tan (-4.96)$ (tangent) ::@:: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2025-07-09,243,296!2025-07-10,136,256-->
 > - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2025-09-21,297,316!2025-05-25,85,316-->
-> - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2025-04-03,152,296!2025-12-08,352,316-->
+> - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2025-06-21,79,276!2025-12-08,352,316-->
 > - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-12-22,353,296!2025-09-24,303,316-->
 > - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2025-06-05,104,236!2026-01-08,331,316-->
 > - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2025-12-18,359,316!2025-05-27,229,336-->
@@ -271,8 +271,8 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2025-06-29,380,307!2025-04-16,318,287-->
-> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-06-02,67,207!2025-04-04,66,167-->
-> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-04-03,11,130-->
+> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-06-02,67,207!2025-07-21,108,167-->
+> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-04-17,14,130-->
 > - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2025-09-19,179,207!2025-12-20,481,287-->
 
 ### sum-to-product

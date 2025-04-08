@@ -36,7 +36,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
-- description ::@:: stadium in Beijing, China <!--SR:!2027-01-19,777,330!2025-04-05,299,350-->
+- description ::@:: stadium in Beijing, China <!--SR:!2027-01-19,777,330!2029-03-15,1438,370-->
 - image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2025-07-19,350,380!2025-11-20,457,400-->
 - shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2025-07-20,342,372!2025-09-09,404,385-->
 
@@ -47,7 +47,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2025-08-09,324,307!2026-03-07,555,397-->
 - height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2025-07-14,334,365-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2025-10-24,408,380!2026-01-10,498,400-->
-- shape ::@:: sail of a ship <!--SR:!2025-04-03,254,357!2025-04-27,278,372-->
+- shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2025-04-27,278,372-->
 
 ## Burj Khalifa
 
@@ -86,8 +86,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::@:: 1994 <!--SR:!2025-04-03,177,316!2026-04-28,565,396-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-04-05,94,216!2025-09-03,252,376-->
+- completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2026-04-28,565,396-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-10-22,198,216!2025-09-03,252,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -264,14 +264,14 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
-- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-04-08,32,160!2027-10-27,958,370-->
+- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-06-25,78,180!2027-10-27,958,370-->
 
 ## Sutong Yangtze River Bridge
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
 - bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
-- description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
+- description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2028-01-28,1025,330!2025-05-26,316,364-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
 - length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-08-02,131,197!2027-02-28,756,355-->
 

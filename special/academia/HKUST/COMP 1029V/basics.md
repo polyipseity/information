@@ -63,7 +63,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-03-07T00:04:17.291438+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`Boolean` <!--SR:!2025-04-08,334,345!2028-02-28,1156,350-->
+- _(begin)_→::@::←`Boolean` <!--SR:!2029-08-12,1587,365!2028-02-28,1156,350-->
 - `Boolean`→::@::←`Double` <!--SR:!2028-06-12,1238,350!2025-07-21,147,310-->
 - `Double`→::@::←`Integer` <!--SR:!2026-05-07,567,330!2027-03-14,856,330-->
 - `Integer`→::@::←`Long` <!--SR:!2025-07-31,359,290!2027-11-05,1045,345-->

@@ -75,7 +75,7 @@ Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, i
 
 > {@{![Figure 4: Comparison of indifference curves of perfect and imperfect substitutes](../../archives/Wikimedia%20Commons/Perfect-imperfect-substitutes-indifference-curve.png)}@}
 >
-> Figure 4: {@{Comparison of indifference curves of perfect and imperfect substitutes}@} <!--SR:!2025-04-05,104,290!2025-11-27,292,330-->
+> Figure 4: {@{Comparison of indifference curves of perfect and imperfect substitutes}@} <!--SR:!2026-06-02,423,310!2025-11-27,292,330-->
 
 {@{Imperfect substitutes, also known as close substitutes}@}, have {@{a lesser level of substitutability}@}, and therefore {@{exhibit variable marginal rates of substitution along the consumer [indifference curve](indifference%20curve.md)}@}. The consumption points on the curve offer {@{the same level of utility as before}@}, but {@{compensation depends on the starting point of the substitution}@}. Unlike perfect substitutes \(see figure 4\), {@{the indifference curves of imperfect substitutes}@} are {@{not linear and the marginal rate of substitution is different for different set of combinations on the curve}@}.<!-- <sup>\[_[citation needed](Wikipedia:Citation%20needed.md)_\]</sup> --> Close substitute goods are {@{similar products that target the same customer groups and satisfy the same needs}@}, but {@{have slight differences in characteristics}@}.<sup>[\[9\]](#^ref-9)</sup> {@{Sellers of close substitute goods}@} are therefore in {@{indirect competition with each other}@}. <!--SR:!2025-11-24,290,330!2025-10-17,259,330!2025-04-19,106,290!2025-10-22,263,330!2025-07-30,183,310!2025-11-11,278,330!2025-05-01,115,290!2025-10-28,266,330!2025-07-30,181,310!2025-10-31,269,330!2025-09-09,228,330-->
 

@@ -117,7 +117,7 @@ The content is in teaching order.
 - networking
   - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2025-08-15,253,330-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2025-08-27,260,330!2025-08-09,245,330-->
-- Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2025-04-07,145,310-->
+- Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2026-12-19,621,330-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2025-06-26,212,330-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2025-09-04,267,330!2025-07-15,227,330-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2025-09-04,268,330-->
@@ -174,7 +174,7 @@ The content is in teaching order.
 - datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2025-10-23,302,330!2025-08-08,244,330-->
-- STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2025-08-04,244,330-->
+- STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2025-08-04,244,330-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2025-08-10,246,330!2025-10-24,303,330-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2025-09-03,266,330-->

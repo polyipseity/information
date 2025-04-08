@@ -63,7 +63,7 @@ Although {@{Kosaraju's algorithm is conceptually simple}@}, {@{Tarjan's and the 
 
 {@{Algorithms for finding strongly connected components}@} may be used to {@{solve [2-satisfiability](2-satisfiability.md) problems \(systems of Boolean variables with constraints on the values of pairs of variables\)}@}: as {@{[Aspvall, Plass & Tarjan \(1979\)](#CITEREFAspvallPlassTarjan1979) showed}@}, {@{a 2-satisfiability instance is unsatisfiable}@} {@{if and only if there is a variable _v_ such that _v_ and its negation are both contained}@} in the {@{same strongly connected component of the [implication graph](implication%20graph.md) of the instance}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-08-02,178,317!2025-06-16,131,297!2025-04-20,91,277!2026-01-02,305,337!2025-07-09,146,297!2025-07-16,164,317-->
 
-Strongly connected components are also used to {@{compute the [Dulmage–Mendelsohn decomposition](Dulmage–Mendelsohn%20decomposition.md)}@}, {@{a classification of the edges of a [bipartite graph](bipartite%20graph.md)}@}, according to {@{whether or not they can be part of a [perfect matching](perfect%20matching.md) in the graph}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-04-06,62,277!2025-07-22,169,317!2025-05-26,124,297-->
+Strongly connected components are also used to {@{compute the [Dulmage–Mendelsohn decomposition](Dulmage–Mendelsohn%20decomposition.md)}@}, {@{a classification of the edges of a [bipartite graph](bipartite%20graph.md)}@}, according to {@{whether or not they can be part of a [perfect matching](perfect%20matching.md) in the graph}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-12-06,244,297!2025-07-22,169,317!2025-05-26,124,297-->
 
 ## related results
 

@@ -25,7 +25,7 @@ The 5 forces are {@{threat of _new entrants_, bargaining power of _buyers_, thre
 
 ### threat of substitutes
 
-A substitute product {@{uses a different technology to solve the same economic need}@}. <!--SR:!2025-04-05,215,310-->
+A substitute product {@{uses a different technology to solve the same economic need}@}. <!--SR:!2027-10-18,924,330-->
 
 ### bargaining power of buyers
 

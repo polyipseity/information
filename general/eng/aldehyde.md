@@ -66,7 +66,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[oxidation](#oxidation) <!--SR:!2026-03-22,763,321!2027-10-16,1199,341-->
 - [oxidation](#oxidation)→::@::←[reduction](#reduction) <!--SR:!2028-01-04,1261,341!2028-01-08,1264,341-->
-- [reduction](#reduction)→::@::←_(end)_ <!--SR:!2027-12-30,1257,341!2025-04-03,496,301-->
+- [reduction](#reduction)→::@::←_(end)_ <!--SR:!2027-12-30,1257,341!2029-05-04,1492,301-->
 
 <!--/pytextgen-->
 

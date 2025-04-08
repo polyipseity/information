@@ -35,9 +35,9 @@ Imagine {@{a small store with a single counter and an area for browsing}@}, wher
 
 If {@{the rate at which people enter the store \(called the arrival rate\) is the rate at which they exit \(called the exit rate\)}@}, {@{the system is stable}@}. By contrast, {@{an arrival rate exceeding an exit rate}@} would {@{represent an unstable system}@}, where {@{the number of waiting customers in the store would gradually increase towards infinity}@}. <!--SR:!2025-04-11,41,290!2025-04-28,58,310!2025-05-06,64,310!2025-05-05,63,310!2025-04-27,57,310-->
 
-Little's Law tells us that {@{the average number of customers in the store _L_}@}, is {@{the effective arrival rate _λ_, times the average time that a customer spends in the store _W_}@}, or simply: {@{$$L=\lambda W$$}@} <!--SR:!2025-05-07,65,310!2025-04-28,58,310!2025-04-05,39,290-->
+Little's Law tells us that {@{the average number of customers in the store _L_}@}, is {@{the effective arrival rate _λ_, times the average time that a customer spends in the store _W_}@}, or simply: {@{$$L=\lambda W$$}@} <!--SR:!2025-05-07,65,310!2025-04-28,58,310!2025-09-13,159,310-->
 
-Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5 hour}@}. This means we should find {@{the average number of customers in the store at any time to be 5}@}. {@{$$L=10\times 0.5=5$$}@} <!--SR:!2025-04-05,39,290!2025-04-27,57,310!2025-05-06,64,310-->
+Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5 hour}@}. This means we should find {@{the average number of customers in the store at any time to be 5}@}. {@{$$L=10\times 0.5=5$$}@} <!--SR:!2025-09-11,157,310!2025-04-27,57,310!2025-05-06,64,310-->
 
 Now suppose {@{the store is considering doing more advertising to raise the arrival rate to 20 per hour}@}. The store must either {@{be prepared to host an average of 10 occupants}@} or {@{must reduce the time each customer spends in the store to 0.25 hour}@}. The store might {@{achieve the latter}@} by {@{ringing up the bill faster or by adding more counters}@}. <!--SR:!2025-05-08,66,310!2025-04-26,56,310!2025-05-05,63,310!2025-05-05,63,310!2025-05-05,63,310-->
 

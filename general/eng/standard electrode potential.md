@@ -239,7 +239,7 @@ return (
 - Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq):@:1.36 <!--SR:!2025-04-17,125,130-->
 - MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l):@:1.51 <!--SR:!2025-04-12,38,130-->
 - Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq):@:1.92 <!--SR:!2025-07-03,117,170-->
-- S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq):@:2.01 <!--SR:!2025-04-06,16,130-->
+- S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq):@:2.01 <!--SR:!2025-04-28,21,130-->
 - F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq):@:2.87 <!--SR:!2025-07-23,122,130-->
 
 <!--/pytextgen-->

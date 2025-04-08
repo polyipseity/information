@@ -155,15 +155,15 @@ The content is in teaching order.
 - activity 1: how many uses ::@:: Think of as many uses for a paperclip in 3 minutes. Play intense music. <!--SR:!2026-12-30,640,414!2027-01-08,647,414-->
   - activity 1: how many uses / takeaways ::@:: Did you get stuck? If no, then good! Yes, it is normal. You can improve this by using different _schemas_, collaborating with others, and think in a more relaxed environment (No intense music!). <!--SR:!2027-01-10,649,414!2027-01-07,646,414-->
 - activity 2: how many uses, better ::@:: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2026-01-12,322,374!2025-04-11,129,394-->
-  - activity 2: how many uses, better / takeaways ::@:: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2025-04-06,124,394!2025-04-07,125,394-->
-- activity 3: Are you creative? ::@:: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 4 things, each in 10 seconds: baby, door, house, and innovation. Finally, share, compare, and discuss with others. <!--SR:!2025-04-09,127,394!2025-04-07,125,394-->
+  - activity 2: how many uses, better / takeaways ::@:: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2027-02-03,666,414!2027-02-10,673,414-->
+- activity 3: Are you creative? ::@:: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 4 things, each in 10 seconds: baby, door, house, and innovation. Finally, share, compare, and discuss with others. <!--SR:!2025-04-09,127,394!2027-02-11,674,414-->
 - design thinking
-  - design thinking / creativity ::@:: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2025-04-03,121,394!2025-04-10,128,394-->
-  - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2025-04-08,126,394!2025-04-11,129,394-->
+  - design thinking / creativity ::@:: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2027-01-17,653,414!2025-04-10,128,394-->
+  - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2027-02-22,685,414!2025-04-11,129,394-->
   - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2025-04-09,127,394!2026-07-15,494,394-->
 - activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2025-04-13,131,394!2026-12-26,637,414-->
   - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2026-12-25,636,414!2026-01-12,327,374-->
-- point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2025-04-08,126,394!2025-04-10,128,394-->
+- point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2027-02-14,677,414!2025-04-10,128,394-->
 
 ## week 9 tutorial
 
@@ -174,22 +174,22 @@ The content is in teaching order.
 - activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2027-01-01,642,414!2026-12-23,635,414-->
 - decision making
   - decision making / elements ::@:: information, objectives, options <!--SR:!2027-01-06,645,414!2025-04-09,127,394-->
-  - decision making / process (bad) ::@:: gather & create → narrow down → choose → _agonize_ <!--SR:!2025-04-12,130,394!2025-04-08,126,394-->
-  - decision making / process ::@:: gather & create → narrow down → choose → _let go & move on_ <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence...) <!--SR:!2025-04-11,129,394!2025-04-03,121,394-->
+  - decision making / process (bad) ::@:: gather & create → narrow down → choose → _agonize_ <!--SR:!2025-04-12,130,394!2027-02-21,684,414-->
+  - decision making / process ::@:: gather & create → narrow down → choose → _let go & move on_ <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence...) <!--SR:!2025-04-11,129,394!2027-01-16,652,414-->
   - decision making / gather & create ::@:: Try to gather more choices beyond the binary! <p> _Luck_ is about being open to more than just the task at hand. Anxiety disrupts people's ability to notice the unexpected. Those who call themselves lucky actively sought opportunities to meet new people and have new experiences. (Richard Wiseman, _The Luck Factor_) <!--SR:!2025-04-10,128,394!2025-04-12,130,394-->
   - decision making / narrow down ::@:: You need to narrow down your choices to avoid choice overload. <!--SR:!2026-12-17,629,414!2027-01-05,644,414-->
     - decision making / narrow down / matrix ::@:: Instead of listing the pros and cons of each choice, create a matrix. The column headers are the choices while the row headers are the objectives. Then assess each choice for each objective, ideally using emotional symbols (e.g. smiley face, neutral face, sad face). Use the matrix to remove the worst choices. <!--SR:!2026-01-23,331,374!2025-04-13,131,394-->
 - design thinking
   - design thinking / discernment ::@:: __Discernment__ is integrating _multiple_ ways of knowing, which includes cognitive/intellectual, emotional/affective, physical/kinesthetic, and social. <!--SR:!2026-12-15,627,414!2027-01-11,650,414-->
-    - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2025-04-05,123,394!2025-04-11,129,394-->
-    - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2025-04-04,122,394!2026-05-05,440,394-->
+    - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2027-01-30,662,414!2025-04-11,129,394-->
+    - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2027-01-21,657,414!2026-05-05,440,394-->
     - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2026-12-27,638,414!2027-01-15,654,414-->
-    - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2026-01-20,329,374!2025-04-06,124,394-->
-    - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2025-04-08,126,394!2026-02-01,342,374-->
+    - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2026-01-20,329,374!2027-02-04,667,414-->
+    - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2027-02-15,678,414!2026-02-01,342,374-->
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2027-01-09,648,414!2025-04-11,129,394-->
 - decision making
   - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2025-04-09,127,394!2026-12-29,639,414-->
-  - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2025-04-07,125,394!2026-12-11,624,414-->
+  - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2027-02-09,672,414!2026-12-11,624,414-->
     - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2025-04-10,128,394-->
 
 ## week 10 tutorial
@@ -198,7 +198,7 @@ The content is in teaching order.
 - assignments: [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
 - mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally. <!--SR:!2026-09-17,542,417!2026-09-26,551,417-->
   - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_? <!--SR:!2025-05-11,148,417!2025-05-10,147,417-->
-- activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2025-04-03,110,397!2026-10-26,575,417-->
+- activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2026-11-27,602,417!2026-10-26,575,417-->
   - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2025-05-03,141,417!2025-05-06,144,417-->
 - paying attention
   - pay attention / types ::@:: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.). <!--SR:!2026-10-20,575,417!2026-11-12,590,417-->

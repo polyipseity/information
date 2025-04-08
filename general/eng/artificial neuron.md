@@ -31,7 +31,7 @@ Usually, the threshold _θ_ is {@{chosen to be 0}@}. <!--SR:!2025-05-16,258,330-
 
 ### linear combination
 
-In this case, the output _y_ is {@{simply the net input _u_ multiplied by a constant _k_}@}: {@{$$y = ku$$}@} When {@{$k = 1$}@}, this is {@{simply the [identity function](identity%20function.md): $y = u$}@}. It is a type of {@{linear activation function}@}. <!--SR:!2025-04-06,225,330!2025-06-05,273,330!2025-05-04,247,330!2027-12-10,987,350!2025-04-12,229,330-->
+In this case, the output _y_ is {@{simply the net input _u_ multiplied by a constant _k_}@}: {@{$$y = ku$$}@} When {@{$k = 1$}@}, this is {@{simply the [identity function](identity%20function.md): $y = u$}@}. It is a type of {@{linear activation function}@}. <!--SR:!2028-01-26,1024,350!2025-06-05,273,330!2025-05-04,247,330!2027-12-10,987,350!2025-04-12,229,330-->
 
 ### sigmoid
 
@@ -43,7 +43,7 @@ In this case, the output _y_ is {@{simply the net input _u_ multiplied by a cons
 
 - see: [rectifier](rectifier%20(neural%20networks).md)
 
-The __rectifier__ or {@{__ReLU__ (__rectified linear unit__)}@} is an activation function defined as {@{the positive part of its argument}@}: {@{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}@}. <!--SR:!2025-05-14,256,330!2025-04-07,226,330!2027-01-23,728,330-->
+The __rectifier__ or {@{__ReLU__ (__rectified linear unit__)}@} is an activation function defined as {@{the positive part of its argument}@}: {@{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}@}. <!--SR:!2025-05-14,256,330!2028-01-29,1027,350!2027-01-23,728,330-->
 
 ## references
 

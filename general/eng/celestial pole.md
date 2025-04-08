@@ -19,7 +19,7 @@ To {@{find [Polaris](Polaris.md)}@}, from {@{a point in the [Northern Hemisphere
 
 ## finding the south celestial pole
 
-{@{[Sigma Octantis](Sigma%20Octantis.md)}@} is identified as the [south](south.md) pole star, {@{more than one degree away}@} from the pole, but {@{with an [apparent magnitude](apparent%20magnitude.md) of 5.5 it is barely visible on a clear night}@}. <!--SR:!2026-01-18,378,292!2027-04-24,773,332!2025-04-07,174,272-->
+{@{[Sigma Octantis](Sigma%20Octantis.md)}@} is identified as the [south](south.md) pole star, {@{more than one degree away}@} from the pole, but {@{with an [apparent magnitude](apparent%20magnitude.md) of 5.5 it is barely visible on a clear night}@}. <!--SR:!2026-01-18,378,292!2027-04-24,773,332!2027-01-31,664,292-->
 
 ### method one: the Southern Cross
 

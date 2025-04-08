@@ -34,7 +34,7 @@ The next four axioms describe {@{the [equality](equality%20(mathematics).md) [re
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
 2. 2nd axiom ::@:: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2025-05-14,188,325!2025-11-19,337,345-->
-3. 3rd axiom ::@:: For all natural numbers _x_ and _y_, if _x_ = _y_, then _y_ = _x_. That is, equality is [symmetric](symmetric%20relation.md). <!--SR:!2025-04-04,156,325!2025-09-10,284,345-->
+3. 3rd axiom ::@:: For all natural numbers _x_ and _y_, if _x_ = _y_, then _y_ = _x_. That is, equality is [symmetric](symmetric%20relation.md). <!--SR:!2027-03-03,698,345!2025-09-10,284,345-->
 4. 4th axiom ::@:: For all natural numbers _x_, _y_ and _z_, if _x_ = _y_ and _y_ = _z_, then _x_ = _z_. That is, equality is [transitive](transitive%20relation.md). <!--SR:!2025-10-14,311,345!2025-07-03,221,325-->
 5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2025-09-07,282,345!2025-10-27,320,345-->
 <!-- markdownlint-restore -->
@@ -86,7 +86,7 @@ To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a
 
 #### multiplication
 
-Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2025-11-26,344,345!2025-09-28,299,345!2025-04-04,156,325-->
+Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2025-11-26,344,345!2025-09-28,299,345!2027-03-02,697,345-->
 
 It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2025-11-16,337,345-->
 

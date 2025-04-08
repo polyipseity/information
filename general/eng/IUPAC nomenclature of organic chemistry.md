@@ -172,7 +172,7 @@ The steps for naming an organic compound are:
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2025-09-21,213,190-->
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2026-01-17,579,190!2026-03-01,749,265-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2026-02-13,329,207!2027-03-29,824,230-->
-- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2025-04-05,214,207-->
+- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2026-06-29,450,207-->
 - (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2026-06-08,527,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2025-12-06,562,267-->
 - [modify punctuations](#modify%20punctuations)→::@::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2026-05-05,523,253!2027-10-24,1227,307-->
@@ -631,7 +631,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
-- nitrile→::@::←aldehyde <!--SR:!2025-04-06,7,130!2025-05-14,154,190-->
+- nitrile→::@::←aldehyde <!--SR:!2025-04-15,8,130!2025-05-14,154,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-07-17,112,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
@@ -676,7 +676,7 @@ return await memorize_table(
 - [acetic acid](acetic%20acid.md)→::@::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2030-01-25,1877,384-->
 - [acetone](acetone.md)→::@::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
 - [chloroform](chloroform.md)→::@::←[formaldehyde](formaldehyde.md) <!--SR:!2026-03-22,482,344!2027-01-14,733,304-->
-- [formaldehyde](formaldehyde.md)→::@::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2026-09-12,609,344-->
+- [formaldehyde](formaldehyde.md)→::@::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2028-03-29,1087,324!2026-09-12,609,344-->
 - [isopropyl alcohol](isopropyl%20alochol.md)→::@::←_(end)_ <!--SR:!2029-01-30,1604,384!2026-08-30,707,304-->
 
 <!--/pytextgen-->

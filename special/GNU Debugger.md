@@ -64,12 +64,12 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 #### `pwndbg` memory
 
-- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-04-06,161,310!2025-07-11,218,310-->
+- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2026-08-25,504,310!2025-07-11,218,310-->
 
 #### `pwndbg` stack
 
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2026-03-08,419,365!2026-09-13,541,325-->
-- `stackf <count> <offset>` ::@:: prints entire stack frame with the specified count and offset <!--SR:!2025-04-08,141,305!2026-08-04,512,325-->
+- `stackf <count> <offset>` ::@:: prints entire stack frame with the specified count and offset <!--SR:!2026-06-12,430,305!2026-08-04,512,325-->
 
 ## miscellaneous
 

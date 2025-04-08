@@ -132,11 +132,11 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-13,23,150!2025-04-10,29,201!2025-04-07,71,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-13,23,150!2025-04-10,29,201!2025-10-20,196,281-->
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-07-12,125,261!2025-04-08,6,150-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-07-12,125,261!2025-04-11,3,130-->
 
 ### small values
 
@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-04-05,4,130-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-04-10,5,130-->
 
 ## use in cryptography
 
@@ -162,7 +162,7 @@ For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown sep
 
 ### integers with multiple prime factors
 
-By {@{the [unique factorization theorem](fundamental%20theorem%20of%20arithmetic.md)}@}, {@{any _n_ \> 1 can be written in a unique way as $$n=p_{1}^{r_{1} }p_{2}^{r_{2} }\cdots p_{k}^{r_{k} }$$}@} where {@{_p_<sub>1</sub> \< _p_<sub>2</sub> \< ... \< _p<sub>k</sub>_ are primes and _r_<sub>1</sub>, _r_<sub>2</sub>, ..., _r<sub>k</sub>_ are positive integers}@}. The results for prime powers establish that, {@{for $1\leq j\leq k$, $$a^{\lambda \left(p_{j}^{r_{j} }\right)}\equiv 1{\pmod {p_{j}^{r_{j} } } }\qquad {\text{for all } }a{\text{ coprime to } }n{\text{ and hence to } }p_{i}^{r_{i} }.$$}@} From this it follows that {@{$$a^{\lambda (n)}\equiv 1{\pmod {p_{j}^{r_{j} } } }\qquad {\text{for all } }a{\text{ coprime to } }n,$$ where, as given by the recurrence, $$\lambda (n)=\operatorname {lcm} {\Bigl (}\lambda \left(p_{1}^{r_{1} }\right),\lambda \left(p_{2}^{r_{2} }\right),\ldots ,\lambda \left(p_{k}^{r_{k} }\right){\Bigr )}.$$}@} From {@{the [Chinese remainder theorem](chinese%20remainder%20theorem.md)}@} one concludes that {@{$$a^{\lambda (n)}\equiv 1{\pmod {n} }\qquad {\text{for all } }a{\text{ coprime to } }n.$$}@} <!--SR:!2025-09-24,205,321!2025-09-12,200,321!2026-01-06,295,341!2025-04-03,68,270!2025-07-07,134,290!2026-02-12,324,341!2025-12-05,268,330-->
+By {@{the [unique factorization theorem](fundamental%20theorem%20of%20arithmetic.md)}@}, {@{any _n_ \> 1 can be written in a unique way as $$n=p_{1}^{r_{1} }p_{2}^{r_{2} }\cdots p_{k}^{r_{k} }$$}@} where {@{_p_<sub>1</sub> \< _p_<sub>2</sub> \< ... \< _p<sub>k</sub>_ are primes and _r_<sub>1</sub>, _r_<sub>2</sub>, ..., _r<sub>k</sub>_ are positive integers}@}. The results for prime powers establish that, {@{for $1\leq j\leq k$, $$a^{\lambda \left(p_{j}^{r_{j} }\right)}\equiv 1{\pmod {p_{j}^{r_{j} } } }\qquad {\text{for all } }a{\text{ coprime to } }n{\text{ and hence to } }p_{i}^{r_{i} }.$$}@} From this it follows that {@{$$a^{\lambda (n)}\equiv 1{\pmod {p_{j}^{r_{j} } } }\qquad {\text{for all } }a{\text{ coprime to } }n,$$ where, as given by the recurrence, $$\lambda (n)=\operatorname {lcm} {\Bigl (}\lambda \left(p_{1}^{r_{1} }\right),\lambda \left(p_{2}^{r_{2} }\right),\ldots ,\lambda \left(p_{k}^{r_{k} }\right){\Bigr )}.$$}@} From {@{the [Chinese remainder theorem](chinese%20remainder%20theorem.md)}@} one concludes that {@{$$a^{\lambda (n)}\equiv 1{\pmod {n} }\qquad {\text{for all } }a{\text{ coprime to } }n.$$}@} <!--SR:!2025-09-24,205,321!2025-09-12,200,321!2026-01-06,295,341!2025-10-02,182,270!2025-07-07,134,290!2026-02-12,324,341!2025-12-05,268,330-->
 
 ## see also
 

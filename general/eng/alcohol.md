@@ -32,7 +32,7 @@ Most alcohols are {@{less [dense](density.md) than [water](water.md). Alcohols w
 
 ### dehydration
 
-Alcohols {@{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}@}. It obeys {@{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}@}. <!--SR:!2026-07-29,705,240!2025-04-03,58,180-->
+Alcohols {@{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}@}. It obeys {@{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}@}. <!--SR:!2026-07-29,705,240!2025-07-16,104,180-->
 
 In catalytic dehydration, alcohols {@{are dehydrated by passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md) and then collected over [water](water.md)}@}. <!--SR:!2025-05-03,445,240-->
 

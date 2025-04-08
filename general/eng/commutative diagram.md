@@ -30,11 +30,11 @@ A commutative diagram often consists of {@{three parts: (annotation: objects, mo
 
 In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2025-04-25,63,310!2025-04-24,62,310!2025-04-15,54,310-->
 
-- A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-04-04,43,290!2025-04-05,46,290-->
+- A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-08-09,127,290!2025-10-08,186,310-->
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-04-21,59,310!2025-04-26,52,250-->
 - An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2025-04-30,67,310!2025-04-27,64,310-->
 - The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-04-11,48,290!2025-04-23,60,310-->
-  - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-04-04,43,290!2025-04-29,66,310-->
+  - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-09-22,171,310!2025-04-29,66,310-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-04-28,65,310!2025-08-20,148,310-->
 
 {@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-04-15,54,310!2025-04-28,65,310!2025-04-19,58,310!2025-04-17,56,310!2025-09-01,159,310-->
@@ -49,7 +49,7 @@ Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of di
 
 ### example 1
 
-In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2025-04-23,61,310!2025-04-24,62,310!2025-04-08,46,290!2025-04-30,67,310!2025-04-29,66,310-->
+In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2025-04-23,61,310!2025-04-24,62,310!2025-10-06,181,310!2025-04-30,67,310!2025-04-29,66,310-->
 
 |                                                                                                                                                                                                                           |                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -88,7 +88,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-08-27,155,310!2025-04-18,57,310-->
 
 - a node ::@:: for every object in the index category, <!--SR:!2025-04-30,67,310!2025-04-24,61,310-->
-- an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-04-08,46,290!2025-04-16,55,310-->
+- an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-04-16,55,310-->
 - the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2025-04-25,63,310!2025-04-16,55,310-->
 
 Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-04-15,54,310!2025-04-25,63,310!2025-04-10,47,290-->
@@ -97,7 +97,7 @@ Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-04-18,57,310!2025-04-24,62,310-->
 - with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\). <!--SR:!2025-08-19,148,310!2025-04-30,67,310-->
 
-However, {@{not every diagram commutes \(the notion of diagram strictly generalizes commutative diagram\)}@}. As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}. <!--SR:!2025-04-25,62,310!2025-04-28,65,310!2025-04-30,67,310!2025-04-22,60,310!2025-04-08,46,290!2025-04-30,67,310-->
+However, {@{not every diagram commutes \(the notion of diagram strictly generalizes commutative diagram\)}@}. As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}. <!--SR:!2025-04-25,62,310!2025-04-28,65,310!2025-04-30,67,310!2025-04-22,60,310!2025-10-08,183,310!2025-04-30,67,310-->
 
 ## see also
 

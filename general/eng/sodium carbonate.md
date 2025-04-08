@@ -40,7 +40,7 @@ return await memorize_table(
 <!--pytextgen generate section="ddee"--><!-- The following content is generated at 2024-01-04T20:17:52.669058+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md) <!--SR:!2027-08-30,1154,330!2027-09-03,1157,330-->
-- [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→::@::←_(end)_ <!--SR:!2026-07-24,917,330!2025-04-04,88,230-->
+- [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→::@::←_(end)_ <!--SR:!2026-07-24,917,330!2025-10-18,197,230-->
 
 <!--/pytextgen-->
 
