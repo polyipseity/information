@@ -579,7 +579,8 @@ ID: 23456789
 - Euclidean distance ::@:: $$d(\mathbf x, \mathbf y) = \sqrt{ \sum_{k = 1}^n (x_k - y_k)^2 }$$ <p> Sometimes, the _squared Euclidean distance_ is used instead if we only care about relative distances, which omits the square root. <!--SR:!2025-09-27,255,332!2025-08-27,212,312-->
 - Manhattan distance ::@:: $$d(\mathbf x, \mathbf y) = \sum_{k = 1}^n \lvert x_k - y_k \rvert$$ <!--SR:!2025-09-23,252,332!2025-11-06,289,350-->
 - cosine distance ::@:: $$d(\mathbf x, \mathbf y) = 1 - \frac {\langle \mathbf x, \mathbf y \rangle} {\lVert \mathbf x \rVert_2 \lVert \mathbf y \rVert_2} \,,$$ where $\langle \mathbf x, \mathbf y \rangle$ is the dot product of __x__ and __y__, and $\lVert \mathbf x \rVert_2$ is the length/magnitude (2-norm) of __x__. <p> Ranges from 0 (100% similar, same direction) to 2 (absolutely different, opposite direction). (We disregard complex conjugation here.) <!--SR:!2025-11-01,284,350!2025-06-07,161,312-->
-- Hamming distance ::@:: Suppose there are two data with _n_ binary (true or false, 1 or 0) variables. Their __Hamming distance__ is the number of binary variables that differs between them. It ranges from 0 to _n_. <o> This distance function may be used if the variables are discrete instead of continuous. <!--SR:!2025-10-01,243,330!2025-07-14,192,330-->
+- Hamming distance ::@:: Suppose there are two data with _n_ binary (true or false, 1 or 0) variables. Their __Hamming distance__ is the number of binary variable that differs between them. It ranges from 0 to _n_. <o> This distance function may be used if the variables are discrete _binary_ instead of continuous. <!--SR:!2025-10-01,243,330!2025-07-14,192,330--> <p> It is essentially equivalent to the Manhattan distance for binary data.
+  - Hamming distance / non-binary ::@:: For non-binary \(more than 2 values per variable\) data, this is simply the number of variables that differ between two data. <p> In this case, it is _not_ equvalent to the Manhattan distance.
 - [_k_-nearest neighbors algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md)
   - _k_-nearest neighbors algorithm / tie-breaking ::@:: Decrease _k_ by 1 until we break the tie. <p> Or, put more weight for training points that are closer, such as weighing by 1/_d_, where _d_ is the distance between the training point and the test point. <!--SR:!2026-01-06,338,350!2025-10-04,243,330-->
   - _k_-nearest neighbors algorithm / choosing _k_ ::@:: _k_ should not be too large or too small. Larger _k_ reduces effect of the noise on the classification, but make boundaries between classes less distinct, and vice versa. <p> A good rule of thumb is setting _k_ to $\sqrt N$, where _N_ is the _number of training samples_.  This obtains consistency but few "if any" users will want to blindly use such recipes. Instead, a healthy dose of feedback from the data is preferable. <!--SR:!2026-01-09,340,350!2026-01-12,343,350-->
@@ -792,7 +793,7 @@ ID: 23456789
 > Thank you, and good luck with your midterms, including those for your other courses.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## midterm examination
 
@@ -1127,12 +1128,12 @@ ID: 23456789
 
 > Dear all,
 >
-> Please note that tomorrow's lab sessions (i.e., the ones on November 28) will be dedicated to questions and answers to assist you in preparing for the final exams. Of course, you are also welcome to ask any questions regarding Lab 8, Lab 9, and PA 2 during this time. Attendance is not mandatory, so feel free to bring your questions and discuss them with your TAs (\(redacted\) and \(redacted\)).
+> Please note that tomorrow's lab sessions (i.e., the ones on November 28) will be dedicated to questions and answers to assist you in preparing for the final exams. Of course, you are also welcome to ask any questions regarding Lab 8, Lab 9, and PA 2 during this time. Attendance is not mandatory, so feel free to bring your questions and discuss them with your TAs (\[redacted\] and \[redacted\]).
 >
 > Thanks.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## week 13 lecture 2
 
@@ -1296,7 +1297,7 @@ ID: 23456789
 > Thanks, and see you all tomorrow morning.
 >
 > Best, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## aftermath
 

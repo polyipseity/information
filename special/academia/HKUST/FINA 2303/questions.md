@@ -17,6 +17,10 @@ tags:
 
 - HKUST FINA 2303
 
+## children
+
+- [quiz 1 derivative](../../../../general/quiz%201%20derivative.md)
+
 ## week 1 lecture
 
 > Q1. Have you used PRS in classes before?
@@ -618,3 +622,160 @@ tags:
 > 4. projected revenue
 >
 > - solution: {@{4}@} <!--SR:!2025-04-18,19,359-->
+
+## week 7 lecture
+
+> Q1. Which is the correct method to account for depreciation expenses in computing incremental cash flow?
+>
+> 1. EBIT = incremental gross profit – depreciation <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes + depreciation
+> 2. EBIT = incremental gross profit <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes
+>
+> - solution: {@{1}@}
+> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. What would be the cash outflow related to the project of upgrading the factory in year 0?
+>
+> Suppose you are are consider whether to buy a new piece of equipment for your factory. The equipment is depreciated over 5 years, costs \$1M, and \$20k to transport and install it. You will also spend \$50k on engineering costs \(operating expenses\) to redesign the factory to accommodate the new equipment.
+>
+> 1. \$50k
+> 2. \$70k
+> 3. \$1M
+> 4. \$1&nbsp;050&nbsp;000
+> 5. \$1&nbsp;070&nbsp;000
+>
+> - solution: {@{5}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. In the sports drink project, full recovery of net working capital occurs in which year? \(year 0 to year 4\)
+>
+> - projected EBIT = \$700k annually
+> - cost of equipment = \$90k, straight-line depreciation over 3 years with no salvage value
+> - product life = 3 years
+> - interest on borrowing = \$5k annually
+> - increase in net working capital prior to production = \$20k
+> - full recovery of net working capital at end of project
+> - tax rate = 34%
+> - cost of capital = 20%
+>
+> - solution: {@{year 3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. In the sports drink project, which of the following cash flows occurs in year 0?
+>
+> - projected EBIT = \$700k annually
+> - cost of equipment = \$90k, straight-line depreciation over 3 years with no salvage value
+> - product life = 3 years
+> - interest on borrowing = \$5k annually
+> - increase in net working capital prior to production = \$20k
+> - full recovery of net working capital at end of project
+> - tax rate = 34%
+> - cost of capital = 20%
+>
+> 1. cost of equipment
+> 2. expected salvage value of the equipment
+> 3. full recovery of net working capital
+> 4. projected revenue
+>
+> - solution: {@{1}@}
+
+## week 7 lecture 2
+
+> Q1. \(poll\) Should the company sell the lab equipment at the end of year 4 instead of keeping it till year 5?
+>
+> If the company does not sell the lab equipment, the lab equipment has 1 more year to be depreciated. If the company sells the lab equipment, it receives cash, but the lab equipment cannot be depreciated anymore.
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{1/2}@}
+> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. A company paid \$90k, in cash, for a piece of equipment three years ago. Its current book value is \$30k. The company no longer uses this equipment in its current operations and has received an offer of \$50k from a firm who would like to purchase it. The company is in a 30% tax bracket. If it decides to sell the equipment, what is the incremental cash flow from selling it?
+>
+> 1. \$56k
+> 2. \$50k
+> 3. \$44k
+> 4. \$30k
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. A company paid \$90k, in cash, for a piece of equipment three years ago. Its current book value is \$30k. The company no longer uses this equipment in its current operations and has received an offer of \$50k from a firm who would like to purchase it. The company is in a 30% tax bracket. The incremental cash flow from selling it is \$44k.
+>
+> The company could also opt to reuse the equipment in a new project. When evaluating this option, what value, if any, should the company assign to this equipment as an initial cost of the project?
+>
+> 1. \$56k
+> 2. \$50k
+> 3. \$44k
+> 4. \$30k
+> 5. \$0
+>
+> - solution: {@{3}@}
+> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Your car broke down. You could do nothing with it apart from fixing it. If you fix it, then you can sell it for \$7k.
+>
+> You have paid \$5k to fix it. You were about to sell it today when it broke down again. You will need to pay \$3k to fix it again.
+>
+> Will you fix the car or not?
+>
+> 1. yes
+> 2. no
+>
+> - solution: {@{1}@}
+> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. A new computer system that costs \$1M upfront. It will save \$300k annually. The system is depreciated by the accountants using the straight line method over 4 years, with zero salvage value. The financial analysts expect it could be sold for \$50k at the end of year 4. NWC does not change. The corporate marginal tax rate is 40%. The cost of capital is 8%.
+>
+> What will be the amount of depreciation tax shield of this new computer system in year 4?
+>
+> 1. \$0
+> 2. \$100k
+> 3. \$200k
+> 4. \$250k
+>
+> - solution: {@{2}@}
+
+## week 8 lecture
+
+> Q1. What is the expected rate of return if you it at the market price?
+>
+> 1. coupon rate
+> 2. current yield
+> 3. yield to maturity \(YTM\)
+>
+> - solution: {@{3}@}
+> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. If the yield curve is downward sloping, longer maturity bonds generally have _________ shorter maturity bonds.
+>
+> 1. higher yields than
+> 2. lower yields than
+> 3. the same yields as
+>
+> - solution: {@{2}@}
+> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. \(poll\) When do you want to receive your midterm exam result?
+>
+> 1. Apr 3 \(Thur\)
+> 2. Apr 7 \(Mon\)
+> 3. Apr 8 \(Tue\)
+> 4. Apr 9 \(Wed\)
+>
+> - solution: {@{1/2/3/4}@}

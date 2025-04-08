@@ -382,7 +382,7 @@ The content is in teaching order.
 - datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00
   - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2025-07-10,100,382!2025-08-15,136,402-->
-  - stride / vs. ragtime ::@:: The former has move harmony (chords). The latter is not improvised. The former started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-07-12,102,382!2025-07-06,98,382-->
+  - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-07-12,102,382!2025-07-06,98,382-->
   - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-08-11,134,402-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2025-07-02,95,382-->
@@ -446,7 +446,8 @@ The content is in teaching order.
   - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-04-25,26,394!2025-04-25,26,394-->
 - Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-04-26,27,394!2025-04-26,27,394-->
   - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-04-26,27,394!2025-04-19,20,374-->
-  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-04-19,20,374!2025-04-13,15,354-->
+  - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie
+  - Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-04-19,20,374!2025-04-13,15,354-->
 - [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-04-24,25,394!2025-04-19,20,374-->
   - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-04-24,25,394!2025-04-26,27,394-->
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-04-25,26,394!2025-04-24,25,394-->

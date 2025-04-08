@@ -62,8 +62,8 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/)
-- [questions](questions.md)
+- [assignments](assignments/index.md)
+- [questions](questions/index.md)
 
 ## assessments
 
@@ -189,7 +189,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-12T10:30:00+08:00/2025-02-12T11:50:00+08:00
 - topic: OM and finance, inventory turnover analysis, ROIC tree, basic statistics concepts
-- [operations management](../../../../general/operations%20management.md)
+- operations management
   - operations management / accounting & finance ::@:: It plays an important role in understanding and improving a firm's financial performance. <p> Examples are inventory costs, inventory turnover, and return on invested capital (ROIC). <!--SR:!2025-05-15,65,346!2025-05-07,58,346-->
 - [inventory](../../../../general/inventory.md) ::@:: It refers to the goods and materials that a business holds for the ultimate goal of resale, production or utilization. <!--SR:!2025-06-16,92,366!2025-04-15,40,326-->
   - inventory / importance ::@:: They are everywhere. So it is an important signal for managers and analysts to determine how well a retailer is running its business. <p> An empirical analysis for over 353 publicly listed U.S. retailers for the period 1985–2003 inventory shows: 57% publicly traded retailers has inventory as the largest asset on the balance sheet. On average, the inventory takes up 35.1% of total assets. <!--SR:!2025-04-11,36,306!2025-04-15,40,326-->
@@ -270,7 +270,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-19T10:30:00+08:00/2025-02-19T11:50:00+08:00
 - topic: managing uncertainty in service system, M/M/s queuing systems
-- attendance
+- status: attendance
 - M/M/1 queue
 - M/M/c queue
   - M/M/c queue / difference from M/M/1 queue ::@:: Arrival rate $\lambda$ and service rate (of _one_ server) $\mu$ means the same thing. The only difference is that $c$ is not restricted to being 1. <p> We still assume the system is _stable_, i.e. $\lambda < c \mu$. <!--SR:!2025-06-24,92,386!2025-05-14,54,346-->
@@ -287,7 +287,7 @@ The content is in teaching order.
     - queueing theory / pooled vs. separate / results ::@:: We see that the utilization $\rho$ is still the same, but significantly less average queue waiting time $L_q$ for the former. <p> Indeed, as utilization approaches 1, while $L_q$ for both goes to infinity quickly, the former does so significantly slower than the latter. <!--SR:!2025-06-27,95,386!2025-07-04,101,386-->
     - queueing theory / pooled vs. separate / insight ::@:: In the former, it is impossible for someone to be in queue while there are server being idle. This is possible in the latter. So this is why the former performs better than the latter: it leads to better _matching_ between _supply and demand_. <p> So how should we pool the servers? If we _only_ care about waiting time, then we should pool all servers together. Even if this is not possible, some initial degree of pooling still yields most of the improvements (with further pooling yielding diminishing returns). <!--SR:!2025-06-25,93,386!2025-07-04,101,386-->
     - queueing theory / disadvantages ::@:: The advantages are obvious. But there are also disadvantages. The queue is more crowded/longer. As a result, customers _feel_ they have less ownership, and there may be negative behavioral and psychological effects on them. <p> Remember that _feelings of your customers_ sometimes matter as much as the _actual_ waiting time, and it all depends on the situation. <!--SR:!2025-06-24,92,386!2025-06-02,73,366-->
-- [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
+- [questions § week 3 lecture 2](questions/index.md#week%203%20lecture%202)
 
 ## week 4 lecture
 
@@ -295,7 +295,7 @@ The content is in teaching order.
 - topic: queueing system, simulation method
 - M/M/1 queue
 - M/M/c queue
-- [G/G/1 queue](../../../../general/G_G_1%20queue.md) ::@:: M/M/1: _general_ (unknown distribution) inter-arrival time/_general_ (unknown distribution) service time/1 server; assume one FIFO (first-in first-out)/FCFS (first-come first-serve) queue <!--SR:!2025-06-30,97,386!2025-07-06,103,386-->
+- [G/G/1 queue](../../../../general/G_G_1%20queue.md) ::@:: G/G/1: _general_ (unknown distribution) inter-arrival time/_general_ (unknown distribution) service time/1 server; assume one FIFO (first-in first-out)/FCFS (first-come first-serve) queue <!--SR:!2025-06-30,97,386!2025-07-06,103,386-->
   - G/G/1 queue / motivation ::@:: In M/M/1 queue, we assume inter-arrival times and service times follow exponential distributions. But this may not hold in many situations. If we drop the above assumption, then we get this model. <p> Note that M/M/1 (_not_ M/M/c though) is a _special case_ of this. <!--SR:!2025-05-31,71,366!2025-07-06,103,386-->
   - G/G/1 queue / parameters ::@:: arrival: average rate $\lambda$, coefficient of variation $\text{CV}_a$ (use the distribution of the inter-arrival time, e.g. exponential) <br/> service: average rate $\mu$ (average service time: $T_p = 1 / \mu$), coefficient of variation $\text{CV}_p$ (use the distribution of the service time, e.g. exponential) <!--SR:!2025-04-11,28,326!2025-07-02,99,386-->
   - G/G/1 queue / average queue waiting time ::@:: It is given by the [Kingman's formula](../../../../general/Kingman's%20formula.md): $$W_q = \left(\frac \rho {1 - \rho}\right) \left(\frac {\text{CV}_a^2 + \text{CV}_p^2} 2 \right) T_p \,.$$ <p> Note that this is the _queue_ average waiting time, not _system_ average waiting time. <!--SR:!2025-06-08,75,366!2025-06-24,92,386-->
@@ -456,6 +456,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-05T10:30:00+08:00/2025-03-05T11:50:00+08:00
 - topic: capacity planning, decision tree method and EVPI
+- status: attendance
 - [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ (JIT manufacturing in short). <!--SR:!2025-08-02,120,396!2025-08-21,136,399-->
   - just-in-time manufacturing ::@:: \(optional\) Using production flow management and quality improvement to match supply with demand. <!--SR:!2025-08-19,134,399!2025-08-09,127,399-->
     - just-in-time manufacturing / brief history ::@:: It was pioneered by Toyota in the 1980s. Later it was adopted by many famous manufacturers globally. <!--SR:!2025-08-01,119,396!2025-08-21,136,399-->
@@ -485,6 +486,7 @@ The content is in teaching order.
 - decision tree
   - decision tree / summary ::@:: Information about the future is valuable (actually information in general is valuable). Thus it is desirable to reduce uncertainty as soon as possible. <!--SR:!2025-07-11,94,395!2025-04-15,25,397-->
   - decision tree / summary / uncertainty reduction ::@:: data analytics, demand forecasting, feasibility study, market research, etc. <!--SR:!2025-04-15,25,397!2025-04-17,27,395-->
+- [questions § week 5 lecture 2](questions/index.md#week%205%20lecture%202)
 
 ## week 6 lecture
 
@@ -536,6 +538,145 @@ The content is in teaching order.
   - linear programming / versatility ::@:: It is a simple but powerful model that is flexible \(e.g. sensitivity analysis\), has a wide range of applications, and has solvers in many applications \(e.g. Excel\) and programming languages \(e.g. MATLAB, Python\). <!--SR:!2025-04-15,25,395!2025-04-15,25,395-->
 
 ## midterm examination
+
+- datetime: 2025-03-21T20:00:00+08:00/2025-03-21T21:40:00+08:00, PT1H40M
+- venue: Lecture Theater A; Lecture Theater J
+- format
+  - calculator: yes
+  - cheatsheet: A4-sized, double-sided
+  - referencing: closed book
+  - provided: formulas, necessary tables
+  - questions: multiple choice questions ×40
+- grades: 38/40
+  - statistics
+    - timestamps: 2025-03-26T20:34:00+08:00
+    - mean: ? \(provided: 29.5\)
+    - standard deviation: ? \(provided: 7.1\)
+    - low: ?
+    - lower quartile: ?
+    - median: ? \(provided: 30\)
+    - upper quartile: ? \(provided: 35\)
+    - high: ?
+    - distribution: ?
+- report
+  - \(none\)
+- check
+  - datetime: ?
+  - venue: ?
+
+## week 8 lecture
+
+- datetime: 2025-03-24T10:30:00+08:00/2025-03-24T11:50:00+08:00, PT1H20M
+- status: unscheduled
+
+> Dear Class,
+>
+> It is nice to see you today. Thank you for coming to the midterm exam. I hope you don't find the questions too stressful.
+>
+> Please note that we do NOT have class on next Monday \(March 24th\). The class will continue from next Wednesday \(March 26th\). So I will see you again on Wednesday.
+>
+> Have some good rest during the weekend! Wish you best luck with your remaining exams. Feel free to let me know if you have any questions.
+>
+> Best regards,
+>
+> \[redacted\]
+
+## week 8 lecture 2
+
+- datetime: 2025-03-26T10:30:00+08:00/2025-03-26T11:50:00+08:00, PT1H20M
+- topic: forecasting: qualitative and qualitative approaches, time series forecasting models
+- [demand forecasting](../../../../general/demand%20forecasting.md) ::@:: It involves the prediction of the quantity of goods and services that will be demanded by consumers or business customers at a future point in time.
+  - demand forecasting / use ::@:: capacity planning, inventory management, revenue optimization, supply chain management, etc.
+  - demand forecasting / types ::@:: dependent demand: derived from other products or services <br/> independent demand: final customer demand, not derivable from other products or services
+- [forecasting](../../../../general/forecasting.md) ::@:: It is the process of making predictions based on past and present data. Later these can be compared with what actually happens.
+  - forecasting / types ::@:: tactical \(short-term\) vs. strategic \(long-term\) <br/> qualitative \(subjective\) vs. quantitative \(objective\)
+  - forecasting / principles ::@:: data: aggregate forecasts are usually more accurate <br/> error: has errors, never perfect <br/> uncertainty: the longer the time horizon, the more uncertain <br/> use: balance business acumen and quantitative analysis
+  - forecasting / methods ::@:: consensus building, forecast combination, market research, prediction markets
+  - forecasting / biases ::@:: behavioral bias may arise, e.g. anchoring, group thinking, overconfidence, etc.
+- [time series](../../../../general/time%20series.md) ::@:: It is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data.
+  - time series / forecasting ::@:: A form of _extrapolation_ in time: It assumes data in the past is useful for the future, i.e. old patterns continue in the future. Thus, it could not respond to breakthroughs or emerging new trends.
+  - time series / components ::@:: random variation, seasonality, trend \(shrink/grow\)
+  - time series / forecasting
+    - time series / forecasting / issues ::@:: autocorrelation, noise control/reduction, seasonality modeling \(e.g. seasonality index\), structural break, trend modeling \(e.g. double exponential smoothing\), etc.
+    - time series / forecasting / tradeoffs ::@:: responsiveness \(capture recent changes by relying more on recent data\) vs. robustness/stability \(smoothing to reduce noise\)
+- [moving average](../../../../general/moving%20average.md) ::@:: It is a calculation to analyze data points by creating a series of averages of different selections of the full data set.
+  - moving average / types ::@:: naive, simple, weighted, exponential, etc.
+  - moving average / naive ::@:: $$F_t = A_{t - 1} \,,$$ i.e. take the last value as the prediction. It is highly sensitive to noise and does not account for trends.
+  - moving average / simple ::@:: $$F_t = \frac 1 n (A_{t - 1} + \cdots + A_{t - n}) \,,$$ i.e. take the average of the last _n_ values as the prediction. _n_ is the sampling/look-back window.
+  - moving average / sampling window ::@:: The sampling/look-back window is specified by a number _n_. <p> Larger values smooth out noise \(_robustness_/_stability_\), while smaller values is more _responsive_.
+  - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_.
+    - moving average / weighted / weights ::@:: The weights may be selected by trial and error. <p> A reasonable assignment is allocating more weight to recent data. This increases _responsiveness_ against _robustness_/_stability_.
+  - moving average / simple
+    - moving average / simple / advantages & disadvantages ::@:: It is based on average past demand, and assigns equal importance to each observation. <p> It requires carrying large amounts of historical data, and data before the sampling window are entirely ignored.
+  - moving average / weighted
+    - moving average / weighted / advantages & disadvantages ::@:: It is based on average past demand, and usually assigns more importance to recent data. <p> It requires carrying large amounts of historical data, and data before the sampling window are entirely ignored.
+  - moving average / exponential ::@:: $$F_t = F_{t - 1} + \alpha(A_{t - 1} - F_{t - 1}) = \alpha A_{t - 1} + (1 - \alpha) F_{t - 1} \,,$$ where $\alpha$ is the alpha smoothing constant, where higher values increase _responsiveness_ against _robustness_/_stability_. <p> It only requires the most recent observation and the most recent forecast.
+    - moving average / exponential / intuition ::@:: New forecast revises the old forecast in the direction of the actual observation by $\alpha$. <p> Higher $\alpha$ makes the forecast move more. When $\alpha = 0$, this means using the old forecast only. When $\alpha = 1$, this means using the new observation only \(same as the naive model\).
+- [forecast error](../../../../general/forecast%20error.md) ::@:: It is the difference between the actual or real and the predicted or forecast value of a time series or any other phenomenon of interest.
+  - forecast error / calculation ::@:: $$\text{error}_t = \text{observation}_t - \text{forecast}_t \,.$$ Remember that the observation comes before the forecast in the formula.
+- [mean absolute error](../../../../general/mean%20absolute%20error.md) \(MAE\) ::@:: It is a measure of errors between paired observations expressing the same phenomenon. <p> MAE is calculated as the __sum of absolute errors__ \(i.e., the [Manhattan distance](../../../../general/Manhattan%20distance.md)\) divided by the [sample size](../../../../general/sample%20size.md): $$\mathrm {MAE} ={\frac {\sum _{i=1}^{n}\left|y_{i}-x_{i}\right|}{n} }={\frac {\sum _{i=1}^{n}\left|e_{i}\right|}{n} }.$$ It is thus an arithmetic average of the absolute errors $|e_{i}|=|y_{i}-x_{i}|$, where $y_{i}$ is the prediction and $x_{i}$ the true value.
+  - mean absolute error / note ::@:: \(this course: It is called _mean absolute deviation_ \(_MAD_\) instead...? It seems like misnomer, since _deviation_ compares the observation with the _observation mean_ rather than the _predictions_.\)
+- [tracking signal](../../../../general/tracking%20signal.md) \(TS\) ::@:: It monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts.
+  - tracking signal / definition ::@:: The formula for this tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{\text{MAD} } }$$ where _a<sub>t</sub>_ is the actual value of the quantity being forecast, and _f<sub>t</sub>_ is the forecast. MAD is the [mean absolute deviation](../../../../general/mean%20absolute%20deviation.md). The formula for the MAD is: $${\text{MAD} }={\frac {\Sigma \left|a_{t}-f_{t}\right|}{n} }$$ where _n_ is the number of periods.
+    - tracking signal / definition / full ::@:: The entire formula for tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{ {\frac {1}{n} }\Sigma \left|a_{t}-f_{t}\right|} } \,.$$
+- mean absolute error
+  - mean absolute error / measure ::@:: It accounts for both overshooting and undershooting of the observations. It measures the average deviation from true value.
+- tracking signal
+  - tracking signal / measure ::@:: It accounts for _cumulative_ errors over time. It shows how consistently the observations overshoots or undershoots the predictions. A positive tracking signal means the observations mostly overshoot the predictions, and vice versa for negative.
+    - tracking signal / measure / warn ::@:: It can warn when there are unexpected deviations from the prediction, similar to that in _control charts_. In general, $$\lvert TS \rvert > 3.75$$ implies the prediction is poor.
+  - tracking signal / vs. mean absolute error ::@:: They are different accuracy measures. Better performance in one measure does _not_ imply better performance in the other.
+
+## week 9 lecture
+
+- datetime: 2025-03-31T10:30:00+08:00/2025-03-31T11:50:00+08:00, PT1H20M
+- topic: inventory management: introduction to inventory management, economic order quantity \(EOQ\) model
+- inventory
+  - inventory / types ::@:: raw materials, work-in-progress, finished goods, supplies, etc.
+- [field inventory management](../../../../general/field%20inventory%20management.md) ::@:: It is the task of understanding the stock mix of a company and the handling of the different demands placed on that stock. The demands are influenced by both external and internal factors and are balanced by the creation of purchase order requests to keep supplies at a reasonable or prescribed level.
+  - field inventory management / goal ::@:: match \(inventory\) supply with demand
+  - field inventory management / importance ::@:: convergence point of supply chain and customer touch-point <br/> inventory can be the largest asset of a firm <br/> multiple stakeholders involved
+  - field inventory management / components ::@:: inventory tracking, order management, purchasing, reporting and analysis, shipping and delivery, transfer management, etc.
+    - field inventory management / components / new ::@:: artificial intelligence \(AI\), big data, blockchain, internet of things \(IoT\), etc.
+  - field inventory management / challenges ::@:: control difficulty, high costs
+    - field inventory management / challenges / high costs ::@:: holding cost per unit per time, ordering cost per order, shortage cost per lost sale
+    - field inventory management / challenges / control difficulty ::@:: demand uncertainty, quality variance, random delivery lead-time
+- inventory
+  - inventory / types ::@:: buffer, cycle, pipeline, safety, seasonal
+    - inventory / types / pipeline ::@:: related to units in a ongoing process; recall Little's law
+    - inventory / types / seasonal ::@:: fixed capacity but variable demand, e.g. festival products
+    - inventory / types / cycle ::@:: related to economics of scale, as it is usually beneficial to product units in batches
+    - inventory / types / buffer ::@:: buffers between activities in a process to enhance activity independence and robustness
+    - inventory / types / safety ::@:: to hedge _unpredictable_ demand variations; tradeoff is ordering too few \(to meet unpredictable demand\) vs. too many \(and incur high holding costs\)
+- field inventory management
+  - field inventory management / models ::@:: economic order quantity \(EOQ\) model, fixed-time period model \(optional\), newsvendor model
+    - field inventory management / models / economic order quantity ::@:: used for deterministic demand and long lifecycle products \(holdable for a long time without depreciation\)
+    - field inventory management / models / newsvendor ::@:: used for uncertain demand and short lifecycle products \(becomes valueless after a short time\)
+    - field inventory management / models / fixed-time period ::@:: \(this course: optional\) usually used for ordering a group of items together
+- [economic order quantity](../../../../general/economic%20order%20quantity.md) \(EOQ\) ::@:: It is the order quantity that minimizes the total holding costs and ordering costs in inventory management. It is one of the oldest classical production scheduling models.
+  - economic order quantity / outputs ::@:: order frequency, order quantity
+  - economic order quantity / assumptions ::@:: constant demand rate, constant delivery lead time \(after ordering\), constant holding cost, constant ordering cost
+  - economic order quantity / graph ::@:: Under the assumptions of EOQ, the graph of inventory \(y-axis\) against time \(x-axis\) has a sawtooth pattern. <p> A sawtooth pattern starts with a vertical line ascending from zero to a fixed positive number, then linearly declines to zero. Then the pattern repeats.
+    - economic order quantity / graph / interpretation ::@:: In a sawtooth, several things can be identified: <p> D: _Demand_ is the absolute slope of the declining portion of the sawtooth. <br/> L: _Delivery lead time_ is how long you need to wait after order to get the inventory. <br/> Q: _Order quantity_ is the height of the sawtooth. The vertical ascending portion of the sawtooth is when the shipment arrives.
+  - economic order quantity / variables ::@:: D: _Demand_ is the demand quantity per time. <br/> L: _Delivery lead time_ is how long you need to wait after order to get the inventory. <br/> Q: _Order quantity_ is how many to order each time.
+    - economic order quantity / variables / derived ::@:: average inventory: $Q / 2$. This is due to the sawtooth pattern. <br/> frequency of order/shipment: $D / Q$. <br/> reorder point: $D \times L$. The inventory level that indicates you need to order. <br/> time between order/shipment: $Q / D$.
+  - economic order quantity / tradeoff ::@:: Ordering more at a time \(higher order quantity\) increases holding cost due to increased average inventory, but decreases ordering cost due to decreased order frequency. <p> The delivery lead time has no effect on the total cost.
+  - economic order quantity / cost ::@:: S = order/setup cost, H = marginal holding cost per unit per time <br/> holding cost = H × Q / 2 <br/> ordering cost = S × D / Q <br/> total cost = H × Q / 2 + S × D / Q <p> As expected, increasing Q increases one term while decreases the other.
+    - economic order quantity / cost / graph ::@:: In a graph of cost per time \(y-axis\) against order quantity \(x-axis\): The holding cost curve increases linearly from the origin. The order/setup cost curve decreases quickly at first, then decreases increasingly slowly. The total cost curve is U-shaped, and has a _minimum_. Its corresponding order quantity is the _optimal order quantity_. <p> Note that for EOQ, where the holding cost curve and order/setup cost curve _intersects_ is the optimal order quantity.
+  - economic order quantity / optimal solution ::@:: The optimal order quantity is: $$Q^* = \sqrt {\frac {2 \times \text{demand rate} \times \text{order or setup cost} } {\text{holding cost} } } \,.$$
+    - economic order quantity / optimal solution / derivation ::@:: $$\begin{aligned} C & = HQ / 2 + SD / Q \\ C' & = H / 2 - SD / Q^2 \\ 0 & = H / 2 - SD / Q^2 \\ Q & = \sqrt{\frac {2SD} H} \end{aligned}$$
+    - economic order quantity / optimal solution / cost ::@:: The optimal total cost _per time_ is: $$T^* = \sqrt{2 \times \text{demand rate} \times \text{order or setup cost} \times \text{holding cost} } \,.$$ Also, the optimal order cost and optimal holding cost are equal \(divide the above expression by 2\): $$\sqrt{\frac {\text{demand rate} \times \text{order or setup cost} \times \text{holding cost} } 2} \,.$$
+      - economic order quantity / optimal solution / cost / derivation ::@:: $$\begin{aligned} T^* & = HQ^* / 2 + SD / Q^* \\ & = \frac H 2 \sqrt{\frac {2SD} H} + SD \sqrt{\frac H {2SD} } \\ & = \sqrt{SDH / 2} + \sqrt{SDH / 2} \\ & = \sqrt{2SDH} \,. \end{aligned}$$
+    - economic order quantity / optimal solution / cost per unit ::@:: The optimal cost _per unit_ is: $$\frac {T^*} D = \sqrt{\frac {2 \times \text{order or setup cost} \times \text{holding cost} } {\text{demand rate} } } \,.$$ As demand rate increases, cost per unit decreases \(_economics of scale_\).
+    - economic order quantity / optimal solution / inventory turnover ::@:: The optimal inventory turnover _per time_ is: $$\frac D {Q^* / 2} = D \sqrt {\frac {2H} {DS} } = \sqrt{\frac {2 \times \text{demand rate} \times \text{holding cost} } {\text{order or setup cost} } } \,.$$ The intuition is that if holding cost is high or ordering cost is low, we should turn the inventory more frequently.
+  - economic order quantity / unit cost ::@:: The above model assumes purchasing a unit is free. This is obviously not the case in the real world. <p> The total cost is the same, with the _purchasing cost_ added. The _purchasing cost_ equals $D \times C$, where $C$ is the unit cost.
+    - economic order quantity / unit cost / optimal solution ::@:: Since the purchasing cost does not depend on the order quantity, the _optimal order quantity_ is unchanged. <p> The _optimal costs_ are increased by taking the purchasing cost into account.
+  - economic order quantity / lead time ::@:: The delivery lead time _does not_ affect the optimal order frequency or the optimal order quantity. It only affects when to order.
+    - economic order quantity / lead time / reorder point ::@:: It is the inventory level that indicates that we should place a new order, calculated as: $$\text{ROP} = \text{demand rate} \times \text{lead time} \,.$$ <p> \(this course: We _always_ assume the reorder point is strictly less than the order quantity. Though you could try to interpret what happens if the reorder point exceeds the order quantity...\)
+
+## week 9 lecture 2
+
+- datetime: 2025-04-02T10:30:00+08:00/2025-04-02T11:50:00+08:00, PT1H20M
+- status: unscheduled, midterm break
 
 ## final examination
 

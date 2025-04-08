@@ -310,7 +310,7 @@ The content is in teaching order.
 > I'd advised you in the classes last week, the classes today have been cancelled for your revisions.  This serves as a reminder.  Thank you.
 >
 > Warm regards, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## midterm examination
 
@@ -360,7 +360,7 @@ The content is in teaching order.
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2026-08-03,486,396!2025-09-03,208,363-->
 - [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system. <!--SR:!2025-09-07,210,363!2026-08-22,502,403-->
   - revenue expenditure / characteristics ::@:: does not extend useful life beyond original estimate <br/> does not increase efficiency <br/> maintains normal operating conditions <br/> recurring in nature and involves small amounts of money at each occurrence <!--SR:!2025-10-24,232,363!2025-09-04,208,363-->
-  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Accumulated deprecation is lower later. <!--SR:!2025-04-14,102,383!2026-02-18,346,383-->
+  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Deprecation expense is lower later. <!--SR:!2025-04-14,102,383!2026-02-18,346,383-->
 - capital expenditure vs. operating expenditure ::@:: Since they have different effects, many companies have policies regarding the expensing of all expenditures below a certain amount according to the _materiality constraint_. <!--SR:!2025-04-11,99,383!2025-11-03,259,376-->
 - [depreciation](../../../../general/depreciation.md) ::@:: As fixed assets are used to earn revenue, they become "used". According to the matching principle, an expense should be recorded. <p> To do so, expense "Depreciation" is debited while contra-asset "Accumulated depreciation" is credited. <!--SR:!2026-08-01,484,396!2026-03-29,376,383-->
   - depreciation / required information ::@:: acquisition cost, estimated useful life, estimated residual value (at the end of useful life) <!--SR:!2025-04-10,98,376!2026-03-09,361,383-->
@@ -510,7 +510,7 @@ The content is in teaching order.
 > The above arrangements are arranged to address the safety concerns of the individuals involved, as well as the acute traffic and/or road conditions that happened in their neighborhoods.
 >
 > Warm regards, <br/>
-> \(redacted\)
+> \[redacted\]
 
 ## week 12 lecture 1
 
@@ -623,4 +623,4 @@ The content is in teaching order.
 > 7. Bring your own push-button handheld calculators.  Models that are approved by public examination authorities would be allowable.  But, no other electronic devices are allowed to be used in the examination.
 >
 > Warm regards, <br/>
-> \(redacted\)
+> \[redacted\]

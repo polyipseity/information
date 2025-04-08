@@ -43,6 +43,7 @@ The content is in teaching order.
 
 - [MARS](MARS.md)
 - [MIPS](MIPS.md)
+- [assignments](assignments/index.md)
 <!-- - [questions](questions.md) -->
 
 ## week 1 lecture
@@ -214,7 +215,15 @@ The content is in teaching order.
   - flip-flop / SR NOR latch ::@:: An unclocked/asynchronous memory element. Its 2 inputs are S (set) and R (reset). Its 2 outputs are Q (stored output) and its complement. It consists of two parallel NOR gates where the output of each NOR is also fanned out into one input of the other NOR. <!--SR:!2025-06-20,94,367!2025-05-10,59,347-->
     - flip-flop / SR NOR latch / symbol, figure ::@:: symbol: ![SR NOR latch symbol](../../../../archives/Wikimedia%20Commons/SR%20(NAND)%20Flip-flop.svg) <br/> figure: ![SR NOR latch figure](../../../../archives/Wikimedia%20Commons/R-S%20mk2.gif) <!--SR:!2025-05-17,66,347!2025-05-21,65,347-->
     - flip-flop / SR NOR latch / operations ::@:: hold/_quiescent_/latch state: If S and R are both 0, Q and its complement keep their previous outputs. <br/> set: If S is 1 and R is 0, Q becomes 1 and its complement becomes 0. <br/> unset: If S is 0 and R is 1, Q becomes 0 and its complement becomes 1. <br/> _forbidden/race condition_: S and R are not allowed to be both 1, as both outputs are now 0. Then, if S and R both goes to 0 _simultaneously_ afterwards, the outputs are metastable and may eventually lock at either 1 or 0 depending on the propagation time relations between the gates. <!--SR:!2025-04-09,34,327!2025-06-19,93,367-->
-      - flip-flop / SR NOT latch / operations / note ::@:: __Important__: In this course, whenever you have something resembling a latch \(i.e. a circuit that has a latch state\) and you put it into an invalid state, we consider it a _race condition_. This is regardless even if you hold both inputs forever, in which both outputs \(or the one output if the complement is not outputted\) will remain 0 forever and no "racing" occurs. <p> This is because we consider if, whenever there is more than one path to go from the current state to the latch state \(note the inputs may not be all 0s in latch state\), whether the final outputs are always the same. If not, it is a race condition. <!--SR:!2025-04-15,11,351!2025-08-14,128,391-->
+- [race condition](../../../../general/race%20condition.md) ::@:: It is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events, leading to unexpected or inconsistent results. It becomes a bug when one or more of the possible behaviors is undesirable.
+  - race condition / in electronics ::@:: A typical example of a race condition may occur when a logic gate combines signals that have traveled along different paths from the same source. The inputs to the gate can change at slightly different times in response to a change in the source signal. The output may, for a brief period, change to an unwanted state before settling back to the designed state.
+  - race condition / note ::@:: \(this course: __Important__. It seems like the actual rules for deciding if a state is _forbidden_ is very complicated. It seems like there are three ways this can arise: adjacent 1s or 0s not covered by a contagious grouping, undefined states of SR latch, and shortest paths to latch states passing through undefined states. See the Karnaugh map race hazards example below.\)
+- Karnaugh map
+  - Karnaugh map / race hazards ::@:: Karnaugh maps are useful for detecting and eliminating race conditions. Race hazards are very easy to spot using a Karnaugh map, because a race condition _may_ exist when moving between any pair of adjacent, but disjoint, regions circumscribed on the map. <p> Whether glitches will actually occur depends on the physical nature of the implementation, and whether we need to worry about it depends on the application. In clocked logic, it is enough that the logic settles on the desired value in time to meet the timing deadline. In our example, we are not considering clocked logic.
+    - Karnaugh map / race hazards / SR latch ::@:: Consider the circuit $$\begin{aligned} Q & = \overline{R + \overline{S + Q} } = \overline R (S + Q) = \overline R S + \overline R Q \\ \overline Q & = \overline{S + \overline{R + \overline Q} } = \overline S (R + \overline Q) = R \overline S + \overline S \, \overline Q \,. \end{aligned}$$ <p> Its K-maps are: <p> ![SR latch K-map Q](attachments/SR%20latch%20K-map%20Q.png) <br/> ![SR latch K-map not Q](attachments/SR%20latch%20K-map%20not%20Q.png) <p> The _latch_ states are also grouped. Take note of the two labeled transitions, each transition making its two states "adjacent". Whine can see movement between any adjacent pair of 1s or 0s is covered by a continuous region, there are 2 undefined states. These are also _race hazards_ \(but of a _different kind_ from that described above\).
+    - Karnaugh map / race hazards / gated D latch ::@:: \(midterm examination\) Consider the circuit $$Q = DE + DQ + \overline E Q \,.$$ The $\overline Q$ is naturally defined as the inverse of above, so we do not need to care about the 0s. <p> Its K-map is: <p> ![gated D latch K-map](attachments/gated%20D%20latch%20K-map.png) <p> The _latch_ states are also grouped. Take note of the two _transitions_, each transition making its two states "adjacent". One can see there are no _possible_ race conditions, since movement between any adjacent pair of 1s is covered by a continuous region.
+    - Karnaugh map / race hazards / complex example ::@:: \(homework 1\) Consider the circuit: <p> ![homework 1 circuit](attachments/homework%201%20circuit.png) <p> which can be written as $$\begin{aligned} Q & = \overline R S + \overline R Q \\ \overline Q & = R \overline S + \overline S \, \overline Q \,, \end{aligned}$$ where \(only eliminate subgroupings in the K-map\) $$\begin{aligned} R & = D = A \oplus \overline{BC} = ABC + \overline A \, \overline{BC} = ABC + \overline A \, \overline B + \overline A \, \overline C \\ \overline R & = (\overline A + \overline B + \overline C) (A + B) (A + C) = \overline A B C + A \overline B + A \overline C \\ S & = E = \overline{BC} \oplus C = \overline{BC} \, \overline C + BC = \overline C + BC \\ \overline S & = C (\overline B + \overline C) = \overline B C \,. \end{aligned}$$ Then, \(only eliminate subgroupings in the K-map\) $$\begin{aligned} Q & = A \overline C + \overline A BC + \overline A BCQ + A \overline B Q + A \overline C Q = A \overline C + \overline A B C + A \overline B Q \\ \overline Q & = \overline A \, \overline B C+ \overline B C \overline Q \,. \end{aligned}$$ <p> Its K-maps are: <p> ![homework 1 circuit K-map Q](attachments/homework%201%20circuit%20K-map%20Q.png) <br/> ![homework 1 circuit K-map not Q](attachments/homework%201%20circuit%20K-map%20not%20Q.png) <p> The _latch_ states are also grouped. Take note of the two labeled transitions, each transition making its two states "adjacent". While one can see movement between any adjacent pair of 1s or 0s is covered by a continuous region, there are 6 undefined states. These are also _race hazards_ \(but of a _different kind_ from that described above\). Also, the 4 defined cells _not directly adjacent_ to the latch states are also _race hazards_ \(and of a _different kind_ from the above two kinds...\), since there exists _shortest paths_ to the latch state passing through undefined states.
+- flip-flop
   - flip-flop / SR NAND latch ::@:: It is also possible to use NAND instead of NOR to make a SR latch. But it is more rare because the inputs' meaning are negated, i.e. the hold state requires both inputs to be 1. <!--SR:!2025-06-17,91,367!2025-06-18,92,367-->
   - flip-flop / SR AND-OR latch ::@:: It may be easier from a teaching point of view. See the figure and try to figure its mechanism yourself: ![SR AND-OR latch](../../../../archives/Wikimedia%20Commons/RS-and-or-flip-flop.png) <!--SR:!2025-06-12,87,367!2025-05-17,66,347-->
   - flip-flop / gated latches ::@:: Latches are designed to be _transparent_. That is, input signal changes cause immediate changes in output. Additional logic can be added to a transparent latch to make it _non-transparent_ or _opaque_ when another input (an "enable" input) is not asserted. <!--SR:!2025-06-11,86,367!2025-06-08,84,367-->
@@ -280,7 +289,7 @@ The content is in teaching order.
     - computer number format / unsigned integer / max ::@:: It has all bits set to 1. <!--SR:!2025-07-01,98,386!2025-06-29,97,386-->
     - computer number format / unsigned integer / min ::@:: It has all bits set to 0. <!--SR:!2025-07-04,101,386!2025-07-05,102,386-->
 - [two's complement](../../../../general/two's%20complement.md) ::@:: It is the most common method of representing signed (positive, negative, and zero) integers on computers, and more generally, fixed point binary values. <p> We can do natural arithmetic on it without using special rules. <!--SR:!2025-06-30,97,386!2025-06-25,93,386-->
-  - two's complement / sign bit ::@:: The most significant bit (MSB) is \(_this_\). If 0, then positive. If 1, then negative. <!--SR:!2025-06-09,76,366!2025-07-06,103,386-->
+  - two's complement / sign bit ::@:: The most significant bit (MSB) is \(_this_\). If 0, then nonnegative \(_not_ just positive\). If 1, then negative. <!--SR:!2025-06-09,76,366!2025-07-06,103,386-->
   - two's complement / nonnegative integers ::@:: Same as that for unsigned integers. Beware of the range though... in particular, the _sign bit_ is always 0. (Or you can use the _sign bit_ anyway; but when it is 1, the result after the whole procedure overflows and becomes a negative integer.) <!--SR:!2025-07-04,101,386!2025-06-30,97,386-->
   - two's complement / negative integers ::@:: Start with the absolute binary representation of the number, with the leading bit being a sign bit. (If the _sign bit_ is 1, the result after the whole procedure overflows (less accurately "underflows") and becomes a positive integer.) Then invert (or flip) all bits – changing every 0 to 1, and every 1 to 0. Finally, add 1 to the entire inverted number, ignoring any overflow. Accounting for overflow will produce the wrong value for the result. <!--SR:!2025-06-02,74,366!2025-05-07,49,346-->
   - two's complement / range ::@:: _n_ bits: \[−2<sup>_n_<!-- markdown separator -->−1</sup>, 2<sup>_n_<!-- markdown separator -->−1</sup>−1\] <!--SR:!2025-06-25,93,386!2025-06-29,97,386-->
@@ -315,7 +324,7 @@ The content is in teaching order.
   - single-precision floating-point format
 - [double-precision floating-point format](../../../../genral/double-precision%20floating-point%20format.md) (`double`) ::@:: 64-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 11 exponent bits, and 52 significand bits (precision is 53 bits). <!--SR:!2025-08-11,125,391!2025-08-09,123,391-->
   - double-precision floating-point format / precision ::@:: about 16 significant _decimal_ digits (15 to 17) <!--SR:!2025-08-15,129,391!2025-08-15,129,391-->
-  - double-precision floating-point format / exponent range ::@:: 2<sup>−1026</sup> ≈ 10<sup>−308</sup> to 2<sup>+1027</sup> ≈ 10<sup>+308</sup> <!--SR:!2025-04-20,12,351!2025-04-15,11,351-->
+  - double-precision floating-point format / exponent range ::@:: 2<sup>−1022</sup> ≈ 10<sup>−308</sup> to 2<sup>+1023</sup> ≈ 10<sup>+308</sup> <!--SR:!2025-04-20,12,351!2025-04-15,11,351-->
     - double-precision floating-point format / exponent range / mnemonic ::@:: Compare the exponents with that of single-precision... notice that "0" is inserted as the 2nd digit. Hmm... <!--SR:!2025-08-05,119,391!2025-07-29,116,391-->
 - [IEEE 754](../../../../general/IEEE%20754.md) ::@:: a technical standard for floating-point arithmetic originally established in 1985 by the Institute of Electrical and Electronics Engineers \(IEEE\) <!--SR:!2025-08-13,127,391!2025-07-29,116,391-->
   - IEEE 754 / history (brief) ::@:: It was developed in response to divergence of representations, which can cause portability issues for scientific code. Now it is almost universally adopted. <!--SR:!2025-08-10,124,391!2025-08-08,122,391-->
@@ -508,7 +517,7 @@ The content is in teaching order.
   - MARS / usage
   - MARS / windows :;@:: console I/O window, data segment window, register window, messages window, text segment window
     - MARS / windows / console I/O window
-    - MARS / windows / data segment window ::@:: It shows the data segment in the memory, which stores your data \(`.data`\). By default, it starts from 0x1001&nbsp;0000, goes upward in address. Static data is stored first, and then dynamic data. When more space is needed for dynamic data, it grows upwards in address. <!--SR:!2025-04-14,24,388!2025-04-14,24,388-->
+    - MARS / windows / data segment window ::@:: It shows the data segment in the memory, which stores your data \(`.data`\). By default, it starts from 0x1001&nbsp;000 \(global pointer `$gp`\), goes upward in address. Static data is stored first, and then dynamic data. When more space is needed for dynamic data, it grows upwards in address. <!--SR:!2025-04-14,24,388!2025-04-14,24,388-->
     - MARS / windows / register window
     - MARS / windows / messages window
     - MARS / windows / text segment window ::@:: It shows the text segment in the memory, which stores your program \(`.text`\). By default, it starts from 0x0040&nbsp;0000, and goes upward in address. <!--SR:!2025-04-14,24,388!2025-04-14,24,388-->
@@ -543,9 +552,253 @@ The content is in teaching order.
 - [stored-program computer](../../../../general/stored-program%20computer.md) ::@:: It is a computer that stores program instructions in electronically, electromagnetically, or optically accessible memory. This contrasts with systems that stored the program instructions with plugboards or similar mechanisms. <p> The definition is often extended with the requirement that the treatment of programs and data in memory be interchangeable or uniform. <!--SR:!2025-04-14,24,388!2025-04-14,24,388-->
   - stored-program computer / examples ::@:: Instructions and data are both represented by binary. They can be both stored in memory. Programs can operate on programs. Binary compatibility \(e.g. ISA\) allows programs to work on different computers. <!--SR:!2025-04-14,24,388!2025-04-14,24,388-->
 
-## assignments
+## week 7 lecture
+
+- datetime: 2025-03-17T13:30:00+08:00/2025-03-17T14:50:00+08:00
+- topic: procedure, nested procedures with stack
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures)
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ jump instructions](MIPS.md#jump%20instructions): `jal`, `jr`
+    - [§ program counter](MIPS.md#program%20counter)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention)
+    - [§ memory layout](MIPS.md#memory%20layout)
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `push`, `pop`
+- ASCII
+  - ASCII / full name
+  - ASCII / common characters ::@:: space: 0x20 \(32\)
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ data instructions](MIPS.md#data%20instructions): `lb`, `sb`, `lbu`
+
+## week 7 lab
+
+- datetime: 2025-03-18T15:00:00+08:00/2025-03-18T15:50:00+08:00
+- topic: MIPS programming
+- MARS
+  - [MARS](MARS.md)
+  - MARS / exercises ::@:: number guessing game \(and enhancing it\), number multiplier, etc.
+
+## week 7 tutorial
+
+- datetime: 2025-03-18T18:00:00+08:00/2025-03-18T18:50:00+08:00
+- topic: introduction to MIPS assembly
+- instruction set architecture
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention)
+    - [§ assembly directives](MIPS.md#assembly%20directives): `.space`
+    - [§ instructions](MIPS.md#instructions)
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `addi`, `add`, `sub`
+    - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `sll`, `and`, `nor`, `xor`, `srl`, `sra`
+    - [§ entry point](MIPS.md#entry%20point)
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `not`, `abs`, `blt`, `bgt`, `ble`, `bge`, `neg`, `not`, `li`, `la`, `move`, `sge`, `sgt`
+    - [§ data instructions](MIPS.md#data%20instructions): `lb`, `lw`, `sw`
+    - [§ memory layout](MIPS.md#memory%20layout)
+
+## week 7 lecture 2
+
+- datetime: 2025-03-21T09:00:00+08:00/2025-03-21T10:20:00+08:00
+- topic: 32-bit immediate, addressing mode, jump range, CISC/RISC
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ data instructions](MIPS.md#data%20instructions): `lui`
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `move`, `blt`, `ble`, `bgt`, `bge`
+    - [§ addressing modes](MIPS.md#addressing%20modes)
+    - [§ jump instructions](MIPS.md#jump%20instructions): `j`, `jr`
+- reduced instruction set computer
+  - reduced instruction set computer / antonym ::@:: complex instruction set computer \(CISC\) <p> fun fact: CISC was retroactively coined in contrast to RISC.
+  - reduced instruction set computer / characteristics ::@:: Since each instruction \(at least tries to\) do one thing, more instructions are needed in a program. However, executing each instruction is usually faster. Hardware design is simple.
+    - reduced instruction set computer / characteristics / motivation ::@:: After quantitative measurement, the most useful instructions and addressing modes are chosen.
+    - reduced instruction set computer / characteristics / hardware ::@:: Machine code is usually directly executed on the hardware.
+    - reduced instruction set computer / characteristics / memory ::@:: Due to simple hardware, more registers and bigger CPU caches can be equipped.
+    - reduced instruction set computer / characteristics / use ::@:: Assembly language is harder to write. Compilers are harder to write as well.
+- [complex instruction set computer](../../../../general/complex%20instruction%20set%20computer.md) \(CISC\) ::@:: It is a computer architecture in which single instructions can execute several low-level operations (such as a load from memory, an arithmetic operation, and a memory store) or are capable of multi-step operations or addressing modes within single instructions.
+  - complex instruction set computer / characteristics ::@:: Since each instruction may do many things, less instructions are needed in a program. However, executing each instruction is usually slower. Hardware design is complex.
+    - complex instruction set computer / characteristics / motivation ::@:: Instructions and addressing modes are chosen to make translation of high-level programming language to assembly easier.
+    - complex instruction set computer / characteristics / hardware ::@:: Machine code is usually executed in microcode, which sits in between the hardware and the machine code.
+    - complex instruction set computer / characteristics / memory ::@:: Due to complex hardware, less registers and smaller CPU caches can be equipped.
+    - complex instruction set computer / characteristics / use ::@:: Assembly language is easier to write. Compilers are easier to write as well.
+
+## week 8 lecture
+
+- datetime: 2025-03-24T13:30:00+08:00/2025-03-24T14:50:00+08:00, PT1H20M
+- topic: MIPS recursion, computer arithmetic, addition, subtraction, overflow
+- two's complement
+  - two's complement / addition
+  - two's complement / subtraction
+- [method of complements](../../../../general/method%20of%20complements.md) ::@:: It is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm (or mechanism) for addition throughout the whole range.
+  - method of complements / binary method ::@:: The method of complements is especially useful in binary \(radix 2\) since the ones' complement is very easily obtained by inverting each bit \(changing '0' to '1' and vice versa\). Adding 1 to get the two's complement can be done by simulating a carry into the least significant bit.
+- two's complement
+  - two's complement / addition
+    - two's complement / addition / overflow ::@:: The last two bits of the carry row \(reading right-to-left\) contain vital information: whether the calculation resulted in an arithmetic overflow, a number too large for the binary system to represent. An overflow condition exists when these last two bits are different from one another.
+      - two's complement / addition / overflow / alternative ::@:: When two numbers have the same sign, but the resulting number has a different sign from the first number, then overflow occurs.
+  - two's complement / subtraction
+    - two's complement / subtraction / overflow ::@:: Overflow is detected the same way as for addition, by examining the two leftmost (most significant) bits of the borrows; overflow has occurred if they are different.
+      - two's complement / addition / overflow / alternative ::@:: When two numbers have different signs, but the resulting number has a different sign from the first number, then overflow occurs.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ instructions](MIPS.md#data%20instructions): two's complement is used to represent signed integers
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `addu`, `subu`, `addiu`
+    - [§ comparison instructions](MIPS.md#comparison%20instructions): `sltu`, `sltui`
+    - [§ data instructions](MIPS.md#data%20instructions): `lhu`, `lbu`
+    - [§ interrupt](MIPS.md#interrupt)
+- [interrupt](../../../../general/interrupt.md) ::@:: It is a request for the processor to interrupt currently executing code \(when permitted\), so that the event can be processed in a timely manner.
+- sign extension
+  - sign extension / zero extension
 
 ## midterm examination
+
+- datetime: 2025-03-24T19:30:00+08:00/2025-03-24T21:00:00+08:00, PT1H30M
+  - actual: 2025-03-24T19:30:00+08:00/2025-03-24T21:10:00+08:00, PT1H40M
+- venue: Lecture Theater A; Lecture Theater B
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: multiple choice questions ×8, long questions ×5
+- grades: 91/100 → 96/100
+  - statistics
+    - timestamps: 2025-03-27T15:17+08:00 → 2025-03-29+08:00
+    - mean: ? \(provided: 71.56\) → 70.54
+    - standard deviation: ? \(provided: 16.41) → ?
+    - low: 0 → 0
+    - lower quartile: 60 → 60
+    - median: 73 \(provided: 73\) → 73
+    - upper quartile: 84 → 84
+    - high: 97 → 100
+    - distribution: ![midterm examination distribution](attachments/distribution.png) → ?
+- report
+  - race hazards \(–4\) ::@:: It seems like the rules for deciding if a state is _forbidden_ is more complex than expected. See above.
+  - time limit ::@:: Plenty of time left. In fact, the instructor added an extra 10 minutes...
+- check
+  - datetime: 2025-03-28T19:00:00+08:00 → 2025-03-28T20:30:00+08:00
+  - venue: Lecture Theater C
+  - report
+    - MIPS programming \(+5\) ::@:: I think the TA gave up looking at the very messy organization of the code...
+
+## week 8 lab
+
+- datetime: 2025-03-25T15:00:00+08:00/2025-03-25T15:50:00+08:00, PT50M
+- topic: MIPS procedures
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures)
+    - [§ memory layout](MIPS.md#memory%20layout): stack
+    - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `push`, `pop`
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): passing more than 4 arguments
+
+## week 8 tutorial
+
+- datetime: 2025-03-25T18:00:00+08:00/2025-03-25T18:50:00+08:00, PT50M
+- topic: MIPS branches, jump instructions
+- MARS
+  - [MARS](MARS.md)
+    - [§ system calls](MARS.md#system%20calls)
+    - MARS / generate random numbers ::@:: Usually in C, we use the current system timestamp as the RNG seed. Then we generate random numbers, limiting its range using the modulo operator. <p> We can do the same in MARS using syscalls.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ jump instructions](MIPS.md#jump%20instructions): `beq`, `bne`, `j`
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `addu`, `subu`, `addiu`
+    - [§ comparison instructions](MIPS.md#comparison%20instructions): `slt`, `slti`
+    - [§ control flow](MIPS.md#control%20flow)
+
+## week 8 lecture 2
+
+- datetime: 2025-03-28T09:00:00+08:00/2025-03-28T10:20:00+08:00, PT1H20M
+- topic: arithmetic logic unit \(ALU\)
+- [arithmetic logic unit](../../../../general/arithmetic%20logic%20unit.md) \(ALU\) ::@:: It is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
+  - arithmetic logic unit / processor ::@:: It is an important part of a processor, with the other parts being cache, control unit, and registers.
+  - arithmetic logic unit / bitwidth ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together.
+  - arithmetic logic unit / functions ::@:: arithmetic, bit shift, bitwise logical, other \(passthrough\)
+    - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output.
+- [adder](../../../../general/adder%20(electronics).md) ::@:: It is a digital circuit that performs addition of numbers.
+  - adder / half adder ::@:: It adds two single binary digits $A$ and $B$. It has two outputs, sum \($S$\) and carry \($C$\). The carry signal represents an [overflow](../../../../general/integer%20overflow.md) into the next digit of a multi-digit addition. The value of the sum is $2C+S$.
+    - add / half adder / implementation ::@:: The simplest half-adder design, pictured on the right, incorporates an [XOR gate](../../../../general/XOR%20gate.md) for $S$ and an [AND gate](../../../../general/AND%20gate.md) for $C$. The Boolean logic for the sum \(in this case $S$\) will be $A\oplus B$ whereas for the carry \($C$\) will be $A\cdot B$. With the addition of an [OR gate](../../../../general/OR%20gate.md) to combine their carry outputs, two half adders can be combined to make a full adder.
+    - add / half adder / schematic ::@:: [Schematic](../../../../general/schematic.md) of half adder implemented with one [XOR gate](../../../../general/XOR%20gate.md) and one [AND gate](../../../../general/AND%20gate.md): <p> ![Schematic of half adder implemented with one XOR gate and one AND gate.](../../../../archives/Wikimedia%20Commons/Half%20Adder.svg)
+  - adder / full adder ::@:: It adds binary numbers and accounts for values carried in as well as out. A one-bit full-adder adds three one-bit numbers, often written as $A$, $B$, and $C_{in}$; $A$ and $B$ are the operands, and $C_{in}$ is a bit carried in from the previous less-significant stage. The circuit produces a two-bit output.
+    - adder / full adder / implementation ::@:: A full adder can be implemented in many different ways such as with a custom [transistor](../../../../general/transistor.md)-level circuit or composed of other gates. The most common implementation is with: $$\begin{aligned} S & = A\oplus B\oplus C_{in} \\ C_{out} & = (A\cdot B)+(C_{in}\cdot (A\oplus B)) \end{aligned}$$ The above expressions for $S$ and $C_{in}$ can be derived from using a [Karnaugh map](../../../../general/Karnaugh%20map.md) to simplify the truth table.
+    - adder / full adder / schematic ::@:: [Schematic](../../../../general/schematic.md) of full adder implemented with two [XOR gates](../../../../general/XOR%20gate.md), two [AND gates](../../../../general/AND%20gate.md), one [OR gate](../../../../general/OR%20gate.md): <p> ![Schematic of full adder implemented with two XOR gates, two AND gates, one OR gate.](../../../../archives/Wikimedia%20Commons/Full-adder%20logic%20diagram.svg)
+  - adder / ripple-carry adder ::@:: It is possible to create a logical circuit using multiple full adders to add _N_-bit numbers. Each full adder inputs a $C_{in}$, which is the $C_{out}$ of the previous adder. This kind of adder is called a __ripple-carry adder__ \(RCA\), since each carry bit "ripples" to the next full adder. The first \(and only the first\) full adder may be replaced by a half adder \(under the assumption that $C_{in}=0$\).
+    - adder / ripple-carry adder / characteristics ::@:: The layout of a ripple-carry adder is simple, which allows fast design time; however, the ripple-carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder.
+- method of complements
+- arithmetic logic unit
+  - arithemtic logic unit / signals ::@:: data, opcode, status \(outputs, inputs)
+    - arithmetic logic unit / signals / data ::@:: 2 inputs, 1 output; their bit widths are usually the same, and same as the native ISA
+    - arithmetic logic unit / signals / opcode ::@:: It conveys to the ALU an operation selection code, which is an enumerated value that specifies the desired arithmetic or logic operation to be performed by the ALU. <p> Passing it to a multiplexor/selector can be used to choose the right output.
+    - arithmetic logic unit / signals / status outputs ::@:: carry-out, zero, negative, overflow, parity, etc.
+    - arithmetic logic unit / signals / status inputs ::@:: carry-in, etc.
+  - arithmetic logic unit / functions
+    - arithmetic logic unit / functions / bitwise operations ::@:: Use the corresponding logic gates.
+    - arithmetic logic unit / functions / addition ::@:: Use full-adders. Two common ways to add multiple-bit numbers are _ripple carry_ and _carry lookahead_.
+    - arithmetic logic unit / functions / subtraction ::@:: Assuming signed integers are represented using two's complement. <p> The circuit for addition can be reused. However, the second operand \(the _subtrahend_\) needs to be inverted and then added one to get its complement. One way to implement this is to invert the second operand \(by setting an additional input _binvert_ to 1\), and additionally set the carry-in of the LSB full-adder to 1. We could combine these two inputs \(_binvert_ + carry-in of LSB\) as an input _bnegate_.
+    - arithmetic logic unit / functions / comparison ::@:: To check if `$s < $t`, we can use `slt $d, $s, $t`. This is equivalent to checking `$s - $t < 0`, i.e. checking if the sign bit \(assuming no oveflow\) of `$s - $t` equals 1. <p> To implement `slt`, we can add a _less_ input to all ALUs, which is passthrough as the output when the opcode is for `slt`. Then, the _less_ input is always zero except for the LSB ALU, which is connected to the _set_ output of the MSB ALU. The _set_ output is simply the subtraction MSB bit. \(this course: The lecture slides do not handle overflows. To handle overflows, detect if a subtraction overflow is possible, i.e. the two operand sign bits are different, and if so, the _set_ output uses the sign bit of the second operand.\) <p> Remember to also set the carry-in bit of the LSB to perform subtraction properly.
+    - arithmetic logic unit / functions / equal ::@:: To check if `$s = $t` \(e.g. `beq`\), this is equivalent to checking `$s - $t == 0`. <p> To implement this, it is similar to subtraction, but you additionally add a NOR gate acting on all the output bits. This produces a _zero_ status output, which indicates if the subtraction result is zero. Also in this case, you do not need to worry about oveflow affecting the result.
+  - arithmetic logic unit / diagram ::@:: An arithmetic logic unit and its associated status register. The stored carry-out is connected to carry-in to facilitate efficient carry propagation: <p> ![An arithmetic logic unit and its associated status register.](../../../../archives/Wikimedia%20Commons/AluStatusRegister.svg)
+  - arithmetic logic unit / note ::@:: \(this course: Our 32-bit ALU has an AND gate \(00\), a OR gate \(01\), a full adder \(10\), and _less_ passthrough \(11\). Additionally, it has a _bnegate_ input as the 3rd control signal. Thus we support 5 operations: 000: AND; 001: OR; 010: ADD; 110: SUB; 111: SLT.\)
+- adder
+  - adder / carry-lookahead adder ::@:: Two signals \($P$ and $G$\) are introduced for each bit position, based on whether a carry is propagated through from a less significant bit position \(at least one input is a 1\), generated in that bit position \(both inputs are 1\), or killed in that bit position \(both inputs are 0\). In most cases, $P$ is simply the sum output of a half adder and $G$ is the carry output of the same adder. After $P$ and $G$ are generated, the carries for every bit position are created. <p> Note: $P = A + B$ \(described in the first sentence\) or $P = A \oplus B$ \(the output of a half-adder\) are both acceptable, since if $A = B = 1$, the next carry bit is generated, so whether the current carry bit is propagated has no effect. \(this course: use $A \oplus B$\)
+    - adder / carry-lookahead adder / carry bits ::@:: The _n_-th \(0-based\) carry bit is: $$C_n = G_{n - 1} + G_{n - 2} P_{n - 1} + \cdots + G_0 P_1 \cdots P_{n - 1} + C_0 P_0 \cdots P_{n - 1} \,,$$ where $C_0$ is the LSB carry bit. <p> The above can be intutively understood: A carry bit is generated or propagated from any of the previous/lower carry bits.
+    - adder / carry-lookahead adder / characteristics ::@:: Now we can add the two numbers and then the carry bits in parallel without rippling. <p> This is possible because electronic chips are becoming cheaper and denser.
+
+## week 9 lecture
+
+- datetime: 2025-03-31T13:30:00+08:00/2025-03-31T14:50:00+08:00, PT1H20M
+- topic: multiplication
+- [binary multiplier](../../../../general/binary%20multiplier.md) ::@:: It is an electronic circuit used in digital electronics, such as a computer, to multiply two binary numbers.
+  - binary multiplier / binary long multiplication ::@:: The method taught in school for multiplying decimal numbers is based on calculating partial products, shifting them to the left and then adding them together. <p> A binary computer does exactly the same multiplication as decimal numbers do, but with binary numbers. In binary encoding each long number is multiplied by one digit \(either 0 or 1\), and that is much easier than in decimal, as the product by 0 or 1 is just 0 or the same number. Therefore, the multiplication of two binary numbers comes down to calculating partial products \(which are 0 or the first number\), shifting them left, and then adding them together \(a binary addition, of course\).
+  - binary multiplier / bit width ::@:: Ignoring the sign bit, multiplying a _n_-bit number with a _m_-bit number yields at most a _n_&nbsp;+&nbsp;_m_-bit number.
+  - binary multiplier / binary long multiplication
+    - binary multiplier / binary long multiplication / implementation, naive ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, zero-extend the multiplicand to 2\*_n_ bits. Have another 2\*_n_-bit register to store the _product_, initialized to all 0s. <p> Perform the following steps _n_ times: Add the multiplicand to the product if the LSB of the multiplier is 1. Then shift the multiplicand left by 1 bit and the multiplier right by 1 bit.
+      - binary multiplier / binary long multiplication / implementation, naive / observations ::@:: Only half of the zero-extended multiplicand bits ever contain useful information. Also, using a 2\*_n_-bit ALU is slower than using a _n_-bit ALU. <p> We also note that later addition does not affect LSBs. This hints at a better implementation...
+    - binary multiplier / binary long multiplication / implementation ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, have another 2\*_n_-bit register to store the _product_. <p> Perform the following steps _n_ times: Add the multiplicand to the _upper half bits_ of product if the LSB of the multiplier is 1. Then shift the _product_ and the multiplier right by 1 bit.
+      - binary multiplier / binary long multiplication / implementation / observations ::@:: No multiplicand bits are wasted. We can keep using a _n_-bit ALU. <p> We also note that the product contains 1 _more_ bit of useful information and the multiplier contains 1 _less_ bit of useful information per addition. This means we can combine the product and multiplier registers into one 2\*_n_-bit register, and shift them right by 1 bit together per addition.
+    <!-- - binary multiplier / binary long multiplication / implementation, smart ::@:: For multiplying two _n_-bit numbers, the above less-naive implementation takes _n_–1 addition on the _n_ _n_-bit partial products. <p> We can instead do addition on the _n_-bit partial sums like a _binary tree_. Then, we have _n_–1 adder connected like a binary tree, and takes log<sub>2</sub>(_n_) adder time to finish. One should notice that adding two _n_-bit unsigned integers produce an integer at most _n_+1-bit. To solve this, an extra bit is taken away from one of the operand and set to 0. \(Wait, this makes no sense...?\) This extra 1 bit contributes to either the upper 16 bits or the lower 16 bits. The final adder in the tree contributes to the middle 32 bits. -->
+  - binary multiplier / signed ::@:: The simplest idea is to consider the sign explicitly. Both the multiplicand and the multiplier are forced to become positive. Multiply them to get a positive product. Finally, if the original multiplicand and multiplier signs disagr3ee, negate the product. <p> A more efficient and elegant idea is [Booth's multiplication algorithm](../../../../general/Booth's%20multiplication%20algorithm.md).
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ instructions](MIPS.md#data%20instructions): two's complement is used to represent signed integers
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `mult`, `multu`
+    - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `srl`, `sra`
+
+## week 9 lab
+
+- datetime: 2025-04-01T15:00:00+08:00/2025-04-01T15:50:00+08:00, PT50M
+- status: unscheduled, midterm break
+
+## week 9 tutorial
+
+- datetime: 2025-04-01T18:00:00+08:00/2025-04-01T18:50:00+08:00, PT50M
+- status: unscheduled, midterm break
+
+## week 9 lecture makeup
+
+- datetime: 2025-04-02T14:00:00+08:00/2025-04-02T15:30:00+08:00, PT1H30M
+- topic: multiplication, division
+- status: makeup, online, recorded
+
+> Dear student of COMP2611 L2,
+>
+> As you may know, we are going to lose quite a number of lectures in the front \(i.e. we will lose 3 classes in April and 1 class in May\). Because of this, we will have 1 less class than the other two COMP2611 sections. That will put our section in an extremely disadvantageous position when it comes to doing HW4 and preparing for the final exam.
+>
+> Therefore, I decided to hold an online makeup class this Wednesday \(2/4\) from 2:00pm to 3:30pm. This time is carefully chosen - it happens during the mid-semester break and we will do it in the afternoon (so that you don't need to wake up early). The link for the makeup class is at : \[redacted\]
+>
+> The class will be video recorded and I will send you the video link as soon as I have received it \(likely to be on this Wed or Thur\). During the makeup class, we will do a quick revision of versions 2 and 3 of the multiplication algorithm and finish the division algorithms \(i.e. slides 38-61 of \[redacted\] \).
+>
+> Moreover, I added some additional slides to the arithmetic note set to explain the multiplication and division algorithms. I am attaching this modified arithmetic note set to the email in case it would be useful. In this modified note set, I added slides 39-42 and slides 57-75.
+>
+> Hope this helps! I hope you will have plenty of rest in the break and I also hope you will have a happy and fruitful break!
+>
+> \[redacted\]
+
+## week 9 lecture 2
+
+- datetime: 2025-04-04T09:00:00+08:00/2025-04-04T10:20:00+08:00, PT1H20M
+- status: unscheduled, midterm break
 
 ## final examination
 

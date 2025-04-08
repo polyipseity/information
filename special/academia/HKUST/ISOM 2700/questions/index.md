@@ -17,6 +17,11 @@ tags:
 
 - HKUST ISOM 2700
 
+## children
+
+- [quiz 1 derivative](quiz%201%20derivative.md)
+- [quiz 2 derivative](quiz%202%20derivative.md)
+
 ## week 3 lecture 2
 
 > Q1. What year and major are you in?
@@ -28,3 +33,27 @@ tags:
 > 5. Other
 >
 > - solution: {@{1/2/3/4/5}@} <!--SR:!2025-05-20,61,310-->
+
+## week 5 lecture 2
+
+> Q1. How long does it take for you to commute to university from home \(single trip\)?
+>
+> 1. I live on campus
+> 2. less than 30 minutes
+> 3. 30 to 60 minutes
+> 4. 60 to 90 minutes
+> 5. longer than 90 minutes
+>
+> - solution: {@{1/2/3/4/5}@}
+
+## week 7 lecture
+
+> Q1. What is your estimated workload for this semester \(normalize this course to one\)?
+>
+> 1. ≤3
+> 2. 4
+> 3. 5
+> 4. 6
+> 5. \>6
+>
+> - solution: {@{1/2/3/4/5}@}

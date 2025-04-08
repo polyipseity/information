@@ -61,7 +61,7 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/)
+- [assignments](assignments/index.md)
   - [TAPPS](assignments/TAPPS/index.md)
 - [questions](questions.md)
 
@@ -88,7 +88,7 @@ The content is in teaching order.
     - corporate finance / corporation / structure ::@:: board of directors ← chief executive officer (CEO) ← chief financial officer (CFO), chief operating officer (COO) <br/> chief financial officer (CFO) ← controller, treasurer <br/> controller ← accounting, tax department <br/> treasurer ← capital budgeting, credit management, risk management <!--SR:!2025-06-09,75,270!2025-05-09,53,250-->
     - corporate finance / corporation / financial manager ::@:: manage cash flows from operations, make financial decisions (e.g. bonds, stocks), make investment decisions; all to maximize shareholder value <!--SR:!2025-07-09,104,290!2025-09-09,155,310-->
     - corporate finance / corporation / [principal–agent problem](../../../../general/principal–agent%20problem.md) ::@:: Principal (ownership) hires an agent (management) to represent their (ownership's) interest. This is the _separation_ of ownership and management. <p> _Agency problem_ is, there may be conflict of self-interest between ownership and management. This causes _agency cost_, when management pursues its self-interest (e.g. keeping their jobs) at the expense of ownership. <p> There are several ways to mitigate this. <!--SR:!2025-07-27,111,290!2025-06-10,76,270-->
-      - corporate finance / corporation / [principal–agent problem](../../../../general/principal–agent%20problem.md) / mitigations ::@:: capital structure, e.g. cash constraints due to debt, risk of bankruptcy; compensation tied to corporate performance, e.g. bonus, stock options; corporate control, e.g. reputation in labor market, risk of hostile takeover <!--SR:!2025-06-14,79,270!2025-06-06,73,270-->
+      - corporate finance / corporation / [principal–agent problem](../../../../general/principal–agent%20problem.md) / mitigations ::@:: capital structure, e.g. cash constraints due to debt, risk of bankruptcy <br/> compensation tied to corporate performance, e.g. bonus, stock options <br/> corporate control, e.g. reputation in labor market, risk of hostile takeover <!--SR:!2025-06-14,79,270!2025-06-06,73,270-->
   - corporate finance / stock markets ::@:: primary market: a corporation issues new shares and sells them to investors; secondary market: shares traded between investors without the involvement of the corporation <!--SR:!2025-05-06,62,310!2025-04-16,42,290-->
     - corporate finance / stock markets / biggest ::@:: year is 2018, in decreasing total value of shares traded: New York Stock Exchange (NYSE), Nasdaq, BATS Global Markets, Shenzhen Stock Exchange, Japan Exchange Group, ..., (10) Hong Kong Exchanges & Clearing, ... <!--SR:!2025-05-14,56,250!2025-06-16,87,270-->
   - corporate finance / [bid–ask spread](../../../../general/bid–ask%20spread.md) ::@:: A type of _transaction cost_. It is the difference between the prices quoted (either by a single market maker or in a limit order book) for an immediate sale (ask) and an immediate purchase (bid). <!--SR:!2025-09-07,153,310!2025-05-07,63,310-->
@@ -114,7 +114,7 @@ The content is in teaching order.
 ## week 1 tutorial
 
 - datetime: 2025-02-07T10:30:00+08:00/2025-02-07T11:20:00+08:00
-- status: hybrid (online, physical), optional
+- status: unscheduled, unannounced
 
 ## week 1 lecture 2
 
@@ -139,6 +139,7 @@ The content is in teaching order.
   - interest rate / _risk-free_ interest rate, discount rate, $r_f$ ::@:: The interest rate at which money can be borrowed or lent without risk. By depositing money, we convert money today into money in the future. By borrowing money, we exchange money in the future for money today. <!--SR:!2025-05-21,75,328!2025-05-21,75,328-->
   - interest rate / interest rate factor ::@:: It is the rate of exchange _from_ dollars today _to_ dollars in the future, calculated as $(1 + r_f)^t$. <!--SR:!2025-05-21,75,328!2025-05-20,74,326-->
   - interest rate / discount factor ::@:: It is the rate of exchange between dollars _from_ the future _to_ dollars today, calculated as $1 / (1 + r_f)^t$. <!--SR:!2025-05-21,75,328!2025-05-21,75,328-->
+  - interest rate / negative ::@:: Nominal interest rate cannot be negative: you can always just keep save the money as cash to avoid the negative nominal interest rate. Real interest rate can be negative, which happens if inflation is higher than nominal interest rate.
 - [net present value](../../../../general/net%20present%20value.md) (NPV) ::@:: net present value (NPV) = present value (benefits/cash inflows) − present value (costs/cash outflows) <!--SR:!2025-05-21,75,328!2025-05-21,75,328-->
 - [questions § week 1 lecture 2](questions.md#week%201%20lecture%202)
 - [TAPPS/week 1 lecture 2](assignments/TAPPS/week%201%20lecture%202.md)
@@ -174,6 +175,10 @@ The content is in teaching order.
 
 - datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00
 - status: hybrid (online, physical), optional
+- [§ week 1 lecture](#week%201%20lecture)
+- [§ week 1 lecture 2](#week%201%20lecture%202)
+- [§ week 2 lecture](#week%202%20lecture)
+- [§ week 2 lecture 2](#week%202%20lecture%202)
 
 ## week 2 lecture 2
 
@@ -233,6 +238,8 @@ The content is in teaching order.
 
 - datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00
 - status: hybrid (online, physical), optional
+- [§ week 3 lecture](#week%203%20lecture)
+- [§ week 3 lecture 2](#week%203%20lecture%202)
 
 ## week 3 lecture 2
 
@@ -278,6 +285,8 @@ The content is in teaching order.
 
 - datetime: 2025-02-28T10:30:00+08:00/2025-02-28T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 4 lecture](#week%204%20lecture)
+- [§ week 4 lecture 2](#week%204%20lecture%202)
 
 ## week 4 lecture 2
 
@@ -292,20 +301,21 @@ The content is in teaching order.
     - net present value / interpretation / zero NPV ::@:: From an economics standpoint, in a _perfectly_ competitive/efficient market, there should not be any abnormal profit, i.e. no investments with positive NPV. Investments are either zero or negative NPV. So you _should accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to. <p> \(Of course, the real world is not _perfectly_ competitive/efficient...\) <!--SR:!2025-06-20,85,373!2025-06-27,90,373-->
   - net present value / decision rule ::@:: For standalone projects \(i.e. either take or leave\), _accept_ positive NPV projects. _Reject_ negative NPV projects. _Accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to, for the reasons described above. <p> To choose among mutually exclusive projects, choose the alternative with the _highest non-negative_ NPV. If all projects have negative NPV, then _reject all_. <!--SR:!2025-07-01,94,373!2025-06-18,83,373-->
   - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 (zero NPV) has an _x_ value that is the _internal rate of return_ (IRR). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing. <p> Note that for unconventional cash flows, all of the above (include increasing/decreasing graphs) may not be true. In fact, it is possible to have multiple points where the graph crosses _y_ = 0, yielding _multiple IRRs_. <!--SR:!2025-06-27,90,373!2025-06-23,87,373-->
+    - net present value / NPV profile / multiple IRRs ::@:: There can be as many IRRs as the number of times the cash flows change sign. For conventional cash flows \(investment or loan/delayed investment\), this is at most one.
 - investment decision rules
-  - investment decision rules / investment vs. loan/delayed investment ::@:: The former refers to cash outflows are before cash inflows. The latter refers to all cash inflows are before cash outflows. <!--SR:!2025-05-12,38,353!2025-06-25,89,373-->
+  - investment decision rules / investment vs. loan/delayed investment ::@:: The former refers to all cash outflows being before any cash inflows. The latter refers to all cash inflows being before any cash outflows. <!--SR:!2025-05-12,38,353!2025-06-25,89,373-->
 - [internal rate of return](../../../../general/internal%20rate%20of%20return.md) \(IRR\) ::@:: It is a method of calculating an investment's rate of return. The term _internal_ refers to the fact that the calculation excludes external factors, such as the risk-free rate, inflation, the cost of capital, or financial risk. <!--SR:!2025-05-29,63,353!2025-06-20,85,373-->
   - internal rate of return / application timing ::@:: The method may be applied either ex-post (after) or ex-ante (before). Applied ex-ante, the IRR is an estimate of a future annual rate of return. Applied ex-post, it measures the actual achieved investment return of a historical investment. <!--SR:!2025-06-21,85,373!2025-06-28,91,373-->
   - internal rate of return / definition ::@:: It of an investment or project is the "annualized effective compounded return rate" or rate of return that sets the net present value (NPV) of all cash flows (both positive and negative) from the investment equal to zero. <!--SR:!2025-06-19,84,373!2025-05-18,57,353-->
   - internal rate of return / calculation ::@:: Similar to calculating interest rate, there is no closed formula for it. Either use a financial calculator or use trial-and-error. <!--SR:!2025-06-26,90,373!2025-06-23,87,373-->
   - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\) <!--SR:!2025-06-24,88,373!2025-06-20,85,373-->
-  - internal rate of return / intuition ::@:: It is the discount rate needed to make all cash flows now and in the future to have a net present value of zero. Notice that it does not distinguish between inflow and outflow: Both are discounted by equal amount given that they have the same timing. This means if more inflows are in the farther future, inflows are discounted more. Same goes for outflows. <p> This explains the difference in the decision rules for investment and loan/delayed investment. In the former, the cash flows being discounted are the inflows. Higher IRR means the inflows are worth more to begin with before being discounted. So higher is better. In the latter the cash flows being discounted are the outflows. Higher IRR means the outflows are worth more to being with before being discounted. So lower is better. <!--SR:!2025-05-29,63,353!2025-06-26,90,373-->
+  - internal rate of return / intuition ::@:: It is the discount rate needed to make all cash flows now and in the future to have a net present value of zero. Notice that it does not distinguish between inflow and outflow: Both are discounted by equal amount given that they have the same timing. This means if more inflows are in the farther future, inflows are discounted more. Same goes for outflows. <p> This explains the difference in the decision rules for investment and loan/delayed investment. In the former, the cash flows being discounted are the inflows. Higher IRR means the inflows are worth more to begin with before being discounted. So higher is better. In the latter the cash flows being discounted are the outflows. Higher IRR means the outflows are worth more to begin with before being discounted. So lower is better. <!--SR:!2025-05-29,63,353!2025-06-26,90,373-->
   - internal rate of return / weakness ::@:: It generally cannot be used for non-conventional cash flows (neither an investment nor a loan/delayed investment). <p> For mutually exclusive projects, IRR is _scale-independent_ and _timing-dependent_, so it is not suitable. <p> Since all cash flows are assumed to be discounted at the internal rate of return, this means we are assuming an environment where all cash inflows can be \(re-\)invested at the internal rate of return rather than the cost of capital. For an investment with high IRR, this may over-estimate the return. <!--SR:!2025-05-29,63,353!2025-06-19,84,373-->
   - internal rate of return / decision rule ::@:: For a standalone investment, _accept_ those with an IRR of _at least_ the cost of capital. _Reject_ others. For a standalone loan/delayed investment, _accept_ those with an IRR _not higher than_ the cost of capital. _Reject_ others. These rules are _consistent_ (i.e. make the same decision) as that for NPV, given that projects are of _similar_ _duration_/_life_, _scale_, and _timing_. <p> For non-conventional cash flows (neither an investment nor a loan/delayed investment) or mutually exclusive projects, IRR is generally unsuitable, and we should use NPV or other rules instead. <p> (Note: In the book and the course, the IRR rule is considered reliable _only_ for investment, and this excludes loan/delayed investment.) <!--SR:!2025-06-07,70,353!2025-06-22,86,373-->
   - internal rate of return / note ::@:: In this course, use the NPV rule instead of IRR rule, even for loan/delayed investment. <!--SR:!2025-05-29,63,353!2025-06-24,88,373-->
 - [payback period](../../../../general/payback%20period.md) ::@:: It is the time required to recoup the funds expended in an investment, or to reach the break-even point. <p> It _does not discount_ the cash flows. <!--SR:!2025-06-28,91,373!2025-06-18,83,373-->
-  - payback period / decision rule ::@:: First, define a pre-specified length of time is the _maximum payback period_. <p> For a standalone project, if the payload period is _not greater than_ the maximum, _accept_ the project. Otherwise _reject_. <p> This rule is generally _not consistent_ with NPV. <!--SR:!2025-06-18,83,373!2025-06-19,84,373-->
-  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> (In the book and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.) <!--SR:!2025-06-22,86,373!2025-06-26,90,373-->
+  - payback period / decision rule ::@:: First, define a pre-specified length of time is the _maximum payback period_. <p> For a standalone project, if the payback period is _not greater than_ the maximum, _accept_ the project. Otherwise _reject_. <p> This rule is generally _not consistent_ with NPV. <!--SR:!2025-06-18,83,373!2025-06-19,84,373-->
+  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> \(this course: In book, course, and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.\) <!--SR:!2025-06-22,86,373!2025-06-26,90,373-->
   - payback period / decision rule
     - payback period / decision rule / advantages ::@:: Simple. Favors liquidity. <!--SR:!2025-06-17,82,373!2025-06-25,89,373-->
     - payback period / decision rule / disadvantages ::@:: The maximum payback period/payback period cutoff is arbitrary. Cash flows after the cutoff is ignored. Not necessarily consistent with maximizing shareholder value (since it is not generally consistent with NPV). <!--SR:!2025-07-01,94,373!2025-05-18,57,353-->
@@ -317,7 +327,7 @@ The content is in teaching order.
 - internal rate of return
   - internal rate of return / decision rule
     - internal rate of return / decision rule / advantages ::@:: For conventional cash flows, it is consistent with NPV (given duration/life, scale, and timing are _similar_), and thus maximizing shareholder value. <!--SR:!2025-06-17,82,373!2025-06-30,93,373-->
-    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects \(at least not by directly comparing IRRs\). Can be misleading for loan/delayed investment and projects with unconventional cash flows. There may be _multiple IRRs_ (roots in the NPV profile) for unconventional cash flows. <!--SR:!2025-06-18,83,373!2025-06-22,86,373-->
+    - internal rate of return / decision rule / disadvantages ::@:: Hard to compute (no closed formula). Cannot be used to choose among mutually exclusive projects \(at least not by directly comparing IRRs\). Can be misleading for loan/delayed investment and projects with unconventional cash flows. There may be _no or multiple IRRs_ (roots in the NPV profile) for unconventional cash flows. <!--SR:!2025-06-18,83,373!2025-06-22,86,373-->
 - [discounted payback period](../../../../general/discounted%20payback%20period.md) ::@:: \(untaught\) It is the amount of time that it takes (in years) for the initial cost of a project to equal to the _discounted_ value of expected cash flows, or the time it takes to break even from an investment. It is the period in which the cumulative net present value of a project equals zero. <p> It _does discount_ the cash flows. <!--SR:!2025-06-17,82,373!2025-06-30,93,373-->
 - mutually exclusive project
   - mutually exclusive project / scale difference ::@:: NPV measures _total impact on value_ and is scale-dependent. IRR measures _average return_ and is scale-independent. When you scale up a project while keeping everything else the same, NPV scales up proportionally while IRR remains the same. As NPV is consistent with maximizing wealth (as a direct application of the valuation principle), we should use NPV for projects of different scales. <!--SR:!2025-04-10,23,368!2025-04-12,25,368-->
@@ -331,12 +341,12 @@ The content is in teaching order.
 - topic: investment decision rules
 - mutually exclusive project
   - mutually exclusive project / scale difference
-    - mutually exclusive project / scale difference / using IRR ::@:: What if you want to use IRR for projects of different scales anyway? Use incremental cash flows (larger project cash flows minus smaller project cash flows, including the starting cash flow) instead and compute its internal rate of return. \(The steps and _precautions_ are mentioned below.\) <!--SR:!2025-04-12,25,368!2025-04-12,25,368-->
+    - mutually exclusive project / scale difference / using IRR ::@:: What if you want to use IRR for projects of different scales anyway? Assuming both projects have _nonnegative NPV_, use incremental cash flows (larger project cash flows minus smaller project cash flows, including the starting cash flow) instead and compute its internal rate of return. \(The steps and _precautions_ are mentioned below.\) <!--SR:!2025-04-12,25,368!2025-04-12,25,368-->
     - mutually exclusive project / scale difference / NPV profile ::@:: If the projects/investments are of the same scale \(and same timing and same duration\), the NPV graph of the project with a higher IRR is always higher than that with a lower IRR and never intersects. However, if they are of different scales, then the two graphs can intersect each other. This intersection point is known as the _crossover point_, its _x_ value is the cost of capital for which the NPVs of the two projects are equal, and its _y_ value is the corresponding NPV. <!--SR:!2025-04-10,23,368!2025-04-11,24,368-->
 - internal rate of return
-  - internal rate of return / incremental ::@:: Compute incremental cash flows \(_larger_ project cash flows minus _smaller_ project cash flows, including the starting cash flow\). Check if the cash flows is a normal investment, as opposed to a loan/delayed investment or unconventional cash flows. (If not, see below.) <p> Compute its internal rate of return. This is known as the _crossover point_. If it is higher than or equal to the cost of capital, accept the _larger_ project. Otherwise reject. <!--SR:!2025-06-17,82,373!2025-05-26,63,353-->
-    - internal rate of return / incremental / intuition ::@:: Intuitively, the incremental cash flows give the difference if we choose the larger project and giving up the smaller project. Now our decision becomes between accepting the difference and rejecting it. This decision can be considered a standalone project (and it is a normal investment since increment cash outflows are before incremental cash inflows). This difference is worth it if its NPV is nonnegative. So we can use IRR again. <!--SR:!2025-04-30,39,333!2025-06-07,70,353-->
-    - internal rate of return / increment / caution ::@:: If you find the cash flow is a loan/delayed investment, you have probably done _smaller_ project cash flow minus _larger_ cash flow. The IRR calculated will be the same, but your decision rule is reversed, i.e. reject the _smaller_ project (accept the _larger_ project) if IRR is higher than or equal to the cost of capital. Otherwise reject <p> If you find the cash flow is unconventional, you should not use the IRR decision rule. Use another one as appropriate, e.g. equivalent annual annuity (EAA/EAC), net present value (NPV), etc. <!--SR:!2025-06-27,90,373!2025-06-28,91,373-->
+  - internal rate of return / incremental ::@:: First, ensure that both projects have _nonnegative NPV_. <p> Compute incremental cash flows \(_larger_ project cash flows minus _smaller_ project cash flows, including the starting cash flow\). Check if the cash flows is a normal investment, as opposed to a loan/delayed investment or unconventional cash flows. (If not, see below.) <p> Compute its internal rate of return. This is known as the _crossover point_. If it is higher than or equal to the cost of capital, accept the _larger_ project. Otherwise reject. <!--SR:!2025-06-17,82,373!2025-05-26,63,353-->
+    - internal rate of return / incremental / intuition ::@:: Intuitively, the incremental cash flows give the difference if we choose the larger project and giving up the smaller project. Now our decision becomes between accepting the difference and rejecting it. This decision can be considered a standalone project (and it is a normal investment since increment cash outflows are before incremental cash inflows). This difference is worth it if its NPV is nonnegative, assuming both projects have _nonnegative NPV_ \(If both projects have negative NPV, we should reject both!\). So we can use IRR again. <!--SR:!2025-04-30,39,333!2025-06-07,70,353-->
+    - internal rate of return / increment / caution ::@:: If you find the cash flow is a loan/delayed investment, you have probably done _smaller_ project cash flow minus _larger_ cash flow. The IRR calculated will be the same, but your decision rule is reversed, i.e. reject the _smaller_ project (accept the _larger_ project) if IRR is higher than or equal to the cost of capital. Otherwise reject <p> If you find the cash flow is unconventional, you should not use the IRR decision rule. Use another one as appropriate, e.g. equivalent annual annuity (EAA/EAC), net present value (NPV), etc. <!--SR:!2025-06-27,90,373!2025-06-28,91,373--> <p> You also need to check if both projects have _nonnegative NPV_. If both projects have negative NPV, we should reject both!
 - mutually exclusive project
   - mutually exclusive project / timing difference ::@:: Timing of cash flows affects both NPV and IRR, and in different ways. IRR is more sensitive to timing. It is possible to alter the ranking of projects based on IRR without altering that based on NPV. <p> Thus using IRR is _not_ consistent with using NPV with different timing. In this case, we should always rely on NPV, since it is a direct application of the valuation principle. <p> On a NPV profile, with different timing, it is possible for _crossover points_ to appear even if the two projects have the same scale. <!--SR:!2025-04-10,23,368!2025-04-10,23,368-->
 - internal rate of return
@@ -357,6 +367,8 @@ The content is in teaching order.
 
 - datetime: 2025-03-07T10:30:00+08:00/2025-03-07T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 5 lecture](#week%205%20lecture)
+- [§ week 5 lecture 2](#week%205%20lecture%202)
 
 ## week 5 lecture 2
 
@@ -382,7 +394,7 @@ The content is in teaching order.
 - [historical cost](../../../../general/historical%20cost.md) ::@:: It is the value of the costs incurred in acquiring or creating the asset, comprising the consideration paid to acquire or create the asset plus transaction costs. <!--SR:!2025-04-11,24,368!2025-04-12,25,368-->
   - historical cost / balance sheet ::@:: Balance sheet records amounts measured at historical values and historical exchange rates. <!--SR:!2025-04-10,23,368!2025-04-12,25,368-->
 - [depreciation](../../../../general/depreciation.md) ::@:: As fixed assets are used to earn revenue, they become "used". According to the matching principle, an expense should be recorded. <p> To do so, expense "Depreciated account" is debited while contra-asset "Accumulated depreciation" is credited. <!--SR:!2025-04-12,25,368!2025-04-12,25,368-->
-  - [net book value](../../../../general/book%20value.md) ::@:: $$\text{cost of fixed asset} - \text{corresponding accumulated depreciation}$$ <!--SR:!2025-04-10,23,368!2025-06-22,79,368-->
+- [net book value](../../../../general/book%20value.md) ::@:: $$\text{cost of fixed asset} - \text{corresponding accumulated depreciation}$$ <!--SR:!2025-04-10,23,368!2025-06-22,79,368-->
 - [goodwill](../../../../general/goodwill%20(accounting).md) ::@:: It is an intangible asset recognized when a firm is purchased as a going concern. It reflects the premium that the buyer pays in addition to the net value of its other assets. It is often understood to represent the firm's intrinsic ability to acquire and retain customer business, where that ability is not otherwise attributable to brand name recognition, contractual arrangements or other specific factors. It is classified as an intangible asset on the balance sheet, since it can neither be seen nor touched. <!--SR:!2025-04-10,23,368!2025-04-11,24,368-->
   - goodwill / creation ::@:: It is recognized only through an acquisition; it cannot be self-created. <!--SR:!2025-04-10,23,368!2025-04-10,23,368-->
 - [working capital](../../../../general/working%20capital.md) ::@:: $$\text{current assets (CA)} - \text{current liabilities (CL)}$$ <!--SR:!2025-04-12,25,368!2025-04-10,23,368-->
@@ -425,16 +437,17 @@ The content is in teaching order.
 
 - datetime: 2025-03-12T16:30:00+08:00/2025-03-12T17:50:00+08:00
 - topic: measuring cash flows
+
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity. <!--SR:!2025-04-25,26,383!2025-04-23,24,383-->
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually <!--SR:!2025-04-17,18,363!2025-04-23,24,383-->
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2025-04-23,24,383!2025-04-17,18,363-->
 - [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system. <!--SR:!2025-04-25,26,383!2025-04-24,25,383-->
   - revenue expenditure / characteristics ::@:: does not extend useful life beyond original estimate <br/> does not increase efficiency <br/> maintains normal operating conditions <br/> recurring in nature and involves small amounts of money at each occurrence <!--SR:!2025-05-28,50,363!2025-04-25,26,383-->
-  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Accumulated deprecation is lower later. <!--SR:!2025-04-25,26,383!2025-04-18,19,363-->
+  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Deprecation expense is lower later. <!--SR:!2025-04-25,26,383!2025-04-18,19,363-->
 - depreciation
   - depreciation / effect ::@:: Say there is additional depreciation \(increase in expense\). <p> Net income would decrease, but mitigated by the tax rate, so the decrease is the additional depreciation multiplied by \(1 − tax rate\). Cash would increase, since the increase in depreciation is not cash flow, but the decrease in tax is cash flow, so the increase is the additional depreciation multiplied by tax rate. <p> This is because tax depends on pretax income. <!--SR:!2025-04-23,24,383!2025-04-24,25,383-->
 - [cash flow](../../../../general/cash%20flow.md) ::@:: It, in general, refers to payments made into or out of a business, project, or financial product. <!--SR:!2025-04-24,25,383!2025-04-18,19,363-->
-  - cash flow / operational cash flow ::@:: incremental earnings + depreciation <!--SR:!2025-04-23,24,383!2025-04-18,19,363-->
+  - cash flow / operational cash flow ::@:: incremental earnings \(_unlevered_ net income\) + depreciation <!--SR:!2025-04-23,24,383!2025-04-18,19,363-->
 - [earnings before interest, taxes, depreciation and amortization](../../../../general/earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md) \(EBITDA\) ::@:: It is a measure of a company's profitability of the operating business only, thus before any effects of indebtedness, state-mandated payments, and costs required to maintain its asset base. <!--SR:!2025-04-24,25,383!2025-04-25,26,383-->
   - earnings before interest, taxes, depreciation and amortization / motivation ::@:: Depreciation and amortization are not cash flows. Excluding them and additionally leverage \(debt\), it reflects the cash a firm has earned from operations by utilizing the assets. <!--SR:!2025-04-25,26,383!2025-04-25,26,383-->
   - earnings before interest, taxes, depreciation and amortization ::@:: EBITDA = EBIT + depreciation and amortization <!--SR:!2025-04-24,25,383!2025-04-25,26,383-->
@@ -469,6 +482,9 @@ The content is in teaching order.
 
 - datetime: 2025-03-14T10:30:00+08:00/2025-03-14T11:20:00+08:00
 - status: hybrid \(online, physical\), optional
+- [§ week 6 lecture](#week%206%20lecture)
+- [§ week 6 lecture 2](#week%206%20lecture%202)
+- [P/B ratio](../../../../general/P_B%20ratio.md), market-to-book ratio ::@:: It is a [financial ratio](../../../../general/financial%20ratio.md) used to compare a company's current market value to its [book value](../../../../general/book%20value.md) \(where _book value_ is the value of all assets minus liabilities owned by a company\).
 
 ## week 6 lecture 2
 
@@ -483,16 +499,203 @@ The content is in teaching order.
 - operating expense
 - free cash flow
   - free cash flow / tax ::@:: Calculated as EBIT × _marginal_ corporate tax rate. It is a cash outflow. If negative, it becomes _tax credit_ and is a cash inflow. \(In accounting, the treatment of taxes is much more complicated.\) <p> Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is ignored. This explains why tax is calculated using EBIT instead of \(EBIT – interest\), even though the _actual_ tax is based on the latter. <!--SR:!2025-04-25,26,383!2025-04-24,25,383-->
-  - free cash flow / incremental earnings ::@:: Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is ignored. Or equivalently, the incremental earning calculates tax using EBIT instead of \(EBIT – interest\). <!--SR:!2025-04-23,24,383!2025-04-16,17,363-->
+  - free cash flow / incremental earnings ::@:: Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is also ignored \(apart from ignoring interest expense\). Thus, the incremental earning calculates tax using EBIT instead of \(EBIT – interest\). Hence, incremental earnings is also called _unlevered_ net income. <!--SR:!2025-04-23,24,383!2025-04-16,17,363-->
   - free cash flow / interest expense ::@:: Interest expense and tax shield due to interest expense is not included. <p> The motivation is FCF is cash distributable to both stockholders and _debt holders_. So a project should be judged with its operating cost, not financing cost. <p> The debt—equity mix should be considered separately. <!--SR:!2025-04-25,26,383!2025-04-18,19,363-->
   - free cash flow / depreciation ::@:: Depreciation is based on accounting rules, and generally does not equal economic life of the asset. So it is possible for cash inflow due to depreciation to last shorter or longer than the project life. <!--SR:!2025-04-17,18,363!2025-04-24,25,383-->
 - [questions § week 6 lecture 2](questions.md#week%206%20lecture%202)
 - [TAPPS/week 6 lecture 2](assignments/TAPPS/week%206%20lecture%202.md)
 - readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
 
-## assignments
+## week 7 lecture
+
+- datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00
+- topic: fundamentals of capital budgeting
+- free cash flow
+  - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital
+    - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\)
+    - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense
+  - free cash flow / depreciation
+  - free cash flow / capital expenditure ::@:: Cash outflows when you have capital expenditure. But this is not immediately recognized in an income statement. So we need to add this <p> By the cost principle, all reasonable and necessary expenditures \(e.g. _capitalized interest_, costs to get it up and running, materials, wages paid, etc.\) in constructing an asset should be _capitalized_ \(i.e. considered capital expenditure\).
+  - free cash flow / changes in working capital ::@:: Increase in held cash, inventory, receivables, etc. \(current assets\) increases net income, but they do not increase cash flow. So this increase needs to be subtracted from FCF. Increase in payables, etc. \(current liabilities\) decreases net income, but they do not decrease cash flow. So this increase needs to be added to FCF. <p> Overall, increase in CA subtracted by increase in CL is changes in working capital. So changes in working capital needs to be subtracted from FCF.
+    - free cash flow / changes in working capital / working capital ::@:: current assets − current liabilities = cash + inventory + accounts receivables − payables <p> Note when calculating the FCF for a project, these accounts are for the project only.
+    - free cash flow / changes in working capital / pattern ::@:: Typically, there is an increase in NWC during the initial outlay of a project \(usually year 0\). At the end of a project, the NWC is typically fully recovered \(full recovery of NWC\), i.e. its balance equals its beginning balance \(usually but not necessarily zero\).
+    - free cash flow / changes in working capital / cash ::@:: Notice the "cash" account is _not_ specially handled when calculating current assets. This is because the "cash" account is for incremental cash requirement, i.e. requirement to hold cash for a project. As the cash is held, it is not free cash flow.
+    - free cash flow / changes in working capital / trade credit ::@:: receivables − payables <p> It can be interpreted as the net capital held up in credit transactions.
+    - free cash flow / changes in working capital / recovery ::@:: Typically at the end of a project, payables are paid off, inventory are sold off, receivables are collected, so NWC equals its beginning balance, i.e. fully recovered. <p> Some NWC may not be recoverable, e.g. bad inventory, bad receivables, etc. However, accounting principles ensure these non-recoverable NWC is written off as expense, so that the total changes in NWC over a project is zero.
+  - free cash flow / net present value ::@:: To evaluate a project, find the _incremental_ free cash flows. Find the NPV of these cash flows. Apply decision rules as needed. <p> Note that some decision rules above, applicable \(i.e. consistent with NPV\) in some situation, does not require you to calculate the NPV.
+- [questions § week 7 lecture](questions.md#week%207%20lecture)
+- [TAPPS/week 7 lecture](assignments/TAPPS/week%207%20lecture.md)
+- readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
+
+## week 7 tutorial
+
+- datetime: 2025-03-21T10:30:00+08:00/2025-03-21T11:20:00+08:00
+- status: hybrid \(online, physical\), optional
+- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 2](#week%207%20lecture%202)
+
+## week 7 lecture 2
+
+- datetime: 2025-03-21T16:30:00+08:00/2025-03-21T17:50:00+08:00
+- topic: fundamentals of capital budgeting
+- free cash flow
+  - free cash flow / terminal cash flow ::@:: They happen at or after the end of a project. They include recovering net working capital, \(after-tax\) shutdown costs, after-tax liquidation value \(asset sale\), etc.
+- depreciation
+- net book value
+  - net book value / after-tax salvage value ::@:: The difference between the actual sale value and the net book value is the gain or loss from selling the asset in accounting. This gain or loss is subject to tax. If you have gain, you have tax due. If you have loss, you have tax credit. <p> Thus, the actual cash flow is the actual sale value and the tax effect: $$\text{after-tax salvage value} = \text{sale price} - \text{gain} \times \text{corporate marginal tax rate} \,.$$ For loss, the "gain" is negative, so the above equation still applies.
+- free cash flow
+  - free cash flow / terminal cash flow
+    - free cash flow / terminal cash flow / asset sale ::@:: Compare leaving an asset for it to be depreciated versus selling it, there are 2 effects to FCF: add the after-tax salvage value at the year of sale, and remove depreciation for years after the sale. Note that removing depreciation affects the depreciation added to calculate FCF, and affects the incremental earnings.
+  - free cash flow / adjustments ::@:: timing of cash flows, accelerated depreciation \(MACRS\), tax carryforwards and carrybacks
+    - free cash flow / adjustments / timing of cash flows ::@:: Incremental cash flows can be calculated monthly or quarterly, instead of annually.
+    - free cash flow / adjustments / accelerated depreciation ::@:: Depreciation is larger earlier in the asset's life. Present value of the depreciation tax shield is thus larger. This is governed by depreciation schedules required by the relevant tax authorities \(US: IRS, HK: IRD\). <p> example: Modified Accelerated Cost Recovery System \(MACRS\)
+    - free cash flow / adjustments / tax carryforwards and carrybacks ::@:: Above, we assume that tax due is paid and tax credit is received on the year it occurs. This is the most simple way to handle taxes. <p> In practice, companies can take losses in a year and offset them against profits in nearby years for tax purposes. This is governed by the relevant tax laws.
+  - free cash flow / incremental ::@:: Note that the FCF we have been discussing above is _incremental_. This means it is comparing changes in a firm's FCF comparing taking and not taking the project. <p> Cash flows that are _included_ include _opportunity costs_ and _project externalities_, etc. Cash flows that are _excluded_ include _sunk costs_, etc.
+- [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken
+- [externality](../../../../general/externality.md) ::@:: It is an indirect cost or benefit to an uninvolved third party that arises as an effect of another party's (or parties') activity. Externalities can be considered as unpriced components that are involved in either consumer or producer market transactions. <p> A positive externality is when an individual's consumption in a market increases the well-being of others, but the individual does not charge the third party for the benefit. A negative externality is defined analogously.
+  - externality / project ::@:: project _synergy_: The project increases cash flows of other projects, e.g. a new product may increase sale of existing products. <br/> project _cannibalization_: The project decreases cash flows of other projects, e.g. a new product may decrease sale of existing products. <p> This externality should be considered part of the incremental FCF of a project. When calculating the externality, be careful to consider any other incremental changes, e.g. tax changes.
+- [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs)
+  - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs
+    - irrelevant cost / project ::@:: In a project, some common sunk costs are: fixed overhead expenses \(unless the expense is incremental to the project\), past R&D expenditure, unavoidable competitive effects, etc.
+      - irrelevant cost / project / unavoidable competitive effects ::@:: Above, we have considered a specific example of _project cannibalization_, where a new product may decrease sale of existing products. <p> But if this loss of sales is _likely_ to happen anyway due to new products introduced by competitors, then this decrease in sale is a sunk cost, and can be ignored when calculating the incremental FCF of the project.
+- [tax shield](../../../../general/tax%20shield.md) ::@:: It is the reduction in income taxes that results from taking an allowable deduction from taxable income. For example, because interest on debt is a tax-deductible expense, taking on debt creates a tax shield. <p> \(Note that FCF is usually _unlevered_, so debt tax shield is excluded.\)
+  - tax shield / importance ::@:: Since a tax shield is a way to save cash flows, it increases the value of the business, and it is an important aspect of business valuation.
+  - tax shield / free cash flow ::@:: When calculating incremental earnings/_unlevered_ net income, depreciation is subtracted before applying the tax rate. Then, when calculating FCF, depreciation is added back. <p> With the tax shield approach, when calculating FCF, depreciation is _not_ subtracted before applying the tax rate. After applying the tax rate, depreciation _multiplied by the tax rate_ is added back. This is mathematically equivalent to the previous paragraph. <p> Note that FCF is usually _unlevered_, so debt tax shield is excluded.
+    - tax shield / free cash flow / application ::@:: The tax shield approach is very good for simplifying calculations, as long as you understand it. For example, it can be used to compute the change in FCF after buying an equipment due to depreciation.
+- [questions § week 7 lecture 2](questions.md#week%207%20lecture%202)
+- [TAPPS/week 7 lecture 2](assignments/TAPPS/week%207%20lecture%202.md)
+- readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
+
+## week 8 lecture
+
+- datetime: 2025-03-26T16:30:00+08:00/2025-03-26T17:50:00+08:00
+- topic: bonds
+- [bond](../../../../bond%20(finance).md) ::@:: It is a type of security under which the issuer \(debtor\) owes the holder \(creditor\) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor.
+  - bond / cash flows ::@:: Typical cash flows are repaying the principal \(i.e. amount borrowed\) of the bond at the maturity date and interest \(called the coupon\) over a specified amount of time.
+  - bond / terminology ::@:: indenture & covenant, maturity date
+    - bond / terminology / indenture, covenant ::@:: An indenture is a formal debt agreement that establishes the terms of a bond issue, while covenants are the clauses of such an agreement.
+    - bond / terminology / maturity date ::@:: final payment date
+    - bond / terminology / term ::@:: duration from issuing date to maturity date
+    - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments
+    - bond / terminology / coupon rate ::@:: interest to compute coupon payments based on the face value; often expressed as APR
+    - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually
+  - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(this course: We use the "clean" one for simplicity.\)
+  - bond / risk ::@:: A bond may be considered either risk-free or has default risk. <p> Government bonds, e.g. United States Treasury bills, are generally considered risk-free. But note that some countries have \(repeatedly\) defaulted on their government bonds.
+- [zero-coupon bond](../../../../general/zero-coupon%20bond.md) ::@:: It is a bond in which the face value is repaid at the time of maturity. Unlike regular bonds, it does not make periodic interest payments or have so-called coupons, hence the term zero-coupon bond. When the bond reaches maturity, its investor receives its par (or face) value.
+  - zero-coupon bond / examples ::@:: US Treasury bills, US savings bonds, long-term zero-coupon bonds, and any type of coupon bond that has been stripped of its coupons
+  - zero-coupon bond / aliases ::@:: deep discount bond, discount bond, pure discount bond
+- [yield to maturity](../../../../general/yield%20to%20maturity.md) \(YTM\) ::@:: It is an estimate of the total rate of return anticipated to be earned by an investor who buys it at a given market price, holds it to maturity, and receives all interest payments and the capital redemption on schedule. <p> The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed.
+  - yield to maturity / internal rate of return ::@:: It is the theoretical internal rate of return, or the overall interest rate, of a bond — the discount rate at which the present value of all future cash flows from the bond is equal to the current price of the bond.
+  - yield to maturity / zero-coupon bonds ::@:: $${\text{Yield to maturity(YTM)} }={\sqrt[{\text{Time period} }]{\dfrac {\text{Face value} }{\text{Present value} } } }-1$$
+- [risk-free bond](../../../../general/risk-free%20bond.md) ::@:: It is a theoretical bond that repays interest and principal with absolute certainty. The rate of return would be the risk-free interest rate.
+  - risk-free bond / arbitrage ::@:: In a competitive market, risk-free investments all have the same rate of return over the same period. Otherwise, arbitrage opportunities exist.
+- yield to maturity
+  - yield to maturity / spot interest rate ::@:: It is the rate of return earned when a bond is bought now and sold at maturity without collecting coupon payments.
+- [yield curve](../../../../general/yield%20curve.md) ::@:: It is a graph which depicts how the yields on debt instruments – such as bonds – vary as a function of their years remaining to maturity.
+  - yield curve / graph ::@:: Typically, the graph's horizontal or x-axis is a time line of months or years remaining to maturity, with the shortest maturity on the left and progressively longer time periods on the right. The vertical or y-axis depicts the annualized yield to maturity.
+  - yield curve / types ::@:: normal, flat, humped, inverted
+    - yield curve / types / normal ::@:: It means that yields rise as maturity lengthens \(i.e., the slope of the yield curve is positive\).
+    - yield curve / types / flat ::@:: It is observed when all maturities have similar yields.
+    - yield curve / types / humped ::@:: It results when short-term and long-term yields are equal and medium-term yields are higher than those of the short-term and long-term.
+    - yield curve / types / inverted ::@:: Under unusual circumstances, yields falls as maturity lengthens \(i.e., the slope of the yield curve is negative\).
+- [coupon](../../../../general/coupon%20(finance).md) ::@:: It is the interest payment received by a bondholder from the date of issuance until the date of maturity of a bond.
+  - coupon / coupon rate ::@:: Coupons are normally described in terms of the "coupon rate", which is calculated by adding the sum of coupons paid per year and dividing it by the bond's face value.
+- [United States Treasury security](../../../../general/United%20States%20Treasury%20security.md) ::@:: They are government debt instruments issued by the United States Department of the Treasury to finance government spending, in addition to taxation.
+  - United States Treasury security / types ::@:: \(in increasing terms\) treasury bill, treasury note, treasury bond
+  - United States Treasury security / treasury bill \(T-bill\) ::@:: They are zero-coupon bonds that mature in one year or less \(4 weeks, 13 weeks, 26 weeks, etc.\). They are bought at a discount of the par value and, instead of paying a coupon interest, are eventually redeemed at that par value to create a positive yield to maturity.
+  - United States Treasury security / treasury note \(T-note\) ::@:: They have maturities of 2, 3, 5, 7, or 10 years, have a coupon payment every six months, and are sold in increments of $100.
+  - United States Treasury security / treasury bond \(T-bond\) ::@:: They have the longest maturity at twenty or thirty years. They have a coupon payment every six months like T-notes.
+- bond
+  - bond / market price
+    - bond / market price / quote ::@:: Both market price and yield can be used to quote bonds. Higher price means lower yield, and vice versa.
+    - bond / market price / issuance ::@:: The issue price at which investors buy the bonds when they are first issued will typically be approximately equal to the nominal amount. The net proceeds that the issuer receives are thus the issue price, less issuance fees.
+- yield to maturity
+  - yield to maturity / coupon-bearing bonds ::@:: For bonds with multiple coupons, it is not generally possible to solve for yield in terms of price algebraically. A numerical root-finding technique such as Newton's method must be used to approximate the yield, which renders the present value of future cash flows equal to the bond price. <p> \(this course: use a financial calculator\)
+  - yield to maturity / quote ::@:: The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <p> \(this course: use APR\)
+  - yield to maturity / assumptions ::@:: consistency, default risk, held to maturity, reinvestment risk
+    - yield to maturity / assumptions / held to maturity ::@:: The owner holds the security to maturity.
+    - yield to maturity / assumptions / reinvestment risk ::@:: The owner reinvests all interest payments \(at YTM\) rather than spending them, to gain the benefit of compounded returns.
+    - yield to maturity / assumptions / default risk ::@:: The issuer makes all interest and principal payments on time and in full.
+    - yield to maturity / assumptions / consistency ::@:: The market provides consistent reinvestment opportunity at the YTM rate throughout the future \(flat yield curve\), with no cost to transact.
+- bond
+  - bond / market price
+    - bond / market price / coupon-bearing bonds ::@:: For bonds with multiple bonds, it is: $$P = \text{coupon payment} \times \frac 1 y \left(1 - \frac 1 {(1 + y)^t} \right) + \frac {\text{face value} } {(1 + y)^t} \,.$$ The above equation assumes "clean" price. <p> If coupon payment equals face value multiplied by YTM, then market price equals face value from the above equation. This is why if coupon rate equals YTM, then a bond is selling at par.
+- [questions § week 8 lecture](questions.md#week%208%20lecture)
+- [TAPPS/week 8 lecture](assignments/TAPPS/week%208%20lecture.md)
+- readings: chapter 6
+
+## week 8 tutorial
+
+- datetime: 2025-03-28T10:30:00+08:00/2025-03-28T11:20:00+08:00
+- status: unscheduled, day off for midterm
+
+## week 8 lecture 2
+
+- datetime: 2025-03-28T16:30:00+08:00/2025-03-28T17:50:00+08:00
+- status: unscheduled, day off for midterm
 
 ## midterm examination
+
+- datetime: 2025-03-29T17:00:00+08:00/2025-03-29T19:15:00+08:00, PT2H15M
+- venue: Lecture Theater A; Lecture Theater B
+- format
+  - calculator: yes; financial calculator
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: formulas
+  - questions: multiple choice questions ×42
+- grades: 87.78/100 \(79/90\)
+  - breakdown
+    - challenging: 15/18
+      - multiple choice questions ×6
+    - conceptual: 28/34
+      - multiple choice questions ×17
+    - numerical: 36/38
+      - multiple choice questions ×19
+  - statistics
+    - timestamps: 2025-04-04T20:45:00+08:00
+    - mean: 76.8 \(provided: 76.59\)
+    - standard deviation: ? \(provided: 14.06\)
+    - low: 30 \(provided: 30\)
+    - lower quartile: 68.89
+    - median: 81.11 \(provided: 81.11\)
+    - upper quartile: 86.67
+    - high: 97.78 \(provided: 97.78\)
+    - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.svg)
+- report
+  - \(none\)
+- check
+  - datetime: ?
+  - venue: ?
+
+> __Reminder: no class on Thur/Fri__
+>
+> Dear student,
+>
+> Please check your seat assignment on the sealing plan posted on canvas.
+>
+> Also, there will be no class on Thursday and Friday.
+>
+> Study well and see you on Saturday.
+>
+> Regards,
+>
+> \[redacted\]
+
+## week 9 lecture
+
+- datetime: 2025-04-02T16:30:00+08:00/2025-04-02T17:50:00+08:00
+- status: unscheduled, midterm break
+
+## week 9 tutorial
+
+- datetime: 2025-04-04T10:30:00+08:00/2025-04-04T11:20:00+08:00
+- status: unscheduled, midterm break, public holiday
+
+## week 9 lecture 2
+
+- datetime: 2025-04-04T16:30:00+08:00/2025-04-04T17:50:00+08:00
+- status: unscheduled, midterm break, public holiday
 
 ## final examination
 
