@@ -44,7 +44,7 @@ tags:
 > 4. 60 to 90 minutes
 > 5. longer than 90 minutes
 >
-> - solution: {@{1/2/3/4/5}@}
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-04-12,4,276-->
 
 ## week 7 lecture
 
@@ -56,4 +56,4 @@ tags:
 > 4. 6
 > 5. \>6
 >
-> - solution: {@{1/2/3/4/5}@}
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-04-12,4,276-->

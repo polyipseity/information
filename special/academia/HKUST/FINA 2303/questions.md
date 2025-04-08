@@ -631,7 +631,7 @@ tags:
 > 2. EBIT = incremental gross profit <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes
 >
 > - solution: {@{1}@}
-> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@}
+> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@} <!--SR:!2025-04-13,5,369!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -645,7 +645,7 @@ tags:
 > 4. \$1&nbsp;050&nbsp;000
 > 5. \$1&nbsp;070&nbsp;000
 >
-> - solution: {@{5}@}
+> - solution: {@{5}@} <!--SR:!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -660,7 +660,7 @@ tags:
 > - tax rate = 34%
 > - cost of capital = 20%
 >
-> - solution: {@{year 3}@}
+> - solution: {@{year 3}@} <!--SR:!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -680,7 +680,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-04-13,5,369-->
 
 ## week 7 lecture 2
 
@@ -692,7 +692,7 @@ tags:
 > 2. no
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@}
+> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@} <!--SR:!2025-04-13,5,369!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -703,7 +703,7 @@ tags:
 > 3. \$44k
 > 4. \$30k
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -718,7 +718,7 @@ tags:
 > 5. \$0
 >
 > - solution: {@{3}@}
-> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@}
+> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2025-04-13,5,369!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -732,7 +732,7 @@ tags:
 > 2. no
 >
 > - solution: {@{1}@}
-> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@}
+> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@} <!--SR:!2025-04-13,5,369!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -745,7 +745,7 @@ tags:
 > 3. \$200k
 > 4. \$250k
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-04-13,5,369-->
 
 ## week 8 lecture
 
@@ -756,7 +756,7 @@ tags:
 > 3. yield to maturity \(YTM\)
 >
 > - solution: {@{3}@}
-> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@}
+> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@} <!--SR:!2025-04-13,5,369!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -767,7 +767,7 @@ tags:
 > 3. the same yields as
 >
 > - solution: {@{2}@}
-> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@}
+> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@} <!--SR:!2025-04-13,5,369!2025-04-13,5,369-->
 
 <!-- markdownlint MD028 -->
 
@@ -778,4 +778,4 @@ tags:
 > 3. Apr 8 \(Tue\)
 > 4. Apr 9 \(Wed\)
 >
-> - solution: {@{1/2/3/4}@}
+> - solution: {@{1/2/3/4}@} <!--SR:!2025-04-13,5,369-->
