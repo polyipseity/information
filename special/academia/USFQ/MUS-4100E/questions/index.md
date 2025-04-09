@@ -17,8 +17,11 @@ tags:
 
 - [listening test 1](listening%20test%201.md)
 - [listening test 2](listening%20test%202.md)
+- [midterm examination](midterm%20examination.md)
 - [quiz 1](quiz%201.md)
 - [quiz 2](quiz%202.md)
+- [quiz 3](quiz%203.md)
+- [quiz 4](quiz%204.md)
 
 ## African traits in early jazz
 
@@ -176,3 +179,13 @@ tags:
 > 5. Charlie Christian
 >
 > - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@}
+
+## 1959
+
+Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
+
+- type: quiz (attendance)
+- datetime: 2025-04-07T07:57:55-05:00/2025-01-20T08:02:55-05:00, PT5M
+  - local: 2025-04-07T21:57:55+08:00/2025-01-20T22:02:55+08:00, PT5M
+
+---
