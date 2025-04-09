@@ -189,7 +189,7 @@ The content is in teaching order.
 - datetime: 2024-09-26T13:30:00+08:00/2024-09-26T14:50:00+08:00
 - transactions
   - [ACCT 2010/transaction](transaction.md)
-  - transactions / recording ::@:: Find revenue earned. Find corresponding expenses incurred. Verify the accounting equation is in balance. <p> If there are no revenue earned or expenses incurred (e.g. a promise for another promise), no need to record the so-called "transaction". <!--SR:!2026-04-02,380,383!2025-04-09,98,383-->
+  - transactions / recording ::@:: Find revenue earned. Find corresponding expenses incurred. Verify the accounting equation is in balance. <p> If there are no revenue earned or expenses incurred (e.g. a promise for another promise), no need to record the so-called "transaction". <!--SR:!2026-04-02,380,383!2026-09-04,513,403-->
   - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (there should be no negative numbers). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XSE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead). <!--SR:!2026-02-19,344,376!2025-12-11,269,356-->
   - [debits and credits § T-accounts](../../../../general/debits%20and%20credits.md#T-accounts)
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md)
@@ -212,8 +212,8 @@ The content is in teaching order.
 - [accounts receivable](../../../../general/accounts%20receivable.md)
 - [accounts payable](../../../../general/accounts%20payable.md)
 - determining amounts ::@:: Sometimes, the amount to record in a transaction is not the full amount. <!--SR:!2026-03-14,362,376!2025-04-15,103,383-->
-  - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!2026-08-25,505,403!2025-04-09,97,376-->
-  - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!2026-08-18,498,403!2025-04-09,98,383-->
+  - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!2026-08-25,505,403!2026-08-26,504,396-->
+  - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!2026-08-18,498,403!2026-09-11,520,403-->
 
 ## week 5 lecture 2
 
@@ -242,7 +242,7 @@ The content is in teaching order.
 ## week 6 lecture 2
 
 - datetime: 2024-10-10T13:30:00+08:00/2024-10-10T14:50:00+08:00
-- receivables ::@:: Receivables may be classified in 3 different ways: promissory notes, principal business activities, and liquidity. <!--SR:!2026-04-05,382,383!2025-04-09,97,383-->
+- receivables ::@:: Receivables may be classified in 3 different ways: promissory notes, principal business activities, and liquidity. <!--SR:!2026-04-05,382,383!2026-08-31,509,403-->
   - accounts receivable vs. notes receivable ::@:: The former are connected to credit sale on open account i.e., no formal promissory notes. The latter has formal promissory notes with specified terms. <!--SR:!2025-04-13,101,383!2026-08-15,495,403-->
     - [accounts receivable](../../../../general/accounts%20receivable.md)
     - [notes receivable](../../../../general/notes%20receivable.md) ::@:: It represents claims for which formal instruments of credit are issued as evidence of debt, such as a promissory note. <!--SR:!2025-09-13,205,356!2026-08-14,494,403-->
@@ -354,7 +354,7 @@ The content is in teaching order.
   - fixed assets / acquisition ::@:: They may be acquired using cash, debt, non-cash methods (e.g. common stock, additional paid-in capital), or a combination of the above. <!--SR:!2025-12-19,299,383!2026-08-01,486,403-->
 - [cost principle](../../../../general/cost%20principle.md) ::@:: Assets should always be recorded at their cost, when the asset is new and also for the life of the asset. <p> Record at the current market value of the consideration given, or the current market value of the asset acquired, whichever is more clearly evident. <p> Such costs are said to be _capitalized_. <!--SR:!2025-04-13,101,376!2026-03-09,357,376-->
   - cost principle / by construction ::@:: All reasonable and necessary expenditures (e.g. _capitalized interest_, costs to get it up and running, materials, wages paid, etc.) in constructing an asset should be _capitalized_. <p> Do note, however, no actual expense or revenue is recorded. A conversion of non-fixed assets into fixed-assets is recorded instead. <!--SR:!2025-04-11,99,376!2026-04-06,364,383-->
-  - cost principle / exclusions ::@:: Costs do not include cash discounts or finance charges. <!--SR:!2025-11-02,240,363!2025-04-09,98,383-->
+  - cost principle / exclusions ::@:: Costs do not include cash discounts or finance charges. <!--SR:!2025-11-02,240,363!2026-09-08,517,403-->
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX)
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually <!--SR:!2025-09-11,213,363!2026-04-07,384,383-->
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2026-08-03,486,396!2025-09-03,208,363-->
@@ -369,7 +369,7 @@ The content is in teaching order.
   - depreciation / units-of-production ::@:: Used when the useful life of an assets is better measured in units produced instead of time, e.g. airplanes. <p> $$\text{annual depreciation expense} = \frac {\text{cost of fixed asset} - \text{residual value} } {\text{estimated total production} } \times \text{actual production}$$ <p> If net book value or residual value changes, the expense is calculated using net book value, residual value, and remaining production. <!--SR:!2025-04-12,100,383!2025-09-26,214,363-->
   - depreciation / accelerated depreciation ::@:: More depreciation expense is allocated in the early life of an asset. The depreciation rate is doubled. <p> $$\text{annual depreciation expense} = \frac {\text{net book value} } {\text{useful life of fixed asset (year)} / 2}$$ Net book value is cost of fixed asset subtracted by its corresponding accumulated depreciation. <p> Every time you depreciate, make sure the net book value is not below the residual value. If so, it should be changed to the residual value. Also, at the end of the useful life, the net book value should be directly changed to the residual value, since the above may not be sufficient to do so. <p> If net book value or residual value changes, the expense is calculated using net book value, residual value, and remaining useful life. <!--SR:!2025-06-16,134,336!2025-10-20,229,363-->
   - [net book value](../../../../general/book%20value.md) ::@:: $$\text{cost of fixed asset} - \text{corresponding accumulated depreciation}$$ <!--SR:!2025-04-11,99,376!2025-04-11,99,376-->
-- [impairment](../../../../general/impairment%20(financial%20reporting).md) ::@:: An asset can lose value. First, see if there are indicators of impairment. Then, test if the asset is recoverable. If yes, nothing happens. If no, measure the impairment and adjust the asset value. <!--SR:!2026-08-26,506,403!2025-04-09,97,376-->
+- [impairment](../../../../general/impairment%20(financial%20reporting).md) ::@:: An asset can lose value. First, see if there are indicators of impairment. Then, test if the asset is recoverable. If yes, nothing happens. If no, measure the impairment and adjust the asset value. <!--SR:!2026-08-26,506,403!2026-08-21,499,396-->
   - [impaired asset](../../../../general/imparied%20asset.md)
   - impairment / indicators ::@:: examples: <br/> significant pattern of decline in the market price of the PPE <br/> lower demand for a medium to long-term period for the asset's service due to global economic conditions <br/> severe change in economic or legal factors affecting the company or its assets <br/> obsolescence or physical damage to the PPE <br/> asset is held for disposal or is part of a restructuring <!--SR:!2025-09-20,211,363!2025-04-30,100,323-->
   - impairment / recoverability ::@:: If the assets' estimated future cash flows (FCF) is at least its net book value (NBV), nothing happens. Otherwise, impairment occurs. <!--SR:!2026-07-28,480,396!2025-04-14,102,383-->
@@ -416,7 +416,7 @@ The content is in teaching order.
   - present value / annuity ::@:: The present value, if you add a fixed amount of money at the _end_ (not the _start_) of each period. So it always starts with a number smaller than 1. <p> Look up in a table... (Present Value Interest Factors for a One-Dollar Annuity Discounted at _k_ Percent for _n_ Periods: PVIFA) <!--SR:!2026-03-27,375,383!2025-09-11,203,356-->
 - [future value](../../../../general/future%20value.md) ::@:: Money obtained in the present has more value in the future due to interest rate. <p> Present value and future value are related by: $$\text{FV} = (1 + r)^t \text{PV} \,,$$ where $r$ is the interest rate in a time period, and $t$ is the number (can be fractional) of time periods. Or just look up in a table... (Future Value Interest Factors for One Dollar Compounded at _k_ Percent for _n_ Periods: FVIF) <!--SR:!2026-01-15,316,383!2026-06-28,456,396-->
   - future value / annuity ::@:: The future value at the _ending_ period, if you add a fixed amount of money at the _end_ (not the _start_) of each period. So it always starts with 1. <p> Look up in a table... (Future Value Interest Factors for a One-Dollar Annuity Compounded at _k_ Percent for _n_ Periods: FVIFA) <!--SR:!2026-08-03,488,403!2025-06-18,123,343-->
-- [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals. <!--SR:!2025-04-09,98,383!2025-04-10,98,383-->
+- [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals. <!--SR:!2026-09-05,514,403!2025-04-10,98,383-->
 - accounts payable turnover ::@:: $$\frac {\text{total supplier purchases} } {\text{average accounts payable} }$$ Average accounts payable is not time-weighted. It is simply the average of the beginning balance and ending balance. <p> (Funny history... The book has "cost of goods sold" as the numerator instead. Anyways, use the above definition.) <!--SR:!2025-04-13,101,383!2025-04-10,98,376-->
   - accounts payable turnover / interpretation ::@:: It measures how quickly management pays suppliers. Usually, high suggests that a company has enough cash to pay its suppliers in a timely manner. But it could also mean the company is not reinvesting back into its business. <!--SR:!2025-04-12,100,383!2026-08-08,488,396-->
   - average days to pay payables ::@:: $$\frac {365} {\text{accounts payable turnover} }$$ <!--SR:!2025-04-10,98,376!2025-04-13,101,383-->
@@ -429,26 +429,26 @@ The content is in teaching order.
   - [authorized shares](../../../../general/authorised%20capital.md) ::@:: maximum number of shares that can be sold to public <!--SR:!2026-06-25,454,396!2026-09-01,511,403-->
   - [issued shares](../../../../general/issued%20shares.md) ::@:: authorized and sold to the public or repurchased <!--SR:!2026-07-25,479,403!2025-10-29,237,363-->
   - unissued shares ::@:: authorized but never sold and never repurchased <!--SR:!2026-08-18,498,403!2026-07-24,478,403-->
-  - [outstanding shares](../../../../general/shares%20outstanding.md) ::@:: issued shares that shareholders own, has voting and dividend rights <!--SR:!2025-04-09,98,383!2025-04-09,98,383-->
+  - [outstanding shares](../../../../general/shares%20outstanding.md) ::@:: issued shares that shareholders own, has voting and dividend rights <!--SR:!2026-09-06,515,403!2026-09-10,519,403-->
   - [treasury shares](../../../../treasury%20stock.md) ::@:: issued shares that have been repurchased by the company, has no voting rights or dividend rights <!--SR:!2025-04-12,100,383!2026-08-17,497,403-->
 - [equity](../../../../general/equity%20(finance).md)
-  - equity / primary sources ::@:: retained earnings, contributed capital (common stock, par value + additional paid-in capital) <!--SR:!2025-04-09,98,383!2026-03-07,355,376-->
+  - equity / primary sources ::@:: retained earnings, contributed capital (common stock, par value + additional paid-in capital) <!--SR:!2026-09-10,519,403!2026-03-07,355,376-->
 - [par value](../../../../general/par%20value.md) ::@:: It means  stated value or face value of a financial instrument. It may be a nominal value. It may also be a legal capital (the amount of capital, required by the state, that must remain invested in the business). <!--SR:!2025-04-14,102,383!2026-02-07,335,383-->
   - par value / interpretation ::@:: Par value does not equal market value. It is misleading to a certain extent. It is arbitrarily assigned to each share of stock in the memorandum of association (corporate charter). <!--SR:!2026-08-04,487,403!2025-04-12,100,383-->
   - par value / legislation ::@:: In the US, most states allow the issue of no-par stock. But, corporations must state whether the shares are with par value or without par value. <p> With effect from 2014-03-03, effective date of the new Companies Ordinance (Cap.622), HK retires the concept of par value. <!--SR:!2026-03-13,364,383!2025-04-28,98,323-->
 - initial public offering (IPO) ::@:: first time sells its stock to the public <!--SR:!2025-04-14,102,383!2025-04-13,101,383-->
 - seasoned equity issue (SEO) ::@:: new equity issue by an already publicly traded company <!--SR:!2026-07-02,460,396!2025-04-12,100,383-->
 - share capital
-  - share capital / trade ::@:: Transactions between two investors (in the secondary markets) that do not affect the corporation's accounting records (entity concept). <!--SR:!2025-04-13,101,383!2025-04-09,98,383-->
+  - share capital / trade ::@:: Transactions between two investors (in the secondary markets) that do not affect the corporation's accounting records (entity concept). <!--SR:!2025-04-13,101,383!2026-09-09,518,403-->
   - share capital / accounting
-    - share capital / accounting / issue ::@:: debit asset "Cash", credit equity "Common stock", credit equity "Additional paid-in capital" <!--SR:!2025-06-29,144,336!2025-04-09,98,383-->
+    - share capital / accounting / issue ::@:: debit asset "Cash", credit equity "Common stock", credit equity "Additional paid-in capital" <!--SR:!2025-06-29,144,336!2026-09-09,518,403-->
     - share capital / accounting / repurchase ::@:: debit contra-equity "Treasury stock" (using cost), credit asset "Cash" <!--SR:!2026-03-10,358,376!2025-04-10,98,376-->
     - share capital / accounting / reissue (after repurchase) ::@:: debit asset "Cash" (using actual received cash), credit contra-equity "Treasury stock" (using corresponding cost), credit or debit equity "Additional paid-in capital" (to balance the entry) <!--SR:!2025-04-13,101,383!2025-11-12,247,363-->
 
 ## week 10 lecture 2
 
 - datetime: 2024-11-07T13:30:00+08:00/2024-11-07T14:50:00+08:00
-- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!2026-08-30,509,403!2025-04-09,98,383-->
+- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!2026-08-30,509,403!2026-09-11,520,403-->
   - cash dividend ::@:: Without a qualifier at the front, dividend means this. <!--SR:!2025-04-11,99,376!2026-08-19,498,396-->
     - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend. <!--SR:!2025-04-11,99,383!2026-08-15,495,396-->
     - cash dividend / declared but not paid (before end date) ::@:: debit equity "Retained earnings", credit liability "Dividends payable" (effectively, SE becomes L) <!--SR:!2025-04-15,103,383!2025-04-15,103,383-->
@@ -459,7 +459,7 @@ The content is in teaching order.
 - [stock split](../../../../general/stock%20split.md) ::@:: It increases the number of shares in a company. For example, after a 2-for-1 split, each investor will own double the number of shares, and each share will be worth half as much. <p> They are not dividends. <!--SR:!2026-08-16,496,403!2025-04-13,101,376-->
   - stock split / accounting ::@:: No journal entries required as there is no change in total par value, but needs notes disclosures. <!--SR:!2026-03-31,378,383!2025-12-11,269,356-->
 - [preferred stock](../../../../general/preferred%20stock.md) ::@:: They have preference over common stocks in terms of dividend rights. They must receive dividends first before common stocks. They have no voting rights. They have a fixed dividend rate based on their par value. <!--SR:!2025-06-10,129,336!2025-04-14,102,383-->
-  - preferred stock / cumulative ::@:: Any unpaid dividends from previous years (dividends in arrears) must be paid before common dividends are paid. <!--SR:!2026-03-26,374,383!2025-04-09,98,383-->
+  - preferred stock / cumulative ::@:: Any unpaid dividends from previous years (dividends in arrears) must be paid before common dividends are paid. <!--SR:!2026-03-26,374,383!2026-09-03,512,403-->
   - preferred stock / non-cumulative ::@:: Any dividends not paid in previous years are lost permanently. <!--SR:!2026-03-02,337,376!2026-08-27,507,403-->
 - [earnings per share](../../../../general/earnings%20per%20share.md) (EPS)
   - earnings per share / interpretation ::@:: This ratio is often used to compare the dividend-paying performance of different investment alternatives. <!--SR:!2025-04-12,100,383!2026-03-26,373,383-->
@@ -478,7 +478,7 @@ The content is in teaching order.
   - [cash equivalent](../../../../general/cash%20and%20cash%20equivalents.md) ::@:: examples: <br/> short-term, highly liquid investments <br/> readily convertible into cash <br/> maturities of less than 3 months: time span short enough market value is not affected by interest rate changes <!--SR:!2026-04-04,381,383!2025-07-20,159,343-->
   - [ACCT 2010/statement of cash flows](statement%20of%20cash%20flows.md)
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-08-24,504,403!2026-01-02,303,376-->
-  - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2025-04-15,103,383!2025-04-09,98,383-->
+  - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2025-04-15,103,383!2026-09-07,516,403-->
     - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2026-07-29,483,403!2025-04-11,99,383-->
     - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2025-07-12,153,343!2026-01-18,324,383-->
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2026-07-23,477,403!2026-01-12,319,383-->

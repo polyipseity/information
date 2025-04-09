@@ -29,7 +29,7 @@ Since {@{the [Disjunctive Normal Form Theorem](disjunctive%20normal%20form.md) s
 
 ### De Morgan's laws
 
-[De Morgan's laws](De%20Morgan's%20laws.md) also {@{follow from the definitions of these connectives in terms of each other, whichever direction is taken to do it}@}.<sup>[\[1\]](#^ref-1)</sup> If {@{conjunction is taken as primitive}@}, then (4) follows immediately from (1), while (5) follows from (1) via (3):<sup>[\[1\]](#^ref-1)</sup> {@{$$\begin{aligned} \neg (\varphi \lor \psi ) & \equiv \neg \varphi \land \neg \psi \qquad (4) \\ \neg (\varphi \land \psi ) & \equiv \neg \varphi \lor \neg \psi \qquad (5) \end{aligned}$$}@}. <!--SR:!2026-04-05,423,310!2025-04-09,160,310!2025-10-25,316,330-->
+[De Morgan's laws](De%20Morgan's%20laws.md) also {@{follow from the definitions of these connectives in terms of each other, whichever direction is taken to do it}@}.<sup>[\[1\]](#^ref-1)</sup> If {@{conjunction is taken as primitive}@}, then (4) follows immediately from (1), while (5) follows from (1) via (3):<sup>[\[1\]](#^ref-1)</sup> {@{$$\begin{aligned} \neg (\varphi \lor \psi ) & \equiv \neg \varphi \land \neg \psi \qquad (4) \\ \neg (\varphi \land \psi ) & \equiv \neg \varphi \lor \neg \psi \qquad (5) \end{aligned}$$}@}. <!--SR:!2026-04-05,423,310!2027-02-24,686,330!2025-10-25,316,330-->
 
 ## negation is semantically equivalent to dual
 
@@ -49,7 +49,7 @@ __Proof:__<sup>[\[4\]](#^ref-4)</sup><sup>[\[7\]](#^ref-7)</sup> A sentence $X$ 
 
 ### further duality theorems
 
-Assume {@{$\phi \models \psi$}@}. Then {@{${\overline {\phi } }\models {\overline {\psi } }$ by uniform substitution of $\neg P_{i}$ for $P_{i}$. Hence, $\neg \overline \psi \models \neg \overline \phi$, [by contraposition](contraposition.md#proof%20by%20contrapositive)}@}; so finally, {@{$\psi ^{D}\models \phi ^{D}$, by the property that $\varphi ^{D}$ ⟚ $\neg {\overline {\varphi } }$, which was just proved above}@}.<sup>[\[7\]](#^ref-7)</sup> And since {@{$\varphi ^{DD}=\varphi$}@}, it is also true that {@{$\varphi \models \psi$ if, and only if, $\psi ^{D}\models \phi ^{D}$}@}.<sup>[\[7\]](#^ref-7)</sup> And it follows, as a corollary, that if $\phi \models \neg \psi$, then {@{$\neg \psi ^{D} \models \phi ^{D}$}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-08-30,272,330!2026-08-06,519,310!2025-04-09,160,310!2025-06-28,205,310!2025-04-30,140,250!2026-07-15,495,310-->
+Assume {@{$\phi \models \psi$}@}. Then {@{${\overline {\phi } }\models {\overline {\psi } }$ by uniform substitution of $\neg P_{i}$ for $P_{i}$. Hence, $\neg \overline \psi \models \neg \overline \phi$, [by contraposition](contraposition.md#proof%20by%20contrapositive)}@}; so finally, {@{$\psi ^{D}\models \phi ^{D}$, by the property that $\varphi ^{D}$ ⟚ $\neg {\overline {\varphi } }$, which was just proved above}@}.<sup>[\[7\]](#^ref-7)</sup> And since {@{$\varphi ^{DD}=\varphi$}@}, it is also true that {@{$\varphi \models \psi$ if, and only if, $\psi ^{D}\models \phi ^{D}$}@}.<sup>[\[7\]](#^ref-7)</sup> And it follows, as a corollary, that if $\phi \models \neg \psi$, then {@{$\neg \psi ^{D} \models \phi ^{D}$}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-08-30,272,330!2026-08-06,519,310!2027-02-23,685,330!2025-06-28,205,310!2025-04-30,140,250!2026-07-15,495,310-->
 
 ## conjunctive and disjunctive normal forms
 

@@ -121,7 +121,7 @@ The content is in teaching order.
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2025-06-26,212,330-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2025-09-04,267,330!2025-07-15,227,330-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2025-09-04,268,330-->
-- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2025-04-09,146,310-->
+- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2026-12-26,626,330-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2025-05-08,168,310!2025-09-20,281,330-->
 - etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2025-08-20,255,330!2026-11-05,591,330-->

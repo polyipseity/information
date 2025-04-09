@@ -70,7 +70,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
   - `nPC` ::@:: It is the 32-bit address of the _next_ instruction \(next program counter\), i.e. `PC + 4`. <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 - `h` ::@:: It can be any 5-bit unsigned constant. It is used for bit-shit instructions. <!--SR:!2025-06-24,77,335!2025-06-24,77,335-->
 
-Common instruction variants include {@{immediate `_i`, unsigned `_u`}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2025-06-23,77,335!2025-06-21,75,330!2025-06-23,77,335!2025-04-09,18,332-->
+Common instruction variants include {@{immediate `_i`, unsigned `_u`}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2025-06-23,77,335!2025-06-21,75,330!2025-06-23,77,335!2025-07-03,85,352-->
 
 One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2025-06-03,62,310!2025-06-07,66,310-->
 
@@ -104,7 +104,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned; `$LO` \(quotient\) is rounded towards zero <!--SR:!2025-06-23,77,335!2025-06-14,68,335-->
   - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2025-06-20,73,335!2025-06-17,71,335-->
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2025-05-21,49,332!2025-06-04,57,332-->
-- multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2025-06-28,81,352!2025-04-09,18,332-->
+- multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2025-06-28,81,352!2025-07-02,84,352-->
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed <!--SR:!2025-06-24,77,335!2025-06-14,68,335-->; note the register placeholder `$d` is unused
   - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2025-04-12,4,341!2025-04-11,3,321-->
 - multiply immediate ::@:: `multi` does not exist. <!--SR:!2025-06-19,73,335!2025-06-21,75,330-->
@@ -134,7 +134,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-06-24,77,335!2025-06-17,71,335-->
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2025-06-10,64,330!2025-06-11,65,330-->
   - shift right arithmetic / arithmetic ::@:: It has the same effect as dividing \(rounded towards zero\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
-- shift right arithmetic variable ::@:: `srav $d, $t, h`: `$d = $t >> h;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-04-09,18,332!2025-05-06,34,312-->
+- shift right arithmetic variable ::@:: `srav $d, $t, h`: `$d = $t >> h;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-07-01,83,352!2025-05-06,34,312-->
 - shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0 <!--SR:!2025-06-20,74,330!2025-06-20,74,330-->
   - shift right logical / arithmetic ::@:: It has the same effect as dividing \(rounded towards zero\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 - shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-06-16,69,330!2025-05-19,47,315-->
@@ -202,7 +202,7 @@ The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, an
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2025-06-12,66,330-->
 
-For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. <!--SR:!2025-06-03,56,332!2025-04-09,18,332!2025-04-09,18,332!2025-06-28,81,352!2025-04-09,18,332-->
+For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. <!--SR:!2025-06-03,56,332!2025-07-01,83,352!2025-06-30,82,352!2025-06-28,81,352!2025-07-03,85,352-->
 
 Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2025-06-20,73,335!2025-05-31,54,315!2025-06-27,80,352-->
 

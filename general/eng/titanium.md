@@ -41,7 +41,7 @@ return await memorize_table(
 <!--pytextgen generate section="ff11"--><!-- The following content is generated at 2024-01-04T20:17:52.894713+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[implants](implant%20(medicine).md) <!--SR:!2027-05-11,1077,330!2028-06-10,1475,350-->
-- [implants](implant%20(medicine).md)→::@::←supersonic aircraft bodies <!--SR:!2025-04-09,461,310!2028-03-16,1405,350-->
+- [implants](implant%20(medicine).md)→::@::←supersonic aircraft bodies <!--SR:!2029-03-04,1425,310!2028-03-16,1405,350-->
 - supersonic aircraft bodies→::@::←_(end)_ <!--SR:!2027-01-01,981,330!2026-12-12,966,330-->
 
 <!--/pytextgen-->

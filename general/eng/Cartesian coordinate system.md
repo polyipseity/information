@@ -163,7 +163,7 @@ Assuming that {@{translations are not used \(that is, $b_{1}=b_{2}=0$\)}@} trans
 
 > {@{![Effect of applying various 2D affine transformation matrices on a unit square \(reflections are special cases of scaling\)](../../archives/Wikimedia%20Commons/2D%20affine%20transformation%20matrix.svg)}@}
 >
-> Effect of {@{applying various 2D affine transformation matrices on a unit square}@} \(reflections are {@{special cases of scaling}@}\) <!--SR:!2025-09-14,162,322!2025-04-09,42,290!2025-05-16,76,329-->
+> Effect of {@{applying various 2D affine transformation matrices on a unit square}@} \(reflections are {@{special cases of scaling}@}\) <!--SR:!2025-09-14,162,322!2025-09-24,168,310!2025-05-16,76,329-->
 
 {@{[Affine transformations](affine%20transformation.md) of the [Euclidean plane](Euclidean%20plane.md)}@} are {@{transformations that map lines to lines, but may change distances and angles}@}. As said in the preceding section, they can be represented with {@{augmented matrices: $${\begin{pmatrix}A_{1,1}&A_{2,1}&b_{1}\\A_{1,2}&A_{2,2}&b_{2}\\0&0&1\end{pmatrix} }{\begin{pmatrix}x\\y\\1\end{pmatrix} }={\begin{pmatrix}x'\\y'\\1\end{pmatrix} }.$$}@} {@{The Euclidean transformations}@} are {@{the affine transformations such that the 2×2 matrix of the $A_{i,j}$ is [orthogonal](orthogonal%20matrix.md)}@}. <!--SR:!2025-05-07,68,329!2025-05-20,77,342!2025-05-24,81,342!2025-04-29,61,310!2025-04-10,43,290-->
 
@@ -190,7 +190,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 >
 > {@{The [right-hand rule](right-hand%20rule.md)}@} <!--SR:!2025-05-22,79,342!2025-06-28,91,270-->
 
-{@{Fixing or choosing the _x_-axis}@} {@{determines the _y_-axis up to direction}@}. Namely, the _y_-axis is {@{necessarily the [perpendicular](perpendicular.md) to the _x_-axis through the point marked 0 on the _x_-axis}@}. But there is {@{a choice of which of the two half lines on the perpendicular to designate as positive and which as negative}@}. Each of these two choices determines {@{a different orientation \(also called _handedness_\) of the Cartesian plane}@}. <!--SR:!2025-05-16,76,329!2025-04-24,57,310!2025-04-09,42,290!2025-04-22,55,310!2025-04-28,60,310-->
+{@{Fixing or choosing the _x_-axis}@} {@{determines the _y_-axis up to direction}@}. Namely, the _y_-axis is {@{necessarily the [perpendicular](perpendicular.md) to the _x_-axis through the point marked 0 on the _x_-axis}@}. But there is {@{a choice of which of the two half lines on the perpendicular to designate as positive and which as negative}@}. Each of these two choices determines {@{a different orientation \(also called _handedness_\) of the Cartesian plane}@}. <!--SR:!2025-05-16,76,329!2025-04-24,57,310!2025-09-23,167,310!2025-04-22,55,310!2025-04-28,60,310-->
 
 The usual way of orienting the plane, with {@{the positive _x_-axis pointing right and the positive _y_-axis pointing up \(and the _x_-axis being the "first" and the _y_-axis the "second" axis\)}@}, is considered {@{the _positive_ or _standard_ orientation, also called the _right-handed_ orientation}@}. <!--SR:!2025-09-08,160,310!2025-05-26,83,342-->
 

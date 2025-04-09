@@ -46,7 +46,7 @@ return await memorize_table(
 > | {@{[antacids](antacid.md)}@} | {@{Consuming [aluminium hydroxide](aluminium%20hydroxide.md) or [magnesium hydroxide](magnesium%20hydroxide.md) neutralizes [hydrochloric acid](hydrochloric%20acid.md) in the [stomach](stomach.md).}@} |
 > | {@{control of [soil pH](soil%20pH.md)}@} | {@{Powdered [limestone](limestone.md) and [slaked lime](calcium%20hydroxide.md) can increase [soil pH](soil%20pH.md) while [ammonium sulfate](ammonium%20sulfate.md) can decrease it.}@} |
 > | {@{production of [fertilizer](fertilizer.md)}@} | {@{Neutralization of [nitric acid](nitric%20acid.md) or [sulfuric acid](sulfuric%20acid.md) with [ammonia](ammonia.md) [gas](gas.md) is used to make [ammonium nitrate](ammonium%20nitrate.md) or [ammonium sulfate](ammonium%20sulfate.md).}@} |
-> | {@{[wastewater treatment](water%20treatment.md)}@} | {@{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid) can neutralize [alkaline](alkali.md) waste.}@} | <!--SR:!2027-09-20,1268,350!2025-04-09,514,310!2026-05-19,817,330!2026-08-15,715,238!2026-10-09,932,338!2027-01-07,843,258!2027-01-24,1010,338!2027-02-03,921,258-->
+> | {@{[wastewater treatment](water%20treatment.md)}@} | {@{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid) can neutralize [alkaline](alkali.md) waste.}@} | <!--SR:!2027-09-20,1268,350!2031-04-23,2205,330!2026-05-19,817,330!2026-08-15,715,238!2026-10-09,932,338!2027-01-07,843,258!2027-01-24,1010,338!2027-02-03,921,258-->
 
 <!--/pytextgen-->
 

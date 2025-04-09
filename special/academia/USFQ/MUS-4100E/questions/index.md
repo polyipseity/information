@@ -154,7 +154,7 @@ tags:
 >
 > Why was no music recorded between 1942 and 1944?
 >
-> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially.}@} <!--SR:!2025-04-09,12,300-->
+> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially.}@} <!--SR:!2025-05-27,48,320-->
 
 <!-- markdownlint MD028 -->
 

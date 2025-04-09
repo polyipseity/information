@@ -109,7 +109,7 @@ Let {@{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}@}. <!--
 
 ## pigeonhole principle: distance and equilateral triangle
 
-We have {@{an equilateral triangle of side length 2. Amir chooses five points inside this triangle. Prove that two of the points have a distance of at most 1}@}. <!--SR:!2025-04-09,160,320-->
+We have {@{an equilateral triangle of side length 2. Amir chooses five points inside this triangle. Prove that two of the points have a distance of at most 1}@}. <!--SR:!2027-03-19,709,340-->
 
 - strategy ::@:: Think of a way to make "pigeonholes" for the 5 points... <!--SR:!2025-06-04,203,320!2025-10-20,314,340-->
 - generalization ::@:: This can be applied to other shapes: Any two points on a circle, including the boundary, have a distance of at most its diameter. <!--SR:!2025-07-03,221,320!2025-08-29,253,320-->

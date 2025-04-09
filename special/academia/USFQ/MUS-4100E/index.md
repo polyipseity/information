@@ -101,7 +101,7 @@ The content is in teaching order.
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-12-14,254,330!2025-12-15,255,330-->
   - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-07-19,125,290!2025-04-21,73,321-->
 - [music](../../../../general/music.md)
-  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2025-04-09,63,310-->
+  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2026-01-04,270,330-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-08-29,167,310!2025-08-16,159,321-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2025-04-12,66,321!2025-04-20,72,321-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-10-01,180,310!2025-10-08,200,321-->

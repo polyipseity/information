@@ -16,7 +16,7 @@ Evaluate $$\int \! \frac x {\sqrt{-148 - 6x^2 + 60x} } \,\mathrm{d}x$$.
 
 ## strategy
 
-- inspecting "$$\int \! \frac x {\sqrt{-148 - 6x^2 + 60x} } \,\mathrm{d}x$$" :@: Extract the factor $\frac 1 {\sqrt 2}$ from the integrand. Complete the square for the square root to get $\sqrt{-\left(\sqrt 3 x - 5\sqrt 3 \right)^2 + 1}$. Substitute $\sqrt 3 x - 5\sqrt 3 = \sin \theta \quad \theta \in \left[ -\frac \pi 2, \frac \pi 2 \right]$. <!--SR:!2025-04-09,68,230-->
+- inspecting "$$\int \! \frac x {\sqrt{-148 - 6x^2 + 60x} } \,\mathrm{d}x$$" :@: Extract the factor $\frac 1 {\sqrt 2}$ from the integrand. Complete the square for the square root to get $\sqrt{-\left(\sqrt 3 x - 5\sqrt 3 \right)^2 + 1}$. Substitute $\sqrt 3 x - 5\sqrt 3 = \sin \theta \quad \theta \in \left[ -\frac \pi 2, \frac \pi 2 \right]$. <!--SR:!2025-09-13,157,230-->
 
 ## solution
 

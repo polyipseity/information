@@ -53,7 +53,7 @@ If the limit does not exist, then {@{the [oscillation](oscillation%20(mathematic
 
 #### non-existence of one-sided limit(s)
 
-The {@{[Dirichlet function](Dirichlet%20function.md): $$f(x) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}@} has no limit at every [real](real%20number.md). <!--SR:!2025-04-09,311,364-->
+The {@{[Dirichlet function](Dirichlet%20function.md): $$f(x) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}@} has no limit at every [real](real%20number.md). <!--SR:!2029-07-10,1553,384-->
 
 #### non-equality of one-sided limits
 
