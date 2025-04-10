@@ -132,7 +132,7 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-13,23,150!2025-04-10,29,201!2025-10-20,196,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-13,23,150!2025-06-09,60,201!2025-10-20,196,281-->
 
 ### minimal order
 
@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-04-10,5,130-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-04-17,7,130-->
 
 ## use in cryptography
 

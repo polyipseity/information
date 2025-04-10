@@ -9,7 +9,7 @@ tags:
 
 # issued shares
 
-In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After allotment, {@{a subscriber becomes a shareholder, though usually that also requires formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-15,58,310!2025-05-05,75,324!2025-04-10,50,304!2025-04-12,52,304!2025-04-20,62,310!2025-04-26,67,310!2025-04-12,55,310!2025-04-13,53,304-->
+In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After allotment, {@{a subscriber becomes a shareholder, though usually that also requires formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-15,58,310!2025-05-05,75,324!2025-11-02,206,324!2025-04-12,52,304!2025-04-20,62,310!2025-04-26,67,310!2025-04-12,55,310!2025-04-13,53,304-->
 
 ## overview
 
@@ -23,7 +23,7 @@ Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability
 
 (annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2025-04-26,67,310!2025-04-16,58,310-->
 
-(annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2025-04-13,56,310!2025-04-10,50,304-->
+(annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2025-04-13,56,310!2025-11-03,207,324-->
 
 ## see also
 

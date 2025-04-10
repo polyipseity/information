@@ -142,11 +142,11 @@ The content is in teaching order.
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00
 - [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2025-05-12,82,340!2025-07-06,108,300-->
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2025-05-03,75,340!2025-05-08,78,340-->
-  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-04-10,52,320!2025-05-10,80,340-->
+  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-11-25,229,340!2025-05-10,80,340-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-05-12,82,340!2025-05-04,76,340-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-06-28,105,300!2025-08-30,159,320-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-05-09,79,340!2025-05-05,77,340-->
-  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-04-17,57,320!2025-04-10,52,320-->
+  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-04-17,57,320!2025-11-26,230,340-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2025-05-05,77,340-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2025-05-03,75,340!2025-05-09,79,340-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2025-05-08,78,340!2025-05-05,77,340-->
@@ -156,12 +156,12 @@ The content is in teaching order.
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-04-20,60,320!2025-10-07,194,340-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-05-02,74,340!2025-05-06,78,340-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-08-03,142,320!2025-10-14,200,340-->
-- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-04-10,56,320!2025-05-06,78,340-->
+- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-12-16,250,340!2025-05-06,78,340-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-05-13,83,340!2025-05-08,78,340-->
   - [syncopation](../../../../general/syncopation.md)
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-07-02,108,300!2025-04-13,20,280-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-05-11,81,340!2025-04-10,56,320-->
+  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-05-11,81,340!2025-12-15,249,340-->
 - quiz (attendance): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2
@@ -227,7 +227,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00
   - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00
-- [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-04-10,44,338!2025-04-12,46,338-->
+- [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-11-01,205,358!2025-04-12,46,338-->
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2025-06-04,91,378!2025-06-07,94,378-->
 - [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2025-04-30,64,358!2025-07-26,127,338-->
   - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-05-13,69,358!2025-07-25,126,338-->
@@ -260,7 +260,7 @@ The content is in teaching order.
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-04-12,46,338!2025-06-06,93,378-->
 - [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-06-06,93,378!2025-06-13,100,378-->
   - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2025-06-04,91,378!2025-06-03,90,378-->
-- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-04-10,44,338!2025-10-14,193,358-->
+- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-09-05,148,338!2025-10-14,193,358-->
 - [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2025-05-15,71,358!2025-06-10,97,378-->
 - [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2025-05-13,69,358!2025-06-09,96,378-->
   - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2025-05-13,69,358!2025-06-12,99,378-->
@@ -286,7 +286,7 @@ The content is in teaching order.
 - [Fletcher Henderson](Fletcher%20Henderson.md)
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md)
 - [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2025-05-22,68,352!2025-04-24,50,352-->
-- [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2025-05-24,70,352!2025-04-10,36,332-->
+- [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2025-05-24,70,352!2025-09-20,163,352-->
   - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2025-04-29,51,352!2025-05-23,69,352-->
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2025-07-11,114,392!2025-06-20,92,372-->
 - [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show. <!--SR:!2025-07-25,126,392!2025-05-23,69,352-->
@@ -295,7 +295,7 @@ The content is in teaching order.
   - Duke Ellington / works ::@:: "Jungle Nights in Harlem" (1930) — Duke Ellington & His Cotton Club Orchestra <!--SR:!2025-06-20,92,372!2025-06-20,92,372-->
   - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually. <!--SR:!2025-07-24,125,392!2025-07-13,116,392-->
     - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington <!--SR:!2025-05-24,70,352!2025-05-24,70,352-->
-    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2025-07-27,128,392!2025-04-10,36,332-->
+    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2025-07-27,128,392!2025-08-05,117,332-->
     - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2025-04-28,51,352!2025-05-19,48,352-->
     - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-04-18,44,352!2025-06-18,95,372-->
 - [popular music](../../../../general/popular%20music.md)

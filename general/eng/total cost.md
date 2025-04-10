@@ -12,7 +12,7 @@ tags:
 
 > {@{![One can decompose total costs as the sum of [fixed costs](fixed%20costs.md) and [variable costs](variable%20costs.md).](../../archives/Wikimedia%20Commons/CVP-TC-FC-VC.svg)}@}
 >
-> One can {@{decompose total costs as the sum of [fixed costs](fixed%20costs.md) and [variable costs](variable%20costs.md)}@}. Here output is {@{measured along the horizontal axis}@}. In {@{the [Cost-Volume-Profit Analysis](cost-volume-profit%20analysis.md) model}@}, {@{total costs are linear in volume}@}. <!--SR:!2025-04-11,73,321!2026-01-22,294,330!2026-02-08,307,341!2025-04-10,72,321!2025-04-11,73,321-->
+> One can {@{decompose total costs as the sum of [fixed costs](fixed%20costs.md) and [variable costs](variable%20costs.md)}@}. Here output is {@{measured along the horizontal axis}@}. In {@{the [Cost-Volume-Profit Analysis](cost-volume-profit%20analysis.md) model}@}, {@{total costs are linear in volume}@}. <!--SR:!2025-04-11,73,321!2026-01-22,294,330!2026-02-08,307,341!2026-02-27,323,341!2025-04-11,73,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -20,7 +20,7 @@ tags:
 >
 > The total cost curve, if {@{non-linear, can represent increasing and [diminishing marginal returns](diminishing%20marginal%20returns.md)}@}. <!--SR:!2025-04-11,73,321!2026-02-13,312,341-->
 
-In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2025-04-10,72,321!2025-04-11,73,321!2026-02-20,317,341!2025-04-12,74,321!2025-06-11,113,301!2026-01-22,294,330!2025-10-24,216,321!2026-02-23,320,341-->
+In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2026-03-01,325,341!2025-04-11,73,321!2026-02-20,317,341!2025-04-12,74,321!2025-06-11,113,301!2026-01-22,294,330!2025-10-24,216,321!2026-02-23,320,341-->
 
 {@{Total cost in economics}@} includes {@{the total [opportunity cost](opportunity%20cost.md) \(benefits received from the next-best alternative\) of each [factor of production](factors%20of%20production.md) as part of its fixed or variable costs}@}. <!--SR:!2026-02-18,316,341!2025-05-29,93,281-->
 
@@ -38,8 +38,8 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 
 - Total product \(= Output, Q\) ::@:: = Quantity of goods <!--SR:!2026-02-07,306,341!2026-02-14,313,341-->
 - Average Variable Cost \(AVC\) ::@:: = Total Variable Cost / Quantity of goods \(This formula is cyclic with the TVC one\) <!--SR:!2026-02-17,315,341!2025-04-11,73,321-->
-- Average Fixed Cost \(AFC\) ::@:: = ATC – AVC <!--SR:!2025-04-10,72,321!2026-02-09,308,341-->
-- Total Cost ::@:: = \(AVC + AFC\) X Quantity of goods <!--SR:!2025-04-10,72,321!2026-02-12,311,341-->
+- Average Fixed Cost \(AFC\) ::@:: = ATC – AVC <!--SR:!2026-03-02,326,341!2026-02-09,308,341-->
+- Total Cost ::@:: = \(AVC + AFC\) X Quantity of goods <!--SR:!2026-02-22,318,341!2026-02-12,311,341-->
 - Total Variable Cost ::@:: = Variable cost per unit X Quantity of goods <!--SR:!2025-08-06,159,321!2026-02-09,308,341-->
 - Total Fixed Cost ::@:: = TC – TVC <!--SR:!2025-04-11,73,321!2025-04-12,74,321-->
 - Marginal Cost ::@:: = Change in Total Costs / Change in Quantity of goods <!--SR:!2026-02-11,310,341!2026-02-12,311,341-->
@@ -48,11 +48,11 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2025-06-15,116,301!2026-01-22,294,330-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2026-02-16,314,341!2026-02-22,319,341-->
 - Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2026-02-15,313,341!2025-04-12,74,321-->
-- Total Product ::@:: = AP X Variable Factor <!--SR:!2025-08-19,168,321!2025-04-10,72,321-->
-- Profit ::@:: = TR – TC or \(P-ATC\)\*Q <!--SR:!2025-04-12,74,321!2025-04-10,72,321-->
+- Total Product ::@:: = AP X Variable Factor <!--SR:!2025-08-19,168,321!2026-02-23,319,341-->
+- Profit ::@:: = TR – TC or \(P-ATC\)\*Q <!--SR:!2025-04-12,74,321!2026-02-28,324,341-->
 - Loss ::@:: = TC – TR \(if positive\) <!--SR:!2026-02-11,310,341!2026-01-22,294,330-->
 - Break Even Point: ::@:: value of Quantity of goods where Average Revenue = Average Total Cost <!--SR:!2026-02-15,313,341!2025-10-27,219,321-->
-- Profit Maximizing Condition: ::@:: Marginal Revenue = Marginal Cost <!--SR:!2025-10-28,220,321!2025-04-10,72,321-->
+- Profit Maximizing Condition: ::@:: Marginal Revenue = Marginal Cost <!--SR:!2025-10-28,220,321!2026-02-26,322,341-->
 <!-- - Marginal Revenue =The rate of change in Total Revenue with Quantity -->
 
 ## see also

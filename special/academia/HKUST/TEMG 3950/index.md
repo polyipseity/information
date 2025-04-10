@@ -211,7 +211,7 @@ The content is in teaching order.
 - critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
-  - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2026-01-14,470,381-->
+  - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2026-01-14,470,381-->
 - nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2025-12-14,445,381-->
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->

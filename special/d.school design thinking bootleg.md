@@ -116,7 +116,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-22T20:40:48.789313+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2027-03-03,750,290!2025-04-10,286,330-->
+- _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2027-03-03,750,290!2028-10-31,1300,350-->
 - (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2026-03-13,502,310-->
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2025-04-23,77,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2027-11-01,937,330-->

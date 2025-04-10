@@ -158,12 +158,12 @@ The content is in teaching order.
   - activity 2: how many uses, better / takeaways ::@:: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2027-02-03,666,414!2027-02-10,673,414-->
 - activity 3: Are you creative? ::@:: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 4 things, each in 10 seconds: baby, door, house, and innovation. Finally, share, compare, and discuss with others. <!--SR:!2027-02-22,684,414!2027-02-11,674,414-->
 - design thinking
-  - design thinking / creativity ::@:: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2027-01-17,653,414!2025-04-10,128,394-->
+  - design thinking / creativity ::@:: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2027-01-17,653,414!2027-03-01,690,414-->
   - design thinking / mindfulness of process ::@:: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2027-02-22,685,414!2025-04-11,129,394-->
   - design thinking / design for someone else ::@:: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2027-02-21,683,414!2026-07-15,494,394-->
 - activity 4: design a wallet for your partner ::@:: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2025-04-13,131,394!2026-12-26,637,414-->
   - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2026-12-25,636,414!2026-01-12,327,374-->
-- point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2027-02-14,677,414!2025-04-10,128,394-->
+- point of view statement ::@:: (user) needs a way to (verb) because (surprising insight). <!--SR:!2027-02-14,677,414!2027-03-02,691,414-->
 
 ## week 9 tutorial
 
@@ -176,7 +176,7 @@ The content is in teaching order.
   - decision making / elements ::@:: information, objectives, options <!--SR:!2027-01-06,645,414!2027-02-20,682,414-->
   - decision making / process (bad) ::@:: gather & create → narrow down → choose → _agonize_ <!--SR:!2025-04-12,130,394!2027-02-21,684,414-->
   - decision making / process ::@:: gather & create → narrow down → choose → _let go & move on_ <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence...) <!--SR:!2025-04-11,129,394!2027-01-16,652,414-->
-  - decision making / gather & create ::@:: Try to gather more choices beyond the binary! <p> _Luck_ is about being open to more than just the task at hand. Anxiety disrupts people's ability to notice the unexpected. Those who call themselves lucky actively sought opportunities to meet new people and have new experiences. (Richard Wiseman, _The Luck Factor_) <!--SR:!2025-04-10,128,394!2025-04-12,130,394-->
+  - decision making / gather & create ::@:: Try to gather more choices beyond the binary! <p> _Luck_ is about being open to more than just the task at hand. Anxiety disrupts people's ability to notice the unexpected. Those who call themselves lucky actively sought opportunities to meet new people and have new experiences. (Richard Wiseman, _The Luck Factor_) <!--SR:!2027-02-26,687,414!2025-04-12,130,394-->
   - decision making / narrow down ::@:: You need to narrow down your choices to avoid choice overload. <!--SR:!2026-12-17,629,414!2027-01-05,644,414-->
     - decision making / narrow down / matrix ::@:: Instead of listing the pros and cons of each choice, create a matrix. The column headers are the choices while the row headers are the objectives. Then assess each choice for each objective, ideally using emotional symbols (e.g. smiley face, neutral face, sad face). Use the matrix to remove the worst choices. <!--SR:!2026-01-23,331,374!2025-04-13,131,394-->
 - design thinking
@@ -190,7 +190,7 @@ The content is in teaching order.
 - decision making
   - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2027-02-19,681,414!2026-12-29,639,414-->
   - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2027-02-09,672,414!2026-12-11,624,414-->
-    - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2025-04-10,128,394-->
+    - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2027-02-27,688,414-->
 
 ## week 10 tutorial
 

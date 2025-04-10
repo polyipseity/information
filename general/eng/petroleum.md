@@ -103,7 +103,7 @@ return _chain.from_iterable(await _gather(
 - [butane](butane.md):@:-12 to -1 °C <!--SR:!2027-01-08,963,314-->
 - [gasoline/petrol](gasoline.md):@:-1 to 110 °C <!--SR:!2025-07-24,219,170-->
 - [naphtha](naphtha.md):@:30 to 200 °C <!--SR:!2025-09-10,200,190-->
-- [jet fuel](jet%20fuel.md):@:150 to 205 °C <!--SR:!2025-04-10,36,130-->
+- [jet fuel](jet%20fuel.md):@:150 to 205 °C <!--SR:!2025-05-26,46,130-->
 - [kerosene](kerosene.md):@:205 to 260 °C <!--SR:!2025-04-11,99,130-->
 - [fuel oil](fuel%20oil.md):@:205 to 290 °C <!--SR:!2025-04-20,29,130-->
 - [diesel fuel](diesel%20fuel.md):@:260 to 315 °C <!--SR:!2025-04-15,59,130-->

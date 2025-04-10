@@ -333,7 +333,7 @@ return await memorize_map(
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2026-11-29,708,289!2025-06-14,118,189-->
 > - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::@:: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2025-08-15,322,269!2025-07-03,176,209-->
-> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2025-04-10,128,309-->
+> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2026-05-11,396,309-->
 > - $0 \cos 4.2x + 0 \sin 4.2x$ ::@:: $0$ <!--SR:!2025-10-25,337,359!2026-02-01,439,379-->
 
 ## references

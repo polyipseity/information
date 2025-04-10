@@ -67,7 +67,7 @@ Here, since {@{the first equality follows from the last two}@}, it {@{suffices t
 
 ## diagram chasing
 
-{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-04-15,54,310!2025-04-10,47,290!2025-04-11,48,290!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
+{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-04-15,54,310!2025-10-19,192,310!2025-04-11,48,290!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
 
 {@{Examples of proofs by diagram chasing}@} include those typically given for {@{the [five lemma](five%20lemma.md), the [snake lemma](snake%20lemma.md), the [zig-zag lemma](zig-zag%20lemma.md), and the [nine lemma](nine%20lemma.md)}@}. <!--SR:!2025-04-30,67,310!2025-04-16,55,310-->
 
@@ -91,7 +91,7 @@ More formally, a commutative diagram is {@{a visualization of a diagram indexed 
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-04-16,55,310-->
 - the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2025-04-25,63,310!2025-04-16,55,310-->
 
-Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-04-15,54,310!2025-04-25,63,310!2025-04-10,47,290-->
+Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-04-15,54,310!2025-04-25,63,310!2025-10-18,191,310-->
 
 - the objects ::@:: are the nodes, <!--SR:!2025-04-23,60,310!2025-04-21,59,310-->
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-04-18,57,310!2025-04-24,62,310-->

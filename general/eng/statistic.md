@@ -38,7 +38,7 @@ There are {@{a variety of functions}@} that are used to {@{calculate statistics}
 - Sample [quantiles](quantile.md) ::@:: besides the [median](median.md), e.g., [quartiles](quartile.md) and [percentiles](percentile.md) <!--SR:!2025-04-23,61,310!2025-04-28,65,310-->
 - [Test statistics](test%20statistic.md), ::@:: such as [t-statistic](t-statistic.md), [chi-squared statistic](chi-squared%20statistic.md), [f statistic](F-test.md) <!--SR:!2025-04-29,66,310!2025-04-18,57,310-->
 - [Order statistics](order%20statistic.md), ::@:: including sample maximum and minimum <!--SR:!2025-04-23,61,310!2025-04-16,55,310-->
-- Sample [moments](moment%20(mathematics).md) and functions thereof, ::@:: including [kurtosis](kurtosis.md) and [skewness](skewness.md) <!--SR:!2025-04-28,65,310!2025-04-10,47,290-->
+- Sample [moments](moment%20(mathematics).md) and functions thereof, ::@:: including [kurtosis](kurtosis.md) and [skewness](skewness.md) <!--SR:!2025-04-28,65,310!2025-10-19,192,310-->
 - Various [functionals](functional%20(mathematics).md) ::@:: of the [empirical distribution function](empirical%20distribution%20function.md) <!--SR:!2025-04-29,66,310!2025-04-25,63,310-->
 
 ## properties

@@ -200,7 +200,7 @@ water and sewage treatment system
 - reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-06-19,98,241-->
 - sewage treatment→::@::←transport <!--SR:!2026-04-09,388,230!2026-03-21,463,301-->
 - transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-06-13,104,150-->
-- water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
+- water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2028-09-09,1248,381-->
 
 <!--/pytextgen-->
 
@@ -1019,7 +1019,7 @@ Taipei 101
 - HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2025-05-06,208,334-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
-- Taipei 101→::@::←_(end)_ <!--SR:!2025-04-10,280,367!2026-05-17,425,301-->
+- Taipei 101→::@::←_(end)_ <!--SR:!2029-02-16,1408,387!2026-05-17,425,301-->
 
 <!--/pytextgen-->
 
@@ -1102,7 +1102,7 @@ water tower
 - storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2025-09-29,392,340-->
 - tunnel→::@::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
 - unusual structure→::@::←water tower <!--SR:!2025-10-29,314,290!2026-03-29,369,290-->
-- water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
+- water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2027-09-20,893,321-->
 
 <!--/pytextgen-->
 
@@ -1143,7 +1143,7 @@ and the Structural Engineering Institute (SEI).
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
-- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
+- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2028-02-27,1053,335-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2025-08-02,322,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->

@@ -140,7 +140,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-05-13,36,170-->
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2025-04-25,129,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
-- [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2025-04-10,266,210-->
+- [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2026-10-22,560,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-07-08,115,190!2025-05-06,383,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2025-04-19,242,190-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-04-22,14,150-->

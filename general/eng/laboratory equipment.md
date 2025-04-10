@@ -147,7 +147,7 @@ return _chain.from_iterable(await _gather(
 - [burette](burette.md)→::@::←[burette clamp](burette%20clamp.md) <!--SR:!2025-11-30,444,310!2027-05-07,1162,350-->
 - [burette clamp](burette%20clamp.md)→::@::←[clamp](clamp.md) <!--SR:!2026-01-15,470,310!2026-03-27,501,310-->
 - [clamp](clamp.md)→::@::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2026-02-06,623,250!2025-06-28,151,190-->
-- [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→::@::←[crucible](crucible.md) <!--SR:!2025-04-10,231,150!2026-08-16,782,270-->
+- [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→::@::←[crucible](crucible.md) <!--SR:!2026-03-24,348,150!2026-08-16,782,270-->
 - [crucible](crucible.md)→::@::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
 - [crucible tongs](crucible%20tongs.md)→::@::←[desiccator](desiccator.md) <!--SR:!2025-10-07,631,310!2026-06-29,517,190-->
 - [desiccator](desiccator.md)→::@::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2026-05-14,480,270!2025-05-17,214,270-->

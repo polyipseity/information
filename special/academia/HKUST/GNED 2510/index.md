@@ -73,7 +73,7 @@ The content is in teaching order.
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2025-08-14,250,330!2025-07-07,221,330-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2025-06-30,199,310-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2025-08-17,252,330!2025-08-21,257,330-->
-  - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2025-04-10,148,310-->
+  - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2027-01-03,633,330-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2025-06-03,189,310-->
   - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2025-10-23,302,330!2025-05-30,176,310-->
 - assignment 1: job description, curriculum vitae, and cover letter

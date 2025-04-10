@@ -73,7 +73,7 @@ Ordinary differential equations are furthered classified:
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {@{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}@} <!--SR:!2025-04-10,367,290-->
+> {@{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}@} <!--SR:!2029-04-30,1481,310-->
 
 <!-- markdownlint MD028 -->
 
