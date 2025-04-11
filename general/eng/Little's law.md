@@ -33,7 +33,7 @@ For example: {@{A queue depth meter}@} shows {@{an average of nine jobs waiting 
 
 Imagine {@{a small store with a single counter and an area for browsing}@}, where {@{only one person can be at the counter at a time}@}, and {@{no one leaves without buying something}@}. So the system is: <p> &emsp; {@{_entrance → browsing → counter → exit_}@} <!--SR:!2025-05-05,63,310!2025-04-27,57,310!2025-05-09,67,310!2025-05-07,65,310-->
 
-If {@{the rate at which people enter the store \(called the arrival rate\) is the rate at which they exit \(called the exit rate\)}@}, {@{the system is stable}@}. By contrast, {@{an arrival rate exceeding an exit rate}@} would {@{represent an unstable system}@}, where {@{the number of waiting customers in the store would gradually increase towards infinity}@}. <!--SR:!2025-04-11,41,290!2025-04-28,58,310!2025-05-06,64,310!2025-05-05,63,310!2025-04-27,57,310-->
+If {@{the rate at which people enter the store \(called the arrival rate\) is the rate at which they exit \(called the exit rate\)}@}, {@{the system is stable}@}. By contrast, {@{an arrival rate exceeding an exit rate}@} would {@{represent an unstable system}@}, where {@{the number of waiting customers in the store would gradually increase towards infinity}@}. <!--SR:!2025-09-21,163,310!2025-04-28,58,310!2025-05-06,64,310!2025-05-05,63,310!2025-04-27,57,310-->
 
 Little's Law tells us that {@{the average number of customers in the store _L_}@}, is {@{the effective arrival rate _λ_, times the average time that a customer spends in the store _W_}@}, or simply: {@{$$L=\lambda W$$}@} <!--SR:!2025-05-07,65,310!2025-04-28,58,310!2025-09-13,159,310-->
 

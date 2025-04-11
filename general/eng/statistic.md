@@ -34,7 +34,7 @@ In this example, {@{"5.6 days" is a statistic}@}, namely {@{the mean length of s
 There are {@{a variety of functions}@} that are used to {@{calculate statistics}@}. Some include: <!--SR:!2025-04-19,58,310!2025-04-25,63,310-->
 
 - (annotation: central location statistics) ::@:: [Sample mean](sample%20mean.md), [sample median](sample%20median.md#medians%20for%20samples), and [sample mode](mode%20(statistics).md) <!--SR:!2025-04-15,54,310!2025-04-18,57,310-->
-- (annotation: dispersion statistics) ::@:: [Sample variance](sample%20variance.md#sample%20variance) and sample [standard deviation](standard%20deviation.md) <!--SR:!2025-04-11,48,290!2025-04-30,67,310-->
+- (annotation: dispersion statistics) ::@:: [Sample variance](sample%20variance.md#sample%20variance) and sample [standard deviation](standard%20deviation.md) <!--SR:!2025-10-21,193,310!2025-04-30,67,310-->
 - Sample [quantiles](quantile.md) ::@:: besides the [median](median.md), e.g., [quartiles](quartile.md) and [percentiles](percentile.md) <!--SR:!2025-04-23,61,310!2025-04-28,65,310-->
 - [Test statistics](test%20statistic.md), ::@:: such as [t-statistic](t-statistic.md), [chi-squared statistic](chi-squared%20statistic.md), [f statistic](F-test.md) <!--SR:!2025-04-29,66,310!2025-04-18,57,310-->
 - [Order statistics](order%20statistic.md), ::@:: including sample maximum and minimum <!--SR:!2025-04-23,61,310!2025-04-16,55,310-->

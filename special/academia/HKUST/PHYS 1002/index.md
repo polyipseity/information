@@ -41,7 +41,7 @@ The content is in teaching order. Extra information and corrections are included
 - datetime: 2024-06-18T10:00:00+08:00/2024-06-18T12:30:00+08:00
 - course textbook ::@:: "The Cosmic Perspective", 7th Edition by Bennett, Donahue, Schneider & Voit, Pearson New International Edition <!--SR:!2027-04-13,775,330!2025-07-26,299,330-->
 - course parts ::@:: developing perspective (chapter 1–3), key concepts for astronomy (chapter 4–6), stars (chapter 14–18), galaxies & beyond (chapter 19–23) <!--SR:!2026-12-03,669,330!2025-08-03,307,330-->
-- [flat Earth](../../../../general/flat%20Earth.md) ::@:: superseded by spherical Earth <!--SR:!2025-06-15,271,330!2025-04-11,198,310-->
+- [flat Earth](../../../../general/flat%20Earth.md) ::@:: superseded by spherical Earth <!--SR:!2025-06-15,271,330!2027-08-08,849,330-->
   - [§ Greece: spherical Earth](../../../../general/flat%20Earth.md#Greece%20spherical%20Earth)
 - [geocentric model](../../../../general/geocentric%20model.md) ::@:: superseded by Copernican heliocentrism <!--SR:!2026-06-26,533,310!2025-12-04,384,310-->
   - [§ Ptolemaic model](../../../../general/geocentric%20model.md#Ptolemaic%20model)
@@ -100,7 +100,7 @@ The content is in teaching order. Extra information and corrections are included
 - [light-year](../../../../general/light-year.md) ::@:: the distance light travels in one year; exactly 9460&nbsp;730&nbsp;472&nbsp;580&nbsp;800 m, approximately 9.4607 × 10<sup>15</sup> m <!--SR:!2025-05-04,26,130!2026-02-05,392,290-->
   - light-year unofficial variation ::@:: We use 365 days in a year instead of 365.25 to calculate 1 light-year in the PowerPoint. But 365.25 should be acceptable either way... <!--SR:!2027-07-30,858,330!2027-08-08,856,330-->
 - [observable universe](../../../../general/observable%20universe.md) ::@:: It has a radius (in [comoving distance](../../../../general/comoving%20and%20proper%20distances.md)) of 46.5 billion light-years instead of 13.8 billion light-years due to expansion of the universe. <!--SR:!2025-05-18,220,290!2026-05-29,490,310-->
-  - Can we see the entire [universe](../../../../general/universe.md)? ::@:: No. Estimates suggest that the [universe](../../../../general/universe.md) is at least 250 times larger (in volume) than a [Hubble sphere](../../../../general/Hubble%20volume.md). <!--SR:!2027-06-24,820,330!2025-04-11,219,330-->
+  - Can we see the entire [universe](../../../../general/universe.md)? ::@:: No. Estimates suggest that the [universe](../../../../general/universe.md) is at least 250 times larger (in volume) than a [Hubble sphere](../../../../general/Hubble%20volume.md). <!--SR:!2027-06-24,820,330!2028-01-02,996,350-->
 - [scale of the universe @ HKUST](scale%20of%20the%20universe%20@%20HKUST.md) ::@:: a 1:10<sup>10</sup> (length) model <!--SR:!2025-08-19,323,348!2025-09-20,347,348-->
 - number of stars in the [observable universe](../../../../general/observable%20universe.md) ::@:: 10<sup>11</sup> stars/galaxy × 10<sup>11</sup> galaxies = 10<sup>22</sup> stars <!--SR:!2025-08-19,323,348!2025-10-06,361,348-->
   - number of stars in the [observable universe](../../../../general/observable%20universe.md) analogy ::@:: The [observable universe](../../../../general/observable%20universe.md) has as many stars as the number of grains of dry sand on all of [Earth](../../../../general/Earth.md)'s beaches. Imagine the time needed to count each grain of sand 1 per second. <!--SR:!2025-12-27,379,308!2025-06-22,257,328-->
@@ -748,7 +748,7 @@ The content is in teaching order. Extra information and corrections are included
   - [reflection nebula](../../../../general/reflection%20nebula.md) / examples ::@:: NGC 1435, in Pleiades (star cluster) <!--SR:!2025-10-20,273,264!2025-10-12,206,325-->
   - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md)
 - [dark nebula](../../../../general/dark%20nebula.md) ::@:: dense clouds of gas and dust blocking the light of distant stars <!--SR:!2027-10-30,969,425!2025-12-12,390,384-->
-  - [dark nebula](../../../../general/dark%20nebula.md) / examples ::@:: Barnard 68; IC 2944 (with Bok globules) <!--SR:!2025-04-11,140,244!2025-12-01,369,384-->
+  - [dark nebula](../../../../general/dark%20nebula.md) / examples ::@:: Barnard 68; IC 2944 (with Bok globules) <!--SR:!2026-08-04,480,264!2025-12-01,369,384-->
   - [extinction](../../../../general/extinction%20(astronomy).md)
     - [§ interstellar reddening](../../../../general/extinction%20(astronomy).md#interstellar%20reddening)
       - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md)
@@ -1263,7 +1263,7 @@ The content is in teaching order. Extra information and corrections are included
         - [dark matter](../../../../general/dark%20matter.md) / evidences ::@:: gravitational lensing in clusters of galaxies, orbital motion of stars and hydrogen in galaxies <!--SR:!2026-01-08,404,397!2027-09-10,919,437-->
           - [Milky Way](../../../../general/Milky%20Way.md) / a great mystery
           - measuring galactic mass ::@:: hydrogen orbital motion in _spirals_, spectral line broadening in _ellipticals_ <!--SR:!2025-06-25,233,377!2026-01-22,400,397-->
-            - measuring galactic mass / [hydrogen line](../../../../general/hydrogen%20line.md) ::@:: As 21-cm radiation is produced by hydrogen, measuring its Doppler red- and blueshift can yield the radial velocity of hydrogen. If applied to opposite sides of _spiral_ galaxies, we can estimate its orbital velocity. In turns out the rotation curves (after the initial rapid increase) for spiral galaxies are flat instead of decreasing, implying the existence of dark matter. <!--SR:!2025-04-11,193,417!2026-08-06,575,417-->
+            - measuring galactic mass / [hydrogen line](../../../../general/hydrogen%20line.md) ::@:: As 21-cm radiation is produced by hydrogen, measuring its Doppler red- and blueshift can yield the radial velocity of hydrogen. If applied to opposite sides of _spiral_ galaxies, we can estimate its orbital velocity. In turns out the rotation curves (after the initial rapid increase) for spiral galaxies are flat instead of decreasing, implying the existence of dark matter. <!--SR:!2027-06-25,805,417!2026-08-06,575,417-->
               - [hydrogen line](../../../../general/hydrogen%20line.md)
             - measuring galactic mass / spectral line broadening ::@:: More massive _elliptical_ galaxies have stars moving faster due to higher gravity. So their velocity spreads, and hence Doppler shift spreads, are greater. Finally, their spectral lines are more broad, as the spectral lines of galaxies are a mix of spectral lines of each individual star in the galaxies. <!--SR:!2025-09-21,297,377!2026-05-09,501,397-->
           - measuring galaxy cluster mass ::@:: Doppler shift, gravitational equilibrium, gravitational lensing; all methods imply similar amounts of missing matter, called dark matter <!--SR:!2025-11-17,338,377!2026-11-24,638,417-->
@@ -1297,7 +1297,7 @@ The content is in teaching order. Extra information and corrections are included
             - [Stefan–Boltzmann law](../../../../general/Stefan–Boltzmann%20law.md)
             - [Wien approximation](../../../../general/Wien%20approximation.md)
           - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) / observations ::@:: COBE 1992, WMAP: 2003, Planck 2013 <!--SR:!2025-09-19,296,377!2025-10-01,305,377-->
-            - [Cosmic Background Explorer](../../../../general/Cosmic%20Background%20Explorer.md) (COBE), Explorer 66 ::@:: A satellite or thermometer that was launched in 1989 to measure the diffuse infrared and microwave radiation from the early universe. <!--SR:!2025-04-11,185,377!2025-08-30,196,377-->
+            - [Cosmic Background Explorer](../../../../general/Cosmic%20Background%20Explorer.md) (COBE), Explorer 66 ::@:: A satellite or thermometer that was launched in 1989 to measure the diffuse infrared and microwave radiation from the early universe. <!--SR:!2027-11-21,954,397!2025-08-30,196,377-->
               - [Cosmic Background Explorer](../../../../general/Cosmic%20Background%20Explorer.md) (COBE) / Nobel Prize ::@:: 2006 Nobel Prize in Physics, to [John C. Mather](../../../../general/John%20C.%20Mather.md), [George Smoot](../../../../general/George%20Smoot.md), "for their discovery of the [blackbody form](../../../../general/black%20body.md) and [anisotropy](../../../../general/anisotropy.md) of the [cosmic microwave background radiation](../../../../general/cosmic%20microwave%20background.md)". <!--SR:!2025-11-29,347,377!2026-03-03,420,397-->
               - 2006 Nobel Prize in Physics: [George Smoot](../../../../general/George%20Smoot.md)
         - [Big Bang § abundance of primordial elements](../../../../general/Big%20Bang.md#abundance%20of%20primordial%20elements)

@@ -106,7 +106,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2025-05-21,49,332!2025-06-04,57,332-->
 - multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2025-06-28,81,352!2025-07-02,84,352-->
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed <!--SR:!2025-06-24,77,335!2025-06-14,68,335-->; note the register placeholder `$d` is unused
-  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2025-04-12,4,341!2025-04-11,3,321-->
+  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2025-04-12,4,341!2025-04-25,14,341-->
 - multiply immediate ::@:: `multi` does not exist. <!--SR:!2025-06-19,73,335!2025-06-21,75,330-->
 - multiply immediate unsigned ::@:: `multiu` does not exist. <!--SR:!2025-06-15,68,335!2025-06-15,68,335-->
 - multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused <!--SR:!2025-06-18,72,335!2025-06-18,72,335-->
@@ -303,7 +303,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 8; sub $d, $zero, $s;` <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 - branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
-- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-04-12,4,341!2025-04-11,3,321-->
+- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-04-12,4,341!2025-04-23,12,341-->
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2025-06-15,68,335!2025-05-24,47,310-->
@@ -334,7 +334,7 @@ Also take note of {@{callee-saved \(preserved on call\) and caller-saved registe
 
 A typical MIPS program memory is {@{addressed by 32-bit unsigned integers}@}. Thus, there are {@{2<sup>32</sup> memory byte locations, or 2<sup>30</sup> memory _word_ locations}@}. <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 
-It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}. <!--SR:!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-11,3,321-->
+It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}. <!--SR:!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-12,4,341!2025-04-24,13,341-->
 
 The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}. <!--SR:!2025-04-12,4,341!2025-04-12,4,341-->
 

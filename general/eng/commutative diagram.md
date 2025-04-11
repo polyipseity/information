@@ -33,7 +33,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-08-09,127,290!2025-10-08,186,310-->
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-04-21,59,310!2025-04-26,52,250-->
 - An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2025-04-30,67,310!2025-04-27,64,310-->
-- The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-04-11,48,290!2025-04-23,60,310-->
+- The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-10-17,189,310!2025-04-23,60,310-->
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-09-22,171,310!2025-04-29,66,310-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-04-28,65,310!2025-08-20,148,310-->
 
@@ -67,7 +67,7 @@ Here, since {@{the first equality follows from the last two}@}, it {@{suffices t
 
 ## diagram chasing
 
-{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-04-15,54,310!2025-10-19,192,310!2025-04-11,48,290!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
+{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-04-15,54,310!2025-10-19,192,310!2025-10-21,193,310!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
 
 {@{Examples of proofs by diagram chasing}@} include those typically given for {@{the [five lemma](five%20lemma.md), the [snake lemma](snake%20lemma.md), the [zig-zag lemma](zig-zag%20lemma.md), and the [nine lemma](nine%20lemma.md)}@}. <!--SR:!2025-04-30,67,310!2025-04-16,55,310-->
 
@@ -83,7 +83,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 - Main article: [Diagram \(category theory\)](diagram%20(category%20theory).md)
 
-{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2025-04-29,66,310!2025-04-11,48,290!2025-04-30,67,310-->
+{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2025-04-29,66,310!2025-10-18,190,310!2025-04-30,67,310-->
 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-08-27,155,310!2025-04-18,57,310-->
 

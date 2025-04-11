@@ -24,7 +24,7 @@ Most alpha particles pass through {@{with minimal deflection}@}. Few of them pas
 
 ### implications
 
-The results showed that the {@{[plum pudding model](plum%20pudding%20model.md)}@} was wrong. Most of the volume of an atom is {@{empty}@} as {@{most alpha particles pass through with minimal deflection}@}. Instead, {@{the positive charge is concentrated in a tiny central region called the "nucleus"}@}. {@{Most mass is concentrated there}@} as {@{the nucleus is not deflected or moved by particles}@}. Electrons, which {@{does not affect}@} the scattering, orbit around the nucleus. This is the {@{[Rutherford model](Rutherford%20model.md)}@}. <!--SR:!2030-07-21,2110,330!2027-05-19,1259,350!2026-12-08,1028,290!2029-07-12,1558,250!2027-06-08,1084,270!2029-10-10,1720,270!2025-04-11,598,330!2027-01-17,1164,350-->
+The results showed that the {@{[plum pudding model](plum%20pudding%20model.md)}@} was wrong. Most of the volume of an atom is {@{empty}@} as {@{most alpha particles pass through with minimal deflection}@}. Instead, {@{the positive charge is concentrated in a tiny central region called the "nucleus"}@}. {@{Most mass is concentrated there}@} as {@{the nucleus is not deflected or moved by particles}@}. Electrons, which {@{does not affect}@} the scattering, orbit around the nucleus. This is the {@{[Rutherford model](Rutherford%20model.md)}@}. <!--SR:!2030-07-21,2110,330!2027-05-19,1259,350!2026-12-08,1028,290!2029-07-12,1558,250!2027-06-08,1084,270!2029-10-10,1720,270!2032-09-23,2722,350!2027-01-17,1164,350-->
 
 ## references
 

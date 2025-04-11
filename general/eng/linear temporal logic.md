@@ -143,7 +143,7 @@ LTL can be shown to be {@{equivalent to the [monadic first-order logic of order]
 
 ## computational problems
 
-{@{[Model checking](model%20checking.md) and satisfiability against an LTL formula}@} are {@{[PSPACE-complete](PSPACE-complete.md) problems}@}. {@{LTL synthesis and the problem of verification of games against an LTL winning condition}@} is {@{[2EXPTIME-complete](2-EXPTIME.md)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-06-25,137,297!2026-03-17,367,363!2025-04-11,56,283!2026-02-21,349,363-->
+{@{[Model checking](model%20checking.md) and satisfiability against an LTL formula}@} are {@{[PSPACE-complete](PSPACE-complete.md) problems}@}. {@{LTL synthesis and the problem of verification of games against an LTL winning condition}@} is {@{[2EXPTIME-complete](2-EXPTIME.md)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-06-25,137,297!2026-03-17,367,363!2025-11-20,223,303!2026-02-21,349,363-->
 
 ## applications
 

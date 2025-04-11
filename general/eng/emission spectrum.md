@@ -9,7 +9,7 @@ tags:
 
 # emission spectrum
 
-The __emission spectrum__ of {@{a [chemical element](chemical%20element.md) or [chemical compound](chemical%20compound.md) is the [spectrum](spectrum%20(physical%20sciences).md) of [frequencies](frequency.md) of [electromagnetic radiation](electromagnetic%20radiation.md) emitted due to [electrons](electron.md) making a [transition](atomic%20electron%20transition.md) from a higher [energy state](energy%20level.md) to a lower energy state}@}. <!--SR:!2025-04-11,192,310-->
+The __emission spectrum__ of {@{a [chemical element](chemical%20element.md) or [chemical compound](chemical%20compound.md) is the [spectrum](spectrum%20(physical%20sciences).md) of [frequencies](frequency.md) of [electromagnetic radiation](electromagnetic%20radiation.md) emitted due to [electrons](electron.md) making a [transition](atomic%20electron%20transition.md) from a higher [energy state](energy%20level.md) to a lower energy state}@}. <!--SR:!2027-07-14,824,330-->
 
 ## references
 
