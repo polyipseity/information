@@ -21,7 +21,7 @@ In {@{[production](production%20(economics).md) and [project management](project
 
 An example is {@{the lack of [smelter](smelter.md) and [refinery](refining%20(metallurgy).md) supply}@} which {@{cause bottlenecks upstream}@}. <!--SR:!2025-05-15,65,310!2025-05-03,55,310-->
 
-Another example is in {@{a [surface-mount technology](surface-mount%20technology.md) board assembly line with several pieces of equipment aligned}@}. Usually the common sense strategy is to {@{set up and shift the bottleneck element towards the end of the process}@}, inducing {@{the better and faster machines}@} to {@{always keep the [printed circuit board](printed%20circuit%20board.md) \(PCB\) supply flowing up}@}, never {@{allowing the slower ones to fully stop}@}; a strategy that could {@{result in a deleterious \(or damaging\) and significant, overall drawback in the process}@}. <!--SR:!2025-04-14,39,290!2025-05-05,57,310!2025-05-17,67,310!2025-05-16,66,310!2025-05-06,58,310!2025-05-10,61,310-->
+Another example is in {@{a [surface-mount technology](surface-mount%20technology.md) board assembly line with several pieces of equipment aligned}@}. Usually the common sense strategy is to {@{set up and shift the bottleneck element towards the end of the process}@}, inducing {@{the better and faster machines}@} to {@{always keep the [printed circuit board](printed%20circuit%20board.md) \(PCB\) supply flowing up}@}, never {@{allowing the slower ones to fully stop}@}; a strategy that could {@{result in a deleterious \(or damaging\) and significant, overall drawback in the process}@}. <!--SR:!2025-09-16,155,310!2025-05-05,57,310!2025-05-17,67,310!2025-05-16,66,310!2025-05-06,58,310!2025-05-10,61,310-->
 
 ## identifying bottlenecks
 

@@ -83,7 +83,7 @@ return await memorize_map(
 - normal:@:$$\sin^2 \theta + \cos^2 \theta = 1$$ <!--SR:!2025-05-07,387,360-->
 - divided by sine:@:$$1 + \cot^2 \theta = \csc^2 \theta$$ <!--SR:!2029-09-21,1660,380-->
 - divided by cosine:@:$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2026-05-11,653,340-->
-- divided by sine and cosine:@:$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$ <!--SR:!2025-04-14,368,360-->
+- divided by sine and cosine:@:$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$ <!--SR:!2030-04-01,1813,380-->
 
 <!--/pytextgen-->
 
@@ -158,7 +158,7 @@ return await memorize_map(
 
 - sine:@:$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!2026-10-25,779,250-->
 - cosine:@:$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$ <!--SR:!2026-11-26,847,270-->
-- tangent:@:$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$ <!--SR:!2025-04-12,474,250-->
+- tangent:@:$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$ <!--SR:!2028-07-08,1183,250-->
 
 <!--/pytextgen-->
 

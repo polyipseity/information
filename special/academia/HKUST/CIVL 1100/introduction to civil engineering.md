@@ -316,10 +316,10 @@ We Engineer Hong Kong’s Development
 
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2025-04-12,243,314!2027-07-27,950,350-->
+- _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2028-02-29,1052,334!2027-07-27,950,350-->
 - 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2025-05-30,178,287-->
 - We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2027-02-25,706,312!2026-05-26,490,297-->
-- 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2026-01-08,443,330-->
+- 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2027-11-11,942,357!2026-01-08,443,330-->
 - We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
 
 <!--/pytextgen-->
@@ -464,7 +464,7 @@ testing materials
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
 - surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2025-05-20,207,272-->
-- testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2025-04-14,245,307-->
+- testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2028-02-19,1041,327-->
 
 <!--/pytextgen-->
 
@@ -671,7 +671,7 @@ socioeconomic
 
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
+- _(begin)_→::@::←biological <!--SR:!2028-05-06,1119,347!2025-09-04,404,394-->
 - biological→::@::←chemical <!--SR:!2025-12-06,424,337!2027-08-16,881,357-->
 - chemical→::@::←cultural <!--SR:!2025-10-17,333,280!2027-03-26,849,377-->
 - cultural→::@::←physical <!--SR:!2026-07-28,649,365!2026-07-24,556,320-->
@@ -1100,7 +1100,7 @@ water tower
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2025-07-27,283,258-->
 - power plant→::@::←storage facility <!--SR:!2027-03-08,767,320!2025-07-03,239,334-->
 - storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2025-09-29,392,340-->
-- tunnel→::@::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
+- tunnel→::@::←unusual structure <!--SR:!2027-03-28,714,267!2026-04-05,535,340-->
 - unusual structure→::@::←water tower <!--SR:!2025-10-29,314,290!2026-03-29,369,290-->
 - water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2027-09-20,893,321-->
 

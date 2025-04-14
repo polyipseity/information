@@ -47,7 +47,7 @@ If it happens that the original {@{nonzero}@} $\mathbf v$ and the resulting $\ma
 
 The eigenvalue equation can also be equivalently stated as {@{$$(A - \lambda I) \mathbf v = \mathbf 0 \quad \text{ or } \quad (\lambda I - A) \mathbf v = \mathbf 0$$}@}, where {@{$I$ is the _n_-by-_n_ [identity matrix](identity%20matrix.md) and $\mathbf 0$ is the zero vector}@}. <!--SR:!2025-09-19,338,346!2025-08-26,322,346-->
 
-From the eigenvector equation, given a eigenvector with its corresponding eigenvalue, a new eigenvector {@{associated with the same eigenvalue can be obtained by scaling the original eigenvector by an arbitrary nonzero scalar}@}. The resulting eigenvector still respects the eigenvector equation as {@{this is equivalent to multiplying both sides by the nonzero scalar}@}. <!--SR:!2025-08-02,304,346!2025-04-12,198,326-->
+From the eigenvector equation, given a eigenvector with its corresponding eigenvalue, a new eigenvector {@{associated with the same eigenvalue can be obtained by scaling the original eigenvector by an arbitrary nonzero scalar}@}. The resulting eigenvector still respects the eigenvector equation as {@{this is equivalent to multiplying both sides by the nonzero scalar}@}. <!--SR:!2025-08-02,304,346!2027-09-19,890,346-->
 
 ### eigenvalues and the characteristic polynomial
 

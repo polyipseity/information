@@ -35,7 +35,7 @@ When a unit vector in space is {@{expressed in [Cartesian notation](Cartesian%20
 
 - See also: ::@:: [Jacobian matrix](Jacobian%20matrix.md) <!--SR:!2025-05-16,72,319!2025-05-13,69,319-->
 
-{@{The three [orthogonal](orthogonal.md) unit vectors appropriate to cylindrical symmetry}@} are: (annotation: 3 items: {@{$\boldsymbol {\hat \rho}$, $\boldsymbol {\hat \varphi}$, $\boldsymbol {\hat z}$}@}) <!--SR:!2025-05-15,71,319!2025-04-14,48,299-->
+{@{The three [orthogonal](orthogonal.md) unit vectors appropriate to cylindrical symmetry}@} are: (annotation: 3 items: {@{$\boldsymbol {\hat \rho}$, $\boldsymbol {\hat \varphi}$, $\boldsymbol {\hat z}$}@}) <!--SR:!2025-05-15,71,319!2025-10-31,200,319-->
 
 - ${\boldsymbol {\hat {\rho } } }$ \(also designated $\mathbf {\hat {e} }$ or ${\boldsymbol {\hat {s} } }$\), ::@:: representing the direction along which the distance of the point from the axis of symmetry is measured; <!--SR:!2025-05-15,72,319!2025-05-17,73,319-->
 - ${\boldsymbol {\hat {\varphi } } }$, ::@:: representing the direction of the motion that would be observed if the point were rotating counterclockwise about the [symmetry axis](symmetry%20axis.md); <!--SR:!2025-05-17,73,319!2025-05-12,68,319-->
@@ -71,7 +71,7 @@ They are {@{related to the Cartesian basis ${\hat {x} }$, ${\hat {y} }$, ${\hat 
 
 ### general unit vectors
 
-- Main article: ::@:: [Orthogonal coordinates](orthogonal%20coordinates.md) <!--SR:!2025-04-14,48,299!2025-05-12,68,319-->
+- Main article: ::@:: [Orthogonal coordinates](orthogonal%20coordinates.md) <!--SR:!2025-10-29,198,319!2025-05-12,68,319-->
 
 Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geometry](geometry.md)}@}:<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-05-16,72,319-->
 

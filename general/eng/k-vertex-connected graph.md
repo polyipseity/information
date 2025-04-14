@@ -35,7 +35,7 @@ Every graph {@{decomposes into a disjoint union of [1-connected components](comp
 
 ### polyhedral combinatorics
 
-{@{The 1-[skeleton](n-skeleton.md) (annotation: i.e. vertices and edges of the polytope represented as a graph) of any _k_-dimensional convex [polytope](polytope.md)}@} forms {@{a _k_-vertex-connected graph \([Balinski's theorem](Balinski's%20theorem.md)\)}@}.<sup>[\[3\]](#^ref-3)</sup> As {@{a partial converse, [Steinitz's theorem](Steinitz's%20theorem.md)}@} states that {@{any 3-vertex-connected [planar graph](planar%20graph.md) forms the skeleton of a convex [polyhedron](polyhedron.md)}@}. <!--SR:!2025-04-19,71,270!2025-04-14,53,230!2026-01-08,285,330!2025-05-08,80,270-->
+{@{The 1-[skeleton](n-skeleton.md) (annotation: i.e. vertices and edges of the polytope represented as a graph) of any _k_-dimensional convex [polytope](polytope.md)}@} forms {@{a _k_-vertex-connected graph \([Balinski's theorem](Balinski's%20theorem.md)\)}@}.<sup>[\[3\]](#^ref-3)</sup> As {@{a partial converse, [Steinitz's theorem](Steinitz's%20theorem.md)}@} states that {@{any 3-vertex-connected [planar graph](planar%20graph.md) forms the skeleton of a convex [polyhedron](polyhedron.md)}@}. <!--SR:!2025-04-19,71,270!2025-08-12,120,230!2026-01-08,285,330!2025-05-08,80,270-->
 
 ## computational complexity
 

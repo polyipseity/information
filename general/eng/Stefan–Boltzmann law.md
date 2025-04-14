@@ -23,7 +23,7 @@ tags:
 >
 > - where
 >   - {@{$M$ is the [radiant exitance](radiant%20exitance.md), i.e. the total [energy](energy.md) radiated per unit [surface area](area.md) per unit [time](time.md), of a surface with [emissivity](emissivity.md) $\varepsilon$ at [temperature](temperature.md) $T$}@}
->   - {@{$\sigma = 5.670\,374\,419\ldots \times 10^{-8} ~\mathrm{W \cdot m^{-2} \cdot K^{-4} }$ is the __Stefan–Boltzmann constant__}@} <!--SR:!2026-01-20,526,310!2025-07-03,373,290!2025-04-12,35,130-->
+>   - {@{$\sigma = 5.670\,374\,419\ldots \times 10^{-8} ~\mathrm{W \cdot m^{-2} \cdot K^{-4} }$ is the __Stefan–Boltzmann constant__}@} <!--SR:!2026-01-20,526,310!2025-07-03,373,290!2025-06-21,70,150-->
 
 ## references
 

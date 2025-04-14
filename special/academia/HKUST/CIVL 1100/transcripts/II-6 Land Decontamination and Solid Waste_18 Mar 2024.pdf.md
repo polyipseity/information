@@ -56,6 +56,6 @@ Land Contamination Assessment in Hong Kong
 
 Hong Kong Soil Standard: Risk-Based Remediation Goals (RBRGs)
 
-- Hong Kong soil standard ::@:: risk-based remediation goals (RBRGs) <!--SR:!2025-11-09,360,290!2025-04-12,252,330-->
+- Hong Kong soil standard ::@:: risk-based remediation goals (RBRGs) <!--SR:!2025-11-09,360,290!2027-07-23,832,330-->
 
 <!-- TODO: continue -->

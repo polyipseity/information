@@ -41,7 +41,7 @@ The above can be fixed by {@{rewriting any simple set as the union of mutually [
 
 > {@{![rewritten union of disjoint rectangles](../../archives/Wikimedia%20Commons/Simple%20set2.png)}@}
 >
-> {@{rewritten union of disjoint rectangles}@} <!--SR:!2028-05-27,1224,350!2025-04-14,329,363-->
+> {@{rewritten union of disjoint rectangles}@} <!--SR:!2028-05-27,1224,350!2029-10-06,1636,383-->
 
 One can show the above definition of Jordan measure for simple set is {@{independent of the representation of simple set as disjoint rectangles, and the openness and closeness of the rectangles. They all give the same value for $m(S)$}@}. In fact, the rectangles having disjoint [interior](interior%20(topology).md) suffices. <!--SR:!2026-08-04,685,330-->
 

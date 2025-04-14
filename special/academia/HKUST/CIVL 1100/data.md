@@ -204,7 +204,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
 See [John Hancock Center](John%20Hancock%20Center.md).
 
-- description ::@:: skyscraper in Chicago, Illinois <!--SR:!2025-04-12,235,295!2025-08-03,376,387-->
+- description ::@:: skyscraper in Chicago, Illinois <!--SR:!2027-12-02,962,315!2025-08-03,376,387-->
 - height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2025-09-19,222,197!2027-02-12,759,330-->
 - image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->::@:: steel <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2026-02-21,535,400-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-04-12,42,130!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-06-10,57,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2025-08-01,343,380-->
 
@@ -322,6 +322,6 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 See [Water Cube](../../../../general/Water%20Cube.md).
 
-- description ::@:: swimming center in Beijing, China <!--SR:!2025-04-14,290,346!2025-11-30,475,394-->
+- description ::@:: swimming center in Beijing, China <!--SR:!2029-01-23,1380,366!2025-11-30,475,394-->
 - image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2026-01-29,514,400!2026-03-27,561,400-->
 - shape ::@:: cube covered with bubbles <!--SR:!2028-11-16,1338,390!2027-08-03,945,350-->

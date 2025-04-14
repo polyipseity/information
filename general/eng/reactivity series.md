@@ -134,7 +134,7 @@ return _chain.from_iterable(await _gather(
 - [sodium](sodium.md)→::@::←[lithium](lithium.md) <!--SR:!2025-08-25,195,210!2026-08-29,826,290-->
 - [lithium](lithium.md)→::@::←[barium](barium.md) <!--SR:!2026-03-03,336,210!2025-08-17,138,190-->
 - [barium](barium.md)→::@::←[strontium](strontium.md) <!--SR:!2025-06-09,520,270!2025-07-25,417,250-->
-- [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!2025-07-05,177,210!2025-04-13,179,250-->
+- [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!2025-07-05,177,210!2026-07-08,451,250-->
 - [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-04-28,49,190-->
 - [magnesium](magnesium.md)→::@::←[beryllium](beryllium.md) <!--SR:!2026-03-25,358,270!2027-04-07,988,290-->
 - [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-05-13,36,170-->
@@ -199,7 +199,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="8912"--><!-- The following content is generated at 2024-02-17T20:43:15.136674+08:00. Any edits will be overridden! -->
 
 - Cs<sup>+</sup>:@:[caesium](caesium.md) <!--SR:!2025-05-21,360,365-->
-- Rb<sup>+</sup>:@:[rubidium](rubidium.md) <!--SR:!2025-04-12,326,365-->
+- Rb<sup>+</sup>:@:[rubidium](rubidium.md) <!--SR:!2029-10-04,1636,385-->
 - K<sup>+</sup>:@:[potassium](potassium.md) <!--SR:!2025-05-11,352,367-->
 - Na<sup>+</sup>:@:[sodium](sodium.md) <!--SR:!2025-07-24,411,365-->
 - Li<sup>+</sup>:@:[lithium](lithium.md) <!--SR:!2025-04-19,333,367-->
@@ -316,10 +316,10 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
 
-- [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-04-13,19,130-->
+- [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-05-09,26,130-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md):@:[titanium](titanium.md) <!--SR:!2025-05-16,266,267-->
 - [smelting](smelting.md) with [coke](coke%20(fuel).md):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-04-21,20,130-->
-- [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2025-04-13,216,247-->
+- [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2027-05-03,750,267-->
 - heat or physical extraction:@:[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-12-05,664,285-->
 
 <!--/pytextgen-->

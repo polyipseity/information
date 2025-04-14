@@ -8,7 +8,7 @@ tags:
 
 # sidereal time
 
-__Sidereal time__ is {@{a calculation of the passage of [time](time.md) based on the positions of the [fixed stars](fixed%20stars.md)}@}. The fundamental unit of sidereal time is {@{the __sidereal day__, which is not the "day" most people are familiar with}@}. <!--SR:!2025-04-12,201,310!2025-06-24,274,330-->
+__Sidereal time__ is {@{a calculation of the passage of [time](time.md) based on the positions of the [fixed stars](fixed%20stars.md)}@}. The fundamental unit of sidereal time is {@{the __sidereal day__, which is not the "day" most people are familiar with}@}. <!--SR:!2027-08-25,865,330!2025-06-24,274,330-->
 
 A sidereal day on [Earth](Earth.md) is {@{approximately 86&nbsp;164.0905 seconds (23 h 56 min 4.0905 s or 23.934&nbsp;4696 h)}@}. <!--SR:!2025-12-15,263,210-->
 

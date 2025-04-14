@@ -18,19 +18,19 @@ tags:
 # standard score
 
 - "{@{Standardize}@}" redirects here. For {@{industrial and technical standards}@}, see {@{[Standardization](standardization.md)}@}.
-- "{@{Z-score}@}" redirects here. For other uses, see [Z-score \(disambiguation\)](z-score%20(disambiguation).md). <!--SR:!2025-04-15,58,310!2025-04-15,58,310!2025-04-14,57,310!2025-04-23,64,310-->
+- "{@{Z-score}@}" redirects here. For other uses, see [Z-score \(disambiguation\)](z-score%20(disambiguation).md). <!--SR:!2025-04-15,58,310!2025-04-15,58,310!2025-12-15,245,330!2025-04-23,64,310-->
 
 > {@{![Comparison of the various grading methods in a [normal distribution](normal%20distribution.md), including: [standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)](../../archives/Wikimedia%20Commons/The%20Normal%20Distribution.svg)}@}
 >
 > Comparison of {@{the various grading methods in a [normal distribution](normal%20distribution.md)}@}, including: {@{[standard deviations](standard%20deviation.md), cumulative percentages, [percentile](percentile.md) equivalents, z-scores, [T-scores](#T-score)}@} <!--SR:!2025-04-22,63,310!2025-04-23,64,310!2025-04-21,63,310-->
 
-In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\) is above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean have positive standard scores}@}, while {@{those below the mean have negative standard scores}@}. <!--SR:!2025-04-15,58,310!2025-04-21,63,310!2025-04-14,57,310!2025-04-23,64,310!2025-04-19,61,310-->
+In {@{[statistics](statistics.md)}@}, {@{the __standard score__}@} is {@{the number of [standard deviations](standard%20deviation.md) by which the value of a [raw score](raw%20score.md) \(i.e., an observed value or data point\) is above or below the [mean](mean.md) value of what is being observed or measured}@}. {@{Raw scores above the mean have positive standard scores}@}, while {@{those below the mean have negative standard scores}@}. <!--SR:!2025-04-15,58,310!2025-04-21,63,310!2025-12-16,246,330!2025-04-23,64,310!2025-04-19,61,310-->
 
-It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2025-04-26,67,310!2025-04-14,57,310!2025-04-20,62,310!2025-04-15,58,310!2025-04-16,58,310-->
+It is calculated by {@{subtracting the [population mean](population%20mean.md#mean) from an individual raw score}@} and then {@{dividing the difference by the [population](statistical%20population.md) standard deviation}@}. This {@{process of converting a raw score into a standard score}@} is called {@{__standardizing__ or __normalizing__}@} \(however, "normalizing" can {@{refer to many types of ratios; see _[Normalization](normalization%20(statistics).md)_ for more}@}\). <!--SR:!2025-04-26,67,310!2025-12-17,247,330!2025-04-20,62,310!2025-04-15,58,310!2025-04-16,58,310-->
 
 {@{Standard scores}@} are most commonly called {@{__<!-- markdown separator -->_z_-scores__}@}; the two terms may {@{be used interchangeably, as they are in this article}@}. Other equivalent terms in use include {@{__z-value__, __z-statistic__, __normal score__, __standardized variable__}@} and {@{__pull__ in [high energy physics](high%20energy%20physics.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-04-15,58,310!2025-04-15,58,310!2025-04-20,62,310!2025-04-15,58,310!2025-04-17,59,310-->
 
-{@{Computing a z-score}@} requires {@{knowledge of the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}. <!--SR:!2025-04-25,66,310!2025-04-15,58,310!2025-04-14,57,310!2025-04-19,61,310-->
+{@{Computing a z-score}@} requires {@{knowledge of the mean and standard deviation of the complete population to which a data point belongs}@}; {@{if one only has a [sample](sample%20(statistics).md) of observations from the population}@}, then the analogous computation {@{using the sample mean and sample standard deviation yields the [_t_-statistic](t-statistic.md)}@}. <!--SR:!2025-04-25,66,310!2025-04-15,58,310!2025-12-14,244,330!2025-04-19,61,310-->
 
 ## calculation
 
@@ -39,18 +39,18 @@ It is calculated by {@{subtracting the [population mean](population%20mean.md#me
 - _μ_ ::@:: is the [mean](mean.md) of the population, <!--SR:!2025-04-15,58,310!2025-04-22,63,310-->
 - _σ_ ::@:: is the [standard deviation](standard%20deviation.md) of the population. <!--SR:!2025-04-26,67,310!2025-04-19,61,310-->
 
-{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2025-04-14,57,310!2025-04-25,66,310!2025-04-20,62,310!2025-04-21,63,310-->
+{@{The absolute value of __z__}@} represents {@{the distance between that raw score _x_ and the population mean in units of the standard deviation}@}. {@{__z__ is negative}@} when {@{the raw score is below the mean, positive when above}@}. <!--SR:!2025-12-19,249,330!2025-04-25,66,310!2025-04-20,62,310!2025-04-21,63,310-->
 
 {@{Calculating __z__ using this formula}@} requires {@{use of the population mean and the population standard deviation}@}, not {@{the sample mean or sample deviation}@}. However, {@{knowing the true mean and standard deviation of a population is often an unrealistic expectation}@}, except in cases such as {@{[standardized testing](standardized%20testing%20(statistics).md), where the entire population is measured}@}. <!--SR:!2025-04-22,63,310!2025-04-17,59,310!2025-04-24,65,310!2025-04-22,63,310!2025-04-25,66,310-->
 
-When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-04-14,57,310!2025-04-24,65,310!2025-10-08,189,310-->
+When {@{the population mean and the population standard deviation are unknown}@}, {@{the standard score may be estimated}@} by {@{using the sample mean and sample standard deviation as estimates of the population values}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-12-10,240,330!2025-04-24,65,310!2025-10-08,189,310-->
 
-In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2025-04-14,57,310-->
+In these cases, the __z__-score is {@{given by $$z={x-{\bar {x} } \over S}$$}@} where: <!--SR:!2025-12-13,243,330-->
 
-- ${\bar {x} }$ ::@:: is the [mean](mean.md) of the sample, <!--SR:!2025-04-19,61,310!2025-04-14,57,310-->
-- _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2025-04-12,55,310!2025-04-14,57,310-->
+- ${\bar {x} }$ ::@:: is the [mean](mean.md) of the sample, <!--SR:!2025-04-19,61,310!2025-12-15,245,330-->
+- _S_ ::@:: is the [standard deviation](standard%20deviation.md) of the sample. <!--SR:!2025-12-08,240,330!2025-12-17,247,330-->
 
-Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-04-14,57,310!2025-04-16,58,310!2025-04-13,56,310!2025-04-14,57,310-->
+Though {@{it should always be stated}@}, {@{the distinction between use of the population and sample statistics}@} often is not made. In either case, {@{the numerator and denominator of the equations have the same units of measure}@} so that {@{the units cancel out through division and __z__ is left as a [dimensionless quantity](dimensionless%20quantity.md)}@}. <!--SR:!2025-12-21,251,330!2025-04-16,58,310!2025-12-13,244,330!2025-12-16,246,330-->
 
 ## applications
 
@@ -62,7 +62,7 @@ Though {@{it should always be stated}@}, {@{the distinction between use of the p
 
 ### prediction intervals
 
-{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2025-04-15,58,310!2025-04-20,62,310!2025-04-21,63,310!2025-04-15,58,310!2025-04-24,65,310!2025-04-26,67,310!2025-09-23,175,310!2025-10-04,183,310!2025-04-14,57,310-->
+{@{The standard score}@} can be used in {@{the calculation of [prediction intervals](prediction%20interval.md)}@}. {@{A prediction interval \[_L_,_U_\]}@}, consisting of {@{a lower endpoint designated _L_ and an upper endpoint designated _U_}@}, is {@{an interval such that a future observation _X_ will lie in the interval with high probability $\gamma$, i.e. $$P(L<X<U)=\gamma ,$$}@} For {@{the standard score _Z_ of _X_}@} it gives:<sup>[\[8\]](#^ref-8)</sup> {@{$$P\left({\frac {L-\mu }{\sigma } }<Z<{\frac {U-\mu }{\sigma } }\right)=\gamma .$$}@} By {@{determining the quantile z such that $$P\left(-z<Z<z\right)=\gamma$$}@} it follows: {@{$$L=\mu -z\sigma ,\ U=\mu +z\sigma$$}@} <!--SR:!2025-04-15,58,310!2025-04-20,62,310!2025-04-21,63,310!2025-04-15,58,310!2025-04-24,65,310!2025-04-26,67,310!2025-09-23,175,310!2025-10-04,183,310!2025-12-18,248,330-->
 
 ### process control
 
@@ -72,7 +72,7 @@ In {@{process control applications}@}, the Z value provides {@{an assessment of 
 
 > {@{![_z_ score (1) for student A shown on a standard normal distribution graph](../../archives/Wikimedia%20Commons/Z%20score%20for%20Students%20A.png)}@}
 >
-> {@{The _z_ score for Student A was 1}@}, meaning Student A was {@{1 standard deviation above the mean}@}. Thus, Student A {@{performed in the 84.13 percentile on the SAT}@}. <!--SR:!2025-04-20,62,310!2025-04-14,57,310!2025-04-26,67,310!2025-04-18,60,310-->
+> {@{The _z_ score for Student A was 1}@}, meaning Student A was {@{1 standard deviation above the mean}@}. Thus, Student A {@{performed in the 84.13 percentile on the SAT}@}. <!--SR:!2025-04-20,62,310!2025-12-12,242,330!2025-04-26,67,310!2025-04-18,60,310-->
 
 When {@{scores are measured on different scales}@}, they may be {@{converted to z-scores to aid comparison}@}. Dietz et al.<sup>[\[9\]](#^ref-9)</sup> give the following example, comparing {@{student scores on the \(old\) [SAT](SAT.md) and [ACT](ACT%20(test).md) high school tests}@}. The table shows {@{the mean and standard deviation for total scores on the SAT and ACT}@}. Suppose that student A scored 1800 on the SAT, and student B scored 24 on the ACT. Which {@{student performed better relative to other test-takers}@}? <!--SR:!2025-04-21,63,310!2025-04-15,58,310!2025-04-16,58,310!2025-04-22,63,310!2025-04-15,58,310-->
 
@@ -83,7 +83,7 @@ When {@{scores are measured on different scales}@}, they may be {@{converted to 
 
 > {@{![_z_ score (0.6) for student A shown on a standard normal distribution graph](../../archives/Wikimedia%20Commons/Z%20score%20for%20Student%20B.png)}@}
 >
-> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2025-04-25,66,310!2025-04-14,57,310!2025-04-24,65,310!2025-09-04,164,310-->
+> {@{The _z_ score for Student B was 0.6}@}, meaning Student B was {@{0.6 standard deviation above the mean}@}. Thus, Student B {@{performed in the 72.57 percentile on the SAT}@}. <!--SR:!2025-04-25,66,310!2025-12-21,251,330!2025-04-24,65,310!2025-09-04,164,310-->
 
 The z-score for student A is $z={x-\mu  \over \sigma }={1800-1500 \over 300}=1$
 
@@ -97,7 +97,7 @@ Continuing {@{the example of ACT and SAT scores}@}, {@{if it can be further assu
 
 ### cluster analysis and multidimensional scaling
 
-"For {@{some multivariate techniques such as multidimensional scaling and cluster analysis}@}, {@{the concept of distance between the units in the data}@} is often {@{of considerable interest and importance}@}… When {@{the variables in a multivariate data set are on different scales}@}, it makes {@{more sense to calculate the distances after some form of standardization}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-04-23,64,310!2025-04-14,57,310!2025-04-14,57,310!2025-04-18,60,310!2025-04-18,60,310-->
+"For {@{some multivariate techniques such as multidimensional scaling and cluster analysis}@}, {@{the concept of distance between the units in the data}@} is often {@{of considerable interest and importance}@}… When {@{the variables in a multivariate data set are on different scales}@}, it makes {@{more sense to calculate the distances after some form of standardization}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-04-23,64,310!2025-12-14,244,330!2025-12-20,250,330!2025-04-18,60,310!2025-04-18,60,310-->
 
 ### principal components analysis
 
@@ -107,9 +107,9 @@ In {@{principal components analysis}@}, "{@{Variables measured on different scal
 
 {@{Standardization of variables prior to [multiple regression analysis](multiple%20regression%20analysis.md)}@} is sometimes {@{used as an aid to interpretation}@}.<sup>[\[12\]](#^ref-12)</sup> \(page 95\) state the following. <!--SR:!2025-04-18,60,310!2025-08-13,131,290-->
 
-"{@{The standardized regression slope}@} is {@{the slope in the regression equation if X and Y are standardized}@} … {@{Standardization of X and Y}@} is done by {@{subtracting the respective means from each set of observations and dividing by the respective standard deviations}@} … In {@{multiple regression, where several X variables are used}@}, {@{the standardized regression coefficients}@} {@{quantify the relative contribution of each X variable}@}." <!--SR:!2025-04-18,60,310!2025-04-26,67,310!2025-04-24,65,310!2025-04-22,63,310!2025-10-08,187,310!2025-04-20,62,310!2025-04-14,57,310-->
+"{@{The standardized regression slope}@} is {@{the slope in the regression equation if X and Y are standardized}@} … {@{Standardization of X and Y}@} is done by {@{subtracting the respective means from each set of observations and dividing by the respective standard deviations}@} … In {@{multiple regression, where several X variables are used}@}, {@{the standardized regression coefficients}@} {@{quantify the relative contribution of each X variable}@}." <!--SR:!2025-04-18,60,310!2025-04-26,67,310!2025-04-24,65,310!2025-04-22,63,310!2025-10-08,187,310!2025-04-20,62,310!2025-12-13,243,330-->
 
-However, Kutner et al.<sup>[\[13\]](#^ref-13)</sup> \(p 278\) give {@{the following caveat}@}: "… one must be {@{cautious about interpreting any regression coefficients, whether standardized or not}@}. The reason is that when {@{the predictor variables are correlated among themselves}@}, … the regression coefficients are {@{affected by the other predictor variables in the model}@} … {@{The magnitudes of the standardized regression coefficients}@} are affected {@{not only by the presence of correlations among the predictor variables}@} but {@{also by the spacings of the observations on each of these variables}@}. Sometimes {@{these spacings may be quite arbitrary}@}. Hence, it is {@{ordinarily not wise to interpret the magnitudes of standardized regression coefficients}@} as {@{reflecting the comparative importance of the predictor variables}@}." <!--SR:!2025-04-25,66,310!2025-04-15,58,310!2025-04-19,61,310!2025-08-26,156,310!2025-04-17,59,310!2025-04-25,66,310!2025-04-14,57,310!2025-04-19,61,310!2025-04-23,64,310!2025-04-21,63,310-->
+However, Kutner et al.<sup>[\[13\]](#^ref-13)</sup> \(p 278\) give {@{the following caveat}@}: "… one must be {@{cautious about interpreting any regression coefficients, whether standardized or not}@}. The reason is that when {@{the predictor variables are correlated among themselves}@}, … the regression coefficients are {@{affected by the other predictor variables in the model}@} … {@{The magnitudes of the standardized regression coefficients}@} are affected {@{not only by the presence of correlations among the predictor variables}@} but {@{also by the spacings of the observations on each of these variables}@}. Sometimes {@{these spacings may be quite arbitrary}@}. Hence, it is {@{ordinarily not wise to interpret the magnitudes of standardized regression coefficients}@} as {@{reflecting the comparative importance of the predictor variables}@}." <!--SR:!2025-04-25,66,310!2025-04-15,58,310!2025-04-19,61,310!2025-08-26,156,310!2025-04-17,59,310!2025-04-25,66,310!2025-12-11,241,330!2025-04-19,61,310!2025-04-23,64,310!2025-04-21,63,310-->
 
 ## standardizing in mathematical statistics
 
@@ -121,7 +121,7 @@ In {@{[mathematical statistics](mathematical%20statistics.md)}@}, {@{a [random v
 
 - "{@{T-score}@}" redirects here. Not to be confused with {@{[_t_-statistic](t-statistic.md)}@}. <!--SR:!2025-04-15,58,310!2025-04-15,58,310-->
 
-In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled to have a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-04-14,57,310!2025-04-22,63,310!2025-10-07,186,310-->
+In {@{educational assessment}@}, {@{__T-score__}@} is {@{a standard score Z shifted and scaled to have a mean of 50 and a standard deviation of 10}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-12-20,250,330!2025-04-22,63,310!2025-10-07,186,310-->
 
 In {@{bone density measurements}@}, the T-score is {@{the standard score of the measurement compared to the population of healthy 30-year-old adults}@}, and has {@{the usual mean of 0 and standard deviation of 1}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2025-04-24,65,310!2025-04-25,66,310!2025-04-23,64,310-->
 

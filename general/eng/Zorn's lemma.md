@@ -23,7 +23,7 @@ Zorn's lemma is equivalent to {@{the [well-ordering theorem](well-ordering%20the
 
 ## motivation
 
-To prove {@{the existence of a mathematical object that can be viewed as a maximal element in some [partially ordered set](partially%20ordered%20set.md) in some way}@}, one can try proving the existence of such an object by {@{assuming there is no maximal element and using [transfinite induction](transfinite%20induction.md) and the assumptions of the situation to get a contradiction}@}. Zorn's lemma tidies up {@{the conditions a situation needs to satisfy in order for such an argument to work}@} and enables mathematicians to {@{not have to repeat the transfinite induction argument by hand each time}@}, but {@{just check the conditions of Zorn's lemma}@}. <!--SR:!2025-10-10,223,330!2025-04-13,73,270!2026-02-21,333,350!2025-09-07,195,318!2026-01-21,309,350-->
+To prove {@{the existence of a mathematical object that can be viewed as a maximal element in some [partially ordered set](partially%20ordered%20set.md) in some way}@}, one can try proving the existence of such an object by {@{assuming there is no maximal element and using [transfinite induction](transfinite%20induction.md) and the assumptions of the situation to get a contradiction}@}. Zorn's lemma tidies up {@{the conditions a situation needs to satisfy in order for such an argument to work}@} and enables mathematicians to {@{not have to repeat the transfinite induction argument by hand each time}@}, but {@{just check the conditions of Zorn's lemma}@}. <!--SR:!2025-10-10,223,330!2026-01-17,279,290!2026-02-21,333,350!2025-09-07,195,318!2026-01-21,309,350-->
 
 > If {@{you are building a mathematical object in stages}@} and find that \(i\) {@{you have not finished even after infinitely many stages}@}, and \(ii\) {@{there seems to be nothing to stop you continuing to build}@}, then {@{Zorn’s lemma may well be able to help you}@}.
 >
@@ -119,7 +119,7 @@ The above proof can be formulated {@{without explicitly referring to ordinals}@}
 
 This proof shows that actually {@{a slightly stronger version of Zorn's lemma is true}@}: <!--SR:!2026-01-25,310,338-->
 
-> __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!2025-04-14,63,238!2025-07-25,159,310-->
+> __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!2025-09-11,150,238!2025-07-25,159,310-->
 
 Alternatively, one can {@{use the same proof for the [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}. This is the proof given for example in {@{Halmos' _[Naive Set Theory](naive%20set%20theory.md)_ or in [§ Proof](#proof) below}@}. <!--SR:!2026-01-14,302,350!2026-03-08,345,350-->
 

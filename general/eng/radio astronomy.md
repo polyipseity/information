@@ -8,7 +8,7 @@ tags:
 
 # radio astronomy
 
-__Radio astronomy__ is {@{a subfield of [astronomy](astronomy.md) that studies [celestial objects](astronomical%20object.md) at [radio frequencies](radio%20frequency.md)}@}. <!--SR:!2025-04-13,195,310-->
+__Radio astronomy__ is {@{a subfield of [astronomy](astronomy.md) that studies [celestial objects](astronomical%20object.md) at [radio frequencies](radio%20frequency.md)}@}. <!--SR:!2027-08-01,840,330-->
 
 ## techniques
 

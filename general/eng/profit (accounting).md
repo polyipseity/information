@@ -13,17 +13,17 @@ tags:
 # profit
 
 - This article is about {@{profit in accounting and business}@}. For {@{profit in [economics](economics.md) and [political economy](political%20economy.md)}@}, see {@{[Profit \(economics\)](profit%20(economics).md)}@}.
-- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2025-04-16,60,310!2025-04-20,63,310!2025-04-15,59,310!2025-04-19,63,310!2025-04-12,57,310!2025-12-10,243,330-->
+- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2025-04-16,60,310!2025-04-20,63,310!2025-04-15,59,310!2025-04-19,63,310!2025-12-16,248,330!2025-12-10,243,330-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(May 2020\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 > {@{![Stock index chart of 2020 with stock market crash](../../archives/Wikimedia%20Commons/Stock-indices-2020crash+recovery.svg)}@}
 >
-> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2025-04-12,57,310!2025-04-13,58,310!2025-04-14,58,310-->
+> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2025-10-03,174,310!2025-12-17,248,330!2025-12-25,255,330-->
 
-{@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}. <!--SR:!2025-04-22,65,310!2025-04-24,67,310!2025-04-13,58,310!2025-06-16,101,290!2025-04-22,65,310-->
+{@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}. <!--SR:!2025-04-22,65,310!2025-04-24,67,310!2025-12-18,249,330!2025-06-16,101,290!2025-04-22,65,310-->
 
-{@{Income formation in market production}@} is always {@{a balance between income generation and [income distribution](income%20distribution.md)}@}. The income generated is always {@{distributed to the [stakeholders](stakeholder%20(corporate).md) of production as [economic value](economic%20value.md) within the review period}@}. The profit is {@{the share of income formation the owner is able to keep to themselves in the income distribution process}@}. Profit is {@{one of the major sources of [economic](economics.md) [well-being](well-being.md)}@} because {@{it means incomes and opportunities to develop production}@}. The words {@{"income", "profit" and "earnings"}@} are {@{synonyms in this context}@}. <!--SR:!2025-04-20,63,310!2025-04-23,66,310!2025-04-13,58,310!2025-04-18,62,310!2025-12-13,246,330!2025-04-13,58,310!2025-04-21,64,310!2025-04-16,60,310-->
+{@{Income formation in market production}@} is always {@{a balance between income generation and [income distribution](income%20distribution.md)}@}. The income generated is always {@{distributed to the [stakeholders](stakeholder%20(corporate).md) of production as [economic value](economic%20value.md) within the review period}@}. The profit is {@{the share of income formation the owner is able to keep to themselves in the income distribution process}@}. Profit is {@{one of the major sources of [economic](economics.md) [well-being](well-being.md)}@} because {@{it means incomes and opportunities to develop production}@}. The words {@{"income", "profit" and "earnings"}@} are {@{synonyms in this context}@}. <!--SR:!2025-04-20,63,310!2025-04-23,66,310!2025-12-20,251,330!2025-04-18,62,310!2025-12-13,246,330!2025-12-19,250,330!2025-04-21,64,310!2025-04-16,60,310-->
 
 ## other terms
 
@@ -33,7 +33,7 @@ tags:
 
 [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-04-15,59,310!2025-04-23,66,310-->
 
-[Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-04-12,57,310!2025-04-12,57,310-->
+[Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-12-18,250,330!2025-12-17,249,330-->
 
 (annotation: full form) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-08-01,125,290!2025-08-22,137,290-->
 

@@ -62,7 +62,7 @@ return await memorize_seq(
 - _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2027-12-13,1011,350-->
 - air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
 - land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2025-05-16,255,290-->
-- noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2025-11-18,365,290-->
+- noise pollution→::@::←solid waste disposal <!--SR:!2027-06-10,788,290!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-08-14,210,210-->
 - water pollution→::@::←_(end)_ <!--SR:!2026-03-23,457,310!2027-01-26,745,330-->
 
@@ -177,7 +177,7 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2025-04-12,207,270!2027-05-29,790,330-->
+  - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2027-06-01,780,290!2027-05-29,790,330-->
   - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2026-06-18,554,310!2027-04-21,802,330-->
 
 ## page 10
@@ -254,7 +254,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2025-05-13,274,330-->
-  - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2025-04-12,247,330!2025-04-29,260,330-->
+  - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2025-04-29,260,330-->
   - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2026-06-03,474,270!2025-07-13,276,290-->
   - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2026-05-27,505,310-->
 
@@ -389,7 +389,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2026-10-09,596,310!2027-05-04,807,330-->
-- carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
+- carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-29,22,130-->
@@ -409,7 +409,7 @@ Observed Global Climate Change
 Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
-  - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2027-09-11,909,330-->
+  - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2028-06-04,1147,350!2027-09-11,909,330-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
   - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2027-08-02,880,330-->
 

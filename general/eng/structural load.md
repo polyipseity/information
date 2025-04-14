@@ -68,7 +68,7 @@ Loads on civil engineering can be separated into {@{<!--pytextgen generate secti
 
 The dead load includes {@{loads that are relatively constant over time}@}. This includes {@{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}@} and {@{weights of permanent fixtures such as carpets, tiles, walls, and windows}@}. Usually calculated by {@{density of material multiplied by component size}@}. <!--SR:!2025-07-23,335,340!2026-01-31,466,310!2025-05-03,223,270!2025-11-08,359,290-->
 
-Generally, dead load (and live load) internally {@{deflects beams and floors}@}. As a whole, it causes {@{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}@}. More seriously, {@{dishing or sagging may happen to the foundation}@}. If not managed well, it can lead to {@{partial or total collapse of structural elements or the roof}@}. <!--SR:!2028-03-11,1069,350!2025-04-14,240,330!2027-12-10,1010,350!2027-12-06,1010,350-->
+Generally, dead load (and live load) internally {@{deflects beams and floors}@}. As a whole, it causes {@{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}@}. More seriously, {@{dishing or sagging may happen to the foundation}@}. If not managed well, it can lead to {@{partial or total collapse of structural elements or the roof}@}. <!--SR:!2028-03-11,1069,350!2028-04-03,1085,350!2027-12-10,1010,350!2027-12-06,1010,350-->
 
 ### live load
 

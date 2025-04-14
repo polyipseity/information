@@ -77,7 +77,7 @@ The entry for bad debt expense can also be classified as an estimate.
 
 ### inventory
 
-In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2025-04-12,154,310!2026-03-13,402,310!2025-05-13,178,310-->
+In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2027-02-02,661,330!2026-03-13,402,310!2025-05-13,178,310-->
 
 ## see also
 

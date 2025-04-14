@@ -59,7 +59,7 @@ tags:
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-09-29,175,270!2025-06-07,77,210-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-05-16,56,270!2025-04-22,62,230-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-05-30,65,270!2025-09-07,162,270-->
-> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-04-12,70,270!2025-04-29,49,170-->
+> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2025-04-29,49,170-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2025-10-22,205,310!2025-09-10,176,310-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-12-18,267,330!2026-01-14,290,330-->
 

@@ -17,7 +17,7 @@ tags:
 >
 > {@{Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.}@} <!--SR:!2026-02-05,306,335!2026-01-31,302,335-->
 
-In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2026-02-05,306,335!2025-04-13,76,331!2026-02-01,303,335!2026-01-31,302,335!2026-01-22,294,330!2026-02-05,306,335-->
+In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2026-02-05,306,335!2026-04-01,353,351!2026-02-01,303,335!2026-01-31,302,335!2026-01-22,294,330!2026-02-05,306,335-->
 
 ```Haskell
 class Functor f where
@@ -49,7 +49,7 @@ fmap (g . h) = (fmap g) . (fmap h)
 
 \(where `.` {@{stands for [function composition](function%20composition.md)}@}\). <!--SR:!2026-01-27,299,335-->
 
-In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}: <!--SR:!2026-01-29,300,335!2025-04-12,75,331-->
+In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}: <!--SR:!2026-01-29,300,335!2026-03-26,348,351-->
 
 ```Scala
 trait Functor[F[_]] {

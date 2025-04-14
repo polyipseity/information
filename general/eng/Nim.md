@@ -74,7 +74,7 @@ For the generalisations, _n_ and _m_ can be {@{any value > 0, and they may be th
 
 Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2025-11-18,311,341!2025-10-22,287,330!2026-01-16,312,301!2025-08-22,203,281-->
 
-While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2025-11-05,301,341!2025-04-13,136,321!2025-04-16,139,321-->
+While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2025-11-05,301,341!2026-12-07,603,341!2025-04-16,139,321-->
 
 Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2026-01-06,350,341!2025-04-18,141,321-->
 
@@ -116,7 +116,7 @@ As a particular simple case, if {@{there are only two heaps left}@}, the strateg
 
 When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one (in normal play, the correct move would be to leave an even number of such heaps)}@}. <!--SR:!2025-10-30,295,341!2025-08-24,225,321!2025-11-17,310,341-->
 
-These strategies for normal play and a misère game are {@{the same until the number of heaps with at least two objects is exactly equal to one}@}. At that point, the next player {@{removes either all objects (or all but one) from the heap that has two or more}@}, so {@{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. In normal play, the player {@{leaves an even number of non-zero heaps, so the same player takes last}@}; in misère play, the player {@{leaves an odd number of non-zero heaps, so the other player takes last}@}. <!--SR:!2025-04-17,140,321!2025-04-12,135,321!2025-09-24,247,321!2025-11-16,309,341!2025-12-16,331,341!2025-10-18,285,330-->
+These strategies for normal play and a misère game are {@{the same until the number of heaps with at least two objects is exactly equal to one}@}. At that point, the next player {@{removes either all objects (or all but one) from the heap that has two or more}@}, so {@{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. In normal play, the player {@{leaves an even number of non-zero heaps, so the same player takes last}@}; in misère play, the player {@{leaves an odd number of non-zero heaps, so the other player takes last}@}. <!--SR:!2025-04-17,140,321!2026-12-06,603,341!2025-09-24,247,321!2025-11-16,309,341!2025-12-16,331,341!2025-10-18,285,330-->
 
 In a misère game with heaps of sizes three, four and five, the strategy would be applied like this:
 
@@ -151,7 +151,7 @@ __Lemma 2__. ::@:: If _s_ ≠ 0, it is possible to make a move so that _t_ = 0. 
 
 _Proof of Lemma 2:_ ::@:: Let _d_ be the position of the leftmost (most significant) nonzero bit in the binary representation of _s_, and choose _k_ such that the _d_-th bit of _x<sub>k</sub>_ is also nonzero. (Such a _k_ must exist, since otherwise the _d_-th bit of _s_ would be 0.) Then letting _y<sub>k</sub>_ = _s_ ⊕ _x<sub>k</sub>_, we claim that _y<sub>k</sub>_ < _x<sub>k</sub>_: all bits to the left of _d_ are the same in _x<sub>k</sub>_ and _y<sub>k</sub>_, bit _d_ decreases from 1 to 0 (decreasing the value by 2<sup>_d_</sup>), and any change in the remaining bits will amount to at most 2<sup>_d_</sup>−1. The first player can thus make a move by taking _x<sub>k</sub>_ − _y<sub>k</sub>_ objects from heap _k_, then $$\begin{aligned} t & = s \oplus x_k \oplus y_k && (\text{by }(*)) \\ & = s \oplus x_k \oplus (s \oplus x_k) \\ & = 0 \end{aligned}$$ <!--SR:!2025-09-17,241,321!2025-08-22,223,321-->
 
-{@{The modification for misère play}@} is demonstrated by {@{noting that the modification first arises in a position that has only one heap of size 2 or more}@}. Notice that {@{in such a position _s_ ≠ 0}@}, and therefore {@{this situation has to arise when it is the turn of the player following the winning strategy}@}. The normal play strategy is {@{for the player to reduce this to size 0 or 1, leaving an even number of heaps with size 1}@}, and the misère strategy is {@{to do the opposite}@}. From that point on, {@{all moves are forced}@}. <!--SR:!2026-05-04,424,310!2025-04-17,140,321!2025-04-12,135,321!2025-11-24,317,341!2025-11-06,302,341!2025-11-17,310,341!2025-10-23,288,330-->
+{@{The modification for misère play}@} is demonstrated by {@{noting that the modification first arises in a position that has only one heap of size 2 or more}@}. Notice that {@{in such a position _s_ ≠ 0}@}, and therefore {@{this situation has to arise when it is the turn of the player following the winning strategy}@}. The normal play strategy is {@{for the player to reduce this to size 0 or 1, leaving an even number of heaps with size 1}@}, and the misère strategy is {@{to do the opposite}@}. From that point on, {@{all moves are forced}@}. <!--SR:!2026-05-04,424,310!2025-04-17,140,321!2026-11-27,594,341!2025-11-24,317,341!2025-11-06,302,341!2025-11-17,310,341!2025-10-23,288,330-->
 
 ## variations
 
@@ -194,7 +194,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to {@{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}. <!--SR:!2025-04-14,137,321!2025-11-17,310,341!2025-04-14,137,321!2025-11-02,298,341-->
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to {@{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99, and the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2025-11-17,310,341!2026-12-11,606,341!2025-11-02,298,341-->
 
 ### a multiple-heap rule
 
@@ -251,7 +251,7 @@ Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conv
 
 A generalization of multi-heap nim was called {@{"nim<sub>_k_</sub>" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}@},<sup>[\[12\]](#^ref-12)</sup> who {@{analyzed it in 1910}@}. In index-_k_ nim, instead of {@{removing objects from only one heap}@}, players can {@{remove objects from at least one but up to _k_ different heaps}@}. The number of elements that may be removed {@{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}@}. <!--SR:!2025-05-26,103,301!2025-09-25,248,321!2025-04-17,140,321!2025-11-23,316,341!2025-04-15,138,321-->
 
-The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1 (this is no longer the XOR-sum, but a generalization of it)}@}. <!--SR:!2025-09-07,231,281!2026-08-12,507,330!2025-04-13,136,321-->
+The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1 (this is no longer the XOR-sum, but a generalization of it)}@}. <!--SR:!2025-09-07,231,281!2026-08-12,507,330!2026-12-06,602,341-->
 
 Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2025-10-28,293,341!2025-11-07,303,341!2025-11-02,298,341!2025-11-23,316,341!2025-09-28,251,321!2026-03-19,387,310-->
 
@@ -261,7 +261,7 @@ Building nim is {@{a variant of nim wherein the two players first construct the 
 
 ### higher-dimensional nim
 
-_n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {@{any number of continuous pieces can be removed from any hyper-row}@}. The starting position is {@{usually the full board, but other options are allowed}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-11-24,317,341!2025-11-23,316,341!2025-04-14,137,321-->
+_n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {@{any number of continuous pieces can be removed from any hyper-row}@}. The starting position is {@{usually the full board, but other options are allowed}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-11-24,317,341!2025-11-23,316,341!2026-12-12,607,341-->
 
 ### graph nim
 

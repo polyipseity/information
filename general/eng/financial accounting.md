@@ -42,7 +42,7 @@ __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, un
 
 ## three components of financial statements
 
-The three components of financial statements are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}@}. <!--SR:!2025-04-13,147,290-->
+The three components of financial statements are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}@}. <!--SR:!2026-06-13,426,290-->
 
 ### statement of cash flows
 
@@ -114,7 +114,7 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2025-04-20,142,270!2025-05-25,159,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2025-05-17,187,310-->
 
-{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2025-08-10,255,330!2025-06-17,211,310!2025-04-19,164,310!2026-10-09,559,310-->
+{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2026-11-23,590,310!2025-08-10,255,330!2025-06-17,211,310!2025-04-19,164,310!2026-10-09,559,310-->
 
 #### statement of retained earnings
 

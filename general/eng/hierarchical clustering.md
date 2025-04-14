@@ -131,7 +131,7 @@ return chain.from_iterable(await gather(
 - $d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$:@:centroid linkage clustering <!--SR:!2026-10-30,653,315-->
 - $d(A, B) = \max_{a \in A, b \in B} d(a, b)$:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-05-22,313,335-->
 - $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$:@:median linkage clustering <!--SR:!2025-10-05,404,315-->
-- $d(A, B) = \min_{a \in A, b \in B} d(a, b)$:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2025-04-13,282,335-->
+- $d(A, B) = \min_{a \in A, b \in B} d(a, b)$:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-11-04,1301,355-->
 - $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$:@:unweighted average linkage clustering <!--SR:!2026-12-26,760,335-->
 - $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$:@:weighted average linkage clustering <!--SR:!2026-01-17,432,295-->
 
@@ -157,7 +157,7 @@ Alternatively, repeat the above steps until {@{the number of clusters equals the
 
 ### monothetic clustering
 
-The above algorithm is {@{polythetic clustering because it considers all variables of each observation}@}. Consider an observation with _n_ numerical variables, define the _n-dimensional location_ of an observation {@{as the values of the _n_ numerical variables. Then note that the distance function applied to two observations considers all variables at once}@}. An another type of divisive clustering is {@{monothetic clustering, where only one variable is considered when splitting}@}. <!--SR:!2025-07-01,303,295!2026-06-28,568,315!2025-04-12,233,270-->
+The above algorithm is {@{polythetic clustering because it considers all variables of each observation}@}. Consider an observation with _n_ numerical variables, define the _n-dimensional location_ of an observation {@{as the values of the _n_ numerical variables. Then note that the distance function applied to two observations considers all variables at once}@}. An another type of divisive clustering is {@{monothetic clustering, where only one variable is considered when splitting}@}. <!--SR:!2025-07-01,303,295!2026-06-28,568,315!2027-09-07,878,290-->
 
 Monothetic clustering is usually used {@{when the data consists of binary or boolean variables, though some variants also support non-binary variables}@}. <!--SR:!2026-06-27,565,310-->
 

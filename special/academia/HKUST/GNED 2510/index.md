@@ -96,7 +96,7 @@ The content is in teaching order.
 
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
-- stress ::@:: mental or emotional strain or tension <!--SR:!2025-04-14,151,310!2025-06-03,182,310-->
+- stress ::@:: mental or emotional strain or tension <!--SR:!2027-01-21,647,330!2025-06-03,182,310-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2026-03-19,395,310!2025-05-06,167,310-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2025-08-01,241,330-->
@@ -115,7 +115,7 @@ The content is in teaching order.
 - datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
 - networking
-  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2025-08-15,253,330-->
+  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2026-09-23,528,310!2025-08-15,253,330-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2025-08-27,260,330!2025-08-09,245,330-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2026-12-19,621,330-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2025-06-26,212,330-->
@@ -167,7 +167,7 @@ The content is in teaching order.
   - teamwork tips ::@:: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2025-05-18,148,250!2025-10-12,252,270-->
 - structured group discussion
 - presentation
-  - presentation tips ::@:: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!! <!--SR:!2026-03-15,364,290!2025-04-13,150,310-->
+  - presentation tips ::@:: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!! <!--SR:!2026-03-15,364,290!2027-01-18,645,330-->
 
 ## week 11 tutorial
 
