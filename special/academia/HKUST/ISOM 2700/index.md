@@ -619,7 +619,7 @@ The content is in teaching order.
   - moving average / naive ::@:: $$F_t = A_{t - 1} \,,$$ i.e. take the last value as the prediction. It is highly sensitive to noise and does not account for trends.
   - moving average / simple ::@:: $$F_t = \frac 1 n (A_{t - 1} + \cdots + A_{t - n}) \,,$$ i.e. take the average of the last _n_ values as the prediction. _n_ is the sampling/look-back window.
   - moving average / sampling window ::@:: The sampling/look-back window is specified by a number _n_. <p> Larger values smooth out noise \(_robustness_/_stability_\), while smaller values is more _responsive_.
-  - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_.
+  - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots + w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_.
     - moving average / weighted / weights ::@:: The weights may be selected by trial and error. <p> A reasonable assignment is allocating more weight to recent data. This increases _responsiveness_ against _robustness_/_stability_.
   - moving average / simple
     - moving average / simple / advantages & disadvantages ::@:: It is based on average past demand, and assigns equal importance to each observation. <p> It requires carrying large amounts of historical data, and data before the sampling window are entirely ignored.
@@ -659,7 +659,7 @@ The content is in teaching order.
   - inventory / types ::@:: buffer, cycle, pipeline, safety, seasonal
     - inventory / types / pipeline ::@:: related to units in a ongoing process; recall Little's law
     - inventory / types / seasonal ::@:: fixed capacity but variable demand, e.g. festival products
-    - inventory / types / cycle ::@:: related to economics of scale, as it is usually beneficial to product units in batches
+    - inventory / types / cycle ::@:: related to economics of scale, as it is usually beneficial to produce units in batches
     - inventory / types / buffer ::@:: buffers between activities in a process to enhance activity independence and robustness
     - inventory / types / safety ::@:: to hedge _unpredictable_ demand variations; tradeoff is ordering too few \(to meet unpredictable demand\) vs. too many \(and incur high holding costs\)
 - field inventory management
