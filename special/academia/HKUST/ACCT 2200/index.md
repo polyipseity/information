@@ -243,6 +243,8 @@ The content is in teaching order.
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_.
 - [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc.
   - activity-based management / example ::@:: Instead of looking at processes/jobs to improve, we look at the activities that processes/jobs require across all processes/jobs. <p> Using ABC, then we can find high-cost activities, and improve on them. We can also identify _value-added_ costs (e.g. designing, machining) and _non-value-added_ costs (e.g. advertising, billing, inspection, meeting, transportation).
+  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Then compare/rank the projects/segments by gross margin \(_percentage_\) and net operating income \(_percentage_\), which shows the gross profit consumed by overhead from ABC costing. Make 3 or more suggestions on improving the project and segment with the lowest net operating income \(_percentage_\), with explanation. Finally, for each activity, make 3 or more suggestions on reducing its activity with explanation. <p> Remember, 1 point is worth 1 mark. Do not be afraid to write "useless" points.\)
+    - activity-based management / note / ABC costing vs. traditional costing ::@:: Traditional costing uses only one cost driver. Thus, costs may be overallocated or underallocated as part of MOH is related to other unused cost drivers. ABC costing is more accurate because cost pools are used to match relevant cost drivers, which should have some causal relationship.
 - price setting ::@:: markup, target costing, etc.
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_.
 - [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered.
@@ -288,6 +290,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
 - topic: cost behavior
+
 - [variable costing](../../../../general/variable%20costing.md) ::@:: Under this method, manufacturing overhead is incurred in the period that a product is produced. This addresses the issue of absorption costing that allows income to rise as production rises. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP.
   - variable costing / purpose ::@:: cost accounting for internal decision making
   - variable costing / cost classification ::@:: costs are mainly split into fixed costs, variable costs
@@ -295,15 +298,11 @@ The content is in teaching order.
   - variable costing / formula ::@:: (net) sales, less: variable costs, (subtotal:) _contribution margin_, less: fixed costs, (total:) net operating income
 - [total absorption costing](../../../../general/total%20absorption%20costing.md) ::@:: Under an absorption cost method, management can push forward costs to the next period when products are sold. This artificially inflates profits in the period of production by incurring less cost than would be incurred under a variable costing system. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP.
   - total absorption costing / purpose ::@:: cost accounting for external financial reporting (GAAP)
-  - total absorption costing / cost classification ::@:: costs are mainly split into manufacturing costs, non-manufacturing costs
-  - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold)
-  - total absorption / formula ::@:: (net) sales, less: cost of goods sold, (subtotal:) _gross margin_, less: non-manufacturing expenses, (total:) net operating income
-- variable costing
-  - variable costing / from total absorption costing ::@:: Move all manufacturing (e.g. variable manufacturing costs) _and_ non-manufacturing (e.g. variable selling expenses) variable costs to variable costs. The variable costs should be based on units _sold_, not _manufactured_. <p> Move all manufacturing (e.g. manufacturing overhead) _and_ non-manufacturing (e.g. general and administrative expenses) fixed costs to fixed costs. _Importantly_, _all_ manufacturing overhead incurred (instead of the portion corresponding to sold goods) during the period is expensed.
-  - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs.
-    - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP.
 
 ## week 6 lecture 2
+
+- datetime: 2025-03-12T12:00:00+08:00/2025-03-12T13:20:00+08:00
+- status: canceled
 
 > Dear students,
 >
@@ -315,13 +314,43 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-- datetime: 2025-03-12T12:00:00+08:00/2025-03-12T13:20:00+08:00
-- status: canceled
+## examination 1
+
+- datetime: 2025-03-12T19:00:00+08:00/2025-03-12T20:30:00+08:00, PT1H30M
+- venue: Lecture Theater A
+- format
+  - calculator: yes
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: long questions ×3
+
+> Dear Students,
+>
+> The coverage is Chapters 2, 3, and 4 (Job costing, process costing and ABC). You will have three long questions. One chapter is for one question.
+>
+> Good luck on the exam.
+>
+> Best regards, <br/>
+> \[redacted\]
 
 ## week 7 lecture
 
 - datetime: 2025-03-17T12:00:00+08:00/2025-03-17T13:20:00+08:00
-- topic: cost–volume–profit (CVP) analysis
+- topic: cost behavior
+- total absorption costing
+  - total absorption costing / cost classification ::@:: costs are mainly split into manufacturing costs, non-manufacturing costs
+  - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold)
+  - total absorption / formula ::@:: (net) sales, less: cost of goods sold, (subtotal:) _gross margin_, less: non-manufacturing expenses, (total:) net operating income
+- variable costing
+  - variable costing / from total absorption costing ::@:: Move all manufacturing (e.g. variable manufacturing costs) _and_ non-manufacturing (e.g. variable selling expenses) variable costs to variable costs. The variable costs should be based on units _sold_, not _manufactured_. <p> Move all manufacturing (e.g. manufacturing overhead) _and_ non-manufacturing (e.g. general and administrative expenses) fixed costs to fixed costs. _Importantly_, _all_ manufacturing overhead incurred (instead of the portion corresponding to sold goods) during the period is expensed.
+  - variable costing / vs. total absorption costing ::@:: In the former, manufacturing overhead is expensed in the period the goods are produced. In the latter, manufacturing overhead is expensed in the period the goods are sold. <p> So the calculated net operating income differs.
+    - variable costing / vs. total absorption costing / net operating income (NOP) ::@:: absorption NOP – variable NOP = change in ending inventory × manufacturing overhead per unit <p> Intuitively, changes in ending inventory reflect imbalance between production and sales. When production > sales, inventory increases and absorption NOP > variable NOP. When production < sales, inventory decreases and absorption NOP < variable NOP.
+
+## week 7 lecture 2
+
+- datetime: 2025-03-19T12:00:00+08:00/2025-03-19T13:20:00+08:00, PT1H20M
+- topic: cost–volume–profit \(CVP\) analysis
 - [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions.
 - [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even".
 - cost–volume–profit analysis
@@ -341,23 +370,153 @@ The content is in teaching order.
     - cost–volume–profit analysis / assumptions / production ::@:: All units produced are sold (there is no ending finished goods inventory). <p> This simplification is because some costs vary with production while others vary with sales. No ending inventory change also means the net operating income/profit is the same between total absorption costing and variable costing.
     - cost–volume–profit analysis / assumptions / product mix ::@:: When a company sells more than one type of product, the product mix (the ratio of each product to total sales) will remain constant.
   - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted (net) sales and break-even point: <p> actual/budgeted (net) sales − break-even point <p> It represents the strength of the business.
+  - cost–volume–profit analysis / changes ::@:: cost structure; fixed cost, price; price; variable cost, volume;
+    - cost–volume–profit analysis / changes / price ::@:: Compute the new \(average\) price, and then the contribution margin ratio or unit contribution margin. You can use these two methods.
+    - cost–volume–profit analysis / changes / variable cost, volume ::@:: Compute the new unit variable cost and the new volume. You can use the profit equation method.
+    - cost–volume–profit analysis / changes / fixed cost, price ::@:: Compute the new \(average\) price and new fixed cost, and then unit contribution margin. Yon cau use this method.
+    - cost–volume–profit analysis / changes / cost structure ::@:: It refers to how a company allocates variable cost and fixed cost to perform its operations. <p> To compare two cost structure and find the quantity to justify switching, we set two profit equations to equal each other, then solve a quantity that gives the same profit under both cost structures.
+- [operating leverage](../../../../general/operating%20leverage.md) ::@:: It is a measure of how revenue growth translates into growth in operating income. It is a measure of leverage, and of how risky, or volatile, a company's operating income is.
+  - operating leverage / degree of operating leverage \(DOL\) ::@:: It can be computed as Total [Contribution Margin](../../../../general/contribution%20margin.md) over [Operating Income](../../../../general/operating%20income.md): $${\text{DOL} }={\frac {\text{Total Contribution} }{\text{Operating Income} } }={\frac {\text{Total Contribution} }{ {\text{Total Contribution} }-{\text{Fixed Costs} } } }={\frac {({\text{P} }-{\text{V} })\cdot {\text{X} } }{({\text{P} }-{\text{V} })\cdot {\text{X} }-{\text{FC} } } } \,.$$
+    - operating leverage / degree of operating leverage / measure ::@:: It measures how much fixed costs are used to operate a business. In general, higher fixed costs means the business is more leveraged. This means a percentange change in sales translate to a higher percentage change in operating income: $${\text{DOL} }={\frac {\%{\text{ change in Operating Income} } }{\%{\text{ change in Sales} } } } \,.$$
 
-## examination 1
+## week 8 lecture
 
-> Dear Students,
+- datetime: 2025-03-24T12:00:00+08:00/2025-03-24T13:20:00+08:00, PT1H20M
+- topic: cost–volume–profit \(CVP\) analysis, incremental analysis for short-term decision making
+- cost–volume–profit analysis
+  - cost–volume–profit analysis / product mix ::@:: CVP analysis can be applied to multiple products \(product mix\). However, different products may have different contribution margin ratio and unit contribution margin. <p> We can use _weighted average unit contribution margin_ or _weighted average contribution margin ratio_ method instead. They treat these products as if it is one product.
+- contribution margin
+  - contribution margin / weighted average unit ::@:: Calculate the weighted average by adding the unit contribution margins, weighted by unit mix. <p> When you want to find the _breakeven/target units_ for each product individually, you need to multiply the calculated breakeven/target units by the corresponding unit mix, since the units obtained above are as if each unit is a product mix. This applies for both _breakeven analysis_ and _target profit analysis_.
+    - contribution margin / weighted average unit / characteristics ::@:: This assumes the unit mix remains the same regardless of the quantity, which is equivalent to the sales mix remaining the same \(but _numerically_, the mixes are not the same\).
+  - contribution margin / weighted average ratio ::@:: Caluclate the weighted average by adding the contribution margin ratios, weighted by sales mix \(_not_ unit mix\). <p> When you want to find the _breakeven/target sales_ for each product individually, you need to multiply the calculated breakeven/target sales by the corresponding sales mix \(_not_ unit mix\). This applies for both _breakeven analysis_ and _target profit analysis_.
+    - contribution margin / weighted average ratio / characteristics ::@:: This assumes the sales mix remains the same regardless of the quantity, which is equivalent to the unit mix remaining the same \(but _numerically_, the mixes are not the same\). <p> This approach is commonly used because aggregated information about revenue and costs by product line are usually available.
+- cost–volume–profit analysis
+  - cost–volume–profit analysis / contribution margin income statement: [formats § contribution margin income statement](formats.md#contribution%20margin%20income%20statement)
+- relevant cost
+  - relevant cost / aliases ::@:: avoidable cost, differential cost, incremental cost
+  - irrelevant cost
+- opportunity cost
+  - opportunity cost / capacity ::@:: At full capacity, existing products needs to be given up to make room for new products. We need to account for benefits and costs of existing products given up. <p> With idle capacity, this is not necessarily. <p> Also see _shadow price_.
+- special order ::@:: It is an one-time order that is outside the scope of normal sales. <p> When performing cost—benefit analysis, we only account for the _incremental_ costs and benefits. That is, the change in costs and benefits between accepting and rejecting it. \(Considering the _incremental_ costs and benefits will automatically consider the opportunity costs.\)
+  - special order / relevant costs ::@:: For products, they include contribution margin lost on regular sales \(due to full capacity\), direct labor, direct materials, _variable_ manufacturing overhead, etc.
+  - special order / irrelevant costs ::@:: For products, they include _fixed_ manufacturing overhead, etc.
+  - special order / analysis: [formats § incremental analysis \(unit\)](formats.md#incremental%20analysis%20(unit))
+- [outsourcing](../../../../general/outsourcing.md) ::@:: It is is a business practice in which companies use external providers to carry out business processes, that would otherwise be handled internally.
+  - outsourcing / decision ::@:: insoucing vs. outsourcing, make-or-buy
+    - outsourcing / decision / factors ::@:: incremental costs and benefits, opportunity costs, _qualitative_ factors \(usually not accounted for when calculating incremental costs and benefits\)
+    - outsourcing / decision / incremental costs and benefits ::@:: Most if not all direct costs are avoidable. They should be included. <p> Most if not all \(indirect\) fixed overhead costs are unavoidable. They should be excluded. <p> Some costs/benefits can be considered as either an opportunity cost of an option or a benefit of the other option, but not both, otherwise you double count.
+    - outsourcing / decision / qualitative factors ::@:: Incremental analysis usually only focuses on the _economic_ aspect of the _triple bottom line_. What about _environmental_ or _social_ ones? <p> For example, outsourcing a food service, they include operation cruicalness, human resources, liability, quality, safety, etc.
+  - outsourcing / analysis: [formats § incremental analysis \(comparative\)](formats.md#incremental%20analysis%20(comparative))
+
+## week 8 lecture 2
+
+- datetime: 2025-03-26T12:00:00+08:00/2025-03-26T13:20:00+08:00, PT1H20M
+- topic: incremental analysis for short-term decision making
+- continue or discontinue ::@:: Decide if a particular segment of a business needs to be dropped.
+  - continue or discontinue / aliases ::@:: keep or drop
+  - continue or discontinue / factors ::@:: incremental costs and benefits, opportunity costs, qualitative factors, segment cannibalism and synergy
+    - continue or discontinue / factors / incremental costs and benefits ::@:: The segment contribution, which includes direct fixed costs but not common/shared fixed costs, needs to be considered.
+    - continue or discontinue / factor / opportunity costs ::@:: Consider the alternative uses of resources tied up in the segment.
+    - continue or discontinue / factor / segment cannibalism and synergy ::@:: Consider the effect of eliminating a segment on other segments. <p> Eliminating _subsitute goods_ \(within your own products\) generally increases the sale of other goods, while eliminating _complementary goods_ \(within your own products\) generally decreases the sale of other goods.
+    - continue or discontinue / factor / qualitative factors ::@:: Incremental analysis usually only focuses on the _economic_ aspect of the _triple bottom line_. What about _environmental_ or _social_ ones? <p> For example, eliminating a product line, they include customer loyalty, employee morale, human resources, etc.
+  - continue or discontinue / analysis: [formats § incremental analysis \(incremental\)](formats.md#incremental%20analysis%20(incremental))
+- sell or process further ::@:: Decide if a product should be sold now, or refine it so that it can be sold for a higher price.
+  - sell or process further / analysis ::@:: Same as that for outsourcing. Compare the two options.
+- incremental analysis ::@:: To sum up, consider _incremental changes_. Additionally, balance it against qualitative factors, which is usually not covered by incremental analysis.
+  - incremental analysis / relevant costs ::@:: differs between decision alternatives and happens in the future
+  - incremental analysis / direct variable costs ::@:: Very likely relevant, as they vary with the number of units produced or sold.
+  - incremental analysis / indirect varibale costs ::@:: If it is indirect, then it is difficult to trace such costs to a product, so it could not be variable.
+  - incremental analysis / direct fixed costs ::@:: May be relevant, unlike allocated/common/indirect fixed costs, which are shared by multiple products or services.
+  - incremental analysis / indirect fixed costs ::@:: Likely irrelevant, unlike direct fixed costs, which are used by one product or service.
+  - incremental analysis / opportunity costs ::@:: When capacity or resources are constrained, this is likely relevant. <p> Avoid double counting it as a cost in an option and an benefit in the other option.
+- contribution margin
+  - contribution margin / constrained optimzation ::@:: When a capacity or resource restrict a company from satisfying demand \(implies not demand constrained\), that capacity or resource is a _bottleneck_. <p> Assuming we have only 1 bottleneck. _Contribution margin per capacity or resource_ can be used to allocate said bottleneck to different products or services to maximize contribution margin. Fixed costs are ignored because it will not change _in the short run_.
+    - contribution margin / constrained optimization / method ::@:: Assuming there is only 1 bottleneck and there is sufficient demand \(i.e. not demand constrained\). <p> Identify the demands and _bottleneck_. Divide the contribution margin of each product or service by the bottleneck capacity or resource required. This gives _contribution margin per bottleneck capacity or resource_. Finally, allocate resources to products with the highest contribution margins per bottleneck capacity or resource, until either its demand is fully satisfied or the resource has run out.
+    - contribution margin / constrained optimization / format: [formats § constrained optimization using contribution margin](formats.md#constrained%20optimization%20using%20contribution%20margin)
+
+## week 9 lecture
+
+- datetime: 2025-03-31T12:00:00+08:00/2025-03-31T13:20:00+08:00, PT1H20M
+- status: unscheduled, midterm break
+
+> __<big>No lectures on Mid-term Break</big>__
 >
-> The coverage is Chapters 2, 3, and 4 (Job costing, process costing and ABC). You will have three long questions. One chapter is for one question.
+> Dear students,
 >
-> Good luck on the exam.
+> It is the mid-term break next week, please note that there will be no ACCT2200 lecture.
 >
-> Best regards, <br/>
+> Best regards,
+>
 > \[redacted\]
 
-- datetime: 2025-03-12T19:00:00+08:00/2025-03-12T20:30:00+08:00, PT1H30M
-- venue: Lecture Theater A
-- format: calculator, closed book, closed notes, no cheatsheet
+## week 9 lecture 2
+
+- datetime: 2025-04-02T12:00:00+08:00/2025-04-02T13:20:00+08:00, PT1H20M
+- status: unscheduled, midterm break
+
+## week 10 lecture
+
+- datetime: 2025-04-07T12:00:00+08:00/2025-04-07T13:20:00+08:00, PT1H20M
+- topic: incremental analysis for short-term decision making
+
+## week 10 lecture 2
+
+- datetime: 2025-04-09T12:00:00+08:00/2025-04-09T13:20:00+08:00, PT1H20M
+- topic: budgetary planning
+- [budget](../../../../general/budget.md) ::@:: It is a calculation plan, usually but not always financial, for a defined period, often one year or a month. A budget may include anticipated sales volumes and revenues, resource quantities including time, costs and expenses, environmental impacts such as greenhouse gas emissions, other impacts, assets, liabilities and cash flows. Companies, governments, families, and other organizations use budgets to express strategic plans of activities in measurable terms.
+  - budget / goals ::@:: planning: Identify required expenditure and resources, and is future-oriented. <br/> control: Determine if goals have been met.
+  - budget / master budget ::@:: It aggregates these all budgets.
+  - budget / types ::@:: operating budgets → financial budgets
+  - budget / operating budgets ::@:: sales budget → production budget → raw materials purchases budget + direct labor \(DL\) budget + manufacturing overhead \(MOH\) budget → cost of goods sold \(COGS\) budget → budgeted income statement <br/> sales budget → selling and administrative \(S&A\) expense budget → budgeted income statement <br/> sales budget → budgeted income statement
+  - budget / financial budgets ::@:: \(sales budget\) → budgeted cash receipts → cash budget → budgeted balance sheet <br/> \(raw materials purchases budget + direct labor \(DL\) budget + manufacturing overhead \(MOH\) budget + selling and administrative \(S&A\) expense budget\) → budgeted cash payments → cash budget → budgeted balance sheet <br/> capital expenditures \(CAPEX\) budget → budgeted cash payments → cash budgets → budgeted balance sheet <br/> capital expenditures \(CAPEX\) budget → budgeted balance sheet
+  - budget / format: [formats § budget](formats.md#budget)
+
+## week 11 lecture
+
+- datetime: 2025-04-14T12:00:00+08:00/2025-04-14T13:20:00+08:00, PT1H20M
+- status: canceled
+
+> Dear ACCT 2200 Students,
+>
+> As the examination is coming soon, the classes on Monday and Tuesday will be cancelled so that you have time to study for the exam.
+>
+< Best regards,
+>
+> \[redacted\]
 
 ## examination 2
+
+- datetime: 2025-04-15T19:00:00+08:00/2025-04-15T20:30:00+08:00, PT1H30M
+- venue: Lecture Theater B; Lecture Theater E
+- format
+  - calculator: yes
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: long questions ×3
+
+> __<big>Coverage of Examination 2</big>__
+>
+> Dear ACCT 2200 Students,
+>
+> You will seat Examination 2 very soon. Coverage are as follows \(although I have announced it in the class\)
+>
+> One question on Chapter 5 \(approximately 24 marks\) \(Cost behavior\)
+>
+> One question on Chapter 6 \(approximately 30 marks\) \(CVP analysis\)
+>
+> One question on Chapter 7 \(approximately 46 marks\) \(short-term decision marking\)
+>
+> Total = 100 marks. No MCQs. Please bring your stationery and calculator to the testing center as we could not provide any help to student to do the examination. It is a closed-book examination without any cheat sheet. Chloe will upload the information about the seating plan and venue very soon. Please check Canvas regularly.
+>
+> Best regards,
+>
+> \[redacted\]
+
+## week 11 lecture 2
+
+- datetime: 2025-04-16T12:00:00+08:00/2025-04-16T13:20:00+08:00, PT1H20M
+- topic: budgetary planning
 
 ## examination 3
 

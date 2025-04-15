@@ -362,3 +362,147 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - total manufacturing overhead
   - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost
   - total manufacturing overhead / row headers ::@:: activity cost pool, (processes...), total
+
+## contribution margin income statement
+
+> __example__
+>
+> ---
+>
+> {@{Comparing Apples With Oranges Company}@} <br/>
+> {@{__Contribution Margin Income Statement__}@} <br/>
+> {@{Based on Target Profit of &dollar;300}@}
+>
+>
+> |                                  |                 |                        |                                |                 |                         |                             |                          |                                |
+> | -------------------------------- | ---------------:| ----------------------:| ------------------------------:| ---------------:| -----------------------:| ---------------------------:| ------------------------:| ------------------------------:|
+> |                                  |                 | {@{__<u>apple</u>__}@} |                                |                 | {@{__<u>orange</u>__}@} |                             | {@{__<u>overall</u>__}@} |                                |
+> |                                  | {@{per unit}@}  | {@{total}@}            | {@{percent}@}                  | {@{per unit}@}  | {@{total}@}             | {@{percent}@}               | {@{total}@}              | {@{percent}@}                  |
+> | {@{sales revenue}@}              | {@{&dollar;3}@} | {@{&dollar;420}@}      | {@{100%}@}                     | {@{&dollar;4}@} | {@{&dollar;720}@}       | {@{100%}@}                  | {@{&dollar;1&nbsp;140}@} | {@{100%}@}                     |
+> | {@{less: variable costs}@}       | {@{<u>2</u>}@}  | {@{<u>280</u>}@}       | {@{<u>66.67&nbsp;&nbsp;</u>}@} | {@{<u>2</u>}@}  | {@{<u>360</u>}@}        | {@{<u>50&nbsp;&nbsp;</u>}@} | {@{<u>640</u>}@}         | {@{<u>56.14&nbsp;&nbsp;</u>}@} |
+> | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@} | {@{&dollar;140}@}      | {@{33.33%}@}                   | {@{&dollar;2}@} | {@{&dollar;360}@}       | {@{50%}@}                   | {@{&dollar;500}@}        | {@{43.86%}@}                   |
+> | {@{less: fixed costs}@}          |                 |                        |                                |                 |                         |                             | {@{<u>200</u>}@}         |                                |
+> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                |
+
+- contribution margin income statement ::@:: headers, products & overall, row headers
+  - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\)
+  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both
+  - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income
+  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing.
+
+## incremental analysis (unit)
+
+> __example__
+>
+> ---
+>
+> {@{__Incremental Analysis of the Special Order for 20 Special Units__}@}
+>
+> |                                            | {@{per unit}@}  | {@{total}@}       |
+> | ------------------------------------------ | ---------------:| -----------------:|
+> | {@{incremental revenue}@}                  | {@{&dollar;5}@} | {@{&dollar;100}@} |
+> | {@{less: incremental costs}@}              |                 |                   |
+> | &emsp;{@{direct materials}@}               | {@{\(1\)}@}     | {@{\(20\)}@}      |
+> | &emsp;{@{direct labor}@}                   | {@{\(1\)}@}     | {@{\(20\)}@}      |
+> | &emsp;{@{variable overhead}@}              | {@{\(1\)}@}     | {@{\(20\)}@}      |
+> | &emsp;{@{fixed overhead}@}                 | {@{-}@}         | {@{-}@}           |
+> | &emsp;{@{opportunity cost of lost sales}@} | {@{\(1\)}@}     | {@{\(20\)}@}      |
+> | {@{total incremental costs}@}              | {@{\(4\)}@}     | {@{\(80\)}@}      |
+> | {@{incremental profit \(loss\)}@}          | {@{&dollar;1}@} | {@{&dollar;20}@}  |
+
+- incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers
+  - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total
+  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\)
+
+## incremental analysis (comparative)
+
+> __example__
+>
+> ---
+>
+> |                                | {@{option 1: keep in-house}@} | {@{option 2: outsourcing}@} | {@{difference: \(cost\) or benefit of outsourcing}@} |
+> | ------------------------------ | -----------------------------:| ---------------------------:| ----------------------------------------------------:|
+> | {@{revenue}@}                  | {@{&dollar;10}@}              | {@{&dollar;5}@}             | {@{&dollar;\(5\)}@}                                  |
+> | {@{less:}@}                    |                               |                             |                                                      |
+> | &emsp;{@{direct materials}@}   | {@{\(1\)}@}                   | {@{-}@}                     | {@{1}@}                                              |
+> | &emsp;{@{direct labor}@}       | {@{\(1\)}@}                   | {@{-}@}                     | {@{1}@}                                              |
+> | &emsp;{@{variable overhead}@}  | {@{\(1\)}@}                   | {@{-}@}                     | {@{1}@}                                              |
+> | &emsp;{@{fixed overhead}@}     | {@{\(2\)}@}                   | {@{\(1\)}@}                 | {@{1}@}                                              |
+> | {@{revenue from new service}@} | {@{-}@}                       | {@{2}@}                     | {@{2}@}                                              |
+> | {@{net operating profit}@}     | {@{&dollar;5}@}               | {@{&dollar;6}@}             | {@{&dollar;1}@}                                      |
+
+- incremental analysis \(comparative\) ::@:: column headers, row headers
+  - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\)
+  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\)
+
+## incremental analysis (incremental)
+
+> __example__
+>
+> ---
+>
+> |                                                |                          |
+> | ---------------------------------------------- | ------------------------:|
+> | {@{elimination of product A}@}                 |                          |
+> | &emsp;{@{loss sales revenue}@}                 | {@{&dollar;\(100\)}@}    |
+> | &emsp;{@{less: avoidable variable costs}@}     | {@{20}@}                 |
+> | &emsp;{@{less: avoidable direct fixed costs}@} | {@{20}@}                 |
+> | &emsp;{@{__lost segment margin__}@}            | {@{__&dollar;\(60\)__}@} |
+> | {@{effect on product B}@}                      |                          |
+> | &emsp;{@{increased sales}@}                    | {@{&dollar;100}@}        |
+> | &emsp;{@{less: increased variable costs}@}     | {@{\(50\)}@}             |
+> | &emsp;{@{__increased contribution margin__}@}  | {@{__&dollar;50__}@}     |
+> | {@{__net effect eliminating product A__}@}     | {@{__&dollar;\(10\)__}@} |
+
+- incremental analysis \(incremental\) ::@:: column headers, row headers
+  - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\)
+  - incremental analysis \(incremental\) / row headers ::@:: main effect + subitems, \(side effects + subitems\), net effect
+
+## constrained optimization using contribution margin
+
+> __example__
+>
+> ---
+>
+> | {@{priority}@}                        | {@{1 large}@}    | {@{2 small}@}    | {@{3 medium}@}             |
+> | ------------------------------------- | ----------------:| ----------------:| --------------------------:|
+> | {@{contribution margin per kg}@}      | {@{&dollar;3}@}  | {@{&dollar;2}@}  | {@{&dollar;1}@}            |
+> | {@{units produced}@}                  | {@{10}@}         | {@{20}@}         | {@{5}@}                    |
+> | {@{raw materials required per unit}@} | {@{3&nbsp;kg}@}  | {@{1&nbsp;kg}@}  | {@{2&nbsp;kg}@}            |
+> | {@{total required raw material}@}     | {@{30&nbsp;kg}@} | {@{20&nbsp;kg}@} | {@{10&nbsp;kg remaining}@} |
+> | {@{total contribution margin}@}       | {@{&dollar;90}@} | {@{&dollar;40}@} | {@{&dollar;10}@}           |
+
+- constrained optimization using contribution margin ::@:: column headers, row headers
+  - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\)
+  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin
+  - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead.
+
+## budget
+
+> __example__
+>
+> ---
+>
+> {@{__Aether Company__}@} <br/>
+> {@{__Budgeted Cash Payments__}@} <br/>
+> {@{__For the Year Ended December 31, 2025__}@}
+>
+> |                                                           | {@{quarter 1 <br/> Jan–Mar}@} | {@{quarter 2 <br/> Apr–Jun}@} | {@{quarter 3 <br/> Jul–Sep}@} | {@{quarter 4 <br/> Oct–Dec}@} | {@{yearly <br/> total}@} |
+> | --------------------------------------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ------------------------ |
+> | {@{budgeted cost of direct materials purchases}@}         | {@{<u>&dollar;0</u>}@}        | {@{&dollar;100}@}             | {@{&dollar;200}@}             | {@{&dollar;300}@}             | {@{&dollar;600}@}        |
+> |                                                           |                               |                               |                               |                               |                          |
+> | {@{cash paid during the quarter of purchase \(25%\)}@}    | {@{&dollar;0}@}               | {@{&dollar;25}@}              | {@{&dollar;50}@}              | {@{&dollar;75}@}              | {@{&dollar;150}@}        |
+> | {@{cash paid in the quarter following purchase \(75%\)}@} | {@{<u>75</u>}@}               | {@{<u>0</u>}@}                | {@{<u>75</u>}@}               | {@{<u>150</u>}@}              | {@{<u>300</u>}@}         |
+> | {@{cash paid for direct materials}@}                      | {@{&dollar;75}@}              | {@{&dollar;25}@}              | {@{&dollar;125}@}             | {@{&dollar;225}@}             | {@{&dollar;450}@}        |
+> | {@{cash paid for direct labor}@}                          | {@{25}@}                      | {@{75}@}                      | {@{75}@}                      | {@{75}@}                      | {@{250}@}                |
+> | {@{manufacturing overhead}@}                              | {@{10}@}                      | {@{20}@}                      | {@{30}@}                      | {@{40}@}                      | {@{100}@}                |
+> | {@{less: depreciation \(non-cash expense\)}@}             | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(400\)}@}            |
+> | {@{cash paid for selling and administrative expenses}@}   | {@{40}@}                      | {@{30}@}                      | {@{20}@}                      | {@{10}@}                      | {@{100}@}                |
+> | {@{cash paid for equipment \(capex\)}@}                   | {@{<u>100</u>}@}              | {@{<u>0</u>}@}                | {@{<u>100</u>}@}              | {@{<u>100</u>}@}              | {@{<u>300</u>}@}         |
+> | {@{budgeted cash payments}@}                              | {@{<u>&dollar;150</u>}@}      | {@{<u>&dollar;50</u>}@}       | {@{<u>&dollar;250</u>}@}      | {@{<u>&dollar;350</u>}@}      | {@{<u>&dollar;800</u>}@} |
+
+- budget ::@:: headers, column headers, row headers, format
+  - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\)
+  - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\)
+  - budget / row headers ::@:: Many items. A total at the end. Indent as needed.
+  - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it.
