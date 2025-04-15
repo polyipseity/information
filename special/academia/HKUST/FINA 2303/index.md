@@ -315,7 +315,7 @@ The content is in teaching order.
   - internal rate of return / note ::@:: In this course, use the NPV rule instead of IRR rule, even for loan/delayed investment.
 - [payback period](../../../../general/payback%20period.md) ::@:: It is the time required to recoup the funds expended in an investment, or to reach the break-even point. <p> It _does not discount_ the cash flows.
   - payback period / decision rule ::@:: First, define a pre-specified length of time is the _maximum payback period_. <p> For a standalone project, if the payback period is _not greater than_ the maximum, _accept_ the project. Otherwise _reject_. <p> This rule is generally _not consistent_ with NPV.
-  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> \(this course: In book, course, and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.\)
+  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> Alternative, find out how much is received within the maximum payback period and see if it can payback the initial investment. No discounting is done. <p> \(__this course__: In book, course, and homework, the payback period is calculated assuming cash flows are continuous, i.e. direct division is enough and rounding up is unnecessary.\)
   - payback period / decision rule
     - payback period / decision rule / advantages ::@:: Simple. Favors liquidity.
     - payback period / decision rule / disadvantages ::@:: The maximum payback period/payback period cutoff is arbitrary. Cash flows after the cutoff is ignored. Not necessarily consistent with maximizing shareholder value (since it is not generally consistent with NPV).
@@ -491,7 +491,7 @@ The content is in teaching order.
 - datetime: 2025-03-14T16:30:00+08:00/2025-03-14T17:50:00+08:00
 - topic: fundamentals of capital budgeting
 - [capital budgeting](../../../../general/capital%20budgeting.md) ::@:: It in corporate finance, corporate planning and accounting is an area of are worth the funding of cash through the firm's capitalization structures (debt, equity or retained earnings).
-  - capital budgeting / steps ::@:: Estimate future expected cash flows. Estimate the required rate of return from its risk level. Apply investment decision rules, e.g. NPV, IRR, etc. Perform _sensitivity analysis_ \(this course: not covered\): sensitivity of NPV to forecast uncertainty.
+  - capital budgeting / steps ::@:: Estimate future expected cash flows. Estimate the required rate of return from its risk level. Apply investment decision rules, e.g. NPV, IRR, etc. Perform _sensitivity analysis_ \(__this course__: not covered\): sensitivity of NPV to forecast uncertainty.
   - capital budgeting / project ::@:: A project typically consists of 3 stages: initial outlay \(usually last for 1 year\), on-going cash flows, terminal cash flow \(usually occurs at the same time as the last on-going cash flow\).
 - [free cash flow](../../../../general/free%20cash%20flow.md) \(FCF\) ::@:: It is the amount by which a business's operating cash flow exceeds its working capital needs and expenditures on fixed assets (known as capital expenditures). It is that portion of cash flow that can be extracted from a company and distributed to creditors and securities holders without causing issues in its operations.
   - free cash flow / steps ::@:: Estimate incremental earnings of a project \(EBIT – tax\) from a _pro forma_ \(forecasted\) income statement. Convert them into free cash flows. <p> Note that incremental earnings are not actual cash flows.
@@ -579,7 +579,7 @@ The content is in teaching order.
     - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments
     - bond / terminology / coupon rate ::@:: interest to compute coupon payments based on the face value; often expressed as APR
     - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually
-  - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(this course: We use the "clean" one for simplicity.\)
+  - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(__this course__: We use the "clean" one for simplicity.\)
   - bond / risk ::@:: A bond may be considered either risk-free or has default risk. <p> Government bonds, e.g. United States Treasury bills, are generally considered risk-free. But note that some countries have \(repeatedly\) defaulted on their government bonds.
 - [zero-coupon bond](../../../../general/zero-coupon%20bond.md) ::@:: It is a bond in which the face value is repaid at the time of maturity. Unlike regular bonds, it does not make periodic interest payments or have so-called coupons, hence the term zero-coupon bond. When the bond reaches maturity, its investor receives its par (or face) value.
   - zero-coupon bond / examples ::@:: US Treasury bills, US savings bonds, long-term zero-coupon bonds, and any type of coupon bond that has been stripped of its coupons
@@ -610,8 +610,8 @@ The content is in teaching order.
     - bond / market price / quote ::@:: Both market price and yield can be used to quote bonds. Higher price means lower yield, and vice versa.
     - bond / market price / issuance ::@:: The issue price at which investors buy the bonds when they are first issued will typically be approximately equal to the nominal amount. The net proceeds that the issuer receives are thus the issue price, less issuance fees.
 - yield to maturity
-  - yield to maturity / coupon-bearing bonds ::@:: For bonds with multiple coupons, it is not generally possible to solve for yield in terms of price algebraically. A numerical root-finding technique such as Newton's method must be used to approximate the yield, which renders the present value of future cash flows equal to the bond price. <p> \(this course: use a financial calculator\)
-  - yield to maturity / quote ::@:: The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <p> \(this course: use APR\)
+  - yield to maturity / coupon-bearing bonds ::@:: For bonds with multiple coupons, it is not generally possible to solve for yield in terms of price algebraically. A numerical root-finding technique such as Newton's method must be used to approximate the yield, which renders the present value of future cash flows equal to the bond price. <p> \(__this course__: use a financial calculator\)
+  - yield to maturity / quote ::@:: The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <p> \(__this course__: use APR\)
   - yield to maturity / assumptions ::@:: consistency, default risk, held to maturity, reinvestment risk
     - yield to maturity / assumptions / held to maturity ::@:: The owner holds the security to maturity.
     - yield to maturity / assumptions / reinvestment risk ::@:: The owner reinvests all interest payments \(at YTM\) rather than spending them, to gain the benefit of compounded returns.

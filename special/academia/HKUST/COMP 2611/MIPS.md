@@ -36,7 +36,7 @@ Almost always, {@{the number of variables in a program is much higher than the n
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}.
 
-\(this course: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\)
+\(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\)
 
 ## memory
 
@@ -78,7 +78,7 @@ One would notice that {@{some reasonable instructions are missing}@}. This is an
 
 {@{The program counter \(PC\) or instruction address register}@} contains {@{the 32-bit address of the current instruction}@}. {@{The _concept_ \(_not_ a real register\) next program counter \(nPC\)}@} contains {@{the next instruction to be executed}@}. Every time {@{an instruction is executed}@}, {@{the PC is updated to the nPC, and nPC is usually added 4 \(next instruction\)}@}. Note that some instruction {@{causes nPC to be added by an offset \(e.g. relative jump instructions\) or causes nPC to be set to a register \(e.g. semi-absolute jump instructions\)}@}. {@{The `goto` in the pseudo C code below}@} is {@{meant to indicate this}@}, but is {@{slightly different from that in C, as explained in the next sentence}@}. Note that in these cases, {@{the PC is still updated to the nPC before updating the nPC}@}, e.g. {@{the next instruction in memory after a jump instruction is still executed}@}. This is why {@{_branch delay slots_ \(mentioned below\) are added after jump instructions}@}. This also explains why {@{the "and link" instructions \(i.e. `jal`, `bgezal`, `bltzal`\) and PC-relative addressing mode is based on nPC or `PC + 4`}@}.
 
-\(this course: For this course, {@{you do not need to know _branch delay slots_}@}. That is, you write in {@{MIPS without branch delay slots, which MARS simulate by default}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_, which allures to the above concept of that nPC instead of PC is updated by branching instructions}@}.\)
+\(__this course__: For this course, {@{you do not need to know _branch delay slots_}@}. That is, you write in {@{MIPS without branch delay slots, which MARS simulate by default}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_, which allures to the above concept of that nPC instead of PC is updated by branching instructions}@}.\)
 
 The program counter {@{cannot be read or written directly}@}. However, it can be indirectly read {@{using `jal`, where the PC of the `jal` instruction _plus 8_ \(for MARS and this course, use _plus 4_\) is saved to `$ra`}@}. It is indirectly written {@{by executing instructions, or branching and jump instructions}@}.
 
@@ -106,12 +106,12 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> -->
 - multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist.
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed; note the register placeholder `$d` is unused
-  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\)
+  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\)
 - multiply immediate ::@:: `multi` does not exist.
 - multiply immediate unsigned ::@:: `multiu` does not exist.
 - multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused
   - multiply unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent.
-  - multiply unsigned / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(this course: No overflow occurs if every bit of `$HI` is 0.\)
+  - multiply unsigned / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` is 0.\)
 - subtract ::@:: `sub $d, $s, $t`: `$d = $s - $t;`, signed, traps on overflow
 - subtract immediate ::@:: `subi` does not exist. Use `addi` with a negative constant instead.
 - subtract immediate unsigned ::@:: `subiu` does not exist. Use `addiu` with a negative constant instead.
@@ -247,7 +247,7 @@ The 32 registers are used as follows:
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md)
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER)
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md)
-> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <br/> this course: additionally, return addr
+> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\)
 > - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}.
@@ -291,7 +291,7 @@ The convention is {@{the entry point \(first instruction to be executed when a p
 
 In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}.
 
-To {@{convert structured control flow statements into assembly}@} manually, {@{identify _basic blocks_, which is a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph can be constructed out of these basic blocks}@}. Finally, {@{_label_ the basic blocks at their beginnings and add conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(this course: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}.
+To {@{convert structured control flow statements into assembly}@} manually, {@{identify _basic blocks_, which is a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph can be constructed out of these basic blocks}@}. Finally, {@{_label_ the basic blocks at their beginnings and add conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}.
 
 To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps to the basic blocks, then the basic blocks each ending with a jump to the exit label, and finally the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label, then comparison and conditional jump to the exit label, the code, and finally a jump to the loop label}@}. You can extrapolate the rest for yourself. You may also simplify the code.
 
@@ -320,13 +320,13 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 
 Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}.
 
-\(this course: Some questions may {@{require you to not use any pseudo-instructions}@}.\)
+\(__this course__: Some questions may {@{require you to not use any pseudo-instructions}@}.\)
 
 ## procedures
 
 In {@{higher level programming languages}@}, we have {@{functions/procedures/subroutines for to group related code and reuse them}@}. In MIPS, we can {@{emulate this feature}@}. Note that a high-level language compiler {@{does essentially the same thing when compiling your program, but they are abstracted away}@}.
 
-Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments/parameters in specified locations, then transfer control \(jump and link\) to the callee}@}. Then, the callee {@{pushes `$ra` to the stack, acquires the necessary resources, and performs its task}@}. Finally, {@{the callee places the return value \(if any\) in a specified location, pops the stack to `$ra`, and return control \(return\) to the caller}@}. The caller then {@{may access the return value for further use}@}. The specified locations are specified by {@{a calling convention}@}. Note that {@{if you do not call any other procedures in your procedure and your procedure does not modify `$ra` explicitly}@}, you can {@{skip pushing `$ra` to the stack at the beginning and popping `$ra` from the stack at the end}@}. \(this course: In this course, we use {@{the [O32 calling convention](#O32%20calling%20convention)}@}.\)
+Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments/parameters in specified locations, then transfer control \(jump and link\) to the callee}@}. Then, the callee {@{pushes `$ra` to the stack, acquires the necessary resources, and performs its task}@}. Finally, {@{the callee places the return value \(if any\) in a specified location, pops the stack to `$ra`, and return control \(return\) to the caller}@}. The caller then {@{may access the return value for further use}@}. The specified locations are specified by {@{a calling convention}@}. Note that {@{if you do not call any other procedures in your procedure and your procedure does not modify `$ra` explicitly}@}, you can {@{skip pushing `$ra` to the stack at the beginning and popping `$ra` from the stack at the end}@}. \(__this course__: In this course, we use {@{the [O32 calling convention](#O32%20calling%20convention)}@}.\)
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}.
 
@@ -348,7 +348,7 @@ The stack segment is {@{automatic storage, used to store local variables in high
 
 MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}.
 
-\(this course: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}.
+\(__this course__: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}.
 
 - immediate addressing ::@:: Not really an addressing mode... It refers to the 16-bit immediate field in an I instruction.
 - register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction.
