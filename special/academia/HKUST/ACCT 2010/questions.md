@@ -397,7 +397,7 @@ tags:
 > Q4. How do directors estimate bad-debt expenses at financial year end?
 >
 > 1. by percentage of credit sales
-> 2. by ageing of accounts receivable (ageing analysis)
+> 2. by ageing of accounts receivable \(ageing analysis\)
 > 3. both of them could be used
 >
 > - solution: {@{3}@} <!--SR:!2026-06-13,440,381-->

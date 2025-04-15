@@ -17,7 +17,7 @@ tags:
 >
 > Assume a train running between A and B serves 420 customers per hour on average. On a weekday, there are 210 customers riding or waiting on average. What is the average flow time?
 >
-> - solution: {@{2}@}
+> - solution: {@{0.5&nbsp;hours}@}
 > - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2025-04-27,15,290!2025-04-28,16,290-->
 
 <!-- markdownlint MD028 -->
@@ -26,7 +26,7 @@ tags:
 >
 > Influenza is a disease that may require hospitalization, especially for old people. In a place of population 42 million, there have been 294 new hospitalization weekly. They, on average, stay in the hospital for 5 days. How many hospital beds are occupied by said patients on average?
 >
-> - solution: {@{210}@}
+> - solution: {@{210 patients}@}
 > - explanation: {@{There are 294/7 = 42 new hospitalization daily. By Little's law, average inventory = 42\*5 = 210 patients.}@} <!--SR:!2025-04-28,16,290!2025-04-28,16,290-->
 
 <!-- markdownlint MD028 -->
@@ -130,7 +130,7 @@ tags:
 > In a process, the average flow time is 30 minutes, and the average work-in-process inventory is 7 units. What is its cycle time?
 >
 > - solution: {@{1/14&nbsp;hours}@}
-> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours}@} <!--SR:!2025-04-27,15,290!2025-04-28,16,290-->
+> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2025-04-27,15,290!2025-04-28,16,290-->
 
 <!-- markdownlint MD028 -->
 
