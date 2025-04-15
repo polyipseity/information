@@ -181,7 +181,7 @@ A first possible distinction in production systems \({@{technological classifica
 
 > {@{![delivery lead time, manufacturing time](../../archives/Wikimedia%20Commons/Class%20wort.jpg)}@}
 >
-> {@{Delivery lead time}@} is {@{the blue bar}@}, {@{manufacturing time is the whole bar}@}, {@{the green bar is the difference between the two}@}. <!--SR:!2025-04-15,43,250!2025-04-24,61,310!2025-04-25,62,310!2025-04-28,64,310!2025-09-28,174,310-->
+> {@{Delivery lead time}@} is {@{the blue bar}@}, {@{manufacturing time is the whole bar}@}, {@{the green bar is the difference between the two}@}. <!--SR:!2025-09-12,150,270!2025-04-24,61,310!2025-04-25,62,310!2025-04-28,64,310!2025-09-28,174,310-->
 
 Another possible classification<sup>[\[39\]](#^ref-39)</sup> is one based on {@{[lead time](lead%20time.md) \(manufacturing lead time vs delivery lead time\)}@}: {@{[engineer to order](engineer%20to%20order.md) \(ETO\), [purchase to order](purchase%20to%20order.md) \(PTO\), [make to order](make%20to%20order.md) \(MTO\), [assemble to order](assemble%20to%20order.md) \(ATO\) and [make to stock](make%20to%20stock.md) \(MTS\)}@}. According to this classification {@{different kinds of systems}@} will have {@{different customer order decoupling points \(CODP\)}@}, meaning that {@{[work in progress](work%20in%20progress.md) \(WIP\) cycle stock levels}@} are {@{practically nonexistent regarding operations located after the CODP}@} \(except for {@{[WIP](work%20in%20process.md) due to queues}@}\). \(See [Order fulfillment](order%20fulfillment.md#options).\) <!--SR:!2025-04-26,63,310!2025-05-01,53,250!2025-04-30,66,310!2025-04-19,57,310!2025-04-20,58,310!2025-10-07,183,310!2025-04-19,57,310-->
 
@@ -219,7 +219,7 @@ One important difference is {@{service recovery}@}. When {@{an error occurs in s
 
 ### metrics: efficiency and effectiveness
 
-{@{Operations strategy}@} concerns {@{policies and plans of use of the firm productive resources}@} with the aim of {@{supporting long term competitive strategy}@}. {@{Metrics in operations management}@} can be broadly classified into {@{[efficiency](efficiency.md) metrics and [effectiveness](effectiveness.md) metrics}@}. Effectiveness metrics involve: (annotation: 6 items: {@{price, quality, time, flexibility, stock availability, ecological soundness}@}) <!--SR:!2025-04-30,66,310!2025-04-29,65,310!2025-04-20,58,310!2025-04-27,63,310!2025-04-20,58,310!2025-04-15,43,250-->
+{@{Operations strategy}@} concerns {@{policies and plans of use of the firm productive resources}@} with the aim of {@{supporting long term competitive strategy}@}. {@{Metrics in operations management}@} can be broadly classified into {@{[efficiency](efficiency.md) metrics and [effectiveness](effectiveness.md) metrics}@}. Effectiveness metrics involve: (annotation: 6 items: {@{price, quality, time, flexibility, stock availability, ecological soundness}@}) <!--SR:!2025-04-30,66,310!2025-04-29,65,310!2025-04-20,58,310!2025-04-27,63,310!2025-04-20,58,310!2025-09-13,151,270-->
 
 1. [Price](price.md) \(actually fixed by marketing, but lower bounded by production cost\): ::@:: purchase price, use costs, maintenance costs, upgrade costs, disposal costs <!--SR:!2025-05-14,70,270!2025-06-17,87,270-->
 2. [Quality](quality%20(business).md): ::@:: specification and compliance <!--SR:!2025-04-22,59,310!2025-04-20,58,310-->

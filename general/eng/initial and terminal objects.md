@@ -94,7 +94,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 ### other properties
 
 - The [endomorphism monoid](endomorphism%20monoid.md) of an initial or terminal object _I_ is trivial: ::@:: End\(_I_\) = Hom\(_I_, _I_\) = { id<sub>_I_</sub> }. <!--SR:!2026-02-08,304,337!2025-12-14,259,337-->
-- If a category _C_ has a zero object 0, ::@:: then for any pair of objects _X_ and _Y_ in _C_, the unique composition _X_ → 0 → _Y_ is a [zero morphism](zero%20morphism.md) from _X_ to _Y_. <!--SR:!2025-04-15,48,277!2025-09-30,181,319-->
+- If a category _C_ has a zero object 0, ::@:: then for any pair of objects _X_ and _Y_ in _C_, the unique composition _X_ → 0 → _Y_ is a [zero morphism](zero%20morphism.md) from _X_ to _Y_. <!--SR:!2025-10-13,181,297!2025-09-30,181,319-->
 
 ## references
 

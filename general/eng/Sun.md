@@ -43,7 +43,7 @@ The radiative zone is the thickest layer of the [Sun](sun.md), {@{at 0.45 [solar
 
 - see: [convection zone](convection%20zone.md)
 
-The Sun's convection zone extends {@{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}@}. The temperature drops {@{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}@}. In this layer, the solar plasma is {@{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}@}. Instead, the density of the plasma is {@{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}@}. <!--SR:!2025-07-20,261,300!2025-04-15,181,300!2025-09-17,284,300!2025-06-03,236,320-->
+The Sun's convection zone extends {@{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}@}. The temperature drops {@{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}@}. In this layer, the solar plasma is {@{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}@}. Instead, the density of the plasma is {@{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}@}. <!--SR:!2025-07-20,261,300!2027-05-08,753,320!2025-09-17,284,300!2025-06-03,236,320-->
 
 ## photosphere
 

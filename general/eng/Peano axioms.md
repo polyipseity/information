@@ -48,7 +48,7 @@ The remaining axioms {@{define the arithmetical properties of the natural number
 8. 8th axiom ::@:: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2025-05-23,194,325!2025-10-02,301,345-->
 <!-- markdownlint-restore -->
 
-The chain of light dominoes on the right, starting with the nearest, can {@{represent the set __N__ of natural numbers}@}. However, axioms 1–8 are {@{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}@}. The 9th axiom {@{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}@}. {@{Axioms 1, 6, 7, 8}@} define {@{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}@} However, considering {@{the notion of natural numbers as being defined by these axioms}@}, axioms 1, 6, 7, 8 {@{do not imply that the successor function generates all the natural numbers different from 0}@}. <!--SR:!2025-08-12,258,330!2025-06-28,223,325!2026-09-17,558,325!2025-05-17,174,285!2025-11-06,290,305!2025-04-15,160,310!2025-09-25,296,345-->
+The chain of light dominoes on the right, starting with the nearest, can {@{represent the set __N__ of natural numbers}@}. However, axioms 1–8 are {@{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}@}. The 9th axiom {@{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}@}. {@{Axioms 1, 6, 7, 8}@} define {@{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}@} However, considering {@{the notion of natural numbers as being defined by these axioms}@}, axioms 1, 6, 7, 8 {@{do not imply that the successor function generates all the natural numbers different from 0}@}. <!--SR:!2025-08-12,258,330!2025-06-28,223,325!2026-09-17,558,325!2025-05-17,174,285!2025-11-06,290,305!2027-03-07,691,330!2025-09-25,296,345-->
 
 The intuitive notion that {@{each natural number can be obtained by applying _successor_ sufficiently many times to zero}@} requires {@{an additional axiom, which is sometimes called the _[axiom of induction](mathematical%20induction.md#axiom%20of%20induction)_}@}. <!--SR:!2025-10-08,307,345!2026-07-01,493,325-->
 
@@ -112,7 +112,7 @@ This relation is {@{stable under addition and multiplication}@}: for $a,b,c\in \
 - _a_ + _c_ ≤ _b_ + _c_, and
 - _a_ · _c_ ≤ _b_ · _c_.
 
-Thus, {@{the structure (__N__, +, ·, 1, 0, ≤)}@} is {@{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}@}. <!--SR:!2025-08-31,231,285!2025-04-15,40,210-->
+Thus, {@{the structure (__N__, +, ·, 1, 0, ≤)}@} is {@{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}@}. <!--SR:!2025-08-31,231,285!2025-07-11,87,210-->
 
 The axiom of induction is {@{sometimes stated in the following form that uses a stronger hypothesis, making use of the order relation "≤"}@}: <!--SR:!2025-10-01,300,345-->
 

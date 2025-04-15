@@ -44,11 +44,11 @@ return await memorize_seq(
 <!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2026-03-03,511,310!2028-09-18,1265,350-->
-- [empathize](#empathize) (blue)→::@::←[define](#define) (green) <!--SR:!2025-04-15,239,270!2027-11-25,955,330-->
+- [empathize](#empathize) (blue)→::@::←[define](#define) (green) <!--SR:!2027-01-25,650,270!2027-11-25,955,330-->
 - [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2025-06-21,296,270!2025-11-05,352,250-->
 - [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2025-07-26,324,290!2027-08-13,863,290-->
 - [prototype](#prototype) (red)→::@::←[test](#test) (brown) <!--SR:!2025-05-31,286,290!2026-07-23,578,310-->
-- [test](#test) (brown)→::@::←_(end)_ <!--SR:!2025-04-15,290,330!2027-03-14,770,330-->
+- [test](#test) (brown)→::@::←_(end)_ <!--SR:!2028-11-25,1320,350!2027-03-14,770,330-->
 
 <!--/pytextgen-->
 

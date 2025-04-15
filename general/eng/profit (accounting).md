@@ -13,7 +13,7 @@ tags:
 # profit
 
 - This article is about {@{profit in accounting and business}@}. For {@{profit in [economics](economics.md) and [political economy](political%20economy.md)}@}, see {@{[Profit \(economics\)](profit%20(economics).md)}@}.
-- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2025-04-16,60,310!2025-04-20,63,310!2025-04-15,59,310!2025-04-19,63,310!2025-12-16,248,330!2025-12-10,243,330-->
+- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2025-04-16,60,310!2025-04-20,63,310!2025-12-28,257,330!2025-04-19,63,310!2025-12-16,248,330!2025-12-10,243,330-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(May 2020\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
@@ -31,7 +31,7 @@ tags:
 
 [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2025-04-17,61,310!2025-04-19,63,310-->
 
-[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-04-15,59,310!2025-04-23,66,310-->
+[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-12-27,256,330!2025-04-23,66,310-->
 
 [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-12-18,250,330!2025-12-17,249,330-->
 

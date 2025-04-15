@@ -60,7 +60,7 @@ return await memorize_seq(
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2027-12-13,1011,350-->
-- air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
+- air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2028-06-19,1161,350-->
 - land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2025-05-16,255,290-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2027-06-10,788,290!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-08-14,210,210-->
@@ -245,7 +245,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
   - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2025-05-15,152,270!2025-05-18,229,270-->
   - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2026-08-17,562,310-->
-  - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2026-09-12,641,330-->
+  - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!2026-09-12,641,330-->
   - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2025-12-19,384,290!2025-06-01,248,290-->
   - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2026-02-07,459,310!2026-04-04,503,310-->
 
@@ -321,7 +321,7 @@ Air Pollution: A serious problem in Hong Kong?
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
   - air pollution regulations are outdated (16 years old)
-  - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2026-09-12,588,310!2025-04-15,236,310-->
+  - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2026-09-12,588,310!2028-01-15,1005,330-->
 
 ## page 27
 

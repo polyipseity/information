@@ -359,7 +359,7 @@ The content is in teaching order. Extra information and corrections are included
 - [Copernican heliocentrism](../../../../general/Copernican%20heliocentrism.md)
   - [§ Copernican theory](../../../../general/Copernican%20heliocentrism.md#Copernican%20theory)
   - Why do we not need the motion of [Earth](../../../../general/Earth.md) even if it is moving quickly? ::@:: Because we feel acceleration, not motion. It turns out Earth's acceleration (about 0.0059 m/s<sup>2</sup>) is too little to notice. <!--SR:!2025-08-06,300,374!2025-05-03,228,374-->
-- [Tycho Brahe](../../../../general/Tycho%20Brahe.md) ::@:: A Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations (...with the naked eye! As telescopes were not invented yet...). His observations, particularly Mars, disagreed with predictions of the existing perfect heliocentric model. <!--SR:!2026-05-22,471,332!2025-04-15,196,352-->
+- [Tycho Brahe](../../../../general/Tycho%20Brahe.md) ::@:: A Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations (...with the naked eye! As telescopes were not invented yet...). His observations, particularly Mars, disagreed with predictions of the existing perfect heliocentric model. <!--SR:!2026-05-22,471,332!2027-11-19,948,372-->
 - [Johannes Kepler](../../../../general/Johannes%20Kepler.md) ::@:: He did not ignore small discrepancies between the data and predictions of existing models, and finally came up with elliptical orbits. <!--SR:!2025-07-21,286,374!2026-11-07,644,354-->
 - [ellipse](../../../../general/ellipse.md)
 - [Kepler's laws of planetary motion](../../../../general/Kepler's%20laws%20of%20planetary%20motion.md)

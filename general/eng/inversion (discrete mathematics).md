@@ -60,7 +60,7 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 - left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2025-09-22,196,272!2025-09-02,198,312-->
 - left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2025-08-19,187,312!2025-06-30,133,252-->
 
-__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-10-27,213,272!2025-04-15,93,272-->
+__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-10-27,213,272!2025-06-03,49,252-->
 
 - right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2025-05-31,125,292!2025-06-14,134,292-->
 - right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2025-06-26,142,292!2025-05-29,124,292-->

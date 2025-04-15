@@ -9,7 +9,7 @@ tags:
 
 # logical equivalence
 
-In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {@{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}@}. The logical equivalence of $p$ and $q$ is sometimes expressed as {@{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}@}. However, these symbols are {@{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}@}. Logical equivalence is {@{different from material equivalence, although the two concepts are intrinsically related}@}. <!--SR:!2025-04-15,163,310!2025-10-19,316,350!2025-06-18,215,330!2025-05-16,190,330-->
+In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {@{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}@}. The logical equivalence of $p$ and $q$ is sometimes expressed as {@{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}@}. However, these symbols are {@{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}@}. Logical equivalence is {@{different from material equivalence, although the two concepts are intrinsically related}@}. <!--SR:!2027-03-16,700,330!2025-10-19,316,350!2025-06-18,215,330!2025-05-16,190,330-->
 
 ## logical equivalences
 

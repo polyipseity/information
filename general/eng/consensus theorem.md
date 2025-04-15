@@ -25,13 +25,13 @@ tags:
 >
 > {@{[Karnaugh map](Karnaugh%20map.md) of _AB_ ∨ _AC_ ∨ _BC_}@}. {@{Omitting the red rectangle does not change the covered area}@}. <!--SR:!2025-05-03,57,310!2025-05-08,61,310!2025-05-08,61,310-->
 
-In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus theorem__ or __rule of consensus__}@}<sup>[\[1\]](#^ref-1)</sup> is {@{the identity: $$xy\vee {\bar {x} }z\vee yz=xy\vee {\bar {x} }z$$}@} {@{The __consensus__ or __resolvent__ of the terms $xy$ and ${\bar {x} }z$}@} is {@{$yz$}@}. It is {@{the conjunction of all the unique literals of the terms, excluding the literal that appears unnegated in one term and negated in the other}@}. If {@{$y$ includes a term that is negated in $z$ \(or vice versa\) (annotation: e.g. $y = ab$, $z = \bar a b$, then $a$ is the term)}@}, {@{the consensus term $yz$ is false}@}; in other words, {@{there is no consensus term}@}. <!--SR:!2025-05-04,58,310!2025-05-13,65,310!2025-05-03,57,310!2025-05-05,58,310!2025-05-14,66,310!2025-04-15,39,290!2025-05-06,59,310!2025-05-04,58,310!2025-05-03,57,310-->
+In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus theorem__ or __rule of consensus__}@}<sup>[\[1\]](#^ref-1)</sup> is {@{the identity: $$xy\vee {\bar {x} }z\vee yz=xy\vee {\bar {x} }z$$}@} {@{The __consensus__ or __resolvent__ of the terms $xy$ and ${\bar {x} }z$}@} is {@{$yz$}@}. It is {@{the conjunction of all the unique literals of the terms, excluding the literal that appears unnegated in one term and negated in the other}@}. If {@{$y$ includes a term that is negated in $z$ \(or vice versa\) (annotation: e.g. $y = ab$, $z = \bar a b$, then $a$ is the term)}@}, {@{the consensus term $yz$ is false}@}; in other words, {@{there is no consensus term}@}. <!--SR:!2025-05-04,58,310!2025-05-13,65,310!2025-05-03,57,310!2025-05-05,58,310!2025-05-14,66,310!2025-09-19,157,310!2025-05-06,59,310!2025-05-04,58,310!2025-05-03,57,310-->
 
 {@{The conjunctive [dual](De%20Morgan's%20laws.md) of this equation}@} is: {@{$$(x\vee y)({\bar {x} }\vee z)(y\vee z)=(x\vee y)({\bar {x} }\vee z)$$}@} <!--SR:!2025-05-11,63,310!2025-05-04,58,310-->
 
 ## proof
 
-(annotation: proof, starting from $xy\vee {\bar {x} }z\vee yz$) ::@:: $${\begin{aligned}xy\vee {\bar {x} }z\vee yz&=xy\vee {\bar {x} }z\vee (x\vee {\bar {x} })yz\\&=xy\vee {\bar {x} }z\vee xyz\vee {\bar {x} }yz\\&=(xy\vee xyz)\vee ({\bar {x} }z\vee {\bar {x} }yz)\\&=xy(1\vee z)\vee {\bar {x} }z(1\vee y)\\&=xy\vee {\bar {x} }z\end{aligned} }$$ <!--SR:!2025-05-15,67,310!2025-04-15,39,290-->
+(annotation: proof, starting from $xy\vee {\bar {x} }z\vee yz$) ::@:: $${\begin{aligned}xy\vee {\bar {x} }z\vee yz&=xy\vee {\bar {x} }z\vee (x\vee {\bar {x} })yz\\&=xy\vee {\bar {x} }z\vee xyz\vee {\bar {x} }yz\\&=(xy\vee xyz)\vee ({\bar {x} }z\vee {\bar {x} }yz)\\&=xy(1\vee z)\vee {\bar {x} }z(1\vee y)\\&=xy\vee {\bar {x} }z\end{aligned} }$$ <!--SR:!2025-05-15,67,310!2025-09-16,154,310-->
 
 ## consensus
 

@@ -32,7 +32,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {@{constructions, car and ship bodies}@} | {@{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} | <!--SR:!2025-04-15,448,250!2025-12-25,522,210-->
+> | {@{constructions, car and ship bodies}@} | {@{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} | <!--SR:!2029-08-02,1570,270!2025-12-25,522,210-->
 
 <!--/pytextgen-->
 

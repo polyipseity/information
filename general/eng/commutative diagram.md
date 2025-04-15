@@ -28,7 +28,7 @@ A commutative diagram often consists of {@{three parts: (annotation: objects, mo
 
 ### arrow symbols
 
-In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2025-04-25,63,310!2025-04-24,62,310!2025-04-15,54,310-->
+In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2025-04-25,63,310!2025-04-24,62,310!2025-11-30,229,330-->
 
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-08-09,127,290!2025-10-08,186,310-->
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-04-21,59,310!2025-04-26,52,250-->
@@ -37,11 +37,11 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-09-22,171,310!2025-04-29,66,310-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-04-28,65,310!2025-08-20,148,310-->
 
-{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-04-15,54,310!2025-04-28,65,310!2025-04-19,58,310!2025-04-17,56,310!2025-09-01,159,310-->
+{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-12-01,230,330!2025-04-28,65,310!2025-04-19,58,310!2025-04-17,56,310!2025-09-01,159,310-->
 
 ### verifying commutativity
 
-{@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2025-04-24,62,310!2025-04-16,55,310!2025-04-15,54,310-->
+{@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2025-04-24,62,310!2025-04-16,55,310!2025-12-04,233,330-->
 
 Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of different paths in the diagram may not give the same result}@}. <!--SR:!2025-04-29,66,310!2025-04-26,63,310-->
 
@@ -67,7 +67,7 @@ Here, since {@{the first equality follows from the last two}@}, it {@{suffices t
 
 ## diagram chasing
 
-{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-04-15,54,310!2025-10-19,192,310!2025-10-21,193,310!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
+{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-12-05,234,330!2025-10-19,192,310!2025-10-21,193,310!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
 
 {@{Examples of proofs by diagram chasing}@} include those typically given for {@{the [five lemma](five%20lemma.md), the [snake lemma](snake%20lemma.md), the [zig-zag lemma](zig-zag%20lemma.md), and the [nine lemma](nine%20lemma.md)}@}. <!--SR:!2025-04-30,67,310!2025-04-16,55,310-->
 
@@ -91,7 +91,7 @@ More formally, a commutative diagram is {@{a visualization of a diagram indexed 
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-04-16,55,310-->
 - the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2025-04-25,63,310!2025-04-16,55,310-->
 
-Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-04-15,54,310!2025-04-25,63,310!2025-10-18,191,310-->
+Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2025-04-25,63,310!2025-10-18,191,310-->
 
 - the objects ::@:: are the nodes, <!--SR:!2025-04-23,60,310!2025-04-21,59,310-->
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-04-18,57,310!2025-04-24,62,310-->

@@ -23,7 +23,7 @@ Note that the above definition is still too restrictive because {@{the limits ar
 
 > [!tip] tips
 >
-> - [complement](complement%20(set%20theory).md) of a real interval ::@:: For example, for $a, b \in \mathbb{R}$, $(-\infty, a] \cup (b, +\infty)$ is the [complement](complement%20(set%20theory).md) of $(a, b]$. <!--SR:!2025-04-15,316,364!2025-06-27,373,364-->
+> - [complement](complement%20(set%20theory).md) of a real interval ::@:: For example, for $a, b \in \mathbb{R}$, $(-\infty, a] \cup (b, +\infty)$ is the [complement](complement%20(set%20theory).md) of $(a, b]$. <!--SR:!2029-08-07,1575,384!2025-06-27,373,364-->
 > - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-08-06,406,364!2025-05-31,351,364-->
 > - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::@:: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2028-03-11,1144,364!2025-04-21,321,364-->
 > - motivation of not defining limits at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::@:: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless. <!--SR:!2027-01-02,778,344!2025-06-10,359,364-->
@@ -101,7 +101,7 @@ When the limit on the right of the equation does not exist but are in the follow
 
 ### limits of compositions of functions
 
-In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {@{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equal $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x} \in \operatorname{domain} g)(0 < \lvert x - a \rvert < \delta \implies \lvert g(x) - G \rvert > 0)$)}@}. <!--SR:!2025-04-15,297,250-->
+In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {@{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equal $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x} \in \operatorname{domain} g)(0 < \lvert x - a \rvert < \delta \implies \lvert g(x) - G \rvert > 0)$)}@}. <!--SR:!2027-04-29,744,250-->
 
 ## references
 

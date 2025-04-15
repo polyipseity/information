@@ -11,7 +11,7 @@ tags:
 
 > {@{![Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)](../../archives/Wikimedia%20Commons/CarmichaelLambda.svg)}@}
 >
-> {@{Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)}@} <!--SR:!2025-07-30,149,301!2025-04-15,80,270-->
+> {@{Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)}@} <!--SR:!2025-07-30,149,301!2026-02-13,304,290-->
 
 In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics.md)}@}, the {@{__Carmichael function__ _λ_\(_n_\)}@} of {@{a [positive integer](natural%20number.md) _n_ is the smallest positive integer _m_ such that $$a^{m}\equiv 1{\pmod {n} }$$ holds for every integer _a_ [coprime](coprime%20integers.md) to _n_}@}. In {@{algebraic terms}@}, _λ_\(_n_\) is {@{the [exponent](torsion%20group.md) of the [multiplicative group of integers modulo _n_](multiplicative%20group%20of%20integers%20modulo%20n.md)}@}. As {@{this is a [finite abelian group](abelian%20group.md#finite%20abelian%20groups)}@}, there must {@{exist an element whose [order](cyclic%20group.md#definition%20and%20notation) equals the exponent, _λ_\(_n_\)}@}. Such an element is {@{called a __primitive _λ_-root modulo _n_<!-- markdown separator -->__}@}. <!--SR:!2025-12-15,276,330!2025-12-30,289,341!2025-07-04,135,301!2025-10-22,232,330!2025-04-17,83,281!2025-10-28,237,330!2026-01-07,296,341!2026-01-02,292,341-->
 

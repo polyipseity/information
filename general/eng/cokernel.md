@@ -23,7 +23,7 @@ Intuitively, given {@{an equation _f_\(_x_\) = _y_ that one is seeking to solve}
 
 More generally, {@{the cokernel of a [morphism](morphism.md) _f_ : _X_ → _Y_ in some [category](category%20theory.md)}@} \(e.g. {@{a [homomorphism](group%20homomorphism.md) between [groups](group%20(mathematics).md) or a [bounded linear operator](bounded%20linear%20operator.md) between [Hilbert spaces](Hilbert%20space.md)}@}\) is {@{an object _Q_ and a morphism _q_ : _Y_ → _Q_}@} such that {@{the composition _q f_ is the [zero morphism](zero%20morphism.md) of the category}@}, and furthermore {@{_q_ is [universal](universal%20mapping%20property.md) with respect to this property}@}. Often {@{the map _q_ is understood (annotation: implicitly implied by _Q_)}@}, and {@{_Q_ itself is called the cokernel of _f_}@}. <!--SR:!2025-09-08,163,310!2025-07-13,115,290!2025-06-17,87,270!2025-04-19,58,310!2025-04-24,62,310!2025-04-22,60,310!2025-07-10,107,290-->
 
-In {@{many situations in [abstract algebra](abstract%20algebra.md)}@}, such as {@{for [abelian groups](abelian%20group.md), [vector spaces](vector%20space.md) or [modules](module%20(mathematics).md)}@}, {@{the cokernel of the [homomorphism](homomorphism.md) _f_ : _X_ → _Y_}@} is {@{the [quotient](quotient%20set.md#quotient%20set) of _Y_ by the [image](image%20(mathematics).md) of _f_}@}. In {@{[topological](topology.md) settings}@}, such as {@{with bounded linear operators between Hilbert spaces}@}, one typically has to {@{take the [closure](closure%20(mathematics).md) of the image before passing to the quotient}@}. <!--SR:!2025-04-18,57,310!2025-10-15,191,310!2025-05-25,73,270!2025-08-18,133,290!2025-04-23,61,310!2025-10-14,190,310!2025-04-15,54,310-->
+In {@{many situations in [abstract algebra](abstract%20algebra.md)}@}, such as {@{for [abelian groups](abelian%20group.md), [vector spaces](vector%20space.md) or [modules](module%20(mathematics).md)}@}, {@{the cokernel of the [homomorphism](homomorphism.md) _f_ : _X_ → _Y_}@} is {@{the [quotient](quotient%20set.md#quotient%20set) of _Y_ by the [image](image%20(mathematics).md) of _f_}@}. In {@{[topological](topology.md) settings}@}, such as {@{with bounded linear operators between Hilbert spaces}@}, one typically has to {@{take the [closure](closure%20(mathematics).md) of the image before passing to the quotient}@}. <!--SR:!2025-04-18,57,310!2025-10-15,191,310!2025-05-25,73,270!2025-08-18,133,290!2025-04-23,61,310!2025-10-14,190,310!2025-12-06,235,330-->
 
 ## formal definition
 
@@ -43,12 +43,12 @@ In {@{a [preadditive category](preadditive%20category.md)}@}, it makes sense to 
 
 ## intuition
 
-The cokernel can be thought of as {@{the space of _constraints_ that an equation must satisfy, as the space of _obstructions_}@}, just as {@{the [kernel](kernel%20(algebra).md) is the space of _solutions_}@}. <!--SR:!2025-04-22,60,310!2025-04-15,54,310-->
+The cokernel can be thought of as {@{the space of _constraints_ that an equation must satisfy, as the space of _obstructions_}@}, just as {@{the [kernel](kernel%20(algebra).md) is the space of _solutions_}@}. <!--SR:!2025-04-22,60,310!2025-12-04,233,330-->
 
 Formally, one may {@{connect the kernel and the cokernel of a map _T_: _V_ → _W_}@} by {@{the [exact sequence](exact%20sequence.md) $$0\to \ker T\to V{\overset {T}{\longrightarrow } }W\to \operatorname {coker} T\to 0.$$}@} These can be interpreted thus: given {@{a linear equation _T_\(_v_\) = _w_ to solve}@}, <!--SR:!2025-04-23,61,310!2025-05-27,80,270!2025-04-29,66,310-->
 
 - the kernel ::@:: is the space of _solutions_ to the _homogeneous_ equation _T_\(_v_\) = 0, and its dimension is the number of _degrees of freedom_ in solutions to _T_\(_v_\) = _w_, if they exist; <!--SR:!2025-04-25,63,310!2025-10-20,192,310-->
-- the cokernel ::@:: is the space of _constraints_ on _w_ that must be satisfied if the equation is to have a solution, and its dimension is the number of independent constraints that must be satisfied for the equation to have a solution. <!--SR:!2025-09-02,159,310!2025-04-15,54,310-->
+- the cokernel ::@:: is the space of _constraints_ on _w_ that must be satisfied if the equation is to have a solution, and its dimension is the number of independent constraints that must be satisfied for the equation to have a solution. <!--SR:!2025-09-02,159,310!2025-12-05,234,330-->
 
 {@{The dimension of the cokernel plus the dimension of the image \(the rank\)}@} {@{add up to the dimension of the target space}@}, as {@{the dimension of the quotient space _W_ / _T_\(_V_\)}@} is {@{simply the dimension of the space _minus_ the dimension of the image}@}. <!--SR:!2025-08-19,147,310!2025-04-17,56,310!2025-10-15,188,310!2025-09-01,157,310-->
 

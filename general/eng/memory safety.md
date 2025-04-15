@@ -19,7 +19,7 @@ __Memory safety__ is {@{the state of being protected from various [software bugs
 
 ## types of memory errors
 
-Many different types of memory errors can occur. Important one includes {@{access errors, uninitialized variables, and memory leak}@}. <!--SR:!2025-04-15,167,310-->
+Many different types of memory errors can occur. Important one includes {@{access errors, uninitialized variables, and memory leak}@}. <!--SR:!2027-04-01,716,330-->
 
 - __access errors__ ::@:: Invalid read/write of a pointer. Includes buffer overflow, buffer over-read, invalid page fault, use after free, etc. <!--SR:!2025-05-08,186,310!2025-05-23,195,310-->
   - __[buffer overflow](buffer%20overflow.md)__ ::@:: Out-of-bound writes can corrupt the content of adjacent objects, or internal data (like bookkeeping information for the [heap](memory%20management.md#HEAP)) or [return](return%20statement.md) addresses. <!--SR:!2025-04-30,176,310!2025-06-10,216,330-->

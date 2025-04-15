@@ -9,7 +9,7 @@ tags:
 
 # ionic compound
 
-An __ionic compound__ is {@{a [chemical compound](chemical%20compound.md) consisting of [ions](ion.md) held together by [ionic bonding](ionic%20bond.md)}@}. It is {@{electrically neutral}@} overall. <!--SR:!2025-04-15,508,270!2027-06-24,1111,330-->
+An __ionic compound__ is {@{a [chemical compound](chemical%20compound.md) consisting of [ions](ion.md) held together by [ionic bonding](ionic%20bond.md)}@}. It is {@{electrically neutral}@} overall. <!--SR:!2030-07-15,1917,290!2027-06-24,1111,330-->
 
 ## references
 

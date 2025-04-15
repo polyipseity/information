@@ -119,10 +119,10 @@ The content is in teaching order.
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2025-05-04,76,340!2025-05-09,79,340-->
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2025-09-25,181,335!2025-09-28,184,335-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2025-05-07,77,355!2025-05-07,77,355-->
-  - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2025-09-19,176,335!2025-04-15,59,335-->
+  - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2025-09-19,176,335!2026-01-13,273,355-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2025-05-16,85,355!2026-01-12,273,355-->
-  - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2025-04-15,59,335!2025-10-02,186,335-->
-- [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2025-04-15,59,335!2025-05-12,81,355-->
+  - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2026-01-11,271,355!2025-10-02,186,335-->
+- [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2026-01-17,277,355!2025-05-12,81,355-->
   - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2026-01-04,265,355!2025-09-16,174,335-->
   - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2025-05-12,81,355!2025-05-07,77,355-->
 - [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-09-28,183,335!2025-04-17,57,335-->
@@ -170,9 +170,9 @@ The content is in teaching order.
   - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00
 - [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2026-01-06,267,355!2025-04-24,63,335-->
   - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2026-01-09,270,355!2025-06-11,98,315-->
-  - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2025-04-15,59,335!2025-04-23,62,335-->
+  - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2026-01-12,272,355!2025-04-23,62,335-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2025-04-15,59,335!2025-04-16,56,335-->
+  - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2025-04-16,56,335-->
 - [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2025-05-21,76,295!2026-01-11,272,355-->
   - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2025-05-06,76,355!2026-01-13,274,355-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2025-05-13,82,355!2025-05-12,81,355-->
@@ -185,7 +185,7 @@ The content is in teaching order.
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2025-05-11,80,355!2025-05-14,83,355-->
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!2025-05-11,80,355!2025-05-17,86,355-->
-    - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2025-04-15,59,335!2025-05-13,82,355-->
+    - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2026-01-10,270,355!2025-05-13,82,355-->
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2026-01-07,268,355!2025-09-24,180,335-->
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!2025-05-11,80,355!2025-04-19,59,335-->
 - assignment (attendance): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
@@ -200,7 +200,7 @@ The content is in teaching order.
   - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2025-08-05,130,315!2025-08-04,130,315-->
   - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2026-01-10,271,355!2025-09-27,183,335-->
   - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2025-05-17,86,355!2026-01-05,266,355-->
-- [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2025-04-15,59,335!2025-04-18,58,335-->
+- [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2026-01-17,277,355!2025-04-18,58,335-->
   - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2025-04-24,63,335!2025-09-23,179,335-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2026-01-09,270,355!2025-06-23,102,315-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2025-04-23,62,335!2025-09-16,173,335-->
@@ -210,9 +210,9 @@ The content is in teaching order.
   - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2026-01-17,278,355!2025-06-13,100,315-->
   - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2025-06-08,95,315!2025-04-22,61,335-->
   - Louis Armstrong / fun facts ::@:: first jazz musician to appear on _Time_ magazine; appeared in over 35 films; oldest musician to have a number 1 hit "Hello, Dolly!" in 1964, knocking the Beatles off the number 1 spot; went on an England tour in 1932 <!--SR:!2025-09-18,175,335!2025-05-22,77,295-->
-  - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2025-04-15,59,335!2026-01-15,276,355-->
-  - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2025-04-15,59,335!2025-05-16,85,355-->
-  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2025-04-16,56,335!2025-04-15,59,335-->
+  - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2026-01-15,275,355!2026-01-15,276,355-->
+  - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2026-01-18,278,355!2025-05-16,85,355-->
+  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2025-04-16,56,335!2026-01-16,276,355-->
   - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2025-09-10,169,335!2025-05-11,80,355-->
 - assignment: (none)
 
