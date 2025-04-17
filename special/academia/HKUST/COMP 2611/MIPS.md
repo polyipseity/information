@@ -318,7 +318,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;` <!--SR:!2025-05-04,20,361!2025-05-02,20,361-->
 - set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;` <!--SR:!2025-05-04,20,361!2025-04-27,15,341-->
 
-Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-04-17,19,343!2025-04-16,18,343!2025-04-17,19,343!2025-06-16,65,343!2025-04-16,18,343!2025-04-17,19,343-->
+Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-07-18,92,363!2025-07-14,88,363!2025-07-19,93,363!2025-06-16,65,343!2025-07-13,87,363!2025-07-19,93,363-->
 
 \(this course: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2025-06-24,77,335-->
 

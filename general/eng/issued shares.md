@@ -17,11 +17,11 @@ In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} ar
 
 {@{The issued shares of a corporation}@} form the {@{[equity capital](equity%20(finance).md) of the corporation}@}, and some corporations are required {@{by law to have a minimum value of equity capital}@}, while {@{others may not need any or just a nominal number}@}. {@{The value of the issued shares}@} is determined {@{at the time they are issued and the value does not change}@}, in relation to {@{the issuing corporation after that time}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-05-04,74,324!2025-11-25,228,330!2025-04-26,67,310!2025-09-29,182,310!2025-05-02,72,324!2025-08-29,158,310!2025-12-26,255,330-->
 
-Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability of the shareholders is limited to the amount paid on the shares}@}; but they may also be {@{issued shares that are [partly paid](partly%20paid.md)}@}, with {@{unlimited liability, subject to guarantee, or some other form}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-12,242,330!2025-04-17,59,310!2025-04-26,67,310!2025-05-02,72,324-->
+Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability of the shareholders is limited to the amount paid on the shares}@}; but they may also be {@{issued shares that are [partly paid](partly%20paid.md)}@}, with {@{unlimited liability, subject to guarantee, or some other form}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-12,242,330!2026-01-01,259,330!2025-04-26,67,310!2025-05-02,72,324-->
 
 ### basic formulae
 
-(annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2025-04-26,67,310!2025-04-16,58,310-->
+(annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2025-04-26,67,310!2025-12-27,254,330-->
 
 (annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2025-12-11,242,330!2025-11-03,207,324-->
 

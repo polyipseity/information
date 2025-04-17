@@ -171,7 +171,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type <!-- flashcard ID: 981d3cc6-47b4-4aad-8a99-bdeea2975b92 -->::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md) <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
+- bridge type <!-- flashcard ID: 981d3cc6-47b4-4aad-8a99-bdeea2975b92 -->::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md) <!--SR:!2029-04-17,1461,394!2025-09-03,402,394-->
 - description ::@:: fixed link consisting of tunnels and multiple bridges <!--SR:!2025-08-21,367,375!2027-07-29,952,350-->
 - image ::@:: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2026-03-14,550,400!2025-11-13,451,400-->
 - length: 55 km

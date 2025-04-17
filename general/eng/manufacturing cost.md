@@ -11,7 +11,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/Special:EditPage/Manufacturing%20cost) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and removed._Find sources:_ ["Manufacturing cost"](https://www.google.com/search?as_eq=wikipedia&q=%22Manufacturing+cost%22) – [news](https://www.google.com/search?tbm=nws&q=%22Manufacturing+cost%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Manufacturing+cost%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Manufacturing+cost%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Manufacturing+cost%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Manufacturing+cost%22&acc=on&wc=on) _\(January 2024\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{__Manufacturing cost__}@} is {@{the sum of costs of all resources consumed in the process of making a product}@}. The manufacturing cost is {@{classified into three categories}@}: {@{[direct materials cost](direct%20materials%20cost.md), direct [labor cost](labor%20cost.md) and manufacturing [overhead](overhead%20(business).md)}@}.<sup>[\[1\]](#^ref-1)</sup> It is a factor in {@{[total delivery cost](total%20delivery%20cost.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-04-17,55,310!2025-04-23,60,310!2025-04-29,65,310!2025-10-25,196,310!2025-04-19,57,310-->
+{@{__Manufacturing cost__}@} is {@{the sum of costs of all resources consumed in the process of making a product}@}. The manufacturing cost is {@{classified into three categories}@}: {@{[direct materials cost](direct%20materials%20cost.md), direct [labor cost](labor%20cost.md) and manufacturing [overhead](overhead%20(business).md)}@}.<sup>[\[1\]](#^ref-1)</sup> It is a factor in {@{[total delivery cost](total%20delivery%20cost.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-13,240,330!2025-04-23,60,310!2025-04-29,65,310!2025-10-25,196,310!2025-04-19,57,310-->
 
 ## direct materials cost
 
@@ -19,11 +19,11 @@ tags:
 
 ## direct labour cost
 
-{@{The direct labour cost}@} is {@{the cost of workers who can be easily identified with the unit of production}@}. {@{Types of labour who are considered to be part of the direct labour cost}@} are {@{the assembly workers on an [assembly line](assembly%20line.md)}@}. <!--SR:!2025-04-16,54,310!2025-07-15,117,290!2025-10-12,186,310!2025-05-01,67,310-->
+{@{The direct labour cost}@} is {@{the cost of workers who can be easily identified with the unit of production}@}. {@{Types of labour who are considered to be part of the direct labour cost}@} are {@{the assembly workers on an [assembly line](assembly%20line.md)}@}. <!--SR:!2025-12-01,228,330!2025-07-15,117,290!2025-10-12,186,310!2025-05-01,67,310-->
 
 ## manufacturing overhead
 
-{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2025-04-25,62,310!2025-04-27,63,310!2025-04-16,54,310-->
+{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2025-04-25,62,310!2025-04-27,63,310!2025-12-02,229,330-->
 
 ### manufacturing overhead includes
 

@@ -65,7 +65,7 @@ The unearned revenue after the first month is {@{therefore $11 and revenue repor
 
 Accrued revenues are {@{revenues that have been recognized (that is, services have been performed or goods have been delivered), but their cash payment have not yet been recorded or received}@}. When the revenue is recognized, it is recorded as {@{a receivable}@}. <!--SR:!2027-01-21,653,330!2025-07-06,220,330-->
 
-Accrued expenses {@{have not yet been paid for, so they are recorded in a payable account}@}. {@{Expenses for interest, taxes, rent, and salaries}@} are commonly accrued for reporting purposes. <!--SR:!2025-08-17,255,330!2025-04-16,157,310-->
+Accrued expenses {@{have not yet been paid for, so they are recorded in a payable account}@}. {@{Expenses for interest, taxes, rent, and salaries}@} are commonly accrued for reporting purposes. <!--SR:!2025-08-17,255,330!2027-02-21,675,330-->
 
 {@{An income which has been earned but it has not been received yet during the accounting period}@}, like {@{rent, interest on investments, commission etc.}@} are examples of accrued income. <!--SR:!2025-07-25,236,330!2025-04-25,160,310-->
 

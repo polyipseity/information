@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 - Ca<sup>2+</sup>:@:[calcium](calcium.md) <!--SR:!2025-06-24,388,365-->
 - Mg<sup>2+</sup>:@:[magnesium](magnesium.md) <!--SR:!2025-04-22,336,365-->
 - Be<sup>2+</sup>:@:[beryllium](beryllium.md) <!--SR:!2025-04-29,343,367-->
-- Al<sup>3+</sup>:@:[aluminium](aluminium.md) <!--SR:!2025-04-17,331,365-->
+- Al<sup>3+</sup>:@:[aluminium](aluminium.md) <!--SR:!2029-11-01,1659,385-->
 - Ti<sup>4+</sup>:@:[titanium](titanium.md) <!--SR:!2025-06-07,374,365-->
 - Mn<sup>2+</sup>:@:[manganese](manganese.md) <!--SR:!2028-10-16,1319,365-->
 - Zn<sup>2+</sup>:@:[zinc](zinc.md) <!--SR:!2025-08-23,156,345-->

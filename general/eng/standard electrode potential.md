@@ -204,7 +204,7 @@ return (
 - K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s):@:-2.931 <!--SR:!2025-06-19,96,170-->
 - Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s):@:-2.868 <!--SR:!2025-11-02,358,150-->
 - Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s):@:-2.71 <!--SR:!2025-08-31,138,130-->
-- Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s):@:-2.372 <!--SR:!2025-04-17,62,130-->
+- Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s):@:-2.372 <!--SR:!2025-07-09,83,130-->
 - Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s):@:-1.662 <!--SR:!2025-06-15,77,130-->
 - 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>:@:-0.8277 <!--SR:!2025-05-07,35,130-->
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s):@:-0.7618 <!--SR:!2025-05-01,38,130-->
@@ -236,7 +236,7 @@ return (
 - 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l):@:1.2 <!--SR:!2025-05-17,56,130-->
 - O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l):@:1.229 <!--SR:!2025-05-21,39,130-->
 - Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l):@:1.33 <!--SR:!2025-04-28,89,130-->
-- Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq):@:1.36 <!--SR:!2025-04-17,125,130-->
+- Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq):@:1.36 <!--SR:!2025-09-25,161,130-->
 - MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l):@:1.51 <!--SR:!2025-05-31,49,130-->
 - Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq):@:1.92 <!--SR:!2025-07-03,117,170-->
 - S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq):@:2.01 <!--SR:!2025-04-28,21,130-->

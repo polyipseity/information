@@ -84,7 +84,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00
   - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00
-- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-06-05,92,281!2025-04-17,70,321-->
+- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-06-05,92,281!2026-02-27,316,341-->
   - What is jazz? / students' answers: United States, created for rebellion
   - jazz / examples
     - "Struttin' with Some Barbecue" (1927) — Louis Armstrong and His Hot Five
@@ -101,13 +101,13 @@ The content is in teaching order.
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-12-14,254,330!2025-12-15,255,330-->
   - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-07-19,125,290!2025-04-21,73,321-->
 - [music](../../../../general/music.md)
-  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2026-01-04,270,330-->
+  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2026-02-21,310,341!2026-01-04,270,330-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-08-29,167,310!2025-08-16,159,321-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2026-02-02,296,341!2025-04-20,72,321-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-10-01,180,310!2025-10-08,200,321-->
   - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2026-02-01,295,341!2025-12-15,255,330-->
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-11-22,237,330!2026-02-03,297,341-->
-    - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-09-26,188,321!2025-04-16,69,321-->
+    - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-09-26,188,321!2026-02-17,306,341-->
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-12-14,254,330!2025-09-30,179,310-->
 - assignment: (none)
 
@@ -125,7 +125,7 @@ The content is in teaching order.
 - [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2026-01-17,277,355!2025-05-12,81,355-->
   - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2026-01-04,265,355!2025-09-16,174,335-->
   - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2025-05-12,81,355!2025-05-07,77,355-->
-- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-09-28,183,335!2025-04-17,57,335-->
+- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-09-28,183,335!2026-01-11,269,355-->
   - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2026-01-07,268,355!2025-05-14,83,355-->
 - [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2025-09-27,182,335!2025-09-17,174,335-->
   - American Civil War / emancipation ::@:: In 1864, Abraham Lincoln emancipated the slaves. <!--SR:!2025-04-19,59,335!2025-05-14,83,355-->
@@ -146,7 +146,7 @@ The content is in teaching order.
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-05-12,82,340!2025-05-04,76,340-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-06-28,105,300!2025-08-30,159,320-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-05-09,79,340!2025-05-05,77,340-->
-  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-04-17,57,320!2025-11-26,230,340-->
+  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-12-29,256,340!2025-11-26,230,340-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2025-05-05,77,340-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2025-05-03,75,340!2025-05-09,79,340-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2025-05-08,78,340!2025-05-05,77,340-->
@@ -172,11 +172,11 @@ The content is in teaching order.
   - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2026-01-09,270,355!2025-06-11,98,315-->
   - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2026-01-12,272,355!2025-04-23,62,335-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2025-04-16,56,335-->
+  - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2026-01-02,260,355-->
 - [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2025-05-21,76,295!2026-01-11,272,355-->
   - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2025-05-06,76,355!2026-01-13,274,355-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2025-05-13,82,355!2025-05-12,81,355-->
-  - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2025-04-16,56,335!2025-05-07,77,355-->
+  - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2026-01-06,264,355!2025-05-07,77,355-->
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, painist, singer; first jazz composer to notate jazz <!--SR:!2025-09-26,182,335!2025-06-12,99,315-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2025-05-08,78,355!2025-05-15,84,355-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2025-05-15,84,355!2025-05-16,85,355-->
@@ -206,13 +206,13 @@ The content is in teaching order.
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2025-04-23,62,335!2025-09-16,173,335-->
   - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2025-06-10,97,315!2025-08-05,144,335-->
 - [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2026-01-08,269,355!2025-09-23,179,335-->
-- [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2025-04-22,61,335!2025-04-17,57,335-->
+- [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2025-04-22,61,335!2026-01-11,269,355-->
   - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2026-01-17,278,355!2025-06-13,100,315-->
   - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2025-06-08,95,315!2025-04-22,61,335-->
   - Louis Armstrong / fun facts ::@:: first jazz musician to appear on _Time_ magazine; appeared in over 35 films; oldest musician to have a number 1 hit "Hello, Dolly!" in 1964, knocking the Beatles off the number 1 spot; went on an England tour in 1932 <!--SR:!2025-09-18,175,335!2025-05-22,77,295-->
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2026-01-15,275,355!2026-01-15,276,355-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2026-01-18,278,355!2025-05-16,85,355-->
-  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2025-04-16,56,335!2026-01-16,276,355-->
+  - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2026-01-03,261,355!2026-01-16,276,355-->
   - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2025-09-10,169,335!2025-05-11,80,355-->
 - assignment: (none)
 
@@ -321,7 +321,7 @@ The content is in teaching order.
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2025-06-21,89,376!2025-05-29,71,356-->
   - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-07-29,127,396!2025-07-24,122,396-->
   - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller <!--SR:!2025-06-21,89,376!2025-07-27,125,396-->
-- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-07-19,102,336!2025-04-16,40,356-->
+- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-07-19,102,336!2025-10-31,197,376-->
   - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2025-06-23,96,376!2025-07-27,125,396-->
   - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-07-20,103,336!2025-07-18,116,396-->
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-07-20,118,396!2025-07-20,118,396-->
@@ -342,7 +342,7 @@ The content is in teaching order.
   - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-08-01,129,396-->
   - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-07-31,128,396!2025-06-21,89,376-->
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2025-07-21,104,336!2025-05-29,71,356-->
-  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli <!--SR:!2025-04-16,40,356!2025-07-29,127,396-->
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli <!--SR:!2025-10-27,193,376!2025-07-29,127,396-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2025-05-29,71,356!2025-07-22,105,336-->
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist <!--SR:!2025-05-27,75,376!2025-07-25,123,396-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-07-22,120,396!2025-07-23,121,396-->

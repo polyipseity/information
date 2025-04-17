@@ -10,7 +10,7 @@ tags:
 # digital signal
 
 - This article is about {@{digital signals in electronics}@}. For {@{digital data and systems}@}, see {@{[Digital data](digital%20data.md)}@}. For {@{digital signals that specifically represent analog waveforms}@}, see {@{[Digital signal \(signal processing\)](digital%20signal%20(signal%20processing).md)}@}. For other uses, see [Digital signal \(disambiguation\)](digital%20signal%20(disambiguation).md).
-- For broader {@{coverage of this topic}@}, see {@{[Signal](signal.md)}@}. <!--SR:!2025-05-10,63,310!2025-04-30,54,310!2025-04-17,43,290!2025-04-30,54,310!2025-05-10,63,310!2025-05-12,64,310!2025-05-01,55,310-->
+- For broader {@{coverage of this topic}@}, see {@{[Signal](signal.md)}@}. <!--SR:!2025-05-10,63,310!2025-04-30,54,310!2025-10-04,170,310!2025-04-30,54,310!2025-05-10,63,310!2025-05-12,64,310!2025-05-01,55,310-->
 
 > {@{![A binary signal, also known as a logic signal, is a digital signal with two distinguishable levels](../../archives/Wikimedia%20Commons/Original%20message.jpg)}@}
 >
@@ -88,7 +88,7 @@ Although in {@{a highly simplified and idealized model of a digital circuit}@}, 
 
 - Main article: ::@:: [Modulation § Digital modulation methods](modulation.md#digital%20modulation%20methods) <!--SR:!2025-05-12,64,310!2025-05-11,63,310-->
 
-To {@{create a digital signal}@}, an analog signal must be {@{modulated with a control signal to produce it}@}. {@{The simplest modulation, a type of [unipolar encoding](unipolar%20encoding.md)}@}, is simply to {@{switch on and off a DC signal so that high voltages represent a '1' and low voltages are '0'}@}. <!--SR:!2025-05-15,67,310!2025-05-13,65,310!2025-04-17,43,290!2025-05-03,57,310-->
+To {@{create a digital signal}@}, an analog signal must be {@{modulated with a control signal to produce it}@}. {@{The simplest modulation, a type of [unipolar encoding](unipolar%20encoding.md)}@}, is simply to {@{switch on and off a DC signal so that high voltages represent a '1' and low voltages are '0'}@}. <!--SR:!2025-05-15,67,310!2025-05-13,65,310!2025-10-06,172,310!2025-05-03,57,310-->
 
 In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier waves are [amplitude](amplitude%20modulation.md), [frequency](frequency%20modulation.md) or [phase modulated](phase%20modulated.md) by the control signal}@} to {@{produce a digital signal suitable for transmission}@}. <!--SR:!2025-05-04,58,310!2025-04-19,45,290!2025-05-08,61,310-->
 

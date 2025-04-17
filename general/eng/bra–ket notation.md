@@ -17,7 +17,7 @@ tags:
 
 # bra–ket notation
 
-__Bra–ket notation__, also called {@{__Dirac notation__}@}, is {@{a notation for [linear algebra](linear%20algebra.md) and [linear operators](linear%20map.md) on complex [vector spaces](vector%20space.md) together with their [dual space](dual%20space.md) both in the finite-[dimensional](dimension%20(vector%20space).md) and infinite-dimensional case}@}. <!--SR:!2025-07-02,267,330!2025-04-17,191,310-->
+__Bra–ket notation__, also called {@{__Dirac notation__}@}, is {@{a notation for [linear algebra](linear%20algebra.md) and [linear operators](linear%20map.md) on complex [vector spaces](vector%20space.md) together with their [dual space](dual%20space.md) both in the finite-[dimensional](dimension%20(vector%20space).md) and infinite-dimensional case}@}. <!--SR:!2025-07-02,267,330!2027-07-11,815,330-->
 
 ## quantum mechanics
 

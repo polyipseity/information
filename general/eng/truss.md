@@ -37,7 +37,7 @@ Note that when a truss member is in tension, it is actually {@{pulling on the tw
 
 The steps are {@{label all joints, members, and the support reactions}@}. Then, {@{compute the support reactions by considering the entire truss}@}. Finally, use {@{the method of joints to determine forces in all members}@}. <!--SR:!2027-05-05,820,330!2028-05-12,1130,350!2026-04-20,488,310-->
 
-Note that after finishing with the method of joints, there is {@{no need to consider the global (the entire truss) equilibrium again}@}. This is because {@{the global equilibrium is automatically satisfied afterwards}@}, given that {@{the calculations are done correctly}@}. So this can also serve as a way to {@{check the by-hand calculations}@}. <!--SR:!2025-04-17,256,330!2027-12-05,1005,350!2027-05-01,824,330!2026-01-12,445,310-->
+Note that after finishing with the method of joints, there is {@{no need to consider the global (the entire truss) equilibrium again}@}. This is because {@{the global equilibrium is automatically satisfied afterwards}@}, given that {@{the calculations are done correctly}@}. So this can also serve as a way to {@{check the by-hand calculations}@}. <!--SR:!2028-06-25,1165,350!2027-12-05,1005,350!2027-05-01,824,330!2026-01-12,445,310-->
 
 ## references
 

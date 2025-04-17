@@ -27,7 +27,7 @@ tags:
 - header ::@:: company name, `(Consolidated) Statement of Income`, duration, (monetary unit) <!--SR:!2025-05-14,104,290!2025-05-16,106,290-->
   - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-12-02,276,330!2025-06-30,151,310-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-12-13,283,330!2025-11-12,259,330-->
-- dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2025-12-17,287,330!2025-04-17,86,270-->
+- dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2025-12-17,287,330!2026-03-11,328,290-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income <!--SR:!2025-10-17,213,270!2025-11-03,210,270-->
   - total / format ::@:: Indent totals at least once. <p> Add a (over)line above totals. <p> For income from operations, income before income taxes, and net income, do not indent and bold the names. <p> For net income (and earnings per share), additionally add double (under)lines below the totals. <!--SR:!2025-10-23,199,270!2025-04-28,97,290-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-11-25,270,330!2025-12-11,281,330-->

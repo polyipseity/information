@@ -101,7 +101,7 @@ return await memorize_seq(
 <!--pytextgen generate section="d9fa"--><!-- The following content is generated at 2024-06-26T23:23:57.522058+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly) <!--SR:!2026-06-19,488,306!2025-09-02,334,346-->
-- [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly)→::@::←[Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field) <!--SR:!2025-10-04,359,346!2025-04-17,204,310-->
+- [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly)→::@::←[Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field) <!--SR:!2025-10-04,359,346!2025-07-25,99,290-->
 - [Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field)→::@::←_(end)_ <!--SR:!2025-07-25,298,338!2025-07-12,268,310-->
 
 <!--/pytextgen-->

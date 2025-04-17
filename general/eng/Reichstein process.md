@@ -13,7 +13,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-The __Reichstein process__ is {@{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}@}. The yield is {@{about 60%}@}. <!--SR:!2025-04-17,409,250!2027-07-30,1114,330-->
+The __Reichstein process__ is {@{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}@}. The yield is {@{about 60%}@}. <!--SR:!2028-02-05,1024,250!2027-07-30,1114,330-->
 
 ## steps
 

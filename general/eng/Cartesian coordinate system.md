@@ -93,7 +93,7 @@ Since {@{Cartesian coordinates are unique and non-ambiguous}@}, {@{the points of
 
 ### generalizations
 
-{@{The concept of Cartesian coordinates}@} {@{generalizes to allow axes that are not perpendicular to each other}@}, and/or {@{different units along each axis}@}. In that case, {@{each coordinate is obtained}@} by {@{projecting the point onto one axis along a direction that is parallel to the other axis}@} \(or, in general, to {@{the [hyperplane](hyperplane.md) defined by all the other axes}@}\). In {@{such an _[oblique coordinate system](oblique%20coordinate%20system.md)_}@} {@{the computations of distances and angles}@} must be {@{modified from that in standard Cartesian systems}@}, and {@{many standard formulas \(such as the Pythagorean formula for the distance\) do not hold}@} \(see {@{[affine plane](affine%20plane.md)}@}\). <!--SR:!2025-05-09,70,329!2025-05-26,83,342!2025-05-26,83,342!2025-05-16,76,329!2025-04-25,58,310!2025-05-24,81,342!2025-05-08,69,329!2025-04-17,51,309!2025-05-16,76,329!2025-05-23,80,342!2025-05-09,70,329-->
+{@{The concept of Cartesian coordinates}@} {@{generalizes to allow axes that are not perpendicular to each other}@}, and/or {@{different units along each axis}@}. In that case, {@{each coordinate is obtained}@} by {@{projecting the point onto one axis along a direction that is parallel to the other axis}@} \(or, in general, to {@{the [hyperplane](hyperplane.md) defined by all the other axes}@}\). In {@{such an _[oblique coordinate system](oblique%20coordinate%20system.md)_}@} {@{the computations of distances and angles}@} must be {@{modified from that in standard Cartesian systems}@}, and {@{many standard formulas \(such as the Pythagorean formula for the distance\) do not hold}@} \(see {@{[affine plane](affine%20plane.md)}@}\). <!--SR:!2025-05-09,70,329!2025-05-26,83,342!2025-05-26,83,342!2025-05-16,76,329!2025-04-25,58,310!2025-05-24,81,342!2025-05-08,69,329!2025-11-20,217,329!2025-05-16,76,329!2025-05-23,80,342!2025-05-09,70,329-->
 
 ## notations and conventions
 
@@ -236,7 +236,7 @@ There is no {@{_natural_ interpretation of multiplying vectors to obtain another
 
 - [Cartesian coordinate robot](Cartesian%20coordinate%20robot.md)
 - [Horizontal and vertical](horizontal%20and%20vertical.md)
-- [Jones diagram](Jones%20diagram.md), ::@:: which plots four variables rather than two <!--SR:!2025-04-16,50,309!2025-05-15,75,329-->
+- [Jones diagram](Jones%20diagram.md), ::@:: which plots four variables rather than two <!--SR:!2025-11-12,209,329!2025-05-15,75,329-->
 - [Orthogonal coordinates](orthogonal%20coordinates.md)
 - [Polar coordinate system](polar%20coordinate%20system.md)
 - [Regular grid](regular%20grid.md)

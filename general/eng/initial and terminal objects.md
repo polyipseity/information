@@ -32,7 +32,7 @@ tags:
 # initial and terminal objects
 
 - "{@{Zero object}@}" redirects here. For {@{zero object in an algebraic structure}@}, see {@{[zero object \(algebra\)](zero%20object%20(algebra).md)}@}.
-- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2025-04-18,75,332!2026-02-11,306,337!2026-01-23,292,337!2025-10-25,202,317!2025-04-17,74,332!2025-04-26,82,339-->
+- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2025-04-18,75,332!2026-02-11,306,337!2026-01-23,292,337!2025-10-25,202,317!2026-03-28,345,352!2025-04-26,82,339-->
 
 In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2026-01-12,282,337!2025-12-21,265,337!2026-02-08,303,337-->
 

@@ -27,7 +27,7 @@ But the integral value is obviously 2, not -2. This is because {@{$u$ is not eve
 
 ### integrand is non-rewritable
 
-The integrand {@{must be rewritable in terms of $u$ within the bounds of integration}@}. An example is {@{substituting $u = x^2$ into $\int_{-1}^1 \! x^2 \,\mathrm{d}x$}@}: <!--SR:!2026-12-20,740,330!2025-04-17,229,270-->
+The integrand {@{must be rewritable in terms of $u$ within the bounds of integration}@}. An example is {@{substituting $u = x^2$ into $\int_{-1}^1 \! x^2 \,\mathrm{d}x$}@}: <!--SR:!2026-12-20,740,330!2026-12-26,618,270-->
 
 $$\begin{aligned}
 & \phantom{=} \int_{-1}^1 \! x^2 \,\mathrm{d}x \\

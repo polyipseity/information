@@ -359,7 +359,7 @@ return await memorize_map(
 - [copper(I) iodide](copper(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-01-22,382,238-->
 - [copper(II) bromide](copper(II)%20bromide.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-09-28,955,298-->
 - [copper(II) carbonate](copper(II)%20carbonate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-03-18,1073,298-->
-- [copper(II) chloride](copper(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-04-17,366,298-->
+- [copper(II) chloride](copper(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-04-12,1091,298-->
 - [copper(II) ethanoate](copper(II)%20ethanoate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-12-18,586,318-->
 - [copper(II) hydroxide](copper(II)%20hydroxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-05-02,64,238-->
 - [copper(II) iodide](copper(II)%20iodide.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-01-10,1027,298-->
@@ -377,7 +377,7 @@ return await memorize_map(
 - [mercury(I) iodide](mercury(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-06-08,880,298-->
 - [mercury(II) bromide](mercury(II)%20bromide.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-09-24,374,278-->
 - [mercury(II) chloride](mercury(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-07-30,437,298-->
-- [mercury(II) iodide](mercury(II)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-04-16,30,130-->
+- [mercury(II) iodide](mercury(II)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-05-02,15,130-->
 - [silver bromide](silver%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-06-07,514,278-->
 - [silver chloride](silver%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-08-31,939,298-->
 - [silver ethanoate](silver%20ethanoate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-08-23,455,298-->

@@ -177,7 +177,7 @@ When {@{the same thing is done to an account as its normal balance}@} it {@{incr
 
 However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
 
-- contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2025-05-14,181,310!2025-04-16,163,310-->
+- contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2025-05-14,181,310!2027-03-17,699,330-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2025-05-08,168,310-->
 - contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2026-09-30,572,330!2025-05-25,189,310-->
 

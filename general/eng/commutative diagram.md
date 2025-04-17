@@ -37,11 +37,11 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-09-22,171,310!2025-04-29,66,310-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-04-28,65,310!2025-08-20,148,310-->
 
-{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-12-01,230,330!2025-04-28,65,310!2025-04-19,58,310!2025-04-17,56,310!2025-09-01,159,310-->
+{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-12-01,230,330!2025-04-28,65,310!2025-04-19,58,310!2025-12-18,245,330!2025-09-01,159,310-->
 
 ### verifying commutativity
 
-{@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2025-04-24,62,310!2025-04-16,55,310!2025-12-04,233,330-->
+{@{Commutativity makes sense}@} for {@{a [polygon](polygon.md) of any finite number of sides \(including just 1 or 2\)}@}, and a diagram is commutative {@{if every polygonal subdiagram is commutative}@}. <!--SR:!2025-04-24,62,310!2025-12-09,236,330!2025-12-04,233,330-->
 
 Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of different paths in the diagram may not give the same result}@}. <!--SR:!2025-04-29,66,310!2025-04-26,63,310-->
 
@@ -57,7 +57,7 @@ In {@{the left diagram, which expresses the [first isomorphism theorem](isomorph
 
 ### example 2
 
-In order for {@{the diagram below to commute}@}, {@{three equalities must be satisfied}@}: <!--SR:!2025-04-16,55,310!2025-04-19,58,310-->
+In order for {@{the diagram below to commute}@}, {@{three equalities must be satisfied}@}: <!--SR:!2025-12-11,238,330!2025-04-19,58,310-->
 
 1. $r\circ h\circ g=H\circ G\circ l$
 2. $m\circ g=G\circ l$
@@ -67,17 +67,17 @@ Here, since {@{the first equality follows from the last two}@}, it {@{suffices t
 
 ## diagram chasing
 
-{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-04-17,56,310!2025-12-05,234,330!2025-10-19,192,310!2025-10-21,193,310!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-04-17,56,310-->
+{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2025-04-22,60,310!2025-12-19,246,330!2025-12-05,234,330!2025-10-19,192,310!2025-10-21,193,310!2025-04-21,59,310!2025-04-23,61,310!2025-04-19,58,310!2025-12-15,242,330-->
 
-{@{Examples of proofs by diagram chasing}@} include those typically given for {@{the [five lemma](five%20lemma.md), the [snake lemma](snake%20lemma.md), the [zig-zag lemma](zig-zag%20lemma.md), and the [nine lemma](nine%20lemma.md)}@}. <!--SR:!2025-04-30,67,310!2025-04-16,55,310-->
+{@{Examples of proofs by diagram chasing}@} include those typically given for {@{the [five lemma](five%20lemma.md), the [snake lemma](snake%20lemma.md), the [zig-zag lemma](zig-zag%20lemma.md), and the [nine lemma](nine%20lemma.md)}@}. <!--SR:!2025-04-30,67,310!2025-12-10,237,330-->
 
 ## in higher category theory
 
 - Main article: [Higher category theory](higher%20category%20theory.md)
 
-In {@{higher category theory}@}, one considers {@{not only objects and arrows, but arrows between the arrows, arrows between arrows between arrows, and so on [ad infinitum](https://en.wiktionary.org/wiki/ad%20infinitum)}@}. For example, {@{the category of small categories __Cat__}@} is {@{naturally a 2-category}@}, with {@{[functors](functor.md) as its arrows and [natural transformations](natural%20transformation.md) as the arrows between functors}@}. In this setting, commutative diagrams {@{may include these higher arrows as well}@}, which are often {@{depicted in the following style: $\Rightarrow$}@}. For example, the following \(somewhat trivial\) diagram depicts {@{two categories __C__ and __D__, together with two functors F, G : __C__ → __D__ and a natural transformation α : F ⇒ G}@}: <p> {@{![A diagram depicting two functors and a natural transformation between them.](../../archives/Wikimedia%20Commons/2-commutative-diagram.svg)}@} <!--SR:!2025-04-30,67,310!2025-04-28,65,310!2025-04-17,56,310!2025-04-24,62,310!2025-08-18,147,310!2025-04-18,57,310!2025-04-17,56,310!2025-04-19,58,310!2025-04-25,63,310-->
+In {@{higher category theory}@}, one considers {@{not only objects and arrows, but arrows between the arrows, arrows between arrows between arrows, and so on [ad infinitum](https://en.wiktionary.org/wiki/ad%20infinitum)}@}. For example, {@{the category of small categories __Cat__}@} is {@{naturally a 2-category}@}, with {@{[functors](functor.md) as its arrows and [natural transformations](natural%20transformation.md) as the arrows between functors}@}. In this setting, commutative diagrams {@{may include these higher arrows as well}@}, which are often {@{depicted in the following style: $\Rightarrow$}@}. For example, the following \(somewhat trivial\) diagram depicts {@{two categories __C__ and __D__, together with two functors F, G : __C__ → __D__ and a natural transformation α : F ⇒ G}@}: <p> {@{![A diagram depicting two functors and a natural transformation between them.](../../archives/Wikimedia%20Commons/2-commutative-diagram.svg)}@} <!--SR:!2025-04-30,67,310!2025-04-28,65,310!2025-12-16,243,330!2025-04-24,62,310!2025-08-18,147,310!2025-04-18,57,310!2025-10-05,171,310!2025-04-19,58,310!2025-04-25,63,310-->
 
-There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical composition__ and __horizontal composition__}@}\), and they may also be depicted via {@{[pasting diagrams](pasting%20diagrams.md) \(see [2-category\#Definition](2-category.md#definition) for examples\)}@}. <!--SR:!2025-08-23,151,310!2025-04-22,59,310!2025-04-17,56,310-->
+There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical composition__ and __horizontal composition__}@}\), and they may also be depicted via {@{[pasting diagrams](pasting%20diagrams.md) \(see [2-category\#Definition](2-category.md#definition) for examples\)}@}. <!--SR:!2025-08-23,151,310!2025-04-22,59,310!2025-12-17,244,330-->
 
 ## diagrams as functors
 
@@ -88,8 +88,8 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-08-27,155,310!2025-04-18,57,310-->
 
 - a node ::@:: for every object in the index category, <!--SR:!2025-04-30,67,310!2025-04-24,61,310-->
-- an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-04-16,55,310-->
-- the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2025-04-25,63,310!2025-04-16,55,310-->
+- an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-12-07,234,330-->
+- the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2025-04-25,63,310!2025-12-08,235,330-->
 
 Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2025-04-25,63,310!2025-10-18,191,310-->
 

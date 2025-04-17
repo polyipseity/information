@@ -162,7 +162,7 @@ Monopolistic competition is {@{a situation in which many firms with slightly dif
 
 - see: [monopoly](monopoly.md)
 
-A monopoly is {@{a market structure in which a market or industry is dominated by a single supplier of a particular good or service}@}. Because {@{monopolies have no competition}@}, they {@{tend to sell goods and services at a higher price and produce below the socially optimal output level}@}. However, {@{not all monopolies are a bad thing}@}, especially in {@{industries where multiple firms would result in more costs than benefits (i.e. [natural monopolies](natural%20monopoly.md))}@}.<sup>[\[26\]](#^ref-26)</sup><sup>[\[27\]](#^ref-27)</sup> <!--SR:!2025-04-17,152,310!2025-07-08,212,310!2025-07-04,198,310!2025-08-22,253,330!2025-06-10,191,310-->
+A monopoly is {@{a market structure in which a market or industry is dominated by a single supplier of a particular good or service}@}. Because {@{monopolies have no competition}@}, they {@{tend to sell goods and services at a higher price and produce below the socially optimal output level}@}. However, {@{not all monopolies are a bad thing}@}, especially in {@{industries where multiple firms would result in more costs than benefits (i.e. [natural monopolies](natural%20monopoly.md))}@}.<sup>[\[26\]](#^ref-26)</sup><sup>[\[27\]](#^ref-27)</sup> <!--SR:!2027-01-29,652,330!2025-07-08,212,310!2025-07-04,198,310!2025-08-22,253,330!2025-06-10,191,310-->
 
 - [natural monopoly](natural%20monopoly.md) ::@:: A monopoly in an industry where one producer can produce output at a lower cost than many small producers. <!--SR:!2025-06-12,182,310!2025-08-09,242,330-->
 

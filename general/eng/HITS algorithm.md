@@ -43,7 +43,7 @@ Finally, after {@{the values have converged or after a predetermined number of i
 
 ## in detail
 
-After obtaining {@{the base set}@}, let the _n_ pages be {@{$p_1, \ldots, p_n$}@}. Store the authority values $a(p)$ and node values $h(p)$ {@{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}@}. Initialize {@{the 2 column vectors to either all 1}@}. Optionally, {@{[normalize](#normalization) the initial values}@}. <!--SR:!2025-04-20,218,314!2025-04-19,236,334!2025-07-18,307,334!2025-06-14,280,334!2025-04-17,215,314-->
+After obtaining {@{the base set}@}, let the _n_ pages be {@{$p_1, \ldots, p_n$}@}. Store the authority values $a(p)$ and node values $h(p)$ {@{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}@}. Initialize {@{the 2 column vectors to either all 1}@}. Optionally, {@{[normalize](#normalization) the initial values}@}. <!--SR:!2025-04-20,218,314!2025-04-19,236,334!2025-07-18,307,334!2025-06-14,280,334!2027-11-07,934,334-->
 
 To help with the update rules, construct {@{a [directed adjacency matrix](adjacency%20matrix.md#directed%20graphs) $\mathbf{M}$ representing links between the pages}@}. The matrix element $\mathbf{M}_{i, j}$ {@{is 1 iff $p_i$ is linked to $p_j$, and otherwise 0}@}. <!--SR:!2025-06-06,230,274!2027-03-14,756,334-->
 
@@ -101,7 +101,7 @@ The authority or hub vector can be normalized by {@{dividing the vector by its l
 
 The length is {@{usually defined as the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1) or the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2)}@}. In the former, length is {@{the sum of absolute values of vector elements}@}. In the latter, length is {@{the square root of sum of squares of vector elements}@}. Both are {@{generalized by the [_p_-norm](norm%20(mathematics).md#_p_-norm)}@}: {@{$$\lVert \mathbf{x} \rVert_p := \left(\sum_{i = 1}^n \lvert x_i \rvert^p \right)^{\frac 1 p}$$}@}. <!--SR:!2025-07-09,301,334!2026-11-14,673,334!2025-06-01,271,334!2027-06-05,829,334!2027-10-08,928,334-->
 
-When using the taxicab norm, some may also choose to {@{normalize the vector length to the number of pages _n_ instead of 1}@}, which mathematically is {@{multiplying the above normalized vector by _n_}@}. <!--SR:!2026-09-19,633,334!2025-04-17,218,314-->
+When using the taxicab norm, some may also choose to {@{normalize the vector length to the number of pages _n_ instead of 1}@}, which mathematically is {@{multiplying the above normalized vector by _n_}@}. <!--SR:!2026-09-19,633,334!2027-11-27,954,334-->
 
 ## references
 

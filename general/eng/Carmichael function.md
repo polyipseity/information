@@ -13,7 +13,7 @@ tags:
 >
 > {@{Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)}@} <!--SR:!2025-07-30,149,301!2026-02-13,304,290-->
 
-In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics.md)}@}, the {@{__Carmichael function__ _λ_\(_n_\)}@} of {@{a [positive integer](natural%20number.md) _n_ is the smallest positive integer _m_ such that $$a^{m}\equiv 1{\pmod {n} }$$ holds for every integer _a_ [coprime](coprime%20integers.md) to _n_}@}. In {@{algebraic terms}@}, _λ_\(_n_\) is {@{the [exponent](torsion%20group.md) of the [multiplicative group of integers modulo _n_](multiplicative%20group%20of%20integers%20modulo%20n.md)}@}. As {@{this is a [finite abelian group](abelian%20group.md#finite%20abelian%20groups)}@}, there must {@{exist an element whose [order](cyclic%20group.md#definition%20and%20notation) equals the exponent, _λ_\(_n_\)}@}. Such an element is {@{called a __primitive _λ_-root modulo _n_<!-- markdown separator -->__}@}. <!--SR:!2025-12-15,276,330!2025-12-30,289,341!2025-07-04,135,301!2025-10-22,232,330!2025-04-17,83,281!2025-10-28,237,330!2026-01-07,296,341!2026-01-02,292,341-->
+In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics.md)}@}, the {@{__Carmichael function__ _λ_\(_n_\)}@} of {@{a [positive integer](natural%20number.md) _n_ is the smallest positive integer _m_ such that $$a^{m}\equiv 1{\pmod {n} }$$ holds for every integer _a_ [coprime](coprime%20integers.md) to _n_}@}. In {@{algebraic terms}@}, _λ_\(_n_\) is {@{the [exponent](torsion%20group.md) of the [multiplicative group of integers modulo _n_](multiplicative%20group%20of%20integers%20modulo%20n.md)}@}. As {@{this is a [finite abelian group](abelian%20group.md#finite%20abelian%20groups)}@}, there must {@{exist an element whose [order](cyclic%20group.md#definition%20and%20notation) equals the exponent, _λ_\(_n_\)}@}. Such an element is {@{called a __primitive _λ_-root modulo _n_<!-- markdown separator -->__}@}. <!--SR:!2025-12-15,276,330!2025-12-30,289,341!2025-07-04,135,301!2025-10-22,232,330!2026-03-15,332,301!2025-10-28,237,330!2026-01-07,296,341!2026-01-02,292,341-->
 
 The Carmichael function is named after {@{the American mathematician [Robert Carmichael](Robert%20Daniel%20Carmichael.md) who defined it in 1910}@}.<sup>[\[1\]](#^ref-1)</sup> It is also known as {@{__Carmichael's λ function__, the __reduced totient function__, and the __least universal exponent function__}@}. <!--SR:!2025-07-06,131,290!2025-09-22,203,321-->
 
@@ -87,7 +87,7 @@ If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the pri
 
 ### average value
 
-For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> $${\frac {1}{n} }\sum _{i\leq n}\lambda (i)={\frac {n}{\ln n} }e^{B(1+o(1))\ln \ln n/(\ln \ln \ln n)}$$ \(called {@{Erdős approximation}@} in the following\) with the constant $$B:=e^{-\gamma }\prod _{p\in \mathbb {P} }\left({1-{\frac {1}{(p-1)^{2}(p+1)} } }\right)\approx 0.34537$$ and {@{_γ_ ≈ 0.57721, the [Euler–Mascheroni constant](Euler's%20constant.md)}@}. <!--SR:!2025-06-02,72,281!2025-07-10,137,290!2025-04-16,82,281-->
+For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> $${\frac {1}{n} }\sum _{i\leq n}\lambda (i)={\frac {n}{\ln n} }e^{B(1+o(1))\ln \ln n/(\ln \ln \ln n)}$$ \(called {@{Erdős approximation}@} in the following\) with the constant $$B:=e^{-\gamma }\prod _{p\in \mathbb {P} }\left({1-{\frac {1}{(p-1)^{2}(p+1)} } }\right)\approx 0.34537$$ and {@{_γ_ ≈ 0.57721, the [Euler–Mascheroni constant](Euler's%20constant.md)}@}. <!--SR:!2025-06-02,72,281!2025-07-10,137,290!2026-03-04,321,301-->
 
 The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2025-04-22,82,281!2026-02-14,326,341-->
 
@@ -128,7 +128,7 @@ indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 ha
 
 ### prevailing interval
 
-For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-05-19,97,281!2025-04-16,47,190!2025-08-23,152,261-->
+For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-05-19,97,281!2025-05-12,25,170!2025-08-23,152,261-->
 
 ### lower bounds
 
@@ -136,7 +136,7 @@ For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3<
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-07-12,125,261!2025-04-17,6,150-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2025-07-12,125,261!2025-04-27,10,150-->
 
 ### small values
 
@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-04-17,7,130-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-05-02,78,241!2025-04-27,10,130-->
 
 ## use in cryptography
 
@@ -158,7 +158,7 @@ For {@{prime powers _p_<sup>_r_</sup>, _r_ <!-- \> -->≥ 1}@}, if {@{$$a^{p^{r-
 
 ### sharpening the result for higher powers of two
 
-For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason {@{we cannot do the same for higher powers of odd primes is that _a_ would have had _multiple_ possible forms, one for each positive integer less than _p_: 1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$ for all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-09-13,200,321!2026-02-19,330,341!2025-11-11,233,290!2025-07-20,145,301!2025-04-29,85,270!2025-04-17,83,281!2025-05-09,93,281!2025-05-18,108,301!2025-06-08,114,306-->
+For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason {@{we cannot do the same for higher powers of odd primes is that _a_ would have had _multiple_ possible forms, one for each positive integer less than _p_: 1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$ for all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-09-13,200,321!2026-02-19,330,341!2025-11-11,233,290!2025-07-20,145,301!2025-04-29,85,270!2026-03-08,325,301!2025-05-09,93,281!2025-05-18,108,301!2025-06-08,114,306-->
 
 ### integers with multiple prime factors
 

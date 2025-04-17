@@ -200,7 +200,7 @@ Sustainable Waste Management
 - 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2027-07-12,859,330-->
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2025-04-21,258,330-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
-  - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2025-04-17,252,330-->
+  - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2028-06-07,1147,350-->
     - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2027-05-11,776,330-->
 
 ## page 13
@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-05-24,127,230!2025-04-16,214,270-->
+- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-05-24,127,230!2027-07-03,807,290-->
   - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!2026-07-17,600,330-->
   - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2028-04-24,1113,350-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2026-09-01,583,310-->
@@ -241,7 +241,7 @@ Water Pollution: A serious problem in Hong Kong?
 
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
-- Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2028-03-09,1079,350!2025-04-16,251,330-->
+- Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2028-03-09,1079,350!2028-06-02,1142,350-->
   - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
   - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2025-05-15,152,270!2025-05-18,229,270-->
   - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2026-08-17,562,310-->

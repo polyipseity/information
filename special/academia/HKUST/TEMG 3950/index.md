@@ -172,7 +172,7 @@ The content is in teaching order.
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
     - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2026-05-16,490,321!2027-10-12,939,361-->
-    - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2025-04-17,226,341!2026-04-06,462,321-->
+    - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2027-05-28,771,341!2026-04-06,462,321-->
     - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2026-01-09,350,281!2025-08-30,334,361-->
     - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2025-08-30,307,301!2026-04-27,478,321-->
     - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2027-10-02,936,361!2025-08-10,320,361-->
@@ -216,7 +216,7 @@ The content is in teaching order.
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->
 - casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->
-- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2025-04-16,243,361-->
+- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2028-08-09,1210,381-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2027-09-30,938,361-->
 - cause mapping notation (at least for this course)
