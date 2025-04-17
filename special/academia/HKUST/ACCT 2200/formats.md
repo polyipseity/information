@@ -382,13 +382,13 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{less: variable costs}@}       | {@{<u>2</u>}@}  | {@{<u>280</u>}@}       | {@{<u>66.67&nbsp;&nbsp;</u>}@} | {@{<u>2</u>}@}  | {@{<u>360</u>}@}        | {@{<u>50&nbsp;&nbsp;</u>}@} | {@{<u>640</u>}@}         | {@{<u>56.14&nbsp;&nbsp;</u>}@} |
 > | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@} | {@{&dollar;140}@}      | {@{33.33%}@}                   | {@{&dollar;2}@} | {@{&dollar;360}@}       | {@{50%}@}                   | {@{&dollar;500}@}        | {@{43.86%}@}                   |
 > | {@{less: fixed costs}@}          |                 |                        |                                |                 |                         |                             | {@{<u>200</u>}@}         |                                |
-> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                |
+> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                | <!--SR:!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341-->
 
-- contribution margin income statement ::@:: headers, products & overall, row headers
-  - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\)
-  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both
-  - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income
-  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing.
+- contribution margin income statement ::@:: headers, products & overall, row headers <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
 
 ## incremental analysis (unit)
 
@@ -408,11 +408,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{fixed overhead}@}                 | {@{-}@}         | {@{-}@}           |
 > | &emsp;{@{opportunity cost of lost sales}@} | {@{\(1\)}@}     | {@{\(20\)}@}      |
 > | {@{total incremental costs}@}              | {@{\(4\)}@}     | {@{\(80\)}@}      |
-> | {@{incremental profit \(loss\)}@}          | {@{&dollar;1}@} | {@{&dollar;20}@}  |
+> | {@{incremental profit \(loss\)}@}          | {@{&dollar;1}@} | {@{&dollar;20}@}  | <!--SR:!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,340!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341-->
 
-- incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers
-  - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total
-  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\)
+- incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
 
 ## incremental analysis (comparative)
 
@@ -429,11 +429,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{variable overhead}@}  | {@{\(1\)}@}                   | {@{-}@}                     | {@{1}@}                                              |
 > | &emsp;{@{fixed overhead}@}     | {@{\(2\)}@}                   | {@{\(1\)}@}                 | {@{1}@}                                              |
 > | {@{revenue from new service}@} | {@{-}@}                       | {@{2}@}                     | {@{2}@}                                              |
-> | {@{net operating profit}@}     | {@{&dollar;5}@}               | {@{&dollar;6}@}             | {@{&dollar;1}@}                                      |
+> | {@{net operating profit}@}     | {@{&dollar;5}@}               | {@{&dollar;6}@}             | {@{&dollar;1}@}                                      | <!--SR:!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,340!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,340!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341-->
 
-- incremental analysis \(comparative\) ::@:: column headers, row headers
-  - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\)
-  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\)
+- incremental analysis \(comparative\) ::@:: column headers, row headers <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
 
 ## incremental analysis (incremental)
 
@@ -452,11 +452,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{increased sales}@}                    | {@{&dollar;100}@}        |
 > | &emsp;{@{less: increased variable costs}@}     | {@{\(50\)}@}             |
 > | &emsp;{@{__increased contribution margin__}@}  | {@{__&dollar;50__}@}     |
-> | {@{__net effect eliminating product A__}@}     | {@{__&dollar;\(10\)__}@} |
+> | {@{__net effect eliminating product A__}@}     | {@{__&dollar;\(10\)__}@} | <!--SR:!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341-->
 
-- incremental analysis \(incremental\) ::@:: column headers, row headers
-  - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\)
-  - incremental analysis \(incremental\) / row headers ::@:: main effect + subitems, \(side effects + subitems\), net effect
+- incremental analysis \(incremental\) ::@:: column headers, row headers <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - incremental analysis \(incremental\) / row headers ::@:: main effect + subitems, \(side effects + subitems\), net effect <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
 
 ## constrained optimization using contribution margin
 
@@ -470,12 +470,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{units produced}@}                  | {@{10}@}         | {@{20}@}         | {@{5}@}                    |
 > | {@{raw materials required per unit}@} | {@{3&nbsp;kg}@}  | {@{1&nbsp;kg}@}  | {@{2&nbsp;kg}@}            |
 > | {@{total required raw material}@}     | {@{30&nbsp;kg}@} | {@{20&nbsp;kg}@} | {@{10&nbsp;kg remaining}@} |
-> | {@{total contribution margin}@}       | {@{&dollar;90}@} | {@{&dollar;40}@} | {@{&dollar;10}@}           |
+> | {@{total contribution margin}@}       | {@{&dollar;90}@} | {@{&dollar;40}@} | {@{&dollar;10}@}           | <!--SR:!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341-->
 
-- constrained optimization using contribution margin ::@:: column headers, row headers
-  - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\)
-  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin
-  - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead.
+- constrained optimization using contribution margin ::@:: column headers, row headers <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead. <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
 
 ## budget
 
@@ -499,10 +499,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{less: depreciation \(non-cash expense\)}@}             | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(400\)}@}            |
 > | {@{cash paid for selling and administrative expenses}@}   | {@{40}@}                      | {@{30}@}                      | {@{20}@}                      | {@{10}@}                      | {@{100}@}                |
 > | {@{cash paid for equipment \(capex\)}@}                   | {@{<u>100</u>}@}              | {@{<u>0</u>}@}                | {@{<u>100</u>}@}              | {@{<u>100</u>}@}              | {@{<u>300</u>}@}         |
-> | {@{budgeted cash payments}@}                              | {@{<u>&dollar;150</u>}@}      | {@{<u>&dollar;50</u>}@}       | {@{<u>&dollar;250</u>}@}      | {@{<u>&dollar;350</u>}@}      | {@{<u>&dollar;800</u>}@} |
+> | {@{budgeted cash payments}@}                              | {@{<u>&dollar;150</u>}@}      | {@{<u>&dollar;50</u>}@}       | {@{<u>&dollar;250</u>}@}      | {@{<u>&dollar;350</u>}@}      | {@{<u>&dollar;800</u>}@} | <!--SR:!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,340!2025-04-19,4,340!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,340!2025-04-19,4,341!2025-04-19,4,340!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341!2025-04-19,4,341-->
 
-- budget ::@:: headers, column headers, row headers, format
-  - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\)
-  - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\)
-  - budget / row headers ::@:: Many items. A total at the end. Indent as needed.
-  - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it.
+- budget ::@:: headers, column headers, row headers, format <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\) <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - budget / row headers ::@:: Many items. A total at the end. Indent as needed. <!--SR:!2025-04-19,4,341!2025-04-19,4,341-->
+  - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it. <!--SR:!2025-04-19,4,340!2025-04-19,4,341-->
