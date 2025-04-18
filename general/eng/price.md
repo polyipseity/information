@@ -99,7 +99,7 @@ __Basic Price__: ::@:: It is the amount that producer receive from buyer for a u
 
 __Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-13,180,310!2025-11-25,289,330-->
 
-__Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-04-18,110,290!2025-11-25,289,330-->
+__Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2026-07-11,449,310!2025-11-25,289,330-->
 
 __Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-04-20,91,250!2025-05-03,115,290-->
 

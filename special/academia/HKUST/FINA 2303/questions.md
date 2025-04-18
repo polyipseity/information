@@ -621,7 +621,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{4}@} <!--SR:!2025-04-18,19,359-->
+> - solution: {@{4}@} <!--SR:!2025-06-26,69,359-->
 
 ## week 7 lecture
 

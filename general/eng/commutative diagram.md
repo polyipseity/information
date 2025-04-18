@@ -16,7 +16,7 @@ tags:
 >
 > {@{The commutative diagram used in the proof of the [five lemma](five%20lemma.md)}@} <!--SR:!2025-04-30,67,310!2025-04-30,67,310-->
 
-In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-04-22,60,310!2025-04-23,61,310!2025-04-18,57,310!2025-04-27,64,310!2025-04-18,57,310-->
+In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-04-22,60,310!2025-04-23,61,310!2025-12-21,247,330!2025-04-27,64,310!2025-12-24,250,330-->
 
 ## description
 
@@ -75,7 +75,7 @@ Here, since {@{the first equality follows from the last two}@}, it {@{suffices t
 
 - Main article: [Higher category theory](higher%20category%20theory.md)
 
-In {@{higher category theory}@}, one considers {@{not only objects and arrows, but arrows between the arrows, arrows between arrows between arrows, and so on [ad infinitum](https://en.wiktionary.org/wiki/ad%20infinitum)}@}. For example, {@{the category of small categories __Cat__}@} is {@{naturally a 2-category}@}, with {@{[functors](functor.md) as its arrows and [natural transformations](natural%20transformation.md) as the arrows between functors}@}. In this setting, commutative diagrams {@{may include these higher arrows as well}@}, which are often {@{depicted in the following style: $\Rightarrow$}@}. For example, the following \(somewhat trivial\) diagram depicts {@{two categories __C__ and __D__, together with two functors F, G : __C__ → __D__ and a natural transformation α : F ⇒ G}@}: <p> {@{![A diagram depicting two functors and a natural transformation between them.](../../archives/Wikimedia%20Commons/2-commutative-diagram.svg)}@} <!--SR:!2025-04-30,67,310!2025-04-28,65,310!2025-12-16,243,330!2025-04-24,62,310!2025-08-18,147,310!2025-04-18,57,310!2025-10-05,171,310!2025-04-19,58,310!2025-04-25,63,310-->
+In {@{higher category theory}@}, one considers {@{not only objects and arrows, but arrows between the arrows, arrows between arrows between arrows, and so on [ad infinitum](https://en.wiktionary.org/wiki/ad%20infinitum)}@}. For example, {@{the category of small categories __Cat__}@} is {@{naturally a 2-category}@}, with {@{[functors](functor.md) as its arrows and [natural transformations](natural%20transformation.md) as the arrows between functors}@}. In this setting, commutative diagrams {@{may include these higher arrows as well}@}, which are often {@{depicted in the following style: $\Rightarrow$}@}. For example, the following \(somewhat trivial\) diagram depicts {@{two categories __C__ and __D__, together with two functors F, G : __C__ → __D__ and a natural transformation α : F ⇒ G}@}: <p> {@{![A diagram depicting two functors and a natural transformation between them.](../../archives/Wikimedia%20Commons/2-commutative-diagram.svg)}@} <!--SR:!2025-04-30,67,310!2025-04-28,65,310!2025-12-16,243,330!2025-04-24,62,310!2025-08-18,147,310!2025-12-25,251,330!2025-10-05,171,310!2025-04-19,58,310!2025-04-25,63,310-->
 
 There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical composition__ and __horizontal composition__}@}\), and they may also be depicted via {@{[pasting diagrams](pasting%20diagrams.md) \(see [2-category\#Definition](2-category.md#definition) for examples\)}@}. <!--SR:!2025-08-23,151,310!2025-04-22,59,310!2025-12-17,244,330-->
 
@@ -85,7 +85,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 {@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2025-04-29,66,310!2025-10-18,190,310!2025-04-30,67,310-->
 
-More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-08-27,155,310!2025-04-18,57,310-->
+More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-08-27,155,310!2025-12-22,248,330-->
 
 - a node ::@:: for every object in the index category, <!--SR:!2025-04-30,67,310!2025-04-24,61,310-->
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-12-07,234,330-->
@@ -94,7 +94,7 @@ More formally, a commutative diagram is {@{a visualization of a diagram indexed 
 Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2025-04-25,63,310!2025-10-18,191,310-->
 
 - the objects ::@:: are the nodes, <!--SR:!2025-04-23,60,310!2025-04-21,59,310-->
-- there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-04-18,57,310!2025-04-24,62,310-->
+- there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-12-23,249,330!2025-04-24,62,310-->
 - with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\). <!--SR:!2025-08-19,148,310!2025-04-30,67,310-->
 
 However, {@{not every diagram commutes \(the notion of diagram strictly generalizes commutative diagram\)}@}. As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}. <!--SR:!2025-04-25,62,310!2025-04-28,65,310!2025-04-30,67,310!2025-04-22,60,310!2025-10-08,183,310!2025-04-30,67,310-->

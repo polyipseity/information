@@ -25,7 +25,7 @@ tags:
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-05-31,116,296!2026-02-13,336,342-->
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2025-05-27,116,299!2025-07-16,148,302-->
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2025-05-10,109,302!2025-09-08,203,319-->
-- cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2025-04-18,87,279!2025-08-12,181,310-->
+- cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2026-03-28,344,299!2025-08-12,181,310-->
 - net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2025-04-19,88,282!2026-02-25,319,302-->
 
 ## list

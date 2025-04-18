@@ -76,7 +76,7 @@ Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is 
 
 While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2025-11-05,301,341!2026-12-07,603,341!2026-12-23,615,341-->
 
-Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2026-01-06,350,341!2025-04-18,141,321-->
+Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2026-01-06,350,341!2026-12-31,622,341-->
 
 The evolution graph of the game of nim with three heaps is {@{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-06-28,160,261-->
 
@@ -104,7 +104,7 @@ An equivalent procedure, which is often easier to perform mentally, is to {@{exp
 2 =                 2          What is left after canceling 1s and 4s
 ```
 
-In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2025-10-22,287,330!2025-04-18,141,321!2025-04-18,141,321!2025-11-05,301,341!2025-11-15,308,341!2025-12-10,327,341!2025-10-12,242,281-->
+In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2025-10-22,287,330!2027-01-09,631,341!2027-01-02,624,341!2025-11-05,301,341!2025-11-15,308,341!2025-12-10,327,341!2025-10-12,242,281-->
 
 - _A_ ⊕ _X_ = 3 ⊕ 2 = 1 [Since (011) ⊕ (010) = 001]
 - _B_ ⊕ _X_ = 4 ⊕ 2 = 6

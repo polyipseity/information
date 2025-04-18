@@ -102,7 +102,7 @@ tags:
 >
 > What instruments did Sydney Bechet play?
 >
-> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2025-04-18,62,310-->
+> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2026-01-08,265,330-->
 
 <!-- markdownlint MD028 -->
 

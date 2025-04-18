@@ -58,7 +58,7 @@ The content is in teaching order.
 - stress and strain
   - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2027-11-12,975,341!2025-06-22,308,341-->
     - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2025-05-12,277,350-->
-    - "weak" object examples ::@:: mattress <!--SR:!2025-06-21,308,350!2025-04-18,239,321-->
+    - "weak" object examples ::@:: mattress <!--SR:!2025-06-21,308,350!2028-03-12,1059,341-->
   - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2027-11-22,992,350-->
     - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2025-07-21,333,350-->
   - [stress](../../../../general/stress%20(mechanics).md)

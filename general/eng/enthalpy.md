@@ -16,7 +16,7 @@ tags:
 
 In [chemistry](chemistry.md), the enthalpy of reaction is {@{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}@}. <!--SR:!2025-12-16,628,270-->
 
-For [endothermic processes](endothermic%20process.md), {@{heat is absorbed while for [exothermic processes](exothermic%20process.md), heat is released}@}. <!--SR:!2025-04-18,560,310-->
+For [endothermic processes](endothermic%20process.md), {@{heat is absorbed while for [exothermic processes](exothermic%20process.md), heat is released}@}. <!--SR:!2031-11-15,2402,330-->
 
 ## definition
 

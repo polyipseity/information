@@ -100,7 +100,7 @@ In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier wave
 >
 > {@{Clocking digital signals through a clocked flip-flop}@} <!--SR:!2025-05-07,60,310!2025-05-10,62,310-->
 
-{@{Digital signals may be _sampled_ by a clock signal at regular intervals}@} by {@{passing the signal through a [flip-flop](flip-flop%20(electronics).md)}@}. When this is done, the input is {@{measured at the clock edge and the signal from that time}@}. The signal is then {@{held steady until the next clock}@}. This process is {@{the basis of [synchronous logic](synchronous%20logic.md)}@}. <!--SR:!2025-05-02,56,310!2025-04-30,54,310!2025-04-18,44,290!2025-05-01,55,310!2025-05-11,63,310-->
+{@{Digital signals may be _sampled_ by a clock signal at regular intervals}@} by {@{passing the signal through a [flip-flop](flip-flop%20(electronics).md)}@}. When this is done, the input is {@{measured at the clock edge and the signal from that time}@}. The signal is then {@{held steady until the next clock}@}. This process is {@{the basis of [synchronous logic](synchronous%20logic.md)}@}. <!--SR:!2025-05-02,56,310!2025-04-30,54,310!2025-10-11,176,310!2025-05-01,55,310!2025-05-11,63,310-->
 
 {@{[Asynchronous logic](asynchronous%20logic.md#asynchronous%20logic) also exists}@}, which {@{uses no single clock}@}, and {@{generally operates more quickly, and may use less power, but is significantly harder to design}@}. <!--SR:!2025-05-10,62,310!2025-05-10,62,310!2025-05-12,64,310-->
 

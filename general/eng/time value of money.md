@@ -48,7 +48,7 @@ Some standard calculations based on the time value of money are:
 
 There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions \(such as PV, FV, RATE, NPER, and PMT\)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-05-11,63,310!2025-05-12,64,310!2025-09-20,160,310-->
 
-For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\). <!--SR:!2025-05-08,61,310!2025-05-13,65,310!2025-05-14,66,310!2025-04-18,44,290!2025-05-01,55,310-->
+For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\). <!--SR:!2025-05-08,61,310!2025-05-13,65,310!2025-05-14,66,310!2025-10-10,175,310!2025-05-01,55,310-->
 
 These equations are {@{frequently combined for particular uses}@}. For example, {@{[bonds](bond%20(finance).md) can be readily priced}@} using these equations. A typical coupon bond is {@{composed of two types of payments}@}: {@{a stream of coupon payments similar to an annuity, and a lump-sum [return of capital](return%20of%20capital.md) at the end of the bond's [maturity](maturity%20(finance).md)—that is, a future payment}@}. {@{The two formulas can be combined}@} to {@{determine the present value of the bond}@}. <!--SR:!2025-05-15,67,310!2025-05-08,61,310!2025-05-15,67,310!2025-05-08,61,310!2025-05-15,67,310!2025-05-12,64,310-->
 
@@ -56,7 +56,7 @@ An important note is that {@{the interest rate _i_ is the interest rate for the 
 
 {@{The rate of return in the calculations}@} can be {@{either the variable solved for, or a predefined variable}@} that {@{measures a discount rate, interest, inflation, rate of return, cost of equity, cost of debt or any number of other analogous concepts}@}. {@{The choice of the appropriate rate}@} is {@{critical to the exercise}@}, and {@{the use of an incorrect discount rate will make the results meaningless}@}. <!--SR:!2025-05-10,63,310!2025-05-09,62,310!2025-05-12,64,310!2025-05-07,60,310!2025-05-09,62,310!2025-05-15,67,310-->
 
-For {@{calculations involving annuities}@}, it must be decided {@{whether the payments are made at the end of each period \(known as an ordinary annuity\), or at the beginning of each period \(known as an annuity due\)}@}. When {@{using a financial calculator or a [spreadsheet](spreadsheet.md)}@}, it can {@{usually be set for either calculation}@}. The following formulas are {@{for an ordinary annuity}@}. For {@{the answer to the present value of an annuity due}@}, {@{the PV of an ordinary annuity can be multiplied by \(1 + _i_\)}@}. <!--SR:!2025-05-07,60,310!2025-04-18,44,290!2025-04-25,47,290!2025-05-11,63,310!2025-04-30,54,310!2025-05-14,66,310!2025-05-14,66,310-->
+For {@{calculations involving annuities}@}, it must be decided {@{whether the payments are made at the end of each period \(known as an ordinary annuity\), or at the beginning of each period \(known as an annuity due\)}@}. When {@{using a financial calculator or a [spreadsheet](spreadsheet.md)}@}, it can {@{usually be set for either calculation}@}. The following formulas are {@{for an ordinary annuity}@}. For {@{the answer to the present value of an annuity due}@}, {@{the PV of an ordinary annuity can be multiplied by \(1 + _i_\)}@}. <!--SR:!2025-05-07,60,310!2025-10-11,176,310!2025-04-25,47,290!2025-05-11,63,310!2025-04-30,54,310!2025-05-14,66,310!2025-05-14,66,310-->
 
 ## formula
 
@@ -119,7 +119,7 @@ To {@{get the FV of an annuity due}@}, {@{multiply the above equation by \(1 + _
 
 __Where i ≠ g :__ ::@:: $$FV(A)\,=\,A\cdot {\frac {\left(1+i\right)^{n}-\left(1+g\right)^{n} }{i-g} }$$ <!--SR:!2025-05-10,63,310!2025-09-13,154,310-->
 
-__Where i = g :__ ::@:: $$FV(A)\,=\,A\cdot n(1+i)^{n-1}$$ (annotation: the power is $n - 1$ instead of $n$ due to payments being made at period end instead of period start) <!--SR:!2025-04-18,44,290!2025-05-15,67,310-->
+__Where i = g :__ ::@:: $$FV(A)\,=\,A\cdot n(1+i)^{n-1}$$ (annotation: the power is $n - 1$ instead of $n$ due to payments being made at period end instead of period start) <!--SR:!2025-10-13,178,310!2025-05-15,67,310-->
 
 ### formula table
 

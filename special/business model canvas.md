@@ -66,7 +66,7 @@ C$: [cost structure](#cost%20structure)
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-04-29,65,194!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2025-08-20,304,257!2025-06-12,259,257-->
 - KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2025-10-15,333,257!2026-11-03,599,274-->
-- KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2026-04-20,503,277!2025-04-18,151,234-->
+- KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2026-04-20,503,277!2026-04-10,357,234-->
 - KP: [key partnerships](#key%20partnerships)→::@::←C$: [cost structure](#cost%20structure) <!--SR:!2025-07-05,79,217!2025-05-26,268,274-->
 - C$: [cost structure](#cost%20structure)→::@::←_(end)_ <!--SR:!2026-12-20,689,314!2026-10-26,650,314-->
 
@@ -163,7 +163,7 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
+- _(begin)_→::@::←accessibility <!--SR:!2025-06-10,276,277!2028-11-02,1294,354-->
 - accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2026-08-06,537,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->

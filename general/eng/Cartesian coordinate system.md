@@ -131,7 +131,7 @@ Similarly, a three-dimensional Cartesian system defines {@{a division of space i
 
 ### Euclidean transformations
 
-{@{The [Euclidean transformations](Euclidean%20plane%20isometry.md) or __Euclidean motions__}@} are {@{the \([bijective](bijective.md)\) mappings of points of the [Euclidean plane](Euclidean%20plane.md) to themselves which preserve distances between points}@}. There are {@{four types of these mappings \(also called isometries\)}@}: {@{[translations](translation%20(geometry).md), [rotations](rotation%20(mathematics).md), [reflections](reflection%20(mathematics).md) and [glide reflections](glide%20reflection.md) (annotation: translation + reflection)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-05-21,78,342!2025-04-18,52,309!2025-04-25,58,310!2025-05-15,75,329-->
+{@{The [Euclidean transformations](Euclidean%20plane%20isometry.md) or __Euclidean motions__}@} are {@{the \([bijective](bijective.md)\) mappings of points of the [Euclidean plane](Euclidean%20plane.md) to themselves which preserve distances between points}@}. There are {@{four types of these mappings \(also called isometries\)}@}: {@{[translations](translation%20(geometry).md), [rotations](rotation%20(mathematics).md), [reflections](reflection%20(mathematics).md) and [glide reflections](glide%20reflection.md) (annotation: translation + reflection)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-05-21,78,342!2025-11-25,221,329!2025-04-25,58,310!2025-05-15,75,329-->
 
 #### translation
 

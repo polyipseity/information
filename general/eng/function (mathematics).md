@@ -75,7 +75,7 @@ If {@{the element _y_ in _Y_ is assigned to _x_ in _X_ by the function _f_}@}, o
 
 > {@{![Diagram of a relation that is not a function.](../../archives/Wikimedia%20Commons/Injection%20keine%20Injektion%201.svg)}@}
 >
-> {@{Diagram of a relation that is not a function}@}. One reason is that {@{2 is the first element in more than one ordered pair}@}. Another reason is that {@{neither 3 nor 4 are the first element \(input\) of any ordered pair therein}@} <!--SR:!2025-04-18,50,310!2025-05-12,73,330!2025-05-22,82,345!2025-05-24,80,347-->
+> {@{Diagram of a relation that is not a function}@}. One reason is that {@{2 is the first element in more than one ordered pair}@}. Another reason is that {@{neither 3 nor 4 are the first element \(input\) of any ordered pair therein}@} <!--SR:!2025-11-16,212,330!2025-05-12,73,330!2025-05-22,82,345!2025-05-24,80,347-->
 
 {@{The above definition of a function}@} is essentially that of {@{the founders of [calculus](calculus.md), [Leibniz](Leibniz.md), [Newton](Isaac%20Newton.md) and [Euler](Euler.md)}@}. However, it {@{cannot be [formalized](formal%20proof.md)}@}, since {@{there is no mathematical definition of an "assignment"}@}. It is only at {@{the end of the 19th century that the first formal definition of a function could be provided}@}, in terms of {@{[set theory](set%20theory.md)}@}. {@{This set-theoretic definition}@} is based on the fact that a function {@{establishes a _relation_ between the elements of the domain and some \(possibly all\) elements of the codomain}@}. Mathematically, {@{a [binary relation](binary%20relation.md) between two sets _X_ and _Y_}@} is {@{a [subset](subset.md) of the set of all [ordered pairs](ordered%20pair.md) $(x,y)$ such that $x\in X$ and $y\in Y$}@}. {@{The set of all these pairs}@} is called {@{the [Cartesian product](Cartesian%20product.md) of _X_ and _Y_ and denoted $X\times Y$}@}. Thus, the above definition may be formalized as follows. <!--SR:!2025-05-10,72,330!2025-05-12,73,330!2025-05-09,71,330!2025-04-23,57,310!2025-05-12,73,330!2025-05-13,74,330!2025-05-24,84,345!2025-05-14,75,330!2025-05-11,72,330!2025-05-13,74,330!2025-05-03,66,330!2025-05-22,82,347-->
 
@@ -451,7 +451,7 @@ Function spaces play {@{a fundamental role in advanced mathematical analysis}@},
 
 > {@{![Together, the two square roots of all nonnegative real numbers form a single smooth curve.](../../archives/Wikimedia%20Commons/Function%20with%20two%20values%201.svg)}@}
 >
-> Together, {@{the two square roots of all nonnegative real numbers}@} {@{form a single smooth curve}@}. <!--SR:!2025-05-09,71,330!2025-05-23,83,345!2025-04-18,50,310-->
+> Together, {@{the two square roots of all nonnegative real numbers}@} {@{form a single smooth curve}@}. <!--SR:!2025-05-09,71,330!2025-05-23,83,345!2025-11-15,211,330-->
 
 <!-- markdownlint MD028 -->
 

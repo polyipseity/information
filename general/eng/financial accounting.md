@@ -98,7 +98,7 @@ Accounting standards often {@{set out a general format that companies are expect
 
 Current assets are {@{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}@}. Current assets include: {@{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}@} <!--SR:!2025-09-22,289,330!2025-09-12,217,250-->
 
-- [cash](cash.md) ::@:: physical money <!--SR:!2025-04-18,164,310!2025-05-16,185,310-->
+- [cash](cash.md) ::@:: physical money <!--SR:!2027-03-23,704,330!2025-05-16,185,310-->
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
 - merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2026-12-04,598,310!2025-10-23,290,290-->
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2025-05-25,192,310!2026-04-14,425,310-->

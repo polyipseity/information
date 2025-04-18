@@ -36,7 +36,7 @@ tags:
 >
 > Schematic of {@{a 1-to-2 demultiplexer}@}. Like a multiplexer, it can be {@{equated to a controlled switch}@}. <!--SR:!2025-05-23,74,324!2025-05-23,74,324!2025-05-23,74,324-->
 
-In {@{[electronics](electronics.md)}@}, {@{a __multiplexer__ \(or __mux__; spelled sometimes as __multiplexor__\), also known as a __data selector__}@}, is {@{a device that selects between several [analog](analog%20signal.md) or [digital](digital%20signal%20(electronics).md) input signals and forwards the selected input to a single output line}@}.<sup>[\[1\]](#^ref-1)</sup> The selection is {@{directed by a separate set of digital inputs known as select lines}@}. A multiplexer of {@{$2^{n}$ inputs has $n$ select lines}@}, which are used to {@{select which input line to send to the output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-05-23,74,324!2025-05-13,66,324!2025-05-17,69,324!2025-04-18,45,304!2025-04-29,50,304!2025-05-18,70,324-->
+In {@{[electronics](electronics.md)}@}, {@{a __multiplexer__ \(or __mux__; spelled sometimes as __multiplexor__\), also known as a __data selector__}@}, is {@{a device that selects between several [analog](analog%20signal.md) or [digital](digital%20signal%20(electronics).md) input signals and forwards the selected input to a single output line}@}.<sup>[\[1\]](#^ref-1)</sup> The selection is {@{directed by a separate set of digital inputs known as select lines}@}. A multiplexer of {@{$2^{n}$ inputs has $n$ select lines}@}, which are used to {@{select which input line to send to the output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-05-23,74,324!2025-05-13,66,324!2025-05-17,69,324!2025-10-22,187,324!2025-04-29,50,304!2025-05-18,70,324-->
 
 A multiplexer makes it possible {@{for several input signals to share one device or resource}@}, for example, {@{one [analog-to-digital converter](analog-to-digital%20converter.md) or one communications [transmission medium](transmission%20medium.md)}@}, instead of {@{having one device per input signal}@}. Multiplexers can also be used to {@{implement [Boolean functions](Boolean%20algebra.md) of multiple variables}@}. <!--SR:!2025-05-23,74,324!2025-05-24,75,324!2025-05-24,75,324!2025-05-13,66,324-->
 
@@ -155,7 +155,7 @@ If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$
 
 > {@{![Example: A Single Bit 1-to-4 Line Demultiplexer](../../archives/Wikimedia%20Commons/Demultiplexer%20Example01.svg)}@}
 >
-> Example: {@{A Single Bit 1-to-4 Line Demultiplexer}@} <!--SR:!2025-04-18,45,304!2025-05-24,75,324-->
+> Example: {@{A Single Bit 1-to-4 Line Demultiplexer}@} <!--SR:!2025-10-21,186,324!2025-05-24,75,324-->
 
 ### list of ICs which provide demultiplexing
 

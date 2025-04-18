@@ -9,7 +9,7 @@ tags:
 
 # strain
 
-In [mechanics](mechanics.md), __strain__ is defined as {@{relative [deformation](deformation%20(physics).md)}@}. <!--SR:!2025-04-18,256,330-->
+In [mechanics](mechanics.md), __strain__ is defined as {@{relative [deformation](deformation%20(physics).md)}@}. <!--SR:!2028-06-26,1165,350-->
 
 ## strain measures
 
