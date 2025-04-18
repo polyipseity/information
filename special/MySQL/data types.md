@@ -29,7 +29,7 @@ tags:
 - string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR`
   - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable.
     - `BINARY` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size binary string.
-    - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. Shared among columns in a row.
+    - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row.
   - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings.
     - `TINYBLOB` ::@:: Up to 2<sup>8</sup> - 1 bytes of binary string.
     - `BLOB` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string.
@@ -37,7 +37,7 @@ tags:
     - `LONGBLOB` ::@:: Up to 2<sup>32</sup> - 1 bytes of binary string.
   - `CHAR`, `VARCHAR` ::@:: Strings. Length of the former is fixed and of the latter is variable.
     - `CHAR` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size string.
-    - `VARCHAR` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. Shared among columns in a row.
+    - `VARCHAR` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. This capacity is shared among columns \(including other column types\) in a row.
   - `TINYTEXT`, `TEXT`, `MEDIUMTEXT`, `LONGTEXT` ::@:: Unindexed prefix-indexable long strings.
     - `TINYTEXT` ::@:: Up to 2<sup>8</sup> - 1 bytes of string.
     - `TEXT` ::@:: Up to 2<sup>16</sup> - 1 bytes of string.

@@ -562,22 +562,26 @@ The content is in teaching order.
   - referencing: closed book
   - provided: formulas, necessary tables
   - questions: multiple choice questions ×40
-- grades: 38/40
+- grades: 38/40 → 38/40
   - statistics
-    - timestamps: 2025-03-26T20:34:00+08:00
-    - mean: ? \(provided: 29.5\)
-    - standard deviation: ? \(provided: 7.1\)
-    - low: ?
-    - lower quartile: ?
-    - median: ? \(provided: 30\)
-    - upper quartile: ? \(provided: 35\)
-    - high: ?
-    - distribution: ?
+    - timestamps: 2025-03-26T20:34:00+08:00 → 2025-04-11+08:00
+    - mean: ? \(provided: 29.5\) → ?
+    - standard deviation: ? \(provided: 7.1\) → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? \(provided: 30\) → ?
+    - upper quartile: ? \(provided: 35\) → ?
+    - high: ? → ?
+    - distribution: ? → ?
 - report
-  - \(none\)
+  - "careless" mistake \(–1\) ::@:: Somehow the activity with the highest capacity \(lowest utilization\) instead of the highest utilization is found instead...
+  - capable vs. in control \(–1\) ::@:: Process capability is about meeting specifications, while process control is about not having assignable variations.
 - check
-  - datetime: ?
-  - venue: ?
+  - datetime
+    - 2025-04-09T14:30:00+08:00/2025-04-09T17:00:00+08:00, PT2H30M
+    - 2025-04-10T10:00:00+08:00/2025-04-10T12:10:00+08:00, PT2H10M
+  - venue: Room 4083, LSKBB
+  - report: \(none\)
 
 ## week 8 lecture
 

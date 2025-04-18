@@ -595,22 +595,26 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: select lecture slides
   - questions: long questions ×8
-- grades: ?/100
+- grades: 98/100 → 98/100
   - statistics
-    - timestamps: ?
-    - mean: ?
-    - standard deviation: ?
-    - low: ?
-    - lower quartile: ?
-    - median: ?
-    - upper quartile: ?
-    - high: ?
-    - distribution: ?
+    - timestamps: 2025-04-07T15:40+08:00 → 2025-04-10T22+08:00
+    - mean: 69.58 \(provided: 69.56\) → 69.79
+    - standard deviation: ? \(provided: 22.158\) → ?
+    - low: 0
+    - lower quartile: 60.5 → 60.88
+    - median: 76 → 76
+    - upper quartile: 84 → 84.25
+    - high: 99 → 99
+    - distribution: ? → ?
+    - data: ? → ?
 - report
-  - breadth-first search, depth-first search, A\* search \(?\) ::@:: Take note of how states are deduplicated. In the exam, BFS and DFS deduplicates _generated_ states, while A\* search deduplicates _visited_/_expanded_ states \(wording: "ancestors"\). <p> It turns out it is very easy to get this wrong if you try to run the algorithm by hand... For BFS and DFS, it is easy to get the depth wrong, since the depth is based on _generation_ instead of _expansion_. For A\* search, it is troublesome in general, since the same state may be generated multiple times with different _g_ and thus _f_ values, so these generated states are considered distinct.
+  - breadth-first search, depth-first search, A\* search \(0\) ::@:: Take note of how states are deduplicated. In the exam, BFS and DFS deduplicates _generated_ states, while A\* search deduplicates _visited_/_expanded_ states \(wording: "ancestors"\). <p> It turns out it is very easy to get this wrong if you try to run the algorithm by hand... For BFS and DFS, it is easy to get the depth wrong, since the depth is based on _generation_ instead of _expansion_. For A\* search, it is troublesome in general, since the same state may be generated multiple times with different _g_ and thus _f_ values, so these generated states are considered distinct.
+  - depth-first search \(–1\) ::@:: Apparently, when expanding a node, the lecture slides generate a single unvisited child instead of generating all children at a time.
+  - DPLL algorithm \(–1\) ::@:: Yeah, you need to follow the exact checking order on the lecture slides...
 - check
-  - datetime: ?
-  - venue: ?
+  - datetime: 2025-04-10T19:00:00+08:00/2025-04-10T20:30:00+08:00, PT1H30M
+  - venue: Room 4621, Academic Building
+  - report: \(none\)
 
 > __<big>Midterm Information and Past Midterm Exam Papers</big>__
 >
