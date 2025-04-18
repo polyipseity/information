@@ -495,7 +495,7 @@ The content is in teaching order.
   - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis marks the beginning.
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits.
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\)
-  - cool jazz / characteristics ::@:: arranged heavily, classicial, original music, polyphonic, restrained, slow
+  - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow
     - cool jazz / characteristics / vs. bebop ::@:: Basically opposite of bebop. \(Essentially, just invert the characteristics listed above.\)
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans.
   - Birth of the Cool / tracks ::@:: "Boblicity" \(1949\) — Miles Davis
@@ -538,7 +538,7 @@ The content is in teaching order.
   - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable
   - hard bop / characteristics
     - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles
-  - hard bop / vs. cool jazz ::@:: Cool jazz is more classicial and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians.
+  - hard bop / vs. cool jazz ::@:: Cool jazz is more classical and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians.
 - [rhythm and blues](../../../../general/rhythm%20and%20blues.md) \(R&B\) ::@:: It is a genre of popular music that originated within Black American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to African Americans, at a time when "rocking, jazz based music ... \[with a\] heavy, insistent beat" was starting to become more popular.
   - rhythm and blues / influences ::@:: African American styles, blues, gospel, jazz
   - rhythm and blues / works ::@:: "Blueberry Hill" \(1956\) — Fats Domino
