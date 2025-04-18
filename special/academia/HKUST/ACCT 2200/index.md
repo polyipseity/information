@@ -44,7 +44,7 @@ The content is in teaching order.
 
 ## children
 
-- [assignments](assignments/)
+- [assignments](assignments/index.md)
 - [formats](formats.md)
 <!-- - [questions](questions.md) -->
 
