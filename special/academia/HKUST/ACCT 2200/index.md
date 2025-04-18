@@ -243,8 +243,8 @@ The content is in teaching order.
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_.
 - [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc.
   - activity-based management / example ::@:: Instead of looking at processes/jobs to improve, we look at the activities that processes/jobs require across all processes/jobs. <p> Using ABC, then we can find high-cost activities, and improve on them. We can also identify _value-added_ costs (e.g. designing, machining) and _non-value-added_ costs (e.g. advertising, billing, inspection, meeting, transportation).
-  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Then compare/rank the projects/segments by gross margin \(_percentage_\) and net operating income \(_percentage_\), which shows the gross profit consumed by overhead from ABC costing. Make 3 or more suggestions on improving the project and segment with the lowest net operating income \(_percentage_\), with explanation. Finally, for each activity, make 3 or more suggestions on reducing its activity with explanation. <p> Remember, 1 point is worth 1 mark. Do not be afraid to write "useless" points.\)
-    - activity-based management / note / ABC costing vs. traditional costing ::@:: Traditional costing uses only one cost driver. Thus, costs may be overallocated or underallocated as part of MOH is related to other unused cost drivers. ABC costing is more accurate because cost pools are used to match relevant cost drivers, which should have some causal relationship.
+  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Then compare/rank the projects/segments by gross margin \(_percentage_\) and net operating income \(_percentage_\), which shows the gross profit consumed by overhead from ABC costing. Make 3 or more suggestions on improving the project and segment with the lowest net operating income \(_percentage_\), with explanation. Finally, for each activity, make 3 or more suggestions on reducing its activity with explanation. <p> Remember, 1 point is worth 1 mark. Do not be afraid to write "obvious" or "useless" points.\)
+    - activity-based management / note / ABC costing vs. traditional costing ::@:: Traditional costing uses only one cost driver. Thus, costs may be over-allocated or under-allocated as part of MOH is related to other unused cost drivers. ABC costing is more accurate because cost pools are used to match relevant cost drivers, which should have some causal relationship.
 - price setting ::@:: markup, target costing, etc.
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_.
 - [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered.
@@ -290,7 +290,6 @@ The content is in teaching order.
 
 - datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
 - topic: cost behavior
-
 - [variable costing](../../../../general/variable%20costing.md) ::@:: Under this method, manufacturing overhead is incurred in the period that a product is produced. This addresses the issue of absorption costing that allows income to rise as production rises. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP.
   - variable costing / purpose ::@:: cost accounting for internal decision making
   - variable costing / cost classification ::@:: costs are mainly split into fixed costs, variable costs
@@ -324,6 +323,27 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×3
+- grades: 80/100 → 80/100
+  - statistics
+    - timestamps: 2025-03-24T16:21+08:00 → 2025-03-27T20+08:00
+    - count: ? → ?
+    - mean: ? → 72.86
+    - standard deviation: ? → ?
+    - low: 0 → 0
+    - lower quartile: ? → 64
+    - median: 80 → 81
+    - upper quartile: 88 → 89
+    - high: 97 → 97
+    - distribution: ? → ?
+    - data: ? → ?
+- report
+  - time limit ::@:: The time limit was tight, with about 10 minutes left.
+  - one point one mark \(–8\) ::@:: This is for a sub-question of the 3rd question \(ABC costing\) about commenting on the results of ABC costing vs. traditional costing: one point one mark, and the points contain some "obvious" or "useless" points. <p> Refer to an item about "Comment on the results." above.
+  - extremely long dependency chains \(–12\) ::@:: This is for the 2nd question \(process costing\). Most questions in this course involve very long dependency chains of calculations. Initial calculation or copying \(this case\) errors must be avoided.
+- check
+  - datetime: 2025-03-27T13:00:00+08:00/2025-03-27T15:00:00+08:00, PT2H
+  - venue: Room 6032, LSKBB
+  - report: \(none\)
 
 > Dear Students,
 >
@@ -369,15 +389,17 @@ The content is in teaching order.
     - cost–volume–profit analysis / assumptions / factors ::@:: Changes in activity/volume are the only factors that affect costs. <p> For example, learning curves, productivity gains, and volume discounts are precluded.
     - cost–volume–profit analysis / assumptions / production ::@:: All units produced are sold (there is no ending finished goods inventory). <p> This simplification is because some costs vary with production while others vary with sales. No ending inventory change also means the net operating income/profit is the same between total absorption costing and variable costing.
     - cost–volume–profit analysis / assumptions / product mix ::@:: When a company sells more than one type of product, the product mix (the ratio of each product to total sales) will remain constant.
-  - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted (net) sales and break-even point: <p> actual/budgeted (net) sales − break-even point <p> It represents the strength of the business.
+  - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted \(net\) sales and break-even point: <p> actual/budgeted \(net\) sales − break-even point <p> It represents the strength of the business.
+    - cost–volume–profit analysis / margin of safety / units ::@:: Apart from sales, it can also be represented in terms of _sales units_: <p> actual/budgeted \(net\) sales units − break-even units <p> It still represents the strength of the business.
   - cost–volume–profit analysis / changes ::@:: cost structure; fixed cost, price; price; variable cost, volume;
     - cost–volume–profit analysis / changes / price ::@:: Compute the new \(average\) price, and then the contribution margin ratio or unit contribution margin. You can use these two methods.
     - cost–volume–profit analysis / changes / variable cost, volume ::@:: Compute the new unit variable cost and the new volume. You can use the profit equation method.
-    - cost–volume–profit analysis / changes / fixed cost, price ::@:: Compute the new \(average\) price and new fixed cost, and then unit contribution margin. Yon cau use this method.
+    - cost–volume–profit analysis / changes / fixed cost, price ::@:: Compute the new \(average\) price and new fixed cost, and then unit contribution margin. Yon can use this method.
     - cost–volume–profit analysis / changes / cost structure ::@:: It refers to how a company allocates variable cost and fixed cost to perform its operations. <p> To compare two cost structure and find the quantity to justify switching, we set two profit equations to equal each other, then solve a quantity that gives the same profit under both cost structures.
+  - cost–volume–profit analysis / qualitative factors ::@:: You need to consider if the target profit is realistic. It depends on capacity \(Are there enough resources to achieve the target profit?\), supply and demand \(Are there enough demand to achieve the target profit?\), etc.
 - [operating leverage](../../../../general/operating%20leverage.md) ::@:: It is a measure of how revenue growth translates into growth in operating income. It is a measure of leverage, and of how risky, or volatile, a company's operating income is.
   - operating leverage / degree of operating leverage \(DOL\) ::@:: It can be computed as Total [Contribution Margin](../../../../general/contribution%20margin.md) over [Operating Income](../../../../general/operating%20income.md): $${\text{DOL} }={\frac {\text{Total Contribution} }{\text{Operating Income} } }={\frac {\text{Total Contribution} }{ {\text{Total Contribution} }-{\text{Fixed Costs} } } }={\frac {({\text{P} }-{\text{V} })\cdot {\text{X} } }{({\text{P} }-{\text{V} })\cdot {\text{X} }-{\text{FC} } } } \,.$$
-    - operating leverage / degree of operating leverage / measure ::@:: It measures how much fixed costs are used to operate a business. In general, higher fixed costs means the business is more leveraged. This means a percentange change in sales translate to a higher percentage change in operating income: $${\text{DOL} }={\frac {\%{\text{ change in Operating Income} } }{\%{\text{ change in Sales} } } } \,.$$
+    - operating leverage / degree of operating leverage / interpretation ::@:: It measures how much fixed costs are used to operate a business. In general, higher fixed costs means the business is more leveraged. This means a percentange change in sales translate to a higher percentage change in operating income: $${\text{DOL} }={\frac {\%{\text{ change in Operating Income} } }{\%{\text{ change in Sales} } } } \,.$$
 
 ## week 8 lecture
 
@@ -396,11 +418,12 @@ The content is in teaching order.
   - relevant cost / aliases ::@:: avoidable cost, differential cost, incremental cost
   - irrelevant cost
 - opportunity cost
-  - opportunity cost / capacity ::@:: At full capacity, existing products needs to be given up to make room for new products. We need to account for benefits and costs of existing products given up. <p> With idle capacity, this is not necessarily. <p> Also see _shadow price_.
+  - opportunity cost / capacity ::@:: At full capacity, existing products needs to be given up to make room for new products. We need to account for benefits and costs of existing products given up. <p> With idle capacity, this is not necessary. <p> Also see _shadow price_.
 - special order ::@:: It is an one-time order that is outside the scope of normal sales. <p> When performing cost—benefit analysis, we only account for the _incremental_ costs and benefits. That is, the change in costs and benefits between accepting and rejecting it. \(Considering the _incremental_ costs and benefits will automatically consider the opportunity costs.\)
   - special order / relevant costs ::@:: For products, they include contribution margin lost on regular sales \(due to full capacity\), direct labor, direct materials, _variable_ manufacturing overhead, etc.
   - special order / irrelevant costs ::@:: For products, they include _fixed_ manufacturing overhead, etc.
   - special order / analysis: [formats § incremental analysis \(unit\)](formats.md#incremental%20analysis%20(unit))
+  - special order / qualitative factors ::@:: Incremental analysis usually only focuses on the _economic_ aspect of the _triple bottom line_. What about _environmental_ or _social_ ones? <p> For example, price \(e.g. providing cheaper special orders, casuing regular order customers to pressure to lower prices\), timeliness, wages \(e.g. paying better wages to outside contractors than own employees, causing employees to ask for a raise\), etc.
 - [outsourcing](../../../../general/outsourcing.md) ::@:: It is is a business practice in which companies use external providers to carry out business processes, that would otherwise be handled internally.
   - outsourcing / decision ::@:: insoucing vs. outsourcing, make-or-buy
     - outsourcing / decision / factors ::@:: incremental costs and benefits, opportunity costs, _qualitative_ factors \(usually not accounted for when calculating incremental costs and benefits\)
@@ -458,6 +481,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-07T12:00:00+08:00/2025-04-07T13:20:00+08:00, PT1H20M
 - topic: incremental analysis for short-term decision making
+- incremental analysis
 
 ## week 10 lecture 2
 
@@ -470,6 +494,30 @@ The content is in teaching order.
   - budget / operating budgets ::@:: sales budget → production budget → raw materials purchases budget + direct labor \(DL\) budget + manufacturing overhead \(MOH\) budget → cost of goods sold \(COGS\) budget → budgeted income statement <br/> sales budget → selling and administrative \(S&A\) expense budget → budgeted income statement <br/> sales budget → budgeted income statement
   - budget / financial budgets ::@:: \(sales budget\) → budgeted cash receipts → cash budget → budgeted balance sheet <br/> \(raw materials purchases budget + direct labor \(DL\) budget + manufacturing overhead \(MOH\) budget + selling and administrative \(S&A\) expense budget\) → budgeted cash payments → cash budget → budgeted balance sheet <br/> capital expenditures \(CAPEX\) budget → budgeted cash payments → cash budget → budgeted balance sheet <br/> capital expenditures \(CAPEX\) budget → budgeted balance sheet
   - budget / format: [formats § budget](formats.md#budget)
+  - budget / sales budget ::@:: budgeted unit sales × budgeted sales price = budgeted sales revenue
+    - budget / sales budget / note ::@:: The yearly budgeted sales price uses weighted average. <p> The sales budget is very straightforward. You budget the sales you want, and then simply multiply by the budgeted sales price.
+  - budget / production budget ::@:: budgeted unit sales + ending finished goods inventory – beginning finished goods inventory = budgeted production units
+    - budget / production budget / note ::@:: The yearly ending and beginnig finished goods inventory use that of the whole year. <p> It is related to the sales budget, beginning, and ending finished goods inventory that you want to keep, e.g. ending finished goods inventory of 5% of next quarter budgeted sales.
+  - budget / direct materials purchases budget ::@:: budgeted production units × required direct materials = total required direct materials <br/> total required direct materials + ending direct materials inventory – beginning direct materials inventory = total direct materials purchases <br/> total direct materials purchases × direct materials cost = budgeted cost of direct materials purchases
+    - budget / direct materials purchases budget / note ::@:: The yearly required direct materials and direct materials cost use weighted average. The yearly ending and beginning direct materials inventory use that of the whole year. <p> From budgeted production, you need to calculate direct materials used, then direct materials purchased, and finally its total cost.
+  - budget / direct labor budget ::@:: budgeted production units × required direct labor = total required direct labor hours <br/> total required direct labor hours × direct labor rate per hour = total budgeted direct labor
+    - budget / direct labor budget / note ::@:: The yearly required direct labor and direct labor rate per hour use weighted average. <p> From budgeted production, you need to calculate direct labor hours, and finally its total cost.
+  - budget / manufacturing overhead cost budget ::@:: budgeted \(cost driver\) × variable overhead rate = budgeted variable manufacturing overhead <br/> budgeted variable manufacturing overhead + budgeted fixed manufacturing overhead = budgeted manufacturing overhead
+    - budget / manufacturing overhead cost budget / note ::@:: The yearly variable overhead rate uses weighted average. <p> From budgeted cost driver, find the variable MOH using the variable MOH rate. Also add the fixed MOH rate. If not further specified, assume the fixed MOH is spread out evenly over all subperiods.
+  - budget / cost of goods sold budget ::@:: budgeted unit sales × budgeted manufacturing cost per unit = budgeted cost of goods sold
+    - budget / cost of goods sold budget / note ::@:: The yearly budgeted manufacturing cost per unit uses weighted average. <p> The budgeted manufacturing cost per unit includes direct material, direct labor, direct variable MOH, and direct fixed MOH. Indirect MOH are excluded.
+  - budget / selling and administrative expenses budget ::@:: budgeted sales revenue <br/> variable selling expenses + fixed administrative expenses = budgeted selling and administrative expenses
+    - budget / selling and administrative expenses budget / note ::@:: The variable selling expenses usually depends on the budgeted sales revenue. The fixed administrative expenses are usually fixed. If not further specified, assume the fixed administrative expenses is spread out evenly over all subperiods.
+  - budget / budgeted income statement ::@:: budgeted sales revenue – less: budgeted cost of goods sold = budgeted gross margin <br/> budgeted gross margin – budgeted selling and administrative expenses = budgeted net operating income
+    - budget / budgeted income statement / note ::@:: The budgeted income statement is very straightforward. You simply gather revenue, cost of goods sold, and S&A expenses together to get the net operating income.
+  - budget / budgeted cash receipts ::@:: budgeted sales revenue <br/> cash sales + credit sales \(collected\) = budgeted cash receipts
+    - budget / budgeted cash receipts / note ::@:: For credit sales, we estimate the percentage of credit sales that will be received later at a certain subperiod.
+  - budget / budgeted cash payments ::@:: budgeted cost of direct materials purchases <br/> cash paid for direct materials \(accounts for credit payments\) + cash paid for direct labor + manufacturing overhead – less: depreciation \(non-cash expense\) + cash paid for selling and administrative expenses + cash paid for equipment = budgeted cash payments
+    - budget / budgeted cash payments / note ::@:: Add all _cash_ expenses. Remove any non-cash expenses, e.g. factory depreciation included in manufacturing overhead. Remember to include capital expenditures.
+  - budget / cash budget ::@:: beginning cash balance + plus: budgeted cash receipts – less: budgeted cash payments = cash balance before financing <br/> cash balance before financing + cash borrowed or \(repaid\) = ending cash balance
+    - budget / cash budget / note ::@:: The cash budget is mostly straight forward. Remeber that each subperiod's beginning cash balance follows from last subperiod's ending cash balance.
+  - budget / budgeted balance sheet ::@:: \(example\) <br/> cash + accounts receivable + direct materials inventory + finished goods inventory + property, plant, and equipment = total assets <br/> accounts payable + long-term liabilities = total liabilities <br/> stockholders' equity <br/> total liabilities + stockholders' equity = total liabilities and stockholders' equity
+    - budget / budgeted balance sheet ::@:: It looks similar to a real balance sheet. List and sum assets on the left. List and sum liabilities on the right. List stockholder's equity on the right. <p> At the end of both sides, sum total assets and total liabilities and stockholders' equity, which should equal each other.
 
 ## week 11 lecture
 
@@ -494,6 +542,25 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×3
+- grades: ?/100 → ?/100
+  - statistics
+    - timestamps: ? → ?
+    - count: ? → ?
+    - mean: ? → ?
+    - standard deviation: ? → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? → ?
+    - upper quartile: ? → ?
+    - high: ? → ?
+    - distribution: ? → ?
+    - data: ? → ?
+- report
+  - time limit ::@:: Again, the time limit was tight, because the last question on incremental analysis has 3 long paragraphs of information to sieve through.
+- check
+  - datetime: ?
+  - venue: ?
+  - report: \(none\)
 
 > __<big>Coverage of Examination 2</big>__
 >
@@ -516,7 +583,24 @@ The content is in teaching order.
 ## week 11 lecture 2
 
 - datetime: 2025-04-16T12:00:00+08:00/2025-04-16T13:20:00+08:00, PT1H20M
-- topic: budgetary planning
+- topic: budgetary planning, standard costing, variance analysis
+- budget
+  - budget / depreciation ::@:: It allocates cost to fixed assets as an expense. However, from a cash flow standpoint, all costs have been incurred at the start, and depreciation are not cash flows. <p> This explains why capital expenditure \(capex\) needs to be added to budgeted cash payments, while depreciation needs to be subtracted from budgeted cash payments.
+  - budget / delayed cash receipts: [formats § delayed cash receipts or payments](formats.md#delayed%20cash%20receipts%20or%20payments)
+  - budget / delayed cash payments: [formats § delayed cash receipts or payments](formats.md#delayed%20cash%20receipts%20or%20payments)
+- [standard cost accounting](../../../../general/standard%20cost%20accounting.md) ::@:: It is a traditional cost accounting method introduced in the 1920s, as an alternative for the traditional cost accounting method based on historical costs.
+  - standard cost accounting / standard types ::@:: price standard, quantity standard
+  - standard cost accounting / quantity standard ::@:: units of input per unit of product or service, e.g. tons of steel per car
+  - standard cost accounting / price standard ::@:: price per unit of input, e.g. price per ton of steel
+  - standard cost accounting / standard cost card: [formats § standard cost card](formats.md#standard%20cost%20card)
+- flexible budget ::@:: The _master budget_ is based on the best estimate of sales volume, multiplied by the _standard manufacturing cost per unit_. <p> _Flexible budgets_ show how budgeted costs change if the actual sales differ from the best estimate, but still multiplied by the standard manufacturing cost per unit.
+- [variance](../../../../general/variance%20(accounting).md) ::@:: It is the difference between a budgeted, planned, or standard cost and the actual amount incurred/sold. Variances can be computed for both costs and revenues.
+- variance analysis ::@:: It is a tool of budgetary control and performance evaluation, assessing any variances between the budgeted, planned, or standard amount, and the actual amount realized. Variance analysis can be carried out for both costs and revenues.
+  - variance analysis / types ::@:: Variance can be classified into _spending variance_ and _volume variances_. The former accounts for differences between the _actual budget_ and the _flexible budget_ with the same sale units. The latter accounts for differences between the _flexible budget_ and the _master budget_.
+    - variable analysis / types / variable ::@:: For variable costs, e.g. direct materials \(DM\), direct labor \(DL\), and variable manufacturing overhead \(VOH\), _spending variance_ can be further separated into _price variance_ and _efficiency variance_ \(_quantity variance_ for DM\). <p> _Volume variance_ is ignored, as it is already accounted for by the _flexible budget_.
+    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares between that in _flexible budge_ and the _applied FOH_ instead of that in the _master budget_.
+  - variance analysis / favorability ::@:: Variance calculation should always be calculated by taking the planned or budgeted amount and subtracting the actual/forecasted value. Thus a positive number is favorable and a negative number is unfavorable.
+    - variance analysis / favorability / causes ::@:: It should be obvious what is _favorable_, e.g. paying lower prices/wages, producing more using less resources, using less materials, using less time, etc. The opposite is _unfavorable_.
 
 ## examination 3
 
