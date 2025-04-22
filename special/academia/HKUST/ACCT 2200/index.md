@@ -448,7 +448,7 @@ The content is in teaching order.
 - incremental analysis ::@:: To sum up, consider _incremental changes_. Additionally, balance it against qualitative factors, which is usually not covered by incremental analysis.
   - incremental analysis / relevant costs ::@:: differs between decision alternatives and happens in the future
   - incremental analysis / direct variable costs ::@:: Very likely relevant, as they vary with the number of units produced or sold.
-  - incremental analysis / indirect varibale costs ::@:: If it is indirect, then it is difficult to trace such costs to a product, so it could not be variable.
+  - incremental analysis / indirect variable costs ::@:: If it is indirect, then it is difficult to trace such costs to a product, so it could not be variable.
   - incremental analysis / direct fixed costs ::@:: May be relevant, unlike allocated/common/indirect fixed costs, which are shared by multiple products or services.
   - incremental analysis / indirect fixed costs ::@:: Likely irrelevant, unlike direct fixed costs, which are used by one product or service.
   - incremental analysis / opportunity costs ::@:: When capacity or resources are constrained, this is likely relevant. <p> Avoid double counting it as a cost in an option and an benefit in the other option.

@@ -374,21 +374,21 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > {@{Based on Target Profit of &dollar;300}@}
 >
 >
-> |                                  |                 |                        |                                |                 |                         |                             |                          |                                |
-> | -------------------------------- | ---------------:| ----------------------:| ------------------------------:| ---------------:| -----------------------:| ---------------------------:| ------------------------:| ------------------------------:|
-> |                                  |                 | {@{__<u>apple</u>__}@} |                                |                 | {@{__<u>orange</u>__}@} |                             | {@{__<u>overall</u>__}@} |                                |
-> |                                  | {@{per unit}@}  | {@{total}@}            | {@{percent}@}                  | {@{per unit}@}  | {@{total}@}             | {@{percent}@}               | {@{total}@}              | {@{percent}@}                  |
-> | {@{sales revenue}@}              | {@{&dollar;3}@} | {@{&dollar;420}@}      | {@{100%}@}                     | {@{&dollar;4}@} | {@{&dollar;720}@}       | {@{100%}@}                  | {@{&dollar;1&nbsp;140}@} | {@{100%}@}                     |
-> | {@{less: variable costs}@}       | {@{<u>2</u>}@}  | {@{<u>280</u>}@}       | {@{<u>66.67&nbsp;&nbsp;</u>}@} | {@{<u>2</u>}@}  | {@{<u>360</u>}@}        | {@{<u>50&nbsp;&nbsp;</u>}@} | {@{<u>640</u>}@}         | {@{<u>56.14&nbsp;&nbsp;</u>}@} |
-> | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@} | {@{&dollar;140}@}      | {@{33.33%}@}                   | {@{&dollar;2}@} | {@{&dollar;360}@}       | {@{50%}@}                   | {@{&dollar;500}@}        | {@{43.86%}@}                   |
-> | {@{less: fixed costs}@}          |                 |                        |                                |                 |                         |                             | {@{<u>\(200\)</u>}@}     |                                |
-> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                |
+> |                                  |                    |                        |                                    |                    |                         |                                 |                          |                                    |
+> | -------------------------------- | ------------------:| ----------------------:| ----------------------------------:| ------------------:| -----------------------:| -------------------------------:| ------------------------:| ----------------------------------:|
+> |                                  |                    | {@{__<u>apple</u>__}@} |                                    |                    | {@{__<u>orange</u>__}@} |                                 | {@{__<u>overall</u>__}@} |                                    |
+> |                                  | {@{per unit}@}     | {@{total}@}            | {@{percent}@}                      | {@{per unit}@}     | {@{total}@}             | {@{percent}@}                   | {@{total}@}              | {@{percent}@}                      |
+> | {@{sales revenue}@}              | {@{&dollar;3}@}    | {@{&dollar;420}@}      | {@{100%}@}                         | {@{&dollar;4}@}    | {@{&dollar;720}@}       | {@{100%}@}                      | {@{&dollar;1&nbsp;140}@} | {@{100%}@}                         |
+> | {@{less: variable costs}@}       | {@{<u>\(2\)</u>}@} | {@{<u>\(280\)</u>}@}   | {@{<u>\(66.67\)&nbsp;&nbsp;</u>}@} | {@{<u>\(2\)</u>}@} | {@{<u>\(360\)</u>}@}    | {@{<u>\(50\)&nbsp;&nbsp;</u>}@} | {@{<u>\(640\)</u>}@}     | {@{<u>\(56.14\)&nbsp;&nbsp;</u>}@} |
+> | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@}    | {@{&dollar;140}@}      | {@{33.33%}@}                       | {@{&dollar;2}@}    | {@{&dollar;360}@}       | {@{50%}@}                       | {@{&dollar;500}@}        | {@{43.86%}@}                       |
+> | {@{less: fixed costs}@}          |                    |                        |                                    |                    |                         |                                 | {@{<u>\(200\)</u>}@}     |                                    |
+> | &emsp;{@{net operating income}@} |                    |                        |                                    |                    |                         |                                 | {@{&dollar;300}@}        |                                    |
 
 - contribution margin income statement ::@:: headers, products & overall, row headers
   - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\)
   - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both
   - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income
-  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing.
+  - contribution margin income statement / sub-formats ::@:: Only using overall gives the income statement under variable costing.
 
 ## incremental analysis (unit)
 
@@ -489,7 +489,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > |                                                           | {@{quarter 1 <br/> Jan–Mar}@} | {@{quarter 2 <br/> Apr–Jun}@} | {@{quarter 3 <br/> Jul–Sep}@} | {@{quarter 4 <br/> Oct–Dec}@} | {@{yearly <br/> total}@} |
 > | --------------------------------------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ------------------------ |
-> | {@{budgeted cost of direct materials purchases}@}         | {@{<u>&dollar;0</u>}@}        | {@{&dollar;100}@}             | {@{&dollar;200}@}             | {@{&dollar;300}@}             | {@{&dollar;600}@}        |
+> | {@{budgeted cost of direct materials purchases}@}         | {@{<u>&dollar;0</u>}@}        | {@{<u>&dollar;100</u>}@}      | {@{<u>&dollar;200</u>}@}      | {@{<u>&dollar;300</u>}@}      | {@{<u>&dollar;600</u>}@} |
 > |                                                           |                               |                               |                               |                               |                          |
 > | {@{cash paid during the quarter of purchase \(25%\)}@}    | {@{&dollar;0}@}               | {@{&dollar;25}@}              | {@{&dollar;50}@}              | {@{&dollar;75}@}              | {@{&dollar;150}@}        |
 > | {@{cash paid in the quarter following purchase \(75%\)}@} | {@{<u>75</u>}@}               | {@{<u>0</u>}@}                | {@{<u>75</u>}@}               | {@{<u>150</u>}@}              | {@{<u>300</u>}@}         |

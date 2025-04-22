@@ -32,6 +32,7 @@ The content is in teaching order.
 
 ## children
 
+- [assignments](assignments/index.md)
 - [questions](questions.md)
 
 ## week 1 lecture
@@ -319,8 +320,6 @@ The content is in teaching order.
 - [Lagrange multiplier](../../../../general/Lagrange%20multiplier.md) ::@:: It is a strategy for finding the local [maxima and minima](../../../../general/maxima%20and%20minima.md) of a [function](../../../../general/function%20(mathematics).md) subject to [equation constraints](../../../../general/constraint%20(mathematics).md) \(i.e., subject to the condition that one or more [equations](../../../../general/equation.md) have to be satisfied exactly by the chosen values of the [variables](../../../../general/variable%20(mathematics).md)\). It is named after the mathematician [Joseph-Louis Lagrange](../../../../general/Joseph-Louis%20Lagrange.md).
   - Lagrange multiplier / rationale ::@:: The basic idea is to convert a constrained problem into a form such that the [derivative test](../../../../general/derivative%20test.md) of an unconstrained problem can still be applied. <p> Consider a multivariate function of two variables $f(x, y)$ and a single constraint function $g(x, y) = 0$ \(with _constraint qualification_: its gradient is nonzero\). Then, the constraint is a curve on the graph surface of the multivariate function. A local extremum on the constraint curve must have the curve at that point parallel to the level sets, otherwise, one could "walk" along the constraint curve to get higher or lower values. This also means the constraint curve is perpendicular to the gradient of the multivariate function. And the constraint curve is perpendicular to its own gradient. So the gradient of the multivariate function can be expressed as a linear combination of the gradient of the constraint. Thus we have $$D f(x, y) = \lambda D g(x, y) \,,$$ for some arbitrary constant $\lambda$ subject to $g(x, y)$.
   - Lagrange multiplier / summary ::@:: In the general case, the Lagrangian is defined as $${\mathcal {L} }(x,\lambda )\equiv f(x)+\langle \lambda ,g(x)\rangle$$ for \(annotation: $C^1$, having _continuous first derivatives_\) functions $f,g$; the notation $\langle \cdot ,\cdot \rangle$ denotes an [inner product](../../../../general/inner%20product.md). The value $\lambda$ is called the Lagrange multiplier. <p> In simple cases, where the inner product is defined as the [dot product](../../../../general/dot%20product.md), the Lagrangian is $${\mathcal {L} }(x,\lambda )\equiv f(x)+\lambda \cdot g(x)$$ <p> The method can be summarized as follows: in order to find the maximum or minimum of a function $f$ subject to the equality constraint $g(x)=0$, find the [stationary points](../../../../general/stationary%20point.md) of ${\mathcal {L} }$ considered as a function of $x$ and the Lagrange multiplier $\lambda ~$. This means that all [partial derivatives](../../../../general/partial%20derivative.md) should be zero, including the partial derivative with respect to $\lambda ~$. <p> &emsp; ${\frac {\partial {\mathcal {L} } }{\partial x} }=0$ and ${\frac {\ \partial {\mathcal {L} }\ }{\partial \lambda } }=0\ ;$ <p> or equivalently <p> &emsp; ${\frac {\partial f(x)}{\partial x} }+\lambda \cdot {\frac {\partial g(x)}{\partial x} }=0$ and $g(x)=0~$.
-
-## assignments
 
 ## midterm examination
 

@@ -492,11 +492,11 @@ The content is in teaching order.
 - datetime: 2025-03-24T08:30:00-05:00/2025-03-24T09:00:00-05:00
   - local: 2025-03-24T21:30:00+08:00/2025-03-24T22:00:00+08:00
 - [cool jazz](../../../../general/cool%20jazz.md) ::@:: It is a style of modern jazz music inspired by bebop and big band that arose in the United States after World War II. It is characterized by relaxed tempos and a lighter tone than that used in the fast and complex bebop style.
-  - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis marks the beginning.
+  - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis: It marks the beginning.
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits.
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\)
   - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow
-    - cool jazz / characteristics / vs. bebop ::@:: Basically opposite of bebop. \(Essentially, just invert the characteristics listed above.\)
+    - cool jazz / characteristics / vs. bebop ::@:: Basically opposite of bebop \(Essentially, just invert the characteristics listed above.\): classical, fast, improvised, relaxed, remix, monophonic
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans.
   - Birth of the Cool / tracks ::@:: "Boblicity" \(1949\) — Miles Davis
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool".
@@ -568,7 +568,7 @@ The content is in teaching order.
 - jazz
   - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multitrack recording.
 - Miles Davis
-  - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but drooped out to play jazz. He started in Charlie Parker's band.
+  - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band.
   - Miles Davis / known for :;@:: incredibly inventive, melodic, unique sound
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pinaists, saxophonists, etc.
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s
@@ -594,11 +594,11 @@ The content is in teaching order.
   - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions
 - Miles Davis
   - Miles Davis / genres
-    - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz.
+    - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz.
 - Miles Davis Quintet
   - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet
     - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exicting to listen to.
-    - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmoney along with Herbie. He allowed other musicians to stretch without worrying about the bass.
+    - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmony along with Herbie. He allowed other musicians to stretch without worrying about the bass.
     - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique.
     - Miles Davis Quintet / Second Great Quintet / Herbie Hancock ::@:: On piano. New harmonies.
     - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz.
