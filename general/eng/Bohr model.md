@@ -82,7 +82,7 @@ The Bohr model fails to explain:
 
 <!--pytextgen generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←brightness <!--SR:!2029-08-22,1749,344!2025-04-21,334,353-->
+- _(begin)_→::@::←brightness <!--SR:!2029-08-22,1749,344!2029-10-05,1627,373-->
 - brightness→::@::←multiple [electrons](electron.md) <!--SR:!2028-02-10,1063,284!2027-08-23,868,293-->
 - multiple [electrons](electron.md)→::@::←naturalness <!--SR:!2026-06-05,837,324!2025-09-03,414,313-->
 - naturalness→::@::←structures <!--SR:!2027-02-11,981,324!2025-09-17,354,273-->

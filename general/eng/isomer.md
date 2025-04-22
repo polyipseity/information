@@ -10,7 +10,7 @@ tags:
 
 # isomer
 
-In [chemistry](chemistry.md), __isomers__ are {@{[molecules](molecule.md) or [polyatomic ions](polyatomic%20ion.md) with the same [molecular formula](chemical%20formula.md#molecular%20formula) but different spatial arrangements of [atoms](atom.md)}@}. <!--SR:!2025-04-21,452,250-->
+In [chemistry](chemistry.md), __isomers__ are {@{[molecules](molecule.md) or [polyatomic ions](polyatomic%20ion.md) with the same [molecular formula](chemical%20formula.md#molecular%20formula) but different spatial arrangements of [atoms](atom.md)}@}. <!--SR:!2028-05-21,1126,250-->
 
 ## structural isomer
 

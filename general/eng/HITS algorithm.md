@@ -43,7 +43,7 @@ Finally, after {@{the values have converged or after a predetermined number of i
 
 ## in detail
 
-After obtaining {@{the base set}@}, let the _n_ pages be {@{$p_1, \ldots, p_n$}@}. Store the authority values $a(p)$ and node values $h(p)$ {@{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}@}. Initialize {@{the 2 column vectors to either all 1}@}. Optionally, {@{[normalize](#normalization) the initial values}@}. <!--SR:!2025-04-20,218,314!2025-04-19,236,334!2025-07-18,307,334!2025-06-14,280,334!2027-11-07,934,334-->
+After obtaining {@{the base set}@}, let the _n_ pages be {@{$p_1, \ldots, p_n$}@}. Store the authority values $a(p)$ and node values $h(p)$ {@{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}@}. Initialize {@{the 2 column vectors to either all 1}@}. Optionally, {@{[normalize](#normalization) the initial values}@}. <!--SR:!2027-11-23,947,334!2027-06-16,788,334!2025-07-18,307,334!2025-06-14,280,334!2027-11-07,934,334-->
 
 To help with the update rules, construct {@{a [directed adjacency matrix](adjacency%20matrix.md#directed%20graphs) $\mathbf{M}$ representing links between the pages}@}. The matrix element $\mathbf{M}_{i, j}$ {@{is 1 iff $p_i$ is linked to $p_j$, and otherwise 0}@}. <!--SR:!2025-06-06,230,274!2027-03-14,756,334-->
 
@@ -74,7 +74,7 @@ Notice that both iterations involve {@{left multiplying the authority vector by 
 
 ### hub update rule
 
-For each $p$, we {@{update $h(p)$ to $h(p) = \sum_{q \in p_{\text{from} } } a(q)$ where $p_{\text{from} }$ are all pages linked from $p$}@}. That is, a page's hub value is {@{the sum of the authority values of nodes it points to}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_k$ for async iteration and $\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_{k - 1}$ for sync iteration}@}. <!--SR:!2025-04-20,237,334!2027-06-28,847,334!2025-05-07,251,334!2027-02-24,705,334-->
+For each $p$, we {@{update $h(p)$ to $h(p) = \sum_{q \in p_{\text{from} } } a(q)$ where $p_{\text{from} }$ are all pages linked from $p$}@}. That is, a page's hub value is {@{the sum of the authority values of nodes it points to}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_k$ for async iteration and $\mathbf{H}_k \gets \mathbf{M} \mathbf{A}_{k - 1}$ for sync iteration}@}. <!--SR:!2028-04-15,1091,354!2027-06-28,847,334!2025-05-07,251,334!2027-02-24,705,334-->
 
 Consider the hub vector after several updates (without normalization):
 
@@ -93,7 +93,7 @@ Consider the hub vector after several updates (without normalization):
 
 From the table above, we can obtain {@{a closed expression and a recursive expression}@}. Let {@{$\mathbf{H}_1 \gets \mathbf{M} \mathbf{A}_0$ for sync iteration only}@}. For async iteration, the expressions are {@{$$\begin{aligned} \mathbf{H}_k & \gets \left(\mathbf{M} \mathbf{M}^\intercal\right)^k \mathbf{H}_0 \\ \mathbf{H}_k & \gets \mathbf{M} \mathbf{M}^\intercal \mathbf{H}_{k - 1} \end{aligned}$$}@}. For sync iteration, the expressions are {@{$$\begin{aligned} \mathbf{H}_{2k} & \gets \left(\mathbf{M} \mathbf{M}^\intercal\right)^k \mathbf{H}_0 \\ \mathbf{H}_{2k + 1} & \gets \left(\mathbf{M} \mathbf{M}^\intercal\right)^k \mathbf{H}_1 \\ \mathbf{H}_k & \gets \mathbf{M} \mathbf{M}^\intercal \mathbf{H}_{k - 2} \end{aligned}$$}@}. <!--SR:!2026-04-10,489,314!2025-10-28,335,294!2026-05-04,510,314!2025-08-11,300,294-->
 
-Notice that both iterations involve {@{left multiplying the hub vector by $\mathbf{M} \mathbf{M}^\intercal$ repeatedly}@}. This is how computation is done in practice. Mathematically, this is also known as {@{[power iteration](power%20iteration.md)}@}. By this, if {@{the hub vector is [normalized](#normalization) after each iteration}@}, then the hub vector {@{tends to the normalized principal [eigenvector](eigenvalues%20and%20eigenvectors.md) (the normalized eigenvector with the largest eigenvalue) of $\mathbf{M} \mathbf{M}^\intercal$ regardless of the starting initial values}@}. <!--SR:!2026-07-20,535,314!2025-04-21,238,334!2026-11-15,664,334!2026-03-19,441,314-->
+Notice that both iterations involve {@{left multiplying the hub vector by $\mathbf{M} \mathbf{M}^\intercal$ repeatedly}@}. This is how computation is done in practice. Mathematically, this is also known as {@{[power iteration](power%20iteration.md)}@}. By this, if {@{the hub vector is [normalized](#normalization) after each iteration}@}, then the hub vector {@{tends to the normalized principal [eigenvector](eigenvalues%20and%20eigenvectors.md) (the normalized eigenvector with the largest eigenvalue) of $\mathbf{M} \mathbf{M}^\intercal$ regardless of the starting initial values}@}. <!--SR:!2026-07-20,535,314!2028-04-20,1095,354!2026-11-15,664,334!2026-03-19,441,314-->
 
 ### normalization
 

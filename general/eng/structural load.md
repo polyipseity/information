@@ -118,7 +118,7 @@ return await memorize_seq(
 
 Hydrostatic load refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}. <!--SR:!2028-05-10,1132,350!2027-05-18,786,330-->
 
-For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For pure water, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}. <!--SR:!2025-04-21,261,330!2027-12-15,1005,340!2025-04-20,262,330-->
+For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For pure water, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}. <!--SR:!2028-07-19,1185,350!2027-12-15,1005,340!2028-07-28,1195,350-->
 
 #### lateral load
 

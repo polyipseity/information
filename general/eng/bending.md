@@ -38,7 +38,7 @@ return (
 )
 ```
 
-There are {@{<!--pytextgen generate section="298b"--><!-- The following content is generated at 2024-05-14T01:07:43.943498+08:00. Any edits will be overridden! -->3<!--/pytextgen--> forms of internal stresses}@} caused by lateral loads ([force](force.md) on the side): <!--SR:!2025-04-21,261,330-->
+There are {@{<!--pytextgen generate section="298b"--><!-- The following content is generated at 2024-05-14T01:07:43.943498+08:00. Any edits will be overridden! -->3<!--/pytextgen--> forms of internal stresses}@} caused by lateral loads ([force](force.md) on the side): <!--SR:!2028-07-18,1184,350-->
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-05-14T01:07:43.913119+08:00. Any edits will be overridden! -->
 

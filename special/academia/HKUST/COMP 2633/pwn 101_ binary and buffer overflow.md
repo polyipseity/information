@@ -68,7 +68,7 @@ A related instruction is {@{`lea`}@}: <!--SR:!2025-10-01,288,330-->
 
 - `lea <dest>, <src>` ::@:: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.) <!--SR:!2025-08-20,256,330!2025-08-18,254,330-->
 
-Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2025-04-22,157,310!2025-06-21,208,330!2025-08-24,260,330!2025-10-13,293,330-->
+Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2027-03-02,679,330!2025-06-21,208,330!2025-08-24,260,330!2025-10-13,293,330-->
 
 ## calling convention
 
@@ -151,7 +151,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2025-06-22,191,310!2025-08-02,242,330!2025-04-19,161,310!2025-05-28,186,310!2025-10-05,292,330-->
+The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2025-06-22,191,310!2025-08-02,242,330!2027-03-14,694,330!2025-05-28,186,310!2025-10-05,292,330-->
 
 ```C
 char buffer[4];
@@ -178,7 +178,7 @@ patchelf --set-interpreter 'ld-<version>.so' 'my_elf' # This sets the dynamic lo
 patchelf --set-rpath './' 'my_elf' # This sets the path to be searched for `glibc` to the current directory, so the `libc.so.6` in the current directory will be used isntead of the system one.
 ```
 
-To {@{verify `patchelf` has successfully patched the executable}@}, run {@{`ldd <patched ELF file>`}@}. You should see {@{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}@}. For example: <!--SR:!2025-04-21,156,310!2025-07-11,223,330!2026-05-08,416,310-->
+To {@{verify `patchelf` has successfully patched the executable}@}, run {@{`ldd <patched ELF file>`}@}. You should see {@{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}@}. For example: <!--SR:!2027-02-19,668,330!2025-07-11,223,330!2026-05-08,416,310-->
 
 ```shell
 $ ldd 'my_elf'

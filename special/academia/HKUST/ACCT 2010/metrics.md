@@ -26,7 +26,7 @@ tags:
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2025-05-27,116,299!2025-07-16,148,302-->
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2025-05-10,109,302!2025-09-08,203,319-->
 - cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2026-03-28,344,299!2025-08-12,181,310-->
-- net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2025-04-19,88,282!2026-02-25,319,302-->
+- net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2026-04-05,351,302!2026-02-25,319,302-->
 
 ## list
 
@@ -49,5 +49,5 @@ The list is not exhaustive.
 - [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2026-03-19,338,302!2025-06-08,135,302-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2026-01-15,312,342!2026-01-22,318,342-->
 - quality of income ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{net income} }$$ <!--SR:!2025-06-02,76,282!2025-11-02,234,322-->
-- capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2025-04-19,36,302!2025-07-13,150,322-->
+- capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2025-05-06,17,282!2025-07-13,150,322-->
 - [free cash flow](../../../../general/free%20cash%20flow.md) ::@:: $$\text{cash flow from operating activities} - \text{dividends} - \text{capital expenditures}$$ <!--SR:!2026-02-02,327,342!2025-07-07,157,322-->

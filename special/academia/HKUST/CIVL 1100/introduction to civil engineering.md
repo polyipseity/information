@@ -148,7 +148,7 @@ quantity surveyor
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2025-04-26,255,317-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
-- contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2025-04-20,152,275-->
+- contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2026-11-22,579,295-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
 - environmental consultant→::@::←quantity surveyor <!--SR:!2025-06-18,217,300!2026-04-23,456,280-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2027-06-02,873,360!2026-02-13,409,340-->
@@ -192,7 +192,7 @@ water and sewage treatment system
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
-- bridge→::@::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
+- bridge→::@::←building <!--SR:!2025-05-05,282,372!2028-12-06,1324,380-->
 - building→::@::←dam <!--SR:!2027-02-03,782,360!2026-03-05,544,400-->
 - dam→::@::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
@@ -279,7 +279,7 @@ workmanship
 
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
-- construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
+- construction management→::@::←economics <!--SR:!2025-09-15,333,255!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2025-04-26,191,260-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2025-05-10,261,320-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
@@ -454,7 +454,7 @@ testing materials
 
 - _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2029-03-01,1423,395-->
 - budgeting→::@::←contracting <!--SR:!2025-09-10,377,334!2026-03-06,483,327-->
-- contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2025-04-22,236,295-->
+- contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2027-12-14,966,315-->
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
 - logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
@@ -808,7 +808,7 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←sewage collection network <!--SR:!2025-05-20,182,321!2025-04-21,252,317-->
+- _(begin)_→::@::←sewage collection network <!--SR:!2025-05-20,182,321!2028-05-01,1105,337-->
 - sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
 - storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->

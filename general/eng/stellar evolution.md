@@ -53,19 +53,19 @@ After a star {@{has consumed the helium at the core}@}, {@{hydrogen and helium f
 
 - see: [post-AGB star](post-AGB%20star.md)
 
-These mid-range stars ultimately {@{reach the tip of the asymptotic-giant-branch and run out of fuel for shell burning}@}. They are {@{not sufficiently massive to start full-scale carbon fusion}@}, so they {@{contract again, going through a period of post-asymptotic-giant-branch superwind to produce a planetary nebula with an extremely hot central star}@}. The central star then {@{cools to a white dwarf}@}. <!--SR:!2025-04-20,184,288!2026-09-02,556,310!2025-09-05,237,250!2027-09-10,881,348-->
+These mid-range stars ultimately {@{reach the tip of the asymptotic-giant-branch and run out of fuel for shell burning}@}. They are {@{not sufficiently massive to start full-scale carbon fusion}@}, so they {@{contract again, going through a period of post-asymptotic-giant-branch superwind to produce a planetary nebula with an extremely hot central star}@}. The central star then {@{cools to a white dwarf}@}. <!--SR:!2027-04-27,737,308!2026-09-02,556,310!2025-09-05,237,250!2027-09-10,881,348-->
 
 ### massive stars
 
 - see: [supergiant](supergiant.md)
 
-In massive stars, the core is {@{already large enough at the onset of the hydrogen burning shell that helium ignition will occur before electron degeneracy pressure has a chance to become prevalent}@}. Thus, when {@{these stars expand and cool}@}, they {@{do not brighten as dramatically as lower-mass stars}@}; however, they were {@{more luminous on the main sequence and they evolve to highly luminous supergiants}@}. Their cores become {@{massive enough that they cannot support themselves by [electron degeneracy](electron%20degeneracy%20pressure.md) and will eventually collapse to produce a [neutron star](neutron%20star.md) or [black hole](black%20hole.md)}@}. <!--SR:!2026-10-15,577,328!2026-12-29,630,328!2026-12-08,640,308!2025-04-22,169,268!2026-02-26,392,270-->
+In massive stars, the core is {@{already large enough at the onset of the hydrogen burning shell that helium ignition will occur before electron degeneracy pressure has a chance to become prevalent}@}. Thus, when {@{these stars expand and cool}@}, they {@{do not brighten as dramatically as lower-mass stars}@}; however, they were {@{more luminous on the main sequence and they evolve to highly luminous supergiants}@}. Their cores become {@{massive enough that they cannot support themselves by [electron degeneracy](electron%20degeneracy%20pressure.md) and will eventually collapse to produce a [neutron star](neutron%20star.md) or [black hole](black%20hole.md)}@}. <!--SR:!2026-10-15,577,328!2026-12-29,630,328!2026-12-08,640,308!2027-01-16,634,288!2026-02-26,392,270-->
 
 #### supernova
 
 - see: [supernova](supernova.md)
 
-When {@{the core of a massive star collapses}@}, it will {@{form a [neutron star](neutron%20star.md), or in the case of cores that exceed the Tolman–Oppenheimer–Volkoff limit, a [black hole](black%20hole.md)}@}. Through {@{a process that is not completely understood}@}, some of the [gravitational potential energy](gravitational%20energy.md) {@{released by this core collapse is converted into a Type Ib, Type Ic, or Type II [supernova](supernova.md)}@}. It is known that the core collapse produces {@{a massive surge of [neutrinos](neutrino.md)}@}, as observed with supernova [SN 1987A](SN%201987A.md). <!--SR:!2026-06-29,530,328!2025-04-26,191,310!2025-05-14,218,328!2025-09-13,277,288!2025-04-22,196,310-->
+When {@{the core of a massive star collapses}@}, it will {@{form a [neutron star](neutron%20star.md), or in the case of cores that exceed the Tolman–Oppenheimer–Volkoff limit, a [black hole](black%20hole.md)}@}. Through {@{a process that is not completely understood}@}, some of the [gravitational potential energy](gravitational%20energy.md) {@{released by this core collapse is converted into a Type Ib, Type Ic, or Type II [supernova](supernova.md)}@}. It is known that the core collapse produces {@{a massive surge of [neutrinos](neutrino.md)}@}, as observed with supernova [SN 1987A](SN%201987A.md). <!--SR:!2026-06-29,530,328!2025-04-26,191,310!2025-05-14,218,328!2025-09-13,277,288!2027-08-17,847,330-->
 
 ## references
 

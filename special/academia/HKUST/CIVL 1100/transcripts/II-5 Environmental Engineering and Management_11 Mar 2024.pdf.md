@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-10-12,201,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2026-09-09,523,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-04-21,17,135-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-05-16,24,135-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-04-25,78,275!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -198,7 +198,7 @@ Sustainable Waste Management
 3Rs Concept
 
 - 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2027-07-12,859,330-->
-  - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2025-04-21,258,330-->
+  - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2028-07-09,1174,350-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2028-06-07,1147,350-->
     - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2027-05-11,776,330-->
@@ -226,7 +226,7 @@ Will this waste charging scheme waste generation?
 Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2028-03-25,1093,350!2027-06-27,849,330-->
-  - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2025-09-06,333,310!2025-04-21,256,330-->
+  - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2025-09-06,333,310!2028-06-28,1163,350-->
   - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2026-09-09,631,330-->
   - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2026-07-14,494,270!2026-03-07,435,290-->
   - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2027-03-06,719,290!2026-02-21,470,310-->
@@ -393,7 +393,7 @@ return await memorize_seq(
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-29,22,130-->
-- perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2026-07-31,505,270-->
+- perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2027-02-16,688,310-->
 
 <!--/pytextgen-->

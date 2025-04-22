@@ -102,7 +102,7 @@ The content is in teaching order.
 - jobs to be done theory history ::@:: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2025-10-03,344,295!2026-09-10,639,335-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
-    - filling in a customer profile ::@:: customer segmentation, then empathy map, then customer profile <!--SR:!2025-04-20,229,295!2025-05-24,294,355-->
+    - filling in a customer profile ::@:: customer segmentation, then empathy map, then customer profile <!--SR:!2027-11-21,943,315!2025-05-24,294,355-->
   - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
   - [§ fit](../../../value%20proposition%20canvas.md#fit)
 - [business model canvas](../../../business%20model%20canvas.md)

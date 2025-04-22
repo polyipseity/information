@@ -33,7 +33,7 @@ Subsequently, {@{the fitted model is used to predict samples}@} in a second data
 
 Finally, the __test data set__ is {@{a data set used to provide an unbiased evaluation of the _final_ model fit on the training data set}@}. <!--SR:!2026-05-05,511,310-->
 
-When the model is put into actual use, the data provided is called the {@{__new data set__}@} and {@{do not contain the actual values of attributes being predicted to compare against}@}. <!--SR:!2025-04-21,235,330!2025-04-20,221,290-->
+When the model is put into actual use, the data provided is called the {@{__new data set__}@} and {@{do not contain the actual values of attributes being predicted to compare against}@}. <!--SR:!2028-04-01,1075,350!2027-09-28,891,310-->
 
 ## references
 

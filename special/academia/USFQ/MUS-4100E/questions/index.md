@@ -41,7 +41,7 @@ tags:
 > 4. South America
 > 5. Manabi
 >
-> - solution: {@{3}@} <!--SR:!2025-04-21,64,310-->
+> - solution: {@{3}@} <!--SR:!2026-01-28,281,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -54,7 +54,7 @@ tags:
 > 3. sad notes
 > 4. critical notes played out-of-tune or "off-key"
 >
-> - solution: {@{4}@} <!--SR:!2025-04-19,63,310-->
+> - solution: {@{4}@} <!--SR:!2026-01-23,276,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -75,7 +75,7 @@ tags:
 >
 > What centuries were African Slaves taken to America?
 >
-> - solution: {@{17th to 19th century}@} <!--SR:!2025-04-20,63,310-->
+> - solution: {@{17th to 19th century}@} <!--SR:!2026-01-22,275,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -88,7 +88,7 @@ tags:
 > 3. Asian Traditions
 > 4. South American Traditions
 >
-> - solution: {@{1}@} <!--SR:!2025-04-22,65,310-->
+> - solution: {@{1}@} <!--SR:!2026-01-30,283,330-->
 
 ## Sydney Bechet
 
@@ -200,7 +200,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What made 1959 such an important year in jazz? What happened?
 >
-> - solution: {@{\(for reference\) Jazz is reaching white America. Several experimental jazz recordings, e.g. _The Shape of Jazz_ came out and became popular, shaping jazz for years to come.}@} <!--SR:!2025-04-19,4,315-->
+> - solution: {@{\(for reference\) Jazz is reaching white America. Several experimental jazz recordings, e.g. _The Shape of Jazz_ came out and became popular, shaping jazz for years to come.}@} <!--SR:!2025-05-10,18,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -208,7 +208,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > According to the documentary "1959" what is the name of the record that started experimenting with free jazz and started the free jazz movement?
 >
-> - solution: {@{_The Shape of Jazz to Come_}@} <!--SR:!2025-04-19,4,315-->
+> - solution: {@{_The Shape of Jazz to Come_}@} <!--SR:!2025-05-10,18,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -216,7 +216,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What is Fables of Faubus and why was it important?
 >
-> - solution: {@{\(for reference\) It was one of Charles Mingus' work. It had political messages about racial issues. Specifically, its lyrics opposed Arkansas governor Orval Faubus.}@} <!--SR:!2025-04-19,4,315-->
+> - solution: {@{\(for reference\) It was one of Charles Mingus' work. It had political messages about racial issues. Specifically, its lyrics opposed Arkansas governor Orval Faubus.}@} <!--SR:!2025-05-10,18,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -224,7 +224,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What contribution did the record "Time Out" have on future jazz generations?
 >
-> - solution: {@{\(for reference\) It was very expermental with time signature. It was very popular, and made jazz well-known.}@} <!--SR:!2025-04-19,4,315-->
+> - solution: {@{\(for reference\) It was very expermental with time signature. It was very popular, and made jazz well-known.}@} <!--SR:!2025-05-10,18,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -237,4 +237,4 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 > 3. modal jazz record
 > 4. electric jazz record
 >
-> - solution: {@{3}@} <!--SR:!2025-04-19,4,315-->
+> - solution: {@{3}@} <!--SR:!2025-05-10,18,335-->

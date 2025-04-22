@@ -61,7 +61,7 @@ __Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then
 
 ### _λ_\(_n_\) divides _φ_\(_n_\)
 
-This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2025-09-04,193,310!2026-01-08,297,341!2025-04-20,79,281!2025-08-01,151,301!2025-09-07,192,310!2025-05-05,95,290-->
+This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2025-09-04,193,310!2026-01-08,297,341!2026-02-17,303,301!2025-08-01,151,301!2025-09-07,192,310!2025-05-05,95,290-->
 
 We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Euler's%20theorem.md)}@}. <!--SR:!2025-10-23,233,330-->
 
@@ -89,7 +89,7 @@ If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the pri
 
 For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> $${\frac {1}{n} }\sum _{i\leq n}\lambda (i)={\frac {n}{\ln n} }e^{B(1+o(1))\ln \ln n/(\ln \ln \ln n)}$$ \(called {@{Erdős approximation}@} in the following\) with the constant $$B:=e^{-\gamma }\prod _{p\in \mathbb {P} }\left({1-{\frac {1}{(p-1)^{2}(p+1)} } }\right)\approx 0.34537$$ and {@{_γ_ ≈ 0.57721, the [Euler–Mascheroni constant](Euler's%20constant.md)}@}. <!--SR:!2025-06-02,72,281!2025-07-10,137,290!2026-03-04,321,301-->
 
-The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2025-04-22,82,281!2026-02-14,326,341-->
+The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2026-03-16,328,301!2026-02-14,326,341-->
 
 Additionally given is some overview over {@{the more easily accessible "logarithm over logarithm" values}@} {@{LoL\(_n_\) := ⁠ln _λ_\(_n_\)/ln _n_⁠}@} with <!--SR:!2025-09-16,203,321!2026-02-24,334,341-->
 

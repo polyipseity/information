@@ -78,17 +78,17 @@ The content is in teaching order.
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-09-03,160,310!2025-12-13,240,330-->
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-05-13,69,270!2025-10-07,181,310-->
   - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis <!--SR:!2025-12-03,230,330!2025-06-15,97,290-->
-  - operations management / generality and broadness ::@:: apply to many business settings <!--SR:!2025-04-19,57,310!2025-04-26,63,310-->
+  - operations management / generality and broadness ::@:: apply to many business settings <!--SR:!2025-12-22,247,330!2025-04-26,63,310-->
     - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty <!--SR:!2025-07-28,126,290!2025-10-15,189,310-->
   - operations management / modeling and abstraction ::@:: captures the key decision-making step and trade-off from a complex setting, and then apply the results back; simplifications are needed, which is convenient but can also bring limitation <!--SR:!2025-07-06,110,290!2025-07-23,121,290-->
-  - operations management / quantitative analysis ::@:: mathematical tools are needed; relatively easy now, difficult later; but understanding the problem/picture is more important <!--SR:!2025-10-06,182,310!2025-04-20,57,310-->
+  - operations management / quantitative analysis ::@:: mathematical tools are needed; relatively easy now, difficult later; but understanding the problem/picture is more important <!--SR:!2025-10-06,182,310!2025-12-17,241,330-->
   - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights <!--SR:!2025-05-01,67,310!2025-10-14,190,310-->
     - operations management / practical relevance / examples ::@:: allocation of ICU beds during the pandemic; fairness, equity, social responsibility, not just profit maximization <!--SR:!2025-10-14,186,310!2025-10-23,194,310-->
   - operations management / steps ::@:: description, optimization <!--SR:!2025-04-25,62,310!2025-12-18,244,330-->
   - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!2025-07-14,114,290!2025-10-04,180,310-->
   - operations management / optimization ::@:: identify the ways to improve the system performance (like engineering), e.g. how to order, how to allocate <!--SR:!2025-08-21,149,310!2025-10-04,179,310-->
   - operations management / decisions
-    - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain <!--SR:!2025-10-03,178,310!2025-04-20,58,310-->
+    - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain <!--SR:!2025-10-03,178,310!2025-12-31,255,330-->
   - operations management / concepts
     - operations management / concepts / examples ::@:: (chronological order) manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability <!--SR:!2025-06-21,92,270!2025-07-20,120,290-->
   - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touch-points with technology, enhancing performance using data <!--SR:!2025-07-17,117,290!2025-07-24,125,290-->
@@ -113,7 +113,7 @@ The content is in teaching order.
   - business process modeling / network model ::@:: It is a network of _activities_ (e.g. activity, _buffer_) performed by _resources_ (e.g. capital, labor, material) that transforms _inputs_ (e.g. materials, customers) into _outputs_ (e.g. goods, services). There can be more than one inputs. There can also be more than one output. <!--SR:!2025-08-21,141,318!2025-11-03,202,334-->
   - business process modeling / flow unit ::@:: It is what is tracked through a process, and defines the _outputs_ (not _inputs_) of interest. <!--SR:!2025-05-22,77,338!2025-05-03,59,318-->
 - [process flow diagram](../../../../general/process%20flow%20diagram.md) ::@:: A diagram that presents major elements of a process. <!--SR:!2025-05-21,77,335!2025-05-21,77,335-->
-  - process flow diagram / major elements ::@:: activities/operations, decision points, product flows, resources <!--SR:!2025-04-19,51,318!2025-07-13,102,298-->
+  - process flow diagram / major elements ::@:: activities/operations, decision points, product flows, resources <!--SR:!2025-11-26,221,338!2025-07-13,102,298-->
   - process flow diagram / activity, operation ::@:: represented by a square or rectangle <!--SR:!2025-05-26,82,338!2025-05-24,80,338-->
   - process flow diagram / buffer, queue, storage ::@:: represented by a triangle, that may or may not be upside-down <!--SR:!2025-05-03,59,318!2025-10-24,196,337-->
   - process flow diagram / flow of goods or materials ::@:: represented by an arrow <!--SR:!2025-05-25,81,338!2025-11-02,202,338-->

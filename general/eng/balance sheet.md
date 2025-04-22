@@ -64,7 +64,7 @@ If applicable to the business, summary values for the following items should be 
 
 ### assets
 
-Assets are {@{all the things the business owns}@}. This will include {@{property, tools, vehicles, furniture, machinery, and so on}@}. <!--SR:!2025-10-14,300,330!2025-04-20,160,310-->
+Assets are {@{all the things the business owns}@}. This will include {@{property, tools, vehicles, furniture, machinery, and so on}@}. <!--SR:!2025-10-14,300,330!2027-03-07,686,330-->
 
 #### current assets
 

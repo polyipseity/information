@@ -119,7 +119,7 @@ NPV is {@{an indicator for project investments}@}, and has {@{several advantages
 
 The NPV includes {@{all relevant time and cash flows for the project by considering the [time value of money](time%20value%20of%20money.md)}@}, which is {@{consistent with the goal of wealth maximization by creating the highest wealth for shareholders}@}. <!--SR:!2025-10-12,177,310!2025-05-31,81,339-->
 
-The NPV formula accounts for {@{[cash flow](cash%20flow.md) timing patterns and size differences for each project}@}, and provides {@{an easy, unambiguous dollar value comparison of different investment options}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-04-19,45,290!2025-06-02,83,345-->
+The NPV formula accounts for {@{[cash flow](cash%20flow.md) timing patterns and size differences for each project}@}, and provides {@{an easy, unambiguous dollar value comparison of different investment options}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-10-16,180,310!2025-06-02,83,345-->
 
 The NPV can be {@{easily calculated using modern spreadsheets}@}, under {@{the assumption that the discount rate and future cash flows are known}@}. For {@{a firm considering investing in multiple projects}@}, the NPV has {@{the benefit of being additive}@}. That is, {@{the NPVs of different projects}@} may be {@{aggregated to calculate the highest wealth creation}@}, based on {@{the available capital that can be invested by a firm}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-05-22,73,329!2025-05-24,75,329!2025-05-27,78,345!2025-06-02,83,345!2025-05-27,78,345!2025-05-26,77,339!2025-05-23,74,329-->
 
@@ -217,7 +217,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Net%20present%20value) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(June 2023\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-- [Adjusted present value](adjusted%20present%20value.md) \(APV\): adjusted present value, ::@:: is the net present value of a project if financed solely by ownership equity plus the present value of all the benefits of financing. <!--SR:!2025-04-29,43,250!2025-04-20,46,309-->
+- [Adjusted present value](adjusted%20present%20value.md) \(APV\): adjusted present value, ::@:: is the net present value of a project if financed solely by ownership equity plus the present value of all the benefits of financing. <!--SR:!2025-04-29,43,250!2025-11-03,197,329-->
 - [Accounting rate of return](accounting%20rate%20of%20return.md) \(ARR\): ::@:: a ratio similar to IRR and MIRR <!--SR:!2025-05-23,75,345!2025-06-02,83,345-->
 - [Cost-benefit analysis](cost-benefit%20analysis.md): ::@:: which includes issues other than cash, such as time savings. <!--SR:!2025-05-17,69,329!2025-05-27,78,345-->
 - [Internal rate of return](internal%20rate%20of%20return.md) \(IRR\): ::@:: which calculates the rate of return of a project while disregarding the absolute amount of money to be gained. <!--SR:!2025-05-22,74,345!2025-06-02,83,345-->
@@ -230,7 +230,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 
 - This paragraph is an excerpt from [Adjusted present value](adjusted%20present%20value.md). \[[edit](https://en.wikipedia.org/w/index.php?title=Adjusted_present_value&action=edit)\]
 
-{@{[Adjusted present value](adjusted%20present%20value.md) \(APV\)}@} is {@{a [valuation method](valuation%20(finance).md) introduced in 1974 by [Stewart Myers](Stewart%20Myers.md)}@}.<sup>[\[25\]](#^ref-25)</sup> The idea is to {@{value the project as if it were all [equity financed](corporate%20finance.md#equity%20capital) \("unleveraged"\)}@}, and to then {@{add the [present value](present%20value.md) of the [tax shield](tax%20shield.md) of [debt](corporate%20finance.md#debt%20capital) – and other side effects}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2025-04-30,54,310!2025-05-01,57,325!2025-05-29,79,339!2025-04-20,46,309-->
+{@{[Adjusted present value](adjusted%20present%20value.md) \(APV\)}@} is {@{a [valuation method](valuation%20(finance).md) introduced in 1974 by [Stewart Myers](Stewart%20Myers.md)}@}.<sup>[\[25\]](#^ref-25)</sup> The idea is to {@{value the project as if it were all [equity financed](corporate%20finance.md#equity%20capital) \("unleveraged"\)}@}, and to then {@{add the [present value](present%20value.md) of the [tax shield](tax%20shield.md) of [debt](corporate%20finance.md#debt%20capital) – and other side effects}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2025-04-30,54,310!2025-05-01,57,325!2025-05-29,79,339!2025-09-11,144,309-->
 
 ### accounting rate of return
 

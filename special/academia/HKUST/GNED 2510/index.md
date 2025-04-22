@@ -42,7 +42,7 @@ The content is in teaching order.
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2025-08-03,241,330!2025-08-15,251,330-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2025-09-03,267,330!2025-06-22,209,330-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2025-08-13,251,330-->
-- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
+- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2027-02-11,663,330-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2025-06-03,182,310!2025-10-22,301,330-->
 
@@ -103,7 +103,7 @@ The content is in teaching order.
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2025-08-27,263,330-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2025-10-22,301,330-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2025-09-12,273,330!2025-04-28,162,310-->
-  - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2025-06-02,181,310-->
+  - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2025-06-02,181,310-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2025-07-31,240,330-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2025-07-29,216,310!2025-08-29,262,330-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
@@ -153,7 +153,7 @@ The content is in teaching order.
   - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2025-08-30,263,330!2025-05-26,189,310-->
 - self-introduction
 - interview questions
-- Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2025-04-22,157,310!2025-10-23,302,330-->
+- Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2027-03-02,679,330!2025-10-23,302,330-->
 - assignment 2: video interview recording
   - due: 2023-11-08 → 2023-11-15
 

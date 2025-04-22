@@ -109,14 +109,14 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-05-03T17:30:19.548044+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2025-08-30,161,209!2025-04-22,289,349-->
+- _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2025-08-30,161,209!2029-02-09,1389,369-->
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains <!--SR:!2025-07-31,287,249!2026-03-17,440,269-->
 - insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2025-05-13,182,189!2025-06-05,52,130-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-07-17,195,249-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-09-12,223,225!2025-05-29,247,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2025-05-21,119,189-->
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-10-05,201,169!2026-03-27,353,229-->
-- vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2025-04-19,242,289-->
+- vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2027-03-27,704,289-->
 
 <!--/pytextgen-->
 

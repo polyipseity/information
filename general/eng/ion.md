@@ -433,7 +433,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="8c7820"--><!-- The following content is generated at 2024-01-04T20:17:51.950669+08:00. Any edits will be overridden! -->
 
 - hydride ion:@:1- <!--SR:!2027-09-22,1543,319-->
-- fluoride ion:@:1- <!--SR:!2025-04-20,869,292-->
+- fluoride ion:@:1- <!--SR:!2034-12-14,3525,312-->
 - chloride ion:@:1- <!--SR:!2028-03-14,1789,374-->
 - bromide ion:@:1- <!--SR:!2031-10-17,2411,293-->
 - iodide ion:@:1- <!--SR:!2027-03-29,1317,279-->

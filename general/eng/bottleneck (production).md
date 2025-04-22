@@ -37,7 +37,7 @@ When {@{input comes in faster than the speed of the process}@}, {@{accumulation 
 
 ### throughput
 
-Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-04-19,44,290!2025-05-09,60,310!2025-05-16,66,310!2025-05-14,64,310!2025-05-08,59,310-->
+Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-12,176,310!2025-05-09,60,310!2025-05-16,66,310!2025-05-14,64,310!2025-05-08,59,310-->
 
 ### full capacity
 
@@ -89,7 +89,7 @@ In {@{removing all non-value activities}@}, you reduce {@{the amount of redundan
 
 ### provide a constant buffer stock upstream
 
-In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible and hence should never have to wait for materials or stock}@}, to increase productivity. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-05-12,63,310!2025-04-21,42,290!2025-05-13,63,310!2025-05-14,64,310!2025-05-03,55,310!2025-05-14,64,310!2025-05-02,54,310-->
+In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible and hence should never have to wait for materials or stock}@}, to increase productivity. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-05-12,63,310!2025-10-04,166,310!2025-05-13,63,310!2025-05-14,64,310!2025-05-03,55,310!2025-05-14,64,310!2025-05-02,54,310-->
 
 ## preventing bottlenecks
 

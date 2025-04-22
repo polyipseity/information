@@ -47,7 +47,7 @@ A similar argument can be used by considering {@{[arrow securities](state%20pric
 
 ### prerequisite
 
-\(annotation: prerequisites: 3 items: {@{absence of trade frictions, free competition, price flexibility}@}\) <!--SR:!2025-04-20,45,290-->
+\(annotation: prerequisites: 3 items: {@{absence of trade frictions, free competition, price flexibility}@}\) <!--SR:!2025-10-21,184,310-->
 
 - absence of trade frictions
 - free competition

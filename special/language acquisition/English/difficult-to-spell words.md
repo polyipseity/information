@@ -56,7 +56,7 @@ English
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::@:: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2026-09-27,594,328-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::@:: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2028-03-17,1115,344!2026-02-28,513,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::@:: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2029-06-09,1557,364!2025-10-13,440,304-->
-- [occupation](https://en.wiktionary.org/wiki/occupation) ::@:: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2025-04-22,351,392-->
+- [occupation](https://en.wiktionary.org/wiki/occupation) ::@:: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2030-06-15,1880,412-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::@:: (o\_e) An event or happening. <!--SR:!2027-04-06,949,430!2029-01-14,1443,390-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::@:: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2025-07-30,456,378!2025-06-01,137,338-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::@:: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2027-12-07,1035,352!2025-07-01,434,372-->
