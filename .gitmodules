@@ -1,6 +1,6 @@
 [submodule "CTF"]
 	path = self/capture the flag
-	url = ../ctf.git
+	url = ../capture-the-flag.git
 	branch = main
 [submodule "arts"]
 	path = self/arts
