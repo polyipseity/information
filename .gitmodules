@@ -1,5 +1,5 @@
 [submodule "CTF"]
-	path = self/CTF
+	path = self/capture the flag
 	url = ../ctf.git
 	branch = main
 [submodule "arts"]
