@@ -78,7 +78,7 @@ There are {@{many different incompatible calling conventions in use}@}. For x86,
 
 ### System V AMD64 ABI
 
-The complete calling convention {@{would be too much to discuss here, so we will only discuss a (rather small) part of it}@}. Some parts of the process may {@{be optimized away by the compiler}@}. To avoid this, {@{pass `-O0` (for GCC) to disable optimization}@}. <!--SR:!2025-04-23,158,310!2025-09-19,280,330!2025-05-17,177,310-->
+The complete calling convention {@{would be too much to discuss here, so we will only discuss a (rather small) part of it}@}. Some parts of the process may {@{be optimized away by the compiler}@}. To avoid this, {@{pass `-O0` (for GCC) to disable optimization}@}. <!--SR:!2027-02-28,676,330!2025-09-19,280,330!2025-05-17,177,310-->
 
 A stack/function frame is {@{a portion of the stack that belongs to one function only}@}. Each time {@{one calls a function}@}, {@{a stack/function frame is added on top of the old one}@}. Each time {@{one returns from a function}@}, {@{the current stack/function frame is cleared and the old (the frame for the callee) is restored}@}. `rsp` and `rbp` then refers to {@{respectively the top and the bottom of the topmost stack/function frame (so the current function frame is in between `rsp` and `rbp`)}@}. <!--SR:!2025-10-07,294,330!2025-04-25,160,310!2025-07-10,222,330!2025-10-08,295,330!2025-10-14,294,330!2025-05-29,185,310-->
 

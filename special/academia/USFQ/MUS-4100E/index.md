@@ -170,7 +170,7 @@ The content is in teaching order.
   - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00
 - [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2026-01-06,267,355!2025-04-24,63,335-->
   - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2026-01-09,270,355!2025-06-11,98,315-->
-  - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2026-01-12,272,355!2025-04-23,62,335-->
+  - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2026-01-12,272,355!2026-02-10,293,355-->
 - [jazz](../../../../general/jazz.md)
   - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2026-01-02,260,355-->
 - [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2025-05-21,76,295!2026-01-11,272,355-->
@@ -203,7 +203,7 @@ The content is in teaching order.
 - [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2026-01-17,277,355!2026-01-17,274,355-->
   - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2025-04-24,63,335!2025-09-23,179,335-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2026-01-09,270,355!2025-06-23,102,315-->
-  - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2025-04-23,62,335!2025-09-16,173,335-->
+  - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2026-02-09,292,355!2025-09-16,173,335-->
   - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2025-06-10,97,315!2025-08-05,144,335-->
 - [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2026-01-08,269,355!2025-09-23,179,335-->
 - [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2026-02-05,289,355!2026-01-11,269,355-->

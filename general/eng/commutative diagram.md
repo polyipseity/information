@@ -16,7 +16,7 @@ tags:
 >
 > {@{The commutative diagram used in the proof of the [five lemma](five%20lemma.md)}@} <!--SR:!2025-04-30,67,310!2025-04-30,67,310-->
 
-In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-09,262,330!2025-04-23,61,310!2025-12-21,247,330!2025-04-27,64,310!2025-12-24,250,330-->
+In {@{[mathematics](mathematics.md), and especially in [category theory](category%20theory.md)}@}, {@{a __commutative diagram__}@} is {@{a [diagram](diagram%20(category%20theory).md) such that all directed paths in the diagram with the same start and endpoints lead to the same result}@}.<sup>[\[1\]](#^ref-1)</sup> It is said that {@{commutative diagrams play the role in category theory}@} that {@{[equations](equations.md) play in [algebra](algebra.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-09,262,330!2026-01-14,266,330!2025-12-21,247,330!2025-04-27,64,310!2025-12-24,250,330-->
 
 ## description
 
@@ -33,7 +33,7 @@ In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with differ
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-08-09,127,290!2025-10-08,186,310-->
 - An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-10-21,183,310!2025-04-26,52,250-->
 - An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2025-04-30,67,310!2025-04-27,64,310-->
-- The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-10-17,189,310!2025-04-23,60,310-->
+- The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-10-17,189,310!2026-01-10,262,330-->
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-09-22,171,310!2025-04-29,66,310-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-04-28,65,310!2025-08-20,148,310-->
 
@@ -49,7 +49,7 @@ Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of di
 
 ### example 1
 
-In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2025-04-23,61,310!2025-04-24,62,310!2025-10-06,181,310!2025-04-30,67,310!2025-04-29,66,310-->
+In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2026-01-16,268,330!2025-04-24,62,310!2025-10-06,181,310!2025-04-30,67,310!2025-04-29,66,310-->
 
 |                                                                                                                                                                                                                           |                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -63,11 +63,11 @@ In order for {@{the diagram below to commute}@}, {@{three equalities must be sat
 2. $m\circ g=G\circ l$
 3. $r\circ h=H\circ m$
 
-Here, since {@{the first equality follows from the last two}@}, it {@{suffices to show that \(2\) and \(3\) are true in order for the diagram to commute}@}. However, since {@{equality \(3\) generally does not follow from the other two}@}, it is {@{generally not enough to have only equalities \(1\) and \(2\) if one were to show that the diagram commutes}@}. <p> (annotation: the diagram) {@{![An example of a commutative diagram.](../../archives/Wikimedia%20Commons/CommutativeDiagramExample.svg)}@} <!--SR:!2025-04-30,67,310!2025-04-23,61,310!2025-04-25,63,310!2025-12-29,254,330!2025-04-29,66,310-->
+Here, since {@{the first equality follows from the last two}@}, it {@{suffices to show that \(2\) and \(3\) are true in order for the diagram to commute}@}. However, since {@{equality \(3\) generally does not follow from the other two}@}, it is {@{generally not enough to have only equalities \(1\) and \(2\) if one were to show that the diagram commutes}@}. <p> (annotation: the diagram) {@{![An example of a commutative diagram.](../../archives/Wikimedia%20Commons/CommutativeDiagramExample.svg)}@} <!--SR:!2025-04-30,67,310!2026-01-15,267,330!2025-04-25,63,310!2025-12-29,254,330!2025-04-29,66,310-->
 
 ## diagram chasing
 
-{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2026-01-07,260,330!2025-12-19,246,330!2025-12-05,234,330!2025-10-19,192,310!2025-10-21,193,310!2026-01-05,259,330!2025-04-23,61,310!2025-12-27,252,330!2025-12-15,242,330-->
+{@{__Diagram chasing__ \(also called __diagrammatic search__\)}@} is {@{a method of [mathematical proof](mathematical%20proof.md) used especially in [homological algebra](homological%20algebra.md)}@}, where {@{one establishes a property of some morphism by tracing the elements of a commutative diagram}@}. A proof by diagram chasing typically involves {@{the formal use of the properties of the diagram}@}, such as {@{[injective](injective.md) or [surjective](surjective.md) maps, or [exact sequences](exact%20sequence.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{A [syllogism](syllogism.md) is constructed}@}, for which the graphical display of {@{the diagram is just a visual aid}@}. It follows that {@{one ends up "chasing" elements around the diagram}@}, until {@{the desired element or result is constructed or verified}@}. <!--SR:!2026-01-07,260,330!2025-12-19,246,330!2025-12-05,234,330!2025-10-19,192,310!2025-10-21,193,310!2026-01-05,259,330!2026-01-12,264,330!2025-12-27,252,330!2025-12-15,242,330-->
 
 {@{Examples of proofs by diagram chasing}@} include those typically given for {@{the [five lemma](five%20lemma.md), the [snake lemma](snake%20lemma.md), the [zig-zag lemma](zig-zag%20lemma.md), and the [nine lemma](nine%20lemma.md)}@}. <!--SR:!2025-04-30,67,310!2025-12-10,237,330-->
 
@@ -93,7 +93,7 @@ More formally, a commutative diagram is {@{a visualization of a diagram indexed 
 
 Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2025-04-25,63,310!2025-10-18,191,310-->
 
-- the objects ::@:: are the nodes, <!--SR:!2025-04-23,60,310!2026-01-04,258,330-->
+- the objects ::@:: are the nodes, <!--SR:!2026-01-09,261,330!2026-01-04,258,330-->
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-12-23,249,330!2025-04-24,62,310-->
 - with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\). <!--SR:!2025-08-19,148,310!2025-04-30,67,310-->
 

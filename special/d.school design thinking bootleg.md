@@ -118,7 +118,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2027-03-03,750,290!2028-10-31,1300,350-->
 - (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2026-03-13,502,310-->
-- (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2025-04-23,77,230-->
+- (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2025-10-14,174,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2027-11-01,937,330-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-06-23,88,130!2026-02-18,349,210-->
 - (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-05-14,30,130!2025-05-16,76,170-->

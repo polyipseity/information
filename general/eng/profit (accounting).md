@@ -23,7 +23,7 @@ tags:
 
 {@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}. <!--SR:!2026-01-31,284,330!2025-04-24,67,310!2025-12-18,249,330!2025-06-16,101,290!2026-01-31,284,330-->
 
-{@{Income formation in market production}@} is always {@{a balance between income generation and [income distribution](income%20distribution.md)}@}. The income generated is always {@{distributed to the [stakeholders](stakeholder%20(corporate).md) of production as [economic value](economic%20value.md) within the review period}@}. The profit is {@{the share of income formation the owner is able to keep to themselves in the income distribution process}@}. Profit is {@{one of the major sources of [economic](economics.md) [well-being](well-being.md)}@} because {@{it means incomes and opportunities to develop production}@}. The words {@{"income", "profit" and "earnings"}@} are {@{synonyms in this context}@}. <!--SR:!2026-01-21,276,330!2025-04-23,66,310!2025-12-20,251,330!2026-01-12,269,330!2025-12-13,246,330!2025-12-19,250,330!2026-01-27,281,330!2025-12-30,257,330-->
+{@{Income formation in market production}@} is always {@{a balance between income generation and [income distribution](income%20distribution.md)}@}. The income generated is always {@{distributed to the [stakeholders](stakeholder%20(corporate).md) of production as [economic value](economic%20value.md) within the review period}@}. The profit is {@{the share of income formation the owner is able to keep to themselves in the income distribution process}@}. Profit is {@{one of the major sources of [economic](economics.md) [well-being](well-being.md)}@} because {@{it means incomes and opportunities to develop production}@}. The words {@{"income", "profit" and "earnings"}@} are {@{synonyms in this context}@}. <!--SR:!2026-01-21,276,330!2026-02-04,287,330!2025-12-20,251,330!2026-01-12,269,330!2025-12-13,246,330!2025-12-19,250,330!2026-01-27,281,330!2025-12-30,257,330-->
 
 ## other terms
 
@@ -31,7 +31,7 @@ tags:
 
 [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2026-01-10,268,330!2026-01-19,275,330-->
 
-[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-12-27,256,330!2025-04-23,66,310-->
+[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-12-27,256,330!2026-02-05,288,330-->
 
 [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-12-18,250,330!2025-12-17,249,330-->
 

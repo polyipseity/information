@@ -30,7 +30,7 @@ The content is in teaching order.
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2025-05-20,310,380-->
-  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2027-09-20,994,350-->
+  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->
     - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2028-04-12,1124,365-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
   - [civil engineering examples](#civil%20engineering%20examples)

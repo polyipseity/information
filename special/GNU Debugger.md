@@ -54,7 +54,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 - `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2025-06-26,229,330!2025-04-28,173,310-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2026-01-03,366,365!2025-11-06,297,345-->
-- `down` ::@:: move down the backtrace or call stack <!--SR:!2025-04-23,164,310!2025-07-23,249,330-->
+- `down` ::@:: move down the backtrace or call stack <!--SR:!2027-03-26,702,330!2025-07-23,249,330-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2025-05-03,173,310!2025-05-12,185,310-->
 
 #### `pwndbg` heap

@@ -212,7 +212,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 ## MOSE
 
 - image ::@:: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2025-05-09,274,360!2026-03-08,545,400-->
-- type ::@:: mobile gates <!--SR:!2025-10-01,380,337!2025-04-23,290,367-->
+- type ::@:: mobile gates <!--SR:!2025-10-01,380,337!2029-04-21,1459,387-->
 
 ## Millau Viaduct
 

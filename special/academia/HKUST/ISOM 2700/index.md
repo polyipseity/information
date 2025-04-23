@@ -92,7 +92,7 @@ The content is in teaching order.
   - operations management / concepts
     - operations management / concepts / examples ::@:: (chronological order) manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability <!--SR:!2025-06-21,92,270!2025-07-20,120,290-->
   - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touch-points with technology, enhancing performance using data <!--SR:!2025-07-17,117,290!2025-07-24,125,290-->
-  - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2025-04-23,60,310!2025-04-28,64,310-->
+  - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2026-01-11,263,330!2025-04-28,64,310-->
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2025-08-06,126,290!2025-10-08,181,310-->
     - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-07-19,119,290!2025-06-24,103,290-->
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-06-07,90,290!2025-11-30,227,330-->

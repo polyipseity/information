@@ -40,7 +40,7 @@ To produce [amines](amine.md), haloalkanes can {@{react with [ammonia](ammonia.m
 
 #### hydrolysis
 
-In [hydrolysis](hydrolysis.md), primary haloalkanes react with {@{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}@}. <!--SR:!2025-04-23,334,232-->
+In [hydrolysis](hydrolysis.md), primary haloalkanes react with {@{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}@}. <!--SR:!2027-06-07,775,232-->
 
 ### reactions
 

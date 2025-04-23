@@ -130,7 +130,7 @@ Finally, in {@{any of these contexts}@} these identities may be {@{extended to [
 - [Inner product space](inner%20product%20space.md) ::@:: – Generalization of the dot product; used to define Hilbert spaces <!--SR:!2025-05-03,57,310!2025-05-12,64,310-->
 - [Law of cosines](law%20of%20cosines.md) ::@:: – Property of all triangles on a Euclidean plane <!--SR:!2025-05-08,61,310!2025-05-01,55,310-->
 - [Mazur–Ulam theorem](Mazur–Ulam%20theorem.md) ::@:: – Surjective isometries are affine mappings <!--SR:!2025-08-11,126,290!2025-05-01,55,310-->
-- [Minkowski distance](Minkowski%20distance.md) ::@:: – Mathematical metric in normed vector space <!--SR:!2025-05-07,60,310!2025-04-23,45,290-->
+- [Minkowski distance](Minkowski%20distance.md) ::@:: – Mathematical metric in normed vector space <!--SR:!2025-05-07,60,310!2025-10-19,179,310-->
 - [Parallelogram law](parallelogram%20law.md) ::@:: – Sum of the squares of all 4 sides of a parallelogram equals that of the 2 diagonals <!--SR:!2025-05-04,58,310!2025-08-06,121,290-->
 - [Ptolemy's inequality](Ptolemy's%20inequality.md) ::@:: – inequality relating the six distances between four points on a plane <!--SR:!2025-05-03,57,310!2025-09-24,163,310-->
 
