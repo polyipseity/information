@@ -973,7 +973,7 @@ ID: 23456789
     - kernel / edge handling / extend/replicate ::@:: Extend the values on the four edges of an image infinitely far away.
     - kernel / edge handling / ignore (no padding) ::@:: Simply do not compute the convolution if it requires reading a pixel off the image. In this case, the resulting convolution is smaller than the input image.
     - kernel / edge handling / reflect ::@:: Reflect the values across edges of an image. It is slightly different from _mirror_. <p> For example: `...1234554321|12345|5432112345...`. Notice that the mirrors are lines (thin mirror) and is placed on the edges.
-    - kernel / edge handling / mirror ::@:: Reflect the values across edge pixels of an image. It is slightly different from _reflect_. <p> For example: `...12345432|12345|43212345...`. Notice that the mirrors are pixels (thick mirror) and is placed on the edge pixels.
+    - kernel / edge handling / mirror ::@:: Reflect the values across edge pixels of an image. It is slightly different from _reflect_. <p> For example: `...3212345432|12345|4321234543...`. Notice that the mirrors are pixels (thick mirror) and is placed on the edge pixels.
   - [convolution](../../../../general/convolution.md)
 
 ## week 11 lab
