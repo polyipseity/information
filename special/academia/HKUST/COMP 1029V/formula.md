@@ -336,7 +336,7 @@ return _chain.from_iterable(await _gather(
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2026-07-24,575,270-->
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2028-03-02,1160,350!2027-11-18,1078,350-->
 - `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2026-01-20,362,210!2028-04-21,1095,290-->
-- `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2025-08-22,358,270-->
+- `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2027-12-23,972,270!2025-08-22,358,270-->
 - `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2028-12-21,1387,350!2026-01-20,504,290-->
 - `SUM(numbers...)`→::@::←_(end)_ <!--SR:!2027-12-16,1023,310!2026-02-05,476,270-->
 

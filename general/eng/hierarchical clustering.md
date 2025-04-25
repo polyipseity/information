@@ -21,7 +21,7 @@ The merges and splits are {@{usually [greedy](greedy%20algorithm.md)}@}. The res
 
 ## cluster linkage
 
-To determine the distance between two observations, {@{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}@} is needed. To decide how to merge or split clusters, {@{a measure of _dissimilarity_ between clusters}@} is required. The metric is {@{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}@}. <!--SR:!2025-04-25,291,335!2026-09-12,675,335!2025-08-01,324,295-->
+To determine the distance between two observations, {@{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}@} is needed. To decide how to merge or split clusters, {@{a measure of _dissimilarity_ between clusters}@} is required. The metric is {@{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}@}. <!--SR:!2028-12-28,1343,355!2026-09-12,675,335!2025-08-01,324,295-->
 
 Both the choice of the metric and the linkage criterion {@{affects the clustering results significantly}@}. The metric affects {@{which observations are similar}@} more, while the linkage affects {@{the cluster shapes}@} more. <!--SR:!2026-05-16,564,315!2026-03-02,515,315!2025-06-01,321,335-->
 
@@ -89,7 +89,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="e892"--><!-- The following content is generated at 2024-04-12T02:13:02.070775+08:00. Any edits will be overridden! -->
 
-- [Ward's method](Ward's%20method.md):@:MISSQ, minimum increase of sum of squares <!--SR:!2025-04-24,225,255-->
+- [Ward's method](Ward's%20method.md):@:MISSQ, minimum increase of sum of squares <!--SR:!2027-07-07,804,275-->
 - centroid linkage clustering:@:UPGMC, unweighted centroid clustering <!--SR:!2026-03-10,465,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md):@:maximum linkage clustering <!--SR:!2026-12-10,744,335-->
 - median linkage clustering:@:WPGMC, weighted centroid clustering <!--SR:!2025-07-21,279,255-->

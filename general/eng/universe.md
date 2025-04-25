@@ -10,7 +10,7 @@ tags:
 
 # universe
 
-The __universe__ is {@{all of [space](space.md) and [time](time.md) and their contents}@}. <!--SR:!2025-04-25,231,330-->
+The __universe__ is {@{all of [space](space.md) and [time](time.md) and their contents}@}. <!--SR:!2028-03-07,1047,350-->
 
 ## composition
 

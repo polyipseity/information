@@ -33,7 +33,7 @@ The algorithm performs {@{a series of iterations}@}, consisting of {@{2 main ste
 
 There are {@{2 variants of the algorithm}@}: {@{async iteration and sync iteration}@}, with the former being more common. Both variants with other steps are described below: <!--SR:!2025-05-23,262,334!2025-06-05,273,334-->
 
-1. __initialization__ ::@:: Start with each node having an authority value and hub value of 1. Optionally, normalize the values like in step 4 for convergence. <!--SR:!2027-04-28,753,334!2025-04-25,241,334-->
+1. __initialization__ ::@:: Start with each node having an authority value and hub value of 1. Optionally, normalize the values like in step 4 for convergence. <!--SR:!2027-04-28,753,334!2028-05-08,1109,354-->
 2. __authority update__ ::@:: Run the authority update rule. <!--SR:!2025-06-03,274,334!2027-03-02,746,334-->
 3. __hub update__ ::@:: Run the hub update rule. For async iteration, the authority values are taken from step 2. For sync iteration, the authority values are taken from _before_ step 2. <!--SR:!2025-04-29,243,334!2025-04-26,240,334-->
 4. __normalization__ ::@:: Optionally, normalize the values for convergence. Treat the authority values and hub values of all nodes as 2 vectors. Normalize their lengths ([norms](norm%20(mathematics).md)) to either 1 or the number of nodes. One could use the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1), the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2), or the very general [_p_-norm](norm%20(mathematics).md#_p_-norm). <!--SR:!2025-08-07,313,314!2028-01-24,1026,354-->

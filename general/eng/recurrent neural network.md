@@ -27,7 +27,7 @@ An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition
 
 [Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2026-04-06,479,310!2025-06-13,86,250-->
 
-Elman and Jordan networks are also known as {@{"simple recurrent networks" (SRN)}@}. The disadvantages are that {@{the networks are likely too simple, and they might take a long time to converge}@}. <!--SR:!2025-04-25,239,330!2026-03-24,432,290-->
+Elman and Jordan networks are also known as {@{"simple recurrent networks" (SRN)}@}. The disadvantages are that {@{the networks are likely too simple, and they might take a long time to converge}@}. <!--SR:!2028-04-16,1087,350!2026-03-24,432,290-->
 
 ### long short-term memory
 

@@ -25,7 +25,7 @@ The rule of sum is {@{an intuitive principle}@} stating that if {@{there are _a_
 
 - see: [rule of product](rule%20of%20product.md)
 
-The rule of product is {@{another intuitive principle}@} stating that if {@{there are _a_ ways to do something and _b_ ways to do another thing}@}, then {@{there are _a_ · _b_ ways to do both things}@}. <!--SR:!2025-04-24,143,310!2025-08-13,216,310!2025-11-21,312,330-->
+The rule of product is {@{another intuitive principle}@} stating that if {@{there are _a_ ways to do something and _b_ ways to do another thing}@}, then {@{there are _a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2025-08-13,216,310!2025-11-21,312,330-->
 
 ## inclusion–exclusion principle
 

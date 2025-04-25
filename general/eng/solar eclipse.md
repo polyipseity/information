@@ -36,7 +36,7 @@ A total eclipse occurs on average {@{every 18 months}@} when {@{the dark silhoue
 
 ### annular eclipse
 
-An annular eclipse, like a total eclipse, occurs when {@{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}@}. During an annular eclipse, however, {@{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}@}. Totality thus {@{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}@}. Annular eclipses occur {@{once every one or two years, not annually}@}. Their name comes from {@{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}@}. <!--SR:!2026-08-26,592,330!2025-05-03,231,330!2025-04-24,222,330!2026-12-24,687,330!2025-06-13,229,290-->
+An annular eclipse, like a total eclipse, occurs when {@{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}@}. During an annular eclipse, however, {@{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}@}. Totality thus {@{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}@}. Annular eclipses occur {@{once every one or two years, not annually}@}. Their name comes from {@{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}@}. <!--SR:!2026-08-26,592,330!2025-05-03,231,330!2028-01-28,1009,350!2026-12-24,687,330!2025-06-13,229,290-->
 
 ### partial eclipse
 

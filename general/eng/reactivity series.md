@@ -138,7 +138,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-04-28,49,190-->
 - [magnesium](magnesium.md)→::@::←[beryllium](beryllium.md) <!--SR:!2026-03-25,358,270!2027-04-07,988,290-->
 - [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-05-13,36,170-->
-- [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2025-04-25,129,210-->
+- [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2026-01-27,277,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2026-10-22,560,210-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-07-08,115,190!2025-05-06,383,230-->
@@ -203,7 +203,7 @@ return _chain.from_iterable(await _gather(
 - K<sup>+</sup>:@:[potassium](potassium.md) <!--SR:!2025-05-11,352,367-->
 - Na<sup>+</sup>:@:[sodium](sodium.md) <!--SR:!2025-07-24,411,365-->
 - Li<sup>+</sup>:@:[lithium](lithium.md) <!--SR:!2029-11-19,1675,387-->
-- Ba<sup>2+</sup>:@:[barium](barium.md) <!--SR:!2025-04-24,338,367-->
+- Ba<sup>2+</sup>:@:[barium](barium.md) <!--SR:!2029-12-19,1700,387-->
 - Sr<sup>2+</sup>:@:[strontium](strontium.md) <!--SR:!2029-05-05,1517,385-->
 - Ca<sup>2+</sup>:@:[calcium](calcium.md) <!--SR:!2025-06-24,388,365-->
 - Mg<sup>2+</sup>:@:[magnesium](magnesium.md) <!--SR:!2029-12-04,1687,385-->

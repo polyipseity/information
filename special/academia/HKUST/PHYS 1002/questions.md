@@ -288,7 +288,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. blue in color
 >
 > - solution: {@{2}@}
-> - explanation: {@{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}@} <!--SR:!2025-11-09,354,328!2025-04-24,212,348-->
+> - explanation: {@{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}@} <!--SR:!2025-11-09,354,328!2028-02-09,1021,368-->
 
 <!-- markdownlint MD028 -->
 

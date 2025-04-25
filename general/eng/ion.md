@@ -474,7 +474,7 @@ return chain.from_iterable(await gather(
 - hydrogensulfate ion:@:colorless <!--SR:!2027-11-01,1341,270-->
 - permanganate ion:@:<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2026-01-28,496,230-->
 - oxide ion:@:_(n/a)_ <!--SR:!2029-04-28,1684,296-->
-- sulfide ion:@:_(n/a)_ <!--SR:!2025-04-24,452,256-->
+- sulfide ion:@:_(n/a)_ <!--SR:!2029-10-02,1622,276-->
 - sulfate ion:@:colorless <!--SR:!2026-08-20,1076,274-->
 - sulfite ion:@:colorless <!--SR:!2025-12-21,758,294-->
 - carbonate ion:@:colorless <!--SR:!2030-08-15,2089,272-->

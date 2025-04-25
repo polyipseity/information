@@ -543,4 +543,4 @@ The content is in teaching order.
   - types: 100% short or long questions, 0% multiple choice questions
   - report
     - Time is much more lenient.
-      - handle final examination time limit ::@:: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2025-04-27,138,422!2025-04-25,136,422-->
+      - handle final examination time limit ::@:: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2025-04-27,138,422!2027-06-15,781,442-->

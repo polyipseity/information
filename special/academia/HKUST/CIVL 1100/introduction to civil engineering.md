@@ -402,7 +402,7 @@ Water Cube
 - _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2028-09-25,1293,387-->
 - Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
-- Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
+- Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2027-12-22,971,290-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2027-04-10,766,325-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
@@ -1193,7 +1193,7 @@ water transport
 - highway→::@::←pier <!--SR:!2025-10-07,364,320!2027-09-06,903,320-->
 - pier→::@::←pipeline <!--SR:!2026-12-01,676,380!2026-10-13,614,314-->
 - pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-10-02,211,295-->
-- railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
+- railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2028-05-09,1111,335-->
 - water transport→::@::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 
 <!--/pytextgen-->

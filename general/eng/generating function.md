@@ -13,7 +13,7 @@ tags:
 
 In [mathematics](mathematics.md), a __generating function__ is {@{a representation of an [infinite sequence](sequence.md) of numbers as the [coefficients](coefficient.md) of a [formal power series](formal%20power%20series.md)}@}. Generating functions are often {@{expressed in [closed form](closed-form%20expression.md) (rather than as a series), by some expression involving operations on the formal series}@}. <!--SR:!2026-09-14,535,330!2025-08-18,217,310-->
 
-There are {@{various types of generating functions}@}, including {@{__ordinary generating functions__, __exponential generating functions__, __Lambert series__, __Bell series__, and __Dirichlet series__}@}. Every sequence in principle {@{has a generating function of each type (except that Lambert and Dirichlet series require indices to start at 1 rather than 0)}@}, but {@{the ease with which they can be handled may differ considerably}@}. The particular generating function, if any, that is most useful in a given context will {@{depend upon the nature of the sequence and the details of the problem being addressed}@}. <!--SR:!2025-11-19,310,330!2025-04-25,143,310!2025-04-30,134,290!2025-11-21,312,330!2025-05-25,151,290-->
+There are {@{various types of generating functions}@}, including {@{__ordinary generating functions__, __exponential generating functions__, __Lambert series__, __Bell series__, and __Dirichlet series__}@}. Every sequence in principle {@{has a generating function of each type (except that Lambert and Dirichlet series require indices to start at 1 rather than 0)}@}, but {@{the ease with which they can be handled may differ considerably}@}. The particular generating function, if any, that is most useful in a given context will {@{depend upon the nature of the sequence and the details of the problem being addressed}@}. <!--SR:!2025-11-19,310,330!2026-12-26,610,330!2025-04-30,134,290!2025-11-21,312,330!2025-05-25,151,290-->
 
 Generating functions are sometimes called {@{__generating series__}@},<sup>[\[1\]](#^ref-1)</sup> in that {@{a series of terms can be said to be the generator of its sequence of term coefficients}@}. <!--SR:!2025-11-21,312,330!2025-09-27,270,330-->
 
@@ -61,7 +61,7 @@ Another benefit of exponential generating functions is that they are {@{useful i
 
 ### Poisson generating function
 
-The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {PG} (a_{n};x)=\sum _{n=0}^{\infty }a_{n}e^{-x}{\frac {x^{n} }{n!} }=e^{-x}\,\operatorname {EG} (a_{n};x)\,.$$}@} <!--SR:!2025-04-25,143,310!2025-06-04,148,270-->
+The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {PG} (a_{n};x)=\sum _{n=0}^{\infty }a_{n}e^{-x}{\frac {x^{n} }{n!} }=e^{-x}\,\operatorname {EG} (a_{n};x)\,.$$}@} <!--SR:!2026-07-12,443,310!2025-06-04,148,270-->
 
 ### Lambert series
 
@@ -148,7 +148,7 @@ One can also {@{introduce regular gaps in the sequence}@} by {@{replacing _x_ by
 
 By {@{squaring the initial generating function}@}, or by {@{finding the derivative of both sides with respect to _x_ and making a change of running variable _n_ → _n_ + 1}@}, one sees that {@{the coefficients form the sequence 1, 2, 3, 4, 5, ...}@}, so one has {@{$$\sum _{n=0}^{\infty }(n+1)x^{n}={\frac {1}{(1-x)^{2} } }\,,$$}@} <!--SR:!2025-06-30,182,310!2025-08-23,222,310!2025-07-19,198,310!2025-07-04,186,310-->
 
-and the third power has as coefficients {@{the [triangular numbers](triangular%20number.md) 1, 3, 6, 10, 15, 21, ...}@} whose term _n_ is {@{the [binomial coefficient](binomial%20coefficient.md) ($\binom {n + 2} 2$)}@}, so that {@{$$\sum _{n=0}^{\infty }{\binom {n+2}{2} }x^{n}={\frac {1}{(1-x)^{3} } }\,.$$}@} <!--SR:!2025-05-01,135,290!2025-04-24,142,310!2025-08-13,193,270-->
+and the third power has as coefficients {@{the [triangular numbers](triangular%20number.md) 1, 3, 6, 10, 15, 21, ...}@} whose term _n_ is {@{the [binomial coefficient](binomial%20coefficient.md) ($\binom {n + 2} 2$)}@}, so that {@{$$\sum _{n=0}^{\infty }{\binom {n+2}{2} }x^{n}={\frac {1}{(1-x)^{3} } }\,.$$}@} <!--SR:!2025-05-01,135,290!2026-07-10,442,310!2025-08-13,193,270-->
 
 More generally, for {@{any non-negative integer _k_ and non-zero real value _a_}@}, it is true that {@{$$\sum _{n=0}^{\infty }a^{n}{\binom {n+k}{k} }x^{n}={\frac {1}{(1-ax)^{k+1} } }\,.$$}@} <!--SR:!2025-07-08,189,310!2025-08-22,200,270-->
 
@@ -244,7 +244,7 @@ For instance, if {@{an ordinary generating function _G_(_a_<sub>_n_</sub>; _x_) 
 - asymptotic growth of an ordinary generating function using [binomial coefficient](binomial%20coefficient.md) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }{\binom {n+\beta -1}{n} }\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for multiset coefficient, not just asymptotic to it) <!--SR:!2025-08-06,191,270!2025-10-19,196,230-->
 - asymptotic growth of an ordinary generating function using [multiset coefficient](multiset.md#counting%20multisets) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }\left(\!\!{\binom {\beta }{n} }\!\!\right)\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for binomial coefficient, not just asymptotic to it) <!--SR:!2025-08-16,195,270!2025-11-20,270,290-->
 
-... using {@{the [gamma function](gamma%20function.md), a [binomial coefficient](binomial%20coefficient.md), or a [multiset coefficient](multiset.md#counting%20multisets)}@}. Note that {@{limit as _n_ goes to infinity of the ratio of _a_<sub>_n_</sub> to any of these expressions}@} is {@{guaranteed to be 1; not merely that _a_<sub>_n_</sub> is proportional to them}@}. <!--SR:!2025-09-29,272,330!2025-04-24,142,310!2025-09-26,269,330-->
+... using {@{the [gamma function](gamma%20function.md), a [binomial coefficient](binomial%20coefficient.md), or a [multiset coefficient](multiset.md#counting%20multisets)}@}. Note that {@{limit as _n_ goes to infinity of the ratio of _a_<sub>_n_</sub> to any of these expressions}@} is {@{guaranteed to be 1; not merely that _a_<sub>_n_</sub> is proportional to them}@}. <!--SR:!2025-09-29,272,330!2026-12-17,602,330!2025-09-26,269,330-->
 
 Often this approach can be {@{iterated to generate several terms in an asymptotic series for _a_<sub>_n_</sub>}@}. In particular, {@{$$G\left(a_{n}-{\frac {B(r)}{r^{\alpha } } }{\binom {n+\beta -1}{n} }\left({\frac {1}{r} }\right)^{n};x\right)=G(a_{n};x)-{\frac {B(r)}{r^{\alpha } } }\left(1-{\frac {x}{r} }\right)^{-\beta }\,.$$}@} The asymptotic growth of the coefficients of this generating function can then {@{be sought via the finding of _A_, _B_, _α_, _β_, and _r_ to describe the generating function, as above}@}. <!--SR:!2025-09-26,269,330!2025-05-01,81,210!2026-04-23,390,310-->
 

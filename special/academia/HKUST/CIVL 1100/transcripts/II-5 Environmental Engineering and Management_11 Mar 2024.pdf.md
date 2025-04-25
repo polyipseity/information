@@ -101,7 +101,7 @@ return await memorize_seq(
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-10-12,201,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2026-09-09,523,315-->
 - (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-05-16,24,135-->
-- (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-04-25,78,275!2025-05-16,188,295-->
+- (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2026-02-18,299,295!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
 <!--/pytextgen-->
@@ -355,7 +355,7 @@ Indoor Air Quality
 Climate Change — Greenhouse Gas Emission (Global Air Pollution)
 
 - [greenhouse gases](#greenhouse%20gases)
-- climate change consequences for animals ::@:: polar bears losing their natural habitats <!--SR:!2026-07-12,596,330!2025-04-24,259,330-->
+- climate change consequences for animals ::@:: polar bears losing their natural habitats <!--SR:!2026-07-12,596,330!2028-07-15,1178,350-->
 
 ### greenhouse gases
 

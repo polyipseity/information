@@ -76,7 +76,7 @@ The following interior structures are possible.
 
 - see [outrigger](outrigger.md)
 
-Intuitively, if a high-rise building is {@{a skier}@}, then {@{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}@}. <!--SR:!2027-05-12,833,335!2025-04-25,265,335-->
+Intuitively, if a high-rise building is {@{a skier}@}, then {@{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}@}. <!--SR:!2027-05-12,833,335!2028-08-27,1220,355-->
 
 Outriggers can {@{reduce the overturning moment in the core by transferring some moment to columns outside the core}@}. <!--SR:!2025-07-03,297,295-->
 

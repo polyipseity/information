@@ -15,7 +15,7 @@ tags:
 
 ## direct materials cost
 
-{@{Direct materials}@} are {@{the [raw materials](raw%20material.md) that become a part of the finished product}@}. Manufacturing {@{adds value to raw materials}@} by {@{applying a chain of operations to maintain a deliverable product}@}. There are {@{many operations that can be applied to raw materials}@} such as {@{[welding](welding.md), cutting and [painting](painting.md)}@}. It is important to {@{differentiate between direct materials and indirect materials}@}. <!--SR:!2025-12-30,254,330!2025-04-26,63,310!2025-12-17,243,330!2025-04-24,61,310!2026-01-01,255,330!2025-10-09,183,310!2025-04-30,66,310-->
+{@{Direct materials}@} are {@{the [raw materials](raw%20material.md) that become a part of the finished product}@}. Manufacturing {@{adds value to raw materials}@} by {@{applying a chain of operations to maintain a deliverable product}@}. There are {@{many operations that can be applied to raw materials}@} such as {@{[welding](welding.md), cutting and [painting](painting.md)}@}. It is important to {@{differentiate between direct materials and indirect materials}@}. <!--SR:!2025-12-30,254,330!2025-04-26,63,310!2025-12-17,243,330!2026-01-17,268,330!2026-01-01,255,330!2025-10-09,183,310!2025-04-30,66,310-->
 
 ## direct labour cost
 
@@ -23,7 +23,7 @@ tags:
 
 ## manufacturing overhead
 
-{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2025-04-25,62,310!2025-04-27,63,310!2025-12-02,229,330-->
+{@{Manufacturing overhead}@} is {@{any manufacturing cost that is neither direct materials cost nor direct labour cost}@}. Manufacturing overhead includes {@{all charges that provide support to manufacturing}@}. <!--SR:!2026-01-19,269,330!2025-04-27,63,310!2025-12-02,229,330-->
 
 ### manufacturing overhead includes
 

@@ -68,8 +68,8 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::@:: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2026-12-06,746,324!2027-03-29,916,344-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2027-10-22,1001,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2028-07-17,1286,390-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-04-24,90,156-->
-- [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2025-04-25,238,288-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-09-14,143,156-->
+- [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2027-12-03,952,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2028-12-03,1409,408-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->

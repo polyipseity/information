@@ -84,7 +84,7 @@ The content is in teaching order.
   - operations management / quantitative analysis ::@:: mathematical tools are needed; relatively easy now, difficult later; but understanding the problem/picture is more important <!--SR:!2025-10-06,182,310!2025-12-17,241,330-->
   - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights <!--SR:!2025-05-01,67,310!2025-10-14,190,310-->
     - operations management / practical relevance / examples ::@:: allocation of ICU beds during the pandemic; fairness, equity, social responsibility, not just profit maximization <!--SR:!2025-10-14,186,310!2025-10-23,194,310-->
-  - operations management / steps ::@:: description, optimization <!--SR:!2025-04-25,62,310!2025-12-18,244,330-->
+  - operations management / steps ::@:: description, optimization <!--SR:!2026-01-20,270,330!2025-12-18,244,330-->
   - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!2025-07-14,114,290!2025-10-04,180,310-->
   - operations management / optimization ::@:: identify the ways to improve the system performance (like engineering), e.g. how to order, how to allocate <!--SR:!2025-08-21,149,310!2025-10-04,179,310-->
   - operations management / decisions

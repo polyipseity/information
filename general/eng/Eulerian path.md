@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2025-04-25,104,290!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2025-09-27,234,342!2026-02-11,353,362!2026-04-03,393,362!2025-10-22,256,342!2025-09-20,227,330!2026-02-02,346,362!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2025-09-27,234,342!2026-02-11,353,362!2026-04-03,393,362!2025-10-22,256,342!2025-09-20,227,330!2026-02-02,346,362!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 

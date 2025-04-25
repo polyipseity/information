@@ -31,7 +31,7 @@ Collaborators are {@{entities working together with the company to fulfill custo
 
 ### climate
 
-Climate, also known as {@{context}@}, is {@{the operating environment at the time}@}. An analysis on the climate is also known as {@{[PEST analysis](PEST%20analysis.md)}@}. <!--SR:!2025-06-24,295,330!2025-04-25,248,330!2026-12-01,692,330-->
+Climate, also known as {@{context}@}, is {@{the operating environment at the time}@}. An analysis on the climate is also known as {@{[PEST analysis](PEST%20analysis.md)}@}. <!--SR:!2025-06-24,295,330!2028-05-29,1130,350!2026-12-01,692,330-->
 
 ## references
 
