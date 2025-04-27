@@ -47,7 +47,12 @@ USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _LIST_INDENT = "    "
-_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".replace("_", "")
+_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
+    {
+        ord("/"): "",
+        ord("_"): "",
+    }
+)
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 _PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
