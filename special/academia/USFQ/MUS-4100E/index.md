@@ -28,34 +28,38 @@ The content is in teaching order.
     - quiz 1: 5%
     - quiz 2: 5%
     - quiz 3: 5%
-    - quiz 4: 5%
+    - 1959: 5%
   - midterm examination: 20%
   - final examination: 20%
   - listening test: 15%
     - listening test 1: 7.5%
       - list
-        - Louis Armstrong – 1927 Hot 5 & Hot 7 (not the personnel)
-          - The Hot Five and Hot Seven recordings by Louis Armstrong are a series of individual recordings from 1925 – 1928 that have been grouped into 1  record.
-        - Art Tatum- Gene Norman Present an Art Tatum Recording
-        - Billie Holiday – Lady Sings The Blues (not the personnel)
-        - Ella Fitzgerald – Ella and Louis
-        - Benny Goodman – The Famous 1938 Carnegie Hall Jazz Concert (not the personnel)
-        - Duke Ellington – Ellington at Newport (not the personnel)
-        - Charlie Parker – Jazz at Massey Hall
+        - Louis Armstrong — 1927 Hot 5 & Hot 7
+          - not the personnel
+          - The Hot Five and Hot Seven recordings by Louis Armstrong are a series of individual recordings from 1925–1928 that have been grouped into 1 record.
+        - Art Tatum – Gene Norman Present an Art Tatum Recording
+        - Billie Holiday — Lady Sings The Blues
+          - not the personnel
+        - Ella Fitzgerald — Ella and Louis
+        - Benny Goodman — The Famous 1938 Carnegie Hall Jazz Concert
+          - not the personnel
+        - Duke Ellington — Ellington at Newport
+          - not the personnel
+        - Charlie Parker — Jazz at Massey Hall
     - listening test 2: 7.5%
       - list
-        - Miles Davis – Kind of Blue
-        - Oscar Peterson – We Get Request
-        - Stan Getz – Getz/Gilberto
-        - Dave Brubeck – Time Out
-        - Ornette Coleman – The Shape of Jazz to Come
-        - John Coltrane – Giant Steps
-        - Thelonious Monk – Solo Monk
+        - Miles Davis — Kind of Blue
+        - Oscar Peterson — We Get Request
+        - Stan Getz — Getz/Gilberto
+        - Dave Brubeck — Time Out
+        - Ornette Coleman — The Shape of Jazz to Come
+        - John Coltrane — Giant Steps
+        - Thelonious Monk — Solo Monk
     - Students must identify:
-      - artist (8 points)
-      - album title (7 points)
-      - personnel (3 points)
-      - year it was recorded and released (2 points)
+      - artist \(8 points\)
+      - album title \(7 points\)
+      - personnel \(3 points\)
+      - year it was recorded and released \(2 points\)
     - Please only listen to the original recordings. Any songs added in the re-releases of the record will not be on the tests.
   - concert attendance: 15%
     - concert 1: 5%
@@ -82,8 +86,8 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00
-  - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00
+- datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00, PT1H20M
+  - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century
   - What is jazz? / students' answers: United States, created for rebellion
   - jazz / examples
@@ -113,8 +117,8 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
-- datetime: 2025-01-15T08:30:00-05:00/2025-01-15T09:50:00-05:00
-  - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00
+- datetime: 2025-01-15T08:30:00-05:00/2025-01-15T09:50:00-05:00, PT1H20M
+  - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany)
@@ -138,8 +142,8 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00
-  - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00
+- datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00, PT1H20M
+  - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00, PT1H20M
 - [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre
   - blues / characteristics ::@:: call and response, sadness
   - blues / examples ::@:: "Crossroad" — Robert Johnson
@@ -162,12 +166,12 @@ The content is in teaching order.
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies)
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans
-- quiz (attendance): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
+- quiz \(attendance\): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2
 
-- datetime: 2025-01-22T08:30:00-05:00/2025-01-22T09:50:00-05:00
-  - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00
+- datetime: 2025-01-22T08:30:00-05:00/2025-01-22T09:50:00-05:00, PT1H20M
+  - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00, PT1H20M
 - [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans
   - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march
   - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo
@@ -188,12 +192,12 @@ The content is in teaching order.
     - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation"
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917.
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca
-- assignment (attendance): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
+- assignment \(attendance\): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
 
 ## week 3 lecture
 
-- datetime: 2025-01-27T08:30:00-05:00/2025-01-27T09:50:00-05:00
-  - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00
+- datetime: 2025-01-27T08:30:00-05:00/2025-01-27T09:50:00-05:00, PT1H20M
+  - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
   - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans
 - [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band.
@@ -225,8 +229,8 @@ The content is in teaching order.
 
 ## week 4 lecture
 
-- datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00
-  - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00
+- datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00, PT1H20M
+  - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00, PT1H20M
 - [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later.
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution
 - [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc.
@@ -251,8 +255,8 @@ The content is in teaching order.
 
 ## week 4 lecture 2
 
-- datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00
-  - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00
+- datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00, PT1H20M
+  - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00, PT1H20M
 - [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it)
   - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano
 - [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection
@@ -277,8 +281,8 @@ The content is in teaching order.
 
 ## week 5 lecture
 
-- datetime: 2025-02-10T08:30:00-05:00/2025-02-10T09:50:00-05:00
-  - local: 2025-02-10T21:30:00+08:00/2025-02-10T22:50:00+08:00
+- datetime: 2025-02-10T08:30:00-05:00/2025-02-10T09:50:00-05:00, PT1H20M
+  - local: 2025-02-10T21:30:00+08:00/2025-02-10T22:50:00+08:00, PT1H20M
 - [big band](../../../../general/big%20band.md)
   - big bands / changes
 - [swing music](../../../../general/swing%20music.md)
@@ -308,8 +312,8 @@ The content is in teaching order.
 
 ## week 5 lecture 2
 
-- datetime: 2025-02-12T08:30:00-05:00/2025-02-12T09:50:00-05:00
-  - local: 2025-02-12T21:30:00+08:00/2025-02-12T22:50:00+08:00
+- datetime: 2025-02-12T08:30:00-05:00/2025-02-12T09:50:00-05:00, PT1H20M
+  - local: 2025-02-12T21:30:00+08:00/2025-02-12T22:50:00+08:00, PT1H20M
 - popular music
   - popular music / in older times
 - jazz standard
@@ -317,34 +321,34 @@ The content is in teaching order.
 - [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries.
   - Tin Pan Alley / composers: Cole Porter, George & Ira Gershwin, Harold Arlen, Rodgers & Hart, Sammy Kahn
 - [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.)
-  - contrafact / example ::@:: "Cottontail" – Duke Ellington
+  - contrafact / example ::@:: "Cottontail" — Duke Ellington
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.)
   - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war.
-  - Glenn Miller / works ::@:: "In The Mood" – Glenn Miller <br/> "Moonlight Serendade" – Glenn Miller
+  - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller
 - [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands.
   - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?)
   - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star.
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture.
   - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture.
 - Benny Goodman
-  - Benny Goodman / works ::@:: "Moonglow" – Benny Goodman <br/> "Sing, Sing, Sing" – Benny Goodman <br/> "Stompin' at the Savoy" – Benny Goodman
+  - Benny Goodman / works ::@:: "Moonglow" — Benny Goodman <br/> "Sing, Sing, Sing" — Benny Goodman <br/> "Stompin' at the Savoy" — Benny Goodman
 - swing era
   - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
 
 ## week 6 lecture
 
-- datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00
-  - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00
+- datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00, PT1H20M
+  - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00, PT1H20M
 - quiz: [quiz 2](questions/quiz%202.md)
 - [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm.
   - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc.
   - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars
   - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him
-  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) – Stéphane Grappelli
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris.
-  - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." – Frank Vignola, jazz guitarist
+  - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." — Frank Vignola, jazz guitarist
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43.
 - gypsy jazz
   - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe.
@@ -352,8 +356,8 @@ The content is in teaching order.
 
 ## week 6 lecture 2
 
-- datetime: 2025-02-19T08:30:00-05:00/2025-02-19T09:50:00-05:00
-  - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00
+- datetime: 2025-02-19T08:30:00-05:00/2025-02-19T09:50:00-05:00, PT1H20M
+  - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00, PT1H20M
 - swing music
   - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women.
     - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra
@@ -367,7 +371,7 @@ The content is in teaching order.
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels.
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money.
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday
-  - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." – Frank Sinatra, American singer and actor
+  - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." — Frank Sinatra, American singer and actor
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group; led the first black band to tour the American South
   - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s.
@@ -379,8 +383,8 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00
-  - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00
+- datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00, PT1H20M
+  - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00, PT1H20M
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance
   - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis).
   - stride / originator ::@:: James P. Johnson (largely forgotten)
@@ -391,7 +395,7 @@ The content is in teaching order.
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz"
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play
-  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" – Vladimir Horowitz, Russian And American pianist
+  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" — Vladimir Horowitz, Russian And American pianist
   - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum
 - assignment: (none)
 
@@ -404,17 +408,24 @@ The content is in teaching order.
 
 ## week 8 lecture
 
-- datetime: 2025-03-03T08:30:00-05:00/2025-03-03T09:50:00-05:00
-  - local: 2025-03-03T21:30:00+08:00/2025-03-03T22:50:00+08:00
+- datetime: 2025-03-03T08:30:00-05:00/2025-03-03T09:50:00-05:00, PT1H20M
+  - local: 2025-03-03T21:30:00+08:00/2025-03-03T22:50:00+08:00, PT1H20M
 - status: unscheduled, holiday
 
 ## week 8 lecture 2
 
-- datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:50:00-05:00
-  - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:50:00+08:00
+- datetime: 2025-03-05T08:30:00-05:00/2025-03-05T09:50:00-05:00, PT1H20M
+  - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:50:00+08:00, PT1H20M
 - status: unscheduled, holiday
 
 ## week 9 lecture
+
+- datetime: 2025-03-10T08:30:00-05:00/2025-03-10T09:00:00-05:00
+  - local: 2025-03-10T21:30:00+08:00/2025-03-10T22:00:00+08:00
+- examination: [§ midterm examination](#midterm%20examination)
+- assignment: \(none\)
+
+## midterm examination
 
 - datetime: 2025-03-10T08:30:00-05:00/2025-03-10T09:00:00-05:00
   - local: 2025-03-10T21:30:00+08:00/2025-03-10T22:00:00+08:00
@@ -429,8 +440,8 @@ The content is in teaching order.
 
 ## week 9 lecture 2
 
-- datetime: 2025-03-12T08:30:00-05:00/2025-03-12T09:50:00-05:00
-  - local: 2025-03-12T21:30:00+08:00/2025-03-12T22:50:00+08:00
+- datetime: 2025-03-12T08:30:00-05:00/2025-03-12T09:50:00-05:00, PT1H20M
+  - local: 2025-03-12T21:30:00+08:00/2025-03-12T22:50:00+08:00, PT1H20M
 - swing music
   - swing music / to bebop music ::@:: Swing was becoming commericalized and formulaic. Some musicians got tired. <p> Some musicans adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\).
 - [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm.
@@ -470,13 +481,13 @@ The content is in teaching order.
 - bebop
   - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington
 - Charlie Parker
-  - Charlie Parker / effect ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop.
+  - Charlie Parker / effects ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop.
 - assignment: \(none\)
 
 ## week 10 lecture 2
 
-- datetime: 2025-03-19T08:30:00-05:00/2025-03-19T09:50:00-05:00
-  - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00
+- datetime: 2025-03-19T08:30:00-05:00/2025-03-19T09:50:00-05:00, PT1H20M
+  - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00, PT1H20M
 - [Thelonious Monk](../../../../general/Thelonious%20Monk.md) \(1917–1982\) ::@:: American composer and pianist, with very distinctive, unique, and unusual style
   - Thelonious Monk / uniqueness ::@:: schizophrenia; strange personality reflected in the music: crazy, demented
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing
@@ -484,7 +495,7 @@ The content is in teaching order.
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever
   - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke
 - [Kenny Clarke](../../../../general/Kenny%20Clarke.md) \(1914–1985\) ::@:: American jazz drummer and bandleader; drummer at Minton's Playhouse
-  - Kenny Clarke / effect ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles.
+  - Kenny Clarke / effects ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles.
 - assignment: \(none\)
 
 ## week 11 lecture
@@ -508,18 +519,18 @@ The content is in teaching order.
   - Gerry Mulligan / works ::@:: "Speak Low" \(1953\) — Chet Baker & Gerry Mulligan
 - [Stan Getz](../../../../general/Stan%20Getz.md) \(1927–1991\) ::@:: He was an American jazz saxophonist from Philadelphia. Playing primarily the tenor saxophone, Getz was known as "__The Sound__" because of his warm, lyrical tone \("airy" sounds\). <p> He also struggled with drugs.
   - Stan Getz / works ::@:: "The Girl from Impanema" \(1964\) — Joao Gilberto & Stan Getz <br/> "Just Friends" — Chet Baker & Stan Getz: Even though he and Chet Baker hated each other, they had had many collaborations.
-  - Stan Getz / effect ::@:: He was responsible for bossa nova and samba for being part of jazz. He went to Brazil, heard the music, and infused it with jazz elements. This changed music.
+  - Stan Getz / effects ::@:: He was responsible for bossa nova and samba for being part of jazz. He went to Brazil, heard the music, and infused it with jazz elements. This changed music.
 - assignment: \(none\)
 
 ## week 11 lecture 2
 
-- datetime: 2025-03-26T08:30:00-05:00/2025-03-26T09:50:00-05:00
-  - local: 2025-03-26T21:30:00+08:00/2025-03-26T22:50:00+08:00
+- datetime: 2025-03-26T08:30:00-05:00/2025-03-26T09:50:00-05:00, PT1H20M
+  - local: 2025-03-26T21:30:00+08:00/2025-03-26T22:50:00+08:00, PT1H20M
 - [bossa nova](../../../../general/bossa%20nova.md) ::@:: It is a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil. <p> United States people went crazy for this music, so they still study it in jazz education to this day.
   - bossa nova / characteristics ::@:: "swaying" motion; swinging eighth notes; lyrical themes include women, love, longing, homesickness, and nature
   - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist
 - [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer.
-  - Antônio Carlos Jobim / effect ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century.
+  - Antônio Carlos Jobim / effects ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century.
 - [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music.
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova".
   - Joao Gilberto / works ::@:: "Desafinado" \(1959\) — Joao Gilberto
@@ -546,7 +557,7 @@ The content is in teaching order.
   - hard bop / musicians ::@:: Art Blakey, Clifford Brown, Miles Davis, Lee Morgan, Max Roach, Horace Silver
 - [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music.
 - [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers.
-  - Art Blakely / effect ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians.
+  - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians.
 - [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers.
   - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver
 - [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound.
@@ -556,8 +567,8 @@ The content is in teaching order.
 
 ## week 12 lecture 2
 
-- datetime: 2025-04-02T08:30:00-05:00/2025-04-02T09:50:00-05:00
-  - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00
+- datetime: 2025-04-02T08:30:00-05:00/2025-04-02T09:50:00-05:00, PT1H20M
+  - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00, PT1H20M
 - [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation.
   - head / head in ::@:: first head of a piece played; melody at the beginning
   - head / head out ::@:: last head of a piece played; melody at the end
@@ -572,19 +583,19 @@ The content is in teaching order.
   - Miles Davis / known for :;@:: incredibly inventive, melodic, unique sound
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pinaists, saxophonists, etc.
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s
-  - Miles Davis / effect ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He strugged with heroin.
+  - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He strugged with heroin.
   - Miles Davis / genres
     - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis
     - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Bobplicity" \(1949\) — Miles Davis
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\).
-    - Miles Davis / Prestige records / effect ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz.
+    - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz.
 - [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis.
   - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums.
 - [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis.
   - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis
 - assignment
   - watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\)
-  - [1959](questions/index.md#1959)
+  - quiz \(assignment\): [1959](questions/index.md#1959)
 
 ## week 13 lecture
 
@@ -606,13 +617,162 @@ The content is in teaching order.
   - Miles Davis / genres
     - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then he died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis
   - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured.
-  - Miles Davis / 1980s ::@:: The instructor had not idea how to quanitfy the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis
-  - Miles Davis / death ::@:: He died in 1991 from pneumoia.
+  - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis
+  - Miles Davis / death ::@:: He died in 1991 from pneumonia.
   - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc.
 - assignment: watch "How Coltrane Broke "My Favorite Things" (feat. Adam Neely)" \(<https://youtu.be/Bg1RGmyl-_A>\)
 
 ## week 13 lecture 2
 
-- datetime: 2025-04-09T08:30:00-05:00/2025-04-09T09:50:00-05:00
-  - local: 2025-04-09T21:30:00+08:00/2025-04-09T22:50:00+08:00
+- datetime: 2025-04-09T08:30:00-05:00/2025-04-09T09:50:00-05:00, PT1H20M
+  - local: 2025-04-09T21:30:00+08:00/2025-04-09T22:50:00+08:00, PT1H20M
+- [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music.
+  - John Coltrane / capabilities ::@:: composer, tensor saxophone player
+  - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes.
+  - John Coltrane / early life ::@:: he missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957.
+  - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz
+- [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane.
+  - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression.
+- John Coltrane
+  - John Coltrane / & Miles Davis ::@:: He joined Miles Davis's band in 1955. He played in all Prestige records with him. His sheets of sound contrasts with Miles playing lyrically. <p> "Blue Train" \(1957\) — John Coltrane, Miles Davis
+- [_Giant Steps_](../../../../general/Giant%20Steps.md) ::@:: It is a studio album by the jazz musician John Coltrane. <p> The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists.
+  - _Giant Steps_ / characteristics ::@:: Structurally opposite of _Kind of Blue_, with extreme harmonic sophistication. Both of them want to maximize expression.
+  - _Giant Steps_ / structure ::@:: 16-bar AB form, complex chord progression based on major thirds, up tempo swing
+  - _Giant Steps_ / effects ::@:: The tune is hard \(even for piano players\), and often considered as a improvisation "test". <p> It set new jazz composition and improvisation standards.
+- John Coltrane
+  - John Coltrane / modal jazz ::@:: He used the soprano saxophone instead of tenor. <p> "My Favorite Things" \(1961\) — John Coltrane <br/> "Part 1, Acknowledgement" \(1965\) — John Coltrane <br/> "Trane" — John Coltrane, Johnny Hartman
+  - John Coltrane / later life ::@:: He died at 40 from liver failure.
 - assignment: \(none\)
+
+## week 14 lecture
+
+- datetime: 2025-04-14T08:30:00-05:00/2025-04-14T09:50:00-05:00, PT1H20M
+  - local: 2025-04-14T21:30:00+08:00/2025-04-14T22:50:00+08:00, PT1H20M
+- [free jazz](../../../../general/free%20jazz.md) ::@:: It is a style of avant-garde jazz or an experimental approach to jazz improvisation that developed in the late 1950s and early 1960s, when musicians attempted to change or break down jazz conventions, such as regular tempos, tones, and chord changes.
+  - free jazz / motivation ::@:: Musicians during this period believed that the bebop and modal jazz that had been played before them was too limiting, and became preoccupied with creating something new.
+  - free jazz / characteristics ::@:: essentially void of structure, little to no form, no real harmony, some _tonality_, true _improvisation_
+  - free jazz / playing ::@:: Both the bassist and the soloist can do anything they want as they see fit. They can express without being constrained by traditional harmony.
+- [Ornette Coleman](../../../../general/Ornette%20Coleman.md) \(1930–2015\) ::@:: He was an American jazz saxophonist, trumpeter, violinist, and composer. He is best known as a principal founder of the free jazz genre, a term derived from his 1960 album _Free Jazz: A Collective Improvisation_.
+- [_The Shape of Jazz to Come_](../../../../general/The%20Shape%20of%20Jazz%20to%20Come.md) ::@:: It is the third album by the jazz musician Ornette Coleman. Released on Atlantic Records in 1959, it was his debut on the label and his first album featuring the working quartet including himself, trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins.
+  - _The Shape of Jazz to Come_ / uniqueness ::@:: It did not employ a chordal instrument such as a piano or guitar.
+- [Cecil Taylor](../../../../general/Cecil%20Taylor.md) \(1929–2018\) ::@:: He was an American pianist and poet. <p> Taylor was classically trained and was one of the pioneers of free jazz \(avant-garde jazz\). <p> He used every part of the piano.
+  - Cecil Taylor / works ::@:: "Free Improvisation No #3" — Cecil Taylor
+- [Eric Dolphy](../../../../general/Eric%20Dolphy.md) \(1928–1964\) ::@:: He was an American jazz multi-instrumentalist, composer, and bandleader. <p> His use of the bass clarinet \(and flute\) helped to establish the unconventional instrument within jazz. <p> He died after falling into a diabetic coma in 1964.
+  - Eric Dolphy / works ::@:: "Out to Lunch!" \(1964\) — Eric Dolphy
+- [Albert Ayler](../../../../general/Albert%20Ayler.md) \(1936–1970\) ::@:: He was an American avant-garde jazz saxophonist and composer. <p> He embraced free jazz more than anyone \(some critics say it does not adhere to free jazz\). He became a free jazz movement leader before his suicide.
+  - Albert Ayler / works ::@:: "Ghost Variations" / _Spiritual Unity_ \(1965\) — Albert Ayler
+- assignment: \(none\)
+
+## week 14 lecture 2
+
+- datetime: 2025-04-16T08:30:00-05:00/2025-04-16T09:50:00-05:00, PT1H20M
+  - local: 2025-04-16T21:30:00+08:00/2025-04-16T22:50:00+08:00, PT1H20M
+- [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll.
+  - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk.
+  - jazz fusion / characteristics ::@:: groove-based; post production editing; straight eighth notes, i.e. no swing
+  - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis
+  - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report
+- [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations.
+  - Herbie Hancock / works ::@:: "Watermelon Man" \(1963\) — Herbie Hancock <br/> "Chameleon" \(1973\) — Herbie Hancock <br/> "I Thought It Was You" \(1979\) — Herbie Hancock: disco groove <br/> "Rokit" \(1983\) — Herbie Hancock
+- [Chick Corea](../../../../general/Chick%20Corea.md) \(2021\) ::@:: He was an American jazz pianist, composer, bandleader and occasional percussionist. <p> As a member of Miles Davis's band in the late 1960s, he participated in the birth of jazz fusion. In the 1970s he formed Return to Forever. <p> He has won 28 Grammy Awards and was nominated 72 times for the award.
+  - Chick Corea / works ::@:: "Spain" \(1973\) — Chick Corea
+- [bass guitar](../../../../general/bass%20guitar.md) ::@:: It is the lowest-pitched member of the guitar family. It is similar in appearance and construction to an electric but with a longer neck and scale length.
+  - bass guitar / Jaco Pastorius ::@:: It was definitely a rhythms section instrument. <p> Then in the mid-1970s, Jaco Pastorius changed it forever...
+- [Jaco Pastorius](../../../../general/Jaco%20Pastorius.md) \(1951–1987\) ::@:: He was from Florida. He was killed in a fight trying to get into a club. <p> He was fully established as sole band bass player for the recording of _Heavy Weather_ \(Columbia, 1977\), which contained the Grammy-nominated hit "Birdland".
+  - Jaco Pastorius / works ::@:: "Donna Lee" — Jaco Pastorius <br/> _Heavy Weather_ \(1977\) — Weather Report
+- [Mahavishnu Orchestra](../../../../general/Mahavishnu%20Orchestra.md) ::@:: It was a jazz fusion band formed in New York City in 1971, led by English guitarist John McLaughlin. <p> It made guitar a rock fusion instrument.
+  - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra
+- assignment: \(none\)
+
+## week 15 lecture
+
+- datetime: 2025-04-21T08:30:00-05:00/2025-04-21T09:50:00-05:00, PT1H20M
+  - local: 2025-04-21T21:30:00+08:00/2025-04-21T22:50:00+08:00, PT1H20M
+- [Nat King Cole](../../../../general/Nat%20King%20Cole.md) \(1919–1965\) ::@:: He was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts. <p> He popularized the piano trio: bass, guitar, and piano.
+  - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\)
+  - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\)
+  - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show.
+- [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time.
+  - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen
+    - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass
+  - Oscar Peterson / works ::@:: "C Jam Blues" \(1964\) — Oscar Peterson <br/> _Night Train_ <br/> _The Sound of the Trio_ <br/> _We Get Requests_
+  - Oscar Peterson / effects ::@:: Many pianist were influenced by him and played in his style, e.g. Benny Green, Gene harris, Monty Alexander, Phineas Neworn, etc. \(and the instructor\)
+- [Bill Evans](../../../../general/Bill%20Evans.md) \(1929–1980\) ::@:: He was an American jazz pianist and composer who worked primarily as the leader of his trio. His use of impressionist harmony, block chords, innovative chord voicings, and trademark rhythmically independent "singing" melodic lines continue to influence jazz pianists today.
+  - Bill Evans / early life ::@:: He was left-handed. He was trained in an university. He became famous with Miles Davis. He was lyrical and not as bluesy as Oscar Peterson.
+  - Bill Evans / trio ::@:: piano: Bill Evans <br/> drums: Paul Motion <br/> bass: Scott Lafaro
+    - Bill Evans/ trio / characteristics ::@:: interactive trio: less groove-based, loose basslines, lyrical, melodic, sequential
+  - Bill Evans / works ::@:: "What Is This Thing Called Love?" \(1960\) — Bill Evans trio <br/> _Conversations with Myself_ <br/> _Live at Town Hall_ <br/> _Portrait in Jazz_ <br/> _Sunday at the Village Vanguard_ <br/> _Waltz for Debby_
+  - Bill Evans / later life ::@:: He struggled with heroin, and then cocaine. He died at 51 from hepatitis, pneumonia, liver failure, and stomach ulcers.
+  - Bill Evans / effects ::@:: He brought _quartal harmony_ in jazz, which refers to building chords in 4ths instead of 3rds. <br/> He also influenced many pianists to play in the interactive style, e.g. Bill Charlap, Brad Mehldau, Keith Jarrett, etc. \(and the instructor\)
+- [Hammond organ](../../../../general/Hammond%20organ.md) ::@:: It is an electric organ invented by Laurens Hammond and John M. Hanert, first manufactured in 1935.
+  - Hammond organ / use ::@:: It is popular in gospel music. It was brought to jazz by Jimmy Smith in the 1950s.
+  - Hammond organ / trio ::@:: drums, guitar, organ
+- [Jimmy Smith](../../../../general/Jimmy%20Smith%20(musician).md) \(1928–2005\) ::@:: He was an American jazz musician who helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music.
+  - Jimmy Smith / works ::@:: "Back At The Chicken Shack" \(1963\) — Jimmy Smith, Phil Upchurch
+- [Shirley Scott](../../../../general/Shirley%20Scott.md) \(1934–2002\) ::@:: She was an American jazz organist. Her music was noted for its mixture of bebop, blues, and gospel elements. She was known by the nickname "Queen of the Organ". <p> She had 40 records as a leader.
+  - Shirley Scott / works ::@:: "Don't Look Back" \(1976\) — Shirley Scott Trio
+- [Joey DeFrancesco](../../../../general/Joey%20DeFrancesco.md) \(1971–2022\) ::@:: He was a virtuosic organist. He got his start with Davis Miles at 17. <p> He had 30 records as a leader. he died of heart attack at 51.
+  - Joey DeFrancesco / works ::@:: "Fly me to the Moon" \(1999\) — Joey DeFrancesco Trio
+- Hammond organ
+  - Hammond organ / notable organists ::@:: Larry Gouldings, Larry Young \(first to play modal jazz on organ\), Joey DeFrancesco, Shirley Scott, Tony Monaco
+- assignment: \(none\)
+
+## week 15 lecture 2
+
+- datetime: 2025-04-23T08:30:00-05:00/2025-04-23T09:50:00-05:00, PT1H20M
+  - local: 2025-04-23T21:30:00+08:00/2025-04-23T22:50:00+08:00, PT1H20M
+- jazz
+  - jazz / 1980s ::@:: After the jazz fusion era, many jazz musicians returned to traditional bebop, creating neo-bop or post-bop, etc.
+- [neo-bop](../../../../general/neo-bop.md) ::@:: It refers to a style of jazz that gained popularity in the 1980s among musicians who found greater aesthetic affinity for acoustically based, swinging, melodic forms of jazz than for free jazz and jazz fusion that had gained prominence in the 1960s and 1970s.
+- [post-bop](../../../../general/post-bop.md) ::@:: It is a jazz term with several possible definitions and usages.
+- neo-bop
+  - neo-bop / motivation ::@:: Many musicians did not like jazz fusion. They returned to traditional swinging structures with acoustic instruments. They embraced all previous styles and emphasis on swing and traditional sounds. <p> They were called the Young Lions.
+  - neo-bop / criticisms ::@:: Miles Davis hated it. He thought the music was moving backwards.
+- jazz
+  - jazz / education ::@:: Since the 1980s, jazz has become more accessible and educational, with competitions, conservatories, and festivals appearing.
+- [Wynton Marsalis](../../../../general/Wynton%20Marsalis.md) \(1961–\) ::@:: He is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center. He has been active in promoting classical and jazz music, often to young audiences. Marsalis has won nine Grammy Awards.
+  - Wynton Marsalis / effects ::@:: He is from New Orleans \(the birthplace!\). He brought bebop roots into jazz. He brought jazz into education.
+  - Wynton Marsalis / family ::@:: He comes from a musical family.
+  - Wynton Marsalis / works ::@:: "Cherokee" \(1993\) — Wynton Marsalis
+- [Christian McBride](../../../../general/Christian%20McBride.md) \(1972–\) ::@:: He is an American jazz bassist, composer and arranger. He has appeared on more than 400 recordings as a sideman, and is a nine-time Grammy Award winner.
+  - Christian McBride / works ::@:: "Easy Walker" \(2013\) — Christian McBride Trio
+- neo-bop
+  - neo-bop / players ::@:: Brian Blade \(drums\) <br/> Christian McBride <br/> Joshua Redman \(saxophone\) <br/> Pete Bernstein \(guitar\) <br/> Wynton Marsalis
+- assignment: \(none\)
+
+## week 16 lecture
+
+- datetime: 2025-04-28T08:30:00-05:00/2025-04-28T09:50:00-05:00, PT1H20M
+  - local: 2025-04-28T21:30:00+08:00/2025-04-28T22:50:00+08:00, PT1H20M
+- jazz
+  - jazz / 2000s ::@:: Many musicians grew up with hip hop and jazz. They started experimenting with new grooves and rap.
+- [Roy Hargrove](../../../../general/Roy%20Hargrove.md) \(1969–2018\) ::@:: He was an American jazz musician and composer whose principal instruments were the trumpet and flugelhorn. He achieved critical acclaim after winning two Grammy Awards for differing styles of jazz in 1998 and 2002.
+  - Roy Hargrove / effects ::@:: He founded the band The RH Factor. He combined traditional bebop and jazz with hip hopk, which started the trend to mix jazz with hip hop or rhythm & blues.
+  - Roy Hargrove / works ::@:: "Strasbourg St Denis" \(2008\) — Roy Hargrove Quintet
+  - Roy Hargrove / later life ::@:: He struggled with alcohol and drugs. He died of heart attack at 49.
+- [Robert Glasper](../../../../general/Robert%20Glasper.md) \(1978–\) ::@:: He is an American pianist, record producer, songwriter, and musical arranger. His music embodies numerous musical genres, primarily centered around jazz. Glasper has won five Grammy Awards from 11 nominations.
+  - Robert Glasper / works ::@:: "Stella By Starlight" \(2014\) — Robert Glasper <br/> _Black Radio_ \(2012\) — Robert Glasper: his breakout album, which won a Grammy for Best R&B Album <br/> _Black Radio III_ \(2022\) — Robert Glasper: also won a Grammar for Best R&B Album
+  - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues.
+- [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards.
+  - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc.
+  - Snarky Puppy / works ::@:; "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier
+- [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonisations and close harmony. <br/> \(negative harmony\)
+  - Jacob Collier / works ::@:: "fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924
+- [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop.
+  - Corey Henry / works ::@:: "Billie Jean" \(2016\) — Cory Henry feat. Jacob Collier: originally a 1983 single by Michael Jackson
+- [jazz rap](../../../../general/jazz%20rap.md) ::@:: It is a fusion of jazz and hip hop music, as well as an alternative hip-hop subgenre, that developed in the late 1980s and early 1990s.
+  - jazz rap / works ::@:: "For Free?" \(2015\) — Kendrick Lamar: lots of profanity
+- assignment: \(none\)
+
+## week 16 lecture 2
+
+- datetime: 2025-04-30T08:30:00-05:00/2025-04-30T09:50:00-05:00, PT1H20M
+  - local: 2025-04-30T21:30:00+08:00/2025-04-30T22:50:00+08:00, PT1H20M
+- quiz: [listening test 2](questions/listening%20test%202.md)
+- assignment: [concert 3](assignments/concert%203/index.md)
+
+## final examination
+
+## aftermath
+
+### total
