@@ -108,8 +108,8 @@ Bring...
   - 15:45: reflection
   - 16:00: clean up, change
   - 17:00: dinner lead debrief
-  - 18:00: barbeque dinner
-  - 20:00 → 20:30: barbeque dinner end
+  - 18:00: barbecue dinner
+  - 20:00 → 20:30: barbecue dinner end
   - 22:00 → 22:30: facilities close
   - open: sleep
 - 2024-11-17
