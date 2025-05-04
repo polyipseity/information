@@ -13,3 +13,7 @@ tags:
 # assignments
 
 - HKUST ACCT 2200
+
+## children
+
+- [budgetary planning](budgetary%20planning.md/index.md)

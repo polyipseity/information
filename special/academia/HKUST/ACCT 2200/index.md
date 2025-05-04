@@ -542,21 +542,21 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×3
-- grades: ?/100 → ?/100
+- grades: 96/100 → ?/100
   - statistics
-    - timestamps: ? → ?
+    - timestamps: 2025-04-29T13:31+08:00 → ?
     - count: ? → ?
-    - mean: ? → ?
+    - mean: 62.9 → ?
     - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
+    - low: 27 → ?
+    - lower quartile: 56 → ?
+    - median: 64 → ?
+    - upper quartile: 72 → ?
+    - high: 96 → ?
     - distribution: ? → ?
     - data: ? → ?
 - report
-  - time limit ::@:: Again, the time limit was tight, because the last question on incremental analysis has 3 long paragraphs of information to sieve through.
+  - time limit ::@:: Again, the time limit was tight, because the last question on incremental analysis has 3 very long paragraphs of information to sieve through.
 - check
   - datetime: ?
   - venue: ?
@@ -598,9 +598,254 @@ The content is in teaching order.
 - variance analysis ::@:: It is a tool of budgetary control and performance evaluation, assessing any variances between the budgeted, planned, or standard amount, and the actual amount realized. Variance analysis can be carried out for both costs and revenues.
   - variance analysis / types ::@:: Variance can be classified into _spending variance_ and _volume variances_. The former accounts for differences between the _actual budget_ and the _flexible budget_ with the same sale units. The latter accounts for differences between the _flexible budget_ and the _master budget_.
     - variable analysis / types / variable ::@:: For variable costs, e.g. direct materials \(DM\), direct labor \(DL\), and variable manufacturing overhead \(VOH\), _spending variance_ can be further separated into _price variance_ and _efficiency variance_ \(_quantity variance_ for DM\). <p> _Volume variance_ is ignored, as it is already accounted for by the _flexible budget_.
-    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares between that in _flexible budge_ and the _applied FOH_ instead of that in the _master budget_.
+    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares between that in _flexible budget_ and the _applied FOH_ instead of that in the _master budget_.
   - variance analysis / favorability ::@:: Variance calculation should always be calculated by taking the planned or budgeted amount and subtracting the actual/forecasted value. Thus a positive number is favorable and a negative number is unfavorable.
     - variance analysis / favorability / causes ::@:: It should be obvious what is _favorable_, e.g. paying lower prices/wages, producing more using less resources, using less materials, using less time, etc. The opposite is _unfavorable_.
+- assignment: [budgetary planning](assignments/budgetary%20planning/index.md)
+
+## week 12 lecture
+
+- datetime: 2025-04-21T12:00:00+08:00/2025-04-21T13:20:00+08:00, PT1H20M
+- status: unscheduled, public holiday: Easter Monday
+
+## week 12 lecture 2
+
+- datetime: 2025-04-23T12:00:00+08:00/2025-04-23T13:20:00+08:00, PT1H20M
+- topic: variance analysis, capital budgeting
+- variance analysis
+  - variance analysis / price variance ::@:: Variance solely due to the difference between standard price \(SP\) and actual price \(AP\), ignoring quantity difference \(thus actual quantity \(AQ\) is assumed\). <p> It is computed as: $$\text{price variance} = \text{AQ} \cdot \text{SP} - \text{AQ} \cdot \text{AP} = \text{AQ} \cdot (\text{SP} - \text{AP}) \,,$$ where AQ is the actual quantity. When subtracting, SP comes before AP.
+  - variance analysis / quantity variance ::@:: Variance solely due to the difference between standard quantity \(SQ\) and actual quantity \(AQ\), ignoring price difference \(thus standard price \(SP\) is assumed\). <p> It is computed as: $$\text{quantity variance} = \text{SQ} \cdot \text{SP} - \text{AQ} \cdot \text{SP} = (\text{SQ} - \text{AQ}) \cdot \text{SP} \,,$$ where SP is the standard price. When subtracting, SQ comes before AQ.
+  - variance analysis / spending variance ::@:: It is the sum of price variance and quantity variance. It is also the difference between the actual budget and the flexible budget. <p> It is computed as: $$\text{spending variance} = \text{price variance} + \text{quantity variance} = \text{SQ} \cdot \text{SP} - \text{AQ} \cdot \text{AP} \,.$$
+  - variance analysis / sign ::@:: In the above equations, a positive sign is favorable and a negative sign is unfavorable. Favorable means the actual total cost is _lower_ than budgeted, and vice versa. _Revenue_ is ignored. <p> An alternative notation is to append "F" for favorable \(positive\) and "U" for unfavorable \(negative\) instead of using positive and negative signs.
+- [direct materials variance](../../../../general/direct%20material%20total%20variance.md) ::@:: It is the difference between the actual cost of actual number of units produced and its budgeted cost in terms of material. It can be divided into two components: the direct material _price variance_ and the direct material _quantity variance_.
+  - direct materials variance / actual price and quantity ::@:: Generally, you are given the actual _total_ price, actual quantity, and actual units produced and sold. <p> The actual price \(AP\) is computed by dividing the actual total price by the actual quantity. The actual quantity \(AQ\) is used as is.
+  - direct materials variance / standard price and quantity ::@:: Generally, you are given the standard price, standard quantity per unit, and actual units produced and sold. <p> The standard price \(SP\) is used as is. The standard quantity \(SQ\) is computed by multiplying the standard quantity per unit by the actual units produced and sold.
+  - direct materials variance / price variance ::@:: The direct materials price variance is calculated as price variance outlined above.
+  - direct materials variance / quantity variance ::@:: The direct materials quantity variance as quantity variance outlined above.
+- [direct labor variance](../../../../general/direct%20labor%20cost%20variance.md) ::@:: It is the difference between the standard cost for actual production and the actual cost in production. It can be divided into two components: the direct labor _rate variance_ \(_price variance_\) and the direct labor _efficiency variance_ \(_quantity variance_\).
+  - direct labor variance / actual rate and hours ::@:: Generally, you are given the actual _total_ price, actual hours, and actual units produced and sold. <p> The actual rate \(AR\) is computed by dividing the actual total price by the actual hours. The actual hours \(AH\) is used as is.
+  - direct labor variance / standard rate and hours ::@:: Generally, you are given the standard rate, standard hours per unit, and actual units produced and sold. <p> The standard rate \(SR\) is used as is. The standard hours \(SH\) is computed by multiplying the standard hours per unit by the actual units produced and sold.
+  - direct labor variance / rate variance ::@:: The direct labor rate variance is calculated as price variance outlined above.
+    - direct labor variance / rate variance / factors ::@:: Usually, both the hiring and production managers are responsible. Factors include employee hiring and promotion timing, employee turnover, labor market conditions, mix of labor rates assigned, etc.
+  - direct labor variance / efficiency variance ::@:: The direct labor efficiency variance is calculated as quantity variance outlined above.
+    - direct labor variance / efficiency variance / factors ::@:: Usually, the production managers are responsible. Factors include employee morale/motivation, mix of skill levels assigned, supervision quality, training quantity, etc.
+- variance manufacturing overhead variance ::@:: It is the difference between the standard variable manufacturing overhead and the actual variable manufacturing overhead. It can be divided into two components: the VOH _rate variance_ \(_price variance_\) and the VOH _efficiency variance_ \(_quantity variance_\).
+  - variance manufacturing overhead variance / actual rate and cost driver ::@:: Generally, you are given the actual _total_ VOH cost, actual cost driver \(actual hours\), and actual units produced and sold. <p> The actual VOH rate \(AR\) is computed by dividing the actual total VOH cost by the actual cost driver \(actual hours\). The actual cost driver \(actual hours \(AH\)\) is used as is.
+  - variance manufacturing overhead variance / standard rate and cost driver ::@:: Generally, you are given the standard VOH rate, standard cost driver \(standard hours\) per unit, and actual units produced and sold. <p> The standard VOH rate \(SR\) is used as is. The standard cost driver \(standard hours \(SH\)\) is computed by multiplying the standard cost driver \(standard hours\) per unit by the actual units produced and sold.
+  - variance manufacturing overhead variance / rate variance ::@:: The VOH rate variance is calculated as price variance outlined above.
+    - variance manufacturing overhead variance / rate variance / factors ::@:: Factors include paying less or more for overhead items, using less or more overhead items, etc.
+  - variance manufacturing overhead variance / efficiency variance ::@:: The VOH efficiency variance is calculated as quantity variance outlined above.
+    - variance manufacturing overhead variance / efficiency variance / factors ::@:: Importantly, it does _not_ reflect overhead control. Rather, it reflects efficiency of the underlying cost driver \(direct labour hours\).
+- variance analysis
+  - variance analysis / actions ::@:: Companies hold the corresponding managers for specific variances, and remove or mitigate factors beyond the managers' control.
+- fixed manufacturing overhead variance ::@:: It is the difference between the _applied_ fixed manufacturing overhead and the actual fixed manufacturing overhead. It can be divided into two components: the FOH _spending variance_/budget variance and the FOH _volume variance_/capacity variance.
+  - fixed manufacturing overhead variance / actual, budgeted, and applied FOH ::@:: Generally, you are given the actual FOH, budgeted FOH, budgeted volume, and actual units produced and sold. <p> The actual FOH is used as is. The budgeted FOH is used as is. The applied FOH is computed by multiplying the FOH rate by the actual units produced and sold. The FOH rate is found by dividing the budgeted FOH by the budgeted volume.
+  - fixed manufacturing overhead variance / spending variance ::@:: The FOH spending variance is computed by subtracting budgeted FOH by actual FOH.
+  - fixed manufacturing overhead variance / volume variance ::@:: The FOH volume variance is computed by subtracting applied FOH by budgeted FOH. <p> This implies that producing more units than budgeted is _favorable_, since FOH should not vary with volume, so higher volume means less FOH per unit.
+- [capital budgeting](../../../../general/capital%20budgeting.md) ::@:: It in corporate finance, corporate planning and accounting is an area of are worth the funding of cash through the firm's capitalization structures \(debt, equity or retained earnings\).
+  - capital budgeting / decision ::@:: It is a decision-making approach about investments, which include cost cutting, expansion, lease or buy, replacement, research, etc. <p> The basic question to answer is if a proposed project is worth the upfront investment.
+  - capital budgeting / methods ::@:: accounting rate of return \(ARR\), internal rate of return \(IRR\), net present value \(NPV\), \(non-discounted\) payback period, profitability index \(PI\) <p> basis: ARR is based on net income. The rest are based on cash flows. <br/> discounting: ARR and payback period are non-discounting. The rest are discounting.
+- [accounting rate of return](../../../../general/accounting%20rate%20of%20return.md) \(ARR\) ::@:: It is a financial ratio used in capital budgeting. The ratio does not take into account the concept of time value of money. ARR calculates the return, generated from net income of the proposed capital investment. The ARR is a percentage return. Say, if ARR = 7%, then it means that the project is expected to earn seven cents out of each dollar invested \(yearly\).
+  - accounting rate of return / decision rule ::@:: If the ARR is equal to or greater than the required rate of return, the project is acceptable. If it is less than the desired rate, it should be rejected. When comparing investments, the higher the ARR, the more attractive the investment. More than half of large firms calculate ARR when appraising projects.
+  - accounting rate of return / formulas ::@:: There are many different formulas. \(__this course__: annual net operating income \(including depreciation\) ÷ initial investment\)
+  - accounting rate of return / advantages ::@:: The key advantage of ARR is that it is easy to compute and understand.
+  - accounting rate of return / disadvantages ::@:: The main disadvantage of ARR is that it disregards the time factor in terms of time value of money or risks for long term investments. The ARR is built on evaluation of profits, and it can be easily manipulated with changes in depreciation methods. The ARR can give misleading information when evaluating investments of different size.
+- [cash flow](../../../../general/cash%20flow.md) ::@:: It, in general, refers to payments made into or out of a business, project, or financial product.
+  - cash flow / vs. net income ::@:: Depreciation is a _non-cash_ expense to allocate the cost of an asset over its lifetime. <p> On top of the net income, we need to remove capital expenditure and add depreciation to get the net cash flow.
+  - cash flow / operational cash flow ::@:: incremental earnings \(_unlevered_ net income\) + depreciation
+- [payback period](../../../../general/payback%20period.md) ::@:: It is the time required to recoup the funds expended in an investment, or to reach the break-even point. <p> It _does not discount_ the cash flows.
+  - payback period / calculation ::@:: Calculate the time required to payback the initial investment. No discounting is done. <p> On an annual basis, subtract annual net cash flows from the initial investment until it is non-positive. Each subtraction adds one year to the payback period except for the last year. For the last year, assume the net cash flows is received evenly continuously, so simply divide the remaining unpaid investment by the annual net cash flow, and add this to the payback period.
+  - payback period / decision rule ::@:: We can set a maximum payback period, and accept projects those payback period is not greater than this maximum. <p> Alternatively, payback period can be used to prioritize projects in increasing payback periods.
+  - payback period / advantages ::@:: Simple. Favors liquidity.
+  - payback period / disadvantages ::@:: Time value of money \(TVM\) is ignored. Cash flows after the payback period is ignored.
+
+## week 12 makeup lecture
+
+- datetime: 2025-04-24T16:30:00+08:00/2025-04-24T17:50:00+08:00, PT1H20M
+- topic: capital budgeting
+- [time value of money](../../../../general/time%20value%20of%20money.md) ::@:: It refers to the fact that there is normally a greater benefit to receiving a sum of money now rather than an identical sum later. It may be seen as an implication of the later-developed concept of time preference.
+  - time value of money / timeline ::@:: This tool can visualize cash inflows and outflows easily. It is a number line staring from time 0 on the left. Label cash inflows \(positive; e.g. return\), cash outflows \(negative; e.g. investments\), and their amounts under the number line.
+  - time value of money / future value ::@:: Move the cash flow forward in time: $FV = PV \cdot (1 + r)^t$, where $t$ is the number of time periods forward \(beware of off-by-one error\).
+    - time value of money / future value / compounding ::@:: Future value uses compound interest instead of simple interest. In the former, interest is earned on principal only. In the latter, interest is earned on principal and interest received. <p> Given a long enough time, compound interest gives much money money than simple interest. On a graph, compound interest increases exponentially while simple interest increases linearly.
+  - time value of money / present value ::@:: Move the cash flow backward in time: $PV = \frac {FV} {(1 + r)^t}$, where $t$ is the number of time periods backwards \(beware of off-by-one error\).
+  - time value of money / combining cash flow ::@:: Only cash flows at the same time can be added together. Cash flows at different time must be converted to cash flows at the same time by either compounding or discounting cash flows.
+- [discounted cash flow](../../../../general/discounted%20cash%20flow.md) ::@:: It is a method used to value a security, project, company, or asset, that incorporates the time value of money.
+  - discounted cash flow / methods ::@:: net present value \(NPV\), internal rate of return \(IRR\), profitability index \(PI\)
+  - discounted cash flow / assumptions ::@:: Various assumptions are used to simplify calculations when using discounted cash flow. \(__this course__: We make 3 important _assumptions_: future cash flows happen at year end, future cash flows are immediately reinvested, and future cash flows are certain.\)
+- [net present value](../../../../general/net%20present%20value.md) (NPV) ::@:: net present value (NPV) = present value (benefits/cash inflows) − present value (costs/cash outflows)
+  - net present value / interpretation ::@:: Zero NPV (cf. _normal profit_ in economics) allows us to recover invested capital (i.e. no loss) and receive return on capital (i.e. return comparable with the market interest rate). Positive NPV (cf. _abnormal profit_ in economics) _additionally_ allows us to create _value_ for investors (i.e. extra return above the market interest rate).
+    - net present value / interpretation / zero NPV ::@:: From an economics standpoint, in a _perfectly_ competitive/efficient market, there should not be any abnormal profit, i.e. no investments with positive NPV. Investments are either zero or negative NPV. So you _should accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to. <p> \(Of course, the real world is not _perfectly_ competitive/efficient...\)
+- [present value](../../../../general/present%20value.md) ::@:: Money obtained in the future has less value in the present due to interest rate. <p> Present value and future value are related by: $$\text{FV} = (1 + r)^t \text{PV} \,,$$ where $r$ is the interest rate in a time period, and $t$ is the number (can be fractional) of time periods. Or just look up in a table... \(Present Value Interest Factors for One Dollar Discounted at _k_ Percent for _n_ Periods: PVIF\)
+  - present value / annuity ::@:: The present value, if you add a fixed amount of money at the _end_ (not the _start_) of each period. So it always starts with a number smaller than 1. <p> Look up in a table... \(Present Value Interest Factors for a One-Dollar Annuity Discounted at _k_ Percent for _n_ Periods: PVIFA\)
+- [future value](../../../../general/future%20value.md) ::@:: Money obtained in the present has more value in the future due to interest rate. <p> Present value and future value are related by: $$\text{FV} = (1 + r)^t \text{PV} \,,$$ where $r$ is the interest rate in a time period, and $t$ is the number (can be fractional) of time periods. Or just look up in a table... \(Future Value Interest Factors for One Dollar Compounded at _k_ Percent for _n_ Periods: FVIF\)
+  - future value / annuity ::@:: The future value at the _ending_ period, if you add a fixed amount of money at the _end_ (not the _start_) of each period. So it always starts with 1. <p> Look up in a table... \(Future Value Interest Factors for a One-Dollar Annuity Compounded at _k_ Percent for _n_ Periods: FVIFA\)
+- [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals.
+- [internal rate of return](../../../../general/internal%20rate%20of%20return.md) \(IRR\) ::@:: It is a method of calculating an investment's rate of return. The term _internal_ refers to the fact that the calculation excludes external factors, such as the risk-free rate, inflation, the cost of capital, or financial risk.
+  - internal rate of return / application timing ::@:: The method may be applied either ex-post (after) or ex-ante (before). Applied ex-ante, the IRR is an estimate of a future annual rate of return. Applied ex-post, it measures the actual achieved investment return of a historical investment.
+  - internal rate of return / definition ::@:: It of an investment or project is the "annualized effective compounded return rate" or rate of return that sets the net present value (NPV) of all cash flows (both positive and negative) from the investment equal to zero.
+  - internal rate of return / calculation ::@:: Similar to calculating interest rate, there is no closed formula for it. Either use Microsoft Excel, a financial calculator, or use trial-and-error.
+  - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\)
+  - internal rate of return / intuition ::@:: It is the discount rate needed to make all cash flows now and in the future to have a net present value of zero. Notice that it does not distinguish between inflow and outflow: Both are discounted by equal amount given that they have the same timing. This means if more inflows are in the farther future, inflows are discounted more. Same goes for outflows. <p> This explains the difference in the decision rules for investment and loan/delayed investment. In the former, the cash flows being discounted are the inflows. Higher IRR means the inflows are worth more to begin with before being discounted. So higher is better. In the latter the cash flows being discounted are the outflows. Higher IRR means the outflows are worth more to begin with before being discounted. So lower is better.
+  - internal rate of return / weakness ::@:: It generally cannot be used for non-conventional cash flows \(neither an investment nor a loan/delayed investment\). <p> For mutually exclusive projects, IRR is _scale-independent_ and _timing-dependent_, so it is not suitable. <p> Since all cash flows are assumed to be discounted at the internal rate of return, this means we are assuming an environment where all cash inflows can be \(re-\)invested at the internal rate of return rather than the cost of capital. For an investment with high IRR, this may over-estimate the return.
+  - internal rate of return / decision rule ::@:: For a standalone investment, _accept_ those with an IRR of _at least_ the cost of capital. _Reject_ others. For a standalone loan/delayed investment, _accept_ those with an IRR _not higher than_ the cost of capital. _Reject_ others. These rules are _consistent_ (i.e. make the same decision) as that for NPV, given that projects are of _similar_ _duration_/_life_, _scale_, and _timing_. <p> For non-conventional cash flows (neither an investment nor a loan/delayed investment) or mutually exclusive projects, IRR is generally unsuitable, and we should use NPV or other rules instead.
+- [profitability index](../../../../general/profitability%20index.md) \(PI\) ::@:: It is the ratio of payoff to investment of a proposed project. It is a useful tool for ranking projects because it allows you to quantify the amount of value created per unit of investment.
+  - profitability index / calculation ::@:: The ratio is calculated as follows: $${\text{Profitability index} }={\frac {\text{PV of future cash flows} }{\text{Initial investment} } }=1+{\frac {\text{NPV} }{\text{Initial investment} } } \,.$$
+  - profitability index / interpretation ::@::Assuming that the [cash flow](../../../../general/cash%20flow.md) calculated does not include the investment made in the project, a profitability index of 1 indicates break-even. Any value lower than one would indicate that the project's present value \([PV](../../../../general/present%20value.md)\) is less than the initial investment. As the value of the profitability index increases, so does the financial attractiveness of the proposed project.
+- net present value
+  - net present value / decision rule ::@:: For standalone projects \(i.e. either take or leave\), _accept_ positive NPV projects. _Reject_ negative NPV projects. _Accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to, for the reasons described above. \(__this course__: indifferent for zero NPV projects\) <p> To choose among mutually exclusive projects, choose the alternative with the _highest non-negative_ NPV. If all projects have negative NPV, then _reject all_.
+  - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 \(zero NPV\) has an _x_ value that is the _internal rate of return_ \(IRR\). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing. <p> Note that for unconventional cash flows, all of the above \(include increasing/decreasing graphs)\ may not be true. In fact, it is possible to have multiple points where the graph crosses _y_ = 0, yielding _multiple IRRs_.
+  - net present value / incremental ::@:: When using incremental NPV to compare two choices, identify which one is the "default" choice. Then the incremental cash flows are computed by subtracting the other choice by the "default" choice. <p> The decision rule is the same.
+  - net present value / note ::@:: \(__this course__: Ideally, use a _table_ to calculate the NPV. Depreciation can sometimes be considered part of fixed manufacturing costs. When an asset has a salvage value, we usually assume we sell it at its end of life at the salvage value, since otherwise you need to consider taxation on asset gain or loss.\)
+- profitability index
+  - profitability index / use ::@:: It is used to prioritize non-mutually exclusive investment projects given limited capital. The higher the index, the higher its priority.
+
+> Dear L07 and L09 Students,
+>
+> As I was sick and could not teach, please find the Zoom videos for the Monday class. I have broken it down into two Zoom videos. Summary for watching video is here.
+>
+> 21 April \(Public Holiday\): Watch RVC for L08 24 April \(4:30 pm -5:50 pm\)
+>
+> 28 April \(sick\): Watch Zoom video here \(first video and second video\)
+>
+> Best regards,
+>
+> \[redacted\]
+>
+> First video
+>
+> \[redacted\]
+>
+> Second video
+>
+> \[redacted\]
+>
+> \[redacted\]
+
+## week 13 lecture
+
+- datetime: 2025-04-28T12:00:00+08:00/2025-04-28T13:20:00+08:00, PT1H20M
+- status: canceled, sick
+
+> Dear L07 and L09 Students,
+>
+> As I was sick and could not teach, please find the Zoom videos for the Monday class. I have broken it down into two Zoom videos. Summary for watching video is here.
+>
+> 21 April \(Public Holiday\): Watch RVC for L08 24 April \(4:30 pm -5:50 pm\)
+>
+> 28 April \(sick\): Watch Zoom video here \(first video and second video\)
+>
+> Best regards,
+>
+> \[redacted\]
+>
+> First video
+>
+> \[redacted\]
+>
+> Second video
+>
+> \[redacted\]
+>
+> \[redacted\]
+
+## week 13 lecture 2
+
+- datetime: 2025-04-30T12:00:00+08:00/2025-04-30T13:20:00+08:00, PT1H20M
+- topic: capital budgeting
+- [free cash flow](../../../../general/free%20cash%20flow.md) \(FCF\) ::@:: t is the amount by which a business's operating cash flow exceeds its working capital needs and expenditures on fixed assets \(known as capital expenditures\). It is that portion of cash flow that can be extracted from a company and distributed to creditors and securities holders without causing issues in its operations.
+  - free cash flow / tax ::@:: Calculated as EBIT × _marginal_ corporate tax rate. It is a cash outflow. If negative, it becomes _tax credit_ and is a cash inflow. \(In accounting, the treatment of taxes is much more complicated.\) <p> Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is ignored. This explains why tax is calculated using EBIT instead of \(EBIT – interest\), even though the _actual_ tax is based on the latter.
+  - free cash flow / incremental earnings ::@:: Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is also ignored \(apart from ignoring interest expense\). Thus, the incremental earnings calculate tax using EBIT instead of \(EBIT – interest\). Hence, incremental earnings is also called _unlevered_ net income.
+  - free cash flow / interest expense ::@:: Interest expense and tax shield due to interest expense is not included. <p> The motivation is FCF is cash distributable to both stockholders and _debt holders_. So a project should be judged with its operating cost, not financing cost. <p> The debt—equity mix should be considered separately.
+- [tax shield](../../../../general/tax%20shield.md) ::@:: It is the reduction in income taxes that results from taking an allowable deduction from taxable income. For example, because interest on debt is a tax-deductible expense, taking on debt creates a tax shield. <p> \(Note that FCF is usually _unlevered_, so debt tax shield is excluded.\)
+  - tax shield / importance ::@:: Since a tax shield is a way to save cash flows, it increases the value of the business, and it is an important aspect of business valuation.
+  - tax shield / free cash flow ::@:: When calculating incremental earnings/_unlevered_ net income, depreciation is subtracted before applying the tax rate. Then, when calculating FCF, depreciation is added back. <p> With the tax shield approach, when calculating FCF, depreciation is _not_ subtracted before applying the tax rate. After applying the tax rate, depreciation _multiplied by the tax rate_ is added back. This is mathematically equivalent to the previous paragraph. <p> Note that FCF is usually _unlevered_, so debt tax shield is excluded.
+    - tax shield / free cash flow / application ::@:: The tax shield approach is very good for simplifying calculations, as long as you understand it. For example, it can be used to compute the change in FCF after buying an equipment due to depreciation.
+- net book value
+  - net book value / after-tax salvage value ::@:: The difference between the actual sale value and the net book value is the gain or loss from selling the asset in accounting. This gain or loss is subject to tax. If you have gain, you have tax due. If you have loss, you have tax credit. <p> Thus, the actual cash flow is the actual sale value and the tax effect: $$\text{after-tax salvage value} = \text{sale price} - \text{gain} \times \text{corporate marginal tax rate} \,.$$ For loss, the "gain" is negative, so the above equation still applies.
+
+## week 13 makeup lecture
+
+- datetime: not applicable
+- topic: decentralized performance evaluation
+- [decentralization](../../../../general/decentralization.md) ::@:: It is the process by which the activities of an organization, particularly those related to planning and decision-making, are distributed or delegated away from a central, authoritative location or group and given to smaller factions within it.
+  - decentralization / responsibility ::@:: Decentralization often occurs as organization grows. Smaller decisions often get pushed to lower level managers. This decentralizes _responsibility_.
+    - decentralization / responsibility / advantages ::@:: develop managerial expertise <br/> free up time for strategic issues for higher level managers <br/> lower level managers can make more informed \(more knowledge in their responsible areas\) and quicker decisions
+    - decentralization / responsibility / disadvantages ::@:: duplication of resources performing the same functions in multiple areas <br/> principal–agent problem: managers may make decisions that benefit themselves but not necessarily the organization as a whole
+- [responsibility center](../../../../general/responsibility%20center.md) ::@:: It is an organizational unit headed by a manager, who is responsible for its activities and results. In responsibility accounting, revenues and cost information are collected and reported on by responsibility centers.
+  - responsibility center / responsibility accounting ::@:: It supports __responsibility accounting__, which allows managers to be responsible for a _particular_ area of an organization and _only_ for that area. Then, performance can be evaluated based on centers.
+  - responsibility center / types ::@:: 4 common ones: cost center, investment center, profit center, revenue center
+  - responsibility center / cost center ::@:: It is characterized by the lowest level of responsibility compared to the other two centers. Their managers are expected to produce as much output with a fixed amount of resources/input and to reduce costs. <p> Managers are generally evaluated based on cost control and reduction as they have no delegation to increase sales generation. <p> Examples include purchasing managers.
+  - responsibility center / revenue center ::@:: It is characterized by the lowest level of responsibility compared to the other two centers. Their managers are expected to generate as much revenue by increasing sales. <p> Managers are generally evaluated based on sales and revenue generation. <p> Examples include account managers of online sales team.
+  - responsibility center / profit center ::@:: It  is characterized by the responsibility to choose inputs and outputs with a fixed level of investment. <p> A typical measurement for profit center management is the ability to maximize profits as they are responsible for both costs and revenues.
+  - responsibility center / investment center ::@:: It has the highest level of delegated autonomy. Investment center's have the highest level of autonomy as they can determine the level of inputs, outputs and additional investments. <p> The most common metric for evaluating management performance is the return on investment \(ROI\). The unit can be held responsible for generating an adequate ROI as the business unit has the autonomy to determine the key influencing variables. <p> Examples include real estate managers.
+- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions.
+  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves.
+  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\).
+    - balanced scorecard / first generation / financial ::@:: It encourages the identification of a few relevant high-level financial measures. In particular, designers were encouraged to choose measures that helped inform the answer to the question "How do we look to shareholders?".
+      - balanced scorecard / first generation / financial / measures ::@:: cash flow, economic value added \(EVA\), profitability, residual income, return on investment \(ROI\), sales growth, etc.
+    - balanced scorecard / first generation / customer ::@:: It encourages the identification of measures that answer the question "What is important to our customers and stakeholders?".
+      - balanced scorecard / first generation / customer / measures ::@:: customer satisfaction, market share, on time delivery, percent of sales from new products, share of important customers' purchases, etc.
+    - balanced scorecard / first generation / internal business processes ::@:: It encourages the identification of measures that answer the question "What must we excel at?" or "What do we need to meet the needs of our customers, employees, and stakeholders?".
+      - balanced scorecard / first generation / internal business processes / measures ::@:: average days to market, cycle time, defective rate, inventory stock outs, percent of new products, unit cost, yield, etc.
+    - balanced scorecard / first generation / learning and growth ::@:: It encourages the identification of measures that answer the question "How can we continue to improve, create value and innovate?".
+      - balanced scorecard / first generation / learning and growth / measures ::@:: employee satisfaction, lifecycle to product maturity, number of new patent applications, research and development \(R&D\) spending, time to market versus competition, etc.
+- [return on investment](../../../../general/return%20on%20investment.md) \(ROI\) ::@:: It is the ratio between net income \(over a period\) and investment \(costs resulting from an investment of some resources at a point in time\).
+  - return on investment / formula ::@:: $$\text{ROI} = \frac {\text{NOI} } {\text{AIA} } \,,$$ where ROI is return on investment, NOI is net operating income, and AIA is average invested assets. Expanding: $$\text{ROI} = \text{IT} \cdot \text{PM} = \frac {\text{SR} } {\text{AIA} } \cdot \frac {\text{NOI} } {\text{SR} } \,,$$ where IT is investment turnover, PM is profit margin, and SR is sales revenue.
+  - return on investment / average invested assets ::@:: Take the average of the invested assets at year start and year end.
+  - return on investment / investment turnover ::@:: Literally just $$\text{investment turnover} = \frac {\text{sales revenue} } {\text{average invested assets} } \,.$$
+  - return on investment / profit margin ::@:: Literally just $$\text{profit margin} = \frac {\text{net operating income} } {\text{sales revenue} } \,.$$
+- [residual income valuation](../../../../general/residual%20income%20valuation.md) \(RIV\) ::@:: It is an approach to [equity valuation](../../../../general/equity%20valuation.md) that formally accounts for the [cost of equity](../../../../general/cost%20of%20equity.md) capital. Here, "residual" means in excess of any [opportunity costs](../../../../general/opportunity%20cost.md) measured relative to the book value of [shareholders' equity](../../../../general/shareholders'%20equity.md); __residual income__ \(RI\) is then the income generated by a firm after accounting for the true [cost of capital](../../../../general/cost%20of%20capital.md).
+  - residual income valuation / residual income ::@:: It is computed as: $$\text{net operating income} - \text{minimum acceptable profit} \,,$$ where the minimum acceptable profit can be computed as: $$\text{average invested assets} \cdot \text{hurdle rate} \,.$$
+    - residual income valuation / residual income / return on investment ::@:: It can be computed from return on investment: $$\text{average invested assets} \cdot \text{residual return} \,,$$ where residual return is computed as: $$\text{return on investment} - \text{hurdle rate} \,.$$
+  - residual income valuation / hurdle rate ::@:: It is the required return on invested assets, sometimes called the _required rate of return_.
+  - residual income valuation / interpretation ::@:: It is a company's extra profit that is in excess of needed to meet the required rate of return.
+  - residual income valuation / characteristics ::@:: It is _scale-variant_, i.e. takes project _scale_ \(average invested assets\) into account. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
+- return on investment
+  - return on investment / characteristics ::@:: It is _scale-invariant_, i.e. does not take project _scale_ \(average invested assets\) into account. So managers may make wrong decisions if ROI is used as the only performance measure. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
+- [transfer pricing](../../../../general/transfer%20pricing.md) ::@:: It refers to the rules and methods for pricing transactions within and between enterprises under common ownership or control.
+  - transfer pricing / range ::@:: The floor is the unit variable cost, otherwise the selling division would have negative contribution margin and not produce the product \(shutdown\). <p> The ceiling is the market price, otherwise the purchasing division would buy from the market directly.
+  - transfer pricing / methods ::@:: cost-based method \(floor, approximately\), negotiation, market-price method \(ceiling\)
+  - transfer pricing / market-price method ::@:: Use the market price \(ceiling\), the price a company would charge to external customers. <p> It is appropriate when the selling division has no excess capacity, since the selling division would have opportunity cost equaling the market price.
+  - transfer pricing / cost-based method ::@:: Use the unit variable cost \(floor\), unit full cost, or unit variable cost with percent markup. Any transfer price above the unit variable cost provides contribution margin to the selling division. <p> It is appropriate when the selling division has excess/idle capacity \(usually due to insufficient or no market demand\), since the selling division have zero opportunity cost.
+  - transfer pricing / negotiation ::@:: Price is determined by negotiation between managers of the selling division and purchasing division. <p> The resulting price depends on capacity of the selling division and their relative negotiating power \(the more power a division has, the more favorable the transfer price is to the division\). <p> Disadvantages include management time used on negotiation and potentially creating adversarial relations between divisions.
+  - transfer pricing / effect ::@:: Assume the pricing is in between the floor and the ceiling. Then the transfer price determines the amount of benefits received by the selling division \(contribution margin\) and purchasing division \(savings compared to buying from the market\).
+
+> Dear L07 and L09 Students,
+>
+> As I was sick and could not teach, please find the Zoom videos for the Monday class. I have broken it down into two Zoom videos. Summary for watching video is here.
+>
+> 21 April \(Public Holiday\): Watch RVC for L08 24 April \(4:30 pm -5:50 pm\)
+>
+> 28 April \(sick\): Watch Zoom video here \(first video and second video\)
+>
+> Best regards,
+>
+> \[redacted\]
+>
+> First video
+>
+> \[redacted\]
+>
+> Second video
+>
+> \[redacted\]
+>
+> \[redacted\]
+
+## week 14 lecture
+
+- datetime: 2025-05-05T12:00:00+08:00/2025-05-05T13:20:00+08:00, PT1H20M
+- status: unscheduled, public holiday: Buddha's Birthday
+
+## week 14 lecture 2
+
+- datetime: 2025-05-07T12:00:00+08:00/2025-05-07T13:20:00+08:00, PT1H20M
+- topic: decentralized performance evaluation
+- [triple bottom line](../../../../general/triple%20bottom%20line.md) \(TBL\) ::@:: It is an accounting framework with three parts: _social_, _environmental_ \(or ecological\) and _economic_. Some organizations have adopted the TBL framework to evaluate their performance in a broader perspective to create greater business value.
+  - triple bottom line / social ::@:: The people, social equity, or human capital bottom line pertains to fair and beneficial business practices toward labour and the community and region in which a corporation conducts its business. A TBL company conceives a reciprocal social structure in which the well-being of corporate, labour and other stakeholder interests are interdependent.
+  - triple bottom line / environmental ::@:: The planet, environmental bottom line, or natural capital bottom line refers to sustainable environmental practices. A TBL company endeavors to benefit the natural order as much as possible or at the least do no harm and minimize environmental impact.
+  - triple bottom line / economic ::@:: The profit or economic bottom line deals with the economic value created by the organization after deducting the cost of all inputs, including the cost of the capital tied up. It therefore differs from traditional accounting definitions of profit. In the original concept, within a sustainability framework, the "profit" aspect needs to be seen as the real economic benefit enjoyed by the host society. It is the real economic impact the organization has on its economic environment.
+    - triple bottom line / economic / confusion ::@:: This is often confused to be limited to the internal profit made by a company or organization \(which nevertheless remains an essential starting point for the computation\). Therefore, an original TBL approach cannot be interpreted as simply traditional corporate accounting profit _plus_ social and environmental impacts unless the "profits" of other entities are included as a social benefit.
 
 ## examination 3
 
