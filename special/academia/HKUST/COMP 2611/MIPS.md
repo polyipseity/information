@@ -133,10 +133,10 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
   - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>.
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended
-  - shift right arithmetic / arithmetic ::@:: It has the same effect as dividing \(rounded towards zero\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible.
+  - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible.
 - shift right arithmetic variable ::@:: `srav $d, $t, h`: `$d = $t >> h;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits
 - shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0
-  - shift right logical / arithmetic ::@:: It has the same effect as dividing \(rounded towards zero\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible.
+  - shift right logical / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible.
 - shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits
 
 ### data instructions

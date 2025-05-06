@@ -44,7 +44,7 @@ a_{2, 1}                          & a_{2, 2}                          & \cdots  
 a_{m, 1}                          & a_{m, 2}                          & \cdots                            & a_{m, n}                          & \bigm | & b_m                               \\
 \end{bmatrix}$$
 
-Treat the augmented matrix as a normal matrix. Then, we can write the solutions of the linear equation as:
+Treat the augmented matrix as an ordinary matrix. Then, we can write the solutions of the linear equation as:
 
 $$\begin{bmatrix}
 a_{1, 1} & a_{1, 2} & \cdots & a_{1, n} & b_1    \\
@@ -64,7 +64,7 @@ c      \\
 0      \\
 \end{bmatrix} \qquad c \in \mathbb R$$
 
-Now consider two equivalent systems of linear equations. They have the same solution set. Rewrite the two systems into the above form. We want to prove that the (right) nullspace of the corresponding augmented matrix, treated as a normal matrix, are the same for two systems. Consider 3 cases: $c = -1$, $c \notin \set{0, -1}$, and $c = 0$.
+Now consider two equivalent systems of linear equations. They have the same solution set. Rewrite the two systems into the above form. We want to prove that the (right) nullspace of the corresponding augmented matrix, treated as an ordinary matrix, are the same for two systems. Consider 3 cases: $c = -1$, $c \notin \set{0, -1}$, and $c = 0$.
 
 When $c = -1$, the above form directly corresponds to the two systems. So both systems have the same set of solution vectors for the above form.
 
@@ -78,7 +78,7 @@ It is impossible for a homogeneous system and an inhomogeneous one to be equival
 
 If the two systems are originally both inhomogeneous, equality cannot be proved, so we need to introduce a mild condition. (This was the problem encountered while trying to prove the converse is true, which is not.) The mild condition is that __the two original systems of linear equations are consistent, or equivalently, have a _nonempty_ set of solution__. Then, we can prove it: Assume there exists two equivalent inhomogeneous systems, but their corresponding homogeneous systems are not equivalent. Then we can take any solution A from the _nonempty_ set of solution for the two equivalent inhomogeneous systems. Then also take a solution B that is a solution to one of the homogeneous system but not the other (this must exist because a homogeneous system must have the zero solution). Add the inhomogeneous solution A and the homogeneous solution B together to produce a new solution C for the two equivalent inhomogeneous systems. This creates a contradiction. The solution C could not have been a solution for both inhomogeneous systems, otherwise their corresponding homogeneous systems would have had the solution B. So we conclude that their corresponding homogeneous systems are also equivalent.
 
-This proves that the (right) nullspace of the augmented matrix, treated as a normal matrix, are the same for two equivalent systems, under the mild condition that the systems are consistent. Then, this implies the row space of the augmented matrix are the same for both, since the row space is the (unique) orthogonal complement of the nullspace. Finally, since elementary row operations can generate all other bases of a row space from one basis, the augmented matrices are row equivalent. Q.E.D.
+This proves that the (right) nullspace of the augmented matrix, treated as an ordinary matrix, are the same for two equivalent systems, under the mild condition that the systems are consistent. Then, this implies the row space of the augmented matrix are the same for both, since the row space is the (unique) orthogonal complement of the nullspace. Finally, since elementary row operations can generate all other bases of a row space from one basis, the augmented matrices are row equivalent. Q.E.D.
 
 As for the counterexample, consider two inconsistent (and thus inhomogeneous) systems. They are equivalent as they have an empty solution set. Then, make the row spaces of the two systems different. A counterexample is:
 
