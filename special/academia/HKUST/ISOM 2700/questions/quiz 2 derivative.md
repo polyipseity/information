@@ -20,7 +20,7 @@ tags:
 > What is the average service rate \(per hour\)?
 >
 > - solution: {@{20 customers per hour}@}
-> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-05-29,37,290!2025-04-29,15,290-->
+> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-05-29,37,290!2025-06-30,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -31,7 +31,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2025-04-29,15,290!2025-04-29,15,290-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2025-06-15,46,290!2025-07-01,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -42,7 +42,7 @@ tags:
 > What is the idle time fraction?
 >
 > - solution: {@{0.25}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2025-04-29,15,290!2025-04-29,15,290-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2025-07-02,63,310!2025-07-01,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -55,7 +55,7 @@ tags:
 > What is the utilization level of the system?
 >
 > - solution: {@{0.375}@}
-> - explanation: {@{15/\(20\*2\) = 0.375. Alternatively, 0.75/2 = 0.375.}@} <!--SR:!2025-04-29,15,290!2025-04-29,15,290-->
+> - explanation: {@{15/\(20\*2\) = 0.375. Alternatively, 0.75/2 = 0.375.}@} <!--SR:!2025-07-02,63,310!2025-07-02,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -68,7 +68,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{1.2}@}
-> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@} <!--SR:!2025-04-29,15,290!2025-04-29,15,290-->
+> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@} <!--SR:!2025-07-02,63,310!2025-07-02,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -79,7 +79,7 @@ tags:
 > What is its process capability index?
 >
 > - solution: {@{1.25}@}
-> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2025-04-29,15,290!2025-04-29,15,290-->
+> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2025-06-30,61,310!2025-07-01,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -90,7 +90,7 @@ tags:
 > What is the maximum standard deviation to ensure a process capability index of 2?
 >
 > - solution: {@{0.025&nbsp;cm}@}
-> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2025-04-29,15,290!2025-06-04,43,290-->
+> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2025-06-30,61,310!2025-06-04,43,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2025-04-29,15,290!2025-05-29,37,290-->
+> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2025-07-01,62,310!2025-05-29,37,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -113,7 +113,7 @@ tags:
 > A customer arrives at a restaurant every 12&nbsp;minutes on average, and takes 30&nbsp;minutes on average to finish a meal. How many seats do you need at least to serve the customers \(without the queue exploding\)?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@} <!--SR:!2025-04-29,15,290!2025-04-29,15,290-->
+> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@} <!--SR:!2025-06-30,61,310!2025-06-30,61,310-->
 
 <!-- markdownlint MD028 -->
 

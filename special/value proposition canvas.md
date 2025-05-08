@@ -44,7 +44,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.753308+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2025-09-28,385,309!2027-12-12,1021,349-->
-- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2025-05-07,247,289!2026-07-10,449,249-->
+- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2028-01-27,994,309!2026-07-10,449,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→::@::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2025-11-27,370,269!2026-12-11,635,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2026-05-26,463,249!2026-04-14,456,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2027-07-12,831,329!2026-04-26,488,289-->
@@ -59,7 +59,7 @@ Value proposition design works for {@{both new ventures and established organiza
 
 The value proposition canvas has two parts: {@{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}@}. <!--SR:!2027-02-12,679,289-->
 
-The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2027-07-06,896,347!2025-05-02,304,330!2026-12-05,722,329-->
+The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2027-07-06,896,347!2029-02-14,1378,350!2026-12-05,722,329-->
 
 ### customer profile
 
@@ -73,7 +73,7 @@ Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pain
 
 Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2026-01-12,381,249!2027-02-02,794,349!2028-07-01,1206,350-->
 
-Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2025-08-29,372,365!2025-10-05,402,365!2025-05-04,261,345!2026-10-04,678,344-->
+Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2025-08-29,372,365!2025-10-05,402,365!2028-09-27,1238,365!2026-10-04,678,344-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -158,7 +158,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 - _(begin)_→::@::←all: addressing all customer pains and gains <!--SR:!2025-07-25,290,269!2025-07-05,348,349-->
 - all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2025-07-24,139,209!2025-05-15,166,229-->
-- irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2025-04-26,160,209!2025-11-03,301,269-->
+- irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2026-08-29,478,229!2025-11-03,301,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2025-05-18,159,229!2026-04-26,465,269-->
 - mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2025-08-30,331,289!2025-07-12,104,149-->
 
@@ -256,7 +256,7 @@ conclusion: make progress
 
 <!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2025-05-08,298,347-->
+- _(begin)_→::@::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2029-03-30,1422,367-->
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2026-07-28,572,309!2026-08-01,542,270-->
 - test: design tests→::@::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->

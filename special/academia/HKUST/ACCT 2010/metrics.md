@@ -49,5 +49,5 @@ The list is not exhaustive.
 - [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2026-03-19,338,302!2025-06-08,135,302-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2026-01-15,312,342!2026-01-22,318,342-->
 - quality of income ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{net income} }$$ <!--SR:!2025-06-02,76,282!2025-11-02,234,322-->
-- capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2025-05-06,17,282!2025-07-13,150,322-->
+- capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2025-05-15,8,262!2025-07-13,150,322-->
 - [free cash flow](../../../../general/free%20cash%20flow.md) ::@:: $$\text{cash flow from operating activities} - \text{dividends} - \text{capital expenditures}$$ <!--SR:!2026-02-02,327,342!2025-07-07,157,322-->

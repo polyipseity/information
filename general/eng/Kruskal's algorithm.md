@@ -19,13 +19,13 @@ tags:
 >
 > - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2025-12-01,288,330-->
 > - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2025-12-02,289,330!2025-12-09,294,330-->
-> - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2025-10-18,208,270!2025-05-05,78,230-->
+> - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2025-10-18,208,270!2025-11-02,179,230-->
 
 {@{__Kruskal's algorithm__}@}<sup>[\[1\]](#^ref-1)</sup> finds {@{a [minimum spanning forest](minimum%20spanning%20tree.md) of an undirected [edge-weighted graph](glossary%20of%20graph%20theory.md#weighted%20graph)}@}. If {@{the graph is [connected](connectivity%20(graph%20theory).md)}@}, it {@{finds a [minimum spanning tree](minimum%20spanning%20tree.md)}@}. It is {@{a [greedy algorithm](greedy%20algorithm.md) that in each step adds to the forest the lowest-weight edge that will not form a [cycle](cycle%20(graph%20theory).md)}@}.<sup>[\[2\]](#^ref-2)</sup> {@{The key steps of the algorithm}@} are {@{[sorting](sorting.md) and the use of a [disjoint-set data structure](disjoint-set%20data%20structure.md) to detect cycles}@}. Its running time is {@{dominated by the time to sort all of the graph edges by their weight}@}. <!--SR:!2025-10-25,258,330!2025-11-04,266,330!2025-11-14,275,330!2025-10-30,263,330!2025-08-14,197,310!2025-10-21,255,330!2025-11-30,286,330!2025-12-09,294,330-->
 
 {@{A minimum spanning tree of a connected weighted graph}@} is {@{a connected subgraph, without cycles, for which the sum of the weights of all the edges in the subgraph is minimal}@}. For {@{a disconnected graph}@}, {@{a minimum spanning forest}@} is {@{composed of a minimum spanning tree for each [connected component](component%20(graph%20theory).md)}@}. <!--SR:!2025-11-02,264,330!2025-11-28,285,330!2025-11-28,285,330!2025-12-09,294,330!2025-07-09,168,310-->
 
-This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2025-05-31,127,290!2025-08-10,193,310!2025-05-06,112,290!2026-01-24,285,270-->
+This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2025-05-31,127,290!2025-08-10,193,310!2026-04-03,331,290!2026-01-24,285,270-->
 
 ## algorithm
 

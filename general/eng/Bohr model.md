@@ -48,7 +48,7 @@ The combination of natural constants in the energy formula is the {@{Rydberg ene
 
 The energy of a photon emitted by a hydrogen atom is:
 {@{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@}, where {@{$n_f$ is the final energy level and $n_i$ is the initial energy level}@}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {@{making inverse of the wavelength $\frac1\lambda$ the subject}@}, the resulting constant is the {@{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}@}:
-{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2029-01-09,1489,302!2025-05-16,48,130-->
+{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2031-12-25,2428,322!2029-01-09,1489,302!2025-05-16,48,130-->
 
 ## limitations
 
@@ -76,7 +76,7 @@ The Bohr model fails to explain:
 > | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
 > | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
 > | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2025-05-03,328,361!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
+> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2029-10-14,1625,381!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
 
 <!--/pytextgen-->
 

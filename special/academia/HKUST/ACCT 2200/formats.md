@@ -69,7 +69,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{2025-02-14}@} | {@{07:00}@}        | {@{15:00}@}        | {@{8 hours}@}     | {@{100}@}         | {@{800}@}                | {@{69}@}         |
 > |                  |                    | {@{Weekly Total}@} | {@{78 hours}@}    |                   | {@{&dollar;7&nbsp;800}@} |                  |
 >
-> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2025-05-31,66,310!2025-05-04,41,290!2025-05-30,65,310!2025-05-27,63,310!2025-05-31,67,330!2025-06-10,75,330!2025-05-29,65,330!2025-05-20,57,310!2025-06-01,67,310!2025-06-04,70,330!2025-05-30,65,310!2025-06-11,76,330!2025-06-05,71,330!2025-05-31,67,330!2025-05-31,67,330!2025-06-10,75,330!2025-05-25,61,310!2025-06-01,67,310!2025-06-06,72,330!2025-06-05,71,330!2025-06-01,67,310!2025-05-20,57,310!2025-05-20,57,310!2025-06-04,70,330!2025-06-05,71,330!2025-06-08,73,330!2025-06-08,73,330!2025-05-31,67,330!2025-05-25,61,310!2025-06-04,70,330!2025-05-21,58,310!2025-05-25,61,310!2025-06-06,72,330!2025-05-29,64,310!2025-05-31,67,330!2025-06-09,74,330!2025-05-21,58,310!2025-05-21,58,310!2025-05-27,63,310!2025-06-01,67,310!2025-05-24,60,310!2025-06-06,72,330!2025-06-01,67,310!2025-05-20,57,310!2025-06-06,72,330!2025-05-31,67,330!2025-05-31,67,330!2025-05-27,63,310!2025-06-10,75,330!2025-06-05,71,330!2025-06-04,70,330!2025-06-07,72,330!2025-05-27,63,310!2025-06-09,74,330!2025-05-21,58,310!2025-05-25,61,310!2025-06-05,71,330-->
+> {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@} <!--SR:!2025-05-31,66,310!2025-10-17,163,310!2025-05-30,65,310!2025-05-27,63,310!2025-05-31,67,330!2025-06-10,75,330!2025-05-29,65,330!2025-05-20,57,310!2025-06-01,67,310!2025-06-04,70,330!2025-05-30,65,310!2025-06-11,76,330!2025-06-05,71,330!2025-05-31,67,330!2025-05-31,67,330!2025-06-10,75,330!2025-05-25,61,310!2025-06-01,67,310!2025-06-06,72,330!2025-06-05,71,330!2025-06-01,67,310!2025-05-20,57,310!2025-05-20,57,310!2025-06-04,70,330!2025-06-05,71,330!2025-06-08,73,330!2025-06-08,73,330!2025-05-31,67,330!2025-05-25,61,310!2025-06-04,70,330!2025-05-21,58,310!2025-05-25,61,310!2025-06-06,72,330!2025-05-29,64,310!2025-05-31,67,330!2025-06-09,74,330!2025-05-21,58,310!2025-05-21,58,310!2025-05-27,63,310!2025-06-01,67,310!2025-05-24,60,310!2025-06-06,72,330!2025-06-01,67,310!2025-05-20,57,310!2025-06-06,72,330!2025-05-31,67,330!2025-05-31,67,330!2025-05-27,63,310!2025-06-10,75,330!2025-06-05,71,330!2025-06-04,70,330!2025-06-07,72,330!2025-05-27,63,310!2025-06-09,74,330!2025-05-21,58,310!2025-05-25,61,310!2025-06-05,71,330-->
 
 - direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2025-06-10,75,330!2025-05-21,55,310-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2025-06-11,76,330!2025-06-05,71,330-->
@@ -106,7 +106,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Applied Manufacturing Overhead}@} | {@{<u>690</u>}@}                      |
 > | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} | <!--SR:!2025-05-20,57,310!2025-05-27,63,310!2025-06-06,72,330!2025-06-05,71,330!2025-05-31,66,310!2025-06-04,70,330!2025-05-25,61,310!2025-06-06,72,330!2025-06-09,74,330!2025-05-21,58,310!2025-06-05,71,330!2025-06-10,75,330!2025-05-26,62,310!2025-05-21,58,310!2025-05-19,56,310!2025-05-30,66,330!2025-06-05,71,330!2025-06-04,70,330!2025-05-19,56,310!2025-06-09,74,330!2025-05-27,63,310!2025-05-21,55,310!2025-06-11,76,330!2025-05-31,66,310!2025-06-06,72,330!2025-05-21,58,310!2025-05-21,58,310!2025-05-21,58,310!2025-06-05,71,330!2025-06-01,67,310!2025-06-04,70,330-->
 
-- job cost sheet ::@:: information, tables, cost summary <!--SR:!2025-05-21,58,310!2025-04-29,39,290-->
+- job cost sheet ::@:: information, tables, cost summary <!--SR:!2025-05-21,58,310!2025-10-10,156,310-->
   - job cost sheet / information ::@:: job number, date started, date completed, description <!--SR:!2025-06-07,72,330!2025-05-19,56,310-->
   - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead <!--SR:!2025-05-29,65,330!2025-05-26,62,310-->
     - job cost sheet / tables / actual direct materials ::@:: req. no, amount <!--SR:!2025-06-06,72,330!2025-06-07,72,330-->
@@ -132,11 +132,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total current manufacturing costs}@}               | {@{&dollar;1&nbsp;750}@}            |
 > | &emsp;{@{Plus: Beginning work in process inventory}@} | {@{2&nbsp;000}@}                    |
 > | &emsp;{@{Less: Ending work in process inventory}@}    | {@{\(1&nbsp;000\)}@}                |
-> | {@{Cost of goods manufactured}@}                      | {@{__&dollar;<u>2&nbsp;750</u>__}@} | <!--SR:!2025-05-31,67,330!2025-05-20,57,310!2025-06-09,74,330!2025-05-24,60,310!2025-05-31,67,330!2025-05-21,58,310!2025-06-11,76,330!2025-05-25,61,310!2025-06-04,70,330!2025-05-19,56,310!2025-06-04,70,330!2025-05-06,43,290!2025-06-04,70,330!2025-05-19,56,310!2025-06-01,67,310!2025-05-25,61,310!2025-06-01,67,310!2025-06-06,72,330!2025-06-06,72,330!2025-06-07,72,330!2025-05-21,58,310!2025-05-20,57,310-->
+> | {@{Cost of goods manufactured}@}                      | {@{__&dollar;<u>2&nbsp;750</u>__}@} | <!--SR:!2025-05-31,67,330!2025-05-20,57,310!2025-06-09,74,330!2025-05-24,60,310!2025-05-31,67,330!2025-05-21,58,310!2025-06-11,76,330!2025-05-25,61,310!2025-06-04,70,330!2025-05-19,56,310!2025-06-04,70,330!2025-10-26,172,310!2025-06-04,70,330!2025-05-19,56,310!2025-06-01,67,310!2025-05-25,61,310!2025-06-01,67,310!2025-06-06,72,330!2025-06-06,72,330!2025-06-07,72,330!2025-05-21,58,310!2025-05-20,57,310-->
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2025-05-21,58,310!2025-05-20,54,310-->
   - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\) <!--SR:!2025-06-07,72,330!2025-05-27,63,310-->
-  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-05-07,15,270!2025-05-20,54,310-->
+  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-06-19,43,270!2025-05-20,54,310-->
 
 ## income statement (cost of goods sold)
 
@@ -228,16 +228,16 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending Inventory}@}        | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
 > | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2025-05-20,57,310!2025-05-31,67,330!2025-06-09,74,330!2025-06-06,72,330!2025-06-04,70,330!2025-06-11,76,330!2025-06-06,72,330!2025-06-04,70,330!2025-06-09,74,330!2025-06-01,67,310!2025-05-21,58,310!2025-06-06,72,330!2025-05-19,56,310!2025-06-11,76,330!2025-05-19,56,310!2025-06-04,70,330!2025-06-01,67,310-->
 
-- process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-05-30,66,330!2025-04-29,39,290-->
-  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-05-31,67,330!2025-04-27,26,290-->
+- process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-05-30,66,330!2025-08-27,112,290-->
+  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-05-31,67,330!2025-08-22,107,310-->
     - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-05-20,57,310!2025-05-20,57,310-->
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-05-27,63,310!2025-05-17,52,310-->
-  - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-05-02,39,290!2025-05-23,59,310-->
-  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-05-04,44,310!2025-05-20,57,310-->
+  - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-10-08,154,310!2025-05-23,59,310-->
+  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-11-12,189,330!2025-05-20,57,310-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2025-07-12,92,290!2025-06-11,76,330-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2025-06-11,76,330!2025-05-26,62,310-->
 - production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-06-15,79,341!2025-06-17,81,341-->
-  - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-05-02,39,290!2025-05-17,52,310-->
+  - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-10-08,154,310!2025-05-17,52,310-->
   - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-06-15,79,341!2025-06-17,81,341-->
 
 ## process costing (first-in, first-out)
@@ -291,10 +291,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending Inventory}@}                              | {@{600}@}                      | {@{590}@}                      | {@{1&nbsp;190}@}               |
 > | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} | <!--SR:!2025-06-10,75,330!2025-06-10,75,330!2025-06-05,71,330!2025-06-06,72,330!2025-06-08,73,330!2025-06-08,73,330!2025-05-30,66,330!2025-06-01,67,310!2025-06-06,72,330!2025-05-20,57,310!2025-06-07,72,330!2025-05-19,56,310!2025-05-26,62,310!2025-06-11,76,330!2025-05-31,66,310!2025-06-06,72,330!2025-06-10,75,330!2025-06-05,71,330!2025-05-19,53,310!2025-06-09,74,330!2025-06-01,67,310!2025-06-01,67,310!2025-05-27,63,310!2025-05-19,56,310!2025-06-10,75,330-->
 
-- process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-05-24,60,310!2025-05-05,45,310-->
+- process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2025-05-24,60,310!2025-09-21,137,310-->
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2025-05-31,66,310!2025-06-01,67,310-->
-    - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-05-05,42,290!2025-06-07,72,330-->
-    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-05-02,42,310!2025-05-19,56,310-->
+    - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-10-24,170,310!2025-06-07,72,330-->
+    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-09-17,133,310!2025-05-19,56,310-->
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-05-26,62,310!2025-05-19,56,310-->
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2025-07-20,89,290!2025-05-13,49,310-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2025-06-08,73,330!2025-06-11,76,330-->
@@ -329,7 +329,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - activity cost allocation
   - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2025-05-18,52,310!2025-05-25,61,310-->
-  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2025-05-19,56,310!2025-05-03,43,310-->
+  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\) <!--SR:!2025-05-19,56,310!2025-11-07,184,330-->
 
 ## activity cost driver - setups
 
@@ -344,7 +344,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2025-06-07,72,330!2025-05-19,56,310!2025-05-31,66,310!2025-05-20,57,310!2025-06-08,73,330!2025-05-30,65,310!2025-06-05,71,330!2025-05-31,67,330!2025-06-11,76,330!2025-05-21,58,310!2025-05-21,58,310!2025-05-26,62,310!2025-06-10,75,330!2025-06-05,71,330!2025-05-30,66,330-->
 
 - activity cost driver - setups
-  - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2025-05-03,40,290!2025-05-30,65,310-->
+  - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2025-10-14,160,310!2025-05-30,65,310-->
   - activity cost driver - setups / row headers ::@:: activity cost pool, number of units produced, average units per batch, number of setups <!--SR:!2025-05-21,55,310!2025-05-20,57,310-->
 
 ## total manufacturing overhead
@@ -382,13 +382,13 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{less: variable costs}@}       | {@{<u>2</u>}@}  | {@{<u>280</u>}@}       | {@{<u>66.67&nbsp;&nbsp;</u>}@} | {@{<u>2</u>}@}  | {@{<u>360</u>}@}        | {@{<u>50&nbsp;&nbsp;</u>}@} | {@{<u>640</u>}@}         | {@{<u>56.14&nbsp;&nbsp;</u>}@} |
 > | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@} | {@{&dollar;140}@}      | {@{33.33%}@}                   | {@{&dollar;2}@} | {@{&dollar;360}@}       | {@{50%}@}                   | {@{&dollar;500}@}        | {@{43.86%}@}                   |
 > | {@{less: fixed costs}@}          |                 |                        |                                |                 |                         |                             | {@{<u>200</u>}@}         |                                |
-> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                | <!--SR:!2025-05-09,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-08,19,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-08,19,361!2025-05-08,19,361!2025-05-10,20,361!2025-05-08,19,361!2025-05-12,20,361!2025-05-11,19,361!2025-05-08,19,361!2025-05-09,20,361!2025-05-07,18,361!2025-05-09,20,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-11,19,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-11,19,361!2025-05-12,20,361-->
+> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                | <!--SR:!2025-05-09,20,361!2025-08-05,90,381!2025-08-02,87,381!2025-08-05,90,381!2025-08-13,97,381!2025-08-01,86,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-08,92,381!2025-05-11,19,361!2025-08-05,90,381!2025-08-13,97,381!2025-08-03,88,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-09,93,381!2025-08-08,92,381!2025-05-10,20,361!2025-08-12,96,381!2025-05-12,20,361!2025-05-11,19,361!2025-08-13,97,381!2025-05-09,20,361!2025-08-04,89,381!2025-05-09,20,361!2025-05-12,20,361!2025-08-01,86,381!2025-05-12,20,361!2025-08-07,92,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-01,86,381!2025-05-12,20,361!2025-05-11,19,361!2025-05-10,18,361!2025-08-04,89,381!2025-05-12,20,361!2025-08-03,88,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-01,86,381!2025-05-11,19,361!2025-05-12,20,361-->
 
-- contribution margin income statement ::@:: headers, products & overall, row headers <!--SR:!2025-05-07,18,361!2025-05-09,20,361-->
-  - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\) <!--SR:!2025-05-07,18,361!2025-05-07,18,361-->
-  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2025-05-04,15,341!2025-05-07,18,361-->
+- contribution margin income statement ::@:: headers, products & overall, row headers <!--SR:!2025-08-03,88,381!2025-05-09,20,361-->
+  - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\) <!--SR:!2025-08-05,90,381!2025-08-05,90,381-->
+  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2025-07-18,72,361!2025-08-02,87,381-->
   - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income <!--SR:!2025-05-10,18,361!2025-05-12,20,361-->
-  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2025-05-07,18,361!2025-05-07,18,361-->
+  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2025-08-02,87,381!2025-08-05,90,381-->
 
 ## incremental analysis (unit)
 
@@ -408,11 +408,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{fixed overhead}@}                 | {@{-}@}         | {@{-}@}           |
 > | &emsp;{@{opportunity cost of lost sales}@} | {@{\(1\)}@}     | {@{\(20\)}@}      |
 > | {@{total incremental costs}@}              | {@{\(4\)}@}     | {@{\(80\)}@}      |
-> | {@{incremental profit \(loss\)}@}          | {@{&dollar;1}@} | {@{&dollar;20}@}  | <!--SR:!2025-05-10,18,361!2025-05-09,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-10,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-08,19,360!2025-05-07,18,361!2025-05-07,18,361!2025-05-09,20,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361-->
+> | {@{incremental profit \(loss\)}@}          | {@{&dollar;1}@} | {@{&dollar;20}@}  | <!--SR:!2025-05-10,18,361!2025-05-09,20,361!2025-08-04,89,381!2025-08-03,88,381!2025-05-12,20,361!2025-05-10,20,361!2025-08-03,88,381!2025-08-05,90,381!2025-05-12,20,361!2025-08-01,86,381!2025-08-11,95,380!2025-08-01,86,381!2025-08-02,87,381!2025-05-09,20,361!2025-05-12,20,361!2025-08-04,89,381!2025-08-05,90,381!2025-05-12,20,361!2025-08-10,94,381!2025-08-03,88,381!2025-08-04,89,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-01,86,381!2025-08-08,92,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-05,90,381-->
 
-- incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers <!--SR:!2025-05-11,19,361!2025-05-08,19,361-->
-  - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total <!--SR:!2025-05-07,18,361!2025-05-12,20,361-->
-  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-05-07,18,361!2025-05-08,19,361-->
+- incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers <!--SR:!2025-05-11,19,361!2025-08-10,94,381-->
+  - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total <!--SR:!2025-08-03,88,381!2025-05-12,20,361-->
+  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-08-04,89,381!2025-05-19,11,341-->
 
 ## incremental analysis (comparative)
 
@@ -429,11 +429,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{variable overhead}@}  | {@{\(1\)}@}                   | {@{-}@}                     | {@{1}@}                                              |
 > | &emsp;{@{fixed overhead}@}     | {@{\(2\)}@}                   | {@{\(1\)}@}                 | {@{1}@}                                              |
 > | {@{revenue from new service}@} | {@{-}@}                       | {@{2}@}                     | {@{2}@}                                              |
-> | {@{net operating profit}@}     | {@{&dollar;5}@}               | {@{&dollar;6}@}             | {@{&dollar;1}@}                                      | <!--SR:!2025-05-08,19,361!2025-05-07,18,361!2025-05-09,20,361!2025-05-07,18,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-09,20,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,360!2025-05-07,18,361!2025-05-10,20,361!2025-05-07,18,361!2025-05-10,18,360!2025-05-07,18,361!2025-05-12,20,361!2025-05-09,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-09,20,361!2025-05-08,19,361!2025-05-08,19,361!2025-05-08,19,361-->
+> | {@{net operating profit}@}     | {@{&dollar;5}@}               | {@{&dollar;6}@}             | {@{&dollar;1}@}                                      | <!--SR:!2025-08-12,96,381!2025-08-01,86,381!2025-05-09,20,361!2025-08-02,87,381!2025-05-11,19,361!2025-08-04,89,381!2025-08-05,90,381!2025-08-12,96,381!2025-08-07,92,381!2025-08-03,88,381!2025-05-12,20,361!2025-05-09,20,361!2025-05-10,18,361!2025-08-07,92,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-06,91,381!2025-08-02,87,380!2025-08-06,91,381!2025-05-10,20,361!2025-08-06,91,381!2025-05-10,18,360!2025-08-01,86,381!2025-05-12,20,361!2025-05-09,20,361!2025-08-06,91,381!2025-08-01,86,381!2025-05-10,18,361!2025-05-09,20,361!2025-08-10,94,381!2025-08-10,94,381!2025-08-11,95,381-->
 
-- incremental analysis \(comparative\) ::@:: column headers, row headers <!--SR:!2025-05-12,20,361!2025-05-07,18,361-->
-  - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\) <!--SR:!2025-05-12,20,361!2025-05-07,18,361-->
-  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-05-12,20,361!2025-05-04,15,341-->
+- incremental analysis \(comparative\) ::@:: column headers, row headers <!--SR:!2025-05-12,20,361!2025-08-02,87,381-->
+  - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\) <!--SR:!2025-05-12,20,361!2025-08-04,89,381-->
+  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-05-12,20,361!2025-07-16,70,361-->
 
 ## incremental analysis (incremental)
 
@@ -452,10 +452,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{increased sales}@}                    | {@{&dollar;100}@}        |
 > | &emsp;{@{less: increased variable costs}@}     | {@{\(50\)}@}             |
 > | &emsp;{@{__increased contribution margin__}@}  | {@{__&dollar;50__}@}     |
-> | {@{__net effect eliminating product A__}@}     | {@{__&dollar;\(10\)__}@} | <!--SR:!2025-05-08,19,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361-->
+> | {@{__net effect eliminating product A__}@}     | {@{__&dollar;\(10\)__}@} | <!--SR:!2025-08-09,93,381!2025-08-04,89,381!2025-05-12,20,361!2025-08-07,92,381!2025-08-06,91,381!2025-05-10,18,361!2025-08-01,86,381!2025-08-11,95,381!2025-08-04,89,381!2025-08-06,91,381!2025-05-10,18,361!2025-08-04,89,381!2025-08-02,87,381!2025-08-04,89,381!2025-08-08,92,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-01,86,381-->
 
-- incremental analysis \(incremental\) ::@:: column headers, row headers <!--SR:!2025-05-07,18,361!2025-05-11,19,361-->
-  - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\) <!--SR:!2025-05-08,19,361!2025-05-07,18,361-->
+- incremental analysis \(incremental\) ::@:: column headers, row headers <!--SR:!2025-08-05,90,381!2025-05-11,19,361-->
+  - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\) <!--SR:!2025-08-10,94,381!2025-08-07,92,381-->
   - incremental analysis \(incremental\) / row headers ::@:: main effect + subitems, \(side effects + subitems\), net effect <!--SR:!2025-05-09,20,361!2025-05-12,20,361-->
 
 ## constrained optimization using contribution margin
@@ -470,12 +470,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{units produced}@}                  | {@{10}@}         | {@{20}@}         | {@{5}@}                    |
 > | {@{raw materials required per unit}@} | {@{3&nbsp;kg}@}  | {@{1&nbsp;kg}@}  | {@{2&nbsp;kg}@}            |
 > | {@{total required raw material}@}     | {@{30&nbsp;kg}@} | {@{20&nbsp;kg}@} | {@{10&nbsp;kg remaining}@} |
-> | {@{total contribution margin}@}       | {@{&dollar;90}@} | {@{&dollar;40}@} | {@{&dollar;10}@}           | <!--SR:!2025-05-10,18,361!2025-05-12,20,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-12,20,361!2025-05-11,19,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-08,19,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-08,19,361-->
+> | {@{total contribution margin}@}       | {@{&dollar;90}@} | {@{&dollar;40}@} | {@{&dollar;10}@}           | <!--SR:!2025-05-10,18,361!2025-05-12,20,361!2025-05-12,20,361!2025-08-07,92,381!2025-08-01,86,381!2025-08-06,91,381!2025-05-11,19,361!2025-08-03,88,381!2025-08-01,86,381!2025-08-03,88,381!2025-08-11,95,381!2025-05-12,20,361!2025-05-11,19,361!2025-05-11,19,361!2025-08-04,89,381!2025-05-10,18,361!2025-08-10,94,381!2025-05-12,20,361!2025-08-07,92,381!2025-08-02,87,381!2025-05-12,20,361!2025-05-11,19,361!2025-08-07,92,381!2025-08-13,97,381-->
 
 - constrained optimization using contribution margin ::@:: column headers, row headers <!--SR:!2025-05-11,19,361!2025-05-12,20,361-->
-  - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\) <!--SR:!2025-05-08,19,361!2025-05-08,19,361-->
-  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!2025-05-04,15,341!2025-05-12,20,361-->
-  - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead. <!--SR:!2025-05-07,18,361!2025-05-07,18,361-->
+  - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\) <!--SR:!2025-08-09,93,381!2025-08-09,93,381-->
+  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!2025-07-17,71,361!2025-05-12,20,361-->
+  - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead. <!--SR:!2025-08-05,90,381!2025-08-07,92,381-->
 
 ## budget
 
@@ -499,10 +499,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{less: depreciation \(non-cash expense\)}@}             | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(100\)}@}                 | {@{\(400\)}@}            |
 > | {@{cash paid for selling and administrative expenses}@}   | {@{40}@}                      | {@{30}@}                      | {@{20}@}                      | {@{10}@}                      | {@{100}@}                |
 > | {@{cash paid for equipment \(capex\)}@}                   | {@{<u>100</u>}@}              | {@{<u>0</u>}@}                | {@{<u>100</u>}@}              | {@{<u>100</u>}@}              | {@{<u>300</u>}@}         |
-> | {@{budgeted cash payments}@}                              | {@{<u>&dollar;150</u>}@}      | {@{<u>&dollar;50</u>}@}       | {@{<u>&dollar;250</u>}@}      | {@{<u>&dollar;350</u>}@}      | {@{<u>&dollar;800</u>}@} | <!--SR:!2025-05-07,18,361!2025-05-07,18,361!2025-05-11,19,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-09,20,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-10,20,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-10,18,361!2025-05-07,18,360!2025-05-09,20,360!2025-05-11,19,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-11,19,361!2025-05-10,20,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-10,20,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-09,20,361!2025-05-12,20,361!2025-05-08,19,361!2025-05-12,20,361!2025-05-12,20,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-09,20,361!2025-05-12,20,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-10,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-11,19,360!2025-05-11,19,361!2025-05-08,19,360!2025-05-07,18,361!2025-05-12,20,361!2025-05-07,18,361!2025-05-08,19,361!2025-05-07,18,361!2025-05-07,18,361!2025-05-12,20,361!2025-05-11,19,361!2025-05-07,18,361!2025-05-08,19,361-->
+> | {@{budgeted cash payments}@}                              | {@{<u>&dollar;150</u>}@}      | {@{<u>&dollar;50</u>}@}       | {@{<u>&dollar;250</u>}@}      | {@{<u>&dollar;350</u>}@}      | {@{<u>&dollar;800</u>}@} | <!--SR:!2025-08-06,91,381!2025-08-07,92,381!2025-05-11,19,361!2025-05-12,20,361!2025-08-01,86,381!2025-05-10,18,361!2025-08-05,90,381!2025-05-09,20,361!2025-08-03,88,381!2025-08-11,95,381!2025-08-02,87,381!2025-08-08,92,381!2025-05-12,20,361!2025-08-02,87,381!2025-08-04,89,381!2025-05-10,18,361!2025-05-10,20,361!2025-08-07,92,381!2025-05-12,20,361!2025-05-10,18,361!2025-08-06,91,380!2025-05-09,20,360!2025-05-11,19,361!2025-08-08,92,381!2025-08-07,92,381!2025-05-11,19,361!2025-05-10,20,361!2025-08-07,92,381!2025-08-09,93,381!2025-05-10,18,361!2025-08-03,88,381!2025-05-10,20,361!2025-08-11,95,381!2025-08-07,92,381!2025-08-06,91,381!2025-08-05,90,381!2025-05-09,20,361!2025-05-12,20,361!2025-08-08,92,381!2025-05-12,20,361!2025-05-12,20,361!2025-05-11,19,361!2025-08-05,90,381!2025-05-09,20,361!2025-05-12,20,361!2025-08-12,96,381!2025-08-03,88,381!2025-05-12,20,361!2025-08-03,88,381!2025-08-04,89,381!2025-08-05,90,381!2025-05-10,18,361!2025-08-01,86,381!2025-08-04,89,381!2025-08-05,90,381!2025-05-11,19,360!2025-05-11,19,361!2025-08-11,95,380!2025-08-04,89,381!2025-05-12,20,361!2025-08-02,87,381!2025-08-09,93,381!2025-08-06,91,381!2025-08-01,86,381!2025-05-12,20,361!2025-05-11,19,361!2025-08-03,88,381!2025-08-10,94,381-->
 
-- budget ::@:: headers, column headers, row headers, format <!--SR:!2025-05-07,18,361!2025-05-09,20,361-->
-  - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\) <!--SR:!2025-05-10,18,361!2025-05-07,18,361-->
-  - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\) <!--SR:!2025-05-09,20,361!2025-05-07,18,361-->
-  - budget / row headers ::@:: Many items. A total at the end. Indent as needed. <!--SR:!2025-05-07,18,361!2025-05-09,20,361-->
-  - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it. <!--SR:!2025-05-08,19,360!2025-05-07,18,361-->
+- budget ::@:: headers, column headers, row headers, format <!--SR:!2025-08-06,91,381!2025-05-09,20,361-->
+  - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\) <!--SR:!2025-05-10,18,361!2025-08-03,88,381-->
+  - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\) <!--SR:!2025-05-09,20,361!2025-08-03,88,381-->
+  - budget / row headers ::@:: Many items. A total at the end. Indent as needed. <!--SR:!2025-08-02,87,381!2025-05-09,20,361-->
+  - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it. <!--SR:!2025-08-09,93,380!2025-08-05,90,381-->

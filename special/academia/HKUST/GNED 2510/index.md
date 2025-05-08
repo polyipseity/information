@@ -97,12 +97,12 @@ The content is in teaching order.
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
 - stress ::@:: mental or emotional strain or tension <!--SR:!2027-01-21,647,330!2025-06-03,182,310-->
-  - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2026-03-19,395,310!2025-05-06,167,310-->
+  - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2026-03-19,395,310!2027-04-22,715,330-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2025-08-01,241,330-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2025-08-27,263,330-->
-    - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2025-10-22,301,330-->
-    - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2025-09-12,273,330!2025-04-28,162,310-->
+    - increase status ::@:: know the unknown, prepare, ... <!--SR:!2027-04-24,717,330!2025-10-22,301,330-->
+    - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2025-09-12,273,330!2027-03-23,692,330-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2025-06-02,181,310-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2025-07-31,240,330-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2025-07-29,216,310!2025-08-29,262,330-->
@@ -123,7 +123,7 @@ The content is in teaching order.
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2025-09-04,268,330-->
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2026-12-26,626,330-->
   - thank-you note (after networking)
-- interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2025-05-08,168,310!2025-09-20,281,330-->
+- interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2027-04-30,722,330!2025-09-20,281,330-->
 - etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2025-08-20,255,330!2026-11-05,591,330-->
   - social etiquette
   - networking etiquette

@@ -30,7 +30,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@} <!--SR:!2025-05-02,261,330-->
+> - solution: {@{2}@} <!--SR:!2028-08-07,1188,350-->
 
 ## 2024-02-07
 
@@ -108,7 +108,7 @@ tags:
 > 2. Point 2
 > 3. Point 3
 >
-> - solution: {@{3}@} <!--SR:!2025-05-01,260,330-->
+> - solution: {@{3}@} <!--SR:!2028-08-01,1182,350-->
 
 ## 2024-03-06
 
@@ -126,7 +126,7 @@ tags:
 > 1. Head
 > 2. Tail
 >
-> - solution: {@{1 or 2}@} <!--SR:!2025-05-06,265,330-->
+> - solution: {@{1 or 2}@} <!--SR:!2028-08-25,1206,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -187,7 +187,7 @@ tags:
 
 > Q1.  What is the name of the instructor of this course?
 >
-> - solution: {@{(open answer, e.g. "Raymond Wong")}@} <!--SR:!2025-04-27,256,330-->
+> - solution: {@{(open answer, e.g. "Raymond Wong")}@} <!--SR:!2028-07-05,1162,350-->
 
 ## 2024-04-10
 

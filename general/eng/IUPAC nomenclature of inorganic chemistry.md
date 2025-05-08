@@ -82,7 +82,7 @@ return await memorize_table(
 > |  | {@{_\*-ous_}@} | {@{_\*-ite_}@} |
 > |  | {@{_\*-ic_}@} | {@{_\*-ate_}@} |
 > |  | {@{_per-\*-ic_}@} | {@{_per-\*-ate_}@} |
-> | {@{highest}@} | {@{_hyper-\*-ic_}@} | {@{_hyper-\*-ate_}@} | <!--SR:!2027-11-06,1307,350!2027-02-23,1023,330!2025-04-26,397,317!2028-10-10,1306,317!2027-10-10,1294,357!2027-05-26,1098,337!2025-04-30,401,317!2026-12-27,1033,337!2026-05-05,866,337!2028-06-20,1493,357!2027-01-08,997,337!2028-06-26,1498,357-->
+> | {@{highest}@} | {@{_hyper-\*-ic_}@} | {@{_hyper-\*-ate_}@} | <!--SR:!2027-11-06,1307,350!2027-02-23,1023,330!2028-10-09,1262,317!2028-10-10,1306,317!2027-10-10,1294,357!2027-05-26,1098,337!2028-10-22,1271,317!2026-12-27,1033,337!2026-05-05,866,337!2028-06-20,1493,357!2027-01-08,997,337!2028-06-26,1498,357-->
 
 <!--/pytextgen-->
 
@@ -96,7 +96,7 @@ return await memorize_table(
 
 ### molecular compounds
 
-{@{Inorganic}@} molecular compounds are {@{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix after the last element}@}. The elements are {@{ordered in ascending [electronegativity](electronegativity.md)}@}. Additionally, {@{_mono-_ is not used with the first element}@}. Exceptions exist. <!--SR:!2027-08-13,1155,337!2029-08-30,1606,277!2025-08-18,654,317!2025-05-06,559,317-->
+{@{Inorganic}@} molecular compounds are {@{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix after the last element}@}. The elements are {@{ordered in ascending [electronegativity](electronegativity.md)}@}. Additionally, {@{_mono-_ is not used with the first element}@}. Exceptions exist. <!--SR:!2027-08-13,1155,337!2029-08-30,1606,277!2025-08-18,654,317!2032-01-21,2451,337-->
 
 ## references
 

@@ -11,7 +11,7 @@ tags:
 
 # gravitational energy
 
-__Gravitational energy__ or __gravitational potential energy__ is {@{the [potential energy](potential%20energy.md) a [massive](mass.md) object has due to its position in a [gravitational field](gravitational%20field.md)}@}. <!--SR:!2025-05-01,220,334-->
+__Gravitational energy__ or __gravitational potential energy__ is {@{the [potential energy](potential%20energy.md) a [massive](mass.md) object has due to its position in a [gravitational field](gravitational%20field.md)}@}. <!--SR:!2028-02-07,1012,354-->
 
 ## formulation
 

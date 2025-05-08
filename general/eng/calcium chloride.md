@@ -35,7 +35,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {@{[desiccant](desiccant.md)}@} | {@{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}@} |
-> | {@{[separation](separation%20process.md)}@} | {@{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}@} | <!--SR:!2028-10-24,1578,350!2025-09-12,563,270!2027-03-09,1029,330!2025-05-04,388,230-->
+> | {@{[separation](separation%20process.md)}@} | {@{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}@} | <!--SR:!2028-10-24,1578,350!2025-09-12,563,270!2027-03-09,1029,330!2027-10-16,892,230-->
 
 <!--/pytextgen-->
 

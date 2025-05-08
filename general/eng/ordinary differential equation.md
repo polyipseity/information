@@ -93,7 +93,7 @@ Ordinary differential equations are furthered classified:
 
 ##### first-order, separable in _x_ and _y_
 
-- form :@: $F_1(x) G_1(y) \,\mathrm{d}x + F_2(x) G_2(y) \,\mathrm{d}y = 0$, where $F_1, F_2, G_1, G_2$ are [integrable](integral.md) [functions](function%20(mathematics).md). <!--SR:!2025-04-26,417,340-->
+- form :@: $F_1(x) G_1(y) \,\mathrm{d}x + F_2(x) G_2(y) \,\mathrm{d}y = 0$, where $F_1, F_2, G_1, G_2$ are [integrable](integral.md) [functions](function%20(mathematics).md). <!--SR:!2029-03-14,1418,340-->
 - solution :@: Divide by $F_2(x) G_1(y)$ to [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2030-05-17,1869,360-->
 
 The general solution is:

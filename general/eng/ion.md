@@ -274,7 +274,7 @@ return chain.from_iterable(await gather(
 - zinc ion::@::Zn<sup>2+</sup> <!--SR:!2030-10-11,2265,293!2031-12-17,2490,293-->
 - manganese(II) ion::@::Mn<sup>2+</sup> <!--SR:!2028-11-26,1662,290!2028-05-04,1578,273-->
 - mercury(II) ion::@::Hg<sup>2+</sup> <!--SR:!2026-03-20,1192,350!2025-11-01,1038,313-->
-- cobalt(II) ion::@::Co<sup>2+</sup> <!--SR:!2027-04-28,1527,367!2025-04-30,820,294-->
+- cobalt(II) ion::@::Co<sup>2+</sup> <!--SR:!2027-04-28,1527,367!2034-06-29,3347,314-->
 - aluminium ion::@::Al<sup>3+</sup> <!--SR:!2027-07-03,1372,272!2031-11-24,2700,334-->
 - iron(III) ion::@::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 - chromium(III) ion::@::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
@@ -304,7 +304,7 @@ return chain.from_iterable(await gather(
 - iron(II) ion:@:2+ <!--SR:!2028-04-27,1823,373-->
 - nickel(II) ion:@:2+ <!--SR:!2026-08-31,1322,352-->
 - copper(II) ion:@:2+ <!--SR:!2026-05-28,1176,352-->
-- zinc ion:@:2+ <!--SR:!2025-04-30,628,244-->
+- zinc ion:@:2+ <!--SR:!2031-03-25,2155,264-->
 - manganese(II) ion:@:2+ <!--SR:!2026-10-23,1379,367-->
 - mercury(II) ion:@:2+ <!--SR:!2027-06-01,1561,374-->
 - cobalt(II) ion:@:2+ <!--SR:!2027-04-15,1523,372-->
@@ -344,9 +344,9 @@ return chain.from_iterable(await gather(
 - aluminium ion:@:colorless <!--SR:!2031-11-29,2704,334-->
 - iron(III) ion:@:<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2026-10-30,786,190-->
 - chromium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
-- scandium(III) ion:@:colorless <!--SR:!2025-05-08,212,282-->
+- scandium(III) ion:@:colorless <!--SR:!2027-08-19,833,302-->
 - titanium(III) ion:@:<span style="color: purple; background-color: white;">purple</span> <!--SR:!2025-06-03,57,130-->
-- vanadium(II) ion:@:<span style="color: violet;">violet</span> <!--SR:!2025-05-04,19,130-->
+- vanadium(II) ion:@:<span style="color: violet;">violet</span> <!--SR:!2025-06-01,26,130-->
 - vanadium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2025-05-20,203,190-->
 - manganese(III) ion:@:<span style="color: red;">red</color> <!--SR:!2025-10-25,509,250-->
 

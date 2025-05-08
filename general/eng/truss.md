@@ -13,7 +13,7 @@ tags:
 
 A truss consists of {@{typically (but not necessarily) straight members connected at joints or nodes}@}. Trusses are typically (but not necessarily) composed of {@{triangles (triangular units) because of its stability}@}. <!--SR:!2026-09-23,652,330!2026-06-25,582,330-->
 
-The joints are likely {@{pinned support}@}, so they can {@{resist translation but not rotation}@}. <!--SR:!2025-05-03,268,330!2025-05-04,269,330-->
+The joints are likely {@{pinned support}@}, so they can {@{resist translation but not rotation}@}. <!--SR:!2028-09-02,1218,350!2028-09-11,1224,350-->
 
 ## analysis
 
@@ -27,7 +27,7 @@ To analyze a truss, {@{design the truss and determine the support sizes}@}. Then
 
 There are {@{2}@} common methods to determine forces in members: {@{[method of joints](#method%20of%20joints), suitable for determining forces in all members; and method of sections, suitable for determining forces in some particular members}@}. <!--SR:!2028-07-29,1193,350!2026-08-28,584,310-->
 
-Note that some members can have {@{zero forces, i.e. neither in tension nor in compression, which are called [zero force members](zero%20force%20member.md)}@}. <!--SR:!2025-04-27,264,330-->
+Note that some members can have {@{zero forces, i.e. neither in tension nor in compression, which are called [zero force members](zero%20force%20member.md)}@}. <!--SR:!2028-08-12,1201,350-->
 
 #### method of joints
 

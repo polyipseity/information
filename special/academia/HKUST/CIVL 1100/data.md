@@ -29,7 +29,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2025-05-18,232,294!2025-08-31,367,380-->
 - description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2025-05-16,292,375-->
-- image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2025-10-26,436,400-->
+- image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2028-11-30,1310,380!2025-10-26,436,400-->
 - length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2025-06-20,319,372-->
 
 ## Beijing National Stadium
@@ -47,7 +47,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2025-08-09,324,307!2026-03-07,555,397-->
 - height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2025-07-14,334,365-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2025-10-24,408,380!2026-01-10,498,400-->
-- shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2025-04-27,278,372-->
+- shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
 
 ## Burj Khalifa
 
@@ -78,7 +78,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::@:: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2027-03-06,830,375!2025-10-02,399,377-->
-- height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2025-05-06,128,221!2025-09-25,392,376-->
+- height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2026-06-12,401,241!2025-09-25,392,376-->
 - image ::@:: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2027-03-26,781,380!2025-11-07,446,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e -->::@:: reinforced concrete <!--SR:!2026-08-09,590,341!2025-07-15,330,381-->
 
@@ -139,7 +139,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2025-10-07,237,336!2026-04-26,540,396-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2027-08-02,832,376!2026-12-18,768,416-->
-- tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2025-05-07,264,376-->
+- tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2029-01-24,1358,396-->
 
 ## Great Wall of China
 
@@ -155,7 +155,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
-- height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2025-05-07,325,350-->
+- height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2029-08-17,1563,370-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
 
@@ -220,7 +220,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::@:: cable-stayed road bridge <!--SR:!2026-07-26,642,396!2026-09-13,690,416-->
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2025-06-16,291,376!2027-01-26,801,416-->
-- geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
+- geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2025-05-29,280,376-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2026-01-25,346,296!2026-12-05,758,416-->
   - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
@@ -263,7 +263,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
-- image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
+- image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2029-06-02,1487,400-->
 - length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-06-25,78,180!2027-10-27,958,370-->
 
 ## Sutong Yangtze River Bridge

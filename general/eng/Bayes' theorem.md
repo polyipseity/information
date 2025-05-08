@@ -15,7 +15,7 @@ Bayes' theorem is stated mathematically: {@{$$P(A \mid B) = \frac {P(B \mid A) P
 
 - $P(A \mid B)$ ::@:: [conditional probability](conditional%20probability.md) of $A$ happening given $B$ is true; also known as [posterior probability](posterior%20probability.md) of $A$ given $B$ <!--SR:!2025-08-01,297,294!2025-05-19,231,294-->
 - $P(B \mid A)$ ::@:: [conditional probability](conditional%20probability.md) of $B$ happening given $A$ is true; also known as [likelihood](likelihood%20function.md) of $A$ given $B$ because $P(B \mid A) = L(A \mid B)$ <!--SR:!2026-09-06,523,274!2026-02-10,387,274-->
-- $P(A)$ ::@:: [prior probability](prior%20probability.md) <!--SR:!2025-05-03,248,334!2025-05-30,268,334-->
+- $P(A)$ ::@:: [prior probability](prior%20probability.md) <!--SR:!2028-06-14,1138,354!2025-05-30,268,334-->
 - $P(B)$ ::@:: [marginal likelihood](marginal%20likelihood.md) or evidence <!--SR:!2025-12-19,371,294!2027-04-14,743,334-->
 
 ## generalizations

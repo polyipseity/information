@@ -66,9 +66,9 @@ The content is in teaching order.
 - relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-12-28,359,352!2025-12-25,356,352-->
 - course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2025-05-12,174,332!2025-09-20,260,332-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
-- society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2026-04-15,427,332!2025-05-02,166,332-->
+- society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2026-04-15,427,332!2027-06-07,761,352-->
   - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-12-20,351,352!2025-12-22,353,352-->
-  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2025-05-08,171,332!2025-12-23,354,352-->
+  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2027-06-28,781,352!2025-12-23,354,352-->
   - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-12-27,358,352!2026-09-12,547,332-->
 - activity 1: social identity exercise + reflection by drawing
   - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-12-19,350,352!2025-08-26,252,332-->
@@ -199,15 +199,15 @@ The content is in teaching order.
 - mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally. <!--SR:!2026-09-17,542,417!2026-09-26,551,417-->
   - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_? <!--SR:!2025-05-11,148,417!2025-05-10,147,417-->
 - activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2026-11-27,602,417!2026-10-26,575,417-->
-  - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2025-05-03,141,417!2025-05-06,144,417-->
+  - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2027-07-22,806,437!2027-08-06,821,437-->
 - paying attention
   - pay attention / types ::@:: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.). <!--SR:!2026-10-20,575,417!2026-11-12,590,417-->
-- activity 2: gratefulness exercise ::@:: Spend 5 minutes to write down things that you are grateful for. The thing does not need to be big: it can be small things. <!--SR:!2026-10-12,569,417!2025-05-02,140,417-->
+- activity 2: gratefulness exercise ::@:: Spend 5 minutes to write down things that you are grateful for. The thing does not need to be big: it can be small things. <!--SR:!2026-10-12,569,417!2027-07-11,795,437-->
   - activity 2: gratefulness exercise / debrief ::@:: You may find it surprisingly comfortable. You may see things that you have remembered in a different way. <p> "Participants who kept a gratitude journal weekly for 10 weeks or daily for two weeks experienced more gratitude, positive moods, optimism about the future, and better sleep." — Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of personality and social psychology_, _84_(2), 377. <!--SR:!2026-10-04,557,417!2026-11-03,581,417-->
-- odyssey ::@:: Ideate own life's possibilities. This is using _reframing_. <!--SR:!2026-10-12,563,417!2025-05-06,144,417-->
-  - odyssey / dysfunctional belief ::@:: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional... <!--SR:!2026-10-14,565,417!2025-05-03,141,417-->
-  - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations. <!--SR:!2026-10-22,572,417!2025-05-05,143,417-->
-- activity 3: odyssey planning – 3 versions of my life ::@:: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints! <!--SR:!2026-11-01,579,417!2025-05-04,142,417-->
+- odyssey ::@:: Ideate own life's possibilities. This is using _reframing_. <!--SR:!2026-10-12,563,417!2027-08-05,820,437-->
+  - odyssey / dysfunctional belief ::@:: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional... <!--SR:!2026-10-14,565,417!2027-07-21,805,437-->
+  - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations. <!--SR:!2026-10-22,572,417!2027-07-28,812,437-->
+- activity 3: odyssey planning – 3 versions of my life ::@:: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints! <!--SR:!2026-11-01,579,417!2027-07-24,808,437-->
   - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise? <!--SR:!2026-09-25,550,417!2026-11-21,598,417-->
 
 ## week 11 tutorial
@@ -225,7 +225,7 @@ The content is in teaching order.
 - assignments: [letter to future self](assignments/letter%20to%20future%20self/submission.md), [final presentation](assignments/final%20presentation/submission.md)
 - activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious. <!--SR:!2025-06-05,156,429!2025-06-08,159,429-->
 - prototype ::@:: To bring ideas to life with little cost. <!--SR:!2025-06-05,156,429!2025-06-03,154,429-->
-  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future! <!--SR:!2025-06-03,154,429!2025-04-27,117,409-->
+  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future! <!--SR:!2025-06-03,154,429!2027-02-12,653,429-->
   - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost <!--SR:!2025-06-04,155,429!2025-06-06,157,429-->
   - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas. <!--SR:!2025-06-06,157,429!2025-06-08,159,429-->
 - activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2025-06-07,158,429!2025-06-02,153,429-->

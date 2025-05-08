@@ -21,7 +21,7 @@ The __CNO cycle__ (for {@{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxyge
 
 ## cold CNO cycles
 
-Under {@{typical conditions found in stars}@}, catalytic hydrogen burning by the CNO cycles is {@{limited by [proton captures](proton%20capture.md)}@}. Specifically, {@{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced is faster than the timescale for fusion}@}. Because of the long timescales involved, the cold CNO cycles {@{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}@}. <!--SR:!2025-05-11,202,310!2025-08-19,298,330!2025-11-27,344,290!2025-04-26,191,310-->
+Under {@{typical conditions found in stars}@}, catalytic hydrogen burning by the CNO cycles is {@{limited by [proton captures](proton%20capture.md)}@}. Specifically, {@{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced is faster than the timescale for fusion}@}. Because of the long timescales involved, the cold CNO cycles {@{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}@}. <!--SR:!2025-05-11,202,310!2025-08-19,298,330!2025-11-27,344,290!2026-12-11,592,310-->
 
 ### CNO-I
 
@@ -30,17 +30,17 @@ The CN-cycle, named as {@{it contains no stable isotope of oxygen}@}, involves t
 This cycle is now understood as {@{being the first part of a larger process, the CNO-cycle}@}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2025-06-26,254,330-->
 
 - 1st step ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2025-10-16,215,250!2026-03-31,400,290-->
-  - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2026-05-19,424,270!2025-04-26,191,290-->
-- 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2025-07-30,165,190!2025-05-08,200,310-->
+  - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2026-05-19,424,270!2027-06-06,769,310-->
+- 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2025-07-30,165,190!2027-01-19,621,310-->
   - 2nd step / energy release (& half-life if available) ::@:: 1.20 Mev, 9.965 minutes <!--SR:!2025-06-30,77,150!2025-12-03,324,290-->
 - 3rd step ::@:: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2025-06-03,196,270!2025-07-07,90,290-->
   - 3rd step / energy release (& half-life if available) ::@:: 7.54 MeV <!--SR:!2025-07-29,234,270!2025-09-21,162,250-->
-- 4th step ::@:: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2025-06-23,123,190!2025-05-03,111,270-->
+- 4th step ::@:: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2025-06-23,123,190!2026-03-06,307,270-->
   - 4th step / energy release (& half-life if available) ::@:: 7.35 MeV <!--SR:!2025-10-01,257,250!2025-06-30,130,250-->
 - 5th step ::@:: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2025-12-15,304,250!2025-10-12,297,290-->
   - 5th step / energy release (& half-life if available) ::@:: 1.73 MeV, 122.24 seconds <!--SR:!2025-10-29,233,210!2025-06-12,226,310-->
 - 6th step ::@:: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2025-09-30,237,230!2025-08-04,283,330-->
-  - 6th step / energy release (& half-life if available) ::@:: 4.96 MeV <!--SR:!2026-02-11,382,290!2025-05-08,198,310-->
+  - 6th step / energy release (& half-life if available) ::@:: 4.96 MeV <!--SR:!2026-02-11,382,290!2027-09-07,852,330-->
 
 ...where {@{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}@}. After {@{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}@}, the total energy released in one cycle is {@{26.73 MeV}@}. <!--SR:!2027-05-12,771,330!2025-11-23,312,270!2025-08-03,248,290-->
 

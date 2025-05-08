@@ -65,7 +65,7 @@ return (
 - _(begin)_→::@::←[N<sub>2</sub>](nitrogen.md) <!--SR:!2029-11-13,1809,270!2033-01-21,3066,347-->
 - [N<sub>2</sub>](nitrogen.md)→::@::←[O<sub>2</sub>](oxygen.md) <!--SR:!2026-02-17,1059,290!2029-04-01,1853,287-->
 - [O<sub>2</sub>](oxygen.md)→::@::←[Ar](argon.md) <!--SR:!2028-04-06,1438,270!2027-07-30,1422,287-->
-- [Ar](argon.md)→::@::←[CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-01-01,1326,310!2025-05-02,765,270-->
+- [Ar](argon.md)→::@::←[CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-01-01,1326,310!2030-12-31,2069,270-->
 - [CO<sub>2</sub>](carbon%20dioxide.md)→::@::←_others_ <!--SR:!2027-05-11,1422,310!2027-05-29,1373,287-->
 - _others_→::@::←_(end)_ <!--SR:!2034-12-27,3725,365!2033-07-20,3260,346-->
 
@@ -74,7 +74,7 @@ return (
 <!--pytextgen generate section="1ad236"--><!-- The following content is generated at 2024-01-04T20:17:51.424468+08:00. Any edits will be overridden! -->
 
 - [N<sub>2</sub>](nitrogen.md):@:78.084% <!--SR:!2027-02-08,1202,250-->
-- [O<sub>2</sub>](oxygen.md):@:20.946% <!--SR:!2025-05-06,117,130-->
+- [O<sub>2</sub>](oxygen.md):@:20.946% <!--SR:!2025-12-17,225,150-->
 - [Ar](argon.md):@:0.9340% <!--SR:!2025-10-11,627,210-->
 - [CO<sub>2</sub>](carbon%20dioxide.md):@:0.0417% (2022-04-xx) <!--SR:!2025-07-03,149,147-->
 

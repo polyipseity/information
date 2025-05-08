@@ -25,7 +25,7 @@ Since the [atmosphere](atmosphere%20of%20Earth.md) is {@{opaque for most of the 
 
 There are {@{3}@} main optical types: {@{[refracting telescope](refracting%20telescope.md), [reflecting telescope](reflecting%20telescope.md), and [catadioptric telescope](catadioptric%20system.md#catadioptric%20telescopes)}@}. <!--SR:!2025-06-13,248,330!2025-07-31,288,330-->
 
-- [refracting telescope](refracting%20telescope.md) ::@:: use lens to form an image <!--SR:!2025-04-30,213,330!2025-08-09,296,330-->
+- [refracting telescope](refracting%20telescope.md) ::@:: use lens to form an image <!--SR:!2027-12-25,969,350!2025-08-09,296,330-->
 - [reflecting telescope](reflecting%20telescope.md) ::@:: use an arrangement of mirrors to form an image <!--SR:!2025-06-29,262,330!2025-05-11,222,330-->
 - [catadioptric telescope](catadioptric%20system.md#catadioptric%20telescopes) ::@:: use mirrors combined with lens to form an image <!--SR:!2025-05-29,219,310!2026-03-05,439,310-->
 

@@ -49,12 +49,12 @@ disposal
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←purchase <!--SR:!2026-02-05,476,310!2025-09-20,263,299-->
-- purchase→::@::←delivery <!--SR:!2025-04-28,281,330!2026-06-29,547,310-->
+- purchase→::@::←delivery <!--SR:!2028-11-06,1278,350!2026-06-29,547,310-->
 - delivery→::@::←use <!--SR:!2026-12-12,660,310!2025-09-23,213,270-->
-- use→::@::←supplements <!--SR:!2025-05-04,90,259!2025-05-11,294,339-->
+- use→::@::←supplements <!--SR:!2026-04-05,332,279!2025-05-11,294,339-->
 - supplements→::@::←maintenance <!--SR:!2025-10-12,356,290!2025-06-02,259,279-->
-- maintenance→::@::←disposal <!--SR:!2025-04-29,98,290!2025-05-19,302,339-->
-- disposal→::@::←_(end)_ <!--SR:!2025-05-05,288,339!2025-05-16,299,339-->
+- maintenance→::@::←disposal <!--SR:!2026-06-13,401,310!2025-05-19,302,339-->
+- disposal→::@::←_(end)_ <!--SR:!2029-01-11,1344,359!2025-05-16,299,339-->
 
 <!--/pytextgen-->
 
@@ -91,7 +91,7 @@ simplicity: remove complexity or hassle
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←convenience: ease of spatial and temporal accessibility <!--SR:!2025-09-20,190,239!2026-12-02,715,330-->
-- convenience: ease of spatial and temporal accessibility→::@::←environmental friendliness <!--SR:!2025-05-05,242,279!2026-03-19,467,299-->
+- convenience: ease of spatial and temporal accessibility→::@::←environmental friendliness <!--SR:!2027-12-05,941,299!2026-03-19,467,299-->
 - environmental friendliness→::@::←fun and image: conveyed feel, look, or attitude <!--SR:!2025-11-23,358,259!2026-05-19,397,239-->
 - fun and image: conveyed feel, look, or attitude→::@::←productivity: less effort, time, or money <!--SR:!2026-01-21,365,239!2025-11-24,325,239-->
 - productivity: less effort, time, or money→::@::←risk reduction: financial, physical, reputational <!--SR:!2025-08-16,284,250!2025-06-23,258,259-->

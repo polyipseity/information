@@ -47,7 +47,7 @@ Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {@{usu
 
 {@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2025-10-27,310,330!2025-06-28,197,310-->
 
-When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@}, the bank records {@{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}@}. Simultaneously, in accordance with {@{the [double-entry](double-entry%20bookkeeping.md) principle}@}, the bank {@{records the cash, itself, as an asset}@}. The company, on the other hand, upon depositing the cash with the bank, records {@{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}@}. <!--SR:!2025-09-04,268,330!2025-05-01,164,310!2025-10-11,298,330!2025-09-03,267,330!2025-09-06,269,330-->
+When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@}, the bank records {@{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}@}. Simultaneously, in accordance with {@{the [double-entry](double-entry%20bookkeeping.md) principle}@}, the bank {@{records the cash, itself, as an asset}@}. The company, on the other hand, upon depositing the cash with the bank, records {@{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}@}. <!--SR:!2025-09-04,268,330!2027-04-12,711,330!2025-10-11,298,330!2025-09-03,267,330!2025-09-06,269,330-->
 
 ## debits and credits
 

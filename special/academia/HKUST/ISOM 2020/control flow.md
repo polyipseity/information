@@ -44,7 +44,7 @@ else:
   ...
 ```
 
-The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {@{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}@}. Note that {@{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, ignoring statement blocks along the way. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one}@}. <!--SR:!2025-10-15,295,330!2025-05-05,167,310-->
+The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {@{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}@}. Note that {@{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, ignoring statement blocks along the way. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one}@}. <!--SR:!2025-10-15,295,330!2027-04-23,716,330-->
 
 If {@{there are no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2025-05-20,180,310!2025-05-18,183,310!2025-09-17,278,330-->
 

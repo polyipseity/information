@@ -116,15 +116,15 @@ The content is in teaching order.
 - datetime: 2025-01-15T08:30:00-05:00/2025-01-15T09:50:00-05:00
   - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00
 - [jazz](../../../../general/jazz.md)
-  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2025-05-04,76,340!2025-05-09,79,340-->
+  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2026-05-04,362,360!2025-05-09,79,340-->
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2025-09-25,181,335!2025-09-28,184,335-->
-  - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2025-05-07,77,355!2025-05-07,77,355-->
+  - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2026-05-22,380,375!2026-05-21,379,375-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2025-09-19,176,335!2026-01-13,273,355-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2025-05-16,85,355!2026-01-12,273,355-->
   - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2026-01-11,271,355!2025-10-02,186,335-->
 - [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2026-01-17,277,355!2025-05-12,81,355-->
   - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2026-01-04,265,355!2025-09-16,174,335-->
-  - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2025-05-12,81,355!2025-05-07,77,355-->
+  - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2025-05-12,81,355!2026-05-24,382,375-->
 - [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-09-28,183,335!2026-01-11,269,355-->
   - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2026-01-07,268,355!2025-05-14,83,355-->
 - [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2025-09-27,182,335!2025-09-17,174,335-->
@@ -141,23 +141,23 @@ The content is in teaching order.
 - datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00
 - [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2025-05-12,82,340!2025-07-06,108,300-->
-  - blues / characteristics ::@:: call and response, sadness <!--SR:!2025-05-03,75,340!2025-05-08,78,340-->
+  - blues / characteristics ::@:: call and response, sadness <!--SR:!2026-04-29,357,360!2026-05-13,370,360-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-11-25,229,340!2025-05-10,80,340-->
-  - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-05-12,82,340!2025-05-04,76,340-->
+  - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-05-12,82,340!2026-05-05,363,360-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-06-28,105,300!2025-08-30,159,320-->
-  - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-05-09,79,340!2025-05-05,77,340-->
+  - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-05-09,79,340!2026-05-09,367,360-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-12-29,256,340!2025-11-26,230,340-->
-- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2025-05-05,77,340-->
-  - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2025-05-03,75,340!2025-05-09,79,340-->
-  - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2025-05-08,78,340!2025-05-05,77,340-->
-    - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2025-05-03,75,340!2025-05-11,81,340-->
+- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2026-05-07,365,360-->
+  - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2026-04-30,358,360!2025-05-09,79,340-->
+  - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2026-05-14,371,360!2026-05-08,366,360-->
+    - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2026-04-30,358,360!2025-05-11,81,340-->
 - [march](../../../../general/march%20(music).md)
-  - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2025-05-10,80,340!2025-05-04,76,340-->
+  - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2025-05-10,80,340!2026-05-04,362,360-->
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2026-01-17,270,340!2025-10-07,194,340-->
-  - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-05-02,74,340!2025-05-06,78,340-->
+  - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2026-04-19,352,360!2026-05-12,370,360-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-08-03,142,320!2025-10-14,200,340-->
-- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-12-16,250,340!2025-05-06,78,340-->
-  - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-05-13,83,340!2025-05-08,78,340-->
+- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-12-16,250,340!2026-05-11,369,360-->
+  - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-05-13,83,340!2026-05-15,372,360-->
   - [syncopation](../../../../general/syncopation.md)
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-07-02,108,300!2025-07-03,81,300-->
 - [jazz](../../../../general/jazz.md)
@@ -174,11 +174,11 @@ The content is in teaching order.
 - [jazz](../../../../general/jazz.md)
   - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2026-01-02,260,355-->
 - [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2025-05-21,76,295!2026-01-11,272,355-->
-  - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2025-05-06,76,355!2026-01-13,274,355-->
+  - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2026-05-19,377,375!2026-01-13,274,355-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2025-05-13,82,355!2025-05-12,81,355-->
-  - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2026-01-06,264,355!2025-05-07,77,355-->
+  - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2026-01-06,264,355!2026-05-23,381,375-->
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, painist, singer; first jazz composer to notate jazz <!--SR:!2025-09-26,182,335!2025-06-12,99,315-->
-  - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2025-05-08,78,355!2025-05-15,84,355-->
+  - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2026-05-25,382,375!2025-05-15,84,355-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2025-05-15,84,355!2025-05-16,85,355-->
   - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2025-06-10,97,315!2026-01-16,277,355-->
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2025-10-01,185,335!2026-01-16,273,355-->
@@ -229,7 +229,7 @@ The content is in teaching order.
   - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00
 - [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-11-01,205,358!2025-11-10,212,358-->
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2025-06-04,91,378!2025-06-07,94,378-->
-- [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2025-04-30,64,358!2025-07-26,127,338-->
+- [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2026-03-10,314,378!2025-07-26,127,338-->
   - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2025-05-13,69,358!2025-07-25,126,338-->
   - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-08-24,142,338!2025-11-04,207,358-->
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
@@ -239,13 +239,13 @@ The content is in teaching order.
 - [big band](../../../../general/big%20band.md)
   - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2025-06-11,98,378!2025-06-12,99,378-->
 - [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-09-20,159,338!2025-09-10,152,338-->
-  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-06-13,100,378!2025-05-04,68,358-->
-  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2025-04-30,64,358!2025-06-08,95,378-->
+  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-06-13,100,378!2026-04-12,340,378-->
+  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2026-03-11,315,378!2025-06-08,95,378-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2025-06-13,100,378!2025-06-14,101,378-->
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2025-11-01,204,358!2025-05-13,69,358-->
   - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2025-11-07,209,358!2025-06-14,101,378-->
-  - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2025-06-11,98,378!2025-04-27,61,358-->
+  - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2025-06-11,98,378!2026-02-24,300,378-->
   - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2025-06-13,100,378!2025-06-04,91,378-->
 - assignment: (none)
 
@@ -254,7 +254,7 @@ The content is in teaching order.
 - datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00
   - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00
 - [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2025-06-09,96,378!2025-06-14,101,378-->
-  - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2025-04-29,63,358!2025-11-05,208,358-->
+  - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2026-03-08,312,378!2025-11-05,208,358-->
 - [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them ; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection <!--SR:!2025-06-05,92,378!2025-06-11,98,378-->
   - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-11-14,215,358!2025-06-10,97,378-->
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-11-09,211,358!2025-06-06,93,378-->
@@ -269,7 +269,7 @@ The content is in teaching order.
 - [jazz](../../../../general/jazz.md)
   - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2025-06-03,90,378!2025-06-06,93,378-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-06-07,94,378!2025-06-18,90,318-->
-  - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-06-23,94,318!2025-05-04,68,358-->
+  - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-06-23,94,318!2026-04-13,341,378-->
   - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz
@@ -287,7 +287,7 @@ The content is in teaching order.
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md)
 - [Count Basie Orchestra](../../../../general/Count%20Basie%20Orchestra.md) ::@:: One of the most famous bands ever and also longest lasting (They are still playing today!). <p> Their style was distinctive: big fat rhythm section, dramatic dynamics, huge beat, hard-swing <!--SR:!2025-05-22,68,352!2025-12-22,242,372-->
 - [Count Basie](../../../../general/Count%20Basie.md) (1904–1984) ::@:: He was from Redbank, New Jersey. He went on a tour and got stuck in Kansas City for 2 years, finally getting picked up by Bennie Moten and his band. Soon he got hired to replace the fired Bennie. <!--SR:!2025-05-24,70,352!2025-09-20,163,352-->
-  - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2025-04-29,51,352!2025-05-23,69,352-->
+  - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2025-10-27,180,352!2025-05-23,69,352-->
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2025-07-11,114,392!2025-06-20,92,372-->
 - [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show. <!--SR:!2025-07-25,126,392!2025-05-23,69,352-->
 - [Duke Ellington](../../../../general/Duke%20Ellington.md) (1899–1974) ::@:: He was a bandleader, composer, and pianist, leading the Duke Ellington Orchestra. He developed his style in the Cotton Club, which was called "_jungle music_" early on. He composed many pieces that have become jazz _standards_. <!--SR:!2025-07-27,128,392!2025-06-19,91,372-->
@@ -296,7 +296,7 @@ The content is in teaching order.
   - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually. <!--SR:!2025-07-24,125,392!2025-07-13,116,392-->
     - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington <!--SR:!2025-05-24,70,352!2025-05-24,70,352-->
     - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2025-07-27,128,392!2025-08-05,117,332-->
-    - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2025-04-28,51,352!2025-05-19,48,352-->
+    - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2026-01-06,251,372!2025-05-19,48,352-->
     - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-09-17,152,352!2025-06-18,95,372-->
 - [popular music](../../../../general/popular%20music.md)
   - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2025-07-11,114,392!2025-07-19,121,392-->
@@ -434,7 +434,7 @@ The content is in teaching order.
 - swing music
   - swing music / to bebop music ::@:: Swing was becoming commericalized and formulaic. Some musicians got tired. <p> Some musicans adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\). <!--SR:!2025-05-18,26,402!2025-05-18,26,402-->
 - [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm. <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
-  - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of muscians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2025-05-08,19,382!2025-05-17,25,402-->
+  - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of muscians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2025-08-16,100,402!2025-05-17,25,402-->
   - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
   - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
     - bebop / rhythm section / drums ::@:: Ride cymbals instead of bass drums produce beats, which feels faster and lighter. Bass drums and snare are for rhythmic accents \(e.g. kicks, punches\). Tempo is faster, making it not intended for dancing. <!--SR:!2025-05-17,25,402!2025-05-19,27,402-->
@@ -453,24 +453,24 @@ The content is in teaching order.
 - datetime: 2025-03-17T08:30:00-05:00/2025-03-17T09:00:00-05:00
   - local: 2025-03-17T21:30:00+08:00/2025-03-17T22:00:00+08:00
 - [Minton's Playhouse](../../../../general/Minton's%20Playhouse.md) ::@:: a jazz club in Harlem, New York City; held regular jam sessions <!--SR:!2025-09-13,141,414!2025-09-08,137,414-->
-  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-04-26,27,394!2025-07-27,99,394-->
+  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-09-22,145,414!2025-07-27,99,394-->
   - Minton's Playhouse / characteristic ::@:: Many experimental musicians pushing the limits of music. This led to a new "way" to play jazz: bebop. <!--SR:!2025-09-06,135,414!2025-09-14,142,414-->
   - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-09-12,140,414!2025-09-15,143,414-->
-- Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-04-26,27,394!2025-04-26,27,394-->
-  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-04-26,27,394!2025-07-27,99,394-->
+- Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-09-20,143,414!2025-09-21,144,414-->
+  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-09-21,144,414!2025-07-27,99,394-->
   - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie <!--SR:!2025-05-09,26,400!2025-05-10,27,400-->
   - Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-07-27,99,394!2025-06-26,74,374-->
 - [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-09-09,138,414!2025-07-27,99,394-->
-  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-09-07,136,414!2025-04-26,27,394-->
+  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-09-07,136,414!2025-09-19,142,414-->
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-09-13,141,414!2025-09-07,136,414-->
 - bebop
   - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2025-09-06,135,414!2025-09-12,140,414-->
   - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2025-06-25,73,374!2025-09-08,137,414-->
-- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-09-12,140,414!2025-04-26,27,394-->
+- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-09-12,140,414!2025-09-20,143,414-->
 - bebop
-  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2025-07-27,99,394!2025-04-26,27,394-->
+  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2025-07-27,99,394!2025-09-19,142,414-->
 - Charlie Parker
-  - Charlie Parker / effect ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-04-26,27,394!2025-09-15,143,414-->
+  - Charlie Parker / effect ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-09-23,146,414!2025-09-15,143,414-->
 - assignment: \(none\)
 
 ## week 10 lecture 2
@@ -481,7 +481,7 @@ The content is in teaching order.
   - Thelonious Monk / uniqueness ::@:: schizophrenia; strange personality reflected in the music: crazy, demented <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2025-05-19,27,402!2025-05-11,19,382-->
-- [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2025-05-08,19,382!2025-05-08,19,382-->
+- [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2025-08-12,96,402!2025-08-18,102,402-->
   - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
 - [Kenny Clarke](../../../../general/Kenny%20Clarke.md) \(1914–1985\) ::@:: American jazz drummer and bandleader; drummer at Minton's Playhouse <!--SR:!2025-05-17,25,402!2025-05-19,27,402-->
   - Kenny Clarke / effect ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles. <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
@@ -497,11 +497,11 @@ The content is in teaching order.
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\) <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
   - cool jazz / characteristics ::@:: arranged heavily, classicial, original music, polyphonic, restrained, slow <!--SR:!2025-05-19,27,402!2025-05-18,26,402-->
     - cool jazz / characteristics / vs. bebop ::@:: Basically opposite of bebop. \(Essentially, just invert the characteristics listed above.\) <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
-- [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2025-05-08,19,382!2025-05-17,25,402-->
+- [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2025-08-13,97,402!2025-05-17,25,402-->
   - Birth of the Cool / tracks ::@:: "Boblicity" \(1949\) — Miles Davis <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
-- [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2025-05-19,27,402!2025-05-08,19,382-->
+- [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2025-05-19,27,402!2025-08-18,102,402-->
   - Chet Baker / old age ::@:: When he was in his 50s, he was old and ugly after drugs. Later, he was found dead in Amersterdam after apparently falling out of a window. <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
-  - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2025-05-04,15,362!2025-05-17,25,402-->
+  - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2025-07-20,74,382!2025-05-17,25,402-->
   - Chet Baker / films ::@:: _Let's Get Lost_, a documentary made the year he died, and "Born to be Blue", a biography motion picture. <!--SR:!2025-05-18,26,402!2025-05-18,26,402-->
 - [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
@@ -522,7 +522,7 @@ The content is in teaching order.
   - Antônio Carlos Jobim / effect ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century. <!--SR:!2025-05-17,25,402!2025-05-18,26,402-->
 - [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-05-19,27,402!2025-05-18,26,402-->
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova". <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
-  - Joao Gilberto / works ::@:: "Desafinado" \(1959\) — Joao Gilberto <!--SR:!2025-05-08,19,382!2025-05-18,26,402-->
+  - Joao Gilberto / works ::@:: "Desafinado" \(1959\) — Joao Gilberto <!--SR:!2025-08-17,101,402!2025-05-18,26,402-->
 - [Sérgio Mendes](../../../../general/Sérgio%20Mendes.md) \(1941–2024\) ::@:: He continued with the bossa nova and samba movement, and mixed Brazilian music with Americam music. <p> His career took off with worldwide hits by his band Brasil '66. <!--SR:!2025-05-19,27,402!2025-05-17,25,402-->
   - Sérgio Mendes / works ::@:: "Mas que nada" \(1963\) — Brasil '66 <!--SR:!2025-05-19,27,402!2025-05-17,25,402-->
 - assignment: \(none\)
@@ -549,9 +549,9 @@ The content is in teaching order.
   - Art Blakely / effect ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
 - [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2025-05-18,26,402!2025-05-17,25,402-->
   - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
-- [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound. <!--SR:!2025-05-19,27,402!2025-05-08,19,382-->
+- [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound. <!--SR:!2025-05-19,27,402!2025-08-18,102,402-->
   - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
-- [Lee Morgan](../../../../general/Lee%20Morgan.md) \(1938–1972\) ::@:: He was an American jazz trumpeter and composer. <p> He was part of the Jazz Messengers. He was known for his hit "Sidewinder". He was shot dead by his wife at 33 while at the gig. <!--SR:!2025-05-17,25,402!2025-05-08,19,382-->
+- [Lee Morgan](../../../../general/Lee%20Morgan.md) \(1938–1972\) ::@:: He was an American jazz trumpeter and composer. <p> He was part of the Jazz Messengers. He was known for his hit "Sidewinder". He was shot dead by his wife at 33 while at the gig. <!--SR:!2025-05-17,25,402!2025-08-17,101,402-->
 - assignment: [concert 2](assignments/concert%202/index.md)
 
 ## week 12 lecture 2
@@ -566,22 +566,22 @@ The content is in teaching order.
 - trading ::@:: instrumentalists take turns playing 2, 4, 8, or 16 measures of improvisation <!--SR:!2025-05-18,26,402!2025-05-17,25,402-->
 - [straight-ahead jazz](../../../../general/straight-ahead%20jazz.md) ::@:: It is a genre of jazz that developed in the 1960s, with roots in the prior two decades. <p> It contains the swing feel and walking bass. <!--SR:!2025-05-18,26,402!2025-05-17,25,402-->
 - jazz
-  - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multitrack recording. <!--SR:!2025-05-19,27,402!2025-05-08,19,382-->
+  - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multitrack recording. <!--SR:!2025-05-19,27,402!2025-08-15,99,402-->
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but drooped out to play jazz. He started in Charlie Parker's band. <!--SR:!2025-05-18,26,402!2025-05-17,25,402-->
   - Miles Davis / known for :;@:: incredibly inventive, melodic, unique sound
-  - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pinaists, saxophonists, etc. <!--SR:!2025-05-08,19,382!2025-05-18,26,402-->
+  - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pinaists, saxophonists, etc. <!--SR:!2025-08-15,99,402!2025-05-18,26,402-->
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2025-05-17,25,402!2025-05-18,26,402-->
   - Miles Davis / effect ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He strugged with heroin. <!--SR:!2025-05-19,27,402!2025-05-18,26,402-->
   - Miles Davis / genres
-    - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis <!--SR:!2025-05-17,25,402!2025-05-08,19,382-->
-    - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Bobplicity" \(1949\) — Miles Davis <!--SR:!2025-05-08,19,382!2025-05-17,25,402-->
-  - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2025-05-17,25,402!2025-05-08,19,382-->
+    - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis <!--SR:!2025-05-17,25,402!2025-08-13,97,402-->
+    - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Bobplicity" \(1949\) — Miles Davis <!--SR:!2025-08-14,98,402!2025-05-17,25,402-->
+  - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2025-05-17,25,402!2025-08-16,100,402-->
     - Miles Davis / Prestige records / effect ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2025-05-18,26,402!2025-05-19,27,402-->
 - [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2025-05-17,25,402!2025-05-19,27,402-->
   - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2025-05-12,20,382!2025-05-11,19,382-->
-- [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2025-05-08,19,382!2025-05-11,19,382-->
-  - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2025-05-08,19,382!2025-05-19,27,402-->
+- [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2025-08-18,102,402!2025-05-11,19,382-->
+  - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2025-08-12,96,402!2025-05-19,27,402-->
 - assignment
   - watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\)
   - [1959](questions/index.md#1959)
@@ -590,23 +590,23 @@ The content is in teaching order.
 
 - datetime: 2025-04-07T08:30:00-05:00/2025-04-07T09:00:00-05:00
   - local: 2025-04-07T21:30:00+08:00/2025-04-07T22:00:00+08:00
-- [modal jazz](../../../../general/modal%20jazz.md) ::@:: It is jazz that makes use of musical modes, often modulating among them to accompany the chords instead of relying on one tonal center used across the piece. <!--SR:!2025-05-08,19,382!2025-05-11,19,382-->
-  - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2025-05-08,19,382!2025-05-17,25,402-->
+- [modal jazz](../../../../general/modal%20jazz.md) ::@:: It is jazz that makes use of musical modes, often modulating among them to accompany the chords instead of relying on one tonal center used across the piece. <!--SR:!2025-08-16,100,402!2025-05-11,19,382-->
+  - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2025-08-14,98,402!2025-05-17,25,402-->
 - Miles Davis
   - Miles Davis / genres
-    - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2025-05-11,19,382!2025-05-04,15,362-->
+    - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2025-05-11,19,382!2025-07-20,74,382-->
 - Miles Davis Quintet
-  - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2025-05-04,15,362!2025-05-19,27,402-->
+  - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2025-07-21,75,382!2025-05-19,27,402-->
     - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exicting to listen to. <!--SR:!2025-05-18,26,402!2025-05-18,26,402-->
     - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmoney along with Herbie. He allowed other musicians to stretch without worrying about the bass. <!--SR:!2025-05-18,26,402!2025-05-12,20,382-->
-    - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2025-05-19,27,402!2025-05-08,19,382-->
+    - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2025-05-19,27,402!2025-08-18,102,402-->
     - Miles Davis Quintet / Second Great Quintet / Herbie Hancock ::@:: On piano. New harmonies. <!--SR:!2025-05-17,25,402!2025-05-18,26,402-->
     - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz. <!--SR:!2025-05-18,26,402!2025-05-17,25,402-->
 - Miles Davis
   - Miles Davis / genres
-    - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then he died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2025-05-08,19,382!2025-05-17,25,402-->
+    - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then he died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2025-08-18,102,402!2025-05-17,25,402-->
   - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured. <!--SR:!2025-05-19,27,402!2025-05-19,27,402-->
-  - Miles Davis / 1980s ::@:: The instructor had not idea how to quanitfy the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2025-05-19,27,402!2025-05-08,19,382-->
+  - Miles Davis / 1980s ::@:: The instructor had not idea how to quanitfy the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2025-05-19,27,402!2025-08-17,101,402-->
   - Miles Davis / death ::@:: He died in 1991 from pneumoia. <!--SR:!2025-05-17,25,402!2025-05-19,27,402-->
   - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc. <!--SR:!2025-05-17,25,402!2025-05-19,27,402-->
 - assignment: watch "How Coltrane Broke "My Favorite Things" (feat. Adam Neely)" \(<https://youtu.be/Bg1RGmyl-_A>\)

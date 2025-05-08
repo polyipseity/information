@@ -116,7 +116,7 @@ It is a natural question to ask: under {@{which conditions can two categories be
 
 - The [functor category](functor%20category.md) _D_<sup>_C_</sup> ::@:: has as objects the functors from _C_ to _D_ and as morphisms the natural transformations of such functors. The [Yoneda lemma](Yoneda%20lemma.md) is one of the most famous basic results of category theory; it describes representable functors in functor categories. <!--SR:!2025-12-04,257,330!2026-01-01,279,330-->
 - [Duality](dual%20(category%20theory).md): ::@:: Every statement, theorem, or definition in category theory has a _dual_ which is essentially obtained by "reversing all the arrows". If one statement is true in a category _C_ then its dual is true in the dual category _C_<sup>op</sup>. This duality, which is transparent at the level of category theory, is often obscured in applications and can lead to surprising relationships. <!--SR:!2026-01-08,285,330!2025-12-20,270,330-->
-- [Adjoint functors](adjoint%20functors.md): ::@:: A functor can be left \(or right\) adjoint to another functor that maps in the opposite direction. Such a pair of adjoint functors typically arises from a construction defined by a universal property; this can be seen as a more abstract and powerful view on universal properties. <!--SR:!2025-05-03,68,230!2025-11-30,255,330-->
+- [Adjoint functors](adjoint%20functors.md): ::@:: A functor can be left \(or right\) adjoint to another functor that maps in the opposite direction. Such a pair of adjoint functors typically arises from a construction defined by a universal property; this can be seen as a more abstract and powerful view on universal properties. <!--SR:!2025-10-03,153,230!2025-11-30,255,330-->
 
 ### higher-dimensional categories
 

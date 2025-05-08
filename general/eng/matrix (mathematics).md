@@ -15,7 +15,7 @@ tags:
 
 #### addition
 
-The _sum_ of {@{two matrices __A__ and __B__ of the same size _m_ × _n_}@} is denoted {@{__A__ + __B__}@}. It is calculated by {@{adding the matrices element-wise}@}: {@{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2025-07-23,311,330!2027-12-15,992,350!2025-04-30,244,330!2025-05-25,264,330-->
+The _sum_ of {@{two matrices __A__ and __B__ of the same size _m_ × _n_}@} is denoted {@{__A__ + __B__}@}. It is calculated by {@{adding the matrices element-wise}@}: {@{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2025-07-23,311,330!2027-12-15,992,350!2028-05-16,1112,350!2025-05-25,264,330-->
 
 #### scalar multiplication
 
@@ -33,7 +33,7 @@ The _transpose_ of {@{an _m_-by-_n_ matrix __A__}@} is {@{the _n_-by-_m_ matrix 
 
 - see: [matrix multiplication](matrix%20multiplication.md)
 
-_Multiplication_ of two matrices is defined iff {@{the number of columns in the left matrix equals the number of rows in the right matrix}@}. Given two matrices {@{__A__, a _m_-by-_p_ matrix, and __B__, a _p_-by-_n_ matrix}@}, the _matrix product_ is denoted {@{__AB__, which does not equal __BA__ in general, and __BA__ may even not be defined}@}. The matrix product element are given by {@{the [dot product](dot%20product.md) between the corresponding row of __A__ and the corresponding column of __B__}@}: {@{$$(\mathbf{A} \mathbf{B})_{i, j} = \sum_{r = 1}^p \mathbf{A}_{i, r} \mathbf{B}_{r, j} = \mathbf{A}_{i, 1} \mathbf{B}_{1, j} + \mathbf{A}_{i, 2} \mathbf{B}_{2, j} + \cdots + \mathbf{A}_{i, p} \mathbf{B}_{p, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2027-08-24,875,330!2025-04-30,216,290!2027-02-07,735,330!2026-12-19,652,290!2026-02-12,439,310-->
+_Multiplication_ of two matrices is defined iff {@{the number of columns in the left matrix equals the number of rows in the right matrix}@}. Given two matrices {@{__A__, a _m_-by-_p_ matrix, and __B__, a _p_-by-_n_ matrix}@}, the _matrix product_ is denoted {@{__AB__, which does not equal __BA__ in general, and __BA__ may even not be defined}@}. The matrix product element are given by {@{the [dot product](dot%20product.md) between the corresponding row of __A__ and the corresponding column of __B__}@}: {@{$$(\mathbf{A} \mathbf{B})_{i, j} = \sum_{r = 1}^p \mathbf{A}_{i, r} \mathbf{B}_{r, j} = \mathbf{A}_{i, 1} \mathbf{B}_{1, j} + \mathbf{A}_{i, 2} \mathbf{B}_{2, j} + \cdots + \mathbf{A}_{i, p} \mathbf{B}_{p, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@}. <!--SR:!2027-08-24,875,330!2027-09-17,870,310!2027-02-07,735,330!2026-12-19,652,290!2026-02-12,439,310-->
 
 ## linear equation
 

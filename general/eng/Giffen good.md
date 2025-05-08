@@ -23,7 +23,7 @@ For {@{[ordinary goods](ordinary%20good.md)}@}, as {@{the [price](price.md) of t
 
 > {@{![types of goods in economics](../../archives/Wikimedia%20Commons/Types%20of%20goods.svg)}@}
 >
-> {@{Types of goods in economics}@} <!--SR:!2025-05-04,119,290!2025-10-24,259,330-->
+> {@{Types of goods in economics}@} <!--SR:!2026-04-22,350,290!2025-10-24,259,330-->
 
 Giffen goods are {@{named after Scottish economist [Sir Robert Giffen](Robert%20Giffen.md)}@}, to whom {@{[Alfred Marshall](Alfred%20Marshall.md)}@} attributed this idea in {@{his book _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_}@}, first {@{published in 1890}@}. Giffen first {@{proposed the [paradox](paradox.md)}@} from {@{his observations of the purchasing habits of the [Victorian era](Victorian%20era.md) poor}@}. <!--SR:!2025-10-03,243,330!2025-06-04,135,290!2025-10-19,255,330!2025-10-08,246,330!2025-12-06,294,330!2025-11-17,278,330-->
 
@@ -79,7 +79,7 @@ Giffen goods are {@{difficult to study}@} because {@{the definition requires a n
 
 {@{Anthony Bopp \(1983\)}@} proposed that {@{[kerosene](kerosene.md), a low-quality fuel used in home heating}@}, was a Giffen good. {@{Schmuel Baruch and Yakar Kanai \(2001\)}@} suggested that {@{_[shochu](shōchū.md)_, a Japanese distilled beverage}@}, could be a Giffen good. In both cases, the authors {@{offered supporting econometric evidence}@}. However, {@{this evidence is considered incomplete}@}. <!--SR:!2026-02-02,312,290!2025-06-09,135,290!2025-08-24,180,270!2025-10-31,264,330!2025-12-02,290,330!2025-11-13,275,330-->
 
-It is worth noting that {@{a good may be a Giffen good at the individual level but not at the aggregate level \(or vice-versa\)}@}. As shown by {@{Hildenbrand's model}@}, aggregate demand will {@{not necessarily exhibit any Giffen behavior even when we assume the same preferences for each consumer}@}, whose {@{nominal wealth is uniformly distributed on an interval containing zero}@}. This could explain {@{the presence of Giffen behavior for individual consumers but the absence in aggregate data}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-05-05,120,290!2025-09-23,235,330!2025-11-07,255,329!2025-07-04,166,310!2025-11-28,287,330-->
+It is worth noting that {@{a good may be a Giffen good at the individual level but not at the aggregate level \(or vice-versa\)}@}. As shown by {@{Hildenbrand's model}@}, aggregate demand will {@{not necessarily exhibit any Giffen behavior even when we assume the same preferences for each consumer}@}, whose {@{nominal wealth is uniformly distributed on an interval containing zero}@}. This could explain {@{the presence of Giffen behavior for individual consumers but the absence in aggregate data}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2026-09-08,489,310!2025-09-23,235,330!2025-11-07,255,329!2025-07-04,166,310!2025-11-28,287,330-->
 
 ## see also
 

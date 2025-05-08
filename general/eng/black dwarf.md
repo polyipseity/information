@@ -11,7 +11,7 @@ tags:
 
 A __black dwarf__ is {@{a theoretical [stellar remnant](compact%20object.md), specifically a [white dwarf](white%20dwarf.md) that has cooled sufficiently to no longer emit significant [heat](heat.md) or [light](light.md)}@}. Because {@{the time required for a white dwarf to reach this state is calculated to be longer than the current [age of the universe](age%20of%20the%20universe.md) (13.8 billion years)}@}, {@{no black dwarfs are expected to exist in the universe at the present time}@}. The temperature of the coolest white dwarfs is {@{one observational limit on the universe's age}@}. <!--SR:!2025-10-14,299,290!2025-07-23,275,330!2026-06-23,515,310!2027-02-27,716,330-->
 
-The name "black dwarf" has also been applied to {@{hypothetical late-stage cooled [brown dwarfs](brown%20dwarf.md) – [substellar objects](substellar%20object.md) with insufficient mass (less than approximately 0.07 [M<sub>☉</sub>](solar%20mass.md)) to maintain [hydrogen](hydrogen.md)-burning [nuclear fusion](nuclear%20fusion.md)}@}. <!--SR:!2025-04-26,177,270-->
+The name "black dwarf" has also been applied to {@{hypothetical late-stage cooled [brown dwarfs](brown%20dwarf.md) – [substellar objects](substellar%20object.md) with insufficient mass (less than approximately 0.07 [M<sub>☉</sub>](solar%20mass.md)) to maintain [hydrogen](hydrogen.md)-burning [nuclear fusion](nuclear%20fusion.md)}@}. <!--SR:!2026-08-20,478,270-->
 
 ## properties and structure
 

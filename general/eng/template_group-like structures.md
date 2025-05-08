@@ -53,13 +53,13 @@ tags:
 > - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-06-28,117,290!2025-07-15,129,290-->
 > - unital magma ::@:: total, identity <!--SR:!2025-11-06,234,330!2025-06-25,114,290-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-11-30,255,330!2025-08-20,170,310-->
-> - loop ::@:: total, identity, divisible <!--SR:!2025-05-02,79,270!2025-06-21,106,250-->
+> - loop ::@:: total, identity, divisible <!--SR:!2025-06-13,42,250!2025-06-21,106,250-->
 > - semigroup ::@:: total, associative <!--SR:!2025-06-24,106,250!2025-06-05,57,230-->
-> - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-06-14,98,250!2025-04-27,38,210-->
+> - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-06-14,98,250!2025-05-18,19,190-->
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-09-29,175,270!2025-06-07,77,210-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-05-16,56,270!2025-11-15,207,250-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-05-30,65,270!2025-09-07,162,270-->
-> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2025-04-29,49,170-->
+> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2025-07-18,80,170-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2025-10-22,205,310!2025-09-10,176,310-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-12-18,267,330!2026-01-14,290,330-->
 

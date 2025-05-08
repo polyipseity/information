@@ -64,9 +64,9 @@ return (
 - fluorine: -1→::@::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2027-05-05,930,230!2025-09-19,714,270-->
 - (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→::@::←group I metal: +1 <!--SR:!2027-08-07,1101,270!2026-03-11,487,210-->
 - group I metal: +1→::@::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2026-01-08,892,330-->
-- group II metal: +2→::@::←metallic hydride: -1 <!--SR:!2025-05-04,120,190!2025-11-04,254,250-->
+- group II metal: +2→::@::←metallic hydride: -1 <!--SR:!2025-07-08,63,170!2025-11-04,254,250-->
 - metallic hydride: -1→::@::←hydrogen: +1 <!--SR:!2030-11-24,2047,310!2029-10-31,1786,310-->
-- hydrogen: +1→::@::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2028-12-13,1354,250!2025-05-05,163,210-->
+- hydrogen: +1→::@::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2028-12-13,1354,250!2025-07-25,80,190-->
 - (if not bonded to oxygen or flourine) oxygen: -2→::@::←_(end)_ <!--SR:!2026-06-10,610,310!2026-01-25,382,230-->
 
 <!--/pytextgen-->

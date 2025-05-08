@@ -392,7 +392,7 @@ The content is in teaching order.
 - datetime: 2024-04-22T09:00:00+08:00/2024-04-22T10:30:00+08:00
 - [principal component analysis § computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
 - project phase 3: see above
-- [fact table § examples](../../../../general/fact%20table.md) ::@:: see the transactional fact table example <!--SR:!2025-04-29,231,357!2025-12-17,418,377-->
+- [fact table § examples](../../../../general/fact%20table.md) ::@:: see the transactional fact table example <!--SR:!2028-06-05,1132,377!2025-12-17,418,377-->
 - data cube ::@:: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2026-03-28,526,397!2026-04-05,533,397-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
     - data cube > operations ::@:: drill down, rollup <!--SR:!2025-09-14,357,377!2026-03-23,522,397-->
@@ -533,7 +533,7 @@ The content is in teaching order.
   - types: 80% long questions, 20% multiple choice questions
   - report
     - Very very tight time limit. Do the paper as-if you do not have enough time.
-      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2025-04-26,137,422!2027-06-02,770,442-->
+      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2027-06-24,785,442!2027-06-02,770,442-->
 - final examination
   - bonus question (+10%, max 100%): no
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
@@ -543,4 +543,4 @@ The content is in teaching order.
   - types: 100% short or long questions, 0% multiple choice questions
   - report
     - Time is much more lenient.
-      - handle final examination time limit ::@:: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2025-04-27,138,422!2027-06-15,781,442-->
+      - handle final examination time limit ::@:: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2027-07-01,792,442!2027-06-15,781,442-->

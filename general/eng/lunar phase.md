@@ -20,7 +20,7 @@ tags:
 
 A __lunar phase__ or __Moon phase__ is {@{the apparent shape of the [Moon](Moon.md)'s directly sunlit portion as viewed from [Earth](Earth.md)}@}. In common usage, the four major phases are {@{the [new moon](new%20moon.md), the first quarter, the [full moon](full%20moon.md) and the last quarter}@}; the four minor phases are {@{waxing crescent, waxing gibbous, waning gibbous, and waning crescent}@}. A [lunar month](lunar%20month.md) is thus {@{the time between successive recurrences of the same phase}@}. The duration is {@{not perfectly constant due to [eccentricity](orbital%20eccentricity.md) of the Moon's orbit, but averages out to about 29.5 days, which is also the [synodic orbital period](orbital%20period.md#synodic%20period) of the Moon}@}. <!--SR:!2027-05-21,788,330!2026-11-14,599,310!2027-04-18,774,330!2025-05-18,222,310!2025-08-10,256,270-->
 
-The appearance of the [Moon](Moon.md) (its phase) depends on {@{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}@}. It gradually {@{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}@}. Half of the Moon is {@{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}@}, varying from {@{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}@}. The rotation of Earth {@{has only little effect on the phase}@} because {@{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}@}. This partially contributes to {@{[lunar libration](libration.md) slightly}@}. <!--SR:!2026-12-13,669,330!2026-08-13,539,310!2025-05-31,252,330!2025-04-27,225,330!2026-09-23,592,310!2027-07-19,842,330!2025-07-10,281,330-->
+The appearance of the [Moon](Moon.md) (its phase) depends on {@{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}@}. It gradually {@{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}@}. Half of the Moon is {@{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}@}, varying from {@{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}@}. The rotation of Earth {@{has only little effect on the phase}@} because {@{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}@}. This partially contributes to {@{[lunar libration](libration.md) slightly}@}. <!--SR:!2026-12-13,669,330!2026-08-13,539,310!2025-05-31,252,330!2028-02-14,1021,350!2026-09-23,592,310!2027-07-19,842,330!2025-07-10,281,330-->
 
 As different [Moon](Moon.md) phases represent {@{different relative orbital positions of the Moon relative to [Earth](Earth.md)}@}, this also means the corresponding {@{moonrise and moonset are at different times of the day}@}. In particular, the Moon rises and sets {@{about 50 minutes later each day}@}. <!--SR:!2025-05-17,244,330!2025-07-10,282,330!2025-07-08,264,305-->
 
@@ -72,8 +72,8 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-07-04T10:16:44.272591+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[new moon](new%20moon.md) <!--SR:!2025-04-28,226,330!2027-12-28,987,350-->
-- [new moon](new%20moon.md)→::@::←waxing [crescent](crescent.md) <!--SR:!2025-05-04,232,330!2025-07-01,274,330-->
+- _(begin)_→::@::←[new moon](new%20moon.md) <!--SR:!2028-02-22,1029,350!2027-12-28,987,350-->
+- [new moon](new%20moon.md)→::@::←waxing [crescent](crescent.md) <!--SR:!2028-03-27,1056,350!2025-07-01,274,330-->
 - waxing [crescent](crescent.md)→::@::←first quarter <!--SR:!2026-02-23,390,310!2025-07-30,295,330-->
 - first quarter→::@::←waxing gibbous <!--SR:!2026-05-12,471,310!2025-10-30,273,290-->
 - waxing gibbous→::@::←[full moon](full%20moon.md) <!--SR:!2025-06-23,273,330!2027-04-07,720,330-->
@@ -86,7 +86,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-07-04T10:16:44.255004+08:00. Any edits will be overridden! -->
 
-- [new moon](new%20moon.md):@:invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md) <!--SR:!2025-05-05,233,330-->
+- [new moon](new%20moon.md):@:invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md) <!--SR:!2028-03-26,1055,350-->
 - waxing [crescent](crescent.md):@:late morning to post-dusk <!--SR:!2025-12-07,351,290-->
 - first quarter:@:afternoon to early night <!--SR:!2025-08-03,299,330-->
 - waxing gibbous:@:late afternoon to most of night <!--SR:!2025-06-03,212,270-->

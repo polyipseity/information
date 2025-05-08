@@ -15,7 +15,7 @@ tags:
 
 In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-11-16,253,330!2025-07-08,148,310!2025-12-31,287,330!2025-11-14,251,330!2025-11-28,262,330!2025-11-02,241,330-->
 
-There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-10-19,229,330!2025-05-03,97,290!2025-11-22,257,330!2025-06-19,123,290-->
+There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-10-19,229,330!2026-05-31,393,310!2025-11-22,257,330!2025-06-19,123,290-->
 
 ## illustration
 
@@ -31,7 +31,7 @@ There exists {@{an inconsistency in different descriptions as to the definition 
 
 {@{The right rotation operation}@} as shown in the adjacent image is performed {@{with _Q_ as the root and hence is a right rotation on, or rooted at, _Q_}@}. This operation results in {@{a rotation of the tree in the clockwise direction}@}. {@{The inverse operation}@} is {@{the left rotation, which results in a movement in a counter-clockwise direction}@} \(the left rotation shown above is {@{rooted at _P_}@}\). The key to understanding how a rotation functions is {@{to understand its constraints}@}. In particular {@{the order of the leaves of the tree \(when read left to right for example\) cannot change}@} \(another way to think of it is that {@{the order that the leaves would be visited in an in-order traversal must be the same after the operation as before}@}\). Another constraint is {@{the main property of a binary search tree}@}, namely that {@{all nodes in the right subtree are greater than the parent and all nodes in the left subtree are less than the [parent](tree%20(abstract%20data%20type).md)}@}. Notice that {@{the [right child](binary%20tree.md#right%20child) of a left child of the root of a sub-tree}@} \(for example node B in the diagram for the tree rooted at Q\) can {@{become the left child of the root}@}, that itself {@{becomes the right child of the "new" root in the rotated sub-tree}@}, without {@{violating either of those constraints}@}. As seen in the diagram, {@{the order of the leaves doesn't change}@}. The opposite operation also {@{preserves the order and is the second kind of rotation}@}. <!--SR:!2025-12-09,271,330!2025-12-15,276,330!2025-10-30,239,330!2026-01-06,293,330!2025-10-31,240,330!2025-12-26,284,330!2025-10-23,232,330!2025-06-08,124,290!2025-12-10,272,330!2025-12-15,276,330!2025-12-14,275,330!2025-11-03,242,330!2025-12-07,269,330!2026-02-24,305,290!2025-10-18,228,330!2025-12-23,281,330!2025-07-09,137,290-->
 
-Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as stated above, the elements must be {@{interpreted as variables that can be compared to each other}@}. {@{The alphabetic characters to the left}@} are {@{used as placeholders for these variables}@}. In the animation to the right, {@{capital alphabetic characters are used as variable placeholders}@} while {@{lowercase Greek letters are placeholders for an entire set of variables}@}. The circles {@{represent individual nodes and the triangles represent subtrees}@}. Each subtree could be {@{empty, consist of a single node, or consist of any number of nodes}@}. <!--SR:!2025-07-10,137,290!2025-05-08,99,290!2025-12-21,280,330!2025-11-21,256,330!2025-09-27,196,310!2025-11-25,259,330!2025-07-10,134,290!2025-07-06,134,290-->
+Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as stated above, the elements must be {@{interpreted as variables that can be compared to each other}@}. {@{The alphabetic characters to the left}@} are {@{used as placeholders for these variables}@}. In the animation to the right, {@{capital alphabetic characters are used as variable placeholders}@} while {@{lowercase Greek letters are placeholders for an entire set of variables}@}. The circles {@{represent individual nodes and the triangles represent subtrees}@}. Each subtree could be {@{empty, consist of a single node, or consist of any number of nodes}@}. <!--SR:!2025-07-10,137,290!2026-06-11,399,310!2025-12-21,280,330!2025-11-21,256,330!2025-09-27,196,310!2025-11-25,259,330!2025-07-10,134,290!2025-07-06,134,290-->
 
 ## detailed illustration
 
@@ -57,7 +57,7 @@ Root = Pivot
 > {@{Root.OS = Pivot.RS}@}
 > {@{Pivot.RS = Root}@}
 > {@{Root = Pivot}@}
-> </pre> <!--SR:!2025-10-17,227,330!2025-11-17,254,330!2025-05-03,87,270!2025-07-17,155,310-->
+> </pre> <!--SR:!2025-10-17,227,330!2025-11-17,254,330!2025-12-19,230,270!2025-07-17,155,310-->
 
 This is a {@{constant time}@} operation. <!--SR:!2025-10-22,231,330-->
 
@@ -65,7 +65,7 @@ The programmer must {@{also make sure that the root's parent points to the pivot
 
 ## inorder invariance
 
-The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-08-11,175,310!2025-05-02,96,290-->
+The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-08-11,175,310!2026-05-27,390,310-->
 
 ```text
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))
@@ -140,7 +140,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 
 It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-20,230,330!2025-08-26,185,310!2025-11-08,231,290-->
 
-{@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-02,293,290!2025-05-05,86,270!2025-05-30,108,290!2025-05-07,88,270!2025-06-16,127,290-->
+{@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-02,293,290!2026-04-02,331,290!2025-05-30,108,290!2026-04-11,339,290!2025-06-16,127,290-->
 
 ## see also
 

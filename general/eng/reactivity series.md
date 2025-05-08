@@ -135,16 +135,16 @@ return _chain.from_iterable(await _gather(
 - [lithium](lithium.md)→::@::←[barium](barium.md) <!--SR:!2026-03-03,336,210!2025-08-17,138,190-->
 - [barium](barium.md)→::@::←[strontium](strontium.md) <!--SR:!2025-06-09,520,270!2025-07-25,417,250-->
 - [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!2025-07-05,177,210!2026-07-08,451,250-->
-- [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-04-28,49,190-->
+- [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-09-13,136,210-->
 - [magnesium](magnesium.md)→::@::←[beryllium](beryllium.md) <!--SR:!2026-03-25,358,270!2027-04-07,988,290-->
-- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2025-05-13,36,170-->
+- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2027-03-13,675,230!2025-05-13,36,170-->
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2026-01-27,277,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2026-10-22,560,210-->
-- [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-07-08,115,190!2025-05-06,383,230-->
+- [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-07-08,115,190!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2026-07-23,460,190-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-05-22,30,170-->
-- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2025-04-28,54,130-->
+- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2025-08-10,102,150-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2025-09-23,156,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2025-08-18,148,170-->
 - [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2025-07-07,539,250-->
@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2025-11-08,643,290-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2025-06-26,204,210!2027-10-15,993,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-09-03,213,250-->
-- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-05-03,30,150-->
+- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-07-11,69,170-->
 - [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2025-12-30,464,310-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
@@ -207,7 +207,7 @@ return _chain.from_iterable(await _gather(
 - Sr<sup>2+</sup>:@:[strontium](strontium.md) <!--SR:!2029-05-05,1517,385-->
 - Ca<sup>2+</sup>:@:[calcium](calcium.md) <!--SR:!2025-06-24,388,365-->
 - Mg<sup>2+</sup>:@:[magnesium](magnesium.md) <!--SR:!2029-12-04,1687,385-->
-- Be<sup>2+</sup>:@:[beryllium](beryllium.md) <!--SR:!2025-04-29,343,367-->
+- Be<sup>2+</sup>:@:[beryllium](beryllium.md) <!--SR:!2030-01-20,1726,387-->
 - Al<sup>3+</sup>:@:[aluminium](aluminium.md) <!--SR:!2029-11-01,1659,385-->
 - Ti<sup>4+</sup>:@:[titanium](titanium.md) <!--SR:!2025-06-07,374,365-->
 - Mn<sup>2+</sup>:@:[manganese](manganese.md) <!--SR:!2028-10-16,1319,365-->
@@ -222,7 +222,7 @@ return _chain.from_iterable(await _gather(
 - Sb<sup>3+</sup>:@:[antimony](antimony.md) <!--SR:!2027-12-27,1007,345-->
 - Bi<sup>3+</sup>:@:[bismuth](bismuth.md) <!--SR:!2025-07-19,407,365-->
 - Cu<sup>2+</sup>:@:[copper](copper.md) <!--SR:!2025-05-23,362,367-->
-- W<sup>3+</sup>:@:[tungsten](tungsten.md) <!--SR:!2025-04-30,343,365-->
+- W<sup>3+</sup>:@:[tungsten](tungsten.md) <!--SR:!2030-01-11,1717,385-->
 - Hg<sup>2+</sup>:@:[mercury](mercury%20(element).md) <!--SR:!2025-07-06,398,365-->
 - Ag<sup>+</sup>:@:[silver](silver.md) <!--SR:!2025-06-03,371,367-->
 - Au<sup>3+</sup>:@:[gold](gold.md) <!--SR:!2025-06-20,385,367-->
@@ -242,7 +242,7 @@ return _chain.from_iterable(await _gather(
 - [barium](barium.md):@:reacts with cold [water](water.md) <!--SR:!2029-05-27,1534,310-->
 - [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2029-06-08,1541,310-->
 - [calcium](calcium.md):@:reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
-- [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2025-04-27,96,150-->
+- [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2025-09-20,143,150-->
 - [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-10-28,212,150-->
 - [aluminium](aluminium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-05-11,123,150-->
 - [titanium](titanium.md):@:reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2028-01-01,1043,250-->
@@ -256,7 +256,7 @@ return _chain.from_iterable(await _gather(
 - [tin](tin.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2027-07-02,1046,290-->
 - [lead](lead.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2026-10-19,973,330-->
 - [antimony](antimony.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-12-24,751,290-->
-- [bismuth](bismuth.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2025-04-28,324,290-->
+- [bismuth](bismuth.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2028-11-26,1306,310-->
 - [copper](copper.md):@:reacts slowly with [air](air.md) <!--SR:!2026-04-18,783,290-->
 - [tungsten](tungsten.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-05-29,824,330-->
 - [mercury](mercury%20(element).md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-08-19,883,330-->
@@ -270,9 +270,9 @@ return _chain.from_iterable(await _gather(
 
 - reacts with cold [water](water.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2025-12-20,242,165-->
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md):@:[magnesium](magnesium.md) <!--SR:!2026-12-20,785,345-->
-- reacts with [steam](steam.md) and [acids](acid.md):@:[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-05-05,105,170-->
+- reacts with [steam](steam.md) and [acids](acid.md):@:[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-11-01,179,170-->
 - reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2026-01-01,477,325-->
-- reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-04-26,19,130-->
+- reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-05-22,26,130-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-06-17,554,285-->
 - reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2028-04-09,1171,365-->
 

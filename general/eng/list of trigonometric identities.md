@@ -45,7 +45,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-07-11T08:29:28.983272+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2030-02-28,1790,382-->
+- _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2030-07-06,1890,380!2030-02-28,1790,382-->
 - [Pythagorean identities](#Pythagorean%20identities)→::@::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2028-09-15,1546,350-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!2026-09-25,660,289!2027-01-01,776,329-->
 - [linear combination](#linear%20combination)→::@::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2027-07-22,1124,330-->
@@ -80,7 +80,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="ba01"--><!-- The following content is generated at 2024-07-10T23:14:21.851131+08:00. Any edits will be overridden! -->
 
-- normal:@:$$\sin^2 \theta + \cos^2 \theta = 1$$ <!--SR:!2025-05-07,387,360-->
+- normal:@:$$\sin^2 \theta + \cos^2 \theta = 1$$ <!--SR:!2030-07-30,1910,380-->
 - divided by sine:@:$$1 + \cot^2 \theta = \csc^2 \theta$$ <!--SR:!2029-09-21,1660,380-->
 - divided by cosine:@:$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2026-05-11,653,340-->
 - divided by sine and cosine:@:$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$ <!--SR:!2030-04-01,1813,380-->
@@ -272,7 +272,7 @@ return await memorize_map(
 >
 > - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2025-06-29,380,307!2027-10-17,913,287-->
 > - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-06-02,67,207!2025-07-21,108,167-->
-> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-05-06,19,130-->
+> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-05-31,25,130-->
 > - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2025-09-19,179,207!2025-12-20,481,287-->
 
 ### sum-to-product

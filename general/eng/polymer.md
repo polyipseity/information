@@ -15,7 +15,7 @@ A __polymer__ is {@{a [substance](chemical%20substance.md) consisting of [macrom
 
 - see: [polymerization](polymerization.md)
 
-Synthetic methods are categorized into {@{[step-growth polymerization](step-growth%20polymerization.md), in which multiple chains of monomers can grow concurrently and combine, and [chain-growth polymerization](chain-growth%20polymerization.md), in which monomers are added to chains one by one}@}. The former includes {@{[polycondensation](polycondenstaion.md), in which small [molecular](molecule.md) [by-products](by-product.md) are produced in [condensation reactions](condensation%20reaction.md) to create [condensation polymers](condensation%20polymer.md)}@}, and {@{[polyaddition](polyaddition.md), in which no by-products are formed in [addition reactions](addition%20reaction.md) to create [addition polymers](addition%20polymer.md)}@}. <!--SR:!2027-03-19,872,250!2028-08-07,1293,290!2025-04-26,72,323-->
+Synthetic methods are categorized into {@{[step-growth polymerization](step-growth%20polymerization.md), in which multiple chains of monomers can grow concurrently and combine, and [chain-growth polymerization](chain-growth%20polymerization.md), in which monomers are added to chains one by one}@}. The former includes {@{[polycondensation](polycondenstaion.md), in which small [molecular](molecule.md) [by-products](by-product.md) are produced in [condensation reactions](condensation%20reaction.md) to create [condensation polymers](condensation%20polymer.md)}@}, and {@{[polyaddition](polyaddition.md), in which no by-products are formed in [addition reactions](addition%20reaction.md) to create [addition polymers](addition%20polymer.md)}@}. <!--SR:!2027-03-19,872,250!2028-08-07,1293,290!2025-12-19,233,323-->
 
 ## references
 

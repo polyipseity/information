@@ -74,12 +74,12 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="c471"--><!-- The following content is generated at 2024-03-25T02:33:59.339528+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[Ward's method](Ward's%20method.md) <!--SR:!2025-04-30,295,335!2025-05-04,299,335-->
+- _(begin)_→::@::←[Ward's method](Ward's%20method.md) <!--SR:!2028-01-13,988,335!2028-02-04,1003,335-->
 - [Ward's method](Ward's%20method.md)→::@::←centroid linkage clustering <!--SR:!2026-02-11,421,275!2026-11-23,671,315-->
 - centroid linkage clustering→::@::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-10-30,385,295!2027-10-21,912,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→::@::←median linkage clustering <!--SR:!2027-04-14,779,295!2025-08-11,331,275-->
-- median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2025-05-08,252,275!2025-12-11,415,295-->
-- [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2025-10-05,362,295!2025-04-26,213,235-->
+- median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2025-12-11,415,295-->
+- [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2025-10-05,362,295!2026-09-14,506,235-->
 - unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!2026-07-01,485,275!2025-05-29,279,295-->
 - weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2025-06-03,212,295-->
 
@@ -95,7 +95,7 @@ return chain.from_iterable(await gather(
 - median linkage clustering:@:WPGMC, weighted centroid clustering <!--SR:!2025-07-21,279,255-->
 - [single-linkage clustering](single-linkage%20clustering.md):@:minimum linkage clustering, nearest neighbor technique <!--SR:!2027-06-04,826,335-->
 - unweighted average linkage clustering:@:[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2025-09-05,347,295-->
-- weighted average linkage clustering:@:McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2025-05-06,236,255-->
+- weighted average linkage clustering:@:McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2026-12-30,602,255-->
 
 <!--/pytextgen-->
 
@@ -174,7 +174,7 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 > | __1__     | $a$   | $b$   |
 > | __0__     | $c$   | $d$   |
 >
-> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}@}. The equation in words, which may be easier to remember, is {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})}$$}@}. <!--SR:!2025-09-26,353,295!2025-04-30,162,275!2025-07-10,262,235-->
+> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}@}. The equation in words, which may be easier to remember, is {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})}$$}@}. <!--SR:!2025-09-26,353,295!2026-07-20,446,275!2025-07-10,262,235-->
 
 The chi-squared measure describes {@{the degree of correlation between two variables}@}. <!--SR:!2026-04-11,513,315-->
 

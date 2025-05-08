@@ -57,7 +57,7 @@ Double counting is {@{a technique that equates two expressions that count the si
 
 - see: [pigeonhole principle](pigeonhole%20principle.md)
 
-The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}. <!--SR:!2025-10-30,294,330!2025-04-27,145,310!2025-11-14,305,330-->
+The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}. <!--SR:!2025-10-30,294,330!2027-01-11,622,330!2025-11-14,305,330-->
 
 ## method of distinguished element
 

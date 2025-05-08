@@ -19,7 +19,7 @@ This section {@{outlines how one might do competitor analysis and present it to 
 
 ### competitor classification
 
-Depending on the 2 factors of {@{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}@}, competitors can be classified into 4 types (we can {@{draw a 2 by 2 table}@} to represent it): <!--SR:!2025-06-07,299,341!2025-05-04,274,341-->
+Depending on the 2 factors of {@{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}@}, competitors can be classified into 4 types (we can {@{draw a 2 by 2 table}@} to represent it): <!--SR:!2025-06-07,299,341!2028-11-14,1287,361-->
 
 1. direct competitor ::@:: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2027-01-04,672,321!2025-06-12,304,341-->
 2. indirect competitor ::@:: meeting the same customer needs but using different capabilities to do so <!--SR:!2025-06-01,249,281!2025-06-13,305,341-->
@@ -76,7 +76,7 @@ why: Why are people using competitors' products?
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-10-07,172,170!2025-06-15,175,241-->
 - pricing: Compare prices.→::@::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2026-06-06,448,261!2026-01-24,284,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→::@::←why: Why are people using competitors' products? <!--SR:!2025-12-09,420,301!2026-10-24,594,261-->
-- why: Why are people using competitors' products?→::@::←_(end)_ <!--SR:!2025-06-08,300,341!2025-05-06,232,281-->
+- why: Why are people using competitors' products?→::@::←_(end)_ <!--SR:!2025-06-08,300,341!2027-11-01,908,301-->
 
 <!--/pytextgen-->
 
@@ -123,7 +123,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 > [!example] examples
 >
-> - In Africa, phones are {@{sold for very cheap because of Africa's less developed economies}@}. <!--SR:!2025-05-07,277,341-->
+> - In Africa, phones are {@{sold for very cheap because of Africa's less developed economies}@}. <!--SR:!2028-11-27,1300,361-->
 
 ### when to do
 

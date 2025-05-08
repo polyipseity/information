@@ -69,7 +69,7 @@ return (
 - _(begin)_→::@::←\[[parameter](#parameter)\] <!--SR:!2026-11-09,897,337!2026-12-26,941,349-->
 - \[[parameter](#parameter)\]→::@::←\[[flags](#flags)\] <!--SR:!2026-05-30,720,329!2026-04-17,687,329-->
 - \[[flags](#flags)\]→::@::←\[[width](#width)\] <!--SR:!2025-12-06,424,269!2027-12-21,1075,309-->
-- \[[width](#width)\]→::@::←\[.[precision](#precision)\] <!--SR:!2027-10-20,1010,317!2025-05-05,406,289-->
+- \[[width](#width)\]→::@::←\[.[precision](#precision)\] <!--SR:!2027-10-20,1010,317!2029-10-24,1631,309-->
 - \[.[precision](#precision)\]→::@::←\[[length](#length)\] <!--SR:!2026-07-13,754,329!2025-06-16,170,289-->
 - \[[length](#length)\]→::@::←[type](#type) <!--SR:!2027-02-10,979,349!2025-06-26,441,289-->
 - [type](#type)→::@::←_(end)_ <!--SR:!2026-08-26,835,337!2026-12-11,929,349-->
@@ -144,7 +144,7 @@ A combination of zero or more of the following in any order:
 <!--pytextgen generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←(space) <!--SR:!2026-06-28,788,337!2026-11-06,900,349-->
-- (space)→::@::←\# <!--SR:!2025-05-05,228,229!2027-01-27,968,349-->
+- (space)→::@::←\# <!--SR:!2027-05-19,742,249!2027-01-27,968,349-->
 - \#→::@::←+ <!--SR:!2027-09-17,936,309!2026-05-22,615,289-->
 - +→::@::←- <!--SR:!2026-12-22,938,349!2026-10-11,879,349-->
 - -→::@::←0 <!--SR:!2026-08-27,836,337!2026-01-05,268,257-->
@@ -158,7 +158,7 @@ An integer or {@{`*` specifying the minimum width}@}. The result is {@{padded wi
 
 ### precision
 
-An integer or {@{`*` specifying the precision, the meaning of which depends on the [type](#type)}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}@}. <!--SR:!2025-05-07,412,297!2026-07-15,521,229-->
+An integer or {@{`*` specifying the precision, the meaning of which depends on the [type](#type)}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}@}. <!--SR:!2029-12-29,1697,317!2026-07-15,521,229-->
 
 ### length
 
@@ -203,7 +203,7 @@ A combination of zero or more of the following in any order:
 <!--pytextgen generate section="beff"--><!-- The following content is generated at 2024-01-04T20:17:52.664065+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←L <!--SR:!2026-07-16,803,337!2027-05-09,1051,349-->
-- L→::@::←h <!--SR:!2025-05-03,341,257!2027-02-06,976,349-->
+- L→::@::←h <!--SR:!2027-09-25,875,257!2027-02-06,976,349-->
 - h→::@::←hh <!--SR:!2028-02-18,1212,317!2027-04-23,1038,349-->
 - hh→::@::←j <!--SR:!2028-06-13,1161,297!2026-04-28,735,329-->
 - j→::@::←l <!--SR:!2026-01-13,469,329!2026-04-04,677,329-->

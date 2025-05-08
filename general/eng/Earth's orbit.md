@@ -11,7 +11,7 @@ tags:
 
 # Earth's orbit
 
-[Earth](Earth.md) orbits the [Sun](Sun.md) at {@{an average distance of [149.60 million km](astronomical%20unit.md) (8.317 light minutes, 92.96 million mi) in a [counterclockwise](clockwise.md) direction as viewed from above the [Northern Hemisphere](Northern%20Hemisphere.md)}@}. One complete orbit takes {@{365.256 days (1 [sidereal year](sidereal%20year.md)), during which time Earth has traveled 940 million km (584 million mi)}@}. <!--SR:!2025-04-26,191,270!2025-05-03,160,230-->
+[Earth](Earth.md) orbits the [Sun](Sun.md) at {@{an average distance of [149.60 million km](astronomical%20unit.md) (8.317 light minutes, 92.96 million mi) in a [counterclockwise](clockwise.md) direction as viewed from above the [Northern Hemisphere](Northern%20Hemisphere.md)}@}. One complete orbit takes {@{365.256 days (1 [sidereal year](sidereal%20year.md)), during which time Earth has traveled 940 million km (584 million mi)}@}. <!--SR:!2027-04-16,720,290!2026-05-13,375,230-->
 
 ## references
 

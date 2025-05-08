@@ -21,7 +21,7 @@ __Comparative advantage__ in {@{an [economic model](economic%20model.md)}@} is {
 
 > If {@{a foreign country can supply us with a commodity cheaper than we ourselves can make it}@}, {@{better buy it off them with some part of the produce of our own industry employed in a way in which we have some advantage}@}. The general industry of the country, being {@{always in proportion to the capital which employs it}@}, will {@{not thereby be diminished [...] but only left to find out the way in which it can be employed with the greatest advantage}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-01-11,321,290!2025-05-10,154,290!2025-08-15,247,330!2025-07-14,205,310-->
 
-Writing {@{several decades after Smith in 1808}@}, {@{[Robert Torrens](Robert%20Torrens%20(economist).md)}@} articulated {@{a preliminary definition of comparative advantage as the loss from the closing of trade}@}: <!--SR:!2025-04-29,146,290!2025-07-10,215,310!2026-09-18,532,310-->
+Writing {@{several decades after Smith in 1808}@}, {@{[Robert Torrens](Robert%20Torrens%20(economist).md)}@} articulated {@{a preliminary definition of comparative advantage as the loss from the closing of trade}@}: <!--SR:!2026-12-08,588,310!2025-07-10,215,310!2026-09-18,532,310-->
 
 > [I]f {@{I wish to know the extent of the advantage}@}, which arises to England, from her giving France a hundred pounds of [broadcloth](broadcloth.md), in exchange for a hundred pounds of lace, I {@{take the quantity of lace which she has acquired by this transaction}@}, and {@{compare it with the quantity which she might, at the same expense of labour and capital, have acquired by manufacturing it at home}@}. The lace that {@{remains, beyond what the labour and capital employed on the cloth, might have fabricated at home}@}, is {@{the amount of the advantage which England derives from the exchange}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-08-14,246,330!2025-08-19,251,330!2025-11-16,309,310!2025-07-09,214,310!2025-08-19,251,330-->
 
@@ -31,7 +31,7 @@ In {@{1817, [David Ricardo](David%20Ricardo.md)}@} published {@{what has since b
 
 ### Ricardo's example
 
-In a famous example, Ricardo considers {@{a [world economy](world%20economy.md) consisting of two countries, [Portugal](portugal.md) and [England](england.md)}@}, each {@{producing two goods of identical quality}@}. In Portugal, {@{the _[a priori](a%20priori%20and%20a%20posteriori.md)_ more efficient country}@}, it is possible to {@{produce [wine](wine.md) and [cloth](textile.md#cloth) with less labor than it would take to produce the same quantities in England}@}. However, {@{the relative costs or ranking of cost of producing those two goods differ between the countries}@}. <!--SR:!2025-07-23,228,330!2025-08-14,246,330!2025-07-25,230,330!2025-07-31,218,310!2025-04-28,145,290-->
+In a famous example, Ricardo considers {@{a [world economy](world%20economy.md) consisting of two countries, [Portugal](portugal.md) and [England](england.md)}@}, each {@{producing two goods of identical quality}@}. In Portugal, {@{the _[a priori](a%20priori%20and%20a%20posteriori.md)_ more efficient country}@}, it is possible to {@{produce [wine](wine.md) and [cloth](textile.md#cloth) with less labor than it would take to produce the same quantities in England}@}. However, {@{the relative costs or ranking of cost of producing those two goods differ between the countries}@}. <!--SR:!2025-07-23,228,330!2025-08-14,246,330!2025-07-25,230,330!2025-07-31,218,310!2026-11-29,579,310-->
 
 Hours of work necessary to produce one unit
 

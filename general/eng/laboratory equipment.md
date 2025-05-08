@@ -169,12 +169,12 @@ return _chain.from_iterable(await _gather(
 - [rubber bulb](rubber%20bulb.md)→::@::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2027-07-08,1049,290-->
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→::@::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2025-05-27,102,130!2025-06-21,453,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→::@::←[spatula](spatula.md) <!--SR:!2026-06-23,750,270!2027-06-17,1037,290-->
-- [spatula](spatula.md)→::@::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2026-01-20,583,230!2025-05-06,299,270-->
+- [spatula](spatula.md)→::@::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2026-01-20,583,230!2027-07-23,807,270-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!2025-06-27,185,190!2025-11-10,199,190-->
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2026-02-24,631,270!2025-11-25,442,310-->
 - [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2029-09-27,1724,310-->
-- [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2025-05-06,84,150!2025-08-18,290,210-->
+- [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2025-09-13,129,150!2025-08-18,290,210-->
 - [thermometer](thermometer.md)→::@::←[tripod](tripod.md) <!--SR:!2025-05-10,354,270!2027-06-03,1008,290-->
 - [tripod](tripod.md)→::@::←[volumetric flask](volumetric%20flask.md) <!--SR:!2025-06-30,82,130!2029-08-06,1584,310-->
 - [volumetric flask](volumetric%20flask.md)→::@::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2025-09-28,283,230!2025-07-22,447,270-->

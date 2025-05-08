@@ -61,8 +61,8 @@ The content is in teaching order.
   - [§ how](../../../market%20segmentation.md#how)
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
-  - market size acronyms and names ::@:: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2025-04-28,255,335!2025-06-30,322,355-->
-  - market size importance ::@:: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2025-05-03,257,335!2025-07-24,344,355-->
+  - market size acronyms and names ::@:: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2028-07-20,1177,355!2025-06-30,322,355-->
+  - market size importance ::@:: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2028-08-05,1186,355!2025-07-24,344,355-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
     - [§ importance](../../../../general/total%20addressable%20market.md#importance)
@@ -70,8 +70,8 @@ The content is in teaching order.
     - [§ importance](../../../../general/serviceable%20available%20market.md#importance)
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
-  - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2025-04-27,254,335!2025-07-23,343,355-->
-  - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2025-05-01,257,335!2025-07-04,326,355-->
+  - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2028-07-16,1173,355!2025-07-23,343,355-->
+  - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2028-08-04,1185,355!2025-07-04,326,355-->
 - visualization ::@:: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2025-07-09,331,355-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
@@ -191,7 +191,7 @@ The content is in teaching order.
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
-- Chernev's 5C framework ::@:: market & business analysis <!--SR:!2025-12-29,455,381!2025-04-27,234,341-->
+- Chernev's 5C framework ::@:: market & business analysis <!--SR:!2025-12-29,455,381!2028-05-02,1098,361-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2025-07-17,302,361-->
   - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2026-02-02,482,381-->
@@ -228,7 +228,7 @@ The content is in teaching order.
   - cause mapping § symptom ::@:: red background <!--SR:!2025-08-01,312,361!2025-09-13,346,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
-- more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2025-10-01,385,381-->
+- more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2028-09-29,1248,381!2025-10-01,385,381-->
 - cause mapping extensions ::@:: facts table, solutions table <!--SR:!2025-09-03,361,381!2025-08-07,318,361-->
   - facts table ::@:: what, when, where, impact <!--SR:!2025-11-13,420,381!2027-05-16,828,361-->
   - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2026-11-22,638,341!2025-08-10,321,361-->

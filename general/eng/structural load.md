@@ -57,7 +57,7 @@ Loads on civil engineering can be separated into {@{<!--pytextgen generate secti
 
 - _(begin)_→::@::←[dead load](#dead%20load) <!--SR:!2027-12-25,1018,348!2025-07-26,338,340-->
 - [dead load](#dead%20load)→::@::←[environmental load](#environmental%20load) <!--SR:!2026-06-30,531,310!2026-01-12,448,310-->
-- [environmental load](#environmental%20load)→::@::←[live load](#live%20load) <!--SR:!2025-05-07,225,270!2026-02-01,374,308-->
+- [environmental load](#environmental%20load)→::@::←[live load](#live%20load) <!--SR:!2027-08-30,845,290!2026-02-01,374,308-->
 - [live load](#live%20load)→::@::←[load combinations](#load%20combinations) <!--SR:!2026-09-14,602,320!2027-05-29,848,330-->
 - [load combinations](#load%20combinations)→::@::←[other loads](#other%20loads) <!--SR:!2025-11-22,367,290!2027-09-06,915,340-->
 - [other loads](#other%20loads)→::@::←_(end)_ <!--SR:!2025-07-17,331,340!2028-02-03,1043,340-->
@@ -66,7 +66,7 @@ Loads on civil engineering can be separated into {@{<!--pytextgen generate secti
 
 ### dead load
 
-The dead load includes {@{loads that are relatively constant over time}@}. This includes {@{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}@} and {@{weights of permanent fixtures such as carpets, tiles, walls, and windows}@}. Usually calculated by {@{density of material multiplied by component size}@}. <!--SR:!2025-07-23,335,340!2026-01-31,466,310!2025-05-03,223,270!2025-11-08,359,290-->
+The dead load includes {@{loads that are relatively constant over time}@}. This includes {@{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}@} and {@{weights of permanent fixtures such as carpets, tiles, walls, and windows}@}. Usually calculated by {@{density of material multiplied by component size}@}. <!--SR:!2025-07-23,335,340!2026-01-31,466,310!2027-08-20,839,290!2025-11-08,359,290-->
 
 Generally, dead load (and live load) internally {@{deflects beams and floors}@}. As a whole, it causes {@{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}@}. More seriously, {@{dishing or sagging may happen to the foundation}@}. If not managed well, it can lead to {@{partial or total collapse of structural elements or the roof}@}. <!--SR:!2028-03-11,1069,350!2028-04-03,1085,350!2027-12-10,1010,350!2027-12-06,1010,350-->
 
@@ -150,7 +150,7 @@ Wind load causes {@{lateral deflection, which may further lead to toppling of th
 
 ### load combinations
 
-{@{Load (amplifying) factors}@} are used in {@{design equations to increase the design loads}@}, to {@{account for uncertainties involved when estimating loads}@}. An example is {@{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}@}. <!--SR:!2025-05-07,274,330!2028-03-24,1096,350!2026-07-15,560,320!2027-09-12,936,340-->
+{@{Load (amplifying) factors}@} are used in {@{design equations to increase the design loads}@}, to {@{account for uncertainties involved when estimating loads}@}. An example is {@{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}@}. <!--SR:!2028-10-11,1253,350!2028-03-24,1096,350!2026-07-15,560,320!2027-09-12,936,340-->
 
 ## references
 

@@ -126,7 +126,7 @@ return _chain.from_iterable(await _gather(
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2025-06-16,406,210-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2025-07-17,117,130-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2026-11-21,829,261-->
-- [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2025-05-04,77,130-->
+- [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2025-08-15,101,130-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2026-09-04,583,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2026-01-31,446,229-->
 

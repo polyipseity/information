@@ -67,8 +67,8 @@ The content is in teaching order.
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2025-07-09,335,377-->
-- hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2025-05-07,300,365-->
-  - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2025-04-26,293,365-->
+- hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2029-06-20,1505,385-->
+  - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2029-05-03,1464,385-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2027-01-22,736,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
@@ -146,7 +146,7 @@ quantity surveyor
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2025-07-07,312,337-->
 - consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2025-05-24,108,340-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
-- consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2025-04-26,255,317-->
+- consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2028-05-20,1116,337-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2026-11-22,579,295-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
@@ -192,9 +192,9 @@ water and sewage treatment system
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
-- bridge→::@::←building <!--SR:!2025-05-05,282,372!2028-12-06,1324,380-->
+- bridge→::@::←building <!--SR:!2029-04-13,1437,392!2028-12-06,1324,380-->
 - building→::@::←dam <!--SR:!2027-02-03,782,360!2026-03-05,544,400-->
-- dam→::@::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
+- dam→::@::←pipeline <!--SR:!2027-01-05,615,244!2026-03-12,518,341-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2026-11-19,609,320-->
 - reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-06-19,98,241-->
@@ -237,7 +237,7 @@ water security
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
 - mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
-- water security→::@::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
+- water security→::@::←_(end)_ <!--SR:!2029-07-09,1531,370!2026-02-08,496,357-->
 
 <!--/pytextgen-->
 
@@ -280,12 +280,12 @@ workmanship
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2028-01-11,997,320-->
-- economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2025-04-26,191,260-->
+- economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2025-05-10,261,320-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2027-06-04,777,312-->
-- politics→::@::←social <!--SR:!2028-07-27,1221,380!2025-05-03,262,337-->
-- social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-11-22,303,210-->
+- politics→::@::←social <!--SR:!2028-07-27,1221,380!2028-09-06,1218,357-->
+- social→::@::←workmanship <!--SR:!2028-02-09,1015,320!2025-11-22,303,210-->
 - workmanship→::@::←_(end)_ <!--SR:!2025-09-26,419,385!2027-10-10,916,355-->
 
 <!--/pytextgen-->
@@ -598,7 +598,7 @@ nuclear
 - chemical→::@::←civil <!--SR:!2026-01-19,455,337!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->
-- electrical→::@::←industrial <!--SR:!2026-01-31,366,301!2025-04-27,178,250-->
+- electrical→::@::←industrial <!--SR:!2026-01-31,366,301!2026-07-16,442,250-->
 - industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
 - manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
 - mechanical→::@::←nuclear <!--SR:!2025-07-18,340,377!2027-01-28,775,355-->
@@ -707,7 +707,7 @@ soil liquefaction
 <!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←debris flow <!--SR:!2028-01-16,1020,334!2025-11-14,459,398-->
-- debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
+- debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2028-08-11,1199,355-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2025-08-03,318,270-->
 - soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
@@ -877,7 +877,7 @@ developing strengthening techniques for damaged structures or structural members
 
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
+- _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2029-04-02,1426,390-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
 - designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-12-27,340,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2025-07-13,317,324-->
@@ -1016,7 +1016,7 @@ Taipei 101
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2029-02-17,1418,350-->
-- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2025-05-06,208,334-->
+- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2027-12-21,958,354-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
 - Taipei 101→::@::←_(end)_ <!--SR:!2029-02-16,1408,387!2026-05-17,425,301-->
@@ -1096,7 +1096,7 @@ water tower
 
 - _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
 - bridge→::@::←building <!--SR:!2027-01-09,715,350!2026-01-07,496,400-->
-- building→::@::←dam <!--SR:!2025-05-03,277,361!2027-09-27,983,381-->
+- building→::@::←dam <!--SR:!2029-02-06,1371,381!2027-09-27,983,381-->
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2025-07-27,283,258-->
 - power plant→::@::←storage facility <!--SR:!2027-03-08,767,320!2025-07-03,239,334-->
 - storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2025-09-29,392,340-->
@@ -1151,7 +1151,7 @@ and the Structural Engineering Institute (SEI).
 - with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2025-05-18,269,310-->
 - the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2027-06-14,915,350-->
-- and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2025-05-08,326,350!2027-05-17,891,350-->
+- and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2029-08-29,1574,370!2027-05-17,891,350-->
 
 <!--/pytextgen-->
 

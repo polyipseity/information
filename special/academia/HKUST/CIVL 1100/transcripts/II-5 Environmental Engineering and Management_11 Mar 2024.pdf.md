@@ -60,7 +60,7 @@ return await memorize_seq(
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2027-12-13,1011,350-->
-- air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2028-06-19,1161,350-->
+- air pollution→::@::←land contamination <!--SR:!2027-08-28,843,290!2028-06-19,1161,350-->
 - land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2025-05-16,255,290-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2027-06-10,788,290!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-08-14,210,210-->
@@ -254,7 +254,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2025-05-13,274,330-->
-  - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2025-04-29,260,330-->
+  - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2028-08-02,1183,350-->
   - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2026-06-03,474,270!2025-07-13,276,290-->
   - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2026-05-27,505,310-->
 
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2025-06-10,298,330-->
-  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2025-05-03,264,330-->
+  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2028-08-23,1204,350-->
   - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2028-02-17,1060,350!2028-01-04,1028,350-->
   - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2027-04-02,750,330-->
 
@@ -344,10 +344,10 @@ FORECAST of Health Risk
 Indoor Air Quality
 
 - sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2027-11-25,995,350-->
-- common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2025-05-05,266,330-->
-  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2026-05-06,490,310-->
+- common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2028-08-26,1207,350-->
+  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2026-05-06,490,310-->
     - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2026-02-10,329,310-->
-    - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2025-04-29,128,210!2026-06-19,518,310-->
+    - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2026-02-05,274,210!2026-06-19,518,310-->
     - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2025-06-02,237,290-->
 
 ## page 30
@@ -389,10 +389,10 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2026-10-09,596,310!2027-05-04,807,330-->
-- carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2025-05-06,223,270-->
+- carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-04-29,22,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-06-21,45,150-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2027-02-16,688,310-->
 
@@ -408,7 +408,7 @@ Observed Global Climate Change
 
 Observed climate change in Hong Kong
 
-- climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
+- climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2028-09-08,1220,350-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2028-06-04,1147,350!2027-09-11,909,330-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
   - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2027-08-02,880,330-->
@@ -443,7 +443,7 @@ Relationship between PPM and mg/L
 Concentration Units for Gases
 
 - concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2027-07-26,871,330-->
-  - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2026-08-08,592,310-->
+  - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2028-07-24,1174,350!2026-08-08,592,310-->
   - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2025-06-25,111,310-->
 
 ## page 37

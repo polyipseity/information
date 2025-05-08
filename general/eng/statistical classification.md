@@ -11,7 +11,7 @@ tags:
 
 ## algorithms
 
-- [decision tree learning](decision%20tree%20learning.md) ::@:: [Supervised learning](supervised%20learning.md) using [decision trees](decision%20tree.md). <!--SR:!2025-05-08,299,330!2027-12-26,1051,350-->
+- [decision tree learning](decision%20tree%20learning.md) ::@:: [Supervised learning](supervised%20learning.md) using [decision trees](decision%20tree.md). <!--SR:!2029-01-27,1360,350!2027-12-26,1051,350-->
 
 ## application domains
 
