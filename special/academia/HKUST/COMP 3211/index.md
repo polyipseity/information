@@ -570,6 +570,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-25T12:30:00+08:00/2025-03-25T13:20:00+08:00, PT50M
 - topic: midterm Q&A
+- [§ midterm examination](#midterm%20examination)
 
 ## week 8 lecture
 
