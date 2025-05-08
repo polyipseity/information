@@ -225,7 +225,7 @@ tags:
 
 > Q1. Is it always true that we can calculate the accuracy of a classifier after we know the following?
 >
-> 1. no. of true positivees,
+> 1. no. of true positives,
 > 2. no. of true negatives,
 > 3. no. of false positives,
 > 4. no. of false negatives

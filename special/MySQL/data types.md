@@ -29,7 +29,7 @@ tags:
 - string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2027-03-10,871,310!2026-03-22,594,290-->
   - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable. <!--SR:!2029-04-03,1572,350!2025-05-16,454,330-->
     - `BINARY` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size binary string. <!--SR:!2030-02-04,1812,350!2028-06-19,1245,330-->
-    - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. Shared among columns in a row. <!--SR:!2028-11-04,1345,330!2027-10-13,1010,310-->
+    - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row. <!--SR:!2028-11-04,1345,330!2027-10-13,1010,310-->
   - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings. <!--SR:!2029-01-26,1389,330!2030-04-10,1859,350-->
     - `TINYBLOB` ::@:: Up to 2<sup>8</sup> - 1 bytes of binary string. <!--SR:!2026-09-21,752,310!2030-05-25,1884,350-->
     - `BLOB` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. <!--SR:!2029-02-15,1403,330!2030-02-25,1828,350-->
@@ -37,7 +37,7 @@ tags:
     - `LONGBLOB` ::@:: Up to 2<sup>32</sup> - 1 bytes of binary string. <!--SR:!2025-08-06,391,290!2027-11-14,1140,330-->
   - `CHAR`, `VARCHAR` ::@:: Strings. Length of the former is fixed and of the latter is variable. <!--SR:!2030-01-04,1787,350!2028-06-11,1286,330-->
     - `CHAR` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size string. <!--SR:!2029-03-17,1558,350!2027-11-24,1149,330-->
-    - `VARCHAR` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. Shared among columns in a row. <!--SR:!2030-07-27,1948,350!2030-09-05,1966,350-->
+    - `VARCHAR` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. This capacity is shared among columns \(including other column types\) in a row. <!--SR:!2030-07-27,1948,350!2030-09-05,1966,350-->
   - `TINYTEXT`, `TEXT`, `MEDIUMTEXT`, `LONGTEXT` ::@:: Unindexed prefix-indexable long strings. <!--SR:!2027-01-25,839,310!2028-03-06,1227,330-->
     - `TINYTEXT` ::@:: Up to 2<sup>8</sup> - 1 bytes of string. <!--SR:!2026-12-09,823,330!2030-07-04,1928,350-->
     - `TEXT` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. <!--SR:!2027-12-06,971,290!2030-10-04,1988,350-->

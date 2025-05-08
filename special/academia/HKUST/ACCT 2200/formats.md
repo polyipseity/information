@@ -374,21 +374,21 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > {@{Based on Target Profit of &dollar;300}@}
 >
 >
-> |                                  |                 |                        |                                |                 |                         |                             |                          |                                |
-> | -------------------------------- | ---------------:| ----------------------:| ------------------------------:| ---------------:| -----------------------:| ---------------------------:| ------------------------:| ------------------------------:|
-> |                                  |                 | {@{__<u>apple</u>__}@} |                                |                 | {@{__<u>orange</u>__}@} |                             | {@{__<u>overall</u>__}@} |                                |
-> |                                  | {@{per unit}@}  | {@{total}@}            | {@{percent}@}                  | {@{per unit}@}  | {@{total}@}             | {@{percent}@}               | {@{total}@}              | {@{percent}@}                  |
-> | {@{sales revenue}@}              | {@{&dollar;3}@} | {@{&dollar;420}@}      | {@{100%}@}                     | {@{&dollar;4}@} | {@{&dollar;720}@}       | {@{100%}@}                  | {@{&dollar;1&nbsp;140}@} | {@{100%}@}                     |
-> | {@{less: variable costs}@}       | {@{<u>2</u>}@}  | {@{<u>280</u>}@}       | {@{<u>66.67&nbsp;&nbsp;</u>}@} | {@{<u>2</u>}@}  | {@{<u>360</u>}@}        | {@{<u>50&nbsp;&nbsp;</u>}@} | {@{<u>640</u>}@}         | {@{<u>56.14&nbsp;&nbsp;</u>}@} |
-> | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@} | {@{&dollar;140}@}      | {@{33.33%}@}                   | {@{&dollar;2}@} | {@{&dollar;360}@}       | {@{50%}@}                   | {@{&dollar;500}@}        | {@{43.86%}@}                   |
-> | {@{less: fixed costs}@}          |                 |                        |                                |                 |                         |                             | {@{<u>200</u>}@}         |                                |
-> | &emsp;{@{net operating income}@} |                 |                        |                                |                 |                         |                             | {@{&dollar;300}@}        |                                | <!--SR:!2025-05-09,20,361!2025-08-05,90,381!2025-08-02,87,381!2025-08-05,90,381!2025-08-13,97,381!2025-08-01,86,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-08,92,381!2025-05-11,19,361!2025-08-05,90,381!2025-08-13,97,381!2025-08-03,88,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-09,93,381!2025-08-08,92,381!2025-05-10,20,361!2025-08-12,96,381!2025-05-12,20,361!2025-05-11,19,361!2025-08-13,97,381!2025-05-09,20,361!2025-08-04,89,381!2025-05-09,20,361!2025-05-12,20,361!2025-08-01,86,381!2025-05-12,20,361!2025-08-07,92,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-01,86,381!2025-05-12,20,361!2025-05-11,19,361!2025-05-10,18,361!2025-08-04,89,381!2025-05-12,20,361!2025-08-03,88,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-01,86,381!2025-05-11,19,361!2025-05-12,20,361-->
+> |                                  |                    |                        |                                    |                    |                         |                                 |                          |                                    |
+> | -------------------------------- | ------------------:| ----------------------:| ----------------------------------:| ------------------:| -----------------------:| -------------------------------:| ------------------------:| ----------------------------------:|
+> |                                  |                    | {@{__<u>apple</u>__}@} |                                    |                    | {@{__<u>orange</u>__}@} |                                 | {@{__<u>overall</u>__}@} |                                    |
+> |                                  | {@{per unit}@}     | {@{total}@}            | {@{percent}@}                      | {@{per unit}@}     | {@{total}@}             | {@{percent}@}                   | {@{total}@}              | {@{percent}@}                      |
+> | {@{sales revenue}@}              | {@{&dollar;3}@}    | {@{&dollar;420}@}      | {@{100%}@}                         | {@{&dollar;4}@}    | {@{&dollar;720}@}       | {@{100%}@}                      | {@{&dollar;1&nbsp;140}@} | {@{100%}@}                         |
+> | {@{less: variable costs}@}       | {@{<u>\(2\)</u>}@} | {@{<u>\(280\)</u>}@}   | {@{<u>\(66.67\)&nbsp;&nbsp;</u>}@} | {@{<u>\(2\)</u>}@} | {@{<u>\(360\)</u>}@}    | {@{<u>\(50\)&nbsp;&nbsp;</u>}@} | {@{<u>\(640\)</u>}@}     | {@{<u>\(56.14\)&nbsp;&nbsp;</u>}@} |
+> | &emsp;{@{contribution margin}@}  | {@{&dollar;1}@}    | {@{&dollar;140}@}      | {@{33.33%}@}                       | {@{&dollar;2}@}    | {@{&dollar;360}@}       | {@{50%}@}                       | {@{&dollar;500}@}        | {@{43.86%}@}                       |
+> | {@{less: fixed costs}@}          |                    |                        |                                    |                    |                         |                                 | {@{<u>\(200\)</u>}@}     |                                    |
+> | &emsp;{@{net operating income}@} |                    |                        |                                    |                    |                         |                                 | {@{&dollar;300}@}        |                                    | <!--SR:!2025-05-09,20,361!2025-08-05,90,381!2025-08-02,87,381!2025-08-05,90,381!2025-08-13,97,381!2025-08-01,86,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-08,92,381!2025-05-11,19,361!2025-08-05,90,381!2025-08-13,97,381!2025-08-03,88,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-09,93,381!2025-08-08,92,381!2025-05-10,20,361!2025-08-12,96,381!2025-05-12,20,361!2025-05-11,19,361!2025-08-13,97,381!2025-05-09,20,361!2025-08-04,89,381!2025-05-09,20,361!2025-05-12,20,361!2025-08-01,86,381!2025-05-12,20,361!2025-08-07,92,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-02,87,381!2025-05-12,20,361!2025-08-01,86,381!2025-05-12,20,361!2025-05-11,19,361!2025-05-10,18,361!2025-08-04,89,381!2025-05-12,20,361!2025-08-03,88,381!2025-05-12,20,361!2025-08-06,91,381!2025-08-01,86,381!2025-05-11,19,361!2025-05-12,20,361-->
 
 - contribution margin income statement ::@:: headers, products & overall, row headers <!--SR:!2025-08-03,88,381!2025-05-09,20,361-->
   - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\) <!--SR:!2025-08-05,90,381!2025-08-05,90,381-->
   - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2025-07-18,72,361!2025-08-02,87,381-->
   - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income <!--SR:!2025-05-10,18,361!2025-05-12,20,361-->
-  - contribution margin income statement / subformats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2025-08-02,87,381!2025-08-05,90,381-->
+  - contribution margin income statement / sub-formats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2025-08-02,87,381!2025-08-05,90,381-->
 
 ## incremental analysis (unit)
 
@@ -489,7 +489,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 >
 > |                                                           | {@{quarter 1 <br/> Jan–Mar}@} | {@{quarter 2 <br/> Apr–Jun}@} | {@{quarter 3 <br/> Jul–Sep}@} | {@{quarter 4 <br/> Oct–Dec}@} | {@{yearly <br/> total}@} |
 > | --------------------------------------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ------------------------ |
-> | {@{budgeted cost of direct materials purchases}@}         | {@{<u>&dollar;0</u>}@}        | {@{&dollar;100}@}             | {@{&dollar;200}@}             | {@{&dollar;300}@}             | {@{&dollar;600}@}        |
+> | {@{budgeted cost of direct materials purchases}@}         | {@{<u>&dollar;0</u>}@}        | {@{<u>&dollar;100</u>}@}      | {@{<u>&dollar;200</u>}@}      | {@{<u>&dollar;300</u>}@}      | {@{<u>&dollar;600</u>}@} |
 > |                                                           |                               |                               |                               |                               |                          |
 > | {@{cash paid during the quarter of purchase \(25%\)}@}    | {@{&dollar;0}@}               | {@{&dollar;25}@}              | {@{&dollar;50}@}              | {@{&dollar;75}@}              | {@{&dollar;150}@}        |
 > | {@{cash paid in the quarter following purchase \(75%\)}@} | {@{<u>75</u>}@}               | {@{<u>0</u>}@}                | {@{<u>75</u>}@}               | {@{<u>150</u>}@}              | {@{<u>300</u>}@}         |
@@ -506,3 +506,40 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\) <!--SR:!2025-05-09,20,361!2025-08-03,88,381-->
   - budget / row headers ::@:: Many items. A total at the end. Indent as needed. <!--SR:!2025-08-02,87,381!2025-05-09,20,361-->
   - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it. <!--SR:!2025-08-09,93,380!2025-08-05,90,381-->
+  - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year.
+
+## delayed cash receipts or payments
+
+> __example__
+>
+> ---
+>
+> |                              | {@{cash collected in Mar}@}                          | {@{cash collected in Apr}@}                          |
+> | ---------------------------- | ----------------------------------------------------:| ----------------------------------------------------:|
+> | {@{sales in Jan}@}           | {@{&dollar;200<br/>\(&dollar;1&nbsp;000×80%×25%\)}@} |                                                      |
+> | {@{sales in Feb}@}           | {@{&dollar;300<br/>\(&dollar;500×80%×75%\)}@}        | {@{&dollar;100<br/>\(&dollar;500×80%×25%\)}@}        |
+> | {@{sales in Mar}@}           | {@{&dollar;200<br/>\(&dollar;1&nbsp;000×20%\)}@}     | {@{&dollar;600<br/>\(&dollar;1&nbsp;000×80%×75%\)}@} |
+> | {@{sales in Apr}@}           |                                                      | {@{&dollar;500<br/>\(&dollar;2&nbsp;500×20%\)}@}     |
+> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             |
+
+- delayed cash receipts or payments ::@:: column headers, row headers
+  - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)...
+  - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments
+
+## standard cost card
+
+> __example__
+>
+> ---
+>
+> | {@{manufacturing costs}@}                            | {@{standard quantity}@} | {@{standard price/rate}@} | {@{standard unit cost}@}    |
+> | ---------------------------------------------------- | -----------------------:| -------------------------:| ---------------------------:|
+> | {@{direct materials \(steel\)}@}                     | {@{0.1 tons per unit}@} | {@{&dollar;999 per ton}@} | {@{&dollar;99.90}@}         |
+> | {@{direct labor}@}                                   | {@{24 hrs per unit}@}   | {@{&dollar;25 per hr}@}   | {@{600.00}@}                |
+> | {@{variable overhead \(60% of direct labor cost\)}@} | {@{24 hrs per unit}@}   | {@{&dollar;15 per hr}@}   | {@{360.00}@}                |
+> | {@{fixed overhead \(&dollar;100/2 units\)}@}         |                         |                           | {@{50.00}@}                 |
+> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} |
+
+- standard cost card ::@:: column headers, row headers
+  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost
+  - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit

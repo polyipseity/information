@@ -547,22 +547,26 @@ The content is in teaching order.
   - referencing: closed book
   - provided: formulas, necessary tables
   - questions: multiple choice questions ×40
-- grades: 38/40
+- grades: 38/40 → 38/40
   - statistics
-    - timestamps: 2025-03-26T20:34:00+08:00
-    - mean: ? \(provided: 29.5\)
-    - standard deviation: ? \(provided: 7.1\)
-    - low: ?
-    - lower quartile: ?
-    - median: ? \(provided: 30\)
-    - upper quartile: ? \(provided: 35\)
-    - high: ?
-    - distribution: ?
+    - timestamps: 2025-03-26T20:34:00+08:00 → 2025-04-11+08:00
+    - mean: ? \(provided: 29.5\) → ?
+    - standard deviation: ? \(provided: 7.1\) → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? \(provided: 30\) → ?
+    - upper quartile: ? \(provided: 35\) → ?
+    - high: ? → ?
+    - distribution: ? → ?
 - report
-  - \(none\)
+  - "careless" mistake \(–1\) ::@:: Somehow the activity with the highest capacity \(lowest utilization\) instead of the highest utilization is found instead...
+  - capable vs. in control \(–1\) ::@:: Process capability is about meeting specifications, while process control is about not having assignable variations.
 - check
-  - datetime: ?
-  - venue: ?
+  - datetime
+    - 2025-04-09T14:30:00+08:00/2025-04-09T17:00:00+08:00, PT2H30M
+    - 2025-04-10T10:00:00+08:00/2025-04-10T12:10:00+08:00, PT2H10M
+  - venue: Room 4083, LSKBB
+  - report: \(none\)
 
 ## week 8 lecture
 
@@ -615,7 +619,7 @@ The content is in teaching order.
 - [forecast error](../../../../general/forecast%20error.md) ::@:: It is the difference between the actual or real and the predicted or forecast value of a time series or any other phenomenon of interest. <!--SR:!2025-05-12,28,411!2025-05-11,27,409-->
   - forecast error / calculation ::@:: $$\text{error}_t = \text{observation}_t - \text{forecast}_t \,.$$ Remember that the observation comes before the forecast in the formula. <!--SR:!2025-05-11,27,409!2025-05-11,27,409-->
 - [mean absolute error](../../../../general/mean%20absolute%20error.md) \(MAE\) ::@:: It is a measure of errors between paired observations expressing the same phenomenon. <p> MAE is calculated as the __sum of absolute errors__ \(i.e., the [Manhattan distance](../../../../general/Manhattan%20distance.md)\) divided by the [sample size](../../../../general/sample%20size.md): $$\mathrm {MAE} ={\frac {\sum _{i=1}^{n}\left|y_{i}-x_{i}\right|}{n} }={\frac {\sum _{i=1}^{n}\left|e_{i}\right|}{n} }.$$ It is thus an arithmetic average of the absolute errors $|e_{i}|=|y_{i}-x_{i}|$, where $y_{i}$ is the prediction and $x_{i}$ the true value. <!--SR:!2025-05-12,28,409!2025-05-11,27,409-->
-  - mean absolute error / note ::@:: \(this course: It is called _mean absolute deviation_ \(_MAD_\) instead...? It seems like misnomer, since _deviation_ compares the observation with the _observation mean_ rather than the _predictions_.\) <!--SR:!2025-05-10,26,409!2025-08-26,111,409-->
+  - mean absolute error / note ::@:: \(__this course__: It is called _mean absolute deviation_ \(_MAD_\) instead...? It seems like misnomer, since _deviation_ compares the observation with the _observation mean_ rather than the _predictions_.\) <!--SR:!2025-05-10,26,409!2025-08-26,111,409-->
 - [tracking signal](../../../../general/tracking%20signal.md) \(TS\) ::@:: It monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts. <!--SR:!2025-05-12,28,409!2025-05-12,28,409-->
   - tracking signal / definition ::@:: The formula for this tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{\text{MAD} } }$$ where _a<sub>t</sub>_ is the actual value of the quantity being forecast, and _f<sub>t</sub>_ is the forecast. MAD is the [mean absolute deviation](../../../../general/mean%20absolute%20deviation.md). The formula for the MAD is: $${\text{MAD} }={\frac {\Sigma \left|a_{t}-f_{t}\right|}{n} }$$ where _n_ is the number of periods. <!--SR:!2025-08-27,112,409!2025-05-10,26,411-->
     - tracking signal / definition / full ::@:: The entire formula for tracking signal is: $${\text{Tracking signal} }={\frac {\Sigma (a_{t}-f_{t})}{ {\frac {1}{n} }\Sigma \left|a_{t}-f_{t}\right|} } \,.$$ <!--SR:!2025-05-11,27,409!2025-05-12,28,409-->
@@ -651,7 +655,7 @@ The content is in teaching order.
   - field inventory management / models ::@:: economic order quantity \(EOQ\) model, fixed-time period model \(optional\), newsvendor model <!--SR:!2025-05-12,28,409!2025-05-12,28,409-->
     - field inventory management / models / economic order quantity ::@:: used for deterministic demand and long lifecycle products \(holdable for a long time without depreciation\) <!--SR:!2025-05-11,27,409!2025-05-11,27,409-->
     - field inventory management / models / newsvendor ::@:: used for uncertain demand and short lifecycle products \(becomes valueless after a short time\) <!--SR:!2025-05-10,26,409!2025-05-11,27,409-->
-    - field inventory management / models / fixed-time period ::@:: \(this course: optional\) usually used for ordering a group of items together <!--SR:!2025-05-11,27,411!2025-05-10,26,409-->
+    - field inventory management / models / fixed-time period ::@:: \(__this course__: optional\) usually used for ordering a group of items together <!--SR:!2025-05-11,27,411!2025-05-10,26,409-->
 - [economic order quantity](../../../../general/economic%20order%20quantity.md) \(EOQ\) ::@:: It is the order quantity that minimizes the total holding costs and ordering costs in inventory management. It is one of the oldest classical production scheduling models. <!--SR:!2025-05-10,26,411!2025-05-11,27,411-->
   - economic order quantity / outputs ::@:: order frequency, order quantity <!--SR:!2025-05-12,28,409!2025-05-12,28,409-->
   - economic order quantity / assumptions ::@:: constant demand rate, constant delivery lead time \(after ordering\), constant holding cost, constant ordering cost <!--SR:!2025-05-12,28,411!2025-05-12,28,409-->
@@ -671,7 +675,7 @@ The content is in teaching order.
   - economic order quantity / unit cost ::@:: The above model assumes purchasing a unit is free. This is obviously not the case in the real world. <p> The total cost is the same, with the _purchasing cost_ added. The _purchasing cost per unit time_ equals $D \times C$, where $C$ is the unit cost. <!--SR:!2025-05-11,27,411!2025-05-12,28,411-->
     - economic order quantity / unit cost / optimal solution ::@:: Since the purchasing cost does not depend on the order quantity, the _optimal order quantity_ is unchanged. <p> The _optimal costs_ are increased by taking the purchasing cost into account. <!--SR:!2025-05-12,28,409!2025-05-11,27,411-->
   - economic order quantity / lead time ::@:: The delivery lead time _does not_ affect the optimal order frequency or the optimal order quantity. It only affects when to order. <!--SR:!2025-05-12,28,411!2025-05-11,27,411-->
-    - economic order quantity / lead time / reorder point ::@:: It is the inventory level that indicates that we should place a new order, calculated as: $$\text{ROP} = \text{demand rate} \times \text{lead time} \,.$$ <p> \(this course: We _always_ assume the reorder point is strictly less than the order quantity. Though you could try to interpret what happens if the reorder point exceeds the order quantity...\) <!--SR:!2025-05-12,28,409!2025-05-11,27,409-->
+    - economic order quantity / lead time / reorder point ::@:: It is the inventory level that indicates that we should place a new order, calculated as: $$\text{ROP} = \text{demand rate} \times \text{lead time} \,.$$ <p> \(__this course__: We _always_ assume the reorder point is strictly less than the order quantity. Though you could try to interpret what happens if the reorder point exceeds the order quantity...\) <!--SR:!2025-05-12,28,409!2025-05-11,27,409-->
 
 ## week 9 lecture 2
 

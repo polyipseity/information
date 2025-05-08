@@ -15,17 +15,18 @@ tags:
 
 ## children
 
+- [final examination](final%20examination.md)
 - [listening test 1](listening%20test%201.md)
 - [listening test 2](listening%20test%202.md)
 - [midterm examination](midterm%20examination.md)
 - [quiz 1](quiz%201.md)
 - [quiz 2](quiz%202.md)
 - [quiz 3](quiz%203.md)
-- [quiz 4](quiz%204.md)
+<!-- - [quiz 4](quiz%204.md) -->
 
 ## African traits in early jazz
 
-- type: quiz (attendance)
+- type: quiz \(attendance\)
 - datetime: 2025-01-20T08:30:00-05:00/2025-01-20T08:35:00-05:00
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T21:35:00+08:00
 
@@ -92,7 +93,7 @@ tags:
 
 ## Sydney Bechet
 
-- type: assignment (attendance)
+- type: assignment \(attendance\)
 - datetime: 2025-01-22T10:00:00-05:00/2025-01-27T08:30:00-05:00
   - local: 2025-01-22T23:00:00+08:00/2025-01-27T21:30:00+08:00
 
@@ -122,7 +123,7 @@ tags:
 
 ## Birth of Bebop
 
-- type: assignment (attendance)
+- type: assignment \(attendance\)
 - datetime: 2025-01-22T10:00:00-05:00/2025-01-27T08:30:00-05:00
   - local: 2025-01-22T23:00:00+08:00/2025-01-27T21:30:00+08:00
 
@@ -190,7 +191,7 @@ tags:
 
 Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 
-- type: quiz (attendance)
+- type: quiz \(assignment\)
 - datetime: 2025-04-07T07:57:55-05:00/2025-01-20T08:02:55-05:00, PT5M
   - local: 2025-04-07T21:57:55+08:00/2025-01-20T22:02:55+08:00, PT5M
 
