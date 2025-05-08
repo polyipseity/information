@@ -89,7 +89,7 @@ The content is in teaching order. Extra information and corrections are included
   - [supercluster](../../../../general/supercluster.md) ::@:: A gigantic region of [space](../../../../general/outer%20space.md) in which many groups and clusters are packed more closely together (not necessarily bounded by [gravity](../../../../general/gravity.md)) than elsewhere.
     - supercluster examples ::@:: [Local Supercluster](../../../../general/Virgo%20Supercluster.md)
   - [universe](../../../../general/universe.md) ::@:: The totality of everything that exists, including space, time, matter, and energy.
-- [mass–energy equivalence](../../../../general/mass–energy%20equivalence.md) ::@:: $$E = mc^2$$: mass and energy are equivalent (differ only by a multiplicative constant and the units of measurement)
+- [mass–energy equivalence](../../../../general/mass–energy%20equivalence.md) ::@:: mass and energy are equivalent \(differ only by a multiplicative constant and the units of measurement\): $$E = mc^2 \,.$$
 - brief history of the [universe](../../../../general/universe.md) ::@:: [Big Bang](../../../../general/Big%20Bang.md) (13.8 billion years ago) → galaxy formation → star evolution (cycle: formation → fuel consumption → death) → Earth
   - How to know what [Hong Kong](../../../../general/Hong%20Kong.md) was like in the past? ::@:: Look at historic photos of [Hong Kong](../../../../general/Hong%20Kong.md).
   - How to know what the [universe](../../../../general/universe.md) was like in the past? ::@:: Look far enough, because the [universe](../../../../general/universe.md) is extremely big.
@@ -358,7 +358,7 @@ The content is in teaching order. Extra information and corrections are included
   - How was the geocentric model challenged? ::@:: Aristarchus of Samos had the idea a very long time ago, but it was the ancient Greek times. The actual challenge started with Nicolaus Copernicus also having the idea. Then Tycho Brahe collected astronomical data. Finally, the data was interpreted by Johannes Kepler and developed his 3 laws of planetary motion to explain the data.
 - [Copernican heliocentrism](../../../../general/Copernican%20heliocentrism.md)
   - [§ Copernican theory](../../../../general/Copernican%20heliocentrism.md#Copernican%20theory)
-  - Why do we not need the motion of [Earth](../../../../general/Earth.md) even if it is moving quickly? ::@:: Because we feel acceleration, not motion. It turns out Earth's acceleration (about 0.0059 m/s<sup>2</sup>) is too little to notice.
+  - Why do we not feel the motion of [Earth](../../../../general/Earth.md) even if it is moving quickly? ::@:: Because we feel acceleration, not motion. It turns out Earth's acceleration (about 0.0059 m/s<sup>2</sup>) is too little to notice.
 - [Tycho Brahe](../../../../general/Tycho%20Brahe.md) ::@:: A Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations (...with the naked eye! As telescopes were not invented yet...). His observations, particularly Mars, disagreed with predictions of the existing perfect heliocentric model.
 - [Johannes Kepler](../../../../general/Johannes%20Kepler.md) ::@:: He did not ignore small discrepancies between the data and predictions of existing models, and finally came up with elliptical orbits.
 - [ellipse](../../../../general/ellipse.md)

@@ -182,7 +182,7 @@ For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@
 
 {@{A functor _G_ : _C_ → _D_}@} is said to {@{__lift limits__ for a diagram _F_ : _J_ → _C_}@} if {@{whenever \(_L_, _φ_\) is a limit of _GF_ there exists a limit \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) of _F_ such that _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\) (annotation: this is similar to preservation of limits, but the "whenever" clauses swap places; note there can be multiple preimage cones, and _at least_ one is a limit)}@}. {@{A functor _G_ __lifts limits of shape _J_<!-- markdown separator -->__}@} if {@{it lifts limits for all diagrams of shape _J_}@}. One can therefore talk about {@{lifting products, equalizers, pullbacks, etc.}@} Finally, one says that {@{_G_ __lifts limits__ if it lifts all limits}@}. There are {@{dual definitions for the lifting of colimits}@}.
 
-{@{A functor _G_ __lifts limits uniquely__ for a diagram _F_}@} if {@{there is a unique preimage cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) (annotation: "unique" means there can be multiple preimage cones, and _exactly_ one is a limit) such that \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) is a limit of _F_ and _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\)}@}. One can show that {@{_G_ lifts limits uniquely if and only if it lifts limits and is [amnestic](amnestic%20functor.md) (annotation: if _Ff_ is an identity morphism then _f_ is an identity morphism)}@}.
+{@{A functor _G_ __lifts limits uniquely__ for a diagram _F_}@} if {@{there is a unique preimage cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) such that \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) is a limit of _F_ and _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\) \(annotation: "unique" means there can be multiple preimage cones, and _exactly_ one is a limit\)}@}. One can show that {@{_G_ lifts limits uniquely if and only if it lifts limits and is [amnestic](amnestic%20functor.md) (annotation: if _Ff_ is an identity morphism then _f_ is an identity morphism)}@}.
 
 Lifting of limits is clearly {@{related to preservation of limits}@}. If {@{_G_ lifts limits for a diagram _F_ and _GF_ has a limit}@}, then {@{_F_ also has a limit and _G_ preserves the limits of _F_ (annotation: note that limits are essentially unique up to unique isomorphisms)}@}. It follows that:
 
@@ -195,8 +195,8 @@ The dual statements {@{for colimits are equally valid}@}.
 
 Let {@{_F_ : _J_ → _C_ be a diagram}@}. {@{A functor _G_ : _C_ → _D_}@} is said to
 
-- __create limits__ for _F_ ::@:: if whenever \(_L_, _φ_\) is a limit of _GF_ there exists a unique cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) to _F_ (annotation: there is _exactly_ one preimage cone and it is a limit) such that _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\), and furthermore, this cone is a limit of _F_.
-- __reflect limits__ for _F_ ::@:: if each cone to _F_ whose image under _G_ is a limit of _GF_ is already a limit of _F_. (annotation: preimage cones are all limits)
+- __create limits__ for _F_ ::@:: if whenever \(_L_, _φ_\) is a limit of _GF_ there exists a unique cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) to _F_ such that _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\), and furthermore, this cone is a limit of _F_. \(annotation: i.e. there is _exactly_ one preimage cone and it is a limit\)
+- __reflect limits__ for _F_ ::@:: if each cone to _F_ whose image under _G_ is a limit of _GF_ is already a limit of _F_. \(annotation: preimage cones are all limits\)
 
 Dually, one can {@{define creation and reflection of colimits}@}.
 
