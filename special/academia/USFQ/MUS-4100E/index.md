@@ -629,7 +629,7 @@ The content is in teaching order.
 - [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music.
   - John Coltrane / capabilities ::@:: composer, tensor saxophone player
   - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes.
-  - John Coltrane / early life ::@:: he missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957.
+  - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957.
   - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz
 - [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane.
   - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression.
