@@ -16,7 +16,7 @@ Although {@{the central concept of marginalism is that of marginal utility}@}, m
 
 ### marginality
 
-For issues of marginality, constraints are {@{conceptualized as a _border_ or _margin_}@}.<sup>[\[1\]](#^ref-1)</sup> The location of the margin for any individual {@{corresponds to his or her _endowment_, broadly conceived to include opportunities}@}. This endowment is {@{determined by many things}@} including {@{physical laws (which constrain how forms of energy and matter may be transformed), accidents of nature (which determine the presence of natural resources), and the outcomes of past decisions made both by others and by the individual}@}. <!--SR:!2025-10-28,308,347!2025-11-11,319,347!2026-02-18,306,250-->
+For issues of marginality, constraints are {@{conceptualized as a _border_ or _margin_}@}.<sup>[\[1\]](#^ref-1)</sup> The location of the margin for any individual {@{corresponds to his or her _endowment_, broadly conceived to include opportunities}@}. This endowment is {@{determined by many things}@} including {@{physical laws (which constrain how forms of energy and matter may be transformed), accidents of nature (which determine the presence of natural resources), and the outcomes of past decisions made both by others and by the individual}@}. <!--SR:!2025-10-28,308,347!2025-11-11,319,347!2026-02-18,306,250!2025-05-13,5,355-->
 
 {@{A value that holds true given particular constraints}@} is {@{a [_marginal_ value](marginal%20value.md)}@}. {@{A change that would be affected as or by a specific loosening or tightening of those constraints}@} is {@{a _marginal_ change}@}. <!--SR:!2025-10-25,305,347!2026-01-07,365,347!2025-11-07,315,330!2025-10-29,309,347-->
 

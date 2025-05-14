@@ -24,7 +24,7 @@ tags:
 
 > [!tip] tips
 >
-> - phonetic symbol pattern ::@:: notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols <!--SR:!2028-07-03,1303,374!2000-01-01,1,250-->
+> - phonetic symbol pattern ::@:: notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols <!--SR:!2028-07-03,1303,374!2025-05-12,4,309-->
 
 ## help
 
@@ -525,7 +525,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [labialization](labialization.md):@:\[ʷ\] <!--SR:!2025-08-20,349,374-->
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:\[ʍ\] <!--SR:!2025-06-21,270,256-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:\[ɯ\] <!--SR:!2025-10-05,191,330-->
-- [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\]
+- [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\] <!--SR:!2025-05-09,1,269-->
 - [voiceless velar fricative](voiceless%20velar%20fricative.md):@:\[x\] <!--SR:!2025-10-16,302,314-->
 - [voiceless uvular fricative](voiceless%20uvular%20fricative.md):@:\[χ\] <!--SR:!2025-11-19,367,314-->
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:\[y\] <!--SR:!2025-09-10,449,376-->
@@ -536,7 +536,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:\[ɥ\] <!--SR:!2025-07-06,119,254-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:\[z\] <!--SR:!2025-07-19,409,375-->
 - [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:\[ʒ\] <!--SR:!2025-07-24,268,275-->
-- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:\[ʑ\]
+- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:\[ʑ\] <!--SR:!2025-05-12,4,309-->
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:\[ʐ\] <!--SR:!2025-07-01,118,310-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:\[θ\] <!--SR:!2025-06-08,370,376-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:\[ɸ\] <!--SR:!2025-05-09,191,354-->
@@ -545,7 +545,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [tenuis dental click](tenuis%20dental%20click.md):@:\[ǀ\] <!--SR:!2025-06-16,120,296-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:\[ǁ\] <!--SR:!2025-08-17,433,375-->
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:\[ǃ\] <!--SR:!2025-10-21,196,330-->
-- [tenuis bilabial click](tenuis%20bilabial%20click.md):@:\[ʘ\]
+- [tenuis bilabial click](tenuis%20bilabial%20click.md):@:\[ʘ\] <!--SR:!2025-05-11,3,289-->
 - [tenuis palatal click](tenuis%20palatal%20click.md):@:\[ǂ\] <!--SR:!2025-08-14,142,336-->
 
 <!--/pytextgen-->
@@ -652,9 +652,9 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ɰ\]:@:[voiced velar approximant](voiced%20velar%20approximant.md) <!--SR:!2027-06-26,886,311-->
 - \[x\]:@:[voiceless velar fricative](voiceless%20velar%20fricative.md) <!--SR:!2025-06-15,396,320-->
 - \[χ\]:@:[voiceless uvular fricative](voiceless%20uvular%20fricative.md) <!--SR:!2025-06-15,402,260-->
-- \[y\]:@:[close front rounded vowel](close%20front%20rounded%20vowel.md)
+- \[y\]:@:[close front rounded vowel](close%20front%20rounded%20vowel.md) <!--SR:!2025-05-12,4,309-->
 - \[ʏ\]:@:[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) <!--SR:!2025-09-30,187,330-->
-- \[ɣ\]:@:[voiced velar fricative](voiced%20velar%20fricative.md)
+- \[ɣ\]:@:[voiced velar fricative](voiced%20velar%20fricative.md) <!--SR:!2025-05-11,3,289-->
 - \[ɤ\]:@:[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) <!--SR:!2025-06-30,117,310-->
 - \[ʎ\]:@:[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) <!--SR:!2025-11-05,197,290-->
 - \[ɥ\]:@:[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) <!--SR:!2025-05-18,110,276-->
@@ -664,11 +664,11 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ʐ\]:@:[voiced retroflex fricative](voiced%20retroflex%20fricative.md) <!--SR:!2027-02-16,691,334-->
 - \[θ\]:@:[voiceless dental fricative](voiceless%20dental%20fricative.md) <!--SR:!2025-10-10,195,330-->
 - \[ɸ\]:@:[voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) <!--SR:!2025-07-06,398,375-->
-- \[ʔ\]:@:[glottal stop](glottal%20stop.md)
+- \[ʔ\]:@:[glottal stop](glottal%20stop.md) <!--SR:!2025-05-12,4,309-->
 - \[ʕ\]:@:[voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) <!--SR:!2026-02-16,298,350-->
 - \[ǀ\]:@:[tenuis dental click](tenuis%20dental%20click.md) <!--SR:!2025-06-14,275,354-->
 - \[ǁ\]:@:[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) <!--SR:!2025-08-23,434,376-->
-- \[ǃ\]:@:[tenuis alveolar click](tenuis%20alveolar%20click.md)
+- \[ǃ\]:@:[tenuis alveolar click](tenuis%20alveolar%20click.md) <!--SR:!2025-05-12,4,309-->
 - \[ʘ\]:@:[tenuis bilabial click](tenuis%20bilabial%20click.md) <!--SR:!2025-08-13,426,376-->
 - \[ǂ\]:@:[tenuis palatal click](tenuis%20palatal%20click.md) <!--SR:!2026-05-27,567,315-->
 
@@ -786,12 +786,12 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg) <!--SR:!2026-07-10,621,335-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg) <!--SR:!2027-03-13,736,296-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg) <!--SR:!2025-08-04,364,315-->
-- [glottal stop](glottal%20stop.md):@:![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)
+- [glottal stop](glottal%20stop.md):@:![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg) <!--SR:!2025-05-12,4,309-->
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg) <!--SR:!2025-10-04,190,330-->
 - [tenuis dental click](tenuis%20dental%20click.md):@:![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg) <!--SR:!2028-04-11,1093,355-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) <!--SR:!2026-10-16,682,335-->
-- [tenuis bilabial click](tenuis%20bilabial%20click.md):@:![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)
+- [tenuis bilabial click](tenuis%20bilabial%20click.md):@:![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) <!--SR:!2025-05-12,4,309-->
 - [tenuis palatal click](tenuis%20palatal%20click.md):@:![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) <!--SR:!2028-01-12,1024,355-->
 
 <!--/pytextgen-->

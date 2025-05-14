@@ -506,7 +506,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\) <!--SR:!2025-05-09,20,361!2025-08-03,88,381-->
   - budget / row headers ::@:: Many items. A total at the end. Indent as needed. <!--SR:!2025-08-02,87,381!2025-05-09,20,361-->
   - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it. <!--SR:!2025-08-09,93,380!2025-08-05,90,381-->
-  - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year.
+  - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year. <!--SR:!2025-05-13,5,360!2025-05-13,5,360-->
 
 ## delayed cash receipts or payments
 
@@ -520,11 +520,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{sales in Feb}@}           | {@{&dollar;300<br/>\(&dollar;500×80%×75%\)}@}        | {@{&dollar;100<br/>\(&dollar;500×80%×25%\)}@}        |
 > | {@{sales in Mar}@}           | {@{&dollar;200<br/>\(&dollar;1&nbsp;000×20%\)}@}     | {@{&dollar;600<br/>\(&dollar;1&nbsp;000×80%×75%\)}@} |
 > | {@{sales in Apr}@}           |                                                      | {@{&dollar;500<br/>\(&dollar;2&nbsp;500×20%\)}@}     |
-> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             |
+> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360-->
 
-- delayed cash receipts or payments ::@:: column headers, row headers
-  - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)...
-  - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments
+- delayed cash receipts or payments ::@:: column headers, row headers <!--SR:!2025-05-13,5,360!2025-05-13,5,360-->
+  - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)... <!--SR:!2025-05-13,5,360!2025-05-13,5,360-->
+  - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments <!--SR:!2025-05-13,5,360!2025-05-13,5,360-->
 
 ## standard cost card
 
@@ -538,8 +538,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{direct labor}@}                                   | {@{24 hrs per unit}@}   | {@{&dollar;25 per hr}@}   | {@{600.00}@}                |
 > | {@{variable overhead \(60% of direct labor cost\)}@} | {@{24 hrs per unit}@}   | {@{&dollar;15 per hr}@}   | {@{360.00}@}                |
 > | {@{fixed overhead \(&dollar;100/2 units\)}@}         |                         |                           | {@{50.00}@}                 |
-> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} |
+> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} | <!--SR:!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360!2025-05-13,5,360-->
 
-- standard cost card ::@:: column headers, row headers
-  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost
-  - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit
+- standard cost card ::@:: column headers, row headers <!--SR:!2025-05-13,5,360!2025-05-13,5,360-->
+  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2025-05-13,5,360!2025-05-13,5,360-->
+  - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2025-05-13,5,360!2025-05-11,3,340-->
