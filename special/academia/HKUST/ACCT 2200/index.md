@@ -45,8 +45,9 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/index.md)
+- [examination 3 cheatsheet](examination%203%20cheatsheet.md)
 - [formats](formats.md)
-<!-- - [questions](questions.md) -->
+- [questions](questions.md)
 
 ## assessments
 
@@ -169,7 +170,7 @@ The content is in teaching order.
     - process costing / weighted average cost / prepare production reports ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
       - process costing / weighted average cost / prepare production reports / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
       - process costing / weighted average cost / prepare production reports / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
-      - processing costing / weighted average cost / prepae production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
+      - processing costing / weighted average cost / prepare production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
 
 ## week 3 lecture
 
@@ -243,7 +244,7 @@ The content is in teaching order.
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_.
 - [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc.
   - activity-based management / example ::@:: Instead of looking at processes/jobs to improve, we look at the activities that processes/jobs require across all processes/jobs. <p> Using ABC, then we can find high-cost activities, and improve on them. We can also identify _value-added_ costs (e.g. designing, machining) and _non-value-added_ costs (e.g. advertising, billing, inspection, meeting, transportation).
-  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Then compare/rank the projects/segments by gross margin \(_percentage_\) and net operating income \(_percentage_\), which shows the gross profit consumed by overhead from ABC costing. Make 3 or more suggestions on improving the project and segment with the lowest net operating income \(_percentage_\), with explanation. Finally, for each activity, make 3 or more suggestions on reducing its activity with explanation. <p> Remember, 1 point is worth 1 mark. Do not be afraid to write "obvious" or "useless" points.\)
+  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Mention _cost substitution effect_ that overstates the cost of a project and understates another. Since the price is based on \(something\), it is likely a project is _overpriced_ and the other is _underpriced_. For the _overpriced_ project \(traditional costing ranks higher but ABC costing ranks lower\), for each activity, state how its cost driver compares to the other project, and give 2 to 3 suggestions to reduce it. Don't be afraid to write "obvious" or "stupid" points.\)
     - activity-based management / note / ABC costing vs. traditional costing ::@:: Traditional costing uses only one cost driver. Thus, costs may be over-allocated or under-allocated as part of MOH is related to other unused cost drivers. ABC costing is more accurate because cost pools are used to match relevant cost drivers, which should have some causal relationship.
 - price setting ::@:: markup, target costing, etc.
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_.
@@ -279,7 +280,7 @@ The content is in teaching order.
     - cost behavior / linear regression / least squares ::@:: Minimize the sum of squared $y$ errors with the fitted line. Software, e.g. Excel, can be used to find the line. The intercept $a$ and the slope $b$ means the same thing as the other methods.
       - [least squares](../../../../general/least%20squares.md) ::@:: a parameter estimation method based on minimizing the sum of the squares of the residuals (a residual being the difference between an observed value and the fitted value provided by a model) made in the results of each individual equation
       - cost behavior / linear regression / least squares / outputs ::@:: R square \(R<sup>2</sup>\): how closely the relation is explained by the fitted line <br/> intercept: estimated total fixed costs <br/> $x$ coefficient/slope: estimated unit variable costs
-      - cost behavior / linear regression / least squares / significance ::@:: significance F, p-value (for the $x$ coefficient/slope): They are the same when one independent variable is used to predict one dependent variable. Compare them with the significance level: The value being lower than the significance level means the result is significant (useful). <p> (__this course__: What if the value _equals_ the significance level? The course is not clear on this, but the answer seems to be _insignificant_.)
+      - cost behavior / linear regression / least squares / significance ::@:: significance F \(for the joint effect of all independent variables\), p-value \(for each variable\): They are the same when one independent variable is used to predict one dependent variable. Compare them with the significance level: The value being lower than the significance level means the result is significant (useful). <p> (__this course__: What if the value _equals_ the significance level? The course is not clear on this, but the answer seems to be _insignificant_.)
     - cost behavior / linear regression / advantages ::@:: scattergraph, high—low method: intuitive, simple <br/> least squares: easy using Excel, uses all data points
     - cost behavior / linear regression / disadvantages ::@:: scattergraph: inexact, subjective <br/> high—low method: uses only two data points at the extreme but not at the middle <br/> least squares: requires proper interpretation, uses more assumptions and data
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> \(__this course__: sales revenue minus variable costs\)
@@ -497,7 +498,7 @@ The content is in teaching order.
   - budget / sales budget ::@:: budgeted unit sales × budgeted sales price = budgeted sales revenue
     - budget / sales budget / note ::@:: The yearly budgeted sales price uses weighted average. <p> The sales budget is very straightforward. You budget the sales you want, and then simply multiply by the budgeted sales price.
   - budget / production budget ::@:: budgeted unit sales + ending finished goods inventory – beginning finished goods inventory = budgeted production units
-    - budget / production budget / note ::@:: The yearly ending and beginnig finished goods inventory use that of the whole year. <p> It is related to the sales budget, beginning, and ending finished goods inventory that you want to keep, e.g. ending finished goods inventory of 5% of next quarter budgeted sales.
+    - budget / production budget / note ::@:: The yearly ending and beginning finished goods inventory use that of the whole year. <p> It is related to the sales budget, beginning, and ending finished goods inventory that you want to keep, e.g. ending finished goods inventory of 5% of next quarter budgeted sales.
   - budget / direct materials purchases budget ::@:: budgeted production units × required direct materials \(per unit\) = total required direct materials <br/> total required direct materials + ending direct materials inventory – beginning direct materials inventory = total direct materials purchases <br/> total direct materials purchases × direct materials cost = budgeted cost of direct materials purchases
     - budget / direct materials purchases budget / note ::@:: The yearly required direct materials \(per unit\) and direct materials cost use weighted average. The yearly ending and beginning direct materials inventory use that of the whole year. <p> From budgeted production, you need to calculate direct materials used, then direct materials purchased, and finally its total cost.
   - budget / direct labor budget ::@:: budgeted production units × required direct labor \(per unit\) = total required direct labor hours <br/> total required direct labor hours × direct labor rate per hour = total budgeted direct labor
@@ -598,7 +599,7 @@ The content is in teaching order.
 - variance analysis ::@:: It is a tool of budgetary control and performance evaluation, assessing any variances between the budgeted, planned, or standard amount, and the actual amount realized. Variance analysis can be carried out for both costs and revenues.
   - variance analysis / types ::@:: Variance can be classified into _spending variance_ and _volume variances_. The former accounts for differences between the _actual budget_ and the _flexible budget_ with the same sale units. The latter accounts for differences between the _flexible budget_ and the _master budget_.
     - variable analysis / types / variable ::@:: For variable costs, e.g. direct materials \(DM\), direct labor \(DL\), and variable manufacturing overhead \(VOH\), _spending variance_ can be further separated into _price variance_ and _efficiency variance_ \(_quantity variance_ for DM\). <p> _Volume variance_ is ignored, as it is already accounted for by the _flexible budget_.
-    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares the fixed MOH in _master budget_ \(the _fixed FOH rate per unit_ is also from master budget\) and the _applied FOH_ based on actual volume \(fixed FOH rate per unit multiplied by _actual units_\) instead of that in the _flexible budget_ \(actually, it should be the same as that in master budget because fixed MOH should not change with volume\).
+    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares the FOH in _master budget_ \(the _fixed FOH rate per unit_ is also from master budget\) and the _applied FOH_ based on actual volume \(fixed FOH rate per unit multiplied by _actual units_\) instead of that in the _flexible budget_ \(actually, it should be the same as that in master budget because fixed MOH should not change with volume\).
   - variance analysis / favorability ::@:: Variance calculation should always be calculated by taking the planned or budgeted amount and subtracting the actual/forecasted value. Thus a positive number is favorable and a negative number is unfavorable.
     - variance analysis / favorability / causes ::@:: It should be obvious what is _favorable_, e.g. paying lower prices/wages, producing more using less resources, using less materials, using less time, etc. The opposite is _unfavorable_.
 - assignment: [budgetary planning](assignments/budgetary%20planning/index.md)
@@ -785,7 +786,7 @@ The content is in teaching order.
   - transfer pricing / market-price method ::@:: Use the market price \(ceiling\), the price a company would charge to external customers. <p> It is appropriate when the selling division has no excess capacity, since the selling division would have opportunity cost equaling the market price.
   - transfer pricing / cost-based method ::@:: Use the unit variable cost \(floor\), unit full cost, or unit variable cost with percent markup. Any transfer price above the unit variable cost provides contribution margin to the selling division. <p> It is appropriate when the selling division has excess/idle capacity \(usually due to insufficient or no market demand\), since the selling division have zero opportunity cost.
   - transfer pricing / negotiation ::@:: Price is determined by negotiation between managers of the selling division and purchasing division. <p> The resulting price depends on capacity of the selling division and their relative negotiating power \(the more power a division has, the more favorable the transfer price is to the division\). <p> Disadvantages include management time used on negotiation and potentially creating adversarial relations between divisions.
-  - transfer pricing / effect ::@:: Assume the pricing is in between the floor and the ceiling. Then the transfer price determines the amount of benefits received by the selling division \(contribution margin\) and purchasing division \(savings compared to buying from the market\).
+  - transfer pricing / effect ::@:: Assume the pricing is in between the floor and the ceiling. Then the transfer price determines the amount of benefits received by the selling division \(contribution margin/_gain_\) and purchasing division \(_savings_ compared to buying from the market\).
 
 > Dear L07 and L09 Students,
 >
@@ -855,6 +856,7 @@ The content is in teaching order.
 - format
   - calculator: yes
   - cheatsheet: yes; A4-sized, double-sided, printed or written
+    - [examination 3 cheatsheet](examination%203%20cheatsheet.md)
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×4
