@@ -542,25 +542,25 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×3
-- grades: 96/100 → ?/100
+- grades: 96/100 → 96/100
   - statistics
-    - timestamps: 2025-04-29T13:31+08:00 → ?
+    - timestamps: 2025-04-29T13:31+08:00 → 2025-05-06T22+08:00
     - count: ? → ?
-    - mean: 62.9 → ?
+    - mean: 62.9 → 62.77
     - standard deviation: ? → ?
-    - low: 27 → ?
-    - lower quartile: 56 → ?
-    - median: 64 → ?
-    - upper quartile: 72 → ?
-    - high: 96 → ?
+    - low: 27 → 0
+    - lower quartile: 56 → 55.5
+    - median: 64 → 64
+    - upper quartile: 72 → 72
+    - high: 96 → 96
     - distribution: ? → ?
     - data: ? → ?
 - report
   - time limit ::@:: Again, the time limit was tight, because the last question on incremental analysis has 3 very long paragraphs of information to sieve through.
 - check
-  - datetime: ?
-  - venue: ?
-  - report: \(none\)
+  - datetime: 2025-05-06T13:00:00+08:00/2025-05-06T16:00:00+08:00, PT3H
+  - venue: Room 6032, LSKBB
+  - report: \(none: did not go\)
 
 > __<big>Coverage of Examination 2</big>__
 >
@@ -645,6 +645,7 @@ The content is in teaching order.
 - [capital budgeting](../../../../general/capital%20budgeting.md) ::@:: It in corporate finance, corporate planning and accounting is an area of are worth the funding of cash through the firm's capitalization structures \(debt, equity or retained earnings\).
   - capital budgeting / decision ::@:: It is a decision-making approach about investments, which include cost cutting, expansion, lease or buy, replacement, research, etc. <p> The basic question to answer is if a proposed project is worth the upfront investment.
   - capital budgeting / methods ::@:: accounting rate of return \(ARR\), internal rate of return \(IRR\), net present value \(NPV\), \(non-discounted\) payback period, profitability index \(PI\) <p> basis: ARR is based on net income. The rest are based on cash flows. <br/> discounting: ARR and payback period are non-discounting. The rest are discounting.
+  - capital budgeting / incrementalism ::@:: When evaluating projects, only consider _incremental_/_relevant_ cost and benefits, similar to that in short-term decision making. In general, only _incremental_/_relevant_ matters for any type of decision making.
 - [accounting rate of return](../../../../general/accounting%20rate%20of%20return.md) \(ARR\) ::@:: It is a financial ratio used in capital budgeting. The ratio does not take into account the concept of time value of money. ARR calculates the return, generated from net income of the proposed capital investment. The ARR is a percentage return. Say, if ARR = 7%, then it means that the project is expected to earn seven cents out of each dollar invested \(yearly\).
   - accounting rate of return / decision rule ::@:: If the ARR is equal to or greater than the required rate of return, the project is acceptable. If it is less than the desired rate, it should be rejected. When comparing investments, the higher the ARR, the more attractive the investment. More than half of large firms calculate ARR when appraising projects.
   - accounting rate of return / formulas ::@:: There are many different formulas. \(__this course__: annual net operating income \(including depreciation\) ÷ initial investment\)
@@ -778,30 +779,6 @@ The content is in teaching order.
   - responsibility center / revenue center ::@:: It is characterized by the lowest level of responsibility compared to the other two centers. Their managers are expected to generate as much revenue by increasing sales. <p> Managers are generally evaluated based on sales and revenue generation. <p> Examples include account managers of online sales team.
   - responsibility center / profit center ::@:: It  is characterized by the responsibility to choose inputs and outputs with a fixed level of investment. <p> A typical measurement for profit center management is the ability to maximize profits as they are responsible for both costs and revenues.
   - responsibility center / investment center ::@:: It has the highest level of delegated autonomy. Investment center's have the highest level of autonomy as they can determine the level of inputs, outputs and additional investments. <p> The most common metric for evaluating management performance is the return on investment \(ROI\). The unit can be held responsible for generating an adequate ROI as the business unit has the autonomy to determine the key influencing variables. <p> Examples include real estate managers.
-- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions.
-  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves.
-  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\).
-    - balanced scorecard / first generation / financial ::@:: It encourages the identification of a few relevant high-level financial measures. In particular, designers were encouraged to choose measures that helped inform the answer to the question "How do we look to shareholders?".
-      - balanced scorecard / first generation / financial / measures ::@:: cash flow, economic value added \(EVA\), profitability, residual income, return on investment \(ROI\), sales growth, etc.
-    - balanced scorecard / first generation / customer ::@:: It encourages the identification of measures that answer the question "What is important to our customers and stakeholders?".
-      - balanced scorecard / first generation / customer / measures ::@:: customer satisfaction, market share, on time delivery, percent of sales from new products, share of important customers' purchases, etc.
-    - balanced scorecard / first generation / internal business processes ::@:: It encourages the identification of measures that answer the question "What must we excel at?" or "What do we need to meet the needs of our customers, employees, and stakeholders?".
-      - balanced scorecard / first generation / internal business processes / measures ::@:: average days to market, cycle time, defective rate, inventory stock outs, percent of new products, unit cost, yield, etc.
-    - balanced scorecard / first generation / learning and growth ::@:: It encourages the identification of measures that answer the question "How can we continue to improve, create value and innovate?".
-      - balanced scorecard / first generation / learning and growth / measures ::@:: employee satisfaction, lifecycle to product maturity, number of new patent applications, research and development \(R&D\) spending, time to market versus competition, etc.
-- [return on investment](../../../../general/return%20on%20investment.md) \(ROI\) ::@:: It is the ratio between net income \(over a period\) and investment \(costs resulting from an investment of some resources at a point in time\).
-  - return on investment / formula ::@:: $$\text{ROI} = \frac {\text{NOI} } {\text{AIA} } \,,$$ where ROI is return on investment, NOI is net operating income, and AIA is average invested assets. Expanding: $$\text{ROI} = \text{IT} \cdot \text{PM} = \frac {\text{SR} } {\text{AIA} } \cdot \frac {\text{NOI} } {\text{SR} } \,,$$ where IT is investment turnover, PM is profit margin, and SR is sales revenue.
-  - return on investment / average invested assets ::@:: Take the average of the invested assets at year start and year end.
-  - return on investment / investment turnover ::@:: Literally just $$\text{investment turnover} = \frac {\text{sales revenue} } {\text{average invested assets} } \,.$$
-  - return on investment / profit margin ::@:: Literally just $$\text{profit margin} = \frac {\text{net operating income} } {\text{sales revenue} } \,.$$
-- [residual income valuation](../../../../general/residual%20income%20valuation.md) \(RIV\) ::@:: It is an approach to [equity valuation](../../../../general/equity%20valuation.md) that formally accounts for the [cost of equity](../../../../general/cost%20of%20equity.md) capital. Here, "residual" means in excess of any [opportunity costs](../../../../general/opportunity%20cost.md) measured relative to the book value of [shareholders' equity](../../../../general/shareholders'%20equity.md); __residual income__ \(RI\) is then the income generated by a firm after accounting for the true [cost of capital](../../../../general/cost%20of%20capital.md).
-  - residual income valuation / residual income ::@:: It is computed as: $$\text{net operating income} - \text{minimum acceptable profit} \,,$$ where the minimum acceptable profit can be computed as: $$\text{average invested assets} \cdot \text{hurdle rate} \,.$$
-    - residual income valuation / residual income / return on investment ::@:: It can be computed from return on investment: $$\text{average invested assets} \cdot \text{residual return} \,,$$ where residual return is computed as: $$\text{return on investment} - \text{hurdle rate} \,.$$
-  - residual income valuation / hurdle rate ::@:: It is the required return on invested assets, sometimes called the _required rate of return_.
-  - residual income valuation / interpretation ::@:: It is a company's extra profit that is in excess of needed to meet the required rate of return.
-  - residual income valuation / characteristics ::@:: It is _scale-variant_, i.e. takes project _scale_ \(average invested assets\) into account. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
-- return on investment
-  - return on investment / characteristics ::@:: It is _scale-invariant_, i.e. does not take project _scale_ \(average invested assets\) into account. So managers may make wrong decisions if ROI is used as the only performance measure. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
 - [transfer pricing](../../../../general/transfer%20pricing.md) ::@:: It refers to the rules and methods for pricing transactions within and between enterprises under common ownership or control.
   - transfer pricing / range ::@:: The floor is the unit variable cost, otherwise the selling division would have negative contribution margin and not produce the product \(shutdown\). <p> The ceiling is the market price, otherwise the purchasing division would buy from the market directly.
   - transfer pricing / methods ::@:: cost-based method \(floor, approximately\), negotiation, market-price method \(ceiling\)
@@ -841,6 +818,30 @@ The content is in teaching order.
 
 - datetime: 2025-05-07T12:00:00+08:00/2025-05-07T13:20:00+08:00, PT1H20M
 - topic: decentralized performance evaluation
+- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions.
+  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves.
+  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\).
+    - balanced scorecard / first generation / financial ::@:: It encourages the identification of a few relevant high-level financial measures. In particular, designers were encouraged to choose measures that helped inform the answer to the question "How do we look to shareholders?".
+      - balanced scorecard / first generation / financial / measures ::@:: cash flow, economic value added \(EVA\), profitability, residual income, return on investment \(ROI\), sales growth, etc.
+    - balanced scorecard / first generation / customer ::@:: It encourages the identification of measures that answer the question "What is important to our customers and stakeholders?".
+      - balanced scorecard / first generation / customer / measures ::@:: customer satisfaction, market share, on time delivery, percent of sales from new products, share of important customers' purchases, etc.
+    - balanced scorecard / first generation / internal business processes ::@:: It encourages the identification of measures that answer the question "What must we excel at?" or "What do we need to meet the needs of our customers, employees, and stakeholders?".
+      - balanced scorecard / first generation / internal business processes / measures ::@:: average days to market, cycle time, defective rate, inventory stock outs, percent of new products, unit cost, yield, etc.
+    - balanced scorecard / first generation / learning and growth ::@:: It encourages the identification of measures that answer the question "How can we continue to improve, create value and innovate?".
+      - balanced scorecard / first generation / learning and growth / measures ::@:: employee satisfaction, lifecycle to product maturity, number of new patent applications, research and development \(R&D\) spending, time to market versus competition, etc.
+- [return on investment](../../../../general/return%20on%20investment.md) \(ROI\) ::@:: It is the ratio between net income \(over a period\) and investment \(costs resulting from an investment of some resources at a point in time\).
+  - return on investment / formula ::@:: $$\text{ROI} = \frac {\text{NOI} } {\text{AIA} } \,,$$ where ROI is return on investment, NOI is net operating income, and AIA is average invested assets. Expanding: $$\text{ROI} = \text{IT} \cdot \text{PM} = \frac {\text{SR} } {\text{AIA} } \cdot \frac {\text{NOI} } {\text{SR} } \,,$$ where IT is investment turnover, PM is profit margin, and SR is sales revenue.
+  - return on investment / average invested assets ::@:: Take the average of the invested assets at year start and year end.
+  - return on investment / investment turnover ::@:: Literally just $$\text{investment turnover} = \frac {\text{sales revenue} } {\text{average invested assets} } \,.$$
+  - return on investment / profit margin ::@:: Literally just $$\text{profit margin} = \frac {\text{net operating income} } {\text{sales revenue} } \,.$$
+- [residual income valuation](../../../../general/residual%20income%20valuation.md) \(RIV\) ::@:: It is an approach to [equity valuation](../../../../general/equity%20valuation.md) that formally accounts for the [cost of equity](../../../../general/cost%20of%20equity.md) capital. Here, "residual" means in excess of any [opportunity costs](../../../../general/opportunity%20cost.md) measured relative to the book value of [shareholders' equity](../../../../general/shareholders'%20equity.md); __residual income__ \(RI\) is then the income generated by a firm after accounting for the true [cost of capital](../../../../general/cost%20of%20capital.md).
+  - residual income valuation / residual income ::@:: It is computed as: $$\text{net operating income} - \text{minimum acceptable profit} \,,$$ where the minimum acceptable profit can be computed as: $$\text{average invested assets} \cdot \text{hurdle rate} \,.$$
+    - residual income valuation / residual income / return on investment ::@:: It can be computed from return on investment: $$\text{average invested assets} \cdot \text{residual return} \,,$$ where residual return is computed as: $$\text{return on investment} - \text{hurdle rate} \,.$$
+  - residual income valuation / hurdle rate ::@:: It is the required return on invested assets, sometimes called the _required rate of return_.
+  - residual income valuation / interpretation ::@:: It is a company's extra profit that is in excess of needed to meet the required rate of return.
+  - residual income valuation / characteristics ::@:: It is _scale-variant_, i.e. takes project _scale_ \(average invested assets\) into account. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
+- return on investment
+  - return on investment / characteristics ::@:: It is _scale-invariant_, i.e. does not take project _scale_ \(average invested assets\) into account. So managers may make wrong decisions if ROI is used as the only performance measure. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
 - [triple bottom line](../../../../general/triple%20bottom%20line.md) \(TBL\) ::@:: It is an accounting framework with three parts: _social_, _environmental_ \(or ecological\) and _economic_. Some organizations have adopted the TBL framework to evaluate their performance in a broader perspective to create greater business value.
   - triple bottom line / social ::@:: The people, social equity, or human capital bottom line pertains to fair and beneficial business practices toward labour and the community and region in which a corporation conducts its business. A TBL company conceives a reciprocal social structure in which the well-being of corporate, labour and other stakeholder interests are interdependent.
   - triple bottom line / environmental ::@:: The planet, environmental bottom line, or natural capital bottom line refers to sustainable environmental practices. A TBL company endeavors to benefit the natural order as much as possible or at the least do no harm and minimize environmental impact.
@@ -848,6 +849,52 @@ The content is in teaching order.
     - triple bottom line / economic / confusion ::@:: This is often confused to be limited to the internal profit made by a company or organization \(which nevertheless remains an essential starting point for the computation\). Therefore, an original TBL approach cannot be interpreted as simply traditional corporate accounting profit _plus_ social and environmental impacts unless the "profits" of other entities are included as a social benefit.
 
 ## examination 3
+
+- datetime: 2025-05-17T12:30:00+08:00/2025-05-17T14:30:00+08:00, PT2H
+- venue: S H Ho Sports Hall
+- format
+  - calculator: yes
+  - cheatsheet: yes; A4-sized, double-sided, printed or written
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: long questions ×4
+- grades: ?/100 → ?/100
+  - statistics
+    - timestamps: ? → ?
+    - count: ? → ?
+    - mean: ? → ?
+    - standard deviation: ? → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? → ?
+    - upper quartile: ? → ?
+    - high: ? → ?
+    - distribution: ? → ?
+    - data: ? → ?
+- report
+- check
+  - datetime: ?
+  - venue: ?
+  - report: \(none\)
+
+> Dear ACCT2200 students,
+>
+> As we received numerous similar inquiries from students about the exam provisions and coverage, please see the clarifications below:
+>
+> - Students are allowed to bring two pieces of A4 double-sided \(written/printed\) cheat sheets.
+> - For the coverage of exam, you should refer to the announcement on Canvas made by \[redacted\] on 12 May, the coverage of your final exam is on variance analysis, decentralization and performance measurement, capital budgeting and CVP. There are 4 questions in total.
+>
+> The final exam will take place from 12:30pm-2:30pm, on 17 May 2025, at S H Ho Sports Hall. Please see the seat number and floor plan in the link below.
+>
+> Seat number: <u>ACCT2200 \(L07-09\) Final Exam_Seating number.pdf</u>
+>
+> Floor plan: <u>Floor Plan.pdf</u>
+>
+> All the best with your exams!
+>
+> Best regards,
+>
+> \[redacted\]
 
 ## aftermath
 
