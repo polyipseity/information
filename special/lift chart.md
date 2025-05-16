@@ -27,7 +27,7 @@ To construct a lift chart, first select {@{an attribute as the outcome attribute
 >
 > {@{A quick example}@} below.
 >
-> ![lift chart example](attachments/Pasted%20image%2020240322145601.png)
+> {@{![lift chart example](attachments/Pasted%20image%2020240322145601.png)}@}
 
 ### decile-wise
 
@@ -37,7 +37,7 @@ To construct a decile-wise lift chart, {@{follow the same [instructions above](#
 >
 > {@{A quick example}@} below, using the same data as above.
 >
-> ![decile-wise lift chart example](attachments/Pasted%20image%2020240322164126.png)
+> {@{![decile-wise lift chart example](attachments/Pasted%20image%2020240322164126.png)}@}
 
 ## interpretation
 

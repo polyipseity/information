@@ -647,10 +647,10 @@ The content is in teaching order.
 - [game theory](../../../../general/game%20theory.md) ::@:: It is the study of [mathematical models](../../../../general/mathematical%20model.md) of strategic interactions. <p> It studies players (decision makers), strategies (players' complete plan of actions), and payoffs (outcomes, which can be rewards or punishments). Usually there are two players, but any number of players can be analyzed.
   - game theory / normal form ::@:: They are the simplest games studied in game theory and also most fundamental ones. \(To be defined later...\)
 - [preference](../../../../general/preference%20(economics).md) ::@:: It refers to an order by which an agent, while in search of an "optimal choice", ranks alternatives based on their respective utility.
-  - preference / properties ::@:: completeness, continuity, decomposability, monotonicity, substituability, transitivity
+  - preference / properties ::@:: completeness, continuity, decomposability, monotonicity, substitutability, transitivity
     - preference / properties / completeness ::@:: Every pair of two bundles is comparable by ≽. Either _A_ ≽ _B_, _B_ ≽ _A_, or both.
-    - preference / properties / transitivty ::@:: _A_ ≽ _B_ and _B_ ≽ _C_ implies _A_ ≽ _C_.
-    - preference / properties / substituability ::@:: In a bundle _A_, there may be multiple \(repeated\) elements. The desirability of an element is not affected by the presence or absence of other elements.
+    - preference / properties / transitivity ::@:: _A_ ≽ _B_ and _B_ ≽ _C_ implies _A_ ≽ _C_.
+    - preference / properties / substitutability ::@:: In a bundle _A_, there may be multiple \(repeated\) elements. The desirability of an element is not affected by the presence or absence of other elements.
     - preference / properties / decomposability ::@:: The set of bundles _O_ can be decomposed into two sets _O_<sub>1</sub> and _O_<sub>2</sub>. The most preferred option of _O_ is either that in _O_<sub>1</sub> or _O_<sub>2</sub>.  
     - preference / properties / monotonicity ::@:: Comparing two bundles, if an element occurs in a bundle _A_ more times than the other bundle _B_, and no less for other elements, then _A_ ≽ _B_.
     - preference / properties / continuity ::@:: If _A_ ≽ _B_, and _C_ is sufficiently close to _A_, then _C_ ≽ _B_.
