@@ -16,3 +16,5 @@ tags:
 # examination 3 cheatsheet
 
 - HKUST ACCT 2200
+
+\(literally simply printing the 2-page additional question solution for balanced scoreboard\)
