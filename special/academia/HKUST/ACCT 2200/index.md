@@ -244,7 +244,7 @@ The content is in teaching order.
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_.
 - [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc.
   - activity-based management / example ::@:: Instead of looking at processes/jobs to improve, we look at the activities that processes/jobs require across all processes/jobs. <p> Using ABC, then we can find high-cost activities, and improve on them. We can also identify _value-added_ costs (e.g. designing, machining) and _non-value-added_ costs (e.g. advertising, billing, inspection, meeting, transportation).
-  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Mention _cost substitution effect_ that overstates the cost of a project and understates another. Since the price is based on \(something\), it is likely a project is _overpriced_ and the other is _underpriced_. For the _overpriced_ project \(traditional costing ranks higher but ABC costing ranks lower\), for each activity, state how its cost driver compares to the other project, and give 2 to 3 suggestions to reduce it. Don't be afraid to write "obvious" or "stupid" points.\)
+  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Mention _cost substitution effect_ that overstates the cost of a project and understates another. Since the price is based on \(something\), it is likely a project is _overpriced_ and the other is _underpriced_. For the _overpriced_ project \(traditional costing ranks higher but ABC costing ranks lower\), for each activity, state how its cost driver compares to the other project, and give 2 to 3 suggestions to reduce it. <p> Remember 1 mark 1 point. Don't be afraid to write "obvious" or "stupid" points.\)
     - activity-based management / note / ABC costing vs. traditional costing ::@:: Traditional costing uses only one cost driver. Thus, costs may be over-allocated or under-allocated as part of MOH is related to other unused cost drivers. ABC costing is more accurate because cost pools are used to match relevant cost drivers, which should have some causal relationship.
 - price setting ::@:: markup, target costing, etc.
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_.
@@ -556,6 +556,8 @@ The content is in teaching order.
     - high: 96 → 96
     - distribution: ? → ?
     - data: ? → ?
+      - 1st: 96
+      - 2nd: 89
 - report
   - time limit ::@:: Again, the time limit was tight, because the last question on incremental analysis has 3 very long paragraphs of information to sieve through.
 - check
@@ -874,6 +876,7 @@ The content is in teaching order.
     - distribution: ? → ?
     - data: ? → ?
 - report
+  - time limit ::@:: Again, the time limit was tight. This is to be expected for this course... Some questions requires you to do the work of an spreadsheet.
 - check
   - datetime: ?
   - venue: ?
