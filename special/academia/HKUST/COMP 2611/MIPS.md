@@ -165,8 +165,8 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }`
 - branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\)
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }`
-- jump ::@:: `j target`: `goto (PC & 0xf0000000) | (target << 2);`
-- jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (PC & 0xf0000000) | (target << 2);` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\)
+- jump ::@:: `j target`: `goto (nPC & 0xf0000000) | (target << 2);`
+- jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2);` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\)
 - jump register ::@:: `jr $s`: `goto $s;`
 
 ### comparison instructions
@@ -175,6 +175,41 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended
 - set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\)
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned
+
+## floating-point instructions
+
+Note that the floating-point register operands must be {@{even numbered for double instructions}@}.
+
+- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);`
+- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);`
+- add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;`
+- add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;`
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\)
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\)
+- compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;`
+- compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;`
+- compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;`
+- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;`
+- compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;`
+- compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;`
+- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;`
+- compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;`
+- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;`
+- compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;`
+- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;`
+- compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;`
+- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;`
+- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;`
+- load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));`
+- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));`
+- multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;`
+- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;`
+- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;`
+- negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;`
+- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;`
+- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;`
+- subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;`
+- subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;`
 
 ### miscellaneous instructions
 
@@ -354,7 +389,7 @@ MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}.
 - register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction.
 - base \(+ displacement\) addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the value of the `$s` register. The `$s` is known as the _base_ and the offset is known as the _displacement_. The operand is written as `offset($s)`.
 - PC-relative addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the program counter \(PC\). These instructions are branch instructions. <p> The address offset is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. The address offset \(multiplied by 4\) is added to nPC \(or `PC + 4`\) to find the branch target \(the reason is mentioned above\). This means instructions up to 2<sup>15</sup> words/instructions or 128 kiB away are addressable. <p> Simply put, the branch address is `nPC + offset << 2` or `PC + 4 + offset << 2`.
-- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(PC & 0xf0000000) | (offset << 2)`.
+- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(nPC & 0xf0000000) | (offset << 2)`. Note the `&` operates on `nPC` instead of `PC`.
 
 A problem with PC-relative addressing is that {@{the branch target may be too far away}@}. The assembler {@{may rewrite a branch instruction as a branch instruction followed by a jump instruction, so that pseudo-direct addressing can be used}@}. If pseudo-direct addressing is insufficient, {@{storing the 32-bit address into a register and using `jr` suffices}@}.
 
@@ -365,6 +400,20 @@ A problem with PC-relative addressing is that {@{the branch target may be too fa
 When {@{an interrupt occurs}@}, control {@{jumps to a predefeined address containing instructions to handle the interrupt}@}. {@{The address of the interrupted instruction}@} is {@{saved to an _exception program counter_ \(EPC\)}@}, so that {@{the interrupt handler can _choose_ to resume the interrupted code using `jr` \(jump register\)}@}.
 
 A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}.
+
+## floating point
+
+MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}.
+
+It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\)
+
+It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions:
+
+- arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations.
+- comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\).
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are set using `lwc1` and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`.
+- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\).
+- signedness ::@:: All operations are always signed.
 
 ## miscellaneous
 
