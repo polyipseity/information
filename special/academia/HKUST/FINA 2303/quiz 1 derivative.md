@@ -13,4 +13,8 @@ tags:
 
 - HKUST FINA 2303
 
+\(multiple choice question ×6\)
+
+---
+
 \(nothing worthwhile to note\)
