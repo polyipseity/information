@@ -43,6 +43,8 @@ If we assume they are wrongly priced, then either Rackspace is underpriced or So
 
 Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate.
 
+Both cases yield an arbitrage opportunity.
+
 ---
 
 6%+9.5%\*1.5=20.25%&gt;15%, so the return of asset is lower than SML. So it is overpriced.
