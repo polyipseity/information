@@ -540,7 +540,7 @@ The content is in teaching order.
 ## week 7 lecture
 
 - datetime: 2025-03-17T10:30:00+08:00/2025-03-17T11:50:00+08:00, PT1H20M
-- topic: midterm review
+- topic: midterm examination review
 - status: attendance
 - [§ midterm examination](#midterm%20examination)
 - [questions § week 7 lecture](questions/index.md#week%207%20lecture)
@@ -696,6 +696,266 @@ The content is in teaching order.
 
 - datetime: 2025-04-02T10:30:00+08:00/2025-04-02T11:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
+
+## week 10 lecture
+
+- datetime: 2025-04-07T10:30:00+08:00/2025-04-07T11:50:00+08:00, PT1H20M
+- topic: inventory management, newsvendor model
+- status: attendance
+- [newsvendor model](../../../../general/newsvendor%20model.md) ::@:: It is a mathematical model in operations management and applied economics used to determine optimal inventory levels.
+  - newsvendor model model / motivation ::@:: A news stand buys newspaper to sell. At the end of the day, they become outdated. <p> How many newspaper should the news stand buy? Too many, then loss from unsold newspapers. Too little, then loss from potential sales.
+  - newsvendor model model / characteristics ::@:: It is \(typically\) characterized by fixed prices and uncertain demand for a perishable product. If the inventory level is $q$, each unit of demand above $q$ is lost in potential sales.
+    - newsvendor model model / characteristics / vs. EOQ model ::@:: demand: random vs. deterministic <br/> method: marginal expected value vs. first-order derivative of cost function <br/> objective: maximize _profit_ vs. minimize _cost_ <br/> order opportunity: once vs. multiple <br/> period \#: single vs. multiple <br/> product lifecycle: short vs. long
+  - newsvendor model model / assumptions ::@:: - Products are separable <br/> - Planning is done for a single period <br/> - Demand is random <br/> - Deliveries are made in advance of demand <br/> - Costs of overage or underage are linear
+  - newsvendor model model / marginal analysis ::@:: It can be solved by considering the effect of adding one more unit on profits, i.e. _marginal profit_. <p> If it is positive, add. If it is negative, do not add \(or remove\). If it is zero, we are indifferent. The optimal solution is _usually_ obtained when the marginal profit is zero.
+    - newsvendor model model / marginal analysis / derivation ::@:: The demand is modeled by the CDF $F(x)$ \(for simplicity, assume its PDF $f(x) := F'(x)$ exists and is _continuous_\). Consider adding one more unit when we are already selling $x$. If sold, you gain profit $g$ \(more generally _understocking_ cost\). If unsold, you lose cost $l$ \(more generally _overstocking_ cost\). <p> The expected utility of selling one more unit is: $$g (1 - F(x)) - l F(x) = g - (g + l) F(x) \,,$$ since $F(x)$ is the probability of demand being at most $x$. To optimize it, set it to zero: $$g - (g + l) F(x) = 0 \implies F(x) = \frac g {g + l} \implies x = F^{-1}\left(\frac {g} {g + l} \right) \,.$$ <p> An alternative expression with price $p$ and cost $c$ with zero salvage value: $$x = F^{-1}\left(\frac {p - c} p\right) \,.$$
+  - newsvendor model model / intuition ::@:: As we have more inventory, the probability of selling another unit becomes smaller. So the expected utility of a marginal unit becomes smaller.
+  - newsvendor model model / costs ::@:: The conventional way is to use price $p$ and cost $c$. If there is any salvage value $s$, treat the price as $p - s$ and the cost as $c - s$. <p> More generally, we can use _understocking_ \(opportunity\) cost: $$C_u = p - c \,,$$ which is the cost of not having an unit \(compared to having the unit\) when there is demand; and _overstocking_ cost: $$C_o = c - s \,,$$ which is the cost of having an unit \(compared to not having the unit\) when there is no demand.
+    - newsvendor model model / costs / intuition ::@:: A larger understocking cost encourages ordering more. A larger overstocking cost encourages ordering less.
+  - newsvendor model model / critical fractile ::@:: We see above that the solution is: $$F\left(x\right) = \frac {C_u} {C_u + C_o} \implies x = F^{-1}\left(\frac {C_u} {C_u + C_o}\right) \,.$$ The rightmost term is known as the _critical fractile_.
+    - newsvendor model model / critical fractile / properties ::@:: Increasing understocking cost $C_u$ increases the critical fractile, so order more, and vice versa. Increasing overstocking cost $C_o$ decreases the critical fractile, so order less, and vice versa. <p> They match our intuition!
+  - newsvendor model model / discrete distribution ::@:: Find the critical fractile. Then find the corresponding quantity in the _cumulative_ distribution table. You may need to find the cumulative distribution table yourself first. \(__this course__: Use the _round-up rule_, i.e. choosing a larger value of integer _n_ if _x_ is not an integer or if the CDF is given as a table.\)
+- normal distribution
+  - normal distribution / standardization
+- newsvendor model model
+  - newsvendor model model / normal distribution ::@:: Find the critical fractile. Using the Z-table, find the corresponding z-score. Finally, convert the z-score $z^*$ into the quantity we want: $$Q^* = \mu + \sigma \times z^* \,.$$ \(__this course__: Use the round-up rule to lookup the z-score, and then use the round-up rule _again_ if the quantity needs to be an integer.\)
+- [questions § week 10 lecture](questions/index.md#week%2010%20lecture)
+
+## week 10 lecture 2
+
+- datetime: 2025-04-09T10:30:00+08:00/2025-04-09T11:50:00+08:00, PT1H20M
+- topic: newsvendor model applications
+- newsvendor model model
+  - newsvendor model model / service level ::@:: The probability that the demand is fulfilled. This is literally just the critical fractile at the optimal ordering quantity. \(__this course__: Using the _round-up_ rule may raise it slightly...\)
+  - newsvendor model model / shortage probability ::@:: The probability the demand is not fully fulfilled. This is literally just one subtracted by the critical fractile at the optimal ordering quantity. \(__this course__: Using the _round-up_ rule may reduce it slightly...\)
+  - newsvendor model model / metrics ::@:: leftover, lost sales, sales <p> They are also random since the demand is random.
+    - newsvendor model model / metrics / leftover ::@:: $$\text{leftover} = \max\set{Q - D, 0} \,.$$
+    - newsvendor model model / metrics / sales ::@:: $$\text{sales} = \min\set{Q, D} \,.$$
+    - newsvendor model model / metrics / lost sales ::@:: $$\text{lost sales} = \max\set{D - Q, 0} \,.$$
+  - newsvendor model / expected leftover ::@:: Theoretically, we can derive it. But it is not simply $\operatorname E[Q] - \operatorname[D]$ because leftover cannot be negative \(limited by the $\max$ function\). <p> For normal distribution, this is $$\text{expected leftover} = \sigma \cdot I(z^*) \,,$$ where $\sigma$ is the _standard deviation_, $I(z)$ is the  _standard normal inventory function_, and $z^*$ is the z-score of the optimal order quantity. \(__this course__: Just round to the nearest integer. The instructor promised this will not matter in exams.\)
+  - newsvendor model / standard normal inventory distribution ::@:: It is a distinct distribution distinct from the standard normal distribution. it is used to calculate expected leftover. \(__this course__: A table is provided.\)
+  - newsvendor model / expected sales ::@:: Quite intuitive: $$\text{expected sales} = Q^* - \text{expected leftover} \,,$$ derived from $$\text{sales} + \text{leftover} = Q^* \,.$$
+  - newsvendor model / lost sales ::@:: Quite intuitive: $$\text{expected lost sales} = \text{expected demand} - \text{expected sales} \,,$$ derived from $$\text{sales} + \text{lost sales} = \text{demand} \,.$$
+  - newsvendor model / expected profit ::@:: It is _maximized_ at $Q^*$. <p> You can calculate it normally using expected sales and expected leftover inventory. It equals: $$\begin{aligned} \text{expected profit} & = \text{profit per unit} \times \text{expected sales} \\ & - \text{leftover cost per unit} \times \text{expected leftover} \,, \end{aligned}$$ where profit per unit is $C_u = p - c$ and leftover cost per unit is $C_o = c - s$.
+    - newsvendor model / expected profit ::@:: A more intuitive way: $$\text{expected profit} = p \times \text{expected sales} + s \times (Q^* - \text{expected sales}) - c \times Q^* \,.$$
+  - newsvendor model / tradeoff ::@:: Profit is obvious important. But _service level_ is also important as it may affect customer satisfaction and market share. <p> Profit increases until the optimal order quantity, and decreases thereafter. Service level _always_ increase, but with _diminishing returns_.
+- [pooling](../../../../general/pooling%20(resource%20management).md) ::@:: In resource management, \(_this_\) is the grouping together of resources \(assets, equipment, personnel, effort, etc.\) for the purposes of maximizing advantage or minimizing risk to the users. The term is used in finance, computing and equipment management.
+- [risk pool](../../../../general/risk%20pool.md) ::@:: \(_this_\) suggests that demand variability is reduced if one aggregates demand across locations because as demand is aggregated across different locations, it becomes more likely that high demand from one customer will be offset by low demand from another. The reduction in variability allows a decrease in safety stock and therefore reduces average inventory.
+  - risk pool / conditions ::@:: The demand needs to be _independent_.
+  - risk pool / location pooling ::@:: It combines the inventory originally in multiple locations into a single location. <p> We need to consider sale efficiency impact, setup cost, incentive conflicts, etc.
+- [mean](../../../../general/mean.md)
+  - mean / addition ::@:: The mean of adding several probability distributions equals the sum of the means of them.
+- [standard deviation](../../../../general/standard%20deviation.md)
+  - standard deviation / addition ::@:: The standard deviation of adding several _mutually independent_ \(weakened: _uncorrelated_\) probability distributions equals the square root sum of the squares of the standard deviations of them. <p> Special case: For two _independent_ normal distributions: $$\sigma = \sqrt{\sigma_1^2 + \sigma_2^2} \,.$$
+- risk pool
+  - risk pool / newsvendor model ::@:: It does not change the critical fractile. It also increases the _standard deviation_ but reduces the _coefficient of variation_ \(CV\).
+    - risk pool / newsvendor model / effects ::@:: By reducing variability \(coefficient of variation\), pooling has many good effects. <p> Order quantity or inventory is smaller \(relative to demand\). Expected leftover inventory and lost sales are reduced. Expected sales are increased. Thus, expected profit is higher.
+  - risk pool / correlation ::@:: \(__this course__: optional\) Above, we assume demands are independent. Positive correlation reduces the benefit. When perfectly positive correlated, there is no benefit.
+  - risk pool / diminishing returns ::@:: \(__this course__: optional\) As pool size increase, benefit increases, but with _diminishing returns_. That is, the _marginal benefit_ of pooling another inventory decreases.
+
+## week 11 lecture
+
+- datetime: 2025-04-14T10:30:00+08:00/2025-04-14T11:50:00+08:00, PT1H20M
+- topic: revenue management, capacity-based revenue management
+- status: attendance
+- [revenue management](../../../../general/revenue%20management.md) \(RM\) ::@:: It is a discipline to maximize profit by optimizing rate \(ADR\) and occupancy \(Occ\). In its day to day application the maximization of Revenue per Available Room \(RevPAR\) is paramount. It is seen by some as synonymous with yield management.
+  - revenue management / history ::@:: It was first developed in airline industry in 1980.
+  - revenue management / types ::@:: two main types \(there are more\): capacity-based, price-based
+  - revenue management / capacity-based ::@:: fixed and perishable resources, widely used in transport industries
+  - revenue management / price-based ::@:: dynamic pricing, markdown pricing, surge pricing, etc.
+  - revenue management / motivation ::@:: Increasing revenue without increasing cost increases gross margin and net margin significantly.
+  - revenue management / applications ::@:: car rental, dynamic pricing \(e.g. airplane tickets gets more expensive as flight time approaches\), media & broadcasting, price differentiation \(e.g. different classes\), retailing
+  - revenue management / key ::@:: Using demand, supply, and _analytics_ to perform _customer segmentation_ based on _time_ and _quality_.
+  - revenue management / goal ::@:: To match supply with demand on a customer basis.
+- [Littlewood's rule](../../../../general/Littlewood's%20rule.md) ::@:: The earliest revenue management model is known as \(_this_\), developed by Ken Littlewood while working at British Overseas Airways Corporation.
+  - Littlewood's rule / strategy ::@:: two-price strategy: Cheap tickets target low-spending customers, while expensive tickets target high-spending customers. Capacity \(empty seats\) is _perishable_.
+  - Littlewood's rule / assumptions ::@:: Cheap tickets are always sold out in _advance_ with _sufficient_ demand. Expensive tickets are sold at the _last minute_ with _limited_ random demand.
+  - Littlewood's rule / tradeoff ::@:: If you sell too many cheap tickets, then you may lose revenue from demand for the expensive tickets. If you sell too little cheap tickets, then you may have wasted capacity due to the random demand for the expensive tickets.
+  - Littlewood's rule / protection level ::@:: The capacity reserved for _expensive_ tickets. It with booking limit adds up to the total capacity.
+  - Littlewood's rule / booking limit ::@:: The capacity remaining for _cheap_ tickets. It with protection level adds up to the total capacity.
+  - Littlewood's rule / newsvendor model ::@:: An alternative but equivalent way to solve the problem. <p> demand → expensive ticket customers <br/> overstocking: too high protection level <br/> understocking: too little protection level
+    - Littlewood's rule / newsvendor model / understocking cost ::@:: Cost due to too little protection level, It equals the expensive ticket price \("price"\) subtracted by the cheap ticket price \("salvage value"\).
+    - Littlewood's rule / newsvendor model / overstocking cost ::@:: Cost due to too much protection level. It equals the cheap ticket price.
+    - Littlewood's rule / newsvendor model / metrics ::@:: demand → expensive ticket customers <br/> expected leftover → expected unsold expensive tickets <br/> expected lost sales → unfulfilled expensive ticket customers <br/> expected revenue: includes both classes <br/> expected sales → expected sold expensive tickets
+  - Littlewood's rule / the problem ::@:: Those two fare classes have a fare of $R_{1}$ and $R_{2}$, whereby $R_{1}>R_{2}$. The total capacity is $C$ and demand for class $j$ is indicated with $D_{j}$. The demand has a [probability distribution](../../../../general/probability%20distribution.md) whose cumulative distribution function is denoted $F_{j}$. The demand for class 2 comes before demand for class 1. The question now is how much demand for class 2 should be accepted so that the optimal mix of passengers is achieved and the highest revenue is obtained.
+  - Littlewood's rule / the rule ::@:: Littlewood suggests closing down class 2 when the certain revenue from selling another low fare seat is exceeded by the expected revenue of selling the same seat at the higher fare. In formula form this means: accept demand for class 2 as long as: $$R_{2}\geq R_{1}\cdot \operatorname {Prob} (D_{1}>x)$$ where <p> &emsp; $R_{2}$ is the value of the lower valued segment <br/> &emsp; $R_{1}$ is the value of the higher valued segment <br/> &emsp; $D_{1}$ is the demand for the higher valued segment and <br/> &emsp; $x$ is the capacity left \(for class 1\) <p> This suggests that there is an optimal protection limit $y_{1}^{\star }$.
+  - Littlewood's rule / the solution ::@:: This suggests that there is an optimal protection limit $y_{1}^{\star }$. If the capacity left is less than this limit demand for class 2 is rejected. If a [continuous distribution](../../../../general/continuous%20distribution.md#absolutely%20continuous%20probability%20distribution) $F_{j}(x)$ is used to model the demand, then $y_{1}^{\star }$ can be calculated using what is called _Littlewood’s rule_: $$y_{1}^{\star }=F_{1}^{-1}\left(1-{\frac {R_{2} }{R_{1} } }\right)$$ This gives the optimal protection limit, in terms of the division of the marginal revenue of both classes.
+    - Littlewood's rule / the solution / equivalency ::@:: $$y_1^* = F_1^{-1} \left(1 - \frac {R_2} {R_1} \right) = F_1^{-1}\left(\frac {R_1 - R_2} {R_1} \right) \,,$$ where $C_u = R_1 - R_2$ \(expensive ticket minus cheaper ticket\) is the _understocking/underprotection cost_ and $C_o = R_2$ \(cheaper ticket\) is the _overstocking/overprotection cost_.
+  - Littlewood's rule / generalization ::@:: \(__this course__: optional\) Littlewood's model is limited to two classes. Peter Belobaba developed a model based on this rule called expected marginal seat revenue, abbreviated as EMSR, which is an _n_-class model.
+- [expected marginal seat revenue](../../../../general/expected%20marginal%20seat%20revenue.md) \(EMSR\) ::@:: \(__this course__: optional\) \(_this_\) is a very popular heuristic in Revenue Management. There are two versions: EMSRa and EMSRb, both of which were introduced by Peter Belobaba. Both methods are for n-class, static, single-resource problems.
+  - expected marginal seat revenue / idea ::@:: \(__this course__: optional\) Apply Littlewood's rule/newsvendor model iteratively to successive classes, from the highest fare to the lowest.
+- [overselling](../../../../general/overselling.md) ::@:: \(_this_\) is sale of a volatile good or service in excess of actual supply.
+  - overselling / motivation ::@:: Overselling is a common practice in the travel and hospitality sectors, in which it is expected that some people will cancel. The practice occurs as an intentional business strategy in which sellers expect that some buyers will not consume all of the resources they are entitled to, or that some buyers will cancel. The practice of overselling aims to ensure that 100% of available supply will be used, resulting in the maximum return on investment.
+  - overselling / cost ::@:: If more customers than the seller expects do wish to purchase or use the sold commodity, it may leave some customers lacking a service they expected to receive. <p> In airlines, this is known as _bumping_, where customers are voluntarily or involuntarily denied boarding. There are _direct costs_ for compensation and _implicit costs_ for customer dissatisfaction.
+  - overselling / newsvendor model ::@:: demand → number of customers _not_ showing up <br/> overstocking: too high overbooking level <br/> understocking: too little overbooking level
+    - overselling / newsvendor model / understocking cost ::@:: Cost due to too little overbooking level, It equals the ticket price.
+    - overselling / newsvendor model / overstocking cost ::@:: Cost due to too high overbooking level. It equals the _bumping_ cost \(includes the price of a new free ticket\) subtracted by the ticket price \("salvage value"\).
+    - overselling / newsvendor model / metrics ::@:: expected leftover → expected bumped customers <br/> expected lost sales → expected empty seats <br/> expected revenue from overbooking \(relative to _not_ overbooking\): $$C_u \times \text{expected (additional) sales} - C_o \times \text{expected leftover/bumps}$$ <br/> expected sales → expected _additional_ customers served due to other customers _not_ showing up
+- newsvendor model
+  - newsvendor model / generalization ::@:: The above two examples applies the newsvendor model to other problems such as two-price strategy and overselling. <p> To generalize the model for other problems, identify the demand and the inventory. The demand should be _random_, and higher of it should increase _revenue_. The inventory should be _controllable_ and optimal when it _matches_ demand.
+- [questions § week 11 lecture](questions/index.md#week%2011%20lecture)
+
+## week 11 lecture 2
+
+- datetime: 2025-04-16T10:30:00+08:00/2025-04-16T11:50:00+08:00, PT1H20M
+- topic: price-based revenue management
+- revenue management
+  - revenue management / types
+  - revenue management / price-based
+- [price optimization](../../../../general/price%20optimization.md) ::@:: \(_this_\) is the use of mathematical analysis by a company to determine how customers will respond to different prices for its products and services through different channels and is in contrast to market value. It is also used to determine the prices that the company determines will best meet its objectives such as maximizing operating profit.
+  - price optimization / prevalence ::@:: It is becoming more prevalent because of big data \(on customer demand\), decreasing computing cost, and increased price flexibility.
+  - price optimization / examples ::@:: Verm City, dynamic pricing \(e.g. Amazon, HKTVMall\)
+- [willingness to pay](../../../../general/willingness%20to%20pay.md) (WTP) ::@:: It is the maximum price at or below which a consumer will definitely buy one unit of a product.
+  - willingness to pay / price optimization ::@:: For customer segmentation, so that firms can charge different price for different customers. \(_c.f._ price discrimination\)
+  - willingness to pay / factors ::@:: customer characteristics, product characteristics, substitutability
+  - willingness to pay / table ::@:: A table that shows WTP prices and the corresponding number of customers with that _exact_ \(_not_ equal to or lower than\) WTP price.
+    - willingness to pay / table / revenue maximization ::@:: Given a WTP table, build the _cumulative_ WTP table from highest WTP to lowest WTP. The cumulative count is also the _demand_. Then calculate the revenue for each price or demand level, and choose the one with the highest revenue.
+- [demand curve](../../../../general/demand%20curve.md) ::@:: It is a graph depicting the inverse demand function, a relationship between the price of a certain commodity \(the y-axis\) and the quantity of that commodity that is demanded at that price \(the x-axis\).
+  - demand curve / linear ::@:: $$D(p) = a - bp \,,$$ where $a$ is a constant, and $b$ is price sensitivity.
+    - demand curve / linear / revenue maximization ::@:: Revenue is: $$p \cdot D(p) = ap - bp^2 \,,$$ It is maximized when: $$a - 2bp = 0 \implies p = \frac a {2b} \,.$$ <p> It is equivalent to profit maximization when the cost is _constant_.
+    - demand curve / linear / advantages ::@:: easy to communicate, estimate, and model: customer questionnaire, linear regression, market survey, etc. <br/> only need few data
+    - demand curve / linear / disadvantages ::@:: cannot capture non-linear relationship, e.g. marginal price \(price change rate\) changes with price level
+- price optimization
+  - price optimization / multiple products ::@:: Pricing multiple products that may affect each others' demands. <p> If the pricing can be done _individually_ or _jointly_.
+    - price optimization / multiple products / assumptions ::@:: There are multiple products. Assume the demand for each product is linear with respect to each price of all products, e.g. $$\begin{aligned} D_1 & = c_{1,0} + c_{1,1} p_1 + c_{1,2} p_2 \\ D_2 & = c_{2,0} + c_{2,1} p_1 + c_{2,2} p_2 \,. $$ <p> If $c_{i,j} > 0$ where $i \ne j$, then these two products are _substitutes_. If $c_{i,j} < 0$ where $i \ne j$, then these two products are _complements_.
+    - price optimization / multiple products / individual pricing ::@:: For each product, assume the price of all other products are fixed. Maximize revenue due to the product itself with respect to its own price. <p> The above procedure gives an equation for each product. Find the solution satisfying all equations, which are the optimal prices for all products under _individual pricing_, which is used when the prices are set by different businesses competing with each other.
+    - price optimization / multiple products / intuition ::@:: Imagine a player for each product controlling its own price. The procedure for individual pricing is finding a _Nash equilibrium_. In a Nash equilibrium, no players want to change their own price, since there is no other price that gives more revenue, given all other players' price are fixed. <p> In general, optimizing things considering more things together give better results than optimizing things considering each thing individually. This explains why joint pricing give higher total revenue than individual pricing.
+    - price optimization / multiple products / joint pricing ::@:: For each product, assume the price of all other products are fixed. Maximize revenue due to _all products_ with respect to its own price. <p> The above procedure gives an equation for each product. Find the solution satisfying all equations, which are the optimal prices for all product under _joint pricing_, which is used when the prices are set by the same business optimizing its pricing or businesses cooperating together to set their pricing.
+    - price optimization / multiple products / individual pricing vs. joint pricing ::@:: With joint pricing, total revenue increases \(or at least not decrease\). <p> This implies competing businesses can cooperate on pricing to increase total revenue. This does not imply individual revenues for each business must increase though. Instead, total revenue should be _distributed_ between the businesses such that individual revenues of each business is not less than before.
+- [partial derivative](../../../../general/partial%20derivative.md) ::@:: \(__this course__: optional\) It of a function of several variables is its derivative with respect to one of those variables, with the others held constant (as opposed to the total derivative, in which all variables are allowed to vary).
+  - partial derivative / in univariate calculus ::@:: \(__this course__: optional\) There is only one (or two) direction $x$ can change in. Thus in this case, the derivative definition is quite simple and we only have one (first) derivative.
+  - partial derivative / intuition ::@:: \(__this course__: optional\) Fix all arguments to a multivariate function except for one. Then differentiate it with respect to that argument. This is the _partial derivative with respect to that argument_. <p> One partial derivative can be constructed for each argument in this way.
+  - partial derivative / notations ::@:: \(__this course__: optional\) The partial derivative of a function $f(x,y,\dots )$ with respect to the variable $x$ is variously denoted by <p> $f_{x}$, $f'_{x}$, $\partial _{x}f$, $\ D_{x}f$, $D_{1}f$, ${\frac {\partial }{\partial x} }f$, or ${\frac {\partial f}{\partial x} }$.
+  - partial derivative / computation ::@:: \(__this course__: optional\) Assume all other variables are constant. Then differentiate as if it is a univariate function. <p> Implicit differentiation is another technique. It works similar to that applied to a univariate function. If a variable is neither the variable being differentiated against (output) nor being differentiated with respect to (input), consider it fixed.
+- [derivative test](../../../../general/derivative%20test.md) ::@:: \(__this course__: optional\) It uses the derivatives of a function to locate the critical points of a function and determine whether each point is a local maximum, a local minimum, or a saddle point. Derivative tests can also give information about the concavity of a function.
+- price optimization
+  - price optimization / multiple products
+    - price optimization / multiple products / optimality ::@:: \(__this course__: optional\) For joint pricing, when the partial derivatives of total revenue with respect to all prices are all zero, we get an optimal solution by the first derivative test \(note we are skipping quite a lot of mathematical rigour\). <p> For individual pricing, the partial derivative of the revenue of each product with respect to its own price is zero.
+- [price markdown](../../../../general/price%20markdown.md) ::@:: A \(_this_\) is a deliberate reduction in the selling price of retail merchandise. It is used to increase the _velocity_ \(rate of sale\) of an article, typically for clearance at the end of a season, or to sell off obsolete merchandise at the end of its life.
+  - price markdown / vs. promotion ::@:: The former is permanent \(at least for the foreseeable future\) while the latter is temporary.
+  - price markdown / motivation ::@:: deterioration/spoilage \(e.g. bread\), obsolescence \(e.g. new iPad\), time of use \(e.g. holiday-specific decorations\)
+  - price markdown / problems ::@:: cannibalization effect: Customers wait for the markdown, which erodes regular sales.
+- [product bundling](../../../../general/product%20bundling.md) ::@:: In marketing, \(_this_\) is offering several products or services for sale as one combined product or service package. It is a common feature in many imperfectly competitive product and service markets.
+  - product bundling / advantages ::@:: Buyers and sellers can simultaneously benefit, measured using _revenue_ for sellers and _consumer surplus_ for buyers.
+  - product bundling / uses ::@:: entertainment, games, retail, restaurants, telecommunications
+  - product bundling / intuition ::@:: It exploits heterogeneity in customers' WTP for different products. By bundling them together and offering a lower price than buying separately, sellers obviously earn more revenue as buyers now buy both, but buyers get more as bundling allows them to buy both at a lower price. <p> You can construct an example using WTP.
+- [decoy effect](../../../../general/decoy%20effect.md) ::@:: In marketing, the \(_this_\) is the phenomenon whereby consumers will tend to have a specific change in preference between two options when also presented with a third option that is _asymmetrically dominated_.
+  - decoy effect / asymmetric domination ::@:: An option is asymmetrically dominated when it is inferior in all respects to one option; but, in comparison to the other option, it is inferior in some respects and superior in others. In other words, in terms of specific attributes determining preferences, it is completely dominated by \(i.e., inferior to\) one option and only partially dominated by the other.
+  - decoy effect / effect ::@:: When the asymmetrically dominated option is present, a higher percentage of consumers will prefer the dominating option than when the asymmetrically dominated option is absent. The asymmetrically dominated option is therefore a decoy serving to increase preference for the dominating option.
+- [psychological pricing](../../../../general/psychological%20pricing.md) ::@:: \(_this_\) is a pricing and marketing strategy based on the theory that certain prices have a psychological impact. In this pricing method, retail prices are often expressed as just-below numbers: numbers that are just a little less than a round number, e.g. \$19.99 or £2.98.  
+  - psychological pricing / effect ::@:: There is evidence that consumers tend to perceive just-below prices \(also referred to as "odd prices"\) as being lower than they are, tending to round to the next lowest monetary unit. Thus, prices such as \$1.99 may to some degree be associated with spending \$1 rather than \$2. The theory that drives this is that pricing practices such as this cause greater demand than if consumers were perfectly rational.
+- [supply chain](../../../../general/supply%20chain.md) ::@:: A \(_this_\) is a complex logistics system that consists of facilities that _convert_ raw materials into finished products and _distribute_ them to end consumers or end customers, while _supply chain management_ deals with the _flow of goods in distribution channels_ within the supply chain in the most _efficient_ manner.
+  - supply chain / elements ::@:: \(upstream\) supplier → manufacturer → distributor → retailer → customer \(downstream\)
+  - supply chain / goal ::@:: To match supply and demand \(again\, as to increase revenue and reduce cost.
+    - supply chain / goal / factors ::@:: right... customer, price, product, quantity, store, time
+  - supply chain / flows::@:: Material flows forwards. Information flows bidirectionally. Cash flows backwards.
+- [supply chain management](../../../../general/supply%20chain%20management.md) \(SCM\) ::@:: In commerce, \(_this_\) deals with a system of procurement \(purchasing raw materials/components\), operations management, logistics and marketing channels, through which raw materials can be developed into finished products and delivered to their end customers.
+  - supply chain management / perspective ::@::  a firm competing in our own industry → a firm competing in our own supply chain against other supply chains for end customers
+  - supply chain management / strategies & challenges ::@:: adaptability: shortened \(product and technology\) cycles <br/> agility: increased uncertainty \(in demand and/or supply\) <br/> alignment: complexity
+  - supply chain management / agility ::@:: Ability to _quickly_ adjust strategy to meeting changing supply chain _requirements_.
+  - supply chain management ::@:: Ability to meet _structural_ changes in markets and supply chains.
+  - supply chain management / uncertainty framework ::@:: \(__this course__: optional\) understand nature of demand and devise supply chain
+  - supply chain management / alignment ::@:: Coordinate between entities in a supply chain to achieve better outcomes for all, which requires efficient _sharing_ of information, revenue, risk, etc. to facilitate internal and external alignments.
+  - supply chain management / contract ::@:: A set of rules to control or modify flow of goods \(forward\) and/or cash \(backward\) in a supply chain. It should be _enforceable_ and _verifiable_.
+- [double marginalization](../../../../general/double%20marginalization.md) ::@:: \(_this_\) is a vertical externality that occurs when two firms with market power \(i.e., not in a situation of perfect competition\), at different vertical levels in the same supply chain, apply a mark-up to their prices.
+  - double marginalization / cause ::@:: This is caused by the prospect of facing a steep demand curve slope, prompting the firm to mark-up the price beyond its marginal costs.
+  - double marginalization / effect ::@:: Double marginalization is clearly negative from a welfare point of view, as the double markup induces a deadweight loss, because the retail price is higher than the optimal monopoly price a vertically integrated company would set, leading to underproduction. Thus all social groups are negatively affected because the overall profit for the company is lower, the consumer has to pay more and a smaller amount of units are consumed.
+- [bullwhip effect](../../../../general/bullwhip%20effect.md) ::@:: The \(_this_\) is a supply chain phenomenon where orders to suppliers tend to have a larger variability than sales to buyers, which results in an amplified demand variability upstream. In part, this results in increasing swings in inventory in response to shifts in consumer demand as one moves further up the supply chain.
+  - bullwhip effect / reasons ::@:: forward buying, order batching/synchronization, over-reactive ordering, trade promotion, etc.
+  - bullwhip effect / solutions ::@:: collaborative planning, forecasting, replenishment, etc.
+- supply chain
+  - supply chain / recent developments ::@:: AI, COVID-19 pandemic, automation, risk mitigation, US—China trade/tariffs, etc.
+    - supply chain / recent developments / COVID-19 pandemic ::@:: economic slowdown, increased delivery time, inflation, shortage of products
+    - supply chain / recent developments / risk mitigation ::@:: Firms need to focus more on mitigation hidden risks. <p> regionalization \(produce closer\), single-sourcing to multi-sourcing, sustainability, tradeoff between efficiency \(cost\) and robustness \(risk\)
+    - supply chain / recent developments / opportunities ::@:: Firms need contingency plan to deal with recent disruptions in supply chains. Thus there may be rich opportunities for risk management in supply chains.
+    - supply chain / recent developments / tariffs ::@:: Tariffs by the second Trump administration and retaliation is impacting the global economy and financial markets. <p> It may lead to disorderly economic decoupling. Or not, instead lengthening supply chains and making it more complex and less visible, e.g. products going through intermediate countries, etc.
+
+## week 12 lecture
+
+- datetime: 2025-04-21T10:30:00+08:00/2025-04-21T11:50:00+08:00, PT1H20M
+- status: unscheduled, public holiday: Easter Monday
+
+## week 12 lecture 2
+
+- datetime: 2025-04-23T10:30:00+08:00/2025-04-23T11:50:00+08:00, PT1H20M
+- topic: supply chain management, win strategies
+
+## week 13 lecture
+
+- datetime: 2025-04-28T10:30:00+08:00/2025-04-28T11:50:00+08:00, PT1H20M
+- topic: incentive conflict: risk-sharing strategies
+- status: attendance
+- [wholesaling](../../../../general/wholesaling.md) ::@:: \(_this_\) is the sale of goods or merchandise to retailers; to industrial, commercial, institutional or other professional business users; or to other __wholesalers__ \(__wholesale businesses__\) and related subordinated services.
+  - wholesaling / model ::@:: supplier → retailer → \(customers\) <p> The customer demand is random. <p> A wholesale price contract involves the retailer ordering _q_ units at a _wholesale price_ _w_ \(assume _w_ is higher than the salvage value _s_\).
+- supply chain
+  - supply chain / optimum ::@:: The _entire supply chain_ optimum can be found by considering the entire supply chain as one entity. Then maximize the _total expected profit_ of the entire supply chain \(includes supplier and retailer\).
+- wholesaling
+  - wholesaling / supply chain optimum ::@:: Consider the entire supply chain as one. Then only production cost, retail price, and salvage value matters. In particular, ignore wholesale price. Maximize _total profit_ using the newsvendor model.
+  - wholesaling / retailer optimum ::@:: Now consider the retailer only. Then only wholesale price \(as cost\), retail price, and salvage value matters. In particular, ignore production cost, since wholesale price is the cost for the retailer. Maximize profit for the retailer using the newsvendor model. <p> The optimal inventory quantity is also how much the retailer orders from the supplier. The profit for the supplier can then be calculated. Finally, the _total profit_ can be calculated.
+    - wholesaling / retailer optimum / vs. supply chain optimum ::@:: Due to _misalignment of interest_, this results in _double marginalization_. The misalignment is due to the retailer basing its decision on the wholesale price instead of the production cost \(lack of alignment\), and the supplier does not bear the uncertainty of the random demand \(conflicting incentives\). <p> This explains why the retailer optimum has a _total profit_ lower than the supply chain optimum. This shows a cooperation opportunity for the supplier and the retailer to increase their total profit.
+  - wholesaling / critical fractile ::@:: The order quantity is completely determined by the critical fractile of the entity responsible for meeting the random demand. <p> For supply chain optimum, that entity is the entire supply chain. For retailer optimum, that entity is the retailer.
+    - wholesaling / critical fractile / retailer optimum ::@:: We see that the wholesaling price needs to equal the production cost for the retailer optimum to equal the supply chain optimum: $$\frac {p - w} {p - s} = \frac {p - c} {p - s} \implies w = c \,.$$ That means the supplier means zero profit, which it is unlikely to accept. <p> This is a _fundamental limitation_ of the _traditional_ wholesale price contract.
+  - wholesaling / expected profit distribution ::@:: When wholesale price is zero, the retailer gets all the expected profit. The expected total profit equals that of the supply chain optimum. <p> When wholesale price increases, the retailer expected profit always decrease, while the supplier expected profit increases at first, but then decreases as the total profit decreases.
+    - wholesaling / profit distribution / wholesaler ::@:: As the wholesaler, you need to set a wholesale price such that you have a large share of the total profit, but the total profit does not decrease too much. So there is an optimum wholesale price.
+- [revenue sharing](../../../../general/revenue%20sharing.md) ::@:: \(_this_\) is the distribution of revenue, the total amount of income generated by the sale of goods and services among the stakeholders or contributors.
+  - revenue sharing / model ::@:: supplier → retailer → \(customers\) <p> The customer demand is random. <p> A wholesale price contract involves the retailer ordering _q_ units at a _wholesale price_ _w_ \(assume _w_ is higher than the salvage value _s_\), and additionally a fixed percentage _y_ of the _retail_ price is transferred from the retailer to the supplier per sale unit. <p> The traditional wholesale price contract is reobtained when _y_ equals zero.
+  - revenue sharing / critical fractile ::@:: The order quantity is completely determined by the critical fractile of the entity responsible for meeting the random demand. <p> For supply chain optimum, that entity is the entire supply chain. For retailer optimum, that entity is the retailer. But under revenue sharing, the supply chain optimum can always be obtained under some condition.
+    - revenue sharing / critical fractile / retailer optimum ::@:: For the retailer optimum to equal the supply chain optimum, we need to equate the critical fractiles: $$\begin{aligned} \frac {p(1 - y) - w} {p(1 - y) - s} & = \frac {p - c} {p - s} \\ (p(1 - y) - w) (p - s) & = (p(1 - y) - s)(p - c) \\ (p - yp - w) (p - s) & = (p - yp - s) (p - c) \\ p^2 - yp^2 - wp - ps + yps + ws & = p^2 - yp^2 - sp - pc + ypc + sc \\ -wp + yps + ws & = -pc + ypc + sc \\ ypc - yps & = -wp + ws + pc - sc \\ y & = \frac {(p - s) (c - w)} {p (c - s)} \\ & = \frac {p - s} {c - s} \frac {c - w} p \,. \end{aligned}$$ <p> For memorization, $$\frac {c - w} p$$ can be interpreted as the percentage markdown of $w$ from $c$ relative to $p$, while $$\frac {p - s} {c - s}$$ can be interpreted as the ratio of $p$ over $c$, both offset by the salvage value.
+      - revenue sharing / critical fractile / retailer optimum / conditions ::@:: Referencing $$y = \frac {p - s} {c - s} \frac {c - w} p \,.$$ <p> We see for $0 \le y \le 1$, $w \le c$. That is, the supplier loses money \(or at least not earn any profit\) at first, but gets compensated from revenue sharing. The more money the supplier loses initially, the larger the $y$ as compensation. <p> For the upper bound on markdown such that $0 \le y \le 1$, $$c - w \le p \cdot \frac {c - s} {p - s} \,,$$ which when $s = 0$: $$c - w \le p \cdot \frac c p = c \,.$$ <p> \(__this course__: We also additionally assume $w \ge s$, so $$c - w \le c - s \,,$$ which is a stricter upper bound, thus we have: $s \le w \le c$.\)
+  - revenue sharing / expected profit ::@:: The expected profit for the supplier and the retailer can be calculated separately using $(w, y)$, and should add up to the total expected profit. <p> You can always use this equation for the retailer: $$C_u \times \text{expected sales} - C_o \times \text{expected leftover} \,.$$ For the supplier, you need to use a different equation, which should be easy to figure out from $(w, y)$.
+  - revenue sharing / intuition ::@:: Using proper $(w, y)$, this contracts allows the _decentralized_ supply chain to achieve the same profit as a _centralized_ supply chain. <p> Intuitively, now both the supplier and the retailer bears the uncertainty. Their incentives are better aligned.
+  - revenue sharing / expected profit distribution ::@:: Again, increasing _total_ expected profit does not imply the _individual_ expected profits for the supplier and the retailer both increase \(but at least one must increase\). <p> Within a specific range of $w$ \(and corresponding $y$\), the individual profits both increase.
+    - revenue sharing / expected profit distribution / conditions ::@:: For each $s \le w \le c$, plot the supplier and retailer profit. The higher the $w$, the lower corresponding $y$. You should see the retailer profit is correlated with $y$, and the supplier profit is anti-correlated with $y$, which is expected. <p> Then, simply compute the range of $w$ \(and corresponding $y$\) for which both the retailer and supplier profits exceed that of before.
+    - revenue sharing / expected profit distribution / practice ::@:: In practice, the $(w, y)$ parameters depends on the relative _bargaining power_ of the retailer and supplier.
+  - revenue sharing / other types ::@:: \(__this course__: optional\) option contract, price protection contract, quantity contract, quantity flexibility contract, return contract
+    - revenue sharing / other types / return contract ::@:: \(__this course__: optional\) The retailer can return leftovers to the supplier at a price higher than the salvage value.
+    - revenue sharing / other types / quantity contract ::@:: \(__this course__: optional\) The retailer receives a discount on all units if ordering quantity exceeds a threshold. This encourages buying more at once.
+    - revenue sharing / other types / option contract ::@:: \(__this course__: optional\) The retailer pays the supplier to build capacity and buys an option to purchase later. This motivates increasing capacity before selling season.
+    - revenue sharing / other types / quantity flexibility contract ::@:: \(__this course__: optional\) Both the retailer and the supplier agree to buy and sell quantity within a certain range of forecast. This helps with capacity planning under uncertain demand.
+    - revenue sharing / other types / price protection contract ::@:: \(__this course__: optional\) The supplier compensates the retailer for any price reduction on remaining inventory. This is used in the technology sectors to mitigate price drops from product updates.
+- [questions § week 13 lecture](questions/index.md#week%2013%20lecture)
+
+## week 13 lecture 2
+
+- datetime: 2025-04-30T10:30:00+08:00/2025-04-30T11:50:00+08:00, PT1H20M
+- topic: pricing in supply chain
+- wholesaling
+  - wholesaling / linear demand ::@:: Above, we have considered wholesaling in the context of random demand. We can also instead consider linear demand. That is, demand is a linear function in terms of the price.<p> The derivation and results are similar: wholesaling _cannot_ achieve the supply chain optimum. However, you use first derivate of _retailer profit_ \(or whatever the question wants you to maximize\) instead of the newsvendor model to maximize _retailer profit_ \(or whatever the question wants you to maximize\).
+- revenue sharing
+  - revenue sharing / linear demand ::@:: Above, we have considered revenue sharing in the context of random demand. We can also instead consider linear demand. That is, demand is a linear function in terms of the price. <p> The derivation and results are similar: revenue sharing can achieve the supply chain optimum. However, you use first derivative of _total profit_ \(or whatever the question wants you to maximize\) instead of the newsvendor model to maximize _total profit_ \(or whatever the question wants you to maximize\).
+    - revenue sharing / linear demand / parameters ::@:: Unlike that in random demand, the wholesale price $w$ must equal the production cost $c$. Then $0 \le y \le 1$ can be set arbitrarily. In this special case, $y$ is not only the _revenue_ split, but is also the _profit_ split.
+- [behavioral operations management](../../../../general/behavioral%20operations%20management.md) ::@:: \(__this course__: optional\) \(_this_\) examines and takes into consideration human behaviours and emotions when facing complex decision problems. It relates to the behavioral aspects of the use of operations research and operations management. In particular, it focuses on understanding behavior in, with and beyond models.
+  - behavioral operations management / traditional economics ::@:: \(__this course__: optional\) people are perfectly rational \(always make optimal choices\), and operates like perfect machines
+  - behavioral operations management / behavioral economics ::@:: \(__this course__: optional\) make _less_ unrealistic assumptions about people
+  - behavioral operations management / idea ::@:: \(__this course__: optional\) People use simpler decision _heuristics_ based on _limited_ information to make most decisions. People are not perfect machines. Social factors matter. Strategic sophistication is limited.
+  - behavioral operations management / judgement biases ::@:: \(__this course__: optional\) availability bias, confirmation bias, representativeness bias, etc. \(with many subtypes underneath\)
+- [availability heuristic](../../../../general/availability%20heuristic.md) ::@:: \(__this course__: optional\) The \(_this_\), also known as \(_this_\), is a mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic, concept, method, or decision. This heuristic, operating on the notion that, if something can be recalled, it must be important, or at least more important than alternative solutions not as readily recalled, is inherently biased toward recently acquired information.
+  - availability heuristic / examples ::@:: \(__this course__: optional\) inattention: use information currently being focused and ignore others, e.g. a police chasing a suspect may fail to notice fights along the way <br/> recent and vivid information: believe they are more likely or frequent, e.g. buying earthquake insurance immediately after an earthquake <br/> retrievability: prefer easy to retrieve information, e.g. searching for job-seekers with similar backgrounds to our own first
+- [representativeness heuristic](../../../../general/representativeness%20heuristic.md) ::@:: \(__this course__: optional\) The \(_this_\) is used when making judgments about the probability of an event being representational in character and essence of a known prototypical event. <p> The \(_this_\) works by comparing an event to a prototype or stereotype that we already have in mind.
+  - representativeness heuristic / examples ::@:: \(__this course__: optional\) base rate neglect: ignore base rate, e.g. likelihood of rare diseases given positive test result <br/> reversion to the mean: failing to predict reversion to the mean in next periods, e.g. tending to overestimate demand if current demand is high
+- [confirmation bias](../../../../general/confirmation%20bias.md) ::@:: \(__this course__: optional\) \(_this_\) \(also \(_this_\), \(_this_\) or \(_this_\)\) is the tendency to search for, interpret, favor and recall information in a way that confirms or supports one's prior beliefs or values. People display this bias when they select information that supports their views, ignoring contrary information or when they interpret ambiguous evidence as supporting their existing attitudes.
+  - confirmation bias / examples ::@:: \(__this course__: optional\) anchoring bias: search for numbers or information near an anchor until it is plausible, e.g. estimating the price of new car from influential car brands <br/> over-precision: overestimate accuracy or truth of own knowledge, e.g. not putting enough weights on others' advice
+- [risk aversion](../../../../general/risk%20aversion.md) ::@:: \(__this course__: optional\) In economics and finance, \(_this_\) is the tendency of people to prefer outcomes with low uncertainty to those outcomes with high uncertainty, even if the average outcome of the latter is equal to or higher in monetary value than the more certain outcome.
+  - risk aversion / risk seeking ::@:: \(__this course__: optional\) When gain is reframed as loss instead, _risk seeking_ may occur instead.
+  - risk aversion / utility function ::@:: \(__this course__: optional\) A concave function may be used to model risk aversion. That is, utility grows sub-linearly with gain. <p> Conversely, a convex function may be used to model risk seeking. That is, negative utility grows sub-linearly with loss. <p> Combining both, we get a curve that looks like sigmoid function \("S" shape\). The _reference point_ \(point of neither gain nor loss\) matters but is not always obvious.
+- [preference](../../../../general/preference.md) ::@:: \(__this course__: optional\) In psychology, economics and philosophy, \(_this_\) is a technical term usually used in relation to choosing between alternatives. For example, someone prefers A over B if they would rather choose A than B. \(_this_\) are central to decision theory because of this relation to behavior.
+  - preference / other topics ::@:: \(__this course__: optional\) mental accounting, probability weighting, time preferences, utility function kink
+- [questions § week 14 lecture](questions/index.md#week%2014%20lecture)
+
+## week 14 lecture
+
+- datetime: 2025-05-05T10:30:00+08:00/2025-05-05T11:50:00+08:00, PT1H20M
+- status: unscheduled, public holiday: Buddha's Birthday
+
+## week 14 lecture 2
+
+- datetime: 2025-05-07T10:30:00+08:00/2025-05-07T11:50:00+08:00, PT1H20M
+- topic: behavioral operations management \(optional\), final examination review
+- status: attendance
+- operations management
+  - operations management / intuitions ::@:: coordination: generally improve efficiency/performance in ways similar to pooling, but need to split fairly <br/> description + optimization: understand, then improve <br/> marginal analysis: first derivative test <br/> pooling: generally improve efficiency/performance by reducing variability and/or better matching demand and supply; with diminishing returns <br/> probability: modeling tool <br/> tradeoffs: they are _everywhere_ <br/> variability: generally hurts efficiency/performance
+- [§ final examination](#final%20examination)
+- [questions § week 14 lecture 2](questions/index.md#week%2014%20lecture%202)
 
 ## final examination
 
