@@ -100,9 +100,9 @@ tags:
 >
 > ---
 >
-> 1. Process analysis \|\| Quality management
+> 1. Process analysis || Quality management
 > 2. Queueing analysis
-> 3. Linear programming \|\| Decision tree
+> 3. Linear programming || Decision tree
 > 4. Inventory management
 > 5. Revenue management
 > 6. Supply chain management

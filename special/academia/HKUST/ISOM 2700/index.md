@@ -25,13 +25,13 @@ The content is in teaching order.
 
 - grading
   - scheme
-    - participation (5 of 7): 0.05
+    - participation \(5 of 7\): 0.05
       - iPRS
       - no participation in the first 2 weeks
     - homework (2): 0.1
       - due at Sunday 23:59
       - no late submission
-    - online quizzes (best 3 of 4): 0.15
+    - online quizzes \(best 3 of 4\): 0.15
       - each 10 multiple choice questions
       - release in the Monday morning
       - due at Sunday 23:59
@@ -64,8 +64,6 @@ The content is in teaching order.
 
 - [assignments](assignments/index.md)
 - [questions](questions/index.md)
-
-## assessments
 
 ## week 1 lecture
 
@@ -718,7 +716,7 @@ The content is in teaching order.
 - normal distribution
   - normal distribution / standardization
 - newsvendor model model
-  - newsvendor model model / normal distribution ::@:: Find the critical fractile. Using the Z-table, find the corresponding z-score. Finally, convert the z-score $z^*$ into the quantity we want: $$Q^* = \mu + \sigma \times z^* \,.$$ \(__this course__: Use the round-up rule to lookup the z-score, and then use the round-up rule _again_ if the quantity needs to be an integer.\)
+  - newsvendor model model / normal distribution ::@:: Find the critical fractile. Using the Z-table, find the corresponding z-score. Finally, convert the z-score $z^*$ into the quantity we want: $$Q^* = \mu + \sigma \times z^* \,.$$ \(__this course__: Use the _round-up_ rule to lookup the z-score, i.e. choose a larger value of z-score if in between two z-scores, and then use the round-up rule _again_ if the quantity needs to be an integer.\)
 - [questions § week 10 lecture](questions/index.md#week%2010%20lecture)
 
 ## week 10 lecture 2
@@ -791,6 +789,7 @@ The content is in teaching order.
     - overselling / newsvendor model / understocking cost ::@:: Cost due to too little overbooking level, It equals the ticket price.
     - overselling / newsvendor model / overstocking cost ::@:: Cost due to too high overbooking level. It equals the _bumping_ cost \(includes the price of a new free ticket\) subtracted by the ticket price \("salvage value"\).
     - overselling / newsvendor model / metrics ::@:: expected leftover → expected bumped customers <br/> expected lost sales → expected empty seats <br/> expected revenue from overbooking \(relative to _not_ overbooking\): $$C_u \times \text{expected (additional) sales} - C_o \times \text{expected leftover/bumps}$$ <br/> expected sales → expected _additional_ customers served due to other customers _not_ showing up
+    - overselling / newsvendor model / service level ::@:: The probability that no customer bumping happens. It equals the probability of _not_-showing-up customers being _at least_ \(it matters\) the overbooking level.
 - newsvendor model
   - newsvendor model / generalization ::@:: The above two examples applies the newsvendor model to other problems such as two-price strategy and overselling. <p> To generalize the model for other problems, identify the demand and the inventory. The demand should be _random_, and higher of it should increase _revenue_. The inventory should be _controllable_ and optimal when it _matches_ demand.
 - [questions § week 11 lecture](questions/index.md#week%2011%20lecture)
@@ -958,6 +957,51 @@ The content is in teaching order.
 - [questions § week 14 lecture 2](questions/index.md#week%2014%20lecture%202)
 
 ## final examination
+
+- datetime: 2025-05-26T08:30:00+08:00/2025-05-26T10:30:00+08:00, PT2H
+- venue: S H Ho Sports Hall
+- format
+  - calculator: yes
+  - cheatsheet: 1 page, A4-sized, double-sided
+  - referencing: closed book
+  - provided: formulas, necessary tables
+  - questions: multiple choice questions ×45
+- grades: ?/45 → ?/45
+  - statistics
+    - timestamps: ? → ?
+    - mean: ? → ?
+    - standard deviation: ? → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? → ?
+    - upper quartile: ? → ?
+    - high: ? → ?
+    - distribution: ? → ?
+- report: \(none\)
+- check
+  - datetime: \(none\)
+  - venue: \(none\)
+  - report: \(none\)
+
+> __<big><big>Final Exam Schedule || Solution for HW2</big></big>__
+>
+> Dear Class,
+>
+> Hope all is going well with you in the final season. Take care!
+>
+> As mentioned in the review session, the final exam is scheduled at <span style="background-color: #fbeeb8;">8:30 to 10:30 AM, May 26th at S H Ho Sport Hall</span>. The concrete seating plan will be posted later before exam.
+>
+> For the exam, please remember to bring your __stationery, student ID card, one A4 double-sided cheat sheet, and any type of calculator__ \(We won't prepare backups, please be sure to have one with you\). No other materials are allowed.
+>
+> The formula sheet \(already on Canvas\) will be provided by us, so you don't need to print it by yourself. In addition, note that we will not return your cheatsheet after exam. So please make a copy in advance if you would like to keep it. As for the midterm exam, we do not allow early submission in the last 15 minutes of exam.
+>
+> Besides, I have uploaded the <span style="background-color: #fbeeb8;">solution for homework 2</span> under the "Online Quiz || Homework" module on Canvas. Feel free to check it. Your homework grade will be posted later.
+>
+> Dont hestitate to reach out if you have any questions. Have a good day!
+>
+> Best regards,
+>
+> \[redacted\]
 
 ## aftermath
 
