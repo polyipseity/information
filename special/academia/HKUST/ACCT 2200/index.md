@@ -49,8 +49,6 @@ The content is in teaching order.
 - [formats](formats.md)
 - [questions](questions.md)
 
-## assessments
-
 ## week 1 lecture
 
 - datetime: 2025-02-03T12:00:00+08:00/2025-02-03T13:20:00+08:00
@@ -857,7 +855,7 @@ The content is in teaching order.
 - venue: S H Ho Sports Hall
 - format
   - calculator: yes
-  - cheatsheet: yes; A4-sized, double-sided, printed or written
+  - cheatsheet: yes; 2 pages, A4-sized, double-sided, printed or written
     - [examination 3 cheatsheet](examination%203%20cheatsheet.md)
   - referencing: closed book, closed notes
   - provided: \(none\)

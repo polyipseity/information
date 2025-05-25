@@ -35,8 +35,6 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## assessments
-
 ## week 1 lecture
 
 - datetime: 2025-02-03T09:00:00+08:00/2025-02-03T10:20:00+08:00
