@@ -653,7 +653,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-24T19:30:00+08:00/2025-03-24T21:00:00+08:00, PT1H30M
   - actual: 2025-03-24T19:30:00+08:00/2025-03-24T21:10:00+08:00, PT1H40M
-- venue: Lecture Theater A; Lecture Theater B
+- venue: Lecture Theater A, Academic Building; Lecture Theater B, Academic Building
 - format
   - calculator: no
   - cheatsheet: no
@@ -676,7 +676,7 @@ The content is in teaching order.
   - time limit ::@:: Plenty of time left. In fact, the instructor added an extra 10 minutes...
 - check
   - datetime: 2025-03-28T19:00:00+08:00 → 2025-03-28T20:30:00+08:00
-  - venue: Lecture Theater C
+  - venue: Lecture Theater C, Academic Building
   - report
     - MIPS programming \(+5\) ::@:: I think the TA gave up looking at the very messy organization of the code...
 
@@ -1142,7 +1142,7 @@ The content is in teaching order.
 ## final examination
 
 - datetime: 2025-05-19T16:30:00+08:00/2025-05-19T18:30:00+08:00, PT2H
-- venue: S H Ho Sports Hall
+- venue: S H Ho Sports Hall, Academic Building
 - format
   - calculator: no
   - cheatsheet: no
@@ -1163,7 +1163,7 @@ The content is in teaching order.
 - report: \(none\)
 - check
   - datetime: 2025-05-22T15:30:00+08:00 → 2025-05-22T17:00:00+08:00
-  - venue: Lecture Theater G
+  - venue: Lecture Theater G, Academic Building
   - report: \(none\)
 
 > Dear COMP2611 students,

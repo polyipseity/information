@@ -553,7 +553,7 @@ The content is in teaching order.
 ## midterm examination
 
 - datetime: 2025-03-21T20:00:00+08:00/2025-03-21T21:40:00+08:00, PT1H40M
-- venue: Lecture Theater A; Lecture Theater J
+- venue: Lecture Theater A, Academic Building; Lecture Theater J, Academic Building
 - format
   - calculator: yes
   - cheatsheet: A4-sized, double-sided
@@ -959,7 +959,7 @@ The content is in teaching order.
 ## final examination
 
 - datetime: 2025-05-26T08:30:00+08:00/2025-05-26T10:30:00+08:00, PT2H
-- venue: S H Ho Sports Hall
+- venue: S H Ho Sports Hall, Academic Building
 - format
   - calculator: yes
   - cheatsheet: 1 page, A4-sized, double-sided

@@ -637,7 +637,7 @@ The content is in teaching order.
 ## midterm examination
 
 - datetime: 2025-03-29T17:00:00+08:00/2025-03-29T19:15:00+08:00, PT2H15M
-- venue: Lecture Theater A; Lecture Theater B
+- venue: Lecture Theater A, Academic Building; Lecture Theater B, Academic Building
 - format
   - calculator: yes; financial calculator
   - cheatsheet: no
@@ -663,9 +663,7 @@ The content is in teaching order.
     - high: 97.78 \(provided: 97.78\)
     - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.svg)
 - report: \(none\)
-- check
-  - datetime: ?
-  - venue: ?
+- check: \(none\)
 
 > __Reminder: no class on Thur/Fri__
 >
@@ -975,6 +973,35 @@ The content is in teaching order.
 - readings: chapter 13 \(skip 13.6\)
 
 ## final examination
+
+- datetime: 2025-05-21T16:30:00+08:00/2025-03-21T19:00:00+08:00, PT2H30M
+- venue: S H Ho Sports Hall, Academic Building
+- format
+  - calculator: yes; financial calculator
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: formulas
+  - questions: multiple choice questions ×45
+- grades: ?/100
+  - breakdown
+    - challenging: ?/30
+      - multiple choice questions ×10
+    - conceptual: ?/?
+      - multiple choice questions ×?
+    - numerical: ?/?
+      - multiple choice questions ×>
+  - statistics
+    - timestamps: ?
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
+- report: \(none\)
+- check: \(none\)
 
 ## aftermath
 

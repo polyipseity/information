@@ -315,7 +315,7 @@ The content is in teaching order.
 ## examination 1
 
 - datetime: 2025-03-12T19:00:00+08:00/2025-03-12T20:30:00+08:00, PT1H30M
-- venue: Lecture Theater A
+- venue: Lecture Theater A, Academic Building
 - format
   - calculator: yes
   - cheatsheet: no
@@ -534,7 +534,7 @@ The content is in teaching order.
 ## examination 2
 
 - datetime: 2025-04-15T19:00:00+08:00/2025-04-15T20:30:00+08:00, PT1H30M
-- venue: Lecture Theater B; Lecture Theater E
+- venue: Lecture Theater B, Academic Building; Lecture Theater E, Academic Building
 - format
   - calculator: yes
   - cheatsheet: no
@@ -852,7 +852,7 @@ The content is in teaching order.
 ## examination 3
 
 - datetime: 2025-05-17T12:30:00+08:00/2025-05-17T14:30:00+08:00, PT2H
-- venue: S H Ho Sports Hall
+- venue: S H Ho Sports Hall, Academic Building
 - format
   - calculator: yes
   - cheatsheet: yes; 2 pages, A4-sized, double-sided, printed or written
