@@ -860,24 +860,32 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×4
-- grades: ?/100 → ?/100
+- grades: 83/100 → 83/100
   - statistics
-    - timestamps: ? → ?
+    - timestamps: 2025-05-22T15:02:47+08:00 → 2025-05-25T12:15:00+08:00
     - count: ? → ?
-    - mean: ? → ?
+    - mean: 66.91 → 67.02
     - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
+    - low: 40 → 40
+    - lower quartile: 59 → 59
+    - median: 66.5 → 67
+    - upper quartile: 77 → 77
+    - high: 93 → 93
     - distribution: ? → ?
     - data: ? → ?
 - report
   - time limit ::@:: Again, the time limit was tight. This is to be expected for this course... Some questions requires you to do the work of an spreadsheet.
+  - question 3: decentralized performance evaluation \(−8\) ::@:: Given a scenario and a balanced scoreboard, describe and discuss improvements. Also use residual income approach and return on investment approach.
+    - evaluating balance scorecard \(−4\) ::@:: The 3 sub-questions add up to 20 points. Honestly, it is rather hard to know what they want... The best would be to write as much as you can think of. So it was fine in this case.
+    - residual income approach \(−2\) ::@:: They need you to calculate the residual income of the \(incremental\) project only as well.
+    - return on investment approach \(−2\) ::@:: They need you to calculate the return on investment \(ROI\) of the \(incremental\) project only as well.
+  - question 4: capital budgeting \(−9\) ::@:: Given three paragraphs of text, use net present value \(NPV\) to decide if a project is worth it.
+    - delayed tax savings \(−3\) ::@:: It turns out they define tax savings as tax savings due to depreciation only \(and potentially loss from sale on assets, but not sure\), not tax savings due to negative operating income. Also, operating expenses are excluded.
+    - final answer \(−2\) ::@:: Hard to obtain, since it requires you to do the work of a spreadsheet software. Honestly they could have deducted more, from their marking scheme.
+    - sale on assets \(−4\) ::@:: Probably presentation problem. Better to calculate the after-tax operating income, then add the sale on assets, and then remove the tax on gain from sale on assets.
 - check
-  - datetime: ?
-  - venue: ?
+  - datetime: 2025-05-24T09:30:00+08:00/2025-05-24T12:30:00+08:00, PT3H
+  - venue: Room 6032, LSKBB
   - report: \(none\)
 
 > Dear ACCT2200 students,
@@ -902,3 +910,6 @@ The content is in teaching order.
 ## aftermath
 
 ### total
+
+- grades: 86.9/100
+  - statistics: \(none\)
