@@ -977,11 +977,11 @@ The content is in teaching order.
     - upper quartile: ? → ?
     - high: ? → ?
     - distribution: ? → ?
-- report: \(none\)
+- report: ?
 - check
-  - datetime: \(none\)
-  - venue: \(none\)
-  - report: \(none\)
+  - datetime: ?
+  - venue: ?
+  - report: ?
 
 > __<big><big>Final Exam Schedule || Solution for HW2</big></big>__
 >
