@@ -659,18 +659,18 @@ The content is in teaching order.
   - cheatsheet: no
   - referencing: closed book, closed notes
   - provided: \(none\)
-  - questions: multiple choice questions ×8, long questions ×5
+  - questions: multiple choice questions ×17, long questions ×5
 - grades: 91/100 → 96/100
   - statistics
     - timestamps: 2025-03-27T15:17+08:00 → 2025-03-29+08:00
     - mean: ? \(provided: 71.56\) → 70.54
-    - standard deviation: ? \(provided: 16.41) → ?
+    - standard deviation: ? \(provided: 16.41\) → ?
     - low: 0 → 0
     - lower quartile: 60 → 60
     - median: 73 \(provided: 73\) → 73
     - upper quartile: 84 → 84
     - high: 97 → 100
-    - distribution: ![midterm examination distribution](attachments/distribution.png) → ?
+    - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.png) → ?
 - report
   - race hazards \(–4\) ::@:: It seems like the rules for deciding if a state is _forbidden_ is more complex than expected. See above.
   - time limit ::@:: Plenty of time left. In fact, the instructor added an extra 10 minutes...
@@ -1141,6 +1141,93 @@ The content is in teaching order.
 
 ## final examination
 
+- datetime: 2025-05-19T16:30:00+08:00/2025-05-19T18:30:00+08:00, PT2H
+- venue: S H Ho Sports Hall
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: multiple choice questions ×10, long questions ×7
+- grades: 100/100 → 100/100
+  - statistics
+    - timestamps: 2025-05-22T10:08+08:00 → 2025-05-24T11:32:09+08:00
+    - mean: 58.96 → 59.53 \(provided: 60.12\)
+    - standard deviation: ? → ? \(provided: 19.94\)
+    - low: 0 → 0
+    - lower quartile: 44 → 45
+    - median: 61.5 → 62 \(provided: 62\)
+    - upper quartile: 75.5 → 77
+    - high: 100 → 100
+    - distribution: ? → ![final examination distribution](attachments/final%20examination%20distribution.png)
+- report: \(none\)
+- check
+  - datetime: 2025-05-22T15:30:00+08:00 → 2025-05-22T17:00:00+08:00
+  - venue: Lecture Theater G
+  - report: \(none\)
+
+> Dear COMP2611 students,
+>
+> COMP2611 final exam is arranged on May 19 Monday afternoon. Please find the exam details in this email.
+>
+> Date and Time: May 19 \(Monday\), 4:30 pm – 6:30 pm \(2 hours\)
+>
+> Venue \(main batch\): S H Ho Sports Hall. The seating plan will be released the day before the final exam.
+>
+> Venue \(SEN students\): Room 2302. SEN students will receive individual emails about the special exam time.
+>
+> Coverage: Everything learned \(including tutorials and labs\) during the semester, with emphasis on the knowledge not covered by midterm. For the “memory system” note set, since not all sections finished it, we will cover slides 1-64 \(excluding slide 60\). Anything in the lecture note sets marked “optional” is not included, e.g. CISC vs RISC, Carry Lookahead, Booth algorithm, floating point arithmetic.
+>
+> Reference materials: This is a closed book, closed note exam. The exam paper will provide the following diagrams/resources if needed:
+>
+> Green MIPS information sheet <br/>
+> <https://course.cse.ust.hk/comp2611/reference/MIPS_Green_Sheet.pdf>
+>
+> Diagram of unsigned integer multiplication/division hardware \(optimized version\)
+>
+> Datapath and control of single-cycle processor
+>
+> Datapath and control of pipelined single-cycle processor
+>
+> Past papers:
+>
+> Two sample past papers have already been posted on COMP2611 course website -&gt; Exam.
+>
+> Kindly notice COMP2611 evolves and updates in the past year.  If you have no ideas on an exam question in the past paper, that means it is no longer covered in recent COMP2611 offerings.
+>
+> Although the knowledge tested are the same, exact question format may also vary in each exam.
+>
+> Revision suggestion:
+>
+> Go through the lecture notes once. Make sure you understand the examples and can work them out by your own. Revisit homework and tutorial exercises. Practice sample final exam papers. Then compare your answer with solution and reflect.
+>
+> Online Forum:
+>
+> You can always post your questions to COMP2611 Piazza
+>
+> <https://piazza.com/ust.hk/spring2025/comp2611>
+>
+> Instructor Q&A sessions:
+>
+> \[redacted\], F2F Q&A session
+>
+> May 19 \(Monday\), 11:00am to 1:00pm, Room 3525 \(Lifts 25/26, near CSE admin office\)
+>
+> \[redacted\], F2F Q&A session \(mixed mode, Zoom link \[redacted\] \)
+>
+> May 12 \(Monday\), 3:30pm-5:30pm, Room 3548 \(Lifts 27/28\)
+>
+> Good luck to all your final exams!
+>
+> Best regards,
+>
+> \[redacted\] and \[redacted\]
+>
+> COMP2611 instructors
+
 ## aftermath
 
 ### total
+
+- grades: 98.8/100
+  - statistics: \(none\)
