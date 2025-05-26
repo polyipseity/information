@@ -123,9 +123,9 @@ tags:
 > 3. The smaller the MAD, the better the predictions.
 > 4. The absolute value of TS should be within 3.75 for good predictions.
 > 5. TS can be positive or negative.
-> 6. MAD can be zero.
+> 6. Theoretically, MAD can be zero.
 > 7. The larger the TS, the better the predictions.
-> 8. TS can be zero.
+> 8. Theoretically, TS can be zero.
 >
 > ---
 >
