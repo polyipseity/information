@@ -390,7 +390,7 @@ The content is in teaching order.
     - cost–volume–profit analysis / assumptions / product mix ::@:: When a company sells more than one type of product, the product mix (the ratio of each product to total sales) will remain constant.
   - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted \(net\) sales and break-even point: <p> actual/budgeted \(net\) sales − break-even point <p> It represents the strength of the business.
     - cost–volume–profit analysis / margin of safety / units ::@:: Apart from sales, it can also be represented in terms of _sales units_: <p> actual/budgeted \(net\) sales units − break-even units <p> It still represents the strength of the business.
-  - cost–volume–profit analysis / changes ::@:: cost structure; fixed cost, price; price; variable cost, volume;
+  - cost–volume–profit analysis / changes ::@:: cost structure; fixed cost, price; price; variable cost, volume
     - cost–volume–profit analysis / changes / price ::@:: Compute the new \(average\) price, and then the contribution margin ratio or unit contribution margin. You can use these two methods.
     - cost–volume–profit analysis / changes / variable cost, volume ::@:: Compute the new unit variable cost and the new volume. You can use the profit equation method.
     - cost–volume–profit analysis / changes / fixed cost, price ::@:: Compute the new \(average\) price and new fixed cost, and then unit contribution margin. Yon can use this method.
