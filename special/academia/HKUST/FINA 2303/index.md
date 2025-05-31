@@ -174,7 +174,7 @@ The content is in teaching order.
 ## week 2 tutorial
 
 - datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00, PT50M
-- status: hybrid (online, physical), optional
+- status: hybrid \(online, physical\), optional
 - [§ week 1 lecture](#week%201%20lecture)
 - [§ week 1 lecture 2](#week%201%20lecture%202)
 - [§ week 2 lecture](#week%202%20lecture)
@@ -237,7 +237,7 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00, PT50M
-- status: hybrid (online, physical), optional
+- status: hybrid \(online, physical\), optional
 - [§ week 3 lecture](#week%203%20lecture)
 - [§ week 3 lecture 2](#week%203%20lecture%202)
 
@@ -533,6 +533,8 @@ The content is in teaching order.
 - status: hybrid \(online, physical\), optional
 - [§ week 7 lecture](#week%207%20lecture)
 - [§ week 7 lecture 2](#week%207%20lecture%202)
+- free cash flow
+  - free cash flow / asset replacement ::@:: When calculating free cash flow for replacing an asset, not only you need to consider the cash flows from selling the old asset and buying the new asset, you also need to consider _changes_ \(from old asset and new asset\) in the value of depreciation tax shield.
 
 ## week 7 lecture 2
 
@@ -557,7 +559,7 @@ The content is in teaching order.
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs)
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs
     - irrelevant cost / project ::@:: In a project, some common sunk costs are: fixed overhead expenses \(unless the expense is incremental to the project\), past R&D expenditure, unavoidable competitive effects, etc.
-      - irrelevant cost / project / unavoidable competitive effects ::@:: Above, we have considered a specific example of _project cannibalization_, where a new product may decrease sale of existing products. <p> But if this loss of sales is _likely_ to happen anyway due to new products introduced by competitors, then this decrease in sale is a sunk cost, and can be ignored when calculating the incremental FCF of the project.
+      - irrelevant cost / project / unavoidable competitive effects ::@:: Above, we have considered a specific example of _project cannibalization_, where a new product may decrease sale of existing products. <p> But if this loss of sales is _likely_ to happen anyway due to new products introduced by competitors, then this decrease in sale is a _sunk cost_, and can be ignored when calculating the incremental FCF of the project. \(__this course__: tested in the final examination\)
 - [tax shield](../../../../general/tax%20shield.md) ::@:: It is the reduction in income taxes that results from taking an allowable deduction from taxable income. For example, because interest on debt is a tax-deductible expense, taking on debt creates a tax shield. <p> \(Note that FCF is usually _unlevered_, so debt tax shield is excluded.\)
   - tax shield / importance ::@:: Since a tax shield is a way to save cash flows, it increases the value of the business, and it is an important aspect of business valuation.
   - tax shield / free cash flow ::@:: When calculating incremental earnings/_unlevered_ net income, depreciation is subtracted before applying the tax rate. Then, when calculating FCF, depreciation is added back. <p> With the tax shield approach, when calculating FCF, depreciation is _not_ subtracted before applying the tax rate. After applying the tax rate, depreciation _multiplied by the tax rate_ is added back. This is mathematically equivalent to the previous paragraph. <p> Note that FCF is usually _unlevered_, so debt tax shield is excluded.
@@ -829,6 +831,8 @@ The content is in teaching order.
 - status: hybrid \(online, physical\), optional
 - [§ week 12 lecture](#week%2012%20lecture)
 - [§ week 12 lecture 2](#week%2012%20lecture%202)
+- dividend discount model
+  - dividend discount model / conditions ::@:: It requires the dividend growth rate to be constant. It requires the growth rate to be less than the required rate of return, as a stock growing faster than the required rate of return forever is _unrealistic_.
 
 ## week 12 lecture 2
 
@@ -944,6 +948,9 @@ The content is in teaching order.
 - status: hybrid \(online, physical\), optional
 - [§ week 14 lecture](#week%2014%20lecture)
 - [§ week 14 lecture 2](#week%2014%20lecture%202)
+- [portfolio](../../../../general/portfolio%20(finance).md) ::@:: In finance, a \(_this_\) is a collection of investments.
+  - portfolio / weights ::@:: The portfolio weights are value-based, i.e. share price multiplied by the number of shares held.
+  - portfolio / beta ::@:: It is weighted average of the betas of the individual stocks, since systematic risk cannot be diversified away.
 
 ## week 14 lecture 2
 
@@ -982,27 +989,33 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: formulas
   - questions: multiple choice questions ×45
-- grades: ?/100
+- grades: 98/100
   - breakdown
-    - challenging: ?/30
+    - challenging: 30/30
       - multiple choice questions ×10
-    - conceptual: ?/?
-      - multiple choice questions ×?
-    - numerical: ?/?
-      - multiple choice questions ×>
+    - conceptual: 32/34
+      - multiple choice questions ×17
+    - numerical: 36/36
+      - multiple choice questions ×18
   - statistics
-    - timestamps: ?
-    - mean: ?
-    - standard deviation: ?
-    - low: ?
-    - lower quartile: ?
-    - median: ?
-    - upper quartile: ?
-    - high: ?
-    - distribution: ?
-- report: \(none\)
+    - timestamps: 2025-05-26T14:00:00+08:00
+    - mean: 73.25
+    - standard deviation: ? \(provided: 17\)
+    - low: 0
+    - lower quartile: 62
+    - median: 81.11 \(provided: 78\)
+    - upper quartile: 87
+    - high: 98 \(provided: 98\)
+    - distribution: ![final examination distribution](attachments/final%20examination%20distribution.svg)
+- report
+  - sunk cost and not included in FCF \(−2\) ::@:: Competitive effects are considered _sunk cost_ as well.
+  - operating expenses and depreciation expenses \(0\) ::@:: Read the question to see if depreciation expenses are included in operating expenses, e.g. keywords like "additional depreciation". In this exam, they are usually considered separate.
 - check: \(none\)
 
 ## aftermath
 
 ### total
+
+- grades: 94.59/100
+  - note: class bonus card ×9, individual bonus card ×10
+  - statistics: \(none\)
