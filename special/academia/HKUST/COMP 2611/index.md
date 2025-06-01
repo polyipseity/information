@@ -699,7 +699,7 @@ The content is in teaching order.
 - MARS
   - [MARS](MARS.md)
     - [§ system calls](MARS.md#system%20calls)
-    - MARS / generate random numbers ::@:: Usually in C, we use the current system timestamp as the RNG seed. Then we generate random numbers, limiting its range using the modulo operator. <p> We can do the same in MARS using syscalls.
+  - MARS / generate random numbers ::@:: Usually in C, we use the current system timestamp as the RNG seed. Then we generate random numbers, limiting its range using the modulo operator. <p> We can do the same in MARS using syscalls.
 - MIPS architecture
   - [MIPS](MIPS.md)
     - [§ jump instructions](MIPS.md#jump%20instructions): `beq`, `bne`, `j`
@@ -713,7 +713,7 @@ The content is in teaching order.
 - topic: arithmetic logic unit \(ALU\)
 - [arithmetic logic unit](../../../../general/arithmetic%20logic%20unit.md) \(ALU\) ::@:: It is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
   - arithmetic logic unit / processor ::@:: It is an important part of a processor, with the other parts being cache, control unit, and registers.
-  - arithmetic logic unit / bitwidth ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together.
+  - arithmetic logic unit / bit width ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together.
   - arithmetic logic unit / functions ::@:: arithmetic, bit shift, bitwise logical, other \(passthrough\)
     - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output.
 - [adder](../../../../general/adder%20(electronics).md) ::@:: It is a digital circuit that performs addition of numbers.
@@ -727,7 +727,7 @@ The content is in teaching order.
     - adder / ripple-carry adder / characteristics ::@:: The layout of a ripple-carry adder is simple, which allows fast design time; however, the ripple-carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder.
 - method of complements
 - arithmetic logic unit
-  - arithemtic logic unit / signals ::@:: data, opcode, status \(outputs, inputs)
+  - arithmetic logic unit / signals ::@:: data, opcode, status \(outputs, inputs\)
     - arithmetic logic unit / signals / data ::@:: 2 inputs, 1 output; their bit widths are usually the same, and same as the native ISA
     - arithmetic logic unit / signals / opcode ::@:: It conveys to the ALU an operation selection code, which is an enumerated value that specifies the desired arithmetic or logic operation to be performed by the ALU. <p> Passing it to a multiplexor/selector can be used to choose the right output.
     - arithmetic logic unit / signals / status outputs ::@:: carry-out, zero, negative, overflow, parity, etc.
@@ -843,12 +843,26 @@ The content is in teaching order.
 ## week 10 lab
 
 - datetime: 2025-04-08T15:00:00+08:00/2025-04-08T15:50:00+08:00, PT50M
-- topic:
+- topic: MIPS recursion
+- [recursion](../../../../general/recursion.md) ::@:: \(_this_\) occurs when the definition of a concept or process depends on a simpler or previous version of itself. \(_this_\) is used in a variety of disciplines ranging from linguistics to logic. The most common application of \(_this_\) is in mathematics and computer science, where a function being defined is applied within its own definition.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures): recursion
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): `$ra`
+    - [§ memory layout](MIPS.md#memory%20layout): stack
 
 ## week 10 tutorial
 
 - datetime: 2025-04-08T18:00:00+08:00/2025-04-08T18:50:00+08:00, PT50M
-- topic:
+- topic: MIPS machine code, procedures
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ encoding](MIPS.md#encoding): R format, I format, J format
+    - [§ operands](MIPS.md#operands): zero extension, sign extension
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): registers, caller-saved, callee-saved
+    - [§ procedures](MIPS.md#procedures): caller, callee
 
 ## week 10 lecture 2
 
@@ -897,16 +911,32 @@ The content is in teaching order.
     - control unit / MIPS / _Jmp_ ::@:: So far, we are missing the case for pseudo-address jumps \(Actually also register jump `jr`, but the lecture slides do not cover it.\). Simply add extra control signals, datapath, and multiplexers! In this case, the _Jmp_ signal controls an additional multiplexer. <p> 0: PC behavior remains the same as before; 1: use the calculated address
 - single-cycle processor
   - single-cycle processor / disadvantages ::@:: It cannot run very fast. The instruction with the greatest latency \(e.g. load word `lw`, excluding multi-cycle instructions\), known as the _critical_ path, determines the minimum clock period. We cannot vary the period for different instructions. It violates the design principle "fast common cases". <p> _Pipelining_ mitigates this.
+- single-cycle processor
 
 ## week 11 lab
 
 - datetime: 2025-04-15T15:00:00+08:00/2025-04-15T15:50:00+08:00, PT50M
-- topic:
+- topic: MARS debugging
+- MARS
+  - MARS / debugging ::@:: breakpoint, registers, step, undo
+    - MARS / debugging / breakpoint ::@:: You can set breakpoints. The program will pause whenever execution reaches a breakpoint. Then you can perform other debugging actions.
+    - MARS / debugging / step ::@:: You can execute exactly one instruction and then pause.
+    - MARS / debugging / undo ::@:: You can undo one instruction and then pause. However, system calls generally cannot be undone.
+    - MARS / debugging / register ::@:: When the program is paused, you can view and modify register values.
 
 ## week 11 tutorial
 
 - datetime: 2025-04-15T18:00:00+08:00/2025-04-15T18:50:00+08:00, PT50M
-- topic:
+- topic: nested procedures, arithmetic logic unit
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures): procedures, nested procedures
+    - [§ jump instructions](MIPS.md#jump%20instructions): `jal`, `jr`
+- adder
+  - adder / ripple-carry adder
+- method of complements
+- arithmetic logic unit
+  - arithmetic logic unit / signals
 
 ## week 11 lecture 2
 
@@ -921,12 +951,53 @@ The content is in teaching order.
 ## week 12 lab
 
 - datetime: 2025-04-22T15:00:00+08:00/2025-04-22T15:50:00+08:00, PT50M
-- topic:
+- topic: building a 4-bit arithmetic logic unit with Logisim
+- arithmetic logic unit
+  - arithmetic logic unit / signals
+- Logisim
+  - Logisim / arithmetic logic unit ::@:: Essentially follow the lecture slides. Reuse circuits by saving them and using them as libraries.
 
 ## week 12 tutorial
 
 - datetime: 2025-04-22T18:00:00+08:00/2025-04-22T18:50:00+08:00, PT50M
-- topic:
+- topic: computer arithmetic
+- binary multiplier
+  - binary multiplier / binary long multiplication
+    - binary multiplier / binary long multiplication / implementation, naive
+    - binary multiplier / binary long multiplication / implementation, improved
+    - binary multiplier / binary long multiplication / implementation
+  - binary multiplier / signed
+- binary divider
+  - binary divider / binary long division
+    - binary divider / binary long division / implementation, naive
+    - binary divider / binary long division / implementation
+  - binary divider / signed
+- [Booth's multiplication algorithm](../../../../general/Booth's%20multiplication%20algorithm.md) ::@:: \(__this course__: optional\) <p> \(_this_\) is a multiplication algorithm that multiplies two signed binary numbers in two's complement notation. The algorithm was invented by Andrew Donald Booth in 1950.
+  - Booth's multiplication algorithm / idea ::@:: \(__this course__: optional\) <p> Express the multiplier in binary. Each consecutive group of 1s can be expressed as one addition and one subtraction. This reduces the number of operations. <p> For example, we rewrite the multiplier as 01111110<sub>\(2\)</sub>=10000000<sub>\(2\)<sub>-00000010<sub>\(2\)</sub>. Then we only need an addition and a subtraction instead of 6 additions.
+  - Booth's multiplication algorithm / implementation ::@:: \(__this course__: optional\) <p> Booth's algorithm can be implemented by repeatedly adding \(with ordinary unsigned binary addition\) one of two predetermined values _A_ and _S_ to a product _P_, then performing a rightward [arithmetic shift](../../../../general/arithmetic%20shift.md) on _P_. Let __m__ and __r__ be the [multiplicand](../../../../general/multiplicand.md) and [multiplier](../../../../general/multiplication.md#terminology), respectively; and let _x_ and _y_ represent the number of bits in __m__ and __r__.
+    - Booth's multiplication algorithm / implementation / setup ::@:: \(__this course__: optional\) <p> 1. Determine the values of _A_ and _S_, and the initial value of _P_. All of these numbers should have a length equal to \(_x_ + _y_ + 1\). <br/> &emsp; 1. A: Fill the most significant \(leftmost\) bits with the value of __m__. Fill the remaining \(_y_ + 1\) bits with zeros. <br/> &emsp; 2. S: Fill the most significant bits with the value of \(−<!-- markdown separator -->__m__\) in two's complement notation. Fill the remaining \(_y_ + 1\) bits with zeros. <br/> &emsp; 3. P: Fill the most significant _x_ bits with zeros. To the right of this, append the value of __r__. Fill the least significant \(rightmost\) bit with a zero.
+    - Booth's multiplication algorithm / implementation / loop ::@:: \(__this course__: optional\) <p> 2. Determine the two least significant \(rightmost\) bits of _P_. <br/> &emsp; 1. If they are 01, find the value of _P_ + _A_. Ignore any overflow. <br/> &emsp; 2. If they are 10, find the value of _P_ + _S_. Ignore any overflow. <br/> &emsp; 3. If they are 00, do nothing. Use _P_ directly in the next step. <br/> &emsp; 4. If they are 11, do nothing. Use _P_ directly in the next step. <br/> 2. [Arithmetically shift](../../../../general/arithmetic%20shift.md) the value obtained in the 2nd step by a single place to the right. Let _P_ now equal this new value. <br/> 3. Repeat steps 2 and 3 until they have been done _y_ times. <br/> 4. Drop the least significant \(rightmost\) bit from _P_. This is the product of __m__ and __r__.
+    - Booth's multiplication algorithm / implementation / overflow ::@:: \(__this course__: optional\) <p> Overflow is ignored. This is because for each group of 1s, subtraction is performed before addition. And multiplication of two _signed_ integers cannot overflow _x_ + _y_ bits. So overflow is impossible.
+  - Booth's multiplication algorithm / signedness ::@:: \(__this course__: optional\) <p> Note that this algorithm is for multiplying _signed_ integers, not _unsigned_ ones. _Unsigned_ multiplication can overflow _x_ + _y_ bits \(but not _x_ + _y_ + 1 bits\).
+
+## week 12 extra tutorial
+
+- datetime: 2025-04-22T20:30:00+08:00/2025-04-22T21:20:00+08:00, PT50M
+- topic: programming assignment
+
+> Dear all,
+>
+> You may have noticed that the PA has been released, and the deadline is <br/>
+> May 11. \[redacted\], the designer of the PA, will kindly conduct a PA <br/>
+> Intro and Q&A session tomorrow \(Tuesday\) evening at 8:30 PM via Zoom.
+>
+> Canvas Zoom link: \[redacted\]
+>
+> You are welcome to join in real time. We will also record the session and release the video afterwards.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\] <br/>
+> COMP2611 Instructors
 
 ## week 12 lecture 2
 
@@ -955,6 +1026,28 @@ The content is in teaching order.
     - classical RISC pipeline / diagrams / single-clock-cycle ::@:: It shows the current state of all stages in the same cycle.
     - classical RISC pipeline / diagrams / multi-clock-cycle ::@:: Literally just an Gantt chart.
 
+## week 12 extra tutorial 2
+
+- datetime: 2025-04-25T20:30:00+08:00/2025-04-25T21:20:00+08:00, PT50M
+- topic: homework 2
+
+> Dear COMP2611 students,
+>
+> It's toward the end of semester and our PGTAs will offer optional Zoom <br/>
+> tutorials on HW2 and HW3 to help you review the related topics. You can <br/>
+> also ask any questions related afterwards.
+>
+> HW3 tutorial: Fri \(Apr 25\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> HW2 tutorial: coming Mon \(Apr 28\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> You can also find the Zoom links under COMP2611 Canvas.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\]
+
 ## week 13 lecture
 
 - datetime: 2025-04-28T13:30:00+08:00/2025-04-28T14:50:00+08:00, PT1H20M
@@ -975,6 +1068,7 @@ The content is in teaching order.
     - hazard / types / structural ::@:: A required hardware is busy.
     - hazard / types / control ::@:: Hazards caused by control dependencies.
   - hazard / bubbling ::@:: It can always resolve hazards. In the extreme case of always waiting, it degenerates the pipeline into working like a single-cycle processor \(but each instruction takes 5 cycles\).
+    - hazard / bubbling / note ::@:: \(__this course__: Ignore below. Also, if a question asks you to add bubbles \(BUB\), by default only add them before the IF stage of the instruction being bubbled. Do not put bubbles after the ID stage or propagate bubbles to other instructions.\) <p> Strictly speaking, we can only bubble after instruction decode \(ID\), the second step, is done, otherwise we do not know that the instruction requires bubbling. That means the bubble starts after ID.
   - hazard / structural hazards ::@:: A structural hazard occurs when two \(or more\) instructions that are already in pipeline need the same resource. The result is that instruction must be executed in series rather than parallel for a portion of pipeline. Structural hazards are sometimes referred to as resource hazards. <p> Example: A situation in which multiple instructions are ready to enter the execute instruction phase and there is a single ALU \(Arithmetic Logic Unit\). One solution to such resource hazard is to increase available resources, such as having multiple ports into main memory and multiple ALU \(Arithmetic Logic Unit\) units.
     - hazard / structural hazards / memory ::@:: Instructions and data are in the same main memory. If the same memory is used in the IF and MEM stage, these two stages cannot run at the same time. <p> A solution is to use separate memories, or have separate caches: instruction cache and data cache.
     - hazard / structural hazards / registers ::@:: Both ID and WB stage uses the register file. <p> The solution is that the WB stage runs in the first half of a cycle and ID stage runs in the second half of a cycle. This is possible because register access is very fast. This also means writing to and then reading from the same register in a cycle is well-defined.
@@ -990,15 +1084,51 @@ The content is in teaching order.
       - hazard / control hazards / schemes / branch delay slot ::@:: Depending on the design of the delayed branch and the branch conditions, it is determined whether the instruction immediately following the branch instruction is executed even if the branch is taken. Instead of taking an IPC penalty for some fraction of branches either taken \(perhaps 60%\) or not taken \(perhaps 40%\), branch delay slots take an IPC penalty for those branches into which the compiler could not schedule the branch delay slot. The SPARC, MIPS, and MC88K designers designed a branch delay slot into their ISAs.
       - hazard / control hazards / schemes / branch prediction ::@:: In parallel with fetching each instruction, guess if the instruction is a branch or jump, and if so, guess the target. On the cycle after a branch or jump, fetch the instruction at the guessed target. When the guess is wrong, flush the incorrectly fetched target.
 
+## week 13 extra tutorial
+
+- datetime: 2025-04-28T20:30:00+08:00/2025-04-28T21:20:00+08:00, PT50M
+- topic: homework 3
+
+> Dear COMP2611 students,
+>
+> It's toward the end of semester and our PGTAs will offer optional Zoom <br/>
+> tutorials on HW2 and HW3 to help you review the related topics. You can <br/>
+> also ask any questions related afterwards.
+>
+> HW3 tutorial: Fri \(Apr 25\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> HW2 tutorial: coming Mon \(Apr 28\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> You can also find the Zoom links under COMP2611 Canvas.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\]
+
 ## week 13 lab
 
 - datetime: 2025-04-29T15:00:00+08:00/2025-04-29T15:50:00+08:00, PT50M
-- topic:
+- topic: building a computer with Logisim
+- single-cycle processor
+- classical RISC pipeline
+  - classical RISC pipeline / diagram
+- datapath
+- Logisim
+  - Logisim / computer ::@:: Essentially simply follow the lecture slides. Use the RAM component in Logisim to store data and instructions. Reuse circuits by saving them and using them as libraries.
 
 ## week 13 tutorial
 
 - datetime: 2025-04-29T18:00:00+08:00/2025-04-29T18:50:00+08:00, PT50M
-- topic:
+- topic: single-cycle datapath, single-cycle control
+- datapath
+- classic RISC pipeline
+  - classic RISC pipeline / instruction fetch
+  - classic RISC pipeline / instruction decode
+  - classic RISC pipeline / execute
+  - classic RISC pipeline / memory access
+  - classic RISC pipeline / register write back
+- control unit
 
 ## week 13 lecture 2
 
@@ -1111,12 +1241,35 @@ The content is in teaching order.
 ## week 14 lab
 
 - datetime: 2025-05-06T15:00:00+08:00/2025-05-06T15:50:00+08:00, PT50M
-- topic:
+- status: unscheduled
 
 ## week 14 tutorial
 
 - datetime: 2025-05-06T18:00:00+08:00/2025-05-06T18:50:00+08:00, PT50M
-- topic:
+- topic: pipeline
+- classical RISC pipeline
+  - classical RISC pipeline / instruction fetch
+  - classical RISC pipeline / instruction decode
+    - classical RISC pipeline / instruction decode / register write back
+  - classical RISC pipeline / execute
+  - classical RISC pipeline / memory access
+  - classical RISC pipeline / register write back
+    - classical RISC pipeline / register write back / hazard
+  - classical RISC pipeline / diagram
+  - classical RISC pipeline / diagrams
+  - classical RISC pipeline / control
+- hazard
+  - hazard / causes
+    - hazard / causes / data dependency
+    - hazard / causes / control dependency
+  - hazard / types
+    - hazard / types / data
+    - hazard / types / structural
+    - hazard / types / control
+  - hazard / bubbling
+  - hazard / data hazards
+    - hazard / data hazard / operand forwarding
+      - hazard / data hazard / operand forwarding / limitation
 
 ## week 14 lecture 2
 
@@ -1139,6 +1292,25 @@ The content is in teaching order.
   - translation lookaside buffer / structure ::@:: Each entry in the TLB consists of two parts: a tag and a value. If the tag of the incoming virtual address matches the tag in the TLB, the corresponding value \(physical page number\) is returned. <p> Extra fields in the page table may also be cached as well, including _valid_ bit, _dirty_ bit, _ref_ bit \(if it is in main memory \(primary storage\)\).
   - translation lookaside buffer / operation ::@:: Mostly works similarly to CPU caches. <p> First, read from TLB. If cached, translate the address. If not, read from page table. If valid, translate the address. Otherwise, a page fault is generated. After the page fault is resolved, the CPU memory access stage restarts.
 
+## week 14 extra tutorial
+
+- datetime: 2025-05-09T20:00:00+08:00/2025-05-09T20:50:00+08:00, PT50M
+- topic: homework 4
+
+> Dear COMP2611 students,
+>
+> We'll offer again the optional tutorial for homework.
+>
+> This Friday \(May 9\) 8pm will be the optional tutorial for HW4. PGTA \[redacted\] <br/>
+> and \[redacted\] are going to lead it.
+>
+> \[redacted\]
+>
+> You can also find the Zoom links under COMP2611 Canvas.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\]
+
 ## final examination
 
 - datetime: 2025-05-19T16:30:00+08:00/2025-05-19T18:30:00+08:00, PT2H
@@ -1160,7 +1332,9 @@ The content is in teaching order.
     - upper quartile: 75.5 → 77
     - high: 100 → 100
     - distribution: ? → ![final examination distribution](attachments/final%20examination%20distribution.png)
-- report: \(none\)
+- report
+  - cache miss \(0\) ::@:: On cache miss, the CPU \(at least for most designs\) does not _directly_ fetch the data or instruction from the main memory, but does so _indirectly_ via its cache; that is, the data or instruction is loaded into the CPU cache first, then the CPU reads it again, this time with a cache hit.
+  - R format instruction signals \(0\) ::@:: The controls described in the lectures need to be changed to accommodate for a new R format instruction requiring _MemRead_ or _MemWrite_ to be 1. <p> The original controls does not pass the `funct` field to the main control, so it cannot distinguish R format instructions requiring memory access. Without the new instruction, this is okay, since all R format instructions do not require memory access.
 - check
   - datetime: 2025-05-22T15:30:00+08:00 → 2025-05-22T17:00:00+08:00
   - venue: Lecture Theater G, Academic Building

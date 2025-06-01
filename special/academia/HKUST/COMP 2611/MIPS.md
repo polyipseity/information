@@ -32,7 +32,7 @@ Variables differ from registers in that {@{the former is a logical concept while
 
 In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@}
 
-Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory, but with more propagation delay}@}.
+Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory \(via the CPU cache\), but with more propagation delay}@}.
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}.
 
@@ -364,6 +364,8 @@ In {@{higher level programming languages}@}, we have {@{functions/procedures/sub
 Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments/parameters in specified locations, then transfer control \(jump and link\) to the callee}@}. Then, the callee {@{pushes `$ra` to the stack, acquires the necessary resources, and performs its task}@}. Finally, {@{the callee places the return value \(if any\) in a specified location, pops the stack to `$ra`, and return control \(return\) to the caller}@}. The caller then {@{may access the return value for further use}@}. The specified locations are specified by {@{a calling convention}@}. Note that {@{if you do not call any other procedures in your procedure and your procedure does not modify `$ra` explicitly}@}, you can {@{skip pushing `$ra` to the stack at the beginning and popping `$ra` from the stack at the end}@}. \(__this course__: In this course, we use {@{the [O32 calling convention](#O32%20calling%20convention)}@}.\)
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}.
+
+If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}.
 
 ## memory layout
 
