@@ -507,7 +507,7 @@ The content is in teaching order.
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits.
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\)
   - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow
-    - cool jazz / characteristics / vs. bebop ::@:: Basically opposite of bebop \(Essentially, just invert the characteristics listed above.\): classical, fast, improvised, relaxed, remix, monophonic
+    - cool jazz / characteristics / vs. bebop ::@:: Essentially opposite of bebop: classical, fast, improvised, relaxed, remix, monophonic; simply invert the characteristics listed above
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans.
   - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool".

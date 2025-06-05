@@ -88,33 +88,33 @@ hyperfocus: focusing on functional jobs only
 insufficiency: not enough jobs, pains, and gains
 mix: mixing customer segments
 mix: mixing jobs and outcomes
-opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation
+opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation
 reversed: listing jobs, pains, and gains from your product value propositions
 vagueness: vague jobs, pains, and gains
 """.strip().splitlines(),
 )
 ```
 
-<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-05-03T17:30:19.568483+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2025-06-03T13:49:09.445620+08:00. Any edits will be overridden! -->
 
 > 1. hyperfocus: focusing on functional jobs only
 > 2. insufficiency: not enough jobs, pains, and gains
 > 3. mix: mixing customer segments
 > 4. mix: mixing jobs and outcomes
-> 5. opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation
+> 5. opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation
 > 6. reversed: listing jobs, pains, and gains from your product value propositions
 > 7. vagueness: vague jobs, pains, and gains
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-05-03T17:30:19.548044+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2025-06-03T13:49:09.435620+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←hyperfocus: focusing on functional jobs only
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains
 - insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes
-- mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions
+- mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation
+- opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_
 

@@ -524,12 +524,12 @@ The content is in teaching order.
 - grades: 27/36 → 28/36
   - statistics
     - timestamps: 2025-04-10T09:00+08:00 → 2025-04-10T17:50+08:00
-    - count: 32 → 32
-    - mean: 26.69 → ?
+    - count: 31 → 31
+    - mean: 26.87 → ?
     - standard deviation: 5.72 → ?
     - low: 11 → ?
-    - lower quartile: 23.75 → ?
-    - median: 27.5 → ?
+    - lower quartile: 24.5 → ?
+    - median: 28 → ?
     - upper quartile: 30 → ?
     - high: 35 → ?
     - distribution: ![midterm examination distribution](attachments/midterm%20examination%20analysis.svg) → ?
