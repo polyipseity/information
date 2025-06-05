@@ -15,7 +15,7 @@ tags:
 
 - see: [vis-viva equation](vis-viva%20equation.md)
 
-A satellite in orbit conserves {@{its mechanical energy, which is the sum of its [kinetic energy](kinetic%20energy.md) and its [gravitational potential energy](gravitational%20energy.md)}@}. This explains the closer the satellite is to Earth, {@{the higher its [velocity](velocity.md), and vice versa}@}. <!--SR:!2025-05-17,226,330!2025-06-02,237,330-->
+A satellite in orbit conserves {@{its mechanical energy, which is the sum of its [kinetic energy](kinetic%20energy.md) and its [gravitational potential energy](gravitational%20energy.md)}@}. This explains the closer the satellite is to Earth, {@{the higher its [velocity](velocity.md), and vice versa}@}. <!--SR:!2028-03-10,1028,350!2028-05-15,1078,350-->
 
 ## references
 

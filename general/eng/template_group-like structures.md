@@ -43,7 +43,7 @@ tags:
 >
 > - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-11-26,251,330!2025-12-23,272,330-->
 > - partial magma ::@:: (none) <!--SR:!2025-12-19,268,330!2025-12-17,266,330-->
-> - semigroupoid ::@:: associative <!--SR:!2025-06-01,85,230!2025-07-15,118,250-->
+> - semigroupoid ::@:: associative <!--SR:!2025-12-11,193,230!2025-07-15,118,250-->
 > - small category ::@:: associative, identity <!--SR:!2025-10-08,196,310!2026-01-14,290,330-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2025-07-03,122,290!2025-06-25,105,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-06-26,76,210!2025-10-06,194,310-->
@@ -54,11 +54,11 @@ tags:
 > - unital magma ::@:: total, identity <!--SR:!2025-11-06,234,330!2025-06-25,114,290-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-11-30,255,330!2025-08-20,170,310-->
 > - loop ::@:: total, identity, divisible <!--SR:!2025-06-13,42,250!2025-06-21,106,250-->
-> - semigroup ::@:: total, associative <!--SR:!2025-06-24,106,250!2025-06-05,57,230-->
-> - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-06-14,98,250!2025-05-18,19,190-->
+> - semigroup ::@:: total, associative <!--SR:!2025-06-24,106,250!2025-10-13,130,230-->
+> - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-06-14,98,250!2025-06-12,8,150-->
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-09-29,175,270!2025-06-07,77,210-->
-> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-05-16,56,270!2025-11-15,207,250-->
-> - monoid ::@:: total, associative, identity <!--SR:!2025-05-30,65,270!2025-09-07,162,270-->
+> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-06-19,29,250!2025-11-15,207,250-->
+> - monoid ::@:: total, associative, identity <!--SR:!2025-11-22,176,270!2025-09-07,162,270-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2025-07-18,80,170-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2025-10-22,205,310!2025-09-10,176,310-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-12-18,267,330!2026-01-14,290,330-->

@@ -84,7 +84,7 @@ See also [Vim help files](https://vimhelp.org/).
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2025-06-24,647,313!2026-04-26,761,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2025-12-25,783,328-->
 - repeat last search ::@:: n <!--SR:!2027-02-27,1125,333!2025-11-18,767,328-->
-- repeat last search reversed ::@:: N <!--SR:!2025-06-01,631,313!2027-07-07,1088,288-->
+- repeat last search reversed ::@:: N <!--SR:!2032-11-23,2731,333!2027-07-07,1088,288-->
 - repeat last search forward ::@:: /\<Enter\> <!--SR:!2027-06-26,1080,293!2027-09-29,1159,293-->
 - repeat last search backward ::@:: ?\<Enter\> <!--SR:!2029-10-17,1826,313!2025-09-11,602,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\] ::@:: :\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2031-02-08,2118,293!2026-12-23,1021,333-->
@@ -97,7 +97,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## options
 
 - show ([option](#list%20of%20options)) value ::@:: :se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2027-07-23,1071,293!2026-08-15,908,327-->
-- set boolean but show non-boolean ([option](#list%20of%20options)) ::@:: :se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2026-11-05,1038,333!2025-05-10,497,268-->
+- set boolean but show non-boolean ([option](#list%20of%20options)) ::@:: :se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2026-11-05,1038,333!2030-07-02,1856,288-->
 - unset boolean ([option](#list%20of%20options)) ::@:: :se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2026-01-11,646,273!2028-12-07,1669,353-->
 - invert boolean ([option](#list%20of%20options)) ::@:: :se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2025-11-20,474,313!2025-08-25,695,313-->
 

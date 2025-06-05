@@ -19,7 +19,7 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 ### category reduction
 
-There are {@{some restrictions on the distinct values of an attribute}@} depending on the XLMiner edition. One way to resolve this is {@{merging some values into the same value}@}. Funny enough, the category reduction, which is designed for this workload, also has {@{restrictions on the distinct values depending on the XLMiner edition}@}. So {@{multiple category reductions on a subset of distinct values}@} may be needed if there are too many distinct values. <!--SR:!2025-09-04,345,355!2025-09-23,364,355!2025-10-14,379,355!2025-05-26,266,335-->
+There are {@{some restrictions on the distinct values of an attribute}@} depending on the XLMiner edition. One way to resolve this is {@{merging some values into the same value}@}. Funny enough, the category reduction, which is designed for this workload, also has {@{restrictions on the distinct values depending on the XLMiner edition}@}. So {@{multiple category reductions on a subset of distinct values}@} may be needed if there are too many distinct values. <!--SR:!2025-09-04,345,355!2025-09-23,364,355!2025-10-14,379,355!2028-10-11,1227,355-->
 
 XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency and manually}@}. The first option {@{reduces the values with the smallest frequencies into one value and leave the rest intact}@}. The second option {@{reduces the values using a user-specified table mapping current values to new values}@}. <!--SR:!2025-09-08,349,355!2028-02-09,1043,355!2025-07-01,274,335!2025-06-17,265,335-->
 
@@ -49,7 +49,7 @@ XLMiner can partition the dataset into {@{3 datasets}@}: {@{training set, valida
 
 - see: [general/random seed](../general/random%20seed.md)
 
-Computers usually generate random numbers using a {@{[pseudorandom number generator](../general/pseudorandom%20number%20generator.md), which is usually a _deterministic_ algorithm that generates a random number from the previous random number}@}. Thus, to generate the first number, it needs {@{an initial "previous random number", which is called the _random seed_}@}. Since the algorithm is _deterministic_, given the same algorithm and {@{the same random seed, the sequence of randomly generated numbers are always the same}@}. <!--SR:!2025-05-16,306,330!2027-01-14,770,330!2026-02-06,486,310-->
+Computers usually generate random numbers using a {@{[pseudorandom number generator](../general/pseudorandom%20number%20generator.md), which is usually a _deterministic_ algorithm that generates a random number from the previous random number}@}. Thus, to generate the first number, it needs {@{an initial "previous random number", which is called the _random seed_}@}. Since the algorithm is _deterministic_, given the same algorithm and {@{the same random seed, the sequence of randomly generated numbers are always the same}@}. <!--SR:!2029-03-25,1392,350!2027-01-14,770,330!2026-02-06,486,310-->
 
 The seed option present in various interfaces is {@{simply the random seed to generate random numbers for use by the selected data mining algorithm}@}, so given the same data, inputting the same seed {@{will give the same result, even if the data mining algorithm requires random numbers}@}. If producing the same result is undesirable, we can use {@{the current time in milliseconds as the seed}@}. <!--SR:!2025-09-03,361,290!2026-10-02,688,330!2026-07-05,626,330-->
 

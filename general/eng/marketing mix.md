@@ -15,7 +15,7 @@ tags:
 
 The original marketing mix, or 4Ps, are {@{_product_, _price_, _place_, and _promotion_}@}. <!--SR:!2027-10-14,951,350-->
 
-__Product__ refers to {@{the offered products or services}@}. For example, it includes {@{brand, functionality, packaging, services, etc.}@} <!--SR:!2025-06-02,277,330!2025-07-16,231,290-->
+__Product__ refers to {@{the offered products or services}@}. For example, it includes {@{brand, functionality, packaging, services, etc.}@} <!--SR:!2028-11-13,1260,350!2025-07-16,231,290-->
 
 __Price__ refers to {@{the monetary and psychological costs}@}. For example, it includes {@{bundling, credit terms, discounts, list pricing, etc.}@} <!--SR:!2026-04-25,504,310!2027-11-26,955,330-->
 

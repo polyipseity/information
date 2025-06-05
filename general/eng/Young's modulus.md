@@ -12,7 +12,7 @@ __Young's modulus__ (or __Young modulus__) is {@{a mechanical property of solid 
 
 ## definition
 
-Young's modulus {@{$E$}@} quantifies {@{the relationship between tensile or compressive [stress](stress%20(mechanics).md) $\sigma$ and axial [strain](strain%20(mechanics).md) $\varepsilon$}@} in the {@{[linear elastic](linear%20elasticity.md) region of a material (within the elastic limit)}@}: {@{$$E = \frac \sigma \varepsilon$$}@} <!--SR:!2025-05-30,291,330!2025-09-22,338,290!2026-08-27,636,330!2026-08-24,581,310-->
+Young's modulus {@{$E$}@} quantifies {@{the relationship between tensile or compressive [stress](stress%20(mechanics).md) $\sigma$ and axial [strain](strain%20(mechanics).md) $\varepsilon$}@} in the {@{[linear elastic](linear%20elasticity.md) region of a material (within the elastic limit)}@}: {@{$$E = \frac \sigma \varepsilon$$}@} <!--SR:!2029-01-14,1324,350!2025-09-22,338,290!2026-08-27,636,330!2026-08-24,581,310-->
 
 The higher the Young's modulus, the {@{[stiffer](stiffness.md) it is}@}, and vice versa. The modulus has units {@{N/m<sup>2</sup>}@}. <!--SR:!2028-02-20,1068,350!2026-09-01,636,330-->
 

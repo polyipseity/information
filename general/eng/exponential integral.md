@@ -17,7 +17,7 @@ For nonzero [real](real%20number.md) $x$, $Ei(x)$ is defined as:
 
 > {@{__for nonzero [reals](real%20number.md)__}@}
 >
-> {@{$\operatorname{Ei}(x) = \int _{-\infty} ^x \! \frac {e^t} t \,\mathrm{d}t = -\int _{-x} ^\infty \! \frac {e^{-t} } t \,\mathrm{d}t \qquad x \in \mathbb{R} _{\ne0}$}@} <!--SR:!2025-05-14,355,290!2025-05-18,335,230-->
+> {@{$\operatorname{Ei}(x) = \int _{-\infty} ^x \! \frac {e^t} t \,\mathrm{d}t = -\int _{-x} ^\infty \! \frac {e^{-t} } t \,\mathrm{d}t \qquad x \in \mathbb{R} _{\ne0}$}@} <!--SR:!2029-04-17,1431,310!2027-07-07,777,230-->
 
 ## references
 

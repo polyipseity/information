@@ -18,7 +18,7 @@ Treating {@{silver [salts](salt%20(chemistry).md) with a [base](base%20(chemistr
 > treating with [bases](base%20(chemistry).md)
 >
 > 1. {@{2Ag<sup>+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ag<sub>2</sub>O(s) + H<sub>2</sub>O(l)}@}
-> 2. {@{Ag<sub>2</sub>O(s) + 4NH<sub>3</sub>(aq) + H<sub>2</sub>O(l) → 2\[Ag(NH<sub>3</sub>)<sub>2</sub>\]<sup>+</sup>(aq) + 2OH<sup>-</sup>(l)}@} <!--SR:!2025-06-01,297,250!2025-11-20,368,250-->
+> 2. {@{Ag<sub>2</sub>O(s) + 4NH<sub>3</sub>(aq) + H<sub>2</sub>O(l) → 2\[Ag(NH<sub>3</sub>)<sub>2</sub>\]<sup>+</sup>(aq) + 2OH<sup>-</sup>(l)}@} <!--SR:!2028-04-08,1042,270!2025-11-20,368,250-->
 
 ## references
 

@@ -34,7 +34,7 @@ In {@{the United Kingdom}@}, {@{the term [net asset value](net%20asset%20value.m
 
 {@{The balance sheet valuation for an asset}@} is {@{the asset's cost basis minus accumulated depreciation}@}.<sup>[\[8\]](#^ref-8)</sup> Similar bookkeeping transactions are used to {@{record amortization and depletion}@}. <!--SR:!2026-01-10,278,330!2026-01-15,283,330!2025-10-04,197,310-->
 
-"{@{Discount on notes payable}@}" is {@{a contra-liability account}@} which {@{decreases the balance sheet valuation of the liability}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-10-08,189,310!2025-11-20,239,330!2025-06-02,91,270-->
+"{@{Discount on notes payable}@}" is {@{a contra-liability account}@} which {@{decreases the balance sheet valuation of the liability}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-10-08,189,310!2025-11-20,239,330!2026-05-16,348,290-->
 
 When {@{a company sells \(issues\) [bonds](bond%20(finance).md)}@}, this debt is {@{a [long-term liability](long-term%20liability.md) on the company's balance sheet}@}, recorded in {@{the account Bonds Payable based on the contract amount}@}. After {@{the bonds are sold}@}, {@{the book value of Bonds Payable}@} is {@{increased or decreased to reflect the actual amount received in payment for the bonds}@}. If {@{the bonds sell for less than [face value](face%20value.md)}@}, {@{the contra account Discount on Bonds Payable}@} is {@{debited for the difference between the amount of cash received and the face value of the bonds}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-12-07,253,330!2025-11-07,227,330!2025-11-27,245,330!2025-11-21,240,330!2025-09-29,193,310!2025-07-15,125,290!2025-11-29,246,330!2025-09-13,180,310!2025-09-01,173,310-->
 
@@ -54,7 +54,7 @@ A corporation's book value is used {@{in fundamental financial analysis to help 
 
 ## tangible common equity
 
-{@{A variation of book value, [tangible common equity](tangible%20common%20equity.md)}@}, has {@{recently come into use by the U.S. federal government in the valuation of troubled banks}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> {@{Tangible common equity}@} is calculated as {@{total book value minus [intangible assets](intangible%20asset.md), [goodwill](goodwill%20(accounting).md), and [preferred equity](preferred%20stock.md)}@}, and can thus be {@{considered the most conservative valuation of a company and the best approximation of its value should it be forced to liquidate}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-09-28,192,310!2025-09-17,186,310!2025-12-08,254,330!2025-09-27,191,310!2025-05-17,90,290-->
+{@{A variation of book value, [tangible common equity](tangible%20common%20equity.md)}@}, has {@{recently come into use by the U.S. federal government in the valuation of troubled banks}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> {@{Tangible common equity}@} is calculated as {@{total book value minus [intangible assets](intangible%20asset.md), [goodwill](goodwill%20(accounting).md), and [preferred equity](preferred%20stock.md)}@}, and can thus be {@{considered the most conservative valuation of a company and the best approximation of its value should it be forced to liquidate}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-09-28,192,310!2025-09-17,186,310!2025-12-08,254,330!2025-09-27,191,310!2026-05-22,369,310-->
 
 Since {@{tangible common equity subtracts preferred equity from the tangible book value}@}, it does {@{a better job estimating what the value of the company is}@} to {@{holders of specifically _common_ stock compared to standard calculations of book value}@}. <!--SR:!2025-09-21,187,310!2025-12-02,249,330!2025-09-15,185,310-->
 
@@ -62,7 +62,7 @@ Since {@{tangible common equity subtracts preferred equity from the tangible boo
 
 To {@{clearly distinguish the [market price](market%20value.md) of shares}@} from {@{the core [ownership equity](ownership%20equity.md) or [shareholders' equity](shareholders'%20equity.md)}@}, {@{the term _book value_}@} is often used since it {@{focuses on the values that have been added and subtracted in the accounting books of a business \(assets – liabilities\)}@}. The term is also used to distinguish between {@{the [market price](market%20value.md) of any asset and its accounting value}@} which {@{depends more on [historical cost](historical%20cost.md) and [depreciation](depreciation.md)}@}. It may be {@{used interchangeably with carrying value}@}. While {@{it can be used to refer to the business' total [equity](ownership%20equity.md)}@}, it is most often used: <!--SR:!2026-01-02,273,330!2025-09-16,182,310!2026-01-03,274,330!2025-12-29,270,330!2026-01-05,276,330!2025-11-19,238,330!2025-11-18,237,330!2026-01-02,273,330-->
 
-- As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2025-05-30,88,270!2025-09-12,179,310-->
+- As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2026-05-04,338,290!2025-09-12,179,310-->
 - As a _diluted per share value_: ::@:: The equity is bumped up by the exercise price of the options, warrants or preferred shares. Then it is divided by the number of shares that has been increased by those added. <!--SR:!2025-09-26,190,310!2025-11-30,247,330-->
 
 ### uses of books
@@ -74,7 +74,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 
 1. The sale of shares/units by the business ::@:: increases the total book value. Book/sh will increase if the additional shares are issued at a price higher than the pre-existing book/sh. <!--SR:!2025-09-22,188,310!2025-12-26,267,330-->
 2. The purchase of its own shares by the business ::@:: will decrease total book value. Book/shares will decrease if more is paid for them than was received when originally issued \(pre-existing book/sh\). <!--SR:!2025-09-23,191,310!2025-10-18,195,310-->
-3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!2025-05-21,94,290!2026-01-01,272,330-->
+3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!2026-06-07,381,310!2026-01-01,272,330-->
 4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2026-01-22,289,330!2026-01-08,277,330!2026-01-07,276,330!2025-09-14,184,310!2025-09-26,189,310-->
 
 ### new share issues and dilution

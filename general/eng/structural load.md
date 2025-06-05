@@ -39,7 +39,7 @@ return (
 )
 ```
 
-Loads can be specified in {@{three ways}@}: {@{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}@}. <!--SR:!2027-10-24,976,350!2025-05-25,290,340-->
+Loads can be specified in {@{three ways}@}: {@{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}@}. <!--SR:!2027-10-24,976,350!2029-02-10,1357,360-->
 
 Loads on civil engineering can be separated into {@{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}@} main categories. <!--SR:!2027-07-16,879,330-->
 
@@ -107,7 +107,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2026-05-23,515,310!2025-07-27,339,340-->
 - [hydrostatic load](#hydrostatic%20load)→::@::←[lateral load](#lateral%20load) <!--SR:!2025-07-13,278,288!2025-11-22,372,300-->
-- [lateral load](#lateral%20load)→::@::←[seismic load](#seismic%20load) <!--SR:!2025-05-27,247,288!2026-02-12,429,300-->
+- [lateral load](#lateral%20load)→::@::←[seismic load](#seismic%20load) <!--SR:!2028-02-10,989,308!2026-02-12,429,300-->
 - [seismic load](#seismic%20load)→::@::←[thermal load](#thermal%20load) <!--SR:!2025-08-01,257,260!2025-07-18,267,260-->
 - [thermal load](#thermal%20load)→::@::←[wind load](#wind%20load) <!--SR:!2027-09-30,889,320!2025-10-14,324,270-->
 - [wind load](#wind%20load)→::@::←_(end)_ <!--SR:!2025-07-16,331,340!2027-12-02,990,348-->
@@ -126,7 +126,7 @@ Lateral load may be caused by {@{bulk materials, [groundwater](groundwater.md), 
 
 For example, there is lateral soil load on {@{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. This lateral soil load can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2026-04-09,465,300!2026-10-01,645,320-->
 
-To protect against soil loads, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2025-05-17,237,280!2026-07-07,581,320-->
+To protect against soil loads, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!2026-07-07,581,320-->
 
 #### seismic load
 
@@ -138,7 +138,7 @@ The consequences are {@{partial or complete collapse of structural elements or e
 
 Thermal load refers to load {@{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2026-04-18,480,308-->
 
-For example, {@{a beam in between two fixed support creates thermal load under heating as the beam expands}@}. A solution would be {@{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, {@{the beam can expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2025-05-26,291,340-->
+For example, {@{a beam in between two fixed support creates thermal load under heating as the beam expands}@}. A solution would be {@{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, {@{the beam can expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360-->
 
 #### wind load
 

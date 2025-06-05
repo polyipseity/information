@@ -111,10 +111,10 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2025-08-30,161,209!2029-02-09,1389,369-->
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains <!--SR:!2025-07-31,287,249!2026-03-17,440,269-->
-- insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2025-05-13,182,189!2025-06-05,52,130-->
+- insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2026-05-17,348,189!2025-08-13,69,130-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-07-17,195,249-->
-- mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-09-12,223,225!2025-05-29,247,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2025-05-21,119,189-->
+- mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-09-12,223,225!2028-02-07,979,305-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2026-04-24,325,209-->
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-10-05,201,169!2026-03-27,353,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2027-03-27,704,289-->
 
@@ -124,7 +124,7 @@ vagueness: vague jobs, pains, and gains
 
 Products and services is {@{simply a list of what you offer}@}, and can also include {@{supporting products and services}@}. It can be {@{physical, intangible, digital, or financial}@}. It is important to recognize products and services do not {@{create value by themselves (no intrinsic values), but in relationship with the customer segment}@}. Note that products and services {@{can have different relevance to your customers}@}. <!--SR:!2026-11-03,648,310!2028-01-14,1022,329!2025-06-27,276,269!2026-11-04,600,270!2026-06-29,611,329-->
 
-Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!2026-08-09,632,329!2025-05-28,285,290!2026-04-06,502,310-->
+Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!2026-08-09,632,329!2028-07-25,1148,310!2026-04-06,502,310-->
 
 Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2027-07-17,907,349!2026-08-29,658,329!2026-05-21,520,309-->
 
@@ -157,9 +157,9 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←all: addressing all customer pains and gains <!--SR:!2025-07-25,290,269!2025-07-05,348,349-->
-- all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2025-07-24,139,209!2025-05-15,166,229-->
+- all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2025-07-24,139,209!2026-11-29,544,249-->
 - irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2026-08-29,478,229!2025-11-03,301,269-->
-- irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2025-05-18,159,229!2026-04-26,465,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2026-10-30,514,249!2026-04-26,465,269-->
 - mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2025-08-30,331,289!2025-07-12,104,149-->
 
 <!--/pytextgen-->
@@ -176,7 +176,7 @@ Design is {@{designing business models from your value proposition}@}. <!--SR:!2
 
 ### prototyping
 
-Prototyping is {@{making quick study models to explore alternatives and reshape your value propositions}@}. <!--SR:!2025-05-31,275,269-->
+Prototyping is {@{making quick study models to explore alternatives and reshape your value propositions}@}. <!--SR:!2028-04-01,1033,289-->
 
 ### interview your customers
 

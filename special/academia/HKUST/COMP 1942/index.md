@@ -139,7 +139,7 @@ The content is in teaching order.
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
-  - similarities and differences between classification and clustering ::@:: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2025-05-18,317,371!2026-03-25,509,327-->
+  - similarities and differences between classification and clustering ::@:: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2029-10-21,1610,391!2026-03-25,509,327-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
   - statistical classification algorithms ::@:: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2028-12-27,1355,371!2027-02-12,804,351-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
@@ -322,7 +322,7 @@ The content is in teaching order.
     - sigmoid function variants ::@:: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$ <p> [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2026-01-25,418,337!2027-03-19,728,357-->
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
-    - perceptron stopping conditions ::@:: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2028-03-27,1084,377!2025-05-24,273,377-->
+    - perceptron stopping conditions ::@:: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2028-03-27,1084,377!2029-04-10,1416,397-->
     - perceptron error trends ::@:: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2026-03-23,522,397!2026-01-24,473,397-->
   - [§ convergence of one perceptron on a linearly separable dataset](../../../../general/perceptron.md#convergence%20of%20one%20perceptron%20on%20a%20linearly%20separable%20dataset)
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
@@ -353,7 +353,7 @@ The content is in teaching order.
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
-- accuracy ::@:: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2025-05-23,249,357!2025-06-11,260,357-->
+- accuracy ::@:: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2028-09-28,1222,377!2025-06-11,260,357-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
 - F-measure ::@:: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2025-10-20,368,377!2025-07-19,313,377-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
@@ -429,7 +429,7 @@ The content is in teaching order.
     - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2026-03-10,509,408!2026-07-01,612,408-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
-    - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2026-03-02,501,397!2025-05-19,269,377-->
+    - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2026-03-02,501,397!2029-03-13,1388,397-->
 
 ## week 14 lecture
 
@@ -466,7 +466,7 @@ The content is in teaching order.
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [Bayesian belief network](../../../../general/Bayesian%20network.md)
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
-  - Bayesian belief network inference setup ::@:: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2025-11-23,394,337!2025-05-28,254,357-->
+  - Bayesian belief network inference setup ::@:: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2025-11-23,394,337!2028-10-27,1244,377-->
   - Bayesian belief network inference process ::@:: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2026-03-09,492,357!2026-09-03,575,337-->
   - Bayesian belief network inference answering ::@:: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and state that the higher conditional probability is the most likely outcome. <!--SR:!2026-03-23,522,397!2028-05-19,1135,377-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
@@ -474,11 +474,11 @@ The content is in teaching order.
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
-- common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2025-05-30,258,357!2026-02-23,494,397-->
+- common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2028-11-15,1263,377!2026-02-23,494,397-->
 - other topics
-  - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2025-06-03,278,377!2026-07-24,543,337-->
+  - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2025-06-18,293,377-->
-  - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2025-05-28,256,357-->
+  - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2028-11-07,1255,377-->
   - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2025-10-17,386,377-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->
   - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2026-02-23,494,397-->

@@ -27,12 +27,12 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - file context menu::@::F4 <!--SR:!2025-12-06,263,170!2026-08-27,855,276-->
 - show render window::@::F11 <!--SR:!2025-09-03,725,315!2026-02-08,678,276-->
 - render::@::F12 <!--SR:!2030-09-22,2158,336!2025-11-29,812,336-->
-- quick access::@::Q <!--SR:!2025-11-25,753,290!2025-05-12,197,230-->
+- quick access::@::Q <!--SR:!2025-11-25,753,290!2027-03-03,639,250-->
 - toggle maximize area::@::Ctrl+Space <!--SR:!2025-08-07,171,150!2027-07-21,1007,256-->
-- toggle fullscreen area::@::Ctrl+Alt+Space <!--SR:!2025-05-20,36,130!2025-06-03,434,196-->
+- toggle fullscreen area::@::Ctrl+Alt+Space <!--SR:!2025-07-21,49,130!2028-10-04,1219,216-->
 - cycle workspace::@::Ctrl+PageUp/PageDown <!--SR:!2026-01-04,419,250!2031-01-19,2240,336-->
 - play/tools/search::@::Space <!--SR:!2033-01-17,2811,336!2033-01-10,2804,336-->
-- reverse playback::@::⇧Shift+Ctrl+Space <!--SR:!2026-09-06,491,190!2025-05-28,146,155-->
+- reverse playback::@::⇧Shift+Ctrl+Space <!--SR:!2026-09-06,491,190!2026-01-18,230,155-->
 
 ### editing
 
@@ -51,10 +51,10 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### 3D viewport
 
-- toggle edit mode::@::Tab↹ <!--SR:!2030-12-05,2196,330!2025-05-21,637,316-->
+- toggle edit mode::@::Tab↹ <!--SR:!2030-12-05,2196,330!2033-01-12,2781,336-->
 - open mode pie menu/toggle pose mode::@::Ctrl+Tab↹ <!--SR:!2028-05-16,1423,296!2025-11-07,325,196-->
 - toggle vertex/edge/face mode::@::1/2/3 <!--SR:!2025-08-08,723,336!2027-10-09,1153,296-->
 - toggle vertex/edge/face mode + multiple modes::@::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
-- toggle vertex/edge/face mode + expand/contract selection::@::+Ctrl <!--SR:!2025-05-30,476,276!2025-10-24,557,256-->
+- toggle vertex/edge/face mode + expand/contract selection::@::+Ctrl <!--SR:!2030-06-08,1832,296!2025-10-24,557,256-->
 - toggle gizmos::@::Ctrl+\` <!--SR:!2025-07-07,133,150!2025-06-27,204,196-->
 - start walk/fly navigation::@::⇧Shift+\` <!--SR:!2025-06-28,277,230!2025-07-12,112,150-->

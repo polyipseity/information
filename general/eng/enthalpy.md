@@ -25,7 +25,7 @@ For [endothermic processes](endothermic%20process.md), {@{heat is absorbed while
 > {@{$$H = U + pV$$}@}
 >
 > - where
->   - [state variables](state%20variable.md): {@{$H$ is the enthalpy, $U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}@} <!--SR:!2025-11-06,376,334!2025-06-04,427,374-->
+>   - [state variables](state%20variable.md): {@{$H$ is the enthalpy, $U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}@} <!--SR:!2025-11-06,376,334!2031-05-31,2187,394-->
 
 ## applications
 

@@ -30,7 +30,7 @@ An element cannot be {@{broken down or transformed by chemical methods}@}. <!--S
 
 ## chemical compound
 
-A compound is made up of {@{multiple elements chemically combined}@}. <!--SR:!2025-05-15,553,290-->
+A compound is made up of {@{multiple elements chemically combined}@}. <!--SR:!2031-06-22,2228,310-->
 
 ## notes
 

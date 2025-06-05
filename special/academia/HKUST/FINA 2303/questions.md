@@ -37,7 +37,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{1/2}@} <!--SR:!2025-05-11,67,310-->
+> - solution: {@{1/2}@} <!--SR:!2026-03-11,294,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -60,7 +60,7 @@ tags:
 > 4. D
 > 5. F
 >
-> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-05-10,66,310-->
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2026-03-03,286,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -99,7 +99,7 @@ tags:
 > 2. No.
 >
 > - solution: {@{2}@}
-> - explanation: {@{The new fact does not affect the present value.}@} <!--SR:!2025-05-20,73,319!2025-05-20,73,319-->
+> - explanation: {@{The new fact does not affect the present value.}@} <!--SR:!2026-04-15,329,339!2026-04-14,328,339-->
 
 <!-- markdownlint MD028 -->
 
@@ -111,7 +111,7 @@ tags:
 > Which prize should you claim?
 >
 > - solution: {@{1}@}
-> - explanation: {@{Ignore face values. Use market prices, which in this case are eBay prices.}@} <!--SR:!2025-05-20,73,319!2025-05-20,73,319-->
+> - explanation: {@{Ignore face values. Use market prices, which in this case are eBay prices.}@} <!--SR:!2026-04-15,329,339!2026-04-13,327,339-->
 
 <!-- markdownlint MD028 -->
 
@@ -123,7 +123,7 @@ tags:
 > 4. if the markets where the goods are trading are competitive.
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@} <!--SR:!2025-05-20,73,319!2025-05-19,72,319-->
+> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@} <!--SR:!2026-04-13,327,339!2026-04-09,323,339-->
 
 <!-- markdownlint MD028 -->
 
@@ -138,7 +138,7 @@ tags:
 > 2. benefit in 1 year
 > 3. cost in today's cash
 >
-> - solution: {@{1}@} <!--SR:!2025-05-20,73,319-->
+> - solution: {@{1}@} <!--SR:!2026-04-14,328,339-->
 
 ## week 2 lecture
 
@@ -150,7 +150,7 @@ tags:
 > 4. to receive \$133.1 at the end of year 2016
 > 5. choices 1, 2, 3 and 4 are equally attractive
 >
-> - solution: {@{5}@} <!--SR:!2025-05-29,77,337-->
+> - solution: {@{5}@} <!--SR:!2026-05-22,355,357-->
 
 <!-- markdownlint MD028 -->
 
@@ -164,7 +164,7 @@ tags:
 > 4. \$145&nbsp;998
 >
 > - solution: {@{1}@}
-> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2025-05-29,77,337!2025-05-29,77,337-->
+> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2026-05-26,359,357!2026-05-21,354,357-->
 
 <!-- markdownlint MD028 -->
 
@@ -176,7 +176,7 @@ tags:
 > 4. 9%
 >
 > - solution: {@{2}@}
-> - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2025-05-29,77,337!2025-05-29,77,337-->
+> - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2026-05-24,357,357!2026-05-25,358,357-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ tags:
 > 4. 40
 >
 > - solution: {@{2}@}
-> - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2025-05-29,77,337!2025-05-29,77,337-->
+> - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2026-05-22,355,357!2026-05-23,356,357-->
 
 ## week 2 lecture 2
 
@@ -198,7 +198,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2025-05-28,74,342!2025-05-12,57,322-->
+> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2026-05-16,349,362!2026-01-27,251,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -208,7 +208,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2025-06-05,80,342!2025-06-03,79,342-->
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2026-06-16,376,362!2026-06-10,371,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,7 +222,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2025-05-27,73,342!2025-06-19,85,302-->
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2026-05-17,350,362!2025-06-19,85,302-->
 
 ## week 3 lecture
 
@@ -233,7 +233,7 @@ tags:
 > 3. 6%
 > 4. Cannot be determined
 >
-> - solution: {@{2}@} <!--SR:!2025-06-04,75,353-->
+> - solution: {@{2}@} <!--SR:!2026-06-03,364,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -243,7 +243,7 @@ tags:
 > 2. No
 >
 > - solution: {@{2}@}
-> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2025-06-05,76,353!2025-06-05,76,353-->
+> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2026-06-10,370,373!2026-06-07,367,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -255,7 +255,7 @@ tags:
 > 4. PV of a growing perpetuity with payment starting in year 0 and PV of a growing perpetuity with payment starting in year 11
 >
 > - solution: {@{3}@}
-> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!2025-06-05,76,353!2025-06-04,75,353-->
+> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!2026-06-11,371,373!2026-06-04,365,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -271,7 +271,7 @@ tags:
 >
 > - solution: {@{1}@}
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
-> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2025-05-15,55,333!2026-01-02,239,353!2025-05-21,63,333-->
+> - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2026-01-28,252,353!2026-01-02,239,353!2026-03-12,295,353-->
 
 ## week 3 lecture 2
 
@@ -280,7 +280,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-05,76,353-->
+> - solution: {@{1}@} <!--SR:!2026-06-09,369,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -289,7 +289,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-05,76,353-->
+> - solution: {@{1}@} <!--SR:!2026-06-13,373,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -301,7 +301,7 @@ tags:
 > 2. Bank B
 > 3. They are the same
 >
-> - solution: {@{1}@} <!--SR:!2025-06-05,76,353-->
+> - solution: {@{1}@} <!--SR:!2026-06-08,368,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -314,7 +314,7 @@ tags:
 > 3. 360
 > 4. 372
 >
-> - solution: {@{3}@} <!--SR:!2025-06-05,76,353-->
+> - solution: {@{3}@} <!--SR:!2026-06-05,365,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -326,7 +326,7 @@ tags:
 > 4. 6.00%
 >
 > - solution: {@{3}@}
-> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!2025-06-05,76,353!2025-06-05,76,353-->
+> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!2026-06-06,366,373!2026-06-12,372,373-->
 
 ## week 4 lecture
 

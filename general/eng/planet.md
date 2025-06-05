@@ -9,7 +9,7 @@ tags:
 
 # planet
 
-A __planet__ is {@{a large, [rounded](hydrostatic%20equilibrium.md) [astronomical body](astronomical%20object.md) that is generally required to be in [orbit](orbit.md) around a [star](star.md), [stellar remnant](compact%20object.md), or [brown dwarf](brown%20dwarf.md), and is not one itself}@}. It may or may not {@{include [dwarf planets](dwarf%20planet.md)}@}. <!--SR:!2026-11-05,600,310!2025-05-21,252,330-->
+A __planet__ is {@{a large, [rounded](hydrostatic%20equilibrium.md) [astronomical body](astronomical%20object.md) that is generally required to be in [orbit](orbit.md) around a [star](star.md), [stellar remnant](compact%20object.md), or [brown dwarf](brown%20dwarf.md), and is not one itself}@}. It may or may not {@{include [dwarf planets](dwarf%20planet.md)}@}. <!--SR:!2026-11-05,600,310!2028-07-14,1147,350-->
 
 ## references
 

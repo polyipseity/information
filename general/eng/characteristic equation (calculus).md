@@ -28,7 +28,7 @@ For a distinct real root $r_n$, its corresponding solution is {@{$$y_n(x)=c_ne^{
 
 ### repeated real roots
 
-For a root $r$ of [multiplicity](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md) $k$, its corresponding solution is {@{$$y_1(x)+y_2(x)+\cdots+y_{k}(x)=c_1e^{rx}+xc_2e^{rx}+\cdots+x^{k-1}c_ke^{rx}$$}@}. <!--SR:!2025-05-25,359,290-->
+For a root $r$ of [multiplicity](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md) $k$, its corresponding solution is {@{$$y_1(x)+y_2(x)+\cdots+y_{k}(x)=c_1e^{rx}+xc_2e^{rx}+\cdots+x^{k-1}c_ke^{rx}$$}@}. <!--SR:!2028-03-30,1040,290-->
 
 ### complex roots
 

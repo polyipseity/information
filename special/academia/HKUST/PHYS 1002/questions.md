@@ -194,7 +194,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 366 days
 >
 > - solution: {@{4}@}
-> - explanation: {@{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}@} <!--SR:!2025-05-14,232,332!2025-12-03,322,272-->
+> - explanation: {@{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}@} <!--SR:!2028-04-28,1062,352!2025-12-03,322,272-->
 
 ## 2024-07-09
 
@@ -207,7 +207,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. proportional to r
 >
 > - solution: {@{2}@}
-> - explanation: {@{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}@} <!--SR:!2026-01-30,395,321!2025-05-22,234,341-->
+> - explanation: {@{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}@} <!--SR:!2026-01-30,395,321!2027-08-08,798,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -220,7 +220,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. proportional to $r^2$
 >
 > - solution: {@{1}@}
-> - explanation: {@{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}@} <!--SR:!2027-02-26,721,341!2025-05-22,202,281-->
+> - explanation: {@{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}@} <!--SR:!2027-02-26,721,341!2026-12-21,568,281-->
 
 ## 2024-07-11
 
@@ -342,7 +342,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 4.92 W/m^2
 >
 > - solution: {@{2}@}
-> - explanation: {@{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}@} <!--SR:!2025-05-28,238,351!2025-12-17,345,311-->
+> - explanation: {@{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}@} <!--SR:!2028-07-23,1148,371!2025-12-17,345,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -401,7 +401,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. 1.5 m
 >
 > - solution: {@{1}@}
-> - explanation: {@{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}@} <!--SR:!2025-07-31,287,351!2025-05-19,211,331-->
+> - explanation: {@{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}@} <!--SR:!2025-07-31,287,351!2027-04-29,697,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -465,7 +465,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^(-10) m
 >
 > - solution: {@{2}@}
-> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}@} <!--SR:!2025-05-28,223,345!2026-02-25,397,325-->
+> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}@} <!--SR:!2028-04-21,1055,365!2026-02-25,397,325-->
 
 <!-- markdownlint MD028 -->
 
@@ -537,7 +537,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 0.001 times
 >
 > - solution: {@{1}@}
-> - explanation: {@{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}@} <!--SR:!2025-05-24,215,345!2025-11-04,325,325-->
+> - explanation: {@{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}@} <!--SR:!2028-03-15,1018,365!2025-11-04,325,325-->
 
 ## 2024-08-06
 

@@ -11,7 +11,7 @@ tags:
 
 # Eddington luminosity
 
-The {@{__Eddington luminosity__, also referred to as the __Eddington limit__}@}, is {@{the maximum [luminosity](luminosity.md) a body (such as a [star](star.md)) can achieve when there is balance between the force of radiation acting outward and the [gravitational force](gravity.md) acting inward}@}. <!--SR:!2025-09-07,313,330!2025-05-29,231,330-->
+The {@{__Eddington luminosity__, also referred to as the __Eddington limit__}@}, is {@{the maximum [luminosity](luminosity.md) a body (such as a [star](star.md)) can achieve when there is balance between the force of radiation acting outward and the [gravitational force](gravity.md) acting inward}@}. <!--SR:!2025-09-07,313,330!2028-04-15,1051,350-->
 
 ## references
 

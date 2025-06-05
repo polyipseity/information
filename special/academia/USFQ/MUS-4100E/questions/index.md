@@ -164,7 +164,7 @@ tags:
 >
 > Why was no music recorded between 1942 and 1944?
 >
-> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially. Another factor is musicians' strike.}@} <!--SR:!2025-05-27,48,320-->
+> - solution: {@{\(for reference\) This style of music was created without considering if the music could be commercially successful and did not attract major record labels initially, so no formal recording was done initially. Another factor is musicians' strike.}@} <!--SR:!2025-12-25,207,340-->
 
 <!-- markdownlint MD028 -->
 
@@ -185,7 +185,7 @@ tags:
 > 4. Thelonious Monk
 > 5. Charlie Christian
 >
-> - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@} <!--SR:!2025-05-11,33,300-->
+> - solution: {@{1: 4, 2: 3, 3: 2, 4: 1}@} <!--SR:!2025-10-14,135,320-->
 
 ## 1959
 
@@ -201,7 +201,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What made 1959 such an important year in jazz? What happened?
 >
-> - solution: {@{\(for reference\) Jazz is reaching white America. Several experimental jazz recordings, e.g. _The Shape of Jazz_ came out and became popular, shaping jazz for years to come.}@} <!--SR:!2025-05-10,18,335-->
+> - solution: {@{\(for reference\) Jazz is reaching white America. Several experimental jazz recordings, e.g. _The Shape of Jazz_ came out and became popular, shaping jazz for years to come.}@} <!--SR:!2025-08-21,81,355-->
 
 <!-- markdownlint MD028 -->
 
@@ -209,7 +209,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > According to the documentary "1959" what is the name of the record that started experimenting with free jazz and started the free jazz movement?
 >
-> - solution: {@{_The Shape of Jazz to Come_}@} <!--SR:!2025-05-10,18,335-->
+> - solution: {@{_The Shape of Jazz to Come_}@} <!--SR:!2025-08-20,80,355-->
 
 <!-- markdownlint MD028 -->
 
@@ -217,7 +217,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What is Fables of Faubus and why was it important?
 >
-> - solution: {@{\(for reference\) It was one of Charles Mingus' work. It had political messages about racial issues. Specifically, its lyrics opposed Arkansas governor Orval Faubus.}@} <!--SR:!2025-05-10,18,335-->
+> - solution: {@{\(for reference\) It was one of Charles Mingus' work. It had political messages about racial issues. Specifically, its lyrics opposed Arkansas governor Orval Faubus.}@} <!--SR:!2025-08-23,83,355-->
 
 <!-- markdownlint MD028 -->
 
@@ -225,7 +225,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What contribution did the record "Time Out" have on future jazz generations?
 >
-> - solution: {@{\(for reference\) It was very expermental with time signature. It was very popular, and made jazz well-known.}@} <!--SR:!2025-05-10,18,335-->
+> - solution: {@{\(for reference\) It was very expermental with time signature. It was very popular, and made jazz well-known.}@} <!--SR:!2025-08-24,84,355-->
 
 <!-- markdownlint MD028 -->
 
@@ -238,4 +238,4 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 > 3. modal jazz record
 > 4. electric jazz record
 >
-> - solution: {@{3}@} <!--SR:!2025-05-10,18,335-->
+> - solution: {@{3}@} <!--SR:!2025-08-22,82,355-->

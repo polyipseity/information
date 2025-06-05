@@ -98,7 +98,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >   - [spring](spring%20(device).md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}@}
 >   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}@}
->   - initial properties: {@{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}@} <!--SR:!2025-06-01,350,290!2026-04-03,634,330!2026-06-16,573,270!2027-01-18,744,290!2026-10-02,642,270!2025-08-26,141,183-->
+>   - initial properties: {@{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}@} <!--SR:!2029-04-12,1411,310!2026-04-03,634,330!2026-06-16,573,270!2027-01-18,744,290!2026-10-02,642,270!2025-08-26,141,183-->
 
 <!-- markdownlint MD028 -->
 
@@ -130,7 +130,7 @@ Additionally, for negative damping ratios:
 
 > __negative damping__
 >
-> If $\zeta < 0$, {@{then the system is driven rather than damped. The driving [force](force.md) increases as the [velocity](velocity.md) increases. Therefore, the [amplitude](amplitude.md) increases without bound as $e^{\lvert \lambda \rvert t}$. It is very similar (but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$ but going back in [time](time.md)}@}. This is {@{unnatural in the natural world, but can happen under some circumstances, such as the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened and the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}@}. The equations in the above regimes applies to negative damping as well. Choose the equation that applies to the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$. <!--SR:!2025-05-29,314,250!2025-07-25,301,243-->
+> If $\zeta < 0$, {@{then the system is driven rather than damped. The driving [force](force.md) increases as the [velocity](velocity.md) increases. Therefore, the [amplitude](amplitude.md) increases without bound as $e^{\lvert \lambda \rvert t}$. It is very similar (but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$ but going back in [time](time.md)}@}. This is {@{unnatural in the natural world, but can happen under some circumstances, such as the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened and the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}@}. The equations in the above regimes applies to negative damping as well. Choose the equation that applies to the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$. <!--SR:!2027-07-28,789,250!2025-07-25,301,243-->
 
 ## _Q_ factor and decay rate
 

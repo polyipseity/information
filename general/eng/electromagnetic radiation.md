@@ -12,13 +12,13 @@ tags:
 
 # electromagnetic radiation
 
-__Electromagnetic radiation__ (__EMR__) consists of {@{[waves](wave.md) of the [electromagnetic field](electromagnetic%20field.md)}@}.  It {@{propagates through [space](space.md) and carry [momentum](momentum.md) and electromagnetic [radiant energy](radiant%20energy.md)}@}. In {@{[quantum mechanics](quantum%20mechanics.md)}@}, EMR is viewed as {@{consisting of [photons](photon.md) (also see [wave–particle duality](wave–particle%20duality.md))}@}. <!--SR:!2025-05-25,624,270!2025-06-29,257,326!2025-07-12,257,326!2025-11-02,365,346-->
+__Electromagnetic radiation__ (__EMR__) consists of {@{[waves](wave.md) of the [electromagnetic field](electromagnetic%20field.md)}@}.  It {@{propagates through [space](space.md) and carry [momentum](momentum.md) and electromagnetic [radiant energy](radiant%20energy.md)}@}. In {@{[quantum mechanics](quantum%20mechanics.md)}@}, EMR is viewed as {@{consisting of [photons](photon.md) (also see [wave–particle duality](wave–particle%20duality.md))}@}. <!--SR:!2031-11-02,2352,290!2025-06-29,257,326!2025-07-12,257,326!2025-11-02,365,346-->
 
 ## properties
 
 ### wave model
 
-{@{The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)}@} in the electromagnetic radiation {@{oscillates perpendicularly in sync}@}. <!--SR:!2025-05-29,628,270!2025-06-26,642,270-->
+{@{The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)}@} in the electromagnetic radiation {@{oscillates perpendicularly in sync}@}. <!--SR:!2031-11-23,2368,290!2025-06-26,642,270-->
 
 {@{[Electric charges](electric%20charge.md) have an [oscillating](oscillation.md) [force](force.md) applied}@} by the electric field in the radiation. <!--SR:!2025-06-20,436,210-->
 

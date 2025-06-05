@@ -9,7 +9,7 @@ tags:
 
 # amphoterism
 
-An {@{__amphoteric__}@} [compound](chemical%20compound.md) {@{can react both as an [acid](acid.md) and a [base](base%20(chemistry).md)}@}. <!--SR:!2025-05-14,567,310!2025-07-25,624,310-->
+An {@{__amphoteric__}@} [compound](chemical%20compound.md) {@{can react both as an [acid](acid.md) and a [base](base%20(chemistry).md)}@}. <!--SR:!2032-01-13,2432,330!2025-07-25,624,310-->
 
 ## references
 

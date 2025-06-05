@@ -37,11 +37,11 @@ Suppliers' power is high if {@{there are few suppliers, and low if there are man
 
 ### industry rivalry
 
-Industry rivalry is {@{the extent of competition among existing firms}@}. <!--SR:!2025-05-27,274,330-->
+Industry rivalry is {@{the extent of competition among existing firms}@}. <!--SR:!2028-10-28,1247,350-->
 
 ## usage
 
-Porter's five forces framework is great for {@{classical industries involving physical goods}@}, but not {@{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}@}. <!--SR:!2025-05-17,264,330!2027-07-18,802,290-->
+Porter's five forces framework is great for {@{classical industries involving physical goods}@}, but not {@{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}@}. <!--SR:!2028-08-30,1201,350!2027-07-18,802,290-->
 
 ## references
 

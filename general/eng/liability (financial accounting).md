@@ -15,8 +15,8 @@ In [financial accounting](financial%20accounting.md), a __liability__ is {@{a qu
 
 A liability is defined by the following characteristics:
 
-- [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2025-05-18,168,310!2025-06-10,195,310-->
-- [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2025-05-12,146,250!2026-03-29,408,310-->
+- [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2027-05-13,721,330!2025-06-10,195,310-->
+- [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2026-10-21,517,270!2026-03-29,408,310-->
 - [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2025-07-02,189,270!2025-09-18,281,330-->
 - [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2025-07-20,232,330!2027-03-06,688,330-->
 
@@ -30,13 +30,13 @@ Probably the most accepted accounting definition of liability is {@{the one used
 
 > A liability is {@{a present obligation of the enterprise arising from past events, the settlement of which is expected to result in an outflow from the enterprise of resources embodying economic benefits}@}
 >
-> —&hairsp;F.49(b) <!--SR:!2025-05-13,174,310-->
+> —&hairsp;F.49(b) <!--SR:!2027-06-07,746,330-->
 
 Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}. <!--SR:!2025-06-08,183,310-->
 
-Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2025-05-26,183,310-->
+Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2027-07-26,791,330-->
 
-__Liabilities__ are {@{debts and obligations of the business they represent as __creditor's claim__ on business assets}@}. <!--SR:!2025-05-26,174,310-->
+__Liabilities__ are {@{debts and obligations of the business they represent as __creditor's claim__ on business assets}@}. <!--SR:!2027-06-11,746,330-->
 
 ## classification
 
@@ -53,7 +53,7 @@ When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@
 
 A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2025-08-11,250,330!2025-06-27,208,310!2025-06-09,194,310!2025-08-31,264,330-->
 
-When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2025-05-10,172,310!2025-06-03,189,310!2027-03-03,679,330-->
+When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2027-05-31,739,330!2027-08-24,812,330!2027-03-03,679,330-->
 
 When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2025-07-06,220,330!2025-08-02,242,330!2025-09-25,286,330-->
 

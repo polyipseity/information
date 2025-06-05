@@ -43,7 +43,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←create positive first impression <!--SR:!2025-07-13,396,310!2028-07-23,1365,350-->
 - create positive first impression→::@::←emphasize your knowledge of the company <!--SR:!2027-09-14,1036,310!2027-03-06,887,330-->
-- emphasize your knowledge of the company→::@::←include extra information not in the [résumé](résumé.md) <!--SR:!2026-04-12,479,250!2025-05-13,301,270-->
+- emphasize your knowledge of the company→::@::←include extra information not in the [résumé](résumé.md) <!--SR:!2026-04-12,479,250!2028-07-07,1133,290-->
 - include extra information not in the [résumé](résumé.md)→::@::←mention your referees <!--SR:!2026-03-18,526,270!2026-09-19,563,250-->
 - mention your referees→::@::←_(end)_ <!--SR:!2028-10-21,1326,330!2028-08-08,1217,290-->
 
@@ -53,7 +53,7 @@ return await memorize_seq(
 
 - cover email ::@:: (recipient); Refer to your vacancy of (position), please find attached my CV and cover letter for your consideration.; (signature) <!--SR:!2026-09-02,498,338!2025-07-06,376,358-->
 - date format ::@:: 1<sup>st</sup> January, 1970 <!--SR:!2028-09-17,1400,350!2028-08-17,1261,358-->
-- formatting ::@:: minimal <!--SR:!2028-11-09,1343,310!2025-05-23,343,358-->
+- formatting ::@:: minimal <!--SR:!2028-11-09,1343,310!2030-01-10,1685,378-->
 - recipient ::@:: Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam <!--SR:!2026-01-16,563,310!2026-02-22,489,318-->
 - signature ::@:: Yours sincerely/faithfully,; signature; name <!--SR:!2027-03-10,823,338!2027-11-22,1052,358-->
 

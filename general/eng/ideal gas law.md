@@ -24,7 +24,7 @@ The __ideal gas law__, also called the __general gas equation__, is {@{the [equa
 
 ## energy associated with a gas
 
-For an ideal [monoatomic gas](monoatomic%20gas.md), {@{its [potential energy](potential%20energy.md) is zero due to the lack of [intermolecular forces](intermolecular%20force.md). Therefore, all [internal energy](internal%20energy.md) possessed by the gas is [kinetic energy](kinetic%20energy.md): $E = K = \frac32 nRT$}@}. For [ideal gases](ideal%20gas.md) with extra non-translational [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md), {@{its [kinetic energy](kinetic%20energy.md) is still the same as above: $K = \frac32 nRT$, but its [internal energy](internal%20energy.md) is higher}@}. <!--SR:!2025-05-10,205,270!2027-01-12,816,330-->
+For an ideal [monoatomic gas](monoatomic%20gas.md), {@{its [potential energy](potential%20energy.md) is zero due to the lack of [intermolecular forces](intermolecular%20force.md). Therefore, all [internal energy](internal%20energy.md) possessed by the gas is [kinetic energy](kinetic%20energy.md): $E = K = \frac32 nRT$}@}. For [ideal gases](ideal%20gas.md) with extra non-translational [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md), {@{its [kinetic energy](kinetic%20energy.md) is still the same as above: $K = \frac32 nRT$, but its [internal energy](internal%20energy.md) is higher}@}. <!--SR:!2026-11-20,554,270!2027-01-12,816,330-->
 
 > __energy of an ideal [monoatomic gas](monoatomic%20gas.md)__
 >

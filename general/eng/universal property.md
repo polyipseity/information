@@ -54,7 +54,7 @@ Note that {@{in each definition, the arrows are reversed}@}. Both definitions ar
 
 ## connection with comma categories
 
-Universal morphisms can be {@{described more concisely as initial and terminal objects in a [comma category](comma%20category.md)}@} \(i.e. one where {@{morphisms are seen as objects in their own right}@}\). <!--SR:!2025-12-02,255,330!2025-06-02,106,290-->
+Universal morphisms can be {@{described more concisely as initial and terminal objects in a [comma category](comma%20category.md)}@} \(i.e. one where {@{morphisms are seen as objects in their own right}@}\). <!--SR:!2025-12-02,255,330!2026-08-07,431,310-->
 
 Let {@{$F:{\mathcal {C} }\to {\mathcal {D} }$ be a functor and $X$ an object of ${\mathcal {D} }$}@}. Then recall that {@{the comma category $(X\downarrow F)$ is the category where (annotation: $X$, more accurately, should be the selection functor from __1__ to $\mathcal D$, mapping the only object in __1__ to $X$)}@} <!--SR:!2026-01-15,288,330!2026-01-16,290,330-->
 
@@ -80,11 +80,11 @@ Let ${\mathcal {C} }$ be {@{the [category of vector spaces](category%20of%20vect
 
 Given {@{any [vector space](vector%20space.md) $V$ over $K$}@} we can {@{construct the [tensor algebra](tensor%20algebra.md) $T(V)$ (annotation: as we will see below, $T$ can be treated as a functor from $\mathcal C \equiv \mathbf{Vect}_K$ to $\mathcal D \equiv \mathbf{Alg}_K$)}@}. The tensor algebra is {@{characterized by the fact}@}: <!--SR:!2026-01-14,287,330!2025-09-14,186,310!2026-01-17,290,330-->
 
-> "{@{Any linear map from $V$ to an algebra $A$ (annotation: a morphism $f: V \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@} can be {@{uniquely extended to (annotation: this act of extension is $u: V \to U(T(V))$ in $\mathcal C \equiv \mathbf {Vect}_K$, part of a universal morphism)}@} {@{an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) from $T(V)$ to $A$ (annotation: an unique morphism $h: T(V) \to A$ in $\mathcal D \equiv \mathbf{Alg}_K$, mapped by $U$ to a morphism $U(h): U(T(V)) \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@}." <!--SR:!2025-07-22,133,290!2025-09-20,156,250!2025-06-03,75,302-->
+> "{@{Any linear map from $V$ to an algebra $A$ (annotation: a morphism $f: V \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@} can be {@{uniquely extended to (annotation: this act of extension is $u: V \to U(T(V))$ in $\mathcal C \equiv \mathbf {Vect}_K$, part of a universal morphism)}@} {@{an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) from $T(V)$ to $A$ (annotation: an unique morphism $h: T(V) \to A$ in $\mathcal D \equiv \mathbf{Alg}_K$, mapped by $U$ to a morphism $U(h): U(T(V)) \to U(A)$ in $\mathcal C \equiv \mathbf{Vect}_K$)}@}." <!--SR:!2025-07-22,133,290!2025-09-20,156,250!2026-01-21,232,302-->
 
-This statement is {@{an initial property of the tensor algebra}@} since it expresses the fact that {@{the pair $(T(V),i)$, where $i:V\to U(T(V))$ is the inclusion map (annotation: noting $i$ is $u$ above, part of a universal morphism)}@}, is {@{a universal morphism (annotation: the first definition given above) from the vector space $V$ to the functor $U$}@}. <!--SR:!2025-12-15,262,330!2025-05-15,84,270!2025-09-16,188,310-->
+This statement is {@{an initial property of the tensor algebra}@} since it expresses the fact that {@{the pair $(T(V),i)$, where $i:V\to U(T(V))$ is the inclusion map (annotation: noting $i$ is $u$ above, part of a universal morphism)}@}, is {@{a universal morphism (annotation: the first definition given above) from the vector space $V$ to the functor $U$}@}. <!--SR:!2025-12-15,262,330!2025-12-25,224,270!2025-09-16,188,310-->
 
-Since {@{this construction works for any vector space $V$}@}, we conclude that {@{$T$ is a functor from __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Vect__ to __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Alg__}@}. This means that $T$ is {@{_left adjoint_ to the forgetful functor $U$ \(see the section below on [relation to adjoint functors](#relation%20to%20adjoint%20functors)\)}@}. <!--SR:!2026-01-18,291,330!2025-10-03,190,310!2025-05-12,81,270-->
+Since {@{this construction works for any vector space $V$}@}, we conclude that {@{$T$ is a functor from __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Vect__ to __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Alg__}@}. This means that $T$ is {@{_left adjoint_ to the forgetful functor $U$ \(see the section below on [relation to adjoint functors](#relation%20to%20adjoint%20functors)\)}@}. <!--SR:!2026-01-18,291,330!2025-10-03,190,310!2025-12-15,214,270-->
 
 ### products
 
@@ -118,7 +118,7 @@ It is {@{the pair $(A,u)$ which is essentially unique in this fashion}@}. {@{The
 
 - (annotation: universal morphism) ::@:: $(A,u)$ is a universal morphism from $X$ to $F$ <!--SR:!2025-10-31,212,310!2026-01-09,282,330-->
 - (annotation: comma category) ::@:: $(A,u)$ is an [initial object](initial%20object.md) of the [comma category](comma%20category.md) $(X\downarrow F)$ <!--SR:!2026-01-11,285,330!2026-01-16,290,330-->
-- (annotation: representable functor $\text{Hom}_{\mathcal C}(A, -) \to \text{Hom}_{\mathcal D}(X, F(-))$) ::@:: $(A,F(\bullet )\circ u)$ is a [representation](representable%20functor.md) of ${\text{Hom} }_{\mathcal {D} }(X,F(-))$, where its components $(F(\bullet )\circ u)_{B}:{\text{Hom} }_{\mathcal {C} }(A,B)\to {\text{Hom} }_{\mathcal {D} }(X,F(B))$ are defined by $$(F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2025-05-13,29,250!2025-08-26,142,270-->
+- (annotation: representable functor $\text{Hom}_{\mathcal C}(A, -) \to \text{Hom}_{\mathcal D}(X, F(-))$) ::@:: $(A,F(\bullet )\circ u)$ is a [representation](representable%20functor.md) of ${\text{Hom} }_{\mathcal {D} }(X,F(-))$, where its components $(F(\bullet )\circ u)_{B}:{\text{Hom} }_{\mathcal {C} }(A,B)\to {\text{Hom} }_{\mathcal {D} }(X,F(B))$ are defined by $$(F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2025-07-24,70,250!2025-08-26,142,270-->
 
 The dual statements are {@{also equivalent}@}: (annotation: they are respectively related to {@{universal morphism, comma category, representable functor}@}) <!--SR:!2025-12-30,276,330!2026-01-07,281,330-->
 
@@ -134,7 +134,7 @@ Similar statements apply to {@{the dual situation of terminal morphisms from <!-
 
 Indeed, {@{all pairs of adjoint functors arise from universal constructions in this manner}@}. Let {@{$F$ and $G$ be a pair of adjoint functors with unit $\eta$ and co-unit $\epsilon$}@} \(see the article on [adjoint functors](adjoint%20functors.md) for the definitions\). Then we have {@{a universal morphism for each object in ${\mathcal {C} }$ and ${\mathcal {D} }$}@}: <!--SR:!2026-01-18,291,330!2025-12-30,276,330!2026-01-01,277,330-->
 
-- For each object $X$ in ${\mathcal {C} }$, $(F(X),\eta _{X})$ is a universal morphism from $X$ to $G$. ::@:: That is, for all $f:X\to G(Y)$ there exists a unique $g:F(X)\to Y$ for which the following diagrams commute. <!--SR:!2025-05-11,67,230!2025-05-14,83,270-->
+- For each object $X$ in ${\mathcal {C} }$, $(F(X),\eta _{X})$ is a universal morphism from $X$ to $G$. ::@:: That is, for all $f:X\to G(Y)$ there exists a unique $g:F(X)\to Y$ for which the following diagrams commute. <!--SR:!2025-10-13,151,230!2025-12-20,219,270-->
 - For each object $Y$ in ${\mathcal {D} }$, $(G(Y),\epsilon _{Y})$ is a universal morphism from $F$ to $Y$. ::@:: That is, for all $g:F(X)\to Y$ there exists a unique $f:X\to G(Y)$ for which the following diagrams commute. <!--SR:!2025-07-03,103,250!2025-06-12,90,250-->
 
 &emsp; {@{![The unit and counit of an adjunction, which are natural transformations between functors, are an important example of universal morphisms.](../../archives/Wikimedia%20Commons/Universal%20morphisms%20appear%20as%20the%20unit%20and%20counit%20of%20adjunctions.svg)}@} (annotation: {@{commutative diagrams for left-adjoint functor $F$, right-adjoint functor $G$, unit $\eta$, and co-unit $\varepsilon$}@}) <!--SR:!2025-09-11,152,250!2025-07-19,130,290-->

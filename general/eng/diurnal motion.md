@@ -9,7 +9,7 @@ tags:
 
 # diurnal motion
 
-{@{__Diurnal motion__}@} (from [Latin](Latin.md) _diurnus_ 'daily', from [Latin](Latin.md) _diēs_ 'day') is {@{an [astronomical](astronomy.md) term referring to the apparent [motion](motion.md) of [celestial objects](astronomical%20object.md) (e.g. the [Sun](Sun.md) and [stars](star.md)) around [Earth](Earth.md), or more precisely around the two [celestial poles](celestial%20pole.md), over the course of one day}@}. <!--SR:!2026-07-24,533,317!2025-06-04,223,277-->
+{@{__Diurnal motion__}@} (from [Latin](Latin.md) _diurnus_ 'daily', from [Latin](Latin.md) _diēs_ 'day') is {@{an [astronomical](astronomy.md) term referring to the apparent [motion](motion.md) of [celestial objects](astronomical%20object.md) (e.g. the [Sun](Sun.md) and [stars](star.md)) around [Earth](Earth.md), or more precisely around the two [celestial poles](celestial%20pole.md), over the course of one day}@}. <!--SR:!2026-07-24,533,317!2027-02-12,618,277-->
 
 ## relative motion
 
@@ -21,7 +21,7 @@ From {@{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}@}, th
 
 From {@{anywhere on the [equator](equator.md)}@}, the two [celestial poles](celestial%20pole.md) are {@{on the horizon due [north](north.md) and [south](south.md), and appears fixed}@}. The [stars](star.md) moves {@{[westward](west.md), vertically from and into the [horizon](horizon.md)}@}. <!--SR:!2026-07-22,578,337!2025-06-09,244,290!2026-02-10,437,317-->
 
-For anywhere {@{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}@}, the motion is {@{tilted}@} and can be {@{interpolated from the above description using the current location's [latitude](latitude.md)}@}. <!--SR:!2025-05-28,255,330!2026-10-12,635,330!2027-12-09,946,330-->
+For anywhere {@{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}@}, the motion is {@{tilted}@} and can be {@{interpolated from the above description using the current location's [latitude](latitude.md)}@}. <!--SR:!2028-08-08,1166,350!2026-10-12,635,330!2027-12-09,946,330-->
 
 ## references
 

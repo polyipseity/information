@@ -257,7 +257,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="3928fd"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
-- hydrogen ion::@::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
+- hydrogen ion::@::H<sup>+</sup> <!--SR:!2037-03-26,4324,352!2025-07-11,927,339-->
 - sodium ion::@::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2027-09-21,1649,373-->
 - potassium ion::@::K<sup>+</sup> <!--SR:!2027-10-09,1647,359!2028-03-04,1780,373-->
 - copper(I) ion::@::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2028-06-30,1612,330-->
@@ -266,7 +266,7 @@ return chain.from_iterable(await gather(
 - ammonium ion::@::NH<sub>4</sub><sup>+</sup> <!--SR:!2029-12-25,1956,290!2027-01-08,1335,313-->
 - magnesium ion::@::Mg<sup>2+</sup> <!--SR:!2027-05-17,1165,267!2030-05-06,2283,336-->
 - calcium ion::@::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2028-01-19,1745,374-->
-- barium ion::@::Ba<sup>2+</sup> <!--SR:!2025-06-02,665,250!2033-09-24,3143,314-->
+- barium ion::@::Ba<sup>2+</sup> <!--SR:!2031-10-20,2331,270!2033-09-24,3143,314-->
 - lead(II) ion::@::Pb<sup>2+</sup> <!--SR:!2027-06-06,1566,374!2030-07-08,2326,334-->
 - iron(II) ion::@::Fe<sup>2+</sup> <!--SR:!2026-11-28,1400,359!2027-10-18,1661,365-->
 - nickel(II) ion::@::Ni<sup>2+</sup> <!--SR:!2027-06-25,1563,359!2028-07-06,1716,310-->
@@ -336,7 +336,7 @@ return chain.from_iterable(await gather(
 - lead(II) ion:@:colorless <!--SR:!2029-01-17,1506,253-->
 - iron(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-19,876,207-->
-- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2025-06-01,63,130-->
+- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2025-07-04,33,130-->
 - zinc ion:@:colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion:@:<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion:@:_(n/a)_ <!--SR:!2028-01-30,1312,276-->
@@ -345,9 +345,9 @@ return chain.from_iterable(await gather(
 - iron(III) ion:@:<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2026-10-30,786,190-->
 - chromium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion:@:colorless <!--SR:!2027-08-19,833,302-->
-- titanium(III) ion:@:<span style="color: purple; background-color: white;">purple</span> <!--SR:!2025-06-03,57,130-->
-- vanadium(II) ion:@:<span style="color: violet;">violet</span> <!--SR:!2025-06-01,26,130-->
-- vanadium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2025-05-20,203,190-->
+- titanium(III) ion:@:<span style="color: purple; background-color: white;">purple</span> <!--SR:!2025-09-25,114,150-->
+- vanadium(II) ion:@:<span style="color: violet;">violet</span> <!--SR:!2025-07-05,34,130-->
+- vanadium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2026-06-18,390,190-->
 - manganese(III) ion:@:<span style="color: red;">red</color> <!--SR:!2025-10-25,509,250-->
 
 <!--/pytextgen-->
@@ -356,7 +356,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2025-06-05,62,130-->
+- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2025-10-02,119,150-->
 - <span style="color: blue; background-color: white;">blue</span>:@:copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>:@:manganese(II) ion <!--SR:!2029-10-02,1647,321-->
 - <span style="color: pink;">pink</span>:@:cobalt(II) ion <!--SR:!2025-09-01,317,241-->
@@ -452,7 +452,7 @@ return chain.from_iterable(await gather(
 - chromate ion:@:2- <!--SR:!2029-07-07,1759,279-->
 - dichromate ion:@:2- <!--SR:!2026-12-30,1322,310-->
 - nitride ion:@:3- <!--SR:!2027-01-20,1338,310-->
-- phosphate ion:@:3- <!--SR:!2025-05-10,582,210-->
+- phosphate ion:@:3- <!--SR:!2030-02-24,1737,230-->
 - manganate ion:@:2- <!--SR:!2027-08-06,1154,362-->
 
 <!--/pytextgen-->
@@ -482,7 +482,7 @@ return chain.from_iterable(await gather(
 - dichromate ion:@:<span style="color: orange;">orange</span> <!--SR:!2027-10-05,1481,293-->
 - nitride ion:@:_(n/a)_ <!--SR:!2029-05-18,1599,276-->
 - phosphate ion:@:colorless <!--SR:!2027-10-06,1482,293-->
-- manganate ion:@:<span style="color: green;">green</span> <!--SR:!2025-05-11,306,282-->
+- manganate ion:@:<span style="color: green;">green</span> <!--SR:!2027-10-04,863,282-->
 
 <!--/pytextgen-->
 

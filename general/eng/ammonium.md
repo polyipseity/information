@@ -17,7 +17,7 @@ When ammonium [salts](salt%20(chemistry).md) are {@{heated in [alkali hydroxide]
 
 > heating in [alkali hydroxide](alkali%20hydroxide.md)
 >
-> - {@{\[NH<sub>4</sub>\]<sup>+</sup>(aq) + OH<sup>-</sup>(aq) $\xrightarrow{\text{heat} }$ NH<sub>3</sub>(g) + H<sub>2</sub>O(l)}@} <!--SR:!2025-05-30,595,310-->
+> - {@{\[NH<sub>4</sub>\]<sup>+</sup>(aq) + OH<sup>-</sup>(aq) $\xrightarrow{\text{heat} }$ NH<sub>3</sub>(g) + H<sub>2</sub>O(l)}@} <!--SR:!2030-06-18,1845,310-->
 
 ## references
 

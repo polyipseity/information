@@ -18,7 +18,7 @@ tags:
 >
 > - $\sqrt{zw} = \sqrt z \sqrt w \qquad (-\pi < \operatorname{Arg} z + \operatorname{Arg} w \le \pi)$ ::@:: <br/> __counterexample__: $z = -1, w = -1$ <!--SR:!2025-07-07,66,274!2025-06-24,102,294-->
 > - $\sqrt{\frac z w} = \frac{\sqrt z}{\sqrt w} \qquad (-\pi < \operatorname{Arg} z - \operatorname{Arg} w \le \pi)$ ::@:: <br/> __counterexample__: $z = 1, w = -1$ <!--SR:!2025-06-16,88,274!2025-11-01,202,314-->
-> - $\sqrt{z^a} = \left( \sqrt z \right)^a \qquad (a \in \mathbb{C}, \operatorname{Arg} z \ne \pi)$ ::@:: <br/> __counterexample__: $z = -1$ <!--SR:!2026-06-05,636,290!2025-06-03,317,250-->
+> - $\sqrt{z^a} = \left( \sqrt z \right)^a \qquad (a \in \mathbb{C}, \operatorname{Arg} z \ne \pi)$ ::@:: <br/> __counterexample__: $z = -1$ <!--SR:!2026-06-05,636,290!2028-06-18,1111,270-->
 
 ## references
 

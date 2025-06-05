@@ -69,7 +69,7 @@ return await memorize_map(
 - $\cot{x}$:@:$-\csc^2{x}$ <!--SR:!2025-10-13,235,210-->
 - $\sec{x}$:@:$\sec{x}\tan{x}$ <!--SR:!2026-05-25,608,290-->
 - $\csc{x}$:@:$-\csc{x}\cot{x}$ <!--SR:!2025-09-30,273,270-->
-- $\arcsin{x}$:@:$\frac1{\sqrt{1-x^2} }$ <!--SR:!2025-05-24,85,230-->
+- $\arcsin{x}$:@:$\frac1{\sqrt{1-x^2} }$ <!--SR:!2026-02-24,276,250-->
 - $\arccos{x}$:@:$-\frac1{\sqrt{1-x^2} }$ <!--SR:!2026-04-03,588,310-->
 - $\arctan{x}$:@:$\frac1{x^2+1}$ <!--SR:!2027-10-14,1016,330-->
 - $\operatorname{arccot}{x}$:@:$-\frac1{x^2+1}$ <!--SR:!2028-02-09,1201,350-->
@@ -90,9 +90,9 @@ return await memorize_map(
 - $-\csc{x}\cot{x}$:@:$\csc{x}$ <!--SR:!2026-03-24,579,310-->
 - $\frac1{\sqrt{1-x^2} }$:@:$\arcsin{x}$ <!--SR:!2027-09-26,1003,330-->
 - $-\frac1{\sqrt{1-x^2} }$:@:$\arccos{x}$ <!--SR:!2027-07-25,956,330-->
-- $\frac1{x^2+1}$:@:$\arctan{x}$ <!--SR:!2025-05-29,406,310-->
+- $\frac1{x^2+1}$:@:$\arctan{x}$ <!--SR:!2030-03-09,1743,330-->
 - $-\frac1{x^2+1}$:@:$\operatorname{arccot}{x}$ <!--SR:!2028-05-05,1260,350-->
-- $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$:@:$\operatorname{arcsec}{x}$ <!--SR:!2025-05-23,96,270-->
+- $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$:@:$\operatorname{arcsec}{x}$ <!--SR:!2025-07-12,50,250-->
 - $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$:@:$\operatorname{arccsc}{x}$ <!--SR:!2025-12-13,520,310-->
 
 <!--/pytextgen-->

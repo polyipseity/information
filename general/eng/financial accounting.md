@@ -13,7 +13,7 @@ tags:
 
 __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-09-05,229,270!2026-05-11,405,290!2025-09-20,287,330-->
 
-Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2027-05-25,753,330!2025-05-13,184,310!2026-11-06,578,310-->
+Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
 
 On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2025-09-05,276,330!2025-07-07,229,330!2025-10-11,305,330!2025-07-25,244,330-->
 
@@ -31,7 +31,7 @@ Financial accounting is {@{the preparation of financial statements that can be c
 __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2025-08-15,261,330!2027-03-29,708,330-->
 
 - __Relevance__ ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-10-21,293,290!2025-09-09,259,290-->
-- __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-07-29,209,270!2025-05-12,93,250-->
+- __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-07-29,209,270!2026-04-16,333,270-->
 
 __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2025-10-24,277,290!2025-07-16,237,330-->
 
@@ -82,7 +82,7 @@ The statement of financial performance is also called {@{income statement, profi
 
 The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2026-09-05,532,310!2026-05-21,461,310-->
 
-The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2025-05-17,143,230-->
+The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2026-09-02,472,250-->
 
 ### statement of financial position
 
@@ -98,10 +98,10 @@ Accounting standards often {@{set out a general format that companies are expect
 
 Current assets are {@{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}@}. Current assets include: {@{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}@} <!--SR:!2025-09-22,289,330!2025-09-12,217,250-->
 
-- [cash](cash.md) ::@:: physical money <!--SR:!2027-03-23,704,330!2025-05-16,185,310-->
+- [cash](cash.md) ::@:: physical money <!--SR:!2027-03-23,704,330!2027-07-22,795,330-->
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2027-05-02,732,330!2027-04-15,721,330-->
 - merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2026-12-04,598,310!2025-10-23,290,290-->
-- [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2025-05-25,192,310!2026-04-14,425,310-->
+- [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2027-08-29,826,330!2026-04-14,425,310-->
 - [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2027-01-13,652,330!2025-09-16,285,330-->
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
@@ -109,10 +109,10 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 - _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2025-07-15,217,310-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2026-09-03,531,310!2027-06-13,767,330-->
 
-Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
+Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2027-09-16,837,330-->
 
-- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!2025-05-25,159,270-->
-- _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2025-05-17,187,310-->
+- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!2026-07-27,428,270-->
+- _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2027-08-03,807,330-->
 
 {@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2025-08-10,255,330!2025-06-17,211,310!2027-03-24,704,330!2026-10-09,559,310-->
 
@@ -120,15 +120,15 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 
 The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2025-09-29,293,355-->
 
-This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-05-27,190,310!2025-10-06,300,330!2025-08-10,257,330!2025-06-04,201,310-->
+This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-08-23,815,330!2025-10-06,300,330!2025-08-10,257,330!2027-10-16,864,330-->
 
 ## basic concepts
 
 ### the stable measuring assumption
 
-One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-05-22,63,250!2025-07-07,83,369-->
+One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-12-29,221,270!2025-07-07,83,369-->
 
-This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2025-06-10,206,310!2025-06-21,214,310!2025-09-02,166,270!2025-05-22,87,366!2025-10-17,196,346-->
+This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2025-06-10,206,310!2025-06-21,214,310!2025-09-02,166,270!2026-07-29,433,386!2025-10-17,196,346-->
 
 ### units of constant purchasing power
 
@@ -136,14 +136,14 @@ The stable monetary unit assumption is {@{not applied during hyperinflation}@}. 
 
 ## objectives
 
-Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2025-06-03,200,310!2025-07-04,188,270!2025-12-08,323,290-->
+Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2027-10-07,856,330!2025-07-04,188,270!2025-12-08,323,290-->
 
 Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2026-02-06,349,270!2025-08-09,192,337!2025-12-13,304,357-->
 
 Objectives include:
 
 - __systematic recording of transactions__ ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2025-06-26,205,290!2025-10-16,272,290-->
-- __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2026-12-19,596,290!2025-05-26,160,270-->
+- __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2026-12-19,596,290!2027-01-18,602,290-->
 - __ascertainment of the financial position of business__ ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2025-12-01,271,250!2026-01-10,328,290-->
 - __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2026-09-27,569,330!2025-08-13,213,270-->
 - __to know the solvency position__ ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2025-07-19,220,310!2025-08-14,244,290-->
@@ -152,7 +152,7 @@ Objectives include:
 
 The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}@} are the main topics of financial accounting. <!--SR:!2025-09-06,277,330-->
 
-{@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company}@} on {@{the date to which the accounts were prepared}@}. <!--SR:!2027-04-04,712,330!2026-05-21,463,310!2027-02-08,671,330!2026-11-14,606,330!2025-10-25,176,250!2025-06-02,61,348-->
+{@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company}@} on {@{the date to which the accounts were prepared}@}. <!--SR:!2027-04-04,712,330!2026-05-21,463,310!2027-02-08,671,330!2026-11-14,606,330!2025-10-25,176,250!2026-03-24,295,368-->
 
 {@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2025-09-13,283,330!2026-01-20,364,310-->
 
@@ -177,9 +177,9 @@ When {@{the same thing is done to an account as its normal balance}@} it {@{incr
 
 However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
 
-- contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2025-05-14,181,310!2027-03-17,699,330-->
+- contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2027-07-04,777,330!2027-03-17,699,330-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2027-04-29,721,330-->
-- contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2026-09-30,572,330!2025-05-25,189,310-->
+- contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2026-09-30,572,330!2027-08-15,812,330-->
 
 ## financial accounting versus cost accounting
 
@@ -200,7 +200,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
 - [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!2026-06-08,475,310!2026-04-06,424,310-->
-- [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2025-07-09,231,330!2025-06-02,196,310-->
+- [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2025-07-09,231,330!2027-09-22,842,330-->
 - [bookkeeping](bookkeeping.md)
 
 ## further reading

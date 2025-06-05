@@ -14,7 +14,7 @@ To understand the Apriori algorithm, notice that {@{for any database and two ite
 
 Then the Apriori algorithm uses a {@{"bottom up"}@} approach. The frequent sets {@{start from one item and then are extended one item at a time, called _candidate generation_}@}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {@{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}@}. Repeat this process until {@{there are no more candidates}@}. The output is {@{all frequent sets in all generations}@}. <!--SR:!2027-05-04,895,339!2026-10-06,728,330!2028-04-18,1136,310!2028-12-25,1395,359!2026-07-18,668,330-->
 
-Filtering the candidate, called the {@{_count step_}@}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {@{_join step_ and _prune step_}@}. <!--SR:!2027-01-13,753,336!2025-05-11,310,363-->
+Filtering the candidate, called the {@{_count step_}@}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {@{_join step_ and _prune step_}@}. <!--SR:!2027-01-13,753,336!2029-08-09,1543,383-->
 
 For _join step_, one first consider, from the previous generation of frequent sets, all possible pairs of sets that {@{have a [symmetric difference](symmetric%20difference.md) of size 2, i.e. the set are the same except for 1 item, like $\set{1, 2, 3}$ and $\set{1, 20, 3}$}@}. Then, for each pair, {@{the union of the two sets is a new _possible_ candidate set, like $\set{1, 2, 3, 20}$ using the same example}@}. <!--SR:!2027-01-25,752,319!2027-01-30,820,330-->
 
@@ -262,7 +262,7 @@ Candidate generation {@{spawns a large numbers of subsets, which is costly for c
 
 The algorithm also requires {@{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}@}. Therefore, the algorithm works best if {@{the database is permanently stored in the memory, which might not be practical for very large database}@}. <!--SR:!2026-12-14,780,344!2028-03-15,1151,364-->
 
-Also, the time and space complexity of the algorithm is {@{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}@}. <!--SR:!2025-05-27,363,364-->
+Also, the time and space complexity of the algorithm is {@{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}@}. <!--SR:!2030-05-13,1809,384-->
 
 Common alternatives include {@{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}@}. <!--SR:!2026-10-16,698,343-->
 

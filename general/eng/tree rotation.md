@@ -39,7 +39,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 >
 > {@{Pictorial description of how rotations are made.}@} <!--SR:!2025-12-20,279,330!2025-12-28,285,330-->
 
-When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2025-12-08,270,330!2025-05-09,100,290!2025-12-27,283,330!2025-12-15,276,330-->
+When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2025-12-08,270,330!2026-06-23,403,310!2025-12-27,283,330!2025-12-15,276,330-->
 
 Consider the terminology of {@{__Root__ for the parent node of the subtrees to rotate}@}, {@{__Pivot__ for the node which will become the new parent node}@}, {@{__RS__ for the side of rotation and __OS__ for the opposite side of rotation}@}. For the root Q in the diagram above, __RS__ is C and __OS__ is P. Using these terms, the pseudo code for the rotation is: <!--SR:!2025-11-26,260,330!2025-10-30,238,330!2025-11-13,251,330-->
 
@@ -140,7 +140,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 
 It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-20,230,330!2025-08-26,185,310!2025-11-08,231,290-->
 
-{@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-02,293,290!2026-04-02,331,290!2025-05-30,108,290!2026-04-11,339,290!2025-06-16,127,290-->
+{@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-02,293,290!2026-04-02,331,290!2026-08-05,432,310!2026-04-11,339,290!2025-06-16,127,290-->
 
 ## see also
 

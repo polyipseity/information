@@ -271,7 +271,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="9293da"--><!-- The following content is generated at 2024-01-04T20:17:52.218337+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←commas (,) between locants <!--SR:!2025-05-09,838,332!2032-05-27,2631,340-->
+- _(begin)_→::@::←commas (,) between locants <!--SR:!2035-11-13,3835,352!2032-05-27,2631,340-->
 - commas (,) between locants→::@::←hyphens (-) between word and locant <!--SR:!2027-12-20,1550,313!2028-07-15,1399,321-->
 - hyphens (-) between word and locant→::@::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2027-07-15,1340,362-->
 - remove (most) spaces ( )→::@::←_(end)_ <!--SR:!2028-05-21,1504,367!2026-02-19,925,347-->
@@ -631,7 +631,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
-- nitrile→::@::←aldehyde <!--SR:!2025-05-14,15,130!2025-05-14,154,190-->
+- nitrile→::@::←aldehyde <!--SR:!2025-07-02,28,130!2026-03-05,295,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-07-17,112,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->

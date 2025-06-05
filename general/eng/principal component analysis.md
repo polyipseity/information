@@ -19,7 +19,7 @@ tags:
 
 ## overview
 
-PCA is most commonly used when {@{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}@}. PCA allows us to {@{reduce the number of dimensions in the data set while minimizing information loss}@}. <!--SR:!2025-06-06,274,330!2025-05-14,256,330-->
+PCA is most commonly used when {@{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}@}. PCA allows us to {@{reduce the number of dimensions in the data set while minimizing information loss}@}. <!--SR:!2025-06-06,274,330!2028-07-22,1165,350-->
 
 ## intuition
 
@@ -29,7 +29,7 @@ PCA can be thought of {@{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[
 
 The following is a detailed description of PCA using {@{the covariance method as opposed to the correlation method}@}. <!--SR:!2026-05-01,475,310-->
 
-The goal is to {@{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}@}. Equivalently, matrix __Y__ is {@{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}@}: {@{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}@} <!--SR:!2026-06-01,524,310!2025-06-29,293,330!2025-05-29,267,330-->
+The goal is to {@{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}@}. Equivalently, matrix __Y__ is {@{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}@}: {@{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}@} <!--SR:!2026-06-01,524,310!2025-06-29,293,330!2028-09-22,1210,350-->
 
 ```Python
 # pytextgen generate data
@@ -87,7 +87,7 @@ return chain(
 - find the eigenvectors and eigenvalues of the covariance matrix→::@::←rearrange the eigenvectors and eigenvalues <!--SR:!2027-02-10,704,290!2027-06-19,802,310-->
 - rearrange the eigenvectors and eigenvalues→::@::←compute the cumulative variance for each eigenvector <!--SR:!2026-09-13,571,310!2026-03-22,426,290-->
 - compute the cumulative variance for each eigenvector→::@::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2027-09-09,879,310!2026-11-23,632,290-->
-- select a subset of the eigenvectors as the new basis vectors→::@::←project the data (deviations from the mean) onto the new basis <!--SR:!2025-05-27,221,270!2026-05-18,490,310-->
+- select a subset of the eigenvectors as the new basis vectors→::@::←project the data (deviations from the mean) onto the new basis <!--SR:!2027-09-12,834,290!2026-05-18,490,310-->
 - project the data (deviations from the mean) onto the new basis→::@::←_(end)_ <!--SR:!2027-02-08,738,330!2026-06-20,515,310-->
 
 <!--/pytextgen-->
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {@{a guide for choosing an appropriate value for the number of reduced dimensions _l_}@}. The goal is to {@{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}@}. For example, {@{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}@}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {@{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}@}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-11-12T13:56:48.778590+08:00. Any edits will be overridden! -->project the data (deviations from the mean) onto the new basis<!--/pytextgen-->__
-    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}. <!--SR:!2028-02-04,1033,350!2027-10-23,951,350!2028-05-31,1124,350!2026-06-03,536,310!2025-05-31,252,290!2027-09-12,888,330!2027-04-24,784,330!2025-09-21,333,290!2026-07-16,516,290!2025-07-28,293,290!2027-03-01,679,310!2026-08-21,588,310!2027-01-15,673,290!2025-05-16,138,270!2026-07-18,557,310!2027-05-22,815,330!2026-12-28,706,330!2027-09-18,921,350!2025-08-14,285,290!2025-08-29,265,250!2025-12-07,401,310!2025-06-04,223,270!2025-06-08,274,330!2026-10-13,648,330!2025-05-11,206,270!2026-05-02,511,310!2026-06-23,553,310!2025-08-02,309,310!2026-02-13,423,310!2026-04-05,490,310!2026-01-28,360,250!2026-06-27,474,270!2025-05-11,206,270!2026-05-20,418,381!2026-01-22,301,361-->
+    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}. <!--SR:!2028-02-04,1033,350!2027-10-23,951,350!2028-05-31,1124,350!2026-06-03,536,310!2028-03-12,1016,310!2027-09-12,888,330!2027-04-24,784,330!2025-09-21,333,290!2026-07-16,516,290!2025-07-28,293,290!2027-03-01,679,310!2026-08-21,588,310!2027-01-15,673,290!2025-07-30,69,250!2026-07-18,557,310!2027-05-22,815,330!2026-12-28,706,330!2027-09-18,921,350!2025-08-14,285,290!2025-08-29,265,250!2025-12-07,401,310!2027-09-23,841,290!2025-06-08,274,330!2026-10-13,648,330!2027-06-30,777,290!2026-05-02,511,310!2026-06-23,553,310!2025-08-02,309,310!2026-02-13,423,310!2026-04-05,490,310!2026-01-28,360,250!2026-06-27,474,270!2027-06-27,774,290!2026-05-20,418,381!2026-01-22,301,361-->
 
 ## references
 

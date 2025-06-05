@@ -15,15 +15,15 @@ tags:
 
 ## outline
 
-This section {@{outlines how one might do competitor analysis and present it to others}@}. <!--SR:!2025-05-11,281,334-->
+This section {@{outlines how one might do competitor analysis and present it to others}@}. <!--SR:!2028-12-01,1293,354-->
 
 ### competitor classification
 
 Depending on the 2 factors of {@{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}@}, competitors can be classified into 4 types (we can {@{draw a 2 by 2 table}@} to represent it): <!--SR:!2025-06-07,299,341!2028-11-14,1287,361-->
 
 1. direct competitor ::@:: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2027-01-04,672,321!2025-06-12,304,341-->
-2. indirect competitor ::@:: meeting the same customer needs but using different capabilities to do so <!--SR:!2025-06-01,249,281!2025-06-13,305,341-->
-3. potential competitor ::@:: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2026-04-09,526,321!2025-05-12,282,341-->
+2. indirect competitor ::@:: meeting the same customer needs but using different capabilities to do so <!--SR:!2028-01-31,974,301!2025-06-13,305,341-->
+3. potential competitor ::@:: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2026-04-09,526,321!2028-12-30,1322,361-->
 4. non-competitor ::@:: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2028-09-18,1244,361!2025-06-11,303,341-->
 
 Direct competitors are not {@{necessarily more important than indirect or potential competitors, and instead it depends on the market}@}. <!--SR:!2027-09-20,925,334-->
@@ -32,10 +32,10 @@ Direct competitors are not {@{necessarily more important than indirect or potent
 >
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
-> - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2025-05-29,294,341-->
+> - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2029-03-10,1380,361-->
 > - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2026-12-25,689,301!2025-07-11,327,341-->
 > - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2028-02-03,1032,341!2025-08-07,349,341-->
-> - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2025-05-14,282,341-->
+> - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2028-12-31,1323,361-->
 
 ### considerations
 
@@ -174,7 +174,7 @@ number of features
 - service→::@::←convenience <!--SR:!2025-07-09,93,161!2025-06-19,213,281-->
 - convenience→::@::←ease of use <!--SR:!2025-11-06,376,281!2027-01-27,747,334-->
 - ease of use→::@::←number of features <!--SR:!2026-05-23,482,281!2026-02-03,306,234-->
-- number of features→::@::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
+- number of features→::@::←_(least important)_ <!--SR:!2029-03-09,1375,354!2025-06-29,318,341-->
 
 <!--/pytextgen-->
 
@@ -182,9 +182,9 @@ number of features
 
 It is very important to {@{add our own products to the visualization and make it obvious that the products are our own}@}. <!--SR:!2026-03-20,510,321-->
 
-If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2025-06-01,293,341!2028-04-16,1117,354!2026-09-16,659,330-->
+If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2029-03-06,1374,361!2028-04-16,1117,354!2026-09-16,659,330-->
 
-When listing the features, {@{use numbers}@} if possible. Do not be {@{vague}@}. Highlight {@{important features, such as the best product for each feature}@}. <!--SR:!2027-09-22,940,341!2025-05-09,278,341!2026-09-24,655,321-->
+When listing the features, {@{use numbers}@} if possible. Do not be {@{vague}@}. Highlight {@{important features, such as the best product for each feature}@}. <!--SR:!2027-09-22,940,341!2028-12-17,1309,361!2026-09-24,655,321-->
 
 ## references
 

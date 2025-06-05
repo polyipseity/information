@@ -21,7 +21,7 @@ To index into an array, write {@{`Array(Index)`}@}. Assignment uses the same syn
 
 To make a multidimensional array, {@{specify each dimension using `start_index To end_index` or `end_index` separated by commas `,` and use `Variant` as the element type, like `Dim VariableName(3 To 5, 2, 0 To 6) As Variant`}@}. Indexing a multidimensional array is simply {@{adding commas in between the multiple indices, like `Array(4, 2, 5)`}@}. <!--SR:!2028-06-21,1165,310!2026-12-05,779,330-->
 
-For two-dimensional arrays, one can initialize the content by {@{separating elements in the same row by commas `,`, separating rows by `;`, and enclose the entire thing in `[{...}]`, like `2DArray = [{1, 2, 3; 4, 5, 6; 7, 8, 9}]`}@}. <!--SR:!2025-05-21,304,290-->
+For two-dimensional arrays, one can initialize the content by {@{separating elements in the same row by commas `,`, separating rows by `;`, and enclose the entire thing in `[{...}]`, like `2DArray = [{1, 2, 3; 4, 5, 6; 7, 8, 9}]`}@}. <!--SR:!2028-10-09,1226,310-->
 
 ## bounds
 

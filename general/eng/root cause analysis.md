@@ -9,7 +9,7 @@ tags:
 
 # root cause analysis
 
-RCA can be decomposed into {@{4 steps}@}: {@{problem, trace, label, and graph}@}. <!--SR:!2025-05-18,265,330!2027-11-30,978,341-->
+RCA can be decomposed into {@{4 steps}@}: {@{problem, trace, label, and graph}@}. <!--SR:!2028-09-07,1206,350!2027-11-30,978,341-->
 
 1. problem ::@:: Identify and describe the problem clearly. <!--SR:!2026-06-12,549,310!2028-07-15,1165,350-->
 2. trace ::@:: Establish a timeline from a normal situation to the problem. <!--SR:!2025-06-11,284,330!2027-03-16,759,330-->

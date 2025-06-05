@@ -23,7 +23,7 @@ The merges and splits are {@{usually [greedy](greedy%20algorithm.md)}@}. The res
 
 To determine the distance between two observations, {@{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}@} is needed. To decide how to merge or split clusters, {@{a measure of _dissimilarity_ between clusters}@} is required. The metric is {@{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}@}. <!--SR:!2028-12-28,1343,355!2026-09-12,675,335!2025-08-01,324,295-->
 
-Both the choice of the metric and the linkage criterion {@{affects the clustering results significantly}@}. The metric affects {@{which observations are similar}@} more, while the linkage affects {@{the cluster shapes}@} more. <!--SR:!2026-05-16,564,315!2026-03-02,515,315!2025-06-01,321,335-->
+Both the choice of the metric and the linkage criterion {@{affects the clustering results significantly}@}. The metric affects {@{which observations are similar}@} more, while the linkage affects {@{the cluster shapes}@} more. <!--SR:!2026-05-16,564,315!2026-03-02,515,315!2029-06-21,1481,355-->
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
 
@@ -80,8 +80,8 @@ return chain.from_iterable(await gather(
 - [complete-linkage clustering](complete-linkage%20clustering.md)→::@::←median linkage clustering <!--SR:!2027-04-14,779,295!2025-08-11,331,275-->
 - median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2025-12-11,415,295-->
 - [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2025-10-05,362,295!2026-09-14,506,235-->
-- unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!2026-07-01,485,275!2025-05-29,279,295-->
-- weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2025-06-03,212,295-->
+- unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!2026-07-01,485,275!2028-07-17,1143,315-->
+- weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2027-10-19,868,315-->
 
 <!--/pytextgen-->
 
@@ -107,7 +107,7 @@ return chain.from_iterable(await gather(
 - WPGMC, weighted centroid clustering:@:median linkage clustering <!--SR:!2025-06-17,289,275-->
 - minimum linkage clustering, nearest neighbor technique:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-07-26,1223,355-->
 - [UPGMA](UPGMA.md), group average linkage clustering:@:unweighted average linkage clustering <!--SR:!2026-10-26,631,295-->
-- McQuitty's Method, [WPGMA](WPGMA.md):@:weighted average linkage clustering <!--SR:!2025-05-13,267,295-->
+- McQuitty's Method, [WPGMA](WPGMA.md):@:weighted average linkage clustering <!--SR:!2028-05-17,1098,315-->
 
 <!--/pytextgen-->
 
@@ -129,7 +129,7 @@ return chain.from_iterable(await gather(
 
 - $d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$:@:[Ward's method](Ward's%20method.md) <!--SR:!2025-12-04,432,295-->
 - $d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$:@:centroid linkage clustering <!--SR:!2026-10-30,653,315-->
-- $d(A, B) = \max_{a \in A, b \in B} d(a, b)$:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-05-22,313,335-->
+- $d(A, B) = \max_{a \in A, b \in B} d(a, b)$:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2029-05-01,1438,355-->
 - $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$:@:median linkage clustering <!--SR:!2025-10-05,404,315-->
 - $d(A, B) = \min_{a \in A, b \in B} d(a, b)$:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-11-04,1301,355-->
 - $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$:@:unweighted average linkage clustering <!--SR:!2026-12-26,760,335-->
@@ -151,7 +151,7 @@ Note that [distance](distance.md) described below is {@{<!-- flashcard ID: 1c9bd
 
 The basic principle of divisive clustering was {@{published as the DIANA (DIvisive ANAlysis clustering) algorithm}@}.<sup>[\[1\]](#^ref-Kaufman-2009)</sup> <!--SR:!2027-05-01,854,335-->
 
-Initially, {@{create a cluster that contain all observations}@}. Find the cluster {@{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}@}. Then, in said cluster, {@{find the observation that has the highest distance from the belonging cluster excluding the observation itself}@}. Next, {@{move the observation from said cluster to a new _splinter cluster_}@}. Now, keep {@{moving observations one by one from the old cluster to the new cluster}@}. To choose the observation to be moved, {@{calculate the _dissimilarity difference_ for each observation in the old cluster}@}. The _dissimilarity difference_ of an observation in the old cluster is {@{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}@}. Move the observation {@{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}@}. If all _dissimilarity differences_ are negative, {@{stop moving the observations}@}. If there is only one item left, {@{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}@}. Repeat the above steps {@{until you reach the desirable number of clusters}@}. <!--SR:!2028-06-21,1194,355!2025-07-12,277,255!2025-06-13,257,255!2025-09-22,359,295!2025-09-11,319,255!2026-04-14,479,275!2025-07-04,269,255!2025-05-14,255,275!2025-08-04,324,295!2025-07-27,285,255!2025-06-26,313,295-->
+Initially, {@{create a cluster that contain all observations}@}. Find the cluster {@{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}@}. Then, in said cluster, {@{find the observation that has the highest distance from the belonging cluster excluding the observation itself}@}. Next, {@{move the observation from said cluster to a new _splinter cluster_}@}. Now, keep {@{moving observations one by one from the old cluster to the new cluster}@}. To choose the observation to be moved, {@{calculate the _dissimilarity difference_ for each observation in the old cluster}@}. The _dissimilarity difference_ of an observation in the old cluster is {@{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}@}. Move the observation {@{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}@}. If all _dissimilarity differences_ are negative, {@{stop moving the observations}@}. If there is only one item left, {@{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}@}. Repeat the above steps {@{until you reach the desirable number of clusters}@}. <!--SR:!2028-06-21,1194,355!2025-07-12,277,255!2025-06-13,257,255!2025-09-22,359,295!2025-09-11,319,255!2026-04-14,479,275!2025-07-04,269,255!2028-01-14,974,295!2025-08-04,324,295!2025-07-27,285,255!2025-06-26,313,295-->
 
 Alternatively, repeat the above steps until {@{the number of clusters equals the number of observations}@}. Construct {@{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}@}. The dendrogram splits are ordered by {@{the order of splitting}@}. One can {@{split the dendrogram at any height to get the desirable number of clusters}@}. <!--SR:!2026-04-17,479,275!2026-05-07,482,275!2026-04-08,523,295!2025-08-10,352,314-->
 

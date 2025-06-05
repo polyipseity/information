@@ -15,7 +15,7 @@ __Catalytic converter__ is a {@{device that converts toxic pollutants into less-
 
 ### reduction
 
-{@{Nitrogen oxides}@} are reduced to {@{nitrogen}@}. <!--SR:!2027-10-08,1375,270!2025-06-02,790,270-->
+{@{Nitrogen oxides}@} are reduced to {@{nitrogen}@}. <!--SR:!2027-10-08,1375,270!2033-07-28,2978,290-->
 
 > __reduction in catalytic converter__
 >
@@ -32,7 +32,7 @@ __Catalytic converter__ is a {@{device that converts toxic pollutants into less-
 >
 > - {@{C + O<sub>2</sub> → CO<sub>2</sub>}@}
 > - {@{CO + $\frac{1}{2}$O<sub>2</sub> → CO<sub>2</sub>}@}
-> - {@{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}@} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2025-05-29,732,270!2029-07-24,1662,310!2026-09-28,1088,253-->
+> - {@{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}@} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2032-12-19,2760,290!2029-07-24,1662,310!2026-09-28,1088,253-->
 
 ## references
 

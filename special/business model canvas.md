@@ -61,13 +61,13 @@ C$: [cost structure](#cost%20structure)
 
 - _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2028-05-07,1159,357-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2025-08-31,261,277-->
-- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-05-29,64,254!2025-05-23,274,297-->
+- VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-11-15,166,254!2027-08-16,813,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-11-05,181,214!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2025-08-20,304,257!2025-06-12,259,257-->
 - KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2025-10-15,333,257!2026-11-03,599,274-->
 - KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2026-04-20,503,277!2026-04-10,357,234-->
-- KP: [key partnerships](#key%20partnerships)→::@::←C$: [cost structure](#cost%20structure) <!--SR:!2025-07-05,79,217!2025-05-26,268,274-->
+- KP: [key partnerships](#key%20partnerships)→::@::←C$: [cost structure](#cost%20structure) <!--SR:!2025-07-05,79,217!2028-03-22,1024,294-->
 - C$: [cost structure](#cost%20structure)→::@::←_(end)_ <!--SR:!2026-12-20,689,314!2026-10-26,650,314-->
 
 <!--/pytextgen-->
@@ -109,7 +109,7 @@ segmented: splitting slightly different customer segments
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2026-09-09,533,257!2027-01-06,689,317-->
-- diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2026-07-13,472,237!2025-05-24,243,254-->
+- diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!2026-07-13,472,237!2027-10-09,867,274-->
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2026-05-25,416,277-->
 - multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2027-03-15,712,274-->
 - niche market: focusing on specific, specialized customer segments→::@::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2025-09-15,174,177-->
@@ -167,7 +167,7 @@ risk reduction
 - accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2026-08-06,537,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
-- cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-07-31,183,177-->
+- cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2025-07-31,183,177-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2025-11-19,225,234-->
 - newness→::@::←performance <!--SR:!2026-02-01,312,277!2025-06-06,253,257-->
@@ -184,7 +184,7 @@ The channels building block shows {@{the ways to reach customers and deliver val
 
 #### customer relationships
 
-The customer relationships building block shows {@{the types of relationships with customer segments}@}. Proper customer relationships help with {@{customer acquisition, customer retention, and upselling}@}. <!--SR:!2025-09-29,389,294!2025-06-02,268,277-->
+The customer relationships building block shows {@{the types of relationships with customer segments}@}. Proper customer relationships help with {@{customer acquisition, customer retention, and upselling}@}. <!--SR:!2025-09-29,389,294!2028-04-02,1035,297-->
 
 ##### customer relationship examples
 
@@ -219,7 +219,7 @@ personal assistance
 - _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2027-01-11,764,330-->
 - automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2026-10-08,642,294-->
 - co-creation→::@::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
-- communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2025-06-04,268,274-->
+- communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2027-06-08,734,274-->
 - dedicated personal assistance→::@::←personal assistance <!--SR:!2026-11-24,658,317!2026-09-07,605,317-->
 - personal assistance→::@::←_(end)_ <!--SR:!2027-06-14,872,337!2027-01-23,701,317-->
 
@@ -227,7 +227,7 @@ personal assistance
 
 #### revenue streams
 
-The revenue streams building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2025-05-20,264,274!2025-10-28,419,317!2026-11-18,655,317-->
+The revenue streams building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2025-10-28,419,317!2026-11-18,655,317-->
 
 ##### revenue stream examples
 
@@ -268,7 +268,7 @@ subscription fee
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2025-06-13,192,237!2025-09-18,322,254-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2025-10-29,328,274-->
-- licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2025-06-03,198,254-->
+- licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2026-10-23,507,254-->
 - usage fee→::@::←subscription fee <!--SR:!2025-08-04,291,254!2025-06-09,103,257-->
 - subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2025-10-29,365,277-->
 

@@ -61,7 +61,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2027-12-13,1011,350-->
 - air pollution→::@::←land contamination <!--SR:!2027-08-28,843,290!2028-06-19,1161,350-->
-- land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2025-05-16,255,290-->
+- land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2028-03-18,1022,310-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2027-06-10,788,290!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-08-14,210,210-->
 - water pollution→::@::←_(end)_ <!--SR:!2026-03-23,457,310!2027-01-26,745,330-->
@@ -100,8 +100,8 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-10-12,201,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2026-09-09,523,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-05-16,24,135-->
-- (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2026-02-18,299,295!2025-05-16,188,295-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-07-03,33,135-->
+- (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2026-02-18,299,295!2027-07-10,770,315-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
 <!--/pytextgen-->
@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-05-24,127,230!2027-07-03,807,290-->
+- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2026-07-25,420,250!2027-07-03,807,290-->
   - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!2026-07-17,600,330-->
   - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2028-04-24,1113,350-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2026-09-01,583,310-->
@@ -243,17 +243,17 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2028-03-09,1079,350!2028-06-02,1142,350-->
   - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
-  - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2025-05-15,152,270!2025-05-18,229,270-->
+  - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2026-12-26,574,290!2027-10-13,865,290-->
   - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2026-08-17,562,310-->
   - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!2026-09-12,641,330-->
-  - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2025-12-19,384,290!2025-06-01,248,290-->
+  - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2025-12-19,384,290!2028-02-27,1001,310-->
   - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2026-02-07,459,310!2026-04-04,503,310-->
 
 ## page 18
 
 HATS Stage 2 Overview
 
-- Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2025-05-13,274,330-->
+- Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2028-10-29,1247,350-->
   - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2028-08-02,1183,350-->
   - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2026-06-03,474,270!2025-07-13,276,290-->
   - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2026-05-27,505,310-->
@@ -268,7 +268,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2026-01-11,378,310!2026-10-11,597,310-->
-    - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2025-12-13,343,250!2025-06-05,293,330-->
+    - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2025-12-13,343,250!2029-01-29,1334,350-->
 
 ## page 21
 
@@ -308,15 +308,15 @@ Noise Levels and Causes
 
 Properties of Sound Waves
 
-- sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2027-08-20,891,330!2025-05-27,286,330-->
-  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2025-11-29,369,290!2025-05-22,281,330-->
+- sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2027-08-20,891,330!2028-12-22,1301,350-->
+  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2025-11-29,369,290!2027-12-14,927,330-->
 
 ## page 26
 
 Air Pollution: A serious problem in Hong Kong?
 
 - regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2025-10-16,381,310!2027-07-20,867,330-->
-- global air pollution concerns ::@:: acid rain and climate change <!--SR:!2025-05-16,275,330!2027-01-03,720,330-->
+- global air pollution concerns ::@:: acid rain and climate change <!--SR:!2028-11-02,1251,350!2027-01-03,720,330-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
@@ -336,19 +336,19 @@ Air Quality Health Index
 
 FORECAST of Health Risk
 
-- AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2027-04-07,788,330!2025-05-12,271,330-->
+- AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2027-04-07,788,330!2028-10-15,1233,350-->
   - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2026-01-07,385,270!2028-05-01,1120,350-->
 
 ## page 29
 
 Indoor Air Quality
 
-- sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2027-11-25,995,350-->
+- sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2028-11-03,1252,350!2027-11-25,995,350-->
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2028-08-26,1207,350-->
   - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2026-05-06,490,310-->
-    - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2026-02-10,329,310-->
+    - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2027-09-28,850,290!2026-02-10,329,310-->
     - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2026-02-05,274,210!2026-06-19,518,310-->
-    - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2025-06-02,237,290-->
+    - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2027-09-15,837,290!2028-01-14,954,310-->
 
 ## page 30
 
@@ -390,11 +390,11 @@ return await memorize_seq(
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2026-10-09,596,310!2027-05-04,807,330-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
-- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-06-02,84,210-->
+- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2026-02-15,256,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-06-21,45,150-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
-- sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-05-16,91,290!2027-02-16,688,310-->
+- sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2026-06-02,367,310!2027-02-16,688,310-->
 
 <!--/pytextgen-->
 
@@ -427,7 +427,7 @@ Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::@:: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2025-10-21,344,290!2025-06-08,296,330-->
   - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2027-10-05,929,330!2027-10-07,957,350-->
-  - density of water ::@:: about 1 kg/L <!--SR:!2025-05-25,284,330!2027-04-12,758,330-->
+  - density of water ::@:: about 1 kg/L <!--SR:!2028-12-12,1291,350!2027-04-12,758,330-->
 
 ## page 35
 
@@ -436,7 +436,7 @@ Relationship between PPM and mg/L
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
   - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2025-09-28,328,290!2026-06-04,512,310-->
-- specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2028-04-23,1115,350!2025-05-19,278,330-->
+- specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2028-04-23,1115,350!2028-11-16,1265,350-->
 
 ## page 36
 
@@ -451,7 +451,7 @@ Concentration Units for Gases
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2027-12-03,970,330!2026-07-28,609,330-->
-  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2026-07-09,569,310!2025-05-14,273,330-->
+  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2026-07-09,569,310!2028-10-24,1242,350-->
 
 ## page 38
 

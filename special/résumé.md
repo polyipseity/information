@@ -25,7 +25,7 @@ To optimize the résumé for successful application and {@{[applicant tracking s
 - formatting ::@:: consistent, minimal <!--SR:!2026-01-13,560,310!2029-12-15,1682,393-->
 - length ::@:: 1 single-sided page <!--SR:!2028-01-14,1205,350!2029-10-07,1629,393-->
 - line spacing ::@:: single <!--SR:!2028-03-20,1250,350!2025-06-24,372,373-->
-- order ::@:: reverse chronological <!--SR:!2026-04-19,685,330!2025-05-26,348,373-->
+- order ::@:: reverse chronological <!--SR:!2026-04-19,685,330!2030-04-19,1779,393-->
 
 ## content
 
@@ -58,7 +58,7 @@ return await memorize_seq(
 <!--pytextgen generate section="20fa"--><!-- The following content is generated at 2024-01-26T12:42:06.646432+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[profile summary](#profile%20summary) <!--SR:!2026-09-21,765,330!2027-07-24,1068,350-->
-- [profile summary](#profile%20summary)→::@::←[education](#education) <!--SR:!2026-09-24,768,330!2025-05-16,359,310-->
+- [profile summary](#profile%20summary)→::@::←[education](#education) <!--SR:!2026-09-24,768,330!2029-08-23,1540,330-->
 - [education](#education)→::@::←[experience](#experience) <!--SR:!2026-03-13,600,310!2027-01-12,714,290-->
 - [experience](#experience)→::@::←[achievements](#achievements) <!--SR:!2026-08-05,545,250!2027-04-09,892,310-->
 - [achievements](#achievements)→::@::←[skills](#skills) <!--SR:!2027-08-05,977,290!2026-03-24,610,310-->
@@ -77,7 +77,7 @@ Two recommended formats:
 ### experience
 
 - industry experience ::@:: if no salary <!--SR:!2029-05-02,1455,330!2025-08-27,421,373-->
-- work experience ::@:: all, 0 to 3 sub-points according to importance <!--SR:!2027-07-19,1064,350!2025-05-25,347,373-->
+- work experience ::@:: all, 0 to 3 sub-points according to importance <!--SR:!2027-07-19,1064,350!2030-04-20,1780,393-->
   - work experience sub-points ::@:: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities <!--SR:!2026-04-01,465,230!2025-07-28,397,373-->
 
 ### skills

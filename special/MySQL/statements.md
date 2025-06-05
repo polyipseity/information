@@ -10,7 +10,7 @@ tags:
 
 ## common statements
 
-- `ALTER TABLE table_name [alter_option[, ...]]` ::@:: Modify the table named `table_name` by the options `alter_option`. <!--SR:!2027-02-25,860,310!2025-05-12,451,330-->
+- `ALTER TABLE table_name [alter_option[, ...]]` ::@:: Modify the table named `table_name` by the options `alter_option`. <!--SR:!2027-02-25,860,310!2031-01-11,2049,350-->
 - `CREATE DATABASE database_name` ::@:: Create a database named `database_name`. <!--SR:!2029-09-19,1702,350!2030-01-29,1807,350-->
 - `CREATE TABLE table_name (create_definition, ...)` ::@:: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2026-02-19,594,299!2027-02-03,870,319-->
 - `DELETE FROM table_name [WHERE where_expression]` ::@:: Delete rows from the table named `table_name`. Optionally filter rows for which `where_expression` is true. <!--SR:!2028-05-02,1281,339!2025-11-27,540,299-->
@@ -24,13 +24,13 @@ tags:
 ## common expressions
 
 - `alter_option`
-  - `ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: Add an index indexed by `key_part` using the specified algorithm. <!--SR:!2026-05-15,584,250!2025-05-21,458,330-->
+  - `ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: Add an index indexed by `key_part` using the specified algorithm. <!--SR:!2026-05-15,584,250!2031-02-19,2088,350-->
 - `create_definition`
   - `column_name column_definition` ::@:: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2028-06-14,1300,330!2030-09-17,1974,350-->
   - `{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: An index indexed by `key_part` using the specified algorithm. <!--SR:!2026-05-17,639,299!2027-11-15,1056,319-->
   - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::@:: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2026-01-25,538,319!2026-05-01,605,319-->
 - `select_expression`
   - `*` ::@:: Select all columns. <!--SR:!2025-07-06,497,339!2028-01-04,1189,339-->
-  - `COUNT(expression)` ::@:: Number of selected non-`NULL` rows for `expression`. <!--SR:!2025-05-12,453,339!2027-04-09,901,319-->
+  - `COUNT(expression)` ::@:: Number of selected non-`NULL` rows for `expression`. <!--SR:!2031-03-17,2114,359!2027-04-09,901,319-->
 - `table_reference`
   - `table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]` ::@:: [`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`. <!--SR:!2026-10-08,670,279!2026-06-09,666,299-->

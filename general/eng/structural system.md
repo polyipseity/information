@@ -20,17 +20,17 @@ Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey wit
 
 The structural system of a building only {@{consists of members designed to carry loads}@}, and all others are {@{non-structural}@}. <!--SR:!2026-03-26,496,310!2028-07-26,1196,355-->
 
-The structural system of a high-rise building should support {@{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}@}. The latter, {@{lateral loads, are especially important for tall buildings}@}. Otherwise, tall buildings may {@{slide (horizontal translation) or overturn (rotation about the base)}@}. Generally the higher up, {@{the larger the load}@}. <!--SR:!2025-05-19,259,290!2026-05-23,543,315!2027-03-24,798,335!2027-07-31,878,330-->
+The structural system of a high-rise building should support {@{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}@}. The latter, {@{lateral loads, are especially important for tall buildings}@}. Otherwise, tall buildings may {@{slide (horizontal translation) or overturn (rotation about the base)}@}. Generally the higher up, {@{the larger the load}@}. <!--SR:!2028-04-04,1046,310!2026-05-23,543,315!2027-03-24,798,335!2027-07-31,878,330-->
 
 Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2027-06-06,849,335!2026-04-25,520,315-->
 
-The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2027-05-04,818,335!2026-06-10,553,315!2025-06-07,297,335!2026-05-27,547,315!2025-05-10,230,275-->
+The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2027-05-04,818,335!2026-06-10,553,315!2025-06-07,297,335!2026-05-27,547,315!2027-02-13,636,275-->
 
-We can {@{quantify}@} overturning. The {@{lateral stiffness}@} of a building is defined as {@{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}@}, somewhat similar to {@{[elastic modulus](elastic%20modulus.md)}@}. The aim is to {@{increase the lateral stiffness, which involves making the building stiff and strong}@}. <!--SR:!2028-07-27,1195,355!2028-07-23,1192,355!2026-03-01,439,295!2027-03-06,782,335!2025-05-17,282,335-->
+We can {@{quantify}@} overturning. The {@{lateral stiffness}@} of a building is defined as {@{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}@}, somewhat similar to {@{[elastic modulus](elastic%20modulus.md)}@}. The aim is to {@{increase the lateral stiffness, which involves making the building stiff and strong}@}. <!--SR:!2028-07-27,1195,355!2028-07-23,1192,355!2026-03-01,439,295!2027-03-06,782,335!2028-12-16,1308,355-->
 
 ### classification
 
-For high-rise buildings, the structural system can be broadly categorized into {@{exterior and interior structures}@}. <!--SR:!2025-06-03,295,335-->
+For high-rise buildings, the structural system can be broadly categorized into {@{exterior and interior structures}@}. <!--SR:!2029-02-26,1364,355-->
 
 #### interior structures
 
@@ -66,7 +66,7 @@ The following interior structures are possible.
 - _(begin)_→::@::←[braced frame](braced%20frame.md) <!--SR:!2026-11-12,609,290!2027-02-04,749,335-->
 - [braced frame](braced%20frame.md)→::@::←[hinged frame](hinged%20frame.md) <!--SR:!2025-10-02,259,235!2025-07-08,114,215-->
 - [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2025-06-06,103,150!2025-11-05,206,195-->
-- [outrigger](#outrigger)→::@::←[rigid frame](rigid%20frame.md) <!--SR:!2025-05-25,238,275!2025-05-20,138,195-->
+- [outrigger](#outrigger)→::@::←[rigid frame](rigid%20frame.md) <!--SR:!2027-11-21,910,295!2026-06-20,392,215-->
 - [rigid frame](rigid%20frame.md)→::@::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2025-11-02,328,255!2025-08-02,273,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→::@::←_(end)_ <!--SR:!2027-03-22,784,335!2026-11-15,608,275-->
 

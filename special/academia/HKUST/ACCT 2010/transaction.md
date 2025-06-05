@@ -54,7 +54,7 @@ tags:
 > | {@{Cash (+A)}@}                                                | {@{1200}@}  |              |
 > | {@{Accumulated depreciation (−XA, +A)}@}                       | {@{600}@}   |              |
 > | &nbsp;&nbsp;&nbsp;&nbsp;{@{Boat (−A)}@}                        |             | {@{1000}@}   |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Gain on sale of assets (+R, +SE)}@} |             | {@{800}@}    | <!--SR:!2026-02-04,328,340!2026-02-03,327,340!2026-01-10,307,340!2026-02-09,332,340!2026-02-10,333,340!2026-01-06,304,340!2025-08-22,180,310!2025-05-23,88,300!2026-02-11,334,340!2026-02-09,332,340!2026-02-03,327,340-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Gain on sale of assets (+R, +SE)}@} |             | {@{800}@}    | <!--SR:!2026-02-04,328,340!2026-02-03,327,340!2026-01-10,307,340!2026-02-09,332,340!2026-02-10,333,340!2026-01-06,304,340!2025-08-22,180,310!2026-06-03,367,320!2026-02-11,334,340!2026-02-09,332,340!2026-02-03,327,340-->
 
 <!-- markdownlint MD028 -->
 
@@ -93,11 +93,11 @@ tags:
 > | --------------------------------------- |:-----------:|:------------:|
 > | {@{Interest expense (+E, −SE)}@}        | {@{4145}@}  |              |
 > | {@{Bond premium (−L)}@}                 | {@{855}@}   |              |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |             | {@{5000}@}   | <!--SR:!2026-03-26,322,300!2026-02-06,330,340!2026-02-07,330,340!2026-02-07,330,340!2026-01-09,306,340!2025-05-12,105,290!2026-02-08,331,340!2025-11-01,232,320!2026-03-18,361,359-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |             | {@{5000}@}   | <!--SR:!2026-03-26,322,300!2026-02-06,330,340!2026-02-07,330,340!2026-02-07,330,340!2026-01-09,306,340!2026-07-28,422,310!2026-02-08,331,340!2025-11-01,232,320!2026-03-18,361,359-->
 
 ## format
 
-- format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2026-02-12,308,300!2025-05-24,113,300-->
+- format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2026-02-12,308,300!2026-09-19,475,320-->
   - description ::@:: Optional. Simply describe the transaction. Usually use past tense. <!--SR:!2026-02-06,330,340!2026-01-31,325,340-->
   - date ::@:: Optional. The date of transaction. Examples: `January 1, 2024`, `December 31, 2024`. <!--SR:!2025-09-25,216,320!2026-02-11,334,340-->
   - account captions ::@:: Debits first, then credits. Optionally, indent the credited accounts. (This is the usual convention.) <!--SR:!2026-02-03,327,340!2026-02-04,328,340-->

@@ -47,7 +47,7 @@ return await memorize_seq(
 - _(begin)_→::@::←The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$ <!--SR:!2026-11-19,575,230!2029-09-28,1814,350-->
 - The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$→::@::←A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$ <!--SR:!2025-06-23,515,290!2027-01-12,705,270-->
 - A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$→::@::←The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{G(M + m)}a^3$ <!--SR:!2029-03-07,1400,290!2026-08-18,747,270-->
-- The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{G(M + m)}a^3$→::@::←_(end)_ <!--SR:!2025-05-13,205,310!2025-07-14,501,270-->
+- The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{G(M + m)}a^3$→::@::←_(end)_ <!--SR:!2027-02-08,634,310!2025-07-14,501,270-->
 
 <!--/pytextgen-->
 
@@ -55,7 +55,7 @@ return await memorize_seq(
 
 ## history
 
-Kepler published {@{his first 2 laws in 1609}@} after {@{analyzing astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}@}. Kepler's third law was {@{published in 1619}@}. <!--SR:!2025-08-27,331,350!2025-09-04,291,290!2025-05-31,243,330-->
+Kepler published {@{his first 2 laws in 1609}@} after {@{analyzing astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}@}. Kepler's third law was {@{published in 1619}@}. <!--SR:!2025-08-27,331,350!2025-09-04,291,290!2028-06-11,1107,350-->
 
 ## references
 

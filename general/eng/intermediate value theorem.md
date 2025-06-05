@@ -8,7 +8,7 @@ tags:
 
 # intermediate value theorem
 
-In [mathematics](mathematics.md), the __intermediate value theorem__ states that {@{if a [real-valued function](real-valued%20function.md) $f$ is [continuous](continuous%20function.md) over the closed [interval](interval%20(mathematics).md) $[a,b]$, then $f(x)$ passes through any value between $f(a)$ and $f(b)$ for some $x$ in the interval}@}. <!--SR:!2025-05-31,402,310-->
+In [mathematics](mathematics.md), the __intermediate value theorem__ states that {@{if a [real-valued function](real-valued%20function.md) $f$ is [continuous](continuous%20function.md) over the closed [interval](interval%20(mathematics).md) $[a,b]$, then $f(x)$ passes through any value between $f(a)$ and $f(b)$ for some $x$ in the interval}@}. <!--SR:!2030-02-19,1725,330-->
 
 ## theorem
 

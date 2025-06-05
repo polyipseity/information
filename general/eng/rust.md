@@ -69,7 +69,7 @@ return await memorize_seq(
 - _(begin)_→::@::←[cathodic protection](#cathodic%20protection) <!--SR:!2027-03-16,1037,330!2026-11-07,943,330-->
 - [cathodic protection](#cathodic%20protection)→::@::←[coating and painting](#coating%20and%20painting) <!--SR:!2027-10-24,1162,310!2026-10-07,808,310-->
 - [coating and painting](#coating%20and%20painting)→::@::←[electroplating](#electroplating) <!--SR:!2025-09-05,405,310!2026-10-21,930,330-->
-- [electroplating](#electroplating)→::@::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2027-07-08,873,290!2025-05-11,330,290-->
+- [electroplating](#electroplating)→::@::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2027-07-08,873,290!2029-01-06,1330,310-->
 - [rust-resistant alloys](#rust-resistant%20alloys)→::@::←_(end)_ <!--SR:!2027-12-16,1335,350!2027-03-25,1039,330-->
 
 <!--/pytextgen-->
@@ -78,13 +78,13 @@ return await memorize_seq(
 
 - see: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
 
-Stainless steel {@{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}@}. It is {@{[shiny](gloss%20(optics)) but expensive}@}. It can be used {@{in [cookware](cookware.md) and [cutlery](cutlery.md)}@}. <!--SR:!2025-05-15,538,310!2026-07-01,847,290!2028-12-30,1461,310-->
+Stainless steel {@{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}@}. It is {@{[shiny](gloss%20(optics)) but expensive}@}. It can be used {@{in [cookware](cookware.md) and [cutlery](cutlery.md)}@}. <!--SR:!2031-09-17,2314,330!2026-07-01,847,290!2028-12-30,1461,310-->
 
 ### coating and painting
 
 Coating and painting {@{isolate iron from the environment}@}. <!--SR:!2027-03-03,1109,350-->
 
-[Paint](paint.md) can be used for {@{small structures and vehicle bodies}@}. It is {@{cheap but easy to scratch off}@}. [Plastic](plastic.md) can be used for {@{small objects}@}. It is {@{good-looking and long-lasting but relatively more expensive}@}. [Oil](oil.md) or [grease](grease.md) can be used for {@{machines and tools}@}. They are {@{sticky and can lubricate the moving parts}@}. <!--SR:!2025-08-05,532,250!2025-06-03,556,310!2027-10-21,1294,350!2026-04-17,679,250!2029-10-25,1640,310!2025-05-26,501,270-->
+[Paint](paint.md) can be used for {@{small structures and vehicle bodies}@}. It is {@{cheap but easy to scratch off}@}. [Plastic](plastic.md) can be used for {@{small objects}@}. It is {@{good-looking and long-lasting but relatively more expensive}@}. [Oil](oil.md) or [grease](grease.md) can be used for {@{machines and tools}@}. They are {@{sticky and can lubricate the moving parts}@}. <!--SR:!2025-08-05,532,250!2031-12-18,2389,330!2027-10-21,1294,350!2026-04-17,679,250!2029-10-25,1640,310!2030-08-03,1895,290-->
 
 ### electroplating
 
@@ -100,7 +100,7 @@ In [galvanization](galvanization.md), {@{[zinc](zinc.md) is used to make galvani
 
 Cathodic protection can be achieved via {@{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}@}. <!--SR:!2028-12-02,1445,310-->
 
-In the former, {@{a more reactive [metal](metal.md) is attached to the iron}@}. The metal requires {@{replacement from time to time}@}. Examples include {@{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}@} In the latter, {@{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}@}. It is {@{convenient but applicable to few situations}@}. It can be used {@{car bodies, pipelines, and storages}@}. <!--SR:!2026-01-10,642,270!2028-01-21,1364,350!2027-10-20,1056,270!2025-07-01,520,270!2027-01-30,944,290!2025-05-23,429,230-->
+In the former, {@{a more reactive [metal](metal.md) is attached to the iron}@}. The metal requires {@{replacement from time to time}@}. Examples include {@{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}@} In the latter, {@{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}@}. It is {@{convenient but applicable to few situations}@}. It can be used {@{car bodies, pipelines, and storages}@}. <!--SR:!2026-01-10,642,270!2028-01-21,1364,350!2027-10-20,1056,270!2025-07-01,520,270!2027-01-30,944,290!2029-03-18,1394,250-->
 
 ## references
 

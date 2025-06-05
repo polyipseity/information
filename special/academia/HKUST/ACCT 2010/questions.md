@@ -57,7 +57,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1}@} <!--SR:!2025-05-27,184,310-->
+> - solution: {@{1}@} <!--SR:!2027-07-31,790,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ tags:
 > 2. statement of cash flow
 > 3. both of them
 >
-> - solution: {@{3}@} <!--SR:!2025-05-20,178,310-->
+> - solution: {@{3}@} <!--SR:!2027-07-05,764,330-->
 
 ## week 2 review
 

@@ -24,7 +24,7 @@ Note that the above definition is still too restrictive because {@{the limits ar
 > [!tip] tips
 >
 > - [complement](complement%20(set%20theory).md) of a real interval ::@:: For example, for $a, b \in \mathbb{R}$, $(-\infty, a] \cup (b, +\infty)$ is the [complement](complement%20(set%20theory).md) of $(a, b]$. <!--SR:!2029-08-07,1575,384!2025-06-27,373,364-->
-> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-08-06,406,364!2025-05-31,351,364-->
+> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-08-06,406,364!2030-03-13,1747,384-->
 > - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::@:: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2028-03-11,1144,364!2029-09-09,1602,384-->
 > - motivation of not defining limits at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::@:: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless. <!--SR:!2027-01-02,778,344!2025-06-10,359,364-->
 
@@ -33,11 +33,11 @@ Note that the above definition is still too restrictive because {@{the limits ar
 > [!example] examples
 >
 > - empty function $\varnothing \to X$ :@: It has no limit at every [real](real%20number.md). However, it has limit and it has no limit at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2028-08-25,1277,364-->
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It has no limit at every [real](real%20number.md), including $0$. <!--SR:!2025-06-04,354,364-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It has no limit at every [real](real%20number.md), including $0$. <!--SR:!2030-04-06,1767,384-->
 
 ### one-sided limits and existence
 
-Note that the first two definitions above consider {@{$x$ approaching from both sides}@}. Alternatively, one can consider {@{$x$ approaching $p$ from below (left) or above (right)}@}, in which case the limits are respectively denoted as {@{$$\lim_{x \to p^-} f(x) \quad \text{ or } \quad \lim_{x\,\uparrow\,p} f(x) \quad \text{ or } \quad \lim_{x \nearrow p} f(x) \quad \text{ or } \quad f(x-)$$ and $$\lim_{x \to p^+} f(x) \quad \text{ or } \quad \lim_{x\,\downarrow\,p} f(x) \quad \text{ or } \quad \lim_{x \searrow p} f(x) \quad \text{ or } \quad f(x+)$$}@}. Such a limit is called {@{_one-sided limit_}@}. <!--SR:!2028-08-15,1268,364!2027-12-14,1074,364!2026-09-06,633,324!2025-05-22,343,364-->
+Note that the first two definitions above consider {@{$x$ approaching from both sides}@}. Alternatively, one can consider {@{$x$ approaching $p$ from below (left) or above (right)}@}, in which case the limits are respectively denoted as {@{$$\lim_{x \to p^-} f(x) \quad \text{ or } \quad \lim_{x\,\uparrow\,p} f(x) \quad \text{ or } \quad \lim_{x \nearrow p} f(x) \quad \text{ or } \quad f(x-)$$ and $$\lim_{x \to p^+} f(x) \quad \text{ or } \quad \lim_{x\,\downarrow\,p} f(x) \quad \text{ or } \quad \lim_{x \searrow p} f(x) \quad \text{ or } \quad f(x+)$$}@}. Such a limit is called {@{_one-sided limit_}@}. <!--SR:!2028-08-15,1268,364!2027-12-14,1074,364!2026-09-06,633,324!2030-01-24,1708,384-->
 
 The formal definitions for the above one-sided limits can be obtained by {@{taking any of the above definition and replacing the implication antecedent $0 < \lvert x - p \rvert < \delta$ with respectively $0 < p - x < \delta$ and $0 < x - p < \delta$}@}. Restated, the __limit of $f$ as $x$ approaches $p$ from below is $L$<!-- LaTeX separator -->__, if: {@{For every real $\epsilon > 0$, there exists real $\delta > 0$ such that for all $x \in (a, b)$, $0 < p - x < \delta$ implies $\lvert f(x) - L \rvert < \epsilon$. $$(\forall \epsilon > 0)(\exists \delta > 0)(\forall x \in (a, b))(0 < p - x < \delta \implies \lvert f(x) - L \rvert < \epsilon)$$}@}. The __limit of $f$ as $x$ approaches $p$ from above is $L$<!-- LaTeX separator -->__, if: {@{For every real $\epsilon > 0$, there exists real $\delta > 0$ such that for all $x \in (a, b)$, $0 < x - p < \delta$ implies $\lvert f(x) - L \rvert < \epsilon$. $$(\forall \epsilon > 0)(\exists \delta > 0)(\forall x \in (a, b))(0 < x - p < \delta \implies \lvert f(x) - L \rvert < \epsilon)$$}@}. For the third definition, {@{the above replacement is unnecessary as the sequence $T$ can be selected such that it contains reals from one side only, and define this to be the one-sided limit}@}. <!--SR:!2027-06-30,916,344!2026-02-26,534,324!2026-11-14,639,284!2026-11-22,748,344-->
 
@@ -65,7 +65,7 @@ The functions {@{$$f(x) = \begin{cases} x & x\text{ rational} \\ 0 & x\text{ irr
 
 #### limits at countably many points
 
-The function {@{$$f(x) = \begin{cases} \cos x & x\text{ rational} \\ 1 & x\text{ irrational} \end{cases}$$}@} has a limit that equals 1 at every $x = 2n \pi$, where $n$ is any integer. <!--SR:!2025-05-14,311,304-->
+The function {@{$$f(x) = \begin{cases} \cos x & x\text{ rational} \\ 1 & x\text{ irrational} \end{cases}$$}@} has a limit that equals 1 at every $x = 2n \pi$, where $n$ is any integer. <!--SR:!2028-12-15,1311,324-->
 
 ## properties
 
@@ -79,10 +79,10 @@ The __algebraic limit theorem__ states that {@{for [real](real%20number.md) or [
 >
 > - condition ::@:: $x$ is [real](real%20number.md) or [complex](complex%20number). Limits on the right side of the equations exist or are in [determinate form](#determinate%20forms). <!--SR:!2027-08-17,966,330!2028-07-20,1249,364-->
 > - addition ::@:: $\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$ <!--SR:!2027-12-29,1151,350!2028-01-09,1098,364-->
-> - subtraction ::@:: $\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$ <!--SR:!2027-07-02,1009,350!2025-05-23,344,364-->
+> - subtraction ::@:: $\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$ <!--SR:!2027-07-02,1009,350!2030-02-11,1724,384-->
 > - multiplication ::@:: $\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$ <!--SR:!2027-09-20,1068,350!2026-10-10,723,344-->
 > - division ::@:: $\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$ <!--SR:!2025-08-28,466,310!2029-11-03,1646,384-->
-> - exponentiation ::@:: $\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$  (If only [real](real%20number.md) $x$ is considered, the base, if it approaches 0, must approach it from the positive.) <!--SR:!2025-05-25,322,250!2027-04-01,807,344-->
+> - exponentiation ::@:: $\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$  (If only [real](real%20number.md) $x$ is considered, the base, if it approaches 0, must approach it from the positive.) <!--SR:!2028-06-26,1128,270!2027-04-01,807,344-->
 
 #### determinate forms
 

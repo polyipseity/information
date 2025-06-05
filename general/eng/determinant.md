@@ -19,7 +19,7 @@ The determinant of {@{a 2 × 2 matrix $\begin{pmatrix} a & b \\ c & d \end{pmatr
 
 ### Leibniz formula
 
-The _Leibniz formula_ for the determinant of a 3 × 3 matrix is: {@{$$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = aei + bfg + cdh - ceg - bdi - afh$$}@}. <!--SR:!2025-05-13,255,330-->
+The _Leibniz formula_ for the determinant of a 3 × 3 matrix is: {@{$$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = aei + bfg + cdh - ceg - bdi - afh$$}@}. <!--SR:!2028-07-17,1160,350-->
 
 #### 3 × 3 matrices
 

@@ -29,7 +29,7 @@ _Thermal stress weathering_ {@{results from expansion and contraction of [rocks]
 
 ### dissolution
 
-_Dissolution_ is {@{weathering in which a mineral [dissolves](dissolution.md) without producing any [solids](solid.md)}@}. <!--SR:!2025-05-15,270,230-->
+_Dissolution_ is {@{weathering in which a mineral [dissolves](dissolution.md) without producing any [solids](solid.md)}@}. <!--SR:!2027-10-09,877,250-->
 
 Carbonate dissolution is {@{dissolution in which atmospheric [carbon dioxide](carbon%20dioxide.md) enhances weathering}@}. It affects rocks {@{containing [calcium carbonate](calcium%20carbonate.md) like [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}@}. It causes {@{formation of [sinkholes](sinkhole.md) and damages to limestone structures}@}. It works in two steps: <!--SR:!2027-10-23,999,250!2027-02-13,953,290!2031-05-17,2258,330-->
 

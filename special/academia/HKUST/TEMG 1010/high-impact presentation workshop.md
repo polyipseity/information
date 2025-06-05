@@ -41,9 +41,9 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-11-28,289,330
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question. <!--SR:!2025-11-30,290,330!2025-11-28,288,330-->
 - pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious. <!--SR:!2025-12-01,291,330!2025-11-28,289,330-->
 - Mark Zuckerberg ::@:: He is not known to be a good speaker, unlike Steve Jobs. There is a reason why he seems robotic... He lacks variety when presenting. <!--SR:!2025-11-29,289,330!2025-11-30,290,330-->
-  - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement <!--SR:!2025-05-30,128,290!2025-05-13,116,290-->
+  - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement <!--SR:!2026-11-04,521,310!2026-09-11,473,310-->
 - finger ::@:: Try to not curl your fingers (and arms). Try to not point your fingers downward, and instead point horizontally. <!--SR:!2025-11-01,268,330!2025-11-29,289,330-->
-- hand ::@:: Most of the time, your hand palm should face inward. Sometimes it is okay to vary this, but too much of hand palm facing outward makes you look unserious or too exciting. <!--SR:!2025-06-04,132,290!2025-10-16,255,330-->
+- hand ::@:: Most of the time, your hand palm should face inward. Sometimes it is okay to vary this, but too much of hand palm facing outward makes you look unserious or too exciting. <!--SR:!2026-11-17,531,310!2025-10-16,255,330-->
 - authoritative vs. lively ::@:: It depends on context. Usually it is best to strike a balance. <!--SR:!2025-12-04,294,330!2025-07-20,180,310-->
 - mistake ::@:: Do not be afraid of mistakes. Audience will not notice a few minor mistakes. <!--SR:!2025-12-04,294,330!2025-12-01,291,330-->
 

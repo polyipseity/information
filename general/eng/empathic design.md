@@ -17,13 +17,13 @@ Empathy is the foundation of {@{a human-centered design process}@}. <!--SR:!2028
 
 Empathy is {@{to understand or feel another person from their frame of perspective, i.e. placing one in others' shoes}@}, while sympathy is {@{simply expressing understanding or care for others' feeling}@}. In terms of effect, empathy can drive {@{connections while sympathy can do the opposite}@}. <!--SR:!2027-03-03,729,290!2025-06-23,280,290!2027-03-17,781,330-->
 
-For example, a sympathetic person seeing a homeless person might {@{feel bad, donate some money, and go away}@}, while an empathic person might {@{spend time and attempt to connect with the person}@}. <!--SR:!2025-05-22,291,330!2027-11-23,966,310-->
+For example, a sympathetic person seeing a homeless person might {@{feel bad, donate some money, and go away}@}, while an empathic person might {@{spend time and attempt to connect with the person}@}. <!--SR:!2029-01-05,1324,350!2027-11-23,966,310-->
 
 ## process
 
 In an empathic design process, we need to {@{observe, immerse, engage, and understand}@}. <!--SR:!2026-01-31,473,310-->
 
-Observe {@{views users and their behavior in the context of their lives}@}. <!--SR:!2025-06-03,278,290-->
+Observe {@{views users and their behavior in the context of their lives}@}. <!--SR:!2028-06-27,1120,310-->
 
 Immerse is {@{experiencing in your users' shoes}@}. <!--SR:!2028-03-30,1105,350-->
 

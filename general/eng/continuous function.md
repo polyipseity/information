@@ -39,7 +39,7 @@ A __discontinuous function__ is {@{a function that is _not continuous_. By this 
 
 > [!tip] tips
 >
-> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-05-25,343,344!2027-08-13,973,350-->
+> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2029-11-03,1623,364!2027-08-13,973,350-->
 > - relation of definitions between open intervals and semi-closed or closed intervals ::@:: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2026-05-13,575,310!2027-03-06,774,324-->
 
 <!-- markdownlint MD028 -->
@@ -51,7 +51,7 @@ A __discontinuous function__ is {@{a function that is _not continuous_. By this 
 
 #### discontinuity at a point
 
-A function is _discontinuous_ at a point {@{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}@}. <!--SR:!2025-05-15,283,290-->
+A function is _discontinuous_ at a point {@{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}@}. <!--SR:!2028-06-30,1140,310-->
 
 > [!tip] tips
 >

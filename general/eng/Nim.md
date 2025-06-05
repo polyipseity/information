@@ -161,7 +161,7 @@ In another game which is commonly known as {@{nim (but is better called the [sub
 
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2025-09-29,252,321!2025-09-30,253,321!2026-05-02,422,310!2026-08-17,511,330!2025-10-08,238,281!2025-10-03,255,321-->
 
-- 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2025-05-29,64,290!2025-11-22,315,341-->
+- 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2025-11-28,182,290!2025-11-22,315,341-->
 - 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2025-09-23,247,321!2026-01-03,308,301-->
 
 This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-12-24,301,301-->
@@ -249,7 +249,7 @@ Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conv
 
 ### index-_k_ nim
 
-A generalization of multi-heap nim was called {@{"nim<sub>_k_</sub>" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}@},<sup>[\[12\]](#^ref-12)</sup> who {@{analyzed it in 1910}@}. In index-_k_ nim, instead of {@{removing objects from only one heap}@}, players can {@{remove objects from at least one but up to _k_ different heaps}@}. The number of elements that may be removed {@{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}@}. <!--SR:!2025-05-26,103,301!2025-09-25,248,321!2026-12-28,620,341!2025-11-23,316,341!2026-12-14,608,341-->
+A generalization of multi-heap nim was called {@{"nim<sub>_k_</sub>" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}@},<sup>[\[12\]](#^ref-12)</sup> who {@{analyzed it in 1910}@}. In index-_k_ nim, instead of {@{removing objects from only one heap}@}, players can {@{remove objects from at least one but up to _k_ different heaps}@}. The number of elements that may be removed {@{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}@}. <!--SR:!2026-07-30,430,321!2025-09-25,248,321!2026-12-28,620,341!2025-11-23,316,341!2026-12-14,608,341-->
 
 The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1 (this is no longer the XOR-sum, but a generalization of it)}@}. <!--SR:!2025-09-07,231,281!2026-08-12,507,330!2026-12-06,602,341-->
 

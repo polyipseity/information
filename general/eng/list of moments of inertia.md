@@ -19,7 +19,7 @@ tags:
 - definition ::@:: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center <!--SR:!2026-03-15,543,327!2028-03-20,1156,367-->
 - equation ::@:: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2025-12-05,447,250!2028-04-07,1161,358-->
   - thin plate correction ::@:: use the same equation <!--SR:!2027-08-11,1086,350!2028-05-03,1182,358-->
-  - cuboid, axis through center of edge $c$ ::@:: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2026-12-14,635,250!2025-05-30,297,298-->
+  - cuboid, axis through center of edge $c$ ::@:: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2026-12-14,635,250!2027-11-03,886,298-->
   - thin plate with $c=0$, axis through edge $a$ ::@:: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2025-12-29,554,310!2025-08-16,351,298-->
 - proof: $$\begin{aligned}
 m&=\rho{}HLW\\
@@ -93,7 +93,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 - definition ::@:: a homogeneous [spherical](sphere.md) shell of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center <!--SR:!2027-06-23,872,347!2025-08-05,404,367-->
 - equation ::@:: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$ <!--SR:!2027-01-22,702,250!2026-04-30,539,318-->
   - solid sphere ::@:: $I=\frac25mR_O^2$ <!--SR:!2026-01-26,573,310!2025-10-06,386,298-->
-  - thin-walled hollow sphere ::@:: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$ <!--SR:!2027-07-10,893,290!2025-05-18,288,298-->
+  - thin-walled hollow sphere ::@:: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$ <!--SR:!2027-07-10,893,290!2027-09-23,857,298-->
 - proof: $$\begin{aligned}
 m&=\frac43\rho\pi\left(R_O^3-R_I^3\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d}\theta\,\mathrm{d}\phi\,\mathrm{d}r\\

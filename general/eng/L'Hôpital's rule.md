@@ -126,7 +126,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 - $\frac\infty\infty$:@:$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$ <!--SR:!2027-11-20,1129,350-->
 - $0\cdot\infty$:@:$\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{f(x)}{1/g(x)}$ <!--SR:!2028-02-05,1189,350-->
-- $\infty-\infty$:@:$\lim_{x\to{c} }(f(x)-g(x))=\lim_{x\to{c} }\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ <!--SR:!2025-05-21,356,290-->
+- $\infty-\infty$:@:$\lim_{x\to{c} }(f(x)-g(x))=\lim_{x\to{c} }\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ <!--SR:!2028-03-31,1030,290-->
 - $0^0$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2027-02-26,842,290-->
 - $1^\infty$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2027-03-10,858,330-->
 - $\infty^0$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2025-10-23,483,310-->

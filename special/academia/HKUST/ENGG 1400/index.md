@@ -53,7 +53,7 @@ The content is in teaching order.
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
   - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2026-06-27,479,310!2025-10-24,303,330-->
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2025-07-01,216,330!2026-12-01,612,330-->
-- class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2025-05-26,185,310!2025-08-18,254,330-->
+- class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2025-08-18,254,330-->
 - activity 1: art to building community
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2025-07-15,227,330-->
 - activity 2: workview sharing, activity 3: worldview sharing
@@ -64,7 +64,7 @@ The content is in teaching order.
 - datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
 - work motivations ::@:: autonomy, mastery, purpose <!--SR:!2025-09-21,261,332!2025-12-26,357,352-->
 - relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-12-28,359,352!2025-12-25,356,352-->
-- course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2025-05-12,174,332!2025-09-20,260,332-->
+- course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2027-08-05,795,352!2025-09-20,260,332-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
 - society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2026-04-15,427,332!2027-06-07,761,352-->
   - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-12-20,351,352!2025-12-22,353,352-->
@@ -197,7 +197,7 @@ The content is in teaching order.
 - datetime: 2024-11-07T10:30:00+08:00/2024-11-07T12:20:00+08:00
 - assignments: [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
 - mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally. <!--SR:!2026-09-17,542,417!2026-09-26,551,417-->
-  - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_? <!--SR:!2025-05-11,148,417!2025-05-10,147,417-->
+  - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_? <!--SR:!2027-09-26,847,437!2027-09-14,835,437-->
 - activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2026-11-27,602,417!2026-10-26,575,417-->
   - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2027-07-22,806,437!2027-08-06,821,437-->
 - paying attention
@@ -223,17 +223,17 @@ The content is in teaching order.
 
 - datetime: 2024-11-21T10:30:00+08:00/2024-11-21T12:20:00+08:00
 - assignments: [letter to future self](assignments/letter%20to%20future%20self/submission.md), [final presentation](assignments/final%20presentation/submission.md)
-- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious. <!--SR:!2025-06-05,156,429!2025-06-08,159,429-->
-- prototype ::@:: To bring ideas to life with little cost. <!--SR:!2025-06-05,156,429!2025-06-03,154,429-->
-  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future! <!--SR:!2025-06-03,154,429!2027-02-12,653,429-->
-  - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost <!--SR:!2025-06-04,155,429!2025-06-06,157,429-->
+- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious. <!--SR:!2027-12-04,912,449!2025-06-08,159,429-->
+- prototype ::@:: To bring ideas to life with little cost. <!--SR:!2027-12-01,909,449!2027-11-18,897,449-->
+  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future! <!--SR:!2027-11-19,898,449!2027-02-12,653,429-->
+  - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost <!--SR:!2027-11-25,904,449!2025-06-06,157,429-->
   - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas. <!--SR:!2025-06-06,157,429!2025-06-08,159,429-->
-- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2025-06-07,158,429!2025-06-02,153,429-->
-  - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers. <!--SR:!2025-06-04,155,429!2026-12-03,601,429-->
-  - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will... <!--SR:!2025-06-03,154,429!2025-06-04,155,429-->
-  - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?). <!--SR:!2025-06-04,155,429!2025-06-05,156,429-->
+- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2025-06-07,158,429!2027-11-14,893,449-->
+  - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers. <!--SR:!2027-11-24,903,449!2026-12-03,601,429-->
+  - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will... <!--SR:!2027-11-22,901,449!2027-11-26,905,449-->
+  - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?). <!--SR:!2027-11-23,902,449!2027-12-03,911,449-->
 - storytelling ::@:: Tell stories. <!--SR:!2025-06-06,157,429!2025-06-07,158,429-->
-  - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities <!--SR:!2025-06-02,153,429!2025-06-06,157,429-->
+  - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities <!--SR:!2027-11-13,892,449!2025-06-06,157,429-->
 
 ## week 13 tutorial
 

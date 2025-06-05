@@ -27,8 +27,8 @@ Things to memorize. Yes... 🫠
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2025-05-18,232,294!2025-08-31,367,380-->
-- description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2025-05-16,292,375-->
+- bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2028-01-04,947,314!2025-08-31,367,380-->
+- description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2029-07-06,1496,395-->
 - image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2028-11-30,1310,380!2025-10-26,436,400-->
 - length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2025-06-20,319,372-->
 
@@ -94,8 +94,8 @@ See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::@:: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2026-10-10,595,292!2025-11-09,454,387-->
-- height ::@:: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2025-05-20,49,141!2027-05-21,813,352-->
-- image ::@:: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2026-03-05,542,400-->
+- height ::@:: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2025-09-12,103,161!2027-05-21,813,352-->
+- image ::@:: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2029-03-31,1399,380!2026-03-05,542,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ebde3927-b7ca-4808-9e3c-bf6078be3654 -->::@:: reinforced concrete <!--SR:!2026-11-22,655,360!2025-12-04,469,400-->
 
 ## Colosseum
@@ -104,7 +104,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2025-10-05,292,376-->
 - construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2026-04-17,384,236!2026-10-08,666,396-->
-- description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2025-12-11,420,376-->
+- description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2025-12-11,420,376-->
 - geographic location ::@:: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
 - height ::@:: 48 m (4 storeys) <!--SR:!2025-11-11,302,276!2026-12-23,772,416-->
 - importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->
@@ -135,7 +135,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::@:: 230.33 m <!--SR:!2025-07-22,217,356!2026-05-26,569,396-->
-- construction period ::@:: 10~20 years around 2560 BC <!--SR:!2025-05-31,150,216!2026-02-17,488,396-->
+- construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2026-02-17,488,396-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2025-10-07,237,336!2026-04-26,540,396-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2027-08-02,832,376!2026-12-18,768,416-->
@@ -156,7 +156,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
 - height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2029-08-17,1563,370-->
-- image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
+- image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2029-11-13,1622,400!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
 
 ## Hong Kong Convention and Exhibition Centre
@@ -211,7 +211,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 ## MOSE
 
-- image ::@:: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2025-05-09,274,360!2026-03-08,545,400-->
+- image ::@:: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2029-02-08,1348,380!2026-03-08,545,400-->
 - type ::@:: mobile gates <!--SR:!2025-10-01,380,337!2029-04-21,1459,387-->
 
 ## Millau Viaduct
@@ -220,12 +220,12 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::@:: cable-stayed road bridge <!--SR:!2026-07-26,642,396!2026-09-13,690,416-->
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2025-06-16,291,376!2027-01-26,801,416-->
-- geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2025-05-29,280,376-->
+- geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2026-01-25,346,296!2026-12-05,758,416-->
   - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
-- opening time ::@:: 2004-12-16, 09:00 <!--SR:!2026-07-11,443,276!2025-05-30,281,376-->
+- opening time ::@:: 2004-12-16, 09:00 <!--SR:!2026-07-11,443,276!2029-05-18,1447,396-->
 - width ::@:: 32.05 m <!--SR:!2025-08-17,163,336!2025-08-02,326,376-->
 
 ## Mont Cenis Base Tunnel
@@ -270,9 +270,9 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
-- description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2028-01-28,1025,330!2025-05-26,316,364-->
-- image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
+- bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2029-04-11,1410,380!2025-08-03,345,380-->
+- description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2028-01-28,1025,330!2029-09-25,1577,384-->
+- image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2029-08-13,1534,400-->
 - length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-08-02,131,197!2027-02-28,756,355-->
 
 ## Taipei 101
@@ -291,7 +291,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2025-10-10,433,397-->
 - height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2025-09-05,371,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2025-12-19,477,400-->
-- length ::@:: 520 m <!--SR:!2025-05-13,151,260!2026-09-13,645,330-->
+- length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->
 
 ## Tsing Ma Bridge
 
@@ -314,8 +314,8 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
-- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2025-05-20,154,201!2025-12-20,488,384-->
-- image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2025-07-04,205,320-->
+- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2025-12-20,488,384-->
+- image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2025-07-04,205,320-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
 
 ## Water Cube

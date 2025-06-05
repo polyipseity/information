@@ -44,7 +44,7 @@ English
 - [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2029-03-20,1494,364!2028-11-15,1391,364-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: (g\_e) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
-- [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: (g\_e) Assure that something will be done. <!--SR:!2028-08-18,1225,363!2025-05-15,207,283-->
+- [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: (g\_e) Assure that something will be done. <!--SR:!2028-08-18,1225,363!2027-01-08,585,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: (h\_e) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2026-11-06,723,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2029-02-19,1470,364!2027-07-05,933,344-->
@@ -58,7 +58,7 @@ English
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::@:: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2029-06-09,1557,364!2025-10-13,440,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::@:: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2030-06-15,1880,412-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::@:: (o\_e) An event or happening. <!--SR:!2027-04-06,949,430!2029-01-14,1443,390-->
-- [pendulum](https://en.wiktionary.org/wiki/pendulum) ::@:: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2025-07-30,456,378!2025-06-01,137,338-->
+- [pendulum](https://en.wiktionary.org/wiki/pendulum) ::@:: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2025-07-30,456,378!2026-09-07,462,338-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::@:: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2027-12-07,1035,352!2025-07-01,434,372-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::@:: (p\_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2028-01-14,1069,344!2026-11-17,730,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::@:: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2027-03-18,729,264!2025-07-15,391,304-->
@@ -66,7 +66,7 @@ English
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::@:: (p\_m) Copying of others' work and presenting it as one's own. <!--SR:!2026-12-31,761,324!2028-10-05,1297,324-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::@:: (p\_e) To copy others' work and present it as one's own. <!--SR:!2028-12-14,1415,364!2027-09-18,1019,324-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::@:: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2026-12-06,746,324!2027-03-29,916,344-->
-- [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2027-10-22,1001,352-->
+- [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2031-02-20,2089,392!2027-10-22,1001,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2028-07-17,1286,390-->
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-09-14,143,156-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2027-12-03,952,308-->

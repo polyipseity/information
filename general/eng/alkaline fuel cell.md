@@ -27,7 +27,7 @@ Energy is produced through {@{a [redox reaction](redox%20reaction.md) between [h
 
 Electrodes {@{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}@}. <!--SR:!2027-05-06,789,212-->
 
-Pure oxygen is needed {@{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}@}. <!--SR:!2025-05-26,480,252-->
+Pure oxygen is needed {@{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}@}. <!--SR:!2030-01-23,1703,272-->
 
 ## advantages and disadvantages
 
@@ -59,10 +59,10 @@ return await memorize_seq(
 
 - _(begin)_→::@::←+: efficiency as high as 70% <!--SR:!2026-08-05,739,292!2025-08-10,607,312-->
 - +: efficiency as high as 70%→::@::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2025-07-29,143,172!2026-01-17,704,312-->
-- +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2025-05-09,420,252-->
+- +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2029-06-06,1483,272-->
 - +: products, which consist of [water](water.md), are clean→::@::←-: expensive <!--SR:!2025-11-08,578,272!2026-05-15,514,232-->
-- -: expensive→::@::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2027-04-25,912,250!2025-06-03,417,312-->
-- -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→::@::←_(end)_ <!--SR:!2026-01-28,789,332!2025-05-31,554,312-->
+- -: expensive→::@::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2027-04-25,912,250!2030-05-10,1802,332-->
+- -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→::@::←_(end)_ <!--SR:!2026-01-28,789,332!2030-02-20,1726,312-->
 
 <!--/pytextgen-->
 

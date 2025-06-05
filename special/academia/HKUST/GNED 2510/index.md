@@ -42,16 +42,16 @@ The content is in teaching order.
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2025-08-03,241,330!2025-08-15,251,330-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2025-09-03,267,330!2025-06-22,209,330-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2025-08-13,251,330-->
-- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2027-02-11,663,330-->
+- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2027-09-03,824,330!2027-02-11,663,330-->
 - [name tag](../../../name%20tag.md)
-  - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2025-06-03,182,310!2025-10-22,301,330-->
+  - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2027-07-24,780,330!2025-10-22,301,330-->
 
 ## week 2 tutorial
 
 - datetime: 2023-09-13T17:00:00+08:00/2023-09-13T18:50:00+08:00
 - topic: Innerview (II): Together we redefine Success
 - ideal life
-- powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2025-06-03,180,310!2025-09-19,280,330-->
+- powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2027-07-15,771,330!2025-09-19,280,330-->
 - psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2025-07-30,239,330!2025-07-03,217,330-->
 
 ## week 3 tutorial
@@ -74,8 +74,8 @@ The content is in teaching order.
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2027-02-08,661,330!2025-06-30,199,310-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2025-08-17,252,330!2025-08-21,257,330-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2027-01-03,633,330-->
-  - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2025-06-03,189,310-->
-  - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2025-10-23,302,330!2025-05-30,176,310-->
+  - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2027-08-01,791,330!2027-08-24,811,330-->
+  - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2025-10-23,302,330!2027-06-20,749,330-->
 - assignment 1: job description, curriculum vitae, and cover letter
   - due: 2023-10-11
 
@@ -96,18 +96,18 @@ The content is in teaching order.
 
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
-- stress ::@:: mental or emotional strain or tension <!--SR:!2027-01-21,647,330!2025-06-03,182,310-->
+- stress ::@:: mental or emotional strain or tension <!--SR:!2027-01-21,647,330!2027-07-25,781,330-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2026-03-19,395,310!2027-04-22,715,330-->
-  - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
+  - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2027-09-07,825,330!2027-07-29,788,330-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2025-08-01,241,330-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2025-08-27,263,330-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2027-04-24,717,330!2025-10-22,301,330-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2025-09-12,273,330!2027-03-23,692,330-->
-  - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2025-06-02,181,310-->
-  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2025-07-31,240,330-->
+  - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2027-07-20,776,330-->
+  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2027-07-18,777,330!2025-07-31,240,330-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2025-07-29,216,310!2025-08-29,262,330-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
-    - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2025-08-28,261,330-->
+    - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2027-06-19,748,330!2025-08-28,261,330-->
   - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2025-06-15,202,330!2025-07-26,237,330-->
 
 ## week 7 tutorial
@@ -120,7 +120,7 @@ The content is in teaching order.
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2026-12-19,621,330-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2025-06-26,212,330-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2025-09-04,267,330!2025-07-15,227,330-->
-- If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2025-09-04,268,330-->
+- If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2027-06-09,738,330!2025-09-04,268,330-->
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2026-12-26,626,330-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2027-04-30,722,330!2025-09-20,281,330-->
@@ -130,10 +130,10 @@ The content is in teaching order.
   - dining etiquette
 - work cultures
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2025-08-26,262,330!2026-04-17,430,310-->
-- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2025-05-28,174,310-->
+- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2027-06-18,747,330-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2025-10-21,300,330-->
-- job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2025-05-30,186,310!2025-09-24,284,330-->
-  - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2025-05-29,155,250!2026-02-15,370,290-->
+- job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2025-09-24,284,330-->
+  - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2026-11-27,544,270!2026-02-15,370,290-->
   - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2025-07-08,222,330!2025-08-20,256,330-->
 
 ## week 8 tutorial
@@ -150,7 +150,7 @@ The content is in teaching order.
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2025-10-24,303,330!2026-04-09,411,310-->
 - video interview
-  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2025-08-30,263,330!2025-05-26,189,310-->
+  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2025-08-30,263,330!2027-08-20,810,330-->
 - self-introduction
 - interview questions
 - Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2027-03-02,679,330!2025-10-23,302,330-->
@@ -164,7 +164,7 @@ The content is in teaching order.
 - activity: leadership exercise
 - leadership
   - leadership tips ::@:: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2026-07-20,479,290!2026-08-12,518,310-->
-  - teamwork tips ::@:: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2025-05-18,148,250!2025-10-12,252,270-->
+  - teamwork tips ::@:: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2026-11-07,524,270!2025-10-12,252,270-->
 - structured group discussion
 - presentation
   - presentation tips ::@:: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!! <!--SR:!2026-03-15,364,290!2027-01-18,645,330-->
@@ -195,7 +195,7 @@ The content is in teaching order.
 - topic: Mastering the 1st Day @work
 - thank-you note (after job interview)
 - job offer
-- future of jobs ::@:: There are no more stable jobs now... The world is changing faster than ever. To adapt, find the jobs you want within yourself... <!--SR:!2025-10-22,301,330!2025-05-21,180,310-->
+- future of jobs ::@:: There are no more stable jobs now... The world is changing faster than ever. To adapt, find the jobs you want within yourself... <!--SR:!2025-10-22,301,330!2027-07-13,772,330-->
 
 ## aftermath
 

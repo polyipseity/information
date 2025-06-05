@@ -13,7 +13,7 @@ tags:
 
 In [accounting](accounting.md), __adjusting entries__ are {@{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}@}. {@{The [revenue recognition principle](revenue%20recognition.md)}@} is {@{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}@}. They are sometimes called {@{Balance Day adjustments because they are made on balance day}@}. <!--SR:!2026-01-04,320,290!2025-07-15,210,310!2025-12-24,316,290!2026-11-27,610,330-->
 
-Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2025-07-17,212,310!2025-05-21,185,310!2025-08-12,251,330-->
+Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2025-07-17,212,310!2027-07-25,794,330!2025-08-12,251,330-->
 
 ## types of adjusting entries
 
@@ -28,18 +28,18 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 >
 > - prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used <!--SR:!2025-10-28,311,330!2025-10-30,312,330-->
 > - accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded <!--SR:!2025-08-21,257,330!2025-08-04,244,330-->
-> - unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2025-06-24,195,310!2025-05-26,174,310-->
+> - unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2025-06-24,195,310!2027-06-15,746,330-->
 > - accrued revenues ::@:: for revenues earned but not yet recorded and not yet received in cash <!--SR:!2026-10-03,568,330!2025-09-12,276,330-->
 
 ### prepayments
 
-{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2025-05-17,177,310!2026-03-12,401,310!2025-07-04,219,330-->
+{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2027-06-16,760,330!2026-03-12,401,310!2025-07-04,219,330-->
 
-{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2025-05-20,180,310!2025-06-10,195,310!2025-09-04,269,330-->
+{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2027-07-04,773,330!2025-06-10,195,310!2025-09-04,269,330-->
 
 #### example
 
-Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2025-06-12,198,310!2025-07-29,220,310!2025-06-02,190,310-->
+Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2025-06-12,198,310!2025-07-29,220,310!2027-08-26,815,330-->
 
 ```text
                         Debit  |  Credit
@@ -77,7 +77,7 @@ The entry for bad debt expense can also be classified as an estimate.
 
 ### inventory
 
-In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2027-02-02,661,330!2026-03-13,402,310!2025-05-13,178,310-->
+In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2027-02-02,661,330!2026-03-13,402,310!2027-06-20,764,330-->
 
 ## see also
 

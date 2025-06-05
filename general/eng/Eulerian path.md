@@ -141,7 +141,7 @@ The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connec
 
 > {@{![a directed graph with all even degrees that is not Eulerian](../../archives/Wikimedia%20Commons/Even%20directed%20graph%20that%20is%20not%20Eulerian%20counterexample.svg)}@}
 >
-> {@{A directed graph with all even degrees that is not Eulerian}@}, serving as {@{a counterexample to the statement that a sufficient condition for a directed graph to be Eulerian is that it has all even degrees}@} <!--SR:!2025-11-11,257,330!2026-03-29,389,362!2025-05-25,137,322-->
+> {@{A directed graph with all even degrees that is not Eulerian}@}, serving as {@{a counterexample to the statement that a sufficient condition for a directed graph to be Eulerian is that it has all even degrees}@} <!--SR:!2025-11-11,257,330!2026-03-29,389,362!2027-01-29,614,342-->
 
 It is possible to {@{have a [directed graph](directed%20graph.md) that has all even out-degrees but is not Eulerian}@}. Since {@{an Eulerian circuit leaves a vertex the same number of times as it enters that vertex}@}, {@{a necessary condition for an Eulerian circuit to exist}@} is that {@{the in-degree and out-degree are equal at each vertex}@}. Obviously, {@{connectivity is also necessary}@}. {@{König}@} proved that {@{these conditions are also sufficient}@}. That is, {@{a directed graph is Eulerian if and only if it is connected and the in-degree and out-degree are equal at each vertex}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-03-07,371,362!2025-12-08,295,332!2025-10-05,228,330!2025-10-17,252,342!2025-06-21,149,310!2025-09-27,234,342!2025-10-21,238,330!2026-01-27,341,362-->
 

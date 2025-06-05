@@ -18,7 +18,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-A __battery__ is {@{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}@}. When discharging, the positive terminal is {@{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}@}. <!--SR:!2025-05-20,399,230!2028-05-14,1455,350-->
+A __battery__ is {@{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}@}. When discharging, the positive terminal is {@{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}@}. <!--SR:!2028-12-09,1297,250!2028-05-14,1455,350-->
 
 [Primary batteries](primary%20battery.md) are {@{discharged once only and then [discarded](disposable%20product.md)}@}. [Secondary batteries](rechargeable%20battery.md) can be {@{discharged and recharged multiple times before being discarded}@}. <!--SR:!2026-07-12,913,330!2026-02-20,801,330-->
 
@@ -275,7 +275,7 @@ return chain.from_iterable(await gather(
 
 - [NiMH](nickel–metal%20hydride%20battery.md):@:Usually cylindrical. Suitable for high-drain devices. <!--SR:!2026-07-31,654,343-->
 - [lead–acid](lead–acid%20battery.md):@:Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md). <!--SR:!2028-01-20,1042,363-->
-- [lithium-ion](lithium-ion%20battery.md):@:Usually cylindrical or prismatic. Suitable for portable devices. <!--SR:!2025-05-16,322,363-->
+- [lithium-ion](lithium-ion%20battery.md):@:Usually cylindrical or prismatic. Suitable for portable devices. <!--SR:!2029-10-11,1603,383-->
 
 <!--/pytextgen-->
 

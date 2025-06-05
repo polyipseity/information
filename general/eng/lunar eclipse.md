@@ -23,11 +23,11 @@ A __lunar eclipse__ is {@{an astronomical event that occurs when the [Moon](Moon
 
 ### penumbral lunar eclipse
 
-A penumbral lunar eclipse occurs when {@{part or all of the [Moon](Moon.md) passes into the [Earth](Earth.md)'s [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra). No part of the moon is in the Earth's [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) during this event}@}. The penumbra causes {@{a subtle dimming of the lunar surface}@}, which is only visible to the naked eye when {@{about 70% of the Moon's [diameter](diameter.md) has immersed into Earth's penumbra}@}. <!--SR:!2025-07-04,246,290!2025-06-05,256,330!2026-04-24,459,310-->
+A penumbral lunar eclipse occurs when {@{part or all of the [Moon](Moon.md) passes into the [Earth](Earth.md)'s [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra). No part of the moon is in the Earth's [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) during this event}@}. The penumbra causes {@{a subtle dimming of the lunar surface}@}, which is only visible to the naked eye when {@{about 70% of the Moon's [diameter](diameter.md) has immersed into Earth's penumbra}@}. <!--SR:!2025-07-04,246,290!2028-08-14,1166,350!2026-04-24,459,310-->
 
 ### partial lunar eclipse
 
-When the [Moon](Moon.md) {@{penetrates partially into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra), it is known as a partial lunar eclipse}@}, while a [total lunar eclipse](#total%20lunar%20eclipse) occurs when {@{the entire Moon enters the Earth's umbra}@}. <!--SR:!2025-09-07,307,290!2025-05-09,235,330-->
+When the [Moon](Moon.md) {@{penetrates partially into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra), it is known as a partial lunar eclipse}@}, while a [total lunar eclipse](#total%20lunar%20eclipse) occurs when {@{the entire Moon enters the Earth's umbra}@}. <!--SR:!2025-09-07,307,290!2028-04-20,1067,350-->
 
 ### total lunar eclipse
 
@@ -37,7 +37,7 @@ If the [Moon](Moon.md) {@{entirely passes into the [Earth](Earth.md)'s [umbra](u
 
 - see: [blood moon prophecy](blood%20moon%20prophecy.md)
 
-The meaning usually relates to {@{the reddish color a [totally eclipsed Moon](#total%20lunar%20eclipse) takes on to observers on [Earth](Earth.md)}@}. As [sunlight](sunlight.md) {@{penetrates the [atmosphere of Earth](atmosphere%20of%20Earth.md), the gaseous layer [filters](extinction%20(astronomy).md#atmospheric%20extinction) and [refracts](atmospheric%20refraction.md) the rays}@} in such a way that {@{the green to violet wavelengths on the [visible spectrum](visible%20spectrum.md) [scatter](scattering.md#electromagnetics) ([Rayleigh scattering](Rayleigh%20scattering.md)) more strongly than the red}@}, thus {@{the refracted light reaching the Moon are mostly red}@}. This gives {@{the Moon a reddish cast}@}. This is possible because the rays from the [Sun](Sun.md) are able to {@{wrap around the Earth and reflect off the Moon}@}. <!--SR:!2025-06-19,265,330!2026-02-23,440,310!2025-06-03,212,270!2026-01-18,418,310!2025-07-15,286,330!2025-06-24,269,330-->
+The meaning usually relates to {@{the reddish color a [totally eclipsed Moon](#total%20lunar%20eclipse) takes on to observers on [Earth](Earth.md)}@}. As [sunlight](sunlight.md) {@{penetrates the [atmosphere of Earth](atmosphere%20of%20Earth.md), the gaseous layer [filters](extinction%20(astronomy).md#atmospheric%20extinction) and [refracts](atmospheric%20refraction.md) the rays}@} in such a way that {@{the green to violet wavelengths on the [visible spectrum](visible%20spectrum.md) [scatter](scattering.md#electromagnetics) ([Rayleigh scattering](Rayleigh%20scattering.md)) more strongly than the red}@}, thus {@{the refracted light reaching the Moon are mostly red}@}. This gives {@{the Moon a reddish cast}@}. This is possible because the rays from the [Sun](Sun.md) are able to {@{wrap around the Earth and reflect off the Moon}@}. <!--SR:!2025-06-19,265,330!2026-02-23,440,310!2027-08-10,798,290!2026-01-18,418,310!2025-07-15,286,330!2025-06-24,269,330-->
 
 ## references
 

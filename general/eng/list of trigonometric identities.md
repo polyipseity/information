@@ -172,7 +172,7 @@ return await memorize_map(
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $2 \cos 3.71 \sin 3.71$ <!--SR:!2026-03-16,581,327!2027-11-11,1085,347-->
 > - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-08-14,147,267!2025-06-11,110,247-->
-> - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2025-06-05,71,207-->
+> - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2025-11-02,150,207-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2027-06-03,919,347!2026-09-24,658,287-->
 > - $\cos 9.98$ (cosine variant) ::@:: $2\cos^2 4.99 - 1$ <!--SR:!2027-01-29,795,327!2027-08-28,982,347-->
 > - $\cos 5.54$ (sine variant) ::@:: $1 - 2\sin^2 2.77$ <!--SR:!2027-10-02,1008,347!2026-07-20,660,327-->
@@ -220,18 +220,18 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 4.2$ ::@:: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2026-07-12,486,296!2025-05-27,84,316-->
+> - $\sin 4.2$ ::@:: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2026-07-12,486,296!2026-05-27,362,336-->
 > - $\cos (-3.6)$ ::@:: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2025-11-20,341,316!2025-08-21,303,356-->
 > - $\tan (-3.14)$ (sine and cosine) ::@:: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$ <!--SR:!2025-10-01,269,276!2025-09-27,305,316-->
 > - $\tan 3.42$ (cosine) ::@:: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2025-06-07,223,296!2026-03-25,396,276-->
 > - $\tan (-2.01)$ (addition) ::@:: $-\csc 4.02 + \cot 4.02$ <!--SR:!2026-07-21,524,336!2026-01-02,371,316-->
 > - $\tan (-9.6)$ (tangent and secant) ::@:: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2025-08-27,246,276!2026-08-03,533,336-->
 > - $\tan (-4.96)$ (tangent) ::@:: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2025-07-09,243,296!2025-07-10,136,256-->
-> - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2025-09-21,297,316!2025-05-25,85,316-->
+> - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2025-09-21,297,316!2026-02-23,274,316-->
 > - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2025-06-21,79,276!2025-12-08,352,316-->
 > - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-12-22,353,296!2025-09-24,303,316-->
-> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2025-06-05,104,236!2026-01-08,331,316-->
-> - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2025-12-18,359,316!2025-05-27,229,336-->
+> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2025-07-25,50,216!2026-01-08,331,316-->
+> - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2025-12-18,359,316!2027-07-08,769,336-->
 
 ## product-to-sum and sum-to-product
 
@@ -271,8 +271,8 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2025-06-29,380,307!2027-10-17,913,287-->
-> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-06-02,67,207!2025-07-21,108,167-->
-> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-05-31,25,130-->
+> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-10-16,136,207!2025-07-21,108,167-->
+> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-07-03,33,130-->
 > - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2025-09-19,179,207!2025-12-20,481,287-->
 
 ### sum-to-product
@@ -304,7 +304,7 @@ return await memorize_map(
 - sine ± sine:@:$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$ <!--SR:!2027-04-19,897,250-->
 - cosine + cosine:@:$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2025-08-21,448,230-->
 - cosine - cosine:@:$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2026-04-19,487,190-->
-- tangent ± tangent:@:$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2025-05-17,115,130-->
+- tangent ± tangent:@:$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2025-07-19,59,130-->
 
 <!--/pytextgen-->
 
@@ -313,7 +313,7 @@ return await memorize_map(
 > - $\sin 3.23 \mp \sin(-1.52)$ ::@:: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$ <!--SR:!2025-07-21,271,227!2027-01-11,784,287-->
 > - $\cos(-2.23) + \cos 0.14$ ::@:: $2 \cos 1.045 \cos 1.185$ <!--SR:!2026-01-17,539,327!2026-07-20,454,247-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::@:: $-2 \sin 4.665 \sin 2.215$ <!--SR:!2026-01-08,512,307!2025-06-25,204,247-->
-> - $\tan(-0.73) \mp \tan 2.55$ ::@:: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$ <!--SR:!2025-05-12,346,307!2026-01-06,498,287-->
+> - $\tan(-0.73) \mp \tan 2.55$ ::@:: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$ <!--SR:!2028-04-09,1061,307!2026-01-06,498,287-->
 
 ## linear combination
 

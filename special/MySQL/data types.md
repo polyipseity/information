@@ -17,8 +17,8 @@ tags:
   - `TIMESTAMP` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!2026-09-21,506,310!2026-02-07,323,170-->
   - `YEAR` ::@:: `Y[YYY]` that ranges from `1901` to `2155`. <!--SR:!2028-04-15,1197,330!2025-09-17,483,310-->
 - numeric data types ::@:: `BIGINT`, `BIT`, `DECIMAL`, `DOUBLE`, `FLOAT`, `INT`, `INTEGER`, `MEDIUMINT`, `NUMERIC`, `SMALLINT`, `TINYINT` <!--SR:!2028-12-28,1370,330!2028-12-30,1359,290-->
-  - floating-point data types ::@:: `FLOAT`, `DOUBLE`; inexact <!--SR:!2030-08-18,1964,350!2025-05-20,457,330-->
-    - `FLOAT` ::@:: Likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md). <!--SR:!2025-05-21,458,330!2030-08-10,1944,350-->
+  - floating-point data types ::@:: `FLOAT`, `DOUBLE`; inexact <!--SR:!2030-08-18,1964,350!2031-02-10,2079,350-->
+    - `FLOAT` ::@:: Likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md). <!--SR:!2031-02-18,2087,350!2030-08-10,1944,350-->
     - `DOUBLE` ::@:: Likely [double-precision floating-point format](../../general/double-precision%20floating-point%20format.md). <!--SR:!2029-01-26,1520,350!2030-10-26,2002,350-->
   - integer data types ::@:: `TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT` <!--SR:!2029-08-10,1674,350!2030-04-18,1866,350-->
     - `TINYINT` ::@:: Signed is from -2<sup>7</sup> to 2<sup>7</sup> - 1 and unsigned is from 0 to 2<sup>8</sup> - 1. <!--SR:!2027-01-14,833,310!2030-03-27,1852,350-->
@@ -27,7 +27,7 @@ tags:
     - `MEDIUMINT` ::@:: Signed is from -2<sup>31</sup> to 2<sup>31</sup> - 1 and unsigned is from 0 to 2<sup>32</sup> - 1. <!--SR:!2026-11-25,809,310!2029-10-27,1733,350-->
     - `BIGINT` ::@:: Signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1 and unsigned is from 0 to 2<sup>64</sup> - 1. <!--SR:!2027-12-27,1187,330!2030-07-10,1919,350-->
 - string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2027-03-10,871,310!2026-03-22,594,290-->
-  - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable. <!--SR:!2029-04-03,1572,350!2025-05-16,454,330-->
+  - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable. <!--SR:!2029-04-03,1572,350!2031-01-30,2068,350-->
     - `BINARY` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size binary string. <!--SR:!2030-02-04,1812,350!2028-06-19,1245,330-->
     - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row. <!--SR:!2028-11-04,1345,330!2027-10-13,1010,310-->
   - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings. <!--SR:!2029-01-26,1389,330!2030-04-10,1859,350-->

@@ -18,7 +18,7 @@ The content is in teaching order.
 - engineer
   - engineer, according to Wikipedia
     - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2025-07-08,334,378-->
-    - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2027-05-12,810,360-->
+    - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2029-05-03,1438,380!2027-05-12,810,360-->
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2025-10-08,405,377-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
@@ -26,10 +26,10 @@ The content is in teaching order.
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2026-08-28,633,330-->
-- civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
-  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
+- civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2029-11-29,1638,400-->
+  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2025-09-22,417,397-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
-  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2025-05-20,310,380-->
+  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->
     - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2028-04-12,1124,365-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
@@ -60,7 +60,7 @@ The content is in teaching order.
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
       - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2026-09-12,532,265!2027-07-04,840,344-->
-  - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
+  - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2028-08-04,1252,387-->
   - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
@@ -81,16 +81,16 @@ The content is in teaching order.
     - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
-- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2026-11-01,696,319-->
+- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!2026-11-01,696,319-->
   - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
-  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2025-06-05,319,367-->
+  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2029-10-27,1605,387-->
   - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2025-12-05,478,392-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2025-06-04,348,350-->
+  - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
+  - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2029-11-17,1636,370!2025-11-16,461,395-->
     - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2026-01-19,459,332-->
 - construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
@@ -144,12 +144,12 @@ quantity surveyor
 
 - _(begin)_→::@::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2025-07-07,312,337-->
-- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2025-05-24,108,340-->
+- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2026-10-15,507,360-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2028-05-20,1116,337-->
-- consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
+- consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2028-09-19,1202,335-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2026-11-22,579,295-->
-- engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
+- engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2028-08-25,1177,325-->
 - environmental consultant→::@::←quantity surveyor <!--SR:!2025-06-18,217,300!2026-04-23,456,280-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2027-06-02,873,360!2026-02-13,409,340-->
 
@@ -281,7 +281,7 @@ workmanship
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->
-- impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2025-05-10,261,320-->
+- impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2028-07-28,1159,340-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2027-06-04,777,312-->
 - politics→::@::←social <!--SR:!2028-07-27,1221,380!2028-09-06,1218,357-->
@@ -317,7 +317,7 @@ We Engineer Hong Kong’s Development
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2028-02-29,1052,334!2027-07-27,950,350-->
-- 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2025-05-30,178,287-->
+- 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2027-05-09,703,307-->
 - We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2027-02-25,706,312!2026-05-26,490,297-->
 - 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2027-11-11,942,357!2026-01-08,443,330-->
 - We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
@@ -400,12 +400,12 @@ Water Cube
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2028-09-25,1293,387-->
-- Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
+- Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2028-06-07,1108,324!2026-12-13,761,370-->
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2027-12-22,971,290-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2027-04-10,766,325-->
-- Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
+- Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2028-10-12,1235,357!2028-07-09,1140,340-->
 - Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2027-09-14,985,377-->
 
 <!--/pytextgen-->
@@ -460,10 +460,10 @@ testing materials
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
 - procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2027-07-08,836,301-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
-- quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2025-05-11,168,235-->
-- safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
+- quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2026-12-04,557,255-->
+- safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
-- surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2025-05-20,207,272-->
+- surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2027-07-25,790,292-->
 - testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2028-02-19,1041,327-->
 
 <!--/pytextgen-->
@@ -504,7 +504,7 @@ teaming up with others
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2025-07-08,306,320-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
-- teaming up with others→::@::←_(end)_ <!--SR:!2025-05-28,321,375!2027-04-08,752,292-->
+- teaming up with others→::@::←_(end)_ <!--SR:!2029-12-09,1648,395!2027-04-08,752,292-->
 
 <!--/pytextgen-->
 
@@ -676,7 +676,7 @@ socioeconomic
 - chemical→::@::←cultural <!--SR:!2025-10-17,333,280!2027-03-26,849,377-->
 - cultural→::@::←physical <!--SR:!2026-07-28,649,365!2026-07-24,556,320-->
 - physical→::@::←socioeconomic <!--SR:!2025-08-22,264,277!2028-07-24,1209,381-->
-- socioeconomic→::@::←_(end)_ <!--SR:!2026-10-27,667,354!2025-05-29,247,277-->
+- socioeconomic→::@::←_(end)_ <!--SR:!2026-10-27,667,354!2028-01-10,949,297-->
 
 <!--/pytextgen-->
 
@@ -808,7 +808,7 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←sewage collection network <!--SR:!2025-05-20,182,321!2028-05-01,1105,337-->
+- _(begin)_→::@::←sewage collection network <!--SR:!2027-08-11,807,341!2028-05-01,1105,337-->
 - sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
 - storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
@@ -844,12 +844,12 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2026-02-11,375,298!2025-05-27,320,377-->
+- _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2026-02-11,375,298!2029-12-09,1648,397-->
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2025-10-05,319,320!2026-03-31,447,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2025-06-09,282,307-->
-- Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2025-05-31,301,364!2025-12-04,479,330-->
+- Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2025-12-04,479,330-->
 
 <!--/pytextgen-->
 
@@ -982,7 +982,7 @@ Two Prudential Plaza
 
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
+- _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2028-09-25,1218,337!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
 - China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-11-16,275,240-->
 - Two Prudential Plaza→::@::←_(end)_ <!--SR:!2027-09-14,930,375!2025-08-04,322,320-->
@@ -1142,13 +1142,13 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
+- _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2030-01-09,1679,370-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2028-03-28,1076,335!2028-02-27,1053,335-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2025-08-02,322,317-->
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2028-08-21,1183,336-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
-- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->
-- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2025-05-18,269,310-->
+- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2028-08-26,1178,327-->
+- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2028-07-29,1160,330-->
 - the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2027-06-14,915,350-->
 - and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2029-08-29,1574,370!2027-05-17,891,350-->

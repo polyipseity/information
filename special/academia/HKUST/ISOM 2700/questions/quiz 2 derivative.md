@@ -20,7 +20,7 @@ tags:
 > What is the average service rate \(per hour\)?
 >
 > - solution: {@{20 customers per hour}@}
-> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-05-29,37,290!2025-06-30,61,310-->
+> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-11-03,152,310!2025-06-30,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -90,7 +90,7 @@ tags:
 > What is the maximum standard deviation to ensure a process capability index of 2?
 >
 > - solution: {@{0.025&nbsp;cm}@}
-> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2025-06-30,61,310!2025-06-04,43,290-->
+> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2025-06-30,61,310!2025-11-21,170,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2025-07-01,62,310!2025-05-29,37,290-->
+> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2025-07-01,62,310!2025-11-02,151,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -129,4 +129,4 @@ tags:
 > 6. The G/G/1 model cannot be used for non-random inter-arrival time and/or non-random service time.
 > 7. The M/M/1 model is a special case of the G/G/1 model.
 >
-> - solution: {@{1, 2, 7}@} <!--SR:!2025-06-04,43,290-->
+> - solution: {@{1, 2, 7}@} <!--SR:!2025-11-24,173,310-->

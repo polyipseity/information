@@ -102,7 +102,7 @@ The content is in teaching order.
 - jobs to be done theory history ::@:: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2025-10-03,344,295!2026-09-10,639,335-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
-    - filling in a customer profile ::@:: customer segmentation, then empathy map, then customer profile <!--SR:!2027-11-21,943,315!2025-05-24,294,355-->
+    - filling in a customer profile ::@:: customer segmentation, then empathy map, then customer profile <!--SR:!2027-11-21,943,315!2029-04-25,1431,375-->
   - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
   - [§ fit](../../../value%20proposition%20canvas.md#fit)
 - [business model canvas](../../../business%20model%20canvas.md)
@@ -143,7 +143,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-05-20,53,155!2025-07-12,282,295-->
+  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-09-26,124,175!2025-07-12,282,295-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -158,7 +158,7 @@ The content is in teaching order.
 - datetime: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
-- thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2025-05-26,270,361!2025-05-09,262,361-->
+- thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2029-01-28,1337,381!2028-12-20,1305,381-->
   - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2025-07-22,302,361-->
   - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
   - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2025-07-31,311,361-->
@@ -179,11 +179,11 @@ The content is in teaching order.
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2027-08-20,918,381!2025-12-20,450,381-->
   - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2026-05-05,528,341-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
-- "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2025-11-20,423,381-->
+- "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2029-02-27,1367,381!2025-11-20,423,381-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::@:: abstraction, framework, model <!--SR:!2025-06-11,286,361!2026-02-03,483,381-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2026-01-18,473,381-->
-  - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2025-05-29,273,361-->
+  - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2025-07-04,291,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
@@ -210,10 +210,10 @@ The content is in teaching order.
 - datetime: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
-  - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
+  - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2029-02-11,1358,381!2025-11-16,419,381-->
   - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2026-01-14,470,381-->
 - nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2025-12-14,445,381-->
-- casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
+- casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2029-02-12,1359,381!2025-11-18,421,381-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->
 - casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2028-08-09,1210,381-->
@@ -223,7 +223,7 @@ The content is in teaching order.
   - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2025-06-10,253,321!2025-08-05,332,361-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2025-07-02,291,361!2025-11-01,410,381-->
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2025-07-13,313,361-->
-  - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2025-05-31,266,361-->
+  - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
   - cause mapping § symptom ::@:: red background <!--SR:!2025-08-01,312,361!2025-09-13,346,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)

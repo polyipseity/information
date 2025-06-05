@@ -24,7 +24,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {@{certain orbits only with certain distances from the nucleus called stationary orbits}@} {@{without radiating energy}@}. <a id="^23e80f"></a>^23e80f
 2. The stationary orbits have distances {@{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e} v r = \hbar n$}@}, where {@{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}@}. The orbits have definite energies called {@{[energy levels](energy%20level.md), energy shells, or energy states}@}. <a id="^f5a73f"></a>^f5a73f
-3. Electrons only gain or lose energy by {@{jumping from one stationary orbit to another}@}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {@{absorbed or emitted}@} according to the {@{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}@}, where {@{$h$ is the [Planck constant](Planck%20constant)}@}. <!--SR:!2027-11-05,1102,250!2027-03-08,821,270!2025-06-04,421,210!2028-04-12,1375,290!2028-03-28,1364,290!2029-04-04,1586,272!2026-03-28,918,332!2028-11-05,1555,292!2027-07-06,1198,332-->
+3. Electrons only gain or lose energy by {@{jumping from one stationary orbit to another}@}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {@{absorbed or emitted}@} according to the {@{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}@}, where {@{$h$ is the [Planck constant](Planck%20constant)}@}. <!--SR:!2027-11-05,1102,250!2027-03-08,821,270!2028-11-11,1256,230!2028-04-12,1375,290!2028-03-28,1364,290!2029-04-04,1586,272!2026-03-28,918,332!2028-11-05,1555,292!2027-07-06,1198,332-->
 
 ## electron energy levels
 
@@ -37,18 +37,18 @@ Substitute the equation into {@{the equation from the [second postulate](#^f5a73
 We can get the radius in terms of $n$:
 {@{$$r_n=\frac{\hbar^2 n^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}@}
 and energy in terms of $n$:
-{@{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}@} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-10-18,277,294!2027-12-16,1234,294!2025-07-08,517,254!2025-05-11,555,274!2025-05-19,85,130!2025-07-17,461,254-->
+{@{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}@} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-10-18,277,294!2027-12-16,1234,294!2025-07-08,517,254!2029-07-22,1528,274!2025-09-09,110,130!2025-07-17,461,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {@{has about 13.6 eV less energy than a motionless electron infinitely far away}@}, which is also {@{the atom's [ionization energy](ionization%20energy.md)}@}. <!--SR:!2025-10-24,669,279!2030-05-23,2007,319-->
 
 ## Rydberg formula
 
 The combination of natural constants in the energy formula is the {@{Rydberg energy $R_\mathrm{E}$}@}:
-{@{$$\begin{aligned}R_\mathrm{E}&=\frac{k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2}\\&=2.179\,872\,361\,1035(42)\times10^{-18}~\mathrm{J}\\&=13.605\,693\,122\,944(26)~\mathrm{eV}\end{aligned}$$}@} <!--SR:!2028-11-27,1485,302!2025-05-13,168,222-->
+{@{$$\begin{aligned}R_\mathrm{E}&=\frac{k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2}\\&=2.179\,872\,361\,1035(42)\times10^{-18}~\mathrm{J}\\&=13.605\,693\,122\,944(26)~\mathrm{eV}\end{aligned}$$}@} <!--SR:!2028-11-27,1485,302!2026-05-27,376,222-->
 
 The energy of a photon emitted by a hydrogen atom is:
 {@{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@}, where {@{$n_f$ is the final energy level and $n_i$ is the initial energy level}@}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {@{making inverse of the wavelength $\frac1\lambda$ the subject}@}, the resulting constant is the {@{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}@}:
-{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2031-12-25,2428,322!2029-01-09,1489,302!2025-05-16,48,130-->
+{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2031-12-25,2428,322!2029-01-09,1489,302!2025-07-20,65,130-->
 
 ## limitations
 
@@ -76,7 +76,7 @@ The Bohr model fails to explain:
 > | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
 > | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
 > | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2029-10-14,1625,381!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
+> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2030-04-10,1775,373!2029-05-07,1507,373!2027-05-17,908,353!2027-01-19,749,333!2029-10-14,1625,381!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
 
 <!--/pytextgen-->
 

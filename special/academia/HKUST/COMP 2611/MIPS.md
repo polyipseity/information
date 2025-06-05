@@ -19,38 +19,38 @@ tags:
 This seems more like a pedagogical tool...
 
 - good compromises ::@:: Instructions are 32 bits long, to make instruction fetching and decoding simpler. <!--SR:!2025-06-22,76,335!2025-06-20,74,330-->
-- make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2025-06-08,67,310!2025-06-02,61,310-->
-- simplicity favors regularity \(less cases\) ::@:: Each instruction is 32 bits long, and has a fixed number of operands. It makes CPU implementations simpler and allows better performance. <!--SR:!2025-06-03,62,310!2025-05-28,56,310-->
-  - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2025-05-30,58,310!2025-06-03,62,310-->
-- smaller is faster ::@:: Less registers means faster processors. More registers means more propagation delay \(longer travel time\). <!--SR:!2025-06-04,63,310!2025-05-30,58,310-->
+- make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2025-06-08,67,310!2026-02-27,268,330-->
+- simplicity favors regularity \(less cases\) ::@:: Each instruction is 32 bits long, and has a fixed number of operands. It makes CPU implementations simpler and allows better performance. <!--SR:!2026-03-01,270,330!2026-01-25,238,330-->
+  - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2026-02-10,254,330!2026-02-28,269,330-->
+- smaller is faster ::@:: Less registers means faster processors. More registers means more propagation delay \(longer travel time\). <!--SR:!2026-03-06,275,330!2026-02-11,255,330-->
 
 ## registers
 
 Registers are {@{_fast_ temporary storage _inside_ the processor \(not on the main memory \(RAM\)\) used to hold _data_}@}. There is {@{a limited number}@} of registers. <!--SR:!2025-06-07,66,310!2025-06-08,67,310-->
 
-Variables differ from registers in that {@{the former is a logical concept while the latter is a physical thing}@}. Thus, there can be {@{an unlimited number of variables}@}. <!--SR:!2025-05-30,58,310!2025-05-30,58,310-->
+Variables differ from registers in that {@{the former is a logical concept while the latter is a physical thing}@}. Thus, there can be {@{an unlimited number of variables}@}. <!--SR:!2026-02-09,253,330!2026-02-09,253,330-->
 
-In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2025-05-30,58,310!2025-05-29,57,310!2025-06-07,66,310!2025-05-29,57,310-->
+In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2026-02-11,255,330!2026-02-05,249,330!2025-06-07,66,310!2026-02-07,251,330-->
 
-Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory, but with more propagation delay}@}. <!--SR:!2025-06-02,61,310!2025-06-03,62,310!2025-05-29,57,310-->
+Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory, but with more propagation delay}@}. <!--SR:!2026-02-27,268,330!2026-03-02,271,330!2026-02-07,251,330-->
 
-The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2025-06-07,66,310!2025-06-04,63,310!2025-06-06,65,310-->
+The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2025-06-07,66,310!2026-03-05,274,330!2025-06-06,65,310-->
 
 \(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!2025-07-28,87,381!2025-08-03,93,381-->
 
 ## memory
 
-The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much more than the registers}@}. <!--SR:!2025-06-03,62,310!2025-05-15,43,290-->
+The main memory is usually {@{a physical RAM}@}. It can {@{store much data, much more than the registers}@}. <!--SR:!2026-03-01,270,330!2025-11-10,175,310-->
 
-In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{values need to be transferred from _registers_ to the main memory, and vice versa}@}. <!--SR:!2025-06-04,63,310!2025-06-08,67,310-->
+In MIPS, {@{the main memory cannot be manipulated directly}@}. Instead, {@{values need to be transferred from _registers_ to the main memory, and vice versa}@}. <!--SR:!2026-03-05,274,330!2025-06-08,67,310-->
 
-We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2025-06-02,61,310!2025-06-04,63,310!2025-06-04,63,310!2025-06-02,61,310-->
+We can treat the main memory as {@{a _contagious_ storage locations}@}. Each storage location {@{stores a byte, which has a size of 8 bits}@}. The storage location are addressed by {@{indices starting from 0}@}. Usually, addresses are {@{written in hexadecimal}@}. <!--SR:!2026-02-26,267,330!2026-03-07,276,330!2026-03-05,274,330!2026-02-25,266,330-->
 
-In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size \(in higher level programming languages, e.g. C, this multiplication is done for you\)}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}. <!--SR:!2025-06-04,63,310!2025-06-04,63,310!2025-06-02,61,310!2025-05-30,58,310!2025-06-05,64,310!2025-06-06,65,310!2025-06-04,63,310-->
+In MIPS, to address a memory location, we need {@{a base address and an offset}@}. The base address is {@{provided by a register, while the offset is provided by a constant}@}. The actual address is {@{simply the sum of the base address and the offset}@}. Often, the base address is {@{the starting address of an array}@}, while the offset is {@{an array index _multiplied_ by the array element size \(in higher level programming languages, e.g. C, this multiplication is done for you\)}@}. {@{The _memory operand_ syntax}@} is {@{`offset($base)`, e.g. `-4($s0)`}@}. <!--SR:!2026-03-06,275,330!2026-03-07,276,330!2026-02-26,267,330!2026-02-10,254,330!2026-03-13,281,330!2025-06-06,65,310!2026-03-06,275,330-->
 
 ### endianness
 
-When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. Using a familiar example, when {@{you write numbers, you start with the most significant digit and end with the least significant digit from left to right}@}. This is {@{analogous to _big endian_}@}. <!--SR:!2025-06-05,64,310!2025-06-03,62,310!2025-06-08,67,310!2025-05-19,47,290!2025-06-03,62,310!2025-06-03,62,310!2025-06-04,63,310!2025-07-29,88,381!2025-08-02,92,381-->
+When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. Using a familiar example, when {@{you write numbers, you start with the most significant digit and end with the least significant digit from left to right}@}. This is {@{analogous to _big endian_}@}. <!--SR:!2026-03-13,281,330!2026-02-28,269,330!2025-06-08,67,310!2025-11-24,189,310!2026-03-01,270,330!2026-02-28,269,330!2026-03-07,276,330!2025-07-29,88,381!2025-08-02,92,381-->
 
 For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2025-07-07,83,363!2025-07-06,82,363-->
 
@@ -58,13 +58,13 @@ Note that it does not make sense to {@{talk about the endianness of a register, 
 
 ## instructions
 
-Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is the instruction and `op_i` are its operands}@}. Each line {@{contain at most one instruction}@}. Comments {@{start with `#` and end with a newline}@}. <!--SR:!2025-06-07,66,310!2025-06-07,66,310!2025-05-20,48,290-->
+Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is the instruction and `op_i` are its operands}@}. Each line {@{contain at most one instruction}@}. Comments {@{start with `#` and end with a newline}@}. <!--SR:!2025-06-07,66,310!2025-06-07,66,310!2025-12-07,189,310-->
 
 Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: <!--SR:!2025-06-19,73,335-->
 
 - `$s`, `$t`, and `$d` \(in order of instruction encoding\) ::@:: It can be any 32-bit named/numbered register \(5 bits to encode\). <!--SR:!2025-06-24,77,335!2025-06-19,73,335-->
 - `imm` ::@:: It can be any 16-bit constant, which may be unextended, sign-extended, or zero-extended depending on the instruction. <!--SR:!2025-06-16,70,335!2025-06-16,70,335-->
-- `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2025-05-27,55,315!2025-06-23,77,335-->
+- `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2026-01-30,243,335!2025-06-23,77,335-->
 - `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!2025-06-19,73,335!2025-06-23,77,335-->
 - `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!2025-06-21,75,335!2025-06-21,75,330-->
   - `nPC` ::@:: It is a _concept_ \(_not_ a real register\) containing the 32-bit address of the _next_ instruction \(next program counter\), i.e. `PC + 4`. <!--SR:!2025-08-02,92,381!2025-08-09,94,381-->
@@ -72,13 +72,13 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 
 Common instruction variants include {@{immediate `_i`, unsigned `_u` \(`_i` comes before `_u`\)}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2025-06-23,77,335!2025-06-21,75,330!2025-06-23,77,335!2025-07-03,85,352-->
 
-One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2025-06-03,62,310!2025-06-07,66,310-->
+One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise between expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2026-03-02,271,330!2025-06-07,66,310-->
 
 ### program counter
 
-{@{The program counter \(PC\) or instruction address register}@} contains {@{the 32-bit address of the current instruction}@}. {@{The _concept_ \(_not_ a real register\) next program counter \(nPC\)}@} contains {@{the next instruction to be executed}@}. Every time {@{an instruction is executed}@}, {@{the PC is updated to the nPC, and nPC is usually added 4 \(next instruction\)}@}. Note that some instruction {@{causes nPC to be added by an offset \(e.g. relative jump instructions\) or causes nPC to be set to a register \(e.g. semi-absolute jump instructions\)}@}. {@{The `goto` in the pseudo C code below}@} is {@{meant to indicate this}@}, but is {@{slightly different from that in C, as explained in the next sentence}@}. Note that in these cases, {@{the PC is still updated to the nPC before updating the nPC}@}, e.g. {@{the next instruction in memory after a jump instruction is still executed}@}. This is why {@{_branch delay slots_ \(mentioned below\) are added after jump instructions}@}. This also explains why {@{the "and link" instructions \(i.e. `jal`, `bgezal`, `bltzal`\) and PC-relative addressing mode is based on nPC or `PC + 4`}@}. <!--SR:!2025-07-27,86,381!2025-08-03,93,381!2025-08-10,100,381!2025-08-13,98,381!2025-08-11,96,381!2025-08-04,89,381!2025-07-28,87,381!2025-08-01,86,381!2025-07-27,86,381!2025-08-09,99,381!2025-08-17,102,381!2025-07-29,88,381!2025-07-27,86,381!2025-05-16,24,372-->
+{@{The program counter \(PC\) or instruction address register}@} contains {@{the 32-bit address of the current instruction}@}. {@{The _concept_ \(_not_ a real register\) next program counter \(nPC\)}@} contains {@{the next instruction to be executed}@}. Every time {@{an instruction is executed}@}, {@{the PC is updated to the nPC, and nPC is usually added 4 \(next instruction\)}@}. Note that some instruction {@{causes nPC to be added by an offset \(e.g. relative jump instructions\) or causes nPC to be set to a register \(e.g. semi-absolute jump instructions\)}@}. {@{The `goto` in the pseudo C code below}@} is {@{meant to indicate this}@}, but is {@{slightly different from that in C, as explained in the next sentence}@}. Note that in these cases, {@{the PC is still updated to the nPC before updating the nPC}@}, e.g. {@{the next instruction in memory after a jump instruction is still executed}@}. This is why {@{_branch delay slots_ \(mentioned below\) are added after jump instructions}@}. This also explains why {@{the "and link" instructions \(i.e. `jal`, `bgezal`, `bltzal`\) and PC-relative addressing mode is based on nPC or `PC + 4`}@}. <!--SR:!2025-07-27,86,381!2025-08-03,93,381!2025-08-10,100,381!2025-08-13,98,381!2025-08-11,96,381!2025-08-04,89,381!2025-07-28,87,381!2025-08-01,86,381!2025-07-27,86,381!2025-08-09,99,381!2025-08-17,102,381!2025-07-29,88,381!2025-07-27,86,381!2025-09-18,122,392-->
 
-\(__this course__: For this course, {@{you do not need to know _branch delay slots_}@}. That is, you write in {@{MIPS without branch delay slots, which MARS simulate by default}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_, which allures to the above concept of that nPC instead of PC is updated by branching instructions}@}.\) <!--SR:!2025-08-14,99,381!2025-07-29,88,381!2025-05-16,24,372-->
+\(__this course__: For this course, {@{you do not need to know _branch delay slots_}@}. That is, you write in {@{MIPS without branch delay slots, which MARS simulate by default}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_, which allures to the above concept of that nPC instead of PC is updated by branching instructions}@}.\) <!--SR:!2025-08-14,99,381!2025-07-29,88,381!2025-09-18,122,392-->
 
 The program counter {@{cannot be read or written directly}@}. However, it can be indirectly read {@{using `jal`, where the PC of the `jal` instruction _plus 8_ \(for MARS and this course, use _plus 4_\) is saved to `$ra`}@}. It is indirectly written {@{by executing instructions, or branching and jump instructions}@}. <!--SR:!2025-08-04,89,381!2025-07-29,88,381!2025-07-28,87,381-->
 
@@ -86,9 +86,9 @@ The program counter {@{cannot be read or written directly}@}. However, it can be
 
 There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!2025-06-23,77,335!2025-06-19,73,335!2025-06-14,68,335!2025-06-22,75,330-->
 
-In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2025-06-07,66,310!2025-06-07,66,310!2025-06-04,63,310!2025-06-05,64,310!2025-06-03,62,310!2025-05-30,58,310!2025-06-02,61,310!2025-05-30,58,310-->
+In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2025-06-07,66,310!2025-06-07,66,310!2026-03-06,275,330!2026-03-13,281,330!2026-03-03,272,330!2026-02-08,252,330!2026-02-23,264,330!2026-02-09,253,330-->
 
-Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}, it is {@{_not_ a constant operand but a register operand}@}. So {@{it can only be used in locations where a register operand is expected}@}. <!--SR:!2025-06-08,67,310!2025-06-04,63,310!2025-06-04,63,310!2025-05-30,58,310-->
+Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}, it is {@{_not_ a constant operand but a register operand}@}. So {@{it can only be used in locations where a register operand is expected}@}. <!--SR:!2025-06-08,67,310!2026-03-07,276,330!2026-03-06,275,330!2026-02-10,254,330-->
 
 ### arithmetic instructions
 
@@ -97,20 +97,20 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(_surprise_!\) <!--SR:!2025-06-19,73,335!2025-06-17,71,335-->
   - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow. <!--SR:!2025-06-19,73,335!2025-06-14,68,335-->
 - add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow <!--SR:!2025-06-18,72,335!2025-06-24,77,335-->
-  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2025-05-11,39,295!2025-05-22,50,315-->
+  - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2025-10-26,160,315!2026-01-02,215,335-->
 - divide ::@:: `div $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, signed; `$LO` \(quotient\) is rounded towards zero, while `$HI` \(remainder\) is such that `$s == $t * $LO + $HI` <!--SR:!2025-06-14,68,335!2025-06-23,77,335-->
 - divide immediate ::@:: `divi` does not exist. <!--SR:!2025-06-24,77,335!2025-06-23,77,335-->
 - divide immediate unsigned ::@:: `diviu` does not exist. <!--SR:!2025-06-23,77,335!2025-06-24,77,335-->
 - divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned; `$LO` \(quotient\) is rounded towards zero <!--SR:!2025-06-23,77,335!2025-06-14,68,335-->
   - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2025-06-20,73,335!2025-06-17,71,335-->
-- multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2025-05-21,49,332!2025-06-04,57,332-->
+- multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2026-01-06,219,352!2026-02-24,265,352-->
 - multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2025-06-28,81,352!2025-07-02,84,352-->
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed <!--SR:!2025-06-24,77,335!2025-06-14,68,335-->; note the register placeholder `$d` is unused
   - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2025-08-14,99,381!2025-07-02,68,361-->
 - multiply immediate ::@:: `multi` does not exist. <!--SR:!2025-06-19,73,335!2025-06-21,75,330-->
 - multiply immediate unsigned ::@:: `multiu` does not exist. <!--SR:!2025-06-15,68,335!2025-06-15,68,335-->
 - multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused <!--SR:!2025-06-18,72,335!2025-06-18,72,335-->
-  - multiply unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2025-05-26,48,310!2025-06-13,67,330-->
+  - multiply unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2025-12-20,202,330!2025-06-13,67,330-->
   - multiply unsigned / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` is 0.\) <!--SR:!2025-08-08,93,381!2025-08-15,100,381-->
 - subtract ::@:: `sub $d, $s, $t`: `$d = $s - $t;`, signed, traps on overflow <!--SR:!2025-06-23,77,335!2025-06-18,71,335-->
 - subtract immediate ::@:: `subi` does not exist. Use `addi` with a negative constant instead. <!--SR:!2025-06-23,77,335!2025-06-23,77,335-->
@@ -129,49 +129,49 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - bitwise or ::@:: `or $d, $s, $t`: `$d = $s | $t;` <!--SR:!2025-06-14,68,335!2025-06-24,77,335-->
 - bitwise or immediate ::@:: `ori $t, $s, imm`: `$t = $s | imm;`; `imm` is zero-extended <!--SR:!2025-06-21,75,330!2025-06-14,68,335-->
 - shift left arithmetic ::@:: `sla` does not exist. It would have been equivalent to `sll`. <!--SR:!2025-06-15,68,335!2025-06-24,77,335-->
-- shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2025-06-24,77,335!2025-05-23,51,315-->
+- shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2025-06-24,77,335!2026-01-04,217,335-->
   - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>. <!--SR:!2025-08-13,98,381!2025-08-09,94,381-->
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-06-24,77,335!2025-06-17,71,335-->
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2025-06-10,64,330!2025-06-11,65,330-->
-  - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-05-18,11,341!2025-08-03,93,381-->
+  - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-07-12,54,361!2025-08-03,93,381-->
 - shift right arithmetic variable ::@:: `srav $d, $t, $s`: `$d = $t >> $s;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-07-01,83,352!2025-10-01,147,332-->
 - shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0 <!--SR:!2025-06-20,74,330!2025-06-20,74,330-->
   - shift right logical / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-08-07,97,381!2025-08-04,89,381-->
-- shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-06-16,69,330!2025-05-19,47,315-->
+- shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2025-06-16,69,330!2025-12-05,200,335-->
 
 ### data instructions
 
-- load byte ::@:: `lb $t, offset($s)`: `$t = *((*int8_t) &MEM[$s + offset]);`; the loaded 8 bits are sign-extended <!--SR:!2025-06-18,72,335!2025-05-25,48,315-->
-- load byte unsigned ::@:: `lbu $t, offset($s)`: `$t = *((*uint8_t) &MEM[$s + offset]);`; the loaded 8 bits are zero-extended <!--SR:!2025-06-02,56,315!2025-06-20,74,330-->
+- load byte ::@:: `lb $t, offset($s)`: `$t = *((*int8_t) &MEM[$s + offset]);`; the loaded 8 bits are sign-extended <!--SR:!2025-06-18,72,335!2025-12-25,207,335-->
+- load byte unsigned ::@:: `lbu $t, offset($s)`: `$t = *((*uint8_t) &MEM[$s + offset]);`; the loaded 8 bits are zero-extended <!--SR:!2026-02-09,250,335!2025-06-20,74,330-->
 - load upper immediate ::2:: `lui $t, imm`: `$t = imm << 16;`; `imm` is unextended; note the lower 16 bits are 0s
-- load halfword ::@:: `lh $t, offset($s)`: `$t = *((*int16_t) &MEM[$s + offset]);`; the loaded 16 bits are sign-extended <!--SR:!2025-05-29,52,315!2025-06-14,68,335-->
-- load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2025-05-28,51,310!2025-06-18,72,335-->
+- load halfword ::@:: `lh $t, offset($s)`: `$t = *((*int16_t) &MEM[$s + offset]);`; the loaded 16 bits are sign-extended <!--SR:!2026-01-18,231,335!2025-06-14,68,335-->
+- load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2026-01-01,214,330!2025-06-18,72,335-->
 - load word ::@:: `lw $t, offset($s)`: `$t = *((*uint32_t) (&MEM[$s + offset]));` <!--SR:!2025-06-23,77,335!2025-06-14,68,335-->
 - move from HI ::@:: `mfhi $d`: `$d = $HI;`; note the register placeholder is `$d` instead of `$s` <!--SR:!2025-06-14,68,335!2025-06-20,74,335-->
 - move from LO ::2:: `mflo $d`: `$d = $LO;`; note the register placeholder is `$d` instead of `$s`
-- store byte ::@:: `sb $t, offset($s)`: `*((*uint8_t) (&MEM[$s + offset])) = 0xff & $t;` <!--SR:!2025-05-28,51,310!2025-05-28,51,310-->
+- store byte ::@:: `sb $t, offset($s)`: `*((*uint8_t) (&MEM[$s + offset])) = 0xff & $t;` <!--SR:!2026-01-01,214,330!2026-01-02,215,330-->
 - store halfword ::@:: `sh $t, offset($s)`: `*((*uint16_t) (&MEM[$s + offset])) = 0xffff & $t;` <!--SR:!2025-06-18,72,335!2025-06-22,76,330-->
-- store word ::@:: `sw $t, offset($s)`: `*((*uint32_t) (&MEM[$s + offset])) = $t;` <!--SR:!2025-05-25,48,310!2025-06-01,55,315-->
+- store word ::@:: `sw $t, offset($s)`: `*((*uint32_t) (&MEM[$s + offset])) = $t;` <!--SR:!2025-12-19,201,330!2026-01-28,241,335-->
 
 ### jump instructions
 
 - branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2025-06-14,68,335!2025-06-23,77,335-->
-- branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-16,70,335!2025-05-27,49,315-->
+- branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-16,70,335!2025-12-28,210,335-->
 - branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-07-04,58,310!2025-06-18,72,335-->
-- branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2025-05-26,49,310!2025-05-30,53,315-->
-- branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2025-06-20,73,335!2025-06-01,55,315-->
+- branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2025-12-26,208,330!2026-01-23,236,335-->
+- branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2025-06-20,73,335!2026-01-30,243,335-->
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-22,76,330!2025-06-12,66,330-->
 - branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2025-06-15,68,335!2025-06-24,77,335-->
-- branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-18,72,335!2025-05-24,47,315-->
-- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-06-21,75,335!2025-05-13,29,310-->
+- branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-18,72,335!2025-10-27,148,315-->
+- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-06-21,75,335!2025-09-18,122,330-->
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }` <!--SR:!2025-06-17,70,330!2025-06-15,69,330-->
-- jump ::@:: `j target`: `goto (PC & 0xf0000000) | (target << 2);` <!--SR:!2025-06-23,77,335!2025-05-26,49,315-->
+- jump ::@:: `j target`: `goto (PC & 0xf0000000) | (target << 2);` <!--SR:!2025-06-23,77,335!2025-12-26,208,335-->
 - jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (PC & 0xf0000000) | (target << 2);` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-06-14,68,335!2025-06-14,68,335-->
 - jump register ::@:: `jr $s`: `goto $s;` <!--SR:!2025-06-20,73,335!2025-06-14,68,335-->
 
 ### comparison instructions
 
-- set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2025-05-26,49,315!2025-06-23,77,335-->
+- set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2025-12-29,211,335!2025-06-23,77,335-->
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2025-06-18,71,335!2025-06-14,68,335-->
 - set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2025-09-16,132,310!2025-06-16,70,335-->
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!2025-06-22,76,330!2025-06-16,69,330-->
@@ -179,7 +179,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 ### miscellaneous instructions
 
 - no operation ::@:: `noop`: does nothing; encoded by all 0s, which represents `sll $0, $0, 0` \(in fact, _almost all_ instruction that has `$0` as its destination register does nothing\) <!--SR:!2025-06-16,69,330!2025-06-23,77,335-->
-- syscall ::@:: `syscall`: generates a software interrupt <!--SR:!2025-06-02,56,315!2025-06-11,65,330-->
+- syscall ::@:: `syscall`: generates a software interrupt <!--SR:!2026-01-28,238,335!2025-06-11,65,330-->
 
 ### encoding
 
@@ -192,23 +192,23 @@ All instructions are {@{4 bytes \(32 bits\) long}@}. This is an example of {@{th
 The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean: <!--SR:!2025-06-23,77,335-->
 
 - opcode ::@:: 6 bits; opcode of the instruction; R format: this is almost always 0, since the funct field is used instead <!--SR:!2025-06-24,77,335!2025-06-15,68,335-->
-- rs ::@:: 5 bits; R format: first source register operand; I format: source or memory register operand <!--SR:!2025-05-23,51,315!2025-06-19,72,335-->
+- rs ::@:: 5 bits; R format: first source register operand; I format: source or memory register operand <!--SR:!2026-01-04,217,335!2025-06-19,72,335-->
 - rt ::@:: 5 bits; R format: second source register operand; I format: destination or non-memory register operand <!--SR:!2025-06-22,76,330!2025-06-22,76,335-->
 - rd ::@:: 5 bits; R format: destination register operand <!--SR:!2025-06-15,69,330!2025-06-21,74,330-->
-- shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2025-06-22,76,330!2025-05-09,37,295-->
+- shift \(shamt\) ::@:: 5 bits; R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2025-06-22,76,330!2025-10-17,151,315-->
 - funct ::@:: 6 bits; R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!2025-06-19,72,330!2025-06-14,67,330-->
-- imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2025-05-26,49,315!2025-06-17,71,335-->
-- pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2025-05-29,52,315!2025-06-24,77,335-->
+- imm ::@:: 16 bits; I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2025-12-27,209,335!2025-06-17,71,335-->
+- pseudo-address ::@:: 26 bits; J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2025-11-10,162,315!2025-06-24,77,335-->
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2025-06-12,66,330-->
 
-For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. For {@{instructions without operands \(e.g. `syscall`\)}@}, {@{they are in R format}@}. <!--SR:!2025-06-03,56,332!2025-07-01,83,352!2025-06-30,82,352!2025-06-28,81,352!2025-07-03,85,352!2025-05-16,24,372!2025-05-16,24,372-->
+For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. For {@{instructions without operands \(e.g. `syscall`\)}@}, {@{they are in R format}@}. <!--SR:!2026-02-18,259,352!2025-07-01,83,352!2025-06-30,82,352!2025-06-28,81,352!2025-07-03,85,352!2025-09-18,122,392!2025-09-18,122,392-->
 
-Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2025-06-20,73,335!2025-05-31,54,315!2025-06-27,80,352-->
+Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2025-06-20,73,335!2026-01-24,237,335!2025-06-27,80,352-->
 
 ## calling conventions
 
-There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2025-06-03,62,310!2025-06-02,61,310!2025-06-02,61,310-->
+There are {@{two _major_ calling conventions}@} for MIPS: {@{O32, N32/N64}@}. We will {@{use O32}@} for this course. <!--SR:!2026-03-03,272,330!2026-02-25,266,330!2026-02-27,268,330-->
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. This is explained in [§ procedures](#procedures) below. <!--SR:!2025-08-13,98,381-->
 
@@ -233,22 +233,22 @@ The 32 registers are used as follows:
 
 > __flashcards__
 >
-> - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2025-07-28,82,270!2025-05-18,46,290-->
->   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2025-06-06,65,310!2025-06-05,64,310-->
+> - register blocks ::@:: `$zero` <br/> `$at` <br/> `$v0`–`$v1` \(2\) <br/> `$a0`–`$a3` \(4\) <br/> `$t0`–`$t7` \(8\) <br/> `$s0`–`$s7` \(8\) <br/> `$t8`–`$t9` \(2\) <br/> `$k0`–`$k1` \(2\) <br/> `$gp` <br/> `$sp` <br/> `$fp` <br/> `$ra` <!--SR:!2025-07-28,82,270!2025-09-29,133,290-->
+>   - register blocks / semantics ::@:: zero → asm temp → expr eval & fun ret ×2 → fun arg ×4 → temp ×8 → saved temp ×8 → temp ×2 → kernel ×2 → global ptr → stack ptr → frame \(base\) ptr → return addr <!--SR:!2025-06-06,65,310!2026-03-13,281,330-->
 > - __`$zero`__ ::@:: `$0`: constant 0 <!--SR:!2025-06-07,66,310!2025-06-07,66,310-->
-> - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2025-06-06,65,310!2025-06-04,63,310-->
-> - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2025-06-07,66,310!2025-06-04,63,310-->
-> - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2025-06-04,63,310!2025-06-08,67,310-->
-> - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2025-05-28,56,310!2025-06-02,61,310-->
-> - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2025-06-06,65,310!2025-06-04,63,310-->
-> - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2025-06-02,61,310!2025-06-07,66,310-->
-> - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2025-05-18,46,290!2025-06-03,62,310-->
-> - __`$gp`__ ::@:: `$28`: global pointer \(for static data\) <!--SR:!2025-05-30,58,310!2025-06-06,65,310-->
-> - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2025-05-15,43,290!2025-06-03,62,310-->
-> - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2025-06-05,64,310!2025-06-08,67,310-->
-> - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2025-05-29,57,310!2025-06-08,67,310-->
-> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2025-06-04,63,310!2025-05-15,47,290-->
-> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2025-06-07,66,310!2025-05-10,43,290-->
+> - __`$at`__ ::@:: `$1`: assembler temporary <!--SR:!2025-06-06,65,310!2026-03-07,276,330-->
+> - __`$v0`–`$v1`__ ::@:: `$2`–`$3`: values for function returns and expression evaluation <!--SR:!2025-06-07,66,310!2026-03-06,275,330-->
+> - __`$a0`–`$a3`__ ::@:: `$4`–`$7`: function arguments <!--SR:!2026-03-05,274,330!2025-06-08,67,310-->
+> - __`$t0`–`$t7`__ ::@:: `$8`–`$15`: temporaries <!--SR:!2026-01-27,240,330!2026-02-25,266,330-->
+> - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2025-06-06,65,310!2026-03-04,273,330-->
+> - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2026-02-27,268,330!2025-06-07,66,310-->
+> - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2025-11-16,181,310!2026-03-01,270,330-->
+> - __`$gp`__ ::@:: `$28`: global pointer \(for static data\) <!--SR:!2026-02-11,255,330!2025-06-06,65,310-->
+> - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2025-11-11,176,310!2026-03-02,271,330-->
+> - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2026-03-13,281,330!2025-06-08,67,310-->
+> - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2026-02-04,248,330!2025-06-08,67,310-->
+> - callee-saved register blocks ::@:: saved temp, global ptr \(except PIC code\), stack ptr, frame \(base\) ptr <p> \(__this course__: additionally, return addr\) <!--SR:!2026-03-05,274,330!2025-09-29,133,290-->
+> - caller-saved register blocks ::@:: asm temp, expr eval & fun ret, fun arg, temp <!--SR:!2025-06-07,66,310!2025-11-10,175,310-->
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}. <!--SR:!2025-08-04,94,381!2025-08-05,90,381!2025-08-16,101,381!2025-08-06,91,381!2025-08-09,99,381!2025-07-30,89,381!2025-08-03,88,381-->
 
@@ -256,57 +256,57 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 ## assembly
 
-{@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}. <!--SR:!2025-06-08,67,310!2025-06-06,65,310!2025-06-02,61,310-->
+{@{The assembler}@} is {@{responsible for translating human-readable assembly to machine-readable machine code}@}. That means we need to {@{learn how to write the human-readable assembly file}@}. <!--SR:!2025-06-08,67,310!2025-06-06,65,310!2026-02-27,268,330-->
 
 ### assembly format
 
-Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}. <!--SR:!2025-05-29,57,310!2025-05-29,57,310!2025-06-02,61,310!2025-06-07,66,310!2025-06-03,62,310!2025-06-05,64,310!2025-05-30,58,310!2025-05-30,58,310!2025-06-02,61,310-->
+Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}. <!--SR:!2026-02-06,250,330!2026-02-03,247,330!2026-02-24,265,330!2025-06-07,66,310!2026-02-28,269,330!2026-03-13,281,330!2026-02-11,255,330!2026-02-11,255,330!2026-02-23,264,330-->
 
-In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2025-06-02,61,310!2025-06-07,66,310!2025-06-07,66,310!2025-06-06,65,310!2025-06-02,61,310!2025-05-28,56,310!2025-05-29,57,310!2025-05-29,57,310-->
+In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}. <!--SR:!2026-02-26,267,330!2025-06-07,66,310!2025-06-07,66,310!2025-06-06,65,310!2026-02-25,266,330!2026-01-28,241,330!2026-02-04,248,330!2026-02-06,250,330-->
 
-In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2025-06-02,61,310!2025-06-07,66,310!2025-06-08,67,310-->
+In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}. <!--SR:!2026-02-26,267,330!2025-06-07,66,310!2025-06-08,67,310-->
 
-{@{The above "instructions" starting with a period `.`}@} are {@{more properly called _assembler directives_}@}. They include directives that {@{specify alignment, data, strings, symbol visibility, etc.}@} They are {@{not actual MIPS instructions}@} since {@{they are processed by the assembler during assembly rather than run during program execution}@}. <!--SR:!2025-05-30,58,310!2025-06-08,67,310!2025-06-02,61,310!2025-06-08,67,310!2025-05-30,58,310-->
+{@{The above "instructions" starting with a period `.`}@} are {@{more properly called _assembler directives_}@}. They include directives that {@{specify alignment, data, strings, symbol visibility, etc.}@} They are {@{not actual MIPS instructions}@} since {@{they are processed by the assembler during assembly rather than run during program execution}@}. <!--SR:!2026-02-11,255,330!2025-06-08,67,310!2026-02-26,267,330!2025-06-08,67,310!2026-02-08,252,330-->
 
 ### assembly directives
 
-- `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2025-06-04,63,310!2025-05-29,57,310-->
-- `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2025-06-08,67,310!2025-06-03,62,310-->
-- `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2025-06-03,62,310!2025-06-05,64,310-->
+- `.align <n>` ::@:: _Align_ the _next_ datum on a 2<sup>_n_</sup>-byte boundary. That is, the next datum starts at an address that is a multiple of 2<sup>_n_</sup>. <p> If _n_ is 0, automatic _alignment_ is turned off, since 2<sup>0</sup> = 1, which is effectively no alignment. <!--SR:!2026-03-04,273,330!2026-02-03,247,330-->
+- `.ascii <str>` ::@:: Stores a non-null-terminated \(ASCII\) string. <!--SR:!2025-06-08,67,310!2026-03-02,271,330-->
+- `.asciiz <str>` ::@:: Stores a null-terminated \(ASCII\) string. <!--SR:!2026-03-03,272,330!2026-03-13,281,330-->
 - `.byte <b1>, ..., <bn>` ::@:: Stores the specified _n_ bytes \(8 bits\). <!--SR:!2025-06-06,65,310!2025-06-08,67,310-->
-- `.data` ::@:: Starts the data segment. <!--SR:!2025-05-28,56,310!2025-05-29,57,310-->
-- `.double <d1>, ..., <dn>` ::@:: Stores the specified _n_ doubles \(64 bits, 8 bytes\). <!--SR:!2025-05-28,56,310!2025-06-08,67,310-->
-- `.float <f1>, ..., <fn>` ::@:: Stores the specified _n_ floats \(32 bits, 4 bytes\). <!--SR:!2025-06-05,64,310!2025-06-08,67,310-->
-- `.globl <sym>` ::@:: \(The name is _not_ a typo!\) Declare the symbol `<sym>` is global. The symbol is not removed from the resulting object/program file. That is, other assembly files can reference it. This is also required for the entry point label, so that the OS knows where to start the program. <!--SR:!2025-05-28,56,310!2025-06-08,67,310-->
-- `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2025-06-02,61,310!2025-06-03,62,310-->
+- `.data` ::@:: Starts the data segment. <!--SR:!2026-01-29,242,330!2026-02-01,245,330-->
+- `.double <d1>, ..., <dn>` ::@:: Stores the specified _n_ doubles \(64 bits, 8 bytes\). <!--SR:!2026-02-02,246,330!2025-06-08,67,310-->
+- `.float <f1>, ..., <fn>` ::@:: Stores the specified _n_ floats \(32 bits, 4 bytes\). <!--SR:!2026-03-13,281,330!2025-06-08,67,310-->
+- `.globl <sym>` ::@:: \(The name is _not_ a typo!\) Declare the symbol `<sym>` is global. The symbol is not removed from the resulting object/program file. That is, other assembly files can reference it. This is also required for the entry point label, so that the OS knows where to start the program. <!--SR:!2026-01-29,242,330!2025-06-08,67,310-->
+- `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2026-02-24,265,330!2026-03-02,271,330-->
 - `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables. <!--SR:!2025-08-06,96,381!2025-08-07,92,381-->
-- `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2025-05-20,48,290!2025-06-04,63,310-->
-- `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2025-06-08,67,310!2025-06-04,63,310-->
+- `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2025-12-08,190,310!2026-03-04,273,330-->
+- `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2025-06-08,67,310!2026-03-05,274,330-->
 
 ### entry point
 
-The convention is {@{the entry point \(first instruction to be executed when a program starts\) is labeled by the label `.__start`}@}. Additionally, {@{the label needs to be global, specified using `.globl __start`}@}. For example, a way to start a program is: <p> {@{<pre>.text<br/>.globl \_\_start<br/>\_\_start:<br/># your instructions here</pre>}@}. <!--SR:!2025-05-29,57,310!2025-05-30,58,310!2025-06-03,62,310-->
+The convention is {@{the entry point \(first instruction to be executed when a program starts\) is labeled by the label `.__start`}@}. Additionally, {@{the label needs to be global, specified using `.globl __start`}@}. For example, a way to start a program is: <p> {@{<pre>.text<br/>.globl \_\_start<br/>\_\_start:<br/># your instructions here</pre>}@}. <!--SR:!2026-01-31,244,330!2026-02-11,255,330!2026-03-01,270,330-->
 
 ## control flow
 
-In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2025-06-03,62,310!2025-06-05,64,310!2025-06-04,63,310!2025-05-15,43,290!2025-05-30,58,310!2025-06-02,61,310-->
+In {@{higher level programming languages}@}, we have {@{`do-while`, `if`, `for`, `while`, etc. for control flow}@}. In MIPS, we have {@{`beq` (branch if equal), `bne` (branch if not equal), and `j` (jump) for control flow}@}. These, {@{coupled with comparison instructions \(introduced below\)}@}, can {@{support implementing all conventional control flow structures in higher level programming languages}@}, and additionally {@{allows for unconventional \(less readable\) control flow}@}. <!--SR:!2026-03-03,272,330!2026-03-13,281,330!2026-03-07,276,330!2025-11-09,174,310!2026-02-11,255,330!2026-02-25,266,330-->
 
-To {@{convert structured control flow statements into assembly}@} manually, {@{identify _basic blocks_, which is a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph can be constructed out of these basic blocks}@}. Finally, {@{_label_ the basic blocks at their beginnings and add conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2025-06-08,67,310!2025-05-29,57,310!2025-06-07,66,310!2025-05-18,46,290!2025-06-06,65,310!2025-06-07,66,310!2025-05-28,56,310!2025-06-03,62,310!2025-06-02,61,310!2025-06-08,67,310!2025-05-28,56,310-->
+To {@{convert structured control flow statements into assembly}@} manually, {@{identify _basic blocks_, which is a sequence of consecutive code that has no branching _to_ and _from_ other code}@}. Then, {@{a control flow graph can be constructed out of these basic blocks}@}. Finally, {@{_label_ the basic blocks at their beginnings and add conditional and/or unconditional jumps at their endings}@} to {@{model the control flow graph}@}. \(__this course__: Include {@{the beginning label and the ending conditional and/or unconditional jumps}@} in a basic block.\) {@{A compiler}@} {@{essentially does the same thing automatically}@}, and {@{with additional optimizations \(e.g. reordering\) for performance and/or code size}@}. Also, during program execution, {@{an advanced processor}@} may {@{identify instructions that form basic blocks and accelerate them}@}. <!--SR:!2025-06-08,67,310!2026-02-06,250,330!2025-06-07,66,310!2025-11-20,185,310!2025-06-06,65,310!2025-06-07,66,310!2026-01-25,238,330!2026-02-28,269,330!2026-02-26,267,330!2025-06-08,67,310!2026-01-26,239,330-->
 
-To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps to the basic blocks, then the basic blocks each ending with a jump to the exit label, and finally the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label, then comparison and conditional jump to the exit label, the code, and finally a jump to the loop label}@}. You can extrapolate the rest for yourself. You may also simplify the code. <!--SR:!2025-06-06,65,310!2025-05-20,48,290!2025-06-03,62,310!2025-06-03,62,310-->
+To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bunch of comparison and conditional jumps to the basic blocks, then the basic blocks each ending with a jump to the exit label, and finally the exit label at the end}@}. To convert {@{an `while` statement}@}, a common pattern is {@{a loop label, then comparison and conditional jump to the exit label, the code, and finally a jump to the loop label}@}. You can extrapolate the rest for yourself. You may also simplify the code. <!--SR:!2025-06-06,65,310!2025-12-07,189,310!2026-03-03,272,330!2026-03-02,271,330-->
 
 ## pseudo-instructions
 
-Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}. It also means {@{different assemblers may use different implementations \(in particular, different from that given below\) to replace the same pseudo-instruction}@}. <!--SR:!2025-06-19,72,335!2025-06-22,76,330!2025-06-14,68,335!2025-06-15,69,330!2025-06-14,68,335!2025-06-17,71,330!2025-08-13,98,381!2025-08-09,99,381!2025-05-16,24,372-->
+Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}. It also means {@{different assemblers may use different implementations \(in particular, different from that given below\) to replace the same pseudo-instruction}@}. <!--SR:!2025-06-19,72,335!2025-06-22,76,330!2025-06-14,68,335!2025-06-15,69,330!2025-06-14,68,335!2025-06-17,71,330!2025-08-13,98,381!2025-08-09,99,381!2025-09-18,122,392-->
 
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\) <!--SR:!2025-08-17,102,381!2025-07-27,86,381!2025-08-07,97,381!2025-08-15,100,381-->
 
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 2; (branch delay slot); sub $d, $zero, $s;` \(use 1 instead of 2 for MIPS without branch delay slots, which MARS simulate by default\) <!--SR:!2025-07-17,71,361!2025-07-18,72,361-->
 - branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2025-07-09,68,361!2025-07-29,88,381-->
-- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-06-05,43,341-->
+- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-12-23,201,361-->
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2025-08-01,91,381!2025-07-28,87,381-->
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2025-07-19,73,361!2025-08-09,94,381-->
-- load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2025-06-15,68,335!2025-05-24,47,310-->
+- load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2025-06-15,68,335!2025-12-16,198,330-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2025-06-13,67,330!2025-06-22,76,330-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `addu $d, $zero, $s;` <!--SR:!2025-08-13,98,381!2025-08-10,95,381-->
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;` <!--SR:!2025-07-28,87,381!2025-08-11,96,381-->
@@ -334,7 +334,7 @@ Also take note of {@{callee-saved \(preserved on call\) and caller-saved registe
 
 A typical MIPS program memory is {@{addressed by 32-bit unsigned integers}@}. Thus, there are {@{2<sup>32</sup> memory byte locations, or 2<sup>30</sup> memory _word_ locations}@}. <!--SR:!2025-08-06,96,381!2025-08-07,92,381-->
 
-It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}. <!--SR:!2025-08-07,92,381!2025-07-30,89,381!2025-07-29,88,381!2025-05-17,10,341!2025-07-30,89,381!2025-08-05,95,381!2025-06-25,62,361-->
+It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}. <!--SR:!2025-08-07,92,381!2025-07-30,89,381!2025-07-29,88,381!2025-07-07,49,361!2025-07-30,89,381!2025-08-05,95,381!2025-06-25,62,361-->
 
 The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}. <!--SR:!2025-07-27,86,381!2025-08-01,91,381-->
 
