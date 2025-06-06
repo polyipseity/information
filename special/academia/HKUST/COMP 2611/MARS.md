@@ -16,7 +16,7 @@ tags:
 
 In general, system calls can be roughly described as {@{an essential interface between a process and the operating system}@}. In MARS, you can use it to {@{read and write to the console I/O window}@}. <!--SR:!2026-02-08,252,330!2026-02-22,262,330-->
 
-To invoke a system call, {@{specify the service to be called in `$v0` \(`$2`\) and pass any additional arguments required in other registers}@}. Then {@{run the instruction `syscall`}@}. The inputs \(if any\) are usually {@{stored in the `$a0`–`$a3` \(`$4`–`$7`\) registers}@}, while the outputs \(if any\) are usually {@{stored in the `$v0`–`$v1` \(`$2`–`$3`\) registers}@}. <!--SR:!2025-06-11,65,310!2025-06-06,63,310!2025-06-10,64,310!2025-06-12,66,310-->
+To invoke a system call, {@{specify the service to be called in `$v0` \(`$2`\) and pass any additional arguments required in other registers}@}. Then {@{run the instruction `syscall`}@}. The inputs \(if any\) are usually {@{stored in the `$a0`–`$a3` \(`$4`–`$7`\) registers}@}, while the outputs \(if any\) are usually {@{stored in the `$v0`–`$v1` \(`$2`–`$3`\) registers}@}. <!--SR:!2025-06-11,65,310!2026-03-07,274,330!2025-06-10,64,310!2025-06-12,66,310-->
 
 Some common syscalls are provided below:
 

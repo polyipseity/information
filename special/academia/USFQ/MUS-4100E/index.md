@@ -261,8 +261,8 @@ The content is in teaching order.
   - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2026-03-08,312,378!2025-11-05,208,358-->
 - [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them ; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection <!--SR:!2026-09-26,478,398!2025-06-11,98,378-->
   - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-11-14,215,358!2025-06-10,97,378-->
-  - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-11-09,211,358!2025-06-06,93,378-->
-- [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2025-06-06,93,378!2025-06-13,100,378-->
+  - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-11-09,211,358!2026-10-03,484,398-->
+- [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2026-10-02,483,398!2025-06-13,100,378-->
   - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2026-09-25,478,398!2026-09-18,472,398-->
 - [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-09-05,148,338!2025-10-14,193,358-->
 - [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2026-05-19,350,378!2025-06-10,97,378-->
@@ -271,7 +271,7 @@ The content is in teaching order.
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
   - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2026-05-16,347,378!2025-06-09,96,378-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2026-09-17,471,398!2025-06-06,93,378-->
+  - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2026-09-17,471,398!2026-10-04,485,398-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-06-07,94,378!2025-06-18,90,318-->
   - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-06-23,94,318!2026-04-13,341,378-->
   - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->

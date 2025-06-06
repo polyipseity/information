@@ -170,7 +170,7 @@ risk reduction
 - cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2025-07-31,183,177-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2025-11-19,225,234-->
-- newness→::@::←performance <!--SR:!2026-02-01,312,277!2025-06-06,253,257-->
+- newness→::@::←performance <!--SR:!2026-02-01,312,277!2027-12-06,913,277-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2026-09-06,559,274!2026-12-09,621,274-->

@@ -19,7 +19,7 @@ tags:
 
 ## overview
 
-PCA is most commonly used when {@{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}@}. PCA allows us to {@{reduce the number of dimensions in the data set while minimizing information loss}@}. <!--SR:!2025-06-06,274,330!2028-07-22,1165,350-->
+PCA is most commonly used when {@{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}@}. PCA allows us to {@{reduce the number of dimensions in the data set while minimizing information loss}@}. <!--SR:!2028-11-04,1247,350!2028-07-22,1165,350-->
 
 ## intuition
 

@@ -45,7 +45,7 @@ Finally, after {@{the values have converged or after a predetermined number of i
 
 After obtaining {@{the base set}@}, let the _n_ pages be {@{$p_1, \ldots, p_n$}@}. Store the authority values $a(p)$ and node values $h(p)$ {@{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}@}. Initialize {@{the 2 column vectors to either all 1}@}. Optionally, {@{[normalize](#normalization) the initial values}@}. <!--SR:!2027-11-23,947,334!2027-06-16,788,334!2025-07-18,307,334!2025-06-14,280,334!2027-11-07,934,334-->
 
-To help with the update rules, construct {@{a [directed adjacency matrix](adjacency%20matrix.md#directed%20graphs) $\mathbf{M}$ representing links between the pages}@}. The matrix element $\mathbf{M}_{i, j}$ {@{is 1 iff $p_i$ is linked to $p_j$, and otherwise 0}@}. <!--SR:!2025-06-06,230,274!2027-03-14,756,334-->
+To help with the update rules, construct {@{a [directed adjacency matrix](adjacency%20matrix.md#directed%20graphs) $\mathbf{M}$ representing links between the pages}@}. The matrix element $\mathbf{M}_{i, j}$ {@{is 1 iff $p_i$ is linked to $p_j$, and otherwise 0}@}. <!--SR:!2027-11-02,879,294!2027-03-14,756,334-->
 
 Let $k$ be {@{the current number of iterations}@}, and $\mathbf{A}_k$ and $\mathbf{H}_k$ be {@{the authority and hub column vectors that are outputted by the current iteration}@}. $\mathbf{A}_0$ and $\mathbf{H}_0$ are {@{the initial values, after normalization if any}@}. <!--SR:!2026-11-09,672,334!2028-11-04,1252,354!2025-07-07,298,334-->
 

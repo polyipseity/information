@@ -70,7 +70,7 @@ why: Why are people using competitors' products?
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←compare: Identify similarities and differences between our and their products. <!--SR:!2026-02-12,381,261!2028-07-25,1197,354-->
-- compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2026-08-10,523,274!2025-06-06,281,301-->
+- compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2026-08-10,523,274!2028-08-22,1173,321-->
 - copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2026-04-20,389,241!2026-04-07,406,241-->
 - discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2026-04-16,379,221!2025-11-06,275,241-->
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-10-07,172,170!2025-06-15,175,241-->
@@ -82,7 +82,7 @@ why: Why are people using competitors' products?
 
 > [!example] examples
 >
-> - Early Google differentiates itself by {@{offering some of their services for free}@}. <!--SR:!2025-06-06,298,341-->
+> - Early Google differentiates itself by {@{offering some of their services for free}@}. <!--SR:!2029-04-05,1399,361-->
 
 ### benefits
 

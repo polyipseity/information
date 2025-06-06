@@ -595,7 +595,7 @@ The content is in teaching order.
     - long question 4 / explain your decision made among three choices using present value of money (−1) ::@:: Only two bullet points had been written. No official solution was given, and you probably should copy from the textbook or something... <!--SR:!2026-09-30,511,408!2025-06-21,140,408-->
   - long question 5 (−2, long question)
     - long question 5 / Is earnings per share (EPS) a good indicator of a company's future performance? (−1) ::@:: No, obviously. But I have only written two bullet points. <p> The three points are: no; because EPS indicates the company's performance in the past period, not the future; stock price is a better indicator (price/earnings ratio also acceptable). <!--SR:!2027-05-02,696,428!2026-05-10,368,388-->
-    - long question 5 / describe stock split (0) ::@:: The two points are: each stock of a company gets split into several stocks with proportionally smaller market price; the par value per stock decreases but the total par value remains the same. <!--SR:!2025-06-22,141,408!2025-06-06,127,408-->
+    - long question 5 / describe stock split (0) ::@:: The two points are: each stock of a company gets split into several stocks with proportionally smaller market price; the par value per stock decreases but the total par value remains the same. <!--SR:!2025-06-22,141,408!2026-11-06,518,408-->
     - long question 5 / reason for stock split after a surge in stock price (−1) ::@:: Missing one bullet point. <p> The two points are: make the stock price to a reasonable market range; and attract more investors to increase trade volume. <!--SR:!2026-09-23,504,408!2025-06-08,129,408-->
 - check
   - note: <s>Probably no checking from past experience...</s> Not this time...?

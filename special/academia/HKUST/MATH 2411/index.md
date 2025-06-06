@@ -697,7 +697,7 @@ The content is in teaching order.
   - simple linear regression / slope estimator
     - simple linear regression / slope estimator / unknown error variance ::@:: $$(\hat \beta_1 - \beta_1) \sqrt{S_{XX} / S_{\varepsilon, n - 2}^2} \sim \mathcal t(n - 2)$$ <!--SR:!2026-01-08,294,377!2026-01-11,296,377-->
       - simple linear regression / slope estimator / unknown error variance / confidence interval ::@:: $$b \pm t_{n - 2, \alpha / 2} \sqrt{S_{\varepsilon, n - 2}^2 / S_{XX} }$$ <!--SR:!2025-09-20,204,357!2025-06-17,131,337-->
-      - simple linear regression / slope estimator / unknown error variance / hypothesis testing ::@:: Compare using $$(b - b_1) \sqrt{S_{XX} / s_{\varepsilon, n - 2}^2}$$ against $t(n - 2)$. Use the absolute value of it if two-sided test. <!--SR:!2025-09-09,195,357!2025-06-06,122,337-->
+      - simple linear regression / slope estimator / unknown error variance / hypothesis testing ::@:: Compare using $$(b - b_1) \sqrt{S_{XX} / s_{\varepsilon, n - 2}^2}$$ against $t(n - 2)$. Use the absolute value of it if two-sided test. <!--SR:!2025-09-09,195,357!2026-12-23,565,357-->
   - simple linear estimator / intercept estimator
     - simple linear estimator / intercept estimator / unknown error variance ::@:: $$(\hat \beta_0 - \beta_0) \sqrt{S_{XX} / \overline {x^2} S_{\varepsilon, n - 2}^2} \sim \mathcal t(n - 2)$$ <!--SR:!2025-06-16,130,337!2025-11-01,231,357-->
       - simple linear regression / intercept estimator / unknown error variance / confidence interval ::@:: $$a \pm t_{n - 2, \alpha / 2} \sqrt{\overline {x^2} S_{\varepsilon, n - 2}^2 / S_{XX} }$$ <!--SR:!2025-06-09,124,337!2025-09-06,192,357-->

@@ -70,7 +70,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 
 - over-coverage ::@:: inclusion of data from outside of the population <!--SR:!2025-10-03,306,330!2025-10-12,313,330-->
 - under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2027-08-22,827,330!2025-08-16,269,330-->
-- measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2025-09-24,298,330-->
+- measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2027-11-07,884,330!2025-09-24,298,330-->
 - processing error ::@:: mistakes in data coding <!--SR:!2025-08-26,275,330!2025-08-18,270,330-->
 - [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2028-01-03,947,350!2025-08-03,259,330-->
 

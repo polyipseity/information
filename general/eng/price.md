@@ -39,7 +39,7 @@ When {@{a [raw material](raw%20material.md) or a similar economic good is for sa
 
 ## functions of prices
 
-According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-06-06,136,290!2025-11-19,284,330!2025-08-07,186,310-->
+According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-12-06,548,310!2025-11-19,284,330!2025-08-07,186,310-->
 
 - __Transmitting__ ::@:: information about changes in the relative importance of different end-products and factors of production. <!--SR:!2025-08-06,196,310!2025-09-05,207,310-->
 - __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2025-08-16,192,310!2025-07-15,182,310-->

@@ -23,7 +23,7 @@ The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathem
 
 The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}. <!--SR:!2026-01-27,241,330!2026-02-21,263,330!2026-02-01,246,330-->
 
-It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2026-03-04,272,330!2025-06-11,67,310!2025-06-06,63,310-->
+It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2026-03-04,272,330!2025-06-11,67,310!2026-03-09,276,330-->
 
 ## special cases
 

@@ -50,7 +50,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 >
 > {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2025-06-28,144,292!2025-11-13,272,332!2025-06-19,143,292-->
 
-__Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-06-06,48,252!2026-06-22,392,292-->
+__Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-03,119,252!2026-06-22,392,292-->
 
 - inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2025-06-12,28,232!2025-07-27,181,312-->
 - inversion vector, symbolically ::@:: $$v(i)~~=~~\#\{k\mid k>i~\land ~\pi ^{-1}(k)<\pi ^{-1}(i)\}$$ <!--SR:!2026-06-21,391,292!2026-11-19,532,312-->

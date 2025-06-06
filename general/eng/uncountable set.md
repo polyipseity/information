@@ -22,7 +22,7 @@ There are {@{many equivalent characterizations of uncountability}@}. A set _X_ i
 - cardinality using not equal to ::@:: The [cardinality](cardinality.md) of _X_ is neither finite nor equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md)\). <!--SR:!2025-08-28,184,310!2025-07-20,157,310-->
 - cardinality using greater than ::@:: The set _X_ has cardinality strictly greater than $\aleph _{0}$. <!--SR:!2025-08-31,189,310!2025-08-07,170,310-->
 
-{@{The first three of these characterizations (annotation: function; sequence, function; cardinality using not equal to)}@} can be {@{proven equivalent in [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) without the [axiom of choice](axiom%20of%20choice.md)}@}, but {@{the equivalence of the third and fourth (annotation: cardinality using greater than) cannot be proved without additional choice principles}@}. <!--SR:!2025-06-06,113,290!2026-01-16,278,290!2025-09-03,192,310-->
+{@{The first three of these characterizations (annotation: function; sequence, function; cardinality using not equal to)}@} can be {@{proven equivalent in [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) without the [axiom of choice](axiom%20of%20choice.md)}@}, but {@{the equivalence of the third and fourth (annotation: cardinality using greater than) cannot be proved without additional choice principles}@}. <!--SR:!2026-09-11,462,310!2026-01-16,278,290!2025-09-03,192,310-->
 
 ## properties
 

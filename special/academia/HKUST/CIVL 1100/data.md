@@ -114,7 +114,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2027-03-05,761,347!2027-07-08,933,350-->
-- height ::@:: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2025-06-06,281,317!2028-02-15,1110,350-->
+- height ::@:: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2027-11-13,890,317!2028-02-15,1110,350-->
 - image ::@:: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2026-03-13,549,400-->
 - shape ::@:: exponential <!--SR:!2028-10-03,1308,370!2028-03-21,1160,355-->
 

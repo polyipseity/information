@@ -35,7 +35,7 @@ In the case when {@{all future cash flows are positive, or incoming}@} \(such as
 
 - _t_ ::@:: is the time of the cash flow <!--SR:!2026-06-12,377,359!2026-06-11,376,359-->
 - _i_ ::@:: is the discount rate, i.e. the [return](rate%20of%20return.md) that could be earned per unit of time on an [investment with similar risk](opportunity%20cost.md) <!--SR:!2026-05-05,346,349!2026-07-06,399,365-->
-- $R_{t}$ <!-- flashcard ID: 07a9f752-575e-4aa0-bdfb-c2cfcecb56b4 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2025-06-06,85,354!2026-07-22,412,374-->
+- $R_{t}$ <!-- flashcard ID: 07a9f752-575e-4aa0-bdfb-c2cfcecb56b4 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2026-07-30,419,374!2026-07-22,412,374-->
 - $1/(1+i)^{t}$ ::@:: is the discount factor, also known as the present value factor. <!--SR:!2026-06-16,382,365!2025-12-26,239,330-->
 
 {@{The result of this formula}@} is {@{multiplied with the Annual Net cash in-flows and reduced by Initial Cash outlay the present value}@}, but in {@{cases where the cash flows are not equal in amount}@}, {@{the previous formula will be used to determine the present value of each cash flow separately}@}. {@{Any cash flow within 12 months will not be discounted for NPV purpose}@}, nevertheless {@{the usual initial investments during the first year _R_<sub>0</sub> are summed up a negative cash flow}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-31,268,330!2026-05-03,346,357!2026-03-21,311,349!2026-02-08,270,330!2026-07-10,402,365!2026-01-17,255,330-->

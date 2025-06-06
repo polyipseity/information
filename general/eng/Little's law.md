@@ -53,7 +53,7 @@ To {@{use Little's law on data}@}, formulas must be used to {@{estimate the para
 
 ## applications
 
-Little's law is {@{widely used in manufacturing}@} to {@{predict lead time based on the production rate and the amount of work-in-process}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2026-02-15,284,330!2025-06-06,74,270-->
+Little's law is {@{widely used in manufacturing}@} to {@{predict lead time based on the production rate and the amount of work-in-process}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2026-02-15,284,330!2026-03-18,285,290-->
 
 {@{Software-performance testers}@} have used Little's law to {@{ensure that the observed performance results are not due to bottlenecks imposed by the testing apparatus}@}. <sup>[\[16\]](#^ref-16)</sup><sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-01-06,252,330!2026-02-04,274,330-->
 
