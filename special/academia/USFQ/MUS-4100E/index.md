@@ -507,7 +507,7 @@ The content is in teaching order.
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits. <!--SR:!2025-10-15,134,422!2025-11-01,151,422-->
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\) <!--SR:!2025-10-25,144,422!2025-11-01,151,422-->
   - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2025-10-30,149,422!2025-10-23,142,422-->
-    - cool jazz / characteristics / vs. bebop ::@:: Basically opposite of bebop \(Essentially, just invert the characteristics listed above.\): classical, fast, improvised, relaxed, remix, monophonic <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
+    - cool jazz / characteristics / vs. bebop ::@:: Essentially opposite of bebop: classical, fast, improvised, relaxed, remix, monophonic; simply invert the characteristics listed above <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2025-08-13,97,402!2025-10-16,135,422-->
   - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2025-10-27,146,422!2025-10-27,146,422-->
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2025-10-26,145,422!2025-08-18,102,402-->
@@ -580,7 +580,7 @@ The content is in teaching order.
   - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multi-track recording. <!--SR:!2025-10-29,148,422!2025-08-15,99,402-->
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band. <!--SR:!2025-10-25,144,422!2025-10-18,137,422-->
-  - Miles Davis / known for :;@:: incredibly inventive, melodic, unique sound
+  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2025-08-15,99,402!2025-10-22,141,422-->
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2025-10-20,139,422!2025-10-23,142,422-->
   - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2025-10-23,142,422-->
@@ -629,7 +629,7 @@ The content is in teaching order.
 - [John Coltrane](../../../../general/John%20Coltrane.md) \(1926–1967\) ::@:: He was an American jazz saxophonist, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-07-01,28,418!2025-06-30,27,422-->
   - John Coltrane / capabilities ::@:: composer, tensor saxophone player <!--SR:!2025-07-01,28,418!2025-06-30,27,418-->
   - John Coltrane / effects ::@:: Most influential jazz artist on the saxophone. He pushed improvisation and jazz harmony to new extremes. <!--SR:!2025-07-01,28,418!2025-06-30,27,418-->
-  - John Coltrane / early life ::@:: he missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-07-01,28,421!2025-07-01,28,418-->
+  - John Coltrane / early life ::@:: He missed most of the bebop era. He was in the US navy from 1945 to 1946. He then studied at the Ornstein School of Music and Granoff School of Music in Philadelphia. He was in many bands and worked with Davis Miles in 1955 and Thelonious Monk in 1957. <!--SR:!2025-07-01,28,421!2025-07-01,28,418-->
   - John Coltrane / periods ::@:: early: hard bop, sheets of sound <br/> middle: modal jazz <br/> late: experimental jazz, free jazz <!--SR:!2025-06-29,26,418!2025-06-29,26,421-->
 - [sheets of sound](../../../../general/sheets%20of%20sound.md) ::@:: It was a term coined in 1958 by DownBeat magazine jazz critic Ira Gitler to describe the new, unique improvisational style of John Coltrane. <!--SR:!2025-06-29,26,418!2025-06-29,26,421-->
   - sheets of sound / detail ::@:: John Coltrane could improvise vertically by traversing all harmonies in the progression. <!--SR:!2025-06-30,27,418!2025-06-30,27,418-->
@@ -755,7 +755,7 @@ The content is in teaching order.
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2025-06-29,26,418!2025-06-29,26,418-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-07-01,28,418!2025-06-29,26,418-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-06-30,27,421!2025-06-30,27,418-->
-  - Snarky Puppy / works ::@:; "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-06-29,26,418-->
+  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-06-29,26,418-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-06-30,27,421!2025-07-01,28,418-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2025-06-30,27,418!2025-07-01,28,418-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2025-06-29,26,422!2025-06-29,26,422-->

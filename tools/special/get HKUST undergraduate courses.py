@@ -5,9 +5,6 @@ from bs4 import BeautifulSoup
 from typing import NamedTuple
 from yarl import URL
 
-
-# pip install aiohttp>=3.9.0 anyio>=3.6.0 asyncstdlib>=3.12.0 beautifulsoup4>=4.12.0 yarl>=1.9.0
-
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _UNDERGRADUATE_COURSES_URL = URL("https://prog-crs.hkust.edu.hk/ugcourse")
 

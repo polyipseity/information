@@ -45,10 +45,9 @@ The content is in teaching order.
 ## children
 
 - [assignments](assignments/index.md)
+- [examination 3 cheatsheet](examination%203%20cheatsheet.md)
 - [formats](formats.md)
-<!-- - [questions](questions.md) -->
-
-## assessments
+- [questions](questions.md)
 
 ## week 1 lecture
 
@@ -169,7 +168,7 @@ The content is in teaching order.
     - process costing / weighted average cost / prepare production reports ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2025-07-10,102,386!2025-07-10,102,386-->
       - process costing / weighted average cost / prepare production reports / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-07-07,99,386!2025-06-26,90,386-->
       - process costing / weighted average cost / prepare production reports / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2025-07-08,100,386!2025-06-29,93,386-->
-      - processing costing / weighted average cost / prepae production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
+      - processing costing / weighted average cost / prepare production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
 
 ## week 3 lecture
 
@@ -243,7 +242,7 @@ The content is in teaching order.
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_. <!--SR:!2025-06-26,94,379!2025-11-21,202,359-->
 - [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc. <!--SR:!2025-06-29,97,379!2025-07-04,101,379-->
   - activity-based management / example ::@:: Instead of looking at processes/jobs to improve, we look at the activities that processes/jobs require across all processes/jobs. <p> Using ABC, then we can find high-cost activities, and improve on them. We can also identify _value-added_ costs (e.g. designing, machining) and _non-value-added_ costs (e.g. advertising, billing, inspection, meeting, transportation). <!--SR:!2025-06-22,90,379!2025-07-24,100,319-->
-  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Then compare/rank the projects/segments by gross margin \(_percentage_\) and net operating income \(_percentage_\), which shows the gross profit consumed by overhead from ABC costing. Make 3 or more suggestions on improving the project and segment with the lowest net operating income \(_percentage_\), with explanation. Finally, for each activity, make 3 or more suggestions on reducing its activity with explanation. <p> Remember, 1 point is worth 1 mark. Do not be afraid to write "obvious" or "useless" points.\) <!--SR:!2025-09-19,125,410!2025-10-13,140,410-->
+  - activity-based management / note ::@:: \(__this course__: After performing activity-based costing, how to answer the question "Comment on the results."? <p> Explain how ABC costing is better than traditional costing. Mention _cost substitution effect_ that overstates the cost of a project and understates another. Since the price is based on \(something\), it is likely a project is _overpriced_ and the other is _underpriced_. For the _overpriced_ project \(traditional costing ranks higher but ABC costing ranks lower\), for each activity, state how its cost driver compares to the other project, and give 2 to 3 suggestions to reduce it. <p> Remember 1 mark 1 point. Don't be afraid to write "obvious" or "stupid" points.\) <!--SR:!2025-09-19,125,410!2025-10-13,140,410-->
     - activity-based management / note / ABC costing vs. traditional costing ::@:: Traditional costing uses only one cost driver. Thus, costs may be over-allocated or under-allocated as part of MOH is related to other unused cost drivers. ABC costing is more accurate because cost pools are used to match relevant cost drivers, which should have some causal relationship. <!--SR:!2025-09-19,125,410!2025-09-24,130,409-->
 - price setting ::@:: markup, target costing, etc. <!--SR:!2026-05-27,360,379!2025-07-01,98,379-->
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_. <!--SR:!2025-06-21,89,379!2025-07-02,99,379-->
@@ -279,7 +278,7 @@ The content is in teaching order.
     - cost behavior / linear regression / least squares ::@:: Minimize the sum of squared $y$ errors with the fitted line. Software, e.g. Excel, can be used to find the line. The intercept $a$ and the slope $b$ means the same thing as the other methods. <!--SR:!2025-07-05,98,386!2025-06-14,76,366-->
       - [least squares](../../../../general/least%20squares.md) ::@:: a parameter estimation method based on minimizing the sum of the squares of the residuals (a residual being the difference between an observed value and the fitted value provided by a model) made in the results of each individual equation <!--SR:!2025-06-07,74,366!2025-06-29,93,386-->
       - cost behavior / linear regression / least squares / outputs ::@:: R square \(R<sup>2</sup>\): how closely the relation is explained by the fitted line <br/> intercept: estimated total fixed costs <br/> $x$ coefficient/slope: estimated unit variable costs <!--SR:!2025-07-08,100,386!2025-06-14,76,366-->
-      - cost behavior / linear regression / least squares / significance ::@:: significance F, p-value (for the $x$ coefficient/slope): They are the same when one independent variable is used to predict one dependent variable. Compare them with the significance level: The value being lower than the significance level means the result is significant (useful).  <p> (__this course__: What if the value _equals_ the significance level? The course is not clear on this, but the answer seems to be _insignificant_.) <!--SR:!2025-07-04,97,386!2025-06-12,74,366-->
+      - cost behavior / linear regression / least squares / significance ::@:: significance F \(for the joint effect of all independent variables\), p-value \(for each variable\): They are the same when one independent variable is used to predict one dependent variable. Compare them with the significance level: The value being lower than the significance level means the result is significant (useful).  <p> (__this course__: What if the value _equals_ the significance level? The course is not clear on this, but the answer seems to be _insignificant_.) <!--SR:!2025-07-04,97,386!2025-06-12,74,366-->
     - cost behavior / linear regression / advantages ::@:: scattergraph, high—low method: intuitive, simple <br/> least squares: easy using Excel, uses all data points <!--SR:!2025-07-09,101,386!2025-07-10,102,386-->
     - cost behavior / linear regression / disadvantages ::@:: scattergraph: inexact, subjective <br/> high—low method: uses only two data points at the extreme but not at the middle <br/> least squares: requires proper interpretation, uses more assumptions and data <!--SR:!2025-07-08,100,386!2025-07-04,97,386-->
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> \(__this course__: sales revenue minus variable costs\) <!--SR:!2025-06-27,91,386!2025-07-11,103,386-->
@@ -316,7 +315,7 @@ The content is in teaching order.
 ## examination 1
 
 - datetime: 2025-03-12T19:00:00+08:00/2025-03-12T20:30:00+08:00, PT1H30M
-- venue: Lecture Theater A
+- venue: Lecture Theater A, Academic Building
 - format
   - calculator: yes
   - cheatsheet: no
@@ -391,7 +390,7 @@ The content is in teaching order.
     - cost–volume–profit analysis / assumptions / product mix ::@:: When a company sells more than one type of product, the product mix (the ratio of each product to total sales) will remain constant. <!--SR:!2025-07-05,98,386!2025-07-11,103,386-->
   - cost–volume–profit analysis / margin of safety ::@:: It is the difference between actual/budgeted \(net\) sales and break-even point: <p> actual/budgeted \(net\) sales − break-even point <p> It represents the strength of the business. <!--SR:!2025-07-10,102,386!2025-06-28,92,386-->
     - cost–volume–profit analysis / margin of safety / units ::@:: Apart from sales, it can also be represented in terms of _sales units_: <p> actual/budgeted \(net\) sales units − break-even units <p> It still represents the strength of the business. <!--SR:!2025-06-11,25,404!2025-06-11,25,405-->
-  - cost–volume–profit analysis / changes ::@:: cost structure; fixed cost, price; price; variable cost, volume; <!--SR:!2025-10-08,135,409!2025-09-21,127,410-->
+  - cost–volume–profit analysis / changes ::@:: cost structure; fixed cost, price; price; variable cost, volume <!--SR:!2025-10-08,135,409!2025-09-21,127,410-->
     - cost–volume–profit analysis / changes / price ::@:: Compute the new \(average\) price, and then the contribution margin ratio or unit contribution margin. You can use these two methods. <!--SR:!2025-09-21,127,410!2025-09-25,131,410-->
     - cost–volume–profit analysis / changes / variable cost, volume ::@:: Compute the new unit variable cost and the new volume. You can use the profit equation method. <!--SR:!2025-09-22,128,410!2025-09-23,129,410-->
     - cost–volume–profit analysis / changes / fixed cost, price ::@:: Compute the new \(average\) price and new fixed cost, and then unit contribution margin. Yon can use this method. <!--SR:!2025-10-09,136,410!2025-09-04,101,389-->
@@ -497,13 +496,13 @@ The content is in teaching order.
   - budget / sales budget ::@:: budgeted unit sales × budgeted sales price = budgeted sales revenue <!--SR:!2025-06-13,27,405!2025-06-11,25,401-->
     - budget / sales budget / note ::@:: The yearly budgeted sales price uses weighted average. <p> The sales budget is very straightforward. You budget the sales you want, and then simply multiply by the budgeted sales price. <!--SR:!2025-06-11,25,401!2025-06-11,25,405-->
   - budget / production budget ::@:: budgeted unit sales + ending finished goods inventory – beginning finished goods inventory = budgeted production units <!--SR:!2025-06-13,27,401!2025-06-11,25,405-->
-    - budget / production budget / note ::@:: The yearly ending and beginnig finished goods inventory use that of the whole year. <p> It is related to the sales budget, beginning, and ending finished goods inventory that you want to keep, e.g. ending finished goods inventory of 5% of next quarter budgeted sales. <!--SR:!2025-06-13,27,405!2025-06-12,26,405-->
-  - budget / direct materials purchases budget ::@:: budgeted production units × required direct materials = total required direct materials <br/> total required direct materials + ending direct materials inventory – beginning direct materials inventory = total direct materials purchases <br/> total direct materials purchases × direct materials cost = budgeted cost of direct materials purchases <!--SR:!2025-06-11,25,405!2025-06-11,25,401-->
-    - budget / direct materials purchases budget / note ::@:: The yearly required direct materials and direct materials cost use weighted average. The yearly ending and beginning direct materials inventory use that of the whole year. <p> From budgeted production, you need to calculate direct materials used, then direct materials purchased, and finally its total cost. <!--SR:!2025-06-11,25,401!2025-06-12,26,405-->
-  - budget / direct labor budget ::@:: budgeted production units × required direct labor = total required direct labor hours <br/> total required direct labor hours × direct labor rate per hour = total budgeted direct labor <!--SR:!2025-06-12,26,405!2025-06-12,26,404-->
-    - budget / direct labor budget / note ::@:: The yearly required direct labor and direct labor rate per hour use weighted average. <p> From budgeted production, you need to calculate direct labor hours, and finally its total cost. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
+    - budget / production budget / note ::@:: The yearly ending and beginning finished goods inventory use that of the whole year. <p> It is related to the sales budget, beginning, and ending finished goods inventory that you want to keep, e.g. ending finished goods inventory of 5% of next quarter budgeted sales. <!--SR:!2025-06-13,27,405!2025-06-12,26,405-->
+  - budget / direct materials purchases budget ::@:: budgeted production units × required direct materials \(per unit\) = total required direct materials <br/> total required direct materials + ending direct materials inventory – beginning direct materials inventory = total direct materials purchases <br/> total direct materials purchases × direct materials cost = budgeted cost of direct materials purchases <!--SR:!2025-06-11,25,405!2025-06-11,25,401-->
+    - budget / direct materials purchases budget / note ::@:: The yearly required direct materials \(per unit\) and direct materials cost use weighted average. The yearly ending and beginning direct materials inventory use that of the whole year. <p> From budgeted production, you need to calculate direct materials used, then direct materials purchased, and finally its total cost. <!--SR:!2025-06-11,25,401!2025-06-12,26,405-->
+  - budget / direct labor budget ::@:: budgeted production units × required direct labor \(per unit\) = total required direct labor hours <br/> total required direct labor hours × direct labor rate per hour = total budgeted direct labor <!--SR:!2025-06-12,26,405!2025-06-12,26,404-->
+    - budget / direct labor budget / note ::@:: The yearly required direct labor \(per unit\) and direct labor rate per hour use weighted average. <p> From budgeted production, you need to calculate direct labor hours, and finally its total cost. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
   - budget / manufacturing overhead cost budget ::@:: budgeted \(cost driver\) × variable overhead rate = budgeted variable manufacturing overhead <br/> budgeted variable manufacturing overhead + budgeted fixed manufacturing overhead = budgeted manufacturing overhead <!--SR:!2025-06-13,27,405!2025-06-11,25,401-->
-    - budget / manufacturing overhead cost budget / note ::@:: The yearly variable overhead rate uses weighted average. <p> From budgeted cost driver, find the variable MOH using the variable MOH rate. Also add the fixed MOH rate. If not further specified, assume the fixed MOH is spread out evenly over all subperiods. <!--SR:!2025-06-13,27,404!2025-06-11,25,401-->
+    - budget / manufacturing overhead cost budget / note ::@:: The yearly variable overhead rate uses weighted average. <p> From budgeted cost driver, find the variable MOH using the variable MOH rate. Also add the fixed MOH. If not further specified, assume the fixed MOH is spread out evenly over all subperiods. <!--SR:!2025-06-13,27,404!2025-06-11,25,401-->
   - budget / cost of goods sold budget ::@:: budgeted unit sales × budgeted manufacturing cost per unit = budgeted cost of goods sold <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
     - budget / cost of goods sold budget / note ::@:: The yearly budgeted manufacturing cost per unit uses weighted average. <p> The budgeted manufacturing cost per unit includes direct material, direct labor, direct variable MOH, and direct fixed MOH. Indirect MOH are excluded. <!--SR:!2025-09-18,104,401!2025-06-12,26,405-->
   - budget / selling and administrative expenses budget ::@:: budgeted sales revenue <br/> variable selling expenses + fixed administrative expenses = budgeted selling and administrative expenses <!--SR:!2025-06-13,27,405!2025-06-11,25,405-->
@@ -514,9 +513,9 @@ The content is in teaching order.
     - budget / budgeted cash receipts / note ::@:: For credit sales, we estimate the percentage of credit sales that will be received later at a certain subperiod. <!--SR:!2025-06-11,25,405!2025-06-11,25,405-->
   - budget / budgeted cash payments ::@:: budgeted cost of direct materials purchases <br/> cash paid for direct materials \(accounts for credit payments\) + cash paid for direct labor + manufacturing overhead – less: depreciation \(non-cash expense\) + cash paid for selling and administrative expenses + cash paid for equipment = budgeted cash payments <!--SR:!2025-08-22,77,385!2025-08-20,75,385-->
     - budget / budgeted cash payments / note ::@:: Add all _cash_ expenses. Remove any non-cash expenses, e.g. factory depreciation included in manufacturing overhead. Remember to include capital expenditures. <!--SR:!2025-06-13,27,405!2025-06-11,25,405-->
-  - budget / cash budget ::@:: beginning cash balance + plus: budgeted cash receipts – less: budgeted cash payments = cash balance before financing <br/> cash balance before financing + cash borrowed or \(repaid\) = ending cash balance <!--SR:!2025-06-13,27,405!2025-06-13,27,405-->
-    - budget / cash budget / note ::@:: The cash budget is mostly straight forward. Remember that each subperiod's beginning cash balance follows from last subperiod's ending cash balance. <!--SR:!2025-06-13,27,405!2025-06-12,26,404-->
-  - budget / budgeted balance sheet ::@:: \(example\) <br/> cash + accounts receivable + direct materials inventory + finished goods inventory + property, plant, and equipment = total assets <br/> accounts payable + long-term liabilities = total liabilities <br/> stockholders' equity <br/> total liabilities + stockholders' equity = total liabilities and stockholders' equity <!--SR:!2025-06-13,27,405!2025-09-20,106,405-->
+  - budget / cash budget ::@:: beginning cash balance + plus: budgeted cash receipts – less: budgeted cash payments = cash balance before financing <br/> cash balance before financing + cash borrowed or \(repaid\) – less: loan interest = ending cash balance <!--SR:!2025-06-13,27,405!2025-06-13,27,405-->
+    - budget / cash budget / note ::@:: The cash budget is mostly straight forward. Rememmber that each subperiod's beginning cash balance follows from last subperiod's ending cash balance. <!--SR:!2025-06-13,27,405!2025-06-12,26,404-->
+  - budget / budgeted balance sheet ::@:: \(example\) <br/> cash + accounts receivable + direct materials inventory + work-in-progress inventory + finished goods inventory + property, plant, and equipment = total assets <br/> accounts payable + long-term liabilities = total liabilities <br/> stockholders' equity <br/> total liabilities + stockholders' equity = total liabilities and stockholders' equity <!--SR:!2025-06-13,27,405!2025-09-20,106,405-->
     - budget / budgeted balance sheet ::@:: It looks similar to a real balance sheet. List and sum assets on the left. List and sum liabilities on the right. List stockholder's equity on the right. <p> At the end of both sides, sum total assets and total liabilities and stockholders' equity, which should equal each other. <!--SR:!2025-06-13,27,405!2025-06-11,25,405-->
 
 ## week 11 lecture
@@ -535,32 +534,34 @@ The content is in teaching order.
 ## examination 2
 
 - datetime: 2025-04-15T19:00:00+08:00/2025-04-15T20:30:00+08:00, PT1H30M
-- venue: Lecture Theater B; Lecture Theater E
+- venue: Lecture Theater B, Academic Building; Lecture Theater E, Academic Building
 - format
   - calculator: yes
   - cheatsheet: no
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×3
-- grades: 96/100 → ?/100
+- grades: 96/100 → 96/100
   - statistics
-    - timestamps: 2025-04-29T13:31+08:00 → ?
+    - timestamps: 2025-04-29T13:31+08:00 → 2025-05-06T22+08:00
     - count: ? → ?
-    - mean: 62.9 → ?
+    - mean: 62.9 → 62.77
     - standard deviation: ? → ?
-    - low: 27 → ?
-    - lower quartile: 56 → ?
-    - median: 64 → ?
-    - upper quartile: 72 → ?
-    - high: 96 → ?
+    - low: 27 → 0
+    - lower quartile: 56 → 55.5
+    - median: 64 → 64
+    - upper quartile: 72 → 72
+    - high: 96 → 96
     - distribution: ? → ?
     - data: ? → ?
+      - 1st: 96
+      - 2nd: 89
 - report
   - time limit ::@:: Again, the time limit was tight, because the last question on incremental analysis has 3 very long paragraphs of information to sieve through. <!--SR:!2025-06-13,27,405!2025-06-11,25,405-->
 - check
-  - datetime: ?
-  - venue: ?
-  - report: \(none\)
+  - datetime: 2025-05-06T13:00:00+08:00/2025-05-06T16:00:00+08:00, PT3H
+  - venue: Room 6032, LSKBB
+  - report: \(none: did not go\)
 
 > __<big>Coverage of Examination 2</big>__
 >
@@ -598,7 +599,7 @@ The content is in teaching order.
 - variance analysis ::@:: It is a tool of budgetary control and performance evaluation, assessing any variances between the budgeted, planned, or standard amount, and the actual amount realized. Variance analysis can be carried out for both costs and revenues. <!--SR:!2025-06-11,25,401!2025-06-13,27,401-->
   - variance analysis / types ::@:: Variance can be classified into _spending variance_ and _volume variances_. The former accounts for differences between the _actual budget_ and the _flexible budget_ with the same sale units. The latter accounts for differences between the _flexible budget_ and the _master budget_. <!--SR:!2025-06-13,27,405!2025-06-12,26,405-->
     - variable analysis / types / variable ::@:: For variable costs, e.g. direct materials \(DM\), direct labor \(DL\), and variable manufacturing overhead \(VOH\), _spending variance_ can be further separated into _price variance_ and _efficiency variance_ \(_quantity variance_ for DM\). <p> _Volume variance_ is ignored, as it is already accounted for by the _flexible budget_. <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
-    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares between that in _flexible budget_ and the _applied FOH_ instead of that in the _master budget_. <!--SR:!2025-08-21,76,385!2025-06-12,26,405-->
+    - variable analysis / types / fixed ::@:: For fixed costs, e.g. fixed manufacturing overhead \(FOH\), both _spending variance_ and _volume variance_ needs to be considered. <p> Note that _volume variance_ compares the FOH in _master budget_ \(the _fixed FOH rate per unit_ is also from master budget\) and the _applied FOH_ based on actual volume \(fixed FOH rate per unit multiplied by _actual units_\) instead of that in the _flexible budget_ \(actually, it should be the same as that in master budget because fixed MOH should not change with volume\). <!--SR:!2025-08-21,76,385!2025-06-12,26,405-->
   - variance analysis / favorability ::@:: Variance calculation should always be calculated by taking the planned or budgeted amount and subtracting the actual/forecasted value. Thus a positive number is favorable and a negative number is unfavorable. <!--SR:!2025-06-12,26,401!2025-06-11,25,401-->
     - variance analysis / favorability / causes ::@:: It should be obvious what is _favorable_, e.g. paying lower prices/wages, producing more using less resources, using less materials, using less time, etc. The opposite is _unfavorable_. <!--SR:!2025-06-11,25,401!2025-06-12,26,405-->
 - assignment: [budgetary planning](assignments/budgetary%20planning/index.md)
@@ -621,7 +622,7 @@ The content is in teaching order.
   - direct materials variance / actual price and quantity ::@:: Generally, you are given the actual _total_ price, actual quantity, and actual units produced and sold. <p> The actual price \(AP\) is computed by dividing the actual total price by the actual quantity. The actual quantity \(AQ\) is used as is. <!--SR:!2025-06-12,26,405!2025-06-12,26,401-->
   - direct materials variance / standard price and quantity ::@:: Generally, you are given the standard price, standard quantity per unit, and actual units produced and sold. <p> The standard price \(SP\) is used as is. The standard quantity \(SQ\) is computed by multiplying the standard quantity per unit by the actual units produced and sold. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
   - direct materials variance / price variance ::@:: The direct materials price variance is calculated as price variance outlined above. <!--SR:!2025-06-11,25,405!2025-06-12,26,404-->
-  - direct materials variance / quantity variance ::@:: The direct materials quantity variance as quantity variance outlined above. <!--SR:!2025-06-13,27,405!2025-06-13,27,405-->
+  - direct materials variance / quantity variance ::@:: The direct materials quantity variance is calculated as quantity variance outlined above. <!--SR:!2025-06-13,27,405!2025-06-13,27,405-->
 - [direct labor variance](../../../../general/direct%20labor%20cost%20variance.md) ::@:: It is the difference between the standard cost for actual production and the actual cost in production. It can be divided into two components: the direct labor _rate variance_ \(_price variance_\) and the direct labor _efficiency variance_ \(_quantity variance_\). <!--SR:!2025-06-12,26,405!2025-06-13,27,401-->
   - direct labor variance / actual rate and hours ::@:: Generally, you are given the actual _total_ price, actual hours, and actual units produced and sold. <p> The actual rate \(AR\) is computed by dividing the actual total price by the actual hours. The actual hours \(AH\) is used as is. <!--SR:!2025-06-11,25,401!2025-06-13,27,405-->
   - direct labor variance / standard rate and hours ::@:: Generally, you are given the standard rate, standard hours per unit, and actual units produced and sold. <p> The standard rate \(SR\) is used as is. The standard hours \(SH\) is computed by multiplying the standard hours per unit by the actual units produced and sold. <!--SR:!2025-06-11,25,405!2025-06-11,25,405-->
@@ -635,7 +636,7 @@ The content is in teaching order.
   - variance manufacturing overhead variance / rate variance ::@:: The VOH rate variance is calculated as price variance outlined above. <!--SR:!2025-06-13,27,404!2025-06-12,26,405-->
     - variance manufacturing overhead variance / rate variance / factors ::@:: Factors include paying less or more for overhead items, using less or more overhead items, etc. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
   - variance manufacturing overhead variance / efficiency variance ::@:: The VOH efficiency variance is calculated as quantity variance outlined above. <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
-    - variance manufacturing overhead variance / efficiency variance / factors ::@:: Importantly, it does _not_ reflect overhead control. Rather, it reflects efficiency of the underlying cost driver \(direct labour hours\). <!--SR:!2025-06-11,25,401!2025-06-20,25,385-->
+    - variance manufacturing overhead variance / efficiency variance / factors ::@:: Importantly, it does _not_ reflect overhead control. Rather, it reflects efficiency/quantity of the underlying cost driver \(direct labour hours\). <!--SR:!2025-06-11,25,401!2025-06-20,25,385--> That is, this variance reflects the same thing reflected by the efficiency/quantity variance of the underlying cost driver.
 - variance analysis
   - variance analysis / actions ::@:: Companies hold the corresponding managers for specific variances, and remove or mitigate factors beyond the managers' control. <!--SR:!2025-06-12,26,404!2025-06-13,27,405-->
 - fixed manufacturing overhead variance ::@:: It is the difference between the _applied_ fixed manufacturing overhead and the actual fixed manufacturing overhead. It can be divided into two components: the FOH _spending variance_/budget variance and the FOH _volume variance_/capacity variance. <!--SR:!2025-06-11,25,405!2025-06-12,26,401-->
@@ -645,6 +646,7 @@ The content is in teaching order.
 - [capital budgeting](../../../../general/capital%20budgeting.md) ::@:: It in corporate finance, corporate planning and accounting is an area of are worth the funding of cash through the firm's capitalization structures \(debt, equity or retained earnings\). <!--SR:!2025-06-11,25,405!2025-06-12,26,401-->
   - capital budgeting / decision ::@:: It is a decision-making approach about investments, which include cost cutting, expansion, lease or buy, replacement, research, etc. <p> The basic question to answer is if a proposed project is worth the upfront investment. <!--SR:!2025-06-12,26,405!2025-06-13,27,401-->
   - capital budgeting / methods ::@:: accounting rate of return \(ARR\), internal rate of return \(IRR\), net present value \(NPV\), \(non-discounted\) payback period, profitability index \(PI\) <p> basis: ARR is based on net income. The rest are based on cash flows. <br/> discounting: ARR and payback period are non-discounting. The rest are discounting. <!--SR:!2025-06-13,27,401!2025-06-11,25,401-->
+  - capital budgeting / incrementalism ::@:: When evaluating projects, only consider _incremental_/_relevant_ cost and benefits, similar to that in short-term decision making. In general, only _incremental_/_relevant_ matters for any type of decision making.
 - [accounting rate of return](../../../../general/accounting%20rate%20of%20return.md) \(ARR\) ::@:: It is a financial ratio used in capital budgeting. The ratio does not take into account the concept of time value of money. ARR calculates the return, generated from net income of the proposed capital investment. The ARR is a percentage return. Say, if ARR = 7%, then it means that the project is expected to earn seven cents out of each dollar invested \(yearly\). <!--SR:!2025-06-11,25,401!2025-06-11,25,405-->
   - accounting rate of return / decision rule ::@:: If the ARR is equal to or greater than the required rate of return, the project is acceptable. If it is less than the desired rate, it should be rejected. When comparing investments, the higher the ARR, the more attractive the investment. More than half of large firms calculate ARR when appraising projects. <!--SR:!2025-06-13,27,405!2025-06-12,26,405-->
   - accounting rate of return / formulas ::@:: There are many different formulas. \(__this course__: annual net operating income \(including depreciation\) ÷ initial investment\) <!--SR:!2025-06-12,26,405!2025-06-12,26,405-->
@@ -684,7 +686,7 @@ The content is in teaching order.
   - internal rate of return / application timing ::@:: The method may be applied either ex-post (after) or ex-ante (before). Applied ex-ante, the IRR is an estimate of a future annual rate of return. Applied ex-post, it measures the actual achieved investment return of a historical investment. <!--SR:!2025-06-12,26,405!2025-06-12,26,404-->
   - internal rate of return / definition ::@:: It of an investment or project is the "annualized effective compounded return rate" or rate of return that sets the net present value (NPV) of all cash flows (both positive and negative) from the investment equal to zero. <!--SR:!2025-06-12,26,401!2025-06-13,27,401-->
   - internal rate of return / calculation ::@:: Similar to calculating interest rate, there is no closed formula for it. Either use Microsoft Excel, a financial calculator, or use trial-and-error. <!--SR:!2025-06-13,27,405!2025-06-11,25,405-->
-  - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\) <!--SR:!2025-06-12,26,405!2025-06-11,25,405-->
+  - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can be wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\) <!--SR:!2025-06-12,26,405!2025-06-11,25,405-->
   - internal rate of return / intuition ::@:: It is the discount rate needed to make all cash flows now and in the future to have a net present value of zero. Notice that it does not distinguish between inflow and outflow: Both are discounted by equal amount given that they have the same timing. This means if more inflows are in the farther future, inflows are discounted more. Same goes for outflows. <p> This explains the difference in the decision rules for investment and loan/delayed investment. In the former, the cash flows being discounted are the inflows. Higher IRR means the inflows are worth more to begin with before being discounted. So higher is better. In the latter the cash flows being discounted are the outflows. Higher IRR means the outflows are worth more to begin with before being discounted. So lower is better. <!--SR:!2025-06-12,26,401!2025-06-13,27,405-->
   - internal rate of return / weakness ::@:: It generally cannot be used for non-conventional cash flows \(neither an investment nor a loan/delayed investment\). <p> For mutually exclusive projects, IRR is _scale-independent_ and _timing-dependent_, so it is not suitable. <p> Since all cash flows are assumed to be discounted at the internal rate of return, this means we are assuming an environment where all cash inflows can be \(re-\)invested at the internal rate of return rather than the cost of capital. For an investment with high IRR, this may over-estimate the return. <!--SR:!2025-06-13,27,405!2025-06-13,27,405-->
   - internal rate of return / decision rule ::@:: For a standalone investment, _accept_ those with an IRR of _at least_ the cost of capital. _Reject_ others. For a standalone loan/delayed investment, _accept_ those with an IRR _not higher than_ the cost of capital. _Reject_ others. These rules are _consistent_ (i.e. make the same decision) as that for NPV, given that projects are of _similar_ _duration_/_life_, _scale_, and _timing_. <p> For non-conventional cash flows (neither an investment nor a loan/delayed investment) or mutually exclusive projects, IRR is generally unsuitable, and we should use NPV or other rules instead. <!--SR:!2025-09-19,105,405!2025-06-13,27,405-->
@@ -693,9 +695,9 @@ The content is in teaching order.
   - profitability index / interpretation ::@::Assuming that the [cash flow](../../../../general/cash%20flow.md) calculated does not include the investment made in the project, a profitability index of 1 indicates break-even. Any value lower than one would indicate that the project's present value \([PV](../../../../general/present%20value.md)\) is less than the initial investment. As the value of the profitability index increases, so does the financial attractiveness of the proposed project. <!--SR:!2025-06-13,27,401!2025-06-12,26,405-->
 - net present value
   - net present value / decision rule ::@:: For standalone projects \(i.e. either take or leave\), _accept_ positive NPV projects. _Reject_ negative NPV projects. _Accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to, for the reasons described above. \(__this course__: indifferent for zero NPV projects\) <p> To choose among mutually exclusive projects, choose the alternative with the _highest non-negative_ NPV. If all projects have negative NPV, then _reject all_. <!--SR:!2025-06-12,26,405!2025-06-11,25,405-->
-  - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 \(zero NPV\) has an _x_ value that is the _internal rate of return_ \(IRR\). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing. <p> Note that for unconventional cash flows, all of the above \(include increasing/decreasing graphs)\ may not be true. In fact, it is possible to have multiple points where the graph crosses _y_ = 0, yielding _multiple IRRs_. <!--SR:!2025-06-12,26,405!2025-06-13,27,401-->
+  - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 \(zero NPV\) has an _x_ value that is the _internal rate of return_ \(IRR\). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing. <p> Note that for unconventional cash flows, all of the above \(include increasing/decreasing graphs\) may not be true. In fact, it is possible to have multiple points where the graph crosses _y_ = 0, yielding _multiple IRRs_. <!--SR:!2025-06-12,26,405!2025-06-13,27,401-->
   - net present value / incremental ::@:: When using incremental NPV to compare two choices, identify which one is the "default" choice. Then the incremental cash flows are computed by subtracting the other choice by the "default" choice. <p> The decision rule is the same. <!--SR:!2025-06-12,26,405!2025-06-11,25,405-->
-  - net present value / note ::@:: \(__this course__: Ideally, use a _table_ to calculate the NPV. Depreciation can sometimes be considered part of fixed manufacturing costs. When an asset has a salvage value, we usually assume we sell it at its end of life at the salvage value, since otherwise you need to consider taxation on asset gain or loss.\) <!--SR:!2025-06-12,26,405!2025-06-07,21,385-->
+  - net present value / note ::@:: \(__this course__: Ideally, use a _table_ to calculate the NPV. _Manufacturing-related_ depreciation can sometimes be considered part of fixed manufacturing costs. When you sell an asset, you need to use its after-tax salvage value if calculating _cash flow_.\) <!--SR:!2025-06-12,26,405!2025-06-07,21,385-->
 - profitability index
   - profitability index / use ::@:: It is used to prioritize non-mutually exclusive investment projects given limited capital. The higher the index, the higher its priority. <!--SR:!2025-06-13,27,401!2025-06-11,25,401-->
 
@@ -752,7 +754,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-30T12:00:00+08:00/2025-04-30T13:20:00+08:00, PT1H20M
 - topic: capital budgeting
-- [free cash flow](../../../../general/free%20cash%20flow.md) \(FCF\) ::@:: t is the amount by which a business's operating cash flow exceeds its working capital needs and expenditures on fixed assets \(known as capital expenditures\). It is that portion of cash flow that can be extracted from a company and distributed to creditors and securities holders without causing issues in its operations. <!--SR:!2025-06-12,26,405!2025-06-12,26,405-->
+- [free cash flow](../../../../general/free%20cash%20flow.md) \(FCF\) ::@:: It is the amount by which a business's operating cash flow exceeds its working capital needs and expenditures on fixed assets \(known as capital expenditures\). It is that portion of cash flow that can be extracted from a company and distributed to creditors and securities holders without causing issues in its operations. <!--SR:!2025-06-12,26,405!2025-06-12,26,405-->
   - free cash flow / tax ::@:: Calculated as EBIT × _marginal_ corporate tax rate. It is a cash outflow. If negative, it becomes _tax credit_ and is a cash inflow. \(In accounting, the treatment of taxes is much more complicated.\) <p> Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is ignored. This explains why tax is calculated using EBIT instead of \(EBIT – interest\), even though the _actual_ tax is based on the latter. <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
   - free cash flow / incremental earnings ::@:: Note that since FCF is usually _unlevered_, i.e. exclude effects of debt, tax shield due to interest expense is also ignored \(apart from ignoring interest expense\). Thus, the incremental earnings calculate tax using EBIT instead of \(EBIT – interest\). Hence, incremental earnings is also called _unlevered_ net income. <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
   - free cash flow / interest expense ::@:: Interest expense and tax shield due to interest expense is not included. <p> The motivation is FCF is cash distributable to both stockholders and _debt holders_. So a project should be judged with its operating cost, not financing cost. <p> The debt—equity mix should be considered separately. <!--SR:!2025-06-12,26,401!2025-06-13,27,405-->
@@ -778,37 +780,13 @@ The content is in teaching order.
   - responsibility center / revenue center ::@:: It is characterized by the lowest level of responsibility compared to the other two centers. Their managers are expected to generate as much revenue by increasing sales. <p> Managers are generally evaluated based on sales and revenue generation. <p> Examples include account managers of online sales team. <!--SR:!2025-06-13,27,401!2025-06-12,26,405-->
   - responsibility center / profit center ::@:: It  is characterized by the responsibility to choose inputs and outputs with a fixed level of investment. <p> A typical measurement for profit center management is the ability to maximize profits as they are responsible for both costs and revenues. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
   - responsibility center / investment center ::@:: It has the highest level of delegated autonomy. Investment center's have the highest level of autonomy as they can determine the level of inputs, outputs and additional investments. <p> The most common metric for evaluating management performance is the return on investment \(ROI\). The unit can be held responsible for generating an adequate ROI as the business unit has the autonomy to determine the key influencing variables. <p> Examples include real estate managers. <!--SR:!2025-06-11,25,405!2025-06-11,25,404-->
-- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions. <!--SR:!2025-06-11,25,401!2025-06-13,27,405-->
-  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves. <!--SR:!2025-06-12,26,405!2025-06-12,26,405-->
-  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\). <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
-    - balanced scorecard / first generation / financial ::@:: It encourages the identification of a few relevant high-level financial measures. In particular, designers were encouraged to choose measures that helped inform the answer to the question "How do we look to shareholders?". <!--SR:!2025-06-12,26,405!2025-06-11,25,405-->
-      - balanced scorecard / first generation / financial / measures ::@:: cash flow, economic value added \(EVA\), profitability, residual income, return on investment \(ROI\), sales growth, etc. <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
-    - balanced scorecard / first generation / customer ::@:: It encourages the identification of measures that answer the question "What is important to our customers and stakeholders?". <!--SR:!2025-06-11,25,401!2025-06-11,25,401-->
-      - balanced scorecard / first generation / customer / measures ::@:: customer satisfaction, market share, on time delivery, percent of sales from new products, share of important customers' purchases, etc. <!--SR:!2025-06-11,25,401!2025-06-07,21,385-->
-    - balanced scorecard / first generation / internal business processes ::@:: It encourages the identification of measures that answer the question "What must we excel at?" or "What do we need to meet the needs of our customers, employees, and stakeholders?". <!--SR:!2025-06-11,25,405!2025-06-12,26,405-->
-      - balanced scorecard / first generation / internal business processes / measures ::@:: average days to market, cycle time, defective rate, inventory stock outs, percent of new products, unit cost, yield, etc. <!--SR:!2025-09-16,102,401!2025-06-13,27,405-->
-    - balanced scorecard / first generation / learning and growth ::@:: It encourages the identification of measures that answer the question "How can we continue to improve, create value and innovate?". <!--SR:!2025-06-13,27,405!2025-06-07,21,384-->
-      - balanced scorecard / first generation / learning and growth / measures ::@:: employee satisfaction, lifecycle to product maturity, number of new patent applications, research and development \(R&D\) spending, time to market versus competition, etc. <!--SR:!2025-06-12,26,401!2025-09-13,100,401-->
-- [return on investment](../../../../general/return%20on%20investment.md) \(ROI\) ::@:: It is the ratio between net income \(over a period\) and investment \(costs resulting from an investment of some resources at a point in time\). <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
-  - return on investment / formula ::@:: $$\text{ROI} = \frac {\text{NOI} } {\text{AIA} } \,,$$ where ROI is return on investment, NOI is net operating income, and AIA is average invested assets. Expanding: $$\text{ROI} = \text{IT} \cdot \text{PM} = \frac {\text{SR} } {\text{AIA} } \cdot \frac {\text{NOI} } {\text{SR} } \,,$$ where IT is investment turnover, PM is profit margin, and SR is sales revenue. <!--SR:!2025-06-13,27,405!2025-09-14,101,405-->
-  - return on investment / average invested assets ::@:: Take the average of the invested assets at year start and year end. <!--SR:!2025-06-11,25,405!2025-06-12,26,405-->
-  - return on investment / investment turnover ::@:: Literally just $$\text{investment turnover} = \frac {\text{sales revenue} } {\text{average invested assets} } \,.$$ <!--SR:!2025-06-12,26,405!2025-09-17,103,401-->
-  - return on investment / profit margin ::@:: Literally just $$\text{profit margin} = \frac {\text{net operating income} } {\text{sales revenue} } \,.$$ <!--SR:!2025-06-12,26,401!2025-06-12,26,405-->
-- [residual income valuation](../../../../general/residual%20income%20valuation.md) \(RIV\) ::@:: It is an approach to [equity valuation](../../../../general/equity%20valuation.md) that formally accounts for the [cost of equity](../../../../general/cost%20of%20equity.md) capital. Here, "residual" means in excess of any [opportunity costs](../../../../general/opportunity%20cost.md) measured relative to the book value of [shareholders' equity](../../../../general/shareholders'%20equity.md); __residual income__ \(RI\) is then the income generated by a firm after accounting for the true [cost of capital](../../../../general/cost%20of%20capital.md). <!--SR:!2025-06-11,25,401!2025-06-13,27,404-->
-  - residual income valuation / residual income ::@:: It is computed as: $$\text{net operating income} - \text{minimum acceptable profit} \,,$$ where the minimum acceptable profit can be computed as: $$\text{average invested assets} \cdot \text{hurdle rate} \,.$$ <!--SR:!2025-06-13,27,405!2025-06-11,25,405-->
-    - residual income valuation / residual income / return on investment ::@:: It can be computed from return on investment: $$\text{average invested assets} \cdot \text{residual return} \,,$$ where residual return is computed as: $$\text{return on investment} - \text{hurdle rate} \,.$$ <!--SR:!2025-06-11,25,401!2025-06-11,25,405-->
-  - residual income valuation / hurdle rate ::@:: It is the required return on invested assets, sometimes called the _required rate of return_. <!--SR:!2025-06-13,27,404!2025-06-11,25,401-->
-  - residual income valuation / interpretation ::@:: It is a company's extra profit that is in excess of needed to meet the required rate of return. <!--SR:!2025-06-12,26,405!2025-06-11,25,401-->
-  - residual income valuation / characteristics ::@:: It is _scale-variant_, i.e. takes project _scale_ \(average invested assets\) into account. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only. <!--SR:!2025-09-17,103,404!2025-06-13,27,405-->
-- return on investment
-  - return on investment / characteristics ::@:: It is _scale-invariant_, i.e. does not take project _scale_ \(average invested assets\) into account. So managers may make wrong decisions if ROI is used as the only performance measure. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only. <!--SR:!2025-06-13,27,405!2025-06-12,26,405-->
 - [transfer pricing](../../../../general/transfer%20pricing.md) ::@:: It refers to the rules and methods for pricing transactions within and between enterprises under common ownership or control. <!--SR:!2025-06-13,27,405!2025-06-13,27,401-->
   - transfer pricing / range ::@:: The floor is the unit variable cost, otherwise the selling division would have negative contribution margin and not produce the product \(shutdown\). <p> The ceiling is the market price, otherwise the purchasing division would buy from the market directly. <!--SR:!2025-06-13,27,401!2025-06-11,25,401-->
   - transfer pricing / methods ::@:: cost-based method \(floor, approximately\), negotiation, market-price method \(ceiling\) <!--SR:!2025-06-13,27,404!2025-06-11,25,405-->
   - transfer pricing / market-price method ::@:: Use the market price \(ceiling\), the price a company would charge to external customers. <p> It is appropriate when the selling division has no excess capacity, since the selling division would have opportunity cost equaling the market price. <!--SR:!2025-06-12,26,405!2025-06-12,26,404-->
   - transfer pricing / cost-based method ::@:: Use the unit variable cost \(floor\), unit full cost, or unit variable cost with percent markup. Any transfer price above the unit variable cost provides contribution margin to the selling division. <p> It is appropriate when the selling division has excess/idle capacity \(usually due to insufficient or no market demand\), since the selling division have zero opportunity cost. <!--SR:!2025-06-12,26,401!2025-06-11,25,404-->
   - transfer pricing / negotiation ::@:: Price is determined by negotiation between managers of the selling division and purchasing division. <p> The resulting price depends on capacity of the selling division and their relative negotiating power \(the more power a division has, the more favorable the transfer price is to the division\). <p> Disadvantages include management time used on negotiation and potentially creating adversarial relations between divisions. <!--SR:!2025-06-11,25,405!2025-06-13,27,405-->
-  - transfer pricing / effect ::@:: Assume the pricing is in between the floor and the ceiling. Then the transfer price determines the amount of benefits received by the selling division \(contribution margin\) and purchasing division \(savings compared to buying from the market\). <!--SR:!2025-06-13,27,405!2025-06-13,27,401-->
+  - transfer pricing / effect ::@:: Assume the pricing is in between the floor and the ceiling. Then the transfer price determines the amount of benefits received by the selling division \(contribution margin/_gain_\) and purchasing division \(_savings_ compared to buying from the market\). <!--SR:!2025-06-13,27,405!2025-06-13,27,401-->
 
 > Dear L07 and L09 Students,
 >
@@ -841,6 +819,30 @@ The content is in teaching order.
 
 - datetime: 2025-05-07T12:00:00+08:00/2025-05-07T13:20:00+08:00, PT1H20M
 - topic: decentralized performance evaluation
+- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions.
+  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves.
+  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\).
+    - balanced scorecard / first generation / financial ::@:: It encourages the identification of a few relevant high-level financial measures. In particular, designers were encouraged to choose measures that helped inform the answer to the question "How do we look to shareholders?".
+      - balanced scorecard / first generation / financial / measures ::@:: cash flow, economic value added \(EVA\), profitability, residual income, return on investment \(ROI\), sales growth, etc.
+    - balanced scorecard / first generation / customer ::@:: It encourages the identification of measures that answer the question "What is important to our customers and stakeholders?".
+      - balanced scorecard / first generation / customer / measures ::@:: customer satisfaction, market share, on time delivery, percent of sales from new products, share of important customers' purchases, etc.
+    - balanced scorecard / first generation / internal business processes ::@:: It encourages the identification of measures that answer the question "What must we excel at?" or "What do we need to meet the needs of our customers, employees, and stakeholders?".
+      - balanced scorecard / first generation / internal business processes / measures ::@:: average days to market, cycle time, defective rate, inventory stock outs, percent of new products, unit cost, yield, etc.
+    - balanced scorecard / first generation / learning and growth ::@:: It encourages the identification of measures that answer the question "How can we continue to improve, create value and innovate?".
+      - balanced scorecard / first generation / learning and growth / measures ::@:: employee satisfaction, lifecycle to product maturity, number of new patent applications, research and development \(R&D\) spending, time to market versus competition, etc.
+- [return on investment](../../../../general/return%20on%20investment.md) \(ROI\) ::@:: It is the ratio between net income \(over a period\) and investment \(costs resulting from an investment of some resources at a point in time\).
+  - return on investment / formula ::@:: $$\text{ROI} = \frac {\text{NOI} } {\text{AIA} } \,,$$ where ROI is return on investment, NOI is net operating income, and AIA is average invested assets. Expanding: $$\text{ROI} = \text{IT} \cdot \text{PM} = \frac {\text{SR} } {\text{AIA} } \cdot \frac {\text{NOI} } {\text{SR} } \,,$$ where IT is investment turnover, PM is profit margin, and SR is sales revenue.
+  - return on investment / average invested assets ::@:: Take the average of the invested assets at year start and year end.
+  - return on investment / investment turnover ::@:: Literally just $$\text{investment turnover} = \frac {\text{sales revenue} } {\text{average invested assets} } \,.$$
+  - return on investment / profit margin ::@:: Literally just $$\text{profit margin} = \frac {\text{net operating income} } {\text{sales revenue} } \,.$$
+- [residual income valuation](../../../../general/residual%20income%20valuation.md) \(RIV\) ::@:: It is an approach to [equity valuation](../../../../general/equity%20valuation.md) that formally accounts for the [cost of equity](../../../../general/cost%20of%20equity.md) capital. Here, "residual" means in excess of any [opportunity costs](../../../../general/opportunity%20cost.md) measured relative to the book value of [shareholders' equity](../../../../general/shareholders'%20equity.md); __residual income__ \(RI\) is then the income generated by a firm after accounting for the true [cost of capital](../../../../general/cost%20of%20capital.md).
+  - residual income valuation / residual income ::@:: It is computed as: $$\text{net operating income} - \text{minimum acceptable profit} \,,$$ where the minimum acceptable profit can be computed as: $$\text{average invested assets} \cdot \text{hurdle rate} \,.$$
+    - residual income valuation / residual income / return on investment ::@:: It can be computed from return on investment: $$\text{average invested assets} \cdot \text{residual return} \,,$$ where residual return is computed as: $$\text{return on investment} - \text{hurdle rate} \,.$$
+  - residual income valuation / hurdle rate ::@:: It is the required return on invested assets, sometimes called the _required rate of return_.
+  - residual income valuation / interpretation ::@:: It is a company's extra profit that is in excess of needed to meet the required rate of return.
+  - residual income valuation / characteristics ::@:: It is _scale-variant_, i.e. takes project _scale_ \(average invested assets\) into account. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
+- return on investment
+  - return on investment / characteristics ::@:: It is _scale-invariant_, i.e. does not take project _scale_ \(average invested assets\) into account. So managers may make wrong decisions if ROI is used as the only performance measure. <p> It is a _lagging_ indicator of financial performance, based on historical financial information, and does not necessarily predict future performance. <p> Using this as a measure may cause managers to focus on short-term financial results only.
 - [triple bottom line](../../../../general/triple%20bottom%20line.md) \(TBL\) ::@:: It is an accounting framework with three parts: _social_, _environmental_ \(or ecological\) and _economic_. Some organizations have adopted the TBL framework to evaluate their performance in a broader perspective to create greater business value. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
   - triple bottom line / social ::@:: The people, social equity, or human capital bottom line pertains to fair and beneficial business practices toward labour and the community and region in which a corporation conducts its business. A TBL company conceives a reciprocal social structure in which the well-being of corporate, labour and other stakeholder interests are interdependent. <!--SR:!2025-06-12,26,405!2025-06-13,27,405-->
   - triple bottom line / environmental ::@:: The planet, environmental bottom line, or natural capital bottom line refers to sustainable environmental practices. A TBL company endeavors to benefit the natural order as much as possible or at the least do no harm and minimize environmental impact. <!--SR:!2025-06-12,26,405!2025-06-12,26,401-->
@@ -849,6 +851,65 @@ The content is in teaching order.
 
 ## examination 3
 
+- datetime: 2025-05-17T12:30:00+08:00/2025-05-17T14:30:00+08:00, PT2H
+- venue: S H Ho Sports Hall, Academic Building
+- format
+  - calculator: yes
+  - cheatsheet: yes; 2 pages, A4-sized, double-sided, printed or written
+    - [examination 3 cheatsheet](examination%203%20cheatsheet.md)
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: long questions ×4
+- grades: 83/100 → 83/100
+  - statistics
+    - timestamps: 2025-05-22T15:02:47+08:00 → 2025-05-25T12:15:00+08:00
+    - count: ? → ?
+    - mean: 66.91 → 67.02
+    - standard deviation: ? → ?
+    - low: 40 → 40
+    - lower quartile: 59 → 59
+    - median: 66.5 → 67
+    - upper quartile: 77 → 77
+    - high: 93 → 93
+    - distribution: ? → ?
+    - data: ? → ?
+- report
+  - time limit ::@:: Again, the time limit was tight. This is to be expected for this course... Some questions requires you to do the work of an spreadsheet.
+  - question 3: decentralized performance evaluation \(−8\) ::@:: Given a scenario and a balanced scoreboard, describe and discuss improvements. Also use residual income approach and return on investment approach.
+    - evaluating balance scorecard \(−4\) ::@:: The 3 sub-questions add up to 20 points. Honestly, it is rather hard to know what they want... The best would be to write as much as you can think of. So it was fine in this case.
+    - residual income approach \(−2\) ::@:: They need you to calculate the residual income of the \(incremental\) project only as well.
+    - return on investment approach \(−2\) ::@:: They need you to calculate the return on investment \(ROI\) of the \(incremental\) project only as well.
+  - question 4: capital budgeting \(−9\) ::@:: Given three paragraphs of text, use net present value \(NPV\) to decide if a project is worth it.
+    - delayed tax savings \(−3\) ::@:: It turns out they define tax savings as tax savings due to depreciation only \(and potentially loss from sale on assets, but not sure\), not tax savings due to negative operating income. Also, operating expenses are excluded.
+    - final answer \(−2\) ::@:: Hard to obtain, since it requires you to do the work of a spreadsheet software. Honestly they could have deducted more, from their marking scheme.
+    - sale on assets \(−4\) ::@:: Probably presentation problem. Better to calculate the after-tax operating income, then add the sale on assets, and then remove the tax on gain from sale on assets.
+- check
+  - datetime: 2025-05-24T09:30:00+08:00/2025-05-24T12:30:00+08:00, PT3H
+  - venue: Room 6032, LSKBB
+  - report: \(none\)
+
+> Dear ACCT2200 students,
+>
+> As we received numerous similar inquiries from students about the exam provisions and coverage, please see the clarifications below:
+>
+> - Students are allowed to bring two pieces of A4 double-sided \(written/printed\) cheat sheets.
+> - For the coverage of exam, you should refer to the announcement on Canvas made by \[redacted\] on 12 May, the coverage of your final exam is on variance analysis, decentralization and performance measurement, capital budgeting and CVP. There are 4 questions in total.
+>
+> The final exam will take place from 12:30pm-2:30pm, on 17 May 2025, at S H Ho Sports Hall. Please see the seat number and floor plan in the link below.
+>
+> Seat number: <u>ACCT2200 \(L07-09\) Final Exam_Seating number.pdf</u>
+>
+> Floor plan: <u>Floor Plan.pdf</u>
+>
+> All the best with your exams!
+>
+> Best regards,
+>
+> \[redacted\]
+
 ## aftermath
 
 ### total
+
+- grades: 86.9/100
+  - statistics: \(none\)

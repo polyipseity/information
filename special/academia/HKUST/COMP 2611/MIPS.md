@@ -32,7 +32,7 @@ Variables differ from registers in that {@{the former is a logical concept while
 
 In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names (depends on the _calling convention_) or their numbers \(from `$0` to `$31`\)}@}. They can hold {@{a _word_, which is 32 bits in size}@}. Commonly used registers include: {@{the readonly zero register `$zero` \(`$0`\), saved temporary registers `$s0`–`$s7` \(`$16`–`$23`\), \(non-saved\) temporary registers `$t0`–`$t7` \(`$8`–`$15`\), etc.}@} <!--SR:!2026-02-11,255,330!2026-02-05,249,330!2025-06-07,66,310!2026-02-07,251,330-->
 
-Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory, but with more propagation delay}@}. <!--SR:!2026-02-27,268,330!2026-03-02,271,330!2026-02-07,251,330-->
+Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values are transferred from and to the main memory \(via the CPU cache\), but with more propagation delay}@}. <!--SR:!2026-02-27,268,330!2026-03-02,271,330!2026-02-07,251,330-->
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables need to be frequently transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, {@{processors are more complicated, have higher clock cycle time, which also leads to performance loss}@}. <!--SR:!2025-06-07,66,310!2026-03-05,274,330!2026-03-17,284,330-->
 
@@ -67,7 +67,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 - `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2026-01-30,243,335!2025-06-23,77,335-->
 - `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!2025-06-19,73,335!2025-06-23,77,335-->
 - `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!2025-06-21,75,335!2025-06-21,75,330-->
-  - `nPC` ::@:: It is a _concept_ \(_not_ a real register\) containing the 32-bit address of the _next_ instruction \(next program counter\), i.e. `PC + 4`. <!--SR:!2025-08-02,92,381!2025-08-09,94,381-->
+  - `nPC` ::@:: It is a _concept_ \(_not_ a real register\) containing the 32-bit address of the _next_ instruction \(next program counter\), i.e. `PC+4`. <!--SR:!2025-08-02,92,381!2025-08-09,94,381-->
 - `h` ::@:: It can be any 5-bit unsigned constant. It is used for bit-shit instructions. <!--SR:!2025-06-24,77,335!2025-06-24,77,335-->
 
 Common instruction variants include {@{immediate `_i`, unsigned `_u` \(`_i` comes before `_u`\)}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2025-06-23,77,335!2025-06-21,75,330!2025-06-23,77,335!2025-07-03,85,352-->
@@ -76,7 +76,7 @@ One would notice that {@{some reasonable instructions are missing}@}. This is an
 
 ### program counter
 
-{@{The program counter \(PC\) or instruction address register}@} contains {@{the 32-bit address of the current instruction}@}. {@{The _concept_ \(_not_ a real register\) next program counter \(nPC\)}@} contains {@{the next instruction to be executed}@}. Every time {@{an instruction is executed}@}, {@{the PC is updated to the nPC, and nPC is usually added 4 \(next instruction\)}@}. Note that some instruction {@{causes nPC to be added by an offset \(e.g. relative jump instructions\) or causes nPC to be set to a register \(e.g. semi-absolute jump instructions\)}@}. {@{The `goto` in the pseudo C code below}@} is {@{meant to indicate this}@}, but is {@{slightly different from that in C, as explained in the next sentence}@}. Note that in these cases, {@{the PC is still updated to the nPC before updating the nPC}@}, e.g. {@{the next instruction in memory after a jump instruction is still executed}@}. This is why {@{_branch delay slots_ \(mentioned below\) are added after jump instructions}@}. This also explains why {@{the "and link" instructions \(i.e. `jal`, `bgezal`, `bltzal`\) and PC-relative addressing mode is based on nPC or `PC + 4`}@}. <!--SR:!2025-07-27,86,381!2025-08-03,93,381!2025-08-10,100,381!2025-08-13,98,381!2025-08-11,96,381!2025-08-04,89,381!2025-07-28,87,381!2025-08-01,86,381!2025-07-27,86,381!2025-08-09,99,381!2025-08-17,102,381!2025-07-29,88,381!2025-07-27,86,381!2025-09-18,122,392-->
+{@{The program counter \(PC\) or instruction address register}@} contains {@{the 32-bit address of the current instruction}@}. {@{The _concept_ \(_not_ a real register\) next program counter \(nPC\)}@} contains {@{the next instruction to be executed}@}. Every time {@{an instruction is executed}@}, {@{the PC is updated to the nPC, and nPC is usually added 4 \(next instruction\)}@}. Note that some instruction {@{causes nPC to be added by an offset \(e.g. relative jump instructions\) or causes nPC to be set to a register \(e.g. semi-absolute jump instructions\)}@}. {@{The `goto` in the pseudo C code below}@} is {@{meant to indicate this}@}, but is {@{slightly different from that in C, as explained in the next sentence}@}. Note that in these cases, {@{the PC is still updated to the nPC before updating the nPC}@}, e.g. {@{the next instruction in memory after a jump instruction is still executed}@}. This is why {@{_branch delay slots_ \(mentioned below\) are added after jump instructions}@}. This also explains why {@{the "and link" instructions \(i.e. `jal`, `bgezal`, `bltzal`\) and PC-relative addressing mode is based on nPC or `PC+4`}@}. <!--SR:!2025-07-27,86,381!2025-08-03,93,381!2025-08-10,100,381!2025-08-13,98,381!2025-08-11,96,381!2025-08-04,89,381!2025-07-28,87,381!2025-08-01,86,381!2025-07-27,86,381!2025-08-09,99,381!2025-08-17,102,381!2025-07-29,88,381!2025-07-27,86,381!2025-09-18,122,392-->
 
 \(__this course__: For this course, {@{you do not need to know _branch delay slots_}@}. That is, you write in {@{MIPS without branch delay slots, which MARS simulate by default}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_, which allures to the above concept of that nPC instead of PC is updated by branching instructions}@}.\) <!--SR:!2025-08-14,99,381!2025-07-29,88,381!2025-09-18,122,392-->
 
@@ -157,16 +157,16 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 - branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2025-06-14,68,335!2025-06-23,77,335-->
 - branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-16,70,335!2025-12-28,210,335-->
-- branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-07-04,58,310!2025-06-18,72,335-->
+- branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-07-04,58,310!2025-06-18,72,335-->
 - branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2025-12-26,208,330!2026-01-23,236,335-->
 - branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2025-06-20,73,335!2026-01-30,243,335-->
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-22,76,330!2025-06-12,66,330-->
 - branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2025-06-15,68,335!2025-06-24,77,335-->
 - branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!2025-06-18,72,335!2025-10-27,148,315-->
-- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-06-21,75,335!2025-09-18,122,330-->
+- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-06-21,75,335!2025-09-18,122,330-->
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }` <!--SR:!2025-06-17,70,330!2025-06-15,69,330-->
-- jump ::@:: `j target`: `goto (PC & 0xf0000000) | (target << 2);` <!--SR:!2025-06-23,77,335!2025-12-26,208,335-->
-- jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (PC & 0xf0000000) | (target << 2);` \(`nPC + 4` instead of `PC + 4` is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: `PC + 4`\) <!--SR:!2025-06-14,68,335!2025-06-14,68,335-->
+- jump ::@:: `j target`: `goto (nPC & 0xf0000000) | (target << 2);` <!--SR:!2025-06-23,77,335!2025-12-26,208,335-->
+- jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2);` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-06-14,68,335!2025-06-14,68,335-->
 - jump register ::@:: `jr $s`: `goto $s;` <!--SR:!2025-06-20,73,335!2025-06-14,68,335-->
 
 ### comparison instructions
@@ -175,6 +175,41 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2025-06-18,71,335!2025-06-14,68,335-->
 - set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2025-09-16,132,310!2025-06-16,70,335-->
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!2025-06-22,76,330!2025-06-16,69,330-->
+
+## floating-point instructions
+
+Note that the floating-point register operands must be {@{even numbered for double instructions}@}.
+
+- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);`
+- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);`
+- add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;`
+- add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;`
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\)
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\)
+- compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;`
+- compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;`
+- compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;`
+- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;`
+- compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;`
+- compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;`
+- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;`
+- compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;`
+- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;`
+- compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;`
+- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;`
+- compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;`
+- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;`
+- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;`
+- load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));`
+- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));`
+- multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;`
+- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;`
+- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;`
+- negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;`
+- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;`
+- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;`
+- subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;`
+- subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;`
 
 ### miscellaneous instructions
 
@@ -308,7 +343,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2025-07-19,73,361!2025-08-09,94,381-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2025-06-15,68,335!2025-12-16,198,330-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2025-06-13,67,330!2025-06-22,76,330-->
-- move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `addu $d, $zero, $s;` <!--SR:!2025-08-13,98,381!2025-08-10,95,381-->
+- move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2025-08-13,98,381!2025-08-10,95,381-->
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;` <!--SR:!2025-07-28,87,381!2025-08-11,96,381-->
 - not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-09-21,137,315!2025-06-23,77,335-->
 - pop ::@:: `pop [$d=$ra]`: pops a 32-bit value from the stack to `$d`; implemented by `lw $d, 0($sp); addi $sp, $sp, 4;` <!--SR:!2025-08-04,89,381!2025-08-08,98,381-->
@@ -329,6 +364,8 @@ In {@{higher level programming languages}@}, we have {@{functions/procedures/sub
 Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments/parameters in specified locations, then transfer control \(jump and link\) to the callee}@}. Then, the callee {@{pushes `$ra` to the stack, acquires the necessary resources, and performs its task}@}. Finally, {@{the callee places the return value \(if any\) in a specified location, pops the stack to `$ra`, and return control \(return\) to the caller}@}. The caller then {@{may access the return value for further use}@}. The specified locations are specified by {@{a calling convention}@}. Note that {@{if you do not call any other procedures in your procedure and your procedure does not modify `$ra` explicitly}@}, you can {@{skip pushing `$ra` to the stack at the beginning and popping `$ra` from the stack at the end}@}. \(__this course__: In this course, we use {@{the [O32 calling convention](#O32%20calling%20convention)}@}.\) <!--SR:!2025-08-07,97,381!2025-08-08,93,381!2025-08-14,99,381!2025-07-27,86,381!2025-08-10,95,381!2025-08-01,86,381!2025-08-09,94,381!2025-08-07,97,381-->
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}. <!--SR:!2025-08-02,87,381!2025-08-01,86,381!2025-08-11,96,381!2025-08-11,96,381!2025-08-04,94,381!2025-08-05,90,381-->
+
+If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}.
 
 ## memory layout
 
@@ -353,8 +390,8 @@ MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}. <!--SR
 - immediate addressing ::@:: Not really an addressing mode... It refers to the 16-bit immediate field in an I instruction. <!--SR:!2025-08-07,92,381!2025-08-01,91,381-->
 - register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction. <!--SR:!2025-08-15,100,381!2025-08-06,96,381-->
 - base \(+ displacement\) addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the value of the `$s` register. The `$s` is known as the _base_ and the offset is known as the _displacement_. The operand is written as `offset($s)`. <!--SR:!2025-08-14,99,381!2025-08-01,91,381-->
-- PC-relative addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the program counter \(PC\). These instructions are branch instructions. <p> The address offset is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. The address offset \(multiplied by 4\) is added to nPC \(or `PC + 4`\) to find the branch target \(the reason is mentioned above\). This means instructions up to 2<sup>15</sup> words/instructions or 128 kiB away are addressable. <p> Simply put, the branch address is `nPC + offset << 2` or `PC + 4 + offset << 2`. <!--SR:!2025-07-16,75,361!2025-08-16,101,381-->
-- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(PC & 0xf0000000) | (offset << 2)`. <!--SR:!2025-08-03,88,381!2025-07-13,72,361-->
+- PC-relative addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the program counter \(PC\). These instructions are branch instructions. <p> The address offset is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. The address offset \(multiplied by 4\) is added to nPC \(or `PC+4`\) to find the branch target \(the reason is mentioned above\). This means instructions up to 2<sup>15</sup> words/instructions or 128 kiB away are addressable. <p> Simply put, the branch address is `nPC + offset << 2` or `PC + 4 + offset << 2`. <!--SR:!2025-07-16,75,361!2025-08-16,101,381-->
+- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(nPC & 0xf0000000) | (offset << 2)`. Note the `&` operates on `nPC` instead of `PC`. <!--SR:!2025-08-03,88,381!2025-07-13,72,361-->
 
 A problem with PC-relative addressing is that {@{the branch target may be too far away}@}. The assembler {@{may rewrite a branch instruction as a branch instruction followed by a jump instruction, so that pseudo-direct addressing can be used}@}. If pseudo-direct addressing is insufficient, {@{storing the 32-bit address into a register and using `jr` suffices}@}. <!--SR:!2025-08-08,98,381!2025-07-27,86,381!2025-08-09,99,381-->
 
@@ -365,6 +402,20 @@ A problem with PC-relative addressing is that {@{the branch target may be too fa
 When {@{an interrupt occurs}@}, control {@{jumps to a predefeined address containing instructions to handle the interrupt}@}. {@{The address of the interrupted instruction}@} is {@{saved to an _exception program counter_ \(EPC\)}@}, so that {@{the interrupt handler can _choose_ to resume the interrupted code using `jr` \(jump register\)}@}. <!--SR:!2025-08-07,92,381!2025-07-27,86,381!2025-08-10,100,381!2025-08-02,87,381!2025-08-03,93,381-->
 
 A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}. <!--SR:!2025-07-30,89,381!2025-07-09,68,361-->
+
+## floating point
+
+MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}.
+
+It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\)
+
+It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions:
+
+- arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations.
+- comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\).
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are set using `lwc1` and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`.
+- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\).
+- signedness ::@:: All operations are always signed.
 
 ## miscellaneous
 

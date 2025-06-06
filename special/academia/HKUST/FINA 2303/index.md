@@ -67,7 +67,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- datetime: 2025-02-05T16:30:00+08:00/2025-02-05T17:50:00+08:00
+- datetime: 2025-02-05T16:30:00+08:00/2025-02-05T17:50:00+08:00, PT1H20M
 - topic: introduction
 - logistics
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2026-02-28,283,330!2026-01-29,267,330-->
@@ -113,12 +113,12 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- datetime: 2025-02-07T10:30:00+08:00/2025-02-07T11:20:00+08:00
+- datetime: 2025-02-07T10:30:00+08:00/2025-02-07T11:20:00+08:00, PT50M
 - status: unscheduled, unannounced
 
 ## week 1 lecture 2
 
-- datetime: 2025-02-07T16:30:00+08:00/2025-02-07T17:50:00+08:00
+- datetime: 2025-02-07T16:30:00+08:00/2025-02-07T17:50:00+08:00, PT1H20M
 - topic: time value of money (TVM)
 - [time value of money](../../../../general/time%20value%20of%20money.md) ::@:: It refers to the fact that there is normally a greater benefit to receiving a sum of money now rather than an identical sum later. It may be seen as an implication of the later-developed concept of time preference. <!--SR:!2026-04-30,344,348!2026-05-02,346,348-->
   - time value of money / cost—benefit analysis ::@:: Consider the _present value_ cost and benefits of a decision. If cost is larger than benefit, then _reject_. If cost is smaller than benefit, then _accept_. Otherwise, you usually still _accept_ the decision. <!--SR:!2026-05-02,346,348!2026-04-23,337,346-->
@@ -128,7 +128,7 @@ The content is in teaching order.
     - time value of money / cost—benefit analysis / present value ::@:: The best way to compute this is converting the costs and benefit in terms of _cash today_, e.g. _current_ market prices. <!--SR:!2026-04-23,337,346!2026-04-24,338,348-->
 - [valuation](../../../../general/valuation%20(finance).md) ::@:: the process of determining the value of a (potential) investment, asset, or security <!--SR:!2026-04-25,339,348!2026-04-27,341,348-->
   - valuation / principle ::@:: objective: to maximize value <p> steps: Identify costs and benefits. Convert costs and benefits into _today's_ cash, e.g. using _current_ market prices. Compare costs and benefits to decide if you accept the decision. The calculated number is _net present value_ (NPV). <!--SR:!2025-08-29,142,308!2026-04-23,337,346-->
-    - valuation / principle / irrelevant values ::@:: They include your future expectations (e.g. the value would increase), your personal preferences (e.g. preferring A over B, even though the market price of A is lower than B). <p> Two points to note: <br/> 1. Market prices reflect the average preference of everyone for an item. Even if you value it higher or lower, you still buy/sell using the market price. So only market prices matter. <br/> 2. Your future expectations do not matter since you are making the decision _now_. For example, if you expect the price of an item will increase, and it does increase later such that it changes your decision, you will make such a decision _in the future_. But your _current_ decision is still unaffected. <!--SR:!2025-08-24,132,308!2026-04-22,336,346-->
+    - valuation / principle / irrelevant values ::@:: They include your future expectations \(e.g. the value would increase\), your personal preferences \(e.g. preferring A over B, even though the market price of A is lower than B\). <p> Two points to note: <br/> 1. Market prices reflect the average preference of everyone for an item. Even if you value it higher or lower, you still buy/sell using the market price. So only market prices matter. <br/> 2. Your future expectations do not matter since you are making the decision _now_. For example, if you expect the price of an item will increase, and it does increase later such that it changes your decision, you will make such a decision _in the future_. But your _current_ decision is still unaffected. <!--SR:!2025-08-24,132,308!2026-04-22,336,346-->
 - [law of one price](../../../../general/law%20of%20one%20price.md) ::@:: In the absence of trade frictions (such as transport costs and tariffs), and under conditions of free _competition_ and price flexibility (where no individual sellers or buyers have power to manipulate prices and prices can freely adjust), _identical goods_ sold at _different locations_ should be sold for the _same price_ when prices are expressed in a common currency. <!--SR:!2026-04-24,338,348!2026-04-26,340,346-->
   - law of one price / mechanism ::@:: This law is derived from the assumption of the inevitable _elimination of all arbitrage_. <!--SR:!2026-04-26,340,348!2026-05-01,345,348-->
 - [arbitrage](../../../../general/arbitrage.md) ::@:: The practice of taking advantage of a difference in prices in two or more markets – striking a combination of matching deals to capitalize on the difference, the profit being the difference between the market prices at which the unit is traded. <!--SR:!2026-04-28,342,348!2025-12-12,226,328-->
@@ -147,7 +147,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- datetime: 2025-02-12T16:30:00+08:00/2025-02-12T17:50:00+08:00
+- datetime: 2025-02-12T16:30:00+08:00/2025-02-12T17:50:00+08:00, PT1H20M
 - topic: time value of money (TVM)
 - time value of money
   - time value of money / cost—benefit analysis
@@ -173,8 +173,8 @@ The content is in teaching order.
 
 ## week 2 tutorial
 
-- datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00
-- status: hybrid (online, physical), optional
+- datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00, PT50M
+- status: hybrid \(online, physical\), optional
 - [§ week 1 lecture](#week%201%20lecture)
 - [§ week 1 lecture 2](#week%201%20lecture%202)
 - [§ week 2 lecture](#week%202%20lecture)
@@ -182,7 +182,7 @@ The content is in teaching order.
 
 ## week 2 lecture 2
 
-- datetime: 2025-02-14T16:30:00+08:00/2025-02-14T17:50:00+08:00
+- datetime: 2025-02-14T16:30:00+08:00/2025-02-14T17:50:00+08:00, PT1H20M
 - topic: time value of money: valuing cash flow streams
 - time value of money
   - time value of money / timeline
@@ -204,7 +204,7 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- datetime: 2025-02-19T16:30:00+08:00/2025-02-19T17:50:00+08:00
+- datetime: 2025-02-19T16:30:00+08:00/2025-02-19T17:50:00+08:00, PT1H20M
 - topic: time value of money: valuing cash flow streams
 - perpetuity
   - perpetuity / equation for PV
@@ -236,14 +236,14 @@ The content is in teaching order.
 
 ## week 3 tutorial
 
-- datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00
-- status: hybrid (online, physical), optional
+- datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00, PT50M
+- status: hybrid \(online, physical\), optional
 - [§ week 3 lecture](#week%203%20lecture)
 - [§ week 3 lecture 2](#week%203%20lecture%202)
 
 ## week 3 lecture 2
 
-- datetime: 2025-02-21T16:30:00+08:00/2025-02-21T17:50:00+08:00
+- datetime: 2025-02-21T16:30:00+08:00/2025-02-21T17:50:00+08:00, PT1H20M
 - topic: interest rates
 - interest rate
   - interest rate / quoted in ::@:: annual percentage rate (APR), effective annual rate (EAR); both are _nominal_ <!--SR:!2025-06-10,80,361!2026-04-14,314,363-->
@@ -262,7 +262,7 @@ The content is in teaching order.
 
 ## week 4 lecture
 
-- datetime: 2025-02-26T16:30:00+08:00/2025-02-26T17:50:00+08:00
+- datetime: 2025-02-26T16:30:00+08:00/2025-02-26T17:50:00+08:00, PT1H20M
 - topic: interest rates
 - annual percentage rate
 - effective annual rate
@@ -275,22 +275,22 @@ The content is in teaching order.
     - amortizing loan / equated monthly installment / formula ::@:: This is captured by the formula $$P\,=\,A\cdot {\frac {1-\left({\frac {1}{1+r} }\right)^{n} }{r} }$$ or, equivalently, $$A\,=\,P\cdot {\frac {r(1+r)^{n} }{(1+r)^{n}-1} }$$ where: _P_ is the principal amount borrowed, _A_ is the periodic amortization payment, _r_ is the periodic interest rate divided by 100 \(nominal annual interest rate also divided by 12 in case of monthly installments\), and _n_ is the total number of payments \(for a 30-year loan with monthly payments _n_ = 30 × 12 = 360\). <!--SR:!2026-01-13,223,353!2025-07-21,94,313-->
   - amortizing loan / outstanding balance ::@:: You want to find the outstanding loan balance at time _t_. <p> First, assuming EMI, find the installment using the above formulas. Then, you can either consider the _remaining balance_, which is the PV evaluated at time _t_ of the remaining payments, or consider the _outstanding loan_, which is the FV evaluated at time _t_ of the original loan minus the FV evaluated at time _t_ of the paid payments. <p> (The former one seems easier...) <!--SR:!2026-02-26,281,373!2025-06-29,92,373-->
     - amortizing loan / outstanding balance / formula ::@:: Assuming EMI. The outstanding principal at time _t_ is: $$P_t = P_0 \frac {1 - \frac 1 {(1 + r)^{T - t} } } {1 - \frac 1 {(1 + r)^T } } \,,$$ where _P_<sub>0</sub> is the \(original\) principal, _r_ is the interest rate, and _T_ is the total number of payments (paid _and_ remaining). <!--SR:!2025-08-26,130,333!2025-06-26,90,373-->
-- [opportunity cost of capital](../../../../general/cost%20of%20capital.md) ::@:: It is the cost of a company's funds (both debt and equity), or from an investor's point of view is "the required rate of return on a portfolio company's existing securities". <p> It is the best available expected return offered in the market on an investment of _comparable risk and term_ to the cash flows being discounted. <!--SR:!2025-10-19,172,353!2026-05-02,332,373-->
-  - opportunity cost of capital / risk-free return ::@:: Many investors consider US Treasury bonds as "risk-free". Thus for any borrowing that is not considered "risk-free", investors require a higher rate of return. <!--SR:!2025-06-19,84,373!2025-06-29,92,373-->
+- [cost of capital](../../../../general/cost%20of%20capital.md) ::@:: It is the cost of a company's funds (both debt and equity), or from an investor's point of view is "the required rate of return on a portfolio company's existing securities". <p> It is the best available expected return offered in the market on an investment of _comparable risk and term_ to the cash flows being discounted. <!--SR:!2025-10-19,172,353!2026-05-02,332,373-->
+  - cost of capital / risk-free return ::@:: Many investors consider US Treasury bonds as "risk-free". Thus for any borrowing that is not considered "risk-free", investors require a higher rate of return. <!--SR:!2025-06-19,84,373!2025-06-29,92,373-->
 - [questions § week 4 lecture](questions.md#week%204%20lecture)
 - [TAPPS/week 4 lecture](assignments/TAPPS/week%204%20lecture.md)
 - readings: chapter 8 \(skip MIRR and 8.6\)
 
 ## week 4 tutorial
 
-- datetime: 2025-02-28T10:30:00+08:00/2025-02-28T11:20:00+08:00
+- datetime: 2025-02-28T10:30:00+08:00/2025-02-28T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
 - [§ week 4 lecture](#week%204%20lecture)
 - [§ week 4 lecture 2](#week%204%20lecture%202)
 
 ## week 4 lecture 2
 
-- datetime: 2025-02-28T16:30:00+08:00/2025-02-28T17:50:00+08:00
+- datetime: 2025-02-28T16:30:00+08:00/2025-02-28T17:50:00+08:00, PT1H20M
 - topic: investment decision rules
 - investment decision rules ::@:: Rules for making investments, _usually_ to maximize value. <!--SR:!2026-04-05,305,373!2025-06-26,90,373-->
   - investment decision rules / project types ::@:: standalone projects, mutually exclusive projects, mix of the above <!--SR:!2025-06-24,88,373!2025-06-19,84,373-->
@@ -300,7 +300,7 @@ The content is in teaching order.
   - net present value / interpretation ::@:: Zero NPV (cf. _normal profit_ in economics) allows us to recover invested capital (i.e. no loss) and receive return on capital (i.e. return comparable with the market interest rate). Positive NPV (cf. _abnormal profit_ in economics) _additionally_ allows us to create _value_ for investors (i.e. extra return above the market interest rate). <!--SR:!2025-06-17,82,373!2026-04-07,307,373-->
     - net present value / interpretation / zero NPV ::@:: From an economics standpoint, in a _perfectly_ competitive/efficient market, there should not be any abnormal profit, i.e. no investments with positive NPV. Investments are either zero or negative NPV. So you _should accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to. <p> \(Of course, the real world is not _perfectly_ competitive/efficient...\) <!--SR:!2025-06-20,85,373!2025-06-27,90,373-->
   - net present value / decision rule ::@:: For standalone projects \(i.e. either take or leave\), _accept_ positive NPV projects. _Reject_ negative NPV projects. _Accept_ zero NPV projects unless you have good \(non-financial\) reasons to not to, for the reasons described above. <p> To choose among mutually exclusive projects, choose the alternative with the _highest non-negative_ NPV. If all projects have negative NPV, then _reject all_. <!--SR:!2025-07-01,94,373!2025-06-18,83,373-->
-  - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 (zero NPV) has an _x_ value that is the _internal rate of return_ (IRR). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing. <p> Note that for unconventional cash flows, all of the above (include increasing/decreasing graphs) may not be true. In fact, it is possible to have multiple points where the graph crosses _y_ = 0, yielding _multiple IRRs_. <!--SR:!2025-06-27,90,373!2025-06-23,87,373-->
+  - net present value / NPV profile ::@:: It is a _xy_-plot that, given a cost of capital, shows the NPV of an investment or loan/delayed investment. The point where the graph crosses _y_ = 0 \(zero NPV\) has an _x_ value that is the _internal rate of return_ \(IRR\). <p> For an investment, the graph is decreasing. For a loan/delayed investment, the graph is increasing. <p> Note that for unconventional cash flows, all of the above \(include increasing/decreasing graphs\) may not be true. In fact, it is possible to have multiple points where the graph crosses _y_ = 0, yielding _multiple IRRs_. <!--SR:!2025-06-27,90,373!2025-06-23,87,373-->
     - net present value / NPV profile / multiple IRRs ::@:: There can be as many IRRs as the number of times the cash flows change sign. For conventional cash flows \(investment or loan/delayed investment\), this is at most one. <!--SR:!2025-09-13,128,412!2025-10-14,146,415-->
 - investment decision rules
   - investment decision rules / investment vs. loan/delayed investment ::@:: The former refers to all cash outflows being before any cash inflows. The latter refers to all cash inflows being before any cash outflows. <!--SR:!2025-11-19,182,373!2025-06-25,89,373-->
@@ -308,7 +308,7 @@ The content is in teaching order.
   - internal rate of return / application timing ::@:: The method may be applied either ex-post (after) or ex-ante (before). Applied ex-ante, the IRR is an estimate of a future annual rate of return. Applied ex-post, it measures the actual achieved investment return of a historical investment. <!--SR:!2025-06-21,85,373!2025-06-28,91,373-->
   - internal rate of return / definition ::@:: It of an investment or project is the "annualized effective compounded return rate" or rate of return that sets the net present value (NPV) of all cash flows (both positive and negative) from the investment equal to zero. <!--SR:!2025-06-19,84,373!2025-12-03,196,353-->
   - internal rate of return / calculation ::@:: Similar to calculating interest rate, there is no closed formula for it. Either use Microsoft Excel, a financial calculator, or use trial-and-error. <!--SR:!2025-06-26,90,373!2025-06-23,87,373-->
-  - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\) <!--SR:!2025-06-24,88,373!2025-06-20,85,373-->
+  - internal rate of return / interpretation ::@:: It measures the _average return_ of an investment, or the _average interest rate_ of a loan/delayed investment, independent of the actual interest rate/cost of capital. <p> It also measures the _sensitivity_ of the NPV to measurement errors in the cost of capital. The difference between the cost of capital and the IRR is the error margin: By how much your cost of capital can be wrong without changing your decision? \(It applies for both investment and loan/delayed investment.\) <!--SR:!2025-06-24,88,373!2025-06-20,85,373-->
   - internal rate of return / intuition ::@:: It is the discount rate needed to make all cash flows now and in the future to have a net present value of zero. Notice that it does not distinguish between inflow and outflow: Both are discounted by equal amount given that they have the same timing. This means if more inflows are in the farther future, inflows are discounted more. Same goes for outflows. <p> This explains the difference in the decision rules for investment and loan/delayed investment. In the former, the cash flows being discounted are the inflows. Higher IRR means the inflows are worth more to begin with before being discounted. So higher is better. In the latter the cash flows being discounted are the outflows. Higher IRR means the outflows are worth more to begin with before being discounted. So lower is better. <!--SR:!2026-04-04,304,373!2025-06-26,90,373-->
   - internal rate of return / weakness ::@:: It generally cannot be used for non-conventional cash flows (neither an investment nor a loan/delayed investment). <p> For mutually exclusive projects, IRR is _scale-independent_ and _timing-dependent_, so it is not suitable. <p> Since all cash flows are assumed to be discounted at the internal rate of return, this means we are assuming an environment where all cash inflows can be \(re-\)invested at the internal rate of return rather than the cost of capital. For an investment with high IRR, this may over-estimate the return. <!--SR:!2026-01-17,227,353!2025-06-19,84,373-->
   - internal rate of return / decision rule ::@:: For a standalone investment, _accept_ those with an IRR of _at least_ the cost of capital. _Reject_ others. For a standalone loan/delayed investment, _accept_ those with an IRR _not higher than_ the cost of capital. _Reject_ others. These rules are _consistent_ (i.e. make the same decision) as that for NPV, given that projects are of _similar_ _duration_/_life_, _scale_, and _timing_. <p> For non-conventional cash flows (neither an investment nor a loan/delayed investment) or mutually exclusive projects, IRR is generally unsuitable, and we should use NPV or other rules instead. <p> \(__this course__: In the book and the course, the IRR rule is considered reliable _only_ for investment, and this excludes loan/delayed investment.\) <!--SR:!2025-06-07,70,353!2025-06-22,86,373-->
@@ -337,7 +337,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
-- datetime: 2025-03-05T16:30:00+08:00/2025-03-05T17:50:00+08:00
+- datetime: 2025-03-05T16:30:00+08:00/2025-03-05T17:50:00+08:00, PT1H20M
 - topic: investment decision rules
 - mutually exclusive project
   - mutually exclusive project / scale difference
@@ -365,14 +365,14 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
-- datetime: 2025-03-07T10:30:00+08:00/2025-03-07T11:20:00+08:00
+- datetime: 2025-03-07T10:30:00+08:00/2025-03-07T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
 - [§ week 5 lecture](#week%205%20lecture)
 - [§ week 5 lecture 2](#week%205%20lecture%202)
 
 ## week 5 lecture 2
 
-- datetime: 2025-03-07T16:30:00+08:00/2025-03-07T17:50:00+08:00
+- datetime: 2025-03-07T16:30:00+08:00/2025-03-07T17:50:00+08:00, PT1H20M
 - topic: measuring cash flows
 - [financial accounting § three components of financial statements](../../../../general/financial%20accounting.md#three%20components%20of%20financial%20statements) (four) ::@:: income statement, balance sheet, statement of stakeholder's equity, statement of cash flows; usual preparation order: income statement → statement of stakeholder's equity (retained earnings) → balance sheet (→ statement of cash flows) <!--SR:!2025-07-11,91,368!2025-08-11,122,388-->
   - [financial accounting § statement of financial performance](../../../../general/financial%20accounting.md#statement%20of%20financial%20performance) ::@:: Indicates financial performance (profit and loss) for the reporting period, usually 12 months. <!--SR:!2025-08-12,123,388!2025-08-16,126,388-->
@@ -435,7 +435,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- datetime: 2025-03-12T16:30:00+08:00/2025-03-12T17:50:00+08:00
+- datetime: 2025-03-12T16:30:00+08:00/2025-03-12T17:50:00+08:00, PT1H20M
 - topic: measuring cash flows
 
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity. <!--SR:!2025-09-11,139,403!2025-08-28,127,403-->
@@ -480,7 +480,7 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
-- datetime: 2025-03-14T10:30:00+08:00/2025-03-14T11:20:00+08:00
+- datetime: 2025-03-14T10:30:00+08:00/2025-03-14T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
 - [§ week 6 lecture](#week%206%20lecture)
 - [§ week 6 lecture 2](#week%206%20lecture%202)
@@ -488,7 +488,7 @@ The content is in teaching order.
 
 ## week 6 lecture 2
 
-- datetime: 2025-03-14T16:30:00+08:00/2025-03-14T17:50:00+08:00
+- datetime: 2025-03-14T16:30:00+08:00/2025-03-14T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
 - [capital budgeting](../../../../general/capital%20budgeting.md) ::@:: It in corporate finance, corporate planning and accounting is an area of are worth the funding of cash through the firm's capitalization structures (debt, equity or retained earnings). <!--SR:!2025-09-04,133,403!2025-09-09,137,403-->
   - capital budgeting / steps ::@:: Estimate future expected cash flows. Estimate the required rate of return from its risk level. Apply investment decision rules, e.g. NPV, IRR, etc. Perform _sensitivity analysis_ \(__this course__: not covered\): sensitivity of NPV to forecast uncertainty. <!--SR:!2025-08-27,126,403!2025-09-03,132,403-->
@@ -508,7 +508,7 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00
+- datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
 - free cash flow
   - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2025-10-07,139,414!2025-07-15,76,372-->
@@ -529,14 +529,16 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
-- datetime: 2025-03-21T10:30:00+08:00/2025-03-21T11:20:00+08:00
+- datetime: 2025-03-21T10:30:00+08:00/2025-03-21T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
 - [§ week 7 lecture](#week%207%20lecture)
 - [§ week 7 lecture 2](#week%207%20lecture%202)
+- free cash flow
+  - free cash flow / asset replacement ::@:: When calculating free cash flow for replacing an asset, not only you need to consider the cash flows from selling the old asset and buying the new asset, you also need to consider _changes_ \(from old asset and new asset\) in the value of depreciation tax shield.
 
 ## week 7 lecture 2
 
-- datetime: 2025-03-21T16:30:00+08:00/2025-03-21T17:50:00+08:00
+- datetime: 2025-03-21T16:30:00+08:00/2025-03-21T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
 - free cash flow
   - free cash flow / terminal cash flow ::@:: They happen at or after the end of a project. They include recovering net working capital, \(after-tax\) shutdown costs, after-tax liquidation value \(asset sale\), etc. <!--SR:!2025-10-02,134,414!2025-07-29,90,393-->
@@ -557,7 +559,7 @@ The content is in teaching order.
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2025-09-11,126,412!2025-10-16,148,413-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2025-10-03,135,415!2025-10-04,136,415-->
     - irrelevant cost / project ::@:: In a project, some common sunk costs are: fixed overhead expenses \(unless the expense is incremental to the project\), past R&D expenditure, unavoidable competitive effects, etc. <!--SR:!2025-10-06,138,415!2025-09-15,130,412-->
-      - irrelevant cost / project / unavoidable competitive effects ::@:: Above, we have considered a specific example of _project cannibalization_, where a new product may decrease sale of existing products. <p> But if this loss of sales is _likely_ to happen anyway due to new products introduced by competitors, then this decrease in sale is a sunk cost, and can be ignored when calculating the incremental FCF of the project. <!--SR:!2025-10-01,133,415!2025-09-14,129,412-->
+      - irrelevant cost / project / unavoidable competitive effects ::@:: Above, we have considered a specific example of _project cannibalization_, where a new product may decrease sale of existing products. <p> But if this loss of sales is _likely_ to happen anyway due to new products introduced by competitors, then this decrease in sale is a _sunk cost_, and can be ignored when calculating the incremental FCF of the project. \(__this course__: tested in the final examination\) <!--SR:!2025-10-01,133,415!2025-09-14,129,412-->
 - [tax shield](../../../../general/tax%20shield.md) ::@:: It is the reduction in income taxes that results from taking an allowable deduction from taxable income. For example, because interest on debt is a tax-deductible expense, taking on debt creates a tax shield. <p> \(Note that FCF is usually _unlevered_, so debt tax shield is excluded.\) <!--SR:!2025-10-01,133,415!2025-09-29,131,413-->
   - tax shield / importance ::@:: Since a tax shield is a way to save cash flows, it increases the value of the business, and it is an important aspect of business valuation. <!--SR:!2025-09-15,130,412!2025-10-04,136,415-->
   - tax shield / free cash flow ::@:: When calculating incremental earnings/_unlevered_ net income, depreciation is subtracted before applying the tax rate. Then, when calculating FCF, depreciation is added back. <p> With the tax shield approach, when calculating FCF, depreciation is _not_ subtracted before applying the tax rate. After applying the tax rate, depreciation _multiplied by the tax rate_ is added back. This is mathematically equivalent to the previous paragraph. <p> Note that FCF is usually _unlevered_, so debt tax shield is excluded. <!--SR:!2025-09-29,131,413!2025-10-02,134,415-->
@@ -568,7 +570,7 @@ The content is in teaching order.
 
 ## week 8 lecture
 
-- datetime: 2025-03-26T16:30:00+08:00/2025-03-26T17:50:00+08:00
+- datetime: 2025-03-26T16:30:00+08:00/2025-03-26T17:50:00+08:00, PT1H20M
 - topic: bonds
 - [bond](../../../../bond%20(finance).md) ::@:: It is a type of security under which the issuer \(debtor\) owes the holder \(creditor\) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor. <!--SR:!2025-09-15,130,412!2025-08-20,105,392-->
   - bond / cash flows ::@:: Typical cash flows are repaying the principal \(i.e. amount borrowed\) of the bond at the maturity date and interest \(called the coupon\) over a specified amount of time. <!--SR:!2025-09-17,132,412!2025-09-15,130,412-->
@@ -584,7 +586,7 @@ The content is in teaching order.
 - [zero-coupon bond](../../../../general/zero-coupon%20bond.md) ::@:: It is a bond in which the face value is repaid at the time of maturity. Unlike regular bonds, it does not make periodic interest payments or have so-called coupons, hence the term zero-coupon bond. When the bond reaches maturity, its investor receives its par (or face) value. <!--SR:!2025-08-16,101,393!2025-09-13,128,412-->
   - zero-coupon bond / examples ::@:: US Treasury bills, US savings bonds, long-term zero-coupon bonds, and any type of coupon bond that has been stripped of its coupons <!--SR:!2025-10-11,143,413!2025-10-02,134,415-->
   - zero-coupon bond / aliases ::@:: deep discount bond, discount bond, pure discount bond <!--SR:!2025-09-29,131,413!2025-10-09,141,413-->
-- [yield to maturity](../../../../general/yield%20to%20maturity.md) \(YTM\) ::@:: It is an estimate of the total rate of return anticipated to be earned by an investor who buys it at a given market price, holds it to maturity, and receives all interest payments and the capital redemption on schedule. <p> The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <!--SR:!2025-10-03,135,414!2025-10-17,149,415-->
+- [yield to maturity](../../../../general/yield%20to%20maturity.md) \(YTM\) ::@:: It is an estimate of the total rate of return anticipated to be earned by an investor who buys it at a given market price, holds it to maturity, and receives all interest payments and the capital redemption on schedule. <p> The YTM is often given in terms of annual percentage rate \(APR\), but more often market convention is followed. \(__this course__: APR unless otherwise specified.\) <!--SR:!2025-10-03,135,414!2025-10-17,149,415-->
   - yield to maturity / internal rate of return ::@:: It is the theoretical internal rate of return, or the overall interest rate, of a bond — the discount rate at which the present value of all future cash flows from the bond is equal to the current price of the bond. <!--SR:!2025-10-06,138,415!2025-09-16,131,412-->
   - yield to maturity / zero-coupon bonds ::@:: $${\text{Yield to maturity(YTM)} }={\sqrt[{\text{Time period} }]{\dfrac {\text{Face value} }{\text{Present value} } } }-1$$ <!--SR:!2025-10-09,141,415!2025-09-12,127,412-->
 - [risk-free bond](../../../../general/risk-free%20bond.md) ::@:: It is a theoretical bond that repays interest and principal with absolute certainty. The rate of return would be the risk-free interest rate. <!--SR:!2025-10-11,143,413!2025-10-15,147,415-->
@@ -603,7 +605,7 @@ The content is in teaching order.
 - [United States Treasury security](../../../../general/United%20States%20Treasury%20security.md) ::@:: They are government debt instruments issued by the United States Department of the Treasury to finance government spending, in addition to taxation. <!--SR:!2025-09-15,130,412!2025-09-29,131,413-->
   - United States Treasury security / types ::@:: \(in increasing terms\) treasury bill, treasury note, treasury bond <!--SR:!2025-09-15,130,412!2025-09-14,129,412-->
   - United States Treasury security / treasury bill \(T-bill\) ::@:: They are zero-coupon bonds that mature in one year or less \(4 weeks, 13 weeks, 26 weeks, etc.\). They are bought at a discount of the par value and, instead of paying a coupon interest, are eventually redeemed at that par value to create a positive yield to maturity. <!--SR:!2025-10-05,137,415!2025-09-15,130,412-->
-  - United States Treasury security / treasury note \(T-note\) ::@:: They have maturities of 2, 3, 5, 7, or 10 years, have a coupon payment every six months, and are sold in increments of $100. <!--SR:!2025-09-29,131,413!2025-10-01,133,415-->
+  - United States Treasury security / treasury note \(T-note\) ::@:: They have maturities of 2, 3, 5, 7, or 10 years, have a coupon payment every six months, and are sold in increments of \$100. <!--SR:!2025-09-29,131,413!2025-10-01,133,415-->
   - United States Treasury security / treasury bond \(T-bond\) ::@:: They have the longest maturity at twenty or thirty years. They have a coupon payment every six months like T-notes. <!--SR:!2025-10-17,149,415!2025-09-16,131,412-->
 - bond
   - bond / market price
@@ -626,18 +628,18 @@ The content is in teaching order.
 
 ## week 8 tutorial
 
-- datetime: 2025-03-28T10:30:00+08:00/2025-03-28T11:20:00+08:00
+- datetime: 2025-03-28T10:30:00+08:00/2025-03-28T11:20:00+08:00, PT50M
 - status: unscheduled, day off for midterm
 
 ## week 8 lecture 2
 
-- datetime: 2025-03-28T16:30:00+08:00/2025-03-28T17:50:00+08:00
+- datetime: 2025-03-28T16:30:00+08:00/2025-03-28T17:50:00+08:00, PT1H20M
 - status: unscheduled, day off for midterm
 
 ## midterm examination
 
 - datetime: 2025-03-29T17:00:00+08:00/2025-03-29T19:15:00+08:00, PT2H15M
-- venue: Lecture Theater A; Lecture Theater B
+- venue: Lecture Theater A, Academic Building; Lecture Theater B, Academic Building
 - format
   - calculator: yes; financial calculator
   - cheatsheet: no
@@ -662,11 +664,8 @@ The content is in teaching order.
     - upper quartile: 86.67
     - high: 97.78 \(provided: 97.78\)
     - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.svg)
-- report
-  - \(none\)
-- check
-  - datetime: ?
-  - venue: ?
+- report: \(none\)
+- check: \(none\)
 
 > __Reminder: no class on Thur/Fri__
 >
@@ -684,21 +683,339 @@ The content is in teaching order.
 
 ## week 9 lecture
 
-- datetime: 2025-04-02T16:30:00+08:00/2025-04-02T17:50:00+08:00
+- datetime: 2025-04-02T16:30:00+08:00/2025-04-02T17:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
 ## week 9 tutorial
 
-- datetime: 2025-04-04T10:30:00+08:00/2025-04-04T11:20:00+08:00
-- status: unscheduled, midterm break, public holiday
+- datetime: 2025-04-04T10:30:00+08:00/2025-04-04T11:20:00+08:00, PT50M
+- status: unscheduled, midterm break, public holiday: Tomb Sweeping Day
 
 ## week 9 lecture 2
 
-- datetime: 2025-04-04T16:30:00+08:00/2025-04-04T17:50:00+08:00
-- status: unscheduled, midterm break, public holiday
+- datetime: 2025-04-04T16:30:00+08:00/2025-04-04T17:50:00+08:00, PT1H20M
+- status: unscheduled, midterm break, public holiday: Tomb Sweeping Day
+
+## week 10 lecture
+
+- datetime: 2025-04-09T16:30:00+08:00/2025-04-09T17:50:00+08:00, PT1H20M
+- topic: bonds
+- bond
+  - bond / market price
+    - bond / market price / status ::@:: Prices can be above par \(bond is priced at greater than 100\), which is called trading at a premium, or below par \(bond is priced at less than 100\), which is called trading at a discount. <p> Price is above par when YTM is below coupon rate, and vice versa.
+    - bond / market price / vs. yield to maturity ::@:: Price is inversely related to yield to maturity \(which should equal the market interest rate\), with it being at par when yield to maturity equals coupon rate.
+    - bond / market price / implications ::@:: Price or yield to maturity changes over a bond's life, but must equal par value at maturity. Thus they are _fixed income,_ but not _fixed return_.
+    - bond / market price / capital gain yield ::@:: It is the change in price divided by the original price. Coupons are ignored.
+    - bond / market price / over time ::@:: As time to maturity decreases, it approaches the par value \(increasingly faster\), reaching the par value when the time is zero. <p> If "clean" price is used, the curve is smooth. If "dirty" price is used, the curve is zigzag.
+- yield to maturity
+  - yield to maturity / constant ::@:: If YTM stays constant over the lifetime of a bond and you redeem the coupons, no matter when you sell it \(at the sale price\), your rate of return equals the YTM.
+- [duration](../../../../general/duration%20(finance).md) ::@:: It of a financial asset that consists of fixed cash flows, such as a bond, is the weighted average of the times until those fixed cash flows are received.
+  - duration / sensitivity ::@:: When the price of an asset is considered as a function of yield, duration also measures the price sensitivity to yield, the rate of change of price with respect to yield, or the percentage change in price for a parallel shift in yields. <p> \(Note the yield here is _continuously compounded_ instead of being _periodically compounded_.\)
+  - duration / Macaulay duration ::@:: It is the weighted average maturity of cash flows, in which the time of receipt of each payment is weighted by the present value of that payment. The denominator is the sum of the weights, which is precisely the price of the bond.
+    - duration / Macaulay duration / definition ::@:: Consider some set of fixed cash flows. The [present value](../../../../general/present%20value.md) of these cash flows is: $$V=\sum _{i=1}^{n}PV_{i}$$ The Macaulay duration is defined as: $${\text{Macaulay duration} }={\frac {\sum _{i=1}^{n}{t_{i}PV_{i} } }{\sum _{i=1}^{n}{PV_{i} } } }={\frac {\sum _{i=1}^{n}{t_{i}PV_{i} } }{V} }=\sum _{i=1}^{n}t_{i}{\frac {PV_{i} }{V} }$ where: <p> - $i$ indexes the cash flows, <br/> - $PV_{i}$ is the [present value](../../../../general/present%20value.md) of the $i$th cash payment from an [asset](../../../../general/asset.md), <br/> - $t_{i}$ is the time in years until the $i$th payment will be received, <br/> - $V$ is the present value of all future cash payments from the asset.
+- bond
+  - bond / duration ::@:: It measures _interest rate risk_, i.e. price sensitivity to YTM changes. Higher means same YTM change results in large price _percentage_ change.
+    - bond / duration / factors ::@:: coupon rate, time to maturity
+    - bond / duration / time to maturity ::@:: Higher time to maturity means higher duration, so is more sensitive. <p> Intuitively, consider changing $r$ in the discount factor $(1 + r)^n$ when $n$ is small versus when $n$ is large.
+    - bond / duration / graph ::@:: Graphing price against YTM, the higher the duration, the steeper the curve.
+    - bond / duration / coupon rate ::@:: Higher coupon rate means more cash flows, the coupons, become more near to the present. It means less duration, so is less sensitive to price changes.
+- [corporate bond](../../../../general/corporate%20bond.md) ::@:: It is a bond issued by a corporation in order to raise financing for a variety of reasons such as to ongoing operations, mergers & acquisitions, or to expand business.
+  - corporate bond / credit risk ::@:: There is _credit risk_, i.e. risk of default. So investors pay less or equivalently the YTM is higher compared to a risk-free bond. The difference in YTM is known as _credit spread_. <p> \(There are other kinds of risk unmentioned in this course.\)
+    - corporate bond / credit risk / implications ::@:: Due to credit spread, corporate bonds, compared to \(risk-free\) treasury notes/bonds \(treasury bills have no coupons\), can be cheaper even if their coupon rates are higher and having everything else being equal.
+  - corporate bond / high grade vs. high yield ::@:: Corporate bonds are divided into two main categories High Grade \(also called Investment Grade\) and High Yield \(also called Non-Investment Grade, Speculative Grade, or Junk Bonds\) according to their credit rating.
+    - corporate bond / high grade vs. high yield / division ::@::  Bonds rated AAA/Aaa, AA/Aa, A/A, and BBB/Baa are High Grade \(the top 4 ratings\), while bonds rated BB and below are High Yield \(BB/Ba, B/B, CCC/Caa, D/C, ...\).
+- [bond credit rating](../../../../general/bond%20credit%20rating.md) ::@:: It measures the bond issuer's financial ability to pay coupons and par value at maturity.
+- [yield spread](../../../../general/yield%20spread.md) ::@:: It is the difference between the quoted rates of return on two different investments, usually of different credit qualities but similar maturities. It is often an indication of the risk premium for one investment product over another. <p> For bonds, the other investment is usually \(risk-free\) treasury bills/notes/bonds.
+- [questions § week 10 lecture](questions.md#week%2010%20lecture)
+- [TAPPS/week 10 lecture](assignments/TAPPS/week%2010%20lecture.md)
+- readings: chapter 7
+
+## week 10 tutorial
+
+- datetime: 2025-04-11T10:30:00+08:00/2025-04-11T11:20:00+08:00, PT50M
+- status: hybrid \(online, physical\), optional
+- [§ week 10 lecture](#week%2010%20lecture)
+- [§ week 10 lecture 2](#week%2010%20lecture%202)
+
+## week 10 lecture 2
+
+- datetime: 2025-04-11T16:30:00+08:00/2025-04-11T17:50:00+08:00, PT1H20M
+- topic: stock valuation
+- [stock](../../../../general/stock.md) ::@:: It consist of all the shares by which ownership of a corporation or company is divided. A single share of the stock means fractional ownership of the corporation in proportion to the total number of shares.
+  - stock / motivation ::@:: companies: to raise capital for expansion without paying interest \(dividends are optional\) <br/> investors: price appreciation of stocks due to growing earnings, receive dividends
+- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. \(__this course__: Prices in questions are after the dividend is received, if any.\)
+  - dividend / startups ::@:: They generally do not pay dividends, as they need to prioritize growth using the excess earnings.
+- stock
+  - stock / entitlements ::@:: This typically entitles the shareholder \(stockholder\) to that fraction of the company's earnings, proceeds from liquidation of assets \(after discharge of all senior claims such as secured and unsecured debt\), \(__this course__: shares are _residual claims_, and last to receive money in a bankruptcy\) or voting power, often dividing these up in proportion to the number of like shares each stockholder owns. <p>
+- [preferred stock](../../../../general/preferred%20stock.md) ::@:: It is a component of share capital that may have any combination of features not possessed by common stock, including properties of both an equity and a debt instrument, and is generally considered a hybrid instrument \(__this course__: mix of debt and equity characteristics\).
+  - preferred stock / common features ::@:: conversion to common stock, fixed dividend as a percentage of par value, higher dividend priority, negotiable terms, non-voting, unpaid dividends cumulative and has higher priority
+- [dividend yield](../../../../general/dividend%20yield.md) ::@:: It of a share is the dividend per share divided by the price per share.
+  - dividend yield / stock ::@:: stock dividend divided by stock price
+- [share price](../../../../general/share%20price.md) ::@:: It is the price of a single share of a number of saleable equity shares of a company.
+- [capital gain](../../../../general/capital%20gain.md) ::@:: It is an economic concept defined as the profit earned on the sale of an asset which has increased in value over the holding period.
+  - capital gain / stock ::@:: stock price change \(in a year\) divided by original stock price
+- [stock valuation](../../../../general/stock%20valuation.md) ::@:: It is the method of calculating theoretical values of companies and their stocks.
+  - stock valuation / return ::@:: return = _equity cost of capital_ = dividend yield + capital gain rate
+  - stock valuation / price ::@:: If the market is efficient, it should equal the present value of future cash flows from the stock. So just treat dividends and stock sale as cash flows to calculate its _intrinsic value_.
+    - stock valuation / price / decision ::@:: The market may not be always efficient... The price may be different from its intrinsic value. <p> So just see if the intrinsic value exceeds market price, or expected rate of return \(can be considered as IRR\) exceeding equity cost of capital, then the stock is underpriced.
+- [dividend discount model](../../../../general/dividend%20discount%20model.md) ::@:: It is a method of valuing the price of a company's capital stock or business value based on the assertion that intrinsic value is determined by the sum of future cash flows from dividend payments to shareholders, discounted back to their present value.
+  - dividend discount model / derivation ::@:: You can get the current price by discounting the dividend and the price one year later. If you apply this to the price one year later, and then again and again, you should see the current price is simply the present value of all dividends. <p> This also implies stock price does _not_ depend on the investor's holding period.
+- [questions § week 10 lecture 2](questions.md#week%2010%20lecture%202)
+- [TAPPS/week 10 lecture 2](assignments/TAPPS/week%2010%20lecture%202.md)
+- readings: chapter 7
+
+## week 11 lecture
+
+- datetime: 2025-04-16T16:30:00+08:00/2025-04-16T17:50:00+08:00, PT1H20M
+- topic: stock evaluation
+- dividend discount model
+  - dividend discount model / use ::@:: Preferred stock can usually be modeled using \(_this_\), since they usually have a fixed dividend as a percentage of its par value.
+  - dividend discount model / constant growth rate ::@:: When dividends are assumed to grow at a constant rate, the variables are: $P$ is the current stock price. $g$ is the constant growth rate in perpetuity expected for the dividends. $r$ is the constant [cost of equity](../../../../general/cost%20of%20equity.md) capital for that company. $D_{1}$ is the value of [dividends](../../../../general/dividends.md) at the end of the first period. $$P={\frac {D_{1} }{r-g} }$$ \(__this course__: "paid" implies $D_0$, "expects... to be" or "will pay" implies $D_1$.\)
+    - dividend discount model / constant growth rate / cost of equity ::@:: The above formula can be rearranged to become: cost of equity = dividend yield + dividend growth rate. This also implies capital gain rate = dividend growth rate.
+  - dividend discount model / sensitivity ::@:: It is very sensitive to the cost of equity $r_E$ and the growth rate $g$. Mis-estimating them changes the estimated price drastically.
+  - dividend discount model / dividend vs. growth ::@:: Earnings can be paid out as dividend \(_dividend payout rate_\) or reinvested to generate growth \(_retention rate_\). <p> Dividend growth cannot come from dividend, only growth of earnings, keeping dividend payout ratio and number of shares outstanding constant. This also means earnings growth rate = dividend growth rate = capital gain rate.
+    - dividend discount model / dividend vs. growth / growth rate ::@:: If retention rate is zero, growth rate is zero. If retention rate is 100\%, growth rate equals return on new investment. In between them, it is a simple linear interpolation: $$g = \text{retention rate} \times \text{return on new investment} \,.$$
+    - dividend discount model / dividend vs. growth / decision ::@:: Cut dividends to increase investment raise stock price iff the new investments have a positive NPV, or equivalently the return on new investment exceeds the cost of equity. The reverse applies if you cut investment to increase dividends.
+- [questions § week 11 lecture](questions.md#week%2010%20lecture)
+- [TAPPS/week 11 lecture](assignments/TAPPS/week%2011%20lecture.md)
+- readings: chapter 7, chapter 11
+
+## week 11 tutorial
+
+- datetime: 2025-04-18T10:30:00+08:00/2025-04-18T11:20:00+08:00, PT50M
+- status: unscheduled, public holiday: Good Friday
+- [§ week 11 lecture](#week%2011%20lecture)
+- [§ week 11 lecture 2](#week%2011%20lecture%202)
+
+## week 11 lecture 2
+
+- datetime: 2025-04-18T16:30:00+08:00/2025-04-18T17:50:00+08:00, PT1H20M
+- status: unscheduled
+
+## week 12 lecture
+
+- datetime: 2025-04-23T16:30:00+08:00/2025-04-23T17:50:00+08:00, PT1H20M
+- topic: stock valuation, risk and return in capital markets
+- dividend discount model
+  - dividend discount model / two-stage ::@:: When growth is expected to exceed the cost of equity in the short run, then usually a two-stage DDM is used: $$P=\sum _{t=1}^{N}{\frac {D_{0}\left(1+g\right)^{t} }{\left(1+r\right)^{t} } }+{\frac {P_{N} }{\left(1+r\right)^{N} } }$$ Therefore, $$P={\frac {D_{0}\left(1+g\right)}{r-g} }\left[1-{\frac {\left(1+g\right)^{N} }{\left(1+r\right)^{N} } }\right]+{\frac {D_{0}\left(1+g\right)^{N}\left(1+g_{\infty }\right)}{\left(1+r\right)^{N}\left(r-g_{\infty }\right)} },$$ where $g$ denotes the short-run expected growth rate, $g_{\infty }$ denotes the long-run growth rate, and $N$ is the period \(number of years\), over which the short-run growth rate is applied.
+  - dividend discount model / changing growth rates ::@:: Dividends grow at different rates depending on many factors. It is more realistic to predict dividends as precisely and as far as possible, and then assume a constant growth rate. <p> Then you can use the two-stage equations above. Or, in general, treat dividends as cash flows and calculate its present value.
+  - dividend discount model / limitations ::@:: There are uncertainty with future dividends and a key variable: dividend growth rate. The estimated price is highly sensitive to this key variable. <p> Other aspects of cash flow are ignored, e.g. borrowing decisions \(earings depends on interest expenses\), repurchase decisions \(investors receive cash for having their shares repurchased\), etc.
+- total payout model ::@:: We have only been considering using earnings to pay dividends or to reinvest. We ignore it can also be used to repurchase shares. <p> Repurchasing shares also give money to shareholders, similar to dividends. The difference is that the number of outstanding shares also changes, so dividend per share, EPS, etc. changes. So we cannot apply the dividend discount model.
+  - total payout model / calculation ::@:: The price of a share _right now_ is the firm's _equity value_ divided by the number of outstanding shares _right now_.
+  - total payout model / equity value ::@:: It is the present value of all future _total_ dividends and repurchases. Total dividends plus repurchases in a year is also known as _payout_ in that year. Note the dividends are not per share. <p> Use the growth rate of _earnings_ instead of _dividends_ to estimate future total dividends, as the growth rate of dividends is also affected by changes in number of stocks.
+  - total payout model / motivation ::@:: Instead of valuing a single share as in dividend discount model, we value the whole company's equity.
+  - total payout model / vs. dividend discount model ::@:: If you consider the cash flows really carefully, the dividend discount model produces the same result as the total payout model.
+- [cost of equity](../../../../general/cost%20of%20equity.md) ::@:: It is the return \(often expressed as a rate of return\) a firm theoretically pays to its equity investors, i.e., shareholders, to compensate for the risk they undertake by investing their capital.
+  - cost of equity / estimation ::@:: It is forward-looking, but we use historical data, so we can only estimate it. There are several methods to estimate. <p> One is average historical returns of matching companies \(similar industry, risk, size\), but it is usually quite noisy. <p> Another is using _capital asset pricing model_ \(CAPM\), a factor model.
+- net present value
+- [risk aversion](../../../../general/risk%20aversion.md) ::@:: It is the tendency of people to prefer outcomes with low uncertainty to those outcomes with high uncertainty, even if the average outcome of the latter is equal to or higher in monetary value than the more certain outcome.
+  - risk aversion / discount rate ::@:: Due to _risk aversion_, discount rate should reflect both time value of money and risk. More risk should mean higher discount rate. <p> Historically over long periods of time \(100+ years\), stocks with higher risk generally have higher returns. This assumes you are committed to holding the stocks for extremely long periods of time, which is difficult _psychologically_ when the price is volatile.
+- [rate of return](../../../../general/rate%20of%20return.md) ::@:: It is a profit on an investment. It comprises any change in value of the investment, and/or cash flows (or securities, or other investments) which the investor receives from that investment over a specified time period, such as interest payments, coupons, cash dividends and stock dividends.
+  - rate of return / realized return ::@:: The actual rate of return calculated from historical data.
+- [holding period return](../../../../general/holding%20period%20return.md) \(HPR\) ::@:: It is the return on an asset or portfolio over the whole period during which it was held. It is one of the simplest and most important measures of investment performance.
+  - holding period return / calculation ::@:: HPR is the change in value of an investment, asset or portfolio over a particular period. It is the entire gain or loss, which is the sum [income](../../../../general/income.md) and [capital gains](../../../../general/capital%20gains.md), divided by the value at the beginning of the period. <p> &emsp; __HPR__ = \(End Value - Initial Value\) / Initial Value <p> where the End Value includes income, such as dividends, earned on the investment: $$HPR_{n}\ =\ {\frac {\text{Income}+P_{n+1}-P_{n} }{P_{n} } }$$ where $P_{n}$ is the value at the start of the holding period and $\text{Income}+P_{n+1}$ is the total value at the end of the holding period.
+  - holding period return / annualization ::@:: Often, we want the return over an year instead of some arbitrary periods. We assume, whenever you receive a cash flow, you _immediately reinvest_ it into the same asset. <p> Then, for each cash flow in the year, calculate the non-annual returns. Then simply multiply them altogether.
+- rate of return
+  - rate of return / arithmetic average ::@:: The __arithmetic average rate of return__ over $n$ time periods of equal length is defined as: $${\bar {r} }={\frac {1}{n} }\sum _{i=1}^{n}{r_{i} }={\frac {1}{n} }(r_{1}+\cdots +r_{n})$$ This formula can be used on a sequence of logarithmic rates of return over equal successive periods.
+    - rate of return / arithmetic average / uses ::@:: It is used to estimate the future annual expected return. This assumes the historical returns are equally likely, so they should be equally weighted for best prediction. <p> This formula can also be used when there is no reinvestment of returns, any losses are made good by topping up the capital investment and all periods are of equal length.
+  - rate of return / geometric average ::@:: It is used to measure historical performance. <p> If compounding is performed, \(i.e. if gains are reinvested and losses accumulated\), and if all periods are of equal length, then using the [time-weighted method](../../../../general/time-weighted%20return.md), the appropriate average rate of return is the __[geometric mean](../../../../general/geometric%20mean.md)__ of returns, which, over _n_ periods, is: $${\bar {r} }_{\mathrm {geometric} }=\left(\prod _{i=1}^{n}(1+r_{i})\right)^{\frac {1}{n} }-1={\sqrt[{n}]{\prod _{i=1}^{n}(1+r_{i})} }-1$$ The geometric average return is equivalent to the cumulative return over the whole _n_ periods, converted into a rate of return per period.
+    - rate of return / geometric average / uses ::@:: Where the individual sub-periods are each equal (say, 1 year), and there is reinvestment of returns, the annualized cumulative return is the geometric average rate of return.
+  - rate of return / arithmetic average vs. geometric average ::@:: The larger the volatility of returns, the larger the difference between them.
+- [questions § week 12 lecture](questions.md#week%2012%20lecture)
+- [TAPPS/week 12 lecture](assignments/TAPPS/week%2012%20lecture.md)
+- readings: chapter 11
+
+## week 12 tutorial
+
+- datetime: 2025-04-25T10:30:00+08:00/2025-04-25T11:20:00+08:00, PT50M
+- status: hybrid \(online, physical\), optional
+- [§ week 12 lecture](#week%2012%20lecture)
+- [§ week 12 lecture 2](#week%2012%20lecture%202)
+- dividend discount model
+  - dividend discount model / conditions ::@:: It requires the dividend growth rate to be constant. It requires the growth rate to be less than the required rate of return, as a stock growing faster than the required rate of return forever is _unrealistic_.
+
+## week 12 lecture 2
+
+- datetime: 2025-04-25T16:30:00+08:00/2025-04-25T17:50:00+08:00, PT1H20M
+- topic: risk and return in capital markets
+- [variance](../../../../general/variance.md)
+  - variance / sample ::@:: Suppose we have $n$ _samples_ \(with replacement\) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2$$. The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. \(__this course__: Unless otherwise specified, the unbiased sample variance is used in this course.\)
+- [standard deviation](../../../../general/standard%20deviations.md)
+  - standard deviation / sample ::@:: It is the square root of the sample variance: $$s = \sqrt{s^2}$$. However, no matter if the sample variance is biased or unbiased, the resulting sample standard deviation is biased. This is because the square root is a concave function and introduces additional negative bias \(smaller than the corresponding population parameter\).
+- rate of return
+  - rate of return / variability ::@:: It can be measured by standard deviation. We use the _sample_ variance or standard deviation, i.e. divide by $n - 1$ instead of $n$, where $n$ is the number of sample points. <p> Since rate of return is expressed as percentage, variance calculated is actually percentage _squared_, which becomes percentage again when you take the square root for standard deviation.
+    - rate of return / variability / interpretation ::@:: It measures return spread or volatility, or how far the realized returns deviate from the mean.
+- [normal distribution](../../../../general/normal%20distribution.md) ::@:: The __normal distribution__ or __Gaussian distribution__ is important in statistics and is often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the central limit theorem. It is denoted $\mathcal N(\mu, \sigma^2)$, where $\mu \in \mathbb R$ is the mean and $\sigma^2 \in \mathbb R_{> 0}$ is the variance.
+- [68–95–99.7 rule](../../../../general/68–95–99.7%20rule.md) ::@:: It is a shorthand used to remember the percentage of values that lie within an interval estimate in a normal distribution: approximately 68%, 95%, and 99.7% of the values lie within one, two, and three standard deviations of the mean, respectively.
+- rate of return
+  - rate of return / confidence interval ::@:: Assuming stock return distribution is _identical and independent_ \(i.i.d.\), then historical average return is a good estimate of the future expected return. <p> We assume rate of return follows a _normal distribution_. Then confidence interval can be calculated from the standard deviation.
+  - rate of return / relation to risk ::@:: Historically, plotting return against volatility \(standard deviation\) in large portfolios \(consists of many stocks\) have an approximately linear relationship \(with positive y-intercept\). So volatility is good measure of risk for large portfolios. <p> But doing the same for individual stocks yields a not so clear relationship. And the individual stocks are typically more volatile than portfolios it is in. All individual stocks have lower returns and/or higher risk than the portfolios.
+- [systematic risk](../../../../general/systemataic%20risk.md) ::@:: It isvulnerability to events which affect aggregate outcomes such as broad market returns, total economy-wide resource holdings, or aggregate income. <p> They are usually associated with _industry-specific_ or _market-wide_ news.
+  - systematic risk / common risk ::@:: perfectly correlated risk that is linked across outcomes
+  - systematic risk / examples ::@:: In many contexts, events like earthquakes, epidemics and major weather catastrophes pose aggregate risks that affect not only the distribution but also the total amount of resources. That is why it is also known as contingent risk, unplanned risk or risk events.
+  - systematic risk / aliases ::@:: aggregate risk, common risk, market risk, non-diversifiable risk, systematic risk, undiversifiable risk
+  - systematic risk / contrast ::@:: It is risk to which only specific agents or industries are vulnerable \(and is uncorrelated with broad market returns\). <p> They are usually associated with _firm-specific_ news.
+    - systematic risk / contrast / independent risk ::@:: uncorrelated risk that does not link across outcomes
+    - systematic risk / contrast / aliases ::@:: diversifiable risk, firm-specific risk, idiosyncratic risk, independent risk, residual risk, specific risk, unsystematic risk
+- [diversification](../../../../general/diversification%20(finance).md) ::@:: It is the process of allocating capital in a way that reduces the exposure to any one particular asset or risk. A common path towards diversification is to reduce risk or volatility by investing in a variety of assets.
+  - diversification / effect ::@:: If asset prices do not change in perfect synchrony, a diversified portfolio will have less variance than the weighted average variance of its constituent assets, and often less volatility than the least volatile of its constituents.
+- systematic risk
+  - systematic risk / diversification ::@:: Due to the idiosyncratic nature of unsystematic risk, it can be reduced or eliminated through diversification; but since all market actors are vulnerable to systematic risk, it cannot be limited through diversification \(but it may be insurable\).
+    - systematic risk / diversification / risk premium ::@:: Therefore, only systematic risk have risk premium. Unsystematic risk have no risk premium.
+- [questions § week 12 lecture 2](questions.md#week%2012%20lecture%202)
+- [TAPPS/week 12 lecture 2](assignments/TAPPS/week%2012%20lecture%202.md)
+- readings: chapter 12
+
+## week 13 lecture
+
+- datetime: 2025-04-30T16:30:00+08:00/2025-04-30T17:50:00+08:00, PT1H20M
+- topic: risk and return in capital markets, systematic risk, equity risk premium
+- [risk premium](../../../../general/risk%20premium.md) ::@:: It is a measure of excess return that is required by an individual to compensate being subjected to an increased level of risk.
+  - risk premium / aliases ::@:: excess return
+  - risk premium / definition ::@:: It is used widely in finance and economics, the general definition being the expected risky [return](../../../../general/rate%20of%20return.md) less the [risk-free return](../../../../general/risk-free%20interest%20rate.md), as demonstrated by the formula below. $$\mathrm{Risk\ premium}=E(r)-r_{f}$$ Where $E(r)$ is the risky expected rate of return and $r_{f}$ is the risk-free return. <p> Often, we use treasury bills as a good benchmark  for risk-free return.
+  - risk premium / diversification ::@:: Diversifiable risk has zero ris premium. Only systematic risk have nonzero risk premium. So there is no relation between volatility and average returns of individual stocks. <p> This is why we use the risky expected rate of return instead of a stock's volatility \(standard deviation\) to calculate its risk premium.
+    - risk premium / diversification / arbitrage ::@:: If diversifiable risk has risk premium, investors can earn this risk premium, while diversifying to eliminate this risk. This is arbitrage, which would quickly be exploited.
+  - risk premium / required rate of return ::@:: required rate of return = risk-free rate + risk premium
+- diversification
+  - diversification / motivation ::@:: Stocks with the same expected return and the same volatility \(standard deviation\) can still have different return patterns, e.g. one performing poorly while the other performing well. <p> Diversification combines these different stocks, so that the expected return remains the same while the volatility decreases, as one performing poorly is compensated by the other performing well. The pattern also matters: risk reduction depends on how much the stocks move together \(covariance\), with higher resulting in less risk reduction.
+  - diversification / return expectations ::@:: It equals the weighted average of the individual stocks.
+  - diversification / variance ::@:: $$\operatorname{Var}(R_p) = w_1^2 \operatorname{SD}(R_1)^2 + w_2^2 \operatorname{SD}(R_2)^2 + 2 w_1 w_2 \operatorname{SD}(R_1) \operatorname{SD}(R_2) \operatorname{Corr}(R_1, R_2) \,,$$ where the standard deviations $\sigma$ are sample standard deviations.
+- variance
+  - variance / weighted sum of variables ::@:: The scaling property and the Bienaymé formula, along with the property of the [covariance](../../../../general/covariance.md) Cov\(_aX_, _bY_\) = _ab_ Cov\(_X_, _Y_\) jointly imply that $$\operatorname {Var} (aX\pm bY)=a^{2}\operatorname {Var} (X)+b^{2}\operatorname {Var} (Y)\pm 2ab\,\operatorname {Cov} (X,Y).$$
+- [covariance](../../../../general/covariance.md) ::@:: It is a measure of the joint variability of two random variables.
+  - covariance / correlation coefficient ::@:: The correlation coefficient normalizes the covariance by dividing by the geometric mean of the total variances for the two random variables.
+- [Pearson correlation coefficient](../../../../general/Pearson%20correlation%20coefficient.md) ::@:: It is a correlation coefficient that measures linear correlation between two sets of data. It is the ratio between the covariance of two variables and the product of their standard deviations; thus, it is essentially a normalized measurement of the covariance, such that the result always has a value between −1 and 1.
+  - Pearson correlation coefficient / covariance ::@:: $$\operatorname{Corr}(R_i, R_j) = \frac {\operatorname{Cov}(R_i, R_j) } {\operatorname{SD}(R_i) \operatorname{SD}(R_j) } \,,$$ where the standard deviations are sample standard deviations \(for the sample correlation coefficient\).
+  - Pearson correlation coefficient / interpretation ::@:: If −1, the two sets of data always move oppositely. If 0, they have no tendency. If 1, they always move together. Inb between, you can interpolate.
+  - Pearson correlation coefficient / correlation matrix ::@:: It shows the correlation between all possible sets of data. The diagonals are always 1, because a set of data always move together with itself.
+- diversification
+  - diversification / variance
+    - diversification / variance / effect ::@:: If asset prices do not change in perfect synchrony, a diversified portfolio will have less variance than the weighted average variance of its constituent assets, and often less volatility than the least volatile of its constituents. <p> We can see the above fact from the variance equation. We also see if there are many stocks, correlation/covariance becomes much more important in determining the portfolio variance.
+    - diversification / variance / decision ::@:: Choose stocks with correlations less than 1. Then risk can be reduced without reducing expected returns \(both compared to weighted average\). The maximum reduction is obtained when correlation is −1, which does not happen in practice. \(Imagine stocks always moving in opposite directions...\) <p> In practice, this could not reduce the risk to zero, and there is minimum risk level that cannot diversified away, which are identified with _systematic risks_.
+- [market portfolio](../../../../general/market%20portfolio.md) ::@:: It is an investment portfolio that theoretically consisting of a weighted sum of every asset in the market, with weights in the proportions that they exist in the market, with the necessary assumption that these assets are infinitely divisible.
+  - market portfolio / motivation ::@:: Assume everyone wants to hold fully diversified and optimal portfolio. Then it consists of all risk investments held proportion to their market value \(_value-weighted_\), and is only affected by _systematic risk_.
+  - market portfolio / proxies ::@:: In practice index providers and exchange-traded funds \(ETF\) providers create proxies of a market portfolio using securities that are available on securities exchanges in proportion of their weighting. <p> Proxies are needed to estimate the market portfolio because it is _unobservable_. Examples include ETF, index funds, market funds, etc.
+- [beta](../../../../general/beta%20(finance).md) ::@:: It is a statistic that measures the expected increase or decrease of an individual stock price in proportion to movements of the stock market as a whole.
+  - beta / measure ::@:: Beta can be used to indicate the contribution of an individual asset to the market risk of a portfolio when it is added in small quantity. It refers to an asset's non-diversifiable risk, systematic risk, or market risk. Beta is not a measure of idiosyncratic risk. <p> This is because any risk correlated with the market portfolio must be systematic risk.
+  - beta / mathematical definition ::@:: The [ordinary least squares](../../../../general/ordinary%20least%20squares.md) solution is: $$\beta _{i}={\frac {\operatorname {Cov} (r_{i},r_{m})}{\operatorname {Var} (r_{m})} },$$ where $\operatorname {Cov}$ and $\operatorname {Var}$ are the [covariance](../../../../general/covariance.md) and [variance](../../../../general/variance.md) operators. Betas with respect to different market indexes are not comparable.
+  - beta / interpretation ::@:: It is the ratio of the expected percentage change in return of a security over that of a market portfolio. <p> It is related to how sensitive a stock's underlying cash flows and revenues are to general economic conditions. Stocks in cyclical industries are likely to be more sensitive to systematic risk, and thus have higher betas.
+    - beta / interpretation / numerical ::@:: The market portfolio has a beta of 1, by definition. <p> If beta is 1, the asset has the same systematic risk as the overall market. If less/more than 1, then the asset has less/more systematic risk than the overall market. If 0, the asset has no systematic risk \(if also no unsystematic risk, then risk-free\). <p> If negative, the asset tends to go up when the market goes down. In practice, there are few stocks with negative betas.
+  - beta / estimation ::@:; Linear regression using between a stock's return \(y-axis\) and the market's return \(x-axis\) is used to estimate beta. The market portfolio is typically S&P 500. <p> The slope of the best-fitting line is the beta estimate. Deviations from the best-fitting line represent diversifiable risk.
+- [questions § week 13 lecture](questions.md#week%2013%20lecture)
+- [TAPPS/week 13 lecture](assignments/TAPPS/week%2013%20lecture.md)
+- readings: chapter 12
+
+## week 13 tutorial
+
+- datetime: 2025-05-02T10:30:00+08:00/2025-05-02T11:20:00+08:00, PT50M
+- status: hybrid \(online, physical\), optional
+- [§ week 13 lecture](#week%2013%20lecture)
+- [§ week 13 lecture 2](#week%2013%20lecture%202)
+
+## week 13 lecture 2
+
+- datetime: 2025-05-02T16:30:00+08:00/2025-05-02T17:50:00+08:00, PT1H20M
+- status: unscheduled
+
+## week 14 lecture
+
+- datetime: 2025-05-07T16:30:00+08:00/2025-05-07T17:50:00+08:00, PT1H20M
+- topic: systematic risk, equity risk premium
+- beta
+  - beta / risk ::@:: &emsp; risk = systematic risk + unsystematic risk <p> And systematic risk can be measured by beta. So higher beta means higher systematic risk. <p> And since <br/> &emsp; expected return = risk-free rate + risk premium, <br/> higher beta means higher expected return.
+- [capital asset pricing model](../../../../general/capital%20asset%20pricing%20model.md) \(CAPM\) ::@:: It is a model used to determine a theoretically appropriate required rate of return of an asset, to make decisions about adding assets to a well-diversified portfolio.
+  - capital asset pricing model / formula ::@:: $$E(R_{i})=R_{f}+\beta _{i}(E(R_{m})-R_{f})\,$$ where: <p> - $E(R_{i})~~$ is the expected return on the capital asset <br/> - $R_{f}~$ is the risk-free rate of interest such as interest arising from government bonds <br/> - $\beta _{i}~~$ \(the _[beta](../../../../general/beta%20(finance).md)_\) is the [sensitivity](../../../../general/sensitivity%20and%20specificity.md) of the expected excess asset returns to the expected excess market returns, or also $\beta _{i}={\frac {\mathrm {Cov} (R_{i},R_{m})}{\mathrm {Var} (R_{m})} }=\rho _{i,m}{\frac {\sigma _{i} }{\sigma _{m} } }$ <br/> - $E(R_{m})~$ is the expected return of the market <br/> - $E(R_{m})-R_{f}~$ is sometimes known as the _market premium_ <br/> - $E(R_{i})-R_{f}~$ is also known as the _individual risk premium_
+  - capital asset pricing model / considerations ::@:: The model takes into account the asset's sensitivity to non-diversifiable risk \(also known as systematic risk or market risk\), often represented by the quantity beta \(β\) in the financial industry, as well as the expected return of the market and the expected return of a theoretical risk-free asset.
+  - capital asset pricing model / market risk premium ::@:: \(_this_\) depends on the perceived risk of the stock market and risk aversion. Perception of riskiness increases it.
+  - capital asset pricing model / popularity ::@:: Despite its failing numerous empirical tests, and the existence of more modern approaches to asset pricing and portfolio selection \(such as arbitrage pricing theory and Merton's portfolio problem\), the CAPM still remains popular due to its simplicity and utility in a variety of situations. \(__this course__: not mentioned\)
+- [security market line](../../../../general/security%20market%20line.md) \(SML\) ::@:: It is the representation of the capital asset pricing model. It displays the expected rate of return of an individual security as a function of systematic, non-diversifiable risk. The risk of an individual risky security reflects the volatility of the return from the security rather than the return of the market portfolio. The risk in these individual risky securities reflects the systematic risk. <p> That is, a graph of expected return against beta using the CAPM model.
+  - security market line / formula ::@:: The Y-intercept of the SML is equal to the [risk-free interest rate](../../../../general/risk-free%20interest%20rate.md). The slope of the SML is equal to the market [risk premium](../../../../general/risk%20premium.md) and reflects the risk return tradeoff at a given time: $$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$ where: <p> &emsp; _E_\(_R_<sub>_i_</sub>\) is an expected return on security <br/> &emsp; _E_\(_R_<sub>_M_</sub>\) is an expected return on market portfolio _M_ <br/> &emsp; _β_ is a nondiversifiable or systematic risk <br/> &emsp; _R_<sub>_M_</sub> is a market rate of return <br/> &emsp; _R_<sub>_f_</sub> is a risk-free rate
+    - security market line / formula / note ::@:: There is no clear relation between an _individual_ stock's volatility \(standard deviation\) and its expected return. The above formula only relates its expected return to its beta or systematic risk.
+  - security market line / interpretation ::@:: When used in portfolio management, the SML represents the investment's opportunity cost \(investing in a combination of the market portfolio and the risk-free asset\).
+    - security market line / interpretation / price ::@:: All the correctly priced securities are plotted on the SML. The assets above the line are undervalued because for a given amount of risk \(beta\), they yield a higher return. The assets below the line are overvalued because for a given amount of risk, they yield a lower return. In a market in perfect equilibrium, all securities would fall on the SML. <p> Market equilibrium theoretically will be reached because if it is underpriced, investors buy, raising its price, and vice versa for overpriced.
+  - security market line / negative beta ::@:: There is a question about what the SML looks like when beta is negative. A rational investor will accept these assets even though they yield sub-risk-free returns, because they will provide "recession insurance" as part of a well-diversified portfolio. Therefore, the SML continues in a straight line whether beta is positive or negative.
+- beta
+  - beta / portfolio ::@:: Similar to expected return, portfolio beta is the weighted average of betas of the individual assets. <p> This can be interpreted as systematic risk cannot be reduced by diversification \(adding different securities\).
+- capital asset pricing model
+  - capital asset pricing model / use ::@:: CAPM gives us the cost of _equity_. By also considering the cost of _debt_ \(fixed income investors, e.g. bondholders\), we can calculate the _overall_ cost of capital \(for all investors, including stockholders and bondholders\). <p> _Valuation principle_ tells us to use this cost of capital for discounting. It is important for creating value for its investors.
+- [questions § week 14 lecture](questions.md#week%2014%20lecture)
+- [TAPPS/week 14 lecture](assignments/TAPPS/week%2014%20lecture.md)
+- readings: chapter 13 \(skip 13.6\)
+
+## week 14 tutorial
+
+- datetime: 2025-05-09T10:30:00+08:00/2025-05-09T11:20:00+08:00, PT50M
+- status: hybrid \(online, physical\), optional
+- [§ week 14 lecture](#week%2014%20lecture)
+- [§ week 14 lecture 2](#week%2014%20lecture%202)
+- [portfolio](../../../../general/portfolio%20(finance).md) ::@:: In finance, a \(_this_\) is a collection of investments.
+  - portfolio / weights ::@:: The portfolio weights are value-based, i.e. share price multiplied by the number of shares held.
+  - portfolio / beta ::@:: It is weighted average of the betas of the individual stocks, since systematic risk cannot be diversified away.
+
+## week 14 lecture 2
+
+- datetime: 2025-05-09T16:30:00+08:00/2025-05-09T17:50:00+08:00, PT1H20M
+- topic: systematic risk, equity risk premium, cost of capital
+- cost of capital
+  - cost of capital / investors ::@:: It is the minimum return that investors \(including stockholders and bondholders\) expect for providing capital to the company, thus setting a benchmark that a new project has to meet.
+  - cost of capital / firm ::@:: it is the average cost of financing to fund all projects. The CFO of a company uses it as the minimum rate of return on projects after tax to satisfy investors.
+  - cost of capital / basic concept ::@:: For an investment to be worthwhile, the expected return on capital has to be higher than the cost of capital. Given a number of competing investment opportunities, investors are expected to put their capital to work in order to maximize the return. In other words, the cost of capital is the rate of return that capital could be expected to earn in the best alternative investment of equivalent risk; this is the opportunity cost of capital.
+  - cost of capital / sources ::@:: A company's securities typically include both debt and equity; one must therefore calculate both the cost of debt and the cost of equity to determine a company's cost of capital. Importantly, both cost of debt and equity must be forward looking, and reflect the expectations of risk and return in the future. This means, for instance, that the past cost of debt is not a good indicator of the actual forward looking cost of debt.
+- [weighted average cost of capital](../../../../general/weighted%20average%20cost%20of%20capita.md) \(WACC\) ::@:: It is the rate that a company is expected to pay on average to all its security holders to finance its assets. The WACC is commonly referred to as the firm's cost of capital.
+  - weighted average cost of capital / interpretation ::@:: Importantly, it is dictated by the external market and not by management. The WACC represents the minimum return that a company must earn on an existing asset base to satisfy its creditors, owners, and other providers of capital, or they will invest elsewhere. <p> It reflects the return on its "average-risk" investments. It also reflects the cost of raising additional money using the current debt—equity mix.
+  - weighted average cost of capital / calculation ::@:: In general, the WACC can be calculated with the following formula: $${\text{WACC} }={\frac {\sum _{i=1}^{N}r_{i}\cdot MV_{i} }{\sum _{i=1}^{N}MV_{i} } }$$ where $N$ is the number of sources of capital \(securities, types of liabilities\); $r_{i}$ is the required [rate of return](../../../../general/rate%20of%20return.md) for security $i$; and $MV_{i}$ is the market value of all outstanding securities $i$.
+    - weighted average cost of capital / calculation / special case ::@:: In the case where the company is financed with only [equity](../../../../general/equity%20(finance).md) and debt, the average cost of capital is computed as follows: $${\text{WACC} }={\frac {D}{D+E} }K_{d}+{\frac {E}{D+E} }K_{e}$$ where $D$ is the total debt, $E$ is the total shareholder's equity, $K_{d}$ is the [cost of debt](../../../../general/cost%20of%20capital.md#cost%20of%20debt), and $K_{e}$ is the [cost of equity](../../../../general/cost%20of%20equity.md). The market values of debt and equity should be used when computing the weights in the WACC formula.
+    - weighted average cost of capital / calculation / preferred equity ::@:: Use the general formula. The weights should add up to 1.
+    - weighted average cost of capital / calculation / tax ::@:: Tax effects can be incorporated into this formula. For example, the WACC for a company financed by one type of shares with the total market value of $MV_{e}$ and cost of equity $R_{e}$ and one type of bonds with the total market value of $MV_{d}$ and cost of debt $R_{d}$, in a country with corporate tax rate $t$, is calculated as: $${\text{WACC} }={\frac {MV_{e} }{MV_{d}+MV_{e} } }\cdot R_{e}+{\frac {MV_{d} }{MV_{d}+MV_{e} } }\cdot R_{d}\cdot (1-t)$$
+  - weighted average cost of capital / debt ::@:: _The firm's debt component is stated as k<sub>d</sub>_ and since there is a tax benefit from interest payments then the after tax WACC component is k<sub>d</sub>\(1-T\); where T is the [tax rate](../../../../general/tax.md). <p> This is because interest expense is tax-deductible. The k<sub>d</sub> component for _new_ debt can be found using YTM on existing debt or comparable bonds with the same credit rating in the market.
+  - weighted average cost of capital / equity ::@:: Weighted average cost of capital equation: WACC= \(W<sub>d</sub>\)\[\(K<sub>d</sub>\)\(1-t\)\]+ \(W<sub>pf</sub>\)\(K<sub>pf</sub>\)+ \(W<sub>ce</sub>\)\(K<sub>ce</sub>\)
+  - weighted average cost of capital / uses ::@:: Based on the _valuation principle_, it can be used to discount future incremental free cash flows. Note however, since _debt tax shield_ is considered, it computes the _levered_ value of an investment rather than the _unlevered_ value we have been calculating many many lectures before. <p> It can be used for new investments of _comparable risk_ to the rest of the firm and that does not affect the _current debt—equity ratio_.
+  - weighted average cost of capital / assumptions ::@:: constant debt—equity ratio: The firm adjust its leverage continuously to maintain the ratio of the debt _market_ value to equity _market_ value. <br/> investment risk is the same as the firm's average risk <br/> limited leverage effects: Only debt tax shield is considered, but other leverage effects, such as possible financial distress, are assumed insignificant at the current level of debt.
+- cost of capital
+  - cost of capital / cost of retained earnings ::@:: Note that retained earnings are a component of equity, and, therefore, the cost of retained earnings \(internal equity\) is equal to the cost of equity as explained above. Dividends \(earnings that are paid to investors and not retained\) are a component of the return on capital to equity holders, and influence the cost of capital through that mechanism.
+  - cost of capital / suitability ::@:: If a project is of similar risk to a company's average business activities it is reasonable to use the company's average cost of capital as a basis for the evaluation or cost of capital is a firm's cost of raising funds. However, for projects outside the core business of the company, the current cost of capital may not be the appropriate yardstick to use, as the risks of the businesses are not the same. <p> A division-based/project-based cost of capital may be used instead.
+  - cost of capital / project-based ::@:: To calculate the cost of capital for project with market risk that is different from the risk for the overall firm, we can use the WACC \(or other metrics, e.g. beta\) of similar projects in the market \(e.g. competitors\). <p> For firms with multiple divisions with different risk characteristics, the same goes for calculating the cost of capital for a division.
+- [questions § week 14 lecture 2](questions.md#week%2014%20lecture%202)
+- [TAPPS/week 14 lecture 2](assignments/TAPPS/week%2014%20lecture%202.md)
+- readings: chapter 13 \(skip 13.6\)
 
 ## final examination
+
+- datetime: 2025-05-21T16:30:00+08:00/2025-03-21T19:00:00+08:00, PT2H30M
+- venue: S H Ho Sports Hall, Academic Building
+- format
+  - calculator: yes; financial calculator
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: formulas
+  - questions: multiple choice questions ×45
+- grades: 98/100
+  - breakdown
+    - challenging: 30/30
+      - multiple choice questions ×10
+    - conceptual: 32/34
+      - multiple choice questions ×17
+    - numerical: 36/36
+      - multiple choice questions ×18
+  - statistics
+    - timestamps: 2025-05-26T14:00:00+08:00
+    - mean: 73.25
+    - standard deviation: ? \(provided: 17\)
+    - low: 0
+    - lower quartile: 62
+    - median: 81.11 \(provided: 78\)
+    - upper quartile: 87
+    - high: 98 \(provided: 98\)
+    - distribution: ![final examination distribution](attachments/final%20examination%20distribution.svg)
+- report
+  - sunk cost and not included in FCF \(−2\) ::@:: Competitive effects are considered _sunk cost_ as well.
+  - operating expenses and depreciation expenses \(0\) ::@:: Read the question to see if depreciation expenses are included in operating expenses, e.g. keywords like "additional depreciation". In this exam, they are usually considered separate.
+- check: \(none\)
 
 ## aftermath
 
 ### total
+
+- grades: 94.59/100
+  - note: class bonus card ×9, individual bonus card ×10
+  - statistics: \(none\)

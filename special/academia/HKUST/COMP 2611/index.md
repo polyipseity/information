@@ -217,7 +217,7 @@ The content is in teaching order.
     - flip-flop / SR NOR latch / operations ::@:: hold/_quiescent_/latch state: If S and R are both 0, Q and its complement keep their previous outputs. <br/> set: If S is 1 and R is 0, Q becomes 1 and its complement becomes 0. <br/> unset: If S is 0 and R is 1, Q becomes 0 and its complement becomes 1. <br/> _forbidden/race condition_: S and R are not allowed to be both 1, as both outputs are now 0. Then, if S and R both goes to 0 _simultaneously_ afterwards, the outputs are metastable and may eventually lock at either 1 or 0 depending on the propagation time relations between the gates. <!--SR:!2025-09-09,153,347!2025-06-19,93,367-->
 - [race condition](../../../../general/race%20condition.md) ::@:: It is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events, leading to unexpected or inconsistent results. It becomes a bug when one or more of the possible behaviors is undesirable. <!--SR:!2025-10-07,141,420!2025-09-22,137,420-->
   - race condition / in electronics ::@:: A typical example of a race condition may occur when a logic gate combines signals that have traveled along different paths from the same source. The inputs to the gate can change at slightly different times in response to a change in the source signal. The output may, for a brief period, change to an unwanted state before settling back to the designed state. <!--SR:!2025-10-13,147,420!2025-10-07,141,420-->
-  - race condition / note ::@:: \(__this course__: __Important__. It seems like the actual rules for deciding if a state is _forbidden_ is very complicated. It seems like there are three ways this can arise: adjacent 1s or 0s not covered by a contagious grouping, undefined states of SR latch, and shortest paths to latch states passing through undefined states. See the Karnaugh map race hazards examples below.\) <!--SR:!2025-10-04,138,420!2025-10-04,138,420-->
+  - race condition / note ::@:: \(__this course__: __important__: It seems like the actual rules for deciding if a state is _forbidden_ is very complicated. It seems like there are three ways this can arise: adjacent 1s or 0s not covered by a contagious grouping, undefined states of SR latch, and shortest paths to latch states passing through undefined states. See the Karnaugh map race hazards examples below.\) <!--SR:!2025-10-04,138,420!2025-10-04,138,420-->
 - Karnaugh map
   - Karnaugh map / race hazards ::@:: Karnaugh maps are useful for detecting and eliminating race conditions. Race hazards are very easy to spot using a Karnaugh map, because a race condition _may_ exist when moving between any pair of adjacent, but disjoint, regions circumscribed on the map. <p> Whether glitches will actually occur depends on the physical nature of the implementation, and whether we need to worry about it depends on the application. In clocked logic, it is enough that the logic settles on the desired value in time to meet the timing deadline. In our example, we are not considering clocked logic. <!--SR:!2025-10-14,148,420!2025-10-03,137,420-->
     - Karnaugh map / race hazards / SR latch ::@:: Consider the circuit $$\begin{aligned} Q & = \overline{R + \overline{S + Q} } = \overline R (S + Q) = \overline R S + \overline R Q \\ \overline Q & = \overline{S + \overline{R + \overline Q} } = \overline S (R + \overline Q) = R \overline S + \overline S \, \overline Q \,. \end{aligned}$$ <p> Its K-maps are: <p> ![SR latch K-map Q](attachments/SR%20latch%20K-map%20Q.png) <br/> ![SR latch K-map not Q](attachments/SR%20latch%20K-map%20not%20Q.png) <p> The _latch_ states are also grouped. Take note of the two labeled transitions, each transition making its two states "adjacent". While we can see movement between any adjacent pair of 1s or 0s is covered by a continuous region, there are 2 undefined states. These are also _race hazards_ \(but of a _different kind_ from that described above\). <!--SR:!2025-10-05,139,420!2025-06-25,56,360-->
@@ -296,8 +296,8 @@ The content is in teaching order.
   - two's complement / max ::@:: It has all bits set to 1 except for the sign bit, which is set to 0. <!--SR:!2025-07-05,102,386!2025-07-06,103,386-->
   - two's complement / min ::@:: It has all bits set to 0 except for the sign bit, which is set to 1. <!--SR:!2025-07-04,101,386!2025-07-01,98,386-->
     - two's complement / min / weirdness ::@:: Notice what happens if we try to negate the minimum integer. It becomes itself instead of actually negating. This is because its corresponding positive integer is not representable. <!--SR:!2026-03-08,277,366!2025-06-26,94,386-->
-- [integer overflow](../../../../general/integer%20overflow.md) ::@:: It occurs when an arithmetic operation on integers attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value. <p> (_Important_: In this course, we also use "integer underflow", see below.) <!--SR:!2025-06-24,92,386!2025-06-30,98,386-->
-  - integer overflow / integer underflow ::@:: The above definition of "integer overflow" refers to the ideal result being outside the representable range. <p> An alternative definition uses "integer overflow" to refer to the ideal result being _higher_ than the maximum representable integer, while using "integer underflow" to refer to the ideal result being _lower_ than the minimum representable integer. <p> (_Important_: In this course, we use the latter definition.) <!--SR:!2025-07-03,100,386!2025-07-02,99,386-->
+- [integer overflow](../../../../general/integer%20overflow.md) ::@:: It occurs when an arithmetic operation on integers attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value. <p> \(__this course__: __important__: We also use "integer underflow", see below.\) <!--SR:!2025-06-24,92,386!2025-06-30,98,386-->
+  - integer overflow / integer underflow ::@:: The above definition of "integer overflow" refers to the ideal result being outside the representable range. <p> An alternative definition uses "integer overflow" to refer to the ideal result being _higher_ than the maximum representable integer, while using "integer underflow" to refer to the ideal result being _lower_ than the minimum representable integer. <p> \(__this course__: __important__: We use the latter definition.\) <!--SR:!2025-07-03,100,386!2025-07-02,99,386-->
 
 ## week 4 lecture
 
@@ -653,30 +653,30 @@ The content is in teaching order.
 
 - datetime: 2025-03-24T19:30:00+08:00/2025-03-24T21:00:00+08:00, PT1H30M
   - actual: 2025-03-24T19:30:00+08:00/2025-03-24T21:10:00+08:00, PT1H40M
-- venue: Lecture Theater A; Lecture Theater B
+- venue: Lecture Theater A, Academic Building; Lecture Theater B, Academic Building
 - format
   - calculator: no
   - cheatsheet: no
   - referencing: closed book, closed notes
   - provided: \(none\)
-  - questions: multiple choice questions ×8, long questions ×5
+  - questions: multiple choice questions ×17, long questions ×5
 - grades: 91/100 → 96/100
   - statistics
     - timestamps: 2025-03-27T15:17+08:00 → 2025-03-29+08:00
     - mean: ? \(provided: 71.56\) → 70.54
-    - standard deviation: ? \(provided: 16.41) → ?
+    - standard deviation: ? \(provided: 16.41\) → ?
     - low: 0 → 0
     - lower quartile: 60 → 60
     - median: 73 \(provided: 73\) → 73
     - upper quartile: 84 → 84
     - high: 97 → 100
-    - distribution: ![midterm examination distribution](attachments/distribution.png) → ?
+    - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.png) → ?
 - report
   - race hazards \(–4\) ::@:: It seems like the rules for deciding if a state is _forbidden_ is more complex than expected. See above. <!--SR:!2025-10-08,142,420!2025-10-16,150,420-->
   - time limit ::@:: Plenty of time left. In fact, the instructor added an extra 10 minutes... <!--SR:!2025-10-01,135,420!2025-10-13,147,420-->
 - check
   - datetime: 2025-03-28T19:00:00+08:00 → 2025-03-28T20:30:00+08:00
-  - venue: Lecture Theater C
+  - venue: Lecture Theater C, Academic Building
   - report
     - MIPS programming \(+5\) ::@:: I think the TA gave up looking at the very messy organization of the code... <!--SR:!2025-10-07,141,420!2025-10-10,144,420-->
 
@@ -699,7 +699,7 @@ The content is in teaching order.
 - MARS
   - [MARS](MARS.md)
     - [§ system calls](MARS.md#system%20calls)
-    - MARS / generate random numbers ::@:: Usually in C, we use the current system timestamp as the RNG seed. Then we generate random numbers, limiting its range using the modulo operator. <p> We can do the same in MARS using syscalls. <!--SR:!2025-09-30,134,420!2025-10-01,135,420-->
+  - MARS / generate random numbers ::@:: Usually in C, we use the current system timestamp as the RNG seed. Then we generate random numbers, limiting its range using the modulo operator. <p> We can do the same in MARS using syscalls. <!--SR:!2025-09-30,134,420!2025-10-01,135,420-->
 - MIPS architecture
   - [MIPS](MIPS.md)
     - [§ jump instructions](MIPS.md#jump%20instructions): `beq`, `bne`, `j`
@@ -713,7 +713,7 @@ The content is in teaching order.
 - topic: arithmetic logic unit \(ALU\)
 - [arithmetic logic unit](../../../../general/arithmetic%20logic%20unit.md) \(ALU\) ::@:: It is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers. <!--SR:!2025-10-12,146,420!2025-10-06,140,420-->
   - arithmetic logic unit / processor ::@:: It is an important part of a processor, with the other parts being cache, control unit, and registers. <!--SR:!2025-10-02,136,420!2025-10-13,147,420-->
-  - arithmetic logic unit / bitwidth ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together. <!--SR:!2025-10-07,141,420!2025-10-03,137,420-->
+  - arithmetic logic unit / bit width ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together. <!--SR:!2025-10-07,141,420!2025-10-03,137,420-->
   - arithmetic logic unit / functions ::@:: arithmetic, bit shift, bitwise logical, other \(passthrough\) <!--SR:!2025-09-24,139,420!2025-10-08,142,420-->
     - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output. <!--SR:!2025-09-20,135,420!2025-10-15,149,420-->
 - [adder](../../../../general/adder%20(electronics).md) ::@:: It is a digital circuit that performs addition of numbers. <!--SR:!2025-10-03,137,420!2025-09-19,134,420-->
@@ -727,7 +727,7 @@ The content is in teaching order.
     - adder / ripple-carry adder / characteristics ::@:: The layout of a ripple-carry adder is simple, which allows fast design time; however, the ripple-carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder. <!--SR:!2025-10-05,139,420!2025-10-07,141,420-->
 - method of complements
 - arithmetic logic unit
-  - arithemtic logic unit / signals ::@:: data, opcode, status \(outputs, inputs) <!--SR:!2025-10-12,146,420!2025-10-02,136,420-->
+  - arithmetic logic unit / signals ::@:: data, opcode, status \(outputs, inputs\) <!--SR:!2025-10-12,146,420!2025-10-02,136,420-->
     - arithmetic logic unit / signals / data ::@:: 2 inputs, 1 output; their bit widths are usually the same, and same as the native ISA <!--SR:!2025-10-12,146,420!2025-10-11,145,420-->
     - arithmetic logic unit / signals / opcode ::@:: It conveys to the ALU an operation selection code, which is an enumerated value that specifies the desired arithmetic or logic operation to be performed by the ALU. <p> Passing it to a multiplexor/selector can be used to choose the right output. <!--SR:!2025-10-02,136,420!2025-10-06,140,420-->
     - arithmetic logic unit / signals / status outputs ::@:: carry-out, zero, negative, overflow, parity, etc. <!--SR:!2025-10-06,140,420!2025-10-08,142,420-->
@@ -736,8 +736,8 @@ The content is in teaching order.
     - arithmetic logic unit / functions / bitwise operations ::@:: Use the corresponding logic gates. <!--SR:!2025-10-16,150,420!2025-10-04,138,420-->
     - arithmetic logic unit / functions / addition ::@:: Use full-adders. Two common ways to add multiple-bit numbers are _ripple carry_ and _carry lookahead_. <!--SR:!2025-09-23,138,420!2025-09-21,136,420-->
     - arithmetic logic unit / functions / subtraction ::@:: Assuming signed integers are represented using two's complement. <p> The circuit for addition can be reused. However, the second operand \(the _subtrahend_\) needs to be inverted and then added one to get its complement. One way to implement this is to invert the second operand \(by setting an additional input _binvert_ to 1\), and additionally set the carry-in of the LSB full-adder to 1. We could combine these two inputs \(_binvert_ + carry-in of LSB\) as an input _bnegate_. <!--SR:!2025-10-08,142,420!2025-10-03,137,420-->
-    - arithmetic logic unit / functions / comparison ::@:: To check if `$s < $t`, we can use `slt $d, $s, $t`. This is equivalent to checking `$s - $t < 0`, i.e. checking if the sign bit \(assuming no overflow\) of `$s - $t` equals 1. <p> To implement `slt`, we can add a _less_ input to all ALUs, which is passthrough as the _less_ output \(opcode: SLT\). Then, the _less_ input is always zero except for the LSB ALU, which is connected to a _set_ output of the MSB ALU. The _set_ output is simply the subtraction MSB bit. \(__this course__: The lecture slides do not handle overflows. To handle overflows, detect if a subtraction overflow is possible, i.e. the two operand sign bits are different, and if so, the _set_ output uses the sign bit of the second operand.\) <p> Remember to also set the carry-in bit of the LSB to perform subtraction properly. <!--SR:!2025-08-19,104,400!2025-06-25,56,360-->
-    - arithmetic logic unit / functions / equal ::@:: To check if `$s = $t` \(e.g. `beq`\), this is equivalent to checking `$s - $t == 0`. <p> To implement this, it is similar to subtraction, but you additionally add a NOR gate acting on all the output bits. This produces a _zero_ status output, which indicates if the subtraction result is zero. Also in this case, you do not need to worry about overflow affecting the result \(i.e. it is impossible for two distinct signed integers differing so much that their difference overflows to zero\). <!--SR:!2025-08-24,109,400!2025-09-30,134,420-->
+    - arithmetic logic unit / functions / comparison ::@:: To check if `$s < $t`, we can use `slt $d, $s, $t`. This is equivalent to checking `$s - $t < 0`, i.e. checking if the sign bit \(assuming no overrflow\) of `$s - $t` equals 1. <p> To implement `slt`, we can add a _less_ input to all ALUs, which is passthrough as the _less_ output \(opcode: SLT\). Then, the _less_ input is always zero except for the LSB ALU, which is connected to a _set_ output of the MSB ALU. The _set_ output is simply the subtraction MSB bit. \(__this course__: The lecture slides do not handle overflows. To handle overflows, detect if a subtraction overflow is possible, i.e. the two operand sign bits are different, and if so, the _set_ output uses the sign bit of the second operand.\) <p> Remember to also set the carry-in bit of the LSB to perform subtraction properly. <!--SR:!2025-08-19,104,400!2025-06-25,56,360-->
+    - arithmetic logic unit / functions / equal ::@:: To check if `$s = $t` \(e.g. `beq`\), this is equivalent to checking `$s - $t == 0`. <p> To implement this, it is similar to subtraction, but you additionally add a NOR gate acting on all the output bits. This produces a _zero_ status output, which indicates if the subtraction result is zero. Also in this case, you do not need to worry about overrflow affecting the result \(i.e. it is impossible for two distinct signed integers differing so much that their difference overflows to zero\). <!--SR:!2025-08-24,109,400!2025-09-30,134,420-->
   - arithmetic logic unit / diagram ::@:: An arithmetic logic unit and its associated status register. The stored carry-out is connected to carry-in to facilitate efficient carry propagation: <p> ![An arithmetic logic unit and its associated status register.](../../../../archives/Wikimedia%20Commons/AluStatusRegister.svg) <!--SR:!2025-08-21,106,400!2025-10-11,145,420-->
   - arithmetic logic unit / note ::@:: \(__this course__: Our 32-bit ALU has an AND gate \(00\), a OR gate \(01\), a full adder \(10\), and _less_ passthrough \(11\). Additionally, it has a _bnegate_ input as the 3rd control signal. Thus we support 5 operations: 000: AND; 001: OR; 010: ADD; 110: SUB; 111: SLT.\) <!--SR:!2025-07-16,77,380!2025-10-05,139,420-->
 - adder
@@ -755,14 +755,14 @@ The content is in teaching order.
   - binary multiplier / binary long multiplication
     - binary multiplier / binary long multiplication / implementation, naive ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, zero-extend the multiplicand to 2\*_n_ bits. Have another 2\*_n_-bit register to store the _product_, initialized to all 0s. <p> Perform the following steps _n_ times: Add the multiplicand to the product if the LSB of the multiplier is 1. Then shift the multiplicand left by 1 bit and the multiplier right by 1 bit. <!--SR:!2025-08-22,107,400!2025-10-08,142,420-->
       - binary multiplier / binary long multiplication / implementation, naive / observations ::@:: Only half of the zero-extended multiplicand bits ever contain useful information. Also, using a 2\*_n_-bit ALU is slower than using a _n_-bit ALU. <p> We also note that later additions do not affect the product LSBs. This hints at a better implementation... <!--SR:!2025-10-11,145,420!2025-10-08,142,420-->
-    - binary multiplier / binary long multiplication / implementation ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, have another 2\*_n_-bit register to store the _product_. <p> Perform the following steps _n_ times: Add the multiplicand to the upper _n_ bits of product if the LSB of the multiplier is 1. Then shift the _product_ and the multiplier right by 1 bit. <!--SR:!2025-08-23,108,400!2025-10-10,144,420-->
-      - binary multiplier / binary long multiplication / implementation / observations ::@:: No multiplicand bits are wasted. We can keep using a _n_-bit ALU. <p> We also note that the product contains 1 _more_ bit of useful information and the multiplier contains 1 _less_ bit of useful information per addition. This means we can combine the product and multiplier registers into one 2\*_n_-bit register, where initially the multiplier value is stored into the lower _n_ bits, and then shift them right by 1 bit together per addition. <!--SR:!2025-10-05,139,420!2025-09-30,134,420-->
+    - binary multiplier / binary long multiplication / implementation, improved ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, have another 2\*_n_-bit register to store the _product_. <p> Perform the following steps _n_ times: Add the multiplicand to the upper _n_ bits of product if the LSB of the multiplier is 1. This addition may overflow by at most 1 bit: save it. Then shift the _product_ and the multiplier right by 1 bit. If the previous addition overflows, set the highest bit of product to 1. <!--SR:!2025-08-23,108,400!2025-10-10,144,420-->
+      - binary multiplier / binary long multiplication / implementation, improved / observations ::@:: No multiplicand bits are wasted. We can keep using a _n_-bit ALU. <p> We also note that the product contains 1 _more_ bit of useful information and the multiplier contains 1 _less_ bit of useful information per addition. This means we can combine the product and multiplier registers into one 2\*_n_-bit register, where initially the multiplier value is stored into the lower _n_ bits, and then shift them right by 1 bit together per addition. <!--SR:!2025-10-05,139,420!2025-09-30,134,420-->
+    - binary multiplier / binary long multiplication / implementation ::@:: We have a _n_-bit _multiplicand_ \(first operand\) and a _n_-bit _multiplier_ \(second operand\). Assume both integers are unsigned. <p> First, have another 2\*_n_-bit register to store the _product_. Store the multiplier into \(the lower bits of\) the register. <p> Perform the following steps _n_ times: Add the multiplicand to the upper _n_ bits of product if the LSB of the product is 1. This addition may overflow by at most 1 bit: save it. Then shift the _product_ right by 1 bit. If the previous addition overflows, set the highest bit of product to 1.
   - binary multiplier / signed ::@:: The simplest idea is to consider the sign explicitly. Both the multiplicand and the multiplier are forced to become positive. Multiply them to get a positive product. Finally, if the original multiplicand and multiplier signs disagree, negate the product. <p> A more efficient and elegant idea is [Booth's multiplication algorithm](../../../../general/Booth's%20multiplication%20algorithm.md). <!--SR:!2025-10-01,135,420!2025-10-02,136,420-->
 - MIPS architecture
   - [MIPS](MIPS.md)
     - [§ instructions](MIPS.md#data%20instructions): two's complement is used to represent signed integers
     - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `mult`, `multu`
-    - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `srl`, `sra`
 
 ## week 9 lab
 
@@ -779,6 +779,26 @@ The content is in teaching order.
 - datetime: 2025-04-02T14:00:00+08:00/2025-04-02T15:30:00+08:00, PT1H30M
 - topic: multiplication, division
 - status: makeup, online, recorded
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ data instructions](MIPS.md#bitwise%20instructions): `mflo`, `mfhi`
+  - MIPS architecture / multiplication ::@:: The product register is `$HI:$LO`. That is, `$HI` is its upper half bits and `$LO` is its lower half bits.
+    - MIPS architecture / multiplication / overflow ::@:: If you consider the entire product register `$HI:$LO` together, multiplication never overflows. However, if you force yourself to consider one register only \(i.e. if `$LO` can store the product\), then an overflow occurs if `$HI` bits are not all 0 for unsigned multiplication or `$HI` bits are not all the sign bit of `$LO` for signed multiplication. \(__this course__: Consider one register only.\)
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `srl`, `sra`
+- [binary divider](../../../../general/binary%20divider.md) ::@:: It is an electronic circuit used in digital electronics, such as a computer, to divide two binary numbers.
+  - binary divider / binary long division ::@:: Similar to long division taught in school.
+    - binary divider / binary long division / implementation, naive ::@:: We have a _n_-bit _dividend_ \(first operand\) and a _n_-bit _divisor_ \(second operand\). Assume both integers are unsigned. <p> First, zero-extend the dividend to 2\*_n_ bits, and also call it _remainder_. Zero-extend the divisor to 2\*_n_ bits as well, with the original divisor in the upper bits. Have another _n_-bit register to store the _quotient_, initialized to all 0s. <p> Perform the following steps _n_+1 times: Subtract divisor from dividend/remainder. If the MSB is 1 \(dividend/remainder is negative interpreted as a signed number\), undo \(add divisor\). Otherwise, keep it unchanged. Shift the quotient left by 1 bit, and set its rightmost bit to 0 if undo happens or 1 otherwise. Shift the divisor right by 1 bit.
+      - binary divider / binary long division / implementation, naive / variation ::@:: The above steps are in the lecture slides. Below is a simpler variant: The registers are initialized in the same way. Then the remaining steps are different. <p> Perform the following steps _n_ \(not _n_+1\) times: Shift the divisor right by 1 bit. Shift the quotient left by 1 bit. Subtract divisor from dividend/remainder. If the MSB is 1 \(dividend/remainder is negative interpreted as a signed number\), undo \(add the divisor\). Otherwise, keep it unchanged. Set the rightmost bit of quotient to 0 if undo happens or 1 otherwise. <p> Isn't it so much better?
+      - binary divider / binary long division / implementation, naive / observations ::@:: Only half of the zero-extended divisor bits ever contain useful information. Also, using a 2\*_n_-bit ALU is slower than using a _n_-bit ALU. <p> We also note that the quotient contains 1 _more_ bit of useful information and the dividend/remainder contains 1 _less_ bit of useful information per subtraction. This means we can combine the dividend/remainder and quotient registers into one 2\*_n_-bit register, where initially the dividend value is stored into the lower _n_ bits, and then shift them left by 1 bit together per subtraction. This hints at a better implementation...
+    - binary divider / binary long division / implementation ::@:: We have a _n_-bit _dividend_ \(first operand\) and a _n_-bit _divisor_ \(second operand\). Assume both integers are unsigned. <p> First, have another 2\*_n_-bit register to store the _dividend_/_remainder_/_quotient_. Store the dividend into \(the lower bits of\) the register. <p> Before the first iteration, shift dividend/remainder/quotient left by 1 bit. Perform the following steps _n_ times: Subtract divisor from dividend/remainder/quotient. If the MSB is 1 \(dividend/remainder/quotient is negative interpreted as a signed number\), undo \(add divisor\). Otherwise, keep it unchanged. Shift dividend/remainder/quotient left by 1 bit, and set its rightmost bit to 0 if undo happens or 1 otherwise. After the last iteration, shift the upper half bits of dividend/remainder/quotient right by 1 bit \(correction\).
+      - binary divider / binary long division / implementation / variation ::@:: The above steps are in the lecture slides. Below is a simpler variant: The registers are initialized in the same way. Then the remaining steps are different. <p> Perform the following steps _n_ times: Shift dividend/remainder/quotient left by 1 bit. Subtract divisor from dividend/remainder/quotient. If the MSB is 1 \(dividend/remainder/quotient is negative interpreted as a signed number\), undo \(add divisor\). Otherwise, keep it unchanged. Set its rightmost bit to 0 if undo happens or 1 otherwise. <p> Isn't it so much better? No correction step is needed!
+      - binary divider / binary long division / implementation / observations ::@:: No divisor bits are wasted. We can keep using a _n_-bit ALU.
+  - binary divider / signed ::@:: The idea is to consider the sign explicitly. Both the dividend and the divisor are forced to become positive. Divide them to get a positive remainder and quotient. If the original dividend and divisor signs disagree, negate the quotient. Negate the remainder if the original dividend is negative. A mnemonic for the remainder sign is: dividend=divisor\*quotient+remainder. <p> Unfortunately \(or fortunately for your examinations\) there is no [Booth's multiplication algorithm](../../../../general/Booth's%20multiplication%20algorithm.md) analog for division.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `div`, `divu`
 
 > Dear student of COMP2611 L2,
 >
@@ -799,8 +819,589 @@ The content is in teaching order.
 - datetime: 2025-04-04T09:00:00+08:00/2025-04-04T10:20:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
+## week 10 lecture
+
+- datetime: 2025-04-07T13:30:00+08:00/2025-04-07T14:50:00+08:00, PT1H20M
+- topic: floating-point arithmetic
+- tags: optional
+- [floating-point arithmetic](../../../../general/floating-point%20arithmetic.md) \(FP\) ::@:: It is arithmetic on subsets of real numbers formed by a _significand_ \(a signed sequence of a fixed number of digits in some base\) multiplied by an integer power of that base.
+  - floating-point arithmetic / addition ::@:: Align decimal points by shifting the number with the smaller exponent. Add the significands. Normalize and check for underflow and overflow \(may set exceptions\). Round \(depends on rounding mode\). Start from the normalize step again if not normalized. Otherwise, it is the result.
+    - floating-point arithmetic / addition / hardware ::@:: Probably contains an integer adder. Much more complicated than an integer adder. Likely requires multiple clock cycles, pipelined; otherwise would make one clock cycle too long.
+  - floating-point arithmetic / multiplication ::@:: Add the exponents. Multiply the significands. Normalize and check for underflow and overflow \(may set exceptions\). Round \(depends on rounding mode\). Start from the normalize step again if not normalized. Otherwise, continue. Set the sign bit from the operands.
+    - floating-point arithmetic / multiplication / hardware ::@:: Probably contains an integer multiplier. Much more complicated than an integer multiplier. Likely requires multiple clock cycles, pipelined; otherwise would make one clock cycle too long.
+  - floating-point arithmetic / operations ::@:: addition, subtraction, multiplication, division, reciprocal, square root, integer conversion, etc.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ floating point](MIPS.md#floating%20point)
+    - [§ floating-point instructions](MIPS.md#floating-point%20instructions): `add.s`, `add.d`, `sub.s`, `sub.d`, `mul.s`, `mul.d`, `div.s`, `div.d`, `c.*.s` \(`*` is `eq`, `neq`, `lt`, `le`, `gt`, `ge`\), `c.*.d` \(`*` is `eq`, `neq`, `lt`, `le`, `gt`, `ge`\), `bc1t`, `bc1f`, `lwc1`, `swc1`
+- floating-point arithmetic
+  - floating-point arithmetic / accuracy problems ::@:: The fact that floating-point numbers cannot accurately represent all real numbers, and that floating-point operations cannot accurately represent true arithmetic operations, leads to many surprising situations. This is related to the finite precision with which computers generally represent numbers.
+  - floating-point arithmetic / addition
+    - floating-point arithmetic / addition / intermediate ::@:: For binary addition or subtraction using careful implementation techniques only a _guard_ bit, a _rounding_ bit and one extra _sticky_ bit need to be carried beyond the precision of the operands.
+  - floating-point arithmetic / rounding modes ::@:: Rounding is used when the exact result of a floating-point operation \(or a conversion to floating-point format\) would need more digits than there are digits in the significand. IEEE 754 requires _correct rounding_: that is, the rounded result is as if infinitely precise arithmetic was used to compute the value and then rounded \(although in implementation only three extra bits are needed to ensure this\). There are several different [rounding](../../../../general/rounding.md) schemes \(or _rounding modes_\).
+
+## week 10 lab
+
+- datetime: 2025-04-08T15:00:00+08:00/2025-04-08T15:50:00+08:00, PT50M
+- topic: MIPS recursion
+- [recursion](../../../../general/recursion.md) ::@:: \(_this_\) occurs when the definition of a concept or process depends on a simpler or previous version of itself. \(_this_\) is used in a variety of disciplines ranging from linguistics to logic. The most common application of \(_this_\) is in mathematics and computer science, where a function being defined is applied within its own definition.
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures): recursion
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): `$ra`
+    - [§ memory layout](MIPS.md#memory%20layout): stack
+
+## week 10 tutorial
+
+- datetime: 2025-04-08T18:00:00+08:00/2025-04-08T18:50:00+08:00, PT50M
+- topic: MIPS machine code, procedures
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ encoding](MIPS.md#encoding): R format, I format, J format
+    - [§ operands](MIPS.md#operands): zero extension, sign extension
+    - [§ calling conventions](MIPS.md#calling%20conventions)
+    - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): registers, caller-saved, callee-saved
+    - [§ procedures](MIPS.md#procedures): caller, callee
+
+## week 10 lecture 2
+
+- datetime: 2025-04-11T09:00:00+08:00/2025-04-11T10:20:00+08:00, PT1H20M
+- topic: single-cycle datapath
+- [single-cycle processor](../../../../general/single-cycle%20processor.md) ::@:: It is a processor that carries out one instruction in a single clock cycle.
+- [classic RISC pipeline](../../../../general/classic%20RISC%20pipeline.md) ::@:: In the history of computer hardware, some early reduced instruction set computer central processing units \(RISC CPUs\) used a very similar architectural solution.
+  - classical RISC pipeline / stages ::@:: IF = instruction fetch → ID = instruction decode → EX = execute → MEM = memory access → WB = _register_ write back
+- [datapath](../../../../general/datapath.md) ::@:: It is a collection of functional units such as arithmetic logic units \(ALUs\) or multipliers that perform data processing operations, registers, and buses. Along with the control unit it composes the central processing unit \(CPU\). A larger data path can be made by joining more than one data paths using multiplexers.
+  - datapath / components ::@:: adder, arithmetic logic unit \(ALU\), data memory, instruction memory, multiplexers, program counter \(PC\), register file, etc.
+- classical RISC pipeline
+  - classical RISC pipeline / instruction fetch ::@:: The instructions reside in memory that takes one cycle to read. This memory can be dedicated to SRAM, or an Instruction Cache. A 32-bit instruction is fetched from the instruction memory.
+    - classical RISC pipeline / instruction fetch / program counter ::@:: The program counter \(PC\) is a register that holds the address that is presented to the instruction memory. The address is presented to instruction memory at the start of a cycle. Then during the cycle, the instruction is read out of instruction memory, and at the same time, a calculation is done to determine the next PC. The next PC is calculated by incrementing the PC by 4, and by choosing whether to take that as the next PC or to take the result of a branch/jump calculation as the next PC. Note that in classic RISC, all instructions have the same length.
+    - classical RISC pipeline / instruction fetch / MIPS ::@:: Simplified. A PC counter connected to an adder that adds 4 per cycle \(with pipelining, this number needs to be multiplied\) to execute the next instruction. A multiplexer controlled by the _PCSrc_ control signal is added for branching \(to be elaborated later\). The adder connects to the multiplexer. The multiplexer writes back to the PC counter. The PC counter outputs to the instruction memory to output a 32-bit instruction. <p> relevant control signals: __Branch__, __PCSrc__, __Zero__
+  - classical RISC pipeline / instruction decode ::@:: All MIPS, SPARC, and DLX instructions have at most two register inputs. During the decode stage, the indexes of these two registers are identified within the instruction, and the indexes are presented to the register memory, as the address. Thus the two registers named are read from the register file. In the MIPS design, the register file had 32 entries.
+    - classical RISC pipeline / instruction decode / branch ::@:: If the instruction decoded is a branch or jump, the target address of the branch or jump is computed in parallel with reading the register file. The branch condition is computed in the following cycle \(after the register file is read\), and if the branch is taken or if the instruction is a jump, the PC in the first stage is assigned the branch target, rather than the incremented PC that has been computed. Some architectures made use of the Arithmetic logic unit \(ALU\) in the Execute stage, at the cost of slightly decreased instruction throughput. \(__this course__: ALUs are used in the execute stage only.\)
+    - classical RISC pipeline / instruction decode / MIPS ::@:: Simplified. The `opcode` field \(first 6 bits\) goes to the control unit \(CU\), which then asserts the control signals correctly. The remaining bits are fed into the register file and the ALU used for arithmetic. Multiplexers controlled by the control signals are added as needed so that R format, I format, and J format instructions are decoded correctly and the registers are read correctly. <p> relevant control signals: __RegDst__
+  - classical RISC pipeline / execute ::@:: The Execute stage is where the actual computation occurs. Typically this stage consists of an ALU, and also a bit shifter. It may also include a multiple cycle multiplier and divider. <p> The ALU is responsible for performing Boolean operations \(and, or, not, nand, nor, xor, xnor\) and also for performing integer addition and subtraction. Besides the result, the ALU typically provides status bits such as whether or not the result was 0, or if an overflow occurred. <p> The bit shifter is responsible for shift and rotations. \(__this course__; This stage contains all ALUs. Outside information may put the branching ALU the stage before or after.\)
+    - classical RISC pipeline / execute / latency ::@:: - Register-Register Operation \(Single-cycle latency\): Add, subtract, compare, and logical operations. During the execute stage, the two arguments were fed to a simple ALU, which generated the result by the end of the execute stage. <br/> - Memory Reference \(Two-cycle latency\): All loads from memory. During the execute stage, the ALU added the two arguments \(a register and a constant offset\) to produce a virtual address by the end of the cycle.
+    - classical RISC pipeline / execute / MIPS ::@:: Simplified. There is a sign extension component for extending the 16-bit immediate. An ALU for arithmetic or calculating memory address runs. A separate ALU for calculating branching address also runs, which feeds into the multiplexer before the PC counter. Multiplexers controlled by the control signals are added as needed. <p> relevant control signals: __ALUOp__, __ALUSrc__, __Branch__, __Zero__
+  - classical RISC pipeline / memory access ::@:: If data memory needs to be accessed, it is done in this stage. <p> During this stage, single cycle latency instructions simply have their results forwarded to the next stage. This forwarding ensures that both one and two cycle instructions always write their results in the same stage of the pipeline so that just one write port to the register file can be used, and it is always available.
+    - classical RISC pipeline / memory access / MIPS ::@:: Simplified. There is a data memory component for reading from and writing to the main memory. The memory address is taken from the ALU otherwise for arithmetic. The data is taken from the second read register. _MemRead_ and _MemWrite_ control if the component reads, writes, or does nothing. <p> relevant control signals: __MemRead__, __MemWrite__
+  - classical RISC pipeline / register write back ::@:: During this stage, both single cycle and two cycle instructions write their results into the register file.
+    - classical RISC pipeline / register write back / hazard ::@:: Note that two different stages are accessing the register file at the same time—the decode stage is reading two source registers, at the same time that the writeback stage is writing a previous instruction's destination register. On real silicon, this can be a hazard \(see below for more on hazards\). That is because one of the source registers being read in decode might be the same as the destination register being written in writeback. When that happens, then the same memory cells in the register file are being both read and written the same time. On silicon, many implementations of memory cells will not operate correctly when read and written at the same time.
+    - classical RISC pipeline / register write back / MIPS ::@:: Simplified. A multiplexer controlled by _MemToReg_ is fed the output of ALU for arithmetic and the data memory output. _RegWrite_ controls the register file if the multiplexer output writes back to the destination register. <p> relevant control signals: __MemToReg__, __RegWrite__
+
+## week 11 lecture
+
+- datetime: 2025-04-14T13:30:00+08:00/2025-04-14T14:50:00+08:00, PT1H20M
+- topic: single-cycle control
+- [control unit](../../../../general/control%20unit.md) \(CU\) ::@:: It is a component of a computer's central processing unit \(CPU\) that directs the operation of the processor. A CU typically uses a binary decoder to convert coded instructions into timing and control signals that direct the operation of the other units \(memory, arithmetic logic unit and input and output devices, etc.\).
+  - control unit / MIPS ::@:: Our CPU uses two-level decoding. The `opcode` field is decoded by the main CU, which outputs a 2-bit _ALUOp_. The ALU control unit takes the 2-bit _ALUOp_ and the 6-bit `funct` field and outputs a 4-bit ALU control signal.
+    - control unit / MIPS / one-level decoding ::@:: If one-level decoding is used, then the ALU control unit takes the full 6-bit `opcode` field instead of the 2-bit _ALUOp_. More input bits are required, and the logic is potentially more complicated and slower.
+    - control unit / MIPS / _ALUOp_ ::@:: \(__this course__: Our _ALUOp_ contains two bits. The operations: 00: ignore `funct`, force ADD; 01/X1: ignore `funct`, force SUBTRACT; 10/1X: decode `funct`; 11: undefined. 10 is only used with R format, because it has the `funct` field. 00 is used for memory access instructions. 01 is used for branching instructions. <p> We can implement converting the 8-bit inputs into 4-bit inputs using simple logic gates, simplifying it using many don't care values.\)
+    - control unit / MIPS / arithmetic logic unit ::@:: \(__this course__: Our 32-bit ALU has an AND gate \(00\), a OR gate \(01\), a full adder \(10\), and _less_ passthrough \(11\). Additionally, it has a _bnegate_ input as the 3rd control signal. Thus we support 5 operations: 000: AND; 001: OR; 010: ADD; 110: SUB; 111: SLT. <p> But our ALU control signal is 4 bit! We add another bit \(unexplained\), and the above functions has this bit as 0. We add a new function: 1100: NOR. No idea why they do that.\)
+    - control unit / MIPS / signals ::@:: 9 of them \(10 bits\): _ALUOp_ \(2 bits\), _ALUSrc_, _Jmp_, _PCSrc_ \(_Branch_ AND _Zero_\), _MemRead_, _MemToReg_, _MemWrite_, _RegDst_, _RegWrite_
+    - control unit / MIPS / _RegDst_ ::@:: 0: `rt` as destination register; 1: `rd` as destination register
+    - control unit / MIPS / _RegWrite_ ::@:: 1: write to the destination register
+    - control unit / MIPS / _ALUSrc_ ::@:: 0: second read register; 1: sign-extended 16-bit immediate
+    - control unit / MIPS / _PCSrc_ ::@:: 0: use PC+4; 1: use calculated branch address <p> It is calculated from _Branch_ \(from the main CU\) AND _Zero_ \(from the ALU for arithmetic\).
+    - control unit / MIPS / _MemRead_ ::@:: 1: read from the main memory
+    - control unit / MIPS / _MemWrite_ ::@:: 1: write to the main memory
+    - control unit / MIPS / _MemToReg_ ::@:: 0: write back uses ALU for arithmetic; 1: write back uses value read from the main memory
+    - control unit / MIPS / implementation ::@:: Using a truth table, adding don't cares for simplification, we can use a PLA to configure the 10-bit outputs from the 6-bit `opcode` field.
+      - control unit / MIPS / implementation / don't cares ::@:: They help simplify the truth table. Compare setting a signal to 0 vs. 1 to see if it makes any behavioral difference. If not, use don't care. <p> _MemRead_ and _MemWrite_ almost always need to be asserted \(cannot be don't care\), otherwise bad memory addresses may be read from or written to.
+    - control unit / MIPS / _Jmp_ ::@:: So far, we are missing the case for pseudo-address jumps \(Actually also register jump `jr`, but the lecture slides do not cover it.\). Simply add extra control signals, datapath, and multiplexers! In this case, the _Jmp_ signal controls an additional multiplexer. <p> 0: PC behavior remains the same as before; 1: use the calculated address
+- single-cycle processor
+  - single-cycle processor / disadvantages ::@:: It cannot run very fast. The instruction with the greatest latency \(e.g. load word `lw`, excluding multi-cycle instructions\), known as the _critical_ path, determines the minimum clock period. We cannot vary the period for different instructions. It violates the design principle "fast common cases". <p> _Pipelining_ mitigates this.
+- single-cycle processor
+
+## week 11 lab
+
+- datetime: 2025-04-15T15:00:00+08:00/2025-04-15T15:50:00+08:00, PT50M
+- topic: MARS debugging
+- MARS
+  - MARS / debugging ::@:: breakpoint, registers, step, undo
+    - MARS / debugging / breakpoint ::@:: You can set breakpoints. The program will pause whenever execution reaches a breakpoint. Then you can perform other debugging actions.
+    - MARS / debugging / step ::@:: You can execute exactly one instruction and then pause.
+    - MARS / debugging / undo ::@:: You can undo one instruction and then pause. However, system calls generally cannot be undone.
+    - MARS / debugging / register ::@:: When the program is paused, you can view and modify register values.
+
+## week 11 tutorial
+
+- datetime: 2025-04-15T18:00:00+08:00/2025-04-15T18:50:00+08:00, PT50M
+- topic: nested procedures, arithmetic logic unit
+- MIPS architecture
+  - [MIPS](MIPS.md)
+    - [§ procedures](MIPS.md#procedures): procedures, nested procedures
+    - [§ jump instructions](MIPS.md#jump%20instructions): `jal`, `jr`
+- adder
+  - adder / ripple-carry adder
+- method of complements
+- arithmetic logic unit
+  - arithmetic logic unit / signals
+
+## week 11 lecture 2
+
+- datetime: 2025-04-18T09:00:00+08:00/2025-04-18T10:20:00+08:00, PT1H20M
+- status: unscheduled, public holiday: Good Friday
+
+## week 12 lecture
+
+- datetime: 2025-04-21T13:30:00+08:00/2025-04-21T14:50:00+08:00, PT1H20M
+- status: unscheduled, public holiday: Easter Monday
+
+## week 12 lab
+
+- datetime: 2025-04-22T15:00:00+08:00/2025-04-22T15:50:00+08:00, PT50M
+- topic: building a 4-bit arithmetic logic unit with Logisim
+- arithmetic logic unit
+  - arithmetic logic unit / signals
+- Logisim
+  - Logisim / arithmetic logic unit ::@:: Essentially follow the lecture slides. Reuse circuits by saving them and using them as libraries.
+
+## week 12 tutorial
+
+- datetime: 2025-04-22T18:00:00+08:00/2025-04-22T18:50:00+08:00, PT50M
+- topic: computer arithmetic
+- binary multiplier
+  - binary multiplier / binary long multiplication
+    - binary multiplier / binary long multiplication / implementation, naive
+    - binary multiplier / binary long multiplication / implementation, improved
+    - binary multiplier / binary long multiplication / implementation
+  - binary multiplier / signed
+- binary divider
+  - binary divider / binary long division
+    - binary divider / binary long division / implementation, naive
+    - binary divider / binary long division / implementation
+  - binary divider / signed
+- [Booth's multiplication algorithm](../../../../general/Booth's%20multiplication%20algorithm.md) ::@:: \(__this course__: optional\) <p> \(_this_\) is a multiplication algorithm that multiplies two signed binary numbers in two's complement notation. The algorithm was invented by Andrew Donald Booth in 1950.
+  - Booth's multiplication algorithm / idea ::@:: \(__this course__: optional\) <p> Express the multiplier in binary. Each consecutive group of 1s can be expressed as one addition and one subtraction. This reduces the number of operations. <p> For example, we rewrite the multiplier as 01111110<sub>\(2\)</sub>=10000000<sub>\(2\)<sub>-00000010<sub>\(2\)</sub>. Then we only need an addition and a subtraction instead of 6 additions.
+  - Booth's multiplication algorithm / implementation ::@:: \(__this course__: optional\) <p> Booth's algorithm can be implemented by repeatedly adding \(with ordinary unsigned binary addition\) one of two predetermined values _A_ and _S_ to a product _P_, then performing a rightward [arithmetic shift](../../../../general/arithmetic%20shift.md) on _P_. Let __m__ and __r__ be the [multiplicand](../../../../general/multiplicand.md) and [multiplier](../../../../general/multiplication.md#terminology), respectively; and let _x_ and _y_ represent the number of bits in __m__ and __r__.
+    - Booth's multiplication algorithm / implementation / setup ::@:: \(__this course__: optional\) <p> 1. Determine the values of _A_ and _S_, and the initial value of _P_. All of these numbers should have a length equal to \(_x_ + _y_ + 1\). <br/> &emsp; 1. A: Fill the most significant \(leftmost\) bits with the value of __m__. Fill the remaining \(_y_ + 1\) bits with zeros. <br/> &emsp; 2. S: Fill the most significant bits with the value of \(−<!-- markdown separator -->__m__\) in two's complement notation. Fill the remaining \(_y_ + 1\) bits with zeros. <br/> &emsp; 3. P: Fill the most significant _x_ bits with zeros. To the right of this, append the value of __r__. Fill the least significant \(rightmost\) bit with a zero.
+    - Booth's multiplication algorithm / implementation / loop ::@:: \(__this course__: optional\) <p> 2. Determine the two least significant \(rightmost\) bits of _P_. <br/> &emsp; 1. If they are 01, find the value of _P_ + _A_. Ignore any overflow. <br/> &emsp; 2. If they are 10, find the value of _P_ + _S_. Ignore any overflow. <br/> &emsp; 3. If they are 00, do nothing. Use _P_ directly in the next step. <br/> &emsp; 4. If they are 11, do nothing. Use _P_ directly in the next step. <br/> 2. [Arithmetically shift](../../../../general/arithmetic%20shift.md) the value obtained in the 2nd step by a single place to the right. Let _P_ now equal this new value. <br/> 3. Repeat steps 2 and 3 until they have been done _y_ times. <br/> 4. Drop the least significant \(rightmost\) bit from _P_. This is the product of __m__ and __r__.
+    - Booth's multiplication algorithm / implementation / overflow ::@:: \(__this course__: optional\) <p> Overflow is ignored. This is because for each group of 1s, subtraction is performed before addition. And multiplication of two _signed_ integers cannot overflow _x_ + _y_ bits. So overflow is impossible.
+  - Booth's multiplication algorithm / signedness ::@:: \(__this course__: optional\) <p> Note that this algorithm is for multiplying _signed_ integers, not _unsigned_ ones. _Unsigned_ multiplication can overflow _x_ + _y_ bits \(but not _x_ + _y_ + 1 bits\).
+
+## week 12 extra tutorial
+
+- datetime: 2025-04-22T20:30:00+08:00/2025-04-22T21:20:00+08:00, PT50M
+- topic: programming assignment
+
+> Dear all,
+>
+> You may have noticed that the PA has been released, and the deadline is <br/>
+> May 11. \[redacted\], the designer of the PA, will kindly conduct a PA <br/>
+> Intro and Q&A session tomorrow \(Tuesday\) evening at 8:30 PM via Zoom.
+>
+> Canvas Zoom link: \[redacted\]
+>
+> You are welcome to join in real time. We will also record the session and release the video afterwards.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\] <br/>
+> COMP2611 Instructors
+
+## week 12 lecture 2
+
+- datetime: 2025-04-25T09:00:00+08:00/2025-04-25T10:20:00+08:00, PT1H20M
+- topic: pipeline basics
+- [instruction pipelining](../../../../general/instruction%20pipelining.md) ::@:: It is a technique for implementing instruction-level parallelism within a single processor. Pipelining attempts to keep every part of the processor busy with some instruction by dividing incoming instructions into a series of sequential steps \(the eponymous "pipeline"\) performed by different processor units with different parts of instructions processed in parallel.
+  - instruction pipelining ::@:: The steps should be independent of each other. It does not help with the latency \(execution time\) of a single instruction, but it increases instruction throughput \(number of instructions per time\). <p> The maximum potential speedup factor equals the number of stages. This requires the stages takes the same time, otherwise the factor decreases.
+- [Gantt chart](../../../../general/Gantt%20chart.md) ::@:: It is a bar chart that illustrates a project schedule. It can show the sequence, duration, and dependence of activities.
+- MIPS architecture
+  - MIPS architecture / pipeline ::@:: It is designed for pipelining. Its instructions have the same size. Its instruction formats are few and similar. It supports memory operands in loads and stores only. It requires memory operands to be aligned, so memory access at most requires a single transfer.
+- classical RISC pipeline
+  - classical RISC pipeline / instruction fetch
+  - classical RISC pipeline / instruction decode
+  - classical RISC pipeline / execute
+  - classical RISC pipeline / memory access
+  - classical RISC pipeline / register write back
+    - classical RISC pipeline / register write back / hazard
+  - classical RISC pipeline / diagram ::@:: The stage-by-stage architecture of a MIPS microprocessor with a pipeline. Although the memory is shown twice for clarity of the pipeline, MIPS architectures have only one memory bank \(i.e. von Neumann architecture\). <p> ![The stage-by-stage architecture of a MIPS microprocessor with a pipeline. Although the memory is shown twice for clarity of the pipeline, MIPS architectures have only one memory bank \(i.e. von Neumann architecture\).](../../../../archives/Wikimedia%20Commons/MIPS%20Architecture%20(Pipelined).svg) <p> \(__this course__: Note some components are different from taught in this course. In particular, there are two separate ALUs, one for arithmetic and the other for branching, as opposed to only one ALU in this diagram. Control signals are missing from this diagram.\)
+- instruction pipelining
+  - instruction pipelining / pipeline registers ::@:: In between each stage \(so 4 components for the classical RISC pipeline\), there is a component storing information from the previous stage produced in the previous cycle. Their names are "\(before stage\)/\(after stage\)", e.g. "EX/MEM".
+- classical RISC pipeline
+  - classical RISC pipeline / instruction decode
+    - classical RISC pipeline / instruction decode / register write back ::@:: In a pipelined CPU, the destination register input and the _RegWrite_ signal is forwarded from the MEM/WB pipeline register instead of from the current instruction executing in the ID stage. <p> Further, the register writing for the current instruction executing in the WB stage is performed in the first half of the current cycle, and the register reading for the current instruction executing in the ID stage is performed in the second half of the current cycle. This also implies the execution time of the ID stage and WB stage should add up to one cycle at most.
+  - classical RISC pipeline / note ::@:: \(__this course__: The IF stage contains the adder and the instruction memory. The ID stage stops right after the outputs of control unit, register file, sign-extension component, and the lower instruction bits. The EXE stage contains components not covered by other stages in this description, thus in particular including arithmetic ALU, branching ALU and its shift-left-by-2-bits component, and _RegDst_ multiplexer. The MEM stage contains the AND gate for _PCSrc_ and data memory. The WB stage contains the _MemToReg_ multiplexer.\)
+  - classical RISC pipeline / diagrams ::@:: single-clock-cycle pipeline diagram, multi-clock-cycle pipeline diagram
+    - classical RISC pipeline / diagrams / single-clock-cycle ::@:: It shows the current state of all stages in the same cycle.
+    - classical RISC pipeline / diagrams / multi-clock-cycle ::@:: Literally just an Gantt chart.
+
+## week 12 extra tutorial 2
+
+- datetime: 2025-04-25T20:30:00+08:00/2025-04-25T21:20:00+08:00, PT50M
+- topic: homework 2
+
+> Dear COMP2611 students,
+>
+> It's toward the end of semester and our PGTAs will offer optional Zoom <br/>
+> tutorials on HW2 and HW3 to help you review the related topics. You can <br/>
+> also ask any questions related afterwards.
+>
+> HW3 tutorial: Fri \(Apr 25\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> HW2 tutorial: coming Mon \(Apr 28\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> You can also find the Zoom links under COMP2611 Canvas.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\]
+
+## week 13 lecture
+
+- datetime: 2025-04-28T13:30:00+08:00/2025-04-28T14:50:00+08:00, PT1H20M
+- topic: pipeline control, pipeline hazards
+- classical RISC pipeline
+  - classical RISC pipeline / control ::@:: How to pipeline control signals? Just pass the control signals along the pipeline the same way you pass the corresponding data along the datapath. When a control signal is used in a stage and will not be further used, you do not need to pass it further. <p> Extra: The PC+4 value is also passed along the stages \(note the PC+4 in a stage uses the PC of the currently executing instruction in that stage\), and is written to the PC register at the start of the MEM stage \(not WB stage!\). <p> Below shows what control signals are used in each stage.
+    - classical RISC pipeline / control / instruction fetch ::@:: control signals used: \(none\) <p> The PC+4 value and the _PCSrc_ signal is received from the MEM stage at the start of the cycle.
+    - classical RISC pipeline / control / instruction decode ::@:: control signals used: \(none\) <p> The _RegWrite_ signal is received from the WB stage.
+    - classical RISC pipeline / control / execute ::@:: control signals used: _ALUOp_, _ALUSrc_, _RegDest_
+    - classical RISC pipeline / control / memory access ::@:: control signals used: _MemRead_, _MemWrite_, _PCSrc_ \(_Branch_ AND _Zero_\)
+    - classical RISC pipeline / control / register write back ::@:: control signals used: _MemToReg_, _RegWrite_
+- [hazard](../../../../general/hazard%20(computer%20architecture).md) ::@:: They are are problems with the instruction pipeline in CPU microarchitectures when the next instruction cannot execute in the following clock cycle, and can potentially lead to incorrect computation results.
+  - hazard / causes ::@:: data dependency, control dependency
+    - hazard / causes / data dependency ::@:: read after write: An instruction writes to a register. A very close next instruction reads from the same register.
+    - hazard / causes / control dependency ::@:: The next instruction address is unavailable due to an ongoing branch or jump.
+  - hazard / types ::@:: Three common types of hazards are data hazards, structural hazards, and control hazards \(branching hazards\).
+    - hazard / types / data ::@:: Hazards caused by data dependencies.
+    - hazard / types / structural ::@:: A required hardware is busy.
+    - hazard / types / control ::@:: Hazards caused by control dependencies.
+  - hazard / bubbling ::@:: It can always resolve hazards. In the extreme case of always waiting, it degenerates the pipeline into working like a single-cycle processor \(but each instruction takes 5 cycles\).
+    - hazard / bubbling / note ::@:: \(__this course__: Ignore below. Also, if a question asks you to add bubbles \(BUB\), by default only add them before the IF stage of the instruction being bubbled. Do not put bubbles after the ID stage or propagate bubbles to other instructions.\) <p> Strictly speaking, we can only bubble after instruction decode \(ID\), the second step, is done, otherwise we do not know that the instruction requires bubbling. That means the bubble starts after ID.
+  - hazard / structural hazards ::@:: A structural hazard occurs when two \(or more\) instructions that are already in pipeline need the same resource. The result is that instruction must be executed in series rather than parallel for a portion of pipeline. Structural hazards are sometimes referred to as resource hazards. <p> Example: A situation in which multiple instructions are ready to enter the execute instruction phase and there is a single ALU \(Arithmetic Logic Unit\). One solution to such resource hazard is to increase available resources, such as having multiple ports into main memory and multiple ALU \(Arithmetic Logic Unit\) units.
+    - hazard / structural hazards / memory ::@:: Instructions and data are in the same main memory. If the same memory is used in the IF and MEM stage, these two stages cannot run at the same time. <p> A solution is to use separate memories, or have separate caches: instruction cache and data cache.
+    - hazard / structural hazards / registers ::@:: Both ID and WB stage uses the register file. <p> The solution is that the WB stage runs in the first half of a cycle and ID stage runs in the second half of a cycle. This is possible because register access is very fast. This also means writing to and then reading from the same register in a cycle is well-defined.
+  - hazard / data hazards ::@:: A piece of data is computed but not yet stored to the register file or the main memory. A currently executing instruction requires this piece of data, but reading from the register file or the main memory would yield the old value. Waiting definitely can solve this, but there are other solutions: operand forwarding, out-of-order execution, etc. <p> In the classical RISC pipeline: Assuming no mitigations, a _register_ read after write requires two bubbles so that the WB stage \(first half of the cycle\) aligns with the ID stage \(second half of the cycle\).
+    - hazard / data hazard / operand forwarding ::@:: A piece of data is computed but not yet stored to the register file or the main memory. We add extra datapaths to the CPU so that it can be forwarded to any stage in the next cycle. Extra control signals and multiplexers are added so that the new value forwarded instead of the old value read is used in the next cycle.
+      - hazard / data hazard / operand forwarding / limitation ::@:: Note that the data can only be passed forward in time - the data cannot be bypassed back to an earlier stage if it has not been processed yet. <p> This means bubbles are still needed. However, operand forwarding may still help by reducing the number of bubbles required. <p> In the classical RISC pipeline: A _register_ read after write, but the data comes from the MEM stage, requires one bubble instead of two bubbles with forwarding.
+    - hazard / data hazard / out-of-order execution ::@:: Reorder code so that dependant instructions are far enough away. Of course, you have to be careful that this does not change the program behavior. <p> The reordering could be done by a assembler, a compiler, or by the CPU hardware.
+  - hazard / control hazards ::@:: The next instruction address is unavailable due to an ongoing branch or jump. <p> In the MIPS implementation as described so far above, the next instruction address is fed back into the PC counter at the start of the MEM stage, which requires two bubbles! This is way too slow!
+    - hazard / control hazards / hardware ::@:: __important__: Two bubbles is too slow! So we add extra hardware and control signals, so that branches \(including the comparison results\) and jumps are computed in the ID stage. Then the next instruction address is available at the start of the EX stage, requiring one bubble only. __We assume this henceforth.__ <p> sidenote: Actually, the above is kinda wrong... Rather, the branch conditions are checked in the EX stage in the first half of a cycle. This is possible because the branch conditions are very simple. Then the result and the address are forwarded to the IF stage. The IF stage only runs in the second half of a cycle. <!-- <https://stackoverflow.com/a/58601958> -->
+    - hazard / control hazards / schemes ::@:: Since we require one bubble, we can mitigate this bubble by inserting something to do in the bubble. What to insert there depends on the scheme used. Obviously, the program behavior needs to be preserved. <p> There are four schemes to solve this performance problem with branches: predict not taken, branch likely, branch delay slot, and branch prediction.
+      - hazard / control hazards / schemes / predict not taken ::@:: Always fetch the instruction after the branch from the instruction cache, but only execute it if the branch is not taken. If the branch is not taken, the pipeline stays full. If the branch is taken, the instruction is flushed \(marked as if it were a NOP\), and one cycle's opportunity to finish an instruction is lost.
+      - hazard / control hazards / schemes / branch likely ::@:: Always fetch the instruction after the branch from the instruction cache, but only execute it if the branch was taken. The compiler can always fill the branch delay slot on such a branch, and since branches are more often taken than not, such branches have a smaller IPC penalty than the previous kind.
+      - hazard / control hazards / schemes / branch delay slot ::@:: Depending on the design of the delayed branch and the branch conditions, it is determined whether the instruction immediately following the branch instruction is executed even if the branch is taken. Instead of taking an IPC penalty for some fraction of branches either taken \(perhaps 60%\) or not taken \(perhaps 40%\), branch delay slots take an IPC penalty for those branches into which the compiler could not schedule the branch delay slot. The SPARC, MIPS, and MC88K designers designed a branch delay slot into their ISAs.
+      - hazard / control hazards / schemes / branch prediction ::@:: In parallel with fetching each instruction, guess if the instruction is a branch or jump, and if so, guess the target. On the cycle after a branch or jump, fetch the instruction at the guessed target. When the guess is wrong, flush the incorrectly fetched target.
+
+## week 13 extra tutorial
+
+- datetime: 2025-04-28T20:30:00+08:00/2025-04-28T21:20:00+08:00, PT50M
+- topic: homework 3
+
+> Dear COMP2611 students,
+>
+> It's toward the end of semester and our PGTAs will offer optional Zoom <br/>
+> tutorials on HW2 and HW3 to help you review the related topics. You can <br/>
+> also ask any questions related afterwards.
+>
+> HW3 tutorial: Fri \(Apr 25\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> HW2 tutorial: coming Mon \(Apr 28\) 8:30pm by \[redacted\]
+> \[redacted\]
+>
+> You can also find the Zoom links under COMP2611 Canvas.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\]
+
+## week 13 lab
+
+- datetime: 2025-04-29T15:00:00+08:00/2025-04-29T15:50:00+08:00, PT50M
+- topic: building a computer with Logisim
+- single-cycle processor
+- classical RISC pipeline
+  - classical RISC pipeline / diagram
+- datapath
+- Logisim
+  - Logisim / computer ::@:: Essentially simply follow the lecture slides. Use the RAM component in Logisim to store data and instructions. Reuse circuits by saving them and using them as libraries.
+
+## week 13 tutorial
+
+- datetime: 2025-04-29T18:00:00+08:00/2025-04-29T18:50:00+08:00, PT50M
+- topic: single-cycle datapath, single-cycle control
+- datapath
+- classic RISC pipeline
+  - classic RISC pipeline / instruction fetch
+  - classic RISC pipeline / instruction decode
+  - classic RISC pipeline / execute
+  - classic RISC pipeline / memory access
+  - classic RISC pipeline / register write back
+- control unit
+
+## week 13 lecture 2
+
+- datetime: 2025-05-02T09:00:00+08:00/2025-05-02T10:20:00+08:00, PT1H20M
+- topic: memory system, locality, hierarchy, performance
+- [memory hierarchy](../../../../general/memory%20hierarchy.md) ::@:: It separates computer storage into a hierarchy based on response time. Since response time, complexity, and capacity are related, the levels may also be distinguished by their performance and controlling technologies.
+  - memory hierarchy / diagram ::@:: Diagram showing the memory hierarchy of a modern computer architecture. <p> ![Diagram showing the memory hierarchy of a modern computer architecture](../../../../archives/Wikimedia%20Commons/ComputerMemoryHierarchy.svg)
+  - memory hierarchy / example ::@:: The list below is sorted in ascending "distance" from the CPU, i.e. time to access data. In general, with increasing "distance", access becomes rarer and capacity becomes higher. <p> - primary storage: registers &lt; cache memory &lt; main memory \(via memory bus\) <br/> - secondary storage: mass storage device \(hard disk\) <br/> - offline storage: removable media \(read by removable media drive\), e.g. CD, DVD <br/> - tertiary storage: even more removable media, but very hard to access \(e.g. via a robotic access system\)
+- [computer memory](../../../../general/computer%20memory.md) ::@:: It stores information, such as data and programs, for immediate use in the computer. The term _memory_ is often synonymous with the terms _RAM_, _main memory_, or _primary storage_.
+  - computer memory / characteristics ::@:: It is fast. Ideally it should also be cost-efficient \(cost per capacity\) and/or large, but it is hard to achieve.
+- [computer data storage](../../../../general/computer%20data%20storage.md) ::@:: It is a technology consisting of computer components and recording media that are used to retain digital data. It is a core function and fundamental component of computers.
+  - computer data storage / characteristics ::@:: It is cost-efficient \(cost per capacity\) and large. Ideally it should also be fast, but it is hard to achieve.
+  - computer data storage / typical access time ::@:: 5–20&nbsp;ms
+  - computer data storage / typical cost ::@:: \$0.2–2 per GB
+- [dynamic random-access memory](../../../../general/dynamic%20random-access%20memory.md) \(DRAM\) ::@:: It is a type of random-access semiconductor memory that stores each bit of data in a memory cell, usually consisting of a tiny capacitor and a transistor, both typically based on metal–oxide–semiconductor \(MOS\) technology. <p> Usually used as the main memory in a computer.
+  - dynamic random-access memory / typical access time ::@:: 50–70&nbsp;ns
+  - dynamic random-access memory / typical cost ::@:: \$20–75 per GB
+  - dynamic random-access memory / diagram ::@:: DRAM ece385 illustrative example, illustrating how DRAM \(dynamic random access memory\) works, with simple 4 by 4 array. <p> ![DRAM ece385 illustrative example, illustrating how DRAM \(dynamic random access memory\) works, with simple 4 by 4 array.](../../../../archives/Wikimedia%20Commons/Square%20array%20of%20mosfet%20cells%20read.svg)
+  - dynamic random-access memory / mechanism ::@:: Oversimplified. Each bit consists of a transistor and a capacitor. The transistor controls read/write. The capacitor stores a bit, with 1 being charged.
+  - dynamic random-access memory / advantages ::@:: They are structurally simple \(only a transistor and a capacitor\). They are high density and low cost.
+  - dynamic random-access memory / disadvantages ::@:: Real capacitors leak electrons. Reading also discharges electrons. So the capacitors need to be refreshed periodically and after read to avoid the information fading away. Hence "dynamic" in the name.
+- [static random-access memory](../../../../general/static%20random-access%20memory.md) \(SRAM\) ::@:: It is a type of random-access memory \(RAM\) that uses latching circuitry \(flip-flop\) to store each bit. SRAM is volatile memory; data is lost when power is removed. <p> Usually used as CPU caches in a computer.
+  - static random-access memory / typical access time ::@:: 0.5–2.5&nbsp;ns
+  - static random-access memory / typical cost ::@:: \$2000–5000 per GB
+  - static random-access memory / diagram ::@:: Circuit diagram of an SRAM cell, built with six MOSFETs. The bulk connection of all transistors is to ground, but is not shown from simplicity. <p> ![Circuit diagram of an SRAM cell, built with six MOSFETs. The bulk connection of all transistors is to ground, but is not shown from simplicity.](../../../../archives/Wikimedia%20Commons/SRAM%20Cell%20(6%20Transistors).svg)
+  - static random-access memory / mechanism ::@:: Oversimplified. Each cell consists of transistors only \(e.g 6 transistors in a CMOS SRAM cell\).
+  - static random-access memory / advantages ::@:: The cells do not need to be refreshed periodically, only power is required. Reading is not destructive. Hence "static" in the name.
+  - static random-access memory / disadvantages ::@:: They are medium density and very high cost.
+- classical RISC pipeline
+  - classical RISC pipeline / memory access ::@:: __important__: We have been assuming memory access takes almost one CPU clock cycle. But in reality, we see the typical access time is much _higher_ than that. _Let's drop the aforementioned assumption henceforth._
+- [hard disk drive](../../../../general/hard%20disk%20drive.md) \(HDD\) ::@:: It is an electro-mechanical data storage device that stores and retrieves digital data using magnetic storage with one or more rigid rapidly rotating platters coated with magnetic material. The platters are paired with magnetic heads, usually arranged on a moving actuator arm, which read and write data to the platter surfaces.
+  - hard disk drive / sector ::@:: A HDD consists of many __disk sectors__. Each is associated with a unique ID, has fixed capacity \(usually 512 bytes, 4096 bytes is increasingly common\). It may support error correction codes \(ECC\) to correct errors invisibly. It haws synchronization fields and gaps for synchronization \(no idea what this means\).
+  - hard disk drive / read ::@:: To calculate average read time, you need to understand how a HDD reads data. <p> First, the head assembly seeks the disk track containing the disk sector to be read. Then it needs to rotate to the disk sector. On average, it needs to rotate half a circle. Then it needs to transfer the data. All data in the disk sector is transferred. Finally, there is a controller overhead.
+    - hard disk drive / read / calculation ::@:: average read time = average seek time \(given\) + rotational latency + transfer time + controller delay \(given\) <br/> rotational latency = 0.5 / \(rpm / 60\) <br/> transfer time = disk sector capacity / transfer rate
+- [solid-state drive](../../../../general/solid-state%20drive.md) \(SSD\) ::@:: It is a type of solid-state storage device that uses integrated circuits to store data persistently.
+  - solid-state drive / vs. hard disk drive ::@:: It could be 100–1000 times faster than HDDs. It is smaller, takes less power, and more robust. Less cost-efficient \(cost per capacity\). <p> Various densities and capacities are achieved by stacking chips in a grid.
+- von Neumann architecture
+  - von Neumann architecture / von Neumann bottleneck ::@:: The use of the same bus to fetch instructions and data leads to the von Neumann bottleneck, the limited throughput \(data transfer rate\) between the central processing unit \(CPU\) and memory compared to the amount of memory. This seriously limits the effective processing speed when the CPU is required to perform minimal processing on large amounts of data. The CPU is continually forced to wait for needed data to move to or from memory.
+    - von Neumann architecture / von Neumann bottleneck / trend ::@:: Since CPU speed and memory size have increased much faster than the throughput between them, the bottleneck has become more of a problem, a problem whose severity increases with every new generation of CPU.
+    - von Neumann architecture / von Neumann bottleneck / mitigations ::@:: Exploiting locality of reference can help mitigate this.
+- [locality of reference](../../../../general/locaity%20of%20reference.md) ::@:: It is the tendency of a processor to access the same set of memory locations repetitively over a short period of time.
+  - locality of reference / types ::@:: There are two basic types of reference locality – temporal and spatial locality. Temporal locality refers to the reuse of specific data and/or resources within a relatively small time duration. Spatial locality \(also termed _data locality_\) refers to the use of data elements within relatively close storage locations.
+- [cache](../../../../general/cache%20(computing).md) ::@:: It is a hardware or software component that stores data so that future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation or a copy of data stored elsewhere. A __cache hit__ occurs when the requested data can be found in a cache, while a __cache miss__ occurs when it cannot.
+  - cache / cache hit ::@:: When the cache client \(a CPU, web browser, operating system\) needs to access data presumed to exist in the backing store, it first checks the cache. If an entry can be found with a tag matching that of the desired data, the data in the entry is used instead. This situation is known as a __cache hit__. The percentage of accesses that result in cache hits is known as the __hit rate__ or __hit ratio__ of the cache.
+  - cache / cache miss ::@:: The alternative situation, when the cache is checked and found not to contain any entry with the desired tag, is known as a __cache miss__. This requires a more expensive access of data from the backing store. Once the requested data is retrieved, it is typically copied into the cache, ready for the next access. <p> The percentage of access that result in cache misses is known as the __miss rate__ of the cache, which is equals one subtracted by the hit rate.
+  - cache / measures ::@:: hit rate, miss rate: described above <br/> hit time: time to determine miss or hit and then access the cache <br/> miss penalty: average time to read the backing store
+- [cache hierarchy](../../../../general/cache%20hierarchy.md) ::@:: It is a memory architecture that uses a hierarchy of memory stores based on varying access speeds to cache data. Highly requested data is cached in high-speed access memory stores, allowing swifter access by central processing unit \(CPU\) cores.
+  - cache hierarchy / average access time \(AAT\) ::@:: average memory latency = hit time + miss rate \* miss penalty <br/> For multilevel caches, the miss penalty of a cache level equals the average memory latency of the next cache level. So you can chain this equation.
+  - cache hierarchy / tradeoffs ::@:: In general, more levels make the average memory latency approach the ideal case \(always cache hit in the first level\), with diminishing returns. It also makes the hardware more complicated and expensive.
+
+## week 14 lecture
+
+- datetime: 2025-05-05T13:30:00+08:00/2025-05-05T14:50:00+08:00, PT1H20M
+- topic: direct mapped cache, block placement, block identification
+- cache
+  - cache / structure ::@:: A cache is made up of a pool of entries. Each entry has associated data, which is a copy of the same data in some _backing store_. Each entry also has a _tag_, which specifies the identity of the data in the backing store of which the entry is a copy. <p> Common used entry sizes \(today\) include 32 bytes and 64 bytes.
+- [cache placement policies](../../../../general/cache%20placement%20policies.md) ::@:: They are policies that determine where a particular memory block can be placed when it goes into a CPU cache. A block of memory cannot necessarily be placed at an arbitrary location in the cache; it may be restricted to a particular cache line or a set of cache lines by the cache's placement policy.
+  - cache placement policies / types ::@:: There are three different policies available for placement of a memory block in the cache: direct-mapped, fully associative, and set-associative. Originally this space of cache organizations was described using the term "congruence mapping".
+  - cache placement policies / identification ::@:: A cache entry has a _tag_, which specifies the identity of the data in the backing store of which the entry is a copy. Sometimes, the cache entry has no valid data yet. Either a special tag value is used to denote this \(e.g. a tag value of all 0s\), or an additional _valid_ bit is used to denote this. \(__this course__: Use the valid bit.\)
+  - cache placement policies / direct-mapped cache ::@:: In a direct-mapped cache structure, the cache is organized into multiple sets with a single cache line per set. Based on the address of the memory block, it can only occupy a single cache line. The cache can be framed as a _n_&nbsp;×&nbsp;1 column matrix. <p> many-to-one mapping
+    - cache placement policies / direct-mapped cache / mapping ::@:: Theoretically, it could be any function taking the address of a memory block and outputting a valid address of a cache block. <p> In practice, it is simply the the address of the memory block the address resides in \(i.e. dropping the byte offset bits and keeping the tag bits and the index bits only\), then modulo it by the number of cache blocks. \(__this course__: Use the mapping in practice.\)
+    - cache placement policies / direct-mapped cache / placement ::@:: - The set is determined by the index bits derived from the address of the memory block. <br/> - The memory block is placed in the set identified and the tag is stored in the tag field associated with the set. <br/> - If the cache line is previously occupied, then the new data replaces the memory block in the cache.
+    - cache placement policies / direct-mapped cache / address subdivision ::@:: If the cache block size and the number of cache blocks are both powers of 2, then any memory address expressed in binary can be subdivided into 3 parts. <p> Assuming the cache block size is 2<sup>_n_</sup>&nbsp;bytes and the number of cache blocks is 2<sup>_m_</sup>. Then the lowest _n_ bits is the _byte offset_. The next lower _m_ bits is the _index_. The remaining highest bits are the _tag_. The memory _block address_ is the address without the byte offset.
+    - cache placement policies / direct-mapped cache / tag ::@:: The tag field of a cache block stores the tag when the address is subdivided. The _index_ bits are not needed: they are the same as the cache block address. So the tag field bit width is the same as the tag bit width. <p> There may also be an extra _valid_ bit, denoting if the cache block has data. \(__this course__: Use the valid bit.\)
+    - cache placement policies / direct-mapped cache / search ::@:: - The set is identified by the index bits of the address. <br> - The tag bits derived from the memory block address are compared with the tag bits associated with the set. \(__this course__: Since we use the valid bit, we also need to check if the valid bit is 1.\) If the tag matches, then there is a cache hit and the cache block is returned to the processor. Else there is a cache miss and the memory block is fetched from the lower memory \\(main memory, disk\).
+- cache
+  - cache / size ::@:: Cache size are often quoted by their data capacity only. The _actual cache size_ is often slightly larger due to extra data required to track cache blocks. <p> Each cache block has the block data, the tag field, and sometimes the valid bit. To calculate the actual cache size _in bits_, find the number of cache blocks. Then find the _actual_ size _in bits_ of a cache block. Finally, multiply it by the number of cache blocks. \(__this course__: We use the valid bit. Also, sizes are expressed in units of powers of 2.\)
+    - cache / size / tradeoff ::@:: Determining cache size requires balancing tradeoffs. Too small, then locality of reference is not exploited fully. Too large, then there are frequent cache misses due to frequent replacement of data.
+  - cache / cache miss
+    - cache / cache miss / CPU ::@:: On cache hit, CPU proceeds normally. On cache miss, the CPU pipeline stalls \(for many bubbles\) until the data is available. Meanwhile, the cache fetches from the backing store \(which could be another cache\). <p> CPU fetches two kinds of data: instruction and data. So usually it has two cache types: instruction cache and data cache. If instruction cache misses, the IF stage restarts. If data cache misses, the CPU waits for the data, which may require a complete data access \(fetch from the main memory\).
+- cache placement policies
+  - cache placement policies / direct-mapped cache
+    - cache placement policies / direct-mapped cache / advantages ::@:: - This placement policy is power efficient as it avoids the search through all the cache lines. <br/> - The placement policy and the replacement policy is simple. <br/> - Simple and low-cost hardware can be used, as only one tag needs to be checked at a time.
+    - cache placement policies / direct-mapped cache / disadvantages ::@:: It has lower cache hit rate, as there is only one cache line available in a set. Every time a new memory is referenced to the same set, the cache line is replaced, which causes conflict miss.
+  - cache placement policies / fully associative cache ::@:: The cache is organized into a single cache set with multiple cache lines. A memory block can occupy any of the cache lines. The cache organization can be framed as 1&nbsp;×&nbsp;m row matrix.
+    - cache placement policies / fully associative cache / advantages ::@:: - Fully associative cache structure provides us the flexibility of placing memory block in any of the cache lines and hence full utilization of the cache. <br/> - The placement policy provides better cache hit rate. <br/> - It offers the flexibility of utilizing a wide variety of replacement algorithms if a cache miss occurs.
+    - cache placement policies / fully associative cache / disadvantages ::@:: - The placement policy is power hungry as the comparison circuitry has to run over the entire cache to locate a block. <br/> - The most expensive of all methods, due to the high cost of associative-comparison hardware.
+    - cache placement policies / fully associative cache / placement ::@:: - The cache line is selected based on the valid bit associated with it. If the valid bit is 0, the new memory block can be placed in the cache line, else it has to be placed in another cache line with valid bit 0. <br/> - If the cache is completely occupied then a block is evicted and the memory block is placed in that cache line. <br/> - The eviction of memory block from the cache is decided by the replacement policy.
+    - cache placement policies / fully associative cache / search ::@:: - The Tag field of the memory address is compared with tag bits associated with all the cache lines. If it matches, the block is present in the cache and is a cache hit. If it does not match, then it is a cache miss and has to be fetched from the lower memory. <br/> - Based on the Offset, a byte is selected and returned to the processor.
+  - cache placement policies / set-associative cache ::@:: Set-associative cache is a trade-off between direct-mapped cache and fully associative cache. <p> A set-associative cache can be imagined as a n&nbsp;×&nbsp;m matrix. The cache is divided into 'n' sets and each set contains 'm' cache lines. A memory block is first mapped onto a set and then placed into any cache line of the set.
+  - cache placement policies / set-associative cache / advantages ::@:: - The placement policy is a trade-off between direct-mapped and fully associative cache. <br/> - It offers the flexibility of using replacement algorithms if a cache miss occurs.
+  - cache placement policies / set-associative cache / disadvantages ::@:: - The placement policy will not effectively use all the available cache lines in the cache and suffers from conflict miss.
+  - cache placement policies / set-associative cache / examples ::@:: one-way \(direct-mapped\), two-way \(common\), four-way \(common\), eight-way, ..., fully associative
+  - cache placement policies / set-associative cache / placement ::@:: - The set is determined by the index bits derived from the address of the memory block. <br/> - The memory block is placed in an available cache line in the set identified, and the tag is stored in the tag field associated with the line. If all the cache lines in the set are occupied, then the new data replaces the block identified through the replacement policy.
+  - cache placement policies / set-associative cache / search ::@:: - The set is determined by the index bits derived from the address of the memory block. <br/> - The tag bits are compared with the tags of all cache lines present in selected set. If the tag matches any of the cache lines, it is a cache hit and the appropriate line is returned. If the tag does not match any of the lines, then it is a cache miss and the data is requested from next level in the memory hierarchy.
+  - cache placement policies / set-associative cache / tradeoffs ::@:: Increasing associativity decreases miss rate but increases hit time \(search time\). But miss rate decrease with diminishing returns.
+  - cache placement policies / set-associative cache / hardware ::@:: In direct-mapped cache, the tag is compared \(__this course__: and the valid bit is checked\) to calculate the _hit_ boolean, while the _data_ is read out. <p> In _n_-way associative cache, the above hardware is duplicated _n_ times. The _hit_ booleans are OR-ed, while the data is selected using a multiplexer. So lookup is _parallel_ in a cache set.
+- [CPU cache](../../../../CPU%20cache.md) ::@:: A hardware cache used by the central processing unit \(CPU\) of a computer to reduce the average cost \(time or energy\) to access data from the main memory. A cache is a smaller, faster memory, located closer to a processor core, which stores copies of the data from frequently used main memory locations.
+  - CPU cache / hierarchy ::@:: Most CPUs have a hierarchy of multiple cache levels \(L1, L2, often L3, and rarely even L4\), with different instruction-specific and data-specific caches at level 1. \(__this course__: The lecture slides show an example CPU with 2 L1 caches and L2 cache. The L1 caches are split into instruction cache and data cache.\)
+  - CPU cache / instruction cache miss ::@:: The IF stage access the instruction pointed by the PC counter. If a cache hit happens, the pipeline continues. <p> Otherwise, a cache miss happens. stall the pipeline. The instruction is read from the main memory and placed into the cache. Then the pipeline restarts, with the IF stage trying to access the same instruction again, this time a cache hit.
+- [cache replacement policies](../../../../general/cache%20replacement%20policies.md) ::@:: They are optimizing instructions or algorithms which a computer program or hardware-maintained structure can utilize to manage a cache of information. Caching improves performance by keeping recent or often-used data items in memory locations which are faster, or computationally cheaper to access, than normal memory stores. When the cache is full, the algorithm must choose which items to discard to make room for new data.
+  - cache replacement policies / this course ::@:: \(__this course__: random replacement \(RR\), least recently used \(LRU\)\)
+  - cache replacement policies / random replacement \(RR\) ::@:: Random replacement selects an item and discards it to make space when necessary. This algorithm does not require keeping any access history. It has been used in ARM processors due to its simplicity, and it allows efficient stochastic simulation.
+  - cache replacement policies / least recently used \(LRU\) ::@:: Discards least recently used items first. This algorithm requires keeping track of what was used and when, which is cumbersome. It requires "age bits" for cache lines, and tracks the least recently used cache line based on these age bits. When a cache line is used, the age of the other cache lines changes. <p> It is costly to implement if associativity exceeds 2 or 4.
+    - cache replacement policies / least recently used \(LRU\) / steps ::@:: On cache miss, replace the LRU position data with the new data, and move it to the MRU position. On cache hit, move the cached data to the MRU position.
+- cache
+  - cache / write policies ::@:: Cache writes must eventually be propagated to the backing store. The timing for this is governed by the _write policy_. The two primary write policies are: _write-through_ and _write-back_.
+    - cache / write policies / write-back ::@:: Initially, writing is done only to the cache. The write to the backing store is postponed until the modified content is about to be replaced by another cache block.
+      - cache / write policies / write-back / advantages ::@:: Processors can write at a rate limited by the cache instead of the memory. Then, when a replacement occurs, the entire cache block is written back into the main memory, effectively merging the writes to fully exploit high bandwidth transfer. <p> Since CPU speeds increase faster than DRAM speeds, this strategy is becoming more common.
+      - cache / write policies / write-back / disadvantages ::@:: A write-back cache is more complex to implement since it needs to track which of its locations have been written over and mark them as _dirty_ for later writing to the backing store. The data in these locations are written back to the backing store only when they are evicted from the cache, a process referred to as a _lazy write_. For this reason, a read miss in a write-back cache may require two memory accesses to the backing store: one to write back the dirty data, and one to retrieve the requested data.
+      - cache / write policies / write-back / write miss ::@:: Typically, a write-back cache typically employs write allocate, anticipating that subsequent writes or reads to the same location will benefit from having the data already in the cache.
+    - cache / write policies / write-through ::@:: Writes are performed synchronously to both the cache and the backing store.
+      - cache / write policies / write-through / advantages ::@:: It is easier to implement than write-back. Handling cache read-miss is simpler, because there is no need to write the dirty data to the memory then read from it, as in write-back.
+      - cache / write policies / write-through / disadvantages ::@:: Multiple writes to the same location waste bandwidth compared to that in write-back. This potentially slows down read. <p> Often, a _write buffer_ to hold data to be written to the main memory is needed for a high-speed system.
+      - cache / write policies / write-through / write-miss ::@:: Typically, a write-through cache uses no-write allocate. Here, subsequent writes have no advantage, since they still need to be written directly to the backing store.
+    - cache / write policies / write-miss ::@:: Write operations do not return data. Consequently, a decision needs to be made for write misses: whether or not to load the data into the cache. This is determined by these _write-miss policies_:
+      - cache / write policies / write-miss / write allocate ::@:: Data at the missed-write location is loaded to cache, followed by a write-hit operation. In this approach, write misses are similar to read misses.
+      - cache / write policies / write-miss / no-write allocate ::@:: Data at the missed-write location is not loaded to cache, and is written directly to the backing store. In this approach, data is loaded into the cache on read misses only.
+
+## week 14 lab
+
+- datetime: 2025-05-06T15:00:00+08:00/2025-05-06T15:50:00+08:00, PT50M
+- status: unscheduled
+
+## week 14 tutorial
+
+- datetime: 2025-05-06T18:00:00+08:00/2025-05-06T18:50:00+08:00, PT50M
+- topic: pipeline
+- classical RISC pipeline
+  - classical RISC pipeline / instruction fetch
+  - classical RISC pipeline / instruction decode
+    - classical RISC pipeline / instruction decode / register write back
+  - classical RISC pipeline / execute
+  - classical RISC pipeline / memory access
+  - classical RISC pipeline / register write back
+    - classical RISC pipeline / register write back / hazard
+  - classical RISC pipeline / diagram
+  - classical RISC pipeline / diagrams
+  - classical RISC pipeline / control
+- hazard
+  - hazard / causes
+    - hazard / causes / data dependency
+    - hazard / causes / control dependency
+  - hazard / types
+    - hazard / types / data
+    - hazard / types / structural
+    - hazard / types / control
+  - hazard / bubbling
+  - hazard / data hazards
+    - hazard / data hazard / operand forwarding
+      - hazard / data hazard / operand forwarding / limitation
+
+## week 14 lecture 2
+
+- datetime: 2025-05-09T09:00:00+08:00/2025-05-09T10:20:00+08:00, PT1H20M
+- topic: virtual memory, revision
+- [virtual memory](../../../../general/virtual%20memory.md) ::@:: It is a memory management technique that provides an "idealized abstraction of the storage resources that are actually available on a given machine" which "creates the illusion to users of a very large \(main\) memory".
+  - virtual memory / motivations ::@:: The primary benefits of virtual memory include freeing applications from having to manage a shared memory space \(protection\), ability to share memory used by libraries between processes, increased security due to memory isolation, and being able to conceptually use more memory than might be physically available, using the technique of paging or segmentation.
+  - virtual memory / operation ::@:: The computer's operating system, using a combination of hardware and software, maps memory addresses used by a program, called _virtual addresses_, into _physical addresses_ in computer memory. Main storage, as seen by a process or task, appears as a contiguous address space or collection of contiguous segments.
+  - virtual memory / capacity extension ::@:: Software within the operating system may extend these capabilities, utilizing, e.g., disk storage, to provide a virtual address space that can exceed the capacity of real memory and thus reference more memory than is physically present in the computer. <p> Pages \(see below\) not used recently is in secondary storage. When the program accesses it, the page is _shuttled_ into memory \(primary storage\) and _replaces_ not recently used pages \(similar to the LRU cache replacement policy\).
+  - virtual memory / paged ::@:: Nearly all current implementations of virtual memory divide a virtual address space into pages, blocks of contiguous virtual memory addresses. Pages on contemporary systems are usually at least 4 kilobytes in size; systems with large virtual address ranges or amounts of real memory generally use larger page sizes.
+    - virtual memory / paged / motivation ::@:: Theoretically, we can have a giant table in memory that maps virtual addresses into physical addresses. But this is impractical. Instead, we split both the virtual and physical address space into _pages_, which are typically 4 kiB in size. Then the mapping operates on pages instead of addresses. Obviously, virtual pages and their corresponding physical pages should have the same size.
+    - virtual memory / paged / page tables ::@:: They are used to translate the virtual addresses seen by the application into physical addresses used by the hardware to process instructions; such hardware that handles this specific translation is often known as the memory management unit.
+      - virtual memory / paged / page tables / structure ::@:: Each entry in the page table holds a flag indicating whether the corresponding page is in real memory or not. If it is in real memory, the page table entry will contain the real memory address at which the page is stored. <p> Unlike cache entries, a tag field is not required since the entire virtual space address is represented in the page table.
+      - virtual memory / paged / page tables / count ::@:: Systems can have, e.g., one page table for the whole system, separate page tables for each address space or process, separate page tables for each segment. \(__this course__: Our systems have one page table, whose address is stored in the _page table register_.\)
+      - virtual memory / paged / page tables / address translation ::@:: Assuming the page size is 2<sup>_n_</sup> bytes. The memory address in binary representation can be separated into 2 parts: _virtual/physical page number_ \(remaining upper bits\) and _page offset_ \(lower _n_ bits\). <p> Address translation is simple: The _virtual_ page number of a _virtual_ memory address is used to access an page table entry, which contains the _physical_ page number if valid, and then simply replace the page number with the physical one to get the _physical_ memory address. <p> Note the number of remaining upper bits can differ between virtual and physical memory addresses.
+      - virtual memory / paged / page tables / page fault ::@:: When a reference is made to a page by the hardware, if the page table entry for the page indicates that it is not currently in real memory, the hardware raises a page fault exception, invoking the paging supervisor component of the operating system. <p> The penalty of a page fault is large. Program execution stalls until the page fault is resolved. So pages should _not_ be too small to reduce page faults, but _not_ too large to reduce _page fragmentation_.
+- [translation lookaside buffer](../../../../general/translation%20lookaside%20buffer.md) \(TLB\) ::@:: It is a memory cache that stores the recent translations of virtual memory to physical memory. It is used to reduce the time taken to access a user memory location. It can be called an address-translation cache.
+  - translation lookaside buffer / motivation ::@:: If TLB is not used, every memory access involves two memory accesses, one to read the page table for address translation, the other to read the actual physical memory. <p> We can exploit locality of reference again to mitigate this...
+  - translation lookaside buffer / associativity ::@:: It is usually a small fully-associative cache with 16 to 64 entries.
+  - translation lookaside buffer / structure ::@:: Each entry in the TLB consists of two parts: a tag and a value. If the tag of the incoming virtual address matches the tag in the TLB, the corresponding value \(physical page number\) is returned. <p> Extra fields in the page table may also be cached as well, including _valid_ bit, _dirty_ bit, _ref_ bit \(if it is in main memory \(primary storage\)\).
+  - translation lookaside buffer / operation ::@:: Mostly works similarly to CPU caches. <p> First, read from TLB. If cached, translate the address. If not, read from page table. If valid, translate the address. Otherwise, a page fault is generated. After the page fault is resolved, the CPU memory access stage restarts.
+
+## week 14 extra tutorial
+
+- datetime: 2025-05-09T20:00:00+08:00/2025-05-09T20:50:00+08:00, PT50M
+- topic: homework 4
+
+> Dear COMP2611 students,
+>
+> We'll offer again the optional tutorial for homework.
+>
+> This Friday \(May 9\) 8pm will be the optional tutorial for HW4. PGTA \[redacted\] <br/>
+> and \[redacted\] are going to lead it.
+>
+> \[redacted\]
+>
+> You can also find the Zoom links under COMP2611 Canvas.
+>
+> Best regards, <br/>
+> \[redacted\] and \[redacted\]
+
 ## final examination
+
+- datetime: 2025-05-19T16:30:00+08:00/2025-05-19T18:30:00+08:00, PT2H
+- venue: S H Ho Sports Hall, Academic Building
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: multiple choice questions ×10, long questions ×7
+- grades: 100/100 → 100/100
+  - statistics
+    - timestamps: 2025-05-22T10:08+08:00 → 2025-05-24T11:32:09+08:00
+    - mean: 58.96 → 59.53 \(provided: 60.12\)
+    - standard deviation: ? → ? \(provided: 19.94\)
+    - low: 0 → 0
+    - lower quartile: 44 → 45
+    - median: 61.5 → 62 \(provided: 62\)
+    - upper quartile: 75.5 → 77
+    - high: 100 → 100
+    - distribution: ? → ![final examination distribution](attachments/final%20examination%20distribution.png)
+- report
+  - cache miss \(0\) ::@:: On cache miss, the CPU \(at least for most designs\) does not _directly_ fetch the data or instruction from the main memory, but does so _indirectly_ via its cache; that is, the data or instruction is loaded into the CPU cache first, then the CPU reads it again, this time with a cache hit.
+  - R format instruction signals \(0\) ::@:: The controls described in the lectures need to be changed to accommodate for a new R format instruction requiring _MemRead_ or _MemWrite_ to be 1. <p> The original controls does not pass the `funct` field to the main control, so it cannot distinguish R format instructions requiring memory access. Without the new instruction, this is okay, since all R format instructions do not require memory access.
+- check
+  - datetime: 2025-05-22T15:30:00+08:00 → 2025-05-22T17:00:00+08:00
+  - venue: Lecture Theater G, Academic Building
+  - report: \(none\)
+
+> Dear COMP2611 students,
+>
+> COMP2611 final exam is arranged on May 19 Monday afternoon. Please find the exam details in this email.
+>
+> Date and Time: May 19 \(Monday\), 4:30 pm – 6:30 pm \(2 hours\)
+>
+> Venue \(main batch\): S H Ho Sports Hall. The seating plan will be released the day before the final exam.
+>
+> Venue \(SEN students\): Room 2302. SEN students will receive individual emails about the special exam time.
+>
+> Coverage: Everything learned \(including tutorials and labs\) during the semester, with emphasis on the knowledge not covered by midterm. For the “memory system” note set, since not all sections finished it, we will cover slides 1-64 \(excluding slide 60\). Anything in the lecture note sets marked “optional” is not included, e.g. CISC vs RISC, Carry Lookahead, Booth algorithm, floating point arithmetic.
+>
+> Reference materials: This is a closed book, closed note exam. The exam paper will provide the following diagrams/resources if needed:
+>
+> Green MIPS information sheet <br/>
+> <https://course.cse.ust.hk/comp2611/reference/MIPS_Green_Sheet.pdf>
+>
+> Diagram of unsigned integer multiplication/division hardware \(optimized version\)
+>
+> Datapath and control of single-cycle processor
+>
+> Datapath and control of pipelined single-cycle processor
+>
+> Past papers:
+>
+> Two sample past papers have already been posted on COMP2611 course website -&gt; Exam.
+>
+> Kindly notice COMP2611 evolves and updates in the past year.  If you have no ideas on an exam question in the past paper, that means it is no longer covered in recent COMP2611 offerings.
+>
+> Although the knowledge tested are the same, exact question format may also vary in each exam.
+>
+> Revision suggestion:
+>
+> Go through the lecture notes once. Make sure you understand the examples and can work them out by your own. Revisit homework and tutorial exercises. Practice sample final exam papers. Then compare your answer with solution and reflect.
+>
+> Online Forum:
+>
+> You can always post your questions to COMP2611 Piazza
+>
+> <https://piazza.com/ust.hk/spring2025/comp2611>
+>
+> Instructor Q&A sessions:
+>
+> \[redacted\], F2F Q&A session
+>
+> May 19 \(Monday\), 11:00am to 1:00pm, Room 3525 \(Lifts 25/26, near CSE admin office\)
+>
+> \[redacted\], F2F Q&A session \(mixed mode, Zoom link \[redacted\] \)
+>
+> May 12 \(Monday\), 3:30pm-5:30pm, Room 3548 \(Lifts 27/28\)
+>
+> Good luck to all your final exams!
+>
+> Best regards,
+>
+> \[redacted\] and \[redacted\]
+>
+> COMP2611 instructors
 
 ## aftermath
 
 ### total
+
+- grades: 98.8/100
+  - statistics: \(none\)

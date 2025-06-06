@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="630" height="930" version="1.1" viewBox="0 0 630 930" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <symbol id="symbol1">
+   <path d="m230 188h-5m-2-4h9m2-4h-13m-2-4h17m-8.5-4v-24m-10.5 24h21m-27-24h33m-16.5-8v-24h-24v-8h-24v8h-23.5m55 24h33m-52.5-63v23m12.5 0h-25" fill="none" stroke="#000" stroke-width="1px"/>
+  </symbol>
+  <symbol id="symbol2">
+   <g fill="none" stroke="#000" stroke-width="1px">
+    <path d="m174.5 803.5v-26"/>
+    <path d="m174.5 786.5h16v-207"/>
+    <path d="m174.5 747.5v-98"/>
+    <path d="m182.5 69.5v485.5l-8 25v47.5"/>
+    <path d="m166.5 627.5h15l-7 23z" stroke-linejoin="bevel"/>
+   </g>
+   <g font-family="Nimbus Sans L" font-size="23.333px">
+    <text x="155.1302" y="580.89246">0</text>
+    <text x="194.84044" y="580.89246">1</text>
+   </g>
+   <circle cx="174.5" cy="580" r="4"/>
+   <circle cx="182.5" cy="451.5" r="4"/>
+   <circle cx="182.5" cy="555" r="4"/>
+   <circle cx="190.5" cy="580" r="4"/>
+   <circle cx="174.5" cy="786.5" r="4"/>
+   <circle cx="182.5" cy="324.5" r="4"/>
+   <circle cx="182.5" cy="196.5" r="4"/>
+  </symbol>
+ </defs>
+ <g fill="none" stroke="#000" stroke-width="1px">
+  <path d="m529 285.5h-378.5"/>
+  <path d="m529 157.5h-378.5"/>
+  <path d="m529 30.5h-378.5"/>
+  <path d="m529 412.5h-378.5"/>
+  <rect x="118.5" y="6.5" width="32" height="430"/>
+  <rect x="150.5" y="547.5" width="374" height="40"/>
+  <rect x="150.5" y="619.5" width="374" height="39"/>
+  <rect x="151.5" y="747.5" width="374" height="30"/>
+  <rect x="151.5" y="803.5" width="374" height="30"/>
+  <rect x="277.5" y="865.5" width="127" height="32"/>
+  <rect x="78.5" y="794.5" width="56" height="48"/>
+  <path d="m151.5 810.5h-17"/>
+  <path d="m134.5 826.5h17"/>
+  <path d="m78.5 809.5h-42v-619h18.5"/>
+  <path d="m78.5 825.5h-62v-655h37.5"/>
+  <path d="m86 190.5h32.5"/>
+  <path d="m86 169.5h32.5"/>
+  <path d="m151.5 762.5h-17v-326"/>
+  <path d="m341.5 833.5v32"/>
+  <path d="m341.5 897.5v24.5"/>
+  <path d="m94 563.5h56.5"/>
+  <g stroke-width="3px">
+    <path d="m110 770.5h16l16-24h16"/>
+    <path d="m158 483.5h-16l-16-24h-8"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="bevel">
+   <path d="m48 193.5-9.5-3 9.5-3"/>
+   <path d="m37 173.5-9.5-3 9.5-3"/>
+   <path d="m108.86 172.5 9.5-3-9.5-3"/>
+   <path d="m108.86 193.5 9.5-3-9.5-3"/>
+   <path d="m137.5 446.5-3-9.5-3 9.5"/>
+   <path d="m140.5 566.5 9.5-3-9.5-3"/>
+   <path d="m141 765.5 9.5-3-9.5-3"/>
+  </g>
+ </g>
+ <g font-family="Nimbus Sans L" font-size="23.333px" style="line-height:1.25">
+  <text x="41.578945" y="572.87976"><tspan x="41.578945" y="572.87976">RAS</tspan></text>
+  <text x="56.795757" y="176.83452"><tspan x="56.795757" y="176.83452">a0</tspan></text>
+  <text x="56.795757" y="199.6981"><tspan x="56.795757" y="199.6981">a1</tspan></text>
+  <text x="534.13538" y="565.55829"><tspan x="534.13538" y="565.55829">MUX</tspan><tspan x="534.13538" y="588.8916">(4P2T)</tspan></text>
+  <text x="531.98883" y="631.97583" font-size="12px"><tspan x="531.98883" y="631.97583">SENSE</tspan><tspan x="531.98883" y="643.97583">AMPLIFIER</tspan><tspan x="531.98883" y="655.97583">(COMPARATOR)</tspan></text>
+  <text transform="rotate(-90)" x="-34.390007" y="142.55513" style="font-size:21.533px;text-align:center;text-anchor:middle"><tspan x="-222.34639" y="142.55513">ROW ADDR. DEMUX: SELECTS ROW</tspan></text>
+  <g font-size="12px">
+   <text x="86.092354" y="807.91681"><tspan x="86.092354" y="807.91681">COL.</tspan><tspan x="86.092354" y="819.91681">ADDR.</tspan><tspan x="86.092354" y="831.91681">LATCH</tspan></text>
+   <text x="205.65408" y="598.92554"><tspan x="205.65408" y="598.92554">RAS LO = 0</tspan></text>
+   <text x="301.27536" y="598.92554"><tspan x="301.27536" y="598.92554">RAS HI = 1</tspan></text>
+  </g>
+  <g font-size="23.867px" style="text-align:center;text-anchor:middle">
+   <text x="375.74557" y="772.15125"><tspan x="338.48251" y="772.15125">LATCH</tspan></text>
+   <text x="513.54022" y="826.96094"><tspan x="338.366" y="826.96094">DATA SELECTOR (4 TO 1 MUX)</tspan></text>
+   <text x="401.54156" y="891.15924"><tspan x="341.4079" y="891.15924">TRI STATE</tspan></text>
+  </g>
+  <g font-size="23.867px">
+   <text x="352.91821" y="923.07129"><tspan x="352.91821" y="923.07129">BUS</tspan></text>
+   <text x="350.24762" y="858.99487"><tspan x="350.24762" y="858.99487">D.O. (DATA OUT)</tspan></text>
+  </g>
+ </g>
+ <use transform="translate(26,-46.5)" xlink:href="#symbol1"/>
+ <use transform="translate(130,-46.5)" xlink:href="#symbol1"/>
+ <use transform="translate(233,-46.5)" xlink:href="#symbol1"/>
+ <use transform="translate(337,-46.5)" xlink:href="#symbol1"/>
+ <use transform="translate(26 80.5)" xlink:href="#symbol1"/>
+ <use transform="translate(130 80.5)" xlink:href="#symbol1"/>
+ <use transform="translate(233,80.5)" xlink:href="#symbol1"/>
+ <use transform="translate(337,80.5)" xlink:href="#symbol1"/>
+ <use transform="translate(26 208.5)" xlink:href="#symbol1"/>
+ <use transform="translate(130 208.5)" xlink:href="#symbol1"/>
+ <use transform="translate(233 208.5)" xlink:href="#symbol1"/>
+ <use transform="translate(337 208.5)" xlink:href="#symbol1"/>
+ <use transform="translate(26 335.5)" xlink:href="#symbol1"/>
+ <use transform="translate(130 335.5)" xlink:href="#symbol1"/>
+ <use transform="translate(233 335.5)" xlink:href="#symbol1"/>
+ <use transform="translate(337 335.5)" xlink:href="#symbol1"/>
+ <use xlink:href="#symbol2"/>
+ <use transform="translate(104)" xlink:href="#symbol2"/>
+ <use transform="translate(207)" xlink:href="#symbol2"/>
+ <use transform="translate(311)" xlink:href="#symbol2"/>
+ <circle cx="424.5" cy="285.5" r="4"/>
+ <circle cx="321.5" cy="285.5" r="4"/>
+ <circle cx="217.5" cy="285.5" r="4"/>
+ <circle cx="424.5" cy="157.5" r="4"/>
+ <circle cx="321.5" cy="157.5" r="4"/>
+ <circle cx="217.5" cy="157.5" r="4"/>
+ <circle cx="424.5" cy="30.5" r="4"/>
+ <circle cx="321.5" cy="30.5" r="4"/>
+ <circle cx="217.5" cy="30.5" r="4"/>
+ <circle cx="424.5" cy="412.5" r="4"/>
+ <circle cx="321.5" cy="412.5" r="4"/>
+ <circle cx="217.5" cy="412.5" r="4"/>
+ <circle cx="134.5" cy="563.5" r="4"/>
+</svg>
