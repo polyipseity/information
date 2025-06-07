@@ -261,7 +261,7 @@ The 32 registers are used as follows:
 | __`$s0`–`$s7`__ | `$16`–`$23` | saved temporaries                                                         | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$t8`–`$t9`__ | `$24`–`$25` | temporaries                                                               | <div style="background: #FFC7C7; color: black; vertical-align: middle; text-align: center;">No</div>                    |
 | __`$k0`–`$k1`__ | `$26`–`$27` | reserved for OS kernel                                                    | —                                                                                                                       |
-| __`$gp`__       | `$28`       | global pointer \(for static data\)                                        | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes (except PIC code)</div> |
+| __`$gp`__       | `$28`       | global pointer                                                            | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes (except PIC code)</div> |
 | __`$sp`__       | `$29`       | [stack pointer](../../../../general/stack-based%20memory%20allocation.md) | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$fp`__       | `$30`       | [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER)     | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$ra`__       | `$31`       | [return address](../../../../general/return%20statement.md)               | —                                                                                                                       |
@@ -278,7 +278,7 @@ The 32 registers are used as follows:
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel
-> - __`$gp`__ ::@:: `$28`: global pointer \(for static data\)
+> - __`$gp`__ ::@:: `$28`: global pointer
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md)
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER)
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md)
@@ -337,10 +337,12 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\)
 
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 2; (branch delay slot); sub $d, $zero, $s;` \(use 1 instead of 2 for MIPS without branch delay slots, which MARS simulate by default\)
-- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;`
-- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;`
+- branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;`
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;`
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;`
+- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;`
+- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;`
+- branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;`
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];`
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];`
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;`
@@ -371,7 +373,7 @@ If you follow the above steps, {@{nested procedures \(calling procedures inside 
 
 A typical MIPS program memory is {@{addressed by 32-bit unsigned integers}@}. Thus, there are {@{2<sup>32</sup> memory byte locations, or 2<sup>30</sup> memory _word_ locations}@}.
 
-It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}.
+It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{_usually_ starts from 0x0040&nbsp;0000}@}. The static data {@{_usually_ starts from 0x1000&nbsp;0000 \(e.g. MARS uses 0x1001&nbsp;0000\), and is somewhat related to the global pointer `$gp` \(e.g. MARS uses 0x1000&nbsp;8000\)}@}. The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{_usually_ starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(e.g. MARS uses 0x7fff&nbsp;effc\), stored in the stack pointer `$sp`, and _decreases_ as it grow in size}@}.
 
 The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}.
 
