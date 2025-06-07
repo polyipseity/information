@@ -966,22 +966,24 @@ The content is in teaching order.
   - referencing: closed book
   - provided: formulas, necessary tables
   - questions: multiple choice questions ×45
-- grades: ?/45 → ?/45
+- grades: 43/40 → 43/45
   - statistics
-    - timestamps: ? → ?
-    - mean: ? → ?
-    - standard deviation: ? → ?
+    - timestamps: 2025-06-01T17:03:00+08:00 → 2025-06-07+08:00
+    - mean: ? \(provided: 32.4\) → ?
+    - standard deviation: ? \(provided: 7.79\) → ?
     - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
+    - lower quartile: \(provided: 27\) → ?
+    - median: ? \(provided: 34\) → ?
+    - upper quartile: ? \(provided: 39\) → ?
     - high: ? → ?
     - distribution: ? → ?
-- report: ?
+- report: \(none\)
 - check
-  - datetime: ?
-  - venue: ?
-  - report: ?
+  - datetime
+    - 2025-06-06T14:00:00+08:00/2025-06-06T15:40:00+08:00, PT1H40M
+    - 2025-06-07T10:00:00+08:00/2025-06-07T12:00:00+08:00, PT2H
+  - venue: Room 4083, LSKBB
+  - report: \(none; did not go\)
 
 > __<big><big>Final Exam Schedule || Solution for HW2</big></big>__
 >
@@ -1006,3 +1008,6 @@ The content is in teaching order.
 ## aftermath
 
 ### total
+
+- grades: 96.72/100
+  - statistics: \(none\)
