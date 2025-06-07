@@ -184,8 +184,8 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);`
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;`
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;`
-- branch on false ::@:: `bc1f target`: `if (!$FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\)
-- branch on true ::@:: `bc1t target`: `if ($FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\)
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }`
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }`
 - compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;`
 - compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;`
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;`
@@ -413,7 +413,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations.
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\).
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are set using `lwc1` and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`.
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`.
 - immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\).
 - signedness ::@:: All operations are always signed.
 
