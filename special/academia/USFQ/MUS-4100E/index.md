@@ -692,6 +692,7 @@ The content is in teaching order.
   - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\)
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\)
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show.
+  - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style.
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time.
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass
