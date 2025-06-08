@@ -1,8 +1,12 @@
+"""
+timestamp: 2025-06-08T22:09:21.532+08:00
+"""
+
 import bs4
 import os
 from pathlib import Path
 
-# convert multiple choice questions from D2L Brightspace
+# convert multiple choice questions on D2L Brightspace
 
 
 def process_html(question: str) -> str:
