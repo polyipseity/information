@@ -69,12 +69,12 @@ The content is in teaching order.
 ## week 9 lecture
 
 - datetime: 2025-04-01T10:30:00+08:00/2025-04-01T12:20:00+08:00, PT1H50M
-- status: unscheduled, public holiday: midterm break
+- status: unscheduled, midterm break
 
 ## week 9 lab
 
 - datetime: 2025-04-01T17:00:00+08:00/2025-04-01T17:50:00+08:00, PT50M
-- status: unscheduled, public holiday: midterm break
+- status: unscheduled, midterm break
 
 ## week 10 lecture
 
