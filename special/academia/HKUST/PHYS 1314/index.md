@@ -705,6 +705,18 @@ The content is in teaching order.
 - datetime: 2025-04-17T18:00:00+08:00/2025-04-17T18:50:00+08:00, PT50M
 - topic: switching of AC circuits
 
+> __<big><big>\[Tutorial\] Inverted Classroom on LCR circuits and paper checking today</big></big>__
+>
+> Dear Students,
+>
+> today's tutorial will host an inverted classroom session for you to practice problem solving skill in the context of more complex electric circuits. Our TA \[redacted\] will host this session and stimulate discussions with you on the white board. The inverted classroom paper has been published on Canvas in the module section and the sample solution will be posted after the tutorial.
+>
+> He will also bring the midterm papers, if anyone who hasn't checked them still wants to take a look.
+>
+> Happy Easter break,
+>
+> \[redacted\]
+
 ## week 12 lecture
 
 - datetime: 2025-04-21T09:00:00+08:00/2025-04-21T10:20:00+08:00, PT1H20M
@@ -743,6 +755,21 @@ The content is in teaching order.
 ## week 12 tutorial
 
 - datetime: 2025-04-24T18:00:00+08:00/2025-04-24T18:50:00+08:00, PT50M
+- status: canceled, instructor sickness
+
+> __<big><big>\[Tutorial\] No tutorial today, teacher sick</big></big>__
+>
+> Dear Students,
+>
+> I developed cold symptoms over the day and prefer not to spread the germs. There will be no tutorial today and lectures will resume on Monday.
+>
+> Best,
+>
+> \[redacted\]
+
+## week 13 lecture
+
+- datetime: 2025-04-28T09:00:00+08:00/2025-04-28T10:20:00+08:00, PT1H20M
 - topic: electromagnetic waves in matter
 - Maxwell's equations
   - Maxwell's equations / macroscopic
@@ -775,11 +802,6 @@ The content is in teaching order.
     - interface conditions for electromagnetic fields / magnetic H-field / interpretation ::@:: Therefore, the [tangential component](../../../../general/tangential%20component.md) of __H__ is discontinuous across the interface by an amount equal to the magnitude of the surface current density. The normal components of __H__ in the two media are in the ratio of the permeabilities.
   - interface conditions for electromagnetic fields / perfect dielectric ::@:: If medium 1 & 2 are perfect [dielectrics](../../../../general/dielectrics.md): There are no charges nor surface currents at the interface, and so the tangential component of __H__ and the normal component of __D__ are both continuous.
   - interface conditions for electromagnetic fields / perfect conductor ::@:: If medium 1 is a perfect [dielectric](../../../../general/dielectric.md) and medium 2 is a perfect [metal](../../../../general/metal.md): There are charges and surface currents at the interface, and so the tangential component of __H__ and the normal component of __D__ are not continuous.
-
-## week 13 lecture
-
-- datetime: 2025-04-28T09:00:00+08:00/2025-04-28T10:20:00+08:00, PT1H20M
-- topic: electromagnetic waves in matter
 - [Fresnel equations](../../../../general/Fresnel%20equations.md) ::@:: They describe the reflection and transmission of light \(or electromagnetic radiation in general\) when incident on an interface between different optical media.
   - Fresnel equations / experiment ::@:: Shine light onto an air—glass interface. The material, angle of incidence, and polarization affect the amount of light reflected and transmitted.
   - Fresnel equations / overview ::@:: When light strikes the interface between a medium with [refractive index](../../../../general/refractive%20index.md) _n_<sub>1</sub> and a second medium with refractive index _n_<sub>2</sub>, both [reflection](../../../../general/reflection%20(physics).md) and [refraction](../../../../general/refraction.md) of the light may occur. The Fresnel equations give the ratio of the _reflected_ wave's electric field to the incident wave's electric field, and the ratio of the _transmitted_ wave's electric field to the incident wave's electric field, for each of two components of polarization. \(The _magnetic_ fields can also be related using similar coefficients.\) These ratios are generally complex, describing not only the relative amplitudes but also the [phase shifts](../../../../general/reflection%20phase%20change.md) at the interface.
@@ -867,9 +889,75 @@ The content is in teaching order.
 
 - datetime: 2025-05-08T18:00:00+08:00/2025-05-08T18:50:00+08:00, PT50M
 - topic: final examination Q&A
+- [§ final examination](#final%20examination)
 
 ## final examination
+
+- datetime: 2025-05-29T12:30:00+08:00/2025-05-29T14:30:00+08:00, PT2H
+- venue: LG3009, Academic Building
+- format
+  - calculator: yes
+  - cheatsheet: no
+  - referencing: closed book, closed notes
+  - provided: \(none\)
+  - questions: long questions ×6
+- grades: 42/54 → 44/54
+  - statistics
+    - timestamps: 2025-06-02T10:05+08:00 → 2025-06-03+08:00
+    - count: 31 → 31
+    - mean: 41 \(provided: 41\) → ?
+    - standard deviation: 9.03 → ?
+    - low: 21 → ?
+    - lower quartile: 36.5 → ?
+    - median: 44 \(provided: 44\) → ?
+    - upper quartile: 47 → ?
+    - high: 53 → ?
+    - distribution: ![final examination distribution](attachments/final%20examination%20analysis.svg) → ?
+    - data: [final examination data.csv](attachments/final%20examination%20data.csv) → ?
+- report
+  - time limit ::@:: It was okay. Mainly because I did not know how to solve one problem.
+  - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught...
+  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this...
+- check
+  - datetime: 2025-06-02T14:00:00+08:00/2025-06-02T16:00:00+08:00, PT2H
+  - venue: Room 4418, Academic Building
+  - report
+    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order.
+
+> __<big><big>\[Final Exam\] Important Information</big></big>__
+>
+> Dear Students,
+>
+> Please find important information on the exam below. The final is a closed book exam, that is, no cheat sheets, personal notes or any other type of write up are permitted to be used. As I mentioned during the lecture, all relevant mathematical identities and physical constants will be given. The exam will consist of a total of six problem sets that are comparable in style and difficulty to the problem sets of the homework.
+>
+> __Also take note of two more important points:__
+>
+> - I want to emphasize once more that marks will only be given when all calculation steps toward the final solution are presented in the answer book. This was already the guideline for the midterm but 50 % of students failed to adhere to it. This time it will be strictly enforced and if steps are missing maximum 3/9 points can be awarded per problem set.
+> - Moreover, it is your responsibility to write letters, numbers, and symbols in a readable fashion. If we cannot read your handwriting, you will loose marks. It doesn't have to be beautiful, just clear.
+>
+> Let me know if you have any questions. Best of luck with the exam preparation and I will see you tomorrow.
+>
+> Best,
+>
+> \[redacted\]
+>
+> __Time:__ March 29, 12:30-15:30 <br/>
+> __Exam Venue:__ LG3009, Lift 10-12 <br/>
+> __Exam Duration:__ 120 min
+>
+> __Exam Run-Down:__
+>
+> 1. Arrive at exam venue at 12:20
+> 2. Go inside at 12:25 and choose seat and prepare writing utensils and calculator. The seating map will displayed at the venue entrance.
+> 3. Exam starts at 12:30 sharp. Duration of exam is 120 min.
+> 4. Put pencils down at 14:30.
+> 5. We will collect exam booklet, answer booklet, and draft paper.
+> 6. Once all materials have been collected, students leave exam venue quietly.
 
 ## aftermath
 
 ### total
+
+- grades: 82.09/100
+  - note: homework: 308/327
+  - statistics: \(none\)
