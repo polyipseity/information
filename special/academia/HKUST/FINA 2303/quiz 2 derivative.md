@@ -29,7 +29,7 @@ tags:
 > ---
 >
 > - solution: {@{about 12.433199%}@}
-> - explanation: {@{Assume the par value is \$1. The current price of the bond is: $$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + \frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } \right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} \approx 0.12433199 = 12.433199\% \,.$$}@}
+> - explanation: {@{Assume the par value is \$1. The current price of the bond is: $$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + \frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } \right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} \approx 0.12433199 = 12.433199\% \,.$$}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
 
 ---
 
@@ -40,4 +40,4 @@ tags:
 > ---
 >
 > - solution: {@{50%}@}
-> - annotation: {@{It is okay that the dividend growth rate exceeds the required rate of return. However, the dividend discount model does not work in this case: you would get negative stock price.}@}
+> - annotation: {@{It is okay that the dividend growth rate exceeds the required rate of return. However, the dividend discount model does not work in this case: you would get negative stock price.}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->

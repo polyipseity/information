@@ -793,7 +793,7 @@ tags:
 > 2. lower than
 > 3. same as
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -805,7 +805,7 @@ tags:
 > 2. \$1000
 > 3. \$1100
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -820,7 +820,7 @@ tags:
 > 3. &gt;12%
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -835,7 +835,7 @@ tags:
 > 3. increase
 > 4. insufficient information to determine
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -850,7 +850,7 @@ tags:
 > 3. price of bond A will decrease more than bond B's in %
 > 4. price of bond A will decrease less than bond B's in %
 >
-> - solution: {@{4}@}
+> - solution: {@{4}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -868,7 +868,7 @@ tags:
 > 2. bond B
 > 3. bond C
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-06-11,5,398-->
 
 ## week 10 lecture 2
 
@@ -881,7 +881,7 @@ tags:
 > 3. &lt;10%
 > 4. insufficient information
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -894,7 +894,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
 
 ## week 11 lecture
 
@@ -919,7 +919,7 @@ tags:
 > 2. 10%
 > 3. 15%
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -932,7 +932,7 @@ tags:
 > 3. 6%
 > 4. 9%
 >
-> - solution: {@{4}@}
+> - solution: {@{4}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -944,7 +944,7 @@ tags:
 > 2. increase
 > 3. remains the same
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-06-11,5,392-->
 
 ## week 12 lecture
 
@@ -960,7 +960,7 @@ tags:
 > 4. \$5.71
 >
 > - solution: {@{3}@}
-> - explanation: {@{$$2 \cdot 1.3^3 = \$4.394$$}@}
+> - explanation: {@{$$2 \cdot 1.3^3 = \$4.394$$}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -974,7 +974,7 @@ tags:
 > 2. increase
 > 3. no change
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -991,7 +991,7 @@ tags:
 > 2. lottery 2
 >
 > - solution: {@{1/2}@}
-> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@}
+> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1018,7 +1018,7 @@ tags:
 > 2. geometric average annual return
 > 3. realized annual return
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 ## week 12 lecture 2
 
@@ -1029,7 +1029,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1043,7 +1043,7 @@ tags:
 > 4. 200 years
 >
 > - solution: {@{3}@}
-> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than the interval and higher than interval.}@}
+> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than the interval and higher than interval.}@} <!--SR:!2025-06-11,5,392!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1054,7 +1054,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1065,7 +1065,7 @@ tags:
 > 1. independent risk
 > 2. common risk
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1077,7 +1077,7 @@ tags:
 > 2. the risk that a product design is faulty and the product must be recalled
 > 3. the risk that the economy slows, reducing demand for the firm's products
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1093,7 +1093,7 @@ tags:
 > 2. firms with only unsystematic risk
 > 3. firms with a mix of both systematic and unsystematic risk
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1104,7 +1104,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 ## week 13 lecture
 
@@ -1123,7 +1123,7 @@ tags:
 > 2. 5%
 > 3. 10%
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1141,7 +1141,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1154,7 +1154,7 @@ tags:
 > 3. systematic risk
 > 4. unsystematic risk
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1165,7 +1165,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@}
+> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1198,7 +1198,7 @@ tags:
 > 2. systematic risk
 > 3. unsystematic risk
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. ρ = 1
 >
 > - solution: {@{3}@}
-> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@}
+> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1227,7 +1227,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -1239,7 +1239,7 @@ tags:
 > 2. 0
 > 3. 1
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 ## week 14 lecture
 
@@ -1251,7 +1251,7 @@ tags:
 > 2. 0
 > 3. −1
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1269,7 +1269,7 @@ tags:
 > 3. both have the same risk premium
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1287,7 +1287,7 @@ tags:
 > 3. both have the same expected return
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1304,7 +1304,7 @@ tags:
 > 2. SolarWinds
 >
 > - solution: {@{1}@}
-> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then either Rackspace is underpriced or SolarWinds is overpriced. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@}
+> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then either Rackspace is underpriced or SolarWinds is overpriced. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@} <!--SR:!2025-06-11,5,392!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1319,7 +1319,7 @@ tags:
 > 3. increase by 1%
 > 4. increase by 1.6%
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1333,7 +1333,7 @@ tags:
 > 2. overpriced
 > 3. underpriced
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
 
 ## week 14 lecture 2
 
@@ -1344,7 +1344,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1359,7 +1359,7 @@ tags:
 > 3. 6%
 > 4. 6.7%
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1370,7 +1370,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1381,7 +1381,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1393,7 +1393,7 @@ tags:
 > 2. Incorrectly accept the project which provides insufficient return to compensate for its risk.
 > 3. Incorrectly reject the project which provides a return higher than required by its risk.
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1411,4 +1411,4 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->

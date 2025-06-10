@@ -46,7 +46,7 @@ English
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: \(g\_e\) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: \(g\_e\) Assure that something will be done. <!--SR:!2028-08-18,1225,363!2027-01-08,585,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: \(h\_e\) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2026-11-06,723,348-->
-- [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it.
+- [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it. <!--SR:!2025-06-11,5,373!2025-06-11,5,373-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: \(h\_c\) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: \(i\_y\) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2029-02-19,1470,364!2027-07-05,933,344-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::@:: \(i\_t\) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2026-02-06,547,324!2025-12-26,296,264-->
@@ -54,14 +54,14 @@ English
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::@:: \(i\_n\) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2028-01-19,1072,344!2028-04-27,1149,344-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::@:: \(l\_l\) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2028-03-14,1115,344!2028-04-25,1144,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::@:: \(l\_x\) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2026-07-18,508,284!2026-11-09,725,324-->
-- [macaroni](https://en.wiktionary.org/wiki/macaroni) ::@:: \(m\_i\) A type of [pasta](../../../general/pasta.md) in the form of short tubes, typically boiled and served in [soup](../../../general/soup.md), with a [sauce](../../../general/sauce.md), or in melted [cheese](../../../general/cheese.md); a dish of this.
+- [macaroni](https://en.wiktionary.org/wiki/macaroni) ::@:: \(m\_i\) A type of [pasta](../../../general/pasta.md) in the form of short tubes, typically boiled and served in [soup](../../../general/soup.md), with a [sauce](../../../general/sauce.md), or in melted [cheese](../../../general/cheese.md); a dish of this. <!--SR:!2025-06-11,5,373!2025-06-11,5,373-->
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::@:: \(n\_m\) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2026-09-27,594,328-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::@:: \(n\_e\) Can be not considered as it is too small or unimportant. <!--SR:!2028-03-17,1115,344!2026-02-28,513,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::@:: \(n\_n\) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2029-06-09,1557,364!2025-10-13,440,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::@:: \(o\_n\) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2030-06-15,1880,412-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::@:: \(o\_e\) An event or happening. <!--SR:!2027-04-06,949,430!2029-01-14,1443,390-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::@:: \(p\_m\) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2025-07-30,456,378!2026-09-07,462,338-->
-- [perception](https://en.wiktionary.org/wiki/perception) ::@:: \(p\_n\) The organization, identification and interpretation of sensory information.
+- [perception](https://en.wiktionary.org/wiki/perception) ::@:: \(p\_n\) The organization, identification and interpretation of sensory information. <!--SR:!2025-06-11,5,373!2025-06-11,5,373-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::@:: \(p\_e\) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2027-12-07,1035,352!2025-07-01,434,372-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::@:: \(p\_l\) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2028-01-14,1069,344!2026-11-17,730,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::@:: \(p\_x\) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2027-03-18,729,264!2025-07-15,391,304-->
@@ -95,8 +95,8 @@ English
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: \(v\_m\) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: \(v\_e\) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: \(v\_s\) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2025-09-01,433,324-->
-- [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions.
-- [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile.
+- [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions. <!--SR:!2025-06-11,5,373!2025-06-11,5,373-->
+- [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2025-06-11,5,373!2025-06-11,5,373-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: \(v\_r\) To do or offer to do something voluntarily. <!--SR:!2030-03-21,1819,392!2029-01-07,1369,372-->
 
 ## references

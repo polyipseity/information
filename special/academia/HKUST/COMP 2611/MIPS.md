@@ -178,38 +178,38 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 ## floating-point instructions
 
-Note that the floating-point register operands must be {@{even numbered for double instructions}@}.
+Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2025-06-11,5,364-->
 
-- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);`
-- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);`
-- add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;`
-- add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;`
-- branch on false ::@:: `bc1f target`: `if (!$FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\)
-- branch on true ::@:: `bc1t target`: `if ($FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\)
-- compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;`
-- compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;`
-- compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;`
-- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;`
-- compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;`
-- compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;`
-- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;`
-- compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;`
-- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;`
-- compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;`
-- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;`
-- compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;`
-- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;`
-- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;`
-- load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));`
-- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));`
-- multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;`
-- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;`
-- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;`
-- negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;`
-- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;`
-- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;`
-- subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;`
-- subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;`
+- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-06-11,5,364!2025-06-09,3,344-->
+- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-06-09,3,344!2025-06-11,5,364-->
+- compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2025-06-11,5,364!2025-06-09,3,344-->
+- multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-06-11,5,364!2025-06-09,3,344-->
+- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
 
 ### miscellaneous instructions
 
@@ -365,7 +365,7 @@ Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}. <!--SR:!2025-08-02,87,381!2025-08-01,86,381!2025-08-11,96,381!2025-08-11,96,381!2025-08-04,94,381!2025-08-05,90,381-->
 
-If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}.
+If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}. <!--SR:!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364-->
 
 ## memory layout
 
@@ -405,17 +405,17 @@ A common interruption cause is {@{signed integer overflow in arithmetic operatio
 
 ## floating point
 
-MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}.
+MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}. <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
 
-It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\)
+It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364-->
 
-It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions:
+It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions: <!--SR:!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364!2025-06-11,5,364-->
 
-- arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations.
-- comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\).
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are set using `lwc1` and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`.
-- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\).
-- signedness ::@:: All operations are always signed.
+- arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are set using `lwc1` and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-06-11,5,364!2025-06-09,3,344-->
+- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
+- signedness ::@:: All operations are always signed. <!--SR:!2025-06-11,5,364!2025-06-11,5,364-->
 
 ## miscellaneous
 
