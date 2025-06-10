@@ -18,6 +18,7 @@ English
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: \(W\_n\) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md).
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: \(a\_e\) To adapt.
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: \(a\_e\) To gradually increase in quantity.
+- [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring.
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: \(a\_e\) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md).
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling.
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling.
@@ -49,6 +50,7 @@ English
 - [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it.
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: \(h\_c\) Of or pertaining to [water](../../../general/water.md).
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: \(i\_y\) Existing only in the [imagination](../../../general/imagination.md).
+- [impoverished](https://en.wiktionary.org/wiki/impoverished) ::@:: \(i\_d\) Reduced to poverty.
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::@:: \(i\_t\) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md).
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::@:: \(i\_m\) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$.
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::@:: \(i\_n\) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md).
@@ -78,12 +80,15 @@ English
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence.
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: \(r\_t\) Enroll new [employees](../../../general/employment.md#employee).
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: \(r\_r\) A source or sink of something.
+- [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront.
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: \(r\_y\) Basic, minimal.
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: \(s\_d\) Not to be profaned or violated; inviolable.
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: \(s\_e\) Uncommon, rare.
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: \(s\_d\) Feeling fear; afraid, frightened.
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: \(s\_s\) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed.
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: \(s\_l\) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md).
+- [substitute](https://en.wiktionary.org/wiki/substitute) ::@:: \(s\_e\) To use in place of something else, with the same function.
+- [substitutability](https://en.wiktionary.org/wiki/substitutability) ::@:: \(s\_y\) The quality of being substitutable; the capacity to be substituted.
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: \(s\_m\) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$.
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::@:: \(t\_e\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117.
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::@:: \(t\_l\) Of or relating to theory rather than practice.
@@ -98,6 +103,10 @@ English
 - [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions.
 - [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile.
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: \(v\_r\) To do or offer to do something voluntarily.
+- [weigh](https://en.wiktionary.org/wiki/weigh) ::@:: \(w\_h\) To determine the weight of an object.
+- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens.
+- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity.
+- [weighting](https://en.wiktionary.org/wiki/weighting) ::@:: \(w\_g\) The weight or significance given to something, sometimes by means of a statistical multiplier.
 
 ## references
 
