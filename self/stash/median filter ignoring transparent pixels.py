@@ -1,12 +1,14 @@
 """
+---
+requirements: pip install numpy>=2.0.0 opencv-python>=4.11.0
 timestamp: 2025-04-14T10:24:02.074+08:00
+---
+
+Median filter ignoring transparent pixels. Maybe run this twice for better effect...?
 """
 
 import cv2
 import numpy as np
-
-# median filter ignoring transparent pixels
-# run this twice?
 
 image = cv2.imread("input.png", cv2.IMREAD_UNCHANGED)
 shape = image.shape
