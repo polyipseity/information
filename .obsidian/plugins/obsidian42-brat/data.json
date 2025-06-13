@@ -2,13 +2,18 @@
   "pluginList": [
     "polyipseity/obsidian-show-hidden-files"
   ],
-  "pluginSubListFrozenVersion": [],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "polyipseity/obsidian-show-hidden-files",
+      "version": "latest"
+    }
+  ],
   "themesList": [],
   "updateAtStartup": false,
   "updateThemesAtStartup": false,
   "enableAfterInstall": false,
   "loggingEnabled": false,
-  "loggingPath": "BRAT-log",
+  "loggingPath": "",
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
