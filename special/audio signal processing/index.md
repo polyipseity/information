@@ -12,9 +12,9 @@ tags:
 
 - see: [general/audio signal processing](../../general/audio%20signal%20processing.md)
 
-## contents
-
 The content is in recommended learning order.
+
+## module 1
 
 - [signal mathematics](signal%20mathematics.md)
   - [§ sine wave](signal%20mathematics.md#sine%20wave)
@@ -31,6 +31,9 @@ The content is in recommended learning order.
   - [§ numpy](Python%20for%20signal%20processing.md#numpy)
   - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions)
   - [§ matplotlib](Python%20for%20signal%20processing.md#matplotlib)
+
+## module 2
+
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
   - [§ definition](discrete%20Fourier%20transform.md#definition)
   - [§ periodicity](discrete%20Fourier%20transform.md#periodicity)
@@ -44,6 +47,9 @@ The content is in recommended learning order.
   - [§ Freesound](signal%20tools.md#Freesound)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
   - [§ complex number](Python%20for%20signal%20processing.md#complex%20number)
+
+## module 3
+
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
   - [§ linearity](discrete%20Fourier%20transform.md#linearity)
   - [§ shift](discrete%20Fourier%20transform.md#shift)
@@ -60,6 +66,34 @@ The content is in recommended learning order.
   - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
   - [§ numpy](Python%20for%20signal%20processing.md#numpy)
+
+## module 4
+
+- [short-time Fourier transform](short-time%20Fourier%20transform.md)
+  - [§ discrete STFT](short-time%20Fourier%20transform.md#discrete%20STFT)
+  - [§ window function](short-time%20Fourier%20transform.md#window%20function)
+  - [§ factors](short-time%20Fourier%20transform.md#factors)
+  - [§ inverse STFT](short-time%20Fourier%20transform.md#inverse%20STFT)
+- [spectrogram](spectrogram.md)
+- [signal tools](signal%20tools.md)
+  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+  - [§ sms-tools](signal%20tools.md#sms-tools)
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): window
+
+## module 5
+
+## module 6
+
+## module 7
+
+## module 8
+
+## module 9
+
+## module 10
+
+## module 11
 
 ## references
 
