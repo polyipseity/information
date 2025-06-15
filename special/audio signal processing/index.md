@@ -74,14 +74,31 @@ The content is in recommended learning order.
   - [§ window function](short-time%20Fourier%20transform.md#window%20function)
   - [§ factors](short-time%20Fourier%20transform.md#factors)
   - [§ inverse STFT](short-time%20Fourier%20transform.md#inverse%20STFT)
+  - [§ STFT model](short-time%20Fourier%20transform.md#STFT%20model)
 - [spectrogram](spectrogram.md)
 - [signal tools](signal%20tools.md)
   - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
   - [§ sms-tools](signal%20tools.md#sms-tools)
+  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): window
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, window
 
 ## module 5
+
+- [signal mathematics](signal%20mathematics.md)
+  - [§ sine wave](signal%20mathematics.md#sine%20wave)
+- [sinusoidal model](sinusoidal%20model.md)
+  - [§ generalization](sinusoidal%20model.md#generalization)
+  - [§ discrete Fourier transform](sinusoidal%20model.md#discrete%20Fourier%20transform)
+  - [§ practical considerations](sinusoidal%20model.md#practical%20considerations)
+  - [§ peak detection](sinusoidal%20model.md#peak%20detection)
+  - [§ additive synthesis](sinusoidal%20model.md#additive%20synthesis)
+- [signal tools](signal%20tools.md)
+  - [§ sms-tools](signal%20tools.md#sms-tools)
+  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, window
 
 ## module 6
 

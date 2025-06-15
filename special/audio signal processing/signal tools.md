@@ -37,7 +37,11 @@ SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude s
 
 ### analysis (sms-tools)
 
-`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}.
+`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}. It also supports using {@{models to analyze a sound}@}, e.g. {@{STFT model, sinusoidal model, etc.}@}
+
+### synthesis (sms-tools)
+
+`sms-tools` support {@{many synthesis models}@}, e.g. {@{STFT model, sinusoidal model, etc.}@}
 
 ## Freesound
 
