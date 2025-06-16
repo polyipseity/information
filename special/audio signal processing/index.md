@@ -98,9 +98,28 @@ The content is in recommended learning order.
   - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
   - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, window
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, statistics, window
 
 ## module 6
+
+- [sinusoidal model](sinusoidal%20model.md)
+- [harmonic](harmonic.md)
+  - [§ harmonic model](harmonic.md#harmonic%20model)
+  - [§ terminology](harmonic.md#terminology)
+- [pitch detection algorithm](pitch%20detection%20algorithm.md)
+  - [§ autocorrelation](pitch%20detection%20algorithm.md#autocorrelation)
+  - [§ YIN algorithm](pitch%20detection%20algorithm.md#YIN%20algorithm)
+  - [§ two-way mismatch algorithm](pitch%20detection%20algorithm.md#two-way%20mismatch%20algorithm)
+  - [§ polyphonic signals](pitch%20detection%20algorithm.md#polyphonic%20signals)
+- [signal tools](signal%20tools.md)
+  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+  - [§ pitch detection (SonicVisualiser)](signal%20tools.md#pitch%20detection%20(SonicVisualiser))
+  - [§ sms-tools](signal%20tools.md#sms-tools)
+  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+  - [§ Freesound](signal%20tools.md#Freesound)
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): segmentation, statistics
 
 ## module 7
 

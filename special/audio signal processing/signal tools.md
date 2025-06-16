@@ -31,6 +31,10 @@ SonicVisualiser is {@{an audio visualization, analysis, and annotation tool}@}. 
 
 SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}@}.
 
+### pitch detection \(SonicVisualiser\)
+
+SonicVisualiser supports {@{many pitch detection algorithms}@}.
+
 ## sms-tools
 
 `sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}.

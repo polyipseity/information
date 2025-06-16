@@ -27,11 +27,11 @@ We can characterize a window function using {@{its Fourier transform}@}. Two mai
 
 There are {@{many kinds of windows}@}. Some common ones and their two main metrics are:
 
-- rectangular window ::@:: 2 bins, −13.3&nbsp;dB
-- Hanning window ::@:: 4 bins, −31.5&nbsp;dB
-- Hamming window ::@:: 4 bins, −42.7&nbsp;dB
-- Blackman window ::@:: 6 bins, −58&nbsp;dB
-- Blackman–Harris window ::@:: 8 bins, −92&nbsp;dB
+- rectangular window ::@:: about 2 bins, −13.3&nbsp;dB
+- Hanning window ::@:: about 4 bins, −31.5&nbsp;dB
+- Hamming window ::@:: about 4 bins, −42.7&nbsp;dB
+- Blackman window ::@:: about 6 bins, −58&nbsp;dB
+- Blackman–Harris window ::@:: about 8 bins, −92&nbsp;dB
 
 We see there is a tradeoff from the above different window types: {@{relative magnitude of the highest side lobe decreases at the expense of increasing the main lobe width}@}. In practice, this means applying STFT, choosing an analysis window is a tradeoff between {@{sharp frequency peaks \(requires a thin main lobe\) and low noise \(requires weak side lobes\)}@}.
 
