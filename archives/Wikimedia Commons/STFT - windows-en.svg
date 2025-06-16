@@ -1,0 +1,4 @@
+<svg width="273mm" height="86mm" version="1.1" viewBox="0 0 273 86" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="273" height="86" fill="#fff"/>
+ <g id="a" font-family="Times" font-size="10px"><path d="m102 14v60m-60-60 0 60m30-60v60m-60-30h120m-120-30h120v60h-120v-72" fill="none" stroke="#000"/><text x="105" y="82">time</text><text transform="rotate(-90)" x="-45" y="8">frequency</text></g>
+ <use transform="translate(138)" xlink:href="#a"/>
+ <path d="m150 64h120m-120-10h120m-120-20h120m-120-10h120m-148-10v60m-10-60v60m-20-60v60m-10-60v60m-20-60v60m-10-60v60m-20-60v60m-10-60v60" stroke="#000"/></svg>
