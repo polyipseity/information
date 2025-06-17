@@ -123,6 +123,17 @@ The content is in recommended learning order.
 
 ## module 7
 
+- [stochastic signal](stochastic%20signal.md)
+  - [§ frequency domain](stochastic%20signal.md#frequency%20domain)
+  - [§ stochastic model](stochastic%20signal.md#stochastic%20model)
+  - [§ denoising](stochastic%20signal.md#denoising)
+  - [§ combining with other models](stochastic%20signal.md#combining%20with%20other%20models)
+- [signal tools](signal%20tools.md)
+  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): signal
+
 ## module 8
 
 ## module 9
