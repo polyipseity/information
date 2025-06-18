@@ -48,7 +48,7 @@ return await memorize_seq(
 - __[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_2$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received→::@::←__[isobaric](isochoric%20process.md) expansion__: [volume](volume.md) increases from $V_2$ to $V_3$ and [work](work%20(physics).md) is done <!--SR:!2026-05-03,606,288!2027-10-16,919,288-->
 - __[isobaric](isochoric%20process.md) expansion__: [volume](volume.md) increases from $V_2$ to $V_3$ and [work](work%20(physics).md) is done→::@::←__[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_3$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done <!--SR:!2025-08-02,402,308!2025-10-30,484,328-->
 - __[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_3$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done→::@::←__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases <!--SR:!2026-03-18,583,328!2026-06-03,639,328-->
-- __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→::@::←_(ends at bottom right in the [PV diagram](pressure–volume%20diagram.md))_ <!--SR:!2025-10-07,498,328!2025-06-10,366,308-->
+- __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→::@::←_(ends at bottom right in the [PV diagram](pressure–volume%20diagram.md))_ <!--SR:!2025-10-07,498,328!2028-07-13,1127,308-->
 
 <!--/pytextgen-->
 

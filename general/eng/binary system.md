@@ -13,7 +13,7 @@ tags:
 
 # binary system
 
-A __binary system__ is {@{a system of two [astronomical bodies](astronomical%20object.md) of the same kind that are comparable in size}@}. Definitions {@{vary, but typically require the [center of mass](center%20of%20mass.md) ([barycenter](barycenter%20(astronomy).md)) to be located outside of either object}@}. <!--SR:!2025-07-23,280,330!2025-06-18,251,330-->
+A __binary system__ is {@{a system of two [astronomical bodies](astronomical%20object.md) of the same kind that are comparable in size}@}. Definitions {@{vary, but typically require the [center of mass](center%20of%20mass.md) ([barycenter](barycenter%20(astronomy).md)) to be located outside of either object}@}. <!--SR:!2025-07-23,280,330!2028-08-04,1143,350-->
 
 ## classification
 

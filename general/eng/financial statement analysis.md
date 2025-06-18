@@ -13,9 +13,9 @@ tags:
 
 __Financial statement analysis__ (or just __financial analysis__) is {@{the process of reviewing and analyzing a company's [financial statements](financial%20statement.md) to make better economic decisions to earn income in future}@}. These statements include {@{the [income statement](income%20statement.md), [balance sheet](balance%20sheet.md), [statement of cash flows](cash%20flow%20statement.md), notes to accounts and a [statement of changes in equity](statement%20of%20changes%20in%20equity.md) (if applicable)}@}. Financial statement analysis is {@{a method or process involving specific techniques for evaluating risks, performance, valuation, financial health, and future prospects of an organization}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-07-19,231,330!2025-09-19,216,250!2026-06-28,479,310-->
 
-It is used by {@{a variety of stakeholders, such as credit and equity investors, the government, the public, and decision-makers within the organization}@}. These stakeholders have {@{different interests and apply a variety of different techniques to meet their needs}@}. For example, equity investors are {@{interested in the long-term earnings power of the organization and perhaps the sustainability and growth of dividend payments}@}. Creditors want to {@{ensure the interest and principal is paid on the organizations debt securities (e.g., bonds) when due}@}. <!--SR:!2025-09-22,283,330!2027-06-11,757,330!2025-06-14,200,310!2025-10-04,291,330-->
+It is used by {@{a variety of stakeholders, such as credit and equity investors, the government, the public, and decision-makers within the organization}@}. These stakeholders have {@{different interests and apply a variety of different techniques to meet their needs}@}. For example, equity investors are {@{interested in the long-term earnings power of the organization and perhaps the sustainability and growth of dividend payments}@}. Creditors want to {@{ensure the interest and principal is paid on the organizations debt securities (e.g., bonds) when due}@}. <!--SR:!2025-09-22,283,330!2027-06-11,757,330!2027-10-26,864,330!2025-10-04,291,330-->
 
-Common methods of financial statement analysis include {@{horizontal and vertical analysis and the use of [financial ratios](financial%20ratio.md)}@}. {@{Historical information combined with a series of assumptions and adjustments to the financial information}@} may be used to {@{project future performance}@}. {@{The [Chartered Financial Analyst](Chartered%20Financial%20Analyst.md) (CFA) designation}@} is available for professional financial analysts. <!--SR:!2025-09-24,285,330!2025-10-17,303,330!2025-06-07,194,310!2025-09-12,276,330-->
+Common methods of financial statement analysis include {@{horizontal and vertical analysis and the use of [financial ratios](financial%20ratio.md)}@}. {@{Historical information combined with a series of assumptions and adjustments to the financial information}@} may be used to {@{project future performance}@}. {@{The [Chartered Financial Analyst](Chartered%20Financial%20Analyst.md) (CFA) designation}@} is available for professional financial analysts. <!--SR:!2025-09-24,285,330!2025-10-17,303,330!2027-09-22,833,330!2025-09-12,276,330-->
 
 ## history
 
@@ -48,7 +48,7 @@ Financial statement analyses are typically performed in {@{[spreadsheet](spreads
 
 ## recasting financial statements
 
-An earnings recast is {@{the act of amending and re-releasing a previously released earnings statement, with specified intent}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-06-16,201,310-->
+An earnings recast is {@{the act of amending and re-releasing a previously released earnings statement, with specified intent}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-10-27,863,330-->
 
 Investors need to {@{understand the ability of the company to generate profit}@}. {@{This, together with its [rate of profit](rate%20of%20profit.md) growth, relative to the amount of capital deployed and various other financial ratios}@}, forms an important part of their analysis of the value of the company. Analysts may {@{modify ("recast") the financial statements by adjusting the underlying assumptions to aid in this computation}@}. For example, operating leases (treated like a rental transaction) {@{may be recast as capital leases (indicating ownership), adding assets and liabilities to the balance sheet}@}. This affects {@{the financial statement ratios}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-07-28,219,310!2025-09-04,221,270!2026-06-30,455,310!2025-12-05,291,290!2025-07-10,224,330-->
 
@@ -56,7 +56,7 @@ Recasting is also known as {@{normalizing accounts}@}.<sup>[\[11\]](#^ref-11)</s
 
 ## certifications
 
-Financial analysts typically {@{have finance and accounting education at the undergraduate or graduate level}@}. Persons may {@{earn the [Chartered Financial Analyst](Chartered%20Financial%20Analyst.md) (CFA) designation through a series of challenging examinations}@}. Upon {@{completion of the three-part exam}@}, CFAs are {@{considered experts in areas like fundamentals of investing, the valuation of assets, portfolio management, and wealth planning}@}. <!--SR:!2025-06-12,197,310!2027-05-01,714,330!2025-07-06,220,330!2027-08-13,804,330-->
+Financial analysts typically {@{have finance and accounting education at the undergraduate or graduate level}@}. Persons may {@{earn the [Chartered Financial Analyst](Chartered%20Financial%20Analyst.md) (CFA) designation through a series of challenging examinations}@}. Upon {@{completion of the three-part exam}@}, CFAs are {@{considered experts in areas like fundamentals of investing, the valuation of assets, portfolio management, and wealth planning}@}. <!--SR:!2027-10-06,846,330!2027-05-01,714,330!2025-07-06,220,330!2027-08-13,804,330-->
 
 ## see also
 

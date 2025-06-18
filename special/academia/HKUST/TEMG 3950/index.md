@@ -79,7 +79,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - datetime: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2025-06-12,255,275!2025-06-18,168,275-->
+- How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2028-02-20,978,295!2025-06-18,168,275-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
@@ -181,7 +181,7 @@ The content is in teaching order.
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2029-02-27,1367,381!2025-11-20,423,381-->
 - [MECE principle](../../../../general/MECE%20principle.md)
-- modeling key concepts ::@:: abstraction, framework, model <!--SR:!2025-06-11,286,361!2026-02-03,483,381-->
+- modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2026-02-03,483,381-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2026-01-18,473,381-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
@@ -220,11 +220,11 @@ The content is in teaching order.
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2027-09-30,938,361-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2025-06-10,253,321!2025-08-05,332,361-->
+  - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2025-08-05,332,361-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2025-07-02,291,361!2025-11-01,410,381-->
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2025-07-13,313,361-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
-  - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
+  - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2025-07-05,306,361-->
   - cause mapping § symptom ::@:: red background <!--SR:!2025-08-01,312,361!2025-09-13,346,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)

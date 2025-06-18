@@ -24,7 +24,7 @@ tags:
 
 It is extremely important to {@{know your customers}@}. {@{Without customers}@}, no business can survive. One of the purpose of a business is to {@{create and keep customers}@}. For example, in biotechnology, understanding {@{patents}@} is important. <!--SR:!2025-09-10,358,310!2026-06-12,573,310!2026-01-03,450,310!2028-06-08,1157,350-->
 
-When defining customers, one should avoid {@{vagueness}@}. To avoid it, some factors to consider are {@{disposable income, lifestyles, reasons for choosing your product}@}, etc. <!--SR:!2025-07-20,312,290!2025-06-11,256,270-->
+When defining customers, one should avoid {@{vagueness}@}. To avoid it, some factors to consider are {@{disposable income, lifestyles, reasons for choosing your product}@}, etc. <!--SR:!2025-07-20,312,290!2028-02-05,968,290-->
 
 ## the four-step process
 
@@ -36,7 +36,7 @@ One can create {@{a customer profile that shows a typical person}@} for each cus
 
 > [!example] examples
 >
-> - customers of a service selling meal plans to elderly ::@:: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2025-06-12,308,330!2026-08-22,586,310-->
+> - customers of a service selling meal plans to elderly ::@:: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2029-04-13,1401,350!2026-08-22,586,310-->
 
 ### customer validation
 

@@ -57,7 +57,7 @@ return await memorize_map(
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::@:: From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart. <!--SR:!2026-07-13,685,330!2025-06-12,340,359-->
+> - [mnemonic](mnemonic.md) ::@:: From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart. <!--SR:!2026-07-13,685,330!2030-01-12,1675,379-->
 
 ### function–derivative
 

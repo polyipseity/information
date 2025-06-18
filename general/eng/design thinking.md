@@ -20,7 +20,7 @@ tags:
 
 Ideation consists of {@{alternation between [divergent](divergent%20thinking.md) and [convergent thinking](convergent%20thinking.md)}@}. <!--SR:!2029-03-03,1369,350-->
 
-Divergent thinking is supposed to {@{enhance creativity of thinkers}@}. During divergent thinking, having {@{a diverse group of people}@} involved is important. Good practice is {@{encouraging people to go wild with many ideas, and avoiding evaluation}@}. <!--SR:!2027-04-20,823,330!2025-06-08,304,330!2026-08-10,566,310-->
+Divergent thinking is supposed to {@{enhance creativity of thinkers}@}. During divergent thinking, having {@{a diverse group of people}@} involved is important. Good practice is {@{encouraging people to go wild with many ideas, and avoiding evaluation}@}. <!--SR:!2027-04-20,823,330!2029-03-26,1384,350!2026-08-10,566,310-->
 
 Convergent thinking is supposed to {@{find the best and the most concrete solution}@}. <!--SR:!2027-04-28,828,330-->
 

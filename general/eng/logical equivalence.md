@@ -9,7 +9,7 @@ tags:
 
 # logical equivalence
 
-In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {@{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}@}. The logical equivalence of $p$ and $q$ is sometimes expressed as {@{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}@}. However, these symbols are {@{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}@}. Logical equivalence is {@{different from material equivalence, although the two concepts are intrinsically related}@}. <!--SR:!2027-03-16,700,330!2025-10-19,316,350!2025-06-18,215,330!2027-09-29,865,350-->
+In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {@{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}@}. The logical equivalence of $p$ and $q$ is sometimes expressed as {@{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}@}. However, these symbols are {@{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}@}. Logical equivalence is {@{different from material equivalence, although the two concepts are intrinsically related}@}. <!--SR:!2027-03-16,700,330!2025-10-19,316,350!2028-02-28,985,350!2027-09-29,865,350-->
 
 ## logical equivalences
 
@@ -36,7 +36,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::@:: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2027-11-19,903,350!2027-12-20,930,350-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::@:: $$\neg (p\implies q)\equiv p\wedge \neg q$$ <!--SR:!2025-06-29,223,330!2025-10-17,299,330-->
 - [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$ <!--SR:!2025-09-22,295,350!2025-11-12,333,350-->
-- [antidistributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies r)\wedge (q\implies r) & \equiv (p\vee q)\implies r \\ (p\implies r)\vee (q\implies r) & \equiv (p\wedge q)\implies r \end{aligned}$$ <!--SR:!2025-06-09,209,330!2025-07-11,233,330-->
+- [antidistributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies r)\wedge (q\implies r) & \equiv (p\vee q)\implies r \\ (p\implies r)\vee (q\implies r) & \equiv (p\wedge q)\implies r \end{aligned}$$ <!--SR:!2028-01-19,951,350!2025-07-11,233,330-->
 
 ### logical equivalences involving biconditionals
 
@@ -51,7 +51,7 @@ where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2025-10-23,317
 
 Logical equivalence is {@{different from material equivalence}@}. Formulas $p$ and $q$ are {@{logically equivalent if and only if the statement of their material equivalence ($p\leftrightarrow q$) is a tautology}@}. <!--SR:!2025-07-05,228,330!2027-11-02,886,341-->
 
-The material equivalence of $p$ and $q$ (often written as {@{$p\leftrightarrow q$}@}) is {@{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}@}. This statement {@{expresses the idea "'$p$ if and only if $q$<!-- LaTeX separator -->'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}@}. <!--SR:!2025-08-19,229,290!2025-06-15,210,316!2026-05-05,446,321-->
+The material equivalence of $p$ and $q$ (often written as {@{$p\leftrightarrow q$}@}) is {@{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}@}. This statement {@{expresses the idea "'$p$ if and only if $q$<!-- LaTeX separator -->'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}@}. <!--SR:!2025-08-19,229,290!2027-12-19,917,336!2026-05-05,446,321-->
 
 On the other hand, the claim that two formulas are logically equivalent is {@{a statement in [metalanguage](metalanguage.md), which expresses a relationship between two statements $p$ and $q$}@}. The statements are {@{logically equivalent if, in every model, they have the same truth value}@}. <!--SR:!2027-12-01,915,349!2025-10-31,299,296-->
 

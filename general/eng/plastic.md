@@ -123,7 +123,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-01-04T20:17:52.377880+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE):@:[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2029-09-22,1615,274-->
-- [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2025-06-16,406,210-->
+- [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2028-10-12,1214,230-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2025-07-17,117,130-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2026-11-21,829,261-->
 - [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2025-08-15,101,130-->

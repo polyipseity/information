@@ -65,7 +65,7 @@ The content is in teaching order.
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)
     - [§ engineering strain](../../../../general/strain%20(mechanics).md#engineering%20strain)
-      - engineering strain symbol ::@:: $\varepsilon$ <!--SR:!2025-06-17,307,350!2025-06-09,301,350-->
+      - engineering strain symbol ::@:: $\varepsilon$ <!--SR:!2029-07-03,1477,370!2029-05-30,1443,370-->
 - [elastic modulus](../../../../general/elastic%20modulus.md)
   - [§ definition](../../../../general/elastic%20modulus.md#definition)
   - [§ types of elastic modulus](../../../../general/elastic%20modulus.md#types%20of%20elastic%20modulus)
@@ -89,7 +89,7 @@ The content is in teaching order.
   - torsion examples ::@:: drill pipes, power transmission shafts, tall buildings <!--SR:!2026-01-23,463,330!2026-12-28,677,330-->
 - [shear](../../../../general/shear%20force.md) ::@:: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2025-08-18,354,350!2029-03-04,1371,370-->
   - shear examples ::@:: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2026-09-13,635,330!2028-01-07,1019,350-->
-- [structural support](../../../../general/structural%20support.md) ::@:: fixed support, pinned support, roller support <!--SR:!2026-04-07,515,330!2025-06-10,302,350-->
+- [structural support](../../../../general/structural%20support.md) ::@:: fixed support, pinned support, roller support <!--SR:!2026-04-07,515,330!2029-06-09,1453,370-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
   - [§ pinned support](../../../../general/structural%20support.md#pinned%20support)
   - [§ fixed support](../../../../general/structural%20support.md#fixed%20support)

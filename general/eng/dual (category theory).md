@@ -21,7 +21,7 @@ In the case when {@{_C_ and its opposite _C_<sup>op</sup> are equivalent}@}, {@{
 
 ## formal definition
 
-We define {@{the elementary language of category theory}@} as {@{the two-sorted [first order language](first%20order%20language.md) with objects and morphisms as distinct sorts}@}, together with {@{the relations of an object being the source or target of a morphism and a symbol for composing two morphisms}@}. <!--SR:!2025-06-18,112,290!2026-01-18,290,330!2026-01-22,294,330-->
+We define {@{the elementary language of category theory}@} as {@{the two-sorted [first order language](first%20order%20language.md) with objects and morphisms as distinct sorts}@}, together with {@{the relations of an object being the source or target of a morphism and a symbol for composing two morphisms}@}. <!--SR:!2026-09-16,455,310!2026-01-18,290,330!2026-01-22,294,330-->
 
 Let {@{σ be any statement in this language}@}. We form {@{the dual σ<sup>op</sup>}@} as follows: <!--SR:!2026-01-10,282,330!2026-01-15,287,330-->
 

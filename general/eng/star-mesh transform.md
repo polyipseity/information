@@ -19,19 +19,19 @@ The {@{__star-mesh transform__, or __star-polygon transform__}@}, is {@{a mathem
 
 > {@{![star-mesh transform](../../archives/Wikimedia%20Commons/Star-mesh%20transform.svg)}@} <!--SR:!2026-01-27,241,330-->
 
-{@{The equivalent impedance betweens nodes A and B}@} is given by: {@{$$z_{\text{AB} }=z_{\text{A} }z_{\text{B} }\sum {\frac {1}{z} },$$}@} where {@{$z_{\text{A} }$ is the impedance between node A and the central node being removed}@}. <!--SR:!2025-06-11,67,310!2025-06-11,67,310!2026-01-23,237,330-->
+{@{The equivalent impedance betweens nodes A and B}@} is given by: {@{$$z_{\text{AB} }=z_{\text{A} }z_{\text{B} }\sum {\frac {1}{z} },$$}@} where {@{$z_{\text{A} }$ is the impedance between node A and the central node being removed}@}. <!--SR:!2026-03-25,286,330!2026-03-26,287,330!2026-01-23,237,330-->
 
 The transform {@{replaces _N_ resistors with ${\frac {1}{2} }N(N-1)$ resistors}@}. For {@{$N>3$, the result is an increase in the number of resistors}@}, so {@{the transform has no general inverse without additional constraints}@}. <!--SR:!2026-01-27,241,330!2026-02-21,263,330!2026-02-01,246,330-->
 
-It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2026-03-04,272,330!2025-06-11,67,310!2026-03-09,276,330-->
+It is {@{possible, though not necessarily efficient}@}, to {@{transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor}@} by {@{repeatedly applying the star-mesh transform to eliminate each non-terminal node}@}. <!--SR:!2026-03-04,272,330!2026-03-27,288,330!2026-03-09,276,330-->
 
 ## special cases
 
 When _N_ is:
 
 1. For a single dangling resistor, ::@:: the transform eliminates the resistor. <!--SR:!2025-12-01,191,310!2026-01-28,242,330-->
-2. For two resistors, ::@:: the "star" is simply the two resistors in series, and the transform yields a single equivalent resistor. <!--SR:!2026-02-08,253,330!2025-06-11,67,310-->
-3. The special case of three resistors ::@:: is better known as the [Y-Δ transform](Y-Δ%20transform.md). Since the result also has three resistors, this transform has an inverse Δ-Y transform. <!--SR:!2026-02-06,251,330!2025-06-11,67,310-->
+2. For two resistors, ::@:: the "star" is simply the two resistors in series, and the transform yields a single equivalent resistor. <!--SR:!2026-02-08,253,330!2026-01-03,205,310-->
+3. The special case of three resistors ::@:: is better known as the [Y-Δ transform](Y-Δ%20transform.md). Since the result also has three resistors, this transform has an inverse Δ-Y transform. <!--SR:!2026-02-06,251,330!2026-04-02,294,330-->
 
 ## see also
 

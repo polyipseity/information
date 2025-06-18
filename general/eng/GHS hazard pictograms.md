@@ -58,7 +58,7 @@ return await memorize_table(
 - GHS01: [explosive](explosive.md)→::@::←GHS02: [flammable](flammability.md) <!--SR:!2029-05-26,1516,270!2027-08-02,1232,350-->
 - GHS02: [flammable](flammability.md)→::@::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2026-08-22,890,330!2026-04-22,801,330-->
 - GHS03: [oxidizing](oxidizing%20agent.md)→::@::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2027-04-04,805,250!2028-01-01,1173,290-->
-- GHS04: [compressed gas](compressed%20fluid.md)→::@::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2025-06-07,501,270!2029-02-13,1369,310-->
+- GHS04: [compressed gas](compressed%20fluid.md)→::@::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2029-02-28,1357,270!2029-02-13,1369,310-->
 - GHS05: [corrosive](corrosive%20substance.md)→::@::←GHS06: [toxic](toxicity.md) <!--SR:!2025-07-10,620,310!2027-12-23,1164,290-->
 - GHS06: [toxic](toxicity.md)→::@::←GHS07: harmful <!--SR:!2025-10-30,662,310!2027-04-26,959,290-->
 - GHS07: harmful→::@::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2025-10-20,641,310!2027-09-08,1149,290-->

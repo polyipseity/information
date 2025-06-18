@@ -329,7 +329,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. almost no shift for both stars
 >
 > - solution: {@{6}@}
-> - explanation: {@{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}@} <!--SR:!2027-06-18,805,348!2025-06-12,212,288-->
+> - explanation: {@{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}@} <!--SR:!2027-06-18,805,348!2027-02-24,616,288-->
 
 ## 2024-07-23
 

@@ -70,7 +70,7 @@ return (
 - \[[parameter](#parameter)\]→::@::←\[[flags](#flags)\] <!--SR:!2026-05-30,720,329!2026-04-17,687,329-->
 - \[[flags](#flags)\]→::@::←\[[width](#width)\] <!--SR:!2025-12-06,424,269!2027-12-21,1075,309-->
 - \[[width](#width)\]→::@::←\[.[precision](#precision)\] <!--SR:!2027-10-20,1010,317!2029-10-24,1631,309-->
-- \[.[precision](#precision)\]→::@::←\[[length](#length)\] <!--SR:!2026-07-13,754,329!2025-06-16,170,289-->
+- \[.[precision](#precision)\]→::@::←\[[length](#length)\] <!--SR:!2026-07-13,754,329!2027-04-30,683,309-->
 - \[[length](#length)\]→::@::←[type](#type) <!--SR:!2027-02-10,979,349!2025-06-26,441,289-->
 - [type](#type)→::@::←_(end)_ <!--SR:!2026-08-26,835,337!2026-12-11,929,349-->
 
@@ -137,7 +137,7 @@ A combination of zero or more of the following in any order:
 > | {@{\#}@} | {@{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}@} |
 > | {@{+}@} | {@{prepend + before positive numbers}@} |
 > | {@{-}@} | {@{align left}@} |
-> | {@{0}@} | {@{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}@} | <!--SR:!2026-06-06,770,337!2025-07-27,444,277!2026-09-29,862,337!2025-09-07,186,197!2025-12-21,592,317!2028-11-15,1425,329!2026-10-25,888,349!2030-12-28,2074,349!2026-11-03,897,349!2025-06-13,171,289-->
+> | {@{0}@} | {@{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}@} | <!--SR:!2026-06-06,770,337!2025-07-27,444,277!2026-09-29,862,337!2025-09-07,186,197!2025-12-21,592,317!2028-11-15,1425,329!2026-10-25,888,349!2030-12-28,2074,349!2026-11-03,897,349!2027-05-01,687,309-->
 
 <!--/pytextgen-->
 

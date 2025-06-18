@@ -19,7 +19,7 @@ The __octet rule__ is {@{a [chemical](chemistry.md) [rule of thumb](rule%20of%20
 
 {@{[Electron deficit](electron%20deficiency.md) molecules like [boron trifluoride](boron%20trifluoride.md) (BF<sub>3</sub>)}@} {@{do not obey the octet rule}@}. <!--SR:!2026-09-24,632,270!2025-07-22,76,350-->
 
-[Main-group elements](main-group%20element.md) {@{in third [period](period%20(periodic%20table).md) or later can form [hypervalent molecules](hypervalent%20molecule.md)}@} such as {@{[phosphorous pentachloride](phosphorous%20pentachloride.md) (PCl<sub>5</sub>) and [sulfur hexafluoride](sulfur%20hexafluoride.md) (SF<sub>6</sub>)}@}. <!--SR:!2027-11-12,948,250!2025-06-09,42,310-->
+[Main-group elements](main-group%20element.md) {@{in third [period](period%20(periodic%20table).md) or later can form [hypervalent molecules](hypervalent%20molecule.md)}@} such as {@{[phosphorous pentachloride](phosphorous%20pentachloride.md) (PCl<sub>5</sub>) and [sulfur hexafluoride](sulfur%20hexafluoride.md) (SF<sub>6</sub>)}@}. <!--SR:!2027-11-12,948,250!2025-12-05,178,330-->
 
 ## other rules
 
@@ -50,7 +50,7 @@ return await memorize_table(
 
 - _(begin)_→::@::←__duplet rule__ <!--SR:!2025-09-09,625,330!2025-07-05,574,330-->
 - __duplet rule__→::@::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2025-07-23,589,330!2025-07-02,572,330-->
-- __[18-electron rule](18-electron%20rule.md)__→::@::←_(end)_ <!--SR:!2025-09-04,620,330!2025-06-16,559,330-->
+- __[18-electron rule](18-electron%20rule.md)__→::@::←_(end)_ <!--SR:!2025-09-04,620,330!2032-06-06,2547,350-->
 
 <!--/pytextgen-->
 

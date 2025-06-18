@@ -383,7 +383,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2025-06-18,83,369!2025-06-17,82,369-->
+> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2025-06-18,83,369!2026-08-06,415,389-->
 
 <!-- markdownlint MD028 -->
 
@@ -793,7 +793,7 @@ tags:
 > 2. lower than
 > 3. same as
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -805,7 +805,7 @@ tags:
 > 2. \$1000
 > 3. \$1100
 >
-> - solution: {@{3}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{3}@} <!--SR:!2025-07-15,28,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -820,7 +820,7 @@ tags:
 > 3. &gt;12%
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -850,7 +850,7 @@ tags:
 > 3. price of bond A will decrease more than bond B's in %
 > 4. price of bond A will decrease less than bond B's in %
 >
-> - solution: {@{4}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{4}@} <!--SR:!2025-07-08,21,398-->
 
 <!-- markdownlint MD028 -->
 
@@ -894,7 +894,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -919,7 +919,7 @@ tags:
 > 2. 10%
 > 3. 15%
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -932,7 +932,7 @@ tags:
 > 3. 6%
 > 4. 9%
 >
-> - solution: {@{4}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{4}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -991,7 +991,7 @@ tags:
 > 2. lottery 2
 >
 > - solution: {@{1/2}@}
-> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,392-->
+> - annotation: {@{People tend to choose lottery 1 due to _risk aversion_.}@} <!--SR:!2025-07-15,28,418!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1054,7 +1054,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1065,7 +1065,7 @@ tags:
 > 1. independent risk
 > 2. common risk
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1077,7 +1077,7 @@ tags:
 > 2. the risk that a product design is faulty and the product must be recalled
 > 3. the risk that the economy slows, reducing demand for the firm's products
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1093,7 +1093,7 @@ tags:
 > 2. firms with only unsystematic risk
 > 3. firms with a mix of both systematic and unsystematic risk
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1104,7 +1104,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 ## week 13 lecture
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,392-->
+> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-07-15,28,418!2025-06-11,5,392-->
 
 <!-- markdownlint MD028 -->
 
@@ -1251,7 +1251,7 @@ tags:
 > 2. 0
 > 3. −1
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1269,7 +1269,7 @@ tags:
 > 3. both have the same risk premium
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1319,7 +1319,7 @@ tags:
 > 3. increase by 1%
 > 4. increase by 1.6%
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1333,7 +1333,7 @@ tags:
 > 2. overpriced
 > 3. underpriced
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,418-->
 
 ## week 14 lecture 2
 
@@ -1344,7 +1344,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1359,7 +1359,7 @@ tags:
 > 3. 6%
 > 4. 6.7%
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1393,7 +1393,7 @@ tags:
 > 2. Incorrectly accept the project which provides insufficient return to compensate for its risk.
 > 3. Incorrectly reject the project which provides a return higher than required by its risk.
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-15,28,412-->
 
 <!-- markdownlint MD028 -->
 

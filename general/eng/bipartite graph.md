@@ -126,14 +126,14 @@ In {@{[projective geometry](projective%20geometry.md)}@}, {@{[Levi graphs](levi%
 
 ## see also
 
-- [bipartite dimension](bipartite%20dimension.md), ::@:: the minimum number of complete bipartite graphs whose union is the given graph <!--SR:!2025-12-23,297,290!2025-06-11,153,290-->
+- [bipartite dimension](bipartite%20dimension.md), ::@:: the minimum number of complete bipartite graphs whose union is the given graph <!--SR:!2025-12-23,297,290!2027-02-19,617,310-->
 - [bipartite double cover](bipartite%20double%20cover.md), ::@:: a way of transforming any graph into a bipartite graph by doubling its vertices <!--SR:!2026-08-21,456,310!2025-08-13,199,310-->
 - [bipartite hypergraph](bipartite%20hypergraph.md), ::@:: a generalization of bipartiteness to [hypergraphs](hypergraph.md). <!--SR:!2027-02-19,638,330!2025-10-02,255,330-->
 - [bipartite matroid](bipartite%20matroid.md), ::@:: a class of matroids that includes the [graphic matroids](graphic%20matroid.md) of bipartite graphs <!--SR:!2026-07-04,447,310!2025-08-17,202,310-->
 - [bipartite network projection](bipartite%20network%20projection.md), ::@:: a weighting technique for compressing information about bipartite networks <!--SR:!2025-12-17,288,290!2026-05-25,364,310-->
 - [convex bipartite graph](convex%20bipartite%20graph.md), ::@:: a bipartite graph whose vertices can be ordered so that the vertex neighborhoods are contiguous <!--SR:!2026-04-15,320,250!2025-09-09,197,270-->
 - [multipartite graph](multipartite%20graph.md), ::@:: a generalization of bipartite graphs to more than two subsets of vertices <!--SR:!2025-07-14,175,310!2027-02-15,634,330-->
-- [parity graph](parity%20graph.md), ::@:: a generalization of bipartite graphs in which every two [induced paths](induced%20path.md) between the same two points have the same parity <!--SR:!2025-12-31,300,290!2025-06-11,99,290-->
+- [parity graph](parity%20graph.md), ::@:: a generalization of bipartite graphs in which every two [induced paths](induced%20path.md) between the same two points have the same parity <!--SR:!2025-12-31,300,290!2026-04-01,293,290-->
 - [quasi-bipartite graph](quasi-bipartite%20graph.md), ::@:: a type of Steiner tree problem instance in which the terminals form an independent set, allowing approximation algorithms that generalize those for bipartite graphs <!--SR:!2025-07-11,127,250!2026-02-12,310,270-->
 - [split graph](split%20graph.md), ::@:: a graph in which the vertices can be partitioned into two subsets, one of which is independent and the other of which is a clique <!--SR:!2026-05-03,361,290!2025-07-07,167,270-->
 - [Zarankiewicz problem](Zarankiewicz%20problem.md) ::@:: on the maximum number of edges in a bipartite graph with forbidden subgraphs <!--SR:!2026-01-21,323,290!2026-01-01,301,290-->

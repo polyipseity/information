@@ -75,7 +75,7 @@ If {@{the [prime factorization](integer%20factorization.md) of $n$ is given by $
 
 For every natural $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.) <!--SR:!2025-12-24,275,330!2025-11-22,250,330-->
 
-Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2025-07-14,98,250!2026-04-21,340,290!2025-06-14,112,290!2025-11-06,236,330-->
+Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2025-07-14,98,250!2026-04-21,340,290!2026-09-15,458,310!2025-11-06,236,330-->
 
 ## in abstract algebra
 

@@ -19,12 +19,12 @@ This section {@{outlines how one might do competitor analysis and present it to 
 
 ### competitor classification
 
-Depending on the 2 factors of {@{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}@}, competitors can be classified into 4 types (we can {@{draw a 2 by 2 table}@} to represent it): <!--SR:!2025-06-07,299,341!2028-11-14,1287,361-->
+Depending on the 2 factors of {@{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}@}, competitors can be classified into 4 types (we can {@{draw a 2 by 2 table}@} to represent it): <!--SR:!2029-04-20,1408,361!2028-11-14,1287,361-->
 
-1. direct competitor ::@:: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2027-01-04,672,321!2025-06-12,304,341-->
-2. indirect competitor ::@:: meeting the same customer needs but using different capabilities to do so <!--SR:!2028-01-31,974,301!2025-06-13,305,341-->
+1. direct competitor ::@:: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2027-01-04,672,321!2029-05-08,1426,361-->
+2. indirect competitor ::@:: meeting the same customer needs but using different capabilities to do so <!--SR:!2028-01-31,974,301!2029-05-19,1436,361-->
 3. potential competitor ::@:: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2026-04-09,526,321!2028-12-30,1322,361-->
-4. non-competitor ::@:: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2028-09-18,1244,361!2025-06-11,303,341-->
+4. non-competitor ::@:: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2028-09-18,1244,361!2029-05-04,1422,361-->
 
 Direct competitors are not {@{necessarily more important than indirect or potential competitors, and instead it depends on the market}@}. <!--SR:!2027-09-20,925,334-->
 
@@ -73,10 +73,10 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2026-08-10,523,274!2028-08-22,1173,321-->
 - copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2026-04-20,389,241!2026-04-07,406,241-->
 - discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2026-04-16,379,221!2025-11-06,275,241-->
-- how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-10-07,172,170!2025-06-15,175,241-->
+- how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-10-07,172,170!2026-08-18,429,241-->
 - pricing: Compare prices.→::@::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2026-06-06,448,261!2026-01-24,284,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→::@::←why: Why are people using competitors' products? <!--SR:!2025-12-09,420,301!2026-10-24,594,261-->
-- why: Why are people using competitors' products?→::@::←_(end)_ <!--SR:!2025-06-08,300,341!2027-11-01,908,301-->
+- why: Why are people using competitors' products?→::@::←_(end)_ <!--SR:!2029-04-22,1410,361!2027-11-01,908,301-->
 
 <!--/pytextgen-->
 
@@ -127,7 +127,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {@{anytime as needed}@}. For example, it can expose holes in existing products during {@{idea screening}@}, or determine suitable prices during {@{commercialization}@}. <!--SR:!2026-12-01,714,330!2028-07-03,1183,361!2025-06-10,269,294-->
+Competitor analysis can be done {@{anytime as needed}@}. For example, it can expose holes in existing products during {@{idea screening}@}, or determine suitable prices during {@{commercialization}@}. <!--SR:!2026-12-01,714,330!2028-07-03,1183,361!2028-06-13,1097,314-->
 
 ### comparison parameters
 

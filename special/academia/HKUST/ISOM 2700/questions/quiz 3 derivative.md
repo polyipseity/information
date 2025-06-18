@@ -33,7 +33,7 @@ tags:
 > ---
 >
 > - solution: {@{1. 27.25 <br/> 2. 27.5 <br/> 3. 28.75}@}
-> - explanation: {@{1. \(28+27+28+26\)/4=27.25 <br/> 2. 0.4\*28+0.3\*27+0.2\*28+0.1\*26=27.5 <br/> 3. 29+0.25\*\(28−29\)=28.75}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
+> - explanation: {@{1. \(28+27+28+26\)/4=27.25 <br/> 2. 0.4\*28+0.3\*27+0.2\*28+0.1\*26=27.5 <br/> 3. 29+0.25\*\(28−29\)=28.75}@} <!--SR:!2025-06-28,12,270!2025-06-28,12,270-->
 
 ---
 
@@ -53,7 +53,7 @@ tags:
 > ---
 >
 > - solution: {@{MAD=3.25 <br/> TS=−4}@}
-> - explanation: {@{MAD=\(2+5+5+1\)/4=3.25 <br/> TS=\(−2−5−5−1\)/3.25=−4}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
+> - explanation: {@{MAD=\(2+5+5+1\)/4=3.25 <br/> TS=\(−2−5−5−1\)/3.25=−4}@} <!--SR:!2025-07-01,15,290!2025-07-01,15,290-->
 
 ---
 
@@ -69,7 +69,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{2, 3, 4}@} <!--SR:!2025-06-10,4,270-->
+> - solution: {@{2, 3, 4}@} <!--SR:!2025-07-02,16,290-->
 
 ---
 
@@ -82,7 +82,7 @@ tags:
 > ---
 >
 > - solution: {@{200}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2025-07-01,15,290!2025-06-30,14,290-->
 
 ---
 
@@ -95,7 +95,7 @@ tags:
 > ---
 >
 > - solution: {@{\$255&nbsp;675}@}
-> - explanation: {@{Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
+> - explanation: {@{Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-06-28,12,270!2025-07-02,16,290-->
 
 ---
 
@@ -109,7 +109,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2025-06-10,4,270-->
+> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2025-07-02,16,290-->
 
 ---
 
@@ -129,7 +129,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1, 2, 4, 5, 6, 8}@} <!--SR:!2025-06-10,4,270-->
+> - solution: {@{1, 2, 4, 5, 6, 8}@} <!--SR:!2025-06-28,12,270-->
 
 ---
 
@@ -144,7 +144,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1, 2, 3, 4}@} <!--SR:!2025-06-10,4,270-->
+> - solution: {@{1, 2, 3, 4}@} <!--SR:!2025-06-30,14,290-->
 
 ---
 
@@ -157,7 +157,7 @@ tags:
 > ---
 >
 > - solution: {@{100}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2025-07-02,16,290!2025-07-02,16,290-->
 
 ---
 
@@ -170,4 +170,4 @@ tags:
 > ---
 >
 > - solution: {@{75}@}
-> - explanation: {@{25\*3=75}@} <!--SR:!2025-06-10,4,270!2025-06-10,4,270-->
+> - explanation: {@{25\*3=75}@} <!--SR:!2025-06-30,14,290!2025-07-02,16,290-->

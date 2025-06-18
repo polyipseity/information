@@ -87,7 +87,7 @@ return await memorize_map(
 - [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks <!--SR:!2025-06-30,37,130-->
 - [iron](iron.md)(III):@:orange-brown <!--SR:!2025-10-11,202,170-->
 - [magnesium](magnesium.md):@:intense white <!--SR:!2025-07-01,235,250-->
-- [potassium](potassium.md):@:lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2025-06-16,282,190-->
+- [potassium](potassium.md):@:lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2026-12-04,536,190-->
 - [sodium](sodium.md):@:intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2025-07-20,351,190-->
 
 <!--/pytextgen-->

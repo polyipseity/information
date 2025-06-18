@@ -13,7 +13,7 @@ tags:
 
 > {@{![Permutation with one of its inversions highlighted.](../../archives/Wikimedia%20Commons/Inversion%20qtl1.svg)}@}
 >
-> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2025-06-12,137,292!2025-12-14,294,332!2025-12-15,295,332!2025-08-02,183,312!2025-11-11,270,332-->
+> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2025-12-14,294,332!2025-12-15,295,332!2025-08-02,183,312!2025-11-11,270,332-->
 
 In {@{[computer science](computer%20science.md) and [discrete mathematics](discrete%20mathematics.md)}@}, {@{an __inversion__}@} in {@{a sequence is a pair of elements that are out of their natural [order](total%20order.md)}@}. <!--SR:!2025-10-28,257,332!2025-11-21,278,332!2025-11-20,277,332-->
 
@@ -38,7 +38,7 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 
 {@{The inversion number}@} is {@{the number of crossings in the arrow diagram of the permutation}@},<sup>[\[6\]](#^ref-6)</sup> {@{the permutation's [Kendall tau distance](Kendall%20tau%20distance.md) from the identity permutation}@}, and {@{the sum of each of the inversion related vectors defined below}@}. <!--SR:!2025-11-25,282,332!2025-08-14,193,312!2026-11-12,535,312!2025-12-20,300,332-->
 
-{@{Other measures of sortedness}@} include {@{the minimum number of elements that can be deleted from the sequence to yield a fully sorted sequence}@}, {@{the number and lengths of sorted "runs" within the sequence}@}, {@{the Spearman footrule \(sum of distances of each element from its sorted position\)}@}, and {@{the smallest number of exchanges needed to sort the sequence}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Standard [comparison sorting](comparison%20sort.md) algorithms}@} can be {@{adapted to compute the inversion number in time O\(_n_ log _n_\)}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-11-25,282,332!2025-11-10,269,332!2025-12-10,292,332!2025-06-18,137,292!2025-12-15,295,332!2025-12-05,288,332!2025-09-07,200,312-->
+{@{Other measures of sortedness}@} include {@{the minimum number of elements that can be deleted from the sequence to yield a fully sorted sequence}@}, {@{the number and lengths of sorted "runs" within the sequence}@}, {@{the Spearman footrule \(sum of distances of each element from its sorted position\)}@}, and {@{the smallest number of exchanges needed to sort the sequence}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Standard [comparison sorting](comparison%20sort.md) algorithms}@} can be {@{adapted to compute the inversion number in time O\(_n_ log _n_\)}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-11-25,282,332!2025-11-10,269,332!2025-12-10,292,332!2026-12-26,556,312!2025-12-15,295,332!2025-12-05,288,332!2025-09-07,200,312-->
 
 ### inversion related vectors
 
@@ -52,7 +52,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-03,119,252!2026-06-22,392,292-->
 
-- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2025-06-12,28,232!2025-07-27,181,312-->
+- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2025-09-13,92,252!2025-07-27,181,312-->
 - inversion vector, symbolically ::@:: $$v(i)~~=~~\#\{k\mid k>i~\land ~\pi ^{-1}(k)<\pi ^{-1}(i)\}$$ <!--SR:!2026-06-21,391,292!2026-11-19,532,312-->
 
 __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!2025-07-01,134,252!2025-08-31,196,312-->
@@ -62,7 +62,7 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 
 __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-10-27,213,272!2025-11-23,173,272-->
 
-- right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2026-05-25,359,292!2025-06-14,134,292-->
+- right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2026-05-25,359,292!2026-12-10,544,312-->
 - right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2025-06-26,142,292!2026-10-20,508,312-->
 
 {@{Both $v$ and $r$}@} can be {@{found with the help of a [Rothe diagram](permutation.md#numbering%20permutations)}@}, which is {@{a [permutation matrix](permutation%20matrix.md)}@} with {@{the 1s represented by dots}@}, and {@{an inversion \(often represented by a cross\) in every position that has a dot to the right and below it}@}. $r(i)$ is the sum of inversions in row $i$ of the Rothe diagram, while $v(i)$ is the sum of inversions in column $i$. The permutation matrix of the inverse is the transpose, therefore $v$ of a permutation is $r$ of its inverse, and vice versa. <!--SR:!2025-11-24,281,332!2025-08-10,195,312!2026-04-17,338,292!2025-11-18,275,332!2025-06-23,140,292-->

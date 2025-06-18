@@ -51,7 +51,7 @@ The rising and falling factorials are {@{well defined in any [unital](ring%20(ma
 
 ### real numbers and negative _n_
 
-The falling factorial can be {@{extended to [real](real%20number.md) values of $x$ using the [gamma function](gamma%20function.md)}@} provided {@{$x$ and $x+n$ are real numbers that are not negative integers}@}: {@{$$(x)_{n}={\frac {\Gamma (x+1)}{\Gamma (x-n+1)} }\ ,$$}@} and so can the rising factorial: {@{$$x^{(n)}={\frac {\Gamma (x+n)}{\Gamma (x)} }\ .$$}@} <!--SR:!2025-09-28,259,330!2025-10-07,266,330!2025-07-14,197,310!2025-06-16,176,310-->
+The falling factorial can be {@{extended to [real](real%20number.md) values of $x$ using the [gamma function](gamma%20function.md)}@} provided {@{$x$ and $x+n$ are real numbers that are not negative integers}@}: {@{$$(x)_{n}={\frac {\Gamma (x+1)}{\Gamma (x-n+1)} }\ ,$$}@} and so can the rising factorial: {@{$$x^{(n)}={\frac {\Gamma (x+n)}{\Gamma (x)} }\ .$$}@} <!--SR:!2025-09-28,259,330!2025-10-07,266,330!2025-07-14,197,310!2027-07-12,756,330-->
 
 ### calculus
 

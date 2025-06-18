@@ -46,7 +46,7 @@ Using {@{sum of products}@}, {@{all logical statements which yield true results 
 
 {@{Minimization \(simplification\) of combinational logic formulas}@} is done using {@{the following rules based on the [laws of Boolean algebra](Boolean%20algebra.md#laws)}@}: <!--SR:!2025-10-30,188,310!2026-03-10,292,330-->
 
-- (annotation: distributivity) ::@:: $${\begin{aligned}(A\vee B)\wedge (A\vee C)&=A\vee (B\wedge C)\\(A\wedge B)\vee (A\wedge C)&=A\wedge (B\vee C)\end{aligned} }$$ <!--SR:!2025-06-15,32,290!2026-02-28,290,330-->
+- (annotation: distributivity) ::@:: $${\begin{aligned}(A\vee B)\wedge (A\vee C)&=A\vee (B\wedge C)\\(A\wedge B)\vee (A\wedge C)&=A\wedge (B\vee C)\end{aligned} }$$ <!--SR:!2025-10-20,127,310!2026-02-28,290,330-->
 - (annotation: absorption) ::@:: $${\begin{aligned}A\vee (A\wedge B)&=A\\A\wedge (A\vee B)&=A\end{aligned} }$$ <!--SR:!2026-02-10,272,330!2026-03-11,293,330-->
 - (annotation: redundancy 1; prove using distributivity and idempotence) ::@:: $${\begin{aligned}A\vee (\lnot A\wedge B)&=A\vee B\\A\wedge (\lnot A\vee B)&=A\wedge B\end{aligned} }$$ <!--SR:!2025-11-01,190,310!2025-09-13,140,290-->
 - (annotation: redundancy 2; prove using distributivity and idempotence) ::@:: $${\begin{aligned}(A\vee B)\wedge (\lnot A\vee B)&=B\\(A\wedge B)\vee (\lnot A\wedge B)&=B\end{aligned} }$$ <!--SR:!2025-09-06,135,290!2025-10-16,177,310-->

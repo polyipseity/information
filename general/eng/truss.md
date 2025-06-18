@@ -21,7 +21,7 @@ To {@{simplify analysis}@}, {@{2}@} assumptions are often made: {@{external forc
 
 Under these assumptions, each truss member {@{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}@}. By this, each truss member is {@{either a [zero force member](zero%20force%20member.md) (0), in tension (positive values), or in compression (negative values)}@}. <!--SR:!2027-03-09,733,330!2026-08-09,617,330-->
 
-To analyze a truss, {@{design the truss and determine the support sizes}@}. Then calculate {@{the support reactions and member forces under a specific loading condition}@} to {@{confirm that the supports and members are strong enough}@}. In detail, solve for {@{the support reactions by considering the entire truss as a free body}@}. Next, {@{solve for [forces in all members](#forces%20in%20members)}@}. <!--SR:!2027-02-18,755,330!2028-03-12,1083,350!2028-04-16,1110,350!2027-03-30,795,330!2025-06-13,301,330-->
+To analyze a truss, {@{design the truss and determine the support sizes}@}. Then calculate {@{the support reactions and member forces under a specific loading condition}@} to {@{confirm that the supports and members are strong enough}@}. In detail, solve for {@{the support reactions by considering the entire truss as a free body}@}. Next, {@{solve for [forces in all members](#forces%20in%20members)}@}. <!--SR:!2027-02-18,755,330!2028-03-12,1083,350!2028-04-16,1110,350!2027-03-30,795,330!2029-03-20,1376,350-->
 
 ### forces in members
 
@@ -33,7 +33,7 @@ Note that some members can have {@{zero forces, i.e. neither in tension nor in c
 
 The principle is simple: {@{Consider the equilibrium of each joint one by one, starting with those with 2 or less unknown forces}@}. For each joint, {@{draw the [free body diagram](free%20body%20diagram.md), and determine the axial forces of members connected to the joint}@}. <!--SR:!2026-10-06,611,310!2028-04-29,1118,350-->
 
-Note that when a truss member is in tension, it is actually {@{pulling on the two joints instead of pushing them}@}, and vice versa for compression. <!--SR:!2025-06-16,304,330-->
+Note that when a truss member is in tension, it is actually {@{pulling on the two joints instead of pushing them}@}, and vice versa for compression. <!--SR:!2029-03-27,1380,350-->
 
 The steps are {@{label all joints, members, and the support reactions}@}. Then, {@{compute the support reactions by considering the entire truss}@}. Finally, use {@{the method of joints to determine forces in all members}@}. <!--SR:!2027-05-05,820,330!2028-05-12,1130,350!2026-04-20,488,310-->
 

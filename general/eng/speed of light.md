@@ -9,7 +9,7 @@ tags:
 
 # speed of light
 
-The __speed of light__ {@{in vacuum}@}, commonly denoted ___c___, is {@{a universal [physical constant](physical%20constant.md)}@} that is exactly equal to {@{299&nbsp;792&nbsp;458 metres per second (approximately 300&nbsp;000 [kilometers](kilometre.md) per second}@}; 186&nbsp;000 miles per second; 671 million miles per hour). <!--SR:!2025-07-22,299,330!2026-12-09,682,330!2025-06-08,265,330-->
+The __speed of light__ {@{in vacuum}@}, commonly denoted ___c___, is {@{a universal [physical constant](physical%20constant.md)}@} that is exactly equal to {@{299&nbsp;792&nbsp;458 metres per second (approximately 300&nbsp;000 [kilometers](kilometre.md) per second}@}; 186&nbsp;000 miles per second; 671 million miles per hour). <!--SR:!2025-07-22,299,330!2026-12-09,682,330!2028-09-30,1206,350-->
 
 ## references
 

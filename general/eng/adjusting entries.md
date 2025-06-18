@@ -35,11 +35,11 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 {@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2027-06-16,760,330!2026-03-12,401,310!2025-07-04,219,330-->
 
-{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2027-07-04,773,330!2025-06-10,195,310!2025-09-04,269,330-->
+{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2027-07-04,773,330!2027-09-26,837,330!2025-09-04,269,330-->
 
 #### example
 
-Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2025-06-12,198,310!2025-07-29,220,310!2027-08-26,815,330-->
+Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2027-10-08,848,330!2025-07-29,220,310!2027-08-26,815,330-->
 
 ```text
                         Debit  |  Credit

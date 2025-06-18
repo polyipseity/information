@@ -29,7 +29,7 @@ The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!20
 
 Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2025-10-19,315,345-->
 
-The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2025-12-05,351,345!2025-06-12,207,325!2027-08-23,830,345-->
+The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2025-12-05,351,345!2027-12-29,930,345!2027-08-23,830,345-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
@@ -39,11 +39,11 @@ The next four axioms describe {@{the [equality](equality%20(mathematics).md) [re
 5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2025-09-07,282,345!2025-10-27,320,345-->
 <!-- markdownlint-restore -->
 
-The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2025-06-07,203,325!2025-12-14,358,345-->
+The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2027-12-07,908,345!2025-12-14,358,345-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-6. 6th axiom ::@:: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under _S_. <!--SR:!2025-06-16,212,322!2025-06-16,195,310-->
+6. 6th axiom ::@:: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under _S_. <!--SR:!2028-01-15,943,342!2027-10-03,839,330-->
 7. 7th axiom ::@:: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2025-08-27,253,325!2026-08-12,532,325-->
 8. 8th axiom ::@:: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2027-10-11,870,345!2025-10-02,301,345-->
 <!-- markdownlint-restore -->
@@ -97,7 +97,7 @@ To show that $S(0)$ is {@{also the multiplicative left identity requires the ind
 
 Therefore, by {@{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}@}. <!--SR:!2025-11-20,338,345!2025-09-23,290,330-->
 
-Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2025-06-18,154,265!2026-10-28,520,285-->
+Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2027-01-11,572,285!2026-10-28,520,285-->
 
 > [!tip] tips
 >
@@ -127,7 +127,7 @@ This form of the induction axiom, called {@{_strong induction_, is a consequence
 - proving the naturals are well-ordered / base case ::@:: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2026-08-24,541,325!2027-06-05,760,330-->
 - proving the naturals are well-ordered / induction ::@:: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2026-05-20,469,325!2025-10-22,297,305-->
 
-Thus, by {@{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2025-10-20,273,285!2025-06-12,211,325-->
+Thus, by {@{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2025-10-20,273,285!2028-01-14,946,345-->
 
 ## references
 

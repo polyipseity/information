@@ -223,16 +223,16 @@ The content is in teaching order.
 
 - datetime: 2024-11-21T10:30:00+08:00/2024-11-21T12:20:00+08:00
 - assignments: [letter to future self](assignments/letter%20to%20future%20self/submission.md), [final presentation](assignments/final%20presentation/submission.md)
-- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious. <!--SR:!2027-12-04,912,449!2025-06-08,159,429-->
+- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious. <!--SR:!2027-12-04,912,449!2027-12-31,928,449-->
 - prototype ::@:: To bring ideas to life with little cost. <!--SR:!2027-12-01,909,449!2027-11-18,897,449-->
   - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future! <!--SR:!2027-11-19,898,449!2027-02-12,653,429-->
   - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost <!--SR:!2027-11-25,904,449!2027-12-08,915,449-->
-  - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas. <!--SR:!2027-12-13,920,449!2025-06-08,159,429-->
-- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2025-06-07,158,429!2027-11-14,893,449-->
+  - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas. <!--SR:!2027-12-13,920,449!2027-12-30,927,449-->
+- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2027-12-24,921,449!2027-11-14,893,449-->
   - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers. <!--SR:!2027-11-24,903,449!2026-12-03,601,429-->
   - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will... <!--SR:!2027-11-22,901,449!2027-11-26,905,449-->
   - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?). <!--SR:!2027-11-23,902,449!2027-12-03,911,449-->
-- storytelling ::@:: Tell stories. <!--SR:!2027-12-10,917,449!2025-06-07,158,429-->
+- storytelling ::@:: Tell stories. <!--SR:!2027-12-10,917,449!2027-12-25,922,449-->
   - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities <!--SR:!2027-11-13,892,449!2027-12-09,916,449-->
 
 ## week 13 tutorial

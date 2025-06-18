@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 - [kerosene](kerosene.md)→::@::←[fuel oil](fuel%20oil.md) <!--SR:!2026-01-12,384,214!2025-07-04,49,130-->
 - [fuel oil](fuel%20oil.md)→::@::←[diesel fuel](diesel%20fuel.md) <!--SR:!2028-03-11,1228,294!2026-06-08,573,254-->
 - [diesel fuel](diesel%20fuel.md)→::@::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2025-12-22,234,194-->
-- [paraffin wax](paraffin%20wax.md)→::@::←[bitumen](bitumen.md) <!--SR:!2025-06-08,223,294!2029-12-17,1686,314-->
+- [paraffin wax](paraffin%20wax.md)→::@::←[bitumen](bitumen.md) <!--SR:!2027-03-30,656,294!2029-12-17,1686,314-->
 - [bitumen](bitumen.md)→::@::←_(end)_ <!--SR:!2027-05-09,1164,350!2026-12-25,984,334-->
 
 <!--/pytextgen-->
@@ -105,7 +105,7 @@ return _chain.from_iterable(await _gather(
 - [naphtha](naphtha.md):@:30 to 200 °C <!--SR:!2025-09-10,200,190-->
 - [jet fuel](jet%20fuel.md):@:150 to 205 °C <!--SR:!2025-08-26,92,150-->
 - [kerosene](kerosene.md):@:205 to 260 °C <!--SR:!2025-10-20,192,150-->
-- [fuel oil](fuel%20oil.md):@:205 to 290 °C <!--SR:!2025-06-18,59,150-->
+- [fuel oil](fuel%20oil.md):@:205 to 290 °C <!--SR:!2025-09-15,89,150-->
 - [diesel fuel](diesel%20fuel.md):@:260 to 315 °C <!--SR:!2025-07-04,80,130-->
 - [paraffin wax](paraffin%20wax.md):@:370 °C or above <!--SR:!2025-07-04,165,174-->
 - [bitumen](bitumen.md):@:500 °C or above <!--SR:!2026-09-06,608,294-->

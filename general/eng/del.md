@@ -117,12 +117,12 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > __flashcards__
 >
 > - $\nabla (fg)$ ::@:: $=f\nabla g+g\nabla f$ <!--SR:!2026-01-12,250,330!2026-01-10,248,330-->
-> - $\nabla (\mathbf {u} \cdot \mathbf {v} )$ ::@:: $=\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )+(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u}$ <!--SR:!2025-06-16,26,230!2025-08-05,120,290-->
+> - $\nabla (\mathbf {u} \cdot \mathbf {v} )$ ::@:: $=\mathbf {u} \times (\nabla \times \mathbf {v} )+\mathbf {v} \times (\nabla \times \mathbf {u} )+(\mathbf {u} \cdot \nabla )\mathbf {v} +(\mathbf {v} \cdot \nabla )\mathbf {u}$ <!--SR:!2025-08-12,57,230!2025-08-05,120,290-->
 > - $\nabla \cdot (f\mathbf {v} )$ ::@:: $=f(\nabla \cdot \mathbf {v} )+\mathbf {v} \cdot (\nabla f)$ <!--SR:!2025-09-07,149,310!2025-12-24,235,330-->
 > - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2025-08-12,83,230!2025-11-04,158,250-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2025-11-09,176,270!2026-03-02,289,330-->
-> - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-07-10,54,250!2025-06-11,25,230-->
-> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-06-14,9,150!2025-06-19,29,230-->
+> - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2025-07-10,54,250!2025-08-09,58,230-->
+> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!2025-06-28,14,150!2025-06-19,29,230-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2025-08-31,87,290!2026-02-28,269,290-->
 
 ## second derivatives
@@ -149,7 +149,7 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2026-02-01,260,330!2025-09-26,128,250-->
 
-And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2025-08-04,119,290!2025-06-11,55,210-->
+And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2025-08-04,119,290!2025-10-03,113,210-->
 
 ## precautions
 

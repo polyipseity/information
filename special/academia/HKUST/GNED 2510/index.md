@@ -108,7 +108,7 @@ The content is in teaching order.
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2025-07-29,216,310!2025-08-29,262,330-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2027-06-19,748,330!2025-08-28,261,330-->
-  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2025-06-15,202,330!2025-07-26,237,330-->
+  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2027-12-23,920,350!2025-07-26,237,330-->
 
 ## week 7 tutorial
 
@@ -176,7 +176,7 @@ The content is in teaching order.
 - interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2025-10-23,302,330!2025-08-08,244,330-->
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2025-08-04,244,330-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2025-08-10,246,330!2025-10-24,303,330-->
-  - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
+  - STAR-r / task ::@:: describe the purpose <!--SR:!2027-10-18,854,330!2025-06-21,207,330-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2025-09-03,266,330-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2025-08-08,246,330!2025-10-21,300,330-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2025-08-07,243,330!2025-08-11,247,330-->

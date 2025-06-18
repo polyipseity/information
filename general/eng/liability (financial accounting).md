@@ -15,7 +15,7 @@ In [financial accounting](financial%20accounting.md), a __liability__ is {@{a qu
 
 A liability is defined by the following characteristics:
 
-- [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2027-05-13,721,330!2025-06-10,195,310-->
+- [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2027-05-13,721,330!2027-09-28,838,330-->
 - [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2026-10-21,517,270!2026-03-29,408,310-->
 - [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2025-07-02,189,270!2025-09-18,281,330-->
 - [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2025-07-20,232,330!2027-03-06,688,330-->
@@ -32,7 +32,7 @@ Probably the most accepted accounting definition of liability is {@{the one used
 >
 > —&hairsp;F.49(b) <!--SR:!2027-06-07,746,330-->
 
-Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}. <!--SR:!2025-06-08,183,310-->
+Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}. <!--SR:!2027-08-12,791,330-->
 
 Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2027-07-26,791,330-->
 
@@ -43,7 +43,7 @@ __Liabilities__ are {@{debts and obligations of the business they represent as _
 Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {@{usually divided into two categories: [current liabilities](current%20liability.md) and [long-term liabilities](long-term%20liabilities.md)}@}. <!--SR:!2025-10-04,291,330-->
 
 - [current liabilities](current%20liability.md) ::@:: These liabilities are reasonably expected to be liquidated within a financial period (usually a year). They usually include payables such as [wages](wage.md), [accounts](account%20(bookkeeping).md), [taxes](tax.md), and [accounts payable](accounts%20payable.md), unearned revenue when [adjusting entries](adjusting%20entries.md), portions of long-term bonds to be paid this year, and short-term obligations (_e.g._ from purchase of equipment). Current liabilities are obligations whose liquidation is reasonably expected to require the use of current assets, the creation of other current liabilities, or the provision of services within the next year or operating cycle, whichever is longer. <!--SR:!2025-07-09,204,270!2025-09-14,260,290-->
-- [long-term liabilities](long-term%20liabilities.md) ::@:: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2025-06-12,187,310!2025-06-20,202,310-->
+- [long-term liabilities](long-term%20liabilities.md) ::@:: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2027-08-25,804,330!2025-06-20,202,310-->
 
 {@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2025-10-27,310,330!2025-06-28,197,310-->
 
@@ -51,7 +51,7 @@ When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@
 
 ## debits and credits
 
-A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2025-08-11,250,330!2025-06-27,208,310!2025-06-09,194,310!2025-08-31,264,330-->
+A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2025-08-11,250,330!2025-06-27,208,310!2027-09-22,832,330!2025-08-31,264,330-->
 
 When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2027-05-31,739,330!2027-08-24,812,330!2027-03-03,679,330-->
 

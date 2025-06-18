@@ -29,7 +29,7 @@ If we go on to {@{[Hilbert spaces](Hilbert%20space.md)}@}, {@{a non-orthonormal 
 - The set {@{$\left\{f_{n}:n\in \mathbb {Z} \right\}$ with $f_{n}(x)=\exp(2\pi inx)$}@}, where {@{$\exp$ denotes the [exponential function](exponential%20function.md)}@}, forms {@{an orthonormal basis of the space of functions}@} with {@{finite Lebesgue integrals, $L^{2}([0,1])$, with respect to the [2-norm](2-norm.md)}@}. This is {@{fundamental to the study of [Fourier series](Fourier%20series.md)}@}.
 - The {@{set $\left\{e_{b}:b\in B\right\}$ with $e_{b}(c)=1$ if $b=c$ and $e_{b}(c)=0$ otherwise}@} forms {@{an orthonormal basis of $\ell ^{2}(B)$}@}.
 - {@{[Eigenfunctions](eigenfunction.md)}@} of {@{a [Sturm–Liouville eigenproblem](Sturm–Liouville%20eigenproblem.md)}@}.
-- {@{The [column vectors](column%20vectors.md) of an [orthogonal matrix](orthogonal%20matrix.md)}@} form {@{an orthonormal set}@}. <!--SR:!2026-04-22,340,344!2026-04-26,339,344!2026-04-17,330,344!2026-04-24,337,344!2026-03-02,300,344!2026-04-08,328,344!2026-04-10,330,344!2026-04-18,331,344!2026-04-17,330,344!2026-04-05,325,344!2026-04-21,334,344!2026-04-28,341,344!2026-04-21,334,344!2026-04-23,336,344!2026-04-25,338,344!2026-02-20,288,330!2026-04-27,340,344!2025-10-08,162,304!2026-04-20,338,344!2025-09-22,152,304!2026-04-23,336,344!2026-04-06,326,344!2026-03-02,300,344!2026-03-31,320,344!2026-04-20,333,344!2026-04-27,340,344!2025-08-03,127,304!2025-09-05,129,264!2026-04-26,339,344!2025-10-28,198,324!2025-08-14,135,304!2026-04-20,333,344!2026-04-24,337,344!2026-01-25,255,304!2026-03-27,316,344!2025-06-18,83,270!2026-01-26,249,324!2025-12-11,226,324!2025-09-10,98,380!2025-09-11,99,380-->
+- {@{The [column vectors](column%20vectors.md) of an [orthogonal matrix](orthogonal%20matrix.md)}@} form {@{an orthonormal set}@}. <!--SR:!2026-04-22,340,344!2026-04-26,339,344!2026-04-17,330,344!2026-04-24,337,344!2026-03-02,300,344!2026-04-08,328,344!2026-04-10,330,344!2026-04-18,331,344!2026-04-17,330,344!2026-04-05,325,344!2026-04-21,334,344!2026-04-28,341,344!2026-04-21,334,344!2026-04-23,336,344!2026-04-25,338,344!2026-02-20,288,330!2026-04-27,340,344!2025-10-08,162,304!2026-04-20,338,344!2025-09-22,152,304!2026-04-23,336,344!2026-04-06,326,344!2026-03-02,300,344!2026-03-31,320,344!2026-04-20,333,344!2026-04-27,340,344!2025-08-03,127,304!2025-09-05,129,264!2026-04-26,339,344!2025-10-28,198,324!2025-08-14,135,304!2026-04-20,333,344!2026-04-24,337,344!2026-01-25,255,304!2026-03-27,316,344!2026-04-26,312,290!2026-01-26,249,324!2025-12-11,226,324!2025-09-10,98,380!2025-09-11,99,380-->
 
 ## basic formula
 
@@ -74,7 +74,7 @@ In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal g
 - The set of orthonormal bases for $\mathbb {R} ^{p,q}$ ::@:: is a G-torsor for $G={\text{O} }(p,q)$. <!--SR:!2026-04-12,332,344!2026-04-28,341,344-->
 - The set of orthonormal bases for $\mathbb {C} ^{n}$ ::@:: is a G-torsor for $G={\text{U} }(n)$. <!--SR:!2026-02-25,279,304!2026-04-21,339,344-->
 - The set of orthonormal bases for $\mathbb {C} ^{p,q}$ ::@:: is a G-torsor for $G={\text{U} }(p,q)$. <!--SR:!2026-04-19,332,344!2026-04-20,333,344-->
-- The set of right-handed orthonormal bases for $\mathbb {R} ^{n}$ ::@:: is a G-torsor for $G={\text{SO} }(n)$ <!--SR:!2025-10-07,161,304!2025-06-07,80,284-->
+- The set of right-handed orthonormal bases for $\mathbb {R} ^{n}$ ::@:: is a G-torsor for $G={\text{SO} }(n)$ <!--SR:!2025-10-07,161,304!2026-04-23,316,304-->
 
 ## see also
 

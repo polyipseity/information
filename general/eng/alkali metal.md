@@ -66,7 +66,7 @@ return await memorize_map(
 - melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly:@:[sodium](sodium.md) <!--SR:!2027-04-08,1043,290-->
 - melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites:@:[potassium](potassium.md) <!--SR:!2027-03-02,971,290-->
 - explosive:@:[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2025-08-14,132,150-->
-- unknown:@:[francium](francium.md) <!--SR:!2025-06-15,374,310-->
+- unknown:@:[francium](francium.md) <!--SR:!2029-11-07,1606,330-->
 
 <!--/pytextgen-->
 

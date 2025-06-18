@@ -17,7 +17,7 @@ tags:
 
 ## similarity of asymmetric binary attributes
 
-{@{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}@} are given. Define: <!--SR:!2025-06-07,274,330-->
+{@{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}@} are given. Define: <!--SR:!2028-11-08,1246,350-->
 
 - $M_{00}$ ::@:: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2028-04-07,1079,350!2027-01-05,699,330-->
 - $M_{01}$ ::@:: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2025-07-24,311,330!2028-07-12,1153,350-->

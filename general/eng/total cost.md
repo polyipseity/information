@@ -20,7 +20,7 @@ tags:
 >
 > The total cost curve, if {@{non-linear, can represent increasing and [diminishing marginal returns](diminishing%20marginal%20returns.md)}@}. <!--SR:!2026-03-04,327,341!2026-02-13,312,341-->
 
-In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2026-03-01,325,341!2026-03-08,331,341!2026-02-20,317,341!2026-03-11,333,341!2025-06-11,113,301!2026-01-22,294,330!2025-10-24,216,321!2026-02-23,320,341-->
+In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2026-03-01,325,341!2026-03-08,331,341!2026-02-20,317,341!2026-03-11,333,341!2026-09-28,474,321!2026-01-22,294,330!2025-10-24,216,321!2026-02-23,320,341-->
 
 {@{Total cost in economics}@} includes {@{the total [opportunity cost](opportunity%20cost.md) \(benefits received from the next-best alternative\) of each [factor of production](factors%20of%20production.md) as part of its fixed or variable costs}@}. <!--SR:!2026-02-18,316,341!2026-05-26,361,301-->
 
@@ -45,7 +45,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Marginal Cost ::@:: = Change in Total Costs / Change in Quantity of goods <!--SR:!2026-02-11,310,341!2026-02-12,311,341-->
 - Marginal Product ::@:: = Change in Quantity of goods / Change in Variable Factor <!--SR:!2026-01-22,294,330!2026-02-14,312,341-->
 - Marginal Revenue ::@:: = Change in Total Revenue / Change in Quantity of goods <!--SR:!2026-03-09,331,341!2026-02-24,321,341-->
-- Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2025-06-15,116,301!2026-01-22,294,330-->
+- Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2026-10-19,491,321!2026-01-22,294,330-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2026-02-16,314,341!2026-02-22,319,341-->
 - Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2026-02-15,313,341!2026-03-13,335,341-->
 - Total Product ::@:: = AP X Variable Factor <!--SR:!2025-08-19,168,321!2026-02-23,319,341-->

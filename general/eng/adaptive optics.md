@@ -9,7 +9,7 @@ tags:
 
 # adaptive optics
 
-__Adaptive optics__ (__AO__) is {@{a technique of precisely deforming a [mirror](mirror.md) in order to compensate for light distortion}@}. Adaptive optics works by {@{measuring the distortions in a [wavefront](wavefront.md), using a [natural guide star](#natural%20guide%20star) or [artificial guide star](#artificial%20guide%20star) ([laser beam](laser.md))}@}, and {@{compensating for them with a device that corrects those errors such as a [deformable mirror](deformable%20mirror.md) or a [liquid crystal](liquid%20crystal.md) array}@}. <!--SR:!2025-06-09,244,330!2026-02-03,406,310!2025-11-21,320,290-->
+__Adaptive optics__ (__AO__) is {@{a technique of precisely deforming a [mirror](mirror.md) in order to compensate for light distortion}@}. Adaptive optics works by {@{measuring the distortions in a [wavefront](wavefront.md), using a [natural guide star](#natural%20guide%20star) or [artificial guide star](#artificial%20guide%20star) ([laser beam](laser.md))}@}, and {@{compensating for them with a device that corrects those errors such as a [deformable mirror](deformable%20mirror.md) or a [liquid crystal](liquid%20crystal.md) array}@}. <!--SR:!2028-06-24,1109,350!2026-02-03,406,310!2025-11-21,320,290-->
 
 ## references
 

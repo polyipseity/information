@@ -23,7 +23,7 @@ Competitors are {@{other entities that target the same customers to fulfill the 
 
 ### customers
 
-Customers are {@{potential buyers, defined by their needs which the company intends to fulfill}@}. Researching {@{[demographics](demographics.md)}@} is important. <!--SR:!2025-06-12,285,330!2026-09-08,566,310-->
+Customers are {@{potential buyers, defined by their needs which the company intends to fulfill}@}. Researching {@{[demographics](demographics.md)}@} is important. <!--SR:!2028-12-29,1296,350!2026-09-08,566,310-->
 
 ### collaborators
 

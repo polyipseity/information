@@ -171,7 +171,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $2 \cos 3.71 \sin 3.71$ <!--SR:!2026-03-16,581,327!2027-11-11,1085,347-->
-> - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-08-14,147,267!2025-06-11,110,247-->
+> - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-08-14,147,267!2026-06-21,375,267-->
 > - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2025-11-02,150,207-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2027-06-03,919,347!2026-09-24,658,287-->
 > - $\cos 9.98$ (cosine variant) ::@:: $2\cos^2 4.99 - 1$ <!--SR:!2027-01-29,795,327!2027-08-28,982,347-->
@@ -211,8 +211,8 @@ return await memorize_map(
 
 - sine:@:$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2026-04-04,451,336-->
 - cosine:@:$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2026-02-17,437,336-->
-- tangent:@:$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2025-06-12,50,176-->
-- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2025-06-11,84,276-->
+- tangent:@:$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2025-09-06,85,176-->
+- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2026-01-27,230,276-->
 - cosecant:@:$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2025-07-05,240,296-->
 - cotangent:@:$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2026-01-12,285,236-->
 
@@ -223,7 +223,7 @@ return await memorize_map(
 > - $\sin 4.2$ ::@:: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2026-07-12,486,296!2026-05-27,362,336-->
 > - $\cos (-3.6)$ ::@:: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2025-11-20,341,316!2025-08-21,303,356-->
 > - $\tan (-3.14)$ (sine and cosine) ::@:: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$ <!--SR:!2025-10-01,269,276!2025-09-27,305,316-->
-> - $\tan 3.42$ (cosine) ::@:: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2025-06-07,223,296!2026-03-25,396,276-->
+> - $\tan 3.42$ (cosine) ::@:: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2025-09-28,109,276!2026-03-25,396,276-->
 > - $\tan (-2.01)$ (addition) ::@:: $-\csc 4.02 + \cot 4.02$ <!--SR:!2026-07-21,524,336!2026-01-02,371,316-->
 > - $\tan (-9.6)$ (tangent and secant) ::@:: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2025-08-27,246,276!2026-08-03,533,336-->
 > - $\tan (-4.96)$ (tangent) ::@:: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2025-07-09,243,296!2025-07-10,136,256-->
@@ -331,7 +331,7 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2026-11-29,708,289!2025-06-14,118,189-->
+> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2026-11-29,708,289!2026-01-25,225,189-->
 > - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::@:: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2025-08-15,322,269!2025-07-03,176,209-->
 > - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2026-05-11,396,309-->
 > - $0 \cos 4.2x + 0 \sin 4.2x$ ::@:: $0$ <!--SR:!2025-10-25,337,359!2026-02-01,439,379-->

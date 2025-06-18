@@ -23,7 +23,7 @@ The _product_ of {@{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__
 
 #### subtraction
 
-The subtraction of {@{a matrix __A__ by another matrix __B__ of the same size}@} is denoted {@{__A__ - __B__}@}. It is defined by {@{[addition](#addition) of __A__ and __B__ that is scalar multiplied by -1}@}: {@{$$\mathbf{A} - \mathbf{B} = \mathbf{A} + (-1) \cdot \mathbf{B}$$}@} <!--SR:!2028-06-30,1142,350!2028-10-05,1223,350!2026-11-06,668,330!2025-06-07,273,330-->
+The subtraction of {@{a matrix __A__ by another matrix __B__ of the same size}@} is denoted {@{__A__ - __B__}@}. It is defined by {@{[addition](#addition) of __A__ and __B__ that is scalar multiplied by -1}@}: {@{$$\mathbf{A} - \mathbf{B} = \mathbf{A} + (-1) \cdot \mathbf{B}$$}@} <!--SR:!2028-06-30,1142,350!2028-10-05,1223,350!2026-11-06,668,330!2028-11-05,1242,350-->
 
 #### transposition
 

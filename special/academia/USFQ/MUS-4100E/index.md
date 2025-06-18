@@ -173,7 +173,7 @@ The content is in teaching order.
 - datetime: 2025-01-22T08:30:00-05:00/2025-01-22T09:50:00-05:00, PT1H20M
   - local: 2025-01-22T21:30:00+08:00/2025-01-22T22:50:00+08:00, PT1H20M
 - [Buddy Bolden](../../../../general/Buddy%20Bolden.md) (1877–1931) ::@:: considered the first jazz musician, African American from New Orleans <!--SR:!2026-01-06,267,355!2026-02-15,297,355-->
-  - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2026-01-09,270,355!2025-06-11,98,315-->
+  - Buddy Bolden / achievements ::@:: first to incorporate blues (blue note, blue melody), gospel (call and response), march (instrument, harmony), ragtime (syncopation) into jazz <br/> hot music (vs. cool music): music more for dancing and partying <br/> invented the big 4: accent beat 4 of march <!--SR:!2026-01-09,270,355!2026-04-21,309,315-->
   - Buddy Bolden / legacy ::@:: went crazy (believe to be due to syphilis), stopped playing in 1906, and was committed to an asylum; no recordings exist, and there is only one photo <!--SR:!2026-01-12,272,355!2026-02-10,293,355-->
 - [jazz](../../../../general/jazz.md)
   - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2026-01-18,278,355!2026-01-02,260,355-->
@@ -181,10 +181,10 @@ The content is in teaching order.
   - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2026-05-19,377,375!2026-01-13,274,355-->
   - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2026-07-15,407,375!2026-07-03,395,375-->
   - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2026-01-06,264,355!2026-05-23,381,375-->
-- [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz <!--SR:!2025-09-26,182,335!2025-06-12,99,315-->
+- [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz <!--SR:!2025-09-26,182,335!2026-08-23,433,335-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2026-05-25,382,375!2026-07-18,410,375-->
   - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2026-07-17,409,375!2026-07-28,420,375-->
-  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2025-06-10,97,315!2026-01-16,277,355-->
+  - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythms commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2026-08-13,423,335!2026-01-16,277,355-->
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2025-10-01,185,335!2026-01-16,273,355-->
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2026-06-23,385,375!2026-07-19,411,375-->
@@ -200,7 +200,7 @@ The content is in teaching order.
   - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
   - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2026-01-12,273,355!2026-07-30,422,375-->
-- [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2025-09-15,172,335!2025-06-08,95,315-->
+- [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2025-09-15,172,335!2026-04-13,301,315-->
   - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2025-08-05,130,315!2025-08-04,130,315-->
   - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2026-01-10,271,355!2025-09-27,183,335-->
   - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2026-08-03,426,375!2026-01-05,266,355-->
@@ -208,11 +208,11 @@ The content is in teaching order.
   - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2026-02-13,295,355!2025-09-23,179,335-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2026-01-09,270,355!2025-06-23,102,315-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2026-02-09,292,355!2025-09-16,173,335-->
-  - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2025-06-10,97,315!2025-08-05,144,335-->
+  - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2026-08-14,424,335!2025-08-05,144,335-->
 - [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2026-01-08,269,355!2025-09-23,179,335-->
 - [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2026-02-05,289,355!2026-01-11,269,355-->
-  - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2026-01-17,278,355!2025-06-13,100,315-->
-  - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2025-06-08,95,315!2026-02-04,288,355-->
+  - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2026-01-17,278,355!2026-08-30,440,335-->
+  - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2026-08-05,415,335!2026-02-04,288,355-->
   - Louis Armstrong / fun facts ::@:: first jazz musician to appear on _Time_ magazine; appeared in over 35 films; oldest musician to have a number 1 hit "Hello, Dolly!" in 1964, knocking the Beatles off the number 1 spot; went on an England tour in 1932 <!--SR:!2025-09-18,175,335!2026-04-21,322,315-->
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2026-01-15,275,355!2026-01-15,276,355-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2026-01-18,278,355!2026-07-29,421,375-->
@@ -232,49 +232,49 @@ The content is in teaching order.
 - datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00, PT1H20M
   - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00, PT1H20M
 - [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-11-01,205,358!2025-11-10,212,358-->
-  - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2026-09-20,473,398!2025-06-07,94,378-->
+  - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2026-09-20,473,398!2026-10-22,493,398-->
 - [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2026-03-10,314,378!2025-07-26,127,338-->
   - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2026-05-15,346,378!2025-07-25,126,338-->
   - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-08-24,142,338!2025-11-04,207,358-->
-  - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
+  - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2026-11-14,516,398!2026-11-26,528,398-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2025-06-07,94,378!2026-06-02,364,378-->
+  - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2026-10-20,491,398!2026-06-02,364,378-->
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2026-05-15,346,378!2026-09-19,473,398-->
 - [big band](../../../../general/big%20band.md)
-  - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2025-06-11,98,378!2025-06-12,99,378-->
+  - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2026-11-08,510,398!2026-11-11,513,398-->
 - [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-09-20,159,338!2025-09-10,152,338-->
-  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2025-06-13,100,378!2026-04-12,340,378-->
-  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2026-03-11,315,378!2025-06-08,95,378-->
+  - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2026-11-18,520,398!2026-04-12,340,378-->
+  - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2026-03-11,315,378!2026-10-25,496,398-->
 - [swing music](../../../../general/swing%20music.md)
-  - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2025-06-13,100,378!2025-06-14,101,378-->
+  - swing music / vs. New Orleans jazz ::@:: the former has a "4 feel" while the later has a "2 feel" <!--SR:!2026-11-21,523,398!2026-11-24,526,398-->
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2025-11-01,204,358!2026-05-15,346,378-->
-  - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2025-11-07,209,358!2025-06-14,101,378-->
-  - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2025-06-11,98,378!2026-02-24,300,378-->
-  - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2025-06-13,100,378!2026-09-24,477,398-->
+  - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2025-11-07,209,358!2026-11-23,525,398-->
+  - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2026-11-04,506,398!2026-02-24,300,378-->
+  - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2026-11-19,521,398!2026-09-24,477,398-->
 - assignment: (none)
 
 ## week 4 lecture 2
 
 - datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00, PT1H20M
   - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00, PT1H20M
-- [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2025-06-09,96,378!2025-06-14,101,378-->
+- [Prohibition in the United States](Prohibition%20in%20the%20United%20States.md) (1920–1933) ::@:: (some say it was) the dumbest law ever; constitutional banning of production, importation, transportation, and sale of alcoholic beverages (but not possession or consumption of it) <!--SR:!2026-10-28,499,398!2026-11-27,529,398-->
   - Prohibition in the United States / influence ::@:: birth of the speakeasies (actually it dates back to at least the 1880s); rise of the mafia: Al Capone, Bugs Moran, Lucky Luciano <!--SR:!2026-03-08,312,378!2025-11-05,208,358-->
-- [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them ; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection <!--SR:!2026-09-26,478,398!2025-06-11,98,378-->
-  - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-11-14,215,358!2025-06-10,97,378-->
+- [speakeasy](../../../../general/speakeasy.md) ::@:: a club that illegally sold alcohol during prohibition; there were estimated 20&nbsp;000 to 100&nbsp;000 of them ; they are so-called "speakeasy" because it is said that people "speak easy" about the place to avoid detection <!--SR:!2026-09-26,478,398!2026-11-05,507,398-->
+  - speakeasy / activities ::@:: People wanted to drink and party, so there were music (including jazz). Women also began to drink in it. The word "cocktail" was commonly used as a codeword for a drink. Bands would play certain songs to signal the police were outside. <!--SR:!2025-11-14,215,358!2026-11-07,509,398-->
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-11-09,211,358!2026-10-03,484,398-->
-- [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2026-10-02,483,398!2025-06-13,100,378-->
+- [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2026-10-02,483,398!2026-11-20,522,398-->
   - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2026-09-25,478,398!2026-09-18,472,398-->
 - [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-09-05,148,338!2025-10-14,193,358-->
-- [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2026-05-19,350,378!2025-06-10,97,378-->
-- [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2026-05-15,346,378!2025-06-09,96,378-->
-  - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2026-05-15,346,378!2025-06-12,99,378-->
+- [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2026-05-19,350,378!2026-10-31,502,398-->
+- [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2026-05-15,346,378!2026-10-27,498,398-->
+  - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2026-05-15,346,378!2026-11-12,514,398-->
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
-  - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2026-05-16,347,378!2025-06-09,96,378-->
+  - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2026-05-16,347,378!2026-10-26,497,398-->
 - [jazz](../../../../general/jazz.md)
   - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2026-09-17,471,398!2026-10-04,485,398-->
-- [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2025-06-07,94,378!2025-06-18,90,318-->
+- [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2026-10-21,492,398!2025-06-18,90,318-->
   - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2025-06-23,94,318!2026-04-13,341,378-->
-  - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2025-06-12,99,378!2025-06-14,101,378-->
+  - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2026-11-13,515,398!2026-11-22,524,398-->
 - [swing music](../../../../general/swing%20music.md)
   - swing music / vs. New Orleans jazz
 - assignment: (none)
@@ -304,8 +304,8 @@ The content is in teaching order.
     - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-09-17,152,352!2025-06-18,95,372-->
 - [popular music](../../../../general/popular%20music.md)
   - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2025-07-11,114,392!2025-07-19,121,392-->
-- [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2025-07-23,124,392!2025-06-16,89,372-->
-- [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2025-06-16,89,372!2025-07-16,119,392-->
+- [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2025-07-23,124,392!2026-09-20,461,392-->
+- [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2026-09-13,454,392!2025-07-16,119,392-->
   - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2025-07-12,115,392!2025-07-20,122,392-->
   - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2025-06-17,94,372!2025-07-26,127,392-->
 - assignment: (none)
@@ -580,7 +580,7 @@ The content is in teaching order.
   - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multi-track recording. <!--SR:!2025-10-29,148,422!2025-08-15,99,402-->
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band. <!--SR:!2025-10-25,144,422!2025-10-18,137,422-->
-  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2025-06-11,5,414!2025-06-11,5,414-->
+  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2025-07-15,29,434!2025-07-15,29,434-->
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2025-08-15,99,402!2025-10-22,141,422-->
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2025-10-20,139,422!2025-10-23,142,422-->
   - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2025-10-23,142,422-->
@@ -755,7 +755,7 @@ The content is in teaching order.
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2025-06-29,26,418!2025-06-29,26,418-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-07-01,28,418!2025-06-29,26,418-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-06-30,27,421!2025-06-30,27,418-->
-  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-06-29,26,418!2025-06-11,5,414-->
+  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-06-29,26,418!2025-07-14,28,434-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-06-30,27,421!2025-07-01,28,418-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2025-06-30,27,418!2025-07-01,28,418-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2025-06-29,26,422!2025-06-29,26,422-->

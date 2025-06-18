@@ -205,7 +205,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="6661"--><!-- The following content is generated at 2024-01-04T20:17:51.711635+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2027-04-24,1068,330!2027-07-07,1213,350-->
-- [NiMH](nickel–metal%20hydride%20battery.md)→::@::←[lead–acid](lead–acid%20battery.md) <!--SR:!2025-06-15,599,310!2028-05-19,1460,350-->
+- [NiMH](nickel–metal%20hydride%20battery.md)→::@::←[lead–acid](lead–acid%20battery.md) <!--SR:!2030-07-15,1856,310!2028-05-19,1460,350-->
 - [lead–acid](lead–acid%20battery.md)→::@::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2026-08-25,890,330!2026-12-18,976,330-->
 - [lithium-ion](lithium-ion%20battery.md)→::@::←_(end)_ <!--SR:!2028-05-28,1469,350!2027-06-28,1204,350-->
 

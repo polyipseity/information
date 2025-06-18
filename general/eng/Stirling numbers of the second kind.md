@@ -103,7 +103,7 @@ Another explicit formula given in {@{the _NIST Handbook of Mathematical Function
 
 More directly, let {@{two sets contain positions of 1's in binary representations of results of respective expressions}@}: {@{$${\begin{aligned}\mathbb {A} :\ \sum _{i\in \mathbb {A} }2^{i}&=n-k,\\\mathbb {B} :\ \sum _{j\in \mathbb {B} }2^{j}&=\left\lfloor {\dfrac {k-1}{2} }\right\rfloor .\\\end{aligned} }$$}@} One can {@{mimic a [bitwise AND](bitwise%20operation.md#AND) operation by intersecting these two sets: $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2={\begin{cases}0,&\mathbb {A} \cap \mathbb {B} \neq \emptyset ;\\1,&\mathbb {A} \cap \mathbb {B} =\emptyset ;\end{cases} }$$}@} to {@{obtain the parity of a Stirling number of the second kind in [_O_(1)](Big%20O%20notation.md) time}@}. In {@{[pseudocode](pseudocode.md): $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2:=\left[\left(\left(n-k\right)\ \And \ \left(\left(k-1\right)\,\mathrm {div} \,2\right)\right)=0\right];$$}@} where {@{$\left[b\right]$ is the [Iverson bracket](Iverson%20bracket.md)}@}. <!--SR:!2026-02-04,316,290!2025-12-22,267,270!2025-09-13,226,310!2025-08-21,208,310!2026-04-05,316,250!2025-07-13,189,310-->
 
-{@{The parity of a central Stirling number of the second kind $\textstyle \left\{ {2n \atop n}\right\}$ is odd}@} if and only if {@{$n$ is a [fibbinary number](fibbinary%20number.md), a number whose [binary representation](binary%20number.md) has no two consecutive 1s}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-09-22,125,250!2025-06-18,104,290-->
+{@{The parity of a central Stirling number of the second kind $\textstyle \left\{ {2n \atop n}\right\}$ is odd}@} if and only if {@{$n$ is a [fibbinary number](fibbinary%20number.md), a number whose [binary representation](binary%20number.md) has no two consecutive 1s}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-09-22,125,250!2026-04-15,301,290-->
 
 ### generating functions
 
@@ -115,13 +115,13 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-06-15,22,130-->
+If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-07-13,28,130-->
 
 ### asymptotic approximation
 
-For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2026-10-16,535,310!2025-06-10,21,130-->
+For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2026-10-16,535,310!2025-07-23,40,150-->
 
-If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-06-08,80,250!2026-04-01,314,250-->
+If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-12-26,196,250!2026-04-01,314,250-->
 
 {@{A uniformly valid approximation}@} also exists: for {@{all _k_ such that 1 < _k_ < _n_}@}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {@{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}@}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {@{bounded by about $0.066/n$}@}. <!--SR:!2025-07-12,188,310!2025-11-28,303,330!2025-07-22,63,230!2026-08-06,439,270-->
 

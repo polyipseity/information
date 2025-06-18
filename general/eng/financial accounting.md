@@ -15,7 +15,7 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2025-09-05,276,330!2025-07-07,229,330!2025-10-11,305,330!2025-07-25,244,330-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2025-09-05,276,330!2025-07-07,229,330!2025-10-11,305,330!2025-07-25,244,330-->
 
 While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2026-09-02,540,310!2025-07-11,232,330-->
 
@@ -88,7 +88,7 @@ The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cos
 
 - see: [balance sheet](balance%20sheet.md)
 
-The statement of financial position is also called {@{balance sheet}@}. <!--SR:!2025-06-11,200,335-->
+The statement of financial position is also called {@{balance sheet}@}. <!--SR:!2027-12-21,923,355-->
 
 The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2027-02-10,674,330!2025-09-18,285,330!2025-09-17,286,330-->
 
@@ -114,7 +114,7 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!2026-07-27,428,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2027-08-03,807,330-->
 
-{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2025-08-10,255,330!2025-06-17,211,310!2027-03-24,704,330!2026-10-09,559,310-->
+{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2025-08-10,255,330!2027-12-09,905,330!2027-03-24,704,330!2026-10-09,559,310-->
 
 #### statement of retained earnings
 
@@ -128,7 +128,7 @@ This statement is {@{additional to the three main statements described above}@}.
 
 One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-12-29,221,270!2025-07-07,83,369-->
 
-This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2025-06-10,206,310!2025-06-21,214,310!2025-09-02,166,270!2026-07-29,433,386!2025-10-17,196,346-->
+This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2027-11-11,884,330!2025-06-21,214,310!2025-09-02,166,270!2026-07-29,433,386!2025-10-17,196,346-->
 
 ### units of constant purchasing power
 

@@ -14,7 +14,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-An __alkene__ is {@{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}@}. <!--SR:!2025-06-08,587,310-->
+An __alkene__ is {@{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}@}. <!--SR:!2030-06-05,1821,310-->
 
 ## physical properties
 

@@ -40,7 +40,7 @@ An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequenc
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2025-11-08,259,343!2026-04-07,385,363-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2026-02-25,349,350!2025-08-10,174,323-->
 
-We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2025-12-30,304,350!2026-04-18,394,363!2026-04-24,399,363!2026-03-16,366,363!2026-02-24,348,350!2025-06-14,133,310!2026-03-25,374,363-->
+We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2025-12-30,304,350!2026-04-18,394,363!2026-04-24,399,363!2026-03-16,366,363!2026-02-24,348,350!2027-01-04,569,330!2026-03-25,374,363-->
 
 The additional logical operators are defined as follows:
 
@@ -61,12 +61,12 @@ The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as f
 Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, with semantics {@{similar to that of the until operator but the stop condition is not required to occur \(similar to release\)}@}.<sup>[\[8\]](#^ref-8)</sup> It is sometimes useful since {@{both __U__ and __R__ can be defined in terms of the weak until}@}: <!--SR:!2026-04-12,389,363!2026-03-19,369,363!2025-07-14,152,310-->
 
 - __w__<!-- markdown separator -->eak until (annotation: in terms of _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_) ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2026-03-15,313,303!2025-08-09,159,277-->
-- __u__<!-- markdown separator -->ntil (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2026-10-19,511,317!2025-06-16,143,323-->
+- __u__<!-- markdown separator -->ntil (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2026-10-19,511,317!2027-03-16,638,343-->
 - __r__<!-- markdown separator -->elease (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2026-01-30,260,263!2026-09-21,484,323-->
 
 {@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2026-02-16,342,350!2026-03-20,370,363!2025-11-04,255,343!2025-07-15,163,317-->
 
-- strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2025-06-07,95,243!2025-07-23,150,283-->
+- strong release (__M__) (annotation: in terms of _<!-- markdown separator -->__w__<!-- markdown separator -->eak util_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__r__<!-- markdown separator -->elease_, _<!-- markdown separator -->__u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2026-01-26,229,243!2025-07-23,150,283-->
 
 {@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2026-03-22,372,363-->
 
@@ -108,7 +108,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 >
 > - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2025-12-25,300,350!2025-11-10,262,337-->
 > - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2026-03-21,371,363!2026-01-09,312,350-->
-> - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2025-06-13,141,323!2025-11-01,254,330-->
+> - _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2027-03-04,629,343!2025-11-01,254,330-->
 > - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2026-03-20,370,363!2026-02-08,335,350-->
 
 | Special temporal properties                                                          |                                                                                      |                                                                        |

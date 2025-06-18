@@ -17,7 +17,7 @@ In {@{[axiomatic set theory](set%20theory.md#formalized%20set%20theory) and the 
 
 In {@{the [formal language](formal%20language.md) of the Zermelo–Fraenkel axioms}@}, the axiom is expressed as follows:<sup>[\[2\]](#^ref-2)</sup> {@{$$\exists I\ (\exists o\ (o\in I\ \land \ \lnot \exists n\ \ (n\in o))\ \land \ \forall x\ (x\in I\Rightarrow \exists y\ (y\in I\ \land \ \forall a\ (a\in y\Leftrightarrow (a\in x\ \lor \ a=x))))).$$}@} <!--SR:!2025-12-01,264,330!2025-07-21,128,250-->
 
-In technical language, this formal expression is interpreted as "{@{[there exists](existential%20quantification.md) a [set](set%20(mathematics).md) 𝐼 \(the set that is postulated to be infinite\) such that the [empty set](empty%20set.md) is an element of it}@} and, {@{for every element $x$ of 𝐼, there exists an element $y$ of 𝐼 consisting of just the elements of $x$ and $x$ itself}@}." <!--SR:!2025-11-28,262,330!2025-06-13,119,290-->
+In technical language, this formal expression is interpreted as "{@{[there exists](existential%20quantification.md) a [set](set%20(mathematics).md) 𝐼 \(the set that is postulated to be infinite\) such that the [empty set](empty%20set.md) is an element of it}@} and, {@{for every element $x$ of 𝐼, there exists an element $y$ of 𝐼 consisting of just the elements of $x$ and $x$ itself}@}." <!--SR:!2025-11-28,262,330!2026-10-09,483,310-->
 
 This [formula](well-formed%20formula.md) can be abbreviated as: {@{$$\exists I\,(\varnothing \in I\,\land \,\forall x\,(x\in I\Rightarrow \,(x\cup \{x\})\in I)).$$}@} <!--SR:!2025-11-01,240,330-->
 

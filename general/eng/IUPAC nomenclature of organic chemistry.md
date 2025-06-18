@@ -419,7 +419,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RC<sub>6</sub>H<sub>5</sub>/RPh}@}
 > - prefix: {@{phenyl-}@}
 > - suffix: {@{-benzene}@}
-> - infix: {@{(locant)}@} <!--SR:!2029-02-11,1688,320!2025-06-11,723,340!2027-07-13,1326,362!2026-12-12,1177,362!2028-10-10,1602,322!2026-10-01,1023,347-->
+> - infix: {@{(locant)}@} <!--SR:!2029-02-11,1688,320!2034-09-23,3391,360!2027-07-13,1326,362!2026-12-12,1177,362!2028-10-10,1602,322!2026-10-01,1023,347-->
 
 <!-- markdownlint MD028 -->
 
@@ -459,7 +459,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCHO}@}
 > - prefix: {@{oxo- (=O), formyl- (-CHO)}@}
 > - suffix: {@{-al (=O), -carbaldehyde (-CHO)}@}
-> - infix: {@{(locant)}@} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2032-06-02,2690,342!2025-06-15,117,150!2025-09-10,677,285!2028-10-10,1730,387-->
+> - infix: {@{(locant)}@} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2032-06-02,2690,342!2025-12-06,174,150!2025-09-10,677,285!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -509,7 +509,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}@}
 > - prefix: {@{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (R<sub>4</sub>N<sup>+</sup>)}@}
 > - suffix: {@{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (R<sub>4</sub>N<sup>+</sup>)}@}
-> - infix: {@{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}@} <!--SR:!2027-03-08,1174,365!2029-09-01,1986,385!2032-10-30,2812,345!2031-03-29,2322,345!2028-01-18,1202,287!2025-06-09,664,327-->
+> - infix: {@{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}@} <!--SR:!2027-03-08,1174,365!2029-09-01,1986,385!2032-10-30,2812,345!2031-03-29,2322,345!2028-01-18,1202,287!2033-08-22,2994,347-->
 
 <!-- markdownlint MD028 -->
 
@@ -635,7 +635,7 @@ return (
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-07-17,112,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
-- hydroperoxide→::@::←amine <!--SR:!2026-08-28,494,224!2025-06-14,132,232-->
+- hydroperoxide→::@::←amine <!--SR:!2026-08-28,494,224!2026-08-19,431,252-->
 - amine→::@::←_(lowest)_ <!--SR:!2030-03-08,1774,256!2025-10-24,421,247-->
 
 <!--/pytextgen-->
@@ -666,7 +666,7 @@ return await memorize_table(
 > | {@{[acetone](acetone.md)}@} | {@{propanone}@} |
 > | {@{[chloroform](chloroform.md)}@} | {@{trichloromethane}@} |
 > | {@{[formaldehyde](formaldehyde.md)}@} | {@{methanal}@} |
-> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@} | <!--SR:!2026-04-24,388,344!2025-08-15,625,344!2030-03-29,1924,384!2027-11-15,1262,384!2027-05-02,1102,364!2028-01-10,1273,364!2025-06-13,493,324!2027-08-06,1182,384!2026-10-12,956,364!2027-05-20,1116,364-->
+> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@} | <!--SR:!2026-04-24,388,344!2025-08-15,625,344!2030-03-29,1924,384!2027-11-15,1262,384!2027-05-02,1102,364!2028-01-10,1273,364!2031-07-01,2208,344!2027-08-06,1182,384!2026-10-12,956,364!2027-05-20,1116,364-->
 
 <!--/pytextgen-->
 
