@@ -1,0 +1,1 @@
+satisfiability modulo theories.md
