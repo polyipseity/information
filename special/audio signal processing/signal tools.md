@@ -19,6 +19,10 @@ Audacity is {@{an audio editor}@}. It can be downloaded from {@{<https://audacit
 
 Audacity can show {@{the spectrogram of a signal}@}.
 
+### effects \(Audacity\)
+
+Audacity supports {{many sound effects}}, including {{amplitude scaling, time stretching, pitch scaling, etc.}}
+
 ### generating periodic signals
 
 Audacity can generate {@{real sine signals of any frequency and amplitude}@}. The signals can also be {@{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}@}, which have {@{more complex frequency components}@}. It can even generate signals that {@{increases in frequency over time (increasing pitch)}@}, called {@{_chirp_}@}.

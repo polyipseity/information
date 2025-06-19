@@ -136,6 +136,26 @@ The content is in recommended learning order.
 
 ## module 8
 
+- [sound effect](sound%20effect.md)
+  - [§ frequency filter](sound%20effect.md#frequency%20filter)
+  - [§ equalization](sound%20effect.md#equalization)
+  - [§ morphing](sound%20effect.md#morphing)
+  - [§ sinusoidal spectral modeling](sound%20effect.md#sinusoidal%20spectral%20modeling)
+  - [§ amplitude scaling \(sinusoidal\)](sound%20effect.md#amplitude%20scaling%20(sinusoidal))
+  - [§ pitch scaling \(sinusoidal\)](sound%20effect.md#pitch%20scaling%20(sinusoidal))
+  - [§ time stretching \(sinusoidal\)](sound%20effect.md#time%20stretching%20(sinusoidal))
+  - [§ harmonic spectral modeling](sound%20effect.md#harmonic%20spectral%20modeling)
+  - [§ pitch scaling \(harmonic\)](sound%20effect.md#pitch%20scaling%20(harmonic))
+  - [§ morphing](sound%20effect.md#morphing)
+- [signal tools](signal%20tools.md)
+  - [§ analysis \(sms-tools\)](signal%20tools.md#analysis%20(sms-tools))
+  - [§ synthesis \(sms-tools\)](signal%20tools.md#synthesis%20(sms-tools))
+  - [§ Audacity](signal%20tools.md#Audacity)
+  - [§ effects \(Audacity\)](signal%20tools.md#effects%20(Audacity))
+  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): \(none\)
+
 ## module 9
 
 ## module 10
