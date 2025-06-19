@@ -95,7 +95,7 @@ _CONVERTED_WIKI_DIRECTORY = Path("../general")
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
-    _names_map_manual = load(names_map_file)
+    _names_map_manual: dict[str, str] = load(names_map_file)
 _names_map = {
     key: val
     for filename in iglob("*.md", root_dir=_CONVERTED_WIKI_DIRECTORY)
@@ -115,7 +115,10 @@ def _bs4_new_element(tag_str: str) -> PageElement:
 
 
 def _fix_name_maybe(name: str) -> str:
-    return _NAMES_MAP.get(
+    if (ret := _NAMES_MAP.get(name)) is not None:
+        return ret
+    name = name.replace("_", " ")
+    ret = _NAMES_MAP.get(
         name,
         (
             f"{name[:1].lower()}{name[1:]}"
@@ -123,6 +126,7 @@ def _fix_name_maybe(name: str) -> str:
             else name
         ),
     )
+    return ret
 
 
 def _fix_filename(
@@ -456,9 +460,7 @@ async def wiki_html_to_plaintext(
                 if "new" in classes:
                     title = title.removesuffix(_PAGE_DOES_NOT_EXIST_SUFFIX)
                 href = str(ele.get("href", ""))
-                to_fragment = (
-                    href.split("#", 1)[-1].replace("_", " ") if "#" in href else ""
-                )
+                to_fragment = href.split("#", 1)[-1] if "#" in href else ""
                 async with session.get(
                     URL.build(
                         scheme=_WIKI_HOST_URL.scheme,
@@ -538,7 +540,7 @@ async def wiki_html_to_plaintext(
                 href = str(href)
                 if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
                     href = _markdown_fragment(
-                        _fix_name_maybe(href[href.index("#") + 1 :].replace("_", " "))
+                        _fix_name_maybe(href[href.index("#") + 1 :])
                     )
                 prefix, suffix = "[", f"]({href})"
         # unhandled tags
