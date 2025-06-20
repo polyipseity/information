@@ -201,8 +201,6 @@ The content is in recommended learning order.
 - Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam.
 - [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\)
 
-## module 11
-
 ## references
 
 - ["Audio Signal Processing for Music Applications"](https://www.coursera.org/learn/audio-signal-processing). _Coursera_. Retrieved 21 July 2024.
