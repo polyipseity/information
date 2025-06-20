@@ -21,7 +21,7 @@ Audacity can show {@{the spectrogram of a signal}@}.
 
 ### effects \(Audacity\)
 
-Audacity supports {{many sound effects}}, including {{amplitude scaling, time stretching, pitch scaling, etc.}}
+Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@}
 
 ### generating periodic signals
 
@@ -39,6 +39,10 @@ SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude s
 
 SonicVisualiser supports {@{many pitch detection algorithms}@}.
 
+### plugins \(SonicVisualiser\)
+
+SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}.
+
 ## sms-tools
 
 `sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}.
@@ -54,3 +58,7 @@ SonicVisualiser supports {@{many pitch detection algorithms}@}.
 ## Freesound
 
 Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its website is {@{<https://freesound.org/>}@}.
+
+### advanced search
+
+Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@}

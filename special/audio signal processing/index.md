@@ -28,7 +28,7 @@ The content is in recommended learning order.
   - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
   - [§ sms-tools](signal%20tools.md#sms-tools)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ numpy](Python%20for%20signal%20processing.md#numpy)
+  - [§ NumPy](Python%20for%20signal%20processing.md#NumPy)
   - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions)
   - [§ matplotlib](Python%20for%20signal%20processing.md#matplotlib)
 
@@ -65,7 +65,7 @@ The content is in recommended learning order.
   - [§ applying DFT on complicated sounds](signal%20tools.md#applying%20DFT%20on%20complicated%20sounds)
   - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ numpy](Python%20for%20signal%20processing.md#numpy)
+  - [§ NumPy](Python%20for%20signal%20processing.md#NumPy)
 
 ## module 4
 
@@ -157,6 +157,28 @@ The content is in recommended learning order.
   - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): \(none\)
 
 ## module 9
+
+- [audio feature](audio%20feature.md)
+  - [§ descriptors](audio%20feature.md#descriptors)
+  - [§ spectral features](audio%20feature.md#spectral%20features)
+  - [§ energy](audio%20feature.md#energy)
+  - [§ mel-frequency](audio%20feature.md#mel-frequency)
+  - [§ pitches](audio%20feature.md#pitches)
+  - [§ multiple frames](audio%20feature.md#multiple%20frames)
+  - [§ statistics](audio%20feature.md#statistics)
+  - [§ overall features](audio%20feature.md#overall%20features)
+  - [§ sound](audio%20feature.md#sound)
+  - [§ collection features](audio%20feature.md#collection%20features)
+  - [§ clustering](audio%20feature.md#clustering)
+  - [§ music](audio%20feature.md#music)
+- [signal tools](signal%20tools.md)
+  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+  - [§ plugins \(SonicVisualiser\)](signal%20tools.md#plugins%20(SonicVisualiser))
+  - [§ Freesound](signal%20tools.md#Freesound)
+  - [§ advanced search](signal%20tools.md#advanced%20search)
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ Essentia](Python%20for%20signal%20processing.md#Essentia)
+  - [§ Freesound](Python%20for%20signal%20processing.md#Freesound)
 
 ## module 10
 
