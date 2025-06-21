@@ -1,0 +1,1 @@
+Davis–Putnam algorithm.md
