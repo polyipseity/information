@@ -960,7 +960,7 @@ tags:
 > 4. \$5.71
 >
 > - solution: {@{3}@}
-> - explanation: {@{$$2 \cdot 1.3^3 = \$4.394$$}@}
+> - explanation: {@{$$2 \cdot 1.3^3 \cdot 1.06 = \$4.65764$$}@}
 
 <!-- markdownlint MD028 -->
 
