@@ -22,7 +22,7 @@ Intuitively, when {@{the lag time is an integer multiple of the pitch}@}, {@{the
 
 ## YIN algorithm
 
-\(Cheveigné and Kawahara, 2002\) Using the intuition from {@{using autocorrelation}@}, we can instead opt to use {@{the difference between the original time signal and the lagged signal instead}@}. The YIN algorithm calculates: {@{$$d[l] = \sum_{n = 0}^{N - l - 1} (x[n] - x[n + l])^2 \qquad l = 0, \ldots, N - 1 \,,$$}@} where {@{$l$ is the _lag time_}@}. Then, we find {@{minima in the resulting difference function}@} instead of {@{finding peaks as in using autocorrelation}@}. The algorithm is good for {@{monophonic sources but not polyphonic sources}@}.
+\(Cheveigné and Kawahara, 2002\) Using the intuition from {@{using autocorrelation}@}, we can instead opt to use {@{the difference between the original time signal and the lagged signal instead}@}. Part of the YIN algorithm calculates: {@{$$d[l] = \sum_{n = 0}^{N - l - 1} (x[n] - x[n + l])^2 \qquad l = 0, \ldots, N - 1 \,,$$}@} where {@{$l$ is the _lag time_}@}. Then, we find {@{minima in the resulting difference function}@} instead of {@{finding peaks as in using autocorrelation}@}. The algorithm is good for {@{monophonic sources but not polyphonic sources}@}.
 
 ## two-way mismatch algorithm
 

@@ -9,6 +9,18 @@ tags:
 
 # command library
 
+## ExifTool
+
+### copy metadata
+
+```shell
+exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -overwrite_original "$output"
+```
+
+- parameters
+  - `$input_`: input filename
+  - `$output`: output filename
+
 ## FFmpeg
 
 ### combine audio and video
@@ -39,7 +51,7 @@ ffmpeg -i "$input_" -af ebur128=framelog=verbose -f null -
 #### AAC in MP4
 
 ```shell
-ffmpeg -i "$input_" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart "$output.m4a"
+ffmpeg -i "$input_" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart+use_metadata_tags "$output.m4a"
 ```
 
 - parameters
@@ -65,7 +77,7 @@ ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_colo
 #### HEVC and AAC in QTFF
 
 ```shell
-ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart "$output.mov"
+ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart+use_metadata_tags "$output.mov"
 ```
 
 - parameters

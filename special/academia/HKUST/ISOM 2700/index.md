@@ -448,7 +448,7 @@ The content is in teaching order.
       - acceptance sampling / sampling plan / table / use ::@:: Find the table for fixed maximum Type I error rate _α_ and maximum Type II error rate _β_. <p> acceptance number _c_: Calculate LTPD÷AQL, and find the _largest integer_ _c_ that has a value _at least_ the calculated LTPD÷AQL. This is the _c_. <br/> sample size \(_not_ lot size\) _n_: Use n×AQL of the found _c_. Find the _smallest integer_ _n_ such that n×AQL has a value of _at least_ that of the found _c_. Equivalently, divide n×AQL by AQL, and round up to the nearest integer.
   - acceptance sampling / operating characteristic curve (OC curve) ::@:: \(optional\) The probability of acceptance given \(_n_, _c_\) is plotted on the _y_-axis, against the _true_ population defective rate plotted on the _x_-axis. _α_ and _β_ are indicated on the _y_-axis. AQL and LTPD are indicated on the _x_-axis.
     - acceptance sampling / operating characteristic curve / _α_, _β_, AQL, LTPD ::@:: Type I error rate _α_ is the distance of the graph value from 100% at AQL. Type II error rate _β_ is the graph value at LTPD.
-    - acceptance sampling / operating characteristic curve / ideal curve ::@:: The ideal curve is 100% acceptance probability for true defective rate from 0 to AQL, and then 0% forever thereafter.
+    - acceptance sampling / operating characteristic curve / ideal curve ::@:: The ideal curve is always 100% acceptance probability for true defective rate from 0% to AQL, and then suddenly jumps to 0% thereafter forever.
 
 ## week 5 lecture 2
 
