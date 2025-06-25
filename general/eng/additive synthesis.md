@@ -48,8 +48,8 @@ In the case of {@{a musical note}@}, {@{the lowest frequency of its timbre}@} is
 {@{The [Fourier series](Fourier%20series.md) of a periodic function}@} is mathematically expressed as: {@{$${\begin{aligned}y(t)&={\frac {a_{0} }{2} }+\sum _{k=1}^{\infty }\left[a_{k}\cos(2\pi kf_{0}t)-b_{k}\sin(2\pi kf_{0}t)\right]\\&={\frac {a_{0} }{2} }+\sum _{k=1}^{\infty }r_{k}\cos \left(2\pi kf_{0}t+\phi _{k}\right)\\\end{aligned} }$$}@} where
 
 - \(annotation: fundamental frequency\) ::@:: $f_{0}=1/P$ is the [fundamental frequency](fundamental%20frequency.md) of the waveform and is equal to the reciprocal of the period,
-- \(annotation: even/real component\) ::@:: $a_{k}=r_{k}\cos(\phi _{k})=2f_{0}\int _{0}^{P}y(t)\cos(2\pi kf_{0}t)\,dt,\quad k\geq 0$ \(annotation: interpreted as extracting the cosine/even component of frequency $k f_0$\)
-- \(annotation: odd/imaginary component\) ::@:: $b_{k}=r_{k}\sin(\phi _{k})=-2f_{0}\int _{0}^{P}y(t)\sin(2\pi kf_{0}t)\,dt,\quad k\geq 1$ \(annotation: interpreted as extracting the sine/odd component of frequency $k f_0$\)
+- \(annotation: even/real component\) ::@:: $a_{k}=r_{k}\cos(\phi _{k})=2f_{0}\int _{0}^{P}y(t)\cos(2\pi kf_{0}t)\,dt,\quad k\geq 0$ \(annotation: interpreted as extracting the cosine/even component of frequency $k f_0$; the 2 factor, except for the DC component, is from the positive and negative frequencies\)
+- \(annotation: odd/imaginary component\) ::@:: $b_{k}=r_{k}\sin(\phi _{k})=-2f_{0}\int _{0}^{P}y(t)\sin(2\pi kf_{0}t)\,dt,\quad k\geq 1$ \(annotation: interpreted as extracting the sine/odd component of frequency $k f_0$; the 2 factor is from the positive and negative frequencies\)
 - \(annotation: component amplitude\) ::@:: $r_{k}={\sqrt {a_{k}^{2}+b_{k}^{2} } }$ is the [amplitude](amplitude.md) of the $k$<!-- laTeX separator -->th harmonic,
 - \(annotation: component phase offset\) ::@:: $\phi _{k}=\operatorname {atan2} (b_{k},a_{k})$ is the [phase offset](phase%20(waves).md) of the $k$<!-- LaTeX separator -->th harmonic. [atan2](atan2.md) is the four-quadrant [arctangent](arctangent.md) function,
 
