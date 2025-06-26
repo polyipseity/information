@@ -27,7 +27,7 @@ Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-
 
 ## shape of the demand curve
 
-In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2025-09-24,236,330!2025-06-25,162,310!2025-11-07,271,330-->
+In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2025-09-24,236,330!2027-05-18,692,330!2025-11-07,271,330-->
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2025-10-04,245,330!2025-10-04,245,330!2025-10-07,247,330!2025-10-09,249,330!2025-09-27,239,330!2025-09-21,233,330!2025-09-23,235,330!2025-12-02,291,330-->
 

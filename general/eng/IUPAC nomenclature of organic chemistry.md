@@ -235,7 +235,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2025-06-20,387,287-->
+- _(begin)_→::@::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2029-09-13,1545,307-->
 - bond order: single bond, double bond, triple bond, ...→::@::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2031-10-07,2502,342-->
 - prefix order: alphabetical order ignoring prefixes for type count→::@::←_(end)_ <!--SR:!2026-01-10,880,340!2027-02-10,664,302-->
 
@@ -429,7 +429,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RX}@}
 > - prefix: {@{([prefix for halogen](#affixes%20for%20halogen))-, halo-}@}
 > - suffix: {@{([suffix for halogen](#affixes%20for%20halogen))}@}
-> - infix: {@{(locant)}@} <!--SR:!2026-11-16,1064,320!2025-06-25,688,321!2030-07-23,2249,382!2028-03-22,1477,322!2026-04-24,903,305!2030-03-19,2152,387-->
+> - infix: {@{(locant)}@} <!--SR:!2026-11-16,1064,320!2033-10-31,3050,341!2030-07-23,2249,382!2028-03-22,1477,322!2026-04-24,903,305!2030-03-19,2152,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -630,7 +630,7 @@ return (
 - _(highest)_→::@::←cation <!--SR:!2035-04-09,3636,344!2028-10-09,1910,372-->
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
-- carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
+- carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2027-06-14,720,247-->
 - nitrile→::@::←aldehyde <!--SR:!2025-07-02,28,130!2026-03-05,295,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-07-17,112,150-->

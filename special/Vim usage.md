@@ -17,7 +17,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - cycle forward ::@:: \<Tab\> <!--SR:!2026-06-18,886,348!2025-12-30,788,328-->
 - cycle backward ::@:: \<Ctrl\>+p <!--SR:!2026-01-16,805,328!2026-11-07,912,288-->
-- show possibilities ::@:: \<Ctrl\>+d <!--SR:!2025-06-22,426,193!2025-12-02,306,228-->
+- show possibilities ::@:: \<Ctrl\>+d <!--SR:!2028-09-13,1179,213!2025-12-02,306,228-->
 
 ## pattern
 
@@ -65,7 +65,7 @@ See also [Vim help files](https://vimhelp.org/).
 - exit visual mode ::@:: ([visual](#visual))\<Esc\> <!--SR:!2028-02-04,1339,348!2029-08-21,1893,368-->
 - highlight characters ::@:: v <!--SR:!2026-07-03,967,348!2026-01-12,801,328-->
 - highlight lines ::@:: V <!--SR:!2027-05-17,1126,293!2025-10-01,654,288-->
-- highlight block ::@:: \<Ctrl\>+v <!--SR:!2025-06-19,343,253!2027-12-19,1304,348-->
+- highlight block ::@:: \<Ctrl\>+v <!--SR:!2028-10-22,1218,273!2027-12-19,1304,348-->
 - copy highlight into \["register=(latest)\] ::@:: ([visual](#visual))\["register\]y <!--SR:!2028-02-01,1235,293!2027-07-07,1059,288-->
 
 ## edit
@@ -81,7 +81,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## search and substitute
 
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2025-06-24,647,313!2026-04-26,761,273-->
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2033-02-22,2800,333!2026-04-26,761,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2025-12-25,783,328-->
 - repeat last search ::@:: n <!--SR:!2027-02-27,1125,333!2025-11-18,767,328-->
 - repeat last search reversed ::@:: N <!--SR:!2032-11-23,2731,333!2027-07-07,1088,288-->
@@ -104,5 +104,5 @@ See also [Vim help files](https://vimhelp.org/).
 ### list of options
 
 - ignorecase, ic ::@:: ignore case in search <!--SR:!2025-11-09,758,328!2026-01-11,800,328-->
-- incsearch, is ::@:: highlight while typing search <!--SR:!2025-06-23,647,313!2029-06-03,1487,273-->
+- incsearch, is ::@:: highlight while typing search <!--SR:!2033-02-23,2801,333!2029-06-03,1487,273-->
 - hlsearch, hls ::@:: highlight last search matches <!--SR:!2025-07-17,677,310!2025-12-26,784,328-->

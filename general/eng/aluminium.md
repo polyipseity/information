@@ -51,7 +51,7 @@ return await memorize_table(
 - aircraft bodies→::@::←kitchen foil <!--SR:!2025-12-03,313,210!2026-02-12,671,270-->
 - kitchen foil→::@::←overhead power cables <!--SR:!2025-07-16,317,250!2025-07-31,74,150-->
 - overhead power cables→::@::←soft drink cans <!--SR:!2027-09-24,1081,290!2025-08-06,302,230-->
-- soft drink cans→::@::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
+- soft drink cans→::@::←window frames <!--SR:!2029-03-10,1354,270!2025-10-06,631,270-->
 - window frames→::@::←_(end)_ <!--SR:!2027-03-12,1123,350!2028-08-26,1265,310-->
 
 <!--/pytextgen-->

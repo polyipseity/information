@@ -25,7 +25,7 @@ Below, _u_, also called {@{the _net input_}@}, is {@{the weighted sum of all inp
 
 ### step function
 
-The output of _y_ is {@{binary depending on whether the net input meets (greater than or equal to) a specified threshold, _θ_}@}: {@{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}@}. <!--SR:!2028-02-14,1040,350!2025-06-21,285,330-->
+The output of _y_ is {@{binary depending on whether the net input meets (greater than or equal to) a specified threshold, _θ_}@}: {@{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}@}. <!--SR:!2028-02-14,1040,350!2029-01-13,1302,350-->
 
 Usually, the threshold _θ_ is {@{chosen to be 0}@}. <!--SR:!2028-08-06,1177,350-->
 

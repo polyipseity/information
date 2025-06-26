@@ -15,7 +15,7 @@ tags:
 
 In [finance](finance.md), the __quick ratio__, also known as {@{the __acid-test ratio__}@}, is {@{a [liquidity ratio](accounting%20liquidity.md) that measures the ability of a company to use [near-cash assets](cash%20and%20cash%20equivalents.md) (or 'quick' assets) to extinguish or retire [current liabilities](current%20liability.md) immediately}@}. It is {@{the [ratio](financial%20ratio.md) between quick assets and current liabilities}@}. <!--SR:!2025-06-29,198,310!2025-06-30,215,330!2026-06-07,459,310-->
 
-A normal liquid ratio is {@{considered to be 1:1}@}. {@{A company with a quick ratio of less than 1}@} cannot {@{currently fully pay back its current liabilities}@}. <!--SR:!2026-12-19,626,330!2025-06-24,210,330!2027-09-28,840,330-->
+A normal liquid ratio is {@{considered to be 1:1}@}. {@{A company with a quick ratio of less than 1}@} cannot {@{currently fully pay back its current liabilities}@}. <!--SR:!2026-12-19,626,330!2028-02-07,958,350!2027-09-28,840,330-->
 
 The quick ratio is {@{similar to the [current ratio](current%20ratio.md)}@}, but {@{it provides a more conservative assessment of the liquidity position of a firm as it excludes [inventory](inventory.md),<sup>[\[1\]](#^ref-1)</sup> which it does not consider as sufficiently liquid}@}. <!--SR:!2025-07-07,221,330!2025-09-05,268,330-->
 
@@ -23,7 +23,7 @@ The quick ratio is {@{similar to the [current ratio](current%20ratio.md)}@}, but
 
 - quick ratio formula ::@:: $${\text{Quick Ratio} }={\frac {\text{Quick Assets} }{\text{Current Liabilities} } }$$ <!--SR:!2025-07-31,241,330!2025-08-23,259,330-->
 
-Where quick assets can be defined as follows ::@:: $${\text{Quick Assets} }={\text{Cash and Cash Equivalents} }+{\text{Marketable Securities} }+{\text{Net Accounts Receivable} }={\text{Current Assets} }-{\text{Inventory} }-{\text{Prepaid Expenses} }$$ <!--SR:!2025-06-24,185,270!2025-08-24,239,290-->
+Where quick assets can be defined as follows ::@:: $${\text{Quick Assets} }={\text{Cash and Cash Equivalents} }+{\text{Marketable Securities} }+{\text{Net Accounts Receivable} }={\text{Current Assets} }-{\text{Inventory} }-{\text{Prepaid Expenses} }$$ <!--SR:!2027-05-20,695,290!2025-08-24,239,290-->
 
 Although the quick ratio is {@{a test for the financial viability of a business}@}, it {@{does not give a complete picture of the business's health}@}. For example, if {@{a business has large amounts in [accounts receivable](accounts%20receivable.md) due for payment after a long period, while also having larger [accounts payable](accounts%20payable.md) due for immediate payment}@}, the quick ratio {@{may look healthy when the business is actually about to run out of cash}@}. In contrast, if {@{a business has fast payment from customers, but long terms from suppliers}@}, it may {@{have a low quick ratio and yet be very healthy}@}. <!--SR:!2027-08-07,799,330!2027-07-10,779,330!2027-08-15,807,330!2027-01-01,609,310!2025-07-11,223,330!2026-06-20,465,310-->
 

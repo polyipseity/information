@@ -79,7 +79,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - datetime: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2028-02-20,978,295!2025-06-18,168,275-->
+- How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2028-02-20,978,295!2027-03-27,644,295-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
@@ -187,7 +187,7 @@ The content is in teaching order.
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2025-07-04,291,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
-- Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2025-06-24,299,361!2025-06-28,303,361-->
+- Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2025-06-28,303,361-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)

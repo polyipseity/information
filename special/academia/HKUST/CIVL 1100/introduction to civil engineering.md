@@ -37,7 +37,7 @@ The content is in teaching order.
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2027-05-07,867,372-->
+  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2028-09-18,1181,320!2027-05-07,867,372-->
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2025-06-29,343,367-->
     - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
@@ -75,9 +75,9 @@ The content is in teaching order.
 - environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2028-12-31,1380,396-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
-    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
+    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2029-11-27,1620,392-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
+    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2030-01-07,1661,390-->
     - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
@@ -150,7 +150,7 @@ quantity surveyor
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2028-09-19,1202,335-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2026-11-22,579,295-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2028-08-25,1177,325-->
-- environmental consultant→::@::←quantity surveyor <!--SR:!2025-06-18,217,300!2026-04-23,456,280-->
+- environmental consultant→::@::←quantity surveyor <!--SR:!2027-12-11,903,320!2026-04-23,456,280-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2027-06-02,873,360!2026-02-13,409,340-->
 
 <!--/pytextgen-->
@@ -197,9 +197,9 @@ water and sewage treatment system
 - dam→::@::←pipeline <!--SR:!2027-01-05,615,244!2026-03-12,518,341-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2026-11-19,609,320-->
-- reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-06-19,98,241-->
+- reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2026-05-27,340,261-->
 - sewage treatment→::@::←transport <!--SR:!2026-04-09,388,230!2026-03-21,463,301-->
-- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-06-13,104,150-->
+- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2026-02-06,230,170-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2028-09-09,1248,381-->
 
 <!--/pytextgen-->
@@ -402,7 +402,7 @@ Water Cube
 - _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2028-09-25,1293,387-->
 - Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2028-06-07,1108,324!2026-12-13,761,370-->
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
-- Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2027-12-22,971,290-->
+- Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2028-12-06,1264,340!2027-12-22,971,290-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2027-04-10,766,325-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2028-10-12,1235,357!2028-07-09,1140,340-->
@@ -455,8 +455,8 @@ testing materials
 - _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2029-03-01,1423,395-->
 - budgeting→::@::←contracting <!--SR:!2025-09-10,377,334!2026-03-06,483,327-->
 - contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2027-12-14,966,315-->
-- designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
-- logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
+- designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2027-07-26,761,297-->
+- logistics→::@::←planning <!--SR:!2028-02-13,967,314!2025-11-05,401,335-->
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
 - procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2027-07-08,836,301-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
@@ -499,7 +499,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
-- business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2026-08-10,546,285-->
+- business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2025-07-08,306,320-->
@@ -591,7 +591,7 @@ nuclear
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
-- agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2025-06-08,311,372-->
+- agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2029-10-20,1582,392-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2025-10-27,398,335-->
@@ -602,7 +602,7 @@ nuclear
 - industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
 - manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
 - mechanical→::@::←nuclear <!--SR:!2025-07-18,340,377!2027-01-28,775,355-->
-- nuclear→::@::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
+- nuclear→::@::←_(end)_ <!--SR:!2029-12-01,1624,394!2025-07-25,393,365-->
 
 <!--/pytextgen-->
 
@@ -707,7 +707,7 @@ soil liquefaction
 <!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←debris flow <!--SR:!2028-01-16,1020,334!2025-11-14,459,398-->
-- debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2028-08-11,1199,355-->
+- debris flow→::@::←landslide <!--SR:!2029-03-09,1357,355!2028-08-11,1199,355-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2025-08-03,318,270-->
 - soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
@@ -774,7 +774,7 @@ levee
 
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
+- _(begin)_→::@::←canal <!--SR:!2025-09-06,359,340!2030-01-21,1675,387-->
 - canal→::@::←channel <!--SR:!2027-03-28,851,377!2027-02-26,811,372-->
 - channel→::@::←dam <!--SR:!2025-12-15,420,327!2027-01-07,696,290-->
 - dam→::@::←levee <!--SR:!2027-02-21,795,360!2026-02-22,475,332-->
@@ -845,10 +845,10 @@ Tsing Ma Bridge
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2026-02-11,375,298!2029-12-09,1648,397-->
-- Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
+- Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2025-08-19,321,307-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2025-10-05,319,320!2026-03-31,447,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->
-- Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2025-06-09,282,307-->
+- Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
 - Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2025-12-04,479,330-->
 
 <!--/pytextgen-->
@@ -877,7 +877,7 @@ developing strengthening techniques for damaged structures or structural members
 
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2029-04-02,1426,390-->
+- _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2029-04-28,1403,355!2029-04-02,1426,390-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
 - designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-12-27,340,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2025-07-13,317,324-->
@@ -917,7 +917,7 @@ polypropylene fiber reinforced concrete
 - cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
 - fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2025-08-14,344,335-->
-- polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
+- polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2029-10-26,1588,392!2025-10-18,373,320-->
 
 <!--/pytextgen-->
 
@@ -951,7 +951,7 @@ wave
 
 - _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2028-05-16,1176,377-->
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2028-09-16,1261,380-->
-- fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
+- fire→::@::←flood <!--SR:!2026-10-18,692,344!2028-04-23,1037,286-->
 - flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2025-08-18,314,294-->
 - wave→::@::←_(end)_ <!--SR:!2027-09-06,976,377!2027-08-21,915,335-->
@@ -983,7 +983,7 @@ Two Prudential Plaza
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2028-09-25,1218,337!2025-12-02,475,387-->
-- Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
+- Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2029-04-02,1381,354!2025-08-25,342,340-->
 - China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-11-16,275,240-->
 - Two Prudential Plaza→::@::←_(end)_ <!--SR:!2027-09-14,930,375!2025-08-04,322,320-->
 

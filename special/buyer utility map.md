@@ -60,7 +60,7 @@ disposal
 
 ## 6 utility levers
 
-The {@{6 utility levers}@} are the {@{map row headers}@}. <!--SR:!2027-09-01,821,319!2025-06-19,276,279-->
+The {@{6 utility levers}@} are the {@{map row headers}@}. <!--SR:!2027-09-01,821,319!2028-05-31,1075,299-->
 
 ```Python
 # pytextgen generate data
@@ -94,7 +94,7 @@ simplicity: remove complexity or hassle
 - convenience: ease of spatial and temporal accessibility→::@::←environmental friendliness <!--SR:!2027-12-05,941,299!2026-03-19,467,299-->
 - environmental friendliness→::@::←fun and image: conveyed feel, look, or attitude <!--SR:!2025-11-23,358,259!2026-05-19,397,239-->
 - fun and image: conveyed feel, look, or attitude→::@::←productivity: less effort, time, or money <!--SR:!2026-01-21,365,239!2025-11-24,325,239-->
-- productivity: less effort, time, or money→::@::←risk reduction: financial, physical, reputational <!--SR:!2025-08-16,284,250!2025-06-23,258,259-->
+- productivity: less effort, time, or money→::@::←risk reduction: financial, physical, reputational <!--SR:!2025-08-16,284,250!2028-01-17,938,279-->
 - risk reduction: financial, physical, reputational→::@::←simplicity: remove complexity or hassle <!--SR:!2025-12-17,273,210!2026-01-03,382,259-->
 - simplicity: remove complexity or hassle→::@::←_(end)_ <!--SR:!2026-05-02,505,310!2025-09-10,337,299-->
 

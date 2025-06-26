@@ -18,7 +18,7 @@ Empirical formulas {@{show the simplest whole number ratio of [atoms](atom.md) i
 
 ### molecular formula
 
-Molecular formulas {@{show the number of each kind of [atom](atom.md) in a [molecule](molecule.md)}@}. <!--SR:!2025-06-24,608,310-->
+Molecular formulas {@{show the number of each kind of [atom](atom.md) in a [molecule](molecule.md)}@}. <!--SR:!2032-08-12,2606,330-->
 
 ### structural formula
 

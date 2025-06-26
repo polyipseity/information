@@ -151,7 +151,7 @@ The following section uses {@{the [Cartesian coordinate system](Cartesian%20coor
 
 {@{Two vectors are _opposite_}@} if {@{they have the same magnitude but [opposite direction](opposite%20direction%20(geometry).md)}@};<sup>[\[18\]](#^ref-18)</sup> so {@{two vectors $${\mathbf {a} }=a_{1}{\mathbf {e} }_{1}+a_{2}{\mathbf {e} }_{2}+a_{3}{\mathbf {e} }_{3}$$ and $${\mathbf {b} }=b_{1}{\mathbf {e} }_{1}+b_{2}{\mathbf {e} }_{2}+b_{3}{\mathbf {e} }_{3}$$ are opposite}@} if {@{$$a_{1}=-b_{1},\quad a_{2}=-b_{2},\quad a_{3}=-b_{3}.\,$$}@} <!--SR:!2026-05-28,369,359!2026-04-29,345,352!2026-05-31,372,359!2026-01-14,259,332-->
 
-{@{Two vectors are _[equidirectional](equidirectional.md)_ \(or _codirectional_\)}@} if {@{they have the same direction but not necessarily the same magnitude}@}.<sup>[\[18\]](#^ref-18)</sup> {@{Two vectors are _parallel_}@} if {@{they have either the same or opposite direction, but not necessarily the same magnitude}@}; {@{two vectors are _antiparallel_}@} if {@{they have strictly opposite direction, but not necessarily the same magnitude}@}.<sup>[\[a\]](#^ref-a)</sup> <!--SR:!2026-02-08,277,332!2026-02-04,277,332!2026-03-20,300,332!2026-01-10,255,332!2026-05-14,355,352!2025-06-23,98,292-->
+{@{Two vectors are _[equidirectional](equidirectional.md)_ \(or _codirectional_\)}@} if {@{they have the same direction but not necessarily the same magnitude}@}.<sup>[\[18\]](#^ref-18)</sup> {@{Two vectors are _parallel_}@} if {@{they have either the same or opposite direction, but not necessarily the same magnitude}@}; {@{two vectors are _antiparallel_}@} if {@{they have strictly opposite direction, but not necessarily the same magnitude}@}.<sup>[\[a\]](#^ref-a)</sup> <!--SR:!2026-02-08,277,332!2026-02-04,277,332!2026-03-20,300,332!2026-01-10,255,332!2026-05-14,355,352!2026-07-30,402,312-->
 
 ### addition and subtraction
 
@@ -251,7 +251,7 @@ All examples thus far have {@{dealt with vectors expressed in terms of the same 
 
 The properties of a direction cosine matrix, C are:<sup>[\[20\]](#^ref-20)</sup>
 
-- (annotation: direction cosine matrix) the determinant ::@:: is unity, \|C\| = 1; <!--SR:!2026-06-18,389,359!2025-06-21,87,292-->
+- (annotation: direction cosine matrix) the determinant ::@:: is unity, \|C\| = 1; <!--SR:!2026-06-18,389,359!2026-06-09,353,312-->
 - (annotation: direction cosine matrix) the inverse ::@:: is equal to the transpose; <!--SR:!2026-06-15,386,359!2026-01-09,255,332-->
 - (annotation: direction cosine matrix) the rows and columns ::@:: are orthogonal unit vectors, therefore their dot products are zero. <!--SR:!2026-06-19,390,359!2026-05-08,354,352-->
 

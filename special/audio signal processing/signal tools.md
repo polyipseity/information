@@ -21,15 +21,15 @@ Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2025-09-15,310,349-
 
 ### generating periodic signals
 
-Audacity can generate {@{real sine signals of any frequency and amplitude}@}. The signals can also be {@{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}@}, which have {@{more complex frequency components}@}. It can even generate signals that {@{increases in frequency over time (increasing pitch)}@}, called {@{_chirp_}@}. <!--SR:!2025-06-18,224,338!2027-11-06,912,358!2025-07-05,238,338!2028-02-04,977,358!2025-06-21,230,338-->
+Audacity can generate {@{real sine signals of any frequency and amplitude}@}. The signals can also be {@{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}@}, which have {@{more complex frequency components}@}. It can even generate signals that {@{increases in frequency over time (increasing pitch)}@}, called {@{_chirp_}@}. <!--SR:!2028-05-01,1043,358!2027-11-06,912,358!2025-07-05,238,338!2028-02-04,977,358!2028-05-29,1071,358-->
 
 ## SonicVisualiser
 
-SonicVisualiser is {@{an audio visualization, analysis, and annotation tool}@}. It can be downloaded from {@{<https://sonicvisualiser.org/>}@}. <!--SR:!2025-06-14,236,330!2025-07-10,256,330-->
+SonicVisualiser is {@{an audio visualization, analysis, and annotation tool}@}. It can be downloaded from {@{<https://sonicvisualiser.org/>}@}. <!--SR:!2028-06-07,1080,350!2025-07-10,256,330-->
 
 ### applying DFT on complicated sounds
 
-SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}@}. <!--SR:!2025-06-14,224,338-->
+SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}@}. <!--SR:!2028-05-02,1044,358-->
 
 ## sms-tools
 

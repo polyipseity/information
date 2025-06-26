@@ -28,7 +28,7 @@ Authority and hub are defined {@{in terms of one another in [mutual recursion](m
 
 The algorithm performs {@{a series of iterations}@}, consisting of {@{2 main steps, starting with the authority update}@}: <!--SR:!2027-06-07,821,334!2028-12-02,1276,354-->
 
-1. __authority update__ ::@:: Update each node's authority value to the sum of the hub values of nodes pointing to it. <!--SR:!2026-06-10,509,314!2025-06-20,284,334-->
+1. __authority update__ ::@:: Update each node's authority value to the sum of the hub values of nodes pointing to it. <!--SR:!2026-06-10,509,314!2029-01-15,1304,354-->
 2. __hub update__ ::@:: Update each node's hub value to the sum of the authority values of nodes it points to. <!--SR:!2026-11-02,663,334!2028-12-20,1284,354-->
 
 There are {@{2 variants of the algorithm}@}: {@{async iteration and sync iteration}@}, with the former being more common. Both variants with other steps are described below: <!--SR:!2028-09-16,1211,354!2028-11-08,1252,354-->
@@ -39,7 +39,7 @@ There are {@{2 variants of the algorithm}@}: {@{async iteration and sync iterati
 4. __normalization__ ::@:: Optionally, normalize the values for convergence. Treat the authority values and hub values of all nodes as 2 vectors. Normalize their lengths ([norms](norm%20(mathematics).md)) to either 1 or the number of nodes. One could use the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1), the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2), or the very general [_p_-norm](norm%20(mathematics).md#_p_-norm). <!--SR:!2025-08-07,313,314!2028-01-24,1026,354-->
 5. __repeat__ ::@:: Repeat from the 2nd step as necessary. <!--SR:!2028-05-12,1109,354!2028-08-20,1192,354-->
 
-Finally, after {@{the values have converged or after a predetermined number of iterations}@}, the authority values and hub values are {@{used for ranking}@}. Note that HITS {@{does not specify how the values are used}@}. Possible ways to use the values are {@{rank in descending authority value only, rank in descending hub value only, or rank in descending sum of authority value and hub value, etc.}@} {@{This rather arbitrary usage of authority and hub values}@} is one of the disadvantages of HITS, which is resolved by {@{[PageRank](PageRank.md)}@}. <!--SR:!2025-06-21,285,334!2027-02-11,745,334!2028-01-30,1031,354!2025-06-26,289,334!2028-12-29,1293,354!2028-11-10,1255,354-->
+Finally, after {@{the values have converged or after a predetermined number of iterations}@}, the authority values and hub values are {@{used for ranking}@}. Note that HITS {@{does not specify how the values are used}@}. Possible ways to use the values are {@{rank in descending authority value only, rank in descending hub value only, or rank in descending sum of authority value and hub value, etc.}@} {@{This rather arbitrary usage of authority and hub values}@} is one of the disadvantages of HITS, which is resolved by {@{[PageRank](PageRank.md)}@}. <!--SR:!2029-01-18,1307,354!2027-02-11,745,334!2028-01-30,1031,354!2029-02-15,1330,354!2028-12-29,1293,354!2028-11-10,1255,354-->
 
 ## in detail
 

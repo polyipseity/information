@@ -50,7 +50,7 @@ int snprintf_s(char const *restrict buffer, rsize_t bufsz, char const *restrict 
 > [!tip] tips
 >
 > - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::@:: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2025-10-28,548,310!2026-10-27,883,330-->
-> - overload selection ::@:: use the `_s`-ending overloads whenever feasible <!--SR:!2029-03-24,1531,368!2025-06-20,364,355-->
+> - overload selection ::@:: use the `_s`-ending overloads whenever feasible <!--SR:!2029-03-24,1531,368!2030-05-03,1775,375-->
 
 ## parameters
 

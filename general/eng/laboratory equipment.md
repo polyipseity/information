@@ -162,12 +162,12 @@ return _chain.from_iterable(await _gather(
 - [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2028-08-10,1179,250!2025-07-23,137,170-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→::@::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2027-07-04,1046,290!2027-04-04,679,250-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→::@::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2025-11-25,193,170!2026-07-27,697,250-->
-- [mortar and pestle](mortar%20and%20pestle.md)→::@::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2025-06-25,356,230!2026-08-20,785,270-->
+- [mortar and pestle](mortar%20and%20pestle.md)→::@::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2028-08-26,1158,250!2026-08-20,785,270-->
 - [pipeclay triangle](pipeclay%20triangle.md)→::@::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2025-11-12,177,150-->
 - [reagent bottle](reagent%20bottle.md)→::@::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2028-03-09,1155,270!2026-04-14,423,250-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→::@::←[rubber bulb](rubber%20bulb.md) <!--SR:!2026-07-09,473,190!2025-10-13,309,190-->
 - [rubber bulb](rubber%20bulb.md)→::@::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2027-07-08,1049,290-->
-- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→::@::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2025-10-04,130,130!2025-06-21,453,230-->
+- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→::@::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2025-10-04,130,130!2028-04-30,1044,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→::@::←[spatula](spatula.md) <!--SR:!2026-06-23,750,270!2027-06-17,1037,290-->
 - [spatula](spatula.md)→::@::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2026-01-20,583,230!2027-07-23,807,270-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!2025-06-27,185,190!2025-11-10,199,190-->

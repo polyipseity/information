@@ -42,7 +42,7 @@ See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html>.
 
 See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html>.
 
-- `World` :@: `World(int worldWidth, int worldHeight, int cellSize[, boolean unbounded = false])`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#%3Cinit%3E(int,int,int,boolean)>. <!--SR:!2025-06-23,330,290-->
+- `World` :@: `World(int worldWidth, int worldHeight, int cellSize[, boolean unbounded = false])`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#%3Cinit%3E(int,int,int,boolean)>. <!--SR:!2029-02-13,1329,310-->
 - `addObject` :@: `void addObject(Actor object, int x, int y)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#addObject(greenfoot.Actor,int,int)>. <!--SR:!2025-11-03,462,310-->
 - `getHeight` :@: `int getHeight()`: In cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getHeight()>. <!--SR:!2028-03-21,1174,350-->
 - `getObjects` :@: `<A> List<A> getObjects(Class<A> cls)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getObjects(java.lang.Class)>. <!--SR:!2027-04-25,886,330-->

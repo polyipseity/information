@@ -46,7 +46,7 @@ The content is in teaching order.
   - free body in structural engineering ::@:: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2027-10-29,974,350!2026-08-20,587,330-->
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
-  - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2025-07-01,317,350!2025-06-20,307,350-->
+  - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2025-07-01,317,350!2029-07-05,1473,370-->
   - compression examples in structures ::@:: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2026-07-30,547,310!2027-09-13,927,350-->
   - compression conventions ::@:: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2028-03-01,1057,350!2026-07-16,541,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
@@ -56,9 +56,9 @@ The content is in teaching order.
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2028-05-03,1119,350!2026-03-27,479,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
-  - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2027-11-12,975,341!2025-06-22,308,341-->
+  - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2027-11-12,975,341!2029-06-07,1445,361-->
     - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2029-01-22,1330,370-->
-    - "weak" object examples ::@:: mattress <!--SR:!2025-06-21,308,350!2028-03-12,1059,341-->
+    - "weak" object examples ::@:: mattress <!--SR:!2029-07-19,1487,370!2028-03-12,1059,341-->
   - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2027-11-22,992,350-->
     - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2025-07-21,333,350-->
   - [stress](../../../../general/stress%20(mechanics).md)
@@ -75,7 +75,7 @@ The content is in teaching order.
   - pivot ::@:: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2026-03-05,490,330!2026-05-16,544,330-->
   - torque intuition ::@:: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2029-01-20,1328,370!2025-07-17,331,350-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
-  - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2025-06-18,308,350!2029-04-15,1413,370-->
+  - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2029-07-20,1488,370!2029-04-15,1413,370-->
   - torque conventions ::@:: __counterclockwise positive__, clockwise negative <!--SR:!2027-08-15,918,350!2029-01-07,1315,361-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2025-12-09,388,310!2027-03-06,731,330-->
@@ -96,7 +96,7 @@ The content is in teaching order.
 - [static equilibrium](../../../../general/mechanical%20equilibrium.md)
   - [§ equilibrium equations](../../../../general/mechanical%20equilibrium.md#equilibrium%20equations)
   - [§ statically indeterminate system](../../../../general/structural%20support.md#statically%20indeterminate%20system)
-- use "critical thinking" ::@:: more like whether you are good at mathematics and physics <!--SR:!2029-01-21,1329,370!2025-06-26,313,350-->
+- use "critical thinking" ::@:: more like whether you are good at mathematics and physics <!--SR:!2029-01-21,1329,370!2029-08-08,1504,370-->
 - [quizzes § week 4 lecture quiz](quizzes.md#week%204%20lecture%20quiz)
 
 ## week 5 lecture

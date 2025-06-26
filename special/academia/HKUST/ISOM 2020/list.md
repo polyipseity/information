@@ -9,7 +9,7 @@ tags:
 
 # Python list
 
-A Python list is {@{a collection of values, and you can treat it like a collective of variables}@}. <!--SR:!2025-06-09,204,314-->
+A Python list is {@{a collection of values, and you can treat it like a collective of variables}@}. <!--SR:!2027-11-26,886,334-->
 
 If you try to {@{get the type of a list using `type(list)`}@}, {@{the returned type name is either `list` or `<class 'list'>`}@}, regardless of {@{the contents contained inside the list}@}. <!--SR:!2027-10-23,870,334!2027-08-16,812,334!2025-09-22,291,334-->
 
@@ -28,7 +28,7 @@ assert "asd"[2] == "d"
 assert [39, "omg", 'asd', 3.4][2] == "asd"
 ```
 
-Indices can be {@{negative, in which case it counts from the back}@}: <!--SR:!2025-06-14,208,314-->
+Indices can be {@{negative, in which case it counts from the back}@}: <!--SR:!2027-12-13,903,334-->
 
 ```Python
 assert "asd"[-1] == "d"
@@ -55,7 +55,7 @@ To {@{concatenate/join two lists (or strings)}@}, use {@{the `+` operator}@}. No
 
 Aggregate functions {@{summarize a result from a list}@}. <!--SR:!2026-12-16,634,334-->
 
-- `max(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If `list` consists of `float`s and `int`s only, the largest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the last string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2025-06-24,137,274!2026-04-01,389,294-->
+- `max(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If `list` consists of `float`s and `int`s only, the largest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the last string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2026-11-30,524,294!2026-04-01,389,294-->
 - `min(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If the `list` consists of `float`s and `int`s only, the smallest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the first string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2026-09-08,556,334!2027-07-21,786,334-->
 - `sum(list)` ::@:: Returns the sum of elements in the list. If the `list` is empty, an `int`, `0`, is returned. If `list` consists of `float`s and `int`s only, the sum is returned. The return type is `float` if there is at least one `float` in `list`, otherwise the return type is `int`. If `list` contains incompatible types (e.g. `str`), then a `TypeError` is raised. <!--SR:!2026-04-27,444,314!2026-03-24,418,314-->
 

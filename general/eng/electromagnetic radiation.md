@@ -18,9 +18,9 @@ __Electromagnetic radiation__ (__EMR__) consists of {@{[waves](wave.md) of the [
 
 ### wave model
 
-{@{The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)}@} in the electromagnetic radiation {@{oscillates perpendicularly in sync}@}. <!--SR:!2031-11-23,2368,290!2025-06-26,642,270-->
+{@{The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)}@} in the electromagnetic radiation {@{oscillates perpendicularly in sync}@}. <!--SR:!2031-11-23,2368,290!2032-02-10,2420,290-->
 
-{@{[Electric charges](electric%20charge.md) have an [oscillating](oscillation.md) [force](force.md) applied}@} by the electric field in the radiation. <!--SR:!2025-06-20,436,210-->
+{@{[Electric charges](electric%20charge.md) have an [oscillating](oscillation.md) [force](force.md) applied}@} by the electric field in the radiation. <!--SR:!2029-01-15,1304,230-->
 
 > [!tip] tips
 >

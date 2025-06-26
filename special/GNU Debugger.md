@@ -19,23 +19,23 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 ### common commands
 
-- `apropos <regex>` ::@:: find text matching `<regex>` <!--SR:!2025-06-22,226,330!2026-01-27,348,290-->
+- `apropos <regex>` ::@:: find text matching `<regex>` <!--SR:!2028-04-12,1024,350!2026-01-27,348,290-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2027-05-03,725,330!2025-07-05,237,330-->
-- `break <where>` ::@:: set a breakpoint <!--SR:!2025-06-14,220,330!2025-09-30,301,330-->
+- `break <where>` ::@:: set a breakpoint <!--SR:!2028-03-17,1000,350!2025-09-30,301,330-->
 - `continue` ::@:: continue program execution <!--SR:!2027-03-22,707,330!2027-12-31,942,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-07-29,255,330!2025-07-10,240,330-->
-- `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2025-06-11,201,345!2026-03-09,420,365-->
+- `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-04,958,365!2026-03-09,420,365-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-04,281,330!2025-07-27,252,330-->
 - `finish` ::@:: run until the current function returns <!--SR:!2025-10-02,303,330!2027-08-31,828,330-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2026-03-12,423,365!2025-07-22,234,345-->
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-11-06,297,345!2025-09-28,283,345-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-07-11,241,330!2027-07-09,792,330-->
-- `next` ::@:: go to the next (source) line <!--SR:!2025-06-07,214,330!2027-09-04,832,330-->
+- `next` ::@:: go to the next (source) line <!--SR:!2028-02-19,973,350!2027-09-04,832,330-->
 - `ni` ::@:: go to the next instruction <!--SR:!2025-07-30,256,330!2025-08-26,277,330-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-18,265,270!2025-09-29,300,330-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-07-18,246,330!2025-08-19,271,330-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2026-03-14,425,365!2026-03-06,417,365-->
-- `set args <args>...` ::@:: set program args <!--SR:!2025-10-12,311,330!2025-06-15,220,330-->
+- `set args <args>...` ::@:: set program args <!--SR:!2025-10-12,311,330!2028-03-16,999,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2025-08-07,263,330!2027-05-10,707,290-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-01,302,330!2026-10-03,555,310-->
 - `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2027-04-25,717,330!2026-06-16,487,310-->
@@ -52,7 +52,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 ### `pwndbg`
 
-- `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2025-06-26,229,330!2026-10-27,537,310-->
+- `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2028-05-06,1045,350!2026-10-27,537,310-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2026-01-03,366,365!2025-11-06,297,345-->
 - `down` ::@:: move down the backtrace or call stack <!--SR:!2027-03-26,702,330!2025-07-23,249,330-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2027-05-21,743,330!2027-07-29,795,330-->

@@ -136,7 +136,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured <!--SR:!2026-02-10,254,330!2026-01-24,237,330-->
   - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\) <!--SR:!2026-05-16,334,350!2026-03-04,276,330-->
-  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-06-19,43,270!2026-01-24,237,330-->
+  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory <!--SR:!2025-12-02,162,290!2026-01-24,237,330-->
 
 ## income statement (cost of goods sold)
 
@@ -188,7 +188,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-06-19,83,341!2026-05-25,343,361!2026-06-26,375,361!2025-06-18,82,341!2026-07-02,380,361!2026-06-30,378,361!2026-05-25,343,361!2025-06-18,82,341!2026-06-26,375,361-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-22,394,361!2026-05-25,343,361!2026-06-26,375,361!2026-07-20,392,361!2026-07-02,380,361!2026-06-30,378,361!2026-05-25,343,361!2026-07-17,389,361!2026-06-26,375,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -250,7 +250,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2025-06-19,83,342!2025-06-19,83,342!2026-06-25,374,362!2026-06-23,372,362!2026-06-27,376,362!2025-06-19,83,342!2025-06-18,82,342!2026-07-03,381,362!2025-06-18,82,342-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-26,398,362!2026-07-24,396,362!2026-06-25,374,362!2026-06-23,372,362!2026-06-27,376,362!2026-07-23,395,362!2026-07-21,393,362!2026-07-03,381,362!2026-07-21,393,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -301,7 +301,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2025-08-04,106,290!2026-02-13,242,330-->
 - production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-27,376,362!2026-06-24,373,362-->
   - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2026-02-02,246,330!2026-03-18,290,330-->
-  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2026-06-02,351,362!2025-06-19,83,342-->
+  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2026-06-02,351,362!2026-07-25,397,362-->
 
 ## activity cost pool
 

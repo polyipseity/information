@@ -33,7 +33,7 @@ The Prüfer sequence of a labeled tree is {@{unique and has length _n_ − 2}@}.
 
 > {@{![a labeled tree with Prüfer sequence](../../archives/Wikimedia%20Commons/Tree%20graph.svg)}@}
 >
-> {@{A labeled tree with Prüfer sequence {4,4,4,5}.}@} <!--SR:!2025-06-10,165,310!2025-09-20,251,330-->
+> {@{A labeled tree with Prüfer sequence {4,4,4,5}.}@} <!--SR:!2027-05-28,701,330!2025-09-20,251,330-->
 
 Consider the above algorithm run on the tree shown to the right. Initially, vertex 1 is the leaf with the smallest label, so it is removed first and 4 is put in the Prüfer sequence. Vertices 2 and 3 are removed next, so 4 is added twice more. Vertex 4 is now a leaf and has the smallest label, so it is removed and we append 5 to the sequence. We are left with only two vertices, so we stop. The tree's sequence is {4,4,4,5}.
 

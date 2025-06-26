@@ -18,7 +18,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-The __alkaline earth metals__ {@{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}@}. The alkaline earth metals are {@{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}@}. <!--SR:!2025-06-24,151,170!2026-04-25,636,230-->
+The __alkaline earth metals__ {@{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}@}. The alkaline earth metals are {@{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}@}. <!--SR:!2026-03-14,262,170!2026-04-25,636,230-->
 
 ## representative reactions
 
@@ -56,7 +56,7 @@ return await memorize_map(
 <!--pytextgen generate section="1d5e"--><!-- The following content is generated at 2024-01-04T20:17:51.324357+08:00. Any edits will be overridden! -->
 
 - [beryllium](beryllium.md):@:no reaction with water or steam <!--SR:!2025-08-21,136,150-->
-- [magnesium](magnesium.md):@:reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2025-06-23,91,150-->
+- [magnesium](magnesium.md):@:reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2026-01-06,197,170-->
 - [calcium](calcium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-05-19,731,270-->
 - [strontium](strontium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-03-08,652,250-->
 - [barium](barium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-07-31,464,190-->

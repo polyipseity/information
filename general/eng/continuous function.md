@@ -47,7 +47,7 @@ A __discontinuous function__ is {@{a function that is _not continuous_. By this 
 > [!example] examples
 >
 > - empty function $\varnothing \to X$ :@: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discontinuous at every [real](real%20number.md), and it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2027-03-02,824,330-->
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It is continuous. Note that an isolated point is closed under the usual definition of "closed". <!--SR:!2025-06-20,306,290-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It is continuous. Note that an isolated point is closed under the usual definition of "closed". <!--SR:!2028-11-05,1233,310-->
 
 #### discontinuity at a point
 

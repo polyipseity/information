@@ -9,7 +9,7 @@ tags:
 
 # magnesium hydroxide
 
-__Magnesium hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Mg](magnesium.md)([OH](hydroxide.md))<sub>2</sub>}@}. It looks like {@{white [solid](solid.md)}@}. <!--SR:!2027-02-15,1100,350!2025-06-20,563,310-->
+__Magnesium hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Mg](magnesium.md)([OH](hydroxide.md))<sub>2</sub>}@}. It looks like {@{white [solid](solid.md)}@}. <!--SR:!2027-02-15,1100,350!2032-01-31,2415,330-->
 
 ## preparation
 

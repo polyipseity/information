@@ -69,8 +69,8 @@ return _chain.from_iterable(await _gather(
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2025-11-26,348,342-->
 - `*`→::@::←`/` <!--SR:!2025-10-20,319,342!2025-11-19,344,342-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2025-11-27,349,342-->
-- `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2025-09-20,294,342-->
-- `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
+- `//`→::@::←`%` <!--SR:!2028-03-07,990,350!2025-09-20,294,342-->
+- `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2028-01-21,944,342-->
 - `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2025-11-18,342,342-->
 - `-`→::@::←_(end)_ <!--SR:!2025-10-30,327,342!2025-11-07,335,342-->
 
@@ -88,7 +88,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2025-06-11,210,322!2025-09-20,296,342!2025-10-12,313,342-->
+For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2028-01-11,934,342!2025-09-20,296,342!2025-10-12,313,342-->
 
 A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2025-11-09,336,342!2025-08-14,265,342!2025-07-13,222,322!2025-09-09,286,342!2027-07-19,803,360-->
 
@@ -207,7 +207,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`not` <!--SR:!2026-06-14,505,389!2026-06-17,508,389-->
 - `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2026-05-16,480,389-->
-- `and`→::@::←`or` <!--SR:!2025-06-20,209,349!2026-06-16,507,389-->
+- `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!2026-06-16,507,389-->
 - `or`→::@::←_(end)_ <!--SR:!2026-05-19,483,389!2025-07-12,229,369-->
 
 <!--/pytextgen-->
@@ -233,7 +233,7 @@ In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`T
 
 ## string
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2025-06-21,219,330!2025-12-01,353,342!2025-08-19,269,342!2025-08-05,258,342!2025-09-03,282,342!2025-06-07,207,322!2026-12-22,635,330-->
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2028-03-09,992,350!2025-12-01,353,342!2025-08-19,269,342!2025-08-05,258,342!2025-09-03,282,342!2028-01-01,924,342!2026-12-22,635,330-->
 
 `\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2026-01-05,356,363!2025-11-04,322,363!2025-09-03,279,363-->
 
@@ -257,7 +257,7 @@ To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2025-11-01,329,342!2027-09-13,834,342!2025-06-08,208,322!2025-11-10,335,342-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2025-11-01,329,342!2027-09-13,834,342!2028-01-02,925,342!2025-11-10,335,342-->
 
 Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2026-11-16,608,330!2025-07-17,241,330-->
 
@@ -284,7 +284,7 @@ To get the type of a value, {@{use `type(<any>)`, which will return the type of 
 We can convert a value (`value`) into other data types using {@{`float(value)`, `int(value)`, and `str(value)`}@}. If {@{the data type of `value` and the resulting data type are the same}@}, {@{the same value is simply returned}@}. Note that not all {@{conversions are valid, and will throw a `ValueError` if it is invalid}@}. <!--SR:!2026-04-12,458,380!2026-05-07,479,380!2025-10-04,303,360!2025-09-14,288,360-->
 
 - `bool(value)` ::@:: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2025-10-01,272,366!2025-11-15,329,386-->
-- `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2025-06-16,211,340!2026-02-22,392,320-->
+- `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2028-03-04,987,360!2026-02-22,392,320-->
 - `int(value)` ::@:: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2027-10-06,857,360!2025-09-14,288,360-->
 - `list(value)` ::@:: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2025-10-18,305,386!2025-07-10,219,366-->
 - `str(value)` ::@:: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2025-07-09,218,340!2026-03-04,430,380-->

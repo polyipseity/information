@@ -21,11 +21,11 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 There are {@{some restrictions on the distinct values of an attribute}@} depending on the XLMiner edition. One way to resolve this is {@{merging some values into the same value}@}. Funny enough, the category reduction, which is designed for this workload, also has {@{restrictions on the distinct values depending on the XLMiner edition}@}. So {@{multiple category reductions on a subset of distinct values}@} may be needed if there are too many distinct values. <!--SR:!2025-09-04,345,355!2025-09-23,364,355!2025-10-14,379,355!2028-10-11,1227,355-->
 
-XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency and manually}@}. The first option {@{reduces the values with the smallest frequencies into one value and leave the rest intact}@}. The second option {@{reduces the values using a user-specified table mapping current values to new values}@}. <!--SR:!2025-09-08,349,355!2028-02-09,1043,355!2025-07-01,274,335!2025-06-17,265,335-->
+XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency and manually}@}. The first option {@{reduces the values with the smallest frequencies into one value and leave the rest intact}@}. The second option {@{reduces the values using a user-specified table mapping current values to new values}@}. <!--SR:!2025-09-08,349,355!2028-02-09,1043,355!2025-07-01,274,335!2027-11-27,888,335-->
 
 ### common parameters
 
-- success probability cutoff ::@:: The minimum percentage of values being the "success" value for a set of values to be considered as "success" overall. The cutoff is `>=`, so the percentage equalling the threshold means the set is considered as "success". <!--SR:!2025-06-20,269,335!2026-12-07,692,335-->
+- success probability cutoff ::@:: The minimum percentage of values being the "success" value for a set of values to be considered as "success" overall. The cutoff is `>=`, so the percentage equalling the threshold means the set is considered as "success". <!--SR:!2027-12-10,901,335!2026-12-07,692,335-->
 
 ### decision tree
 
@@ -55,4 +55,4 @@ The seed option present in various interfaces is {@{simply the random seed to ge
 
 ### rescaling
 
-XLMiner can rescale the dataset {@{in 4 ways}@}: {@{standardization, normalization, adjusted normalization, and unit-norm}@}. The first option {@{replaces the values with their standard scores}@}. <!--SR:!2025-08-26,341,355!2025-06-08,257,335!2027-01-02,710,335-->
+XLMiner can rescale the dataset {@{in 4 ways}@}: {@{standardization, normalization, adjusted normalization, and unit-norm}@}. The first option {@{replaces the values with their standard scores}@}. <!--SR:!2025-08-26,341,355!2028-09-20,1186,355!2027-01-02,710,335-->

@@ -200,7 +200,7 @@ A similar version is the "100 game": {@{Two players start from 0 and alternately
 
 - see ::@:: [Wythoff's game](Wythoff's%20game.md) <!--SR:!2025-12-05,322,341!2025-09-26,250,321-->
 
-In another variation of nim, besides {@{removing any number of objects from a single heap}@}, one is {@{permitted to remove the same number of objects from each heap}@}. <!--SR:!2025-11-21,314,341!2025-06-23,192,321-->
+In another variation of nim, besides {@{removing any number of objects from a single heap}@}, one is {@{permitted to remove the same number of objects from each heap}@}. <!--SR:!2025-11-21,314,341!2027-10-22,851,341-->
 
 ### circular nim
 

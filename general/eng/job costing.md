@@ -25,7 +25,7 @@ Job costing \(known by some as {@{job order costing}@}, {@{a subset of which is 
 
 - (annotation: nature) ::@:: Process costing is used when the products are more homogeneous in nature.<sup>[\[1\]](#^ref-1)</sup> Conversely, job costing systems assign costs to distinct production jobs that are significantly different. An average cost per unit of product is then calculated for each job. <!--SR:!2026-04-24,316,301!2026-04-16,327,341-->
 - (annotation: average costs) ::@:: Process costing systems assign costs to one or more production processes. Because all units are identical or very similar, average costs for each unit of product are calculated by dividing the process costs by the number of units produced. <!--SR:!2025-09-19,165,321!2026-03-22,308,341-->
-- (annotation: costing mix) ::@:: Many businesses produce products with some unique features and some common processes. These businesses use costing systems that have both job and process costing features.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-06-26,99,301!2026-03-21,307,341-->
+- (annotation: costing mix) ::@:: Many businesses produce products with some unique features and some common processes. These businesses use costing systems that have both job and process costing features.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-08-13,413,321!2026-03-21,307,341-->
 
 ## using job costing
 
@@ -42,7 +42,7 @@ These examples will assume that {@{overhead is allocated on the basis of Direct 
 XYZ corporation manufactures airplanes. 1 order was {@{completed \(\#110\)}@}, 2 {@{received further work \(\#111, 112\)}@}, and 1 {@{new order was received \(\#113\)}@}. Overhead is {@{allocated at a rate of \$100/DL Hour}@}. All employees {@{earn \$20/hour}@}. {@{Beginning Work In Process Balances}@} are as follows: \#110, \$25,000; \#111, \$10,000; \#112, \$12,000; \#113 {@{\$0 \(New Order\)}@}. Below are the amounts of DM and DL used. <!--SR:!2026-04-12,323,339!2026-04-23,334,341!2026-03-20,306,341!2026-04-10,321,341!2026-02-02,272,330!2026-03-30,316,341!2026-04-08,319,341-->
 
 - (annotation: completed) \#110 \$2,000 DM, 25 DL hours. ::@:: Therefore, \$5,000 in new cost is added \(\$2,000 DM, \$500 DL, \$2,500 OH\). The job had a total cost of \$30,000. this amount is transferred out of Work in Process to Finished Goods or Cost of Goods Sold. <!--SR:!2026-04-20,331,341!2025-09-20,166,321-->
-- (annotation: WIP) \#111 \$3,000 DM, 30 DL hours. ::@:: Therefore, \$6,600 in new cost is added \(\$3,000 DM, \$600 DL, \$3,000 OH\). The job has a new total cost of \$16,600. This amount remains in Work in Process until completion. <!--SR:!2026-04-09,326,339!2025-06-22,87,281-->
+- (annotation: WIP) \#111 \$3,000 DM, 30 DL hours. ::@:: Therefore, \$6,600 in new cost is added \(\$3,000 DM, \$600 DL, \$3,000 OH\). The job has a new total cost of \$16,600. This amount remains in Work in Process until completion. <!--SR:!2026-04-09,326,339!2026-06-04,347,301-->
 - (annotation: WIP) \#112 \$5,000 DM, 100 DL hours. ::@:: Therefore, \$17,000 in new cost is added \(\$5,000 DM, \$2,000 DL, \$10,000 OH\). The job has a new total cost of \$29,000. This amount remains in Work in Process until completion. <!--SR:!2026-05-04,323,301!2025-12-02,218,321-->
 - (annotation: new) \#113 \$1,000 DM, 10 DL hours. ::@:: Therefore, \$2,200 in new cost is added \(\$1,000 DM, \$200 DL, \$1000 OH\). The job has a new total cost of \$2,200. This amount remains in Work in Process until completion. <!--SR:!2026-03-23,303,341!2025-09-18,164,321-->
 

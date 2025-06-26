@@ -45,7 +45,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2026-03-03,511,310!2028-09-18,1265,350-->
 - [empathize](#empathize) (blue)→::@::←[define](#define) (green) <!--SR:!2027-01-25,650,270!2027-11-25,955,330-->
-- [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2025-06-21,296,270!2025-11-05,352,250-->
+- [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2028-07-05,1110,290!2025-11-05,352,250-->
 - [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2025-07-26,324,290!2027-08-13,863,290-->
 - [prototype](#prototype) (red)→::@::←[test](#test) (brown) <!--SR:!2028-08-04,1159,310!2026-07-23,578,310-->
 - [test](#test) (brown)→::@::←_(end)_ <!--SR:!2028-11-25,1320,350!2027-03-14,770,330-->
@@ -120,7 +120,7 @@ return await memorize_seq(
 - (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2026-03-13,502,310-->
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2025-10-14,174,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2027-11-01,937,330-->
-- (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-06-23,88,130!2026-02-18,349,210-->
+- (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-12-11,170,150!2026-02-18,349,210-->
 - (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-07-29,59,150!2025-10-04,126,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2027-03-15,653,250!2025-10-19,322,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-09-07,99,150!2025-08-07,64,130-->

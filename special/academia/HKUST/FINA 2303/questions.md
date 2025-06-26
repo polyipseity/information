@@ -88,7 +88,7 @@ tags:
 > 3. 1.0868
 > 4. 1.1026
 >
-> - solution: {@{3}@} <!--SR:!2025-06-10,76,270-->
+> - solution: {@{3}@} <!--SR:!2026-04-08,291,290-->
 
 ## week 1 lecture 2
 
@@ -223,7 +223,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2026-05-17,350,362!2025-06-19,85,302-->
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2026-05-17,350,362!2026-06-12,356,322-->
 
 ## week 3 lecture
 
@@ -349,7 +349,7 @@ tags:
 > 2. outstanding balance
 > 3. loan interest
 >
-> - solution: {@{1}@} <!--SR:!2025-06-24,88,369-->
+> - solution: {@{1}@} <!--SR:!2026-09-16,449,389-->
 
 ## week 4 lecture 2
 
@@ -360,7 +360,7 @@ tags:
 > 3. \$1.6 million
 > 4. \$1 million
 >
-> - solution: {@{2}@} <!--SR:!2025-06-20,85,369-->
+> - solution: {@{2}@} <!--SR:!2026-08-27,432,389-->
 
 <!-- markdownlint MD028 -->
 
@@ -383,7 +383,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2025-06-18,83,369!2026-08-06,415,389-->
+> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2026-08-19,424,389!2026-08-06,415,389-->
 
 <!-- markdownlint MD028 -->
 
@@ -392,7 +392,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-25,89,369-->
+> - solution: {@{1}@} <!--SR:!2026-09-19,451,389-->
 
 ## week 5 lecture
 
@@ -622,7 +622,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{4}@} <!--SR:!2025-06-26,69,359-->
+> - solution: {@{4}@} <!--SR:!2026-03-03,250,359-->
 
 ## week 7 lecture
 
@@ -835,7 +835,7 @@ tags:
 > 3. increase
 > 4. insufficient information to determine
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -868,7 +868,7 @@ tags:
 > 2. bond B
 > 3. bond C
 >
-> - solution: {@{3}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{3}@} <!--SR:!2025-07-19,28,418-->
 
 ## week 10 lecture 2
 
@@ -881,7 +881,7 @@ tags:
 > 3. &lt;10%
 > 4. insufficient information
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-17,26,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{2}@} <!--SR:!2025-07-19,28,418-->
 
 ## week 11 lecture
 
@@ -944,7 +944,7 @@ tags:
 > 2. increase
 > 3. remains the same
 >
-> - solution: {@{3}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{3}@} <!--SR:!2025-07-17,26,412-->
 
 ## week 12 lecture
 
@@ -960,7 +960,7 @@ tags:
 > 4. \$5.71
 >
 > - solution: {@{3}@}
-> - explanation: {@{$$2 \cdot 1.3^3 = \$4.394$$}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,392-->
+> - explanation: {@{$$2 \cdot 1.3^3 = \$4.394$$}@} <!--SR:!2025-07-17,26,418!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -974,7 +974,7 @@ tags:
 > 2. increase
 > 3. no change
 >
-> - solution: {@{3}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{3}@} <!--SR:!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1018,7 +1018,7 @@ tags:
 > 2. geometric average annual return
 > 3. realized annual return
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-17,26,412-->
 
 ## week 12 lecture 2
 
@@ -1029,7 +1029,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{1}@} <!--SR:!2025-07-17,26,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1043,7 +1043,7 @@ tags:
 > 4. 200 years
 >
 > - solution: {@{3}@}
-> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than the interval and higher than interval.}@} <!--SR:!2025-06-11,5,392!2025-06-11,5,398-->
+> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than the interval and higher than interval.}@} <!--SR:!2025-07-18,27,412!2025-07-17,26,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1123,7 +1123,7 @@ tags:
 > 2. 5%
 > 3. 10%
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{2}@} <!--SR:!2025-07-19,28,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1141,7 +1141,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-19,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1154,7 +1154,7 @@ tags:
 > 3. systematic risk
 > 4. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{3}@} <!--SR:!2025-07-19,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1165,7 +1165,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-07-15,28,418!2025-06-11,5,392-->
+> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2025-07-15,28,418!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1198,7 +1198,7 @@ tags:
 > 2. systematic risk
 > 3. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{3}@} <!--SR:!2025-07-17,26,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. ρ = 1
 >
 > - solution: {@{3}@}
-> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2025-06-11,5,398!2025-06-11,5,398-->
+> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2025-07-17,26,418!2025-07-19,28,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1227,7 +1227,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{1}@} <!--SR:!2025-07-18,27,418-->
 
 <!-- markdownlint MD028 -->
 
@@ -1239,7 +1239,7 @@ tags:
 > 2. 0
 > 3. 1
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-19,28,412-->
 
 ## week 14 lecture
 
@@ -1287,7 +1287,7 @@ tags:
 > 3. both have the same expected return
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-19,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1304,7 +1304,7 @@ tags:
 > 2. SolarWinds
 >
 > - solution: {@{1}@}
-> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then either Rackspace is underpriced or SolarWinds is overpriced. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@} <!--SR:!2025-06-11,5,392!2025-06-11,5,392-->
+> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then either Rackspace is underpriced or SolarWinds is overpriced. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@} <!--SR:!2025-07-17,26,412!2025-07-17,26,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1370,7 +1370,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{1}@} <!--SR:!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1381,7 +1381,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,392-->
+> - solution: {@{2}@} <!--SR:!2025-07-19,28,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1411,4 +1411,4 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-06-11,5,398-->
+> - solution: {@{2}@} <!--SR:!2025-07-18,27,418-->

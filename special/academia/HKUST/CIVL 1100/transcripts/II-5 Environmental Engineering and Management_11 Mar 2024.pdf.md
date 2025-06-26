@@ -164,7 +164,7 @@ return await memorize_seq(
 
 Today's Kai Tak Development — Cruise Terminal
 
-- the former Kai Tak airport location nowadays ::@:: cruise terminal <!--SR:!2025-06-26,310,330!2027-02-21,767,330-->
+- the former Kai Tak airport location nowadays ::@:: cruise terminal <!--SR:!2029-05-07,1411,350!2027-02-21,767,330-->
 
 ## page 8
 
@@ -190,7 +190,7 @@ Landfills in Hong Kong
 
 Sustainable Waste Management
 
-- sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2025-06-14,257,290!2025-09-19,354,310-->
+- sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2028-04-22,1036,310!2025-09-19,354,310-->
   - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2027-06-05,849,330-->
 
 ## page 12
@@ -242,9 +242,9 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2028-03-09,1079,350!2028-06-02,1142,350-->
-  - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
+  - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2027-07-06,745,270-->
   - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2026-12-26,574,290!2027-10-13,865,290-->
-  - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2026-08-17,562,310-->
+  - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2027-12-19,911,290!2026-08-17,562,310-->
   - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!2026-09-12,641,330-->
   - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2025-12-19,384,290!2028-02-27,1001,310-->
   - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2026-02-07,459,310!2026-04-04,503,310-->
@@ -327,7 +327,7 @@ Air Pollution: A serious problem in Hong Kong?
 
 Air Quality Health Index
 
-- Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2025-06-10,298,330-->
+- Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2029-03-02,1350,350-->
   - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2028-08-23,1204,350-->
   - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2028-02-17,1060,350!2028-01-04,1028,350-->
   - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2027-04-02,750,330-->
@@ -390,9 +390,9 @@ return await memorize_seq(
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2026-10-09,596,310!2027-05-04,807,330-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
-- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2026-02-15,256,230-->
-- methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-06-21,45,150-->
+- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2026-11-26,519,270!2026-02-15,256,230-->
+- methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2026-01-09,395,290-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-09-27,98,170-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2026-06-02,367,310!2027-02-16,688,310-->
 
@@ -417,15 +417,15 @@ Observed climate change in Hong Kong
 
 Concentration Units for Liquids
 
-- concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2025-06-07,242,270!2026-04-06,500,310-->
+- concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2027-12-20,912,290!2026-04-06,500,310-->
   - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2026-07-09,592,330!2026-09-02,573,310-->
-  - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2025-06-21,306,330-->
+  - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2029-04-12,1391,350-->
 
 ## page 34
 
 Relationship between PPM and mg/L
 
-- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::@:: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2025-10-21,344,290!2025-06-08,296,330-->
+- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::@:: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2025-10-21,344,290!2029-03-01,1349,350-->
   - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2027-10-05,929,330!2027-10-07,957,350-->
   - density of water ::@:: about 1 kg/L <!--SR:!2028-12-12,1291,350!2027-04-12,758,330-->
 
@@ -444,7 +444,7 @@ Concentration Units for Gases
 
 - concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2027-07-26,871,330-->
   - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2028-07-24,1174,350!2026-08-08,592,310-->
-  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2025-06-25,111,310-->
+  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2026-06-09,349,310-->
 
 ## page 37
 

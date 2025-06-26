@@ -17,7 +17,7 @@ tags:
 
 ## linear SVM
 
-Any [hyperplane](hyperplane.md) (e.g. {@{any point for 1D, any line for 2D, any plane for 3D}@}) can be written as {@{the set of points $\mathbf{x}$ satisfying $$\mathbf{w}^\intercal \mathbf{x} - b = 0$$}@}. $\mathbf{w}$ is {@{the (not necessarily normalized) [normal vector](normal%20(geometry).md) to the hyperplane. $\frac b {\lVert \mathbf{w} \rVert}$ is the offset of the hyperplane from the origin in the direction of the normal vector $\mathbf{w}$}@}. This is like {@{the [Hesse normal form](Hesse%20normal%20form.md), except that the normal vector $\mathbf{w}$ may not be normalized}@}. <!--SR:!2025-12-11,406,310!2027-06-25,840,330!2025-06-20,240,270!2026-09-04,577,290-->
+Any [hyperplane](hyperplane.md) (e.g. {@{any point for 1D, any line for 2D, any plane for 3D}@}) can be written as {@{the set of points $\mathbf{x}$ satisfying $$\mathbf{w}^\intercal \mathbf{x} - b = 0$$}@}. $\mathbf{w}$ is {@{the (not necessarily normalized) [normal vector](normal%20(geometry).md) to the hyperplane. $\frac b {\lVert \mathbf{w} \rVert}$ is the offset of the hyperplane from the origin in the direction of the normal vector $\mathbf{w}$}@}. This is like {@{the [Hesse normal form](Hesse%20normal%20form.md), except that the normal vector $\mathbf{w}$ may not be normalized}@}. <!--SR:!2025-12-11,406,310!2027-06-25,840,330!2027-12-18,910,290!2026-09-04,577,290-->
 
 ### hard-margin
 

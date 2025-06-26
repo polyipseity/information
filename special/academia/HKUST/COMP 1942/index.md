@@ -157,7 +157,7 @@ The content is in teaching order.
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
-  - split information of an attribute ::@:: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2026-04-21,530,340!2025-06-08,322,360-->
+  - split information of an attribute ::@:: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2026-04-21,530,340!2029-10-29,1591,380-->
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
@@ -353,7 +353,7 @@ The content is in teaching order.
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
-- accuracy ::@:: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2028-09-28,1222,377!2025-06-11,260,357-->
+- accuracy ::@:: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2028-09-28,1222,377!2028-12-15,1273,377-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
 - F-measure ::@:: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2025-10-20,368,377!2025-07-19,313,377-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
@@ -421,11 +421,11 @@ The content is in teaching order.
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
   - [§ normalization](../../../../general/HITS%20algorithm.md#normalization)
-    - HITS algorithm normalization ::@:: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2025-06-13,288,377!2025-10-20,368,377-->
+    - HITS algorithm normalization ::@:: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2029-07-18,1488,397!2025-10-20,368,377-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::@:: Self-links are considered. <!--SR:!2026-10-13,690,408!2026-07-28,627,408-->
-    - PageRank initialization ::@:: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2025-12-17,418,377!2025-06-16,290,377-->
+    - PageRank initialization ::@:: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2025-12-17,418,377!2029-07-25,1495,397-->
     - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2026-03-10,509,408!2026-07-01,612,408-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
@@ -477,7 +477,7 @@ The content is in teaching order.
 - common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2028-11-15,1263,377!2026-02-23,494,397-->
 - other topics
   - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
-  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2025-06-18,293,377-->
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2029-08-11,1512,397-->
   - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2028-11-07,1255,377-->
   - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2025-10-17,386,377-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->

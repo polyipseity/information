@@ -126,7 +126,7 @@ Products and services is {@{simply a list of what you offer}@}, and can also inc
 
 Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!2026-08-09,632,329!2028-07-25,1148,310!2026-04-06,502,310-->
 
-Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2027-07-17,907,349!2026-08-29,658,329!2026-05-21,520,309-->
+Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2029-10-03,1562,369!2027-07-17,907,349!2026-08-29,658,329!2026-05-21,520,309-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 
@@ -210,13 +210,13 @@ find customer patterns
 
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←create a customer profile <!--SR:!2026-07-08,621,329!2025-06-21,335,349-->
+- _(begin)_→::@::←create a customer profile <!--SR:!2026-07-08,621,329!2029-11-17,1607,369-->
 - create a customer profile→::@::←outline the interview <!--SR:!2026-05-08,498,289!2025-12-31,457,309-->
 - outline the interview→::@::←interview <!--SR:!2025-07-15,353,349!2027-04-17,786,329-->
 - interview→::@::←capture new customer profile <!--SR:!2028-06-06,1146,329!2027-03-13,757,329-->
 - capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2026-09-03,559,270!2027-05-19,785,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→::@::←find customer patterns <!--SR:!2025-07-06,279,269!2027-07-03,815,309-->
-- find customer patterns→::@::←_(end)_ <!--SR:!2025-06-26,339,349!2026-11-16,675,329-->
+- find customer patterns→::@::←_(end)_ <!--SR:!2029-12-07,1625,369!2026-11-16,675,329-->
 
 <!--/pytextgen-->
 

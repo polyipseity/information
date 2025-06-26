@@ -81,4 +81,4 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 > 5. orbital motion of the Moon
 >
 > - solution: {@{2 → 4 → 3 → 1 → 5}@}
-> - explanation: {@{Notice that in the hypothetical situation stated in the question, the angular velocity of all circular motions above are equal. So the linear velocity is directly proportional to the radius of the circular motion, i.e. $v \propto r$. This converts the above question into comparing the radii of above circular motions. For choice 3, its radius is given by multiplying Earth's (equatorial) radius by $\cos 22\degree$.}@} <!--SR:!2025-06-18,182,270!2026-12-13,567,310-->
+> - explanation: {@{Notice that in the hypothetical situation stated in the question, the angular velocity of all circular motions above are equal. So the linear velocity is directly proportional to the radius of the circular motion, i.e. $v \propto r$. This converts the above question into comparing the radii of above circular motions. For choice 3, its radius is given by multiplying Earth's (equatorial) radius by $\cos 22\degree$.}@} <!--SR:!2027-05-08,686,290!2026-12-13,567,310-->

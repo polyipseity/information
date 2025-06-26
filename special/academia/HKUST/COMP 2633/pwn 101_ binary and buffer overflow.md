@@ -68,13 +68,13 @@ A related instruction is {@{`lea`}@}: <!--SR:!2025-10-01,288,330-->
 
 - `lea <dest>, <src>` ::@:: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.) <!--SR:!2025-08-20,256,330!2025-08-18,254,330-->
 
-Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2027-03-02,679,330!2025-06-21,208,330!2025-08-24,260,330!2025-10-13,293,330-->
+Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2027-03-02,679,330!2028-01-24,946,350!2025-08-24,260,330!2025-10-13,293,330-->
 
 ## calling convention
 
 The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2025-08-25,261,330!2027-06-29,764,330!2027-07-08,763,330!2025-08-30,263,330!2025-09-13,274,330-->
 
-There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2025-10-17,297,330!2025-06-17,204,330!2025-08-15,251,330!2025-06-25,211,330!2025-07-23,234,330-->
+There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2025-10-17,297,330!2028-01-06,928,350!2025-08-15,251,330!2028-02-11,961,350!2025-07-23,234,330-->
 
 ### System V AMD64 ABI
 
@@ -103,7 +103,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `set args <args>...` ::@:: set program args <!--SR:!2025-09-20,281,330!2027-08-25,811,330-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-06,293,330!2025-10-16,296,330-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2025-06-27,212,330!2025-10-12,292,330-->
-- `break <where>` ::@:: set a breakpoint <!--SR:!2025-10-08,288,330!2025-06-26,211,330-->
+- `break <where>` ::@:: set a breakpoint <!--SR:!2025-10-08,288,330!2028-02-11,960,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-10-10,290,330!2025-06-28,213,330-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2025-08-22,257,330!2025-10-07,294,330-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2025-10-13,293,330-->
@@ -117,7 +117,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2025-07-23,234,330-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2025-08-26,262,330!2025-07-26,235,330-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2025-08-06,244,330-->
-- `rc` ::@:: reverse continue <!--SR:!2025-06-22,208,330!2025-07-26,235,330-->
+- `rc` ::@:: reverse continue <!--SR:!2028-01-23,945,350!2025-07-26,235,330-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-09-22,282,330!2025-07-06,220,330-->
 
 Let's also learn some basic `pwndbg` commands:
@@ -132,7 +132,7 @@ Commands names can be {@{truncated at the end to produce an abbreviation if the 
 
 ## buffer overflow
 
-A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2025-10-11,291,330!2027-09-11,828,330!2025-06-23,198,310!2026-03-17,377,310!2027-05-04,727,330!2025-07-05,219,330-->
+A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2025-10-11,291,330!2027-09-11,828,330!2027-10-20,849,330!2026-03-17,377,310!2027-05-04,727,330!2025-07-05,219,330-->
 
 The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2025-09-08,271,330!2027-06-11,746,330-->
 
@@ -151,7 +151,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2025-06-22,191,310!2025-08-02,242,330!2027-03-14,694,330!2027-08-18,804,330!2025-10-05,292,330-->
+The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2027-09-19,819,330!2025-08-02,242,330!2027-03-14,694,330!2027-08-18,804,330!2025-10-05,292,330-->
 
 ```C
 char buffer[4];
@@ -167,7 +167,7 @@ Once you have found code that is vulnerable to buffer overflows, {@{identify wha
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2025-10-10,297,330!2025-10-11,298,330-->
 
-`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2025-08-05,245,330!2025-08-22,258,330!2027-09-27,833,330!2025-08-27,263,330!2027-05-07,711,330!2025-10-08,288,330!2025-06-23,205,310-->
+`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2025-08-05,245,330!2025-08-22,258,330!2027-09-27,833,330!2025-08-27,263,330!2027-05-07,711,330!2025-10-08,288,330!2027-11-23,883,330-->
 
 Using `gdb`, we can {@{find the address of a buffer (to find the addresses of the old `rbp` and old `rsp` in the stack) or a function (to find targets to jump to)}@}. To find the address of a local buffer in a function, we can use {@{`disassemble <address|function>` to disassemble a function and figure out the offset of a local buffer from the `rbp`}@}. (A quick note: The declaration order of local variables in C {@{do not necessarily correspond to their positions on the stack}@}.) To {@{find the address of a function}@}, use {@{the `info address <symbol>` command and replace `<symbol>` with the function name}@}. <!--SR:!2027-04-15,708,330!2025-07-20,208,310!2027-06-02,737,330!2027-05-29,733,330!2025-09-07,270,330-->
 
@@ -209,7 +209,7 @@ pwndbg> checksec
 
 The best way to avoid buffer overflows being exploited is {@{simply not have buffer overflows in the first place}@}. <!--SR:!2026-10-31,583,330-->
 
-Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2025-06-23,209,330!2026-01-18,344,290!2025-08-01,241,330!2027-08-19,805,330-->
+Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2028-01-29,950,350!2026-01-18,344,290!2025-08-01,241,330!2027-08-19,805,330-->
 
 ```C
 int buffer[4];
@@ -220,7 +220,7 @@ gets_s(buffer, 5); // Vulnerable to buffer overflow, but you can only overflow b
 
 ### stack canaries
 
-In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2025-10-02,289,330!2025-10-13,293,330!2025-06-24,210,330!2027-04-28,721,330-->
+In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2025-10-02,289,330!2025-10-13,293,330!2028-02-08,959,350!2027-04-28,721,330-->
 
 In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function, printing an error and terminating the program if modified}@}. This inhibits {@{exploitation of buffer overflow because overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2025-08-24,259,330!2025-10-10,290,330!2025-10-07,287,330-->
 

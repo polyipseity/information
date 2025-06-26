@@ -17,7 +17,7 @@ The current ratio is an indication of {@{a firm's [accounting liquidity](account
 
 {@{A current ratio of less than 1}@} indicates that {@{the company may have problems meeting its short-term obligations}@}.<sup>[\[3\]](#^ref-3)</sup> However, if {@{inventory turns into cash much more rapidly than the accounts payable become due}@}, then {@{the firm's current ratio can comfortably remain less than one}@}.<sup>[\[4\]](#^ref-4)</sup> Low current ratios can also be {@{justified for businesses that can collect cash from customers long before they need to pay their suppliers}@}. <!--SR:!2025-08-23,259,330!2025-07-06,205,310!2027-05-01,724,330!2025-08-05,245,330!2027-06-26,756,330-->
 
-To {@{determine liquidity}@}, {@{the [quick ratio](quick%20ratio.md)}@} is also used, which {@{excludes current assets that may not be easily liquidated, like prepaid expenses and inventory}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-09-24,284,330!2025-07-24,235,330!2025-06-22,194,310-->
+To {@{determine liquidity}@}, {@{the [quick ratio](quick%20ratio.md)}@} is also used, which {@{excludes current assets that may not be easily liquidated, like prepaid expenses and inventory}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-09-24,284,330!2025-07-24,235,330!2027-10-02,832,330-->
 
 ## see also
 

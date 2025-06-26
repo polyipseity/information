@@ -29,7 +29,7 @@ tags:
 
 {@{The model is initially fit}@} on a __training data set__, which is {@{a set of samples to adjust the model parameters (e.g. weights between [neurons](artificial%20neuron.md) in [neural networks](neural%20network%20(machine%20learning).md))}@}. <!--SR:!2026-11-17,675,330!2026-06-27,545,310-->
 
-Subsequently, {@{the fitted model is used to predict samples}@} in a second data set called the __validation data set__. The validation data set provides {@{an unbiased evaluation of a model fit on the training data set}@}, so that {@{[hyperparameters](hyperparameter%20(machine%20learning).md) (e.g. number of layers and layer widths in [neural networks](neural%20network%20(machine%20learning).md)) can be tuned}@}. <!--SR:!2025-06-22,285,330!2025-12-27,415,310!2026-01-13,383,290-->
+Subsequently, {@{the fitted model is used to predict samples}@} in a second data set called the __validation data set__. The validation data set provides {@{an unbiased evaluation of a model fit on the training data set}@}, so that {@{[hyperparameters](hyperparameter%20(machine%20learning).md) (e.g. number of layers and layer widths in [neural networks](neural%20network%20(machine%20learning).md)) can be tuned}@}. <!--SR:!2029-01-09,1297,350!2025-12-27,415,310!2026-01-13,383,290-->
 
 Finally, the __test data set__ is {@{a data set used to provide an unbiased evaluation of the _final_ model fit on the training data set}@}. <!--SR:!2026-05-05,511,310-->
 

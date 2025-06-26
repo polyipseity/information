@@ -30,7 +30,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 - bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2028-01-04,947,314!2025-08-31,367,380-->
 - description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2029-07-06,1496,395-->
 - image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2028-11-30,1310,380!2025-10-26,436,400-->
-- length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2025-06-20,319,372-->
+- length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2028-09-24,1187,372-->
 
 ## Beijing National Stadium
 
@@ -145,7 +145,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::@:: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2025-06-24,271,316!2026-11-17,746,416-->
+- component ::@:: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2028-09-21,1184,336!2026-11-17,746,416-->
 - construction period ::@:: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2027-01-29,708,356!2026-08-21,628,396-->
 - geographic locations ::@:: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2027-02-10,717,356!2025-12-27,436,376-->
 - length ::@:: 21196.18 km <!--SR:!2025-10-02,240,256!2026-06-17,579,396-->
@@ -155,7 +155,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
-- height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2029-08-17,1563,370-->
+- height ::@:: roof: 178.8 m <!--SR:!2025-09-10,77,201!2029-08-17,1563,370-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2029-11-13,1622,400!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
 
@@ -181,7 +181,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::@:: concrete gravity-arch <!--SR:!2025-06-30,300,320!2025-12-26,497,395-->
-- height ::@:: 221.4 m <!--SR:!2025-06-23,266,281!2027-08-25,909,367-->
+- height ::@:: 221.4 m <!--SR:!2027-07-12,747,281!2027-08-25,909,367-->
 - image ::@:: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2025-08-26,379,380!2025-09-03,368,380-->
 - length ::@:: 379 m <!--SR:!2025-08-23,190,201!2027-07-01,870,370-->
 
@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2025-11-28,471,390-->
 - height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2026-03-19,421,301!2027-12-02,1051,350-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2028-05-09,1149,380!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2025-06-14,164,261!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->::@:: concrete–steel composite <!--SR:!2027-02-14,599,281!2026-02-24,538,401-->
 
 ## Itaipu Dam
 
@@ -219,7 +219,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::@:: cable-stayed road bridge <!--SR:!2026-07-26,642,396!2026-09-13,690,416-->
-- designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2025-06-16,291,376!2027-01-26,801,416-->
+- designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2029-07-29,1495,396!2027-01-26,801,416-->
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2026-01-25,346,296!2026-12-05,758,416-->
   - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
@@ -233,7 +233,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
 - access tunnel lengths ::@:: up to 4 km <!--SR:!2025-08-27,372,377!2028-11-19,1338,385-->
-- length ::@:: 57.5 km <!--SR:!2025-10-06,221,297!2025-06-26,324,374-->
+- length ::@:: 57.5 km <!--SR:!2025-10-06,221,297!2030-01-13,1662,394-->
 
 ## Netherlands North Sea Protection Works
 
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2025-06-20,151,196!2026-08-22,629,396-->
+- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2026-08-23,424,216!2026-08-22,629,396-->
 - dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2026-03-19,483,356!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!2026-08-20,672,416-->
@@ -264,7 +264,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type <!-- flashcard ID: ca1fa4c4-b487-40a0-9948-a808866a25eb -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2029-06-02,1487,400-->
-- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-06-25,78,180!2027-10-27,958,370-->
+- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2026-01-19,208,200!2027-10-27,958,370-->
 
 ## Sutong Yangtze River Bridge
 
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2026-02-21,535,400-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-06-10,57,130!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-09-08,75,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2025-08-01,343,380-->
 
@@ -306,14 +306,14 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
-- core part ::@:: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2026-01-31,469,327!2025-06-23,321,370-->
+- core part ::@:: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2026-01-31,469,327!2029-12-08,1627,390-->
 - length ::@:: 271 km <!--SR:!2025-08-27,272,297!2026-01-30,525,397-->
 
 ## Two Prudential Plaza
 
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
-- description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
+- description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2028-12-28,1282,340!2025-08-31,399,385-->
 - height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2025-12-20,488,384-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2025-07-04,205,320-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->

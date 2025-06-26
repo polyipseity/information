@@ -148,7 +148,7 @@ tags:
 > 3. statement of cash flow
 >
 > - solution: {@{3}@}
-> - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@} <!--SR:!2025-07-31,238,330!2025-06-23,210,330-->
+> - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@} <!--SR:!2025-07-31,238,330!2028-02-09,960,350-->
 
 <!-- markdownlint MD028 -->
 

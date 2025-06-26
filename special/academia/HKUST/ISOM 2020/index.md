@@ -23,7 +23,7 @@ tags:
 
 The content is in teaching order.
 
-- general recommendations ::@:: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2025-06-19,218,329!2027-09-18,839,349-->
+- general recommendations ::@:: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2028-03-05,987,349!2027-09-18,839,349-->
 - course logistics
   - pathway: ISOM 2020 → ISOM 2600
   - duration: 7 weeks, for the first half of the semester
@@ -44,7 +44,7 @@ The content is in teaching order.
     - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::@:: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2025-07-24,250,338!2027-02-28,682,330-->
   - [§ mathematics](basics.md#mathematics)
   - [§ string](basics.md#string)
-    - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2025-06-22,222,332!2026-12-08,628,330-->
+    - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2028-04-03,1016,352!2026-12-08,628,330-->
   - [§ output](basics.md#output)
     - [basics § output](basics.md#output) / note ::@:: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2026-12-14,629,343!2025-06-27,214,343-->
   - [§ variable](basics.md#variable)
