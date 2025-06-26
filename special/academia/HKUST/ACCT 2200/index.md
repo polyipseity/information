@@ -877,8 +877,8 @@ The content is in teaching order.
   - time limit ::@:: Again, the time limit was tight. This is to be expected for this course... Some questions requires you to do the work of an spreadsheet.
   - question 3: decentralized performance evaluation \(−8\) ::@:: Given a scenario and a balanced scoreboard, describe and discuss improvements. Also use residual income approach and return on investment approach.
     - evaluating balance scorecard \(−4\) ::@:: The 3 sub-questions add up to 20 points. Honestly, it is rather hard to know what they want... The best would be to write as much as you can think of. So it was fine in this case.
-    - residual income approach \(−2\) ::@:: They need you to calculate the residual income of the \(incremental\) project only as well.
-    - return on investment approach \(−2\) ::@:: They need you to calculate the return on investment \(ROI\) of the \(incremental\) project only as well.
+    - residual income approach \(−2\) ::@:: They need you to calculate the residual income of the \(incremental\) project only as well; that is, you need to calculate the original residual income, the project only residual income, and the new residual income.
+    - return on investment approach \(−2\) ::@:: They need you to calculate the return on investment \(ROI\) of the \(incremental\) project only as well; that is, you need to calculate the project only ROI and the new ROI \(the original ROI is also calculated but carries no marks\).
   - question 4: capital budgeting \(−9\) ::@:: Given three paragraphs of text, use net present value \(NPV\) to decide if a project is worth it.
     - delayed tax savings \(−3\) ::@:: It turns out they define tax savings as tax savings due to depreciation only \(and potentially loss from sale on assets, but not sure\), not tax savings due to negative operating income. Also, operating expenses are excluded.
     - final answer \(−2\) ::@:: Hard to obtain, since it requires you to do the work of a spreadsheet software. Honestly they could have deducted more, from their marking scheme.

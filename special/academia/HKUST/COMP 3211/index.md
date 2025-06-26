@@ -927,7 +927,7 @@ The content is in teaching order.
   - expert system / basic architecture ::@:: A knowledge engineer constructs the knowledge base and inference engine. <p> An expert uses a knowledge acquisition system to manage the knowledge base. <p> An user interacts with the knowledge base and the inference engine via an explanation subsystem with an user interface.
 - [Horn clause](../../../../general/Horn%20clause.md) ::@:: In mathematical logic and logic programming, a \(_this_\) is a logical formula of a particular rule-like form that gives it useful properties for use in logic programming, formal specification, universal algebra and model theory.
   - Horn clause / definition ::@:: A Horn clause is a disjunctive clause \(a disjunction of literals\) with at most one positive, i.e. unnegated, literal.
-  - Horn clause / implication form ::@:: A Horn clause can be converted into an implication.
+  - Horn clause / implication form ::@:: A Horn clause can be converted into an implication with at most one literal in its conclusion.
 - [rule induction](../../../../general/rule%20induction.md) ::@:: \(_this_\) is an area of machine learning in which formal rules are extracted from a set of observations. The rules extracted may represent a full scientific model of the data, or merely represent local patterns in the data.
   - rule induction / motivation ::@:: It takes a lot of effort to collect rules. So why not try acquiring the rules automagically? <p> An algorithm for this is the _generic separate-and-conquer algorithm_ \(GSCA\).
 - generic separate-and-conquer algorithm \(GSCA\) ::@:: It is a simple divide-and-conquer algorithm for finding rules or Horn clauses from a dataset.
