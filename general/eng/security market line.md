@@ -23,10 +23,10 @@ tags:
 
 where:
 
-&emsp; _E_\(_R_<sub>_i_</sub>\) ::@:: is an expected return on security
-&emsp; _E_\(_R_<sub>_M_</sub>\) ::@:: is an expected return on market portfolio _M_
-&emsp; _β_ ::@:: is a nondiversifiable or systematic risk
-&emsp; _R_<sub>_M_</sub> ::@:: is a market rate of return
+&emsp; _E_\(_R_<sub>_i_</sub>\) ::@:: is an expected return on security <br/>
+&emsp; _E_\(_R_<sub>_M_</sub>\) ::@:: is an expected return on market portfolio _M_ <br/>
+&emsp; _β_ ::@:: is a nondiversifiable or systematic risk <br/>
+&emsp; _R_<sub>_M_</sub> ::@:: is a market rate of return <br/>
 &emsp; _R_<sub>_f_</sub> ::@:: is a risk-free rate
 
 When used in {@{[portfolio management](investment%20management.md)}@}, the SML represents {@{the investment's [opportunity cost](opportunity%20cost.md)}@} \(investing in {@{a combination of the market portfolio and the risk-free asset}@}\). {@{All the correctly priced securities}@} are {@{plotted on the SML}@}. {@{The assets above the line}@} are {@{undervalued because for a given amount of risk \(beta\), they yield a higher return}@}. {@{The assets below the line}@} are {@{overvalued because for a given amount of risk, they yield a lower return}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{a market in perfect equilibrium}@}, {@{all securities would fall on the SML}@}.
