@@ -154,7 +154,7 @@ return (
 > sulfates
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}@} <!--SR:!2025-06-27,797,261!2026-04-12,400,210-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}@} <!--SR:!2033-06-15,2910,281!2026-04-12,400,210-->
 
 <!-- markdownlint MD028 -->
 
@@ -367,7 +367,7 @@ return await memorize_map(
 - [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-07-20,149,238-->
 - [copper(II) sulfate](copper(II)%20sulfate.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-04-21,1096,298-->
 - [copper(II) sulfide](copper(II)%20sulfide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-07-28,777,258-->
-- [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-06-27,178,198-->
+- [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-06-16,354,198-->
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-08-21,79,150-->
 - [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-09-08,74,130-->

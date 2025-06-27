@@ -13,7 +13,7 @@ tags:
 
 - Not to be confused with {@{[inductive reasoning](inductive%20reasoning.md)}@}. <!--SR:!2025-09-17,263,330-->
 
-__Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md) that a statement $P(n)$ is true for every [natural number](natural%20number.md) $n$}@}, that is, that {@{the infinitely many cases $P(0),P(1),P(2),P(3),\dots$ all hold}@}. This is done by {@{first proving a simple case, then also showing that if we assume the claim is true for a given case, then the next case is also true}@}. Informal metaphors help to explain this technique, such as {@{falling dominoes or climbing a ladder}@}: <!--SR:!2025-06-27,183,310!2025-09-13,259,330!2027-02-17,652,330!2025-08-27,244,330-->
+__Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md) that a statement $P(n)$ is true for every [natural number](natural%20number.md) $n$}@}, that is, that {@{the infinitely many cases $P(0),P(1),P(2),P(3),\dots$ all hold}@}. This is done by {@{first proving a simple case, then also showing that if we assume the claim is true for a given case, then the next case is also true}@}. Informal metaphors help to explain this technique, such as {@{falling dominoes or climbing a ladder}@}: <!--SR:!2027-01-16,568,310!2025-09-13,259,330!2027-02-17,652,330!2025-08-27,244,330-->
 
 > Mathematical induction proves that {@{we can climb as high as we like on a ladder}@}, by proving that {@{we can climb onto the bottom rung (the __basis__) and that from each rung we can climb up to the next one (the __step__)}@}.
 >
@@ -225,7 +225,7 @@ In {@{__[first-order](first-order%20logic.md) [ZFC set theory](Zermelo–Fraenke
 
 - see: [transfinite induction](transfinite%20induction.md)
 
-One variation of the principle of complete induction can be {@{generalized for statements about elements of any [well-founded set](well-founded%20relation.md)}@}, that is, {@{a set with an [irreflexive relation](reflexive%20relation.md) < that contains no [infinite descending chains](total%20order.md#chains)}@}. {@{Every set representing an [ordinal number](ordinal%20number.md)}@} is well-founded, {@{the set of natural numbers}@} is one of them. <!--SR:!2027-08-20,795,330!2025-06-27,183,310!2027-03-08,669,330!2025-08-28,245,330-->
+One variation of the principle of complete induction can be {@{generalized for statements about elements of any [well-founded set](well-founded%20relation.md)}@}, that is, {@{a set with an [irreflexive relation](reflexive%20relation.md) < that contains no [infinite descending chains](total%20order.md#chains)}@}. {@{Every set representing an [ordinal number](ordinal%20number.md)}@} is well-founded, {@{the set of natural numbers}@} is one of them. <!--SR:!2027-08-20,795,330!2027-01-17,569,310!2027-03-08,669,330!2025-08-28,245,330-->
 
 Applied to {@{a well-founded set}@}, transfinite induction can be {@{formulated as a single step}@}. To prove that a statement _P_(_n_) holds for each ordinal number: <p> {@{Show, for each ordinal number _n_, that if _P_(_m_) holds for all _m_ < _n_, then _P_(_n_) also holds.}@} <!--SR:!2025-09-05,253,330!2025-09-07,255,330!2027-07-27,765,330-->
 

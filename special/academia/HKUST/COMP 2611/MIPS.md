@@ -239,7 +239,7 @@ The register fields are encoded {@{by the named registers' corresponding number 
 
 For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. For {@{instructions without operands \(e.g. `syscall`\)}@}, {@{they are in R format}@}. <!--SR:!2026-02-18,259,352!2025-07-01,83,352!2025-06-30,82,352!2025-06-28,81,352!2025-07-03,85,352!2025-09-18,122,392!2025-09-18,122,392-->
 
-Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2026-05-26,336,355!2026-01-24,237,335!2025-06-27,80,352-->
+Notice that {@{some fields are unused}@}. Sometimes, {@{they can be any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2026-05-26,336,355!2026-01-24,237,335!2026-07-25,393,372-->
 
 ## calling conventions
 

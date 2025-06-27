@@ -35,7 +35,7 @@ The content is in teaching order.
 - clustering ::@:: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2027-02-01,818,330!2028-08-19,1288,350-->
 - classification ::@:: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2025-11-06,462,310!2028-09-08,1300,350-->
 - data warehouse ::@:: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2026-11-20,771,330!2026-07-09,660,330-->
-- dimension reduction ::@:: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2025-06-27,333,290!2027-03-19,853,330-->
+- dimension reduction ::@:: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2029-02-28,1342,310!2027-03-19,853,330-->
 - web database ::@:: Using data from the web, e.g. ranking webpages. <!--SR:!2027-08-13,919,330!2028-11-03,1344,350-->
 - [delimiter](../../../../general/delimiter.md) definition ::@:: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2028-06-01,1225,350!2028-04-13,1186,350-->
 
@@ -485,7 +485,7 @@ The content is in teaching order.
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2026-01-09,458,397!2025-09-09,336,377-->
   - graph data ::@:: How to analyze graphs? <!--SR:!2026-01-29,478,397!2026-02-09,487,397-->
   - decision making
-  - data streams ::@:: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2026-05-02,556,397!2025-06-27,298,377-->
+  - data streams ::@:: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2026-05-02,556,397!2029-09-12,1538,397-->
   - chatbot
   - picture description
   - generative AI

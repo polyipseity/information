@@ -22,7 +22,7 @@ The model uses ideas such as:
 - [apparent retrograde motion](apparent%20retrograde%20motion.md) ::@:: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2027-10-01,882,341!2028-10-24,1224,361-->
 - [stars](star.md) ::@:: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2027-01-01,678,341!2025-11-16,380,361-->
 
-The model has several advantages: {@{simpler and more elegant}@}, and naturally explains several phenomenons: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is not without disadvantages: {@{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}@}, and {@{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}@}. <!--SR:!2025-12-08,401,361!2028-10-03,1200,361!2025-06-27,269,341!2025-12-08,401,361-->
+The model has several advantages: {@{simpler and more elegant}@}, and naturally explains several phenomenons: {@{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}@}. But it is not without disadvantages: {@{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}@}, and {@{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}@}. <!--SR:!2025-12-08,401,361!2028-10-03,1200,361!2028-12-09,1261,361!2025-12-08,401,361-->
 
 ## Copernican theory
 
@@ -65,7 +65,7 @@ return await memorize_seq(
 - [Mercury](Mercury%20(planet).md)→::@::←[Venus](Venus.md) <!--SR:!2025-08-25,174,270!2026-01-14,377,290-->
 - [Venus](Venus.md)→::@::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2025-11-29,346,290!2026-05-18,504,310-->
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→::@::←[Mars](Mars.md) <!--SR:!2027-06-27,824,330!2025-09-27,323,290-->
-- [Mars](Mars.md)→::@::←[Jupiter](Jupiter.md) <!--SR:!2025-06-27,278,330!2026-02-22,440,310-->
+- [Mars](Mars.md)→::@::←[Jupiter](Jupiter.md) <!--SR:!2028-01-01,918,330!2026-02-22,440,310-->
 - [Jupiter](Jupiter.md)→::@::←[Saturn](Saturn.md) <!--SR:!2026-10-07,635,330!2027-11-03,874,330-->
 - [Saturn](Saturn.md)→::@::←[fixed stars](fixed%20stars.md) <!--SR:!2028-11-17,1245,350!2025-07-17,295,330-->
 - [fixed stars](fixed%20stars.md)→::@::←_(end)_ <!--SR:!2028-04-03,1069,350!2027-05-06,747,330-->

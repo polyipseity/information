@@ -91,7 +91,7 @@ The content is in teaching order.
   - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2029-11-17,1636,370!2025-11-16,461,395-->
-    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2026-01-19,459,332-->
+    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2028-01-21,938,320!2026-01-19,459,332-->
 - construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)

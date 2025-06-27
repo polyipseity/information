@@ -589,7 +589,7 @@ tags:
 > 2. No
 > 3. Cannot be determined
 >
-> - solution: {@{2}@} <!--SR:!2025-06-27,76,379-->
+> - solution: {@{2}@} <!--SR:!2026-08-01,400,399-->
 
 <!-- markdownlint MD028 -->
 

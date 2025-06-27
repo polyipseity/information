@@ -10,7 +10,7 @@ tags:
 
 - see: [general/Python](../../general/Python%20(programming%20language).md)
 
-[Python](../../general/Python%20(programming%20language).md) is {@{a programming language}@}. Have you tried {@{searching for documentation and reading them}@}? <!--SR:!2025-06-27,247,330!2025-08-10,283,330-->
+[Python](../../general/Python%20(programming%20language).md) is {@{a programming language}@}. Have you tried {@{searching for documentation and reading them}@}? <!--SR:!2028-07-25,1124,350!2025-08-10,283,330-->
 
 ## numpy
 
@@ -18,7 +18,7 @@ tags:
 
 ### useful functions
 
-- DFT matrix ::@:: [`numpy.matmul`](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html), [`numpy.meshgrid`](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html) <!--SR:!2025-06-27,234,340!2028-02-19,992,360-->
+- DFT matrix ::@:: [`numpy.matmul`](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html), [`numpy.meshgrid`](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html) <!--SR:!2028-07-01,1100,360!2028-02-19,992,360-->
 - general ::@:: [`numpy.arange`](https://numpy.org/doc/stable/reference/generated/numpy.arange.html), [`numpy.cos`](https://numpy.org/doc/stable/reference/generated/numpy.cos.html) <!--SR:!2026-12-01,643,339!2025-07-13,260,339-->
 - spectrum ::@:: [`numpy.absolute`](https://numpy.org/doc/stable/reference/generated/numpy.absolute.html), [`numpy.angle`](https://numpy.org/doc/stable/reference/generated/numpy.angle.html) <!--SR:!2028-06-05,1076,360!2025-12-18,376,360-->
 - window ::@:: [`numpy.hamming`](https://numpy.org/doc/stable/reference/generated/numpy.hamming.html) <!--SR:!2026-10-23,592,319!2025-09-13,307,339-->

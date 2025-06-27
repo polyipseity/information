@@ -9,7 +9,7 @@ tags:
 
 # liability
 
-In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2025-06-27,213,330!2026-04-10,398,310!2025-07-11,224,330-->
+In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2028-02-25,973,350!2026-04-10,398,310!2025-07-11,224,330-->
 
 ## characteristics
 
@@ -51,7 +51,7 @@ When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@
 
 ## debits and credits
 
-A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2025-08-11,250,330!2025-06-27,208,310!2027-09-22,832,330!2025-08-31,264,330-->
+A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2025-08-11,250,330!2027-12-01,887,330!2027-09-22,832,330!2025-08-31,264,330-->
 
 When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2027-05-31,739,330!2027-08-24,812,330!2027-03-03,679,330-->
 

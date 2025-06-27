@@ -72,7 +72,7 @@ If {@{the cash flow stream is assumed to continue indefinitely}@}, {@{the finite
 
 ### continuous cash flows
 
-For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2026-03-31,329,349!2025-12-25,251,330!2026-02-03,260,290!2025-06-27,104,290-->
+For {@{continuous cash flows}@}, {@{the summation in the above formula is replaced by an integration}@}: {@{$$DPV=\int _{0}^{T}FV(t)\,e^{-\lambda t}dt=\int _{0}^{T}{\frac {FV(t)}{(1+r)^{t} } }\,dt\,,$$}@} where {@{$FV(t)$ is now the _rate_ of cash flow, and $\lambda =\ln(1+r)$}@}. <!--SR:!2026-03-31,329,349!2025-12-25,251,330!2026-02-03,260,290!2026-08-20,419,310-->
 
 ## discount rate
 

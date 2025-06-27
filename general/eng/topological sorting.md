@@ -105,7 +105,7 @@ One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, work
 
 If {@{the graph is a [DAG](directed%20acyclic%20graph.md)}@}, {@{a solution will be contained in the list L \(although the solution is not necessarily unique\)}@}. Otherwise, {@{the graph must have at least one cycle and therefore a topological sort is impossible}@}. <!--SR:!2026-06-21,457,379!2026-04-05,393,371!2025-07-26,178,319-->
 
-Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S can be simply a set or a queue or a stack}@}. Depending on {@{the order that nodes n are removed from set S}@}, {@{a different solution is created}@}. {@{A variation of Kahn's algorithm that breaks ties [lexicographically](lexicographic%20order.md)}@} forms {@{a key component of the [Coffman–Graham algorithm](Coffman–Graham%20algorithm.md) for parallel scheduling and [layered graph drawing](layered%20graph%20drawing.md)}@}. <!--SR:!2026-01-17,327,358!2026-05-20,431,379!2025-12-05,289,339!2025-12-10,293,339!2025-06-27,146,314!2026-09-02,466,318-->
+Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S can be simply a set or a queue or a stack}@}. Depending on {@{the order that nodes n are removed from set S}@}, {@{a different solution is created}@}. {@{A variation of Kahn's algorithm that breaks ties [lexicographically](lexicographic%20order.md)}@} forms {@{a key component of the [Coffman–Graham algorithm](Coffman–Graham%20algorithm.md) for parallel scheduling and [layered graph drawing](layered%20graph%20drawing.md)}@}. <!--SR:!2026-01-17,327,358!2026-05-20,431,379!2025-12-05,289,339!2025-12-10,293,339!2027-03-21,632,334!2026-09-02,466,318-->
 
 ### depth-first search
 

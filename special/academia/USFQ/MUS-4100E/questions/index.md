@@ -148,7 +148,7 @@ tags:
 > 5. John Coltrane
 >
 > - solution: {@{5}@}
-> - explanation: {@{He was not part of the movement, but he was influenced by it.}@} <!--SR:!2025-06-27,74,340!2026-05-31,340,360-->
+> - explanation: {@{He was not part of the movement, but he was influenced by it.}@} <!--SR:!2026-06-14,352,360!2026-05-31,340,360-->
 
 <!-- markdownlint MD028 -->
 

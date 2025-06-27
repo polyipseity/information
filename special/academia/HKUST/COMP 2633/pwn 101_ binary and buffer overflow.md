@@ -102,7 +102,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-08-19,255,330!2027-04-04,704,330-->
 - `set args <args>...` ::@:: set program args <!--SR:!2025-09-20,281,330!2027-08-25,811,330-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-06,293,330!2025-10-16,296,330-->
-- `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2025-06-27,212,330!2025-10-12,292,330-->
+- `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-17,965,350!2025-10-12,292,330-->
 - `break <where>` ::@:: set a breakpoint <!--SR:!2025-10-08,288,330!2028-02-11,960,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-10-10,290,330!2025-06-28,213,330-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2025-08-22,257,330!2025-10-07,294,330-->

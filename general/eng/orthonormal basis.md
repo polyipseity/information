@@ -39,7 +39,7 @@ If {@{$B$ is an orthonormal basis of $H$}@}, then {@{$H$ is _isomorphic_ to $\el
 
 ## orthonormal system
 
-{@{A set $S$ of mutually orthonormal vectors in a Hilbert space $H$}@} is called {@{an orthonormal system}@}. {@{An orthonormal basis}@} is {@{an orthonormal system with the additional property that the linear span of $S$ is dense in $H$}@}.<sup>[\[6\]](#^ref-6)</sup> Alternatively, the set $S$ can be regarded as {@{either _complete_ or _incomplete_ with respect to $H$}@}. That is, we can {@{take the smallest closed linear subspace $V\subseteq H$ containing $S$}@}. Then {@{$S$ will be an orthonormal basis of $V$}@}; which may {@{of course be smaller than $H$ itself, being an _incomplete_ orthonormal set}@}, or {@{be $H$, when it is a _complete_ orthonormal set}@}. <!--SR:!2025-12-07,222,324!2026-04-24,337,344!2026-04-18,331,344!2025-06-27,91,284!2025-12-07,222,324!2026-04-19,332,344!2025-09-28,157,304!2025-12-08,223,324!2026-04-09,329,344-->
+{@{A set $S$ of mutually orthonormal vectors in a Hilbert space $H$}@} is called {@{an orthonormal system}@}. {@{An orthonormal basis}@} is {@{an orthonormal system with the additional property that the linear span of $S$ is dense in $H$}@}.<sup>[\[6\]](#^ref-6)</sup> Alternatively, the set $S$ can be regarded as {@{either _complete_ or _incomplete_ with respect to $H$}@}. That is, we can {@{take the smallest closed linear subspace $V\subseteq H$ containing $S$}@}. Then {@{$S$ will be an orthonormal basis of $V$}@}; which may {@{of course be smaller than $H$ itself, being an _incomplete_ orthonormal set}@}, or {@{be $H$, when it is a _complete_ orthonormal set}@}. <!--SR:!2025-12-07,222,324!2026-04-24,337,344!2026-04-18,331,344!2026-06-24,362,304!2025-12-07,222,324!2026-04-19,332,344!2025-09-28,157,304!2025-12-08,223,324!2026-04-09,329,344-->
 
 ## existence
 
@@ -78,7 +78,7 @@ In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal g
 
 ## see also
 
-- [Orthogonal basis](orthogonal%20basis.md) ::@:: – Basis for v whose vectors are mutually orthogonal <!--SR:!2025-06-27,101,304!2026-04-23,336,344-->
+- [Orthogonal basis](orthogonal%20basis.md) ::@:: – Basis for v whose vectors are mutually orthogonal <!--SR:!2026-04-29,306,304!2026-04-23,336,344-->
 - [Basis \(linear algebra\)](basis%20(linear%20algebra).md) ::@:: – Set of vectors used to define coordinates <!--SR:!2026-04-21,334,344!2026-04-25,338,344-->
 - [Orthonormal frame](affine%20space.md#affine%20coordinates) ::@:: – Euclidean space without distance and angles <!--SR:!2026-04-24,337,344!2025-11-20,198,310-->
 - [Schauder basis](Schauder%20basis.md) ::@:: – Computational tool <!--SR:!2026-04-21,334,344!2026-04-29,342,344-->

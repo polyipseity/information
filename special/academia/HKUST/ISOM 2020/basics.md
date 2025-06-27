@@ -251,7 +251,7 @@ If {@{you do not want a newline to be printed automatically afterwards}@}, `prin
 
 ## variable
 
-To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2025-06-27,222,322!2025-10-28,327,342-->
+To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2028-03-10,987,342!2025-10-28,327,342-->
 
 ```Python
 variableName = 1 + 2

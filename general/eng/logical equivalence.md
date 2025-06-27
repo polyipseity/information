@@ -30,7 +30,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 
 ### logical equivalences involving conditional statements
 
-- [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::@:: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2027-07-05,797,350!2025-06-27,223,330-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::@:: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2027-07-05,797,350!2028-04-08,1016,350-->
 - [transposition](contraposition.md) ::@:: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2025-08-06,250,330!2025-10-03,302,350-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::@:: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2025-07-03,228,330!2026-10-08,579,330-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::@:: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2027-11-19,903,350!2027-12-20,930,350-->

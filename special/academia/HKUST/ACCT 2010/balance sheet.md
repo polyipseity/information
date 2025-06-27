@@ -34,7 +34,7 @@ tags:
 - casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-12-12,282,330!2025-12-22,291,330-->
 - (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+) <!--SR:!2025-08-20,178,310!2025-11-06,255,330-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-12-16,286,330!2025-11-11,259,330-->
-  - (root) / assets ::@:: example: <br/> current assets (+) <br/> property and equipment (+) <br/> intangible assets <br/> total assets: sum above appropriately <!--SR:!2025-11-01,207,270!2025-06-27,148,310-->
+  - (root) / assets ::@:: example: <br/> current assets (+) <br/> property and equipment (+) <br/> intangible assets <br/> total assets: sum above appropriately <!--SR:!2025-11-01,207,270!2027-03-19,630,330-->
     - (root) / assets / current assets ::@:: example: <br/> cash <br/> short-term investments <br/> accounts receivable <br/> supplies <br/> prepaid expanses <br/> total current assets: sum above appropriately <!--SR:!2025-10-17,196,270!2025-11-16,222,270-->
     - (root) / assets / property and equipment (+) ::@:: example: <br/> land <br/> buildings <br/> equipment <br/> total cost: sum above <br/> accumulated depreciation <br/> net property and equipment: sum above 2 <br/> operating lease right-of-use assets: note this is not summed above <!--SR:!2025-08-13,150,250!2025-11-14,220,270-->
   - (root) / liabilities and stockholders' equity ::@:: example: <br/> current liabilities (+) <br/> notes payable <br/> long-term lease liabilities <br/> total liabilities: sum above appropriately <br/> stockholders' equity (+) <br/> total liabilities and stockholders' equity: sum above appropriately <!--SR:!2025-08-10,148,250!2025-10-10,194,270-->
