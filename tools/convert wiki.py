@@ -59,6 +59,7 @@ _BAD_TITLES = frozenset({"Edit this at Wikidata"})
 _IGNORED_NAME_PREFIXES = frozenset[str]()
 _PRESERVED_PAGE_PREFIXES = {
     "Category:": f"{_WIKI_HOST_URL}/wiki/Category:{{}}",
+    "File:": f"{_WIKI_HOST_URL}/wiki/File:{{}}",
     "Help:": f"{_WIKI_HOST_URL}/wiki/Help:{{}}",
     "Portal:": f"{_WIKI_HOST_URL}/wiki/Portal:{{}}",
     "Special:": f"{_WIKI_HOST_URL}/wiki/Special:{{}}",
@@ -82,12 +83,19 @@ _ARCHIVE_REGEXES = {
     compile(
         r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
+    compile(
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
+    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:(.*)$"): (
+        "File:{}",
+        "../../archives/Wikimedia Commons/{}",
+    ),
 }
 _CONVERTED_WIKI_DIRECTORY = Path("../general")
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
-    _names_map_manual = load(names_map_file)
+    _names_map_manual: dict[str, str] = load(names_map_file)
 _names_map = {
     key: val
     for filename in iglob("*.md", root_dir=_CONVERTED_WIKI_DIRECTORY)
@@ -107,7 +115,10 @@ def _bs4_new_element(tag_str: str) -> PageElement:
 
 
 def _fix_name_maybe(name: str) -> str:
-    return _NAMES_MAP.get(
+    if (ret := _NAMES_MAP.get(name)) is not None:
+        return ret
+    name = name.replace("_", " ")
+    ret = _NAMES_MAP.get(
         name,
         (
             f"{name[:1].lower()}{name[1:]}"
@@ -115,6 +126,7 @@ def _fix_name_maybe(name: str) -> str:
             else name
         ),
     )
+    return ret
 
 
 def _fix_filename(
@@ -390,6 +402,28 @@ async def wiki_html_to_plaintext(
                 )
 
             process_strings = process_strings_tdh
+        # audios
+        case _ if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
+            if src := ele.get("href"):
+
+                def process_strings_audio(strings: str, ele: Tag = ele):
+                    src_url = _WIKI_HOST_URL.join(URL(str(src)))
+                    src_url_str = str(src_url)
+
+                    for regex, formats in _ARCHIVE_REGEXES.items():
+                        if not (match := regex.search(src_url.human_repr())):
+                            continue
+                        to_archive = match[1]
+                        out_to_archive.add(formats[0].format(to_archive))
+                        src_url_str = quote(
+                            formats[1].format(to_archive.replace("_", " "))
+                        )
+
+                    embed = "!" if {"mw-tmh-player"} & classes else ""
+                    return f"{embed}[{strings}]({src_url_str})"
+
+                suffix = "\n\n"
+                process_strings = process_strings_audio
         # images
         case _ if (
             ele.name == "img"
@@ -399,9 +433,10 @@ async def wiki_html_to_plaintext(
             }
             & classes
         ):
+            if src := ele.get("src"):
 
-            def process_strings_img(strings: str, ele: Tag = ele):
-                if src := ele.get("src"):
+                def process_strings_img(strings: str, ele: Tag = ele):
+
                     src_url = _WIKI_HOST_URL.join(URL(str(src)))
                     src_url_str = str(src_url)
 
@@ -415,10 +450,9 @@ async def wiki_html_to_plaintext(
                         )
 
                     return f"{strings}![{escape_markdown(str(ele.get("alt", "")).strip())}]({src_url_str})"
-                return strings
 
-            suffix = "\n\n"
-            process_strings = process_strings_img
+                suffix = "\n\n"
+                process_strings = process_strings_img
         # links
         case _ if ele.name == "a" and "mw-file-description" not in classes:
             if (title := ele.get("title")) and title not in _BAD_TITLES:
@@ -426,9 +460,7 @@ async def wiki_html_to_plaintext(
                 if "new" in classes:
                     title = title.removesuffix(_PAGE_DOES_NOT_EXIST_SUFFIX)
                 href = str(ele.get("href", ""))
-                to_fragment = (
-                    href.split("#", 1)[-1].replace("_", " ") if "#" in href else ""
-                )
+                to_fragment = href.split("#", 1)[-1] if "#" in href else ""
                 async with session.get(
                     URL.build(
                         scheme=_WIKI_HOST_URL.scheme,
@@ -508,7 +540,7 @@ async def wiki_html_to_plaintext(
                 href = str(href)
                 if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
                     href = _markdown_fragment(
-                        _fix_name_maybe(href[href.index("#") + 1 :].replace("_", " "))
+                        _fix_name_maybe(href[href.index("#") + 1 :])
                     )
                 prefix, suffix = "[", f"]({href})"
         # unhandled tags

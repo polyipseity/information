@@ -184,8 +184,8 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
-- branch on false ::@:: `bc1f target`: `if (!$FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
-- branch on true ::@:: `bc1t target`: `if ($FLAG) { $ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2); }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2025-07-08,15,364!2025-07-19,25,384-->
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-07-08,15,364!2025-07-19,25,384-->
 - compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
@@ -261,7 +261,7 @@ The 32 registers are used as follows:
 | __`$s0`–`$s7`__ | `$16`–`$23` | saved temporaries                                                         | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$t8`–`$t9`__ | `$24`–`$25` | temporaries                                                               | <div style="background: #FFC7C7; color: black; vertical-align: middle; text-align: center;">No</div>                    |
 | __`$k0`–`$k1`__ | `$26`–`$27` | reserved for OS kernel                                                    | —                                                                                                                       |
-| __`$gp`__       | `$28`       | global pointer \(for static data\)                                        | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes (except PIC code)</div> |
+| __`$gp`__       | `$28`       | global pointer                                                            | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes (except PIC code)</div> |
 | __`$sp`__       | `$29`       | [stack pointer](../../../../general/stack-based%20memory%20allocation.md) | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$fp`__       | `$30`       | [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER)     | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Yes</div>                   |
 | __`$ra`__       | `$31`       | [return address](../../../../general/return%20statement.md)               | —                                                                                                                       |
@@ -278,7 +278,7 @@ The 32 registers are used as follows:
 > - __`$s0`–`$s7`__ ::@:: `$16`–`$23`: saved temporaries <!--SR:!2026-03-18,285,330!2026-03-04,273,330-->
 > - __`$t8`–`$t9`__ ::@:: `$24`–`$25`: temporaries <!--SR:!2026-02-27,268,330!2026-04-10,290,330-->
 > - __`$k0`–`$k1`__ ::@:: `$26`–`$27`: reserved for OS kernel <!--SR:!2025-11-16,181,310!2026-03-01,270,330-->
-> - __`$gp`__ ::@:: `$28`: global pointer \(for static data\) <!--SR:!2026-02-11,255,330!2026-03-15,282,330-->
+> - __`$gp`__ ::@:: `$28`: global pointer <!--SR:!2026-02-11,255,330!2026-03-15,282,330-->
 > - __`$sp`__ ::@:: `$29`: [stack pointer](../../../../general/stack-based%20memory%20allocation.md) <!--SR:!2025-11-11,176,310!2026-03-02,271,330-->
 > - __`$fp`__ ::@:: `$30`: [frame pointer](../../../../general/frame%20pointer.md#FRAME-POINTER) <!--SR:!2026-03-13,281,330!2026-04-13,293,330-->
 > - __`$ra`__ ::@:: `$31`: [return address](../../../../general/return%20statement.md) <!--SR:!2026-02-04,248,330!2026-04-14,294,330-->
@@ -337,10 +337,12 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\) <!--SR:!2025-08-17,102,381!2025-07-27,86,381!2025-08-07,97,381!2025-08-15,100,381-->
 
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 2; (branch delay slot); sub $d, $zero, $s;` \(use 1 instead of 2 for MIPS without branch delay slots, which MARS simulate by default\) <!--SR:!2025-07-17,71,361!2025-07-18,72,361-->
-- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2025-07-09,68,361!2025-07-29,88,381-->
-- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-12-23,201,361-->
+- branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;`
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2025-08-01,91,381!2025-07-28,87,381-->
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2025-07-19,73,361!2025-08-09,94,381-->
+- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2025-07-09,68,361!2025-07-29,88,381-->
+- branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-12-23,201,361-->
+- branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;`
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2026-05-08,318,355!2025-12-16,198,330-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2026-04-24,304,350!2026-06-08,349,350-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2025-08-13,98,381!2025-08-10,95,381-->
@@ -371,7 +373,7 @@ If you follow the above steps, {@{nested procedures \(calling procedures inside 
 
 A typical MIPS program memory is {@{addressed by 32-bit unsigned integers}@}. Thus, there are {@{2<sup>32</sup> memory byte locations, or 2<sup>30</sup> memory _word_ locations}@}. <!--SR:!2025-08-06,96,381!2025-08-07,92,381-->
 
-It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{starts from 0x0040&nbsp;0000}@}. The static data {@{starts from 0x1000&nbsp;0000, but the global pointer `$gp` can be used to change this offset \(e.g. 0x1000&nbsp;8000\)}@} The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(stack pointer `$sp`\) and _decreases_ as it grow in size}@}. <!--SR:!2025-08-07,92,381!2025-07-30,89,381!2025-07-29,88,381!2025-07-07,49,361!2025-07-30,89,381!2025-08-05,95,381!2026-05-04,313,381-->
+It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{_usually_ starts from 0x0040&nbsp;0000}@}. The static data {@{_usually_ starts from 0x1000&nbsp;0000 \(e.g. MARS uses 0x1001&nbsp;0000\), and is somewhat related to the global pointer `$gp` \(e.g. MARS uses 0x1000&nbsp;8000\)}@}. The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{_usually_ starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(e.g. MARS uses 0x7fff&nbsp;effc\), stored in the stack pointer `$sp`, and _decreases_ as it grow in size}@}. <!--SR:!2025-08-07,92,381!2025-07-30,89,381!2025-07-29,88,381!2025-07-07,49,361!2025-07-30,89,381!2025-08-05,95,381!2026-05-04,313,381-->
 
 The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}. <!--SR:!2025-07-27,86,381!2025-08-01,91,381-->
 
@@ -413,7 +415,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2025-07-17,24,384!2025-07-18,24,384-->
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2025-07-17,24,384!2025-07-18,24,384-->
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are set using `lwc1` and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-07-19,25,384!2025-07-09,15,364-->
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-07-19,25,384!2025-07-09,15,364-->
 - immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
 - signedness ::@:: All operations are always signed. <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 

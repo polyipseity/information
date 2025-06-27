@@ -669,7 +669,7 @@ The content is in teaching order.
   - local: 2025-04-16T21:30:00+08:00/2025-04-16T22:50:00+08:00, PT1H20M
 - [jazz fusion](../../../../general/jazz%20fusion.md) ::@:: It is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll. <!--SR:!2025-06-29,26,418!2025-06-30,27,418-->
   - jazz fusion / motivation ::@:: Acoustic jazz had been pushed to its limits. So musicians found new inspirations in rock music and funk. <!--SR:!2025-06-30,27,418!2025-06-29,26,418-->
-  - jazz fusion / characteristics ::@:: groove-based; post production editing; straight eighth notes, i.e. no swing <!--SR:!2025-06-29,26,418!2025-06-30,27,418-->
+  - jazz fusion / characteristics ::@:: acoustic instruments; groove-based; straight eighth notes, i.e. no swing <!--SR:!2025-06-29,26,418!2025-06-30,27,418-->
   - jazz fusion / Miles Davis ::@:: He had been making records in this direction since 1967. <p> _Bitches Brew_ \(1970\) — Miles Davis <!--SR:!2025-07-01,28,418!2025-07-01,28,418-->
   - jazz fusion / artists ::@:: Head Hunters \(Herbie Hancock\), Mahavishnu Orchestra, Miles Davis, Return to Forever \(Chick Corea\), Weather Report <!--SR:!2025-06-30,27,418!2025-07-01,28,418-->
 - [Herbie Hancock](../../../../general/Herbie%20Hancock.md) \(1940—\) ::@:: He was Miles Davis's old piano player. He started the band Head Hunters to play funk like Sly Stone. He won 15 Grammys and 37 nominations. <!--SR:!2025-07-01,28,418!2025-06-30,27,418-->
@@ -692,6 +692,7 @@ The content is in teaching order.
   - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-06-30,27,422!2025-06-29,26,418-->
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\) <!--SR:!2025-06-29,26,418!2025-06-30,27,421-->
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2025-06-29,26,421!2025-06-30,27,421-->
+  - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style.
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2025-06-30,27,421!2025-07-01,28,418-->
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2025-06-29,26,418!2025-07-01,28,418-->
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2025-10-13,111,418!2025-07-01,28,421-->

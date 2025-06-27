@@ -1,9 +1,16 @@
+"""
+---
+requirements: pip install anyio>=3.6.0 beautifulsoup4>=4.12.0
+timestamp: 2024-08-16T18:05:13+08:00
+---
+
+Remove identifiers from Canvas HTML files.
+"""
+
 from anyio import Path
 from asyncio import gather, run
 from bs4 import BeautifulSoup
 from glob import iglob
-
-# pip install anyio>=3.6.0 beautifulsoup4>=4.12.0
 
 
 async def _process_HTML(path: Path):

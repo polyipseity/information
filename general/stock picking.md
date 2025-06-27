@@ -1,0 +1,1 @@
+eng/stock picking.md

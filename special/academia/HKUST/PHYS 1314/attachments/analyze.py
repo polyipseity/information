@@ -2,6 +2,10 @@ from math import ceil
 from pandas import read_csv  # type: ignore
 
 _MAPPING = {
+    "final examination data.csv": (
+        "final examination analysis.csv",
+        "final examination analysis.svg",
+    ),
     "midterm examination data.csv": (
         "midterm examination analysis.csv",
         "midterm examination analysis.svg",

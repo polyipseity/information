@@ -116,6 +116,8 @@ The content is in teaching order.
   - parametric equation / construction
     - parametric equation / construction / line through a point parallel to a vector ::@:: If the point is $(x_0, y_0, z_0)$ and the vector is $\langle a, b, c \rangle$, then $\gamma(t) = (x_0, y_0, z_0) + t (a, b, c) = (x_0 + at, y_0 + bt, z_0 + ct)$. <p> We notice that actually, as long as the multiplication factor ($t$ in this context) has a domain of $\mathbb R$ and are the same for $a, b, c$, the equation describes the same line. So we can replace $t$ with $2t$, but not $0t$ or $t^2$. <!--SR:!2026-09-07,440,383!2026-08-09,429,383-->
   - parametric equation / non-uniqueness ::@:: Different equations can represent the same curve. <p> The simplest would be to replace $t$ by $\alpha t$, where $\alpha$ is a nonzero real number. The curve is the same but we can think of it as $t$ going "faster" or "slower" along the curve. <!--SR:!2026-08-26,428,383!2026-09-12,445,383-->
+  - parametric equation / measure ::@:: Parameterization does not affect the _arc length_ \(or simply _length_\) of a curve, the _surface area_ of a surface, etc.
+- [arc length](../../../../general/arc%20length.md) ::@:: \(_this_\) is the distance between two points along a section of a [curve](../../../../general/curve.md).
 
 ## week 2 tutorial
 
@@ -228,6 +230,7 @@ The content is in teaching order.
     - tangent / tangent plane / interpretation ::@:: It is the best approximation of the surface by a plane at _p_, and can be obtained as the limiting position of the planes passing through 3 distinct points on the surface close to _p_ as these points converge to _p_. <!--SR:!2025-06-30,87,374!2025-08-10,125,394-->
     - tangent / tangent plane / equation ::@:: if the surface is given by a function $z=f(x,y)$, the equation of the tangent plane at point $(x_{0},y_{0},z_{0})$ can be expressed as: $$z-z_{0}={\frac {\partial f}{\partial x} }(x_{0},y_{0})(x-x_{0})+{\frac {\partial f}{\partial y} }(x_{0},y_{0})(y-y_{0}) \,.$$ Here, ${\frac {\partial f}{\partial x} }$ and ${\frac {\partial f}{\partial y} }$ are the partial derivatives of the function $f$ with respect to $x$ and $y$ respectively, evaluated at the point $(x_{0},y_{0})$. It can be written into $${\frac {\partial f}{\partial x} }(x_{0},y_{0})(x-x_{0})+{\frac {\partial f}{\partial y} }(x_{0},y_{0})(y-y_{0}) + (-1) (z - z_0) = 0 \,,$$ which has a normal vector $\left\langle \frac {\partial f} {\partial x}, \frac {\partial f} {\partial y}, -1 \right\rangle$ that can be interpreted as the surface normal pointing "downwards". <!--SR:!2025-06-29,86,374!2025-07-30,117,394-->
     - tangent / tangent plane / level surface ::@:: We have a function $f: \mathbb R^3 \to \mathbb R$. Define the level surface $f$ at $k$ as $f(x, y, z) = k$. To generalize, this level surface is not necessary a surface. <p> Find its _tangent plane_ (tangent space) by first considering its orthogonal vector (space), its _normal vector_ (normal space). Conveniently, gradient of the function at that point is either orthogonal to the level set, which makes the gradient a normal vector; or zero, which means the normal space is the zero vector space. So we have: $$\frac {\partial f} {\partial x} (x_0, y_0, z_0) (x - x_0) + \frac {\partial f} {\partial y} (x_0, y_0, z_0) (y - y_0) + \frac {\partial f} {\partial z} (x_0, y_0, z_0) (z - z_0) = 0 \,,$$ and check that the above "makes sense" when the gradient is zero (tangent space is the whole space). <!--SR:!2025-09-02,125,334!2025-11-27,185,354-->
+  - tangent / bitangent ::@:: In physics, the bitangent unit vector is defined as: $$\hat {\mathbf b} = \hat {\mathbf t} \times \hat {\mathbf n} \,,$$ where $\hat{\mathbf t}$ is the tangent unit vector and $\hat{\mathbf n}$ is the normal unit vector.
 - [differentiable function](../../../../general/differentiale%20function.md)
   - differentiable function / approximation ::@:: A differentiable function is locally well approximated as a linear function at each interior point. That is, an approximation at $x_0$ has an approximation error that shrinks faster than $\lvert x - x_0 \rvert$, i.e. in $o(\lvert x - x_0 \rvert)$ using small O notation. <!--SR:!2025-08-10,125,394!2025-08-06,121,394-->
 - function of several real variables
@@ -349,6 +352,7 @@ The content is in teaching order.
   - referencing: closed book, closed notes
   - provided: \(none\)
   - questions: long questions ×9
+    - question 9 \(5 marks\): What do you think about this examination?
 - grades: 84/100 → 84/100 → 84/100
   - statistics
     - timestamps: 2025-04-08T11+08:00 → 2025-04-18T16:51:40+08:00 → 2025-04-29T11:11:25+08:00
@@ -533,7 +537,7 @@ The content is in teaching order.
     - cylindrical coordinate system / Cartesian coordinates / change of variables ::@:: The factor from Cartesian coordinates to cylindrical coordinates is: $$\begin{aligned} \lVert J \rVert & = \left\lVert \frac {\partial(x, y, z)} {\partial(\rho, \varphi, z)} \right\rVert \\ & = \begin{Vmatrix} \cos\varphi & \sin\varphi & 0 \\ -\rho \sin \varphi & \rho \cos \varphi & 0 \\ 0 & 0 & 1 \end{Vmatrix} \\ & = \lvert \rho \rvert \,. \end{aligned}$$ For the inverse transformation, the factor is the reciprocal: $$\frac 1 \rho = \frac 1 {\sqrt{x^2 + y^2} } \,.$$ <p> Consider a very very small slice of the infinitesimal area $\mathrm d\rho \, \mathrm d\varphi \,\mathrm dz$. Changing $\rho$, we see the area is proportional to $\rho$. Changing $\varphi$ or $z$, we see the area remains the same. So the factor is $r$. <!--SR:!2025-12-03,162,436!2025-11-18,147,434-->
 - spherical coordinate system
   - spherical coordinate system / Cartesian coordinates ::@:: The spherical coordinates of a point in the ISO convention \(i.e. for physics: radius _r_, inclination _θ_, azimuth _φ_\) can be obtained from its [Cartesian coordinates](../../../../general/Cartesian%20coordinate%20system.md) \(_x_, _y_, _z_\) by the formulae $${\begin{aligned}r&={\sqrt {x^{2}+y^{2}+z^{2} } }\\\theta &=\arccos {\frac {z}{\sqrt {x^{2}+y^{2}+z^{2} } } }=\arccos {\frac {z}{r} } \\\varphi &=\operatorname {sgn}(y)\arccos {\frac {x}{\sqrt {x^{2}+y^{2} } } } \end{aligned} }$$ The [inverse tangent](../../../../general/inverse%20tangent.md) denoted in _φ_ = arctan ⁠_y_<!-- markdown separator -->/<!-- markdown separator -->_x_⁠ must be suitably defined, taking into account the correct quadrant of \(_x_, _y_\), as done in the equations above. See the article on [atan2](../../../../general/atan2.md). <p> Conversely, the Cartesian coordinates may be retrieved from the spherical coordinates \(_radius_ _r_, _inclination_ _θ_, _azimuth_ _φ_\), where _r_ ∈ \[0, ∞\), _θ_ ∈ \[0, _π_\], _φ_ ∈ \[0, 2<!-- markdown separator -->_π_\), by $${\begin{aligned}x&=r\sin \theta \,\cos \varphi ,\\y&=r\sin \theta \,\sin \varphi ,\\z&=r\cos \theta .\end{aligned} }$$ <!--SR:!2025-11-24,153,436!2025-10-08,106,414-->
-    - spherical coordinate system / Cartesian coordinates / change of variables ::@:: The factor from Cartesian coordinates to spherical coordinates is \($\theta$ is the _polar_ angle\): $$\begin{aligned} \lVert J \rVert & = \left\lVert \frac {\partial(x, y, z)} {\partial(r, \theta, \varphi)} \right\rVert \\ & = \begin{Vmatrix} \cos\varphi \sin\theta & \sin\varphi \sin\theta & \cos\theta \\ r \cos\varphi \cos\theta & r \sin\varphi \cos\theta & r \sin\theta \\ -r \sin\varphi \sin\theta & r \cos\varphi \sin\theta & 0 \end{Vmatrix} \\ & = \left\lvert -r^2 \sin^2 \varphi \sin^3 \theta + r^2 \cos^2 \varphi \sin \theta \cos^2 \theta + r^2 \sin^2 \varphi \sin \theta \cos^2 \theta - r^2 \cos^2 \varphi \sin^3 \theta  \right\rvert \\ & = \lvert -r^2 \sin^3 \theta + r^2 \sin \theta \cos^2 \theta \rvert \\ & = \lvert r^2 \sin \theta \rvert \,. \end{aligned}$$ For the inverse transformation, the factor is the reciprocal: $$\frac 1 {r^2 \sin \theta} = \frac 1 {\sqrt{x^2 + y^2 + z^2} \frac {x^2 + y^2} } \,.$$ <p> Consider a very very small slice of the infinitesimal area $\mathrm dr \, \mathrm d\theta \,\mathrm d\varphi$. Changing $r$, we see the area is proportional to $r^2$. Changing $\theta$, we see the area is \(roughly\) proportional to $\sin\theta$. Changing $\varphi$, we see the area remains the same. So the factor is $r^2 \sin\theta$. <!--SR:!2025-10-15,113,416!2025-11-16,145,434-->
+    - spherical coordinate system / Cartesian coordinates / change of variables ::@:: The factor from Cartesian coordinates to spherical coordinates is \($\theta$ is the _polar_ angle\): $$\begin{aligned} \lVert J \rVert & = \left\lVert \frac {\partial(x, y, z)} {\partial(r, \theta, \varphi)} \right\rVert \\ & = \begin{Vmatrix} \cos\varphi \sin\theta & \sin\varphi \sin\theta & \cos\theta \\ r \cos\varphi \cos\theta & r \sin\varphi \cos\theta & r \sin\theta \\ -r \sin\varphi \sin\theta & r \cos\varphi \sin\theta & 0 \end{Vmatrix} \\ & = \left\lvert -r^2 \sin^2 \varphi \sin^3 \theta + r^2 \cos^2 \varphi \sin \theta \cos^2 \theta + r^2 \sin^2 \varphi \sin \theta \cos^2 \theta - r^2 \cos^2 \varphi \sin^3 \theta  \right\rvert \\ & = \lvert -r^2 \sin^3 \theta + r^2 \sin \theta \cos^2 \theta \rvert \\ & = \lvert r^2 \sin \theta \rvert \,. \end{aligned}$$ For the inverse transformation, the factor is the reciprocal: $$\frac 1 {r^2 \sin \theta} = \frac 1 {\sqrt{x^2 + y^2 + z^2} \sqrt {x^2 + y^2} } \,.$$ <p> Consider a very very small slice of the infinitesimal area $\mathrm dr \, \mathrm d\theta \,\mathrm d\varphi$. Changing $r$, we see the area is proportional to $r^2$. Changing $\theta$, we see the area is \(roughly\) proportional to $\sin\theta$. Changing $\varphi$, we see the area remains the same. So the factor is $r^2 \sin\theta$. <!--SR:!2025-10-15,113,416!2025-11-16,145,434-->
 
 ## week 12 lecture
 
@@ -666,17 +670,20 @@ The content is in teaching order.
   - Stokes' theorem / note ::@:: Given a closed curve, you can choose any surface satisfying the conditions with the closed curve as a boundary. It does not affect the result. <p> For a closed surface \(enclosing a volume\), there is no boundary. In that case, the total "twist" is 0. <!--SR:!2025-07-23,29,430!2025-07-23,29,428-->
 - curl
   - curl / irrotational field
+  - curl / gradient ::@:: The curl of the [gradient](../../../../general/gradient.md) of _any_ [scalar field](../../../../general/scalar%20field.md) _φ_ is always the [zero vector](../../../../general/zero%20vector.md#additive%20identities) field $$\nabla \times (\nabla \varphi )={\boldsymbol {0} }$$ which follows from the [antisymmetry](../../../../general/antisymmetric%20tensor.md) in the definition of the curl, and the [symmetry of second derivatives](symmetry%20of%20second%20derivatives.md).
+    - curl / gradient / nonexistence ::@:: A vector field __F__ with _nonzero_ curl cannot be the gradient of a scalar field.
+    - curl / gradient / existence ::@:: If a vector field __F__ with _zero_ curl is defined on a _simply connected_ region, then there exists some scalar field _f_ on the region with __F__ = grad _f_. For regions in __R__<sup>3</sup> more topologically complicated that this, the latter statement might be false \(see [Poincaré lemma](../../../../general/Poincaré%20lemma.md)\). <p> We assume the vector field __F__ have _continuous first partial derivatives_. \(__this course__: tested in [final examination](#final%20examination)\)
 - Stokes' theorem
   - Stokes' theorem / applications ::@:: We can turn a line integral into a double integral that may be simpler to evaluate. Or vice versa. This is similar to Green's theorem. <p> However, this theorem is more powerful: assuming the relevant conditions are met, it states any 2D surface with the same closed boundary oriented the same way has the same surface integral value. This implies we can start from a surface integral over a ugly surface with a less ugly boundary, use this theorem to convert into an line integral over the less ugly boundary, and then apply this theorem again to convert into a surface integral over a very nice surface. <!--SR:!2025-07-23,29,428!2025-07-22,28,430-->
 - [divergence](../../../../general/divergence.md) ::@:: It is a vector operator that operates on a vector field, producing a scalar field giving the quantity of the vector field's source at each point. More technically, the divergence represents the volume density of the outward flux of a vector field from an infinitesimal volume around a given point. <!--SR:!2025-07-22,29,428!2025-07-22,29,428-->
   - divergence / definition ::@:: $\nabla \cdot \mathbf v = \begin{bmatrix} \frac \partial {\partial x} & \frac \partial {\partial y} & \frac \partial {\partial z} \end{bmatrix}^\intercal \cdot \begin{bmatrix} v_x & v_y & v_z \end{bmatrix}^\intercal = \frac {\partial v_x} {\partial x} + \frac {\partial v_y} {\partial y} + \frac {\partial v_z} {\partial z}$ <p> It looks like the dot product works as expected. <!--SR:!2025-07-23,29,428!2025-07-23,29,430-->
   - divergence / curl ::@:: The divergence of the [curl](../../../../general/curl%20(mathematics).md) of any vector field \(in three dimensions\) is equal to zero: $$\nabla \cdot (\nabla \times \mathbf {F} )=0.$$ <p> We assume the vector field have _continuous second partial derivatives_. Then the proof is by the symmetry of second derivatives. \(Again...\) <!--SR:!2025-07-22,28,428!2025-07-22,28,430-->
-    - divergence / curl / nonexistence ::@:: A vector field __F__ with _nonzero_ divergence cannot be the curl of another field. <!--SR:!2025-07-23,29,430!2025-07-23,29,430-->
-    - divergence / curl / existence ::@:: If a vector field __F__ with _zero_ divergence is defined on a ball in __R__<sup>3</sup>, then there exists some vector field __G__ on the ball with __F__ = curl __G__. For regions in __R__<sup>3</sup> more topologically complicated than this, the latter statement might be false \(see [Poincaré lemma](Poincaré%20lemma.md)\). <p> We assume the vector field __F__ have _continuous first partial derivatives_. The ball can be replaced by a 2-connected domain. <!--SR:!2025-07-15,21,408!2025-07-23,29,430-->
+    - divergence / curl / nonexistence ::@:: A vector field __F__ with _nonzero_ divergence cannot be the curl of a vector field. <!--SR:!2025-07-23,29,430!2025-07-23,29,430-->
+    - divergence / curl / existence ::@:: If a vector field __F__ with _zero_ divergence is defined on a ball in __R__<sup>3</sup>, then there exists some vector field __G__ on the ball with __F__ = curl __G__. For regions in __R__<sup>3</sup> more topologically complicated than this, the latter statement might be false \(see [Poincaré lemma](../../../../general/Poincaré%20lemma.md)\). <p> We assume the vector field __F__ have _continuous first partial derivatives_. The ball can be replaced by a 2-connected domain. \(__this course__: tested in [final examination](#final%20examination)\) <!--SR:!2025-07-15,21,408!2025-07-23,29,430-->
 - [ball](../../../../general/ball%20(mathematics).md) ::@:: In mathematics, a \(_this_\) is the solid figure bounded by a _sphere_; it is also called a solid sphere. <!--SR:!2025-07-23,29,430!2025-07-05,29,428-->
 - simply connected space
   - simply connected space / closed loops ::@:: Equivalently, it can be defined as a \(path-\)connected space where any loop can be contracted to a point without leaving the space. <!--SR:!2025-07-23,29,430!2025-07-23,29,430-->
-  - simply connected space / _n_-connected ::@:: Simply connected space can be generalized to _n_-connected space. It means a space $U$ is \(path-\)connected, and additionally any _n_-sphere \(note that a _n_-sphere lives in _n_+1 dimensions\) and lower-dimension spheres _continuously_ mapped to the space \(the _continuous_ mapping is $S^k \to U$ where $k \le n$\) can be contracted to a point without leaving the space. Simply connected space is a special case where _n_ equals 1, since $S^1 \to U$ defines a loop. <p> For example, a \(2-\)sphere is simply connected \(1-connected\) but not 2-connected. A \(2-\)ball \(solid \(2-\)sphere\) is simply connected and 2-connected. <!--SR:!2025-07-23,29,430!2025-07-15,21,408-->
+  - simply connected space / _n_-connected ::@:: Simply connected space can be generalized to _n_-connected space. It means a space $U$ is \(path-\)connected, and additionally any _n_-sphere \(note that a _n_-sphere lives in _n_+1 dimensions\) and lower-dimension spheres _continuously_ mapped to the space \(the _continuous_ mapping is $S^k \to U$ where $k \le n$\) can be contracted to a point without leaving the space. Simply connected space is a special case where _n_ equals 1, since $S^1 \to U$ defines a loop. <p> For example, a \(2-\)sphere is simply connected \(1-connected\) but not 2-connected. An open or closed \(2-\)ball \(solid \(2-\)sphere\) is simply connected and 2-connected. <!--SR:!2025-07-23,29,430!2025-07-15,21,408-->
 - [divergence theorem](../../../../general/divergence%20theorem.md) ::@:: \(__this course__: optional\) It states that the [surface integral](../../../../general/surface%20integral.md) of a vector field over a closed surface, which is called the "flux" through the surface, is equal to the [volume integral](../../../../general/volume%20integral.md) of the divergence over the region enclosed by the surface. <!--SR:!2025-07-23,29,428!2025-07-23,29,430-->
   - divergence theorem / mathematical statement ::@:: \(__this course__: optional\) Suppose _V_ is a [subset](../../../../general/subset.md) of $\mathbb {R} ^{n}$ \(in the case of _n_ = 3, _V_ represents a volume in [three-dimensional space](../../../../general/three-dimensional%20space.md)\) which is [compact](../../../../general/compact%20space.md) and has a [piecewise](../../../../general/piecewise.md) [smooth boundary](../../../../general/smooth%20surface.md) _S_ \(also indicated with $\partial V=S$\). If __F__ is a continuously differentiable vector field defined on a [neighborhood](../../../../general/neighbourhood%20(mathematics).md) of _V_, then: $$\iiint _{V}\left(\mathbf {\nabla } \cdot \mathbf {F} \right)\,\mathrm {d} V= \oiint_S (\mathbf {F} \cdot \mathbf {\hat {n} } )\,\mathrm {d} S \,.$$ The left side is a [volume integral](../../../../general/volume%20integral.md) over the volume _V_, and the right side is the [surface integral](../../../../general/surface%20integral.md) over the boundary of the volume _V_. The closed, measurable set $\partial V$ is oriented by outward-pointing [normals](../../../../general/normal%20(geometry).md), and $\mathbf {\hat {n} }$ is the outward pointing unit normal at almost each point on the boundary $\partial V$. <!--SR:!2025-07-22,29,428!2025-07-23,29,430-->
   - divergence theorem / interpretation ::@::  \(__this course__: optional\) Intuitively, it states that "the sum of all sources of the field in a region \(with sinks regarded as negative sources\) gives the net flux out of the region". <!--SR:!2025-07-22,29,428!2025-07-23,29,430-->
@@ -690,25 +697,40 @@ The content is in teaching order.
   - cheatsheet: no
   - referencing: closed book, closed notes
   - provided: \(none\)
-  - questions: long questions ×?
-- grades: ?/100 → ?/100
+  - questions: long questions ×9
+    - question 9 \(5 marks\): What do you think about this examination?
+- grades: 100/100 → 100/100
   - statistics
-    - timestamps: ? → ?
+    - timestamps: 2025-05-30T23+08:00 → 2025-06-02T14:15+08:00
     - count: ? → ?
-    - mean: ? → ?
+    - mean: ? → 66.06
     - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
+    - low: ? → 0
+    - lower quartile: ? → 43.5
+    - median: ? → 75
+    - upper quartile: ? → 92
+    - high: ? → 100
     - distribution: ? → ?
     - data: ? → ?
-- report: ?
+- report
+  - question 1: multiple choice questions
+    - arc length \(0\) ::@:: Almost thought arc length is dependent on parameterization, because I thought arc length is somehow distinct from length. Turns out arc length is simply length.
+    - connectedness & open and closed sets \(0\) ::@:: Both open and closed sets can still be connected, simply connected, 2-connected, etc.
+    - gradient, curl, divergence & topology \(0\) ::@:: A curl-free vector field requires a _simply connected_ region to be the gradient of a scalar field \(i.e. be conservative\). A divergence-free vector field requires a _2-connected_ region to be the curl of a vector field. <p> See [Poincaré lemma](../../../../general/Poincaré%20lemma.md) for more.
+  - question 3: limits
+    - existence of limit using epsilon—delta proof or squeeze theorem \(0\) ::@:: See [questions § final examination](questions.md#final%20examination).
+    - reappeared question \(0\) ::@:: See [questions § midterm examination](questions.md#midterm%20examination).
+  - question 4: integration to find the volume and surface area of a sphere
+    - integration to find the surface area of a sphere \(0\) ::@:: I simply integrate using spherical coordinates, while their solution treats the upper-half sphere as a function and calculates the surface area of its graph, and then multiply by 2.
+  - question 7: path integral on a conservative vector field
+    - path integral on a conservative vector field \(0\) ::@:: After proving the vector field is conservative, I tried to find its corresponding scalar function. But one of the function does not have an elementary antiderivative, so I simply kept the integration sign and found the required answer \(as the required answer only needs the path integral result\). <p> A smarter way used by the official solution is to simply use a straight line path different from the original path but with the same endpoints, which is much nicer as it does not need to find the corresponding scalar function.
+  - question 8: path integral using Stokes' theorem
+    - failed visualization \(0\) ::@:: I failed to properly visualize the path \(did not spend enough time on thinking about it\), and thus its enclosed surface. I visualized a circle that has its normal with _x_ and _z_ components as a circle that simply has its normal pointed with _z_ components only. Fortunately, the dot product with the curl of the vector field yields an odd function for the _x_ component, and the circle center is above the origin, so the final answer is still correct. \(And the TA did not catch it...\)
+    - Green's theorem & Stokes' theorem \(0\) ::@:: I wrote "Green's theorem" when  applying Stokes' theorem... To be fair, Green's theorem is a special case of Stokes' theorem. \(The TA caught it but did not deduct marks. Thanks!\)
 - check
-  - datetime: ?
-  - venue: ?
-  - report: ?
+  - datetime: 2025-06-02T09:00:00+08:00/2025-06-02T11:00:00+08:00, PT2H
+  - venue: Room 6573, Academic Building
+  - report: \(none\)
 
 > __<big><big>Final exam</big></big>__
 >
@@ -740,3 +762,17 @@ The content is in teaching order.
 ## aftermath
 
 ### total
+
+- grades: 93.6/100 → 93.6/100
+  - statistics
+    - timestamps: 2025-05-30T23+08:00 → 2025-06-02T14:15+08:00
+    - count: ? → ?
+    - mean: ? → 65.8
+    - standard deviation: ? → ?
+    - low: ? → 9.51
+    - lower quartile: ? → 45.89
+    - median: ? → 73.49
+    - upper quartile: ? → 86.55
+    - high: ? → 99.5
+    - distribution: ? → ?
+    - data: ? → ?

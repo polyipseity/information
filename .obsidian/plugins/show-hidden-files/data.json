@@ -7,7 +7,7 @@
   "showHiddenFiles": true,
   "showingRules": [
     "+/",
-    "-.git/",
-    "-.venv/"
+    "-/\\.git(?:\\/|$)/u",
+    "-/\\.venv(?:\\/|$)/u"
   ]
 }

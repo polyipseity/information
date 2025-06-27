@@ -960,7 +960,7 @@ tags:
 > 4. \$5.71
 >
 > - solution: {@{3}@}
-> - explanation: {@{$$2 \cdot 1.3^3 = \$4.394$$}@} <!--SR:!2025-07-17,26,418!2025-07-18,27,412-->
+> - explanation: {@{$$2 \cdot 1.3^3 \cdot 1.06 = \$4.65764$$}@} <!--SR:!2025-07-17,26,418!2025-07-18,27,412-->
 
 <!-- markdownlint MD028 -->
 
@@ -1043,7 +1043,7 @@ tags:
 > 4. 200 years
 >
 > - solution: {@{3}@}
-> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than the interval and higher than interval.}@} <!--SR:!2025-07-18,27,412!2025-07-17,26,418-->
+> - probability: {@{The 95% confidence interval is \[–15.72%, 29.72%\], so there is an about 5% probability that the future return lies outside this interval. However, this "outside" probability is split evenly between lower than and higher than the interval.}@} <!--SR:!2025-07-18,27,412!2025-07-17,26,418-->
 
 <!-- markdownlint MD028 -->
 

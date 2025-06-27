@@ -1,0 +1,1 @@
+Skolem normal form.md

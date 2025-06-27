@@ -141,7 +141,7 @@ tags:
 >
 >
 > 1. What are the optimal prices $p_1^*$ and $p_2^*$?
-> 2. If your company cooperates with the other company to maximize your total revenue, what are the optimal prices $p_1^*$ and $p_2^*$?
+> 2. If your company cooperates with the other company to maximize the total revenue, what are the optimal prices $p_1^*$ and $p_2^*$?
 >
 > ---
 >

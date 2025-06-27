@@ -24,7 +24,8 @@ tags:
 - [DASC 2210](DASC%202210/index.md): A Survey on Big Data in Science and Society (1 credit)
 - [GNED 2510](GNED%202510/index.md): Career Building
 - HMAW 1905B (fall): Behavioral Foundations of University Education: Habits, Mindsets, and Wellness (1 credit)
-- LANG 1402 (transferred): English for University Studies (3 credits)
+- LANG 1402: English for University Studies (3 credits)
+  - transferred
 - [LANG 1403A](LANG%201403A/index.md): Academic English for University Studies (3 credits)
 - LEGL 1000: Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance) (0 credits)
 - [MATH 1013](MATH%201013/index.md): Calculus IB (3 credits)
@@ -50,11 +51,12 @@ tags:
 
 ### 2024 summer
 
-- HUMA 1000HMCC (transferred: [Korea University](../Korea%20University/index.md), [ISC117](../Korea%20University/ISC117/index.md), Introduction to Korean Studies): 1000-level Course in Humanities (3 credits)
+- HUMA 1000HMCC: 1000-level Course in Humanities (3 credits)
+  - transferred: [Korea University](../Korea%20University/index.md): [ISC117](../Korea%20University/ISC117/index.md): Introduction to Korean Studies
 - [PHYS 1002](PHYS%201002/index.md): Introduction to Astrophysics and Astronomy (3 credits)
 - UROP 1000: Undergraduate Research Opportunities (0 credits)
 
-#### 2024 fall
+### 2024 fall
 
 - [ACCT 2010](ACCT%202010/index.md): Principles of Accounting I (3 credits)
 - [COMP 2211](COMP%202211/index.md): Exploring Artificial Intelligence (3 credits)
@@ -70,6 +72,8 @@ tags:
 - [ISOM 2020](ISOM%202020/index.md): Coding for Business (1 credit)
 - [MATH 2411](MATH%202411/index.md): Applied Statistics (4 credits)
 - [TEMG 1010](TEMG%201010/index.md) (recurrent): T&M Professional Activities (0 credits)
+
+### 2025 spring
 
 ## groups
 

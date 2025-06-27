@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="800"
+   height="600"
+   viewBox="0 0 5195.8594 7680"
+   id="svg2186">
+  <title
+     id="title4356">Runge's theorem</title>
+  <metadata
+     id="metadata2465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Runge's theorem</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Oleg Alexandrov</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2463" />
+  <g
+     transform="matrix(1.842356,0,0,1.842356,-2821.5608,-11752.994)"
+     id="g2335">
+    <path
+       d="m 3725.9867,8767.9734 c 626.464,120.6296 645.195,443.3101 479.978,635.5124 -165.2171,192.2023 -483.1041,298.4749 -837.4793,182.4156 -354.3752,-116.0593 -268.9626,-938.5577 357.5013,-817.928 z M 1547.8869,8207.1106 c 650.0014,-244.2014 726.4238,417.7906 674.1624,682.5875 -52.2614,264.7968 -495.7856,370.7155 -796.2887,158.878 -300.5032,-211.8375 -527.87518,-597.264 122.1263,-841.4655 z m 1960.786,-871.6681 c 585.4953,-244.2016 650.6093,164.7625 603.5343,429.5593 -47.075,264.7969 -397.5812,688.4718 -668.2625,476.6343 -270.6811,-211.8374 -520.767,-661.9921 64.7282,-906.1936 z M 1379.9988,10051.654 c 261.8872,169.751 566.8748,286.64 884.9961,350.425 316.1435,65.897 643.1404,103.792 968.505,80.525 189.7598,-13.421 379.4525,-34.137 565.3129,-70.43 285.103,-58.978 554.7427,-169.12 792.606,-317.127 171.3707,-99.9322 325.2581,-221.2329 459.6001,-357.0254 152.1662,-151.421 286.4808,-317.0334 388.2849,-497.7638 133.8004,-232.9561 215.4017,-489.7778 222.1049,-750.6243 9.3272,-252.2681 -58.2237,-502.5132 -160.8336,-737.2506 -132.9437,-299.3308 -331.646,-577.6308 -588.1548,-809.2867 -209.4749,-188.987 -471.0652,-337.3041 -762.6236,-410.7771 -209.2843,-52.6551 -429.1269,-71.6301 -646.5772,-65.1973 -230.607,10.3821 -460.2045,66.2858 -659.128,168.6587 -228.4747,124.3198 -385.4075,319.0467 -563.2171,490.0039 -95.8976,93.5378 -212.8705,179.5551 -357.4414,206.9273 -140.6301,29.7334 -286.2482,36.5244 -430.4749,39.3566 -239.8,2.7716 -482.3861,-19.4277 -719.64944,20.3958 -160.45653,27.3649 -318.51196,96.2394 -412.09148,216.1752 -109.55994,132.8389 -147.90097,300.2982 -139.01181,461.2308 8.16848,245.9128 76.32317,487.9412 172.87258,718.3687 114.07833,267.5555 252.03577,529.9759 443.95943,762.9093 138.80707,172.3217 300.45302,331.8372 488.01162,465.5249 17.3869,11.951 35.416,23.19 52.9498,34.981 z"
+       id="set"
+       style="fill:#00d1d1;fill-opacity:1;fill-rule:evenodd;stroke:#00006b;stroke-width:55.5810051;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>

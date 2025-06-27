@@ -28,4 +28,8 @@ tags:
 
 ## midterm examination
 
-- Find the limit at $(0, 0)$ $$f(x, y) = \frac {x^{2024} y^{2025} } {x^{4048} + y^{4050} }$$ if it exists, or show that the limit does not exist. ::@:: Let $a = x^{2024}$ and $b = y^{2025}$, then it becomes $$\frac {ab} {a^2 + b^2} \,,$$ which is much easier to see that there is no limit. The proof proceeds analogously to questions above. <!--SR:!2025-09-05,75,345!2025-09-04,74,345-->
+- Find the limit at $(0, 0)$ for $$f(x, y) = \frac {x^{2024} y^{2025} } {x^{4048} + y^{4050} }$$ if it exists, or show that the limit does not exist. ::@:: Let $a = x^{2024}$ and $b = y^{2025}$, then it becomes $$\frac {ab} {a^2 + b^2} \,,$$ which is much easier to see that there is no limit. The proof proceeds analogously to questions above. <!--SR:!2025-09-05,75,345!2025-09-04,74,345-->
+
+## final examination
+
+- Find the limit at $(0, 0, 0, 0)$ for $$f(a, b, c, d) = \frac {abcd} {a^2 + b^2 + c^2 + d^2}$$ if it exists, or show that the limit does not exist. ::@:: Noting $a^2, b^2, c^2, d^2 \ge \sqrt{abcd}$, prove using squeeze theorem: $$\frac {\lvert abcd \rvert} {a^2 + b^2 + c^2 + d^2} \le \frac {\lvert abcd \rvert} {4 \sqrt{abcd} } = \frac 1 4 \sqrt{abcd} \,.$$ Then obviously the limit is 0. <p> Alternatively, use a epsilon—delta-style proof. Consider a 4D sphere of radius $r > 0$. On that sphere, $a^2 + b^2 + c^2 + d^2 = r^2$ and $a^2, b^2, c^2, d^2 \le r^2$. Then, $$\frac {\lvert abcd \rvert} {a^2 + b^2 + c^2 + d^2} \le \frac {r^4} {r^2} = r^2 \,.$$ Then as $r \to 0$, the limit is 0.
