@@ -37,7 +37,7 @@ tags:
 
 # simply connected space
 
-In {@{[topology](topology.md)}@}, {@{a [topological space](topological%20space.md) is called __simply connected__ \(or __1-connected__, or __1-simply connected__}@}<sup>[\[1\]](#^ref-1)</sup>\) if it is {@{[path-connected](path-connected.md#path%20connectedness) \(annotation: 0-connected\)}@} and {@{every [path](path%20(topology).md) between two points can be continuously transformed into any other such path while preserving the two endpoints in question}@}. Intuitively, this corresponds to {@{a space that has no disjoint parts and no holes that go completely through it}@}, because {@{two paths going around different sides of such a hole cannot be continuously transformed into each other}@}. {@{The [fundamental group](fundamental%20group.md) of a topological space}@} is {@{an indicator of the failure for the space to be simply connected}@}: {@{a path-connected topological space is simply connected}@} if and only if {@{its fundamental group is trivial}@}. <!--SR:!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270-->
+In {@{[topology](topology.md)}@}, {@{a [topological space](topological%20space.md) is called __simply connected__ \(or __1-connected__, or __1-simply connected__<sup>[\[1\]](#^ref-1)</sup>\)}@} if it is {@{[path-connected](path-connected.md#path%20connectedness) \(annotation: 0-connected\)}@} and {@{every [path](path%20(topology).md) between two points can be continuously transformed into any other such path while preserving the two endpoints in question}@}. Intuitively, this corresponds to {@{a space that has no disjoint parts and no holes that go completely through it}@}, because {@{two paths going around different sides of such a hole cannot be continuously transformed into each other}@}. {@{The [fundamental group](fundamental%20group.md) of a topological space}@} is {@{an indicator of the failure for the space to be simply connected}@}: {@{a path-connected topological space is simply connected}@} if and only if {@{its fundamental group is trivial}@}. <!--SR:!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270-->
 
 ## definition and equivalent formulations
 
@@ -97,7 +97,7 @@ If {@{$X$ and $Y$ are [homotopy equivalent](homotopy%20equivalent.md#homotopy%20
 
 ## see also
 
-- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation; in the subspace\) mapping from a topological space into a subspace <!--SR:!2025-07-01,4,270!2025-07-01,4,270-->
+- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!2025-07-01,4,270!2025-07-01,4,270-->
 - [Locally simply connected space](locally%20simply%20connected%20space.md)
 - [n-connected space](n-connected%20space.md)
 - [Unicoherent space](unicoherent%20space.md)

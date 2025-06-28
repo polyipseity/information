@@ -602,7 +602,7 @@ async def wiki_html_to_plaintext(
 async def main() -> None:
     refs = "--no-refs" not in argv[1:]
 
-    input("HTML? (will read from clipboard)")
+    input("HTML (will read from clipboard)? ")
     html_text = paste_html()  # type: ignore
     assert isinstance(html_text, str)
 

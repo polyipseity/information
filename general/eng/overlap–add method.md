@@ -74,15 +74,13 @@ When {@{the DFT and IDFT are implemented by the FFT algorithm}@}, the pseudocode
 
 For example, when {@{$M=201$ and $N=1024$}@}, __[Eq.3](#math%20Eq.3)__ {@{equals $13.67$}@}, whereas {@{direct evaluation of __[Eq.1](#math%20Eq.1)__ \(annotation: applying the convolution definition directly\)}@} would {@{require up to $201$ complex multiplications per output sample}@}, the worst case being when {@{both $x$ and $h$ are complex-valued}@}. Also note that for {@{any given $M$}@}, __[Eq.3](#math%20Eq.3)__ has {@{a minimum with respect to $N$}@}. Figure 2 is a graph of {@{the values of $N$ that minimize __[Eq.3](#math%20Eq.3)__ for a range of filter lengths \($M$\)}@}. <!--SR:!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288-->
 
-Instead of {@{__[Eq.1](#math%20Eq.1)__}@}, we can also consider {@{applying __[Eq.2](#math%20Eq.2)__ to a long sequence of length $N_{x}$ samples \(annotation: applying the circular convolution theorem\)}@}. {@{The total number of complex multiplications}@} would be: {@{$$N_{x}\cdot (\log _{2}(N_{x})+1).$$}@} <!--SR:!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,278-->
-
-Comparatively, {@{the number of complex multiplications}@} required by the pseudocode algorithm is: {@{$$N_{x}\cdot (\log _{2}(N)+1)\cdot {\frac {N}{N-M+1} }.$$}@} <!--SR:!2025-07-01,4,288!2025-07-02,4,278-->
+Instead of {@{__[Eq.1](#math%20Eq.1)__}@}, we can also consider {@{applying __[Eq.2](#math%20Eq.2)__ to a long sequence of length $N_{x}$ samples \(annotation: applying the circular convolution theorem and the FFT\)}@}. {@{The total number of complex multiplications}@} would be: {@{$$N_{x}\cdot (\log _{2}(N_{x})+1).$$}@} Comparatively, {@{the number of complex multiplications}@} required by the pseudocode algorithm is: {@{$$N_{x}\cdot (\log _{2}(N)+1)\cdot {\frac {N}{N-M+1} }.$$}@} <!--SR:!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,278!2025-07-01,4,288!2025-07-02,4,278-->
 
 Hence {@{the _cost_ of the overlap–add method}@} scales almost as {@{$O\left(N_{x}\log _{2}N\right)$}@} while {@{the cost of a single, large circular convolution}@} is almost {@{$O\left(N_{x}\log _{2}N_{x}\right)$}@}. {@{The two methods are also compared}@} in {@{Figure 3, created by Matlab simulation}@}. {@{The contours}@} are {@{lines of constant ratio of the times it takes to perform both methods}@}. When {@{the overlap-add method is faster}@}, the ratio {@{exceeds 1}@}, and ratios as high as {@{3 are seen}@}. <!--SR:!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,278!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288-->
 
 > {@{![Fig 3: Gain of the overlap-add method compared to a single, large circular convolution.](../../archives/Wikimedia%20Commons/Gain%20oa%20method.png)}@}
 >
-> Fig 3: Gain of {@{the overlap-add method compared to a single, large circular convolution}@}. The axes show {@{values of signal length N<sub>x</sub> and filter length N<sub>h</sub>}@}. <!--SR:!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288-->
+> Fig 3: Gain of {@{the overlap-add method compared to a single, large circular convolution \(annotation: created by MATLAB simulation\)}@}. The axes show {@{values of signal length N<sub>x</sub> and filter length N<sub>h</sub>}@}. <!--SR:!2025-07-01,4,288!2025-07-01,4,288!2025-07-01,4,288-->
 
 ## see also
 

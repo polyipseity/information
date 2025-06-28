@@ -109,7 +109,7 @@ In the case of {@{harmonic, quasi-periodic musical tones}@}, {@{[wavetable synth
 
 ## additive analysis/resynthesis
 
-> {@{![Sinusoidal analysis/synthesis system for Sinusoidal Modeling](../../archives/Wikimedia%20Commons/Sinusoidal%20Analysis%20%26%20Synthesis%20%28McAulay-Quatieri%201988%29.svg)}@}
+> {@{![Sinusoidal analysis/synthesis system for Sinusoidal Modeling](../../archives/Wikimedia%20Commons/Sinusoidal%20Analysis%20&%20Synthesis%20%28McAulay-Quatieri%201988%29.svg)}@}
 >
 > {@{Sinusoidal analysis/synthesis system for Sinusoidal Modeling}@} \(based on {@{[McAulay & Quatieri 1988](#CITEREFMcAulayQuatieri1988), p. 161}@}\)<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-07-01,4,270!2025-07-01,4,270!2025-07-01,4,270-->
 
