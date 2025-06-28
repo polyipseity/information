@@ -11,4 +11,4 @@ tags:
 
 - see: [general/spectrogram](../../general/spectrogram.md)
 
-A __spectrogram__ visualizes {@{the spectrum \(power\) of frequencies of a signal as it varies with time}@}.
+A __spectrogram__ visualizes {@{the spectrum \(power\) of frequencies of a signal as it varies with time}@}. <!--SR:!2025-07-01,4,270-->

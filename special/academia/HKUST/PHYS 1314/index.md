@@ -915,14 +915,14 @@ The content is in teaching order.
     - distribution: ![final examination distribution](attachments/final%20examination%20analysis.svg) → ?
     - data: [final examination data.csv](attachments/final%20examination%20data.csv) → ?
 - report
-  - time limit ::@:: It was okay. Mainly because I did not know how to solve one problem.
-  - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught...
-  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this...
+  - time limit ::@:: It was okay. Mainly because I did not know how to solve one problem. <!--SR:!2025-07-03,6,427!2025-07-03,6,427-->
+  - coupled capacitors \(–7\) ::@:: Apply KVL to the two meshes. Find solutions for $I_1$ and $I_2$ that satisfy both equations. One way is multiplying the two differential equations together, and then picking solutions satisfying both differential equations. <p> It may be simpler to do so in the _s_-domain, but this is untaught... <!--SR:!2025-07-03,6,427!2025-07-03,6,427-->
+  - algebraic manipulation \(–3\) ::@:: Nicer handwriting would certainly help with this... <!--SR:!2025-07-03,6,427!2025-07-03,6,427-->
 - check
   - datetime: 2025-06-02T14:00:00+08:00/2025-06-02T16:00:00+08:00, PT2H
   - venue: Room 4418, Academic Building
   - report
-    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order.
+    - out-of-order answers \(+2\) ::@:: Not really a good idea to answer sub-questions out of order. <!--SR:!2025-07-03,6,427!2025-07-03,6,427-->
 
 > __<big><big>\[Final Exam\] Important Information</big></big>__
 >

@@ -21,7 +21,7 @@ Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2025-09-15,310,349-
 
 ### effects \(Audacity\)
 
-Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@}
+Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@} <!--SR:!2025-07-01,4,335!2025-07-01,4,335-->
 
 ### generating periodic signals
 
@@ -37,11 +37,11 @@ SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude s
 
 ### pitch detection \(SonicVisualiser\)
 
-SonicVisualiser supports {@{many pitch detection algorithms}@}.
+SonicVisualiser supports {@{many pitch detection algorithms}@}. <!--SR:!2025-07-01,4,335-->
 
 ### plugins \(SonicVisualiser\)
 
-SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}.
+SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}. <!--SR:!2025-07-01,4,335!2025-07-01,4,335-->
 
 ## sms-tools
 
@@ -49,11 +49,11 @@ SonicVisualiser supports {@{many plugins to perform many extra functions}@}, whi
 
 ### analysis (sms-tools)
 
-`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}. <!--SR:!2025-10-02,324,349--> It also supports using {@{models to analyze a sound}@}, e.g. {@{STFT model, sinusoidal model, etc.}@}
+`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}.  It also supports using {@{models to analyze a sound}@}, e.g. {@{STFT model, sinusoidal model, etc.}@} <!--SR:!2025-10-02,324,349!2025-07-01,4,335!2025-07-01,4,335-->
 
 ### synthesis (sms-tools)
 
-`sms-tools` support {@{many synthesis models}@}, e.g. {@{STFT model, sinusoidal model, etc.}@}
+`sms-tools` support {@{many synthesis models}@}, e.g. {@{STFT model, sinusoidal model, etc.}@} <!--SR:!2025-07-01,4,335!2025-07-01,4,335-->
 
 ## Freesound
 
@@ -61,4 +61,4 @@ Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its 
 
 ### advanced search
 
-Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@}
+Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@} <!--SR:!2025-07-01,4,335!2025-07-01,4,335-->

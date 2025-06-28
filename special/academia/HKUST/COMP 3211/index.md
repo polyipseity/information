@@ -934,7 +934,7 @@ The content is in teaching order.
   - generic separate-and-conquer algorithm / inputs ::@:: A database. Each column is an atom \(property\). One of the column is the _label_. The remaining columns are the _features_. Each row is a data entry, containing a _boolean_ value for each column. <p> We will learn rules for the label from the features. <!--SR:!2025-07-22,27,412!2025-07-24,28,416-->
   - generic separate-and-conquer algorithm / steps ::@:: Initialize an empty set for storing Horn clauses. While the set of rules \(Horn clauses\) do not cover all data with positive _label_ $\ell$, find a new rule using the following steps: <p> Initialize an _temporary_ database that excludes data already covered by the existing Horn clauses. Initialize an empty rule: $\set{} \supset \ell$. While the new rule covers any negative _label_ $\lnot \ell$ in the _temporary_ database, select an unused column according to some _heuristic_ and add it to the new rule premise using conjunction $\land$. Finally, add the new rule to the set of rules. <p> \(__this course__: The above steps checks the condition _before_ running the two "while"-loops. The steps in the lecture slides checks the condition _after_ running the two "while"-loops. This may matter in exams... The lecture slides also update the temporary database differently.\) <!--SR:!2025-07-24,28,412!2025-07-24,28,416-->
   - generic separate-and-conquer algorithm / heuristic ::@:: To select an unused column to add to the new rule, we need a _heuristic_. <p> Consider the temporary database; that is, rows that is not covered by the existing set of rules \(excluding the new rule currently being added\). Then, consider part of the temporary database covered by the new rule right now. Usually, there should be both positive rows and negative rows. <p> For each unused column $a$, calculate the ratio: $$r_a = \frac {n_a^+} {n_a} = \frac {\#(a = 1, \gamma = 1)} {\#(a = 1)} \,.$$ Then choose the column with the highest ratio $r_a$, tiebreaking with a different criterion \(e.g. $\#(a = 1)$\). \(If $r_a = 1$, this also implies after adding this column, the new rule will then be added to the set of rules.\) <!--SR:!2025-07-16,20,392!2025-07-11,19,396-->
-  - generic separate-and-conquer algorithm / failure ::@:: It can fail to find rules or Horn clauses from a dataset. This is because rules or Horn clauses cannot contain negative literals as rule premises. <p> The simplest example dataset consists of two rows each with two features \(first two values\) and one label \(the last value\): <p> - \(true, false, true\) <br/> - \(true, true, false\) <p> \(__this course__: Try to run the algorithm up until the point of failure. Then explain why it fails, _explicitly_ mentioning that GSCA cannot learn _negative literals_.\)
+  - generic separate-and-conquer algorithm / failure ::@:: It can fail to find rules or Horn clauses from a dataset. This is because rules or Horn clauses cannot contain negative literals as rule premises. <p> The simplest example dataset consists of two rows each with two features \(first two values\) and one label \(the last value\): <p> - \(true, false, true\) <br/> - \(true, true, false\) <p> \(__this course__: Try to run the algorithm up until the point of failure. Then explain why it fails, _explicitly_ mentioning that GSCA cannot learn _negative literals_.\) <!--SR:!2025-07-02,5,408!2025-07-02,5,408-->
 
 > Dear All,
 >
@@ -1035,18 +1035,18 @@ The content is in teaching order.
     - data: ? → ?
 - report
   - question 5: auction
-    - proving Nash equilibria of second-price sealed-bid auction \(−8\) ::@:: Maybe you could look up the Nash equilibria of SPSBA beforehand...
+    - proving Nash equilibria of second-price sealed-bid auction \(−8\) ::@:: Maybe you could look up the Nash equilibria of SPSBA beforehand... <!--SR:!2025-07-02,5,408!2025-07-02,5,408-->
   - question 6: logic
-    - declaring propositions \(−1\) ::@:: When axiomatizing natural text, you need to state the propositions.
-    - declaring answer predicate \(−0.5\) ::@:: You need to declare what the answer predicate $A(x)$ is, not just simply use it.
+    - declaring propositions \(−1\) ::@:: When axiomatizing natural text, you need to state the propositions. <!--SR:!2025-07-02,5,408!2025-07-02,5,408-->
+    - declaring answer predicate \(−0.5\) ::@:: You need to declare what the answer predicate $A(x)$ is, not just simply use it. <!--SR:!2025-07-02,5,408!2025-07-02,5,408-->
   - question 7: perceptron and GSCA
-    - explaining GSCA failure \(−1\) ::@:: You need to _explicitly_ state that GSCA cannot learn negative literals.
+    - explaining GSCA failure \(−1\) ::@:: You need to _explicitly_ state that GSCA cannot learn negative literals. <!--SR:!2025-07-02,5,408!2025-07-02,5,408-->
 - check
   - datetime: 2025-06-02T13:30:00+08:00/2025-06-02T15:30:00+08:00, PT2H
   - venue: Room 6573, Academic Building
   - report
   - question 6: logic
-    - using answer predicate \(+1\) ::@:: No idea why one of the correct answers Zoey was marked wrong...?
+    - using answer predicate \(+1\) ::@:: No idea why one of the correct answers Zoey was marked wrong...? <!--SR:!2025-07-02,5,408!2025-07-02,5,408-->
 
 > __<big><big>Final Exam Information and Past Final Exam Papers</big></big>__
 >
