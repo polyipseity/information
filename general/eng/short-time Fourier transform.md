@@ -41,7 +41,7 @@ If {@{only a small number of ω are desired}@}, or if {@{the STFT is desired to 
 
 ## inverse STFT
 
-The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by {using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}.
+The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}.
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### continuous-time STFT
@@ -56,7 +56,7 @@ So the Fourier transform can be seen as {@{a sort of phase coherent sum of all o
 
 {@{An alternative definition}@} that is {@{valid only in the vicinity of τ}@}, {@{the inverse transform}@} is: {@{$$x(t)={\frac {1}{w(t-\tau )} }{\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\omega .$$}@}
 
-In general, {@{the window function $w(t)$}@} has the following properties: \(annotation: 3 items: {@{even symmetry, non-increasing \(for positive time\),compact support}@}\)
+In general, {@{the window function $w(t)$}@} has the following properties: \(annotation: 3 items: {@{even symmetry, non-increasing \(for positive time\), compact support}@}\)
 
 - \(a\) even symmetry: ::@:: $w(t)=w(-t)$;
 - \(b\) non-increasing \(for positive time\): ::@:: $w(t)\geq w(s)$ if $|t|\leq |s|$;
@@ -107,7 +107,7 @@ Using {@{the following sample signal $x(t)$}@} that is {@{composed of a set of f
 >
 > \(annotation: {@{Gaussian window function used below}@}\)
 
-Other examples: {@{$$w(t)=\exp(\sigma -t^{2})$$}@} Normally we call {@{$exp(\sigma -t^{2})$ a [Gaussian function](Gaussian%20function.md) or Gabor function}@}. When we use it, the short-time Fourier transform is called {@{the "Gabor transform"}@}.
+Other examples: {@{$$w(t)=\exp(\sigma -t^{2}) = e^{\sigma} e^{-t^2}$$}@} Normally we call {@{$\exp(\sigma -t^{2})$ a [Gaussian function](Gaussian%20function.md) or Gabor function}@}. When we use it, the short-time Fourier transform is called {@{the "Gabor transform"}@}.
 
 ### explanation
 
@@ -159,7 +159,7 @@ a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta 
 - b. \(annotation: non-overlapping\) <!-- flashcard ID: 79e97c91-2df8-4cc5-b134-2683023f6642 -->::@:: $N\geq 2Q+1$
 - c. Nyquist criterion \(avoiding the aliasing effect\): <p> <!-- flashcard ID: dc84b487-1291-4d3f-8168-226cdf907ce4 -->::@:: &emsp; $\Delta _{t}<{\frac {1}{2\Omega } }$, $\Omega$ is the bandwidth of $x(\tau )w(t-\tau )$ \(annotation: The max frequency is $\Omega$; we need the sampling rate to be twice of it, so sampling duration $\Delta t$ should be less than $1 / 2\Omega$.\)
 
-{@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-{\frac {2\pi jpm}{N} } }\Delta _{t}$$}@} If we have {@{$q=p-(n-Q)$, then $p=(n-Q)+q$}@}: {@{$$X(n\Delta _{t},m\Delta _{f})=\Delta _{t}e^{\frac {2\pi j(Q-n)m}{N} }\sum _{q=0}^{N-1}x_{1}(q)e^{-{\frac {2\pi jqm}{N} } } \,,$$}@} where {@{$$x_{1}(q)={\begin{cases}w((Q-q)\Delta _{t})x((n-Q+q)\Delta _{t})&0\leq q\leq 2Q\\0&2Q<q<N\end{cases} }$$}@} \(annotation: The motivation is {@{shifting the windowed time signal \(window width is $2Q + 1$\) such that it starts from $t = 0$}@}.\)
+{@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-{\frac {2\pi jpm}{N} } }\Delta _{t}$$}@} If we have {@{$q=p-(n-Q)$, then $p=(n-Q)+q$}@}: {@{$$X(n\Delta _{t},m\Delta _{f})=\Delta _{t}e^{\frac {2\pi j(Q-n)m}{N} }\sum _{q=0}^{N-1}x_{1}(q)e^{-{\frac {2\pi jqm}{N} } } \,,$$}@} where {@{$$x_{1}(q)={\begin{cases}w((Q-q)\Delta _{t})x((n-Q+q)\Delta _{t})&0\leq q\leq 2Q\\0&2Q<q<N\end{cases} }$$}@} \(annotation: The motivation is {@{shifting the zero-center-windowed time signal \(window width is $2Q + 1$\) such that it starts from $q = 0$ to apply FFT}@}.\)
 
 ### recursive method
 

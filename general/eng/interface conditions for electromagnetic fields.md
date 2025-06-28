@@ -24,7 +24,7 @@ However, {@{the interface conditions for the electromagnetic field vectors}@} ca
 \(annotation: $\mathbf E$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$
 
 where: <br/>
-$\mathbf {n} _{12}$ ::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2.
+$\mathbf {n} _{12}$ <!-- flashcard ID: 89355df4-5adb-4753-a348-713d05c62a3b -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2.
 
 Therefore, {@{the [tangential component](tangential%20component.md) of __E__}@} is {@{continuous across the interface}@}.
 
@@ -62,7 +62,7 @@ Therefore, {@{the normal component of __D__}@} has {@{a step of surface charge o
 \(annotation: $\mathbf B$\) ::@:: $$(\mathbf {B} _{2}-\mathbf {B} _{1})\cdot \mathbf {n} _{12}=0$$
 
 where: <br/>
-$\mathbf {n} _{12}$ ::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2.
+$\mathbf {n} _{12}$ <!-- flashcard ID: 60a2ea19-b133-459c-889e-e4e159632daa -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2.
 
 Therefore, {@{the normal component of __B__}@} is {@{continuous across the interface \(the same in both media\)}@}.
 
@@ -71,7 +71,7 @@ Therefore, {@{the normal component of __B__}@} is {@{continuous across the inter
 \(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$
 
 where: <br/>
-$\mathbf {n} _{12}$ ::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/>
+$\mathbf {n} _{12}$ <!-- flashcard ID: 88bd7276-524c-48b2-b4d0-224cd3b21e56 -->::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/>
 $\mathbf {j} _{s}$ ::@:: is the surface [current density](current%20density.md) between the two media \(unbounded current only, not coming from polarisation of the materials\).
 
 Therefore, {@{the [tangential component](tangential%20component.md) of __H__}@} is {@{discontinuous across the interface by an amount equal to the magnitude of the surface current density}@}. {@{The normal components of __H__ in the two media}@} are {@{in the ratio of the permeabilities}@}.<sup>[\[1\]](#^ref-1)</sup>

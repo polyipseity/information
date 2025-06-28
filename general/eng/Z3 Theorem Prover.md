@@ -81,12 +81,12 @@ The following script solves {@{the two given equations}@}, finding {@{suitable v
 > __code flashcards__
 >
 > <pre>
-> {@{(declare-const a Int)}@}`
-> {@{(declare-const b Int)}@}`
-> {@{(assert (= (+ a b) 20))}@}`
-> {@{(assert (= (+ a (* 2 b)) 10))}@}`
-> {@{(check-sat)}@}`
-> {@{(get-model)}@}`
+> {@{(declare-const a Int)}@}
+> {@{(declare-const b Int)}@}
+> {@{(assert (= (+ a b) 20))}@}
+> {@{(assert (= (+ a (* 2 b)) 10))}@}
+> {@{(check-sat)}@}
+> {@{(get-model)}@}
 > </pre>
 
 Result: \(annotation: {@{`sat`}@}\)
