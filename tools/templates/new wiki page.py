@@ -1,18 +1,19 @@
-from itertools import chain
-from typing import Callable, Mapping
 from anyio import Path
 from asyncio import run
+from itertools import chain
 from pyperclip import copy  # type: ignore
 from re import Pattern, compile, escape
+from typing import Callable, Mapping
+from unicodedata import normalize
 
 
 async def main() -> None:
-    name = input("Name? ").strip()
+    name = normalize("NFC", input("Name? ")).strip()
 
     template = await Path(__file__).with_suffix(".md.txt").read_text()
 
     tag_replacements = {"–": "-", "—": "-"}
-    tag_name = compile(r"[^A-Za-z0-9_-]").sub(
+    tag_name = compile(r"[^A-Za-z0-9À-ÿ_-]").sub(
         lambda match: tag_replacements.get(match[0], "_"), name
     )  # https://help.obsidian.md/Editing+and+formatting/Tags#Tag+format
     if not tag_name or tag_name.isnumeric():
