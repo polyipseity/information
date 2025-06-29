@@ -420,7 +420,7 @@ async def wiki_html_to_plaintext(
                         )
 
                     embed = "!" if {"mw-tmh-player"} & classes else ""
-                    return f"{embed}[{strings}]({src_url_str})"
+                    return f"{embed}[{strings.strip()}]({src_url_str})"
 
                 suffix = "\n\n"
                 process_strings = process_strings_audio
@@ -455,6 +455,7 @@ async def wiki_html_to_plaintext(
                 process_strings = process_strings_img
         # links
         case _ if ele.name == "a" and "mw-file-description" not in classes:
+            process = True
             if (title := ele.get("title")) and title not in _BAD_TITLES:
                 title = str(title)
                 if "new" in classes:
@@ -543,6 +544,15 @@ async def wiki_html_to_plaintext(
                         _fix_name_maybe(href[href.index("#") + 1 :])
                     )
                 prefix, suffix = "[", f"]({href})"
+            else:
+                process = False
+
+            if process:
+
+                def process_strings_a(strings: str):
+                    return strings.strip()
+
+                process_strings = process_strings_a
         # unhandled tags
         case _:
             pass
