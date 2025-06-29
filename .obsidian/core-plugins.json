@@ -17,7 +17,7 @@
   "page-preview": true,
   "properties": true,
   "publish": false,
-  "random-note": false,
+  "random-note": true,
   "slash-command": true,
   "slides": false,
   "switcher": true,
