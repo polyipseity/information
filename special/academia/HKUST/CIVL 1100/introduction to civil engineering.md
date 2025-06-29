@@ -38,7 +38,7 @@ The content is in teaching order.
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2028-09-18,1181,320!2027-05-07,867,372-->
-    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2025-06-29,343,367-->
+    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
     - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
@@ -54,7 +54,7 @@ The content is in teaching order.
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2025-06-28,368,350-->
+  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2030-05-01,1767,370-->
   - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2027-03-04,757,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
@@ -740,7 +740,7 @@ tunnel
 
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
+- _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2030-01-18,1664,400-->
 - embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2027-04-14,785,360-->
 - pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
 - shallow foundation→::@::←tunnel <!--SR:!2025-09-06,333,321!2025-11-26,316,232-->

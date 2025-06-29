@@ -186,7 +186,7 @@ For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@
 
 Lifting of limits is clearly {@{related to preservation of limits}@}. If {@{_G_ lifts limits for a diagram _F_ and _GF_ has a limit}@}, then {@{_F_ also has a limit and _G_ preserves the limits of _F_ (annotation: note that limits are essentially unique up to unique isomorphisms)}@}. It follows that: <!--SR:!2025-09-29,180,310!2025-08-28,155,313!2025-11-21,198,278-->
 
-- If _G_ lifts limits of all shape _J_ and _D_ has all limits of shape _J_, ::@:: then _C_ also has all limits of shape _J_ and _G_ preserves these limits. <!--SR:!2025-06-29,109,293!2025-10-28,179,265-->
+- If _G_ lifts limits of all shape _J_ and _D_ has all limits of shape _J_, ::@:: then _C_ also has all limits of shape _J_ and _G_ preserves these limits. <!--SR:!2026-05-19,324,293!2025-10-28,179,265-->
 - If _G_ lifts all small limits and _D_ is complete, ::@:: then _C_ is also complete and _G_ is continuous. <!--SR:!2025-10-31,182,265!2025-07-03,113,298-->
 
 The dual statements {@{for colimits are equally valid}@}. <!--SR:!2026-04-20,361,358-->

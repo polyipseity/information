@@ -31,5 +31,5 @@ tags:
 - toggle program on taskbar::@::⊞Win+(taskbar #) <!--SR:!2031-02-02,2126,290!2026-08-17,894,270-->
 - open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2025-07-23,205,210!2025-11-12,257,250-->
 - cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2027-11-04,997,230!2026-06-30,570,210-->
-- peek at desktop::@::⊞Win+Comma <!--SR:!2027-11-01,1058,270!2025-06-28,574,270-->
+- peek at desktop::@::⊞Win+Comma <!--SR:!2027-11-01,1058,270!2031-06-02,2164,290-->
 - manage external displays::@::⊞Win+P <!--SR:!2027-08-05,1009,250!2025-09-06,519,250-->

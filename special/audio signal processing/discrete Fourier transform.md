@@ -45,7 +45,7 @@ The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\}
 
 - see: [general/discrete Fourier transform § shift theorem](../../general/discrete%20Fourier%20transform.md#shift%20theorem)
 
-{@{Shifting the signal in the time domain to the right by $n_0$ samples}@} corresponds to {@{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}@}. This can be shown {@{directly from the definition}@}. <!--SR:!2025-06-28,228,346!2025-07-21,90,306!2025-09-28,319,366-->
+{@{Shifting the signal in the time domain to the right by $n_0$ samples}@} corresponds to {@{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}@}. This can be shown {@{directly from the definition}@}. <!--SR:!2027-08-25,787,346!2025-07-21,90,306!2025-09-28,319,366-->
 
 This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {@{its time offset}@}. Shifting a signal to the right (with warping) in the time domain {@{increases the time offset for all frequencies}@}. This means the complex number for each frequency is {@{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}@}. This corresponds to {@{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}@}. <!--SR:!2025-09-25,317,366!2027-02-20,697,346!2027-03-02,638,326!2027-02-27,635,326-->
 

@@ -22,9 +22,9 @@ tags:
 ## format
 
 - header ::@:: company name, `(Consolidated) Statement of Stockholders' Equity`, duration, (monetary unit) <!--SR:!2025-12-02,276,330!2026-09-09,462,310-->
-  - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2025-12-16,286,330!2025-06-29,150,310-->
+  - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2025-12-16,286,330!2027-04-03,643,330-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2025-11-27,272,330!2025-11-01,251,330-->
-- dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2025-12-14,284,330!2025-06-28,115,270-->
+- dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2025-12-14,284,330!2026-09-06,434,290-->
 - total ::@:: Calculate the total for each column and each row. <!--SR:!2025-12-15,285,330!2025-12-17,287,330-->
   - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2026-04-15,350,290!2025-11-05,255,330-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-12-20,290,330!2025-11-17,263,330-->
@@ -32,7 +32,7 @@ tags:
 - (root) ::@:: description: 1 column <br/> common stock: 1 column <br/> additional paid-in capital: 1 column <br/> retained earnings: 1 column <br/> total stockholders' equity: 1 column <!--SR:!2025-08-16,185,310!2026-10-23,488,310-->
   - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2025-11-02,208,270!2026-03-22,301,290-->
   - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-09-06,459,310!2025-07-13,158,310-->
-  - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2025-06-28,136,290!2025-11-10,258,330-->
+  - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-12-28,547,310!2025-11-10,258,330-->
   - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2025-12-18,288,330!2025-11-04,254,330-->
   - (root) / total stockholders' equity ::@:: Sum up the rows. <!--SR:!2025-12-13,283,330!2025-12-19,289,330-->
 - validation ::@:: The totals for each row should add up to the final total. The totals for each column should add up to the final total. <!--SR:!2025-09-02,188,310!2025-11-04,254,330-->

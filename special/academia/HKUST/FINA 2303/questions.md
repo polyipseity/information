@@ -339,7 +339,7 @@ tags:
 > 2. local bank
 > 3. they are the same
 >
-> - solution: {@{1}@} <!--SR:!2025-06-29,92,369-->
+> - solution: {@{1}@} <!--SR:!2026-10-10,468,389-->
 
 <!-- markdownlint MD028 -->
 

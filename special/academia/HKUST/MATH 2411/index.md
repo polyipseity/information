@@ -109,7 +109,7 @@ The content is in teaching order.
   - inferential statistics / -duction ::@:: induction: draw conclusions on the population from the statistics of a sample; deduction: characterize hypothetical samples of a population from its parameters <!--SR:!2025-09-02,279,330!2026-03-01,408,310-->
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization <!--SR:!2027-12-02,900,330!2025-10-12,311,330-->
   - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2025-08-06,262,330!2025-07-07,237,330-->
-  - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2025-09-24,297,330!2025-06-28,231,330-->
+  - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2025-09-24,297,330!2028-05-19,1055,350-->
   - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2027-04-07,700,310!2025-08-31,277,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2025-08-04,259,330!2026-01-25,333,310-->
@@ -191,7 +191,7 @@ The content is in teaching order.
   - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2027-07-14,772,330!2025-11-13,311,290-->
     - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2026-12-02,527,270!2025-11-22,290,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2025-07-27,253,330!2027-03-30,715,330-->
-    - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2025-07-13,241,330!2025-06-29,232,330-->
+    - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2025-07-13,241,330!2028-05-21,1057,350-->
   - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2028-04-04,1016,350!2025-08-22,274,330-->
     - bar chart / _R_ ::@:: use `barplot(...)` <!--SR:!2027-11-20,888,330!2025-10-15,314,330-->
 - [sampling](../../../../general/sampling%20(statistics).md) ::@:: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2027-05-06,736,330!2027-03-27,712,330-->

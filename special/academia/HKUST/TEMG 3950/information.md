@@ -135,7 +135,7 @@ root cause analysis, 5 whys
 - _(begin)_→::@::←4P: McCarthy's 4 Ps <!--SR:!2025-07-16,241,301!2025-08-02,327,341-->
 - 4P: McCarthy's 4 Ps→::@::←5-step persuasive selling <!--SR:!2026-03-27,399,261!2026-06-10,495,301-->
 - 5-step persuasive selling→::@::←5C: Chernev 5C framework <!--SR:!2026-03-12,433,301!2026-03-12,477,321-->
-- 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2025-06-28,254,281!2026-09-08,609,321-->
+- 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2028-03-23,998,301!2026-09-08,609,321-->
 - 5F: Porter's 5 forces framework→::@::←7S: McKinsey 7S framework <!--SR:!2026-01-21,400,301!2027-09-23,913,341-->
 - 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-12-27,297,261!2025-09-12,179,261-->
 - PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2026-08-21,509,281-->

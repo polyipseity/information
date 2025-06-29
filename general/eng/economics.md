@@ -31,7 +31,7 @@ There are {@{a variety of modern [definitions of economics](definitions%20of%20e
 
 > The science which {@{traces the laws of such of the phenomena of society as arise from the combined operations of mankind for the production of wealth}@}, in so far as {@{those phenomena are not modified by the pursuit of any other object}@}.<sup>[\[32\]](#^ref-32)</sup> <!--SR:!2027-02-03,614,295!2027-04-01,694,330-->
 
-[Alfred Marshall](Alfred%20Marshall.md) provided a still widely cited definition in his textbook _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_ (1890) that {@{extended analysis beyond [wealth](wealth.md#economic%20analysis%20of%20wealth%20accumulation) and from the [societal](society.md) to the [microeconomic](microeconomics.md) level}@}: <!--SR:!2025-06-29,207,315-->
+[Alfred Marshall](Alfred%20Marshall.md) provided a still widely cited definition in his textbook _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_ (1890) that {@{extended analysis beyond [wealth](wealth.md#economic%20analysis%20of%20wealth%20accumulation) and from the [societal](society.md) to the [microeconomic](microeconomics.md) level}@}: <!--SR:!2027-12-18,902,335-->
 
 > Economics is {@{a study of man in the ordinary business of life}@}. It enquires {@{how he gets his income and how he uses it}@}. Thus, it is on the one side, {@{the study of wealth and on the other and more important side, a part of the study of man}@}.<sup>[\[33\]](#^ref-33)</sup> <!--SR:!2025-07-11,204,315!2025-08-31,260,335!2025-09-02,262,335-->
 

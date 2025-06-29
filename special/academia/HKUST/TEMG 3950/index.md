@@ -187,7 +187,7 @@ The content is in teaching order.
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2025-07-04,291,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
-- Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2025-06-28,303,361-->
+- Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2029-08-07,1500,381-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
@@ -215,7 +215,7 @@ The content is in teaching order.
 - nature of problems ::@:: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2027-04-22,787,341!2025-12-14,445,381-->
 - casual relationship ::@:: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2029-02-12,1359,381!2025-11-18,421,381-->
 - correlation ::@:: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2027-12-31,1023,381!2027-02-15,768,361-->
-- casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->
+- casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2029-05-25,1426,381!2025-11-22,425,381-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2028-08-09,1210,381-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2027-09-30,938,361-->

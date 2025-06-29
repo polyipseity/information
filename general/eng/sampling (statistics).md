@@ -18,7 +18,7 @@ Each [observation](observation.md) measures {@{one or more properties (such as w
 
 - see: [sampling frame](sampling%20frame.md)
 
-In {@{the most straightforward case, such as the sampling of a batch of material from production (acceptance sampling by lots)}@}, it would be {@{most desirable to identify and measure every single item in the population and to include any one of them in our sample}@}. However, in {@{the more general case this is not usually possible or practical}@}. There is {@{no way to identify all rats}@} in the set of all rats. Where voting is not compulsory, {@{there is no way to identify which people will vote at a forthcoming election (in advance of the election)}@}. These imprecise populations are {@{not amenable to sampling in any of the ways below and to which we could apply statistical theory}@}. <!--SR:!2025-08-13,267,330!2027-03-21,699,330!2025-07-26,253,330!2025-07-28,254,330!2025-06-28,230,330!2025-08-19,269,330-->
+In {@{the most straightforward case, such as the sampling of a batch of material from production (acceptance sampling by lots)}@}, it would be {@{most desirable to identify and measure every single item in the population and to include any one of them in our sample}@}. However, in {@{the more general case this is not usually possible or practical}@}. There is {@{no way to identify all rats}@} in the set of all rats. Where voting is not compulsory, {@{there is no way to identify which people will vote at a forthcoming election (in advance of the election)}@}. These imprecise populations are {@{not amenable to sampling in any of the ways below and to which we could apply statistical theory}@}. <!--SR:!2025-08-13,267,330!2027-03-21,699,330!2025-07-26,253,330!2025-07-28,254,330!2028-05-18,1054,350!2025-08-19,269,330-->
 
 As a remedy, {@{we seek a [sampling frame](sampling%20frame.md) which has the property that we can identify every single element and include any in our sample}@}. The most straightforward type of frame is {@{a list of elements of the population (preferably the entire population) with appropriate contact information}@}. For example, in an [opinion poll](opinion%20poll.md), possible sampling frames include {@{an [electoral register](electoral%20roll.md) and a [telephone directory](telephone%20directory.md)}@}. <!--SR:!2027-04-07,664,290!2025-07-07,238,330!2027-03-25,715,330-->
 
@@ -59,7 +59,7 @@ Survey results are {@{typically subject to some error}@}. Total errors can be cl
 
 Sampling errors and biases are {@{induced by the sample design}@}. They include {@{selection bias and random sampling errors}@}: <!--SR:!2025-08-03,259,330!2025-08-02,259,330-->
 
-- [selection bias](selection%20bias.md) ::@:: When the true selection probabilities differ from those assumed in calculating the results. <!--SR:!2025-06-29,232,330!2025-08-01,258,330-->
+- [selection bias](selection%20bias.md) ::@:: When the true selection probabilities differ from those assumed in calculating the results. <!--SR:!2028-05-20,1056,350!2025-08-01,258,330-->
 - [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2025-08-14,265,330!2025-10-04,307,330-->
 
 ### non-sampling errors

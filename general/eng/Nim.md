@@ -78,7 +78,7 @@ While {@{all normal-play impartial games can be assigned a nim value}@}, that is
 
 Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2026-01-06,350,341!2026-12-31,622,341-->
 
-The evolution graph of the game of nim with three heaps is {@{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-06-28,160,261-->
+The evolution graph of the game of nim with three heaps is {@{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-02-02,583,281-->
 
 Nim has been {@{mathematically [solved](solved%20game.md) for any number of initial heaps and objects}@}, and {@{there is an easily calculated way to determine which player will win and which winning moves are open to that player}@}. <!--SR:!2025-11-11,306,341!2025-11-20,313,341-->
 

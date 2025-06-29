@@ -24,7 +24,7 @@ tags:
 - $M_{10}$ ::@:: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2028-01-21,1019,350!2027-03-22,772,330-->
 - $M_{11}$ ::@:: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2028-06-27,1138,350!2028-06-10,1130,350-->
 
-The Jaccard similarity coefficient, {@{_J_}@} is given as {@{$$J = \frac {M_{11} } {M_{01} + M_{10} + M_{11} }$$}@}. <!--SR:!2025-06-28,290,330!2028-07-06,1147,350-->
+The Jaccard similarity coefficient, {@{_J_}@} is given as {@{$$J = \frac {M_{11} } {M_{01} + M_{10} + M_{11} }$$}@}. <!--SR:!2029-02-08,1320,350!2028-07-06,1147,350-->
 
 ## references
 

@@ -31,7 +31,7 @@ else:
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: {@{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}@} <!--SR:!2025-06-29,215,330-->
+The semantics of `if...else` is also obvious: {@{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}@} <!--SR:!2028-03-02,977,350-->
 
 In Python, one usually does not chain `if...else`. Instead, Python provides {@{the keyword `elif` so that `if...elif...else` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2025-07-22,233,330-->
 

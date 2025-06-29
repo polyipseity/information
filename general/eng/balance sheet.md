@@ -88,7 +88,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 1. [property, plant and equipment](fixed%20asset.md) ::@:: assets and property that may not easily be converted into cash <!--SR:!2025-07-18,230,330!2025-10-02,292,330-->
 2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::@:: the purchase, management and sale or rental of real estate for profit <!--SR:!2025-10-06,293,330!2027-01-12,579,270-->
-3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::@:: assets that lacks physical substance <!--SR:!2025-06-29,214,330!2025-08-14,252,330-->
+3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::@:: assets that lacks physical substance <!--SR:!2028-02-27,973,350!2025-08-14,252,330-->
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::@:: non-physical assets whose value is derived from a contractual claim <!--SR:!2027-02-09,616,290!2027-01-26,657,330-->
 5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::@:: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (both inclusive) of the shares) <!--SR:!2026-08-11,472,310!2027-10-19,845,330-->
 6. biological assets, which are living plants or animals; bearer biological assets are plants or animals which bear agricultural produce for harvest, such as apple trees grown to produce apples and sheep raised to produce wool<sup>[\[18\]](#^ref-18)</sup> ::@:: assets that are living plants or animals <!--SR:!2027-04-22,703,330!2025-07-01,200,310-->
@@ -142,7 +142,7 @@ Balance sheet substantiation is {@{a key control process in the [SOX 404 top-dow
 
 ## sample
 
-The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well. <!--SR:!2025-06-28,214,330!2027-04-14,711,330-->
+The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well. <!--SR:!2028-02-28,974,350!2027-04-14,711,330-->
 
 {@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the least immediate liability to be paid i.e. long-term debt such as mortgages to the most \(usual account payable\) and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-08-08,247,330!2026-11-08,599,330!2026-10-27,546,290-->
 

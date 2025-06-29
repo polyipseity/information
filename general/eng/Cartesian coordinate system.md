@@ -188,7 +188,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 
 > {@{![The [right-hand rule](right-hand%20rule.md)](../../archives/Wikimedia%20Commons/Rechte-hand-regel.jpg)}@}
 >
-> {@{The [right-hand rule](right-hand%20rule.md)}@} <!--SR:!2026-02-22,276,342!2025-06-28,91,270-->
+> {@{The [right-hand rule](right-hand%20rule.md)}@} <!--SR:!2026-02-22,276,342!2026-06-13,349,290-->
 
 {@{Fixing or choosing the _x_-axis}@} {@{determines the _y_-axis up to direction}@}. Namely, the _y_-axis is {@{necessarily the [perpendicular](perpendicular.md) to the _x_-axis through the point marked 0 on the _x_-axis}@}. But there is {@{a choice of which of the two half lines on the perpendicular to designate as positive and which as negative}@}. Each of these two choices determines {@{a different orientation \(also called _handedness_\) of the Cartesian plane}@}. <!--SR:!2026-05-03,346,349!2025-12-28,248,330!2025-09-23,167,310!2025-12-09,231,330!2026-01-10,257,330-->
 

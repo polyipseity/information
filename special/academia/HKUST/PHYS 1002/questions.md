@@ -181,7 +181,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hours
 >
 > - solution: {@{3}@}
-> - explanation: {@{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}@} <!--SR:!2026-07-30,565,332!2025-06-28,254,332-->
+> - explanation: {@{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}@} <!--SR:!2026-07-30,565,332!2028-09-03,1162,352-->
 
 <!-- markdownlint MD028 -->
 
@@ -601,7 +601,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 100
 >
 > - solution: {@{4}@}
-> - explanation: {@{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}@} <!--SR:!2025-11-23,381,387!2025-06-28,254,367-->
+> - explanation: {@{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}@} <!--SR:!2025-11-23,381,387!2028-12-27,1277,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -683,4 +683,4 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 7. G
 >
 > - solution: {@{4 → 2 → 1 → 6 → 7 → 3 → 5}@}
-> - mnemonics: {@{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}@} <!--SR:!2025-06-28,254,367!2028-06-21,1096,367-->
+> - mnemonics: {@{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}@} <!--SR:!2028-12-26,1276,387!2028-06-21,1096,367-->

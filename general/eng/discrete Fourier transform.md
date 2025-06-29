@@ -74,7 +74,7 @@ This table shows {@{some mathematical operations on $x_{n}$ in the time domain a
 
 > __flashcards__
 >
-> - real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2025-06-29,248,336!2025-07-13,260,336-->
+> - real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2028-08-20,1148,356!2025-07-13,260,336-->
 > - imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2027-09-14,837,316!2025-08-15,268,336-->
 > - real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2025-12-27,373,316!2025-09-24,320,356-->
 > - imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-06-30,39,276!2027-04-13,689,336-->
@@ -91,7 +91,7 @@ These theorems are {@{also equivalent to the unitary condition below}@}. <!--SR:
 
 ### periodicity
 
-The periodicity can be {@{shown directly from the definition}@}: {@{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}@}. <!--SR:!2025-06-29,248,336!2025-09-21,317,356-->
+The periodicity can be {@{shown directly from the definition}@}: {@{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}@}. <!--SR:!2028-08-19,1147,356!2025-09-21,317,356-->
 
 Similarly, it can be {@{shown that the IDFT formula leads to a periodic extension}@}. <!--SR:!2028-06-28,1106,356-->
 

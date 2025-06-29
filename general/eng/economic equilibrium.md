@@ -113,7 +113,7 @@ Consider the following demand and supply schedule:
 > - If the current market price was \$3.00 (<\$5.00) – ::@:: there would be excess demand for 8&nbsp;000 units, creating a shortage. <!--SR:!2026-01-07,328,345!2026-01-23,341,345-->
 > - If the current market price was \$8.00 (>\$5.00) – ::@:: there would be excess supply of 12&nbsp;000 units. <!--SR:!2025-10-23,265,330!2025-11-23,290,330-->
 
-When {@{there is a shortage in the market}@} we see that, to {@{correct this disequilibrium, the price of the good will be increased back to a price of \$5.00}@}, thus {@{lessening the quantity demanded and increasing the quantity supplied thus that the market is in balance}@}. <!--SR:!2026-01-03,325,345!2026-01-11,331,345!2025-06-28,156,305-->
+When {@{there is a shortage in the market}@} we see that, to {@{correct this disequilibrium, the price of the good will be increased back to a price of \$5.00}@}, thus {@{lessening the quantity demanded and increasing the quantity supplied thus that the market is in balance}@}. <!--SR:!2026-01-03,325,345!2026-01-11,331,345!2027-04-21,661,325-->
 
 When {@{there is an oversupply of a good}@}, such as when price is above \$6.00, then we see that {@{producers will decrease the price to increase the quantity demanded for the good}@}, thus {@{eliminating the excess and taking the market back to equilibrium}@}. <!--SR:!2025-12-16,310,345!2026-01-19,338,345!2027-03-16,653,330-->
 

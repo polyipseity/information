@@ -104,7 +104,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-06,293,330!2025-10-16,296,330-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-17,965,350!2025-10-12,292,330-->
 - `break <where>` ::@:: set a breakpoint <!--SR:!2025-10-08,288,330!2028-02-11,960,350-->
-- `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-10-10,290,330!2025-06-28,213,330-->
+- `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-10-10,290,330!2028-03-01,976,350-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2025-08-22,257,330!2025-10-07,294,330-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2025-10-13,293,330-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2025-08-03,243,330!2025-08-16,254,330-->

@@ -9,7 +9,7 @@ tags:
 
 # financial statement analysis
 
-- Not to be confused with {@{_[financial analysis](financial%20analysis.md)_}@}. <!--SR:!2025-06-28,214,330-->
+- Not to be confused with {@{_[financial analysis](financial%20analysis.md)_}@}. <!--SR:!2028-02-29,975,350-->
 
 __Financial statement analysis__ (or just __financial analysis__) is {@{the process of reviewing and analyzing a company's [financial statements](financial%20statement.md) to make better economic decisions to earn income in future}@}. These statements include {@{the [income statement](income%20statement.md), [balance sheet](balance%20sheet.md), [statement of cash flows](cash%20flow%20statement.md), notes to accounts and a [statement of changes in equity](statement%20of%20changes%20in%20equity.md) (if applicable)}@}. Financial statement analysis is {@{a method or process involving specific techniques for evaluating risks, performance, valuation, financial health, and future prospects of an organization}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-07-19,231,330!2025-09-19,216,250!2026-06-28,479,310-->
 
