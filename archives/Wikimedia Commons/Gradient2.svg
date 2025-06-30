@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 566 282" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="g" x1="301" x2="549" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<radialGradient id="m" cx="141" cy="141" r="123" xlink:href="#g"/>
+</defs>
+<g stroke="#000" stroke-width="2">
+<path d="M17 17h248v248H18z" fill="url(#m)"/>
+<path d="M301 17h248v248H301z" fill="url(#g)"/>
+</g>
+<g fill="none" stroke="#0BE" stroke-width="3">
+<g id="r">
+<g id="q">
+<path id="p" d="m320 25l-14 8 14 8m0 20l-14 8 14 8m0 20l-14 8 14 8m0 20l-14 8 14 8m0 20l-14 8 14 8m0 20l-14 8 14 8m0 20l-14 8 14 8m-14-8h30m0-36h-30m0-36h30m0-36h-30m0-36h30m0-36h-30m0-36h30"/>
+<use x="35" xlink:href="#p"/>
+</g>
+<use x="70" xlink:href="#q"/>
+</g>
+<use x="105" xlink:href="#r"/>
+<g id="t">
+<g id="s">
+<g id="n">
+<path id="l" d="m141 20v30m0 5v29m8-13l-8 14-8-14m0-35l8 14 8-14"/>
+<use y="35" xlink:href="#l"/>
+</g>
+<use id="o" transform="rotate(22.5 141,141)" xlink:href="#l"/>
+<use transform="rotate(45 141,141)" xlink:href="#o"/>
+<use transform="rotate(45 141,141)" xlink:href="#n"/>
+</g>
+<use transform="rotate(90 141,141)" xlink:href="#s"/>
+</g>
+<use transform="rotate(180 141,141)" xlink:href="#t"/>
+</g>
+</svg>
