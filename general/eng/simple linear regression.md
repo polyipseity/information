@@ -185,7 +185,7 @@ There are {@{_n_ = 15 points in this data set}@}. Hand calculations would be sta
 >
 > Calculating {@{the parameters of a linear model by minimizing the squared error}@}. <!--SR:!2025-09-17,169,310!2025-12-15,242,330-->
 
-In SLR, there is {@{an underlying assumption that only the dependent variable contains measurement error}@}; if {@{the explanatory variable is also measured with error}@}, then {@{simple regression is not appropriate for estimating the underlying relationship}@} because {@{it will be biased due to [regression dilution](regression%20dilution.md)}@}. <!--SR:!2025-07-18,120,290!2026-01-21,272,330!2025-06-30,106,290!2025-10-11,187,310-->
+In SLR, there is {@{an underlying assumption that only the dependent variable contains measurement error}@}; if {@{the explanatory variable is also measured with error}@}, then {@{simple regression is not appropriate for estimating the underlying relationship}@} because {@{it will be biased due to [regression dilution](regression%20dilution.md)}@}. <!--SR:!2025-07-18,120,290!2026-01-21,272,330!2026-08-29,425,310!2025-10-11,187,310-->
 
 {@{Other estimation methods that can be used in place of ordinary least squares}@} include {@{[least absolute deviations](least%20absolute%20deviations.md) \(minimizing the sum of absolute values of residuals\)}@} and {@{the [Theil–Sen estimator](Theil–Sen%20estimator.md) \(which chooses a line whose [slope](slope.md) is the [median](median.md) of the slopes determined by pairs of sample points\)}@}. <!--SR:!2026-01-02,256,330!2025-09-04,160,310!2025-09-02,160,310-->
 

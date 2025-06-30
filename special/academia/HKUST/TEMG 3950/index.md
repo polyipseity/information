@@ -61,7 +61,7 @@ The content is in teaching order.
   - [§ how](../../../market%20segmentation.md#how)
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
-  - market size acronyms and names ::@:: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2028-07-20,1177,355!2025-06-30,322,355-->
+  - market size acronyms and names ::@:: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2028-07-20,1177,355!2029-10-17,1570,375-->
   - market size importance ::@:: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2028-08-05,1186,355!2025-07-24,344,355-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
@@ -159,7 +159,7 @@ The content is in teaching order.
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2029-01-28,1337,381!2028-12-20,1305,381-->
-  - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2025-07-22,302,361-->
+  - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2029-08-14,1506,381!2025-07-22,302,361-->
   - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
   - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2025-07-31,311,361-->
   - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2025-07-27,307,361-->

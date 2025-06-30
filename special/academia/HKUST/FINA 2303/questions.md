@@ -371,7 +371,7 @@ tags:
 > 3. \<15%
 > 4. not enough information
 >
-> - solution: {@{1}@} <!--SR:!2025-06-30,93,369-->
+> - solution: {@{1}@} <!--SR:!2026-10-18,475,389-->
 
 <!-- markdownlint MD028 -->
 

@@ -77,7 +77,7 @@ This table shows {@{some mathematical operations on $x_{n}$ in the time domain a
 > - real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2028-08-20,1148,356!2025-07-13,260,336-->
 > - imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2027-09-14,837,316!2025-08-15,268,336-->
 > - real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2025-12-27,373,316!2025-09-24,320,356-->
-> - imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-06-30,39,276!2027-04-13,689,336-->
+> - imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-11-29,152,296!2027-04-13,689,336-->
 
 ### orthogonality
 

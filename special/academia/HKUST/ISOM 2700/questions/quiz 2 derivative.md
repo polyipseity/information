@@ -20,7 +20,7 @@ tags:
 > What is the average service rate \(per hour\)?
 >
 > - solution: {@{20 customers per hour}@}
-> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-11-03,152,310!2025-06-30,61,310-->
+> - explanation: {@{60/3 = 20 customers per hour}@} <!--SR:!2025-11-03,152,310!2026-03-23,266,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -79,7 +79,7 @@ tags:
 > What is its process capability index?
 >
 > - solution: {@{1.25}@}
-> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2025-06-30,61,310!2025-07-01,62,310-->
+> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2026-03-25,268,330!2025-07-01,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -90,7 +90,7 @@ tags:
 > What is the maximum standard deviation to ensure a process capability index of 2?
 >
 > - solution: {@{0.025&nbsp;cm}@}
-> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2025-06-30,61,310!2025-11-21,170,310-->
+> - explanation: {@{0.15/\(3\*2\) = 0.025&nbsp;cm}@} <!--SR:!2026-03-24,267,330!2025-11-21,170,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -113,7 +113,7 @@ tags:
 > A customer arrives at a restaurant every 12&nbsp;minutes on average, and takes 30&nbsp;minutes on average to finish a meal. How many seats do you need at least to serve the customers \(without the queue exploding\)?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@} <!--SR:!2025-06-30,61,310!2025-06-30,61,310-->
+> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@} <!--SR:!2026-03-21,264,330!2026-03-22,265,330-->
 
 <!-- markdownlint MD028 -->
 

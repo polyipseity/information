@@ -13,7 +13,7 @@ tags:
 
 # Stirling numbers of the first kind
 
-In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics.md)}@}, __Stirling numbers of the first kind__ {@{arise in the study of permutations}@}. In particular, {@{the unsigned Stirling numbers of the first kind}@} count {@{[permutations](permutation.md) according to their number of [cycles](cycles%20and%20fixed%20points.md) (counting [fixed points](fixed%20point%20(mathematics).md) as cycles of length one)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-06-30,185,310!2025-08-21,211,310!2025-10-31,284,330!2025-11-01,285,330-->
+In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics.md)}@}, __Stirling numbers of the first kind__ {@{arise in the study of permutations}@}. In particular, {@{the unsigned Stirling numbers of the first kind}@} count {@{[permutations](permutation.md) according to their number of [cycles](cycles%20and%20fixed%20points.md) (counting [fixed points](fixed%20point%20(mathematics).md) as cycles of length one)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-09-01,793,330!2025-08-21,211,310!2025-10-31,284,330!2025-11-01,285,330-->
 
 {@{The Stirling numbers of the first and [second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is devoted to {@{specifics of Stirling numbers of the first kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2025-11-22,303,330!2025-08-17,209,310!2025-11-22,303,330!2025-10-29,282,330-->
 

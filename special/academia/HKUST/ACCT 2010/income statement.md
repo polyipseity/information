@@ -25,7 +25,7 @@ tags:
 ## format
 
 - header ::@:: company name, `(Consolidated) Statement of Income`, duration, (monetary unit) <!--SR:!2026-07-27,421,310!2026-08-02,427,310-->
-  - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-12-02,276,330!2025-06-30,151,310-->
+  - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-12-02,276,330!2027-04-09,648,330-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-12-13,283,330!2025-11-12,259,330-->
 - dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2025-12-17,287,330!2026-03-11,328,290-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income <!--SR:!2025-10-17,213,270!2025-11-03,210,270-->

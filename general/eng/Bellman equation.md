@@ -13,7 +13,7 @@ tags:
 
 > {@{![Bellman flow chart.](../../archives/Wikimedia%20Commons/Bellman%20flow%20chart.png)}@}
 >
-> {@{Bellman flow chart}@}. <!--SR:!2025-06-30,137,290!2025-11-15,263,330-->
+> {@{Bellman flow chart}@}. <!--SR:!2027-01-03,552,310!2025-11-15,263,330-->
 
 {@{A __Bellman equation__}@}, named after {@{[Richard E. Bellman](Richard%20E.%20Bellman.md)}@}, is {@{a [necessary condition](necessity%20and%20sufficiency.md#necessity) for optimality associated with the mathematical [optimization](mathematical%20optimization.md) method known as [dynamic programming](dynamic%20programming.md)}@}.<sup>[\[1\]](#^ref-1)</sup> It writes {@{the "value" of a decision problem at a certain point in time}@} in terms of {@{the payoff from some initial choices and the "value" of the remaining decision problem that results from those initial choices}@}.<sup>[\[2\]](#^ref-2)</sup> This breaks {@{a dynamic optimization problem into a [sequence](sequence.md) of simpler subproblems}@}, as {@{Bellman's "principle of optimality" prescribes}@}.<sup>[\[3\]](#^ref-3)</sup> The equation applies to {@{algebraic structures with a total ordering}@}; for {@{algebraic structures with a partial ordering}@}, {@{the generic Bellman's equation can be used}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-11-30,276,330!2025-07-28,172,310!2025-11-06,216,270!2025-11-16,264,330!2025-11-11,260,330!2025-11-12,261,330!2025-10-18,241,330!2025-11-25,272,330!2025-11-29,275,330!2025-10-23,246,330-->
 

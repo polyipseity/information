@@ -29,7 +29,7 @@ tags:
 > ---
 >
 > - solution: {@{about 12.433199%}@}
-> - explanation: {@{Assume the par value is \$1. The current price of the bond is: $$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + \frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } \right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} \approx 0.12433199 = 12.433199\% \,.$$}@} <!--SR:!2025-08-22,54,310!2025-06-30,15,290-->
+> - explanation: {@{Assume the par value is \$1. The current price of the bond is: $$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + \frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } \right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} \approx 0.12433199 = 12.433199\% \,.$$}@} <!--SR:!2025-08-22,54,310!2025-09-01,63,310-->
 
 ---
 

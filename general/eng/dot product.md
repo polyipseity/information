@@ -149,7 +149,7 @@ In the case of {@{vectors with real components}@}, this definition is {@{the sam
 
 The complex dot product leads to {@{the notions of [Hermitian forms](Hermitian%20form.md#Hermitian%20form) and general [inner product spaces](inner%20product%20space.md)}@}, which are {@{widely used in mathematics and [physics](physics.md)}@}. <!--SR:!2025-07-11,261,330!2027-08-01,820,330-->
 
-{@{The self dot product of a complex vector $\mathbf {a} \cdot \mathbf {a} =\mathbf {a} ^{\mathsf {H} }\mathbf {a}$}@}, involving {@{the conjugate transpose of a row vector}@}, is also known as {@{the __norm squared__, $\mathbf {a} \cdot \mathbf {a} =\|\mathbf {a} \|^{2}$, after the [Euclidean norm](Euclidean%20norm.md#Euclidean%20norm)}@}; it is {@{a vector generalization of the _[absolute square](absolute%20square.md#absolute%20square)_ of a complex scalar \(see also: _[Squared Euclidean distance](squared%20Euclidean%20distance.md#squared%20Euclidean%20distance)_\)}@}. <!--SR:!2028-01-18,974,350!2025-07-30,275,330!2025-06-30,253,330!2026-07-18,528,310-->
+{@{The self dot product of a complex vector $\mathbf {a} \cdot \mathbf {a} =\mathbf {a} ^{\mathsf {H} }\mathbf {a}$}@}, involving {@{the conjugate transpose of a row vector}@}, is also known as {@{the __norm squared__, $\mathbf {a} \cdot \mathbf {a} =\|\mathbf {a} \|^{2}$, after the [Euclidean norm](Euclidean%20norm.md#Euclidean%20norm)}@}; it is {@{a vector generalization of the _[absolute square](absolute%20square.md#absolute%20square)_ of a complex scalar \(see also: _[Squared Euclidean distance](squared%20Euclidean%20distance.md#squared%20Euclidean%20distance)_\)}@}. <!--SR:!2028-01-18,974,350!2025-07-30,275,330!2028-08-24,1151,350!2026-07-18,528,310-->
 
 ### inner product
 
