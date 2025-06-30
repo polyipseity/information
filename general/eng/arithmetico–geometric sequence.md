@@ -1,0 +1,1 @@
+arithmetico-geometric sequence.md
