@@ -157,7 +157,7 @@ Alternatively, repeat the above steps until {@{the number of clusters equals the
 
 ### monothetic clustering
 
-The above algorithm is {@{polythetic clustering because it considers all variables of each observation}@}. Consider an observation with _n_ numerical variables, define the _n-dimensional location_ of an observation {@{as the values of the _n_ numerical variables. Then note that the distance function applied to two observations considers all variables at once}@}. An another type of divisive clustering is {@{monothetic clustering, where only one variable is considered when splitting}@}. <!--SR:!2025-07-01,303,295!2026-06-28,568,315!2027-09-07,878,290-->
+The above algorithm is {@{polythetic clustering because it considers all variables of each observation}@}. Consider an observation with _n_ numerical variables, define the _n-dimensional location_ of an observation {@{as the values of the _n_ numerical variables. Then note that the distance function applied to two observations considers all variables at once}@}. An another type of divisive clustering is {@{monothetic clustering, where only one variable is considered when splitting}@}. <!--SR:!2028-11-23,1241,315!2026-06-28,568,315!2027-09-07,878,290-->
 
 Monothetic clustering is usually used {@{when the data consists of binary or boolean variables, though some variants also support non-binary variables}@}. <!--SR:!2026-06-27,565,310-->
 

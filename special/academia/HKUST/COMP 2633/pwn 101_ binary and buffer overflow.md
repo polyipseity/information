@@ -46,7 +46,7 @@ For pwn, it is also important to know {@{the overall structure of an executable 
 
 Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2027-06-10,745,330!2025-10-18,298,330!2025-07-19,231,330!2027-05-24,728,330!2026-09-20,534,310-->
 
-The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2025-07-10,205,310!2025-08-03,241,330!2025-07-01,216,330-->
+The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2025-07-10,205,310!2025-08-03,241,330!2028-03-13,985,350-->
 
 ## stack in x86 and x86-64 assembly
 

@@ -53,7 +53,7 @@ tags:
 > ---
 >
 > - solution: {@{MAD=3.25 <br/> TS=−4}@}
-> - explanation: {@{MAD=\(2+5+5+1\)/4=3.25 <br/> TS=\(−2−5−5−1\)/3.25=−4}@} <!--SR:!2025-07-01,15,290!2025-07-01,15,290-->
+> - explanation: {@{MAD=\(2+5+5+1\)/4=3.25 <br/> TS=\(−2−5−5−1\)/3.25=−4}@} <!--SR:!2025-09-03,63,310!2025-09-03,63,310-->
 
 ---
 
@@ -82,7 +82,7 @@ tags:
 > ---
 >
 > - solution: {@{200}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2025-07-01,15,290!2025-08-27,58,310-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2025-09-03,63,310!2025-08-27,58,310-->
 
 ---
 

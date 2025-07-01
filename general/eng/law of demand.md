@@ -72,7 +72,7 @@ For instance, let's {@{take the example of a housing market}@}. {@{An increase o
 
 ## demand elasticity
 
-{@{The elasticity of demand}@} refers to {@{the sensitivity of a goods demand as compared to the fluctuation of other economic factors}@}, such as {@{price, income, etc.}@} The law of demand explains that {@{the relationship between demand and price is directly inverse}@}. However, the demand for some goods are {@{more receptive to a change in price than others}@}. There are {@{four major elasticities of demand}@}, these being {@{the price elasticity of demand, income elasticity of demand, cross elasticity of demand, and advertising elasticity of demand}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-25,268,330!2026-01-22,343,349!2025-10-02,251,330!2025-11-26,294,330!2025-10-30,271,330!2025-10-26,269,330!2025-07-01,161,309-->
+{@{The elasticity of demand}@} refers to {@{the sensitivity of a goods demand as compared to the fluctuation of other economic factors}@}, such as {@{price, income, etc.}@} The law of demand explains that {@{the relationship between demand and price is directly inverse}@}. However, the demand for some goods are {@{more receptive to a change in price than others}@}. There are {@{four major elasticities of demand}@}, these being {@{the price elasticity of demand, income elasticity of demand, cross elasticity of demand, and advertising elasticity of demand}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-25,268,330!2026-01-22,343,349!2025-10-02,251,330!2025-11-26,294,330!2025-10-30,271,330!2025-10-26,269,330!2027-05-21,689,329-->
 
 ### price elasticity of demand
 

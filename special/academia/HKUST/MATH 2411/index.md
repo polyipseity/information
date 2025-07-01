@@ -92,7 +92,7 @@ The content is in teaching order.
   - statistics / branches ::@:: descriptive statistics, inferential statistics <!--SR:!2027-05-05,747,330!2027-07-17,800,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2027-03-25,702,330!2025-07-08,239,330-->
   - descriptive statistics / methodologies ::@:: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2026-09-15,522,310!2027-09-05,826,330-->
-  - descriptive statistics / steps ::@:: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2027-06-05,733,310!2025-07-01,212,310-->
+  - descriptive statistics / steps ::@:: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2027-06-05,733,310!2027-12-28,909,330-->
 - [inferential statistics](../../../../general/statistical%20inference.md) ::@:: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2026-12-10,631,330!2025-08-11,261,330-->
   - inferential statistics / key terms ::@:: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2025-07-03,235,330!2026-05-09,406,290-->
   - inferential statistics / reasons for sampling ::@:: cost-effectiveness, practicality <!--SR:!2026-05-07,455,310!2025-07-21,249,330-->
@@ -123,7 +123,7 @@ The content is in teaching order.
     - data / types of variables / note ::@:: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2025-08-24,271,330!2026-11-19,590,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::@:: central tendency (location), variability (spread/dispersion) <!--SR:!2027-04-09,722,330!2027-06-15,769,330-->
-    - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2025-07-01,232,330!2025-07-05,237,330-->
+    - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2028-05-24,1057,350!2025-07-05,237,330-->
     - variability ::@:: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2027-10-10,858,330!2025-07-12,241,330-->
   - sample mean ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2025-07-28,255,330!2025-08-04,260,330-->
     - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2025-07-05,236,330!2025-10-02,303,330-->

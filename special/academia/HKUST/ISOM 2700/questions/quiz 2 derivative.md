@@ -31,7 +31,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2025-12-14,181,310!2025-07-01,62,310-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Average number of customers in the system is 0.75/\(1–0.75\) = 3.}@} <!--SR:!2025-12-14,181,310!2026-03-25,266,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -42,7 +42,7 @@ tags:
 > What is the idle time fraction?
 >
 > - solution: {@{0.25}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2025-07-02,63,310!2025-07-01,62,310-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2025-07-02,63,310!2026-03-31,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -79,7 +79,7 @@ tags:
 > What is its process capability index?
 >
 > - solution: {@{1.25}@}
-> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2026-03-25,268,330!2025-07-01,62,310-->
+> - explanation: {@{0.15/0.04/3 = 1.25}@} <!--SR:!2026-03-25,268,330!2026-03-26,267,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2025-07-01,62,310!2025-11-02,151,310-->
+> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@} <!--SR:!2026-03-24,265,330!2025-11-02,151,310-->
 
 <!-- markdownlint MD028 -->
 

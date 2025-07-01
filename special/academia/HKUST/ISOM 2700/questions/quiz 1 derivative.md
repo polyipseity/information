@@ -43,7 +43,7 @@ tags:
 > How long on average does it take for a patient to get their testing result?
 >
 > - solution: {@{80&nbsp;minutes}@}
-> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@} <!--SR:!2025-07-06,67,310!2025-07-01,62,310-->
+> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@} <!--SR:!2025-07-06,67,310!2026-03-28,269,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -59,7 +59,7 @@ tags:
 > What is the process capacity \(per hour\)?
 >
 > - solution: {@{12 units per hour}@}
-> - explanation: {@{Transport is the bottleneck activity. In transport, each unit takes 15/3 = 5&nbsp;minutes. The process capacity is thus 60/5 = 12 units per hour.}@} <!--SR:!2025-07-05,66,310!2025-07-01,62,310-->
+> - explanation: {@{Transport is the bottleneck activity. In transport, each unit takes 15/3 = 5&nbsp;minutes. The process capacity is thus 60/5 = 12 units per hour.}@} <!--SR:!2025-07-05,66,310!2026-03-30,271,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -96,7 +96,7 @@ tags:
 >
 > - solution: {@{3 units per hour}@}
 > - explanation: {@{For people, each unit takes 5+15 = 20&nbsp;minutes. Its capacity is 3 units per hour. For transporter, each unit takes 15&nbsp;minutes. Its capacity is 4\*3 = 12 units per hour. For machine, each unit takes 60&nbsp;minutes. Its capacity is 1\*20 = 20 units per hour. So people is the bottleneck resource, thus its capacity is the process capacity.}@}
-> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2025-07-01,62,310!2025-07-03,64,310!2025-07-02,63,310-->
+> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2026-03-27,268,330!2025-07-03,64,310!2025-07-02,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -112,7 +112,7 @@ tags:
 > 6. Theoretically, a process can be neither capacity-constrained, demand-constrained, nor input-constrained.
 > 7. A capacity-constrained process may have a less than 100% process utilization.
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-07-01,62,310-->
+> - solution: {@{1, 2}@} <!--SR:!2026-03-29,270,330-->
 
 <!-- markdownlint MD028 -->
 

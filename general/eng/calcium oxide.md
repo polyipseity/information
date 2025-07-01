@@ -20,7 +20,7 @@ __Calcium oxide__, also known as {@{quicklime}@}, is {@{a solid [ionic compound]
 ## reactions
 
 Calcium oxide {@{reacts with [water](water.md) to give [calcium hydroxide](calcium%20hydroxide.md)}@}. This is one of the ways {@{calcium hydroxide}@} is prepared.
-> {@{CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(s)}@} <!--SR:!2034-02-14,3151,297!2025-07-01,817,277!2027-09-16,1422,299-->
+> {@{CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(s)}@} <!--SR:!2034-02-14,3151,297!2034-02-17,3153,297!2027-09-16,1422,299-->
 
 ## uses
 

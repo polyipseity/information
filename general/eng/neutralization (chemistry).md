@@ -53,7 +53,7 @@ return await memorize_table(
 <!--pytextgen generate section="185a"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[antacids](antacid.md) <!--SR:!2026-02-04,482,310!2028-03-27,1428,358-->
-- [antacids](antacid.md)→::@::←control of [soil pH](soil%20pH.md) <!--SR:!2025-12-14,686,318!2025-07-01,330,278-->
+- [antacids](antacid.md)→::@::←control of [soil pH](soil%20pH.md) <!--SR:!2025-12-14,686,318!2028-12-30,1278,298-->
 - control of [soil pH](soil%20pH.md)→::@::←production of [fertilizer](fertilizer.md) <!--SR:!2026-04-07,510,238!2026-03-30,574,258-->
 - production of [fertilizer](fertilizer.md)→::@::←[wastewater treatment](water%20treatment.md) <!--SR:!2029-01-31,1417,298!2030-03-03,1856,318-->
 - [wastewater treatment](water%20treatment.md)→::@::←_(end)_ <!--SR:!2026-09-18,906,330!2026-04-08,765,318-->

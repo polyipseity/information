@@ -46,7 +46,7 @@ The content is in teaching order.
   - free body in structural engineering ::@:: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2027-10-29,974,350!2026-08-20,587,330-->
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
-  - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2025-07-01,317,350!2029-07-05,1473,370-->
+  - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2029-09-04,1525,370!2029-07-05,1473,370-->
   - compression examples in structures ::@:: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2026-07-30,547,310!2027-09-13,927,350-->
   - compression conventions ::@:: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2028-03-01,1057,350!2026-07-16,541,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
