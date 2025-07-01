@@ -5,11 +5,10 @@ from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
 from contextlib import contextmanager, suppress
 from copy import copy
-from glob import iglob
 from jaraco.clipboard import paste_html  # type: ignore
 from json import load
 from logging import INFO, basicConfig
-from os import chdir, getcwd, symlink
+from os import chdir, getcwd, scandir, symlink
 from pathlib import PurePath
 from pyarchivist.Wikimedia_Commons.main import (
     Args as pyarchivist_Wikimedia_Commons_Args,
@@ -98,7 +97,8 @@ with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
     _names_map_manual: dict[str, str] = load(names_map_file)
 _names_map = {
     key: val
-    for filename in iglob("*.md", root_dir=_CONVERTED_WIKI_DIRECTORY)
+    for entry in scandir(_CONVERTED_WIKI_DIRECTORY)
+    if (filename := entry.name).endswith(".md")
     for key, val in (
         (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
         (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
