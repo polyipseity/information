@@ -17,4 +17,8 @@ tags:
 
 ### 2024 summer
 
-- [ISC117](ISC117/index.md): Introduction to Korean Studies (3 credits)
+- [ISC117](ISC117/index.md): Introduction to Korean Studies \(3 credits\)
+
+### 2025 summer
+
+- [ISC213](ISC213/index.md): Introduction to Management Information Systems \(3 credits\)

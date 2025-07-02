@@ -75,6 +75,11 @@ tags:
 
 ### 2025 spring
 
+### 2025 summer
+
+- ISOM 2010: Introduction to Information Systems \(3 credits\)
+  - transferred: [Korea University](../Korea%20University/index.md): [ISC213](../Korea%20University/ISC213/index.md): Introduction to Management Information Systems
+
 ## groups
 
 - ENTERPRIZE (RoboMaster): [ISDN 0003](ISDN%200003/index.md)
