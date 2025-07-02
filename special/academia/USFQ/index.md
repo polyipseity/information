@@ -18,4 +18,4 @@ tags:
 
 ### 2025 spring
 
-- [MUS-4100E](MUS-4100E/index.md): The Evolution of Jazz (3 credits)
+- [MUS-4100E](MUS-4100E/index.md): The Evolution of Jazz \(3 credits\)
