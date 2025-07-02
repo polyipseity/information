@@ -87,7 +87,7 @@ The content is in teaching order.
   - information system / types ::@:: transaction processing system \(TPS\)
 - [transaction processing system](../../../../general/transaction%20processing%20system.md) \(TPS\) ::@:: It is a software system, or software/hardware combination, that supports transaction processing.
   - transaction processing system / users ::@:: operational managers, operational staff
-  - transaction processing system / usage ::@:: record transactions, e.g. entry, payroll, shipping, etc. to monitor operations and relations with the environment to serve decision making and goals
+  - transaction processing system / usage ::@:: record transactions, e.g. entry, payroll, shipping, etc. for monitoring _daily_ operations and relations with the environment to serve decision making and goals
 - [business intelligence](../../../../business%20intelligence.md) \(BI\) ::@:: It consists of strategies, methodologies, and technologies used by enterprises for data analysis and management of business information.
   - business intelligence / systems ::@:: decision support system \(DSS\), executive support system \(ECS\), management information system \(MIS\)
 - [management information system](../../../../general/management%20information%20system.md) \(MIS\) ::@:: It is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization.
@@ -103,7 +103,12 @@ The content is in teaching order.
   - executive information system / users ::@:: support senior management
   - executive information system / usage ::@:: use external data, MIS, and DSS to address _high-level non-routine_ decisions
   - executive information system / examples ::@:: digital dashboard of financial performance
-- enterprise systems ::@:: customer relationship management \(CRM\) system, enterprise resource planning \(ERP\), knowledge management system \(KMS\), supply chain management \(SCM\) system
+- enterprise systems ::@:: systems that allow horizontal and vertical integration of business processes in a business, which enables cost effective e-business processes
+  - enterprise systems / types ::@:: customer relationship management \(CRM\) system, enterprise resource planning \(ERP\), knowledge management system \(KMS\), supply chain management \(SCM\) system
+  - enterprise systems / customer relationship management ::@:: enable working collaboratively with customers and suppliers
+  - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication
+  - enterprise systems / knowledge management system ::@:: information sharing between business functions and departments
+  - enterprise systems / supply chain management ::@:: inventory maximization, supply chain management
 - [electronic business](../../../../general/electronic%20business.md) ::@:: It is any kind of business or commercial activity that includes sharing information across the internet
   - electronic business / e-commerce ::@:: a subset, focused on buying and selling goods and services through the internet
 - [e-government](../../../../general/e-government.md) ::@:: use IT to deliver services and information to businesses, citizens, and employees
@@ -117,12 +122,12 @@ The content is in teaching order.
   - collaboration / business benefits ::@:: improve ROI, custoemr services, financial performance, innovation, organizations, productivity, quality, etc.
   - collaboration / tools ::@:: collaboration, emails, instant messaging, social businesses, virtual worlds, wikis, etc.
   - collaboration / time—space matrix ::@:: colocated \(same place\) vs. remote \(different place\); synchronous \(same time\) vs. asynchronous \(different time\)
-    - collaboration / time—space matrix / synchronous & colocated ::@:: face-to-face interactions, e.g. decision rooms, dashboards, etc.
+    - collaboration / time—space matrix / synchronous & colocated ::@:: face-to-face interactions, e.g. decision rooms, wall displays, etc.
     - collaboration / time—space matrix / asynchronous & colocated ::@:: continuous tasks, e.g. long-term dashboards, team rooms, etc.
     - collaboration / time—space matrix / synchronous & remote ::@:: remote interactions, e.g. instant messaging, video conferencing, etc.
-    - collaboration / time—space matrix / asynchronous & remote ::@:: coordinated communication, e.g. calendars, emails, version control, wikis, etc.
+    - collaboration / time—space matrix / asynchronous & remote ::@:: coordinated communication, e.g. calendars, emails, version control, virtual worlds, wikis, etc.
 - information system
-  - information system / business unit ::@:: It can be a formal organizational unit for IT services, often headed by the chief information officer \(CIO\). It employs information systems managers, programmers, system analysts, etc.
+  - information system / business unit ::@:: It can be a formal organizational unit for IT services, often headed by the chief information officer \(CIO\). It employs information systems managers, programmers, system analysts, etc. The users who use the services are called _end users_.
 - [management](../../../../general/management.md) ::@:: It is the administration of organizations, whether businesses, nonprofit organizations, or a government bodies through business administration, nonprofit management, or the political science sub-field of public administration respectively.
   - management / layers ::@:: \(top level\) strategic planning &gt; managerial planning & control &gt; operation control \(bottom level\)
 - assignment: [quiz 2](questions/quiz%202.md)
