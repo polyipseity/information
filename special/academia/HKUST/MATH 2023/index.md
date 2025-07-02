@@ -715,7 +715,7 @@ The content is in teaching order.
 - report
   - question 1: multiple choice questions
     - arc length \(0\) ::@:: Almost thought arc length is dependent on parameterization, because I thought arc length is somehow distinct from length. Turns out arc length is simply length.
-    - connectedness & open and closed sets \(0\) ::@:: Both open and closed sets can still be connected, simply connected, 2-connected, etc.
+    - connectedness & open and closed sets \(0\) ::@:: Whether a set is open or closed _usually_ does not affect if it is connected, simply connected, 2-connected, etc.
     - gradient, curl, divergence & topology \(0\) ::@:: A curl-free vector field requires a _simply connected_ region to be the gradient of a scalar field \(i.e. be conservative\). A divergence-free vector field requires a _2-connected_ region to be the curl of a vector field. <p> See [Poincaré lemma](../../../../general/Poincaré%20lemma.md) for more.
   - question 3: limits
     - existence of limit using epsilon—delta proof or squeeze theorem \(0\) ::@:: See [questions § final examination](questions.md#final%20examination).
