@@ -45,7 +45,7 @@ The content is in teaching order.
 - datetime: 2025-07-01T09:00:00+09:00/2025-07-01T10:40:00+09:00, PT1H40M
   - local: 2025-07-01T08:00:00+08:00/2025-07-01T09:40:00+08:00, PT1H40M
 - topic: information systems in global business today
-- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <p.>
+- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information.
   - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization.
     - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals
     - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc.
