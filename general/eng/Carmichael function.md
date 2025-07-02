@@ -35,7 +35,7 @@ The Carmichael function is named after {@{the American mathematician [Robert Car
 
 ## Carmichael's theorems
 
-Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(_n_\) is considered as defined by the recurrence of the previous section}@}, then {@{it satisfies the property stated in the introduction, namely that it is the smallest positive integer _m_ such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2026-02-02,317,341!2025-09-12,200,321!2025-07-02,133,301-->
+Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(_n_\) is considered as defined by the recurrence of the previous section}@}, then {@{it satisfies the property stated in the introduction, namely that it is the smallest positive integer _m_ such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2026-02-02,317,341!2025-09-12,200,321!2027-01-07,554,321-->
 
 > Theorem 1 ::@:: — If _a_ is relatively prime to _n_ then $a^{\lambda (n)}\equiv 1{\pmod {n} }$.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-20,255,330!2025-08-31,189,310-->
 

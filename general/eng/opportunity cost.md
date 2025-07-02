@@ -24,7 +24,7 @@ Examples are as follows:<sup>[\[5\]](#^ref-5)</sup><sup>[\[8\]](#^ref-8)</sup>
 
 Scenarios are as follows:<sup>[\[7\]](#^ref-7)</sup>
 
-- If a person leaves work for an hour and spends $200 on office supplies, then the explicit costs for the individual equates to ::@:: the total expenses for the office supplies of $200. <!--SR:!2025-07-02,196,310!2027-09-08,818,330-->
+- If a person leaves work for an hour and spends $200 on office supplies, then the explicit costs for the individual equates to ::@:: the total expenses for the office supplies of $200. <!--SR:!2027-10-27,847,330!2027-09-08,818,330-->
 - If a printer of a company malfunctions, then the explicit costs for the company equates to ::@:: the total amount to be paid to the repair technician. <!--SR:!2025-10-08,288,330!2025-10-16,296,330-->
 
 ### implicit costs

@@ -212,7 +212,7 @@ return _chain.from_iterable(await _gather(
 - Ti<sup>4+</sup>:@:[titanium](titanium.md) <!--SR:!2030-08-06,1879,385-->
 - Mn<sup>2+</sup>:@:[manganese](manganese.md) <!--SR:!2028-10-16,1319,365-->
 - Zn<sup>2+</sup>:@:[zinc](zinc.md) <!--SR:!2025-08-23,156,345-->
-- Cr<sup>3+</sup>:@:[chromium](chromium.md) <!--SR:!2025-07-02,395,367-->
+- Cr<sup>3+</sup>:@:[chromium](chromium.md) <!--SR:!2030-12-10,1987,387-->
 - Fe<sup>2+</sup>:@:[iron](iron.md) <!--SR:!2030-03-24,1770,385-->
 - Cd<sup>2+</sup>:@:[cadmium](cadmium.md) <!--SR:!2030-03-23,1774,385-->
 - Co<sup>2+</sup>:@:[cobalt](cobalt.md) <!--SR:!2025-07-18,406,365-->

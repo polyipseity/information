@@ -14,7 +14,7 @@ A sidereal day on [Earth](Earth.md) is {@{approximately 86&nbsp;164.0905 seconds
 
 ## comparison to solar time
 
-[Earth](Earth.md) makes {@{one rotation around its axis each sidereal day}@}; during that time {@{it moves a short distance (about 1°) along its [orbit](orbit.md) around the [Sun](Sun.md)}@}. So after a sidereal day has passed, Earth {@{still needs to rotate slightly more before the Sun reaches local noon according to [solar time](solar%20time.md)}@}. A mean solar day is, therefore, {@{nearly 3 minutes 56 seconds longer than a sidereal day}@}. <!--SR:!2026-10-08,630,330!2025-07-02,282,330!2027-02-16,729,330!2027-08-24,814,290-->
+[Earth](Earth.md) makes {@{one rotation around its axis each sidereal day}@}; during that time {@{it moves a short distance (about 1°) along its [orbit](orbit.md) around the [Sun](Sun.md)}@}. So after a sidereal day has passed, Earth {@{still needs to rotate slightly more before the Sun reaches local noon according to [solar time](solar%20time.md)}@}. A mean solar day is, therefore, {@{nearly 3 minutes 56 seconds longer than a sidereal day}@}. <!--SR:!2026-10-08,630,330!2029-01-10,1288,350!2027-02-16,729,330!2027-08-24,814,290-->
 
 ## sidereal days compared to solar days on other planets
 

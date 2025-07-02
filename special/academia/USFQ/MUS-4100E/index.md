@@ -163,7 +163,7 @@ The content is in teaching order.
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-12-16,250,340!2026-05-11,369,360-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2026-06-23,385,360!2026-05-15,372,360-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-07-02,108,300!2025-07-03,81,300-->
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!2025-07-03,81,300-->
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2026-06-17,379,360!2025-12-15,249,340-->
 - quiz \(attendance\): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
@@ -389,7 +389,7 @@ The content is in teaching order.
   - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-07-12,102,382!2025-07-06,98,382-->
   - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-08-11,134,402-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
-- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2025-07-02,95,382-->
+- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2026-11-13,499,402-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2025-07-11,101,382-->
   - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2025-08-08,131,402-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-07-12,102,382!2025-07-06,98,382-->
@@ -692,7 +692,7 @@ The content is in teaching order.
   - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-12-04,157,442!2025-11-23,147,438-->
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\) <!--SR:!2025-11-26,150,438!2025-12-05,158,441-->
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2025-11-28,152,441!2025-12-03,156,441-->
-  - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2025-07-02,5,415!2025-07-02,5,415-->
+  - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2025-07-30,28,435!2025-07-31,29,435-->
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2025-12-02,155,441!2025-12-04,156,438-->
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2025-11-27,151,438!2025-12-06,158,438-->
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2025-10-13,111,418!2025-12-11,163,441-->

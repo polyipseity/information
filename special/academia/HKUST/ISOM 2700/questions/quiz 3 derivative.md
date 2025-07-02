@@ -69,7 +69,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{2, 3, 4}@} <!--SR:!2025-07-02,16,290-->
+> - solution: {@{2, 3, 4}@} <!--SR:!2025-09-02,62,310-->
 
 ---
 
@@ -95,7 +95,7 @@ tags:
 > ---
 >
 > - solution: {@{\$255&nbsp;675}@}
-> - explanation: {@{Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-08-13,45,290!2025-07-02,16,290-->
+> - explanation: {@{Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-08-13,45,290!2025-09-02,62,310-->
 
 ---
 
@@ -109,7 +109,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2025-07-02,16,290-->
+> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2025-09-02,62,310-->
 
 ---
 
@@ -157,7 +157,7 @@ tags:
 > ---
 >
 > - solution: {@{100}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2025-07-02,16,290!2025-07-02,16,290-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2025-09-02,62,310!2025-09-02,62,310-->
 
 ---
 
@@ -170,4 +170,4 @@ tags:
 > ---
 >
 > - solution: {@{75}@}
-> - explanation: {@{25\*3=75}@} <!--SR:!2025-08-27,58,310!2025-07-02,16,290-->
+> - explanation: {@{25\*3=75}@} <!--SR:!2025-08-27,58,310!2025-09-02,62,310-->

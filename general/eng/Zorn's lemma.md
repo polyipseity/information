@@ -206,7 +206,7 @@ The lemma was referenced on {@{_[The Simpsons](The%20Simpsons.md)_}@} in the epi
 ## see also
 
 - [Antichain](antichain.md) ::@:: – Subset of incomparable elements <!--SR:!2026-01-13,301,350!2026-02-23,335,350-->
-- [Chain-complete partial order](complete%20partial%20order.md) ::@:: – a partially ordered set in which every chain has a least upper bound <!--SR:!2025-07-02,142,310!2025-10-07,220,330-->
+- [Chain-complete partial order](complete%20partial%20order.md) ::@:: – a partially ordered set in which every chain has a least upper bound <!--SR:!2026-09-18,443,310!2025-10-07,220,330-->
 - [Szpilrajn extension theorem](Szpilrajn%20extension%20theorem.md) ::@:: – Mathematical result on order relations <!--SR:!2025-10-04,215,330!2025-11-04,243,330-->
 - [Tarski finiteness](finite%20set.md#Tarski%20finite) ::@:: – Mathematical set containing a finite number of elements <!--SR:!2026-01-23,311,350!2025-09-11,199,318-->
 - [Teichmüller–Tukey lemma](Teichmüller–Tukey%20lemma.md) ::@:: \(sometimes named Tukey's lemma\) <!--SR:!2026-01-24,312,350!2026-03-15,351,350-->

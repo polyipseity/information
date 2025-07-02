@@ -18,7 +18,7 @@ tags:
 > Assume a train running between A and B serves 420 customers per hour on average. On a weekday, there are 210 customers riding or waiting on average. What is the average flow time?
 >
 > - solution: {@{0.5&nbsp;hours}@}
-> - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2025-07-02,63,310!2025-07-04,65,310-->
+> - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2026-04-02,274,330!2025-07-04,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -75,7 +75,7 @@ tags:
 > At process capacity, what is the utilization of the testing machines?
 >
 > - solution: {@{60%}@}
-> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@} <!--SR:!2025-07-02,63,310!2025-07-06,67,310-->
+> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@} <!--SR:!2026-04-03,275,330!2025-07-06,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -96,7 +96,7 @@ tags:
 >
 > - solution: {@{3 units per hour}@}
 > - explanation: {@{For people, each unit takes 5+15 = 20&nbsp;minutes. Its capacity is 3 units per hour. For transporter, each unit takes 15&nbsp;minutes. Its capacity is 4\*3 = 12 units per hour. For machine, each unit takes 60&nbsp;minutes. Its capacity is 1\*20 = 20 units per hour. So people is the bottleneck resource, thus its capacity is the process capacity.}@}
-> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2026-03-27,268,330!2025-07-03,64,310!2025-07-02,63,310-->
+> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2026-03-27,268,330!2025-07-03,64,310!2026-03-29,270,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -130,7 +130,7 @@ tags:
 > In a process, the average flow time is 30 minutes, and the average work-in-process inventory is 7 units. What is its cycle time?
 >
 > - solution: {@{1/14&nbsp;hours}@}
-> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2025-07-02,63,310!2025-07-04,65,310-->
+> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2026-04-01,273,330!2025-07-04,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -139,4 +139,4 @@ tags:
 > A company sells a product. The selling price is \$42 per unit. The sales this year is 1&nbsp;000&nbsp;000. The variable cost is \$10 per unit. The fixed cost is \$370&nbsp;000. The invested capital into this product is \$100&nbsp;000&nbsp;000. Calculate its return on invested capital \(ROIC\).
 >
 > - solution: {@{31.63%}@}
-> - explanation: {@{It is calculated as: $$\text{ROIC} = \left(1 - \frac {10} {42} - \frac {370\,000} {42 \times 1\,000\,000} \right) \frac {42 \times 1\,000\,000} {100\,000\,000} = 0.3163 = 31.63\% \,.$$ <p> Alternatively \(untaught\), you can calculate: $$\text{ROIC} = \frac {(42 - 10) \times 1\,000\,000 - 370\,000} {100\,000\,000} = 0.3163 = 31.63\% \,,$$ which is actually simpler... ;p}@} <!--SR:!2025-07-02,63,310!2025-12-22,182,310-->
+> - explanation: {@{It is calculated as: $$\text{ROIC} = \left(1 - \frac {10} {42} - \frac {370\,000} {42 \times 1\,000\,000} \right) \frac {42 \times 1\,000\,000} {100\,000\,000} = 0.3163 = 31.63\% \,.$$ <p> Alternatively \(untaught\), you can calculate: $$\text{ROIC} = \frac {(42 - 10) \times 1\,000\,000 - 370\,000} {100\,000\,000} = 0.3163 = 31.63\% \,,$$ which is actually simpler... ;p}@} <!--SR:!2026-04-04,276,330!2025-12-22,182,310-->

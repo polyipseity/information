@@ -197,7 +197,7 @@ Sustainable Waste Management
 
 3Rs Concept
 
-- 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2027-07-12,859,330-->
+- 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2029-05-29,1427,350!2027-07-12,859,330-->
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2028-07-09,1174,350-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2026-06-17,521,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2028-06-07,1147,350-->

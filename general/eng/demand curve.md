@@ -11,7 +11,7 @@ tags:
 
 > {@{![An example of a demand curve shifting.](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
-> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2025-11-07,271,330!2025-09-17,230,330!2025-12-04,293,330!2025-10-02,243,330!2025-07-02,168,310-->
+> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2025-11-07,271,330!2025-09-17,230,330!2025-12-04,293,330!2025-10-02,243,330!2027-06-23,721,330-->
 
 A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\) and the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. Demand curves can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\), or for all consumers in a particular market \(a __market demand curve__\)}@}. <!--SR:!2025-10-09,249,330!2025-12-02,291,330!2025-10-16,255,330-->
 

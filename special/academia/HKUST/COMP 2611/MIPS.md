@@ -104,9 +104,9 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned; `$LO` \(quotient\) is rounded towards zero <!--SR:!2026-06-14,355,355!2026-05-08,318,355-->
   - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2026-05-27,337,355!2026-05-15,325,355-->
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2026-01-06,219,352!2026-02-24,265,352-->
-- multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2026-08-02,399,372!2025-07-02,84,352-->
+- multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2026-08-02,399,372!2026-08-17,411,372-->
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed ; note the register placeholder `$d` is unused <!--SR:!2026-06-11,352,355!2026-05-11,321,355-->
-  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2025-08-14,99,381!2025-07-02,68,361-->
+  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2025-08-14,99,381!2026-06-07,340,381-->
 - multiply immediate ::@:: `multi` does not exist. <!--SR:!2026-06-03,344,355!2026-06-06,347,350-->
 - multiply immediate unsigned ::@:: `multiu` does not exist. <!--SR:!2026-05-11,321,355!2026-05-11,321,355-->
 - multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused <!--SR:!2026-05-29,339,355!2026-05-21,331,355-->
@@ -337,12 +337,12 @@ Since {@{MIPS have few instructions}@}, some common code {@{requires multiple in
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\) <!--SR:!2025-08-17,102,381!2025-07-27,86,381!2025-08-07,97,381!2025-08-15,100,381-->
 
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 2; (branch delay slot); sub $d, $zero, $s;` \(use 1 instead of 2 for MIPS without branch delay slots, which MARS simulate by default\) <!--SR:!2025-07-17,71,361!2025-07-18,72,361-->
-- branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;` <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
+- branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;` <!--SR:!2025-07-28,26,396!2025-07-29,27,396-->
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2025-08-01,91,381!2025-07-28,87,381-->
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2025-07-19,73,361!2025-08-09,94,381-->
 - branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2025-07-09,68,361!2025-07-29,88,381-->
 - branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-12-23,201,361-->
-- branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
+- branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2025-07-29,27,396!2025-07-28,26,396-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2026-05-08,318,355!2025-12-16,198,330-->
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2026-04-24,304,350!2026-06-08,349,350-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2025-08-13,98,381!2025-08-10,95,381-->

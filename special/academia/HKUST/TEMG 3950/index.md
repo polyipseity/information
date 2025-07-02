@@ -221,7 +221,7 @@ The content is in teaching order.
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2027-09-30,938,361-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2025-08-05,332,361-->
-  - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2025-07-02,291,361!2025-11-01,410,381-->
+  - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2025-11-01,410,381-->
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2025-07-13,313,361-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2025-07-05,306,361-->

@@ -27,7 +27,7 @@ Although {@{the terms "countable" and "countably infinite" as defined here are q
 
 A set $S$ is {@{_countable_}@} if: <!--SR:!2025-08-31,189,310-->
 
-- countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-07-02,130,290!2026-07-04,414,310-->
+- countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-12-12,528,310!2026-07-04,414,310-->
 - countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-11-02,241,330!2025-07-27,163,310-->
 - countable, function to ::@:: $S$ is empty or there exists a [surjective function](surjective%20function.md) from $\mathbb {N}$ to $S$.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-07-19,156,310!2026-10-27,503,310-->
 - countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-11-16,253,330!2026-07-06,416,310-->

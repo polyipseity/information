@@ -42,7 +42,7 @@ tags:
 > What is the idle time fraction?
 >
 > - solution: {@{0.25}@}
-> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2025-07-02,63,310!2026-03-31,272,330-->
+> - explanation: {@{Utilization is 15/20 = 0.75. Idle time fraction is simply 1–0.75 = 0.25.}@} <!--SR:!2026-04-03,275,330!2026-03-31,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -55,7 +55,7 @@ tags:
 > What is the utilization level of the system?
 >
 > - solution: {@{0.375}@}
-> - explanation: {@{15/\(20\*2\) = 0.375. Alternatively, 0.75/2 = 0.375.}@} <!--SR:!2025-07-02,63,310!2025-07-02,63,310-->
+> - explanation: {@{15/\(20\*2\) = 0.375. Alternatively, 0.75/2 = 0.375.}@} <!--SR:!2026-04-01,273,330!2026-03-31,272,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -68,7 +68,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{1.2}@}
-> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@} <!--SR:!2025-07-02,63,310!2025-07-02,63,310-->
+> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@} <!--SR:!2026-04-04,276,330!2026-04-02,274,330-->
 
 <!-- markdownlint MD028 -->
 

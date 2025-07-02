@@ -126,7 +126,7 @@ The content is in teaching order.
     - artificial intelligence / history / 2002 ::@:: iRobot launched __Roomba__, an _autonomous vacuum cleaner that avoids obstacles_. <!--SR:!2025-07-03,172,312!2026-10-02,512,312-->
     - artificial intelligence / history / 2009 ::@:: Google built the _first self-driving car_ to handle urban conditions. <!--SR:!2025-12-19,322,350!2025-12-29,306,310-->
     - artificial intelligence / history / 2011 ::@:: IBM's __Watson__ supercomputer _defeated humans in the final Jeopardy match_. <!--SR:!2027-03-10,647,332!2025-09-28,200,270-->
-    - artificial intelligence / history / 2011–2014 ::@:: _Personal assistants_ like Siri, Google Now, Cortana use _speech recognition_ to answer questions and perform simple tasks. <!--SR:!2026-07-15,456,310!2025-07-02,171,312-->
+    - artificial intelligence / history / 2011–2014 ::@:: _Personal assistants_ like Siri, Google Now, Cortana use _speech recognition_ to answer questions and perform simple tasks. <!--SR:!2026-07-15,456,310!2027-07-07,735,332-->
     - artificial intelligence / history / 2014 ::@:: Ian Goodfellow comes up with __Generative Adversarial Network__ (__GAN__). <!--SR:!2025-08-10,214,330!2025-09-30,242,330-->
     - artificial intelligence / history / 2016 ::@:: __AlphaGo__ _beats professional Go player_ Lee Sedol 4-1. <!--SR:!2025-08-08,198,290!2026-06-15,431,310-->
     - artificial intelligence / history / 2018 ::@:: Most universities _have courses in artificial intelligence_, including HKUST. (shameless self-plug) <!--SR:!2025-10-06,244,330!2025-09-04,235,332-->

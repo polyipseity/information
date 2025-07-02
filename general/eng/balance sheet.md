@@ -92,7 +92,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::@:: non-physical assets whose value is derived from a contractual claim <!--SR:!2027-02-09,616,290!2027-01-26,657,330-->
 5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::@:: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (both inclusive) of the shares) <!--SR:!2026-08-11,472,310!2027-10-19,845,330-->
 6. biological assets, which are living plants or animals; bearer biological assets are plants or animals which bear agricultural produce for harvest, such as apple trees grown to produce apples and sheep raised to produce wool<sup>[\[18\]](#^ref-18)</sup> ::@:: assets that are living plants or animals <!--SR:!2027-04-22,703,330!2027-11-06,858,330-->
-7. [loan](loan.md) to (more than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back beyond one financial period <!--SR:!2025-07-02,217,330!2025-08-05,245,330-->
+7. [loan](loan.md) to (more than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back beyond one financial period <!--SR:!2028-03-08,980,350!2025-08-05,245,330-->
 
 ### liabilities
 

@@ -18,7 +18,7 @@ English
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: \(W\_n\) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2029-06-23,1571,364!2028-12-08,1410,364-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: \(a\_e\) To adapt. <!--SR:!2027-10-28,1008,344!2025-12-12,317,284-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: \(a\_e\) To gradually increase in quantity. <!--SR:!2025-10-26,467,332!2031-05-04,2141,394-->
-- [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
+- [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring. <!--SR:!2025-07-27,25,396!2025-07-27,25,396-->
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: \(a\_e\) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2027-02-11,798,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2026-01-28,526,310!2025-07-10,152,310-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2025-10-08,458,310!2025-08-26,408,290-->
@@ -50,7 +50,7 @@ English
 - [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it. <!--SR:!2025-07-18,25,393!2025-07-18,25,393-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: \(h\_c\) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: \(i\_y\) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2029-02-19,1470,364!2027-07-05,933,344-->
-- [impoverished](https://en.wiktionary.org/wiki/impoverished) ::@:: \(i\_d\) Reduced to poverty. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
+- [impoverished](https://en.wiktionary.org/wiki/impoverished) ::@:: \(i\_d\) Reduced to poverty. <!--SR:!2025-07-28,26,396!2025-07-27,25,396-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::@:: \(i\_t\) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2026-02-06,547,324!2025-12-26,296,264-->
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::@:: \(i\_m\) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2031-02-26,2067,410!2028-11-07,1279,350-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::@:: \(i\_n\) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2028-01-19,1072,344!2028-04-27,1149,344-->
@@ -80,15 +80,15 @@ English
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: \(r\_t\) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2028-06-25,1215,372!2028-09-29,1291,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: \(r\_r\) A source or sink of something. <!--SR:!2027-10-20,1003,330!2027-03-11,779,290-->
-- [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
+- [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront. <!--SR:!2025-07-28,26,396!2025-07-28,26,396-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: \(r\_y\) Basic, minimal. <!--SR:!2030-08-26,1942,392!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: \(s\_d\) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2029-02-23,1333,356-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: \(s\_e\) Uncommon, rare. <!--SR:!2025-08-20,394,376!2025-07-28,345,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: \(s\_d\) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: \(s\_s\) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2026-01-10,480,332!2031-04-21,2121,412-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: \(s\_l\) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2026-09-06,549,244-->
-- [substitute](https://en.wiktionary.org/wiki/substitute) ::@:: \(s\_e\) To use in place of something else, with the same function. <!--SR:!2025-07-02,5,376!2025-07-20,19,376-->
-- [substitutability](https://en.wiktionary.org/wiki/substitutability) ::@:: \(s\_y\) The quality of being substitutable; the capacity to be substituted. <!--SR:!2025-07-02,5,376!2025-07-04,5,356-->
+- [substitute](https://en.wiktionary.org/wiki/substitute) ::@:: \(s\_e\) To use in place of something else, with the same function. <!--SR:!2025-07-29,27,396!2025-07-20,19,376-->
+- [substitutability](https://en.wiktionary.org/wiki/substitutability) ::@:: \(s\_y\) The quality of being substitutable; the capacity to be substituted. <!--SR:!2025-07-29,27,396!2025-07-04,5,356-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: \(s\_m\) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2028-08-16,1304,390-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::@:: \(t\_e\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2026-10-23,679,332!2031-03-18,2094,412-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::@:: \(t\_l\) Of or relating to theory rather than practice. <!--SR:!2027-02-13,825,330!2026-02-02,521,290-->
@@ -103,10 +103,10 @@ English
 - [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions. <!--SR:!2025-07-20,27,393!2025-07-20,27,393-->
 - [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2025-07-19,26,393!2025-07-19,26,393-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: \(v\_r\) To do or offer to do something voluntarily. <!--SR:!2030-03-21,1819,392!2029-01-07,1369,372-->
-- [weigh](https://en.wiktionary.org/wiki/weigh) ::@:: \(w\_h\) To determine the weight of an object. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
-- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
-- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
-- [weighting](https://en.wiktionary.org/wiki/weighting) ::@:: \(w\_g\) The weight or significance given to something, sometimes by means of a statistical multiplier. <!--SR:!2025-07-02,5,376!2025-07-02,5,376-->
+- [weigh](https://en.wiktionary.org/wiki/weigh) ::@:: \(w\_h\) To determine the weight of an object. <!--SR:!2025-07-28,26,396!2025-07-29,27,396-->
+- [weighing](https://en.wiktionary.org/wiki/weighing) ::@:: \(w\_g\) That weighs or burdens. <!--SR:!2025-07-27,25,396!2025-07-27,25,396-->
+- [weight](https://en.wiktionary.org/wiki/weight) ::@:: \(w\_t\) The downwards force an object experiences due to gravity. <!--SR:!2025-07-27,25,396!2025-07-27,25,396-->
+- [weighting](https://en.wiktionary.org/wiki/weighting) ::@:: \(w\_g\) The weight or significance given to something, sometimes by means of a statistical multiplier. <!--SR:!2025-07-27,25,396!2025-07-27,25,396-->
 
 ## references
 
