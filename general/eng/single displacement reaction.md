@@ -25,7 +25,7 @@ This often happens when {@{$\text{A}$ is more [reactive](reactivity%20(chemistry
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::@:: Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md) to minimize its [energy](energy.md) level. <!--SR:!2027-02-19,832,330!2025-07-03,377,359-->
+> - [intuition](intuition.md) ::@:: Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md) to minimize its [energy](energy.md) level. <!--SR:!2027-02-19,832,330!2030-08-03,1857,379-->
 
 ## references
 

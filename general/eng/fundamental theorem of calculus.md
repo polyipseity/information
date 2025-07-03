@@ -20,7 +20,7 @@ The first part is sometimes called the _first fundamental theorem of calculus_.
 
 > __first fundamental theorem of calculus__
 >
-> {@{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$, define $F$ as the [Riemann integral](Riemann%20integral.md) $$F(x)=\int_a^x\!f(t)\,\mathrm{d}t\quad\forall{x}\in[a,b]$$. Then $F$ is an [antiderivative](antiderivative.md) of $f$ on the open [interval](interval%20(mathematics).md) $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$. $F$ is [uniformly continuous](uniformly%20continuous.md) on $[a,b]$ and [differentiable](differentiable%20function.md) on $(a,b)$.}@} <!--SR:!2025-07-03,323,230-->
+> {@{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$, define $F$ as the [Riemann integral](Riemann%20integral.md) $$F(x)=\int_a^x\!f(t)\,\mathrm{d}t\quad\forall{x}\in[a,b]$$. Then $F$ is an [antiderivative](antiderivative.md) of $f$ on the open [interval](interval%20(mathematics).md) $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$. $F$ is [uniformly continuous](uniformly%20continuous.md) on $[a,b]$ and [differentiable](differentiable%20function.md) on $(a,b)$.}@} <!--SR:!2028-05-23,1055,250-->
 
 The first part implies that when $f$ is [continuous](continuous%20function.md), {@{[antiderivatives](antiderivative.md) of $f$ always exists}@}. <!--SR:!2027-03-12,931,350-->
 

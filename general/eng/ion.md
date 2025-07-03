@@ -364,7 +364,7 @@ return chain.from_iterable(await gather(
 - <span style="color: brown; background-color: white;">brown</span> (concentrated):@:iron(III) ion <!--SR:!2029-01-31,1603,381-->
 - <span style="color: purple; background-color: white;">purple</span>:@:titanium(III) ion <!--SR:!2025-08-06,473,242-->
 - <span style="color: violet;">violet</span>:@:vanadium(II) ion <!--SR:!2025-10-27,314,242-->
-- <span style="color: red;">red</color>:@:manganese(III) ion <!--SR:!2025-07-03,212,302-->
+- <span style="color: red;">red</color>:@:manganese(III) ion <!--SR:!2027-04-02,638,302-->
 
 <!--/pytextgen-->
 

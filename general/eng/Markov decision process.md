@@ -171,7 +171,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 
 - a set _x_ ::@:: of possible inputs, <!--SR:!2025-12-06,281,332!2025-11-09,260,332-->
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2025-11-07,258,332!2025-12-15,285,332-->
-- a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2025-07-03,140,292!2025-12-07,282,332-->
+- a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2025-12-07,282,332-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2025-12-06,281,332!2025-08-24,183,312-->
 - a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.) <!--SR:!2025-10-27,207,272!2026-10-10,493,312-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2025-08-23,182,312!2025-09-01,199,312-->

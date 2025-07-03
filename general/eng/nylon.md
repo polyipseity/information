@@ -60,7 +60,7 @@ The following properties make nylons suitable for {@{clothing fibers, fishing li
 <!--pytextgen generate section="d83e"--><!-- The following content is generated at 2024-01-04T20:17:52.459920+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←dyeable <!--SR:!2027-10-16,1073,290!2026-02-14,523,290-->
-- dyeable→::@::←elastic <!--SR:!2025-07-03,319,230!2025-12-16,684,310-->
+- dyeable→::@::←elastic <!--SR:!2028-05-05,1037,250!2025-12-16,684,310-->
 - elastic→::@::←high tensile strength <!--SR:!2026-04-24,482,230!2027-10-26,1106,290-->
 - high tensile strength→::@::←oil-proof <!--SR:!2025-10-31,222,170!2025-09-03,473,230-->
 - oil-proof→::@::←smooth <!--SR:!2026-03-23,296,190!2025-08-23,505,230-->

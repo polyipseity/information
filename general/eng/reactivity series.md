@@ -190,7 +190,7 @@ return _chain.from_iterable(await _gather(
 - [copper](copper.md):@:Cu<sup>2+</sup> <!--SR:!2031-03-12,2161,330-->
 - [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2025-07-09,575,310-->
 - [mercury](mercury%20(element).md):@:Hg<sup>2+</sup> <!--SR:!2025-12-14,469,270-->
-- [silver](silver.md):@:Ag<sup>+</sup> <!--SR:!2025-07-03,572,310-->
+- [silver](silver.md):@:Ag<sup>+</sup> <!--SR:!2032-03-27,2459,330-->
 - [gold](gold.md):@:Au<sup>3+</sup> <!--SR:!2031-06-27,2256,330-->
 - [platinum](platinum.md):@:Pt<sup>4+</sup> <!--SR:!2029-06-25,1551,310-->
 

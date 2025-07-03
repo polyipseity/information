@@ -52,7 +52,7 @@ The content is in teaching order.
 - topic: Innerview (II): Together we redefine Success
 - ideal life
 - powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2027-07-15,771,330!2025-09-19,280,330-->
-- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2025-07-30,239,330!2025-07-03,217,330-->
+- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2025-07-30,239,330!2028-03-16,987,350-->
 
 ## week 3 tutorial
 

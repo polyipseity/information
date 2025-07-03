@@ -22,7 +22,7 @@ In {@{the most straightforward case, such as the sampling of a batch of material
 
 As a remedy, {@{we seek a [sampling frame](sampling%20frame.md) which has the property that we can identify every single element and include any in our sample}@}. The most straightforward type of frame is {@{a list of elements of the population (preferably the entire population) with appropriate contact information}@}. For example, in an [opinion poll](opinion%20poll.md), possible sampling frames include {@{an [electoral register](electoral%20roll.md) and a [telephone directory](telephone%20directory.md)}@}. <!--SR:!2027-04-07,664,290!2025-07-07,238,330!2027-03-25,715,330-->
 
-A __probability sample__ is {@{a sample in which every unit in the population has a chance (greater than zero) of being selected in the sample, and this probability can be accurately determined}@}. The combination of these traits makes it possible to {@{produce unbiased estimates of population totals, by weighting sampled units according to their probability of selection}@}. <!--SR:!2025-07-03,234,330!2026-07-06,493,310-->
+A __probability sample__ is {@{a sample in which every unit in the population has a chance (greater than zero) of being selected in the sample, and this probability can be accurately determined}@}. The combination of these traits makes it possible to {@{produce unbiased estimates of population totals, by weighting sampled units according to their probability of selection}@}. <!--SR:!2028-06-05,1068,350!2026-07-06,493,310-->
 
 > [!example] example
 >
@@ -34,7 +34,7 @@ In the above example, {@{not everybody has the same probability of selection; wh
 
 Probability sampling includes: {@{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}@}. These various ways of probability sampling have two things in common: <!--SR:!2027-04-06,674,290-->
 
-1. (probability sampling) every element ::@:: Every element has a known nonzero probability of being sampled and <!--SR:!2025-08-13,264,330!2025-07-03,235,330-->
+1. (probability sampling) every element ::@:: Every element has a known nonzero probability of being sampled and <!--SR:!2025-08-13,264,330!2028-06-06,1069,350-->
 2. (probability sampling) at some point ::@:: involves random selection at some point. <!--SR:!2025-09-05,283,330!2026-06-26,495,310-->
 
 ### nonprobability sampling

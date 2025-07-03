@@ -8,7 +8,7 @@ tags:
 
 # supernova nucleosynthesis
 
-__Supernova nucleosynthesis__ is {@{the [nucleosynthesis](nucleosynthesis.md) of [chemical elements](chemical%20element.md) in [supernova](supernova.md) explosions}@}. <!--SR:!2025-07-03,260,330-->
+__Supernova nucleosynthesis__ is {@{the [nucleosynthesis](nucleosynthesis.md) of [chemical elements](chemical%20element.md) in [supernova](supernova.md) explosions}@}. <!--SR:!2028-09-28,1183,350-->
 
 ## references
 

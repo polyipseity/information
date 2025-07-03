@@ -96,7 +96,7 @@ tags:
 >
 > - solution: {@{3 units per hour}@}
 > - explanation: {@{For people, each unit takes 5+15 = 20&nbsp;minutes. Its capacity is 3 units per hour. For transporter, each unit takes 15&nbsp;minutes. Its capacity is 4\*3 = 12 units per hour. For machine, each unit takes 60&nbsp;minutes. Its capacity is 1\*20 = 20 units per hour. So people is the bottleneck resource, thus its capacity is the process capacity.}@}
-> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2026-03-27,268,330!2025-07-03,64,310!2026-03-29,270,330-->
+> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2026-03-27,268,330!2026-04-08,279,330!2026-03-29,270,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -121,7 +121,7 @@ tags:
 > You manage a theater. The theater can hold 4 shows at a time. You expect to start at most 3 shows in an hour. What should be the maximum show duration? Assume the process is _stable_.
 >
 > - solution: {@{80 minutes}@}
-> - explanation: {@{The required average inventory is 4 shows. The required arrival rate is 3 shows per hour. By Little's law, required flow time = 4/3&nbsp;hours = 80&nbsp;minutes.}@} <!--SR:!2025-07-03,64,310!2025-07-05,66,310-->
+> - explanation: {@{The required average inventory is 4 shows. The required arrival rate is 3 shows per hour. By Little's law, required flow time = 4/3&nbsp;hours = 80&nbsp;minutes.}@} <!--SR:!2026-04-10,281,330!2025-07-05,66,310-->
 
 <!-- markdownlint MD028 -->
 

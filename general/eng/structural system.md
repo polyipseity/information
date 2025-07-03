@@ -78,7 +78,7 @@ The following interior structures are possible.
 
 Intuitively, if a high-rise building is {@{a skier}@}, then {@{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}@}. <!--SR:!2027-05-12,833,335!2028-08-27,1220,355-->
 
-Outriggers can {@{reduce the overturning moment in the core by transferring some moment to columns outside the core}@}. <!--SR:!2025-07-03,297,295-->
+Outriggers can {@{reduce the overturning moment in the core by transferring some moment to columns outside the core}@}. <!--SR:!2028-10-31,1216,315-->
 
 For example, outriggers are used in {@{the [International Commerce Center](International%20Commerce%20Center.md)}@}. The building has {@{4 outriggers in 4 separate floors}@}. In each outrigger, {@{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}@}. <!--SR:!2027-09-15,914,330!2026-02-18,431,295!2026-10-31,627,315-->
 
@@ -116,7 +116,7 @@ return await memorize_seq(
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[buttress](buttress.md) <!--SR:!2027-03-13,786,335!2027-01-28,681,315-->
-- [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2025-07-03,224,235!2026-03-05,417,315-->
+- [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2027-07-16,743,255!2026-03-05,417,315-->
 - [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2027-07-18,825,295!2025-07-19,242,295-->
 - [exoskeleton](exoskeleton.md)→::@::←[space truss](space%20frame.md) <!--SR:!2025-12-30,361,255!2026-09-22,528,255-->
 - [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2026-02-12,422,295!2026-12-18,590,275-->

@@ -436,7 +436,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!2025-07-03,90,379!2025-07-05,92,379-->
+> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!2026-10-18,472,399!2025-07-05,92,379-->
 
 <!-- markdownlint MD028 -->
 
@@ -469,7 +469,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2025-07-04,91,379!2025-07-03,90,379-->
+> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2025-07-04,91,379!2026-10-19,473,399-->
 
 ## week 5 lecture 2
 
@@ -524,7 +524,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-07-03,90,379-->
+> - solution: {@{2}@} <!--SR:!2026-10-17,471,399-->
 
 <!-- markdownlint MD028 -->
 
@@ -535,7 +535,7 @@ tags:
 > 3. 2–3
 > 4. below 2
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2025-07-03,90,379-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2026-10-20,474,399-->
 
 ## week 6 lecture
 

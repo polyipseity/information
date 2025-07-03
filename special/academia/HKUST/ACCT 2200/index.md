@@ -235,9 +235,9 @@ The content is in teaching order.
     - activity-based costing / activity-rate method / table: [formats § activity cost pool](formats.md#activity%20cost%20pool)
     - activity-based costing / activity-rate method / table (total cost driver: number of setups): [formats § activity cost driver - setups](formats.md#activity%20cost%20driver%20-%20setups)
     - activity-based costing / activity-rate method / table (cost allocation): [formats § activity cost allocation](formats.md#activity%20cost%20allocation)
-  - activity-based costing / total manufacturing overhead ::@:: Add up all manufacturing overheads obtained using activity-based costing. This calculated MOH is _applied_ or _actual_ depending on how the original activity rate was calculated (usually _applied_). <p> You may use a _table_. <!--SR:!2025-07-05,102,379!2025-07-03,100,379-->
+  - activity-based costing / total manufacturing overhead ::@:: Add up all manufacturing overheads obtained using activity-based costing. This calculated MOH is _applied_ or _actual_ depending on how the original activity rate was calculated (usually _applied_). <p> You may use a _table_. <!--SR:!2025-07-05,102,379!2026-12-07,522,399-->
     - activity-based costing / total manufacturing overhead / table: [formats § total manufacturing overhead](formats.md#total%20manufacturing%20overhead)
-  - activity-based costing / manufacturing overhead cost per unit ::@:: For each process/product/service, simply divide total manufacturing overhead by number of (equivalent) units produced. <p> You may use a _table_. <!--SR:!2025-07-03,100,379!2026-10-12,473,399-->
+  - activity-based costing / manufacturing overhead cost per unit ::@:: For each process/product/service, simply divide total manufacturing overhead by number of (equivalent) units produced. <p> You may use a _table_. <!--SR:!2026-12-08,523,399!2026-10-12,473,399-->
   - activity-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <p> Actually same as that in volume-based activity. <p> You may use a _table_. <!--SR:!2026-11-09,500,399!2026-01-08,236,359-->
   - activity-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <p> Actually same as that in volume-based activity. <p> You may use a _table_. <!--SR:!2026-10-27,488,399!2025-11-21,202,359-->
 - [activity-based management](../../../../general/activity-based%20management.md) (ABM) ::@:: It includes actions taken to improve operations or reduce costs using ABC. The first step is identifying areas to improve, e.g. activities, cost, value-added, etc. <!--SR:!2026-11-17,506,399!2025-07-04,101,379-->
@@ -266,7 +266,7 @@ The content is in teaching order.
 - [scatter plot](../../../../general/scatter%20plot.md) (scattergraph) ::@:: a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data <!--SR:!2025-07-11,103,386!2025-07-11,103,386-->
 - cost behavior
   - cost behavior / linear regression ::@:: scattergraph, high—low method, least squares <!--SR:!2025-07-09,101,386!2026-11-16,502,406-->
-    - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points. <!--SR:!2025-07-04,97,386!2025-07-03,96,386-->
+    - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points. <!--SR:!2025-07-04,97,386!2026-11-22,507,406-->
     - cost behavior / linear regression / high—low method ::@:: Find two data points: one with min $x$, the other with max $x$. Find the slope $b$ (unit variable cost) of the line connecting them. This will be $b$. Then find the y-intercept $a$ (fixed cost) on the line connecting them. <!--SR:!2025-07-11,103,386!2025-07-05,98,386-->
 
 ## week 5 lecture 2
