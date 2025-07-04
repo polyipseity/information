@@ -933,7 +933,7 @@ The content is in teaching order.
   - Q2: single-priced monopoly (−6, short question)
     - Q2: single-priced monopoly / Must it be inefficient? (−6) ::@:: No. It is efficient if the demand curve is completely elastic. (Though this means no matter how high the price the monopolist sets to, it is efficient...) <p> An unintended answer, since the question has not specified if regulations are in place, is that there is regulation that forces the monopolist to use marginal cost pricing. In this case, it is also efficient. <!--SR:!2027-02-09,625,437!2026-09-20,476,417-->
   - Q3: sports facility entrance fee (−4, short question)
-    - Q3: sports facility entrance fee / Should the operator charge an entrance fee if there are _operating_ costs associated with it? (−4) ::@:: Yes, the operator should charge at the marginal operating cost. <p> I thought the question was talking about fixed costs instead of variable costs when it mentioned _operating_ costs. <!--SR:!2026-08-09,441,417!2025-07-04,152,437-->
+    - Q3: sports facility entrance fee / Should the operator charge an entrance fee if there are _operating_ costs associated with it? (−4) ::@:: Yes, the operator should charge at the marginal operating cost. <p> I thought the question was talking about fixed costs instead of variable costs when it mentioned _operating_ costs. <!--SR:!2026-08-09,441,417!2027-12-24,903,457-->
 - check
   - note: Sign up a timeslot on Canvas.
   - datetime: 2024-12-30T08:40:00+08:00/2024-12-30T10:40:00+08:00, PT2H

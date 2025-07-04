@@ -413,7 +413,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{2}@}
-> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2025-07-04,91,379!2025-07-05,92,379-->
+> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2026-10-23,476,399!2025-07-05,92,379-->
 
 <!-- markdownlint MD028 -->
 
@@ -452,7 +452,7 @@ tags:
 > 3. compute crossover point \(or incremental IRR\) and use IRR rule
 > 4. compute equivalent annual annuity \(EAA\)
 >
-> - solution: {@{4}@} <!--SR:!2025-07-04,91,379-->
+> - solution: {@{4}@} <!--SR:!2026-10-26,479,399-->
 
 <!-- markdownlint MD028 -->
 
@@ -469,7 +469,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2025-07-04,91,379!2026-10-19,473,399-->
+> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2026-10-22,475,399!2026-10-19,473,399-->
 
 ## week 5 lecture 2
 
@@ -497,7 +497,7 @@ tags:
 > 2. Firm B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Its net working capital \(NWC\) is smaller.}@} <!--SR:!2025-07-04,91,379!2025-07-04,91,379-->
+> - explanation: {@{Its net working capital \(NWC\) is smaller.}@} <!--SR:!2026-10-21,474,399!2026-10-24,477,399-->
 
 <!-- markdownlint MD028 -->
 

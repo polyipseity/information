@@ -13,7 +13,7 @@ tags:
 
 The PageRank algorithm outputs {@{a [probability distribution](probability%20distribution.md) representing the likelihood of a person randomly clicking on links would arrive at any particular page}@}. <!--SR:!2027-02-05,737,330-->
 
-The probability is expressed as {@{a numeric value between 0 and 1}@}. <!--SR:!2025-07-04,297,330-->
+The probability is expressed as {@{a numeric value between 0 and 1}@}. <!--SR:!2029-03-16,1351,350-->
 
 ### simplified algorithm
 

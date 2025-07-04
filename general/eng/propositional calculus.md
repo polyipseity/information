@@ -20,12 +20,12 @@ Propositional logic is typically studied with {@{a [formal language](formal%20la
 >
 > - [AND](logical%20conjunction.md) ::@:: $A\land B$, $A\cdot B$, $AB$, $A\&B$, $A\&\&B$ <!--SR:!2025-08-27,269,330!2025-08-21,264,330-->
 > - [equivalent](logical%20biconditional.md) ::@:: $A\equiv B$, $A\Leftrightarrow B$, $A\leftrightharpoons B$ <!--SR:!2025-07-14,234,330!2025-10-24,316,330-->
-> - [implies](material%20conditional.md) ::@:: $A\Rightarrow B$, $A\supset B$, $A\rightarrow B$ <!--SR:!2025-10-26,317,330!2025-07-04,226,330-->
+> - [implies](material%20conditional.md) ::@:: $A\Rightarrow B$, $A\supset B$, $A\rightarrow B$ <!--SR:!2025-10-26,317,330!2028-04-25,1026,350-->
 > - [NAND](sheffer%20stroke.md) ::@:: $A{\overline {\land } }B$, $A\mid B$, ${\overline {A\cdot B} }$ <!--SR:!2026-04-11,431,310!2027-03-10,697,330-->
 > - nonequivalent ::@:: $A\not \equiv B$, $A\not \Leftrightarrow B$, $A\nleftrightarrow B$ <!--SR:!2025-09-04,276,330!2025-07-10,231,330-->
 > - [NOR](Logical%20NOR.md) ::@:: $A{\overline {\lor } }B$, $A\downarrow B$, ${\overline {A+B} }$ <!--SR:!2025-10-16,299,310!2026-07-13,500,310-->
 > - [NOT](negation.md) ::@:: $\neg A$, $-A$, ${\overline {A} }$, $\sim A$ <!--SR:!2028-01-02,934,350!2028-02-16,974,350-->
-> - [OR](logical%20disjunction.md) ::@:: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$ <!--SR:!2025-07-04,228,330!2025-10-02,298,330-->
+> - [OR](logical%20disjunction.md) ::@:: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$ <!--SR:!2028-05-07,1038,350!2025-10-02,298,330-->
 > - [XNOR](XNOR%20gate.md) ::@:: $A\odot B$ <!--SR:!2025-10-29,268,270!2025-11-18,321,310-->
 > - [XOR](exclusive%20or.md) ::@:: $A{\underline {\lor } }B$, $A\oplus B$ <!--SR:!2025-08-01,211,270!2026-01-31,379,310-->
 

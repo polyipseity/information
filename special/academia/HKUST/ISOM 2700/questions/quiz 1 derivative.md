@@ -18,7 +18,7 @@ tags:
 > Assume a train running between A and B serves 420 customers per hour on average. On a weekday, there are 210 customers riding or waiting on average. What is the average flow time?
 >
 > - solution: {@{0.5&nbsp;hours}@}
-> - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2026-04-02,274,330!2025-07-04,65,310-->
+> - explanation: {@{By Little's law, average flow time = 210/420 = 0.5&nbsp;hours.}@} <!--SR:!2026-04-02,274,330!2026-04-12,282,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -130,7 +130,7 @@ tags:
 > In a process, the average flow time is 30 minutes, and the average work-in-process inventory is 7 units. What is its cycle time?
 >
 > - solution: {@{1/14&nbsp;hours}@}
-> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2026-04-01,273,330!2025-07-04,65,310-->
+> - explanation: {@{By Little's law, rate = 7 / 0.5 = 14 units per hour. Thus, cycle time = 1/14&nbsp;hours.}@} <!--SR:!2026-04-01,273,330!2026-04-15,285,330-->
 
 <!-- markdownlint MD028 -->
 

@@ -153,7 +153,7 @@ The supply-and-demand model is {@{a __partial equilibrium__ model of [economic e
 
 Here the dynamic process is {@{that prices adjust until supply equals demand}@}. It is a powerfully simple technique that {@{allows one to study [equilibrium](economic%20equilibrium.md), [efficiency](Pareto%20efficiency.md) and [comparative statics](comparative%20statics.md)}@}. {@{The stringency of the simplifying assumptions inherent in this approach}@} makes {@{the model considerably more tractable}@}, but {@{may produce results which, while seemingly precise, do not effectively model real world economic phenomena}@}. <!--SR:!2026-01-31,353,350!2025-10-13,260,330!2025-10-16,263,330!2026-01-27,349,350!2025-07-21,180,310-->
 
-{@{Partial equilibrium analysis}@} examines {@{the effects of policy action in creating equilibrium only in that particular sector or market which is directly affected}@}, ignoring {@{its effect in any other market or industry assuming that they being small will have little impact if any}@}. <!--SR:!2025-09-13,237,330!2025-07-08,170,310!2025-07-04,166,310-->
+{@{Partial equilibrium analysis}@} examines {@{the effects of policy action in creating equilibrium only in that particular sector or market which is directly affected}@}, ignoring {@{its effect in any other market or industry assuming that they being small will have little impact if any}@}. <!--SR:!2025-09-13,237,330!2025-07-08,170,310!2027-06-16,712,330-->
 
 Hence this analysis is considered to be useful in {@{constricted markets}@}. <!--SR:!2026-01-28,350,350-->
 

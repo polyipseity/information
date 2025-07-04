@@ -224,7 +224,7 @@ The content is in teaching order.
   - [ACCT/statement of stockholders' equity](statement%20of%20stockholders'%20equity.md)
 - [earnings per share](../../../../general/earnings%20per%20share.md)
 - [total asset turnover](../../../../general/asset%20turnover.md) ::@:: $$\frac {\text{net sales} } {\text{average total assets} }$$ The average total assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. <!--SR:!2025-12-23,279,363!2025-07-21,160,343-->
-  - [total asset turnover](../../../../general/asset%20turnover.md) / interpretation ::@:: It measures how efficient management is at using assets to generate sales. Usually, high means efficient sales, and low means sluggish sales. Low may mean there is a problem with using one or more assets. <!--SR:!2025-07-04,147,343!2027-02-04,592,356-->
+  - [total asset turnover](../../../../general/asset%20turnover.md) / interpretation ::@:: It measures how efficient management is at using assets to generate sales. Usually, high means efficient sales, and low means sluggish sales. Low may mean there is a problem with using one or more assets. <!--SR:!2027-05-29,694,363!2027-02-04,592,356-->
 - [§ week 4 review](questions.md#week%204%20review)
 
 ## week 6 lecture 1

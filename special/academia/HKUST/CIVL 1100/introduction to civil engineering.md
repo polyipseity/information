@@ -282,7 +282,7 @@ workmanship
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2028-07-28,1159,340-->
-- lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
+- lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2027-11-20,869,312-->
 - maintenance→::@::←politics <!--SR:!2027-10-25,844,281!2027-06-04,777,312-->
 - politics→::@::←social <!--SR:!2028-07-27,1221,380!2028-09-06,1218,357-->
 - social→::@::←workmanship <!--SR:!2028-02-09,1015,320!2025-11-22,303,210-->

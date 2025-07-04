@@ -71,7 +71,7 @@ The content is in teaching order.
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2028-07-16,1173,355!2025-07-23,343,355-->
-  - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2028-08-04,1185,355!2025-07-04,326,355-->
+  - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2028-08-04,1185,355!2029-11-08,1588,375-->
 - visualization ::@:: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2025-07-09,331,355-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
@@ -185,7 +185,7 @@ The content is in teaching order.
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2026-01-18,473,381-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
-- Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2025-07-04,291,361-->
+- Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2029-06-14,1441,381-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2029-08-07,1500,381-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)

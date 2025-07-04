@@ -281,7 +281,7 @@ See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2026-02-21,535,400-->
 - height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-09-08,75,130!2026-07-06,594,330-->
-- image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2025-07-04,321,380-->
+- image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2030-01-28,1669,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2025-08-01,343,380-->
 
 ## Thames Barrier
@@ -315,7 +315,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2028-12-28,1282,340!2025-08-31,399,385-->
 - height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2025-12-20,488,384-->
-- image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2025-07-04,205,320-->
+- image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2027-12-27,906,340-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
 
 ## Water Cube
