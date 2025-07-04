@@ -40,11 +40,14 @@ This principle allows for {@{the valuation of a likely stream of income in the f
 Some standard calculations based on the time value of money are:
 
 - {@{_[Present value](present%20value.md)_}@}: {@{The current worth of a future sum of money or stream of [cash flows](cash%20flows.md)}@}, given {@{a specified [rate of return](rate%20of%20return.md)}@}. Future cash flows are {@{"discounted" at the _discount rate_}@}; the higher {@{the discount rate, the lower the present value of the future cash flows}@}. {@{Determining the appropriate discount rate}@} is {@{the key to valuing future cash flows properly, whether they be earnings or obligations}@}.<sup>[\[4\]](#^ref-4)</sup>
+
 - {@{_Present value of an [annuity](annuity%20(finance%20theory).md)_}@}: An annuity is {@{a series of equal payments or receipts that occur at evenly spaced intervals}@}. {@{Leases and rental payments}@} are examples. {@{The payments or receipts occur at the end of each period for an ordinary annuity}@} while {@{they occur at the beginning of each period for an annuity due}@}.
 
     {@{_Present value of a [perpetuity](perpetuity.md)_}@} is {@{an infinite and constant stream of identical cash flows}@}.<sup>[\[5\]](#^ref-5)</sup>
-- _[Future value](future%20value.md)_: ::@:: The value of an asset or cash at a specified date in the future, based on the value of that asset in the present.<sup>[\[6\]](#^ref-6)</sup>
-- _Future value of an annuity \(FVA\)_: ::@:: The future value of a stream of payments \(annuity\), assuming the payments are invested at a given rate of interest.
+
+- {@{_[Future value](future%20value.md)_}@}: {@{The value of an asset or cash at a specified date in the future}@}, based on {@{the value of that asset in the present}@}.<sup>[\[6\]](#^ref-6)</sup>
+
+- {@{_Future value of an annuity \(FVA\)_}@}: {@{The future value of a stream of payments \(annuity\)}@}, assuming {@{the payments are invested at a given rate of interest}@}.
 
 There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions \(such as PV, FV, RATE, NPER, and PMT\)}@}.<sup>[\[7\]](#^ref-7)</sup>
 

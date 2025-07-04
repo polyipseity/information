@@ -98,7 +98,7 @@ However, it is possible to {@{model this scenario as a Markov process}@}. Instea
 
 #### variations
 
-- Time-homogeneous Markov chains ::@:: are processes where $$\Pr(X_{n+1}=x\mid X_{n}=y)=\Pr(X_{n}=x\mid X_{n-1}=y)$$ for all _n_. The probability of the transition is independent of _n_.
+- {@{Time-homogeneous Markov chains}@} are {@{processes where $$\Pr(X_{n+1}=x\mid X_{n}=y)=\Pr(X_{n}=x\mid X_{n-1}=y)$$ for all _n_}@}. {@{The probability of the transition}@} is {@{independent of _n_}@}.
 - {@{Stationary Markov chains}@} are processes where {@{$$\Pr(X_{0}=x_{0},X_{1}=x_{1},\ldots ,X_{k}=x_{k})=\Pr(X_{n}=x_{0},X_{n+1}=x_{1},\ldots ,X_{n+k}=x_{k})$$ for all _n_ and _k_}@}. Every stationary chain can be {@{proved to be time-homogeneous by Bayes' rule}@}. <p> {@{A necessary and sufficient condition for a time-homogeneous Markov chain to be stationary}@} is that {@{the distribution of $X_{0}$ is a stationary distribution of the Markov chain}@}.
 - {@{A Markov chain with memory \(or a Markov chain of order _m_\) where _m_ is finite}@}, is a process satisfying {@{$${\begin{aligned}{}&\Pr(X_{n}=x_{n}\mid X_{n-1}=x_{n-1},X_{n-2}=x_{n-2},\dots ,X_{1}=x_{1})\\=&\Pr(X_{n}=x_{n}\mid X_{n-1}=x_{n-1},X_{n-2}=x_{n-2},\dots ,X_{n-m}=x_{n-m}){\text{ for } }n>m\end{aligned} }$$}@} <p> In other words, {@{the future state depends on the past _m_ states}@}. It is possible to {@{construct a chain $(Y_{n})$ from $(X_{n})$ which has the 'classical' Markov property}@} by {@{taking as state space the ordered _m_-tuples of _X_ values, i.e., $Y_{n}=\left(X_{n},X_{n-1},\ldots ,X_{n-m+1}\right)$}@}.
 
@@ -217,9 +217,9 @@ Some authors call {@{a matrix _primitive_}@} iff {@{there exists some integer $k
 There are {@{several combinatorial results about the exponent}@} when {@{there are finitely many states}@}. Let {@{$n$ be the number of states}@}, then<sup>[\[55\]](#^ref-55)</sup>
 
 - The exponent is {@{$\leq (n-1)^{2}+1$}@}. {@{The only case where it is an equality}@} is {@{when the graph of $M$ goes like $1\to 2\to \dots \to n\to 1{\text{ and } }2$}@}.
-- If $M$ has $k\geq 1$ diagonal entries, ::@:: then its exponent is $\leq 2n-k-1$.
-- If $\mathrm {sign} (M)$ is symmetric, ::@:: then $M^{2}$ has positive diagonal entries, which by previous proposition means its exponent is $\leq 2n-2$.
-- \(Dulmage-Mendelsohn theorem\) ::@:: The exponent is $\leq n+s(n-2)$ where $s$ is the [girth of the graph](girth%20(graph%20theory).md). It can be improved to $\leq (d+1)+s(d+1-2)$ (annotation: Replace with $n$ with $d + 1$.), where $d$ is the [diameter of the graph](distance%20(graph%20theory).md).<sup>[\[56\]](#^ref-56)</sup>
+- If {@{$M$ has $k\geq 1$ diagonal entries}@}, then {@{its exponent is $\leq 2n-k-1$}@}.
+- If {@{$\mathrm {sign} (M)$ is symmetric}@}, then {@{$M^{2}$ has positive diagonal entries}@}, which {@{by previous proposition means its exponent is $\leq 2n-2$}@}.
+- \({@{Dulmage-Mendelsohn theorem}@}\) {@{The exponent is $\leq n+s(n-2)$}@} where {@{$s$ is the [girth of the graph](girth%20(graph%20theory).md)}@}. It can be {@{improved to $\leq (d+1)+s(d+1-2)$}@}, \(annotation: Replace {@{with $n$ with $d + 1$}@}.\) where {@{$d$ is the [diameter of the graph](distance%20(graph%20theory).md)}@}.<sup>[\[56\]](#^ref-56)</sup>
 
 ### measure-preserving dynamical system
 

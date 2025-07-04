@@ -108,7 +108,7 @@ This works intuitively;
 - (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next,
 
 1. {@{${\delta Out \over Out}$}@} is {@{relative change in output}@}, {@{${\delta In \over In}$}@} is {@{relative change in input}@}
-2. The relative change in output ::@:: is smaller than the relative change in input; ~input requires increasing effort to change output~
+2. {@{The relative change in output}@} is {@{smaller than the relative change in input}@}; ~input requires {@{increasing effort to change output}@}~
 
 - (annotation: $\frac {\partial Out} {Out} < \frac {\partial In} {In}$) ::@:: Then ${\delta Out \over Out}/{\delta In \over In}={In \over Out}\cdot {\delta Out \over \delta In}=\epsilon <1$
 

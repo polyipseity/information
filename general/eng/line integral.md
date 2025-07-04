@@ -60,8 +60,12 @@ Geometrically, when {@{the scalar field _f_ is defined over a plane \(_n_ = 2\)}
 
 #### derivation
 
-<!-- markdownlint-disable-next-line MD059 -->
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 For {@{a line integral over a scalar field}@}, the integral can be constructed from {@{a [Riemann sum](Riemann%20sum.md) using the above definitions of _f_, _C_ and a parametrization __r__ of _C_}@}. This can be done by {@{partitioning the [interval](interval%20(mathematics).md) \[_a_, _b_\]}@} into {@{_n_ sub-intervals \[_t_<sub>_i_<!-- markdown separator -->−1</sub>, _t_<sub>_i_</sub>\] of length Δ<!-- markdown separator -->_t_ = \(_b_ − _a_\)/<!-- markdown separator -->_n_}@}, then {@{__r__\(_t_<sub>_i_</sub>\)}@} denotes {@{some point, call it a sample point, on the curve _C_}@}. We can use {@{the [set](set%20(mathematics).md) of sample points {__r__\(_t_<sub>_i_</sub>\): 1 ≤ _i_ ≤ _n_} to approximate the curve _C_}@} as {@{a [polygonal path](polygonal%20path.md) by introducing the straight line piece between each of the sample points __r__\(_t_<sub>_i_<!-- markdown separator -->−1</sub>\) and __r__\(_t_<sub>_i_</sub>\)}@}. \({@{The approximation of a curve to a polygonal path}@} is called {@{_rectification of a curve_}@}, see [here](arc%20length.md) for more details.\) We then label {@{the distance of the line segment between adjacent sample points on the curve}@} as {@{Δ<!-- markdown separator -->_s_<sub>_i_</sub>}@}. The product of {@{_f_\(__r__\(_t_<sub>_i_</sub>\)\) and Δ<!-- markdown separator -->_s_<sub>_i_</sub>}@} can be associated with {@{the signed area of a rectangle with a height and width of _f_\(__r__\(_t_<sub>_i_</sub>\)\) and Δ<!-- markdown separator -->_s_<sub>_i_</sub>, respectively}@}. Taking {@{the [limit](limit%20of%20a%20sequence.md) of the [sum](summation.md) of the terms}@} as {@{the length of the partitions approaches zero}@} gives us {@{$$I=\lim _{\Delta s_{i}\to 0}\sum _{i=1}^{n}f(\mathbf {r} (t_{i}))\,\Delta s_{i}.$$}@}
+
+<!-- markdownlint-restore -->
 
 By {@{the [mean value theorem](mean%20value%20theorem.md)}@}, {@{the distance between subsequent points on the curve}@}, is {@{$$\Delta s_{i}=\left|\mathbf {r} (t_{i}+\Delta t)-\mathbf {r} (t_{i})\right|\approx \left|\mathbf {r} '(t_{i})\Delta t\right|$$}@}
 

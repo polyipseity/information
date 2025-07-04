@@ -72,10 +72,10 @@ In {@{a normed space $(H,\|\cdot \|)$}@}, if {@{the [parallelogram law](parallel
 >
 > It remains to prove that {@{this formula indeed defines an inner product and that this inner product induces the norm $\|\cdot \|$}@}. Explicitly, the following will be shown:
 >
-> 1. (annotation: norm induction) ::@:: $$\langle x,x\rangle =\|x\|^{2},\quad x\in H$$
-> 2. (annotation: symmetry) ::@:: $$\langle x,y\rangle =\langle y,x\rangle ,\quad x,y\in H$$
-> 3. (annotation: linearity) ::@:: $$\langle x+z,y\rangle =\langle x,y\rangle +\langle z,y\rangle \quad {\text{ for all } }x,y,z\in H,$$
-> 4. (annotation: homogeneity, without positivity) ::@:: $$\langle \alpha x,y\rangle =\alpha \langle x,y\rangle \quad {\text{ for all } }x,y\in H{\text{ and all } }\alpha \in \mathbb {R}$$
+> 1. \(annotation: {@{norm induction}@}\) {@{$$\langle x,x\rangle =\|x\|^{2},\quad x\in H$$}@}
+> 2. \(annotation: {@{symmetry}@}\) {@{$$\langle x,y\rangle =\langle y,x\rangle ,\quad x,y\in H$$}@}
+> 3. \(annotation: {@{linearity}@}\) {@{$$\langle x+z,y\rangle =\langle x,y\rangle +\langle z,y\rangle \quad {\text{ for all } }x,y,z\in H,$$}@}
+> 4. \(annotation: {@{homogeneity, without positivity}@}\) {@{$$\langle \alpha x,y\rangle =\alpha \langle x,y\rangle \quad {\text{ for all } }x,y\in H{\text{ and all } }\alpha \in \mathbb {R}$$}@}
 >
 > \(This axiomatization {@{omits [positivity](positive-definite%20bilinear%20form.md#associated%20symmetric%20bilinear%20form)}@}, which is {@{implied by \(1\) and the fact that $\|\cdot \|$ is a norm}@}.\)
 >

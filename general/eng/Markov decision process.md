@@ -23,12 +23,12 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where:
 
-- $S$ is ::@:: a [set](set%20(mathematics).md) of states called the _state space_. The state space may be discrete or continuous, like the [set of real numbers](real%20number.md).
-- $A$ is ::@:: a set of actions called the _action space_ \(alternatively, $A_{s}$ is the set of actions available from state $s$\). As for state, this set may be discrete or continuous.
+- {@{$S$}@} is {@{a [set](set%20(mathematics).md) of states called the _state space_}@}. {@{The state space}@} may be {@{discrete or continuous, like the [set of real numbers](real%20number.md)}@}.
+- {@{$A$}@} is {@{a set of actions called the _action space_}@} \(alternatively, {@{$A_{s}$}@} is {@{the set of actions available from state $s$}@}\). As for state, this set may be {@{discrete or continuous}@}.
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
-- $R_{a}(s,s')$ is ::@:: the immediate reward \(or expected immediate reward\) received after transitioning from state $s$ to state $s'$, due to action $a$.
+- {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}.
 
-A policy function $\pi$ is ::@:: a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\).
+{@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}.
 
 ### optimization objective
 
@@ -173,7 +173,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states,
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_,
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.)
-- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.)
+- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and \(annotation: This makes the automata "learn" from an input.\)
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.)
 
 {@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup>

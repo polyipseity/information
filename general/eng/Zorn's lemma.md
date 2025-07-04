@@ -42,8 +42,8 @@ Zorn's lemma can then be stated as:
 
 > __Zorn's lemma__ — <sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> Let {@{$P$ be a [partially ordered set](partially%20ordered%20set.md)}@} that {@{satisfies the following two properties}@}:
 >
-> 1. nonemptyness ::@:: $P$ is nonempty;
-> 2. upper bound ::@:: Every [chain](total%20order.md#chains) in _P_ has an [upper bound](upper%20and%20lower%20bounds.md) in _P_.
+> 1. \(annotation: {@{nonemptyness}@}\) {@{$P$ is nonempty}@};
+> 2. \(annotation: {@{upper bound}@}\) {@{Every [chain](total%20order.md#chains) in _P_}@} has {@{an [upper bound](upper%20and%20lower%20bounds.md) in _P_}@}.
 >
 > Then {@{$P$ has at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}.
 
@@ -131,9 +131,9 @@ Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can a
 
 > __Lemma__ — Let $F$ be {@{a set consisting of subsets of some fixed set such that $F$ satisfies the following properties}@}:
 >
-> 1. nonemptyness ::@:: $F$ is nonempty.
-> 2. closure under union ::@:: The union of each totally ordered subsets of $F$ is in $F$, where the ordering is with respect to set inclusion.
-> 3. closure under subset ::@:: For each set $S$ in $F$, each subset of $S$ is in $F$.
+> 1. \(annotation: {@{nonemptyness}@}\) {@{$F$ is nonempty}@}.
+> 2. \(annotation: {@{closure under union}@}\) {@{The union of each totally ordered subsets of $F$ is in $F$}@}, where {@{the ordering is with respect to set inclusion}@}.
+> 3. \(annotation: {@{closure under subset}@}\) For {@{each set $S$ in $F$}@}, {@{each subset of $S$ is in $F$}@}.
 >
 > Then $F$ {@{has a maximal element with respect to set inclusion}@}.
 

@@ -25,9 +25,9 @@ tags:
 >
 > On {@{a very high level}@}, {@{the main elements in valuing a corporate by Discounted Cash Flow}@} are as follows; see [Valuation using discounted cash flows](valuation%20using%20discounted%20cash%20flows.md), and graphics below, for detail: (annotation: they are {@{free cash flow projections, discount rate, and terminal value}@})
 >
-> - __Free Cash Flow Projections:__ ::@:: Projections of the amount of Cash produced by a company's business operations after paying for operating expenses and capital expenditures.<sup>[\[1\]](#^ref-1)</sup>
-> - __Discount Rate:__ ::@:: The cost of capital \(Debt and Equity\) for the business. This rate, which acts like an interest rate on future Cash inflows, is used to convert them into current dollar equivalents.
-> - __Terminal Value:__ ::@:: The value of a business at the end of the projection period \(typical for a DCF analysis is either a 5-year projection period or, occasionally, a 10-year projection period\).<sup>[\[1\]](#^ref-1)</sup>
+> - {@{__Free Cash Flow Projections:__}@} {@{Projections of the amount of Cash produced by a company's business operations after paying for operating expenses and capital expenditures.<sup>[\[1\]](#^ref-1)</sup>}@}
+> - {@{__Discount Rate:__}@} {@{The cost of capital \(Debt and Equity\) for the business. This rate, which acts like an interest rate on future Cash inflows, is used to convert them into current dollar equivalents.}@}
+> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period \(typical for a DCF analysis is either a 5-year projection period or, occasionally, a 10-year projection period\).<sup>[\[1\]](#^ref-1)</sup>}@}
 
 <!-- markdownlint MD028 -->
 

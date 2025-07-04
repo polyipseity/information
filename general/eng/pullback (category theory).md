@@ -82,10 +82,14 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
 
 ## properties
 
-- In any category with a [terminal object](terminal%20object.md) _T_, ::@:: the pullback _X_ ×<sub>_T_</sub> _Y_ is just the ordinary [product](product%20(category%20theory).md) _X_ × _Y_.<sup>[\[2\]](#^ref-2)</sup>
-- [Monomorphisms](monomorphism.md) ::@:: are stable under pullback: if the arrow _f_ in the diagram is monic, then so is the arrow _p_<sub>2</sub>. Similarly, if _g_ is monic, then so is _p_<sub>1</sub>.<sup>[\[3\]](#^ref-3)</sup> (annotation: _p_<sub>2</sub> and _p_<sub>1</sub> are respectively arrows opposite to _f_ or _g_ in the commutative diagram)
-- [Isomorphisms](isomorphism.md) ::@:: are also stable, and hence, for example, _X_ ×<sub>_X_</sub> _Y_ ≅ _Y_ for any map _Y_ → _X_ \(where the implied map _X_ → _X_ is the identity\).
+- In {@{any category with a [terminal object](terminal%20object.md) _T_}@}, {@{the pullback _X_ ×<sub>_T_</sub> _Y_}@} is {@{just the ordinary [product](product%20(category%20theory).md) _X_ × _Y_}@}.<sup>[\[2\]](#^ref-2)</sup>
+
+- {@{[Monomorphisms](monomorphism.md)}@} are {@{stable under pullback}@}: if {@{the arrow _f_ in the diagram is monic}@}, then so is {@{the arrow _p_<sub>2</sub>}@}. Similarly, if {@{_g_ is monic, then so is _p_<sub>1</sub>}@}.<sup>[\[3\]](#^ref-3)</sup> \(annotation: {@{_p_<sub>2</sub> and _p_<sub>1</sub>}@} are {@{respectively arrows opposite to _f_ or _g_ in the commutative diagram}@}.\)
+
+- {@{[Isomorphisms](isomorphism.md)}@} are {@{also stable}@}, and hence, for example, {@{_X_ ×<sub>_X_</sub> _Y_ ≅ _Y_ for any map _Y_ → _X_}@} \(where {@{the implied map _X_ → _X_ is the identity}@}\).
+
 - In {@{an [abelian category](abelian%20category.md) all pullbacks exist}@},<sup>[\[4\]](#^ref-4)</sup> and they {@{preserve [kernels](kernel%20(category%20theory).md), in the following sense}@}: {@{if <p> ![categorical pullback commutative diagram](../../archives/Wikimedia%20Commons/Categorical%20pullback.svg) <p> is a pullback diagram}@}, then {@{the induced morphism ker\(_p_<sub>2</sub>\) → ker\(_f_\) is an isomorphism,<sup>[\[5\]](#^ref-5)</sup> and so is the induced morphism ker\(_p_<sub>1</sub>\) → ker\(_g_\)}@}. {@{Every pullback diagram}@} thus {@{gives rise to a commutative diagram of the following form}@}, where {@{all rows and columns are [exact](exact%20sequence.md)}@}: {@{$${\begin{array}{ccccccc}&&&&0&&0\\&&&&\downarrow &&\downarrow \\&&&&L&=&L\\&&&&\downarrow &&\downarrow \\0&\rightarrow &K&\rightarrow &P&\rightarrow &Y\\&&\parallel &&\downarrow &&\downarrow \\0&\rightarrow &K&\rightarrow &X&\rightarrow &Z\end{array} }$$}@} Furthermore, in {@{an abelian category}@}, {@{if _X_ → _Z_ is an epimorphism, then so is its pullback _P_ → _Y_}@}, and {@{symmetrically: if _Y_ → _Z_ is an epimorphism, then so is its pullback _P_ → _X_}@}.<sup>[\[6\]](#^ref-6)</sup> In these situations, {@{the pullback square is also a pushout square}@}.<sup>[\[7\]](#^ref-7)</sup>
+
 - There is {@{a natural isomorphism \(_A_<!-- markdown separator -->×<sub>_C_</sub>_B_\)×<sub>_B_</sub> _D_ ≅ _A_<!-- markdown separator -->×<sub>_C_</sub>_D_}@}. Explicitly, this means:
   - if maps _f_ : _A_ → _C_, _g_ : _B_ → _C_ and _h_ : _D_ → _B_ are given and
   - the pullback of _f_ and _g_ is given by _r_ : _P_ → _A_ and _s_ : _P_ → _B_, and
@@ -93,7 +97,8 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
   - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_.
 
   Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@}
-- Any category with pullbacks and products ::@:: has equalizers.
+
+- {@{Any category with pullbacks and products}@} {@{has equalizers}@}.
 
 ## weak pullbacks
 
