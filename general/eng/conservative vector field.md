@@ -58,7 +58,7 @@ So far it has been proven that {@{a conservative vector field $\mathbf {v}$ is l
 
 The proof of this converse statement is the following.
 
-> {@{![Line integral paths used to prove the following statement: if the line integral of a vector field is path-independent, then the vector field is a conservative vector field.](../../archives/Wikimedia%20Commons/Line%20Integral%20paths%20to%20prove%20the%20Relation%20between%20Path%20Independence%20and%20Conservative%20Vector%20Field%2C%202022-03-13.png)}@}
+> {@{![Line integral paths used to prove the following statement: if the line integral of a vector field is path-independent, then the vector field is a conservative vector field.](../../archives/Wikimedia%20Commons/Line%20Integral%20paths%20to%20prove%20the%20Relation%20between%20Path%20Independence%20and%20Conservative%20Vector%20Field,%202022-03-13.png)}@}
 >
 > {@{Line integral paths}@} used to prove the following statement: if {@{the line integral of a vector field is path-independent}@}, then {@{the vector field is a conservative vector field}@}. <!--SR:!2025-07-05,4,290!2025-07-05,4,270!2025-07-05,4,270!2025-07-05,4,290-->
 
@@ -91,7 +91,7 @@ Then $\mathbf {v}$ has {@{zero curl everywhere in $U$}@} \({@{$\nabla \times \ma
 
 Therefore, $\mathbf {v}$ {@{does not have the path-independence property discussed above}@} so is {@{not conservative even if $\nabla \times \mathbf {v} \equiv \mathbf {0}$}@} since {@{$U$ where $\mathbf {v}$ is defined is not a simply connected open space}@}. <!--SR:!2025-07-05,4,270!2025-07-05,4,270!2025-07-05,4,290-->
 
-Say again, in {@{a simply connected open region}@}, {@{an irrotational vector field $\mathbf {v}$}@} has {@{the path-independence property \(so $\mathbf {v}$ as conservative\)}@}. This can be {@{proved directly by using [Stokes' theorem](Stokes'%20theorem.md)}@}, {@{$$\oint _{P_{c} }\mathbf {v} \cdot d\mathbf {r} =\iint _{A}(\nabla \times \mathbf {v} )\cdot d\mathbf {a} =0$$}@} for {@{any smooth oriented surface $A$ which boundary is a simple closed path $P_{c}$}@}. So, it is concluded that _In {@{a simply connected open region}@}, a{@{ny_ $C^{1}$ _vector field that has the path-independence property \(so it is a conservative vector field.\)}@} must {@{also be irrotational and vice versa}@}._ <!--SR:!2025-07-05,4,290!2025-07-05,4,290!2025-07-05,4,290!2025-07-05,4,290!2025-07-05,4,270!2025-07-05,4,270!2025-07-05,4,270!2025-07-05,4,290!2025-07-05,4,290-->
+Say again, in {@{a simply connected open region}@}, {@{an irrotational vector field $\mathbf {v}$}@} has {@{the path-independence property \(so $\mathbf {v}$ as conservative\)}@}. This can be {@{proved directly by using [Stokes' theorem](Stokes'%20theorem.md)}@}, {@{$$\oint _{P_{c} }\mathbf {v} \cdot d\mathbf {r} =\iint _{A}(\nabla \times \mathbf {v} )\cdot d\mathbf {a} =0$$}@} for {@{any smooth oriented surface $A$ which boundary is a simple closed path $P_{c}$}@}. So, it is concluded that _In {@{a simply connected open region}@}, {@{any $C^{1}$ vector field that has the path-independence property \(so it is a conservative vector field.\)}@} must {@{also be irrotational and vice versa}@}._ <!--SR:!2025-07-05,4,290!2025-07-05,4,290!2025-07-05,4,290!2025-07-05,4,290!2025-07-05,4,270!2025-07-05,4,270!2025-07-05,4,270!2025-07-05,4,290!2025-07-05,4,290-->
 
 ### abstraction
 

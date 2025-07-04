@@ -114,10 +114,18 @@ def _bs4_new_element(tag_str: str) -> PageElement:
     return soup.contents[0].extract()
 
 
-def _fix_name_maybe(name: str) -> str:
+def _fix_name_maybe(
+    name: str,
+    *,
+    normalize: bool = True,
+    replace_underscores: bool = False,
+) -> str:
+    if normalize:
+        name = name.replace("\u00a0", " ")
     if (ret := _NAMES_MAP.get(name)) is not None:
         return ret
-    name = name.replace("_", " ")
+    if replace_underscores:
+        name = name.replace("_", " ")
     ret = _NAMES_MAP.get(
         name,
         (
@@ -499,14 +507,18 @@ async def wiki_html_to_plaintext(
                 ):
                     # prefix, suffix = (
                     #     "[",
-                    #     f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
+                    #     f"]({_markdown_link_target(_fix_name_maybe(
+                    #         to, replace_underscores=True,
+                    #     ), _fix_name_maybe(
+                    #         to_fragment, replace_underscores=True,
+                    #     ))})",
                     # )
                     from_filename, to_filename = _fix_name_maybe(
-                        title
-                    ), _fix_name_maybe(to)
+                        title, replace_underscores=True
+                    ), _fix_name_maybe(to, replace_underscores=True)
                     prefix, suffix = (
                         "[",
-                        f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment))})",
+                        f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
                     )
                     from_filename, to_filename = _fix_filename(
                         from_filename
@@ -541,7 +553,9 @@ async def wiki_html_to_plaintext(
                 href = str(href)
                 if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
                     href = _markdown_fragment(
-                        _fix_name_maybe(href[href.index("#") + 1 :])
+                        _fix_name_maybe(
+                            href[href.index("#") + 1 :], replace_underscores=True
+                        )
                     )
                 prefix, suffix = "[", f"]({href})"
             else:
