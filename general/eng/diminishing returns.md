@@ -52,75 +52,75 @@ Proposed on {@{the cusp of the [First Industrial Revolution](Industrial%20Revolu
 
 ## example
 
-{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities and this is called __increasing returns__}@}.
+{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities and this is called __increasing returns__}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent and this is called __constant returns__}@}.
+If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent and this is called __constant returns__}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-{@{Further along the production curve at, for example 100 employees}@}, {@{floor space is likely getting crowded}@}, there are {@{too many people operating the machines and in the building, and workers are getting in each other's way}@}. {@{Increasing the number of employees by two percent \(from 100 to 102 employees\)}@} would {@{increase output by less than two percent and this is called "diminishing returns"}@}.
+{@{Further along the production curve at, for example 100 employees}@}, {@{floor space is likely getting crowded}@}, there are {@{too many people operating the machines and in the building, and workers are getting in each other's way}@}. {@{Increasing the number of employees by two percent \(from 100 to 102 employees\)}@} would {@{increase output by less than two percent and this is called "diminishing returns"}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-After {@{achieving the point of maximum output}@}, {@{employing additional workers}@}, this will {@{give __negative returns__}@}.<sup>[\[18\]](#^ref-18)</sup>
+After {@{achieving the point of maximum output}@}, {@{employing additional workers}@}, this will {@{give __negative returns__}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-Through {@{each of these examples}@}, {@{the floor space and capital of the factor remained constant}@}, i.e., {@{these inputs were held constant}@}. By {@{only increasing the number of people}@}, {@{eventually the productivity and efficiency of the process moved from increasing returns to diminishing returns}@}.
+Through {@{each of these examples}@}, {@{the floor space and capital of the factor remained constant}@}, i.e., {@{these inputs were held constant}@}. By {@{only increasing the number of people}@}, {@{eventually the productivity and efficiency of the process moved from increasing returns to diminishing returns}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-To {@{understand this concept thoroughly}@}, acknowledge {@{the importance of __marginal output__ or [marginal returns](marginal%20return.md)}@}. {@{Returns eventually diminish}@} because {@{economists measure productivity with regard to additional units \(marginal\)}@}. {@{Additional inputs}@} {@{significantly impact efficiency or returns more in the initial stages}@}.<sup>[\[19\]](#^ref-19)</sup> {@{The point in the process before returns begin to diminish}@} is {@{considered the optimal level}@}. Being able to {@{recognize this point is beneficial}@}, as {@{other variables in the production function can be altered rather than continually increasing labor}@}.
+To {@{understand this concept thoroughly}@}, acknowledge {@{the importance of __marginal output__ or [marginal returns](marginal%20return.md)}@}. {@{Returns eventually diminish}@} because {@{economists measure productivity with regard to additional units \(marginal\)}@}. {@{Additional inputs}@} {@{significantly impact efficiency or returns more in the initial stages}@}.<sup>[\[19\]](#^ref-19)</sup> {@{The point in the process before returns begin to diminish}@} is {@{considered the optimal level}@}. Being able to {@{recognize this point is beneficial}@}, as {@{other variables in the production function can be altered rather than continually increasing labor}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-Further, examine something such as {@{the [Human Development Index](Human%20Development%20Index.md)}@}, which would {@{presumably continue to rise so long as __GDP per capita__ \(in purchasing power parity terms\) was increasing}@}. This would be {@{a rational assumption}@} because {@{GDP per capita is a function of HDI}@}. Even GDP per capita will {@{reach a point where it has a diminishing rate of return on HDI}@}.<sup>[\[20\]](#^ref-20)</sup> Just think, in {@{a low income family}@}, an average increase of income will {@{likely make a huge impact on the wellbeing of the family}@}. Parents could {@{provide abundantly more food and healthcare essentials for their family}@}. That is {@{a significantly increasing rate of return}@}. But, if {@{you gave the same increase to a wealthy family}@}, the impact {@{it would have on their life would be minor}@}. Therefore, {@{the rate of return provided by that average increase in income is diminishing}@}.
+Further, examine something such as {@{the [Human Development Index](Human%20Development%20Index.md)}@}, which would {@{presumably continue to rise so long as __GDP per capita__ \(in purchasing power parity terms\) was increasing}@}. This would be {@{a rational assumption}@} because {@{GDP per capita is a function of HDI}@}. Even GDP per capita will {@{reach a point where it has a diminishing rate of return on HDI}@}.<sup>[\[20\]](#^ref-20)</sup> Just think, in {@{a low income family}@}, an average increase of income will {@{likely make a huge impact on the wellbeing of the family}@}. Parents could {@{provide abundantly more food and healthcare essentials for their family}@}. That is {@{a significantly increasing rate of return}@}. But, if {@{you gave the same increase to a wealthy family}@}, the impact {@{it would have on their life would be minor}@}. Therefore, {@{the rate of return provided by that average increase in income is diminishing}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## mathematics
 
-Signify ::@:: $Output=O\ ,\ Input=I\ ,\ O=f(I)$
+Signify ::@:: $Output=O\ ,\ Input=I\ ,\ O=f(I)$ <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-Increasing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)<f(2\cdot I)$
+Increasing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)<f(2\cdot I)$ <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-Constant Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)=f(2\cdot I)$
+Constant Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)=f(2\cdot I)$ <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-Diminishing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)>f(2\cdot I)$
+Diminishing Returns: (annotation: multiplier: 2) ::@:: $2\cdot f(I)>f(2\cdot I)$ <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 ### production function
 
-There is {@{a widely recognised production function in economics}@}: {@{_Q= f\(NR, L, K, t, E\)_}@}:
+There is {@{a widely recognised production function in economics}@}: {@{_Q= f\(NR, L, K, t, E\)_}@}: <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-- The point of diminishing returns can be realised, by ::@:: use of the second derivative in the above production function.
-- Which can be simplified to: ::@:: _Q= f\(L,K\)_.
+- The point of diminishing returns can be realised, by ::@:: use of the second derivative in the above production function. <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
+- Which can be simplified to: ::@:: _Q= f\(L,K\)_. <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 - This signifies that output \(Q\) is dependent on a function of all variable \(L\) and fixed \(K\) inputs in the production process. This is the basis to understand. What is important to understand after this is the math behind __marginal product.__ _MP= ΔTP/ ΔL._ <sup>[\[21\]](#^ref-21)</sup>
 - This formula is important to relate back to diminishing rates of return. It finds the change in total product divided by change in labour.
 - The marginal product formula suggests that MP should increase in the short run with increased labour. In the long run, this increase in workers will either have no effect or a negative effect on the output. This is due to the effect of fixed costs as a function of output, in the long run.<sup>[\[22\]](#^ref-22)</sup>
 
 ### link with output elasticity
 
-Start from {@{the equation for the marginal product}@}: {@{${\Delta Out \over \Delta In_{1} }={ {f(In_{2},In_{1}+\Delta In_{1})-f(In_{1},In_{2})} \over \Delta In_{1} }$}@}
+Start from {@{the equation for the marginal product}@}: {@{${\Delta Out \over \Delta In_{1} }={ {f(In_{2},In_{1}+\Delta In_{1})-f(In_{1},In_{2})} \over \Delta In_{1} }$}@} <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-To {@{demonstrate diminishing returns}@}, {@{two conditions are satisfied}@}; {@{marginal product is positive, and marginal product is decreasing}@}.
+To {@{demonstrate diminishing returns}@}, {@{two conditions are satisfied}@}; {@{marginal product is positive, and marginal product is decreasing}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-{@{[Elasticity](output%20elasticity.md), a function of input and output}@}, {@{$\epsilon ={In \over Out}\cdot {\delta Out \over \delta In}$}@}, can be {@{taken for small input changes}@}. If {@{the above two conditions are satisfied}@}, then {@{$0<\epsilon <1$}@}.<sup>[\[23\]](#^ref-23)</sup>
+{@{[Elasticity](output%20elasticity.md), a function of input and output}@}, {@{$\epsilon ={In \over Out}\cdot {\delta Out \over \delta In}$}@}, can be {@{taken for small input changes}@}. If {@{the above two conditions are satisfied}@}, then {@{$0<\epsilon <1$}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
 This works intuitively;
 
-1. If ${In \over Out}$ is positive, ::@:: since negative inputs and outputs are impossible,
-2. And ${\delta Out \over \delta In}$ is positive, ::@:: since a positive return for inputs is required for diminishing _returns_
+1. If ${In \over Out}$ is positive, ::@:: since negative inputs and outputs are impossible, <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
+2. And ${\delta Out \over \delta In}$ is positive, ::@:: since a positive return for inputs is required for diminishing _returns_ <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-- (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next,
+- (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next, <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 1. {@{${\delta Out \over Out}$}@} is {@{relative change in output}@}, {@{${\delta In \over In}$}@} is {@{relative change in input}@}
-2. {@{The relative change in output}@} is {@{smaller than the relative change in input}@}; ~input requires {@{increasing effort to change output}@}~
+2. {@{The relative change in output}@} is {@{smaller than the relative change in input}@}; ~input requires {@{increasing effort to change output}@}~ <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-- (annotation: $\frac {\partial Out} {Out} < \frac {\partial In} {In}$) ::@:: Then ${\delta Out \over Out}/{\delta In \over In}={In \over Out}\cdot {\delta Out \over \delta In}=\epsilon <1$
+- (annotation: $\frac {\partial Out} {Out} < \frac {\partial In} {In}$) ::@:: Then ${\delta Out \over Out}/{\delta In \over In}={In \over Out}\cdot {\delta Out \over \delta In}=\epsilon <1$ <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## returns and costs
 
-There is {@{an inverse relationship}@} between {@{returns of inputs and the cost of production}@},<sup>[\[24\]](#^ref-24)</sup> although {@{other features such as input market conditions can also affect production costs}@}. Suppose that {@{a kilogram of seed costs one [dollar](dollar.md)}@}, and {@{this price does not change}@}. Assume {@{for simplicity that there are no [fixed costs](fixed%20cost.md)}@}. One kilogram of seeds {@{yields one ton of crop}@}, so {@{the first ton of the crop costs one dollar to produce}@}. That is, for {@{the first ton of output}@}, the [marginal cost](marginal%20cost.md) as well as {@{the average cost of the output is 1 per ton}@}. If {@{there are no other changes}@}, then if {@{the second kilogram of seeds applied to land produces only half the output of the first \(showing diminishing returns\)}@}, the marginal cost would {@{equal 1 per half ton of output, or 2 per ton}@}, and the average cost is {@{2 per 3/2 tons of output, or 4/3 per ton of output}@}. Similarly, if {@{the third kilogram of seeds yields only a quarter ton}@}, then the marginal cost {@{equals 1 per quarter ton or 4 per ton}@}, and the average cost is {@{3 per 7/4 tons, or 12/7 per ton of output}@}. Thus, {@{diminishing marginal returns}@} imply {@{increasing marginal costs and increasing average costs}@}.
+There is {@{an inverse relationship}@} between {@{returns of inputs and the cost of production}@},<sup>[\[24\]](#^ref-24)</sup> although {@{other features such as input market conditions can also affect production costs}@}. Suppose that {@{a kilogram of seed costs one [dollar](dollar.md)}@}, and {@{this price does not change}@}. Assume {@{for simplicity that there are no [fixed costs](fixed%20cost.md)}@}. One kilogram of seeds {@{yields one ton of crop}@}, so {@{the first ton of the crop costs one dollar to produce}@}. That is, for {@{the first ton of output}@}, the [marginal cost](marginal%20cost.md) as well as {@{the average cost of the output is 1 per ton}@}. If {@{there are no other changes}@}, then if {@{the second kilogram of seeds applied to land produces only half the output of the first \(showing diminishing returns\)}@}, the marginal cost would {@{equal 1 per half ton of output, or 2 per ton}@}, and the average cost is {@{2 per 3/2 tons of output, or 4/3 per ton of output}@}. Similarly, if {@{the third kilogram of seeds yields only a quarter ton}@}, then the marginal cost {@{equals 1 per quarter ton or 4 per ton}@}, and the average cost is {@{3 per 7/4 tons, or 12/7 per ton of output}@}. Thus, {@{diminishing marginal returns}@} imply {@{increasing marginal costs and increasing average costs}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-Cost is measured {@{in terms of [opportunity cost](opportunity%20cost.md)}@}. In this case the law also {@{applies to societies}@} – {@{the opportunity cost of producing a single unit of a good}@} {@{generally increases as a society attempts to produce more of that good}@}. This explains {@{the bowed-out shape of the [production possibilities frontier](production%20possibilities%20frontier.md)}@}.
+Cost is measured {@{in terms of [opportunity cost](opportunity%20cost.md)}@}. In this case the law also {@{applies to societies}@} – {@{the opportunity cost of producing a single unit of a good}@} {@{generally increases as a society attempts to produce more of that good}@}. This explains {@{the bowed-out shape of the [production possibilities frontier](production%20possibilities%20frontier.md)}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## justification
 
 ### _ceteris paribus_
 
-Part of the reason {@{one input is altered _ceteris paribus_}@}, is {@{the idea of disposability of inputs}@}.<sup>[\[25\]](#^ref-25)</sup> With {@{this assumption}@}, essentially that {@{some inputs are above the efficient level}@}. Meaning, they can {@{decrease without perceivable impact on output}@}, after the manner of {@{excessive fertiliser on a field}@}.
+Part of the reason {@{one input is altered _ceteris paribus_}@}, is {@{the idea of disposability of inputs}@}.<sup>[\[25\]](#^ref-25)</sup> With {@{this assumption}@}, essentially that {@{some inputs are above the efficient level}@}. Meaning, they can {@{decrease without perceivable impact on output}@}, after the manner of {@{excessive fertiliser on a field}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-If {@{input disposability is assumed}@}, then {@{increasing the principal input, while decreasing those excess inputs}@}, could {@{result in the same "diminished return"}@}, as if {@{the principal input was changed _certeris paribus_}@}. While <!-- considered -->considering {@{"hard" inputs, like labour and assets}@}, diminishing returns {@{would hold true}@}. In {@{the modern accounting era}@} where {@{inputs can be traced back to movements of financial capital}@}, the same case may {@{reflect constant, or increasing returns}@}.
+If {@{input disposability is assumed}@}, then {@{increasing the principal input, while decreasing those excess inputs}@}, could {@{result in the same "diminished return"}@}, as if {@{the principal input was changed _certeris paribus_}@}. While <!-- considered -->considering {@{"hard" inputs, like labour and assets}@}, diminishing returns {@{would hold true}@}. In {@{the modern accounting era}@} where {@{inputs can be traced back to movements of financial capital}@}, the same case may {@{reflect constant, or increasing returns}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-It is necessary to be {@{clear of the "fine structure"<sup>[\[4\]](#^ref-4)</sup> of the inputs before proceeding}@}. In this, {@{_ceteris paribus_ is disambiguating}@}.
+It is necessary to be {@{clear of the "fine structure"<sup>[\[4\]](#^ref-4)</sup> of the inputs before proceeding}@}. In this, {@{_ceteris paribus_ is disambiguating}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## see also
 
