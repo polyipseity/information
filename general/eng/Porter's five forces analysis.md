@@ -29,7 +29,7 @@ A substitute product {@{uses a different technology to solve the same economic n
 
 ### bargaining power of buyers
 
-Buyers' power is high if {@{there are many alternatives, and low if there are few}@}. Unbranded or commoditized products or services have {@{no loyalty from buyers}@}. <!--SR:!2025-07-05,304,330!2027-09-18,902,330-->
+Buyers' power is high if {@{there are many alternatives, and low if there are few}@}. Unbranded or commoditized products or services have {@{no loyalty from buyers}@}. <!--SR:!2029-04-19,1384,350!2027-09-18,902,330-->
 
 ### bargaining power of suppliers
 

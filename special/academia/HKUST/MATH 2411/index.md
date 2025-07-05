@@ -123,10 +123,10 @@ The content is in teaching order.
     - data / types of variables / note ::@:: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2025-08-24,271,330!2026-11-19,590,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::@:: central tendency (location), variability (spread/dispersion) <!--SR:!2027-04-09,722,330!2027-06-15,769,330-->
-    - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2028-05-24,1057,350!2025-07-05,237,330-->
+    - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2028-05-24,1057,350!2028-06-18,1079,350-->
     - variability ::@:: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2027-10-10,858,330!2025-07-12,241,330-->
   - sample mean ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2025-07-28,255,330!2025-08-04,260,330-->
-    - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2025-07-05,236,330!2025-10-02,303,330-->
+    - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2028-06-14,1075,350!2025-10-02,303,330-->
   - sample median ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. They are sorted in increasing (or decreasing) order, i.e. $x_1 \le \ldots \le x_n$. Then its _sample median_ is $$\tilde x = \frac 1 2 \left(x_{\lfloor \frac {x + 1} 2 \rfloor} + x_ {\lceil \frac {x + 1} 2 \rceil} \right) = \begin{cases} x_{\frac {n + 1} 2} & \text{if }n\text{ is odd} \\ \frac 1 2 \left(x_{\frac x 2} + x_{\frac x 2 + 1} \right) & \text{if }n\text{ is even} \end{cases}$$. <!--SR:!2027-03-27,704,330!2025-07-20,248,330-->
   - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2027-04-25,732,330!2028-04-02,1014,350-->
     - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2025-08-04,260,330!2027-05-19,742,330-->

@@ -27,7 +27,7 @@ tags:
 > Influenza is a disease that may require hospitalization, especially for old people. In a place of population 42 million, there have been 294 new hospitalization weekly. They, on average, stay in the hospital for 5 days. How many hospital beds are occupied by said patients on average?
 >
 > - solution: {@{210 patients}@}
-> - explanation: {@{There are 294/7 = 42 new hospitalization daily. By Little's law, average inventory = 42\*5 = 210 patients.}@} <!--SR:!2025-07-05,66,310!2025-07-06,67,310-->
+> - explanation: {@{There are 294/7 = 42 new hospitalization daily. By Little's law, average inventory = 42\*5 = 210 patients.}@} <!--SR:!2026-04-17,286,330!2025-07-06,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -59,7 +59,7 @@ tags:
 > What is the process capacity \(per hour\)?
 >
 > - solution: {@{12 units per hour}@}
-> - explanation: {@{Transport is the bottleneck activity. In transport, each unit takes 15/3 = 5&nbsp;minutes. The process capacity is thus 60/5 = 12 units per hour.}@} <!--SR:!2025-07-05,66,310!2026-03-30,271,330-->
+> - explanation: {@{Transport is the bottleneck activity. In transport, each unit takes 15/3 = 5&nbsp;minutes. The process capacity is thus 60/5 = 12 units per hour.}@} <!--SR:!2026-04-20,289,330!2026-03-30,271,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -121,7 +121,7 @@ tags:
 > You manage a theater. The theater can hold 4 shows at a time. You expect to start at most 3 shows in an hour. What should be the maximum show duration? Assume the process is _stable_.
 >
 > - solution: {@{80 minutes}@}
-> - explanation: {@{The required average inventory is 4 shows. The required arrival rate is 3 shows per hour. By Little's law, required flow time = 4/3&nbsp;hours = 80&nbsp;minutes.}@} <!--SR:!2026-04-10,281,330!2025-07-05,66,310-->
+> - explanation: {@{The required average inventory is 4 shows. The required arrival rate is 3 shows per hour. By Little's law, required flow time = 4/3&nbsp;hours = 80&nbsp;minutes.}@} <!--SR:!2026-04-10,281,330!2026-04-16,285,330-->
 
 <!-- markdownlint MD028 -->
 

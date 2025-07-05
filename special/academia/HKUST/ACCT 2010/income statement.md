@@ -35,7 +35,7 @@ tags:
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-10-31,250,330!2025-11-19,265,330-->
 - (root) ::@:: operating (+) <br/> other items (+) <br/> income tax expense <br/> __net income__: income before income taxes − income tax expense <br/> earnings per share <!--SR:!2026-08-06,431,310!2026-08-20,445,310-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-11-01,251,330!2025-08-15,184,310-->
-  - (root) / operating ::@:: example: <br/> sales revenue <br/> operating expenses (+) <br/> __income from operations__: sum above appropriately <!--SR:!2025-07-05,156,310!2027-04-08,645,330-->
+  - (root) / operating ::@:: example: <br/> sales revenue <br/> operating expenses (+) <br/> __income from operations__: sum above appropriately <!--SR:!2027-05-12,676,330!2027-04-08,645,330-->
     - (root) / operating / operating expenses ::@:: example: (many items on this level) (+) <br/> general and administrative expenses (+) <br/> depreciation expense <br/> loss on disposal of assets <br/> total operating expenses: sum above appropriately <!--SR:!2026-07-29,423,310!2025-10-03,184,270-->
       - (root) / operating / operating expenses / (many items on this level) ::@:: example: <br/> supplies expense <br/> wages expense <br/> rent expense <br/> insurance expense <br/> utilities expense <br/> repairs expense <br/> other operating expenses <!--SR:!2025-08-22,180,310!2026-08-21,446,310-->
       - (root) / operating / operating expenses / general and administrative expenses ::@:: example: <br/> training expense <br/> advertising expense <!--SR:!2025-12-02,276,330!2025-08-21,179,310-->

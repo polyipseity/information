@@ -72,7 +72,7 @@ return await memorize_seq(
 Two recommended formats:
 
 1. I–you ::@:: what I want from you; what I can do for you; requirements, if any <!--SR:!2025-11-06,513,310!2030-07-25,1855,393-->
-2. A.S.K. ::@:: attitude; skills; knowledge; requirements, if any <!--SR:!2028-07-30,1361,350!2025-07-05,381,373-->
+2. A.S.K. ::@:: attitude; skills; knowledge; requirements, if any <!--SR:!2028-07-30,1361,350!2030-11-08,1952,393-->
 
 ### experience
 

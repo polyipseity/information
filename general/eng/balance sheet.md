@@ -96,7 +96,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 ### liabilities
 
-1. [accounts payable](accounts%20payable.md) ::@:: money owed by a business to its suppliers shown as a liability on a company's balance sheet <!--SR:!2025-10-18,303,330!2025-07-05,220,330-->
+1. [accounts payable](accounts%20payable.md) ::@:: money owed by a business to its suppliers shown as a liability on a company's balance sheet <!--SR:!2025-10-18,303,330!2028-04-02,1002,350-->
 2. [provisions](provision%20(accounting).md) for warranties or court decisions (contingent liabilities that are both probable and measurable) ::@:: liabilities that may be incurred by an entity depending on the outcome of an uncertain future event, which are both probable and measurable <!--SR:!2027-06-04,741,330!2027-09-19,829,330-->
 3. financial liabilities (excluding provisions and [accounts payables](accounts%20payable.md)), such as [promissory notes](promissory%20note.md) and [corporate bonds](corporate%20bond.md) ::@:: non-physical liabilities whose value is derived from a contractual claim <!--SR:!2026-10-23,539,310!2026-01-13,323,290-->
 4. liabilities and assets for current [tax](tax.md) ::@:: mandatory financial charges or some other types of levy imposed on a taxpayer (an individual or legal entity) by a governmental organization <!--SR:!2025-07-20,232,330!2026-11-03,592,330-->

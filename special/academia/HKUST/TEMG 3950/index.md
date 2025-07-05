@@ -224,7 +224,7 @@ The content is in teaching order.
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2025-11-01,410,381-->
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2025-07-13,313,361-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
-  - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2025-07-05,306,361-->
+  - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2029-08-29,1516,381-->
   - cause mapping § symptom ::@:: red background <!--SR:!2025-08-01,312,361!2025-09-13,346,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)

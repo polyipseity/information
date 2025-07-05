@@ -25,7 +25,7 @@ Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time
 
 ### generating periodic signals
 
-Audacity can generate {@{real sine signals of any frequency and amplitude}@}. The signals can also be {@{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}@}, which have {@{more complex frequency components}@}. It can even generate signals that {@{increases in frequency over time (increasing pitch)}@}, called {@{_chirp_}@}. <!--SR:!2028-05-01,1043,358!2027-11-06,912,358!2025-07-05,238,338!2028-02-04,977,358!2028-05-29,1071,358-->
+Audacity can generate {@{real sine signals of any frequency and amplitude}@}. The signals can also be {@{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}@}, which have {@{more complex frequency components}@}. It can even generate signals that {@{increases in frequency over time (increasing pitch)}@}, called {@{_chirp_}@}. <!--SR:!2028-05-01,1043,358!2027-11-06,912,358!2028-07-17,1108,358!2028-02-04,977,358!2028-05-29,1071,358-->
 
 ## SonicVisualiser
 

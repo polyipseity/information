@@ -413,7 +413,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{2}@}
-> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2026-10-23,476,399!2025-07-05,92,379-->
+> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2026-10-23,476,399!2026-10-25,477,399-->
 
 <!-- markdownlint MD028 -->
 
@@ -436,7 +436,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!2026-10-18,472,399!2025-07-05,92,379-->
+> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!2026-10-18,472,399!2026-10-31,483,399-->
 
 <!-- markdownlint MD028 -->
 
@@ -506,7 +506,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-07-05,92,379-->
+> - solution: {@{2}@} <!--SR:!2026-10-30,482,399-->
 
 <!-- markdownlint MD028 -->
 
@@ -515,7 +515,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2025-07-05,92,379-->
+> - solution: {@{1}@} <!--SR:!2026-11-01,484,399-->
 
 <!-- markdownlint MD028 -->
 
