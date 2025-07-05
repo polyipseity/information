@@ -42,7 +42,12 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 
 ### inversion related vectors
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 {@{Three similar vectors are in use}@} that {@{condense the inversions of a permutation into a vector that uniquely determines it}@}. They are often called {@{_inversion vector_ or _[Lehmer code](lehmer%20code.md)_}@}. \(A list of sources is found [here](https://en.wikiversity.org/wiki/Inversion%20(discrete%20mathematics)).\)
+
+<!-- markdownlint-restore -->
 
 This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}.
 
