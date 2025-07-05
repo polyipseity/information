@@ -98,7 +98,7 @@ The content is in teaching order.
   - decision support system / users ::@:: middle management \(DSS\)
   - decision support system / usage ::@:: use external information, TPS, and MIS data to support _non-routine_ decision making
   - decision support system / types ::@:: data driven vs. model driven
-  - decision support system / components ::@:: User commands model and data. Model commands data.
+  - decision support system / components ::@:: User commands model and data. Model commands data. <p> Then feedback goes in the opposite direction; that is, model and data give feedback to user. Data gives feedback to model.
 - [executive information system](../../../../general/exeuctive%20information%20system.md) \(EIS\) ::@:: It is a type of management support system that facilitates and supports senior executive information and decision-making needs.
   - executive information system / users ::@:: support senior management
   - executive information system / usage ::@:: use external data, MIS, and DSS to address _high-level non-routine_ decisions

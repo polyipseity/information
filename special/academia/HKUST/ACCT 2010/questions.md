@@ -97,7 +97,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the investing activities involve instantaneous transfer of cash}@}
+> - solution: {@{3, since most investing activities involve instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +117,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the procurement involves instantaneous transfer of cash}@}
+> - solution: {@{3, since most procurements involve instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -137,7 +137,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1}@}
+> - solution: {@{2, and also 3 if the unearned revenues involve instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -147,7 +147,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3}@}
+> - solution: {@{2, 3}@}
 > - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@}
 
 <!-- markdownlint MD028 -->
