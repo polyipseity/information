@@ -52,12 +52,6 @@ Proposed on {@{the cusp of the [First Industrial Revolution](Industrial%20Revolu
 
 ## example
 
-<!--
-> ![Graph of total, average, and marginal product.](../../archives/Wikimedia%20Commons/Total%2C%20Average%2C%20and%20Marginal%20Product.svg)
->
-> _Figure 2 \[OLD\]: Total Output vs. Total Input \[top\] & Output per unit Input vs. Total Input \[bottom\]_ Seen in TOP, the change in output by increasing output from L<sub>1</sub> to L<sub>2</sub> is equal to the change from L<sub>2</sub> to L<sub>3</sub>. Seen in BOTTOM, until an output of L<sub>1</sub>, the output per unit is increasing. After L<sub>1</sub>, the output per unit decreases to zero at L<sub>3</sub>. Together, these demonstrate diminishing returns from L<sub>1</sub>.
--->
-
 {@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities and this is called __increasing returns__}@}.
 
 If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent and this is called __constant returns__}@}.
@@ -207,3 +201,9 @@ This text incorporates [content](https://en.wikipedia.org/wiki/diminishing_retur
 >
 > - [Economics laws](https://en.wikipedia.org/wiki/Category:Economics%20laws)
 > - [Production economics](https://en.wikipedia.org/wiki/Category:Production%20economics)
+
+<!--
+> ![Graph of total, average, and marginal product.](../../archives/Wikimedia%20Commons/Total%2C%20Average%2C%20and%20Marginal%20Product.svg)
+>
+> _Figure 2 \[OLD\]: Total Output vs. Total Input \[top\] & Output per unit Input vs. Total Input \[bottom\]_ Seen in TOP, the change in output by increasing output from L<sub>1</sub> to L<sub>2</sub> is equal to the change from L<sub>2</sub> to L<sub>3</sub>. Seen in BOTTOM, until an output of L<sub>1</sub>, the output per unit is increasing. After L<sub>1</sub>, the output per unit decreases to zero at L<sub>3</sub>. Together, these demonstrate diminishing returns from L<sub>1</sub>.
+-->
