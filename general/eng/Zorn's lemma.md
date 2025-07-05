@@ -42,8 +42,8 @@ Zorn's lemma can then be stated as:
 
 > __Zorn's lemma__ — <sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> Let {@{$P$ be a [partially ordered set](partially%20ordered%20set.md)}@} that {@{satisfies the following two properties}@}:
 >
-> 1. nonemptyness ::@:: $P$ is nonempty; <!--SR:!2026-03-11,348,350!2026-02-19,332,350-->
-> 2. upper bound ::@:: Every [chain](total%20order.md#chains) in _P_ has an [upper bound](upper%20and%20lower%20bounds.md) in _P_. <!--SR:!2025-12-05,270,338!2026-03-17,353,350-->
+> 1. \(annotation: {@{nonemptyness}@}\) {@{$P$ is nonempty}@}; <!--SR:!2026-03-11,348,350!2026-02-19,332,350-->
+> 2. \(annotation: {@{upper bound}@}\) {@{Every [chain](total%20order.md#chains) in _P_}@} has {@{an [upper bound](upper%20and%20lower%20bounds.md) in _P_}@}. <!--SR:!2025-12-05,270,338!2026-03-17,353,350-->
 >
 > Then {@{$P$ has at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2025-09-04,196,330-->
 
@@ -131,9 +131,9 @@ Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can a
 
 > __Lemma__ — Let $F$ be {@{a set consisting of subsets of some fixed set such that $F$ satisfies the following properties}@}:
 >
-> 1. nonemptyness ::@:: $F$ is nonempty. <!--SR:!2026-10-12,499,330!2026-02-19,331,350-->
-> 2. closure under union ::@:: The union of each totally ordered subsets of $F$ is in $F$, where the ordering is with respect to set inclusion. <!--SR:!2025-12-19,256,290!2026-03-17,353,350-->
-> 3. closure under subset ::@:: For each set $S$ in $F$, each subset of $S$ is in $F$. <!--SR:!2025-12-03,268,338!2025-10-05,218,330-->
+> 1. \(annotation: {@{nonemptyness}@}\) {@{$F$ is nonempty}@}. <!--SR:!2026-10-12,499,330!2026-02-19,331,350-->
+> 2. \(annotation: {@{closure under union}@}\) {@{The union of each totally ordered subsets of $F$ is in $F$}@}, where {@{the ordering is with respect to set inclusion}@}. <!--SR:!2025-12-19,256,290!2026-03-17,353,350-->
+> 3. \(annotation: {@{closure under subset}@}\) For {@{each set $S$ in $F$}@}, {@{each subset of $S$ is in $F$}@}. <!--SR:!2025-12-03,268,338!2025-10-05,218,330-->
 >
 > Then $F$ {@{has a maximal element with respect to set inclusion}@}. <!--SR:!2026-03-07,344,350-->
 

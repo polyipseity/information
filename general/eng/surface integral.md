@@ -58,7 +58,7 @@ This can be seen as {@{integrating a [Riemannian volume form](Riemannian%20volum
 >
 > {@{![The flux through each patch is equal to the normal \(perpendicular\) component of the field $F_{n}(\mathbf {x} )=F(\mathbf {x} )\cos \theta$ at the patch's location $\mathbf {x}$ multiplied by the area $dS$.](../../archives/Wikimedia%20Commons/Surface%20integral%20-%20normal%20component%20of%20field.svg)}@}
 >
-> {@{The flux through each patch}@} is equal to {@{the normal \(perpendicular\) component of the field $F_{n}(\mathbf {x} )=F(\mathbf {x} )\cos \theta$ at the patch's location $\mathbf {x}$ multiplied by the area $dS$}@}. The normal component is equal to {@{the [dot product](dot%20product.md) of $\mathbf {F} (\mathbf {x} )$ with the unit normal vector $\mathbf {n} (\mathbf {x} )$ _\(blue arrows\)}@}_
+> {@{The flux through each patch}@} is equal to {@{the normal \(perpendicular\) component of the field $F_{n}(\mathbf {x} )=F(\mathbf {x} )\cos \theta$ at the patch's location $\mathbf {x}$ multiplied by the area $dS$}@}. The normal component is equal to {@{the [dot product](dot%20product.md) of $\mathbf {F} (\mathbf {x} )$ with the unit normal vector $\mathbf {n} (\mathbf {x} )$ _\(blue arrows\)_}@}
 >
 > {@{![The total flux through the surface is found by adding up $\mathbf {F} \cdot \mathbf {n} \;dS$ for each patch.](../../archives/Wikimedia%20Commons/Surface%20integral%20-%20definition.svg)}@}
 >

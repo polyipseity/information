@@ -491,13 +491,13 @@ tags:
 > | Long term debt      | 4          |
 > | Equity              | 2          |
 >
-> Which firm appears to be more insolvent (less liquid)?
+> Which firm appears to be more insolvent \(less liquid\)?
 >
 > 1. Firm A
 > 2. Firm B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Its net working capital \(NWC\) is smaller.}@} <!--SR:!2026-10-21,474,399!2026-10-24,477,399-->
+> - explanation: {@{Its net working capital \(NWC\) is smaller. Note that the term _insolvency_ describes liquidity, so long-term debt is ignored.}@} <!--SR:!2026-10-21,474,399!2026-10-24,477,399-->
 
 <!-- markdownlint MD028 -->
 

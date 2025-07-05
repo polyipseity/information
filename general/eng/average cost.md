@@ -62,10 +62,10 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Average%20cost) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(June 2023\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-1. The Average Fixed Cost curve \(AFC\) ::@:: starts from a height and goes on declining continuously as production increases. <!--SR:!2026-01-16,277,342!2025-07-17,127,302-->
-2. The Average Variable Cost curve, Average Cost curve and the Marginal Cost curve ::@:: start from a height, reach the minimum points, then rise sharply and continuously. <!--SR:!2025-09-30,175,310!2025-09-12,173,310-->
+1. {@{The Average Fixed Cost curve \(AFC\)}@} starts {@{from a height and goes on declining continuously as production increases}@}. <!--SR:!2026-01-16,277,342!2025-07-17,127,302-->
+2. {@{The Average Variable Cost curve, Average Cost curve and the Marginal Cost curve}@} start {@{from a height, reach the minimum points, then rise sharply and continuously}@}. <!--SR:!2025-09-30,175,310!2025-09-12,173,310-->
 3. {@{The Average Fixed Cost curve}@} {@{approaches zero asymptotically}@}. {@{The Average Variable Cost curve}@} is {@{never parallel to or as high as the Average Cost curve}@} due to {@{the existence of positive Average Fixed Costs at all levels of production}@}; but {@{the Average Variable Cost curve asymptotically approaches the Average Cost curve from below}@}.
-4. The Marginal Cost curve ::@:: always passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve. <!--SR:!2026-01-24,284,342!2025-09-28,188,322-->
+4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve}@}. <!--SR:!2026-01-24,284,342!2025-09-28,188,322-->
 
 ## see also
 

@@ -72,10 +72,10 @@ In {@{a normed space $(H,\|\cdot \|)$}@}, if {@{the [parallelogram law](parallel
 >
 > It remains to prove that {@{this formula indeed defines an inner product and that this inner product induces the norm $\|\cdot \|$}@}. Explicitly, the following will be shown:
 >
-> 1. (annotation: norm induction) ::@:: $$\langle x,x\rangle =\|x\|^{2},\quad x\in H$$ <!--SR:!2026-03-10,294,330!2026-01-01,244,330-->
-> 2. (annotation: symmetry) ::@:: $$\langle x,y\rangle =\langle y,x\rangle ,\quad x,y\in H$$ <!--SR:!2026-02-24,280,330!2026-01-17,255,330-->
-> 3. (annotation: linearity) ::@:: $$\langle x+z,y\rangle =\langle x,y\rangle +\langle z,y\rangle \quad {\text{ for all } }x,y,z\in H,$$ <!--SR:!2026-01-02,245,330!2026-01-05,247,330-->
-> 4. (annotation: homogeneity, without positivity) ::@:: $$\langle \alpha x,y\rangle =\alpha \langle x,y\rangle \quad {\text{ for all } }x,y\in H{\text{ and all } }\alpha \in \mathbb {R}$$ <!--SR:!2025-12-14,228,330!2026-02-20,276,330-->
+> 1. \(annotation: {@{norm induction}@}\) {@{$$\langle x,x\rangle =\|x\|^{2},\quad x\in H$$}@} <!--SR:!2026-03-10,294,330!2026-01-01,244,330-->
+> 2. \(annotation: {@{symmetry}@}\) {@{$$\langle x,y\rangle =\langle y,x\rangle ,\quad x,y\in H$$}@} <!--SR:!2026-02-24,280,330!2026-01-17,255,330-->
+> 3. \(annotation: {@{linearity}@}\) {@{$$\langle x+z,y\rangle =\langle x,y\rangle +\langle z,y\rangle \quad {\text{ for all } }x,y,z\in H,$$}@} <!--SR:!2026-01-02,245,330!2026-01-05,247,330-->
+> 4. \(annotation: {@{homogeneity, without positivity}@}\) {@{$$\langle \alpha x,y\rangle =\alpha \langle x,y\rangle \quad {\text{ for all } }x,y\in H{\text{ and all } }\alpha \in \mathbb {R}$$}@} <!--SR:!2025-12-14,228,330!2026-02-20,276,330-->
 >
 > \(This axiomatization {@{omits [positivity](positive-definite%20bilinear%20form.md#associated%20symmetric%20bilinear%20form)}@}, which is {@{implied by \(1\) and the fact that $\|\cdot \|$ is a norm}@}.\)
 >

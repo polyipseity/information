@@ -97,11 +97,11 @@ Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \
 >
 > The three types may be enumerated as follows:
 >
-> - choose the six elements that go into the two-cycles, decompose them into two-cycles and take into account that the order of the three two-cycles is not important ::@:: $${n \choose 6}{6 \choose 2,2,2}{\frac 1 6}$$ <!--SR:!2025-08-13,206,310!2025-10-25,279,330-->
-> - choose the five elements that go into the three-cycle and the two-cycle, choose the elements of the three-cycle and take into account that three elements generate two three-cycles ::@:: $${n \choose 5}{5 \choose 3}\times 2$$ <!--SR:!2025-07-16,196,310!2025-08-18,210,310-->
-> - choose the four elements of the four-cycle and take into account that four elements generate six four-cycles ::@:: $${n \choose 4}\times 6.$$ <!--SR:!2025-11-01,286,330!2025-11-26,306,330-->
+> - choose {@{the six elements that go into the two-cycles}@}, {@{decompose them into two-cycles}@} and take into account that {@{the order of the three two-cycles is not important}@}: {@{$${n \choose 6}{6 \choose 2,2,2}{\frac 1 6}$$}@} <!--SR:!2025-08-13,206,310!2025-10-25,279,330-->
+> - choose {@{the five elements that go into the three-cycle and the two-cycle}@}, choose {@{the elements of the three-cycle}@} and take into account that {@{three elements generate two three-cycles}@}: {@{$${n \choose 5}{5 \choose 3}\times 2$$}@} <!--SR:!2025-07-16,196,310!2025-08-18,210,310-->
+> - choose {@{the four elements of the four-cycle}@} and take into account that {@{four elements generate six four-cycles}@}: {@{$${n \choose 4}\times 6.$$}@} <!--SR:!2025-11-01,286,330!2025-11-26,306,330-->
 >
-> Sum the three contributions to obtain ::@:: $${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$ <!--SR:!2025-08-15,207,310!2025-11-17,256,270-->
+> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2025-08-15,207,310!2025-11-17,256,270-->
 
 Note that all the combinatorial proofs above {@{use either binomials or multinomials of $n$}@}. <!--SR:!2026-12-09,564,310-->
 

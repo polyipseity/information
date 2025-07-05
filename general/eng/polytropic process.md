@@ -28,34 +28,34 @@ tags:
 
 > __relation between polytropic index and energy transfer ratio__
 >
-> {@{$$pV^{(1 - \gamma)K + \gamma} = C$$}@}
+> {@{$$pV^{\gamma - K(\gamma - 1)} = C$$}@}
 >
 > - where
 >   - {@{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}@}
 >   - {@{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio}@}
->   - {@{thus the __polytropic index__ is $n = (1 - \gamma)K + \gamma$}@}
+>   - {@{thus the __polytropic index__ is $n = \gamma - K(\gamma - 1)$}@}
 > - conditions: {@{[ideal gas](ideal%20gas.md)}@} <!--SR:!2025-12-09,221,210!2026-01-30,532,310!2025-09-27,162,270!2029-01-11,1287,310!2026-03-31,314,329-->
 
-The relation between polytropic index and energy transfer ratio can be derived as follows:
-
-$$\begin{aligned}
-K & = \frac{\delta Q}{\delta W} \\
-U & = \frac{f}2nRT = \frac{nRT}{\gamma - 1} \\
-\mathrm{d}U & = \frac{nR}{\gamma - 1} \,\mathrm{d}T \\
-\mathrm{d}U & = \delta Q - \delta W \\
-& = K \,\delta W - \delta W \\
-& = (K - 1)\, \delta W \\
-\frac{nR}{\gamma - 1} \,\mathrm{d}T & = (K - 1) \,\delta W \\
-& = (K - 1)p \,\mathrm{d}V \\
-& = \frac{(K - 1)nRT}V \,\mathrm{d}V \\
-\frac{1}{T(\gamma - 1)} \,\mathrm{d}T & = \frac{K - 1}V \,\mathrm{d}V \\
-\frac{\ln T}{\gamma - 1} & = (K - 1)\ln V + C \\
-T^{\frac1{\gamma - 1} } & = V^{K - 1}C \\
-T & = V^{(K - 1)(\gamma - 1)}C \\
-\frac{pV}{nR} & = V^{(K - 1)(\gamma - 1)}C \\
-pV^{1 + (K - 1)(1 - \gamma)} & = C \\
-pV^{1 + K - K\gamma - 1 + \gamma} & = C \\
-pV^{(1 - \gamma)K + \gamma} &= C
+The relation between polytropic index and energy transfer ratio can be derived as follows: $$\begin{aligned}
+U & = \frac f 2 nRT = \frac {nRT} {\gamma - 1} \\
+\\
+pV & = nRT \\
+pV & \propto T \\
+\\
+\frac {\partial Q} {\partial W} & = K \\
+\frac {\partial Q - \partial W} {\partial W} & = K - 1 \\
+\frac {\partial U} {\partial W} & = K - 1 \\
+\frac {nR \,\mathrm dT} {(\gamma - 1) p \,\mathrm dV} & = K - 1 \\
+nR \,\mathrm dT & = (K - 1)(\gamma - 1) p \,\mathrm dV \\
+nR \,\mathrm dT & = (K - 1)(\gamma - 1)\frac {nRT} V \,\mathrm dV \\
+\frac 1 T \,\mathrm dT & = (K - 1)(\gamma - 1) \frac 1 V \,\mathrm dV \\
+\ln T & = (K - 1)(\gamma - 1) \ln V + C && \text{given }T, V > 0 \\
+T & = e^C V^{(K - 1)(\gamma - 1)} \\
+T & \propto V^{(K - 1)(\gamma - 1)} \\
+\\
+pV & \propto V^{(K - 1)(\gamma - 1)} \\
+pV^{1 + (1 - K)(\gamma - 1)} & \propto 1 \\
+pV^{\gamma - K(\gamma - 1)} & \propto 1 \,.
 \end{aligned}$$
 
 ## relationship to ideal process

@@ -16,7 +16,9 @@ tags:
 > ![A demo for Kruskal's algorithm to find minimum spanning tree on a 2D plane.](../../archives/Wikimedia%20Commons/KruskalDemo.gif)
 >
 > {@{Animation of Kruskal's algorithm on a [complete graph](complete%20graph.md) with weights based on Euclidean distance}@}
->
+
+<!-- markdownlint MD028 -->
+
 > - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-12-04,290,330!2025-12-01,288,330-->
 > - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2025-12-02,289,330!2025-12-09,294,330-->
 > - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2025-10-18,208,270!2025-11-02,179,230-->

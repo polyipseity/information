@@ -23,12 +23,12 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2026-02-26,349,349-->
 
-- $S$ is ::@:: a [set](set%20(mathematics).md) of states called the _state space_. The state space may be discrete or continuous, like the [set of real numbers](real%20number.md). <!--SR:!2025-12-06,281,332!2025-08-25,184,312-->
-- $A$ is ::@:: a set of actions called the _action space_ \(alternatively, $A_{s}$ is the set of actions available from state $s$\). As for state, this set may be discrete or continuous. <!--SR:!2025-12-26,296,332!2025-07-25,170,312-->
+- {@{$S$}@} is {@{a [set](set%20(mathematics).md) of states called the _state space_}@}. {@{The state space}@} may be {@{discrete or continuous, like the [set of real numbers](real%20number.md)}@}. <!--SR:!2025-12-06,281,332!2025-08-25,184,312-->
+- {@{$A$}@} is {@{a set of actions called the _action space_}@} \(alternatively, {@{$A_{s}$}@} is {@{the set of actions available from state $s$}@}\). As for state, this set may be {@{discrete or continuous}@}. <!--SR:!2025-12-26,296,332!2025-07-25,170,312-->
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
-- $R_{a}(s,s')$ is ::@:: the immediate reward \(or expected immediate reward\) received after transitioning from state $s$ to state $s'$, due to action $a$. <!--SR:!2025-11-04,255,332!2025-11-08,259,332-->
+- {@{$R_{a}(s,s')$}@} is {@{the immediate reward \(or expected immediate reward\) received}@} after {@{transitioning from state $s$ to state $s'$, due to action $a$}@}. <!--SR:!2025-11-04,255,332!2025-11-08,259,332-->
 
-A policy function $\pi$ is ::@:: a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\). <!--SR:!2025-11-05,256,332!2025-11-09,260,332-->
+{@{A policy function $\pi$}@} is {@{a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\)}@}. <!--SR:!2025-11-05,256,332!2025-11-09,260,332-->
 
 ### optimization objective
 
@@ -173,7 +173,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2025-11-07,258,332!2025-12-15,285,332-->
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2027-01-21,567,312!2025-12-07,282,332-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2025-12-06,281,332!2025-08-24,183,312-->
-- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.) <!--SR:!2025-10-27,207,272!2026-10-10,493,312-->
+- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and \(annotation: This makes the automata "learn" from an input.\) <!--SR:!2025-10-27,207,272!2026-10-10,493,312-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2025-08-23,182,312!2025-09-01,199,312-->
 
 {@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-02-14,339,349!2025-08-10,169,309!2026-01-27,325,349!2026-02-01,329,349!2026-02-22,346,349!2026-02-05,332,349!2026-02-03,330,349!2026-02-19,343,349-->

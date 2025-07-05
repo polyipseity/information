@@ -33,7 +33,7 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 
 ## gross sales and net sales
 
-(annotation: net sales equation) ::@:: $${\text{Net sales} }={\text{Gross sales} }-{\text{(Customer discounts, returns, allowances)} }$$ <!--SR:!2026-01-11,279,330!2026-01-23,290,330-->
+\(annotation: net sales equation\) ::@:: $${\text{Net sales} }={\text{Gross sales} }-{\text{(Customer discounts, returns, allowances)} }$$ <!--SR:!2026-01-11,279,330!2026-01-23,290,330-->
 
 > __General Journal - Merchandise return example__
 >
@@ -47,20 +47,6 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 > |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2025-11-25,243,330!2026-01-27,293,330!2026-01-02,273,330!2026-01-02,273,330!2025-12-31,271,330!2026-01-03,274,330!2025-12-30,270,330!2025-12-25,265,330!2026-01-16,284,330!2026-01-28,294,330!2026-01-08,276,330!2025-09-09,168,310!2025-12-24,264,330!2025-12-28,268,330-->
 
 {@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-05,276,330!2026-01-27,293,330!2025-12-27,267,330!2025-09-22,190,310!2026-01-17,285,330!2025-09-23,191,310-->
-
-<!--
-- sales returns are refunds to customers for returned merchandise / credit notes
-- debit notes
-- sales journal entries non-current, current batch processed transactions [predictive analytics](predictive%20analytics.md) in strategic management/administration/governance research metaframeworks
-- sales allowances are reductions in sales price for merchandise with minor defects, the allowance agreed upon _after_ the customer has purchased the merchandise \(see also [credit note](credit%20note.md)\)
-- sales discounts allowed are reduced payments from the customer based on invoice payment terms such as 2/10, n/30 \(2% discount if paid within 10 days, net invoice total due in 30 days\)
-- interest received for amounts in arrears
-- inc/exc amounts capital goods&services, non-capital goods&services input valued added tax, with cost of non-capital goods sold
-
-input vat - output vat
-
-sales of portfolio items and capital gains taxes
--->
 
 {@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}.
 
@@ -98,7 +84,7 @@ When {@{the US government reports [wholesale](wholesale.md) sales}@}, this {@{in
 - [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md)
 - [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md)
 - [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest
-- (annotation: full form) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest
+- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest
 
 ## references
 
@@ -116,3 +102,17 @@ This text incorporates [content](https://en.wikipedia.org/wiki/sales_(accounting
 > - [Financial accounting](https://en.wikipedia.org/wiki/Category:Financial%20accounting)
 > - [Accounts receivable](https://en.wikipedia.org/wiki/Category:Accounts%20receivable)
 > - [Sales](https://en.wikipedia.org/wiki/Category:Sales)
+
+<!--
+- sales returns are refunds to customers for returned merchandise / credit notes
+- debit notes
+- sales journal entries non-current, current batch processed transactions [predictive analytics](predictive%20analytics.md) in strategic management/administration/governance research metaframeworks
+- sales allowances are reductions in sales price for merchandise with minor defects, the allowance agreed upon _after_ the customer has purchased the merchandise \(see also [credit note](credit%20note.md)\)
+- sales discounts allowed are reduced payments from the customer based on invoice payment terms such as 2/10, n/30 \(2% discount if paid within 10 days, net invoice total due in 30 days\)
+- interest received for amounts in arrears
+- inc/exc amounts capital goods&services, non-capital goods&services input valued added tax, with cost of non-capital goods sold
+
+input vat - output vat
+
+sales of portfolio items and capital gains taxes
+-->
