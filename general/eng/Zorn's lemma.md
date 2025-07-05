@@ -42,10 +42,10 @@ Zorn's lemma can then be stated as:
 
 > __Zorn's lemma__ — <sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> Let {@{$P$ be a [partially ordered set](partially%20ordered%20set.md)}@} that {@{satisfies the following two properties}@}:
 >
-> 1. \(annotation: {@{nonemptyness}@}\) {@{$P$ is nonempty}@}; <!--SR:!2026-03-11,348,350!2026-02-19,332,350-->
-> 2. \(annotation: {@{upper bound}@}\) {@{Every [chain](total%20order.md#chains) in _P_}@} has {@{an [upper bound](upper%20and%20lower%20bounds.md) in _P_}@}. <!--SR:!2025-12-05,270,338!2026-03-17,353,350-->
+> 1. \(annotation: {@{nonemptyness}@}\) {@{$P$ is nonempty}@};
+> 2. \(annotation: {@{upper bound}@}\) {@{Every [chain](total%20order.md#chains) in _P_}@} has {@{an [upper bound](upper%20and%20lower%20bounds.md) in _P_}@}.
 >
-> Then {@{$P$ has at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2025-09-04,196,330-->
+> Then {@{$P$ has at least one [maximal element](maximal%20and%20minimal%20elements.md)}@}. <!--SR:!2026-03-11,348,350!2026-02-19,332,350!2025-12-05,270,338!2026-03-17,353,350!2025-09-04,196,330!2025-07-10,5,354!2025-07-10,5,354!2025-07-10,5,354-->
 
 In fact, {@{property \(1\) is redundant}@}, since {@{property \(2\) says, in particular, that the empty chain has an upper bound in $P$}@}, implying {@{$P$ is nonempty}@}. However, in practice, {@{one often checks \(1\) and then verifies \(2\) only for nonempty chains}@}, since {@{the case of the empty chain is taken care by \(1\)}@}. <!--SR:!2025-12-02,267,338!2025-10-14,222,330!2026-01-22,310,350!2026-03-03,341,350!2025-09-08,197,318-->
 
@@ -131,11 +131,11 @@ Finally, {@{the [Bourbaki–Witt theorem](Bourbaki–Witt%20theorem.md)}@} can a
 
 > __Lemma__ — Let $F$ be {@{a set consisting of subsets of some fixed set such that $F$ satisfies the following properties}@}:
 >
-> 1. \(annotation: {@{nonemptyness}@}\) {@{$F$ is nonempty}@}. <!--SR:!2026-10-12,499,330!2026-02-19,331,350-->
-> 2. \(annotation: {@{closure under union}@}\) {@{The union of each totally ordered subsets of $F$ is in $F$}@}, where {@{the ordering is with respect to set inclusion}@}. <!--SR:!2025-12-19,256,290!2026-03-17,353,350-->
-> 3. \(annotation: {@{closure under subset}@}\) For {@{each set $S$ in $F$}@}, {@{each subset of $S$ is in $F$}@}. <!--SR:!2025-12-03,268,338!2025-10-05,218,330-->
+> 1. \(annotation: {@{nonemptyness}@}\) {@{$F$ is nonempty}@}.
+> 2. \(annotation: {@{closure under union}@}\) {@{The union of each totally ordered subsets of $F$ is in $F$}@}, where {@{the ordering is with respect to set inclusion}@}.
+> 3. \(annotation: {@{closure under subset}@}\) For {@{each set $S$ in $F$}@}, {@{each subset of $S$ is in $F$}@}.
 >
-> Then $F$ {@{has a maximal element with respect to set inclusion}@}. <!--SR:!2026-03-07,344,350-->
+> Then $F$ {@{has a maximal element with respect to set inclusion}@}. <!--SR:!2026-10-12,499,330!2026-02-19,331,350!2025-12-19,256,290!2026-03-17,353,350!2025-12-03,268,338!2025-10-05,218,330!2026-03-07,344,350!2025-07-10,5,354!2025-07-10,5,354!2025-07-10,5,354-->
 
 \(Note that, strictly speaking, {@{\(1\) is redundant since \(2\) implies the empty set is in $F$ (annotation: the union of no sets is an empty set)}@}.\) Note {@{the above is a weak form of Zorn's lemma}@} since Zorn's lemma {@{says in particular that any set of subsets satisfying the above \(1\) and \(2\) has a maximal element \(\(3\) is not needed\)}@}. The point is that, {@{conversely, Zorn's lemma follows from this weak form}@}.<sup>[\[15\]](#^ref-15)</sup> Indeed, let {@{$F$ be the set of all chains in $P$}@}. Then {@{it satisfies all of the above properties \(it is nonempty since the empty subset is a chain\)}@}. Thus, by {@{the above weak form}@}, we {@{find a maximal element $C$ in $F$; i.e., a maximal chain in $P$}@}. By {@{the hypothesis of Zorn's lemma}@}, {@{$C$ has an upper bound $x$ in $P$}@}. Then {@{this $x$ is a maximal element}@} since {@{if $y\geq x$, then ${\widetilde {C} }=C\cup \{y\}$ is larger than or equal to $C$ and so ${\widetilde {C} }=C$. Thus, $y=x$}@}. <!--SR:!2025-08-06,156,310!2025-08-01,155,310!2025-10-09,207,318!2026-02-25,336,350!2025-09-25,210,330!2025-09-12,200,318!2026-01-25,310,338!2026-02-15,327,350!2026-03-09,346,350!2025-12-19,258,290!2025-10-09,222,330!2026-03-21,300,290-->
 

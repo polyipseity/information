@@ -48,9 +48,9 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 
 {@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-05,276,330!2026-01-27,293,330!2025-12-27,267,330!2025-09-22,190,310!2026-01-17,285,330!2025-09-23,191,310-->
 
-{@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}.
+{@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
-In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded that {@{they found the "sales total" metric very useful}@}.<sup>[\[5\]](#^ref-5)</sup>
+In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded that {@{they found the "sales total" metric very useful}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 > __General Journal - Sales discount example__
 >
@@ -62,9 +62,9 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 > | 9-7        | {@{Cash}@}                                           | {@{490.00}@} |              |
 > |            | {@{Sales Discounts}@}                                | {@{10.00}@}  |              |
 > |            | &ensp;{@{Accounts Receivable \(Customer A\)}@}       |              | {@{500.00}@} |
-> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              |
+> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
-{@{__Revenue__ or __Sales__ reported on the income statement}@} are {@{net sales after deducting Sales Returns and Allowances and Sales Discounts}@}.
+{@{__Revenue__ or __Sales__ reported on the income statement}@} are {@{net sales after deducting Sales Returns and Allowances and Sales Discounts}@}. <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 |                                         |               |                  |
 | --------------------------------------- | ------------- | ---------------- |
@@ -72,19 +72,19 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 | {@{Sales}@}                             |               | {@{\$2,000.00}@} |
 | {@{Less Sales returns and allowances}@} | {@{\$20.00}@} |                  |
 | {@{Sales discounts}@}                   | {@{\$10.00}@} | {@{\$30.00}@}    |
-| {@{Net sales}@}                         |               | {@{\$1,970.00}@} |
+| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## unique definitions
 
-When {@{the US government reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup>
+When {@{the US government reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## other terms
 
-- [Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\)
-- [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md)
-- [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md)
-- [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest
-- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest
+- [Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
+- [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
+- [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
+- [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
+- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-07-09,4,341!2025-07-09,4,341-->
 
 ## references
 

@@ -43,11 +43,11 @@ Some standard calculations based on the time value of money are:
 
 - {@{_Present value of an [annuity](annuity%20(finance%20theory).md)_}@}: An annuity is {@{a series of equal payments or receipts that occur at evenly spaced intervals}@}. {@{Leases and rental payments}@} are examples. {@{The payments or receipts occur at the end of each period for an ordinary annuity}@} while {@{they occur at the beginning of each period for an annuity due}@}. <!--SR:!2026-01-03,246,330!2026-01-21,259,330!2026-02-13,273,330!2025-12-30,242,330!2025-12-16,230,330-->
 
-    {@{_Present value of a [perpetuity](perpetuity.md)_}@} is {@{an infinite and constant stream of identical cash flows}@}.<sup>[\[5\]](#^ref-5)</sup>
+    {@{_Present value of a [perpetuity](perpetuity.md)_}@} is {@{an infinite and constant stream of identical cash flows}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-07-08,3,322!2025-07-06,1,302-->
 
-- {@{_[Future value](future%20value.md)_}@}: {@{The value of an asset or cash at a specified date in the future}@}, based on {@{the value of that asset in the present}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-01-14,252,330!2026-01-24,262,330-->
+- {@{_[Future value](future%20value.md)_}@}: {@{The value of an asset or cash at a specified date in the future}@}, based on {@{the value of that asset in the present}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-01-14,252,330!2026-01-24,262,330!2025-07-06,1,302-->
 
-- {@{_Future value of an annuity \(FVA\)_}@}: {@{The future value of a stream of payments \(annuity\)}@}, assuming {@{the payments are invested at a given rate of interest}@}. <!--SR:!2026-03-04,292,330!2026-01-31,268,330-->
+- {@{_Future value of an annuity \(FVA\)_}@}: {@{The future value of a stream of payments \(annuity\)}@}, assuming {@{the payments are invested at a given rate of interest}@}. <!--SR:!2026-03-04,292,330!2026-01-31,268,330!2025-07-08,3,322-->
 
 There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions \(such as PV, FV, RATE, NPER, and PMT\)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-02-08,268,330!2026-02-17,277,330!2025-09-20,160,310-->
 
