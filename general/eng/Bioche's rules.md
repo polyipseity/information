@@ -92,7 +92,7 @@ The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries
 
 Consider {@{$$\int {\frac {dt}{1+\beta \cos t} },$$}@} where {@{$\beta ^{2}<1$}@}. Although {@{the function _f_ is even}@}, {@{the integrand as a whole ω is odd}@}, so {@{it does not fall under rule 1}@}. It also {@{lacks the symmetries described in rules 2 and 3}@}, so we fall back to {@{the last-resort substitution $u=\tan(t/2)$}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
-Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\int {\frac {\mathrm {d} t}{1+\beta \cos t} }={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c.$$}@} <!--SR:!2025-07-09,4,309!2025-07-08,3,289!2025-07-06,1,269-->
+Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\int {\frac {\mathrm {d} t}{1+\beta \cos t} }={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c.$$}@} <!--SR:!2025-07-09,4,309!2025-07-08,3,289!2025-07-10,4,289-->
 
 ## references
 

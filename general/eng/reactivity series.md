@@ -223,7 +223,7 @@ return _chain.from_iterable(await _gather(
 - Bi<sup>3+</sup>:@:[bismuth](bismuth.md) <!--SR:!2025-07-19,407,365-->
 - Cu<sup>2+</sup>:@:[copper](copper.md) <!--SR:!2030-05-14,1816,387-->
 - W<sup>3+</sup>:@:[tungsten](tungsten.md) <!--SR:!2030-01-11,1717,385-->
-- Hg<sup>2+</sup>:@:[mercury](mercury%20(element).md) <!--SR:!2025-07-06,398,365-->
+- Hg<sup>2+</sup>:@:[mercury](mercury%20(element).md) <!--SR:!2030-12-20,1993,385-->
 - Ag<sup>+</sup>:@:[silver](silver.md) <!--SR:!2030-07-14,1867,387-->
 - Au<sup>3+</sup>:@:[gold](gold.md) <!--SR:!2030-10-09,1936,387-->
 - Pt<sup>4+</sup>:@:[platinum](platinum.md) <!--SR:!2025-07-25,412,365-->

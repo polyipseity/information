@@ -44,7 +44,7 @@ The output from Huffman's algorithm can be viewed as {@{a [variable-length code]
 
 In {@{1951, [David A. Huffman](David%20A.%20Huffman.md) and his [MIT](Massachusetts%20Institute%20of%20Technology.md) [information theory](information%20theory.md) classmates}@} were {@{given the choice of a term paper or a final [exam](exam.md)}@}. {@{The professor, [Robert M. Fano](Robert%20Fano.md)}@}, assigned {@{a [term paper](term%20paper.md) on the problem of finding the most efficient binary code}@}. Huffman, {@{unable to prove any codes were the most efficient}@}, was {@{about to give up and start studying for the final}@} when {@{he hit upon the idea of using a frequency-sorted [binary tree](binary%20tree.md) and quickly proved this method the most efficient}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-09-28,488,310!2025-07-29,180,310!2025-11-14,269,330!2026-10-12,499,310!2025-11-27,281,330!2025-09-26,231,330!2025-11-17,272,330-->
 
-In doing so, {@{Huffman outdid Fano}@}, who {@{had worked with [Claude Shannon](Claude%20Shannon.md) to develop a similar code}@}. {@{Building the tree from the bottom up guaranteed optimality}@}, unlike {@{the top-down approach of [Shannon–Fano coding](Shannon–Fano%20coding.md)}@}. <!--SR:!2025-11-04,261,330!2025-11-19,274,330!2025-12-08,290,330!2025-07-06,163,310-->
+In doing so, {@{Huffman outdid Fano}@}, who {@{had worked with [Claude Shannon](Claude%20Shannon.md) to develop a similar code}@}. {@{Building the tree from the bottom up guaranteed optimality}@}, unlike {@{the top-down approach of [Shannon–Fano coding](Shannon–Fano%20coding.md)}@}. <!--SR:!2025-11-04,261,330!2025-11-19,274,330!2025-12-08,290,330!2027-06-09,703,330-->
 
 ## terminology
 
@@ -159,7 +159,7 @@ Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a
 
 {@{The final encoding of any symbol}@} is then read by {@{a concatenation of the labels on the edges along the path from the root node to the symbol}@}. <!--SR:!2025-10-21,253,330!2025-08-11,182,310-->
 
-In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}. <!--SR:!2025-10-19,251,330!2025-12-12,293,330!2025-11-09,264,330!2025-07-06,163,310-->
+In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}. <!--SR:!2025-10-19,251,330!2025-12-12,293,330!2025-11-09,264,330!2027-06-08,702,330-->
 
 It is generally beneficial to {@{minimize the variance of codeword length}@}. For example, {@{a communication buffer receiving Huffman-encoded data may need to be larger}@} to {@{deal with especially long symbols if the tree is especially unbalanced}@}. To {@{minimize variance}@}, {@{simply break ties between queues by choosing the item in the first queue}@}. This modification will {@{retain the mathematical optimality of the Huffman coding}@} while {@{both minimizing variance and minimizing the length of the longest character code}@}. <!--SR:!2025-10-25,254,330!2025-10-13,246,330!2025-11-12,268,330!2025-11-16,272,330!2026-12-08,544,310!2025-12-11,292,330!2026-11-23,529,310-->
 

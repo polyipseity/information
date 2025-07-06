@@ -147,7 +147,7 @@ When {@{technological progress occurs}@}, {@{the supply curve shifts}@}. For exa
 
 {@{Partial equilibrium}@}, as the name suggests, {@{takes into consideration only a part of the market to attain equilibrium}@}. <!--SR:!2025-10-23,268,330!2026-01-19,343,350-->
 
-Jain proposes (attributed to [George Stigler](George%20Stigler.md)): "A partial equilibrium is {@{one which is based on only a restricted range of data}@}, a standard example is {@{price of a single product, the prices of all other products being held fixed during the analysis}@}."<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-07-06,168,310!2025-09-19,242,330-->
+Jain proposes (attributed to [George Stigler](George%20Stigler.md)): "A partial equilibrium is {@{one which is based on only a restricted range of data}@}, a standard example is {@{price of a single product, the prices of all other products being held fixed during the analysis}@}."<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-06-28,722,330!2025-09-19,242,330-->
 
 The supply-and-demand model is {@{a __partial equilibrium__ model of [economic equilibrium](economic%20equilibrium.md)}@}, where {@{the clearance on the [market](market%20(economics).md) of some specific [goods](goods.md) is obtained independently from prices and quantities in other markets}@}. In other words, {@{the prices of all [substitutes](substitute%20good.md) and [complements](complementary%20good.md), as well as [income](income.md) levels of [consumers](consumer.md) are constant}@}. This makes {@{analysis much simpler than in a [general equilibrium](general%20equilibrium%20theory.md) model which includes an entire economy}@}. <!--SR:!2025-10-13,261,330!2025-10-04,239,330!2025-07-24,182,310!2025-09-09,235,330-->
 

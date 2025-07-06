@@ -145,7 +145,7 @@ In the case of {@{[total internal reflection](total%20internal%20reflection.md) 
 
 ### alternative forms
 
-In {@{the above formula for _r_<sub>s</sub>}@}, if we {@{put $n_{2}=n_{1}\sin \theta _{\text{i} }/\sin \theta _{\text{t} }$ \(Snell's law\)}@} and {@{multiply the numerator and denominator by \(⁠1/_n_<sub>1</sub>\)⁠ sin _θ_<sub>t</sub>}@}, we obtain&hairsp;<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$r_{\text{s} }=-{\frac {\sin(\theta _{\text{i} }-\theta _{\text{t} })}{\sin(\theta _{\text{i} }+\theta _{\text{t} })} }.$$}@} <!--SR:!2025-07-22,46,290!2025-08-29,77,340!2025-07-06,36,300!2025-07-27,40,270-->
+In {@{the above formula for _r_<sub>s</sub>}@}, if we {@{put $n_{2}=n_{1}\sin \theta _{\text{i} }/\sin \theta _{\text{t} }$ \(Snell's law\)}@} and {@{multiply the numerator and denominator by \(⁠1/_n_<sub>1</sub>\)⁠ sin _θ_<sub>t</sub>}@}, we obtain&hairsp;<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$r_{\text{s} }=-{\frac {\sin(\theta _{\text{i} }-\theta _{\text{t} })}{\sin(\theta _{\text{i} }+\theta _{\text{t} })} }.$$}@} <!--SR:!2025-07-22,46,290!2025-08-29,77,340!2025-10-22,107,300!2025-07-27,40,270-->
 
 If we {@{do likewise with the formula for _r_<sub>p</sub>}@}, the result is easily shown to be equivalent to&hairsp;<sup>[\[12\]](#^ref-12)</sup><sup>[\[13\]](#^ref-13)</sup> {@{$$r_{\text{p} }={\frac {\tan(\theta _{\text{i} }-\theta _{\text{t} })}{\tan(\theta _{\text{i} }+\theta _{\text{t} })} }.$$}@} <!--SR:!2025-07-23,48,309!2025-08-08,56,310-->
 

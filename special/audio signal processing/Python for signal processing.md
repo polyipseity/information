@@ -18,7 +18,7 @@ NumPy \(`numpy`\) is {@{a Python library allowing one to manipulate arrays of nu
 
 ## matplotlib
 
-`matplotlib` is {@{a Python library allowing one to visualize numbers}@}. Its documentation is available on {@{<https://matplotlib.org/stable/api/>}@}. <!--SR:!2025-07-06,254,339!2025-08-11,283,339-->
+`matplotlib` is {@{a Python library allowing one to visualize numbers}@}. Its documentation is available on {@{<https://matplotlib.org/stable/api/>}@}. <!--SR:!2028-10-03,1184,359!2025-08-11,283,339-->
 
 ## complex number
 

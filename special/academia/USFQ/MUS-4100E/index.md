@@ -144,7 +144,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00, PT1H20M
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00, PT1H20M
-- [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2026-06-19,381,360!2025-07-06,108,300-->
+- [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2026-06-19,381,360!2026-10-01,451,320-->
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2026-04-29,357,360!2026-05-13,370,360-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-11-25,229,340!2026-06-11,373,360-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2026-05-05,363,360-->
@@ -386,13 +386,13 @@ The content is in teaching order.
 - datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00, PT1H20M
   - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00, PT1H20M
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2025-07-10,100,382!2025-08-15,136,402-->
-  - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-07-12,102,382!2025-07-06,98,382-->
+  - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2025-07-12,102,382!2026-12-03,514,402-->
   - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-08-11,134,402-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2026-11-13,499,402-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2025-07-11,101,382-->
   - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2025-08-08,131,402-->
-- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-07-12,102,382!2025-07-06,98,382-->
+- [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2025-07-12,102,382!2026-12-04,515,402-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2026-03-14,284,382!2026-09-21,456,402-->
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-08-01,125,402!2025-08-13,134,402-->
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" — Vladimir Horowitz, Russian And American pianist <!--SR:!2025-08-02,126,402!2025-08-04,128,402-->

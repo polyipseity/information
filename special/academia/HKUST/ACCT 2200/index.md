@@ -373,7 +373,7 @@ The content is in teaching order.
 - [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions. <!--SR:!2026-11-06,495,406!2026-10-20,481,406-->
 - [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even". <!--SR:!2026-12-06,519,406!2026-11-07,496,406-->
 - cost–volume–profit analysis
-  - cost–volume–profit analysis / method ::@:: contribution margin ratio method, profit equation method, unit contribution margin method <!--SR:!2026-07-19,388,386!2025-07-06,98,386-->
+  - cost–volume–profit analysis / method ::@:: contribution margin ratio method, profit equation method, unit contribution margin method <!--SR:!2026-07-19,388,386!2026-12-13,524,406-->
   - cost–volume–profit analysis / profit equation method ::@:: Write profit (net operating income) as a function of quantity. Equate it to _0_ and solve for quantity. <!--SR:!2026-06-24,365,386!2026-10-28,486,406-->
     - cost–volume–profit analysis / profit equation method / equation ::@:: unit price × quantity − unit variable costs × quantity - fixed costs <!--SR:!2025-07-11,103,386!2025-07-07,99,386-->
     - cost–volume–profit analysis / profit equation method / target profit ::@:: Write profit (net operating income) as a function of quantity. Equate it to the _target profit_ and solve for quantity. <!--SR:!2025-07-07,99,386!2025-07-11,103,386-->

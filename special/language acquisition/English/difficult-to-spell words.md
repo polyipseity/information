@@ -75,7 +75,7 @@ English
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: \(p\_e\) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2028-07-17,1286,390-->
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: \(p\_y\) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-09-14,143,156-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: \(r\_t\) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2027-12-03,952,308-->
-- [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: \(r\_e\) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2028-12-03,1409,408-->
+- [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: \(r\_e\) A set of instructions for making [food](../../../general/food.md). <!--SR:!2031-12-20,2357,428!2028-12-03,1409,408-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: \(r\_t\) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: \(r\_t\) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2028-06-25,1215,372!2028-09-29,1291,372-->

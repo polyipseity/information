@@ -27,7 +27,7 @@ tags:
 > Influenza is a disease that may require hospitalization, especially for old people. In a place of population 42 million, there have been 294 new hospitalization weekly. They, on average, stay in the hospital for 5 days. How many hospital beds are occupied by said patients on average?
 >
 > - solution: {@{210 patients}@}
-> - explanation: {@{There are 294/7 = 42 new hospitalization daily. By Little's law, average inventory = 42\*5 = 210 patients.}@} <!--SR:!2026-04-17,286,330!2025-07-06,67,310-->
+> - explanation: {@{There are 294/7 = 42 new hospitalization daily. By Little's law, average inventory = 42\*5 = 210 patients.}@} <!--SR:!2026-04-17,286,330!2026-04-19,286,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -43,7 +43,7 @@ tags:
 > How long on average does it take for a patient to get their testing result?
 >
 > - solution: {@{80&nbsp;minutes}@}
-> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@} <!--SR:!2025-07-06,67,310!2026-03-28,269,330-->
+> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@} <!--SR:!2026-04-21,288,330!2026-03-28,269,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -75,7 +75,7 @@ tags:
 > At process capacity, what is the utilization of the testing machines?
 >
 > - solution: {@{60%}@}
-> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@} <!--SR:!2026-04-03,275,330!2025-07-06,67,310-->
+> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@} <!--SR:!2026-04-03,275,330!2026-04-24,291,330-->
 
 <!-- markdownlint MD028 -->
 

@@ -69,7 +69,7 @@ The falling and rising factorials are {@{related to one another through the [Lah
 
 Since {@{the falling factorials are a basis for the [polynomial ring](polynomial%20ring.md)}@}, one can {@{express the product of two of them as a [linear combination](linear%20combination.md) of falling factorials}@}:<sup>[\[10\]](#^ref-10)</sup> {@{$$(x)_{m}(x)_{n}=\sum _{k=0}^{m}{\binom {m}{k} }{\binom {n}{k} }k!\cdot (x)_{m+n-k}\ .$$}@} {@{The coefficients ${\tbinom {m}{k} }{\tbinom {n}{k} }k!$}@} are {@{called _connection coefficients_}@}, and have a combinatorial interpretation as {@{the number of ways to identify (or "glue together") _k_ elements each from a set of size _m_ and a set of size _n_}@}. <!--SR:!2025-07-17,200,310!2025-09-11,78,250!2025-08-19,112,250!2026-10-19,529,310!2025-11-01,286,330!2025-11-03,288,330-->
 
-There is also a connection formula for {@{the ratio of two rising factorials}@} given by {@{$${\frac {x^{(n)} }{x^{(i)} } }=(x+i)^{(n-i)},\quad {\text{for } }n\geq i.$$}@} <!--SR:!2025-09-21,255,330!2025-07-06,178,310-->
+There is also a connection formula for {@{the ratio of two rising factorials}@} given by {@{$${\frac {x^{(n)} }{x^{(i)} } }=(x+i)^{(n-i)},\quad {\text{for } }n\geq i.$$}@} <!--SR:!2025-09-21,255,330!2027-08-14,768,330-->
 
 Additionally, we can {@{expand generalized exponent laws and negative rising and falling powers}@} through the following identities:<sup>[\[11\]](#^ref-11)</sup><sup>[\[52\]](#^ref-52)</sup> <!--SR:!2025-10-03,264,330-->
 
