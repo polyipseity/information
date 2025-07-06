@@ -101,7 +101,15 @@ _names_map = {
     if (filename := entry.name).endswith(".md")
     for key, val in (
         (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
+        (
+            f"{filename[:1].upper()}{filename[1:-3]}".replace("'", "’"),
+            filename[:-3].replace("'", "’"),
+        ),
         (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
+        (
+            f"{filename[:1].lower()}{filename[1:-3]}".replace("'", "’"),
+            filename[:-3].replace("'", "’"),
+        ),
     )
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
