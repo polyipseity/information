@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"  
+  width="460px" height="245px">
+
+<defs>
+	<marker id="EndArrow" viewBox="0 0 10 10" refX="10" refY="5"
+		markerUnits="strokeWidth" orient="auto"
+		markerWidth="10" markerHeight="10">
+		<polyline points="10,5 0,10 4,5 0,0 10,5" fill="black" />
+	</marker>
+	<line id="arrow" x1="95" x2="15" y1="20" y2="20" style="stroke:black;stroke-width:2;fill:none;marker-end:url(#EndArrow)" />	
+</defs>
+<title>Stokes Theorem</title>
+
+<g id="2box">
+<g id="1box">
+	<use xlink:href="#arrow" />
+	<use xlink:href="#arrow" transform="translate(-80,15) rotate(-90,95,20)" />
+	<use xlink:href="#arrow" transform="translate(-80,100) rotate(180,95,20)" />
+	<use xlink:href="#arrow" transform="translate(0,90) rotate(90,95,20)" />
+</g>
+<use xlink:href="#1box" transform="translate(90,0)" />
+</g>
+<use xlink:href="#2box" transform="translate(0,110)" />
+
+<use xlink:href="#arrow" transform="translate(250,0)" />
+<use xlink:href="#arrow" transform="translate(350,0)" />
+<use xlink:href="#arrow" transform="translate(170,15) rotate(-90,95,20)" />
+<use xlink:href="#arrow" transform="translate(170,125) rotate(-90,95,20)" />
+<use xlink:href="#arrow" transform="translate(170,210) rotate(180,95,20)" />
+<use xlink:href="#arrow" transform="translate(270,210) rotate(180,95,20)" />
+<use xlink:href="#arrow" transform="translate(350,90) rotate(90,95,20)" />
+<use xlink:href="#arrow" transform="translate(350,195) rotate(90,95,20)" />
+
+</svg>
