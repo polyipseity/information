@@ -1,1 +1,1 @@
-Generalized Stokes theorem.md
+generalized Stokes theorem.md
