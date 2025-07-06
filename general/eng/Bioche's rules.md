@@ -18,9 +18,9 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline_citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(June 2022\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{__Bioche's rules__}@}, formulated by {@{the French mathematician [Charles Bioche](Charles%20Bioche.md)}@} \[[fr](fr_Charles%20Bioche.md)\] \(1859–1949\), are {@{rules to aid in the computation of certain [indefinite integrals](indefinite%20integral.md)}@} in which {@{the [integrand](integrand.md#terminology%20and%20notation) contains [sines](sine.md) and [cosines](cosine.md)}@}.
+{@{__Bioche's rules__}@}, formulated by {@{the French mathematician [Charles Bioche](Charles%20Bioche.md)}@} \[[fr](fr_Charles%20Bioche.md)\] \(1859–1949\), are {@{rules to aid in the computation of certain [indefinite integrals](indefinite%20integral.md)}@} in which {@{the [integrand](integrand.md#terminology%20and%20notation) contains [sines](sine.md) and [cosines](cosine.md)}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
-In the following, $f(t)$ is {@{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}@}. In order to {@{calculate $\int f(t)\,dt$}@}, consider {@{the integrand $\omega (t)=f(t)\,dt$}@}. We consider {@{the behavior of this entire integrand, including the $dt$}@}, under {@{translation and reflections of the _t_ axis}@}. {@{The translations and reflections}@} are ones that {@{correspond to the symmetries and periodicities of the basic trigonometric functions}@}. <!--SR:!2026-12-26,688,330!2028-08-09,1165,350-->
+In the following, $f(t)$ is {@{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}@}. In order to {@{calculate $\int f(t)\,dt$}@}, consider {@{the integrand $\omega (t)=f(t)\,dt$}@}. We consider {@{the behavior of this entire integrand, including the $dt$}@}, under {@{translation and reflections of the _t_ axis}@}. {@{The translations and reflections}@} are ones that {@{correspond to the symmetries and periodicities of the basic trigonometric functions}@}. <!--SR:!2026-12-26,688,330!2028-08-09,1165,350!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
 Bioche's rules state that:
 
@@ -59,40 +59,40 @@ In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitut
 
 <!--/pytextgen-->
 
-Because {@{rules 1 and 2 involve flipping the _t_ axis}@}, they {@{flip the sign of _dt_}@}, and therefore {@{the behavior of _ω_ under these transformations differs from that of _ƒ_ by a sign}@}. Although {@{the rules could be stated in terms of _ƒ_}@}, stating them {@{in terms of _ω_ has a mnemonic advantage}@}, which is that we {@{choose the change of variables _u_\(_t_\) that has the same symmetry as _ω_}@}.
+Because {@{rules 1 and 2 involve flipping the _t_ axis}@}, they {@{flip the sign of _dt_}@}, and therefore {@{the behavior of _ω_ under these transformations differs from that of _ƒ_ by a sign}@}. Although {@{the rules could be stated in terms of _ƒ_}@}, stating them {@{in terms of _ω_ has a mnemonic advantage}@}, which is that we {@{choose the change of variables _u_\(_t_\) that has the same symmetry as _ω_}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
-These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<sup>[\[1\]](#^ref-1)</sup> that {@{the proposed change of variable reduces}@} \(if {@{the rule applies and if _f_ is actually of the form $f(t)={\frac {P(\sin t,\cos t)}{Q(\sin t,\cos t)} }$}@}\) to {@{the integration of a [rational function](rational%20function.md) in a new variable}@}, which can be calculated by {@{[partial fraction decomposition](partial%20fraction%20decomposition.md)}@}.
+These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<sup>[\[1\]](#^ref-1)</sup> that {@{the proposed change of variable reduces}@} \(if {@{the rule applies and if _f_ is actually of the form $f(t)={\frac {P(\sin t,\cos t)}{Q(\sin t,\cos t)} }$}@}\) to {@{the integration of a [rational function](rational%20function.md) in a new variable}@}, which can be calculated by {@{[partial fraction decomposition](partial%20fraction%20decomposition.md)}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
 ## case of polynomials
 
-To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well.
+To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
 
-- If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$;
-- If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$;
-- If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$;
-- If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product to sum formulas.\)
+- If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
+- If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
+- If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
+- If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product to sum formulas.\) <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
 
 ## another version for hyperbolic functions
 
-Suppose one is {@{calculating $\int g(\cosh t,\sinh t)dt$}@}.
+Suppose one is {@{calculating $\int g(\cosh t,\sinh t)dt$}@}. <!--SR:!2025-07-09,4,309-->
 
-If {@{Bioche's rules suggest calculating $\int g(\cos t,\sin t)dt$}@} by {@{$u=\cos(t)$ \(respectively, $\sin t,\tan t,\cos(2t),\tan(t/2)$\)}@}, in the case of {@{hyperbolic sine and cosine}@}, a good change of variable is {@{$u=\cosh(t)$ \(respectively, $\sinh(t),\tanh(t),\cosh(2t),\tanh(t/2)$\)}@}. \(annotation: In short, {@{drop the "h"s, apply the rules, and then add back the "h"s}@}.\) In {@{every case}@}, {@{the change of variable $u=e^{t}$}@} allows {@{one to reduce to a rational function}@}, this last change of variable being {@{most interesting in the fourth case \($u=\tanh(t/2)$\)}@}.
+If {@{Bioche's rules suggest calculating $\int g(\cos t,\sin t)dt$}@} by {@{$u=\cos(t)$ \(respectively, $\sin t,\tan t,\cos(2t),\tan(t/2)$\)}@}, in the case of {@{hyperbolic sine and cosine}@}, a good change of variable is {@{$u=\cosh(t)$ \(respectively, $\sinh(t),\tanh(t),\cosh(2t),\tanh(t/2)$\)}@}. \(annotation: In short, {@{drop the "h"s, apply the rules, and then add back the "h"s}@}.\) In {@{every case}@}, {@{the change of variable $u=e^{t}$}@} allows {@{one to reduce to a rational function}@}, this last change of variable being {@{most interesting in the fourth case \($u=\tanh(t/2)$\)}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
 ## examples
 
 ### example 1
 
-As {@{a trivial example}@}, consider {@{$$\int \sin t\,dt.$$}@} Then {@{$f(t)=\sin t$ is an odd function}@}, but under {@{a reflection of the _t_ axis about the origin}@}, ω {@{stays the same}@}. That is, ω {@{acts like an even function}@}. This is the same as {@{the symmetry of the cosine, which is an even function}@}, so the mnemonic tells us to {@{use the substitution $u=\cos t$ \(rule 1\)}@}. Under {@{this substitution}@}, the integral becomes {@{$-\int du$}@}. {@{The integrand involving transcendental functions}@} has been {@{reduced to one involving a rational function \(a constant\)}@}. The result is {@{$-u+c=-\cos t+c$}@}, which is of course {@{elementary and could have been done without Bioche's rules}@}.
+As {@{a trivial example}@}, consider {@{$$\int \sin t\,dt.$$}@} Then {@{$f(t)=\sin t$ is an odd function}@}, but under {@{a reflection of the _t_ axis about the origin}@}, ω {@{stays the same}@}. That is, ω {@{acts like an even function}@}. This is the same as {@{the symmetry of the cosine, which is an even function}@}, so the mnemonic tells us to {@{use the substitution $u=\cos t$ \(rule 1\)}@}. Under {@{this substitution}@}, the integral becomes {@{$-\int du$}@}. {@{The integrand involving transcendental functions}@} has been {@{reduced to one involving a rational function \(a constant\)}@}. The result is {@{$-u+c=-\cos t+c$}@}, which is of course {@{elementary and could have been done without Bioche's rules}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
 ### example 2
 
-The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries as the one in example 1}@}, so we use {@{the same substitution $u=\cos t$}@}. So {@{$${\frac {dt}{\sin t} }=-{\frac {du}{\sin ^{2}t} }=-{\frac {du}{\ 1-\cos ^{2}t} }.$$}@} This transforms the integral into {@{$$\int -{\frac {du}{1-u^{2} } },$$}@} which can be {@{integrated using partial fractions}@}, since {@{${\frac {1}{1-u^{2} } }={\frac {1}{2} }\left({\frac {1}{1+u} }+{\frac {1}{1-u} }\right)$}@}. The result is that {@{$$\int {\frac {dt}{\sin t} }=-{\frac {1}{2} }\ln {\frac {1+\cos t}{1-\cos t} }+c.$$}@}
+The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries as the one in example 1}@}, so we use {@{the same substitution $u=\cos t$}@}. So {@{$${\frac {dt}{\sin t} }=-{\frac {du}{\sin ^{2}t} }=-{\frac {du}{\ 1-\cos ^{2}t} }.$$}@} This transforms the integral into {@{$$\int -{\frac {du}{1-u^{2} } },$$}@} which can be {@{integrated using partial fractions}@}, since {@{${\frac {1}{1-u^{2} } }={\frac {1}{2} }\left({\frac {1}{1+u} }+{\frac {1}{1-u} }\right)$}@}. The result is that {@{$$\int {\frac {dt}{\sin t} }=-{\frac {1}{2} }\ln {\frac {1+\cos t}{1-\cos t} }+c.$$}@} <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
 ### example 3
 
-Consider {@{$$\int {\frac {dt}{1+\beta \cos t} },$$}@} where {@{$\beta ^{2}<1$}@}. Although {@{the function _f_ is even}@}, {@{the integrand as a whole ω is odd}@}, so {@{it does not fall under rule 1}@}. It also {@{lacks the symmetries described in rules 2 and 3}@}, so we fall back to {@{the last-resort substitution $u=\tan(t/2)$}@}.
+Consider {@{$$\int {\frac {dt}{1+\beta \cos t} },$$}@} where {@{$\beta ^{2}<1$}@}. Although {@{the function _f_ is even}@}, {@{the integrand as a whole ω is odd}@}, so {@{it does not fall under rule 1}@}. It also {@{lacks the symmetries described in rules 2 and 3}@}, so we fall back to {@{the last-resort substitution $u=\tan(t/2)$}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
-Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\int {\frac {\mathrm {d} t}{1+\beta \cos t} }={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c.$$}@}
+Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\int {\frac {\mathrm {d} t}{1+\beta \cos t} }={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c.$$}@} <!--SR:!2025-07-09,4,309!2025-07-08,3,289!2025-07-06,1,269-->
 
 ## references
 
