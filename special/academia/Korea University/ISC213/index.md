@@ -137,4 +137,3 @@ The content is in teaching order.
 - datetime: 2025-07-03T09:00:00+09:00/2025-07-03T10:40:00+09:00, PT1H40M
   - local: 2025-07-03T08:00:00+08:00/2025-07-03T09:40:00+08:00, PT1H40M
 - topic: information systems, organizations, strategy
-- assignment: [quiz 3](questions/quiz%203.md)

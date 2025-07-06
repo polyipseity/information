@@ -15,6 +15,9 @@ tags:
 
 ## __Project__
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 - __Project Specification__ \([pdf](attachments/project.pdf)\)
 - __Datasets__
   - [training.txt](attachments/training.txt)
@@ -58,3 +61,5 @@ tags:
 
   The following instructions show how you can apply for a CSE account. <br/> - please go to this [link](https://cssystem.cse.ust.hk/UGuides/hkust_only/activation.html) to obtain a CSE account. <br/> \(This link can only be accessible within the UST campus network.\)
 - CSE Lab 3 Schedule \([link](https://labschedule.cse.ust.hk/week.php?room=9)\)
+
+<!-- markdownlint-restore -->

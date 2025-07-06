@@ -244,6 +244,9 @@ There is no {@{_natural_ interpretation of multiplying vectors to obtain another
 
 ## citations
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 1. <a id="CITEREFBixD'Souza"></a> Bix, Robert A.; D'Souza, Harry J. ["Analytic geometry"](https://www.britannica.com/topic/analytic-geometry). _Encyclopædia Britannica_. Retrieved 6 August 2017. <a id="^ref-1"></a>^ref-1
 2. [Kent & Vujakovic 2017](#CITEREFKentVujakovic2017), See [here](https://books.google.com/books?id=EVRSDwAAQBAJ&q=Nicole+Oresme+coordinate&pg=PT307) <a id="^ref-2"></a>^ref-2
 3. <a id="CITEREFKatz2009"></a> Katz, Victor J. \(2009\). [_A history of mathematics: an introduction_](https://www.worldcat.org/title/71006826) \(3rd ed.\). Boston: Addison-Wesley. p. 484. [ISBN](ISBN%20(identifier).md) [978-0-321-38700-4](https://en.wikipedia.org/wiki/Special:BookSources/978-0-321-38700-4). [OCLC](OCLC%20(identifier).md#OCLC) [71006826](https://search.worldcat.org/oclc/71006826). <a id="^ref-3"></a>^ref-3
@@ -259,6 +262,8 @@ There is no {@{_natural_ interpretation of multiplying vectors to obtain another
 13. [Anton, Bivens & Davis 2021](#CITEREFAntonBivensDavis2021), p. [657](https://books.google.com/books?id=001EEAAAQBAJ&pg=PA657) <a id="^ref-13"></a>^ref-13
 14. [Brannan, Esplen & Gray 1998](#CITEREFBrannanEsplenGray1998), Appendix 2, pp. 377–382 <a id="^ref-14"></a>^ref-14
 15. [Griffiths 1999](#CITEREFGriffiths1999) <a id="^ref-15"></a>^ref-15
+
+<!-- markdownlint-restore -->
 
 ## general and cited references
 

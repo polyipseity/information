@@ -197,7 +197,12 @@ The differentiation–multiplication operation of the second identity can be {@{
 
 Using {@{the [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@}, that can be {@{turned into another formula for multiplying by $n^{k}$ as follows}@} (see the main article on [generating function transformations](generating%20function%20transformation.md#derivative%20transformations)): {@{$$\sum _{j=0}^{k}{\begin{Bmatrix}k\\j\end{Bmatrix} }z^{j}F^{(j)}(z)=\sum _{n=0}^{\infty }n^{k}f_{n}z^{n}\quad {\text{for all } }k\in \mathbb {N}\,.$$}@} <!--SR:!2026-05-06,401,310!2025-08-07,190,270!2025-07-17,176,270-->
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 {@{A negative-order reversal of this sequence powers formula}@} corresponding to {@{the operation of repeated integration}@} is defined by {@{the [zeta series transformation](generating%20function%20transformation.md#derivative%20transformations)}@} and its generalizations defined as a derivative-based [transformation of generating functions](generating%20function%20transformation.md), or alternately termwise by and performing an [integral transformation](generating%20function%20transformation.md#polylogarithm%20series%20transformations) on the sequence generating function. Related operations of performing [fractional integration](fractional%20calculus.md) on a sequence generating function are discussed [here](generating%20function%20transformation.md#fractional%20integrals%20and%20derivatives). <!--SR:!2025-08-21,200,270!2025-09-23,266,330!2025-09-21,264,330-->
+
+<!-- markdownlint-restore -->
 
 #### enumerating arithmetic progressions of sequences
 
@@ -456,7 +461,12 @@ provided that {@{these integrals converge for appropriate values of _z_}@}. <!--
 
 ## tables of special generating functions
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 An initial listing of special mathematical series is found [here](list%20of%20mathematical%20series.md). A number of useful and special sequence generating functions are found in Section 5.4 and 7.4 of _Concrete Mathematics_ and in Section 2.5 of Wilf's _Generatingfunctionology_. Other special generating functions of note include the entries in the next table, which is by no means complete.<sup>[\[29\]](#^ref-29)</sup>
+
+<!-- markdownlint-restore -->
 
 | __Formal power series__                                                                           | __Generating-function formula__                                                                                   | __Notes__                                                                                                                                                                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

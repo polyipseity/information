@@ -109,7 +109,12 @@ The inclusion–exclusion principle is widely used and only a few of its applica
 
 - see: [derangement](derangement.md)
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 A well-known application of the inclusion–exclusion principle is to {@{the combinatorial problem of counting all [derangements](derangement.md) of a finite set}@}. A _derangement_ of a set _A_ is {@{a [bijection](bijection.md) from _A_ into itself that has no fixed points}@}. Via the inclusion–exclusion principle one can show that if {@{the cardinality of _A_ is _n_}@}, then {@{the number of derangements is [_n_! / _e_] where [_x_] denotes the [nearest integer](rounding.md#rounding%20to%20the%20nearest%20integer) to _x_}@}; a detailed proof is available [here](random%20permutation%20statistics.md#number%20of%20permutations%20that%20are%20derangements) and also see [the examples section](#examples) above. <!--SR:!2025-12-26,345,351!2025-12-28,346,351!2025-12-14,333,340!2025-07-18,211,310-->
+
+<!-- markdownlint-restore -->
 
 The first occurrence of the problem of counting the number of derangements is in an early book on games of chance: _Essai d'analyse sur les jeux de hazard_ by P. R. de Montmort (1678 – 1719) and was known as either "Montmort's problem" or by the name he gave it, "_problème des rencontres_."<sup>[\[10\]](#^ref-10)</sup> The problem is also known as the _hatcheck problem._
 

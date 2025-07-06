@@ -138,7 +138,12 @@ Additionally, if {@{we define the [_second-order_ Eulerian numbers](eulerian%20n
 
 Particular expansions of the previous identity lead to the following identities expanding the Stirling numbers of the first kind for the first few small values of $n:=1,2,3$: $${\begin{aligned}\left[{\begin{matrix}x\\x-1\end{matrix} }\right]&={\binom {x}{2} }\\\left[{\begin{matrix}x\\x-2\end{matrix} }\right]&={\binom {x}{4} }+2{\binom {x+1}{4} }\\\left[{\begin{matrix}x\\x-3\end{matrix} }\right]&={\binom {x}{6} }+8{\binom {x+1}{6} }+6{\binom {x+2}{6} }.\end{aligned} }$$
 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD059 -->
+
 Software tools for {@{working with finite sums involving [Stirling numbers](Stirling%20number.md) and [Eulerian numbers](eulerian%20number.md)}@} are {@{provided by the [RISC Stirling.m package](http://www.risc.jku.at/research/combinat/software/ergosum/RISC/Stirling.html) utilities in _Mathematica_}@}. Other software packages for {@{_guessing_ formulas for sequences (and polynomial sequence sums) involving Stirling numbers and other special triangles}@} is {@{available for both [Mathematica](Wolfram%20Mathematica.md) and [Sage](SageMath.md) [here](https://github.com/maxieds/GuessPolynomialSequences) and [here](https://github.com/maxieds/sage-guess), respectively}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-01-20,353,349!2025-09-19,250,329!2027-03-19,656,331!2025-12-17,327,351-->
+
+<!-- markdownlint-restore -->
 
 ### congruences
 
