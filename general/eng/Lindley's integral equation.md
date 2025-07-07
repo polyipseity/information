@@ -1,0 +1,1 @@
+Lindley equation.md
