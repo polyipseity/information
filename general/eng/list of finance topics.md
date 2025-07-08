@@ -1,0 +1,1 @@
+outline of finance.md
