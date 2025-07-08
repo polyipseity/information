@@ -19,7 +19,7 @@ from re import DOTALL, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
 from typing import Callable, Mapping, MutableSet
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from yarl import URL
 
 
@@ -101,7 +101,15 @@ _names_map = {
     if (filename := entry.name).endswith(".md")
     for key, val in (
         (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
+        (
+            f"{filename[:1].upper()}{filename[1:-3]}".replace("'", "’"),
+            filename[:-3].replace("'", "’"),
+        ),
         (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
+        (
+            f"{filename[:1].lower()}{filename[1:-3]}".replace("'", "’"),
+            filename[:-3].replace("'", "’"),
+        ),
     )
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
@@ -421,7 +429,7 @@ async def wiki_html_to_plaintext(
                     for regex, formats in _ARCHIVE_REGEXES.items():
                         if not (match := regex.search(src_url.human_repr())):
                             continue
-                        to_archive = match[1]
+                        to_archive = unquote(match[1])
                         out_to_archive.add(formats[0].format(to_archive))
                         src_url_str = quote(
                             formats[1].format(to_archive.replace("_", " "))
@@ -451,7 +459,7 @@ async def wiki_html_to_plaintext(
                     for regex, formats in _ARCHIVE_REGEXES.items():
                         if not (match := regex.search(src_url.human_repr())):
                             continue
-                        to_archive = match[1]
+                        to_archive = unquote(match[1])
                         out_to_archive.add(formats[0].format(to_archive))
                         src_url_str = quote(
                             formats[1].format(to_archive.replace("_", " "))
@@ -660,11 +668,11 @@ async def main() -> None:
                     inputs=tuple(out_to_archive),
                     dest=Path("../archives/Wikimedia Commons/"),
                     index=Path("../archives/Wikimedia Commons/index.md"),
+                    ignore_individual_errors=True,
                 )
             )
-        except SystemExit as exc:
-            if exc.code:
-                raise
+        except SystemExit:
+            pass
 
     print(output)
     clip_copy(output)

@@ -70,7 +70,7 @@ To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's r
 - If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
 - If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
 - If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
-- If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product to sum formulas.\) <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
+- If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product-to-sum formulas.\) <!--SR:!2025-07-09,4,309!2025-07-09,4,309-->
 
 ## another version for hyperbolic functions
 
@@ -92,7 +92,7 @@ The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries
 
 Consider {@{$$\int {\frac {dt}{1+\beta \cos t} },$$}@} where {@{$\beta ^{2}<1$}@}. Although {@{the function _f_ is even}@}, {@{the integrand as a whole ω is odd}@}, so {@{it does not fall under rule 1}@}. It also {@{lacks the symmetries described in rules 2 and 3}@}, so we fall back to {@{the last-resort substitution $u=\tan(t/2)$}@}. <!--SR:!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309!2025-07-09,4,309-->
 
-Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\int {\frac {\mathrm {d} t}{1+\beta \cos t} }={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c.$$}@} <!--SR:!2025-07-09,4,309!2025-07-08,3,289!2025-07-10,4,289-->
+Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\begin{aligned} \int {\frac {\mathrm {d} t}{1+\beta \cos t} } & = \int \frac 1 {1 + \beta \frac {1 - u^2} {1 + u^2} } \frac {2 \, \mathrm du} {1 + u^2} \\ & = \int \frac {2 \,\mathrm du} {(1 + \beta) + (1 - \beta) u^2} \\ & = \frac 2 {1 + \beta} \int \frac {\mathrm du} {1 + \left(\sqrt{\frac {1 - \beta} {1 + \beta} } u\right)^2} \\ & = \frac 2 {1 + \beta } \sqrt{\frac {1 + \beta} {1 - \beta} } \int \frac {\mathrm dv} {1 + v^2} \\ & ={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c \,. \end{aligned}$$}@} <!--SR:!2025-07-09,4,309!2025-07-08,3,289!2025-07-10,4,289-->
 
 ## references
 
