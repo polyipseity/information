@@ -51,8 +51,8 @@ The content is in teaching order.
     - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2025-07-20,15,290!2025-07-20,15,290-->
   - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2025-07-20,15,290!2025-07-19,14,290-->
   - information system / architecture ::@:: normal: input → arrange, calculate, classify, process → output <br/> improve: output → feedback → input <p> It interacts with the organization and its environment, e.g. competitors, customers, regulators, stockholders, suppliers, etc. <!--SR:!2025-07-19,14,290!2025-07-21,16,290-->
-  - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc.
-  - information system / users ::@:: Senior management, middle management, and operational management may use it.
+  - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - information system / users ::@:: Senior management, middle management, and operational management may use it. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
   - information system / data vs. information ::@:: The former is raw fact. The latter is the former shaped into something meaningful. An information system takes the former to produce the latter. <!--SR:!2025-07-19,14,290!2025-07-19,14,290-->
   - information system / dimensions ::@:: management, organization, technology <!--SR:!2025-07-19,14,290!2025-07-20,15,290-->
     - information system / dimensions / technology ::@:: computer hardware, computer software, data management, networking and telecommunications, infrastructure, etc. <!--SR:!2025-07-21,16,290!2025-07-19,14,290-->
@@ -68,8 +68,8 @@ The content is in teaching order.
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2025-07-19,14,290!2025-07-21,16,290-->
 - information system
   - information system / academic ::@:: IS is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2025-07-21,16,290!2025-07-19,14,290-->
-    - information system / academic / psychology ::@:: In IS, it studies how decision makers perceive and use formal information.
-  - information system / recent changes ::@:: big data, cloud computing, mobile platform, social networking, etc.
+    - information system / academic / psychology ::@:: In IS, it studies how decision makers perceive and use formal information. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - information system / recent changes ::@:: big data, cloud computing, mobile platform, social networking, etc. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
 - assignment: [quiz 1](questions/quiz%201.md)
 
 ## week 1 lecture 3
@@ -131,7 +131,7 @@ The content is in teaching order.
     - collaboration / time—space matrix / synchronous & remote ::@:: remote interactions, e.g. instant messaging, video conferencing, etc. <!--SR:!2025-07-07,4,288!2025-07-07,4,288-->
     - collaboration / time—space matrix / asynchronous & remote ::@:: coordinated communication, e.g. calendars, emails, version control, virtual worlds, wikis, etc. <!--SR:!2025-07-07,4,288!2025-07-07,4,288-->
 - information system
-  - information system / extranet ::@:: It is a controlled private computer network that allows communication with business partners, vendors and suppliers or an authorized set of customers. It extends _intranet_ to trusted outsiders. <p> So it helps to facilitate information flow between a firm and its customers and suppliers.
+  - information system / extranet ::@:: It is a controlled private computer network that allows communication with business partners, vendors and suppliers or an authorized set of customers. It extends _intranet_ to trusted outsiders. <p> So it helps to facilitate information flow between a firm and its customers and suppliers. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
   - information system / business unit ::@:: It can be a formal organizational unit for IT services, often headed by the chief information officer \(CIO\). It employs information systems managers, programmers, system analysts, etc. The users who use the services are called _end users_. <!--SR:!2025-07-07,4,288!2025-07-07,4,288-->
 - [management](../../../../general/management.md) ::@:: It is the administration of organizations, whether businesses, nonprofit organizations, or a government bodies through business administration, nonprofit management, or the political science sub-field of public administration respectively. <!--SR:!2025-07-07,4,288!2025-07-07,4,288-->
   - management / layers ::@:: \(top level\) strategic planning &gt; managerial planning & control &gt; operation control \(bottom level\) <!--SR:!2025-07-07,4,288!2025-07-07,4,288-->
@@ -142,26 +142,26 @@ The content is in teaching order.
 - datetime: 2025-07-03T09:00:00+09:00/2025-07-03T10:40:00+09:00, PT1H40M
   - local: 2025-07-03T08:00:00+08:00/2025-07-03T09:40:00+08:00, PT1H40M
 - topic: information systems, organizations, strategy
-- [organization](../../../../general/organization.md) ::@:: It is an entity—such as a company, or corporation or an institution (formal organization), or an association—comprising one or more people and having a particular purpose.
-  - organiZation / information technology ::@:: Organization and IT influences each other. Mediating factors include business processes, culture, environment, management, politics, structure, etc.
-  - organiZation / technical definition ::@:: A _formal social_ structure that accepts _inputs_ from the _environment_ and _outputs_ back to the environment via _production processes_.
-  - organiZation / behavioral definition ::@:: A collection of rights and obligations, and privileges and responsibilities that are balanced _over time_ through _conflict resolution_.
-    - organization / behavior definition / conflict ::@:: They are divergent viewpoints about how resources, rewards, and punishments should be distributed, and the struggles resulting from them.
-  - organiZation / structures ::@:: business processes, culture, division of labor, hierarchy, processes, rules
-  - organiZation / processes ::@:: norms, people, privileges and responsibilities, rights and obligations, values
-  - organiZation / features ::@:: accountability and authority, efficiency, hierarchy, routines \(i.e. standard operating procedures\), social aspects \(e.g. culture, environment, politics, etc.\)
-  - organiZation / environment ::@:: Organizations and \(physical and social\) environments are open to and depend on each other. <p> Environments generally change faster than organizations. IS can help hasten environment scanning \(obtaining information from the environment\).
-  - organiZation / types ::@:: according to Mintzberg: adhocracy, divisionalized, entrepreneurial, machine, professional
-    - organiZation / types / entrepreneurial ::@:: A young, small firm managed by an entrepreneur for adapting to fast-changing environments <p> examples: small startups
-    - organiZation / types / machine ::@:: Large bureaucracy working in slow-changing environments. Decision making and management is centralized. <p> examples: midsize manufacturing firms
-    - organiZation / types / divisionalized ::@:: A combination of machine bureaucracies. All managed by a central headquarters. <p> examples: Fortune 500 firms, large firms
-    - organiZation / types / professional ::@:: Knowledge-based organizations that value expertise and knowledge of professionals. Decision making and management is delegated to departments. <p> examples: hospitals, law firms, schools
-    - organiZation / types / adhocracy ::@:: Firms consisting of _ad hoc_ task forces for adapting to fast-changing environments. A task force is short-lived, and consists of specialists across disciplines. Decision making and management is decentralized. <p> examples: consulting firms
-  - organization / information system ::@:: IT can facilitate faster communication of information, reducing _agency costs_. It can also facilitate cheaper communication, reducing _transaction costs_. <p> As a result, IT can help _flatten_ organizations \(less hierarchical levels\), producing _postindustrial organizations_.
-  - organization / agency theory ::@:: People in an organization are self-interested. As people \(agents\) in an organization often work on behalf of others \(principals\) bound by contracts, self-interests may misalign agents and principals, incurring _agency costs_. This is especially high when information or self-interests between agents and principals misalign.
-  - organization / transaction cost theory ::@:: Many transactions occur in an organization. Each transaction may incur a _transaction cost_.
-- [factors of production](../../../../general/factors%20of%20production.md) ::@:: They are what is used in the production process to produce output—that is, goods and services.
-  - factors of production / factors ::@:: Land, labor, and capital are traditional factors. Entrepreneurship is a commonly added fourth factor. Knowledge \(e.g. information technology\) is a fifth factor proposed by Peter Drucker.
+- [organization](../../../../general/organization.md) ::@:: It is an entity—such as a company, or corporation or an institution (formal organization), or an association—comprising one or more people and having a particular purpose. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / information technology ::@:: Organization and IT influences each other. Mediating factors include business processes, culture, environment, management, politics, structure, etc. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / technical definition ::@:: A _formal social_ structure that accepts _inputs_ from the _environment_ and _outputs_ back to the environment via _production processes_. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / behavioral definition ::@:: A collection of rights and obligations, and privileges and responsibilities that are balanced _over time_ through _conflict resolution_. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - organization / behavior definition / conflict ::@:: They are divergent viewpoints about how resources, rewards, and punishments should be distributed, and the struggles resulting from them. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / structures ::@:: business processes, culture, division of labor, hierarchy, processes, rules <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / processes ::@:: norms, people, privileges and responsibilities, rights and obligations, values <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / features ::@:: accountability and authority, efficiency, hierarchy, routines \(i.e. standard operating procedures\), social aspects \(e.g. culture, environment, politics, etc.\) <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / environment ::@:: Organizations and \(physical and social\) environments are open to and depend on each other. <p> Environments generally change faster than organizations. IS can help hasten environment scanning \(obtaining information from the environment\). <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organiZation / types ::@:: according to Mintzberg: adhocracy, divisionalized, entrepreneurial, machine, professional <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - organiZation / types / entrepreneurial ::@:: A young, small firm managed by an entrepreneur for adapting to fast-changing environments <p> examples: small startups <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - organiZation / types / machine ::@:: Large bureaucracy working in slow-changing environments. Decision making and management is centralized. <p> examples: midsize manufacturing firms <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - organiZation / types / divisionalized ::@:: A combination of machine bureaucracies. All managed by a central headquarters. <p> examples: Fortune 500 firms, large firms <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - organiZation / types / professional ::@:: Knowledge-based organizations that value expertise and knowledge of professionals. Decision making and management is delegated to departments. <p> examples: hospitals, law firms, schools <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - organiZation / types / adhocracy ::@:: Firms consisting of _ad hoc_ task forces for adapting to fast-changing environments. A task force is short-lived, and consists of specialists across disciplines. Decision making and management is decentralized. <p> examples: consulting firms <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organization / information system ::@:: IT can facilitate faster communication of information, reducing _agency costs_. It can also facilitate cheaper communication, reducing _transaction costs_. <p> As a result, IT can help _flatten_ organizations \(less hierarchical levels\), producing _postindustrial organizations_. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organization / agency theory ::@:: People in an organization are self-interested. As people \(agents\) in an organization often work on behalf of others \(principals\) bound by contracts, self-interests may misalign agents and principals, incurring _agency costs_. This is especially high when information or self-interests between agents and principals misalign. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - organization / transaction cost theory ::@:: Many transactions occur in an organization. Each transaction may incur a _transaction cost_. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+- [factors of production](../../../../general/factors%20of%20production.md) ::@:: They are what is used in the production process to produce output—that is, goods and services. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - factors of production / factors ::@:: Land, labor, and capital are traditional factors. Entrepreneurship is a commonly added fourth factor. Knowledge \(e.g. information technology\) is a fifth factor proposed by Peter Drucker. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
 
 ## week 2 lecture 1
 
@@ -169,27 +169,27 @@ The content is in teaching order.
   - local: 2025-07-07T08:00:00+08:00/2025-07-03T09:40:00+08:00, PT1H40M
 - topic: information systems, organizations, strategy
 - organization
-  - organization / resistance ::@:: Organizations often change slower than environments as they are _resistant_ to changes. It often causes failure of large projects. <p> The 4 factors determining resistance are information technology \(could change an organization\), organizational structure, task nature, and people.
-- [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md) ::@:: industry profitability analysis
-  - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors
-  - Porter's five forces analysis / internet ::@:: The internet changes these 5 forces significantly.
-    - Porter's five forces analysis / internet / substitutes ::@:: New forms of substitutes may be enabled by the internet.
-    - Porter's five forces analysis / internet / buyers ::@:: Pricing and production information on the internet adds bargaining power of customers.
-    - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet.
-    - Porter's five forces analysis / internet / entrants ::@:: Internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier.
-    - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors.
-- [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates.
-  - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching
-  - strategic management / low cost ::@:: IT can help product products and services at a lower cost than competitors while maintaining acceptable quality. <p> examples: Walmart
-  - strategic management / differentiation ::@:: IT can enable new features to differentiate products. <p> examples: Apple, Google, eBay
-  - strategic management / niching ::@:: IT can help implement a focused and specialized strategy on a single market niche. <p> example: Hilton Hotels & Resorts, Harrah's
-  - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers. <p> examples: Amazon
-- [value chain](../../../../general/value%20chain.md) ::@:: It is a progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer.
-  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service.
-  - value chain / support activities ::@:: They help make primary activities more effectively and efficiently. The 4 activities are: human resources, infrastructure, procurement, and technology.
+  - organization / resistance ::@:: Organizations often change slower than environments as they are _resistant_ to changes. It often causes failure of large projects. <p> The 4 factors determining resistance are information technology \(could change an organization\), organizational structure, task nature, and people. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+- [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md) ::@:: industry profitability analysis <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - Porter's five forces analysis / internet ::@:: The internet changes these 5 forces significantly. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - Porter's five forces analysis / internet / substitutes ::@:: New forms of substitutes may be enabled by the internet. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - Porter's five forces analysis / internet / buyers ::@:: Pricing and production information on the internet adds bargaining power of customers. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - Porter's five forces analysis / internet / entrants ::@:: Internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+- [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - strategic management / low cost ::@:: IT can help product products and services at a lower cost than competitors while maintaining acceptable quality. <p> examples: Walmart <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - strategic management / differentiation ::@:: IT can enable new features to differentiate products. <p> examples: Apple, Google, eBay <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - strategic management / niching ::@:: IT can help implement a focused and specialized strategy on a single market niche. <p> example: Hilton Hotels & Resorts, Harrah's <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers. <p> examples: Amazon <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+- [value chain](../../../../general/value%20chain.md) ::@:: It is a progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+  - value chain / support activities ::@:: They help make primary activities more effectively and efficiently. The 4 activities are: human resources, infrastructure, procurement, and technology. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
 - strategic management
-  - strategic management / information system ::@:: It helps promote overall performance of business units by promoting core competencies, _network-based_ strategies, and synergies.
-    - strategic management / information system / competitiveness ::@:: It can help create competitive advantages over competitors. However, competitors can adapt similar systems. In the end, it is needed for survival, because if you do not use it, you lose to everyone else.
-    - strategic management / information system / alignment ::@:: It can help analyze systems strategically. This is a business objective.
-    - strategic management / information system / transition ::@:: Adopting it requires changing business processes, business objectives, and relations wit customers and suppliers. This is no easy task, so this transition needs to be managed well.
+  - strategic management / information system ::@:: It helps promote overall performance of business units by promoting core competencies, _network-based_ strategies, and synergies. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - strategic management / information system / competitiveness ::@:: It can help create competitive advantages over competitors. However, competitors can adapt similar systems. In the end, it is needed for survival, because if you do not use it, you lose to everyone else. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - strategic management / information system / alignment ::@:: It can help analyze systems strategically. This is a business objective. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
+    - strategic management / information system / transition ::@:: Adopting it requires changing business processes, business objectives, and relations wit customers and suppliers. This is no easy task, so this transition needs to be managed well. <!--SR:!2025-07-10,4,309!2025-07-10,4,309-->
 - assignment: [quiz 3](questions/quiz%203.md)
