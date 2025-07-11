@@ -143,20 +143,20 @@ The content is in teaching order.
   - local: 2025-07-03T08:00:00+08:00/2025-07-03T09:40:00+08:00, PT1H40M
 - topic: information systems, organizations, strategy
 - [organization](../../../../general/organization.md) ::@:: It is an entity—such as a company, or corporation or an institution (formal organization), or an association—comprising one or more people and having a particular purpose.
-  - organiZation / information technology ::@:: Organization and IT influences each other. Mediating factors include business processes, culture, environment, management, politics, structure, etc.
-  - organiZation / technical definition ::@:: A _formal social_ structure that accepts _inputs_ from the _environment_ and _outputs_ back to the environment via _production processes_.
-  - organiZation / behavioral definition ::@:: A collection of rights and obligations, and privileges and responsibilities that are balanced _over time_ through _conflict resolution_.
+  - organization / information technology ::@:: Organization and IT influences each other. Mediating factors include business processes, culture, environment, management, politics, structure, etc.
+  - organization / technical definition ::@:: A _formal social_ structure that accepts _inputs_ from the _environment_ and _outputs_ back to the environment via _production processes_.
+  - organization / behavioral definition ::@:: A collection of rights and obligations, and privileges and responsibilities that are balanced _over time_ through _conflict resolution_.
     - organization / behavior definition / conflict ::@:: They are divergent viewpoints about how resources, rewards, and punishments should be distributed, and the struggles resulting from them.
-  - organiZation / structures ::@:: business processes, culture, division of labor, hierarchy, processes, rules
-  - organiZation / processes ::@:: norms, people, privileges and responsibilities, rights and obligations, values
-  - organiZation / features ::@:: accountability and authority, efficiency, hierarchy, routines \(i.e. standard operating procedures\), social aspects \(e.g. culture, environment, politics, etc.\)
-  - organiZation / environment ::@:: Organizations and \(physical and social\) environments are open to and depend on each other. <p> Environments generally change faster than organizations. IS can help hasten environment scanning \(obtaining information from the environment\).
-  - organiZation / types ::@:: according to Mintzberg: adhocracy, divisionalized, entrepreneurial, machine, professional
-    - organiZation / types / entrepreneurial ::@:: A young, small firm managed by an entrepreneur for adapting to fast-changing environments <p> examples: small startups
-    - organiZation / types / machine ::@:: Large bureaucracy working in slow-changing environments. Decision making and management is centralized. <p> examples: midsize manufacturing firms
-    - organiZation / types / divisionalized ::@:: A combination of machine bureaucracies. All managed by a central headquarters. <p> examples: Fortune 500 firms, large firms
-    - organiZation / types / professional ::@:: Knowledge-based organizations that value expertise and knowledge of professionals. Decision making and management is delegated to departments. <p> examples: hospitals, law firms, schools
-    - organiZation / types / adhocracy ::@:: Firms consisting of _ad hoc_ task forces for adapting to fast-changing environments. A task force is short-lived, and consists of specialists across disciplines. Decision making and management is decentralized. <p> examples: consulting firms
+  - organization / structures ::@:: business processes, culture, division of labor, hierarchy, processes, rules
+  - organization / processes ::@:: norms, people, privileges and responsibilities, rights and obligations, values
+  - organization / features ::@:: accountability and authority, efficiency, hierarchy, routines \(i.e. standard operating procedures\), social aspects \(e.g. culture, environment, politics, etc.\)
+  - organization / environment ::@:: Organizations and \(physical and social\) environments are open to and depend on each other. <p> Environments generally change faster than organizations. IS can help hasten environment scanning \(obtaining information from the environment\).
+  - organization / types ::@:: according to Mintzberg: adhocracy, divisionalized, entrepreneurial, machine, professional
+    - organization / types / entrepreneurial ::@:: A young, small firm managed by an entrepreneur for adapting to fast-changing environments <p> examples: small startups
+    - organization / types / machine ::@:: Large bureaucracy working in slow-changing environments. Decision making and management is centralized. <p> examples: midsize manufacturing firms
+    - organization / types / divisionalized ::@:: A combination of machine bureaucracies. All managed by a central headquarters. <p> examples: Fortune 500 firms, large firms
+    - organization / types / professional ::@:: Knowledge-based organizations that value expertise and knowledge of professionals. Decision making and management is delegated to departments. <p> examples: hospitals, law firms, schools
+    - organization / types / adhocracy ::@:: Firms consisting of _ad hoc_ task forces for adapting to fast-changing environments. A task force is short-lived, and consists of specialists across disciplines. Decision making and management is decentralized. <p> examples: consulting firms
   - organization / information system ::@:: IT can facilitate faster communication of information, reducing _agency costs_. It can also facilitate cheaper communication, reducing _transaction costs_. <p> As a result, IT can help _flatten_ organizations \(less hierarchical levels\), producing _postindustrial organizations_.
   - organization / agency theory ::@:: People in an organization are self-interested. As people \(agents\) in an organization often work on behalf of others \(principals\) bound by contracts, self-interests may misalign agents and principals, incurring _agency costs_. This is especially high when information or self-interests between agents and principals misalign.
   - organization / transaction cost theory ::@:: Many transactions occur in an organization. Each transaction may incur a _transaction cost_.

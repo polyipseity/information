@@ -22,6 +22,8 @@ Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [ir
 
 First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. The {@{iron(II) ions may be further oxidized by air to iron(III) ions}@}:
 
+> {@{__ion formation by redox__}@}
+>
 > 1. {@{2Fe(s) + O<sub>2</sub>(g) + 2H<sub>2</sub>O(l)}@} → {@{2Fe<sup>2+</sup>(aq) + 4OH<sup>-</sup>(aq)}@}
 >     - {@{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup>}@} → {@{4OH<sup>-</sup>(aq)}@}
 >     - {@{Fe(s)}@} → {@{Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}@}
@@ -29,11 +31,15 @@ First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides
 
 After forming iron ions, {@{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}@}:
 
+> {@{__acid–base reactions__}@}
+>
 > - {@{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l)}@} ⇌ {@{Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}@}
 > - {@{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l)}@} ⇌ {@{Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}@}
 
 After forming iron hydroxides, {@{[dehydration](dehydration%20reaction.md) occurs in equilibra}@}:
 
+> {@{__dehydration__}@}
+>
 > - {@{Fe(OH)<sub>2</sub>(s)}@} ⇌ {@{FeO(s) + H<sub>2</sub>O(l)}@}
 > - {@{Fe(OH)<sub>3</sub>(s)}@} ⇌ {@{FeO(OH)(s) + H<sub>2</sub>O(l)}@}
 > - {@{2FeO(OH)(s)}@} ⇌ {@{Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}@}
