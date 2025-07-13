@@ -87,7 +87,7 @@ An alternative to {@{the estimation of the required return by the capital asset 
 
 ### expected return
 
-{@{The expected return \(or required rate of return for investors\)}@} can be calculated with {@{the "[dividend capitalization](dividend%20discount%20model.md) model"}@}, which is {@{$$K_{cs}={\frac { {\text{Dividend} }_{\text{Payment/Share} }(1+{\text{Growth} })}{ {\text{Price} }_{\text{Market} } } }+{\text{Growth} }_{\text{rate} } \,.$$}@} <!--SR:!2025-07-28,16,290!2025-07-29,17,310!2025-07-27,15,290-->
+{@{The expected return \(or required rate of return for investors\)}@} can be calculated with {@{the "[dividend capitalization](dividend%20discount%20model.md) model"}@}, which is {@{$$K_{cs}={\frac { {\text{Dividend} }_{\text{Payment/Share} }(1+{\text{Growth}_{\text{rate} } })}{ {\text{Price} }_{\text{Market} } } }+{\text{Growth} }_{\text{rate} } \,.$$}@} <!--SR:!2025-07-28,16,290!2025-07-29,17,310!2025-07-27,15,290--> \(annotation: Note {@{the dividend in the above equation is this year's dividend}@}. However, we need to {@{use the next year's dividend in the numerator}@}, so {@{the equation multiplies this year's dividend by one plus growth rate}@}.\)
 
 ### comments
 
