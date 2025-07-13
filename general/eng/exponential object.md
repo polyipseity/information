@@ -13,7 +13,7 @@ tags:
 
 # exponential object
 
-In {@{[mathematics](mathematics.md), specifically in [category theory](category%20theory.md)}@}, {@{an __exponential object__ or __map object__}@} is {@{the [categorical](category%20theory.md) generalization of a [function space](function%20space.md) in [set theory](set%20theory.md)}@}. {@{[Categories](category%20(mathematics).md) with all [finite products](product%20(category%20theory).md) and exponential objects}@} are called {@{[cartesian closed categories](Cartesian%20closed%20category.md)}@}. {@{Categories \(such as [subcategories](subcategory.md) of __[Top](category%20of%20topological%20spaces.md)__\) without adjoined products}@} {@{may still have an __exponential law__}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-18,272,330!2026-01-31,282,330!2025-07-11,118,290!2025-07-22,125,290!2025-10-18,194,310!2025-07-10,117,290!2026-01-23,276,330-->
+In {@{[mathematics](mathematics.md), specifically in [category theory](category%20theory.md)}@}, {@{an __exponential object__ or __map object__}@} is {@{the [categorical](category%20theory.md) generalization of a [function space](function%20space.md) in [set theory](set%20theory.md)}@}. {@{[Categories](category%20(mathematics).md) with all [finite products](product%20(category%20theory).md) and exponential objects}@} are called {@{[cartesian closed categories](Cartesian%20closed%20category.md)}@}. {@{Categories \(such as [subcategories](subcategory.md) of __[Top](category%20of%20topological%20spaces.md)__\) without adjoined products}@} {@{may still have an __exponential law__}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-01-18,272,330!2026-01-31,282,330!2026-11-02,479,310!2025-07-22,125,290!2025-10-18,194,310!2026-06-17,341,290!2026-01-23,276,330-->
 
 ## definition
 
@@ -31,7 +31,7 @@ Alternatively, the exponential object may be {@{defined through equations}@}: <!
 
 ### universal property
 
-{@{The exponential $Z^{Y}$}@} is given by {@{a [universal morphism](universal%20morphism.md) from the product functor $-\times Y$ to the object $Z$}@}. This universal morphism consists of {@{an object $Z^{Y}$ and a morphism $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@}. <!--SR:!2026-01-30,281,330!2025-07-13,113,290!2025-12-31,258,330-->
+{@{The exponential $Z^{Y}$}@} is given by {@{a [universal morphism](universal%20morphism.md) from the product functor $-\times Y$ to the object $Z$}@}. This universal morphism consists of {@{an object $Z^{Y}$ and a morphism $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@}. <!--SR:!2026-01-30,281,330!2026-06-11,333,290!2025-12-31,258,330-->
 
 ## examples
 

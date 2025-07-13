@@ -17,7 +17,7 @@ tags:
 
 # CNO cycle
 
-The __CNO cycle__ (for {@{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}@}; sometimes called {@{__Bethe–Weizsäcker cycle__}@} after {@{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}@}) is {@{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}@}, the other being {@{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}@}. The CNO cycle is {@{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}@}. <!--SR:!2028-02-20,1006,350!2027-01-15,683,330!2025-07-12,203,250!2027-03-29,738,330!2027-02-07,699,330!2026-03-18,391,290-->
+The __CNO cycle__ (for {@{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}@}; sometimes called {@{__Bethe–Weizsäcker cycle__}@} after {@{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}@}) is {@{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}@}, the other being {@{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}@}. The CNO cycle is {@{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}@}. <!--SR:!2028-02-20,1006,350!2027-01-15,683,330!2027-06-24,712,270!2027-03-29,738,330!2027-02-07,699,330!2026-03-18,391,290-->
 
 ## cold CNO cycles
 
@@ -33,7 +33,7 @@ This cycle is now understood as {@{being the first part of a larger process, the
   - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2026-05-19,424,270!2027-06-06,769,310-->
 - 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2025-07-30,165,190!2027-01-19,621,310-->
   - 2nd step / energy release (& half-life if available) ::@:: 1.20 Mev, 9.965 minutes <!--SR:!2025-12-18,171,170!2025-12-03,324,290-->
-- 3rd step ::@:: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2027-06-12,739,290!2025-07-07,90,290-->
+- 3rd step ::@:: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2027-06-12,739,290!2026-03-28,260,290-->
   - 3rd step / energy release (& half-life if available) ::@:: 7.54 MeV <!--SR:!2025-07-29,234,270!2025-09-21,162,250-->
 - 4th step ::@:: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2026-05-29,340,210!2026-03-06,307,270-->
   - 4th step / energy release (& half-life if available) ::@:: 7.35 MeV <!--SR:!2025-10-01,257,250!2026-10-05,462,270-->

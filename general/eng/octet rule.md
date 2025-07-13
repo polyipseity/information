@@ -42,7 +42,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {@{__duplet rule__}@} | {@{2 electrons in valence shell}@} <a id="^duplet-rule"></a>^duplet-rule |
-> | {@{__[18-electron rule](18-electron%20rule.md)__}@} | {@{18 electrons in valence shell}@} | <!--SR:!2025-08-30,617,330!2032-07-01,2566,350!2025-07-11,577,330!2025-08-24,612,330-->
+> | {@{__[18-electron rule](18-electron%20rule.md)__}@} | {@{18 electrons in valence shell}@} | <!--SR:!2025-08-30,617,330!2032-07-01,2566,350!2032-09-16,2623,350!2025-08-24,612,330-->
 
 <!--/pytextgen-->
 

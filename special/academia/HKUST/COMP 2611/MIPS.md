@@ -52,7 +52,7 @@ In MIPS, to address a memory location, we need {@{a base address and an offset}@
 
 When {@{addressing multiple bytes}@}, it is important to {@{take note of _endianness_: _big endian_ and _little endian_}@}. {@{A _big-endian_ system}@} stores {@{the most significant byte of a word at the smallest memory address and the least significant byte \(word _end_\) at the largest}@}. {@{A _little-endian_ system}@} stores {@{the least-significant byte \(word _end_\) at the smallest address}@}. It also describes {@{the order of byte transmission over a digital link}@}. Using a familiar example, when {@{you write numbers, you start with the most significant digit and end with the least significant digit from left to right}@}. This is {@{analogous to _big endian_}@}. <!--SR:!2026-03-13,281,330!2026-02-28,269,330!2026-04-14,294,330!2025-11-24,189,310!2026-03-01,270,330!2026-02-28,269,330!2026-03-07,276,330!2025-07-29,88,381!2025-08-02,92,381-->
 
-For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2025-07-07,83,363!2026-08-19,408,383-->
+For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2026-08-30,413,383!2026-08-19,408,383-->
 
 Note that it does not make sense to {@{talk about the endianness of a register, as they have no memory addresses}@}. When transferring multiple bytes from and to the main memory, big-endian systems {@{stores them in the main memory in big-endian, transfers them to registers by interpreting them in big-endian, and receives them from registers by writing them in big-endian}@}, and {@{vice versa for little-endian}@}. In both cases, {@{the data transfer instructions are agnostic of the endianness, i.e. does not need to care about the endianness}@}. <!--SR:!2026-06-21,362,355!2026-06-18,359,355!2026-05-22,332,355!2026-05-10,321,355-->
 
@@ -133,7 +133,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
   - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>. <!--SR:!2025-08-13,98,381!2025-08-09,94,381-->
 - shift left logical variable ::@:: `sllv $d, $t, $s`: `$d = $t << $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-06-12,353,355!2026-02-14,235,335-->
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2026-04-15,295,350!2026-04-15,295,350-->
-  - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-07-12,54,361!2025-08-03,93,381-->
+  - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2026-04-11,272,381!2025-08-03,93,381-->
 - shift right arithmetic variable ::@:: `srav $d, $t, $s`: `$d = $t >> $s;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-08-10,404,372!2025-10-01,147,332-->
 - shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0 <!--SR:!2026-06-02,343,350!2026-06-03,344,350-->
   - shift right logical / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2025-08-07,97,381!2025-08-04,89,381-->
@@ -180,19 +180,19 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2025-07-19,25,384-->
 
-- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-07-18,24,384!2025-07-09,15,364-->
+- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-07-18,24,384!2025-09-25,74,384-->
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
-- branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-07-08,15,364!2025-07-19,25,384-->
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-09-29,78,384!2025-07-19,25,384-->
 - compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-07-18,24,384!2025-07-17,24,384-->
 - compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
-- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-07-11,17,364!2025-07-18,24,384-->
+- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-10-05,84,384!2025-07-18,24,384-->
 - compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-07-18,24,384!2025-07-17,24,384-->
 - compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-07-19,25,384!2025-07-17,24,384-->
 - compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-07-18,24,384!2025-07-19,25,384-->
@@ -201,12 +201,12 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
 - divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 - load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
-- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2025-07-18,24,384!2025-07-09,15,364-->
+- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2025-07-18,24,384!2025-09-28,77,384-->
 - multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-07-18,24,384!2025-07-19,25,384-->
 - multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-07-18,24,384!2025-07-19,25,384-->
 - negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-07-18,24,384!2025-07-19,25,384-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
-- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-07-18,24,384!2025-07-09,15,364-->
+- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-07-18,24,384!2025-09-05,54,364-->
 - store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-07-19,25,384!2025-07-19,25,384-->
 - subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-07-20,26,384!2025-07-18,24,384-->
 - subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
@@ -340,7 +340,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;` <!--SR:!2025-07-28,26,396!2025-07-29,27,396-->
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2025-08-01,91,381!2025-07-28,87,381-->
 - branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2025-07-19,73,361!2025-08-09,94,381-->
-- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2025-07-09,68,361!2025-07-29,88,381-->
+- branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2026-06-18,340,381!2025-07-29,88,381-->
 - branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-12-23,201,361-->
 - branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2025-07-29,27,396!2025-07-28,26,396-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2026-05-08,318,355!2025-12-16,198,330-->
@@ -355,7 +355,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;` <!--SR:!2025-08-11,96,381!2025-08-12,102,381-->
 - set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;` <!--SR:!2025-08-15,100,381!2025-07-19,73,361-->
 
-Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-07-18,92,363!2025-07-14,88,363!2025-07-19,93,363!2026-04-30,310,363!2025-07-13,87,363!2025-07-19,93,363-->
+Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2025-07-18,92,363!2025-07-14,88,363!2025-07-19,93,363!2026-04-30,310,363!2026-09-24,438,383!2025-07-19,93,363-->
 
 \(__this course__: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2026-06-19,360,355-->
 
@@ -373,7 +373,7 @@ If you follow the above steps, {@{nested procedures \(calling procedures inside 
 
 A typical MIPS program memory is {@{addressed by 32-bit unsigned integers}@}. Thus, there are {@{2<sup>32</sup> memory byte locations, or 2<sup>30</sup> memory _word_ locations}@}. <!--SR:!2025-08-06,96,381!2025-08-07,92,381-->
 
-It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{_usually_ starts from 0x0040&nbsp;0000}@}. The static data {@{_usually_ starts from 0x1000&nbsp;0000 \(e.g. MARS uses 0x1001&nbsp;0000\), and is somewhat related to the global pointer `$gp` \(e.g. MARS uses 0x1000&nbsp;8000\)}@}. The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{_usually_ starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(e.g. MARS uses 0x7fff&nbsp;effc\), stored in the stack pointer `$sp`, and _decreases_ as it grow in size}@}. <!--SR:!2025-08-07,92,381!2025-07-30,89,381!2025-07-29,88,381!2025-07-07,49,361!2025-07-30,89,381!2025-08-05,95,381!2026-05-04,313,381-->
+It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved, text, static data, dynamic data, and stack}@}. Tbe text segment {@{_usually_ starts from 0x0040&nbsp;0000}@}. The static data {@{_usually_ starts from 0x1000&nbsp;0000 \(e.g. MARS uses 0x1001&nbsp;0000\), and is somewhat related to the global pointer `$gp` \(e.g. MARS uses 0x1000&nbsp;8000\)}@}. The dynamic data {@{comes after the static data \(no fixed memory address though\)}@}. The stack {@{is different: the previous segments grows in size towards increasing address, but the stack grows in size towards decreasing address}@}. It {@{_usually_ starts from 0x7fff&nbsp;fffc \(0x8000&nbsp;0000 – 0x4\) \(e.g. MARS uses 0x7fff&nbsp;effc\), stored in the stack pointer `$sp`, and _decreases_ as it grow in size}@}. <!--SR:!2025-08-07,92,381!2025-07-30,89,381!2025-07-29,88,381!2026-03-19,249,381!2025-07-30,89,381!2025-08-05,95,381!2026-05-04,313,381-->
 
 The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}. <!--SR:!2025-07-27,86,381!2025-08-01,91,381-->
 
@@ -393,7 +393,7 @@ MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}. <!--SR
 - register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction. <!--SR:!2025-08-15,100,381!2025-08-06,96,381-->
 - base \(+ displacement\) addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the value of the `$s` register. The `$s` is known as the _base_ and the offset is known as the _displacement_. The operand is written as `offset($s)`. <!--SR:!2025-08-14,99,381!2025-08-01,91,381-->
 - PC-relative addressing ::@:: Some I instructions interpret the 16-bit immediate field as an address offset from the program counter \(PC\). These instructions are branch instructions. <p> The address offset is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. The address offset \(multiplied by 4\) is added to nPC \(or `PC+4`\) to find the branch target \(the reason is mentioned above\). This means instructions up to 2<sup>15</sup> words/instructions or 128 kiB away are addressable. <p> Simply put, the branch address is `nPC + offset << 2` or `PC + 4 + offset << 2`. <!--SR:!2025-07-16,75,361!2025-08-16,101,381-->
-- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(nPC & 0xf0000000) | (offset << 2)`. Note the `&` operates on `nPC` instead of `PC`. <!--SR:!2025-08-03,88,381!2025-07-13,72,361-->
+- pseudo-direct addressing ::@:: The J instructions interpret the 26-bit pseudo-address as the jump target. <p> The address pseudo-address is in _words_ \(4 bytes\), not _bytes_, since instructions are aligned to words. So it can address the 28 lower bits of a 32-bit address or 256 MiB of memory, with the 2 lower bits always being 0. The 4 upper bits of a 32-bit address are provided by the 4 upper bits of the program counter \(PC\). This explains why it is called a "pseudo-address". <p> Simply put, the jump address is `(nPC & 0xf0000000) | (offset << 2)`. Note the `&` operates on `nPC` instead of `PC`. <!--SR:!2025-08-03,88,381!2026-07-10,362,381-->
 
 A problem with PC-relative addressing is that {@{the branch target may be too far away}@}. The assembler {@{may rewrite a branch instruction as a branch instruction followed by a jump instruction, so that pseudo-direct addressing can be used}@}. If pseudo-direct addressing is insufficient, {@{storing the 32-bit address into a register and using `jr` suffices}@}. <!--SR:!2025-08-08,98,381!2025-07-27,86,381!2025-08-09,99,381-->
 
@@ -403,7 +403,7 @@ A problem with PC-relative addressing is that {@{the branch target may be too fa
 
 When {@{an interrupt occurs}@}, control {@{jumps to a predefeined address containing instructions to handle the interrupt}@}. {@{The address of the interrupted instruction}@} is {@{saved to an _exception program counter_ \(EPC\)}@}, so that {@{the interrupt handler can _choose_ to resume the interrupted code using `jr` \(jump register\)}@}. <!--SR:!2025-08-07,92,381!2025-07-27,86,381!2025-08-10,100,381!2025-08-02,87,381!2025-08-03,93,381-->
 
-A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}. <!--SR:!2025-07-30,89,381!2025-07-09,68,361-->
+A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}. <!--SR:!2025-07-30,89,381!2026-06-17,339,381-->
 
 ## floating point
 
@@ -415,7 +415,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2025-07-17,24,384!2025-07-18,24,384-->
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2025-07-17,24,384!2025-07-18,24,384-->
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-07-19,25,384!2025-07-09,15,364-->
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-07-19,25,384!2025-09-26,75,384-->
 - immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-07-19,25,384!2025-07-18,24,384-->
 - signedness ::@:: All operations are always signed. <!--SR:!2025-07-18,24,384!2025-07-18,24,384-->
 

@@ -70,7 +70,7 @@ The content is in teaching order.
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2025-07-16,228,330!2025-10-21,300,330-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->
-  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2025-08-14,250,330!2025-07-07,221,330-->
+  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2025-08-14,250,330!2028-04-08,1000,350-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2027-02-08,661,330!2027-10-30,852,330-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2025-08-17,252,330!2025-08-21,257,330-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2027-01-03,633,330-->
@@ -99,7 +99,7 @@ The content is in teaching order.
 - stress ::@:: mental or emotional strain or tension <!--SR:!2027-01-21,647,330!2027-07-25,781,330-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2026-03-19,395,310!2027-04-22,715,330-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2027-09-07,825,330!2027-07-29,788,330-->
-- SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2025-08-01,241,330-->
+- SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2028-04-30,1022,350!2025-08-01,241,330-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2025-08-27,263,330-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2027-04-24,717,330!2025-10-22,301,330-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2025-09-12,273,330!2027-03-23,692,330-->
@@ -130,11 +130,11 @@ The content is in teaching order.
   - dining etiquette
 - work cultures
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2025-08-26,262,330!2026-04-17,430,310-->
-- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2027-06-18,747,330-->
+- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2028-05-04,1026,350!2027-06-18,747,330-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2025-10-21,300,330-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2025-09-24,284,330-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2026-11-27,544,270!2026-02-15,370,290-->
-  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2025-07-08,222,330!2025-08-20,256,330-->
+  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2028-04-18,1010,350!2025-08-20,256,330-->
 
 ## week 8 tutorial
 

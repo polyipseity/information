@@ -40,9 +40,9 @@ In the United States, {@{the [Financial Accounting Standards Board](Financial%20
 
 ## calculation
 
-{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-11-28,253,330!2025-12-10,262,330!2025-10-23,205,310!2025-07-13,128,290!2025-08-15,163,310!2026-01-19,293,330!2025-08-21,169,310-->
+{@{[Preferred stock](preferred%20stock.md) rights}@} have {@{precedence over common stock}@}. Therefore, {@{dividends on preferred shares are subtracted before calculating the EPS}@}. When {@{preferred shares are cumulative \(i.e. dividends accumulate as payable if unpaid in the given accounting year\)}@}, {@{annual dividends are deducted whether or not they have been declared}@}. {@{Dividends in [arrears](arrears.md)}@} are {@{not relevant when calculating EPS}@}. <!--SR:!2025-11-28,253,330!2025-12-10,262,330!2025-10-23,205,310!2026-12-18,523,310!2025-08-15,163,310!2026-01-19,293,330!2025-08-21,169,310-->
 
-__Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-07-07,123,290!2025-11-11,238,330-->
+__Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠profit} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2026-11-18,495,310!2025-11-11,238,330-->
 
 __Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2025-08-28,165,310!2025-10-02,191,310-->
 

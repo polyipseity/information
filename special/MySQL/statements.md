@@ -14,7 +14,7 @@ tags:
 - `CREATE DATABASE database_name` ::@:: Create a database named `database_name`. <!--SR:!2029-09-19,1702,350!2030-01-29,1807,350-->
 - `CREATE TABLE table_name (create_definition, ...)` ::@:: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2026-02-19,594,299!2027-02-03,870,319-->
 - `DELETE FROM table_name [WHERE where_expression]` ::@:: Delete rows from the table named `table_name`. Optionally filter rows for which `where_expression` is true. <!--SR:!2028-05-02,1281,339!2025-11-27,540,299-->
-- `DESCRIBE table_name` ::@:: Show the table named `table_name`. <!--SR:!2025-07-09,399,299!2030-06-13,1926,359-->
+- `DESCRIBE table_name` ::@:: Show the table named `table_name`. <!--SR:!2030-01-23,1655,319!2030-06-13,1926,359-->
 - `INSERT INTO table_name (column_name[, ...]) VALUE[S] (value[, ...])[, ...]` ::@:: Add rows with the _n_-th `value` corresponding to the _n_-th column named `column_name` into the table named `table_name`. <!--SR:!2029-08-10,1510,319!2027-11-27,1064,319-->
 - `SELECT select_expression [FROM table_reference[, ...]] [WHERE where_expression] [ORDER BY order_by_expression [ASC | DESC]] [LIMIT {[offset,] count | count OFFSET offset}]` ::@:: Show rows from the tables named `table_reference` according to `select_expression`. Optionally filter rows for which `where_expression` is true. Optionally order rows by the `order_by_expression` in ascending order if unspecified or `ASC`, or descending if `DESC`. Optionally limit the number of rows to `count` starting from the 0-based `offset` if specified. <!--SR:!2025-12-03,540,299!2026-08-18,702,299-->
 - `SHOW DATABASES` ::@:: Show databases. <!--SR:!2031-10-18,2301,359!2030-03-07,1850,359-->

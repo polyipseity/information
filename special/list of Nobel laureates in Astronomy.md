@@ -11,7 +11,7 @@ tags:
 
 The list may not cover all Nobel laureates. Last updated 2024.
 
-- 1936: [Victor Francis Hess](../general/Victor%20Francis%20Hess.md) ::@:: "for his discovery of [cosmic radiation](../general/cosmic%20ray.md)" <!--SR:!2025-07-07,198,230!2026-05-11,413,250-->
+- 1936: [Victor Francis Hess](../general/Victor%20Francis%20Hess.md) ::@:: "for his discovery of [cosmic radiation](../general/cosmic%20ray.md)" <!--SR:!2027-04-19,645,250!2026-05-11,413,250-->
 - 1948: [Patrick Blackett](../general/Patrick%20Blackett.md) ::@:: "for his development of the Wilson [cloud chamber](../general/cloud%20chamber.md) method, and his discoveries therewith in the fields of [nuclear physics](../general/nuclear%20physics.md) and [cosmic radiation](../general/cosmic%20ray.md)" <!--SR:!2025-08-24,131,210!2025-07-15,132,230-->
 - 1960: [Donald A. Glaser](../general/Donald%20A.%20Glaser.md) ::@:: "for the invention of the [bubble chamber](../general/bubble%20chamber.md)" <!--SR:!2026-12-30,576,270!2026-04-26,353,210-->
 - 1974: [Martin Ryle](../general/Martin%20Ryle.md), [Antony Hewish](../general/Antony%20Hewish.md) ::@:: "for their pioneering research in radio astrophysics: [Ryle](../general/Martin%20Ryle.md) for his observations and inventions, in particular of the [aperture synthesis](../general/aperture%20synthesis.md) technique, and [Hewish](../general/Antony%20Hewish.md) for his decisive role in the discovery of [pulsars](../general/pulsar.md)" <!--SR:!2026-06-20,438,250!2025-11-29,157,170-->

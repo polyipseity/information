@@ -24,7 +24,7 @@ However, {@{the interface conditions for the electromagnetic field vectors}@} ca
 \(annotation: $\mathbf E$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$ <!--SR:!2025-07-17,16,298!2025-07-15,14,298-->
 
 where: <br/>
-$\mathbf {n} _{12}$ <!-- flashcard ID: 89355df4-5adb-4753-a348-713d05c62a3b -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2025-07-17,16,318!2025-07-11,11,298-->
+$\mathbf {n} _{12}$ <!-- flashcard ID: 89355df4-5adb-4753-a348-713d05c62a3b -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2025-07-17,16,318!2025-08-28,47,318-->
 
 Therefore, {@{the [tangential component](tangential%20component.md) of __E__}@} is {@{continuous across the interface}@}. <!--SR:!2025-07-17,16,298!2025-07-16,15,298-->
 

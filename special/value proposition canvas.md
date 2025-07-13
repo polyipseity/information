@@ -160,7 +160,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2025-07-24,139,209!2026-11-29,544,249-->
 - irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2026-08-29,478,229!2025-11-03,301,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2026-10-30,514,249!2026-04-26,465,269-->
-- mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2025-08-30,331,289!2025-07-12,104,149-->
+- mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2025-08-30,331,289!2025-12-16,156,149-->
 
 <!--/pytextgen-->
 
@@ -259,7 +259,7 @@ conclusion: make progress
 - _(begin)_→::@::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2029-03-30,1422,367-->
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2026-07-28,572,309!2026-08-01,542,270-->
-- test: design tests→::@::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->
+- test: design tests→::@::←test: prioritize tests <!--SR:!2028-10-26,1201,329!2025-11-28,450,310-->
 - test: prioritize tests→::@::←test: run tests <!--SR:!2026-12-27,705,329!2026-04-24,515,310-->
 - test: run tests→::@::←conclusion: capture findings <!--SR:!2025-08-14,301,269!2025-11-30,404,309-->
 - conclusion: capture findings→::@::←conclusion: make progress <!--SR:!2027-01-14,704,329!2025-11-16,404,309-->

@@ -9,7 +9,7 @@ tags:
 
 # solar phenomena
 
-__Solar phenomena__ are {@{[natural phenomena](list%20of%20natural%20phenomena.md) which occur within the [atmosphere](stellar%20atmosphere.md) of the [Sun](Sun.md)}@}. They take many forms, including {@{[solar wind](solar%20wind.md), [radio wave flux](solar%20radio%20emission.md), [solar flares](solar%20flare.md), [coronal mass ejections](coronal%20mass%20ejection.md), [coronal heating](stellar%20corona.md#coronal%20heating%20problem), and [sunspots](sunspot.md)}@}. <!--SR:!2026-08-18,527,310!2025-07-12,223,270-->
+__Solar phenomena__ are {@{[natural phenomena](list%20of%20natural%20phenomena.md) which occur within the [atmosphere](stellar%20atmosphere.md) of the [Sun](Sun.md)}@}. They take many forms, including {@{[solar wind](solar%20wind.md), [radio wave flux](solar%20radio%20emission.md), [solar flares](solar%20flare.md), [coronal mass ejections](coronal%20mass%20ejection.md), [coronal heating](stellar%20corona.md#coronal%20heating%20problem), and [sunspots](sunspot.md)}@}. <!--SR:!2026-08-18,527,310!2027-11-02,843,290-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # liability
 
-In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2028-02-25,973,350!2026-04-10,398,310!2025-07-11,224,330-->
+In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2028-02-25,973,350!2026-04-10,398,310!2028-04-28,1021,350-->
 
 ## characteristics
 
@@ -42,7 +42,7 @@ __Liabilities__ are {@{debts and obligations of the business they represent as _
 
 Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {@{usually divided into two categories: [current liabilities](current%20liability.md) and [long-term liabilities](long-term%20liabilities.md)}@}. <!--SR:!2025-10-04,291,330-->
 
-- [current liabilities](current%20liability.md) ::@:: These liabilities are reasonably expected to be liquidated within a financial period (usually a year). They usually include payables such as [wages](wage.md), [accounts](account%20(bookkeeping).md), [taxes](tax.md), and [accounts payable](accounts%20payable.md), unearned revenue when [adjusting entries](adjusting%20entries.md), portions of long-term bonds to be paid this year, and short-term obligations (_e.g._ from purchase of equipment). Current liabilities are obligations whose liquidation is reasonably expected to require the use of current assets, the creation of other current liabilities, or the provision of services within the next year or operating cycle, whichever is longer. <!--SR:!2025-07-09,204,270!2025-09-14,260,290-->
+- [current liabilities](current%20liability.md) ::@:: These liabilities are reasonably expected to be liquidated within a financial period (usually a year). They usually include payables such as [wages](wage.md), [accounts](account%20(bookkeeping).md), [taxes](tax.md), and [accounts payable](accounts%20payable.md), unearned revenue when [adjusting entries](adjusting%20entries.md), portions of long-term bonds to be paid this year, and short-term obligations (_e.g._ from purchase of equipment). Current liabilities are obligations whose liquidation is reasonably expected to require the use of current assets, the creation of other current liabilities, or the provision of services within the next year or operating cycle, whichever is longer. <!--SR:!2027-08-20,769,290!2025-09-14,260,290-->
 - [long-term liabilities](long-term%20liabilities.md) ::@:: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2027-08-25,804,330!2027-11-04,866,330-->
 
 {@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2025-10-27,310,330!2027-10-21,844,330-->

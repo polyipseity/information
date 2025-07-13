@@ -52,7 +52,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hundred trillion years
 >
 > - solution: {@{5}@}
-> - explanation: {@{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}@} <!--SR:!2027-09-21,896,330!2025-07-12,268,290-->
+> - explanation: {@{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}@} <!--SR:!2027-09-21,896,330!2028-06-23,1076,310-->
 
 ## 2024-06-27
 

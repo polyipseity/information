@@ -20,7 +20,7 @@ English
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: \(a\_e\) To gradually increase in quantity. <!--SR:!2025-10-26,467,332!2031-05-04,2141,394-->
 - [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring. <!--SR:!2025-07-27,25,396!2025-07-27,25,396-->
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: \(a\_e\) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2027-02-11,798,324-->
-- [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2026-01-28,526,310!2025-07-10,152,310-->
+- [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2026-01-28,526,310!2027-04-28,654,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2025-10-08,458,310!2025-08-26,408,290-->
 - [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::@:: \(a\_s\) Open to multiple interpretations. <!--SR:!2025-10-02,452,396!2027-07-19,958,396-->
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::@:: \(a\_t\) Earlier, in time or order. <!--SR:!2026-02-07,536,392!2028-03-02,1093,372-->

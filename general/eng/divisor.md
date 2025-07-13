@@ -35,7 +35,7 @@ Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, alth
 
 {@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}. <!--SR:!2025-12-28,277,330!2025-12-07,261,330!2025-12-24,275,330!2025-12-09,263,330!2025-12-16,268,330!2026-01-07,285,330-->
 
-{@{1, −1, $n$ and $-n$}@} are known as {@{the __trivial divisors__ of $n$}@}. {@{A divisor of $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2025-11-14,243,330!2026-01-11,289,330!2026-01-01,281,330!2026-01-15,292,330!2025-07-12,128,290!2026-11-17,513,310!2026-01-04,283,330!2025-11-17,245,330-->
+{@{1, −1, $n$ and $-n$}@} are known as {@{the __trivial divisors__ of $n$}@}. {@{A divisor of $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2025-11-14,243,330!2026-01-11,289,330!2026-01-01,281,330!2026-01-15,292,330!2026-12-09,515,310!2026-11-17,513,310!2026-01-04,283,330!2025-11-17,245,330-->
 
 There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}. <!--SR:!2025-12-19,271,330!2025-12-17,269,330-->
 
@@ -43,7 +43,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 
 > {@{![Plot of the number of divisors of integers from 1 to 1000. [Prime numbers](prime%20number.md) have exactly 2 divisors, and [highly composite numbers](highly%20composite%20number.md) are in bold.](../../archives/Wikimedia%20Commons/Highly%20composite%20numbers.svg)}@}
 >
-> Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2025-07-12,128,290!2025-11-12,241,330!2025-11-03,233,330-->
+> Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-12-25,276,330!2026-12-10,516,310!2025-11-12,241,330!2025-11-03,233,330-->
 
 - 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2025-11-19,247,330!2025-11-06,235,330-->
 - The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2025-12-12,265,330!2025-11-28,255,330-->

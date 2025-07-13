@@ -10,9 +10,9 @@ tags:
 
 ## classification of innovation
 
-Product innovation can be {@{an invention or an improvement over existing products}@}. Making an invention is {@{costly, risky, and requires extensive research}@}. {@{95% of new inventions}@} fail. In contrast, improving existing products is {@{cheaper, safer, and requires limited research}@}. {@{98% of innovations}@} are of this kind. <!--SR:!2025-07-13,329,310!2027-05-07,832,330!2027-12-08,931,290!2025-11-26,430,310!2025-10-04,390,310-->
+Product innovation can be {@{an invention or an improvement over existing products}@}. Making an invention is {@{costly, risky, and requires extensive research}@}. {@{95% of new inventions}@} fail. In contrast, improving existing products is {@{cheaper, safer, and requires limited research}@}. {@{98% of innovations}@} are of this kind. <!--SR:!2029-05-24,1411,330!2027-05-07,832,330!2027-12-08,931,290!2025-11-26,430,310!2025-10-04,390,310-->
 
-Improving existing products can include {@{adding or modifying features, to align with current culture, market desirability, or trends}@}. <!--SR:!2025-07-07,304,270-->
+Improving existing products can include {@{adding or modifying features, to align with current culture, market desirability, or trends}@}. <!--SR:!2028-08-31,1146,290-->
 
 ## references
 

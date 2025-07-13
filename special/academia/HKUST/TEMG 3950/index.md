@@ -72,7 +72,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2028-07-16,1173,355!2025-07-23,343,355-->
   - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2028-08-04,1185,355!2029-11-08,1588,375-->
-- visualization ::@:: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2025-07-09,331,355-->
+- visualization ::@:: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2029-12-13,1614,375-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
 
@@ -143,7 +143,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-09-26,124,175!2025-07-12,282,295-->
+  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2025-09-26,124,175!2028-09-13,1158,315-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -222,7 +222,7 @@ The content is in teaching order.
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2025-08-05,332,361-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2025-11-01,410,381-->
-  - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2025-07-13,313,361-->
+  - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2029-10-10,1550,381-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2029-08-29,1516,381-->
   - cause mapping § symptom ::@:: red background <!--SR:!2025-08-01,312,361!2025-09-13,346,361-->

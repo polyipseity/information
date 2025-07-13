@@ -11,7 +11,7 @@ tags:
 
 > {@{![diamond structure](../../archives/Wikimedia%20Commons/Diamond%20structure.gif)}@}
 >
-> {@{[tetrahedral](tetrahedron.md) structure of diamond}@} <!--SR:!2025-07-08,573,310!2029-01-23,1450,310-->
+> {@{[tetrahedral](tetrahedron.md) structure of diamond}@} <!--SR:!2032-04-04,2458,330!2029-01-23,1450,310-->
 
 ## references
 

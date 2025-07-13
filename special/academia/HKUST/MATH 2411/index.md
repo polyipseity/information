@@ -90,7 +90,7 @@ The content is in teaching order.
     - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2026-10-01,554,310-->
   - statistics / definition (inference) ::@:: the art and science of answering questions and exploring ideas through the processes of gathering data, describing data, and _making inferences_ about a population on the basis of a smaller sample <!--SR:!2025-11-10,293,290!2026-08-23,529,310-->
   - statistics / branches ::@:: descriptive statistics, inferential statistics <!--SR:!2027-05-05,747,330!2027-07-17,800,330-->
-- [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2027-03-25,702,330!2025-07-08,239,330-->
+- [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2027-03-25,702,330!2028-07-02,1085,350-->
   - descriptive statistics / methodologies ::@:: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2026-09-15,522,310!2027-09-05,826,330-->
   - descriptive statistics / steps ::@:: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2027-06-05,733,310!2027-12-28,909,330-->
 - [inferential statistics](../../../../general/statistical%20inference.md) ::@:: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2026-12-10,631,330!2025-08-11,261,330-->
@@ -104,11 +104,11 @@ The content is in teaching order.
     - inferential statistics / procedures / probability distribution ::@:: mathematical function that gives the probabilities of occurrence of possible outcomes for an experiment <!--SR:!2025-09-15,289,330!2025-10-26,297,290-->
     - inferential statistics / procedures / regression ::@:: estimate the relationships between a dependent variable (output) and one or more independent variables (inputs) <!--SR:!2028-04-20,1031,350!2025-08-01,258,330-->
   - inferential statistics / example
-    - inferential statistics / example / question ::@:: Sampling 100 products from a process, 3 are defective. Is the process acceptable if the long-term (true/real) defective rate should not exceed 1%? <!--SR:!2028-04-25,1037,350!2025-07-12,242,330-->
+    - inferential statistics / example / question ::@:: Sampling 100 products from a process, 3 are defective. Is the process acceptable if the long-term (true/real) defective rate should not exceed 1%? <!--SR:!2028-04-25,1037,350!2028-07-19,1102,350-->
     - inferential statistics / example / answer (Sampling 100 products from a process, 3 are defective. Is the process acceptable if the long-term (true/real) defective rate should not exceed 1%?) ::@:: Assume the true defective rate of the process is 1%. Calculate the _probability of 10 or more products being defective in a random sample of 100 products_: $$\begin{aligned} P(\text{defective} \ge 3) & = 1 - P(\text{defective} < 3) \\ & = 1 - \sum_{k = 0}^2 P(\text{defective} = k) \\ & = 1 - \sum_{k = 0}^2 \binom {100} k (0.01)^k (0.99)^{100 - k} \\ & \approx 0.0794 \end{aligned}$$. This suggests the actual process likely has a true defective rate exceeding 1%. <!--SR:!2027-08-08,795,330!2025-07-29,255,330-->
   - inferential statistics / -duction ::@:: induction: draw conclusions on the population from the statistics of a sample; deduction: characterize hypothetical samples of a population from its parameters <!--SR:!2025-09-02,279,330!2026-03-01,408,310-->
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization <!--SR:!2027-12-02,900,330!2025-10-12,311,330-->
-  - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2025-08-06,262,330!2025-07-07,237,330-->
+  - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2025-08-06,262,330!2028-06-25,1078,350-->
   - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2025-09-24,297,330!2028-05-19,1055,350-->
   - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2027-04-07,700,310!2025-08-31,277,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
@@ -124,13 +124,13 @@ The content is in teaching order.
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::@:: central tendency (location), variability (spread/dispersion) <!--SR:!2027-04-09,722,330!2027-06-15,769,330-->
     - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2028-05-24,1057,350!2028-06-18,1079,350-->
-    - variability ::@:: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2027-10-10,858,330!2025-07-12,241,330-->
+    - variability ::@:: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2027-10-10,858,330!2028-07-15,1098,350-->
   - sample mean ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2025-07-28,255,330!2025-08-04,260,330-->
     - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2028-06-14,1075,350!2025-10-02,303,330-->
   - sample median ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. They are sorted in increasing (or decreasing) order, i.e. $x_1 \le \ldots \le x_n$. Then its _sample median_ is $$\tilde x = \frac 1 2 \left(x_{\lfloor \frac {x + 1} 2 \rfloor} + x_ {\lceil \frac {x + 1} 2 \rceil} \right) = \begin{cases} x_{\frac {n + 1} 2} & \text{if }n\text{ is odd} \\ \frac 1 2 \left(x_{\frac x 2} + x_{\frac x 2 + 1} \right) & \text{if }n\text{ is even} \end{cases}$$. <!--SR:!2027-03-27,704,330!2025-07-20,248,330-->
   - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2027-04-25,732,330!2028-04-02,1014,350-->
     - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2025-08-04,260,330!2027-05-19,742,330-->
-    - sample mean vs sample median / trimmed (sample) mean ::@:: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean. <!--SR:!2025-07-08,238,330!2025-09-19,293,330-->
+    - sample mean vs sample median / trimmed (sample) mean ::@:: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean. <!--SR:!2028-07-01,1084,350!2025-09-19,293,330-->
       - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2027-11-07,867,330!2026-10-29,575,310-->
 
 ## week 1 lecture 2
@@ -144,13 +144,13 @@ The content is in teaching order.
   - sample standard deviation ::@:: It is the square root of the sample variance: $$s = \sqrt{s^2} \,.$$ However, no matter if the sample variance is biased or unbiased, the resulting sample standard deviation is biased. This is because the square root is a concave function and introduces additional negative bias \(smaller than the corresponding population parameter\). <!--SR:!2026-06-09,425,290!2027-12-06,893,330-->
     - sample standard deviation / _R_ ::@:: use `sd(...)` <!--SR:!2026-05-05,454,310!2025-10-03,304,330-->
   - sample range ::@:: It is defined as $$\text{range} = \max\set{x_i} - \min\set{x_i}$$. It is useful for statistical quality control (e.g. finding unusual outliers caused by bad measurement). <!--SR:!2027-07-28,786,330!2025-08-13,262,330-->
-  - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1$$. It is also a measure of data dispersion. It can also eliminate problems with outliers. <!--SR:!2025-07-09,239,330!2025-09-01,278,330-->
+  - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1$$. It is also a measure of data dispersion. It can also eliminate problems with outliers. <!--SR:!2028-07-05,1088,350!2025-09-01,278,330-->
     - inter-quartile range / _R_ ::@:: use `IQR(...)`, not `iqr` <!--SR:!2025-08-12,262,330!2025-09-18,292,330-->
   - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2025-09-06,282,330!2028-01-14,921,330-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::@:: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2027-03-27,717,330!2026-08-18,536,310-->
   - data presentation / quantitative data ::@:: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2026-05-13,412,290!2026-05-21,462,310-->
   - data presentation / categorical data ::@:: bar chart, frequency table, pie chart, ... <!--SR:!2027-03-23,711,330!2026-02-19,358,290-->
-  - line chart ::@:: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2025-07-10,238,330!2025-07-11,239,330-->
+  - line chart ::@:: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2028-06-26,1079,350!2028-07-04,1087,350-->
     - line chart / reading ::@:: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2025-08-02,259,330!2028-01-11,951,350-->
     - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2025-10-04,305,330!2025-07-26,252,330-->
   - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2026-12-31,621,310!2027-08-12,802,330-->
@@ -159,7 +159,7 @@ The content is in teaching order.
   - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2028-01-05,915,330!2025-11-14,312,290-->
     - histogram / _R_ ::@:: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2028-02-08,968,350!2028-02-25,985,350-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
-  - modality ::@:: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2025-10-16,315,330!2025-07-10,241,330-->
+  - modality ::@:: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2025-10-16,315,330!2028-07-14,1097,350-->
     - [unimodaility](../../../../general/unimodality.md)
       - [§ unimodal probability distribution](../../../../general/unimodality.md#unimodal%20probability%20distribution)
     - [multimodal distribution](../../../../general/multimodal%20distribution.md)
@@ -173,7 +173,7 @@ The content is in teaching order.
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
   - box plot ::@:: A box plot labels the least data that is not an outlier (instead of the value $Q_1 - 1.5 \cdot \text{IQR}$), the lower quartile (Q1), median (Q2), upper quartile (Q3), and the greatest data that is not an outlier (instead of the value $Q_3 + 1.5 \cdot \text{IQR}$) as lines; and outliers as dots (with "min" and "max" labels on 2 of them). Additional lines are added so that the lines of Q1 and Q3 forms a rectangle (box). (See that thing on Canvas grade stats...?) <!--SR:!2026-05-23,416,290!2026-05-31,418,290-->
     - box plot / outliers ::@:: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007). <!--SR:!2025-10-04,277,290!2026-04-13,391,290-->
-    - box plot / _R_ ::@:: use `boxplot(...)` <!--SR:!2025-07-07,238,330!2025-09-11,285,330-->
+    - box plot / _R_ ::@:: use `boxplot(...)` <!--SR:!2028-06-30,1083,350!2025-09-11,285,330-->
 
 ## week 1 tutorial
 
@@ -191,7 +191,7 @@ The content is in teaching order.
   - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2027-07-14,772,330!2025-11-13,311,290-->
     - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2026-12-02,527,270!2025-11-22,290,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2025-07-27,253,330!2027-03-30,715,330-->
-    - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2025-07-13,241,330!2028-05-21,1057,350-->
+    - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2028-07-08,1091,350!2028-05-21,1057,350-->
   - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2028-04-04,1016,350!2025-08-22,274,330-->
     - bar chart / _R_ ::@:: use `barplot(...)` <!--SR:!2027-11-20,888,330!2025-10-15,314,330-->
 - [sampling](../../../../general/sampling%20(statistics).md) ::@:: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2027-05-06,736,330!2027-03-27,712,330-->
@@ -212,7 +212,7 @@ The content is in teaching order.
     - non-probability sampling / examples ::@:: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2026-03-18,369,290!2025-08-14,220,270-->
     - non-probability sampling / convenience sampling ::@:: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2027-10-15,865,330!2027-11-16,895,330-->
     - non-probability sampling / voluntary response sampling ::@:: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2026-02-14,395,310!2027-01-06,651,330-->
-    - non-probability sampling / purposive sampling ::@:: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2027-12-10,922,350!2025-07-09,240,330-->
+    - non-probability sampling / purposive sampling ::@:: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2027-12-10,922,350!2028-07-09,1092,350-->
     - non-probability sampling / snowball sampling ::@:: Some individuals of a population are sampled initially. Individuals sampled recruit other individuals for sampling. This recruitment chain continues indefinitely, hence snowballing. <!--SR:!2025-07-28,253,330!2028-02-18,978,350-->
 
 ## week 2 lecture 2

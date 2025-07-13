@@ -72,7 +72,7 @@ The content is in teaching order.
     - [rules of inference](../../../../general/rules%20of%20inference.md) / motivation ::@:: To prove a proposition $X := h_1 \land \ldots \land h_n \rightarrow c$ is true, where $h_i$ are _atomic_ variables (terms with no operations), one could use a proof table, but this would require $2^n$ rows. We could instead use another proposition equivalent to $X$, denoted $Y := p_1 \land \ldots \land p_n \rightarrow c$ where $p_i$ are propositions (not necessarily atomic). Coupled with _rules of inference_, we can prove $X$ via proving $Y$. <!--SR:!2025-08-14,215,270!2027-11-30,892,343-->
     - rules of inference / _modus ponens_ ::@:: $$\begin{aligned} & p \rightarrow q \\ & \underline{p \phantom{\rightarrow q} } \\ & q & \end{aligned}$$ <!--SR:!2025-09-18,289,343!2028-02-10,959,343-->
     - rules of inference / hypothetical syllogism ::@:: $$\begin{aligned} & p \rightarrow q \\ & \underline{q \rightarrow r} \\ & p \rightarrow r & \end{aligned}$$ <!--SR:!2025-08-23,268,343!2025-09-19,290,343-->
-    - rules of inference / _modus tollens_ (not to be confused with the related _contraposition_) ::@:: $$\begin{aligned} & p \rightarrow q \\ & \underline{\lnot q \!\!\!\! \phantom{\rightarrow q} } \\ & \lnot p & \end{aligned}$$ <!--SR:!2025-07-08,227,323!2025-09-20,289,343-->
+    - rules of inference / _modus tollens_ (not to be confused with the related _contraposition_) ::@:: $$\begin{aligned} & p \rightarrow q \\ & \underline{\lnot q \!\!\!\! \phantom{\rightarrow q} } \\ & \lnot p & \end{aligned}$$ <!--SR:!2028-04-19,1011,343!2025-09-20,289,343-->
 - materials
   - [lecture video](https://youtu.be/Iexw2Lg9BmI)
   - Grimaldi/Chapter 2: Fundamentals of Logic
@@ -602,8 +602,8 @@ The content is in teaching order.
     - high: ?
     - distribution: ?
 - report
-  - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting. <!--SR:!2026-08-09,482,425!2025-07-09,165,445-->
-  - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult... <!--SR:!2025-07-12,168,445!2028-02-25,967,465-->
+  - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting. <!--SR:!2026-08-09,482,425!2028-04-06,998,465-->
+  - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult... <!--SR:!2028-04-20,1012,465!2028-02-25,967,465-->
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials

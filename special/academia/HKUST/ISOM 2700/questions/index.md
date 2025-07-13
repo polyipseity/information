@@ -50,7 +50,7 @@ tags:
 > 4. 60 to 90 minutes
 > 5. longer than 90 minutes
 >
-> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-07-08,69,316-->
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2026-05-17,308,336-->
 
 ## week 7 lecture
 
@@ -64,7 +64,7 @@ tags:
 > 4. 6
 > 5. \>6
 >
-> - solution: {@{1/2/3/4/5}@} <!--SR:!2025-07-07,68,316-->
+> - solution: {@{1/2/3/4/5}@} <!--SR:!2026-05-13,304,336-->
 
 ## week 10 lecture
 
@@ -79,7 +79,7 @@ tags:
 > 5. Academic \(prepare for a phd\)
 > 6. I don't know
 >
-> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2025-07-10,17,311-->
+> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2025-09-26,75,331-->
 
 ## week 11 lecture
 
@@ -92,7 +92,7 @@ tags:
 > 3. Gaokao \(mainland university entrance exam\)
 > 4. Others \(e.g., subject competitions or sports\)
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2025-07-10,16,311-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2025-09-20,69,331-->
 
 ## week 13 lecture
 
@@ -107,7 +107,7 @@ tags:
 > 5. Revenue management
 > 6. Supply chain management
 >
-> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2025-07-09,15,311-->
+> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2025-09-15,64,331-->
 
 ## week 14 lecture
 
@@ -123,7 +123,7 @@ tags:
 > 4. staff in a firm
 >
 > - solution: {@{1/2/3/4}@}
-> - explanation: {@{The point is to show how you make decisions.}@} <!--SR:!2025-07-09,15,311!2025-07-09,15,311-->
+> - explanation: {@{The point is to show how you make decisions.}@} <!--SR:!2025-09-14,63,331!2025-09-16,65,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -144,7 +144,7 @@ tags:
 > 4. 10% to 20%
 >
 > - solution: {@{4}@}
-> - explanation: {@{An example for base rate neglect. The probability should be: $$\frac {0.01 \cdot 0.9} {0.01 \cdot 0.9 + 0.99 \cdot 0.05} \approx 0.0178571429 \,.$$}@} <!--SR:!2025-07-10,16,311!2025-07-09,16,311-->
+> - explanation: {@{An example for base rate neglect. The probability should be: $$\frac {0.01 \cdot 0.9} {0.01 \cdot 0.9 + 0.99 \cdot 0.05} \approx 0.0178571429 \,.$$}@} <!--SR:!2025-09-18,67,331!2025-09-23,72,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -161,7 +161,7 @@ tags:
 > 2. program B
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{1 is usually preferred over 2, demonstrating _risk aversion_ in gains.}@} <!--SR:!2025-07-09,16,311!2025-07-09,16,311-->
+> - explanation: {@{1 is usually preferred over 2, demonstrating _risk aversion_ in gains.}@} <!--SR:!2025-09-21,70,331!2025-09-17,66,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -178,7 +178,7 @@ tags:
 > 2. program B
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{2 is usually preferred over 1, demonstrating _risk seeking_ in gains.}@} <!--SR:!2025-07-09,16,311!2025-07-10,16,311-->
+> - explanation: {@{2 is usually preferred over 1, demonstrating _risk seeking_ in gains.}@} <!--SR:!2025-09-19,68,331!2025-09-22,71,331-->
 
 ## week 14 lecture 2
 
@@ -189,4 +189,4 @@ tags:
 > 1. Happy Happy Happy
 > 2. Cheers Cheers Cheers
 >
-> - solution: {@{1/2}@} <!--SR:!2025-07-10,16,311-->
+> - solution: {@{1/2}@} <!--SR:!2025-09-21,70,331-->

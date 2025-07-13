@@ -234,7 +234,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
     - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2026-03-03,275,330!2025-12-23,220,330-->
   - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2025-10-08,154,310!2026-02-12,256,330-->
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2025-11-12,189,330!2025-11-24,176,310-->
-  - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2025-07-12,92,290!2026-05-27,345,350-->
+  - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2026-07-26,378,310!2026-05-27,345,350-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2026-05-30,348,350!2026-02-25,269,330-->
 - production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-23,372,361!2026-07-04,382,361-->
   - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2025-10-08,154,310!2025-12-21,218,330-->
@@ -412,7 +412,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers <!--SR:!2025-08-20,95,381!2025-08-10,94,381-->
   - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total <!--SR:!2025-08-03,88,381!2025-08-23,98,381-->
-  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-08-04,89,381!2025-07-10,39,341-->
+  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-08-04,89,381!2026-01-12,183,361-->
 
 ## incremental analysis (comparative)
 

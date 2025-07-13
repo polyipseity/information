@@ -14,7 +14,7 @@ tags:
 
 # Lagoon Nebula
 
-The {@{__Lagoon Nebula__}@} (catalogued as {@{__Messier 8__ or __M8__, __NGC 6523__, __Sharpless 25__, __RCW 146__, and __Gum 72__}@}) is {@{a giant [interstellar cloud](interstellar%20cloud.md) in the [constellation](constellation.md) [Sagittarius](Sagittarius%20(constellation).md)}@}. It is classified as {@{an [emission nebula](emission%20nebula.md) and has an [H II region](H%20II%20region.md)}@}. <!--SR:!2026-10-20,577,290!2025-07-08,67,150!2025-08-30,175,210!2025-12-14,284,210-->
+The {@{__Lagoon Nebula__}@} (catalogued as {@{__Messier 8__ or __M8__, __NGC 6523__, __Sharpless 25__, __RCW 146__, and __Gum 72__}@}) is {@{a giant [interstellar cloud](interstellar%20cloud.md) in the [constellation](constellation.md) [Sagittarius](Sagittarius%20(constellation).md)}@}. It is classified as {@{an [emission nebula](emission%20nebula.md) and has an [H II region](H%20II%20region.md)}@}. <!--SR:!2026-10-20,577,290!2025-12-06,147,170!2025-08-30,175,210!2025-12-14,284,210-->
 
 ## references
 

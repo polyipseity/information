@@ -60,7 +60,7 @@ The content is in teaching order.
 - datetime: 2024-09-06T16:00:00+08:00/2024-09-06T17:50:00+08:00
 - course logistics
 - [Python](../../../../general/Python.md) ::@:: It is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. <!--SR:!2028-03-26,1001,349!2025-12-01,349,349-->
-  - Python / why ::@:: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2027-02-21,680,329!2025-07-09,230,329-->
+  - Python / why ::@:: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2027-02-21,680,329!2028-05-21,1043,349-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [basics](basics.md)
   - [§ string](basics.md#string)

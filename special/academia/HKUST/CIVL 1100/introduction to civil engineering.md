@@ -17,7 +17,7 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2025-07-08,334,378-->
+    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2030-04-05,1727,398-->
     - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2029-05-03,1438,380!2027-05-12,810,360-->
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2025-10-08,405,377-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
@@ -66,11 +66,11 @@ The content is in teaching order.
   - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2025-07-09,335,377-->
+    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2030-04-08,1730,397-->
 - hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2029-06-20,1505,385-->
   - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2029-05-03,1464,385-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2027-01-22,736,352-->
+  - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2029-03-11,1337,340!2027-01-22,736,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2028-12-31,1380,396-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
@@ -101,7 +101,7 @@ The content is in teaching order.
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
-      - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
+      - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2030-06-07,1790,394-->
       - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2028-01-27,1074,374-->
 
 ## oversized data
@@ -143,7 +143,7 @@ quantity surveyor
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
-- building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2025-07-07,312,337-->
+- building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2029-06-30,1448,357-->
 - consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2026-10-15,507,360-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2028-05-20,1116,337-->
@@ -463,7 +463,7 @@ testing materials
 - quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2026-12-04,557,255-->
 - safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
-- surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2027-07-25,790,292-->
+- surveying building site→::@::←testing materials <!--SR:!2027-05-31,687,260!2027-07-25,790,292-->
 - testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2028-02-19,1041,327-->
 
 <!--/pytextgen-->
@@ -502,7 +502,7 @@ teaming up with others
 - business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
-- management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2025-07-08,306,320-->
+- management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2029-03-28,1354,340-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
 - teaming up with others→::@::←_(end)_ <!--SR:!2029-12-09,1648,395!2027-04-08,752,292-->
 
@@ -880,7 +880,7 @@ developing strengthening techniques for damaged structures or structural members
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2029-04-28,1403,355!2029-04-02,1426,390-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
 - designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-12-27,340,297-->
-- developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2025-07-13,317,324-->
+- developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2029-06-01,1419,344-->
 
 <!--/pytextgen-->
 
@@ -912,7 +912,7 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
+- _(begin)_→::@::←artificial stone <!--SR:!2028-07-09,1092,317!2025-07-31,398,365-->
 - artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
 - cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
@@ -1142,7 +1142,7 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2030-01-09,1679,370-->
+- _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2029-03-13,1339,340!2030-01-09,1679,370-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2028-03-28,1076,335!2028-02-27,1053,335-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2025-08-02,322,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2028-08-21,1183,336-->

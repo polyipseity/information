@@ -31,7 +31,7 @@ Preprocessing {@{transforms source program (text) into modified source program (
 
 Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-12-02,310,303-->
 
-Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2025-10-25,324,343!2025-07-25,247,330!2025-07-13,225,337-->
+Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2025-10-25,324,343!2025-07-25,247,330!2028-05-22,1044,357-->
 
 Linking {@{transforms relocatable object (binary) into an ELF file (binary)}@}, which is the final product we want. GCC internally {@{uses the program `ld`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc <input>.o -o <output>`, which outputs the ELF file as `<output>`}@}. <!--SR:!2027-08-14,828,343!2026-02-18,421,365!2025-12-17,371,365-->
 
@@ -98,7 +98,7 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 
 - `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2025-10-23,303,345!2025-08-20,269,345-->
 - `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2025-11-10,340,363!2025-09-19,295,343-->
-- `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2025-12-16,370,365!2025-07-08,234,337-->
+- `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2025-12-16,370,365!2028-07-03,1086,357-->
 - `dw <data>` ::@:: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2027-11-29,917,357!2028-05-07,1046,357-->
 - `resb <size>` ::@:: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-01-06,385,365!2025-11-21,349,365-->
 - `resd <size>` ::@:: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-01-10,389,365!2025-07-30,253,345-->

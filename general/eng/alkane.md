@@ -63,7 +63,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[combustion](#combustion) <!--SR:!2032-10-05,2724,377!2033-04-13,2872,377-->
 - [combustion](#combustion)→::@::←[cracking](#cracking) <!--SR:!2026-10-03,641,258!2028-06-13,1484,358-->
-- [cracking](#cracking)→::@::←[halogenation](#halogenation) <!--SR:!2025-07-08,357,298!2027-02-06,1015,338-->
+- [cracking](#cracking)→::@::←[halogenation](#halogenation) <!--SR:!2029-07-27,1476,318!2027-02-06,1015,338-->
 - [halogenation](#halogenation)→::@::←_(end)_ <!--SR:!2026-01-22,721,318!2027-05-13,947,298-->
 
 <!--/pytextgen-->

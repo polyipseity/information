@@ -9,7 +9,7 @@ tags:
 
 # aluminium hydroxide
 
-__Aluminium hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Al](aluminium.md)([OH](hydroxide.md))<sub>3</sub>}@}. It looks like {@{white [solid](solid.md)}@}. <!--SR:!2026-07-07,913,330!2025-07-10,544,270-->
+__Aluminium hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Al](aluminium.md)([OH](hydroxide.md))<sub>3</sub>}@}. It looks like {@{white [solid](solid.md)}@}. <!--SR:!2026-07-07,913,330!2031-02-22,2051,290-->
 
 ## preparation
 

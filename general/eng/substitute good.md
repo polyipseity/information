@@ -123,7 +123,7 @@ The common misconception is that {@{[competitive equilibrium](competitive%20equi
 
 - Customers have slight ::@:: switching costs between two available substitutes. <!--SR:!2025-11-29,294,330!2025-11-03,272,330-->
 - The quality and performance offered by a close substitute are ::@:: of a higher standard. <!--SR:!2025-10-12,255,330!2025-11-29,294,330-->
-- Customers of a product have ::@:: low loyalty towards the brand or product, hence being more sensitive to price changes. <!--SR:!2026-02-05,352,350!2025-07-07,164,310-->
+- Customers of a product have ::@:: low loyalty towards the brand or product, hence being more sensitive to price changes. <!--SR:!2026-02-05,352,350!2027-06-14,703,330-->
 
 Additionally substitute goods have {@{a large impact on markets, consumer and sellers}@} through the following factors: <!--SR:!2025-11-27,292,330-->
 

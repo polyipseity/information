@@ -17,7 +17,7 @@ Based on {@{the [matching principle](matching%20principle.md) of [accrual accoun
 
 ## types of adjusting entries
 
-Most adjusting entries could be classified this way: {@{prepaid expenses, accrued expenses, unearned revenues, accrued revenues}@}. <!--SR:!2025-07-07,221,330-->
+Most adjusting entries could be classified this way: {@{prepaid expenses, accrued expenses, unearned revenues, accrued revenues}@}. <!--SR:!2028-04-09,1003,350-->
 
 |          | __Prepayments__ ([Deferral](deferral.md) - cash paid or received before consumption)                | __[Accrual](accrual.md)__ - cash paid or received after consumption                     |
 | -------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -71,7 +71,7 @@ Accrued expenses {@{have not yet been paid for, so they are recorded in a payabl
 
 ### estimates
 
-A third classification of adjusting entry occurs {@{where the exact amount of an expense cannot easily be determined}@}. {@{The [depreciation](depreciation.md) of fixed assets}@}, for example, is {@{an expense which has to be estimated}@}. <!--SR:!2026-11-02,591,330!2025-07-07,206,310!2025-09-05,270,330-->
+A third classification of adjusting entry occurs {@{where the exact amount of an expense cannot easily be determined}@}. {@{The [depreciation](depreciation.md) of fixed assets}@}, for example, is {@{an expense which has to be estimated}@}. <!--SR:!2026-11-02,591,330!2027-12-11,883,330!2025-09-05,270,330-->
 
 The entry for bad debt expense can also be classified as an estimate.
 

@@ -126,15 +126,15 @@ It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$
 
 > {@{![Permutohedron of the symmetric group S<sub>4</sub>](../../archives/Wikimedia%20Commons/Symmetric%20group%204;%20permutohedron%203D;%20numbers.svg)}@}
 >
-> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2025-07-09,4,337!2025-07-08,3,317-->
+> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2025-07-29,18,357!2025-07-25,14,337-->
 
-{@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337-->
+{@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2025-07-30,19,357!2025-07-30,19,357!2025-07-31,20,357!2025-07-31,20,357-->
 
-{@{The [Hasse diagram](hasse%20diagram.md)}@} of {@{the inversion sets ordered by the [subset](subset.md) relation}@} forms {@{the [skeleton](n-skeleton.md) of a [permutohedron](permutohedron.md)}@}. <!--SR:!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337-->
+{@{The [Hasse diagram](hasse%20diagram.md)}@} of {@{the inversion sets ordered by the [subset](subset.md) relation}@} forms {@{the [skeleton](n-skeleton.md) of a [permutohedron](permutohedron.md)}@}. <!--SR:!2025-07-30,19,357!2025-07-29,18,357!2025-07-31,20,357-->
 
-If {@{a permutation is assigned to each inversion set using the place-based definition}@}, the resulting order of permutations is {@{that of the permutohedron}@}, where {@{an edge corresponds to the swapping of two elements with consecutive values}@}. This is {@{the weak order of permutations}@}. {@{The identity is its minimum}@}, and {@{the permutation formed by reversing the identity is its maximum}@}. <!--SR:!2025-07-09,4,337!2025-07-09,4,337!2025-07-08,3,317!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337-->
+If {@{a permutation is assigned to each inversion set using the place-based definition}@}, the resulting order of permutations is {@{that of the permutohedron}@}, where {@{an edge corresponds to the swapping of two elements with consecutive values}@}. This is {@{the weak order of permutations}@}. {@{The identity is its minimum}@}, and {@{the permutation formed by reversing the identity is its maximum}@}. <!--SR:!2025-07-29,18,357!2025-07-31,20,357!2025-07-22,11,317!2025-07-31,20,357!2025-07-29,18,357!2025-07-29,18,357-->
 
-If {@{a permutation were assigned to each inversion set using the element-based definition}@}, the resulting order of permutations {@{would be that of a [Cayley graph](Cayley%20graph.md)}@}, where {@{an edge corresponds to the swapping of two elements on consecutive places}@}. {@{This Cayley graph of the symmetric group}@} is {@{similar to its permutohedron, but with each permutation replaced by its inverse}@}. <!--SR:!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337!2025-07-09,4,337-->
+If {@{a permutation were assigned to each inversion set using the element-based definition}@}, the resulting order of permutations {@{would be that of a [Cayley graph](Cayley%20graph.md)}@}, where {@{an edge corresponds to the swapping of two elements on consecutive places}@}. {@{This Cayley graph of the symmetric group}@} is {@{similar to its permutohedron, but with each permutation replaced by its inverse}@}. <!--SR:!2025-07-30,19,357!2025-07-31,20,357!2025-07-30,19,357!2025-07-29,18,357!2025-07-30,19,357-->
 
 ## see also
 

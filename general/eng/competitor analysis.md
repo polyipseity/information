@@ -33,7 +33,7 @@ Direct competitors are not {@{necessarily more important than indirect or potent
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
 > - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2029-03-10,1380,361-->
-> - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2026-12-25,689,301!2025-07-11,327,341-->
+> - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2026-12-25,689,301!2029-09-23,1535,361-->
 > - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2028-02-03,1032,341!2025-08-07,349,341-->
 > - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2029-08-30,1516,361!2028-12-31,1323,361-->
 
@@ -171,7 +171,7 @@ number of features
 - benefit→::@::←quality <!--SR:!2027-01-21,704,294!2026-06-07,560,321-->
 - quality→::@::←durability <!--SR:!2026-02-28,327,201!2026-02-02,398,321-->
 - durability→::@::←service <!--SR:!2025-10-13,215,281!2025-07-25,227,241-->
-- service→::@::←convenience <!--SR:!2025-07-09,93,161!2027-02-10,599,281-->
+- service→::@::←convenience <!--SR:!2026-02-20,224,181!2027-02-10,599,281-->
 - convenience→::@::←ease of use <!--SR:!2025-11-06,376,281!2027-01-27,747,334-->
 - ease of use→::@::←number of features <!--SR:!2026-05-23,482,281!2026-02-03,306,234-->
 - number of features→::@::←_(least important)_ <!--SR:!2029-03-09,1375,354!2029-07-30,1492,361-->

@@ -32,7 +32,7 @@ A binary decoder is usually implemented as {@{either a stand-alone [integrated c
 Examples of this type of decoder include:
 
 - A _3-to-8 line decoder_ ::@:: activates one of eight output bits for each input value from 0 to 7 — the range of integer values that can be expressed in three bits. Similarly, a _4-to-16 line decoder_ activates one of 16 outputs for each 4-bit input in the integer range \[0,15\]. <!--SR:!2026-02-05,274,330!2026-01-10,254,330-->
-- A _BCD to decimal decoder_ ::@:: has ten output bits. It accepts an input value consisting of a [binary-coded decimal](binary-coded%20decimal.md) integer value and activates one specific, unique output for every input value in the range \[0,9\]. All outputs are held inactive when a non-decimal value is applied to the inputs. <!--SR:!2025-07-12,106,290!2026-03-01,289,330-->
+- A _BCD to decimal decoder_ ::@:: has ten output bits. It accepts an input value consisting of a [binary-coded decimal](binary-coded%20decimal.md) integer value and activates one specific, unique output for every input value in the range \[0,9\]. All outputs are held inactive when a non-decimal value is applied to the inputs. <!--SR:!2026-09-12,427,310!2026-03-01,289,330-->
 - A [demultiplexer](demultiplexer.md#digital%20demultiplexers) ::@:: is a 1-of-n binary decoder that is used to route a data bit to one of its n outputs while all other outputs remain inactive. <!--SR:!2025-09-15,160,310!2026-01-29,268,330-->
 
 ### code translator

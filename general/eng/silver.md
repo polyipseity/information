@@ -34,7 +34,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} |
-> | {@{electrical and electronic components}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}@} | <!--SR:!2028-02-22,1391,350!2025-07-09,507,270!2028-02-20,1388,350!2026-04-28,579,210-->
+> | {@{electrical and electronic components}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}@} | <!--SR:!2028-02-22,1391,350!2030-10-06,1913,290!2028-02-20,1388,350!2026-04-28,579,210-->
 
 <!--/pytextgen-->
 

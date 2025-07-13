@@ -90,7 +90,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {@{identifying assumptions, issues, and relationships}@}. From said information, {@{conclusions, deductions, and inferences can be made}@}. It also helps with {@{evaluating authority, evidence, and logicalness of your thinking}@}, {@{making self-corrections}@} as necessary. Finally, you can {@{present your solution persuasively}@}. <!--SR:!2026-09-22,620,321!2027-10-30,944,341!2026-06-14,547,321!2025-07-27,323,341!2025-07-09,309,341-->
+The case method, i.e. using case analysis for teaching, can teach {@{identifying assumptions, issues, and relationships}@}. From said information, {@{conclusions, deductions, and inferences can be made}@}. It also helps with {@{evaluating authority, evidence, and logicalness of your thinking}@}, {@{making self-corrections}@} as necessary. Finally, you can {@{present your solution persuasively}@}. <!--SR:!2026-09-22,620,321!2027-10-30,944,341!2026-06-14,547,321!2025-07-27,323,341!2029-06-29,1447,361-->
 
 ### case analysis elements
 

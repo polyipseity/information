@@ -281,7 +281,7 @@ tags:
 > 3. `np.dot(M, C)`, where `C` is an array of shape (22, 11)
 > 4. `np.dot(D, M)`, where `D` is an array of shape (11, 33)
 >
-> - solution: {@{1}@} <!--SR:!2025-07-10,150,310-->
+> - solution: {@{1}@} <!--SR:!2027-04-18,644,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1204,7 +1204,7 @@ tags:
 >
 > Note: Without context, $\gamma$ as described above is most likely the _decoding value_, but we are doing _encoding_. One could argue this is confusing, but this is the current convention (unfortunately).
 >
-> - solution: {@{The image becomes darker.}@} <!--SR:!2025-07-13,137,290-->
+> - solution: {@{The image becomes darker.}@} <!--SR:!2027-01-21,557,310-->
 
 <!-- markdownlint MD028 -->
 

@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2025-11-27,349,342-->
 - `//`→::@::←`%` <!--SR:!2028-03-07,990,350!2025-09-20,294,342-->
 - `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2028-01-21,944,342-->
-- `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2025-11-18,342,342-->
+- `+`→::@::←`-` <!--SR:!2028-06-03,1056,350!2025-11-18,342,342-->
 - `-`→::@::←_(end)_ <!--SR:!2025-10-30,327,342!2025-11-07,335,342-->
 
 <!--/pytextgen-->
@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 
 For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2028-01-11,934,342!2025-09-20,296,342!2025-10-12,313,342-->
 
-A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2025-11-09,336,342!2025-08-14,265,342!2025-07-13,222,322!2025-09-09,286,342!2027-07-19,803,360-->
+A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2025-11-09,336,342!2025-08-14,265,342!2028-03-24,985,342!2025-09-09,286,342!2027-07-19,803,360-->
 
 ### comparison operators
 
@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`not` <!--SR:!2026-06-14,505,389!2026-06-17,508,389-->
 - `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2026-05-16,480,389-->
 - `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!2026-06-16,507,389-->
-- `or`→::@::←_(end)_ <!--SR:!2026-05-19,483,389!2025-07-12,229,369-->
+- `or`→::@::←_(end)_ <!--SR:!2026-05-19,483,389!2028-09-14,1159,389-->
 
 <!--/pytextgen-->
 
@@ -277,7 +277,7 @@ Below are common data types:
 
 Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2027-11-15,893,342!2027-01-23,661,330!2025-08-23,270,363-->
 
-To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2025-10-28,325,342!2025-07-12,234,322!2027-09-10,831,342!2025-08-30,276,330-->
+To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2025-10-28,325,342!2028-05-18,1040,342!2027-09-10,831,342!2025-08-30,276,330-->
 
 ### data type conversion
 
@@ -286,8 +286,8 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 - `bool(value)` ::@:: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2025-10-01,272,366!2025-11-15,329,386-->
 - `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2028-03-04,987,360!2026-02-22,392,320-->
 - `int(value)` ::@:: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2027-10-06,857,360!2025-09-14,288,360-->
-- `list(value)` ::@:: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2025-10-18,305,386!2025-07-10,219,366-->
-- `str(value)` ::@:: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2025-07-09,218,340!2026-03-04,430,380-->
+- `list(value)` ::@:: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2025-10-18,305,386!2028-07-22,1105,386-->
+- `str(value)` ::@:: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2028-04-28,1020,360!2026-03-04,430,380-->
 
 ## input
 

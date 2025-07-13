@@ -30,7 +30,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 > {@{![Competitive Equilibrium: Price equates supply and demand.](../../archives/Wikimedia%20Commons/Price%20of%20market%20balance.gif)}@}
 >
-> {@{Competitive Equilibrium: Price equates supply and demand.}@} <!--SR:!2025-07-10,5,357!2025-07-10,5,357-->
+> {@{Competitive Equilibrium: Price equates supply and demand.}@} <!--SR:!2025-08-05,25,377!2025-08-04,24,377-->
 
 <!-- markdownlint MD028 -->
 

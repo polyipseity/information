@@ -30,7 +30,7 @@ The primary reaction is:
 
 ### hydrogen production
 
-[Hydrogen](hydrogen.md) is obtained {@{from the [electrolysis](electrolysis.md) of [brine](brine.md) and as a [by-product](by-product.md) of [cracking](cracking%20(chemistry).md) of [petroleum](petroleum.md), but the major source is [methane](methane.md)}@}. <!--SR:!2025-07-10,487,250-->
+[Hydrogen](hydrogen.md) is obtained {@{from the [electrolysis](electrolysis.md) of [brine](brine.md) and as a [by-product](by-product.md) of [cracking](cracking%20(chemistry).md) of [petroleum](petroleum.md), but the major source is [methane](methane.md)}@}. <!--SR:!2030-03-17,1709,270-->
 
 ```Python
 # pytextgen generate data

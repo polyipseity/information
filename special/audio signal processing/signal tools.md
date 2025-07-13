@@ -9,7 +9,7 @@ tags:
 
 # signal tools
 
-We introduced {@{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicVisualiser), and [sms-tools](#sms-tools)}@}. <!--SR:!2025-07-10,256,330-->
+We introduced {@{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicVisualiser), and [sms-tools](#sms-tools)}@}. <!--SR:!2028-09-20,1165,350-->
 
 ## Audacity
 
@@ -29,7 +29,7 @@ Audacity can generate {@{real sine signals of any frequency and amplitude}@}. Th
 
 ## SonicVisualiser
 
-SonicVisualiser is {@{an audio visualization, analysis, and annotation tool}@}. It can be downloaded from {@{<https://sonicvisualiser.org/>}@}. <!--SR:!2028-06-07,1080,350!2025-07-10,256,330-->
+SonicVisualiser is {@{an audio visualization, analysis, and annotation tool}@}. It can be downloaded from {@{<https://sonicvisualiser.org/>}@}. <!--SR:!2028-06-07,1080,350!2028-09-19,1164,350-->
 
 ### applying DFT on complicated sounds
 
@@ -45,7 +45,7 @@ SonicVisualiser supports {@{many plugins to perform many extra functions}@}, whi
 
 ## sms-tools
 
-`sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}. <!--SR:!2025-07-09,256,330!2025-09-11,307,330-->
+`sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}. <!--SR:!2028-09-21,1166,350!2025-09-11,307,330-->
 
 ### analysis (sms-tools)
 

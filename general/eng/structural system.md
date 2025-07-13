@@ -64,7 +64,7 @@ The following interior structures are possible.
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[braced frame](braced%20frame.md) <!--SR:!2026-11-12,609,290!2027-02-04,749,335-->
-- [braced frame](braced%20frame.md)→::@::←[hinged frame](hinged%20frame.md) <!--SR:!2025-10-02,259,235!2025-07-08,114,215-->
+- [braced frame](braced%20frame.md)→::@::←[hinged frame](hinged%20frame.md) <!--SR:!2025-10-02,259,235!2026-07-01,354,235-->
 - [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2026-01-25,233,170!2025-11-05,206,195-->
 - [outrigger](#outrigger)→::@::←[rigid frame](rigid%20frame.md) <!--SR:!2027-11-21,910,295!2026-06-20,392,215-->
 - [rigid frame](rigid%20frame.md)→::@::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2025-11-02,328,255!2025-08-02,273,255-->

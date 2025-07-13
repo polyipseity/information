@@ -15,9 +15,9 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2025-09-05,276,330!2025-07-07,229,330!2025-10-11,305,330!2025-07-25,244,330-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2025-09-05,276,330!2028-05-25,1049,350!2025-10-11,305,330!2025-07-25,244,330-->
 
-While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2026-09-02,540,310!2025-07-11,232,330-->
+While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2026-09-02,540,310!2028-06-01,1056,350-->
 
 ## principles
 
@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2025-07-08,230,330!2025-09-12,281,330!2025-07-25,242,330!2025-07-20,240,330-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2025-07-25,242,330!2025-07-20,240,330-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2025-07-21,241,330-->
 
@@ -126,7 +126,7 @@ This statement is {@{additional to the three main statements described above}@}.
 
 ### the stable measuring assumption
 
-One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-12-29,221,270!2025-07-07,83,369-->
+One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-12-29,221,270!2026-09-10,426,389-->
 
 This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2027-11-11,884,330!2027-12-29,921,330!2025-09-02,166,270!2026-07-29,433,386!2025-10-17,196,346-->
 
@@ -171,7 +171,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 
 Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2025-08-19,263,330!2027-04-30,730,330-->
 
-Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2025-07-10,232,330!2025-07-30,246,330-->
+Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2025-07-30,246,330-->
 
 When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2025-07-24,243,330!2026-09-01,551,330!2025-07-16,236,330!2025-08-01,250,330-->
 
@@ -200,7 +200,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
 - [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!2026-06-08,475,310!2026-04-06,424,310-->
-- [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2025-07-09,231,330!2027-09-22,842,330-->
+- [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2028-05-30,1054,350!2027-09-22,842,330-->
 - [bookkeeping](bookkeeping.md)
 
 ## further reading

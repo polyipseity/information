@@ -102,7 +102,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-07-12,135,290!2025-10-20,229,330!2025-09-28,115,185-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2027-01-14,551,310!2025-10-20,229,330!2025-09-28,115,185-->
 
 <!-- markdownlint MD028 -->
 

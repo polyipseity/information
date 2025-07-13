@@ -141,18 +141,18 @@ return _chain.from_iterable(await _gather(
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2026-01-27,277,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2026-10-22,560,210-->
-- [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2025-07-08,115,190!2027-10-04,881,230-->
+- [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2026-05-24,317,210!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2026-07-23,460,190-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2025-08-05,75,190-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2025-08-10,102,150-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2025-09-23,156,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2025-08-18,148,170-->
-- [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2025-07-07,539,250-->
+- [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2030-09-16,1893,270-->
 - [lead](lead.md)→::@::←[antimony](antimony.md) <!--SR:!2025-11-18,353,210!2026-04-13,667,250-->
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2025-11-08,643,290-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2027-02-28,612,230!2027-10-15,993,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-09-03,213,250-->
-- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-07-11,69,170-->
+- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-12-28,170,190-->
 - [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2025-12-30,464,310-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
@@ -188,7 +188,7 @@ return _chain.from_iterable(await _gather(
 - [antimony](antimony.md):@:Sb<sup>3+</sup> <!--SR:!2025-11-10,332,210-->
 - [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!2026-11-28,673,290-->
 - [copper](copper.md):@:Cu<sup>2+</sup> <!--SR:!2031-03-12,2161,330-->
-- [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2025-07-09,575,310-->
+- [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2032-04-12,2467,330-->
 - [mercury](mercury%20(element).md):@:Hg<sup>2+</sup> <!--SR:!2025-12-14,469,270-->
 - [silver](silver.md):@:Ag<sup>+</sup> <!--SR:!2032-03-27,2459,330-->
 - [gold](gold.md):@:Au<sup>3+</sup> <!--SR:!2031-06-27,2256,330-->
@@ -248,7 +248,7 @@ return _chain.from_iterable(await _gather(
 - [titanium](titanium.md):@:reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2028-01-01,1043,250-->
 - [manganese](manganese.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2025-11-08,178,150-->
 - [zinc](zinc.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2027-07-15,1110,290-->
-- [chromium](chromium.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2025-07-11,312,250-->
+- [chromium](chromium.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2027-08-30,780,250-->
 - [iron](iron.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2029-05-03,1608,310-->
 - [cadmium](cadmium.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2029-07-21,1572,310-->
 - [cobalt](cobalt.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2029-01-01,1381,290-->
@@ -299,7 +299,7 @@ return _chain.from_iterable(await _gather(
 - [chromium](chromium.md):@:[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->
 - [iron](iron.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-05-18,777,310-->
 - [cadmium](cadmium.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-08-22,610,310-->
-- [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-07-07,573,310-->
+- [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2032-04-03,2458,330-->
 - [nickel](nickel.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-25,976,330-->
 - [tin](tin.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-02,744,290-->
 - [lead](lead.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-03-23,812,290-->
@@ -316,7 +316,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
 
-- [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-07-10,23,130-->
+- [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2025-08-27,47,150-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md):@:[titanium](titanium.md) <!--SR:!2028-02-06,993,287-->
 - [smelting](smelting.md) with [coke](coke%20(fuel).md):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-07-24,55,150-->
 - [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2027-05-03,750,267-->

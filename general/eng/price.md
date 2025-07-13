@@ -59,7 +59,7 @@ According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five 
 
 In {@{April 2020, for the first time in history}@}, due to {@{the global health/economic crisis situation}@}, {@{the price of [West Texas Intermediate benchmark crude oil](West%20Texas%20Intermediate.md) for May delivery contracts turned negative}@}, with a barrel of oil at -\$37.63 a barrel, a one-day drop of \$55.90, or 306%, according to Dow Jones Market Data. "Negative prices means {@{someone with a long position in oil would have to pay someone to take that oil off of their hands}@}. Why would they do that? The main reason is {@{a fear that if forced to take delivery of crude on the expiration of the May oil [contract](futures%20contract.md)}@}, there {@{would be nowhere to put it as a glut of crude fills up available storage}@}."<sup>[\[4\]](#^ref-4)</sup> In a sense {@{the price is still positive}@}, just {@{the direction of payment reverses, i.e. in this case you are paid to take some [goods](goods.md)}@}. <!--SR:!2026-12-08,551,310!2025-11-20,285,330!2026-02-05,317,290!2025-11-08,276,330!2025-09-04,206,310!2025-11-25,289,330!2025-07-25,187,310!2025-10-25,263,330-->
 
-{@{[Negative interest rates](interest%20rate.md#negative%20interest%20rates)}@} are {@{a similar concept}@}. <!--SR:!2025-11-30,293,330!2025-07-11,175,310-->
+{@{[Negative interest rates](interest%20rate.md#negative%20interest%20rates)}@} are {@{a similar concept}@}. <!--SR:!2025-11-30,293,330!2027-08-02,751,330-->
 
 ## Austrian School theory
 
@@ -97,7 +97,7 @@ On {@{[restaurant](restaurant.md) [menus](menu.md)}@}, {@{the market price \(oft
 
 __Basic Price__: ::@:: It is the amount that producer receive from buyer for a unit of good or service produced minus any taxes payable and plus subsidies payable on that unit as the result of its production or sales. It does not include any producer transport charges which are involved separately.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-09-01,134,230!2025-10-22,216,270-->
 
-__Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-13,180,310!2025-11-25,289,330-->
+__Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2027-08-22,770,330!2025-11-25,289,330-->
 
 __Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2026-07-11,449,310!2025-11-25,289,330-->
 
