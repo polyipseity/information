@@ -57,7 +57,7 @@ Similarly, {@{any set with four elements can be given two non-isomorphic group s
 
 Given {@{a concrete category \(_C_, _U_\) and a [cardinal number](cardinal%20number.md) _N_}@}, let {@{_U<sup>N</sup>_ be the functor _C_ → __Set__ determined by _U<sup>N</sup>\(c\) = \(U\(c\)\)<sup>N</sup>_ (annotation: duplicate the result of $U$ for $N$ many times)}@}. Then {@{a [subfunctor](subfunctor.md) of _U<sup>N</sup>_}@} is called {@{an _N-ary predicate_}@} and {@{a [natural transformation](natural%20transformation.md) _U<sup>N</sup>_ → _U_}@} {@{an _N-ary operation_}@}.
 
-The class of {@{all _N_-ary predicates and _N_-ary operations of a concrete category \(_C_,_U_\), with _N_ ranging over the class of all cardinal numbers}@}, forms {@{a [large](proper%20class.md) [signature](signature%20(logic).md)}@}. {@{The category of models (annotation: model theory...?) for this signature}@} then {@{contains a full subcategory which is [equivalent](equivalence%20of%20categories.md) to _C_}@}.
+The class of {@{all _N_-ary predicates and _N_-ary operations of a concrete category \(_C_,_U_\)}@}, with {@{_N_ ranging over the class of all cardinal numbers}@}, forms {@{a [large](proper%20class.md) [signature](signature%20(logic).md)}@}. {@{The category of models (annotation: model theory...?) for this signature}@} then {@{contains a full subcategory which is [equivalent](equivalence%20of%20categories.md) to _C_}@}.
 
 ## relative concreteness
 

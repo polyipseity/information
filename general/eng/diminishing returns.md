@@ -88,7 +88,7 @@ There is {@{a widely recognised production function in economics}@}: {@{_Q= f\(N
 
 ### link with output elasticity
 
-Start from {@{the equation for the marginal product}@}: {@{${\Delta Out \over \Delta In_{1} }={ {f(In_{2},In_{1}+\Delta In_{1})-f(In_{1},In_{2})} \over \Delta In_{1} }$}@}
+Start from {@{the equation for the marginal product}@}: {@{${\Delta Out \over \Delta In_{1} }={ {f(In_{1}+\Delta In_{1},In_{2})-f(In_{1},In_{2})} \over \Delta In_{1} }$}@}
 
 To {@{demonstrate diminishing returns}@}, {@{two conditions are satisfied}@}; {@{marginal product is positive, and marginal product is decreasing}@}.
 

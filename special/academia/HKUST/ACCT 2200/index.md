@@ -374,9 +374,9 @@ The content is in teaching order.
 - [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even".
 - cost–volume–profit analysis
   - cost–volume–profit analysis / method ::@:: contribution margin ratio method, profit equation method, unit contribution margin method
-  - cost–volume–profit analysis / profit equation method ::@:: Write profit (net operating income) as a function of quantity. Equate it to _0_ and solve for quantity.
-    - cost–volume–profit analysis / profit equation method / equation ::@:: unit price × quantity − unit variable costs × quantity - fixed costs
-    - cost–volume–profit analysis / profit equation method / target profit ::@:: Write profit (net operating income) as a function of quantity. Equate it to the _target profit_ and solve for quantity.
+  - cost–volume–profit analysis / profit equation method ::@:: Write profit \(net operating income\) as a function of quantity. Equate it to _0_ and solve for quantity.
+    - cost–volume–profit analysis / profit equation method / equation ::@:: unit price × quantity − unit variable costs × quantity − fixed costs
+    - cost–volume–profit analysis / profit equation method / target profit ::@:: Write profit \(net operating income\) as a function of quantity. Equate it to the _target profit_ and solve for quantity.
   - cost–volume–profit analysis / graph ::@:: The graph shows both profit method and contribution method: ![cost–volume–profit analysis graph](../../../../archives/Wikimedia%20Commons/CVP-TC-FC-VC-Sales-Contrib-VC-PL-compat.svg)
   - cost–volume–profit analysis / unit contribution margin method ::@:: Find the _unit_ contribution margin. Then find _break-even units_ by dividing _fixed_ costs by unit contribution margin. Then find _break-even sales_ by multiplying break-even units by selling price. <p> You may use a _table_. (But really, is it necessary?)
     - cost–volume–profit analysis / unit contribution margin method / target profit ::@:: Find the _unit_ contribution margin. Then find _target units_ by adding fixed costs _and_ target profit, and then dividing it by unit contribution margin. Then find _target sales_ by multiplying target units by selling price.
