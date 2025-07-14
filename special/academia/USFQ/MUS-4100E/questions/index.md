@@ -5,7 +5,7 @@ aliases:
   - USFQ MUS-4100E question
   - USFQ MUS-4100E questions
 tags:
-  - flashcard/active/special/academia/USFQ/MUS-4100E/questions/index
+  - flashcard/active/special/academia/USFQ/MUS-4100E/questions
   - language/in/English
 ---
 

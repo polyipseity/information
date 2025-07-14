@@ -11,7 +11,7 @@ aliases:
   - HKUST CIVL1100
   - HKUST CIVL1100 index
 tags:
-  - flashcard/active/special/academia/HKUST/CIVL_1100/index
+  - flashcard/active/special/academia/HKUST/CIVL_1100
   - function/index
   - language/in/English
 ---

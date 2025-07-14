@@ -5,7 +5,7 @@ aliases:
   - HKUST Robotics Team
   - HKUST Robotics Team index
 tags:
-  - flashcard/active/special/academia/HKUST/Robotics_Team/index
+  - flashcard/active/special/academia/HKUST/Robotics_Team
   - function/index
   - language/in/English
 ---

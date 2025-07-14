@@ -11,7 +11,7 @@ aliases:
   - HKUST COMP1029V
   - HKUST COMP1029V index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_1029V/index
+  - flashcard/active/special/academia/HKUST/COMP_1029V
   - function/index
   - language/in/English
 ---

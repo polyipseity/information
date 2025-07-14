@@ -11,7 +11,7 @@ aliases:
   - HKUST COMP1942
   - HKUST COMP1942 index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_1942/index
+  - flashcard/active/special/academia/HKUST/COMP_1942
   - function/index
   - language/in/English
 ---

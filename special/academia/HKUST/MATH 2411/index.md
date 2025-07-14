@@ -11,7 +11,7 @@ aliases:
   - MATH2411
   - MATH2411 index
 tags:
-  - flashcard/active/special/academia/HKUST/MATH_2411/index
+  - flashcard/active/special/academia/HKUST/MATH_2411
   - function/index
   - language/in/English
 ---

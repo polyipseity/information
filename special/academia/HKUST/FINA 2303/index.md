@@ -11,7 +11,7 @@ aliases:
   - HKUST FINA2303
   - HKUST FINA2303 index
 tags:
-  - flashcard/active/special/academia/HKUST/FINA_2303/index
+  - flashcard/active/special/academia/HKUST/FINA_2303
   - function/index
   - language/in/English
 ---

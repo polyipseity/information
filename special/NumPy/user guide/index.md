@@ -2,7 +2,7 @@
 aliases:
   - NumPy user guide
 tags:
-  - flashcard/active/special/NumPy/user_guide/index
+  - flashcard/active/special/NumPy/user_guide
   - function/index
   - language/in/English
   - version/NumPy/2/1

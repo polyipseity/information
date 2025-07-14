@@ -4,7 +4,6 @@ aliases:
   - MARS
 tags:
   - flashcard/active/special/academia/HKUST/COMP_2611/MARS
-  - function/index
   - language/in/English
 ---
 

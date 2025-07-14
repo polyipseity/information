@@ -3,7 +3,7 @@ aliases:
   - audio signal processing index
   - audio signal processing indexes
 tags:
-  - flashcard/active/special/audio_signal_processing/index
+  - flashcard/active/special/audio_signal_processing
   - function/index
   - language/in/English
 ---

@@ -11,7 +11,7 @@ aliases:
   - HKUST COMP2633
   - HKUST COMP2633 index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2633/index
+  - flashcard/active/special/academia/HKUST/COMP_2633
   - function/index
   - language/in/English
 ---

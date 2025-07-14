@@ -11,7 +11,7 @@ aliases:
   - Java Programming
   - Java Programming index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3021/index
+  - flashcard/active/special/academia/HKUST/COMP_3021
   - function/index
   - language/in/English
 ---

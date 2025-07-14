@@ -11,7 +11,7 @@ aliases:
   - PHYS1314
   - PHYS1314 index
 tags:
-  - flashcard/active/special/academia/HKUST/PHYS_1314/index
+  - flashcard/active/special/academia/HKUST/PHYS_1314
   - function/index
   - language/in/English
 ---

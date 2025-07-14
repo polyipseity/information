@@ -11,7 +11,7 @@ aliases:
   - Honors Discrete Mathematical Tools for Computer Science
   - Honors Discrete Mathematical Tools for Computer Science index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2711H/index
+  - flashcard/active/special/academia/HKUST/COMP_2711H
   - function/index
   - language/in/English
 ---

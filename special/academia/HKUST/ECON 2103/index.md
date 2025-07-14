@@ -11,7 +11,7 @@ aliases:
   - Principles of Microeconomics
   - Principles of Microeconomics index
 tags:
-  - flashcard/active/special/academia/HKUST/ECON_2103/index
+  - flashcard/active/special/academia/HKUST/ECON_2103
   - function/index
   - language/in/English
 ---

@@ -3,7 +3,7 @@ aliases:
   - ESST electrical safety index
   - HKUST ESST electrical safety index
 tags:
-  - flashcard/archive/special/academia/HKUST/ESST/electrical_safety/index
+  - flashcard/archive/special/academia/HKUST/ESST/electrical_safety
   - function/index
   - language/in/English
 ---

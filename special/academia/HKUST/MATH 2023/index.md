@@ -11,7 +11,7 @@ aliases:
   - Multivariable Calculus
   - Multivariable Calculus index
 tags:
-  - flashcard/active/special/academia/HKUST/MATH_2023/index
+  - flashcard/active/special/academia/HKUST/MATH_2023
   - function/index
   - language/in/English
 ---

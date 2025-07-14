@@ -11,7 +11,7 @@ aliases:
   - Programming with C++
   - Programming with C++ index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2011/index
+  - flashcard/active/special/academia/HKUST/COMP_2011
   - function/index
   - language/in/English
 ---

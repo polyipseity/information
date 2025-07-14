@@ -11,7 +11,7 @@ aliases:
   - Java Programming Bridging Course
   - Java Programming Bridging Course index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_1029J/index
+  - flashcard/active/special/academia/HKUST/COMP_1029J
   - function/index
   - language/in/English
 ---

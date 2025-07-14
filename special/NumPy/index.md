@@ -2,7 +2,7 @@
 aliases:
   - NumPy
 tags:
-  - flashcard/active/special/NumPy/index
+  - flashcard/active/special/NumPy
   - function/index
   - language/in/English
   - version/NumPy/2/1

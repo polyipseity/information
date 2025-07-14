@@ -11,7 +11,7 @@ aliases:
   - ISDN0003
   - ISDN0003 index
 tags:
-  - flashcard/active/special/academia/HKUST/ISDN_0003/index
+  - flashcard/active/special/academia/HKUST/ISDN_0003
   - function/index
   - language/in/English
 ---

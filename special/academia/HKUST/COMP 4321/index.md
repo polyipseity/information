@@ -11,7 +11,7 @@ aliases:
   - Search Engines for Web and Enterprise Data
   - Search Engines for Web and Enterprise Data index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_4321/index
+  - flashcard/active/special/academia/HKUST/COMP_4321
   - function/index
   - language/in/English
 ---

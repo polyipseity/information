@@ -3,7 +3,7 @@ aliases:
   - USFQ index
   - Universidad San Francisco de Quito index
 tags:
-  - flashcard/active/special/academia/USFQ/index
+  - flashcard/active/special/academia/USFQ
   - function/index
   - language/in/English
 ---

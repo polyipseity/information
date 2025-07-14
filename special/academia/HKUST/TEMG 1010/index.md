@@ -11,7 +11,7 @@ aliases:
   - TEMG1010
   - TEMG1010 index
 tags:
-  - flashcard/active/special/academia/HKUST/TEMG_1010/index
+  - flashcard/active/special/academia/HKUST/TEMG_1010
   - function/index
   - language/in/English
 ---

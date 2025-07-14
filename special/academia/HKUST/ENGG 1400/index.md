@@ -11,7 +11,7 @@ aliases:
   - HKUST ENGG1400
   - HKUST ENGG1400 index
 tags:
-  - flashcard/active/special/academia/HKUST/ENGG_1400/index
+  - flashcard/active/special/academia/HKUST/ENGG_1400
   - function/index
   - language/in/English
 ---

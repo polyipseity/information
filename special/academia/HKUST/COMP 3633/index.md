@@ -11,7 +11,7 @@ aliases:
   - HKUST COMP3633
   - HKUST COMP3633 index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3633/index
+  - flashcard/active/special/academia/HKUST/COMP_3633
   - function/index
   - language/in/English
 ---

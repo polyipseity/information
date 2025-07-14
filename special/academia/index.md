@@ -2,7 +2,7 @@
 aliases:
   - academia index
 tags:
-  - flashcard/active/special/academia/index
+  - flashcard/active/special/academia
   - function/index
   - language/in/English
 ---

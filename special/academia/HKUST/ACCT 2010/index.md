@@ -11,7 +11,7 @@ aliases:
   - Principles of Accounting I
   - Principles of Accounting I index
 tags:
-  - flashcard/active/special/academia/HKUST/ACCT_2010/index
+  - flashcard/active/special/academia/HKUST/ACCT_2010
   - function/index
   - language/in/English
 ---
