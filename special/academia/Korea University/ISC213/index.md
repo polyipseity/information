@@ -54,7 +54,7 @@ The content is in teaching order.
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc.
   - information system / users ::@:: Senior management, middle management, and operational management may use it.
   - information system / data vs. information ::@:: The former is raw fact. The latter is the former shaped into something meaningful. An information system takes the former to produce the latter.
-  - information system / dimensions ::@:: management, organization, technology
+  - information system / dimensions ::@:: 3 dimensions: management, organization, technology
     - information system / dimensions / technology ::@:: computer hardware, computer software, data management, networking and telecommunications, infrastructure, etc.
     - information system / dimensions / organization ::@:: IS can create value and result in superior results for an organization, e.g. better strategies, increased productivity, increased revenue, etc.
     - information system / dimensions / management ::@:: IS can but does not _guarantee_ good results. There is considerable variation. Factors include _complementary assets_, right business model, etc. so good management of IS is needed.
@@ -200,7 +200,7 @@ The content is in teaching order.
   - local: 2025-07-08T08:00:00+08:00/2025-07-08T09:40:00+08:00, PT1H40M
 - topic: ethics, social issues, information systems
 - [ethics](../../../../general/ethics.md) ::@:: principles of right and wrong that free moral agents \(e.g. individuals\) to guide their behaviors
-  - ethics / dimensions for information ::@:: accountability and control, information rights and obligations, property rights and obligations, quality of life, health risks, system quality
+  - ethics / dimensions for information ::@:: 6 dimensions: accountability and control, information rights and obligations, property rights and obligations, quality of life, health risks, system quality
     - ethics / dimensions for information / accountability and control ::@:: This refers to who is responsible \(responsibility, under accountability\) for the actions and consequences of an information system, and how much control individuals have over their own data and information.
     - ethics / dimensions for information / information rights and obligations ::@:: This encompasses the rights individuals have to access, control, and protect their personal information, as well as the obligations organizations have to respect these rights.
     - ethics / dimensions for information / property rights and obligations ::@:: This deals with who owns information and intellectual property, and the associated obligations regarding its use and distribution.
@@ -217,7 +217,7 @@ The content is in teaching order.
 - [privacy](../../../../generala/privacy.md) ::@:: It is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively.
   - privacy / United States ::@:: First Amendment: freedom of speech <br/> Fourth Amendment: unreasonable search and seizure <br/> additional federal statues: Privacy Act of 1974, etc.
 - [FTC fair information practice](../../../../general/FTC%20fair%20information%20practice.md) \(FTC FIP\) ::@:: They are US FTC guidelines that represent widely accepted concepts concerning fair information practice in an electronic marketplace.
-  - FTC fair information practice / uses ::@:: They are the basis of most US and European privacy laws. They are based on interest mutuality between data controllers and individuals.
+  - FTC fair information practice / uses ::@:: They are the basis of most US and European privacy laws. They are based on mutuality of interest between data controllers and individuals.
   - FTC fair information practice / extension ::@:: They were restated and extended by FTC in 1998 to provide guidelines for online privacy. <p> They addressed legal gray areas, which are \(then\) new situations not covered by old laws.
   - FTC fair information practice / examples ::@:: COPPA, Do-Not-Track Online Act of 2011, Gramm–Leach–Bliley Act, HIPAA, etc.
   - FTC fair information practice / principles ::@:: access/participation, awareness/notice \(core\), choice/consent \(core\), enforcement, security
@@ -228,8 +228,8 @@ The content is in teaching order.
     - FTC fair information practice / principles / enforcement ::@:: Mechanisms must be present to enforce the FIP principles.
 - [Data Protection Directive](../../../../general/Data%20Protection%20Directive.md) ::@:: It was a European Union directive which regulated the processing of personal data within the European Union \(EU\) and the free movement of such data. <p> The General Data Protection Regulation, adopted in April 2016, superseded the Data Protection Directive and became enforceable on 25 May 2018.
   - Data Protection Directive / requirements ::@:: Data controllers must request consent to data collection and disclose data practices.
-  - Data Protection Directive / transfer ::@:: EU member nations cannot transfer data to other countries without similar privacy protection. <p> For example, the United States use the Safe Harbor framework to work with EU data.
-  - Data Protection Directive / other rights to be considered ::@:: right of access, right to be forgotten
+  - Data Protection Directive / transfer ::@:: EU member nations cannot transfer data to other countries without similar privacy protection. <p> For example, the United States use the Safe Harbour Privacy Principles \(superseded in 2016\) to work with EU data.
+  - Data Protection Directive / new rights to be considered ::@:: right of access, right to be forgotten
 - [intellectual property](../../../../general/intellectual%20property.md) \(IP\) ::@:: It is a category of property that includes intangible creations of the human intellect. There are many types of intellectual property, and some countries recognize more than others. The best-known types are patents, copyrights, trademarks, and trade secrets.
   - intellectual property / trade secrets ::@:: IP belonging to businesses that are not in the public domain
   - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\)
@@ -243,14 +243,14 @@ The content is in teaching order.
 - datetime: 2025-07-09T09:00:00+09:00/2025-07-09T10:40:00+09:00, PT1H40M
   - local: 2025-07-09T08:00:00+08:00/2025-07-09T09:40:00+08:00, PT1H40M
 - topic: data ethics
-- [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It, refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data.
+- [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data.
 - ethics
   - ethics / traditions ::@:: 3 major traditions: deontology, utilitarianism, virtue ethics
     - ethics / traditions / virtue ethics ::@:: Explored by Aristotle. Focuses on people: if a person has good character, the person does ethical actions.
     - ethics / traditions / deontology ::@:: Explored by Immanuel Kant. Focuses on processes: categorical imperatives: if an action \(process\) is not right, it is unethical for _anyone_ to take this action.
     - ethics / traditions / utilitarianism ::@:: Explored by John Stuart Mill. Focuses on consequences: cost—benefit analysis.
 - big data ethics
-  - big data ethics / dimensions ::@:: algorithm ethics, data ethics, practice ethics
+  - big data ethics / dimensions ::@:: 3 dimensions: algorithm ethics, data ethics, practice ethics
     - big data ethics / dimensions / data ethics ::@:: consent, data breach, privacy, trust
     - big data ethics / dimensions / algorithm ethics ::@:: design philosophy, explainabiility, machine bias, model transparency
     - big data ethics / dimensions / practice ethics ::@:: fairness, human rights, presentation bias
@@ -266,24 +266,24 @@ The content is in teaching order.
   - big data ethics / presentation bias ::@:: When data is presented, the visualization can be \(psychologically\) deceiving. This may be unintentional or intentional. <p> examples: a 3D pie chart that makes data "closer" to the screen have a larger visual size, deceptive scaling, etc.
   - big data ethics / fairness ::@:: Attempts to correct algorithmic bias \(model bias\) to make it more "fair".
   - big data ethics / human rights ::@:: These rights are considered inherent and inalienable, meaning they belong to every individual simply by virtue of being human, regardless of characteristics. <p> Algorithms are no exception. They should respect these rights.
-  - big data ethics / legislation ::@:: United States: Children's Online Privacy Protection Act \(COPPA, 2000\), Gramm–Leach–Bliley Act \(GLBA, 1999\), Health Insurance Portability and Accountability Acct \(HIPAA, 1996\), U.S. Privacy Act \(1970\) <br/> United States \(state\): Californian Consumer Privacy Act \(CCPA\), Massachusetts Data Protection Act
+  - big data ethics / legislation ::@:: United States: Children's Online Privacy Protection Act \(COPPA, 2000\), Gramm–Leach–Bliley Act \(GLBA, 1999\), Health Insurance Portability and Accountability Acct \(HIPAA, 1996\), U.S. Privacy Act \(1970\) <br/> United States \(by states\): Californian Consumer Privacy Act \(CCPA\), Massachusetts Data Protection Act
 - assignment: [quiz 4](questions/quiz%204.md)
 
 ## week 2 lecture 4
 
 - datetime: 2025-07-10T09:00:00+09:00/2025-07-10T10:40:00+09:00, PT1H40M
-  - local: 2025-07-10T08:00:00+08:00/2025-07-10T09:40:00+08:00, PT1H40M
+  - local: 2025-07-10T08:00:00+08:00/2025-07-10T09:40:00+08:00, PT1H40M.
 - topic: IT infrastructure, emerging technologies
 - [IT infrastructure](../../../../general/IT%20infrastructure.md) ::@:: It is the set of physical devices and software required to operate an enterprise.
   - IT infrastructure / services ::@:: application, computing, data, physical facilities management, telecommunications, etc.
   - IT infrastructure / evolution ::@:: general-purpose mainframes/minicomputers \(1959\) → personal computers \(1981\) → client/server \(1983\) → enterprise computing \(1992\) → cloud computing, mobile computing \(2000\)
     - IT infrastructure / evolution / general-purpose mainframes/minicomputers ::@:: Mainframes are very large computers. Minicomputers connect to mainframes to access computing resources. Computing is _centralized_.
-    - IT infrastructure / evolution / personal computers ::@:: Personal computers carry computing powers themselves and can be used standalone. Computing becomes _decentralized_.
-    - IT infrastructure / evolution / client/server ::@:: Client computers connect to server computers \(client/server architecture\). Both computers have computing resources and probably perform different tasks. Computing becomes even more decentralized.
+    - IT infrastructure / evolution / personal computers ::@:: Personal computers carry computing powers themselves and can be used standalone. Computing starts to become _decentralized_.
+    - IT infrastructure / evolution / client/server ::@:: Client computers connect to server computers \(client/server architecture\). Both computers have computing resources and probably perform different tasks. Computing becomes even more _decentralized_.
     - IT infrastructure / evolution / enterprise computing ::@:: Clients and servers are networked together by an enterprise server. The enterprise server also connects to the internet.
     - IT infrastructure / evolution / cloud computing, mobile computing ::@::  Computing resources are no longer tied to physical computers, but reside on the cloud. Meanwhile, computers become smaller to become portable, e.g. mobile phones, etc.
   - IT infrastructure / drivers ::@:: communication cost improvement, law of mass digital storage, Moore's law, Metcalfe's law
-    - IT infrastructure / drivers / Moore's law ::@:: It is is the observation that the number of transistors in an integrated circuit \(IC\) doubles about every two years. <p> In 1975, House noted that Moore's revised law of doubling transistor count every 2 years in turn implied that computer chip performance would roughly double every 18 months. \(this course: Use the latter statement instead.\)
+    - IT infrastructure / drivers / Moore's law ::@:: It is is the observation that the number of transistors in an integrated circuit \(IC\) doubles about every two years. <p> In 1975, House noted that Moore's revised law of doubling transistor count every 2 years in turn implied that computer chip performance would roughly double every 18 months. \(__this course__: Use the latter statement instead.\)
     - IT infrastructure / drivers / Metcalfe's law ::@:: It states that the financial value or influence of a telecommunications network is proportional to the square of the number of connected users of the system \(_n_<sup>2</sup>\).
   - IT infrastructure / components ::@:: computer hardware, consulting system integration, data management and storage, enterprise software, internet, networking, operating systems, telecommunications, etc.
   - IT infrastructure / hardware trends ::@:: better processors, bring your own device \(BYOD\), cloud computing, consumerization of information technology, green computing, mobile computing, quantum computing, virtualization, etc.
@@ -308,7 +308,7 @@ The content is in teaching order.
   - open-source software / examples ::@:: Apache web server, Mozilla Firebox, OpenOffice
 - [Linux](../../../../general/Linux.md) ::@:: An open-source operating systems used in high-performance computing. It is used in Android, local area networks \(LAN\), mobile devices, web servers, etc.
   - Linux / Unix-like ::@:: It is Unix-like. Unix is a multitasking, multi-user operating system developed by Bell Laboratories.
-- [web platform](../../../../general/web%20platform.md) ::@:: It is a collection of technologies developed as open standards by the World Wide Web Consortium and other standardization bodies
+- [web platform](../../../../general/web%20platform.md) ::@:: It is a collection of technologies developed as open standards by the World Wide Web Consortium and other standardization bodies.
   - web platform / software ::@:: HTML/HTML5, Java, Python, Ruby, etc.
 - [web service](../../../../general/web%20service.md) ::@:: They are software components that exchange information using web standards and languages. <p> examples: extensible markup language \(XML\)
 - [XML](../../../../general.XML) \(extensible markup language\) ::@:: It is a markup language and file format for storing, transmitting, and reconstructing data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
@@ -333,7 +333,7 @@ The content is in teaching order.
 - [data hierarchy](../../../../general/data%20hierarchy.md) ::@:: It refers to the systematic organization of data, often in hierarchical form. Data organization involves characters, fields, records, files and so on.
   - data hierarchy / the hierarchy ::@:: database ← file ← record ← field ← byte \(8 bits; some ancient computers use 7 bits\) ← bit
 - [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access.
-  - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features\(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy
+  - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy
 - [database](../../../../general/database.md) ::@:: It is an organized collection of data or a type of data store based on the use of a database management system \(DBMS\), the software that interacts with end users, applications, and the database itself to capture and analyze the data.
   - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications.
   - database / database management system \(DBMS\) ::@:: It is an interface between databases and applications. It separates data into physical and logical views.
