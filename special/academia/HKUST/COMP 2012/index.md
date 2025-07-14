@@ -11,7 +11,7 @@ aliases:
   - Object-Oriented Programming and Data Structures
   - Object-Oriented Programming and Data Structures index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2012/index
+  - flashcard/active/special/academia/HKUST/COMP_2012
   - function/index
   - language/in/English
 ---

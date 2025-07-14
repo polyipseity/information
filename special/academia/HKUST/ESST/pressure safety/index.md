@@ -3,7 +3,7 @@ aliases:
   - ESST pressure safety index
   - HKUST ESST pressure safety index
 tags:
-  - flashcard/archive/special/academia/HKUST/ESST/pressure_safety/index
+  - flashcard/archive/special/academia/HKUST/ESST/pressure_safety
   - function/index
   - language/in/English
 ---

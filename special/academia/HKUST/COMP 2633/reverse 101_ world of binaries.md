@@ -1,17 +1,16 @@
 ---
 aliases:
   - Rev 101
-  - 'Rev 101: World of Binaries'
+  - "Rev 101: World of Binaries"
   - Reverse 101
-  - 'Reverse 101: World of Binaries'
+  - "Reverse 101: World of Binaries"
   - rev 101
-  - 'rev 101: world of binaries'
+  - "rev 101: world of binaries"
   - reverse 101
-  - 'reverse 101: world of binaries'
+  - "reverse 101: world of binaries"
   - world of binaries
 tags:
   - flashcard/active/special/academia/HKUST/COMP_2633/reverse_101__world_of_binaries
-  - function/index
   - language/in/English
 ---
 

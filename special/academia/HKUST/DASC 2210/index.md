@@ -11,7 +11,7 @@ aliases:
   - HKUST DASC2210
   - HKUST DASC2210 index
 tags:
-  - flashcard/active/special/academia/HKUST/DASC_2210/index
+  - flashcard/active/special/academia/HKUST/DASC_2210
   - function/index
   - language/in/English
 ---

@@ -1,13 +1,12 @@
 ---
 aliases:
   - Pwn 101
-  - 'Pwn 101: Binary and Buffer Overflow'
+  - "Pwn 101: Binary and Buffer Overflow"
   - binary and buffer overflow
   - pwn 101
-  - 'pwn 101: binary and buffer overflow'
+  - "pwn 101: binary and buffer overflow"
 tags:
   - flashcard/active/special/academia/HKUST/COMP_2633/pwn_101__binary_and_buffer_overflow
-  - function/index
   - language/in/English
 ---
 

@@ -9,7 +9,7 @@ aliases:
   - USFQ MUS-4100E
   - USFQ MUS-4100E index
 tags:
-  - flashcard/active/special/academia/USFQ/MUS-4100E/index
+  - flashcard/active/special/academia/USFQ/MUS-4100E
   - function/index
   - language/in/English
 ---

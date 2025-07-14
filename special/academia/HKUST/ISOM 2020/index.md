@@ -11,7 +11,7 @@ aliases:
   - ISOM2020
   - ISOM2020 index
 tags:
-  - flashcard/active/special/academia/HKUST/ISOM_2020/index
+  - flashcard/active/special/academia/HKUST/ISOM_2020
   - function/index
   - language/in/English
 ---

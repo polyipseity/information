@@ -11,7 +11,7 @@ aliases:
   - Python Programming Bridging Course
   - Python Programming Bridging Course index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_1029P/index
+  - flashcard/active/special/academia/HKUST/COMP_1029P
   - function/index
   - language/in/English
 ---

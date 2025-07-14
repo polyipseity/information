@@ -7,7 +7,7 @@ aliases:
   - Korea University ISC213
   - Korea University ISC213 index
 tags:
-  - flashcard/active/special/academia/Korea_University/ISC213/index
+  - flashcard/active/special/academia/Korea_University/ISC213
   - function/index
   - language/in/English
 ---

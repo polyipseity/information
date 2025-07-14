@@ -11,7 +11,7 @@ aliases:
   - HKUST COMP3211
   - HKUST COMP3211 index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3211/index
+  - flashcard/active/special/academia/HKUST/COMP_3211
   - function/index
   - language/in/English
 ---

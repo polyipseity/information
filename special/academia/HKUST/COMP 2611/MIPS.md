@@ -6,7 +6,6 @@ aliases:
   - Microprocessor without Interlocked Pipeline Stages
 tags:
   - flashcard/active/special/academia/HKUST/COMP_2611/MIPS
-  - function/index
   - language/in/English
 ---
 

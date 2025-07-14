@@ -3,7 +3,7 @@ aliases:
   - ESST occupational health index
   - HKUST ESST occupational health index
 tags:
-  - flashcard/archive/special/academia/HKUST/ESST/occupational_health/index
+  - flashcard/archive/special/academia/HKUST/ESST/occupational_health
   - function/index
   - language/in/English
 ---

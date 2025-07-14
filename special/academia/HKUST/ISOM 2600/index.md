@@ -11,7 +11,7 @@ aliases:
   - Introduction to Business Analytics
   - Introduction to Business Analytics index
 tags:
-  - flashcard/active/special/academia/HKUST/ISOM_2600/index
+  - flashcard/active/special/academia/HKUST/ISOM_2600
   - function/index
   - language/in/English
 ---

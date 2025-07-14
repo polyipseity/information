@@ -3,7 +3,7 @@ aliases:
   - HKUST index
   - Hong Kong University of Science and Technology index
 tags:
-  - flashcard/active/special/academia/HKUST/index
+  - flashcard/active/special/academia/HKUST
   - function/index
   - language/in/English
 ---

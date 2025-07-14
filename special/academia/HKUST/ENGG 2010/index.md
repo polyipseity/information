@@ -11,7 +11,7 @@ aliases:
   - HKUST ENGG2010
   - HKUST ENGG2010 index
 tags:
-  - flashcard/active/special/academia/HKUST/ENGG_2010/index
+  - flashcard/active/special/academia/HKUST/ENGG_2010
   - function/index
   - language/in/English
 ---

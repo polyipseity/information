@@ -15,7 +15,7 @@ aliases:
   - PHYS1002 index
   - PHYS1002 indexes
 tags:
-  - flashcard/active/special/academia/HKUST/PHYS_1002/index
+  - flashcard/active/special/academia/HKUST/PHYS_1002
   - function/index
   - language/in/English
 ---

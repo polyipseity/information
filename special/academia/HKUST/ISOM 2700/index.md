@@ -11,7 +11,7 @@ aliases:
   - Operations Management
   - Operations Management index
 tags:
-  - flashcard/active/special/academia/HKUST/ISOM_2700/index
+  - flashcard/active/special/academia/HKUST/ISOM_2700
   - function/index
   - language/in/English
 ---

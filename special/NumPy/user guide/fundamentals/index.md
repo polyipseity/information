@@ -3,7 +3,7 @@ aliases:
   - NumPy fundamental
   - NumPy fundamentals
 tags:
-  - flashcard/active/special/NumPy/user_guide/fundamentals/index
+  - flashcard/active/special/NumPy/user_guide/fundamentals
   - function/index
   - language/in/English
   - version/NumPy/2/1

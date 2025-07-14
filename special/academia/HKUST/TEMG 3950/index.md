@@ -11,7 +11,7 @@ aliases:
   - TEMG3950
   - TEMG3950 index
 tags:
-  - flashcard/active/special/academia/HKUST/TEMG_3950/index
+  - flashcard/active/special/academia/HKUST/TEMG_3950
   - function/index
   - language/in/English
 ---

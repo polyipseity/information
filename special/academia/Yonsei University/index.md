@@ -2,7 +2,7 @@
 aliases:
   - Yonsei University index
 tags:
-  - flashcard/active/special/academia/Yonsei_University/index
+  - flashcard/active/special/academia/Yonsei_University
   - function/index
   - language/in/English
 ---

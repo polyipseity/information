@@ -11,7 +11,7 @@ aliases:
   - PHYS1112
   - PHYS1112 index
 tags:
-  - flashcard/active/special/academia/HKUST/PHYS_1112/index
+  - flashcard/active/special/academia/HKUST/PHYS_1112
   - function/index
   - language/in/English
 ---

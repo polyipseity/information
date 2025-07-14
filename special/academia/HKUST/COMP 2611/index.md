@@ -11,7 +11,7 @@ aliases:
   - HKUST COMP2611
   - HKUST COMP2611 index
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2611/index
+  - flashcard/active/special/academia/HKUST/COMP_2611
   - function/index
   - language/in/English
 ---

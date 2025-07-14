@@ -11,7 +11,7 @@ aliases:
   - Principles of Accounting II
   - Principles of Accounting II index
 tags:
-  - flashcard/active/special/academia/HKUST/ACCT_2200/index
+  - flashcard/active/special/academia/HKUST/ACCT_2200
   - function/index
   - language/in/English
 ---

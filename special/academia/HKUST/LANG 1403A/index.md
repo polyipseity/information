@@ -11,7 +11,7 @@ aliases:
   - LANG1403A
   - LANG1403A index
 tags:
-  - flashcard/active/special/academia/HKUST/LANG_1403A/index
+  - flashcard/active/special/academia/HKUST/LANG_1403A
   - function/index
   - language/in/English
 ---
