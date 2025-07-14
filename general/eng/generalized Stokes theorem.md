@@ -85,7 +85,7 @@ On the other hand, {@{the differential forms}@}, with {@{exterior derivative, _d
 
 {@{Stokes' theorem on smooth manifolds}@} can be {@{derived from Stokes' theorem for chains in smooth manifolds}@}, and {@{vice versa}@}.<sup>[\[11\]](#^ref-11)</sup> Formally stated, the latter reads:<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-29,17,316!2025-07-29,17,316!2025-07-29,17,310-->
 
-> {@{__Theorem__ \(_Stokes' theorem for chains_\)}@}—If _c_ is {@{a smooth _k_-chain in a smooth manifold _M_}@}, and _ω_ is {@{a smooth \(_k_ − 1\)-form on _M_}@}, then {@{$$\int _{\partial c}\omega =\int _{c}d\omega .$$}@} <!--SR:!2025-07-29,17,310!2025-07-28,16,290!2025-07-26,14,290!2025-07-28,16,290--> \(annotation: {@{A $(k-1)$-form $\omega$}@} treated as {@{a linear functional on the $k-1$-chain $\partial c$}@} can be {@{pullbacked by the exterior derivative $\mathrm d$}@} to become {@{a $k$-form $\mathrm d\omega$ acting}@} treated as {@{a linear functional on the $k$-chain $c$}@}.\)
+> {@{__Theorem__ \(_Stokes' theorem for chains_\)}@}—If _c_ is {@{a smooth _k_-chain in a smooth manifold _M_}@}, and _ω_ is {@{a smooth \(_k_ − 1\)-form on _M_}@}, then {@{$$\int _{\partial c}\omega =\int _{c}d\omega .$$}@}  \(annotation: {@{A $(k-1)$-form $\omega$}@} treated as {@{a linear functional on the $k-1$-chain $\partial c$}@} can be {@{pullbacked by the exterior derivative $\mathrm d$}@} to become {@{a $k$-form $\mathrm d\omega$ acting}@} treated as {@{a linear functional on the $k$-chain $c$}@}.\) <!--SR:!2025-07-29,17,310!2025-07-28,16,290!2025-07-26,14,290!2025-07-28,16,290!2025-07-17,4,320!2025-07-17,4,320!2025-07-17,4,320!2025-07-16,3,300!2025-07-17,4,320-->
 
 ## underlying principle
 
