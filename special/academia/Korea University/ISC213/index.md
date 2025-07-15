@@ -344,7 +344,7 @@ The content is in teaching order.
   - relational database / tuples ::@:: They are rows in a table. They are records, one for an entity. A table contains records for the same type of record.
   - relational database / fields ::@:: They are columns in a table. They are attributes common to all records \(of the same type\) in a table.
   - relational database / keys ::@:: Fields that are used to identify records in a table \(the table may be the current table or a different table\).
-    - relational database / primary keys ::@:: A key used to identify records in the current table. Other tables reference records in the current table using this key.
+    - relational database / primary keys ::@:: A key used to identify records in the current table. It is unique to each record in the current table. Other tables reference records in the current table using this key. <p> Many RDBMS requires at least one of this key for each record.
     - relational database / foreign keys ::@:: A key used to identify records in a different table. It references primary keys of records in the other table.
   - relational database / operations ::@:: common operations: join, project, select, etc.
     - relational database / operations / select ::@:: Return a subset of records that meet user-specified criteria.
@@ -361,3 +361,42 @@ The content is in teaching order.
   - database / consistency ::@:: Referential integrity rules are used to ensure data consistency in a database. Relationships between data remain consistent.
 - [entity–relationship model](../../../../general/entity–relationship%20model.md) \(ER model\) ::@:: It describes interrelated things of interest in a specific domain of knowledge.
   - entity–relationship model / the model ::@:: A basic ER model \(entity–relationship diagram, ERD\) is composed of entity types \(which classify the things of interest\) and specifies relationships that can exist between entities \(instances of those entity types\). <p> Often, relationships are described logically \(e.g. one-to-one, one-to-many, many-to-many, etc.\) and semantically \(described using words, in both directions\).
+
+## week 3 lecture 2
+
+- datetime: 2025-07-15T09:00:00+09:00/2025-07-15T10:40:00+09:00, PT1H40M
+  - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
+- topic: managing data, business analytics
+- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate.
+  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc.
+  - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>\), exabytes \(EB, 1000<sup>6</sup>\), etc.
+- business intelligence
+  - business intelligence / infrastructure ::@:: many tools for big data and separate systems
+  - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc.
+- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources.
+- [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team.
+- [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers.
+  - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\)
+- [in-memory processing](../../../../general/in-meemory%20processing.md) ::@:: It is a software architecture where a database is kept entirely in random-access memory \(RAM\) or flash memory so that usual accesses, in particular read or query operations, do not require access to disk storage.
+  - in-memory processing / advantages ::@:: This may allow faster data operations such as "joins", and faster reporting and decision-making in business.
+  - in-memory processing / requirements ::@:: dedicated hardware optimized for in-memory processing are needed
+- [online analytical processing](../../../../general/online%20analytical%20processing.md) \(OLAP\) ::@:: It is an approach to quickly answer multi-dimensional analytical \(MDA\) queries.
+  - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension.
+- [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems.
+  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns
+  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc.
+- [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources".
+  - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc.
+  - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions
+- data mining
+  - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc.
+- [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information.
+  - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data
+  - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance
+  - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general
+  - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations
+  - information policy / database administration ::@:: create and maintain databases
+- [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning".
+  - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy
+  - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data
+- assignment: [quiz 6](questions/quiz%206.md)
