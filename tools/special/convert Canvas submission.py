@@ -537,7 +537,7 @@ def convert(
     html_text: str,
     *,
     __URL_REGEX: Pattern[str] = re_compile(
-        r"url: https://canvas.ust.hk/courses/(\d+)/assignments/(\d+)(?:/submissions/(\d+))?"
+        r"url: https://([^/]+)/courses/(\d+)/assignments/(\d+)(?:/submissions/(\d+))?"
     ),
     __DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
 ) -> str | None:
@@ -545,10 +545,11 @@ def convert(
         date_match := __DATE_REGEX.search(html_text)
     ):
         return None
-    course_id, assign_id, stu_id = (
-        int(url_match[1]),
+    host, course_id, assign_id, stu_id = (
+        url_match[1],
         int(url_match[2]),
-        int(url_match[3]) if url_match[3] else -1,
+        int(url_match[3]),
+        int(url_match[4]) if url_match[4] else -1,
     )
     try:
         saved_datetime = datetime.strptime(
@@ -564,7 +565,7 @@ def convert(
 
     if (
         course_name_ele := soup.select_one(
-            f'*[href="https://canvas.ust.hk/courses/{course_id}"]'
+            f'*[href="https://{host}/courses/{course_id}"]'
         )
     ) is None or (
         title_content := parse_title_and_content(soup, page_type=page_type)
@@ -584,7 +585,7 @@ def convert(
     )
 
     data: Mapping[str, object] = {  # type: ignore
-        "type": "submission/HKUST Canvas",
+        "type": f"submission/Canvas/{host}",
         "course": {
             "id": course_id,
             "name": course_name,
