@@ -62,8 +62,8 @@ ffmpeg -i "$input_" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart+use_m
 #### AV1 and Opus in WebM
 
 ```shell
-ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 1 -f null -
-ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 2 "$output.webm"
+ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v:0 libaom-av1 -b:v:0 0 -crf:v:0 45 -g:v:0 "$($fps * 5)" -pix_fmt:v:0 "$pixel_format" -color_range:v:0 "$color_range" -colorspace:v:0 bt709 -color_primaries:v:0 bt709 -color_trc:v:0 bt709 -row-mt:v:0 1 -tile-columns:v:0 2 -tile-rows:v:0 1 -cpu-used:v:0 4 -c:a libopus -b:a "$audio_bitrate" -pass 1 -f null -
+ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v:0 libaom-av1 -b:v:0 0 -crf:v:0 45 -g:v:0 "$($fps * 5)" -pix_fmt:v:0 "$pixel_format" -color_range:v:0 "$color_range" -colorspace:v:0 bt709 -color_primaries:v:0 bt709 -color_trc:v:0 bt709 -row-mt:v:0 1 -tile-columns:v:0 2 -tile-rows:v:0 1 -cpu-used:v:0 4 -c:a libopus -b:a "$audio_bitrate" -pass 2 -cues_to_front 1 "$output.webm"
 ```
 
 - parameters
@@ -77,7 +77,7 @@ ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_colo
 #### HEVC and AAC in QTFF
 
 ```shell
-ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart+use_metadata_tags "$output.mov"
+ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v:0 libx265 -tag:v:0 hvc1 -b:v:0 0 -crf:v:0 28 -g:v:0 "$($fps * 5)" -preset:v:0 medium -pix_fmt:v:0 "$pixel_format" -color_range:v:0 "$color_range" -colorspace:v:0 bt709 -color_primaries:v:0 bt709 -color_trc:v:0 bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart+use_metadata_tags "$output.mov"
 ```
 
 - parameters
