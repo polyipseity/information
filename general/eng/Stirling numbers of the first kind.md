@@ -37,7 +37,7 @@ For example, of {@{the $3!=6$ permutations of three elements}@}, there is {@{one
 
 For another example, the image at right shows that {@{$\left[{4 \atop 2}\right]=11$: the [symmetric group](symmetric%20group.md) on 4 objects}@} has {@{3 permutations of the form <p> $(\bullet \bullet )(\bullet \bullet )$ (having 2 orbits, each of size 2)}@}, <p> and {@{8 permutations of the form <p> $(\bullet \bullet \bullet )(\bullet )$ (having 1 orbit of size 3 and 1 orbit of size 1)}@}.
 
-These numbers can be calculated by {@{considering the orbits as [conjugancy classes](conjugacy%20class.md#properties)}@}. [Alfréd Rényi](Alfréd%20Rényi.md) observed that {@{the unsigned Stirling number of the first kind $\left[{n \atop k}\right]$}@} also counts {@{the number of permutations of size $n$ with $k$ left-to-right maxima}@}.<sup>[\[3\]](#^ref-3)</sup> (annotation: A left-to-right maximum in a permutation is {@{a number in the permutation that is greater all elements to its left}@}.)
+These numbers can be calculated by {@{considering the orbits as [conjugancy classes](conjugacy%20class.md#properties)}@}. [Alfréd Rényi](Alfréd%20Rényi.md) observed that {@{the unsigned Stirling number of the first kind $\left[{n \atop k}\right]$}@} also counts {@{the number of permutations of size $n$ with $k$ left-to-right maxima}@}.<sup>[\[3\]](#^ref-3)</sup> (annotation: A left-to-right maximum in a permutation is {@{a number in the permutation that is greater than all elements to its left}@}.)
 
 ### signs
 
