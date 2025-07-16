@@ -366,7 +366,7 @@ The content is in teaching order.
 
 - datetime: 2025-07-15T09:00:00+09:00/2025-07-15T10:40:00+09:00, PT1H40M
   - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
-- topic: managing data, business analytics
+- topic: foundations of business intelligence
 - [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate.
   - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc.
   - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>\), exabytes \(EB, 1000<sup>6</sup>\), etc.
@@ -400,3 +400,27 @@ The content is in teaching order.
   - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy
   - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data
 - assignment: [quiz 6](questions/quiz%206.md)
+
+## week 3 lecture 3
+
+- datetime: 2025-07-16T09:00:00+09:00/2025-07-16T10:40:00+09:00, PT1H40M
+  - local: 2025-07-16T08:00:00+08:00/2025-07-16T09:40:00+08:00, PT1H40M
+- topic: hands-on exercise: predictive text analytics with Altair AI studio
+- reading: Weiguo Fan, Linda Wallace, Stephanie Rich, and Zhongju Zhang. 2006. Tapping the power of text mining. Commun. ACM 49, 9 \(September 2006\), 76–82. <https://doi.org/10.1145/1151030.1151032>
+- text mining
+  - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge
+  - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends.
+  - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc.
+  - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\)
+  - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery
+- true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive.
+- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative.
+- false positive \(FP\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive.
+- false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative.
+- [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$
+  - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$
+- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$
+- [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$
+- [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model.
+- [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one.
+  - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted.
