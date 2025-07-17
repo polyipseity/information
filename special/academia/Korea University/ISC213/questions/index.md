@@ -21,3 +21,4 @@ tags:
 - [quiz 4](quiz%204.md)
 - [quiz 5](quiz%205.md)
 - [quiz 6](quiz%206.md)
+- [midterm examination](midterm%20examination.md)

@@ -67,7 +67,7 @@ The content is in teaching order.
   - complementary assets / social ::@:: environments the firm are in
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc.
 - information system
-  - information system / academic ::@:: IS is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc.
+  - information system / academic ::@:: IS covers both behavioral of technical aspects of IT, and thus is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc.
     - information system / academic / psychology ::@:: In IS, it studies how decision makers perceive and use formal information.
   - information system / recent changes ::@:: big data, cloud computing, mobile platform, social networking, etc.
 - assignment: [quiz 1](questions/quiz%201.md)
@@ -81,6 +81,7 @@ The content is in teaching order.
   - business process / brief ::@:: a set of activities to flow material, information, and knowledge
   - business process / business ::@:: a collection of business processes
   - business process / types ::@:: functional, cross-functional
+    - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\)
   - business process / functions ::@:: finance and accounting, human resources, manufacturing and production, sales and marketing, etc.
     - business process / functions / manufacturing and production ::@:: assembly, bill of materials, quality check
     - business process / functions / sales and marketing ::@:: customer identification, marketing, sales
@@ -91,7 +92,7 @@ The content is in teaching order.
   - information system / types ::@:: transaction processing system \(TPS\)
 - [transaction processing system](../../../../general/transaction%20processing%20system.md) \(TPS\) ::@:: It is a software system, or software/hardware combination, that supports transaction processing.
   - transaction processing system / users ::@:: operational managers, operational staff
-  - transaction processing system / usage ::@:: record transactions, e.g. entry, payroll, shipping, etc. for monitoring _daily_ operations and relations with the environment to serve decision making and goals
+  - transaction processing system / usage ::@:: record transactions, e.g. entry, payroll, shipping, etc. for monitoring _daily_ operations and relations with the environment to serve decision making and goals; does not perform analysis using _sophisticated_ models or techniques
 - [business intelligence](../../../../business%20intelligence.md) \(BI\) ::@:: It consists of strategies, methodologies, and technologies used by enterprises for data analysis and management of business information.
   - business intelligence / systems ::@:: decision support system \(DSS\), executive support system \(ECS\), management information system \(MIS\)
 - [management information system](../../../../general/management%20information%20system.md) \(MIS\) ::@:: It is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization.
@@ -104,15 +105,16 @@ The content is in teaching order.
   - decision support system / types ::@:: data driven vs. model driven
   - decision support system / components ::@:: User commands model and data. Model commands data. <p> Then feedback goes in the opposite direction; that is, model and data give feedback to user. Data gives feedback to model.
 - [executive information system](../../../../general/exeuctive%20information%20system.md) \(EIS\) ::@:: It is a type of management support system that facilitates and supports senior executive information and decision-making needs.
+  - executive information system / aliases ::@:: executive information system \(EIS\), executive support system \(ESS\) \(__this course__: Use ESS.\)
   - executive information system / users ::@:: support senior management
   - executive information system / usage ::@:: use external data, MIS, and DSS to address _high-level non-routine_ decisions
-  - executive information system / examples ::@:: digital dashboard of financial performance
+  - executive information system / examples ::@:: digital dashboard, which are a set of electronic displays of key performance indicators on a single screen, e.g. financial performance <p> \(__this course__: in midterm examination\)
 - enterprise systems ::@:: systems that allow horizontal and vertical integration of business processes in a business, most important of which is inter-departmental communication offered by ERP
   - enterprise systems / types ::@:: customer relationship management \(CRM\) system, enterprise resource planning \(ERP\), knowledge management system \(KMS\), supply chain management \(SCM\) system
-  - enterprise systems / customer relationship management ::@:: enable working collaboratively with customers and suppliers
-  - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication
-  - enterprise systems / knowledge management system ::@:: information sharing between business functions and departments
-  - enterprise systems / supply chain management ::@:: inventory maximization, supply chain management
+  - enterprise systems / customer relationship management system ::@:: enable working collaboratively with customers and suppliers; externally-oriented
+  - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication; internally-oriented
+  - enterprise systems / knowledge management system ::@:: information sharing between business functions and departments; internally-oriented
+  - enterprise systems / supply chain management system ::@:: inventory maximization, supply chain management; externally-oriented
 - [electronic business](../../../../general/electronic%20business.md) ::@:: It is any kind of business or commercial activity that includes sharing information across the internet
   - electronic business / e-commerce ::@:: a subset, focused on buying and selling goods and services through the internet
 - [e-government](../../../../general/e-government.md) ::@:: use IT to deliver services and information to businesses, citizens, and employees
@@ -171,22 +173,25 @@ The content is in teaching order.
 - organization
   - organization / resistance ::@:: Organizations often change slower than environments as they are _resistant_ to changes. It often causes failure of large projects. <p> The 4 factors determining resistance are information technology \(could change an organization\), organizational structure, task nature, and people.
 - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md) ::@:: industry profitability analysis
-  - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors
+  - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors <p> \(__this course__: The midterm examination asked us to recall these exact wordings, which is different from the textbook's. The instructor has pointed this out.\)
   - Porter's five forces analysis / internet ::@:: The internet changes these 5 forces significantly.
     - Porter's five forces analysis / internet / substitutes ::@:: New forms of substitutes may be enabled by the internet.
     - Porter's five forces analysis / internet / buyers ::@:: Pricing and production information on the internet adds bargaining power of customers.
     - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet.
-    - Porter's five forces analysis / internet / entrants ::@:: Internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier.
+    - Porter's five forces analysis / internet / entrants ::@:: The internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier.
     - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors.
+  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. So monopolies arise.
+- [benchmarking](../../../../general/benchmarking.md) ::@:: It is the practice of comparing business processes and performance metrics to industry bests and best practices from other companies. Dimensions typically measured are quality, time and cost. <p> \(__this course__: in midterm examination\)
 - [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates.
   - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching
   - strategic management / low cost ::@:: IT can help product products and services at a lower cost than competitors while maintaining acceptable quality. <p> examples: Walmart
   - strategic management / differentiation ::@:: IT can enable new features to differentiate products. <p> examples: Apple, Google, eBay
   - strategic management / niching ::@:: IT can help implement a focused and specialized strategy on a single market niche. <p> example: Hilton Hotels & Resorts, Harrah's
-  - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers. <p> examples: Amazon
+  - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers, perhaps by increasing _switching costs_. <p> examples: Amazon
 - [value chain](../../../../general/value%20chain.md) ::@:: It is a progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer.
-  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service.
+  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service. <p> \(__this course__: The textbook has "outbound logistics" as the 5th item instead. The instructor has pointed out that this is wrong. Asked in the midterm examination.\)
   - value chain / support activities ::@:: They help make primary activities more effectively and efficiently. The 4 activities are: human resources, infrastructure, procurement, and technology.
+- [core competency](../../../../general/core%20competency.md) ::@:: It can be defined as "a harmonized combination of multiple resources and skills that distinguish a firm in the marketplace" and therefore are the foundation of companies' competitiveness. <p> \(__this course__: Its relationship to competitive advantage was asked in the midterm examination.\)
 - strategic management
   - strategic management / information system ::@:: It helps promote overall performance of business units by promoting core competencies, _network-based_ strategies, and synergies.
     - strategic management / information system / competitiveness ::@:: It can help create competitive advantages over competitors. However, competitors can adapt similar systems. In the end, it is needed for survival, because if you do not use it, you lose to everyone else.
@@ -233,7 +238,7 @@ The content is in teaching order.
 - [intellectual property](../../../../general/intellectual%20property.md) \(IP\) ::@:: It is a category of property that includes intangible creations of the human intellect. There are many types of intellectual property, and some countries recognize more than others. The best-known types are patents, copyrights, trademarks, and trade secrets.
   - intellectual property / trade secrets ::@:: IP belonging to businesses that are not in the public domain
   - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\)
-  - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\)
+  - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\) <p> \(__this course__: Through EDPR? No idea what it is, but it appeared in the midterm examination. There was no "patents" option.\)
   - intellectual property / digital challenges ::@:: compactness, difficulty of classification \(e.g. software\), difficulty of establishing uniqueness, ease of replication, ease of transmission
 - [Digital Millennium Copyright Act](../../../../general/Digital%20Millennium%20Copyright%20Act.md) \(DMCA\) ::@:: It is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization \(WIPO\).
   - Digital Millennium Copyright Act / circumvention ::@:: illegal to circumvent  technology-based protections of copyrighted materials
@@ -295,9 +300,10 @@ The content is in teaching order.
 - [virtualization](../../../../general/virtualization.md) \(v12n\) ::@:: It is a series of technologies that allows dividing of physical computing resources into a series of virtual machines, operating systems, processes or containers. <p> It can reduce hardware, power expenditure, and facilitate hardware centralization.
 - [cloud computing](../../../../general/cloud%20computing.md) ::@:: It is "a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand," according to ISO.
   - cloud computing / services ::@:: It provides on-demand computing services, e.g. infrastructure as a service \(IaaS\), platform as a service \(PaaS\), software as a service \(SaaS\), etc.
-  - cloud computing / types ::@:: private cloud, public cloud
+  - cloud computing / types ::@:: private cloud \(private to a business\), public cloud \(shared with other businesses\)
+    - cloud computing / types / this course ::@:: \(__this course__: The instructor thinks that cloud computing can never be private, because it uses the _internet_ which can be _eavesdropped_. Appeared in the midterm examination.\)
   - cloud computing / advantages ::@:: allow companies to reduce IT investments
-  - cloud computing / disadvantages ::@:: reliability, security; both due to relying on the services of other companies
+  - cloud computing / disadvantages ::@:: reliability \(accessibility of the data anytime\), security \(capability of the service provider to protect data from hackers\); both due to relying on the services of other companies <p> \(__this course__: The midterm examination asked us to elaborate of these two major problems.\)
 - [green computing](../../../../general/green%20computing.md) ::@:: It is the study and practice of environmentally sustainable computing or IT. <p> It covers practices and technologies for IT infrastructure, mainly to reduce power consumption. \(2% of United States power demand comes from IT infrastructure.\)
 - IT infrastructure
   - IT infrastructure / hardware trends
@@ -424,3 +430,38 @@ The content is in teaching order.
 - [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model.
 - [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one.
   - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted.
+
+## week 3 lecture 4
+
+- datetime: 2025-07-17T09:00:00+09:00/2025-07-17T10:40:00+09:00, PT1H40M
+  - local: 2025-07-17T08:00:00+08:00/2025-07-17T09:40:00+08:00, PT1H40M
+- topic: midterm examination
+- [§ midterm examination](#midterm%20examination)
+
+## midterm examination
+
+- datetime: 2025-07-17T09:00:00+09:00/2025-07-17T10:30:00+09:00, PT1H30M
+  - local: 2025-07-17T08:00:00+08:00/2025-07-17T09:30:00+08:00, PT1H30M
+- venue: \(online\)
+- format
+  - calculator: n/a
+  - cheatsheet: n/a
+  - referencing: open book, open notes
+  - provided: \(none\)
+  - questions: questions ×50 \(acronym, fill in the blank, multiple choice, short answer, true/false\)
+  - others: open camera showing full face
+- grades: ?/100
+  - statistics
+    - timestamps: ?
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
+    - data: ?
+- report: \(none\)
+- check: \(none\)
+- questions: [midterm examination](questions/midterm%20examination.md)
