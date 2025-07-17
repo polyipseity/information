@@ -921,7 +921,7 @@ The content is in teaching order.
   - MARS / debugging ::@:: breakpoint, registers, step, undo
     - MARS / debugging / breakpoint ::@:: You can set breakpoints. The program will pause whenever execution reaches a breakpoint. Then you can perform other debugging actions.
     - MARS / debugging / step ::@:: You can execute exactly one instruction and then pause.
-    - MARS / debugging / undo ::@:: You can undo one instruction and then pause. However, system calls generally cannot be undone.
+    - MARS / debugging / undo ::@:: You can undo one instruction and then pause each time you click the button. However, system calls generally cannot be undone.
     - MARS / debugging / register ::@:: When the program is paused, you can view and modify register values.
 
 ## week 11 tutorial
