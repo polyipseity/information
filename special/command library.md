@@ -51,7 +51,8 @@ ffmpeg -i "$input_" -af ebur128=framelog=verbose -f null -
 #### AAC in MP4
 
 ```shell
-ffmpeg -i "$input_" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart+use_metadata_tags "$output.m4a"
+ffmpeg -i "$input_" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart "$output.m4a"
+exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -overwrite_original "$output.m4a"
 ```
 
 - parameters
@@ -77,7 +78,8 @@ ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matr
 #### HEVC and AAC in QTFF
 
 ```shell
-ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v:0 libx265 -tag:v:0 hvc1 -b:v:0 0 -crf:v:0 28 -g:v:0 "$($fps * 5)" -preset:v:0 medium -pix_fmt:v:0 "$pixel_format" -color_range:v:0 "$color_range" -colorspace:v:0 bt709 -color_primaries:v:0 bt709 -color_trc:v:0 bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart+use_metadata_tags "$output.mov"
+ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v:0 libx265 -tag:v:0 hvc1 -b:v:0 0 -crf:v:0 28 -g:v:0 "$($fps * 5)" -preset:v:0 medium -pix_fmt:v:0 "$pixel_format" -color_range:v:0 "$color_range" -colorspace:v:0 bt709 -color_primaries:v:0 bt709 -color_trc:v:0 bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart "$output.mov"
+exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -overwrite_original "$output.mov"
 ```
 
 - parameters
