@@ -33,7 +33,7 @@ __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representa
 - __Relevance__ ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-10-21,293,290!2025-09-09,259,290-->
 - __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-07-29,209,270!2026-04-16,333,270-->
 
-__Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2025-10-24,277,290!2025-07-16,237,330-->
+__Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2025-10-24,277,290!2028-06-28,1078,350-->
 
 - __Verifiability__ ::@:: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2026-07-30,512,310!2025-10-01,248,270-->
 - __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-09-17,250,290!2026-09-14,548,310-->
@@ -106,7 +106,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
-- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2025-07-15,217,310-->
+- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2028-02-02,931,330-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2026-09-03,531,310!2027-06-13,767,330-->
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2027-09-16,837,330-->
@@ -173,7 +173,7 @@ Thus {@{crediting a credit account or debiting a debit account}@} {@{increases i
 
 Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2025-07-30,246,330-->
 
-When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2025-07-24,243,330!2026-09-01,551,330!2025-07-16,236,330!2025-08-01,250,330-->
+When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2025-07-24,243,330!2026-09-01,551,330!2028-06-23,1073,350!2025-08-01,250,330-->
 
 However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
 

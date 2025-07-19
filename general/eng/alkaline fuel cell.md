@@ -23,7 +23,7 @@ Energy is produced through {@{a [redox reaction](redox%20reaction.md) between [h
 
 > - [anode](anode.md) ::@:: H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup> <!--SR:!2028-02-09,1166,290!2025-09-16,349,280-->
 > - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq) <!--SR:!2027-05-09,847,292!2026-09-07,629,320-->
-> - overall ::@:: 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) <!--SR:!2028-05-08,1454,352!2025-07-15,387,360-->
+> - overall ::@:: 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) <!--SR:!2028-05-08,1454,352!2030-10-09,1911,380-->
 
 Electrodes {@{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}@}. <!--SR:!2027-05-06,789,212-->
 

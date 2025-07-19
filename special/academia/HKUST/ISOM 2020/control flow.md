@@ -20,9 +20,9 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: {@{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}@} <!--SR:!2025-07-18,230,330-->
+The semantics of `if` is obvious: {@{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}@} <!--SR:!2028-06-03,1051,350-->
 
-An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2025-07-14,226,330-->
+An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2028-05-12,1031,350-->
 
 ```Python
 if condition:

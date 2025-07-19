@@ -11,7 +11,7 @@ tags:
 
 The __March equinox__ or {@{__northward equinox__}@} is {@{the [equinox](equinox.md) on the [Earth](Earth.md) when the [subsolar point](subsolar%20point.md) appears to head [northwards](north.md) to cross the [celestial equator](celestial%20equator.md) from the [Southern Hemisphere](Southern%20Hemisphere.md) to the [Northern Hemisphere](Northern%20Hemisphere.md)}@}. It is also known as {@{the spring or vernal equinox in the Northern Hemisphere and as the fall or autumnal equinox in the Southern Hemisphere}@}. <!--SR:!2026-04-05,446,310!2026-07-05,512,310!2027-02-27,736,330-->
 
-On {@{the [Gregorian calendar](Gregorian%20calendar.md)}@}, the March equinox can occur {@{as early as March 19 and as late as 21 March in terms of [Universal Time](Universal%20Time.md)}@}. <!--SR:!2027-07-06,824,330!2025-07-14,198,250-->
+On {@{the [Gregorian calendar](Gregorian%20calendar.md)}@}, the March equinox can occur {@{as early as March 19 and as late as 21 March in terms of [Universal Time](Universal%20Time.md)}@}. <!--SR:!2027-07-06,824,330!2027-06-13,697,270-->
 
 ## references
 

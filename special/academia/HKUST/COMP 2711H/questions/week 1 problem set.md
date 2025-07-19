@@ -23,7 +23,7 @@ For all natural numbers $a$ and $b$, prove that {@{addition as defined in the (s
 
 - strategy ::@:: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2026-12-10,589,290!2027-01-21,663,340-->
 
-1. definitions ::@:: For all natural numbers $a$ and $b$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ a + S(b) & = S(a + b) && \text{definition 2} \\ a \cdot 0 & = 0 && \text{definition 3} \\ a \cdot S(b) & = a + a \cdot b && \text{definition 4} \end{aligned}$$. <!--SR:!2025-07-15,232,320!2025-11-18,336,340-->
+1. definitions ::@:: For all natural numbers $a$ and $b$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ a + S(b) & = S(a + b) && \text{definition 2} \\ a \cdot 0 & = 0 && \text{definition 3} \\ a \cdot S(b) & = a + a \cdot b && \text{definition 4} \end{aligned}$$. <!--SR:!2028-05-08,1027,340!2025-11-18,336,340-->
 2. commutativity of addition / lemma 1 (commutativity of definition 1) ::@:: Lemma 1 (commutativity of definition 1): $$0 + b = b$$ holds for all $b \in \mathbb N_0$. When $b = 0$, $0 + 0 = 0$ by definition 1. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} 0 + b & = b && \text{assumption} \\ S(0 + b) & = S(b) && S\text{ is a function} \\ 0 + S(b) & = S(b) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(a)$. By induction, the lemma is proved for all natural numbers. <!--SR:!2026-02-09,388,320!2026-12-22,624,320-->
 3. commutativity of addition / lemma 2 (commutativity of definition 2) ::@:: Lemma 2 (commutativity of definition 2): $$S(a) + b = S(a + b)$$ holds for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} S(a) + 0 & = S(a) && \text{definition 1} \\ & = S(a + 0) && \text{definition 1} \end{aligned}$$. So the lemma holds for $0$. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} S(a) + b & = S(a + b) && \text{assumption} \\ S(S(a) + b) & = S(S(a + b)) && S\text{ is a function} \\ S(a) + S(b) & = S(a + S(b)) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(b)$. By induction, the lemma is proved for all natural numbers. <!--SR:!2026-01-03,330,300!2025-10-28,319,340-->
 4. commutativity of addition ::@:: Theorem: $$a + b = b + a$$ for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ & = 0 + a && \text{lemma 1} \end{aligned}$$. So the theorem is proved for $0$. Assume the theorem is true for $b$. Consider $S(b)$: $$\begin{aligned} a + b & = b + a && \text{assumption} \\ S(a + b) & = S(b + a) && S\text{ is a function} \\ a + S(b) & = S(b) + a && \text{definition 2, lemma 2} \\  \end{aligned}$$. So the theorem is proved for $S(b)$. By induction, the theorem is proved for all natural numbers. <!--SR:!2025-10-30,321,340!2028-02-22,968,340-->
@@ -100,7 +100,7 @@ Note that a knight can move {@{two squares vertically and one square horizontall
 
 ## product of natural numbers cannot be lesser than the natural numbers themselves
 
-Let {@{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}@}. <!--SR:!2025-07-14,232,330-->
+Let {@{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}@}. <!--SR:!2028-06-06,1056,350-->
 
 - strategy ::@:: Prove by induction. Use the definition of $\ge$. <!--SR:!2027-07-20,804,340!2025-11-06,327,340-->
 

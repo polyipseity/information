@@ -20,7 +20,7 @@ _Note that for a real with a finite representation in base $b \ge 2$, we can alw
 
 ## strategy
 
-- inspecting "Is it possible to list of all the rationals in $[0, 1]$, written in base $b \ge 2$, such that the real given by combining the digits along the diagonal is rational?" :@: Let $x$ be the real given by combining the digits along the diagonal. <!--SR:!2025-07-18,241,270-->
+- inspecting "Is it possible to list of all the rationals in $[0, 1]$, written in base $b \ge 2$, such that the real given by combining the digits along the diagonal is rational?" :@: Let $x$ be the real given by combining the digits along the diagonal. <!--SR:!2027-05-04,655,270-->
 - tips when considering $x$ :@: Consider $1 - x$. $x$ is rational iff $1 - x$ is rational. Consider the digits of $1 - x$. <!--SR:!2026-08-03,564,310-->
 - pitfalls when considering digits :@: Some real numbers admit multiple decimal representations. For example, $1.000\ldots = 0.999\ldots$ in base 10. This needs to be considered. In particular, this is the reason for the answer in a certain base. <!--SR:!2027-11-25,876,290-->
 

@@ -386,7 +386,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - contribution margin income statement ::@:: headers, products & overall, row headers <!--SR:!2025-08-03,88,381!2025-08-22,97,381-->
   - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\) <!--SR:!2025-08-05,90,381!2025-08-05,90,381-->
-  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2025-07-18,72,361!2025-08-02,87,381-->
+  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2026-07-16,363,381!2025-08-02,87,381-->
   - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income <!--SR:!2025-08-16,91,381!2025-08-21,96,381-->
   - contribution margin income statement / sub-formats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2025-08-02,87,381!2025-08-05,90,381-->
 
@@ -433,7 +433,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - incremental analysis \(comparative\) ::@:: column headers, row headers <!--SR:!2025-08-21,96,381!2025-08-02,87,381-->
   - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\) <!--SR:!2025-08-22,97,381!2025-08-04,89,381-->
-  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-08-21,96,381!2025-07-16,70,361-->
+  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2025-08-21,96,381!2026-07-03,352,381-->
 
 ## incremental analysis (incremental)
 
@@ -474,7 +474,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - constrained optimization using contribution margin ::@:: column headers, row headers <!--SR:!2025-08-18,93,381!2025-08-25,100,381-->
   - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\) <!--SR:!2025-08-09,93,381!2025-08-09,93,381-->
-  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!2025-07-17,71,361!2025-08-23,98,381-->
+  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!2026-07-09,357,381!2025-08-23,98,381-->
   - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead. <!--SR:!2025-08-05,90,381!2025-08-07,92,381-->
 
 ## budget

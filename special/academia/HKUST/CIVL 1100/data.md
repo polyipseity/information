@@ -45,7 +45,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2025-08-09,324,307!2026-03-07,555,397-->
-- height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2025-07-14,334,365-->
+- height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2030-02-12,1672,385-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2025-10-24,408,380!2026-01-10,498,400-->
 - shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
 
@@ -80,7 +80,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 - description ::@:: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2027-03-06,830,375!2025-10-02,399,377-->
 - height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2026-06-12,401,241!2025-09-25,392,376-->
 - image ::@:: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2027-03-26,781,380!2025-11-07,446,400-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e -->::@:: reinforced concrete <!--SR:!2026-08-09,590,341!2025-07-15,330,381-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e -->::@:: reinforced concrete <!--SR:!2026-08-09,590,341!2030-04-01,1720,401-->
 
 ## Channel Tunnel
 
@@ -164,7 +164,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
 - description ::@:: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2025-10-23,445,394-->
-- image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2025-07-14,345,380!2026-01-04,493,400-->
+- image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2030-06-12,1792,400!2026-01-04,493,400-->
 - shape ::@:: bird/turtle rooftop <!--SR:!2027-03-10,779,330!2025-10-10,432,392-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
@@ -272,7 +272,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 
 - bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2029-04-11,1410,380!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2028-01-28,1025,330!2029-09-25,1577,384-->
-- image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2029-08-13,1534,400-->
+- image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2030-03-31,1717,400!2029-08-13,1534,400-->
 - length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-08-02,131,197!2027-02-28,756,355-->
 
 ## Taipei 101

@@ -112,7 +112,7 @@ vagueness: vague jobs, pains, and gains
 - _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2025-08-30,161,209!2029-02-09,1389,369-->
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains <!--SR:!2025-07-31,287,249!2026-03-17,440,269-->
 - insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2026-05-17,348,189!2025-08-13,69,130-->
-- mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-07-17,195,249-->
+- mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2027-06-01,683,269-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-09-12,223,225!2028-02-07,979,305-->
 - opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2026-04-24,325,209-->
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-10-05,201,169!2026-03-27,353,229-->
@@ -212,7 +212,7 @@ find customer patterns
 
 - _(begin)_→::@::←create a customer profile <!--SR:!2026-07-08,621,329!2029-11-17,1607,369-->
 - create a customer profile→::@::←outline the interview <!--SR:!2026-05-08,498,289!2025-12-31,457,309-->
-- outline the interview→::@::←interview <!--SR:!2025-07-15,353,349!2027-04-17,786,329-->
+- outline the interview→::@::←interview <!--SR:!2030-03-05,1691,369!2027-04-17,786,329-->
 - interview→::@::←capture new customer profile <!--SR:!2028-06-06,1146,329!2027-03-13,757,329-->
 - capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2026-09-03,559,270!2027-05-19,785,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→::@::←find customer patterns <!--SR:!2028-05-26,1054,289!2027-07-03,815,309-->

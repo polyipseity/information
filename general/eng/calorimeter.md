@@ -16,7 +16,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-A __calorimeter__ is {@{an object used for [calorimetry](calorimetry.md)}@}. It can be used to {@{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}@}. <!--SR:!2028-07-25,1512,350!2025-07-16,573,310-->
+A __calorimeter__ is {@{an object used for [calorimetry](calorimetry.md)}@}. It can be used to {@{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}@}. <!--SR:!2028-07-25,1512,350!2032-04-08,2458,330-->
 
 A simple calorimeter consists of {@{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}@}. For more accurate measurements, {@{a bomb calorimeter can be used}@}. <!--SR:!2026-11-23,844,270!2028-07-20,1509,350-->
 

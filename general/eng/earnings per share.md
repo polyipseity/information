@@ -87,7 +87,7 @@ Under {@{[International Financial Reporting Standards](International%20Financial
 - contractual rights to purchase shares
 - contingent issuance contracts or agreement
 
-The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2025-07-14,117,250!2025-07-20,133,290!2026-01-13,289,330-->
+The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2026-08-29,410,270!2025-07-20,133,290!2026-01-13,289,330-->
 
 The differences that remain are the result of differences in {@{the application of the treasury stock method, the treatment of contracts that may be settled in shares or cash, and contingently issuable shares}@}. <!--SR:!2025-09-18,178,270-->
 

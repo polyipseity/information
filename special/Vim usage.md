@@ -105,4 +105,4 @@ See also [Vim help files](https://vimhelp.org/).
 
 - ignorecase, ic ::@:: ignore case in search <!--SR:!2025-11-09,758,328!2026-01-11,800,328-->
 - incsearch, is ::@:: highlight while typing search <!--SR:!2033-02-23,2801,333!2029-06-03,1487,273-->
-- hlsearch, hls ::@:: highlight last search matches <!--SR:!2025-07-17,677,310!2025-12-26,784,328-->
+- hlsearch, hls ::@:: highlight last search matches <!--SR:!2033-06-30,2904,330!2025-12-26,784,328-->

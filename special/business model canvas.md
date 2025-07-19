@@ -59,7 +59,7 @@ C$: [cost structure](#cost%20structure)
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2025-07-17,311,297!2028-05-07,1159,357-->
+- _(begin)_→::@::←CS: [customer segments](#customer%20segments) <!--SR:!2029-01-20,1282,317!2028-05-07,1159,357-->
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2025-08-31,261,277-->
 - VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2025-11-15,166,254!2027-08-16,813,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
@@ -294,7 +294,7 @@ In cost structures, costs can be {@{fixed costs or variable costs}@}. Costs can 
 
 ### fit
 
-Business model fit can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2025-07-14,279,289!2026-07-08,589,329!2027-12-08,1012,349!2026-08-15,590,329!2026-12-14,709,329-->
+Business model fit can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2028-08-16,1125,309!2026-07-08,589,329!2027-12-08,1012,349!2026-08-15,590,329!2026-12-14,709,329-->
 
 ## comparison with other models
 

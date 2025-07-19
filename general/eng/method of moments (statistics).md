@@ -15,7 +15,7 @@ tags:
 
 - For {@{the technique used to prove [convergence in distribution](convergence%20of%20random%20variables.md#convergence%20in%20distribution)}@}, see {@{[Method of moments \(probability theory\)](method%20of%20moments%20(probability%20theory).md)}@}. <!--SR:!2025-09-01,186,310!2025-08-16,173,310-->
 
-In {@{[statistics](statistics.md)}@}, {@{the __method of moments__}@} is {@{a method of [estimation](estimation.md) of population [parameters](statistical%20parameter.md)}@}. The same principle is used to {@{derive higher moments like skewness and kurtosis}@}. <!--SR:!2025-07-15,149,310!2025-12-26,280,330!2025-09-09,193,310!2025-12-30,283,330-->
+In {@{[statistics](statistics.md)}@}, {@{the __method of moments__}@} is {@{a method of [estimation](estimation.md) of population [parameters](statistical%20parameter.md)}@}. The same principle is used to {@{derive higher moments like skewness and kurtosis}@}. <!--SR:!2027-04-16,639,330!2025-12-26,280,330!2025-09-09,193,310!2025-12-30,283,330-->
 
 It starts by {@{expressing the population [moments](moment%20(mathematics).md) \(i.e., the [expected values](expected%20value.md) of powers of the [random variable](random%20variable.md) under consideration\) as functions of the parameters of interest}@}. Those expressions are then {@{set equal to the sample moments}@}. {@{The number of such equations}@} is {@{the same as the number of parameters to be estimated}@}. Those equations are then {@{solved for the parameters of interest}@}. The solutions are {@{estimates of those parameters}@}. <!--SR:!2026-11-22,509,310!2025-08-23,178,310!2026-01-09,291,330!2025-11-30,259,330!2025-12-17,273,330!2025-12-31,284,330-->
 
@@ -29,7 +29,7 @@ Suppose that {@{the parameter $\theta$ = \($\theta _{1},\theta _{2},\dots ,\thet
 
 ## advantages and disadvantages
 
-The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2025-11-07,241,330!2025-07-17,150,310!2025-11-04,239,330-->
+The method of moments is {@{fairly simple}@} and {@{yields [consistent estimators](consistent%20estimator.md) \(under very weak assumptions\)}@}, though {@{these estimators are often [biased](bias%20of%20an%20estimator.md)}@}. <!--SR:!2025-11-07,241,330!2027-04-22,644,330!2025-11-04,239,330-->
 
 It is an alternative to {@{the [method of maximum likelihood](maximum%20likelihood%20estimation.md)}@}. <!--SR:!2025-11-26,256,330-->
 

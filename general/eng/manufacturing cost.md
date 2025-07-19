@@ -19,7 +19,7 @@ tags:
 
 ## direct labour cost
 
-{@{The direct labour cost}@} is {@{the cost of workers who can be easily identified with the unit of production}@}. {@{Types of labour who are considered to be part of the direct labour cost}@} are {@{the assembly workers on an [assembly line](assembly%20line.md)}@}. <!--SR:!2025-12-01,228,330!2025-07-15,117,290!2025-10-12,186,310!2026-02-20,294,330-->
+{@{The direct labour cost}@} is {@{the cost of workers who can be easily identified with the unit of production}@}. {@{Types of labour who are considered to be part of the direct labour cost}@} are {@{the assembly workers on an [assembly line](assembly%20line.md)}@}. <!--SR:!2025-12-01,228,330!2026-11-04,476,310!2025-10-12,186,310!2026-02-20,294,330-->
 
 ## manufacturing overhead
 

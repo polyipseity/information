@@ -17,7 +17,7 @@ tags:
 
 # umbra, penumbra and antumbra
 
-The {@{__umbra__, __penumbra__ and __antumbra__}@} are {@{three distinct parts of a [shadow](shadow.md), created by any light source after impinging on an [opaque](opacity.md) object}@}. <!--SR:!2025-07-19,290,330!2025-07-17,287,330-->
+The {@{__umbra__, __penumbra__ and __antumbra__}@} are {@{three distinct parts of a [shadow](shadow.md), created by any light source after impinging on an [opaque](opacity.md) object}@}. <!--SR:!2025-07-19,290,330!2029-02-12,1306,350-->
 
 ## umbra
 
@@ -31,7 +31,7 @@ The [distance](lunar%20distance.md) from the [Moon](Moon.md) to the [apex](apex%
 
 The {@{__penumbra__}@} (from the [Latin](Latin.md) {@{_paene_ "almost, nearly" and _umbra_ "shadow"}@}) is {@{the region in which only a portion of the light source is obscured by the [occluding](occultation.md) body}@}. An observer in the penumbra experiences {@{a [partial eclipse](solar%20eclipse.md#partial%20eclipse)}@}. An alternative definition is {@{that the penumbra is the region where _some_ or _all_ of the light source is obscured (i.e., the [umbra](#umbra) is a subset of the penumbra)}@}. <!--SR:!2028-08-21,1165,350!2026-03-04,451,310!2027-12-25,938,310!2025-11-26,372,310!2025-11-14,330,290-->
 
-The penumbra of a round body occluding a round light source forms {@{a [frustum](frustum.md) subtracted by the [umbra](#umbra) [cone](cone.md)}@}. The shape can be visualized by {@{drawing two lines, one from the light source top to the round body bottom, the other from the light source bottom to the round body top}@}. Then the frustum is {@{the portion enclosed by the two lines and behind the round body, minus the umbra cone}@}. <!--SR:!2026-01-22,366,270!2025-09-01,304,290!2025-07-16,274,290-->
+The penumbra of a round body occluding a round light source forms {@{a [frustum](frustum.md) subtracted by the [umbra](#umbra) [cone](cone.md)}@}. The shape can be visualized by {@{drawing two lines, one from the light source top to the round body bottom, the other from the light source bottom to the round body top}@}. Then the frustum is {@{the portion enclosed by the two lines and behind the round body, minus the umbra cone}@}. <!--SR:!2026-01-22,366,270!2025-09-01,304,290!2028-07-24,1104,310-->
 
 ## antumbra
 

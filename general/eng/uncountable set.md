@@ -15,7 +15,7 @@ In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [
 
 ## characterizations
 
-There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2025-07-17,154,310!2025-10-09,204,310-->
+There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2027-05-07,659,330!2025-10-09,204,310-->
 
 - function ::@:: There is no [injective function](injective%20function.md) \(hence no [bijection](bijection.md)\) from _X_ to the set of natural numbers. <!--SR:!2026-10-23,492,310!2025-12-08,270,330-->
 - sequence, function ::@:: _X_ is nonempty and for every ω-[sequence](sequence.md) of elements of _X_, there exists at least one element of X not included in it. That is, _X_ is nonempty and there is no [surjective function](surjective%20function.md) from the natural numbers to _X_. <!--SR:!2026-06-28,403,310!2026-06-28,368,290-->
@@ -50,7 +50,7 @@ If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\
 - greater than ::@:: $\kappa >\aleph _{0};$ and <!--SR:!2025-08-08,172,310!2025-11-14,251,330-->
 - greater than or equal to $\kappa \geq \aleph _{1}$, where $\aleph _{1}=|\omega _{1}|$ and $\omega _{1}$ is the least [initial ordinal](von%20Neumann%20cardinal%20assignment.md#initial%20ordinal%20of%20a%20cardinal) greater than $\omega .$
 
-However, these {@{may all be different if the axiom of choice fails}@}. So it is {@{not obvious which one is the appropriate generalization of "uncountability"}@} when the axiom fails. It may be best to {@{avoid using the word in this case and specify which of these one means}@}. <!--SR:!2025-07-18,155,310!2025-08-29,187,310!2026-06-03,392,310-->
+However, these {@{may all be different if the axiom of choice fails}@}. So it is {@{not obvious which one is the appropriate generalization of "uncountability"}@} when the axiom fails. It may be best to {@{avoid using the word in this case and specify which of these one means}@}. <!--SR:!2027-05-16,667,330!2025-08-29,187,310!2026-06-03,392,310-->
 
 ## see also
 

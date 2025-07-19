@@ -95,7 +95,7 @@ One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{
 
 ## examples
 
-__[Diagram](diagram%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a diagram of type _J_ (annotation: the categorical analogue of an indexed family in set theory) in _C_ is a covariant functor $D\colon J\to C$. <!--SR:!2025-07-18,135,317!2026-03-10,335,357-->
+__[Diagram](diagram%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a diagram of type _J_ (annotation: the categorical analogue of an indexed family in set theory) in _C_ is a covariant functor $D\colon J\to C$. <!--SR:!2027-03-01,591,337!2026-03-10,335,357-->
 
 __[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> ::@:: &emsp; For categories _C_ and _J_, a _J_-presheaf on _C_ is a contravariant (annotation: _not_ covariant) functor $D\colon C\to J$. <p> In the special case when J is __Set__, the category of sets and functions, _D_ is called a [presheaf](presheaf%20(category%20theory).md) on _C_. <!--SR:!2026-03-22,294,297!2025-10-28,208,310-->
 

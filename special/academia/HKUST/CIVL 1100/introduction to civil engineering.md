@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
 - business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
-- human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
+- human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2028-01-23,921,280-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2029-03-28,1354,340-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
 - teaming up with others→::@::←_(end)_ <!--SR:!2029-12-09,1648,395!2027-04-08,752,292-->
@@ -601,7 +601,7 @@ nuclear
 - electrical→::@::←industrial <!--SR:!2026-01-31,366,301!2026-07-16,442,250-->
 - industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
 - manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
-- mechanical→::@::←nuclear <!--SR:!2025-07-18,340,377!2027-01-28,775,355-->
+- mechanical→::@::←nuclear <!--SR:!2030-05-08,1755,397!2027-01-28,775,355-->
 - nuclear→::@::←_(end)_ <!--SR:!2029-12-01,1624,394!2025-07-25,393,365-->
 
 <!--/pytextgen-->

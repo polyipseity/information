@@ -137,7 +137,7 @@ return _chain.from_iterable(await _gather(
 - [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!2026-07-19,379,210!2026-07-08,451,250-->
 - [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2025-09-13,136,210-->
 - [magnesium](magnesium.md)→::@::←[beryllium](beryllium.md) <!--SR:!2026-03-25,358,270!2027-04-07,988,290-->
-- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2027-03-13,675,230!2025-07-16,63,170-->
+- [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2027-03-13,675,230!2025-12-20,157,190-->
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2025-08-30,240,210!2026-01-27,277,210-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2025-11-18,362,250-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2025-09-07,181,170!2026-10-22,560,210-->
@@ -215,7 +215,7 @@ return _chain.from_iterable(await _gather(
 - Cr<sup>3+</sup>:@:[chromium](chromium.md) <!--SR:!2030-12-10,1987,387-->
 - Fe<sup>2+</sup>:@:[iron](iron.md) <!--SR:!2030-03-24,1770,385-->
 - Cd<sup>2+</sup>:@:[cadmium](cadmium.md) <!--SR:!2030-03-23,1774,385-->
-- Co<sup>2+</sup>:@:[cobalt](cobalt.md) <!--SR:!2025-07-18,406,365-->
+- Co<sup>2+</sup>:@:[cobalt](cobalt.md) <!--SR:!2031-02-09,2032,385-->
 - Ni<sup>2+</sup>:@:[nickel](nickel.md) <!--SR:!2030-06-22,1847,385-->
 - Sn<sup>2+</sup>:@:[tin](tin.md) <!--SR:!2029-10-14,1649,387-->
 - Pb<sup>2+</sup>:@:[lead](lead.md) <!--SR:!2027-10-09,952,345-->

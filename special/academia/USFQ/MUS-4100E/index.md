@@ -305,7 +305,7 @@ The content is in teaching order.
 - [popular music](../../../../general/popular%20music.md)
   - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2027-03-15,610,412!2025-07-19,121,392-->
 - [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2025-07-23,124,392!2026-09-20,461,392-->
-- [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2026-09-13,454,392!2025-07-16,119,392-->
+- [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2026-09-13,454,392!2027-04-13,636,412-->
   - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2027-03-21,616,412!2025-07-20,122,392-->
   - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2026-10-20,485,392!2025-07-26,127,392-->
 - assignment: (none)
@@ -327,7 +327,7 @@ The content is in teaching order.
   - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller <!--SR:!2026-09-29,464,396!2025-07-27,125,396-->
 - [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-07-19,102,336!2025-10-31,197,376-->
   - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2026-11-02,497,396!2025-07-27,125,396-->
-  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-07-20,103,336!2025-07-18,116,396-->
+  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-07-20,103,336!2027-04-06,627,416-->
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-07-20,118,396!2025-07-20,118,396-->
   - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2025-07-19,102,336-->
 - Benny Goodman
@@ -341,7 +341,7 @@ The content is in teaching order.
 - datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00, PT1H20M
   - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00, PT1H20M
 - quiz: [quiz 2](questions/quiz%202.md)
-- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2025-07-17,115,396!2025-07-21,119,396-->
+- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2027-03-31,622,416!2025-07-21,119,396-->
   - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-07-19,117,396!2025-08-01,129,396-->
   - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-08-01,129,396-->
   - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-07-31,128,396!2026-09-30,465,396-->
@@ -580,7 +580,7 @@ The content is in teaching order.
   - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multi-track recording. <!--SR:!2025-10-29,148,422!2025-08-15,99,402-->
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band. <!--SR:!2025-10-25,144,422!2025-10-18,137,422-->
-  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2025-07-15,29,434!2025-07-15,29,434-->
+  - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2026-01-01,169,454!2025-12-31,168,454-->
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2025-08-15,99,402!2025-10-22,141,422-->
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2025-10-20,139,422!2025-10-23,142,422-->
   - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2025-10-23,142,422-->
@@ -756,7 +756,7 @@ The content is in teaching order.
   - Robert Glasper / effects ::@:: He solidified the crossover between jazz and hip hop or rhythm & blues. <!--SR:!2025-11-27,151,438!2025-11-25,149,438-->
 - [Snarky Puppy](../../../../general/Snarky%20Puppy.md) ::@:: It is an American jazz fusion band led by bassist Michael League. Founded in 2004, Snarky Puppy combines a variety of jazz idioms, rock, world music, and funk and has won five Grammy Awards. <!--SR:!2025-12-07,159,438!2025-11-21,145,438-->
   - Snarky Puppy / genres ::@:: They mix Latin, hip hop, jazz, rock, etc. <!--SR:!2025-12-02,155,441!2025-11-29,152,438-->
-  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-11-25,149,438!2025-07-14,28,434-->
+  - Snarky Puppy / works ::@:: "Don't You Know" \(2015\) — Snarky Puppy feat. Jacob Collier <!--SR:!2025-11-25,149,438!2025-12-26,163,454-->
 - [Jacob Collier](../../../../general/Jacob%20Collier.md) \(1994–\) ::@:: He is an English singer, songwriter, multi-instrumentalist, producer and educator. His music incorporates a combination of jazz and elements from other musical genres, and often features extensive use of reharmonization and close harmony. <br/> \(negative harmony\) <!--SR:!2025-12-01,154,441!2025-12-09,161,438-->
   - Jacob Collier / works ::@:: "Fascinating Rhythm" \(2014\) — Jacob Collier: originally written by George Gershwin in 1924 <!--SR:!2025-12-03,156,438!2025-12-08,160,438-->
 - [Corey Henry](../../../../general/Corey%20Henry.md) \(1987–\) ::@:: He is an American jazz organist, pianist, gospel musician, and producer. He was a former member of Snarky Puppy. <p> He grew up in the church. He mixes gospel, jazz, and pop. <!--SR:!2025-11-28,152,442!2025-11-27,151,442-->

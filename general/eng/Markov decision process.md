@@ -122,7 +122,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 - CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2025-08-30,198,312!2025-12-29,299,332-->
 - The final policy ::@:: depends on the starting state. <!--SR:!2025-11-07,258,332!2025-11-06,257,332-->
 
-{@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.) <!--SR:!2025-09-17,213,329!2026-01-30,327,349!2025-07-15,151,309-->
+{@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.) <!--SR:!2025-09-17,213,329!2026-01-30,327,349!2027-04-16,640,329-->
 
 - Natural policy gradient primal-dual method.<sup>[\[15\]](#^ref-15)</sup>
 
@@ -141,7 +141,7 @@ If {@{the state space and action space are finite}@}, we could use {@{linear pro
 - Primal linear program\(P-LP\) <br/> $${\begin{aligned}{\text{Minimize} }\quad &g\\{\text{s.t} }\quad &g-\sum _{j\in S}q(j\mid i,a)h(j)\geq R(i,a)\,\,\forall i\in S,\,a\in A(i)\end{aligned} }$$
 - Dual linear program\(D-LP\) <br/> $${\begin{aligned}{\text{Maximize} }&\sum _{i\in S}\sum _{a\in A(i)}R(i,a)y(i,a)\\{\text{s.t.} }&\sum _{i\in S}\sum _{a\in A(i)}q(j\mid i,a)y(i,a)=0\quad \forall j\in S,\\&\sum _{i\in S}\sum _{a\in A(i)}y(i,a)=1,\\&y(i,a)\geq 0\qquad \forall a\in A(i){\text{ and } }\forall i\in S\end{aligned} }$$
 
-$y(i,a)$ is {@{a feasible solution to the D-LP}@} if {@{$y(i,a)$ is nonnative and satisfied the constraints in the D-LP problem}@}. {@{A feasible solution $y^{*}(i,a)$ to the D-LP is said to be an optimal solution}@} if {@{$${\begin{aligned}\sum _{i\in S}\sum _{a\in A(i)}R(i,a)y^{*}(i,a)\geq \sum _{i\in S}\sum _{a\in A(i)}R(i,a)y(i,a)\end{aligned} }$$ for all feasible solution $y(i,a)$ to the D-LP}@}. Once {@{we have found the optimal solution $y^{*}(i,a)$}@}, we can {@{use it to establish the optimal policies}@}. <!--SR:!2025-11-13,246,329!2025-07-15,155,309!2026-02-27,350,349!2026-02-20,290,289!2025-08-29,200,329!2026-01-11,312,349-->
+$y(i,a)$ is {@{a feasible solution to the D-LP}@} if {@{$y(i,a)$ is nonnative and satisfied the constraints in the D-LP problem}@}. {@{A feasible solution $y^{*}(i,a)$ to the D-LP is said to be an optimal solution}@} if {@{$${\begin{aligned}\sum _{i\in S}\sum _{a\in A(i)}R(i,a)y^{*}(i,a)\geq \sum _{i\in S}\sum _{a\in A(i)}R(i,a)y(i,a)\end{aligned} }$$ for all feasible solution $y(i,a)$ to the D-LP}@}. Once {@{we have found the optimal solution $y^{*}(i,a)$}@}, we can {@{use it to establish the optimal policies}@}. <!--SR:!2025-11-13,246,329!2027-05-08,662,329!2026-02-27,350,349!2026-02-20,290,289!2025-08-29,200,329!2026-01-11,312,349-->
 
 #### continuous space: Hamilton–Jacobi–Bellman equation
 

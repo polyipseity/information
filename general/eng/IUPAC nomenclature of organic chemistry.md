@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCOR'}@}
 > - prefix: {@{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}@}
 > - suffix: {@{-one}@}
-> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2032-06-01,2637,341!2025-07-17,120,130!2027-03-07,780,342!2028-07-31,1552,362-->
+> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2032-06-01,2637,341!2026-03-12,238,150!2027-03-07,780,342!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -529,7 +529,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCN}@}
 > - prefix: {@{cyano-}@}
 > - suffix: {@{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}@}
-> - infix: {@{(locant)}@} <!--SR:!2030-03-06,2143,388!2027-10-13,1401,368!2028-05-27,1510,368!2026-03-30,958,348!2025-07-18,623,268!2028-06-27,1534,368-->
+> - infix: {@{(locant)}@} <!--SR:!2030-03-06,2143,388!2027-10-13,1401,368!2028-05-27,1510,368!2026-03-30,958,348!2030-02-11,1669,268!2028-06-27,1534,368-->
 
 <!--/pytextgen-->
 
@@ -633,7 +633,7 @@ return (
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2027-06-14,720,247-->
 - nitrile→::@::←aldehyde <!--SR:!2025-08-07,36,130!2026-03-05,295,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
-- ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-07-17,112,150-->
+- ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2026-03-25,251,170-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→::@::←amine <!--SR:!2026-08-28,494,224!2026-08-19,431,252-->
 - amine→::@::←_(lowest)_ <!--SR:!2030-03-08,1774,256!2025-10-24,421,247-->

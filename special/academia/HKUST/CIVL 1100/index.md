@@ -50,7 +50,7 @@ The content is in teaching order.
   - compression examples in structures ::@:: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2026-07-30,547,310!2027-09-13,927,350-->
   - compression conventions ::@:: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2028-03-01,1057,350!2026-07-16,541,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
-  - tension types ::@:: We are concerned with uniaxial tension only. <!--SR:!2025-07-16,330,350!2028-12-27,1304,361-->
+  - tension types ::@:: We are concerned with uniaxial tension only. <!--SR:!2029-11-19,1587,370!2028-12-27,1304,361-->
   - tension examples in structures ::@:: cable, hanging column, rope, swing, tie <!--SR:!2026-03-13,416,270!2026-07-16,564,330-->
   - tension conventions ::@:: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2027-11-03,925,330!2026-07-03,577,330-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2028-05-03,1119,350!2026-03-27,479,321-->
@@ -73,7 +73,7 @@ The content is in teaching order.
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
   - pivot ::@:: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2026-03-05,490,330!2026-05-16,544,330-->
-  - torque intuition ::@:: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2029-01-20,1328,370!2025-07-17,331,350-->
+  - torque intuition ::@:: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2029-01-20,1328,370!2029-11-25,1592,370-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2029-07-20,1488,370!2029-04-15,1413,370-->
   - torque conventions ::@:: __counterclockwise positive__, clockwise negative <!--SR:!2027-08-15,918,350!2029-01-07,1315,361-->

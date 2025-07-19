@@ -13,7 +13,7 @@ __Iron(II) hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) wi
 
 ## preparation
 
-Treating {@{iron(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out dirty green iron(II) hydroxide}@}: <!--SR:!2025-07-18,584,310-->
+Treating {@{iron(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out dirty green iron(II) hydroxide}@}: <!--SR:!2030-07-01,1809,310-->
 
 > treating with [bases](base%20(chemistry).md)
 >

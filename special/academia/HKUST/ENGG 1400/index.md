@@ -55,7 +55,7 @@ The content is in teaching order.
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2028-03-09,981,350!2026-12-01,612,330-->
 - class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2025-08-18,254,330-->
 - activity 1: art to building community
-  - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2025-07-15,227,330-->
+  - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2028-05-15,1034,350-->
 - activity 2: workview sharing, activity 3: worldview sharing
   - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2025-10-23,302,330!2025-08-18,253,330-->
 

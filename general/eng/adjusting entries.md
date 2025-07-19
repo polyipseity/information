@@ -11,9 +11,9 @@ tags:
 
 # adjusting entries
 
-In [accounting](accounting.md), __adjusting entries__ are {@{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}@}. {@{The [revenue recognition principle](revenue%20recognition.md)}@} is {@{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}@}. They are sometimes called {@{Balance Day adjustments because they are made on balance day}@}. <!--SR:!2026-01-04,320,290!2025-07-15,210,310!2025-12-24,316,290!2026-11-27,610,330-->
+In [accounting](accounting.md), __adjusting entries__ are {@{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}@}. {@{The [revenue recognition principle](revenue%20recognition.md)}@} is {@{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}@}. They are sometimes called {@{Balance Day adjustments because they are made on balance day}@}. <!--SR:!2026-01-04,320,290!2028-01-10,908,330!2025-12-24,316,290!2026-11-27,610,330-->
 
-Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2025-07-17,212,310!2027-07-25,794,330!2025-08-12,251,330-->
+Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2028-01-15,912,330!2027-07-25,794,330!2025-08-12,251,330-->
 
 ## types of adjusting entries
 

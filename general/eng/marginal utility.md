@@ -15,7 +15,7 @@ In {@{the context of [cardinal utility](cardinal%20utility.md)}@}, {@{liberal ec
 
 ## marginality
 
-In the study of economics, {@{the term _[marginal](marginalism.md)_}@} refers to {@{a small change, starting from some baseline level}@}. [Philip Wicksteed](Philip%20Wicksteed.md) explained the term as follows: <!--SR:!2025-10-12,258,330!2025-07-15,174,310-->
+In the study of economics, {@{the term _[marginal](marginalism.md)_}@} refers to {@{a small change, starting from some baseline level}@}. [Philip Wicksteed](Philip%20Wicksteed.md) explained the term as follows: <!--SR:!2025-10-12,258,330!2027-08-01,746,330-->
 
 > {@{Marginal considerations}@} are {@{considerations which concern a slight increase or diminution of the stock of anything which we possess or are considering}@}.<sup>[\[4\]](#^ref-4)</sup> Another way to think of the term marginal is {@{the cost or benefit of the next unit used or consumed}@}, for example {@{the benefit that you might get from consuming a piece of chocolate}@}. The key to understanding marginality is {@{through [marginal analysis](marginalism.md)}@}. Marginal analysis examines {@{the additional benefits of an activity compared to additional costs sustained by that same activity}@}. In practice, companies use marginal analysis to {@{assist them in [maximizing](maximization%20(psychology).md) their potential profits and often used when making decisions about expanding or reducing production}@}. <!--SR:!2025-10-17,262,330!2025-11-21,290,330!2025-09-28,248,330!2025-11-07,278,330!2025-11-11,281,330!2025-11-09,280,330!2025-10-13,259,330-->
 

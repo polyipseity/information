@@ -127,7 +127,7 @@ In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the
 - _G_ is ::@:: connected. <!--SR:!2026-03-12,374,362!2026-04-06,396,362-->
 - _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges. <!--SR:!2025-12-16,301,336!2026-02-25,362,362-->
 - _G_ has no ::@:: vertices of \(finite\) odd degree. <!--SR:!2026-03-31,391,362!2026-04-02,393,362-->
-- Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2026-04-06,338,302!2025-07-14,167,322-->
+- Removing ::@:: (the edges of) any finite subgraph _S_ from _G_ leaves at most two infinite connected components in the remaining graph, and if _S_ has even degree at each of its vertices then removing _S_ leaves exactly one infinite connected component. <!--SR:!2026-04-06,338,302!2027-07-27,742,342-->
 
 ## undirected Eulerian graphs
 

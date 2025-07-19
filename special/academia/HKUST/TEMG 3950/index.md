@@ -91,7 +91,7 @@ The content is in teaching order.
 - [d.school design thinking bootleg § define](../../../d.school%20design%20thinking%20bootleg.md#define)
 - [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
   - "how might we" statement
-    - "how might we" statement examples ::@:: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2025-11-16,369,295!2025-07-16,338,355-->
+    - "how might we" statement examples ::@:: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2025-11-16,369,295!2030-01-17,1645,375-->
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
 - [assignment W5](assignment%20W5/assignment%20W5.md)
 
@@ -182,7 +182,7 @@ The content is in teaching order.
 - "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2029-02-27,1367,381!2025-11-20,423,381-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2026-02-03,483,381-->
-  - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2026-01-18,473,381-->
+  - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2026-01-18,473,381-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2029-02-05,1345,381-->
   - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2029-06-14,1441,381-->
@@ -193,7 +193,7 @@ The content is in teaching order.
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
 - Chernev's 5C framework ::@:: market & business analysis <!--SR:!2025-12-29,455,381!2028-05-02,1098,361-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
-  - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2025-07-17,302,361-->
+  - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2029-08-21,1496,381-->
   - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2026-02-02,482,381-->
   - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2025-08-15,326,361-->
 - McCarthy's 4P framework ::@:: market-related analysis <!--SR:!2026-01-02,459,381!2026-01-03,460,381-->

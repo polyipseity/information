@@ -27,7 +27,7 @@ The Carmichael function is named after {@{the American mathematician [Robert Car
 ## numerical examples
 
 - {@{_n_ = 5}@}. {@{The set of numbers less than and coprime to 5}@} is {@{<!-- flashcard separator -->{1,2,3,4}<!-- flashcard separator -->}@}. Hence {@{Euler's totient function has value _φ_\(5\) = 4}@} and {@{the value of Carmichael's function, _λ_\(5\), must be a divisor of 4}@}. {@{The divisor 1 does not satisfy the definition of Carmichael's function}@} since {@{$a^{1}\not \equiv 1{\pmod {5} }$ except for $a\equiv 1{\pmod {5} }$}@}. {@{Neither does 2}@} since {@{$2^{2}\equiv 3^{2}\equiv 4\not \equiv 1{\pmod {5} }$}@}. Hence {@{_λ_\(5\) = 4}@}. Indeed, {@{$1^{4}\equiv 2^{4}\equiv 3^{4}\equiv 4^{4}\equiv 1{\pmod {5} }$}@}. {@{Both 2 and 3}@} are {@{primitive _λ_-roots modulo 5 and also [primitive roots](primitive%20root%20modulo%20n.md) modulo 5}@}.
-- {@{_n_ = 8}@}. {@{The set of numbers less than and coprime to 8}@} is {@{<!-- flashcard separator -->{1,3,5,7}<!-- flashcard separator -->}@}. Hence {@{_φ_\(8\) = 4 and _λ_\(8\) must be a divisor of 4}@}. In fact {@{_λ_\(8\) = 2}@} since {@{$1^{2}\equiv 3^{2}\equiv 5^{2}\equiv 7^{2}\equiv 1{\pmod {8} }$}@}. {@{The primitive _λ_-roots modulo 8}@} are {@{3, 5, and 7}@}. There are {@{no primitive roots modulo 8}@}. <!--SR:!2026-01-26,311,341!2026-01-11,300,341!2025-12-28,285,330!2025-09-23,204,321!2025-07-18,144,301!2025-10-26,235,330!2026-02-02,317,341!2025-11-13,251,330!2025-09-21,204,321!2025-11-12,250,330!2026-01-05,295,341!2026-02-18,329,341!2026-02-21,331,341!2025-11-02,241,330!2026-01-09,298,341!2025-11-16,253,330!2025-09-12,199,321!2026-02-14,326,341!2025-09-16,204,321!2025-09-26,207,321!2026-02-14,326,341!2026-08-10,414,301-->
+- {@{_n_ = 8}@}. {@{The set of numbers less than and coprime to 8}@} is {@{<!-- flashcard separator -->{1,3,5,7}<!-- flashcard separator -->}@}. Hence {@{_φ_\(8\) = 4 and _λ_\(8\) must be a divisor of 4}@}. In fact {@{_λ_\(8\) = 2}@} since {@{$1^{2}\equiv 3^{2}\equiv 5^{2}\equiv 7^{2}\equiv 1{\pmod {8} }$}@}. {@{The primitive _λ_-roots modulo 8}@} are {@{3, 5, and 7}@}. There are {@{no primitive roots modulo 8}@}. <!--SR:!2026-01-26,311,341!2026-01-11,300,341!2025-12-28,285,330!2025-09-23,204,321!2027-03-11,601,321!2025-10-26,235,330!2026-02-02,317,341!2025-11-13,251,330!2025-09-21,204,321!2025-11-12,250,330!2026-01-05,295,341!2026-02-18,329,341!2026-02-21,331,341!2025-11-02,241,330!2026-01-09,298,341!2025-11-16,253,330!2025-09-12,199,321!2026-02-14,326,341!2025-09-16,204,321!2025-09-26,207,321!2026-02-14,326,341!2026-08-10,414,301-->
 
 ## recurrence for _λ_\(_n_\)
 
@@ -132,7 +132,7 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-07-17,35,150!2025-10-09,119,201!2025-10-20,196,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-09-29,74,170!2025-10-09,119,201!2025-10-20,196,281-->
 
 ### minimal order
 
@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-11-06,188,241!2025-07-18,27,130-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2025-11-06,188,241!2025-08-21,34,130-->
 
 ## use in cryptography
 

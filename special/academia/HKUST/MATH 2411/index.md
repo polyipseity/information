@@ -86,7 +86,7 @@ The content is in teaching order.
 - [statistics](../../../../general/statistics.md)
   - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2025-08-25,272,330!2025-11-26,309,290-->
     - statistics / definition (data) / examples ::@:: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2025-12-21,353,310!2028-04-30,1041,350-->
-  - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2025-07-16,246,330!2028-01-12,933,330-->
+  - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2028-08-08,1119,350!2028-01-12,933,330-->
     - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2026-10-01,554,310-->
   - statistics / definition (inference) ::@:: the art and science of answering questions and exploring ideas through the processes of gathering data, describing data, and _making inferences_ about a population on the basis of a smaller sample <!--SR:!2025-11-10,293,290!2026-08-23,529,310-->
   - statistics / branches ::@:: descriptive statistics, inferential statistics <!--SR:!2027-05-05,747,330!2027-07-17,800,330-->
@@ -119,7 +119,7 @@ The content is in teaching order.
   - data / reason for summarizing ::@:: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2027-04-29,729,330!2025-10-23,320,330-->
   - data / reading a table ::@:: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2026-03-03,410,310!2028-04-28,1038,350-->
   - data / types of variables ::@:: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2026-11-04,546,310!2028-06-10,1072,350-->
-    - data / types of variables / importance ::@:: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2025-07-15,245,330!2025-10-09,259,270-->
+    - data / types of variables / importance ::@:: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2028-08-07,1118,350!2025-10-09,259,270-->
     - data / types of variables / note ::@:: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2025-08-24,271,330!2026-11-19,590,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::@:: central tendency (location), variability (spread/dispersion) <!--SR:!2027-04-09,722,330!2027-06-15,769,330-->

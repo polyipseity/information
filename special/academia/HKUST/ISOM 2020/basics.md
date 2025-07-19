@@ -65,7 +65,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2025-09-10,287,342!2025-07-17,240,330-->
+- _(begin)_→::@::←`**` <!--SR:!2025-09-10,287,342!2028-07-13,1092,350-->
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2025-11-26,348,342-->
 - `*`→::@::←`/` <!--SR:!2025-10-20,319,342!2025-11-19,344,342-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2025-11-27,349,342-->
@@ -259,7 +259,7 @@ variableName = 1 + 2
 
 One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2025-11-01,329,342!2027-09-13,834,342!2028-01-02,925,342!2025-11-10,335,342-->
 
-Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2026-11-16,608,330!2025-07-17,241,330-->
+Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2026-11-16,608,330!2028-07-18,1097,350-->
 
 Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2025-10-05,308,342-->
 
