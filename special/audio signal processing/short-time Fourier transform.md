@@ -15,7 +15,7 @@ tags:
 
 ## discrete STFT
 
-The signal can be broken into {@{chunks \(usually slightly overlapping to reduce boundary artifacts\)}@} using {@{an analysis window $w$, which is essentially a function with nonzero values within a certain finite range}@}. Mathematically, it can be written as: {@{$$X_m[k] = \sum_{n = -N/2}^{N/2 - 1} x[n] w[n - m] e^{-j (2 \pi k/N) n} \,,$$}@} where $m$ is {@{how much rightward to shift the analysis window}@}. Usually, each frame {@{increments $m$ by a fixed number called the _hop size_ $H$}@} \(usually {@{slightly smaller than the analysis window size to reduce boundary artifacts}@}\).
+The signal can be broken into {@{chunks \(usually slightly overlapping to reduce boundary artifacts\)}@} using {@{an analysis window $w$, which is essentially a function with nonzero values within a certain finite range}@}. Mathematically, it can be written as: {@{$$X_m[k] = \sum_{n = -N/2}^{N/2 - 1} x[n] w[n - m] e^{-j (2 \pi k/N) n} \,,$$}@} where $m$ is {@{how much rightward to shift the analysis window}@}. Usually, each frame {@{increments $m$ by a fixed number called the _hop size_ $H$}@} \(often {@{smaller than the analysis window size to reduce boundary artifacts}@}\).
 
 We see that the analysis widow is {@{multiplied element-wise with the signal}@}, so in the frequency domain {@{the analysis window is convoluted with the signal}@}. Recall that {@{a complex sinusoid of frequency $k$ \(cycle frequency $k / N$\)}@} produce {@{a signal with its amplitude at frequency bin $k$}@} in the frequency domain. Then we see {@{windowing this complex sinusoid}@} will {@{"spread out" the signal around the frequency bin $k$ \(consider convolution\)}@} in the frequency domain.
 
