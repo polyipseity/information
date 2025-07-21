@@ -208,15 +208,15 @@ It can be shown that {@{a finite state irreducible Markov chain is ergodic if it
 
 Some authors call {@{any irreducible, positive recurrent Markov chains ergodic, even periodic ones}@}.<sup>[\[51\]](#^ref-51)</sup> In fact, {@{merely irreducible Markov chains correspond to [ergodic processes](ergodicity.md)}@}, defined {@{according to [ergodic theory](ergodic%20theory.md)}@}.<sup>[\[52\]](#^ref-52)</sup>
 
-Some authors call {@{a matrix _primitive_}@} iff {@{there exists some integer $k$ such that all entries of $M^{k}$ are positive}@}.<sup>[\[53\]](#^ref-53)</sup> (annotation: $M$ is {@{the transition probability matrix}@}.) Some authors call it {@{_regular_}@}.<sup>[\[54\]](#^ref-54)</sup>
+Some authors call {@{a matrix _primitive_ \(annotation: remember this for below\)}@} iff {@{there exists some integer $k$ such that all entries of $M^{k}$ are positive}@}.<sup>[\[53\]](#^ref-53)</sup> (annotation: $M$ is {@{the transition probability matrix}@}.) Some authors call it {@{_regular_}@}.<sup>[\[54\]](#^ref-54)</sup>
 
 #### index of primitivity
 
-{@{The _index of primitivity_, or _exponent_, of a regular matrix}@}, is {@{the smallest $k$ such that all entries of $M^{k}$ are positive}@}. The exponent is {@{purely a graph-theoretic property}@}, since {@{it depends only on whether each entry of $M$ is zero or positive}@}, and therefore can be found on {@{a directed graph with $\mathrm {sign} (M)$ as its adjacency matrix}@}.
+{@{The _index of primitivity_, or _exponent_, of a regular matrix \(annotation: its definition requires the exponent to exist\)}@}, is {@{the smallest $k$ such that all entries of $M^{k}$ are positive}@}. The exponent is {@{purely a graph-theoretic property}@}, since {@{it depends only on whether each entry of $M$ is zero or positive}@}, and therefore can be found on {@{a directed graph with $\mathrm {sign} (M)$ as its adjacency matrix}@}.
 
 There are {@{several combinatorial results about the exponent}@} when {@{there are finitely many states}@}. Let {@{$n$ be the number of states}@}, then<sup>[\[55\]](#^ref-55)</sup>
 
-- The exponent is {@{$\leq (n-1)^{2}+1$}@}. {@{The only case where it is an equality}@} is {@{when the graph of $M$ goes like $1\to 2\to \dots \to n\to 1{\text{ and } }2$}@}.
+- The exponent is {@{$\leq (n-1)^{2}+1$ \(annotation: if the exponent exists, which is required by the definition of a regular matrix\)}@}. {@{The only case where it is an equality}@} is {@{when the graph of $M$ goes like $1\to 2\to \dots \to n\to 1{\text{ and } }2$}@}.
 - If {@{$M$ has $k\geq 1$ diagonal entries}@}, then {@{its exponent is $\leq 2n-k-1$}@}.
 - If {@{$\mathrm {sign} (M)$ is symmetric}@}, then {@{$M^{2}$ has positive diagonal entries}@}, which {@{by previous proposition means its exponent is $\leq 2n-2$}@}.
 - \({@{Dulmage-Mendelsohn theorem}@}\) {@{The exponent is $\leq n+s(n-2)$}@} where {@{$s$ is the [girth of the graph](girth%20(graph%20theory).md)}@}. It can be {@{improved to $\leq (d+1)+s(d+1-2)$}@}, \(annotation: Replace {@{with $n$ with $d + 1$}@}.\) where {@{$d$ is the [diameter of the graph](distance%20(graph%20theory).md)}@}.<sup>[\[56\]](#^ref-56)</sup>
