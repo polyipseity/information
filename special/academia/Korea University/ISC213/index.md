@@ -180,7 +180,7 @@ The content is in teaching order.
     - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet.
     - Porter's five forces analysis / internet / entrants ::@:: The internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier.
     - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors.
-  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. So monopolies arise.
+  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. Essentially all firms in the industry become more profitable.
 - [benchmarking](../../../../general/benchmarking.md) ::@:: It is the practice of comparing business processes and performance metrics to industry bests and best practices from other companies. Dimensions typically measured are quality, time and cost. <p> \(__this course__: in midterm examination\)
 - [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates.
   - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching
@@ -189,9 +189,9 @@ The content is in teaching order.
   - strategic management / niching ::@:: IT can help implement a focused and specialized strategy on a single market niche. <p> example: Hilton Hotels & Resorts, Harrah's
   - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers, perhaps by increasing _switching costs_. <p> examples: Amazon
 - [value chain](../../../../general/value%20chain.md) ::@:: It is a progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer.
-  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service. <p> \(__this course__: The textbook has "outbound logistics" as the 5th item instead. The instructor has pointed out that this is wrong. Asked in the midterm examination.\)
+  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service. <p> \(__this course__: The textbook has "outbound logistics" as the 5th item instead. The "customer" link should be broken down into "wholesaler &gt; retailer &gt; consumer". The instructor has pointed out that these 2 points. Asked in the midterm examination.\)
   - value chain / support activities ::@:: They help make primary activities more effectively and efficiently. The 4 activities are: human resources, infrastructure, procurement, and technology.
-- [core competency](../../../../general/core%20competency.md) ::@:: It can be defined as "a harmonized combination of multiple resources and skills that distinguish a firm in the marketplace" and therefore are the foundation of companies' competitiveness. <p> \(__this course__: Its relationship to competitive advantage was asked in the midterm examination.\)
+- [core competency](../../../../general/core%20competency.md) ::@:: It can be defined as "a harmonized combination of multiple resources and skills that distinguish a firm in the marketplace" and therefore are the foundation of companies' competitiveness. <p> \(__this course__: Its relationship to competitive advantage was asked in the midterm examination: They make it difficult for other firms to copy its competitive advantage, sustaining said advantages.\)
 - strategic management
   - strategic management / information system ::@:: It helps promote overall performance of business units by promoting core competencies, _network-based_ strategies, and synergies.
     - strategic management / information system / competitiveness ::@:: It can help create competitive advantages over competitors. However, competitors can adapt similar systems. In the end, it is needed for survival, because if you do not use it, you lose to everyone else.
@@ -238,7 +238,7 @@ The content is in teaching order.
 - [intellectual property](../../../../general/intellectual%20property.md) \(IP\) ::@:: It is a category of property that includes intangible creations of the human intellect. There are many types of intellectual property, and some countries recognize more than others. The best-known types are patents, copyrights, trademarks, and trade secrets.
   - intellectual property / trade secrets ::@:: IP belonging to businesses that are not in the public domain
   - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\)
-  - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\) <p> \(__this course__: Through EDPR? No idea what it is, but it appeared in the midterm examination. There was no "patents" option.\)
+  - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\) <p> \(__this course__: A question with this as the correct answer appeared in the midterm examination, but there was no option for this. So the question was given full marks.\)
   - intellectual property / digital challenges ::@:: compactness, difficulty of classification \(e.g. software\), difficulty of establishing uniqueness, ease of replication, ease of transmission
 - [Digital Millennium Copyright Act](../../../../general/Digital%20Millennium%20Copyright%20Act.md) \(DMCA\) ::@:: It is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization \(WIPO\).
   - Digital Millennium Copyright Act / circumvention ::@:: illegal to circumvent  technology-based protections of copyrighted materials
@@ -450,18 +450,30 @@ The content is in teaching order.
   - provided: \(none\)
   - questions: questions ×50 \(acronym, fill in the blank, multiple choice, short answer, true/false\)
   - others: open camera showing full face
-- grades: ?/100
+- grades: 95/100
   - statistics
-    - timestamps: ?
-    - mean: ?
+    - timestamps: 2025-07-19+09:00
+    - mean: 92.97 \(provided: 83.7\)
     - standard deviation: ?
-    - low: ?
-    - lower quartile: ?
-    - median: ?
-    - upper quartile: ?
-    - high: ?
-    - distribution: ?
+    - low: 79
+    - lower quartile: 92
+    - median: 93.5
+    - upper quartile: 96
+    - high: 99
+    - distribution: ![midterm examination histogram](attachments/midtermm%20examination%20histogram.png)
     - data: ?
-- report: \(none\)
+- report
+  - value chain / primary activities \(−1\)
+  - Porter's five forces / weak \(−2\)
+  - intellectual property / patents \(0\)
+  - core competency \(−2\)
 - check: \(none\)
 - questions: [midterm examination](questions/midterm%20examination.md)
+
+## week 4 lecture 1
+
+- datetime: 2025-07-21T09:00:00+09:00/2025-07-21T10:40:00+09:00, PT1H40M
+  - local: 2025-07-21T08:00:00+08:00/2025-07-21T09:40:00+08:00, PT1H40M
+- topic: hands-on exercise: building corpus
+- Altair AI Studio
+  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 5 functions to create a corpus: "create document", "process documents from files", "read Excel", "read Excel &gt; data to document", and "read document".
