@@ -460,7 +460,7 @@ The content is in teaching order.
     - median: 93.5
     - upper quartile: 96
     - high: 99
-    - distribution: ![midterm examination histogram](attachments/midtermm%20examination%20histogram.png)
+    - distribution: ![midterm examination histogram](attachments/midterm%20examination%20histogram.png)
     - data: ?
 - report
   - value chain / primary activities \(−1\)
@@ -477,3 +477,31 @@ The content is in teaching order.
 - topic: hands-on exercise: building corpus
 - Altair AI Studio
   - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 5 functions to create a corpus: "create document", "process documents from files", "read Excel", "read Excel &gt; data to document", and "read document".
+
+## week 4 lecture 2
+
+- datetime: 2025-07-21209:00:00+09:00/2025-07-22T10:40:00+09:00, PT1H40M
+  - local: 2025-07-22T08:00:00+08:00/2025-07-22T09:40:00+08:00, PT1H40M
+- topic: managing knowledge, artificial intelligence
+- [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill.
+  - knowledge / nature ::@:: experiences network effect, intangible
+  - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources.
+  - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc.
+- [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization.
+  - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error
+  - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes
+- [knowledge management](../../../../general/knowledge%20management.md) \(KM\) ::@:: It is the set of procedures for producing, disseminating, utilizing, and overseeing an organization's knowledge and data. It alludes to a multidisciplinary strategy that maximizes knowledge utilization to accomplish organizational goals.
+  - knowledge management / value chain ::@:: acquire: business analytics, data mining, machine learning, etc. → store: content management systems, etc. → disseminate: portals, search engines, etc. → apply: decision support systems, enterprise applications, robotics, etc.
+- [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed.
+  - knowledge management system / types ::@:: 3 major types: enterprise-wide KMS, intelligent techniques, knowledge work systems
+  - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc.
+  - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc.
+  - knowledge management system / intelligent techniques ::@:: tools to discover patterns in knowledge and apply them for decision making and knowledge domains <p> examples: computer vision, data mining, expert systems, genetic algorithms, machine learning, intelligent agents, etc.
+- knowledge management
+  - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured.
+- [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness.
+- [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web.
+- knowledge management system
+  - knowledge management system / intelligent techniques
+    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc.
+- [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
