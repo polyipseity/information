@@ -480,7 +480,7 @@ The content is in teaching order.
 
 ## week 4 lecture 2
 
-- datetime: 2025-07-21209:00:00+09:00/2025-07-22T10:40:00+09:00, PT1H40M
+- datetime: 2025-07-22T09:00:00+09:00/2025-07-22T10:40:00+09:00, PT1H40M
   - local: 2025-07-22T08:00:00+08:00/2025-07-22T09:40:00+08:00, PT1H40M
 - topic: managing knowledge, artificial intelligence
 - [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill.
@@ -505,3 +505,20 @@ The content is in teaching order.
   - knowledge management system / intelligent techniques
     - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc.
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
+
+## week 4 lecture 3
+
+- datetime: 2025-07-23T09:00:00+09:00/2025-07-23T10:40:00+09:00, PT1H40M
+  - local: 2025-07-23T08:00:00+08:00/2025-07-23T09:40:00+08:00, PT1H40M
+- topic: enhancing decision making
+- status: canceled
+
+> Dear Class,
+>
+> Today, Wednesday, 7/23/2025, we need to cancel class due to an expected network outage on campus. The system will be back on later today, at the latest tomorrow. Tomorrow when we are back to class, I will layout the plan to get caught up after today's class cancelation.
+>
+> Thank you for your understanding.
+>
+> All the best,
+>
+> \[redacted\]
