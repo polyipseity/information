@@ -1,0 +1,1 @@
+semantic theory of truth.md
