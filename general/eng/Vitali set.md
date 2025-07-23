@@ -10,7 +10,7 @@ tags:
 
 # Vitali set
 
-In [mathematics](mathematics.md), {@{a __Vitali set__}@} is {@{an elementary example of a set of [real numbers](real%20number.md) that is not [Lebesgue measurable](Lebesgue%20measure.md)}@}, found by {@{[Giuseppe Vitali](Giuseppe%20Vitali.md) in 1905}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The __Vitali theorem__}@} is {@{the [existence theorem](existence%20theorem.md) that there are such sets}@}. Each Vitali set is {@{[uncountable](uncountable%20set.md)}@}, and there are {@{[uncountably many](uncountable%20set.md) Vitali sets}@}. The proof of their existence depends on {@{the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2025-07-20,166,310!2026-01-29,327,349!2025-12-17,268,289!2026-02-27,350,349!2026-02-12,338,349!2027-05-11,669,330!2026-01-12,313,349!2026-02-03,330,349-->
+In [mathematics](mathematics.md), {@{a __Vitali set__}@} is {@{an elementary example of a set of [real numbers](real%20number.md) that is not [Lebesgue measurable](Lebesgue%20measure.md)}@}, found by {@{[Giuseppe Vitali](Giuseppe%20Vitali.md) in 1905}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The __Vitali theorem__}@} is {@{the [existence theorem](existence%20theorem.md) that there are such sets}@}. Each Vitali set is {@{[uncountable](uncountable%20set.md)}@}, and there are {@{[uncountably many](uncountable%20set.md) Vitali sets}@}. The proof of their existence depends on {@{the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2027-07-08,717,330!2026-01-29,327,349!2025-12-17,268,289!2026-02-27,350,349!2026-02-12,338,349!2027-05-11,669,330!2026-01-12,313,349!2026-02-03,330,349-->
 
 ## measurable sets
 
@@ -18,7 +18,7 @@ Certain sets have {@{a definite 'length' or 'mass'}@}. For instance, {@{the [int
 
 There is {@{a natural question here}@}: if {@{_E_ is an arbitrary subset of the real line, does it have a 'mass' or 'total length'}@}? As an example, we might ask {@{what is the mass of the set of [rational numbers](rational%20number.md) between 0 and 1}@}, given that {@{the mass of the interval \[0, 1\] is 1}@}. {@{The rationals are [dense](dense%20set.md) in the reals}@}, so {@{any value between and including 0 and 1 may appear reasonable}@}. <!--SR:!2026-01-31,329,349!2026-02-23,347,349!2026-07-03,413,309!2025-09-19,215,329!2025-10-23,244,330!2025-08-27,198,329-->
 
-However {@{the closest generalization to mass is [sigma additivity](sigma-additive%20set%20function.md)}@}, which {@{gives rise to the [Lebesgue measure](Lebesgue%20measure.md)}@}. It assigns {@{a measure of _b_ − _a_ to the interval \[_a_, _b_\]}@}, but will assign {@{a measure of 0 to the set of rational numbers because it is [countable](countable%20set.md)}@}. {@{Any set which has a well-defined Lebesgue measure}@} is {@{said to be "measurable"}@}, but {@{the construction of the Lebesgue measure \(for instance using [Carathéodory's extension theorem](Carathéodory's%20extension%20theorem.md)\)}@} does not {@{make it obvious whether non-measurable sets exist}@}. The answer to that question {@{involves the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2026-01-30,328,349!2025-10-22,243,330!2026-02-01,329,349!2026-02-26,349,349!2025-11-03,255,330!2026-01-16,316,349!2025-09-17,213,329!2025-07-19,165,310!2026-01-30,328,349-->
+However {@{the closest generalization to mass is [sigma additivity](sigma-additive%20set%20function.md)}@}, which {@{gives rise to the [Lebesgue measure](Lebesgue%20measure.md)}@}. It assigns {@{a measure of _b_ − _a_ to the interval \[_a_, _b_\]}@}, but will assign {@{a measure of 0 to the set of rational numbers because it is [countable](countable%20set.md)}@}. {@{Any set which has a well-defined Lebesgue measure}@} is {@{said to be "measurable"}@}, but {@{the construction of the Lebesgue measure \(for instance using [Carathéodory's extension theorem](Carathéodory's%20extension%20theorem.md)\)}@} does not {@{make it obvious whether non-measurable sets exist}@}. The answer to that question {@{involves the [axiom of choice](axiom%20of%20choice.md)}@}. <!--SR:!2026-01-30,328,349!2025-10-22,243,330!2026-02-01,329,349!2026-02-26,349,349!2025-11-03,255,330!2026-01-16,316,349!2025-09-17,213,329!2027-06-25,704,330!2026-01-30,328,349-->
 
 ## construction and proof
 
@@ -40,7 +40,7 @@ Apply {@{the Lebesgue measure to these inclusions using [sigma additivity](sigma
 
 ## properties
 
-No Vitali set has {@{the [property of Baire](property%20of%20Baire.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-21,167,310-->
+No Vitali set has {@{the [property of Baire](property%20of%20Baire.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2027-07-07,716,330-->
 
 By {@{modifying the above proof}@}, one shows that {@{each Vitali set has [Banach measure](Banach%20measure.md) 0}@}. This {@{does not create any contradictions}@} since {@{Banach measures are not countably additive, but only finitely additive}@}. <!--SR:!2025-10-30,251,330!2026-01-30,327,349!2025-11-02,254,330!2025-09-29,222,329-->
 

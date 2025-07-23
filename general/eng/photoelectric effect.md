@@ -30,7 +30,7 @@ The {@{maximum kinetic energy $K_\mathrm{max}$}@} is determined by {@{the freque
 {@{$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$}@}
 where {@{$h$ is the Planck constant}@}. <!--SR:!2026-01-26,887,341!2027-02-28,1112,301!2025-08-10,734,321!2025-11-02,758,341-->
 
-Given the threshold frequency is reached, increasing intensity only {@{increases the number of [photons](photon.md) hitting the surface}@}, {@{increasing photoemission}@}, {@{hence photoelectric current}@}. <!--SR:!2029-01-28,1541,262!2028-04-30,1458,310!2025-07-22,697,310-->
+Given the threshold frequency is reached, increasing intensity only {@{increases the number of [photons](photon.md) hitting the surface}@}, {@{increasing photoemission}@}, {@{hence photoelectric current}@}. <!--SR:!2029-01-28,1541,262!2028-04-30,1458,310!2033-09-27,2989,330-->
 
 ## references
 

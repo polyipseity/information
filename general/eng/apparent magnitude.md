@@ -9,7 +9,7 @@ tags:
 
 # apparent magnitude
 
-__Apparent magnitude__ ({@{___m___}@}) is {@{a measure of the [brightness](irradiance.md) of a [star](star.md) or other [astronomical object](astronomical%20object.md)}@}. An object's apparent magnitude depends on {@{its intrinsic [luminosity](luminosity.md), its distance, and any [extinction](extinction%20(astronomy).md) of the object's light caused by [interstellar dust](cosmic%20dust.md) along the [line of sight](line%20of%20sight.md) to the observer}@}. <!--SR:!2025-07-21,279,330!2025-11-23,325,297!2028-09-17,1184,357-->
+__Apparent magnitude__ ({@{___m___}@}) is {@{a measure of the [brightness](irradiance.md) of a [star](star.md) or other [astronomical object](astronomical%20object.md)}@}. An object's apparent magnitude depends on {@{its intrinsic [luminosity](luminosity.md), its distance, and any [extinction](extinction%20(astronomy).md) of the object's light caused by [interstellar dust](cosmic%20dust.md) along the [line of sight](line%20of%20sight.md) to the observer}@}. <!--SR:!2029-01-08,1267,350!2025-11-23,325,297!2028-09-17,1184,357-->
 
 The word _magnitude_ in [astronomy](astronomy.md), unless stated otherwise, usually refers to {@{a celestial object's apparent magnitude}@}. The magnitude scale dates to {@{before the ancient Roman astronomer [Claudius Ptolemy](Ptolemy.md),}@} whose star catalog popularized the system by {@{listing [stars](star.md) from [1st magnitude](first-magnitude%20star.md) (brightest) to 6th magnitude (dimmest)}@}. The modern scale was {@{mathematically defined in a way to closely match this historical system}@}. <!--SR:!2025-09-05,319,337!2027-11-05,912,330!2028-05-14,1086,357!2027-07-21,837,337-->
 

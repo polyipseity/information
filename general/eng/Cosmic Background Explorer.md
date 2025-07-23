@@ -14,7 +14,7 @@ tags:
 
 COBE's measurements provided {@{two key pieces of evidence that supported the [Big Bang](Big%20Bang.md) theory of the universe}@}: that {@{the CMB has a near-perfect [black-body](black%20body.md) [spectrum](electromagnetic%20spectrum.md)}@}, and that {@{it has very faint [anisotropies](anisotropy.md)}@}. Two of COBE's principal investigators, {@{[George F. Smoot III](George%20Smoot.md) and [John C. Mather](John%20C.%20Mather.md)}@}, received {@{the [Nobel Prize in Physics](Nobel%20Prize%20in%20Physics.md) in 2006 for their work on the project}@}. According to the Nobel Prize committee, {@{"the COBE project can also be regarded as the starting point for [cosmology](cosmology.md) as a precision science"}@}. <!--SR:!2025-07-30,266,330!2025-07-25,262,330!2025-08-06,271,330!2025-08-14,261,290!2027-03-05,655,290!2025-07-27,262,330-->
 
-COBE was {@{the second cosmic microwave background satellite, following [RELIKT-1](RELIKT-1.md)}@}, and was followed by {@{two more advanced spacecraft}@}: {@{the [Wilkinson Microwave Anisotropy Probe](Wilkinson%20Microwave%20Anisotropy%20Probe.md) (WMAP) operated from 2001 to 2010}@} and {@{the [Planck spacecraft](Planck%20(spacecraft).md) from 2009 to 2013}@}. <!--SR:!2025-07-26,221,270!2026-04-25,458,310!2025-08-23,209,230!2025-07-19,228,270-->
+COBE was {@{the second cosmic microwave background satellite, following [RELIKT-1](RELIKT-1.md)}@}, and was followed by {@{two more advanced spacecraft}@}: {@{the [Wilkinson Microwave Anisotropy Probe](Wilkinson%20Microwave%20Anisotropy%20Probe.md) (WMAP) operated from 2001 to 2010}@} and {@{the [Planck spacecraft](Planck%20(spacecraft).md) from 2009 to 2013}@}. <!--SR:!2025-07-26,221,270!2026-04-25,458,310!2025-08-23,209,230!2027-11-26,860,290-->
 
 ## references
 

@@ -271,7 +271,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2028-09-12,1171,307!2027-10-17,913,287-->
-> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-10-16,136,207!2025-07-21,108,167-->
+> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2025-10-16,136,207!2026-01-20,183,167-->
 > - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-08-08,152,287!2025-08-17,45,130-->
 > - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2025-09-19,179,207!2025-12-20,481,287-->
 
@@ -304,13 +304,13 @@ return await memorize_map(
 - sine ± sine:@:$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$ <!--SR:!2027-04-19,897,250-->
 - cosine + cosine:@:$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2025-08-21,448,230-->
 - cosine - cosine:@:$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2026-04-19,487,190-->
-- tangent ± tangent:@:$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2025-07-19,59,130-->
+- tangent ± tangent:@:$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2025-10-04,76,130-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\sin 3.23 \mp \sin(-1.52)$ ::@:: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$ <!--SR:!2025-07-21,271,227!2027-01-11,784,287-->
+> - $\sin 3.23 \mp \sin(-1.52)$ ::@:: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$ <!--SR:!2027-03-28,615,227!2027-01-11,784,287-->
 > - $\cos(-2.23) + \cos 0.14$ ::@:: $2 \cos 1.045 \cos 1.185$ <!--SR:!2026-01-17,539,327!2026-07-20,454,247-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::@:: $-2 \sin 4.665 \sin 2.215$ <!--SR:!2026-01-08,512,307!2026-11-11,504,247-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::@:: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$ <!--SR:!2028-04-09,1061,307!2026-01-06,498,287-->

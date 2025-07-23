@@ -721,7 +721,7 @@ tags:
 > 5. \$0
 >
 > - solution: {@{3}@}
-> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2025-09-12,127,409!2025-07-23,84,389-->
+> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2025-09-12,127,409!2026-06-20,332,389-->
 
 <!-- markdownlint MD028 -->
 
@@ -868,7 +868,7 @@ tags:
 > 2. bond B
 > 3. bond C
 >
-> - solution: {@{3}@} <!--SR:!2025-07-19,28,418-->
+> - solution: {@{3}@} <!--SR:!2025-12-26,156,438-->
 
 ## week 10 lecture 2
 
@@ -905,7 +905,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-07-19,28,418-->
+> - solution: {@{2}@} <!--SR:!2025-12-29,159,438-->
 
 ## week 11 lecture
 
@@ -1123,7 +1123,7 @@ tags:
 > 2. 5%
 > 3. 10%
 >
-> - solution: {@{2}@} <!--SR:!2025-07-19,28,418-->
+> - solution: {@{2}@} <!--SR:!2026-01-01,162,438-->
 
 <!-- markdownlint MD028 -->
 
@@ -1141,7 +1141,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-07-19,28,412-->
+> - solution: {@{2}@} <!--SR:!2025-12-25,155,432-->
 
 <!-- markdownlint MD028 -->
 
@@ -1154,7 +1154,7 @@ tags:
 > 3. systematic risk
 > 4. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2025-07-19,28,412-->
+> - solution: {@{3}@} <!--SR:!2025-12-24,154,432-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. ρ = 1
 >
 > - solution: {@{3}@}
-> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2025-12-14,150,438!2025-07-19,28,418-->
+> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2025-12-14,150,438!2026-01-01,162,438-->
 
 <!-- markdownlint MD028 -->
 
@@ -1239,7 +1239,7 @@ tags:
 > 2. 0
 > 3. 1
 >
-> - solution: {@{2}@} <!--SR:!2025-07-19,28,412-->
+> - solution: {@{2}@} <!--SR:!2025-12-25,155,432-->
 
 ## week 14 lecture
 
@@ -1287,7 +1287,7 @@ tags:
 > 3. both have the same expected return
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2025-07-19,28,412-->
+> - solution: {@{1}@} <!--SR:!2025-12-24,154,432-->
 
 <!-- markdownlint MD028 -->
 
@@ -1381,7 +1381,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2025-07-19,28,412-->
+> - solution: {@{2}@} <!--SR:!2025-12-27,157,432-->
 
 <!-- markdownlint MD028 -->
 

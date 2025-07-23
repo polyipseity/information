@@ -54,7 +54,7 @@ The history of production and operation systems begins around 5000 B.C. when [Su
 
 > {@{![[Shoemakers](shoemaker.md), 1568](../../archives/Wikimedia%20Commons/Shoemaker%20Book%20of%20Trades.png)}@}
 >
-> {@{[Shoemakers](shoemaker.md), 1568}@} <!--SR:!2026-02-18,292,330!2025-07-21,120,290-->
+> {@{[Shoemakers](shoemaker.md), 1568}@} <!--SR:!2026-02-18,292,330!2026-11-22,489,310-->
 
 In the [Middle Ages](Middle%20Ages.md), kings and queens ruled over large areas of land. Loyal noblemen maintained large sections of the monarch's territory. This hierarchical organization in which people were divided into classes based on social position and wealth became known as the [feudal system](feudalism.md). In the feudal system, [vassals](vassal.md) and [serfs](serfdom.md) produced for themselves and people of higher classes by using the ruler's land and resources. Although a large part of labor was employed in agriculture, [artisans](artisans.md) contributed to economic output and formed [guilds](guilds.md). The guild system, operating mainly between 1100 and 1500, consisted of two types: merchant guilds, who bought and sold goods, and craft guilds, which made goods. Although guilds were regulated as to the quality of work performed, the resulting system was rather rigid, [shoemakers](shoemakers.md), for example, were prohibited from tanning hides.<sup>[\[9\]](#^ref-9)</sup>
 
@@ -244,7 +244,7 @@ A more recent approach, introduced by Terry Hill,<sup>[\[46\]](#^ref-46)</sup> i
 
 ### configuration and management
 
-{@{Designing the _configuration of production systems_}@} involves both {@{[technological](technological.md) and [organizational](organizational.md) variables}@}. {@{Choices in production technology}@} involve: {@{dimensioning [capacity](productive%20capacity.md), fractioning capacity, capacity location}@}, {@{[outsourcing](outsourcing.md) processes, process technology, [automation](automation.md) of operations, trade-off between volume and variety}@} \(see {@{[Hayes-Wheelwright matrix](Hayes-Wheelwright%20matrix.md)}@}\). {@{Choices in the organizational area}@} involve: {@{defining worker [skills](skills.md) and [responsibilities](accountability.md), team coordination, worker incentives and information flow}@}. <!--SR:!2026-01-26,275,330!2026-02-12,288,330!2026-01-05,258,330!2025-07-23,125,290!2025-10-27,173,270!2026-02-03,280,330!2025-12-24,249,330!2025-10-03,179,310-->
+{@{Designing the _configuration of production systems_}@} involves both {@{[technological](technological.md) and [organizational](organizational.md) variables}@}. {@{Choices in production technology}@} involve: {@{dimensioning [capacity](productive%20capacity.md), fractioning capacity, capacity location}@}, {@{[outsourcing](outsourcing.md) processes, process technology, [automation](automation.md) of operations, trade-off between volume and variety}@} \(see {@{[Hayes-Wheelwright matrix](Hayes-Wheelwright%20matrix.md)}@}\). {@{Choices in the organizational area}@} involve: {@{defining worker [skills](skills.md) and [responsibilities](accountability.md), team coordination, worker incentives and information flow}@}. <!--SR:!2026-01-26,275,330!2026-02-12,288,330!2026-01-05,258,330!2026-12-09,504,310!2025-10-27,173,270!2026-02-03,280,330!2025-12-24,249,330!2025-10-03,179,310-->
 
 In {@{_[production planning](production%20planning.md)_}@}, there is a basic distinction between {@{the [push](push-pull%20strategy.md) approach and the [pull](push–pull%20strategy.md) approach}@}, with the later including {@{the singular approach of [just in time](just%20in%20time%20(business).md)}@}. {@{Pull}@} means that {@{the production system authorizes production based on inventory level}@}; {@{push}@} means that {@{production occurs based on demand \(forecasted or present, that is [purchase orders](purchase%20orders.md)\)}@}. {@{An individual production system}@} can be {@{both push and pull}@}; for example {@{activities before the CODP may work under a pull system}@}, while {@{activities after the CODP may work under a push system}@}. <!--SR:!2025-12-23,247,330!2026-02-06,283,330!2026-02-18,292,330!2026-01-28,274,330!2026-06-10,351,290!2025-12-26,251,330!2026-01-27,276,330!2026-02-11,287,330!2026-01-12,262,330!2026-02-17,291,330!2026-01-16,266,330-->
 
@@ -290,7 +290,7 @@ In this context problems of {@{[scheduling \(sequencing of production\)](schedul
 
 {@{The two-card kanban procedure}@} differs a bit: <!--SR:!2025-12-19,245,330-->
 
-- (annotation: two-card kanban) The downstream operator ::@:: takes the production kanban from his list <!--SR:!2025-10-22,193,310!2025-07-22,121,290-->
+- (annotation: two-card kanban) The downstream operator ::@:: takes the production kanban from his list <!--SR:!2025-10-22,193,310!2026-11-22,488,310-->
 - (annotation: two-card kanban) If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card <!--SR:!2025-10-09,185,310!2025-10-25,196,310-->
 - (annotation: two-card kanban; if required parts are available and the move kanban is removed) ::@:: He produces the part and attach its respective production kanban <!--SR:!2026-06-12,353,290!2026-06-13,354,290-->
 - (annotation: two-card kanban) Periodically a mover ::@:: picks up the move kanbans in upstream stations and search for the respective parts, when found he exchanges production kanbans for move kanbans and move the parts to downstream stations <!--SR:!2026-05-23,339,290!2025-10-27,182,270-->
@@ -307,7 +307,7 @@ In Toyota the TPS represented {@{more of a philosophy of production than a set o
 - [Value stream mapping](value%20stream%20mapping.md): ::@:: a graphical method for analyzing the current state and designing a future state <!--SR:!2026-02-19,293,330!2026-01-01,254,330-->
 - lot-size reduction
 - elimination of time batching
-- [Rank order clustering](production%20flow%20analysis.md#rank%20order%20clustering): ::@:: an algorithm which groups machines and product families together, used for designing [manufacturing cells](manufacturing%20cells.md) <!--SR:!2025-10-10,183,310!2025-07-23,122,290-->
+- [Rank order clustering](production%20flow%20analysis.md#rank%20order%20clustering): ::@:: an algorithm which groups machines and product families together, used for designing [manufacturing cells](manufacturing%20cells.md) <!--SR:!2025-10-10,183,310!2026-11-27,492,310-->
 - single-point [scheduling](scheduling%20(production%20processes).md), ::@:: the opposite of the traditional push approach <!--SR:!2026-01-13,263,330!2026-01-28,275,330-->
 - [multi-process handling](multi-process%20handling.md): ::@:: when one operator is responsible for operating several machines or processes <!--SR:!2025-11-07,195,310!2025-12-31,255,330-->
 - [poka-yoke](poka-yoke.md): ::@:: any mechanism in lean manufacturing that helps an equipment operator avoid \(_yokeru_\) mistakes \(_poka_\) <!--SR:!2026-01-01,254,330!2025-10-11,184,310-->

@@ -151,7 +151,7 @@ The content is in teaching order.
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - decision tree format ::@:: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2026-06-09,556,357!2025-09-25,322,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
-  - decision tree learning algorithms ::@:: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2025-07-22,366,371!2027-03-19,781,347-->
+  - decision tree learning algorithms ::@:: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2030-08-28,1862,391!2027-03-19,781,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
 - [information gain § general definition](../../../../general/information%20gain%20(decision%20tree).md#general%20definition)
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
@@ -355,11 +355,11 @@ The content is in teaching order.
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
 - accuracy ::@:: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2028-09-28,1222,377!2028-12-15,1273,377-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
-- F-measure ::@:: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2025-10-20,368,377!2025-07-19,313,377-->
+- F-measure ::@:: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2025-10-20,368,377!2029-12-24,1615,397-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
 - [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
-  - new data set ::@:: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2025-08-07,332,377!2025-07-20,318,377-->
+  - new data set ::@:: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2025-08-07,332,377!2030-01-16,1638,397-->
 
 ## week 12 lab
 

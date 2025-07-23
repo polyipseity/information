@@ -18,7 +18,7 @@ tags:
 - resize window::@::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2025-10-19,241,170!2032-06-13,2547,310-->
 - move window to bottom::@::Alt+Esc <!--SR:!2027-03-20,610,230!2029-01-04,1271,270-->
 - minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2026-06-30,495,190!2029-02-05,1442,270-->
-- maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-08-21,206,210!2025-07-22,593,270-->
+- maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-08-21,206,210!2029-12-06,1597,270-->
 - maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2025-08-12,219,230!2025-08-31,211,210-->
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2026-11-05,546,190!2028-08-12,1293,270-->
 - toggle unfocused windows::@::⊞Win+Home <!--SR:!2025-11-29,331,190!2025-09-11,176,150-->
@@ -29,7 +29,7 @@ tags:
 - quit application of window::@::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2026-08-28,640,190!2026-11-16,887,270-->
 - close dialog::@::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
 - toggle program on taskbar::@::⊞Win+(taskbar #) <!--SR:!2031-02-02,2126,290!2026-08-17,894,270-->
-- open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2025-07-23,205,210!2025-11-12,257,250-->
+- open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2027-03-25,610,230!2025-11-12,257,250-->
 - cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2027-11-04,997,230!2026-06-30,570,210-->
 - peek at desktop::@::⊞Win+Comma <!--SR:!2027-11-01,1058,270!2031-06-02,2164,290-->
 - manage external displays::@::⊞Win+P <!--SR:!2027-08-05,1009,250!2025-09-06,519,250-->

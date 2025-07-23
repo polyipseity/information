@@ -188,7 +188,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{2}@}
-> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!2026-10-30,556,310!2025-07-23,211,310-->
+> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!2026-10-30,556,310!2028-01-20,911,330-->
 
 <!-- markdownlint MD028 -->
 

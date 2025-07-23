@@ -50,7 +50,7 @@ The register names of {@{4 registers were intended to have meanings}@}, with {@{
 
 ### syntax branches
 
-x86 has {@{two main syntax branches: _Intel syntax_ and _AT&T syntax_}@}. We will use the former here. Note that GCC {@{by default outputs the latter, and you need to specify `-masm=intel` (e.g. `gcc -S <input>.i -masm=intel`) to output the former}@}. <!--SR:!2025-12-02,354,343!2025-07-23,247,345-->
+x86 has {@{two main syntax branches: _Intel syntax_ and _AT&T syntax_}@}. We will use the former here. Note that GCC {@{by default outputs the latter, and you need to specify `-masm=intel` (e.g. `gcc -S <input>.i -masm=intel`) to output the former}@}. <!--SR:!2025-12-02,354,343!2028-10-06,1171,365-->
 
 ### instructions
 
@@ -58,7 +58,7 @@ Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!
 
 An instruction is specified by {@{the operation name and a comma-separated list of operands if any}@}. For most cases, {@{the operands need to be the same size}@}. Operands can be {@{_constants_, _registers_, or _memory references_}@}. The first two are trivial, but the last one will be explained below. <!--SR:!2027-11-12,894,357!2028-08-14,1134,365!2027-10-26,877,343-->
 
-Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2025-10-03,307,343!2026-02-02,410,365!2026-02-08,413,365!2028-05-26,1056,350!2026-02-19,422,365!2027-03-11,696,330!2025-07-23,232,323!2028-05-03,1036,350!2025-09-21,297,343!2025-09-04,285,357!2026-01-05,384,365!2025-12-10,365,365!2028-02-03,977,365!2025-09-21,295,343-->
+Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2025-10-03,307,343!2026-02-02,410,365!2026-02-08,413,365!2028-05-26,1056,350!2026-02-19,422,365!2027-03-11,696,330!2028-05-22,1034,343!2028-05-03,1036,350!2025-09-21,297,343!2025-09-04,285,357!2026-01-05,384,365!2025-12-10,365,365!2028-02-03,977,365!2025-09-21,295,343-->
 
 A note on endianness. For registers, {@{it does not make sense to talk about endianness as it requires each byte to have an address, which the bytes in a register do not have}@}. At most, you can get {@{the lowest (least significant) bits of a register, which is unambiguous}@}. For reading from or writing to memory addresses, it {@{does matter as the bytes have addresses}@}. Usually, it is {@{little-endian, which means the least significant bits are stored in the lowest (smallest) memory addresses}@}. <!--SR:!2026-01-26,403,365!2025-09-15,292,343!2026-01-25,403,365!2025-08-14,266,345-->
 
@@ -73,7 +73,7 @@ Below is a list of common instructions (in learning order):
 - `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2026-01-18,397,365!2025-07-24,246,330-->
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2025-12-23,375,365!2026-01-08,387,363-->
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2025-11-23,348,357-->
-- `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2025-08-26,278,357!2025-07-22,245,330-->
+- `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2025-08-26,278,357!2028-08-11,1115,350-->
 - `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2025-08-25,261,345!2025-10-17,320,357-->
 - `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2025-10-30,327,343!2025-09-23,299,343-->
 - `cmp <left>, <right>` ::@:: Subtract `<right>` from `<left>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if `<left>` equals `<right>`. <!--SR:!2026-01-04,383,365!2025-10-13,316,357-->
@@ -82,7 +82,7 @@ Below is a list of common instructions (in learning order):
 - `test <left>, <right>` ::@:: Bitwise and `<left>` with `<right>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if there are common `1` bits between `<left>` and `<right>`. If `<left>` equals `<right>`, then this is equivalent to checking if `<left>`/`<right>` is zero. <!--SR:!2025-08-29,265,345!2026-01-05,384,365-->
 - `jcc <addr>` ::@:: Jump to `<addr>` depending on a condition. `cc` stands for `condition code`. It represents multiple instructions, such as `je` (jump if equal), `jz` (jump if zero, equivalent to `je`), `jnz` (jump if nonzero), `jg` (jump if greater, signed), `ja` (jump if above, unsigned), `jbe` (jump if below or equal, unsigned), `jnle` (jump if not less or equal), etc. Usually used with a `cmp` or `test` in the previous executed instruction. <!--SR:!2027-04-04,716,345!2028-08-27,1138,363-->
 - `nop` ::@:: Does nothing. It has the value `0x90`. <!--SR:!2025-12-08,363,363!2025-08-30,279,343-->
-- `syscall` ::@:: Perform a system call (syscall). A system call interacts with the operating system. The system call invoked depends on the value of `eax`/`rax`, and parameters required by the system call depends on other registers. <!--SR:!2027-12-24,936,357!2025-07-20,229,323-->
+- `syscall` ::@:: Perform a system call (syscall). A system call interacts with the operating system. The system call invoked depends on the value of `eax`/`rax`, and parameters required by the system call depends on other registers. <!--SR:!2027-12-24,936,357!2028-05-09,1021,343-->
   - `syscall` / write ::@:: `rax` is `1`, `rdi` is the file descriptor to be written to (`1` for stdout), `rsi` is the start address of the string to write, and `rdx` is the length of the string to write. Note that the null terminator is irrelevant here, as assembly does not specify a way to indicate the end of a string and can accommodate any way of doing so. <!--SR:!2025-08-30,195,230!2027-06-02,755,337-->
 
 ### sections
@@ -142,7 +142,7 @@ Some common tools are:
 - `objdump` ::@:: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2025-12-03,320,325!2027-06-04,757,345-->
 - Radare2 (`r2`) ::@:: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2026-10-18,504,270!2026-01-23,335,290-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2025-12-31,382,363!2025-10-16,319,357-->
-- `file <file>` ::@:: Determine possible file types of `<file>`. <!--SR:!2025-12-20,371,357!2025-07-21,244,330-->
+- `file <file>` ::@:: Determine possible file types of `<file>`. <!--SR:!2025-12-20,371,357!2028-08-05,1109,350-->
 - `strings <file>` ::@:: Print sequences of printable strings in `<file>`. To exclude tiny strings, add `-n <minimum string length>` before `<file>`. <!--SR:!2025-12-21,373,365!2025-12-07,362,365-->
 - `xxd <file>` ::@:: Make a hexdump. To reverse this process, add the `-r` option. <!--SR:!2026-01-17,396,365!2028-03-22,1003,350-->
 
@@ -163,7 +163,7 @@ While analyzing a program, sometimes we want to {@{change the program behavior, 
 
 Some commo tools are:
 
-- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2025-07-22,234,345-->
+- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2028-08-06,1110,365-->
 - `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2025-12-10,362,357!2025-12-09,364,365-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2027-08-11,825,343!2025-12-03,360,365-->
 - Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2027-11-22,882,343!2025-08-20,269,345-->

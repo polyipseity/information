@@ -29,7 +29,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - render::@::F12 <!--SR:!2030-09-22,2158,336!2025-11-29,812,336-->
 - quick access::@::Q <!--SR:!2025-11-25,753,290!2027-03-03,639,250-->
 - toggle maximize area::@::Ctrl+Space <!--SR:!2025-08-07,171,150!2027-07-21,1007,256-->
-- toggle fullscreen area::@::Ctrl+Alt+Space <!--SR:!2025-07-21,49,130!2028-10-04,1219,216-->
+- toggle fullscreen area::@::Ctrl+Alt+Space <!--SR:!2025-10-30,99,150!2028-10-04,1219,216-->
 - cycle workspace::@::Ctrl+PageUp/PageDown <!--SR:!2026-01-04,419,250!2031-01-19,2240,336-->
 - play/tools/search::@::Space <!--SR:!2033-01-17,2811,336!2033-01-10,2804,336-->
 - reverse playback::@::⇧Shift+Ctrl+Space <!--SR:!2026-09-06,491,190!2026-01-18,230,155-->

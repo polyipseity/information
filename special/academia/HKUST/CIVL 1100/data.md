@@ -37,8 +37,8 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
 - description ::@:: stadium in Beijing, China <!--SR:!2027-01-19,777,330!2029-03-15,1438,370-->
-- image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2025-07-19,350,380!2025-11-20,457,400-->
-- shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2025-07-20,342,372!2025-09-09,404,385-->
+- image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2030-07-17,1820,400!2025-11-20,457,400-->
+- shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2030-04-24,1736,392!2025-09-09,404,385-->
 
 ## Burj Al Arab
 
@@ -134,7 +134,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
-- base width ::@:: 230.33 m <!--SR:!2025-07-22,217,356!2026-05-26,569,396-->
+- base width ::@:: 230.33 m <!--SR:!2028-06-25,1068,376!2026-05-26,569,396-->
 - construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2026-02-17,488,396-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2025-10-07,237,336!2026-04-26,540,396-->

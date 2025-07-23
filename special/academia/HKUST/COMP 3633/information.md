@@ -47,5 +47,5 @@ For example:
 
 - after hacking ::@:: Cleanup all traces of hacking so that other malicious hackers cannot identify the vulnerabilities easily. <!--SR:!2027-07-16,799,330!2028-08-11,1121,350-->
 - anomalies found ::@:: Report all found security breaches and vulnerabilities to the system administrators. <!--SR:!2028-02-26,985,350!2027-07-10,794,330-->
-- before hacking ::@:: Seek authorization and approval from the system administrators, and state the scope of your assessment and your plan clearly to them. <!--SR:!2027-12-17,929,350!2025-07-23,251,330-->
+- before hacking ::@:: Seek authorization and approval from the system administrators, and state the scope of your assessment and your plan clearly to them. <!--SR:!2027-12-17,929,350!2028-09-07,1142,350-->
 - confidentiality ::@:: Keep all learnt vulnerabilities confidential and do not utilize them detrimentally to the system owners. <!--SR:!2027-10-01,837,330!2025-10-13,312,330-->

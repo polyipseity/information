@@ -60,7 +60,7 @@ The content is in teaching order.
     - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2029-01-22,1330,370-->
     - "weak" object examples ::@:: mattress <!--SR:!2029-07-19,1487,370!2028-03-12,1059,341-->
   - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2027-11-22,992,350-->
-    - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2025-07-21,333,350-->
+    - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2029-12-10,1601,370-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)
@@ -120,7 +120,7 @@ The content is in teaching order.
   - soil load ::@:: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2026-06-06,567,330!2029-03-24,1391,370-->
   - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2025-08-11,347,350!2027-10-21,949,341-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
-  - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2026-11-11,647,330!2025-07-21,331,341-->
+  - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2026-11-11,647,330!2029-10-19,1549,361-->
 - [structural system](../../../../general/structural%20system.md)
   - [§ high-rise buildings](../../../../general/structural%20system.md#high-rise%20buildings)
   - [§ classification](../../../../general/structural%20system.md#classification)

@@ -83,7 +83,7 @@ If {@{random variable $X$ has moment generating function $M_{X}(t)$}@}, then {@{
 
 ### linear combination of independent random variables
 
-If {@{$S_{n}=\sum _{i=1}^{n}a_{i}X_{i}$}@}, where {@{the _X_<sub>_i_</sub> are independent random variables and the _a_<sub>_i_</sub> are constants}@}, then {@{the probability density function for _S_<sub>_n_</sub> is the [convolution](convolution.md) of the probability density functions of each of the _X_<sub>_i_</sub>}@}, and the moment-generating function for _S_<sub>_n_</sub> is given by {@{$$M_{S_{n} }(t)=M_{X_{1} }(a_{1}t)M_{X_{2} }(a_{2}t)\cdots M_{X_{n} }(a_{n}t)\,.$$}@} <!--SR:!2026-01-14,282,330!2026-01-27,293,330!2025-07-23,130,290!2026-01-24,290,330-->
+If {@{$S_{n}=\sum _{i=1}^{n}a_{i}X_{i}$}@}, where {@{the _X_<sub>_i_</sub> are independent random variables and the _a_<sub>_i_</sub> are constants}@}, then {@{the probability density function for _S_<sub>_n_</sub> is the [convolution](convolution.md) of the probability density functions of each of the _X_<sub>_i_</sub>}@}, and the moment-generating function for _S_<sub>_n_</sub> is given by {@{$$M_{S_{n} }(t)=M_{X_{1} }(a_{1}t)M_{X_{2} }(a_{2}t)\cdots M_{X_{n} }(a_{n}t)\,.$$}@} <!--SR:!2026-01-14,282,330!2026-01-27,293,330!2027-01-02,528,310!2026-01-24,290,330-->
 
 ### vector-valued random variables
 
@@ -109,7 +109,7 @@ The moment-generating function can be used {@{in conjunction with [Markov's ineq
 
 When {@{$X$ is non-negative}@}, the moment generating function gives {@{a simple, useful bound on the moments}@}: {@{$$E[X^{m}]\leq \left({\frac {m}{te} }\right)^{m}M_{X}(t),$$}@} For {@{any $X,m\geq 0$ and $t>0$}@}. <!--SR:!2025-07-27,133,290!2026-01-26,292,330!2026-01-20,240,270!2025-09-07,178,310-->
 
-This follows from {@{the inequality $1+x\leq e^{x}$}@} into which we can {@{substitute $x'=tx/m-1$ implies $tx/m\leq e^{tx/m-1}$ for any $x,t,m\in \mathbb {R}$}@}. Now, if {@{$t>0$ and $x,m\geq 0$}@}, this can be {@{rearranged to $x^{m}\leq (m/(te))^{m}e^{tx}$}@}. {@{Taking the expectation on both sides}@} {@{gives the bound on $E[X^{m}]$ in terms of $E[e^{tX}]$}@}. <!--SR:!2025-11-18,237,330!2025-07-22,131,290!2026-05-06,341,290!2025-12-20,215,270!2026-01-15,283,330!2025-10-31,206,310-->
+This follows from {@{the inequality $1+x\leq e^{x}$}@} into which we can {@{substitute $x'=tx/m-1$ implies $tx/m\leq e^{tx/m-1}$ for any $x,t,m\in \mathbb {R}$}@}. Now, if {@{$t>0$ and $x,m\geq 0$}@}, this can be {@{rearranged to $x^{m}\leq (m/(te))^{m}e^{tx}$}@}. {@{Taking the expectation on both sides}@} {@{gives the bound on $E[X^{m}]$ in terms of $E[e^{tX}]$}@}. <!--SR:!2025-11-18,237,330!2026-12-31,527,310!2026-05-06,341,290!2025-12-20,215,270!2026-01-15,283,330!2025-10-31,206,310-->
 
 As an example, consider {@{$X\sim {\text{Chi-Squared} }$ with $k$ degrees of freedom}@}. Then from the [examples](#examples) $M_{X}(t)=(1-2t)^{-k/2}$. Picking $t=m/(2m+k)$ and substituting into the bound: $$E[X^{m}]\leq (1+2m/k)^{k/2}e^{-m}(k+2m)^{m}.$$ We know that [in this case](chi-square%20distribution.md#noncentral%20moments) the correct bound is $E[X^{m}]\leq 2^{m}\Gamma (m+k/2)/\Gamma (k/2)$. To {@{compare the bounds}@}, we can {@{consider the asymptotics for large $k$}@}. Here the moment-generating function bound is $k^{m}(1+m^{2}/k+O(1/k^{2}))$, where the real bound is $k^{m}(1+(m^{2}-m)/k+O(1/k^{2}))$. The moment-generating function bound is thus {@{very strong in this case}@}. <!--SR:!2025-11-20,238,330!2026-01-22,289,330!2026-01-06,276,330!2025-07-30,136,290-->
 

@@ -70,7 +70,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/serviceable%20available%20market.md#importance)
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
-  - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2028-07-16,1173,355!2025-07-23,343,355-->
+  - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2028-07-16,1173,355!2030-02-19,1672,375-->
   - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2028-08-04,1185,355!2029-11-08,1588,375-->
 - visualization ::@:: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2029-12-13,1614,375-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
@@ -159,7 +159,7 @@ The content is in teaching order.
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2029-01-28,1337,381!2028-12-20,1305,381-->
-  - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2029-08-14,1506,381!2025-07-22,302,361-->
+  - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2029-08-14,1506,381!2029-08-27,1496,381-->
   - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
   - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2025-07-31,311,361-->
   - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2025-07-27,307,361-->

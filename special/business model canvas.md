@@ -288,7 +288,7 @@ The key partnerships building block shows {@{important suppliers and networks re
 
 #### cost structure
 
-The cost structure building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2025-09-11,383,314!2025-07-19,112,254-->
+The cost structure building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2025-09-11,383,314!2026-08-22,397,274-->
 
 In cost structures, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!2026-07-11,581,294-->
 

@@ -106,7 +106,7 @@ The content is in teaching order.
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2027-07-20,776,330-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2027-07-18,777,330!2025-07-31,240,330-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2025-07-29,216,310!2025-08-29,262,330-->
-  - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
+  - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2028-06-12,1056,350-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2027-06-19,748,330!2025-08-28,261,330-->
   - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2027-12-23,920,350!2025-07-26,237,330-->
 

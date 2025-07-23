@@ -44,7 +44,7 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-11-28,289,330
   - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement <!--SR:!2026-11-04,521,310!2026-09-11,473,310-->
 - finger ::@:: Try to not curl your fingers (and arms). Try to not point your fingers downward, and instead point horizontally. <!--SR:!2025-11-01,268,330!2025-11-29,289,330-->
 - hand ::@:: Most of the time, your hand palm should face inward. Sometimes it is okay to vary this, but too much of hand palm facing outward makes you look unserious or too exciting. <!--SR:!2026-11-17,531,310!2025-10-16,255,330-->
-- authoritative vs. lively ::@:: It depends on context. Usually it is best to strike a balance. <!--SR:!2025-12-04,294,330!2025-07-20,180,310-->
+- authoritative vs. lively ::@:: It depends on context. Usually it is best to strike a balance. <!--SR:!2025-12-04,294,330!2027-09-02,772,330-->
 - mistake ::@:: Do not be afraid of mistakes. Audience will not notice a few minor mistakes. <!--SR:!2025-12-04,294,330!2025-12-01,291,330-->
 
 ## attitude

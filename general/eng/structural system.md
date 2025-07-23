@@ -117,7 +117,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[buttress](buttress.md) <!--SR:!2027-03-13,786,335!2027-01-28,681,315-->
 - [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2027-07-16,743,255!2026-03-05,417,315-->
-- [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2027-07-18,825,295!2025-07-19,242,295-->
+- [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2027-07-18,825,295!2028-04-07,991,315-->
 - [exoskeleton](exoskeleton.md)→::@::←[space truss](space%20frame.md) <!--SR:!2025-12-30,361,255!2026-09-22,528,255-->
 - [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2026-02-12,422,295!2026-12-18,590,275-->
 - [superframe](superframe.md)→::@::←[tube](tube%20(structure).md) <!--SR:!2026-09-07,570,295!2026-10-06,462,215-->

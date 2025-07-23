@@ -20,7 +20,7 @@ A scale model preserves {@{all size ratios between different objects}@}, while m
 
 ## scale factor of 10 billion
 
-To comprehend {@{the [Solar System](../../../../general/Solar%20System.md)}@}, the scale factor can be {@{10<sup>10</sup>, i.e. 10 billion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2028-03-19,1054,350!2025-07-29,302,338!2028-12-17,1275,358!2025-07-19,298,338-->
+To comprehend {@{the [Solar System](../../../../general/Solar%20System.md)}@}, the scale factor can be {@{10<sup>10</sup>, i.e. 10 billion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2028-03-19,1054,350!2025-07-29,302,338!2028-12-17,1275,358!2029-05-11,1388,358-->
 
 ```Python
 # pytextgen generate data
@@ -61,7 +61,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m <!--SR:!2027-05-27,800,330!2028-12-12,1270,358-->
 - (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→::@::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm <!--SR:!2025-09-02,200,238!2027-04-03,753,330-->
 - [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm→::@::←[Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m <!--SR:!2026-07-24,461,250!2025-08-04,266,286-->
-- [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→::@::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center) <!--SR:!2025-07-23,49,150!2026-01-22,348,250-->
+- [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→::@::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center) <!--SR:!2025-11-05,105,170!2026-01-22,348,250-->
 - [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)→::@::←[Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m <!--SR:!2025-08-24,274,278!2025-12-18,315,250-->
 - [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m→::@::←[Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m <!--SR:!2025-08-18,103,178!2026-01-09,254,210-->
 - [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→::@::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2026-08-13,463,250!2026-12-25,579,250-->

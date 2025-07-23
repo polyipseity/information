@@ -103,7 +103,7 @@ The content is in teaching order.
     - "Strasbourg" (2008) — Roy Hargrove
     - "Black Radio" (2012) — Robert Glasper
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-12-14,254,330!2025-12-15,255,330-->
-  - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-07-19,125,290!2026-03-17,329,341-->
+  - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2026-12-12,507,310!2026-03-17,329,341-->
 - [music](../../../../general/music.md)
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2026-02-21,310,341!2026-01-04,270,330-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-08-29,167,310!2025-08-16,159,321-->
@@ -295,7 +295,7 @@ The content is in teaching order.
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2027-03-14,609,412!2026-10-10,475,392-->
 - [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show. <!--SR:!2025-07-25,126,392!2026-05-10,341,372-->
 - [Duke Ellington](../../../../general/Duke%20Ellington.md) (1899–1974) ::@:: He was a bandleader, composer, and pianist, leading the Duke Ellington Orchestra. He developed his style in the Cotton Club, which was called "_jungle music_" early on. He composed many pieces that have become jazz _standards_. <!--SR:!2025-07-27,128,392!2026-10-01,466,392-->
-  - Duke Ellington / "jungle music" ::@:: Jazz music style from late 1920s to 1930s. It used sounds that were considered "African": use of growling lines, mutes \(sordinas\), primitive sounds, toms, etc. to get different sounds like African and exotic animals. <!--SR:!2025-07-21,123,392!2025-07-25,126,392-->
+  - Duke Ellington / "jungle music" ::@:: Jazz music style from late 1920s to 1930s. It used sounds that were considered "African": use of growling lines, mutes \(sordinas\), primitive sounds, toms, etc. to get different sounds like African and exotic animals. <!--SR:!2027-05-13,659,412!2025-07-25,126,392-->
   - Duke Ellington / works ::@:: "Jungle Nights in Harlem" (1930) — Duke Ellington & His Cotton Club Orchestra <!--SR:!2026-10-11,476,392!2026-10-09,474,392-->
   - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually. <!--SR:!2025-07-24,125,392!2027-03-26,621,412-->
     - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington <!--SR:!2026-05-15,346,372!2026-05-15,346,372-->
@@ -303,10 +303,10 @@ The content is in teaching order.
     - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2026-01-06,251,372!2026-01-25,236,372-->
     - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-09-17,152,352!2026-10-21,486,392-->
 - [popular music](../../../../general/popular%20music.md)
-  - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2027-03-15,610,412!2025-07-19,121,392-->
-- [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2025-07-23,124,392!2026-09-20,461,392-->
+  - popular music / in older times ::@:: A "radio" song that everyone knows. It probably has good chord progressions and melodies, and is fun for musicians to play. If it is popular enough, it can be considered part of the "standard repertoire" of one or several genres. <!--SR:!2027-03-15,610,412!2027-05-02,648,412-->
+- [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2027-05-17,663,412!2026-09-20,461,392-->
 - [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2026-09-13,454,392!2027-04-13,636,412-->
-  - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2027-03-21,616,412!2025-07-20,122,392-->
+  - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2027-03-21,616,412!2027-05-07,653,412-->
   - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2026-10-20,485,392!2025-07-26,127,392-->
 - assignment: (none)
 
@@ -325,13 +325,13 @@ The content is in teaching order.
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2026-09-28,463,396!2026-02-17,259,356-->
   - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-07-29,127,396!2025-07-24,122,396-->
   - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller <!--SR:!2026-09-29,464,396!2025-07-27,125,396-->
-- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2025-07-19,102,336!2025-10-31,197,376-->
+- [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2026-11-14,479,356!2025-10-31,197,376-->
   - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2026-11-02,497,396!2025-07-27,125,396-->
-  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2025-07-20,103,336!2027-04-06,627,416-->
-- [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2025-07-20,118,396!2025-07-20,118,396-->
-  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2025-07-19,102,336-->
+  - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2026-11-15,480,356!2027-04-06,627,416-->
+- [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2027-04-20,636,416!2027-04-23,639,416-->
+  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2026-11-07,472,356-->
 - Benny Goodman
-  - Benny Goodman / works ::@:: "Moonglow" — Benny Goodman <br/> "Sing, Sing, Sing" — Benny Goodman <br/> "Stompin' at the Savoy" — Benny Goodman <!--SR:!2025-07-19,117,396!2025-07-30,127,396-->
+  - Benny Goodman / works ::@:: "Moonglow" — Benny Goodman <br/> "Sing, Sing, Sing" — Benny Goodman <br/> "Stompin' at the Savoy" — Benny Goodman <!--SR:!2027-04-18,634,416!2025-07-30,127,396-->
 - swing era
   - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
@@ -341,15 +341,15 @@ The content is in teaching order.
 - datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00, PT1H20M
   - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00, PT1H20M
 - quiz: [quiz 2](questions/quiz%202.md)
-- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2027-03-31,622,416!2025-07-21,119,396-->
-  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2025-07-19,117,396!2025-08-01,129,396-->
-  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2025-07-21,119,396!2025-08-01,129,396-->
+- [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2027-03-31,622,416!2027-04-27,643,416-->
+  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2027-04-17,633,416!2025-08-01,129,396-->
+  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2027-04-28,644,416!2025-08-01,129,396-->
   - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-07-31,128,396!2026-09-30,465,396-->
-- [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2025-07-21,104,336!2026-05-18,349,376-->
+- [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2026-11-16,481,356!2026-05-18,349,376-->
   - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2025-10-27,193,376!2025-07-29,127,396-->
-- [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2026-05-21,352,376!2025-07-22,105,336-->
+- [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2026-05-21,352,376!2026-11-28,493,356-->
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." — Frank Vignola, jazz guitarist <!--SR:!2026-06-20,382,396!2025-07-25,123,396-->
-  - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2025-07-22,120,396!2025-07-23,121,396-->
+  - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2027-05-03,649,416!2027-05-08,654,416-->
 - gypsy jazz
   - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2025-08-11,134,402!2025-08-12,133,402-->
 - assignment: (none)
@@ -512,7 +512,7 @@ The content is in teaching order.
   - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2025-10-27,146,422!2025-10-27,146,422-->
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2025-10-26,145,422!2025-08-18,102,402-->
   - Chet Baker / old age ::@:: When he was in his 50s, he was old and ugly after drugs. Later, he was found dead in Amsterdam after apparently falling out of a window. <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
-  - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2025-07-20,74,382!2025-10-16,135,422-->
+  - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2026-08-14,387,402!2025-10-16,135,422-->
   - Chet Baker / films ::@:: _Let's Get Lost_, a documentary made the year he died, and "Born to be Blue", a biography motion picture. <!--SR:!2025-10-22,141,422!2025-10-25,144,422-->
 - [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2025-10-29,148,422!2025-10-30,149,422-->
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2025-10-29,148,422!2025-10-29,148,422-->
@@ -605,9 +605,9 @@ The content is in teaching order.
   - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2025-08-14,98,402!2025-10-18,137,422-->
 - Miles Davis
   - Miles Davis / genres
-    - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2025-09-09,98,402!2025-07-20,74,382-->
+    - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2025-09-09,98,402!2026-08-15,388,402-->
 - Miles Davis Quintet
-  - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2025-07-21,75,382!2025-10-28,147,422-->
+  - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2026-08-19,392,402!2025-10-28,147,422-->
     - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exciting to listen to. <!--SR:!2025-10-25,144,422!2025-10-25,144,422-->
     - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmony along with Herbie. He allowed other musicians to stretch without worrying about the bass. <!--SR:!2025-10-24,143,422!2025-09-17,106,402-->
     - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2025-10-30,149,422!2025-08-18,102,402-->

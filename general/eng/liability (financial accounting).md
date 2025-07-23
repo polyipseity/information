@@ -18,7 +18,7 @@ A liability is defined by the following characteristics:
 - [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2027-05-13,721,330!2027-09-28,838,330-->
 - [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2026-10-21,517,270!2026-03-29,408,310-->
 - [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2027-06-14,712,290!2025-09-18,281,330-->
-- [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2025-07-20,232,330!2027-03-06,688,330-->
+- [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2028-06-10,1056,350!2027-03-06,688,330-->
 
 Liabilities in financial accounting {@{need not be legally enforceable; but can be based on equitable obligations or constructive obligations}@}. An __equitable obligation__ is {@{a duty based on ethical or moral considerations}@}. A __constructive obligation__ is {@{an obligation that is implied by a set of circumstances in a particular situation, as opposed to a contractually based obligation}@}. <!--SR:!2027-11-05,867,330!2025-10-12,299,330!2026-04-25,421,290-->
 

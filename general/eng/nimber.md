@@ -81,7 +81,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 
 ## addition and multiplication tables
 
-The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2025-07-21,159,310-->
+The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2027-06-05,684,330-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD059 -->

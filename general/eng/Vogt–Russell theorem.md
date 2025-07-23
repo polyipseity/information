@@ -11,7 +11,7 @@ tags:
 
 The {@{__Vogt–Russell theorem__}@} states that {@{the structure of a [star](star..md), in hydrostatic and thermal equilibrium with all energy derived from nuclear reactions, is uniquely determined by its mass and the distribution of chemical elements throughout its interior}@}.<sup>[\[1\]](#^ref-1)</sup> Although referred to as a theorem, the Vogt–Russell theorem has {@{never been formally proved}@}. The theorem is named after {@{astronomers [Heinrich Vogt](Heinrich%20Vogt%20(astronomer).md) and [Henry Norris Russell](Henry%20Norris%20Russell.md), who devised it independently}@}. <!--SR:!2026-02-20,422,310!2025-08-08,251,290!2025-07-27,280,330!2027-07-31,770,290-->
 
-The law ignores {@{the effect of [rotation](rotation.md)}@}. <!--SR:!2025-07-21,275,330-->
+The law ignores {@{the effect of [rotation](rotation.md)}@}. <!--SR:!2028-12-27,1255,350-->
 
 For example, {@{a possible luminosity homology relation}@} is: {@{$$L \propto M^3 \mu^4$$, where $L$ is the [luminosity](luminosity.md), $M$ is the [mass](mass.md) and $\mu$ is the mean [molecular weight](molecular%20mass.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2027-06-01,784,330!2026-03-15,389,290-->
 

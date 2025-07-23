@@ -177,14 +177,14 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 ## floating-point instructions
 
-Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2025-07-19,25,384-->
+Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2025-11-27,128,404-->
 
 - absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-11-19,124,404!2025-09-25,74,384-->
-- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-07-19,25,384!2025-11-21,126,404-->
+- absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-12-01,132,404!2025-11-21,126,404-->
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-11-20,125,404!2025-11-19,124,404-->
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-11-21,126,404!2025-11-23,128,404-->
-- branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-07-19,25,384!2025-11-23,128,404-->
-- branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-09-29,78,384!2025-07-19,25,384-->
+- branch on false ::@:: `bc1f target`: `if (!$FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-12-02,133,404!2025-11-23,128,404-->
+- branch on true ::@:: `bc1t target`: `if ($FLAG) { goto (nPC & 0xf0000000) | (target << 2); }` <!--SR:!2025-09-29,78,384!2025-11-29,130,404-->
 - compare equal to double ::@:: `c.eq.d $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-11-20,125,404!2025-11-20,125,404-->
 - compare equal to single ::@:: `c.eq.s $fs, $ft`: `$FLAG = $fs == $ft;` <!--SR:!2025-11-24,129,404!2025-11-22,127,404-->
 - compare greater than double ::@:: `c.gt.d $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-11-19,124,404!2025-11-22,127,404-->
@@ -193,21 +193,21 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-11-19,124,404!2025-11-19,124,404-->
 - compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-10-05,84,384!2025-11-21,126,404-->
 - compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-11-18,123,404!2025-11-19,125,404-->
-- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-07-19,25,384!2025-11-18,124,404-->
-- compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-11-19,124,404!2025-07-19,25,384-->
-- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-07-20,26,384!2025-07-19,25,384-->
+- compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-11-30,131,404!2025-11-18,124,404-->
+- compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-11-19,124,404!2025-11-28,129,404-->
+- compare not equal to double ::@:: `c.neq.d $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-12-04,135,404!2025-12-01,132,404-->
 - compare not equal to single ::@:: `c.neq.s $fs, $ft`: `$FLAG = $fs != $ft;` <!--SR:!2025-11-19,124,404!2025-11-18,123,404-->
-- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-07-19,25,384!2025-11-21,126,404-->
+- divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-11-27,128,404!2025-11-21,126,404-->
 - divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2025-11-20,125,404!2025-11-23,128,404-->
 - load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2025-11-18,123,404!2025-11-23,128,404-->
 - load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2025-11-22,127,404!2025-09-28,77,384-->
-- multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-22,127,404!2025-07-19,25,384-->
-- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-23,128,404!2025-07-19,25,384-->
-- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-24,129,404!2025-07-19,25,384-->
+- multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-22,127,404!2025-11-28,129,404-->
+- multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-23,128,404!2025-11-29,130,404-->
+- negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-24,129,404!2025-12-01,132,404-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-21,126,404!2025-11-22,127,404-->
 - store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-18,123,404!2025-09-05,54,364-->
-- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-07-19,25,384!2025-07-19,25,384-->
-- subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-07-20,26,384!2025-11-22,127,404-->
+- store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-30,131,404!2025-12-02,133,404-->
+- subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-12-03,134,404!2025-11-22,127,404-->
 - subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-11-18,123,404!2025-11-24,129,404-->
 
 ### miscellaneous instructions
@@ -338,7 +338,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - absolute ::@:: `abs $d, $s`: `$d = abs($s)`; implemented by `addu $d, $zero, $s; bgez $d, 2; (branch delay slot); sub $d, $zero, $s;` \(use 1 instead of 2 for MIPS without branch delay slots, which MARS simulate by default\) <!--SR:!2026-04-05,262,361!2026-07-17,364,381-->
 - branch on equal to zero ::@:: `beqz $s, offset`: `if ($s == 0) { goto nPC + offset << 2; }`; implemented by `beq $s, $zero, offset;` <!--SR:!2025-07-28,26,396!2025-07-29,27,396-->
 - branch on greater than ::@:: `bgt $s, $t, offset`: `if ($s > $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; bne $at, $zero, offset;` <!--SR:!2025-08-01,91,381!2025-07-28,87,381-->
-- branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2025-07-19,73,361!2025-08-09,94,381-->
+- branch on greater than or equal to ::@:: `bge $s, $t, offset`: `if ($s >= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; beq $at, $zero, offset;` <!--SR:!2026-07-24,367,381!2025-08-09,94,381-->
 - branch on less than ::@:: `blt $s, $t, offset`: `if ($s < $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $s, $t; bne $at, $zero, offset;` <!--SR:!2026-06-18,340,381!2025-07-29,88,381-->
 - branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2025-08-02,92,381!2025-12-23,201,361-->
 - branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2025-07-29,27,396!2025-07-28,26,396-->
@@ -352,9 +352,9 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - push ::@:: `push [$s=$ra]`: pushes the 32-bit value of `$s` to the stack; implemented by `addi $sp, $sp, -4; sw $s, 0($sp);` <!--SR:!2025-08-06,91,381!2025-08-16,101,381-->
   - push / usage ::@:: In practice, when you want to push multiple values at once \(e.g. pushing extra arguments to the stack\), using multiple `push` is inefficient. Instead, you adjust `$sp` downward appropriately to grow the stack, then save the multiple values directly using `sw` using offsets from `$sp`. <!--SR:!2025-08-12,97,381!2025-08-15,100,381-->
 - set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;` <!--SR:!2025-08-11,96,381!2025-08-12,102,381-->
-- set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;` <!--SR:!2025-08-15,100,381!2025-07-19,73,361-->
+- set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;` <!--SR:!2025-08-15,100,381!2026-07-26,369,381-->
 
-Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2026-10-19,458,383!2026-10-03,443,383!2025-07-19,93,363!2026-04-30,310,363!2026-09-24,438,383!2025-07-19,93,363-->
+Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2026-10-19,458,383!2026-10-03,443,383!2026-11-04,470,383!2026-04-30,310,363!2026-09-24,438,383!2026-10-30,465,383-->
 
 \(__this course__: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2026-06-19,360,355-->
 
@@ -366,7 +366,7 @@ Overall, to call a procedure in MIPS, the caller needs to {@{place the arguments
 
 Also take note of {@{callee-saved \(preserved on call\) and caller-saved registers}@}. _Callee-saved_ means {@{the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value cannot change during the procedure, just that the register value must be restored before returning}@}. One way to do so is {@{if the registers need to be modified during the procedure, save them to the stack and restore them before returning}@}. _Caller-saved_ means {@{there is no guarantee that the register value is the same before and after calling a procedure}@}. Note this does not mean {@{the register value _must_ change during the procedure, just that the caller cannot _rely_ on it being the same}@}. <!--SR:!2025-08-02,87,381!2025-08-01,86,381!2025-08-11,96,381!2025-08-11,96,381!2025-08-04,94,381!2025-08-05,90,381-->
 
-If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}. <!--SR:!2025-07-19,25,384!2025-11-21,126,404!2025-11-24,129,404-->
+If you follow the above steps, {@{nested procedures \(calling procedures inside procedures\) and recursion \(procedure calling itself\)}@} works automagically. There is an optimization for {@{procedures not calling any other procedures}@}: it can skip {@{saving `$ra` to the stack, since `$ra` is not modified \(unless the procedure modifies it explicitly\)}@}. <!--SR:!2025-11-28,129,404!2025-11-21,126,404!2025-11-24,129,404-->
 
 ## memory layout
 
@@ -408,14 +408,14 @@ A common interruption cause is {@{signed integer overflow in arithmetic operatio
 
 MIPS optionally supports {@{IEEE754 single-precision and double-precision formats}@}. It is handled by {@{an optional floating-point unit \(FPU\), referred to as coprocessor 1 \(CP1\)}@}. <!--SR:!2025-11-24,129,404!2025-11-24,129,404-->
 
-It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2025-11-22,127,404!2025-07-19,25,384!2025-11-21,126,404!2025-11-22,127,404!2025-07-19,25,384!2025-07-20,26,384!2025-11-18,123,404!2025-11-17,123,404!2025-11-18,124,404!2025-11-23,128,404-->
+It has its own {@{registers}@}. There are {@{32 32-bit registers}@}, each named {@{`$f_`, where the underscore is an integer in between 0 and 31 \(inclusive\)}@}. Each even-numbered register represents {@{a single-precision format number}@}. Alternatively, each even-numbered register along with the next odd-numbered register represent {@{a double-precision format number}@}. The lower/even-numbered register {@{contains the lower bits}@}, e.g. {@{`$f1:$f0` but not `$f2:$f1` or `$f0:$f1`}@}. These registers are directly accessible {@{from the coprocessor only}@}, so {@{they cannot be used in normal instructions directly}@}. Also, the zeroth floating-point register `$f0` is {@{a normal register instead of always holding 0 like `$zero`}@}. \(Of course, for MIPS64, all of the above is slightly different...\) <!--SR:!2025-11-22,127,404!2025-12-02,133,404!2025-11-21,126,404!2025-11-22,127,404!2025-11-29,130,404!2025-12-04,135,404!2025-11-18,123,404!2025-11-17,123,404!2025-11-18,124,404!2025-11-23,128,404-->
 
 It also has its own {@{instructions}@}. They are listed in [§ floating-point instructions](#floating-point%20instructions). Most of them can only use {@{the coprocessor registers}@}. Common suffixes include {@{-`c1` for "coprocessor 1"}@} and {@{-`.s` and -`.d` for "single-precision" and "double-precision" respectively}@}. There are also interesting differences from normal instructions: <!--SR:!2025-11-21,126,404!2025-11-20,125,404!2025-11-20,125,404!2025-11-18,123,404-->
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2025-11-19,125,404!2025-11-19,124,404-->
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2025-11-20,126,404!2025-11-22,127,404-->
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-07-19,25,384!2025-09-26,75,384-->
-- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-07-19,25,384!2025-11-20,125,404-->
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2025-11-30,131,404!2025-09-26,75,384-->
+- immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2025-11-27,128,404!2025-11-20,125,404-->
 - signedness ::@:: All operations are always signed. <!--SR:!2025-11-20,125,404!2025-11-24,129,404-->
 
 ## miscellaneous

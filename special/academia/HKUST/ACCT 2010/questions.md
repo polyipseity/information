@@ -358,7 +358,7 @@ tags:
 > 2. net sales over period end total assets
 > 3. net sales over average total assets
 >
-> - solution: {@{3}@} <!--SR:!2025-07-21,171,341-->
+> - solution: {@{3}@} <!--SR:!2027-10-11,810,361-->
 
 ## week 5 review
 

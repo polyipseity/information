@@ -70,9 +70,9 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2025-07-25,242,330!2025-07-20,240,330-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2025-07-25,242,330!2028-07-17,1092,350-->
 
-Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2025-07-21,241,330-->
+Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2028-07-28,1103,350-->
 
 ### statement of financial performance
 
@@ -146,7 +146,7 @@ Objectives include:
 - __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2026-12-19,596,290!2027-01-18,602,290-->
 - __ascertainment of the financial position of business__ ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2025-12-01,271,250!2026-01-10,328,290-->
 - __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2026-09-27,569,330!2025-08-13,213,270-->
-- __to know the solvency position__ ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2025-07-19,220,310!2025-08-14,244,290-->
+- __to know the solvency position__ ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2028-02-26,950,330!2025-08-14,244,290-->
 
 ## graphic definition
 

@@ -35,39 +35,39 @@ The content is in teaching order.
 - datetime: 2025-06-30T09:00:00+09:00/2025-06-30T10:40:00+09:00, PT1H40M
   - local: 2025-06-30T08:00:00+08:00/2025-06-30T09:40:00+08:00, PT1H40M
 - topic: introduction, group formation, course overview
-- self-introduction ::@:: name, study location, _fun fact_ <!--SR:!2025-07-19,14,290!2025-07-21,16,290-->
+- self-introduction ::@:: name, study location, _fun fact_ <!--SR:!2025-09-14,54,310!2025-09-27,67,310-->
 - course logistics
   - course logistics / group formation: delayed
-  - course logistics / textbook ::@:: Kenneth C. Laudon & Jane P. Laudon. __Management Information Systems: Managing the Digital Firm__, Global Edition, 17th edition. Pearson, 2021. \(ISBN: 978-1292403281\) <!--SR:!2025-07-21,16,290!2025-07-20,15,290-->
+  - course logistics / textbook ::@:: Kenneth C. Laudon & Jane P. Laudon. __Management Information Systems: Managing the Digital Firm__, Global Edition, 17th edition. Pearson, 2021. \(ISBN: 978-1292403281\) <!--SR:!2025-09-27,67,310!2025-09-21,61,310-->
 
 ## week 1 lecture 2
 
 - datetime: 2025-07-01T09:00:00+09:00/2025-07-01T10:40:00+09:00, PT1H40M
   - local: 2025-07-01T08:00:00+08:00/2025-07-01T09:40:00+08:00, PT1H40M
 - topic: information systems in global business today
-- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2025-07-21,16,290!2025-07-20,15,290-->
-  - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization. <!--SR:!2025-07-21,16,290!2025-07-19,14,290-->
-    - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals <!--SR:!2025-07-19,14,290!2025-07-19,14,290-->
-    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2025-07-20,15,290!2025-07-20,15,290-->
-  - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2025-07-20,15,290!2025-07-19,14,290-->
-  - information system / architecture ::@:: normal: input → arrange, calculate, classify, process → output <br/> improve: output → feedback → input <p> It interacts with the organization and its environment, e.g. competitors, customers, regulators, stockholders, suppliers, etc. <!--SR:!2025-07-19,14,290!2025-07-21,16,290-->
+- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
+  - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization. <!--SR:!2025-09-27,67,310!2025-09-14,54,310-->
+    - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals <!--SR:!2025-09-15,55,310!2025-09-14,54,310-->
+    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2025-09-21,61,310!2025-09-22,62,310-->
+  - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2025-09-21,61,310!2025-09-15,55,310-->
+  - information system / architecture ::@:: normal: input → arrange, calculate, classify, process → output <br/> improve: output → feedback → input <p> It interacts with the organization and its environment, e.g. competitors, customers, regulators, stockholders, suppliers, etc. <!--SR:!2025-09-02,42,290!2025-09-27,67,310-->
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - information system / users ::@:: Senior management, middle management, and operational management may use it. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
-  - information system / data vs. information ::@:: The former is raw fact. The latter is the former shaped into something meaningful. An information system takes the former to produce the latter. <!--SR:!2025-07-19,14,290!2025-07-19,14,290-->
-  - information system / dimensions ::@:: management, organization, technology <!--SR:!2025-07-19,14,290!2025-07-20,15,290-->
-    - information system / dimensions / technology ::@:: computer hardware, computer software, data management, networking and telecommunications, infrastructure, etc. <!--SR:!2025-07-21,16,290!2025-07-19,14,290-->
-    - information system / dimensions / organization ::@:: IS can create value and result in superior results for an organization, e.g. better strategies, increased productivity, increased revenue, etc. <!--SR:!2025-07-20,15,290!2025-07-19,14,290-->
-    - information system / dimensions / management ::@:: IS can but does not _guarantee_ good results. There is considerable variation. Factors include _complementary assets_, right business model, etc. so good management of IS is needed. <!--SR:!2025-07-20,15,290!2025-07-21,16,290-->
-- [complementary assets](../../../../general/complementary%20assets.md) ::@:: It is understood to apply to assets, infrastructure or capabilities needed to support the successful commercialization and marketing of a technological innovation, other than those assets fundamentally associated with that innovation. <!--SR:!2025-07-19,14,290!2025-07-21,16,290-->
-  - complementary assets / types ::@::  managerial, organizational, social <!--SR:!2025-07-20,15,290!2025-07-20,15,290-->
-  - complementary assets / organizational ::@:: structures of the firm <!--SR:!2025-07-20,15,290!2025-07-20,15,290-->
-    - complementary assets / organizational / examples ::@:: IS development team, business model, business process, decentralization, decision making, organizational culture, etc. <!--SR:!2025-07-21,16,290!2025-07-21,16,290-->
-  - complementary assets / managerial ::@:: people of the firm <!--SR:!2025-07-21,16,290!2025-07-20,15,290-->
-    - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2025-07-21,16,290!2025-07-20,15,290-->
-  - complementary assets / social ::@:: environments the firm are in <!--SR:!2025-07-21,16,290!2025-07-20,15,290-->
-    - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2025-07-19,14,290!2025-07-21,16,290-->
+  - information system / data vs. information ::@:: The former is raw fact. The latter is the former shaped into something meaningful. An information system takes the former to produce the latter. <!--SR:!2025-09-15,55,310!2025-09-14,54,310-->
+  - information system / dimensions ::@:: management, organization, technology <!--SR:!2025-09-14,54,310!2025-09-17,57,310-->
+    - information system / dimensions / technology ::@:: computer hardware, computer software, data management, networking and telecommunications, infrastructure, etc. <!--SR:!2025-09-27,67,310!2025-09-14,54,310-->
+    - information system / dimensions / organization ::@:: IS can create value and result in superior results for an organization, e.g. better strategies, increased productivity, increased revenue, etc. <!--SR:!2025-09-20,60,310!2025-09-15,55,310-->
+    - information system / dimensions / management ::@:: IS can but does not _guarantee_ good results. There is considerable variation. Factors include _complementary assets_, right business model, etc. so good management of IS is needed. <!--SR:!2025-09-19,59,310!2025-09-27,67,310-->
+- [complementary assets](../../../../general/complementary%20assets.md) ::@:: It is understood to apply to assets, infrastructure or capabilities needed to support the successful commercialization and marketing of a technological innovation, other than those assets fundamentally associated with that innovation. <!--SR:!2025-09-15,55,310!2025-09-27,67,310-->
+  - complementary assets / types ::@::  managerial, organizational, social <!--SR:!2025-09-23,63,310!2025-09-17,57,310-->
+  - complementary assets / organizational ::@:: structures of the firm <!--SR:!2025-09-19,59,310!2025-09-18,58,310-->
+    - complementary assets / organizational / examples ::@:: IS development team, business model, business process, decentralization, decision making, organizational culture, etc. <!--SR:!2025-09-27,67,310!2025-09-27,67,310-->
+  - complementary assets / managerial ::@:: people of the firm <!--SR:!2025-09-27,67,310!2025-09-20,60,310-->
+    - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2025-09-27,67,310!2025-09-18,58,310-->
+  - complementary assets / social ::@:: environments the firm are in <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
+    - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2025-09-15,55,310!2025-09-27,67,310-->
 - information system
-  - information system / academic ::@:: IS is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2025-07-21,16,290!2025-07-19,14,290-->
+  - information system / academic ::@:: IS is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2025-09-27,67,310!2025-09-15,55,310-->
     - information system / academic / psychology ::@:: In IS, it studies how decision makers perceive and use formal information. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - information system / recent changes ::@:: big data, cloud computing, mobile platform, social networking, etc. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
 - assignment: [quiz 1](questions/quiz%201.md)

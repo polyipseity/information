@@ -220,7 +220,7 @@ return _chain.from_iterable(await _gather(
 - Sn<sup>2+</sup>:@:[tin](tin.md) <!--SR:!2029-10-14,1649,387-->
 - Pb<sup>2+</sup>:@:[lead](lead.md) <!--SR:!2027-10-09,952,345-->
 - Sb<sup>3+</sup>:@:[antimony](antimony.md) <!--SR:!2027-12-27,1007,345-->
-- Bi<sup>3+</sup>:@:[bismuth](bismuth.md) <!--SR:!2025-07-19,407,365-->
+- Bi<sup>3+</sup>:@:[bismuth](bismuth.md) <!--SR:!2031-02-15,2037,385-->
 - Cu<sup>2+</sup>:@:[copper](copper.md) <!--SR:!2030-05-14,1816,387-->
 - W<sup>3+</sup>:@:[tungsten](tungsten.md) <!--SR:!2030-01-11,1717,385-->
 - Hg<sup>2+</sup>:@:[mercury](mercury%20(element).md) <!--SR:!2030-12-20,1993,385-->
@@ -304,7 +304,7 @@ return _chain.from_iterable(await _gather(
 - [tin](tin.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-02,744,290-->
 - [lead](lead.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-03-23,812,290-->
 - [antimony](antimony.md):@:heat or physical extraction <!--SR:!2030-03-29,1742,310-->
-- [bismuth](bismuth.md):@:heat or physical extraction <!--SR:!2025-07-22,576,310-->
+- [bismuth](bismuth.md):@:heat or physical extraction <!--SR:!2032-04-24,2468,330-->
 - [copper](copper.md):@:heat or physical extraction <!--SR:!2025-11-24,662,310-->
 - [tungsten](tungsten.md):@:heat or physical extraction <!--SR:!2028-05-06,1446,350-->
 - [mercury](mercury%20(element).md):@:heat or physical extraction <!--SR:!2026-03-04,765,330-->

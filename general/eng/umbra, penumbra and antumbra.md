@@ -17,7 +17,7 @@ tags:
 
 # umbra, penumbra and antumbra
 
-The {@{__umbra__, __penumbra__ and __antumbra__}@} are {@{three distinct parts of a [shadow](shadow.md), created by any light source after impinging on an [opaque](opacity.md) object}@}. <!--SR:!2025-07-19,290,330!2029-02-12,1306,350-->
+The {@{__umbra__, __penumbra__ and __antumbra__}@} are {@{three distinct parts of a [shadow](shadow.md), created by any light source after impinging on an [opaque](opacity.md) object}@}. <!--SR:!2029-03-04,1322,350!2029-02-12,1306,350-->
 
 ## umbra
 
