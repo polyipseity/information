@@ -227,7 +227,7 @@ async def wiki_html_to_plaintext(
             process_strings = lambda strings: _fix_name_maybe(strings.strip())
         # links: self-links; should come before bold
         case _ if ele.name == "a" and "mw-selflink" in classes:
-            process_strings = lambda strings: strings.replace("\n", " <br/> ").strip()
+            process_strings = lambda strings: strings.strip().replace("\n", " <br/> ")
             prefix, suffix = (
                 "[",
                 f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
@@ -450,8 +450,8 @@ async def wiki_html_to_plaintext(
                 )
                 strings = strings.replace("|", "&#124;")
 
-                strings = strings.replace("\n", " <br/> ")
                 strings = strings.strip()
+                strings = strings.replace("\n", " <br/> ")
                 return strings
 
             process_strings = process_strings_tdh
@@ -609,7 +609,7 @@ async def wiki_html_to_plaintext(
             if process:
 
                 def process_strings_a(strings: str):
-                    return strings.replace("\n", " <br/> ").strip()
+                    return strings.strip().replace("\n", " <br/> ")
 
                 process_strings = process_strings_a
         # unhandled tags
