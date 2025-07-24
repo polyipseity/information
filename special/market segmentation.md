@@ -14,7 +14,7 @@ Business {@{may not be able to satisfy all of their customers}@}. There are few 
 
 ## how
 
-A market segment is {@{a group of customers sharing the same interest, traits, and characteristics}@}. Effective segmentation requires {@{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment, affected by attractiveness or stickiness of products; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}@}.
+A market segment is {@{a group of customers sharing the same interest, traits, and characteristics}@}. Effective segmentation requires {@{measurability}@}, {@{the ability to gather concrete information on the segment}@}; {@{substantiality}@}, {@{the profitability of the segment, affected by attractiveness or stickiness of products}@}; {@{accessibility}@}, {@{how reachable and servable the segment is}@}; and {@{actionability}@}, {@{feasibility for the company}@}.
 
 ### segmentation variables
 
