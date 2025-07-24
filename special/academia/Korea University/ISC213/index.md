@@ -487,7 +487,7 @@ The content is in teaching order.
   - knowledge / nature ::@:: different forms, experiences network effect, intangible, situational \(_not_ timeless\) <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
   - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
   - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
-  - knowledge / taxonomy ::@:: It is a scheme to classify information and knowledge meaningfully.
+  - knowledge / taxonomy ::@:: It is a scheme to classify information and knowledge meaningfully. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
   - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
   - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
@@ -498,8 +498,8 @@ The content is in teaching order.
   - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
   - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
   - knowledge management system / intelligent techniques ::@:: tools to discover patterns in knowledge and apply them for decision making and knowledge domains <p> examples: computer vision, data mining, expert systems, genetic algorithms, machine learning, intelligent agents, etc. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
-- [expert system](../../../../general/expert%20system.md) ::@:: It is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code.
-  - expert system / knowledge base ::@:: It is a body of human knowledge manually inputted by experts. It is often restricted to narrowly defined domains.
+- [expert system](../../../../general/expert%20system.md) ::@:: It is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - expert system / knowledge base ::@:: It is a body of human knowledge manually inputted by experts. It is often restricted to narrowly defined domains. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - knowledge management
   - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
 - [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness. <!--SR:!2025-07-28,5,355!2025-07-28,5,355-->
@@ -532,47 +532,47 @@ The content is in teaching order.
 - datetime: 2025-07-24T09:00:00+09:00/2025-07-24T10:40:00+09:00, PT1H40M
   - local: 2025-07-24T08:00:00+08:00/2025-07-24T09:40:00+08:00, PT1H40M
 - topic: enhancing decision making
-- [decision-making](../../../../general/decision-making.md) ::@:: It is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational.
-  - decision-making / business value ::@:: many small decisions over a year adds up to great business value annually
-  - decision-making / types ::@:: unstructured, semi-structured, structured
-  - decision-making / unstructured ::@:: decisions thatevaluation, insight, and judgement require; often made by senior management <p> examples: capital budgeting, entrance, exit, long-term goals, etc.
-  - decision-making / semi-structured ::@:: decisions with both unstructured and structured parts; often made by middle management <p> examples: department budgeting, marketing planning, website design, etc.
-  - decision-making / structured ::@:: repetitive and routine decisions with a clear handling procedure; often made by operational management, including employees and teams <p> examples: inventory restocking, overtime eligibility, etc.
-  - decision-making / steps ::@:: intelligence: discover problems → design: discover solutions → choice: choose solutions → implementation: test solutions <p> Note that these steps do not go in only one direction. We can go back to a previous step as needed if something does not work.
-  - decision-making / models ::@:: _Homo economicus_ \(economic man\), bounded rationality, etc.
-- [_Homo economicus_](../../../../general/Homo%20economicus.md) ::@:: It is the portrayal of humans as agents who are consistently rational and narrowly self-interested, and who pursue their subjectively defined ends optimally.
-  - _Homo economicus_ / characteristics ::@:: It assumes many \(unrealistic\) assumptions: perfect rationality, self-interested, etc. It is based on the concept of utility. It has many shortcomings due to its assumptions.
-- [bounded rationality](../../../../general/bounded%20rationality.md) ::@:: It is the idea that rationality is limited when individuals make decisions, and under these limitations, rational individuals will select a decision that is satisfactory rather than optimal.
-  - bounded rationality / models ::@:: anatomy of problem \(by Reitman\), managerial problem solving \(by Simon\), etc.
-  - bounded rationality / anatomy of problem ::@:: A problem occurs when the current state is different from the desired state. There are many components to a problem. There are also many solutions. Problems can be categorized as follows.
-    - bounded rationality / anatomy of problem / types ::@:: personal vs. organizational <br/> structured vs. ill-structured
-  - bounded rationality / managerial problem solving ::@:: Decision making involves 3 steps: intelligence → design → choice, and we can go back by one step as needed, looping infinitely. Decisions can be categorized as follows.
-    - bounded rationality / managerial problem solving / types ::@:: decision making vs. problem solving; programmable decisions vs. non-programmable decisions
+- [decision-making](../../../../general/decision-making.md) ::@:: It is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / business value ::@:: many small decisions over a year adds up to great business value annually <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / types ::@:: unstructured, semi-structured, structured <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / unstructured ::@:: decisions thatevaluation, insight, and judgement require; often made by senior management <p> examples: capital budgeting, entrance, exit, long-term goals, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / semi-structured ::@:: decisions with both unstructured and structured parts; often made by middle management <p> examples: department budgeting, marketing planning, website design, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / structured ::@:: repetitive and routine decisions with a clear handling procedure; often made by operational management, including employees and teams <p> examples: inventory restocking, overtime eligibility, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / steps ::@:: intelligence: discover problems → design: discover solutions → choice: choose solutions → implementation: test solutions <p> Note that these steps do not go in only one direction. We can go back to a previous step as needed if something does not work. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - decision-making / models ::@:: _Homo economicus_ \(economic man\), bounded rationality, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+- [_Homo economicus_](../../../../general/Homo%20economicus.md) ::@:: It is the portrayal of humans as agents who are consistently rational and narrowly self-interested, and who pursue their subjectively defined ends optimally. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - _Homo economicus_ / characteristics ::@:: It assumes many \(unrealistic\) assumptions: perfect rationality, self-interested, etc. It is based on the concept of utility. It has many shortcomings due to its assumptions. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+- [bounded rationality](../../../../general/bounded%20rationality.md) ::@:: It is the idea that rationality is limited when individuals make decisions, and under these limitations, rational individuals will select a decision that is satisfactory rather than optimal. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - bounded rationality / models ::@:: anatomy of problem \(by Reitman\), managerial problem solving \(by Simon\), etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - bounded rationality / anatomy of problem ::@:: A problem occurs when the current state is different from the desired state. There are many components to a problem. There are also many solutions. Problems can be categorized as follows. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - bounded rationality / anatomy of problem / types ::@:: personal vs. organizational <br/> structured vs. ill-structured <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - bounded rationality / managerial problem solving ::@:: Decision making involves 3 steps: intelligence → design → choice, and we can go back by one step as needed, looping infinitely. Decisions can be categorized as follows. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - bounded rationality / managerial problem solving / types ::@:: decision making vs. problem solving; programmable decisions vs. non-programmable decisions <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - decision-making
-  - decision-making / roles ::@:: Mintzberg defines the following 10 managerial roles grouped into 3 categories: decisional, informational, and interpersonal roles.
-    - decision-making / roles / interpersonal ::@:: figurehead, leader, liaison
-    - decision-making / roles / informational ::@:: disseminator, nerve center, spokesperson
-    - decision-making / roles / decisional ::@:: disturbance handler, entrepreneur, negotiator, resource allocator
+  - decision-making / roles ::@:: Mintzberg defines the following 10 managerial roles grouped into 3 categories: decisional, informational, and interpersonal roles. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - decision-making / roles / interpersonal ::@:: figurehead, leader, liaison <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - decision-making / roles / informational ::@:: disseminator, nerve center, spokesperson <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - decision-making / roles / decisional ::@:: disturbance handler, entrepreneur, negotiator, resource allocator <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - information system
-  - information system / obstacles ::@:: There are 3 main obstacles why IS may not always produce positive results: information quality, management filters, and organizational inertia and politics.
-    - information system / obstacles / information quality ::@:: Good decision-making processes require good data.
-    - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones.
-    - information system / obstacles / organizational inertia and politics ::@:: Strong forces in organizations generally resist changes, even good ones.
+  - information system / obstacles ::@:: There are 3 main obstacles why IS may not always produce positive results: information quality, management filters, and organizational inertia and politics. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - information system / obstacles / information quality ::@:: Good decision-making processes require good data. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+    - information system / obstacles / organizational inertia and politics ::@:: Strong forces in organizations generally resist changes, even good ones. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - business intelligence
-  - business intelligence / infrastructure ::@:: databases, data warehouses, data marts; they collect, store and analyze data
+  - business intelligence / infrastructure ::@:: databases, data warehouses, data marts; they collect, store and analyze data <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
   - business intelligence / systems
-  - business intelligence / vendors ::@:: They are firms that create business intelligence and analytics platforms for other firms to use.
-  - business intelligence / goals ::@:: deliver accurate and real-time information to decision makers
+  - business intelligence / vendors ::@:: They are firms that create business intelligence and analytics platforms for other firms to use. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - business intelligence / goals ::@:: deliver accurate and real-time information to decision makers <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
   - business intelligence / systems
-    - business intelligence / systems / functions ::@:: ad hoc query/search/report creation, dashboards/scorecards, drill down, forecasting, modeling, parameterized reports, production reports, what-if scenarios, etc.
-  - business intelligence / production reports ::@:: They are the most widely used outputs of BI suites. Often, BI suites provide predefined reports for different business functions. <p> examples: sales \(forecasting, performance, etc.\), human resources \(compensation, productivity, etc.\), supply chain \(backlog, fulfillment, etc.\), etc.
-- [predictive analytics](../../../../general/predictive%20analytics.md) ::@:: They encompasses a variety of statistical techniques from data mining, predictive modeling, and machine learning that analyze current and historical facts to make predictions about future or otherwise unknown events.
-  - predictive analytics / foundations ::@:: assumptions, data mining, historical data, statistical analysis, etc.
-  - predictive analytics / business ::@:: They are often incorporated into BI suites to predict the future for different business functions. <p> examples: credit scoring, marketing campaign effect prediction, etc.
+    - business intelligence / systems / functions ::@:: ad hoc query/search/report creation, dashboards/scorecards, drill down, forecasting, modeling, parameterized reports, production reports, what-if scenarios, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - business intelligence / production reports ::@:: They are the most widely used outputs of BI suites. Often, BI suites provide predefined reports for different business functions. <p> examples: sales \(forecasting, performance, etc.\), human resources \(compensation, productivity, etc.\), supply chain \(backlog, fulfillment, etc.\), etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+- [predictive analytics](../../../../general/predictive%20analytics.md) ::@:: They encompasses a variety of statistical techniques from data mining, predictive modeling, and machine learning that analyze current and historical facts to make predictions about future or otherwise unknown events. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - predictive analytics / foundations ::@:: assumptions, data mining, historical data, statistical analysis, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - predictive analytics / business ::@:: They are often incorporated into BI suites to predict the future for different business functions. <p> examples: credit scoring, marketing campaign effect prediction, etc. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - decision support system
-  - decision support system / group ::@:: A __group decision support system__ \(__GDSS__\) helps  groups of people make decisions together more effectively.
+  - decision support system / group ::@:: A __group decision support system__ \(__GDSS__\) helps  groups of people make decisions together more effectively. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - executive support system
-- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions.
-  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves.
-  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\).
+- [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves. <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
+  - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\). <!--SR:!2025-07-28,5,360!2025-07-28,5,360-->
 - assignment: [quiz 11–12](questions/quiz%2011–12.md)
