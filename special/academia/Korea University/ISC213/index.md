@@ -535,7 +535,7 @@ The content is in teaching order.
 - [decision-making](../../../../general/decision-making.md) ::@:: It is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational.
   - decision-making / business value ::@:: many small decisions over a year adds up to great business value annually
   - decision-making / types ::@:: unstructured, semi-structured, structured
-  - decision-making / unstructured ::@:: decisions thatevaluation, insight, and judgement require; often made by senior management <p> examples: capital budgeting, entrance, exit, long-term goals, etc.
+  - decision-making / unstructured ::@:: decisions that requires evaluation, insight, and judgement; often made by senior management <p> examples: capital budgeting, entrance, exit, long-term goals, etc.
   - decision-making / semi-structured ::@:: decisions with both unstructured and structured parts; often made by middle management <p> examples: department budgeting, marketing planning, website design, etc.
   - decision-making / structured ::@:: repetitive and routine decisions with a clear handling procedure; often made by operational management, including employees and teams <p> examples: inventory restocking, overtime eligibility, etc.
   - decision-making / steps ::@:: intelligence: discover problems → design: discover solutions → choice: choose solutions → implementation: test solutions <p> Note that these steps do not go in only one direction. We can go back to a previous step as needed if something does not work.
@@ -549,7 +549,7 @@ The content is in teaching order.
   - bounded rationality / managerial problem solving ::@:: Decision making involves 3 steps: intelligence → design → choice, and we can go back by one step as needed, looping infinitely. Decisions can be categorized as follows.
     - bounded rationality / managerial problem solving / types ::@:: decision making vs. problem solving; programmable decisions vs. non-programmable decisions
 - decision-making
-  - decision-making / roles ::@:: Mintzberg defines the following 10 managerial roles grouped into 3 categories: decisional, informational, and interpersonal roles.
+  - decision-making / roles ::@:: Mintzberg defines the following 10 managerial roles grouped into 3 categories: decisional roles, informational roles, and interpersonal roles.
     - decision-making / roles / interpersonal ::@:: figurehead, leader, liaison
     - decision-making / roles / informational ::@:: disseminator, nerve center, spokesperson
     - decision-making / roles / decisional ::@:: disturbance handler, entrepreneur, negotiator, resource allocator
