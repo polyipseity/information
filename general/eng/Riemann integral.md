@@ -115,7 +115,7 @@ To handle this case, we will {@{estimate the difference between the Riemann sum 
 
 Suppose, {@{[without loss of generality](without%20loss%20of%20generality.md), that _t<sub>i</sub>_ ∈ \[_y<sub>j</sub>_, _y_<sub>_j_ + 1</sub>\]}@}. Then {@{$$m_{j}\leq f(t_{i})\leq M_{j},$$}@} so {@{this term is bounded by the corresponding term in the Darboux sum for _y<sub>j</sub>_}@}. To {@{bound the other term}@}, notice that {@{$$x_{i+1}-y_{j+1}<\delta <{\frac {\varepsilon }{2r(m-1)} },$$}@} <!--SR:!2025-07-27,4,332!2025-07-27,4,334!2025-07-27,4,312!2025-07-27,4,312!2025-07-27,4,334-->
 
-It follows that, for {@{some \(indeed any\) _t_<sup>\*</sup><sub>_i_</sub> ∈ \[_y_<sub>_j_ + 1</sub>, _x_<sub>_i_ + 1</sub>\]}@}, {@{$$\left|f\left(t_{i}\right)-f\left(t_{i}^{*}\right)\right|\left(x_{i+1}-y_{j+1}\right)<{\frac {\varepsilon }{2(m-1)} }.$$}@} <!--SR:!2025-07-27,4,312-->
+It follows that, for {@{some \(indeed any\) _t_<sup>\*</sup><sub>_i_</sub> ∈ \[_y_<sub>_j_ + 1</sub>, _x_<sub>_i_ + 1</sub>\]}@}, {@{$$\left|f\left(t_{i}\right)-f\left(t_{i}^{*}\right)\right|\left(x_{i+1}-y_{j+1}\right)<{\frac {\varepsilon }{2(m-1)} }.$$}@} <!--SR:!2025-07-27,4,312!2025-07-27,4,337-->
 
 Since {@{this happens at most _m_ − 1 times}@}, {@{the distance between the Riemann sum and a Darboux sum}@} is {@{at most _ε_<!-- markdown separator -->/2}@}. Therefore, {@{the distance between the Riemann sum and _s_}@} is {@{at most _ε_}@}. <!--SR:!2025-07-27,4,312!2025-07-27,4,312!2025-07-27,4,312!2025-07-27,4,312!2025-07-27,4,312-->
 
