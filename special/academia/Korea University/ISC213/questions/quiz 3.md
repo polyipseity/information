@@ -3,6 +3,7 @@ aliases:
   - ISC213 quiz 3
   - Korea University ISC213 quiz 3
 tags:
+  - date/2025/07/08
   - flashcard/active/special/academia/Korea_University/ISC213/questions/quiz_3
   - language/in/English
 ---

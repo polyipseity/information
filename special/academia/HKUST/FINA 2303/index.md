@@ -717,7 +717,7 @@ The content is in teaching order.
   - bond / duration ::@:: It measures _interest rate risk_, i.e. price sensitivity to YTM changes. Higher means same YTM change results in large price _percentage_ change. <!--SR:!2025-12-20,150,436!2025-12-14,145,438-->
     - bond / duration / factors ::@:: coupon rate, time to maturity <!--SR:!2025-12-19,149,438!2025-11-11,111,418-->
     - bond / duration / time to maturity ::@:: Higher time to maturity means higher duration, so is more sensitive. <p> Intuitively, consider changing $r$ in the discount factor $(1 + r)^n$ when $n$ is small versus when $n$ is large. <!--SR:!2025-12-29,159,438!2025-12-31,161,436-->
-    - bond / duration / graph ::@:: Graphing price against YTM, the higher the duration, the steeper the curve. <!--SR:!2025-12-17,148,438!2025-12-16,146,438-->
+      - bond / duration / time to maturity / graph ::@:: Graph the price of a bond against its YTM. Graph a curve for each bond of different duration. Then, the higher the duration, the steeper the curve, being at par when its YTM equals its coupon rate. <!--SR:!2025-12-17,148,438!2025-12-16,146,438-->
     - bond / duration / coupon rate ::@:: Higher coupon rate means more cash flows, the coupons, become more near to the present. It means less duration, so is less sensitive to price changes. <!--SR:!2025-12-29,159,438!2025-12-15,145,438-->
 - [corporate bond](../../../../general/corporate%20bond.md) ::@:: It is a bond issued by a corporation in order to raise financing for a variety of reasons such as to ongoing operations, mergers & acquisitions, or to expand business. <!--SR:!2025-12-25,155,438!2025-12-28,158,438-->
   - corporate bond / credit risk ::@:: There is _credit risk_, i.e. risk of default. So investors pay less or equivalently the YTM is higher compared to a risk-free bond. The difference in YTM is known as _credit spread_. <p> \(There are other kinds of risk unmentioned in this course.\) <!--SR:!2025-12-26,156,438!2025-12-18,148,438-->
@@ -839,7 +839,7 @@ The content is in teaching order.
 - datetime: 2025-04-25T16:30:00+08:00/2025-04-25T17:50:00+08:00, PT1H20M
 - topic: risk and return in capital markets
 - [variance](../../../../general/variance.md)
-  - variance / sample ::@:: Suppose we have $n$ _samples_ \(with replacement\) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2$$. The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. \(__this course__: Unless otherwise specified, the unbiased sample variance is used in this course.\) <!--SR:!2026-01-01,162,436!2025-12-27,157,438-->
+  - variance / sample ::@:: Suppose we have $n$ _samples_ \(with replacement\) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2 \,.$$ The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. \(__this course__: Unless otherwise specified, the unbiased sample variance is used in this course.\) <!--SR:!2026-01-01,162,436!2025-12-27,157,438-->
 - [standard deviation](../../../../general/standard%20deviations.md)
   - standard deviation / sample ::@:: It is the square root of the sample variance: $$s = \sqrt{s^2} \,.$$ However, no matter if the sample variance is biased or unbiased, the resulting sample standard deviation is biased. This is because the square root is a concave function and introduces additional negative bias \(smaller than the corresponding population parameter\). <!--SR:!2025-12-25,155,438!2025-12-17,147,438-->
 - rate of return
@@ -1009,7 +1009,7 @@ The content is in teaching order.
     - distribution: ![final examination distribution](attachments/final%20examination%20distribution.svg)
 - report
   - sunk cost and not included in FCF \(−2\) ::@:: Competitive effects are considered _sunk cost_ as well. <!--SR:!2025-12-27,157,438!2025-12-18,148,438-->
-  - operating expenses and depreciation expenses \(0\) ::@:: Read the question to see if depreciation expenses are included in operating expenses, e.g. keywords like "additional depreciation". In this exam, they are usually considered separate. <!--SR:!2025-12-14,144,436!2025-12-31,161,438-->
+  - operating expenses and depreciation expenses \(0\) ::@:: Read the question to see if depreciation expenses are included in operating expenses, e.g. keywords like "additional" in "additional depreciation". In this exam, they are usually considered separate. <!--SR:!2025-12-14,144,436!2025-12-31,161,438-->
 - check: \(none\)
 
 ## aftermath

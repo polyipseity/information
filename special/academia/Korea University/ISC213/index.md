@@ -54,7 +54,7 @@ The content is in teaching order.
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - information system / users ::@:: Senior management, middle management, and operational management may use it. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - information system / data vs. information ::@:: The former is raw fact. The latter is the former shaped into something meaningful. An information system takes the former to produce the latter. <!--SR:!2025-09-15,55,310!2025-09-14,54,310-->
-  - information system / dimensions ::@:: management, organization, technology <!--SR:!2025-09-14,54,310!2025-09-17,57,310-->
+  - information system / dimensions ::@:: 3 dimensions: management, organization, technology <!--SR:!2025-09-14,54,310!2025-09-17,57,310-->
     - information system / dimensions / technology ::@:: computer hardware, computer software, data management, networking and telecommunications, infrastructure, etc. <!--SR:!2025-09-27,67,310!2025-09-14,54,310-->
     - information system / dimensions / organization ::@:: IS can create value and result in superior results for an organization, e.g. better strategies, increased productivity, increased revenue, etc. <!--SR:!2025-09-20,60,310!2025-09-15,55,310-->
     - information system / dimensions / management ::@:: IS can but does not _guarantee_ good results. There is considerable variation. Factors include _complementary assets_, right business model, etc. so good management of IS is needed. <!--SR:!2025-09-19,59,310!2025-09-27,67,310-->
@@ -67,7 +67,7 @@ The content is in teaching order.
   - complementary assets / social ::@:: environments the firm are in <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2025-09-15,55,310!2025-09-27,67,310-->
 - information system
-  - information system / academic ::@:: IS is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2025-09-27,67,310!2025-09-15,55,310-->
+  - information system / academic ::@:: IS covers both behavioral of technical aspects of IT, and thus is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2025-09-27,67,310!2025-09-15,55,310-->
     - information system / academic / psychology ::@:: In IS, it studies how decision makers perceive and use formal information. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - information system / recent changes ::@:: big data, cloud computing, mobile platform, social networking, etc. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
 - assignment: [quiz 1](questions/quiz%201.md)
@@ -81,6 +81,7 @@ The content is in teaching order.
   - business process / brief ::@:: a set of activities to flow material, information, and knowledge <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - business process / business ::@:: a collection of business processes <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - business process / types ::@:: functional, cross-functional <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+    - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\)
   - business process / functions ::@:: finance and accounting, human resources, manufacturing and production, sales and marketing, etc. <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
     - business process / functions / manufacturing and production ::@:: assembly, bill of materials, quality check <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
     - business process / functions / sales and marketing ::@:: customer identification, marketing, sales <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
@@ -91,7 +92,7 @@ The content is in teaching order.
   - information system / types ::@:: transaction processing system \(TPS\) <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - [transaction processing system](../../../../general/transaction%20processing%20system.md) \(TPS\) ::@:: It is a software system, or software/hardware combination, that supports transaction processing. <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - transaction processing system / users ::@:: operational managers, operational staff <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
-  - transaction processing system / usage ::@:: record transactions, e.g. entry, payroll, shipping, etc. for monitoring _daily_ operations and relations with the environment to serve decision making and goals <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - transaction processing system / usage ::@:: record transactions, e.g. entry, payroll, shipping, etc. for monitoring _daily_ operations and relations with the environment to serve decision making and goals; does not perform analysis using _sophisticated_ models or techniques <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - [business intelligence](../../../../business%20intelligence.md) \(BI\) ::@:: It consists of strategies, methodologies, and technologies used by enterprises for data analysis and management of business information. <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - business intelligence / systems ::@:: decision support system \(DSS\), executive support system \(ECS\), management information system \(MIS\) <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - [management information system](../../../../general/management%20information%20system.md) \(MIS\) ::@:: It is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization. <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
@@ -104,15 +105,16 @@ The content is in teaching order.
   - decision support system / types ::@:: data driven vs. model driven <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - decision support system / components ::@:: User commands model and data. Model commands data.  <p> Then feedback goes in the opposite direction; that is, model and data give feedback to user. Data gives feedback to model. <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - [executive information system](../../../../general/exeuctive%20information%20system.md) \(EIS\) ::@:: It is a type of management support system that facilitates and supports senior executive information and decision-making needs. <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - executive information system / aliases ::@:: executive information system \(EIS\), executive support system \(ESS\) \(__this course__: Use ESS.\)
   - executive information system / users ::@:: support senior management <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - executive information system / usage ::@:: use external data, MIS, and DSS to address _high-level non-routine_ decisions <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
-  - executive information system / examples ::@:: digital dashboard of financial performance <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - executive information system / examples ::@:: digital dashboard, which are a set of electronic displays of key performance indicators on a single screen, e.g. financial performance <p> \(__this course__: in midterm examination\) <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - enterprise systems ::@:: systems that allow horizontal and vertical integration of business processes in a business, most important of which is inter-departmental communication offered by ERP <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - enterprise systems / types ::@:: customer relationship management \(CRM\) system, enterprise resource planning \(ERP\), knowledge management system \(KMS\), supply chain management \(SCM\) system <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
-  - enterprise systems / customer relationship management ::@:: enable working collaboratively with customers and suppliers <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
-  - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
-  - enterprise systems / knowledge management system ::@:: information sharing between business functions and departments <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
-  - enterprise systems / supply chain management ::@:: inventory maximization, supply chain management <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - enterprise systems / customer relationship management system ::@:: enable working collaboratively with customers and suppliers; externally-oriented <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication; internally-oriented <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - enterprise systems / knowledge management system ::@:: information sharing between business functions and departments; internally-oriented <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
+  - enterprise systems / supply chain management system ::@:: inventory maximization, supply chain management; externally-oriented <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - [electronic business](../../../../general/electronic%20business.md) ::@:: It is any kind of business or commercial activity that includes sharing information across the internet <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
   - electronic business / e-commerce ::@:: a subset, focused on buying and selling goods and services through the internet <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
 - [e-government](../../../../general/e-government.md) ::@:: use IT to deliver services and information to businesses, citizens, and employees <!--SR:!2025-07-30,17,308!2025-07-30,17,308-->
@@ -171,22 +173,25 @@ The content is in teaching order.
 - organization
   - organization / resistance ::@:: Organizations often change slower than environments as they are _resistant_ to changes. It often causes failure of large projects. <p> The 4 factors determining resistance are information technology \(could change an organization\), organizational structure, task nature, and people. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
 - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md) ::@:: industry profitability analysis <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
-  - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
+  - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors <!--SR:!2025-07-31,18,329!2025-07-31,18,329--> <p> \(__this course__: The midterm examination asked us to recall these exact wordings, which is different from the textbook's. The instructor has pointed this out.\)
   - Porter's five forces analysis / internet ::@:: The internet changes these 5 forces significantly. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
     - Porter's five forces analysis / internet / substitutes ::@:: New forms of substitutes may be enabled by the internet. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
     - Porter's five forces analysis / internet / buyers ::@:: Pricing and production information on the internet adds bargaining power of customers. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
     - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
-    - Porter's five forces analysis / internet / entrants ::@:: Internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
+    - Porter's five forces analysis / internet / entrants ::@:: The internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
     - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
+  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. Essentially all firms in the industry become more profitable.
+- [benchmarking](../../../../general/benchmarking.md) ::@:: It is the practice of comparing business processes and performance metrics to industry bests and best practices from other companies. Dimensions typically measured are quality, time and cost. <p> \(__this course__: in midterm examination\)
 - [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - strategic management / low cost ::@:: IT can help product products and services at a lower cost than competitors while maintaining acceptable quality. <p> examples: Walmart <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - strategic management / differentiation ::@:: IT can enable new features to differentiate products. <p> examples: Apple, Google, eBay <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
   - strategic management / niching ::@:: IT can help implement a focused and specialized strategy on a single market niche. <p> example: Hilton Hotels & Resorts, Harrah's <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
-  - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers. <p> examples: Amazon <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
+  - strategic management / intimacy ::@:: IT can help maintain strong and loyal relationship between customers and suppliers, perhaps by increasing _switching costs_. <p> examples: Amazon <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
 - [value chain](../../../../general/value%20chain.md) ::@:: It is a progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
-  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
+  - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service. <!--SR:!2025-07-31,18,329!2025-07-31,18,329--> <p> \(__this course__: The textbook has "outbound logistics" as the 5th item instead. The "customer" link should be broken down into "wholesaler &gt; retailer &gt; consumer". The instructor has pointed out that these 2 points. Asked in the midterm examination.\)
   - value chain / support activities ::@:: They help make primary activities more effectively and efficiently. The 4 activities are: human resources, infrastructure, procurement, and technology. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
+- [core competency](../../../../general/core%20competency.md) ::@:: It can be defined as "a harmonized combination of multiple resources and skills that distinguish a firm in the marketplace" and therefore are the foundation of companies' competitiveness. <p> \(__this course__: Its relationship to competitive advantage was asked in the midterm examination: They make it difficult for other firms to copy its competitive advantage, sustaining said advantages.\)
 - strategic management
   - strategic management / information system ::@:: It helps promote overall performance of business units by promoting core competencies, _network-based_ strategies, and synergies. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
     - strategic management / information system / competitiveness ::@:: It can help create competitive advantages over competitors. However, competitors can adapt similar systems. In the end, it is needed for survival, because if you do not use it, you lose to everyone else. <!--SR:!2025-07-31,18,329!2025-07-31,18,329-->
@@ -200,7 +205,7 @@ The content is in teaching order.
   - local: 2025-07-08T08:00:00+08:00/2025-07-08T09:40:00+08:00, PT1H40M
 - topic: ethics, social issues, information systems
 - [ethics](../../../../general/ethics.md) ::@:: principles of right and wrong that free moral agents \(e.g. individuals\) to guide their behaviors <!--SR:!2025-08-04,17,353!2025-08-06,19,353-->
-  - ethics / dimensions for information ::@:: accountability and control, information rights and obligations, property rights and obligations, quality of life, health risks, system quality <!--SR:!2025-08-05,19,353!2025-08-05,19,353-->
+  - ethics / dimensions for information ::@:: 6 dimensions: accountability and control, information rights and obligations, property rights and obligations, quality of life, health risks, system quality <!--SR:!2025-08-05,19,353!2025-08-05,19,353-->
     - ethics / dimensions for information / accountability and control ::@:: This refers to who is responsible \(responsibility, under accountability\) for the actions and consequences of an information system, and how much control individuals have over their own data and information. <!--SR:!2025-08-04,18,353!2025-08-06,19,353-->
     - ethics / dimensions for information / information rights and obligations ::@:: This encompasses the rights individuals have to access, control, and protect their personal information, as well as the obligations organizations have to respect these rights. <!--SR:!2025-08-05,18,353!2025-08-06,19,353-->
     - ethics / dimensions for information / property rights and obligations ::@:: This deals with who owns information and intellectual property, and the associated obligations regarding its use and distribution. <!--SR:!2025-08-05,19,353!2025-08-04,18,353-->
@@ -217,7 +222,7 @@ The content is in teaching order.
 - [privacy](../../../../generala/privacy.md) ::@:: It is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively. <!--SR:!2025-08-04,17,353!2025-08-05,19,353-->
   - privacy / United States ::@:: First Amendment: freedom of speech <br/> Fourth Amendment: unreasonable search and seizure <br/> additional federal statues: Privacy Act of 1974, etc. <!--SR:!2025-08-06,19,353!2025-08-05,18,353-->
 - [FTC fair information practice](../../../../general/FTC%20fair%20information%20practice.md) \(FTC FIP\) ::@:: They are US FTC guidelines that represent widely accepted concepts concerning fair information practice in an electronic marketplace. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
-  - FTC fair information practice / uses ::@:: They are the basis of most US and European privacy laws. They are based on interest mutuality between data controllers and individuals. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
+  - FTC fair information practice / uses ::@:: They are the basis of most US and European privacy laws. They are based on mutuality of interest between data controllers and individuals. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
   - FTC fair information practice / extension ::@:: They were restated and extended by FTC in 1998 to provide guidelines for online privacy. <p> They addressed legal gray areas, which are \(then\) new situations not covered by old laws. <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
   - FTC fair information practice / examples ::@:: COPPA, Do-Not-Track Online Act of 2011, Gramm–Leach–Bliley Act, HIPAA, etc. <!--SR:!2025-08-04,17,353!2025-08-03,17,353-->
   - FTC fair information practice / principles ::@:: access/participation, awareness/notice \(core\), choice/consent \(core\), enforcement, security <!--SR:!2025-08-05,19,353!2025-08-06,19,353-->
@@ -228,12 +233,12 @@ The content is in teaching order.
     - FTC fair information practice / principles / enforcement ::@:: Mechanisms must be present to enforce the FIP principles. <!--SR:!2025-08-04,18,353!2025-08-06,19,353-->
 - [Data Protection Directive](../../../../general/Data%20Protection%20Directive.md) ::@:: It was a European Union directive which regulated the processing of personal data within the European Union \(EU\) and the free movement of such data. <p> The General Data Protection Regulation, adopted in April 2016, superseded the Data Protection Directive and became enforceable on 25 May 2018. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
   - Data Protection Directive / requirements ::@:: Data controllers must request consent to data collection and disclose data practices. <!--SR:!2025-08-03,17,353!2025-08-06,19,353-->
-  - Data Protection Directive / transfer ::@:: EU member nations cannot transfer data to other countries without similar privacy protection. <p> For example, the United States use the Safe Harbor framework to work with EU data. <!--SR:!2025-08-05,18,353!2025-07-30,14,333-->
-  - Data Protection Directive / other rights to be considered ::@:: right of access, right to be forgotten <!--SR:!2025-08-04,18,353!2025-08-05,18,353-->
+  - Data Protection Directive / transfer ::@:: EU member nations cannot transfer data to other countries without similar privacy protection. <p> For example, the United States use the Safe Harbour Privacy Principles \(superseded in 2016\) to work with EU data. <!--SR:!2025-08-05,18,353!2025-07-30,14,333-->
+  - Data Protection Directive / new rights to be considered ::@:: right of access, right to be forgotten <!--SR:!2025-08-04,18,353!2025-08-05,18,353-->
 - [intellectual property](../../../../general/intellectual%20property.md) \(IP\) ::@:: It is a category of property that includes intangible creations of the human intellect. There are many types of intellectual property, and some countries recognize more than others. The best-known types are patents, copyrights, trademarks, and trade secrets. <!--SR:!2025-08-04,17,353!2025-08-05,18,353-->
   - intellectual property / trade secrets ::@:: IP belonging to businesses that are not in the public domain <!--SR:!2025-08-05,19,353!2025-08-04,18,353-->
   - intellectual property / copyrights ::@:: statutory grant protecting IP from being copied without permissions \(in most cases\) for the life of the author plus 70 years \(United States\) <!--SR:!2025-08-06,19,353!2025-08-04,17,353-->
-  - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\) <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
+  - intellectual property / patents ::@:: grants the inventors an exclusive monopoly on the invention for 20 years \(United States\) <!--SR:!2025-08-06,19,353!2025-08-04,18,353--> <p> \(__this course__: A question with this as the correct answer appeared in the midterm examination, but there was no option for this. So the question was given full marks.\)
   - intellectual property / digital challenges ::@:: compactness, difficulty of classification \(e.g. software\), difficulty of establishing uniqueness, ease of replication, ease of transmission <!--SR:!2025-08-06,19,353!2025-08-05,18,353-->
 - [Digital Millennium Copyright Act](../../../../general/Digital%20Millennium%20Copyright%20Act.md) \(DMCA\) ::@:: It is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization \(WIPO\). <!--SR:!2025-08-04,17,353!2025-08-05,19,353-->
   - Digital Millennium Copyright Act / circumvention ::@:: illegal to circumvent  technology-based protections of copyrighted materials <!--SR:!2025-08-04,17,353!2025-08-04,17,353-->
@@ -243,14 +248,14 @@ The content is in teaching order.
 - datetime: 2025-07-09T09:00:00+09:00/2025-07-09T10:40:00+09:00, PT1H40M
   - local: 2025-07-09T08:00:00+08:00/2025-07-09T09:40:00+08:00, PT1H40M
 - topic: data ethics
-- [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It, refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data. <!--SR:!2025-08-04,17,353!2025-08-06,19,353-->
+- [big data ethics](../../../../general/big%20data%20ethics.md) ::@:: It refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data. <!--SR:!2025-08-04,17,353!2025-08-06,19,353-->
 - ethics
   - ethics / traditions ::@:: 3 major traditions: deontology, utilitarianism, virtue ethics <!--SR:!2025-08-04,18,353!2025-08-06,19,353-->
     - ethics / traditions / virtue ethics ::@:: Explored by Aristotle. Focuses on people: if a person has good character, the person does ethical actions. <!--SR:!2025-08-05,19,353!2025-08-05,19,353-->
     - ethics / traditions / deontology ::@:: Explored by Immanuel Kant. Focuses on processes: categorical imperatives: if an action \(process\) is not right, it is unethical for _anyone_ to take this action. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
     - ethics / traditions / utilitarianism ::@:: Explored by John Stuart Mill. Focuses on consequences: cost—benefit analysis. <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
 - big data ethics
-  - big data ethics / dimensions ::@:: algorithm ethics, data ethics, practice ethics <!--SR:!2025-08-05,19,353!2025-08-06,19,353-->
+  - big data ethics / dimensions ::@:: 3 dimensions: algorithm ethics, data ethics, practice ethics <!--SR:!2025-08-05,19,353!2025-08-06,19,353-->
     - big data ethics / dimensions / data ethics ::@:: consent, data breach, privacy, trust <!--SR:!2025-08-06,19,353!2025-08-05,18,353-->
     - big data ethics / dimensions / algorithm ethics ::@:: design philosophy, explainabiility, machine bias, model transparency <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
     - big data ethics / dimensions / practice ethics ::@:: fairness, human rights, presentation bias <!--SR:!2025-08-04,18,353!2025-08-04,18,353-->
@@ -266,24 +271,24 @@ The content is in teaching order.
   - big data ethics / presentation bias ::@:: When data is presented, the visualization can be \(psychologically\) deceiving. This may be unintentional or intentional. <p> examples: a 3D pie chart that makes data "closer" to the screen have a larger visual size, deceptive scaling, etc. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
   - big data ethics / fairness ::@:: Attempts to correct algorithmic bias \(model bias\) to make it more "fair". <!--SR:!2025-08-04,18,353!2025-08-06,19,353-->
   - big data ethics / human rights ::@:: These rights are considered inherent and inalienable, meaning they belong to every individual simply by virtue of being human, regardless of characteristics. <p> Algorithms are no exception. They should respect these rights. <!--SR:!2025-08-05,19,353!2025-08-03,17,353-->
-  - big data ethics / legislation ::@:: United States: Children's Online Privacy Protection Act \(COPPA, 2000\), Gramm–Leach–Bliley Act \(GLBA, 1999\), Health Insurance Portability and Accountability Acct \(HIPAA, 1996\), U.S. Privacy Act \(1970\) <br/> United States \(state\): Californian Consumer Privacy Act \(CCPA\), Massachusetts Data Protection Act <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
+  - big data ethics / legislation ::@:: United States: Children's Online Privacy Protection Act \(COPPA, 2000\), Gramm–Leach–Bliley Act \(GLBA, 1999\), Health Insurance Portability and Accountability Acct \(HIPAA, 1996\), U.S. Privacy Act \(1970\) <br/> United States \(by states\): Californian Consumer Privacy Act \(CCPA\), Massachusetts Data Protection Act <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
 - assignment: [quiz 4](questions/quiz%204.md)
 
 ## week 2 lecture 4
 
 - datetime: 2025-07-10T09:00:00+09:00/2025-07-10T10:40:00+09:00, PT1H40M
-  - local: 2025-07-10T08:00:00+08:00/2025-07-10T09:40:00+08:00, PT1H40M
+  - local: 2025-07-10T08:00:00+08:00/2025-07-10T09:40:00+08:00, PT1H40M.
 - topic: IT infrastructure, emerging technologies
 - [IT infrastructure](../../../../general/IT%20infrastructure.md) ::@:: It is the set of physical devices and software required to operate an enterprise. <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
   - IT infrastructure / services ::@:: application, computing, data, physical facilities management, telecommunications, etc. <!--SR:!2025-08-04,17,353!2025-08-04,18,353-->
   - IT infrastructure / evolution ::@:: general-purpose mainframes/minicomputers \(1959\) → personal computers \(1981\) → client/server \(1983\) → enterprise computing \(1992\) → cloud computing, mobile computing \(2000\) <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
     - IT infrastructure / evolution / general-purpose mainframes/minicomputers ::@:: Mainframes are very large computers. Minicomputers connect to mainframes to access computing resources. Computing is _centralized_. <!--SR:!2025-08-05,18,353!2025-08-06,19,353-->
-    - IT infrastructure / evolution / personal computers ::@:: Personal computers carry computing powers themselves and can be used standalone. Computing becomes _decentralized_. <!--SR:!2025-08-05,19,353!2025-08-05,18,353-->
-    - IT infrastructure / evolution / client/server ::@:: Client computers connect to server computers \(client/server architecture\). Both computers have computing resources and probably perform different tasks. Computing becomes even more decentralized. <!--SR:!2025-08-05,18,353!2025-08-04,18,353-->
+    - IT infrastructure / evolution / personal computers ::@:: Personal computers carry computing powers themselves and can be used standalone. Computing starts to become _decentralized_. <!--SR:!2025-08-05,19,353!2025-08-05,18,353-->
+    - IT infrastructure / evolution / client/server ::@:: Client computers connect to server computers \(client/server architecture\). Both computers have computing resources and probably perform different tasks. Computing becomes even more _decentralized_. <!--SR:!2025-08-05,18,353!2025-08-04,18,353-->
     - IT infrastructure / evolution / enterprise computing ::@:: Clients and servers are networked together by an enterprise server. The enterprise server also connects to the internet. <!--SR:!2025-08-05,18,353!2025-08-05,18,353-->
     - IT infrastructure / evolution / cloud computing, mobile computing ::@::  Computing resources are no longer tied to physical computers, but reside on the cloud. Meanwhile, computers become smaller to become portable, e.g. mobile phones, etc. <!--SR:!2025-08-04,17,353!2025-08-06,19,353-->
   - IT infrastructure / drivers ::@:: communication cost improvement, law of mass digital storage, Moore's law, Metcalfe's law <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
-    - IT infrastructure / drivers / Moore's law ::@:: It is is the observation that the number of transistors in an integrated circuit \(IC\) doubles about every two years. <p> In 1975, House noted that Moore's revised law of doubling transistor count every 2 years in turn implied that computer chip performance would roughly double every 18 months. \(this course: Use the latter statement instead.\) <!--SR:!2025-08-04,17,353!2025-08-03,17,353-->
+    - IT infrastructure / drivers / Moore's law ::@:: It is is the observation that the number of transistors in an integrated circuit \(IC\) doubles about every two years. <p> In 1975, House noted that Moore's revised law of doubling transistor count every 2 years in turn implied that computer chip performance would roughly double every 18 months. \(__this course__: Use the latter statement instead.\) <!--SR:!2025-08-04,17,353!2025-08-03,17,353-->
     - IT infrastructure / drivers / Metcalfe's law ::@:: It states that the financial value or influence of a telecommunications network is proportional to the square of the number of connected users of the system \(_n_<sup>2</sup>\). <!--SR:!2025-08-04,18,353!2025-08-05,19,353-->
   - IT infrastructure / components ::@:: computer hardware, consulting system integration, data management and storage, enterprise software, internet, networking, operating systems, telecommunications, etc. <!--SR:!2025-08-04,17,353!2025-08-04,17,353-->
   - IT infrastructure / hardware trends ::@:: better processors, bring your own device \(BYOD\), cloud computing, consumerization of information technology, green computing, mobile computing, quantum computing, virtualization, etc. <!--SR:!2025-08-04,17,353!2025-08-04,18,353-->
@@ -295,9 +300,10 @@ The content is in teaching order.
 - [virtualization](../../../../general/virtualization.md) \(v12n\) ::@:: It is a series of technologies that allows dividing of physical computing resources into a series of virtual machines, operating systems, processes or containers. <p> It can reduce hardware, power expenditure, and facilitate hardware centralization. <!--SR:!2025-08-05,19,353!2025-08-04,18,353-->
 - [cloud computing](../../../../general/cloud%20computing.md) ::@:: It is "a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand," according to ISO. <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
   - cloud computing / services ::@:: It provides on-demand computing services, e.g. infrastructure as a service \(IaaS\), platform as a service \(PaaS\), software as a service \(SaaS\), etc. <!--SR:!2025-08-04,18,353!2025-08-04,18,353-->
-  - cloud computing / types ::@:: private cloud, public cloud <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
+  - cloud computing / types ::@:: private cloud \(private to a business\), public cloud <!--SR:!2025-08-06,19,353!2025-08-06,19,353--> \(shared with other businesses\)
+    - cloud computing / types / this course ::@:: \(__this course__: The instructor thinks that cloud computing can never be private, because it uses the _internet_ which can be _eavesdropped_. Appeared in the midterm examination.\)
   - cloud computing / advantages ::@:: allow companies to reduce IT investments <!--SR:!2025-08-05,19,353!2025-08-06,19,353-->
-  - cloud computing / disadvantages ::@:: reliability, security; both due to relying on the services of other companies <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
+  - cloud computing / disadvantages ::@:: reliability \(accessibility of the data anytime\), security \(capability of the service provider to protect data from hackers\); both due to relying on the services of other companies <p> \(__this course__: The midterm examination asked us to elaborate of these two major problems.\) <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
 - [green computing](../../../../general/green%20computing.md) ::@:: It is the study and practice of environmentally sustainable computing or IT. <p> It covers practices and technologies for IT infrastructure, mainly to reduce power consumption. \(2% of United States power demand comes from IT infrastructure.\) <!--SR:!2025-08-04,18,353!2025-08-04,17,353-->
 - IT infrastructure
   - IT infrastructure / hardware trends
@@ -308,7 +314,7 @@ The content is in teaching order.
   - open-source software / examples ::@:: Apache web server, Mozilla Firebox, OpenOffice <!--SR:!2025-08-06,19,353!2025-08-04,17,353-->
 - [Linux](../../../../general/Linux.md) ::@:: An open-source operating systems used in high-performance computing. It is used in Android, local area networks \(LAN\), mobile devices, web servers, etc. <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
   - Linux / Unix-like ::@:: It is Unix-like. Unix is a multitasking, multi-user operating system developed by Bell Laboratories. <!--SR:!2025-08-05,18,353!2025-08-03,17,353-->
-- [web platform](../../../../general/web%20platform.md) ::@:: It is a collection of technologies developed as open standards by the World Wide Web Consortium and other standardization bodies <!--SR:!2025-08-06,19,353!2025-08-05,18,353-->
+- [web platform](../../../../general/web%20platform.md) ::@:: It is a collection of technologies developed as open standards by the World Wide Web Consortium and other standardization bodies. <!--SR:!2025-08-06,19,353!2025-08-05,18,353-->
   - web platform / software ::@:: HTML/HTML5, Java, Python, Ruby, etc. <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
 - [web service](../../../../general/web%20service.md) ::@:: They are software components that exchange information using web standards and languages. <p> examples: extensible markup language \(XML\) <!--SR:!2025-08-05,18,353!2025-08-04,18,353-->
 - [XML](../../../../general.XML) \(extensible markup language\) ::@:: It is a markup language and file format for storing, transmitting, and reconstructing data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
@@ -333,7 +339,7 @@ The content is in teaching order.
 - [data hierarchy](../../../../general/data%20hierarchy.md) ::@:: It refers to the systematic organization of data, often in hierarchical form. Data organization involves characters, fields, records, files and so on. <!--SR:!2025-08-04,18,353!2025-08-05,19,353-->
   - data hierarchy / the hierarchy ::@:: database ← file ← record ← field ← byte \(8 bits; some ancient computers use 7 bits\) ← bit <!--SR:!2025-08-04,18,353!2025-08-04,17,353-->
 - [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access. <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
-  - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features\(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy <!--SR:!2025-07-31,14,333!2025-08-05,18,353-->
+  - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy <!--SR:!2025-07-31,14,333!2025-08-05,18,353-->
 - [database](../../../../general/database.md) ::@:: It is an organized collection of data or a type of data store based on the use of a database management system \(DBMS\), the software that interacts with end users, applications, and the database itself to capture and analyze the data. <!--SR:!2025-08-05,18,353!2025-08-05,18,353-->
   - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications. <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
   - database / database management system \(DBMS\) ::@:: It is an interface between databases and applications. It separates data into physical and logical views. <!--SR:!2025-08-05,18,353!2025-08-06,19,353-->
@@ -344,7 +350,7 @@ The content is in teaching order.
   - relational database / tuples ::@:: They are rows in a table. They are records, one for an entity. A table contains records for the same type of record. <!--SR:!2025-08-04,18,353!2025-08-06,19,353-->
   - relational database / fields ::@:: They are columns in a table. They are attributes common to all records \(of the same type\) in a table. <!--SR:!2025-08-06,19,353!2025-08-05,18,353-->
   - relational database / keys ::@:: Fields that are used to identify records in a table \(the table may be the current table or a different table\). <!--SR:!2025-08-05,18,353!2025-08-06,19,353-->
-    - relational database / primary keys ::@:: A key used to identify records in the current table. Other tables reference records in the current table using this key. <!--SR:!2025-08-05,18,353!2025-08-04,18,353-->
+    - relational database / primary keys ::@:: A key used to identify records in the current table. It is unique to each record in the current table. Other tables reference records in the current table using this key. <p> Many RDBMS requires at least one of this key for each record. <!--SR:!2025-08-05,18,353!2025-08-04,18,353-->
     - relational database / foreign keys ::@:: A key used to identify records in a different table. It references primary keys of records in the other table. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
   - relational database / operations ::@:: common operations: join, project, select, etc. <!--SR:!2025-08-05,18,353!2025-08-04,17,353-->
     - relational database / operations / select ::@:: Return a subset of records that meet user-specified criteria. <!--SR:!2025-08-04,17,353!2025-08-04,17,353-->
@@ -360,4 +366,159 @@ The content is in teaching order.
     - database / design / process ::@:: Identify relationships between entities. Attempt to eliminate data redundancy. A common technique is _normalization_, which streamlines complex data groupings to minimize awkward \(many-to-many\) relationships and data redundancy. <!--SR:!2025-08-06,19,353!2025-08-06,19,353-->
   - database / consistency ::@:: Referential integrity rules are used to ensure data consistency in a database. Relationships between data remain consistent. <!--SR:!2025-08-06,19,353!2025-08-04,18,353-->
 - [entity–relationship model](../../../../general/entity–relationship%20model.md) \(ER model\) ::@:: It describes interrelated things of interest in a specific domain of knowledge. <!--SR:!2025-08-06,19,353!2025-08-05,19,353-->
-  - entity–relationship model / the model ::@:: A basic ER model is composed of entity types \(which classify the things of interest\) and specifies relationships that can exist between entities \(instances of those entity types\). <p> Often, relationships are described logically \(e.g. one-to-one, one-to-many, many-to-many, etc.\) and semantically \(described using words, in both directions\). <!--SR:!2025-08-05,19,353!2025-08-05,19,353-->
+  - entity–relationship model / the model ::@:: A basic ER model \(entity–relationship diagram, ERD\) is composed of entity types \(which classify the things of interest\) and specifies relationships that can exist between entities \(instances of those entity types\). <p> Often, relationships are described logically \(e.g. one-to-one, one-to-many, many-to-many, etc.\) and semantically \(described using words, in both directions\). <!--SR:!2025-08-05,19,353!2025-08-05,19,353-->
+
+## week 3 lecture 2
+
+- datetime: 2025-07-15T09:00:00+09:00/2025-07-15T10:40:00+09:00, PT1H40M
+  - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
+- topic: foundations of business intelligence
+- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate.
+  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc.
+  - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>\), exabytes \(EB, 1000<sup>6</sup>\), etc.
+- business intelligence
+  - business intelligence / infrastructure ::@:: many tools for big data and separate systems
+  - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc.
+- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources.
+- [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team.
+- [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers.
+  - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\)
+- [in-memory processing](../../../../general/in-meemory%20processing.md) ::@:: It is a software architecture where a database is kept entirely in random-access memory \(RAM\) or flash memory so that usual accesses, in particular read or query operations, do not require access to disk storage.
+  - in-memory processing / advantages ::@:: This may allow faster data operations such as "joins", and faster reporting and decision-making in business.
+  - in-memory processing / requirements ::@:: dedicated hardware optimized for in-memory processing are needed
+- [online analytical processing](../../../../general/online%20analytical%20processing.md) \(OLAP\) ::@:: It is an approach to quickly answer multi-dimensional analytical \(MDA\) queries.
+  - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension.
+- [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems.
+  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns
+  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc.
+- [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources".
+  - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc.
+  - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions
+- data mining
+  - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc.
+- [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information.
+  - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data
+  - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance
+  - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general
+  - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations
+  - information policy / database administration ::@:: create and maintain databases
+- [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning".
+  - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy
+  - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data
+- assignment: [quiz 6](questions/quiz%206.md)
+
+## week 3 lecture 3
+
+- datetime: 2025-07-16T09:00:00+09:00/2025-07-16T10:40:00+09:00, PT1H40M
+  - local: 2025-07-16T08:00:00+08:00/2025-07-16T09:40:00+08:00, PT1H40M
+- topic: hands-on exercise: predictive text analytics with Altair AI studio
+- reading: Weiguo Fan, Linda Wallace, Stephanie Rich, and Zhongju Zhang. 2006. Tapping the power of text mining. Commun. ACM 49, 9 \(September 2006\), 76–82. <https://doi.org/10.1145/1151030.1151032>
+- text mining
+  - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge
+  - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends.
+  - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc.
+  - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\)
+  - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery
+- true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive.
+- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative.
+- false positive \(FP\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive.
+- false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative.
+- [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$
+  - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$
+- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$
+- [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$
+- [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model.
+- [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one.
+  - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted.
+
+## week 3 lecture 4
+
+- datetime: 2025-07-17T09:00:00+09:00/2025-07-17T10:40:00+09:00, PT1H40M
+  - local: 2025-07-17T08:00:00+08:00/2025-07-17T09:40:00+08:00, PT1H40M
+- topic: midterm examination
+- [§ midterm examination](#midterm%20examination)
+
+## midterm examination
+
+- datetime: 2025-07-17T09:00:00+09:00/2025-07-17T10:30:00+09:00, PT1H30M
+  - local: 2025-07-17T08:00:00+08:00/2025-07-17T09:30:00+08:00, PT1H30M
+- venue: \(online\)
+- format
+  - calculator: n/a
+  - cheatsheet: n/a
+  - referencing: open book, open notes
+  - provided: \(none\)
+  - questions: questions ×50 \(acronym, fill in the blank, multiple choice, short answer, true/false\)
+  - others: open camera showing full face
+- grades: 95/100
+  - statistics
+    - timestamps: 2025-07-19+09:00
+    - mean: 92.97 \(provided: 83.7\)
+    - standard deviation: ?
+    - low: 79
+    - lower quartile: 92
+    - median: 93.5
+    - upper quartile: 96
+    - high: 99
+    - distribution: ![midterm examination histogram](attachments/midterm%20examination%20histogram.png)
+    - data: ?
+- report
+  - value chain / primary activities \(−1\)
+  - Porter's five forces / weak \(−2\)
+  - intellectual property / patents \(0\)
+  - core competency \(−2\)
+- check: \(none\)
+- questions: [midterm examination](questions/midterm%20examination.md)
+
+## week 4 lecture 1
+
+- datetime: 2025-07-21T09:00:00+09:00/2025-07-21T10:40:00+09:00, PT1H40M
+  - local: 2025-07-21T08:00:00+08:00/2025-07-21T09:40:00+08:00, PT1H40M
+- topic: hands-on exercise: building corpus
+- Altair AI Studio
+  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 5 functions to create a corpus: "create document", "process documents from files", "read Excel", "read Excel &gt; data to document", and "read document".
+
+## week 4 lecture 2
+
+- datetime: 2025-07-22T09:00:00+09:00/2025-07-22T10:40:00+09:00, PT1H40M
+  - local: 2025-07-22T08:00:00+08:00/2025-07-22T09:40:00+08:00, PT1H40M
+- topic: managing knowledge, artificial intelligence
+- [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill.
+  - knowledge / nature ::@:: experiences network effect, intangible
+  - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources.
+  - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc.
+- [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization.
+  - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error
+  - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes
+- [knowledge management](../../../../general/knowledge%20management.md) \(KM\) ::@:: It is the set of procedures for producing, disseminating, utilizing, and overseeing an organization's knowledge and data. It alludes to a multidisciplinary strategy that maximizes knowledge utilization to accomplish organizational goals.
+  - knowledge management / value chain ::@:: acquire: business analytics, data mining, machine learning, etc. → store: content management systems, etc. → disseminate: portals, search engines, etc. → apply: decision support systems, enterprise applications, robotics, etc.
+- [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed.
+  - knowledge management system / types ::@:: 3 major types: enterprise-wide KMS, intelligent techniques, knowledge work systems
+  - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc.
+  - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc.
+  - knowledge management system / intelligent techniques ::@:: tools to discover patterns in knowledge and apply them for decision making and knowledge domains <p> examples: computer vision, data mining, expert systems, genetic algorithms, machine learning, intelligent agents, etc.
+- knowledge management
+  - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured.
+- [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness.
+- [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web.
+- knowledge management system
+  - knowledge management system / intelligent techniques
+    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc.
+- [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
+
+## week 4 lecture 3
+
+- datetime: 2025-07-23T09:00:00+09:00/2025-07-23T10:40:00+09:00, PT1H40M
+  - local: 2025-07-23T08:00:00+08:00/2025-07-23T09:40:00+08:00, PT1H40M
+- topic: enhancing decision making
+- status: canceled
+
+> Dear Class,
+>
+> Today, Wednesday, 7/23/2025, we need to cancel class due to an expected network outage on campus. The system will be back on later today, at the latest tomorrow. Tomorrow when we are back to class, I will layout the plan to get caught up after today's class cancelation.
+>
+> Thank you for your understanding.
+>
+> All the best,
+>
+> \[redacted\]

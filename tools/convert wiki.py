@@ -15,7 +15,7 @@ from pyarchivist.Wikimedia_Commons.main import (
     main as pyarchivist_Wikimedia_Commons_main,
 )
 from pyperclip import copy as clip_copy  # type: ignore
-from re import DOTALL, Pattern, compile
+from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
 from typing import Callable, Mapping, MutableSet
@@ -176,12 +176,19 @@ async def wiki_html_to_plaintext(
     escape: bool = True,
     refs: bool,
     session: ClientSession,
-    __HEADER_PATTERN: Pattern[str] = compile(r"h(\d?)"),
+    __HEADER_REGEX: Pattern[str] = compile(r"h(\d?)"),
     __BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold"),
     __ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
     __MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
     __PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
     __REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]"),
+    __CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+"),
+    __CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(
+        r"^[ \t]+", MULTILINE
+    ),
+    __TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|"),
+    __TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|"),
+    __TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*"),
 ) -> str:
     def escape_markdown(text: str):
         return __MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
@@ -209,13 +216,22 @@ async def wiki_html_to_plaintext(
             return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
-    joiner = ""
-    prefix, suffix = "", ""
+    joiner, prefix, suffix = "", "", ""
     match ele.name:
-        # headers, should come before bold
-        case name if header_match := __HEADER_PATTERN.match(name):
+        # newlines
+        case "br":
+            process_strings = lambda strings: f"{strings}\n"
+        # headers; should come before bold
+        case name if header_match := __HEADER_REGEX.match(name):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
             process_strings = lambda strings: _fix_name_maybe(strings.strip())
+        # links: self-links; should come before bold
+        case _ if ele.name == "a" and "mw-selflink" in classes:
+            process_strings = lambda strings: strings.strip().replace("\n", " <br/> ")
+            prefix, suffix = (
+                "[",
+                f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
+            )
         # bold, italic, bold & italic
         case _ if (
             ele.name in {"b", "i", "strong"}
@@ -410,12 +426,33 @@ async def wiki_html_to_plaintext(
         case "td" | "th":
 
             def process_strings_tdh(strings: str):
-                return (
-                    strings.strip()
-                    .replace("\n\n", " <p> ")
-                    .replace("\n", " <br/> ")
-                    .strip()
+                strings = strings.strip()
+
+                strings = __CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
+                strings = __CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
+                    lambda match: match[0]
+                    .replace(" ", "&nbsp;")
+                    .replace("\t", "&emsp;"),
+                    strings,
                 )
+
+                # tables in tables
+                strings = strings.replace("| |", "|")  # empty cells
+                strings = __TABLE_IN_TABLE_HEADER_REGEX.sub(
+                    lambda match: f"|{match[1]} <p> ", strings
+                )
+                strings = strings.replace("|\n|", " <p> ")
+                strings = __TABLE_IN_TABLE_LEADING_VERTICAL_REGEX.sub(
+                    lambda match: match[0][: -len("|")], strings
+                )
+                strings = __TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
+                    lambda match: match[0][len("|") :], strings
+                )
+                strings = strings.replace("|", "&#124;")
+
+                strings = strings.strip()
+                strings = strings.replace("\n", " <br/> ")
+                return strings
 
             process_strings = process_strings_tdh
         # audios
@@ -572,7 +609,7 @@ async def wiki_html_to_plaintext(
             if process:
 
                 def process_strings_a(strings: str):
-                    return strings.strip()
+                    return strings.strip().replace("\n", " <br/> ")
 
                 process_strings = process_strings_a
         # unhandled tags
