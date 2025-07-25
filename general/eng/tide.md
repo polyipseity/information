@@ -9,7 +9,7 @@ tags:
 
 # tide
 
-__Tides__ are {@{the rise and fall of [sea levels](sea%20level.md)}@} caused by {@{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}@}.
+__Tides__ are {@{the rise and fall of [sea levels](sea%20level.md)}@} caused by {@{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md))}@} and are {@{also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}@}.
 
 ## tidal constituents
 
