@@ -30,7 +30,7 @@ Preprocessing {@{transforms source program (text) into modified source program (
 
 Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-12-02,310,303-->
 
-Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2025-10-25,324,343!2025-07-25,247,330!2028-05-22,1044,357-->
+Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2025-10-25,324,343!2028-08-21,1123,350!2028-05-22,1044,357-->
 
 Linking {@{transforms relocatable object (binary) into an ELF file (binary)}@}, which is the final product we want. GCC internally {@{uses the program `ld`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc <input>.o -o <output>`, which outputs the ELF file as `<output>`}@}. <!--SR:!2027-08-14,828,343!2026-02-18,421,365!2025-12-17,371,365-->
 
@@ -67,10 +67,10 @@ Below is a list of common instructions (in learning order):
 - `mov <dest>, <src>` ::@:: Copy a value at `<src>` to `<dest>`. <!--SR:!2026-01-30,405,365!2025-12-25,377,365-->
 - `add <dest> <src>` ::@:: Increment the value at `<dest>` by `<src>`. <!--SR:!2025-08-18,267,330!2025-08-12,264,343-->
 - `sub <dest> <src>` ::@:: Decrement the value at `<dest>` by `<src>`. <!--SR:!2026-01-15,393,365!2025-12-05,362,365-->
-- `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2025-07-24,233,337!2025-08-19,255,345-->
+- `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2028-07-10,1081,357!2025-08-19,255,345-->
 - `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-08-13,219,270!2025-10-31,330,357-->
 - `and <dest> <src>` ::@:: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2025-11-26,354,363!2025-09-14,291,343-->
-- `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2026-01-18,397,365!2025-07-24,246,330-->
+- `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2026-01-18,397,365!2028-08-17,1119,350-->
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2025-12-23,375,365!2026-01-08,387,363-->
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2025-11-23,348,357-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2025-08-26,278,357!2028-08-11,1115,350-->

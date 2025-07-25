@@ -127,7 +127,7 @@ More generally, one can {@{invert the [Bell polynomial](bell%20polynomials.md) g
 
 Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}^{n}\left[{n \atop k}\right]=n!$$}@} The identity {@{$$\sum _{p=k}^{n}{\left[{n \atop p}\right]{\binom {p}{k} } }=\left[{n+1 \atop k+1}\right]$$}@} can be proved by {@{the techniques on the page [Stirling numbers and exponential generating functions](Stirling%20numbers%20and%20exponential%20generating%20functions%20in%20symbolic%20combinatorics.md)}@}. <!--SR:!2026-11-16,516,311!2026-05-20,329,251!2025-08-13,222,331-->
 
-{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-07-24,191,319!2026-03-12,392,359-->
+{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2027-11-19,847,339!2026-03-12,392,359-->
 
 - reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$ <!--SR:!2025-10-08,78,199!2026-01-18,220,259-->
 - increment by combinatorial argument ::@:: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n} \frac {n!} {k!} \left[{k \atop m}\right]$$  (annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.) <!--SR:!2025-07-30,192,319!2026-05-28,386,299-->
@@ -179,7 +179,7 @@ Another exact nested sum expansion for these Stirling numbers is computed by {@{
 
 ### relations to natural logarithm function
 
-{@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2026-01-28,304,289!2026-03-22,342,291!2025-07-25,34,131!2026-12-21,535,309-->
+{@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2026-01-28,304,289!2026-03-22,342,291!2025-09-06,43,131!2026-12-21,535,309-->
 
 It can be proved by {@{using [mathematical induction](mathematical%20induction.md)}@}. <!--SR:!2025-12-10,322,351-->
 

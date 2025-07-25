@@ -52,5 +52,5 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-11-28,289,330
 You will present well if {@{you have a good attitude towards your presentation}@}. <!--SR:!2025-10-10,250,330-->
 
 - feeling ::@:: Try to feel like you were Obama presenting something. <!--SR:!2025-11-04,269,330!2025-09-20,233,330-->
-- belief ::@:: Authentically believe in what you are saying. <!--SR:!2025-12-03,293,330!2025-07-24,173,310-->
+- belief ::@:: Authentically believe in what you are saying. <!--SR:!2025-12-03,293,330!2027-08-05,741,330-->
 - objective ::@:: Intend to contribute, not to convince or impress. Focus out. Become congruent. <!--SR:!2025-11-29,289,330!2025-12-02,292,330-->

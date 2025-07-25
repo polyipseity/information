@@ -105,7 +105,7 @@ __Presheaves \(over a topological space\)__
 
 __Constant functor__ <p> ::@:: &emsp; The functor _C_ → _D_ which maps every object of _C_ to a fixed object _X_ in _D_ and every morphism in _C_ to the identity morphism on _X_. Such a functor is called a _constant_ or _selection_ functor. (annotation: note that functors are not required to be injective or surjective) <!--SR:!2026-03-28,350,357!2026-03-06,331,346-->
 
-__Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2025-08-20,162,310!2025-07-24,149,310-->
+__Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2025-08-20,162,310!2027-04-24,638,330-->
 
 __Identity functor__ <p> ::@:: &emsp; In category _C_, written 1<sub>_C_</sub> or id<sub>_C_</sub>, maps an object to itself and a morphism to itself. The identity functor is an endofunctor. <!--SR:!2026-01-22,294,330!2026-04-11,362,357-->
 

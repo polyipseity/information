@@ -15,7 +15,7 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2025-09-05,276,330!2028-05-25,1049,350!2025-10-11,305,330!2025-07-25,244,330-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2025-09-05,276,330!2028-05-25,1049,350!2025-10-11,305,330!2028-08-08,1110,350-->
 
 While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2026-09-02,540,310!2028-06-01,1056,350-->
 
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2028-03-31,1006,350!2025-10-05,299,330!2025-09-14,284,330!2026-12-22,638,330!2026-11-20,611,330!2027-05-27,755,330!2025-09-07,278,330!2025-07-24,241,330-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2028-03-31,1006,350!2025-10-05,299,330!2025-09-14,284,330!2026-12-22,638,330!2026-11-20,611,330!2027-05-27,755,330!2025-09-07,278,330!2028-07-26,1097,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2025-07-25,242,330!2028-07-17,1092,350-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2028-07-30,1101,350!2028-07-17,1092,350-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2028-07-28,1103,350-->
 
@@ -173,7 +173,7 @@ Thus {@{crediting a credit account or debiting a debit account}@} {@{increases i
 
 Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2025-07-30,246,330-->
 
-When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2025-07-24,243,330!2026-09-01,551,330!2028-06-23,1073,350!2025-08-01,250,330-->
+When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!2026-09-01,551,330!2028-06-23,1073,350!2025-08-01,250,330-->
 
 However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
 

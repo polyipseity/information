@@ -41,7 +41,7 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ Python basics](basics.md#Python%20basics)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
-    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::@:: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2025-07-24,250,338!2027-02-28,682,330-->
+    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::@:: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2028-09-30,1163,358!2027-02-28,682,330-->
   - [§ mathematics](basics.md#mathematics)
   - [§ string](basics.md#string)
     - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2028-04-03,1016,352!2026-12-08,628,330-->

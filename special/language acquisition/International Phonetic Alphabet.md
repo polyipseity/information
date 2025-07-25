@@ -535,7 +535,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md):@:\[ʎ\] <!--SR:!2026-02-26,239,275-->
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:\[ɥ\] <!--SR:!2025-09-04,59,234-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:\[z\] <!--SR:!2031-04-23,2099,395-->
-- [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:\[ʒ\] <!--SR:!2025-07-24,268,275-->
+- [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:\[ʒ\] <!--SR:!2028-05-23,1033,295-->
 - [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:\[ʑ\] <!--SR:!2025-08-03,37,309-->
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:\[ʐ\] <!--SR:!2026-11-24,510,330-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:\[θ\] <!--SR:!2029-04-18,1391,376-->
@@ -602,7 +602,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[k\]:@:[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2026-05-07,595,292-->
 - \[l\]:@:[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) <!--SR:!2027-01-15,659,231-->
 - \[ɫ\]:@:[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) <!--SR:!2028-03-24,974,271-->
-- \[ɬ\]:@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) <!--SR:!2025-07-24,390,331-->
+- \[ɬ\]:@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) <!--SR:!2029-02-05,1291,331-->
 - \[ɭ\]:@:[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) <!--SR:!2027-12-07,973,311-->
 - \[ɺ\]:@:[voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md) <!--SR:!2027-05-06,884,340-->
 - \[ɮ\]:@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) <!--SR:!2026-04-15,655,301-->
@@ -816,7 +816,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg):@:[voiced alveolar plosive](voiced%20alveolar%20plosive.md) <!--SR:!2025-12-12,263,171-->
 - ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg):@:[voiced alveolar implosive](voiced%20alveolar%20implosive.md) <!--SR:!2025-08-24,31,130-->
 - ![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.ogg):@:[voiced retroflex plosive](voiced%20retroflex%20plosive.md) <!--SR:!2025-09-07,73,133-->
-- ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg):@:[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!2025-07-25,21,250-->
+- ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg):@:[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!2025-09-14,51,250-->
 - ![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.ogg):@:[voiced alveolar affricate](voiced%20alveolar%20affricate.md) <!--SR:!2025-09-21,59,130-->
 - ![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg):@:[voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) <!--SR:!2025-09-27,92,130-->
 - ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg):@:[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!2025-07-30,6,210-->
@@ -843,7 +843,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg):@:[voiced palatal fricative](voiced%20palatal%20fricative.md)
 - ![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg):@:[voiced palatal plosive](voiced%20palatal%20plosive.md) <!--SR:!2025-11-08,247,234-->
 - ![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg):@:[voiced palatal implosive](voiced%20palatal%20implosive.md)
-- ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg):@:[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2025-07-25,78,230-->
+- ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg):@:[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2026-01-22,181,230-->
 - ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg):@:[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) <!--SR:!2025-10-10,105,230-->
 - ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg):@:[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md)
 - ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg):@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md)
@@ -1029,7 +1029,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2026-03-17,285,190-->
 - [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!2026-04-19,346,210-->
 - [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!2025-08-07,14,130-->
-- [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!2025-07-24,11,130-->
+- [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!2025-08-09,15,130-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:[English](English%20language.md) _**th**in_ \[θɪn\] <!--SR:!2025-08-27,359,250-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay" <!--SR:!2025-07-30,28,170-->
 - [glottal stop](glottal%20stop.md):@:[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\] <!--SR:!2026-11-25,538,230-->

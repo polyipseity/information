@@ -297,7 +297,7 @@ The content is in teaching order.
       - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2025-08-15,204,351!2025-11-09,277,366-->
         - change in demand / factors / consumer preferences ::@:: What consumers prefer. For example, fashion may affect it. <!--SR:!2026-02-10,348,371!2026-05-22,454,391-->
         - change in demand / factors / income ::@:: What consumers buy responds to their incomes. Examples include normal goods, inferior goods, etc. <!--SR:!2026-08-21,530,402!2026-08-17,527,402-->
-- types of goods ::@:: ordinary goods ← normal goods (luxury/superior goods, necessity goods), Giffen goods → inferior goods <!--SR:!2025-07-24,188,331!2026-04-04,390,379-->
+- types of goods ::@:: ordinary goods ← normal goods (luxury/superior goods, necessity goods), Giffen goods → inferior goods <!--SR:!2027-12-02,860,351!2026-04-04,390,379-->
   - [normal good](../../../../general/normal%20good.md) ::@:: It is a type of a goods which experiences an increase in demand due to an increase in income. For you, they are goods that you want more as you have more money. <!--SR:!2026-08-23,532,402!2025-09-15,230,351-->
   - [inferior good](../../../../general/inferior%20good.md) ::@:: It is goods the demand for which falls with increase in income of the consumer. For you, they are not-as-good goods that you will substitute with better goods once you have enough money. <!--SR:!2026-09-07,544,406!2026-09-01,540,402-->
 - related goods ::@:: complementary goods, substitute goods, independent goods <!--SR:!2026-03-13,373,382!2026-05-18,450,391-->

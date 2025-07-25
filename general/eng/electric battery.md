@@ -281,7 +281,7 @@ return chain.from_iterable(await gather(
 
 ## hazards
 
-Many batteries contain {@{[toxic](toxicity.md) materials such as [cadmium](cadmium.md), [lead](lead.md), and [mercury](mercury.md)}@}, so {@{proper disposal is needed to prevent contamination of the environment}@}. {@{[Recycling batteries](battery%20recycling.md) and using [secondary batteries](rechargeable%20battery.md)}@} can reduce waste as well. <!--SR:!2026-10-05,777,250!2025-07-24,620,310!2026-07-22,867,330-->
+Many batteries contain {@{[toxic](toxicity.md) materials such as [cadmium](cadmium.md), [lead](lead.md), and [mercury](mercury.md)}@}, so {@{proper disposal is needed to prevent contamination of the environment}@}. {@{[Recycling batteries](battery%20recycling.md) and using [secondary batteries](rechargeable%20battery.md)}@} can reduce waste as well. <!--SR:!2026-10-05,777,250!2032-11-05,2660,330!2026-07-22,867,330-->
 
 ## references
 

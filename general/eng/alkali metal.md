@@ -15,7 +15,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-The __alkali metals__ {@{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}@}. With {@{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}@}. The alkali metals are {@{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}@}. Because of their high reactivity, they {@{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}@}. <!--SR:!2026-11-13,526,250!2026-12-31,1068,350!2025-07-24,441,230!2029-11-15,1653,270-->
+The __alkali metals__ {@{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}@}. With {@{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}@}. The alkali metals are {@{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}@}. Because of their high reactivity, they {@{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}@}. <!--SR:!2026-11-13,526,250!2026-12-31,1068,350!2029-06-27,1433,250!2029-11-15,1653,270-->
 
 ## representative reactions
 

@@ -62,7 +62,7 @@ The content is in teaching order.
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
   - market size acronyms and names ::@:: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2028-07-20,1177,355!2029-10-17,1570,375-->
-  - market size importance ::@:: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2028-08-05,1186,355!2025-07-24,344,355-->
+  - market size importance ::@:: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2028-08-05,1186,355!2030-02-26,1677,375-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
     - [§ importance](../../../../general/total%20addressable%20market.md#importance)
@@ -193,7 +193,7 @@ The content is in teaching order.
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
 - Chernev's 5C framework ::@:: market & business analysis <!--SR:!2025-12-29,455,381!2028-05-02,1098,361-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
-  - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2029-08-21,1496,381-->
+  - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2029-10-02,1530,381!2029-08-21,1496,381-->
   - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2026-02-02,482,381-->
   - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2025-08-15,326,361-->
 - McCarthy's 4P framework ::@:: market-related analysis <!--SR:!2026-01-02,459,381!2026-01-03,460,381-->
@@ -208,7 +208,7 @@ The content is in teaching order.
 ## week 11 lecture
 
 - datetime: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
-- critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2025-07-24,308,361-->
+- critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2027-09-19,925,361!2029-09-24,1522,381-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::@:: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2029-02-11,1358,381!2025-11-16,419,381-->
   - use of framework takeaways ::@:: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2028-02-18,1044,361!2026-01-14,470,381-->

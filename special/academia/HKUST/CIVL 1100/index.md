@@ -57,7 +57,7 @@ The content is in teaching order.
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2027-11-12,975,341!2029-06-07,1445,361-->
-    - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2029-01-22,1330,370-->
+    - "strong" object examples ::@:: table leg <!--SR:!2029-12-27,1616,370!2029-01-22,1330,370-->
     - "weak" object examples ::@:: mattress <!--SR:!2029-07-19,1487,370!2028-03-12,1059,341-->
   - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2027-11-22,992,350-->
     - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2029-12-10,1601,370-->
