@@ -1,13 +1,23 @@
 ---
 aliases:
-  - cost principle
-  - cost principles
+  - ARR
+  - ARRs
+  - accounting rate of return
+  - accounting rate of returns
+  - accounting rates of return
+  - accounting rates of returns
+  - average rate of return
+  - average rate of returns
+  - average rates of return
+  - average rates of returns
 tags:
-  - flashcard/active/general/eng/cost_principle
+  - flashcard/active/general/eng/accounting_rate_of_return
   - language/in/English
 ---
 
-# cost principle
+# accounting rate of return
+
+- This article is about {@{a capital budgeting concept}@}. For other uses, see [ARR](ARR%20(disambiguation).md).
 
 | Part of [a series](https://en.wikipedia.org/wiki/Category:Accounting) on <br/> __[Accounting](accounting.md)__                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,18 +36,47 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-In {@{[accounting](accounting.md)}@}, {@{the __cost principle__}@} is {@{part of the [generally accepted accounting principles](generally%20accepted%20accounting%20principles.md)}@}. Assets should {@{always be recorded at their cost, when the asset is new and also for the life of the asset}@}. For instance, {@{land purchased for \$30,000}@} is {@{appraised at the much higher value because the housing market has risen}@}, but {@{the reported value of the land will remain \$30,000}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup>
+{@{The __accounting rate of return__}@}, also known as {@{__average rate of return__, or __ARR__}@}, is {@{a [financial ratio](financial%20ratio.md) used in [capital budgeting](capital%20budgeting.md)}@}.<sup>[\[1\]](#^ref-1)</sup> The ratio does not {@{take into account the concept of [time value of money](time%20value%20of%20money.md)}@}. ARR calculates {@{the [return](rate%20of%20return.md)}@}, generated from {@{[net income](net%20income.md) of the proposed capital [investment](investment.md)}@}. The ARR is {@{a percentage return}@}. Say, if {@{ARR = 7%}@}, then it means that the project is {@{expected to earn seven cents out of each dollar invested \(yearly\)}@}. If {@{the ARR is equal to or greater than the required rate of return}@}, {@{the project is acceptable}@}. If {@{it is less than the desired rate}@}, {@{it should be rejected}@}. When {@{comparing investments}@}, {@{the higher the ARR}@}, {@{the more attractive the investment}@}. {@{More than half of large firms}@} {@{calculate ARR when appraising projects}@}.<sup>[\[2\]](#^ref-2)</sup>
+
+{@{The key advantage of ARR}@} is that it is {@{easy to compute and understand}@}. {@{The main disadvantage of ARR}@} is that it {@{disregards the time factor}@} in terms of {@{[time value of money](time%20value%20of%20money.md) or [risks](risk%20management.md) for long term investments}@}. The ARR is built on {@{evaluation of profits}@}, and it can be {@{easily manipulated with changes in [depreciation](depreciation%20(economics).md) methods}@}. The ARR can give {@{misleading information}@} when {@{evaluating investments of different size}@}.<sup>[\[3\]](#^ref-3)</sup>
+
+## basic formulas
+
+\(annotation: accounting rate of return\) ::@:: $${\text{ARR} }={\frac {\text{Average return during period} }{\text{Average investment} } }$$ \(annotation: Some use initial investment as the denominator instead.\)
+
+where:
+
+- \(annotation: average investment\) ::@:: $${\text{Average investment} }={\frac {\text{Book value at beginning of year 1 + Book value at end of useful life} }{\text{2} } }$$
+- \(annotation: average return during period\) ::@:: $${\text{Average return during period} }={ {\text{Incremental revenue} }-{\text{ Incremental expenses (including depreciation)} } \over {\text{Number of Years} } }$$
+- \(annotation: average profit; this seems to be unused by the above formulas\) ::@:: $${\text{Average profit} }={ {\text{Profit after tax} } \over {\text{Life of investment} } }$$
+
+## pitfalls
+
+<!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Accounting%20rate%20of%20return) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden_of_evidence). _\(May 2020\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
+
+1. This technique is based on {@{profits rather than [cash flow](cash%20flow.md)}@}. It {@{ignores cash flow from investment}@}. Therefore, it can be {@{affected by non-cash items}@} such as {@{[bad debts](bad%20debt.md) and [depreciation](depreciation.md) when calculating profits}@}. {@{The change of methods for depreciation}@} can be {@{manipulated and lead to higher profits}@}.
+2. This technique does not {@{adjust for the risk}@} to {@{long term [forecasts](forecasting.md)}@}.
+3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}.
+
+## see also
+
+- [Average accounting return](average%20accounting%20return.md)
 
 ## references
 
-This text incorporates [content](https://en.wikipedia.org/wiki/cost_principle) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This text incorporates [content](https://en.wikipedia.org/wiki/accounting_rate_of_return) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. <a id="CITEREFKimmelWeygandtKieso2011"></a> Kimmel, Paul D.; Weygandt, Jerry J.; Kieso, Donald E. \(2011\). _Financial Accounting_ \(6th ed.\). [Wiley](John%20Wiley%20&%20Sons.md). [ISBN](ISBN%20(identifier).md) [978-0-470-53477-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-470-53477-9). <a id="^ref-1"></a>^ref-1
-2. ["cost principle"](http://www.accountingcoach.com/terms/C/cost-principle.html). AccountingCoach.com. Retrieved 28 September 2012. <a id="^ref-2"></a>^ref-2
-3. ["Advice and Guidance on Accounting"](https://www.e-sandhurst.com/). e-sandhurst.com. Retrieved 14 May 2014. <a id="^ref-3"></a>^ref-3
+1. [Accounting Rate of Return - ARR](http://www.answers.com/topic/accounting-rate-of-return-arr) <a id="^ref-1"></a>^ref-1
+2. Arnold, G. \(2007\). Essentials of corporate financial management. London: Pearson Education, Ltd. <a id="^ref-2"></a>^ref-2
+3. ["How to Calculate Accounting Rate of Return \| Tiduko.com \| Never Stop Learning"](http://tiduko.com/how-to-calculate-accounting-rate-of-return.html). _tiduko.com_. Retrieved 2017-04-25. <a id="^ref-3"></a>^ref-3
+
+|                                                                             |                                                                                                                                                                                                                          |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Stub icon](../../archives/Wikimedia%20Commons/Accountancy%20template.svg) | _This accounting-related article is a [stub](https://en.wikipedia.org/wiki/Wikipedia:Stub). You can help Wikipedia by [expanding it](https://en.wikipedia.org/w/index.php?title=Accounting_rate_of_return&action=edit)._ |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):
 >
-> - [Accounting terminology](https://en.wikipedia.org/wiki/Category:Accounting%20terminology)
-> - [United States Generally Accepted Accounting Principles](https://en.wikipedia.org/wiki/Category:United%20States%20Generally%20Accepted%20Accounting%20Principles)
-> - [Costs](https://en.wikipedia.org/wiki/Category:Costs)
+> - [Financial ratios](https://en.wikipedia.org/wiki/Category:Financial%20ratios)
+> - [Capital budgeting](https://en.wikipedia.org/wiki/Category:Capital%20budgeting)
+> - [Corporate development](https://en.wikipedia.org/wiki/Category:Corporate%20development)
+> - [Accounting stubs](https://en.wikipedia.org/wiki/Category:Accounting%20stubs)
