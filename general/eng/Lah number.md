@@ -63,9 +63,9 @@ The Lah numbers {@{satisfy a variety of identities and relations}@}.
 
 In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}.
 
-- alternative ways to write the formula ::@::  $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$
+- alternative ways to write the formula ::@:: $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$
 - formula with square ::@:: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$
-- recurrence formula derivation ::@:: $$k(k+1)L(n,k+1)=(n-k)L(n,k)$$, for $k>0$.
+- recurrence formula derivation ::@:: $$k(k+1)L(n,k+1)=(n-k)L(n,k) \,,$$ for $k>0$.
 
 ### recurrence relations
 
