@@ -6,6 +6,7 @@ aliases:
   - Korea University ISC213 questions
 tags:
   - flashcard/active/special/academia/Korea_University/ISC213/questions
+  - function/index
   - language/in/English
 ---
 
