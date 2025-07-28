@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="15 40 800 320">
+ <title>cross product mnemonic</title>
+ <desc>Mnemonic to calculate a cross product in vector form by CMG Lee.</desc>
+ <defs>
+  <path id="bracket" d="M -21,-150 h -20 V 150 h 20" fill="none" stroke="#000000" stroke-width="2"/>
+  <g id="brackets">
+   <use xlink:href="#bracket"/>
+   <use xlink:href="#bracket" transform="scale(-1)"/>
+  </g>
+  <g id="overlay" fill="none" stroke-opacity="0.25">
+   <path d="M 100,-100 L 10,-10 M -10,10 C -250,300 -250,-300 0,0 L 100,100 m 0,-40 v 40 h -40"/>
+   <path d="M -130,-70 l 40,40 m 0,-40 l -40,40 M -130,30 l 40,40 m 0,-40 l -40,40 M -360,0 h 40" transform="scale(0.5)"/>
+  </g>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="72" text-anchor="middle" fill="#000000" stroke-width="16">
+  <text transform="translate(100,100)" y="0.4ex"><tspan>b</tspan><tspan dy="0.5ex">x</tspan></text>
+  <text transform="translate(100,200)" y="0.4ex"><tspan>b</tspan><tspan dy="0.5ex">y</tspan></text>
+  <text transform="translate(100,300)" y="0.4ex"><tspan>b</tspan><tspan dy="0.5ex">z</tspan></text>
+  <use  transform="translate(100,200)" xlink:href="#brackets"/>
+  <use  transform="translate(300,200)" xlink:href="#brackets"/>
+  <text transform="translate(200,200)" y="0.6ex"><tspan>&#215;</tspan></text>
+  <text transform="translate(300,100)" y="0.4ex"><tspan>c</tspan><tspan dy="0.5ex">x</tspan></text>
+  <text transform="translate(300,200)" y="0.4ex"><tspan>c</tspan><tspan dy="0.5ex">y</tspan></text>
+  <text transform="translate(300,300)" y="0.4ex"><tspan>c</tspan><tspan dy="0.5ex">z</tspan></text>
+  <use  transform="translate(460,200)" xlink:href="#bracket"/>
+  <use  transform="translate(760,200) scale(-1)" xlink:href="#bracket"/>
+  <text transform="translate(380,200)" y="0.6ex"><tspan>=</tspan></text>
+  <text transform="translate(610,100)" y="0.4ex" fill="#0000ff"><tspan>b</tspan><tspan dy="0.5ex">y</tspan><tspan dy="-0.5ex">c</tspan><tspan dy="0.5ex">z</tspan
+   ><tspan dy="-0.5ex">&#8201;&#8722;&#8201;c</tspan><tspan dy="0.5ex">y</tspan><tspan dy="-0.5ex">b</tspan><tspan dy="0.5ex">z</tspan></text>
+  <text transform="translate(610,200)" y="0.4ex" fill="#cc00ff"><tspan>c</tspan><tspan dy="0.5ex">x</tspan><tspan dy="-0.5ex">b</tspan><tspan dy="0.5ex">z</tspan
+   ><tspan dy="-0.5ex">&#8201;&#8722;&#8201;b</tspan><tspan dy="0.5ex">x</tspan><tspan dy="-0.5ex">c</tspan><tspan dy="0.5ex">z</tspan></text>
+  <text transform="translate(610,300)" y="0.4ex" fill="#ff0000"><tspan>b</tspan><tspan dy="0.5ex">x</tspan><tspan dy="-0.5ex">c</tspan><tspan dy="0.5ex">y</tspan
+   ><tspan dy="-0.5ex">&#8201;&#8722;&#8201;c</tspan><tspan dy="0.5ex">x</tspan><tspan dy="-0.5ex">b</tspan><tspan dy="0.5ex">y</tspan></text>
+  <use transform="translate(215,200) scale( 1.0,0.8)" xlink:href="#overlay" stroke="#cc00ff" stroke-width="12"/>
+  <use transform="translate(168,120) scale(-0.5,0.5)" xlink:href="#overlay" stroke="#ff0000"/>
+  <use transform="translate(168,277) scale(-0.5,0.5)" xlink:href="#overlay" stroke="#0000ff"/>
+ </g>
+</svg>
