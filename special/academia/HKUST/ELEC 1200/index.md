@@ -66,7 +66,7 @@ The content is in teaching order.
   - ELEC 1200 / cutting-edge technologies ::@:: 6G, artificial intelligence, big data, internet of things, etc.
 - bit
   - bit / sequence
-    - bit / sequence / code word ::@:: A single bit can only represent variables with two possible values. A combination of _n_ bits, called a _code word_, can represent variables up to 2<sup>_n_</sp> possible values.
+    - bit / sequence / codeword ::@:: A single bit can only represent variables with two possible values. A combination of _n_ bits, called a _codeword_, can represent variables up to 2<sup>_n_</sp> possible values.
 - [binary number](../../../../general/binary%20number.md) ::@:: a method for representing numbers that uses only two symbols for the natural numbers: typically "0" \(zero\) and "1" \(one\)
   - binary number / to decimal number ::@:: $$x = \sum_{k = 0}^{N - 1} 2^k \cdot b_k \,,$$ where $b_{N - 1} b_{N - 2} \cdots b_1 b_0$ is the bit sequence.
   - binary number / most significant bit \(MSB\) ::@:: The bit that represents $2^{N - 1}$. It may be the first bit \(big endian; usually the case when written\), and sometimes it is reversed \(little endian\).
@@ -76,7 +76,7 @@ The content is in teaching order.
 - bit
   - bit / sequence
     - bit / sequence / endianness ::@:: As mentioned above, a binary number can be represented by a sequence of bits. _Big endian_ means the MSB is transmitted first. _Little endian_ means the LSB is transmitted first.
-    - bit / sequence / code words ::@:: To represent a sequence of code word, often the bits for each code word is transmitted contagiously and sequentially in the same order as the original sequence of code word. \(The ordering of code word is independent from bit endianness.\)
+    - bit / sequence / codewords ::@:: To represent a sequence of codeword, often the bits for each codeword is transmitted contagiously and sequentially in the same order as the original sequence of codeword. \(The ordering of codeword is independent from bit endianness.\)
 - communications system
   - communications system / transmitter
   - communications system / channel
@@ -271,25 +271,6 @@ The content is in teaching order.
 - equalization
   - equalization / exponential step response
     - equalization / exponential step response / robustness ::@:: We see even if the equalization _a_ is not the same as the channel _a_, equalization still works, just not as optimal. This shows equalization is _robust_.
-
-## week 2 tutorial
-
-- datetime: 2025-07-22T11:00:00+08:00/2025-07-22T12:20:00+08:00, PT1H20M
-- topic:
-
-## week 2 lab
-
-- datetime: 2025-07-22T14:00:00+08:00/2025-07-22T16:50:00+08:00, PT2H50M
-- topic: communication protocol, bit error rate \(BER\)
-- status: attendance
-- assignment: [lab 3](assignments/lab%203/index.md)
-- questions: [post lab quiz 3 derivative](questions/post%20lab%20quiz%203%20derivative.md)
-
-## week 2 lecture 2
-
-- datetime: 2025-07-23T14:00:00+08:00/2025-07-23T15:50:00+08:00, PT1H50M
-- topic: noise; error correcting codes
-- assignment: [homework 1](assignments/homework%201/index.md)
 - communication channel
   - communication channel / noise
 - [noise](../../../../general/noise%20(signal%20processing).md) ::@:: It is a general term for unwanted (and, in general, unknown) modifications that a signal may suffer during capture, storage, transmission, processing, or conversion.
@@ -308,7 +289,7 @@ The content is in teaching order.
     - bit error rate / simple model ::@:: The model simplifies the transmitter and receiver model even further. Now we only consider the input bits at the transmitter and the output bits at the receiver, and everything else in between is a black box called the _binary channel_.
       - bit error rate / simple model / assumptions ::@:: The simple model assumes additive white Gaussian noise \(AWGN\), no ISI, perfect synchronization \(i.e. the start bit cannot be read wrongly\), single sample sub-sampling \(one sample to decode one bit\). <p> The AWGN requirement can be relaxed easily. Others are harder. <p> The assumptions are important so that each bit only considers one sample and its error probability are independent of other bits \(no ISI\).
       - bit error rate / simple model / binary channel ::@:: Ideally, the input bit always equal the output bit. Whenever they are not equal, a _bit error_ occurs.
-      - bit error rate / simple model / analysis ::@:: The BER is: $$\begin{aligned} \text{BER} & = P(I = 0) P(O = 1 \mid I = 0) + P(I = 1) P(O = 0 \mid I = 1) \\ & = P(I = 0, O = 1) + P(I = 1, O = 0) \,, \end{aligned}$$ where $P(I = x)$ is the probability of the input bit being $x$, $P(I = x, O = y)$ is the probability of the input bit being $x$ and the output bit being $y$, and $P(O = y \mid I = x)$ is the _conditional_ probability of the output bit being $y$ given the input bit is $x$. <p> Since the bit is either 0 or 1, $P(I = 1)$ can be replaced with $1 - P(I = 0)$, and vice versa. $P(O = 1 \mid I = x)$ can be replaced with $1 - P(O = 0 \mid I = x)$ for fixed $x$, and vice versa.
+      - bit error rate / simple model / probability ::@:: The BER is: $$\begin{aligned} \text{BER} & = P(I = 0) P(O = 1 \mid I = 0) + P(I = 1) P(O = 0 \mid I = 1) \\ & = P(I = 0, O = 1) + P(I = 1, O = 0) \,, \end{aligned}$$ where $P(I = x)$ is the probability of the input bit being $x$, $P(I = x, O = y)$ is the probability of the input bit being $x$ and the output bit being $y$, and $P(O = y \mid I = x)$ is the _conditional_ probability of the output bit being $y$ given the input bit is $x$. <p> Since the bit is either 0 or 1, $P(I = 1)$ can be replaced with $1 - P(I = 0)$, and vice versa. $P(O = 1 \mid I = x)$ can be replaced with $1 - P(O = 0 \mid I = x)$ for fixed $x$, and vice versa.
       - bit error rate / simple model / this course ::@:: \(__this course__: We use simpler notations: $$\text{BER} = P_e = P[\text{IN} = 0] \cdot P_{e0} + P[\text{IN} = 1] \cdot P_{e1} \,,$$ where the meanings can be inferred from above.\)
       - bit error rate / simple model / error types ::@:: We see there are two types of errors: input bit is 0 but output bit is 1; and input bit is 1 but input bit is 0.
   - bit error rate / computation ::@:: We can compute the BER theoretically or empirically. <p> To calculate the BER empirically, simply observe a channel for some time, find the number of errors, and either divide by time for the rate or number of transmitted bits for the ratio. \(__this course__: __Important__. Remember "bit error rate" in this course is actually the _bit error ratio_.\)
@@ -324,8 +305,65 @@ The content is in teaching order.
   - normal distribution / mean ::@:: Its average value over many samples. It is the central location of its PDF. <p> Changing it simply shifts the PDF.
   - normal distribution / standard deviation ::@:: A measure of how "spread out" the samples are. It measures how wide the PDF is. <p> It is the square root of variance. <p> Increasing it widens the PDF, and also flattens it so that the area under the PDF remains 1.
   - normal distribution / variance ::@:: Also a measure of how "spread out" the samples are. It also measures how wide the PDF is. <p> It is the square of standard deviation. <p> In signal processing, assuming mean of the noise is 0, it is also average power of the noise. <p> Increasing it widens the PDF, and also flattens it so that the area under the PDF remains 1.
+
+## week 2 tutorial
+
+- datetime: 2025-07-22T11:00:00+08:00/2025-07-22T12:20:00+08:00, PT1H20M
+- topic:
+
+## week 2 lab
+
+- datetime: 2025-07-22T14:00:00+08:00/2025-07-22T16:50:00+08:00, PT2H50M
+- topic: communication protocol, bit error rate \(BER\)
+- status: attendance
+- assignment: [lab 3](assignments/lab%203/index.md)
+- questions: [post lab quiz 3 derivative](questions/post%20lab%20quiz%203%20derivative.md)
+
+## week 2 lecture 2
+
+- datetime: 2025-07-23T14:00:00+08:00/2025-07-23T15:50:00+08:00, PT1H50M
+- topic: noise; error correcting codes
+- normal distribution
+- [Q-function](../../../../general/Q-function.md) ::@:: It is the tail distribution function of the standard normal distribution. In other words, $Q(x)$ is the probability that a normal \(Gaussian\) random variable will obtain a value larger than $x$ standard deviations. Equivalently, $Q(x)$ is the probability that a standard normal random variable takes a value larger than $x$.
+  - Q-function / probability ::@:: $$Q(x) := P[X > x] \implies P[X \le x] = 1 - Q(x) \,,$$ where $X$ follows a standard normal distribution, i.e. with mean 0 and standard deviation 1. <p> For a normal distribution $Y$ with mean $\mu_Y$ and standard deviation $\sigma_Y$ \(variance $\sigma_Y^2$\), we compute $$P[Y > y] = Q\left(\frac {y - \mu_Y} {\sigma_Y} \right) \implies P[Y \le y] = 1 - Q\left(\frac {y - \mu_Y} {\sigma_Y} \right) \,.$$
+  - Q-function / computation ::@:: There is no closed-form expression for it. A table of values or computers must be used. <p> In MATLAB, use the `qfunc(x)` function.
+- bit error rate
+  - bit error rate / simple model
+    - bit error rate / simple model / error probabilities ::@:: The input probabilities are easy to find. The conditional error probabilities are slightly harder to find. Further assume bit 0 sends $r_{\text{min} }$ and bit 1 sends $r_{\text{max} }$ \(offset $r_{\text{min} }$ and scale $r_{\text{max} } - r_{\text{min} }$\). <p> Then, given the additive noise PDF $X$, the PDF for sending bit 0 is simply to offset the PDF by $r_{\text{min} }$, i.e. $r_{\text{min} } + X$. The conditional error rate $P_{e0}$ is the area of the PDF that crosses into the wrong side of the threshold. The same goes for sending bit 1 $P_{e1}$.
+    - bit error rate / simple model / threshold ::@:: We see by increasing the threshold, the conditional error rate decreases for sending bit 0 but increases for sending bit 1, and vice versa. So there is a tradeoff. <p> There is a point in between \(not necessarily in the middle\) that minimizes the bit error rate, with BER increasing as we move away from it. This point can be found using the first derivative test.
+    - bit error rate / simple model / special case ::@:: IF the input bits are equally likely, and the additive noise follows a normal distribution, then the optimal threshold is in the middle: $$T^* = \frac {r_{\text{min} } + r_{\text{max} } } 2 \,,$$ and its optimal BER is $$\text{BER}^* = Q\left(\frac {r_{\text{max} } - r_{\text{min} } } {2 \sigma} \right) \,.$$ <p> We see a larger signal difference means less BER. However, this means a higher transmission power is needed.
+- power
+  - power / signal ::@:: The power of a signal is its amplitude squared. If the signal takes on value $r$ with probability $p$, we can weight the amplitude squared: $$\text{power} = \sum_k p_k r_k^2 \,.$$ <p> For a quiet output signal with both bits equally likely, we have: $$\begin{aligned} \text{power} & = \frac 1 2 r_{\text{min} }^2 + \frac 1 2 r_{\text{max} }^2 \\ & = \left(\frac 1 4 r_{\text{min} }^2 + \frac 1 2 r_{\text{min} } r_{\text{max} } + \frac 1 4 r_{\text{max} }^2 \right) + \left(\frac 1 4 r_{\text{min} }^2 - \frac 1 2 r_{\text{min} } r_{\text{max} } + \frac 1 4 r_{\text{max} }^2 \right) \\ & = \left(\frac {r_{\text{min} } + r_{\text{max} } } 2 \right)^2 + \left(\frac {r_{\text{min} } - r_{\text{max} } } 2 \right)^2 \,, \end{aligned}$$ the last expression of which is _bias—variance decomposition_, because the first term is squared bias while the latter is variance \(squared standard deviation\).
+    - power / signal / rigorous ::@:: \(__this course__: untaught\) We can use the expected value to rigorously express the power of a signal: $$\text{power} = \operatorname E\left[X^2 \right] \,,$$ where $X$ is the signal modeled as a random signal. The _bias—variance decomposition_ is simply the following well-known identity: $$\operatorname E\left[X^2\right] = \operatorname E[X]^2 + \operatorname E\left[(X - \mu_X)^2 \right] = \operatorname E[X]^2 + \operatorname{Var}(X) = \mu_X^2 + \sigma_X^2 \,.$$ <p> This also explains why the power of an unbiased \(mean 0\) noise signal is simply its variance.
+- [signal-to-noise ratio](../../../../general/signal-to-noise%20ratio.md) \(SNR, S/N\) ::@:: It is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. SNR is defined as the ratio of signal power to noise power, often expressed in decibels.
+  - signal-to-noise ratio / formula ::@:: $$\text{SNR} = \frac {\text{signal (without noise) power} } {\text{noise power} } \,.$$ However, it is often expressed in decibels \(dB\) instead: $$\text{SNR}_{\text{dB} } = 10 \log_10 \text{SNR} \,.$$ 0 dB means same the signal has the same power as noise. Every 10&nbsp;dB increase in SNR multiplies the signal power by 10, so that 10&nbsp;dB means 10 times, 20&nbsp;dB means 100 times, 30&nbsp;dB means 1000 times, etc.
+  - signal-to-noise ratio / factors ::@:: Mostly due to transmission distance. As transmission distance increases, the signal power at the receiver decreases and the noise power remains mostly constant. <p> Other factors include electronics quality, bit \(symbol\) rate, etc.
+  - signal-to-noise ratio / typical values ::@:: A typical receiver requires a SNR of at least around 10&nbsp;dB to function. For a mobile phone, the minimum signal level is around 10<sup>−14</sup>&nbsp;W because the typical noise power is around 10<sup>−15</sup>&nbsp;W, which does not sound like a lot.
+  - signal-to-noise ratio / bit error rate ::@:: For typical modulation schemes, increase in SNR decreases BER.
 - [error correction code](../../../../general/error%20correction%20code.md) \(ECC\) ::@:: The sender encodes the message in a redundant way, most often by using \(_this_\). <p> It is used as part a technique called _channel coding_ used for controlling errors in data transmission over unreliable or noisy communication channels.
   - error correction code / motivation ::@:: Our protocol, including equalization, allows us to receive transmitted bits correctly for small errors. <p> But for large errors, we still receive the bits incorrectly, and we may not even know the bits are wrong! ECC can help detect errors \(e.g. error bursts of bounded length\) and possibly recover the data \(or if unrecoverable, tell the transmitter to retransmit the data\).
+- [noisy-channel coding theorem](../../../../general/noisy-channel%20coding%20theorem.md) ::@:: It establishes that for any given degree of noise contamination of a communication channel, it is possible \(in theory\) to communicate discrete data \(digital information\) nearly error-free up to a computable maximum rate through the channel.
+  - noisy-channel coding theorem / details ::@:: A noisy channel has a channel capacity _C_ determined by its noise \(which is determined by physical properties of the channel\). It is the _theoretical_ maximum rate in which useful information can be transmitted _almost_ error-free. Exceeding this channel capacity _R_ &gt; _C_, there is a minimum error rate that increases as _R_ increases further away from _C_. <p> However, the above does not tell us how to construct a code to achieve almost-error-free transmission.
+  - noisy-channel coding theorem / history ::@:: This result was presented by Claude Shannon in 1948 and was based in part on earlier work and ideas of Harry Nyquist and Ralph Hartley.
+- [block code](../../../../general/block%20code.md) ::@:: They are a large and important family of error-correcting codes that encode data in blocks. <p> It can also refer to any error-correcting code that acts on a block of $k$ bits of input data to produce $n$ bits of output data $(n,k)$. Consequently, the block coder is a _memoryless_ device.
+  - block code / codeword ::@:: Previously, we have only considered codeword that simply contains the data bits. <p> Now using block code $(n, k)$, the codeword consists of $k$ _message bits_ and $n - k$ _extra bits_, so that each codeword is $n$ bits. The extra bits are derived deterministically from the message bits, so there is only 1 valid combination of extra bits for each combination of message bits. So such a codeword only has $2^k$ valid combinations, and all other combinations indicate a possible transmission error.
+  - block code / code rate ::@:: It is simply the fraction of message bits per codeword: _k_/_n_. <p> The _gross bit rate_ is simply the number of bits sent per unit time, ignoring if the bits are useful or not. The _net bit rate_ is the number of _useful_ bits sent per unit time, which is obtained by multiplying the gross bit rate by the code rate.
+- [parity bit](../../../../general/parity%20bit.md) ::@:: It is a bit added to a string of binary code. Parity bits are a simple form of error detecting code.
+  - parity bit / details ::@:: We count the number of 1s in the message bits. The parity bit is derived based on the evenness or oddness of the number of 1s. This bit is then simply appended to the message to form a code word. <p> This is an example of a $(k + 1, k)$ block code for _k_ message bits.
+  - parity bit / even parity bit ::@:: The parity bit is 0 if the number of 1s is even, otherwise 1. Equivalently, the number of 1s in a valid codeword \(including the parity bit\) is even. \(__this course__: __Important__. We use this unless otherwise specified.\)
+  - parity bit / odd parity bit ::@:: The parity bit is 0 if the number of 1s is odd, otherwise 1. Equivalently, the number of 1s in a valid codeword \(including the parity bit\) is odd. \(__this course__: __Important__. We do _not_ use this unless otherwise specified.\)
+  - parity bit / use ::@:: For each code word, it can detect one-bit errors. However, it cannot correct the one-bit errors.
+- block code
+  - block code / spaces ::@:: A space can be represented by a graph: a vertex for each combination of bits, and an edge between every two combination of bits that differ by exactly 1 bit. <p> We can consider the message space and codeword space. The former constructs the space based on the message bits only, while the latter constructs the space based on the entire codeword. As a result, the former contains only valid codewords, while the latter contains both valid and invalid codewords.
+    - block code / spaces / intuition ::@:: For an analog signal, increasing SNR decreases BER. This is done by increasing the _distance_ between 0 and 1. <p> A similar idea is applied for block codes. We can _detect_ errors by adding extra bits to increase the distance between valid codewords in the codeword space. Sometimes, we can even _correct_ errors.
+- [Hamming distance](../../../../general/Hamming%20distance.md) ::@:: It between two strings or vectors of equal length is the number of positions at which the corresponding symbols are different. In other words, it measures the minimum number of substitutions required to change one string into the other, or equivalently, the minimum number of errors that could have transformed one string into the other.
+  - Hamming distance / history ::@:: \(Richard Hamming, 1950\)
+- block code
+  - block code / Hamming distance ::@:: The minimum Hamming distance $d$ between any two valid codewords in the _codeword space_ \(not _message space_\) determines the maximum of error bits so that we can detect or correct errors. <p> We can _either_ detect errors _or_ correct errors. If we only detect errors, we can do so with up to $d - 1$ error bits. If we correct errors, and we simply find the closest valid codeword, we can do so \(correctly\) with up to $\left\lfloor \frac {d - 1} 2 \right\rfloor$ error bits.
+- [repetition code](../../../../general/repetition%20code.md) ::@:: It is one of the most basic linear error-correcting codes. In order to transmit a message over a noisy channel that may corrupt the transmission in a few places, the idea of the repetition code is to just repeat the message several times. The hope is that the channel corrupts only a minority of these repetitions.
+  - repetition code / details ::@:: There is only 1 data bit. We repeated the data bits $n - 1$ times. This forms a $(n, 1)$ block code.
+  - repetition code / Hamming distance ::@:: The minimum Hamming distance $d$ between any two valid codewords \(there are only 2\) is $n$. <p> Intuitively, if we want to detect errors, we can always do so unless all $n$ bits have flipped. If we want to correct errors, we are taking the _majority vote_, so we can always \(correctly\) do so when at most $\left\lfloor \frac {n - 1} 2 \right\rfloor$ have flipped. Note we must choose to _either_ detect errors only _or_ correct errors.
+- assignment: [homework 1](assignments/homework%201/index.md)
 
 ## week 2 tutorial 2
 
