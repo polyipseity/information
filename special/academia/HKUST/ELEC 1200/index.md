@@ -592,55 +592,6 @@ The content is in teaching order.
 - datetime: 2025-07-29T11:00:00+08:00/2025-07-29T12:20:00+08:00, PT1H20M
 - status: unscheduled
 
-## midterm examination
-
-- datetime: 2025-07-29T11:00:00+08:00/2025-07-29T11:50:00+08:00, PT50M
-- venue: Lecture Theater D, Academic Building
-- format
-  - calculator: no
-  - cheatsheet: no
-  - referencing: closed book
-  - provided: \(none\)
-  - questions: long questions ×4
-- grades: ?/? → ?/?
-  - statistics
-    - timestamps: ? → ?
-    - mean: ? → ?
-    - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
-    - distribution: ? → ?
-- report: ?
-- check: ?
-
-> __<big><big>Midterm exam - 11 am on 29 July \(Tue\)</big></big>__
->
-> Dear students,
->
-> Please be reminded that we will have our midterm exam at 11 am next Tuesday \(29 July\) in LTD.
->
-> Covers all materials up to lecture 11 \(inclusive\) <br/>
-> Closed book and closed notes <br/>
-> 4 questions \(NO MATLAB coding questions\) <br/>
-> NO calculator, paper or electronic devices \(including smartwatch\) <br/>
-> NO talking/discussing during the exam <br/>
-> Seat number will be sent by email later \(not free seating\).
->
-> Please bring your student ID card for attendance checking.
->
-> Please go to LTD at least 5 minutes before the start time.
->
-> Please find some review questions and answers => Midterm Exam - 11 am on 29 July 2025 \(Tue\)
->
-> Please let me know if you have any questions.
->
-> Thank you,
->
-> \[redacted\]
->
 ## week 3 lab
 
 - datetime: 2025-07-29T14:00:00+08:00/2025-07-29T16:50:00+08:00, PT2H50M
@@ -726,6 +677,79 @@ The content is in teaching order.
 
 - datetime: 2025-08-01T10:00:00+08:00/2025-07-26T12:50:00+08:00, PT2H50M
 - status: unscheduled
+
+## midterm examination
+
+- datetime: 2025-08-01T11:00:00+08:00/2025-08-01T11:50:00+08:00, PT50M
+- venue: Lecture Theater D, Academic Building
+- format
+  - calculator: no
+  - cheatsheet: no
+  - referencing: closed book
+  - provided: \(none\)
+  - questions: long questions ×4
+- grades: ?/? → ?/?
+  - statistics
+    - timestamps: ? → ?
+    - mean: ? → ?
+    - standard deviation: ? → ?
+    - low: ? → ?
+    - lower quartile: ? → ?
+    - median: ? → ?
+    - upper quartile: ? → ?
+    - high: ? → ?
+    - distribution: ? → ?
+- report: ?
+- check: ?
+
+---
+
+> __<big><big>Midterm exam - 11 am on 29 July \(Tue\)</big></big>__
+>
+> Dear students,
+>
+> Please be reminded that we will have our midterm exam at 11 am next Tuesday \(29 July\) in LTD.
+>
+> Covers all materials up to lecture 11 \(inclusive\) <br/>
+> Closed book and closed notes <br/>
+> 4 questions \(NO MATLAB coding questions\) <br/>
+> NO calculator, paper or electronic devices \(including smartwatch\) <br/>
+> NO talking/discussing during the exam <br/>
+> Seat number will be sent by email later \(not free seating\).
+>
+> Please bring your student ID card for attendance checking.
+>
+> Please go to LTD at least 5 minutes before the start time.
+>
+> Please find some review questions and answers => Midterm Exam - 11 am on 29 July 2025 \(Tue\)
+>
+> Please let me know if you have any questions.
+>
+> Thank you,
+>
+> \[redacted\]
+
+---
+
+> __<big><big>Midterm exam \(rescheduled\)</big></big>__
+>
+> Dear students,
+>
+> Due to the black rainstorm this morning, our midterm exam will be rescheduled to:
+>
+> Date: 1 August 2025 \(Fri\)
+>
+> Time: 11:00 am - 11:50 am \(same as before\)
+>
+> Venue: LTD \(same as before\)
+>
+> The seat number is also the same \(sent by email\).
+>
+> Please let us know if you have any question.
+>
+> Take care and stay safe!
+>
+> \[redacted\]
 
 ## week 3 lecture 3
 
