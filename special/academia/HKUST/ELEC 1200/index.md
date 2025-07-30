@@ -593,6 +593,58 @@ The content is in teaching order.
 - datetime: 2025-07-30T14:00:00+08:00/2025-07-30T15:50:00+08:00, PT1H50M
 - topic: signal transmission demultiplexing; introduction to networks
 - assignment: [homework 2](assignments/homework%202/index.md)
+- signal transmission
+  - signal transmission / radio waves
+  - signal transmission / spectrum crunch
+- multiplexing
+  - multiplexing / types
+  - multiplexing / frequency-division multiplexing
+  - multiplexing / demultiplexing ::@:: Multiplexing modulates the individual baseband signals and then additively combine them to get the transmitted signal. Demultiplexing inverts this process: it recovers one of the baseband signal from the transmitted signal. <p> Two steps are needed: _channel selection_ and _demodulation_.
+    - multiplexing / demultiplexing / channel selection ::@:: A band-pass filter is applied so that only frequencies within the own allocated frequency are kept.
+    - multiplexing / demultiplexing / demodulation ::@:: It reverses modulation. This is often done by _mixing_. <p> Often, the demodulation process itself, imperfect filters, and noise add high-frequency components outside the bandwidth to the demodulated signal, so we often add a low-pass filter to remove them.
+- band-pass filter
+  - band-pass filter / amplitude response
+- [demodulation](../../../../general/demodulation.md) ::@:: It is the process of extracting the original information-bearing signal from a carrier wave.
+  - demodulation / intuition ::@:: Modulation combines a baseband signal into a carrier signal to obtain a modulated signal. Demultiplexing inverts this: it recovers the baseband signal from the modulated signal.
+- amplitude modulation
+  - amplitude modulation / demodulation ::@:: 2 main methods: _envelope detector_, _product detector_ \(mixing\)
+- [product detector](../../../../general/product%20detector.md) ::@:: It is a type of demodulator used for AM and SSB signals. Rather than converting the envelope of the signal into the decoded waveform like an envelope detector, the product detector takes the product of the modulated signal and a local oscillator, hence the name.
+  - product detector / mathematical model ::@:: If _m_\(_t_\) is the original message, the AM signal can be shown to be $$\,x(t)=(C+m(t))\cos(\omega t).$$ Multiplying the AM signal _x_\(_t_\) by an oscillator at the same frequency as and in phase with the carrier yields $$\,y(t)=(C+m(t))\cos(\omega t)\cos(\omega t),$$ which can be re-written as $$\,y(t)=(C+m(t))\left({\tfrac {1}{2} }+{\tfrac {1}{2} }\cos(2\omega t)\right).$$ After filtering out the high-frequency component based around cos\(2ω<!-- markdown separator -->_t_\) and the DC component _C_, the original message will be recovered \(annotation: after multiplying by a factor of 2\). <p> \(__this course__: Assume $C = 0$.\)
+  - product detector / local oscillator ::@:: The local oscillators at the transmitter and receiver should have the same frequency and synchronized \(same phase\). <p> We can consider the above mathematical model when the frequencies differ by $\Delta f$. Then we see the recovered message is modulated \(multiplied\) by a low-frequency cosine wave $\cos(2 \pi (\Delta f) t)$.
+- [direct-conversion converter](../../../../general/direct-conversion%20converter.md) \(DCR\) ::@:: It is a radio receiver design that demodulates the incoming radio signal using synchronous detection driven by a local oscillator whose frequency is identical to, or very close to the carrier frequency of the intended signal. <p> It uses a product detector. Many also uses a low-noise amplifier, which is a special amplifier that boost signal more than noise.
+- [point-to-point](../../../../general/point-to-point%20(telecommunications).md) ::@:: It refers to a communications connection between two communication endpoints or nodes. An example is a telephone call, in which one telephone is connected with one other, and what is said by one caller can only be heard by the other. <p> \(__this course__: covered by the first part of this course\)
+- [telecommunications network](../../../../general/telecommunications%20network.md) ::@:: It is a group of nodes interconnected by telecommunications links that are used to exchange messages between the nodes. <p> \(__this course__: to be covered by the last part of this course\)
+  - telecommunications network / motivation ::@:: Point-to-point communications only allow 2 users \(nodes\). A network allows us to connect many users \(nodes\). <p> The simplest way is to add a point-to-point communication between every pair of user. But we would need $n(n - 1) = n^2 - n$ connections, which does not scale to billions of users. So actually, our telecommunications networks are not just networks, but often are _networks of networks_.
+  - telecommunications network / infrastructure ::@:: _communication links_: copper, fiber, radio, satellite, etc.; has transmission rate \(bandwidth; a distinct concept from "bandwidth" as defined above\) <br/> _hosts_: end systems that need networking; billions of them nowadays <br/> internet service provider \(ISP\) <br/> _routers_: it forward packets \(chunks of data\)
+  - telecommunications network / network of networks ::@:: The internet is loosely hierarchial. There are 3 tiers of ISPs: international/national \(tier 1\), regional \(tier 2\), and local \(tier 3\). <p> ISPs of lower tiers connect to higher tiers. Tier 1 ISPs peer with each other. Tier 2 ISPs may sometimes also peer with each other.
+  - telecommunications network / transmission ::@:: Data needs to move through many layers to reach its destination. A _hop_ is a movement through _exactly_ one layer. <p> There are 3 major methods: _circuit switching_, _message switching_ \(__this course__; not mentioned\), and _packet switching_, with the last one almost always being used nowadays.
+- [circuit switching](../../../../general/circuit%20switching.md) ::@:: It is a method of implementing a telecommunications network in which two network nodes establish a dedicated communications channel \(circuit\) through the network before the nodes may communicate. The circuit guarantees the full bandwidth of the channel and remains connected for the duration of the communication session. The circuit functions as if the nodes were physically connected as with an electrical circuit.
+  - circuit switching / features ::@:: circuit-like performance \(i.e. guaranteed\), link bandwidth, no sharing, setup required before a "call", switch capacity
+  - circuit switching / sharing ::@:: Network resources are divided into pieces using multiplexing, e.g. FDM, TDM, etc.
+- [packet switching](../../../../general/packet%20switching.md) ::@:: It is a method of grouping data into short messages in fixed format, i.e. packets, that are transmitted over a digital network. It is the primary basis for data communications in computer networks worldwide.
+  - packet switching / features ::@:: Packets from different users share network resources, so they are not exclusive and resources are used as needed. Each packet use the full link bandwidth. No or minimal setup is needed.
+  - packet switching / contention ::@:: Because different users share network resources, there may be too many packets using up network resources, causing _congestion_. Packets may need to be _queued_ or even _discarded_. <p> _store and forward_: complete packets move one hop at a time
+  - packet switching / sharing ::@:: Since packets are sent without fixed pattern \(due to no or minimal setup in advanced\), and each packet uses the full link bandwidth, so _statistics_ are used to multiplex multiple packets _efficiently_, i.e. _statistical multiplexing_.
+  - packet switching / advantages ::@:: When a user is _not_ using network resources, then the network resources is free for other users, i.e. resources are used _on-demand_. So more users can be accommodated \(with the downside that it is possible the shared resources are full when a new user wants to use it\). <p> In comparison, in circuit switching, when a user is _not_ using network resources, the allocated frequency slot and/or time slot cannot be used by other users \(but with the upside that users can use their allocated resources without fear of congestion\).
+- telecommunications network
+  - telecommunications network / edge ::@:: applications and hosts that use networking
+  - telecommunications network / links ::@:: access networks, physical media, etc. \(may be wired or wireless\)
+  - telecommunications network / core ::@:: interconnected routers, network of networks, etc.
+  - telecommunications network / overview ::@:: users use protocols \(e.g. HTTP, TCP/IP, ethernet, etc.\) to communicate over the network of networks \(loosely hierarchical\)
+- communication protocol
+  - communication protocol / importance
+  - communication protocol / aspects
+- [abstraction layer](../../../../general/abstraction%20layer.md) ::@:: a way of hiding the working details of a subsystem.
+  - abstraction layer / networking ::@:: Networks are very complex, as we have seen above. Discussing them all at once is too much. <p> Abstraction layers organize networking into several layers \(_structured_\) so that we can discuss networking layer-by-layer. It also eases maintenance by _modularization_, since interaction between layers are usually standardized, so changes in a layer often does not affect layers. <p> A commonly used model is the _OSI model_.
+  - abstraction layer / interactions ::@:: A layer is considered to be on top of another if it depends on it. Every layer can exist without the layers above it, and requires the layers below it to function. Frequently abstraction layers can be composed into a hierarchy of abstraction levels.
+- [OSI model](../../../../general/OSI%20model.md) ::@:: It is a reference model developed by the International Organization for Standardization \(ISO\) that "provides a common basis for the coordination of standards development for the purpose of systems interconnection."
+  - OSI model / the layers ::@:: \(lowest\) physical, data link, network, transport, session, presentation, application \(highest\) <p> \(__this course__: missing session and presentation\)
+  - OSI model / physical ::@:: transmission and reception of raw bit streams over a physical medium
+  - OSI model / data link ::@:: transmission of data frames between two nodes connected by a physical layer <p> examples: Bluetooth \(802.11\), ethernet, etc.
+  - OSI model / network ::@:: structuring and managing a multi-node network, including addressing, routing and traffic control <p> examples: IP addresses, routing protocols, etc.
+  - OSI model / transport ::@:: reliable transmission of data segments between points on a network, including segmentation, acknowledgement and multiplexing <p> examples: TCP, UDP, etc.
+  - OSI model / application ::@:: high-level protocols such as for resource sharing or remote file access <p> examples: DNS, FTP, HTTP, SMFTP, etc.
+  - OSI model / implementation ::@:: Hosts often implement all layers. Links often implement only up to the network layer \(physical, data link, network\). So the remaining higher layers implemented by hosts but not links are often called _end-to-end layers_.
 
 ## week 3 tutorial 2
 
