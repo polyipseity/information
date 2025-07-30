@@ -138,7 +138,33 @@ The content is in teaching order.
 ## week 1 tutorial
 
 - datetime: 2025-07-15T11:00:00+08:00/2025-07-15T12:20:00+08:00, PT1H20M
-- topic:
+- topic: lab logistics; lab 1, MATLAB
+- ELEC 1200
+  - ELEC 1200 / logistics
+    - ELEC 1200 / logistics / labs ::@:: 4 checkpoints \(group of 2\) → post-lab quiz \(individual; 4 questions in 5 minutes; no backtracking\) → leave immediately
+  - ELEC 1200 / lab 1 ::@:: Have fun with MATLAB!!
+- [MATLAB](../../../../general/MATLAB.md) ::@:: It is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.
+  - MATLAB / libraries ::@:: You must either add folders paths manually using the user interface, or use the `addpath(paths...)` function, so that files directly under those folders \(not recursive\) are considered by MATLAB when running our scripts.
+  - MATLAB / variable names ::@:: Only digits, letters, and underscores `_` are allowed. Must start with a letter. Case sensitive.
+  - MATLAB / statements ::@:: A newline or semicolon `;` separates each statement. Using only a newline \(no semicolon `;`\) displays the result of that statement each time it is run.
+  - MATLAB / vectors ::@:: `[x1 x2 ... xn]`, where `xi` are numbers or vectors. The result is that the numbers and vectors are concatenated together. You may use commas `,` to separate the `xi` without change in meaning.
+  - MATLAB / matrices ::@:: You may use semicolons `;` to separate the `xi`, but then the elements on different sides of semicolons `;` are separated into different rows. This can be used to create matrices. Note the number of elements in all rows must be the same.
+  - MATLAB / indexing ::@:: MATLAB uses 1-based indexing, i.e. the 1st element is indexed by 1. <p> `x(n)` gets the _n_-th element. `x(a:b)` gets the _a_-th element to the _b_-th element as a vector, both ends inclusive. If _a_ &gt; _b_, then the vector is empty.
+  - MATLAB / ranges ::@:: `a:b` is a range expression giving a vector from _a_ to _b_, both ends inclusive. If _a_ &gt; _b_, then the vector is empty. <p> `a:s:b` is also a range expression giving a vector from _a_ to _b_, both ends inclusive, with the 1st element being _a_ and adding _s_ each time to get the next element, until the element is outside _a_ and _b_ \(both ends inclusive\), then that and subsequent elements are not added.
+  - MATLAB / arithmetic operations ::@:: MATLAB supports many arithmetic operations, e.g. addition `+`, subtraction `-`, multiplication `*`, division `/`, etc.
+    - MATLAB / arithmetic operations / scalar ::@:: A scalar \(non-vector and non-matrix\) operated on other scalars produce the expected results.
+    - MATLAB / arithmetic operations / vector, matrix ::@:: A scalar \(non-vector and non-matrix\) operated on a vector or matrix cause each element of the vector or matrix to be operated with that scalar. <p> For element-wise operations, a vector or matrix must be operated on a vector or matrix of the same shape. If so, you should generally prepend a dot `.` to the arithmetic operators, e.g. `.+`, `.-`, `.*`, `./`, which ensures the operations performed are element-wise \(rather than some very weird advanced mathematical operations\).
+    - MATLAB / arithmetic operations / division ::@:: Division involving two floats return a float. Otherwise, it returns the nearest integer.
+  - MATLAB / plotting ::@:: MATLAB provides function to plot data and accompanying text.
+    - MATLAB / plotting / data ::@:: `plot(x, y)`, `stem(x, y)` <p> By default, each plot creates a new diagram in a new figure. Run `hold on` after the first plot so that any new plots are drawn on the same last diagram of the last figure. Run `hold off` to restore the default behavior.
+    - MATLAB / plotting / text ::@:: `xlabel(str)`, `ylabel(str)`
+    - MATLAB / plotting / layout ::@:: By default, MATLAB draws one diagram per figure. Use `tiledlayout(m, n)` to draw a _m_-by-_n_ grid \(_m_ is number of rows and _n_ is number of columns\) in a new figure. Each grid cell contain one diagram. To use the next grid cell, run `nexttile`, then plot the data. \(For the first cell, run `nexttile` first before plotting.\)
+  - MATLAB / iteration ::@:: start with `for var = vector`, end with `end`
+  - MATLAB / conditionals ::@:: start with `if condition`, then optionally add multiple `elseif condition`, then optionally add one `else`, and end with `end`
+  - MATLAB / debugging ::@:: There are buttons to do the following for debugging your code: add breakpoints, run to a specific line of code, show output, etc.
+  - MATLAB / functions ::@:: You can add functions, which accepts inputs and return outputs. Variables created are local to the function and do not leak out. <p> You can put functions in the same place as your code \(a script\), or you can put them in a separate file \(a function file\). The filename of a script must not be the name of any function inside, while that of a function file must be the name of the first function inside. <p> Before R2024a, script functions must be placed at the end.
+  - MATLAB / help ::@:: help button, `doc(function_name)`, `help(function_name)`
+- [§ week 1 lab 2](#week%201%20lab%202)
 
 ## week 1 lab
 
@@ -190,21 +216,35 @@ The content is in teaching order.
 ## week 1 tutorial 2
 
 - datetime: 2025-07-17T11:00:00+08:00/2025-07-17T12:20:00+08:00, PT1H20M
-- topic:
+- topic: lab 2, characterizing and modeling a channel
+- ELEC 1200
+  - ELEC 1200 / equipment ::@:: An IR board with both a transmitter and receiver in a cardboard box. A paper ruler \(seriously...\) so that you can measure and control the distance between the board and the box.
+  - ELEC 1200 / lab 2 ::@:: study the channel → text to bit sequence → bit sequence to waveform → model the channel: attenuation _k_, blurring _a_, delay _d_, offset _c_ → change transmission distance, remodel the channel
+- [mean squared error](../../../../general/mean%20squared%20error.md) \(MSE\) ::@:: It, of an estimator \(of a procedure for estimating an unobserved quantity\) measures the _average of the squares of the errors_—that is, the average squared difference between the estimated values and the actual value. <p> \(__this course__: For simplicity, we use the formula where the denominator is $n$, not $n - 1$.\)
+- [§ week 1 lab 3](#week%201%20lab%203)
 
 ## week 1 lab 2
 
 - datetime: 2025-07-17T14:00:00+08:00/2025-07-17T16:50:00+08:00, PT2H50M
 - topic: introduction to MATLAB
 - status: attendance
+- [§ week 1 tutorial](#week%201%20tutorial)
+- ELEC 1200
+  - ELEC 1200 / lab 1
+    - ELEC 1200 / lab 1 / Boolean to numeric conversion ::@:: A comparison returns 1 if it is true, 0 otherwise.
 - assignment: [lab 1](assignments/lab%201/index.md)
 - questions: [post lab quiz 1 derivative](questions/post%20lab%20quiz%201%20derivative.md)
 
 ## week 1 lab 3
 
 - datetime: 2025-07-18T10:00:00+08:00/2025-07-18T12:50:00+08:00, PT2H50M
-- topic:
+- topic: characterizing and modeling a channel
 - status: attendance
+- [§ week 1 tutorial 2](#week%201%20tutorial%202)
+- ELEC 1200
+  - ELEC 1200 / lab 2
+    - ELEC 1200 / lab 2 / transmission distance, attenuation _k_ ::@:: Attenuation _k_ of a channel decreases as transmission distance increases.
+    - ELEC 1200 / lab 2 / channel parameters from graph ::@:: Assume there is a training sequence. Offset _c_ is the lowest signal level. Attenuation _k_ is the difference between the lowest and highest signal level. _a_ needs to be found via trial-and-error, with increasing _a_ means slower channel response.
 - assignment: [lab 2](assignments/lab%202/index.md)
 - questions: [post lab quiz 2 derivative](questions/post%20lab%20quiz%202%20derivative.md)
 
@@ -309,13 +349,23 @@ The content is in teaching order.
 ## week 2 tutorial
 
 - datetime: 2025-07-22T11:00:00+08:00/2025-07-22T12:20:00+08:00, PT1H20M
-- topic:
+- topic: lab 2 review, lab 3, communication protocol, bit error rate
+- ELEC 1200
+  - ELEC 1200 / lab 2
+  - ELEC 1200 / lab 3 ::@:: framing: split and pad, start bit, stop bit → find threshold from a graph → waveform to bit sequence → evaluate bit error rate against bit time
+- [§ week 2 lab](#week%201%20lab)
 
 ## week 2 lab
 
 - datetime: 2025-07-22T14:00:00+08:00/2025-07-22T16:50:00+08:00, PT2H50M
 - topic: communication protocol, bit error rate \(BER\)
 - status: attendance
+- [§ week 3 tutorial](#week%203%20tutorial)
+- ELEC 1200
+  - ELEC 1200 / lab 3
+    - ELEC 1200 / lab 3 / threshold ::@:: Assume there is a training sequence. A good threshold is the average of the lowest and highest signal level.
+    - ELEC 1200 / lab 3 / bit time, bit error rate ::@:: In general, bit error rate decreases as bit time increases.
+    - ELEC 1200 / lab 3 / training sequence ::@:: The training sequence should be longer \(higher pulse width\) if the channel response is slower \(_a_ is higher\).
 - assignment: [lab 3](assignments/lab%203/index.md)
 - questions: [post lab quiz 3 derivative](questions/post%20lab%20quiz%203%20derivative.md)
 
@@ -368,13 +418,21 @@ The content is in teaching order.
 ## week 2 tutorial 2
 
 - datetime: 2025-07-24T11:00:00+08:00/2025-07-24T12:20:00+08:00, PT1H20M
-- topic:
+- topic: lab 3 review, lab 4, eye diagram, equalization
+- ELEC 1200
+  - ELEC 1200 / lab 3
+  - ELEC 1200 / lab 4 ::@:: eye diagram: bit time → eye diagram: sub-sampling point → equalization → equalization: bit error rate
+- [§ week 2 lab 2](#week%202%20lab%202)
 
 ## week 2 lab 2
 
 - datetime: 2025-07-24T14:00:00+08:00/2025-07-24T16:50:00+08:00, PT2H50M
 - topic: eye diagram, equalization
 - status: attendance
+- [§ week 2 tutorial 2](#week%202%20tutorial%202)
+- ELEC 1200
+  - ELEC 1200 / lab 4
+    - ELEC 1200 / lab 4 / eye diagram, sub-sampling index ::@:: If there is an eye in the eye diagram, you can sub-sampling any point in the eye and get 0 bit error rate. <p> In general, bit error rate is lowest around SPB−1.
 - assignment: [lab 4](assignments/lab%204/index.md)
 - questions: [post lab quiz 4 derivative](questions/post%20lab%20quiz%204%20derivative.md)
 
@@ -649,13 +707,18 @@ The content is in teaching order.
 ## week 3 tutorial 2
 
 - datetime: 2025-07-31T11:00:00+08:00/2025-07-31T12:20:00+08:00, PT1H20M
-- topic:
+- topic: lab 4 review, lab 5, signal-to-noise ratio, bit error rate
+- ELEC 1200
+  - ELEC 1200 / lab 4
+  - ELEC 1200 / lab 5 ::@:: received signal distribution → bit error rate: transmission distance → bit error rate: threshold → bit error rate: bit time
+- [§ week 3 lab 2](#week%203%20lab%202)
 
 ## week 3 lab 2
 
 - datetime: 2025-07-31T14:00:00+08:00/2025-07-31T16:50:00+08:00, PT2H50M
 - topic: bit errors, signal-to-noise ratio
 - status: attendance
+- [§ week 3 tutorial 2](#week%203%20tutorial%202)
 - assignment: [lab 5](assignments/lab%205/index.md)
 - questions: [post lab quiz 5 derivative](questions/post%20lab%20quiz%205%20derivative.md)
 
