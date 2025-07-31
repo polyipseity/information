@@ -714,20 +714,21 @@ The content is in teaching order.
 
 - datetime: 2025-07-31T09:00:00+09:00/2025-07-31T10:40:00+09:00, PT1H40M
   - local: 2025-07-31T08:00:00+08:00/2025-07-31T09:40:00+08:00, PT1H40M
-- topic: enterprise applications
+- topic: enterprise applications; e-commerce, digital markets, digital goods
+- assignment: [quiz 9–10](quiz%209–10.md)
 
 ## week 6 lecture
 
 - datetime: 2025-08-04T09:00:00+09:00/2025-08-04T10:40:00+09:00, PT1H40M
   - local: 2025-08-04T08:00:00+08:00/2025-08-04T09:40:00+08:00, PT1H40M
-- topic: e-commerce, digital markets, digital goods
+- topic: building information systems
 - assignment: [assignment \#3](assignments/assignment%20%233/index.md)
 
 ## week 6 lecture 2
 
 - datetime: 2025-08-05T09:00:00+09:00/2025-08-05T10:40:00+09:00, PT1H40M
   - local: 2025-08-05T08:00:00+08:00/2025-08-05T09:40:00+08:00, PT1H40M
-- topic: building information systems, MIS career, future of work, review for final examination
+- topic: MIS career, future of work, review for final examination
 
 ## week 6 lecture 3
 
