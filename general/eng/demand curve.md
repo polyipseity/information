@@ -17,7 +17,7 @@ A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [
 
 It is generally assumed that {@{demand curves slope down}@}, as shown in the adjacent image. This is because of {@{the [law of demand](law%20of%20demand.md): for most goods, the quantity demanded falls if the price rises}@}.<sup>[\[2\]](#^ref-2)</sup> {@{Certain unusual situations}@} do not follow this law. These include {@{[Veblen goods](Veblen%20good.md), [Giffen goods](Giffen%20good.md), and speculative bubbles where buyers are attracted to a commodity if its price rises}@}. <!--SR:!2025-10-11,251,330!2027-07-30,738,330!2025-12-01,290,330!2025-11-12,276,330-->
 
-Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy, also known as [market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2025-09-25,237,330!2025-07-29,190,310!2025-09-21,234,330!2025-09-17,230,330!2025-10-07,247,330!2026-12-09,552,310-->
+Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy, also known as [market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2025-09-25,237,330!2027-10-26,817,330!2025-09-21,234,330!2025-09-17,230,330!2025-10-07,247,330!2026-12-09,552,310-->
 
 {@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2025-10-20,257,330!2025-10-19,256,330-->
 
@@ -54,7 +54,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 ## three categories of demand curves
 
 - Individual demand curve: ::@:: the relationship between the quantity of a product a single consumer is willing to buy and its price. <!--SR:!2025-09-16,229,330!2025-09-22,235,330-->
-- Market demand curve: ::@:: the relationship between the quantity of a product that all consumers in the market are willing to buy and its price. The market demand curve can be obtained by adding up the individual demand curves of individual consumers in the industry horizontally. <!--SR:!2025-07-27,185,310!2027-09-10,781,330-->
+- Market demand curve: ::@:: the relationship between the quantity of a product that all consumers in the market are willing to buy and its price. The market demand curve can be obtained by adding up the individual demand curves of individual consumers in the industry horizontally. <!--SR:!2027-10-10,801,330!2027-09-10,781,330-->
 - Firm demand curve: ::@:: \(A firm demand curve may also be referred to as the demand curve of the market to which the firm is exposed.\) It refers to the relationship between the number of customers willing to buy a certain product from the enterprise and its price. <!--SR:!2027-08-06,742,330!2025-12-02,291,330-->
 
 The slope of the market industry demand curve is {@{greater than the slope of the individual demand curve}@}; the slope of the industry demand curve is {@{greater than the slope of the enterprise demand curve}@}.  The slope of the industry's demand curve is {@{greater than the slope of a firm's demand curve}@}. <!--SR:!2025-10-14,253,330!2025-12-05,294,330!2025-11-15,274,349-->
@@ -73,7 +73,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 ### factors affecting individual demand
 
 - Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2025-10-09,249,330!2025-10-21,258,330-->
-- Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2025-08-01,180,310!2025-10-04,245,330-->
+- Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2027-09-12,772,330!2025-10-04,245,330-->
 - Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2027-07-13,724,330!2027-05-28,698,330-->
 - Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-12-03,292,330!2025-10-16,255,330-->
 
@@ -94,7 +94,7 @@ Some circumstances which can cause the demand curve to shift in include:
 
 ## movement along a demand curve
 
-There is {@{movement _along_ a demand curve}@} when {@{a change in price causes the quantity demanded to change}@}.<sup>[\[11\]](#^ref-11)</sup> It is important to {@{distinguish between movement along a demand curve, and a shift in a demand curve}@}. {@{Movements along a demand curve happen only}@} when {@{the price of the good changes}@}.<sup>[\[14\]](#^ref-14)</sup> When {@{a non-price determinant of demand changes, the curve shifts}@}. These {@{"__other variables__" are part of the demand function}@}. They are {@{"__merely lumped into intercept term of a simple linear demand function__"}@}.<sup>[\[14\]](#^ref-14)</sup> Thus {@{a change in a non-price determinant of demand}@} is reflected in {@{a change in the x-intercept causing the curve to shift along the x axis}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-10-04,245,330!2025-10-11,251,330!2025-10-08,248,330!2025-09-29,241,330!2025-09-24,236,330!2025-09-23,236,330!2025-10-30,265,330!2025-09-24,237,330!2025-10-29,264,330!2025-07-31,179,310-->
+There is {@{movement _along_ a demand curve}@} when {@{a change in price causes the quantity demanded to change}@}.<sup>[\[11\]](#^ref-11)</sup> It is important to {@{distinguish between movement along a demand curve, and a shift in a demand curve}@}. {@{Movements along a demand curve happen only}@} when {@{the price of the good changes}@}.<sup>[\[14\]](#^ref-14)</sup> When {@{a non-price determinant of demand changes, the curve shifts}@}. These {@{"__other variables__" are part of the demand function}@}. They are {@{"__merely lumped into intercept term of a simple linear demand function__"}@}.<sup>[\[14\]](#^ref-14)</sup> Thus {@{a change in a non-price determinant of demand}@} is reflected in {@{a change in the x-intercept causing the curve to shift along the x axis}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-10-04,245,330!2025-10-11,251,330!2025-10-08,248,330!2025-09-29,241,330!2025-09-24,236,330!2025-09-23,236,330!2025-10-30,265,330!2025-09-24,237,330!2025-10-29,264,330!2027-09-05,766,330-->
 
 ## price elasticity of demand
 
@@ -110,7 +110,7 @@ The elasticity of demand usually will {@{vary depending on the price}@}. If {@{t
 
 {@{A sales tax on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2025-10-23,259,330!2025-08-23,195,310!2025-11-05,269,330!2025-09-20,233,330-->
 
-If {@{the price axis in the graph represents the price before addition of tax and/or subtraction of subsidy}@} then {@{the demand curve moves inward when a tax is introduced, and outward when a subsidy is introduced}@}. <!--SR:!2025-07-31,179,310!2025-10-16,255,330-->
+If {@{the price axis in the graph represents the price before addition of tax and/or subtraction of subsidy}@} then {@{the demand curve moves inward when a tax is introduced, and outward when a subsidy is introduced}@}. <!--SR:!2027-09-06,767,330!2025-10-16,255,330-->
 
 ## effect of taxation on the demand curve
 
@@ -126,7 +126,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 The demand for goods can be further divorced into {@{the demand markets for final and [intermediate goods](intermediate%20good.md)}@}. An intermediate good is {@{a good utilized in the process of creating another good, effectively named the [final good](final%20good.md)}@}.<sup>[\[17\]](#^ref-17)</sup> It is important to note that {@{the cooperation of several inputs in many circumstances yields a final good}@} and thus {@{the demand for these goods is _derived_ from the demand of the final product}@}; this concept is {@{known as [derived demand](derived%20demand.md)}@}.<sup>[\[18\]](#^ref-18)</sup> {@{The relationship between the intermediate goods and the final good}@} is {@{direct and positive as demand for a final product increases demand for the intermediate goods used to make it}@}. <!--SR:!2027-07-20,738,330!2025-10-14,253,330!2025-10-16,255,330!2025-10-05,246,330!2027-08-14,750,330!2025-09-15,228,330!2025-12-04,293,330-->
 
-In order to {@{construct a derived demand curve}@}, {@{specific assumptions must be made and values held constant}@}. {@{The supply curves for other inputs, demand curve for the final good, and production conditions}@} must all be held constant to {@{ascertain an effective derived demand curve}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-09-24,237,330!2025-12-05,294,330!2025-07-26,188,310!2025-08-05,183,310-->
+In order to {@{construct a derived demand curve}@}, {@{specific assumptions must be made and values held constant}@}. {@{The supply curves for other inputs, demand curve for the final good, and production conditions}@} must all be held constant to {@{ascertain an effective derived demand curve}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-09-24,237,330!2025-12-05,294,330!2027-10-16,812,330!2025-08-05,183,310-->
 
 ## see also
 

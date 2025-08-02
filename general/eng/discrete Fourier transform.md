@@ -26,7 +26,7 @@ The _discrete Fourier transform_ {@{transforms a [sequence](sequence.md) of _N_ 
 >
 > {@{$$X_k = \sum_{n = 0}^{N - 1} x_n \cdot e^{-i2\pi \frac k N n}$$}@} <!--SR:!2025-08-29,300,330!2026-06-20,456,290-->
 
-The transform is sometimes denoted by {@{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}@}. <!--SR:!2025-07-29,274,330-->
+The transform is sometimes denoted by {@{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}@}. <!--SR:!2028-12-31,1249,350-->
 
 __Eq.1__ can be {@{interpreted or derived in various ways}@}, for example: <!--SR:!2027-02-05,695,330-->
 
@@ -59,7 +59,7 @@ Reversing the time (i.e. {@{replacing $n$ by $N-n$}@}) in $x_{n}$ corresponds to
 
 ### conjugation in time
 
-Mathematically: {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}@}. <!--SR:!2025-07-31,94,296-->
+Mathematically: {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}@}. <!--SR:!2026-08-21,386,316-->
 
 ### real and imaginary part
 

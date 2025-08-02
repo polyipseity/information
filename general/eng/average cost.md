@@ -35,7 +35,7 @@ In {@{[economics](economics.md)}@}, {@{__average cost__ \(__AC__\) or __unit cos
 
 ## long-run average cost
 
-{@{Long-run average cost}@} is {@{the unit cost of producing a certain output when all inputs, even [physical capital](physical%20capital.md), are variable}@}. {@{The [behavioral assumption](behavioral%20assumption.md)}@} is that {@{the firm will choose that combination of inputs that produce the desired quantity at the lowest possible cost}@}. <!--SR:!2026-03-06,317,342!2025-08-02,133,302!2025-12-02,239,330!2025-12-03,240,330-->
+{@{Long-run average cost}@} is {@{the unit cost of producing a certain output when all inputs, even [physical capital](physical%20capital.md), are variable}@}. {@{The [behavioral assumption](behavioral%20assumption.md)}@} is that {@{the firm will choose that combination of inputs that produce the desired quantity at the lowest possible cost}@}. <!--SR:!2026-03-06,317,342!2027-02-10,557,322!2025-12-02,239,330!2025-12-03,240,330-->
 
 {@{A long-run average cost curve}@} is typically {@{downward sloping at relatively low levels of output, and upward or downward sloping at relatively high levels of output}@}. Most commonly, {@{the long-run average cost curve is U-shaped}@}, by definition {@{reflecting economies of scale where negatively sloped and diseconomies of scale where positively sloped}@}. <!--SR:!2026-03-06,317,342!2026-03-30,336,342!2026-02-04,293,342!2026-03-30,336,342-->
 

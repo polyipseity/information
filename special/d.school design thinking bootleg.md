@@ -46,7 +46,7 @@ return await memorize_seq(
 - _(begin)_→::@::←[empathize](#empathize) (blue) <!--SR:!2026-03-03,511,310!2028-09-18,1265,350-->
 - [empathize](#empathize) (blue)→::@::←[define](#define) (green) <!--SR:!2027-01-25,650,270!2027-11-25,955,330-->
 - [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2028-07-05,1110,290!2025-11-05,352,250-->
-- [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2025-07-26,324,290!2027-08-13,863,290-->
+- [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2029-02-24,1302,310!2027-08-13,863,290-->
 - [prototype](#prototype) (red)→::@::←[test](#test) (brown) <!--SR:!2028-08-04,1159,310!2026-07-23,578,310-->
 - [test](#test) (brown)→::@::←_(end)_ <!--SR:!2028-11-25,1320,350!2027-03-14,770,330-->
 
@@ -121,13 +121,13 @@ return await memorize_seq(
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2025-10-14,174,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2027-11-01,937,330-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-12-11,170,150!2026-02-18,349,210-->
-- (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-07-29,59,150!2025-10-04,126,170-->
+- (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-12-07,127,170!2025-10-04,126,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2027-03-15,653,250!2025-10-19,322,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-09-07,99,150!2025-08-07,64,130-->
-- (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→::@::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2025-07-28,329,270!2025-11-17,170,150-->
+- (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→::@::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2028-01-07,888,270!2025-11-17,170,150-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→::@::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2025-11-27,127,210!2026-02-22,363,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→::@::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2025-12-01,129,130!2025-10-03,123,170-->
-- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→::@::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2025-07-26,54,130!2025-08-05,250,210-->
+- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→::@::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2025-11-14,104,150!2025-08-05,250,210-->
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→::@::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2026-04-20,276,170!2025-10-13,87,150-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→::@::←_(end)_ <!--SR:!2026-06-06,604,330!2027-11-30,942,290-->
 

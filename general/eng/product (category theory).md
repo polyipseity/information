@@ -75,7 +75,7 @@ Other examples:
 - In the category of [algebraic varieties](algebraic%20variety.md), the product ::@:: is given by the [Segre embedding](Segre%20embedding.md). <!--SR:!2026-10-31,489,310!2025-11-30,220,290-->
 - In the category of [semi-abelian monoids](trace%20monoid.md), the product ::@:: is given by the [history monoid](history%20monoid.md). <!--SR:!2026-11-19,504,310!2026-02-10,238,250-->
 - In the category of [Banach spaces](Banach%20spaces.md) and [short maps](short%20map.md), the product ::@:: carries the [_l_<sup>∞</sup>](l-infinity.md) norm.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-05-15,332,270!2025-09-28,191,310-->
-- A [partially ordered set](partially%20ordered%20set.md) can be treated as a category, using the order relation as the morphisms. In this case the products and [coproducts](coproduct.md) ::@:: correspond to greatest lower bounds \([meets](meet%20(mathematics).md)\) and least upper bounds \([joins](join%20(mathematics).md)\). <!--SR:!2025-07-29,135,290!2026-01-30,228,250-->
+- A [partially ordered set](partially%20ordered%20set.md) can be treated as a category, using the order relation as the morphisms. In this case the products and [coproducts](coproduct.md) ::@:: correspond to greatest lower bounds \([meets](meet%20(mathematics).md)\) and least upper bounds \([joins](join%20(mathematics).md)\). <!--SR:!2027-02-01,551,310!2026-01-30,228,250-->
 
 ## discussion
 
@@ -100,7 +100,7 @@ For {@{any objects $X,Y,{\text{ and } }Z$ of a category with finite products and
 ## see also
 
 - [Coproduct](coproduct.md) – ::@:: the [dual](dual%20(category%20theory).md) of the product <!--SR:!2025-09-27,190,310!2026-01-13,281,330-->
-- [Diagonal functor](diagonal%20functor.md) – ::@:: the [left adjoint](left%20adjoint.md) of the product functor. <!--SR:!2026-01-14,234,270!2025-08-02,123,250-->
+- [Diagonal functor](diagonal%20functor.md) – ::@:: the [left adjoint](left%20adjoint.md) of the product functor. <!--SR:!2026-01-14,234,270!2026-06-12,314,250-->
 - [Limit and colimits](limit%20(category%20theory).md) – ::@:: Mathematical concept <!--SR:!2026-01-03,274,330!2026-01-12,280,330-->
 - [Equalizer](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2025-12-16,259,330!2026-01-10,278,330-->
 - [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2025-12-07,253,330!2025-12-10,255,330-->

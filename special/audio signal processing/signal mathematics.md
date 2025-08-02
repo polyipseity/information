@@ -27,9 +27,9 @@ tags:
 >   - $k$ is {@{angular wavenumber or angular spatial frequency}@}.
 >   - $\omega$ is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 >   - $\phi$ is {@{initial phase offset}@}.
->   - $D$ is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2025-07-31,287,330!2028-03-27,1037,350!2028-05-08,1071,350!2025-07-31,287,330-->
+>   - $D$ is {@{equilibrium offset}@}. <!--SR:!2026-02-15,381,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350-->
 
-In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes: <!--SR:!2028-08-08,1142,350!2025-07-31,287,330-->
+In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes: <!--SR:!2028-08-08,1142,350!2029-03-01,1307,350-->
 
 > __discrete (co)sine wave__
 >
@@ -60,7 +60,7 @@ wave = A * np.cos(w * T * np.arange(start, end, T) + phi) + D
 
 Note that the [complex number](../../general/complex%20number.md) described here is {@{colloquial, and not necessarily mathematically rigorous}@}. <!--SR:!2028-05-17,1078,350-->
 
-The numbers (with decimals) we are familiar are {@{the _real numbers_}@}. Now, we extend it by {@{defining the _imaginary unit_ $j = \sqrt{-1}$ ($j$ is more commonly used than $i$ in electrical engineering)}@}. Then the _complex numbers_ are {@{all numbers in the form of $a + bj$, where $a$ and $b$ are real numbers}@}. Visually, we can think of each complex number as {@{a point on a 2D plane, with the x-coordinate being the _real part_ ($x = \operatorname{Re}(a + bj) = a$) and the y-coordinate being the _imaginary part_ ($y = \operatorname{Im}(a + bj) = b$)}@}. <!--SR:!2025-08-12,298,330!2025-07-31,287,330!2028-05-16,1079,350!2028-04-16,1049,350-->
+The numbers (with decimals) we are familiar are {@{the _real numbers_}@}. Now, we extend it by {@{defining the _imaginary unit_ $j = \sqrt{-1}$ ($j$ is more commonly used than $i$ in electrical engineering)}@}. Then the _complex numbers_ are {@{all numbers in the form of $a + bj$, where $a$ and $b$ are real numbers}@}. Visually, we can think of each complex number as {@{a point on a 2D plane, with the x-coordinate being the _real part_ ($x = \operatorname{Re}(a + bj) = a$) and the y-coordinate being the _imaginary part_ ($y = \operatorname{Im}(a + bj) = b$)}@}. <!--SR:!2025-08-12,298,330!2029-03-03,1309,350!2028-05-16,1079,350!2028-04-16,1049,350-->
 
 With the point on a 2D plane visualization in mind, we call the $a + bj$ form {@{the _rectangular form_, because the coordinates specify a rectangle from the origin to the 2D point}@}. An alternative form is {@{the _polar form_ $(A, \phi)$, where $A$ is the distance from the origin to the 2D point and $\phi$ is the angle formed with the right direction, increasing counterclockwise}@}. <!--SR:!2028-08-17,1151,350!2027-12-03,922,330-->
 
@@ -78,7 +78,7 @@ Using Euler's formula, we can express waves {@{using exponentiation instead}@}. 
 
 - see: [general/dot product § complex vectors](../../general/dot%20product.md#complex%20vectors)
 
-The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {@{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}@}. Geometrically, two sequences are {@{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}@}. <!--SR:!2025-07-27,272,341!2025-12-17,390,361-->
+The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {@{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}@}. Geometrically, two sequences are {@{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}@}. <!--SR:!2028-02-16,928,341!2025-12-17,390,361-->
 
 ## even and odd sequences
 
@@ -90,6 +90,6 @@ A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@
 
 - see: [general/convolution](../../general/convolution.md)
 
-The convolution of 2 sequences $x$ and $y$ is denoted {@{$x[n] * y[n]$ or $x * y$}@}. It is defined as {@{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}@}. <!--SR:!2025-08-26,295,341!2025-08-01,276,341-->
+The convolution of 2 sequences $x$ and $y$ is denoted {@{$x[n] * y[n]$ or $x * y$}@}. It is defined as {@{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}@}. <!--SR:!2025-08-26,295,341!2029-02-16,1294,361-->
 
 It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {@{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]$$}@}. Then the convolution $x * y$ {@{at argument $n = 0$ is the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]$$}@}. When the argument $n$ is not $0$, then {@{the argument specifies how much $y'$ is shifted, with positive values shifting to the right, i.e. $$y'_n[m] = y'[m - n] = y[n - m]$$}@}. Then the convolution $x * y$ {@{at nonzero argument is the dot product of $x$ and $y'_n$ ($y$ reflected and shifted by $n$), i.e. $$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}@}. <!--SR:!2025-11-23,371,361!2026-01-13,412,361!2025-10-03,331,361!2025-10-07,333,361-->

@@ -48,7 +48,7 @@ return await memorize_table(
 > | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@} |  |
 > | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@} |  |
 > | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@} |  |
-> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |  | <!--SR:!2027-10-22,1295,350!2025-11-27,741,330!2026-05-19,870,330!2027-04-03,1052,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2028-05-13,1455,350!2025-08-08,600,310!2027-01-10,992,330!2026-06-28,891,330!2032-03-05,2441,330!2025-11-30,737,330!2027-07-21,1223,350!2025-07-26,620,310!2027-10-16,1290,350!2026-03-03,781,310-->
+> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |  | <!--SR:!2027-10-22,1295,350!2025-11-27,741,330!2026-05-19,870,330!2027-04-03,1052,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2028-05-13,1455,350!2025-08-08,600,310!2027-01-10,992,330!2026-06-28,891,330!2032-03-05,2441,330!2025-11-30,737,330!2027-07-21,1223,350!2032-11-04,2658,330!2027-10-16,1290,350!2026-03-03,781,310-->
 
 <!--/pytextgen-->
 

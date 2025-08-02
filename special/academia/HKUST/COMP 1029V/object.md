@@ -29,7 +29,7 @@ Sub NoHeHe()
 End Sub
 ```
 
-Then to create an object, one uses {@{`New`. Also call the method that is intended to be the constructor if any, commonly called `Initialize`}@}: <!--SR:!2025-07-28,356,290-->
+Then to create an object, one uses {@{`New`. Also call the method that is intended to be the constructor if any, commonly called `Initialize`}@}: <!--SR:!2029-07-06,1434,310-->
 
 ```VB
 Dim HaHaObject As HaHaClass

@@ -18,9 +18,9 @@ There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2026-01-12,343
 
 1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2026-01-13,344,350!2026-01-06,338,350-->
 2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2026-01-17,347,350!2025-10-18,270,330-->
-3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-07-30,190,310!2025-12-25,327,350-->
+3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2027-10-29,818,330!2025-12-25,327,350-->
 4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2026-01-12,343,350!2026-01-15,345,350-->
-5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-10-07,247,330!2025-08-02,193,310-->
+5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-10-07,247,330!2027-11-14,834,330-->
 6. Use of ::@:: special library functions (e.g., random) <!--SR:!2026-01-21,350,350!2026-01-20,349,350-->
 
 You can use these methods to {@{create ndarrays or [structured arrays](structured%20arrays.md)}@}. This document will cover general methods for {@{ndarray creation}@}. <!--SR:!2026-01-16,346,350!2025-10-18,270,330-->

@@ -104,7 +104,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 - Main article: ::@:: [Star-mesh transform](star-mesh%20transform.md) <!--SR:!2025-11-07,175,310!2026-04-13,305,349-->
 
-{@{The star-to-delta and series-resistor transformations}@} are {@{special cases of the general resistor network node elimination algorithm}@}. {@{Any node connected by _N_ resistors \(_R_<sub>1</sub> … _R<sub>N</sub>_\) to nodes __1__ … ___N___}@} can be {@{replaced by ${\tbinom {N}{2} }$ resistors interconnecting the remaining _N_ nodes}@}. {@{The resistance between any two nodes _x, y_}@} is given by: {@{$$R_{\mathrm {xy} }=R_{x}R_{y}\sum _{i=1}^{N}{\frac {1}{R_{i} } }$$}@} <!--SR:!2026-02-03,249,330!2026-06-08,351,349!2026-01-18,236,330!2026-04-27,318,349!2026-03-24,285,330!2025-07-29,83,300-->
+{@{The star-to-delta and series-resistor transformations}@} are {@{special cases of the general resistor network node elimination algorithm}@}. {@{Any node connected by _N_ resistors \(_R_<sub>1</sub> … _R<sub>N</sub>_\) to nodes __1__ … ___N___}@} can be {@{replaced by ${\tbinom {N}{2} }$ resistors interconnecting the remaining _N_ nodes}@}. {@{The resistance between any two nodes _x, y_}@} is given by: {@{$$R_{\mathrm {xy} }=R_{x}R_{y}\sum _{i=1}^{N}{\frac {1}{R_{i} } }$$}@} <!--SR:!2026-02-03,249,330!2026-06-08,351,349!2026-01-18,236,330!2026-04-27,318,349!2026-03-24,285,330!2026-07-18,352,320-->
 
 For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }+{\frac {1}{R_{c} } }\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2025-11-14,178,310!2025-11-19,173,310-->
 
@@ -119,7 +119,7 @@ For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of th
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2025-12-09,201,329!2026-06-09,352,349!2026-01-29,244,330!2026-07-18,386,360!2026-02-09,254,330!2026-06-29,369,360-->
 
 - [Norton's theorem](Norton's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal current generator and a parallel impedance. <!--SR:!2026-05-20,333,349!2026-06-23,365,360-->
-- [Thévenin's theorem](Thévenin's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal voltage generator plus a series impedance. <!--SR:!2025-07-26,84,270!2025-10-25,163,320-->
+- [Thévenin's theorem](Thévenin's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal voltage generator plus a series impedance. <!--SR:!2026-06-15,324,290!2025-10-25,163,320-->
 
 ## simple networks
 

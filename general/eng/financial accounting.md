@@ -31,7 +31,7 @@ Financial accounting is {@{the preparation of financial statements that can be c
 __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2025-08-15,261,330!2027-03-29,708,330-->
 
 - __Relevance__ ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-10-21,293,290!2025-09-09,259,290-->
-- __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-07-29,209,270!2026-04-16,333,270-->
+- __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2027-09-30,792,290!2026-04-16,333,270-->
 
 __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2025-10-24,277,290!2028-06-28,1078,350-->
 
@@ -171,11 +171,11 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 
 Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2025-08-19,263,330!2027-04-30,730,330-->
 
-Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2025-07-30,246,330-->
+Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2028-08-24,1121,350-->
 
-When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!2026-09-01,551,330!2028-06-23,1073,350!2025-08-01,250,330-->
+When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!2026-09-01,551,330!2028-06-23,1073,350!2028-09-15,1141,350-->
 
-However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
+However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2028-08-12,1111,350-->
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2027-07-04,777,330!2027-03-17,699,330-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2027-04-29,721,330-->

@@ -94,7 +94,7 @@ The key to the theory of the game is {@{the [binary](binary%20number.md) [digita
   010_2    2_10    The nim-sum of heaps A, B, and C, 3 ⊕ 4 ⊕ 5 = 2
 ```
 
-An equivalent procedure, which is often easier to perform mentally, is to {@{express the heap sizes as sums of distinct [powers](exponentiation.md) of 2, cancel pairs of equal powers, and then add what is left}@}: <!--SR:!2025-07-28,203,310-->
+An equivalent procedure, which is often easier to perform mentally, is to {@{express the heap sizes as sums of distinct [powers](exponentiation.md) of 2, cancel pairs of equal powers, and then add what is left}@}: <!--SR:!2027-12-11,866,330-->
 
 ```text
 3 = 0 + 2 + 1 =     2   1      Heap A

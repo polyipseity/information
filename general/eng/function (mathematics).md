@@ -208,7 +208,7 @@ When {@{a function is defined this way}@}, {@{the determination of its domain is
 
 For example, {@{$f(x)={\sqrt {1+x^{2} } }$}@} defines {@{a function $f:\mathbb {R} \to \mathbb {R}$ whose domain is $\mathbb {R}$}@}, because {@{$1+x^{2}$ is always positive if _x_ is a real number}@}. On the other hand, {@{$f(x)={\sqrt {1-x^{2} } }$}@} defines {@{a function from the reals to the reals whose domain is reduced to the interval \[−1, 1\]}@}. \(In old texts, such a domain was called {@{the _domain of definition_ of the function}@}.\) <!--SR:!2026-06-26,398,365!2026-03-06,304,350!2026-03-07,305,350!2026-03-16,314,350!2026-06-21,394,365!2026-06-22,393,367-->
 
-Functions can be {@{classified by the nature of formulas that define them}@}: (annotation: 5 items: {@{quadratic function, polynomial function, rational function, algebraic function, elementary function}@}) <!--SR:!2026-04-10,323,350!2025-08-02,127,290-->
+Functions can be {@{classified by the nature of formulas that define them}@}: (annotation: 5 items: {@{quadratic function, polynomial function, rational function, algebraic function, elementary function}@}) <!--SR:!2026-04-10,323,350!2026-12-30,515,310-->
 
 - A [quadratic function](quadratic%20function.md) ::@:: is a function that may be written $f(x)=ax^{2}+bx+c$, where _a_, _b_, _c_ are [constants](constant%20(mathematics).md). <!--SR:!2026-04-16,329,350!2026-07-03,399,367-->
 - More generally, a [polynomial function](polynomial%20function.md#polynomial%20functions) ::@:: is a function that can be defined by a formula involving only additions, subtractions, multiplications, and [exponentiation](exponentiation.md) to nonnegative integer powers. For example, $f(x)=x^{3}-3x-1$ and $f(x)=(x-1)(x^{3}+1)+2x^{2}-1$ are polynomial functions of $x$. <!--SR:!2026-04-28,341,350!2025-10-04,180,327-->
@@ -232,7 +232,7 @@ In this example, {@{the equation can be solved in _y_}@}, giving {@{$y=\pm {\sqr
 
 ### using differential calculus
 
-Many functions can be {@{defined as the [antiderivative](antiderivative.md) of another function}@}. This is the case of {@{the [natural logarithm](natural%20logarithm.md)}@}, which is {@{the antiderivative of 1/_x_ that is 0 for _x_ = 1}@}. Another common example is {@{the [error function](error%20function.md)}@}. <!--SR:!2026-05-04,347,350!2026-06-23,397,367!2025-08-01,130,310!2026-06-06,380,365-->
+Many functions can be {@{defined as the [antiderivative](antiderivative.md) of another function}@}. This is the case of {@{the [natural logarithm](natural%20logarithm.md)}@}, which is {@{the antiderivative of 1/_x_ that is 0 for _x_ = 1}@}. Another common example is {@{the [error function](error%20function.md)}@}. <!--SR:!2026-05-04,347,350!2026-06-23,397,367!2027-02-16,564,330!2026-06-06,380,365-->
 
 More generally, {@{many functions, including most [special functions](special%20function.md)}@}, can be defined as {@{solutions of [differential equations](differential%20equation.md)}@}. The simplest example is probably {@{the [exponential function](exponential%20function.md)}@}, which can be defined as {@{the unique function that is equal to its derivative and takes the value 1 for _x_ = 0}@}. <!--SR:!2026-06-09,383,365!2026-06-23,393,367!2026-05-11,353,350!2026-07-07,403,367-->
 

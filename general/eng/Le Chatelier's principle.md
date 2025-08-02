@@ -11,7 +11,7 @@ tags:
 
 # Le Chatelier's principle
 
-{@{__Le Chatelier's principle__}@} is {@{a principle of [chemistry](chemistry.md) used to predict the effect of changes on [chemical equilibra](chemical%20equilibrium.md)}@} that states that {@{when a [thermodynamic equilibrium](thermodynamic%20equilibrium.md) is disturbed by a change, the equilibrium position will change to counteract the change partly}@}. <!--SR:!2025-07-26,15,290!2025-07-27,16,290!2025-07-26,15,290-->
+{@{__Le Chatelier's principle__}@} is {@{a principle of [chemistry](chemistry.md) used to predict the effect of changes on [chemical equilibra](chemical%20equilibrium.md)}@} that states that {@{when a [thermodynamic equilibrium](thermodynamic%20equilibrium.md) is disturbed by a change, the equilibrium position will change to counteract the change partly}@}. <!--SR:!2025-09-27,63,310!2025-10-06,67,310!2025-09-27,63,310-->
 
 ## references
 

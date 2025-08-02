@@ -77,7 +77,7 @@ value proposition canvas
 - customer discovery→::@::←customer segmentation <!--SR:!2026-03-10,509,310!2026-03-21,520,310-->
 - customer segmentation→::@::←customer validation <!--SR:!2026-11-22,594,270!2026-06-22,558,290-->
 - customer validation→::@::←design thinking <!--SR:!2026-08-18,472,230!2027-10-10,893,290-->
-- design thinking→::@::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2026-03-18,268,170!2025-07-30,214,230-->
+- design thinking→::@::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2026-03-18,268,170!2027-06-29,696,250-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→::@::←product validation <!--SR:!2027-06-25,722,250!2025-10-19,247,210-->
 - product validation→::@::←value proposition canvas <!--SR:!2026-05-23,356,190!2027-11-01,867,270-->
 - value proposition canvas→::@::←_(end)_ <!--SR:!2028-03-20,1110,350!2026-10-06,558,270-->
@@ -90,7 +90,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {@{identifying assumptions, issues, and relationships}@}. From said information, {@{conclusions, deductions, and inferences can be made}@}. It also helps with {@{evaluating authority, evidence, and logicalness of your thinking}@}, {@{making self-corrections}@} as necessary. Finally, you can {@{present your solution persuasively}@}. <!--SR:!2026-09-22,620,321!2027-10-30,944,341!2026-06-14,547,321!2025-07-27,323,341!2029-06-29,1447,361-->
+The case method, i.e. using case analysis for teaching, can teach {@{identifying assumptions, issues, and relationships}@}. From said information, {@{conclusions, deductions, and inferences can be made}@}. It also helps with {@{evaluating authority, evidence, and logicalness of your thinking}@}, {@{making self-corrections}@} as necessary. Finally, you can {@{present your solution persuasively}@}. <!--SR:!2026-09-22,620,321!2027-10-30,944,341!2026-06-14,547,321!2029-09-20,1510,361!2029-06-29,1447,361-->
 
 ### case analysis elements
 
@@ -132,7 +132,7 @@ root cause analysis, 5 whys
 
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←4P: McCarthy's 4 Ps <!--SR:!2028-04-14,1003,321!2025-08-02,327,341-->
+- _(begin)_→::@::←4P: McCarthy's 4 Ps <!--SR:!2028-04-14,1003,321!2029-10-16,1536,361-->
 - 4P: McCarthy's 4 Ps→::@::←5-step persuasive selling <!--SR:!2026-03-27,399,261!2026-06-10,495,301-->
 - 5-step persuasive selling→::@::←5C: Chernev 5C framework <!--SR:!2026-03-12,433,301!2026-03-12,477,321-->
 - 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2028-03-23,998,301!2026-09-08,609,321-->

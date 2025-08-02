@@ -35,7 +35,7 @@ tags:
 
 [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-12-18,250,330!2025-12-17,249,330-->
 
-(annotation: full form) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-08-01,125,290!2025-08-22,137,290-->
+(annotation: full form) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2026-12-24,510,310!2025-08-22,137,290-->
 
 ## see also
 

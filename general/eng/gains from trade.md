@@ -9,7 +9,7 @@ tags:
 
 # gains from trade
 
-In [economics](economics.md), __gains from trade__ are {@{the net benefits to [economic agents](agent%20(economics).md) from being allowed an increase in voluntary [trading](trade.md) with each other}@}. In technical terms, they are {@{the increase of [consumer surplus](economic%20surplus.md#consumer%20surplus)<sup>[\[1\]](#^ref-1)</sup> plus [producer surplus](economic%20surplus.md#producer%20surplus)<sup>[\[2\]](#^ref-2)</sup> from lower [tariffs](tariff.md)<sup>[\[3\]](#^ref-3)</sup> or otherwise [liberalizing trade](free%20trade.md)}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-07-01,437,310!2025-07-28,193,310-->
+In [economics](economics.md), __gains from trade__ are {@{the net benefits to [economic agents](agent%20(economics).md) from being allowed an increase in voluntary [trading](trade.md) with each other}@}. In technical terms, they are {@{the increase of [consumer surplus](economic%20surplus.md#consumer%20surplus)<sup>[\[1\]](#^ref-1)</sup> plus [producer surplus](economic%20surplus.md#producer%20surplus)<sup>[\[2\]](#^ref-2)</sup> from lower [tariffs](tariff.md)<sup>[\[3\]](#^ref-3)</sup> or otherwise [liberalizing trade](free%20trade.md)}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-07-01,437,310!2027-11-10,835,330-->
 
 ## dynamics
 

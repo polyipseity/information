@@ -114,7 +114,7 @@ return _chain.from_iterable(await _gather(
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2026-02-03,611,241-->
 - [polypropylene](polypropylene.md) (PP):@:high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2025-08-31,160,150-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2026-04-08,435,201-->
-- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2025-08-01,120,130-->
+- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2026-01-07,159,130-->
 
 <!--/pytextgen-->
 

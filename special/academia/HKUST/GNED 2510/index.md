@@ -52,7 +52,7 @@ The content is in teaching order.
 - topic: Innerview (II): Together we redefine Success
 - ideal life
 - powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2027-07-15,771,330!2025-09-19,280,330-->
-- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2025-07-30,239,330!2028-03-16,987,350-->
+- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2028-07-24,1087,350!2028-03-16,987,350-->
 
 ## week 3 tutorial
 
@@ -65,7 +65,7 @@ The content is in teaching order.
 - datetime: 2023-09-27T17:00:00+08:00/2023-09-27T18:50:00+08:00
 - topic: Portfolio Building (I)
 - skill vs. will
-- job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2026-11-28,605,330!2025-07-30,217,310-->
+- job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2026-11-28,605,330!2028-02-19,931,330-->
   - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2025-09-01,265,330!2025-08-04,242,330-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2025-10-21,300,330-->
 - [résumé](../../../résumé.md)
@@ -99,16 +99,16 @@ The content is in teaching order.
 - stress ::@:: mental or emotional strain or tension <!--SR:!2027-01-21,647,330!2027-07-25,781,330-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2026-03-19,395,310!2027-04-22,715,330-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2027-09-07,825,330!2027-07-29,788,330-->
-- SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2028-04-30,1022,350!2025-08-01,241,330-->
+- SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2028-04-30,1022,350!2028-08-03,1097,350-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2028-06-30,1071,350!2025-08-27,263,330-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2027-04-24,717,330!2025-10-22,301,330-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2025-09-12,273,330!2027-03-23,692,330-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2027-07-20,776,330-->
-  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2027-07-18,777,330!2025-07-31,240,330-->
-    - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2025-07-29,216,310!2025-08-29,262,330-->
+  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2027-07-18,777,330!2028-07-29,1092,350-->
+    - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2027-06-10,677,310!2025-08-29,262,330-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2028-07-05,1076,350!2028-06-12,1056,350-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2027-06-19,748,330!2025-08-28,261,330-->
-  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2027-12-23,920,350!2025-07-26,237,330-->
+  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2027-12-23,920,350!2028-07-15,1078,350-->
 
 ## week 7 tutorial
 

@@ -24,7 +24,7 @@ tags:
 > {@{$$R_\mathrm{val} = \frac{\Delta T}{\phi_q}$$}@}
 >
 > - where
->   - {@{$R_\mathrm{val}$ is the ___R_-value__ of a barrier that has [heat flux](heat%20flux.md) of $\phi_q$ through it when exposed to a [temperature](temperature.md) difference of $\Delta T$}@} <!--SR:!2025-07-27,285,230!2026-01-01,520,310-->
+>   - {@{$R_\mathrm{val}$ is the ___R_-value__ of a barrier that has [heat flux](heat%20flux.md) of $\phi_q$ through it when exposed to a [temperature](temperature.md) difference of $\Delta T$}@} <!--SR:!2028-02-08,926,250!2026-01-01,520,310-->
 
 ## references
 

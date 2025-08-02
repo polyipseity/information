@@ -74,7 +74,7 @@ return chain.from_iterable(await gather(
 
 - _(begin)_→::@::←[new moon](new%20moon.md) <!--SR:!2028-02-22,1029,350!2027-12-28,987,350-->
 - [new moon](new%20moon.md)→::@::←waxing [crescent](crescent.md) <!--SR:!2028-03-27,1056,350!2028-11-29,1247,350-->
-- waxing [crescent](crescent.md)→::@::←first quarter <!--SR:!2026-02-23,390,310!2025-07-30,295,330-->
+- waxing [crescent](crescent.md)→::@::←first quarter <!--SR:!2026-02-23,390,310!2029-04-01,1341,350-->
 - first quarter→::@::←waxing gibbous <!--SR:!2026-05-12,471,310!2025-10-30,273,290-->
 - waxing gibbous→::@::←[full moon](full%20moon.md) <!--SR:!2028-11-16,1242,350!2027-04-07,720,330-->
 - [full moon](full%20moon.md)→::@::←waning gibbous <!--SR:!2027-03-04,730,330!2029-03-06,1324,350-->
@@ -102,7 +102,7 @@ return chain.from_iterable(await gather(
 - invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md):@:[new moon](new%20moon.md) <!--SR:!2028-09-03,1178,350-->
 - late morning to post-dusk:@:waxing [crescent](crescent.md) <!--SR:!2026-11-21,549,270-->
 - afternoon to early night:@:first quarter <!--SR:!2026-09-07,547,290-->
-- late afternoon to most of night:@:waxing gibbous <!--SR:!2025-08-01,235,250-->
+- late afternoon to most of night:@:waxing gibbous <!--SR:!2027-11-04,825,270-->
 - all night (sunset to sunrise):@:[full moon](full%20moon.md) <!--SR:!2027-03-20,742,330-->
 - most of night to early morning:@:waning gibbous <!--SR:!2026-07-29,522,310-->
 - late night to morning:@:last quarter <!--SR:!2027-06-22,824,330-->

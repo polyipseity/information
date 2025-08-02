@@ -19,7 +19,7 @@ Business model generation is for {@{the entrepreneurial-spirited, value creators
 
 ## canvas
 
-The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2025-07-31,322,294-->
+The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2029-03-09,1315,314-->
 
 ### building blocks
 
@@ -119,7 +119,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {@{products and services that create value for customer segments}@}. Value propositions can be {@{disruptive or an improvement over existing products}@}. <!--SR:!2025-08-02,306,274!2028-01-08,929,274-->
+The value propositions building block shows {@{products and services that create value for customer segments}@}. Value propositions can be {@{disruptive or an improvement over existing products}@}. <!--SR:!2028-10-14,1169,294!2028-01-08,929,274-->
 
 ##### value sources
 
@@ -167,7 +167,7 @@ risk reduction
 - accessibility→::@::←brand or status <!--SR:!2028-01-05,926,274!2026-08-06,537,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
-- cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2025-07-31,183,177-->
+- cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2026-11-14,469,197-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2025-11-19,225,234-->
 - newness→::@::←performance <!--SR:!2026-02-01,312,277!2027-12-06,913,277-->

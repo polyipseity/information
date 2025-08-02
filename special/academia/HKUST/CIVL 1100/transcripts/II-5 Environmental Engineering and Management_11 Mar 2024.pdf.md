@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2026-11-26,519,270!2026-02-15,256,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-07-31,127,210!2025-09-27,98,170-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2026-04-27,269,210!2025-09-27,98,170-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2026-06-02,367,310!2027-02-16,688,310-->
 

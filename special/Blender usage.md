@@ -54,7 +54,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle edit mode::@::Tab↹ <!--SR:!2030-12-05,2196,330!2033-01-12,2781,336-->
 - open mode pie menu/toggle pose mode::@::Ctrl+Tab↹ <!--SR:!2028-05-16,1423,296!2025-11-07,325,196-->
 - toggle vertex/edge/face mode::@::1/2/3 <!--SR:!2025-08-08,723,336!2027-10-09,1153,296-->
-- toggle vertex/edge/face mode + multiple modes::@::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
+- toggle vertex/edge/face mode + multiple modes::@::+⇧Shift <!--SR:!2026-04-01,832,290!2033-10-25,3007,336-->
 - toggle vertex/edge/face mode + expand/contract selection::@::+Ctrl <!--SR:!2030-06-08,1832,296!2025-10-24,557,256-->
 - toggle gizmos::@::Ctrl+\` <!--SR:!2026-05-09,300,170!2026-08-05,404,196-->
 - start walk/fly navigation::@::⇧Shift+\` <!--SR:!2027-12-15,899,250!2026-03-24,254,170-->

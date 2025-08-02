@@ -13,7 +13,7 @@ tags:
 
 > {@{![Permutation with one of its inversions highlighted.](../../archives/Wikimedia%20Commons/Inversion%20qtl1.svg)}@}
 >
-> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2025-12-14,294,332!2025-12-15,295,332!2025-08-02,183,312!2025-11-11,270,332-->
+> {@{Permutation with one of its inversions highlighted}@}. An inversion may be denoted by {@{the pair of places \(2, 4\) or the pair of elements \(5, 2\)}@}. {@{The inversions of this permutation using element-based notation}@} are: {@{\(3, 1\), \(3, 2\), \(5, 1\), \(5, 2\), and \(5,4\)}@}. <!--SR:!2026-12-21,556,312!2025-12-14,294,332!2025-12-15,295,332!2027-10-01,790,332!2025-11-11,270,332-->
 
 In {@{[computer science](computer%20science.md) and [discrete mathematics](discrete%20mathematics.md)}@}, {@{an __inversion__}@} in {@{a sequence is a pair of elements that are out of their natural [order](total%20order.md)}@}. <!--SR:!2025-10-28,257,332!2025-11-21,278,332!2025-11-20,277,332-->
 
@@ -57,7 +57,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-03,119,252!2026-06-22,392,292-->
 
-- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2025-09-13,92,252!2025-07-27,181,312-->
+- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2025-09-13,92,252!2027-02-13,566,312-->
 - inversion vector, symbolically ::@:: $$v(i)~~=~~\#\{k\mid k>i~\land ~\pi ^{-1}(k)<\pi ^{-1}(i)\}$$ <!--SR:!2026-06-21,391,292!2026-11-19,532,312-->
 
 __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!2026-06-05,339,252!2025-08-31,196,312-->
@@ -126,15 +126,15 @@ It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$
 
 > {@{![Permutohedron of the symmetric group S<sub>4</sub>](../../archives/Wikimedia%20Commons/Symmetric%20group%204;%20permutohedron%203D;%20numbers.svg)}@}
 >
-> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2025-07-29,18,357!2025-09-29,66,357-->
+> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2025-10-27,89,377!2025-09-29,66,357-->
 
-{@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2025-07-30,19,357!2025-07-30,19,357!2025-07-31,20,357!2025-07-31,20,357-->
+{@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2025-11-02,95,377!2025-11-02,95,377!2025-11-03,95,377!2025-11-04,96,377-->
 
-{@{The [Hasse diagram](hasse%20diagram.md)}@} of {@{the inversion sets ordered by the [subset](subset.md) relation}@} forms {@{the [skeleton](n-skeleton.md) of a [permutohedron](permutohedron.md)}@}. <!--SR:!2025-07-30,19,357!2025-07-29,18,357!2025-07-31,20,357-->
+{@{The [Hasse diagram](hasse%20diagram.md)}@} of {@{the inversion sets ordered by the [subset](subset.md) relation}@} forms {@{the [skeleton](n-skeleton.md) of a [permutohedron](permutohedron.md)}@}. <!--SR:!2025-11-02,95,377!2025-10-28,90,377!2025-11-03,95,377-->
 
-If {@{a permutation is assigned to each inversion set using the place-based definition}@}, the resulting order of permutations is {@{that of the permutohedron}@}, where {@{an edge corresponds to the swapping of two elements with consecutive values}@}. This is {@{the weak order of permutations}@}. {@{The identity is its minimum}@}, and {@{the permutation formed by reversing the identity is its maximum}@}. <!--SR:!2025-07-29,18,357!2025-07-31,20,357!2025-08-26,35,317!2025-07-31,20,357!2025-07-29,18,357!2025-07-29,18,357-->
+If {@{a permutation is assigned to each inversion set using the place-based definition}@}, the resulting order of permutations is {@{that of the permutohedron}@}, where {@{an edge corresponds to the swapping of two elements with consecutive values}@}. This is {@{the weak order of permutations}@}. {@{The identity is its minimum}@}, and {@{the permutation formed by reversing the identity is its maximum}@}. <!--SR:!2025-10-28,90,377!2025-11-03,95,377!2025-08-26,35,317!2025-11-03,95,377!2025-10-28,90,377!2025-10-26,88,377-->
 
-If {@{a permutation were assigned to each inversion set using the element-based definition}@}, the resulting order of permutations {@{would be that of a [Cayley graph](Cayley%20graph.md)}@}, where {@{an edge corresponds to the swapping of two elements on consecutive places}@}. {@{This Cayley graph of the symmetric group}@} is {@{similar to its permutohedron, but with each permutation replaced by its inverse}@}. <!--SR:!2025-07-30,19,357!2025-07-31,20,357!2025-07-30,19,357!2025-07-29,18,357!2025-07-30,19,357-->
+If {@{a permutation were assigned to each inversion set using the element-based definition}@}, the resulting order of permutations {@{would be that of a [Cayley graph](Cayley%20graph.md)}@}, where {@{an edge corresponds to the swapping of two elements on consecutive places}@}. {@{This Cayley graph of the symmetric group}@} is {@{similar to its permutohedron, but with each permutation replaced by its inverse}@}. <!--SR:!2025-11-03,96,377!2025-11-04,96,377!2025-11-03,96,377!2025-10-29,91,377!2025-11-02,95,377-->
 
 ## see also
 

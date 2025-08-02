@@ -37,7 +37,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __functor__ _F_ from _C_ to _D_}@} is a mapping that<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-02-21,319,346!2026-03-16,341,357-->
 
 - (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2026-01-22,294,330!2026-04-03,355,357-->
-- (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-02-20,319,346!2025-08-01,139,290-->
+- (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2026-02-20,319,346!2027-02-17,565,310-->
   - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2026-01-20,292,330!2026-04-07,359,357-->
   - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2026-03-18,342,357!2026-01-21,293,330-->
 - (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2026-05-30,403,367!2026-05-26,399,367-->
@@ -87,7 +87,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 {@{Two important consequences}@} of the functor [axioms](axiom.md) are: <!--SR:!2026-02-21,320,346-->
 
 - (annotation: commutative diagram) ::@:: _F_ transforms each [commutative diagram](commutative%20diagram.md) in _C_ into a commutative diagram in _D_; <!--SR:!2026-03-20,345,357!2026-04-02,355,357-->
-- (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2025-07-28,104,317!2026-01-22,294,330-->
+- (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2026-11-04,461,337!2026-01-22,294,330-->
 
 One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{_G_ is a functor from _B_ to _C_ then one can form the composite functor _G_ ∘ _F_ from _A_ to _C_}@}. {@{Composition of functors}@} is {@{associative where defined}@}. {@{Identity of composition of functors}@} is {@{the identity functor}@}. This shows that {@{functors can be considered as morphisms in categories of categories}@}, for example in {@{the [category of small categories](category%20of%20small%20categories.md)}@}. <!--SR:!2026-03-23,346,357!2026-03-26,349,357!2026-02-17,316,346!2026-04-11,362,357!2026-01-14,286,330!2026-02-24,322,346!2026-03-12,338,357!2026-03-29,351,357-->
 
@@ -144,16 +144,16 @@ __Tangent and cotangent bundles__
 
 &emsp; The map which {@{sends every [differentiable manifold](differentiable%20manifold.md) to its [tangent bundle](tangent%20bundle.md) and every [smooth map](smooth%20map.md) to its [derivative](derivative.md)}@} is {@{a covariant functor from the category of differentiable manifolds to the category of [vector bundles](vector%20bundle.md)}@}. <!--SR:!2025-09-02,91,206!2025-10-24,183,266-->
 
-&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2027-03-15,610,337!2026-07-03,399,317!2026-01-31,216,230!2025-08-14,167,326!2025-08-02,140,290-->
+&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2027-03-15,610,337!2026-07-03,399,317!2026-01-31,216,230!2025-08-14,167,326!2026-09-13,407,290-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__
 
 &emsp; {@{Every [group](group%20(mathematics).md) _G_}@} can be {@{considered as a category with a single object whose morphisms are the elements of _G_}@}. {@{A functor from _G_ to __Set__}@} is then {@{nothing but a [group action](group%20action%20(mathematics).md) of _G_ on a particular set, i.e. a _G_-set}@}. Likewise, {@{a functor from _G_ to the [category of vector spaces](category%20of%20vector%20spaces.md), __Vect__<sub>_K_</sub>}@}, is {@{a [linear representation](linear%20representation.md) of _G_}@}. In general, {@{a functor _G_ → _C_}@} can be considered as {@{an "action" of _G_ on an object in the category _C_}@}. If {@{_C_ is a group}@}, then {@{this action is a group homomorphism}@}. <!--SR:!2026-03-29,351,357!2026-01-15,287,330!2026-04-01,354,357!2026-03-22,346,357!2026-02-14,313,346!2026-02-27,324,346!2026-01-22,294,330!2027-02-28,596,337!2026-02-25,322,346!2026-03-15,341,357-->
 
-__Lie algebras__ <p> ::@:: &emsp; Assigning to every real \(complex\) [Lie group](Lie%20group.md) its real \(complex\) [Lie algebra](Lie%20algebra.md) defines a functor. <!--SR:!2025-07-30,137,290!2026-11-03,469,317-->
+__Lie algebras__ <p> ::@:: &emsp; Assigning to every real \(complex\) [Lie group](Lie%20group.md) its real \(complex\) [Lie algebra](Lie%20algebra.md) defines a functor. <!--SR:!2027-02-04,553,310!2026-11-03,469,317-->
 
-__Tensor products__ <p> ::@:: &emsp; If _C_ denotes the category of vector spaces over a fixed field, with [linear maps](linear%20operator.md) as morphisms, then the [tensor product](tensor%20product.md) $V\otimes W$ defines a functor _C_ × _C_ → _C_ which is covariant in both arguments.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-04-07,358,357!2025-07-31,138,290-->
+__Tensor products__ <p> ::@:: &emsp; If _C_ denotes the category of vector spaces over a fixed field, with [linear maps](linear%20operator.md) as morphisms, then the [tensor product](tensor%20product.md) $V\otimes W$ defines a functor _C_ × _C_ → _C_ which is covariant in both arguments.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-04-07,358,357!2027-02-14,563,310-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Forgetful functors__

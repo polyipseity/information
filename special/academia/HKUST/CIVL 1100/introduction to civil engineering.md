@@ -39,12 +39,12 @@ The content is in teaching order.
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2028-09-18,1181,320!2027-05-07,867,372-->
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
-    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2025-07-26,364,374-->
+    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2030-09-08,1863,394-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2025-07-30,317,321!2026-03-27,517,352-->
+    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2026-03-27,517,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2026-10-21,698,360-->
@@ -62,7 +62,7 @@ The content is in teaching order.
       - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2026-09-12,532,265!2027-07-04,840,344-->
   - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2028-08-04,1252,387-->
+- geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2029-05-31,1398,325!2028-08-04,1252,387-->
   - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
@@ -148,7 +148,7 @@ quantity surveyor
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2028-05-20,1116,337-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2028-09-19,1202,335-->
-- contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2026-11-22,579,295-->
+- contracting civil engineer→::@::←engineering geologist <!--SR:!2029-01-03,1250,317!2026-11-22,579,295-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2028-08-25,1177,325-->
 - environmental consultant→::@::←quantity surveyor <!--SR:!2027-12-11,903,320!2026-04-23,456,280-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2027-06-02,873,360!2026-02-13,409,340-->
@@ -357,7 +357,7 @@ transportation
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←construction <!--SR:!2027-10-18,1008,375!2027-02-18,827,395-->
-- construction→::@::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
+- construction→::@::←environmental <!--SR:!2029-09-27,1517,360!2025-12-22,480,400-->
 - environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2026-12-16,708,345-->
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
@@ -639,7 +639,7 @@ water
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
 - noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
 - waste→::@::←water <!--SR:!2027-10-08,990,377!2028-08-19,1238,380-->
-- water→::@::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
+- water→::@::←_(end)_ <!--SR:!2025-11-18,455,400!2030-06-19,1782,400-->
 
 <!--/pytextgen-->
 
@@ -912,8 +912,8 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←artificial stone <!--SR:!2028-07-09,1092,317!2025-07-31,398,365-->
-- artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
+- _(begin)_→::@::←artificial stone <!--SR:!2028-07-09,1092,317!2031-01-18,1995,385-->
+- artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2029-10-08,1528,355-->
 - cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
 - fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2025-08-14,344,335-->
@@ -1097,7 +1097,7 @@ water tower
 - _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
 - bridge→::@::←building <!--SR:!2027-01-09,715,350!2026-01-07,496,400-->
 - building→::@::←dam <!--SR:!2029-02-06,1371,381!2027-09-27,983,381-->
-- dam→::@::←power plant <!--SR:!2025-12-12,367,301!2025-07-27,283,258-->
+- dam→::@::←power plant <!--SR:!2025-12-12,367,301!2028-05-20,1022,278-->
 - power plant→::@::←storage facility <!--SR:!2027-03-08,767,320!2028-07-07,1100,354-->
 - storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2025-09-29,392,340-->
 - tunnel→::@::←unusual structure <!--SR:!2027-03-28,714,267!2026-04-05,535,340-->
@@ -1144,7 +1144,7 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2029-03-13,1339,340!2030-01-09,1679,370-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2028-03-28,1076,335!2028-02-27,1053,335-->
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2025-08-02,322,317-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2029-06-13,1411,337-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2028-08-21,1183,336-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2028-08-26,1178,327-->
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←groundwater quality control <!--SR:!2025-11-29,417,340!2027-04-06,857,377-->
-- groundwater quality control→::@::←wastewater recycling <!--SR:!2025-08-01,248,275!2025-12-01,340,280-->
+- groundwater quality control→::@::←wastewater recycling <!--SR:!2028-03-10,951,295!2025-12-01,340,280-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2027-04-11,815,337-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2026-01-29,404,280!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->

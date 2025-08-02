@@ -19,7 +19,7 @@ tags:
     2. training: backward ::@:: Update the weights: $$w_i(t + 1) = w_i(t) + r (d_j - y_j(t)) x_{j, i}$$ for all features $0 \le i \le n$. $r$ is the [learning rate](learning%20rate.md). <!--SR:!2025-09-15,276,250!2026-08-11,576,310-->
 3. termination ::@:: For [offline training](offline%20training.md), the second step may be repeated until the batch or iteration error $\frac 1 s \sum_{j = 1}^s \lvert d_j - y_j(t) \rvert$ is less than a user-defined threshold $\gamma$, or a predetermined number of batches or iterations have been completed. $s$ is the batch or iteration (not to be confused with epoch) size. <!--SR:!2026-01-10,349,250!2028-08-03,1107,310-->
 
-Since {@{$x_{j, 0} = 1$ always}@}, $w_0$ is {@{effectively the bias $b$}@}. Thus the above algorithm {@{already includes updating the bias: $$b(t + 1) = b(t) + r(d_j - y_j(t))$$}@}. <!--SR:!2028-06-12,1133,350!2026-09-25,631,330!2025-07-26,272,290-->
+Since {@{$x_{j, 0} = 1$ always}@}, $w_0$ is {@{effectively the bias $b$}@}. Thus the above algorithm {@{already includes updating the bias: $$b(t + 1) = b(t) + r(d_j - y_j(t))$$}@}. <!--SR:!2028-06-12,1133,350!2026-09-25,631,330!2028-07-27,1097,310-->
 
 ### convergence of one perceptron on a linearly separable dataset
 

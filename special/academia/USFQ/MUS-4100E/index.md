@@ -233,7 +233,7 @@ The content is in teaching order.
   - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00, PT1H20M
 - [the Great Migration](../../../../general/Great%20Migration%20(African%20American).md) (1910s–1970) ::@:: Movement of African Americans from the rural south to the urban north; estimated 1.5 million migrated during 1916–1930. <p> This resulted in the Harlem Renaissance later. <!--SR:!2025-11-01,205,358!2025-11-10,212,358-->
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2026-09-20,473,398!2026-10-22,493,398-->
-- [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2026-03-10,314,378!2025-07-26,127,338-->
+- [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2026-03-10,314,378!2027-03-16,591,358-->
   - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2026-05-15,346,378!2027-03-09,592,358-->
   - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-08-24,142,338!2025-11-04,207,358-->
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2026-11-14,516,398!2026-11-26,528,398-->
@@ -294,12 +294,12 @@ The content is in teaching order.
   - Count Basie / fame ::@:: Became popular after white bands had made jazz art. His band was a dance band at first, and would become more art music as it grew. He played with famous singers, e.g. Ella Fitzgerald, Frank Sinatra, Tony Bennett, etc. <!--SR:!2025-10-27,180,352!2026-01-27,238,352-->
   - Count Basie / works ::@:: "Wind Machine" — Count Basie <!--SR:!2027-03-14,609,412!2026-10-10,475,392-->
 - [Cotton Club](../../../../general/Cotton%20Club.md) ::@:: It was a 20th-century nightclub in New York City, originally in Harlem, NYC. They were white only, but had black performers, playing "_jungle music_". They also had a national radio show. <!--SR:!2027-06-01,676,412!2026-05-10,341,372-->
-- [Duke Ellington](../../../../general/Duke%20Ellington.md) (1899–1974) ::@:: He was a bandleader, composer, and pianist, leading the Duke Ellington Orchestra. He developed his style in the Cotton Club, which was called "_jungle music_" early on. He composed many pieces that have become jazz _standards_. <!--SR:!2025-07-27,128,392!2026-10-01,466,392-->
+- [Duke Ellington](../../../../general/Duke%20Ellington.md) (1899–1974) ::@:: He was a bandleader, composer, and pianist, leading the Duke Ellington Orchestra. He developed his style in the Cotton Club, which was called "_jungle music_" early on. He composed many pieces that have become jazz _standards_. <!--SR:!2027-06-18,685,412!2026-10-01,466,392-->
   - Duke Ellington / "jungle music" ::@:: Jazz music style from late 1920s to 1930s. It used sounds that were considered "African": use of growling lines, mutes \(sordinas\), primitive sounds, toms, etc. to get different sounds like African and exotic animals. <!--SR:!2027-05-13,659,412!2027-06-02,677,412-->
   - Duke Ellington / works ::@:: "Jungle Nights in Harlem" (1930) — Duke Ellington & His Cotton Club Orchestra <!--SR:!2026-10-11,476,392!2026-10-09,474,392-->
   - Duke Ellington Orchestra ::@:: His band was full of "specialists". Each musician/instrumentalist had something unique on how they played, and music was written around this. Duke made each music/instrumentalist do more than playing, and orchestrated uniquely and unusually. <!--SR:!2027-05-27,671,412!2027-03-26,621,412-->
     - Duke Ellington Orchestra / Juan Tizol (1900–1984) ::@:: He was the first popular Latino in jazz. He played valve trombone. <p> An example of "jungle music": "Caravan" (1937) — Duke Ellington <!--SR:!2026-05-15,346,372!2026-05-15,346,372-->
-    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2025-07-27,128,392!2025-08-05,117,332-->
+    - Duke Ellington Orchestra / Jimmy Blanton (1918–1942)::@:: He was almost solely responsible for advancing bass in its role and technique. He was the first bass player to solo sounding "like a horn". <p> An example of "jungle music": "Ko-Ko" (1940) — Duke Ellington <!--SR:!2027-06-17,684,412!2025-08-05,117,332-->
     - Duke Ellington Orchestra / [_Black, Brown and Beige_](../../../../general/Black,%20Brown%20and%20Beige.md) (1943) ::@:: It was an extended jazz work written by Duke Ellington for his _first_ concert at Carnegie Hall, on January 23, 1943. It tells a story of the African American struggle. It contains improvisation and swing, but not dance music. This signified jazz moving from dance halls to concert halls. <!--SR:!2026-01-06,251,372!2026-01-25,236,372-->
     - Duke Ellington Orchestra / Billy Strayhorn (1915–1967) ::@:: He was hired when he was 25. He did almost all arranging for the band until he died, and composed many signature tunes. He stayed out of the spotlight and largely responsible for developing Duke's style. One could not tell who wrote what tunes. <p> Duke's "theme song": "Take the A Train" — Duke Ellington <!--SR:!2025-09-17,152,352!2026-10-21,486,392-->
 - [popular music](../../../../general/popular%20music.md)
@@ -307,7 +307,7 @@ The content is in teaching order.
 - [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2027-05-17,663,412!2026-09-20,461,392-->
 - [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!2026-09-13,454,392!2027-04-13,636,412-->
   - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2027-03-21,616,412!2027-05-07,653,412-->
-  - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2026-10-20,485,392!2025-07-26,127,392-->
+  - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2026-10-20,485,392!2027-06-16,683,412-->
 - assignment: (none)
 
 ## week 5 lecture 2
@@ -318,20 +318,20 @@ The content is in teaching order.
   - popular music / in older times
 - jazz standard
 - thirty-two-bar form
-- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries. <!--SR:!2025-08-02,130,396!2025-07-26,124,396-->
+- [Tin Pan Alley](../../../../general/Tin%20Pan%20Alley.md) ::@:: It was a collection of music publishers and songwriters in New York City that dominated the popular music of the United States in the late 19th and early 20th centuries. <!--SR:!2027-07-06,703,416!2027-06-04,671,416-->
   - Tin Pan Alley / composers: Cole Porter, George & Ira Gershwin, Harold Arlen, Rodgers & Hart, Sammy Kahn
-- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2027-05-20,664,416!2025-07-30,127,396-->
-  - contrafact / example ::@:: "Cottontail" — Duke Ellington <!--SR:!2025-07-31,128,396!2025-07-26,124,396-->
+- [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2027-05-20,664,416!2027-06-19,686,416-->
+  - contrafact / example ::@:: "Cottontail" — Duke Ellington <!--SR:!2027-06-23,690,416!2027-06-03,670,416-->
 - [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2026-09-28,463,396!2026-02-17,259,356-->
-  - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2025-07-29,127,396!2027-05-16,660,416-->
-  - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller <!--SR:!2026-09-29,464,396!2025-07-27,125,396-->
+  - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2027-06-21,688,416!2027-05-16,660,416-->
+  - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller <!--SR:!2026-09-29,464,396!2027-06-09,676,416-->
 - [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2026-11-14,479,356!2025-10-31,197,376-->
-  - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2026-11-02,497,396!2025-07-27,125,396-->
+  - Benny Goodman / & Fletcher Henderson ::@:: He ws going to lose his band until he hired Fletcher Henderson to arrange. Fletcher took popular songs and arranged them for the band. (White musicians playing black arrangements?) <!--SR:!2026-11-02,497,396!2027-06-10,677,416-->
   - Benny Goodman / claim to fame ::@:: He had a horrible cross country tour except for the last show in Los Angeles. His orchestra played at the Palomar Ballroom for 3 weeks and made him a pop star. <!--SR:!2026-11-15,480,356!2027-04-06,627,416-->
 - [_The Famous 1938 Carnegie Hall Jazz Concert_](../../../../general/The%20Famous%201938%20Carnegie%20Hall%20Jazz%20Concert.md) ::@:: Carnegie Hall is one of the most famous _classical_ concert halls. It marks the transformation of jazz into art, and it becomes mainstream American culture. <!--SR:!2027-04-20,636,416!2027-04-23,639,416-->
-  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2025-07-28,126,396!2026-11-07,472,356-->
+  - _The Famous 1938 Carnegie Hall Jazz Concert_ / activities ::@:: Benny Goodman, his band, and other guests played. There was an _integrated_ jam session featuring members of Baise, Benny, and Duke. It paved the way for jam session culture. <!--SR:!2027-06-15,682,416!2026-11-07,472,356-->
 - Benny Goodman
-  - Benny Goodman / works ::@:: "Moonglow" — Benny Goodman <br/> "Sing, Sing, Sing" — Benny Goodman <br/> "Stompin' at the Savoy" — Benny Goodman <!--SR:!2027-04-18,634,416!2025-07-30,127,396-->
+  - Benny Goodman / works ::@:: "Moonglow" — Benny Goodman <br/> "Sing, Sing, Sing" — Benny Goodman <br/> "Stompin' at the Savoy" — Benny Goodman <!--SR:!2027-04-18,634,416!2027-06-20,687,416-->
 - swing era
   - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
@@ -342,11 +342,11 @@ The content is in teaching order.
   - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00, PT1H20M
 - quiz: [quiz 2](questions/quiz%202.md)
 - [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2027-03-31,622,416!2027-04-27,643,416-->
-  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2027-04-17,633,416!2025-08-01,129,396-->
-  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2027-04-28,644,416!2025-08-01,129,396-->
-  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2025-07-31,128,396!2026-09-30,465,396-->
+  - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2027-04-17,633,416!2027-06-30,697,416-->
+  - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2027-04-28,644,416!2027-07-01,698,416-->
+  - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2027-06-24,691,416!2026-09-30,465,396-->
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2026-11-16,481,356!2026-05-18,349,376-->
-  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2025-10-27,193,376!2025-07-29,127,396-->
+  - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2025-10-27,193,376!2027-06-20,687,416-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2026-05-21,352,376!2026-11-28,493,356-->
   - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." — Frank Vignola, jazz guitarist <!--SR:!2026-06-20,382,396!2027-05-22,666,416-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2027-05-03,649,416!2027-05-08,654,416-->
@@ -360,8 +360,8 @@ The content is in teaching order.
   - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00, PT1H20M
 - swing music
   - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2026-11-11,498,402!2025-08-10,133,402-->
-    - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-08-13,134,402!2025-07-30,123,402-->
-- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2026-12-15,520,402!2025-08-02,126,402-->
+    - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-08-13,134,402!2027-06-08,675,422-->
+- [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2026-12-15,520,402!2027-06-23,690,422-->
   - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-08-09,132,402!2026-10-23,481,402-->
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2026-03-07,277,382!2025-08-03,127,402-->
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2026-12-14,519,402!2026-03-14,284,382-->
@@ -372,7 +372,7 @@ The content is in teaching order.
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-08-10,133,402!2025-08-15,136,402-->
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2026-07-19,409,402!2025-08-04,128,402-->
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." — Frank Sinatra, American singer and actor <!--SR:!2026-09-22,457,402!2025-08-12,133,402-->
-- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group ; led the first black band to tour the American South <!--SR:!2026-12-29,534,402!2025-07-31,124,402-->
+- [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group ; led the first black band to tour the American South <!--SR:!2026-12-29,534,402!2027-06-12,679,422-->
   - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer <!--SR:!2025-09-02,142,410!2025-09-01,141,410-->
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2026-09-24,459,402!2025-08-04,128,402-->
   - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2026-12-16,521,402!2025-08-10,133,402-->
@@ -387,15 +387,15 @@ The content is in teaching order.
   - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00, PT1H20M
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2026-12-25,530,402!2025-08-15,136,402-->
   - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2026-12-28,533,402!2026-12-03,514,402-->
-  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2025-08-02,126,402!2025-08-11,134,402-->
+  - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2027-06-24,691,422!2025-08-11,134,402-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2026-11-13,499,402-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2026-12-30,535,402-->
   - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2025-08-08,131,402-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2026-12-26,531,402!2026-12-04,515,402-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2026-03-14,284,382!2026-09-21,456,402-->
-- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2025-08-01,125,402!2025-08-13,134,402-->
-  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" — Vladimir Horowitz, Russian And American pianist <!--SR:!2025-08-02,126,402!2025-08-04,128,402-->
+- [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2027-06-21,688,422!2025-08-13,134,402-->
+  - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" — Vladimir Horowitz, Russian And American pianist <!--SR:!2027-06-22,689,422!2025-08-04,128,402-->
   - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-08-03,127,402!2025-08-08,131,402-->
 - assignment: (none)
 
@@ -464,14 +464,14 @@ The content is in teaching order.
 - datetime: 2025-03-17T08:30:00-05:00/2025-03-17T09:00:00-05:00
   - local: 2025-03-17T21:30:00+08:00/2025-03-17T22:00:00+08:00
 - [Minton's Playhouse](../../../../general/Minton's%20Playhouse.md) ::@:: a jazz club in Harlem, New York City; held regular jam sessions <!--SR:!2025-09-13,141,414!2025-09-08,137,414-->
-  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-09-22,145,414!2025-07-27,99,394-->
+  - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-09-22,145,414!2027-01-21,537,414-->
   - Minton's Playhouse / characteristic ::@:: Many experimental musicians pushing the limits of music. This led to a new "way" to play jazz: bebop. <!--SR:!2025-09-06,135,414!2025-09-14,142,414-->
   - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-09-12,140,414!2025-09-15,143,414-->
 - Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-09-20,143,414!2025-09-21,144,414-->
-  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-09-21,144,414!2025-07-27,99,394-->
+  - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-09-21,144,414!2027-01-24,540,414-->
   - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie <!--SR:!2025-10-20,139,420!2025-10-25,144,420-->
-  - Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2025-07-27,99,394!2026-07-16,385,394-->
-- [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-09-09,138,414!2025-07-27,99,394-->
+  - Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2027-01-17,533,414!2026-07-16,385,394-->
+- [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-09-09,138,414!2027-01-22,538,414-->
   - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-09-07,136,414!2025-09-19,142,414-->
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-09-13,141,414!2025-09-07,136,414-->
 - bebop
@@ -479,7 +479,7 @@ The content is in teaching order.
   - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2026-07-10,380,394!2025-09-08,137,414-->
 - [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-09-12,140,414!2025-09-20,143,414-->
 - bebop
-  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2025-07-27,99,394!2025-09-19,142,414-->
+  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2027-01-23,539,414!2025-09-19,142,414-->
 - Charlie Parker
   - Charlie Parker / effects ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-09-23,146,414!2025-09-15,143,414-->
 - assignment: \(none\)
@@ -692,7 +692,7 @@ The content is in teaching order.
   - Nat King Cole / background ::@:: moved to Chicago \(Great Migration\); pianist from Alabama \(Deep South\); son of a preacher \(gospel\) <!--SR:!2025-12-04,157,442!2025-11-23,147,438-->
   - Nat King Cole / works ::@:: "Kickerooney" \(1950\) — Nat King Cole <br/> "Perhaps, Perhaps, Perhaps" \(1958\) — Nat King Cole <br/> "Unforgettable" \(1991\) — Nat King Cole, Natalie Cole \(his daughter\) <!--SR:!2025-11-26,150,438!2025-12-05,158,441-->
   - Nat King Cole / career ::@:: He started off as a jazz artist. But as jazz shifted from big band swing to bebop, he shifted towards popular music instead, like Frank Sinatra. He later became strictly a jazz/pop singer \(no more piano\) and achieved high levels of fame. In fact, he was the first African American to have a television show. <!--SR:!2025-11-28,152,441!2025-12-03,156,441-->
-  - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2025-07-30,28,435!2025-07-31,29,435-->
+  - Nat King Cole / trio ::@:: He formed the first jazz piano trio, consisting of piano, bass, and drums. Thus this style is also called the "Nat Cole" style. <!--SR:!2026-01-18,169,455!2026-01-24,175,455-->
 - [Oscar Peterson](../../../../general/Oscar%20Peterson.md) \(1925–2007\) ::@:: He was a Canadian jazz pianist and composer. He was a virtuoso who is considered to be one of the greatest jazz pianists of all time. <!--SR:!2025-12-02,155,441!2025-12-04,156,438-->
   - Oscar Peterson / trio ::@:: piano: Oscar Peterson <br/> bass: Ray Brown <br/> drums: Ed Thigpen <!--SR:!2025-11-27,151,438!2025-12-06,158,438-->
     - Oscar Peterson / trio / characteristics ::@:: traditional trio: bluesy, more groove-based, strict 2 feel, swinging, walking bass <!--SR:!2025-10-13,111,418!2025-12-11,163,441-->

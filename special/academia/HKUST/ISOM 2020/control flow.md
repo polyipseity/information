@@ -72,7 +72,7 @@ Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}.
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2025-12-28,359,352!2025-12-25,356,352!2025-12-27,358,352-->
 
-If {@{there are no statements to be executed in a `for`-iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2027-07-14,773,357!2025-07-29,224,357-->
+If {@{there are no statements to be executed in a `for`-iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2027-07-14,773,357!2028-08-11,1105,377-->
 
 ```Python
 for loop_variables in iterable:

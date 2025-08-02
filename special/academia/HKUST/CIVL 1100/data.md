@@ -54,7 +54,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2025-08-07,356,374-->
-- height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-07-31,130,241!2025-09-17,384,377-->
+- height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2026-10-17,441,261!2025-09-17,384,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2030-02-17,1680,400!2029-02-25,1409,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: e75e9185-3454-4c54-a9c9-5a05c6b26732 -->::@:: aluminum, reinforced concrete, steel <!--SR:!2025-10-15,407,341!2027-03-07,764,330-->
 
@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2026-07-11,443,276!2029-05-18,1447,396-->
-- width ::@:: 32.05 m <!--SR:!2025-08-17,163,336!2025-08-02,326,376-->
+- width ::@:: 32.05 m <!--SR:!2025-08-17,163,336!2030-03-11,1682,396-->
 
 ## Mont Cenis Base Tunnel
 
@@ -273,7 +273,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2029-04-11,1410,380!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2028-01-28,1025,330!2029-09-25,1577,384-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2030-03-31,1717,400!2029-08-13,1534,400-->
-- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-08-02,131,197!2027-02-28,756,355-->
+- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2026-08-07,370,217!2027-02-28,756,355-->
 
 ## Taipei 101
 
@@ -282,7 +282,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2026-02-21,535,400-->
 - height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-09-08,75,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2030-01-28,1669,400-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2025-08-01,343,380-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2030-06-20,1783,400-->
 
 ## Thames Barrier
 

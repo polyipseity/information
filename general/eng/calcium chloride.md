@@ -42,7 +42,7 @@ return await memorize_table(
 <!--pytextgen generate section="dd21"--><!-- The following content is generated at 2024-01-04T20:17:51.476474+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[desiccant](desiccant.md) <!--SR:!2027-04-17,812,290!2026-08-02,867,330-->
-- [desiccant](desiccant.md)→::@::←[separation](separation%20process.md) <!--SR:!2025-08-02,532,310!2027-03-20,1038,330-->
+- [desiccant](desiccant.md)→::@::←[separation](separation%20process.md) <!--SR:!2031-10-31,2281,330!2027-03-20,1038,330-->
 - [separation](separation%20process.md)→::@::←_(end)_ <!--SR:!2028-12-13,1619,350!2027-03-16,1035,330-->
 
 <!--/pytextgen-->

@@ -23,7 +23,7 @@ tags:
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2026-11-05,546,190!2028-08-12,1293,270-->
 - toggle unfocused windows::@::⊞Win+Home <!--SR:!2025-11-29,331,190!2025-09-11,176,150-->
 - toggle fullscreen::@::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2027-08-08,1007,250!2029-02-25,1534,310-->
-- show all windows and workspaces::@::⊞Win+Tab↹ <!--SR:!2026-12-02,603,230!2025-07-27,666,290-->
+- show all windows and workspaces::@::⊞Win+Tab↹ <!--SR:!2026-12-02,603,230!2032-12-04,2681,310-->
 - move window to the left/right side::@::⊞Win+←/→ <!--SR:!2029-04-03,1479,270!2027-01-20,706,210-->
 - move window between monitors::@::⊞Win+⇧Shift+←/→ <!--SR:!2026-01-06,553,230!2026-11-10,895,270-->
 - quit application of window::@::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2026-08-28,640,190!2026-11-16,887,270-->

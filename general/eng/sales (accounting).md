@@ -19,7 +19,7 @@ tags:
 
 In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}. <!--SR:!2025-12-26,266,330!2025-12-03,250,330!2025-08-13,156,310!2025-12-04,251,330!2025-12-29,269,330-->
 
-In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2026-01-01,272,330!2025-11-26,244,330!2025-07-27,133,290-->
+In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2026-01-01,272,330!2025-11-26,244,330!2027-01-19,541,310-->
 
 Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2025-12-09,255,330!2026-01-04,274,330!2026-01-23,290,330!2025-11-13,233,330!2026-01-05,275,330!2026-01-04,275,330!2026-01-06,276,330-->
 
@@ -48,9 +48,9 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 
 {@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-05,276,330!2026-01-27,293,330!2025-12-27,267,330!2025-09-22,190,310!2026-01-17,285,330!2025-09-23,191,310-->
 
-{@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}. <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
+{@{Sales Returns and Allowances and Sales Discounts}@} are {@{contra-revenue accounts}@}. <!--SR:!2025-11-11,102,381!2025-11-11,102,381-->
 
-In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded that {@{they found the "sales total" metric very useful}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
+In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded that {@{they found the "sales total" metric very useful}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-10,101,381!2025-11-10,101,381-->
 
 > __General Journal - Sales discount example__
 >
@@ -62,9 +62,9 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 > | 9-7        | {@{Cash}@}                                           | {@{490.00}@} |              |
 > |            | {@{Sales Discounts}@}                                | {@{10.00}@}  |              |
 > |            | &ensp;{@{Accounts Receivable \(Customer A\)}@}       |              | {@{500.00}@} |
-> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361-->
+> |            | A/R {@{paid by Customer A, taking a 2% discount}@}.  |              |              | <!--SR:!2025-11-06,97,381!2025-11-06,97,381!2025-11-07,98,381!2025-11-10,101,381!2025-11-11,102,381!2025-11-09,100,381!2025-11-05,96,381!2025-11-06,97,381!2025-11-08,99,381!2025-11-09,100,381!2025-11-05,96,381!2025-11-09,100,381!2025-11-07,98,381!2025-11-08,99,381!2025-11-07,98,381!2025-11-06,97,381-->
 
-{@{__Revenue__ or __Sales__ reported on the income statement}@} are {@{net sales after deducting Sales Returns and Allowances and Sales Discounts}@}. <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
+{@{__Revenue__ or __Sales__ reported on the income statement}@} are {@{net sales after deducting Sales Returns and Allowances and Sales Discounts}@}. <!--SR:!2025-11-09,100,381!2025-11-06,97,381-->
 
 |                                         |               |                  |
 | --------------------------------------- | ------------- | ---------------- |
@@ -72,19 +72,19 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 | {@{Sales}@}                             |               | {@{\$2,000.00}@} |
 | {@{Less Sales returns and allowances}@} | {@{\$20.00}@} |                  |
 | {@{Sales discounts}@}                   | {@{\$10.00}@} | {@{\$30.00}@}    |
-| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361!2025-08-01,20,361-->
+| {@{Net sales}@}                         |               | {@{\$1,970.00}@} | <!--SR:!2025-11-05,96,381!2025-11-05,96,381!2025-11-08,99,381!2025-11-08,99,381!2025-11-11,102,381!2025-11-11,102,381!2025-11-05,96,381!2025-11-10,101,381!2025-11-11,102,381!2025-11-10,101,381-->
 
 ## unique definitions
 
-When {@{the US government reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
+When {@{the US government reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-05,96,381!2025-11-06,97,381-->
 
 ## other terms
 
-- [Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
-- [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
-- [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
-- [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
-- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-08-01,20,361!2025-08-01,20,361-->
+- [Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2025-11-09,100,381!2025-11-09,100,381-->
+- [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2025-11-08,99,381!2025-11-09,100,381-->
+- [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-11-07,98,381!2025-11-07,98,381-->
+- [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-11-10,101,381!2025-11-07,98,381-->
+- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-11-06,97,381!2025-11-08,99,381-->
 
 ## references
 

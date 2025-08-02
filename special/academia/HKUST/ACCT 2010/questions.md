@@ -37,7 +37,7 @@ tags:
 > 3. They have passed professional examinations.
 >
 > - solution: {@{3}@}
-> - explanation: {@{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}@} <!--SR:!2025-09-18,279,330!2025-07-27,236,330-->
+> - explanation: {@{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}@} <!--SR:!2025-09-18,279,330!2028-07-06,1074,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -148,7 +148,7 @@ tags:
 > 3. statement of cash flow
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@} <!--SR:!2025-07-31,238,330!2028-02-09,960,350-->
+> - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@} <!--SR:!2028-07-20,1083,350!2028-02-09,960,350-->
 
 <!-- markdownlint MD028 -->
 

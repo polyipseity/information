@@ -401,7 +401,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. 1.5 m
 >
 > - solution: {@{1}@}
-> - explanation: {@{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}@} <!--SR:!2025-07-31,287,351!2027-04-29,697,331-->
+> - explanation: {@{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}@} <!--SR:!2029-05-16,1383,371!2027-04-29,697,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {@{4}@}
-> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2025-07-26,248,355!2026-04-11,422,335-->
+> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2027-12-30,880,355!2026-04-11,422,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -588,7 +588,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. by measuring spectral broadening of hydrogen emission lines
 >
 > - solution: {@{2}@}
-> - note: Finally, a question that everyone (who answered) got correctly! The teacher gave away the answer. <!--SR:!2025-08-02,278,375-->
+> - note: Finally, a question that everyone (who answered) got correctly! The teacher gave away the answer. <!--SR:!2028-06-09,1042,375-->
 
 ## student-generated questions
 
@@ -652,7 +652,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 26&nbsp;000 years
 >
 > - solution: {@{3}@}
-> - explanation: {@{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}@} <!--SR:!2026-09-26,545,332!2025-07-26,251,352-->
+> - explanation: {@{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}@} <!--SR:!2026-09-26,545,332!2028-11-28,1214,372-->
 
 ## strip sequence questions
 

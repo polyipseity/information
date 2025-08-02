@@ -78,7 +78,7 @@ Two recommended formats:
 
 - industry experience ::@:: if no salary <!--SR:!2029-05-02,1455,330!2025-08-27,421,373-->
 - work experience ::@:: all, 0 to 3 sub-points according to importance <!--SR:!2027-07-19,1064,350!2030-04-20,1780,393-->
-  - work experience sub-points ::@:: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities <!--SR:!2026-04-01,465,230!2025-07-28,397,373-->
+  - work experience sub-points ::@:: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities <!--SR:!2026-04-01,465,230!2031-02-20,2028,393-->
 
 ### skills
 

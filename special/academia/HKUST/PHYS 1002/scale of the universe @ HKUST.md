@@ -20,7 +20,7 @@ A scale model preserves {@{all size ratios between different objects}@}, while m
 
 ## scale factor of 10 billion
 
-To comprehend {@{the [Solar System](../../../../general/Solar%20System.md)}@}, the scale factor can be {@{10<sup>10</sup>, i.e. 10 billion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2028-03-19,1054,350!2025-07-29,302,338!2028-12-17,1275,358!2029-05-11,1388,358-->
+To comprehend {@{the [Solar System](../../../../general/Solar%20System.md)}@}, the scale factor can be {@{10<sup>10</sup>, i.e. 10 billion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2028-03-19,1054,350!2029-06-07,1406,358!2028-12-17,1275,358!2029-05-11,1388,358-->
 
 ```Python
 # pytextgen generate data
@@ -78,7 +78,7 @@ A real model of this scale factor currently exists in {@{Washington DC, with the
 
 ## scale factor of 10 quintillion
 
-To comprehend {@{the [Milky Way](../../../../general/Milky%20Way.md)}@}, the scale factor can be {@{10<sup>19</sup>, i.e. 10 quintillion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2027-02-03,722,330!2026-12-27,675,326!2027-01-25,721,338!2025-07-28,301,338-->
+To comprehend {@{the [Milky Way](../../../../general/Milky%20Way.md)}@}, the scale factor can be {@{10<sup>19</sup>, i.e. 10 quintillion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2027-02-03,722,330!2026-12-27,675,326!2027-01-25,721,338!2029-06-02,1401,358-->
 
 ```Python
 # pytextgen generate data

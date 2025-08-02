@@ -166,7 +166,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="bba9"--><!-- The following content is generated at 2024-03-06T23:36:40.572889+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md):@:high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2025-08-02,281,283-->
+- [alkaline](alkaline%20battery.md):@:high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2027-10-06,795,283-->
 - [silver oxide](silver%20oxide%20battery.md):@:expensive, lightweight, small, wide operating temperature range <!--SR:!2026-04-23,536,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2026-02-06,484,323-->
 
@@ -185,7 +185,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="983e"--><!-- The following content is generated at 2024-03-06T23:33:30.602829+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md):@:Usually cylindrical. Suitable for high-drain or continuous-use devices. <!--SR:!2029-07-12,1535,383-->
-- [silver oxide](silver%20oxide%20battery.md):@:Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. <!--SR:!2025-08-02,407,383-->
+- [silver oxide](silver%20oxide%20battery.md):@:Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. <!--SR:!2031-06-04,2132,403-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:Usually cylindrical. Suitable for low-drain or intermittent-use devices. <!--SR:!2028-01-31,1098,363-->
 
 <!--/pytextgen-->
@@ -236,7 +236,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="863b"--><!-- The following content is generated at 2024-03-06T23:33:30.773973+08:00. Any edits will be overridden! -->
 
 - [NiMH](nickel–metal%20hydride%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2026-06-14,607,343-->
-- [lead–acid](lead–acid%20battery.md):@:[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) <!--SR:!2025-07-28,363,343-->
+- [lead–acid](lead–acid%20battery.md):@:[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) <!--SR:!2030-04-11,1715,363-->
 - [lithium-ion](lithium-ion%20battery.md):@:[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!2026-06-09,551,303-->
 
 <!--/pytextgen-->

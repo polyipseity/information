@@ -375,7 +375,7 @@ The content is in teaching order.
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
     - § computing PCA using the covariance method > matrix __X__ ::@:: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2025-12-03,405,377!2026-03-23,522,397-->
-    - § computing PCA using the covariance method > covariance matrix __C__ ::@:: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2025-11-02,380,377!2025-07-30,322,377-->
+    - § computing PCA using the covariance method > covariance matrix __C__ ::@:: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2025-11-02,380,377!2030-02-18,1661,397-->
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::@:: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2029-12-17,1615,397!2028-06-15,1157,377-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
         - eigenvalues and eigenvectors § classical method > eigenvector ::@:: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2026-03-28,526,397!2025-08-18,342,377-->
@@ -412,7 +412,7 @@ The content is in teaching order.
   - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
   - [§ terminology](../../../../general/materialized%20view.md#terminology)
   - [§ greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
-- web database ranking considerations ::@:: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2025-07-31,327,377!2026-03-28,526,397-->
+- web database ranking considerations ::@:: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2030-03-15,1686,397!2026-03-28,526,397-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::@:: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2025-11-07,386,377!2026-02-23,494,397-->

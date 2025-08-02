@@ -19,7 +19,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 - see: [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)
 
-{@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2025-07-26,205,310!2025-11-27,305,330!2025-12-08,314,330-->
+{@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2027-12-22,879,330!2025-11-27,305,330!2025-12-08,314,330-->
 
 {@{__Unsigned Stirling numbers of the first kind__}@}, which count {@{the number of [permutations](permutation.md) of _n_ elements with _k_ disjoint [cycles](cyclic%20permutation.md)}@}, are denoted: {@{$${\biggl [}{n \atop k}{\biggr ]}=c(n,k)=|s(n,k)|=(-1)^{n-k}s(n,k)\,$$}@} <!--SR:!2025-11-23,302,330!2025-09-10,225,310!2025-08-20,209,310-->
 
@@ -81,7 +81,7 @@ For {@{any pair of sequences, $\{f_{n}\}$ and $\{g_{n}\}$}@}, related by {@{a fi
 
 For {@{$D=d/dx$}@}, {@{the [differential operators](differential%20operator.md) $x^{n}D^{n}$ and $(xD)^{n}$}@} are {@{related by the following formulas}@} for {@{all integers $n\geq 0$}@}:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{aligned}(xD)^{n}&=\sum _{k=0}^{n}S(n,k)x^{k}D^{k}\\x^{n}D^{n}&=\sum _{k=0}^{n}s(n,k)(xD)^{k}=(xD)_{n}=xD(xD-1)\ldots (xD-n+1)\end{aligned} }$$}@} <!--SR:!2025-08-23,211,310!2025-12-12,263,270!2025-11-24,303,330!2025-08-27,214,310!2026-05-16,307,230-->
 
-{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2025-11-29,307,330!2025-09-22,211,270!2025-12-14,264,270!2025-07-27,41,150-->
+{@{Another pair of "_inversion_" relations involving the [Stirling numbers](Stirling%20number.md)}@} relate {@{the [forward differences](finite%20difference.md) and the ordinary $n^{th}$ [derivatives](derivative.md) of a function, $f(x)$}@}, which is {@{analytic for all $x$}@} by the formulas<sup>[\[8\]](#^ref-8)</sup> {@{$${\frac {1}{k!} }{\frac {d^{k} }{dx^{k} } }f(x)=\sum _{n=k}^{\infty }{\frac {s(n,k)}{n!} }\Delta ^{n}f(x)$$ <br/> $${\frac {1}{k!} }\Delta ^{k}f(x)=\sum _{n=k}^{\infty }{\frac {S(n,k)}{n!} }{\frac {d^{n} }{dx^{n} } }f(x).$$}@} <!--SR:!2025-11-29,307,330!2025-09-22,211,270!2025-12-14,264,270!2025-08-18,22,130-->
 
 ## similar properties
 

@@ -161,8 +161,8 @@ The content is in teaching order.
 - thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2029-01-28,1337,381!2028-12-20,1305,381-->
   - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2029-08-14,1506,381!2029-08-27,1496,381-->
   - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
-  - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2025-07-31,311,361-->
-  - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2025-07-27,307,361-->
+  - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2029-10-20,1540,381-->
+  - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2029-09-29,1519,381-->
 - critical thinking pop quiz
   - content: 10 4-choice questions
   - effect: 0.5% of course grade
@@ -225,7 +225,7 @@ The content is in teaching order.
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2029-10-10,1550,381-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2029-08-29,1516,381-->
-  - cause mapping § symptom ::@:: red background <!--SR:!2025-08-01,312,361!2025-09-13,346,361-->
+  - cause mapping § symptom ::@:: red background <!--SR:!2029-10-30,1550,381!2025-09-13,346,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2028-09-29,1248,381!2025-10-01,385,381-->
@@ -249,13 +249,13 @@ The content is in teaching order.
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
   - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
   - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
-- drawbridge drama ::@:: an analogy to an office drama <!--SR:!2025-08-01,316,377!2026-03-14,520,397-->
+- drawbridge drama ::@:: an analogy to an office drama <!--SR:!2030-01-24,1636,397!2026-03-14,520,397-->
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture
 
 - datetime: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
-- To be successful in business, you need to eat/kill the competition. Right? ::@:: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2025-10-31,412,397!2025-07-28,327,377-->
+- To be successful in business, you need to eat/kill the competition. Right? ::@:: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2025-10-31,412,397!2030-03-18,1689,397-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
