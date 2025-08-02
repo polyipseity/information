@@ -375,7 +375,7 @@ The content is in teaching order.
 - topic: foundations of business intelligence
 - [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate.
   - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc.
-  - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>\), exabytes \(EB, 1000<sup>6</sup>\), etc.
+  - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>&nbsp;B\), exabytes \(EB, 1000<sup>6</sup>&nbsp;B\), etc.
 - business intelligence
   - business intelligence / infrastructure ::@:: many tools for big data and separate systems
   - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc.

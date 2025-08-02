@@ -4,6 +4,7 @@ aliases:
   - HKUST ELEC 1200 homework 2
 tags:
   - date/2025/07/30/from
+  - date/2025/08/02/to
   - flashcard/active/special/academia/HKUST/ELEC_1200/assignments/homework_2
   - language/in/English
 ---

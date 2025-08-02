@@ -17,7 +17,7 @@ The `Range` object can refer to {@{a cell or a range}@}. We can pass {@{a cell r
 
 ### `Cells`
 
-The `Cells` object can refer to {@{a cell}@}. We pass {@{the 1-based row and the 1-based column in order: `Cells(row, column)`, such as `Cells(2, 1)`}@}. By default, the worksheet the cell is on is {@{the currently active worksheet}@}.
+The `Cells` object can refer to {@{a cell}@}. We pass {@{the 1-based row and the 1-based column in order}@}: {@{`Cells(row, column)`, such as `Cells(2, 1)`}@}. By default, the worksheet the cell is on is {@{the currently active worksheet}@}.
 
 ### `Worksheets`
 
