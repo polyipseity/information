@@ -655,7 +655,7 @@ The content is in teaching order.
 - [IP address](../../../../general/IP%20address.md) ::@:: It is a numerical label such as _192.0.2.1_ that is assigned to a device connected to a computer network that uses the Internet Protocol for communication. <p> It is a 32-bit number.
   - IP address / `ipconfig` ::@:: On Windows, running `ipconfig` shows IPv4 address, default gateway, subnet mask, etc.
 - [Domain Name System](../../../../general/Domain%20Name%20System.md) \(DNS\) ::@:: It is a hierarchical and distributed name service that provides a naming system for computers, services, and other resources on the Internet or other Internet Protocol \(IP\) networks. <p> Essentially, this allows you to type meaningful domain names instead of hard-to-remember IP addresses to connect other computers.
-- [URL](../../../../general)(../../../../general/URL.md) ::@:: It is a reference to a resource that specifies its location on a computer network and a mechanism for retrieving it. <p> It consists of protocol prefix, domain name, directory path, and document name.
+- [URL](../../../../general/URL.md) ::@:: It is a reference to a resource that specifies its location on a computer network and a mechanism for retrieving it. <p> It consists of protocol prefix, domain name, directory path, and document name.
 - internet
   - internet / architecture ::@:: Its architecture consists of many components: backbone, internet service provider \(ISP\), metropolitan area exchange \(MAE\), network access point \(NAP\), etc.
 - [internet backbone](../../../../general/internet%20backbone.md) ::@:: It is the principal data routes between large, strategically interconnected computer networks and core routers of the Internet.
