@@ -10,6 +10,7 @@ aliases:
   - ISOM2700 questions
 tags:
   - flashcard/active/special/academia/HKUST/ISOM_2700/questions
+  - function/index
   - language/in/English
 ---
 

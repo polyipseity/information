@@ -175,7 +175,7 @@ Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases i
 
 When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!2026-09-01,551,330!2028-06-23,1073,350!2028-09-15,1141,350-->
 
-However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2028-08-12,1111,350-->
+However, there are {@{instances of accounts, known as contra-accounts}@} \({@{contra-asset, contra-revenue, and contra-equity accounts}@}\), which have {@{a normal balance opposite that listed above}@}. Examples include: <!--SR:!2028-08-12,1111,350-->
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2027-07-04,777,330!2027-03-17,699,330-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2027-04-29,721,330-->

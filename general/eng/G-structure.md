@@ -1,0 +1,1 @@
+G-structure on a manifold.md

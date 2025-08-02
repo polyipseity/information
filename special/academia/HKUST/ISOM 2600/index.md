@@ -203,8 +203,7 @@ The content is in teaching order.
     - distribution: ? → ?
 - report: \(none\)
 - check
-  - datetime
-    - 2025-05-30T14:00:00+08:00/2025-05-30T15:30:00+08:00, PT1H30M
+  - datetime: 2025-05-30T14:00:00+08:00/2025-05-30T15:30:00+08:00, PT1H30M
   - venue: Room 4083, LSKBB
   - report: \(none; did not go\)
 

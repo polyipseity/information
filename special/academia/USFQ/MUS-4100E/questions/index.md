@@ -6,6 +6,7 @@ aliases:
   - USFQ MUS-4100E questions
 tags:
   - flashcard/active/special/academia/USFQ/MUS-4100E/questions
+  - function/index
   - language/in/English
 ---
 

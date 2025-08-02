@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-30 -6.9 61 48.8">
+ <title>Sarrus rule cross product</title>
+ <desc>Use of the Rule of Sarrus (vertical arrangement) to find the cross product of [a1, a2, a3]' and [b1, b2, b3]' by CMG Lee. Hover on a coloured element to highlight it.</desc>
+ <style type="text/css">
+  a:hover { fill-opacity:1; }
+  #common { pointer-events:none; }
+ </style>
+ <defs>
+  <rect id="link" transform="rotate(45)" x="-3" y="-7" width="35" height="6" rx="3" ry="3" opacity="0.25"/>
+  <use id="link_p" xlink:href="#link" fill="#0000ff"/>
+  <use id="link_n" xlink:href="#link" fill="#ff0000" transform="translate(5.7,20.5) rotate(-90)"/>
+  <g id="links_p">
+   <use xlink:href="#link_p"/>
+   <use xlink:href="#link_p" transform="translate(0,10)"/>
+   <use xlink:href="#link_p" transform="translate(0,20)"/>
+   <g fill="#0000ff">
+    <text x="-29" y="0" ><tspan>+</tspan><tspan font-weight="bold">i</tspan><tspan font-style="italic">a</tspan><tspan font-size="4">2</tspan><tspan font-style="italic">b</tspan><tspan font-size="4">3</tspan></text>
+    <text x="-29" y="8" ><tspan>+</tspan><tspan font-style="italic">a</tspan><tspan font-size="4">1</tspan><tspan font-style="italic">b</tspan><tspan font-size="4">2</tspan><tspan font-weight="bold">k</tspan></text>
+    <text x="-29" y="16"><tspan>+</tspan><tspan font-style="italic">b</tspan><tspan font-size="4">1</tspan><tspan font-weight="bold">j</tspan><tspan font-style="italic">a</tspan><tspan font-size="4">3</tspan></text>
+   </g>
+  </g>
+  <g id="links_n">
+   <use xlink:href="#link_n"/>
+   <use xlink:href="#link_n" transform="translate(0,10)"/>
+   <use xlink:href="#link_n" transform="translate(0,20)"/>
+   <g fill="#ff0000">
+    <text x="-29" y="24"><tspan>&#8722;</tspan><tspan font-style="italic">b</tspan><tspan font-size="4">1</tspan><tspan font-style="italic">a</tspan><tspan font-size="4">2</tspan><tspan font-weight="bold">k</tspan></text>
+    <text x="-29" y="32"><tspan>&#8722;</tspan><tspan font-weight="bold">i</tspan><tspan font-style="italic">b</tspan><tspan font-size="4">2</tspan><tspan font-style="italic">a</tspan><tspan font-size="4">3</tspan></text>
+    <text x="-29" y="40"><tspan>&#8722;</tspan><tspan font-style="italic">a</tspan><tspan font-size="4">1</tspan><tspan font-weight="bold">j</tspan><tspan font-style="italic">b</tspan><tspan font-size="4">3</tspan></text>
+   </g>
+  </g>
+  <g id="repeated_rows">
+   <text x="0"  y="0" font-weight="bold">i</text>
+   <text x="10" y="0" font-weight="bold">j</text>
+   <text x="20" y="0" font-weight="bold">k</text>
+   <text x="0"  y="10"><tspan font-style="italic">a</tspan><tspan font-size="4">1</tspan></text>
+   <text x="10" y="10"><tspan font-style="italic">a</tspan><tspan font-size="4">2</tspan></text>
+   <text x="20" y="10"><tspan font-style="italic">a</tspan><tspan font-size="4">3</tspan></text>
+  </g>
+  <g id="common">
+   <rect x="-4999" y="-4999" width="9999" height="9999" fill="#ffffff"/>
+   <path d="M -2,-6 V 20 M 29,-6 V 20" stroke="#000000"/>
+   <g fill="#000000">
+    <text x="0"  y="20"><tspan font-style="italic">b</tspan><tspan font-size="4">1</tspan></text>
+    <text x="10" y="20"><tspan font-style="italic">b</tspan><tspan font-size="4">2</tspan></text>
+    <text x="20" y="20"><tspan font-style="italic">b</tspan><tspan font-size="4">3</tspan></text>
+    <use xlink:href="#repeated_rows"/>
+   </g>
+   <use xlink:href="#repeated_rows" transform="translate(0,30)" fill="#999999"/>
+  </g>
+ </defs>
+ <g font-family="monospace" font-size="8" text-anchor="start" stroke-linecap="round" stroke="none">
+  <use xlink:href="#common"/>
+  <use xlink:href="#links_p"/>
+  <use xlink:href="#links_n"/>
+  <g fill-opacity="0">
+   <a>
+    <use xlink:href="#common"/>
+    <use xlink:href="#links_p"/>
+   </a>
+   <a>
+    <use xlink:href="#common"/>
+    <use xlink:href="#links_n"/>
+   </a>
+  </g>
+ </g>
+</svg>
