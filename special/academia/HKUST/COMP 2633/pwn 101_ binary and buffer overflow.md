@@ -45,7 +45,7 @@ For pwn, it is also important to know {@{the overall structure of an executable 
 
 Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2027-06-10,745,330!2025-10-18,298,330!2028-06-07,1051,350!2027-05-24,728,330!2026-09-20,534,310-->
 
-The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2027-12-09,879,330!2025-08-03,241,330!2028-03-13,985,350-->
+The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2027-12-09,879,330!2028-08-04,1097,350!2028-03-13,985,350-->
 
 ## stack in x86 and x86-64 assembly
 
@@ -106,7 +106,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-10-10,290,330!2028-03-01,976,350-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2025-08-22,257,330!2025-10-07,294,330-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2025-10-13,293,330-->
-- `backtrace` ::@:: print backtrace or call stack <!--SR:!2025-08-03,243,330!2025-08-16,254,330-->
+- `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2025-08-16,254,330-->
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2025-09-09,272,330-->
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->

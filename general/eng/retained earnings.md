@@ -49,7 +49,7 @@ A company is normally subject to {@{a company tax on the net income of the compa
 
 Retaining earnings by a company {@{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}@}. This {@{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}@}. <!--SR:!2025-09-03,268,330!2025-09-03,219,270-->
 
-The decision of {@{whether a corporation should retain net income or have it paid out as dividends}@} depends on several factors including, but not limited to: <!--SR:!2025-08-03,243,330-->
+The decision of {@{whether a corporation should retain net income or have it paid out as dividends}@} depends on several factors including, but not limited to: <!--SR:!2028-08-17,1110,350-->
 
 - [Tax treatment of dividends](dividend%20tax.md), and
 - Funds required for reinvestment in the corporation (called retention).

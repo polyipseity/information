@@ -235,7 +235,7 @@ water security
 - _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2028-02-26,1097,370-->
 - climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
-- food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
+- food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2029-06-12,1409,340-->
 - mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
 - water security→::@::←_(end)_ <!--SR:!2029-07-09,1531,370!2026-02-08,496,357-->
 
@@ -709,7 +709,7 @@ soil liquefaction
 - _(begin)_→::@::←debris flow <!--SR:!2028-01-16,1020,334!2025-11-14,459,398-->
 - debris flow→::@::←landslide <!--SR:!2029-03-09,1357,355!2028-08-11,1199,355-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
-- rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2025-08-03,318,270-->
+- rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2028-11-14,1199,290-->
 - soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
 
 <!--/pytextgen-->

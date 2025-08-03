@@ -72,7 +72,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::@:: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2028-07-16,1173,355!2030-02-19,1672,375-->
   - extra market sizes ::@:: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2028-08-04,1185,355!2029-11-08,1588,375-->
-- visualization ::@:: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2029-12-13,1614,375-->
+- visualization ::@:: Visualization is important to bring your point across. <!--SR:!2030-03-02,1672,367!2029-12-13,1614,375-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
 

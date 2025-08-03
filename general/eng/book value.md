@@ -48,7 +48,7 @@ Financial assets include {@{stock shares and bonds owned by an individual or com
 
 ## corporate book value
 
-{@{A company or corporation's book value}@}, as {@{an asset held by a separate economic entity}@}, is {@{the company or corporation's [shareholders' equity](shareholders'%20equity.md)}@}, {@{the acquisition cost of the shares}@}, or {@{the market value of the shares owned by the separate economic entity}@}. <!--SR:!2026-01-18,285,330!2025-12-30,269,330!2025-08-03,152,310!2025-12-30,271,330!2026-01-14,282,330-->
+{@{A company or corporation's book value}@}, as {@{an asset held by a separate economic entity}@}, is {@{the company or corporation's [shareholders' equity](shareholders'%20equity.md)}@}, {@{the acquisition cost of the shares}@}, or {@{the market value of the shares owned by the separate economic entity}@}. <!--SR:!2026-01-18,285,330!2025-12-30,269,330!2027-05-18,653,330!2025-12-30,271,330!2026-01-14,282,330-->
 
 A corporation's book value is used {@{in fundamental financial analysis to help determine whether the market value of corporate shares}@} is {@{above or below the book value of corporate shares}@}. {@{Neither market value nor book value}@} is {@{an unbiased estimate of a corporation's value}@}. {@{The corporation's bookkeeping or accounting records}@} {@{do not generally reflect the market value of assets and liabilities}@}, and {@{the market or trade value of the corporation's stock}@} is {@{subject to variations}@}. <!--SR:!2025-09-17,183,310!2025-12-14,257,330!2026-01-04,275,330!2025-11-16,235,330!2026-01-04,275,330!2025-09-24,192,310!2025-11-28,246,330!2026-01-08,277,330-->
 

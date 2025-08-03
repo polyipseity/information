@@ -69,7 +69,7 @@ When {@{a monopolist firm is facing an [inelastic demand](price%20elasticity%20o
 
 If {@{the firm is a perfect competitor}@}, where {@{quantity produced and sold has no effect on the market price}@}, then {@{the price elasticity of demand is negative infinity}@} and {@{marginal revenue simply equals the (market-determined) price $(MR=P)$}@}.<sup>[\[27\]](#^ref-27)</sup><sup>[\[31\]](#^ref-31)</sup> <!--SR:!2027-12-06,856,337!2025-10-17,259,337!2025-11-19,287,337!2025-10-07,253,337-->
 
-Therefore, it is essential to {@{be aware of the elasticity of demand}@}. A monopolist prefers to be {@{on the more elastic end of the demand curve in order to gain a positive marginal revenue}@}. This shows that a monopolist {@{reduces output produced up to the point where marginal revenue is positive}@}.<sup>[\[27\]](#^ref-27)</sup><sup>[\[28\]](#^ref-28)</sup> <!--SR:!2025-11-24,291,337!2027-05-26,710,337!2025-08-03,186,317-->
+Therefore, it is essential to {@{be aware of the elasticity of demand}@}. A monopolist prefers to be {@{on the more elastic end of the demand curve in order to gain a positive marginal revenue}@}. This shows that a monopolist {@{reduces output produced up to the point where marginal revenue is positive}@}.<sup>[\[27\]](#^ref-27)</sup><sup>[\[28\]](#^ref-28)</sup> <!--SR:!2025-11-24,291,337!2027-05-26,710,337!2027-10-31,819,337-->
 
 ## marginal revenue and marginal benefit
 
@@ -83,7 +83,7 @@ In {@{[microeconomics](microeconomics.md)}@}, for {@{every unit of input added t
 
 ## law of increasing marginal returns
 
-In contrast to {@{the law of diminishing marginal returns}@}, in {@{a knowledge-dependent economy}@}, as {@{knowledge and technological inputs increase}@}, {@{the output increases and the producer's returns tend to increase}@}. This is {@{an example of increasing marginal revenue}@}; suppose {@{a company produces toy airplanes}@}. After some production, the company spends \$10 in materials and labor to build the 1st toy airplane. The 1st toy airplane sells for \$15, which means {@{the profit on that toy is \$5}@}. Now, suppose that the 2nd toy airplane also costs \$10, but this time it can be sold for \$17. The profit on the 2nd toy airplane is {@{\$2 greater than the profit on the 1st toy airplane}@}. <!--SR:!2025-11-17,285,337!2025-08-23,201,317!2025-10-18,262,337!2025-12-14,307,337!2025-11-25,292,337!2025-11-01,270,330!2025-12-09,302,337!2025-08-03,198,317-->
+In contrast to {@{the law of diminishing marginal returns}@}, in {@{a knowledge-dependent economy}@}, as {@{knowledge and technological inputs increase}@}, {@{the output increases and the producer's returns tend to increase}@}. This is {@{an example of increasing marginal revenue}@}; suppose {@{a company produces toy airplanes}@}. After some production, the company spends \$10 in materials and labor to build the 1st toy airplane. The 1st toy airplane sells for \$15, which means {@{the profit on that toy is \$5}@}. Now, suppose that the 2nd toy airplane also costs \$10, but this time it can be sold for \$17. The profit on the 2nd toy airplane is {@{\$2 greater than the profit on the 1st toy airplane}@}. <!--SR:!2025-11-17,285,337!2025-08-23,201,317!2025-10-18,262,337!2025-12-14,307,337!2025-11-25,292,337!2025-11-01,270,330!2025-12-09,302,337!2027-12-18,867,337-->
 
 ## marginal revenue and markup pricing
 

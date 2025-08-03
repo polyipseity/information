@@ -57,7 +57,7 @@ Survey results are {@{typically subject to some error}@}. Total errors can be cl
 
 ### sampling errors and biases
 
-Sampling errors and biases are {@{induced by the sample design}@}. They include {@{selection bias and random sampling errors}@}: <!--SR:!2025-08-03,259,330!2028-10-23,1178,350-->
+Sampling errors and biases are {@{induced by the sample design}@}. They include {@{selection bias and random sampling errors}@}: <!--SR:!2028-10-26,1180,350!2028-10-23,1178,350-->
 
 - [selection bias](selection%20bias.md) ::@:: When the true selection probabilities differ from those assumed in calculating the results. <!--SR:!2028-05-20,1056,350!2028-10-18,1174,350-->
 - [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2025-08-14,265,330!2025-10-04,307,330-->
@@ -72,7 +72,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 - under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2027-08-22,827,330!2025-08-16,269,330-->
 - measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2027-11-07,884,330!2025-09-24,298,330-->
 - processing error ::@:: mistakes in data coding <!--SR:!2025-08-26,275,330!2025-08-18,270,330-->
-- [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2028-01-03,947,350!2025-08-03,259,330-->
+- [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2028-01-03,947,350!2028-10-21,1175,350-->
 
 After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!2026-10-21,571,310!2027-08-09,800,330-->
 

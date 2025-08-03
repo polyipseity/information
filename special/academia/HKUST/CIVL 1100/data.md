@@ -204,7 +204,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
 See [John Hancock Center](John%20Hancock%20Center.md).
 
-- description ::@:: skyscraper in Chicago, Illinois <!--SR:!2027-12-02,962,315!2025-08-03,376,387-->
+- description ::@:: skyscraper in Chicago, Illinois <!--SR:!2027-12-02,962,315!2031-01-13,1989,407-->
 - height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2025-09-19,222,197!2027-02-12,759,330-->
 - image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->::@:: steel <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
@@ -270,7 +270,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2029-04-11,1410,380!2025-08-03,345,380-->
+- bridge type <!-- flashcard ID: 30c74f35-b995-41af-8d8c-189c93fb1dfa -->::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2029-04-11,1410,380!2030-06-29,1791,400-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2028-01-28,1025,330!2029-09-25,1577,384-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2030-03-31,1717,400!2029-08-13,1534,400-->
 - length ::@:: 8206 m, longest span: 1088 m <!--SR:!2026-08-07,370,217!2027-02-28,756,355-->

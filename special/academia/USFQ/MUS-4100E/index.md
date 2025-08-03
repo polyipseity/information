@@ -159,7 +159,7 @@ The content is in teaching order.
   - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2026-06-12,374,360!2026-05-04,362,360-->
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2026-01-17,270,340!2025-10-07,194,340-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2026-04-19,352,360!2026-05-12,370,360-->
-  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-08-03,142,320!2025-10-14,200,340-->
+  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2027-04-23,628,340!2025-10-14,200,340-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-12-16,250,340!2026-05-11,369,360-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2026-06-23,385,360!2026-05-15,372,360-->
   - [syncopation](../../../../general/syncopation.md)
@@ -363,7 +363,7 @@ The content is in teaching order.
     - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-08-13,134,402!2027-06-08,675,422-->
 - [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2026-12-15,520,402!2027-06-23,690,422-->
   - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-08-09,132,402!2026-10-23,481,402-->
-- [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2026-03-07,277,382!2025-08-03,127,402-->
+- [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2026-03-07,277,382!2027-06-28,694,422-->
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2026-12-14,519,402!2026-03-14,284,382-->
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2026-04-25,326,382!2025-08-08,131,402-->
   - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-08-14,135,402!2025-08-09,132,402-->
@@ -389,14 +389,14 @@ The content is in teaching order.
   - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2026-12-28,533,402!2026-12-03,514,402-->
   - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2027-06-24,691,422!2025-08-11,134,402-->
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
-- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2025-08-03,127,402!2026-11-13,499,402-->
+- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!2026-11-13,499,402-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2026-12-30,535,402-->
   - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2025-08-08,131,402-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2026-12-26,531,402!2026-12-04,515,402-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2026-03-14,284,382!2026-09-21,456,402-->
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2027-06-21,688,422!2025-08-13,134,402-->
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" — Vladimir Horowitz, Russian And American pianist <!--SR:!2027-06-22,689,422!2025-08-04,128,402-->
-  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2025-08-03,127,402!2025-08-08,131,402-->
+  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2027-07-02,698,422!2025-08-08,131,402-->
 - assignment: (none)
 
 ## week 7 lecture 2

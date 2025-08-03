@@ -39,7 +39,7 @@ Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(
 
 > Theorem 1 ::@:: — If _a_ is relatively prime to _n_ then $a^{\lambda (n)}\equiv 1{\pmod {n} }$.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-20,255,330!2025-08-31,189,310-->
 
-This implies that {@{the order of every element of the multiplicative group of integers modulo _n_ divides _λ_\(_n_\)}@}. Carmichael calls {@{an element _a_ for which $a^{\lambda (n)}$ is the least power of _a_ congruent to 1 \(mod _n_\)}@} {@{a _primitive λ-root modulo n_}@}.<sup>[\[3\]](#^ref-3)</sup> \(This is {@{not to be confused with a [primitive root modulo _n_](primitive%20root%20modulo%20n.md)}@}, which Carmichael sometimes refers to as {@{a primitive $\varphi$-root modulo _n_}@}.\) <!--SR:!2027-03-22,609,321!2027-04-03,619,321!2026-02-17,328,341!2025-08-03,168,310!2026-02-25,335,341-->
+This implies that {@{the order of every element of the multiplicative group of integers modulo _n_ divides _λ_\(_n_\)}@}. Carmichael calls {@{an element _a_ for which $a^{\lambda (n)}$ is the least power of _a_ congruent to 1 \(mod _n_\)}@} {@{a _primitive λ-root modulo n_}@}.<sup>[\[3\]](#^ref-3)</sup> \(This is {@{not to be confused with a [primitive root modulo _n_](primitive%20root%20modulo%20n.md)}@}, which Carmichael sometimes refers to as {@{a primitive $\varphi$-root modulo _n_}@}.\) <!--SR:!2027-03-22,609,321!2027-04-03,619,321!2026-02-17,328,341!2027-07-26,722,330!2026-02-25,335,341-->
 
 > Theorem 2 ::@:: — For every positive integer _n_ there exists a primitive _λ_-root modulo _n_. Moreover, if _g_ is such a root, then there are $\varphi (\lambda (n))$ primitive _λ_-roots that are congruent to powers of _g_.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-04-05,613,321!2026-07-04,423,321-->
 

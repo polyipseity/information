@@ -28,7 +28,7 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2026-03-16,366,363!2025-11-05,256,343-->
 - __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2026-03-26,375,363!2025-12-19,277,343-->
 - __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2026-03-18,368,363!2026-03-25,373,363-->
-- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-08-03,183,330!2025-11-13,264,337-->
+- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2027-11-16,835,350!2025-11-13,264,337-->
 
 ## semantics
 
