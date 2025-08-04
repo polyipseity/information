@@ -34,3 +34,7 @@ This tool needs to be loaded in a new browser window
 
 - file: [submission.pdf](submission.pdf)
   - source: [submission.docx](submission.docx)
+
+## solution
+
+- [HW2_answer.pdf](solution/HW2_answer.pdf)
