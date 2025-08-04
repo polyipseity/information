@@ -715,13 +715,72 @@ The content is in teaching order.
 - datetime: 2025-07-31T09:00:00+09:00/2025-07-31T10:40:00+09:00, PT1H40M
   - local: 2025-07-31T08:00:00+08:00/2025-07-31T09:40:00+08:00, PT1H40M
 - topic: enterprise applications; e-commerce, digital markets, digital goods
-- assignment: [quiz 9–10](quiz%209–10.md)
+- [enterprise resource planning](../../../../general/enterprise%20resource%20planning.md) \(ERP\) ::@:: It is the integrated management of main business processes, often in real time and mediated by software and technology. It is usually referred to as a category of business management software—typically a suite of integrated applications—that an organization can use to collect, store, manage and interpret data from many business activities.
+  - enterprise resource planning / architecture ::@:: a centralized database connected to multiple business processes; this helps to reduce redundant business processes
+  - enterprise resource planning / predefined business processes ::@:: It often have predefined business processes reflecting _best practices_: finance and accounting, human resources, manufacturing and production, sales and marketing, etc.
+    - enterprise resource planning / predefined business processes / implementation ::@:: Select some of the provided functions to use. Map business processes to the selected software processes.
+- [supply chain management system](../../../../general/supply-chain-management%20software.md) \(SCMS\) ::@:: It is the software tools or modules used in executing supply chain transactions, managing supplier relationships and controlling associated business processes. It maximizes the efficiency of business activities that include planning and management of the entire supply chain.
+  - supply chain management system / supply chain ::@:: It is a complex logistics system that consists of facilities that convert raw materials into finished products and distribute them to end consumers or end customers. <p> It involves a network of organizations and processes.
+  - supply chain management system / upstream, downstream ::@:: upstream: tier 3 suppliers ⟷ tier 2 suppliers ⟷ tier 1 suppliers \(contract suppliers\) <br/> downstream: distributors ⟷ retailers ⟷ customers
+  - supply chain management system / just-in-time strategy ::@::
+- [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ \(JIT manufacturing in short\).
+  -lean manufacturing / just-in-time \(JIT\) manufacturing ::@:: Components arrive as they are needed. Finished goods are shipped right after being finished. <p> If perfect information is available, this always work.
+- [safety stock](../../../../general/safety%20stock.md) ::@:: It is a term used by logisticians to describe a level of extra stock which is maintained to mitigate the risk of stockouts, which can be caused, for example, by shortfalls in raw material availability or uncertainty in forecasting supply and demand.
+- [bullwhip effect](../../../../general/bullwhip%20effect.md) ::@:: The \(_this_\) is a supply chain phenomenon where orders to suppliers tend to have a larger variability than sales to buyers, which results in an amplified demand variability upstream. In part, this results in increasing swings in inventory in response to shifts in consumer demand as one moves further up the supply chain.
+  - bullwhip effect / reasons ::@:: forward buying, order batching/synchronization, over-reactive ordering, trade promotion, etc.
+  - bullwhip effect / solutions ::@:: collaborative planning, forecasting, replenishment, etc.
+- [customer relationship management](../../../../general/customer%20relationship%20management.md) \(CRM\) ::@:: It is a strategic process that organizations use to manage, analyze, and improve their interactions with customers.
+  - customer relationship management / effects ::@:: By leveraging data-driven insights, CRM helps businesses optimize communication, enhance customer satisfaction, and drive sustainable growth
+  - customer relationship management / decision examples ::@:: Determine if a customer is very important, so as to provide the best possible services for the customer, while only providing basic services for other customers to save costs.
+  - customer relationship management / operational ::@:: It is customer-facing, e.g. call center, customer service, marketing automation, sales force automation, etc.
+  - customer relationship management / analytical ::@:: It analyzes data populated by operational CRM systems and customer touchpoints using various techniques, e.g. OLAP, data mining, etc.
+- [customer lifetime value](../../../../general/customer%20lifetime%20value.md) \(CLV, CLTV\) ::@:: It is a prognostication of the net profit contributed to the whole future relationship with a customer. The prediction model can have varying levels of sophistication and accuracy, ranging from a crude heuristic to the use of complex predictive analytics techniques.
+- [e-commerce](../../../../general/e-commerce.md) ::@:: It refers to commercial activities including the electronic buying or selling products and services which are conducted on online platforms or over the Internet.
+  - e-commerce / unique features ::@:: 8 items: customization/personalization, global reach, information density, interactivity, richness \(e.g. integration of marketing in multiple forms\), social technology, ubiquity, universal standards
+  - e-commerce / effects
+    - e-commerce / effects / customers ::@:: delay gratification \(see the product's effect before evaluation\), information asymmetry reduce, switching costs change
+    - e-commerce / effects / sellers ::@:: disintermediation increase, efficiency and flexibility increase \(e.g. dynamic pricing, price discrimination, etc.\), market segmentation increase, network effects increase
+- [disintermediation](../../../../general/disintermediation.md) ::@:: It is the removal of intermediaries in economics from a supply chain, or "cutting out the middlemen" in connection with a transaction or a series of transactions.
+- [digital goods](../../../../general/digital%20goods.md) ::@:: They are intangible goods that exist in digital form. \(__this course__: _delivered_ digitally\)
+- e-commerce
+  - e-commerce / types ::@:: 3 major types: business-to-business \(B2B\), business-to-consumer \(B2C\), consumer-to-consumer \(C2C\)
+- [mobile commerce](../../../../general/mobile%20commerce.md) \(m-commerce\) ::@:: It means "the delivery of electronic commerce capabilities directly into the consumer's hand, anywhere, via wireless technology." Some choose to think of it as meaning "a retail outlet in your customer's pocket."
+- e-commerce
+  - e-commerce / business models ::@:: community provider, content provider, e-tailer, market creator, portal, service provider, transaction broker, etc.
+  - e-commerce / revenue models ::@:: advertising, affiliate, free, freemium, sales, subscription, transaction fee, etc.
+  - e-commerce / marketing ::@:: The internet allows new ways to identify and interact with customers. <p> behavioral targeting: track online behaviors; has privacy concerns <br/> long-tail marketing: reach a large audience for low cost
+- mobile commerce
+  - mobile commerce / growth ::@:: It is the fastest growing form of e-commerce. As of 2020, it is estimated to be 45% of all e-commerce. The area with the fastest growth is location-based services.
+- [location-based service](../../../../general/location-based%20service.md) \(LBS\) ::@:: It is a general term denoting software services which use geographic data and information to search systems, in turn providing services or information to users.
+  - location-based service / types ::@:: geo-advertising, geo-information services, geo-social services, etc.
+- e-commerce
+  - e-commerce / mobile payment services ::@:: 3 major types: QR code, near-field communication \(NFC\), peer-to-peer \(P2P\) <p> QR code: Dunkin Donuts, Starbucks, Target, Walmart, etc. <br/> near-field communication \(NFC\): Apply Pay, Google Pay, etc. <br/> peer-to-peer \(P2P\): Venmo, Zelle, etc.
+- assignment: [quiz 9–10](questions/quiz%209–10.md)
 
 ## week 6 lecture
 
 - datetime: 2025-08-04T09:00:00+09:00/2025-08-04T10:40:00+09:00, PT1H40M
   - local: 2025-08-04T08:00:00+08:00/2025-08-04T09:40:00+08:00, PT1H40M
 - topic: building information systems
+- organization
+  - organization / structural changes ::@:: need to balance risks and rewards <p> 4 major types: automation, paradigm shift, rationalization, redesign
+- [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed.
+  - software development process / steps ::@:: systems analysis → systems design → programming → testing → conversion → production, maintenance → \(systems analysis\)
+  - software development process / systems analysis ::@:: Analyze the problem to be solved by the new system. Study its feasibility in terms of time, finance, organization, and technology. Establish information requirements \(IR\).
+  - software development process / systems design ::@:: Specify system specifications to deliver functions required. Consider end users.
+  - software development process / programming ::@:: Implement the system.
+  - software development process / testing ::@:: acceptable testing, system testing, unit testing
+  - software development process / conversion ::@:: Replace the old system with the new system. Requires training end users. <p> 4 main strategies: direct cutover \(replace directly\), parallel strategy \(make both systems available for some time\), pilot study \(replace for a few, then replace directly if okay\), phased approach \(replace gradually\)
+  - software development process / production, maintenance ::@:: Review the system if revisions are needed. Maintain the system.
+- [structured analysis](../../../../general/structured%20analysis.md) \(SA\) ::@:: They are methods for analyzing business requirements and developing specifications for converting practices into computer programs, hardware configurations, and related manual procedures.
+  - structured analysis / characteristics ::@:: process-oriented: focus on processes, not data <br/> separation of process and data <br/> structured: progressive, step-by-step
+  - structured analysis / examples ::@:: computer-aided software engineering \(CASE\), data flow diagram \(DFD\), object-oriented development, etc.
+- [data-flow diagram](../../../../general/data%20flow%20diagram.md) \(DFD\) ::@:: It is a way of representing a flow of data through a process or a system \(usually an information system\). It also provides information about the outputs and inputs of each entity and the process itself. A data-flow diagram has no control flow — there are no decision rules and no loops. Specific operations based on the data can be represented by a flowchart.
+  - data-flow diagram / characteristics ::@:: data dictionary, process specifications, structured chart
+  - data-flow diagram / reading ::@:: There are two types of boxes: entities and processes. There are \(probably\) many arrows with annotating text are in between two boxes.
+- [object-oriented analysis and design](../../../../general/object-oriented%20analysis%20and%20design.md) \(OOAD\) ::@:: It is an approach to analyzing and designing a computer-based system by applying an object-oriented mindset and using visual modeling throughout the software development process.
+  - object-oriented analysis and design / concepts ::@:: _Object_ is the basic unit. It combines data and processes operating on it. _Class_, \(represented by a box with its data and processes\) and _inheritance_ \(represented by arrows pointing from subclasses to parent classes\) are two important concepts.
+  - object-oriented analysis and design / characteristics ::@:: iterative, incremental, reusable \(objects are reusable\); thus potentially reduces development cost and time
 - assignment: [assignment \#3](assignments/assignment%20%233/index.md)
 
 ## week 6 lecture 2
@@ -729,6 +788,7 @@ The content is in teaching order.
 - datetime: 2025-08-05T09:00:00+09:00/2025-08-05T10:40:00+09:00, PT1H40M
   - local: 2025-08-05T08:00:00+08:00/2025-08-05T09:40:00+08:00, PT1H40M
 - topic: MIS career, future of work, review for final examination
+- assignment: [quiz 13](questions/quiz%2013.md)
 
 ## week 6 lecture 3
 
@@ -738,3 +798,10 @@ The content is in teaching order.
 - [§ final examination](#final%20examination)
 
 ## final examination
+
+## week 6 lecture 4
+
+- datetime: 2025-08-07T09:00:00+09:00/2025-08-07T10:40:00+09:00, PT1H40M
+  - local: 2025-08-07T08:00:00+08:00/2025-08-07T09:40:00+08:00, PT1H40M
+- topic: advising session
+- status: optional
