@@ -149,7 +149,7 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@}
 
-And {@{one of them can even be expressed with the tensor product, if the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@}
+And {@{one of them can even be expressed with the tensor product}@}, if {@{the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@}
 
 ## precautions
 
