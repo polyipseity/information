@@ -467,7 +467,7 @@ The content is in teaching order.
   - Porter's five forces / weak \(−2\)
   - intellectual property / patents \(0\)
   - core competency \(−2\)
-- check: \(none\)
+- check: \(online\)
 - questions: [midterm examination](questions/midterm%20examination.md)
 
 ## week 4 lecture 1
@@ -776,7 +776,7 @@ The content is in teaching order.
   - structured analysis / characteristics ::@:: process-oriented: focus on processes, not data <br/> separation of process and data <br/> structured: progressive, step-by-step
   - structured analysis / examples ::@:: computer-aided software engineering \(CASE\), data flow diagram \(DFD\), object-oriented development, etc.
 - [data-flow diagram](../../../../general/data%20flow%20diagram.md) \(DFD\) ::@:: It is a way of representing a flow of data through a process or a system \(usually an information system\). It also provides information about the outputs and inputs of each entity and the process itself. A data-flow diagram has no control flow — there are no decision rules and no loops. Specific operations based on the data can be represented by a flowchart.
-  - data-flow diagram / characteristics ::@:: data dictionary, process specifications, structured chart
+  - data-flow diagram / characteristics ::@:: data dictionary \(specify contents of data flows and data stores\), process specifications, structured chart
   - data-flow diagram / reading ::@:: There are two types of boxes: entities and processes. There are \(probably\) many arrows with annotating text are in between two boxes.
 - [object-oriented analysis and design](../../../../general/object-oriented%20analysis%20and%20design.md) \(OOAD\) ::@:: It is an approach to analyzing and designing a computer-based system by applying an object-oriented mindset and using visual modeling throughout the software development process.
   - object-oriented analysis and design / concepts ::@:: _Object_ is the basic unit. It combines data and processes operating on it. _Class_, \(represented by a box with its data and processes\) and _inheritance_ \(represented by arrows pointing from subclasses to parent classes\) are two important concepts.
@@ -788,6 +788,24 @@ The content is in teaching order.
 - datetime: 2025-08-05T09:00:00+09:00/2025-08-05T10:40:00+09:00, PT1H40M
   - local: 2025-08-05T08:00:00+08:00/2025-08-05T09:40:00+08:00, PT1H40M
 - topic: MIS career, future of work, review for final examination
+- [computer-aided software engineering](../../../../general/computer-aided%20software%20engineering.md) \(CASE\) ::@:: It is a domain of software tools used to design and implement applications. Its tools are similar to and are partly inspired by computer-aided design \(CAD\) tools used for designing hardware products.
+  - computer-aided software engineering / tools ::@:: analysis, checking, code generation, data dictionaries, documentation generation, graphics \(e.g. charts, diagrams, etc.\), report generators, screen generators, etc.
+  - computer-aided software engineering / effects ::@:: It support _iterative_ by automating _version control_ and providing _prototyping_ tools.
+- [systems development life cycle](../../../../general/systems%20development%20life%20cycle.md) \(SDLC\) ::@:: It describes the typical phases and progression between phases during the development of a computer-based system; from inception to retirement. At base, there is just one life cycle even though there are different ways to describe it; using differing numbers of and names for the phases. <p> It is still often used for large complex systems
+  - systems development life cycle / characteristics ::@:: division between end users and developers, phased \("waterfall", each stage must finish before the next stage\), traditional \(oldest\)
+  - systems development life cycle / disadvantages ::@:: potentially costly, inflexible, and time-consuming
+- [software prototyping](../../../../general/software%20prototyping.md) ::@:: It is the activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed.
+  - software prototyping / steps ::@:: identify user requirements → prototype → evaluate → revise → \(done if satisfactory; prototype if not\)
+  - software prototyping / advantages ::@:: for end-user interface design, for uncertain requirements or solutions \("wicked problems"\), match user requirements better
+  - software prototyping / disadvantages ::@:: essential steps skipped, incomprehensive documentation, incomprehensive testing, unscalable
+- [end-user development](../../../../general/end-user%20development.md) \(EUD\) ::@:: It refers to activities and tools that allow end-users – people who are not professional software developers – to program computers. People who are not professional developers can use EUD tools to create or modify software artifacts \(descriptions of automated behavior\) and complex data objects without significant knowledge of a programming language.
+  - end-user development / advantages ::@:: faster completion, higher user involvement, higher user satisfaction
+  - end-user development / disadvantages ::@:: little \(data\) control, little documentation, little management, little testing, not for computationally intensive applications
+- [software suite](../../../../general/software%20suite.md) ::@:: It is a collection of computer programs (application software, or programming software) of related functionality, sharing a similar user interface and the ability to easily exchange data with each other.
+  - software suite / characteristics ::@:: customizable, save money and time \(if preexisting\)
+  - software suite / request for proposal \(RFP\) ::@:: You send a list of questions to vendors so that you can evaluate alternative software suites provided by different vendors and choose the best ones.
+- outsourcing
+  - outsourcing / types ::@:: domestic outsourcing, offshore outsourcing
 - assignment: [quiz 13](questions/quiz%2013.md)
 
 ## week 6 lecture 3
@@ -798,6 +816,32 @@ The content is in teaching order.
 - [§ final examination](#final%20examination)
 
 ## final examination
+
+- datetime: 2025-08-06T09:00:00+09:00/2025-08-06T10:30:00+09:00, PT1H30M
+  - local: 2025-08-06T08:00:00+08:00/2025-08-06T09:30:00+08:00, PT1H30M
+- venue: \(online\)
+- format
+  - calculator: n/a
+  - cheatsheet: n/a
+  - referencing: open book, open notes
+  - provided: \(none\)
+  - questions: questions ×80 \(acronym, fill in the blank, multiple choice, short answer, true/false\)
+  - others: open camera showing full face
+- grades: ?/100
+  - statistics
+    - timestamps: ?
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
+    - data: ?
+- report: ?
+- check: \(online\)
+- questions: [final examination](questions/final%20examination.md)
 
 ## week 6 lecture 4
 
