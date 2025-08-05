@@ -30,3 +30,4 @@ tags:
 - [lab 6](lab%206/index.md)
 - [homework 3](homework%203/index.md)
 - [lab 7](lab%207/index.md)
+- [lab 7 mini report](lab%207%20mini%20report/index.md)
