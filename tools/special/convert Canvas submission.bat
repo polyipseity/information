@@ -1,2 +1,2 @@
 @echo off
-python -m "convert HKUST Canvas submission" %*
+python -m "convert Canvas submission" %*
