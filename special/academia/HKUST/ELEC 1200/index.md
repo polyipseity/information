@@ -711,7 +711,10 @@ The content is in teaching order.
     - distribution: ?
 - report: \(none\)
 - check
-  - datetime: 2025-08-04T10:00:00+08:00/2025-08-06T17:00:00+08:00, P2DT7H
+  - datetime
+    - 2025-08-04T10:00:00+08:00/2025-08-04T17:00:00+08:00, PT7H
+    - 2025-08-05T10:00:00+08:00/2025-08-05T17:00:00+08:00, PT7H
+    - 2025-08-06T10:00:00+08:00/2025-08-06T17:00:00+08:00, PT7H
   - venue: Room 2395, Academic Building \(lift 17, 18\)
   - report: \(none\)
 
@@ -925,28 +928,78 @@ The content is in teaching order.
 
 ## week 4 tutorial
 
-- datetime: 2025-08-05T11:00:00+08:00/2025-08-05T12:20:00+08:00, PT1H20M
+- datetime: 2025-08-06T14:00:00+08:00/2025-08-06T15:20:00+08:00, PT1H20M
 - topic: lab 6, time–frequency analysis
+- status: rescheduled
 - ELEC 1200
   - ELEC 1200 / lab 6 ::@:: speech signal → amplitude spectrum → speech signal approximation → channel frequency response
 - [§ week 4 lab](#week%204%20lab)
 
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
+
 ## week 4 lab
 
-- datetime: 2025-08-05T14:00:00+08:00/2025-08-05T16:50:00+08:00, PT2H50M
+- datetime: 2025-08-07T14:00:00+08:00/2025-08-07T16:50:00+08:00, PT2H50M
 - topic: time—frequency analysis
-- status: attendance
+- status: attendance, rescheduled
 - [§ week 4 tutorial](#week%204%20tutorial)
 - ELEC 1200
   - ELEC 1200 / lab 6
 - assignment: [lab 6](assignments/lab%206/index.md)
 - questions: [post lab quiz 6 derivative](questions/post%20lab%20quiz%206%20derivative.md)
 
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
+
 ## week 4 lecture 2
 
 - datetime: 2025-08-06T14:00:00+08:00/2025-08-06T15:50:00+08:00, PT1H50M
 - topic: questions & answers
+- [§ week 4 tutorial](#week%204%20tutorial)
 - assignment: [homework 3](assignments/homework%203/index.md)
+
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## week 4 tutorial 2
 
@@ -960,12 +1013,29 @@ The content is in teaching order.
 
 - datetime: 2025-08-07T14:00:00+08:00/2025-08-07T16:50:00+08:00, PT2H50M
 - topic: frequency division multiplexing
-- status: attendance
+- status: attendance, canceled
 - [§ week 4 tutorial 2](#week%204%20tutorial%202)
 - ELEC 1200
   - ELEC 1200 / lab 7
 - assignment: [lab 7](assignments/lab%207/index.md)
 - questions: [post lab quiz 7 derivative](questions/post%20lab%20quiz%207%20derivative.md)
+- assignment: [lab 7 mini report](assignments/lab%207%20mini%20report/index.md)
+
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## week 4 lab 3
 
