@@ -35,3 +35,5 @@ This tool needs to be loaded in a new browser window
   - source: [submission.docx](submission.docx)
 
 ## solution
+
+- [HW3_answers.pdf](solution/HW3_answers.pdf)
