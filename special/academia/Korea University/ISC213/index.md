@@ -341,6 +341,7 @@ The content is in teaching order.
 - [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access.
   - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy
 - [database](../../../../general/database.md) ::@:: It is an organized collection of data or a type of data store based on the use of a database management system \(DBMS\), the software that interacts with end users, applications, and the database itself to capture and analyze the data.
+  - database / physical file systems ::@:: Before digital databases, databases were physical file systems. <p> \(__this course__: The instructor used his work at the New York State Department of Taxation and Finance to illustrate this.\)
   - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications.
   - database / database management system \(DBMS\) ::@:: It is an interface between databases and applications. It separates data into physical and logical views.
 - [relational database](../../../../general/relational%20database.md) \(RDB\) ::@:: It is a database based on the relational model of data, as proposed by E. F. Codd in 1970.
@@ -476,7 +477,7 @@ The content is in teaching order.
   - local: 2025-07-21T08:00:00+08:00/2025-07-21T09:40:00+08:00, PT1H40M
 - topic: hands-on exercise: building corpus
 - Altair AI Studio
-  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 5 functions to create a corpus: "create document", "process documents from files", "read Excel", "read Excel &gt; data to document", and "read document".
+  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 6 functions to create a corpus: "create document", "process document from data", "process document from files", "read Excel", "read Excel &gt; data to document", and "read document".
 
 ## week 4 lecture 2
 
@@ -556,7 +557,7 @@ The content is in teaching order.
 - information system
   - information system / obstacles ::@:: There are 3 main obstacles why IS may not always produce positive results: information quality, management filters, and organizational inertia and politics.
     - information system / obstacles / information quality ::@:: Good decision-making processes require good data.
-    - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones.
+    - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones. \(No idea why it is called "filters" instead of "biases"...\)
     - information system / obstacles / organizational inertia and politics ::@:: Strong forces in organizations generally resist changes, even good ones.
 - business intelligence
   - business intelligence / infrastructure ::@:: databases, data warehouses, data marts; they collect, store and analyze data
@@ -565,7 +566,8 @@ The content is in teaching order.
   - business intelligence / goals ::@:: deliver accurate and real-time information to decision makers
   - business intelligence / systems
     - business intelligence / systems / functions ::@:: ad hoc query/search/report creation, dashboards/scorecards, drill down, forecasting, modeling, parameterized reports, production reports, what-if scenarios, etc.
-  - business intelligence / production reports ::@:: They are the most widely used outputs of BI suites. Often, BI suites provide predefined reports for different business functions. <p> examples: sales \(forecasting, performance, etc.\), human resources \(compensation, productivity, etc.\), supply chain \(backlog, fulfillment, etc.\), etc.
+  - business intelligence / production reports ::@:: They are the most widely used outputs of BI suites. Often, BI suites provide predefined reports for different business functions. These reports do _not_ have _predictive_ ability \(e.g. what-if analysis, etc.\). <p> examples: sales \(forecasting, performance, etc.\), human resources \(compensation, productivity, etc.\), supply chain \(backlog, fulfillment, etc.\), etc.
+  - business intelligence / digital dashboard ::@:: It can present performance data in a BI system.
 - [predictive analytics](../../../../general/predictive%20analytics.md) ::@:: They encompasses a variety of statistical techniques from data mining, predictive modeling, and machine learning that analyze current and historical facts to make predictions about future or otherwise unknown events.
   - predictive analytics / foundations ::@:: assumptions, data mining, historical data, statistical analysis, etc.
   - predictive analytics / business ::@:: They are often incorporated into BI suites to predict the future for different business functions. <p> examples: credit scoring, marketing campaign effect prediction, etc.
@@ -639,8 +641,10 @@ The content is in teaching order.
 - [telecommunications](../../../../general/telecommunications.md) ::@:: It is the transmission of information over a distance using electrical or electronic means, typically through cables, radio waves, or other communication technologies.
   - telecommunications / trends ::@:: broadband \(high-speed\), convergence of standards, wireless
   - telecommunications / signals ::@:: It uses both analog \(continuous\) signal and digital \(discontinuous\) signal. <p> Signals are often transmitted through _channels_. A channel often has a _bandwidth_, which is the difference between the lowest and highest frequency the channel can accommodate.
+  - telecommunications / speed ::@:: The speed at which data is transmitted is measured in bits per second \(bps\).
+  - telecommunications / modem ::@:: It is a computer hardware device that converts data from a digital format into a format suitable for an analog transmission medium such as telephone or radio.
 - [computer network](../../../../general/computer%20network.md) ::@:: It is a collection of communicating computers and other devices, such as printers and smart phones. Today almost all computers are connected to a computer network, such as the global Internet or an embedded network such as those found in modern cars.
-  - computer network / components ::@:: computers \(PC\) ⇆ switches ⇆ servers \(NOS\) <br/> switches ⇆ routers ⇆ other networks \(internet\)
+  - computer network / components ::@:: computers \(PC\) ⇆ switches ⇆ servers \(NOS\) <br/> switches ⇆ routers ⇆ other networks \(internet\) <p> So we see a switch forwards packets within the _same_ network. A router forwards packets between _different_ networks.
 - [campus network](../../../../general/campus%20network.md) \(CAN\) ::@:: It is a computer network made up of an interconnection of local area networks \(LANs\) within a limited geographical area.
 - computer network
   - computer network / key technologies ::@:: TCP/IP \(compatible with different hardware and software platforms\), client/server computing, connectivity, packet switching, etc.
@@ -649,7 +653,7 @@ The content is in teaching order.
   - packet switching / routing ::@:: A message may be broken up into multiple packets, and then are independently sent through different routes, and finally reassembled into the original message by the destination machine
 - computer network
   - computer network / types ::@:: "AN" stands for "area network"; nanoscale &lt; body \(BAN\) &lt; personal \(PAN\) &lt; local \(LAN\) &lt; campus/corporate \(CAN\) &lt; metropolitan \(MAN\) &lt; radio access \(RAN\) &lt; wide \(WAN\)
-  - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission
+  - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission <p> \(__this course__: The instructor insisted that fiber optic should also be conducted...\)
 - [internet](../../../../general/internet.md) ::@:: It is the global system of interconnected computer networks that uses the Internet protocol suite \(TCP/IP\) to communicate between networks and devices.
   - internet / key technologies ::@:: Domain Name System \(DNS\), IP \(Internet Protocol\) address, internet architecture
 - [IP address](../../../../general/IP%20address.md) ::@:: It is a numerical label such as _192.0.2.1_ that is assigned to a device connected to a computer network that uses the Internet Protocol for communication. <p> It is a 32-bit number.
@@ -721,14 +725,15 @@ The content is in teaching order.
     - enterprise resource planning / predefined business processes / implementation ::@:: Select some of the provided functions to use. Map business processes to the selected software processes.
 - [supply chain management system](../../../../general/supply-chain-management%20software.md) \(SCMS\) ::@:: It is the software tools or modules used in executing supply chain transactions, managing supplier relationships and controlling associated business processes. It maximizes the efficiency of business activities that include planning and management of the entire supply chain.
   - supply chain management system / supply chain ::@:: It is a complex logistics system that consists of facilities that convert raw materials into finished products and distribute them to end consumers or end customers. <p> It involves a network of organizations and processes.
-  - supply chain management system / upstream, downstream ::@:: upstream: tier 3 suppliers ⟷ tier 2 suppliers ⟷ tier 1 suppliers \(contract suppliers\) <br/> downstream: distributors ⟷ retailers ⟷ customers
+  - supply chain management system / upstream, downstream ::@:: upstream: tier 3 suppliers ⟷ tier 2 suppliers ⟷ tier 1 suppliers \(contract suppliers\) <br/> self: manufacturer <br/> downstream: distributors ⟷ retailers ⟷ customers
   - supply chain management system / just-in-time strategy ::@::
 - [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ \(JIT manufacturing in short\).
   -lean manufacturing / just-in-time \(JIT\) manufacturing ::@:: Components arrive as they are needed. Finished goods are shipped right after being finished. <p> If perfect information is available, this always work.
 - [safety stock](../../../../general/safety%20stock.md) ::@:: It is a term used by logisticians to describe a level of extra stock which is maintained to mitigate the risk of stockouts, which can be caused, for example, by shortfalls in raw material availability or uncertainty in forecasting supply and demand.
+  - safety stock / overstocking ::@:: Too much safety stock is not necessarily good. It leads to _overstocking_, which increases cost of holding inventory.
 - [bullwhip effect](../../../../general/bullwhip%20effect.md) ::@:: The \(_this_\) is a supply chain phenomenon where orders to suppliers tend to have a larger variability than sales to buyers, which results in an amplified demand variability upstream. In part, this results in increasing swings in inventory in response to shifts in consumer demand as one moves further up the supply chain.
   - bullwhip effect / reasons ::@:: forward buying, order batching/synchronization, over-reactive ordering, trade promotion, etc.
-  - bullwhip effect / solutions ::@:: collaborative planning, forecasting, replenishment, etc.
+  - bullwhip effect / solutions ::@:: collaborative planning, forecasting, replenishment, supply chain visibility, etc.
 - [customer relationship management](../../../../general/customer%20relationship%20management.md) \(CRM\) ::@:: It is a strategic process that organizations use to manage, analyze, and improve their interactions with customers.
   - customer relationship management / effects ::@:: By leveraging data-driven insights, CRM helps businesses optimize communication, enhance customer satisfaction, and drive sustainable growth
   - customer relationship management / decision examples ::@:: Determine if a customer is very important, so as to provide the best possible services for the customer, while only providing basic services for other customers to save costs.
@@ -743,11 +748,11 @@ The content is in teaching order.
 - [disintermediation](../../../../general/disintermediation.md) ::@:: It is the removal of intermediaries in economics from a supply chain, or "cutting out the middlemen" in connection with a transaction or a series of transactions.
 - [digital goods](../../../../general/digital%20goods.md) ::@:: They are intangible goods that exist in digital form. \(__this course__: _delivered_ digitally\)
 - e-commerce
-  - e-commerce / types ::@:: 3 major types: business-to-business \(B2B\), business-to-consumer \(B2C\), consumer-to-consumer \(C2C\)
+  - e-commerce / types ::@:: 3 major types: business-to-business \(B2B\), business-to-consumer \(B2C\), consumer-to-consumer \(C2C\) <p> \(__this course__: According to the instructor, C2C should not be a valid business model for e-commerce.\)
 - [mobile commerce](../../../../general/mobile%20commerce.md) \(m-commerce\) ::@:: It means "the delivery of electronic commerce capabilities directly into the consumer's hand, anywhere, via wireless technology." Some choose to think of it as meaning "a retail outlet in your customer's pocket."
 - e-commerce
   - e-commerce / business models ::@:: community provider, content provider, e-tailer, market creator, portal, service provider, transaction broker, etc.
-  - e-commerce / revenue models ::@:: advertising, affiliate, free, freemium, sales, subscription, transaction fee, etc.
+  - e-commerce / revenue models ::@:: advertising, affiliate, free, freemium, sales, subscription, transaction fee, etc. <p> For example, an online content provider \(e.g. Netflix, etc.\) likely generates revenue from advertising and subscription.
   - e-commerce / marketing ::@:: The internet allows new ways to identify and interact with customers. <p> behavioral targeting: track online behaviors; has privacy concerns <br/> long-tail marketing: reach a large audience for low cost
 - mobile commerce
   - mobile commerce / growth ::@:: It is the fastest growing form of e-commerce. As of 2020, it is estimated to be 45% of all e-commerce. The area with the fastest growth is location-based services.
@@ -777,7 +782,8 @@ The content is in teaching order.
   - structured analysis / examples ::@:: computer-aided software engineering \(CASE\), data flow diagram \(DFD\), object-oriented development, etc.
 - [data-flow diagram](../../../../general/data%20flow%20diagram.md) \(DFD\) ::@:: It is a way of representing a flow of data through a process or a system \(usually an information system\). It also provides information about the outputs and inputs of each entity and the process itself. A data-flow diagram has no control flow — there are no decision rules and no loops. Specific operations based on the data can be represented by a flowchart.
   - data-flow diagram / characteristics ::@:: data dictionary \(specify contents of data flows and data stores\), process specifications, structured chart
-  - data-flow diagram / reading ::@:: There are two types of boxes: entities and processes. There are \(probably\) many arrows with annotating text are in between two boxes.
+  - data-flow diagram / components ::@:: data flow \(arrows\), process, warehouse, terminator \(e.g. interface\)
+  - data-flow diagram / reading ::@:: The boxes can be warehouses, processes, or terminators \(interfaces\). There are \(probably\) many arrows with annotating text in between boxes.
 - [object-oriented analysis and design](../../../../general/object-oriented%20analysis%20and%20design.md) \(OOAD\) ::@:: It is an approach to analyzing and designing a computer-based system by applying an object-oriented mindset and using visual modeling throughout the software development process.
   - object-oriented analysis and design / concepts ::@:: _Object_ is the basic unit. It combines data and processes operating on it. _Class_, \(represented by a box with its data and processes\) and _inheritance_ \(represented by arrows pointing from subclasses to parent classes\) are two important concepts.
   - object-oriented analysis and design / characteristics ::@:: iterative, incremental, reusable \(objects are reusable\); thus potentially reduces development cost and time

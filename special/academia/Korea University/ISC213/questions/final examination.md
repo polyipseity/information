@@ -24,4 +24,4 @@ tags:
 
 ---
 
-\(question ×80\)
+\(fill-in-the-blank question ×19, multiple choice question ×61\)
