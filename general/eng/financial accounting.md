@@ -13,7 +13,7 @@ tags:
 
 __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-09-05,229,270!2026-05-11,405,290!2025-09-20,287,330-->
 
-Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
+Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2028-10-07,1158,350!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
 
 On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2025-09-05,276,330!2028-05-25,1049,350!2025-10-11,305,330!2028-08-08,1110,350-->
 
@@ -78,7 +78,7 @@ Important: the cash flow statement {@{only considers the exchange of __actual__ 
 
 - see: [income statement](income%20statement.md)
 
-The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2025-08-06,232,335-->
+The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2028-07-11,1070,355-->
 
 The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2026-09-05,532,310!2026-05-21,461,310-->
 
@@ -112,7 +112,7 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2027-09-16,837,330-->
 
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!2026-07-27,428,270-->
-- _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2027-08-03,807,330-->
+- _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2028-09-20,1142,350!2027-08-03,807,330-->
 
 {@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2025-08-10,255,330!2027-12-09,905,330!2027-03-24,704,330!2026-10-09,559,310-->
 
@@ -175,10 +175,10 @@ Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases i
 
 When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!2026-09-01,551,330!2028-06-23,1073,350!2028-09-15,1141,350-->
 
-However, there are {@{instances of accounts, known as contra-accounts}@} \({@{contra-asset, contra-revenue, and contra-equity accounts}@}\), which have {@{a normal balance opposite that listed above}@}. Examples include: <!--SR:!2028-08-12,1111,350!2025-08-06,4,339!2025-08-06,4,339-->
+However, there are {@{instances of accounts, known as contra-accounts}@} \({@{contra-asset, contra-revenue, and contra-equity accounts}@}\), which have {@{a normal balance opposite that listed above}@}. Examples include: <!--SR:!2028-08-12,1111,350!2025-08-24,18,359!2025-08-24,18,359-->
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2027-07-04,777,330!2027-03-17,699,330-->
-- contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2027-04-29,721,330-->
+- contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2028-09-26,1147,350!2027-04-29,721,330-->
 - contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2026-09-30,572,330!2027-08-15,812,330-->
 
 ## financial accounting versus cost accounting

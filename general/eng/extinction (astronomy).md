@@ -14,7 +14,7 @@ In [astronomy](astronomy.md), __extinction__ is {@{the [absorption](absorption%2
 
 ## interstellar reddening
 
-Interstellar reddening is {@{a phenomenon associated with interstellar extinction where the [spectrum](astronomical%20spectroscopy.md) of electromagnetic radiation from a [radiation source](astronomical%20object.md) changes characteristics from that which the object originally [emitted](emission%20spectrum.md)}@}. Reddening occurs due to {@{the light scattering off [dust](cosmic%20dust.md) and other [matter](matter.md) in the [interstellar medium](interstellar%20medium.md)}@}. An example can be seen at {@{the edges of [dark nebulae](dark%20nebula.md)}@}. <!--SR:!2026-09-07,535,310!2027-04-25,761,330!2025-08-04,283,330-->
+Interstellar reddening is {@{a phenomenon associated with interstellar extinction where the [spectrum](astronomical%20spectroscopy.md) of electromagnetic radiation from a [radiation source](astronomical%20object.md) changes characteristics from that which the object originally [emitted](emission%20spectrum.md)}@}. Reddening occurs due to {@{the light scattering off [dust](cosmic%20dust.md) and other [matter](matter.md) in the [interstellar medium](interstellar%20medium.md)}@}. An example can be seen at {@{the edges of [dark nebulae](dark%20nebula.md)}@}. <!--SR:!2026-09-07,535,310!2027-04-25,761,330!2029-02-13,1289,350-->
 
 ## references
 

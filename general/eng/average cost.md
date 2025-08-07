@@ -65,7 +65,7 @@ When {@{average cost is declining as output increases}@}, {@{marginal cost is le
 1. {@{The Average Fixed Cost curve \(AFC\)}@} starts {@{from a height and goes on declining continuously as production increases}@}.
 2. {@{The Average Variable Cost curve, Average Cost curve and the Marginal Cost curve}@} start {@{from a height, reach the minimum points, then rise sharply and continuously}@}.
 3. {@{The Average Fixed Cost curve}@} {@{approaches zero asymptotically}@}. {@{The Average Variable Cost curve}@} is {@{never parallel to or as high as the Average Cost curve}@} due to {@{the existence of positive Average Fixed Costs at all levels of production}@}; but {@{the Average Variable Cost curve asymptotically approaches the Average Cost curve from below}@}.
-4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve}@}. <!--SR:!2026-01-16,277,342!2027-01-07,539,322!2025-09-30,175,310!2025-09-12,173,310!2026-01-24,284,342!2025-09-28,188,322!2025-12-01,120,393!2025-11-29,118,393!2025-11-26,115,393!2025-08-04,24,373!2025-08-04,24,373!2025-12-02,121,393-->
+4. {@{The Marginal Cost curve}@} always {@{passes through the minimum points of the Average Variable Cost and Average Cost curves, though the Average Variable Cost curve attains the minimum point prior to that of the Average Cost curve}@}. <!--SR:!2026-01-16,277,342!2027-01-07,539,322!2025-09-30,175,310!2025-09-12,173,310!2026-01-24,284,342!2025-09-28,188,322!2025-12-01,120,393!2025-11-29,118,393!2025-11-26,115,393!2025-12-04,121,393!2025-12-03,120,393!2025-12-02,121,393-->
 
 ## see also
 

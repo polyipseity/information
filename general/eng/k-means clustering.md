@@ -16,7 +16,7 @@ tags:
 Assuming that we have $k$ clusters, {@{make $k$ initial means}@}. Repeat the following two steps: <!--SR:!2026-10-17,699,333-->
 
 1. __assignment step__ ::@:: Assign each observation to the nearest mean, using the (squared) [Euclidean distance](Euclidean%20distance.md). If there are two or more means of the same distance, arbitrarily choose one of them. <!--SR:!2026-11-12,719,333!2028-08-02,1224,353-->
-2. __update step__ ::@:: Recalculate means (or [centroids](centroid.md)) using the assigned observations. <!--SR:!2026-06-03,575,310!2025-08-07,358,310-->
+2. __update step__ ::@:: Recalculate means (or [centroids](centroid.md)) using the assigned observations. <!--SR:!2026-06-03,575,310!2029-10-22,1537,330-->
 
 The algorithm has converged {@{when the assignments no longer change}@}, but the resulting clusters are {@{not guaranteed to be the optimum}@}. <!--SR:!2026-07-08,571,313!2027-03-07,809,330-->
 
@@ -39,7 +39,7 @@ A naive way to initialize the means is {@{randomly choose $k$ observations}@}. A
 
 ## discussion
 
-While _k_-means is {@{simple to implement and efficient}@}, there are {@{several drawbacks to it}@}. {@{The number of clusters _k_}@} is {@{a [hyperparameter](hyperparameter%20(machine%20learning).md) that is crucial for optimal results}@}. Yet, {@{[determining the number of clusters in a data set](determining%20the%20number%20of%20clusters%20in%20a%20data%20set)}@} is {@{difficult and often ambiguous}@}. {@{\(Squared\) [Euclidean distance](Euclidean%20distance.md)}@} is {@{\(almost\) always used as a [metric](metric%20(mathematics).md)}@} and {@{[variance](variance.md)}@} is used as {@{a measure of cluster scatter}@}, which is {@{limited for many clustering models}@}. Lastly, convergence may {@{produce counterintuitive results, like a mean in between two somewhat close but still separate clusters, or a cluster being split into two by two means}@}. <!--SR:!2026-08-27,666,330!2029-04-17,1359,313!2027-03-05,786,310!2027-08-31,866,290!2025-08-06,4,314!2025-08-06,4,314!2025-08-06,4,314!2025-08-06,4,314!2025-08-06,4,314!2025-08-06,4,314!2025-08-06,4,314!2025-08-06,4,314-->
+While _k_-means is {@{simple to implement and efficient}@}, there are {@{several drawbacks to it}@}. {@{The number of clusters _k_}@} is {@{a [hyperparameter](hyperparameter%20(machine%20learning).md) that is crucial for optimal results}@}. Yet, {@{[determining the number of clusters in a data set](determining%20the%20number%20of%20clusters%20in%20a%20data%20set)}@} is {@{difficult and often ambiguous}@}. {@{\(Squared\) [Euclidean distance](Euclidean%20distance.md)}@} is {@{\(almost\) always used as a [metric](metric%20(mathematics).md)}@} and {@{[variance](variance.md)}@} is used as {@{a measure of cluster scatter}@}, which is {@{limited for many clustering models}@}. Lastly, convergence may {@{produce counterintuitive results, like a mean in between two somewhat close but still separate clusters, or a cluster being split into two by two means}@}. <!--SR:!2026-08-27,666,330!2029-04-17,1359,313!2027-03-05,786,310!2027-08-31,866,290!2025-08-23,17,334!2025-08-24,18,334!2025-08-24,18,334!2025-08-24,18,334!2025-08-23,17,334!2025-08-24,18,334!2025-08-24,18,334!2025-08-24,18,334-->
 
 Its cluster model is also very limited. It assumes the clusters are {@{spherical and separable so that the mean converges to the cluster center. The clusters are also of similar size so that the observations are assigned the correct mean}@}. <!--SR:!2027-11-22,893,270-->
 

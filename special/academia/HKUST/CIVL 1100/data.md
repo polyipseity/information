@@ -53,7 +53,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
-- description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2025-08-07,356,374-->
+- description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2030-08-04,1823,394-->
 - height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2026-10-17,441,261!2025-09-17,384,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2030-02-17,1680,400!2029-02-25,1409,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: e75e9185-3454-4c54-a9c9-5a05c6b26732 -->::@:: aluminum, reinforced concrete, steel <!--SR:!2025-10-15,407,341!2027-03-07,764,330-->

@@ -65,7 +65,7 @@ trait Functor[F[_]] {
 > <!-- <span class="p"> --><span style="">}</span>
 > </pre> <!--SR:!2026-02-04,305,335!2026-10-23,485,315-->
 
-Functors form {@{a base for more complex abstractions}@} like {@{[Applicative Functor](applicative%20functor.md), [Monad](monad%20(functional%20programming).md), and [Comonad](monad%20(functional%20programming).md#comonads)}@}, all of which {@{build atop a canonical functor structure}@}. Functors are useful in {@{modeling [functional effects](functional%20effects.md) by values of parameterized data types}@}. {@{Modifiable computations}@} are modeled by {@{allowing a pure function to be applied to values of the "inner" type}@}, thus {@{creating the new overall value which represents the modified computation \(which might yet to be run\)}@}. <!--SR:!2026-02-03,304,335!2025-08-04,159,315!2026-01-22,294,330!2025-09-28,197,315!2026-01-27,299,335!2026-02-04,305,335!2026-02-06,307,335-->
+Functors form {@{a base for more complex abstractions}@} like {@{[Applicative Functor](applicative%20functor.md), [Monad](monad%20(functional%20programming).md), and [Comonad](monad%20(functional%20programming).md#comonads)}@}, all of which {@{build atop a canonical functor structure}@}. Functors are useful in {@{modeling [functional effects](functional%20effects.md) by values of parameterized data types}@}. {@{Modifiable computations}@} are modeled by {@{allowing a pure function to be applied to values of the "inner" type}@}, thus {@{creating the new overall value which represents the modified computation \(which might yet to be run\)}@}. <!--SR:!2026-02-03,304,335!2027-06-27,692,335!2026-01-22,294,330!2025-09-28,197,315!2026-01-27,299,335!2026-02-04,305,335!2026-02-06,307,335-->
 
 ## examples
 

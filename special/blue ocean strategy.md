@@ -27,7 +27,7 @@ To visualize the industry, one can make use of a {@{capture strategy canvas}@}. 
 
 ### imagine "to be"
 
-In the 2nd step, imagine "to be", the goal is to {@{imagine where we could be}@}. You should {@{understand pains and look for non-customers}@}. <!--SR:!2025-08-07,324,344!2026-05-22,475,304-->
+In the 2nd step, imagine "to be", the goal is to {@{imagine where we could be}@}. You should {@{understand pains and look for non-customers}@}. <!--SR:!2029-10-18,1533,364!2026-05-22,475,304-->
 
 To understand pains, we can use {@{a customer journey map, which is similar to a [buyer utility map](buyer%20utility%20map.md) but with the column headers replaced with custom steps}@}. Only {@{note down the customer pains}@} on the map, and then {@{prioritize some customer pains by making them red}@}. Finally, {@{decide which pains are worth-solving by reducing or eliminating existing features}@}. <!--SR:!2027-07-02,801,304!2026-10-18,601,304!2025-09-12,298,284!2028-07-20,1140,344-->
 

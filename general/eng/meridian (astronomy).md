@@ -9,7 +9,7 @@ tags:
 
 # meridian
 
-In [astronomy](astronomy.md), the __meridian__ is {@{the [great circle](great%20circle.md) passing through the [celestial poles](celestial%20pole.md), as well as the [zenith](zenith.md) and [nadir](nadir.md) of an observer's location}@}. Consequently, it contains {@{also the [north](true%20north.md) and [south](south.md) points on the [horizon](horizon.md)}@}, and it is [perpendicular](perpendicular.md) to {@{the [celestial equator](celestial%20equator.md) and horizon}@}. <!--SR:!2025-08-05,283,290!2027-06-12,757,290!2027-11-05,903,310-->
+In [astronomy](astronomy.md), the __meridian__ is {@{the [great circle](great%20circle.md) passing through the [celestial poles](celestial%20pole.md), as well as the [zenith](zenith.md) and [nadir](nadir.md) of an observer's location}@}. Consequently, it contains {@{also the [north](true%20north.md) and [south](south.md) points on the [horizon](horizon.md)}@}, and it is [perpendicular](perpendicular.md) to {@{the [celestial equator](celestial%20equator.md) and horizon}@}. <!--SR:!2028-09-18,1140,310!2027-06-12,757,290!2027-11-05,903,310-->
 
 > [!tip] tips
 >

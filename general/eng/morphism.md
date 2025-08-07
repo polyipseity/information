@@ -17,7 +17,7 @@ Morphisms and categories {@{recur in much of contemporary mathematics}@}. Origin
 
 ## definition
 
-A [category](category%20(mathematics).md) _C_ consists of {@{two [classes](class%20(set%20theory).md), one of objects and the other of morphisms}@}. There are {@{two objects that are associated to every morphism, the source and the target}@}. {@{A _morphism_ _f_ _from_ _X_ _to_ _Y_}@} is {@{a morphism with source _X_ and target _Y_}@}; it is commonly written as {@{_f_ : _X_ → _Y_ or $X \overset f \to Y$}@} the latter form {@{being better suited for [commutative diagrams](commutative%20diagram.md)}@}. <!--SR:!2026-01-09,285,330!2025-08-04,158,310!2026-01-04,281,330!2025-12-29,276,330!2025-12-26,274,330!2026-01-15,289,330-->
+A [category](category%20(mathematics).md) _C_ consists of {@{two [classes](class%20(set%20theory).md), one of objects and the other of morphisms}@}. There are {@{two objects that are associated to every morphism, the source and the target}@}. {@{A _morphism_ _f_ _from_ _X_ _to_ _Y_}@} is {@{a morphism with source _X_ and target _Y_}@}; it is commonly written as {@{_f_ : _X_ → _Y_ or $X \overset f \to Y$}@} the latter form {@{being better suited for [commutative diagrams](commutative%20diagram.md)}@}. <!--SR:!2026-01-09,285,330!2027-06-13,678,330!2026-01-04,281,330!2025-12-29,276,330!2025-12-26,274,330!2026-01-15,289,330-->
 
 For {@{many common categories}@}, objects are {@{[sets](set%20(mathematics).md) \(often with some additional structure\) and morphisms are [functions](function%20(mathematics).md) from an object to another object}@}. Therefore, the source and the target of a morphism are often called {@{domain and codomain respectively}@}. <!--SR:!2026-01-04,281,330!2025-12-01,255,330!2026-01-14,288,330-->
 

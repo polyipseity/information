@@ -41,7 +41,7 @@ The content is in teaching order.
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
     - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2030-09-08,1863,394-->
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
+  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2030-11-20,1931,397-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2026-03-27,517,352-->
@@ -60,7 +60,7 @@ The content is in teaching order.
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
       - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2026-09-12,532,265!2027-07-04,840,344-->
-  - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2025-08-05,373,377-->
+  - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2030-11-12,1925,397-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2029-05-31,1398,325!2028-08-04,1252,387-->
   - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
@@ -503,7 +503,7 @@ teaming up with others
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2028-01-23,921,280-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2029-03-28,1354,340-->
-- strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
+- strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2030-06-28,1788,400-->
 - teaming up with others→::@::←_(end)_ <!--SR:!2029-12-09,1648,395!2027-04-08,752,292-->
 
 <!--/pytextgen-->
@@ -810,7 +810,7 @@ water distribution network
 
 - _(begin)_→::@::←sewage collection network <!--SR:!2027-08-11,807,341!2028-05-01,1105,337-->
 - sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
-- storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
+- storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2029-07-01,1424,340-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
 - water distribution network→::@::←_(end)_ <!--SR:!2027-10-26,1024,387!2026-02-13,440,321-->
 
@@ -985,7 +985,7 @@ Two Prudential Plaza
 - _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2028-09-25,1218,337!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2029-04-02,1381,354!2025-08-25,342,340-->
 - China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-11-16,275,240-->
-- Two Prudential Plaza→::@::←_(end)_ <!--SR:!2027-09-14,930,375!2025-08-04,322,320-->
+- Two Prudential Plaza→::@::←_(end)_ <!--SR:!2027-09-14,930,375!2029-06-29,1424,340-->
 
 <!--/pytextgen-->
 

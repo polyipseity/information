@@ -264,7 +264,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2027-01-21,722,290!2028-03-08,1036,310-->
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2025-09-25,174,150!2026-01-30,426,250-->
 - `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2026-10-07,618,270!2026-02-17,430,250-->
-- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2025-08-04,291,230!2026-06-05,327,190-->
+- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2028-03-10,946,250!2026-06-05,327,190-->
 - `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2027-09-15,964,310-->
 
 <!--/pytextgen-->

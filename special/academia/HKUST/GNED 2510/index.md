@@ -66,7 +66,7 @@ The content is in teaching order.
 - topic: Portfolio Building (I)
 - skill vs. will
 - job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2026-11-28,605,330!2028-02-19,931,330-->
-  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2025-09-01,265,330!2025-08-04,242,330-->
+  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2025-09-01,265,330!2028-08-12,1101,350-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2025-10-21,300,330-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->
@@ -174,12 +174,12 @@ The content is in teaching order.
 - datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2025-10-23,302,330!2025-08-08,244,330-->
-- STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2025-08-04,244,330-->
+- STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2028-08-22,1111,350-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2025-08-10,246,330!2025-10-24,303,330-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2027-10-18,854,330!2028-01-18,939,350-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2025-09-03,266,330-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2025-08-08,246,330!2025-10-21,300,330-->
-  - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2025-08-07,243,330!2025-08-11,247,330-->
+  - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2028-08-17,1106,350!2025-08-11,247,330-->
 
 ## week 12 tutorial
 

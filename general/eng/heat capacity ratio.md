@@ -37,7 +37,7 @@ tags:
 >
 > - where
 >   - {@{$\gamma$ is the heat capacity ratio and $f$ is the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}@}
-> - conditions: {@{[ideal gas](ideal%20gas.md)}@} <!--SR:!2027-07-02,801,250!2025-08-07,148,270!2025-11-24,494,310-->
+> - conditions: {@{[ideal gas](ideal%20gas.md)}@} <!--SR:!2027-07-02,801,250!2027-02-16,558,290!2025-11-24,494,310-->
 
 #### derivation
 

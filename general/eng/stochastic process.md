@@ -213,7 +213,7 @@ Skorokhod function spaces are {@{frequently used in the theory of stochastic pro
 
 #### regularity
 
-In the context of {@{mathematical construction of stochastic processes}@}, {@{the term __regularity__}@} is used when {@{discussing and assuming certain conditions for a stochastic process to resolve possible construction issues}@}.<sup>[\[187\]](#^ref-187)</sup><sup>[\[188\]](#^ref-188)</sup> For example, to {@{study stochastic processes with uncountable index sets}@}, it is assumed that {@{the stochastic process adheres to some type of regularity condition such as the sample functions being continuous}@}.<sup>[\[189\]](#^ref-189)</sup><sup>[\[190\]](#^ref-190)</sup> <!--SR:!2026-03-03,355,353!2026-01-22,323,356!2027-03-10,613,327!2026-03-01,352,356!2025-08-04,168,316-->
+In the context of {@{mathematical construction of stochastic processes}@}, {@{the term __regularity__}@} is used when {@{discussing and assuming certain conditions for a stochastic process to resolve possible construction issues}@}.<sup>[\[187\]](#^ref-187)</sup><sup>[\[188\]](#^ref-188)</sup> For example, to {@{study stochastic processes with uncountable index sets}@}, it is assumed that {@{the stochastic process adheres to some type of regularity condition such as the sample functions being continuous}@}.<sup>[\[189\]](#^ref-189)</sup><sup>[\[190\]](#^ref-190)</sup> <!--SR:!2026-03-03,355,353!2026-01-22,323,356!2027-03-10,613,327!2026-03-01,352,356!2027-01-18,531,316-->
 
 ## further examples
 
@@ -378,7 +378,7 @@ Another problem is that {@{functionals of continuous-time process that rely upon
 
 where the symbol __∈__ {@{can be read "a member of the set", as in $t$ a member of the set $T$}@}. <!--SR:!2026-02-18,345,356-->
 
-To {@{overcome the two difficulties described above, i.e., "more than one..." and "functionals of..."}@}, {@{different assumptions and approaches}@} are possible.<sup>[\[69\]](#^ref-69)</sup> <!--SR:!2025-08-07,174,316!2026-02-11,340,356-->
+To {@{overcome the two difficulties described above, i.e., "more than one..." and "functionals of..."}@}, {@{different assumptions and approaches}@} are possible.<sup>[\[69\]](#^ref-69)</sup> <!--SR:!2027-09-06,760,336!2026-02-11,340,356-->
 
 ### resolving construction issues
 
@@ -396,7 +396,7 @@ Although less used, {@{the separability assumption is considered more general}@}
 
 {@{One of the most famous applications of stochastic processes in finance}@} is {@{the __[Black-Scholes model](Black–Scholes%20model.md)__ for option pricing}@}. Developed by {@{[Fischer Black](Fischer%20Black.md), [Myron Scholes](Myron%20Scholes.md), and [Robert Solow](Robert%20Solow.md)}@}, this model uses {@{__[geometric Brownian motion](geometric%20Brownian%20motion.md)__}@}, a specific type of {@{stochastic process, to describe the dynamics of asset prices}@}.<sup>[\[319\]](#^ref-319)</sup><sup>[\[320\]](#^ref-320)</sup> The model assumes that {@{the price of a stock follows a continuous-time stochastic process}@} and {@{provides a closed-form solution for pricing European-style options}@}. The Black-Scholes formula {@{has had a profound impact on financial markets}@}, forming {@{the basis for much of modern options trading}@}. <!--SR:!2026-02-05,335,356!2025-09-17,216,336!2025-09-18,218,336!2026-03-02,353,356!2026-09-14,472,310!2025-10-23,246,330!2025-09-19,219,336!2025-10-26,248,330!2026-01-02,308,356-->
 
-{@{The key assumption of the Black-Scholes model}@} is that {@{the price of a financial asset, such as a stock}@}, follows {@{a __[log-normal distribution](log-normal%20distribution.md)__, with its continuous returns following a normal distribution}@}. Although {@{the model has limitations, such as the assumption of constant volatility}@}, it {@{remains widely used due to its simplicity and practical relevance}@}. <!--SR:!2025-10-04,229,336!2026-02-27,351,356!2025-08-04,166,307!2027-05-02,665,330!2026-03-01,354,356-->
+{@{The key assumption of the Black-Scholes model}@} is that {@{the price of a financial asset, such as a stock}@}, follows {@{a __[log-normal distribution](log-normal%20distribution.md)__, with its continuous returns following a normal distribution}@}. Although {@{the model has limitations, such as the assumption of constant volatility}@}, it {@{remains widely used due to its simplicity and practical relevance}@}. <!--SR:!2025-10-04,229,336!2026-02-27,351,356!2027-07-12,706,327!2027-05-02,665,330!2026-03-01,354,356-->
 
 #### stochastic volatility models
 

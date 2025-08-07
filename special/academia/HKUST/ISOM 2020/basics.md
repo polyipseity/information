@@ -66,7 +66,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`**` <!--SR:!2025-09-10,287,342!2028-07-13,1092,350-->
-- `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2025-11-26,348,342-->
+- `**`→::@::←`*` <!--SR:!2028-12-08,1219,362!2025-11-26,348,342-->
 - `*`→::@::←`/` <!--SR:!2025-10-20,319,342!2025-11-19,344,342-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2025-11-27,349,342-->
 - `//`→::@::←`%` <!--SR:!2028-03-07,990,350!2025-09-20,294,342-->
@@ -164,7 +164,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2026-05-18,482,389-->
 
-Also, one CAN chain {@{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2025-08-04,249,369-->
+Also, one CAN chain {@{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2029-01-15,1259,389-->
 
 ### logic operators
 
@@ -233,7 +233,7 @@ In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`T
 
 ## string
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2028-03-09,992,350!2025-12-01,353,342!2025-08-19,269,342!2025-08-05,258,342!2025-09-03,282,342!2028-01-01,924,342!2026-12-22,635,330-->
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2028-03-09,992,350!2025-12-01,353,342!2025-08-19,269,342!2028-12-02,1215,362!2025-09-03,282,342!2028-01-01,924,342!2026-12-22,635,330-->
 
 `\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2026-01-05,356,363!2025-11-04,322,363!2025-09-03,279,363-->
 
@@ -243,7 +243,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2025-10-27,318,363!2026-04-11,458,383!2025-12-30,351,363!2026-04-05,457,383!2025-10-13,312,363!2025-08-12,265,363!2025-08-06,260,363!2026-05-20,491,383-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2025-10-27,318,363!2026-04-11,458,383!2025-12-30,351,363!2026-04-05,457,383!2025-10-13,312,363!2025-08-12,265,363!2029-02-23,1296,383!2026-05-20,491,383-->
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2026-05-24,488,394-->
 

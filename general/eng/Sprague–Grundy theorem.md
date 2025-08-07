@@ -111,7 +111,7 @@ Suppose that {@{$G+H$ is a ${\mathcal {P} }$-position}@}. Then {@{the previous p
 
 On the other hand, if {@{$G+H$ is an ${\mathcal {N} }$-position}@}, then {@{$A+G+H$ is also an ${\mathcal {N} }$-position}@}, because {@{the next player has a winning strategy}@}: choose {@{a ${\mathcal {P} }$-position from among the $G+H$ options}@}, and we conclude {@{from the previous paragraph that adding $A$ to that position is still a ${\mathcal {P} }$-position (annotation: and in this context, the previous player refers to the next player before choosing a $\mathcal P$-position from $G + H$)}@}. Thus, {@{in this case, $A+G+H$ must be a ${\mathcal {N} }$-position, just like $G+H$}@}. <!--SR:!2025-12-19,278,330!2025-12-04,267,330!2025-09-16,185,270!2027-01-02,545,310!2026-02-03,294,290!2025-09-29,199,310-->
 
-As {@{these are the only two cases}@}, {@{the lemma holds}@}. <!--SR:!2025-08-09,173,310!2025-08-07,172,310-->
+As {@{these are the only two cases}@}, {@{the lemma holds}@}. <!--SR:!2025-08-09,173,310!2027-08-14,737,330-->
 
 ## Second Lemma
 

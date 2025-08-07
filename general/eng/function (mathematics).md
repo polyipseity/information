@@ -228,7 +228,7 @@ For example, {@{the equation of the [unit circle](unit%20circle.md) $x^{2}+y^{2}
 
 In this example, {@{the equation can be solved in _y_}@}, giving {@{$y=\pm {\sqrt {1-x^{2} } }$}@}, but, {@{in more complicated examples, this is impossible}@}. For example, {@{the relation $y^{5}+y+x=0$}@} defines {@{_y_ as an implicit function of _x_}@}, called {@{the [Bring radical](bring%20radical.md)}@}, which has {@{$\mathbb {R}$ as domain and range}@}. The Bring radical {@{cannot be expressed in terms of the four arithmetic operations and [_n_<!-- markdown separator -->th roots](nth%20root.md)}@}. <!--SR:!2026-07-07,403,367!2026-06-14,387,365!2026-06-30,403,367!2026-01-02,253,330!2026-06-05,379,367!2026-02-27,300,350!2026-05-06,348,350!2026-07-08,404,367-->
 
-{@{The [implicit function theorem](implicit%20function%20theorem.md)}@} provides {@{mild [differentiability](differentiability.md) conditions for existence and uniqueness of an implicit function in the neighborhood of a point}@}. <!--SR:!2026-07-09,405,367!2025-08-07,121,290-->
+{@{The [implicit function theorem](implicit%20function%20theorem.md)}@} provides {@{mild [differentiability](differentiability.md) conditions for existence and uniqueness of an implicit function in the neighborhood of a point}@}. <!--SR:!2026-07-09,405,367!2026-12-14,494,310-->
 
 ### using differential calculus
 
@@ -310,7 +310,7 @@ There are {@{a number of standard functions}@} that occur frequently: <!--SR:!20
 - For {@{every set _X_ and every [singleton set](singleton%20set.md) {_s_}<!-- flashcard separator -->}@}, there is {@{a unique function from _X_ to {_s_}<!-- flashcard separator-->}@}, which {@{maps every element of _X_ to _s_}@}. This is {@{a surjection \(see below\) unless _X_ is the empty set}@}. (annotation: category theory: {@{terminal objects in __Set__}@})
 - Given {@{a function $f:X\to Y$}@}, {@{the _canonical surjection_ of _f_ onto its image $f(X)=\{f(x)\mid x\in X\}$}@} is {@{the function from _X_ to _f_\(_X_\) that maps _x_ to _f_\(_x_\)}@}.
 - For {@{every [subset](subset.md) _A_ of a set _X_}@}, {@{the [inclusion map](inclusion%20map.md) of _A_ into _X_}@} is {@{the injective \(see below\) function that maps every element of _A_ to itself}@}.
-- {@{The [identity function](identity%20function.md) on a set _X_}@}, often {@{denoted by id<sub>_X_</sub>}@}, is {@{the inclusion of _X_ into itself}@}. <!--SR:!2025-12-03,214,330!2025-11-17,216,330!2026-02-24,294,330!2026-04-24,337,350!2026-06-14,387,367!2025-10-23,194,330!2025-08-04,24,390!2025-08-06,26,390!2025-08-04,24,390!2025-08-04,24,390!2025-08-05,25,390!2025-08-05,25,390!2025-08-05,25,390!2025-08-05,25,390!2025-08-04,24,390!2025-08-06,26,390!2025-08-04,24,390!2025-08-04,24,390!2025-08-06,26,390!2025-08-05,25,390!2025-08-06,26,390!2025-08-04,24,390!2025-08-05,25,390!2025-08-05,25,390!2025-08-04,24,390-->
+- {@{The [identity function](identity%20function.md) on a set _X_}@}, often {@{denoted by id<sub>_X_</sub>}@}, is {@{the inclusion of _X_ into itself}@}. <!--SR:!2025-12-03,214,330!2025-11-17,216,330!2026-02-24,294,330!2026-04-24,337,350!2026-06-14,387,367!2025-10-23,194,330!2025-12-10,127,410!2025-12-20,136,410!2025-12-11,128,410!2025-12-09,126,410!2025-12-13,130,410!2025-12-13,130,410!2025-12-13,130,410!2025-12-13,130,410!2025-12-09,126,410!2025-12-22,138,410!2025-12-11,128,410!2025-12-08,125,410!2025-12-21,137,410!2025-12-13,130,410!2025-12-22,138,410!2025-12-10,127,410!2025-12-15,132,410!2025-12-13,130,410!2025-12-08,125,410-->
 
 ### function composition
 

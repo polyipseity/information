@@ -220,7 +220,7 @@ The content is in teaching order.
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2027-09-30,938,361-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2025-08-05,332,361-->
+  - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2030-02-06,1644,381-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2025-11-01,410,381-->
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2029-10-10,1550,381-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
@@ -229,7 +229,7 @@ The content is in teaching order.
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2028-09-29,1248,381!2025-10-01,385,381-->
-- cause mapping extensions ::@:: facts table, solutions table <!--SR:!2025-09-03,361,381!2025-08-07,318,361-->
+- cause mapping extensions ::@:: facts table, solutions table <!--SR:!2025-09-03,361,381!2029-12-02,1578,381-->
   - facts table ::@:: what, when, where, impact <!--SR:!2025-11-13,420,381!2027-05-16,828,361-->
   - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2026-11-22,638,341!2025-08-10,321,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2026-02-04,484,381-->

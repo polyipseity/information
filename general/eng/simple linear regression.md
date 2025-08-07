@@ -57,7 +57,7 @@ The goal is to {@{find estimated values ${\widehat {\alpha } }$ and ${\widehat {
 
 {@{The solution can be reformulated}@} using {@{elements of the [covariance matrix](covariance%20matrix.md)}@}: {@{$${\widehat {\beta } }={\frac {s_{x,y} }{s_{x}^{2} } }=r_{xy}{\frac {s_{y} }{s_{x} } }$$}@} where <!--SR:!2025-12-21,247,330!2026-09-19,434,310!2025-09-29,146,250-->
 
-- _r_<sub>_xy_</sub> ::@:: is the [sample correlation coefficient](correlation.md#sample%20correlation%20coefficient) between _x_ and _y_ <!--SR:!2025-08-07,125,290!2026-01-16,268,330-->
+- _r_<sub>_xy_</sub> ::@:: is the [sample correlation coefficient](correlation.md#sample%20correlation%20coefficient) between _x_ and _y_ <!--SR:!2026-12-25,505,310!2026-01-16,268,330-->
 - _s_<sub>_x_</sub> and _s<sub>y</sub>_ ::@:: are the [uncorrected sample standard deviations](standard%20deviation.md#uncorrected%20sample%20standard%20deviation) of _x_ and _y_ <!--SR:!2025-11-10,196,310!2025-12-24,250,330-->
 - $s_{x}^{2}$ and $s_{x,y}$ ::@:: are the [sample variance](variance.md#sample%20variance) and [sample covariance](sample%20mean%20and%20covariance.md#sample%20covariance), respectively <!--SR:!2026-01-14,266,330!2025-12-30,255,330-->
 
@@ -135,7 +135,7 @@ Similarly, {@{the confidence interval for the intercept coefficient _α_}@} is g
 
 {@{The confidence intervals for _α_ and _β_}@} give us {@{the general idea where these regression coefficients are most likely to be}@}. For example, in the [Okun's law](Okun's%20law.md) regression shown here the point estimates are $${\widehat {\alpha } }=0.859,\qquad {\widehat {\beta } }=-1.817.$$ The 95% confidence intervals for these estimates are $$\alpha \in \left[\,0.76,0.96\right],\qquad \beta \in \left[-2.06,-1.58\,\right].$$ In order to {@{represent this information graphically, in the form of the confidence bands around the regression line}@}, one has to {@{proceed carefully and account for the joint distribution of the estimators}@}. It can be shown<sup>[\[12\]](#^ref-12)</sup> that {@{at confidence level \(1 − _γ_\)}@} the confidence band has {@{hyperbolic form given by the equation $$(\alpha +\beta \xi )\in \left[\,{\widehat {\alpha } }+{\widehat {\beta } }\xi \pm t_{n-2}^{*}{\sqrt {\left({\frac {1}{n-2} }\sum {\widehat {\varepsilon } }_{i}^{\,2}\right)\cdot \left({\frac {1}{n} }+{\frac {(\xi -{\bar {x} })^{2} }{\sum (x_{i}-{\bar {x} })^{2} } }\right)} }\,\right].$$}@} <!--SR:!2025-12-28,253,330!2026-02-06,284,330!2025-10-08,183,310!2026-01-03,257,330!2025-10-27,187,310!2025-10-20,117,210-->
 
-When {@{the model assumed the intercept is fixed and equal to 0 \($\alpha =0$\)}@}, {@{the standard error of the slope}@} turns into: {@{$$s_{\widehat {\beta } }={\sqrt { {\frac {1}{n-1} }{\frac {\sum _{i=1}^{n}{\widehat {\varepsilon } }_{i}^{\,2} }{\sum _{i=1}^{n}x_{i}^{2} } } } }$$}@} With: {@{${\hat {\varepsilon } }_{i}=y_{i}-{\hat {y} }_{i}$}@} <!--SR:!2025-10-02,168,310!2026-05-08,331,290!2025-08-06,124,290!2026-01-07,260,330-->
+When {@{the model assumed the intercept is fixed and equal to 0 \($\alpha =0$\)}@}, {@{the standard error of the slope}@} turns into: {@{$$s_{\widehat {\beta } }={\sqrt { {\frac {1}{n-1} }{\frac {\sum _{i=1}^{n}{\widehat {\varepsilon } }_{i}^{\,2} }{\sum _{i=1}^{n}x_{i}^{2} } } } }$$}@} With: {@{${\hat {\varepsilon } }_{i}=y_{i}-{\hat {y} }_{i}$}@} <!--SR:!2025-10-02,168,310!2026-05-08,331,290!2026-12-24,505,310!2026-01-07,260,330-->
 
 #### asymptotic assumption
 

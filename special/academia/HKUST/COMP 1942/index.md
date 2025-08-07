@@ -121,7 +121,7 @@ The content is in teaching order.
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
-  - divisive clustering ::@:: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2025-08-05,332,311!2028-02-28,1116,367-->
+  - divisive clustering ::@:: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2028-05-30,1029,311!2028-02-28,1116,367-->
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
@@ -143,7 +143,7 @@ The content is in teaching order.
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
   - statistical classification algorithms ::@:: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2028-12-27,1355,371!2027-02-12,804,351-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-  - entropy base ::@:: We use base 2. <!--SR:!2028-05-25,1169,367!2025-08-07,381,367-->
+  - entropy base ::@:: We use base 2. <!--SR:!2028-05-25,1169,367!2030-11-05,1916,387-->
 
 ## week 7 lecture 1
 
@@ -359,7 +359,7 @@ The content is in teaching order.
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
 - [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
-  - new data set ::@:: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2025-08-07,332,377!2030-01-16,1638,397-->
+  - new data set ::@:: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2030-04-16,1713,397!2030-01-16,1638,397-->
 
 ## week 12 lab
 
@@ -385,7 +385,7 @@ The content is in teaching order.
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
   - data warehouse > application ::@:: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2026-02-23,494,388!2026-10-06,640,388-->
-  - data warehouse > advantage ::@:: data warehouses can speed up queries on a database <!--SR:!2026-03-28,462,337!2025-08-05,327,377-->
+  - data warehouse > advantage ::@:: data warehouses can speed up queries on a database <!--SR:!2026-03-28,462,337!2030-03-20,1688,397-->
 
 ## week 13 lecture 1
 
@@ -447,7 +447,7 @@ The content is in teaching order.
   - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
   - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
 - [conditional probability table](../../../../general/conditional%20probability%20table.md)
-  - conditional probability table format ::@:: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2025-08-07,210,289!2027-01-11,674,349-->
+  - conditional probability table format ::@:: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2027-12-04,849,309!2027-01-11,674,349-->
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)

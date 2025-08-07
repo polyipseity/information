@@ -107,7 +107,7 @@ If {@{supply or demand is a function of other variables besides price}@}, it may
 
 ### equilibrium
 
-Generally speaking, an equilibrium is defined to be {@{the price-quantity pair where the quantity demanded is equal to the quantity supplied}@}. It is represented by {@{the intersection of the demand and supply curves}@}. {@{The analysis of various equilibria}@} is {@{a fundamental aspect of [microeconomics](microeconomics.md)}@}. <!--SR:!2025-08-07,192,310!2026-01-31,353,350!2025-09-21,243,330!2025-09-19,242,330-->
+Generally speaking, an equilibrium is defined to be {@{the price-quantity pair where the quantity demanded is equal to the quantity supplied}@}. It is represented by {@{the intersection of the demand and supply curves}@}. {@{The analysis of various equilibria}@} is {@{a fundamental aspect of [microeconomics](microeconomics.md)}@}. <!--SR:!2027-11-15,830,330!2026-01-31,353,350!2025-09-21,243,330!2025-09-19,242,330-->
 
 #### market equilibrium
 
@@ -171,7 +171,7 @@ The model of supply and demand accurately describes {@{the characteristic of met
 
 ## empirical estimation
 
-{@{Demand and supply relations in a market}@} can be {@{statistically estimated from price, quantity, and other [data](data.md) with sufficient information in the model}@}. This can be done with {@{_[simultaneous-equation](system%20of%20linear%20equations.md) methods of estimation_ in [econometrics](econometrics.md)}@}. Such methods allow {@{solving for the model-relevant "structural coefficients," the estimated algebraic counterparts of the theory}@}. {@{The _[parameter identification problem](parameter%20identification%20problem.md)_}@} is {@{a common issue in "structural estimation."}@} Typically, {@{data on [exogenous](exogenous%20and%20endogenous%20variables.md) variables (that is, variables other than price and quantity, both of which are [endogenous](exogenous%20and%20endogenous%20variables.md) variables)}@} are {@{needed to perform such an estimation}@}. {@{An alternative to "structural estimation"}@} is {@{[reduced-form](reduced%20form.md) estimation, which regresses each of the endogenous variables on the respective exogenous variables}@}. <!--SR:!2025-09-20,243,330!2025-09-08,232,330!2025-08-06,192,310!2026-08-16,474,310!2025-11-11,283,330!2026-01-25,348,350!2025-09-02,228,330!2026-01-25,348,350!2026-01-09,335,350!2026-05-03,361,290-->
+{@{Demand and supply relations in a market}@} can be {@{statistically estimated from price, quantity, and other [data](data.md) with sufficient information in the model}@}. This can be done with {@{_[simultaneous-equation](system%20of%20linear%20equations.md) methods of estimation_ in [econometrics](econometrics.md)}@}. Such methods allow {@{solving for the model-relevant "structural coefficients," the estimated algebraic counterparts of the theory}@}. {@{The _[parameter identification problem](parameter%20identification%20problem.md)_}@} is {@{a common issue in "structural estimation."}@} Typically, {@{data on [exogenous](exogenous%20and%20endogenous%20variables.md) variables (that is, variables other than price and quantity, both of which are [endogenous](exogenous%20and%20endogenous%20variables.md) variables)}@} are {@{needed to perform such an estimation}@}. {@{An alternative to "structural estimation"}@} is {@{[reduced-form](reduced%20form.md) estimation, which regresses each of the endogenous variables on the respective exogenous variables}@}. <!--SR:!2025-09-20,243,330!2025-09-08,232,330!2027-11-14,830,330!2026-08-16,474,310!2025-11-11,283,330!2026-01-25,348,350!2025-09-02,228,330!2026-01-25,348,350!2026-01-09,335,350!2026-05-03,361,290-->
 
 ## macroeconomic uses
 
@@ -205,7 +205,7 @@ In his 1870 essay "On the Graphical Representation of Supply and Demand", [Fleem
 
 > What a cleaned-up version of Sraffa (1926) establishes is how _nearly empty_ are _all_ of Marshall's partial equilibrium boxes. To a logical purist of Wittgenstein and Sraffa class, the _Marshallian partial_ equilibrium box of _constant_ cost is even more empty than the box of _increasing_ cost.<sup>[\[25\]](#^ref-25)</sup>
 
-Modern [Post-Keynesians](Post-Keynesian%20economics.md) criticize the supply and demand model for {@{failing to explain the prevalence of [administered prices](administered%20prices.md)}@}, in which {@{retail prices are set by firms, primarily based on a mark-up over normal average unit costs, and are not responsive to changes in demand up to capacity}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2025-08-05,191,310!2026-09-16,496,310-->
+Modern [Post-Keynesians](Post-Keynesian%20economics.md) criticize the supply and demand model for {@{failing to explain the prevalence of [administered prices](administered%20prices.md)}@}, in which {@{retail prices are set by firms, primarily based on a mark-up over normal average unit costs, and are not responsive to changes in demand up to capacity}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-11-02,819,330!2026-09-16,496,310-->
 
 ## see also
 

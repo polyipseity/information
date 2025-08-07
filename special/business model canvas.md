@@ -216,7 +216,7 @@ personal assistance
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2027-01-11,764,330-->
+- _(begin)_→::@::←automated services <!--SR:!2029-03-13,1314,314!2027-01-11,764,330-->
 - automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2026-10-08,642,294-->
 - co-creation→::@::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
 - communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2027-06-08,734,274-->
@@ -269,7 +269,7 @@ subscription fee
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2027-03-24,639,257!2025-09-18,322,254-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2025-10-29,328,274-->
 - licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2026-10-23,507,254-->
-- usage fee→::@::←subscription fee <!--SR:!2025-08-04,291,254!2026-07-06,378,277-->
+- usage fee→::@::←subscription fee <!--SR:!2028-06-09,1037,274!2026-07-06,378,277-->
 - subscription fee→::@::←_(end)_ <!--SR:!2025-12-28,417,294!2025-10-29,365,277-->
 
 <!--/pytextgen-->

@@ -11,7 +11,7 @@ tags:
 
 ## list of related theorems
 
-- interchange of [derivative](derivative.md) and [limit](limit%20of%20a%20function.md) ::@:: If a sequence of functions $(f_n)$ converges at at least one point and the sequence of their derivatives $(f_n')$ converges uniformly, then $(f_n)$ converges uniformly to its limiting function $f$ and $(f_n')$ converges (uniformly, as given above) to its limiting derivative $f'$. This can be shown using the [mean value theorem](mean%20value%20theorem.md) for [real-valued functions](real-valued%20function.md) or the [mean value inequality](mean%20value%20theorem.md#mean%20value%20theorem%20for%20vector-valued%20functions) for vector-valued functions. <!--SR:!2025-08-07,139,230!2026-07-28,521,310-->
+- interchange of [derivative](derivative.md) and [limit](limit%20of%20a%20function.md) ::@:: If a sequence of functions $(f_n)$ converges at at least one point and the sequence of their derivatives $(f_n')$ converges uniformly, then $(f_n)$ converges uniformly to its limiting function $f$ and $(f_n')$ converges (uniformly, as given above) to its limiting derivative $f'$. This can be shown using the [mean value theorem](mean%20value%20theorem.md) for [real-valued functions](real-valued%20function.md) or the [mean value inequality](mean%20value%20theorem.md#mean%20value%20theorem%20for%20vector-valued%20functions) for vector-valued functions. <!--SR:!2026-11-02,452,250!2026-07-28,521,310-->
 - interchange of [derivative](derivative.md) and [integral](integral.md) ::@:: [Leibniz integral rule](Leibniz%20integral%20rule.md) <!--SR:!2028-04-23,1069,350!2027-10-31,937,350-->
 
 ## references

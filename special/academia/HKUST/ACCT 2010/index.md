@@ -45,14 +45,14 @@ The content is in teaching order.
 
 - datetime: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
 - course logistics
-  - course aims ::@:: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2026-10-13,582,330!2025-08-07,253,330-->
+  - course aims ::@:: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2026-10-13,582,330!2028-09-30,1150,350-->
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::@:: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2026-07-10,492,317!2027-04-05,642,277-->
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::@:: summarize, analyze, and report business transactions <!--SR:!2025-12-03,332,317!2026-10-31,591,337-->
     - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2026-12-02,574,297!2027-09-01,819,337-->
       - [financial transaction](../../../../general/financial%20transaction.md) / examples ::@:: Confirming an employment contract is a transaction as the employer agrees to hire the employee and remunerate the employee for employment services rendered. But it is not a financial transaction because there are no changes in the finances for both the employer and employee. <!--SR:!2027-08-07,794,337!2026-01-02,316,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2027-11-04,860,337!2025-08-11,251,337-->
-    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2025-08-07,247,337!2025-08-29,264,337-->
+    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2028-09-27,1147,357!2025-08-29,264,337-->
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / indicators ::@:: operation/performance, financial position, cash flow <!--SR:!2026-11-18,575,317!2027-12-25,906,337-->
   - [financial accounting](../../../../general/financial%20accounting.md) / know how the business is doing financially ::@:: How much money/assets are being generated, spent, saved, and how much are there now? <!--SR:!2025-11-17,322,337!2026-08-03,509,317-->
   - [financial accounting](../../../../general/financial%20accounting.md) / legal compliance ::@:: company laws, tax laws, rules and regulations for listed entities, ... <!--SR:!2025-08-28,263,337!2025-11-22,327,337-->

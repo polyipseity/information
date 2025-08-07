@@ -90,7 +90,7 @@ Stainless steel {@{forms a [passivation](passivation%20(chemistry).md) layer of 
 
 Coating and painting {@{isolate iron from the environment}@}. <!--SR:!2027-03-03,1109,350-->
 
-[Paint](paint.md) can be used for {@{small structures and vehicle bodies}@}. It is {@{cheap but easy to scratch off}@}. [Plastic](plastic.md) can be used for {@{small objects}@}. It is {@{good-looking and long-lasting but relatively more expensive}@}. [Oil](oil.md) or [grease](grease.md) can be used for {@{machines and tools}@}. They are {@{sticky and can lubricate the moving parts}@}. <!--SR:!2025-08-05,532,250!2031-12-18,2389,330!2027-10-21,1294,350!2026-04-17,679,250!2029-10-25,1640,310!2030-08-03,1895,290-->
+[Paint](paint.md) can be used for {@{small structures and vehicle bodies}@}. It is {@{cheap but easy to scratch off}@}. [Plastic](plastic.md) can be used for {@{small objects}@}. It is {@{good-looking and long-lasting but relatively more expensive}@}. [Oil](oil.md) or [grease](grease.md) can be used for {@{machines and tools}@}. They are {@{sticky and can lubricate the moving parts}@}. <!--SR:!2030-09-20,1872,270!2031-12-18,2389,330!2027-10-21,1294,350!2026-04-17,679,250!2029-10-25,1640,310!2030-08-03,1895,290-->
 
 ### electroplating
 
