@@ -477,7 +477,7 @@ The content is in teaching order.
   - local: 2025-07-21T08:00:00+08:00/2025-07-21T09:40:00+08:00, PT1H40M
 - topic: hands-on exercise: building corpus
 - Altair AI Studio
-  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 6 functions to create a corpus: "create document", "process document from data", "process document from files", "read Excel", "read Excel &gt; data to document", and "read document".
+  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 6 functions to create a corpus: "create document", "process documents from data", "process documents from files", "read Excel", "read Excel &gt; data to documents", and "read document".
 
 ## week 4 lecture 2
 
@@ -653,7 +653,7 @@ The content is in teaching order.
   - packet switching / routing ::@:: A message may be broken up into multiple packets, and then are independently sent through different routes, and finally reassembled into the original message by the destination machine
 - computer network
   - computer network / types ::@:: "AN" stands for "area network"; nanoscale &lt; body \(BAN\) &lt; personal \(PAN\) &lt; local \(LAN\) &lt; campus/corporate \(CAN\) &lt; metropolitan \(MAN\) &lt; radio access \(RAN\) &lt; wide \(WAN\)
-  - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission <p> \(__this course__: The instructor insisted that fiber optic should also be conducted...\)
+  - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission <p> \(__this course__: The instructor thought but did _not_ insist that fiber optic should also be conducted.\)
 - [internet](../../../../general/internet.md) ::@:: It is the global system of interconnected computer networks that uses the Internet protocol suite \(TCP/IP\) to communicate between networks and devices.
   - internet / key technologies ::@:: Domain Name System \(DNS\), IP \(Internet Protocol\) address, internet architecture
 - [IP address](../../../../general/IP%20address.md) ::@:: It is a numerical label such as _192.0.2.1_ that is assigned to a device connected to a computer network that uses the Internet Protocol for communication. <p> It is a 32-bit number.
@@ -748,7 +748,7 @@ The content is in teaching order.
 - [disintermediation](../../../../general/disintermediation.md) ::@:: It is the removal of intermediaries in economics from a supply chain, or "cutting out the middlemen" in connection with a transaction or a series of transactions.
 - [digital goods](../../../../general/digital%20goods.md) ::@:: They are intangible goods that exist in digital form. \(__this course__: _delivered_ digitally\)
 - e-commerce
-  - e-commerce / types ::@:: 3 major types: business-to-business \(B2B\), business-to-consumer \(B2C\), consumer-to-consumer \(C2C\) <p> \(__this course__: According to the instructor, C2C should not be a valid business model for e-commerce.\)
+  - e-commerce / types ::@:: 3 major types: business-to-business \(B2B\), business-to-consumer \(B2C\), consumer-to-consumer \(C2C\) <p> \(__this course__: According to the instructor, C2C should not be a valid business model for e-commerce. Also, the _retailer_ always participate in both B2B and B2C.\)
 - [mobile commerce](../../../../general/mobile%20commerce.md) \(m-commerce\) ::@:: It means "the delivery of electronic commerce capabilities directly into the consumer's hand, anywhere, via wireless technology." Some choose to think of it as meaning "a retail outlet in your customer's pocket."
 - e-commerce
   - e-commerce / business models ::@:: community provider, content provider, e-tailer, market creator, portal, service provider, transaction broker, etc.
@@ -782,8 +782,8 @@ The content is in teaching order.
   - structured analysis / examples ::@:: computer-aided software engineering \(CASE\), data flow diagram \(DFD\), object-oriented development, etc.
 - [data-flow diagram](../../../../general/data%20flow%20diagram.md) \(DFD\) ::@:: It is a way of representing a flow of data through a process or a system \(usually an information system\). It also provides information about the outputs and inputs of each entity and the process itself. A data-flow diagram has no control flow — there are no decision rules and no loops. Specific operations based on the data can be represented by a flowchart.
   - data-flow diagram / characteristics ::@:: data dictionary \(specify contents of data flows and data stores\), process specifications, structured chart
-  - data-flow diagram / components ::@:: data flow \(arrows\), process, warehouse, terminator \(e.g. interface\)
-  - data-flow diagram / reading ::@:: The boxes can be warehouses, processes, or terminators \(interfaces\). There are \(probably\) many arrows with annotating text in between boxes.
+  - data-flow diagram / components ::@:: data flow \(arrows\), process, warehouse, terminator \(e.g. entity, external entity, interface, etc.\) <p> \(__this course__: use _entity_ or _external entity_\)
+  - data-flow diagram / reading ::@:: The boxes can be warehouses, processes, or terminators. There are \(probably\) many arrows with annotating text in between boxes. <p> Everything included is _inside_ the system's boundary.
 - [object-oriented analysis and design](../../../../general/object-oriented%20analysis%20and%20design.md) \(OOAD\) ::@:: It is an approach to analyzing and designing a computer-based system by applying an object-oriented mindset and using visual modeling throughout the software development process.
   - object-oriented analysis and design / concepts ::@:: _Object_ is the basic unit. It combines data and processes operating on it. _Class_, \(represented by a box with its data and processes\) and _inheritance_ \(represented by arrows pointing from subclasses to parent classes\) are two important concepts.
   - object-oriented analysis and design / characteristics ::@:: iterative, incremental, reusable \(objects are reusable\); thus potentially reduces development cost and time
@@ -833,19 +833,25 @@ The content is in teaching order.
   - provided: \(none\)
   - questions: questions ×80 \(acronym, fill in the blank, multiple choice, short answer, true/false\)
   - others: open camera showing full face
-- grades: ?/100
+- grades: 93/100
   - statistics
-    - timestamps: ?
-    - mean: ?
+    - timestamps: 2025-08-08T12:23:06+09:00
+    - mean: 75.23
     - standard deviation: ?
-    - low: ?
-    - lower quartile: ?
-    - median: ?
-    - upper quartile: ?
-    - high: ?
+    - low: 0
+    - lower quartile: 83
+    - median: 88.50
+    - upper quartile: 91
+    - high: 98
     - distribution: ?
     - data: ?
-- report: ?
+- report:
+  - data redundancy, data integrity \(−1\) ::@:: The former is a primary cause of the lack of the latter.
+  - data-flow diagram / reading \(−1\)
+  - computer network / mediums \(−1\)
+  - e-commerce / types \(−1\)
+  - data-flow diagram / components \(−2\)
+  - Altair AI Studio / building corpus \(−1\) ::@:: They wanted "Process Document from Data" instead of "Process Documents from Data", even though the latter is correct. ?\_?
 - check: \(online\)
 - questions: [final examination](questions/final%20examination.md)
 
@@ -855,3 +861,10 @@ The content is in teaching order.
   - local: 2025-08-07T08:00:00+08:00/2025-08-07T09:40:00+08:00, PT1H40M
 - topic: advising session
 - status: optional
+
+## aftermath
+
+### total
+
+- grades: 89.17/100
+  - statistics: ?
