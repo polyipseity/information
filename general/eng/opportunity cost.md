@@ -62,7 +62,7 @@ A scenario is given below:<sup>[\[12\]](#^ref-12)</sup>
 
 > [!example] sunk cost
 >
-> A company used $5&nbsp;000 for marketing and advertising on its music streaming service to increase exposure to the target market and potential consumers. In the end, the campaign proved unsuccessful. The sunk cost for the company equates to {@{the $5&nbsp;000 that was spent on the market and advertising means}@}. This expense is {@{to be ignored by the company in its future decisions and highlights that no additional investment should be made}@}.
+> A company used $5&nbsp;000 for marketing and advertising on its music streaming service to increase exposure to the target market and potential consumers. In the end, the campaign proved unsuccessful. The sunk cost for the company equates to {@{the $5&nbsp;000 that was spent on the market and advertising means}@}. This expense is {@{to be ignored by the company in its future decisions}@} and highlights that {@{no additional investment should be made}@}.
 
 Despite the fact that {@{sunk costs should be ignored when making future decisions}@}, people {@{sometimes make the mistake of thinking sunk cost matters. This is [sunk cost fallacy](sunk%20cost.md#fallacy%20effect)}@}.
 
