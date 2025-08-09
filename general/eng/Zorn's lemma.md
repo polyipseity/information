@@ -55,7 +55,7 @@ In {@{the terminology of Bourbaki}@}, a partially ordered set is called {@{__ind
 
 For some applications, the following variant may be useful.
 
-> __Corollary__ — <sup>[\[12\]](#^ref-12)</sup> Let {@{$P$ be a partially ordered set in which every chain has an upper bound and $a$ an element in $P$}@}. Then {@{there exists a maximal element $b$ in $P$ such that $b\geq a$}@}. <!--SR:!2025-08-08,161,310!2025-12-03,268,338-->
+> __Corollary__ — <sup>[\[12\]](#^ref-12)</sup> Let {@{$P$ be a partially ordered set in which every chain has an upper bound and $a$ an element in $P$}@}. Then {@{there exists a maximal element $b$ in $P$ such that $b\geq a$}@}. <!--SR:!2026-12-27,505,310!2025-12-03,268,338-->
 
 Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$, an upper bound in $P$ is in $Q$ and so $Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}. <!--SR:!2025-12-02,250,330!2025-10-19,208,278!2026-03-13,317,290-->
 
@@ -75,7 +75,7 @@ Suppose {@{otherwise, that _B_ is not linearly independent}@}. Then {@{there exi
 
 {@{The hypothesis of Zorn's lemma has been checked}@}, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal linearly independent subset _B_ of _V_}@}. <!--SR:!2025-09-16,200,318!2025-12-05,270,338!2026-03-09,346,350-->
 
-Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2025-08-09,176,330!2027-05-28,665,330!2026-03-03,341,350!2026-03-15,351,350!2026-06-29,403,310!2026-01-21,309,350!2026-01-22,310,350-->
+Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2027-03-07,575,330!2027-05-28,665,330!2026-03-03,341,350!2026-03-15,351,350!2026-06-29,403,310!2026-01-21,309,350!2026-01-22,310,350-->
 
 ### every nontrivial ring with unity contains a maximal ideal
 

@@ -28,7 +28,7 @@ See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html>.
 - `getX` :@: `int getX()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getX()>. <!--SR:!2028-11-11,1359,350-->
 - `getY` :@: `int getY()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getY()>. <!--SR:!2028-08-05,1280,350-->
 - `move` :@: `void move(int distance)`: `distance` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#move(int)>. <!--SR:!2028-03-10,1166,350-->
-- `setRotation` :@: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>. <!--SR:!2025-08-08,406,310-->
+- `setRotation` :@: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>. <!--SR:!2030-05-17,1742,330-->
 - `turn` :@: `void turn(int amount)`: `amount` in degree. Positive is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#turn(int)>. <!--SR:!2029-04-15,1372,310-->
 
 ### `Greenfoot`

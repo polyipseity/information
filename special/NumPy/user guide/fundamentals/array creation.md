@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x` where the highest polynomial order is `n-1`}@}. (annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2025-08-08,198,310!2025-10-19,271,330!2025-09-29,238,330!2026-01-10,341,350!2025-10-22,272,330!2026-01-04,336,350-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x` where the highest polynomial order is `n-1`}@}. (annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2027-12-07,850,330!2025-10-19,271,330!2025-09-29,238,330!2026-01-10,341,350!2025-10-22,272,330!2026-01-04,336,350-->
 
 ```Python
 >>> import numpy as np
@@ -282,7 +282,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 {@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-10-15,267,330!2026-01-22,351,350!2025-11-10,288,330!2025-11-16,294,330-->
 
 - HDF5 ::@:: h5py <!--SR:!2026-01-07,339,350!2025-11-10,289,330-->
-- FITS ::@:: Astropy <!--SR:!2025-08-09,198,310!2025-12-22,324,350-->
+- FITS ::@:: Astropy <!--SR:!2027-12-08,851,330!2025-12-22,324,350-->
 
 Examples of {@{formats that cannot be read directly but for which it is not hard to convert}@} are those formats supported by libraries like {@{PIL (able to read and write many image formats such as jpg, png, etc)}@}. <!--SR:!2025-10-19,271,330!2025-08-19,205,310-->
 

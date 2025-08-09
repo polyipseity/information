@@ -54,7 +54,7 @@ Let {@{_k≥2_}@}. <!--SR:!2025-12-18,266,330-->
 
 {@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-06-23,686,330!2026-10-23,481,310!2025-12-04,257,330!2026-11-11,495,310-->
 
-If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-08-09,148,270!2025-08-18,166,310-->
+If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-10-25,77,250!2025-08-18,166,310-->
 
 ## see also
 

@@ -105,7 +105,7 @@ The net cash flow only {@{provides a limited amount of information}@}. Compare, 
 | {@{Cash flow from investment}@} | -15M       | -15M       | -15M       | 0M         | 0M         | 0M         |
 | {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2025-12-22,272,330!2025-11-22,248,330!2025-11-15,241,330!2025-12-26,275,330-->
 
-Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2025-11-19,245,330!2026-01-10,286,330!2025-08-09,162,310-->
+Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2025-11-19,245,330!2026-01-10,286,330!2027-07-05,695,330-->
 
 ## see also
 

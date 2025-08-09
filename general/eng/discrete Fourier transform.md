@@ -126,7 +126,7 @@ Similar to above, by {@{applying the [circular convolution theorem](#ciruclar%20
 
 ### uniqueness of the discrete Fourier transform
 
-As seen above, the discrete Fourier transform has {@{the fundamental property of carrying convolution into componentwise product}@}. A natural question is {@{whether it is the only one with this ability}@}. It has been shown that {@{any linear transform that turns convolution into pointwise product is the DFT up to a permutation of coefficients}@}. Since {@{the number of permutations of n elements equals n!}@}, there exists {@{exactly n! linear and invertible maps with the same fundamental property as the DFT with respect to convolution}@}. <!--SR:!2025-08-09,275,352!2026-02-09,425,372!2028-12-03,1233,372!2027-04-05,740,352!2026-01-06,397,372-->
+As seen above, the discrete Fourier transform has {@{the fundamental property of carrying convolution into componentwise product}@}. A natural question is {@{whether it is the only one with this ability}@}. It has been shown that {@{any linear transform that turns convolution into pointwise product is the DFT up to a permutation of coefficients}@}. Since {@{the number of permutations of n elements equals n!}@}, there exists {@{exactly n! linear and invertible maps with the same fundamental property as the DFT with respect to convolution}@}. <!--SR:!2029-03-31,1330,372!2026-02-09,425,372!2028-12-03,1233,372!2027-04-05,740,352!2026-01-06,397,372-->
 
 ### convolution theorem duality
 

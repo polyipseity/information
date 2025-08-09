@@ -13,7 +13,7 @@ A __synodic day__ (or __synodic rotation period__ or __solar day__) is {@{the [p
 
 The synodic day is distinguished from {@{the sidereal day, which is one complete rotation in relation to [distant stars](fixed%20stars.md)}@} and is the basis of {@{[sidereal time](sidereal%20time.md)}@}. <!--SR:!2027-07-29,802,330!2027-07-06,841,330-->
 
-In the case of {@{a [tidally locked](tidal%20locking.md) [planet](planet.md), the same side always faces its parent star}@}, and its synodic day is {@{infinite. Its sidereal day, however, equals its [orbital period](orbital%20period.md)}@}. <!--SR:!2026-09-27,571,310!2025-08-08,312,330-->
+In the case of {@{a [tidally locked](tidal%20locking.md) [planet](planet.md), the same side always faces its parent star}@}, and its synodic day is {@{infinite. Its sidereal day, however, equals its [orbital period](orbital%20period.md)}@}. <!--SR:!2026-09-27,571,310!2029-07-02,1423,350-->
 
 ## references
 

@@ -44,7 +44,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
-- description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2025-08-09,324,307!2026-03-07,555,397-->
+- description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2029-05-24,1384,327!2026-03-07,555,397-->
 - height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2030-02-12,1672,385-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2025-10-24,408,380!2026-01-10,498,400-->
 - shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
@@ -122,7 +122,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
-- image ::@:: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2027-03-27,850,416!2025-08-09,358,396-->
+- image ::@:: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2027-03-27,850,416!2030-11-28,1937,416-->
 
 ## Golden Gate Bridge
 
@@ -207,7 +207,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 - description ::@:: skyscraper in Chicago, Illinois <!--SR:!2027-12-02,962,315!2031-01-13,1989,407-->
 - height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2025-09-19,222,197!2027-02-12,759,330-->
 - image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->::@:: steel <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->::@:: steel <!--SR:!2029-03-15,1314,320!2025-11-19,456,400-->
 
 ## MOSE
 

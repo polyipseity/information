@@ -161,7 +161,7 @@ The content is in teaching order.
 - thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2029-01-28,1337,381!2028-12-20,1305,381-->
   - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2029-08-14,1506,381!2029-08-27,1496,381-->
   - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
-  - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2029-10-20,1540,381-->
+  - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2029-12-04,1578,381!2029-10-20,1540,381-->
   - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2029-09-29,1519,381-->
 - critical thinking pop quiz
   - content: 10 4-choice questions

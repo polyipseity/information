@@ -59,7 +59,7 @@ Unearned Revenue           $1  |
                                |
 ```
 
-The unearned revenue after the first month is {@{therefore $11 and revenue reported in the income statement is $1}@}. <!--SR:!2025-08-09,248,330-->
+The unearned revenue after the first month is {@{therefore $11 and revenue reported in the income statement is $1}@}. <!--SR:!2028-09-13,1131,350-->
 
 ### accruals
 

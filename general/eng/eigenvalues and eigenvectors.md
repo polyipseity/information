@@ -29,7 +29,7 @@ For {@{finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vec
 
 ## overview
 
-Eigenvalues and eigenvectors give rise to {@{many closely related mathematical concepts}@}, and {@{the prefix _eigen-_ is applied liberally when naming them}@}: <!--SR:!2025-08-08,309,346!2027-08-12,861,346-->
+Eigenvalues and eigenvectors give rise to {@{many closely related mathematical concepts}@}, and {@{the prefix _eigen-_ is applied liberally when naming them}@}: <!--SR:!2029-08-18,1470,366!2027-08-12,861,346-->
 
 - __eigensystem__ of a linear transformation ::@:: the set of all eigenvectors of the linear transformation, each paired with its corresponding eigenvalue <!--SR:!2025-09-07,332,346!2028-04-09,1044,346-->
 - __eigenspace__ or __characteristic space__ of a eigenvalue of a linear transformation ::@:: the set of all eigenvectors of the linear transformation corresponding to the same eigenvalue, together with the zero vector <!--SR:!2028-08-27,1155,346!2027-06-26,823,346-->
@@ -193,7 +193,7 @@ Any [subspace](linear%20subspace.md) [spanned](linear%20span.md) by eigenvectors
 
 - see: [spectral theory](spectral%20theory.md)
 
-If {@{$\lambda$ is an eigenvalue of $T$}@}, then {@{the operator $(T − \lambda I)$ is not one-to-one, and therefore its [inverse](invertible%20matrix.md) $(T − \lambda I)^{-1}$ does not exist}@}. The converse is {@{true for finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vector%20space.md), but not for infinite-dimensional vector spaces}@}. In general, the operator $(T − \lambda I)$ {@{may not have an inverse even if $\lambda$ is not an eigenvalue}@}. <!--SR:!2028-08-11,1164,375!2025-08-08,304,355!2025-12-15,416,375!2025-09-06,315,355-->
+If {@{$\lambda$ is an eigenvalue of $T$}@}, then {@{the operator $(T − \lambda I)$ is not one-to-one, and therefore its [inverse](invertible%20matrix.md) $(T − \lambda I)^{-1}$ does not exist}@}. The converse is {@{true for finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vector%20space.md), but not for infinite-dimensional vector spaces}@}. In general, the operator $(T − \lambda I)$ {@{may not have an inverse even if $\lambda$ is not an eigenvalue}@}. <!--SR:!2028-08-11,1164,375!2029-08-31,1483,375!2025-12-15,416,375!2025-09-06,315,355-->
 
 For this reason, in [functional analysis](functional%20analysis.md) eigenvalues can be {@{generalized to the [spectrum](spectrum%20(functional%20analysis).md) of a [linear operator](linear%20map.md) $T$ as the set of all [scalars](scalar%20(mathematics).md) $\lambda$ for which the operator $(T − \lambda I)$ has no bounded inverse}@}. The spectrum of an operator always {@{contain all its eigenvalues but is not limited to them}@}. <!--SR:!2025-12-23,362,315!2025-12-24,423,375-->
 

@@ -34,7 +34,7 @@ For sequences, {@{inversions according to the element-based definition are not u
 
 {@{The __inversion number__ ${\mathtt {inv} }(X)$<sup>[\[10\]](#^ref-10)</sup>}@} of {@{a sequence $X=\langle x_{1},\dots ,x_{n}\rangle$}@}, is {@{the [cardinality](cardinality.md) of the inversion set}@}. It is {@{a common measure of sortedness \(sometimes called presortedness\) of a permutation<sup>[\[5\]](#^ref-5)</sup> or sequence}@}.<sup>[\[9\]](#^ref-9)</sup> The inversion number is {@{between 0 and ${\frac {n(n-1)}{2} }$ inclusive}@}. {@{A permutation and its inverse}@} have {@{the same inversion number}@}. <!--SR:!2025-11-20,278,332!2025-11-16,273,332!2027-10-28,812,332!2025-11-24,281,332!2025-11-17,275,332!2025-11-17,275,332!2025-12-16,296,332-->
 
-For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}. <!--SR:!2025-08-09,194,312!2025-12-14,294,332!2025-12-14,294,332!2025-08-17,195,312!2025-09-22,211,312!2025-11-23,280,332-->
+For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}. <!--SR:!2027-03-31,599,312!2025-12-14,294,332!2025-12-14,294,332!2025-08-17,195,312!2025-09-22,211,312!2025-11-23,280,332-->
 
 {@{The inversion number}@} is {@{the number of crossings in the arrow diagram of the permutation}@},<sup>[\[6\]](#^ref-6)</sup> {@{the permutation's [Kendall tau distance](Kendall%20tau%20distance.md) from the identity permutation}@}, and {@{the sum of each of the inversion related vectors defined below}@}. <!--SR:!2025-11-25,282,332!2025-08-14,193,312!2026-11-12,535,312!2025-12-20,300,332-->
 
@@ -76,7 +76,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 > {@{![The six possible inversions of a 4-element permutation](../../archives/Wikimedia%20Commons/2-element%20subsets%20of%204%20elements;%20array,%20hexagonal.svg)}@}
 >
-> {@{The six possible inversions of a 4-element permutation}@} <!--SR:!2025-12-16,296,332!2025-08-09,188,312-->
+> {@{The six possible inversions of a 4-element permutation}@} <!--SR:!2025-12-16,296,332!2027-11-02,815,332-->
 
 {@{The following sortable table}@} shows {@{the 24 permutations of four elements \(in the $\pi$ column\)}@} with {@{their place-based inversion sets \(in the p-b column\), inversion related vectors \(in the $v$, $l$, and $r$ columns\), and inversion numbers \(in the \# column\)}@}. \({@{The columns with smaller print and no heading}@} are {@{reflections of the columns next to them}@}, and can be used to {@{sort them in [colexicographic order](lexicographic%20order.md#colexicographic%20order)}@}.\) <!--SR:!2025-11-01,261,332!2025-11-12,271,332!2026-06-13,374,292!2025-11-19,276,332!2025-11-05,264,332!2026-03-14,319,292-->
 

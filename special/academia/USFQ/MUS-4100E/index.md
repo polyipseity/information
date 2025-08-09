@@ -135,7 +135,7 @@ The content is in teaching order.
   - American Civil War / emancipation ::@:: In 1864, Abraham Lincoln emancipated the slaves. <!--SR:!2026-01-22,278,355!2026-07-16,408,375-->
 - [Reconstruction era](../../../../general/Reconstruction%20era.md) (1865–1877) ::@:: After the war, the federal government helped rebuild society in the south and to protect the newly freed slaves. It worked a little until the Jim Crow laws started. <!--SR:!2026-07-15,407,375!2025-09-22,178,335-->
 - [Jim Crow laws](../../../../general/Jim%20Crow%20laws.md) ::@:: They were local and state laws passed after reconstruction and became engrained in the south after the 1897 Supreme Court case _Plessy v. Ferguson_. <p> They are named after the black-faced minstrel (a song and dance) "Jump Jim Crow" in 1828. <!--SR:!2025-09-14,171,335!2026-01-14,275,355-->
-  - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc. <!--SR:!2025-08-08,132,315!2026-04-11,312,315-->
+  - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc. <!--SR:!2027-03-05,573,335!2026-04-11,312,315-->
   - Jim Crow laws / end ::@:: Segregation remained primarily in the south until the civil rights movement in the 1960s. <!--SR:!2026-01-22,278,355!2026-06-28,390,375-->
 - [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands. <!--SR:!2026-01-13,274,355!2026-01-08,269,355-->
 - assignment: read "African Music in Early Jazz"
@@ -362,13 +362,13 @@ The content is in teaching order.
   - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2026-11-11,498,402!2025-08-10,133,402-->
     - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2025-08-13,134,402!2027-06-08,675,422-->
 - [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2026-12-15,520,402!2027-06-23,690,422-->
-  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2025-08-09,132,402!2026-10-23,481,402-->
+  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2027-08-02,723,422!2026-10-23,481,402-->
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2026-03-07,277,382!2027-06-28,694,422-->
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2026-12-14,519,402!2026-03-14,284,382-->
-  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2026-04-25,326,382!2025-08-08,131,402-->
-  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-08-14,135,402!2025-08-09,132,402-->
+  - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2026-04-25,326,382!2027-07-28,718,422-->
+  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-08-14,135,402!2027-08-03,724,422-->
 - [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2026-07-18,408,402!2025-09-25,160,362-->
-  - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-08-15,136,402!2025-08-09,132,402-->
+  - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-08-15,136,402!2027-08-01,722,422-->
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2025-08-10,133,402!2025-08-15,136,402-->
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2026-07-19,409,402!2027-07-08,702,422-->
   - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." — Frank Sinatra, American singer and actor <!--SR:!2026-09-22,457,402!2025-08-12,133,402-->
@@ -391,12 +391,12 @@ The content is in teaching order.
   - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!2026-11-13,499,402-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2026-12-30,535,402-->
-  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2025-08-08,131,402-->
+  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2027-07-27,717,422-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2026-12-26,531,402!2026-12-04,515,402-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2026-03-14,284,382!2026-09-21,456,402-->
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2027-06-21,688,422!2025-08-13,134,402-->
   - Art Tatum / quotes from others ::@:: "If Art Tatum had played classical piano instead of jazz piano I would be out of job" — Vladimir Horowitz, Russian And American pianist <!--SR:!2027-06-22,689,422!2027-07-13,707,422-->
-  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2027-07-02,698,422!2025-08-08,131,402-->
+  - Art Tatum / works ::@:: "Tea for Two" (1933) — Art Tatum <br/> "Yesterdays" (1954) — Art Tatum <!--SR:!2027-07-02,698,422!2027-07-29,719,422-->
 - assignment: (none)
 
 ## week 7 lecture 2

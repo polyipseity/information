@@ -25,7 +25,7 @@ The content is in teaching order.
     - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2028-04-08,1138,350-->
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2026-08-28,633,330-->
+  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2029-12-19,1593,319!2026-08-28,633,330-->
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2029-11-29,1638,400-->
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2025-09-22,417,397-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
@@ -320,7 +320,7 @@ We Engineer Hong Kong’s Development
 - 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2027-05-09,703,307-->
 - We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2027-02-25,706,312!2026-05-26,490,297-->
 - 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2027-11-11,942,357!2026-01-08,443,330-->
-- We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
+- We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2030-07-27,1813,400-->
 
 <!--/pytextgen-->
 

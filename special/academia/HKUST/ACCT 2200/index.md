@@ -444,7 +444,7 @@ The content is in teaching order.
   - continue or discontinue / analysis: [formats § incremental analysis \(incremental\)](formats.md#incremental%20analysis%20(incremental))
 - sell or process further ::@:: Decide if a product should be sold now, or refine it so that it can be sold for a higher price. <!--SR:!2025-10-14,141,410!2025-09-20,126,410-->
   - sell or process further / analysis ::@:: Same as that for outsourcing. Compare the two options. <!--SR:!2025-09-25,131,409!2025-09-24,130,410-->
-- incremental analysis ::@:: To sum up, consider _incremental changes_. Additionally, balance it against qualitative factors, which is usually not covered by incremental analysis. <!--SR:!2025-08-08,92,390!2025-09-21,127,410-->
+- incremental analysis ::@:: To sum up, consider _incremental changes_. Additionally, balance it against qualitative factors, which is usually not covered by incremental analysis. <!--SR:!2026-12-16,494,410!2025-09-21,127,410-->
   - incremental analysis / relevant costs ::@:: differs between decision alternatives and happens in the future <!--SR:!2025-09-25,131,410!2025-09-20,126,410-->
   - incremental analysis / direct variable costs ::@:: Very likely relevant, as they vary with the number of units produced or sold. <!--SR:!2025-09-23,129,410!2025-09-25,131,410-->
   - incremental analysis / indirect variable costs ::@:: If it is indirect, then it is difficult to trace such costs to a product, so it could not be variable. <!--SR:!2025-09-25,131,409!2025-09-22,128,410-->

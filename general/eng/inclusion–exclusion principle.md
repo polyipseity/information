@@ -74,7 +74,7 @@ An analogous simplification is possible in the case of {@{a general measure spac
 
 ## other formulas
 
-The principle is sometimes stated in the form<sup>[\[9\]](#^ref-9)</sup> that says that if {@{$$g(A)=\sum _{S\subseteq A}f(S)$$}@} then {@{$$f(A)=\sum _{S\subseteq A}(-1)^{|A|-|S|}g(S) \qquad \textbf{(2)}$$ <a id="math_2"></a>}@}. (annotation: How to understand this? Let {@{there be a universal set $S$ and their subsets}@}. Let each subset (including $S$) {@{has two numerical properties, which are given ("measured") by $f(X)$ and $g(X)$ for any subset $X$}@}. Then the above formula {@{relates the two properties of any subset together using the inclusion–exclusion principle}@}. In a way, this is {@{an abstraction and generalization of the more intuitive formulas above}@}.) <!--SR:!2025-12-20,339,351!2027-04-10,680,331!2025-11-20,312,330!2025-08-08,229,320!2025-08-25,225,310!2027-07-03,749,331-->
+The principle is sometimes stated in the form<sup>[\[9\]](#^ref-9)</sup> that says that if {@{$$g(A)=\sum _{S\subseteq A}f(S)$$}@} then {@{$$f(A)=\sum _{S\subseteq A}(-1)^{|A|-|S|}g(S) \qquad \textbf{(2)}$$ <a id="math_2"></a>}@}. (annotation: How to understand this? Let {@{there be a universal set $S$ and their subsets}@}. Let each subset (including $S$) {@{has two numerical properties, which are given ("measured") by $f(X)$ and $g(X)$ for any subset $X$}@}. Then the above formula {@{relates the two properties of any subset together using the inclusion–exclusion principle}@}. In a way, this is {@{an abstraction and generalization of the more intuitive formulas above}@}.) <!--SR:!2025-12-20,339,351!2027-04-10,680,331!2025-11-20,312,330!2027-08-11,732,320!2025-08-25,225,310!2027-07-03,749,331-->
 
 {@{The combinatorial and the probabilistic version of the inclusion–exclusion principle}@} are instances of (__[2](#math_2)__). <!--SR:!2028-01-24,917,330-->
 
@@ -122,7 +122,7 @@ The number of derangements is also known as {@{the [subfactorial](derangement.md
 
 ### counting intersections
 
-The principle of inclusion–exclusion, combined with {@{[De Morgan's law](De%20Morgan's%20laws.md)}@}, can be used to {@{count the cardinality of the intersection of sets as well}@}. Let ${\overline {A_{k} } }$ represent {@{the complement of _A<sub>k</sub>_ with respect to some universal set _A_ such that $A_{k}\subseteq A$ for each _k_}@}. Then we have {@{$$\bigcap _{i=1}^{n}A_{i}={\overline {\bigcup _{i=1}^{n}{\overline {A_{i} } } } }$$}@} thereby {@{turning the problem of finding an intersection into the problem of finding a union}@}. <!--SR:!2025-12-29,348,351!2025-08-09,231,331!2025-08-19,240,331!2028-01-25,918,330!2025-12-29,348,351-->
+The principle of inclusion–exclusion, combined with {@{[De Morgan's law](De%20Morgan's%20laws.md)}@}, can be used to {@{count the cardinality of the intersection of sets as well}@}. Let ${\overline {A_{k} } }$ represent {@{the complement of _A<sub>k</sub>_ with respect to some universal set _A_ such that $A_{k}\subseteq A$ for each _k_}@}. Then we have {@{$$\bigcap _{i=1}^{n}A_{i}={\overline {\bigcup _{i=1}^{n}{\overline {A_{i} } } } }$$}@} thereby {@{turning the problem of finding an intersection into the problem of finding a union}@}. <!--SR:!2025-12-29,348,351!2028-06-25,1051,351!2025-08-19,240,331!2028-01-25,918,330!2025-12-29,348,351-->
 
 ### graph coloring
 

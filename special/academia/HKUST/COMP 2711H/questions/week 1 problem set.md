@@ -95,7 +95,7 @@ Note that a knight can move {@{two squares vertically and one square horizontall
 - possibility of _closed_ knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2026-07-10,389,240!2025-08-10,77,220-->
 - possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2026-04-07,317,260!2025-08-10,16,130-->
 
-1. 8×8 chessboard ::@:: It is possible. Prove by constructing such a closed path... <!--SR:!2025-11-07,328,340!2025-08-08,237,320-->
+1. 8×8 chessboard ::@:: It is possible. Prove by constructing such a closed path... <!--SR:!2025-11-07,328,340!2028-06-18,1044,340-->
 2. 9×9 chessboard ::@:: It is impossible. If such a closed path exists, then the knight needs to move exactly 81 times to visit every square and go back to the starting position. Now, notice the checker pattern of the chessboard. In a move, a knight must go from a square to a square of different color (black to white, white to black). Without loss of generality, assume the starting position is white. After moving exactly 81 times, the ending position must be black. But this implies the starting position and the ending position cannot be the same after 81 moves. So the closed path does not exist. <!--SR:!2028-03-06,977,340!2027-10-15,866,340-->
 
 ## product of natural numbers cannot be lesser than the natural numbers themselves

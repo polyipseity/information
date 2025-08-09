@@ -105,7 +105,7 @@ The content is in teaching order.
 - [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2025-11-26,331,337!2025-11-26,331,337-->
   - [§ revenue](../../../../general/revenue.md#revenue)
   - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2025-08-29,264,337!2025-11-25,330,337-->
-- [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2026-09-09,531,317!2025-08-08,248,337-->
+- [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2026-09-09,531,317!2028-10-02,1150,357-->
   - [§ expense](../../../../general/expense.md#expense)
   - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2025-11-24,329,337!2025-11-18,323,337-->
 - [consolidated financial statement](../../../../general/consolidated%20financial%20statement.md) (CFS) ::@:: a financial statement in which the parent company and all its subsidiaries are presented as those of a single economic entity <!--SR:!2028-08-19,1114,357!2027-07-19,775,337-->

@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2025-08-09,254,330!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2028-07-30,1101,350!2028-07-17,1092,350-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2028-10-08,1156,350!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2028-07-30,1101,350!2028-07-17,1092,350-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2028-07-28,1103,350-->
 
@@ -138,7 +138,7 @@ The stable monetary unit assumption is {@{not applied during hyperinflation}@}. 
 
 Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2027-10-07,856,330!2026-11-30,514,270!2025-12-08,323,290-->
 
-Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2026-02-06,349,270!2025-08-09,192,337!2025-12-13,304,357-->
+Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2026-02-06,349,270!2028-01-18,892,357!2025-12-13,304,357-->
 
 Objectives include:
 
