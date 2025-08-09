@@ -710,7 +710,8 @@ The content is in teaching order.
     - upper quartile: ?
     - high: ?
     - distribution: ?
-- report: \(none\)
+- report
+  - stop bit \(−1\) ::@:: The stop bit of 1 frame out of 4 was written as 1 instead of 0. Mysterious...
 - check
   - datetime
     - 2025-08-04T10:00:00+08:00/2025-08-04T17:00:00+08:00, PT7H
@@ -1056,21 +1057,46 @@ The content is in teaching order.
   - calculator: no
   - cheatsheet: no
   - referencing: closed book
-  - provided: \(none\)
-  - questions: long questions ×?
-- grades: ?/? → ?/?
+  - provided: Q-function table
+  - questions: long questions ×6
+- grades: ?/100
   - statistics
-    - timestamps: ? → ?
-    - mean: ? → ?
-    - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
-    - distribution: ? → ?
+    - timestamps: ?
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
 - report: ?
 - check: ?
+
+---
+
+> __<big><big>Final exam - 10 am tomorrow \(reminder\)</big></big>__
+>
+> Dear students,
+>
+> Please be reminded that we will have our final exam at 10 am tomorrow in LTD.
+>
+> Covers all course materials <br/>
+> Closed book and closed notes <br/>
+> 6 questions \(NO MATLAB coding questions\) <br/>
+> NO calculator, paper or electronic devices \(including smartwatch\) <br/>
+> NO talking/discussing during the exam <br/>
+> Seat number: use the same seat number as in the midterm exam
+>
+> Please bring your student ID card for attendance checking.
+>
+> Please go to LTD at least 5 minutes before the start time.
+>
+> Please let me know if you have any questions.
+>
+> Thank you,
+>
+> \[redacted\]
 
 ## aftermath
 
