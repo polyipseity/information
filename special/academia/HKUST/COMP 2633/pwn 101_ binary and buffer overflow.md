@@ -91,7 +91,7 @@ To summarize, the process of calling a function is: {@{passing the arguments, ca
 
 ## GNU Debugger and pwndbg
 
-To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands, and improve existing commands and views. These should make it easier to solve pwn challenges}@}. Install both of them first.
+To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands}@}, and {@{improve existing commands and views}@}. These should make it {@{easier to solve pwn challenges}@}. Install both of them first.
 
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 

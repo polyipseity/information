@@ -21,25 +21,25 @@ tags:
     - `FLOAT` ::@:: Likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md).
     - `DOUBLE` ::@:: Likely [double-precision floating-point format](../../general/double-precision%20floating-point%20format.md).
   - integer data types ::@:: `TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT`
-    - `TINYINT` ::@:: Signed is from -2<sup>7</sup> to 2<sup>7</sup> - 1 and unsigned is from 0 to 2<sup>8</sup> - 1.
-    - `SMALLINT` ::@:: Signed is from -2<sup>15</sup> to 2<sup>15</sup> - 1 and unsigned is 0 to 2<sup>16</sup> - 1.
-    - `INT`, `INTEGER` ::@:: Signed is from -2<sup>23</sup> to 2<sup>23</sup> - 1 and unsigned is from 0 to 2<sup>24</sup> - 1.
-    - `MEDIUMINT` ::@:: Signed is from -2<sup>31</sup> to 2<sup>31</sup> - 1 and unsigned is from 0 to 2<sup>32</sup> - 1.
-    - `BIGINT` ::@:: Signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1 and unsigned is from 0 to 2<sup>64</sup> - 1.
+    - `TINYINT` ::@:: Signed is from −2<sup>7</sup> to 2<sup>7</sup>−1 and unsigned is from 0 to 2<sup>8</sup>−1.
+    - `SMALLINT` ::@:: Signed is from −2<sup>15</sup> to 2<sup>15</sup>−1 and unsigned is 0 to 2<sup>16</sup>−1.
+    - `INT`, `INTEGER` ::@:: Signed is from −2<sup>23</sup> to 2<sup>23</sup>−1 and unsigned is from 0 to 2<sup>24</sup>−1.
+    - `MEDIUMINT` ::@:: Signed is from −2<sup>31</sup> to 2<sup>31</sup>−1 and unsigned is from 0 to 2<sup>32</sup>−1.
+    - `BIGINT` ::@:: Signed is from −2<sup>63</sup> to 2<sup>63</sup>−1 and unsigned is from 0 to 2<sup>64</sup>−1.
 - string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR`
   - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable.
-    - `BINARY` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size binary string.
-    - `VARBINARY` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row.
+    - `BINARY` ::@:: Up to 2<sup>8</sup>−1 bytes of fixed-size binary string.
+    - `VARBINARY` ::@:: Up to 2<sup>16</sup>−1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row.
   - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings.
-    - `TINYBLOB` ::@:: Up to 2<sup>8</sup> - 1 bytes of binary string.
-    - `BLOB` ::@:: Up to 2<sup>16</sup> - 1 bytes of binary string.
-    - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup> - 1 bytes of binary string.
-    - `LONGBLOB` ::@:: Up to 2<sup>32</sup> - 1 bytes of binary string.
+    - `TINYBLOB` ::@:: Up to 2<sup>8</sup>−1 bytes of binary string.
+    - `BLOB` ::@:: Up to 2<sup>16</sup>−1 bytes of binary string.
+    - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup>−1 bytes of binary string.
+    - `LONGBLOB` ::@:: Up to 2<sup>32</sup>−1 bytes of binary string.
   - `CHAR`, `VARCHAR` ::@:: Strings. Length of the former is fixed and of the latter is variable.
-    - `CHAR` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size string.
-    - `VARCHAR` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. This capacity is shared among columns \(including other column types\) in a row.
+    - `CHAR` ::@:: Up to 2<sup>8</sup>−1 bytes of fixed-size string.
+    - `VARCHAR` ::@:: Up to 2<sup>16</sup>−1 bytes of string. This capacity is shared among columns \(including other column types\) in a row.
   - `TINYTEXT`, `TEXT`, `MEDIUMTEXT`, `LONGTEXT` ::@:: Unindexed prefix-indexable long strings.
-    - `TINYTEXT` ::@:: Up to 2<sup>8</sup> - 1 bytes of string.
-    - `TEXT` ::@:: Up to 2<sup>16</sup> - 1 bytes of string.
-    - `MEDIUMTEXT` ::@:: Up to 2<sup>24</sup> - 1 bytes of string.
-    - `LONGTEXT` ::@:: Up to 2<sup>32</sup> - 1 bytes of string.
+    - `TINYTEXT` ::@:: Up to 2<sup>8</sup>−1 bytes of string.
+    - `TEXT` ::@:: Up to 2<sup>16</sup>−1 bytes of string.
+    - `MEDIUMTEXT` ::@:: Up to 2<sup>24</sup>−1 bytes of string.
+    - `LONGTEXT` ::@:: Up to 2<sup>32</sup>−1 bytes of string.

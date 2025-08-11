@@ -231,7 +231,7 @@ The content is in teaching order.
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree
 - cause mapping extensions ::@:: facts table, solutions table
   - facts table ::@:: what, when, where, impact
-  - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget
+  - solutions table ::@:: no., cause, solution <br/> optional: time, persons responsible, budget
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis
   - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis
   - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview
