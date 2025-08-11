@@ -51,7 +51,7 @@ The content is in teaching order.
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::@:: summarize, analyze, and report business transactions <!--SR:!2025-12-03,332,317!2026-10-31,591,337-->
     - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2026-12-02,574,297!2027-09-01,819,337-->
       - [financial transaction](../../../../general/financial%20transaction.md) / examples ::@:: Confirming an employment contract is a transaction as the employer agrees to hire the employee and remunerate the employee for employment services rendered. But it is not a financial transaction because there are no changes in the finances for both the employer and employee. <!--SR:!2027-08-07,794,337!2026-01-02,316,297-->
-  - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2027-11-04,860,337!2025-08-11,251,337-->
+  - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2027-11-04,860,337!2028-10-20,1166,357-->
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2028-09-27,1147,357!2025-08-29,264,337-->
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / indicators ::@:: operation/performance, financial position, cash flow <!--SR:!2026-11-18,575,317!2027-12-25,906,337-->
   - [financial accounting](../../../../general/financial%20accounting.md) / know how the business is doing financially ::@:: How much money/assets are being generated, spent, saved, and how much are there now? <!--SR:!2025-11-17,322,337!2026-08-03,509,317-->
@@ -78,7 +78,7 @@ The content is in teaching order.
 - [management accounting](../../../../general/management%20accounting.md)
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::@:: internal reporting <!--SR:!2025-08-28,263,337!2025-08-28,264,337-->
   - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2025-11-19,324,337!2025-09-26,287,337-->
-  - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2025-08-12,204,277!2025-08-10,236,297-->
+  - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2025-08-12,204,277!2028-04-12,976,317-->
   - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2027-08-28,815,337!2025-11-25,330,337-->
 - [§ week 1 review](questions.md#week%201%20review)
 

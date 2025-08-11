@@ -11,7 +11,7 @@ tags:
 
 # angular diameter
 
-The __angular diameter__, __angular size__, __apparent diameter__, or __apparent size__ is {@{an [angular distance](angular%20distance.md) describing how large a [sphere](sphere.md) or [circle](circle.md) appears from a given point of view}@}. <!--SR:!2025-08-10,287,290-->
+The __angular diameter__, __angular size__, __apparent diameter__, or __apparent size__ is {@{an [angular distance](angular%20distance.md) describing how large a [sphere](sphere.md) or [circle](circle.md) appears from a given point of view}@}. <!--SR:!2028-10-11,1158,310-->
 
 ## formula
 

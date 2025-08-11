@@ -34,7 +34,7 @@ The meanings of the 4 segments are:
 
 - read-execute segment ::@:: The segment that the program can read from and execute code on it. It usually contains the ELF header, `.rodata` (read-only data) and `.text` (code) sections in assembly. <!--SR:!2025-09-13,224,270!2027-05-21,725,330-->
 - read-write segment ::@:: The segment that the program and read from and write to. It usually contains the `.bss` and `.data` sections in assembly. <!--SR:!2028-05-25,1044,350!2028-07-02,1073,350-->
-- heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2025-08-10,246,330!2028-06-27,1068,350-->
+- heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2028-09-09,1126,350!2028-06-27,1068,350-->
 - stack ::@:: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address). <!--SR:!2027-02-07,601,310!2027-04-16,709,330-->
 
 Note that the `.rodata` (read-only data) section is located on the read-execute segment. This means {@{the program can execute the data in `.rodata` section as code, which makes it less secure}@}. The linkers of some newer Linux distributions {@{add an additional one or two read segments (the program can only read from it) for the ELF header and `.rodata` section to improve security}@}. <!--SR:!2025-10-05,285,330!2025-10-05,285,330-->
@@ -53,7 +53,7 @@ Revisiting reverse 101... We will use {@{the Intel syntax}@} here. <!--SR:!2027-
 
 In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}@}. (We will use the x86-64 registers thereafter.) <!--SR:!2026-11-17,601,330-->
 
-`rsp` is {@{the stack pointer, which points to the top (low address) of the stack memory}@}. This is easy to understand. The more difficult one is {@{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}@}. Yet we do not know {@{what a stack/function frame is, and this will be introduced later}@}. <!--SR:!2025-08-10,248,330!2027-05-12,734,330!2028-06-14,1058,350-->
+`rsp` is {@{the stack pointer, which points to the top (low address) of the stack memory}@}. This is easy to understand. The more difficult one is {@{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}@}. Yet we do not know {@{what a stack/function frame is, and this will be introduced later}@}. <!--SR:!2028-09-11,1128,350!2027-05-12,734,330!2028-06-14,1058,350-->
 
 There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2028-01-26,915,330!2025-10-15,295,330-->
 
@@ -112,7 +112,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->
 - `finish` ::@:: run until the current function returns <!--SR:!2025-10-11,291,330!2025-08-17,253,330-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
-- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-05,285,330!2025-08-11,249,330-->
+- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-05,285,330!2028-09-17,1133,350-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2028-06-19,1062,350-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2025-08-26,262,330!2028-07-09,1072,350-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2028-08-26,1115,350-->

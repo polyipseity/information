@@ -105,7 +105,7 @@ An alternative notation for {@{the rising factorial $x^{(n)}$}@} is {@{the less 
 
 ## generalizations
 
-The Pochhammer symbol has a generalized version called {@{the [generalized Pochhammer symbol](generalized%20Pochhammer%20symbol.md), used in multivariate [analysis](mathematical%20analysis.md)}@}. There is also {@{a [_q_-analogue](q-analog.md), the [_q_-Pochhammer symbol](q-Pochhammer%20symbol.md)}@}. <!--SR:!2025-08-11,204,310!2027-09-18,794,330-->
+The Pochhammer symbol has a generalized version called {@{the [generalized Pochhammer symbol](generalized%20Pochhammer%20symbol.md), used in multivariate [analysis](mathematical%20analysis.md)}@}. There is also {@{a [_q_-analogue](q-analog.md), the [_q_-Pochhammer symbol](q-Pochhammer%20symbol.md)}@}. <!--SR:!2027-12-29,870,330!2027-09-18,794,330-->
 
 For {@{any fixed arithmetic function $f:\mathbb {N} \rightarrow \mathbb {C}$ and symbolic parameters _x_, _t_}@}, {@{related generalized factorial products}@} of the form {@{$$(x)_{n,f,t}:=\prod _{k=1}^{n-1}\left(x+{\frac {f(k)}{t^{k} } }\right)$$}@} (annotation: Note that {@{$k$ starts from 1 and ends at $n - 1$}@}.) may be studied from {@{the point of view of the classes of generalized [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)}@} defined by {@{the following coefficients of the powers of _x_ in the expansions of (_x_)<sub>_n_,_f_,_t_</sub>}@} and then by {@{the next corresponding triangular recurrence relation}@}: <!--SR:!2027-01-25,573,310!2025-10-07,266,330!2025-12-06,260,270!2027-11-20,857,330!2027-10-25,824,330!2025-09-14,249,330!2026-01-30,361,347-->
 

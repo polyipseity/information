@@ -132,7 +132,7 @@ A well known application of the principle is {@{the construction of the [chromat
 
 ### bipartite graph perfect matchings
 
-{@{The number of [perfect matchings](perfect%20matching.md) of a [bipartite graph](bipartite%20graph.md)}@} can be calculated using the principle.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-08-11,168,331-->
+{@{The number of [perfect matchings](perfect%20matching.md) of a [bipartite graph](bipartite%20graph.md)}@} can be calculated using the principle.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2027-09-17,767,351-->
 
 ### number of onto functions
 
@@ -192,7 +192,7 @@ An algebraic proof can be obtained using {@{[indicator functions](indicator%20fu
 
 Let {@{_A_ denote the union $\bigcup _{i=1}^{n}A_{i}$ of the sets _A_<sub>1</sub>, ..., _A<sub>n</sub>_}@}. To {@{prove the inclusion–exclusion principle in general}@}, we first {@{verify the identity $$\mathbf {1} _{A}=\sum _{k=1}^{n}(-1)^{k-1}\sum _{I\subset \{1,\ldots ,n\} \atop |I|=k}\mathbf {1} _{A_{I} } \qquad \textbf{(4)}$$ <a id="math_4"></a> for indicator functions}@}, where: {@{$$A_{I}=\bigcap _{i\in I}A_{i}.$$}@} The following function {@{$$\left(\mathbf {1} _{A}-\mathbf {1} _{A_{1} }\right)\left(\mathbf {1} _{A}-\mathbf {1} _{A_{2} }\right)\cdots \left(\mathbf {1} _{A}-\mathbf {1} _{A_{n} }\right)=0,$$}@} is {@{identically zero}@} because: {@{if _x_ is not in _A_, then all factors are 0−0 = 0; and otherwise, if _x_ does belong to some _A<sub>m</sub>_, then the corresponding _m_<sup>th</sup> factor is 1−1=0}@}. By {@{expanding the product on the left-hand side}@}, {@{equation (__[4](#math_4)__) follows}@}. <!--SR:!2025-12-18,337,351!2025-12-28,346,351!2026-03-12,316,260!2027-06-04,723,331!2025-12-23,341,351!2025-11-18,312,340!2025-08-21,242,331!2025-12-26,345,351!2028-01-09,905,330-->
 
-To {@{prove the inclusion–exclusion principle for the cardinality of sets}@}, {@{sum the equation (__[4](#math_4)__) over all _x_ in the union of _A_<sub>1</sub>, ..., _A<sub>n</sub>_}@}. To {@{derive the version used in probability}@}, {@{take the [expectation](expected%20value.md) in (__[4](#math_4)__)}@}. In general, {@{[integrate](lebesgue%20integral.md) the equation (__[4](#math_4)__) with respect to _μ_}@}. Always {@{use linearity}@} in these derivations. <!--SR:!2026-01-03,352,351!2028-04-18,990,340!2025-11-22,316,340!2025-12-09,328,340!2025-08-10,232,331!2025-11-16,308,330-->
+To {@{prove the inclusion–exclusion principle for the cardinality of sets}@}, {@{sum the equation (__[4](#math_4)__) over all _x_ in the union of _A_<sub>1</sub>, ..., _A<sub>n</sub>_}@}. To {@{derive the version used in probability}@}, {@{take the [expectation](expected%20value.md) in (__[4](#math_4)__)}@}. In general, {@{[integrate](lebesgue%20integral.md) the equation (__[4](#math_4)__) with respect to _μ_}@}. Always {@{use linearity}@} in these derivations. <!--SR:!2026-01-03,352,351!2028-04-18,990,340!2025-11-22,316,340!2025-12-09,328,340!2028-07-03,1058,351!2025-11-16,308,330-->
 
 ## see also
 

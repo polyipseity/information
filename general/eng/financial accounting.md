@@ -106,7 +106,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
-- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2028-02-02,931,330-->
+- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2028-10-19,1165,350!2028-02-02,931,330-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2026-09-03,531,310!2027-06-13,767,330-->
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2027-09-16,837,330-->
@@ -114,13 +114,13 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!2026-07-27,428,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2028-09-20,1142,350!2027-08-03,807,330-->
 
-{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2025-08-10,255,330!2027-12-09,905,330!2027-03-24,704,330!2026-10-09,559,310-->
+{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2027-11-30,841,330!2027-12-09,905,330!2027-03-24,704,330!2026-10-09,559,310-->
 
 #### statement of retained earnings
 
 The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2025-09-29,293,355-->
 
-This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-08-23,815,330!2025-10-06,300,330!2025-08-10,257,330!2027-10-16,864,330-->
+This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-08-23,815,330!2025-10-06,300,330!2028-10-25,1171,350!2027-10-16,864,330-->
 
 ## basic concepts
 

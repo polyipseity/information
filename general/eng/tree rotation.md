@@ -65,7 +65,7 @@ The programmer must {@{also make sure that the root's parent points to the pivot
 
 ## inorder invariance
 
-The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-08-11,175,310!2026-05-27,390,310-->
+The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2027-09-02,752,330!2026-05-27,390,310-->
 
 ```text
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))

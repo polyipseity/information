@@ -92,7 +92,7 @@ There are {@{a large number of enterprises, there are no restrictions on enterin
 
 __Oligopoly:__
 
-The number of enterprises is {@{small, entry and exit from the market are restricted}@}, product attributes are {@{different, and the demand curve is downward sloping and relatively inelastic}@}. Oligopolies are usually found in {@{industries in which initial capital requirements are high and existing companies have strong foothold in market share}@}. <!--SR:!2026-03-23,384,358!2025-08-10,200,320!2025-12-23,308,340-->
+The number of enterprises is {@{small, entry and exit from the market are restricted}@}, product attributes are {@{different, and the demand curve is downward sloping and relatively inelastic}@}. Oligopolies are usually found in {@{industries in which initial capital requirements are high and existing companies have strong foothold in market share}@}. <!--SR:!2026-03-23,384,358!2027-05-18,645,320!2025-12-23,308,340-->
 
 ### monopoly
 

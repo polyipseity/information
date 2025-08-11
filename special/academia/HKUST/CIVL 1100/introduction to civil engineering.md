@@ -145,7 +145,7 @@ quantity surveyor
 - _(begin)_→::@::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2029-06-30,1448,357-->
 - consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2026-10-15,507,360-->
-- consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
+- consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2029-08-02,1452,326-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2028-05-20,1116,337-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2028-09-19,1202,335-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2029-01-03,1250,317!2026-11-22,579,295-->

@@ -175,7 +175,7 @@ The content is in teaching order.
     - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2027-05-28,771,341!2026-04-06,462,321-->
     - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2026-01-09,350,281!2025-08-30,334,361-->
     - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2025-08-30,307,301!2026-04-27,478,321-->
-    - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2027-10-02,936,361!2025-08-10,320,361-->
+    - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2027-10-02,936,361!2029-12-15,1587,381-->
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2027-08-20,918,381!2025-12-20,450,381-->
   - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2026-05-05,528,341-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
@@ -231,7 +231,7 @@ The content is in teaching order.
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2028-09-29,1248,381!2025-10-01,385,381-->
 - cause mapping extensions ::@:: facts table, solutions table <!--SR:!2025-09-03,361,381!2029-12-02,1578,381-->
   - facts table ::@:: what, when, where, impact <!--SR:!2025-11-13,420,381!2027-05-16,828,361-->
-  - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2026-11-22,638,341!2025-08-10,321,361-->
+  - solutions table ::@:: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2026-11-22,638,341!2028-10-13,1159,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2026-02-04,484,381-->
   - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2025-09-17,349,361-->
   - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2025-12-24,450,381!2025-12-06,439,381-->

@@ -25,7 +25,7 @@ The [time](time.md) value of money is among {@{the factors considered when weigh
 
 {@{The [Talmud](Talmud.md) \(~500 CE\)}@} {@{recognizes the time value of money}@}. In {@{Tractate [Makkos](Makkot.md) page 3a}@} the Talmud discusses {@{a case where witnesses falsely claimed that the term of a loan was 30 days when it was actually 10 years}@}. The false witnesses must {@{pay the difference of the value of the loan}@} "{@{in a situation where he would be required to give the money back \(within\) thirty days..., and that same sum in a situation where he would be required to give the money back \(within\) 10 years...}@} The difference is {@{the sum that the testimony of the \(false\) witnesses sought to have the borrower lose}@}; therefore, {@{it is the sum that they must pay}@}."<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-03-06,294,330!2026-01-06,244,330!2026-01-07,245,330!2026-07-09,379,310!2026-03-02,290,330!2026-02-20,280,330!2026-02-23,283,330!2025-12-26,239,330-->
 
-The notion was later described by {@{[Martín de Azpilcueta](Martín%20de%20Azpilcueta.md) \(1491–1586\) of the [School of Salamanca](School%20of%20Salamanca.md)}@}. <!--SR:!2025-08-11,126,290-->
+The notion was later described by {@{[Martín de Azpilcueta](Martín%20de%20Azpilcueta.md) \(1491–1586\) of the [School of Salamanca](School%20of%20Salamanca.md)}@}. <!--SR:!2027-01-06,513,310-->
 
 ## calculations
 
@@ -147,7 +147,7 @@ Notes:
 >
 > - __find__: Future value \(F\) <br/> __given__: Present value \(P\) ::@:: $F=P\cdot (1+i)^{n}$ <!--SR:!2026-01-26,263,330!2025-12-27,240,330-->
 > - __find__: Present value \(P\) <br/> __given__: Future value \(F\) ::@:: $P=F\cdot (1+i)^{-n}$ <!--SR:!2026-01-05,243,330!2026-03-05,293,330-->
-> - __find__: Repeating payment \(A\) <br/> __given__: Future value \(F\) ::@:: $A=F\cdot {\frac {i}{(1+i)^{n}-1} }$ <!--SR:!2026-03-01,289,330!2025-08-10,125,290-->
+> - __find__: Repeating payment \(A\) <br/> __given__: Future value \(F\) ::@:: $A=F\cdot {\frac {i}{(1+i)^{n}-1} }$ <!--SR:!2026-03-01,289,330!2026-12-29,505,310-->
 > - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$ <!--SR:!2025-12-01,188,270!2026-06-29,353,290-->
 > - __find__: Future value \(F\) <br/> __given__: Repeating payment \(A\) ::@:: $F=A\cdot {\frac {(1+i)^{n}-1}{i} }$ <!--SR:!2026-03-04,292,330!2026-01-03,246,330-->
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2025-10-18,170,310!2025-11-07,184,310-->

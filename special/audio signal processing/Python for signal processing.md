@@ -10,7 +10,7 @@ tags:
 
 - see: [general/Python](../../general/Python%20(programming%20language).md)
 
-[Python](../../general/Python%20(programming%20language).md) is {@{a programming language}@}. Have you tried {@{searching for documentation and reading them}@}? <!--SR:!2028-07-25,1124,350!2025-08-10,283,330-->
+[Python](../../general/Python%20(programming%20language).md) is {@{a programming language}@}. Have you tried {@{searching for documentation and reading them}@}? <!--SR:!2028-07-25,1124,350!2029-02-19,1289,350-->
 
 ## NumPy
 
@@ -18,7 +18,7 @@ NumPy \(`numpy`\) is {@{a Python library allowing one to manipulate arrays of nu
 
 ## matplotlib
 
-`matplotlib` is {@{a Python library allowing one to visualize numbers}@}. Its documentation is available on {@{<https://matplotlib.org/stable/api/>}@}. <!--SR:!2028-10-03,1184,359!2025-08-11,283,339-->
+`matplotlib` is {@{a Python library allowing one to visualize numbers}@}. Its documentation is available on {@{<https://matplotlib.org/stable/api/>}@}. <!--SR:!2028-10-03,1184,359!2029-03-27,1324,359-->
 
 ## complex number
 

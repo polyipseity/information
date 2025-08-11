@@ -80,7 +80,7 @@ The content is in teaching order.
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::@:: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2025-12-09,388,310!2027-03-06,731,330-->
 - [bending](../../../../general/bending.md)
-  - bending conditions ::@:: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2025-08-10,337,321!2028-12-24,1301,361-->
+  - bending conditions ::@:: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2028-07-27,1082,321!2028-12-24,1301,361-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
 - [cantilever](../../../../general/cantilever.md) ::@:: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2025-10-14,349,310!2029-10-03,1549,370-->
 - simply supported beam ::@:: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2028-01-12,954,310!2027-03-17,725,330-->
@@ -118,7 +118,7 @@ The content is in teaching order.
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
   - soil load ::@:: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2026-06-06,567,330!2029-03-24,1391,370-->
-  - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2025-08-11,347,350!2027-10-21,949,341-->
+  - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2030-03-01,1663,370!2027-10-21,949,341-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2026-11-11,647,330!2029-10-19,1549,361-->
 - [structural system](../../../../general/structural%20system.md)

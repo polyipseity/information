@@ -109,7 +109,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-10-22,229,333!2026-12-12,528,310!2026-04-17,260,213!2025-08-11,177,325!2025-08-21,167,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-10-22,229,333!2026-12-12,528,310!2026-04-17,260,213!2027-10-14,794,345!2025-08-21,167,313-->
 
 ## see also
 
