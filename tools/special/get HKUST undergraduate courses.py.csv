@@ -1,1450 +1,1450 @@
-ACCT 1010	Accounting, Business and Society	3
-ACCT 1610	Laws in Society and Business	3
-ACCT 2010	Principles of Accounting I	3
-ACCT 2200	Principles of Accounting II	3
-ACCT 3010	Financial Accounting I	3
-ACCT 3020	Financial Accounting II	3
-ACCT 3030	Intermediate Financial Accounting for Non-Accounting Majors	3
-ACCT 3210	Advanced Management Accounting	3
-ACCT 3610	Business Law	3
-ACCT 3630	ESG Measurement, Disclosure and Applications	3
-ACCT 3880	Professional Excellence Program	1
-ACCT 4010	Advanced Financial Accounting	3
-ACCT 4410	Taxation	3
-ACCT 4510	Auditing	3
-ACCT 4610	Company Law	3
-ACCT 4710	Accounting Analytics for Professional Accountants	3
-ACCT 4720	Equity Investment with Machine Learning	3
-ACCT 4980	Independent Study	1-4
-AISC 2500	Special Topics (I)	1-4
-AISC 3500	Special Topics (II)	1-4
-AISC 4500	Special Topics (III)	1-4
-AISC 4950	Interdisciplinary Special Project	0-4
-BIBU 1010	Biotechnology and Business Seminar	1
-BIBU 4820	Biotechnology Entrepreneurship and Business Operations	3
-BIBU 4830	Biotechnology Management	3
-BIBU 4840	Biotechnology and Business Capstone Project	3
-BIBU 4850	Biotechnology and Business Project Research	6
-BIEN 1010	Introduction to Biomedical Engineering	3
-BIEN 2310	Modeling for Chemical and Biological Engineering	3
-BIEN 2410	Cellular and Systems Physiology for Engineers	3
-BIEN 2610	Chemical Biology for Engineers	3
-BIEN 2990	Academic and Professional Development I	1
-BIEN 3300	Data Science for Molecular Engineering	3
-BIEN 3310	Data Science for Neural Engineering	3
-BIEN 3320	Data Science for Biology and Medicine	3
-BIEN 3410	Introduction to Bioinstrumentation and Bioimaging	3
-BIEN 3910	Bioengineering Laboratory	4
-BIEN 4000	Special Topics in Bioengineering	1-4
-BIEN 4110	Regulatory Affairs in the Healthcare Industry	3
-BIEN 4310	Statistical Signal Analysis and Applications in Neural Engineering	3
-BIEN 4910	Independent Study	1-4
-BIEN 4920	Bioengineering Capstone Design	6
-BIEN 4930	Bioengineering Thesis Research	6
-BIEN 4940	Bioengineering Industrial Project	6
-BIEN 4990	Academic and Professional Development II	1
-BIPH 3010	Advanced Biological Physics	3
-BIPH 4010	Principles of Quantitative Instrumentation	3
-CENG 1000	Introduction to Chemical and Biological Engineering	3
-CENG 1010	Academic and Professional Development I	0
-CENG 1500	A First Course on Materials Science and Applications	3
-CENG 1600	Biotechnology and Its Business Opportunities	3
-CENG 1700	Introduction to Environmental Engineering	3
-CENG 1800	Introduction to Food Science and Technology	3
-CENG 1980	Industrial Training	0
-CENG 2110	Process and Product Design Principles	3
-CENG 2210	Chemical and Biological Engineering Thermodynamics	3
-CENG 2220	Transport Phenomena I	3
-CENG 2310	Modeling for Chemical and Biological Engineering	3
-CENG 3110	Process Dynamics and Control	3
-CENG 3120	Process Design and Integration	3
-CENG 3150	Integrated Chemical Process and Product Design	5
-CENG 3210	Separation Processes	3
-CENG 3220	Transport Phenomena II	3
-CENG 3230	Chemical and Biological Reaction Engineering	3
-CENG 3300	Data Science for Molecular Engineering	3
-CENG 3950	Chemical and Environmental Engineering Laboratory	4
-CENG 4000	Special Topics	3
-CENG 4020	Academic and Professional Development II	0
-CENG 4130	Plant Design and Economics	3
-CENG 4140	Energy Resources, Conversions and Technologies	3
-CENG 4160	Prototype Development for Chemical Processes and Products	3
-CENG 4510	Nature Engineering and DNA Nanotechnology	3
-CENG 4540	Nanomaterials and Applications in Chemical Engineering	3
-CENG 4620	Bioproducts and Processing	3
-CENG 4630	Food Processing Technology	3
-CENG 4640	Biomolecular Engineering	3
-CENG 4650	Biomaterials and Drug Delivery	3
-CENG 4670	Pharmaceutical Engineering	3
-CENG 4710	Environmental Control	3
-CENG 4720	Environmental Impact Assessment and Management Systems	3
-CENG 4920	Chemical Engineering Capstone Design	6
-CENG 4930	Chemical Engineering Thesis Research	6
-CENG 4940	Chemical Engineering Industrial Project	6
-CENG 4950	Chem-E-Car	3
-CENG 4980	Investigation Project	3
-CHEM 1002	Introduction to Chemistry of Cosmetics	3
-CHEM 1004	Chemistry in Everyday Life	3
-CHEM 1008	Introductory Chemistry	3
-CHEM 1010	General Chemistry IA	3
-CHEM 1011	General Chemistry A: Reactions, Thermodynamics, and Reaction Kinetics	3
-CHEM 1012	General Chemistry B: Atomic Structure, Molecules, and Bonding Theories	3
-CHEM 1051	Laboratory for General Chemistry A	1
-CHEM 1052	Laboratory for General Chemistry B	1
-CHEM 2110	Organic Chemistry I	3
-CHEM 2111	Fundamentals of Organic Chemistry	3
-CHEM 2150	Organic Chemistry Laboratory	1
-CHEM 2155	Fundamental Organic Chemistry Laboratory	1
-CHEM 2210	Inorganic Chemistry I	3
-CHEM 2250	Inorganic Chemistry Laboratory	1
-CHEM 2310	Fundamentals of Analytical Chemistry	3
-CHEM 2311	Analytical Chemistry	3
-CHEM 2350	Analytical Chemistry Laboratory	1
-CHEM 2355	Fundamental Analytical Chemistry Laboratory	1
-CHEM 2409	Mathematical Methods for Physical Chemistry	4
-CHEM 2410	Physical Chemistry I: Equilibrium Thermodynamics and Statistical Mechanics	3
-CHEM 2450	Physical Chemistry Laboratory	1
-CHEM 2550	Synthetic Chemistry Laboratory I	2
-CHEM 2555	Molecular Characterization Chemistry Laboratory l	2
-CHEM 3010	Great Ideas in Chemistry	3
-CHEM 3020	Chemistry in the Mass Media	3
-CHEM 3120	Organic Chemistry II	3
-CHEM 3220	Inorganic Chemistry II	3
-CHEM 3320	Instrumental Analysis	3
-CHEM 3420	Physical Chemistry II	3
-CHEM 3550	Synthetic Chemistry Laboratory II	2
-CHEM 3555	Molecular Characterization Chemistry Laboratory II	2
-CHEM 3610	Chemistry Internship	2-3
-CHEM 3928	Chemistry Undergraduate Seminar	1
-CHEM 4110	Structural Elucidation in Organic Chemistry	3
-CHEM 4120	Biomolecular Chemistry	3
-CHEM 4130	Medicinal Chemistry	3
-CHEM 4140	Intermediate Organic Chemistry	3
-CHEM 4150	Biomolecular Synthesis Laboratory	1
-CHEM 4155	Biomolecular Characterization Laboratory	1
-CHEM 4160	Cheminformatics	3
-CHEM 4210	Solid State Chemistry	3
-CHEM 4220	Materials Chemistry	3
-CHEM 4230	Materials Characterization Method	3
-CHEM 4240	Intermediate Inorganic Chemistry	3
-CHEM 4250	Materials Preparation Laboratory	1
-CHEM 4255	Materials Characterization Laboratory	1
-CHEM 4310	Environmental Chemistry	3
-CHEM 4320	Environmental Analytical Chemistry	3
-CHEM 4330	Separation Science	3
-CHEM 4340	Bioanalytical Techniques	3
-CHEM 4350	Environmental Chemistry Laboratory	1
-CHEM 4355	Instrumental Analytical Chemistry Laboratory	1
-CHEM 4410	Physical Chemistry in Biological Applications	3
-CHEM 4420	Statistical Machine Learning Methods for Chemical Data Analysis	3
-CHEM 4430	Symmetry in Chemistry and Spectroscopy	3
-CHEM 4550	Advanced Synthetic Laboratory	1
-CHEM 4555	Advanced Molecular Characterization Laboratory	1
-CHEM 4620	Organometallic Chemistry	3
-CHEM 4640	Chemistry for Advanced Solar Cell Technologies	3
-CHEM 4680	Undergraduate Research	3
-CHEM 4688	Undergraduate Thesis	3
-CHEM 4689	Capstone Project	3
-CHEM 4691	Capstone Research I	3
-CHEM 4692	Capstone Research II	3
-CIVL 1010	Academic and Professional Development I	0
-CIVL 1100	Discovering Civil and Environmental Engineering	3
-CIVL 1140	Environment and Society: Sustainable Development Goals and Carbon Neutrality	3
-CIVL 1160	Civil Engineering and Modern Society	3
-CIVL 1180	Monitoring Changing Climate from Space	3
-CIVL 1190	Climate Change, Big History and Sustainability	3
-CIVL 1210	Fundamental of Green Buildings	3
-CIVL 1220	Big Data for Smarter Cities	3
-CIVL 2010	Academic and Professional Development II	0
-CIVL 2020	Industrial and BIM Training	0
-CIVL 2110	Statics	3
-CIVL 2120	Mechanics of Materials	3
-CIVL 2160	Modeling Systems with Uncertainties	3
-CIVL 2170	Infrastructure Systems Engineering and Management	3
-CIVL 2410	Environmental Assessment and Management	3
-CIVL 2510	Fluid Mechanics	3
-CIVL 2810	Construction Materials	3
-CIVL 3010	Academic and Professional Development III	0
-CIVL 3020	Internship Training	0
-CIVL 3210	Introduction to Construction Management	3
-CIVL 3310	Structural Analysis	3
-CIVL 3320	Reinforced Concrete Design	3
-CIVL 3420	Water and Wastewater Engineering	3
-CIVL 3510	Hydrosystems Engineering	3
-CIVL 3610	Traffic and Transportation Engineering	3
-CIVL 3730	Fundamentals of Geotechnics	3
-CIVL 3740	Geotechnical Analysis and Design	3
-CIVL 4100	Special Topics	1-4
-CIVL 4210	Advanced Construction with AI and Robotics	3
-CIVL 4220	Scientific Machine Learning for Infrastructure Systems	3
-CIVL 4240	Smart Infrastructure Sensing and Data Analytics	3
-CIVL 4250	Project Management and Finance	3
-CIVL 4270	Construction Law and Contract Administration	3
-CIVL 4310	Energy System Modeling for Buildings and Cities	3
-CIVL 4320	Structural Steel Design	3
-CIVL 4330	Introduction to Structural Dynamics	3
-CIVL 4340	Prestressed Concrete Design	3
-CIVL 4360	Implementing Artificial Intelligence in Smart Buildings	3
-CIVL 4370	Computer Methods of Structural Analysis	3
-CIVL 4380	Introduction to Wind Effects on Buildings and Structures	3
-CIVL 4430	Environmental Impact Assessment	3
-CIVL 4450	Carbon Footprint Analysis and Reduction	3
-CIVL 4460	Process Design of Environmental Engineering Facilities	3
-CIVL 4470	Air Quality Control and Management	3
-CIVL 4480	Climate Modeling and Risk Assessment	3
-CIVL 4520	Municipal Hydrosystems Engineering and Management	3
-CIVL 4560	Urban Hydroclimate and the Built Environment	3
-CIVL 4610	Introduction to Data Analytics for Smart Transportation Systems	3
-CIVL 4620	Transportation System Operations	3
-CIVL 4630	Public Transport Planning and Operation	3
-CIVL 4640	Introduction to Smart City Economics	3
-CIVL 4650	Multi-agent Decision Making in Smart Cities	3
-CIVL 4700	Engineering Geology	3
-CIVL 4710	Soil Slope Engineering	3
-CIVL 4750	Numerical Solutions to Geotechnical Problems	3
-CIVL 4760	Introduction to Rock Mechanics	3
-CIVL 4810	Construction Materials Technology	3
-CIVL 4900	Directed Studies	1-4
-CIVL 4910	Civil and Environmental Engineering Final Year Project	6
-CIVL 4920	Civil and Environmental Engineering Final Year Thesis	6
-CIVL 4950	Civil Engineering Capstone Design Project	3
-COMP 1001	Exploring Multimedia and Internet Computing	3
-COMP 1021	Introduction to Computer Science	3
-COMP 1022P	Introduction to Computing with Java	3
-COMP 1029C	C Programming Bridging Course	1
-COMP 1029J	Java Programming Bridging Course	1
-COMP 1029P	Python Programming Bridging Course	1
-COMP 1029V	Excel VBA Programming Bridging Course	1
-COMP 1942	Exploring and Visualizing Data	3
-COMP 1943	Creative Sound and Video Design	3
-COMP 1944	Artificial Intelligence Ethics	3
-COMP 1991	Industrial Experience	0
-COMP 2011	Programming with C++	4
-COMP 2012	Object-Oriented Programming and Data Structures	4
-COMP 2012H	Honors Object-Oriented Programming and Data Structures	5
-COMP 2211	Exploring Artificial Intelligence	3
-COMP 2611	Computer Organization	4
-COMP 2633	Competitive Programming in Cybersecurity I	0
-COMP 2711	Discrete Mathematical Tools for Computer Science	4
-COMP 2711H	Honors Discrete Mathematical Tools for Computer Science	4
-COMP 3021	Java Programming	3
-COMP 3031	Principles of Programming Languages	3
-COMP 3071	Honors Competitive Programming	2
-COMP 3111	Software Engineering	4
-COMP 3111H	Honors Software Engineering	4
-COMP 3211	Fundamentals of Artificial Intelligence	3
-COMP 3311	Database Management Systems	3
-COMP 3511	Operating Systems	3
-COMP 3631	Cryptography	3
-COMP 3633	Competitive Programming in Cybersecurity II	2
-COMP 3711	Design and Analysis of Algorithms	3
-COMP 3711H	Honors Design and Analysis of Algorithms	4
-COMP 3721	Theory of Computation	3
-COMP 4021	Internet Computing	3
-COMP 4121	Modern Compiler Construction	3
-COMP 4211	Machine Learning	3
-COMP 4221	Introduction to Natural Language Processing	3
-COMP 4222	Machine Learning with Structured Data	3
-COMP 4321	Search Engines for Web and Enterprise Data	3
-COMP 4331	Data Mining	3
-COMP 4332	Big Data Mining and Management	3
-COMP 4411	Computer Graphics	3
-COMP 4421	Image Processing	3
-COMP 4431	Multimedia Computing	3
-COMP 4441	Music Video Creation	3
-COMP 4451	Game Programming	3
-COMP 4461	Human-Computer Interaction	3
-COMP 4462	Data Visualization	3
-COMP 4471	Deep Learning in Computer Vision	3
-COMP 4511	System and Kernel Programming in Linux	3
-COMP 4521	Mobile Application Development	3
-COMP 4531	IoT and Smart Sensing	3
-COMP 4541	Blockchain, Cryptocurrencies and Smart Contracts	3
-COMP 4611	Design and Analysis of Computer Architectures	3
-COMP 4621	Computer and Communication Networks	3
-COMP 4632	Practicing Cybersecurity: Attacks and Counter-measures	3
-COMP 4633	Competitive Programming in Cybersecurity III	2
-COMP 4634	Cybersecurity	3
-COMP 4641	Social Information Network Analysis and Engineering	3
-COMP 4651	Cloud Computing and Big Data Systems	3
-COMP 4900	Academic and Professional Development	0
-COMP 4901	Special Topics in Computer Science	0-4
-COMP 4910	Co-op Program	6
-COMP 4911	IT Entrepreneurship	3
-COMP 4971	Independent Work	1-4
-COMP 4981	Final Year Project	6
-COMP 4981H	Final Year Thesis	6
-CPEG 1971	Industrial Experience	0
-CPEG 2930	Academic and Professional Development I	0
-CPEG 3930	Academic and Professional Development II	0
-CPEG 4901	Computer Engineering Final Year Project in COMP	6
-CPEG 4902	Computer Engineering Final Year Thesis in COMP	6
-CPEG 4910	Co-op Program	6
-CPEG 4911	Computer Engineering Final Year Project in ELEC	6
-CPEG 4912	Computer Engineering Final Year Thesis in ELEC	6
-CTDL 1901	Cognitive Foundations of University Education: Critical Thinking and Data Literacy	3
-CTDL 1902	AI and Society: Ethics, Cognition, and Critical Analysis	3
-DASC 2010	Calculus for Data Analytics in Science	3
-DASC 2020	Applied Linear Algebra for Least Squares Optimization and Machine Learning	3
-DASC 2110	Object-oriented Programming for Data Analytics in Science	3
-DASC 2210	A Survey on Big Data in Science and Society	1
-DASC 2220	Statistics and Probability for Data Analytics in Science	3
-DASC 3120	Data Structures for Data Analytics in Science	3
-DASC 3230	Statistical Modeling and Machine Learning	3
-DASC 3240	Data Visualization in Science	3
-DASC 3250	Numerical Methods for Data Analytics in Science	3
-DASC 4010	Practical Artificial Intelligence in Science	3
-DASC 4020	Structured Query Language for Data Analytics	3
-DASC 4300	Capstone Project for Data Analytics in Science	3
-DASC 4400	Data Analytics in Information Science	3
-DSCT 4900	Academic and Professional Development	0
-ECON 1220	Thinking like an Economist I: Microeconomics	3
-ECON 1221	Thinking like an Economist II: Macroeconomics	3
-ECON 1222	What Economics Tells Us About Our Life and Social Policy	3
-ECON 1234	China's Economic Challenges	3
-ECON 2103	Principles of Microeconomics	3
-ECON 2113	Microeconomics	3
-ECON 2123	Macroeconomics	3
-ECON 2174	Mathematics for Economists	4
-ECON 3014	Managerial Microeconomics	4
-ECON 3024	Managerial Macroeconomics	4
-ECON 3113	Microeconomic Theory I	4
-ECON 3123	Macroeconomic Theory I	3
-ECON 3133	Microeconomic Theory II	4
-ECON 3143	Macroeconomic Theory II	4
-ECON 3334	Introduction to Econometrics	4
-ECON 3700	Writing as an Economist	3
-ECON 3800	ECON UG Honors Thesis I	2
-ECON 4114	Industrial Organization and Competitive Strategy	4
-ECON 4124	Applied Game Theory	4
-ECON 4134	Economics of Uncertainty and Information	4
-ECON 4144	Health and Education Economics	4
-ECON 4234	Labor Economics and Human Resources	4
-ECON 4244	Economics of Human Behavior	4
-ECON 4264	Economics of Innovation and Entrepreneurship	4
-ECON 4274	Programming Econometrics with R	4
-ECON 4284	Econometrics for Cross-Section and Panel Data	4
-ECON 4304	Time Series Econometrics and Business Forecasting	4
-ECON 4305	Applied Machine Learning for Economic and Financial Analysis	4
-ECON 4334	Money and Banking	4
-ECON 4364	International Trade and Investment	4
-ECON 4374	International Macroeconomics and Finance	4
-ECON 4434	Economic Development and Growth	4
-ECON 4454	Green Economy and Sustainability	4
-ECON 4464	Urban and Environment Economics	4
-ECON 4474	Hong Kong's Economy	4
-ECON 4670	Economics Research and Communication	0
-ECON 4800	ECON UG Honors Thesis II	3
-ECON 4959	Independent Study	1-4
-ECON 4999	Special Topics in Economics	1-4
-ELEC 1010	Electronic and Information Technology	3
-ELEC 1030	The Rise of Autonomous Robots	3
-ELEC 1095	Special Topics	1-4
-ELEC 1100	Introduction to Electro-Robot Design	4
-ELEC 1200	A System View of Communications: from Signals to Packets	4
-ELEC 2100	Signals and Systems	4
-ELEC 2350	Introduction to Computer Organization and Design	4
-ELEC 2400	Electronic Circuits	4
-ELEC 2420	Basic Electronics	3
-ELEC 2600	Probability and Random Processes in Engineering	4
-ELEC 2910	Academic and Professional Development I	0
-ELEC 2991	Industrial Experience (Electronic Engineering)	0
-ELEC 3100	Signal Processing and Communications	4
-ELEC 3120	Computer Communication Networks	3
-ELEC 3130	Digital Image Processing	3
-ELEC 3180	Data-Driven Portfolio Optimization	3
-ELEC 3200	System Modeling, Analysis and Control	4
-ELEC 3210	Introduction to Mobile Robotics	3
-ELEC 3300	Introduction to Embedded Systems	4
-ELEC 3310	Digital Fundamentals and System Design	4
-ELEC 3350	Principles of Machine Learning	3
-ELEC 3400	Introduction to Integrated Circuits and Systems	4
-ELEC 3410	CMOS VLSI Design	3
-ELEC 3500	Integrated Circuit Devices	4
-ELEC 3600	Electromagnetics: From Wireless to Photonic Applications	4
-ELEC 3810	Data Science for Neural Engineering	3
-ELEC 3910	Academic and Professional Development II	0
-ELEC 4010	Special Topics	1-4
-ELEC 4110	Digital Communications and Wireless Systems	3
-ELEC 4210	Control System Design	3
-ELEC 4220	Robotics: Modeling, Control and Planning	3
-ELEC 4240	Deep Learning in Computer Vision	3
-ELEC 4260	Intelligent Robots and Embodied AI	3
-ELEC 4310	Embedded System Design	4
-ELEC 4320	FPGA-based Design: From Theory to Practice	3
-ELEC 4350	AI Processor Architecture	3
-ELEC 4420	Analogue Integrated Circuits Design and Analysis	4
-ELEC 4430	Integrated Power Electronics	3
-ELEC 4510	Semiconductor Materials and Devices	3
-ELEC 4520	Integrated Circuit Fabrication Technology	3
-ELEC 4530	Fundamentals of Photovoltaic and Renewable Energy	3
-ELEC 4610	Engineering Optics	4
-ELEC 4620	Photonics and Optical Communications	4
-ELEC 4810	Introduction to Biosensors and Bioinstrumentation	4
-ELEC 4820	Medical Imaging	3
-ELEC 4830	Statistical Signal Analysis and Applications in Neural Engineering	3
-ELEC 4840	Artificial Intelligence for Medical Image Analysis	3
-ELEC 4900	Final Year Design Project	6
-ELEC 4901	Final Year Thesis	6
-ELEC 4910	Co-op Program	6
-ELEC 4940	Independent Study	1-3
-EMIA 2010	Cross-disciplinary Seminar	0
-EMIA 2020	Cross-disciplinary Design Thinking	3
-EMIA 2200	Introduction to Digital Media	3
-EMIA 2210	Sci-Fi Storytelling	3
-EMIA 2220	Technical Theater Arts	3
-EMIA 2500	Special Topics (I)	1-4
-EMIA 3500	Special Topics (II)	1-4
-EMIA 4110	Practical Machine Learning	3
-EMIA 4500	Special Topics (III)	1-4
-EMIA 4900	Independent Study	1-4
-EMIA 4990	Interdisciplinary Capstone Design	0
-EMIA 4991	Interdisciplinary Capstone Project	3
-ENEG 2910	Industrial Training	0
-ENEG 2990	Academic and Professional Development I	0
-ENEG 3110	Materials for Energy Technologies	3
-ENEG 3910	Sustainable Energy Laboratory	3
-ENEG 4130	Photovoltaic Materials and Devices	3
-ENEG 4210	Optimization of Energy Systems	3
-ENEG 4320	Energy Storage Technology	3
-ENEG 4920	Final Year Design Project	6
-ENEG 4980	Investigation Project	3
-ENEG 4990	Academic and Professional Development II	0
-ENGG 1010	Academic Orientation	0
-ENGG 1100	First Year Cornerstone Engineering Design Project Course	3
-ENGG 1110	Engineering Solutions to Grand Challenges of the 21st Century	3
-ENGG 1130	The Impact and Value of Technology Innovation	3
-ENGG 1150	Information Technology Revolution: Past, Present and Future	3
-ENGG 1200	Engineering Team Design Experience	3
-ENGG 1300	Design Thinking for Health Innovation	3
-ENGG 1400	Designing Your Life for Engineering Students	1
-ENGG 1502	Applied Algorithmic Thinking with Final Project	4
-ENGG 1900	Service Learning Program	1
-ENGG 2010	Engineering Seminar Series	0
-ENGG 2201	The Law of Contract	6
-ENGG 2900	Community Services Project	1-4
-ENGG 2990	Special Topics	1-3
-ENGG 2991-2993	Undergraduate Student-initiated Experiential Learning	1-3
-ENGG 3960-3962	Robotics Special Project	1-4
-ENGG 4901	Integrated Final Year Project - First Major	3
-ENGG 4902	Integrated Final Year Project - Second Major	3
-ENGG 4903	Integrated Final Year Thesis - First Major	3
-ENGG 4904	Integrated Final Year Thesis - Second Major	3
-ENGG 4950	Engineering Special Project	1-4
-ENTR 1001	Entrepreneurship 1001: Designing Your Future	3
-ENTR 2010	Entrepreneurship Mentorship and Readings	1
-ENTR 3013	Prototyping Skills for Entrepreneurs	3
-ENTR 3030	Social Innovations and Entrepreneurship	3
-ENTR 3100	Industrial Landscape: Understanding the Elements to Start a Business	3
-ENTR 3350	Global Product Development	3
-ENTR 3360	From Product Innovations to Successful Technology Startups	3
-ENTR 4000	Special Topics in Entrepreneurship	1-4
-ENTR 4901-4904	Student-led Entrepreneurship Acceleration Project	1-4
-ENTR 4911	IT Entrepreneurship	3
-ENVR 1001	EVMT Orientation	0
-ENVR 1030	Environment and Health	3
-ENVR 1040	The Environment and Society - A Comprehensive Perspective	3
-ENVR 1070	Thinking Big: Systems Thinking for Environmental Problems	3
-ENVR 1080	The Smart Consumer - Uncovering the Hidden Story behind the Product Label	3
-ENVR 1150	Climate Change Impacts and Extreme Weather Events	3
-ENVR 1170	Science, Environment and Society - From Big Bang to Big Data	3
-ENVR 1811	Environmental Management and Technology Study Trip I	1
-ENVR 2001	Academic and Professional Development I	1
-ENVR 2002	Special Topics in Environmental Studies	1-4
-ENVR 2010	Environmental Science Fundamentals	3
-ENVR 2020	Urban Air Pollution	3
-ENVR 2030	Material and Energy Balance for Environmental Management	3
-ENVR 2050	Sustainability Thinking	3
-ENVR 2060	From Trash to Treasure: Managing Waste to Resources	3
-ENVR 2070	Smart Buildings for a Warming Planet	3
-ENVR 2080	Circular Economy and Life Cycle Assessment	3
-ENVR 2090	Environmental Laboratory	3
-ENVR 2811	Environmental Management and Technology Study Trip II	1
-ENVR 2900	Internship/Service Learning	1
-ENVR 3001	Academic and Professional Development II	1
-ENVR 3004	Life Cycle Assessment	3
-ENVR 3005	Environmental Sustainability: Risks and Challenges	3
-ENVR 3010	Special Topics in Environmental Studies	1-4
-ENVR 3110	Life Cycle Assessment for Sustainable Development	3
-ENVR 3210	Environmental Technology for Impact Assessment	3
-ENVR 3220	Energy Sources and Usage	3
-ENVR 3310	Green Business Strategy	3
-ENVR 3410	Economics for Environmental Policy and Management	3
-ENVR 3420	Environmental Law and Regulations	3
-ENVR 4000	Special Topics in Environmental Studies	1-4
-ENVR 4001	Academic and Professional Development III	1
-ENVR 4010	Independent Study in Environment Issues	1-4
-ENVR 4320	ESG Management and Reporting	3
-ENVR 4330	Environmental Geographical Information System	3
-ENVR 4340	Social Sustainability: Risks and Challenges	3
-ENVR 4350	Governing Green Finance: National and International Perspectives and Approaches	3
-ENVR 4470	Air Quality Control and Management	3
-ENVR 4480	Climate Modeling and Risk Assessment	3
-ENVR 4800	Environmental Management and Technology Seminar	1
-ENVR 4980	Environmental Management and Technology Capstone Project I	3
-ENVR 4990	Environmental Management and Technology Capstone Project II	3
-ENVS 4012	Special Topics in Environmental Science	1-3
-ENVS 4910	Independent Study	1-3
-ENVS 4964	Environmental Science Capstone Project Research	3
-ENVS 4974	Environmental Science Project Research I	3
-ENVS 4984	Environmental Science Project Research II	4
-FINA 1303	Introduction to Financial Markets and Institutions	3
-FINA 2101	Introduction to Finance	1
-FINA 2203	Fundamentals of Business Finance	3
-FINA 2303	Financial Management	3
-FINA 3001	Key Skills for Finance Professionals (A)	1
-FINA 3103	Intermediate Investments	3
-FINA 3111	Finance Professional Development	1
-FINA 3203	Derivative Securities	3
-FINA 3303	Intermediate Corporate Finance	3
-FINA 3810	Bloomberg Market Concepts Certification	0
-FINA 3820	Refinitiv Certification Program	0
-FINA 3830	Refinitiv Analytics	0
-FINA 4003	Wealth Management	3
-FINA 4013	Corporate Valuation	3
-FINA 4103	Financial Markets Trading and Structure	3
-FINA 4203	Mergers, Acquisitions, and Corporate Restructuring	3
-FINA 4303	Fixed Income Securities	3
-FINA 4403	International Finance	3
-FINA 4413	Family Business	3
-FINA 4423	Family Office	3
-FINA 4503	Banking and Financial Intermediation	3
-FINA 4513	Risk Management	3
-FINA 4603	Venture Capital Financing	3
-FINA 4703	ESG Investing	3
-FINA 4713	Introduction to Artificial Intelligence and Big Data in Finance	3
-FINA 4723	Responsible Finance	3
-FINA 4803	Quantitative Trading	3
-FINA 4919	Independent Study	1-4
-FINA 4929	Special Topics in Finance	0-4
-GBUS 1000	Global Leadership Development	0
-GBUS 2010	Global Business Analysis	3
-GBUS 2020	Public Service Project	1
-GBUS 2030	From Zero to Exit – Journey of A Start-up	2
-GBUS 2040	Environmental, Social, and Governance (ESG) Corporate Project	1
-GBUS 2050	Blue Ocean Strategy Innovation and Execution	2
-GBUS 3010	Global Perspectives on Contemporary Issues	3
-GBUS 3030	Global Business Case Studies	4
-GBUS 3040	Business and ESG Management for Asia and Emerging Markets	3
-GBUS 3050	Deal Making in Asia and Emerging Markets	3
-GBUS 3060	Value Investing in Global Markets	3
-GBUS 4000	Special Topics in Global Business	0-4
-GBUS 4010	Independent Study	1-4
-GBUS 4910	Capstone Project	4
-GNED 2000	Selected Topics in General Education	0-3
-GNED 2510	Career Building	1
-GNED 2710	Service Learning Project	1
-HART 1001	Arts and Creativity	2
-HART 1012	Introduction to Photography	1
-HART 1013	Fundamental Technique of Chinese Painting	1
-HART 1014	Introduction to Chinese Calligraphy	1
-HART 1017	Introduction to Contemporary Dance	1
-HART 1023	Introduction to Experimental Animation	1
-HART 1025	Introduction to New Topographic Photography	1
-HART 1026	Connecting Acting with Public Speaking	1
-HART 1029	Multicultural Dramatic Works	1
-HART 1030	Introduction to Chinese Painting in the Past Century	1
-HART 1035	Public Art Interventions	1
-HART 1036	Introduction to Graphic Design	1
-HART 1047	Introduction to Chinese Landscape Painting	1
-HART 1048	Fashion Art and Styling	1
-HLTH 1010	Healthy Lifestyle	0
-HMAW 1905	Behavioral Foundations of University Education: Habits, Mindsets, and Wellness	3
-HUMA 1000	Cultures and Values	3
-HUMA 1001	Foundational Texts in the Humanities	3
-HUMA 1009	Special Topics	3
-HUMA 1010	Introduction to Language	3
-HUMA 1020	Chinese Writing and Culture	3
-HUMA 1030	Structure of the Chinese Language	3
-HUMA 1060	Introduction to Mandarin Chinese Grammar	3
-HUMA 1100	Music of the World	3
-HUMA 1102	Enjoyment of Classical Music	3
-HUMA 1107	Music and Film	3
-HUMA 1108	Expressive Sounds	3
-HUMA 1150	Exploration of Drawing	3
-HUMA 1154	Photography	3
-HUMA 1155	Video Art	3
-HUMA 1156	Exploration of Chinese Calligraphy	3
-HUMA 1160	Weiqi and Chinese Culture	1
-HUMA 1210	Chinese Women on Screen	3
-HUMA 1231	Popular Culture of East Asia	3
-HUMA 1301	World Literature and Film	3
-HUMA 1420	Late Imperial China from Yuan to Qing	3
-HUMA 1430	History of P. R. China's Diplomacy, 1949-1989	3
-HUMA 1440	Modern China	3
-HUMA 1520	Modern East Asia	3
-HUMA 1622	Science, Technology and Society: Historical and Cultural Approaches	3
-HUMA 1630	Popular Religion in South China	3
-HUMA 1639	Marriage, Family and Kinship in Cross-cultural Perspectives	3
-HUMA 1650	Appreciation of Western Art	3
-HUMA 1660	Introduction to Chinese Art	3
-HUMA 1671	Cantonese Opera in Hong Kong Culture	3
-HUMA 1672	Studio Arts Workshops: Cantonese Opera	1
-HUMA 1673	Art and Digital Culture	3
-HUMA 1674	China in Historical Maps	3
-HUMA 1675	Global History of Explorations	3
-HUMA 1710	The Art of Thinking in the Hong Kong Context	3
-HUMA 1720	Logic	3
-HUMA 1810	Introduction to Chinese Philosophy	3
-HUMA 1811	History of Chinese Philosophy	3
-HUMA 1920	Introduction to Moral Philosophy	3
-HUMA 1921	Philosophy of Science	3
-HUMA 1922	Introduction to Analytic Philosophy	3
-HUMA 1930	Introduction to the Ethics of Artificial Intelligence and Data Science	3
-HUMA 2000-2001	Special Topics in Humanities	3
-HUMA 2010	Metaphors in English and Chinese	3
-HUMA 2031	The Cantonese Language	3
-HUMA 2032	Language, Power and Identity	3
-HUMA 2050	Classical Chinese	3
-HUMA 2101	Enjoyment of Western Opera	3
-HUMA 2103	Introduction to Music Composition	3
-HUMA 2104	Music Theory I: Introduction to Tonal Music	3
-HUMA 2105	Music, Drama, and Theatre	3
-HUMA 2107	Introduction to Electronic Music Composition	3
-HUMA 2108	Music of China	3
-HUMA 2109	East Asian Popular Music	3
-HUMA 2202	The Japanese Novel	3
-HUMA 2203	Japanese Cinema	3
-HUMA 2240	Reading Chinese Literature: Dreams of the Red Chamber	3
-HUMA 2250	Modern Chinese Fiction (1917-1949)	3
-HUMA 2260	Contemporary Chinese Fiction (1949-present)	3
-HUMA 2300	Traditional Chinese Poetry: Early Chinese Poetry	3
-HUMA 2310	Traditional Chinese Fiction	3
-HUMA 2320	Chinese Drama	3
-HUMA 2330	Anime	3
-HUMA 2331	Japanese Animation: Technology, Gender, and History	3
-HUMA 2340	Between Old and New: Chinese Stories and Their Reinventions	3
-HUMA 2400	Approaches to Humanities in China Studies	3
-HUMA 2420	Late Imperial China	3
-HUMA 2430	China in the 20th Century	3
-HUMA 2440	20th-Century China in Documentary Films	3
-HUMA 2470	From Fung Shui to Mao's Villages: City Plans, Urban Politics & the Unseen World of Chinese Villages	3
-HUMA 2520	History of Tea in East Asia	3
-HUMA 2588	Nazism and German Society, 1914-1945	3
-HUMA 2590	The Making of the Modern World: Renaissance to the Present	3
-HUMA 2596	History of Biology and Medicine	3
-HUMA 2597	Environmental History	3
-HUMA 2621	Culture and Environment	3
-HUMA 2623	Cultural Sustainability in South China	3
-HUMA 2632	Chinese Culture and Society in Anthropological Perspectives	3
-HUMA 2634	Global History: New Anthropological Perspectives	3
-HUMA 2635	Cultural Diversity in China	3
-HUMA 2638	Peoples and Cultures in Southeast Asia	3
-HUMA 2640	Unofficial China: Social History 1800s-1930s	3
-HUMA 2660	Introduction to Chinese Painting	3
-HUMA 2661	Chinese Oil Painting	3
-HUMA 2670	Understanding Western Painting	3
-HUMA 2680	Understanding Western Architecture	3
-HUMA 2831	Metaphysics: Study of Reality and Existence	3
-HUMA 2832	Philosophy of Mind	3
-HUMA 2840	Buddhism and the Chinese Intellectual Tradition	3
-HUMA 2911	Buddhism: Origin and Growth	3
-HUMA 2921	Ethical Theories and Contemporary Issues	3
-HUMA 2930	What am I? Personal Identity and the Self from a Philosophical Perspective	3
-HUMA 3000	Special Topics	2-3
-HUMA 3030	Language, Communication and Culture	3
-HUMA 3050	Psychology of Language	3
-HUMA 3060	Language and Migration	3
-HUMA 3102	Making Chamber Music A	2
-HUMA 3103	Making Chamber Music B	2
-HUMA 3104	Music Theory II: Fundamentals of Harmony and Counterpoint	3
-HUMA 3105	Making Choral Music	3
-HUMA 3107	Electronic Music Composition II	3
-HUMA 3150	Independent Study in Creative Arts	1-2
-HUMA 3201	Animation: A Global Perspective	3
-HUMA 3202	Chinese Creative Writing: Reading Literary Classics and Writing Essays	3
-HUMA 3203	Chinese Creative Writing: Reading Literary Classics and Writing Novels	3
-HUMA 3204	Chinese Creative Writing-Reading Literary Classics and Writing	3
-HUMA 3205	Technologies of Passion: Self and Love in Chinese Literature	3
-HUMA 3210	Traditional Chinese Poetry: Tang and Song Poetry	3
-HUMA 3220	Modern Chinese Poetry	3
-HUMA 3250	Independent Cinema in Contemporary China	3
-HUMA 3410	Special Topics in Pre-Imperial to Middle Imperial China	3
-HUMA 3430	Reading Modern Chinese History Historically	3
-HUMA 3610	Special Topics in Cultural Anthropology	3
-HUMA 3630	Community and Cultural Identity	3
-HUMA 3660	Tradition & Modernity: Chinese Ink Painting in 20th Century	3
-HUMA 3680	Contemporary Architecture: The Pritzker Prize Winners	3
-HUMA 3800	Guided Studies in Chinese Philosophical Classics	3
-HUMA 3810	Taoism and the Chinese Tradition	3
-HUMA 3821	Classical Chinese Philosophy (in English)	3
-HUMA 3900	Philosophical Inquiry into the Modern World	3
-HUMA 4000	Special Topics	1-4
-HUMA 4020	Language and Literature in Modern China	3
-HUMA 4220	Verbal and Visual Representation of China	3
-HUMA 4221	Chinese Classics and Their Reworking in Various Media Around the Globe	3
-HUMA 4250	Masterpieces of Modern Literature	3
-HUMA 4520	History of US-China Relations	3
-HUMA 4530	History and the Future	3
-HUMA 4531	Eichmann and Evil	3
-HUMA 4610	Heritage in Cross-cultural Perspective	3
-HUMA 4620	Geopolitics	3
-HUMA 4650	Western Painting: From Renaissance to Impressionism	3
-HUMA 4700	Confucianism in a Global Context	3
-IEDA 1010	Academic and Professional Development I	0
-IEDA 1020	Academic and Professional Development II	0
-IEDA 1250	Optimizing Decisions for Personal and Business Development	3
-IEDA 1901	Industrial Training and Experience	0
-IEDA 1990	Industrial Training	0
-IEDA 1991	Industrial Experience	0
-IEDA 2010	Introduction of Industrial Engineering and Decision Analytics	3
-IEDA 2100	Computing in Industrial Applications	3
-IEDA 2150	Product Design	3
-IEDA 2200	Engineering Management	3
-IEDA 2410	Logistics and Freight Transportation Operations	3
-IEDA 2520	Probability for Engineers	3
-IEDA 2540	Statistics for Engineers	3
-IEDA 3010	Prescriptive Analytics	3
-IEDA 3130	Ergonomics and Safety Management	3
-IEDA 3180	Data-Driven Portfolio Optimization	3
-IEDA 3230	Engineering Economics and Accounting	3
-IEDA 3250	Stochastic Models	3
-IEDA 3270	Data-Driven Quality Technology	3
-IEDA 3300	Industrial Data Systems	3
-IEDA 3302	E-Commerce Technology and Applications	3
-IEDA 3330	Introduction to Financial Engineering	3
-IEDA 3410	Routing and Fleet Management	3
-IEDA 3460	Demand and Supply Analytics	3
-IEDA 3560	Predictive Analytics	3
-IEDA 3901	Transportation Systems	3
-IEDA 4000	Special Topics	1-3
-IEDA 4100	Integrated Production Systems	3
-IEDA 4130	System Simulation	3
-IEDA 4180	Service Engineering and Management	3
-IEDA 4200	Design of Logistics and Manufacturing Systems	3
-IEDA 4331	Quantitative Methods in Financial Engineering	3
-IEDA 4410	Data Driven Supply Chain Management	3
-IEDA 4420	Dynamic Pricing and Revenue Optimization	3
-IEDA 4500	Engineering Foundations of FinTech	3
-IEDA 4510	Systems Risk Management	3
-IEDA 4520	Numerical Methods for Financial Engineering	3
-IEDA 4900	Independent Study in Industrial Engineering and Decision Analytics	3
-IEDA 4901	Final Year Thesis	6
-IEDA 4920	Decision Analytics Final Year Project	6
-IEDA 4930	Logistics Management and Engineering Project	6
-IEDA 4950	Industrial Engineering Special Project	1-4
-IEDA 4960	Industrial Engineering and Engineering Management Final Year Project	6
-IEDA 4990	Industrial Engineering Design Project	6
-IIMP 2000	Academic and Professional Development	0
-IIMP 4970	Interdisciplinary Industrial Project	6
-IIMP 4980	Interdisciplinary Capstone Project I	3
-IIMP 4990	Interdisciplinary Capstone Project II	3
-IROP 1000	International Research Opportunities Program	0
-ISDN 1001	Introduction to Integrative Systems and Design	3
-ISDN 1002	Redefining Problems for the Real Needs	3
-ISDN 1004	Sketching	1
-ISDN 1006	Human-centered Innovation	3
-ISDN 1010	Academic and Professional Development I	0
-ISDN 1011	Industrial Training	0
-ISDN 1100	Experiencing Design	3
-ISDN 2000	What is Design and Why Design?	3
-ISDN 2001	Second Year Design Project I	1
-ISDN 2002	Second Year Design Project II	3
-ISDN 2010	Academic and Professional Development II	0
-ISDN 2200	Systems Thinking and Design	3
-ISDN 2210	Introduction to Brand Design	3
-ISDN 2300	Introduction to 3D Design	3
-ISDN 2400	Physical Prototyping	3
-ISDN 2500	Introduction to Systems Design Engineering	3
-ISDN 2601	Exploring the World through Smart Mechatronics	3
-ISDN 2602	Internet of Things: Integrative System Design	3
-ISDN 2603	Materials, Shape and Design	3
-ISDN 3000	Special Topics	1-3
-ISDN 3001	Third Year Design Project I	3
-ISDN 3002	Third Year Design Project II	3
-ISDN 3004	Advanced Sketching	2
-ISDN 3010	Academic and Professional Development III	0
-ISDN 3150	AI for Design	3
-ISDN 3200	Graphic Communication	2
-ISDN 3300	Interaction Design	3
-ISDN 3350	Global Product Development	3
-ISDN 3360	From Product Innovations to Successful Technology Startups	3
-ISDN 4000	Special Topics	1-4
-ISDN 4001	Final Year Design Project I	4
-ISDN 4002	Final Year Design Project II	4
-ISDN 4010	Academic and Professional Development IV	0
-ISDN 4200	Product Management	3
-ISDN 4330	Ergonomics in Design	2
-ISDN 4900	Independent Study	1-3
-ISOM 1090	Social Media: Collective Intelligence & Creativity	3
-ISOM 1380	Technology and Innovation: Social and Business Perspectives	3
-ISOM 1500	Insightful Decisions	3
-ISOM 1700	Critical Issues in Business Operations	3
-ISOM 2010	Introduction to Information Systems	3
-ISOM 2020	Coding for Business	1
-ISOM 2030	Business Protections for Innovations	3
-ISOM 2040	Business Simulation and Strategic Decisions	3
-ISOM 2310	Fundamentals of E-Commerce: Business, Technology, and the Society	3
-ISOM 2400	Global Information Infrastructure and Policy	3
-ISOM 2500	Business Statistics	3
-ISOM 2600	Introduction to Business Analytics	1
-ISOM 2700	Operations Management	3
-ISOM 3000	Special Topics in Information Systems	0-4
-ISOM 3010	Information Systems Project Management	3
-ISOM 3180	Telecommunications and Computer Networking Management	3
-ISOM 3210	Information Systems Analysis and Design	3
-ISOM 3230	Business Programming in VBA	3
-ISOM 3260	Database Design and Administration	4
-ISOM 3270	Blockchain Programming in Business Applications	3
-ISOM 3310	e-Business Management and Web Analytics	3
-ISOM 3320	Business Applications Development in Java	3
-ISOM 3330	Data Visualization and Visual Analytics	1
-ISOM 3340	Developing AI Applications	1
-ISOM 3350	FinTech and Cryptoventures	3
-ISOM 3360	Data Mining for Business Analytics	3
-ISOM 3370	Big Data Technologies	3
-ISOM 3380	Advanced Network Management (CISCO - ICND)	4
-ISOM 3390	Business Programming in R	3
-ISOM 3400	Business Applications Development in Python	3
-ISOM 3530	Business Data Analytics	4
-ISOM 3540	Introduction to Probability Models	3
-ISOM 3710	Business Modeling and Optimization	4
-ISOM 3730	Quality and Process Management	3
-ISOM 3760	Logistics Management	3
-ISOM 3770	Global Supply Chain Management	4
-ISOM 3780	Sustainable Supply Chain Management	3
-ISOM 3900	Decision Analytics	3
-ISOM 4000	Special Topics in Information Systems	0-4
-ISOM 4010	Digital Business Strategy: Harnessing Platform, Crowd, and Machine	3
-ISOM 4020	Innovation Management and Technology Entrepreneurship	3
-ISOM 4030	Deep Learning for Business Applications	3
-ISOM 4040	Digital Strategy and Transformation	3
-ISOM 4100	Information Systems Auditing	3
-ISOM 4200	Information and Cyber Security Management	3
-ISOM 4300	Information Systems Control and Assurance	3
-ISOM 4400	Information Systems Project	6
-ISOM 4490	Independent Study in Information Systems	1-4
-ISOM 4520	Statistics for Financial Risk Management	4
-ISOM 4530	Statistical Analysis of Financial Data in R/S-plus	4
-ISOM 4540	Time Series Analysis and Forecasting	4
-ISOM 4590	Special Topics in Statistics	0-4
-ISOM 4690	Independent Study in Business Statistics	1-4
-ISOM 4720	Simulation in Business and Management	3
-ISOM 4740	Enterprise Resource Management	3
-ISOM 4750	Business Project Management	3
-ISOM 4780	Integrated Planning and Execution	3
-ISOM 4790	Special Topics in Operations Management	0-4
-ISOM 4810	OM Best Practices	3
-ISOM 4830	Analytics for Service Operations	3
-ISOM 4840	Financial Service Operations Management	3
-ISOM 4880	Operations Management Project	3
-ISOM 4890	Independent Study in Operations Management	1-4
-LABU 2040	Business Case Analyses	3
-LABU 2051	Business Case Analyses I	2
-LABU 2052	Business Case Analyses II	2
-LABU 2060	Effective Communication in Business	3
-LANG 1006	The Art of Public Speaking	3
-LANG 1117	Advanced Chinese Communication	3
-LANG 1130	Cantonese for Non-Chinese Language Background Students I	3
-LANG 1133	Cantonese for Chinese Language Background Students I	3
-LANG 1210	Japanese Language and Related Culture	3
-LANG 1310	French: World Language and Culture	3
-LANG 1330	Spanish and the Other America	3
-LANG 1402	English for University Studies	3
-LANG 1403	Academic English for University Studies	3
-LANG 1404	Advanced Academic English for University Studies	3
-LANG 1405	Mediated Me: An Introduction to Digital Literacy	3
-LANG 1406	Academic English for Business Studies	3
-LANG 1407	Academic English for Engineering Studies	3
-LANG 1408	Academic English for Humanities and Social Science Studies	3
-LANG 1409	Academic English for Science Studies	3
-LANG 1411	Elementary Putonghua for Non-Chinese Language Background Students	3
-LANG 1412	Intermediate Putonghua for Non-Chinese Language Background Students	3
-LANG 1413	Advanced Putonghua for Non-Chinese Language Background Students	3
-LANG 1414	Elementary Reading and Writing for Non-Chinese Language Background Students	3
-LANG 1415	Intermediate Reading and Writing for Non-Chinese Language Background Students	3
-LANG 1416	Effective Chinese Communication	3
-LANG 1421	Chinese Communication in the Digital Era	3
-LANG 1422	Chinese for Workplace Applications	3
-LANG 1423	Chinese Communication in Global Context	3
-LANG 1424	Chinese Writing in Cultural Contexts	3
-LANG 2010	English for Science I	3
-LANG 2030	Technical Communication I	3
-LANG 2061	Professional Writing for the Workplace	3
-LANG 2062	Professional Speaking for the Workplace	3
-LANG 2063	Writing for Workplace Success	3
-LANG 2064	Speaking for Workplace Success	3
-LANG 2065	Research Writing	3
-LANG 2070	English Communication for Humanities and Social Science Studies I	3
-LANG 2082	Communication for Environmental Management and Technology I	2
-LANG 2083	Communication for Environmental Management and Technology II	2
-LANG 2090	Exploring Language and Communication with Big Data	3
-LANG 2091	Phonetics and Speech Technology	3
-LANG 2170	Chinese Communication Skills for Humanities & Social Science Studies	3
-LANG 3021	Science Communication in English (Mathematics)	3
-LANG 3022	Science Communication in English (Chemistry)	3
-LANG 3023	Science Communication in English (Physics)	3
-LANG 3024	Science Communication in English (Life Science)	3
-LANG 3025	Science Communication in English (Environmental Science)	3
-LANG 3027	Science Communication in English for Research Students	3
-LANG 3060	Advanced Academic Writing	3
-LANG 3070	English Communication for Humanities and Social Science Studies II	3
-LANG 3081	Communication for Environmental Management and Technology III	2
-LANG 4030	Technical Communication II for CSE, CPEG & DSCT	3
-LANG 4031	Technical Communication II for ECE & CPEG	3
-LANG 4032	Technical Communication II for IEDA and ISDN	3
-LANG 4033	Technical Communication II for Civil and Environmental Engineering	3
-LANG 4034	Technical Communication II for Mechanical and Aerospace Engineering	3
-LANG 4035	Technical Communication II for Chemical and Biological Engineering	3
-LANG 4070	Academic Writing in Context - Global China Studies	1
-LEGL 1000	Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance)	0
-LIFS 1010	Introduction to Biological Sciences	3
-LIFS 1020	Biology of Human Health	3
-LIFS 1901	General Biology I	3
-LIFS 1902	General Biology II	3
-LIFS 1903	Laboratory for General Biology I	1
-LIFS 1904	Laboratory for General Biology II	1
-LIFS 1930	Nature of Life Sciences	3
-LIFS 2010	Modern Approaches to Biochemical and Cell Biological Research	3
-LIFS 2011	A Practicum on Wetland Conservation	3
-LIFS 2040	Cell Biology	3
-LIFS 2060	Biodiversity	3
-LIFS 2070	Introduction to Biotechnology	3
-LIFS 2080	Plant Biology	3
-LIFS 2210	Biochemistry I	3
-LIFS 2220	Biochemistry II	3
-LIFS 2240	Cell Biology Laboratory	3
-LIFS 2720	Biochemistry Laboratory	2
-LIFS 2820	Biochemical Laboratory Techniques	1
-LIFS 3002	Special Topics of Biological Sciences	2-4
-LIFS 3010	Molecular and Cellular Biology I	3
-LIFS 3020	Molecular and Cellular Biology II	3
-LIFS 3040	Animal Physiology	3
-LIFS 3060	Microbiology	3
-LIFS 3070	Introduction to Biophysical Instrumentation	3
-LIFS 3110	Biotechnological Application of Recombinant DNA Techniques	3
-LIFS 3140	General Genetics	4
-LIFS 3150	Biostatistics	3
-LIFS 3220	Animal Physiology Laboratory	3
-LIFS 3240	Introduction to Neurobiology	3
-LIFS 3260	Microbiology Laboratory	3
-LIFS 3370	Human Genetics in Practice	3
-LIFS 3510	Junior Research Project I	2
-LIFS 3520	Junior Research Project II	2
-LIFS 3580	Bioinformatics	3
-LIFS 4000	Special Topics in Life Science	1-4
-LIFS 4060	Immunobiology	3
-LIFS 4090	Developmental Biology	3
-LIFS 4140	Cancer Biology	3
-LIFS 4150	Plant Biotechnology	3
-LIFS 4190	Cellular Signaling	3
-LIFS 4200	Concepts and Issues in Contemporary Biotechnology	3
-LIFS 4320	Data Science for Biology and Medicine	3
-LIFS 4370	Human Genetics and Personalized Medicine	3
-LIFS 4380	Pharmacology and Toxicology	3
-LIFS 4540	Structure and Function of Proteins	3
-LIFS 4550	Biochemistry of Nutrition	3
-LIFS 4630	Advanced Topics in Biotechnology	3
-LIFS 4760	Biochemistry of Diseases	3
-LIFS 4800	Epigenetics and Chromosome Biology	3
-LIFS 4820	Entrepreneurship in Biotechnology	3
-LIFS 4882	Investigative Pharmacology	3
-LIFS 4884	Application of RNA Technology to Human Diseases	3
-LIFS 4888	Development and Registration of Pharmaceutical Products	3
-LIFS 4910	Independent Study	1-4
-LIFS 4950	Neurochemistry	3
-LIFS 4960	Biological Science Capstone Project	3
-LIFS 4961	Biochemistry and Cell Biology Capstone Project	3
-LIFS 4963	Biotechnology Capstone Project	3
-LIFS 4970	Biological Science Project Research I	3
-LIFS 4971	Biochemistry and Cell Biology Project Research I	3
-LIFS 4973	Biotechnology Project Research I	3
-LIFS 4980	Biological Science Project Research II	4
-LIFS 4981	Biochemistry and Cell Biology Project Research II	4
-LIFS 4983	Biotechnology Project Research II	4
-MARK 1220	Marketing and Society	3
-MARK 1230	Consumerism and Happiness	3
-MARK 2120	Marketing Management	3
-MARK 3220	Marketing Research	4
-MARK 3410	Promotion and Advertising Management	4
-MARK 3420	Consumer Behavior	4
-MARK 3430	Global Marketing	4
-MARK 3460	Retailing	4
-MARK 3470	Services Marketing	4
-MARK 3480	Pricing Strategy	4
-MARK 3510	Business to Business Marketing	4
-MARK 3520	Competitive Positioning	4
-MARK 3610	Digital Marketing	4
-MARK 3620	Marketing Analytics	4
-MARK 4210	Strategic Marketing	4
-MARK 4290	Special Topics	0-4
-MARK 4450	Brand Management	4
-MARK 4980	Independent Study	2-4
-MATH 1003	Calculus and Linear Algebra	3
-MATH 1012	Calculus IA	4
-MATH 1013	Calculus IB	3
-MATH 1014	Calculus II	3
-MATH 1020	Accelerated Calculus	4
-MATH 1023	Honors Calculus I	3
-MATH 1024	Honors Calculus II	3
-MATH 1701	Introductory Topics in Mathematical Sciences	1-4
-MATH 2001	Foundation of Mathematics	2
-MATH 2011	Introduction to Multivariable Calculus	3
-MATH 2023	Multivariable Calculus	4
-MATH 2033	Mathematical Analysis	4
-MATH 2043	Honors Mathematical Analysis	4
-MATH 2111	Matrix Algebra and Applications	3
-MATH 2121	Linear Algebra	4
-MATH 2131	Honors in Linear and Abstract Algebra I	4
-MATH 2343	Discrete Structures	4
-MATH 2350	Applied Linear Algebra and Differential Equations	3
-MATH 2351	Introduction to Differential Equations	3
-MATH 2352	Differential Equations	4
-MATH 2411	Applied Statistics	4
-MATH 2421	Probability	4
-MATH 2431	Honors Probability	4
-MATH 2511	Fundamentals of Actuarial Mathematics	3
-MATH 2731	Mathematical Problem Solving	3
-MATH 3033	Real Analysis	4
-MATH 3043	Honors Real Analysis	4
-MATH 3121	Abstract Algebra	3
-MATH 3131	Honors in Linear and Abstract Algebra II	4
-MATH 3312	Numerical Analysis	3
-MATH 3322	Matrix Computation	3
-MATH 3332	Data Analytic Tools	3
-MATH 3343	Combinatorial Analysis	3
-MATH 3423	Statistical Inference	3
-MATH 3424	Regression Analysis	3
-MATH 3425	Stochastic Modeling	3
-MATH 3426	Sampling	3
-MATH 3427	Bayesian Statistics	3
-MATH 3428	Statistical Computing	3
-MATH 3900	Communicating Mathematics to the Public	1
-MATH 4023	Complex Analysis	3
-MATH 4033	Calculus on Manifolds	3
-MATH 4051	Theory of Ordinary Differential Equations	3
-MATH 4052	Partial Differential Equations	3
-MATH 4061	Topics in Modern Analysis	2
-MATH 4063	Functional Analysis	3
-MATH 4141	Number Theory and Applications	3
-MATH 4151	Introduction to Lie Groups	3
-MATH 4221	Euclidean and Non-Euclidean Geometries	3
-MATH 4223	Differential Geometry	3
-MATH 4225	Topology	3
-MATH 4321	Game Theory	3
-MATH 4326	Introduction to Fluid Dynamics	3
-MATH 4333	Mathematical Biology	3
-MATH 4335	Introduction to Optimization	3
-MATH 4336	Introduction to Mathematics of Image Processing	3
-MATH 4343	Introduction to Graph Theory	4
-MATH 4351	Numerical Solutions of Partial Differential Equations	3
-MATH 4360	Mathematical Modeling	3
-MATH 4423	Nonparametric Statistics	3
-MATH 4424	Multivariate Analysis	3
-MATH 4425	Introductory Time Series	3
-MATH 4426	Survival Analysis	3
-MATH 4427	Loss Models and their Applications	3
-MATH 4429	Credibility Theory and its Applications	3
-MATH 4432	Statistical Machine Learning	3
-MATH 4433	Spatial Data Analysis	3
-MATH 4434	Deep Learning	3
-MATH 4511	Quantitative Methods for Fixed Income Derivatives	3
-MATH 4512	Fundamentals of Mathematical Finance	3
-MATH 4513	Life Contingencies Models and Insurance Risk	3
-MATH 4514	Financial Economics in Actuarial Science	3
-MATH 4515	Statistical and Computational Methods in Financial Mathematics	3
-MATH 4821	Special Topics	1-4
-MATH 4822	Special Topics in Pure Mathematics	1-4
-MATH 4823	Special Topics in Applied Mathematics	1-4
-MATH 4824	Special Topics in Statistics and Financial Mathematics	1-4
-MATH 4825	Special Topics in Actuarial Mathematics	3
-MATH 4900	Academic and Professional Development	1
-MATH 4921	Student Seminars	1-3
-MATH 4981-4985	Independent Study	1-3
-MATH 4990	Undergraduate Project	2-3
-MATH 4991	Capstone Project in Pure Mathematics	3
-MATH 4992	Capstone Project in Applied Mathematics	3
-MATH 4993	Capstone Project in Statistics	3
-MATH 4994	Capstone Project in Mathematics and Economics	3
-MATH 4995	Capstone Project for Data Science	3
-MATH 4999	Independent Capstone Project	3
-MECH 1902	Energy Systems in a Sustainable World	3
-MECH 1905	Buildings for Contemporary Living	3
-MECH 1906	Mechanical Engineering for Modern Life	3
-MECH 1907	Introduction to Aerospace Engineering	3
-MECH 1908	Exploration of Mechanical Design and Engineering	3
-MECH 1990	Industrial Training	0
-MECH 2020	Statics and Dynamics	3
-MECH 2040	Solid Mechanics I	3
-MECH 2210	Fluid Mechanics	3
-MECH 2310	Thermodynamics	3
-MECH 2410	Engineering Materials I	3
-MECH 2520	Design and Manufacturing I	3
-MECH 3030	Mechanisms of Machinery	3
-MECH 3110	Materials for Energy Technologies	3
-MECH 3300	Energy Conversion	3
-MECH 3310	Heat Transfer	3
-MECH 3400	Introduction to Composite Materials	3
-MECH 3420	Engineering Materials II	3
-MECH 3510	Computer-Aided Design and Manufacturing	3
-MECH 3610	Control Principles	3
-MECH 3620	Aircraft Design	3
-MECH 3630	Electrical Technology	3
-MECH 3640	Aerodynamics	3
-MECH 3650	Aircraft Structural Analysis	3
-MECH 3660	Gas Turbines and Jet Propulsion	3
-MECH 3670	Aircraft Performance and Stability	3
-MECH 3680	Avionics Systems	3
-MECH 3690	Aerospace Engineering Laboratory	3
-MECH 3710	Manufacturing Processes and Systems	3
-MECH 3830	Laboratory	3
-MECH 3907	Mechatronic Design and Prototyping	3
-MECH 4000	Special Topics	3
-MECH 4010	Materials Failure in Mechanical Applications	3
-MECH 4100	Experiential Projects in Aerospace Engineering	3
-MECH 4340	Air Conditioning Systems	3
-MECH 4350	Indoor Air Quality in Buildings	3
-MECH 4360	Introduction to Intelligent Building Systems	3
-MECH 4430	Materials Characterization	3
-MECH 4450	Introduction to Finite Element Analysis	3
-MECH 4710	Introduction to Robotics	3
-MECH 4720	Introduction to Precision Engineering	3
-MECH 4740	Numerical Methods in Engineering	3
-MECH 4750	Vibration, Control and Programming	3
-MECH 4810	Unmanned Aviation Vehicle	3
-MECH 4830	Introduction to Aerospace Computational Fluid Dynamics (CFD)	3
-MECH 4890	Introduction to Nanosatellite Engineering	3
-MECH 4900	Final Year Design Project	6
-MECH 4912	Green Technologies for Buildings, Energy and Water	3
-MECH 4950	Co-op Program	6
-MECH 4980	Final Year Aerospace Design Project	6
-MECH 4990	Aerospace Research Project	6
-MECH 4995	Research Project	6
-MGMT 1110	Introduction to Management	3
-MGMT 1120	Developing the Leader in You	3
-MGMT 1130	Traps and Pitfalls in Judgment and Decision Making	3
-MGMT 2010	Business Ethics and the Individual	2
-MGMT 2110	Organizational Behavior	3
-MGMT 2130	Business Ethics and Social Responsibility	2
-MGMT 3110	Human Resources Management	4
-MGMT 3120	Managerial Leadership	4
-MGMT 3130	Judgement and Decision Making in Organizations	4
-MGMT 3140	Negotiation	4
-MGMT 3160	Environmental Business Strategies	3
-MGMT 3170	Managing CSR (Corporate Social Responsibility)	3
-MGMT 4000	Special Topics in Management	0-4
-MGMT 4010	Independent Study	1-4
-MGMT 4210	Corporate Strategy	3
-MGMT 4220	Entrepreneurship and Innovation	4
-MGMT 4230	International Management	4
-MGMT 4240	Strategic Management in China	4
-MGMT 4250	Management Consulting	3
-MGMT 4270	Training and Development	3
-MGMT 4280	Transnational Legal Issues and Dispute Settlement	3
-MGMT 4290	HR Analytics	3
-MGMT 4300	Knowing and Managing Your Social Networks for Careers and Business	3
-OCES 1001	The Earth as a Blue Planet	3
-OCES 1010	Principles and Applications of Environmental Science	3
-OCES 1030	Environmental Science	3
-OCES 2001	Survey of Ocean Science	3
-OCES 2002	Marine Chemistry	3
-OCES 2003	Descriptive Physical Oceanography	3
-OCES 2004	Sustainable Ocean	3
-OCES 2100	Conservation Field Trips	1
-OCES 2201	Internship	2-4
-OCES 3001	Coastal Environmental Monitoring	3
-OCES 3003	Field Methods in Marine Studies	3
-OCES 3005	Blue Economy	3
-OCES 3130	Marine Biology	3
-OCES 3160	Ecology	3
-OCES 3201	Biological Oceanography	3
-OCES 3203	Physical Oceanography	3
-OCES 3204	Essential Oceanography	3
-OCES 3301	Data Analysis in Ocean Science	3
-OCES 3302	Marine Pollution Tracking	3
-OCES 3330	Marine Biology Laboratory	3
-OCES 4001	Ocean and Climate Change	3
-OCES 4103	Fisheries and Aquaculture	3
-OCES 4201	Environmental Microbiology	3
-OCES 4202	Marine Biotechnology	3
-OCES 4203	Environmental Impact and Risk Assessment	3
-OCES 4204	Coral Reef Ecosystem Science	4
-OCES 4205	Chemical Oceanography	3
-OCES 4301	Environmental Conservation	3
-OCES 4320	Marine Toxicology	3
-OCES 4326	Introduction to Fluid Dynamics	3
-OCES 4910	Independent Study	1-3
-OCES 4940	Special Topics in Ocean Science and Technology	1-4
-OCES 4964	Ocean Science and Technology Capstone Project Research	3
-OCES 4974	Ocean Science and Technology Research Project I	3
-OCES 4984	Ocean Science and Technology Research Project II	3
-PHYS 1001	Physics and the Modern Society	3
-PHYS 1002	Introduction to Astrophysics and Astronomy	3
-PHYS 1003	Energy and Related Environmental Issues	3
-PHYS 1005	Physics in Movies	3
-PHYS 1006	Astronomy for Beginners	3
-PHYS 1007	Quantum Information for Everyone	3
-PHYS 1101	Introductory Physics	4
-PHYS 1111	General Physics I	3
-PHYS 1112	General Physics I with Calculus	3
-PHYS 1113	Laboratory for General Physics I	1
-PHYS 1114	General Physics II	3
-PHYS 1115	Laboratory for General Physics II	1
-PHYS 1312	Honors General Physics I	3
-PHYS 1314	Honors General Physics II	3
-PHYS 2010	Introductory Biological Physics	3
-PHYS 2022	Modern Physics	3
-PHYS 2023	Modern Physics Laboratory	1
-PHYS 2080	Physics Seminar and Tutorial I	1
-PHYS 2090	Directed Studies in Physics I	1
-PHYS 2124	Mathematical Methods in Physics I	3
-PHYS 3031	Mathematical Methods in Physics II	3
-PHYS 3032	Classical Mechanics	3
-PHYS 3033	Electricity and Magnetism I	3
-PHYS 3034	Electricity and Magnetism II	3
-PHYS 3036	Quantum Mechanics I	3
-PHYS 3037	Honors Quantum Mechanics I	4
-PHYS 3038	Optics	3
-PHYS 3040	Introduction to Materials Science	3
-PHYS 3042	Structure and Properties of Crystalline Solids	3
-PHYS 3053	Honors Electricity and Magnetism I	4
-PHYS 3060	Physics Internship	3
-PHYS 3071	Introduction to Stellar Astrophysics	3
-PHYS 3090	Directed Studies in Physics II	1
-PHYS 3142	Computational Methods in Physics	3
-PHYS 3152	Methods of Experimental Physics I	3
-PHYS 3153	Methods of Experimental Physics II	3
-PHYS 4050	Thermodynamics and Statistical Physics	3
-PHYS 4051	Quantum Mechanics II	3
-PHYS 4055	Particle Physics and the Universe	3
-PHYS 4058	Information Physics	3
-PHYS 4071	Big Bang Cosmology and Inflation	3
-PHYS 4080	Physics Seminar and Tutorial II	1
-PHYS 4090	Directed Studies in Physics III	1
-PHYS 4151	Experimental Physics: An Experiential Approach	2
-PHYS 4191	Capstone Project	4
-PHYS 4291	Capstone Research	6
-PHYS 4498	Independent Study Project	4
-PHYS 4811	Contemporary Applications of Physics: Machine Learning in Physics	1
-PHYS 4812	Contemporary Applications of Physics: Quantum Information Technology	1
-PHYS 4813	Contemporary Applications of Physics: Atmospheric Physics - Making Sense of Weather and Climate	1
-PHYS 4814	Contemporary Applications of Physics: Medical Physics	1
-PPOL 1110	Public Policy in Cases	3
-PPOL 2000	Special Topics in Public Policy	1-4
-PPOL 2110	Science, Technology and Society in China	3
-PPOL 3000	Special Topics in Public Policy	1-4
-PPOL 3210	Energy Policy	3
-PPOL 3800	Ethics, Emerging Technologies and Public Policy	3
-PPOL 4000	Special Topics in Public Policy	1-4
-RMBI 1010	Risk Management in Financial Institutions	3
-RMBI 1020	Business Intelligence for Data-Driven Decisions	3
-RMBI 2000	Special Topics in Risk Management and Business Intelligence	0-4
-RMBI 2001	Academic and Professional Development in Risk Management and Business Intelligence	0
-RMBI 3000	Special Topics in Risk Management and Business Intelligence	0-4
-RMBI 3010	Data Analytics with R	2
-RMBI 3020	Practicing Risk Management using Case Studies	3
-RMBI 3110	Introduction to Risk Management and Business Intelligence	3
-RMBI 4000	Special Topics in Risk Management and Business Intelligence	1-4
-RMBI 4210	Quantitative Methods for Risk Management	3
-RMBI 4220	Life Contingencies Models and Insurance Risk	3
-RMBI 4310	Advanced Data Mining for Risk Management and Business Intelligence	3
-RMBI 4980	Risk Management and Business Intelligence Capstone Project I	4
-RMBI 4990	Risk Management and Business Intelligence Capstone Project II	4
-SBMT 1100	Business Study Trip	0-1
-SBMT 1111	Business Student Induction	0
-SBMT 2100-2110	Community Services Project	1-4
-SBMT 2200	Social Enterprise Internship Program	1-4
-SBMT 2900	Special Topics in Business and Management	0-4
-SBMT 3100	Business Field Study Fundamentals	1-4
-SBMT 3200-3210	Corporate Project	1-4
-SBMT 3300	Business Competitions	1
-SBMT 4000	SBM Undergraduate Honors Research Project	6
-SCIE 1000	Science School Induction	0
-SCIE 1010	Enrichment Project	0-3
-SCIE 1030	Special Topics	1-4
-SCIE 1080	Development and Management on Science Activities	1-2
-SCIE 1090	Community Services Project	1-4
-SCIE 1100	Career Building for Science Students	1
-SCIE 1102	Designing Your Life for Science Students	1
-SCIE 1110	Great Ideas in Science	3
-SCIE 1120	Chemistry and Life	3
-SCIE 1130	Scientific Understanding of Our World	1
-SCIE 1500	Guided Study on Research I	1
-SCIE 2500	Guided Study on Research II	1
-SCIE 3110	Teaching Science Using Innovative Teaching Tools	3
-SCIE 3500	IRE Research Project I	3
-SCIE 3900	International Research Experience	3
-SCIE 4500	IRE Research Project II	3
-SCIE 4860	Young Entrepreneurial Syndicate in Applied Sciences Project	3
-SGFN 4733	Green Finance Case Analyses	3
-SHSS 1020	Humanities and Social Science Internship	1-2
-SHSS 1030	Career Building for GCS and QSA Students	1
-SHSS 1040	Service Learning in the Humanities and Social Science	1-4
-SHSS 1050	Humanities and Social Science Co-op Program	3
-SHSS 3010	SHSS Independent Study	1-2
-SHSS 4991	Capstone Project	3
-SHSS 4992	Honors Thesis	6
-SHSS 4993	Honors Research	3
-SISP 1001	Innovation in STEM Projects	1
-SISP 1101	Appreciation of Our Nature	1
-SISP 1102	Chemistry in the Modern World	1
-SISP 1103	Introductory Game Theory	1
-SISP 1104	Calculus: the First Steps	1
-SISP 1105	The Physics of Everyday Life	1
-SISP 1106	Combinatorics: The Art of Counting and Its Applications	1
-SISP 1107	Amazing Innovations in Biotechnology	1
-SISP 1108	A First Step to Data Science with Python	1
-SISP 1109	A Logical Approach to Organic Chemistry	1
-SISP 1110	Fundamentals of Neuroscience	1
-SISP 1111	Physics in Movies	1
-SISP 1112	Matrix Algebra	1
-SISP 1113	Human Body and Diseases	1
-SISP 1114	Mathematical Wonders in Biology	1
-SISP 1115	Microbial Control in Health and the Environment	1
-SISP 1301	The Fascinating World of Multimedia and Its Processing	1
-SISP 1302	Fundamentals of Robot Control and Action	1
-SISP 1303	Intelligent Sensing Technologies	1
-SISP 1304	Making Smart Decisions in Daily Lives with Engineering Ideas	1
-SISP 1305	Internet Game Development for Beginners	1
-SISP 1306	Development of Great Structures throughout Civilisation	1
-SISP 1307	Better Environment: The Technology Behind the Stories	1
-SISP 1308	The Electric Vehicle: Technology and Expectations in the Automobile Age	1
-SISP 1309	Renewal Energy Applications: Wind Power for Lighting	1
-SISP 1310	Engineering and Environment	1
-SISP 1311	Acoustic Waves and Intelligent Fluid Systems	1
-SISP 1312	Developing Android Applications for Beginners	1
-SISP 1313	Introduction to Computer-Aided Design and Manufacturing	1
-SISP 1314	Engineering Design of Solar Car	1
-SISP 1315	Solid Waste : Our Valuable Resource, Renewable Energy and Environmental Business	1
-SISP 1316	Tall Buildings and Long-span Bridges: Structures and Aesthetics	1
-SISP 1317	Water, You and Environment	1
-SISP 1318	Making a Smart Garbage Bin by Internet of Things Technology	1
-SISP 1501	Accounting as a Language of Business	1
-SISP 1502	Information Systems for Business Innovation	1
-SISP 1503	Price Theory and Its Applications	1
-SISP 1504	The World of Marketing	1
-SISP 1505	Becoming an Effective Decision Maker	1
-SISP 1506	Managing Business Operations for Competitive Advantage	1
-SISP 1507	Effective Management for Results	1
-SISP 1508	Understanding Finance	1
-SISP 1509	Social Media in Business	1
-SISP 1510	Statistics for Business and Policy Analysis	1
-SISP 1511	Deep Learning Business Applications	1
-SISP 1512	The Art of Negotiation	1
-SISP 1513	Managing Risk in Business and Daily Life	1
-SISP 1701	Appreciation of Western Architecture	1
-SISP 1702	History that High-School Textbooks Never Touched: Violence, Sins, "Great" Men in China, 1800s-1930s	1
-SISP 1703	Psychology and Personal Growth	1
-SISP 1704	Humanities and Leadership	1
-SISP 1705	Introduction to Musical Theatre	1
-SISP 1706	Understanding Society	1
-SISP 1707	The Story of Canto-Pop	1
-SISP 1708	Exploring Music and Film	1
-SISP 1709	Introducing Music Theory	1
-SISP 1710	Creativity and Innovation	1
-SISP 1711	Science, Technology and Public Health	1
-SISP 1712	The "Belt and Road" Initiative	1
-SISP 1713	Will Technology Replace Us?	1
-SISP 1714	Population Studies	1
-SISP 1901	Greening Business: Challenges and Opportunities	1
-SOSC 1000-1010	Special Topics	1-4
-SOSC 1050	Introduction to Social Science Research	3
-SOSC 1100	Quantitative Data Analysis for Social Research I	3
-SOSC 1110	Data Analysis for Quantitative Social Research	3
-SOSC 1150	Science, Technology and Work	3
-SOSC 1190	China and the World:  China's Development in Historical and Comparative Perspectives	3
-SOSC 1270	International Law	3
-SOSC 1300	The World of Politics	3
-SOSC 1309	Making Sense of Government and Politics	3
-SOSC 1350	Contemporary China: Continuity and Change	3
-SOSC 1359	China: Development and Transformations	3
-SOSC 1400	Hong Kong and the Greater Bay Area	3
-SOSC 1420	Poverty	3
-SOSC 1440	Introduction to Economics	3
-SOSC 1449	Understanding Our Economy	3
-SOSC 1450	Introduction to Comparative Politics	3
-SOSC 1470	The Economic and Political Development of Modern Japan	3
-SOSC 1510	Politics Through Film	3
-SOSC 1661	Contemporary Hong Kong: Government & Politics	3
-SOSC 1662	Contemporary Hong Kong Society	3
-SOSC 1700	What Is Democracy?	3
-SOSC 1780	Population and Development in China	3
-SOSC 1840	Government, Law and Society in China	3
-SOSC 1850	Understanding Society	3
-SOSC 1859	Exploring Society	3
-SOSC 1860	Population and Society	3
-SOSC 1960	Introduction to Psychology	3
-SOSC 1969	Discovering Mind and Behavior	3
-SOSC 1980	Psychology of Personal Growth	3
-SOSC 1990	Research Methods in Psychological Science	3
-SOSC 2000	Special Topics	1-4
-SOSC 2130	Education and Society	3
-SOSC 2140	Research Methods in the Social Sciences	3
-SOSC 2210	Social Psychology	3
-SOSC 2240	Biological Psychology	3
-SOSC 2250	Cognitive Psychology	3
-SOSC 2290	Understanding Globalization	3
-SOSC 2299	The Rise and Fall of Globalization	3
-SOSC 2310	Introductory Environmental and Health Economics	3
-SOSC 2320	Exploring Political Theory	3
-SOSC 2330	Environmental Politics and Policy	3
-SOSC 2400	Quantitative Data Analysis for Social Research II	3
-SOSC 2740	Gender and Society	3
-SOSC 2800	Cognitive Science	3
-SOSC 2888	Special Topics in Psychology	1-4
-SOSC 2980	Personality Psychology	3
-SOSC 2990	Developmental Psychology	3
-SOSC 3000	Special Topics	1-4
-SOSC 3001	Understanding China, 1700-2000: A Data Analytic Approach	3
-SOSC 3010	Special Topics	3
-SOSC 3120	Economic Development	3
-SOSC 3130	Hong Kong Culture	3
-SOSC 3180	Political Issues in Hong Kong from a Comparative Perspective	3
-SOSC 3200	Quantitative Social Analysis Colloquium	1
-SOSC 3240	Application of Geographical Information Systems	3
-SOSC 3250	Gender and Development	3
-SOSC 3520	Understanding Comparative Politics	3
-SOSC 3530	Social Movements and Contentious Politics	3
-SOSC 3540	Environmental Psychology	3
-SOSC 3550	Educational Psychology	3
-SOSC 3600	Public Policy Analysis	3
-SOSC 3630	Democracy and Democratization around the World	3
-SOSC 3700	Quantitative Social Analysis Practicum	1
-SOSC 3720	Introduction to Social Network Analysis	3
-SOSC 3800	Ethics, Emerging Technologies and Public Policy	3
-SOSC 3850	Ethics and Public Affairs	3
-SOSC 3880	Social Inequality and Social Mobility	3
-SOSC 3888	Special Topics in Psychology	1-4
-SOSC 3900	Abnormal Psychology	3
-SOSC 3990	Health Psychology	3
-SOSC 4000	Special Topics	1-4
-SOSC 4100	Research Pro-seminar	1
-SOSC 4110	Capstone Project	3
-SOSC 4250	Experiments and Quasi-experiments in the Social Sciences	3
-SOSC 4260	China's Economic Transformation	3
-SOSC 4280	China in the Global Political Economy	3
-SOSC 4290	China's Sustainable Development	3
-SOSC 4300	Computational Social Science	3
-SOSC 4310	Chinese Capitalism: Historical and Comparative Perspectives	3
-SOSC 4330	Quantitative Data Analysis for Social Research III	3
-SOSC 4500	The Politics of the State	3
-SOSC 4600	Understanding Chinese Politics	3
-SUST 1000	Sustainability Fundamentals	3
-SUST 1001	Special Topics in Sustainability	1-4
-SUST 1010	Introduction to Sustainability	3
-SUST 1020	Climate Films and Sustainable Future	3
-SUST 1101	Environmental, Social, and Governance Fundamentals	3
-SUST 2001	Special Topics in Sustainability	1-4
-SUST 3001	Special Topics in Sustainability	1-4
-SUST 4001	Special Topics in Sustainability	1-4
-TEMG 1010	T&M Professional Activities	0
-TEMG 3950	T&M Case Analysis and Product Innovation	3
-TEMG 4000	Special Topics	0-4
-TEMG 4940	T&M Prototyping and Research Project	3-5
-TEMG 4950	T&M Corporate Consulting Project	3-5
-TEMG 4970	T&M IBPC Startup Project	1-5
-UCOP 3200	Design for Global Health	3
-UPOP 1920	Career Readiness Training Program	1
-UROP 1000	Undergraduate Research Opportunities	0
-UROP 1100	Undergraduate Research Opportunities Series 1	1
-UROP 2100	Undergraduate Research Opportunities Series 2	1
-UROP 3100	Undergraduate Research Opportunities Series 3	1
-UROP 3200	Undergraduate Research Opportunities with Mini-conference Experience	1
-UROP 4100	Undergraduate Research Opportunities Series 4	1
-UTOP 2910	Pathways to Teaching for Future Educators	3
-WBBA 2000	Special Topics in World Business	0-4
-WBBA 2010	Understanding Business in Asia	2
-WBBA 2020	Seminars in Asia's Business	1
-WBBA 2030	Effective Communication in Business	3
-WBBA 2080	Doing Business in Asia	3
-WBBA 4010	Capstone Project	4
+ACCT 1010,Accounting, Business and Society,3
+ACCT 1610,Laws in Society and Business,3
+ACCT 2010,Principles of Accounting I,3
+ACCT 2200,Principles of Accounting II,3
+ACCT 3010,Financial Accounting I,3
+ACCT 3020,Financial Accounting II,3
+ACCT 3030,Intermediate Financial Accounting for Non-Accounting Majors,3
+ACCT 3210,Advanced Management Accounting,3
+ACCT 3610,Business Law,3
+ACCT 3630,ESG Measurement, Disclosure and Applications,3
+ACCT 3880,Professional Excellence Program,1
+ACCT 4010,Advanced Financial Accounting,3
+ACCT 4410,Taxation,3
+ACCT 4510,Auditing,3
+ACCT 4610,Company Law,3
+ACCT 4710,Accounting Analytics for Professional Accountants,3
+ACCT 4720,Equity Investment with Machine Learning,3
+ACCT 4980,Independent Study,1-4
+AISC 2500,Special Topics (I),1-4
+AISC 3500,Special Topics (II),1-4
+AISC 4500,Special Topics (III),1-4
+AISC 4950,Interdisciplinary Special Project,0-4
+BIBU 1010,Biotechnology and Business Seminar,1
+BIBU 4820,Biotechnology Entrepreneurship and Business Operations,3
+BIBU 4830,Biotechnology Management,3
+BIBU 4840,Biotechnology and Business Capstone Project,3
+BIBU 4850,Biotechnology and Business Project Research,6
+BIEN 1010,Introduction to Biomedical Engineering,3
+BIEN 2310,Modeling for Chemical and Biological Engineering,3
+BIEN 2410,Cellular and Systems Physiology for Engineers,3
+BIEN 2610,Chemical Biology for Engineers,3
+BIEN 2990,Academic and Professional Development I,1
+BIEN 3300,Data Science for Molecular Engineering,3
+BIEN 3310,Data Science for Neural Engineering,3
+BIEN 3320,Data Science for Biology and Medicine,3
+BIEN 3410,Introduction to Bioinstrumentation and Bioimaging,3
+BIEN 3910,Bioengineering Laboratory,4
+BIEN 4000,Special Topics in Bioengineering,1-4
+BIEN 4110,Regulatory Affairs in the Healthcare Industry,3
+BIEN 4310,Statistical Signal Analysis and Applications in Neural Engineering,3
+BIEN 4910,Independent Study,1-4
+BIEN 4920,Bioengineering Capstone Design,6
+BIEN 4930,Bioengineering Thesis Research,6
+BIEN 4940,Bioengineering Industrial Project,6
+BIEN 4990,Academic and Professional Development II,1
+BIPH 3010,Advanced Biological Physics,3
+BIPH 4010,Principles of Quantitative Instrumentation,3
+CENG 1000,Introduction to Chemical and Biological Engineering,3
+CENG 1010,Academic and Professional Development I,0
+CENG 1500,A First Course on Materials Science and Applications,3
+CENG 1600,Biotechnology and Its Business Opportunities,3
+CENG 1700,Introduction to Environmental Engineering,3
+CENG 1800,Introduction to Food Science and Technology,3
+CENG 1980,Industrial Training,0
+CENG 2110,Process and Product Design Principles,3
+CENG 2210,Chemical and Biological Engineering Thermodynamics,3
+CENG 2220,Transport Phenomena I,3
+CENG 2310,Modeling for Chemical and Biological Engineering,3
+CENG 3110,Process Dynamics and Control,3
+CENG 3120,Process Design and Integration,3
+CENG 3150,Integrated Chemical Process and Product Design,5
+CENG 3210,Separation Processes,3
+CENG 3220,Transport Phenomena II,3
+CENG 3230,Chemical and Biological Reaction Engineering,3
+CENG 3300,Data Science for Molecular Engineering,3
+CENG 3950,Chemical and Environmental Engineering Laboratory,4
+CENG 4000,Special Topics,3
+CENG 4020,Academic and Professional Development II,0
+CENG 4130,Plant Design and Economics,3
+CENG 4140,Energy Resources, Conversions and Technologies,3
+CENG 4160,Prototype Development for Chemical Processes and Products,3
+CENG 4510,Nature Engineering and DNA Nanotechnology,3
+CENG 4540,Nanomaterials and Applications in Chemical Engineering,3
+CENG 4620,Bioproducts and Processing,3
+CENG 4630,Food Processing Technology,3
+CENG 4640,Biomolecular Engineering,3
+CENG 4650,Biomaterials and Drug Delivery,3
+CENG 4670,Pharmaceutical Engineering,3
+CENG 4710,Environmental Control,3
+CENG 4720,Environmental Impact Assessment and Management Systems,3
+CENG 4920,Chemical Engineering Capstone Design,6
+CENG 4930,Chemical Engineering Thesis Research,6
+CENG 4940,Chemical Engineering Industrial Project,6
+CENG 4950,Chem-E-Car,3
+CENG 4980,Investigation Project,3
+CHEM 1002,Introduction to Chemistry of Cosmetics,3
+CHEM 1004,Chemistry in Everyday Life,3
+CHEM 1008,Introductory Chemistry,3
+CHEM 1010,General Chemistry IA,3
+CHEM 1011,General Chemistry A: Reactions, Thermodynamics, and Reaction Kinetics,3
+CHEM 1012,General Chemistry B: Atomic Structure, Molecules, and Bonding Theories,3
+CHEM 1051,Laboratory for General Chemistry A,1
+CHEM 1052,Laboratory for General Chemistry B,1
+CHEM 2110,Organic Chemistry I,3
+CHEM 2111,Fundamentals of Organic Chemistry,3
+CHEM 2150,Organic Chemistry Laboratory,1
+CHEM 2155,Fundamental Organic Chemistry Laboratory,1
+CHEM 2210,Inorganic Chemistry I,3
+CHEM 2250,Inorganic Chemistry Laboratory,1
+CHEM 2310,Fundamentals of Analytical Chemistry,3
+CHEM 2311,Analytical Chemistry,3
+CHEM 2350,Analytical Chemistry Laboratory,1
+CHEM 2355,Fundamental Analytical Chemistry Laboratory,1
+CHEM 2409,Mathematical Methods for Physical Chemistry,4
+CHEM 2410,Physical Chemistry I: Equilibrium Thermodynamics and Statistical Mechanics,3
+CHEM 2450,Physical Chemistry Laboratory,1
+CHEM 2550,Synthetic Chemistry Laboratory I,2
+CHEM 2555,Molecular Characterization Chemistry Laboratory l,2
+CHEM 3010,Great Ideas in Chemistry,3
+CHEM 3020,Chemistry in the Mass Media,3
+CHEM 3120,Organic Chemistry II,3
+CHEM 3220,Inorganic Chemistry II,3
+CHEM 3320,Instrumental Analysis,3
+CHEM 3420,Physical Chemistry II,3
+CHEM 3550,Synthetic Chemistry Laboratory II,2
+CHEM 3555,Molecular Characterization Chemistry Laboratory II,2
+CHEM 3610,Chemistry Internship,2-3
+CHEM 3928,Chemistry Undergraduate Seminar,1
+CHEM 4110,Structural Elucidation in Organic Chemistry,3
+CHEM 4120,Biomolecular Chemistry,3
+CHEM 4130,Medicinal Chemistry,3
+CHEM 4140,Intermediate Organic Chemistry,3
+CHEM 4150,Biomolecular Synthesis Laboratory,1
+CHEM 4155,Biomolecular Characterization Laboratory,1
+CHEM 4160,Cheminformatics,3
+CHEM 4210,Solid State Chemistry,3
+CHEM 4220,Materials Chemistry,3
+CHEM 4230,Materials Characterization Method,3
+CHEM 4240,Intermediate Inorganic Chemistry,3
+CHEM 4250,Materials Preparation Laboratory,1
+CHEM 4255,Materials Characterization Laboratory,1
+CHEM 4310,Environmental Chemistry,3
+CHEM 4320,Environmental Analytical Chemistry,3
+CHEM 4330,Separation Science,3
+CHEM 4340,Bioanalytical Techniques,3
+CHEM 4350,Environmental Chemistry Laboratory,1
+CHEM 4355,Instrumental Analytical Chemistry Laboratory,1
+CHEM 4410,Physical Chemistry in Biological Applications,3
+CHEM 4420,Statistical Machine Learning Methods for Chemical Data Analysis,3
+CHEM 4430,Symmetry in Chemistry and Spectroscopy,3
+CHEM 4550,Advanced Synthetic Laboratory,1
+CHEM 4555,Advanced Molecular Characterization Laboratory,1
+CHEM 4620,Organometallic Chemistry,3
+CHEM 4640,Chemistry for Advanced Solar Cell Technologies,3
+CHEM 4680,Undergraduate Research,3
+CHEM 4688,Undergraduate Thesis,3
+CHEM 4689,Capstone Project,3
+CHEM 4691,Capstone Research I,3
+CHEM 4692,Capstone Research II,3
+CIVL 1010,Academic and Professional Development I,0
+CIVL 1100,Discovering Civil and Environmental Engineering,3
+CIVL 1140,Environment and Society: Sustainable Development Goals and Carbon Neutrality,3
+CIVL 1160,Civil Engineering and Modern Society,3
+CIVL 1180,Monitoring Changing Climate from Space,3
+CIVL 1190,Climate Change, Big History and Sustainability,3
+CIVL 1210,Fundamental of Green Buildings,3
+CIVL 1220,Big Data for Smarter Cities,3
+CIVL 2010,Academic and Professional Development II,0
+CIVL 2020,Industrial and BIM Training,0
+CIVL 2110,Statics,3
+CIVL 2120,Mechanics of Materials,3
+CIVL 2160,Modeling Systems with Uncertainties,3
+CIVL 2170,Infrastructure Systems Engineering and Management,3
+CIVL 2410,Environmental Assessment and Management,3
+CIVL 2510,Fluid Mechanics,3
+CIVL 2810,Construction Materials,3
+CIVL 3010,Academic and Professional Development III,0
+CIVL 3020,Internship Training,0
+CIVL 3210,Introduction to Construction Management,3
+CIVL 3310,Structural Analysis,3
+CIVL 3320,Reinforced Concrete Design,3
+CIVL 3420,Water and Wastewater Engineering,3
+CIVL 3510,Hydrosystems Engineering,3
+CIVL 3610,Traffic and Transportation Engineering,3
+CIVL 3730,Fundamentals of Geotechnics,3
+CIVL 3740,Geotechnical Analysis and Design,3
+CIVL 4100,Special Topics,1-4
+CIVL 4210,Advanced Construction with AI and Robotics,3
+CIVL 4220,Scientific Machine Learning for Infrastructure Systems,3
+CIVL 4240,Smart Infrastructure Sensing and Data Analytics,3
+CIVL 4250,Project Management and Finance,3
+CIVL 4270,Construction Law and Contract Administration,3
+CIVL 4310,Energy System Modeling for Buildings and Cities,3
+CIVL 4320,Structural Steel Design,3
+CIVL 4330,Introduction to Structural Dynamics,3
+CIVL 4340,Prestressed Concrete Design,3
+CIVL 4360,Implementing Artificial Intelligence in Smart Buildings,3
+CIVL 4370,Computer Methods of Structural Analysis,3
+CIVL 4380,Introduction to Wind Effects on Buildings and Structures,3
+CIVL 4430,Environmental Impact Assessment,3
+CIVL 4450,Carbon Footprint Analysis and Reduction,3
+CIVL 4460,Process Design of Environmental Engineering Facilities,3
+CIVL 4470,Air Quality Control and Management,3
+CIVL 4480,Climate Modeling and Risk Assessment,3
+CIVL 4520,Municipal Hydrosystems Engineering and Management,3
+CIVL 4560,Urban Hydroclimate and the Built Environment,3
+CIVL 4610,Introduction to Data Analytics for Smart Transportation Systems,3
+CIVL 4620,Transportation System Operations,3
+CIVL 4630,Public Transport Planning and Operation,3
+CIVL 4640,Introduction to Smart City Economics,3
+CIVL 4650,Multi-agent Decision Making in Smart Cities,3
+CIVL 4700,Engineering Geology,3
+CIVL 4710,Soil Slope Engineering,3
+CIVL 4750,Numerical Solutions to Geotechnical Problems,3
+CIVL 4760,Introduction to Rock Mechanics,3
+CIVL 4810,Construction Materials Technology,3
+CIVL 4900,Directed Studies,1-4
+CIVL 4910,Civil and Environmental Engineering Final Year Project,6
+CIVL 4920,Civil and Environmental Engineering Final Year Thesis,6
+CIVL 4950,Civil Engineering Capstone Design Project,3
+COMP 1001,Exploring Multimedia and Internet Computing,3
+COMP 1021,Introduction to Computer Science,3
+COMP 1022P,Introduction to Computing with Java,3
+COMP 1029C,C Programming Bridging Course,1
+COMP 1029J,Java Programming Bridging Course,1
+COMP 1029P,Python Programming Bridging Course,1
+COMP 1029V,Excel VBA Programming Bridging Course,1
+COMP 1942,Exploring and Visualizing Data,3
+COMP 1943,Creative Sound and Video Design,3
+COMP 1944,Artificial Intelligence Ethics,3
+COMP 1991,Industrial Experience,0
+COMP 2011,Programming with C++,4
+COMP 2012,Object-Oriented Programming and Data Structures,4
+COMP 2012H,Honors Object-Oriented Programming and Data Structures,5
+COMP 2211,Exploring Artificial Intelligence,3
+COMP 2611,Computer Organization,4
+COMP 2633,Competitive Programming in Cybersecurity I,0
+COMP 2711,Discrete Mathematical Tools for Computer Science,4
+COMP 2711H,Honors Discrete Mathematical Tools for Computer Science,4
+COMP 3021,Java Programming,3
+COMP 3031,Principles of Programming Languages,3
+COMP 3071,Honors Competitive Programming,2
+COMP 3111,Software Engineering,4
+COMP 3111H,Honors Software Engineering,4
+COMP 3211,Fundamentals of Artificial Intelligence,3
+COMP 3311,Database Management Systems,3
+COMP 3511,Operating Systems,3
+COMP 3631,Cryptography,3
+COMP 3633,Competitive Programming in Cybersecurity II,2
+COMP 3711,Design and Analysis of Algorithms,3
+COMP 3711H,Honors Design and Analysis of Algorithms,4
+COMP 3721,Theory of Computation,3
+COMP 4021,Internet Computing,3
+COMP 4121,Modern Compiler Construction,3
+COMP 4211,Machine Learning,3
+COMP 4221,Introduction to Natural Language Processing,3
+COMP 4222,Machine Learning with Structured Data,3
+COMP 4321,Search Engines for Web and Enterprise Data,3
+COMP 4331,Data Mining,3
+COMP 4332,Big Data Mining and Management,3
+COMP 4411,Computer Graphics,3
+COMP 4421,Image Processing,3
+COMP 4431,Multimedia Computing,3
+COMP 4441,Music Video Creation,3
+COMP 4451,Game Programming,3
+COMP 4461,Human-Computer Interaction,3
+COMP 4462,Data Visualization,3
+COMP 4471,Deep Learning in Computer Vision,3
+COMP 4511,System and Kernel Programming in Linux,3
+COMP 4521,Mobile Application Development,3
+COMP 4531,IoT and Smart Sensing,3
+COMP 4541,Blockchain, Cryptocurrencies and Smart Contracts,3
+COMP 4611,Design and Analysis of Computer Architectures,3
+COMP 4621,Computer and Communication Networks,3
+COMP 4632,Practicing Cybersecurity: Attacks and Counter-measures,3
+COMP 4633,Competitive Programming in Cybersecurity III,2
+COMP 4634,Cybersecurity,3
+COMP 4641,Social Information Network Analysis and Engineering,3
+COMP 4651,Cloud Computing and Big Data Systems,3
+COMP 4900,Academic and Professional Development,0
+COMP 4901,Special Topics in Computer Science,0-4
+COMP 4910,Co-op Program,6
+COMP 4911,IT Entrepreneurship,3
+COMP 4971,Independent Work,1-4
+COMP 4981,Final Year Project,6
+COMP 4981H,Final Year Thesis,6
+CPEG 1971,Industrial Experience,0
+CPEG 2930,Academic and Professional Development I,0
+CPEG 3930,Academic and Professional Development II,0
+CPEG 4901,Computer Engineering Final Year Project in COMP,6
+CPEG 4902,Computer Engineering Final Year Thesis in COMP,6
+CPEG 4910,Co-op Program,6
+CPEG 4911,Computer Engineering Final Year Project in ELEC,6
+CPEG 4912,Computer Engineering Final Year Thesis in ELEC,6
+CTDL 1901,Cognitive Foundations of University Education: Critical Thinking and Data Literacy,3
+CTDL 1902,AI and Society: Ethics, Cognition, and Critical Analysis,3
+DASC 2010,Calculus for Data Analytics in Science,3
+DASC 2020,Applied Linear Algebra for Least Squares Optimization and Machine Learning,3
+DASC 2110,Object-oriented Programming for Data Analytics in Science,3
+DASC 2210,A Survey on Big Data in Science and Society,1
+DASC 2220,Statistics and Probability for Data Analytics in Science,3
+DASC 3120,Data Structures for Data Analytics in Science,3
+DASC 3230,Statistical Modeling and Machine Learning,3
+DASC 3240,Data Visualization in Science,3
+DASC 3250,Numerical Methods for Data Analytics in Science,3
+DASC 4010,Practical Artificial Intelligence in Science,3
+DASC 4020,Structured Query Language for Data Analytics,3
+DASC 4300,Capstone Project for Data Analytics in Science,3
+DASC 4400,Data Analytics in Information Science,3
+DSCT 4900,Academic and Professional Development,0
+ECON 1220,Thinking like an Economist I: Microeconomics,3
+ECON 1221,Thinking like an Economist II: Macroeconomics,3
+ECON 1222,What Economics Tells Us About Our Life and Social Policy,3
+ECON 1234,China's Economic Challenges,3
+ECON 2103,Principles of Microeconomics,3
+ECON 2113,Microeconomics,3
+ECON 2123,Macroeconomics,3
+ECON 2174,Mathematics for Economists,4
+ECON 3014,Managerial Microeconomics,4
+ECON 3024,Managerial Macroeconomics,4
+ECON 3113,Microeconomic Theory I,4
+ECON 3123,Macroeconomic Theory I,3
+ECON 3133,Microeconomic Theory II,4
+ECON 3143,Macroeconomic Theory II,4
+ECON 3334,Introduction to Econometrics,4
+ECON 3700,Writing as an Economist,3
+ECON 3800,ECON UG Honors Thesis I,2
+ECON 4114,Industrial Organization and Competitive Strategy,4
+ECON 4124,Applied Game Theory,4
+ECON 4134,Economics of Uncertainty and Information,4
+ECON 4144,Health and Education Economics,4
+ECON 4234,Labor Economics and Human Resources,4
+ECON 4244,Economics of Human Behavior,4
+ECON 4264,Economics of Innovation and Entrepreneurship,4
+ECON 4274,Programming Econometrics with R,4
+ECON 4284,Econometrics for Cross-Section and Panel Data,4
+ECON 4304,Time Series Econometrics and Business Forecasting,4
+ECON 4305,Applied Machine Learning for Economic and Financial Analysis,4
+ECON 4334,Money and Banking,4
+ECON 4364,International Trade and Investment,4
+ECON 4374,International Macroeconomics and Finance,4
+ECON 4434,Economic Development and Growth,4
+ECON 4454,Green Economy and Sustainability,4
+ECON 4464,Urban and Environment Economics,4
+ECON 4474,Hong Kong's Economy,4
+ECON 4670,Economics Research and Communication,0
+ECON 4800,ECON UG Honors Thesis II,3
+ECON 4959,Independent Study,1-4
+ECON 4999,Special Topics in Economics,1-4
+ELEC 1010,Electronic and Information Technology,3
+ELEC 1030,The Rise of Autonomous Robots,3
+ELEC 1095,Special Topics,1-4
+ELEC 1100,Introduction to Electro-Robot Design,4
+ELEC 1200,A System View of Communications: from Signals to Packets,4
+ELEC 2100,Signals and Systems,4
+ELEC 2350,Introduction to Computer Organization and Design,4
+ELEC 2400,Electronic Circuits,4
+ELEC 2420,Basic Electronics,3
+ELEC 2600,Probability and Random Processes in Engineering,4
+ELEC 2910,Academic and Professional Development I,0
+ELEC 2991,Industrial Experience (Electronic Engineering),0
+ELEC 3100,Signal Processing and Communications,4
+ELEC 3120,Computer Communication Networks,3
+ELEC 3130,Digital Image Processing,3
+ELEC 3180,Data-Driven Portfolio Optimization,3
+ELEC 3200,System Modeling, Analysis and Control,4
+ELEC 3210,Introduction to Mobile Robotics,3
+ELEC 3300,Introduction to Embedded Systems,4
+ELEC 3310,Digital Fundamentals and System Design,4
+ELEC 3350,Principles of Machine Learning,3
+ELEC 3400,Introduction to Integrated Circuits and Systems,4
+ELEC 3410,CMOS VLSI Design,3
+ELEC 3500,Integrated Circuit Devices,4
+ELEC 3600,Electromagnetics: From Wireless to Photonic Applications,4
+ELEC 3810,Data Science for Neural Engineering,3
+ELEC 3910,Academic and Professional Development II,0
+ELEC 4010,Special Topics,1-4
+ELEC 4110,Digital Communications and Wireless Systems,3
+ELEC 4210,Control System Design,3
+ELEC 4220,Robotics: Modeling, Control and Planning,3
+ELEC 4240,Deep Learning in Computer Vision,3
+ELEC 4260,Intelligent Robots and Embodied AI,3
+ELEC 4310,Embedded System Design,4
+ELEC 4320,FPGA-based Design: From Theory to Practice,3
+ELEC 4350,AI Processor Architecture,3
+ELEC 4420,Analogue Integrated Circuits Design and Analysis,4
+ELEC 4430,Integrated Power Electronics,3
+ELEC 4510,Semiconductor Materials and Devices,3
+ELEC 4520,Integrated Circuit Fabrication Technology,3
+ELEC 4530,Fundamentals of Photovoltaic and Renewable Energy,3
+ELEC 4610,Engineering Optics,4
+ELEC 4620,Photonics and Optical Communications,4
+ELEC 4810,Introduction to Biosensors and Bioinstrumentation,4
+ELEC 4820,Medical Imaging,3
+ELEC 4830,Statistical Signal Analysis and Applications in Neural Engineering,3
+ELEC 4840,Artificial Intelligence for Medical Image Analysis,3
+ELEC 4900,Final Year Design Project,6
+ELEC 4901,Final Year Thesis,6
+ELEC 4910,Co-op Program,6
+ELEC 4940,Independent Study,1-3
+EMIA 2010,Cross-disciplinary Seminar,0
+EMIA 2020,Cross-disciplinary Design Thinking,3
+EMIA 2200,Introduction to Digital Media,3
+EMIA 2210,Sci-Fi Storytelling,3
+EMIA 2220,Technical Theater Arts,3
+EMIA 2500,Special Topics (I),1-4
+EMIA 3500,Special Topics (II),1-4
+EMIA 4110,Practical Machine Learning,3
+EMIA 4500,Special Topics (III),1-4
+EMIA 4900,Independent Study,1-4
+EMIA 4990,Interdisciplinary Capstone Design,0
+EMIA 4991,Interdisciplinary Capstone Project,3
+ENEG 2910,Industrial Training,0
+ENEG 2990,Academic and Professional Development I,0
+ENEG 3110,Materials for Energy Technologies,3
+ENEG 3910,Sustainable Energy Laboratory,3
+ENEG 4130,Photovoltaic Materials and Devices,3
+ENEG 4210,Optimization of Energy Systems,3
+ENEG 4320,Energy Storage Technology,3
+ENEG 4920,Final Year Design Project,6
+ENEG 4980,Investigation Project,3
+ENEG 4990,Academic and Professional Development II,0
+ENGG 1010,Academic Orientation,0
+ENGG 1100,First Year Cornerstone Engineering Design Project Course,3
+ENGG 1110,Engineering Solutions to Grand Challenges of the 21st Century,3
+ENGG 1130,The Impact and Value of Technology Innovation,3
+ENGG 1150,Information Technology Revolution: Past, Present and Future,3
+ENGG 1200,Engineering Team Design Experience,3
+ENGG 1300,Design Thinking for Health Innovation,3
+ENGG 1400,Designing Your Life for Engineering Students,1
+ENGG 1502,Applied Algorithmic Thinking with Final Project,4
+ENGG 1900,Service Learning Program,1
+ENGG 2010,Engineering Seminar Series,0
+ENGG 2201,The Law of Contract,6
+ENGG 2900,Community Services Project,1-4
+ENGG 2990,Special Topics,1-3
+ENGG 2991-2993,Undergraduate Student-initiated Experiential Learning,1-3
+ENGG 3960-3962,Robotics Special Project,1-4
+ENGG 4901,Integrated Final Year Project - First Major,3
+ENGG 4902,Integrated Final Year Project - Second Major,3
+ENGG 4903,Integrated Final Year Thesis - First Major,3
+ENGG 4904,Integrated Final Year Thesis - Second Major,3
+ENGG 4950,Engineering Special Project,1-4
+ENTR 1001,Entrepreneurship 1001: Designing Your Future,3
+ENTR 2010,Entrepreneurship Mentorship and Readings,1
+ENTR 3013,Prototyping Skills for Entrepreneurs,3
+ENTR 3030,Social Innovations and Entrepreneurship,3
+ENTR 3100,Industrial Landscape: Understanding the Elements to Start a Business,3
+ENTR 3350,Global Product Development,3
+ENTR 3360,From Product Innovations to Successful Technology Startups,3
+ENTR 4000,Special Topics in Entrepreneurship,1-4
+ENTR 4901-4904,Student-led Entrepreneurship Acceleration Project,1-4
+ENTR 4911,IT Entrepreneurship,3
+ENVR 1001,EVMT Orientation,0
+ENVR 1030,Environment and Health,3
+ENVR 1040,The Environment and Society - A Comprehensive Perspective,3
+ENVR 1070,Thinking Big: Systems Thinking for Environmental Problems,3
+ENVR 1080,The Smart Consumer - Uncovering the Hidden Story behind the Product Label,3
+ENVR 1150,Climate Change Impacts and Extreme Weather Events,3
+ENVR 1170,Science, Environment and Society - From Big Bang to Big Data,3
+ENVR 1811,Environmental Management and Technology Study Trip I,1
+ENVR 2001,Academic and Professional Development I,1
+ENVR 2002,Special Topics in Environmental Studies,1-4
+ENVR 2010,Environmental Science Fundamentals,3
+ENVR 2020,Urban Air Pollution,3
+ENVR 2030,Material and Energy Balance for Environmental Management,3
+ENVR 2050,Sustainability Thinking,3
+ENVR 2060,From Trash to Treasure: Managing Waste to Resources,3
+ENVR 2070,Smart Buildings for a Warming Planet,3
+ENVR 2080,Circular Economy and Life Cycle Assessment,3
+ENVR 2090,Environmental Laboratory,3
+ENVR 2811,Environmental Management and Technology Study Trip II,1
+ENVR 2900,Internship/Service Learning,1
+ENVR 3001,Academic and Professional Development II,1
+ENVR 3004,Life Cycle Assessment,3
+ENVR 3005,Environmental Sustainability: Risks and Challenges,3
+ENVR 3010,Special Topics in Environmental Studies,1-4
+ENVR 3110,Life Cycle Assessment for Sustainable Development,3
+ENVR 3210,Environmental Technology for Impact Assessment,3
+ENVR 3220,Energy Sources and Usage,3
+ENVR 3310,Green Business Strategy,3
+ENVR 3410,Economics for Environmental Policy and Management,3
+ENVR 3420,Environmental Law and Regulations,3
+ENVR 4000,Special Topics in Environmental Studies,1-4
+ENVR 4001,Academic and Professional Development III,1
+ENVR 4010,Independent Study in Environment Issues,1-4
+ENVR 4320,ESG Management and Reporting,3
+ENVR 4330,Environmental Geographical Information System,3
+ENVR 4340,Social Sustainability: Risks and Challenges,3
+ENVR 4350,Governing Green Finance: National and International Perspectives and Approaches,3
+ENVR 4470,Air Quality Control and Management,3
+ENVR 4480,Climate Modeling and Risk Assessment,3
+ENVR 4800,Environmental Management and Technology Seminar,1
+ENVR 4980,Environmental Management and Technology Capstone Project I,3
+ENVR 4990,Environmental Management and Technology Capstone Project II,3
+ENVS 4012,Special Topics in Environmental Science,1-3
+ENVS 4910,Independent Study,1-3
+ENVS 4964,Environmental Science Capstone Project Research,3
+ENVS 4974,Environmental Science Project Research I,3
+ENVS 4984,Environmental Science Project Research II,4
+FINA 1303,Introduction to Financial Markets and Institutions,3
+FINA 2101,Introduction to Finance,1
+FINA 2203,Fundamentals of Business Finance,3
+FINA 2303,Financial Management,3
+FINA 3001,Key Skills for Finance Professionals (A),1
+FINA 3103,Intermediate Investments,3
+FINA 3111,Finance Professional Development,1
+FINA 3203,Derivative Securities,3
+FINA 3303,Intermediate Corporate Finance,3
+FINA 3810,Bloomberg Market Concepts Certification,0
+FINA 3820,Refinitiv Certification Program,0
+FINA 3830,Refinitiv Analytics,0
+FINA 4003,Wealth Management,3
+FINA 4013,Corporate Valuation,3
+FINA 4103,Financial Markets Trading and Structure,3
+FINA 4203,Mergers, Acquisitions, and Corporate Restructuring,3
+FINA 4303,Fixed Income Securities,3
+FINA 4403,International Finance,3
+FINA 4413,Family Business,3
+FINA 4423,Family Office,3
+FINA 4503,Banking and Financial Intermediation,3
+FINA 4513,Risk Management,3
+FINA 4603,Venture Capital Financing,3
+FINA 4703,ESG Investing,3
+FINA 4713,Introduction to Artificial Intelligence and Big Data in Finance,3
+FINA 4723,Responsible Finance,3
+FINA 4803,Quantitative Trading,3
+FINA 4919,Independent Study,1-4
+FINA 4929,Special Topics in Finance,0-4
+GBUS 1000,Global Leadership Development,0
+GBUS 2010,Global Business Analysis,3
+GBUS 2020,Public Service Project,1
+GBUS 2030,From Zero to Exit – Journey of A Start-up,2
+GBUS 2040,Environmental, Social, and Governance (ESG) Corporate Project,1
+GBUS 2050,Blue Ocean Strategy Innovation and Execution,2
+GBUS 3010,Global Perspectives on Contemporary Issues,3
+GBUS 3030,Global Business Case Studies,4
+GBUS 3040,Business and ESG Management for Asia and Emerging Markets,3
+GBUS 3050,Deal Making in Asia and Emerging Markets,3
+GBUS 3060,Value Investing in Global Markets,3
+GBUS 4000,Special Topics in Global Business,0-4
+GBUS 4010,Independent Study,1-4
+GBUS 4910,Capstone Project,4
+GNED 2000,Selected Topics in General Education,0-3
+GNED 2510,Career Building,1
+GNED 2710,Service Learning Project,1
+HART 1001,Arts and Creativity,2
+HART 1012,Introduction to Photography,1
+HART 1013,Fundamental Technique of Chinese Painting,1
+HART 1014,Introduction to Chinese Calligraphy,1
+HART 1017,Introduction to Contemporary Dance,1
+HART 1023,Introduction to Experimental Animation,1
+HART 1025,Introduction to New Topographic Photography,1
+HART 1026,Connecting Acting with Public Speaking,1
+HART 1029,Multicultural Dramatic Works,1
+HART 1030,Introduction to Chinese Painting in the Past Century,1
+HART 1035,Public Art Interventions,1
+HART 1036,Introduction to Graphic Design,1
+HART 1047,Introduction to Chinese Landscape Painting,1
+HART 1048,Fashion Art and Styling,1
+HLTH 1010,Healthy Lifestyle,0
+HMAW 1905,Behavioral Foundations of University Education: Habits, Mindsets, and Wellness,3
+HUMA 1000,Cultures and Values,3
+HUMA 1001,Foundational Texts in the Humanities,3
+HUMA 1009,Special Topics,3
+HUMA 1010,Introduction to Language,3
+HUMA 1020,Chinese Writing and Culture,3
+HUMA 1030,Structure of the Chinese Language,3
+HUMA 1060,Introduction to Mandarin Chinese Grammar,3
+HUMA 1100,Music of the World,3
+HUMA 1102,Enjoyment of Classical Music,3
+HUMA 1107,Music and Film,3
+HUMA 1108,Expressive Sounds,3
+HUMA 1150,Exploration of Drawing,3
+HUMA 1154,Photography,3
+HUMA 1155,Video Art,3
+HUMA 1156,Exploration of Chinese Calligraphy,3
+HUMA 1160,Weiqi and Chinese Culture,1
+HUMA 1210,Chinese Women on Screen,3
+HUMA 1231,Popular Culture of East Asia,3
+HUMA 1301,World Literature and Film,3
+HUMA 1420,Late Imperial China from Yuan to Qing,3
+HUMA 1430,History of P. R. China's Diplomacy, 1949-1989,3
+HUMA 1440,Modern China,3
+HUMA 1520,Modern East Asia,3
+HUMA 1622,Science, Technology and Society: Historical and Cultural Approaches,3
+HUMA 1630,Popular Religion in South China,3
+HUMA 1639,Marriage, Family and Kinship in Cross-cultural Perspectives,3
+HUMA 1650,Appreciation of Western Art,3
+HUMA 1660,Introduction to Chinese Art,3
+HUMA 1671,Cantonese Opera in Hong Kong Culture,3
+HUMA 1672,Studio Arts Workshops: Cantonese Opera,1
+HUMA 1673,Art and Digital Culture,3
+HUMA 1674,China in Historical Maps,3
+HUMA 1675,Global History of Explorations,3
+HUMA 1710,The Art of Thinking in the Hong Kong Context,3
+HUMA 1720,Logic,3
+HUMA 1810,Introduction to Chinese Philosophy,3
+HUMA 1811,History of Chinese Philosophy,3
+HUMA 1920,Introduction to Moral Philosophy,3
+HUMA 1921,Philosophy of Science,3
+HUMA 1922,Introduction to Analytic Philosophy,3
+HUMA 1930,Introduction to the Ethics of Artificial Intelligence and Data Science,3
+HUMA 2000-2001,Special Topics in Humanities,3
+HUMA 2010,Metaphors in English and Chinese,3
+HUMA 2031,The Cantonese Language,3
+HUMA 2032,Language, Power and Identity,3
+HUMA 2050,Classical Chinese,3
+HUMA 2101,Enjoyment of Western Opera,3
+HUMA 2103,Introduction to Music Composition,3
+HUMA 2104,Music Theory I: Introduction to Tonal Music,3
+HUMA 2105,Music, Drama, and Theatre,3
+HUMA 2107,Introduction to Electronic Music Composition,3
+HUMA 2108,Music of China,3
+HUMA 2109,East Asian Popular Music,3
+HUMA 2202,The Japanese Novel,3
+HUMA 2203,Japanese Cinema,3
+HUMA 2240,Reading Chinese Literature: Dreams of the Red Chamber,3
+HUMA 2250,Modern Chinese Fiction (1917-1949),3
+HUMA 2260,Contemporary Chinese Fiction (1949-present),3
+HUMA 2300,Traditional Chinese Poetry: Early Chinese Poetry,3
+HUMA 2310,Traditional Chinese Fiction,3
+HUMA 2320,Chinese Drama,3
+HUMA 2330,Anime,3
+HUMA 2331,Japanese Animation: Technology, Gender, and History,3
+HUMA 2340,Between Old and New: Chinese Stories and Their Reinventions,3
+HUMA 2400,Approaches to Humanities in China Studies,3
+HUMA 2420,Late Imperial China,3
+HUMA 2430,China in the 20th Century,3
+HUMA 2440,20th-Century China in Documentary Films,3
+HUMA 2470,From Fung Shui to Mao's Villages: City Plans, Urban Politics & the Unseen World of Chinese Villages,3
+HUMA 2520,History of Tea in East Asia,3
+HUMA 2588,Nazism and German Society, 1914-1945,3
+HUMA 2590,The Making of the Modern World: Renaissance to the Present,3
+HUMA 2596,History of Biology and Medicine,3
+HUMA 2597,Environmental History,3
+HUMA 2621,Culture and Environment,3
+HUMA 2623,Cultural Sustainability in South China,3
+HUMA 2632,Chinese Culture and Society in Anthropological Perspectives,3
+HUMA 2634,Global History: New Anthropological Perspectives,3
+HUMA 2635,Cultural Diversity in China,3
+HUMA 2638,Peoples and Cultures in Southeast Asia,3
+HUMA 2640,Unofficial China: Social History 1800s-1930s,3
+HUMA 2660,Introduction to Chinese Painting,3
+HUMA 2661,Chinese Oil Painting,3
+HUMA 2670,Understanding Western Painting,3
+HUMA 2680,Understanding Western Architecture,3
+HUMA 2831,Metaphysics: Study of Reality and Existence,3
+HUMA 2832,Philosophy of Mind,3
+HUMA 2840,Buddhism and the Chinese Intellectual Tradition,3
+HUMA 2911,Buddhism: Origin and Growth,3
+HUMA 2921,Ethical Theories and Contemporary Issues,3
+HUMA 2930,What am I? Personal Identity and the Self from a Philosophical Perspective,3
+HUMA 3000,Special Topics,2-3
+HUMA 3030,Language, Communication and Culture,3
+HUMA 3050,Psychology of Language,3
+HUMA 3060,Language and Migration,3
+HUMA 3102,Making Chamber Music A,2
+HUMA 3103,Making Chamber Music B,2
+HUMA 3104,Music Theory II: Fundamentals of Harmony and Counterpoint,3
+HUMA 3105,Making Choral Music,3
+HUMA 3107,Electronic Music Composition II,3
+HUMA 3150,Independent Study in Creative Arts,1-2
+HUMA 3201,Animation: A Global Perspective,3
+HUMA 3202,Chinese Creative Writing: Reading Literary Classics and Writing Essays,3
+HUMA 3203,Chinese Creative Writing: Reading Literary Classics and Writing Novels,3
+HUMA 3204,Chinese Creative Writing-Reading Literary Classics and Writing,3
+HUMA 3205,Technologies of Passion: Self and Love in Chinese Literature,3
+HUMA 3210,Traditional Chinese Poetry: Tang and Song Poetry,3
+HUMA 3220,Modern Chinese Poetry,3
+HUMA 3250,Independent Cinema in Contemporary China,3
+HUMA 3410,Special Topics in Pre-Imperial to Middle Imperial China,3
+HUMA 3430,Reading Modern Chinese History Historically,3
+HUMA 3610,Special Topics in Cultural Anthropology,3
+HUMA 3630,Community and Cultural Identity,3
+HUMA 3660,Tradition & Modernity: Chinese Ink Painting in 20th Century,3
+HUMA 3680,Contemporary Architecture: The Pritzker Prize Winners,3
+HUMA 3800,Guided Studies in Chinese Philosophical Classics,3
+HUMA 3810,Taoism and the Chinese Tradition,3
+HUMA 3821,Classical Chinese Philosophy (in English),3
+HUMA 3900,Philosophical Inquiry into the Modern World,3
+HUMA 4000,Special Topics,1-4
+HUMA 4020,Language and Literature in Modern China,3
+HUMA 4220,Verbal and Visual Representation of China,3
+HUMA 4221,Chinese Classics and Their Reworking in Various Media Around the Globe,3
+HUMA 4250,Masterpieces of Modern Literature,3
+HUMA 4520,History of US-China Relations,3
+HUMA 4530,History and the Future,3
+HUMA 4531,Eichmann and Evil,3
+HUMA 4610,Heritage in Cross-cultural Perspective,3
+HUMA 4620,Geopolitics,3
+HUMA 4650,Western Painting: From Renaissance to Impressionism,3
+HUMA 4700,Confucianism in a Global Context,3
+IEDA 1010,Academic and Professional Development I,0
+IEDA 1020,Academic and Professional Development II,0
+IEDA 1250,Optimizing Decisions for Personal and Business Development,3
+IEDA 1901,Industrial Training and Experience,0
+IEDA 1990,Industrial Training,0
+IEDA 1991,Industrial Experience,0
+IEDA 2010,Introduction of Industrial Engineering and Decision Analytics,3
+IEDA 2100,Computing in Industrial Applications,3
+IEDA 2150,Product Design,3
+IEDA 2200,Engineering Management,3
+IEDA 2410,Logistics and Freight Transportation Operations,3
+IEDA 2520,Probability for Engineers,3
+IEDA 2540,Statistics for Engineers,3
+IEDA 3010,Prescriptive Analytics,3
+IEDA 3130,Ergonomics and Safety Management,3
+IEDA 3180,Data-Driven Portfolio Optimization,3
+IEDA 3230,Engineering Economics and Accounting,3
+IEDA 3250,Stochastic Models,3
+IEDA 3270,Data-Driven Quality Technology,3
+IEDA 3300,Industrial Data Systems,3
+IEDA 3302,E-Commerce Technology and Applications,3
+IEDA 3330,Introduction to Financial Engineering,3
+IEDA 3410,Routing and Fleet Management,3
+IEDA 3460,Demand and Supply Analytics,3
+IEDA 3560,Predictive Analytics,3
+IEDA 3901,Transportation Systems,3
+IEDA 4000,Special Topics,1-3
+IEDA 4100,Integrated Production Systems,3
+IEDA 4130,System Simulation,3
+IEDA 4180,Service Engineering and Management,3
+IEDA 4200,Design of Logistics and Manufacturing Systems,3
+IEDA 4331,Quantitative Methods in Financial Engineering,3
+IEDA 4410,Data Driven Supply Chain Management,3
+IEDA 4420,Dynamic Pricing and Revenue Optimization,3
+IEDA 4500,Engineering Foundations of FinTech,3
+IEDA 4510,Systems Risk Management,3
+IEDA 4520,Numerical Methods for Financial Engineering,3
+IEDA 4900,Independent Study in Industrial Engineering and Decision Analytics,3
+IEDA 4901,Final Year Thesis,6
+IEDA 4920,Decision Analytics Final Year Project,6
+IEDA 4930,Logistics Management and Engineering Project,6
+IEDA 4950,Industrial Engineering Special Project,1-4
+IEDA 4960,Industrial Engineering and Engineering Management Final Year Project,6
+IEDA 4990,Industrial Engineering Design Project,6
+IIMP 2000,Academic and Professional Development,0
+IIMP 4970,Interdisciplinary Industrial Project,6
+IIMP 4980,Interdisciplinary Capstone Project I,3
+IIMP 4990,Interdisciplinary Capstone Project II,3
+IROP 1000,International Research Opportunities Program,0
+ISDN 1001,Introduction to Integrative Systems and Design,3
+ISDN 1002,Redefining Problems for the Real Needs,3
+ISDN 1004,Sketching,1
+ISDN 1006,Human-centered Innovation,3
+ISDN 1010,Academic and Professional Development I,0
+ISDN 1011,Industrial Training,0
+ISDN 1100,Experiencing Design,3
+ISDN 2000,What is Design and Why Design?,3
+ISDN 2001,Second Year Design Project I,1
+ISDN 2002,Second Year Design Project II,3
+ISDN 2010,Academic and Professional Development II,0
+ISDN 2200,Systems Thinking and Design,3
+ISDN 2210,Introduction to Brand Design,3
+ISDN 2300,Introduction to 3D Design,3
+ISDN 2400,Physical Prototyping,3
+ISDN 2500,Introduction to Systems Design Engineering,3
+ISDN 2601,Exploring the World through Smart Mechatronics,3
+ISDN 2602,Internet of Things: Integrative System Design,3
+ISDN 2603,Materials, Shape and Design,3
+ISDN 3000,Special Topics,1-3
+ISDN 3001,Third Year Design Project I,3
+ISDN 3002,Third Year Design Project II,3
+ISDN 3004,Advanced Sketching,2
+ISDN 3010,Academic and Professional Development III,0
+ISDN 3150,AI for Design,3
+ISDN 3200,Graphic Communication,2
+ISDN 3300,Interaction Design,3
+ISDN 3350,Global Product Development,3
+ISDN 3360,From Product Innovations to Successful Technology Startups,3
+ISDN 4000,Special Topics,1-4
+ISDN 4001,Final Year Design Project I,4
+ISDN 4002,Final Year Design Project II,4
+ISDN 4010,Academic and Professional Development IV,0
+ISDN 4200,Product Management,3
+ISDN 4330,Ergonomics in Design,2
+ISDN 4900,Independent Study,1-3
+ISOM 1090,Social Media: Collective Intelligence & Creativity,3
+ISOM 1380,Technology and Innovation: Social and Business Perspectives,3
+ISOM 1500,Insightful Decisions,3
+ISOM 1700,Critical Issues in Business Operations,3
+ISOM 2010,Introduction to Information Systems,3
+ISOM 2020,Coding for Business,1
+ISOM 2030,Business Protections for Innovations,3
+ISOM 2040,Business Simulation and Strategic Decisions,3
+ISOM 2310,Fundamentals of E-Commerce: Business, Technology, and the Society,3
+ISOM 2400,Global Information Infrastructure and Policy,3
+ISOM 2500,Business Statistics,3
+ISOM 2600,Introduction to Business Analytics,1
+ISOM 2700,Operations Management,3
+ISOM 3000,Special Topics in Information Systems,0-4
+ISOM 3010,Information Systems Project Management,3
+ISOM 3180,Telecommunications and Computer Networking Management,3
+ISOM 3210,Information Systems Analysis and Design,3
+ISOM 3230,Business Programming in VBA,3
+ISOM 3260,Database Design and Administration,4
+ISOM 3270,Blockchain Programming in Business Applications,3
+ISOM 3310,e-Business Management and Web Analytics,3
+ISOM 3320,Business Applications Development in Java,3
+ISOM 3330,Data Visualization and Visual Analytics,1
+ISOM 3340,Developing AI Applications,1
+ISOM 3350,FinTech and Cryptoventures,3
+ISOM 3360,Data Mining for Business Analytics,3
+ISOM 3370,Big Data Technologies,3
+ISOM 3380,Advanced Network Management (CISCO - ICND),4
+ISOM 3390,Business Programming in R,3
+ISOM 3400,Business Applications Development in Python,3
+ISOM 3530,Business Data Analytics,4
+ISOM 3540,Introduction to Probability Models,3
+ISOM 3710,Business Modeling and Optimization,4
+ISOM 3730,Quality and Process Management,3
+ISOM 3760,Logistics Management,3
+ISOM 3770,Global Supply Chain Management,4
+ISOM 3780,Sustainable Supply Chain Management,3
+ISOM 3900,Decision Analytics,3
+ISOM 4000,Special Topics in Information Systems,0-4
+ISOM 4010,Digital Business Strategy: Harnessing Platform, Crowd, and Machine,3
+ISOM 4020,Innovation Management and Technology Entrepreneurship,3
+ISOM 4030,Deep Learning for Business Applications,3
+ISOM 4040,Digital Strategy and Transformation,3
+ISOM 4100,Information Systems Auditing,3
+ISOM 4200,Information and Cyber Security Management,3
+ISOM 4300,Information Systems Control and Assurance,3
+ISOM 4400,Information Systems Project,6
+ISOM 4490,Independent Study in Information Systems,1-4
+ISOM 4520,Statistics for Financial Risk Management,4
+ISOM 4530,Statistical Analysis of Financial Data in R/S-plus,4
+ISOM 4540,Time Series Analysis and Forecasting,4
+ISOM 4590,Special Topics in Statistics,0-4
+ISOM 4690,Independent Study in Business Statistics,1-4
+ISOM 4720,Simulation in Business and Management,3
+ISOM 4740,Enterprise Resource Management,3
+ISOM 4750,Business Project Management,3
+ISOM 4780,Integrated Planning and Execution,3
+ISOM 4790,Special Topics in Operations Management,0-4
+ISOM 4810,OM Best Practices,3
+ISOM 4830,Analytics for Service Operations,3
+ISOM 4840,Financial Service Operations Management,3
+ISOM 4880,Operations Management Project,3
+ISOM 4890,Independent Study in Operations Management,1-4
+LABU 2040,Business Case Analyses,3
+LABU 2051,Business Case Analyses I,2
+LABU 2052,Business Case Analyses II,2
+LABU 2060,Effective Communication in Business,3
+LANG 1006,The Art of Public Speaking,3
+LANG 1117,Advanced Chinese Communication,3
+LANG 1130,Cantonese for Non-Chinese Language Background Students I,3
+LANG 1133,Cantonese for Chinese Language Background Students I,3
+LANG 1210,Japanese Language and Related Culture,3
+LANG 1310,French: World Language and Culture,3
+LANG 1330,Spanish and the Other America,3
+LANG 1402,English for University Studies,3
+LANG 1403,Academic English for University Studies,3
+LANG 1404,Advanced Academic English for University Studies,3
+LANG 1405,Mediated Me: An Introduction to Digital Literacy,3
+LANG 1406,Academic English for Business Studies,3
+LANG 1407,Academic English for Engineering Studies,3
+LANG 1408,Academic English for Humanities and Social Science Studies,3
+LANG 1409,Academic English for Science Studies,3
+LANG 1411,Elementary Putonghua for Non-Chinese Language Background Students,3
+LANG 1412,Intermediate Putonghua for Non-Chinese Language Background Students,3
+LANG 1413,Advanced Putonghua for Non-Chinese Language Background Students,3
+LANG 1414,Elementary Reading and Writing for Non-Chinese Language Background Students,3
+LANG 1415,Intermediate Reading and Writing for Non-Chinese Language Background Students,3
+LANG 1416,Effective Chinese Communication,3
+LANG 1421,Chinese Communication in the Digital Era,3
+LANG 1422,Chinese for Workplace Applications,3
+LANG 1423,Chinese Communication in Global Context,3
+LANG 1424,Chinese Writing in Cultural Contexts,3
+LANG 2010,English for Science I,3
+LANG 2030,Technical Communication I,3
+LANG 2061,Professional Writing for the Workplace,3
+LANG 2062,Professional Speaking for the Workplace,3
+LANG 2063,Writing for Workplace Success,3
+LANG 2064,Speaking for Workplace Success,3
+LANG 2065,Research Writing,3
+LANG 2070,English Communication for Humanities and Social Science Studies I,3
+LANG 2082,Communication for Environmental Management and Technology I,2
+LANG 2083,Communication for Environmental Management and Technology II,2
+LANG 2090,Exploring Language and Communication with Big Data,3
+LANG 2091,Phonetics and Speech Technology,3
+LANG 2170,Chinese Communication Skills for Humanities & Social Science Studies,3
+LANG 3021,Science Communication in English (Mathematics),3
+LANG 3022,Science Communication in English (Chemistry),3
+LANG 3023,Science Communication in English (Physics),3
+LANG 3024,Science Communication in English (Life Science),3
+LANG 3025,Science Communication in English (Environmental Science),3
+LANG 3027,Science Communication in English for Research Students,3
+LANG 3060,Advanced Academic Writing,3
+LANG 3070,English Communication for Humanities and Social Science Studies II,3
+LANG 3081,Communication for Environmental Management and Technology III,2
+LANG 4030,Technical Communication II for CSE, CPEG & DSCT,3
+LANG 4031,Technical Communication II for ECE & CPEG,3
+LANG 4032,Technical Communication II for IEDA and ISDN,3
+LANG 4033,Technical Communication II for Civil and Environmental Engineering,3
+LANG 4034,Technical Communication II for Mechanical and Aerospace Engineering,3
+LANG 4035,Technical Communication II for Chemical and Biological Engineering,3
+LANG 4070,Academic Writing in Context - Global China Studies,1
+LEGL 1000,Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance),0
+LIFS 1010,Introduction to Biological Sciences,3
+LIFS 1020,Biology of Human Health,3
+LIFS 1901,General Biology I,3
+LIFS 1902,General Biology II,3
+LIFS 1903,Laboratory for General Biology I,1
+LIFS 1904,Laboratory for General Biology II,1
+LIFS 1930,Nature of Life Sciences,3
+LIFS 2010,Modern Approaches to Biochemical and Cell Biological Research,3
+LIFS 2011,A Practicum on Wetland Conservation,3
+LIFS 2040,Cell Biology,3
+LIFS 2060,Biodiversity,3
+LIFS 2070,Introduction to Biotechnology,3
+LIFS 2080,Plant Biology,3
+LIFS 2210,Biochemistry I,3
+LIFS 2220,Biochemistry II,3
+LIFS 2240,Cell Biology Laboratory,3
+LIFS 2720,Biochemistry Laboratory,2
+LIFS 2820,Biochemical Laboratory Techniques,1
+LIFS 3002,Special Topics of Biological Sciences,2-4
+LIFS 3010,Molecular and Cellular Biology I,3
+LIFS 3020,Molecular and Cellular Biology II,3
+LIFS 3040,Animal Physiology,3
+LIFS 3060,Microbiology,3
+LIFS 3070,Introduction to Biophysical Instrumentation,3
+LIFS 3110,Biotechnological Application of Recombinant DNA Techniques,3
+LIFS 3140,General Genetics,4
+LIFS 3150,Biostatistics,3
+LIFS 3220,Animal Physiology Laboratory,3
+LIFS 3240,Introduction to Neurobiology,3
+LIFS 3260,Microbiology Laboratory,3
+LIFS 3370,Human Genetics in Practice,3
+LIFS 3510,Junior Research Project I,2
+LIFS 3520,Junior Research Project II,2
+LIFS 3580,Bioinformatics,3
+LIFS 4000,Special Topics in Life Science,1-4
+LIFS 4060,Immunobiology,3
+LIFS 4090,Developmental Biology,3
+LIFS 4140,Cancer Biology,3
+LIFS 4150,Plant Biotechnology,3
+LIFS 4190,Cellular Signaling,3
+LIFS 4200,Concepts and Issues in Contemporary Biotechnology,3
+LIFS 4320,Data Science for Biology and Medicine,3
+LIFS 4370,Human Genetics and Personalized Medicine,3
+LIFS 4380,Pharmacology and Toxicology,3
+LIFS 4540,Structure and Function of Proteins,3
+LIFS 4550,Biochemistry of Nutrition,3
+LIFS 4630,Advanced Topics in Biotechnology,3
+LIFS 4760,Biochemistry of Diseases,3
+LIFS 4800,Epigenetics and Chromosome Biology,3
+LIFS 4820,Entrepreneurship in Biotechnology,3
+LIFS 4882,Investigative Pharmacology,3
+LIFS 4884,Application of RNA Technology to Human Diseases,3
+LIFS 4888,Development and Registration of Pharmaceutical Products,3
+LIFS 4910,Independent Study,1-4
+LIFS 4950,Neurochemistry,3
+LIFS 4960,Biological Science Capstone Project,3
+LIFS 4961,Biochemistry and Cell Biology Capstone Project,3
+LIFS 4963,Biotechnology Capstone Project,3
+LIFS 4970,Biological Science Project Research I,3
+LIFS 4971,Biochemistry and Cell Biology Project Research I,3
+LIFS 4973,Biotechnology Project Research I,3
+LIFS 4980,Biological Science Project Research II,4
+LIFS 4981,Biochemistry and Cell Biology Project Research II,4
+LIFS 4983,Biotechnology Project Research II,4
+MARK 1220,Marketing and Society,3
+MARK 1230,Consumerism and Happiness,3
+MARK 2120,Marketing Management,3
+MARK 3220,Marketing Research,4
+MARK 3410,Promotion and Advertising Management,4
+MARK 3420,Consumer Behavior,4
+MARK 3430,Global Marketing,4
+MARK 3460,Retailing,4
+MARK 3470,Services Marketing,4
+MARK 3480,Pricing Strategy,4
+MARK 3510,Business to Business Marketing,4
+MARK 3520,Competitive Positioning,4
+MARK 3610,Digital Marketing,4
+MARK 3620,Marketing Analytics,4
+MARK 4210,Strategic Marketing,4
+MARK 4290,Special Topics,0-4
+MARK 4450,Brand Management,4
+MARK 4980,Independent Study,2-4
+MATH 1003,Calculus and Linear Algebra,3
+MATH 1012,Calculus IA,4
+MATH 1013,Calculus IB,3
+MATH 1014,Calculus II,3
+MATH 1020,Accelerated Calculus,4
+MATH 1023,Honors Calculus I,3
+MATH 1024,Honors Calculus II,3
+MATH 1701,Introductory Topics in Mathematical Sciences,1-4
+MATH 2001,Foundation of Mathematics,2
+MATH 2011,Introduction to Multivariable Calculus,3
+MATH 2023,Multivariable Calculus,4
+MATH 2033,Mathematical Analysis,4
+MATH 2043,Honors Mathematical Analysis,4
+MATH 2111,Matrix Algebra and Applications,3
+MATH 2121,Linear Algebra,4
+MATH 2131,Honors in Linear and Abstract Algebra I,4
+MATH 2343,Discrete Structures,4
+MATH 2350,Applied Linear Algebra and Differential Equations,3
+MATH 2351,Introduction to Differential Equations,3
+MATH 2352,Differential Equations,4
+MATH 2411,Applied Statistics,4
+MATH 2421,Probability,4
+MATH 2431,Honors Probability,4
+MATH 2511,Fundamentals of Actuarial Mathematics,3
+MATH 2731,Mathematical Problem Solving,3
+MATH 3033,Real Analysis,4
+MATH 3043,Honors Real Analysis,4
+MATH 3121,Abstract Algebra,3
+MATH 3131,Honors in Linear and Abstract Algebra II,4
+MATH 3312,Numerical Analysis,3
+MATH 3322,Matrix Computation,3
+MATH 3332,Data Analytic Tools,3
+MATH 3343,Combinatorial Analysis,3
+MATH 3423,Statistical Inference,3
+MATH 3424,Regression Analysis,3
+MATH 3425,Stochastic Modeling,3
+MATH 3426,Sampling,3
+MATH 3427,Bayesian Statistics,3
+MATH 3428,Statistical Computing,3
+MATH 3900,Communicating Mathematics to the Public,1
+MATH 4023,Complex Analysis,3
+MATH 4033,Calculus on Manifolds,3
+MATH 4051,Theory of Ordinary Differential Equations,3
+MATH 4052,Partial Differential Equations,3
+MATH 4061,Topics in Modern Analysis,2
+MATH 4063,Functional Analysis,3
+MATH 4141,Number Theory and Applications,3
+MATH 4151,Introduction to Lie Groups,3
+MATH 4221,Euclidean and Non-Euclidean Geometries,3
+MATH 4223,Differential Geometry,3
+MATH 4225,Topology,3
+MATH 4321,Game Theory,3
+MATH 4326,Introduction to Fluid Dynamics,3
+MATH 4333,Mathematical Biology,3
+MATH 4335,Introduction to Optimization,3
+MATH 4336,Introduction to Mathematics of Image Processing,3
+MATH 4343,Introduction to Graph Theory,4
+MATH 4351,Numerical Solutions of Partial Differential Equations,3
+MATH 4360,Mathematical Modeling,3
+MATH 4423,Nonparametric Statistics,3
+MATH 4424,Multivariate Analysis,3
+MATH 4425,Introductory Time Series,3
+MATH 4426,Survival Analysis,3
+MATH 4427,Loss Models and their Applications,3
+MATH 4429,Credibility Theory and its Applications,3
+MATH 4432,Statistical Machine Learning,3
+MATH 4433,Spatial Data Analysis,3
+MATH 4434,Deep Learning,3
+MATH 4511,Quantitative Methods for Fixed Income Derivatives,3
+MATH 4512,Fundamentals of Mathematical Finance,3
+MATH 4513,Life Contingencies Models and Insurance Risk,3
+MATH 4514,Financial Economics in Actuarial Science,3
+MATH 4515,Statistical and Computational Methods in Financial Mathematics,3
+MATH 4821,Special Topics,1-4
+MATH 4822,Special Topics in Pure Mathematics,1-4
+MATH 4823,Special Topics in Applied Mathematics,1-4
+MATH 4824,Special Topics in Statistics and Financial Mathematics,1-4
+MATH 4825,Special Topics in Actuarial Mathematics,3
+MATH 4900,Academic and Professional Development,1
+MATH 4921,Student Seminars,1-3
+MATH 4981-4985,Independent Study,1-3
+MATH 4990,Undergraduate Project,2-3
+MATH 4991,Capstone Project in Pure Mathematics,3
+MATH 4992,Capstone Project in Applied Mathematics,3
+MATH 4993,Capstone Project in Statistics,3
+MATH 4994,Capstone Project in Mathematics and Economics,3
+MATH 4995,Capstone Project for Data Science,3
+MATH 4999,Independent Capstone Project,3
+MECH 1902,Energy Systems in a Sustainable World,3
+MECH 1905,Buildings for Contemporary Living,3
+MECH 1906,Mechanical Engineering for Modern Life,3
+MECH 1907,Introduction to Aerospace Engineering,3
+MECH 1908,Exploration of Mechanical Design and Engineering,3
+MECH 1990,Industrial Training,0
+MECH 2020,Statics and Dynamics,3
+MECH 2040,Solid Mechanics I,3
+MECH 2210,Fluid Mechanics,3
+MECH 2310,Thermodynamics,3
+MECH 2410,Engineering Materials I,3
+MECH 2520,Design and Manufacturing I,3
+MECH 3030,Mechanisms of Machinery,3
+MECH 3110,Materials for Energy Technologies,3
+MECH 3300,Energy Conversion,3
+MECH 3310,Heat Transfer,3
+MECH 3400,Introduction to Composite Materials,3
+MECH 3420,Engineering Materials II,3
+MECH 3510,Computer-Aided Design and Manufacturing,3
+MECH 3610,Control Principles,3
+MECH 3620,Aircraft Design,3
+MECH 3630,Electrical Technology,3
+MECH 3640,Aerodynamics,3
+MECH 3650,Aircraft Structural Analysis,3
+MECH 3660,Gas Turbines and Jet Propulsion,3
+MECH 3670,Aircraft Performance and Stability,3
+MECH 3680,Avionics Systems,3
+MECH 3690,Aerospace Engineering Laboratory,3
+MECH 3710,Manufacturing Processes and Systems,3
+MECH 3830,Laboratory,3
+MECH 3907,Mechatronic Design and Prototyping,3
+MECH 4000,Special Topics,3
+MECH 4010,Materials Failure in Mechanical Applications,3
+MECH 4100,Experiential Projects in Aerospace Engineering,3
+MECH 4340,Air Conditioning Systems,3
+MECH 4350,Indoor Air Quality in Buildings,3
+MECH 4360,Introduction to Intelligent Building Systems,3
+MECH 4430,Materials Characterization,3
+MECH 4450,Introduction to Finite Element Analysis,3
+MECH 4710,Introduction to Robotics,3
+MECH 4720,Introduction to Precision Engineering,3
+MECH 4740,Numerical Methods in Engineering,3
+MECH 4750,Vibration, Control and Programming,3
+MECH 4810,Unmanned Aviation Vehicle,3
+MECH 4830,Introduction to Aerospace Computational Fluid Dynamics (CFD),3
+MECH 4890,Introduction to Nanosatellite Engineering,3
+MECH 4900,Final Year Design Project,6
+MECH 4912,Green Technologies for Buildings, Energy and Water,3
+MECH 4950,Co-op Program,6
+MECH 4980,Final Year Aerospace Design Project,6
+MECH 4990,Aerospace Research Project,6
+MECH 4995,Research Project,6
+MGMT 1110,Introduction to Management,3
+MGMT 1120,Developing the Leader in You,3
+MGMT 1130,Traps and Pitfalls in Judgment and Decision Making,3
+MGMT 2010,Business Ethics and the Individual,2
+MGMT 2110,Organizational Behavior,3
+MGMT 2130,Business Ethics and Social Responsibility,2
+MGMT 3110,Human Resources Management,4
+MGMT 3120,Managerial Leadership,4
+MGMT 3130,Judgement and Decision Making in Organizations,4
+MGMT 3140,Negotiation,4
+MGMT 3160,Environmental Business Strategies,3
+MGMT 3170,Managing CSR (Corporate Social Responsibility),3
+MGMT 4000,Special Topics in Management,0-4
+MGMT 4010,Independent Study,1-4
+MGMT 4210,Corporate Strategy,3
+MGMT 4220,Entrepreneurship and Innovation,4
+MGMT 4230,International Management,4
+MGMT 4240,Strategic Management in China,4
+MGMT 4250,Management Consulting,3
+MGMT 4270,Training and Development,3
+MGMT 4280,Transnational Legal Issues and Dispute Settlement,3
+MGMT 4290,HR Analytics,3
+MGMT 4300,Knowing and Managing Your Social Networks for Careers and Business,3
+OCES 1001,The Earth as a Blue Planet,3
+OCES 1010,Principles and Applications of Environmental Science,3
+OCES 1030,Environmental Science,3
+OCES 2001,Survey of Ocean Science,3
+OCES 2002,Marine Chemistry,3
+OCES 2003,Descriptive Physical Oceanography,3
+OCES 2004,Sustainable Ocean,3
+OCES 2100,Conservation Field Trips,1
+OCES 2201,Internship,2-4
+OCES 3001,Coastal Environmental Monitoring,3
+OCES 3003,Field Methods in Marine Studies,3
+OCES 3005,Blue Economy,3
+OCES 3130,Marine Biology,3
+OCES 3160,Ecology,3
+OCES 3201,Biological Oceanography,3
+OCES 3203,Physical Oceanography,3
+OCES 3204,Essential Oceanography,3
+OCES 3301,Data Analysis in Ocean Science,3
+OCES 3302,Marine Pollution Tracking,3
+OCES 3330,Marine Biology Laboratory,3
+OCES 4001,Ocean and Climate Change,3
+OCES 4103,Fisheries and Aquaculture,3
+OCES 4201,Environmental Microbiology,3
+OCES 4202,Marine Biotechnology,3
+OCES 4203,Environmental Impact and Risk Assessment,3
+OCES 4204,Coral Reef Ecosystem Science,4
+OCES 4205,Chemical Oceanography,3
+OCES 4301,Environmental Conservation,3
+OCES 4320,Marine Toxicology,3
+OCES 4326,Introduction to Fluid Dynamics,3
+OCES 4910,Independent Study,1-3
+OCES 4940,Special Topics in Ocean Science and Technology,1-4
+OCES 4964,Ocean Science and Technology Capstone Project Research,3
+OCES 4974,Ocean Science and Technology Research Project I,3
+OCES 4984,Ocean Science and Technology Research Project II,3
+PHYS 1001,Physics and the Modern Society,3
+PHYS 1002,Introduction to Astrophysics and Astronomy,3
+PHYS 1003,Energy and Related Environmental Issues,3
+PHYS 1005,Physics in Movies,3
+PHYS 1006,Astronomy for Beginners,3
+PHYS 1007,Quantum Information for Everyone,3
+PHYS 1101,Introductory Physics,4
+PHYS 1111,General Physics I,3
+PHYS 1112,General Physics I with Calculus,3
+PHYS 1113,Laboratory for General Physics I,1
+PHYS 1114,General Physics II,3
+PHYS 1115,Laboratory for General Physics II,1
+PHYS 1312,Honors General Physics I,3
+PHYS 1314,Honors General Physics II,3
+PHYS 2010,Introductory Biological Physics,3
+PHYS 2022,Modern Physics,3
+PHYS 2023,Modern Physics Laboratory,1
+PHYS 2080,Physics Seminar and Tutorial I,1
+PHYS 2090,Directed Studies in Physics I,1
+PHYS 2124,Mathematical Methods in Physics I,3
+PHYS 3031,Mathematical Methods in Physics II,3
+PHYS 3032,Classical Mechanics,3
+PHYS 3033,Electricity and Magnetism I,3
+PHYS 3034,Electricity and Magnetism II,3
+PHYS 3036,Quantum Mechanics I,3
+PHYS 3037,Honors Quantum Mechanics I,4
+PHYS 3038,Optics,3
+PHYS 3040,Introduction to Materials Science,3
+PHYS 3042,Structure and Properties of Crystalline Solids,3
+PHYS 3053,Honors Electricity and Magnetism I,4
+PHYS 3060,Physics Internship,3
+PHYS 3071,Introduction to Stellar Astrophysics,3
+PHYS 3090,Directed Studies in Physics II,1
+PHYS 3142,Computational Methods in Physics,3
+PHYS 3152,Methods of Experimental Physics I,3
+PHYS 3153,Methods of Experimental Physics II,3
+PHYS 4050,Thermodynamics and Statistical Physics,3
+PHYS 4051,Quantum Mechanics II,3
+PHYS 4055,Particle Physics and the Universe,3
+PHYS 4058,Information Physics,3
+PHYS 4071,Big Bang Cosmology and Inflation,3
+PHYS 4080,Physics Seminar and Tutorial II,1
+PHYS 4090,Directed Studies in Physics III,1
+PHYS 4151,Experimental Physics: An Experiential Approach,2
+PHYS 4191,Capstone Project,4
+PHYS 4291,Capstone Research,6
+PHYS 4498,Independent Study Project,4
+PHYS 4811,Contemporary Applications of Physics: Machine Learning in Physics,1
+PHYS 4812,Contemporary Applications of Physics: Quantum Information Technology,1
+PHYS 4813,Contemporary Applications of Physics: Atmospheric Physics - Making Sense of Weather and Climate,1
+PHYS 4814,Contemporary Applications of Physics: Medical Physics,1
+PPOL 1110,Public Policy in Cases,3
+PPOL 2000,Special Topics in Public Policy,1-4
+PPOL 2110,Science, Technology and Society in China,3
+PPOL 3000,Special Topics in Public Policy,1-4
+PPOL 3210,Energy Policy,3
+PPOL 3800,Ethics, Emerging Technologies and Public Policy,3
+PPOL 4000,Special Topics in Public Policy,1-4
+RMBI 1010,Risk Management in Financial Institutions,3
+RMBI 1020,Business Intelligence for Data-Driven Decisions,3
+RMBI 2000,Special Topics in Risk Management and Business Intelligence,0-4
+RMBI 2001,Academic and Professional Development in Risk Management and Business Intelligence,0
+RMBI 3000,Special Topics in Risk Management and Business Intelligence,0-4
+RMBI 3010,Data Analytics with R,2
+RMBI 3020,Practicing Risk Management using Case Studies,3
+RMBI 3110,Introduction to Risk Management and Business Intelligence,3
+RMBI 4000,Special Topics in Risk Management and Business Intelligence,1-4
+RMBI 4210,Quantitative Methods for Risk Management,3
+RMBI 4220,Life Contingencies Models and Insurance Risk,3
+RMBI 4310,Advanced Data Mining for Risk Management and Business Intelligence,3
+RMBI 4980,Risk Management and Business Intelligence Capstone Project I,4
+RMBI 4990,Risk Management and Business Intelligence Capstone Project II,4
+SBMT 1100,Business Study Trip,0-1
+SBMT 1111,Business Student Induction,0
+SBMT 2100-2110,Community Services Project,1-4
+SBMT 2200,Social Enterprise Internship Program,1-4
+SBMT 2900,Special Topics in Business and Management,0-4
+SBMT 3100,Business Field Study Fundamentals,1-4
+SBMT 3200-3210,Corporate Project,1-4
+SBMT 3300,Business Competitions,1
+SBMT 4000,SBM Undergraduate Honors Research Project,6
+SCIE 1000,Science School Induction,0
+SCIE 1010,Enrichment Project,0-3
+SCIE 1030,Special Topics,1-4
+SCIE 1080,Development and Management on Science Activities,1-2
+SCIE 1090,Community Services Project,1-4
+SCIE 1100,Career Building for Science Students,1
+SCIE 1102,Designing Your Life for Science Students,1
+SCIE 1110,Great Ideas in Science,3
+SCIE 1120,Chemistry and Life,3
+SCIE 1130,Scientific Understanding of Our World,1
+SCIE 1500,Guided Study on Research I,1
+SCIE 2500,Guided Study on Research II,1
+SCIE 3110,Teaching Science Using Innovative Teaching Tools,3
+SCIE 3500,IRE Research Project I,3
+SCIE 3900,International Research Experience,3
+SCIE 4500,IRE Research Project II,3
+SCIE 4860,Young Entrepreneurial Syndicate in Applied Sciences Project,3
+SGFN 4733,Green Finance Case Analyses,3
+SHSS 1020,Humanities and Social Science Internship,1-2
+SHSS 1030,Career Building for GCS and QSA Students,1
+SHSS 1040,Service Learning in the Humanities and Social Science,1-4
+SHSS 1050,Humanities and Social Science Co-op Program,3
+SHSS 3010,SHSS Independent Study,1-2
+SHSS 4991,Capstone Project,3
+SHSS 4992,Honors Thesis,6
+SHSS 4993,Honors Research,3
+SISP 1001,Innovation in STEM Projects,1
+SISP 1101,Appreciation of Our Nature,1
+SISP 1102,Chemistry in the Modern World,1
+SISP 1103,Introductory Game Theory,1
+SISP 1104,Calculus: the First Steps,1
+SISP 1105,The Physics of Everyday Life,1
+SISP 1106,Combinatorics: The Art of Counting and Its Applications,1
+SISP 1107,Amazing Innovations in Biotechnology,1
+SISP 1108,A First Step to Data Science with Python,1
+SISP 1109,A Logical Approach to Organic Chemistry,1
+SISP 1110,Fundamentals of Neuroscience,1
+SISP 1111,Physics in Movies,1
+SISP 1112,Matrix Algebra,1
+SISP 1113,Human Body and Diseases,1
+SISP 1114,Mathematical Wonders in Biology,1
+SISP 1115,Microbial Control in Health and the Environment,1
+SISP 1301,The Fascinating World of Multimedia and Its Processing,1
+SISP 1302,Fundamentals of Robot Control and Action,1
+SISP 1303,Intelligent Sensing Technologies,1
+SISP 1304,Making Smart Decisions in Daily Lives with Engineering Ideas,1
+SISP 1305,Internet Game Development for Beginners,1
+SISP 1306,Development of Great Structures throughout Civilisation,1
+SISP 1307,Better Environment: The Technology Behind the Stories,1
+SISP 1308,The Electric Vehicle: Technology and Expectations in the Automobile Age,1
+SISP 1309,Renewal Energy Applications: Wind Power for Lighting,1
+SISP 1310,Engineering and Environment,1
+SISP 1311,Acoustic Waves and Intelligent Fluid Systems,1
+SISP 1312,Developing Android Applications for Beginners,1
+SISP 1313,Introduction to Computer-Aided Design and Manufacturing,1
+SISP 1314,Engineering Design of Solar Car,1
+SISP 1315,Solid Waste : Our Valuable Resource, Renewable Energy and Environmental Business,1
+SISP 1316,Tall Buildings and Long-span Bridges: Structures and Aesthetics,1
+SISP 1317,Water, You and Environment,1
+SISP 1318,Making a Smart Garbage Bin by Internet of Things Technology,1
+SISP 1501,Accounting as a Language of Business,1
+SISP 1502,Information Systems for Business Innovation,1
+SISP 1503,Price Theory and Its Applications,1
+SISP 1504,The World of Marketing,1
+SISP 1505,Becoming an Effective Decision Maker,1
+SISP 1506,Managing Business Operations for Competitive Advantage,1
+SISP 1507,Effective Management for Results,1
+SISP 1508,Understanding Finance,1
+SISP 1509,Social Media in Business,1
+SISP 1510,Statistics for Business and Policy Analysis,1
+SISP 1511,Deep Learning Business Applications,1
+SISP 1512,The Art of Negotiation,1
+SISP 1513,Managing Risk in Business and Daily Life,1
+SISP 1701,Appreciation of Western Architecture,1
+SISP 1702,History that High-School Textbooks Never Touched: Violence, Sins, "Great" Men in China, 1800s-1930s,1
+SISP 1703,Psychology and Personal Growth,1
+SISP 1704,Humanities and Leadership,1
+SISP 1705,Introduction to Musical Theatre,1
+SISP 1706,Understanding Society,1
+SISP 1707,The Story of Canto-Pop,1
+SISP 1708,Exploring Music and Film,1
+SISP 1709,Introducing Music Theory,1
+SISP 1710,Creativity and Innovation,1
+SISP 1711,Science, Technology and Public Health,1
+SISP 1712,The "Belt and Road" Initiative,1
+SISP 1713,Will Technology Replace Us?,1
+SISP 1714,Population Studies,1
+SISP 1901,Greening Business: Challenges and Opportunities,1
+SOSC 1000-1010,Special Topics,1-4
+SOSC 1050,Introduction to Social Science Research,3
+SOSC 1100,Quantitative Data Analysis for Social Research I,3
+SOSC 1110,Data Analysis for Quantitative Social Research,3
+SOSC 1150,Science, Technology and Work,3
+SOSC 1190,China and the World:  China's Development in Historical and Comparative Perspectives,3
+SOSC 1270,International Law,3
+SOSC 1300,The World of Politics,3
+SOSC 1309,Making Sense of Government and Politics,3
+SOSC 1350,Contemporary China: Continuity and Change,3
+SOSC 1359,China: Development and Transformations,3
+SOSC 1400,Hong Kong and the Greater Bay Area,3
+SOSC 1420,Poverty,3
+SOSC 1440,Introduction to Economics,3
+SOSC 1449,Understanding Our Economy,3
+SOSC 1450,Introduction to Comparative Politics,3
+SOSC 1470,The Economic and Political Development of Modern Japan,3
+SOSC 1510,Politics Through Film,3
+SOSC 1661,Contemporary Hong Kong: Government & Politics,3
+SOSC 1662,Contemporary Hong Kong Society,3
+SOSC 1700,What Is Democracy?,3
+SOSC 1780,Population and Development in China,3
+SOSC 1840,Government, Law and Society in China,3
+SOSC 1850,Understanding Society,3
+SOSC 1859,Exploring Society,3
+SOSC 1860,Population and Society,3
+SOSC 1960,Introduction to Psychology,3
+SOSC 1969,Discovering Mind and Behavior,3
+SOSC 1980,Psychology of Personal Growth,3
+SOSC 1990,Research Methods in Psychological Science,3
+SOSC 2000,Special Topics,1-4
+SOSC 2130,Education and Society,3
+SOSC 2140,Research Methods in the Social Sciences,3
+SOSC 2210,Social Psychology,3
+SOSC 2240,Biological Psychology,3
+SOSC 2250,Cognitive Psychology,3
+SOSC 2290,Understanding Globalization,3
+SOSC 2299,The Rise and Fall of Globalization,3
+SOSC 2310,Introductory Environmental and Health Economics,3
+SOSC 2320,Exploring Political Theory,3
+SOSC 2330,Environmental Politics and Policy,3
+SOSC 2400,Quantitative Data Analysis for Social Research II,3
+SOSC 2740,Gender and Society,3
+SOSC 2800,Cognitive Science,3
+SOSC 2888,Special Topics in Psychology,1-4
+SOSC 2980,Personality Psychology,3
+SOSC 2990,Developmental Psychology,3
+SOSC 3000,Special Topics,1-4
+SOSC 3001,Understanding China, 1700-2000: A Data Analytic Approach,3
+SOSC 3010,Special Topics,3
+SOSC 3120,Economic Development,3
+SOSC 3130,Hong Kong Culture,3
+SOSC 3180,Political Issues in Hong Kong from a Comparative Perspective,3
+SOSC 3200,Quantitative Social Analysis Colloquium,1
+SOSC 3240,Application of Geographical Information Systems,3
+SOSC 3250,Gender and Development,3
+SOSC 3520,Understanding Comparative Politics,3
+SOSC 3530,Social Movements and Contentious Politics,3
+SOSC 3540,Environmental Psychology,3
+SOSC 3550,Educational Psychology,3
+SOSC 3600,Public Policy Analysis,3
+SOSC 3630,Democracy and Democratization around the World,3
+SOSC 3700,Quantitative Social Analysis Practicum,1
+SOSC 3720,Introduction to Social Network Analysis,3
+SOSC 3800,Ethics, Emerging Technologies and Public Policy,3
+SOSC 3850,Ethics and Public Affairs,3
+SOSC 3880,Social Inequality and Social Mobility,3
+SOSC 3888,Special Topics in Psychology,1-4
+SOSC 3900,Abnormal Psychology,3
+SOSC 3990,Health Psychology,3
+SOSC 4000,Special Topics,1-4
+SOSC 4100,Research Pro-seminar,1
+SOSC 4110,Capstone Project,3
+SOSC 4250,Experiments and Quasi-experiments in the Social Sciences,3
+SOSC 4260,China's Economic Transformation,3
+SOSC 4280,China in the Global Political Economy,3
+SOSC 4290,China's Sustainable Development,3
+SOSC 4300,Computational Social Science,3
+SOSC 4310,Chinese Capitalism: Historical and Comparative Perspectives,3
+SOSC 4330,Quantitative Data Analysis for Social Research III,3
+SOSC 4500,The Politics of the State,3
+SOSC 4600,Understanding Chinese Politics,3
+SUST 1000,Sustainability Fundamentals,3
+SUST 1001,Special Topics in Sustainability,1-4
+SUST 1010,Introduction to Sustainability,3
+SUST 1020,Climate Films and Sustainable Future,3
+SUST 1101,Environmental, Social, and Governance Fundamentals,3
+SUST 2001,Special Topics in Sustainability,1-4
+SUST 3001,Special Topics in Sustainability,1-4
+SUST 4001,Special Topics in Sustainability,1-4
+TEMG 1010,T&M Professional Activities,0
+TEMG 3950,T&M Case Analysis and Product Innovation,3
+TEMG 4000,Special Topics,0-4
+TEMG 4940,T&M Prototyping and Research Project,3-5
+TEMG 4950,T&M Corporate Consulting Project,3-5
+TEMG 4970,T&M IBPC Startup Project,1-5
+UCOP 3200,Design for Global Health,3
+UPOP 1920,Career Readiness Training Program,1
+UROP 1000,Undergraduate Research Opportunities,0
+UROP 1100,Undergraduate Research Opportunities Series 1,1
+UROP 2100,Undergraduate Research Opportunities Series 2,1
+UROP 3100,Undergraduate Research Opportunities Series 3,1
+UROP 3200,Undergraduate Research Opportunities with Mini-conference Experience,1
+UROP 4100,Undergraduate Research Opportunities Series 4,1
+UTOP 2910,Pathways to Teaching for Future Educators,3
+WBBA 2000,Special Topics in World Business,0-4
+WBBA 2010,Understanding Business in Asia,2
+WBBA 2020,Seminars in Asia's Business,1
+WBBA 2030,Effective Communication in Business,3
+WBBA 2080,Doing Business in Asia,3
+WBBA 4010,Capstone Project,4

@@ -66,7 +66,7 @@ async def main() -> None:
         )
 
         for course in courses:
-            print(f"{course.code}\t{course.name}\t{course.credit}")
+            print(f"{course.code},{course.name},{course.credit}")
 
 
 if __name__ == "__main__":
