@@ -20,7 +20,7 @@ In [mathematics](mathematics.md), {@{the __discrete Fourier transform__ (__DFT__
 
 ## definition
 
-The _discrete Fourier transform_ {@{transforms a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$ into another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$}@}, which is defined by:
+The _discrete Fourier transform_ {@{transforms a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$}@} into {@{another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$}@}, which is defined by:
 
 > {@{__discrete Fourier transform (Eq. 1)__}@}
 >
