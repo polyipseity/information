@@ -85,7 +85,7 @@ The content is in teaching order.
 - [cantilever](../../../../general/cantilever.md) ::@:: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2025-10-14,349,310!2029-10-03,1549,370-->
 - simply supported beam ::@:: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2028-01-12,954,310!2027-03-17,725,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::@:: twisting of an object <!--SR:!2028-02-11,1043,350!2029-10-28,1568,370-->
-  - torsion deformation ::@:: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2027-12-22,1006,350!2025-08-12,348,350-->
+  - torsion deformation ::@:: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2027-12-22,1006,350!2030-03-13,1674,370-->
   - torsion examples ::@:: drill pipes, power transmission shafts, tall buildings <!--SR:!2026-01-23,463,330!2026-12-28,677,330-->
 - [shear](../../../../general/shear%20force.md) ::@:: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2025-08-18,354,350!2029-03-04,1371,370-->
   - shear examples ::@:: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2026-09-13,635,330!2028-01-07,1019,350-->

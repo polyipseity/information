@@ -80,7 +80,7 @@ return _chain.from_iterable(await _gather(
 
 - `**`:@:power <!--SR:!2028-08-02,1107,350-->
 - `*`:@:multiplication <!--SR:!2025-10-26,325,342-->
-- `/`:@:division <!--SR:!2025-08-12,264,342-->
+- `/`:@:division <!--SR:!2029-01-10,1247,362-->
 - `//`:@:floor division <!--SR:!2025-10-21,320,342-->
 - `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-08-23,273,342-->
 - `+`:@:addition <!--SR:!2025-09-03,282,342-->
@@ -243,7 +243,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2025-10-27,318,363!2026-04-11,458,383!2025-12-30,351,363!2026-04-05,457,383!2025-10-13,312,363!2025-08-12,265,363!2029-02-23,1296,383!2026-05-20,491,383-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2025-10-27,318,363!2026-04-11,458,383!2025-12-30,351,363!2026-04-05,457,383!2025-10-13,312,363!2028-03-31,962,363!2029-02-23,1296,383!2026-05-20,491,383-->
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2026-05-24,488,394-->
 

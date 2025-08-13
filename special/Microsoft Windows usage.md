@@ -19,7 +19,7 @@ tags:
 - move window to bottom::@::Alt+Esc <!--SR:!2027-03-20,610,230!2029-01-04,1271,270-->
 - minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2026-06-30,495,190!2029-02-05,1442,270-->
 - maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-08-21,206,210!2029-12-06,1597,270-->
-- maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2025-08-12,219,230!2025-08-31,211,210-->
+- maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2027-07-25,712,250!2025-08-31,211,210-->
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2026-11-05,546,190!2028-08-12,1293,270-->
 - toggle unfocused windows::@::⊞Win+Home <!--SR:!2025-11-29,331,190!2025-09-11,176,150-->
 - toggle fullscreen::@::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2027-08-08,1007,250!2029-02-25,1534,310-->

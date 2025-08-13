@@ -150,7 +150,7 @@ If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time
     1. Dequeue {@{the two nodes with the lowest weight by examining the fronts of both queues}@}. (annotation: It is possible that {@{the two nodes are from the same queue}@}, so {@{the first two nodes of each queue should be inspected}@}.)
     2. Create {@{a new internal node, with the two just-removed nodes as children \(either node can be either child\)}@} and {@{the sum of their weights as the new weight}@}.
     3. Enqueue {@{the new node into the rear of}@} the second queue.
-4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2025-10-21,253,330!2025-10-31,257,330!2025-12-07,289,330!2025-10-24,251,330!2025-11-29,282,330!2025-10-18,251,330!2026-10-21,505,310!2025-08-12,180,310!2027-05-09,678,330!2025-10-10,244,330!2025-12-08,290,330-->
+4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2025-10-21,253,330!2025-10-31,257,330!2025-12-07,289,330!2025-10-24,251,330!2025-11-29,282,330!2025-10-18,251,330!2026-10-21,505,310!2027-02-25,562,310!2027-05-09,678,330!2025-10-10,244,330!2025-12-08,290,330-->
 
 Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a dictionary which maps the symbols to binary codes as follows}@}: <!--SR:!2025-10-28,255,330!2025-08-31,194,310-->
 

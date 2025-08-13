@@ -45,7 +45,7 @@ The rule of division states that {@{there are _n/d_ ways to do a task}@} if {@{i
 
 - see: [bijective proof](bijective%20proof.md)
 
-Bijective proofs prove that {@{two sets have the same number of elements}@} by {@{finding a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}@}. <!--SR:!2025-10-31,295,330!2025-08-12,215,310-->
+Bijective proofs prove that {@{two sets have the same number of elements}@} by {@{finding a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}@}. <!--SR:!2025-10-31,295,330!2028-02-23,925,330-->
 
 ## double counting
 

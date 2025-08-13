@@ -78,7 +78,7 @@ The content is in teaching order.
 - [management accounting](../../../../general/management%20accounting.md)
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::@:: internal reporting <!--SR:!2025-08-28,263,337!2025-08-28,264,337-->
   - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2025-11-19,324,337!2025-09-26,287,337-->
-  - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2025-08-12,204,277!2028-04-12,976,317-->
+  - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2027-10-09,788,297!2028-04-12,976,317-->
   - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2027-08-28,815,337!2025-11-25,330,337-->
 - [§ week 1 review](questions.md#week%201%20review)
 

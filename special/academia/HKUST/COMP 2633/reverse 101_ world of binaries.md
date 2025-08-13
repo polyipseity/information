@@ -65,7 +65,7 @@ A note on endianness. For registers, {@{it does not make sense to talk about end
 Below is a list of common instructions (in learning order):
 
 - `mov <dest>, <src>` ::@:: Copy a value at `<src>` to `<dest>`. <!--SR:!2026-01-30,405,365!2025-12-25,377,365-->
-- `add <dest> <src>` ::@:: Increment the value at `<dest>` by `<src>`. <!--SR:!2025-08-18,267,330!2025-08-12,264,343-->
+- `add <dest> <src>` ::@:: Increment the value at `<dest>` by `<src>`. <!--SR:!2025-08-18,267,330!2029-01-11,1248,363-->
 - `sub <dest> <src>` ::@:: Decrement the value at `<dest>` by `<src>`. <!--SR:!2026-01-15,393,365!2025-12-05,362,365-->
 - `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2028-07-10,1081,357!2025-08-19,255,345-->
 - `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-08-13,219,270!2025-10-31,330,357-->
