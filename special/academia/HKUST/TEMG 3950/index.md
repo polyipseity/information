@@ -34,7 +34,7 @@ The content is in teaching order.
 - good business opportunities ::@:: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2026-01-22,410,250!2027-05-15,801,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
-  - blue ocean strategy example ::@:: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2025-08-13,324,290!2027-02-25,781,330-->
+  - blue ocean strategy example ::@:: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2029-03-11,1306,310!2027-02-25,781,330-->
 - International Business Plan Competition ::@:: IBPC <!--SR:!2028-01-18,1060,350!2028-10-25,1280,350-->
 - transferrable technology ::@:: Technology that can potentially target multiple market segments. <!--SR:!2028-08-12,1221,350!2027-02-17,774,330-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)

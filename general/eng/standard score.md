@@ -105,7 +105,7 @@ In {@{principal components analysis}@}, "{@{Variables measured on different scal
 
 ### relative importance of variables in multiple regression: standardized regression coefficients
 
-{@{Standardization of variables prior to [multiple regression analysis](multiple%20regression%20analysis.md)}@} is sometimes {@{used as an aid to interpretation}@}.<sup>[\[12\]](#^ref-12)</sup> \(page 95\) state the following. <!--SR:!2026-01-03,260,330!2025-08-13,131,290-->
+{@{Standardization of variables prior to [multiple regression analysis](multiple%20regression%20analysis.md)}@} is sometimes {@{used as an aid to interpretation}@}.<sup>[\[12\]](#^ref-12)</sup> \(page 95\) state the following. <!--SR:!2026-01-03,260,330!2027-01-27,532,310-->
 
 "{@{The standardized regression slope}@} is {@{the slope in the regression equation if X and Y are standardized}@} … {@{Standardization of X and Y}@} is done by {@{subtracting the respective means from each set of observations and dividing by the respective standard deviations}@} … In {@{multiple regression, where several X variables are used}@}, {@{the standardized regression coefficients}@} {@{quantify the relative contribution of each X variable}@}." <!--SR:!2026-01-06,263,330!2026-02-13,293,330!2026-02-01,283,330!2026-01-22,275,330!2025-10-08,187,310!2026-01-09,264,330!2025-12-13,243,330-->
 

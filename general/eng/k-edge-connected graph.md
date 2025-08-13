@@ -43,7 +43,7 @@ If {@{_n_ is the number of vertices in the graph}@}, this simple algorithm would
 
 An improved algorithm will {@{solve the maximum flow problem for every pair _\(u,v\)_ where _u_ is arbitrarily fixed while _v_ varies over all vertices}@}. This {@{reduces the complexity to $O(n^{4})$}@} and is {@{sound since, if a [cut](cut%20(graph%20theory).md) of capacity less than _k_ exists, it is bound to separate _u_ from some other vertex}@}. It can be further improved by {@{an algorithm of [Gabow](Harold%20N.%20Gabow.md)}@} that runs in {@{worst case $O(n^{3})$ time}@}. <sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-12-28,276,330!2025-12-05,258,330!2025-10-08,196,310!2026-10-24,490,310!2026-08-16,437,310-->
 
-{@{The Karger–Stein variant of [Karger's algorithm](Karger's%20algorithm.md)}@} provides {@{a faster [randomized algorithm](randomized%20algorithm.md) for determining the connectivity}@}, with {@{expected runtime $O(n^{2}\log ^{3}n)$}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-27,233,250!2025-12-18,268,330!2025-08-13,107,210-->
+{@{The Karger–Stein variant of [Karger's algorithm](Karger's%20algorithm.md)}@} provides {@{a faster [randomized algorithm](randomized%20algorithm.md) for determining the connectivity}@}, with {@{expected runtime $O(n^{2}\log ^{3}n)$}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-27,233,250!2025-12-18,268,330!2026-03-30,229,210-->
 
 A related problem: finding {@{the minimum _k_-edge-connected spanning subgraph of _G_ \(that is: select as few as possible edges in _G_ that your selection is _k_-edge-connected\)}@} is {@{NP-hard for $k\geq 2$}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-07,158,230!2025-09-25,186,310-->
 

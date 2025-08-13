@@ -148,7 +148,7 @@ One can also {@{introduce regular gaps in the sequence}@} by {@{replacing _x_ by
 
 By {@{squaring the initial generating function}@}, or by {@{finding the derivative of both sides with respect to _x_ and making a change of running variable _n_ → _n_ + 1}@}, one sees that {@{the coefficients form the sequence 1, 2, 3, 4, 5, ...}@}, so one has {@{$$\sum _{n=0}^{\infty }(n+1)x^{n}={\frac {1}{(1-x)^{2} } }\,,$$}@} <!--SR:!2027-08-21,782,330!2025-08-23,222,310!2027-11-22,854,330!2027-09-13,801,330-->
 
-and the third power has as coefficients {@{the [triangular numbers](triangular%20number.md) 1, 3, 6, 10, 15, 21, ...}@} whose term _n_ is {@{the [binomial coefficient](binomial%20coefficient.md) ($\binom {n + 2} 2$)}@}, so that {@{$$\sum _{n=0}^{\infty }{\binom {n+2}{2} }x^{n}={\frac {1}{(1-x)^{3} } }\,.$$}@} <!--SR:!2026-05-29,392,290!2026-07-10,442,310!2025-08-13,193,270-->
+and the third power has as coefficients {@{the [triangular numbers](triangular%20number.md) 1, 3, 6, 10, 15, 21, ...}@} whose term _n_ is {@{the [binomial coefficient](binomial%20coefficient.md) ($\binom {n + 2} 2$)}@}, so that {@{$$\sum _{n=0}^{\infty }{\binom {n+2}{2} }x^{n}={\frac {1}{(1-x)^{3} } }\,.$$}@} <!--SR:!2026-05-29,392,290!2026-07-10,442,310!2027-01-20,525,270-->
 
 More generally, for {@{any non-negative integer _k_ and non-zero real value _a_}@}, it is true that {@{$$\sum _{n=0}^{\infty }a^{n}{\binom {n+k}{k} }x^{n}={\frac {1}{(1-ax)^{k+1} } }\,.$$}@} <!--SR:!2027-09-30,811,330!2025-08-22,200,270-->
 

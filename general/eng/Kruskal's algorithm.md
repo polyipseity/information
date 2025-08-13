@@ -108,7 +108,7 @@ In cases {@{where the edges are already sorted}@}, or {@{where they have small e
 
 ## proof of correctness
 
-The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm produces a [spanning tree](spanning%20tree.md)}@}. Second, it is proved that {@{the constructed spanning tree is of minimal weight}@}. <!--SR:!2025-10-24,257,330!2025-08-13,196,310!2025-10-25,259,330-->
+The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm produces a [spanning tree](spanning%20tree.md)}@}. Second, it is proved that {@{the constructed spanning tree is of minimal weight}@}. <!--SR:!2025-10-24,257,330!2027-12-03,842,330!2025-10-25,259,330-->
 
 ### spanning tree
 

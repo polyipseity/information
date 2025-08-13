@@ -116,7 +116,7 @@ If {@{an increase in the price of a commodity causes households to expect the pr
 
 ### basic or necessary goods
 
-{@{The goods which people need no matter how high the price is}@} are {@{basic or necessary goods}@}. {@{Medicines covered by insurance}@} are a good example. {@{An increase or decrease in the price of such a good}@} does not {@{affect its quantity demanded}@}. <!--SR:!2026-01-27,347,349!2025-10-27,271,330!2025-08-13,196,310!2025-12-18,313,349!2025-10-22,265,330-->
+{@{The goods which people need no matter how high the price is}@} are {@{basic or necessary goods}@}. {@{Medicines covered by insurance}@} are a good example. {@{An increase or decrease in the price of such a good}@} does not {@{affect its quantity demanded}@}. <!--SR:!2026-01-27,347,349!2025-10-27,271,330!2027-12-02,841,330!2025-12-18,313,349!2025-10-22,265,330-->
 
 ### certain scenarios in stock trading
 

@@ -97,7 +97,7 @@ return await memorize_map(
 - brick red:@:[calcium](calcium.md) <!--SR:!2026-03-02,746,310-->
 - light green (through [cobalt blue glass](cobalt%20glass.md)):@:[calcium](calcium.md) <!--SR:!2028-05-20,1129,250-->
 - blue-green:@:[copper](copper.md)(I) <!--SR:!2027-12-12,937,270-->
-- green (non-halide):@:[copper](copper.md)(II) <!--SR:!2025-08-13,547,270-->
+- green (non-halide):@:[copper](copper.md)(II) <!--SR:!2031-04-05,2061,290-->
 - blue-green (halide):@:[copper](copper.md)(II) <!--SR:!2027-05-18,1020,290-->
 - blue (very hot):@:[iron](iron.md)(II) <!--SR:!2028-01-07,1175,290-->
 - gold:@:[iron](iron.md)(II) <!--SR:!2027-02-11,626,290-->

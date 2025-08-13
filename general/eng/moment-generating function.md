@@ -127,7 +127,7 @@ __[Cumulant-generating function](cumulant-generating%20function.md)__
 
 __[Probability-generating function](probability-generating%20function.md)__
 
-&emsp; {@{The [probability-generating function](probability-generating%20function.md)}@} is defined as {@{$G(z)=E\left[z^{X}\right].\,$}@} This immediately implies that {@{$G(e^{t})=E\left[e^{tX}\right]=M_{X}(t).\,$}@} <!--SR:!2027-01-08,531,310!2025-08-13,156,310!2026-01-04,275,330-->
+&emsp; {@{The [probability-generating function](probability-generating%20function.md)}@} is defined as {@{$G(z)=E\left[z^{X}\right].\,$}@} This immediately implies that {@{$G(e^{t})=E\left[e^{tX}\right]=M_{X}(t).\,$}@} <!--SR:!2027-01-08,531,310!2027-06-13,669,330!2026-01-04,275,330-->
 
 ## see also
 

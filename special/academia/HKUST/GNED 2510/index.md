@@ -38,10 +38,10 @@ The content is in teaching order.
 - datetime: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
-- SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-08-21,230,290!2025-08-13,249,330-->
+- SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-08-21,230,290!2028-09-19,1133,350-->
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2028-08-05,1098,350!2025-08-15,251,330-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2025-09-03,267,330!2028-02-06,958,350-->
-  - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2025-08-13,251,330-->
+  - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2028-09-24,1138,350-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2027-09-03,824,330!2027-02-11,663,330-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2027-07-24,780,330!2025-10-22,301,330-->

@@ -138,7 +138,7 @@ root cause analysis, 5 whys
 - 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2028-03-23,998,301!2026-09-08,609,321-->
 - 5F: Porter's 5 forces framework→::@::←7S: McKinsey 7S framework <!--SR:!2026-01-21,400,301!2027-09-23,913,341-->
 - 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-12-27,297,261!2025-09-12,179,261-->
-- PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2026-08-21,509,281-->
+- PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2027-07-08,694,261!2026-08-21,509,281-->
 - PPTG: people, process, technology, governance framework→::@::←blue ocean strategy <!--SR:!2025-09-23,198,281!2026-06-01,535,321-->
 - blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2028-03-29,1001,301!2025-12-21,187,221-->
 - interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2026-04-23,426,261!2025-09-01,283,241-->
