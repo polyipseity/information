@@ -1,17 +1,21 @@
 from asyncio import TaskGroup, run
 from contextlib import asynccontextmanager
-from dataclasses import dataclass
+from csv import DictReader, DictWriter, reader
+from dataclasses import asdict, dataclass
+from io import StringIO
 from operator import itemgetter
 from sys import stdout
 from typing import AsyncIterator, Mapping
 
 from aiohttp import ClientSession, TCPConnector
 from anyio import AsyncFile, Path
-from asyncstdlib import chain as a_chain
+from asyncstdlib import chain as a_chain, tuple as a_tuple
 from bs4 import BeautifulSoup
 from yarl import URL
 
 
+_CSV_DIALECT = "excel"
+_CSV_LINE_TERMINATOR = "\n"
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _UNDERGRADUATE_COURSES_URL = URL("https://prog-crs.hkust.edu.hk/ugcourse")
 
@@ -96,28 +100,45 @@ async def main() -> None:
     ) as session:
         dest_readable = dest_file.readable()  # type: ignore
 
-        courses = dict[str, str]()
+        courses = dict[str, Subject]()
         seek = None
         if dest_readable:
-            async for _ in dest_file:
-                break  # Reads 1 line
-            async for line in dest_file:
-                line = line.rstrip()
-                key, val = line.split(",", 1)
-                courses[key] = val
+            lines = await a_tuple(dest_file)
+            for row in DictReader(
+                lines,
+                strict=True,
+                dialect=_CSV_DIALECT,
+                lineterminator=_CSV_LINE_TERMINATOR,
+            ):
+                course = Subject(**row)
+                courses[course.code] = course
             seek = tg.create_task(dest_file.seek(0))
 
         subjects = await fetch_subjects(session=session)
         async for course in a_chain[Subject].from_iterable(
             fetch_subject_courses(href, session=session) for href in subjects.values()
         ):
-            courses[course.code] = f"{course.name},{course.credit}"
+            courses[course.code] = course
+        courses = dict(sorted(courses.items(), key=itemgetter(0)))
+
+        with StringIO() as csv_file:
+            csv_writer = DictWriter(
+                csv_file,
+                ("code", "name", "credit"),
+                strict=True,
+                dialect=_CSV_DIALECT,
+                lineterminator=_CSV_LINE_TERMINATOR,
+            )
+            csv_writer.writeheader()
+            csv_writer.writerows(
+                {"code": course.code, "name": course.name, "credit": course.credit}
+                for course in courses.values()
+            )
+            csv_file_output = csv_file.getvalue()
 
         if seek is not None:
             await seek
-        await dest_file.write("code,name,credit\n")
-        for key, val in courses:
-            await dest_file.write(f"{key},{val}\n")
+        await dest_file.write(csv_file_output)
         if dest_readable:
             await dest_file.truncate()
 
