@@ -1,4 +1,5 @@
-ACCT 1010,Accounting, Business and Society,3
+code,name,credit
+ACCT 1010,"Accounting, Business and Society",3
 ACCT 1610,Laws in Society and Business,3
 ACCT 2010,Principles of Accounting I,3
 ACCT 2200,Principles of Accounting II,3
@@ -7,7 +8,7 @@ ACCT 3020,Financial Accounting II,3
 ACCT 3030,Intermediate Financial Accounting for Non-Accounting Majors,3
 ACCT 3210,Advanced Management Accounting,3
 ACCT 3610,Business Law,3
-ACCT 3630,ESG Measurement, Disclosure and Applications,3
+ACCT 3630,"ESG Measurement, Disclosure and Applications",3
 ACCT 3880,Professional Excellence Program,1
 ACCT 4010,Advanced Financial Accounting,3
 ACCT 4410,Taxation,3
@@ -17,6 +18,8 @@ ACCT 4710,Accounting Analytics for Professional Accountants,3
 ACCT 4720,Equity Investment with Machine Learning,3
 ACCT 4980,Independent Study,1-4
 AISC 2500,Special Topics (I),1-4
+AISC 2910,Undergraduate Teaching Opportunities,3
+AISC 2920,Undergraduate Practice Opportunities,3
 AISC 3500,Special Topics (II),1-4
 AISC 4500,Special Topics (III),1-4
 AISC 4950,Interdisciplinary Special Project,0-4
@@ -67,7 +70,7 @@ CENG 3950,Chemical and Environmental Engineering Laboratory,4
 CENG 4000,Special Topics,3
 CENG 4020,Academic and Professional Development II,0
 CENG 4130,Plant Design and Economics,3
-CENG 4140,Energy Resources, Conversions and Technologies,3
+CENG 4140,"Energy Resources, Conversions and Technologies",3
 CENG 4160,Prototype Development for Chemical Processes and Products,3
 CENG 4510,Nature Engineering and DNA Nanotechnology,3
 CENG 4540,Nanomaterials and Applications in Chemical Engineering,3
@@ -87,8 +90,8 @@ CHEM 1002,Introduction to Chemistry of Cosmetics,3
 CHEM 1004,Chemistry in Everyday Life,3
 CHEM 1008,Introductory Chemistry,3
 CHEM 1010,General Chemistry IA,3
-CHEM 1011,General Chemistry A: Reactions, Thermodynamics, and Reaction Kinetics,3
-CHEM 1012,General Chemistry B: Atomic Structure, Molecules, and Bonding Theories,3
+CHEM 1011,"General Chemistry A: Reactions, Thermodynamics, and Reaction Kinetics",3
+CHEM 1012,"General Chemistry B: Atomic Structure, Molecules, and Bonding Theories",3
 CHEM 1051,Laboratory for General Chemistry A,1
 CHEM 1052,Laboratory for General Chemistry B,1
 CHEM 2110,Organic Chemistry I,3
@@ -152,7 +155,7 @@ CIVL 1100,Discovering Civil and Environmental Engineering,3
 CIVL 1140,Environment and Society: Sustainable Development Goals and Carbon Neutrality,3
 CIVL 1160,Civil Engineering and Modern Society,3
 CIVL 1180,Monitoring Changing Climate from Space,3
-CIVL 1190,Climate Change, Big History and Sustainability,3
+CIVL 1190,"Climate Change, Big History and Sustainability",3
 CIVL 1210,Fundamental of Green Buildings,3
 CIVL 1220,Big Data for Smarter Cities,3
 CIVL 2010,Academic and Professional Development II,0
@@ -259,7 +262,7 @@ COMP 4471,Deep Learning in Computer Vision,3
 COMP 4511,System and Kernel Programming in Linux,3
 COMP 4521,Mobile Application Development,3
 COMP 4531,IoT and Smart Sensing,3
-COMP 4541,Blockchain, Cryptocurrencies and Smart Contracts,3
+COMP 4541,"Blockchain, Cryptocurrencies and Smart Contracts",3
 COMP 4611,Design and Analysis of Computer Architectures,3
 COMP 4621,Computer and Communication Networks,3
 COMP 4632,Practicing Cybersecurity: Attacks and Counter-measures,3
@@ -283,7 +286,7 @@ CPEG 4910,Co-op Program,6
 CPEG 4911,Computer Engineering Final Year Project in ELEC,6
 CPEG 4912,Computer Engineering Final Year Thesis in ELEC,6
 CTDL 1901,Cognitive Foundations of University Education: Critical Thinking and Data Literacy,3
-CTDL 1902,AI and Society: Ethics, Cognition, and Critical Analysis,3
+CTDL 1902,"AI and Society: Ethics, Cognition, and Critical Analysis",3
 DASC 2010,Calculus for Data Analytics in Science,3
 DASC 2020,Applied Linear Algebra for Least Squares Optimization and Machine Learning,3
 DASC 2110,Object-oriented Programming for Data Analytics in Science,3
@@ -343,36 +346,43 @@ ELEC 1095,Special Topics,1-4
 ELEC 1100,Introduction to Electro-Robot Design,4
 ELEC 1200,A System View of Communications: from Signals to Packets,4
 ELEC 2100,Signals and Systems,4
+ELEC 2100H,Honors Signals and Systems,4
 ELEC 2350,Introduction to Computer Organization and Design,4
 ELEC 2400,Electronic Circuits,4
 ELEC 2420,Basic Electronics,3
 ELEC 2600,Probability and Random Processes in Engineering,4
+ELEC 2600H,Honors Probability and Random Processes in Engineering,4
 ELEC 2910,Academic and Professional Development I,0
 ELEC 2991,Industrial Experience (Electronic Engineering),0
 ELEC 3100,Signal Processing and Communications,4
 ELEC 3120,Computer Communication Networks,3
 ELEC 3130,Digital Image Processing,3
 ELEC 3180,Data-Driven Portfolio Optimization,3
-ELEC 3200,System Modeling, Analysis and Control,4
+ELEC 3200,"System Modeling, Analysis and Control",4
 ELEC 3210,Introduction to Mobile Robotics,3
 ELEC 3300,Introduction to Embedded Systems,4
 ELEC 3310,Digital Fundamentals and System Design,4
 ELEC 3350,Principles of Machine Learning,3
 ELEC 3400,Introduction to Integrated Circuits and Systems,4
 ELEC 3410,CMOS VLSI Design,3
+ELEC 3450,Introduction to Smart Electric Power Systems,3
 ELEC 3500,Integrated Circuit Devices,4
 ELEC 3600,Electromagnetics: From Wireless to Photonic Applications,4
 ELEC 3810,Data Science for Neural Engineering,3
 ELEC 3910,Academic and Professional Development II,0
 ELEC 4010,Special Topics,1-4
 ELEC 4110,Digital Communications and Wireless Systems,3
+ELEC 4130,Machine Learning on Images,3
+ELEC 4150,Information Theory and Error-Correcting Codes,3
 ELEC 4210,Control System Design,3
-ELEC 4220,Robotics: Modeling, Control and Planning,3
+ELEC 4220,"Robotics: Modeling, Control and Planning",3
+ELEC 4230,Deep Learning for Natural Language Processing,3
 ELEC 4240,Deep Learning in Computer Vision,3
 ELEC 4260,Intelligent Robots and Embodied AI,3
 ELEC 4310,Embedded System Design,4
 ELEC 4320,FPGA-based Design: From Theory to Practice,3
 ELEC 4350,AI Processor Architecture,3
+ELEC 4410,CMOS VLSI Design,3
 ELEC 4420,Analogue Integrated Circuits Design and Analysis,4
 ELEC 4430,Integrated Power Electronics,3
 ELEC 4510,Semiconductor Materials and Devices,3
@@ -386,6 +396,7 @@ ELEC 4830,Statistical Signal Analysis and Applications in Neural Engineering,3
 ELEC 4840,Artificial Intelligence for Medical Image Analysis,3
 ELEC 4900,Final Year Design Project,6
 ELEC 4901,Final Year Thesis,6
+ELEC 4907,Final Year Project,9
 ELEC 4910,Co-op Program,6
 ELEC 4940,Independent Study,1-3
 EMIA 2010,Cross-disciplinary Seminar,0
@@ -414,7 +425,7 @@ ENGG 1010,Academic Orientation,0
 ENGG 1100,First Year Cornerstone Engineering Design Project Course,3
 ENGG 1110,Engineering Solutions to Grand Challenges of the 21st Century,3
 ENGG 1130,The Impact and Value of Technology Innovation,3
-ENGG 1150,Information Technology Revolution: Past, Present and Future,3
+ENGG 1150,"Information Technology Revolution: Past, Present and Future",3
 ENGG 1200,Engineering Team Design Experience,3
 ENGG 1300,Design Thinking for Health Innovation,3
 ENGG 1400,Designing Your Life for Engineering Students,1
@@ -430,6 +441,7 @@ ENGG 4901,Integrated Final Year Project - First Major,3
 ENGG 4902,Integrated Final Year Project - Second Major,3
 ENGG 4903,Integrated Final Year Thesis - First Major,3
 ENGG 4904,Integrated Final Year Thesis - Second Major,3
+ENGG 4930,Design for Global Health,3
 ENGG 4950,Engineering Special Project,1-4
 ENTR 1001,Entrepreneurship 1001: Designing Your Future,3
 ENTR 2010,Entrepreneurship Mentorship and Readings,1
@@ -447,7 +459,7 @@ ENVR 1040,The Environment and Society - A Comprehensive Perspective,3
 ENVR 1070,Thinking Big: Systems Thinking for Environmental Problems,3
 ENVR 1080,The Smart Consumer - Uncovering the Hidden Story behind the Product Label,3
 ENVR 1150,Climate Change Impacts and Extreme Weather Events,3
-ENVR 1170,Science, Environment and Society - From Big Bang to Big Data,3
+ENVR 1170,"Science, Environment and Society - From Big Bang to Big Data",3
 ENVR 1811,Environmental Management and Technology Study Trip I,1
 ENVR 2001,Academic and Professional Development I,1
 ENVR 2002,Special Topics in Environmental Studies,1-4
@@ -503,7 +515,7 @@ FINA 3830,Refinitiv Analytics,0
 FINA 4003,Wealth Management,3
 FINA 4013,Corporate Valuation,3
 FINA 4103,Financial Markets Trading and Structure,3
-FINA 4203,Mergers, Acquisitions, and Corporate Restructuring,3
+FINA 4203,"Mergers, Acquisitions, and Corporate Restructuring",3
 FINA 4303,Fixed Income Securities,3
 FINA 4403,International Finance,3
 FINA 4413,Family Business,3
@@ -521,7 +533,7 @@ GBUS 1000,Global Leadership Development,0
 GBUS 2010,Global Business Analysis,3
 GBUS 2020,Public Service Project,1
 GBUS 2030,From Zero to Exit – Journey of A Start-up,2
-GBUS 2040,Environmental, Social, and Governance (ESG) Corporate Project,1
+GBUS 2040,"Environmental, Social, and Governance (ESG) Corporate Project",1
 GBUS 2050,Blue Ocean Strategy Innovation and Execution,2
 GBUS 3010,Global Perspectives on Contemporary Issues,3
 GBUS 3030,Global Business Case Studies,4
@@ -549,7 +561,7 @@ HART 1036,Introduction to Graphic Design,1
 HART 1047,Introduction to Chinese Landscape Painting,1
 HART 1048,Fashion Art and Styling,1
 HLTH 1010,Healthy Lifestyle,0
-HMAW 1905,Behavioral Foundations of University Education: Habits, Mindsets, and Wellness,3
+HMAW 1905,"Behavioral Foundations of University Education: Habits, Mindsets, and Wellness",3
 HUMA 1000,Cultures and Values,3
 HUMA 1001,Foundational Texts in the Humanities,3
 HUMA 1009,Special Topics,3
@@ -570,12 +582,12 @@ HUMA 1210,Chinese Women on Screen,3
 HUMA 1231,Popular Culture of East Asia,3
 HUMA 1301,World Literature and Film,3
 HUMA 1420,Late Imperial China from Yuan to Qing,3
-HUMA 1430,History of P. R. China's Diplomacy, 1949-1989,3
+HUMA 1430,"History of P. R. China's Diplomacy, 1949-1989",3
 HUMA 1440,Modern China,3
 HUMA 1520,Modern East Asia,3
-HUMA 1622,Science, Technology and Society: Historical and Cultural Approaches,3
+HUMA 1622,"Science, Technology and Society: Historical and Cultural Approaches",3
 HUMA 1630,Popular Religion in South China,3
-HUMA 1639,Marriage, Family and Kinship in Cross-cultural Perspectives,3
+HUMA 1639,"Marriage, Family and Kinship in Cross-cultural Perspectives",3
 HUMA 1650,Appreciation of Western Art,3
 HUMA 1660,Introduction to Chinese Art,3
 HUMA 1671,Cantonese Opera in Hong Kong Culture,3
@@ -594,12 +606,12 @@ HUMA 1930,Introduction to the Ethics of Artificial Intelligence and Data Science
 HUMA 2000-2001,Special Topics in Humanities,3
 HUMA 2010,Metaphors in English and Chinese,3
 HUMA 2031,The Cantonese Language,3
-HUMA 2032,Language, Power and Identity,3
+HUMA 2032,"Language, Power and Identity",3
 HUMA 2050,Classical Chinese,3
 HUMA 2101,Enjoyment of Western Opera,3
 HUMA 2103,Introduction to Music Composition,3
 HUMA 2104,Music Theory I: Introduction to Tonal Music,3
-HUMA 2105,Music, Drama, and Theatre,3
+HUMA 2105,"Music, Drama, and Theatre",3
 HUMA 2107,Introduction to Electronic Music Composition,3
 HUMA 2108,Music of China,3
 HUMA 2109,East Asian Popular Music,3
@@ -612,15 +624,15 @@ HUMA 2300,Traditional Chinese Poetry: Early Chinese Poetry,3
 HUMA 2310,Traditional Chinese Fiction,3
 HUMA 2320,Chinese Drama,3
 HUMA 2330,Anime,3
-HUMA 2331,Japanese Animation: Technology, Gender, and History,3
+HUMA 2331,"Japanese Animation: Technology, Gender, and History",3
 HUMA 2340,Between Old and New: Chinese Stories and Their Reinventions,3
 HUMA 2400,Approaches to Humanities in China Studies,3
 HUMA 2420,Late Imperial China,3
 HUMA 2430,China in the 20th Century,3
 HUMA 2440,20th-Century China in Documentary Films,3
-HUMA 2470,From Fung Shui to Mao's Villages: City Plans, Urban Politics & the Unseen World of Chinese Villages,3
+HUMA 2470,"From Fung Shui to Mao's Villages: City Plans, Urban Politics & the Unseen World of Chinese Villages",3
 HUMA 2520,History of Tea in East Asia,3
-HUMA 2588,Nazism and German Society, 1914-1945,3
+HUMA 2588,"Nazism and German Society, 1914-1945",3
 HUMA 2590,The Making of the Modern World: Renaissance to the Present,3
 HUMA 2596,History of Biology and Medicine,3
 HUMA 2597,Environmental History,3
@@ -642,7 +654,7 @@ HUMA 2911,Buddhism: Origin and Growth,3
 HUMA 2921,Ethical Theories and Contemporary Issues,3
 HUMA 2930,What am I? Personal Identity and the Self from a Philosophical Perspective,3
 HUMA 3000,Special Topics,2-3
-HUMA 3030,Language, Communication and Culture,3
+HUMA 3030,"Language, Communication and Culture",3
 HUMA 3050,Psychology of Language,3
 HUMA 3060,Language and Migration,3
 HUMA 3102,Making Chamber Music A,2
@@ -736,7 +748,7 @@ ISDN 1004,Sketching,1
 ISDN 1006,Human-centered Innovation,3
 ISDN 1010,Academic and Professional Development I,0
 ISDN 1011,Industrial Training,0
-ISDN 1100,Experiencing Design,3
+ISDN 1100,Experiencing Design,3
 ISDN 2000,What is Design and Why Design?,3
 ISDN 2001,Second Year Design Project I,1
 ISDN 2002,Second Year Design Project II,3
@@ -748,7 +760,7 @@ ISDN 2400,Physical Prototyping,3
 ISDN 2500,Introduction to Systems Design Engineering,3
 ISDN 2601,Exploring the World through Smart Mechatronics,3
 ISDN 2602,Internet of Things: Integrative System Design,3
-ISDN 2603,Materials, Shape and Design,3
+ISDN 2603,"Materials, Shape and Design",3
 ISDN 3000,Special Topics,1-3
 ISDN 3001,Third Year Design Project I,3
 ISDN 3002,Third Year Design Project II,3
@@ -774,7 +786,7 @@ ISOM 2010,Introduction to Information Systems,3
 ISOM 2020,Coding for Business,1
 ISOM 2030,Business Protections for Innovations,3
 ISOM 2040,Business Simulation and Strategic Decisions,3
-ISOM 2310,Fundamentals of E-Commerce: Business, Technology, and the Society,3
+ISOM 2310,"Fundamentals of E-Commerce: Business, Technology, and the Society",3
 ISOM 2400,Global Information Infrastructure and Policy,3
 ISOM 2500,Business Statistics,3
 ISOM 2600,Introduction to Business Analytics,1
@@ -805,7 +817,7 @@ ISOM 3770,Global Supply Chain Management,4
 ISOM 3780,Sustainable Supply Chain Management,3
 ISOM 3900,Decision Analytics,3
 ISOM 4000,Special Topics in Information Systems,0-4
-ISOM 4010,Digital Business Strategy: Harnessing Platform, Crowd, and Machine,3
+ISOM 4010,"Digital Business Strategy: Harnessing Platform, Crowd, and Machine",3
 ISOM 4020,Innovation Management and Technology Entrepreneurship,3
 ISOM 4030,Deep Learning for Business Applications,3
 ISOM 4040,Digital Strategy and Transformation,3
@@ -880,14 +892,14 @@ LANG 3027,Science Communication in English for Research Students,3
 LANG 3060,Advanced Academic Writing,3
 LANG 3070,English Communication for Humanities and Social Science Studies II,3
 LANG 3081,Communication for Environmental Management and Technology III,2
-LANG 4030,Technical Communication II for CSE, CPEG & DSCT,3
+LANG 4030,"Technical Communication II for CSE, CPEG & DSCT",3
 LANG 4031,Technical Communication II for ECE & CPEG,3
 LANG 4032,Technical Communication II for IEDA and ISDN,3
 LANG 4033,Technical Communication II for Civil and Environmental Engineering,3
 LANG 4034,Technical Communication II for Mechanical and Aerospace Engineering,3
 LANG 4035,Technical Communication II for Chemical and Biological Engineering,3
 LANG 4070,Academic Writing in Context - Global China Studies,1
-LEGL 1000,Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance),0
+LEGL 1000,"Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance)",0
 LIFS 1010,Introduction to Biological Sciences,3
 LIFS 1020,Biology of Human Health,3
 LIFS 1901,General Biology I,3
@@ -1100,12 +1112,12 @@ MECH 4450,Introduction to Finite Element Analysis,3
 MECH 4710,Introduction to Robotics,3
 MECH 4720,Introduction to Precision Engineering,3
 MECH 4740,Numerical Methods in Engineering,3
-MECH 4750,Vibration, Control and Programming,3
+MECH 4750,"Vibration, Control and Programming",3
 MECH 4810,Unmanned Aviation Vehicle,3
 MECH 4830,Introduction to Aerospace Computational Fluid Dynamics (CFD),3
 MECH 4890,Introduction to Nanosatellite Engineering,3
 MECH 4900,Final Year Design Project,6
-MECH 4912,Green Technologies for Buildings, Energy and Water,3
+MECH 4912,"Green Technologies for Buildings, Energy and Water",3
 MECH 4950,Co-op Program,6
 MECH 4980,Final Year Aerospace Design Project,6
 MECH 4990,Aerospace Research Project,6
@@ -1221,10 +1233,10 @@ PHYS 4813,Contemporary Applications of Physics: Atmospheric Physics - Making Sen
 PHYS 4814,Contemporary Applications of Physics: Medical Physics,1
 PPOL 1110,Public Policy in Cases,3
 PPOL 2000,Special Topics in Public Policy,1-4
-PPOL 2110,Science, Technology and Society in China,3
+PPOL 2110,"Science, Technology and Society in China",3
 PPOL 3000,Special Topics in Public Policy,1-4
 PPOL 3210,Energy Policy,3
-PPOL 3800,Ethics, Emerging Technologies and Public Policy,3
+PPOL 3800,"Ethics, Emerging Technologies and Public Policy",3
 PPOL 4000,Special Topics in Public Policy,1-4
 RMBI 1010,Risk Management in Financial Institutions,3
 RMBI 1020,Business Intelligence for Data-Driven Decisions,3
@@ -1235,6 +1247,7 @@ RMBI 3010,Data Analytics with R,2
 RMBI 3020,Practicing Risk Management using Case Studies,3
 RMBI 3110,Introduction to Risk Management and Business Intelligence,3
 RMBI 4000,Special Topics in Risk Management and Business Intelligence,1-4
+RMBI 4110,Financial Service Operations Management,3
 RMBI 4210,Quantitative Methods for Risk Management,3
 RMBI 4220,Life Contingencies Models and Insurance Risk,3
 RMBI 4310,Advanced Data Mining for Risk Management and Business Intelligence,3
@@ -1305,9 +1318,9 @@ SISP 1311,Acoustic Waves and Intelligent Fluid Systems,1
 SISP 1312,Developing Android Applications for Beginners,1
 SISP 1313,Introduction to Computer-Aided Design and Manufacturing,1
 SISP 1314,Engineering Design of Solar Car,1
-SISP 1315,Solid Waste : Our Valuable Resource, Renewable Energy and Environmental Business,1
+SISP 1315,"Solid Waste : Our Valuable Resource, Renewable Energy and Environmental Business",1
 SISP 1316,Tall Buildings and Long-span Bridges: Structures and Aesthetics,1
-SISP 1317,Water, You and Environment,1
+SISP 1317,"Water, You and Environment",1
 SISP 1318,Making a Smart Garbage Bin by Internet of Things Technology,1
 SISP 1501,Accounting as a Language of Business,1
 SISP 1502,Information Systems for Business Innovation,1
@@ -1323,7 +1336,7 @@ SISP 1511,Deep Learning Business Applications,1
 SISP 1512,The Art of Negotiation,1
 SISP 1513,Managing Risk in Business and Daily Life,1
 SISP 1701,Appreciation of Western Architecture,1
-SISP 1702,History that High-School Textbooks Never Touched: Violence, Sins, "Great" Men in China, 1800s-1930s,1
+SISP 1702,"History that High-School Textbooks Never Touched: Violence, Sins, ""Great"" Men in China, 1800s-1930s",1
 SISP 1703,Psychology and Personal Growth,1
 SISP 1704,Humanities and Leadership,1
 SISP 1705,Introduction to Musical Theatre,1
@@ -1332,8 +1345,8 @@ SISP 1707,The Story of Canto-Pop,1
 SISP 1708,Exploring Music and Film,1
 SISP 1709,Introducing Music Theory,1
 SISP 1710,Creativity and Innovation,1
-SISP 1711,Science, Technology and Public Health,1
-SISP 1712,The "Belt and Road" Initiative,1
+SISP 1711,"Science, Technology and Public Health",1
+SISP 1712,"The ""Belt and Road"" Initiative",1
 SISP 1713,Will Technology Replace Us?,1
 SISP 1714,Population Studies,1
 SISP 1901,Greening Business: Challenges and Opportunities,1
@@ -1341,7 +1354,7 @@ SOSC 1000-1010,Special Topics,1-4
 SOSC 1050,Introduction to Social Science Research,3
 SOSC 1100,Quantitative Data Analysis for Social Research I,3
 SOSC 1110,Data Analysis for Quantitative Social Research,3
-SOSC 1150,Science, Technology and Work,3
+SOSC 1150,"Science, Technology and Work",3
 SOSC 1190,China and the World:  China's Development in Historical and Comparative Perspectives,3
 SOSC 1270,International Law,3
 SOSC 1300,The World of Politics,3
@@ -1359,7 +1372,7 @@ SOSC 1661,Contemporary Hong Kong: Government & Politics,3
 SOSC 1662,Contemporary Hong Kong Society,3
 SOSC 1700,What Is Democracy?,3
 SOSC 1780,Population and Development in China,3
-SOSC 1840,Government, Law and Society in China,3
+SOSC 1840,"Government, Law and Society in China",3
 SOSC 1850,Understanding Society,3
 SOSC 1859,Exploring Society,3
 SOSC 1860,Population and Society,3
@@ -1385,7 +1398,7 @@ SOSC 2888,Special Topics in Psychology,1-4
 SOSC 2980,Personality Psychology,3
 SOSC 2990,Developmental Psychology,3
 SOSC 3000,Special Topics,1-4
-SOSC 3001,Understanding China, 1700-2000: A Data Analytic Approach,3
+SOSC 3001,"Understanding China, 1700-2000: A Data Analytic Approach",3
 SOSC 3010,Special Topics,3
 SOSC 3120,Economic Development,3
 SOSC 3130,Hong Kong Culture,3
@@ -1401,7 +1414,7 @@ SOSC 3600,Public Policy Analysis,3
 SOSC 3630,Democracy and Democratization around the World,3
 SOSC 3700,Quantitative Social Analysis Practicum,1
 SOSC 3720,Introduction to Social Network Analysis,3
-SOSC 3800,Ethics, Emerging Technologies and Public Policy,3
+SOSC 3800,"Ethics, Emerging Technologies and Public Policy",3
 SOSC 3850,Ethics and Public Affairs,3
 SOSC 3880,Social Inequality and Social Mobility,3
 SOSC 3888,Special Topics in Psychology,1-4
@@ -1423,7 +1436,7 @@ SUST 1000,Sustainability Fundamentals,3
 SUST 1001,Special Topics in Sustainability,1-4
 SUST 1010,Introduction to Sustainability,3
 SUST 1020,Climate Films and Sustainable Future,3
-SUST 1101,Environmental, Social, and Governance Fundamentals,3
+SUST 1101,"Environmental, Social, and Governance Fundamentals",3
 SUST 2001,Special Topics in Sustainability,1-4
 SUST 3001,Special Topics in Sustainability,1-4
 SUST 4001,Special Topics in Sustainability,1-4
