@@ -76,7 +76,7 @@ As mentioned above, a helpful way to {@{consider the effect of dilutive instrume
 
 ### international financial reporting standards
 
-Under {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md)}@}, diluted earnings per share is calculated by {@{adjusting the earnings and number of shares for the effects of dilutive options and other dilutive potential [common stock](common%20stock.md)}@}.<sup>[\[10\]](#^ref-10)</sup> Dilutive potential common stock includes:<sup>[\[10\]](#^ref-10)</sup>
+Under {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md)}@}, {@{diluted earnings per share}@} is calculated by {@{adjusting the earnings and number of shares}@} for {@{the effects of dilutive options and other dilutive potential [common stock](common%20stock.md)}@}.<sup>[\[10\]](#^ref-10)</sup> {@{Dilutive potential common stock}@} includes:<sup>[\[10\]](#^ref-10)</sup>
 
 - [convertible debt](convertible%20bond.md)
 - convertible [preferred stock](preferred%20stock.md)
