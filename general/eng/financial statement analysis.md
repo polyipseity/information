@@ -42,7 +42,7 @@ Financial ratios are {@{very powerful tools to perform some quick analysis of fi
 
 {@{[DuPont analysis](DuPont%20analysis.md)}@} uses {@{several financial ratios that multiplied together equal return on equity}@}, a measure of {@{how much income the firm earns divided by the amount of funds invested (equity)}@}. <!--SR:!2028-06-11,1056,350!2028-06-04,1052,350!2026-08-09,504,310-->
 
-{@{A [dividend discount model](dividend%20discount%20model.md) (DDM)}@} may also be used to {@{value a company's [stock](stock.md) price}@} based on the theory that {@{its stock is worth the sum of all of its future dividend payments, discounted back to their present value}@}.<sup>[\[8\]](#^ref-8)</sup> In other words, it is used to {@{value stocks based on the [net present value](net%20present%20value.md) of the future [dividends](dividend.md)}@}. <!--SR:!2025-08-14,252,330!2028-07-21,1089,350!2028-07-09,1078,350!2026-11-13,600,330-->
+{@{A [dividend discount model](dividend%20discount%20model.md) (DDM)}@} may also be used to {@{value a company's [stock](stock.md) price}@} based on the theory that {@{its stock is worth the sum of all of its future dividend payments, discounted back to their present value}@}.<sup>[\[8\]](#^ref-8)</sup> In other words, it is used to {@{value stocks based on the [net present value](net%20present%20value.md) of the future [dividends](dividend.md)}@}. <!--SR:!2028-10-02,1145,350!2028-07-21,1089,350!2028-07-09,1078,350!2026-11-13,600,330-->
 
 Financial statement analyses are typically performed in {@{[spreadsheet](spreadsheet.md) software — or specialized [accounting software](accounting%20software.md)}@} — and summarized in {@{a variety of formats}@}. <!--SR:!2028-01-31,924,330!2025-09-21,282,330-->
 

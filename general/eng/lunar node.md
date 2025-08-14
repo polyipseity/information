@@ -11,7 +11,7 @@ tags:
 
 # lunar node
 
-A __lunar node__ is {@{either of the two [orbital nodes](orbital%20node.md) of the [Moon](Moon.md), that is, the two points at which the [orbit of the Moon](orbit%20of%20the%20Moon.md) [intersects](intersection%20(geometry).md) the [ecliptic](ecliptic.md)}@}. This is caused by {@{the Moon's orbital inclination (5°09′ or 5.145°) to the ecliptic}@}. The {@{_ascending_ (or _north_) node}@} is {@{where the Moon moves into the northern ecliptic hemisphere}@}, while the {@{_descending_ (or _south_)}@} node is {@{where the Moon enters the southern ecliptic hemisphere}@}. The {@{_line of nodes_}@} is {@{the line joining these two nodes}@}. <!--SR:!2026-08-15,533,310!2025-08-14,244,250!2027-04-16,773,330!2029-06-14,1402,350!2028-10-11,1208,350!2025-11-30,340,290!2028-04-11,1069,350!2028-09-26,1197,350-->
+A __lunar node__ is {@{either of the two [orbital nodes](orbital%20node.md) of the [Moon](Moon.md), that is, the two points at which the [orbit of the Moon](orbit%20of%20the%20Moon.md) [intersects](intersection%20(geometry).md) the [ecliptic](ecliptic.md)}@}. This is caused by {@{the Moon's orbital inclination (5°09′ or 5.145°) to the ecliptic}@}. The {@{_ascending_ (or _north_) node}@} is {@{where the Moon moves into the northern ecliptic hemisphere}@}, while the {@{_descending_ (or _south_)}@} node is {@{where the Moon enters the southern ecliptic hemisphere}@}. The {@{_line of nodes_}@} is {@{the line joining these two nodes}@}. <!--SR:!2026-08-15,533,310!2027-12-18,856,270!2027-04-16,773,330!2029-06-14,1402,350!2028-10-11,1208,350!2025-11-30,340,290!2028-04-11,1069,350!2028-09-26,1197,350-->
 
 ## motion
 

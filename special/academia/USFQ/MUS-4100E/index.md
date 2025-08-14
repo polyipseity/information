@@ -366,7 +366,7 @@ The content is in teaching order.
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2026-03-07,277,382!2027-06-28,694,422-->
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2026-12-14,519,402!2026-03-14,284,382-->
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2026-04-25,326,382!2027-07-28,718,422-->
-  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2025-08-14,135,402!2027-08-03,724,422-->
+  - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2027-08-24,740,422!2027-08-03,724,422-->
 - [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2026-07-18,408,402!2025-09-25,160,362-->
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2025-08-15,136,402!2027-08-01,722,422-->
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2027-08-10,730,422!2025-08-15,136,402-->
@@ -388,10 +388,10 @@ The content is in teaching order.
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2026-12-25,530,402!2025-08-15,136,402-->
   - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2026-12-28,533,402!2026-12-03,514,402-->
   - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2027-06-24,691,422!2027-08-16,735,422-->
-  - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2025-08-14,135,402-->
+  - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2025-08-16,137,402!2027-08-25,741,422-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!2026-11-13,499,402-->
   - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2026-12-30,535,402-->
-  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2025-08-14,135,402!2027-07-27,717,422-->
+  - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2027-08-26,742,422!2027-07-27,717,422-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2026-12-26,531,402!2026-12-04,515,402-->
   - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2026-03-14,284,382!2026-09-21,456,402-->
 - [Art Tatum](../../../../general/Art%20Tatum.md) (1909–1956) ::@:: virtuoso pianist on a level never seen before, and still considered by many to be the greatest pianist to ever live; even Vladimir Horowitz, considered the greatest classical pianist of the time, regularly went to hear him play <!--SR:!2027-06-21,688,422!2027-08-18,735,422-->
@@ -586,7 +586,7 @@ The content is in teaching order.
   - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2025-10-23,142,422-->
   - Miles Davis / genres
     - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis <!--SR:!2025-10-15,134,422!2027-02-01,537,422-->
-    - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2025-08-14,98,402!2025-10-17,136,422-->
+    - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2027-02-03,538,422!2025-10-17,136,422-->
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2025-10-20,139,422!2025-08-16,100,402-->
     - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2025-10-22,141,422!2025-10-31,150,422-->
 - [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2025-10-19,138,422!2025-10-27,146,422-->
@@ -602,7 +602,7 @@ The content is in teaching order.
 - datetime: 2025-04-07T08:30:00-05:00/2025-04-07T09:00:00-05:00
   - local: 2025-04-07T21:30:00+08:00/2025-04-07T22:00:00+08:00
 - [modal jazz](../../../../general/modal%20jazz.md) ::@:: It is jazz that makes use of musical modes, often modulating among them to accompany the chords instead of relying on one tonal center used across the piece. <!--SR:!2025-08-16,100,402!2025-09-07,96,402-->
-  - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2025-08-14,98,402!2025-10-18,137,422-->
+  - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2027-02-09,544,422!2025-10-18,137,422-->
 - Miles Davis
   - Miles Davis / genres
     - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2025-09-09,98,402!2026-08-15,388,402-->

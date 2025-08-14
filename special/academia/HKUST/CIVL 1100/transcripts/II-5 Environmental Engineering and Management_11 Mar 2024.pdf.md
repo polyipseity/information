@@ -63,7 +63,7 @@ return await memorize_seq(
 - air pollution→::@::←land contamination <!--SR:!2027-08-28,843,290!2028-06-19,1161,350-->
 - land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2028-03-18,1022,310-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2027-06-10,788,290!2025-11-18,365,290-->
-- solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-08-14,210,210-->
+- solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2027-04-28,622,230-->
 - water pollution→::@::←_(end)_ <!--SR:!2026-03-23,457,310!2027-01-26,745,330-->
 
 <!--/pytextgen-->
@@ -99,7 +99,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2027-04-01,627,275!2025-10-12,201,275-->
-- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2026-09-09,523,315-->
+- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2028-01-05,874,295!2026-09-09,523,315-->
 - (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2026-02-20,344,255!2025-08-18,46,135-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2026-02-18,299,295!2027-07-10,770,315-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->

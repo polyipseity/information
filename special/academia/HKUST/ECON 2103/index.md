@@ -49,7 +49,7 @@ The content is in teaching order.
 - quirks about the professor ::@:: He does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good). <!--SR:!2025-08-17,247,332!2025-09-20,260,330-->
 - discussions
   - discussions / face mask ::@:: Should the government intervene in the (previously sky-high) selling price of face masks? This is known as [price control](price%20controls.md). <!--SR:!2025-09-11,268,332!2025-09-21,260,330-->
-  - discussions / waste charging scheme ::@:: Should the government charge waste generation and how? What problems may arise? <!--SR:!2025-08-14,244,332!2027-10-13,836,332-->
+  - discussions / waste charging scheme ::@:: Should the government charge waste generation and how? What problems may arise? <!--SR:!2028-09-03,1116,352!2027-10-13,836,332-->
   - discussions / more inductive questions ::@:: high property prices, poverty reduction, education subsidy, China–US trade war, market/free economy vs. planned economy vs. others, etc. <!--SR:!2026-09-07,518,312!2025-09-20,260,330-->
 
 ## week 1 tutorial

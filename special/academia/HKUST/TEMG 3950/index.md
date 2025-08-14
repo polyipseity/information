@@ -222,7 +222,7 @@ The content is in teaching order.
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2030-02-06,1644,381-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2025-11-01,410,381-->
-  - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2025-08-14,301,321!2029-10-10,1550,381-->
+  - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2029-04-09,1334,341!2029-10-10,1550,381-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2029-08-29,1516,381-->
   - cause mapping § symptom ::@:: red background <!--SR:!2029-10-30,1550,381!2025-09-13,346,361-->

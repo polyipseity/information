@@ -70,7 +70,7 @@ The content is in teaching order.
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2025-10-21,300,330-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->
-  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2025-08-14,250,330!2028-04-08,1000,350-->
+  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2028-09-22,1135,350!2028-04-08,1000,350-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2027-02-08,661,330!2027-10-30,852,330-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2025-08-17,252,330!2025-08-21,257,330-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2028-05-31,1049,350!2027-01-03,633,330-->

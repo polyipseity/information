@@ -35,7 +35,7 @@ Thus the essence of the axiom is:
 
 > There is {@{a set, __I__, that includes all the natural numbers}@}. <!--SR:!2025-10-20,229,330-->
 
-The axiom of infinity is also {@{one of the [von Neumann–Bernays–Gödel axioms](von%20Neumann–Bernays–Gödel%20set%20theory.md#axiom%20of%20infinity)}@}. <!--SR:!2025-08-14,174,310-->
+The axiom of infinity is also {@{one of the [von Neumann–Bernays–Gödel axioms](von%20Neumann–Bernays–Gödel%20set%20theory.md#axiom%20of%20infinity)}@}. <!--SR:!2027-08-29,745,330-->
 
 ## extracting the natural numbers from the infinite set
 
