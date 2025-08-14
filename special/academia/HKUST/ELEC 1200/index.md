@@ -1059,19 +1059,25 @@ The content is in teaching order.
   - referencing: closed book
   - provided: Q-function table
   - questions: long questions ×6
-- grades: ?/100
+- grades: 98/100
   - statistics
-    - timestamps: ?
-    - mean: ?
-    - standard deviation: ?
+    - timestamps: 2025-08-10T22:00:00+08:00
+    - mean: ? \(provided: 67\)
+    - standard deviation: ? \(provided: 26\)
     - low: ?
     - lower quartile: ?
     - median: ?
     - upper quartile: ?
-    - high: ?
+    - high: ? \(provided: 98\)
     - distribution: ?
-- report: ?
-- check: ?
+- report
+  - parity code vs. repetition code \(−2\) ::@:: Misread "\(5, 1\) repetition code" as "\(5, 1\) parity code". Thus two 1-point questions on the maximum number of detectable bit errors and correctable bit errors were wrong.
+- check
+  - datetime
+    - 2025-08-11T10:00:00+08:00/2025-08-11T17:00:00+08:00, PT7H
+    - 2025-08-12T10:00:00+08:00/2025-08-12T17:00:00+08:00, PT7H
+  - venue: Room 2395, Academic Building \(lift 17, 18\)
+  - report: \(none\)
 
 ---
 
@@ -1102,5 +1108,5 @@ The content is in teaching order.
 
 ### total
 
-- grades: ?/100
+- grades: 98.78/100
   - statistics: ?
