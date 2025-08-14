@@ -21,7 +21,8 @@ The content is in teaching order.
 
 - grading
   - participation: 10%
-  - quizzes & assignments: 20%
+  - quizzes: 10%
+  - assignments: 10%
   - midterm examination: 30%
   - final examination: 40%
 
