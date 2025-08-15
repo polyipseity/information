@@ -164,7 +164,7 @@ array([[ 1,  1,  1,  1],
 
 ### general ndarray creation functions
 
-{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2026-01-11,342,350!2025-10-09,261,330!2027-04-29,623,310-->
+{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension}@} by specifying {@{how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2026-01-11,342,350!2025-10-09,261,330!2027-04-29,623,310-->
 
 {@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-11-13,291,330!2026-01-17,347,350!2025-10-18,270,330-->
 

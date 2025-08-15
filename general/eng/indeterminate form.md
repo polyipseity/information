@@ -87,7 +87,7 @@ return await memorize_map(
 
 #### x→∞
 
-To derive the equivalent infinitesimals when $x \to \pm\infty$, {@{replace all $x$ with $\frac 1 x$ in the [equivalent infinitesimals when $x \to 0^\pm$](#x→0) ($x \to +\infty$ becomes $x \to 0^+$, $x \to -\infty$ becomes $x \to 0^-$)}@}. <!--SR:!2029-08-13,1460,364-->
+To {@{derive the equivalent infinitesimals}@} when {@{$x \to \pm\infty$}@}, {@{replace all $x$ with $\frac 1 x$}@} in {@{the [equivalent infinitesimals when $x \to 0^\pm$](#x→0)}@} \({@{$x \to +\infty$}@} becomes {@{$x \to 0^+$}@}, {@{$x \to -\infty$ becomes $x \to 0^-$}@}\). <!--SR:!2029-08-13,1460,364-->
 
 ### L'Hôpital's rule
 
