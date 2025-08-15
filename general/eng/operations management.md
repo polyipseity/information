@@ -356,7 +356,7 @@ These are used in {@{approaches like [total quality management](total%20quality%
 
 ### safety, risk and maintenance
 
-{@{Other important [management](management.md) problems}@} involve {@{[maintenance](maintenance,%20repair%20and%20operations.md) policies<sup>[\[54\]](#^ref-54)</sup> \(see also [reliability engineering](reliability%20engineering.md) and [maintenance philosophy](maintenance%20philosophy.md)\)}@}, {@{[safety management systems](safety%20management%20systems.md) \(see also [safety engineering](safety%20engineering.md) and [risk management](risk%20management.md)\)}@}, {@{[facility management](facility%20management.md) and [supply chain](supply%20chain%20management.md) integration}@}. <!--SR:!2026-01-29,275,330!2026-05-24,286,250!2026-02-01,278,330-->
+{@{Other important [management](management.md) problems}@} involve {@{[maintenance](maintenance,%20repair%20and%20operations.md) policies<sup>[\[54\]](#^ref-54)</sup> \(see also [reliability engineering](reliability%20engineering.md) and [maintenance philosophy](maintenance%20philosophy.md)\)}@}, {@{[safety management systems](safety%20management%20systems.md) \(see also [safety engineering](safety%20engineering.md) and [risk management](risk%20management.md)\)}@}, {@{[facility management](facility%20management.md) and [supply chain](supply%20chain%20management.md) integration}@}. <!--SR:!2026-01-29,275,330!2026-05-24,286,250!2026-02-01,278,330!2025-08-18,4,344-->
 
 ## organizations
 

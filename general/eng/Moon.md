@@ -11,7 +11,7 @@ tags:
 
 # Moon
 
-The __Moon__ is {@{[Earth](Earth.md)'s only [natural satellite](natural%20satellite.md)}@}.  It [orbits](orbit%20of%20th%20Moon.md) at an [average distance](lunar%20distancee.md) of {@{384&nbsp;400 km (238&nbsp;900 mi), about 30 times the diameter of Earth}@}. {@{[Tidal forces](tidal%20forces.md) between Earth and the Moon}@} have over time {@{[synchronized](tidal%20locking.md) the Moon's orbital period ([lunar month](lunar%20month.md))}@} with {@{its rotation period ([lunar day](lunar%20day.md)) at 29.5 Earth days}@}, causing {@{the [same side](near%20side%20of%20the%20Moon.md) of the Moon to always face Earth}@}. <!--SR:!2027-09-09,832,330!2027-06-14,733,272!2028-04-30,999,332!2029-01-18,1287,352-->
+The __Moon__ is {@{[Earth](Earth.md)'s only [natural satellite](natural%20satellite.md)}@}.  It [orbits](orbit%20of%20th%20Moon.md) at an [average distance](lunar%20distancee.md) of {@{384&nbsp;400 km (238&nbsp;900 mi), about 30 times the diameter of Earth}@}. {@{[Tidal forces](tidal%20forces.md) between Earth and the Moon}@} have over time {@{[synchronized](tidal%20locking.md) the Moon's orbital period ([lunar month](lunar%20month.md))}@} with {@{its rotation period ([lunar day](lunar%20day.md)) at 29.5 Earth days}@}, causing {@{the [same side](near%20side%20of%20the%20Moon.md) of the Moon to always face Earth}@}. <!--SR:!2027-09-09,832,330!2027-06-14,733,272!2028-04-30,999,332!2029-01-18,1287,352!2025-08-18,4,317!2025-08-18,4,317-->
 
 ## Earth–Moon system
 

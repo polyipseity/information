@@ -228,7 +228,7 @@ For example, {@{the equation of the [unit circle](unit%20circle.md) $x^{2}+y^{2}
 
 In this example, {@{the equation can be solved in _y_}@}, giving {@{$y=\pm {\sqrt {1-x^{2} } }$}@}, but, {@{in more complicated examples, this is impossible}@}. For example, {@{the relation $y^{5}+y+x=0$}@} defines {@{_y_ as an implicit function of _x_}@}, called {@{the [Bring radical](bring%20radical.md)}@}, which has {@{$\mathbb {R}$ as domain and range}@}. The Bring radical {@{cannot be expressed in terms of the four arithmetic operations and [_n_<!-- markdown separator -->th roots](nth%20root.md)}@}. <!--SR:!2026-07-07,403,367!2026-06-14,387,365!2026-06-30,403,367!2026-01-02,253,330!2026-06-05,379,367!2026-02-27,300,350!2026-05-06,348,350!2026-07-08,404,367-->
 
-{@{The [implicit function theorem](implicit%20function%20theorem.md)}@} provides {@{mild [differentiability](differentiability.md) conditions}@} for {@{existence and uniqueness of an implicit function in the neighborhood of a point}@}. <!--SR:!2026-07-09,405,367!2026-12-14,494,310-->
+{@{The [implicit function theorem](implicit%20function%20theorem.md)}@} provides {@{mild [differentiability](differentiability.md) conditions}@} for {@{existence and uniqueness of an implicit function in the neighborhood of a point}@}. <!--SR:!2026-07-09,405,367!2026-12-14,494,310!2025-08-19,5,371-->
 
 ### using differential calculus
 
