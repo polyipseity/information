@@ -17,7 +17,7 @@ __Comparative advantage__ in {@{an [economic model](economic%20model.md)}@} is {
 
 ## classical theory and David Ricardo's formulation
 
-{@{[Adam Smith](Adam%20Smith.md)}@} first {@{alluded to the concept of _absolute advantage_ as the basis for international trade in 1776}@}, in {@{_[The Wealth of Nations](The%20Wealth%20of%20Nations.md)_}@}: <!--SR:!2025-10-01,284,330!2026-11-21,469,250!2027-03-04,678,330-->
+{@{[Adam Smith](Adam%20Smith.md)}@} first {@{alluded to the concept of _absolute advantage_ as the basis for international trade}@} in {@{1776, in _[The Wealth of Nations](The%20Wealth%20of%20Nations.md)_}@}: <!--SR:!2025-10-01,284,330!2026-11-21,469,250!2027-03-04,678,330-->
 
 > If {@{a foreign country can supply us with a commodity cheaper than we ourselves can make it}@}, {@{better buy it off them with some part of the produce of our own industry employed in a way in which we have some advantage}@}. The general industry of the country, being {@{always in proportion to the capital which employs it}@}, will {@{not thereby be diminished [...] but only left to find out the way in which it can be employed with the greatest advantage}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-01-11,321,290!2027-01-28,621,310!2025-08-15,247,330!2027-12-14,882,330-->
 

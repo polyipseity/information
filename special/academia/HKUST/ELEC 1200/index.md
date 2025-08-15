@@ -66,7 +66,7 @@ The content is in teaching order.
   - ELEC 1200 / cutting-edge technologies ::@:: 6G, artificial intelligence, big data, internet of things, etc. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
 - bit
   - bit / sequence
-    - bit / sequence / codeword ::@:: A single bit can only represent variables with two possible values. A combination of _n_ bits, called a _codeword_, can represent variables up to 2<sup>_n_</sp> possible values. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
+    - bit / sequence / codeword ::@:: A single bit can only represent variables with two possible values. A combination of _n_ bits, called a _codeword_, can represent variables up to 2<sup>_n_</sup> possible values. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
 - [binary number](../../../../general/binary%20number.md) ::@:: a method for representing numbers that uses only two symbols for the natural numbers: typically "0" \(zero\) and "1" \(one\) <!--SR:!2025-08-22,15,290!2025-08-22,15,290-->
   - binary number / to decimal number ::@:: $$x = \sum_{k = 0}^{N - 1} 2^k \cdot b_k \,,$$ where $b_{N - 1} b_{N - 2} \cdots b_1 b_0$ is the bit sequence. <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
   - binary number / most significant bit \(MSB\) ::@:: The bit that represents $2^{N - 1}$. It may be the first bit \(big endian; usually the case when written\), and sometimes it is reversed \(little endian\). <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
@@ -87,7 +87,7 @@ The content is in teaching order.
   - bit rate / bit time ::@:: bit rate = 1/\(bit time\) <p> So shorter bit times increases bit rate. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
 - [byte](../../../../general/byte.md) ::@:: It is a unit of digital information that most commonly consists of eight bits. <!--SR:!2025-08-20,14,290!2025-08-21,15,290-->
 - [signal](../../../../general/signal.md) ::@:: It is both the process and the result of transmission of data over some media accomplished by embedding some variation. <!--SR:!2025-08-22,16,290!2025-08-21,14,290-->
-  - signal / classification ::@:: time: continuous time \(CT\), discrete time \(DT\) <br/> value: continuous valued, discrete valued <!--SR:!2025-08-20,14,290!2025-08-22,15,290-->
+  - signal / classification ::@:: time: continuous time \(CT\), discrete time \(DT\) <br/> value: continuous valued \(analog\), discrete valued \(digital\) <!--SR:!2025-08-20,14,290!2025-08-22,15,290-->
 - [discrete time and continuous time](../../../../general/discrete%20time%20and%20continuous%20time.md) ::@:: They are two alternative frameworks within which variables that evolve over time are modeled. <!--SR:!2025-08-22,16,290!2025-08-21,14,290-->
   - discrete time and continuous time / discrete time ::@:: It views values of variables as occurring at distinct, separate "points in time" <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
   - discrete time and continuous time / continuous time ::@:: It views variables as having a particular value only for an infinitesimally short amount of time. <!--SR:!2025-08-21,15,290!2025-08-23,16,290-->
@@ -112,7 +112,7 @@ The content is in teaching order.
     - waveform / representations / graph ::@:: for waveform visualization <!--SR:!2025-08-20,14,290!2025-08-21,15,290-->
     - waveform / representations / sequence of values ::@:: for computers, e.g. MATLAB, Python, etc. <!--SR:!2025-08-23,16,290!2025-08-22,15,290-->
     - waveform / representations / sum of unit step functions ::@:: for mathematical analysis of signals when they pass through a channel <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
-- [Heaviside step function](../../../../general/Heaviside%20step%20function.md) ::@:: It is a step function named after Oliver Heaviside, the value of which is zero for negative arguments and one for positive arguments. Different conventions concerning the value _H_\(0\) are in use. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
+- [Heaviside step function](../../../../general/Heaviside%20step%20function.md) ::@:: It is a step function named after Oliver Heaviside, the value of which is zero for negative arguments and one for positive arguments. Different conventions concerning the value _H_\(0\) are in use. \(__this course__: _H_\(0\)&nbsp;=&nbsp;1\) <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
   - Heaviside step function / this course ::@:: \(__this course__: Use $$u(n) = \begin{cases} 0 & n < 0 \\ 1 & 0 \le n \,, \end{cases}$$ i.e. the function is 1 at time 0.\) <!--SR:!2025-08-23,16,290!2025-08-21,15,290-->
   - Heaviside step function / delay ::@:: To delay the step function by _d_ samples, use $u(n - d)$. \(Works for negative _d_ as well, which advances the function.\) <!--SR:!2025-08-23,16,290!2025-08-22,15,290-->
   - Heaviside step function / signal ::@:: It can be used to represent a binary signal, which can only take two values 0 and 1. <!--SR:!2025-08-21,15,290!2025-08-21,15,290-->
@@ -153,7 +153,7 @@ The content is in teaching order.
   - MATLAB / ranges ::@:: `a:b` is a range expression giving a vector from _a_ to _b_, both ends inclusive. If _a_ &gt; _b_, then the vector is empty. <p> `a:s:b` is also a range expression giving a vector from _a_ to _b_, both ends inclusive, with the 1st element being _a_ and adding _s_ each time to get the next element, until the element is outside _a_ and _b_ \(both ends inclusive\), then that and subsequent elements are not added. <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
   - MATLAB / arithmetic operations ::@:: MATLAB supports many arithmetic operations, e.g. addition `+`, subtraction `-`, multiplication `*`, division `/`, etc. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
     - MATLAB / arithmetic operations / scalar ::@:: A scalar \(non-vector and non-matrix\) operated on other scalars produce the expected results. <!--SR:!2025-08-23,16,290!2025-08-21,15,290-->
-    - MATLAB / arithmetic operations / vector, matrix ::@:: A scalar \(non-vector and non-matrix\) operated on a vector or matrix cause each element of the vector or matrix to be operated with that scalar. <p> For element-wise operations, a vector or matrix must be operated on a vector or matrix of the same shape. If so, you should generally prepend a dot `.` to the arithmetic operators, e.g. `.+`, `.-`, `.*`, `./`, which ensures the operations performed are element-wise \(rather than some very weird advanced mathematical operations\). <!--SR:!2025-08-21,14,290!2025-08-22,15,290-->
+    - MATLAB / arithmetic operations / vector, matrix ::@:: A scalar \(non-vector and non-matrix\) operated on a vector or matrix cause each element of the vector or matrix to be operated with that scalar. <p> For element-wise operations, a vector or matrix must be operated on a vector or matrix of the same shape. If so, you should generally prepend a dot `.` to the arithmetic operators, e.g. <!-- `.+`, `.-`, -->`.*`, `./`, which ensures the operations performed are element-wise \(rather than some very weird advanced mathematical operations\). <!--SR:!2025-08-21,14,290!2025-08-22,15,290-->
     - MATLAB / arithmetic operations / division ::@:: Division involving two floats return a float. Otherwise, it returns the nearest integer. <!--SR:!2025-08-23,16,290!2025-08-21,14,290-->
   - MATLAB / plotting ::@:: MATLAB provides function to plot data and accompanying text. <!--SR:!2025-08-22,15,290!2025-08-22,15,290-->
     - MATLAB / plotting / data ::@:: `plot(x, y)`, `stem(x, y)` <p> By default, each plot creates a new diagram in a new figure. Run `hold on` after the first plot so that any new plots are drawn on the same last diagram of the last figure. Run `hold off` to restore the default behavior. <!--SR:!2025-08-21,15,290!2025-08-20,14,290-->
@@ -185,7 +185,7 @@ The content is in teaching order.
   - step response / LTI system ::@:: For LTI systems, the step response $s(n)$ can be used to find the output for any input. <p> Write the input as a sum of \(potentially scaled and/or delayed\) unit step functions. Then replace $u$ with $s$, i.e. replace $c \cdot u(n - d)$ with $c \cdot s(n - d)$. This makes use of the properties of LTI system. <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
   - step response / exponential ::@:: It can model amplitude scaling \(_k_ &lt; 1 for attenuation\), blurring \(_a_ &lt; 1\), and propagation delay \(_d_\): $$s(n) = k\left(1 - a^{n - d + 1}\right) u(n - d) \,.$$ <p> _k_ simply scales the resulting amplitude. _d_ simply delays \(for negative values, advances\) the response. _a_ &lt; 1 models the transition speed, with values closer to 1 slowing down the transition. <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
     - step response / exponential / _a_ ::@:: When _n_ = _d_ \(when the transition starts\), we see $$s(d) = k \left(1 - a^{d - d + 1}\right) u(d - d) = k (1 - a) \,.$$ So _theoretically_, $1 - a$ should be the amplitude of the output signal relative to the full amplitude when the transition starts. <p> In practice, noise makes this impractical to find _a_, as even small errors in _a_ can lead to drastic changes in the step response. Trial-and-error is needed. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
-  - step response / noise, offset ::@:: The step response does _not_ model noise and offset. For offset, we can simply add it to the output signal. For noise, probability will be needed and introduced later, but it is also linearly added to the signal. <!--SR:!2025-08-19,12,270!2025-08-21,15,290-->
+  - step response / noise, offset ::@:: The step response does _not_ model noise and offset. <p> For offset, we _ignore_ it when the step response is considered. Later, we can simply linearly add it to the output signal. <p> For noise, probability will be needed and introduced later, but it is also linearly added to the signal. <!--SR:!2025-08-19,12,270!2025-08-21,15,290-->
 - communication channel
   - communication channel / noise, offset ::@:: They are often introduced by the environment, e.g. other users, etc. <!--SR:!2025-08-22,16,290!2025-08-21,15,290-->
 - [communication protocol](../../../../general/communication%20protocol.md) ::@:: It is a system of rules that allows two or more entities of a communications system to transmit information via any variation of a physical quantity. <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
@@ -193,6 +193,7 @@ The content is in teaching order.
   - communication protocol / aspects ::@:: all aspects needed to communicate <p> examples: bit endianness \(LSB or MSB\), bit representation \(e.g. 0 is off and 1 is on\), bit time \(or SPB\), synchronization method, text encoding \(e.g. ASCII, Unicode\), training sequence <!--SR:!2025-08-21,15,290!2025-08-21,15,290-->
 - bit
   - bit / decoding ::@:: To decode a bit, we need to make use of sub-sampling, thresholding, and training sequence. <!--SR:!2025-08-23,16,290!2025-08-22,15,290-->
+    - bit / decoding / offset ::@:: Normally, when we graph the output sign for _decoding_, the _offset_ is removed first so that zero signal corresponds to bit 0. \(__this course__: used in [midterm examination](#midterm%20examination)\) <p> Remember to adjust the threshold for this removal of offset.
     - bit / decoding / thresholding ::@:: Assume the transmitted data is binary. Then a threshold is decided, for which the data is 1 if the signal is greater than or _equal to_ the threshold, and otherwise 0. <p> A good threshold is $c + k / 2$, where _c_ is the offset and _k_ is the amplitude. <!--SR:!2025-08-23,16,290!2025-08-20,14,290-->
     - bit / decoding / sub-sampling ::@:: A bit is sent using SPB number of samples. This technique means we only consider a subset of the samples for each bit. <p> Due to blurring of transition, we often use the last sample of a bit to ensure the output is far above or below the threshold. <!--SR:!2025-08-21,15,290!2025-08-22,16,290-->
     - bit / decoding / training sequence ::@:: The receiver needs to know _c_ and _k_, but these two parameters may change over time. <p> This sequence allows the receiver to estimate _c_ and _k_. It is known to both the transmitter and receiver in advance, and cannot carry data. <p> A simple training sequence is simply sending the bit 1 for some time, and then send the bit 0 for some time. <!--SR:!2025-08-22,16,290!2025-08-21,15,290-->
@@ -211,7 +212,7 @@ The content is in teaching order.
 - ELEC 1200
   - ELEC 1200 / protocol ::@:: We can consider the protocol to be used in our lab from the transmitter and receiver perspective separately. <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
     - ELEC 1200 / protocol / transmitter ::@:: training sequence <br/> frames: 1 start bit, 1280 \(160 bytes\) of data bits, 1 stop bit <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
-    - ELEC 1200 / protocol / receiver ::@:: training sequence: find _c_ and _k_ <br/> sub-sampling: SPB1, i.e. the last sample of a bit <br/> frame: skip 1 start bit, read 1280 bits as data <!--SR:!2025-08-21,14,290!2025-08-20,14,290-->
+    - ELEC 1200 / protocol / receiver ::@:: training sequence: find _c_ and _k_ <br/> sub-sampling: SPB−1, i.e. the last sample of a bit <br/> frame: skip 1 start bit, read 1280 bits as data <!--SR:!2025-08-21,14,290!2025-08-20,14,290-->
 
 ## week 1 tutorial 2
 
@@ -379,12 +380,12 @@ The content is in teaching order.
   - Q-function / computation ::@:: There is no closed-form expression for it. A table of values or computers must be used. <p> In MATLAB, use the `qfunc(x)` function. <!--SR:!2025-08-22,16,290!2025-08-20,14,290-->
 - bit error rate
   - bit error rate / simple model
-    - bit error rate / simple model / error probabilities ::@:: The input probabilities are easy to find. The conditional error probabilities are slightly harder to find. Further assume bit 0 sends $r_{\text{min} }$ and bit 1 sends $r_{\text{max} }$ \(offset $r_{\text{min} }$ and scale $r_{\text{max} } - r_{\text{min} }$\). <p> Then, given the additive noise PDF $X$, the PDF for sending bit 0 is simply to offset the PDF by $r_{\text{min} }$, i.e. $r_{\text{min} } + X$. The conditional error rate $P_{e0}$ is the area of the PDF that crosses into the wrong side of the threshold. The same goes for sending bit 1 $P_{e1}$. <!--SR:!2025-08-21,14,290!2025-08-21,15,290-->
+    - bit error rate / simple model / error probabilities ::@:: The input probabilities are easy to find. The conditional error probabilities are slightly harder to find. Further assume bit 0 sends $r_{\text{min} }$ and bit 1 sends $r_{\text{max} }$ \(offset $r_{\text{min} }$ and scale $r_{\text{max} } - r_{\text{min} }$\). <p> Then, given the additive noise PDF $X$, the PDF for sending bit 0 is simply to offset the PDF by $r_{\text{min} }$, i.e. $r_{\text{min} } + X$. The conditional error rate $P_{e0}$ is the area of the PDF that crosses into the wrong side of the threshold. The same goes the conditional error rate $P_{e1}$ for sending bit 1. <!--SR:!2025-08-21,14,290!2025-08-21,15,290-->
     - bit error rate / simple model / threshold ::@:: We see by increasing the threshold, the conditional error rate decreases for sending bit 0 but increases for sending bit 1, and vice versa. So there is a tradeoff. <p> There is a point in between \(not necessarily in the middle\) that minimizes the bit error rate, with BER increasing as we move away from it. This point can be found using the first derivative test. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
     - bit error rate / simple model / special case ::@:: IF the input bits are equally likely, and the additive noise follows a normal distribution, then the optimal threshold is in the middle: $$T^* = \frac {r_{\text{min} } + r_{\text{max} } } 2 \,,$$ and its optimal BER is $$\text{BER}^* = Q\left(\frac {r_{\text{max} } - r_{\text{min} } } {2 \sigma} \right) \,.$$ <p> We see a larger signal difference means less BER. However, this means a higher transmission power is needed. <!--SR:!2025-08-21,14,290!2025-08-21,14,290-->
 - power
   - power / signal ::@:: The power of a signal is its amplitude squared. If the signal takes on value $r$ with probability $p$, we can weight the amplitude squared: $$\text{power} = \sum_k p_k r_k^2 \,.$$ <p> For a quiet output signal with both bits equally likely, we have: $$\begin{aligned} \text{power} & = \frac 1 2 r_{\text{min} }^2 + \frac 1 2 r_{\text{max} }^2 \\ & = \left(\frac 1 4 r_{\text{min} }^2 + \frac 1 2 r_{\text{min} } r_{\text{max} } + \frac 1 4 r_{\text{max} }^2 \right) + \left(\frac 1 4 r_{\text{min} }^2 - \frac 1 2 r_{\text{min} } r_{\text{max} } + \frac 1 4 r_{\text{max} }^2 \right) \\ & = \left(\frac {r_{\text{min} } + r_{\text{max} } } 2 \right)^2 + \left(\frac {r_{\text{min} } - r_{\text{max} } } 2 \right)^2 \,, \end{aligned}$$ the last expression of which is _bias—variance decomposition_, because the first term is squared bias while the latter is variance \(squared standard deviation\). <!--SR:!2025-08-21,15,290!2025-08-21,14,290-->
-    - power / signal / rigorous ::@:: \(__this course__: untaught\) We can use the expected value to rigorously express the power of a signal: $$\text{power} = \operatorname E\left[X^2 \right] \,,$$ where $X$ is the signal modeled as a random signal. The _bias—variance decomposition_ is simply the following well-known identity: $$\operatorname E\left[X^2\right] = \operatorname E[X]^2 + \operatorname E\left[(X - \mu_X)^2 \right] = \operatorname E[X]^2 + \operatorname{Var}(X) = \mu_X^2 + \sigma_X^2 \,.$$ <p> This also explains why the power of an unbiased \(mean 0\) noise signal is simply its variance. <!--SR:!2025-08-22,16,290!2025-08-22,15,290-->
+    - power / signal / rigorous ::@:: \(__this course__: untaught\) <p> We can use the expected value to rigorously express the power of a signal: $$\text{power} = \operatorname E\left[X^2 \right] \,,$$ where $X$ is the signal modeled as a random signal. <p> The _bias—variance decomposition_ is simply the following well-known identity: $$\operatorname E\left[X^2\right] = \operatorname E[X]^2 + \operatorname E\left[(X - \mu_X)^2 \right] = \operatorname E[X]^2 + \operatorname{Var}(X) = \mu_X^2 + \sigma_X^2 \,.$$ <p> This also explains why the power of an unbiased \(mean is 0\) noise signal is simply its variance. <!--SR:!2025-08-22,16,290!2025-08-22,15,290-->
 - [signal-to-noise ratio](../../../../general/signal-to-noise%20ratio.md) \(SNR, S/N\) ::@:: It is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. SNR is defined as the ratio of signal power to noise power, often expressed in decibels. <!--SR:!2025-08-22,16,290!2025-08-23,16,290-->
   - signal-to-noise ratio / formula ::@:: $$\text{SNR} = \frac {\text{signal (without noise) power} } {\text{noise power} } \,.$$ However, it is often expressed in decibels \(dB\) instead: $$\text{SNR}_{\text{dB} } = 10 \log_{10} \text{SNR} \,.$$ 0 dB means same the signal has the same power as noise. Every 10&nbsp;dB increase in SNR multiplies the signal power by 10, so that 10&nbsp;dB means 10 times, 20&nbsp;dB means 100 times, 30&nbsp;dB means 1000 times, etc. <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
   - signal-to-noise ratio / factors ::@:: Mostly due to transmission distance. As transmission distance increases, the signal power at the receiver decreases and the noise power remains mostly constant. <p> Other factors include electronics quality, bit \(symbol\) rate, etc. <!--SR:!2025-08-22,16,290!2025-08-21,15,290-->
@@ -411,7 +412,7 @@ The content is in teaching order.
 - block code
   - block code / Hamming distance ::@:: The minimum Hamming distance $d$ between any two valid codewords in the _codeword space_ \(not _message space_\) determines the maximum of error bits so that we can detect or correct errors. <p> We can _either_ detect errors only _or_ detect and correct errors if possible. <p> If we only detect errors, we can do so with up to $d - 1$ error bits. <p> If we detect and correct errors, and we simply use the closest valid codeword, we can detect up to $\left\lceil \frac {d - 1} 2 \right\rceil$ error bits and correct \(correctly\) up to $\left\lfloor \frac {d - 1} 2 \right\rfloor$ error bits. Not that if we can correct, then we must be able to detect, but the converse is not true for even $d$. For even $d$, there are invalid codewords with equal distance to multiple valid codewords, so we can detect said errors but not correct them correctly always. <!--SR:!2025-08-22,15,290!2025-08-20,14,290-->
 - [repetition code](../../../../general/repetition%20code.md) ::@:: It is one of the most basic linear error-correcting codes. In order to transmit a message over a noisy channel that may corrupt the transmission in a few places, the idea of the repetition code is to just repeat the message several times. The hope is that the channel corrupts only a minority of these repetitions. <!--SR:!2025-08-20,14,290!2025-08-21,15,290-->
-  - repetition code / details ::@:: There is only 1 data bit. We repeated the data bits $n - 1$ times. This forms a $(n, 1)$ block code. <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
+  - repetition code / details ::@:: There is only 1 data bit. We repeated the data bit for $n - 1$ more times. This forms a $(n, 1)$ block code. <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
   - repetition code / Hamming distance ::@:: The minimum Hamming distance $d$ between any two valid codewords \(there are only 2\) is $n$. <p> Intuitively, if we want to detect errors, we can always do so unless all $n$ bits have flipped. If we want to correct errors, we are taking the _majority vote_, so we can always \(correctly\) do so when at most $\left\lfloor \frac {n - 1} 2 \right\rfloor$ have flipped. Note we must choose to _either_ detect errors only _or_ detect and correct errors if possible. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
 - assignment: [homework 1](assignments/homework%201/index.md)
 
@@ -454,12 +455,12 @@ The content is in teaching order.
   - parity bit / details
   - parity bit / even parity bit
 - block code
-  - block code / \(8, 4\) block code ::@:: The 4 data bits $D_1, D_2, D_3, D_4$ are laid out in a 2-by-2 table in Z-order. The parity bits $P_1, P_2, P_3, P_4$ are appended to the table left and bottom edges as follows: $$\begin{bmatrix} D_1 & D_2 & P_1 \\ D_3 & D_4 & P_2 \\ P_3 & P_4 \end{bmatrix} \,.$$ The parity bits check the data bits on their corresponding column or row. <p> Note this is not the \[7, 4\] Hamming code or the \[8, 4\] Hamming code with an extra parity bit. However, the symmetry makes this code easier to learn, so this is why this code instead of the Hamming code is learnt instead. \(__this course__: As a codeword, the data bits come before the parity bits.\) <!--SR:!2025-08-23,16,290!2025-08-22,15,290-->
+  - block code / \(8, 4\) block code ::@:: The 4 data bits $D_1, D_2, D_3, D_4$ are laid out in a 2-by-2 table in Z-order. The parity bits $P_1, P_2, P_3, P_4$ are appended to the table left and bottom edges as follows: $$\begin{bmatrix} D_1 & D_2 & P_1 \\ D_3 & D_4 & P_2 \\ P_3 & P_4 \end{bmatrix} \,.$$ The parity bits check the data bits on their corresponding column or row. <p> Note this is not the \[7, 4\] Hamming code or the \[8, 4\] Hamming code with an extra parity bit. However, the symmetry makes this code easier to learn, so this is why this code instead of the Hamming code is learnt instead. <p> \(__this course__: As a codeword, the data bits come before the parity bits.\) <!--SR:!2025-08-23,16,290!2025-08-22,15,290-->
     - block code / \(8, 4\) block code / Hamming distance ::@:: Its minimum Hamming distance is 3. \(__this course__: Proof not required.\) <p> So we can _either_ detect up to 2 error bits _or_ correct up to 1 error bit. <!--SR:!2025-08-23,16,290!2025-08-21,15,290-->
     - block code / \(8, 4\) block code / syndrome bits ::@:: The syndrome bits are calculated when decoding a block code. For each column and row \(each set of parity bit and their corresponding data bits\), its syndrome bit is 0 if there is no parity error, or 1 if there is a parity error. Equivalently, the syndrome bit, when added to the column or row, "fixes" the parity of that column or row. \(__this course__: __Important__. We use _even_ parity for all parity checking, i.e. an even number of 1s is correct.\) <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
     - block code / \(8, 4\) block code / error detection ::@:: Assuming up to 2 data bits are flipped. <p> If all syndrome bits are 0, no errors are detected. Otherwise, there is an error, because flipping at most 2 data bits cannot make all syndrome bits 0. <!--SR:!2025-08-20,14,290!2025-08-22,16,290-->
     - block code / \(8, 4\) block code / error correction ::@:: Assuming up to 1 data bit is flipped. <p> If 1 syndrome bit is 1, that means its parity bit is flipped, because flipping a parity bit changes 1 syndrome bit. If 2 syndrome bits are 1, that means the data bit in the corresponding column and row is flipped, because flipping a data bit changes 2 syndrome bits. <!--SR:!2025-08-22,15,290!2025-08-23,16,290-->
-  - block code / \(9, 4\) block code with parity bit ::@:: The 4 data bits $D_1, D_2, D_3, D_4$ are laid out in a 2-by-2 table in Z-order. The parity bits $P_1, P_2, P_3, P_4, P_5$ are appended to the table left and bottom edges as follows: $$\begin{bmatrix} D_1 & D_2 & P_1 \\ D_3 & D_4 & P_2 \\ P_3 & P_4 & P_5 \end{bmatrix} \,.$$ The first 4 parity bits check the data bits on their corresponding column or row. The last parity bit checks all previous 8 bits. <p> Note this is not the \[7, 4\] Hamming code or the \[8, 4\] Hamming code with an extra parity bit. However, the symmetry makes this code easier to learn, so this is why this code instead of the Hamming code is learnt instead. \(__this course__: As a codeword, the data bits come before the parity bits.\) <!--SR:!2025-08-22,15,290!2025-08-23,16,290-->
+  - block code / \(9, 4\) block code with parity bit ::@:: The 4 data bits $D_1, D_2, D_3, D_4$ are laid out in a 2-by-2 table in Z-order. The parity bits $P_1, P_2, P_3, P_4, P_5$ are appended to the table left and bottom edges as follows: $$\begin{bmatrix} D_1 & D_2 & P_1 \\ D_3 & D_4 & P_2 \\ P_3 & P_4 & P_5 \end{bmatrix} \,.$$ The first 4 parity bits check the data bits on their corresponding column or row. The last parity bit checks all previous 8 bits. <p> Note this is not the \[7, 4\] Hamming code or the \[8, 4\] Hamming code with an extra parity bit. However, the symmetry makes this code easier to learn, so this is why this code instead of the Hamming code is learnt instead. <p> \(__this course__: As a codeword, the data bits come before the parity bits.\) <!--SR:!2025-08-22,15,290!2025-08-23,16,290-->
     - block code / \(9, 4\) block code with parity bit / Hamming distance ::@:: Its minimum Hamming distance is 4. In general, add an extra parity bit to a block code \(that does not already have an extra parity bit added\) increases the minimum Hamming distance by 1. \(__this course__: Proof not required.\) <p> So we can _either_ detect up to 3 error bits _or_ detect up to 2 error bits and correct up to 1 error bit. <!--SR:!2025-08-23,16,290!2025-08-20,14,290-->
     - block code / \(9, 4\) block code with parity bit / syndrome bits ::@:: The syndrome bits are calculated when decoding a block code. For each column and row \(each set of parity bit and their corresponding data bits\), its syndrome bit is 0 if there is no parity error, or 1 if there is a parity error. The same is done for the last parity bit $P_5$ but for all bits. Equivalently, the syndrome bit, when added to the column or row, "fixes" the parity of that column or row. \(__this course__: __Important__. We use _even_ parity for all parity checking, i.e. an even number of 1s is correct.\) <!--SR:!2025-08-22,16,290!2025-08-22,15,290-->
     - block code / \(9, 4\) block code with parity bit / error detection ::@:: Assuming up to 3 data bits are flipped. <p> The embedded \(8, 4\) block code \(i.e. ignoring the parity bit\) can detect up to 2 error bits. For exactly 3 error bits, the embedded block code itself may not detect an error, but the last parity bit must be able to detect it. <!--SR:!2025-08-21,14,290!2025-08-20,14,290-->
@@ -472,8 +473,8 @@ The content is in teaching order.
   - sine wave / discrete ::@:: We can consider a sine wave in discrete time by simply sampling the continuous sine wave. <p> We consider _N_ samples. Then the ordinary frequency $f$ is often replaced by _cycle frequency_ $k \in \set{0, 1, \ldots, \lfloor N / 2 \rfloor}$, and time $t$ is often replaced by discrete time index $n$: $$A \cos\left( 2 \pi \frac k N n + \varphi \right) \,.$$ The cycle frequency $k$ represents the number of \(co\)sine waves in _N_ samples. The period $T$ in samples is simply $N / k$. <p> Using $\frac k N n = ft$, the ordinary frequency $f$ is recovered as $$f = \frac k N \frac n t = \frac k N \frac 1 {T_s} = \frac k N F_s \,,$$ where $T_s$ is sampling period and $F_s = 1 / T_s$ is sampling frequency. <!--SR:!2025-08-23,16,290!2025-08-19,12,270-->
 - [Fourier series](../../../../general/Fourier%20series.md) ::@:: It is an expansion of a periodic function into a sum of trigonometric functions. <!--SR:!2025-08-22,15,290!2025-08-21,15,290-->
   - Fourier series / forms ::@:: There are many forms to write the Fourier series: amplitude-phase form, exponential form, sine-cosine form. \(__this course__: We only teach the amplitude-phase form, and only scratch its surface.\) <!--SR:!2025-08-22,15,290!2025-08-22,15,290-->
-  - Fourier series / amplitude-phase form ::@:: If the function $s(x)$ is real-valued then the Fourier series can also be represented as $$s_{N}(x)=A_{0}+\sum _{n=1}^{N}A_{n}\cos \left(2\pi {\tfrac {k}{P} }x-\varphi _{k}\right)$$ where $A_{n}$ is the amplitude and $\varphi _{n}$ is the phase shift of the $k^{th}$ harmonic \(positive shifts cosine to the right\). <p> \(__this course__: Since we are thinking in discrete time with $N$ samples, using $n / N = x / P$, and that cycle frequencies are up to $\lfloor N / 2 \rfloor$ we have: $$s_{N}(x) = A_0 + \sum_{n = 1}^{\lfloor N / 2 \rfloor} A_k \cos\left(2 \pi \frac k N n + \varphi_k \right) \,.$$ Notice we use the negated phase shift as well.\) <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
-    - Fourier series / amplitude-phase form / interpretation ::@:: This means any discrete waveform with $N$ samples can be decomposed into $\lfloor N / 2 \rfloor + 1$ cosines. \(Though the first cosine has zero frequency and is really just a flat line.\) <p> $A_0$ is the _average level_, also known as the _DC offset_. $A_k$ is the amplitude of the cosine with cycle frequency $k$. $\varphi_k$ is the phase of the cosine with cycle frequency $k$, with positive values shifting to the right \(when $+ \varphi_k$ instead of $- \varphi_k$ is used\). <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
+  - Fourier series / amplitude-phase form ::@:: If the function $s(x)$ is real-valued then the Fourier series can also be represented as $$s_{N}(x)=A_{0}+\sum _{n=1}^{N}A_{n}\cos \left(2\pi {\tfrac {k}{P} }x-\varphi _{k}\right)$$ where $A_{n}$ is the amplitude and $\varphi _{n}$ is the phase shift of the $k^{th}$ harmonic \(positive shifts cosine to the right\). <p> \(__this course__: Since we are thinking in discrete time with $N$ samples, using $n / N = x / P$, and that cycle frequencies are up to $\lfloor N / 2 \rfloor$ we have: $$s_{N}(x) = A_0 + \sum_{n = 1}^{\lfloor N / 2 \rfloor} A_k \cos\left(2 \pi \frac k N n + \varphi_k \right) \,.$$ Notice the phase shift is negated, but this is simply a matter of convention.\) <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
+    - Fourier series / amplitude-phase form / interpretation ::@:: This means any discrete waveform with $N$ samples can be decomposed into $\lfloor N / 2 \rfloor + 1$ cosines. \(Though the first cosine has zero frequency and is really just a flat line.\) <p> $A_0$ is the _average level_, also known as the _DC offset_. $A_k$ is the amplitude of the cosine with cycle frequency $k$. $\varphi_k$ is the phase of the cosine with cycle frequency $k$, with positive values shifting to the left \(when $+ \varphi_k$ instead of $- \varphi_k$ is used\). <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
     - Fourier series / amplitude-phase form / amplitude spectrum ::@:: We can plot the $A_k$ amplitude against cycle frequency $k$. It can show the most important frequencies, which are frequencies with the largest amplitudes. <p> By keeping frequencies with the largest amplitudes, we can roughly recreate the waveform, with the original waveform fully recovered when all frequencies with nonzero amplitudes are kept. <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
     - Fourier series / amplitude-phase form / phase spectrum ::@:: We can also plot the $\varphi_k$ phase against cycle frequency $k$. <p> Combined with the amplitude spectrum, they describe the original discrete signal completely, i.e. the original signal can be fully recovered from them. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
   - Fourier series / representation ::@:: It is one of way to represent the _Fourier transform_ of a signal. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
@@ -483,10 +484,10 @@ The content is in teaching order.
 - [discrete Fourier transform](../../../../general/discrete%20Fourier%20transform.md) \(DFT\) ::@:: \(__this course__: optional\) <p> It takes _N_ samples and returns _N_ complex coefficients called _Fourier coefficients_. <!--SR:!2025-08-22,15,290!2025-08-23,16,290-->
   - discrete Fourier transform / definition ::@:: \(__this course__: optional\) <p> It transforms a sequence of _N_ complex numbers $\left\{\mathbf {x} _{n}\right\}:=x_{0},x_{1},\ldots ,x_{N-1}$ into another sequence of complex numbers, $\left\{\mathbf {X} _{k}\right\}:=X_{0},X_{1},\ldots ,X_{N-1}$, which is defined by: $$X_{k}=\sum _{n=0}^{N-1}x_{n}\cdot e^{-i2\pi {\tfrac {k}{N} }n} \,.$$ <!--SR:!2025-08-22,16,290!2025-08-20,14,290-->
   - discrete Fourier transform / MATLAB ::@:: The function `fft` can be used to compute the DFT of a signal. \(The "FFT" in `fft` stands for "fast Fourier transform".\) <p> Note the indexing in MATLAB starts from 1, e.g. $X_0$ is `Xdft(1)`, where `Xdft` is `fft(x)`. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
-  - discrete Fourier transform / Fourier series ::@:: \(__this course__: optional\) <p> For a _real_ signal, we can compute its Fourier series using the DFT. In particular, we can get the amplitude spectrum and phase spectrum. <p>  For the amplitude spectrum: $$A_k = \begin{cases} \frac 1 N \lvert X_k \rvert & k = 0 \text{ or } \frac N 2 \\ \frac 2 N \lvert X_k \rvert & \text{otherwise} \,. \end{cases}$$ For the phase spectrum: $$\varphi_k = \angle X_k \,.$$ <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
+  - discrete Fourier transform / Fourier series ::@:: \(__this course__: optional\) <p> For a _real_ signal, we can compute its Fourier series using the DFT. In particular, we can get the amplitude spectrum and phase spectrum. <p>  For the amplitude spectrum: $$A_k = \begin{cases} \frac 1 N \lvert X_k \rvert & k = 0 \text{ or } \frac N 2 \\ \frac 2 N \lvert X_k \rvert & \text{otherwise} \,. \end{cases}$$ \(Note that if $N / 2$ is an non-integer, then it cannot equal $k$, which must be an integer\) <p> For the phase spectrum: $$\varphi_k = \angle X_k \,.$$ <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
 - [complex number](../../../../general/complex%20number.md) ::@:: \(__this course__: optional\) <p> It is an element of a number system that extends the real numbers with a specific element denoted _i_, called the imaginary unit and satisfying the equation $i^{2}=-1$; every complex number can be expressed in the form $a+bi$, where _a_ and _b_ are real numbers. <p> \(__this course__: This course follows electrical engineering convention and uses $j$ instead of $i$.\) <!--SR:!2025-08-21,15,290!2025-08-20,14,290-->
   - complex number / to polar coordinates ::@:: \(__this course__: optional\) <p> $$\begin{aligned} \lvert z \rvert & = \sqrt{a^2 + b^2} \\ \angle z & = \arctan(b / a) \,. \end{aligned}$$ <!--SR:!2025-08-21,15,290!2025-08-23,16,290-->
-  - complex number / from polar coordinates ::@:: \(__this course__: optional\) <p> $$\begin{aligned} a & = \lvert z \rvert \cos(\angle z) \\ b & = \lvert z \rvert \sin(\angle z) \,. \end{aligned}$$ <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
+  - complex number / from polar coordinates ::@:: \(__this course__: optional\) <p> $$\begin{aligned} a & = \lvert z \rvert \cos(\angle z) \\ bi & = i \lvert z \rvert \sin(\angle z) \,. \end{aligned}$$ <!--SR:!2025-08-23,16,290!2025-08-22,16,290-->
 
 ## week 3 lecture
 
@@ -507,13 +508,13 @@ The content is in teaching order.
   - all-pass filter / amplitude response ::@:: Ideally, its amplitude response is the same for all frequencies. That means all sinusoids are scaled equally. <!--SR:!2025-08-21,14,290!2025-08-21,14,290-->
   - all-pass filter / phase response ::@:: An all-pass filter that only scales is probably quite useless in practice. Its phase response is probably nontrivial so that it can be useful, i.e. the filter only modifies the sinusoid phases. <!--SR:!2025-08-22,16,290!2025-08-20,14,290-->
 - [low-pass filter](../../../../general/low-pass%20filter.md) ::@:: It is a filter that passes signals with a frequency lower than a selected cutoff frequency and attenuates signals with frequencies higher than the cutoff frequency. <!--SR:!2025-08-21,15,290!2025-08-20,14,290-->
-  - low-pass filter / amplitude response ::@:: Ideally, its amplitude response is some nonzero constant until a _cutoff frequency_ $f_{co}$, and then zero hence after. <p> So it emphasizes "bass" or low-frequency components. <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
+  - low-pass filter / amplitude response ::@:: Ideally, its amplitude response is some nonzero constant until a _cutoff frequency_ $f_{co}$, and then zero hence after. <p> So it emphasizes "bass" or low-frequency components. <p> \(__this course__: The ideal amplitude response is _nonzero_ at the cutoff frequency.\) <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
   - low-pass filter / graph ::@:: On a graph, you can observe that sudden jumps in the input generally become smoother in the output. <p> This is very similar to what we see in physical channels, where sudden jumps in the input requires time to transit in the output. Indeed, such channels are usually modeled by low-pass filters. <!--SR:!2025-08-22,16,290!2025-08-22,16,290-->
 - [high-pass filter](../../../../general/high-pass%20filter.md) ::@:: It is an electronic filter that passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
-  - high-pass filter / amplitude response ::@:: Ideally, its amplitude response is some zero until a _cutoff frequency_ $f_{co}$, and then some nonzero constant hence after. <p> So it emphasizes "treble" or high-frequency components. <!--SR:!2025-08-23,16,290!2025-08-20,14,290-->
+  - high-pass filter / amplitude response ::@:: Ideally, its amplitude response is some zero until a _cutoff frequency_ $f_{co}$, and then some nonzero constant hence after. <p> So it emphasizes "treble" or high-frequency components. <p> \(__this course__: The ideal amplitude response is _nonzero_ at the cutoff frequency.\) <!--SR:!2025-08-23,16,290!2025-08-20,14,290-->
   - high-pass filter / graph ::@:: On a graph, you can observe that sudden jumps in the input are emphasized in the output, while flat inputs approach zero in the output. <!--SR:!2025-08-21,14,290!2025-08-22,15,290-->
 - [band-pass filter](../../../../general/band-pass%20filter.md) ::@:: It is a device that passes frequencies within a certain range and rejects \(attenuates\) frequencies outside that range. <!--SR:!2025-08-23,16,290!2025-08-21,15,290-->
-  - band-pass filter / amplitude response ::@:: Ideally, its amplitude response is zero until a _low frequency cutoff_ $f_{l}$, and then some nonzero constant until a _high frequency cutoff_ $f_{h}$, and then zero hence after. <p> Its _center frequency_ $f_{c}$ is simply their middle: $$f_c = (f_l + f_h) / 2 \,.$$ Its _bandwidth_ is $$\text{BW} = f_h - f_l \,.$$ <p> So it emphasizes "midrange" or middle-frequency components. <!--SR:!2025-08-21,14,290!2025-08-22,15,290-->
+  - band-pass filter / amplitude response ::@:: Ideally, its amplitude response is zero until a _low frequency cutoff_ $f_{l}$, and then some nonzero constant until a _high frequency cutoff_ $f_{h}$, and then zero hence after. <p> So it emphasizes "midrange" or middle-frequency components. <p> Its _center frequency_ $f_{c}$ is simply their middle: $$f_c = (f_l + f_h) / 2 \,.$$ Its _bandwidth_ is $$\text{BW} = f_h - f_l \,.$$ <p> \(__this course__: The ideal amplitude responses are _nonzero_ at the 2 cutoff frequencies.\) <!--SR:!2025-08-21,14,290!2025-08-22,15,290-->
   - band-pass filter / graph ::@:: The effect on the graph generally depends on the filter parameters. It usually consists of a mix of effects from the low-pass and high-pass filter. <!--SR:!2025-08-22,15,290!2025-08-21,15,290-->
 - frequency response
   - frequency response / vs. step response ::@:: Assume the system is LTI. Then, they are equivalent models, like how the exponential step response is equivalent to the recursive feedback model. <p> They are different ways to view the same thing, and more convenient in different contexts, like time domain signal and its corresponding frequency domain signal \(Fourier transform\). <!--SR:!2025-08-22,16,290!2025-08-21,14,290-->
@@ -582,10 +583,12 @@ The content is in teaching order.
   - amplitude modulation / general form ::@:: In general form, a modulation process of a sinusoidal carrier wave may be described by the following equation: $$m(t)=A(t)\cdot \cos(\omega t+\phi (t)) \,,$$ where _A\(t\)_ represents the time-varying amplitude of the sinusoidal carrier wave and the cosine-term is the carrier at its angular frequenc $\omega$ \($\omega = 2\pi f$\), and the instantaneous phase deviation $\phi (t)$. <!--SR:!2025-08-20,14,290!2025-08-21,14,290-->
   - amplitude modulation / intuition ::@:: The carrier signal \(the signal that is not the baseband signal\), which is usually a cosine wave of fixed frequency, is within the allocated frequency range. <p> Then we vary the amplitude of the carrier using the baseband signal. Since the baseband signal is bandlimited, this will not result in frequency components that are very far away from the original carrier frequency, so the modulated signal stays within the allocated frequency range. <!--SR:!2025-08-23,16,290!2025-08-23,16,290-->
   - amplitude modulation / simple case ::@:: We consider modulating a cosine wave of frequency $f$ in the most simple way. The carrier is a cosine wave of frequency $f_0$, which is typically much larger than $f$. <p> Then the most simple way to AM is: $$m(t) \cos(2\pi f t) \cos(2\pi f_0 t) \,.$$ Using trigonometric identities, we have: $$\begin{aligned} m(t) & = \cos(2\pi f t) \cos(2 \pi f_0 t) \\ & = \frac 1 2\left(\cos(2 \pi (f_0 - f) t) + \cos(2 \pi (f_0 + f) t) \right) \,. \end{aligned}$$ <p> So we see the modulated signal becomes two frequency components at $f_0 - f$ and $f_0 + f$. <!--SR:!2025-08-22,16,290!2025-08-23,16,290-->
-    - amplitude modulation / simple case / bandwidth ::@:: If the original signal has a bandwidth of $W$ \(frequencies are from 0 to $W$\), then the modulated sign has a bandwidth of $2W$ \(frequencies are from $f_0 - W$ to $f_0 + W$\). <p> Actually, the bandwidth is really the same, once you consider that for a real signal, if it has a component at positive frequency $f$, then it also has a component at negative frequency $-f$. \(__this course__: Not mentioned. Ignore this paragraph.\) <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
+    - amplitude modulation / simple case / bandwidth ::@:: If the original signal has a bandwidth of $W$ \(frequencies are from 0 to $W$\), then the modulated sign has a bandwidth of $2W$ \(frequencies are from $f_0 - W$ to $f_0 + W$\). <p> Actually, the bandwidth is really the same, once you consider that for a real sinusoid signal of amplitude $A$, it has a \(complex\) sinusoid component of amplitude $A / 2$ at positive frequency $f$ and also at at _negative_ frequency $-f$. \(__this course__: Not mentioned. Ignore this paragraph.\) <!--SR:!2025-08-20,14,290!2025-08-23,16,290-->
     - amplitude modulation / simple case / linearity ::@:: Since a baseband signal can be approximated by adding multiple components of different frequencies, and modulation is a _linear_ operation, so we can perform the simple case analysis for each component, and then add the output results together to get the modulated signal. <!--SR:!2025-08-22,16,290!2025-08-21,15,290-->
   - amplitude modulation / frequency domain ::@:: For a positive component of frequency of $f$ and amplitude $A$ in the baseband signal, we see two corresponding components of the same amplitude $A_0 A / 2$ \(where $A_0$ is the carrier signal amplitude\) at frequency $f_0 - f$ and $f_0 + f$. <p> This is clear if you know negative frequencies and the properties of Fourier transform. That is, element-wise multiplication in time \(frequency\) domain corresponds to convolution in frequency \(time\) domain. \(__this course__: Not mentioned.\) <!--SR:!2025-08-21,14,290!2025-08-23,16,290-->
   - amplitude modulation / multiplexing ::@:: To use AM for multiplexing, the baseband signals should be bandlimited \(say a frequency range between 0 and $\text{BW}$\). The carrier signals should be separated by a frequency difference of more than $2\text{BW}$ to avoid overlapping between the modulated signals. <!--SR:!2025-08-21,15,290!2025-08-22,16,290-->
+- multiplexing
+  - multiplexing / guard bands ::@:: They are unused bands that are in between the modulated baseband signals. They help avoid interference even if there is leakage outside the theoretical bandwidth of baseband signals.
 
 ## week 3 tutorial
 
@@ -619,6 +622,7 @@ The content is in teaching order.
   - amplitude modulation / demodulation ::@:: 2 main methods: _envelope detector_, _product detector_ \(mixing\) <!--SR:!2025-08-21,15,290!2025-08-23,16,290-->
 - [product detector](../../../../general/product%20detector.md) ::@:: It is a type of demodulator used for AM and SSB signals. Rather than converting the envelope of the signal into the decoded waveform like an envelope detector, the product detector takes the product of the modulated signal and a local oscillator, hence the name. <!--SR:!2025-08-22,15,290!2025-08-21,15,290-->
   - product detector / mathematical model ::@:: If _m_\(_t_\) is the original message, the AM signal can be shown to be $$\,x(t)=(C+m(t))\cos(\omega t).$$ Multiplying the AM signal _x_\(_t_\) by an oscillator at the same frequency as and in phase with the carrier yields $$\,y(t)=(C+m(t))\cos(\omega t)\cos(\omega t),$$ which can be re-written as $$\,y(t)=(C+m(t))\left({\tfrac {1}{2} }+{\tfrac {1}{2} }\cos(2\omega t)\right).$$ After filtering out the high-frequency component based around cos\(2ω<!-- markdown separator -->_t_\) and the DC component _C_, the original message will be recovered \(annotation: after multiplying by a factor of 2\). <p> \(__this course__: Assume $C = 0$.\) <!--SR:!2025-08-23,16,290!2025-08-20,14,290-->
+  - product detector / signal loss ::@:: We see that we need to filter out the high-frequency components, which contains part of the signal but modulated \(with an amplitude a _quarter_ of the original signal for both components\). <p> This results in signal loss. Indeed, the baseband signal we have recovered is _half_ the original amplitude.
   - product detector / local oscillator ::@:: The local oscillators at the transmitter and receiver should have the same frequency and synchronized \(same phase\). <p> We can consider the above mathematical model when the frequencies differ by $\Delta f$. Then we see the recovered message is modulated \(multiplied\) by a low-frequency cosine wave $\cos(2 \pi (\Delta f) t)$. <!--SR:!2025-08-23,16,290!2025-08-21,15,290-->
 - [direct-conversion converter](../../../../general/direct-conversion%20converter.md) \(DCR\) ::@:: It is a radio receiver design that demodulates the incoming radio signal using synchronous detection driven by a local oscillator whose frequency is identical to, or very close to the carrier frequency of the intended signal. <p> It uses a product detector. Many also uses a low-noise amplifier, which is a special amplifier that boost signal more than noise. <!--SR:!2025-08-22,15,290!2025-08-21,15,290-->
 - [point-to-point](../../../../general/point-to-point%20(telecommunications).md) ::@:: It refers to a communications connection between two communication endpoints or nodes. An example is a telephone call, in which one telephone is connected with one other, and what is said by one caller can only be heard by the other. <p> \(__this course__: covered by the first part of this course\) <!--SR:!2025-08-22,16,290!2025-08-20,14,290-->
@@ -672,7 +676,11 @@ The content is in teaching order.
 - [§ week 3 tutorial 2](#week%203%20tutorial%202)
 - ELEC 1200
   - ELEC 1200 / lab 5
-    - ELEC 1200 / lab 5
+    - ELEC 1200 / lab 5 / transmission distance, SNR ::@:: Recall that increasing transmission distance decreases attenuation _k_. It turns out this is exactly the difference between _r_<sub>min</sub> \(when bit is 0\) and _r_<sub>max</sub> \(when bit is 1\). This decreases signal level. However, noise level remains mostly constant. so the signal-to-noise ratio decreases.
+    - ELEC 1200 / lab 5 / good SNR ::@:: In our experiment, a good SNR to ensure \(practically\) error free transmission is about 15&nbsp;dB.
+    - ELEC 1200 / lab 5 / threshold ::@:: Assuming the additive noise PDF is symmetric and unbiased. <p> If both bits are equally likely, the minimum bit error rate is achieved when the threshold is in the middle. If bit 0 is more likely, the optimal threshold increases. If bit 1 is more likely, the optimal threshold decreases
+    - ELEC 1200 / lab 5 / bit time, noisy output PDF ::@:: With high bit time \(or SPB\), inter-symbol interference \(ISI\) is insignificant. So the noisy output PDF looks like two shifted copies of the noise PDF. With low bit time \(or SPB\), ISI is significant, and the noisy output PDF looks like a single hill-shaped PDF. So bit error rate increases.
+    - ELEC 1200 / lab 5 / bit time, theoretical/predicted bit error rate ::@:: As the predicted/theoretical bit error rate found using noise PDF does not depend on bit time \(or SPB\), changes in bit time could not affect it. This is because our calculation assumes inter-symbol interference \(ISI\) does not matter.
 - assignment: [lab 5](assignments/lab%205/index.md)
 - questions: [post lab quiz 5 derivative](questions/post%20lab%20quiz%205%20derivative.md)
 
@@ -691,19 +699,26 @@ The content is in teaching order.
   - referencing: closed book
   - provided: \(none\)
   - questions: long questions ×4
-- grades: ?/? → ?/?
+- grades: 59/60
   - statistics
-    - timestamps: ? → ?
-    - mean: ? → ?
-    - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
-    - distribution: ? → ?
-- report: ?
-- check: ?
+    - timestamps: 2025-08-03T22:00:00+08:00
+    - mean: ? \(provided: 44\)
+    - standard deviation: ? \(provided: 14\)
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
+- report
+  - stop bit \(−1\) ::@:: The stop bit of 1 frame out of 4 was written as 1 instead of 0. Mysterious...
+- check
+  - datetime
+    - 2025-08-04T10:00:00+08:00/2025-08-04T17:00:00+08:00, PT7H
+    - 2025-08-05T10:00:00+08:00/2025-08-05T17:00:00+08:00, PT7H
+    - 2025-08-06T10:00:00+08:00/2025-08-06T17:00:00+08:00, PT7H
+  - venue: Room 2395, Academic Building \(lift 17, 18\)
+  - report: \(none\)
 
 ---
 
@@ -758,43 +773,271 @@ The content is in teaching order.
 
 - datetime: 2025-08-01T14:00:00+08:00/2025-08-01T15:50:00+08:00, PT1H50M
 - topic: link layer; network layer
+- OSI model
+  - OSI model / the layers
+  - OSI model / data link
+- [data link layer](../../../../general/data%20link%20layer.md) ::@:: It is the second layer of the seven-layer OSI model of computer networking.
+  - data link layer / description ::@:: This layer is the protocol layer that transfers data between nodes on a network segment across the physical layer. It provides the functional and procedural means to transfer data between network entities and may also provide the means to detect and possibly correct errors that can occur in the physical layer.
+  - data link layer / terminology ::@:: There are _nodes_. There are _links_ between nodes, representing communication channels. A packet is a _frame_, which encapsulates a _datagram_.
+- OSI model
+  - OSI model / packet ::@:: Data are often transmitted in a group of bits. Then, each layer, starting from the top to the bottom \(excluding the physical layer\) adds additional header or trailer information, forming a packet.
+    - OSI model / packet / names ::@:: application layer: message <br/> transport layer: segment <br/> network layer: datagram <br/> data link layer: frame
+- data link layer
+  - data link layer / functions ::@:: error correction, error detection, framing, link access
+  - data link layer / framing ::@:: Encapsulate _datagrams_, some data to be transferred, into _frames_ by adding _header_ and _trailer_.
+  - data link layer / link access ::@:: If the communication medium is shared, it also manages channel access \(e.g. timing to avoid interference\). <br/> _MAC addresses_ \(different from _IP addresses_\) is used to identify packet source and destination. It detects or avoids collisions, and determines where frames start and end.
+  - data link layer / error detection ::@:: Errors are caused by transmission attenuation and noise. The receiver may _detect_ errors, and _requests_ the sender to _retransmit_ or _drop_ the frame.
+  - data link layer / error correction ::@:: Errors are caused by transmission attenuation and noise. The receiver may _detect_ errors and _correct_ them without frame retransmission or dropping.
+  - data link layer / implementation ::@:: It is often implemented in an _adapter_ using a _firmware_ \(a type of software\). <p> The sender performs framing and link access. The receiver performs extraction, error detection, and error correction.
+  - data link layer / shared communication medium ::@:: Multiple devices may be sharing a communication channel. If multiple frames are transmitted simultaneously, interference occurs. The frame is distorted and no one can decode it. <p> So link access also needs to manage channel access if the communication medium is shared to avoid multiple frames being transmitted \(avoid _collisions_\).
+- point-to-point
+  - point-to-point / examples ::@:: dial-up access, ethernet switch and host, etc.
+- telecommunications network
+  - telecommunications network / examples ::@:: Wi-Fi \(802.11\), cabled ethernet, upstream hybrid fiber coaxial \(HFC\) cable, etc.
+- [channel access method](../../../../general/channel%20access%20method.md) ::@:: It allows more than two terminals connected to the same transmission medium to transmit over it and to share its capacity. Examples of shared physical media are wireless networks, bus networks, ring networks and point-to-point links operating in half-duplex mode.
+  - channel access method / ideal ::@:: There is a channel that has a capacity of _R_. When _M_ nodes are transmitting, each can transmit at an average of _R_/_M_. <p> It should be _fully decentralized_ \(e.g. no coordination, no synchronization, etc.\) and _simple_ to implement.
+- [media access control](../../../../general/media%20access%20control.md) \(MAC\) ::@:: It is the layer that controls the hardware responsible for interaction with the wired \(electrical or optical\) or wireless transmission medium.
+  - media access control / OSI model ::@:: The MAC sublayer and the logical link control \(LLC\) sublayer together make up the data link layer.
+  - media access control / types :@:: 3 major types: channel partitioning, random access, round-robin \("taking turns"\)
+  - media access control / channel partition ::@:: Simply divide the channel into multiple smaller independent "channels". An advantage is _collisions_ cannot happen. A problem is unused smaller "channels" go idle. <p> examples: frequency division multiple access \(FDMA\), time division multiple access \(TDMA\), etc.
+    - media access control / channel partition / time division multiple access \(TDMA\) ::@:: A _round_ is a period of time. Each round is divided into many _fixed-length time slots_. Each device gets a time slot for transmission. Unused time slots are idle.
+    - media access control / channel partition / frequency division multiple access \(FDMA\) ::@:: The channel is a spectrum. It is divided into _frequency bands_. Each devices gets a _fixed frequency band_. Unused frequency bands are idle.
+  - media access control / random access ::@:: Transmit anyway without explicitly avoiding collisions, but specify a method of collision _detection_ and _recovery_ \(e.g. delayed retransmissions\). <p> examples: CSMA, CSMA/CA, CSMA/CD, pure ALOHA, slotted ALOHA, etc.
+- [ALOHAnet](../../../../general/ALOHAnet.md) ::@:: It was a pioneering computer networking system developed at the University of Hawaii. ALOHAnet became operational in June 1971, providing the first public demonstration of a wireless packet data network.
+  - ALOHAnet / media access control ::@:: ALOHA random access \(ALOHA\), reservation ALOHA, slotted ALOHA, etc.
+  - ALOHAnet / slotted ALOHA ::@:: Each packet takes a fixed amount of time. Divide time into slots equal to this time. Packets are only transmitted only at the start of each slot. If a _collision_ occurs, all packets are lost.
+    - ALOHAnet / slotted ALOHA / advantages ::@:: If only a single node transmit continuously, the _full rate_ is used. It is still \(mostly\) _decentralized_ and _simple_.
+    - ALOHAnet / slotted ALOHA / disadvantages ::@:: _Collisions_ waste slots. Clock _synchronization_ is needed. Unnecessarily idle time slots \(e.g. excludes where no devices need to send data\) are possible.
+    - ALOHAnet / slotted ALOHA / efficiency ::@:: \# of successful time slots divided by \# of all time slots \(including idle\)
+    - ALOHAnet / slotted ALOHA / throughput ::@:: \# of success time slots divided by time interval
+    - ALOHAnet / slotted ALOHA / analysis ::@:: Assume nodes are _independent_. Nodes have an _infinite queue_ to store data to be transmitted. If a node has an nonempty queue, it is _backlogged_. <p> We assume _n_ nodes want to transmit data, and each of these node has a probability of _p_ to transmit the data.
+      - ALOHAnet / slotted ALOHA / analysis / efficiency ::@:: In a given time slot, we find the probability that exactly one packet is transmitted, which gives the _efficiency_. It is given by: $$E = \binom n 1 \cdot p \cdot (1 - p)^{n - 1} = n \cdot p \cdot (1 - p)^{n - 1} \,.$$
+        - ALOHAnet / slotted ALOHA / analysis / efficiency / maximum ::@:: Differentiate it with respect to $p$ to find $p$ that maximizes $E$ for a fixed $n$: $$\begin{aligned} E & = n \cdot p \cdot (1 - p)^{n - 1} \\ E' & = n (1 - p)^{n - 1} - n(n - 1) p (1 - p)^{n - 2} \\ 0 & = n (1 - p)^{n - 1} - n(n - 1) p (1 - p)^{n - 2} \\ 0 & = (1 - p) - (n - 1) p \\ 0 & = 1 - np \\ p & = 1 / n \,. \end{aligned}$$ Then, we find the limit of $E$ as $n$ approaches infinity: $$\begin{aligned} E & = n \cdot p \cdot (1 - p)^{n - 1} \\ & = n \cdot \frac 1 n \cdot \left(1 - \frac 1 n\right)^{n - 1} \\ & = \frac {n} {n - 1} \left(1 - \frac 1 n \right)^n \,. \end{aligned}$$ The above expression approaches $e^{-1} = 1 / e \approx 0.368$ as $n$ approaches infinity.
+    - ALOHAnet / slotted ALOHA / transmission probability ::@:: We see that to maximize efficiency, the transmission probability should be $1 / n$, where $n$ is the number of nodes with data to transmit. <p> However, $n$ changes, so the optimal probability also changes. Either _coordination_ is required, or we try to estimate _p_ dynamically, increasing _p_ when collisions are too rare and decreasing _p_ when collisions are too frequent.
+- OSI model
+  - OSI model / the layers
+  - OSI model / network
+- [network layer](../../../../general/network%20layer.md) ::@:: It is __layer 3__. It is responsible for packet forwarding including routing through intermediate routers.
+  - network layer / functions ::@:: addressing, datagram, forwarding, routing
+  - network layer / datagram ::@:: Encapsulate _segments_ into _datagrams_ by adding _headers_ and _trailers_. _Routers_ examines these headers to know where to _forward_.
+  - network layer / addressing ::@:: IP \(Internet Protocol\) addresses are used to address the destination. The address identifies the destination so that _datagram networks_ \(e.g. internet\) responsible for sending the datagram or packet can know where to forward.
+  - network layer / forwarding ::@:: According to the header of a datagram, forward the datagram to the next router \(or destination\). <p> A _forwarding table_ is often used.
+  - network layer / routing ::@:: Before sending a datagram, determine the path to be taken by the datagram. This data is written to its header. <p> A possible way to model the network for routing is using _graphs_.
+    - network layer / routing / difficulty ::@:: The problem is global, but information \(e.g. link distance\) is local. Further, the situation is dynamic due to changes and faults. It is also difficult to scale to very large networks; indeed, ISPs cooperate to deliver packets.
+- [graph](../../../../general/graph%20(discrete%20mathematics).md) ::@:: It is a structure consisting of a set of objects where some pairs of the objects are in some sense "related".
+  - graph / terminology ::@:: The objects are represented by abstractions called _vertices_ \(also called _nodes_ or _points_\) and each of the related pairs of vertices is called an _edge_ \(also called _link_ or _line_\).
+  - graph / diagram ::@:: Typically, a graph is depicted in diagrammatic form as a set of dots or circles for the vertices, joined by lines or curves for the edges.
+  - graph / network routing ::@:: The vertices are the _routers_. The edges are the _links_ between routers. Each edge has a _weight_, representing the cost of transmission. <p> The resulting graph is a _weighted undirected graph_.
+    - graph / network routing / shortest path ::@:: We want to find the shortest paths starting from the current router to any other router, as to construct a forwarding table. <p> We need to use an _algorithm_, e.g. _Dijkstra's algorithm_.
+- network layer
+  - network layer / routing
+    - network layer / routing / nature ::@:: information: decentralized \(cost and topology of "nearby" routers known\), global \(all costs and topology known\) <br/> dynamic: dynamic \(routes change quickly\), static \(routes change slowly\)
+    - network layer / routing / link state broadcast ::@:: A _net topology_ used. _Link state broadcast_ is used so that all nodes know all topology and costs.
+- [Dijkstra's algorithm](../../../../general/Dijkstra's%20algorithm.md) ::@:: A common algorithm for finding the shortest paths between nodes in a weighted graph.
+  - Dijkstra's algorithm / network routing ::@:: The algorithm can be used to find shortest paths starting from a router to any other router. So a router can run this algorithm to find the shortest router to any \("nearby"\) other routers, and this gives a _forwarding table_. <p> A property of this algorithm is running _k_ iterations yields the shortest paths to the _k_ "nearest" routers.
+  - Dijkstra's algorithm / algorithm ::@:: Say we are finding the shortest distance from the vertex _u_ to every other vertices. Start by initializing distances: $d(u) = 0, d(v) = \infty$. Create a priority queue containing all vertices in the graph, ordered by non-decreasing distance $d(v)$. While the priority queue is nonempty, extract the first vertex _v_. For each neighbor _n_ of the vertex _v_, assign $d(n) = \min\set{d(n), d(v) + w(v \rightarrow n)}$. Update the priority queue if needed. Repeat until the queue is empty.
+  - Dijkstra's algorithm / correctness ::@:: To prove the correctness of Dijkstra's algorithm, notice that for a shortest path from _a_ to _z_: _a_ → ... → _y_ → _z_, this implies the path from _a_ to _y_ must also be the shortest between them: _a_ → ... → _y_.
+  - Dijkstra's algorithm / this course
+    - Dijkstra's algorithm / this course / notation ::@:: \(__this course__: <p> $u$: source <br/> $c(x, y)$: edge weight between $x$ and $y$, or $\infty$ if the edge does not exist <br/> $D(v)$: current path cost from source to $v$ <br/> $p(v)$: predecessor node along current path from source to $v$ <br/> $N'$: set of nodes with known shortest paths\)
+    - Dijkstra's algorithm / this course / steps ::@:: \(__this course__: We can split the steps into _initialization_, _iteration_, and _extraction_.\)
+      - Dijkstra's algorithm / this course / steps / initialization ::@:: Set $N' = \set{u}$. For all nodes $v$, set $D(v) = c(u, v)$, which is $\infty$ if there is no edge between $u$ and $v$. If there is an edge between $u$ and $v$, also set $p(v)$ to $u$; otherwise $p(v)$ is _undefined_.
+      - Dijkstra's algorithm / this course / steps / iteration ::@:: The below steps are iterated until every node is in $N'$. <p> Find the node $w$ not in $N'$ that has the smallest $D(w)$. $w$ is added to $N'$. Then, for each node $v$ adjacent to $w$, if $D(w) + c(w, v) < D(v)$, update $D(v)$ to the smaller value and set $p(v) = w$. Otherwise, nothing happens.
+      - Dijkstra's algorithm / this course / steps / extraction ::@:: $D(v)$ gives the cost of the shortest path from $u$ to $v$. To find this shortest path, we build this path starting from its destination $v$. Then, prepend $p(w)$, where $w$ is the first node in the path. Repeat this until the first node in the path is $u$. <p> Perform the above steps to find the shortest paths for each destination node. The _forwarding table_ for each destination node is given by the link between the $u$ to the next node in the shortest path for the destination node.
+    - Dijkstra's algorithm / this course / table ::@:: \(__this course__: A table may be used to represent running the algorithm cleanly: ![Dijkstra's algorithm using a table](attachments/Dijkstra's%20algorithm%20-%20table.png) <p> Observe that "step" starts from 0. We stop writing $D(n), p(n)$ when $n$ has been added to $N'$.\)
+- [IP address](../../../../general/IP%20address.md) ::@:: It is a numerical label such as _192.0.2.1_ that is assigned to a device connected to a computer network that uses the Internet Protocol for communication. They serve two main functions: network interface identification, and location addressing.
+  - IP address / interface ::@:: It is _connection_ between host or router and its physical link. A host often has one, while routers have many. <p> Thus, a host often "has" one IP address while routers often "have" many IP addresses.
+  - IP address / IPv4 addresses ::@:: It has a size of 32 bits, which limits the address space to 4&nbsp;294&nbsp;967&nbsp;296 \(2<sup>32</sup>\) addresses.
+    - IP address / IPv4 addresses / notation ::@:: They are usually represented in _dot-decimal notation_, consisting of four decimal numbers, each ranging from 0 to 255, separated by dots, e.g., _192.0.2.1_. Each part represents a group of 8 bits \(an octet\) of the address.
+  - IP address / subnetworks ::@:: IP networks may be divided into subnetworks in both IPv4 and IPv6. For this purpose, an IP address is recognized as consisting of two parts: the _network prefix_ in the high-order bits and the remaining bits called the _rest field_, _host identifier_, or _interface identifier_ \(IPv6\), used for host numbering within a network.
+    - IP address / subnetworks / physical ::@:: Physically, a subnetwork connect devices that can physically reach each other without using the router. <p> So one could identify subnetworks by highlighting contagious networks not going through any routers.
+- [Classless Inter-Domain Routing](../../../../general/Classless%20Inter-Domain%20Routing.md) \(CIDR\) ::@:: It is a method for allocating IP addresses for IP routing.
+  - Classless Inter-Domain Routing / CIDR notation ::@:: It is a compact representation of an IP address and its associated network mask. CIDR notation specifies an IP address, a slash \('/'\) character, and a decimal number. The decimal number is the count of consecutive leading _1_-bits \(from left to right\) in the network mask. Each 1-bit denotes a bit of the address range which must remain identical to the given IP address. The IP address in CIDR notation is always represented according to the standards for IPv4 or IPv6.
+- IP address
+  - IP address / IP address assignment ::@:: IP addresses are assigned to a host either dynamically as they join the network, or persistently by configuration of the host hardware or software. Persistent configuration is also known as using a __static IP address__. In contrast, when a computer's IP address is assigned each time it restarts, this is known as using a __dynamic IP address__.
+    - IP address / IP address assignment / static ::@:: The assignment is hardcoded by system administrators. <p> UNIX: `/etc/rc.config` <br/> Windows: control panel, settings
+    - IP address / IP address assignment / dynamic ::@:: Dynamic IP addresses are assigned by network using Dynamic Host Configuration Protocol \(DHCP\). DHCP is the most frequently used technology for assigning addresses. It avoids the administrative burden of assigning specific static addresses to each device on a network. It also allows devices to share the limited address space on a network if only some of them are online at a particular time. Typically, dynamic IP configuration is enabled by default in modern desktop operating systems.
+    - IP address / IP address assignment / DHCP ::@:: The address assigned with DHCP is associated with a _lease_ and usually has an expiration period. If the lease is not renewed by the host before expiry, the address may be assigned to another device.
+      - IP address / IP address assignment / DHCP / overview ::@:: A host broadcasts "DHCP discover" message to all devices to find a DHCP server. A DHCP server, if any, responds with "DHCP offer" message \(while other hosts ignore\). The host requests an IP address by sending "DHCP request" message to the DHCP server. The DHCP server sends a IP address by responding with "DHCP acknowledgement" message.
+  - IP address / subnetworks
+    - IP address / subnetworks / organizations ::@:: The ISP allocates a portion of its allocated subnetwork to each organization. This portion is allocated by simply using more bits for the network prefix.
+    - IP address / subnetworks / ISPs ::@:: The ICANN \(Internet Corporation for Assigned Names and Numbers\) allocates addresses, assigns domain names, manages DNS, and resolves disputes.
+  - IP address / IPv6 addresses ::@:: In IPv6, the address size was increased from 32 bits in IPv4 to 128 bits, thus providing up to 2<sup>128</sup> \(approximately 3.403×10<sup>38</sup>\) addresses. This is deemed sufficient for the foreseeable future.
+    - IP address / IPv6 addresses / datagram ::@:: Its datagram format also has a fixed-length 40-byte header, which helps with faster forwarding and processing. It also helps to facilitate quality of service \(QoS\).
 
 ## week 4 lecture
 
 - datetime: 2025-08-04T14:00:00+08:00/2025-08-04T16:50:00+08:00, PT2H50M
 - topic: transport layer; application layer
+- OSI model
+  - OSI model / the layers
+  - OSI model / transport
+- [transport layer](../../../../general/transport%20layer.md) ::@:: It is a conceptual division of methods in the layered architecture of protocols in the network stack in the Internet protocol suite and the OSI model. The protocols of this layer provide end-to-end communication services for applications. It provides services such as connection-oriented communication, reliability, flow control, and multiplexing.
+  - transport layer / sender ::@:: Application _messages_ are broken up into _segments_ to be sent using the network layer.
+  - transport layer / receiver ::@:: _Segments_ are reassembled into application _messages_ to be processed by the application layer.
+  - transport layer / protocols ::@:: User Datagram Protocol \(UDP\), Transmission Control Protocol \(TCP\), etc. <p> The two protocols mentioned above are essentially all traffic on the internet nowadays.
+    - transport layer / protocols / UDP vs TCP ::@:: The former delivers packets unordered and unreliably, but it is easy to implement, as it is a simple extension of IP in the network layer. <p> The latter delivers packets in-order and reliably, and provides addition services, e.g. congestion control, flow control, etc. It is however much harder to implement and requires connection setup.
+  - transport layer / unavailable functions ::@:: no bandwidth guarantees, no delay guarantees
+  - transport layer / vs. network layer ::@:: The former is often implemented by individual processes on hosts only. The latter is often implemented by firmware on hosts and routers.
+  - transport layer / functions ::@:: basic functions: error detection, multiplexing and demultiplexing; both UDP and TCP have them <br/> advanced functions: congestion control, connection management, flow control, reliability; TCP but not UDP not has them
+- [Transmission Control Protocol](../../../../general/Transmission%20Control%20Protocol.md) \(TCP\) ::@:: It is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol \(IP\). Therefore, the entire suite is commonly referred to as TCP/IP.
+  - Transmission Control Protocol / characteristics ::@:: connection, oriented \(uses handshaking\), full duplex, ordered \(uses buffering\), point-to-point, reliable \(uses acknowledgements\)
+  - Transmission Control Protocol / additional services ::@:: congestion control, connection management, flow control, etc.
+- [Reliable Data Transfer](../../../../general/Reliable%20Data%20Transfer.md) \(RDT\) ::@:: It is a topic in computer networking concerning the transfer of data across unreliable channels. Unreliability is one of the drawbacks of packet switched networks such as the modern internet, as packet loss can occur for a variety of reasons, and delivery of packets is not guaranteed to happen in the order that the packets were sent. Therefore, in order to create long-term data streams over the internet, techniques have been developed to provide reliability, which are generally implemented in the transport layer of the internet protocol suite.
+  - Reliable Data Transfer / teaching ::@:: In instructional materials, the topic is often presented in the form of theoretical example protocols which are themselves referred to as "RDT", in order to introduce students to the problems and solutions encountered in Transport layer protocols such as the Transmission Control Protocol. These sources often describe a pseudo-API and include Finite-state machine diagrams to illustrate how such a protocol might be implemented, as well as a version history. These details are generally consistent between sources, yet are often left uncited, so the origin of this theoretical RDT protocol is unclear.
+  - Reliable Data Transfer / obstacles ::@:: Characteristics of the unreliable channel affect the protocol complexity, as different obstacles are presented. <p> There are 2 major types of obstacles: lost and out-of-order.
+    - Reliable Data Transfer / obstacles / lost ::@:: queue overflow \(at switches\), repeated collisions, routing failures, uncorrectable bit errors, etc.
+    - Reliable Data Transfer / obstacles / out-of-order::@:: datagram duplication, different paths taken, variable delays from queueing, etc.
+  - Reliable Data Transfer / sender ::@:: The sender encapsulates each part of the message into a _segment_. The segment has a _sequence number_ to _identify_ it. Sent segments are saved to a _buffer_. <p> When acknowledgement \(ACK\) is received from the receiver, this segment is removed  from the buffer. Otherwise, the segment is retransmitted if ACK has not been received for some time.
+  - Reliable Data Transfer / receiver ::@:: When the receiver receives the segment, acknowledgement \(ACK\) is sent with the identifying sequence number. The sequence number also ensures the application layer receives the message _in-order_.
+  - Reliable Data Transfer / stop-and-wait protocol ::@:: The sender sends the segment _n_ \(starting from 1\). Wait for its acknowledgement \(ACK\). Once ACK is received, increment _n_ by 1, and repeat the above.<p> When the receiver receives the segment _k_. It ACKs the segment with _k_. It also delivers the segment to the application layer. Repeat when it receives another segment.
+    - Reliable Data Transfer / stop-and-wait protocol / packet loss ::@:: The above naive protocol is not resilient to packet loss. If any packet \(including the ACK packet\) is lost, transmission completely stops.
+    - Reliable Data Transfer / stop-and-wait protocol / revised ::@:: The sender sends the segment _n_ \(starting from 1\). Wait for its acknowledgement \(ACK\). If too long has passed, send the same segment again. Once ACK is received, increment _n_ by 1, and repeat the above.<p> The receiver additionally _tracks_ the sequence number of the last received segment, called _m_. When the receiver receives the segment _k_. It _always_ ACKs the segment with _k_. Further, if _k_=_m_+1, deliver the segment to the application layer and update _m_=_k_. Otherwise, the segment is duplicated, thus discarded. It also delivers the packet to the application layer. Repeat when it receives another segment.
+  - Reliable Data Transfer / throughput ::@:: It is the expected number of segments/packets sent per unt time. It is measured in segments/packets per unit time \(e.g. seconds\).
+    - Reliable Data Transfer / throughput / stop-and-wait protocol ::@:: This requires no packet loss for it to work. Then, its throughput is simply the reciprocal of the _round-trip time_, where the round-trip time is the expected amount of time between starting to send a segment and receiving its corresponding ACK packet.
+    - Reliable Data Transfer / throughput / revised stop-and-wait protocol ::@:: Assume packet is lost with a _round-trip probability_ of _L_. We first find the _effective_ round-trip time _T_ using an algebraic equation: $$T = (1 - L) \cdot \text{RTT} + L \cdot (\text{RTO} + T) \,,$$ where RTO is _retransmission timeout_, the time for the sender to wait before retransmission. We have: $$\begin{aligned} T & = (1 - L) \cdot \text{RTT} + L \cdot (\text{RTO} + T) \\ (1 - L) T & = (1 - L) \cdot \text{RTT} + L \cdot \text{RTO} \\ T & = \text{RTT} + \frac L {1 - L} \text{RTO} \,. \end{aligned}$$ Finally, the throughput is the reciprocal of _T_.
+    - Reliable Data Transfer / throughput / retransmission timeout ::@:: We should choose _retransmission timeout_ \(RTO\) such that the probability of transmission is minimized. This happens if RTO &gt; RTT for a particular segment. However, RTT is _random_ in practice, so we need to use _empirical_ statistics to find the ideal RTO. <p> If we assume RTO is constant, then RTT only needs to be larger by an arbitrarily small number, thus RTT = RTO. Then, by the above formula: $$\begin{aligned} T^* & = \text{RTT} + \frac L {1 - L} \text{RTO} \\ & = \text{RTT} + \frac L {1 - L} \text{RTT} \\ & = \frac {\text{RTT} } {1 - L} \,. \end{aligned}$$ And thus the _optimal_ throughput is: $$\text{optimal throughput} = \frac {1 - L} {\text{RTT} } \,.$$ Note that if the RTT is not _optimal_, the throughput will be lower.
+  - Reliable Data Transfer / stop-and-wait protocol
+    - Reliable Data Transfer / stop-and-wait protocol / use ::@:: It is a very simple algorithm. <p> It is used when throughput is much less important compared to throughput, or if RTT is small \(e.g. same order of magnitude as the segment transmission time\).
+- OSI model
+  - OSI model / the layers
+  - OSI model / application
+- [application layer](../../../../general/application%20layer.md) ::@:: It is an abstraction layer that specifies the shared communication protocols and interface methods used by hosts in a communications network.
+  - application layer / "hourglass" ::@:: There are many _network applications_ relying on a few protocols on the transport and network layer \(essentially everything uses the IP protocol\), which in turn may rely on many different types of _link technologies_ on the data link layer. So it looks like a "hourglass".
+  - application layer / network applications ::@:: P2P file sharing, Voice over IP \(VoIP\), email, instant messaging, grid computing, video conferencing, web, etc.
+  - application layer / architectures ::@:: 3 major types: client–server, peer-to-peer \(P2P\), hybrid of both
+    - application layer / architectures / client–server ::@:: The _server_ is _always online_. It often has a _fixed_ IP address. It may be run by a _server farm_. <p> The _client_ intermittently communicates with the server, but not with other clients directly. There can be many clients. Their IP addresses may be _dynamic_. <p> examples: DNS, FTP \(file server\), HTTP, HTTPS, SMTP \(email server\), Telnet \(remote terminal\), etc.
+    - application layer / architectures / peer-to-peer \(P2P\) ::@:: There is no "server". _Arbitrary_ hosts directly and intermittently communicate with each other. <p> It is highly _scalable_ but difficult to _manage_.
+    - application layer / architectures / hybrid of both ::@:: Often, clients exchange information about each other using a central server \(client–server\). Once this is done, clients communicate with each other directly \(P2P\). <p> examples: Skype, instant messaging, etc.
+- [website](../../../../general/website.md) ::@:: It is any web page whose content is identified by a common domain name and is published on at least one web server.
+  - websites / objects ::@:: A website consists of many objects, which can be HTML files, audio, images \(e.g. JPEG\), videos, etc. Each object has a _URL_ address.
+  - websites / index ::@:: A website often has a base HTML file, called the _index_.
+- [URL](../../../../general/URL.md) ::@:: It is a reference to a resource that specifies its location on a computer network and a mechanism for retrieving it. <p> It consists of protocol prefix, domain name \(also _host name_\), directory path, and document name \(last 2 combined is _path name_\).
+- [HTTP](../../../../general/HTTP.md) ::@:: It is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
+  - HTTP / full name ::@:: Hypertext Transfer Protocol
+  - HTTP / server ::@:: It receives requests and sends web objects. Its _port_ is typically 80.
+    - HTTP / server / cache ::@:: There may be _web caches_ acting as _proxy servers_. Clients requests from the proxy server instead of the _origin server_. The proxy server returns the requested web objects if cached; if not, request from the origin server, cache it, and returns the web object.
+  - HTTP / client ::@:: It requests web objects and "displays" them.
+- [Domain Name System](../../../../general/Domain%20Name%20System.md) \(DNS\) ::@:: It is a hierarchical and distributed name service that provides a naming system for computers, services, and other resources on the Internet or other Internet Protocol \(IP\) networks. <p> Essentially, this allows you to type meaningful domain names instead of hard-to-remember IP addresses to connect other computers.
+  - Domain Name System / characteristics ::@:: application-layer protocol, distributed and hierarchical databases, internet-wide service, short messages \(thus primarily uses UDP\)
+    - Domain Name System / characteristics / decentralized ::@:: DNS is decentralized. So no servers have all name-to-IP mappings. <p> DNS is decentralized because they do not _scale_ well. A theoretical supercomputer for DNS has poor _manageability_ \(maintain mappings\), poor _performance_ \(location of the server\), and poor _reliability_ \(single point of failure\).
+  - Domain Name System / local ::@:: On a local network \(e.g. ISP, company\), there are _local name servers_. Every host on the local network is registered with _at least 2 authoritative servers_ that store the host's IP address and domain name. So local name servers can perform translation for local hosts.
+  - Domain Name System / hierarchy ::@:: It is a hierarchical of servers: root name servers, top-level domain \(TLD\) servers, authoritative DNS servers \(local name servers\)
+    - Domain Name System / hierarchy / root name servers ::@:: Clients use them to find top-level domain servers. <p> As of 2025, there are 13 root name servers worldwide.
+    - Domain Name System / hierarchy / top-level domain servers ::@:: They are responsible for top-level domains \(e.g. `.com`, `.edu`, `.net`, `.org`, etc.\) and country domains \(e.g. `.ca`, `.fr`, `.jp`, `.uk`, etc.\). <p> examples: `.com` \(Network Solutions\), `.edu` \(Educase\), etc.
+    - Domain Name System / hierarchy / authoritative DNS servers ::@:: They are usually directly below the top-level domain servers. They are specific to an ISP or organization. It is often maintained by the ISP or organization.
+  - Domain Name System / request ::@:: A DNS request is _iterative_ and _recursive_. The client sends DNS requests to DNS servers starting from the root name servers, which either refers to a lower level DNS server and the client repeats the above steps, or translates the domain name if known.
+  - Domain Name System / cache ::@:: To reduce load, mappings are _cached_ for some time. <p> When a name server learns a mapping, it _caches_ it, which disappears after some time. This caching is often implemented in local name servers only, as responses from the root name servers are often cached by the client. <p> There is also a cache notify/update mechanism designed by a IETF working group \(dnsind\), e.g. RFC&nbsp;2136, etc.
 
 ## week 4 tutorial
 
-- datetime: 2025-08-05T11:00:00+08:00/2025-08-05T12:20:00+08:00, PT1H20M
-- topic:
+- datetime: 2025-08-06T14:00:00+08:00/2025-08-06T15:20:00+08:00, PT1H20M
+- topic: lab 6, time–frequency analysis
+- status: rescheduled
+- ELEC 1200
+  - ELEC 1200 / lab 6 ::@:: speech signal → amplitude spectrum → speech signal approximation → channel frequency response
+- [§ week 4 lab](#week%204%20lab)
+
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## week 4 lab
 
-- datetime: 2025-08-05T14:00:00+08:00/2025-08-05T16:50:00+08:00, PT2H50M
+- datetime: 2025-08-07T14:00:00+08:00/2025-08-07T16:50:00+08:00, PT2H50M
 - topic: time—frequency analysis
-- status: attendance
+- status: attendance, rescheduled
+- [§ week 4 tutorial](#week%204%20tutorial)
+- ELEC 1200
+  - ELEC 1200 / lab 6
 - assignment: [lab 6](assignments/lab%206/index.md)
 - questions: [post lab quiz 6 derivative](questions/post%20lab%20quiz%206%20derivative.md)
+
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## week 4 lecture 2
 
 - datetime: 2025-08-06T14:00:00+08:00/2025-08-06T15:50:00+08:00, PT1H50M
 - topic: questions & answers
+- [§ week 4 tutorial](#week%204%20tutorial)
 - assignment: [homework 3](assignments/homework%203/index.md)
+
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## week 4 tutorial 2
 
 - datetime: 2025-08-07T11:00:00+08:00/2025-08-07T12:20:00+08:00, PT1H20M
-- topic:
+- topic: lab 7, signal transmission using frequency division multiplexing
+- ELEC 1200
+  - ELEC 1200 / lab 7 ::@:: modulation → demodulation → bandwidth estimation, carrier frequency estimation → multiplexing
+- [§ week 4 lab 2](#week%204%20lab%202)
 
 ## week 4 lab 2
 
 - datetime: 2025-08-07T14:00:00+08:00/2025-08-07T16:50:00+08:00, PT2H50M
 - topic: frequency division multiplexing
-- status: attendance
+- status: attendance, canceled
+- [§ week 4 tutorial 2](#week%204%20tutorial%202)
+- ELEC 1200
+  - ELEC 1200 / lab 7
 - assignment: [lab 7](assignments/lab%207/index.md)
 - questions: [post lab quiz 7 derivative](questions/post%20lab%20quiz%207%20derivative.md)
+- assignment: [lab 7 mini report](assignments/lab%207%20mini%20report/index.md)
+
+---
+
+> Dear All,
+>
+> Due to the Black Rainstorm Warning Signal again, we have to rearrange the tutorials and labs as follows:
+>
+> 1. Tutorial 6 will be postponed to 14:00, this Wednesday \(Aug. 6\). The original Q&amp;A will be continued after the tutorial.
+> 2. Lab 6 will be postponed to 14:00-16:50, this Thursday \(Aug. 7\).
+> 3. Lab 7 will be a take-home lab. Each student needs to submit an individual mini-report. You can find the template of mini-report on Canvas. The grading of Lab 7 will be based on the mini-report instead of the original check-points and quiz.
+> 4. The schedule of Tutorial 7 keeps unchanged.
+>
+> Please let me know if you have any questions. Take care and be safe!
+>
+> Regards, <br/>
+> \[redacted\]
 
 ## week 4 lab 3
 
@@ -814,25 +1057,56 @@ The content is in teaching order.
   - calculator: no
   - cheatsheet: no
   - referencing: closed book
-  - provided: \(none\)
-  - questions: long questions ×?
-- grades: ?/? → ?/?
+  - provided: Q-function table
+  - questions: long questions ×6
+- grades: 98/100
   - statistics
-    - timestamps: ? → ?
-    - mean: ? → ?
-    - standard deviation: ? → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
-    - distribution: ? → ?
-- report: ?
-- check: ?
+    - timestamps: 2025-08-10T22:00:00+08:00
+    - mean: ? \(provided: 67\)
+    - standard deviation: ? \(provided: 26\)
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ? \(provided: 98\)
+    - distribution: ?
+- report
+  - parity code vs. repetition code \(−2\) ::@:: Misread "\(5, 1\) repetition code" as "\(5, 1\) parity code". Thus two 1-point questions on the maximum number of detectable bit errors and correctable bit errors were wrong.
+- check
+  - datetime
+    - 2025-08-11T10:00:00+08:00/2025-08-11T17:00:00+08:00, PT7H
+    - 2025-08-12T10:00:00+08:00/2025-08-12T17:00:00+08:00, PT7H
+  - venue: Room 2395, Academic Building \(lift 17, 18\)
+  - report: \(none\)
+
+---
+
+> __<big><big>Final exam - 10 am tomorrow \(reminder\)</big></big>__
+>
+> Dear students,
+>
+> Please be reminded that we will have our final exam at 10 am tomorrow in LTD.
+>
+> Covers all course materials <br/>
+> Closed book and closed notes <br/>
+> 6 questions \(NO MATLAB coding questions\) <br/>
+> NO calculator, paper or electronic devices \(including smartwatch\) <br/>
+> NO talking/discussing during the exam <br/>
+> Seat number: use the same seat number as in the midterm exam
+>
+> Please bring your student ID card for attendance checking.
+>
+> Please go to LTD at least 5 minutes before the start time.
+>
+> Please let me know if you have any questions.
+>
+> Thank you,
+>
+> \[redacted\]
 
 ## aftermath
 
 ### total
 
-- grades: ?/100
+- grades: 98.78/100
   - statistics: ?

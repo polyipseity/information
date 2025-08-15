@@ -10,11 +10,19 @@ tags:
 
 # difficult-to-spell words
 
-English
+- English
 
+---
+
+A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. The below list gives {@{only one possible meaning that is common and specific}@} for each word.
+
+## list
+
+- [Aristotle](https://en.wiktionary.org/wiki/Aristotle) ::@:: \(A_e\) An ancient Greek philosopher, logician, and scientist (382–322 BCE), student of Plato and teacher of Alexander the Great.
 - [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::@:: \(B\_y a\_d\) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2028-01-30,1078,363!2027-01-20,784,343-->
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::@:: \(B\_y b\_e\) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2028-06-04,1265,383!2026-11-19,747,343-->
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::@:: \(T\_y\) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2026-05-03,596,396!2028-04-22,1144,376-->
+- [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary) ::@:: \(W_y\) A collaborative project run by the Wikimedia Foundation to produce a free and complete dictionary in every language; the dictionaries, collectively, produced by that project.
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: \(W\_n\) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2029-06-23,1571,364!2028-12-08,1410,364-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: \(a\_e\) To adapt. <!--SR:!2027-10-28,1008,344!2025-12-12,317,284-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: \(a\_e\) To gradually increase in quantity. <!--SR:!2025-10-26,467,332!2031-05-04,2141,394-->
@@ -29,6 +37,8 @@ English
 - [attitude](https://en.wiktionary.org/wiki/attitude) ::@:: \(a\_e\) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2028-04-07,1227,364!2030-05-05,1765,344-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::@:: \(b\_i\) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2027-09-03,1025,357!2026-12-20,794,357-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::@:: \(b\_y\) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2026-04-09,627,324!2027-02-07,791,324-->
+- [bureaucratic](https://en.wiktionary.org/wiki/bureaucratic) ::@:: \(b_c\) Of or pertaining to bureaucracy or the actions of bureaucrats.
+- [bureaucracy](https://en.wiktionary.org/wiki/bureaucracy) ::@:: \(b_y\) Government by bureaus or their administrators or officers.
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::@:: \(c\_r\) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2028-07-18,1305,364!2028-10-09,1372,364-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::@:: \(c\_y\) Acting as a complement to make something else whole. <!--SR:!2027-09-07,980,344!2028-02-06,1176,364-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::@:: \(c\_y\) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2025-09-28,294,244!2026-06-09,621,324-->
@@ -37,8 +47,13 @@ English
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: \(d\_s\) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::@:: \(d\_e\) To make different. <!--SR:!2029-05-28,1545,364!2027-12-28,1109,344-->
+- [discipline](https://en.wiktionary.org/wiki/discipline) ::@:: \(d_e\) A controlled behaviour; self-control.
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::@:: \(d\_e\) That dissipates or causes dissipation. <!--SR:!2029-11-18,1685,364!2027-12-25,1054,344-->
+- [entrepreneur](https://en.wiktionary.org/wiki/entrepreneur) ::@:: \(e\_r\) A person who sets up a business; generally, a person who owns and manages a business and assumes its financial risks.
+- [entrepreneurial](https://en.wiktionary.org/wiki/entrepreneurial) ::@:: \(e_l\) Having the spirit, attitude or qualities of an entrepreneur; enterprising.
+- [entrepreneurship](https://en.wiktionary.org/wiki/entrepreneurship) ::@:: \(e_p\) The art or science of innovation and risk-taking for profit in business.
 - [esophagus](https://en.wiktionary.org/wiki/esophagus) ::@:: \(e\_s\) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2027-02-08,793,324!2026-06-30,638,284-->
+- [eavesdrop](https://en.wiktionary.org/wiki/eavesdrop) ::@:: \(e_p\) To hear \(intentionally\) a conversation one is not intended to hear; to listen in.
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::@:: \(e\_n\) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2029-04-14,1516,364!2025-11-12,464,304-->
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::@:: \(f\_é\) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-07-11,936,344!2029-04-18,1518,364-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::@:: \(f\_é\) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-02-09,862,344!2029-11-22,1689,364-->
@@ -57,6 +72,7 @@ English
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::@:: \(l\_l\) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2028-03-14,1115,344!2028-04-25,1144,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::@:: \(l\_x\) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2026-07-18,508,284!2026-11-09,725,324-->
 - [macaroni](https://en.wiktionary.org/wiki/macaroni) ::@:: \(m\_i\) A type of [pasta](../../../general/pasta.md) in the form of short tubes, typically boiled and served in [soup](../../../general/soup.md), with a [sauce](../../../general/sauce.md), or in melted [cheese](../../../general/cheese.md); a dish of this. <!--SR:!2025-12-07,137,413!2025-11-29,134,413-->
+- [multidisciplinary](https://en.wiktionary.org/wiki/multidisciplinary) ::@:: \(m_y\) Relating to multiple areas of study or work.
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::@:: \(n\_m\) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2026-09-27,594,328-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::@:: \(n\_e\) Can be not considered as it is too small or unimportant. <!--SR:!2028-03-17,1115,344!2026-02-28,513,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::@:: \(n\_n\) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2029-06-09,1557,364!2025-10-13,440,304-->
@@ -68,6 +84,8 @@ English
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::@:: \(p\_l\) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2028-01-14,1069,344!2026-11-17,730,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::@:: \(p\_x\) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2027-03-18,729,264!2026-01-29,195,284-->
 - [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::@:: \(p\_n\) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2028-02-16,1089,363!2026-01-05,171,223-->
+- [philosopher](https://en.wiktionary.org/wiki/philosopher) ::@:: \(p_r\) A lover of wisdom.
+- [philosophy](https://en.wiktionary.org/wiki/philosophy) ::@:: \(p_y\) An academic discipline that seeks truth through reasoning rather than empiricism, often attempting to provide explanations relating to general concepts such as existence and rationality.
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::@:: \(p\_m\) Copying of others' work and presenting it as one's own. <!--SR:!2026-12-31,761,324!2028-10-05,1297,324-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::@:: \(p\_e\) To copy others' work and present it as one's own. <!--SR:!2028-12-14,1415,364!2027-09-18,1019,324-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::@:: \(p\_l\) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2026-12-06,746,324!2027-03-29,916,344-->
@@ -96,6 +114,8 @@ English
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::@:: \(t\_y\) The extent to which something is transmissible. <!--SR:!2028-08-17,1330,364!2026-10-21,710,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::@:: \(t\_y\) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2026-04-02,565,290!2026-08-02,629,290-->
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::@:: \(u\_s\) Widespread. <!--SR:!2028-05-05,1167,388!2026-09-24,695,348-->
+- [utilitarian](https://en.wiktionary.org/wiki/utilitarian) ::@:: \(u_n\) Of or relating to utility.
+- [utilitarianism](https://en.wiktionary.org/wiki/utilitarianism) ::@:: \(u_m\) A system of ethics based on the premise that something's value may be measured by its usefulness.
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: \(v\_s\) Empty, void. <!--SR:!2028-04-28,1242,364!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: \(v\_m\) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: \(v\_e\) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2030-03-08,1719,396-->

@@ -21,7 +21,8 @@ The content is in teaching order.
 
 - grading
   - participation: 10%
-  - quizzes & assignments: 20%
+  - quizzes: 10%
+  - assignments: 10%
   - midterm examination: 30%
   - final examination: 40%
 
@@ -341,6 +342,7 @@ The content is in teaching order.
 - [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access. <!--SR:!2025-11-06,91,373!2025-11-07,92,373-->
   - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy <!--SR:!2025-10-08,67,353!2025-11-02,87,373-->
 - [database](../../../../general/database.md) ::@:: It is an organized collection of data or a type of data store based on the use of a database management system \(DBMS\), the software that interacts with end users, applications, and the database itself to capture and analyze the data. <!--SR:!2025-11-03,88,373!2025-11-03,88,373-->
+  - database / physical file systems ::@:: Before digital databases, databases were physical file systems. <p> \(__this course__: The instructor used his work at the New York State Department of Taxation and Finance to illustrate this.\)
   - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications. <!--SR:!2025-11-04,89,373!2025-11-06,91,373-->
   - database / database management system \(DBMS\) ::@:: It is an interface between databases and applications. It separates data into physical and logical views. <!--SR:!2025-11-03,88,373!2025-11-04,89,373-->
 - [relational database](../../../../general/relational%20database.md) \(RDB\) ::@:: It is a database based on the relational model of data, as proposed by E. F. Codd in 1970. <!--SR:!2025-11-03,88,373!2025-11-07,92,373-->
@@ -467,7 +469,7 @@ The content is in teaching order.
   - Porter's five forces / weak \(−2\)
   - intellectual property / patents \(0\)
   - core competency \(−2\)
-- check: \(none\)
+- check: \(online\)
 - questions: [midterm examination](questions/midterm%20examination.md)
 
 ## week 4 lecture 1
@@ -476,7 +478,7 @@ The content is in teaching order.
   - local: 2025-07-21T08:00:00+08:00/2025-07-21T09:40:00+08:00, PT1H40M
 - topic: hands-on exercise: building corpus
 - Altair AI Studio
-  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 5 functions to create a corpus: "create document", "process documents from files", "read Excel", "read Excel &gt; data to document", and "read document". <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
+  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 6 functions to create a corpus: "create document", "process documents from data", "process documents from files", "read Excel", "read Excel &gt; data to documents", and "read document". <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
 
 ## week 4 lecture 2
 
@@ -556,7 +558,7 @@ The content is in teaching order.
 - information system
   - information system / obstacles ::@:: There are 3 main obstacles why IS may not always produce positive results: information quality, management filters, and organizational inertia and politics. <!--SR:!2025-08-27,26,380!2025-08-28,26,380-->
     - information system / obstacles / information quality ::@:: Good decision-making processes require good data. <!--SR:!2025-08-26,24,380!2025-08-28,26,380-->
-    - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
+    - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones. \(No idea why it is called "filters" instead of "biases"...\) <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
     - information system / obstacles / organizational inertia and politics ::@:: Strong forces in organizations generally resist changes, even good ones. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
 - business intelligence
   - business intelligence / infrastructure ::@:: databases, data warehouses, data marts; they collect, store and analyze data <!--SR:!2025-08-27,26,380!2025-08-28,26,380-->
@@ -565,7 +567,8 @@ The content is in teaching order.
   - business intelligence / goals ::@:: deliver accurate and real-time information to decision makers <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
   - business intelligence / systems
     - business intelligence / systems / functions ::@:: ad hoc query/search/report creation, dashboards/scorecards, drill down, forecasting, modeling, parameterized reports, production reports, what-if scenarios, etc. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
-  - business intelligence / production reports ::@:: They are the most widely used outputs of BI suites. Often, BI suites provide predefined reports for different business functions. <p> examples: sales \(forecasting, performance, etc.\), human resources \(compensation, productivity, etc.\), supply chain \(backlog, fulfillment, etc.\), etc. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
+  - business intelligence / production reports ::@:: They are the most widely used outputs of BI suites. Often, BI suites provide predefined reports for different business functions. These reports do _not_ have _predictive_ ability \(e.g. what-if analysis, etc.\). <p> examples: sales \(forecasting, performance, etc.\), human resources \(compensation, productivity, etc.\), supply chain \(backlog, fulfillment, etc.\), etc. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
+  - business intelligence / digital dashboard ::@:: It can present performance data in a BI system.
 - [predictive analytics](../../../../general/predictive%20analytics.md) ::@:: They encompasses a variety of statistical techniques from data mining, predictive modeling, and machine learning that analyze current and historical facts to make predictions about future or otherwise unknown events. <!--SR:!2025-08-28,26,380!2025-08-27,25,380-->
   - predictive analytics / foundations ::@:: assumptions, data mining, historical data, statistical analysis, etc. <!--SR:!2025-08-27,26,380!2025-08-28,26,380-->
   - predictive analytics / business ::@:: They are often incorporated into BI suites to predict the future for different business functions. <p> examples: credit scoring, marketing campaign effect prediction, etc. <!--SR:!2025-08-27,25,380!2025-08-28,26,380-->
@@ -596,7 +599,7 @@ The content is in teaching order.
 - [vector space model](../../../../general/vector%20space%20model.md) ::@:: It is an algebraic model for representing text documents \(or more generally, items\) as vectors such that the distance between vectors represents the relevance between the documents. <!--SR:!2025-09-01,25,395!2025-09-02,26,393-->
   - vector space model / bag-of-words model ::@:: For text processing, often the vector elements represent the number of occurrences of a term in a document in a bag-of-words model. <!--SR:!2025-09-02,26,393!2025-09-02,26,395-->
 - [tf–idf](../../../../general/tf–idf.md) ::@:: It is a measure of importance of a word to a document in a collection or corpus, adjusted for the fact that some words appear more frequently in general. <!--SR:!2025-09-02,26,397!2025-09-02,26,395-->
-  - tf–idf / term frequency ::@:: It is the relative frequency of term t within document _d_. <!--SR:!2025-09-02,26,393!2025-09-01,25,397-->
+  - tf–idf / term frequency ::@:: It is the relative frequency of term _t_ within document _d_. <!--SR:!2025-09-02,26,393!2025-09-01,25,397-->
     - tf–idf / term frequency / formula ::@:: It, tf\(_t_,_d_\), is the relative frequency of term _t_ within document _d_, $$\mathrm {tf} (t,d)={\frac {f_{t,d} }{\sum _{t'\in d}{f_{t',d} } } } \,$$ where _f_<sub>_t_,_d_</sub> is the _raw count_ of a term in a document, i.e., the number of times that term _t_ occurs in document _d_. Note the denominator is simply the total number of terms in document _d_ \(counting each occurrence of the same term separately\). <!--SR:!2025-09-01,25,395!2025-09-02,26,393-->
   - tf–idf / inverse document frequency ::@:: It is a measure of how much information the word provides, i.e., how common or rare it is across all documents. It is the logarithmically scaled inverse fraction of the documents that contain the word. <!--SR:!2025-09-02,26,393!2025-09-03,27,393-->
     - tf–idf / inverse document frequency / formula ::@:: It is the logarithmically scaled inverse fraction of the documents that contain the word \(obtained by dividing the total number of documents by the number of documents containing the term, and then taking the logarithm of that quotient\): $$\mathrm {idf} (t,D)=\log {\frac {N}{n_{t} } }$$ with <p> - $D$: is the set of all documents in the corpus <br/> - $N={|D|}$: total number of documents in the corpus <br/> - $n_{t}=|\{d\in D:t\in d\}|$ : number of documents where the term $t$ appears \(i.e., $\mathrm {tf} (t,d)\neq 0$\). <!--SR:!2025-09-03,27,397!2025-09-03,27,395-->
@@ -639,8 +642,10 @@ The content is in teaching order.
 - [telecommunications](../../../../general/telecommunications.md) ::@:: It is the transmission of information over a distance using electrical or electronic means, typically through cables, radio waves, or other communication technologies. <!--SR:!2025-09-03,27,395!2025-09-01,25,393-->
   - telecommunications / trends ::@:: broadband \(high-speed\), convergence of standards, wireless <!--SR:!2025-09-02,26,395!2025-09-03,27,393-->
   - telecommunications / signals ::@:: It uses both analog \(continuous\) signal and digital \(discontinuous\) signal. <p> Signals are often transmitted through _channels_. A channel often has a _bandwidth_, which is the difference between the lowest and highest frequency the channel can accommodate. <!--SR:!2025-09-01,25,393!2025-09-03,27,395-->
+  - telecommunications / speed ::@:: The speed at which data is transmitted is measured in bits per second \(bps\).
+  - telecommunications / modem ::@:: It is a computer hardware device that converts data from a digital format into a format suitable for an analog transmission medium such as telephone or radio.
 - [computer network](../../../../general/computer%20network.md) ::@:: It is a collection of communicating computers and other devices, such as printers and smart phones. Today almost all computers are connected to a computer network, such as the global Internet or an embedded network such as those found in modern cars. <!--SR:!2025-09-01,25,395!2025-09-02,26,393-->
-  - computer network / components ::@:: computers \(PC\) ⇆ switches ⇆ servers \(NOS\) <br/> switches ⇆ routers ⇆ other networks \(internet\) <!--SR:!2025-09-01,25,395!2025-09-01,25,395-->
+  - computer network / components ::@:: computers \(PC\) ⇆ switches ⇆ servers \(NOS\) <br/> switches ⇆ routers ⇆ other networks \(internet\) <!--SR:!2025-09-01,25,395!2025-09-01,25,395--> <p> So we see a switch forwards packets within the _same_ network. A router forwards packets between _different_ networks.
 - [campus network](../../../../general/campus%20network.md) \(CAN\) ::@:: It is a computer network made up of an interconnection of local area networks \(LANs\) within a limited geographical area. <!--SR:!2025-09-03,27,393!2025-09-01,25,395-->
 - computer network
   - computer network / key technologies ::@:: TCP/IP \(compatible with different hardware and software platforms\), client/server computing, connectivity, packet switching, etc. <!--SR:!2025-09-01,25,395!2025-09-02,26,395-->
@@ -649,13 +654,13 @@ The content is in teaching order.
   - packet switching / routing ::@:: A message may be broken up into multiple packets, and then are independently sent through different routes, and finally reassembled into the original message by the destination machine <!--SR:!2025-09-03,27,395!2025-09-02,26,393-->
 - computer network
   - computer network / types ::@:: "AN" stands for "area network"; nanoscale &lt; body \(BAN\) &lt; personal \(PAN\) &lt; local \(LAN\) &lt; campus/corporate \(CAN\) &lt; metropolitan \(MAN\) &lt; radio access \(RAN\) &lt; wide \(WAN\) <!--SR:!2025-09-03,27,393!2025-09-01,25,393-->
-  - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission <!--SR:!2025-09-01,25,395!2025-09-02,26,395-->
+  - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission <!--SR:!2025-09-01,25,395!2025-09-02,26,395--> <p> \(__this course__: The instructor thought but did _not_ insist that fiber optic should also be conducted.\)
 - [internet](../../../../general/internet.md) ::@:: It is the global system of interconnected computer networks that uses the Internet protocol suite \(TCP/IP\) to communicate between networks and devices. <!--SR:!2025-09-01,25,393!2025-09-03,27,397-->
   - internet / key technologies ::@:: Domain Name System \(DNS\), IP \(Internet Protocol\) address, internet architecture <!--SR:!2025-09-01,25,395!2025-09-02,26,395-->
 - [IP address](../../../../general/IP%20address.md) ::@:: It is a numerical label such as _192.0.2.1_ that is assigned to a device connected to a computer network that uses the Internet Protocol for communication. <p> It is a 32-bit number. <!--SR:!2025-09-03,27,393!2025-09-02,26,395-->
   - IP address / `ipconfig` ::@:: On Windows, running `ipconfig` shows IPv4 address, default gateway, subnet mask, etc. <!--SR:!2025-09-02,26,395!2025-09-03,27,393-->
 - [Domain Name System](../../../../general/Domain%20Name%20System.md) \(DNS\) ::@:: It is a hierarchical and distributed name service that provides a naming system for computers, services, and other resources on the Internet or other Internet Protocol \(IP\) networks. <p> Essentially, this allows you to type meaningful domain names instead of hard-to-remember IP addresses to connect other computers. <!--SR:!2025-09-03,27,393!2025-09-02,26,393-->
-- [URL](../../../../general)(../../../../general/URL.md) ::@:: It is a reference to a resource that specifies its location on a computer network and a mechanism for retrieving it. <p> It consists of protocol prefix, domain name, directory path, and document name. <!--SR:!2025-09-03,27,393!2025-09-03,27,395-->
+- [URL](../../../../general/URL.md) ::@:: It is a reference to a resource that specifies its location on a computer network and a mechanism for retrieving it. <p> It consists of protocol prefix, domain name, directory path, and document name. <!--SR:!2025-09-03,27,393!2025-09-03,27,395-->
 - internet
   - internet / architecture ::@:: Its architecture consists of many components: backbone, internet service provider \(ISP\), metropolitan area exchange \(MAE\), network access point \(NAP\), etc. <!--SR:!2025-09-03,27,395!2025-09-01,25,395-->
 - [internet backbone](../../../../general/internet%20backbone.md) ::@:: It is the principal data routes between large, strategically interconnected computer networks and core routers of the Internet. <!--SR:!2025-09-01,25,397!2025-09-01,25,393-->
@@ -715,13 +720,74 @@ The content is in teaching order.
 - datetime: 2025-07-31T09:00:00+09:00/2025-07-31T10:40:00+09:00, PT1H40M
   - local: 2025-07-31T08:00:00+08:00/2025-07-31T09:40:00+08:00, PT1H40M
 - topic: enterprise applications; e-commerce, digital markets, digital goods
-- assignment: [quiz 9–10](quiz%209–10.md)
+- [enterprise resource planning](../../../../general/enterprise%20resource%20planning.md) \(ERP\) ::@:: It is the integrated management of main business processes, often in real time and mediated by software and technology. It is usually referred to as a category of business management software—typically a suite of integrated applications—that an organization can use to collect, store, manage and interpret data from many business activities.
+  - enterprise resource planning / architecture ::@:: a centralized database connected to multiple business processes; this helps to reduce redundant business processes
+  - enterprise resource planning / predefined business processes ::@:: It often have predefined business processes reflecting _best practices_: finance and accounting, human resources, manufacturing and production, sales and marketing, etc.
+    - enterprise resource planning / predefined business processes / implementation ::@:: Select some of the provided functions to use. Map business processes to the selected software processes.
+- [supply chain management system](../../../../general/supply-chain-management%20software.md) \(SCMS\) ::@:: It is the software tools or modules used in executing supply chain transactions, managing supplier relationships and controlling associated business processes. It maximizes the efficiency of business activities that include planning and management of the entire supply chain.
+  - supply chain management system / supply chain ::@:: It is a complex logistics system that consists of facilities that convert raw materials into finished products and distribute them to end consumers or end customers. <p> It involves a network of organizations and processes.
+  - supply chain management system / upstream, downstream ::@:: upstream: tier 3 suppliers ⟷ tier 2 suppliers ⟷ tier 1 suppliers \(contract suppliers\) <br/> self: manufacturer <br/> downstream: distributors ⟷ retailers ⟷ customers
+  - supply chain management system / just-in-time strategy ::@::
+- [lean manufacturing](../../../../general/lean%20manufacturing.md) ::@:: It is a method of manufacturing goods aimed primarily at reducing times within the production system as well as response times from suppliers and customers. It is closely related to another concept called __just-in-time manufacturing__ \(JIT manufacturing in short\).
+  -lean manufacturing / just-in-time \(JIT\) manufacturing ::@:: Components arrive as they are needed. Finished goods are shipped right after being finished. <p> If perfect information is available, this always work.
+- [safety stock](../../../../general/safety%20stock.md) ::@:: It is a term used by logisticians to describe a level of extra stock which is maintained to mitigate the risk of stockouts, which can be caused, for example, by shortfalls in raw material availability or uncertainty in forecasting supply and demand.
+  - safety stock / overstocking ::@:: Too much safety stock is not necessarily good. It leads to _overstocking_, which increases cost of holding inventory.
+- [bullwhip effect](../../../../general/bullwhip%20effect.md) ::@:: The \(_this_\) is a supply chain phenomenon where orders to suppliers tend to have a larger variability than sales to buyers, which results in an amplified demand variability upstream. In part, this results in increasing swings in inventory in response to shifts in consumer demand as one moves further up the supply chain.
+  - bullwhip effect / reasons ::@:: forward buying, order batching/synchronization, over-reactive ordering, trade promotion, etc.
+  - bullwhip effect / solutions ::@:: collaborative planning, forecasting, replenishment, supply chain visibility, etc.
+- [customer relationship management](../../../../general/customer%20relationship%20management.md) \(CRM\) ::@:: It is a strategic process that organizations use to manage, analyze, and improve their interactions with customers.
+  - customer relationship management / effects ::@:: By leveraging data-driven insights, CRM helps businesses optimize communication, enhance customer satisfaction, and drive sustainable growth
+  - customer relationship management / decision examples ::@:: Determine if a customer is very important, so as to provide the best possible services for the customer, while only providing basic services for other customers to save costs.
+  - customer relationship management / operational ::@:: It is customer-facing, e.g. call center, customer service, marketing automation, sales force automation, etc.
+  - customer relationship management / analytical ::@:: It analyzes data populated by operational CRM systems and customer touchpoints using various techniques, e.g. OLAP, data mining, etc.
+- [customer lifetime value](../../../../general/customer%20lifetime%20value.md) \(CLV, CLTV\) ::@:: It is a prognostication of the net profit contributed to the whole future relationship with a customer. The prediction model can have varying levels of sophistication and accuracy, ranging from a crude heuristic to the use of complex predictive analytics techniques.
+- [e-commerce](../../../../general/e-commerce.md) ::@:: It refers to commercial activities including the electronic buying or selling products and services which are conducted on online platforms or over the Internet.
+  - e-commerce / unique features ::@:: 8 items: customization/personalization, global reach, information density, interactivity, richness \(e.g. integration of marketing in multiple forms\), social technology, ubiquity, universal standards
+  - e-commerce / effects
+    - e-commerce / effects / customers ::@:: delay gratification \(see the product's effect before evaluation\), information asymmetry reduce, switching costs change
+    - e-commerce / effects / sellers ::@:: disintermediation increase, efficiency and flexibility increase \(e.g. dynamic pricing, price discrimination, etc.\), market segmentation increase, network effects increase
+- [disintermediation](../../../../general/disintermediation.md) ::@:: It is the removal of intermediaries in economics from a supply chain, or "cutting out the middlemen" in connection with a transaction or a series of transactions.
+- [digital goods](../../../../general/digital%20goods.md) ::@:: They are intangible goods that exist in digital form. \(__this course__: _delivered_ digitally\)
+- e-commerce
+  - e-commerce / types ::@:: 3 major types: business-to-business \(B2B\), business-to-consumer \(B2C\), consumer-to-consumer \(C2C\) <p> \(__this course__: According to the instructor, C2C should not be a valid business model for e-commerce. Also, the _retailer_ always participate in both B2B and B2C.\)
+- [mobile commerce](../../../../general/mobile%20commerce.md) \(m-commerce\) ::@:: It means "the delivery of electronic commerce capabilities directly into the consumer's hand, anywhere, via wireless technology." Some choose to think of it as meaning "a retail outlet in your customer's pocket."
+- e-commerce
+  - e-commerce / business models ::@:: community provider, content provider, e-tailer, market creator, portal, service provider, transaction broker, etc.
+  - e-commerce / revenue models ::@:: advertising, affiliate, free, freemium, sales, subscription, transaction fee, etc. <p> For example, an online content provider \(e.g. Netflix, etc.\) likely generates revenue from advertising and subscription.
+  - e-commerce / marketing ::@:: The internet allows new ways to identify and interact with customers. <p> behavioral targeting: track online behaviors; has privacy concerns <br/> long-tail marketing: reach a large audience for low cost
+- mobile commerce
+  - mobile commerce / growth ::@:: It is the fastest growing form of e-commerce. As of 2020, it is estimated to be 45% of all e-commerce. The area with the fastest growth is location-based services.
+- [location-based service](../../../../general/location-based%20service.md) \(LBS\) ::@:: It is a general term denoting software services which use geographic data and information to search systems, in turn providing services or information to users.
+  - location-based service / types ::@:: geo-advertising, geo-information services, geo-social services, etc.
+- e-commerce
+  - e-commerce / mobile payment services ::@:: 3 major types: QR code, near-field communication \(NFC\), peer-to-peer \(P2P\) <p> QR code: Dunkin Donuts, Starbucks, Target, Walmart, etc. <br/> near-field communication \(NFC\): Apply Pay, Google Pay, etc. <br/> peer-to-peer \(P2P\): Venmo, Zelle, etc.
+- assignment: [quiz 9–10](questions/quiz%209–10.md)
 
 ## week 6 lecture
 
 - datetime: 2025-08-04T09:00:00+09:00/2025-08-04T10:40:00+09:00, PT1H40M
   - local: 2025-08-04T08:00:00+08:00/2025-08-04T09:40:00+08:00, PT1H40M
 - topic: building information systems
+- organization
+  - organization / structural changes ::@:: need to balance risks and rewards <p> 4 major types: automation, paradigm shift, rationalization, redesign
+- [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed.
+  - software development process / steps ::@:: systems analysis → systems design → programming → testing → conversion → production, maintenance → \(systems analysis\)
+  - software development process / systems analysis ::@:: Analyze the problem to be solved by the new system. Study its feasibility in terms of time, finance, organization, and technology. Establish information requirements \(IR\).
+  - software development process / systems design ::@:: Specify system specifications to deliver functions required. Consider end users.
+  - software development process / programming ::@:: Implement the system.
+  - software development process / testing ::@:: acceptable testing, system testing, unit testing
+  - software development process / conversion ::@:: Replace the old system with the new system. Requires training end users. <p> 4 main strategies: direct cutover \(replace directly\), parallel strategy \(make both systems available for some time\), pilot study \(replace for a few, then replace directly if okay\), phased approach \(replace gradually\)
+  - software development process / production, maintenance ::@:: Review the system if revisions are needed. Maintain the system.
+- [structured analysis](../../../../general/structured%20analysis.md) \(SA\) ::@:: They are methods for analyzing business requirements and developing specifications for converting practices into computer programs, hardware configurations, and related manual procedures.
+  - structured analysis / characteristics ::@:: process-oriented: focus on processes, not data <br/> separation of process and data <br/> structured: progressive, step-by-step
+  - structured analysis / examples ::@:: computer-aided software engineering \(CASE\), data flow diagram \(DFD\), object-oriented development, etc.
+- [data-flow diagram](../../../../general/data%20flow%20diagram.md) \(DFD\) ::@:: It is a way of representing a flow of data through a process or a system \(usually an information system\). It also provides information about the outputs and inputs of each entity and the process itself. A data-flow diagram has no control flow — there are no decision rules and no loops. Specific operations based on the data can be represented by a flowchart.
+  - data-flow diagram / characteristics ::@:: data dictionary \(specify contents of data flows and data stores\), process specifications, structured chart
+  - data-flow diagram / components ::@:: data flow \(arrows\), process, warehouse, terminator \(e.g. entity, external entity, interface, etc.\) <p> \(__this course__: use _entity_ or _external entity_\)
+  - data-flow diagram / reading ::@:: The boxes can be warehouses, processes, or terminators. There are \(probably\) many arrows with annotating text in between boxes. <p> Everything included is _inside_ the system's boundary.
+- [object-oriented analysis and design](../../../../general/object-oriented%20analysis%20and%20design.md) \(OOAD\) ::@:: It is an approach to analyzing and designing a computer-based system by applying an object-oriented mindset and using visual modeling throughout the software development process.
+  - object-oriented analysis and design / concepts ::@:: _Object_ is the basic unit. It combines data and processes operating on it. _Class_, \(represented by a box with its data and processes\) and _inheritance_ \(represented by arrows pointing from subclasses to parent classes\) are two important concepts.
+  - object-oriented analysis and design / characteristics ::@:: iterative, incremental, reusable \(objects are reusable\); thus potentially reduces development cost and time
 - assignment: [assignment \#3](assignments/assignment%20%233/index.md)
 
 ## week 6 lecture 2
@@ -729,6 +795,25 @@ The content is in teaching order.
 - datetime: 2025-08-05T09:00:00+09:00/2025-08-05T10:40:00+09:00, PT1H40M
   - local: 2025-08-05T08:00:00+08:00/2025-08-05T09:40:00+08:00, PT1H40M
 - topic: MIS career, future of work, review for final examination
+- [computer-aided software engineering](../../../../general/computer-aided%20software%20engineering.md) \(CASE\) ::@:: It is a domain of software tools used to design and implement applications. Its tools are similar to and are partly inspired by computer-aided design \(CAD\) tools used for designing hardware products.
+  - computer-aided software engineering / tools ::@:: analysis, checking, code generation, data dictionaries, documentation generation, graphics \(e.g. charts, diagrams, etc.\), report generators, screen generators, etc.
+  - computer-aided software engineering / effects ::@:: It support _iterative_ by automating _version control_ and providing _prototyping_ tools.
+- [systems development life cycle](../../../../general/systems%20development%20life%20cycle.md) \(SDLC\) ::@:: It describes the typical phases and progression between phases during the development of a computer-based system; from inception to retirement. At base, there is just one life cycle even though there are different ways to describe it; using differing numbers of and names for the phases. <p> It is still often used for large complex systems
+  - systems development life cycle / characteristics ::@:: division between end users and developers, phased \("waterfall", each stage must finish before the next stage\), traditional \(oldest\)
+  - systems development life cycle / disadvantages ::@:: potentially costly, inflexible, and time-consuming
+- [software prototyping](../../../../general/software%20prototyping.md) ::@:: It is the activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed.
+  - software prototyping / steps ::@:: identify user requirements → prototype → evaluate → revise → \(done if satisfactory; prototype if not\)
+  - software prototyping / advantages ::@:: for end-user interface design, for uncertain requirements or solutions \("wicked problems"\), match user requirements better
+  - software prototyping / disadvantages ::@:: essential steps skipped, incomprehensive documentation, incomprehensive testing, unscalable
+- [end-user development](../../../../general/end-user%20development.md) \(EUD\) ::@:: It refers to activities and tools that allow end-users – people who are not professional software developers – to program computers. People who are not professional developers can use EUD tools to create or modify software artifacts \(descriptions of automated behavior\) and complex data objects without significant knowledge of a programming language.
+  - end-user development / advantages ::@:: faster completion, higher user involvement, higher user satisfaction
+  - end-user development / disadvantages ::@:: little \(data\) control, little documentation, little management, little testing, not for computationally intensive applications
+- [software suite](../../../../general/software%20suite.md) ::@:: It is a collection of computer programs (application software, or programming software) of related functionality, sharing a similar user interface and the ability to easily exchange data with each other.
+  - software suite / characteristics ::@:: customizable, save money and time \(if preexisting\)
+  - software suite / request for proposal \(RFP\) ::@:: You send a list of questions to vendors so that you can evaluate alternative software suites provided by different vendors and choose the best ones.
+- outsourcing
+  - outsourcing / types ::@:: domestic outsourcing, offshore outsourcing
+- assignment: [quiz 13](questions/quiz%2013.md)
 
 ## week 6 lecture 3
 
@@ -738,3 +823,49 @@ The content is in teaching order.
 - [§ final examination](#final%20examination)
 
 ## final examination
+
+- datetime: 2025-08-06T09:00:00+09:00/2025-08-06T10:30:00+09:00, PT1H30M
+  - local: 2025-08-06T08:00:00+08:00/2025-08-06T09:30:00+08:00, PT1H30M
+- venue: \(online\)
+- format
+  - calculator: n/a
+  - cheatsheet: n/a
+  - referencing: open book, open notes
+  - provided: \(none\)
+  - questions: questions ×80 \(acronym, fill in the blank, multiple choice, short answer, true/false\)
+  - others: open camera showing full face
+- grades: 93/100
+  - statistics
+    - timestamps: 2025-08-08T12:23:06+09:00
+    - mean: 75.23
+    - standard deviation: ?
+    - low: 0
+    - lower quartile: 83
+    - median: 88.50
+    - upper quartile: 91
+    - high: 98
+    - distribution: ?
+    - data: ?
+- report:
+  - data redundancy, data integrity \(−1\) ::@:: The former is a primary cause of the lack of the latter.
+  - data-flow diagram / reading \(−1\)
+  - computer network / mediums \(−1\)
+  - e-commerce / types \(−1\)
+  - data-flow diagram / components \(−2\)
+  - Altair AI Studio / building corpus \(−1\) ::@:: They wanted "Process Document from Data" instead of "Process Documents from Data", even though the latter is correct. ?\_?
+- check: \(online\)
+- questions: [final examination](questions/final%20examination.md)
+
+## week 6 lecture 4
+
+- datetime: 2025-08-07T09:00:00+09:00/2025-08-07T10:40:00+09:00, PT1H40M
+  - local: 2025-08-07T08:00:00+08:00/2025-08-07T09:40:00+08:00, PT1H40M
+- topic: advising session
+- status: optional
+
+## aftermath
+
+### total
+
+- grades: 89.17/100
+  - statistics: ?

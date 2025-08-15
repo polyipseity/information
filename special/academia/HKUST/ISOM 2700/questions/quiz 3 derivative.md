@@ -95,7 +95,7 @@ tags:
 > ---
 >
 > - solution: {@{\$255&nbsp;675}@}
-> - explanation: {@{Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-12-19,128,290!2025-09-02,62,310-->
+> - explanation: {@{From above, the optimal order quantity is 200. Thus the purchasing cost discount applies. <p> Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-12-19,128,290!2025-09-02,62,310-->
 
 ---
 
