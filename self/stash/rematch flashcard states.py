@@ -23,7 +23,7 @@ def normalize_line_endings(target: str = "\n"):
 
 def main() -> None:
     input("Text (will read from clipboard)? ")
-    text = paste()
+    text = paste().strip()
     text = normalize_line_endings(text)
 
     flashcard_states = list[str]()
