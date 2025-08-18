@@ -17,5 +17,6 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
-  "personalAccessToken": ""
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": true
 }
