@@ -84,7 +84,7 @@ return await memorize_map(
 - [calcium](calcium.md):@:brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2026-01-25,214,150-->
 - [copper](copper.md)(I):@:blue-green <!--SR:!2025-10-07,77,130-->
 - [copper](copper.md)(II):@:green (non-halide), blue-green (halide) <!--SR:!2025-10-19,306,190-->
-- [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks <!--SR:!2025-08-19,50,130-->
+- [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks <!--SR:!2025-10-22,64,130-->
 - [iron](iron.md)(III):@:orange-brown <!--SR:!2025-10-11,202,170-->
 - [magnesium](magnesium.md):@:intense white <!--SR:!2027-10-04,825,270-->
 - [potassium](potassium.md):@:lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2026-12-04,536,190-->

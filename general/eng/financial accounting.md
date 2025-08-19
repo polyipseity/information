@@ -28,7 +28,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 
 Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2026-06-09,447,310!2025-09-19,286,330!2026-04-21,438,310-->
 
-__Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2025-08-15,261,330!2027-03-29,708,330-->
+__Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2028-11-13,1185,350!2027-03-29,708,330-->
 
 - __Relevance__ ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-10-21,293,290!2025-09-09,259,290-->
 - __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2027-09-30,792,290!2026-04-16,333,270-->
@@ -169,7 +169,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
        increased by debits           increased by credits
 ```
 
-Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2025-08-19,263,330!2027-04-30,730,330-->
+Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2028-12-01,1200,350!2027-04-30,730,330-->
 
 Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2028-08-24,1121,350-->
 

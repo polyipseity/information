@@ -53,11 +53,11 @@ The content is in teaching order.
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
   - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2026-06-27,479,310!2025-10-24,303,330-->
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2028-03-09,981,350!2026-12-01,612,330-->
-- class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2025-08-18,254,330-->
+- class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2028-10-18,1157,350-->
 - activity 1: art to building community
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2028-09-03,1123,350!2028-05-15,1034,350-->
 - activity 2: workview sharing, activity 3: worldview sharing
-  - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2025-10-23,302,330!2025-08-18,253,330-->
+  - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2025-10-23,302,330!2028-10-19,1158,350-->
 
 ## week 3 tutorial
 
@@ -81,7 +81,7 @@ The content is in teaching order.
 - datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
 - assignments: [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
 - positive psychology ::@:: happiness, well-being, etc. <!--SR:!2026-03-27,421,377!2026-04-14,436,377-->
-- PERMA ::@:: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2026-04-02,426,377!2025-08-16,219,337-->
+- PERMA ::@:: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2026-04-02,426,377!2028-05-30,1016,357-->
   - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2025-10-21,289,357!2026-05-01,451,377-->
   - positive emotion ::@:: hedonic treadmill, happiness returns to its baseline level <!--SR:!2025-12-17,318,357!2026-04-30,450,377-->
   - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2026-03-20,415,377!2026-04-19,440,377-->

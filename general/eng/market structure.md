@@ -17,7 +17,7 @@ __Market structure__, in [economics](economics.md), depicts {@{how firms are dif
 
 The main body of the market is {@{composed of suppliers and demanders}@}. Both parties are {@{equal and indispensable}@}. The market structure {@{determines the price formation method of the market}@}. {@{Suppliers and Demanders \(sellers and buyers\)}@} will {@{aim to find a price that both parties can accept creating a equilibrium quantity}@}. <!--SR:!2025-12-25,310,340!2026-03-11,375,358!2026-01-21,333,340!2025-12-23,308,340!2026-03-21,382,358-->
 
-{@{Market definition}@} is {@{an important issue for regulators facing changes in market structure, which needs to be determined}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The relationship between buyers and sellers as the main body of the market}@} includes {@{three situations}@}: {@{the relationship between sellers \(enterprises and enterprises\), the relationship between buyers \(enterprises or consumers\) and the relationship between buyers and sellers}@}; the relationship between {@{the buyer and seller of the market and the buyer and seller entering the market}@}. These relationships are {@{the market competition and monopoly relationships}@} reflected in economics. <!--SR:!2026-01-12,325,340!2025-09-18,231,330!2025-12-02,294,340!2025-12-20,305,340!2025-08-28,196,280!2025-08-16,200,320!2026-01-22,334,340-->
+{@{Market definition}@} is {@{an important issue for regulators facing changes in market structure, which needs to be determined}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The relationship between buyers and sellers as the main body of the market}@} includes {@{three situations}@}: {@{the relationship between sellers \(enterprises and enterprises\), the relationship between buyers \(enterprises or consumers\) and the relationship between buyers and sellers}@}; the relationship between {@{the buyer and seller of the market and the buyer and seller entering the market}@}. These relationships are {@{the market competition and monopoly relationships}@} reflected in economics. <!--SR:!2026-01-12,325,340!2025-09-18,231,330!2025-12-02,294,340!2025-12-20,305,340!2025-08-28,196,280!2028-01-24,891,340!2026-01-22,334,340-->
 
 ## history
 
@@ -96,7 +96,7 @@ There are {@{a large number of enterprises, there are no restrictions on enterin
 
 __Oligopoly:__
 
-The number of enterprises is {@{small, entry and exit from the market are restricted}@}, product attributes are {@{different}@}, and the demand curve is {@{downward sloping and relatively inelastic}@}. Oligopolies are usually found in {@{industries in which initial capital requirements are high and existing companies have strong foothold in market share}@}. <!--SR:!2026-03-23,384,358!2027-05-18,645,320!2025-12-23,308,340!2025-08-19,5,356-->
+The number of enterprises is {@{small, entry and exit from the market are restricted}@}, product attributes are {@{different}@}, and the demand curve is {@{downward sloping and relatively inelastic}@}. Oligopolies are usually found in {@{industries in which initial capital requirements are high and existing companies have strong foothold in market share}@}. <!--SR:!2026-03-23,384,358!2027-05-18,645,320!2025-12-23,308,340!2025-09-11,23,376-->
 
 ### monopoly
 

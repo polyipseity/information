@@ -42,7 +42,7 @@ When {@{a [raw material](raw%20material.md) or a similar economic good is for sa
 According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-12-06,548,310!2025-11-19,284,330!2027-10-17,801,330-->
 
 - __Transmitting__ ::@:: information about changes in the relative importance of different end-products and factors of production. <!--SR:!2027-12-02,848,330!2025-09-05,207,310-->
-- __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2025-08-16,192,310!2027-08-28,774,330-->
+- __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2027-11-19,824,330!2027-08-28,774,330-->
 - __Providing__ an incentive to owners of resources ::@:: to direct them into the most highly remunerated uses <!--SR:!2025-11-06,273,330!2025-11-19,284,330-->
 - __Distributing__ ::@:: output among the owners of resources <!--SR:!2025-11-03,269,330!2025-11-18,283,330-->
 - __Rationing__ ::@:: fixed supplies of goods among consumers. <!--SR:!2025-09-06,208,310!2025-11-25,289,330-->

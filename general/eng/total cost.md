@@ -26,7 +26,7 @@ In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the mi
 
 {@{The additional total cost of one additional unit of production}@} is called {@{[marginal cost](marginal%20cost.md)}@}. <!--SR:!2026-02-19,317,341!2026-02-10,309,341-->
 
-The marginal cost can also be {@{calculated by finding the derivative of total cost or variable cost}@}. {@{Either of these derivatives work}@} because {@{the total cost includes variable cost and fixed cost}@}, but {@{fixed cost is a constant with a derivative of 0}@}. <!--SR:!2026-01-22,294,330!2026-03-11,333,341!2025-08-19,168,321!2026-02-10,309,341-->
+The marginal cost can also be {@{calculated by finding the derivative of total cost or variable cost}@}. {@{Either of these derivatives work}@} because {@{the total cost includes variable cost and fixed cost}@}, but {@{fixed cost is a constant with a derivative of 0}@}. <!--SR:!2026-01-22,294,330!2026-03-11,333,341!2027-09-06,748,341!2026-02-10,309,341-->
 
 {@{The total cost of producing a specific level of output}@} is {@{the cost of all the factors of production}@}. Often, economists use {@{models with two inputs: physical [capital](capital%20(economics).md), with quantity K and labor, with quantity L}@}. Capital is {@{assumed to be the fixed input, meaning that the amount of capital used does not vary with the level of production in the short run}@}. {@{The rental price per unit of capital}@} is {@{denoted r}@}. Thus, {@{the total fixed cost equals Kr}@}. Labor is {@{the variable input, meaning that the amount of labor used varies with the level of output}@}. In {@{the short run, the only way to vary output}@} is by {@{varying the amount of the variable input}@}. Labor usage is {@{denoted L and the per unit cost, or wage rate, is denoted w}@}, so {@{the variable cost is Lw}@}. Consequently, {@{total cost is fixed cost \(FC\) plus variable cost \(VC\)}@}, or {@{TC = FC + VC = Kr+Lw}@}. In {@{the long run, however, both capital usage and labor usage are variable}@}. {@{The long run total cost for a given output}@} will {@{generally be lower than the short run total cost}@}, because {@{the amount of capital can be chosen to be optimal for the amount of output}@}. <!--SR:!2026-02-07,306,341!2027-06-25,691,341!2025-10-26,218,321!2025-08-20,169,321!2026-02-18,315,341!2026-03-06,329,341!2025-10-24,216,321!2025-10-25,217,321!2026-01-22,294,330!2026-02-08,307,341!2026-01-22,294,330!2026-02-19,316,341!2026-03-10,332,341!2026-02-21,318,341!2026-01-22,294,330!2025-10-25,217,321!2025-11-02,213,310!2025-09-21,194,321-->
 
@@ -48,7 +48,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2026-10-19,491,321!2026-01-22,294,330-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2026-02-16,314,341!2026-02-22,319,341-->
 - Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2026-02-15,313,341!2026-03-13,335,341-->
-- Total Product ::@:: = AP X Variable Factor <!--SR:!2025-08-19,168,321!2026-02-23,319,341-->
+- Total Product ::@:: = AP X Variable Factor <!--SR:!2027-09-05,747,341!2026-02-23,319,341-->
 - Profit ::@:: = TR – TC or \(P-ATC\)\*Q <!--SR:!2026-03-10,332,341!2026-02-28,324,341-->
 - Loss ::@:: = TC – TR \(if positive\) <!--SR:!2026-02-11,310,341!2026-01-22,294,330-->
 - Break Even Point: ::@:: value of Quantity of goods where Average Revenue = Average Total Cost <!--SR:!2026-02-15,313,341!2025-10-27,219,321-->

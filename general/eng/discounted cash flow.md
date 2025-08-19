@@ -98,9 +98,9 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 ### equity-approach
 
 - [Flows to equity](flows%20to%20equity.md) approach \(FTE\)
-  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2025-08-17,146,310!2026-12-29,519,310-->
+  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2027-05-03,623,330!2026-12-29,519,310-->
   - (annotation: flows to equity) Advantages: ::@:: Makes explicit allowance for the cost of debt capital <!--SR:!2026-04-15,342,349!2026-02-04,281,330-->
-  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2025-11-22,224,329!2025-08-18,147,310-->
+  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2025-11-22,224,329!2027-05-12,632,330-->
 
 ### entity-approach
 
@@ -133,7 +133,7 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 
 To {@{address the lack of integration of the short and long term importance}@}, {@{value and risks associated with natural and social capital into the traditional DCF calculation}@}, companies are {@{valuing their environmental, social and governance \(ESG\) performance}@} through {@{an [Integrated Management](integrated%20management.md) approach to reporting}@}, that {@{expands DCF or Net Present Value to Integrated Future Value \(IntFV\)}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2026-04-15,342,349!2025-12-05,235,329!2026-01-08,261,330!2025-12-16,243,330!2025-09-16,169,310-->
 
-This allows companies to {@{value their investments not just for their financial return}@} but also {@{the long term environmental and social return of their investments}@}. By {@{highlighting environmental, social and governance performance in reporting}@}, decision makers have the opportunity to {@{identify new areas for value creation that are not revealed through traditional financial reporting}@}. As an example, {@{the [social cost of carbon](social%20cost%20of%20carbon.md)}@} is {@{one value that can be incorporated into Integrated Future Value calculations}@} to {@{encompass the damage to society from greenhouse gas emissions that result from an investment}@}. <!--SR:!2026-01-14,266,330!2026-04-30,346,349!2026-03-30,328,349!2025-08-19,147,310!2026-05-01,347,349!2026-04-03,332,349!2025-08-18,146,310-->
+This allows companies to {@{value their investments not just for their financial return}@} but also {@{the long term environmental and social return of their investments}@}. By {@{highlighting environmental, social and governance performance in reporting}@}, decision makers have the opportunity to {@{identify new areas for value creation that are not revealed through traditional financial reporting}@}. As an example, {@{the [social cost of carbon](social%20cost%20of%20carbon.md)}@} is {@{one value that can be incorporated into Integrated Future Value calculations}@} to {@{encompass the damage to society from greenhouse gas emissions that result from an investment}@}. <!--SR:!2026-01-14,266,330!2026-04-30,346,349!2026-03-30,328,349!2027-05-11,630,330!2026-05-01,347,349!2026-04-03,332,349!2027-05-08,628,330-->
 
 This is {@{an integrated approach to reporting that supports Integrated Bottom Line \(IBL\) decision making}@}, which takes {@{[triple bottom line](triple%20bottom%20line.md) \(TBL\) a step further}@} and combines {@{financial, environmental and social performance reporting into one balance sheet}@}. This approach provides decision makers with the insight to {@{identify opportunities for value creation that promote growth and change within an organization}@}. <sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-01-26,276,330!2025-12-30,255,330!2026-04-26,342,349!2026-01-15,267,330-->
 

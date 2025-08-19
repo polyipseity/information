@@ -59,13 +59,13 @@ There are {@{several instructions that modify the stack memory and the `rsp` and
 
 - `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2025-09-03,267,330!2028-06-28,1069,350-->
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2025-10-06,293,330!2027-09-26,832,330-->
-- `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2025-10-06,286,330!2025-08-16,252,330-->
+- `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2025-10-06,286,330!2028-10-09,1147,350-->
 - `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2025-09-04,268,330!2025-08-28,229,290-->
 - `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2027-01-02,586,310!2026-02-03,335,290-->
 
 A related instruction is {@{`lea`}@}: <!--SR:!2025-10-01,288,330-->
 
-- `lea <dest>, <src>` ::@:: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.) <!--SR:!2025-08-20,256,330!2025-08-18,254,330-->
+- `lea <dest>, <src>` ::@:: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.) <!--SR:!2025-08-20,256,330!2028-10-19,1157,350-->
 
 Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2027-03-02,679,330!2028-01-24,946,350!2025-08-24,260,330!2025-10-13,293,330-->
 
@@ -73,7 +73,7 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2025-08-25,261,330!2027-06-29,764,330!2027-07-08,763,330!2025-08-30,263,330!2025-09-13,274,330-->
 
-There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2025-10-17,297,330!2028-01-06,928,350!2025-08-15,251,330!2028-02-11,961,350!2028-06-20,1063,350-->
+There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2025-10-17,297,330!2028-01-06,928,350!2028-10-02,1140,350!2028-02-11,961,350!2028-06-20,1063,350-->
 
 ### System V AMD64 ABI
 
@@ -91,14 +91,14 @@ To summarize, the process of calling a function is: {@{passing the arguments, ca
 
 ## GNU Debugger and pwndbg
 
-To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands}@}, and {@{improve existing commands and views}@}. These should make it {@{easier to solve pwn challenges}@}. Install both of them first. <!--SR:!2027-08-17,803,330!2026-01-24,366,310!2028-07-17,1080,350!2025-10-12,292,330!2027-10-29,813,330!2025-08-19,5,352!2025-08-19,5,352-->
+To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands}@}, and {@{improve existing commands and views}@}. These should make it {@{easier to solve pwn challenges}@}. Install both of them first. <!--SR:!2027-08-17,803,330!2026-01-24,366,310!2028-07-17,1080,350!2025-10-12,292,330!2027-10-29,813,330!2025-09-11,23,372!2025-09-11,23,372-->
 
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
-- `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2025-08-15,253,330!2025-10-10,290,330-->
+- `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2028-10-12,1150,350!2025-10-10,290,330-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-10-11,291,330!2025-08-28,261,330-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-15,276,330!2025-10-18,298,330-->
-- `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-08-19,255,330!2027-04-04,704,330-->
+- `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-10-27,1165,350!2027-04-04,704,330-->
 - `set args <args>...` ::@:: set program args <!--SR:!2025-09-20,281,330!2027-08-25,811,330-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-06,293,330!2025-10-16,296,330-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-17,965,350!2025-10-12,292,330-->
@@ -106,11 +106,11 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-10-10,290,330!2028-03-01,976,350-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2025-08-22,257,330!2025-10-07,294,330-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2025-10-13,293,330-->
-- `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2025-08-16,254,330-->
+- `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2028-10-16,1154,350-->
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2025-09-09,272,330-->
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->
-- `finish` ::@:: run until the current function returns <!--SR:!2025-10-11,291,330!2025-08-17,253,330-->
+- `finish` ::@:: run until the current function returns <!--SR:!2025-10-11,291,330!2028-10-13,1151,350-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-05,285,330!2028-09-17,1133,350-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2028-06-19,1062,350-->
@@ -162,7 +162,7 @@ By now, you should have figured out how to identify code that is vulnerable to b
 
 #### exploiting buffer overflows
 
-Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}? <!--SR:!2027-07-24,789,330!2027-07-07,772,330!2025-09-27,284,330!2025-08-17,255,330!2027-08-26,812,330!2026-12-01,606,330!2028-04-27,1019,350-->
+Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}? <!--SR:!2027-07-24,789,330!2027-07-07,772,330!2025-09-27,284,330!2028-10-26,1164,350!2027-08-26,812,330!2026-12-01,606,330!2028-04-27,1019,350-->
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2025-10-10,297,330!2025-10-11,298,330-->
 
@@ -225,7 +225,7 @@ In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `r
 
 Usually, the stack canary is {@{random, so that the attacker cannot know the stack canary and very likely modifies the stack canary}@}. It is {@{unlikely the attacker can guess the canary as the stack canary has 64 or 56 of its bits random}@}. The stack canary can be {@{either fully random (_random canary_); or fully random except that its least significant bit (low address) is always the zero byte `\x00`, i.e. the null terminator (_terminator canary_); or XOR-ed with a piece of control data (_random XOR canary_)}@}. <!--SR:!2026-11-08,590,330!2025-10-09,296,330!2026-11-11,534,310-->
 
-We will only discuss _terminator canary_ in more details. In particular, {@{many C string functions treat the null terminator as the end of string}@}. So if {@{an attacker were to read the canary value for exploitation}@}, {@{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}@}. Even if {@{the attacker knows the canary value to be written and include it in the payload}@}, {@{C string writing functions cannot write past the canary value because they would think the payload ends at the null terminator}@}. However, {@{non-string functions are not affected by the above, as they do not treat the null terminator specially}@}. <!--SR:!2026-10-04,568,330!2028-09-05,1123,350!2025-10-14,294,330!2025-08-18,254,330!2027-07-20,785,330!2027-07-19,784,330-->
+We will only discuss _terminator canary_ in more details. In particular, {@{many C string functions treat the null terminator as the end of string}@}. So if {@{an attacker were to read the canary value for exploitation}@}, {@{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}@}. Even if {@{the attacker knows the canary value to be written and include it in the payload}@}, {@{C string writing functions cannot write past the canary value because they would think the payload ends at the null terminator}@}. However, {@{non-string functions are not affected by the above, as they do not treat the null terminator specially}@}. <!--SR:!2026-10-04,568,330!2028-09-05,1123,350!2025-10-14,294,330!2028-10-17,1155,350!2027-07-20,785,330!2027-07-19,784,330-->
 
 As mentioned above, stack canary can be bypassed {@{if you know the canary value and is able to write past the canary}@}. The canary value {@{may be obtained by another buffer overflow that causes the canary value to be leaked}@}. <!--SR:!2026-12-16,617,330!2028-07-30,1093,350-->
 

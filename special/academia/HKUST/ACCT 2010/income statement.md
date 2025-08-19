@@ -34,7 +34,7 @@ tags:
   - negative number / expenses ::@:: Note that expenses, while they reduce net income, are still written as positive numbers. This includes income tax expense. <p> One exception is when the revenues and expenses are mixed together in the other items. <!--SR:!2025-10-28,247,330!2026-06-05,401,310-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-10-31,250,330!2025-11-19,265,330-->
 - (root) ::@:: operating (+) <br/> other items (+) <br/> income tax expense <br/> __net income__: income before income taxes − income tax expense <br/> earnings per share <!--SR:!2026-08-06,431,310!2026-08-20,445,310-->
-  - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-11-01,251,330!2025-08-15,184,310-->
+  - (root) / (+) ::@:: (+) means "has children". <!--SR:!2025-11-01,251,330!2027-10-21,794,330-->
   - (root) / operating ::@:: example: <br/> sales revenue <br/> operating expenses (+) <br/> __income from operations__: sum above appropriately <!--SR:!2027-05-12,676,330!2027-04-08,645,330-->
     - (root) / operating / operating expenses ::@:: example: (many items on this level) (+) <br/> general and administrative expenses (+) <br/> depreciation expense <br/> loss on disposal of assets <br/> total operating expenses: sum above appropriately <!--SR:!2026-07-29,423,310!2025-10-03,184,270-->
       - (root) / operating / operating expenses / (many items on this level) ::@:: example: <br/> supplies expense <br/> wages expense <br/> rent expense <br/> insurance expense <br/> utilities expense <br/> repairs expense <br/> other operating expenses <!--SR:!2025-08-22,180,310!2026-08-21,446,310-->

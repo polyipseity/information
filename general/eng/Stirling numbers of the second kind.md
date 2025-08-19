@@ -115,7 +115,7 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-08-17,35,130-->
+If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2026-03-14,354,290!2025-10-04,48,130-->
 
 ### asymptotic approximation
 
@@ -127,7 +127,7 @@ If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20n
 
 ### unimodality
 
-For {@{fixed $n$}@}, $\left\{ {n \atop k}\right\}$ is {@{unimodal, that is, the sequence increases and then decreases}@}. The maximum is {@{attained for at most two consecutive values of _k_}@}. That is, there is {@{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}@} Looking at the table of values above, {@{the first few values for $k_{n}$}@} are {@{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}@} <!--SR:!2025-11-25,303,330!2025-09-12,225,310!2025-12-04,308,330!2025-08-16,205,310!2025-09-09,222,310!2026-09-28,448,250-->
+For {@{fixed $n$}@}, $\left\{ {n \atop k}\right\}$ is {@{unimodal, that is, the sequence increases and then decreases}@}. The maximum is {@{attained for at most two consecutive values of _k_}@}. That is, there is {@{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}@} Looking at the table of values above, {@{the first few values for $k_{n}$}@} are {@{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}@} <!--SR:!2025-11-25,303,330!2025-09-12,225,310!2025-12-04,308,330!2028-01-19,886,330!2025-09-09,222,310!2026-09-28,448,250-->
 
 When {@{$n$ is large}@}, {@{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}@} and {@{the maximum value of the Stirling number}@} can be {@{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-08-29,214,310!2025-08-28,63,230!2026-12-07,562,310!2025-10-04,195,230-->
 

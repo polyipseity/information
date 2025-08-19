@@ -40,7 +40,7 @@ Carboxylic acids {@{that are small (1 to 4 carbons) are [miscible](miscibility.m
 
 #### esterification
 
-In {@{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}@}, carboxylic acids {@{react with primary or secondary [alcohols](alcohol.md)}@} in the presence of {@{an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md)}@} to give [esters](ester.md) with {@{heating to speed up the reaction}@}. The reaction is {@{[reversible](reversible%20reaction.md)}@}. <!--SR:!2025-08-17,602,309!2025-10-02,336,189!2025-09-18,418,313!2026-06-20,666,333!2028-03-31,1129,353-->
+In {@{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}@}, carboxylic acids {@{react with primary or secondary [alcohols](alcohol.md)}@} in the presence of {@{an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md)}@} to give [esters](ester.md) with {@{heating to speed up the reaction}@}. The reaction is {@{[reversible](reversible%20reaction.md)}@}. <!--SR:!2032-09-11,2582,329!2025-10-02,336,189!2025-09-18,418,313!2026-06-20,666,333!2028-03-31,1129,353-->
 
 ### nucleophilic substitution
 

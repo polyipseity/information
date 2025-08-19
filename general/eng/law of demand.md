@@ -76,7 +76,7 @@ For instance, let's {@{take the example of a housing market}@}. {@{An increase o
 
 ### price elasticity of demand
 
-{@{The variation in demand with regards to a change in price}@} is known as {@{the [price elasticity of demand](price%20elasticity%20of%20demand.md)}@}. The formula to solve for the coefficient of price elasticity of demand is {@{the percentage change in quantity demanded divided by the percentage change in price}@}. {@{$$E_{\langle p\rangle }={\frac {\Delta Q/Q}{\Delta P/P} }$$}@} <!--SR:!2025-10-29,272,330!2027-11-29,839,330!2026-01-27,347,349!2025-08-15,195,310-->
+{@{The variation in demand with regards to a change in price}@} is known as {@{the [price elasticity of demand](price%20elasticity%20of%20demand.md)}@}. The formula to solve for the coefficient of price elasticity of demand is {@{the percentage change in quantity demanded divided by the percentage change in price}@}. {@{$$E_{\langle p\rangle }={\frac {\Delta Q/Q}{\Delta P/P} }$$}@} <!--SR:!2025-10-29,272,330!2027-11-29,839,330!2026-01-27,347,349!2027-12-02,836,330-->
 
 Price elasticity of demand can be {@{classified as elastic, inelastic, or unitary}@}. {@{An elastic demand occurs}@} when {@{the percentage change in the quantity demanded is greater than the percentage change in price}@}, meaning that {@{a small change in price results in a large change in quantity demanded}@}. {@{Inelastic demand occurs}@} when {@{the percentage change in quantity demanded is smaller than the percentage change in price}@}. {@{Unitary elasticity occurs}@} when {@{the percentage change in quantity demanded is equal to the percentage change in price}@}. <!--SR:!2025-10-20,265,330!2025-12-20,315,349!2027-09-30,818,349!2026-01-30,350,349!2025-11-14,284,330!2025-08-31,207,310!2025-12-28,322,349!2025-08-28,219,329-->
 
@@ -84,7 +84,7 @@ Price elasticity of demand can be {@{classified as elastic, inelastic, or unitar
 
 ### cross elasticity of demand
 
-{@{The [cross elasticity of demand](cross%20elasticity%20of%20demand.md)}@} is {@{an economic concept that measures the relative change in demand of a good when another good varies in price}@}. {@{The formula to solve for the coefficient of cross elasticity of demand}@} is calculated by {@{dividing the percentage change in quantity demanded of good A by the percentage change in price of good B}@}. {@{$${\text{Cross-price Elasticity Of Demand} }={\frac {\%{\text{ change in quantity demanded of good A} } }{\%{\text{ change in price of good B} } } }$$}@} <!--SR:!2025-12-29,323,349!2025-08-17,199,310!2028-01-05,894,349!2025-10-24,253,329!2026-01-20,342,349-->
+{@{The [cross elasticity of demand](cross%20elasticity%20of%20demand.md)}@} is {@{an economic concept that measures the relative change in demand of a good when another good varies in price}@}. {@{The formula to solve for the coefficient of cross elasticity of demand}@} is calculated by {@{dividing the percentage change in quantity demanded of good A by the percentage change in price of good B}@}. {@{$${\text{Cross-price Elasticity Of Demand} }={\frac {\%{\text{ change in quantity demanded of good A} } }{\%{\text{ change in price of good B} } } }$$}@} <!--SR:!2025-12-29,323,349!2027-12-20,854,330!2028-01-05,894,349!2025-10-24,253,329!2026-01-20,342,349-->
 
 {@{The cross elasticity of demand, also commonly referred to as the cross-price elasticity of demand}@}, allows companies to {@{establish competitive prices against [substitute goods](substitute%20good.md) and [complementary goods](complementary%20good.md)}@}. The metric figure produced by the equation thus determines {@{the strength of both the relationship and competition between the two goods}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-09-18,240,330!2025-10-04,253,330!2025-09-20,241,330-->
 
@@ -120,7 +120,7 @@ If {@{an increase in the price of a commodity causes households to expect the pr
 
 ### certain scenarios in stock trading
 
-{@{Stock buyers acting in accord with the [hot-hand fallacy](hot%20hand.md)}@} will {@{increase buying when stock prices are trending upward}@}.<sup>[\[20\]](#^ref-20)</sup> {@{Other rationales for buying a high-priced stock}@} are that {@{previous buyers who bid up the price are proof of the issue's quality, or conversely, that an issue's low price may be evidence of viability problems}@}. Likewise, {@{demand among short traders during a [short squeeze](short%20squeeze.md)}@} can {@{increase as price increases}@}. <!--SR:!2027-07-09,728,330!2026-01-18,339,349!2025-12-31,325,349!2025-08-16,198,310!2026-01-31,351,349!2025-08-22,201,310-->
+{@{Stock buyers acting in accord with the [hot-hand fallacy](hot%20hand.md)}@} will {@{increase buying when stock prices are trending upward}@}.<sup>[\[20\]](#^ref-20)</sup> {@{Other rationales for buying a high-priced stock}@} are that {@{previous buyers who bid up the price are proof of the issue's quality, or conversely, that an issue's low price may be evidence of viability problems}@}. Likewise, {@{demand among short traders during a [short squeeze](short%20squeeze.md)}@} can {@{increase as price increases}@}. <!--SR:!2027-07-09,728,330!2026-01-18,339,349!2025-12-31,325,349!2027-12-21,855,330!2026-01-31,351,349!2025-08-22,201,310-->
 
 ### Veblen goods
 

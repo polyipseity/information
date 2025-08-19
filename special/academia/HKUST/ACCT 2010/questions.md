@@ -296,7 +296,7 @@ tags:
 > 3. period end adjustments are part of account closing procedures
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2026-06-02,431,381!2025-08-17,181,341-->
+> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2026-06-02,431,381!2027-12-15,849,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -390,7 +390,7 @@ tags:
 > 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
 > - solution: {@{3}@}
-> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2025-08-16,180,341!2026-07-11,463,381-->
+> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2027-12-09,843,361!2026-07-11,463,381-->
 
 <!-- markdownlint MD028 -->
 

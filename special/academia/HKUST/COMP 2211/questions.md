@@ -680,7 +680,7 @@ tags:
 > Using the L1 distance metric and KNN classification algorithm, propose 2 ways to produce new images from <!-- a given image -->the first image, such that the produced images have the same L1 distances to <!-- the original image -->the first image as the second image.
 >
 > - solution: {@{One solution is masking out certain pixels in the first image such that the sum of masked out pixels equals the L1 distance. <p> Another solution is adjusting the brightness of the first image.}@}
-> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-08-17,165,310!2025-11-22,259,330-->
+> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2027-07-27,708,330!2025-11-22,259,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1589,7 +1589,7 @@ tags:
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
 > - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-11-16,254,330!2025-08-16,164,310-->
+> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-11-16,254,330!2027-01-12,512,310-->
 
 <!-- markdownlint MD028 -->
 

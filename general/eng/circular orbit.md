@@ -20,7 +20,7 @@ tags:
 >
 > - where
 >   - {@{$v$ is the speed of a circular orbit of [radius](radius.md) $r$ from the center of a spherically symmetric primary body of [mass](mass.md) $M$, and $g=\frac{GM}{r^2}$ is the [gravitational acceleration](gravitational%20acceleration.md) at said [radius](radius.md)}@}
->   - {@{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$ is the [gravitational constant](gravitational%20constant.md)}@} <!--SR:!2025-08-17,411,290!2026-02-14,499,270!2027-03-31,674,230-->
+>   - {@{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$ is the [gravitational constant](gravitational%20constant.md)}@} <!--SR:!2028-11-28,1199,290!2026-02-14,499,270!2027-03-31,674,230-->
 
 ## references
 

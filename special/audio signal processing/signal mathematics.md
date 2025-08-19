@@ -42,9 +42,9 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >   - $k$ is {@{angular wavenumber or angular spatial frequency}@}.
 >   - $\omega$ is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 >   - $\phi$ is {@{initial phase offset}@}.
->   - $D$ is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2025-08-17,301,330!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330-->
+>   - $D$ is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330-->
 
-For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2025-08-17,301,330-->
+For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2029-05-20,1370,350-->
 
 To generate a discrete cosine wave using Numpy, make use of {@{the above equations, `np.arange`, and `np.cos`}@}: <!--SR:!2025-09-19,328,330-->
 

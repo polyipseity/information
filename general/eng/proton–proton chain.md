@@ -15,7 +15,7 @@ tags:
 
 # proton–proton chain
 
-The __proton–proton chain__, also commonly referred to as the __p–p chain__, is {@{one of two known sets of [nuclear fusion](nuclear%20fusion.md) reactions by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}@}. It dominates in {@{[stars](star.md) with [masses](mass.md) less than or equal to that of the [Sun](Sun.md)}@}, whereas the [CNO cycle](CNO%20cycle.md), the other known reaction, is suggested by theoretical models to {@{dominate in [stars](star.md) with [masses](mass.md) greater than about 1.3 [solar masses](solar%20mass.md)}@}. <!--SR:!2025-08-19,304,330!2025-11-26,364,310!2025-12-04,369,310-->
+The __proton–proton chain__, also commonly referred to as the __p–p chain__, is {@{one of two known sets of [nuclear fusion](nuclear%20fusion.md) reactions by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}@}. It dominates in {@{[stars](star.md) with [masses](mass.md) less than or equal to that of the [Sun](Sun.md)}@}, whereas the [CNO cycle](CNO%20cycle.md), the other known reaction, is suggested by theoretical models to {@{dominate in [stars](star.md) with [masses](mass.md) greater than about 1.3 [solar masses](solar%20mass.md)}@}. <!--SR:!2029-06-01,1382,350!2025-11-26,364,310!2025-12-04,369,310-->
 
 ## the proton–proton chain
 

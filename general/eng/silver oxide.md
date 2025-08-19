@@ -9,7 +9,7 @@ tags:
 
 # silver oxide
 
-__Silver oxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Ag](silver.md)<sub>2</sub>[O](oxide.md)}@}. It looks like {@{black or brown [cubic](cubic%20crystal%20system.md) [crystals](crystal.md)}@}. <!--SR:!2027-02-13,1013,330!2025-08-17,219,190-->
+__Silver oxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Ag](silver.md)<sub>2</sub>[O](oxide.md)}@}. It looks like {@{black or brown [cubic](cubic%20crystal%20system.md) [crystals](crystal.md)}@}. <!--SR:!2027-02-13,1013,330!2027-04-08,598,210-->
 
 ## preparation
 

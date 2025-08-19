@@ -13,7 +13,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(November 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{__Min-plus matrix multiplication__, also known as __distance product__}@}, is {@{an operation on [matrices](matrix%20(mathematics).md)}@}. <!--SR:!2025-08-19,171,310!2025-08-24,173,310-->
+{@{__Min-plus matrix multiplication__, also known as __distance product__}@}, is {@{an operation on [matrices](matrix%20(mathematics).md)}@}. <!--SR:!2027-08-23,734,330!2025-08-24,173,310-->
 
 Given {@{two $n\times n$ matrices $A=(a_{ij})$ and $B=(b_{ij})$}@}, {@{their distance product $C=(c_{ij})=A\star B$}@} is defined as {@{an $n\times n$ matrix such that $c_{ij}=\min _{k=1}^{n}\{a_{ik}+b_{kj}\}$}@}. This is {@{standard matrix multiplication}@} for {@{the semi-ring of [tropical numbers](tropical%20geometry.md) in the min convention}@}. <!--SR:!2026-01-18,294,330!2025-10-19,203,310!2026-01-18,294,330!2026-01-18,294,330!2025-09-16,176,270-->
 

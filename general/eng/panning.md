@@ -6,7 +6,7 @@ tags:
 
 # panning
 
-__Panning__ is {@{the extraction of [mineral](mineral.md) from a [placer deposit](placer%20deposit.md) using a pan}@}. <!--SR:!2025-08-19,487,250-->
+__Panning__ is {@{the extraction of [mineral](mineral.md) from a [placer deposit](placer%20deposit.md) using a pan}@}. <!--SR:!2030-04-24,1709,270-->
 
 It can extract {@{unreactive [elements](element.md) like [gold](gold.md) and [platinum](platinum.md)}@}. <!--SR:!2028-04-05,1166,310-->
 

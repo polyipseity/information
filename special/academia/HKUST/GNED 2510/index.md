@@ -39,7 +39,7 @@ The content is in teaching order.
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
 - SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-08-21,230,290!2028-09-19,1133,350-->
-- hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2028-08-05,1098,350!2025-08-15,251,330-->
+- hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2028-08-05,1098,350!2028-10-03,1142,350-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2025-09-03,267,330!2028-02-06,958,350-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2028-09-24,1138,350-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2027-09-03,824,330!2027-02-11,663,330-->
@@ -72,7 +72,7 @@ The content is in teaching order.
   - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2028-09-22,1135,350!2028-04-08,1000,350-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2027-02-08,661,330!2027-10-30,852,330-->
-  - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2025-08-17,252,330!2025-08-21,257,330-->
+  - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2028-10-13,1152,350!2025-08-21,257,330-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2028-05-31,1049,350!2027-01-03,633,330-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2027-08-01,791,330!2027-08-24,811,330-->
   - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2025-10-23,302,330!2027-06-20,749,330-->
@@ -86,8 +86,8 @@ The content is in teaching order.
 - [cover letter](../../../cover%20letter.md)
   - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2026-08-17,521,310!2025-10-24,303,330-->
 - transferrable skills, portable skills
-- professional social media ::@:: LinkedIn <!--SR:!2025-09-16,277,330!2025-08-16,251,330-->
-- elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2025-10-21,300,330!2025-08-19,254,330-->
+- professional social media ::@:: LinkedIn <!--SR:!2025-09-16,277,330!2028-10-08,1147,350-->
+- elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2025-10-21,300,330!2028-10-18,1156,350-->
 - dress-up
 - networking
   - thank-you email (after networking)
@@ -115,7 +115,7 @@ The content is in teaching order.
 - datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
 - networking
-  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2026-09-23,528,310!2025-08-15,253,330-->
+  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2026-09-23,528,310!2028-10-12,1151,350-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2025-08-27,260,330!2028-08-28,1115,350-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2028-09-13,1128,350!2026-12-19,621,330-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2028-02-23,972,350-->

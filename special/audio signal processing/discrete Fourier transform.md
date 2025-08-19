@@ -15,7 +15,7 @@ tags:
 
 ## definition
 
-{@{The discrete Fourier transform \(DFT\)}@} {@{transforms a sequence of length $N$ into another sequence of length $N$}@}. It is defined by: {@{$$X[k] := \sum_{n = 0}^{N - 1} x[n] \cdot e^{-j 2\pi (k / N) n} = \sum_{n = 0}^{N - 1} x[n] \left(\cos(2 \pi (k / N) n) - j \sin(2 \pi (k / N) n) \right)$$}@}. <!--SR:!2028-10-06,1181,350!2026-02-16,363,290!2025-08-19,5,364-->
+{@{The discrete Fourier transform \(DFT\)}@} {@{transforms a sequence of length $N$ into another sequence of length $N$}@}. It is defined by: {@{$$X[k] := \sum_{n = 0}^{N - 1} x[n] \cdot e^{-j 2\pi (k / N) n} = \sum_{n = 0}^{N - 1} x[n] \left(\cos(2 \pi (k / N) n) - j \sin(2 \pi (k / N) n) \right)$$}@}. <!--SR:!2028-10-06,1181,350!2026-02-16,363,290!2025-09-12,24,384-->
 
 The inverse discrete Fourier transform (IDFT) is {@{the inverse of DFT (duh)}@}. It {@{recovers the the original signal of length $N$ given a sequence of length $N$ transformed by DFT}@}. It is defined by: {@{$$x[n] := \frac 1 N \sum_{k = 0}^{N - 1} X[k] \cdot e^{j 2\pi (k / N) n} = \frac 1 N \sum_{k = 0}^{N - 1} X[k] \left(\cos(2 \pi (k / N) n) + j \sin(2 \pi (k / N) n) \right)$$}@}. One can see the formula is {@{almost the same as DFT}@}, except that {@{a factor of $1 / N$ is added, the input and output sequences are swapped, and the sign of the exponent is negated}@}. <!--SR:!2029-02-18,1288,350!2026-09-21,583,330!2027-09-23,802,290!2025-09-05,303,330!2025-08-20,291,330-->
 
@@ -57,7 +57,7 @@ By duality, {@{shifting the signal in the frequency to the right by $k_0$ sample
 
 If {@{the signal in the time domain is purely real}@}, then {@{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}@}. <!--SR:!2026-01-19,408,366!2025-11-13,356,366!2025-10-18,334,366!2028-06-08,1083,366!2028-10-15,1190,366!2026-07-02,477,326-->
 
-Furthermore, if {@{the signal in the time domain is _additionally_ even symmetric}@}, then {@{the frequency domain is _additionally_ even symmetric}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is always zero}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}@}. <!--SR:!2025-12-07,375,366!2025-08-15,280,346!2028-06-15,1090,366!2025-11-16,358,366!2025-12-29,393,366!2025-09-21,314,366-->
+Furthermore, if {@{the signal in the time domain is _additionally_ even symmetric}@}, then {@{the frequency domain is _additionally_ even symmetric}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is always zero}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}@}. <!--SR:!2025-12-07,375,366!2029-04-07,1328,366!2028-06-15,1090,366!2025-11-16,358,366!2025-12-29,393,366!2025-09-21,314,366-->
 
 ### convolution
 
@@ -71,7 +71,7 @@ To understand this convolution theorem, imagine two $N$-length signals {@{decomp
 
 - see: [general/discrete Fourier transform § The Plancherel theorem and Parseval's theorem](../../general/discrete%20Fourier%20transform.md#The%20Plancherel%20theorem%20and%20Parseval's%20theorem)
 
-"Energy" is {@{conserved after applying DFT or IDFT on a signal, up to a factor of $1 / N$}@}. "Energy" here means {@{the squared length of the vector when the sequence of values in a signal is treated as a vector}@}. Mathematically, this is: {@{$$\sum_{n = 0}^{N - 1} \lvert x[n]\rvert^2 = \frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2$$}@}. <!--SR:!2025-11-07,349,373!2028-10-09,1184,373!2025-08-19,279,353-->
+"Energy" is {@{conserved after applying DFT or IDFT on a signal, up to a factor of $1 / N$}@}. "Energy" here means {@{the squared length of the vector when the sequence of values in a signal is treated as a vector}@}. Mathematically, this is: {@{$$\sum_{n = 0}^{N - 1} \lvert x[n]\rvert^2 = \frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2$$}@}. <!--SR:!2025-11-07,349,373!2028-10-09,1184,373!2029-05-03,1353,373-->
 
 ## interpretation
 
@@ -89,11 +89,11 @@ Another property of DFT is that {@{it is linear}@}. That is, {@{adding multiple 
 
 For {@{real sinusoids}@}, it is also easy to derive their DFT as {@{they can be written as a sum of 2 complex sinusoids with opposing frequencies}@}. For example, {@{a real cosine wave of cycle frequency $k_0 / N$: $$\cos_{k_0}[n] := A \cos(2\pi (k_0 / N) n) \qquad n = 0, \ldots, N - 1$$}@} can be written as {@{the weighted sum of 2 complex sinusoids with cycle frequency $k_0 / N$ and $-k_0 / N$: $$\cos_{k_0}[n] = A \cos(2\pi (k_0 / N) n) = \frac {A e^{j 2\pi (k_0 / N) n} } 2 + \frac {A e^{-j 2\pi (k_0 / N) n} } 2$$}@}. By linearity, the nonzero DFT values are {@{$$\begin{aligned} \operatorname{Cos}_{k_0}[k_0] & = \frac {AN} 2 \\ \operatorname{Cos}_{k_0}[-k_0] = \operatorname{Cos}_{k_0}[N - k_0] & = \frac {AN} 2 \end{aligned}$$}@}. For {@{a real sine wave of cycle frequency $k_0 / N$: $$\sin_{k_0}[n] := A \sin(2 \pi (k_0 / N) n) \qquad n = 0, \ldots, N - 1$$}@}, it can also be expressed as {@{the weighted sum of 2 complex sinusoids with cycle frequency $k_0 / N$ and $-k_0 / N$: $$\sin_{k_0}[n] := A \sin(2 \pi (k_0 / N) n) = \frac {A e^{j 2\pi (k_0 / N) n} } {2j} - \frac {A e^{-j 2\pi (k_0 / N) n} } {2j}$$}@}. By linearity, the nonzero DFT values are {@{$$\begin{aligned} \operatorname{Sin}_{k_0}[k_0] & = \frac {AN} {2j} = -j \frac {AN} 2 \\ \operatorname{Sin}_{k_0}[-k_0] = \operatorname{Sin}_{k_0}[N - k_0] & = -\frac {AN} {2j} = j \frac {AN} 2 \end{aligned}$$}@}. For IDFT, {@{the same applies}@}, except that {@{the IDFT values are divided by $N$ \(no $N$ in the resulting values\), and have their indices negated}@}. <!--SR:!2028-06-03,1078,350!2027-03-16,721,330!2026-03-25,296,310!2026-01-08,340,290!2026-09-03,517,310!2028-01-17,940,330!2025-08-22,228,250!2026-02-21,264,250!2026-02-05,362,290!2026-06-14,425,270-->
 
-Note that if {@{you try to use Python to repeat the above mathematical proofs}@}, you may {@{find that the DFT is nonzero at more than 2 points}@}. A common mistake that causes the above is that {@{$k_0$ is not an integer}@}. However, even if the common mistake is fixed, {@{there may still be very tiny nonzero values apart from those 2 points}@}. This is because {@{decimal numbers in Python are represented by floating points}@}, which {@{cannot represent the decimal numbers exactly}@}, causing {@{quantization error}@}. This is {@{not fixable, unfortunately}@}. <!--SR:!2025-09-08,305,330!2028-10-13,1188,350!2028-05-12,1056,350!2028-05-26,1070,350!2029-02-15,1284,350!2028-10-29,1201,350!2025-08-19,5,364!2025-08-19,5,364-->
+Note that if {@{you try to use Python to repeat the above mathematical proofs}@}, you may {@{find that the DFT is nonzero at more than 2 points}@}. A common mistake that causes the above is that {@{$k_0$ is not an integer}@}. However, even if the common mistake is fixed, {@{there may still be very tiny nonzero values apart from those 2 points}@}. This is because {@{decimal numbers in Python are represented by floating points}@}, which {@{cannot represent the decimal numbers exactly}@}, causing {@{quantization error}@}. This is {@{not fixable, unfortunately}@}. <!--SR:!2025-09-08,305,330!2028-10-13,1188,350!2028-05-12,1056,350!2028-05-26,1070,350!2029-02-15,1284,350!2028-10-29,1201,350!2025-09-12,24,384!2025-09-12,24,384-->
 
 ## spectrums
 
-{@{The magnitude spectrum}@} is {@{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}@}. For easier visualization, the magnitude may be {@{in logarithm scale}@}. The magnitude, intuitively, represents {@{the loudness of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-07,304,330!2025-08-19,288,330!2025-08-17,286,330!2027-03-22,723,330-->
+{@{The magnitude spectrum}@} is {@{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}@}. For easier visualization, the magnitude may be {@{in logarithm scale}@}. The magnitude, intuitively, represents {@{the loudness of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-07,304,330!2029-03-21,1310,350!2029-03-10,1300,350!2027-03-22,723,330-->
 
 {@{The phase spectrum}@} is {@{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}@}. The phase, intuitively, represents {@{the time offset of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-06,292,353!2025-09-03,292,353!2026-02-03,417,373-->
 
@@ -117,7 +117,7 @@ The other variant is {@{the _causal_ variant}@}, which {@{adds an arbitrary numb
 
 The effect of {@{zero padding a signal in the time domain}@} is that {@{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up an image}@}. Common reasons for zero padding the signal in the time domain include {@{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}@}. <!--SR:!2028-05-28,1072,373!2026-04-11,408,313!2028-06-16,1091,373-->
 
-By duality, zero padding a signal in the frequency domain corresponds to {@{interpolating the signal in the time domain}@}. <!--SR:!2025-08-16,277,353-->
+By duality, zero padding a signal in the frequency domain corresponds to {@{interpolating the signal in the time domain}@}. <!--SR:!2029-04-22,1343,373-->
 
 Zero padding can {@{make the input size suitable}@} for {@{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}@}. It can also be used to {@{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}@} for {@{a signal made of a combination of sinusoidal waves}@}. <!--SR:!2025-09-29,315,373!2028-09-03,1159,373!2027-10-17,867,353!2027-07-18,801,353-->
 
@@ -125,7 +125,7 @@ Zero padding can {@{make the input size suitable}@} for {@{[fast Fourier transfo
 
 - see: [general/fast Fourier transform](../../general/fast%20Fourier%20transform.md)
 
-Fast Fourier transform (__FFT__) is {@{a fast algorithm for computing the DFT of a signal}@}. It works by {@{breaking down DFT of a long signal into several DFTs of shorter signals recursively}@}. <!--SR:!2025-10-08,325,373!2025-08-16,276,353-->
+Fast Fourier transform (__FFT__) is {@{a fast algorithm for computing the DFT of a signal}@}. It works by {@{breaking down DFT of a long signal into several DFTs of shorter signals recursively}@}. <!--SR:!2025-10-08,325,373!2029-04-17,1338,373-->
 
 Its time complexity, that is {@{how the running time grows with input size}@}, is {@{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}@}. This means {@{for large input sizes, much time can be saved}@}. So in practice, {@{FFT is used over the traditional DFT}@}. <!--SR:!2026-01-23,409,373!2025-09-05,292,353!2028-12-29,1253,373!2028-08-05,1136,373-->
 

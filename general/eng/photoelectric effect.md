@@ -24,7 +24,7 @@ The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts
 
 The {@{threshold frequency $\nu_o$}@} is determined by {@{the [work function](work%20function.md) $\Phi$ of the surface of the material}@}:
 {@{$$\begin{aligned}\Phi&=h\nu_o\\\nu_o&=\frac\Phi{h}\end{aligned}$$}@}
-where {@{$h$ is the [Planck constant](Planck%20constant.md)}@}. <!--SR:!2025-09-18,713,282!2026-10-13,918,282!2025-08-15,742,330!2027-01-23,1168,342-->
+where {@{$h$ is the [Planck constant](Planck%20constant.md)}@}. <!--SR:!2025-09-18,713,282!2026-10-13,918,282!2034-11-13,3375,350!2027-01-23,1168,342-->
 
 The {@{maximum kinetic energy $K_\mathrm{max}$}@} is determined by {@{the frequency $f$ of the incoming photon and the work function $\Phi$ of the surface of the material}@}:
 {@{$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$}@}

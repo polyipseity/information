@@ -13,7 +13,7 @@ tags:
 
 Red ocean is about {@{competing in existing market space and exploiting existing demand}@}. {@{Either differentiation or low cost}@} can be satisfied. <!--SR:!2025-12-20,372,290!2026-05-30,525,310-->
 
-Blue ocean is about {@{creating uncontested market space and capturing new demand}@}. {@{Both differentiation and low cost, i.e. value innovation}@}, can be satisfied simultaneously. Value innovation can be represented by {@{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}@}. The upper triangle represents {@{cost reduction while the lower triangle represents value creation}@}, with the overlap {@{representing satisfying both at the same time, hence value creation}@}. <!--SR:!2027-02-19,742,330!2026-02-03,400,290!2025-09-17,358,344!2025-08-29,339,344!2025-08-15,330,344-->
+Blue ocean is about {@{creating uncontested market space and capturing new demand}@}. {@{Both differentiation and low cost, i.e. value innovation}@}, can be satisfied simultaneously. Value innovation can be represented by {@{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}@}. The upper triangle represents {@{cost reduction while the lower triangle represents value creation}@}, with the overlap {@{representing satisfying both at the same time, hence value creation}@}. <!--SR:!2027-02-19,742,330!2026-02-03,400,290!2025-09-17,358,344!2025-08-29,339,344!2029-11-22,1557,364-->
 
 ## blue ocean shift
 
@@ -35,7 +35,7 @@ To look for non-customers, we can {@{separate the non-customers into 3 tiers: so
 
 ### create "gap"
 
-In the 3rd step, create "gap", the goal is to {@{create your new strategic move}@}. You should use {@{6 paths to reconstruct and create a new business model using ERRC}@}. <!--SR:!2025-08-18,333,344!2028-05-07,1070,344-->
+In the 3rd step, create "gap", the goal is to {@{create your new strategic move}@}. You should use {@{6 paths to reconstruct and create a new business model using ERRC}@}. <!--SR:!2029-12-11,1576,364!2028-05-07,1070,344-->
 
 The 6 paths to reconstruct market boundaries are {@{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}@}. <!--SR:!2025-08-24,243,244-->
 

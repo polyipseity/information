@@ -93,7 +93,7 @@ return await memorize_seq(
 <!--pytextgen generate section="2901"--><!-- The following content is generated at 2024-01-04T20:17:51.276821+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←auxiliary heat and water source <!--SR:!2026-10-14,825,270!2028-04-27,1445,352-->
-- auxiliary heat and water source→::@::←backup power source <!--SR:!2025-08-17,607,310!2026-05-20,875,332-->
+- auxiliary heat and water source→::@::←backup power source <!--SR:!2032-09-30,2600,330!2026-05-20,875,332-->
 - backup power source→::@::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2025-11-02,641,292!2025-11-01,660,312-->
 - [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→::@::←remote power source <!--SR:!2027-06-04,962,292!2026-01-29,486,312-->
 - remote power source→::@::←_(end)_ <!--SR:!2028-07-10,1508,355!2030-08-05,1966,315-->

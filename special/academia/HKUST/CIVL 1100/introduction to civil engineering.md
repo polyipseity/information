@@ -233,7 +233,7 @@ water security
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2028-02-26,1097,370-->
-- climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
+- climate change→::@::←extreme weather <!--SR:!2029-12-28,1592,357!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2029-06-12,1409,340-->
 - mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
@@ -599,7 +599,7 @@ nuclear
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->
 - electrical→::@::←industrial <!--SR:!2026-01-31,366,301!2026-07-16,442,250-->
-- industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
+- industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2029-11-26,1560,352-->
 - manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
 - mechanical→::@::←nuclear <!--SR:!2030-05-08,1755,397!2027-01-28,775,355-->
 - nuclear→::@::←_(end)_ <!--SR:!2029-12-01,1624,394!2030-12-13,1967,385-->
@@ -845,7 +845,7 @@ Tsing Ma Bridge
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2026-02-11,375,298!2029-12-09,1648,397-->
-- Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2025-08-19,321,307-->
+- Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2029-05-15,1365,327-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2025-10-05,319,320!2026-03-31,447,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
@@ -879,7 +879,7 @@ developing strengthening techniques for damaged structures or structural members
 
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2029-04-28,1403,355!2029-04-02,1426,390-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
-- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-12-27,340,297-->
+- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2030-01-06,1601,355!2025-12-27,340,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2029-06-01,1419,344-->
 
 <!--/pytextgen-->
@@ -953,7 +953,7 @@ wave
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2028-09-16,1261,380-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2028-04-23,1037,286-->
 - flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
-- strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2025-08-18,314,294-->
+- strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2029-02-23,1284,314-->
 - wave→::@::←_(end)_ <!--SR:!2027-09-06,976,377!2027-08-21,915,335-->
 
 <!--/pytextgen-->

@@ -27,7 +27,7 @@ Where quick assets can be defined as follows ::@:: $${\text{Quick Assets} }={\te
 
 Although the quick ratio is {@{a test for the financial viability of a business}@}, it {@{does not give a complete picture of the business's health}@}. For example, if {@{a business has large amounts in [accounts receivable](accounts%20receivable.md) due for payment after a long period, while also having larger [accounts payable](accounts%20payable.md) due for immediate payment}@}, the quick ratio {@{may look healthy when the business is actually about to run out of cash}@}. In contrast, if {@{a business has fast payment from customers, but long terms from suppliers}@}, it may {@{have a low quick ratio and yet be very healthy}@}. <!--SR:!2027-08-07,799,330!2027-07-10,779,330!2027-08-15,807,330!2027-01-01,609,310!2028-04-18,1012,350!2026-06-20,465,310-->
 
-Generally, the acid test ratio should be {@{1:1 or higher for a healthy company}@}. However, this {@{varies widely by industry}@}.<sup>[\[2\]](#^ref-2)</sup> In general, {@{the higher the ratio, the greater the company's [accounting liquidity](accounting%20liquidity.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-24,410,310!2025-08-16,254,330!2025-09-18,281,330-->
+Generally, the acid test ratio should be {@{1:1 or higher for a healthy company}@}. However, this {@{varies widely by industry}@}.<sup>[\[2\]](#^ref-2)</sup> In general, {@{the higher the ratio, the greater the company's [accounting liquidity](accounting%20liquidity.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-03-24,410,310!2028-10-15,1156,350!2025-09-18,281,330-->
 
 ## see also
 

@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2026-02-05,337,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2026-07-11,443,276!2029-05-18,1447,396-->
-- width ::@:: 32.05 m <!--SR:!2025-08-17,163,336!2030-03-11,1682,396-->
+- width ::@:: 32.05 m <!--SR:!2027-09-13,755,356!2030-03-11,1682,396-->
 
 ## Mont Cenis Base Tunnel
 

@@ -195,7 +195,7 @@ The content is in teaching order.
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::@:: 天時·地利·人和 <!--SR:!2029-10-02,1530,381!2029-08-21,1496,381-->
   - Chernev's 5C framework § competitor ::@:: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2026-02-02,482,381-->
-  - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2025-08-15,326,361-->
+  - Chernev's 5C framework § context ::@:: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2030-01-26,1622,381-->
 - McCarthy's 4P framework ::@:: market-related analysis <!--SR:!2026-01-02,459,381!2026-01-03,460,381-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/assignment%20W9.md): MECE for Situation Analysis
@@ -259,7 +259,7 @@ The content is in teaching order.
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::@:: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2025-08-16,197,317!2025-10-22,379,377-->
+  - blue ocean strategy example companies ::@:: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2027-12-29,863,337!2025-10-22,379,377-->
   - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
   - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
   - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")
