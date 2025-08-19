@@ -11,7 +11,7 @@ tags:
 
 ## definitions and descriptions
 
-There are two main ways to describe entropy: {@{the macroscopic description from [classical thermodynamics](thermodynamics.md#classical%20thermodynamics) and the microscopic description from [statistical mechanics](statistical%20mechanics.md). The former one defines entropy based on macroscopic measurable variables like [pressure](pressure.md), [temperature](temperature.md), total [mass](mass.md), and [volume](volume.md), while the latter defines entropy based on statistics of motions of microscopic constituents in a [system](thermodynamic%20system.md)}@}. Both definitions are {@{consistent with each other}@}. Proofs are {@{known for some [statistical ensembles](ensemble%20(mathematical%20physics).md)}@}. <!--SR:!2027-04-13,730,250!2029-06-27,1411,290-->
+There are two main ways to describe entropy: {@{the macroscopic description from [classical thermodynamics](thermodynamics.md#classical%20thermodynamics) and the microscopic description from [statistical mechanics](statistical%20mechanics.md). The former one defines entropy based on macroscopic measurable variables like [pressure](pressure.md), [temperature](temperature.md), total [mass](mass.md), and [volume](volume.md), while the latter defines entropy based on statistics of motions of microscopic constituents in a [system](thermodynamic%20system.md)}@}. Both definitions are {@{consistent with each other}@}. Proofs are {@{known for some [statistical ensembles](ensemble%20(mathematical%20physics).md)}@}. <!--SR:!2027-04-13,730,250!2029-06-27,1411,290!2025-08-23,4,295-->
 
 > [!tip] tips
 >
