@@ -33,7 +33,7 @@ tags:
 > | January 1, 2024                                       | {@{Debit}@} | {@{Credit}@} |
 > | ----------------------------------------------------- |:-----------:|:------------:|
 > | {@{Cash (+A)}@}                                       | {@{411.6}@} |              |
-> | {@{Credit card discount (+XR, -R, −SE)}@}             | {@{8.4}@}   |              |
+> | {@{Credit card discount (+XR, −R, −SE)}@}             | {@{8.4}@}   |              |
 > | &nbsp;&nbsp;&nbsp;&nbsp;{@{Sales revenue (+R, +SE)}@} |             | {@{420}@}    |
 
 <!-- markdownlint MD028 -->

@@ -675,7 +675,7 @@ tags:
 > | 72 | 11 |
 > | 22 | 63 |
 >
-> According to the definition given above, the L1 distance between them should be |72-15|+|11-87|+|22-38|+|63-43|=169.
+> According to the definition given above, the L1 distance between them should be |72−15|+|11−87|+|22−38|+|63−43|=169.
 >
 > Using the L1 distance metric and KNN classification algorithm, propose 2 ways to produce new images from <!-- a given image -->the first image, such that the produced images have the same L1 distances to <!-- the original image -->the first image as the second image.
 >

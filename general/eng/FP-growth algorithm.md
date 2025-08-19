@@ -14,7 +14,7 @@ FP stands for {@{frequent pattern}@}.
 
 ## overview
 
-The FP-growth algorithm {@{outperforms the [Apriori](Apriori%20algorithm.md) and [Eclat](Eclat%20algorithm.md) algorithms}@}. This is because {@{it does not generate and test candidates, and scan the entire database only once (or twice, depending on how you define "scan") to construct a [FP-tree](#FP-tree), which is a compact tree structure called [trie](trie.md)}@}. The [FP-tree](#FP-tree) is {@{usually compact enough to fit into the memory, which is fast, allowing quick generation of large item sets from it}@}.
+The FP-growth algorithm {@{outperforms the [Apriori](Apriori%20algorithm.md) and [Eclat](Eclat%20algorithm.md) algorithms}@}. This is because {@{it does not generate and test candidates}@}, and {@{scan the entire database only once \(or twice, depending on how you define "scan"\) to construct a [FP-tree](#FP-tree)}@}, which is {@{a compact tree structure called [trie](trie.md)}@}. The [FP-tree](#FP-tree) is {@{usually compact enough to fit into the memory, which is fast}@}, allowing {@{quick generation of large item sets from it}@}.
 
 ### FP-tree
 
