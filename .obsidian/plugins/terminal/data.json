@@ -17,6 +17,7 @@
     "ac11afc4-60d0-4127-8fe7-5b7fc06a81c7": {
       "name": "Developer console",
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -38,6 +39,7 @@
       },
       "pythonExecutable": "python3",
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -59,6 +61,7 @@
         "win32": true
       },
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
