@@ -12,11 +12,11 @@ tags:
 
 # pwn 101: binary and buffer overflow
 
-__Pwn__, in a general context, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In CTFs, it is {@{one of the major categories and usually refers to __binary exploitation__}@}.
+{@{__Pwn__, in a general context}@}, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In {@{CTFs}@}, it is {@{one of the major categories and usually refers to __binary exploitation__}@}.
 
-__Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}.
+{@{__Binary exploitation__}@} is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To {@{find vulnerabilities without its source}@}, we need to {@{reverse the binary}@}, {@{the basics of which}@} are {@{taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md)}@}, so it is recommended that {@{reverse is first learnt}@}.
 
-A quick recap of types of tools used for reverse: {@{static analysis, dynamic analysis, and patching}@}.
+{@{A quick recap of types of tools used for reverse}@}: {@{static analysis, dynamic analysis, and patching}@}.
 
 ## memory model
 
