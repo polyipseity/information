@@ -96,7 +96,7 @@ The content is in teaching order.
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2028-11-25,1352,370-->
-  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
+  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
@@ -498,7 +498,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
+- _(begin)_→::@::←business procedures <!--SR:!2028-06-14,1029,272!2026-03-19,557,401-->
 - business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
 - economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2028-01-23,921,280-->

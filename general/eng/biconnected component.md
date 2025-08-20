@@ -112,7 +112,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 
 > {@{![A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.](../../archives/Wikimedia%20Commons/TarjanAPDemoDepth.gif)}@}
 >
-> {@{A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.}@} <!--SR:!2026-07-01,381,295!2025-08-20,147,255-->
+> {@{A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.}@} <!--SR:!2026-07-01,381,295!2027-01-28,526,275-->
 
 ### other algorithms
 

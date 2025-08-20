@@ -572,7 +572,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-26T16:30:00+08:00/2025-03-26T17:50:00+08:00, PT1H20M
 - topic: bonds
-- [bond](../../../../bond%20(finance).md) ::@:: It is a type of security under which the issuer \(debtor\) owes the holder \(creditor\) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor. <!--SR:!2025-09-15,130,412!2025-08-20,105,392-->
+- [bond](../../../../bond%20(finance).md) ::@:: It is a type of security under which the issuer \(debtor\) owes the holder \(creditor\) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor. <!--SR:!2025-09-15,130,412!2027-03-06,563,412-->
   - bond / cash flows ::@:: Typical cash flows are repaying the principal \(i.e. amount borrowed\) of the bond at the maturity date and interest \(called the coupon\) over a specified amount of time. <!--SR:!2025-09-17,132,412!2025-09-15,130,412-->
   - bond / terminology ::@:: coupon rate, coupon payment, face value, indenture & covenant, maturity date, term <!--SR:!2025-10-03,135,414!2025-09-13,128,412-->
     - bond / terminology / indenture, covenant ::@:: An indenture is a formal debt agreement that establishes the terms of a bond issue, while covenants are the clauses of such an agreement. <!--SR:!2025-10-05,137,415!2025-09-30,132,415-->

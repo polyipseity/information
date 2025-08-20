@@ -124,7 +124,7 @@ The content is in teaching order.
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2026-12-26,626,330-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2027-04-30,722,330!2025-09-20,281,330-->
-- etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2025-08-20,255,330!2026-11-05,591,330-->
+- etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2028-10-23,1160,350!2026-11-05,591,330-->
   - social etiquette
   - networking etiquette
   - dining etiquette
@@ -134,7 +134,7 @@ The content is in teaching order.
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2025-10-21,300,330-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2025-09-24,284,330-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2026-11-27,544,270!2026-02-15,370,290-->
-  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2028-04-18,1010,350!2025-08-20,256,330-->
+  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2028-04-18,1010,350!2028-11-02,1170,350-->
 
 ## week 8 tutorial
 

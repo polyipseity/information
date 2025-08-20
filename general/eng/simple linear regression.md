@@ -205,7 +205,7 @@ Several methods exist, considering:
 - Resistance to [outliers](outlier%20(statistics).md): ::@:: [Robust simple linear regression](robust%20simple%20linear%20regression.md) <!--SR:!2025-12-16,243,330!2026-02-12,289,330-->
 - [Perpendicular distance](perpendicular%20distance.md): ::@:: [Orthogonal regression](orthogonal%20regression.md#orthogonal%20regression) \(this is not scale-invariant i.e. changing the measurement units leads to a different line.\) <!--SR:!2025-12-30,255,330!2025-12-30,255,330-->
 - Weighted geometric distance: ::@:: [Deming regression](Deming%20regression.md) <!--SR:!2025-10-09,185,310!2027-02-11,541,310-->
-- Scale invariant approach: ::@:: [Major axis regression](major%20axis%20regression.md#scale%20invariant%20methods) — This allows for measurement error in both variables, and gives an equivalent equation if the measurement units are altered. <!--SR:!2027-05-06,626,330!2025-08-20,149,310-->
+- Scale invariant approach: ::@:: [Major axis regression](major%20axis%20regression.md#scale%20invariant%20methods) — This allows for measurement error in both variables, and gives an equivalent equation if the measurement units are altered. <!--SR:!2027-05-06,626,330!2027-05-20,638,330-->
 
 ### simple linear regression without the intercept term \(single regressor\)
 

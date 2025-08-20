@@ -21,7 +21,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 {@{Several different notations for Stirling numbers}@} are in use. {@{Ordinary (signed) __Stirling numbers of the first kind__}@} are commonly denoted: {@{$$s(n,k)\,.$$}@} <!--SR:!2027-12-22,879,330!2025-11-27,305,330!2025-12-08,314,330-->
 
-{@{__Unsigned Stirling numbers of the first kind__}@}, which count {@{the number of [permutations](permutation.md) of _n_ elements with _k_ disjoint [cycles](cyclic%20permutation.md)}@}, are denoted: {@{$${\biggl [}{n \atop k}{\biggr ]}=c(n,k)=|s(n,k)|=(-1)^{n-k}s(n,k)\,$$}@} <!--SR:!2025-11-23,302,330!2025-09-10,225,310!2025-08-20,209,310-->
+{@{__Unsigned Stirling numbers of the first kind__}@}, which count {@{the number of [permutations](permutation.md) of _n_ elements with _k_ disjoint [cycles](cyclic%20permutation.md)}@}, are denoted: {@{$${\biggl [}{n \atop k}{\biggr ]}=c(n,k)=|s(n,k)|=(-1)^{n-k}s(n,k)\,$$}@} <!--SR:!2025-11-23,302,330!2025-09-10,225,310!2028-02-04,898,330-->
 
 {@{__Stirling numbers of the second kind__}@}, which count {@{the number of ways to partition a set of _n_ elements into _k_ nonempty subsets}@}:<sup>[\[3\]](#^ref-3)</sup> {@{$${\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }=S(n,k)=S_{n}^{(k)}\,$$}@} <!--SR:!2025-11-17,297,330!2025-10-25,276,330!2025-12-03,310,330-->
 

@@ -135,7 +135,7 @@ Suppose that $A$ has {@{an eigenbasis, or equivalently $n$ [linear independent](
 
 Since each column of $Q$ is an eigenvector of $A$, {@{left multiplying $Q$ by $A$ scales each column of $Q$ by its associated eigenvalue}@}, {@{$$AQ = \begin{bmatrix} \lambda_1 \mathbf v_1 & \cdots & \lambda_n \mathbf v_n \end{bmatrix}$$}@}. <!--SR:!2025-11-07,329,310!2025-09-16,343,370-->
 
-With the scaled $Q$ ($AQ$) in mind, we can {@{express the same scaled $Q$ ($AQ$) in an alternative way}@} by {@{defining a [diagonal matrix](diagonal%20matrix.md) $\Lambda$ where each diagonal element $\Lambda_{ii}$ is the eigenvalue associated with the $i$-th column of $Q$}@}. Then, {@{$$AQ = Q\Lambda$$}@}. <!--SR:!2025-08-20,321,370!2027-02-13,721,350!2025-09-30,350,370-->
+With the scaled $Q$ ($AQ$) in mind, we can {@{express the same scaled $Q$ ($AQ$) in an alternative way}@} by {@{defining a [diagonal matrix](diagonal%20matrix.md) $\Lambda$ where each diagonal element $\Lambda_{ii}$ is the eigenvalue associated with the $i$-th column of $Q$}@}. Then, {@{$$AQ = Q\Lambda$$}@}. <!--SR:!2030-02-02,1627,390!2027-02-13,721,350!2025-09-30,350,370-->
 
 Consider $AQ = Q\Lambda$. Since {@{the columns of $Q$ are [linearly independent](linear%20independence.md)}@}, {@{$Q$ is [invertible](invertible%20matrix.md)}@}. {@{Right multiplying both sides of the equation by $Q^{-1}$}@} gives a decomposition of $A$: {@{$$A = Q\Lambda Q^{-1}$$}@}. Alternatively, {@{left multiplying both sides of the equation by $Q^{-1}$}@} gives a way to [diagonalize](diagonalizable%20matrix.md) the matrix: {@{$$Q^{-1}AQ = \Lambda$$}@}. <!--SR:!2025-08-22,302,350!2028-03-17,1060,370!2026-04-07,476,330!2027-01-10,641,330!2026-07-04,511,330!2026-05-12,478,330-->
 

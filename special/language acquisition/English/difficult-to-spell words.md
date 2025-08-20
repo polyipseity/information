@@ -101,7 +101,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [retaliate](https://en.wiktionary.org/wiki/retaliate) ::@:: \(r\_e\) To do something harmful or negative to get revenge for some harm; to fight back or respond in kind to an injury or affront. <!--SR:!2025-12-20,140,416!2025-12-20,140,416-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: \(r\_y\) Basic, minimal. <!--SR:!2030-08-26,1942,392!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: \(s\_d\) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2029-02-23,1333,356-->
-- [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: \(s\_e\) Uncommon, rare. <!--SR:!2025-08-20,394,376!2029-12-16,1597,356-->
+- [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: \(s\_e\) Uncommon, rare. <!--SR:!2031-03-10,2028,396!2029-12-16,1597,356-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: \(s\_d\) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: \(s\_s\) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2026-01-10,480,332!2031-04-21,2121,412-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: \(s\_l\) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2026-09-06,549,244-->

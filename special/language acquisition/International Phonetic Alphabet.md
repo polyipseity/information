@@ -522,7 +522,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced labiodental fricative](voiced%20labiodental%20fricative.md):@:\[v\] <!--SR:!2030-09-07,1920,395-->
 - [voiced labiodental approximant](voiced%20labiodental%20approximant.md):@:\[ʋ\] <!--SR:!2026-10-10,679,335-->
 - [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md):@:\[w\]
-- [labialization](labialization.md):@:\[ʷ\] <!--SR:!2025-08-20,349,374-->
+- [labialization](labialization.md):@:\[ʷ\] <!--SR:!2030-07-13,1788,394-->
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:\[ʍ\] <!--SR:!2027-05-19,691,256-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:\[ɯ\] <!--SR:!2025-10-05,191,330-->
 - [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\] <!--SR:!2025-09-05,34,269-->
@@ -668,7 +668,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ʕ\]:@:[voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) <!--SR:!2026-02-16,298,350-->
 - \[ǀ\]:@:[tenuis dental click](tenuis%20dental%20click.md) <!--SR:!2028-02-26,974,354-->
 - \[ǁ\]:@:[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) <!--SR:!2025-08-23,434,376-->
-- \[ǃ\]:@:[tenuis alveolar click](tenuis%20alveolar%20click.md) <!--SR:!2025-08-20,54,329-->
+- \[ǃ\]:@:[tenuis alveolar click](tenuis%20alveolar%20click.md) <!--SR:!2026-04-24,247,349-->
 - \[ʘ\]:@:[tenuis bilabial click](tenuis%20bilabial%20click.md) <!--SR:!2029-12-28,1598,376-->
 - \[ǂ\]:@:[tenuis palatal click](tenuis%20palatal%20click.md) <!--SR:!2026-05-27,567,315-->
 
@@ -849,7 +849,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg):@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md)
 - ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg):@:[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) <!--SR:!2025-10-11,53,230-->
 - ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg):@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md)
-- ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg):@:[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) <!--SR:!2025-08-20,7,130-->
+- ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg):@:[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) <!--SR:!2025-08-29,9,130-->
 - ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg):@:[voiced bilabial nasal](voiced%20bilabial%20nasal.md) <!--SR:!2025-12-03,112,276-->
 - ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg):@:[voiced labiodental nasal](voiced%20labiodental%20nasal.md) <!--SR:!2026-01-03,394,314-->
 - ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg):@:[voiced alveolar nasal](voiced%20alveolar%20nasal.md) <!--SR:!2025-12-30,208,270-->
@@ -1022,7 +1022,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless uvular fricative](voiceless%20uvular%20fricative.md):@:[French](French%20language.md) _t**r**ès_ \[t̪χɛ\] "very" <!--SR:!2025-09-26,50,130-->
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:[French](French%20language.md) _t**u**_ \[t̪y] "you" <!--SR:!2026-12-24,567,210-->
 - [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md):@:[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect" <!--SR:!2025-09-09,38,130-->
-- [voiced velar fricative](voiced%20velar%20fricative.md):@:[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend" <!--SR:!2025-08-20,7,130-->
+- [voiced velar fricative](voiced%20velar%20fricative.md):@:[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend" <!--SR:!2025-08-29,9,130-->
 - [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md):@:[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry" <!--SR:!2025-08-24,59,130-->
 - [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md):@:[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\] <!--SR:!2025-09-20,85,170-->
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!2025-09-09,38,130-->

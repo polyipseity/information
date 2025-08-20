@@ -95,7 +95,7 @@ An assembly file {@{does not solely consists of instructions}@}. It also {@{cont
 
 A key idea in assembly that {@{code and data are treated the same}@}. Indeed, data is represented by {@{instructions (but should not be executed by our program) as well}@}. Some common data instructions include: <!--SR:!2025-12-08,362,357!2025-12-15,369,365-->
 
-- `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2025-10-23,303,345!2025-08-20,269,345-->
+- `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2025-10-23,303,345!2029-02-13,1273,365-->
 - `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2025-11-10,340,363!2025-09-19,295,343-->
 - `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2025-12-16,370,365!2028-07-03,1086,357-->
 - `dw <data>` ::@:: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2027-11-29,917,357!2028-05-07,1046,357-->
@@ -166,4 +166,4 @@ Some commo tools are:
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2028-08-06,1110,365-->
 - `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2025-12-10,362,357!2025-12-09,364,365-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2027-08-11,825,343!2025-12-03,360,365-->
-- Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2027-11-22,882,343!2025-08-20,269,345-->
+- Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2027-11-22,882,343!2029-02-12,1272,365-->

@@ -39,7 +39,7 @@ Examples of implicit costs regarding production are mainly resources contributed
 
 Scenarios are as follows:<sup>[\[7\]](#^ref-7)</sup>
 
-- If a person leaves work for an hour to spend $200 on office supplies, and has an hourly rate of $25, then the implicit costs for the individual equates to ::@:: the $25 that he/she could have earned instead. <!--SR:!2025-08-20,250,330!2027-01-07,635,330-->
+- If a person leaves work for an hour to spend $200 on office supplies, and has an hourly rate of $25, then the implicit costs for the individual equates to ::@:: the $25 that he/she could have earned instead. <!--SR:!2028-10-02,1139,350!2027-01-07,635,330-->
 - If a printer of a company malfunctions, the implicit cost equates to... ::@:: the total production time that could have been utilized if the machine did not break down. <!--SR:!2027-09-20,830,330!2026-05-04,435,310-->
 
 ## excluded from opportunity cost
@@ -50,7 +50,7 @@ Costs that are excluded from opportunity cost include {@{[sunk costs](#sunk%20co
 
 - see: [sunk cost](sunk%20cost.md)
 
-Sunk costs (also referred to as {@{historical costs}@}) are {@{costs that have been incurred already and cannot be recovered}@}. As {@{sunk costs have already been incurred}@}, they {@{remain unchanged and should not influence present or future actions or decisions regarding benefits and costs}@}.<sup>[\[11\]](#^ref-11)</sup> Decision makers who recognise the insignificance of sunk costs then understand that {@{the "consequences of choices cannot influence choice itself"}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-10-10,290,330!2026-11-20,597,330!2025-10-06,286,330!2025-08-20,250,330!2028-09-07,1117,350-->
+Sunk costs (also referred to as {@{historical costs}@}) are {@{costs that have been incurred already and cannot be recovered}@}. As {@{sunk costs have already been incurred}@}, they {@{remain unchanged and should not influence present or future actions or decisions regarding benefits and costs}@}.<sup>[\[11\]](#^ref-11)</sup> Decision makers who recognise the insignificance of sunk costs then understand that {@{the "consequences of choices cannot influence choice itself"}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-10-10,290,330!2026-11-20,597,330!2025-10-06,286,330!2028-09-30,1137,350!2028-09-07,1117,350-->
 
 From {@{the traceability source of costs}@}, sunk costs can be {@{direct costs or indirect costs}@}. If {@{the sunk cost can be summarized as a single component}@}, it is {@{a direct cost}@}; if {@{it is caused by several products or departments}@}, it is {@{an indirect cost}@}. <!--SR:!2025-08-23,253,330!2025-08-25,255,330!2026-02-02,366,310!2026-07-04,483,310!2025-10-14,294,330!2025-09-20,276,330-->
 

@@ -210,7 +210,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > According to the documentary "1959" what is the name of the record that started experimenting with free jazz and started the free jazz movement?
 >
-> - solution: {@{_The Shape of Jazz to Come_}@} <!--SR:!2025-08-20,80,355-->
+> - solution: {@{_The Shape of Jazz to Come_}@} <!--SR:!2026-09-14,390,375-->
 
 <!-- markdownlint MD028 -->
 

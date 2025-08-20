@@ -20,9 +20,9 @@ In {@{[variance analysis \(accounting\)](variance%20analysis%20(accounting).md)}
 
 ## example
 
-Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2025-08-21,15,290!2025-08-21,15,290!2025-08-21,15,290!2025-08-20,14,290-->
+Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2025-08-21,15,290!2025-08-21,15,290!2025-08-21,15,290!2025-10-16,57,310-->
 
-Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!2025-08-20,14,290!2025-08-21,15,290-->
+Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!2025-10-13,54,310!2025-08-21,15,290-->
 
 Under those assumptions direct material total variance can be calculated as:
 
@@ -30,7 +30,7 @@ Under those assumptions direct material total variance can be calculated as:
 | ------------------------------------------------------ | --- | ------------------------------: | --------------- |
 | {@{100 units should have cost \(× \$ 120 per unit\)}@} |     |                  {@{€ 12,000}@} |                 |
 | &emsp; {@{but did cost}@}                              |     |           {@{<u>€ 13,144</u>}@} |                 |
-| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2025-08-20,14,290!2025-08-21,15,290!2025-08-21,15,290!2025-08-20,14,290!2025-08-20,14,290!2025-08-22,16,290!2025-08-20,14,290-->
+| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2025-10-15,56,310!2025-08-21,15,290!2025-08-21,15,290!2025-10-14,55,310!2025-10-15,56,310!2025-08-22,16,290!2025-10-16,57,310-->
 
 Direct material total variance can be reconciled to {@{[direct material price variance](direct%20material%20price%20variance.md) and [direct material usage variance](direct%20material%20usage%20variance.md)}@} by: <!--SR:!2025-08-21,15,290-->
 
@@ -38,9 +38,9 @@ Direct material total variance can be reconciled to {@{[direct material price va
 | ------------------------------------ | --- | --------------------------: | ----------- |
 | {@{Direct material usage variance}@} |     |                 {@{€ 720}@} | {@{\(A\)}@} |
 | {@{Direct material price variance}@} |     |          {@{<u>€ 424</u>}@} | {@{\(A\)}@} |
-| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2025-08-20,14,290!2025-08-21,15,290!2025-08-22,16,290!2025-08-20,14,290!2025-08-21,15,290!2025-08-22,16,290!2025-08-20,14,290!2025-08-20,14,290!2025-08-22,16,290-->
+| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2025-10-17,58,310!2025-08-21,15,290!2025-08-22,16,290!2025-10-13,54,310!2025-08-21,15,290!2025-08-22,16,290!2025-10-17,58,310!2025-10-17,58,310!2025-08-22,16,290-->
 
-See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2025-08-22,16,290!2025-08-20,14,290-->
+See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2025-08-22,16,290!2025-10-14,55,310-->
 
 ## see also
 

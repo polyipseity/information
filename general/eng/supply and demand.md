@@ -259,7 +259,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/supply_and_demand
 23. Fleeming Jenkin, 1870. "_The Graphical Representation of the Laws of Supply and Demand, and their Application to Labour,_" in Alexander Grant, ed., (Scroll to chapter) [_Recess Studies_, ch. VI, pp. 151–85.](https://books.google.com/books?id=NC5BAAAAIAAJ) Edinburgh: Edmonston and Douglas <a id="^ref-23"></a>^ref-23
 24. Avi J. Cohen, "'The Laws of Returns Under Competitive Conditions': Progress in Microeconomics Since Sraffa (1926)?", _Eastern Economic Journal_, V. 9, N. 3 (Jul.-Sep.): 1983) <a id="^ref-24"></a>^ref-24
 25. Paul A. Samuelson, "Reply" in _Critical Essays on Piero Sraffa's Legacy in Economics_ (edited by H. D. Kurz) Cambridge University Press, 2000 <a id="^ref-25"></a>^ref-25
-26. Lee, F. S. (1999). Post Keynesian price theory. Cambridge University Press. <a id="^ref-26"></a>^ref-26 <!--SR:!2025-11-16,288,330!2025-08-20,201,310!2026-01-08,335,350-->
+26. Lee, F. S. (1999). Post Keynesian price theory. Cambridge University Press. <a id="^ref-26"></a>^ref-26 <!--SR:!2025-11-16,288,330!2027-12-26,858,330!2026-01-08,335,350-->
 
 ## further reading
 

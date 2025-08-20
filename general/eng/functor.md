@@ -105,7 +105,7 @@ __Presheaves \(over a topological space\)__
 
 __Constant functor__ <p> ::@:: &emsp; The functor _C_ → _D_ which maps every object of _C_ to a fixed object _X_ in _D_ and every morphism in _C_ to the identity morphism on _X_. Such a functor is called a _constant_ or _selection_ functor. (annotation: note that functors are not required to be injective or surjective) <!--SR:!2026-03-28,350,357!2026-03-06,331,346-->
 
-__Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2025-08-20,162,310!2027-04-24,638,330-->
+__Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2027-07-18,697,330!2027-04-24,638,330-->
 
 __Identity functor__ <p> ::@:: &emsp; In category _C_, written 1<sub>_C_</sub> or id<sub>_C_</sub>, maps an object to itself and a morphism to itself. The identity functor is an endofunctor. <!--SR:!2026-01-22,294,330!2026-04-11,362,357-->
 
@@ -114,7 +114,7 @@ __Diagonal functor__ <p> ::@:: &emsp; The [diagonal functor](diagonal%20functor.
 <!-- markdownlint-disable-next-line MD036 -->
 __Limit functor__
 
-&emsp; For {@{a fixed [index category](index%20category.md) _J_}@}, if {@{every functor _J_ → _C_ has a [limit](limit%20(category%20theory).md) \(for instance if _C_ is complete\)}@}, then {@{the limit functor _C_<sup>_J_</sup> → _C_ assigns to each functor its limit}@}. {@{The existence of this functor}@} can be {@{proved by realizing that it is the [right-adjoint](adjoint%20functors.md) to the [diagonal functor](diagonal%20functor.md)}@} and invoking {@{the [Freyd adjoint functor theorem](Freyd%20adjoint%20functor%20theorem.md)}@}. This requires {@{a suitable version of the [axiom of choice](axiom%20of%20choice.md)}@}. Similar remarks apply to {@{the colimit functor \(which assigns to every functor its colimit, and is covariant\)}@}. <!--SR:!2026-04-08,359,357!2026-01-22,294,330!2026-04-13,364,357!2026-03-25,348,357!2025-08-20,135,250!2026-09-27,442,317!2026-04-12,363,357!2025-12-10,245,337-->
+&emsp; For {@{a fixed [index category](index%20category.md) _J_}@}, if {@{every functor _J_ → _C_ has a [limit](limit%20(category%20theory).md) \(for instance if _C_ is complete\)}@}, then {@{the limit functor _C_<sup>_J_</sup> → _C_ assigns to each functor its limit}@}. {@{The existence of this functor}@} can be {@{proved by realizing that it is the [right-adjoint](adjoint%20functors.md) to the [diagonal functor](diagonal%20functor.md)}@} and invoking {@{the [Freyd adjoint functor theorem](Freyd%20adjoint%20functor%20theorem.md)}@}. This requires {@{a suitable version of the [axiom of choice](axiom%20of%20choice.md)}@}. Similar remarks apply to {@{the colimit functor \(which assigns to every functor its colimit, and is covariant\)}@}. <!--SR:!2026-04-08,359,357!2026-01-22,294,330!2026-04-13,364,357!2026-03-25,348,357!2026-12-13,480,270!2026-09-27,442,317!2026-04-12,363,357!2025-12-10,245,337-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Power sets functor__
