@@ -17,7 +17,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{the __moments__ of a [function](funct
 
 For {@{a distribution of mass or probability on a [bounded interval](bounded%20set.md)}@}, {@{the collection of all the moments \(of all orders, from 0 to ∞\)}@} {@{uniquely determines the distribution \([Hausdorff moment problem](Hausdorff%20moment%20problem.md)\)}@}. The same is {@{not true on unbounded intervals \([Hamburger moment problem](Hamburger%20moment%20problem.md)\)}@}. <!--SR:!2025-09-10,189,310!2025-09-07,186,310!2026-11-21,518,310!2026-01-10,292,330-->
 
-In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@} became {@{the first person to think systematically in terms of the moments of [random variables](random%20variable.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-11-19,516,310!2025-08-21,177,310-->
+In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@} became {@{the first person to think systematically in terms of the moments of [random variables](random%20variable.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-11-19,516,310!2027-09-20,760,330-->
 
 ## significance of the moments
 

@@ -18,7 +18,7 @@ Propositional logic is typically studied with {@{a [formal language](formal%20la
 
 > __Notational variants of the connectives__
 >
-> - [AND](logical%20conjunction.md) ::@:: $A\land B$, $A\cdot B$, $AB$, $A\&B$, $A\&\&B$ <!--SR:!2025-08-27,269,330!2025-08-21,264,330-->
+> - [AND](logical%20conjunction.md) ::@:: $A\land B$, $A\cdot B$, $AB$, $A\&B$, $A\&\&B$ <!--SR:!2025-08-27,269,330!2028-12-06,1203,350-->
 > - [equivalent](logical%20biconditional.md) ::@:: $A\equiv B$, $A\Leftrightarrow B$, $A\leftrightharpoons B$ <!--SR:!2028-06-15,1065,350!2025-10-24,316,330-->
 > - [implies](material%20conditional.md) ::@:: $A\Rightarrow B$, $A\supset B$, $A\rightarrow B$ <!--SR:!2025-10-26,317,330!2028-04-25,1026,350-->
 > - [NAND](sheffer%20stroke.md) ::@:: $A{\overline {\land } }B$, $A\mid B$, ${\overline {A\cdot B} }$ <!--SR:!2026-04-11,431,310!2027-03-10,697,330-->

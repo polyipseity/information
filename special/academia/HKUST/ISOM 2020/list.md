@@ -49,7 +49,7 @@ To {@{concatenate/join two lists (or strings)}@}, use {@{the `+` operator}@}. No
 
 ## length
 
-{@{The length (`int`) of a sequence, including but not limited to `list` and `str`}@}, can be determined by {@{`len(list)` (but not `list.len()`)}@}. <!--SR:!2025-08-21,266,334!2025-09-26,293,334-->
+{@{The length (`int`) of a sequence, including but not limited to `list` and `str`}@}, can be determined by {@{`len(list)` (but not `list.len()`)}@}. <!--SR:!2028-12-26,1223,354!2025-09-26,293,334-->
 
 ## aggregate functions
 

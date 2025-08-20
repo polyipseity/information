@@ -18,7 +18,7 @@ tags:
 - resize window::@::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2025-10-19,241,170!2032-06-13,2547,310-->
 - move window to bottom::@::Alt+Esc <!--SR:!2027-03-20,610,230!2029-01-04,1271,270-->
 - minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2026-06-30,495,190!2029-02-05,1442,270-->
-- maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-08-21,206,210!2029-12-06,1597,270-->
+- maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2026-10-28,433,210!2029-12-06,1597,270-->
 - maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2027-07-25,712,250!2025-08-31,211,210-->
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2026-11-05,546,190!2028-08-12,1293,270-->
 - toggle unfocused windows::@::⊞Win+Home <!--SR:!2025-11-29,331,190!2025-09-11,176,150-->

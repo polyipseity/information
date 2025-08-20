@@ -153,7 +153,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![an even but non-symmetric mixed graph that is Eulerian](../../archives/Wikimedia%20Commons/Eulerian%20mixed%20graph%20that%20is%20even%20but%20not%20symmetric%20proving%20that%20evenness%20and%20symmetricness%20is%20not%20a%20necessary%20and%20sufficient%20condition%20for%20a%20mixed%20graph%20to%20be%20Eulerian.svg)}@}
 >
-> {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}. <!--SR:!2026-04-06,396,362!2026-03-07,371,362!2025-08-21,192,322!2026-03-20,382,362-->
+> {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}. <!--SR:!2026-04-06,396,362!2026-03-07,371,362!2027-12-25,856,342!2026-03-20,382,362-->
 
 {@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-10-20,255,342!2025-10-30,263,342!2026-01-27,337,350!2026-03-26,387,362-->
 

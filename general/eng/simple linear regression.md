@@ -83,7 +83,7 @@ In this framing, when {@{$x_{i}$ is not actually a [random variable](random%20va
 
 1. The regression line ::@:: goes through the _center of mass_ point, $({\bar {x} },\,{\bar {y} })$, if the model includes an intercept term \(i.e., not forced through the origin\). <!--SR:!2026-01-31,278,330!2026-02-12,289,330-->
 2. The sum of the residuals ::@:: is zero if the model includes an intercept term: $$\sum _{i=1}^{n}{\widehat {\varepsilon } }_{i}=0.$$ <!--SR:!2025-11-12,198,310!2026-11-16,455,310-->
-3. The residuals and _x_ values ::@:: are uncorrelated \(whether or not there is an intercept term in the model\), meaning: $$\sum _{i=1}^{n}x_{i}{\widehat {\varepsilon } }_{i}\;=\;0$$ <!--SR:!2025-08-21,149,310!2026-02-15,291,330-->
+3. The residuals and _x_ values ::@:: are uncorrelated \(whether or not there is an intercept term in the model\), meaning: $$\sum _{i=1}^{n}x_{i}{\widehat {\varepsilon } }_{i}\;=\;0$$ <!--SR:!2027-05-24,641,330!2026-02-15,291,330-->
 4. The relationship between $\rho _{xy}$ \(the [correlation coefficient for the population](Pearson%20correlation%20coefficient.md#for%20a%20population)\) and the population variances of $y$ \($\sigma _{y}^{2}$\) and the error term of $\epsilon$ \($\sigma _{\epsilon }^{2}$\) is:<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;401&hairsp;</sup> ::@:: $$\sigma _{\epsilon }^{2}=(1-\rho _{xy}^{2})\sigma _{y}^{2}$$ For extreme values of $\rho _{xy}$ this is self evident. Since when $\rho _{xy}=0$ then $\sigma _{\epsilon }^{2}=\sigma _{y}^{2}$. And when $\rho _{xy}=1$ then $\sigma _{\epsilon }^{2}=0$. <!--SR:!2026-12-24,517,310!2026-06-10,352,290-->
 
 ## statistical properties

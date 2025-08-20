@@ -13,7 +13,7 @@ tags:
 
 # Stirling numbers of the first kind
 
-In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics.md)}@}, __Stirling numbers of the first kind__ {@{arise in the study of permutations}@}. In particular, {@{the unsigned Stirling numbers of the first kind}@} count {@{[permutations](permutation.md) according to their number of [cycles](cycles%20and%20fixed%20points.md) (counting [fixed points](fixed%20point%20(mathematics).md) as cycles of length one)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-09-01,793,330!2025-08-21,211,310!2025-10-31,284,330!2025-11-01,285,330-->
+In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics.md)}@}, __Stirling numbers of the first kind__ {@{arise in the study of permutations}@}. In particular, {@{the unsigned Stirling numbers of the first kind}@} count {@{[permutations](permutation.md) according to their number of [cycles](cycles%20and%20fixed%20points.md) (counting [fixed points](fixed%20point%20(mathematics).md) as cycles of length one)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-09-01,793,330!2028-02-17,910,330!2025-10-31,284,330!2025-11-01,285,330-->
 
 {@{The Stirling numbers of the first and [second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is devoted to {@{specifics of Stirling numbers of the first kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2025-11-22,303,330!2028-01-31,897,330!2025-11-22,303,330!2025-10-29,282,330-->
 
@@ -45,7 +45,7 @@ These numbers can be calculated by {@{considering the orbits as [conjugancy clas
 
 ## recurrence relation
 
-{@{The unsigned Stirling numbers of the first kind}@} follow {@{the [recurrence relation](recurrence%20relation.md) $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ for $k>0$}@}, with {@{the boundary conditions $$\left[{0 \atop 0}\right]=1\quad {\text{and} }\quad \left[{n \atop 0}\right]=\left[{0 \atop n}\right]=0$$ for $n>0$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-08-21,212,310!2025-11-26,306,330!2025-10-30,283,330-->
+{@{The unsigned Stirling numbers of the first kind}@} follow {@{the [recurrence relation](recurrence%20relation.md) $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ for $k>0$}@}, with {@{the boundary conditions $$\left[{0 \atop 0}\right]=1\quad {\text{and} }\quad \left[{n \atop 0}\right]=\left[{0 \atop n}\right]=0$$ for $n>0$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-02-15,908,330!2025-11-26,306,330!2025-10-30,283,330-->
 
 It follows immediately that {@{the signed Stirling numbers of the first kind}@} satisfy {@{the recurrence $$s(n+1,k)= -n\cdot s(n,k)+s(n,k-1) \,.$$}@} <!--SR:!2028-01-26,893,330!2026-04-04,350,290-->
 
@@ -175,7 +175,7 @@ As discussed earlier, by {@{[Vieta's formulas](Vieta's%20formulas.md)}@}, one ge
 
 The Stirling number _s(n,n-p)_ can be found from the formula<sup>[\[18\]](#^ref-18)</sup> $${\begin{aligned}s(n,n-p)&={\frac {1}{(n-p-1)!} }\sum _{0\leq k_{1},\ldots ,k_{p}:\sum _{1}^{p}mk_{m}=p}(-1)^{K}{\frac {(n+K-1)!}{k_{1}!k_{2}!\cdots k_{p}!~2!^{k_{1} }3!^{k_{2} }\cdots (p+1)!^{k_{p} } } },\end{aligned} }$$ where $K=k_{1}+\cdots +k_{p}.$ The sum is a sum over all [partitions](integer%20partition.md) of _p_.
 
-Another exact nested sum expansion for these Stirling numbers is computed by {@{[elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) corresponding to the coefficients in $x$ of a product of the form $(1+c_{1}x)\cdots (1+c_{n-1}x)$}@}. In particular, we see that {@{$${\begin{aligned}\left[{n \atop k+1}\right]&=[x^{k}](x+1)(x+2)\cdots (x+n-1)=(n-1)!\cdot [x^{k}](x+1)\left({\frac {x}{2} }+1\right)\cdots \left({\frac {x}{n-1} }+1\right)\\&=\sum _{1\leq i_{1}<\cdots <i_{k}<n}{\frac {(n-1)!}{i_{1}\cdots i_{k} } }.\end{aligned} }$$}@} {@{[Newton's identities](newton's%20identities.md) combined with the above expansions}@} may be used to {@{give an alternate proof of the weighted expansions involving the generalized [harmonic numbers](harmonic%20number.md) already [noted above](#expansions%20for%20fixed%20k)}@}. <!--SR:!2026-11-15,516,311!2026-01-27,229,231!2025-08-21,231,331!2027-02-20,567,291-->
+Another exact nested sum expansion for these Stirling numbers is computed by {@{[elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) corresponding to the coefficients in $x$ of a product of the form $(1+c_{1}x)\cdots (1+c_{n-1}x)$}@}. In particular, we see that {@{$${\begin{aligned}\left[{n \atop k+1}\right]&=[x^{k}](x+1)(x+2)\cdots (x+n-1)=(n-1)!\cdot [x^{k}](x+1)\left({\frac {x}{2} }+1\right)\cdots \left({\frac {x}{n-1} }+1\right)\\&=\sum _{1\leq i_{1}<\cdots <i_{k}<n}{\frac {(n-1)!}{i_{1}\cdots i_{k} } }.\end{aligned} }$$}@} {@{[Newton's identities](newton's%20identities.md) combined with the above expansions}@} may be used to {@{give an alternate proof of the weighted expansions involving the generalized [harmonic numbers](harmonic%20number.md) already [noted above](#expansions%20for%20fixed%20k)}@}. <!--SR:!2026-11-15,516,311!2026-01-27,229,231!2028-07-06,1050,351!2027-02-20,567,291-->
 
 ### relations to natural logarithm function
 

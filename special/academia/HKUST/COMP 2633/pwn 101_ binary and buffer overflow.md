@@ -14,7 +14,7 @@ tags:
 
 __Pwn__, in a general context, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In CTFs, it is {@{one of the major categories and usually refers to __binary exploitation__}@}. <!--SR:!2027-07-23,788,330!2026-12-24,625,330-->
 
-__Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}. <!--SR:!2025-09-14,275,330!2025-08-21,257,330-->
+__Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}. <!--SR:!2025-09-14,275,330!2027-12-23,854,330-->
 
 A quick recap of types of tools used for reverse: {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2028-06-13,1057,350-->
 
@@ -28,7 +28,7 @@ However, further knowledge memory model is {@{not exactly important in basic pwn
 
 ### memory mapping
 
-For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}. <!--SR:!2027-06-05,740,330!2028-05-05,1027,350!2025-10-03,290,330!2027-05-11,733,330!2025-08-27,260,330!2025-09-28,285,330!2025-08-21,256,330!2026-06-28,486,310-->
+For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}. <!--SR:!2027-06-05,740,330!2028-05-05,1027,350!2025-10-03,290,330!2027-05-11,733,330!2025-08-27,260,330!2025-09-28,285,330!2028-10-29,1165,350!2026-06-28,486,310-->
 
 The meanings of the 4 segments are:
 
