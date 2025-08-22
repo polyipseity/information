@@ -365,12 +365,12 @@ The content is in teaching order.
   - process capability index / interpretation ::@:: A higher index means less defective likelihood. <p> Widening the limits leads to a larger index. Decreasing standard deviation can also lead to a larger index. <!--SR:!2027-05-02,639,416!2027-08-16,727,419-->
 - \#-sigma quality ::@:: Literally just process capability index multiplied by 3. <!--SR:!2027-06-02,665,419!2027-07-02,692,419-->
   - \#-sigma quality / interpretation ::@:: The number of standard deviations that we can fit in between the _smaller_ side of the mean and its corresponding spec limit (LSL/USL). <!--SR:!2025-08-23,138,399!2027-09-07,747,419-->
-  - \#-sigma quality / examples ::@:: 3-sigma quality: C<sub>pk</sub> ≥ 1 <br/> 6-sigma quality: C<sub>pk</sub> ≥ 2 <!--SR:!2027-07-13,699,419!2025-08-22,137,399-->
+  - \#-sigma quality / examples ::@:: 3-sigma quality: C<sub>pk</sub> ≥ 1 <br/> 6-sigma quality: C<sub>pk</sub> ≥ 2 <!--SR:!2027-07-13,699,419!2027-09-09,748,419-->
   - 3-sigma quality ::@:: tolerance distance on both sides is at least 3 times of the standard deviation <p> defective likelihood: \< 0.27% or 1 in 370 <!--SR:!2027-05-05,642,416!2026-12-24,526,399-->
-  - 6-sigma quality ::@:: tolerance distance on both sides is at least 6 times of the standard deviation; likely requires limiting process variability to be viable <p> defective likelihood: 0.000&nbsp;000&nbsp;001&nbsp;973 (no %) or 1 in 506&nbsp;797&nbsp;346 <!--SR:!2025-08-22,137,399!2026-12-15,517,399-->
+  - 6-sigma quality ::@:: tolerance distance on both sides is at least 6 times of the standard deviation; likely requires limiting process variability to be viable <p> defective likelihood: 0.000&nbsp;000&nbsp;001&nbsp;973 (no %) or 1 in 506&nbsp;797&nbsp;346 <!--SR:!2027-09-12,751,419!2026-12-15,517,399-->
 - [Six Sigma](../../../../general/Six%20Sigma.md) ::@:: a set of techniques and tools for process improvement (e.g. manufacturing quality) <!--SR:!2027-08-31,741,419!2027-04-13,620,416-->
   - Six Sigma / brief history ::@:: It was first developed at Motorola in the 1980s. Then it was adopted by 2/3 of Fortune 500 organizations by the late 1990s. <!--SR:!2027-08-05,717,419!2027-07-28,709,419-->
-  - Six Sigma / core ideas ::@:: _All_ processes (especially those requiring humans) have variations which is the _main cause_ for quality issues. We can _identify, quantify, and control_ the variations to _effectively_ improve quality. <!--SR:!2027-07-06,696,419!2025-08-22,137,399-->
+  - Six Sigma / core ideas ::@:: _All_ processes (especially those requiring humans) have variations which is the _main cause_ for quality issues. We can _identify, quantify, and control_ the variations to _effectively_ improve quality. <!--SR:!2027-07-06,696,419!2027-09-13,752,419-->
 - \#-sigma quality
   - 6-sigma quality
     - 6-sigma quality / need ::@:: There are industries with very high quality requirements, e.g. cars, jet engines, medicines, vaccines, etc. <p> Further, errors can accumulate. Chaining multiple processes with very low defective likelihoods together can lead to a process with high defective likelihood. <!--SR:!2027-06-09,672,416!2027-08-07,719,419-->
@@ -404,7 +404,7 @@ The content is in teaching order.
 - control chart
   - control chart / idea
   - control chart / types
-- [continuous or discrete variable](../../../../general/continuous%20or%20discrete%20variable.md) ::@:: a quantitative variable may be __continuous__ or __discrete__ if it is typically obtained by _measuring_ or _counting_, respectively <!--SR:!2027-08-10,722,419!2025-08-22,137,399-->
+- [continuous or discrete variable](../../../../general/continuous%20or%20discrete%20variable.md) ::@:: a quantitative variable may be __continuous__ or __discrete__ if it is typically obtained by _measuring_ or _counting_, respectively <!--SR:!2027-08-10,722,419!2027-09-11,750,419-->
   - continuous variable ::@:: can be measured continuously <!--SR:!2027-08-07,719,419!2027-06-08,671,419-->
     - continuous variable / examples ::@:: length, speed, temperature, weight, width <!--SR:!2027-05-01,638,416!2027-06-17,679,416-->
 - x̅ and R chart
@@ -438,12 +438,12 @@ The content is in teaching order.
   - acceptance sampling / conditions ::@:: In general, it is employed when one or several of the following hold: <p> testing is destructive; <br/> the cost of 100% inspection is very high; and <br/> 100% inspection takes too long. <!--SR:!2027-06-19,681,419!2027-07-11,697,419-->
   - acceptance sampling / trade-off ::@:: cost of sampling vs. risk of wrong decision <!--SR:!2027-06-07,670,419!2025-08-23,138,399-->
   - acceptance sampling / wrong decisions ::@:: rejected "good" lot: Type I error with probability $\alpha$ \(typically 5%\), false positive/rejection, _producer's risk_ <br/> accepted "bad" lot: Type II error with probability $\beta$ \(typically 10%\), false negative/acceptance, _consumer's risk_ <!--SR:!2027-01-08,514,399!2027-07-24,705,419-->
-- [acceptable quality limit](../../../../general/acceptable%20quality%20limit.md) \(AQL\) ::@:: Maximum _true_ defective rate for producers. A lot is acceptable or "good" if _P_ ≤ AQL. <!--SR:!2025-08-22,137,399!2026-11-22,497,399-->
+- [acceptable quality limit](../../../../general/acceptable%20quality%20limit.md) \(AQL\) ::@:: Maximum _true_ defective rate for producers. A lot is acceptable or "good" if _P_ ≤ AQL. <!--SR:!2027-09-14,753,419!2026-11-22,497,399-->
 - [lot tolerance percent defective](../../../../general/lot%20tolerance%20percent%20defective.md) \(LTPD\) ::@:: Maximum _true_ defective rate for consumers. A lot is unacceptable or "bad" if _P_ \> LTPD. <!--SR:!2027-07-25,706,419!2027-07-22,707,419-->
 - acceptance sampling
   - acceptance sampling / wrong decisions
     - acceptance sampling / wrong decisions / neither "good" nor "bad" ::@:: If the _true_ defective rate for a lot is AQL \< _P_ ≤ LTPD, then it is neither "good" nor "bad". Accept or reject are both "correct" decisions, i.e. neither Type I error nor Type II error. <!--SR:!2027-07-20,705,419!2027-06-18,680,419-->
-  - acceptance sampling / sampling plan ::@:: Given maximum Type I error rate $\alpha$, maximum Type II error rate $\beta$, AQL, and LTPD; solve for sample size \(_not_ lot size\) _n_ and acceptance number _c_, represented as a tuple \(_n_, _c_\). <!--SR:!2025-08-22,137,399!2026-12-31,509,399-->
+  - acceptance sampling / sampling plan ::@:: Given maximum Type I error rate $\alpha$, maximum Type II error rate $\beta$, AQL, and LTPD; solve for sample size \(_not_ lot size\) _n_ and acceptance number _c_, represented as a tuple \(_n_, _c_\). <!--SR:!2027-09-08,747,419!2026-12-31,509,399-->
     - acceptance sampling / sampling plan / table ::@:: The fixed parameters are maximum Type I error rate _α_ and maximum Type II error rate _β_. The table has 3 columns: _c_ \(starting from 0\), LTPD÷AQL, n×AQL. <!--SR:!2027-01-13,518,399!2027-06-05,668,419-->
       - acceptance sampling / sampling plan / table / use ::@:: Find the table for fixed maximum Type I error rate _α_ and maximum Type II error rate _β_. <p> acceptance number _c_: Calculate LTPD÷AQL, and find the _largest integer_ _c_ that has a value _at least_ the calculated LTPD÷AQL. This is the _c_. <br/> sample size \(_not_ lot size\) _n_: Use n×AQL of the found _c_. Find the _smallest integer_ _n_ such that n×AQL has a value of _at least_ that of the found _c_. Equivalently, divide n×AQL by AQL, and round up to the nearest integer. <!--SR:!2026-01-22,235,359!2026-11-15,490,399-->
   - acceptance sampling / operating characteristic curve (OC curve) ::@:: \(optional\) The probability of acceptance given \(_n_, _c_\) is plotted on the _y_-axis, against the _true_ population defective rate plotted on the _x_-axis. _α_ and _β_ are indicated on the _y_-axis. AQL and LTPD are indicated on the _x_-axis. <!--SR:!2026-12-03,505,399!2026-12-08,510,399-->
@@ -466,7 +466,7 @@ The content is in teaching order.
 - [minimum efficient scale](../../../../general/minimum%20efficient%20scale.md) ::@:: Output level with minimum average unit cost (LRATC). <!--SR:!2027-01-10,515,399!2027-09-06,746,419-->
   - minimum efficient scale / aliases ::@:: best operating level <!--SR:!2027-07-11,698,419!2027-08-25,735,419-->
 - capacity planning
-  - capacity planning / uncertainty ::@:: In the real world, this comes in and affects demand, extreme events, production, supply, etc. <p> This makes capacity planning challenging, especially strategic planning in the _long term_. <!--SR:!2027-06-21,683,419!2025-08-22,137,399-->
+  - capacity planning / uncertainty ::@:: In the real world, this comes in and affects demand, extreme events, production, supply, etc. <p> This makes capacity planning challenging, especially strategic planning in the _long term_. <!--SR:!2027-06-21,683,419!2027-09-09,748,419-->
   - capacity planning / steps ::@:: specify _objectives_, find _alternatives_ in each step, analyze and compare, select the best alternative, implement and monitor <!--SR:!2026-11-18,493,399!2027-08-11,723,419-->
 - [decision tree](../../../../general/decision%20tree.md) ::@:: It is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. <!--SR:!2027-06-06,669,419!2027-08-03,715,419-->
   - decision tree / conditions ::@:: It cannot model any _arbitrary_ uncertainty. We need to know the possible random _scenarios_ and their _probabilities_, possible _actions_, and _payoffs_. <!--SR:!2027-08-04,716,419!2027-07-17,703,419-->

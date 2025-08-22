@@ -13,7 +13,7 @@ tags:
 
 - For other uses, see [Shutdown](shutdown%20(disambiguation).md).
 
-{@{A firm will choose to implement a __shutdown__ of [production](production%20(economics).md)}@} when {@{the [revenue](revenue.md) received from the sale of the [goods or services](goods%20and%20services.md) produced cannot even cover the [variable costs](variable%20cost.md) of production}@}. In that situation, the firm will {@{experience a higher loss when it produces, compared to not producing at all}@}. <!--SR:!2026-01-03,261,330!2025-08-22,155,310!2026-01-26,280,330-->
+{@{A firm will choose to implement a __shutdown__ of [production](production%20(economics).md)}@} when {@{the [revenue](revenue.md) received from the sale of the [goods or services](goods%20and%20services.md) produced cannot even cover the [variable costs](variable%20cost.md) of production}@}. In that situation, the firm will {@{experience a higher loss when it produces, compared to not producing at all}@}. <!--SR:!2026-01-03,261,330!2027-06-18,665,330!2026-01-26,280,330-->
 
 Technically, shutdown occurs {@{if [average revenue](total%20revenue.md) is below [average variable cost](average%20variable%20cost.md) at the profit-maximizing positive level of output}@}. {@{Producing anything}@} would {@{not generate enough revenue to offset the associated variable costs}@}; {@{producing some output}@} would {@{add further costs in excess of revenues to the costs inevitably being incurred \(the [fixed costs](fixed%20cost.md)\)}@}. By {@{not producing, the firm loses only the fixed costs}@}. <!--SR:!2026-01-29,282,330!2026-01-02,260,330!2026-01-09,267,330!2027-04-30,626,330!2026-02-01,285,330!2025-12-15,247,330-->
 

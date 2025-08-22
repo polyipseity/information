@@ -1150,7 +1150,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \end{array}$$}@} <!--SR:!2025-08-22,170,310-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 5      & 9      & 9      & 5      & 4      & 4      & 5      \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline \times & 9      & 9      & \times & \times & \times & \times \\ \hline 8      & \times & \times & 8      & 3      & 3      & 8      \\ \hline \end{array}$$}@} <!--SR:!2027-08-23,731,330-->
 
 <!-- markdownlint MD028 -->
 

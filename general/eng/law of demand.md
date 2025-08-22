@@ -120,7 +120,7 @@ If {@{an increase in the price of a commodity causes households to expect the pr
 
 ### certain scenarios in stock trading
 
-{@{Stock buyers acting in accord with the [hot-hand fallacy](hot%20hand.md)}@} will {@{increase buying when stock prices are trending upward}@}.<sup>[\[20\]](#^ref-20)</sup> {@{Other rationales for buying a high-priced stock}@} are that {@{previous buyers who bid up the price are proof of the issue's quality, or conversely, that an issue's low price may be evidence of viability problems}@}. Likewise, {@{demand among short traders during a [short squeeze](short%20squeeze.md)}@} can {@{increase as price increases}@}. <!--SR:!2027-07-09,728,330!2026-01-18,339,349!2025-12-31,325,349!2027-12-21,855,330!2026-01-31,351,349!2025-08-22,201,310-->
+{@{Stock buyers acting in accord with the [hot-hand fallacy](hot%20hand.md)}@} will {@{increase buying when stock prices are trending upward}@}.<sup>[\[20\]](#^ref-20)</sup> {@{Other rationales for buying a high-priced stock}@} are that {@{previous buyers who bid up the price are proof of the issue's quality, or conversely, that an issue's low price may be evidence of viability problems}@}. Likewise, {@{demand among short traders during a [short squeeze](short%20squeeze.md)}@} can {@{increase as price increases}@}. <!--SR:!2027-07-09,728,330!2026-01-18,339,349!2025-12-31,325,349!2027-12-21,855,330!2026-01-31,351,349!2028-01-01,862,330-->
 
 ### Veblen goods
 

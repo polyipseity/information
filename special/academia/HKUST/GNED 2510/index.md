@@ -177,7 +177,7 @@ The content is in teaching order.
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2028-08-22,1111,350-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2028-09-03,1119,350!2025-10-24,303,330-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2027-10-18,854,330!2028-01-18,939,350-->
-  - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2025-09-03,266,330-->
+  - STAR-r / action ::@:: explain what you did <!--SR:!2028-11-15,1181,350!2025-09-03,266,330-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2028-09-08,1126,350!2025-10-21,300,330-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2028-08-17,1106,350!2028-09-10,1126,350-->
 

@@ -192,7 +192,7 @@ The content is in teaching order.
     - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2026-12-02,527,270!2025-11-22,290,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2028-09-23,1148,350!2027-03-30,715,330-->
     - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2028-07-08,1091,350!2028-05-21,1057,350-->
-  - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2028-04-04,1016,350!2025-08-22,274,330-->
+  - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2028-04-04,1016,350!2029-01-20,1247,350-->
     - bar chart / _R_ ::@:: use `barplot(...)` <!--SR:!2027-11-20,888,330!2025-10-15,314,330-->
 - [sampling](../../../../general/sampling%20(statistics).md) ::@:: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2027-05-06,736,330!2027-03-27,712,330-->
   - sampling / [errors](../../../../general/sampling%20(statistics).md#errors%20in%20sample%20surveys) ::@:: It is very important to sample correctly. Some biases include survivorship bias (as demonstration, unlikely related in most statistics), selection bias, non-response bias (participation bias), and voluntary response bias. <!--SR:!2025-09-26,252,270!2026-01-26,341,290-->

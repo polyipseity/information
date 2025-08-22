@@ -41,4 +41,4 @@ tags:
     - (root) / liabilities and stockholders' equity / current liabilities ::@:: example: <br/> accounts payable <br/> unearned revenue <br/> accrued expenses payable (+) <br/> total current liabilities: sum above appropriately <!--SR:!2025-10-06,187,270!2026-01-20,287,290-->
       - (root) / liabilities and stockholders' equity / current liabilities / accrued expenses payable ::@:: example: <br/> wages payable <br/> utilities payable <br/> current lease liabilities <!--SR:!2026-09-23,476,310!2026-07-05,424,310-->
     - (root) / liabilities and stockholders' equity / stockholders' equity ::@:: example: <br/> common stock (\$0.01 par value) <br/> additional paid-in capital <br/> treasury stock <br/> retained earnings <br/> total stockholders' equity: sum above <!--SR:!2025-12-01,228,270!2025-10-20,216,270-->
-- validation ::@:: Total assets should equal total liabilities and stockholders' equity. <!--SR:!2025-08-22,180,310!2027-03-30,639,330-->
+- validation ::@:: Total assets should equal total liabilities and stockholders' equity. <!--SR:!2027-10-02,771,330!2027-03-30,639,330-->

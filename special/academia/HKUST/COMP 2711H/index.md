@@ -55,7 +55,7 @@ The content is in teaching order.
     - conjunction (and) ::@:: $p \land q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 0 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2028-03-15,992,350!2025-10-04,301,343-->
     - implication (if-then) ::@:: $p \rightarrow q$: $$\begin{aligned} (0, 0) & \mapsto 1 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2025-09-15,286,343!2025-10-26,320,343-->
     - boolean algebra operations / order of operations ::@:: $\lnot$ > $\lor, \land$ > $\rightarrow$ <!--SR:!2027-09-06,824,330!2025-09-22,291,343-->
-  - [tautology](../../../../general/tautology%20(logic).md) (true) ::@:: A proposition that is always true, no matter how the atomic propositions (terms with no operations) are assigned. <!--SR:!2025-09-08,261,323!2025-08-22,248,323-->
+  - [tautology](../../../../general/tautology%20(logic).md) (true) ::@:: A proposition that is always true, no matter how the atomic propositions (terms with no operations) are assigned. <!--SR:!2025-09-08,261,323!2028-09-01,1106,343-->
     - [§ tautology](../../../../general/tautology%20(logic).md#tautology)
   - [contradiction](../../../../general/contradiction.md) (false) ::@:: A proposition that is always false, no matter how the atomic propositions (terms with no operations) are assigned. <!--SR:!2027-02-06,678,343!2025-09-28,297,343-->
     - [§ contradiction](../../../../general/contradiction.md#contradiction)

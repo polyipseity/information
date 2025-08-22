@@ -141,7 +141,7 @@ Viewing {@{complex numbers as 2-dimensional [vectors](Euclidean%20vector.md)}@},
 
 By {@{[Cauchy's theorem](Cauchy's%20integral%20theorem.md)}@}, {@{the left-hand integral is zero}@} when {@{$f(z)$ is analytic \(satisfying the [Cauchy–Riemann equations](Cauchy–Riemann%20equations.md)\) for any smooth closed curve L}@}. Correspondingly, by {@{[Green's theorem](Green's%20theorem.md)}@}, {@{the right-hand integrals are zero}@} when {@{$\mathbf {F} ={\overline {f(z)} }$ is [irrotational](conservative%20vector%20field.md) \([curl](curl%20(mathematics).md)-free\) and [incompressible](incompressible%20flow.md) \([divergence](divergence.md)-free\)}@}. In fact, {@{the Cauchy-Riemann equations for $f(z)$ are identical to the vanishing of curl and divergence for __F__}@}. <!--SR:!2025-09-19,60,310!2025-09-25,66,310!2025-09-21,62,310!2025-09-18,59,310!2025-09-19,60,310!2025-09-17,58,310!2025-09-26,67,310-->
 
-By {@{[Green's theorem](Green's%20theorem.md)}@}, {@{the area of a region enclosed by a smooth, closed, positively oriented curve $L$}@} is given by {@{the integral ${\frac {1}{2i} }\int _{L}{\overline {z} }\,dz$}@}. This fact is used, for example, in {@{the proof of the [area theorem](area%20theorem%20(conformal%20mapping).md)}@}. <!--SR:!2025-09-24,65,310!2025-09-23,64,310!2025-08-22,38,290!2025-09-22,63,310-->
+By {@{[Green's theorem](Green's%20theorem.md)}@}, {@{the area of a region enclosed by a smooth, closed, positively oriented curve $L$}@} is given by {@{the integral ${\frac {1}{2i} }\int _{L}{\overline {z} }\,dz$}@}. This fact is used, for example, in {@{the proof of the [area theorem](area%20theorem%20(conformal%20mapping).md)}@}. <!--SR:!2025-09-24,65,310!2025-09-23,64,310!2026-01-25,156,310!2025-09-22,63,310-->
 
 ## quantum mechanics
 

@@ -47,7 +47,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←Light a wooden splint. <!--SR:!2026-12-21,973,330!2028-06-01,1468,350-->
 - Light a wooden splint.→::@::←Blow out the flame. <!--SR:!2026-12-24,975,330!2028-01-04,1350,350-->
-- Blow out the flame.→::@::←Introduce the [ember](ember.md) into the gas sample trapped in a container. <!--SR:!2025-08-22,596,270!2026-02-01,724,310-->
+- Blow out the flame.→::@::←Introduce the [ember](ember.md) into the gas sample trapped in a container. <!--SR:!2031-10-16,2246,290!2026-02-01,724,310-->
 - Introduce the [ember](ember.md) into the gas sample trapped in a container.→::@::←Positive: The ember flares and reignites. <!--SR:!2029-06-06,1711,330!2028-02-15,1321,310-->
 - Positive: The ember flares and reignites.→::@::←_(end)_ <!--SR:!2028-03-23,1410,350!2026-01-11,771,330-->
 

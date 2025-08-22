@@ -26,7 +26,7 @@ Due to increased [polarizability](polarizability.md), haloalkanes have {@{higher
 
 ### density
 
-Density {@{decreases}@} with increasing size. <!--SR:!2025-08-22,607,310-->
+Density {@{decreases}@} with increasing size. <!--SR:!2032-10-11,2607,330-->
 
 ### solubility
 

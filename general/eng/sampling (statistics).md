@@ -76,7 +76,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 
 After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!2026-10-21,571,310!2027-08-09,800,330-->
 
-A particular problem involves {@{_non-response_}@}. Two major types of non-response exist: {@{unit non-response and item non-response}@}. <!--SR:!2025-09-18,294,330!2025-08-22,272,330-->
+A particular problem involves {@{_non-response_}@}. Two major types of non-response exist: {@{unit non-response and item non-response}@}. <!--SR:!2025-09-18,294,330!2029-01-10,1237,350-->
 
 - unit non-response ::@:: lack of completion of any part of the survey <!--SR:!2028-07-25,1106,350!2025-09-11,288,330-->
 - item non-response ::@:: submission or participation in survey but failing to complete one or more components/questions of the survey <!--SR:!2027-03-29,717,330!2025-08-24,276,330-->

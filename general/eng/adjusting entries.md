@@ -33,7 +33,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 ### prepayments
 
-{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2027-06-16,760,330!2026-03-12,401,310!2028-03-25,995,350-->
+{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2028-11-13,1179,350!2027-06-16,760,330!2026-03-12,401,310!2028-03-25,995,350-->
 
 {@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2027-07-04,773,330!2027-09-26,837,330!2025-09-04,269,330-->
 
