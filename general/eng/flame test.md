@@ -13,7 +13,7 @@ tags:
 
 ## procedure
 
-The test involves {@{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}@}. An example workflow can be found below: <!--SR:!2025-08-25,616,290-->
+The test involves {@{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}@}. An example workflow can be found below: <!--SR:!2032-06-11,2482,310-->
 
 ```Python
 # pytextgen generate data

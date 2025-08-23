@@ -126,7 +126,7 @@ In economics, {@{__superior goods__ or __luxury goods__}@} make up {@{a larger _
 
 > {@{![Crown of Empress Farah Pahlavi of Iran](../../archives/Wikimedia%20Commons/Výstava%20valtice6.JPG)}@}
 >
-> {@{Crown of Empress [Farah Pahlavi](Farah%20Pahlavi.md) of Iran}@} <!--SR:!2025-11-04,266,330!2025-08-25,195,310-->
+> {@{Crown of Empress [Farah Pahlavi](Farah%20Pahlavi.md) of Iran}@} <!--SR:!2025-11-04,266,330!2027-12-12,839,330-->
 
 {@{Several manufactured products attain the status of "luxury goods"}@} due to {@{their design, quality, durability, or performance, which are superior to comparable substitutes}@}.<sup>[\[35\]](#^ref-35)</sup> <!--SR:!2025-11-12,274,330!2025-11-29,288,330-->
 

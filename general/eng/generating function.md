@@ -237,7 +237,7 @@ Tools for processing and working with _P_-recursive sequences in {@{_[Mathematic
 
 - see: [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md)
 
-When {@{the series [converges absolutely](absolute%20convergence.md)}@}, {@{$$G\left(a_{n};e^{-i\omega }\right)=\sum _{n=0}^{\infty }a_{n}e^{-i\omega n}$$}@} is {@{the discrete-time Fourier transform of the sequence _a_<sub>0</sub>, _a_<sub>1</sub>, ...}@}. <!--SR:!2025-08-25,224,310!2027-01-22,529,270!2026-05-20,427,310-->
+When {@{the series [converges absolutely](absolute%20convergence.md)}@}, {@{$$G\left(a_{n};e^{-i\omega }\right)=\sum _{n=0}^{\infty }a_{n}e^{-i\omega n}$$}@} is {@{the discrete-time Fourier transform of the sequence _a_<sub>0</sub>, _a_<sub>1</sub>, ...}@}. <!--SR:!2027-07-20,694,310!2027-01-22,529,270!2026-05-20,427,310-->
 
 ### asymptotic growth of a sequence
 
@@ -401,7 +401,7 @@ As an observation, we may approach the question by {@{counting the number of way
 
 ### implicit generating functions and the Lagrange inversion formula
 
-One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} <!--SR:!2025-08-25,224,310!2026-05-12,395,270!2028-04-07,957,330-->
+One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} <!--SR:!2028-04-12,961,330!2026-05-12,395,270!2028-04-07,957,330-->
 
 {@{The Lagrange Inversion Theorem}@} is {@{a tool used to explicitly evaluate solutions to such equations}@}. <!--SR:!2025-09-29,272,330!2025-11-12,303,330-->
 

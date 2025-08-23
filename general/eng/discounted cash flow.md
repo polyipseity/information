@@ -45,7 +45,7 @@ In {@{__discount cash flow analysis__}@}, {@{all future cash flows are estimated
 
 For further context see [Valuation \(finance\) § Valuation overview](valuation%20(finance).md#valuation%20overview); and for the mechanics see [valuation using discounted cash flows](valuation%20using%20discounted%20cash%20flows.md), which includes {@{modifications typical for [startups](startup.md), [private equity](private%20equity.md) and [venture capital](venture%20capital.md), [corporate finance](corporate%20finance.md) "projects", and [mergers and acquisitions](mergers%20and%20acquisitions.md)}@}. <!--SR:!2025-10-11,187,310-->
 
-{@{Using DCF analysis to compute the NPV}@} takes {@{as input cash flows and a discount rate and gives as output a present value}@}. {@{The opposite process}@} takes {@{cash flows and a price \([present value](present%20value.md)\) as inputs, and provides as output the discount rate}@}; this is used in {@{bond markets to obtain the [yield](yield%20(finance).md)}@}. <!--SR:!2026-02-17,293,330!2025-08-25,152,310!2026-01-21,272,330!2026-04-04,333,349!2026-02-16,292,330-->
+{@{Using DCF analysis to compute the NPV}@} takes {@{as input cash flows and a discount rate and gives as output a present value}@}. {@{The opposite process}@} takes {@{cash flows and a price \([present value](present%20value.md)\) as inputs, and provides as output the discount rate}@}; this is used in {@{bond markets to obtain the [yield](yield%20(finance).md)}@}. <!--SR:!2026-02-17,293,330!2027-06-08,652,330!2026-01-21,272,330!2026-04-04,333,349!2026-02-16,292,330-->
 
 ## history
 

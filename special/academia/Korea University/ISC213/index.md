@@ -82,7 +82,7 @@ The content is in teaching order.
   - business process / brief ::@:: a set of activities to flow material, information, and knowledge <!--SR:!2025-10-15,74,328!2025-10-09,69,328-->
   - business process / business ::@:: a collection of business processes <!--SR:!2025-10-10,69,328!2025-10-16,75,328-->
   - business process / types ::@:: functional, cross-functional <!--SR:!2025-10-16,75,328!2025-10-09,69,328-->
-    - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\) <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
+    - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\) <!--SR:!2025-08-27,25,375!2025-12-18,115,395-->
   - business process / functions ::@:: finance and accounting, human resources, manufacturing and production, sales and marketing, etc. <!--SR:!2025-10-15,74,328!2025-10-09,69,328-->
     - business process / functions / manufacturing and production ::@:: assembly, bill of materials, quality check <!--SR:!2025-10-10,69,328!2025-10-15,74,328-->
     - business process / functions / sales and marketing ::@:: customer identification, marketing, sales <!--SR:!2025-10-13,72,328!2025-10-16,75,328-->
@@ -106,7 +106,7 @@ The content is in teaching order.
   - decision support system / types ::@:: data driven vs. model driven <!--SR:!2025-10-12,71,328!2025-10-13,72,328-->
   - decision support system / components ::@:: User commands model and data. Model commands data.  <p> Then feedback goes in the opposite direction; that is, model and data give feedback to user. Data gives feedback to model. <!--SR:!2025-10-11,70,328!2025-10-12,71,328-->
 - [executive information system](../../../../general/exeuctive%20information%20system.md) \(EIS\) ::@:: It is a type of management support system that facilitates and supports senior executive information and decision-making needs. <!--SR:!2025-10-11,70,328!2025-10-14,73,328-->
-  - executive information system / aliases ::@:: executive information system \(EIS\), executive support system \(ESS\) \(__this course__: Use ESS.\) <!--SR:!2025-08-25,23,375!2025-08-27,25,375-->
+  - executive information system / aliases ::@:: executive information system \(EIS\), executive support system \(ESS\) \(__this course__: Use ESS.\) <!--SR:!2025-12-22,119,395!2025-08-27,25,375-->
   - executive information system / users ::@:: support senior management <!--SR:!2025-10-13,72,328!2025-10-10,69,328-->
   - executive information system / usage ::@:: use external data, MIS, and DSS to address _high-level non-routine_ decisions <!--SR:!2025-10-12,71,328!2025-10-11,70,328-->
   - executive information system / examples ::@:: digital dashboard, which are a set of electronic displays of key performance indicators on a single screen, e.g. financial performance <p> \(__this course__: in midterm examination\) <!--SR:!2025-10-12,71,328!2025-10-14,73,328-->
@@ -181,8 +181,8 @@ The content is in teaching order.
     - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet. <!--SR:!2025-10-23,82,349!2025-10-25,84,349-->
     - Porter's five forces analysis / internet / entrants ::@:: The internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier. <!--SR:!2025-10-22,81,349!2025-10-23,82,349-->
     - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors. <!--SR:!2025-10-25,84,349!2025-10-24,83,349-->
-  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. Essentially all firms in the industry become more profitable. <!--SR:!2025-08-25,24,375!2025-08-26,24,375-->
-- [benchmarking](../../../../general/benchmarking.md) ::@:: It is the practice of comparing business processes and performance metrics to industry bests and best practices from other companies. Dimensions typically measured are quality, time and cost. <p> \(__this course__: in midterm examination\) <!--SR:!2025-08-25,24,375!2025-08-25,23,375-->
+  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. Essentially all firms in the industry become more profitable. <!--SR:!2025-12-25,122,395!2025-08-26,24,375-->
+- [benchmarking](../../../../general/benchmarking.md) ::@:: It is the practice of comparing business processes and performance metrics to industry bests and best practices from other companies. Dimensions typically measured are quality, time and cost. <p> \(__this course__: in midterm examination\) <!--SR:!2025-12-25,122,395!2025-12-21,118,395-->
 - [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates. <!--SR:!2025-10-24,83,349!2025-10-23,82,349-->
   - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching <!--SR:!2025-10-25,84,349!2025-10-26,85,349-->
   - strategic management / low cost ::@:: IT can help product products and services at a lower cost than competitors while maintaining acceptable quality. <p> examples: Walmart <!--SR:!2025-10-23,82,349!2025-10-25,84,349-->
@@ -375,38 +375,38 @@ The content is in teaching order.
 - datetime: 2025-07-15T09:00:00+09:00/2025-07-15T10:40:00+09:00, PT1H40M
   - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
 - topic: foundations of business intelligence
-- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2025-08-25,23,375!2025-08-26,24,375-->
-  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
+- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2025-12-18,115,395!2025-08-26,24,375-->
+  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-08-26,24,375!2025-12-19,116,395-->
   - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>&nbsp;B\), exabytes \(EB, 1000<sup>6</sup>&nbsp;B\), etc. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
 - business intelligence
-  - business intelligence / infrastructure ::@:: many tools for big data and separate systems <!--SR:!2025-08-25,24,375!2025-08-27,25,375-->
-  - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc. <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
-- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
-- [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. <!--SR:!2025-08-25,23,375!2025-08-26,24,375-->
-- [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers. <!--SR:!2025-08-25,23,375!2025-08-27,25,375-->
-  - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\) <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
+  - business intelligence / infrastructure ::@:: many tools for big data and separate systems <!--SR:!2025-12-25,122,395!2025-08-27,25,375-->
+  - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc. <!--SR:!2025-08-27,25,375!2025-12-23,120,395-->
+- [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2025-12-20,117,395!2025-12-18,115,395-->
+- [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. <!--SR:!2025-12-24,121,395!2025-08-26,24,375-->
+- [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers. <!--SR:!2025-12-23,120,395!2025-08-27,25,375-->
+  - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\) <!--SR:!2025-08-27,25,375!2025-12-21,118,395-->
 - [in-memory processing](../../../../general/in-meemory%20processing.md) ::@:: It is a software architecture where a database is kept entirely in random-access memory \(RAM\) or flash memory so that usual accesses, in particular read or query operations, do not require access to disk storage. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
   - in-memory processing / advantages ::@:: This may allow faster data operations such as "joins", and faster reporting and decision-making in business. <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
   - in-memory processing / requirements ::@:: dedicated hardware optimized for in-memory processing are needed <!--SR:!2025-08-27,25,375!2025-08-27,25,375-->
 - [online analytical processing](../../../../general/online%20analytical%20processing.md) \(OLAP\) ::@:: It is an approach to quickly answer multi-dimensional analytical \(MDA\) queries. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
   - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
 - [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
-  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
-  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
-- [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources". <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
-  - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
+  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-08-26,24,375!2025-12-19,116,395-->
+  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-08-26,24,375!2025-12-20,117,395-->
+- [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources". <!--SR:!2025-08-27,25,375!2025-12-20,117,395-->
+  - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2025-12-20,117,395!2025-12-23,120,395-->
   - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
 - data mining
-  - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc. <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
+  - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc. <!--SR:!2025-12-18,115,395!2025-12-18,115,395-->
 - [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information. <!--SR:!2025-08-27,25,375!2025-08-26,24,375-->
   - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data <!--SR:!2025-08-27,25,375!2025-08-26,24,375-->
   - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2025-08-27,25,375!2025-08-26,25,375-->
-  - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
+  - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-12-21,118,395!2025-12-19,116,395-->
   - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - information policy / database administration ::@:: create and maintain databases <!--SR:!2025-12-17,115,395!2025-08-25,23,375-->
-- [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
-  - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
-  - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-08-26,24,375!2025-08-25,24,375-->
+  - information policy / database administration ::@:: create and maintain databases <!--SR:!2025-12-17,115,395!2025-12-19,116,395-->
+- [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-08-27,25,375!2025-12-18,115,395-->
+  - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2025-08-27,25,375!2025-12-24,121,395-->
+  - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-08-26,24,375!2025-12-25,122,395-->
 - assignment: [quiz 6](questions/quiz%206.md)
 
 ## week 3 lecture 3
@@ -416,22 +416,22 @@ The content is in teaching order.
 - topic: hands-on exercise: predictive text analytics with Altair AI studio
 - reading: Weiguo Fan, Linda Wallace, Stephanie Rich, and Zhongju Zhang. 2006. Tapping the power of text mining. Commun. ACM 49, 9 \(September 2006\), 76–82. <https://doi.org/10.1145/1151030.1151032>
 - text mining
-  - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge <!--SR:!2025-08-25,23,375!2025-08-26,24,375-->
-  - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends. <!--SR:!2025-08-26,24,375!2025-08-25,24,375-->
-  - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
-  - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\) <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
-  - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
+  - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge <!--SR:!2025-12-22,119,395!2025-08-26,24,375-->
+  - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends. <!--SR:!2025-08-26,24,375!2025-12-25,122,395-->
+  - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc. <!--SR:!2025-08-26,24,375!2025-12-23,120,395-->
+  - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\) <!--SR:!2025-12-19,116,395!2025-12-23,120,395-->
+  - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery <!--SR:!2025-08-27,25,375!2025-12-22,119,395-->
 - true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2025-08-25,23,375!2025-08-26,24,375-->
+- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2025-12-20,117,395!2025-08-26,24,375-->
 - false positive \(FP\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-- false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
+- false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2025-08-27,25,375!2025-12-22,119,395-->
 - [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$ <!--SR:!2025-08-27,25,375!2025-08-27,25,375-->
   - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$ <!--SR:!2025-08-26,24,375!2025-08-26,25,375-->
-- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
+- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-08-26,24,375!2025-12-19,116,395-->
 - [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$ <!--SR:!2025-08-26,24,375!2025-08-26,25,375-->
-- [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2025-08-25,23,375!2025-08-27,25,375-->
+- [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2025-12-18,115,395!2025-08-27,25,375-->
 - [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted. <!--SR:!2025-08-25,24,375!2025-08-25,23,375-->
+  - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted. <!--SR:!2025-12-25,122,395!2025-12-24,121,395-->
 
 ## week 3 lecture 4
 
@@ -478,34 +478,34 @@ The content is in teaching order.
   - local: 2025-07-21T08:00:00+08:00/2025-07-21T09:40:00+08:00, PT1H40M
 - topic: hands-on exercise: building corpus
 - Altair AI Studio
-  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 6 functions to create a corpus: "create document", "process documents from data", "process documents from files", "read Excel", "read Excel &gt; data to documents", and "read document". <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
+  - Altair AI Studio / building corpus ::@:: Install the "Text Processing" extension. Then it provides 6 functions to create a corpus: "create document", "process documents from data", "process documents from files", "read Excel", "read Excel &gt; data to documents", and "read document". <!--SR:!2025-08-27,25,375!2025-12-21,118,395-->
 
 ## week 4 lecture 2
 
 - datetime: 2025-07-22T09:00:00+09:00/2025-07-22T10:40:00+09:00, PT1H40M
   - local: 2025-07-22T08:00:00+08:00/2025-07-22T09:40:00+08:00, PT1H40M
 - topic: managing knowledge, artificial intelligence
-- [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill. <!--SR:!2025-08-25,23,375!2025-08-27,25,375-->
+- [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill. <!--SR:!2025-12-19,116,395!2025-08-27,25,375-->
   - knowledge / nature ::@:: different forms, experiences network effect, intangible, situational \(_not_ timeless\) <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
-  - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
-  - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc. <!--SR:!2025-08-25,23,375!2025-08-27,25,375-->
+  - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources. <!--SR:!2025-08-26,24,375!2025-12-24,121,395-->
+  - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc. <!--SR:!2025-12-19,116,395!2025-08-27,25,375-->
   - knowledge / taxonomy ::@:: It is a scheme to classify information and knowledge meaningfully. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
 - [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization. <!--SR:!2025-08-27,25,375!2025-08-26,25,375-->
   - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
   - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes <!--SR:!2025-08-26,24,375!2025-08-26,25,375-->
-- [knowledge management](../../../../general/knowledge%20management.md) \(KM\) ::@:: It is the set of procedures for producing, disseminating, utilizing, and overseeing an organization's knowledge and data. It alludes to a multidisciplinary strategy that maximizes knowledge utilization to accomplish organizational goals. <!--SR:!2025-08-25,23,375!2025-08-25,24,375-->
+- [knowledge management](../../../../general/knowledge%20management.md) \(KM\) ::@:: It is the set of procedures for producing, disseminating, utilizing, and overseeing an organization's knowledge and data. It alludes to a multidisciplinary strategy that maximizes knowledge utilization to accomplish organizational goals. <!--SR:!2025-12-22,119,395!2025-12-24,121,395-->
   - knowledge management / value chain ::@:: acquire: business analytics, data mining, machine learning, etc. → store: content management systems, etc. → disseminate: portals, search engines, etc. → apply: decision support systems, enterprise applications, robotics, etc. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-- [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed. <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
+- [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed. <!--SR:!2025-12-21,118,395!2025-12-20,117,395-->
   - knowledge management system / types ::@:: 3 major types: enterprise-wide KMS, intelligent techniques, knowledge work systems <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc. <!--SR:!2025-08-25,23,375!2025-08-26,25,375-->
-  - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
+  - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc. <!--SR:!2025-12-21,118,395!2025-08-26,25,375-->
+  - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc. <!--SR:!2025-08-26,24,375!2025-12-22,119,395-->
   - knowledge management system / intelligent techniques ::@:: tools to discover patterns in knowledge and apply them for decision making and knowledge domains <p> examples: computer vision, data mining, expert systems, genetic algorithms, machine learning, intelligent agents, etc. <!--SR:!2025-08-27,25,375!2025-08-27,25,375-->
 - [expert system](../../../../general/expert%20system.md) ::@:: It is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code. <!--SR:!2025-08-28,26,380!2025-08-27,26,380-->
   - expert system / knowledge base ::@:: It is a body of human knowledge manually inputted by experts. It is often restricted to narrowly defined domains. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
 - knowledge management
-  - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured. <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
-- [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
-- [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
+  - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured. <!--SR:!2025-12-20,117,395!2025-12-22,119,395-->
+- [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness. <!--SR:!2025-08-26,24,375!2025-12-21,118,395-->
+- [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-08-26,24,375!2025-12-23,120,395-->
 - knowledge management system
   - knowledge management system / intelligent techniques
     - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc. <!--SR:!2025-12-18,116,395!2025-08-27,25,375-->

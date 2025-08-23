@@ -414,7 +414,7 @@ Markov chains are employed in {@{[algorithmic music composition](algorithmic%20c
 
 Markov chains can be {@{used structurally}@}, as in {@{Xenakis's Analogique A and B}@}.<sup>[\[98\]](#^ref-98)</sup> Markov chains are also used in {@{systems which use a Markov model to react interactively to music input}@}.<sup>[\[99\]](#^ref-99)</sup> <!--SR:!2026-04-11,389,367!2027-03-03,600,321!2026-02-24,350,359-->
 
-Usually musical systems need to {@{enforce specific control constraints on the finite-length sequences they generate}@}, but {@{control constraints are not compatible with Markov models}@}, since {@{they induce long-range dependencies that violate the Markov hypothesis of limited memory}@}. In order to {@{overcome this limitation}@}, {@{a new approach has been proposed}@}.<sup>[\[100\]](#^ref-100)</sup> <!--SR:!2027-02-10,588,321!2026-04-20,394,367!2025-08-25,182,319!2026-01-27,323,341!2026-04-07,384,367-->
+Usually musical systems need to {@{enforce specific control constraints on the finite-length sequences they generate}@}, but {@{control constraints are not compatible with Markov models}@}, since {@{they induce long-range dependencies that violate the Markov hypothesis of limited memory}@}. In order to {@{overcome this limitation}@}, {@{a new approach has been proposed}@}.<sup>[\[100\]](#^ref-100)</sup> <!--SR:!2027-02-10,588,321!2026-04-20,394,367!2027-11-08,805,339!2026-01-27,323,341!2026-04-07,384,367-->
 
 ### baseball
 

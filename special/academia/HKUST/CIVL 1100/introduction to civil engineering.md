@@ -983,7 +983,7 @@ Two Prudential Plaza
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2028-09-25,1218,337!2025-12-02,475,387-->
-- Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2029-04-02,1381,354!2025-08-25,342,340-->
+- Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2029-04-02,1381,354!2030-01-12,1601,360-->
 - China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-11-16,275,240-->
 - Two Prudential Plaza→::@::←_(end)_ <!--SR:!2027-09-14,930,375!2029-06-29,1424,340-->
 

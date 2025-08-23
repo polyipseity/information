@@ -206,7 +206,7 @@ Information economics is {@{a branch of microeconomic theory}@} that studies {@{
 
 ## applied
 
-[Applied](applied%20economics.md) microeconomics includes {@{a range of specialized areas of study, many of which draw on methods from other fields}@}. <!--SR:!2025-08-25,255,330-->
+[Applied](applied%20economics.md) microeconomics includes {@{a range of specialized areas of study, many of which draw on methods from other fields}@}. <!--SR:!2028-10-31,1163,350-->
 
 - [economic history](economic%20history.md) ::@:: It examines the evolution of the economy and economic institutions, using methods and techniques from the fields of economics, history, geography, sociology, psychology, and political science. <!--SR:!2026-05-27,403,290!2027-09-06,816,330-->
 - [education economics](education%20economics.md) ::@:: It examines the organization of education provision and its implication for efficiency and equity, including the effects of education on productivity. <!--SR:!2026-07-17,494,310!2026-12-12,614,330-->

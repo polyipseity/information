@@ -84,7 +84,7 @@ The content is in teaching order.
 - datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics
 - [statistics](../../../../general/statistics.md)
-  - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2025-08-25,272,330!2025-11-26,309,290-->
+  - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2029-01-13,1237,350!2025-11-26,309,290-->
     - statistics / definition (data) / examples ::@:: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2025-12-21,353,310!2028-04-30,1041,350-->
   - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2028-08-08,1119,350!2028-01-12,933,330-->
     - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2028-09-11,1144,350!2026-10-01,554,310-->
@@ -169,7 +169,7 @@ The content is in teaching order.
   - quartile ::@:: 1st quartile/lower quartile (Q1) = 25th percentile/0.25 quantile, 2nd quartile/median (Q2) = 50th percentile/0.50 quantile, 3rd quartile/upper quartile (Q3) = 75th percentile/0.75 quantile <!--SR:!2028-08-20,1125,350!2027-08-31,818,330-->
     - quartile / procedure ::@:: One would find the quartiles hard to define when the number of samples is not divisible by 4. In this case, there are many different ways to define them, and we will use the following equation (this is different from that in HKDSE): $$x(p) = \frac 1 2 \left(x_{\lfloor np + 0.5 \rfloor} + x_{\lceil np + 0.5 \rceil} \right) \qquad p = 0.25, 0.50, 0.75$$. <!--SR:!2027-05-09,739,330!2026-04-14,392,290-->
     - quartile / _R_ ::@:: use `quantile(...)`, not `quartile` (note that the procedure of `quantile` is different from discussed above) <!--SR:!2027-04-25,725,330!2028-02-09,969,350-->
-  - extrema ::@:: 0th quartile/minimum (Q0) = 0th percentile/0.00 quantile, 4th quartile/maximum (Q4) = 100th percentile/1.00 quantile <!--SR:!2028-10-01,1156,350!2025-08-25,276,330-->
+  - extrema ::@:: 0th quartile/minimum (Q0) = 0th percentile/0.00 quantile, 4th quartile/maximum (Q4) = 100th percentile/1.00 quantile <!--SR:!2028-10-01,1156,350!2029-02-01,1256,350-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
   - box plot ::@:: A box plot labels the least data that is not an outlier (instead of the value $Q_1 - 1.5 \cdot \text{IQR}$), the lower quartile (Q1), median (Q2), upper quartile (Q3), and the greatest data that is not an outlier (instead of the value $Q_3 + 1.5 \cdot \text{IQR}$) as lines; and outliers as dots (with "min" and "max" labels on 2 of them). Additional lines are added so that the lines of Q1 and Q3 forms a rectangle (box). (See that thing on Canvas grade stats...?) <!--SR:!2026-05-23,416,290!2026-05-31,418,290-->
     - box plot / outliers ::@:: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007). <!--SR:!2025-10-04,277,290!2026-04-13,391,290-->

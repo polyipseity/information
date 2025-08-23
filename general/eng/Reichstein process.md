@@ -35,7 +35,7 @@ return await memorize_seq(
 
 > {@{![overview of Reichstein process](../../archives/Wikimedia%20Commons/Synthesis%20ascorbic%20acid.svg)}@}
 >
-> overview of Reichstein process <!--SR:!2025-08-25,522,255-->
+> overview of Reichstein process <!--SR:!2029-04-16,1330,255-->
 
 <!--pytextgen generate section="d894"--><!-- The following content is generated at 2025-01-15T17:04:39.496890+08:00. Any edits will be overridden! -->
 

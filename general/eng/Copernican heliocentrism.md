@@ -62,7 +62,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(center) [Sun](Sun.md) <!--SR:!2028-01-18,1009,350!2026-07-11,522,310-->
 - (center) [Sun](Sun.md)→::@::←[Mercury](Mercury%20(planet).md) <!--SR:!2029-05-11,1383,350!2028-04-21,1001,330-->
-- [Mercury](Mercury%20(planet).md)→::@::←[Venus](Venus.md) <!--SR:!2025-08-25,174,270!2026-01-14,377,290-->
+- [Mercury](Mercury%20(planet).md)→::@::←[Venus](Venus.md) <!--SR:!2026-12-15,477,270!2026-01-14,377,290-->
 - [Venus](Venus.md)→::@::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2025-11-29,346,290!2026-05-18,504,310-->
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→::@::←[Mars](Mars.md) <!--SR:!2027-06-27,824,330!2025-09-27,323,290-->
 - [Mars](Mars.md)→::@::←[Jupiter](Jupiter.md) <!--SR:!2028-01-01,918,330!2026-02-22,440,310-->

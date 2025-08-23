@@ -44,7 +44,7 @@ The content is in teaching order.
 - a core question of microeconomics ::@:: What do you WANT? <!--SR:!2025-12-20,350,350!2027-09-09,807,332-->
 - course logistics
   - course intended learning outcomes (CILOs) ::@:: microeconomic analysis, decision making, demand-supply framework, market mechanism in different market structures, economic effect of the government, application <!--SR:!2025-11-15,320,332!2026-08-08,504,312-->
-  - objectives ::@:: to analyze situations through the lens of microeconomics, but not memorization (Of course, some is still required...); a "way of economic thinking" should be developed on your own at the end <!--SR:!2025-08-25,251,330!2028-04-28,984,332-->
+  - objectives ::@:: to analyze situations through the lens of microeconomics, but not memorization (Of course, some is still required...); a "way of economic thinking" should be developed on your own at the end <!--SR:!2028-10-09,1141,350!2028-04-28,984,332-->
 - strength and weaknesses of economics ::@:: It can explain how rational individuals make choice under constraints. But it cannot explain well how a group of people (the society) evolve over a long period time; instead, these are studied by history, psychology, sociology, etc. <!--SR:!2025-11-20,313,310!2027-12-22,889,332-->
 - quirks about the professor ::@:: He does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good). <!--SR:!2028-09-22,1131,352!2025-09-20,260,330-->
 - discussions

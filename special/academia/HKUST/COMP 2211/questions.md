@@ -1406,7 +1406,7 @@ tags:
 > 3. Training data
 >
 > - solution: {@{1}@}
-> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-11-04,244,330!2025-08-25,183,310-->
+> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-11-04,244,330!2027-03-15,567,310-->
 
 <!-- markdownlint MD028 -->
 
