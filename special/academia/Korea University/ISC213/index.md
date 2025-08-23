@@ -403,7 +403,7 @@ The content is in teaching order.
   - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2025-08-27,25,375!2025-08-26,25,375-->
   - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-08-25,23,375!2025-08-25,23,375-->
   - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - information policy / database administration ::@:: create and maintain databases <!--SR:!2025-08-24,23,375!2025-08-25,23,375-->
+  - information policy / database administration ::@:: create and maintain databases <!--SR:!2025-12-17,115,395!2025-08-25,23,375-->
 - [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
   - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2025-08-27,25,375!2025-08-25,23,375-->
   - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-08-26,24,375!2025-08-25,24,375-->
@@ -508,7 +508,7 @@ The content is in teaching order.
 - [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-08-26,24,375!2025-08-25,23,375-->
 - knowledge management system
   - knowledge management system / intelligent techniques
-    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc. <!--SR:!2025-08-24,23,375!2025-08-27,25,375-->
+    - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc. <!--SR:!2025-12-18,116,395!2025-08-27,25,375-->
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
 
 ## week 4 lecture 3

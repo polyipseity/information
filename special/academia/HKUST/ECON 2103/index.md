@@ -137,7 +137,7 @@ The content is in teaching order.
 - announcements
   - assigned reading: textbook chapter 3
   - assignment: [problem set 3](assignments/problem%20set%203/submission.md)
-- exchange ::@:: It is transferring things with economic value to others, with said others giving back other things with economic value, usually money. <!--SR:!2025-08-24,250,330!2027-11-27,867,332-->
+- exchange ::@:: It is transferring things with economic value to others, with said others giving back other things with economic value, usually money. <!--SR:!2028-10-04,1137,350!2027-11-27,867,332-->
   - exchange / When? ::@:: The first scenario is maybe we have the same item, but said item has different economic values to us. Or I have more of the item so its marginal utility to me is low due to the law of diminishing marginal utility. The second scenario is we produce different items, and we produce our own item at a lower cost (= opportunity cost) than anyone can. The second one is more significant. In both cases, both parties benefit from exchange. In the latter case, it also leads to specialization of production. <!--SR:!2028-05-25,1009,332!2026-01-14,332,310-->
 - [factors of production](../../../../general/factors%20of%20production.md) ::@:: labor, capital, land, and entrepreneur/enterprise <!--SR:!2025-12-24,355,350!2025-09-11,268,332-->
   - [§ factors of production](../../../../general/factors%20of%20production.md#factors%20of%20production)

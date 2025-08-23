@@ -96,7 +96,7 @@ return await memorize_table(
 
 > | character | description |
 > |-|-|
-> | {@{_n_$}@} | {@{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}@} | <!--SR:!2025-08-24,531,317!2027-03-15,1006,349-->
+> | {@{_n_$}@} | {@{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}@} | <!--SR:!2032-01-05,2325,337!2027-03-15,1006,349-->
 
 <!--/pytextgen-->
 

@@ -46,7 +46,7 @@ Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are 
 
 ### arrow category
 
-$S$ and $T$ are {@{[identity functors](identity%20functor.md#identity%20functor) on ${\mathcal {C} }$ \(so ${\mathcal {A} }={\mathcal {B} }={\mathcal {C} }$\)}@}. {@{$${\mathcal {C} }\xrightarrow {\;\;\mathrm {id} _{\mathcal {C} }\;\;} {\mathcal {C} }\xleftarrow {\;\;\mathrm {id} _{\mathcal {C} }\;\;} {\mathcal {C} }$$}@} In this case, the comma category is {@{the arrow category ${\mathcal {C} }^{\rightarrow }$}@}. Its objects are {@{the morphisms of ${\mathcal {C} }$}@}, and its morphisms are {@{commuting squares in ${\mathcal {C} }$.<sup>[\[1\]](#^ref-1)</sup> <p> &emsp; ![Arrow Diagram](../../archives/Wikimedia%20Commons/Arrow%20Diagram.png)}@} <!--SR:!2026-02-10,298,342!2025-12-09,246,330!2025-08-24,157,314!2026-04-22,355,354!2026-02-06,295,342-->
+$S$ and $T$ are {@{[identity functors](identity%20functor.md#identity%20functor) on ${\mathcal {C} }$ \(so ${\mathcal {A} }={\mathcal {B} }={\mathcal {C} }$\)}@}. {@{$${\mathcal {C} }\xrightarrow {\;\;\mathrm {id} _{\mathcal {C} }\;\;} {\mathcal {C} }\xleftarrow {\;\;\mathrm {id} _{\mathcal {C} }\;\;} {\mathcal {C} }$$}@} In this case, the comma category is {@{the arrow category ${\mathcal {C} }^{\rightarrow }$}@}. Its objects are {@{the morphisms of ${\mathcal {C} }$}@}, and its morphisms are {@{commuting squares in ${\mathcal {C} }$.<sup>[\[1\]](#^ref-1)</sup> <p> &emsp; ![Arrow Diagram](../../archives/Wikimedia%20Commons/Arrow%20Diagram.png)}@} <!--SR:!2026-02-10,298,342!2025-12-09,246,330!2027-07-07,682,334!2026-04-22,355,354!2026-02-06,295,342-->
 
 ### other variations
 

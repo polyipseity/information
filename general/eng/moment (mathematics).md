@@ -21,7 +21,7 @@ In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@}
 
 ## significance of the moments
 
-{@{The _n_-th raw moment \(i.e., moment about zero\)}@} of {@{a random variable $X$ with density function $f(x)$}@} is defined by<sup>[\[2\]](#^ref-2)</sup> {@{$$\mu '_{n}=\langle X^{n}\rangle ~{\overset {\mathrm {def} }{=} }~{\begin{cases}\sum _{i}x_{i}^{n}f(x_{i}),&{\text{discrete distribution} }\\[1.2ex]\int x^{n}f(x)\,dx,&{\text{continuous distribution} }\end{cases} }$$}@} <!--SR:!2025-08-24,179,310!2026-10-30,500,310!2027-09-03,746,330-->
+{@{The _n_-th raw moment \(i.e., moment about zero\)}@} of {@{a random variable $X$ with density function $f(x)$}@} is defined by<sup>[\[2\]](#^ref-2)</sup> {@{$$\mu '_{n}=\langle X^{n}\rangle ~{\overset {\mathrm {def} }{=} }~{\begin{cases}\sum _{i}x_{i}^{n}f(x_{i}),&{\text{discrete distribution} }\\[1.2ex]\int x^{n}f(x)\,dx,&{\text{continuous distribution} }\end{cases} }$$}@} <!--SR:!2027-10-08,775,330!2026-10-30,500,310!2027-09-03,746,330-->
 
 {@{The _n_-th moment}@} of {@{a [real](real%20number.md)-valued continuous random variable with density function $f(x)$}@} {@{about a value $c$ is the [integral](integral.md) $$\mu _{n}=\int _{-\infty }^{\infty }(x-c)^{n}\,f(x)\,\mathrm {d} x.$$}@} <!--SR:!2026-01-04,287,330!2025-12-17,273,330!2025-08-28,182,310-->
 

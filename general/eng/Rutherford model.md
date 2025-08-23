@@ -10,7 +10,7 @@ The __{@{Rutherford}@} model__ is {@{a historical scientific model of the [atom]
 
 ## problems
 
-Orbiting electrons {@{undergo acceleration}@}, so {@{[electromagnetic waves](electromagnetic%20radiation.md) should be emitted}@}. The electrons {@{lose energy}@}, {@{spiralling inwards and collapsing into the nucleus}@}. This is problematic as {@{the model implies all atoms are unstable}@}. Also, as the electrons spiral inwards, {@{the frequency of emission increases}@} as {@{the orbital period becomes shorter}@}, so {@{a continuous spectrum of electromagnetic radiation should be emitted}@}. However, it is observed that {@{radiation are emitted at discrete frequencies}@}. <!--SR:!2027-03-16,1049,290!2026-09-01,964,290!2026-07-20,1018,330!2026-02-07,813,290!2026-10-13,907,290!2025-08-24,629,255!2026-07-18,926,290!2026-02-11,742,275!2029-05-05,1614,275-->
+Orbiting electrons {@{undergo acceleration}@}, so {@{[electromagnetic waves](electromagnetic%20radiation.md) should be emitted}@}. The electrons {@{lose energy}@}, {@{spiralling inwards and collapsing into the nucleus}@}. This is problematic as {@{the model implies all atoms are unstable}@}. Also, as the electrons spiral inwards, {@{the frequency of emission increases}@} as {@{the orbital period becomes shorter}@}, so {@{a continuous spectrum of electromagnetic radiation should be emitted}@}. However, it is observed that {@{radiation are emitted at discrete frequencies}@}. <!--SR:!2027-03-16,1049,290!2026-09-01,964,290!2026-07-20,1018,330!2026-02-07,813,290!2026-10-13,907,290!2031-10-15,2243,275!2026-07-18,926,290!2026-02-11,742,275!2029-05-05,1614,275-->
 
 ## references
 

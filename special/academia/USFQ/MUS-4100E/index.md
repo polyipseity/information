@@ -235,7 +235,7 @@ The content is in teaching order.
   - the Great Migration / why leave ::@:: better jobs, better education, escape persecution <!--SR:!2026-09-20,473,398!2026-10-22,493,398-->
 - [Harlem Renaissance](../../../../general/Harlem%20Renaissance.md) (1918–mid-1930s) ::@:: The birth of artistic, cultural, and social development within African American communities, named after Harlem, New York City, United States. Fields covered include music (including jazz), poetry, politics, psychology, theater, etc. <!--SR:!2026-03-10,314,378!2027-03-16,591,358-->
   - Harlem Renaissance / notable residents ::@:: Langston Hughes (poet), W.E.B Du Bois (sociologist), Duke Ellington (musician) <!--SR:!2026-05-15,346,378!2027-03-09,592,358-->
-  - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2025-08-24,142,338!2025-11-04,207,358-->
+  - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2027-06-12,657,358!2025-11-04,207,358-->
   - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2026-11-14,516,398!2026-11-26,528,398-->
 - [jazz](../../../../general/jazz.md)
   - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2026-10-20,491,398!2026-06-02,364,378-->

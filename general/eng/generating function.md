@@ -79,7 +79,7 @@ The [main article](lambert%20series.md) provides {@{several more classical, or a
 
 > [!tip] tips
 >
-> - strategy for proving $$\sum _{n=1}^{\infty }{\frac {q^{n}x^{n} }{1-x^{n} } }=\sum _{n=1}^{\infty }{\frac {q^{n}x^{n^{2} } }{1-qx^{n} } }+\sum _{n=1}^{\infty }{\frac {q^{n}x^{n(n+1)} }{1-x^{n} } }$$ ::@:: Apply Maclaurin series on the three sums and rearrange the sums to become divisor sums. Rearranging the sums to become divisor sums is more complicated then it seems, and is best visualized using a grid. <!--SR:!2025-08-24,202,270!2026-11-14,481,270-->
+> - strategy for proving $$\sum _{n=1}^{\infty }{\frac {q^{n}x^{n} }{1-x^{n} } }=\sum _{n=1}^{\infty }{\frac {q^{n}x^{n^{2} } }{1-qx^{n} } }+\sum _{n=1}^{\infty }{\frac {q^{n}x^{n(n+1)} }{1-x^{n} } }$$ ::@:: Apply Maclaurin series on the three sums and rearrange the sums to become divisor sums. Rearranging the sums to become divisor sums is more complicated then it seems, and is best visualized using a grid. <!--SR:!2027-02-20,545,270!2026-11-14,481,270-->
 
 ### Bell series
 
@@ -401,7 +401,7 @@ As an observation, we may approach the question by {@{counting the number of way
 
 ### implicit generating functions and the Lagrange inversion formula
 
-One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} <!--SR:!2025-08-25,224,310!2026-05-12,395,270!2025-08-24,223,310-->
+One often encounters generating functions {@{specified by a functional equation, instead of an explicit specification}@}. For example, the generating function _T(z)_ for {@{the number of binary trees on _n_ nodes (leaves included)}@} satisfies {@{$$T(z)=z\left(1+T(z)^{2}\right)$$}@} <!--SR:!2025-08-25,224,310!2026-05-12,395,270!2028-04-07,957,330-->
 
 {@{The Lagrange Inversion Theorem}@} is {@{a tool used to explicitly evaluate solutions to such equations}@}. <!--SR:!2025-09-29,272,330!2025-11-12,303,330-->
 
