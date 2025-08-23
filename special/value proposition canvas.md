@@ -256,7 +256,7 @@ conclusion: make progress
 
 <!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2029-03-30,1422,367-->
+- _(begin)_→::@::←hypothesis: extract hypotheses <!--SR:!2029-11-04,1534,329!2029-03-30,1422,367-->
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2030-05-24,1756,369!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2026-07-28,572,309!2026-08-01,542,270-->
 - test: design tests→::@::←test: prioritize tests <!--SR:!2028-10-26,1201,329!2025-11-28,450,310-->

@@ -130,7 +130,7 @@ Let _U_ be {@{an [open set](open%20set.md) in __R__<sup>_n_</sup>}@}. If {@{the 
 
 As a consequence, {@{the usual properties of the derivative}@} {@{hold for the gradient}@}, though {@{the gradient is not a derivative itself}@}, but rather {@{dual to the derivative}@}: \(annotation: 3 items: {@{linearity, product rule, chain rule}@}\) <!--SR:!2025-09-13,54,310!2025-10-04,74,329!2025-10-06,76,329!2025-09-15,56,310!2025-09-19,60,310-->
 
-__[Linearity](linearity.md)__ <p> ::@:: &emsp; The gradient is linear in the sense that if _f_ and _g_ are two real-valued functions differentiable at the point _a_ ∈ __R__<sup>_n_</sup>, and _α_ and _β_ are two constants, then _αf_ + _βg_ is differentiable at _a_, and moreover $$\nabla \left(\alpha f+\beta g\right)(a)=\alpha \nabla f(a)+\beta \nabla g(a).$$ <!--SR:!2025-08-23,38,290!2026-01-19,151,310-->
+__[Linearity](linearity.md)__ <p> ::@:: &emsp; The gradient is linear in the sense that if _f_ and _g_ are two real-valued functions differentiable at the point _a_ ∈ __R__<sup>_n_</sup>, and _α_ and _β_ are two constants, then _αf_ + _βg_ is differentiable at _a_, and moreover $$\nabla \left(\alpha f+\beta g\right)(a)=\alpha \nabla f(a)+\beta \nabla g(a).$$ <!--SR:!2026-01-26,156,310!2026-01-19,151,310-->
 
 __[Product rule](product%20rule.md)__ <p> ::@:: &emsp; If _f_ and _g_ are real-valued functions differentiable at a point _a_ ∈ __R__<sup>_n_</sup>, then the product rule asserts that the product _fg_ is differentiable at _a_, and $$\nabla (fg)(a)=f(a)\nabla g(a)+g(a)\nabla f(a).$$ <!--SR:!2025-10-03,73,329!2025-10-02,72,329-->
 

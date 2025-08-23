@@ -579,7 +579,7 @@ tags:
 > 1. increased cash
 > 2. decreased cash
 >
-> - solution: {@{1}@} <!--SR:!2025-08-23,122,399-->
+> - solution: {@{1}@} <!--SR:!2027-06-17,663,419-->
 
 <!-- markdownlint MD028 -->
 

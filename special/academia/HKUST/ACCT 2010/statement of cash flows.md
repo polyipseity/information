@@ -20,7 +20,7 @@ tags:
 ## examples
 
 - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) ::@:: ![`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) <!--SR:!2025-12-08,234,270!2027-01-10,556,310-->
-  - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) / note ::@:: It is using the direct method instead of indirect method, however... The format otherwise looks pretty good. <!--SR:!2025-08-23,179,310!2025-12-06,276,330-->
+  - [`11 Statement Cash Flows Trust Funds.jpg`](../../../../archives/Wikimedia%20Commons/11%20Statement%20Cash%20Flows%20Trust%20Funds.jpg) / note ::@:: It is using the direct method instead of indirect method, however... The format otherwise looks pretty good. <!--SR:!2027-10-05,773,330!2025-12-06,276,330-->
 
 ## format
 
@@ -29,7 +29,7 @@ tags:
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-11-03,253,330!2025-11-18,264,330-->
 - dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2027-01-15,560,310!2027-06-20,698,330-->
 - total ::@:: Calculate "net cash provided by operating activities", "net cash provided by investing activities", "net cash provided by financing activities", and "cash & cash equivalents at end of period" from "cash & cash equivalents at beginning of period". <!--SR:!2026-12-24,545,310!2027-10-23,796,330-->
-  - total / format ::@:: Add a (over)line above the total. <p> For "cash & cash equivalents at end of period", additionally add double (under)lines below the total. <!--SR:!2025-08-23,181,310!2025-11-06,255,330-->
+  - total / format ::@:: Add a (over)line above the total. <p> For "cash & cash equivalents at end of period", additionally add double (under)lines below the total. <!--SR:!2027-10-14,782,330!2025-11-06,255,330-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-10-26,245,330!2025-12-11,281,330-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-10-27,246,330!2027-09-22,763,330-->
 - (root) ::@:: cash flows from operating activities (+) <br/> cash flows for investing activities (+) <br/> cash flows from financing activities (+) <br/> net increase (decrease) in cash & cash equivalents: sum above <br/> cash & cash equivalents at beginning of period <br/> cash & cash equivalents at end of period: sum appropriately <!--SR:!2026-02-09,304,290!2027-01-12,521,270-->

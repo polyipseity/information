@@ -97,7 +97,7 @@ Significant determinants include:
 
 __Complexity of production:__ Much depends on {@{the complexity of the production process}@}. Textile production is {@{relatively simple}@}. The labor is {@{largely unskilled and production facilities are little more than buildings—no special structures are needed}@}. Thus, {@{the PES for textiles is elastic}@}. On the other hand, the PES for {@{specific types of motor vehicles is relatively inelastic}@}. Auto manufacture is {@{a multi-stage process that requires specialized equipment, skilled labor, a large suppliers network and large R&D costs}@}. <!--SR:!2025-11-12,277,330!2025-11-28,291,330!2025-11-26,290,330!2027-10-26,806,330!2025-11-05,272,330!2026-10-02,498,310-->
 
-__Time to respond:__ ::@:: The more time a producer has to respond to price changes the more elastic the supply. For example, a cotton farmer cannot immediately respond to an increase in the price of soybeans. <!--SR:!2025-08-23,198,310!2025-11-10,275,330-->
+__Time to respond:__ ::@:: The more time a producer has to respond to price changes the more elastic the supply. For example, a cotton farmer cannot immediately respond to an increase in the price of soybeans. <!--SR:!2027-12-20,849,330!2025-11-10,275,330-->
 
 __Excess capacity:__ ::@:: A producer who has unused capacity can quickly respond to price changes in his market assuming that variable factors are readily available. <!--SR:!2025-11-09,276,330!2025-10-16,256,330-->
 

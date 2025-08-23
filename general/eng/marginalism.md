@@ -86,7 +86,7 @@ The _rate of substitution_ is {@{the _least favorable_ rate at which an agent is
 
 When {@{goods and services are [discrete](discrete%20mathematics.md)}@}, the least favorable rate at which an agent would trade A for B will {@{usually be different from that at which she would trade B for A: $$MRS_{AB}\neq {\frac {1}{MRS_{BA} } }$$}@}. <!--SR:!2025-12-10,343,347!2025-10-10,295,347-->
 
-When {@{the goods and services are continuously divisible in the [limiting case](limiting%20case%20(mathematics).md)}@}: {@{$$MRS_{AB}={\frac {1}{MRS_{BA} } }$$}@} and the marginal rate of substitution is {@{the slope of the [indifference curve](indifference%20curve.md) (multiplied by $-1$)}@}. <!--SR:!2025-09-05,262,330!2026-01-02,360,347!2025-08-23,239,327-->
+When {@{the goods and services are continuously divisible in the [limiting case](limiting%20case%20(mathematics).md)}@}: {@{$$MRS_{AB}={\frac {1}{MRS_{BA} } }$$}@} and the marginal rate of substitution is {@{the slope of the [indifference curve](indifference%20curve.md) (multiplied by $-1$)}@}. <!--SR:!2025-09-05,262,330!2026-01-02,360,347!2028-08-05,1078,347-->
 
 If, for example, Lisa {@{will not trade a goat for anything less than two sheep}@}, then her {@{$$MRS_{SG}={\frac {2{\text{ sheep} } }{\text{goat} } }$$}@}. <!--SR:!2025-10-26,306,347!2025-10-25,305,347-->
 

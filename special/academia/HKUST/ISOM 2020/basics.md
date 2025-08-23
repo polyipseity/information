@@ -82,7 +82,7 @@ return _chain.from_iterable(await _gather(
 - `*`:@:multiplication <!--SR:!2025-10-26,325,342-->
 - `/`:@:division <!--SR:!2029-01-10,1247,362-->
 - `//`:@:floor division <!--SR:!2025-10-21,320,342-->
-- `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-08-23,273,342-->
+- `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2029-02-28,1285,362-->
 - `+`:@:addition <!--SR:!2025-09-03,282,342-->
 - `-`:@:subtraction <!--SR:!2025-10-22,321,342-->
 
@@ -144,7 +144,7 @@ return _chain.from_iterable(await _gather(
 - `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
 - `<=`→::@::←`>` <!--SR:!2025-09-28,295,369!2025-09-27,298,369-->
 - `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2026-06-19,510,389-->
-- `>=`→::@::←`!=` <!--SR:!2025-08-23,265,369!2026-03-19,409,329-->
+- `>=`→::@::←`!=` <!--SR:!2029-04-23,1339,389!2026-03-19,409,329-->
 - `!=`→::@::←`==` <!--SR:!2025-10-05,304,369!2026-05-21,485,389-->
 - `==`→::@::←_(end)_ <!--SR:!2028-10-19,1185,389!2025-12-19,354,369-->
 
@@ -273,9 +273,9 @@ Below are common data types:
 - `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2029-01-25,1255,362-->
 - `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2027-05-03,726,330-->
 - `int` :@: An integer. Example: `42`. <!--SR:!2025-09-26,300,342-->
-- `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2025-08-23,273,342-->
+- `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2029-02-27,1284,362-->
 
-Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2027-11-15,893,342!2027-01-23,661,330!2025-08-23,270,363-->
+Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2027-11-15,893,342!2027-01-23,661,330!2029-04-28,1344,383-->
 
 To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2025-10-28,325,342!2028-05-18,1040,342!2027-09-10,831,342!2025-08-30,276,330-->
 

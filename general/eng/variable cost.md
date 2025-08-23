@@ -36,7 +36,7 @@ The level of variable cost is {@{influenced by many factors}@}, such as {@{[fixe
 
 Some common examples include {@{sales commission, labor costs, and the costs of [raw materials](raw%20material.md)}@}. <!--SR:!2026-08-12,434,310-->
 
-For {@{a [business which produces clothing](clothing%20industry.md)}@}, variable cost would include {@{the direct material, i.e., cloth, and the direct labor}@}. If the business uses {@{a room, a [sewing machine](sewing%20machine.md)}@}, and 8 hours of a laborer's time with 6 yards of cloth to make a shirt, then {@{the cost of labor and cloth increases if two shirts are produced}@}, and {@{those are the variable costs}@}. {@{The facility and equipment}@} are {@{fixed costs, incurred regardless of whether even one shirt is made}@}. <!--SR:!2025-12-10,259,330!2027-08-03,711,330!2026-01-23,294,330!2025-08-23,167,310!2025-12-13,261,330!2025-12-09,258,330!2026-01-23,294,330-->
+For {@{a [business which produces clothing](clothing%20industry.md)}@}, variable cost would include {@{the direct material, i.e., cloth, and the direct labor}@}. If the business uses {@{a room, a [sewing machine](sewing%20machine.md)}@}, and 8 hours of a laborer's time with 6 yards of cloth to make a shirt, then {@{the cost of labor and cloth increases if two shirts are produced}@}, and {@{those are the variable costs}@}. {@{The facility and equipment}@} are {@{fixed costs, incurred regardless of whether even one shirt is made}@}. <!--SR:!2025-12-10,259,330!2027-08-03,711,330!2026-01-23,294,330!2027-08-09,716,330!2025-12-13,261,330!2025-12-09,258,330!2026-01-23,294,330-->
 
 |                                  | 0 shirts  | 1 shirt   | 2 shirts  | 3 shirts  |
 | -------------------------------- | --------- | --------- | --------- | --------- |

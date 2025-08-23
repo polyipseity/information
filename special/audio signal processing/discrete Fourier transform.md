@@ -129,7 +129,7 @@ Fast Fourier transform (__FFT__) is {@{a fast algorithm for computing the DFT of
 
 Its time complexity, that is {@{how the running time grows with input size}@}, is {@{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}@}. This means {@{for large input sizes, much time can be saved}@}. So in practice, {@{FFT is used over the traditional DFT}@}. <!--SR:!2026-01-23,409,373!2025-09-05,292,353!2028-12-29,1253,373!2028-08-05,1136,373-->
 
-The most common form of FFT is {@{the Cooley–Tukey algorithm}@} that {@{divides the signal into 2 equal-length signals recursively}@}, so {@{it requires the input size to be a power of 2}@}. This can be fixed using {@{[zero padding](#zero%20padding)}@}. This algorithm also {@{has other variants that divide the signal into arbitrary many equal-length signals recursively}@}, but this will not be discussed here. <!--SR:!2028-04-27,1057,373!2025-08-23,280,353!2028-10-22,1197,373!2028-07-04,1109,373!2029-02-22,1295,373-->
+The most common form of FFT is {@{the Cooley–Tukey algorithm}@} that {@{divides the signal into 2 equal-length signals recursively}@}, so {@{it requires the input size to be a power of 2}@}. This can be fixed using {@{[zero padding](#zero%20padding)}@}. This algorithm also {@{has other variants that divide the signal into arbitrary many equal-length signals recursively}@}, but this will not be discussed here. <!--SR:!2028-04-27,1057,373!2029-05-12,1358,373!2028-10-22,1197,373!2028-07-04,1109,373!2029-02-22,1295,373-->
 
 Note that when {@{zero padding a signal for FFT}@}, it is important to {@{apply the zero-centered variant instead of the causal one}@}. (The reason is mentioned above already.) <!--SR:!2025-09-06,294,353!2026-01-18,404,373-->
 

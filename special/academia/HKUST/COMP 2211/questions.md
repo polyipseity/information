@@ -1013,7 +1013,7 @@ tags:
 > 3. Reducing the number of training data can help avoid over-fitting.
 > 4. Reducing the number of training epochs can help avoid over-fitting.
 >
-> - solution: {@{3}@} <!--SR:!2025-08-23,181,310-->
+> - solution: {@{3}@} <!--SR:!2027-10-15,783,330-->
 
 <!-- markdownlint MD028 -->
 
