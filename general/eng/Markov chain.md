@@ -233,7 +233,7 @@ The terminology is {@{inconsistent}@}. Given {@{a Markov chain with a stationary
 
 ### Markovian representations
 
-In some cases, {@{apparently non-Markovian processes may still have Markovian representations}@}, constructed by {@{expanding the concept of the "current" and "future" states}@}. For example, let {@{_X_ be a non-Markovian process}@}. Then {@{define a process _Y_, such that each state of _Y_ represents a time-interval of states of _X_}@}. Mathematically, this takes the form: {@{$$Y(t)={\big \{}X(s):s\in [a(t),b(t)]\,{\big \} }.$$}@} If {@{_Y_ has the Markov property}@}, then {@{it is a Markovian representation of _X_}@}. <!--SR:!2025-08-28,198,321!2026-04-23,398,367!2026-04-22,397,367!2026-05-03,406,367!2026-05-04,407,367!2026-03-11,364,367!2026-05-05,408,367-->
+In some cases, {@{apparently non-Markovian processes may still have Markovian representations}@}, constructed by {@{expanding the concept of the "current" and "future" states}@}. For example, let {@{_X_ be a non-Markovian process}@}. Then {@{define a process _Y_, such that each state of _Y_ represents a time-interval of states of _X_}@}. Mathematically, this takes the form: {@{$$Y(t)={\big \{}X(s):s\in [a(t),b(t)]\,{\big \} }.$$}@} If {@{_Y_ has the Markov property}@}, then {@{it is a Markovian representation of _X_}@}. <!--SR:!2028-01-25,880,341!2026-04-23,398,367!2026-04-22,397,367!2026-05-03,406,367!2026-05-04,407,367!2026-03-11,364,367!2026-05-05,408,367-->
 
 {@{An example of a non-Markovian process with a Markovian representation}@} is {@{an [autoregressive](autoregressive%20model.md) [time series](time%20series.md) of order greater than one}@}.<sup>[\[58\]](#^ref-58)</sup> <!--SR:!2027-12-08,843,341!2026-01-29,325,341-->
 

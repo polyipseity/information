@@ -115,7 +115,7 @@ A situation in a market when {@{the price is such that the quantity demanded by 
 
 #### changes in market equilibrium
 
-{@{Practical uses of supply and demand analysis}@} often center on {@{the different variables that change equilibrium price and quantity, represented as shifts in the respective curves}@}. {@{[Comparative statics](comparative%20statics.md) of such a shift}@} traces {@{the effects from the initial equilibrium to the new equilibrium}@}. <!--SR:!2025-10-24,269,330!2025-10-08,257,330!2025-08-28,221,330!2025-11-03,277,330-->
+{@{Practical uses of supply and demand analysis}@} often center on {@{the different variables that change equilibrium price and quantity, represented as shifts in the respective curves}@}. {@{[Comparative statics](comparative%20statics.md) of such a shift}@} traces {@{the effects from the initial equilibrium to the new equilibrium}@}. <!--SR:!2025-10-24,269,330!2025-10-08,257,330!2028-06-01,1008,350!2025-11-03,277,330-->
 
 #### demand curve shifts
 

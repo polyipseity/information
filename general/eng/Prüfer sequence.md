@@ -27,7 +27,7 @@ One can {@{generate a labeled tree's Prüfer sequence}@} by {@{iteratively remov
 
 The Prüfer sequence of a labeled tree is {@{unique and has length _n_ − 2}@}. <!--SR:!2025-09-15,246,330-->
 
-{@{Both coding and decoding}@} can be {@{reduced to integer radix sorting and parallelized}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-08-28,231,330!2028-07-02,1041,350-->
+{@{Both coding and decoding}@} can be {@{reduced to integer radix sorting and parallelized}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-07-14,1051,350!2028-07-02,1041,350-->
 
 ### example
 

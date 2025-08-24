@@ -60,7 +60,7 @@ There are {@{several instructions that modify the stack memory and the `rsp` and
 - `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2025-09-03,267,330!2028-06-28,1069,350-->
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2025-10-06,293,330!2027-09-26,832,330-->
 - `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2025-10-06,286,330!2028-10-09,1147,350-->
-- `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2025-09-04,268,330!2025-08-28,229,290-->
+- `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2025-09-04,268,330!2028-03-08,923,310-->
 - `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2027-01-02,586,310!2026-02-03,335,290-->
 
 A related instruction is {@{`lea`}@}: <!--SR:!2025-10-01,288,330-->
@@ -96,7 +96,7 @@ To {@{see the registers and the stack while running a program}@}, we will use {@
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
 - `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2028-10-12,1150,350!2025-10-10,290,330-->
-- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-10-11,291,330!2025-08-28,261,330-->
+- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-10-11,291,330!2028-11-27,1187,350-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-15,276,330!2025-10-18,298,330-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-10-27,1165,350!2027-04-04,704,330-->
 - `set args <args>...` ::@:: set program args <!--SR:!2025-09-20,281,330!2027-08-25,811,330-->

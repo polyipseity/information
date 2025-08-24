@@ -438,7 +438,7 @@ The content is in teaching order.
 - datetime: 2025-03-12T16:30:00+08:00/2025-03-12T17:50:00+08:00, PT1H20M
 - topic: measuring cash flows
 
-- [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity. <!--SR:!2025-09-11,139,403!2025-08-28,127,403-->
+- [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX) ::@:: Money spent in buying and improving (repairs may or may not be included, depending on the repair nature) _fixed_ assets. <p> If insufficient, it limits operation capacity. If excessive, there is excess capacity. <!--SR:!2025-09-11,139,403!2027-07-31,702,423-->
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually <!--SR:!2026-11-08,479,403!2027-07-05,680,423-->
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2027-06-30,675,423!2026-11-01,472,403-->
 - [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system. <!--SR:!2025-09-10,138,403!2025-09-04,133,403-->
@@ -466,7 +466,7 @@ The content is in teaching order.
     - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2025-09-11,139,403!2026-10-28,468,403-->
     - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2025-09-05,134,403!2025-08-30,129,403-->
   - operating activities
-    - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2025-08-28,127,403!2025-08-30,129,403-->
+    - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2027-08-01,703,423!2025-08-30,129,403-->
     - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization, including impairment losses (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2026-03-01,270,383!2026-05-17,326,383-->
   - investing activities
     - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2025-09-03,132,403!2027-07-15,687,423-->

@@ -54,7 +54,7 @@ Sizes of heaps  Moves
 
 {@{The special names $*0$, $*1$, and $*2$}@} referenced in our example game are {@{called ___[nimbers](nimber.md)___}@}. In general, {@{the nimber $*n$}@} corresponds to {@{the position in a game of nim where there are exactly $n$ objects in exactly one heap}@}. Formally, nimbers are defined {@{inductively as follows: $*0$ is $\{\}$, $*1=\{*0\}$, $*2=\{*0,*1\}$ and for all $n\geq 0$, $*(n+1)=*n\cup \{*n\}$ (annotation: suspiciously looks like the [von Neumann construction of the natural numbers](set-theoretic%20definition%20of%20natural%20numbers.md) in set theory)}@}. <!--SR:!2025-10-17,227,330!2027-08-23,743,330!2025-12-21,279,330!2025-11-10,248,330!2025-10-17,227,330-->
 
-While {@{the word _nim_<!-- markdown separator -->ber comes from the game _nim_}@}, nimbers can be {@{used to describe the positions of any finite, impartial game}@}, and in fact, the Sprague–Grundy theorem states that {@{every instance of a finite, impartial game can be associated with a _single_ nimber}@}. <!--SR:!2026-01-07,294,330!2025-08-28,187,310!2027-05-26,674,330-->
+While {@{the word _nim_<!-- markdown separator -->ber comes from the game _nim_}@}, nimbers can be {@{used to describe the positions of any finite, impartial game}@}, and in fact, the Sprague–Grundy theorem states that {@{every instance of a finite, impartial game can be associated with a _single_ nimber}@}. <!--SR:!2026-01-07,294,330!2027-11-13,807,330!2027-05-26,674,330-->
 
 ### combining games
 
@@ -101,7 +101,7 @@ To {@{compute the starting position of the [combined game](#combined%20game)}@},
 
 {@{Two positions $G$ and $G'$ are ___equivalent___}@} if, {@{no matter what position $H$ is added to them, they are always in the same outcome class}@}. Formally, {@{$G\approx G'$}@} {@{if and only if $\forall H$, $G+H$ is in the same outcome class as $G'+H$}@}. <!--SR:!2025-11-14,251,330!2025-12-16,276,330!2025-12-30,287,330!2025-11-26,260,330-->
 
-To use our running examples, notice that in {@{both the [first](#example%20Nim%20game) and [second](#example%20game%202) games above}@}, we can show that {@{on every turn, Alice has a move that forces Bob into a ${\mathcal {P} }$-position}@}. Thus, {@{both $\color {blue}S$ and $\color {red}S'$ are ${\mathcal {N} }$-positions}@}. \(Notice that in {@{the combined game}@}, _Bob_ is {@{the player with the ${\mathcal {N} }$-positions}@}. In fact, {@{${\color {blue}S}+{\color {red}S'}$ is a ${\mathcal {P} }$-position}@}, which {@{as we will see in Lemma 2, means ${\color {blue}S} \approx {\color {red}S'}$}@}.\) <!--SR:!2025-08-28,186,310!2026-07-10,417,310!2025-11-17,254,330!2026-01-01,288,330!2025-09-29,198,310!2025-11-07,246,330!2026-01-01,289,330-->
+To use our running examples, notice that in {@{both the [first](#example%20Nim%20game) and [second](#example%20game%202) games above}@}, we can show that {@{on every turn, Alice has a move that forces Bob into a ${\mathcal {P} }$-position}@}. Thus, {@{both $\color {blue}S$ and $\color {red}S'$ are ${\mathcal {N} }$-positions}@}. \(Notice that in {@{the combined game}@}, _Bob_ is {@{the player with the ${\mathcal {N} }$-positions}@}. In fact, {@{${\color {blue}S}+{\color {red}S'}$ is a ${\mathcal {P} }$-position}@}, which {@{as we will see in Lemma 2, means ${\color {blue}S} \approx {\color {red}S'}$}@}.\) <!--SR:!2027-11-11,805,330!2026-07-10,417,310!2025-11-17,254,330!2026-01-01,288,330!2025-09-29,198,310!2025-11-07,246,330!2026-01-01,289,330-->
 
 ## First Lemma
 

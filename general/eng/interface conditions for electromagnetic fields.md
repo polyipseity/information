@@ -21,10 +21,10 @@ However, {@{the interface conditions for the electromagnetic field vectors}@} ca
 
 ### electric field strength
 
-\(annotation: $\mathbf E$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$ <!--SR:!2025-09-24,69,318!2025-08-28,44,298-->
+\(annotation: $\mathbf E$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$ <!--SR:!2025-09-24,69,318!2026-01-08,133,298-->
 
 where: <br/>
-$\mathbf {n} _{12}$ <!-- flashcard ID: 89355df4-5adb-4753-a348-713d05c62a3b -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2025-09-25,70,338!2025-08-28,47,318-->
+$\mathbf {n} _{12}$ <!-- flashcard ID: 89355df4-5adb-4753-a348-713d05c62a3b -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2025-09-25,70,338!2026-03-27,211,338-->
 
 Therefore, {@{the [tangential component](tangential%20component.md) of __E__}@} is {@{continuous across the interface}@}. <!--SR:!2025-09-23,68,318!2025-09-18,64,318-->
 

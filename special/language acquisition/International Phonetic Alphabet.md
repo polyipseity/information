@@ -435,7 +435,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [nasalized open back unrounded vowel](nasal%20vowel.md):@:\[ɑ̃\] <!--SR:!2030-11-23,1959,361-->
 - [open back rounded vowel](open%20back%20rounded%20vowel.md):@:\[ɒ\] <!--SR:!2030-10-03,2064,378-->
 - [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md):@:\[ʌ\] <!--SR:!2029-02-15,1480,360-->
-- [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md):@:\[æ\] <!--SR:!2025-08-28,581,361-->
+- [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md):@:\[æ\] <!--SR:!2033-07-11,2874,381-->
 - [voiced bilabial plosive](voiced%20bilabial%20plosive.md):@:\[b\] <!--SR:!2025-09-09,590,361-->
 - [voiced bilabial implosive](voiced%20bilabial%20implosive.md):@:\[ɓ\] <!--SR:!2026-05-25,699,341-->
 - [voiced bilabial fricative](voiced%20bilabial%20fricative.md):@:\[β\] <!--SR:!2027-04-23,873,338-->
@@ -822,7 +822,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg):@:[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!2025-09-07,24,210-->
 - ![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg):@:[voiced retroflex affricate](voiced%20retroflex%20affricate.md) <!--SR:!2026-11-11,486,214-->
 - ![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg):@:[close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md) <!--SR:!2026-10-18,658,251-->
-- ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg):@:[close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) <!--SR:!2025-08-28,26,130-->
+- ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg):@:[close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) <!--SR:!2025-10-01,34,130-->
 - ![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg):@:[mid central vowel](mid%20central%20vowel.md) <!--SR:!2025-09-07,45,150-->
 - ![r-colored mid central vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg):@:[r-colored mid central vowel](r-colored%20vowel.md) <!--SR:!2027-11-07,1007,299-->
 - ![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg):@:[open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md) <!--SR:!2025-09-17,29,130-->

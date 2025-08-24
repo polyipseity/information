@@ -11,7 +11,7 @@ tags:
 
 # Stirling numbers of the second kind
 
-In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatorics.md)}@}, {@{a __Stirling number of the second kind__ (or __Stirling partition number__)}@} is {@{the number of ways to [partition a set](partition%20of%20a%20set.md) of _n_ objects into _k_ non-empty subsets}@} and is denoted by {@{$S(n,k)$ or $\textstyle \left\{ {n \atop k}\right\}$}@}.<sup>[\[1\]](#^ref-1)</sup> Stirling numbers of the second kind occur in {@{the field of [mathematics](mathematics.md) called [combinatorics](combinatorics.md) and the study of [partitions](integer%20partition.md)}@}. They are named {@{after [James Stirling](James%20Stirling%20(mathematician).md)}@}. <!--SR:!2025-12-05,309,330!2025-12-05,309,330!2025-12-12,316,330!2025-12-09,313,330!2025-08-28,213,310!2025-12-01,306,330-->
+In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatorics.md)}@}, {@{a __Stirling number of the second kind__ (or __Stirling partition number__)}@} is {@{the number of ways to [partition a set](partition%20of%20a%20set.md) of _n_ objects into _k_ non-empty subsets}@} and is denoted by {@{$S(n,k)$ or $\textstyle \left\{ {n \atop k}\right\}$}@}.<sup>[\[1\]](#^ref-1)</sup> Stirling numbers of the second kind occur in {@{the field of [mathematics](mathematics.md) called [combinatorics](combinatorics.md) and the study of [partitions](integer%20partition.md)}@}. They are named {@{after [James Stirling](James%20Stirling%20(mathematician).md)}@}. <!--SR:!2025-12-05,309,330!2025-12-05,309,330!2025-12-12,316,330!2025-12-09,313,330!2028-02-26,912,330!2025-12-01,306,330-->
 
 {@{The Stirling numbers of the [first](Stirling%20numbers%20of%20the%20first%20kind.md) and second kind}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is {@{devoted to specifics of Stirling numbers of the second kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2025-11-27,303,330!2025-11-26,303,330!2025-11-26,303,330!2025-12-09,314,330-->
 
@@ -33,7 +33,7 @@ The notations used on this page for Stirling numbers are {@{not universal, and m
 
 - see: [Bell number](Bell%20number.md)
 
-Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2025-12-01,307,330!2025-12-08,313,330!2025-11-07,286,330!2025-08-28,213,310-->
+Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2025-12-01,307,330!2025-12-08,313,330!2025-11-07,286,330!2028-02-29,915,330-->
 
 Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-11-21,299,330!2026-12-01,560,310-->
 
@@ -129,7 +129,7 @@ If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20n
 
 For {@{fixed $n$}@}, $\left\{ {n \atop k}\right\}$ is {@{unimodal, that is, the sequence increases and then decreases}@}. The maximum is {@{attained for at most two consecutive values of _k_}@}. That is, there is {@{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}@} Looking at the table of values above, {@{the first few values for $k_{n}$}@} are {@{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}@} <!--SR:!2025-11-25,303,330!2025-09-12,225,310!2025-12-04,308,330!2028-01-19,886,330!2025-09-09,222,310!2026-09-28,448,250-->
 
-When {@{$n$ is large}@}, {@{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}@} and {@{the maximum value of the Stirling number}@} can be {@{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-08-29,214,310!2025-08-28,63,230!2026-12-07,562,310!2025-10-04,195,230-->
+When {@{$n$ is large}@}, {@{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}@} and {@{the maximum value of the Stirling number}@} can be {@{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-08-29,214,310!2026-03-26,210,250!2026-12-07,562,310!2025-10-04,195,230-->
 
 ## applications
 

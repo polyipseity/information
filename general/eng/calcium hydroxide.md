@@ -19,7 +19,7 @@ Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(
 
 > treating with [bases](base%20(chemistry).md)
 >
-> - {@{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}@} <!--SR:!2025-08-28,669,320-->
+> - {@{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}@} <!--SR:!2033-10-06,2961,340-->
 
 ## reactions
 

@@ -55,7 +55,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {@{a third parameter called step}@}. When omitted, it is {@{by default 1}@}. It determines {@{how many items to move forward after slicing an element}@}, and hence called step. For example, setting step to 3 means {@{every third element is sliced starting from the starting point}@}. Negative steps are also allowed, which simply means {@{going backwards}@}. Here are some more examples: <!--SR:!2026-01-08,483,310!2028-04-23,1197,350!2026-01-03,480,310!2025-08-28,379,290!2028-04-02,1183,350-->
+Lastly, slicing accepts {@{a third parameter called step}@}. When omitted, it is {@{by default 1}@}. It determines {@{how many items to move forward after slicing an element}@}, and hence called step. For example, setting step to 3 means {@{every third element is sliced starting from the starting point}@}. Negative steps are also allowed, which simply means {@{going backwards}@}. Here are some more examples: <!--SR:!2026-01-08,483,310!2028-04-23,1197,350!2026-01-03,480,310!2029-11-02,1527,310!2028-04-02,1183,350-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"

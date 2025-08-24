@@ -81,7 +81,7 @@ The __algebraic limit theorem__ states that {@{for [real](real%20number.md) or [
 > - addition ::@:: $\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$ <!--SR:!2027-12-29,1151,350!2028-01-09,1098,364-->
 > - subtraction ::@:: $\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$ <!--SR:!2027-07-02,1009,350!2030-02-11,1724,384-->
 > - multiplication ::@:: $\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$ <!--SR:!2027-09-20,1068,350!2026-10-10,723,344-->
-> - division ::@:: $\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$ <!--SR:!2025-08-28,466,310!2029-11-03,1646,384-->
+> - division ::@:: $\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$ <!--SR:!2031-02-17,1999,330!2029-11-03,1646,384-->
 > - exponentiation ::@:: $\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$  (If only [real](real%20number.md) $x$ is considered, the base, if it approaches 0, must approach it from the positive.) <!--SR:!2028-06-26,1128,270!2027-04-01,807,344-->
 
 #### determinate forms

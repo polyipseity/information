@@ -43,7 +43,7 @@ The coproduct of {@{a [poset category](poset%20category.md#in%20category%20theor
 
 As with {@{any [universal property](universal%20property.md)}@}, the coproduct can be {@{understood as a universal morphism}@}. Let {@{$\Delta :C\rightarrow C\times C$ be the [diagonal functor](diagonal%20functor.md)}@} which {@{assigns to each object $X$ the [ordered pair](ordered%20pair.md) $\left(X,X\right)$ and to each morphism $f:X\rightarrow Y$ the pair $\left(f,f\right)$}@}. Then {@{the coproduct $X+Y$ in $C$}@} is given by {@{a universal morphism to the functor $\Delta$ from the object $\left(X,Y\right)$ in $C\times C$}@}. <!--SR:!2026-02-10,292,330!2026-01-13,270,330!2026-01-07,265,330!2026-01-12,269,330!2025-12-16,248,330!2026-08-05,414,310-->
 
-{@{The coproduct indexed by the [empty set](empty%20set.md) \(that is, an _empty coproduct_\)}@} is the same as {@{an [initial object](initial%20object.md) in $C$}@}. <!--SR:!2026-01-27,281,330!2025-08-28,160,310-->
+{@{The coproduct indexed by the [empty set](empty%20set.md) \(that is, an _empty coproduct_\)}@} is the same as {@{an [initial object](initial%20object.md) in $C$}@}. <!--SR:!2026-01-27,281,330!2027-07-18,689,330-->
 
 {@{If $J$ is a set such that all coproducts for families indexed with $J$ exist}@}, then it is possible to {@{choose the products in a compatible fashion}@} so that {@{the coproduct turns into a functor $C^{J}\rightarrow C$}@}. {@{The coproduct of the family $\lbrace X_{j}\rbrace$}@} is then often denoted by {@{$$\coprod _{j\in J}X_{j}$$}@} and the maps $i_{j}$ are known as {@{the __[natural injections](inclusion%20map.md)__}@}. <!--SR:!2025-10-17,195,310!2027-06-27,672,330!2026-01-25,279,330!2026-01-15,272,330!2025-12-16,248,330!2025-12-15,247,330-->
 
