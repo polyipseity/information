@@ -202,7 +202,7 @@ _Base case_ ::@:: in a set of only _one_ horse, there is only one color.
 
 _Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses.
 
-The base case $n=1$ is {@{trivial, and the induction step is correct in all cases $n>1$}@}. However, the argument used in the induction step is {@{incorrect for $n+1=2$, because the statement that "the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}.
+{@{The base case $n=1$}@} is {@{trivial}@}, and {@{the induction step is correct in all cases $n>1$}@}. However, {@{the argument used in the induction step}@} is {@{incorrect for $n+1=2$}@}, because the statement that {@{"the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}.
 
 ## formalization
 
