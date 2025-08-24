@@ -61,7 +61,7 @@ You can of course {@{put branches (`if`) and loops (`for`, `while`)}@} inside lo
 
 ### for-iteration
 
-In Python, iteration is done through using `for...in`. A `for...in` statement consists of {@{loop variables, iterable, and a statement block}@}: <!--SR:!2025-08-27,253,332-->
+In Python, iteration is done through using `for...in`. A `for...in` statement consists of {@{loop variables, iterable, and a statement block}@}: <!--SR:!2028-11-01,1162,352-->
 
 ```Python
 for loop_variables in iterable:

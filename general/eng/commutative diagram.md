@@ -85,7 +85,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 {@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2026-02-09,286,330!2025-10-18,190,310!2026-02-15,291,330-->
 
-More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-08-27,155,310!2025-12-22,248,330-->
+More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2027-06-23,665,330!2025-12-22,248,330-->
 
 - a node ::@:: for every object in the index category, <!--SR:!2026-02-15,291,330!2026-01-13,264,330-->
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-12-07,234,330-->

@@ -79,7 +79,7 @@ Further, while {@{the corrected sample variance is the [best unbiased estimator]
 
 ### Gaussian distribution
 
-The following table gives {@{several estimators of the true parameters of the population, μ and σ<sup>2</sup>, for the Gaussian case}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-08-27,170,310-->
+The following table gives {@{several estimators of the true parameters of the population, μ and σ<sup>2</sup>, for the Gaussian case}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-08-25,728,330-->
 
 | True value                    | Estimator                                                                                                                                                                                                                             | Mean squared error                                                                                                                               |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |

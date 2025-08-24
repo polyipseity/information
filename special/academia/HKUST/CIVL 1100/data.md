@@ -232,7 +232,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
-- access tunnel lengths ::@:: up to 4 km <!--SR:!2025-08-27,372,377!2028-11-19,1338,385-->
+- access tunnel lengths ::@:: up to 4 km <!--SR:!2030-12-01,1922,397!2028-11-19,1338,385-->
 - length ::@:: 57.5 km <!--SR:!2025-10-06,221,297!2030-01-13,1662,394-->
 
 ## Netherlands North Sea Protection Works
@@ -307,7 +307,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
 - core part ::@:: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2026-01-31,469,327!2029-12-08,1627,390-->
-- length ::@:: 271 km <!--SR:!2025-08-27,272,297!2026-01-30,525,397-->
+- length ::@:: 271 km <!--SR:!2028-09-27,1127,317!2026-01-30,525,397-->
 
 ## Two Prudential Plaza
 

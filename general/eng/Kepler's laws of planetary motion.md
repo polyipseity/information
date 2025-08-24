@@ -55,7 +55,7 @@ return await memorize_seq(
 
 ## history
 
-Kepler published {@{his first 2 laws in 1609}@} after {@{analyzing astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}@}. Kepler's third law was {@{published in 1619}@}. <!--SR:!2025-08-27,331,350!2025-09-04,291,290!2028-06-11,1107,350-->
+Kepler published {@{his first 2 laws in 1609}@} after {@{analyzing astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}@}. Kepler's third law was {@{published in 1619}@}. <!--SR:!2030-01-05,1592,370!2025-09-04,291,290!2028-06-11,1107,350-->
 
 ## references
 

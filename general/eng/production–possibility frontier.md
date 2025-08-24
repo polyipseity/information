@@ -19,7 +19,7 @@ This tradeoff is usually considered for {@{an [economy](economy.md), but also ap
 
 > {@{![figure 1: a production possibilities frontier](../../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
-> figure 1: {@{a production possibilities frontier}@} <!--SR:!2025-08-27,256,330!2025-10-15,297,330-->
+> figure 1: {@{a production possibilities frontier}@} <!--SR:!2028-11-05,1166,350!2025-10-15,297,330-->
 
 PPFs are normally {@{drawn as bulging upwards or outwards from the origin ("concave" when viewed from the origin)}@}, but {@{they can be represented as bulging downward (inwards) or linear (straight), depending on a number of assumptions}@}. <!--SR:!2025-11-11,317,330!2027-10-23,844,330-->
 

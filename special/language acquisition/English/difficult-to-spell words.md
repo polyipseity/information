@@ -43,7 +43,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::@:: \(c\_y\) Acting as a complement to make something else whole. <!--SR:!2027-09-07,980,344!2028-02-06,1176,364-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::@:: \(c\_y\) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2025-09-28,294,244!2026-06-09,621,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::@:: \(c\_t\) Following as a result, inference, or natural effect. <!--SR:!2030-03-15,1793,412!2026-03-20,567,392-->
-- [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2025-08-27,409,350-->
+- [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2031-01-15,1967,370-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: \(d\_s\) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::@:: \(d\_e\) To make different. <!--SR:!2029-05-28,1545,364!2027-12-28,1109,344-->

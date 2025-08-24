@@ -82,7 +82,7 @@ tags:
 > ---
 >
 > - solution: {@{200}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2025-09-03,63,310!2025-08-27,58,310-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2025-09-03,63,310!2026-05-04,250,330-->
 
 ---
 
@@ -144,7 +144,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1, 2, 3, 4}@} <!--SR:!2025-08-27,58,310-->
+> - solution: {@{1, 2, 3, 4}@} <!--SR:!2026-05-04,250,330-->
 
 ---
 
@@ -170,4 +170,4 @@ tags:
 > ---
 >
 > - solution: {@{75}@}
-> - explanation: {@{25\*3=75}@} <!--SR:!2025-08-27,58,310!2025-09-02,62,310-->
+> - explanation: {@{25\*3=75}@} <!--SR:!2026-05-09,255,330!2025-09-02,62,310-->

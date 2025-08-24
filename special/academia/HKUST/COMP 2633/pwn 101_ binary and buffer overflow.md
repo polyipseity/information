@@ -28,7 +28,7 @@ However, further knowledge memory model is {@{not exactly important in basic pwn
 
 ### memory mapping
 
-For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}. <!--SR:!2027-06-05,740,330!2028-05-05,1027,350!2025-10-03,290,330!2027-05-11,733,330!2025-08-27,260,330!2025-09-28,285,330!2028-10-29,1165,350!2026-06-28,486,310-->
+For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}. <!--SR:!2027-06-05,740,330!2028-05-05,1027,350!2025-10-03,290,330!2027-05-11,733,330!2028-11-25,1186,350!2025-09-28,285,330!2028-10-29,1165,350!2026-06-28,486,310-->
 
 The meanings of the 4 segments are:
 
@@ -122,8 +122,8 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 Let's also learn some basic `pwndbg` commands:
 
 - `down` ::@:: move down the backtrace or call stack <!--SR:!2028-09-23,1136,350!2028-07-16,1079,350-->
-- `up` ::@:: move up the backtrace or call stack <!--SR:!2025-08-27,263,330!2028-08-27,1116,350-->
-- `checksec` ::@:: print the binary security settings <!--SR:!2025-09-10,271,330!2025-08-27,263,330-->
+- `up` ::@:: move up the backtrace or call stack <!--SR:!2028-12-01,1192,350!2028-08-27,1116,350-->
+- `checksec` ::@:: print the binary security settings <!--SR:!2025-09-10,271,330!2028-12-09,1200,350-->
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2025-09-06,269,330!2027-07-16,781,330-->
 - `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-10-04,291,330!2026-10-08,560,310-->
 
@@ -166,7 +166,7 @@ Once you have found code that is vulnerable to buffer overflows, {@{identify wha
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2025-10-10,297,330!2025-10-11,298,330-->
 
-`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2028-08-26,1115,350!2028-11-11,1177,350!2027-09-27,833,330!2025-08-27,263,330!2027-05-07,711,330!2025-10-08,288,330!2027-11-23,883,330-->
+`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2028-08-26,1115,350!2028-11-11,1177,350!2027-09-27,833,330!2028-12-10,1201,350!2027-05-07,711,330!2025-10-08,288,330!2027-11-23,883,330-->
 
 Using `gdb`, we can {@{find the address of a buffer (to find the addresses of the old `rbp` and old `rsp` in the stack) or a function (to find targets to jump to)}@}. To find the address of a local buffer in a function, we can use {@{`disassemble <address|function>` to disassemble a function and figure out the offset of a local buffer from the `rbp`}@}. (A quick note: The declaration order of local variables in C {@{do not necessarily correspond to their positions on the stack}@}.) To {@{find the address of a function}@}, use {@{the `info address <symbol>` command and replace `<symbol>` with the function name}@}. <!--SR:!2027-04-15,708,330!2027-12-31,892,330!2027-06-02,737,330!2027-05-29,733,330!2025-09-07,270,330-->
 

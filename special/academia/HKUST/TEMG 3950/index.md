@@ -184,7 +184,7 @@ The content is in teaching order.
 - modeling key concepts ::@:: abstraction, framework, model <!--SR:!2029-05-05,1418,381!2026-02-03,483,381-->
   - modeling key concept: abstraction ::@:: filter for elements relevant to some specific purpose <!--SR:!2029-08-19,1494,381!2026-01-18,473,381-->
   - modeling key concept: framework ::@:: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2029-02-05,1345,381-->
-  - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2026-04-01,514,361-->
+  - modeling key concept: model ::@:: an abstraction of the real world for some specific purpose <!--SR:!2030-09-26,1856,401!2026-04-01,514,361-->
 - Aguilar's PESTLE framework ::@:: business environment analysis <!--SR:!2025-12-26,452,381!2029-06-14,1441,381-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::@:: industry profitability analysis <!--SR:!2029-07-21,1488,381!2029-08-07,1500,381-->
@@ -242,7 +242,7 @@ The content is in teaching order.
 
 - datetime: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
-  - general case analysis reading takeaways ::@:: read twice, first fast, then slow and take notes <!--SR:!2025-08-27,352,377!2026-03-19,525,397-->
+  - general case analysis reading takeaways ::@:: read twice, first fast, then slow and take notes <!--SR:!2030-08-22,1821,397!2026-03-19,525,397-->
 - McKinsey 7Ss framework ::@:: organization analysis <!--SR:!2028-09-28,1263,397!2026-02-25,505,397-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)

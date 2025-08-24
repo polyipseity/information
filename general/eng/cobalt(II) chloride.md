@@ -9,7 +9,7 @@ tags:
 
 # cobalt(II) chloride
 
-__Cobalt(II) chloride__ is {@{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Co](cobalt.md)[Cl<sub>2</sub>](chloride.md)}@}. It forms {@{[hydrates](hydrate.md) CoCl<sub>2</sub>·_n_<!-- LaTeX separator -->[H<sub>2</sub>O](water.md), where n = 1, 2, 6, or 9}@}. The [anhydrous](anhydrous.md) form is {@{a blue crystalline [solid](solid.md)}@}. <!--SR:!2028-02-05,1382,350!2025-08-27,430,210!2025-10-30,232,150-->
+__Cobalt(II) chloride__ is {@{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Co](cobalt.md)[Cl<sub>2</sub>](chloride.md)}@}. It forms {@{[hydrates](hydrate.md) CoCl<sub>2</sub>·_n_<!-- LaTeX separator -->[H<sub>2</sub>O](water.md), where n = 1, 2, 6, or 9}@}. The [anhydrous](anhydrous.md) form is {@{a blue crystalline [solid](solid.md)}@}. <!--SR:!2028-02-05,1382,350!2028-02-17,904,210!2025-10-30,232,150-->
 
 ## moisture indicator
 

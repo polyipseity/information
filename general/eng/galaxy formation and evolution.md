@@ -15,7 +15,7 @@ tags:
 
 ## commonly observed properties of galaxies
 
-Because of {@{the inability to conduct experiments in outer space}@}, {@{the only way to "test" theories and models of galaxy evolution is to compare them with observations}@}. Explanations for how galaxies formed and evolved must be {@{able to predict the observed properties and types of galaxies}@}. <!--SR:!2027-01-29,682,330!2028-06-12,1083,350!2025-08-27,287,330-->
+Because of {@{the inability to conduct experiments in outer space}@}, {@{the only way to "test" theories and models of galaxy evolution is to compare them with observations}@}. Explanations for how galaxies formed and evolved must be {@{able to predict the observed properties and types of galaxies}@}. <!--SR:!2027-01-29,682,330!2028-06-12,1083,350!2029-03-24,1305,350-->
 
 [Edwin Hubble](Edwin%20Hubble.md) {@{created an early galaxy classification scheme, now known as the Hubble tuning-fork diagram}@}. It {@{partitioned galaxies into [ellipticals](elliptical%20galaxy.md), normal [spirals](spiral%20galaxy.md), [barred spirals](barred%20spiral%20galaxy.md) (such as the [Milky Way](Milky%20Way.md)), and [irregulars](irregular%20galaxy.md)}@}. These galaxy types {@{exhibit the following properties which can be explained by current galaxy evolution theories}@}: <!--SR:!2026-01-16,353,290!2025-12-07,321,290!2029-02-14,1277,350-->
 

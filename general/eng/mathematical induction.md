@@ -13,7 +13,7 @@ tags:
 
 - Not to be confused with {@{[inductive reasoning](inductive%20reasoning.md)}@}. <!--SR:!2025-09-17,263,330-->
 
-__Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md) that a statement $P(n)$ is true for every [natural number](natural%20number.md) $n$}@}, that is, that {@{the infinitely many cases $P(0),P(1),P(2),P(3),\dots$ all hold}@}. This is done by {@{first proving a simple case, then also showing that if we assume the claim is true for a given case, then the next case is also true}@}. Informal metaphors help to explain this technique, such as {@{falling dominoes or climbing a ladder}@}: <!--SR:!2027-01-16,568,310!2025-09-13,259,330!2027-02-17,652,330!2025-08-27,244,330-->
+__Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md) that a statement $P(n)$ is true for every [natural number](natural%20number.md) $n$}@}, that is, that {@{the infinitely many cases $P(0),P(1),P(2),P(3),\dots$ all hold}@}. This is done by {@{first proving a simple case, then also showing that if we assume the claim is true for a given case, then the next case is also true}@}. Informal metaphors help to explain this technique, such as {@{falling dominoes or climbing a ladder}@}: <!--SR:!2027-01-16,568,310!2025-09-13,259,330!2027-02-17,652,330!2028-09-14,1114,350-->
 
 > Mathematical induction proves that {@{we can climb as high as we like on a ladder}@}, by proving that {@{we can climb onto the bottom rung (the __basis__) and that from each rung we can climb up to the next one (the __step__)}@}.
 >
@@ -62,7 +62,7 @@ This states {@{a general formula for the sum of the natural numbers less than or
 
 __<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2025-08-30,247,330!2025-09-07,255,330-->
 
-__Proof.__ ::@:: Let _P_(_n_) be the statement $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. We give a proof by induction on _n_. <!--SR:!2025-08-27,245,330!2025-09-07,255,330-->
+__Proof.__ ::@:: Let _P_(_n_) be the statement $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. We give a proof by induction on _n_. <!--SR:!2028-09-15,1115,350!2025-09-07,255,330-->
 
 _Base case_ ::@:: Show that the statement holds for the smallest natural number _n_ = 0. _P_(0) is clearly true: $0={\tfrac {0(0+1)}{2} }$. <!--SR:!2025-08-30,247,330!2027-02-05,644,330-->
 
@@ -82,7 +82,7 @@ Induction is often used to {@{prove [inequalities](inequality%20(mathematics).md
 
 At first glance, it may appear that {@{a more general version, $\left|\sin nx\right|\leq n\left|\sin x\right|$ for any _real_ numbers $n,x$, could be proven without induction}@}; but {@{the case $n={\frac {1}{2} },\,x=\pi$ shows it may be false for non-integer values of $n$}@}. This suggests {@{we examine the statement specifically for _natural_ values of $n$, and induction is the readiest tool}@}. <!--SR:!2025-09-01,249,330!2025-09-06,254,330!2025-09-06,254,330-->
 
-__<u>Proposition.</u>__ ::@:: For any $x\in \mathbb {R}$ and $n\in \mathbb {N}$, $\left|\sin nx\right|\leq n\left|\sin x\right|$. <!--SR:!2025-08-27,244,330!2027-08-01,769,330-->
+__<u>Proposition.</u>__ ::@:: For any $x\in \mathbb {R}$ and $n\in \mathbb {N}$, $\left|\sin nx\right|\leq n\left|\sin x\right|$. <!--SR:!2028-09-05,1105,350!2027-08-01,769,330-->
 
 __Proof.__ ::@:: Fix an arbitrary real number $x$, and let $P(n)$ be the statement $\left|\sin nx\right|\leq n\left|\sin x\right|$. We induce on $n$. <!--SR:!2025-09-04,252,330!2025-08-29,246,330-->
 
@@ -111,7 +111,7 @@ In this way, one can prove that some statement _P_(_n_) holds for {@{all _n_ ≥
 
 Assume {@{an infinite supply of 4- and 5-dollar coins}@}. Induction can be used to prove that {@{any whole amount of dollars greater than or equal to 12 can be formed by a combination of such coins}@}. Let _S_(_k_) denote the statement "_k_ dollars can be formed by a combination of 4- and 5-dollar coins". The proof that _S_(_k_) is true for all _k_ ≥ 12 can then be achieved by induction on _k_ as follows: <!--SR:!2025-09-04,252,330!2025-09-02,250,330-->
 
-_Base case_ ::@:: Showing that _S_(_k_) holds for _k_ = 12 is simple: take three 4-dollar coins. <!--SR:!2025-08-27,245,330!2025-09-06,254,330-->
+_Base case_ ::@:: Showing that _S_(_k_) holds for _k_ = 12 is simple: take three 4-dollar coins. <!--SR:!2028-09-17,1117,350!2025-09-06,254,330-->
 
 _Induction step_ ::@:: Given that _S_(_k_) holds for some value of _k_ ≥ 12 (_induction hypothesis_), prove that _S_(_k_ + 1) holds, too. Assume _S_(_k_) is true for some arbitrary _k_ ≥ 12. If there is a solution for _k_ dollars that includes at least one 4-dollar coin, replace it by a 5-dollar coin to make _k_ + 1 dollars. Otherwise, if only 5-dollar coins are used, _k_ must be a multiple of 5 and so at least 15; but then we can replace three 5-dollar coins by four 4-dollar coins to make _k_ + 1 dollars. In each case, _S_(_k_ + 1) is true. <p> Therefore, by the principle of induction, _S_(_k_) holds for all _k_ ≥ 12, and the proof is complete. <!--SR:!2027-08-14,730,290!2026-12-31,565,310-->
 
@@ -125,7 +125,7 @@ It is sometimes desirable to prove {@{a statement involving two natural numbers,
 
 - see: [infinite descent](proof%20by%20infinite%20descent.md)
 
-The method of infinite descent is {@{a variation of mathematical induction which was used by [Pierre de Fermat](Pierre%20de%20Fermat.md)}@}. It is used to show that {@{some statement _Q_(_n_) is false for all natural numbers _n_}@}. Its traditional form consists of {@{showing that if _Q_(_n_) is true for some natural number _n_, it also holds for some strictly smaller natural number _m_}@}. Because {@{there are no infinite decreasing sequences of natural numbers}@}, this situation would be impossible, thereby {@{showing ([by contradiction](proof%20by%20contradiction.md)) that _Q_(_n_) cannot be true for any _n_}@}. <!--SR:!2025-08-31,248,330!2025-08-27,244,330!2025-09-05,253,330!2025-08-28,246,330!2027-09-06,796,330-->
+The method of infinite descent is {@{a variation of mathematical induction which was used by [Pierre de Fermat](Pierre%20de%20Fermat.md)}@}. It is used to show that {@{some statement _Q_(_n_) is false for all natural numbers _n_}@}. Its traditional form consists of {@{showing that if _Q_(_n_) is true for some natural number _n_, it also holds for some strictly smaller natural number _m_}@}. Because {@{there are no infinite decreasing sequences of natural numbers}@}, this situation would be impossible, thereby {@{showing ([by contradiction](proof%20by%20contradiction.md)) that _Q_(_n_) cannot be true for any _n_}@}. <!--SR:!2025-08-31,248,330!2028-09-16,1116,350!2025-09-05,253,330!2025-08-28,246,330!2027-09-06,796,330-->
 
 The validity of this method can be {@{verified from the usual principle of mathematical induction}@}. Using mathematical induction on {@{the statement _P_(_n_) defined as "_Q_(_m_) is false for all natural numbers _m_ less than or equal to _n_"}@}, it follows that {@{_P_(_n_) holds for all _n_}@}, which means that {@{_Q_(_n_) is false for every natural number _n_}@}. <!--SR:!2025-08-31,248,330!2025-09-06,254,330!2025-09-07,255,330!2026-12-24,549,310-->
 
@@ -144,11 +144,11 @@ whereupon the induction principle {@{"automates" _n_ applications of this step i
 
 A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2028-09-06,1106,350!2025-08-30,247,330!2027-02-25,660,330-->
 
-The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2025-09-14,260,330!2025-08-27,244,330!2025-09-11,257,330!2025-09-15,261,330-->
+The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2025-09-14,260,330!2028-09-11,1111,350!2025-09-11,257,330!2025-09-15,261,330-->
 
 If {@{traditional predecessor induction is interpreted computationally as an _n_-step loop}@}, then prefix induction would {@{correspond to a log-_n_-step loop}@}. Because of that, proofs using prefix induction are {@{"more feasibly constructive" than proofs using predecessor induction}@}. <!--SR:!2025-09-01,249,330!2025-09-04,252,330!2025-09-06,254,330-->
 
-Predecessor induction can {@{trivially simulate prefix induction on the same statement}@}. Prefix induction can {@{simulate predecessor induction, but only at the cost of making the statement more syntactically complex (adding a [bounded](bounded%20quantifier.md) [universal quantifier](universal%20quantification.md))}@}, so the interesting results {@{relating prefix induction to [polynomial-time](time%20complexity.md#polynomial%20time) computation}@} depend on {@{excluding unbounded quantifiers entirely, and limiting the alternation of bounded universal and [existential](existential%20quantification.md) quantifiers allowed in the statement}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-08-27,244,330!2025-12-25,297,290!2025-09-04,252,330!2027-08-31,743,290-->
+Predecessor induction can {@{trivially simulate prefix induction on the same statement}@}. Prefix induction can {@{simulate predecessor induction, but only at the cost of making the statement more syntactically complex (adding a [bounded](bounded%20quantifier.md) [universal quantifier](universal%20quantification.md))}@}, so the interesting results {@{relating prefix induction to [polynomial-time](time%20complexity.md#polynomial%20time) computation}@} depend on {@{excluding unbounded quantifiers entirely, and limiting the alternation of bounded universal and [existential](existential%20quantification.md) quantifiers allowed in the statement}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2028-09-10,1110,350!2025-12-25,297,290!2025-09-04,252,330!2027-08-31,743,290-->
 
 One can take the idea a step further: {@{one must prove $$\forall k\,\left(P\!\left(\left\lfloor {\sqrt {k} }\right\rfloor \right)\to P(k)\right)$$}@} whereupon the induction principle {@{"automates" log log _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. This form of induction has been used, {@{analogously, to study log-time parallel computation}@}. <!--SR:!2026-05-07,381,290!2025-08-28,245,330!2027-01-13,567,310-->
 
@@ -172,7 +172,7 @@ Complete induction is most useful when {@{several instances of the inductive hyp
 
 #### example: prime factorization
 
-Another proof by complete induction uses {@{the hypothesis that the statement holds for _all_ smaller $n$ more thoroughly}@}. Consider the statement that {@{"every [natural number](natural%20number.md) greater than 1 is a product of (one or more) [prime numbers](prime%20number.md)"}@}, which is {@{the "[existence](fundamental%20theorem%20of%20arithmetic.md#existence)" part of the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. For proving the induction step, the induction hypothesis is that {@{for a given $n>1$ the statement holds for all smaller $n>1$}@}. If {@{$m$ is prime then it is certainly a product of primes}@}, and if not, then {@{by definition it is a product: $m=n_{1}n_{2}$, where neither of the factors is equal to 1}@}; hence {@{neither is equal to $m$, and so both are greater than 1 and smaller than $m$}@}. The induction hypothesis {@{now applies to $n_{1}$ and $n_{2}$, so each one is a product of primes}@}. Thus {@{$m$ is a product of products of primes, and hence by extension a product of primes itself}@}. <!--SR:!2025-09-02,250,330!2025-09-02,251,330!2025-09-09,255,330!2025-09-07,255,330!2025-08-31,248,330!2027-03-03,665,330!2025-08-27,244,330!2027-02-18,653,330!2025-09-04,252,330-->
+Another proof by complete induction uses {@{the hypothesis that the statement holds for _all_ smaller $n$ more thoroughly}@}. Consider the statement that {@{"every [natural number](natural%20number.md) greater than 1 is a product of (one or more) [prime numbers](prime%20number.md)"}@}, which is {@{the "[existence](fundamental%20theorem%20of%20arithmetic.md#existence)" part of the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. For proving the induction step, the induction hypothesis is that {@{for a given $n>1$ the statement holds for all smaller $n>1$}@}. If {@{$m$ is prime then it is certainly a product of primes}@}, and if not, then {@{by definition it is a product: $m=n_{1}n_{2}$, where neither of the factors is equal to 1}@}; hence {@{neither is equal to $m$, and so both are greater than 1 and smaller than $m$}@}. The induction hypothesis {@{now applies to $n_{1}$ and $n_{2}$, so each one is a product of primes}@}. Thus {@{$m$ is a product of products of primes, and hence by extension a product of primes itself}@}. <!--SR:!2025-09-02,250,330!2025-09-02,251,330!2025-09-09,255,330!2025-09-07,255,330!2025-08-31,248,330!2027-03-03,665,330!2028-09-09,1109,350!2027-02-18,653,330!2025-09-04,252,330-->
 
 #### example: dollar amounts revisited
 
@@ -237,7 +237,7 @@ Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:
 2. when _n_ has a direct predecessor, ::@:: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2025-12-11,288,290!2025-09-02,251,330-->
 3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2028-09-10,1110,350!2025-09-01,249,330-->
 
-Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2025-09-16,262,330!2025-08-31,248,330!2025-08-27,244,330-->
+Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2025-09-16,262,330!2025-08-31,248,330!2028-09-13,1113,350-->
 
 ## relationship to the well-ordering principle
 
@@ -245,7 +245,7 @@ The principle of mathematical induction is usually stated as {@{an [axiom](axiom
 
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2025-09-02,250,330!2028-08-31,1100,350-->
 - For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2025-09-03,251,330!2025-09-08,254,330-->
-- For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2025-08-27,244,330!2025-09-16,262,330-->
+- For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2025-09-16,262,330-->
 - No natural number is ::@:: less than zero. <!--SR:!2025-09-04,252,330!2025-09-03,251,330-->
 
 It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}. <!--SR:!2027-02-21,656,330!2025-09-01,250,330-->

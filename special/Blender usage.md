@@ -41,7 +41,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editor
 
-- select all::@::A <!--SR:!2025-08-27,690,296!2026-06-24,964,336-->
+- select all::@::A <!--SR:!2033-06-01,2835,316!2026-06-24,964,336-->
 - select none::@::Alt+A <!--SR:!2027-10-06,1139,276!2027-02-16,744,256-->
 - invert selection::@::Ctrl+I <!--SR:!2025-11-14,592,250!2026-06-13,892,296-->
 - hide selection::@::H <!--SR:!2025-10-25,645,270!2029-03-31,1582,310-->
