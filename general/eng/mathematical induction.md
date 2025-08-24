@@ -56,9 +56,9 @@ Authors who prefer to define natural numbers to begin at 0 use that value in the
 
 ### sum of consecutive natural numbers
 
-Mathematical induction can be used to prove the following statement _P_(_n_) for all natural numbers _n_: {@{$$P(n)\!:\ \ 0+1+2+\cdots +n={\frac {n(n+1)}{2} }$$}@} <!--SR:!2025-08-26,243,330-->
+Mathematical induction can be used to prove the following statement _P_(_n_) for all natural numbers _n_: {@{$$P(n)\!:\ \ 0+1+2+\cdots +n={\frac {n(n+1)}{2} }$$}@} <!--SR:!2028-09-11,1111,350-->
 
-This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2025-08-26,243,330!2025-09-01,249,330-->
+This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2025-09-01,249,330-->
 
 __<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2025-08-30,247,330!2025-09-07,255,330-->
 
@@ -66,7 +66,7 @@ __Proof.__ ::@:: Let _P_(_n_) be the statement $0+1+2+\cdots +n={\tfrac {n(n+1)}
 
 _Base case_ ::@:: Show that the statement holds for the smallest natural number _n_ = 0. _P_(0) is clearly true: $0={\tfrac {0(0+1)}{2} }$. <!--SR:!2025-08-30,247,330!2027-02-05,644,330-->
 
-_Induction step_ ::@:: Show that for every _k_ ≥ 0, if _P_(_k_) holds, then _P_(_k_ + 1) also holds. <!--SR:!2025-08-26,243,330!2025-09-15,261,330-->
+_Induction step_ ::@:: Show that for every _k_ ≥ 0, if _P_(_k_) holds, then _P_(_k_ + 1) also holds. <!--SR:!2028-09-07,1107,350!2025-09-15,261,330-->
 
 Assume the induction hypothesis that for a particular _k_, the single case _n_ = _k_ holds, meaning _P_(_k_) is true: $$0+1+\cdots +k={\frac {k(k+1)}{2} }.$$ It follows that: $$(0+1+2+\cdots +k)+(k+1)={\frac {k(k+1)}{2} }+(k+1).$$
 
@@ -78,7 +78,7 @@ _Conclusion_ ::@:: Since both the base case and the induction step have been pro
 
 ### a trigonometric inequality
 
-Induction is often used to {@{prove [inequalities](inequality%20(mathematics).md)}@}. As an example, we prove that {@{$\left|\sin nx\right|\leq n\left|\sin x\right|$ for any [real number](real%20number.md) $x$ and natural number $n$}@}. <!--SR:!2025-08-26,243,330!2025-09-02,250,330-->
+Induction is often used to {@{prove [inequalities](inequality%20(mathematics).md)}@}. As an example, we prove that {@{$\left|\sin nx\right|\leq n\left|\sin x\right|$ for any [real number](real%20number.md) $x$ and natural number $n$}@}. <!--SR:!2028-09-09,1109,350!2025-09-02,250,330-->
 
 At first glance, it may appear that {@{a more general version, $\left|\sin nx\right|\leq n\left|\sin x\right|$ for any _real_ numbers $n,x$, could be proven without induction}@}; but {@{the case $n={\frac {1}{2} },\,x=\pi$ shows it may be false for non-integer values of $n$}@}. This suggests {@{we examine the statement specifically for _natural_ values of $n$, and induction is the readiest tool}@}. <!--SR:!2025-09-01,249,330!2025-09-06,254,330!2025-09-06,254,330-->
 
@@ -86,7 +86,7 @@ __<u>Proposition.</u>__ ::@:: For any $x\in \mathbb {R}$ and $n\in \mathbb {N}$,
 
 __Proof.__ ::@:: Fix an arbitrary real number $x$, and let $P(n)$ be the statement $\left|\sin nx\right|\leq n\left|\sin x\right|$. We induce on $n$. <!--SR:!2025-09-04,252,330!2025-08-29,246,330-->
 
-_Base case_ ::@:: The calculation $\left|\sin 0x\right|=0\leq 0=0\left|\sin x\right|$ verifies $P(0)$. <!--SR:!2025-08-26,243,330!2025-09-07,255,330-->
+_Base case_ ::@:: The calculation $\left|\sin 0x\right|=0\leq 0=0\left|\sin x\right|$ verifies $P(0)$. <!--SR:!2028-09-04,1104,350!2025-09-07,255,330-->
 
 _Induction step_ ::@:: We show the [implication](logical%20consequence.md) $P(k)\implies P(k+1)$ for any natural number $k$. Assume the induction hypothesis: for a given value $n=k\geq 0$, the single case $P(k)$ is true. Using the [angle addition formula](list%20of%20trigonometric%20identities.md) and the [triangle inequality](absolute%20value.md#real%20numbers), we deduce: $${\begin{aligned}\left|\sin(k+1)x\right|&=\left|\sin kx\cos x+\sin x\cos kx\right|&&{\text{(angle addition)} }\\&\leq \left|\sin kx\cos x\right|+\left|\sin x\,\cos kx\right|&&{\text{(triangle inequality)} }\\&=\left|\sin kx\right|\left|\cos x\right|+\left|\sin x\right|\left|\cos kx\right|\\&\leq \left|\sin kx\right|+\left|\sin x\right|&&(\left|\cos t\right|\leq 1)\\&\leq k\left|\sin x\right|+\left|\sin x\right|&&{\text{(induction hypothesis)} }\\&=(k+1)\left|\sin x\right|.\end{aligned} }$$ <p> The inequality between the extreme left-hand and right-hand quantities shows that $P(k+1)$ is true, which completes the induction step. <!--SR:!2026-05-13,385,290!2025-09-17,263,330-->
 
@@ -142,7 +142,7 @@ The most common form of proof by mathematical induction requires {@{proving in t
 
 whereupon the induction principle {@{"automates" _n_ applications of this step in getting from _P_(0) to _P_(_n_)}@}. This could be called {@{"predecessor induction"}@} because {@{each step proves something about a number from something about that number's predecessor}@}. <!--SR:!2025-09-03,251,330!2025-09-11,257,330!2027-03-04,666,330-->
 
-A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2025-08-26,243,330!2025-08-30,247,330!2027-02-25,660,330-->
+A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2028-09-06,1106,350!2025-08-30,247,330!2027-02-25,660,330-->
 
 The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2025-09-14,260,330!2025-08-27,244,330!2025-09-11,257,330!2025-09-15,261,330-->
 
@@ -219,7 +219,7 @@ The axiom of structural induction for the natural numbers was first formulated b
 3. The successor function is [injective](injective%20function.md).
 4. 0 is not in the [range](range%20of%20a%20function.md) of _s_.
 
-In {@{__[first-order](first-order%20logic.md) [ZFC set theory](Zermelo–Fraenkel%20set%20theory.md)__}@}, {@{quantification over predicates is not allowed}@}, but {@{one can still express induction by quantification over sets}@}: {@{$$\forall A{\Bigl (}0\in A\land \forall k\in \mathbb {N} {\bigl (}k\in A\to (k+1)\in A{\bigr )}\to \mathbb {N} \subseteq A{\Bigr )}.$$}@} _A_ may be read as {@{a set representing a proposition, and containing natural numbers, for which the proposition holds}@}. This is {@{not an axiom, but a theorem, given that natural numbers are defined in the language of ZFC set theory by axioms, analogous to Peano's}@}. See [construction of the natural numbers](axiom%20of%20infinity.md#alternative%20method) using the [axiom of infinity](axiom%20of%20infinity.md) and [axiom schema of specification](axiom%20schema%20of%20specification.md). <!--SR:!2025-08-29,247,330!2025-08-26,244,330!2027-08-16,781,330!2026-12-19,546,310!2027-02-04,643,330!2025-09-01,249,330-->
+In {@{__[first-order](first-order%20logic.md) [ZFC set theory](Zermelo–Fraenkel%20set%20theory.md)__}@}, {@{quantification over predicates is not allowed}@}, but {@{one can still express induction by quantification over sets}@}: {@{$$\forall A{\Bigl (}0\in A\land \forall k\in \mathbb {N} {\bigl (}k\in A\to (k+1)\in A{\bigr )}\to \mathbb {N} \subseteq A{\Bigr )}.$$}@} _A_ may be read as {@{a set representing a proposition, and containing natural numbers, for which the proposition holds}@}. This is {@{not an axiom, but a theorem, given that natural numbers are defined in the language of ZFC set theory by axioms, analogous to Peano's}@}. See [construction of the natural numbers](axiom%20of%20infinity.md#alternative%20method) using the [axiom of infinity](axiom%20of%20infinity.md) and [axiom schema of specification](axiom%20schema%20of%20specification.md). <!--SR:!2025-08-29,247,330!2028-09-12,1112,350!2027-08-16,781,330!2026-12-19,546,310!2027-02-04,643,330!2025-09-01,249,330-->
 
 ## transfinite induction
 
@@ -235,15 +235,15 @@ Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:
 
 1. when _n_ is a minimal element, ::@:: i.e. there is no element smaller than _n_; <!--SR:!2025-09-05,253,330!2025-09-05,253,330-->
 2. when _n_ has a direct predecessor, ::@:: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2025-12-11,288,290!2025-09-02,251,330-->
-3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2025-08-26,244,330!2025-09-01,249,330-->
+3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2028-09-10,1110,350!2025-09-01,249,330-->
 
 Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2025-09-16,262,330!2025-08-31,248,330!2025-08-27,244,330-->
 
 ## relationship to the well-ordering principle
 
-The principle of mathematical induction is usually stated as {@{an [axiom](axiom.md) of the natural numbers; see [Peano axioms](Peano%20axioms.md)}@}. It is strictly stronger than {@{the [well-ordering principle](well-ordering%20principle.md) in the context of the other Peano axioms}@}. Suppose the following: <!--SR:!2027-08-21,796,330!2025-08-26,243,330-->
+The principle of mathematical induction is usually stated as {@{an [axiom](axiom.md) of the natural numbers; see [Peano axioms](Peano%20axioms.md)}@}. It is strictly stronger than {@{the [well-ordering principle](well-ordering%20principle.md) in the context of the other Peano axioms}@}. Suppose the following: <!--SR:!2027-08-21,796,330!2028-09-08,1108,350-->
 
-- The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2025-09-02,250,330!2025-08-26,243,330-->
+- The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2025-09-02,250,330!2028-08-31,1100,350-->
 - For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2025-09-03,251,330!2025-09-08,254,330-->
 - For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2025-08-27,244,330!2025-09-16,262,330-->
 - No natural number is ::@:: less than zero. <!--SR:!2025-09-04,252,330!2025-09-03,251,330-->

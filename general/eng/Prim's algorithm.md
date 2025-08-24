@@ -106,7 +106,7 @@ Let _P_ be {@{a connected, weighted [graph](graph%20theory.md)}@}. At {@{every i
 ## see also
 
 - [Dijkstra's algorithm](Dijkstra's%20algorithm.md), ::@:: a very similar algorithm for the [shortest path problem](shortest%20path%20problem.md) <!--SR:!2027-08-21,751,330!2025-12-09,294,330-->
-- [greedoids](greedoid.md) ::@:: offer a general way to understand the correctness of Prim's algorithm <!--SR:!2025-08-26,195,310!2026-10-25,510,310-->
+- [greedoids](greedoid.md) ::@:: offer a general way to understand the correctness of Prim's algorithm <!--SR:!2027-12-18,843,330!2026-10-25,510,310-->
 
 ## references
 

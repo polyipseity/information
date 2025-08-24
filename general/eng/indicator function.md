@@ -15,7 +15,7 @@ tags:
 
 > {@{![A three-dimensional plot of an indicator function, shown over a square two-dimensional domain \(set _X_\): the "raised" portion overlays those two-dimensional points which are members of the "indicated" subset \(_A_\).](../../archives/Wikimedia%20Commons/Indicator%20function%20illustration.png)}@}
 >
-> {@{A three-dimensional plot of an indicator function}@}, shown over {@{a square two-dimensional domain \(set _X_\)}@}: {@{the "raised" portion}@} {@{overlays those two-dimensional points which are members of the "indicated" subset \(_A_\)}@}. <!--SR:!2025-08-26,174,310!2025-12-08,262,330!2025-12-15,268,330!2025-12-25,276,330!2025-12-29,278,330-->
+> {@{A three-dimensional plot of an indicator function}@}, shown over {@{a square two-dimensional domain \(set _X_\)}@}: {@{the "raised" portion}@} {@{overlays those two-dimensional points which are members of the "indicated" subset \(_A_\)}@}. <!--SR:!2027-09-11,746,330!2025-12-08,262,330!2025-12-15,268,330!2025-12-25,276,330!2025-12-29,278,330-->
 
 In {@{[mathematics](mathematics.md)}@}, {@{an __indicator function__ or a __characteristic function__}@} of {@{a [subset](subset.md) of a [set](set%20(mathematics).md) is a [function](function%20(mathematics).md) that maps elements of the subset to one, and all other elements to zero}@}. That is, if {@{_A_ is a subset of some set _X_}@}, then {@{$\mathbf {1} _{A}(x)=1$ if $x\in A$, and $\mathbf {1} _{A}(x)=0$ otherwise}@}, where {@{$\mathbf {1} _{A}$ is a common notation for the indicator function}@}. Other common notations are {@{$I_{A}$, and $\chi _{A}$}@}. <!--SR:!2025-11-15,243,330!2025-11-13,242,330!2025-08-29,176,310!2025-11-12,241,330!2025-11-27,254,330!2025-12-14,267,330!2025-11-23,251,330-->
 

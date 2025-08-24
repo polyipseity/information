@@ -20,7 +20,7 @@ Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensu
 
 ## compiling a program
 
-Assuming you are using Linux. For developers, compiling a C program is {@{simply running the GNU Compiler Collection (gcc) using the ocmmand `gcc <input>.c -o <output>` in a terminal, which compiles the C code in `<input>.c` into a program called `<output>`}@}. <!--SR:!2025-08-26,274,345-->
+Assuming you are using Linux. For developers, compiling a C program is {@{simply running the GNU Compiler Collection (gcc) using the ocmmand `gcc <input>.c -o <output>` in a terminal, which compiles the C code in `<input>.c` into a program called `<output>`}@}. <!--SR:!2028-03-28,945,345-->
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures. <!--SR:!2026-01-15,394,365!2025-11-29,357,365-->
 
@@ -73,7 +73,7 @@ Below is a list of common instructions (in learning order):
 - `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2026-01-18,397,365!2028-08-17,1119,350-->
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2025-12-23,375,365!2026-01-08,387,363-->
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2025-11-23,348,357-->
-- `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2025-08-26,278,357!2028-08-11,1115,350-->
+- `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2029-05-24,1367,377!2028-08-11,1115,350-->
 - `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2029-01-15,1239,365!2025-10-17,320,357-->
 - `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2025-10-30,327,343!2025-09-23,299,343-->
 - `cmp <left>, <right>` ::@:: Subtract `<right>` from `<left>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if `<left>` equals `<right>`. <!--SR:!2026-01-04,383,365!2025-10-13,316,357-->

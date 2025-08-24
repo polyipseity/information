@@ -51,7 +51,7 @@ return await memorize_table(
 - _(begin)_→::@::←[group 1](#^group-1)/IA/IA <!--SR:!2027-01-22,998,330!2028-09-15,1555,350-->
 - [group 1](#^group-1)/IA/IA→::@::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA <!--SR:!2026-03-12,771,330!2027-10-05,1280,350-->
 - [group 2](alkaline%20earth%20metal.md)/IIA/IIA→::@::←[group 17](halogen.md)/VIIB/VIIA <!--SR:!2026-03-08,679,270!2026-07-10,857,330-->
-- [group 17](halogen.md)/VIIB/VIIA→::@::←[group 18](noble%20gas.md)/0/VIIIA <!--SR:!2025-08-26,604,310!2027-01-06,989,330-->
+- [group 17](halogen.md)/VIIB/VIIA→::@::←[group 18](noble%20gas.md)/0/VIIIA <!--SR:!2032-09-30,2591,330!2027-01-06,989,330-->
 - [group 18](noble%20gas.md)/0/VIIIA→::@::←_(end)_ <!--SR:!2028-09-10,1551,350!2027-01-03,986,330-->
 
 <!--/pytextgen-->

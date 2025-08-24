@@ -182,7 +182,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::@:: concrete gravity-arch <!--SR:!2029-02-10,1321,340!2025-12-26,497,395-->
 - height ::@:: 221.4 m <!--SR:!2027-07-12,747,281!2027-08-25,909,367-->
-- image ::@:: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2025-08-26,379,380!2025-09-03,368,380-->
+- image ::@:: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2031-01-19,1971,400!2025-09-03,368,380-->
 - length ::@:: 379 m <!--SR:!2026-09-14,387,201!2027-07-01,870,370-->
 
 ## International Commerce Centre

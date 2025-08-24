@@ -118,7 +118,7 @@ It is {@{the pair $(A,u)$ which is essentially unique in this fashion}@}. {@{The
 
 - (annotation: universal morphism) ::@:: $(A,u)$ is a universal morphism from $X$ to $F$ <!--SR:!2025-10-31,212,310!2026-01-09,282,330-->
 - (annotation: comma category) ::@:: $(A,u)$ is an [initial object](initial%20object.md) of the [comma category](comma%20category.md) $(X\downarrow F)$ <!--SR:!2026-01-11,285,330!2026-01-16,290,330-->
-- (annotation: representable functor $\text{Hom}_{\mathcal C}(A, -) \to \text{Hom}_{\mathcal D}(X, F(-))$) ::@:: $(A,F(\bullet )\circ u)$ is a [representation](representable%20functor.md) of ${\text{Hom} }_{\mathcal {D} }(X,F(-))$, where its components $(F(\bullet )\circ u)_{B}:{\text{Hom} }_{\mathcal {C} }(A,B)\to {\text{Hom} }_{\mathcal {D} }(X,F(B))$ are defined by $$(F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2026-01-19,178,250!2025-08-26,142,270-->
+- (annotation: representable functor $\text{Hom}_{\mathcal C}(A, -) \to \text{Hom}_{\mathcal D}(X, F(-))$) ::@:: $(A,F(\bullet )\circ u)$ is a [representation](representable%20functor.md) of ${\text{Hom} }_{\mathcal {D} }(X,F(-))$, where its components $(F(\bullet )\circ u)_{B}:{\text{Hom} }_{\mathcal {C} }(A,B)\to {\text{Hom} }_{\mathcal {D} }(X,F(B))$ are defined by $$(F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2026-01-19,178,250!2026-09-13,383,270-->
 
 The dual statements are {@{also equivalent}@}: (annotation: they are respectively related to {@{universal morphism, comma category, representable functor}@}) <!--SR:!2025-12-30,276,330!2026-01-07,281,330-->
 

@@ -181,7 +181,7 @@ The content is in teaching order.
     - Porter's five forces analysis / internet / suppliers ::@:: Procurement over the internet reduces bargaining power of suppliers for similar reasons as customers \(because you become the customer for suppliers\). <p> Separately, suppliers benefit from elimination of intermediaries and reduced barriers to entry due to the internet. <!--SR:!2025-10-23,82,349!2025-10-25,84,349-->
     - Porter's five forces analysis / internet / entrants ::@:: The internet reduces barriers to entry in general, as many business processes, e.g. channels, marketing, sales, can be shifted online. And technology itself makes many business processes easier. <!--SR:!2025-10-22,81,349!2025-10-23,82,349-->
     - Porter's five forces analysis / internet / rivalry ::@:: Pricing pressure increases because the internet widens the geographic market and increases the number of competitors. <!--SR:!2025-10-25,84,349!2025-10-24,83,349-->
-  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. Essentially all firms in the industry become more profitable. <!--SR:!2025-12-25,122,395!2025-08-26,24,375-->
+  - Porter's five forces / weak ::@:: If the five forces are weak, there is little competition in the industry. Essentially all firms in the industry become more profitable. <!--SR:!2025-12-25,122,395!2025-12-25,120,395-->
 - [benchmarking](../../../../general/benchmarking.md) ::@:: It is the practice of comparing business processes and performance metrics to industry bests and best practices from other companies. Dimensions typically measured are quality, time and cost. <p> \(__this course__: in midterm examination\) <!--SR:!2025-12-25,122,395!2025-12-21,118,395-->
 - [strategic management](../../../../general/strategic%20management.md) ::@:: It involves the formulation and implementation of the major goals and initiatives taken by an organization's managers on behalf of stakeholders, based on consideration of resources and an assessment of the internal and external environments in which the organization operates. <!--SR:!2025-10-24,83,349!2025-10-23,82,349-->
   - strategic management / generic strategies ::@:: differentiation, \(customer and supplier\) intimacy, low cost, niching <!--SR:!2025-10-25,84,349!2025-10-26,85,349-->
@@ -192,7 +192,7 @@ The content is in teaching order.
 - [value chain](../../../../general/value%20chain.md) ::@:: It is a progression of activities that a business or firm performs in order to deliver goods and services of value to an end customer. <!--SR:!2025-10-26,85,349!2025-10-25,84,349-->
   - value chain / primary activities ::@:: They are essential for adding value and creating a competitive edge. The 5 activities are: inbound logistics, operations, outbound logistics, marketing and sales, and service.  <p> \(__this course__: The textbook has "outbound logistics" as the 5th item instead. The "customer" link should be broken down into "wholesaler &gt; retailer &gt; consumer". The instructor has pointed out that these 2 points. Asked in the midterm examination.\) <!--SR:!2025-10-24,84,349!2025-10-26,85,349-->
   - value chain / support activities ::@:: They help make primary activities more effectively and efficiently. The 4 activities are: human resources, infrastructure, procurement, and technology. <!--SR:!2025-10-26,85,349!2025-10-26,85,349-->
-- [core competency](../../../../general/core%20competency.md) ::@:: It can be defined as "a harmonized combination of multiple resources and skills that distinguish a firm in the marketplace" and therefore are the foundation of companies' competitiveness. <p> \(__this course__: Its relationship to competitive advantage was asked in the midterm examination: They make it difficult for other firms to copy its competitive advantage, sustaining said advantages.\) <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
+- [core competency](../../../../general/core%20competency.md) ::@:: It can be defined as "a harmonized combination of multiple resources and skills that distinguish a firm in the marketplace" and therefore are the foundation of companies' competitiveness. <p> \(__this course__: Its relationship to competitive advantage was asked in the midterm examination: They make it difficult for other firms to copy its competitive advantage, sustaining said advantages.\) <!--SR:!2025-12-27,122,395!2025-12-25,120,395-->
 - strategic management
   - strategic management / information system ::@:: It helps promote overall performance of business units by promoting core competencies, _network-based_ strategies, and synergies. <!--SR:!2025-10-21,80,349!2025-10-25,85,349-->
     - strategic management / information system / competitiveness ::@:: It can help create competitive advantages over competitors. However, competitors can adapt similar systems. In the end, it is needed for survival, because if you do not use it, you lose to everyone else. <!--SR:!2025-10-21,80,349!2025-10-26,85,349-->
@@ -302,7 +302,7 @@ The content is in teaching order.
 - [cloud computing](../../../../general/cloud%20computing.md) ::@:: It is "a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand," according to ISO. <!--SR:!2025-11-05,90,373!2025-11-08,93,373-->
   - cloud computing / services ::@:: It provides on-demand computing services, e.g. infrastructure as a service \(IaaS\), platform as a service \(PaaS\), software as a service \(SaaS\), etc. <!--SR:!2025-11-01,86,373!2025-11-03,88,373-->
   - cloud computing / types ::@:: private cloud \(private to a business\), public cloud  \(shared with other businesses\) <!--SR:!2025-11-04,89,373!2025-11-10,95,373-->
-    - cloud computing / types / this course ::@:: \(__this course__: The instructor thinks that cloud computing can never be private, because it uses the _internet_ which can be _eavesdropped_. Appeared in the midterm examination.\) <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
+    - cloud computing / types / this course ::@:: \(__this course__: The instructor thinks that cloud computing can never be private, because it uses the _internet_ which can be _eavesdropped_. Appeared in the midterm examination.\) <!--SR:!2025-12-26,121,395!2025-12-26,121,395-->
   - cloud computing / advantages ::@:: allow companies to reduce IT investments <!--SR:!2025-11-06,91,373!2025-11-04,89,373-->
   - cloud computing / disadvantages ::@:: reliability \(accessibility of the data anytime\), security \(capability of the service provider to protect data from hackers\); both due to relying on the services of other companies <p> \(__this course__: The midterm examination asked us to elaborate of these two major problems.\) <!--SR:!2025-11-05,90,373!2025-11-07,92,373-->
 - [green computing](../../../../general/green%20computing.md) ::@:: It is the study and practice of environmentally sustainable computing or IT. <p> It covers practices and technologies for IT infrastructure, mainly to reduce power consumption. \(2% of United States power demand comes from IT infrastructure.\) <!--SR:!2025-11-03,88,373!2025-10-30,84,373-->
@@ -375,38 +375,38 @@ The content is in teaching order.
 - datetime: 2025-07-15T09:00:00+09:00/2025-07-15T10:40:00+09:00, PT1H40M
   - local: 2025-07-15T08:00:00+08:00/2025-07-15T09:40:00+08:00, PT1H40M
 - topic: foundations of business intelligence
-- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2025-12-18,115,395!2025-08-26,24,375-->
-  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-08-26,24,375!2025-12-19,116,395-->
-  - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>&nbsp;B\), exabytes \(EB, 1000<sup>6</sup>&nbsp;B\), etc. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+- [big data](../../../../general/big%20data.md) ::@:: It primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries \(rows\) offer greater statistical power, while data with higher complexity \(more attributes or columns\) may lead to a higher false discovery rate. <!--SR:!2025-12-18,115,395!2025-12-25,120,395-->
+  - big data / examples ::@:: semi-structured data, unstructured data; sensors, social media, web traffic, etc. <!--SR:!2025-12-30,125,395!2025-12-19,116,395-->
+  - big data / sizes ::@:: petabytes \(PB, 1000<sup>5</sup>&nbsp;B\), exabytes \(EB, 1000<sup>6</sup>&nbsp;B\), etc. <!--SR:!2025-12-25,120,395!2025-08-27,25,375-->
 - business intelligence
   - business intelligence / infrastructure ::@:: many tools for big data and separate systems <!--SR:!2025-12-25,122,395!2025-08-27,25,375-->
   - business intelligence / tools ::@:: Apache Hadoop, analytical platforms, data marts, data warehouses, in-memory processing, etc. <!--SR:!2025-08-27,25,375!2025-12-23,120,395-->
 - [data warehouse](../../../../general/data%20warehouse.md) \(DW, DWH\) ::@:: They are central repositories of data integrated from disparate sources. <!--SR:!2025-12-20,117,395!2025-12-18,115,395-->
-- [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. <!--SR:!2025-12-24,121,395!2025-08-26,24,375-->
+- [data mart](../../../../general/data%20mart.md) ::@:: It is a  structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. <!--SR:!2025-12-24,121,395!2025-12-28,123,395-->
 - [Apache Hadoop](../../../../general/Apache%20Hadoop.md) ::@:: It enables distributed and paralleling computing. This helps to process big data across inexpensive computers. <!--SR:!2025-12-23,120,395!2025-08-27,25,375-->
   - Apache Hadoop / components ::@:: Apache Hbase \(NoSQL database\), Hadoop Distributed File System \(HDFS\), MapReduce \(break up data into clusters\) <!--SR:!2025-08-27,25,375!2025-12-21,118,395-->
-- [in-memory processing](../../../../general/in-meemory%20processing.md) ::@:: It is a software architecture where a database is kept entirely in random-access memory \(RAM\) or flash memory so that usual accesses, in particular read or query operations, do not require access to disk storage. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - in-memory processing / advantages ::@:: This may allow faster data operations such as "joins", and faster reporting and decision-making in business. <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
+- [in-memory processing](../../../../general/in-meemory%20processing.md) ::@:: It is a software architecture where a database is kept entirely in random-access memory \(RAM\) or flash memory so that usual accesses, in particular read or query operations, do not require access to disk storage. <!--SR:!2025-12-25,120,395!2025-08-27,25,375-->
+  - in-memory processing / advantages ::@:: This may allow faster data operations such as "joins", and faster reporting and decision-making in business. <!--SR:!2025-12-30,125,395!2025-12-31,126,395-->
   - in-memory processing / requirements ::@:: dedicated hardware optimized for in-memory processing are needed <!--SR:!2025-08-27,25,375!2025-08-27,25,375-->
-- [online analytical processing](../../../../general/online%20analytical%20processing.md) \(OLAP\) ::@:: It is an approach to quickly answer multi-dimensional analytical \(MDA\) queries. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-- [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
-  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-08-26,24,375!2025-12-19,116,395-->
-  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-08-26,24,375!2025-12-20,117,395-->
+- [online analytical processing](../../../../general/online%20analytical%20processing.md) \(OLAP\) ::@:: It is an approach to quickly answer multi-dimensional analytical \(MDA\) queries. <!--SR:!2025-12-26,121,395!2025-08-27,25,375-->
+  - online analytical processing / data cubes ::@:: Data is viewed as multidimensional cubes. Each information aspect \(e.g. attribute\) is a dimension. <!--SR:!2025-12-25,120,395!2025-08-27,25,375-->
+- [data mining](../../../../general/data%20mining.md) ::@:: It is the process of extracting and finding \(hidden\) patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. <!--SR:!2025-12-28,123,395!2025-12-26,121,395-->
+  - data mining / examples ::@:: customer behavior prediction, customer purchasing patterns <!--SR:!2025-12-29,124,395!2025-12-19,116,395-->
+  - data mining / types ::@:: associations, classifications, clustering, forecasting, sequences \(e.g. time series\), etc. <!--SR:!2025-12-27,122,395!2025-12-20,117,395-->
 - [text mining](../../../../general/text%20mining.md) ::@:: It  is the process of deriving high-quality information from text. It involves "the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources". <!--SR:!2025-08-27,25,375!2025-12-20,117,395-->
   - text mining / corpora ::@:: call transcripts, emails, legal cases, patent descriptions, service reports, etc. <!--SR:!2025-12-20,117,395!2025-12-23,120,395-->
-  - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+  - text mining / applications ::@:: sentiment analysis, which mines social data to detect opinions <!--SR:!2025-12-30,125,395!2025-08-27,25,375-->
 - data mining
   - data mining / web mining ::@:: Data is from the web. Analysis include content, structure \(links\), usage \(user interactions\), etc. <p> We can use it to understand customer behavior, evaluate website effectiveness, etc. <!--SR:!2025-12-18,115,395!2025-12-18,115,395-->
-- [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information. <!--SR:!2025-08-27,25,375!2025-08-26,24,375-->
-  - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data <!--SR:!2025-08-27,25,375!2025-08-26,24,375-->
-  - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2025-08-27,25,375!2025-08-26,25,375-->
+- [information policy](../../../../general/information%20policy.md) ::@:: It is the set of all public laws, regulations, and policies that encourage, discourage, or regulate the creation, use, storage, access, and communication and dissemination of information. <!--SR:!2025-08-27,25,375!2025-12-26,121,395-->
+  - information policy / firms ::@:: firm-based procedures, roles, and rules to manage, share, and standardize data <!--SR:!2025-08-27,25,375!2025-12-29,124,395-->
+  - information policy / aspects ::@:: 3 aspects: data administration, database administration, data governance <!--SR:!2025-08-27,25,375!2026-01-03,129,395-->
   - information policy / data administration ::@:: establish procedures, roles, and rules to manage data in general <!--SR:!2025-12-21,118,395!2025-12-19,116,395-->
-  - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+  - information policy / data governance ::@:: establish procedures, roles, and rules to manage data with regards to regulations <!--SR:!2025-12-25,120,395!2025-08-27,25,375-->
   - information policy / database administration ::@:: create and maintain databases <!--SR:!2025-12-17,115,395!2025-12-19,116,395-->
 - [data quality](../../../../general/data%20quality.md) ::@:: It refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality, but data is generally considered high quality if it is "fit for \[its\] intended uses in operations, decision making and planning". <!--SR:!2025-08-27,25,375!2025-12-18,115,395-->
   - data quality / examples ::@:: more than 25 percent of critical in Fortune 100 company databases are bad: inaccuracy \(bad inputs\), inconsistency, redundancy <!--SR:!2025-08-27,25,375!2025-12-24,121,395-->
-  - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-08-26,24,375!2025-12-25,122,395-->
+  - data quality / solutions ::@:: find and fix bad data, improve procedures to manage data <!--SR:!2025-12-25,120,395!2025-12-25,122,395-->
 - assignment: [quiz 6](questions/quiz%206.md)
 
 ## week 3 lecture 3
@@ -416,21 +416,21 @@ The content is in teaching order.
 - topic: hands-on exercise: predictive text analytics with Altair AI studio
 - reading: Weiguo Fan, Linda Wallace, Stephanie Rich, and Zhongju Zhang. 2006. Tapping the power of text mining. Commun. ACM 49, 9 \(September 2006\), 76–82. <https://doi.org/10.1145/1151030.1151032>
 - text mining
-  - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge <!--SR:!2025-12-22,119,395!2025-08-26,24,375-->
-  - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends. <!--SR:!2025-08-26,24,375!2025-12-25,122,395-->
-  - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc. <!--SR:!2025-08-26,24,375!2025-12-23,120,395-->
+  - text mining / processes ::@:: collection → preprocessing → text analysis \(clustering, extraction, summarization\) → management information system → knowledge <!--SR:!2025-12-22,119,395!2025-12-26,121,395-->
+  - text mining / business ::@:: Define clear goals and expectations. Perform ROI analysis. Research vendors and clients. Integrate with existing IT infrastructure \(reuse\). Seek talents. Know new technology trends. <!--SR:!2025-12-27,122,395!2025-12-25,122,395-->
+  - text mining / origins ::@:: information extraction \(e.g. classification, summarization, etc.\), information retrieval, library science, information science, natural language processing, etc. <!--SR:!2025-12-25,120,395!2025-12-23,120,395-->
   - text mining / conferences ::@:: 1980s: Message Understanding Conferences \(MUC\) <!--SR:!2025-12-19,116,395!2025-12-23,120,395-->
   - text mining / timeline ::@:: text summarization \(for libraries\) → information extraction → information discovery <!--SR:!2025-08-27,25,375!2025-12-22,119,395-->
-- true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2025-12-20,117,395!2025-08-26,24,375-->
-- false positive \(FP\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+- true positive \(TP\) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2025-12-27,122,395!2025-08-27,25,375-->
+- true negative \(TN\) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2025-12-20,117,395!2025-12-29,124,395-->
+- false positive \(FP\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive. <!--SR:!2025-12-28,123,395!2025-08-27,25,375-->
 - false negative \(FN\) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2025-08-27,25,375!2025-12-22,119,395-->
 - [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$ <!--SR:!2025-08-27,25,375!2025-08-27,25,375-->
-  - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$ <!--SR:!2025-08-26,24,375!2025-08-26,25,375-->
-- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-08-26,24,375!2025-12-19,116,395-->
-- [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$ <!--SR:!2025-08-26,24,375!2025-08-26,25,375-->
+  - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$ <!--SR:!2025-12-25,120,395!2026-01-03,129,395-->
+- [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2025-12-25,120,395!2025-12-19,116,395-->
+- [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$ <!--SR:!2025-12-25,120,395!2026-01-05,131,395-->
 - [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2025-12-18,115,395!2025-08-27,25,375-->
-- [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+- [confusion matrix](../../../../general/confusion%20matrix.md) ::@:: It is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one. <!--SR:!2025-12-26,121,395!2025-08-27,25,375-->
   - confusion matrix / layout ::@:: Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa – both variants are found in the literature. The diagonal of the matrix therefore represents all instances that are correctly predicted. <!--SR:!2025-12-25,122,395!2025-12-24,121,395-->
 
 ## week 3 lecture 4
@@ -486,30 +486,30 @@ The content is in teaching order.
   - local: 2025-07-22T08:00:00+08:00/2025-07-22T09:40:00+08:00, PT1H40M
 - topic: managing knowledge, artificial intelligence
 - [knowledge](../../../../general/knowledge.md) ::@:: It is an awareness of facts, a familiarity with individuals and situations, or a practical skill. <!--SR:!2025-12-19,116,395!2025-08-27,25,375-->
-  - knowledge / nature ::@:: different forms, experiences network effect, intangible, situational \(_not_ timeless\) <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
-  - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources. <!--SR:!2025-08-26,24,375!2025-12-24,121,395-->
+  - knowledge / nature ::@:: different forms, experiences network effect, intangible, situational \(_not_ timeless\) <!--SR:!2025-12-29,124,395!2025-12-31,126,395-->
+  - knowledge / business ::@:: It is an asset, and creation of it requires organizational resources. <!--SR:!2025-12-26,121,395!2025-12-24,121,395-->
   - knowledge / forms ::@:: explicit \(documented\) vs. tacit \(in minds\) <br/> causality, procedural, skills, etc. <!--SR:!2025-12-19,116,395!2025-08-27,25,375-->
   - knowledge / taxonomy ::@:: It is a scheme to classify information and knowledge meaningfully. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
-- [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization. <!--SR:!2025-08-27,25,375!2025-08-26,25,375-->
-  - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error <!--SR:!2025-08-26,24,375!2025-08-26,24,375-->
-  - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes <!--SR:!2025-08-26,24,375!2025-08-26,25,375-->
+- [organizational learning](../../../../general/organizational%20learning.md) ::@:: It is the process of creating, retaining, and transferring knowledge within an organization. An organization improves over time as it gains experience. From this experience, it is able to create knowledge. This knowledge is broad, covering any topic that could better an organization. <!--SR:!2025-08-27,25,375!2026-01-05,131,395-->
+  - organizational learning / sources ::@:: collection of data, feedback, measurement, and trial and error <!--SR:!2025-12-26,121,395!2025-12-25,120,395-->
+  - organizational learning / effects ::@:: behavioral adjustment, change in management decision making, creation of business processes <!--SR:!2025-12-28,123,395!2026-01-04,130,395-->
 - [knowledge management](../../../../general/knowledge%20management.md) \(KM\) ::@:: It is the set of procedures for producing, disseminating, utilizing, and overseeing an organization's knowledge and data. It alludes to a multidisciplinary strategy that maximizes knowledge utilization to accomplish organizational goals. <!--SR:!2025-12-22,119,395!2025-12-24,121,395-->
-  - knowledge management / value chain ::@:: acquire: business analytics, data mining, machine learning, etc. → store: content management systems, etc. → disseminate: portals, search engines, etc. → apply: decision support systems, enterprise applications, robotics, etc. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+  - knowledge management / value chain ::@:: acquire: business analytics, data mining, machine learning, etc. → store: content management systems, etc. → disseminate: portals, search engines, etc. → apply: decision support systems, enterprise applications, robotics, etc. <!--SR:!2025-12-26,121,395!2025-08-27,25,375-->
 - [knowledge management system](../../../../general/knowledge%20management%20software.md) \(KMS\) ::@:: It is a subset of content management software, which consists of software that specializes in the way information is collected, stored and/or accessed. <!--SR:!2025-12-21,118,395!2025-12-20,117,395-->
-  - knowledge management system / types ::@:: 3 major types: enterprise-wide KMS, intelligent techniques, knowledge work systems <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
-  - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc. <!--SR:!2025-12-21,118,395!2025-08-26,25,375-->
-  - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc. <!--SR:!2025-08-26,24,375!2025-12-22,119,395-->
+  - knowledge management system / types ::@:: 3 major types: enterprise-wide KMS, intelligent techniques, knowledge work systems <!--SR:!2025-12-26,121,395!2025-08-27,25,375-->
+  - knowledge management system / enterprise-wide ::@:: general-purpose KMS to collection, store, disseminate, and apply knowledge <p> examples: collaboration tools, enterprise content management systems, learning management systems \(LMS\), social tools, etc. <!--SR:!2025-12-21,118,395!2026-01-04,130,395-->
+  - knowledge management system / knowledge work systems ::@:: specialized systems to enable knowledge workers to create and discover new knowledge <p> examples: computer-aided design \(CAD\), virtual reality \(VR\), etc. <!--SR:!2025-12-31,126,395!2025-12-22,119,395-->
   - knowledge management system / intelligent techniques ::@:: tools to discover patterns in knowledge and apply them for decision making and knowledge domains <p> examples: computer vision, data mining, expert systems, genetic algorithms, machine learning, intelligent agents, etc. <!--SR:!2025-08-27,25,375!2025-08-27,25,375-->
 - [expert system](../../../../general/expert%20system.md) ::@:: It is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code. <!--SR:!2025-08-28,26,380!2025-08-27,26,380-->
   - expert system / knowledge base ::@:: It is a body of human knowledge manually inputted by experts. It is often restricted to narrowly defined domains. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
 - knowledge management
   - knowledge management / types ::@:: structured: presentations, reports, rules, etc. <br/> semi-structured: emails, videos, etc. <br/> unstructured: tacit knowledge, etc. <p> Most \(~80%\) of an organization's knowledge content is semi-structured or unstructured. <!--SR:!2025-12-20,117,395!2025-12-22,119,395-->
-- [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness. <!--SR:!2025-08-26,24,375!2025-12-21,118,395-->
-- [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-08-26,24,375!2025-12-23,120,395-->
+- [learning management system](../../../../general/learning%20management%20system.md) \(LMS\) ::@:: It is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. <p> It can measure learning effectiveness. <!--SR:!2025-12-26,121,395!2025-12-21,118,395-->
+- [massive open online course](../../../../general/massive%20open%20online%20course.md) \(MOOC\) ::@:: It is an online course aimed at unlimited participation and open access via the Web. <!--SR:!2025-12-27,122,395!2025-12-23,120,395-->
 - knowledge management system
   - knowledge management system / intelligent techniques
     - knowledge management system / intelligent techniques / tasks ::@:: automation: intelligent agents, etc. <br/> capture tacit knowledge: case-based reasoning, expert systems, fuzzy logic, etc. <br/> knowledge discovery: data mining, neural networks, etc. <br/> solutions to complex problems: genetic algorithms, etc. <!--SR:!2025-12-18,116,395!2025-08-27,25,375-->
-- [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. <!--SR:!2025-08-26,24,375!2025-08-27,25,375-->
+- [artificial intelligence](../../../../general/artificial%20intelligence.md) \(AI\) ::@:: It is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. <!--SR:!2025-12-26,121,395!2025-08-27,25,375-->
 
 ## week 4 lecture 3
 
@@ -536,7 +536,7 @@ The content is in teaching order.
 - topic: enhancing decision making
 - [decision-making](../../../../general/decision-making.md) ::@:: It is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational. <!--SR:!2025-08-28,26,380!2025-08-27,25,380-->
   - decision-making / business value ::@:: many small decisions over a year adds up to great business value annually <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
-  - decision-making / types ::@:: unstructured, semi-structured, structured <!--SR:!2025-08-28,26,380!2025-08-26,25,380-->
+  - decision-making / types ::@:: unstructured, semi-structured, structured <!--SR:!2025-08-28,26,380!2026-01-07,133,400-->
   - decision-making / unstructured ::@:: decisions that requires evaluation, insight, and judgement; often made by senior management <p> examples: capital budgeting, entrance, exit, long-term goals, etc. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
   - decision-making / semi-structured ::@:: decisions with both unstructured and structured parts; often made by middle management <p> examples: department budgeting, marketing planning, website design, etc. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
   - decision-making / structured ::@:: repetitive and routine decisions with a clear handling procedure; often made by operational management, including employees and teams <p> examples: inventory restocking, overtime eligibility, etc. <!--SR:!2025-08-28,26,380!2025-08-27,25,380-->
@@ -552,18 +552,18 @@ The content is in teaching order.
     - bounded rationality / managerial problem solving / types ::@:: decision making vs. problem solving; programmable decisions vs. non-programmable decisions <!--SR:!2025-08-27,26,380!2025-08-28,26,380-->
 - decision-making
   - decision-making / roles ::@:: Mintzberg defines the following 10 managerial roles grouped into 3 categories: decisional roles, informational roles, and interpersonal roles. <!--SR:!2025-08-27,25,380!2025-08-28,26,380-->
-    - decision-making / roles / interpersonal ::@:: figurehead, leader, liaison <!--SR:!2025-08-28,26,380!2025-08-26,24,380-->
+    - decision-making / roles / interpersonal ::@:: figurehead, leader, liaison <!--SR:!2025-08-28,26,380!2026-01-02,128,400-->
     - decision-making / roles / informational ::@:: disseminator, nerve center, spokesperson <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
     - decision-making / roles / decisional ::@:: disturbance handler, entrepreneur, negotiator, resource allocator <!--SR:!2025-08-27,25,380!2025-08-28,26,380-->
 - information system
   - information system / obstacles ::@:: There are 3 main obstacles why IS may not always produce positive results: information quality, management filters, and organizational inertia and politics. <!--SR:!2025-08-27,26,380!2025-08-28,26,380-->
-    - information system / obstacles / information quality ::@:: Good decision-making processes require good data. <!--SR:!2025-08-26,24,380!2025-08-28,26,380-->
+    - information system / obstacles / information quality ::@:: Good decision-making processes require good data. <!--SR:!2025-12-28,123,400!2025-08-28,26,380-->
     - information system / obstacles / management filters ::@:: Managers may be biased towards information, especially against new ones, preferring old ones. \(No idea why it is called "filters" instead of "biases"...\) <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
     - information system / obstacles / organizational inertia and politics ::@:: Strong forces in organizations generally resist changes, even good ones. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
 - business intelligence
   - business intelligence / infrastructure ::@:: databases, data warehouses, data marts; they collect, store and analyze data <!--SR:!2025-08-27,26,380!2025-08-28,26,380-->
   - business intelligence / systems
-  - business intelligence / vendors ::@:: They are firms that create business intelligence and analytics platforms for other firms to use. <!--SR:!2025-08-26,25,380!2025-08-28,26,380-->
+  - business intelligence / vendors ::@:: They are firms that create business intelligence and analytics platforms for other firms to use. <!--SR:!2026-01-07,133,400!2025-08-28,26,380-->
   - business intelligence / goals ::@:: deliver accurate and real-time information to decision makers <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
   - business intelligence / systems
     - business intelligence / systems / functions ::@:: ad hoc query/search/report creation, dashboards/scorecards, drill down, forecasting, modeling, parameterized reports, production reports, what-if scenarios, etc. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
@@ -576,7 +576,7 @@ The content is in teaching order.
   - decision support system / group ::@:: A __group decision support system__ \(__GDSS__\) helps  groups of people make decisions together more effectively. <!--SR:!2025-08-27,26,380!2025-08-27,25,380-->
 - executive support system
 - [balanced scorecard](../../../../general/balanced%20scorecard.md) ::@:: It is a strategy performance management tool – a well-structured report used to keep track of the execution of activities by staff and to monitor the consequences arising from these actions. <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
-  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves. <!--SR:!2025-08-27,26,380!2025-08-26,24,380-->
+  - balanced scorecard / motivation ::@:: Management wants to execute its strategy. It needs a way to track the execution using performance measures. Employees can also understand and accept these measures to know how to improve themselves. <!--SR:!2025-08-27,26,380!2026-01-01,127,400-->
   - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\). <!--SR:!2025-08-28,26,380!2025-08-28,26,380-->
 - assignment: [quiz 11–12](questions/quiz%2011–12.md)
 

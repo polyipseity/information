@@ -129,7 +129,7 @@ The content is in teaching order.
   - networking etiquette
   - dining etiquette
 - work cultures
-- How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2025-08-26,262,330!2026-04-17,430,310-->
+- How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2028-12-07,1198,350!2026-04-17,430,310-->
 - What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2028-05-04,1026,350!2027-06-18,747,330-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2025-10-21,300,330-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2025-09-24,284,330-->

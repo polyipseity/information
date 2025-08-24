@@ -21,7 +21,7 @@ There are 3 steps to creating blue oceans: {@{understand "as-is", imagine "to be
 
 ### understand "as-is"
 
-In the 1st step, understand "as-is", the goal is to {@{understand where we are now}@}. You should {@{mobilize your team and understand your industry}@}. <!--SR:!2025-09-17,357,344!2025-08-26,336,344-->
+In the 1st step, understand "as-is", the goal is to {@{understand where we are now}@}. You should {@{mobilize your team and understand your industry}@}. <!--SR:!2025-09-17,357,344!2030-01-03,1590,364-->
 
 To visualize the industry, one can make use of a {@{capture strategy canvas}@}. It is {@{a line chart}@} showing the {@{feature qualities of various offerings of your industry}@}. Ideally, after finishing all the 3 steps, you should also plot {@{your own blue ocean offering}@}, of which {@{some of the features should be respectively eliminated, reduced, raise, or create}@}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2025-09-24,338,304!2028-05-23,1086,344!2027-02-14,723,324!2027-10-29,879,304!2028-03-11,1038,344-->
 

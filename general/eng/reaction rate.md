@@ -56,7 +56,7 @@ There are many factors affecting the reaction rate:
 
 <!--/pytextgen-->
 
-Influencing factors can be explained by {@{[collision theory](collision%20theory.md)}@}. <!--SR:!2025-08-26,610,310-->
+Influencing factors can be explained by {@{[collision theory](collision%20theory.md)}@}. <!--SR:!2032-10-24,2615,330-->
 
 ## rate equation
 
