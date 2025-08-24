@@ -105,7 +105,7 @@ To use our running examples, notice that in {@{both the [first](#example%20Nim%2
 
 ## First Lemma
 
-As {@{an intermediate step to proving the main theorem}@}, we show that {@{for every position $G$ and every ${\mathcal {P} }$-position $A$}@}, {@{the equivalence $G\approx A+G$ holds}@}. By {@{the above definition of equivalence}@}, this amounts to {@{showing that $G+H$ and $A+G+H$ share an outcome class for all $H$ (annotation: That $G$ is separated into $G + H$ is mostly irrelevant for proving Lemma 1. It is more for matching the definition, and will be used in Lemma 2 instead.)}@}.
+As {@{an intermediate step to proving the main theorem}@}, we show that {@{for every position $G$ and every ${\mathcal {P} }$-position $A$}@}, {@{the equivalence $G\approx A+G$ holds}@}. By {@{the above definition of equivalence}@}, this amounts to {@{showing that $G+H$ and $A+G+H$ share an outcome class for all $H$}@} \(annotation: That {@{$G$ is separated into $G + H$}@} is {@{mostly irrelevant for proving Lemma 1}@}. It is more for {@{matching with the definition}@}, and will be {@{used in Lemma 2 instead}@}.\).
 
 Suppose that {@{$G+H$ is a ${\mathcal {P} }$-position}@}. Then {@{the previous player has a winning strategy for $A+G+H$}@}: respond to {@{moves in $A$ according to their winning strategy for $A$ \(which exists by virtue of $A$ being a ${\mathcal {P} }$-position\)}@}, and respond to {@{moves in $G+H$ according to their winning strategy for $G+H$ \(which exists for the analogous reason\)}@}. So {@{$A+G+H$ must also be a ${\mathcal {P} }$-position}@}.
 

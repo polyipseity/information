@@ -58,7 +58,7 @@ Authors who prefer to define natural numbers to begin at 0 use that value in the
 
 Mathematical induction can be used to prove the following statement _P_(_n_) for all natural numbers _n_: {@{$$P(n)\!:\ \ 0+1+2+\cdots +n={\frac {n(n+1)}{2} }$$}@}
 
-This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@}
+This states {@{a general formula for the sum of the natural numbers less than or equal to a given number}@}; in fact {@{an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@}
 
 __<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$.
 

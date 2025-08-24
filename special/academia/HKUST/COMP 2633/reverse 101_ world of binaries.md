@@ -20,7 +20,7 @@ Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensu
 
 ## compiling a program
 
-Assuming you are using Linux. For developers, compiling a C program is {@{simply running the GNU Compiler Collection (gcc) using the ocmmand `gcc <input>.c -o <output>` in a terminal, which compiles the C code in `<input>.c` into a program called `<output>`}@}.
+Assuming {@{you are using Linux}@}. For developers, {@{compiling a C program}@} is {@{simply running the GNU Compiler Collection \(gcc\)}@} using {@{the command `gcc <input>.c -o <output>` in a terminal}@}, which {@{compiles the C code in `<input>.c` into a program called `<output>`}@}.
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures.
 

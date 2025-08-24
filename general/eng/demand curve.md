@@ -108,7 +108,7 @@ The elasticity of demand usually will {@{vary depending on the price}@}. If {@{t
 
 ## taxes and subsidies
 
-{@{A sales tax on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}.
+{@{A sales tax on the commodity}@} does not {@{directly change the demand curve}@}, if {@{the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}.
 
 If {@{the price axis in the graph represents the price before addition of tax and/or subtraction of subsidy}@} then {@{the demand curve moves inward when a tax is introduced, and outward when a subsidy is introduced}@}.
 
