@@ -19,9 +19,9 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 ## the proton–proton chain
 
-(Note that elements in the chemical equations are {@{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}@}.) <!--SR:!2025-08-29,308,333-->
+(Note that elements in the chemical equations are {@{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}@}.) <!--SR:!2029-07-12,1413,353-->
 
-The first step in all the branches is {@{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}@}. As the protons fuse, {@{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}@} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {@{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}@}. <!--SR:!2026-05-16,479,315!2026-01-30,366,295!2025-08-29,255,275-->
+The first step in all the branches is {@{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}@}. As the protons fuse, {@{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}@} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {@{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}@}. <!--SR:!2026-05-16,479,315!2026-01-30,366,295!2027-07-31,701,275-->
 
 - 1st step / energy release ::@:: 0.42 MeV <!--SR:!2025-12-21,336,290!2025-10-04,299,290-->
 

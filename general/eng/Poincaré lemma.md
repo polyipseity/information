@@ -11,7 +11,7 @@ tags:
 
 # Poincaré lemma
 
-In {@{mathematics}@}, {@{the __Poincaré lemma__}@} gives {@{a sufficient condition for a [closed differential form](closed%20differential%20form.md) to be exact}@} \(while {@{an exact form is necessarily closed}@}\). Precisely, it states that {@{every closed _p_-form on an open ball in __R__<sup>_n_</sup> is exact for _p_ with 1 ≤ _p_ ≤ _n_}@}.<sup>[\[1\]](#^ref-1)</sup> The lemma was introduced by {@{[Henri Poincaré](Henri%20Poincaré.md) in 1886}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-09-21,67,329!2025-10-02,76,329!2025-09-21,67,329!2025-09-27,71,329!2025-09-28,72,329!2025-08-29,44,290-->
+In {@{mathematics}@}, {@{the __Poincaré lemma__}@} gives {@{a sufficient condition for a [closed differential form](closed%20differential%20form.md) to be exact}@} \(while {@{an exact form is necessarily closed}@}\). Precisely, it states that {@{every closed _p_-form on an open ball in __R__<sup>_n_</sup> is exact for _p_ with 1 ≤ _p_ ≤ _n_}@}.<sup>[\[1\]](#^ref-1)</sup> The lemma was introduced by {@{[Henri Poincaré](Henri%20Poincaré.md) in 1886}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-09-21,67,329!2025-10-02,76,329!2025-09-21,67,329!2025-09-27,71,329!2025-09-28,72,329!2026-02-25,180,310-->
 
 ## informal discussion
 

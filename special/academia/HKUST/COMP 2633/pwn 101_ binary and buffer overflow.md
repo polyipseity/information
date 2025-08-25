@@ -192,7 +192,7 @@ If so, you are good to go! Otherwise, try harder.
 
 There are {@{protection schemes to inhibit exploitation of buffer overflow even if they exist}@}. We will talk about {@{two of them: [stack canaries](#stack%20canaries) and [address randomization](#address%20randomization)}@}. Of course, there is always the solution of {@{[avoiding buffer overflows](#avoiding%20buffer%20overflows) in the first place}@}. <!--SR:!2028-07-19,1082,350!2028-01-24,913,330!2025-09-25,285,330-->
 
-We should know these protection so that {@{we can bypass them in pwn challenges}@}. To see what protections has been enabled for an executale, {@{run the `pwndbg` command `checksec`}@}. It will print {@{a list of protections and their status, some of which are not introduced here and you will need to look them up yourself}@}. For example: <!--SR:!2025-08-29,262,330!2025-10-19,299,330!2027-06-16,751,330-->
+We should know these protection so that {@{we can bypass them in pwn challenges}@}. To see what protections has been enabled for an executale, {@{run the `pwndbg` command `checksec`}@}. It will print {@{a list of protections and their status, some of which are not introduced here and you will need to look them up yourself}@}. For example: <!--SR:!2028-12-02,1191,350!2025-10-19,299,330!2027-06-16,751,330-->
 
 ```shell
 pwndbg> checksec

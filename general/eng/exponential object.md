@@ -23,7 +23,7 @@ Let $\mathbf {C}$ be {@{a category, let $Z$ and $Y$ be [objects](object%20(categ
 
 ### equational definition
 
-Alternatively, the exponential object may be {@{defined through equations}@}: <!--SR:!2025-08-29,160,310-->
+Alternatively, the exponential object may be {@{defined through equations}@}: <!--SR:!2027-07-22,692,330-->
 
 - Existence of $\lambda g$ ::@:: is guaranteed by existence of the operation $\lambda -$. (annotation: the operation is defined for any morphism $g$) <!--SR:!2026-01-13,268,330!2026-01-23,276,330-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality $\forall g\colon X\times Y\to Z,\ \mathrm {eval} \circ (\lambda g\times \mathrm {id} _{Y})=g$. <!--SR:!2026-11-15,487,310!2025-12-10,201,270-->

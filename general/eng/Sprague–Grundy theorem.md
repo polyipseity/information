@@ -141,7 +141,7 @@ In summary, we have {@{$G\approx G'$ and $G'\approx *m$}@}. By {@{transitivity}@
 
 ## development
 
-If {@{$G$ is a position of an impartial game}@}, {@{the unique integer $m$ such that $G\approx *m$}@} is called {@{its Grundy value, or Grundy number}@}, and {@{the function that assigns this value to each such position}@} is called {@{the Sprague–Grundy function}@}. {@{R. L. Sprague and P. M. Grundy}@} {@{independently gave an explicit definition of this function, not based on any concept of equivalence to nim positions}@}, and {@{showed that it had the following properties}@}: <!--SR:!2025-08-29,188,310!2025-10-19,229,330!2025-12-05,268,330!2025-08-31,189,310!2025-10-28,237,330!2026-02-02,293,290!2027-09-13,758,330!2026-01-04,291,330-->
+If {@{$G$ is a position of an impartial game}@}, {@{the unique integer $m$ such that $G\approx *m$}@} is called {@{its Grundy value, or Grundy number}@}, and {@{the function that assigns this value to each such position}@} is called {@{the Sprague–Grundy function}@}. {@{R. L. Sprague and P. M. Grundy}@} {@{independently gave an explicit definition of this function, not based on any concept of equivalence to nim positions}@}, and {@{showed that it had the following properties}@}: <!--SR:!2027-11-18,811,330!2025-10-19,229,330!2025-12-05,268,330!2025-08-31,189,310!2025-10-28,237,330!2026-02-02,293,290!2027-09-13,758,330!2026-01-04,291,330-->
 
 - The Grundy value of a single nim pile of size $m$ \(i.e. of the position $*m$\) ::@:: is $m$; <!--SR:!2025-12-08,270,330!2025-11-22,257,330-->
 - A position is a loss for the next player to move \(i.e. a ${\mathcal {P} }$-position\) ::@:: if and only if its Grundy value is zero; and <!--SR:!2027-01-09,547,310!2025-12-16,276,330-->

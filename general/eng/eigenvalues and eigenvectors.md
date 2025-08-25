@@ -181,7 +181,7 @@ So, both $\mathbf u + \mathbf v$ and $\alpha \mathbf u$ are {@{either zero or ei
 
 ### general geometric multiplicity
 
-The __geometric multiplicity__ {@{$\gamma_T(\lambda)$}@} of an eigenvalue $\lambda$ is {@{the [dimension](dimension%20(vector%20space).md) of the eigenspace associated with $\lambda$, i.e., the maximum number of [linearly independent](linear%20independence.md) eigenvectors associated with that eigenvalue}@}. By {@{the definition of eigenvalues and eigenvectors}@}, {@{$\gamma_T(\lambda) \ge 1$ because every eigenvalue has at least one eigenvector}@}. <!--SR:!2029-04-23,1381,375!2026-02-20,474,378!2025-08-29,309,355!2026-02-15,471,375-->
+The __geometric multiplicity__ {@{$\gamma_T(\lambda)$}@} of an eigenvalue $\lambda$ is {@{the [dimension](dimension%20(vector%20space).md) of the eigenspace associated with $\lambda$, i.e., the maximum number of [linearly independent](linear%20independence.md) eigenvectors associated with that eigenvalue}@}. By {@{the definition of eigenvalues and eigenvectors}@}, {@{$\gamma_T(\lambda) \ge 1$ because every eigenvalue has at least one eigenvector}@}. <!--SR:!2029-04-23,1381,375!2026-02-20,474,378!2029-10-15,1508,375!2026-02-15,471,375-->
 
 ### general eigenbasis
 

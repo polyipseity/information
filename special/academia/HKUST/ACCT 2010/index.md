@@ -52,7 +52,7 @@ The content is in teaching order.
     - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2026-12-02,574,297!2027-09-01,819,337-->
       - [financial transaction](../../../../general/financial%20transaction.md) / examples ::@:: Confirming an employment contract is a transaction as the employer agrees to hire the employee and remunerate the employee for employment services rendered. But it is not a financial transaction because there are no changes in the finances for both the employer and employee. <!--SR:!2027-08-07,794,337!2026-01-02,316,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2027-11-04,860,337!2028-10-20,1166,357-->
-    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2028-09-27,1147,357!2025-08-29,264,337-->
+    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2028-09-27,1147,357!2029-01-12,1232,357-->
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / indicators ::@:: operation/performance, financial position, cash flow <!--SR:!2026-11-18,575,317!2027-12-25,906,337-->
   - [financial accounting](../../../../general/financial%20accounting.md) / know how the business is doing financially ::@:: How much money/assets are being generated, spent, saved, and how much are there now? <!--SR:!2025-11-17,322,337!2026-08-03,509,317-->
   - [financial accounting](../../../../general/financial%20accounting.md) / legal compliance ::@:: company laws, tax laws, rules and regulations for listed entities, ... <!--SR:!2029-01-04,1225,357!2025-11-22,327,337-->
@@ -104,7 +104,7 @@ The content is in teaching order.
   - [§ equity](../../../../general/equity%20(finance).md#equity)
 - [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2025-11-26,331,337!2025-11-26,331,337-->
   - [§ revenue](../../../../general/revenue.md#revenue)
-  - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2025-08-29,264,337!2025-11-25,330,337-->
+  - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2029-01-11,1231,357!2025-11-25,330,337-->
 - [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2026-09-09,531,317!2028-10-02,1150,357-->
   - [§ expense](../../../../general/expense.md#expense)
   - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2025-11-24,329,337!2025-11-18,323,337-->
@@ -124,7 +124,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-17T13:30:00+08:00/2024-09-17T14:50:00+08:00
 - [financial transaction](../../../../general/financial%20transaction.md)
-  - [accounting equation](../../../../general/accounting%20equation.md) ::@:: $$\text{assets (A)} = \text{liabilities (L)} + \text{stockholders' equity (SE)}$$ <!--SR:!2025-11-20,325,337!2025-08-29,264,337-->
+  - [accounting equation](../../../../general/accounting%20equation.md) ::@:: $$\text{assets (A)} = \text{liabilities (L)} + \text{stockholders' equity (SE)}$$ <!--SR:!2025-11-20,325,337!2029-01-10,1230,357-->
   - [financial transaction](../../../../general/financial%20transaction.md) / principles ::@:: Each transaction affects _at least_ two accounts. The account names and change direction (debit or credit) are identified. Ensure that the account equation holds after a transaction. <!--SR:!2025-11-19,324,337!2026-11-11,599,337-->
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 in cash. ::@:: A, L, and SE do not change at all. The only change is that the amount under two accounts in A changed in opposite direction, i.e. transferred from the cash asset account to the inventory asset account. <!--SR:!2025-11-21,326,337!2028-11-20,1189,357-->
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 _on credit_ (promise to pay later). ::@:: A increases by $6&nbsp;000, and L increases by $6&nbsp;000, balancing the accounting equation. Upon settlement of the liability (fulfilled the promise to pay), A decreases by $6&nbsp;000, and L decreases by $6&nbsp;000, still balancing the accounting equation. Overall, A, L, and SE do not change. <!--SR:!2025-11-20,325,337!2028-12-12,1206,357-->
@@ -230,7 +230,7 @@ The content is in teaching order.
 ## week 6 lecture 1
 
 - datetime: 2024-10-08T13:30:00+08:00/2024-10-08T14:50:00+08:00
-- [free on board](FOB%20(shipping).md) ::@:: FOB (location): Asset transfer takes place at (location). <br/> FOB _shipping point_: Asset transfer takes place at shipping. Buyer is responsible for loss during the shipping. <br/> FOB _destination_: Asset transfer takes place at destination. Seller is responsible for loss during the shipping. <!--SR:!2026-04-22,379,383!2025-08-29,203,363-->
+- [free on board](FOB%20(shipping).md) ::@:: FOB (location): Asset transfer takes place at (location). <br/> FOB _shipping point_: Asset transfer takes place at shipping. Buyer is responsible for loss during the shipping. <br/> FOB _destination_: Asset transfer takes place at destination. Seller is responsible for loss during the shipping. <!--SR:!2026-04-22,379,383!2028-06-07,1013,383-->
 - credit card discount ::@:: Receiving payments via credit cards can avoid losses due to bad checks or bad debts. But credit card companies charge a percentage fee. <p> To account for it, we credit the fee to a contra-revenue account "Credit card discounts". <!--SR:!2026-08-09,492,403!2026-08-29,509,403-->
 - [discount and allowances](../../../../general/discount%20and%20allowances.md)
   - sale discounts ::@:: Discounts on sales. You need to know how to read discounts. <p> To account for it, we credit the discount to a contra-revenue account "Sale discounts". <!--SR:!2026-03-24,372,383!2026-10-03,537,403-->

@@ -21,7 +21,7 @@ tags:
 
 > {@{![Supply chain as connected supply and demand curves](../../archives/Wikimedia%20Commons/Supply%20and%20demand-stacked4.png)}@}
 >
-> {@{[Supply chain](supply%20chain.md) as connected supply and demand curves}@} <!--SR:!2025-08-29,222,330!2025-09-12,236,330-->
+> {@{[Supply chain](supply%20chain.md) as connected supply and demand curves}@} <!--SR:!2028-06-11,1017,350!2025-09-12,236,330-->
 
 In {@{[microeconomics](microeconomics.md)}@}, __supply and demand__ is {@{an [economic model](economic%20model.md) of [price determination](pricing.md) in a [market](market%20(economics).md)}@}. It postulates that, [holding all else equal](ceteris%20paribus.md), {@{the [unit price](unit%20price.md) for a particular [good](goods.md) or other traded item in a [perfectly competitive market](perfect%20competition.md), will vary until it settles at the [market-clearing price](market%20clearing.md)}@}, where {@{the quantity demanded equals the quantity supplied such that an [economic equilibrium](economic%20equilibrium.md) is achieved for price and quantity transacted}@}. {@{The concept of supply and demand}@} forms {@{the theoretical basis of modern economics}@}. <!--SR:!2025-09-17,240,330!2025-10-27,272,330!2027-07-27,745,330!2027-05-10,682,330!2025-10-05,255,330!2025-10-12,260,330-->
 
