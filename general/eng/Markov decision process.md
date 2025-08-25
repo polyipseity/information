@@ -119,7 +119,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 {@{Constrained Markov decision processes \(CMDPS\)}@} are {@{extensions to Markov decision process \(MDPs\)}@}. There are {@{three fundamental differences}@} between MDPs and CMDPs.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-02-01,329,349!2026-01-22,321,349!2025-09-11,209,329-->
 
 - There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2025-11-05,256,332!2027-10-29,796,332-->
-- CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2025-08-30,198,312!2025-12-29,299,332-->
+- CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2028-01-09,862,332!2025-12-29,299,332-->
 - The final policy ::@:: depends on the starting state. <!--SR:!2025-11-07,258,332!2025-11-06,257,332-->
 
 {@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.) <!--SR:!2025-09-17,213,329!2026-01-30,327,349!2027-04-16,640,329-->

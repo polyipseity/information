@@ -456,7 +456,7 @@ The content is in teaching order.
   - [cash equivalent](../../../../general/cash%20and%20cash%20equivalents.md) ::@:: examples: <br/> short-term, highly liquid investments <br/> readily convertible into cash <br/> maturities of less than 3 months: time span short enough market value is not affected by interest rate changes <!--SR:!2025-09-10,138,403!2026-12-20,513,403-->
   - statement of cash flows / effect ::@:: The change in cash should equal the difference between the beginning and ending balances of the "cash" account on the balance sheet. <!--SR:!2025-09-03,132,403!2025-09-11,139,403-->
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-12-11,506,403!2025-09-09,137,403-->
-  - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2025-09-02,131,403!2025-08-30,129,403-->
+  - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2025-09-02,131,403!2027-08-11,711,423-->
     - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2027-07-02,677,423!2027-07-20,692,423-->
     - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2026-06-01,341,383!2025-11-18,181,363-->
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2025-09-09,137,403!2026-12-03,498,403-->
@@ -464,9 +464,9 @@ The content is in teaching order.
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2025-09-04,133,403!2026-11-07,478,403-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2025-09-09,137,403!2026-12-10,505,403-->
     - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2025-09-11,139,403!2026-10-28,468,403-->
-    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2025-09-05,134,403!2025-08-30,129,403-->
+    - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2025-09-05,134,403!2027-08-10,710,423-->
   - operating activities
-    - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2027-08-01,703,423!2025-08-30,129,403-->
+    - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2027-08-01,703,423!2027-08-16,716,423-->
     - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization, including impairment losses (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2026-03-01,270,383!2026-05-17,326,383-->
   - investing activities
     - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2025-09-03,132,403!2027-07-15,687,423-->

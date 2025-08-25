@@ -39,7 +39,7 @@ tags:
 > 3. the $45&nbsp;000 salary that you will be able to earn after having completed your graduate program
 > 4. the value of insurance coverage and other employee benefits you would have received if you retain your job
 >
-> - solution: {@{3}@} <!--SR:!2025-08-30,256,330-->
+> - solution: {@{3}@} <!--SR:!2028-11-11,1169,350-->
 
 <!-- markdownlint MD028 -->
 

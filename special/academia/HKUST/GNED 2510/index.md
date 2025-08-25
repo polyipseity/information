@@ -150,7 +150,7 @@ The content is in teaching order.
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2025-10-24,303,330!2026-04-09,411,310-->
 - video interview
-  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2025-08-30,263,330!2027-08-20,810,330-->
+  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2028-12-14,1202,350!2027-08-20,810,330-->
 - self-introduction
 - interview questions
 - Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2027-03-02,679,330!2025-10-23,302,330-->

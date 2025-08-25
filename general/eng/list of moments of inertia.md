@@ -53,7 +53,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 ### rod, axis through certain distance from one end
 
 - definition ::@:: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end <!--SR:!2027-04-09,853,347!2029-01-12,1311,367-->
-- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2025-12-23,155,190!2025-08-30,360,298-->
+- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2025-12-23,155,190!2028-08-07,1073,298-->
   - thin rod correction ::@:: use the same equation and set $R = 0$ <!--SR:!2028-06-14,1330,350!2029-06-19,1531,378-->
   - slender rod, axis through center ::@:: $\frac1{12}mL^2$ <!--SR:!2028-10-04,1262,310!2026-05-15,566,318-->
   - slender rod, axis through one end ::@:: $\frac13mL^2$ <!--SR:!2028-03-16,1064,290!2026-08-21,674,338-->

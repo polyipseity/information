@@ -100,7 +100,7 @@ The content is in teaching order.
   - [§ asset](../../../../general/asset.md#asset)
 - [liability](../../../../general/liability%20(financial%20accounting).md) ::@:: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2026-12-15,626,337!2025-10-01,246,277-->
   - [§ liability](../../../../general/liability%20(financial%20accounting).md#liability)
-- [equity](../../../../general/equity%20(finance).md) ::@:: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2025-08-30,266,337!2027-02-16,670,337-->
+- [equity](../../../../general/equity%20(finance).md) ::@:: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2028-02-18,902,337!2027-02-16,670,337-->
   - [§ equity](../../../../general/equity%20(finance).md#equity)
 - [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2025-11-26,331,337!2025-11-26,331,337-->
   - [§ revenue](../../../../general/revenue.md#revenue)

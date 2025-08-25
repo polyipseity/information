@@ -508,7 +508,7 @@ There are also {@{more subtle limitations of first-order logic}@} that are {@{im
 
 Although {@{first-order logic is sufficient for formalizing much of mathematics}@} and is commonly used in {@{computer science and other fields}@}, it has {@{certain limitations}@}. These include limitations on {@{its expressiveness}@} and limitations of {@{the fragments of natural languages that it can describe}@}. <!--SR:!2025-10-21,69,344!2025-10-28,72,344!2025-10-22,70,344!2025-11-17,90,362!2025-11-06,80,344-->
 
-For instance, {@{first-order logic is undecidable}@}, meaning {@{a sound, complete and terminating decision algorithm for provability is impossible}@}. This has led to {@{the study of interesting decidable fragments}@}, such as {@{C<sub>2</sub>: first-order logic}@} with {@{two variables and the [counting quantifiers](counting%20quantifiers.md) $\exists ^{\geq n}$ and $\exists ^{\leq n}$}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2025-10-29,73,344!2025-10-21,69,344!2025-11-14,89,362!2025-11-05,80,344!2025-08-30,23,369-->
+For instance, {@{first-order logic is undecidable}@}, meaning {@{a sound, complete and terminating decision algorithm for provability is impossible}@}. This has led to {@{the study of interesting decidable fragments}@}, such as {@{C<sub>2</sub>: first-order logic}@} with {@{two variables and the [counting quantifiers](counting%20quantifiers.md) $\exists ^{\geq n}$ and $\exists ^{\leq n}$}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2025-10-29,73,344!2025-10-21,69,344!2025-11-14,89,362!2025-11-05,80,344!2025-12-24,116,389-->
 
 ### expressiveness
 

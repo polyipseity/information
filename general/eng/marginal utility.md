@@ -79,7 +79,7 @@ Price is determined by {@{both marginal utility and marginal cost, and here is t
 
 > {@{![Diminishing marginal utility, given quantification](../../archives/Wikimedia%20Commons/UtilityQuantified.svg)}@}
 >
-> {@{Diminishing marginal utility, given quantification}@} <!--SR:!2025-08-30,207,310!2025-10-28,269,330-->
+> {@{Diminishing marginal utility, given quantification}@} <!--SR:!2028-02-04,888,330!2025-10-28,269,330-->
 
 Under {@{the [special case](special%20case.md) in which usefulness can be quantified}@}, {@{the change in utility of moving from state $S_{1}$ to state $S_{2}$}@} is {@{$$\Delta U=U(S_{2})-U(S_{1}).$$}@} Moreover, if {@{$S_{1}$ and $S_{2}$ are distinguishable by values of just one variable $g$, which is itself quantified}@}, then it {@{becomes possible to speak of the ratio of the marginal utility of the change in $g$ to the size of that change}@}: {@{$$\left.{\frac {\Delta U}{\Delta g} }\right|_{\text{c.p.} },$$}@} where {@{"[c.p.](ceteris%20paribus.md)" indicates that the _only_ [independent variable](dependent%20and%20independent%20variables.md) to change is $g$}@}. <!--SR:!2026-10-01,500,310!2025-11-07,278,330!2025-09-16,238,330!2025-11-15,285,330!2027-09-17,783,330!2025-09-25,246,330!2025-11-03,275,330-->
 

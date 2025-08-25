@@ -173,8 +173,8 @@ The content is in teaching order.
   - consultant job prospects
     - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2026-05-16,490,321!2027-10-12,939,361-->
     - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2027-05-28,771,341!2026-04-06,462,321-->
-    - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2026-01-09,350,281!2025-08-30,334,361-->
-    - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2025-08-30,307,301!2026-04-27,478,321-->
+    - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2026-01-09,350,281!2030-03-11,1654,381-->
+    - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2029-03-03,1281,321!2026-04-27,478,321-->
     - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2027-10-02,936,361!2029-12-15,1587,381-->
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2027-08-20,918,381!2025-12-20,450,381-->
   - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2026-05-05,528,341-->

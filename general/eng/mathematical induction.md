@@ -17,11 +17,11 @@ __Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md)
 
 > Mathematical induction proves that {@{we can climb as high as we like on a ladder}@}, by proving that {@{we can climb onto the bottom rung (the __basis__) and that from each rung we can climb up to the next one (the __step__)}@}.
 >
-> —&hairsp;_[Concrete Mathematics](Concrete%20Mathematics.md)_, page 3 margins. <!--SR:!2028-09-15,1114,350!2025-08-30,247,330-->
+> —&hairsp;_[Concrete Mathematics](Concrete%20Mathematics.md)_, page 3 margins. <!--SR:!2028-09-15,1114,350!2028-09-28,1125,350-->
 
 A __proof by induction__ consists of {@{two cases}@}. The first, {@{the __base case__, proves the statement for $n=0$ without assuming any knowledge of other cases}@}. The second case, {@{the __induction step__, proves that _if_ the statement holds for any given case $n=k$, _then_ it must also hold for the next case $n=k+1$}@}. These two steps establish that {@{the statement holds for every natural number $n$}@}. The base case does not {@{necessarily begin with $n=0$, but often with $n=1$, and possibly with any fixed natural number $n=N$}@}, establishing {@{the truth of the statement for all natural numbers $n\geq N$}@}. <!--SR:!2025-09-07,255,330!2028-10-01,1129,350!2025-09-01,249,330!2027-02-09,647,330!2028-09-27,1125,350!2027-07-21,760,330-->
 
-The method can be extended to {@{prove statements about more general [well-founded](well-founded%20relation.md) structures, such as [trees](tree%20(set%20theory).md)}@}; this generalization, known as {@{[structural induction](structural%20induction.md), is used in [mathematical logic](mathematical%20logic.md) and [computer science](computer%20science.md)}@}. Mathematical induction in this extended sense is closely related to {@{[recursion](recursion.md)}@}. Mathematical induction is {@{an [inference rule](rule%20of%20inference.md) used in [formal proofs](formal%20proof.md)}@}, and is the foundation of {@{most [correctness](correctness%20(computer%20science).md) proofs for computer programs}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2027-03-01,663,330!2025-08-30,247,330!2025-09-02,250,330!2025-09-05,253,330!2028-09-21,1120,350-->
+The method can be extended to {@{prove statements about more general [well-founded](well-founded%20relation.md) structures, such as [trees](tree%20(set%20theory).md)}@}; this generalization, known as {@{[structural induction](structural%20induction.md), is used in [mathematical logic](mathematical%20logic.md) and [computer science](computer%20science.md)}@}. Mathematical induction in this extended sense is closely related to {@{[recursion](recursion.md)}@}. Mathematical induction is {@{an [inference rule](rule%20of%20inference.md) used in [formal proofs](formal%20proof.md)}@}, and is the foundation of {@{most [correctness](correctness%20(computer%20science).md) proofs for computer programs}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2027-03-01,663,330!2028-09-25,1122,350!2025-09-02,250,330!2025-09-05,253,330!2028-09-21,1120,350-->
 
 Despite its name, mathematical induction differs fundamentally from {@{[inductive reasoning](inductive%20reasoning.md) as [used in philosophy](problem%20of%20induction.md), in which the examination of many cases results in a probable conclusion}@}. The mathematical method {@{examines infinitely many cases to prove a general statement, but it does so by a finite chain of [deductive reasoning](deductive%20reasoning.md) involving the [variable](variable%20(mathematics).md) $n$, which can take infinitely many values}@}. The result is {@{a rigorous proof of the statement, not an assertion of its probability}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-09-07,255,330!2025-08-31,249,330!2025-09-03,251,330-->
 
@@ -60,11 +60,11 @@ Mathematical induction can be used to prove the following statement _P_(_n_) for
 
 This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2025-09-01,249,330-->
 
-__<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2025-08-30,247,330!2025-09-07,255,330-->
+__<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2028-09-30,1127,350!2025-09-07,255,330-->
 
 __Proof.__ ::@:: Let _P_(_n_) be the statement $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. We give a proof by induction on _n_. <!--SR:!2028-09-15,1115,350!2025-09-07,255,330-->
 
-_Base case_ ::@:: Show that the statement holds for the smallest natural number _n_ = 0. _P_(0) is clearly true: $0={\tfrac {0(0+1)}{2} }$. <!--SR:!2025-08-30,247,330!2027-02-05,644,330-->
+_Base case_ ::@:: Show that the statement holds for the smallest natural number _n_ = 0. _P_(0) is clearly true: $0={\tfrac {0(0+1)}{2} }$. <!--SR:!2028-10-04,1131,350!2027-02-05,644,330-->
 
 _Induction step_ ::@:: Show that for every _k_ ≥ 0, if _P_(_k_) holds, then _P_(_k_ + 1) also holds. <!--SR:!2028-09-07,1107,350!2025-09-15,261,330-->
 
@@ -105,7 +105,7 @@ If {@{one wishes to prove a statement, not for all natural numbers, but only for
 
 This can be used, for example, to show that 2<sup>_n_</sup> ≥ _n_ + 5 for _n_ ≥ 3.
 
-In this way, one can prove that some statement _P_(_n_) holds for {@{all _n_ ≥ 1, or even for all _n_ ≥ −5}@}. This form of mathematical induction is {@{actually a special case of the previous form}@}, because if {@{the statement to be proved is _P_(_n_)}@} then {@{proving it with these two rules is equivalent with proving _P_(_n_ + _b_) for all natural numbers _n_ with an induction base case 0}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-08-30,247,330!2025-08-30,247,330!2025-09-01,249,330!2025-09-06,254,330-->
+In this way, one can prove that some statement _P_(_n_) holds for {@{all _n_ ≥ 1, or even for all _n_ ≥ −5}@}. This form of mathematical induction is {@{actually a special case of the previous form}@}, because if {@{the statement to be proved is _P_(_n_)}@} then {@{proving it with these two rules is equivalent with proving _P_(_n_ + _b_) for all natural numbers _n_ with an induction base case 0}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2028-09-26,1123,350!2028-09-27,1124,350!2025-09-01,249,330!2025-09-06,254,330-->
 
 #### example: forming dollar amounts by coins
 
@@ -142,7 +142,7 @@ The most common form of proof by mathematical induction requires {@{proving in t
 
 whereupon the induction principle {@{"automates" _n_ applications of this step in getting from _P_(0) to _P_(_n_)}@}. This could be called {@{"predecessor induction"}@} because {@{each step proves something about a number from something about that number's predecessor}@}. <!--SR:!2025-09-03,251,330!2025-09-11,257,330!2027-03-04,666,330-->
 
-A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2028-09-06,1106,350!2025-08-30,247,330!2027-02-25,660,330-->
+A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2028-09-06,1106,350!2028-10-01,1128,350!2027-02-25,660,330-->
 
 The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2025-09-14,260,330!2028-09-11,1111,350!2025-09-11,257,330!2025-09-15,261,330-->
 
@@ -154,7 +154,7 @@ One can take the idea a step further: {@{one must prove $$\forall k\,\left(P\!\l
 
 ### complete (strong) induction
 
-Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__ (in contrast to which the basic form of induction is sometimes known as __weak induction__)}@}, makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$; by contrast, the basic form only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction", but merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2025-08-30,247,330!2025-09-03,251,330!2028-09-19,1117,350!2026-03-27,393,310-->
+Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__ (in contrast to which the basic form of induction is sometimes known as __weak induction__)}@}, makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$; by contrast, the basic form only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction", but merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2025-09-03,251,330!2028-09-19,1117,350!2026-03-27,393,310-->
 
 In fact, it can be shown that {@{the two methods are actually equivalent, as explained below}@}. In this form of complete induction, one still has to {@{prove the base case, $P(0)$, and it may even be necessary to prove extra-base cases such as $P(1)$ before the general argument applies}@}, as {@{in the example below of the [Fibonacci number](Fibonacci%20sequence.md) $F_{n}$}@}. <!--SR:!2025-09-11,257,330!2025-09-05,253,330!2025-08-31,249,330-->
 
@@ -168,7 +168,7 @@ If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the p
 
 #### example: Fibonacci numbers
 
-Complete induction is most useful when {@{several instances of the inductive hypothesis are required for each induction step}@}. For example, complete induction can be used to show that {@{$F_{n}={\frac {\varphi ^{n}-\psi ^{n} }{\varphi -\psi } }$ where $F_{n}$ is the _n_-th [Fibonacci number](Fibonacci%20sequence.md)}@}, and {@{$\varphi ={\frac {1}{2} }(1+{\sqrt {5} })$ (the [golden ratio](golden%20ratio.md)) and $\psi ={\frac {1}{2} }(1-{\sqrt {5} })$ are the [roots](zero%20of%20a%20function.md) of the [polynomial](polynomial.md) $x^{2}-x-1$}@}. By using the fact that {@{$F_{n+2}=F_{n+1}+F_{n}$ for each $n\in \mathbb {N}$}@}, the identity above can be verified by {@{direct calculation for $F_{n+2}$ if one assumes that it already holds for both $F_{n+1}$ and $F_{n}$}@}. To complete the proof, the identity {@{must be verified in the two base cases: $n=0$ and $n=1$}@}. <!--SR:!2027-08-17,782,330!2025-08-31,248,330!2026-01-03,258,290!2028-09-23,1121,350!2025-09-15,261,330!2025-08-30,247,330-->
+Complete induction is most useful when {@{several instances of the inductive hypothesis are required for each induction step}@}. For example, complete induction can be used to show that {@{$F_{n}={\frac {\varphi ^{n}-\psi ^{n} }{\varphi -\psi } }$ where $F_{n}$ is the _n_-th [Fibonacci number](Fibonacci%20sequence.md)}@}, and {@{$\varphi ={\frac {1}{2} }(1+{\sqrt {5} })$ (the [golden ratio](golden%20ratio.md)) and $\psi ={\frac {1}{2} }(1-{\sqrt {5} })$ are the [roots](zero%20of%20a%20function.md) of the [polynomial](polynomial.md) $x^{2}-x-1$}@}. By using the fact that {@{$F_{n+2}=F_{n+1}+F_{n}$ for each $n\in \mathbb {N}$}@}, the identity above can be verified by {@{direct calculation for $F_{n+2}$ if one assumes that it already holds for both $F_{n+1}$ and $F_{n}$}@}. To complete the proof, the identity {@{must be verified in the two base cases: $n=0$ and $n=1$}@}. <!--SR:!2027-08-17,782,330!2025-08-31,248,330!2026-01-03,258,290!2028-09-23,1121,350!2025-09-15,261,330!2028-09-29,1126,350-->
 
 #### example: prime factorization
 
@@ -198,7 +198,7 @@ Sometimes, it is {@{more convenient to deduce backwards, proving the statement f
 
 The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2025-09-04,252,330!2026-04-10,406,310!2025-09-13,259,330-->
 
-_Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2025-08-30,248,330!2025-09-05,253,330-->
+_Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2028-10-02,1129,350!2025-09-05,253,330-->
 
 _Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2025-09-08,254,330!2025-09-01,249,330-->
 
@@ -206,7 +206,7 @@ The base case $n=1$ is {@{trivial, and the induction step is correct in all case
 
 ## formalization
 
-In {@{__[second-order logic](second-order%20logic.md)__}@}, one can {@{write down the "[axiom](axiom.md) of induction" as follows}@}: {@{$$\forall P\,{\Bigl (}P(0)\land \forall k{\bigl (}P(k)\to P(k+1){\bigr )}\to \forall n\,{\bigl (}P(n){\bigr )}{\Bigr )},$$}@} where {@{_P_(·) is a variable for predicates involving one natural number and _k_ and _n_ are variables for [natural numbers](natural%20number.md)}@}. <!--SR:!2025-09-16,262,330!2025-08-30,248,330!2025-09-10,256,330!2025-09-05,253,330-->
+In {@{__[second-order logic](second-order%20logic.md)__}@}, one can {@{write down the "[axiom](axiom.md) of induction" as follows}@}: {@{$$\forall P\,{\Bigl (}P(0)\land \forall k{\bigl (}P(k)\to P(k+1){\bigr )}\to \forall n\,{\bigl (}P(n){\bigr )}{\Bigr )},$$}@} where {@{_P_(·) is a variable for predicates involving one natural number and _k_ and _n_ are variables for [natural numbers](natural%20number.md)}@}. <!--SR:!2025-09-16,262,330!2028-10-05,1132,350!2025-09-10,256,330!2025-09-05,253,330-->
 
 In words, {@{the base case _P_(0) and the induction step (namely, that the induction hypothesis _P_(_k_) implies _P_(_k_ + 1)) together}@} imply that {@{_P_(_n_) for any natural number _n_}@}. The axiom of induction {@{asserts the validity of inferring that _P_(_n_) holds for any natural number _n_ from the base case and the induction step}@}. <!--SR:!2027-08-09,775,330!2025-08-31,248,330!2028-09-16,1115,350-->
 

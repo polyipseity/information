@@ -41,7 +41,7 @@ Note that the `.rodata` (read-only data) section is located on the read-execute 
 
 ## executable and linkable format
 
-For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2028-07-25,1088,350!2025-08-30,263,330-->
+For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2028-07-25,1088,350!2028-12-12,1200,350-->
 
 Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2027-06-10,745,330!2025-10-18,298,330!2028-06-07,1051,350!2027-05-24,728,330!2026-09-20,534,310-->
 
@@ -71,7 +71,7 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 ## calling convention
 
-The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2028-11-28,1191,350!2027-06-29,764,330!2027-07-08,763,330!2025-08-30,263,330!2025-09-13,274,330-->
+The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2028-11-28,1191,350!2027-06-29,764,330!2027-07-08,763,330!2028-12-13,1201,350!2025-09-13,274,330-->
 
 There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2025-10-17,297,330!2028-01-06,928,350!2028-10-02,1140,350!2028-02-11,961,350!2028-06-20,1063,350-->
 

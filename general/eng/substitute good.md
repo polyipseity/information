@@ -27,7 +27,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 
 {@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages but are used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2025-10-26,266,330!2025-09-29,246,330!2025-09-04,209,310-->
 
-Two products are in {@{different geographic market if they are sold in different locations}@}, it is {@{costly to transport the goods or it is costly for consumers to travel to buy the goods}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-08-30,205,310!2025-10-27,267,330-->
+Two products are in {@{different geographic market if they are sold in different locations}@}, it is {@{costly to transport the goods or it is costly for consumers to travel to buy the goods}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-01-27,880,330!2025-10-27,267,330-->
 
 Only if {@{the two products satisfy the three conditions}@}, will they be {@{classified as close substitutes according to economic theory}@}. The opposite of a substitute good is {@{a complementary good}@}, these are {@{goods that are dependent on another}@}. An example of complementary goods are {@{cereal and milk}@}. <!--SR:!2025-10-29,267,330!2025-09-10,227,330!2025-10-01,247,330!2025-10-09,252,330!2025-11-12,279,330-->
 

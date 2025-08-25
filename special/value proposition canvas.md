@@ -109,7 +109,7 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2025-06-03T13:49:09.435620+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2025-08-30,161,209!2029-02-09,1389,369-->
+- _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2026-12-25,482,229!2029-02-09,1389,369-->
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains <!--SR:!2028-05-02,1004,269!2026-03-17,440,269-->
 - insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2026-05-17,348,189!2025-11-14,93,130-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2029-03-08,1297,309!2027-06-01,683,269-->
@@ -160,7 +160,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2026-09-12,414,229!2026-11-29,544,249-->
 - irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2026-08-29,478,229!2025-11-03,301,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2026-10-30,514,249!2026-04-26,465,269-->
-- mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2025-08-30,331,289!2025-12-16,156,149-->
+- mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2029-04-26,1335,309!2025-12-16,156,149-->
 
 <!--/pytextgen-->
 

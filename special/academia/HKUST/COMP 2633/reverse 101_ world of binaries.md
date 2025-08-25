@@ -81,9 +81,9 @@ Below is a list of common instructions (in learning order):
 - `jmp <addr>` ::@:: Jump to `<addr>`. Sometimes, the instruction before it in an assembly program (`.i`) is the instruction `jcc`. If `jcc` did not jump due to not satisfying a condition, then this instruction represents the `else` branch. <!--SR:!2028-05-10,1048,357!2028-12-10,1222,363-->
 - `test <left>, <right>` ::@:: Bitwise and `<left>` with `<right>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if there are common `1` bits between `<left>` and `<right>`. If `<left>` equals `<right>`, then this is equivalent to checking if `<left>`/`<right>` is zero. <!--SR:!2028-03-01,915,345!2026-01-05,384,365-->
 - `jcc <addr>` ::@:: Jump to `<addr>` depending on a condition. `cc` stands for `condition code`. It represents multiple instructions, such as `je` (jump if equal), `jz` (jump if zero, equivalent to `je`), `jnz` (jump if nonzero), `jg` (jump if greater, signed), `ja` (jump if above, unsigned), `jbe` (jump if below or equal, unsigned), `jnle` (jump if not less or equal), etc. Usually used with a `cmp` or `test` in the previous executed instruction. <!--SR:!2027-04-04,716,345!2028-08-27,1138,363-->
-- `nop` ::@:: Does nothing. It has the value `0x90`. <!--SR:!2025-12-08,363,363!2025-08-30,279,343-->
+- `nop` ::@:: Does nothing. It has the value `0x90`. <!--SR:!2025-12-08,363,363!2029-04-08,1317,363-->
 - `syscall` ::@:: Perform a system call (syscall). A system call interacts with the operating system. The system call invoked depends on the value of `eax`/`rax`, and parameters required by the system call depends on other registers. <!--SR:!2027-12-24,936,357!2028-05-09,1021,343-->
-  - `syscall` / write ::@:: `rax` is `1`, `rdi` is the file descriptor to be written to (`1` for stdout), `rsi` is the start address of the string to write, and `rdx` is the length of the string to write. Note that the null terminator is irrelevant here, as assembly does not specify a way to indicate the end of a string and can accommodate any way of doing so. <!--SR:!2025-08-30,195,230!2027-06-02,755,337-->
+  - `syscall` / write ::@:: `rax` is `1`, `rdi` is the file descriptor to be written to (`1` for stdout), `rsi` is the start address of the string to write, and `rdx` is the length of the string to write. Note that the null terminator is irrelevant here, as assembly does not specify a way to indicate the end of a string and can accommodate any way of doing so. <!--SR:!2026-11-27,454,230!2027-06-02,755,337-->
 
 ### sections
 
@@ -163,7 +163,7 @@ While analyzing a program, sometimes we want to {@{change the program behavior, 
 
 Some commo tools are:
 
-- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2028-08-06,1110,365-->
+- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2029-04-03,1312,363!2028-08-06,1110,365-->
 - `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2025-12-10,362,357!2025-12-09,364,365-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2027-08-11,825,343!2025-12-03,360,365-->
 - Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2027-11-22,882,343!2029-02-12,1272,365-->

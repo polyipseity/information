@@ -956,7 +956,7 @@ tags:
 > _________________________________________________________________
 > ```
 >
-> - solution: {@{`flatten` → `Layer_1`: (32 \* 32) \* 4096 + 4096 = 4198400 <br/> `Layer_1` → `Layer_2`, `Layer_2` → `Layer_3`, `Layer_3` → `Layer_4`: 4096 \* 4096 + 4096 = 16781312 (for each in between layers) <br/> `Layer_4` → `Layer_5`: 4096 \* 10 + 10 = 40970 <br/> total params: 4198400 + 16781312 \* 3 + 40970 = 54583306}@} <!--SR:!2025-08-30,177,310-->
+> - solution: {@{`flatten` → `Layer_1`: (32 \* 32) \* 4096 + 4096 = 4198400 <br/> `Layer_1` → `Layer_2`, `Layer_2` → `Layer_3`, `Layer_3` → `Layer_4`: 4096 \* 4096 + 4096 = 16781312 (for each in between layers) <br/> `Layer_4` → `Layer_5`: 4096 \* 10 + 10 = 40970 <br/> total params: 4198400 + 16781312 \* 3 + 40970 = 54583306}@} <!--SR:!2027-03-05,552,310-->
 
 <!-- markdownlint MD028 -->
 

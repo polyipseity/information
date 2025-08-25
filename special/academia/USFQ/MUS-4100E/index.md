@@ -148,7 +148,7 @@ The content is in teaching order.
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2026-04-29,357,360!2026-05-13,370,360-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-11-25,229,340!2026-06-11,373,360-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2026-05-05,363,360-->
-  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2025-08-30,159,320-->
+  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2026-06-09,371,360!2026-05-09,367,360-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-12-29,256,340!2025-11-26,230,340-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-11-21,227,340!2026-05-07,365,360-->

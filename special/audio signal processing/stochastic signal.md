@@ -19,7 +19,7 @@ Stochastic signal can be {@{described in the frequency domain}@}. Two important 
 
 {@{_Autocorrelation_}@} is defined as: {@{$$Z_{xx}[k] = \sum_{n = 0}^{N - 1} x[n] x[n + k] \qquad k = -N + 1, \ldots, N - 1 \,,$$}@} where {@{$x[n]$ is the \(stochastic\) signal and $k$ is the _time lag_}@}. It can help {@{identify repeating patterns or hidden periodicities}@}. <!--SR:!2025-09-10,54,310!2025-09-10,54,310!2025-09-17,61,310!2025-09-12,56,310-->
 
-{@{_Power spectral density_}@} is defined as: {@{$$Xp(f) = \lim_{N \to \infty} \frac 1 {N^2} \left\lvert \sum_{n = 0}^{N - 1} x[n] e^{-j (2 \pi f) n / f_s} \right\rvert^2 \,.$$}@} where {@{$x[n]$ is the \(stochastic\) signal, $f$ is the \(linear\) frequency, and $f_s$ is the sampling frequency}@}. It represents {@{the "energy" per time of the signal at a frequency bin}@}. <!--SR:!2025-08-30,43,290!2025-09-23,67,310!2025-09-18,62,310!2025-09-13,57,310-->
+{@{_Power spectral density_}@} is defined as: {@{$$Xp(f) = \lim_{N \to \infty} \frac 1 {N^2} \left\lvert \sum_{n = 0}^{N - 1} x[n] e^{-j (2 \pi f) n / f_s} \right\rvert^2 \,.$$}@} where {@{$x[n]$ is the \(stochastic\) signal, $f$ is the \(linear\) frequency, and $f_s$ is the sampling frequency}@}. It represents {@{the "energy" per time of the signal at a frequency bin}@}. <!--SR:!2026-01-01,124,290!2025-09-23,67,310!2025-09-18,62,310!2025-09-13,57,310-->
 
 ## stochastic model
 
