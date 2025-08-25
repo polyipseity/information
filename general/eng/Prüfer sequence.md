@@ -183,7 +183,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 
 {@{The Prüfer sequence of a labeled tree on _n_ vertices}@} is {@{a unique sequence of length _n_ − 2 on the labels 1 to _n_}@}. For {@{a given sequence _S_ of length _n_ − 2 on the labels 1 to _n_}@}, __there is {@{a _unique_ labeled tree whose Prüfer sequence is _S_}@}__.
 
-The immediate consequence is that {@{Prüfer sequences provide a [bijection](bijection.md) between the set of labeled trees on _n_ vertices and the set of sequences of length _n_ − 2 on the labels 1 to _n_}@}. {@{The latter set has size _n_<sup>_n_−2</sup>}@}, so the existence of this bijection {@{proves [Cayley's formula](Cayley's%20formula.md), i.e. that there are _n_<sup>_n_−2</sup> labeled trees on _n_ vertices}@}.
+The immediate consequence is that Prüfer sequences provide {@{a [bijection](bijection.md) between the set of labeled trees on _n_ vertices and the set of sequences of length _n_ − 2 on the labels 1 to _n_}@}. {@{The latter set has size _n_<sup>_n_−2</sup>}@}, so the existence of this bijection {@{proves [Cayley's formula](Cayley's%20formula.md), i.e. that there are _n_<sup>_n_−2</sup> labeled trees on _n_ vertices}@}.
 
 ## other applications
 
