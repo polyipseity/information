@@ -110,7 +110,7 @@ The content is in teaching order.
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization <!--SR:!2027-12-02,900,330!2025-10-12,311,330-->
   - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2028-11-10,1192,350!2028-06-25,1078,350-->
   - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2025-09-24,297,330!2028-05-19,1055,350-->
-  - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2027-04-07,700,310!2025-08-31,277,330-->
+  - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2027-04-07,700,310!2026-01-20,142,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2028-11-01,1184,350!2026-01-25,333,310-->
   - descriptive statistics / methodologies

@@ -74,7 +74,7 @@ The _one-sided first derivative test_ is {@{a variant of the first derivative te
 > [!example] examples
 >
 > - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :@: [Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0. <!--SR:!2025-09-27,471,319-->
-> - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :@: Decreasing (actually, weakly decreasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0. <!--SR:!2025-08-31,320,259-->
+> - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :@: Decreasing (actually, weakly decreasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0. <!--SR:!2027-12-08,829,259-->
 > - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :@: Increasing (actually, weakly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0. <!--SR:!2027-12-29,981,292-->
 > - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$ :@: [Right-sided strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0 or do not exist. <!--SR:!2027-03-12,736,259-->
 > - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :@: [Strict local maximum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0. <!--SR:!2030-03-23,1696,319-->

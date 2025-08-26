@@ -159,7 +159,7 @@ Some common tools are:
 
 ### tools for patching
 
-While analyzing a program, sometimes we want to {@{change the program behavior, like forcing the program to take a different branch of an `if-else`}@}. In most cases, we want to {@{change the code dynamically while performing [dynamic analysis](#tools%20for%20dynamic%20analysis)}@}. In other cases, we want to {@{process an entire executable before running the program, such as deobfuscation (replace names that had been made nonsense intentionally with sensible ones)}@}. <!--SR:!2026-10-01,573,323!2025-08-31,279,343!2027-11-28,888,345-->
+While analyzing a program, sometimes we want to {@{change the program behavior, like forcing the program to take a different branch of an `if-else`}@}. In most cases, we want to {@{change the code dynamically while performing [dynamic analysis](#tools%20for%20dynamic%20analysis)}@}. In other cases, we want to {@{process an entire executable before running the program, such as deobfuscation (replace names that had been made nonsense intentionally with sensible ones)}@}. <!--SR:!2026-10-01,573,323!2029-04-09,1317,363!2027-11-28,888,345-->
 
 Some commo tools are:
 

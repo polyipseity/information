@@ -114,7 +114,7 @@ Set Q's left child to be P.
 All other connections are left as-is.
 ```
 
-There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-10-24,233,330!2025-09-26,194,310!2025-08-31,177,310!2027-01-08,545,310!2027-01-03,540,310!2025-11-09,247,330-->
+There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-10-24,233,330!2025-09-26,194,310!2027-10-06,766,330!2027-01-08,545,310!2027-01-03,540,310!2025-11-09,247,330-->
 
 Tree rotations are {@{used in a number of tree [data structures](data%20structure.md)}@} such as {@{[AVL trees](AVL%20tree.md), [red–black trees](red–black%20tree.md), [WAVL trees](WAVL%20tree.md), [splay trees](splay%20tree.md), and [treaps](treap.md)}@}. They require {@{only constant time because they are _local_ transformations}@}: they {@{only operate on 5 nodes, and need not examine the rest of the tree}@}. <!--SR:!2027-04-04,631,330!2026-12-14,527,310!2027-10-30,794,330!2025-09-12,196,310-->
 

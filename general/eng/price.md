@@ -103,7 +103,7 @@ __Producer Price Index__: ::@:: this index measures the average change in the se
 
 __Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-11-29,223,250!2026-04-07,339,290-->
 
-__[Price optimization](price%20optimization.md)__ is ::@:: the use of mathematical techniques by a company to determine how customers will respond to different prices for its products and services through different channels. <!--SR:!2025-11-30,293,330!2025-08-31,204,310-->
+__[Price optimization](price%20optimization.md)__ is ::@:: the use of mathematical techniques by a company to determine how customers will respond to different prices for its products and services through different channels. <!--SR:!2025-11-30,293,330!2028-01-29,881,330-->
 
 ## see also
 

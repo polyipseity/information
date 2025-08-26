@@ -97,7 +97,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 - [Serial decimal](serial%20decimal.md) – ::@:: computer numeric representation is one in which ten bits are reserved for each digit <!--SR:!2025-10-21,193,310!2026-11-25,492,310-->
 - [Single-entry vector](single-entry%20vector.md) – ::@:: Concept in mathematics <!--SR:!2026-01-07,260,330!2025-12-15,242,330-->
 - [Unary numeral system](unary%20numeral%20system.md) – ::@:: Base-1 numeral system <!--SR:!2025-10-16,180,310!2026-01-24,274,330-->
-- [Uniqueness quantification](uniqueness%20quantification.md) – ::@:: Logical property of being the one and only object satisfying a condition <!--SR:!2025-08-31,157,310!2026-02-03,281,330-->
+- [Uniqueness quantification](uniqueness%20quantification.md) – ::@:: Logical property of being the one and only object satisfying a condition <!--SR:!2027-07-09,677,330!2026-02-03,281,330-->
 - [XOR gate](XOR%20gate.md) – ::@:: Logic gate <!--SR:!2026-01-03,257,330!2025-10-01,169,310-->
 
 ## references
