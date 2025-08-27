@@ -48,7 +48,7 @@ The content is in teaching order.
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2026-10-21,698,360-->
-- civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
+- civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2030-12-09,1925,396-->
   - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->

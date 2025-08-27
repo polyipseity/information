@@ -19,7 +19,7 @@ __Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md)
 >
 > —&hairsp;_[Concrete Mathematics](Concrete%20Mathematics.md)_, page 3 margins. <!--SR:!2028-09-15,1114,350!2028-09-28,1125,350-->
 
-A __proof by induction__ consists of {@{two cases}@}. The first, {@{the __base case__, proves the statement for $n=0$ without assuming any knowledge of other cases}@}. The second case, {@{the __induction step__, proves that _if_ the statement holds for any given case $n=k$, _then_ it must also hold for the next case $n=k+1$}@}. These two steps establish that {@{the statement holds for every natural number $n$}@}. The base case does not {@{necessarily begin with $n=0$, but often with $n=1$, and possibly with any fixed natural number $n=N$}@}, establishing {@{the truth of the statement for all natural numbers $n\geq N$}@}. <!--SR:!2025-09-07,255,330!2028-10-01,1129,350!2025-09-01,249,330!2027-02-09,647,330!2028-09-27,1125,350!2027-07-21,760,330-->
+A __proof by induction__ consists of {@{two cases}@}. The first, {@{the __base case__, proves the statement for $n=0$ without assuming any knowledge of other cases}@}. The second case, {@{the __induction step__, proves that _if_ the statement holds for any given case $n=k$, _then_ it must also hold for the next case $n=k+1$}@}. These two steps establish that {@{the statement holds for every natural number $n$}@}. The base case does not {@{necessarily begin with $n=0$, but often with $n=1$, and possibly with any fixed natural number $n=N$}@}, establishing {@{the truth of the statement for all natural numbers $n\geq N$}@}. <!--SR:!2025-09-07,255,330!2028-10-01,1129,350!2028-10-14,1139,350!2027-02-09,647,330!2028-09-27,1125,350!2027-07-21,760,330-->
 
 The method can be extended to {@{prove statements about more general [well-founded](well-founded%20relation.md) structures, such as [trees](tree%20(set%20theory).md)}@}; this generalization, known as {@{[structural induction](structural%20induction.md), is used in [mathematical logic](mathematical%20logic.md) and [computer science](computer%20science.md)}@}. Mathematical induction in this extended sense is closely related to {@{[recursion](recursion.md)}@}. Mathematical induction is {@{an [inference rule](rule%20of%20inference.md) used in [formal proofs](formal%20proof.md)}@}, and is the foundation of {@{most [correctness](correctness%20(computer%20science).md) proofs for computer programs}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2027-03-01,663,330!2028-09-25,1122,350!2025-09-02,250,330!2025-09-05,253,330!2028-09-21,1120,350-->
 
@@ -58,7 +58,7 @@ Authors who prefer to define natural numbers to begin at 0 use that value in the
 
 Mathematical induction can be used to prove the following statement _P_(_n_) for all natural numbers _n_: {@{$$P(n)\!:\ \ 0+1+2+\cdots +n={\frac {n(n+1)}{2} }$$}@} <!--SR:!2028-09-11,1111,350-->
 
-This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2025-09-01,249,330-->
+This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2028-10-09,1134,350-->
 
 __<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2028-09-30,1127,350!2025-09-07,255,330-->
 
@@ -74,13 +74,13 @@ Assume the induction hypothesis that for a particular _k_, the single case _n_ =
 
 Equating the extreme left hand and right hand sides, we deduce that: $$0+1+2+\cdots +k+(k+1)={\frac {(k+1)((k+1)+1)}{2} }.$$ That is, the statement _P_(_k_ + 1) also holds true, establishing the induction step.
 
-_Conclusion_ ::@:: Since both the base case and the induction step have been proved as true, by mathematical induction the statement _P_(_n_) holds for every natural number _n_. [Q.E.D.](Q.E.D..md) <!--SR:!2025-09-01,250,330!2025-09-02,250,330-->
+_Conclusion_ ::@:: Since both the base case and the induction step have been proved as true, by mathematical induction the statement _P_(_n_) holds for every natural number _n_. [Q.E.D.](Q.E.D..md) <!--SR:!2028-10-16,1141,350!2025-09-02,250,330-->
 
 ### a trigonometric inequality
 
 Induction is often used to {@{prove [inequalities](inequality%20(mathematics).md)}@}. As an example, we prove that {@{$\left|\sin nx\right|\leq n\left|\sin x\right|$ for any [real number](real%20number.md) $x$ and natural number $n$}@}. <!--SR:!2028-09-09,1109,350!2025-09-02,250,330-->
 
-At first glance, it may appear that {@{a more general version, $\left|\sin nx\right|\leq n\left|\sin x\right|$ for any _real_ numbers $n,x$, could be proven without induction}@}; but {@{the case $n={\frac {1}{2} },\,x=\pi$ shows it may be false for non-integer values of $n$}@}. This suggests {@{we examine the statement specifically for _natural_ values of $n$, and induction is the readiest tool}@}. <!--SR:!2025-09-01,249,330!2025-09-06,254,330!2025-09-06,254,330-->
+At first glance, it may appear that {@{a more general version, $\left|\sin nx\right|\leq n\left|\sin x\right|$ for any _real_ numbers $n,x$, could be proven without induction}@}; but {@{the case $n={\frac {1}{2} },\,x=\pi$ shows it may be false for non-integer values of $n$}@}. This suggests {@{we examine the statement specifically for _natural_ values of $n$, and induction is the readiest tool}@}. <!--SR:!2028-10-13,1138,350!2025-09-06,254,330!2025-09-06,254,330-->
 
 __<u>Proposition.</u>__ ::@:: For any $x\in \mathbb {R}$ and $n\in \mathbb {N}$, $\left|\sin nx\right|\leq n\left|\sin x\right|$. <!--SR:!2028-09-05,1105,350!2027-08-01,769,330-->
 
@@ -94,7 +94,7 @@ _Conclusion_ ::@:: The proposition $P(n)$ holds for all natural numbers $n$.  Q.
 
 ## variants
 
-In practice, proofs by induction are often {@{structured differently, depending on the exact nature of the property to be proven}@}. All variants of induction are {@{special cases of [transfinite induction](transfinite%20induction.md)}@}; see [below](#transfinite%20induction). <!--SR:!2027-02-10,648,330!2025-09-01,249,330-->
+In practice, proofs by induction are often {@{structured differently, depending on the exact nature of the property to be proven}@}. All variants of induction are {@{special cases of [transfinite induction](transfinite%20induction.md)}@}; see [below](#transfinite%20induction). <!--SR:!2027-02-10,648,330!2028-10-12,1137,350-->
 
 ### base case other than 0 or 1
 
@@ -105,7 +105,7 @@ If {@{one wishes to prove a statement, not for all natural numbers, but only for
 
 This can be used, for example, to show that 2<sup>_n_</sup> ≥ _n_ + 5 for _n_ ≥ 3.
 
-In this way, one can prove that some statement _P_(_n_) holds for {@{all _n_ ≥ 1, or even for all _n_ ≥ −5}@}. This form of mathematical induction is {@{actually a special case of the previous form}@}, because if {@{the statement to be proved is _P_(_n_)}@} then {@{proving it with these two rules is equivalent with proving _P_(_n_ + _b_) for all natural numbers _n_ with an induction base case 0}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2028-09-26,1123,350!2028-09-27,1124,350!2025-09-01,249,330!2025-09-06,254,330-->
+In this way, one can prove that some statement _P_(_n_) holds for {@{all _n_ ≥ 1, or even for all _n_ ≥ −5}@}. This form of mathematical induction is {@{actually a special case of the previous form}@}, because if {@{the statement to be proved is _P_(_n_)}@} then {@{proving it with these two rules is equivalent with proving _P_(_n_ + _b_) for all natural numbers _n_ with an induction base case 0}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2028-09-26,1123,350!2028-09-27,1124,350!2028-10-11,1136,350!2025-09-06,254,330-->
 
 #### example: forming dollar amounts by coins
 
@@ -146,7 +146,7 @@ A variant of {@{interest in [computational complexity](computational%20complexit
 
 The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2025-09-14,260,330!2028-09-11,1111,350!2025-09-11,257,330!2025-09-15,261,330-->
 
-If {@{traditional predecessor induction is interpreted computationally as an _n_-step loop}@}, then prefix induction would {@{correspond to a log-_n_-step loop}@}. Because of that, proofs using prefix induction are {@{"more feasibly constructive" than proofs using predecessor induction}@}. <!--SR:!2025-09-01,249,330!2025-09-04,252,330!2025-09-06,254,330-->
+If {@{traditional predecessor induction is interpreted computationally as an _n_-step loop}@}, then prefix induction would {@{correspond to a log-_n_-step loop}@}. Because of that, proofs using prefix induction are {@{"more feasibly constructive" than proofs using predecessor induction}@}. <!--SR:!2028-10-15,1140,350!2025-09-04,252,330!2025-09-06,254,330-->
 
 Predecessor induction can {@{trivially simulate prefix induction on the same statement}@}. Prefix induction can {@{simulate predecessor induction, but only at the cost of making the statement more syntactically complex (adding a [bounded](bounded%20quantifier.md) [universal quantifier](universal%20quantification.md))}@}, so the interesting results {@{relating prefix induction to [polynomial-time](time%20complexity.md#polynomial%20time) computation}@} depend on {@{excluding unbounded quantifiers entirely, and limiting the alternation of bounded universal and [existential](existential%20quantification.md) quantifiers allowed in the statement}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2028-09-10,1110,350!2025-12-25,297,290!2025-09-04,252,330!2027-08-31,743,290-->
 
@@ -200,7 +200,7 @@ The induction step {@{must be proved for all values of _n_}@}. To illustrate thi
 
 _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2028-10-02,1129,350!2025-09-05,253,330-->
 
-_Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2025-09-08,254,330!2025-09-01,249,330-->
+_Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2025-09-08,254,330!2028-10-10,1135,350-->
 
 The base case $n=1$ is {@{trivial, and the induction step is correct in all cases $n>1$}@}. However, the argument used in the induction step is {@{incorrect for $n+1=2$, because the statement that "the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}. <!--SR:!2028-09-24,1122,350!2027-11-15,809,330-->
 
@@ -219,7 +219,7 @@ The axiom of structural induction for the natural numbers was first formulated b
 3. The successor function is [injective](injective%20function.md).
 4. 0 is not in the [range](range%20of%20a%20function.md) of _s_.
 
-In {@{__[first-order](first-order%20logic.md) [ZFC set theory](Zermelo–Fraenkel%20set%20theory.md)__}@}, {@{quantification over predicates is not allowed}@}, but {@{one can still express induction by quantification over sets}@}: {@{$$\forall A{\Bigl (}0\in A\land \forall k\in \mathbb {N} {\bigl (}k\in A\to (k+1)\in A{\bigr )}\to \mathbb {N} \subseteq A{\Bigr )}.$$}@} _A_ may be read as {@{a set representing a proposition, and containing natural numbers, for which the proposition holds}@}. This is {@{not an axiom, but a theorem, given that natural numbers are defined in the language of ZFC set theory by axioms, analogous to Peano's}@}. See [construction of the natural numbers](axiom%20of%20infinity.md#alternative%20method) using the [axiom of infinity](axiom%20of%20infinity.md) and [axiom schema of specification](axiom%20schema%20of%20specification.md). <!--SR:!2028-09-30,1128,350!2028-09-12,1112,350!2027-08-16,781,330!2026-12-19,546,310!2027-02-04,643,330!2025-09-01,249,330-->
+In {@{__[first-order](first-order%20logic.md) [ZFC set theory](Zermelo–Fraenkel%20set%20theory.md)__}@}, {@{quantification over predicates is not allowed}@}, but {@{one can still express induction by quantification over sets}@}: {@{$$\forall A{\Bigl (}0\in A\land \forall k\in \mathbb {N} {\bigl (}k\in A\to (k+1)\in A{\bigr )}\to \mathbb {N} \subseteq A{\Bigr )}.$$}@} _A_ may be read as {@{a set representing a proposition, and containing natural numbers, for which the proposition holds}@}. This is {@{not an axiom, but a theorem, given that natural numbers are defined in the language of ZFC set theory by axioms, analogous to Peano's}@}. See [construction of the natural numbers](axiom%20of%20infinity.md#alternative%20method) using the [axiom of infinity](axiom%20of%20infinity.md) and [axiom schema of specification](axiom%20schema%20of%20specification.md). <!--SR:!2028-09-30,1128,350!2028-09-12,1112,350!2027-08-16,781,330!2026-12-19,546,310!2027-02-04,643,330!2028-10-08,1133,350-->
 
 ## transfinite induction
 
@@ -235,7 +235,7 @@ Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:
 
 1. when _n_ is a minimal element, ::@:: i.e. there is no element smaller than _n_; <!--SR:!2025-09-05,253,330!2025-09-05,253,330-->
 2. when _n_ has a direct predecessor, ::@:: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2025-12-11,288,290!2025-09-02,251,330-->
-3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2028-09-10,1110,350!2025-09-01,249,330-->
+3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2028-09-10,1110,350!2028-10-12,1137,350-->
 
 Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2025-09-16,262,330!2027-12-02,823,330!2028-09-13,1113,350-->
 
@@ -248,15 +248,15 @@ The principle of mathematical induction is usually stated as {@{an [axiom](axiom
 - For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2025-09-16,262,330-->
 - No natural number is ::@:: less than zero. <!--SR:!2025-09-04,252,330!2025-09-03,251,330-->
 
-It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}. <!--SR:!2027-02-21,656,330!2025-09-01,250,330-->
+It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}. <!--SR:!2027-02-21,656,330!2028-10-20,1145,350-->
 
 __Proof.__ ::@:: Suppose there exists a [non-empty](empty%20set.md) set, _S_, of natural numbers that has no least element. Let _P_(_n_) be the assertion that _n_ is not in _S_. Then _P_(0) is true, for if it were false then 0 is the least element of _S_. Furthermore, let _n_ be a natural number, and suppose _P_(_m_) is true for all natural numbers _m_ less than _n_ + 1. Then if _P_(_n_ + 1) is false _n_ + 1 is in _S_, thus being a minimal element in _S_, a contradiction. Thus _P_(_n_ + 1) is true. Therefore, by the complete induction principle, _P_(_n_) holds for all natural numbers _n_; so _S_ is empty, a contradiction. Q.E.D. <!--SR:!2025-09-12,258,330!2026-08-23,474,310-->
 
-On the other hand, the set {@{$\{(0,n):n\in \mathbb {N} \}\cup \{(1,n):n\in \mathbb {N} \}$}@}<!--, shown in the picture,--> is {@{well-ordered<sup>[\[24\]](#^ref-24)</sup><sup>[\[35\]](#^ref-35)</sup> by the [lexicographic order](lexicographic%20order.md)}@}. Moreover, {@{except for the induction axiom, it satisfies all Peano axioms}@}, where {@{Peano's constant 0 is interpreted as the pair (0, 0), and Peano's _successor_ function is defined on pairs by succ(_x_, _n_) = (_x_, _n_ + 1) for all $x\in \{0,1\}$ and $n\in \mathbb {N}$}@}. As an example for the violation of the induction axiom, define {@{the predicate _P_(_x_, _n_) as (_x_, _n_) = (0, 0) or (_x_, _n_) = succ(_y_, _m_) for some $y\in \{0,1\}$ and $m\in \mathbb {N}$}@}. Then {@{the base case _P_(0, 0) is trivially true, and so is the induction step: if _P_(_x_, _n_), then _P_(succ(_x_, _n_))}@}. However, _P_ is {@{not true for all pairs in the set, since _P_(1,0) is false}@}. <!--SR:!2028-09-20,1118,350!2025-09-07,255,330!2025-09-17,263,330!2025-09-14,260,330!2027-08-06,772,330!2025-09-01,249,330!2027-08-15,780,330-->
+On the other hand, the set {@{$\{(0,n):n\in \mathbb {N} \}\cup \{(1,n):n\in \mathbb {N} \}$}@}<!--, shown in the picture,--> is {@{well-ordered<sup>[\[24\]](#^ref-24)</sup><sup>[\[35\]](#^ref-35)</sup> by the [lexicographic order](lexicographic%20order.md)}@}. Moreover, {@{except for the induction axiom, it satisfies all Peano axioms}@}, where {@{Peano's constant 0 is interpreted as the pair (0, 0), and Peano's _successor_ function is defined on pairs by succ(_x_, _n_) = (_x_, _n_ + 1) for all $x\in \{0,1\}$ and $n\in \mathbb {N}$}@}. As an example for the violation of the induction axiom, define {@{the predicate _P_(_x_, _n_) as (_x_, _n_) = (0, 0) or (_x_, _n_) = succ(_y_, _m_) for some $y\in \{0,1\}$ and $m\in \mathbb {N}$}@}. Then {@{the base case _P_(0, 0) is trivially true, and so is the induction step: if _P_(_x_, _n_), then _P_(succ(_x_, _n_))}@}. However, _P_ is {@{not true for all pairs in the set, since _P_(1,0) is false}@}. <!--SR:!2028-09-20,1118,350!2025-09-07,255,330!2025-09-17,263,330!2025-09-14,260,330!2027-08-06,772,330!2028-10-13,1138,350!2027-08-15,780,330-->
 
 Peano's axioms with the induction principle {@{uniquely model the natural numbers}@}. Replacing the induction principle with the well-ordering principle {@{allows for more exotic models that fulfill all the axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2025-09-06,254,330!2025-09-16,262,330-->
 
-It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2025-09-03,251,330!2025-09-05,253,330!2025-09-12,258,330!2025-09-04,252,330!2025-09-01,250,330-->
+It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2025-09-03,251,330!2025-09-05,253,330!2025-09-12,258,330!2025-09-04,252,330!2027-12-09,829,330-->
 
 A common mistake in many erroneous proofs is {@{to assume that _n_ − 1 is a unique and well-defined natural number}@}, a property which is {@{not implied by the other Peano axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2028-10-05,1131,350!2028-10-06,1132,350-->
 

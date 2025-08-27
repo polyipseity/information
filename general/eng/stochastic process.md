@@ -229,7 +229,7 @@ In the context of {@{mathematical construction of stochastic processes}@}, {@{th
 
 Markov processes form {@{an important class of stochastic processes and have applications in many areas}@}.<sup>[\[39\]](#^ref-39)</sup><sup>[\[202\]](#^ref-202)</sup> For example, they are {@{the basis for a general stochastic simulation method known as [Markov chain Monte Carlo](Markov%20chain%20Monte%20Carlo.md)}@}, which is used for {@{simulating random objects with specific probability distributions, and has found application in [Bayesian statistics](Bayesian%20statistics.md)}@}.<sup>[\[203\]](#^ref-203)</sup><sup>[\[204\]](#^ref-204)</sup> <!--SR:!2025-10-19,242,330!2025-09-27,223,336!2026-09-03,467,310-->
 
-{@{The concept of the Markov property}@} was originally for {@{stochastic processes in continuous and discrete time}@}, but {@{the property has been adapted for other index sets such as $n$-dimensional Euclidean space}@}, which {@{results in collections of random variables known as Markov random fields}@}.<sup>[\[205\]](#^ref-205)</sup><sup>[\[206\]](#^ref-206)</sup><sup>[\[207\]](#^ref-207)</sup> <!--SR:!2025-12-14,291,347!2025-10-19,242,330!2025-09-01,202,327!2025-09-06,207,336-->
+{@{The concept of the Markov property}@} was originally for {@{stochastic processes in continuous and discrete time}@}, but {@{the property has been adapted for other index sets such as $n$-dimensional Euclidean space}@}, which {@{results in collections of random variables known as Markov random fields}@}.<sup>[\[205\]](#^ref-205)</sup><sup>[\[206\]](#^ref-206)</sup><sup>[\[207\]](#^ref-207)</sup> <!--SR:!2025-12-14,291,347!2025-10-19,242,330!2028-02-25,907,347!2025-09-06,207,336-->
 
 ### martingale
 

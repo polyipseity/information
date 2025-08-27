@@ -300,7 +300,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 - bridge type <!-- flashcard ID: 54af6d8c-884f-4894-bb1a-ce65254b1063 -->::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2026-03-27,463,297!2025-11-10,455,390-->
 - description ::@:: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-02-14,749,330!2025-12-18,488,392-->
 - image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2025-09-05,389,380-->
-- length ::@:: 2160 m, longest span: 1377 m <!--SR:!2025-10-31,353,280!2025-09-01,368,380-->
+- length ::@:: 2160 m, longest span: 1377 m <!--SR:!2025-10-31,353,280!2030-11-28,1914,400-->
 
 ## Turin–Lyon high-speed railway
 

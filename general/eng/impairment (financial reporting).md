@@ -11,7 +11,7 @@ tags:
 
 # impairment
 
-__Impairment__ of {@{assets is the diminishing in quality, strength, amount, or value of an asset}@}. {@{An impairment cost must be included under expenses}@} when {@{the [book value](book%20value.md) of an [asset](asset.md) exceeds the recoverable amount}@}. {@{[Fixed assets](fixed%20asset.md), commonly known as PPE \(Property, Plant & Equipment\)}@}, refers to {@{long-lived assets such as buildings, land, machinery, and equipment}@}; these assets are {@{the most likely to experience impairment, which may be caused by several factors}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-01-15,292,330!2026-01-10,288,330!2025-09-08,185,310!2025-09-09,185,310!2025-09-01,178,310!2026-01-14,291,330-->
+__Impairment__ of {@{assets is the diminishing in quality, strength, amount, or value of an asset}@}. {@{An impairment cost must be included under expenses}@} when {@{the [book value](book%20value.md) of an [asset](asset.md) exceeds the recoverable amount}@}. {@{[Fixed assets](fixed%20asset.md), commonly known as PPE \(Property, Plant & Equipment\)}@}, refers to {@{long-lived assets such as buildings, land, machinery, and equipment}@}; these assets are {@{the most likely to experience impairment, which may be caused by several factors}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-01-15,292,330!2026-01-10,288,330!2025-09-08,185,310!2025-09-09,185,310!2027-10-12,771,330!2026-01-14,291,330-->
 
 ## history
 

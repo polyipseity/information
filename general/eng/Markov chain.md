@@ -290,7 +290,7 @@ When {@{the Markov matrix is replaced by the [adjacency matrix](adjacency%20matr
 
 ## applications
 
-Markov chains have been {@{employed in a wide range of topics across the natural and social sciences}@}, and in {@{technological applications}@}. <!--SR:!2025-09-01,200,321!2026-01-04,304,341-->
+Markov chains have been {@{employed in a wide range of topics across the natural and social sciences}@}, and in {@{technological applications}@}. <!--SR:!2028-02-08,890,341!2026-01-04,304,341-->
 
 ### physics
 

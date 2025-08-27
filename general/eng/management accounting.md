@@ -60,7 +60,7 @@ Management accountants are seen as {@{the "value-creators" amongst the accountan
 
 Management accounting information differs from [financial accountancy](financial%20accounting.md) information in several ways:
 
-- audiences ::@:: while shareholders, creditors, and public regulators use publicly reported financial accountancy, information, only managers within the organization use the normally confidential management accounting information; <!--SR:!2026-09-04,541,310!2025-09-01,272,330-->
+- audiences ::@:: while shareholders, creditors, and public regulators use publicly reported financial accountancy, information, only managers within the organization use the normally confidential management accounting information; <!--SR:!2026-09-04,541,310!2029-01-26,1243,350-->
 - principles ::@:: while financial accountancy information is historical, management accounting information is primarily forward-looking<sup>[\[9\]](#^ref-9)</sup>; <!--SR:!2026-08-23,533,310!2028-11-02,1178,350-->
 - basis ::@:: while financial accountancy information is case-based, management accounting information is model-based with a degree of abstraction in order to support generic decision making; <!--SR:!2027-11-28,898,330!2026-01-31,362,290-->
 - format ::@:: while financial accountancy information is computed by reference to general financial accounting standards, management accounting information is computed by reference to the needs of managers, often using [management information systems](management%20information%20system.md). <!--SR:!2025-12-13,312,290!2026-12-16,631,330-->

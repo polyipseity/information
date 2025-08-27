@@ -66,7 +66,7 @@ The content is in teaching order.
 - topic: Portfolio Building (I)
 - skill vs. will
 - job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2026-11-28,605,330!2028-02-19,931,330-->
-  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2025-09-01,265,330!2028-08-12,1101,350-->
+  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2028-12-21,1207,350!2028-08-12,1101,350-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2025-10-21,300,330-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->

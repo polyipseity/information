@@ -65,7 +65,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 
 - [Operational cash flows](operating%20cash%20flow.md): (annotation: Not to be confused with cash flow from operations (CFO) or operating/operational cash flow (OCF) in _accounting_!!!) ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by: <!--SR:!2026-12-28,528,310!2026-08-01,381,290-->
   - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation <!--SR:!2025-11-14,240,330!2027-08-15,726,330-->
-  - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation <!--SR:!2025-09-01,177,310!2025-10-07,196,310-->
+  - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation <!--SR:!2027-09-29,758,330!2025-10-07,196,310-->
   - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation <!--SR:!2026-11-23,514,310!2026-11-21,504,310-->
   - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\) <!--SR:!2026-04-13,327,290!2026-11-23,499,310-->
     - Depreciation\*\(tax rate\) which locates at the end of the formula ::@:: is called depreciation shield through which we can see that there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive)). <!--SR:!2025-10-31,92,375!2025-11-01,93,375-->

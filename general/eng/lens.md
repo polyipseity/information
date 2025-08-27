@@ -11,7 +11,7 @@ tags:
 
 ## imaging properties
 
-Images created by a lens can be described as {@{[real](real%20image.md), [virtual](virtual%20image.md), magnified, diminished, erect, or inverted}@}. Images created by a [mirror](mirror.md) are described as {@{same size and laterally inverted}@}. <!--SR:!2031-08-02,2192,310!2025-09-01,620,310-->
+Images created by a lens can be described as {@{[real](real%20image.md), [virtual](virtual%20image.md), magnified, diminished, erect, or inverted}@}. Images created by a [mirror](mirror.md) are described as {@{same size and laterally inverted}@}. <!--SR:!2031-08-02,2192,310!2032-12-14,2661,330-->
 
 ## references
 

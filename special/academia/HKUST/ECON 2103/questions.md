@@ -166,7 +166,7 @@ tags:
 > 4. Teresa has CA in B and better specializes in B
 >
 > - solution: {@{4}@}
-> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2025-09-01,258,330!2025-11-02,309,330-->
+> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2028-01-03,854,330!2025-11-02,309,330-->
 
 <!-- markdownlint MD028 -->
 

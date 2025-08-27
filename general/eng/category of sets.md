@@ -29,7 +29,7 @@ __Set__ is {@{the prototype of a [concrete category](concrete%20category.md)}@};
 
 __Set__ is not {@{[abelian](abelian%20category.md), [additive](additive%20category.md) nor [preadditive](preadditive%20category.md)}@}. <!--SR:!2025-09-11,185,310-->
 
-{@{Every non-empty set}@} is {@{an [injective object](injective%20object.md) (annotation: every morphism to an injective object factors through every monomorphism) in __Set__}@}. {@{Every set}@} is {@{a [projective object](projective%20module.md) in __Set__ \(assuming the [axiom of choice](axiom%20of%20choice.md)\)}@}. <!--SR:!2026-01-09,285,330!2026-04-15,331,290!2026-01-15,290,330!2025-09-01,165,270-->
+{@{Every non-empty set}@} is {@{an [injective object](injective%20object.md) (annotation: every morphism to an injective object factors through every monomorphism) in __Set__}@}. {@{Every set}@} is {@{a [projective object](projective%20module.md) in __Set__ \(assuming the [axiom of choice](axiom%20of%20choice.md)\)}@}. <!--SR:!2026-01-09,285,330!2026-04-15,331,290!2026-01-15,290,330!2027-05-17,623,290-->
 
 {@{The [finitely presentable objects](accessible%20category.md) (annotation:  "size" (a cardinal number) of the operations needed to generate said objects is finite)}@} in __Set__ are {@{the finite sets}@}. Since {@{every set is a [direct limit](direct%20limit.md) of its finite subsets}@}, the category __Set__ is {@{a [locally finitely presentable category](accessible%20category.md)}@}. <!--SR:!2025-12-24,272,330!2025-12-17,265,330!2025-10-04,191,310!2026-01-13,287,330-->
 
