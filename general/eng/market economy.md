@@ -25,7 +25,7 @@ For {@{market economies to function efficiently}@}, governments must {@{establis
 
 {@{Supply and demand}@} supposedly {@{work in tandem}@}. The economic theory is that {@{supply slopes upwards as people buy more and demand drops as prices rise and people buy less}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2028-07-13,1076,350!2026-12-30,630,330!2025-10-17,299,330-->
 
-Market economies rely upon {@{a price system to signal market actors to adjust production and investment}@}. Price formation relies on {@{the interaction of supply and demand to reach or approximate an equilibrium}@} where {@{the unit price for a particular good or service is at a point where the quantity demanded equals the quantity supplied}@}. <!--SR:!2025-11-05,313,330!2025-09-02,262,330!2025-10-15,297,330-->
+Market economies rely upon {@{a price system to signal market actors to adjust production and investment}@}. Price formation relies on {@{the interaction of supply and demand to reach or approximate an equilibrium}@} where {@{the unit price for a particular good or service is at a point where the quantity demanded equals the quantity supplied}@}. <!--SR:!2025-11-05,313,330!2028-01-19,869,330!2025-10-15,297,330-->
 
 {@{The price data point where the supply and demand lines intersect}@} is called {@{the [market-clearing price](market%20clearing.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2028-07-26,1087,350!2025-11-04,312,330-->
 

@@ -35,4 +35,4 @@ tags:
   - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-12-28,547,310!2025-11-10,258,330-->
   - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2025-12-18,288,330!2025-11-04,254,330-->
   - (root) / total stockholders' equity ::@:: Sum up the rows. <!--SR:!2025-12-13,283,330!2025-12-19,289,330-->
-- validation ::@:: The totals for each row should add up to the final total. The totals for each column should add up to the final total. <!--SR:!2025-09-02,188,310!2025-11-04,254,330-->
+- validation ::@:: The totals for each row should add up to the final total. The totals for each column should add up to the final total. <!--SR:!2027-11-21,810,330!2025-11-04,254,330-->

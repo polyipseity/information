@@ -69,7 +69,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{2, 3, 4}@} <!--SR:!2025-09-02,62,310-->
+> - solution: {@{2, 3, 4}@} <!--SR:!2026-05-24,264,330-->
 
 ---
 
@@ -95,7 +95,7 @@ tags:
 > ---
 >
 > - solution: {@{\$255&nbsp;675}@}
-> - explanation: {@{From above, the optimal order quantity is 200. Thus the purchasing cost discount applies. <p> Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-12-19,128,290!2025-09-02,62,310-->
+> - explanation: {@{From above, the optimal order quantity is 200. Thus the purchasing cost discount applies. <p> Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2025-12-19,128,290!2026-05-21,261,330-->
 
 ---
 
@@ -109,7 +109,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2025-09-02,62,310-->
+> - solution: {@{1. Increase lookback period. <br/> 2. Increase lookback period, or assign less weights to more recent data. <br/> 3. Decrease the smoothing alpha.}@} <!--SR:!2026-03-17,196,310-->
 
 ---
 
@@ -157,7 +157,7 @@ tags:
 > ---
 >
 > - solution: {@{100}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2025-09-02,62,310!2025-09-02,62,310-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2026-05-22,262,330!2026-05-30,270,330-->
 
 ---
 
@@ -170,4 +170,4 @@ tags:
 > ---
 >
 > - solution: {@{75}@}
-> - explanation: {@{25\*3=75}@} <!--SR:!2026-05-09,255,330!2025-09-02,62,310-->
+> - explanation: {@{25\*3=75}@} <!--SR:!2026-05-09,255,330!2026-05-26,266,330-->

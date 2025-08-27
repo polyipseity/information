@@ -9,7 +9,7 @@ tags:
 
 # uncountable set
 
-- "Uncountable" redirects here. For {@{the linguistic concept}@}, see {@{[Uncountable noun](mass%20noun.md)}@}. <!--SR:!2025-09-02,191,310!2027-08-18,739,330-->
+- "Uncountable" redirects here. For {@{the linguistic concept}@}, see {@{[Uncountable noun](mass%20noun.md)}@}. <!--SR:!2027-12-05,824,330!2027-08-18,739,330-->
 
 In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2026-07-08,413,310!2025-10-23,232,330!2025-12-30,286,330!2026-04-13,340,290-->
 
@@ -42,7 +42,7 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 - Main article: [Dedekind-infinite set](Dedekind-infinite%20set.md)
 
-{@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}. <!--SR:!2025-09-02,191,310!2025-11-19,255,330!2026-02-03,294,290!2026-03-07,321,290!2027-11-25,815,330!2025-12-14,275,330-->
+{@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}. <!--SR:!2027-12-04,823,330!2025-11-19,255,330!2026-02-03,294,290!2026-03-07,321,290!2027-11-25,815,330!2025-12-14,275,330-->
 
 If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}: <!--SR:!2026-01-04,291,330!2027-11-21,813,330-->
 

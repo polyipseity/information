@@ -295,7 +295,7 @@ The content is in teaching order.
     - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2026-03-14,365,383!2026-04-08,385,383-->
 - [inventory valuation](../../../../general/inventory%20valuation.md)
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
-    - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2025-09-02,207,363!2025-12-21,301,383-->
+    - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2028-06-25,1027,383!2025-12-21,301,383-->
   - [periodic inventory](../../../../general/periodic%20inventory.md)
     - periodic inventory / accounting ::@:: Purchased goods are added to asset "Purchases" on purchase. Sold goods are ignored. <p> At year end, the actual cost of goods sold is computed. Two adjustment entries are added. First, both the asset "Purchases" and the asset "Inventory (beginning)" are credited to zero balance, and the expense "Cost of goods sold" is debited. Then, the expense "Cost of goods sold" is credited such that it matches the actual cost of goods sold, and the asset "Inventory (ending)" is debited. <!--SR:!2025-10-26,101,323!2026-01-03,304,376-->
 - [§ week 7 review](questions.md#week%207%20review)

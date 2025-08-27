@@ -118,10 +118,10 @@ The content is in teaching order.
   - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2026-09-23,528,310!2028-10-12,1151,350-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2028-11-22,1183,350!2028-08-28,1115,350-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2028-09-13,1128,350!2026-12-19,621,330-->
-- If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2028-02-23,972,350-->
+- If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2028-12-24,1209,350!2028-02-23,972,350-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2025-09-04,267,330!2028-05-15,1034,350-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2027-06-09,738,330!2025-09-04,268,330-->
-- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2026-12-26,626,330-->
+- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2028-12-25,1210,350!2026-12-26,626,330-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2027-04-30,722,330!2025-09-20,281,330-->
 - etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2028-10-23,1160,350!2026-11-05,591,330-->

@@ -30,7 +30,7 @@ Figure 1: Hours of work necessary to produce one unit
 | __UK__       | 80        | 100      |
 | __Portugal__ | 120       | 90       |
 
-According to Figure 1, the UK commits 80 hours of labor to produce one unit of cloth, which is {@{fewer than Portugal's hours of work necessary to produce one unit of cloth}@}. The UK is {@{able to produce one unit of cloth with fewer hours of labor}@}, therefore {@{the UK has an absolute advantage in the production of cloth}@}. On the other hand, Portugal commits 90 hours to produce one unit of wine, which is {@{fewer than the UK's hours of work necessary to produce one unit of wine}@}. Therefore, {@{Portugal has an absolute advantage in the production of wine}@}. <!--SR:!2028-09-29,1138,350!2028-06-22,1056,350!2028-07-13,1074,350!2025-09-02,259,330!2028-11-12,1169,350-->
+According to Figure 1, the UK commits 80 hours of labor to produce one unit of cloth, which is {@{fewer than Portugal's hours of work necessary to produce one unit of cloth}@}. The UK is {@{able to produce one unit of cloth with fewer hours of labor}@}, therefore {@{the UK has an absolute advantage in the production of cloth}@}. On the other hand, Portugal commits 90 hours to produce one unit of wine, which is {@{fewer than the UK's hours of work necessary to produce one unit of wine}@}. Therefore, {@{Portugal has an absolute advantage in the production of wine}@}. <!--SR:!2028-09-29,1138,350!2028-06-22,1056,350!2028-07-13,1074,350!2028-11-23,1178,350!2028-11-12,1169,350-->
 
 Figure 2: Hours of work to commit after the specialization
 

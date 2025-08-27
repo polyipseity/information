@@ -363,7 +363,7 @@ See [Hong Kong's waste problem: what is the new charging scheme and how can it c
 
 > Q2. How would waste charging by imposing a fixed fee work?
 >
-> - solution: {@{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}@} <!--SR:!2025-09-02,259,330-->
+> - solution: {@{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}@} <!--SR:!2028-01-05,855,330-->
 
 <!-- markdownlint MD028 -->
 

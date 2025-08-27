@@ -245,7 +245,7 @@ See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](..
 
 See [Panama Canal](../../../../general/Panama%20Canal.md).
 
-- image ::@:: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2025-09-02,349,376!2027-05-19,892,416-->
+- image ::@:: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2030-08-06,1799,396!2027-05-19,892,416-->
 
 ## Parthenon
 

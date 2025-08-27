@@ -62,7 +62,7 @@ __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is th
 
 __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!2026-06-05,339,252!2027-04-30,607,312-->
 
-- left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2025-09-22,196,272!2025-09-02,198,312-->
+- left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2025-09-22,196,272!2027-05-13,618,312-->
 - left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2027-03-25,583,312!2026-05-31,335,252-->
 
 __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-10-27,213,272!2025-11-23,173,272-->

@@ -45,7 +45,7 @@ Below are some questions or question tips.
 
 ## cost behavior
 
-- explanatory power ::@:: We use "R square" \(not "multiple R" or "adjusted R square"\) to say how much a model explains the output variable. Higher is considered better, but you also need to consider if it is easy to get the input variables. <!--SR:!2025-09-02,57,310!2025-09-03,58,310-->
+- explanatory power ::@:: We use "R square" \(not "multiple R" or "adjusted R square"\) to say how much a model explains the output variable. Higher is considered better, but you also need to consider if it is easy to get the input variables. <!--SR:!2026-05-11,251,330!2025-09-03,58,310-->
 - high—low method: "high" and "low" ::@:: The "high"/"low" refers to the data point with the largest/smallest _x_ without regards to its _y_. <!--SR:!2025-09-09,58,310!2025-09-12,61,310-->
 - high—low method: suitability ::@:: Consider the vertical errors for data points in between. If the errors are high, it is not suitable. Otherwise, it is suitable. <!--SR:!2025-09-08,57,310!2025-09-03,58,310-->
 
@@ -78,7 +78,7 @@ Below are some questions or question tips.
 
 ## decentralized performance evaluation
 
-- balanced scorecard ::@:: Hard to say how to answer... Find more questions and solutions. And it is okay to write "obvious" and "useless" points. Writing more is \(almost\) always good, so blow water \(effectively\). <!--SR:!2025-09-09,58,310!2025-09-02,57,310-->
+- balanced scorecard ::@:: Hard to say how to answer... Find more questions and solutions. And it is okay to write "obvious" and "useless" points. Writing more is \(almost\) always good, so blow water \(effectively\). <!--SR:!2025-09-09,58,310!2026-05-10,250,330-->
   - balanced scorecard / success ::@:: \(Re\)state the strategy. For each perspective in order, match the measures to the strategy, briefly explain how they correctly measure the strategy, and state if the strategy is successful. Usually, meeting the objectives for all 4 perspectives is needed to be considered successful. <!--SR:!2025-09-12,61,310!2025-09-16,65,310-->
   - balanced scorecard / finding causes ::@:: If the measures are useful for finding causes, \(re\)state the strategy, explain how they correctly measures the strategy, and infer the causes. <p> If the measures are not useful for finding causes, state many possible causes with reference to the strategy and then say the measures cannot help find the relevant causes among them. Then find one or two perspectives to add measures to, before the perspective of the "currently useless" measures, and state they can be _leading indicators_ for the "currently useless" measures. Then give two or three possible measures and briefly elaborate on them. <!--SR:!2025-09-13,62,310!2026-05-05,246,330-->
   - balanced scorecard / adding measures ::@:: Answer the question separately for each perspective. Also say the current focus of the scoreboard \(e.g. people, processes, products\) and the missing focuses. <p> Infer what is important for the company from its strategy. If the measures should be added, state this, and then state how this measures is relevant to the strategy, perhaps using a chain of reasoning along the 4 perspectives in order. Add details if you can think of it \(no need to care if the details carry marks\). <!--SR:!2025-09-08,57,310!2025-09-03,58,310-->

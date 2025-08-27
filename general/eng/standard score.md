@@ -89,7 +89,7 @@ The z-score for student A is $z={x-\mu  \over \sigma }={1800-1500 \over 300}=1$
 
 The z-score for student B is $z={x-\mu  \over \sigma }={24-21 \over 5}=0.6$
 
-Because student A {@{has a higher z-score than student B}@}, student A {@{performed better compared to other test-takers than did student B}@}. <!--SR:!2025-12-23,252,330!2025-09-02,161,310-->
+Because student A {@{has a higher z-score than student B}@}, student A {@{performed better compared to other test-takers than did student B}@}. <!--SR:!2025-12-23,252,330!2027-07-27,693,330-->
 
 ### percentage of observations below a z-score
 

@@ -59,7 +59,7 @@ return await memorize_seq(
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-07-03T20:50:02.445266+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m <!--SR:!2027-05-27,800,330!2028-12-12,1270,358-->
-- (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→::@::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm <!--SR:!2025-09-02,200,238!2027-04-03,753,330-->
+- (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→::@::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm <!--SR:!2026-12-28,482,238!2027-04-03,753,330-->
 - [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm→::@::←[Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m <!--SR:!2026-07-24,461,250!2028-06-28,1058,306-->
 - [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→::@::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center) <!--SR:!2025-11-05,105,170!2026-01-22,348,250-->
 - [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)→::@::←[Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m <!--SR:!2027-09-24,761,278!2025-12-18,315,250-->
@@ -100,7 +100,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="d9fa"--><!-- The following content is generated at 2024-06-26T23:23:57.522058+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly) <!--SR:!2026-06-19,488,306!2025-09-02,334,346-->
+- _(begin)_→::@::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly) <!--SR:!2026-06-19,488,306!2030-01-08,1589,366-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly)→::@::←[Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field) <!--SR:!2025-10-04,359,346!2026-08-28,399,310-->
 - [Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field)→::@::←_(end)_ <!--SR:!2029-05-13,1388,358!2028-09-05,1150,330-->
 

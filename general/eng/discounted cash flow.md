@@ -27,7 +27,7 @@ tags:
 >
 > - {@{__Free Cash Flow Projections:__}@} {@{Projections of the amount of Cash produced by a company's business operations after paying for operating expenses and capital expenditures.<sup>[\[1\]](#^ref-1)</sup>}@}
 > - {@{__Discount Rate:__}@} {@{The cost of capital \(Debt and Equity\) for the business. This rate, which acts like an interest rate on future Cash inflows, is used to convert them into current dollar equivalents.}@}
-> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period \(typical for a DCF analysis is either a 5-year projection period or, occasionally, a 10-year projection period\).<sup>[\[1\]](#^ref-1)</sup>}@} <!--SR:!2025-10-12,177,310!2025-10-09,169,270!2027-06-19,661,330!2025-09-04,160,310!2025-09-02,159,310!2025-12-15,242,330!2025-11-27,116,387!2025-11-28,117,387!2025-11-29,118,387-->
+> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period \(typical for a DCF analysis is either a 5-year projection period or, occasionally, a 10-year projection period\).<sup>[\[1\]](#^ref-1)</sup>}@} <!--SR:!2025-10-12,177,310!2025-10-09,169,270!2027-06-19,661,330!2025-09-04,160,310!2027-01-13,498,310!2025-12-15,242,330!2025-11-27,116,387!2025-11-28,117,387!2025-11-29,118,387-->
 
 <!-- markdownlint MD028 -->
 

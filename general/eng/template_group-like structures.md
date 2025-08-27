@@ -57,7 +57,7 @@ tags:
 > - semigroup ::@:: total, associative <!--SR:!2026-03-21,269,250!2025-10-13,130,230-->
 > - commutative semigroup ::@:: total, associative, commutative <!--SR:!2026-02-20,251,250!2025-10-23,64,170-->
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-09-29,175,270!2025-11-20,161,210-->
-> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-09-02,73,250!2025-11-15,207,250-->
+> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2026-03-08,187,250!2025-11-15,207,250-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-11-22,176,270!2025-09-07,162,270-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2026-02-04,201,190-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2025-10-22,205,310!2025-09-10,176,310-->
