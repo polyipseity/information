@@ -110,7 +110,7 @@ The content is in teaching order.
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization
   - _R_ / website ::@:: <https://r-project.org/>
   - _R_ / components ::@:: _R_, _R_ console, RStudio
-  - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>`
+  - _R_ / help commands ::@:: `help.start()`: general help <br/> `help(<foo>)` <br/> `?<foo>`: help about `<foo>` <br/> `apropos("<foo>")`: list all functions containing the string `<foo>` <br/> `example(<foo>)`: show an example of the function `<foo>`
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data
   - descriptive statistics / methodologies
@@ -144,7 +144,7 @@ The content is in teaching order.
   - sample standard deviation ::@:: It is the square root of the sample variance: $$s = \sqrt{s^2} \,.$$ However, no matter if the sample variance is biased or unbiased, the resulting sample standard deviation is biased. This is because the square root is a concave function and introduces additional negative bias \(smaller than the corresponding population parameter\).
     - sample standard deviation / _R_ ::@:: use `sd(...)`
   - sample range ::@:: It is defined as $$\text{range} = \max\set{x_i} - \min\set{x_i}$$. It is useful for statistical quality control (e.g. finding unusual outliers caused by bad measurement).
-  - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1$$. It is also a measure of data dispersion. It can also eliminate problems with outliers.
+  - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1 \,.$$ It is also a measure of data dispersion. It can also eliminate problems with outliers.
     - inter-quartile range / _R_ ::@:: use `IQR(...)`, not `iqr`
   - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread).
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::@:: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_.
