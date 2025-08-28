@@ -651,7 +651,7 @@ The content is in teaching order.
   - computer network / key technologies ::@:: TCP/IP \(compatible with different hardware and software platforms\), client/server computing, connectivity, packet switching, etc.
 - [packet switching](../../../../general/packet%20switching.md) ::@:: It is a method of grouping data into short messages in fixed format, i.e. packets, that are transmitted over a digital network.
   - packet switching / packet ::@:: Packets consist of a header and a payload. Data in the header is used by networking hardware to direct the packet to its destination, where the payload is extracted and used by an operating system, application software, or higher layer protocols. <p> Header data may also contain data to check for transmission errors.
-  - packet switching / routing ::@:: A message may be broken up into multiple packets, and then are independently sent through different routes, and finally reassembled into the original message by the destination machine
+  - packet switching / routing ::@:: A message may be broken up into multiple packets, and then are independently sent through different routes, and finally reassembled into the original message by the destination machine.
 - computer network
   - computer network / types ::@:: "AN" stands for "area network"; nanoscale &lt; body \(BAN\) &lt; personal \(PAN\) &lt; local \(LAN\) &lt; campus/corporate \(CAN\) &lt; metropolitan \(MAN\) &lt; radio access \(RAN\) &lt; wide \(WAN\)
   - computer network / mediums ::@:: conducted: coaxial cables, twisted pair wires, etc.; uses electrical conduction <br/> radiated: fiber optic cables, etc.; uses light transmission <p> \(__this course__: The instructor thought but did _not_ insist that fiber optic should also be conducted.\)

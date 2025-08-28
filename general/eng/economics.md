@@ -33,7 +33,7 @@ There are {@{a variety of modern [definitions of economics](definitions%20of%20e
 
 [Alfred Marshall](Alfred%20Marshall.md) provided a still widely cited definition in his textbook _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_ (1890) that {@{extended analysis beyond [wealth](wealth.md#economic%20analysis%20of%20wealth%20accumulation) and from the [societal](society.md) to the [microeconomic](microeconomics.md) level}@}:
 
-> Economics is {@{a study of man in the ordinary business of life}@}. It enquires {@{how he gets his income and how he uses it}@}. Thus, it is on the one side, {@{the study of wealth and on the other and more important side, a part of the study of man}@}.<sup>[\[33\]](#^ref-33)</sup>
+> Economics is {@{a study of man in the ordinary business of life}@}. It enquires {@{how he gets his income and how he uses it}@}. Thus, it is on the one side, {@{the study of wealth}@} and on the other {@{and more important side, a part of the study of man}@}.<sup>[\[33\]](#^ref-33)</sup>
 
 [Lionel Robbins](Lionel%20Robbins.md) (1932) developed {@{implications of what has been termed "[p]erhaps the most commonly accepted current definition of the subject"}@}:<sup>[\[28\]](#^ref-28)</sup>
 

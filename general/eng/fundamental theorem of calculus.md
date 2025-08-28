@@ -26,7 +26,7 @@ The first part implies that when $f$ is [continuous](continuous%20function.md), 
 
 The conditions above can be relaxed. If $f$ is {@{[Lebesgue integrable](Lebesgue%20integration.md) on $[a, b]$, and [continuous](continuous%20function.md) at $x_0 \in (a, b)$}@}, then {@{$F$ is [differentiable](differentiable%20function.md) at $x_0$ and $F'(x_0) = f(x_0)$}@}. This is still valid for the more general {@{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md)}@}.
 
-Additionally, if {@{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md), then $F$ is [absolutely continuous](absolute%20continuity.md)}@}.
+Additionally, if {@{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md)}@}, then {@{$F$ is [absolutely continuous](absolute%20continuity.md)}@}.
 
 ### corollary
 

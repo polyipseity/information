@@ -229,7 +229,7 @@ One variation of the principle of complete induction can be {@{generalized for s
 
 Applied to {@{a well-founded set}@}, transfinite induction can be {@{formulated as a single step}@}. To prove that a statement _P_(_n_) holds for each ordinal number: <p> {@{Show, for each ordinal number _n_, that if _P_(_m_) holds for all _m_ < _n_, then _P_(_n_) also holds.}@}
 
-This form of induction, when {@{applied to a set of ordinal numbers (which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md))}@}, is called _[transfinite induction](transfinite%20induction.md)_. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}.
+This form of induction, when {@{applied to a set of ordinal numbers \(which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md)\)}@}, is called {@{_[transfinite induction](transfinite%20induction.md)_}@}. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}.
 
 Proofs by transfinite induction typically {@{distinguish three cases}@}:
 

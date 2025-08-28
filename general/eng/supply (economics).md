@@ -91,7 +91,7 @@ Note: not all assumptions that can be made for individual supply functions ::@::
 
 ## elasticity
 
-{@{The [price elasticity of supply](price%20elasticity%20of%20supply.md) \(PES\)}@} measures {@{the responsiveness of quantity supplied to changes in price, as the percentage change in quantity supplied induced by a one percent change in price}@}. It is calculated for {@{discrete changes as $\left({\tfrac {\Delta Q}{\Delta P} }\right)\times {\tfrac {P}{Q} }$}@} and for {@{smooth changes of differentiable supply functions as $\left({\tfrac {\partial Q}{\partial P} }\right)\times {\tfrac {P}{Q} }$}@}. Since {@{supply is usually increasing in price}@}, {@{the price elasticity of supply is usually positive}@}. For example, if {@{the PES for a good is 0.67}@} a 1% rise in price will {@{induce a two-thirds percentage increase in quantity supplied}@}.
+{@{The [price elasticity of supply](price%20elasticity%20of%20supply.md) \(PES\)}@} measures {@{the responsiveness of quantity supplied to changes in price}@}, as {@{the percentage change in quantity supplied induced by a one percent change in price}@}. It is calculated for {@{discrete changes as $\left({\tfrac {\Delta Q}{\Delta P} }\right)\times {\tfrac {P}{Q} }$}@} and for {@{smooth changes of differentiable supply functions as $\left({\tfrac {\partial Q}{\partial P} }\right)\times {\tfrac {P}{Q} }$}@}. Since {@{supply is usually increasing in price}@}, {@{the price elasticity of supply is usually positive}@}. For example, if {@{the PES for a good is 0.67}@} a 1% rise in price will {@{induce a two-thirds percentage increase in quantity supplied}@}.
 
 Significant determinants include:
 
