@@ -47,7 +47,7 @@ A company is normally subject to {@{a company tax on the net income of the compa
 
 {@{The issue of [bonus shares](bonus%20share.md), even if funded out of retained earnings}@}, will in {@{most jurisdictions}@} {@{not be treated as a dividend distribution and not taxed in the hands of the shareholder}@}. <!--SR:!2027-02-13,669,330!2027-05-10,732,330!2027-12-05,867,310-->
 
-Retaining earnings by a company {@{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}@}. This {@{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}@}. <!--SR:!2025-09-03,268,330!2025-09-03,219,270-->
+Retaining earnings by a company {@{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}@}. This {@{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}@}. <!--SR:!2029-01-04,1219,350!2027-12-15,833,290-->
 
 The decision of {@{whether a corporation should retain net income or have it paid out as dividends}@} depends on several factors including, but not limited to: <!--SR:!2028-08-17,1110,350-->
 

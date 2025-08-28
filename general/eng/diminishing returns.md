@@ -36,7 +36,7 @@ This idea can be {@{understood outside of economics theory, for example, populat
 
 > {@{![Graph of total, average, and marginal product.](../../archives/Wikimedia%20Commons/Diminishing%20Returns%20Graphs.svg)}@}
 >
-> Figure 2: {@{Output vs. Input \[top\] & Output per unit Input vs. Input \[bottom\]}@} Seen in \[top\], {@{the change in output by increasing input from L<sub>1</sub> to L<sub>2</sub>}@} is {@{equal to the change from L<sub>2</sub> to L<sub>3</sub>}@}. Seen in \[bottom\], until {@{an input of L<sub>1</sub>, the output per unit is increasing}@}. After {@{L<sub>1</sub>, the output per unit decreases to zero at L<sub>3</sub>}@}. Together, these {@{demonstrate diminishing returns from L<sub>1</sub>}@}. <!--SR:!2025-09-03,164,310!2026-02-04,287,330!2026-02-12,294,330!2026-01-30,283,330!2026-01-20,276,330!2025-09-05,165,310!2027-06-26,671,330-->
+> Figure 2: {@{Output vs. Input \[top\] & Output per unit Input vs. Input \[bottom\]}@} Seen in \[top\], {@{the change in output by increasing input from L<sub>1</sub> to L<sub>2</sub>}@} is {@{equal to the change from L<sub>2</sub> to L<sub>3</sub>}@}. Seen in \[bottom\], until {@{an input of L<sub>1</sub>, the output per unit is increasing}@}. After {@{L<sub>1</sub>, the output per unit decreases to zero at L<sub>3</sub>}@}. Together, these {@{demonstrate diminishing returns from L<sub>1</sub>}@}. <!--SR:!2027-08-12,708,330!2026-02-04,287,330!2026-02-12,294,330!2026-01-30,283,330!2026-01-20,276,330!2025-09-05,165,310!2027-06-26,671,330-->
 
 ## history
 

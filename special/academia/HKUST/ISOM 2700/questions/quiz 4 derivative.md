@@ -22,7 +22,7 @@ tags:
 > ---
 >
 > - solution: {@{\$618}@}
-> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 0)} = 0.7 \implies z^* \approx 0.53 \,.$$ Optimal quantity: $$Q^* = 100 + 0.53 \cdot 25 = 113.25 \approx 114 \,.$$ Expected sales: $$\text{expected sales} = 114 - I(0.53) \cdot 25 = 114 - 0.7187 \cdot 25 = 96.0325 \approx 96 \,.$$ Expected profit: $$\operatorname E[P] = 96 \cdot 10 - 114 \cdot 3 = \$618 \,.$$}@} <!--SR:!2025-09-03,58,310!2025-09-10,59,310-->
+> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 0)} = 0.7 \implies z^* \approx 0.53 \,.$$ Optimal quantity: $$Q^* = 100 + 0.53 \cdot 25 = 113.25 \approx 114 \,.$$ Expected sales: $$\text{expected sales} = 114 - I(0.53) \cdot 25 = 114 - 0.7187 \cdot 25 = 96.0325 \approx 96 \,.$$ Expected profit: $$\operatorname E[P] = 96 \cdot 10 - 114 \cdot 3 = \$618 \,.$$}@} <!--SR:!2026-05-15,254,330!2025-09-10,59,310-->
 
 ---
 

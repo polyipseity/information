@@ -1570,7 +1570,7 @@ tags:
 >      = & P(E|X_1 = A)P(X_1=A) + P(E|X_1 = B)P(X_1=B) + P(E|X_1 = C)P(X_1=C) \,.
 >    \end{align*}$$ This formula was taught in the topic "Naive Bayes Classifier".
 >
-> - solution: {@{$$\begin{aligned} M^2_{s,t} & = \sum_{m = 0}^2 M_{s, m} M_{m, t} \\ & = \sum_{m = 0}^2 P(X_1 = m \mid X_0 = s) P(X_2 = t \mid X_1 = m) \\ & = P(X_2 = t \mid X_0 = s) \end{aligned}$$}@} <!--SR:!2025-09-03,180,310-->
+> - solution: {@{$$\begin{aligned} M^2_{s,t} & = \sum_{m = 0}^2 M_{s, m} M_{m, t} \\ & = \sum_{m = 0}^2 P(X_1 = m \mid X_0 = s) P(X_2 = t \mid X_1 = m) \\ & = P(X_2 = t \mid X_0 = s) \end{aligned}$$}@} <!--SR:!2027-10-21,778,330-->
 
 <!-- markdownlint MD028 -->
 

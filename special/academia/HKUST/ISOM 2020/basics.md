@@ -83,7 +83,7 @@ return _chain.from_iterable(await _gather(
 - `/`:@:division <!--SR:!2029-01-10,1247,362-->
 - `//`:@:floor division <!--SR:!2025-10-21,320,342-->
 - `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2029-02-28,1285,362-->
-- `+`:@:addition <!--SR:!2025-09-03,282,342-->
+- `+`:@:addition <!--SR:!2029-04-22,1327,362-->
 - `-`:@:subtraction <!--SR:!2025-10-22,321,342-->
 
 <!--/pytextgen-->
@@ -143,7 +143,7 @@ return _chain.from_iterable(await _gather(
 - `in`→::@::←`<` <!--SR:!2025-11-03,328,369!2025-11-21,331,369-->
 - `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
 - `<=`→::@::←`>` <!--SR:!2025-09-28,295,369!2025-09-27,298,369-->
-- `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2026-06-19,510,389-->
+- `>`→::@::←`>=` <!--SR:!2029-06-22,1388,389!2026-06-19,510,389-->
 - `>=`→::@::←`!=` <!--SR:!2029-04-23,1339,389!2026-03-19,409,329-->
 - `!=`→::@::←`==` <!--SR:!2025-10-05,304,369!2026-05-21,485,389-->
 - `==`→::@::←_(end)_ <!--SR:!2028-10-19,1185,389!2025-12-19,354,369-->
@@ -233,9 +233,9 @@ In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`T
 
 ## string
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2028-03-09,992,350!2025-12-01,353,342!2029-01-30,1260,362!2028-12-02,1215,362!2025-09-03,282,342!2028-01-01,924,342!2026-12-22,635,330-->
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2028-03-09,992,350!2025-12-01,353,342!2029-01-30,1260,362!2028-12-02,1215,362!2029-04-21,1326,362!2028-01-01,924,342!2026-12-22,635,330-->
 
-`\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2026-01-05,356,363!2025-11-04,322,363!2025-09-03,279,363-->
+`\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2026-01-05,356,363!2025-11-04,322,363!2029-06-23,1389,383-->
 
 To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2026-05-20,484,389!2025-11-05,319,369!2026-06-20,511,389!2026-06-16,507,389!2026-08-11,554,406!2026-05-22,486,406-->
 

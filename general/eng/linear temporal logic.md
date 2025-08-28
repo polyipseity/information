@@ -168,7 +168,7 @@ __specification language__
 
 ## extensions
 
-{@{Parametric linear temporal logic}@} extends LTL with {@{variables on the until-modality}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-28,377,363!2025-09-03,193,317-->
+{@{Parametric linear temporal logic}@} extends LTL with {@{variables on the until-modality}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-03-28,377,363!2027-12-28,846,337-->
 
 ## see also
 

@@ -23,7 +23,7 @@ A __proof by induction__ consists of {@{two cases}@}. The first, {@{the __base c
 
 The method can be extended to {@{prove statements about more general [well-founded](well-founded%20relation.md) structures, such as [trees](tree%20(set%20theory).md)}@}; this generalization, known as {@{[structural induction](structural%20induction.md), is used in [mathematical logic](mathematical%20logic.md) and [computer science](computer%20science.md)}@}. Mathematical induction in this extended sense is closely related to {@{[recursion](recursion.md)}@}. Mathematical induction is {@{an [inference rule](rule%20of%20inference.md) used in [formal proofs](formal%20proof.md)}@}, and is the foundation of {@{most [correctness](correctness%20(computer%20science).md) proofs for computer programs}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2027-03-01,663,330!2028-09-25,1122,350!2028-10-18,1142,350!2025-09-05,253,330!2028-09-21,1120,350-->
 
-Despite its name, mathematical induction differs fundamentally from {@{[inductive reasoning](inductive%20reasoning.md) as [used in philosophy](problem%20of%20induction.md), in which the examination of many cases results in a probable conclusion}@}. The mathematical method {@{examines infinitely many cases to prove a general statement, but it does so by a finite chain of [deductive reasoning](deductive%20reasoning.md) involving the [variable](variable%20(mathematics).md) $n$, which can take infinitely many values}@}. The result is {@{a rigorous proof of the statement, not an assertion of its probability}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-09-07,255,330!2027-12-03,824,330!2025-09-03,251,330-->
+Despite its name, mathematical induction differs fundamentally from {@{[inductive reasoning](inductive%20reasoning.md) as [used in philosophy](problem%20of%20induction.md), in which the examination of many cases results in a probable conclusion}@}. The mathematical method {@{examines infinitely many cases to prove a general statement, but it does so by a finite chain of [deductive reasoning](deductive%20reasoning.md) involving the [variable](variable%20(mathematics).md) $n$, which can take infinitely many values}@}. The result is {@{a rigorous proof of the statement, not an assertion of its probability}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-09-07,255,330!2027-12-03,824,330!2028-10-25,1148,350-->
 
 ## history
 
@@ -48,7 +48,7 @@ The simplest and most common form of mathematical induction infers that {@{a sta
 1. The __base case__ (or __initial case__) ::@:: prove that the statement holds for 0, or 1. <!--SR:!2025-09-06,254,330!2025-09-14,260,330-->
 2. The __induction step__ (or __inductive step__, or __step case__) ::@:: prove that for every _n_, if the statement holds for _n_, then it holds for _n_ + 1. In other words, assume that the statement holds for some arbitrary natural number _n_, and prove that the statement holds for _n_ + 1. <!--SR:!2027-11-23,816,330!2025-09-10,256,330-->
 
-{@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2025-09-09,255,330!2025-09-13,259,330!2025-09-03,251,330-->
+{@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2025-09-09,255,330!2025-09-13,259,330!2028-10-21,1144,350-->
 
 Authors who prefer to define natural numbers to begin at 0 use that value in the base case; those who define natural numbers to begin at 1 use that value.
 
@@ -138,9 +138,9 @@ If one wishes to prove that {@{a property _P_ holds for all natural numbers less
 
 ### prefix induction
 
-The most common form of proof by mathematical induction requires {@{proving in the induction step that $$\forall k\,(P(k)\to P(k+1)).$$}@} <!--SR:!2025-09-03,251,330-->
+The most common form of proof by mathematical induction requires {@{proving in the induction step that $$\forall k\,(P(k)\to P(k+1)).$$}@} <!--SR:!2028-10-22,1145,350-->
 
-whereupon the induction principle {@{"automates" _n_ applications of this step in getting from _P_(0) to _P_(_n_)}@}. This could be called {@{"predecessor induction"}@} because {@{each step proves something about a number from something about that number's predecessor}@}. <!--SR:!2025-09-03,251,330!2025-09-11,257,330!2027-03-04,666,330-->
+whereupon the induction principle {@{"automates" _n_ applications of this step in getting from _P_(0) to _P_(_n_)}@}. This could be called {@{"predecessor induction"}@} because {@{each step proves something about a number from something about that number's predecessor}@}. <!--SR:!2028-10-24,1147,350!2025-09-11,257,330!2027-03-04,666,330-->
 
 A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2028-09-06,1106,350!2028-10-01,1128,350!2027-02-25,660,330-->
 
@@ -154,7 +154,7 @@ One can take the idea a step further: {@{one must prove $$\forall k\,\left(P\!\l
 
 ### complete (strong) induction
 
-Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__ (in contrast to which the basic form of induction is sometimes known as __weak induction__)}@}, makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$; by contrast, the basic form only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction", but merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2025-09-03,251,330!2028-09-19,1117,350!2026-03-27,393,310-->
+Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__ (in contrast to which the basic form of induction is sometimes known as __weak induction__)}@}, makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$; by contrast, the basic form only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction", but merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2028-10-23,1146,350!2028-09-19,1117,350!2026-03-27,393,310-->
 
 In fact, it can be shown that {@{the two methods are actually equivalent, as explained below}@}. In this form of complete induction, one still has to {@{prove the base case, $P(0)$, and it may even be necessary to prove extra-base cases such as $P(1)$ before the general argument applies}@}, as {@{in the example below of the [Fibonacci number](Fibonacci%20sequence.md) $F_{n}$}@}. <!--SR:!2025-09-11,257,330!2025-09-05,253,330!2028-10-08,1134,350-->
 
@@ -162,9 +162,9 @@ Although {@{the form just described requires one to prove the base case}@}, this
 
 #### equivalence with ordinary induction
 
-Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2025-09-03,251,330!2025-09-08,254,330!2025-09-12,258,330!2025-09-04,252,330!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
+Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2025-09-08,254,330!2025-09-12,258,330!2025-09-04,252,330!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
 
-If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2025-09-10,256,330!2025-09-03,251,330!2025-09-06,254,330!2028-10-04,1130,350-->
+If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2025-09-10,256,330!2028-10-18,1141,350!2025-09-06,254,330!2028-10-04,1130,350-->
 
 #### example: Fibonacci numbers
 
@@ -229,7 +229,7 @@ One variation of the principle of complete induction can be {@{generalized for s
 
 Applied to {@{a well-founded set}@}, transfinite induction can be {@{formulated as a single step}@}. To prove that a statement _P_(_n_) holds for each ordinal number: <p> {@{Show, for each ordinal number _n_, that if _P_(_m_) holds for all _m_ < _n_, then _P_(_n_) also holds.}@} <!--SR:!2025-09-05,253,330!2025-09-07,255,330!2027-07-27,765,330-->
 
-This form of induction, when {@{applied to a set of ordinal numbers (which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md))}@}, is called _[transfinite induction](transfinite%20induction.md)_. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}. <!--SR:!2027-08-01,779,330!2025-09-03,251,330-->
+This form of induction, when {@{applied to a set of ordinal numbers (which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md))}@}, is called _[transfinite induction](transfinite%20induction.md)_. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}. <!--SR:!2027-08-01,779,330!2028-10-26,1149,350-->
 
 Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:!2025-09-05,253,330-->
 
@@ -244,9 +244,9 @@ Strictly speaking, it is {@{not necessary in transfinite induction to prove a ba
 The principle of mathematical induction is usually stated as {@{an [axiom](axiom.md) of the natural numbers; see [Peano axioms](Peano%20axioms.md)}@}. It is strictly stronger than {@{the [well-ordering principle](well-ordering%20principle.md) in the context of the other Peano axioms}@}. Suppose the following: <!--SR:!2027-08-21,796,330!2028-09-08,1108,350-->
 
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2028-10-20,1144,350!2028-08-31,1100,350-->
-- For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2025-09-03,251,330!2025-09-08,254,330-->
+- For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2028-10-25,1148,350!2025-09-08,254,330-->
 - For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2025-09-16,262,330-->
-- No natural number is ::@:: less than zero. <!--SR:!2025-09-04,252,330!2025-09-03,251,330-->
+- No natural number is ::@:: less than zero. <!--SR:!2025-09-04,252,330!2028-10-19,1142,350-->
 
 It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}. <!--SR:!2027-02-21,656,330!2028-10-20,1145,350-->
 
@@ -256,7 +256,7 @@ On the other hand, the set {@{$\{(0,n):n\in \mathbb {N} \}\cup \{(1,n):n\in \mat
 
 Peano's axioms with the induction principle {@{uniquely model the natural numbers}@}. Replacing the induction principle with the well-ordering principle {@{allows for more exotic models that fulfill all the axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2025-09-06,254,330!2025-09-16,262,330-->
 
-It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2025-09-03,251,330!2025-09-05,253,330!2025-09-12,258,330!2025-09-04,252,330!2027-12-09,829,330-->
+It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2028-10-26,1149,350!2025-09-05,253,330!2025-09-12,258,330!2025-09-04,252,330!2027-12-09,829,330-->
 
 A common mistake in many erroneous proofs is {@{to assume that _n_ − 1 is a unique and well-defined natural number}@}, a property which is {@{not implied by the other Peano axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2028-10-05,1131,350!2028-10-06,1132,350-->
 

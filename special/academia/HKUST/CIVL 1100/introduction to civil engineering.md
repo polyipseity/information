@@ -1051,7 +1051,7 @@ Hong Kong Code
 
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
+- _(begin)_→::@::←American Code <!--SR:!2025-09-20,383,380!2031-08-12,2169,414-->
 - American Code→::@::←Australian Standard <!--SR:!2027-07-26,941,375!2025-12-14,487,395-->
 - Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2028-04-01,1140,377-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2028-08-16,1235,377-->

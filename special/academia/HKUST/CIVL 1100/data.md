@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2026-04-28,565,396-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-10-22,198,216!2025-09-03,252,376-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-10-22,198,216!2028-04-08,948,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -171,7 +171,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type <!-- flashcard ID: 981d3cc6-47b4-4aad-8a99-bdeea2975b92 -->::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md) <!--SR:!2029-04-17,1461,394!2025-09-03,402,394-->
+- bridge type <!-- flashcard ID: 981d3cc6-47b4-4aad-8a99-bdeea2975b92 -->::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md) <!--SR:!2029-04-17,1461,394!2031-08-04,2161,414-->
 - description ::@:: fixed link consisting of tunnels and multiple bridges <!--SR:!2030-10-13,1879,395!2027-07-29,952,350-->
 - image ::@:: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2026-03-14,550,400!2025-11-13,451,400-->
 - length: 55 km
@@ -182,7 +182,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::@:: concrete gravity-arch <!--SR:!2029-02-10,1321,340!2025-12-26,497,395-->
 - height ::@:: 221.4 m <!--SR:!2027-07-12,747,281!2027-08-25,909,367-->
-- image ::@:: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2031-01-19,1971,400!2025-09-03,368,380-->
+- image ::@:: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2031-01-19,1971,400!2030-12-06,1920,400-->
 - length ::@:: 379 m <!--SR:!2026-09-14,387,201!2027-07-01,870,370-->
 
 ## International Commerce Centre

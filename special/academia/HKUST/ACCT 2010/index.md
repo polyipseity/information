@@ -357,7 +357,7 @@ The content is in teaching order.
   - cost principle / exclusions ::@:: Costs do not include cash discounts or finance charges. <!--SR:!2025-11-02,240,363!2026-09-08,517,403-->
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX)
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually <!--SR:!2025-09-11,213,363!2026-04-07,384,383-->
-  - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2026-08-03,486,396!2025-09-03,208,363-->
+  - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2026-08-03,486,396!2027-10-01,758,363-->
 - [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system. <!--SR:!2025-09-07,210,363!2026-08-22,502,403-->
   - revenue expenditure / characteristics ::@:: does not extend useful life beyond original estimate <br/> does not increase efficiency <br/> maintains normal operating conditions <br/> recurring in nature and involves small amounts of money at each occurrence <!--SR:!2025-10-24,232,363!2025-09-04,208,363-->
   - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Deprecation expense is lower later. <!--SR:!2026-10-03,537,403!2026-02-18,346,383-->

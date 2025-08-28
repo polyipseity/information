@@ -40,7 +40,7 @@ The content is in teaching order.
 - course logistics
 - SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2028-03-05,927,310!2028-09-19,1133,350-->
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2028-08-05,1098,350!2028-10-03,1142,350-->
-  - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2025-09-03,267,330!2028-02-06,958,350-->
+  - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2028-12-30,1214,350!2028-02-06,958,350-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2028-09-24,1138,350-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2027-09-03,824,330!2027-02-11,663,330-->
 - [name tag](../../../name%20tag.md)
@@ -177,7 +177,7 @@ The content is in teaching order.
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2028-08-22,1111,350-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2028-09-03,1119,350!2025-10-24,303,330-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2027-10-18,854,330!2028-01-18,939,350-->
-  - STAR-r / action ::@:: explain what you did <!--SR:!2028-11-15,1181,350!2025-09-03,266,330-->
+  - STAR-r / action ::@:: explain what you did <!--SR:!2028-11-15,1181,350!2028-12-26,1210,350-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2028-09-08,1126,350!2025-10-21,300,330-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2028-08-17,1106,350!2028-09-10,1126,350-->
 

@@ -57,7 +57,7 @@ In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` 
 
 There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2028-01-26,915,330!2025-10-15,295,330-->
 
-- `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2025-09-03,267,330!2028-06-28,1069,350-->
+- `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2029-01-01,1216,350!2028-06-28,1069,350-->
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2025-10-06,293,330!2027-09-26,832,330-->
 - `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2025-10-06,286,330!2028-10-09,1147,350-->
 - `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2025-09-04,268,330!2028-03-08,923,310-->

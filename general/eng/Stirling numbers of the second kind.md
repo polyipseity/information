@@ -79,7 +79,7 @@ and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note tha
 
 ### identities
 
-{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-12-02,306,330!2025-09-03,218,310-->
+{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-12-02,306,330!2028-03-26,935,330-->
 
 - increment by binomial coefficient ::@:: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{n \choose j}\left\{ {j \atop k}\right\}$$ (annotation: Choose _n_ - _j_ elements from _n_ + 1 elements to form a maybe empty partition. Add the 1 element to ensure it is nonempty. Partition the remaining _j_ elements into _k_ partitions.) <!--SR:!2025-12-05,256,270!2025-09-05,219,310-->
 - increment by combinatorial argument ::@:: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$ \(annotation: Each summation term finds the number given that the $j + 1$-th element is _not_ in a partition with any element before it _and_ elements after the $j + 1$-th are in a partition with any element before it. The uniqueness is easily seen. The completeness is seen by considering the maximum of the minimums of the partitions.\) <!--SR:!2026-06-03,285,250!2025-12-16,263,270-->
@@ -145,7 +145,7 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### rhyming schemes
 
-{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2025-12-01,305,330!2025-09-03,217,310!2025-12-06,310,330!2025-09-13,227,310!2025-12-12,316,330!2025-11-29,304,330-->
+{@{The Stirling numbers of the second kind}@} can represent {@{the total number of [rhyme schemes](rhyme%20scheme.md) for a poem of _n_ lines}@}. {@{$S(n,k)$}@} gives {@{the number of possible rhyming schemes for _n_ lines using _k_ unique rhyming syllables}@}. As an example, for {@{a poem of 3 lines}@}, there is {@{1 rhyme scheme using just one rhyme (aaa), 3 rhyme schemes using two rhymes (aab, aba, abb), and 1 rhyme scheme using three rhymes (abc)}@}. <!--SR:!2025-12-01,305,330!2028-03-22,931,330!2025-12-06,310,330!2025-09-13,227,310!2025-12-12,316,330!2025-11-29,304,330-->
 
 ## variants
 

@@ -83,7 +83,7 @@ For example, $$\begin{aligned} {\frac {\textrm {d} }{ {\textrm {d} }x} }e^{\frac
 
 ## link to Laguerre polynomials
 
-{@{Generalized [Laguerre polynomials](Laguerre%20polynomials.md) $L_{n}^{(\alpha )}(x)$}@} are {@{linked to Lah numbers upon setting $\alpha =-1$}@} {@{$$n!L_{n}^{(-1)}(x)=\sum_{k=0}^{n}L(n,k)(-x)^{k}$$}@} This formula is {@{the default [Laguerre polynomial](Laguerre%20polynomials.md) in [umbral calculus](umbral%20calculus.md) convention}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-07-18,462,310!2025-09-03,198,270!2025-11-26,85,190!2025-09-04,220,310-->
+{@{Generalized [Laguerre polynomials](Laguerre%20polynomials.md) $L_{n}^{(\alpha )}(x)$}@} are {@{linked to Lah numbers upon setting $\alpha =-1$}@} {@{$$n!L_{n}^{(-1)}(x)=\sum_{k=0}^{n}L(n,k)(-x)^{k}$$}@} This formula is {@{the default [Laguerre polynomial](Laguerre%20polynomials.md) in [umbral calculus](umbral%20calculus.md) convention}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-07-18,462,310!2027-09-18,745,290!2025-11-26,85,190!2025-09-04,220,310-->
 
 ## practical application
 

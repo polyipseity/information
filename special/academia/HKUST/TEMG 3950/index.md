@@ -229,7 +229,7 @@ The content is in teaching order.
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2028-09-29,1248,381!2025-10-01,385,381-->
-- cause mapping extensions ::@:: facts table, solutions table <!--SR:!2025-09-03,361,381!2029-12-02,1578,381-->
+- cause mapping extensions ::@:: facts table, solutions table <!--SR:!2030-10-28,1881,401!2029-12-02,1578,381-->
   - facts table ::@:: what, when, where, impact <!--SR:!2025-11-13,420,381!2027-05-16,828,361-->
   - solutions table ::@:: no., cause, solution <br/> optional: time, persons responsible, budget <!--SR:!2026-11-22,638,341!2028-10-13,1159,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2030-02-10,1633,381!2026-02-04,484,381-->

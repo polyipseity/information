@@ -189,7 +189,7 @@ Functors are often {@{defined by [universal properties](universal%20property.md)
 
 - Main article: [Functor \(functional programming\)](functor%20(functional%20programming).md)
 
-Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-03-22,346,357!2026-02-22,321,346!2026-01-22,294,330!2025-09-03,167,317!2026-04-02,355,357-->
+Functors sometimes {@{appear in [functional programming](functional%20programming.md)}@}. For instance, {@{the programming language [Haskell](Haskell%20(programming%20language).md)}@} has {@{a [class](type%20class.md) `Functor`}@} where {@{[`fmap`](map%20(higher-order%20function).md#generalization) is a [polytypic function](polytypic%20function.md#polytypism)}@} used to {@{map [functions](function%20(computer%20programming).md) \(_morphisms_ on _Hask_, the category of Haskell types\)<sup>[\[10\]](#^ref-10)</sup> between existing types to functions between some new types}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2026-03-22,346,357!2026-02-22,321,346!2026-01-22,294,330!2027-09-05,732,337!2026-04-02,355,357-->
 
 ## see also
 

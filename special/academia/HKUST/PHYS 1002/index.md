@@ -257,7 +257,7 @@ The content is in teaching order. Extra information and corrections are included
 - [scale of the universe @ HKUST](scale%20of%20the%20universe%20@%20HKUST.md) / [Moon](../../../../general/Moon.md)
 - [Moon](../../../../general/Moon.md)
   - [§ orbit](../../../../general/Moon.md#orbit)
-  - [Moon](../../../../general/Moon.md) / [average orbital distance](../../../../general/lunar%20distance.md) ::@:: 384&nbsp;400 km, about 30 times the diameter of Earth <!--SR:!2025-09-03,191,317!2029-08-30,1472,375-->
+  - [Moon](../../../../general/Moon.md) / [average orbital distance](../../../../general/lunar%20distance.md) ::@:: 384&nbsp;400 km, about 30 times the diameter of Earth <!--SR:!2027-12-19,837,337!2029-08-30,1472,375-->
   - [Moon](../../../../general/Moon.md) / orbital direction ::@:: counterclockwise viewed from north; prograde to Earth's rotation direction <!--SR:!2026-01-23,454,379!2025-12-01,408,379-->
   - [Moon](../../../../general/Moon.md) / rotation direction ::@:: counterclockwise viewed from north; prograde to its own rotation direction, prograde to Earth's rotation direction <!--SR:!2026-03-05,490,379!2028-03-28,1080,379-->
   - [Moon](../../../../general/Moon.md) / synodic [orbital period](../../../../general/orbital%20period.md) (with respect to [Sun](../../../../general/Sun.md)) ::@:: about 29.5 days <!--SR:!2027-05-30,816,359!2025-09-24,331,359-->

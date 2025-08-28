@@ -62,7 +62,7 @@ Common determinants of supply are:
 Mathematically, a demand curve is {@{represented by a demand function, giving the quantity demanded as a function of its price and as many other variables as desired to better explain quantity demanded}@}. The two most common specifications are <!--SR:!2027-07-02,735,330-->
 
 1. linear demand, ::@:: e.g., the slanted line $$Q(P)=32-2P \,,$$ and <!--SR:!2025-10-04,254,330!2027-07-22,741,330-->
-2. the constant-[elasticity](elasticity%20(economics).md) demand function (also called [isoelastic](isoelastic%20function.md) or log-log or loglinear demand function), ::@:: e.g., the smooth curve $$Q(P)=3P^{-2}$$ which can be rewritten as $$\log Q(P)=\log 3-2\log P \,.$$ <!--SR:!2027-07-04,738,330!2025-09-03,227,330-->
+2. the constant-[elasticity](elasticity%20(economics).md) demand function (also called [isoelastic](isoelastic%20function.md) or log-log or loglinear demand function), ::@:: e.g., the smooth curve $$Q(P)=3P^{-2}$$ which can be rewritten as $$\log Q(P)=\log 3-2\log P \,.$$ <!--SR:!2027-07-04,738,330!2028-07-02,1033,350-->
 
 As {@{a matter of historical convention}@}, a demand curve is {@{drawn with price on the vertical _y_-axis and demand on the horizontal _x_-axis}@}. In {@{keeping with modern convention}@}, a demand curve would instead be {@{drawn with price on the _x_-axis and demand on the _y_-axis}@}, because {@{price is the independent variable and demand is the variable that is dependent upon price}@}. <!--SR:!2025-10-21,266,330!2027-10-30,818,330!2025-11-07,280,330!2025-09-18,241,330!2025-11-17,289,330-->
 
