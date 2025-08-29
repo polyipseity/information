@@ -49,7 +49,7 @@ There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4
 2. there must be a lack of ::@:: close [substitute goods](substitute%20good.md), and <!--SR:!2025-10-16,254,330!2025-10-06,246,330-->
 3. the goods must constitute ::@:: a substantial percentage of the buyer's income, but not such a substantial percentage of the buyer's income that none of the associated [normal goods](normal%20good.md) are consumed. <!--SR:!2025-11-08,256,329!2025-11-27,286,330-->
 
-If {@{precondition \#1 \(annotation: must be an inferior good\)}@} is {@{changed to "The goods in question must be so inferior that the income effect is greater than the substitution effect"}@} then {@{this list defines necessary and sufficient conditions}@}. {@{The last condition \(annotation: just the right percentage of the buyer's income\)}@} is {@{a condition on the buyer rather than the goods itself}@}, and thus {@{the phenomenon is also called a "Giffen behavior"}@}. <!--SR:!2027-05-21,626,310!2026-02-04,345,349!2027-10-27,818,330!2025-11-30,289,330!2025-10-22,257,330-->
+If {@{precondition \#1 \(annotation: must be an inferior good\)}@} is {@{changed to "The goods in question must be so inferior that the income effect is greater than the substitution effect"}@} then {@{this list defines necessary and sufficient conditions}@}. {@{The last condition \(annotation: just the right percentage of the buyer's income\)}@} is {@{a condition on the buyer rather than the goods itself}@}, and thus {@{the phenomenon is also called a "Giffen behavior"}@}. <!--SR:!2027-05-21,626,310!2026-02-04,345,349!2027-10-27,818,330!2025-11-30,289,330!2025-10-22,257,330!2025-09-03,5,349-->
 
 ## examples
 

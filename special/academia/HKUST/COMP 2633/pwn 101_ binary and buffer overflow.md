@@ -12,11 +12,11 @@ tags:
 
 # pwn 101: binary and buffer overflow
 
-{@{__Pwn__, in a general context}@}, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In {@{CTFs}@}, it is {@{one of the major categories and usually refers to __binary exploitation__}@}. <!--SR:!2027-07-23,788,330!2026-12-24,625,330-->
+{@{__Pwn__, in a general context}@}, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In {@{CTFs}@}, it is {@{one of the major categories and usually refers to __binary exploitation__}@}. <!--SR:!2027-07-23,788,330!2026-12-24,625,330!2025-09-03,5,355!2025-09-03,5,355-->
 
-{@{__Binary exploitation__}@} is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To {@{find vulnerabilities without its source}@}, we need to {@{reverse the binary}@}, {@{the basics of which}@} are {@{taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md)}@}, so it is recommended that {@{reverse is first learnt}@}. <!--SR:!2025-09-14,275,330!2027-12-23,854,330-->
+{@{__Binary exploitation__}@} is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To {@{find vulnerabilities without its source}@}, we need to {@{reverse the binary}@}, {@{the basics of which}@} are {@{taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md)}@}, so it is recommended that {@{reverse is first learnt}@}. <!--SR:!2025-09-14,275,330!2027-12-23,854,330!2025-09-03,5,355!2025-09-03,5,355!2025-09-03,5,355!2025-09-03,5,355!2025-09-03,5,355-->
 
-{@{A quick recap of types of tools used for reverse}@}: {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2028-06-13,1057,350-->
+{@{A quick recap of types of tools used for reverse}@}: {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2028-06-13,1057,350!2025-09-03,5,355-->
 
 ## memory model
 

@@ -17,7 +17,7 @@ The __cosmic distance ladder__ (also known as {@{the __extragalactic distance sc
 
 ## direct measurement
 
-At the base of the ladder are {@{_fundamental_ distance measurements}@}, in which distances are {@{determined directly, with no physical assumptions about the nature of the object in question}@}. The precise measurement of stellar positions is part of {@{the discipline of [astrometry](astrometry.md)}@}. Early fundamental distances—such as {@{the radii of the earth, moon and sun, and the distances between them}@}—were {@{well estimated with very low technology by the ancient Greeks}@}. <!--SR:!2028-05-30,1000,330!2029-02-11,1287,350!2027-07-26,818,330!2027-08-31,851,330-->
+At the base of the ladder are {@{_fundamental_ distance measurements}@}, in which distances are {@{determined directly, with no physical assumptions about the nature of the object in question}@}. The precise measurement of stellar positions is part of {@{the discipline of [astrometry](astrometry.md)}@}. Early fundamental distances—such as {@{the radii of the earth, moon and sun, and the distances between them}@}—were {@{well estimated with very low technology by the ancient Greeks}@}. <!--SR:!2028-05-30,1000,330!2029-02-11,1287,350!2027-07-26,818,330!2027-08-31,851,330!2025-09-02,4,346-->
 
 ### astronomical unit
 
