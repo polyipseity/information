@@ -19,7 +19,7 @@ tags:
 
 The inverse discrete Fourier transform (IDFT) is {@{the inverse of DFT (duh)}@}. It {@{recovers the the original signal of length $N$ given a sequence of length $N$ transformed by DFT}@}. It is defined by: {@{$$x[n] := \frac 1 N \sum_{k = 0}^{N - 1} X[k] \cdot e^{j 2\pi (k / N) n} = \frac 1 N \sum_{k = 0}^{N - 1} X[k] \left(\cos(2 \pi (k / N) n) + j \sin(2 \pi (k / N) n) \right)$$}@}. One can see the formula is {@{almost the same as DFT}@}, except that {@{a factor of $1 / N$ is added, the input and output sequences are swapped, and the sign of the exponent is negated}@}. <!--SR:!2029-02-18,1288,350!2026-09-21,583,330!2027-09-23,802,290!2025-09-05,303,330!2029-04-06,1325,350-->
 
-The above formulas are {@{the most conventional way of writing them}@}. The only requirements for the formula of DFT and IDFT are that {@{the sign of the exponent is opposite (convention: $-$ for DFT, $+$ for IDFT) and the product of the two multiplication factors is $1 / N$ (convention: $1$ for DFT, $1 / N$ for IDFT)}@}. <!--SR:!2027-07-01,784,330!2025-09-04,302,330-->
+The above formulas are {@{the most conventional way of writing them}@}. The only requirements for the formula of DFT and IDFT are that {@{the sign of the exponent is opposite (convention: $-$ for DFT, $+$ for IDFT) and the product of the two multiplication factors is $1 / N$ (convention: $1$ for DFT, $1 / N$ for IDFT)}@}. <!--SR:!2027-07-01,784,330!2029-06-12,1377,350-->
 
 ## properties
 

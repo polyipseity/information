@@ -73,7 +73,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2027-05-12,648,325!2026-03-01,338,345-->
 2. The nimber square of a Fermat 2-power _x_ \(annotation: numbers of the form 2<sup>2<sup>_n_</sup></sup>\) ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-11-12,176,245!2027-01-15,516,313-->
 
-{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-15,327,345!2025-09-04,179,310!2025-10-20,197,270-->
+{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-15,327,345!2027-10-14,770,330!2025-10-20,197,270-->
 
 > [!tip] tips
 >

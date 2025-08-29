@@ -36,7 +36,7 @@ On such assumptions, each increase would be {@{put to the specific, feasible, pr
 
 - see: [marginal utility](marginal%20utility.md)
 
-{@{The marginal utility of a good or service}@} is {@{the utility of its [marginal use](marginal%20use.md)}@}. Under {@{the assumption of economic rationality}@}, it is {@{the utility of its least urgent possible use}@} _from_ {@{the best feasible combination of actions in which its use is included}@}. <!--SR:!2025-09-04,261,330!2025-10-02,287,347!2026-01-09,367,347!2026-01-13,371,347!2025-11-17,325,347-->
+{@{The marginal utility of a good or service}@} is {@{the utility of its [marginal use](marginal%20use.md)}@}. Under {@{the assumption of economic rationality}@}, it is {@{the utility of its least urgent possible use}@} _from_ {@{the best feasible combination of actions in which its use is included}@}. <!--SR:!2028-12-08,1191,350!2025-10-02,287,347!2026-01-09,367,347!2026-01-13,371,347!2025-11-17,325,347-->
 
 > [!example] marginal utility definition
 >
@@ -60,7 +60,7 @@ Under {@{the [special case](special%20case.md) in which usefulness can be quanti
 
 Moreover, if {@{$S_{1}$ and $S_{2}$ are distinguishable by values of just one variable $g$}@}, which is {@{itself quantified}@}, then it becomes possible to {@{speak of the ratio of the marginal utility of the change in $g$, to the size of that change}@}: {@{$$\left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.}$$ (where "[c.p.](ceteris%20paribus.md)" indicates that the _only_ [independent variable](dependent%20and%20independent%20variables.md) to change is $g$)}@}. <!--SR:!2025-10-22,302,347!2025-10-02,287,347!2025-10-20,300,347!2028-06-03,1038,347-->
 
-Mainstream neoclassical economics will {@{typically assume that $$\lim _{\Delta g\to 0}{\left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.} }$$ is well defined}@}, and use "marginal utility" to refer to {@{a [partial derivative](partial%20derivative.md) $${\frac {\partial U}{\partial g} }\approx \left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.}$$}@}. <!--SR:!2028-07-31,1087,347!2025-09-04,261,330-->
+Mainstream neoclassical economics will {@{typically assume that $$\lim _{\Delta g\to 0}{\left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.} }$$ is well defined}@}, and use "marginal utility" to refer to {@{a [partial derivative](partial%20derivative.md) $${\frac {\partial U}{\partial g} }\approx \left.{\frac {\Delta U}{\Delta g} }\right|_{c.p.}$$}@}. <!--SR:!2028-07-31,1087,347!2028-12-10,1193,350-->
 
 #### law of diminishing marginal utility
 
@@ -100,7 +100,7 @@ When {@{indifference curves (which are essentially graphs of instantaneous rates
 
 - see: [marginal cost](marginal%20cost.md)
 
-At {@{the highest level of generality}@}, a marginal cost is {@{a marginal [opportunity cost](opportunity%20cost.md)}@}. In most contexts, marginal cost refers to {@{marginal _[pecuniary](money.md)_ cost, that is to say marginal cost measured by forgone money}@}. <!--SR:!2028-02-16,956,347!2025-09-04,261,330!2025-12-16,349,347-->
+At {@{the highest level of generality}@}, a marginal cost is {@{a marginal [opportunity cost](opportunity%20cost.md)}@}. In most contexts, marginal cost refers to {@{marginal _[pecuniary](money.md)_ cost, that is to say marginal cost measured by forgone money}@}. <!--SR:!2028-02-16,956,347!2028-12-09,1192,350!2025-12-16,349,347-->
 
 A thorough-going marginalism sees marginal cost as {@{increasing under the law of diminishing marginal utility}@}, because {@{applying resources to one application reduces their availability to other applications}@}. Neoclassical economics {@{tends to disregard this argument}@}, but {@{to see marginal costs as increasing in consequence of [diminishing returns](diminishing%20returns.md)}@}. <!--SR:!2028-05-27,1034,347!2027-09-16,813,330!2025-11-06,314,330!2027-03-31,708,347-->
 

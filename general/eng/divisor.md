@@ -27,7 +27,7 @@ An [integer](integer.md) $n$ is {@{divisible by a nonzero integer $m$ if there e
 There are {@{two conventions, distinguished by whether $m$ is permitted to be zero}@}: <!--SR:!2025-11-21,249,330-->
 
 - With the convention without an additional constraint on $m$, ::@:: $m\mid 0$ for every integer $m$.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-25,276,330!2026-01-16,293,330-->
-- With the convention that $m$ be nonzero, ::@:: $m\mid 0$ for every nonzero integer $m$.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-11,264,330!2025-09-04,181,310-->
+- With the convention that $m$ be nonzero, ::@:: $m\mid 0$ for every nonzero integer $m$.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-11,264,330!2027-10-23,779,330-->
 
 ## general
 

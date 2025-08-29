@@ -209,7 +209,7 @@ For {@{two terminal components}@} {@{the transfer function, or more generally fo
 >
 > - resistor, general ::@:: $Z(s) = R$ <!--SR:!2026-01-30,245,330!2026-01-26,241,330-->
 > - inductor, general ::@:: $Z(s) = sL$ <!--SR:!2026-06-05,348,349!2026-06-09,352,349-->
-> - capacitor, general ::@:: $Z(s) = \frac 1 {sC}$ <!--SR:!2026-06-30,370,360!2025-09-04,124,290-->
+> - capacitor, general ::@:: $Z(s) = \frac 1 {sC}$ <!--SR:!2026-06-30,370,360!2027-01-20,503,310-->
 
 For {@{a network to which only steady ac signals are applied}@}, {@{s is replaced with _jω_}@} and {@{the more familiar values from ac network theory result}@}. <!--SR:!2026-07-26,392,360!2026-02-05,251,330!2026-06-01,344,349-->
 

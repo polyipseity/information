@@ -25,7 +25,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 
 {@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2025-09-27,244,330!2026-11-18,537,310!2025-10-30,268,330-->
 
-{@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages but are used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2025-10-26,266,330!2025-09-29,246,330!2025-09-04,209,310-->
+{@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages but are used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2025-10-26,266,330!2025-09-29,246,330!2028-02-18,897,330-->
 
 Two products are in {@{different geographic market if they are sold in different locations}@}, it is {@{costly to transport the goods or it is costly for consumers to travel to buy the goods}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-01-27,880,330!2025-10-27,267,330-->
 

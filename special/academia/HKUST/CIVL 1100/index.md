@@ -129,11 +129,11 @@ The content is in teaching order.
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2026-12-17,670,330!2026-11-30,660,330-->
-  - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2025-09-04,370,350-->
+  - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2030-07-19,1779,370-->
   - wall-frame economic limit ::@:: up to about 50 stories <!--SR:!2030-01-25,1637,370!2027-09-03,933,350-->
 - framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2027-11-24,983,350-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
-- core walls with outriggers ::@:: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2028-07-14,1164,350!2025-09-04,320,301-->
+- core walls with outriggers ::@:: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2028-07-14,1164,350!2028-04-28,967,301-->
 
 ## week 6 lecture
 

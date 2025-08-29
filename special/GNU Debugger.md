@@ -25,7 +25,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `continue` ::@:: continue program execution <!--SR:!2027-03-22,707,330!2027-12-31,942,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2028-10-05,1161,350!2028-07-10,1093,350-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-04,958,365!2026-03-09,420,365-->
-- `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-04,281,330!2028-09-17,1147,350-->
+- `file <path>` ::@:: load binary file to debug <!--SR:!2029-03-08,1281,350!2028-09-17,1147,350-->
 - `finish` ::@:: run until the current function returns <!--SR:!2025-10-02,303,330!2027-08-31,828,330-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2026-03-12,423,365!2028-08-07,1111,365-->
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-11-06,297,345!2025-09-28,283,345-->

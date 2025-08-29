@@ -50,7 +50,7 @@ return await memorize_table(
 
 - _(begin)_→::@::←__duplet rule__ <!--SR:!2025-09-09,625,330!2032-09-04,2618,350-->
 - __duplet rule__→::@::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2032-11-27,2684,350!2032-08-18,2604,350-->
-- __[18-electron rule](18-electron%20rule.md)__→::@::←_(end)_ <!--SR:!2025-09-04,620,330!2032-06-06,2547,350-->
+- __[18-electron rule](18-electron%20rule.md)__→::@::←_(end)_ <!--SR:!2033-05-23,2818,350!2032-06-06,2547,350-->
 
 <!--/pytextgen-->
 

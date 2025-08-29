@@ -84,7 +84,7 @@ At first glance, it may appear that {@{a more general version, $\left|\sin nx\ri
 
 __<u>Proposition.</u>__ ::@:: For any $x\in \mathbb {R}$ and $n\in \mathbb {N}$, $\left|\sin nx\right|\leq n\left|\sin x\right|$. <!--SR:!2028-09-05,1105,350!2027-08-01,769,330-->
 
-__Proof.__ ::@:: Fix an arbitrary real number $x$, and let $P(n)$ be the statement $\left|\sin nx\right|\leq n\left|\sin x\right|$. We induce on $n$. <!--SR:!2025-09-04,252,330!2028-09-18,1116,350-->
+__Proof.__ ::@:: Fix an arbitrary real number $x$, and let $P(n)$ be the statement $\left|\sin nx\right|\leq n\left|\sin x\right|$. We induce on $n$. <!--SR:!2028-10-27,1149,350!2028-09-18,1116,350-->
 
 _Base case_ ::@:: The calculation $\left|\sin 0x\right|=0\leq 0=0\left|\sin x\right|$ verifies $P(0)$. <!--SR:!2028-09-04,1104,350!2025-09-07,255,330-->
 
@@ -109,13 +109,13 @@ In this way, one can prove that some statement _P_(_n_) holds for {@{all _n_ ≥
 
 #### example: forming dollar amounts by coins
 
-Assume {@{an infinite supply of 4- and 5-dollar coins}@}. Induction can be used to prove that {@{any whole amount of dollars greater than or equal to 12 can be formed by a combination of such coins}@}. Let _S_(_k_) denote the statement "_k_ dollars can be formed by a combination of 4- and 5-dollar coins". The proof that _S_(_k_) is true for all _k_ ≥ 12 can then be achieved by induction on _k_ as follows: <!--SR:!2025-09-04,252,330!2027-12-13,832,330-->
+Assume {@{an infinite supply of 4- and 5-dollar coins}@}. Induction can be used to prove that {@{any whole amount of dollars greater than or equal to 12 can be formed by a combination of such coins}@}. Let _S_(_k_) denote the statement "_k_ dollars can be formed by a combination of 4- and 5-dollar coins". The proof that _S_(_k_) is true for all _k_ ≥ 12 can then be achieved by induction on _k_ as follows: <!--SR:!2028-10-30,1152,350!2027-12-13,832,330-->
 
 _Base case_ ::@:: Showing that _S_(_k_) holds for _k_ = 12 is simple: take three 4-dollar coins. <!--SR:!2028-09-17,1117,350!2025-09-06,254,330-->
 
 _Induction step_ ::@:: Given that _S_(_k_) holds for some value of _k_ ≥ 12 (_induction hypothesis_), prove that _S_(_k_ + 1) holds, too. Assume _S_(_k_) is true for some arbitrary _k_ ≥ 12. If there is a solution for _k_ dollars that includes at least one 4-dollar coin, replace it by a 5-dollar coin to make _k_ + 1 dollars. Otherwise, if only 5-dollar coins are used, _k_ must be a multiple of 5 and so at least 15; but then we can replace three 5-dollar coins by four 4-dollar coins to make _k_ + 1 dollars. In each case, _S_(_k_ + 1) is true. <p> Therefore, by the principle of induction, _S_(_k_) holds for all _k_ ≥ 12, and the proof is complete. <!--SR:!2027-08-14,730,290!2026-12-31,565,310-->
 
-In this example, although {@{_S_(_k_) also holds for $k\in \{4,5,8,9,10\}$}@}, the above proof {@{cannot be modified to replace the minimum amount of 12 dollar to any lower value _m_}@}. For _m_ = 11, {@{the base case is actually false}@}; for _m_ = 10, {@{the second case in the induction step (replacing three 5- by four 4-dollar coins)}@} will not work; let alone for even lower _m_. <!--SR:!2025-09-04,252,330!2028-10-18,1142,350!2025-09-06,254,330!2028-09-25,1124,350-->
+In this example, although {@{_S_(_k_) also holds for $k\in \{4,5,8,9,10\}$}@}, the above proof {@{cannot be modified to replace the minimum amount of 12 dollar to any lower value _m_}@}. For _m_ = 11, {@{the base case is actually false}@}; for _m_ = 10, {@{the second case in the induction step (replacing three 5- by four 4-dollar coins)}@} will not work; let alone for even lower _m_. <!--SR:!2028-10-28,1150,350!2028-10-18,1142,350!2025-09-06,254,330!2028-09-25,1124,350-->
 
 ### induction on more than one counter
 
@@ -131,7 +131,7 @@ The validity of this method can be {@{verified from the usual principle of mathe
 
 ### limited mathematical induction
 
-If one wishes to prove that {@{a property _P_ holds for all natural numbers less than or equal to _n_}@}, proving _P_ satisfies the following conditions suffices:<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2025-09-04,252,330-->
+If one wishes to prove that {@{a property _P_ holds for all natural numbers less than or equal to _n_}@}, proving _P_ satisfies the following conditions suffices:<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2028-10-31,1153,350-->
 
 1. _P_ holds for 0,
 2. For any natural number _x_ less than _n_, if _P_ holds for _x_, then _P_ holds for _x_ + 1
@@ -146,9 +146,9 @@ A variant of {@{interest in [computational complexity](computational%20complexit
 
 The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2025-09-14,260,330!2028-09-11,1111,350!2025-09-11,257,330!2025-09-15,261,330-->
 
-If {@{traditional predecessor induction is interpreted computationally as an _n_-step loop}@}, then prefix induction would {@{correspond to a log-_n_-step loop}@}. Because of that, proofs using prefix induction are {@{"more feasibly constructive" than proofs using predecessor induction}@}. <!--SR:!2028-10-15,1140,350!2025-09-04,252,330!2025-09-06,254,330-->
+If {@{traditional predecessor induction is interpreted computationally as an _n_-step loop}@}, then prefix induction would {@{correspond to a log-_n_-step loop}@}. Because of that, proofs using prefix induction are {@{"more feasibly constructive" than proofs using predecessor induction}@}. <!--SR:!2028-10-15,1140,350!2028-11-01,1154,350!2025-09-06,254,330-->
 
-Predecessor induction can {@{trivially simulate prefix induction on the same statement}@}. Prefix induction can {@{simulate predecessor induction, but only at the cost of making the statement more syntactically complex (adding a [bounded](bounded%20quantifier.md) [universal quantifier](universal%20quantification.md))}@}, so the interesting results {@{relating prefix induction to [polynomial-time](time%20complexity.md#polynomial%20time) computation}@} depend on {@{excluding unbounded quantifiers entirely, and limiting the alternation of bounded universal and [existential](existential%20quantification.md) quantifiers allowed in the statement}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2028-09-10,1110,350!2025-12-25,297,290!2025-09-04,252,330!2027-08-31,743,290-->
+Predecessor induction can {@{trivially simulate prefix induction on the same statement}@}. Prefix induction can {@{simulate predecessor induction, but only at the cost of making the statement more syntactically complex (adding a [bounded](bounded%20quantifier.md) [universal quantifier](universal%20quantification.md))}@}, so the interesting results {@{relating prefix induction to [polynomial-time](time%20complexity.md#polynomial%20time) computation}@} depend on {@{excluding unbounded quantifiers entirely, and limiting the alternation of bounded universal and [existential](existential%20quantification.md) quantifiers allowed in the statement}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2028-09-10,1110,350!2025-12-25,297,290!2027-12-20,837,330!2027-08-31,743,290-->
 
 One can take the idea a step further: {@{one must prove $$\forall k\,\left(P\!\left(\left\lfloor {\sqrt {k} }\right\rfloor \right)\to P(k)\right)$$}@} whereupon the induction principle {@{"automates" log log _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. This form of induction has been used, {@{analogously, to study log-time parallel computation}@}. <!--SR:!2026-05-07,381,290!2028-09-20,1119,350!2027-01-13,567,310-->
 
@@ -162,7 +162,7 @@ Although {@{the form just described requires one to prove the base case}@}, this
 
 #### equivalence with ordinary induction
 
-Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2025-09-08,254,330!2025-09-12,258,330!2025-09-04,252,330!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
+Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2025-09-08,254,330!2025-09-12,258,330!2028-10-28,1150,350!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
 
 If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2025-09-10,256,330!2028-10-18,1141,350!2025-09-06,254,330!2028-10-04,1130,350-->
 
@@ -172,7 +172,7 @@ Complete induction is most useful when {@{several instances of the inductive hyp
 
 #### example: prime factorization
 
-Another proof by complete induction uses {@{the hypothesis that the statement holds for _all_ smaller $n$ more thoroughly}@}. Consider the statement that {@{"every [natural number](natural%20number.md) greater than 1 is a product of (one or more) [prime numbers](prime%20number.md)"}@}, which is {@{the "[existence](fundamental%20theorem%20of%20arithmetic.md#existence)" part of the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. For proving the induction step, the induction hypothesis is that {@{for a given $n>1$ the statement holds for all smaller $n>1$}@}. If {@{$m$ is prime then it is certainly a product of primes}@}, and if not, then {@{by definition it is a product: $m=n_{1}n_{2}$, where neither of the factors is equal to 1}@}; hence {@{neither is equal to $m$, and so both are greater than 1 and smaller than $m$}@}. The induction hypothesis {@{now applies to $n_{1}$ and $n_{2}$, so each one is a product of primes}@}. Thus {@{$m$ is a product of products of primes, and hence by extension a product of primes itself}@}. <!--SR:!2028-10-17,1141,350!2028-10-23,1147,350!2025-09-09,255,330!2025-09-07,255,330!2028-10-07,1133,350!2027-03-03,665,330!2028-09-09,1109,350!2027-02-18,653,330!2025-09-04,252,330-->
+Another proof by complete induction uses {@{the hypothesis that the statement holds for _all_ smaller $n$ more thoroughly}@}. Consider the statement that {@{"every [natural number](natural%20number.md) greater than 1 is a product of (one or more) [prime numbers](prime%20number.md)"}@}, which is {@{the "[existence](fundamental%20theorem%20of%20arithmetic.md#existence)" part of the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. For proving the induction step, the induction hypothesis is that {@{for a given $n>1$ the statement holds for all smaller $n>1$}@}. If {@{$m$ is prime then it is certainly a product of primes}@}, and if not, then {@{by definition it is a product: $m=n_{1}n_{2}$, where neither of the factors is equal to 1}@}; hence {@{neither is equal to $m$, and so both are greater than 1 and smaller than $m$}@}. The induction hypothesis {@{now applies to $n_{1}$ and $n_{2}$, so each one is a product of primes}@}. Thus {@{$m$ is a product of products of primes, and hence by extension a product of primes itself}@}. <!--SR:!2028-10-17,1141,350!2028-10-23,1147,350!2025-09-09,255,330!2025-09-07,255,330!2028-10-07,1133,350!2027-03-03,665,330!2028-09-09,1109,350!2027-02-18,653,330!2027-12-21,838,330-->
 
 #### example: dollar amounts revisited
 
@@ -196,7 +196,7 @@ Sometimes, it is {@{more convenient to deduce backwards, proving the statement f
 
 - see: [all horses are the same color](all%20horses%20are%20the%20same%20color.md)
 
-The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2025-09-04,252,330!2026-04-10,406,310!2025-09-13,259,330-->
+The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-10-29,1151,350!2026-04-10,406,310!2025-09-13,259,330-->
 
 _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2028-10-02,1129,350!2025-09-05,253,330-->
 
@@ -246,7 +246,7 @@ The principle of mathematical induction is usually stated as {@{an [axiom](axiom
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2028-10-20,1144,350!2028-08-31,1100,350-->
 - For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2028-10-25,1148,350!2025-09-08,254,330-->
 - For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2025-09-16,262,330-->
-- No natural number is ::@:: less than zero. <!--SR:!2025-09-04,252,330!2028-10-19,1142,350-->
+- No natural number is ::@:: less than zero. <!--SR:!2028-10-27,1149,350!2028-10-19,1142,350-->
 
 It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}. <!--SR:!2027-02-21,656,330!2028-10-20,1145,350-->
 
@@ -256,7 +256,7 @@ On the other hand, the set {@{$\{(0,n):n\in \mathbb {N} \}\cup \{(1,n):n\in \mat
 
 Peano's axioms with the induction principle {@{uniquely model the natural numbers}@}. Replacing the induction principle with the well-ordering principle {@{allows for more exotic models that fulfill all the axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2025-09-06,254,330!2025-09-16,262,330-->
 
-It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2028-10-26,1149,350!2025-09-05,253,330!2025-09-12,258,330!2025-09-04,252,330!2027-12-09,829,330-->
+It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2028-10-26,1149,350!2025-09-05,253,330!2025-09-12,258,330!2028-10-29,1151,350!2027-12-09,829,330-->
 
 A common mistake in many erroneous proofs is {@{to assume that _n_ − 1 is a unique and well-defined natural number}@}, a property which is {@{not implied by the other Peano axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2028-10-05,1131,350!2028-10-06,1132,350-->
 

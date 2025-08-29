@@ -106,7 +106,7 @@ See the specific articles for details.
 
 Abramowitz and Stegun give {@{the following symmetric formulae that relate the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-09-09,224,310-->
 
-- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-09-04,47,130!2025-12-09,97,250-->
+- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-11-07,64,130!2025-12-09,97,250-->
 
 ## Stirling numbers with negative integral values
 
@@ -122,7 +122,7 @@ The Stirling numbers can be {@{extended to negative integral values, but not all
 
 Donald Knuth<sup>[\[12\]](#^ref-12)</sup> defined the more general Stirling numbers by {@{extending a [recurrence relation](Stirling%20numbers%20of%20the%20second%20kind.md#recurrence%20relation) to all integers}@}. In this approach, $\left[{n \atop k}\right]$ and $\left\{ {\!n\! \atop \!k\!}\right\}$ are {@{zero if _n_ is negative and _k_ is nonnegative, or if _n_ is nonnegative and _k_ is negative}@}, and so we have, for {@{_any_ integers _n_ and _k_}@}, {@{$${\biggl [}{n \atop k}{\biggr ]}={\biggl \{}{\!-k\! \atop \!-n\!}{\biggr \} }\quad {\text{and} }\quad {\biggl \{}{\!n\! \atop \!k\!}{\biggr \} }={\biggl [}{-k \atop -n}{\biggr ]}.$$}@} <!--SR:!2025-11-11,291,330!2025-11-23,302,330!2025-12-06,312,330!2025-09-11,226,310-->
 
-On the other hand, for {@{positive integers _n_ and _k_}@}, David Branson<sup>[\[11\]](#^ref-11)</sup> defined {@{$\left[{-n \atop -k}\right]\!,$ $\left\{ {\!-n\! \atop \!-k\!}\right\}\!,$ $\left[{-n \atop k}\right]\!,$ and $\left\{ {\!-n\! \atop \!k\!}\right\}$ (but not $\left[{n \atop -k}\right]$ or $\left\{ {\!n\! \atop \!-k\!}\right\}$)}@}. In this approach, one has {@{the following extension of the [recurrence relation](Stirling%20numbers%20of%20the%20second%20kind.md#recurrence%20relation) of the Stirling numbers of the first kind}@}: $${\biggl [}{-n \atop k}{\biggr ]}={\frac {(-1)^{n+1} }{n!} }\sum _{i=1}^{n}{\frac {(-1)^{i+1} }{i^{k} } }{\binom {n}{i} } \,.$$ <!--SR:!2028-01-29,894,330!2026-03-02,354,290!2025-09-04,219,310-->
+On the other hand, for {@{positive integers _n_ and _k_}@}, David Branson<sup>[\[11\]](#^ref-11)</sup> defined {@{$\left[{-n \atop -k}\right]\!,$ $\left\{ {\!-n\! \atop \!-k\!}\right\}\!,$ $\left[{-n \atop k}\right]\!,$ and $\left\{ {\!-n\! \atop \!k\!}\right\}$ (but not $\left[{n \atop -k}\right]$ or $\left\{ {\!n\! \atop \!-k\!}\right\}$)}@}. In this approach, one has {@{the following extension of the [recurrence relation](Stirling%20numbers%20of%20the%20second%20kind.md#recurrence%20relation) of the Stirling numbers of the first kind}@}: $${\biggl [}{-n \atop k}{\biggr ]}={\frac {(-1)^{n+1} }{n!} }\sum _{i=1}^{n}{\frac {(-1)^{i+1} }{i^{k} } }{\binom {n}{i} } \,.$$ <!--SR:!2028-01-29,894,330!2026-03-02,354,290!2027-07-15,679,310-->
 
 For example, $\left[{-5 \atop k}\right]={\frac {1}{120} }{\Bigl (}5-{\frac {10}{2^{k} } }+{\frac {10}{3^{k} } }-{\frac {5}{4^{k} } }+{\frac {1}{5^{k} } }{\Bigr )}.$ This leads to the following table of values of $\left[{n \atop k}\right]$ for negative integral _n_.
 

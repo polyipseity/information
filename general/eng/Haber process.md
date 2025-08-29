@@ -57,8 +57,8 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 
 <!--pytextgen generate section="4956"--><!-- The following content is generated at 2024-01-04T20:17:51.755623+08:00. Any edits will be overridden! -->
 
-- _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→::@::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2025-09-04,45,130!2025-11-23,655,330-->
-- [steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$→::@::←[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$ <!--SR:!2025-09-04,35,150!2028-07-01,1136,250-->
+- _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→::@::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2025-11-02,59,130!2025-11-23,655,330-->
+- [steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$→::@::←[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$ <!--SR:!2025-10-27,53,150!2028-07-01,1136,250-->
 - [water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$→::@::←_([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_ <!--SR:!2028-09-13,1528,350!2025-10-01,455,210-->
 
 <!--/pytextgen-->
@@ -117,7 +117,7 @@ return await memorize_seq(
 - The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).→::@::←The gas mixture enters catalytic chambers for reaction. <!--SR:!2026-09-15,926,330!2028-10-27,1317,290-->
 - The gas mixture enters catalytic chambers for reaction.→::@::←The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams. <!--SR:!2026-04-02,335,170!2026-12-02,986,330-->
 - The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams.→::@::←The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md). <!--SR:!2028-10-21,1204,250!2028-07-21,1148,250-->
-- The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md).→::@::←_(large scale implementation of the Haber process)_ <!--SR:!2026-09-09,921,330!2025-09-04,448,230-->
+- The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md).→::@::←_(large scale implementation of the Haber process)_ <!--SR:!2026-09-09,921,330!2028-06-23,1023,230-->
 
 <!--/pytextgen-->
 

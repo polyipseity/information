@@ -17,7 +17,7 @@ Active galactic nuclei are {@{the most luminous persistent sources of [electroma
 
 The observed characteristics of an AGN depend on {@{several properties such as the mass of the central black hole, the rate of gas accretion onto the black hole, the orientation of the [accretion disk](accretion%20disk.md), the degree of [obscuration](extinction%20(astronomy).md) of the nucleus by [dust](cosmic%20dust.md), and presence or absence of [jets](astrophysical%20jet.md)}@}. <!--SR:!2027-06-01,690,270-->
 
-{@{Numerous subclasses of AGN}@} have been defined on {@{the basis of their observed characteristics}@}; {@{the most powerful AGN}@} are classified as {@{[quasars](quasar.md)}@}. {@{A [blazar](blazar.md)}@} is {@{an AGN with a jet pointed toward the Earth, in which radiation from the jet is enhanced by [relativistic beaming](relativistic%20beaming.md)}@}. <!--SR:!2025-09-04,293,330!2027-06-22,794,330!2026-08-22,540,310!2027-11-27,898,330!2027-08-16,832,330!2027-06-18,789,330-->
+{@{Numerous subclasses of AGN}@} have been defined on {@{the basis of their observed characteristics}@}; {@{the most powerful AGN}@} are classified as {@{[quasars](quasar.md)}@}. {@{A [blazar](blazar.md)}@} is {@{an AGN with a jet pointed toward the Earth, in which radiation from the jet is enhanced by [relativistic beaming](relativistic%20beaming.md)}@}. <!--SR:!2029-04-30,1334,350!2027-06-22,794,330!2026-08-22,540,310!2027-11-27,898,330!2027-08-16,832,330!2027-06-18,789,330-->
 
 ## unification of AGN species
 

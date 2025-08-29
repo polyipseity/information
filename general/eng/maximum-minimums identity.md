@@ -11,7 +11,7 @@ tags:
 
 # maximum-minimums identity
 
-In [mathematics](mathematics.md), {@{the __maximum-minimums identity__}@} is {@{a relation between the maximum element of a [set](set%20(mathematics).md) _S_ of _n_ numbers and the minima of the 2<sup>_n_</sup> − 1 [non-empty](empty%20set.md) [subsets](subset.md) of _S_}@}. <!--SR:!2025-11-28,275,330!2025-09-04,194,316-->
+In [mathematics](mathematics.md), {@{the __maximum-minimums identity__}@} is {@{a relation between the maximum element of a [set](set%20(mathematics).md) _S_ of _n_ numbers and the minima of the 2<sup>_n_</sup> − 1 [non-empty](empty%20set.md) [subsets](subset.md) of _S_}@}. <!--SR:!2025-11-28,275,330!2027-12-30,847,336-->
 
 Let {@{_S_ = {_x_<sub>1</sub>, _x_<sub>2</sub>, ..., _x_<sub>_n_</sub>}<!-- flashcard separator -->}@}. The [identity](identity%20(mathematics).md) states that {@{$${\begin{aligned}\max\{x_{1},x_{2},\ldots ,x_{n}\}&=\sum _{i=1}^{n}x_{i}-\sum _{i<j}\min\{x_{i},x_{j}\}+\sum _{i<j<k}\min\{x_{i},x_{j},x_{k}\}-\cdots \\&\qquad \cdots +\left(-1\right)^{n+1}\min\{x_{1},x_{2},\ldots ,x_{n}\},\end{aligned} }$$ or conversely $${\begin{aligned}\min\{x_{1},x_{2},\ldots ,x_{n}\}&=\sum _{i=1}^{n}x_{i}-\sum _{i<j}\max\{x_{i},x_{j}\}+\sum _{i<j<k}\max\{x_{i},x_{j},x_{k}\}-\cdots \\&\qquad \cdots +\left(-1\right)^{n+1}\max\{x_{1},x_{2},\ldots ,x_{n}\}.\end{aligned} }$$}@} <!--SR:!2027-11-06,819,336!2026-01-17,263,276-->
 

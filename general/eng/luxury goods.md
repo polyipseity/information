@@ -15,7 +15,7 @@ tags:
 >
 > {@{[Wine](wine.md) and [foie gras](foie%20gras.md)}@} <!--SR:!2025-10-12,251,330-->
 
-In [economics](economics.md), {@{a __luxury good__ \(or __upmarket good__\)}@} is {@{a [good](goods.md) for which [demand](demand.md) increases more than what is proportional as [income](income.md) rises}@}, so that {@{expenditures on the good become a more significant proportion of overall spending}@}. Luxury goods are {@{in contrast to [necessity goods](necessity%20good.md)}@}, where {@{demand increases proportionally less than income}@}.<sup>[\[1\]](#^ref-1)</sup> _Luxury goods_ is often used {@{synonymously with [superior goods](luxury%20goods.md#economics)}@}. <!--SR:!2025-11-11,273,330!2025-10-06,246,330!2027-07-20,729,330!2025-09-24,235,330!2025-09-04,203,310!2027-07-05,718,330-->
+In [economics](economics.md), {@{a __luxury good__ \(or __upmarket good__\)}@} is {@{a [good](goods.md) for which [demand](demand.md) increases more than what is proportional as [income](income.md) rises}@}, so that {@{expenditures on the good become a more significant proportion of overall spending}@}. Luxury goods are {@{in contrast to [necessity goods](necessity%20good.md)}@}, where {@{demand increases proportionally less than income}@}.<sup>[\[1\]](#^ref-1)</sup> _Luxury goods_ is often used {@{synonymously with [superior goods](luxury%20goods.md#economics)}@}. <!--SR:!2025-11-11,273,330!2025-10-06,246,330!2027-07-20,729,330!2025-09-24,235,330!2028-01-23,871,330!2027-07-05,718,330-->
 
 ## definition and etymology
 

@@ -22,7 +22,7 @@ In his [_On Generation and Corruption_](On%20Generation%20and%20Corruption.md), 
 
 #### aether
 
-[Aristotle](Aristotle.md) added {@{a fifth element, [aether](aether%20(classical%20element).md#fifth%20element) (αἰθήρ _aither_), as the quintessence}@}, reasoning that whereas {@{fire, earth, air, and water were earthly and corruptible}@}, since {@{no changes had been perceived in the heavenly regions}@}, the [stars](star.md) {@{cannot be made out of any of the four elements but must be made of a different, unchangeable, heavenly substance}@}. <!--SR:!2025-12-31,361,290!2028-04-21,984,330!2025-10-12,337,310!2025-09-04,17,336-->
+[Aristotle](Aristotle.md) added {@{a fifth element, [aether](aether%20(classical%20element).md#fifth%20element) (αἰθήρ _aither_), as the quintessence}@}, reasoning that whereas {@{fire, earth, air, and water were earthly and corruptible}@}, since {@{no changes had been perceived in the heavenly regions}@}, the [stars](star.md) {@{cannot be made out of any of the four elements but must be made of a different, unchangeable, heavenly substance}@}. <!--SR:!2025-12-31,361,290!2028-04-21,984,330!2025-10-12,337,310!2025-11-25,82,356-->
 
 ## references
 

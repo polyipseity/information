@@ -80,7 +80,7 @@ The divergence is roughly {@{a measure of a vector field's increase in the direc
 
 {@{The vector product operation}@} can be visualized as {@{a pseudo-[determinant](determinant.md)}@}: {@{$$\nabla \times \mathbf {v} =\left|{\begin{matrix}{\hat {\mathbf {x} } }&{\hat {\mathbf {y} } }&{\hat {\mathbf {z} } }\\[2pt]{\frac {\partial }{\partial x} }&{\frac {\partial }{\partial y} }&{\frac {\partial }{\partial z} }\\[2pt]v_{x}&v_{y}&v_{z}\end{matrix} }\right|$$}@} <!--SR:!2026-01-05,243,330!2026-02-13,272,330!2025-12-15,227,330-->
 
-Again {@{the power of the notation}@} is shown by {@{the product rule}@}: {@{$$\nabla \times (f\mathbf {v} )=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$$}@} {@{The rule for the vector product}@} does not turn out to be simple: {@{$$\nabla \times (\mathbf {u} \times \mathbf {v} )=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$$}@} <!--SR:!2026-01-22,259,330!2026-02-17,276,330!2025-12-06,203,310!2025-09-04,146,310!2025-11-03,157,250-->
+Again {@{the power of the notation}@} is shown by {@{the product rule}@}: {@{$$\nabla \times (f\mathbf {v} )=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$$}@} {@{The rule for the vector product}@} does not turn out to be simple: {@{$$\nabla \times (\mathbf {u} \times \mathbf {v} )=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$$}@} <!--SR:!2026-01-22,259,330!2026-02-17,276,330!2025-12-06,203,310!2027-05-23,626,330!2025-11-03,157,250-->
 
 ### directional derivative
 

@@ -97,7 +97,7 @@ For this reason, {@{many mathematical textbooks only consider the case that the 
 <!-- markdownlint-disable-next-line MD024 -->
 #### examples
 
-- Suppose {@{$x_{i}=i$ and $p_{i}={\tfrac {c}{i\cdot 2^{i} } }$ for $i=1,2,3,\ldots ,$}@} where {@{$c={\tfrac {1}{\ln 2} }$ is the scaling factor which makes the probabilities sum to 1}@}. Then we have {@{$$\operatorname {E} [X]\,=\sum _{i}x_{i}p_{i}=1({\tfrac {c}{2} })+2({\tfrac {c}{8} })+3({\tfrac {c}{24} })+\cdots \,=\,{\tfrac {c}{2} }+{\tfrac {c}{4} }+{\tfrac {c}{8} }+\cdots \,=\,c\,=\,{\tfrac {1}{\ln 2} }.$$}@} <!--SR:!2025-09-04,171,270!2026-07-13,419,310!2026-06-18,371,307-->
+- Suppose {@{$x_{i}=i$ and $p_{i}={\tfrac {c}{i\cdot 2^{i} } }$ for $i=1,2,3,\ldots ,$}@} where {@{$c={\tfrac {1}{\ln 2} }$ is the scaling factor which makes the probabilities sum to 1}@}. Then we have {@{$$\operatorname {E} [X]\,=\sum _{i}x_{i}p_{i}=1({\tfrac {c}{2} })+2({\tfrac {c}{8} })+3({\tfrac {c}{24} })+\cdots \,=\,{\tfrac {c}{2} }+{\tfrac {c}{4} }+{\tfrac {c}{8} }+\cdots \,=\,c\,=\,{\tfrac {1}{\ln 2} }.$$}@} <!--SR:!2027-06-10,644,290!2026-07-13,419,310!2026-06-18,371,307-->
 
 ### random variables with density
 
@@ -248,7 +248,7 @@ A very important application of the expectation value is in the field of {@{[qua
 - [Expectile](expectile.md) – ::@:: related to expectations in a way analogous to that in which quantiles are related to medians <!--SR:!2025-12-19,274,330!2025-12-25,278,330-->
 - [Law of total expectation](law%20of%20total%20expectation.md) – ::@:: the expected value of the conditional expected value of _X_ given _Y_ is the same as the expected value of _X_ <!--SR:!2025-09-09,192,310!2025-09-08,191,310-->
 - [Median](median.md#probability%20distributions) – ::@:: indicated by $m$ in a [drawing above](#Uhl2023Bild1) <!--SR:!2026-01-05,286,330!2026-01-13,294,330-->
-- [Nonlinear expectation](nonlinear%20expectation.md) – ::@:: a generalization of the expected value <!--SR:!2025-09-04,187,310!2026-01-12,293,330-->
+- [Nonlinear expectation](nonlinear%20expectation.md) – ::@:: a generalization of the expected value <!--SR:!2027-11-16,803,330!2026-01-12,293,330-->
 - [Population mean](statistical%20population.md#mean)
 - [Predicted value](simple%20linear%20regression.md#variance%20of%20the%20mean%20response)
 - [Wald's equation](Wald's%20equation.md) – ::@:: an equation for calculating the expected value of a random number of random variables <!--SR:!2025-11-02,236,330!2026-01-08,290,330-->

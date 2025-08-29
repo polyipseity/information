@@ -229,7 +229,7 @@ The cross product __a__ × __b__ is defined so that {@{__a__, __b__, and __a__ �
 
 {@{The length of __a__ × __b__}@} can be interpreted as {@{the area of the parallelogram having __a__ and __b__ as sides}@}. <!--SR:!2026-05-01,347,352!2026-06-17,388,359-->
 
-The cross product can be written as {@{$${\mathbf {a} }\times {\mathbf {b} }=(a_{2}b_{3}-a_{3}b_{2}){\mathbf {e} }_{1}+(a_{3}b_{1}-a_{1}b_{3}){\mathbf {e} }_{2}+(a_{1}b_{2}-a_{2}b_{1}){\mathbf {e} }_{3}.$$}@} <!--SR:!2025-09-04,154,319-->
+The cross product can be written as {@{$${\mathbf {a} }\times {\mathbf {b} }=(a_{2}b_{3}-a_{3}b_{2}){\mathbf {e} }_{1}+(a_{3}b_{1}-a_{1}b_{3}){\mathbf {e} }_{2}+(a_{1}b_{2}-a_{2}b_{1}){\mathbf {e} }_{3}.$$}@} <!--SR:!2027-07-14,678,339-->
 
 For {@{arbitrary choices of spatial orientation \(that is, allowing for left-handed as well as right-handed coordinate systems\)}@} the cross product of two vectors is {@{a [pseudovector](pseudovector.md) instead of a vector \(see below\)}@}. <!--SR:!2026-02-04,277,332!2026-03-19,299,332-->
 
