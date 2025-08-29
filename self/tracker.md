@@ -18,6 +18,7 @@ tags:
 
 - <https://discord.com/>: \[redacted\]
 - <https://im.qq.com/>: \[redacted\]
+- <https://open.spotify.com/user/31lenqtm6tw5t2ijlo6qbt33jugm>
 - <https://studio.buymeacoffee.com/my-account/edit-profile>: polyipseity
 - <https://wechat.com/>: \[redacted\]
 

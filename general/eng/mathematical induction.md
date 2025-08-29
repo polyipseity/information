@@ -23,7 +23,7 @@ A __proof by induction__ consists of {@{two cases}@}. The first, {@{the __base c
 
 The method can be extended to {@{prove statements about more general [well-founded](well-founded%20relation.md) structures, such as [trees](tree%20(set%20theory).md)}@}; this generalization, known as {@{[structural induction](structural%20induction.md), is used in [mathematical logic](mathematical%20logic.md) and [computer science](computer%20science.md)}@}. Mathematical induction in this extended sense is closely related to {@{[recursion](recursion.md)}@}. Mathematical induction is {@{an [inference rule](rule%20of%20inference.md) used in [formal proofs](formal%20proof.md)}@}, and is the foundation of {@{most [correctness](correctness%20(computer%20science).md) proofs for computer programs}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2027-03-01,663,330!2028-09-25,1122,350!2028-10-18,1142,350!2025-09-05,253,330!2028-09-21,1120,350-->
 
-Despite its name, mathematical induction differs fundamentally from {@{[inductive reasoning](inductive%20reasoning.md) as [used in philosophy](problem%20of%20induction.md), in which the examination of many cases results in a probable conclusion}@}. The mathematical method {@{examines infinitely many cases to prove a general statement, but it does so by a finite chain of [deductive reasoning](deductive%20reasoning.md) involving the [variable](variable%20(mathematics).md) $n$, which can take infinitely many values}@}. The result is {@{a rigorous proof of the statement, not an assertion of its probability}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-09-07,255,330!2027-12-03,824,330!2028-10-25,1148,350-->
+Despite its name, mathematical induction differs fundamentally from {@{[inductive reasoning](inductive%20reasoning.md) as [used in philosophy](problem%20of%20induction.md), in which the examination of many cases results in a probable conclusion}@}. The mathematical method {@{examines infinitely many cases to prove a general statement}@}, but it does so by {@{a finite chain of [deductive reasoning](deductive%20reasoning.md) involving the [variable](variable%20(mathematics).md) $n$}@}, which can {@{take infinitely many values}@}. The result is {@{a rigorous proof of the statement, not an assertion of its probability}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-09-07,255,330!2027-12-03,824,330!2028-10-25,1148,350-->
 
 ## history
 
@@ -58,7 +58,7 @@ Authors who prefer to define natural numbers to begin at 0 use that value in the
 
 Mathematical induction can be used to prove the following statement _P_(_n_) for all natural numbers _n_: {@{$$P(n)\!:\ \ 0+1+2+\cdots +n={\frac {n(n+1)}{2} }$$}@} <!--SR:!2028-09-11,1111,350-->
 
-This states {@{a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2028-10-09,1134,350-->
+This states {@{a general formula for the sum of the natural numbers less than or equal to a given number}@}; in fact {@{an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2028-10-09,1134,350-->
 
 __<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2028-09-30,1127,350!2025-09-07,255,330-->
 
@@ -154,7 +154,7 @@ One can take the idea a step further: {@{one must prove $$\forall k\,\left(P\!\l
 
 ### complete (strong) induction
 
-Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__ (in contrast to which the basic form of induction is sometimes known as __weak induction__)}@}, makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$; by contrast, the basic form only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction", but merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2028-10-23,1146,350!2028-09-19,1117,350!2026-03-27,393,310-->
+Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__}@} \(in contrast to {@{which the basic form of induction is sometimes known as __weak induction__}@}\), makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$}@}; by contrast, the basic form {@{only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction"}@}, but {@{merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2028-10-23,1146,350!2028-09-19,1117,350!2026-03-27,393,310-->
 
 In fact, it can be shown that {@{the two methods are actually equivalent, as explained below}@}. In this form of complete induction, one still has to {@{prove the base case, $P(0)$, and it may even be necessary to prove extra-base cases such as $P(1)$ before the general argument applies}@}, as {@{in the example below of the [Fibonacci number](Fibonacci%20sequence.md) $F_{n}$}@}. <!--SR:!2025-09-11,257,330!2025-09-05,253,330!2028-10-08,1134,350-->
 
@@ -202,7 +202,7 @@ _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:
 
 _Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2025-09-08,254,330!2028-10-10,1135,350-->
 
-The base case $n=1$ is {@{trivial, and the induction step is correct in all cases $n>1$}@}. However, the argument used in the induction step is {@{incorrect for $n+1=2$, because the statement that "the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}. <!--SR:!2028-09-24,1122,350!2027-11-15,809,330-->
+{@{The base case $n=1$}@} is {@{trivial}@}, and {@{the induction step is correct in all cases $n>1$}@}. However, {@{the argument used in the induction step}@} is {@{incorrect for $n+1=2$}@}, because the statement that {@{"the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}. <!--SR:!2028-09-24,1122,350!2027-11-15,809,330-->
 
 ## formalization
 
@@ -229,7 +229,7 @@ One variation of the principle of complete induction can be {@{generalized for s
 
 Applied to {@{a well-founded set}@}, transfinite induction can be {@{formulated as a single step}@}. To prove that a statement _P_(_n_) holds for each ordinal number: <p> {@{Show, for each ordinal number _n_, that if _P_(_m_) holds for all _m_ < _n_, then _P_(_n_) also holds.}@} <!--SR:!2025-09-05,253,330!2025-09-07,255,330!2027-07-27,765,330-->
 
-This form of induction, when {@{applied to a set of ordinal numbers (which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md))}@}, is called _[transfinite induction](transfinite%20induction.md)_. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}. <!--SR:!2027-08-01,779,330!2028-10-26,1149,350-->
+This form of induction, when {@{applied to a set of ordinal numbers \(which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md)\)}@}, is called {@{_[transfinite induction](transfinite%20induction.md)_}@}. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}. <!--SR:!2027-08-01,779,330!2028-10-26,1149,350-->
 
 Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:!2025-09-05,253,330-->
 

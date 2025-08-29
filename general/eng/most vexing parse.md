@@ -71,14 +71,14 @@ Parent parent(     {});
 Parent parent{     {}};
 ```
 
-Before [C++11](C++11.md), the two common solutions are {@{using extra parentheses or copy-initialization}@}: <!--SR:!2026-10-10,718,330-->
+Before {@{[C++11](C++11.md)}@}, {@{the two common solutions}@} are {@{using extra parentheses or copy-initialization}@}: <!--SR:!2026-10-10,718,330-->
 
 ```C++
 Parent parent((Child())); // extra parentheses
 Parent parent = Parent(Child()); // copy-initialization
 ```
 
-For copy-initialization, {@{the construction of a temporary after `=` is likely [optimized out](optimizing%20compiler.md) by the [compiler](compiler.md). Since [C++17](C++17.md), this optimization is guaranteed by the standard}@}. Note that the [C++17](C++17.md) standard {@{does not specify this as an optimization. It does not formally describe it as "[copy elision](copy%20elision.md)". Rather, it describes the temporary is not _materialized_ until the variable is initialized. This is called _deferred temporary materialization_}@}. <!--SR:!2026-03-23,543,310!2028-07-10,1041,290-->
+For {@{copy-initialization}@}, {@{the construction of a temporary after `=`}@} is {@{likely [optimized out](optimizing%20compiler.md) by the [compiler](compiler.md)}@}. Since {@{[C++17](C++17.md), this optimization is guaranteed by the standard}@}. Note that {@{the [C++17](C++17.md) standard}@} {@{does not specify this as an optimization}@}. It does not {@{formally describe it as "[copy elision](copy%20elision.md)"}@}. Rather, it describes {@{the temporary is not _materialized_ until the variable is initialized}@}. This is called {@{_deferred temporary materialization_}@}. <!--SR:!2026-03-23,543,310!2028-07-10,1041,290-->
 
 ## references
 
