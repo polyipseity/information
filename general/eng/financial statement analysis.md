@@ -50,9 +50,9 @@ Financial statement analyses are typically performed in {@{[spreadsheet](spreads
 
 An earnings recast is {@{the act of amending and re-releasing a previously released earnings statement, with specified intent}@}.<sup>[\[9\]](#^ref-9)</sup>
 
-Investors need to {@{understand the ability of the company to generate profit}@}. {@{This, together with its [rate of profit](rate%20of%20profit.md) growth, relative to the amount of capital deployed and various other financial ratios}@}, forms an important part of their analysis of the value of the company. Analysts may {@{modify ("recast") the financial statements by adjusting the underlying assumptions to aid in this computation}@}. For example, operating leases (treated like a rental transaction) {@{may be recast as capital leases (indicating ownership), adding assets and liabilities to the balance sheet}@}. This affects {@{the financial statement ratios}@}.<sup>[\[10\]](#^ref-10)</sup>
+Investors need to {@{understand the ability of the company to generate profit}@}. {@{This, together with its [rate of profit](rate%20of%20profit.md) growth}@}, relative to {@{the amount of capital deployed and various other financial ratios}@}, forms {@{an important part of their analysis of the value of the company}@}. Analysts may {@{modify \("recast"\) the financial statements by adjusting the underlying assumptions to aid in this computation}@}. For example, {@{operating leases \(treated like a rental transaction\)}@} {@{may be recast as capital leases \(indicating ownership\)}@}, {@{adding assets and liabilities to the balance sheet}@}. This affects {@{the financial statement ratios}@}.<sup>[\[10\]](#^ref-10)</sup>
 
-Recasting is also known as {@{normalizing accounts}@}.<sup>[\[11\]](#^ref-11)</sup>
+{@{Recasting}@} is also known as {@{normalizing accounts}@}.<sup>[\[11\]](#^ref-11)</sup>
 
 ## certifications
 
