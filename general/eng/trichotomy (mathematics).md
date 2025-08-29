@@ -1,0 +1,1 @@
+law of trichotomy.md
