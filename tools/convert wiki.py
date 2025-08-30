@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
 from contextlib import contextmanager, suppress
 from copy import copy
+from country_converter import convert
 from jaraco.clipboard import paste_html  # type: ignore
 from json import load
 from logging import INFO, basicConfig
@@ -515,85 +516,98 @@ async def wiki_html_to_plaintext(
                     title = title.removesuffix(_PAGE_DOES_NOT_EXIST_SUFFIX)
                 href = str(ele.get("href", ""))
                 to_fragment = href.split("#", 1)[-1] if "#" in href else ""
-                async with session.get(
-                    URL.build(
-                        scheme=_WIKI_HOST_URL.scheme,
-                        host=str(_WIKI_HOST_URL.host),
-                        path="/w/api.php",
-                        query={
-                            "format": "json",
-                            "formatversion": 2,
-                            "action": "query",
-                            "titles": title,
-                            "redirects": "",
-                        },
-                    )
-                ) as req:
-                    redirect: Mapping[str, str] = (
-                        (await req.json()).get("query", {}).get("redirects", ({},))[0]
-                    )
-                    to = redirect.get("to", title)
-                    if not to_fragment:
-                        to_fragment = redirect.get("tofragment", "")
-                if url_format := next(
-                    (
-                        (format, to[len(prefix) :])
-                        for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
-                        if to.startswith(prefix)
-                    ),
-                    None,
-                ):
+
+                if "extiw" in classes:
+                    lang_code, title = title.split(":", 1)
+                    lang_code = convert(lang_code, to="ISO3").casefold()
+                    from_filename = _fix_name_maybe(title, replace_underscores=True)
                     prefix, suffix = (
                         "[",
-                        f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
+                        f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
                     )
-                elif not any(
-                    to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
-                ):
-                    # prefix, suffix = (
-                    #     "[",
-                    #     f"]({_markdown_link_target(_fix_name_maybe(
-                    #         to, replace_underscores=True,
-                    #     ), _fix_name_maybe(
-                    #         to_fragment, replace_underscores=True,
-                    #     ))})",
-                    # )
-                    from_filename, to_filename = _fix_name_maybe(
-                        title, replace_underscores=True
-                    ), _fix_name_maybe(to, replace_underscores=True)
-                    prefix, suffix = (
-                        "[",
-                        f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
-                    )
-                    from_filename, to_filename = _fix_filename(
-                        from_filename
-                    ), _fix_filename(to_filename)
-                    if from_filename != to_filename:
-                        redirect_file = (
-                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
+                else:
+                    async with session.get(
+                        URL.build(
+                            scheme=_WIKI_HOST_URL.scheme,
+                            host=str(_WIKI_HOST_URL.host),
+                            path="/w/api.php",
+                            query={
+                                "format": "json",
+                                "formatversion": 2,
+                                "action": "query",
+                                "titles": title,
+                                "redirects": "",
+                            },
                         )
-                        if not await redirect_file.exists():
-                            # no async
-                            with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
-                                with suppress(FileExistsError):
-                                    # `src` <- `dst`
-                                    symlink(
-                                        f"{to_filename}.md",
-                                        redirect_file.relative_to(
-                                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY
-                                        ),
-                                        target_is_directory=False,
-                                    )
-                            with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
-                                with suppress(FileExistsError):
-                                    # `src` <- `dst`
-                                    symlink(
-                                        redirect_file.relative_to(
-                                            _CONVERTED_WIKI_DIRECTORY
-                                        ),
-                                        f"{from_filename}.md",
-                                        target_is_directory=False,
-                                    )
+                    ) as req:
+                        redirect: Mapping[str, str] = (
+                            (await req.json())
+                            .get("query", {})
+                            .get("redirects", ({},))[0]
+                        )
+                        to = redirect.get("to", title)
+                        if not to_fragment:
+                            to_fragment = redirect.get("tofragment", "")
+                    if url_format := next(
+                        (
+                            (format, to[len(prefix) :])
+                            for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
+                            if to.startswith(prefix)
+                        ),
+                        None,
+                    ):
+                        prefix, suffix = (
+                            "[",
+                            f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
+                        )
+                    elif not any(
+                        to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
+                    ):
+                        # prefix, suffix = (
+                        #     "[",
+                        #     f"]({_markdown_link_target(_fix_name_maybe(
+                        #         to, replace_underscores=True,
+                        #     ), _fix_name_maybe(
+                        #         to_fragment, replace_underscores=True,
+                        #     ))})",
+                        # )
+                        from_filename, to_filename = _fix_name_maybe(
+                            title, replace_underscores=True
+                        ), _fix_name_maybe(to, replace_underscores=True)
+                        prefix, suffix = (
+                            "[",
+                            f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
+                        )
+                        from_filename, to_filename = _fix_filename(
+                            from_filename
+                        ), _fix_filename(to_filename)
+                        if from_filename != to_filename:
+                            redirect_file = (
+                                _CONVERTED_WIKI_LANGUAGE_DIRECTORY
+                                / f"{from_filename}.md"
+                            )
+                            if not await redirect_file.exists():
+                                # no async
+                                with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
+                                    with suppress(FileExistsError):
+                                        # `src` <- `dst`
+                                        symlink(
+                                            f"{to_filename}.md",
+                                            redirect_file.relative_to(
+                                                _CONVERTED_WIKI_LANGUAGE_DIRECTORY
+                                            ),
+                                            target_is_directory=False,
+                                        )
+                                with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
+                                    with suppress(FileExistsError):
+                                        # `src` <- `dst`
+                                        symlink(
+                                            redirect_file.relative_to(
+                                                _CONVERTED_WIKI_DIRECTORY
+                                            ),
+                                            f"{from_filename}.md",
+                                            target_is_directory=False,
+                                        )
             elif href := ele.get("href"):
                 href = str(href)
                 if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
