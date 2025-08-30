@@ -61,7 +61,7 @@ Prove that {@{any two consecutive elements of the Fibonacci sequence are relativ
 
 We know that $\sqrt 2$ is irrational from [above](#irrationality%20of%20the%20square%20root%20of%202). Prove that {@{$\sqrt 3$ is irrational. Then prove that $\sqrt 5$ is irrational. Finally, prove that $\sqrt p$ is irrational for all prime numbers $p$}@}. <!--SR:!2027-05-05,743,340-->
 
-- strategy ::@:: Prove by contradiction via infinite descent. Some properties of prime numbers should be important in the proof. <!--SR:!2026-06-27,494,320!2025-09-05,258,320-->
+- strategy ::@:: Prove by contradiction via infinite descent. Some properties of prime numbers should be important in the proof. <!--SR:!2026-06-27,494,320!2028-10-17,1138,340-->
 
 1. assumption ::@:: The assumption is always that square roots of prime numbers are rational and thus can be written as $a / b$ for $a, b \in \mathbb N_0$. <!--SR:!2025-11-13,334,340!2028-09-08,1133,350-->
 2. irrationality of $\sqrt 3$ ::@:: $$\begin{aligned} \sqrt 3 = \frac a b \\ 3 & = \frac {a^2} {b^2} \\ 3b^2 & = a^2 \\ & \rightarrow 3 \mid a^2 \\ & \rightarrow 3 \mid a && \text{3 is prime} \\ a & := 3c && c \in \mathbb N_0 \\ \\ 3b^2 & = 9c^2 \\ b^2 & = 3c^2 \\ b & := 3d && \text{similar to above} \\ \\ \sqrt 3 & = \frac a b = \frac {3c} {3d} = \frac c d \end{aligned}$$. So given a integral ratio to exactly express $\sqrt 3$, we can always make a integral ratio with smaller natural numbers to express the same number. But this would create an infinite descent of natural numbers. By contradiction, $\sqrt 3$ is not rational, i.e. irrational. <!--SR:!2025-12-01,347,340!2025-10-31,322,340-->

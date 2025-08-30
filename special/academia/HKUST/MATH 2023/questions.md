@@ -28,7 +28,7 @@ tags:
 
 ## midterm examination
 
-- Find the limit at $(0, 0)$ for $$f(x, y) = \frac {x^{2024} y^{2025} } {x^{4048} + y^{4050} }$$ if it exists, or show that the limit does not exist. ::@:: Let $a = x^{2024}$ and $b = y^{2025}$, then it becomes $$\frac {ab} {a^2 + b^2} \,,$$ which is much easier to see that there is no limit. The proof proceeds analogously to questions above. <!--SR:!2025-09-05,75,345!2026-08-20,350,365-->
+- Find the limit at $(0, 0)$ for $$f(x, y) = \frac {x^{2024} y^{2025} } {x^{4048} + y^{4050} }$$ if it exists, or show that the limit does not exist. ::@:: Let $a = x^{2024}$ and $b = y^{2025}$, then it becomes $$\frac {ab} {a^2 + b^2} \,,$$ which is much easier to see that there is no limit. The proof proceeds analogously to questions above. <!--SR:!2026-08-27,356,365!2026-08-20,350,365-->
 
 ## final examination
 

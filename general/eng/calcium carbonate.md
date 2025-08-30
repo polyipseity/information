@@ -22,7 +22,7 @@ It also {@{reacts with [acids](acid.md)}@}.
 
 ### tests
 
-To test for calcium carbonate, both {@{calcium ions and carbonate ions}@} are tested for. The former can be detected by the {@{[flame test](flame%20test.md)}@}, in which a {@{brick red flame}@} can be observed. The latter can be tested by adding {@{[dilute hydrochloric acid](dilute%20hydrochloric%20acid)}@}, in which {@{colorless gas}@} that {@{turns [limewater](calcium%20hydroxide.md) milky}@} is given out. <!--SR:!2034-10-08,3332,298!2034-07-05,3260,298!2034-08-22,3300,299!2025-09-05,551,230!2028-04-15,1293,250!2026-04-22,1065,299-->
+To test for calcium carbonate, both {@{calcium ions and carbonate ions}@} are tested for. The former can be detected by the {@{[flame test](flame%20test.md)}@}, in which a {@{brick red flame}@} can be observed. The latter can be tested by adding {@{[dilute hydrochloric acid](dilute%20hydrochloric%20acid)}@}, in which {@{colorless gas}@} that {@{turns [limewater](calcium%20hydroxide.md) milky}@} is given out. <!--SR:!2034-10-08,3332,298!2034-07-05,3260,298!2034-08-22,3300,299!2029-02-23,1267,230!2028-04-15,1293,250!2026-04-22,1065,299-->
 
 ## references
 

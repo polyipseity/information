@@ -11,7 +11,7 @@ tags:
 
 # Fresnel equations
 
-- This article is about {@{the Fresnel equations describing reflection and refraction of light at uniform planar interfaces}@}. For {@{the diffraction of light through an aperture}@}, see {@{[Fresnel diffraction](Fresnel%20diffraction.md)}@}. For {@{the thin lens and mirror technology}@}, see {@{[Fresnel lens](Fresnel%20lens.md)}@}. <!--SR:!2026-04-14,248,330!2026-08-05,352,349!2026-06-19,305,349!2025-09-05,84,346!2026-10-07,407,366-->
+- This article is about {@{the Fresnel equations describing reflection and refraction of light at uniform planar interfaces}@}. For {@{the diffraction of light through an aperture}@}, see {@{[Fresnel diffraction](Fresnel%20diffraction.md)}@}. For {@{the thin lens and mirror technology}@}, see {@{[Fresnel lens](Fresnel%20lens.md)}@}. <!--SR:!2026-04-14,248,330!2026-08-05,352,349!2026-06-19,305,349!2026-10-12,402,366!2026-10-07,407,366-->
 
 > {@{![Partial transmission and reflection of a pulse travelling from a low to a high refractive index medium.](../../archives/Wikimedia%20Commons/Partial%20transmittance.gif)}@}
 >

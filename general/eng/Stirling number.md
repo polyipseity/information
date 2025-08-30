@@ -13,7 +13,7 @@ In [mathematics](mathematics.md), __Stirling numbers__ {@{arise in a variety of 
 
 {@{Two different sets of numbers}@} bear this name: {@{the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and the [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@}. Additionally, {@{[Lah numbers](Lah%20number.md)}@} are {@{sometimes referred to as Stirling numbers of the third kind}@}. Each kind is detailed in {@{its respective article, this one serving as a description of relations between them}@}. <!--SR:!2025-12-09,315,330!2025-11-18,298,330!2025-11-13,293,330!2025-10-25,276,330!2028-03-09,923,330-->
 
-A common property of all three kinds is that {@{they describe coefficients relating three different sequences of polynomials that frequently arise in combinatorics}@}. Moreover, all three can be {@{defined as the number of partitions of _n_ elements into _k_ non-empty subsets}@}, where {@{each subset is endowed with a certain kind of order (no order, cyclical, or linear)}@}. <!--SR:!2027-12-27,867,330!2025-10-25,276,330!2025-09-05,221,310-->
+A common property of all three kinds is that {@{they describe coefficients relating three different sequences of polynomials that frequently arise in combinatorics}@}. Moreover, all three can be {@{defined as the number of partitions of _n_ elements into _k_ non-empty subsets}@}, where {@{each subset is endowed with a certain kind of order (no order, cyclical, or linear)}@}. <!--SR:!2027-12-27,867,330!2025-10-25,276,330!2028-04-11,949,330-->
 
 ## notation
 

@@ -264,7 +264,7 @@ The content is in teaching order.
   - speakeasy / influence ::@:: jazz was popular; people wanted to dance, hence swing dance <!--SR:!2025-11-09,211,358!2026-10-03,484,398-->
 - [swing music](../../../../general/swing%20music.md) ::@:: a style of jazz that developed in the United States during the late 1920s and early 1930s <!--SR:!2026-10-02,483,398!2026-11-20,522,398-->
   - swing music / ambiguity ::@:: "Swing" may refer to a musical concept (swing feeling), the swing era, or swing dancing. <!--SR:!2026-09-25,478,398!2026-09-18,472,398-->
-- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2025-09-05,148,338!2025-10-14,193,358-->
+- [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2027-07-27,690,358!2025-10-14,193,358-->
 - [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2026-05-19,350,378!2026-10-31,502,398-->
 - [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2026-05-15,346,378!2026-10-27,498,398-->
   - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2026-05-15,346,378!2026-11-12,514,398-->

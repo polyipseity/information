@@ -22,7 +22,7 @@ tags:
 
 Education needs to prepare for {@{future jobs that we do not know now}@}. This is needed to adapt in our {@{very fast moving world of disruptive technology}@}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {@{learning [metaknowledge](../../../../general/metaknowledge.md)}@}. <!--SR:!2026-03-21,520,310!2027-04-26,837,330!2028-03-06,1097,350-->
 
-Some important metaknowledge in this 21st century are the 4Cs: {@{collaboration to solve large problems, communication to convince people}@}, {@{creativity to make new things, and critical thinking and problem solving to solve problems}@}. <!--SR:!2028-05-09,1004,270!2025-09-05,18,327-->
+Some important metaknowledge in this 21st century are the 4Cs: {@{collaboration to solve large problems, communication to convince people}@}, {@{creativity to make new things, and critical thinking and problem solving to solve problems}@}. <!--SR:!2028-05-09,1004,270!2025-11-26,82,347-->
 
 ## part 1: product innovation
 

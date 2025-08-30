@@ -205,7 +205,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2025-11-23,128,404!2025-11-29,130,404-->
 - negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-24,129,404!2025-12-01,132,404-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2025-11-21,126,404!2025-11-22,127,404-->
-- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-18,123,404!2025-09-05,54,364-->
+- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-18,123,404!2026-06-07,275,384-->
 - store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2025-11-30,131,404!2025-12-02,133,404-->
 - subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-12-03,134,404!2025-11-22,127,404-->
 - subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2025-11-18,123,404!2025-11-24,129,404-->

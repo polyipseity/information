@@ -92,7 +92,7 @@ The content is in teaching order.
     - rules of inference / disjunctive syllogism ::@:: $$\begin{aligned} & p \lor q \\ & \underline{\lnot p \!\!\!\! \phantom{\lor q} } \\ & q \end{aligned}$$ <!--SR:!2027-11-12,891,343!2025-09-29,296,343-->
     - rules of inference / transposition (with $F$ as the consequent) ::@:: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2028-12-05,1203,350!2028-12-05,1214,363-->
     - rules of inference / simplification ::@:: $$\begin{aligned} & \underline{p \land q} \\ & p \end{aligned}$$ <!--SR:!2025-11-17,335,343!2025-09-24,293,343-->
-    - rules of inference / addition ::@:: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2025-09-05,278,343!2026-12-24,636,330-->
+    - rules of inference / addition ::@:: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2029-04-10,1313,363!2026-12-24,636,330-->
     - rules of inference / importation (applied form) ::@:: $$\begin{aligned} & p \land q \\ & \underline{p \rightarrow (q \rightarrow r)} \\ & r \end{aligned}$$ <!--SR:!2026-02-07,349,290!2028-04-11,994,343-->
     - rules of inference / constructive dilemma ::@:: $$\begin{aligned} & p \rightarrow q \\ & r \rightarrow s \\ & \underline{p \lor r \phantom{s} } \\ & q \lor s \end{aligned}$$ <!--SR:!2026-02-02,346,303!2027-03-30,705,330-->
     - rules of inference / destructive dilemma ::@:: $$\begin{aligned} & p \rightarrow q \\ & r \rightarrow s \\ & \underline{\lnot q \lor \lnot s} \\ & \lnot p \lor \lnot r \end{aligned}$$ <!--SR:!2027-12-19,906,343!2025-10-14,310,343-->

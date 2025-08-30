@@ -289,7 +289,7 @@ See [Taipei 101](Taipei%20101.md).
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2025-10-10,433,397-->
-- height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2025-09-05,371,380-->
+- height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2029-07-15,1409,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2025-12-19,477,400-->
 - length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->
 
@@ -299,7 +299,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 - bridge type <!-- flashcard ID: 54af6d8c-884f-4894-bb1a-ce65254b1063 -->::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2026-03-27,463,297!2025-11-10,455,390-->
 - description ::@:: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-02-14,749,330!2025-12-18,488,392-->
-- image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2025-09-05,389,380-->
+- image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2031-03-28,2030,400-->
 - length ::@:: 2160 m, longest span: 1377 m <!--SR:!2025-10-31,353,280!2030-11-28,1914,400-->
 
 ## Turin–Lyon high-speed railway

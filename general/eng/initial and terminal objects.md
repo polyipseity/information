@@ -80,7 +80,7 @@ It follows that {@{any [functor](functor.md) which preserves limits will take te
 Initial and terminal objects may also {@{be characterized in terms of [universal properties](universal%20property.md) and [adjoint functors](adjoint%20functors.md)}@}. Let {@{__1__ be the discrete category with a single object \(denoted by •\)}@}, and let {@{_U_ : _C_ → __1__ be the unique \(constant\) functor to __1__}@}. Then <!--SR:!2025-09-29,183,317!2026-02-06,301,337!2026-04-06,352,352-->
 
 - An initial object _I_ in _C_ is ::@:: a [universal morphism](universal%20morphism.md) from • to _U_. (annotation: That every object has an unique morphism from the initial object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _I_ is left adjoint to _U_. <!--SR:!2026-07-14,338,257!2026-07-02,366,297-->
-- A terminal object _T_ in _C_ is ::@:: a universal morphism from _U_ to •. (annotation: That every object has an unique morphism to the terminal object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _T_ is right adjoint to _U_. <!--SR:!2026-02-07,252,277!2025-09-05,152,277-->
+- A terminal object _T_ in _C_ is ::@:: a universal morphism from _U_ to •. (annotation: That every object has an unique morphism to the terminal object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _T_ is right adjoint to _U_. <!--SR:!2026-02-07,252,277!2026-10-31,421,277-->
 
 ### relation to other categorical constructions
 

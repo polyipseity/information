@@ -115,7 +115,7 @@ The content is in teaching order.
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2028-11-01,1184,350!2026-01-25,333,310-->
   - descriptive statistics / methodologies
   - descriptive statistics / steps
-- [data](../../../../general/data.md) (singular: datum) ::@:: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2027-04-08,721,330!2025-09-05,281,330-->
+- [data](../../../../general/data.md) (singular: datum) ::@:: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2027-04-08,721,330!2029-03-09,1281,350-->
   - data / reason for summarizing ::@:: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2027-04-29,729,330!2025-10-23,320,330-->
   - data / reading a table ::@:: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2026-03-03,410,310!2028-04-28,1038,350-->
   - data / types of variables ::@:: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2026-11-04,546,310!2028-06-10,1072,350-->

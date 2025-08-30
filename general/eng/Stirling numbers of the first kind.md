@@ -21,7 +21,7 @@ In [mathematics](mathematics.md), especially {@{in [combinatorics](combinatorics
 
 ### definition by algebra
 
-{@{Signed Stirling numbers of the first kind}@} are {@{the coefficients $s(n,k)$ in the expansion of the [falling factorial](falling%20and%20rising%20factorials.md) $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1)$$}@} into {@{powers of the variable $x$: $$(x)_{n}=\sum _{k=0}^{n}s(n,k)x^{k},$$}@} <!--SR:!2025-11-26,306,330!2026-11-18,548,310!2025-09-05,223,310-->
+{@{Signed Stirling numbers of the first kind}@} are {@{the coefficients $s(n,k)$ in the expansion of the [falling factorial](falling%20and%20rising%20factorials.md) $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1)$$}@} into {@{powers of the variable $x$: $$(x)_{n}=\sum _{k=0}^{n}s(n,k)x^{k},$$}@} <!--SR:!2025-11-26,306,330!2026-11-18,548,310!2028-04-19,957,330-->
 
 For example, $(x)_{3}=x(x-1)(x-2)=x^{3}-3x^{2}+2x$, leading to {@{the values $s(3,3)=1$, $s(3,2)=-3$, and $s(3,1)=2$}@}. <!--SR:!2025-10-27,280,330-->
 

@@ -37,7 +37,7 @@ In {@{a model with a single explanatory variable}@}, RSS is given by:<sup>[\[1\]
 
 {@{The [least-squares regression line](least%20squares.md)}@} is given by {@{$$y=ax+b \,,$$}@} where {@{$b={\bar {y} }-a{\bar {x} }$ and $a={\frac {S_{xy} }{S_{xx} } }$}@}, where {@{$S_{xy}=\sum _{i=1}^{n}({\bar {x} }-x_{i})({\bar {y} }-y_{i})$ and $S_{xx}=\sum _{i=1}^{n}({\bar {x} }-x_{i})^{2}.$}@} Therefore, {@{$${\begin{aligned}\operatorname {RSS} &=\sum _{i=1}^{n}(y_{i}-f(x_{i}))^{2}=\sum _{i=1}^{n}(y_{i}-(ax_{i}+b))^{2}=\sum _{i=1}^{n}(y_{i}-ax_{i}-{\bar {y} }+a{\bar {x} })^{2}\\[5pt]&=\sum _{i=1}^{n}(a({\bar {x} }-x_{i})-({\bar {y} }-y_{i}))^{2}=a^{2}S_{xx}-2aS_{xy}+S_{yy}=S_{yy}-aS_{xy}=S_{yy}\left(1-{\frac {S_{xy}^{2} }{S_{xx}S_{yy} } }\right)\end{aligned} }$$}@} where {@{$S_{yy}=\sum _{i=1}^{n}({\bar {y} }-y_{i})^{2}.$}@} <!--SR:!2026-12-19,531,310!2025-11-21,253,330!2026-02-19,296,290!2027-01-04,541,310!2025-09-13,161,250!2027-10-18,781,330-->
 
-{@{The [Pearson product-moment correlation](Pearson%20correlation%20coefficient.md)}@} is given by {@{$r={\frac {S_{xy} }{\sqrt {S_{xx}S_{yy} } } };$}@} therefore, {@{$\operatorname {RSS} =S_{yy}(1-r^{2}).$}@} <!--SR:!2025-10-27,232,330!2025-09-05,98,250!2026-05-20,259,210-->
+{@{The [Pearson product-moment correlation](Pearson%20correlation%20coefficient.md)}@} is given by {@{$r={\frac {S_{xy} }{\sqrt {S_{xx}S_{yy} } } };$}@} therefore, {@{$\operatorname {RSS} =S_{yy}(1-r^{2}).$}@} <!--SR:!2025-10-27,232,330!2026-08-15,344,270!2026-05-20,259,210-->
 
 ## see also
 
