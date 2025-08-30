@@ -48,7 +48,7 @@ The sum total of each column should be {@{equal, or "balance"}@}. {@{The act of 
 
 ## limitations
 
-A trial balance only {@{checks the sum of debits against the sum of credits}@}. That is why {@{it does not guarantee that there are no errors}@}. The following are the main classes of errors that are not detected by the trial balance: {@{error of original entry, error of omission, error of reversal, error of commission, error of principle, and compensating errors}@}.
+A trial balance only {@{checks the sum of debits against the sum of credits}@}. That is why {@{it does not guarantee that there are no errors}@}. The following are the main classes of errors that are not detected by the trial balance: {@{error of original entry, error of omission, error of reversal}@}, {@{error of commission, error of principle, and compensating errors}@}.
 
 - __error of original entry__ ::@:: It is when both sides of a transaction include the wrong amount.<sup>[\[2\]](#^ref-2)</sup> For example, if a purchase invoice for £21 is entered as £12, this will result in an incorrect debit entry (to purchases), and an incorrect credit entry (to the relevant creditor account), both for £9 less, so the total of both columns will be £9 less, and will thus balance.
 - __error of omission__ ::@:: It is when a transaction is completely omitted from the accounting records.<sup>[\[3\]](#^ref-3)</sup> As the debits and credits for the transaction would balance, omitting it would still leave the totals balanced. A variation of this error is omitting one of the ledger account totals from the trial balance (but in this case the trial balance will not balance).

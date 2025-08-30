@@ -443,7 +443,7 @@ The content is in teaching order.
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later.
 - [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system.
   - revenue expenditure / characteristics ::@:: does not extend useful life beyond original estimate <br/> does not increase efficiency <br/> maintains normal operating conditions <br/> recurring in nature and involves small amounts of money at each occurrence
-  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Deprecation expense is lower later.
+  - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Depreciation expense is lower later.
 - depreciation
   - depreciation / effect ::@:: Say there is additional depreciation \(increase in expense\). <p> Net income would decrease, but mitigated by the tax rate, so the decrease is the additional depreciation multiplied by \(1 − tax rate\). Cash would increase, since the increase in depreciation is not cash flow, but the decrease in tax is cash flow, so the increase is the additional depreciation multiplied by tax rate. <p> This is because tax depends on pretax income.
 - [cash flow](../../../../general/cash%20flow.md) ::@:: It, in general, refers to payments made into or out of a business, project, or financial product.
