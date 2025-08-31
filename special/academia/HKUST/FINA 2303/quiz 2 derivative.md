@@ -40,4 +40,4 @@ tags:
 > ---
 >
 > - solution: {@{50%}@}
-> - annotation: {@{It is okay that the dividend growth rate exceeds the required rate of return. However, the dividend discount model does not work in this case: you would get negative stock price.}@} <!--SR:!2026-05-03,251,330!2025-09-07,67,310-->
+> - annotation: {@{It is okay that the dividend growth rate exceeds the required rate of return. However, the dividend discount model does not work in this case: you would get negative stock price.}@} <!--SR:!2026-05-03,251,330!2026-06-28,294,330-->

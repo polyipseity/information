@@ -39,7 +39,7 @@ The decision tree threshold are used as follows: {@{If the attribute value is sm
 
 ### input formats
 
-For inputting item lists, XLMiner provides 2 input formats: {@{binary matrix and item list}@}. The former is a table {@{with the column headers being the items and values (0 or 1) representing whether an item is in a transaction}@}. The latter is a table {@{with no column headers and values (string) representing the items themselves}@}. <!--SR:!2025-09-18,310,295!2025-09-07,348,355!2025-09-18,359,355-->
+For inputting item lists, XLMiner provides 2 input formats: {@{binary matrix and item list}@}. The former is a table {@{with the column headers being the items and values (0 or 1) representing whether an item is in a transaction}@}. The latter is a table {@{with no column headers and values (string) representing the items themselves}@}. <!--SR:!2025-09-18,310,295!2030-04-30,1696,375!2025-09-18,359,355-->
 
 ### partitioning
 

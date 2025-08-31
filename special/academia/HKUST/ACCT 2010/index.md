@@ -358,7 +358,7 @@ The content is in teaching order.
 - [capital expenditure](../../../../general/capital%20expenditure.md) (CAPEX)
   - capital expenditure / characteristics ::@:: increase efficiency <br/> involve large amounts of money <br/> major overhaul or improvements <br/> may extend useful life <br/> occurs infrequently usually <!--SR:!2025-09-11,213,363!2026-04-07,384,383-->
   - capital expenditure / effects ::@:: Such expenditure is deferred. Current net income is higher, so is taxes. Accumulated depreciation is higher later. <!--SR:!2026-08-03,486,396!2027-10-01,758,363-->
-- [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system. <!--SR:!2025-09-07,210,363!2026-08-22,502,403-->
+- [operating expense](../../../../general/operating%20expense.md) (opex) ::@:: Also called __revenue expenditure__ (rarely). It is an ongoing cost for running a product, business, or system. <!--SR:!2028-07-19,1046,383!2026-08-22,502,403-->
   - revenue expenditure / characteristics ::@:: does not extend useful life beyond original estimate <br/> does not increase efficiency <br/> maintains normal operating conditions <br/> recurring in nature and involves small amounts of money at each occurrence <!--SR:!2025-10-24,232,363!2028-07-06,1036,383-->
   - revenue expenditure / effects ::@:: Such expenditure is currently recognized. Current net income is lower, so is taxes. Deprecation expense is lower later. <!--SR:!2026-10-03,537,403!2026-02-18,346,383-->
 - capital expenditure vs. operating expenditure ::@:: Since they have different effects, many companies have policies regarding the expensing of all expenditures below a certain amount according to the _materiality constraint_. <!--SR:!2026-09-16,523,403!2025-11-03,259,376-->
@@ -425,7 +425,7 @@ The content is in teaching order.
 ## week 10 lecture 1
 
 - datetime: 2024-11-05T13:30:00+08:00/2024-11-05T14:50:00+08:00
-- [share capital](../../../../general/share%20capital.md) ::@:: It is the portion of a corporation's equity that has been derived by the issue of shares in the corporation to a shareholder, usually for cash. <!--SR:!2026-03-31,378,383!2025-09-07,211,363-->
+- [share capital](../../../../general/share%20capital.md) ::@:: It is the portion of a corporation's equity that has been derived by the issue of shares in the corporation to a shareholder, usually for cash. <!--SR:!2026-03-31,378,383!2028-07-24,1051,383-->
   - [authorized shares](../../../../general/authorised%20capital.md) ::@:: maximum number of shares that can be sold to public <!--SR:!2026-06-25,454,396!2026-09-01,511,403-->
   - [issued shares](../../../../general/issued%20shares.md) ::@:: authorized and sold to the public or repurchased <!--SR:!2026-07-25,479,403!2025-10-29,237,363-->
   - unissued shares ::@:: authorized but never sold and never repurchased <!--SR:!2026-08-18,498,403!2026-07-24,478,403-->

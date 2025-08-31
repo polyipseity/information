@@ -83,13 +83,13 @@ The content is in teaching order.
 - course logistics
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)  
   - artificial intelligence / definition ::@:: no widely accepted definition <!--SR:!2025-12-18,321,350!2025-10-31,283,350-->
-    - artificial intelligence / definition / Alan Turing ::@:: AI is the __science and engineering__ of __making intelligent machines__, especially intelligent computer programs. <!--SR:!2025-12-30,333,350!2025-09-07,225,330-->
+    - artificial intelligence / definition / Alan Turing ::@:: AI is the __science and engineering__ of __making intelligent machines__, especially intelligent computer programs. <!--SR:!2025-12-30,333,350!2028-06-27,1024,350-->
   - artificial intelligence / characteristics ::@:: AI borrows characteristics from human intelligence and applies them as algorithms in a computer-friendly way. <!--SR:!2026-01-16,346,350!2026-01-09,340,350-->
   - artificial intelligence / reasons for studying ::@:: AI is versatile (skillful), brighter career, skill of the century <!--SR:!2025-12-25,328,350!2025-09-23,252,332-->
   - artificial intelligence / academic disciplines ::@:: philosophy and cognition science, mathematics, neuroscience, psychology, computer science, linguistics, ... (many, remember some) <!--SR:!2028-04-02,956,350!2025-10-02,259,332-->
   - artificial intelligence / importance ::@:: air transport, banking and finance, computer vision, e-commerce, expert systems (for decision making), gaming and entertainment, healthcare, hiring, logistics, natural language processing, speech recognition, ... (many, remember some) <!--SR:!2028-02-18,930,350!2026-11-20,569,330-->
   - artificial intelligence / commonly confused terms ::@:: artificial intelligence, deep learning, machine learning, neural network <!--SR:!2028-04-15,978,350!2025-10-22,275,350-->
-    - machine learning ::@:: a subfield of _artificial intelligence_ that provides systems with the ability to automatically learn and improve from experience without being explicitly programmed <!--SR:!2025-09-07,238,332!2026-01-12,343,350-->
+    - machine learning ::@:: a subfield of _artificial intelligence_ that provides systems with the ability to automatically learn and improve from experience without being explicitly programmed <!--SR:!2028-08-30,1088,352!2026-01-12,343,350-->
     - neural network ::@:: an _algorithm_ in _machine learning_ to solve problems <!--SR:!2025-09-30,257,332!2026-01-08,339,350-->
     - deep learning ::@:: (considered within _neural network_) a subfield of _machine learning_ that uses _neural networks_ to analyze different factors with a structure similar to the human neural system <!--SR:!2028-03-03,944,350!2025-09-29,241,330-->
 

@@ -93,7 +93,7 @@ Note that if {@{you try to use Python to repeat the above mathematical proofs}@}
 
 ## spectrums
 
-{@{The magnitude spectrum}@} is {@{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}@}. For easier visualization, the magnitude may be {@{in logarithm scale}@}. The magnitude, intuitively, represents {@{the loudness of the complex sinusoid of a given frequency}@}. <!--SR:!2025-09-07,304,330!2029-03-21,1310,350!2029-03-10,1300,350!2027-03-22,723,330-->
+{@{The magnitude spectrum}@} is {@{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}@}. For easier visualization, the magnitude may be {@{in logarithm scale}@}. The magnitude, intuitively, represents {@{the loudness of the complex sinusoid of a given frequency}@}. <!--SR:!2029-06-21,1383,350!2029-03-21,1310,350!2029-03-10,1300,350!2027-03-22,723,330-->
 
 {@{The phase spectrum}@} is {@{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}@}. The phase, intuitively, represents {@{the time offset of the complex sinusoid of a given frequency}@}. <!--SR:!2029-07-23,1416,373!2029-07-20,1416,373!2026-02-03,417,373-->
 

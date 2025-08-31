@@ -36,7 +36,7 @@ The next four axioms describe {@{the [equality](equality%20(mathematics).md) [re
 2. 2nd axiom ::@:: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2027-09-12,850,345!2025-11-19,337,345-->
 3. 3rd axiom ::@:: For all natural numbers _x_ and _y_, if _x_ = _y_, then _y_ = _x_. That is, equality is [symmetric](symmetric%20relation.md). <!--SR:!2027-03-03,698,345!2025-09-10,284,345-->
 4. 4th axiom ::@:: For all natural numbers _x_, _y_ and _z_, if _x_ = _y_ and _y_ = _z_, then _x_ = _z_. That is, equality is [transitive](transitive%20relation.md). <!--SR:!2025-10-14,311,345!2028-03-20,991,345-->
-5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2025-09-07,282,345!2025-10-27,320,345-->
+5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2029-05-07,1338,365!2025-10-27,320,345-->
 <!-- markdownlint-restore -->
 
 The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2027-12-07,908,345!2025-12-14,358,345-->

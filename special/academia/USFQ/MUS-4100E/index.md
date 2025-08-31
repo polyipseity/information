@@ -472,8 +472,8 @@ The content is in teaching order.
   - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie <!--SR:!2025-10-20,139,420!2025-10-25,144,420-->
   - Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2027-01-17,533,414!2026-07-16,385,394-->
 - [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2025-09-09,138,414!2027-01-22,538,414-->
-  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2025-09-07,136,414!2025-09-19,142,414-->
-  - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-09-13,141,414!2025-09-07,136,414-->
+  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2027-10-20,773,434!2025-09-19,142,414-->
+  - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-09-13,141,414!2027-10-19,772,434-->
 - bebop
   - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2027-10-09,763,434!2025-09-12,140,414-->
   - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2026-07-10,380,394!2025-09-08,137,414-->
@@ -601,7 +601,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-07T08:30:00-05:00/2025-04-07T09:00:00-05:00
   - local: 2025-04-07T21:30:00+08:00/2025-04-07T22:00:00+08:00
-- [modal jazz](../../../../general/modal%20jazz.md) ::@:: It is jazz that makes use of musical modes, often modulating among them to accompany the chords instead of relying on one tonal center used across the piece. <!--SR:!2027-02-26,556,422!2025-09-07,96,402-->
+- [modal jazz](../../../../general/modal%20jazz.md) ::@:: It is jazz that makes use of musical modes, often modulating among them to accompany the chords instead of relying on one tonal center used across the piece. <!--SR:!2027-02-26,556,422!2027-02-20,531,422-->
   - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2027-02-09,544,422!2025-10-18,137,422-->
 - Miles Davis
   - Miles Davis / genres

@@ -61,7 +61,7 @@ __Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then
 
 ### _λ_\(_n_\) divides _φ_\(_n_\)
 
-This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2027-12-13,830,330!2026-01-08,297,341!2026-02-17,303,301!2027-04-23,630,321!2025-09-07,192,310!2026-02-07,277,290-->
+This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2027-12-13,830,330!2026-01-08,297,341!2026-02-17,303,301!2027-04-23,630,321!2027-04-26,596,310!2026-02-07,277,290-->
 
 We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Euler's%20theorem.md)}@}. <!--SR:!2025-10-23,233,330-->
 
@@ -103,7 +103,7 @@ There, the table entry in row number 26 at column
 
 - % LoL \> ⁠4/5⁠   → 60.49
 
-indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 have {@{_λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>}@} meaning that the majority of the _λ_ values is {@{exponential in the length _l_<!-- markdown separator --> := log<sub>2</sub>\(_n_\) of the input _n_}@}, namely {@{$$\left(2^{\frac {4}{5} }\right)^{l}=2^{\frac {4l}{5} }=\left(2^{l}\right)^{\frac {4}{5} }=n^{\frac {4}{5} }.$$}@} <!--SR:!2026-02-01,316,341!2026-10-17,429,270!2025-09-07,20,359-->
+indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 have {@{_λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>}@} meaning that the majority of the _λ_ values is {@{exponential in the length _l_<!-- markdown separator --> := log<sub>2</sub>\(_n_\) of the input _n_}@}, namely {@{$$\left(2^{\frac {4}{5} }\right)^{l}=2^{\frac {4l}{5} }=\left(2^{l}\right)^{\frac {4}{5} }=n^{\frac {4}{5} }.$$}@} <!--SR:!2026-02-01,316,341!2026-10-17,429,270!2025-11-21,75,359-->
 
 | _ν_ | _n_ = 2<sup>_ν_</sup> – 1 | sum <br/> $\sum _{i\leq n}\lambda (i)$ | average <br/> ${\tfrac {1}{n} }\sum _{i\leq n}\lambda (i)$ | Erdős average | Erdős /exact average | LoL average | % LoL \> ⁠4/5⁠ | % LoL \> ⁠7/8⁠ |
 | ---:| -------------------------:| --------------------------------------:| ----------------------------------------------------------:| -------------:| --------------------:| -----------:| --------------:| --------------:|

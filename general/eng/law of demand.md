@@ -90,7 +90,7 @@ Price elasticity of demand can be {@{classified as elastic, inelastic, or unitar
 
 ### income elasticity of demand
 
-{@{[Income elasticity of demand](income%20elasticity%20of%20demand.md)}@} is {@{an economic measurement tool developed to measure the sensitivity of a goods quantity demanded when there is a change in the real income of a consumer}@}. To calculate the income elasticity of demand, {@{the percentage change in quantity demanded is divided by the percentage change in the consumers income}@}. {@{$$\epsilon _{d}={\frac {\%\ {\text{change in quantity demanded} } }{\%\ {\text{change in income} } } }$$}@} <!--SR:!2026-01-28,348,349!2025-09-07,230,330!2025-10-28,272,330!2025-10-27,270,330-->
+{@{[Income elasticity of demand](income%20elasticity%20of%20demand.md)}@} is {@{an economic measurement tool developed to measure the sensitivity of a goods quantity demanded when there is a change in the real income of a consumer}@}. To calculate the income elasticity of demand, {@{the percentage change in quantity demanded is divided by the percentage change in the consumers income}@}. {@{$$\epsilon _{d}={\frac {\%\ {\text{change in quantity demanded} } }{\%\ {\text{change in income} } } }$$}@} <!--SR:!2026-01-28,348,349!2028-07-20,1047,350!2025-10-28,272,330!2025-10-27,270,330-->
 
 The income elasticity of demand allows businesses to {@{analyse and further predict the impact of business cycles on total sales}@}.<sup>[\[16\]](#^ref-16)</sup> The income elastitcty of demand thus allows {@{goods to be broadly categorised as [normal goods](normal%20good.md) and [inferior goods](inferior%20good.md)}@}. A positive measurement suggests that {@{the good is a normal good, and a negative measurement suggests an inferior good}@}. The income elasticity of demand effectively represents {@{a consumer's idea as to whether a good is a luxury or a necessity}@}. <!--SR:!2025-11-09,280,330!2025-10-26,270,330!2026-01-23,344,349!2025-11-02,274,330-->
 
@@ -137,7 +137,7 @@ Unlike {@{[Giffen goods](Giffen%20good.md), which are inferior items}@}, [Veblen
 - [demand (economics)](demand.md)
 - [price–performance ratio](price–performance%20ratio.md)
 - second law of demand ::@:: ([price elasticity](price%20elasticity%20of%20demand.md) over time) <!--SR:!2028-01-30,886,330!2026-02-01,352,349-->
-- third law of demand ::@:: ([Alchian–Allen effect](Alchian–Allen%20effect.md)) <!--SR:!2026-08-04,462,310!2025-09-07,228,329-->
+- third law of demand ::@:: ([Alchian–Allen effect](Alchian–Allen%20effect.md)) <!--SR:!2026-08-04,462,310!2028-07-08,1035,349-->
 - [supply and demand](supply%20and%20demand.md)
 - [law of supply](law%20of%20supply.md)
 - [tragedy of the commons](tragedy%20of%20the%20commons.md)

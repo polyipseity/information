@@ -77,7 +77,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 3. [inventories](inventory.md) ::@:: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2027-09-02,819,330!2028-01-01,904,330-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::@:: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2027-07-16,783,330!2028-08-29,1119,350-->
 5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::@:: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2026-08-17,475,310!2026-10-28,562,310-->
-6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::@:: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period <!--SR:!2027-04-23,704,330!2025-09-07,271,330-->
+6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::@:: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period <!--SR:!2027-04-23,704,330!2029-01-25,1236,350-->
 7. [loan](loan.md) to (less than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back within one financial period <!--SR:!2025-09-24,285,330!2028-05-27,1045,350-->
 
 #### non-current assets

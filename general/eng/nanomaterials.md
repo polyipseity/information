@@ -13,7 +13,7 @@ tags:
 
 __Nanomaterials__ describe {@{[materials](material.md) of which a single unit is sized with at least one [dimension](dimension.md) in the range 1 to 100 [nm](nanometer.md)}@}. <!--SR:!2030-09-12,1898,290-->
 
-Nanomaterials often have {@{unique [optical properties](optical%20properties.md), mechanical properties, electrical properties due to [surface area effect](surface-area-to-volume%20ratio.md) and [quantum effect](quantum%20mechanics.md)}@}. <!--SR:!2025-09-07,550,270-->
+Nanomaterials often have {@{unique [optical properties](optical%20properties.md), mechanical properties, electrical properties due to [surface area effect](surface-area-to-volume%20ratio.md) and [quantum effect](quantum%20mechanics.md)}@}. <!--SR:!2029-10-01,1485,270-->
 
 ## references
 

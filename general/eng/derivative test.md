@@ -127,7 +127,7 @@ The _one-sided higher-order derivative test_ is {@{stronger than the two-sided h
 >
 > - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :@: [Strict local maximum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [concave](convex%20function.md). <!--SR:!2028-10-14,1181,294-->
 > - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :@: [Strict local minimum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [convex](convex%20function.md). <!--SR:!2026-05-10,464,270-->
-> - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+ \setminus \set{n \in \mathbb N^+ : 3 \mid n},c=0$ :@: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md). <!--SR:!2025-09-07,415,274-->
+> - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+ \setminus \set{n \in \mathbb N^+ : 3 \mid n},c=0$ :@: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md). <!--SR:!2028-10-16,1135,274-->
 > - $f(x):=x\lvert{x}\rvert,c=0$ :@: Inconclusive by the two-sided test and [stationary rising inflection point](maximum%20and%20minimum.md) and not local [extremum](maximum%20and%20minimumm.md) by the one-sided test. <!--SR:!2026-04-18,557,279-->
 > - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :@: [Stationary rising inflection point](inflection%20point.md) and not local [extremum](maximum%20and%20minimumm.md). <!--SR:!2026-06-25,597,272-->
 > - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :@: Inconclusive because $\forall{n\in\mathbb{N}^+}\,f^{(n)}(0)=0$. Actual is [strict local minimum](maximum%20and%20minimum.md). <!--SR:!2028-05-05,1269,359-->

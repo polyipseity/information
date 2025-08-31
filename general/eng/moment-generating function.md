@@ -107,7 +107,7 @@ The moment-generating function can be used {@{in conjunction with [Markov's ineq
 
 {@{Various lemmas}@}, such as {@{[Hoeffding's lemma](Hoeffding's%20lemma.md) or [Bennett's inequality](Bennett's%20inequality.md)}@} provide {@{bounds on the moment-generating function in the case of a zero-mean, bounded random variable}@}. <!--SR:!2025-12-28,268,330!2026-10-17,479,310!2026-10-29,487,310-->
 
-When {@{$X$ is non-negative}@}, the moment generating function gives {@{a simple, useful bound on the moments}@}: {@{$$E[X^{m}]\leq \left({\frac {m}{te} }\right)^{m}M_{X}(t),$$}@} For {@{any $X,m\geq 0$ and $t>0$}@}. <!--SR:!2027-01-18,540,310!2026-01-26,292,330!2026-01-20,240,270!2025-09-07,178,310-->
+When {@{$X$ is non-negative}@}, the moment generating function gives {@{a simple, useful bound on the moments}@}: {@{$$E[X^{m}]\leq \left({\frac {m}{te} }\right)^{m}M_{X}(t),$$}@} For {@{any $X,m\geq 0$ and $t>0$}@}. <!--SR:!2027-01-18,540,310!2026-01-26,292,330!2026-01-20,240,270!2027-10-18,771,330-->
 
 This follows from {@{the inequality $1+x\leq e^{x}$}@} into which we can {@{substitute $x'=tx/m-1$ implies $tx/m\leq e^{tx/m-1}$ for any $x,t,m\in \mathbb {R}$}@}. Now, if {@{$t>0$ and $x,m\geq 0$}@}, this can be {@{rearranged to $x^{m}\leq (m/(te))^{m}e^{tx}$}@}. {@{Taking the expectation on both sides}@} {@{gives the bound on $E[X^{m}]$ in terms of $E[e^{tX}]$}@}. <!--SR:!2025-11-18,237,330!2026-12-31,527,310!2026-05-06,341,290!2025-12-20,215,270!2026-01-15,283,330!2025-10-31,206,310-->
 
