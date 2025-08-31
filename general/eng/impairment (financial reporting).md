@@ -78,7 +78,7 @@ To {@{calculate [depreciation](depreciation.md) on the asset}@}, {@{the new non-
 
 ### consequential asset value increases
 
-{@{Reversal of impairment losses}@} is {@{required for investments in [debt instruments](bond%20market.md)}@}, but {@{no reversal is permitted under [IFRS](International%20Financial%20Reporting%20Standards.md)}@} for {@{any impairment changes recognized in net income for equity instruments accounted for in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income) (annotation: other comprehensive income)}@}; however, {@{subsequent changes in the equity investment's fair value}@} are {@{recognized in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income)}@}. <!--SR:!2025-12-19,271,330!2027-08-16,728,330!2026-11-24,519,310!2025-09-06,152,250!2026-01-09,287,330!2026-01-12,290,330-->
+{@{Reversal of impairment losses}@} is {@{required for investments in [debt instruments](bond%20market.md)}@}, but {@{no reversal is permitted under [IFRS](International%20Financial%20Reporting%20Standards.md)}@} for {@{any impairment changes recognized in net income for equity instruments accounted for in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income) (annotation: other comprehensive income)}@}; however, {@{subsequent changes in the equity investment's fair value}@} are {@{recognized in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income)}@}. <!--SR:!2025-12-19,271,330!2027-08-16,728,330!2026-11-24,519,310!2026-09-25,384,250!2026-01-09,287,330!2026-01-12,290,330-->
 
 ## see also
 

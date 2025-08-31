@@ -31,7 +31,7 @@ There are {@{two conventions, distinguished by whether $m$ is permitted to be ze
 
 ## general
 
-Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, although often {@{the term is restricted to positive divisors}@}. For example, there are {@{six divisors of 4; they are 1, 2, 4, −1, −2, and −4}@}, but {@{only the positive ones \(1, 2, and 4\) would usually be mentioned}@}. <!--SR:!2025-11-20,248,330!2025-09-06,183,310!2025-12-29,278,330!2025-12-15,268,330-->
+Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, although often {@{the term is restricted to positive divisors}@}. For example, there are {@{six divisors of 4; they are 1, 2, 4, −1, −2, and −4}@}, but {@{only the positive ones \(1, 2, and 4\) would usually be mentioned}@}. <!--SR:!2025-11-20,248,330!2027-11-05,790,330!2025-12-29,278,330!2025-12-15,268,330-->
 
 {@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}. <!--SR:!2025-12-28,277,330!2025-12-07,261,330!2025-12-24,275,330!2025-12-09,263,330!2025-12-16,268,330!2026-01-07,285,330-->
 

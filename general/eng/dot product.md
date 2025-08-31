@@ -197,7 +197,7 @@ A dot product function is included in:
 - [Fortran](Fortran.md) as `dot_product(A,B)` or `sum(conjg(A) * B)`
 - [Julia](Julia%20(programming%20language).md) as  `A' * B` or standard library LinearAlgebra as `dot(A, B)`
 - [R \(programming language\)](R%20(programming%20language).md) as `sum(A * B)` for vectors or, more generally for matrices, as `A %*% B`
-- [Matlab](MATLAB.md) ::@:: as  `A' * B`  or  `conj(transpose(A)) * B`  or  `sum(conj(A) .* B)`  or  `dot(A, B)` <!--SR:!2025-09-06,140,323!2026-03-19,307,363-->
+- [Matlab](MATLAB.md) ::@:: as  `A' * B`  or  `conj(transpose(A)) * B`  or  `sum(conj(A) .* B)`  or  `dot(A, B)` <!--SR:!2027-05-25,626,343!2026-03-19,307,363-->
 - [Python](Python%20(programming%20language).md) \(package [NumPy](NumPy.md)\) ::@:: as  `np.matmul(A, B)`  or  `np.dot(A, B)`  or  `np.inner(A, B)` <!--SR:!2026-04-11,327,363!2026-07-19,414,383-->
 - [GNU Octave](GNU%20Octave.md) as  `sum(conj(X) .* Y, dim)`, and similar code as Matlab
 - Intel oneAPI Math Kernel Library real p?dot `dot = sub(x)'*sub(y)`; complex p?dotc `dotc = conjg(sub(x)')*sub(y)`

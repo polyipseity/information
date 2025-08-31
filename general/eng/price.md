@@ -33,7 +33,7 @@ In {@{many financial transactions}@}, it is {@{customary to quote prices in othe
 
 "Price" sometimes refers to {@{the quantity of payment requested by a seller of goods or services, rather than the eventual payment amount}@}. In business this requested amount is often referred to as {@{the offer price or selling price, while the actual payment may be called transaction price or traded price}@}. <!--SR:!2027-05-24,702,330!2025-11-25,289,330-->
 
-{@{Economic price theory}@} asserts that in {@{a free market economy the [market price](price.md#market%20price) reflects the interaction between [supply and demand](supply%20and%20demand.md)}@}:<sup>[\[2\]](#^ref-2)</sup> the price is {@{set so as to equate the quantity being supplied and that being demanded}@}. In turn, these quantities are determined by {@{the [marginal utility](marginal%20utility.md) of the asset to different buyers and to different sellers}@}. {@{Supply and demand, and hence price}@}, may be influenced by {@{other factors, such as government subsidy or manipulation through industry collusion}@}. <!--SR:!2025-09-06,209,310!2026-12-01,544,310!2027-10-18,813,330!2025-10-07,248,330!2025-10-23,262,330!2027-04-24,678,330-->
+{@{Economic price theory}@} asserts that in {@{a free market economy the [market price](price.md#market%20price) reflects the interaction between [supply and demand](supply%20and%20demand.md)}@}:<sup>[\[2\]](#^ref-2)</sup> the price is {@{set so as to equate the quantity being supplied and that being demanded}@}. In turn, these quantities are determined by {@{the [marginal utility](marginal%20utility.md) of the asset to different buyers and to different sellers}@}. {@{Supply and demand, and hence price}@}, may be influenced by {@{other factors, such as government subsidy or manipulation through industry collusion}@}. <!--SR:!2028-02-25,902,330!2026-12-01,544,310!2027-10-18,813,330!2025-10-07,248,330!2025-10-23,262,330!2027-04-24,678,330-->
 
 When {@{a [raw material](raw%20material.md) or a similar economic good is for sale at multiple locations}@}, {@{the [law of one price](law%20of%20one%20price.md) is generally believed to hold}@}. This essentially states that {@{the cost difference between the locations cannot be greater than that representing shipping, taxes, other distribution costs and more}@}. <!--SR:!2027-12-21,849,330!2025-11-25,289,330!2025-12-01,294,330-->
 
@@ -45,7 +45,7 @@ According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five 
 - __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2027-11-19,824,330!2027-08-28,774,330-->
 - __Providing__ an incentive to owners of resources ::@:: to direct them into the most highly remunerated uses <!--SR:!2025-11-06,273,330!2025-11-19,284,330-->
 - __Distributing__ ::@:: output among the owners of resources <!--SR:!2025-11-03,269,330!2025-11-18,283,330-->
-- __Rationing__ ::@:: fixed supplies of goods among consumers. <!--SR:!2025-09-06,208,310!2025-11-25,289,330-->
+- __Rationing__ ::@:: fixed supplies of goods among consumers. <!--SR:!2028-02-15,892,330!2025-11-25,289,330-->
 
 ## price and value
 

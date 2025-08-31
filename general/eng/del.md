@@ -98,7 +98,7 @@ The Laplacian is {@{ubiquitous throughout modern [mathematical physics](mathemat
 
 ### Hessian matrix
 
-While {@{$\nabla ^{2}$ usually represents the [Laplacian](Laplacian.md)}@}, sometimes {@{$\nabla ^{2}$ also represents the [Hessian matrix](Hessian%20matrix.md)}@}. The former refers to {@{the inner product of $\nabla$}@}, while the latter refers to {@{the [dyadic product](dyadic%20product.md) of $\nabla$}@}: <p> {@{$\nabla ^{2}=\nabla \cdot \nabla ^{T}$}@}. <p> So {@{whether $\nabla ^{2}$ refers to a Laplacian or a Hessian matrix}@} depends on the context. <!--SR:!2026-02-08,267,330!2026-01-14,252,330!2025-09-06,148,310!2026-03-07,294,330!2026-01-04,242,330!2026-01-11,249,330-->
+While {@{$\nabla ^{2}$ usually represents the [Laplacian](Laplacian.md)}@}, sometimes {@{$\nabla ^{2}$ also represents the [Hessian matrix](Hessian%20matrix.md)}@}. The former refers to {@{the inner product of $\nabla$}@}, while the latter refers to {@{the [dyadic product](dyadic%20product.md) of $\nabla$}@}: <p> {@{$\nabla ^{2}=\nabla \cdot \nabla ^{T}$}@}. <p> So {@{whether $\nabla ^{2}$ refers to a Laplacian or a Hessian matrix}@} depends on the context. <!--SR:!2026-02-08,267,330!2026-01-14,252,330!2027-06-03,635,330!2026-03-07,294,330!2026-01-04,242,330!2026-01-11,249,330-->
 
 ### tensor derivative
 
@@ -149,7 +149,7 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2026-02-01,260,330!2025-09-26,128,250-->
 
-And {@{one of them can even be expressed with the tensor product}@}, if {@{the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2026-11-29,482,310!2025-10-03,113,210!2025-09-06,19,360-->
+And {@{one of them can even be expressed with the tensor product}@}, if {@{the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2026-11-29,482,310!2025-10-03,113,210!2025-11-12,67,360-->
 
 ## precautions
 

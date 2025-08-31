@@ -63,7 +63,7 @@ It follows immediately that {@{the signed Stirling numbers of the first kind}@} 
 
 ## table of values
 
-Below is {@{a [triangular array](triangular%20array.md) of unsigned values for the Stirling numbers of the first kind}@}, similar in form to {@{[Pascal's triangle](Pascal's%20triangle.md)}@}. These values are {@{easy to generate using the recurrence relation in the previous section}@}. <!--SR:!2025-09-06,224,310!2025-11-02,286,330!2025-11-22,303,330-->
+Below is {@{a [triangular array](triangular%20array.md) of unsigned values for the Stirling numbers of the first kind}@}, similar in form to {@{[Pascal's triangle](Pascal's%20triangle.md)}@}. These values are {@{easy to generate using the recurrence relation in the previous section}@}. <!--SR:!2028-04-30,967,330!2025-11-02,286,330!2025-11-22,303,330-->
 
 | __n__\\_k_ | __0__ | __1__  | __2__   | __3__   | __4__  | __5__  | __6__ | __7__ | __8__ | __9__ | __10__ |
 | ----------:| -----:| ------:| -------:| -------:| ------:| -----: | ----: | ----: | ----: | ----: | -----: |
@@ -179,7 +179,7 @@ Another exact nested sum expansion for these Stirling numbers is computed by {@{
 
 ### relations to natural logarithm function
 
-{@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2026-01-28,304,289!2026-03-22,342,291!2025-09-06,43,131!2026-12-21,535,309-->
+{@{The _n_-th [derivative](derivative.md) of the _μ_-th power of the [natural logarithm](natural%20logarithm.md)}@} involves {@{the signed Stirling numbers of the first kind}@}: {@{$${\operatorname {d} ^{n}\!(\ln x)^{\mu } \over \operatorname {d} \!x^{n} }=x^{-n}\sum _{k=1}^{n}s(n,n+1-k)\mu ^{\underline {k} }(\ln x)^{\mu -k},$$}@} where {@{$\mu ^{\underline {i} }$ is the [falling factorial](falling%20and%20rising%20factorials.md), and $s(n,n+1-k)$ is the signed Stirling number}@}. <!--SR:!2026-01-28,304,289!2026-03-22,342,291!2025-09-27,21,130!2026-12-21,535,309-->
 
 It can be proved by {@{using [mathematical induction](mathematical%20induction.md)}@}. <!--SR:!2025-12-10,322,351-->
 

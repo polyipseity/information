@@ -39,7 +39,7 @@ Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be
 
 ## table of values
 
-Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2025-09-06,219,310!2025-11-28,187,250-->
+Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2028-04-02,939,330!2025-11-28,187,250-->
 
 | ___k___\\___n___ | __0__ | __1__ | __2__ | __3__ | __4__ | __5__ | __6__ | __7__ | __8__ | __9__ | __10__ |
 | ----------------:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| ------:|

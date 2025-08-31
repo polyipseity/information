@@ -64,7 +64,7 @@ __Significance of moments \(raw, central, standardised\) and cumulants \(raw, no
 
 - Main article: [Variance](variance.md)
 
-{@{The second [central moment](central%20moment.md)}@} is {@{the [variance](variance.md)}@}. {@{The positive [square root](square%20root.md) of the variance}@} is {@{the [standard deviation](standard%20deviation.md) $\sigma \equiv \left(\operatorname {E} \left[(x-\mu )^{2}\right]\right)^{\frac {1}{2} }.$}@} <!--SR:!2025-09-06,190,310!2026-01-11,293,330!2026-01-07,290,330!2026-01-02,285,330-->
+{@{The second [central moment](central%20moment.md)}@} is {@{the [variance](variance.md)}@}. {@{The positive [square root](square%20root.md) of the variance}@} is {@{the [standard deviation](standard%20deviation.md) $\sigma \equiv \left(\operatorname {E} \left[(x-\mu )^{2}\right]\right)^{\frac {1}{2} }.$}@} <!--SR:!2027-12-06,821,330!2026-01-11,293,330!2026-01-07,290,330!2026-01-02,285,330-->
 
 #### skewness
 
@@ -72,7 +72,7 @@ __Significance of moments \(raw, central, standardised\) and cumulants \(raw, no
 
 {@{The third central moment}@} is {@{the measure of the lopsidedness of the distribution}@}; {@{any symmetric distribution}@} will {@{have a third central moment, if defined, of zero}@}. {@{The normalised third central moment}@} is called {@{the [skewness](skewness.md), often _γ_}@}. A distribution that is {@{skewed to the left \(the tail of the distribution is longer on the left\) will have a negative skewness}@}. A distribution that is {@{skewed to the right \(the tail of the distribution is longer on the right\), will have a positive skewness}@}. <!--SR:!2025-12-18,274,330!2025-12-12,269,330!2025-10-29,234,330!2025-12-10,268,330!2027-05-14,661,330!2027-11-14,802,330!2026-12-02,516,310!2025-09-08,192,310-->
 
-For {@{distributions that are not too different from the [normal distribution](normal%20distribution.md)}@}, {@{the [median](median.md) will be somewhere near _μ_ − _γσ_/6}@}; {@{the [mode](mode%20(statistics).md) about _μ_ − _γσ_/2}@}. <!--SR:!2026-01-12,294,330!2026-04-28,346,290!2025-09-06,130,230-->
+For {@{distributions that are not too different from the [normal distribution](normal%20distribution.md)}@}, {@{the [median](median.md) will be somewhere near _μ_ − _γσ_/6}@}; {@{the [mode](mode%20(statistics).md) about _μ_ − _γσ_/2}@}. <!--SR:!2026-01-12,294,330!2026-04-28,346,290!2026-11-05,425,250-->
 
 #### kurtosis
 
@@ -80,7 +80,7 @@ For {@{distributions that are not too different from the [normal distribution](n
 
 {@{The fourth central moment}@} is {@{a measure of the heaviness of the tail of the distribution}@}. Since {@{it is the expectation of a fourth power}@}, {@{the fourth central moment, where defined, is always nonnegative}@}; and {@{except for a [point distribution](degenerate%20distribution.md), it is always strictly positive}@}. The fourth central moment of {@{a normal distribution is 3<!-- markdown separator -->_σ_<sup>4</sup>}@}. <!--SR:!2025-10-31,235,330!2025-11-17,250,330!2025-11-08,242,330!2027-09-09,751,330!2026-01-04,287,330!2026-12-08,488,270-->
 
-{@{The [kurtosis](kurtosis.md) _κ_}@} is defined {@{to be the standardized fourth central moment}@}. \(Equivalently, as in the next section, {@{excess kurtosis is the fourth [cumulant](cumulant.md) divided by the square of the second [cumulant](cumulant.md)}@}.\)<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> If {@{a distribution has heavy tails}@}, {@{the kurtosis will be high \(sometimes called leptokurtic\)}@}; conversely, {@{light-tailed distributions}@} \(for example, {@{bounded distributions such as the uniform}@}\) have {@{low kurtosis \(sometimes called platykurtic\)}@}. <!--SR:!2027-09-18,761,330!2027-05-19,665,330!2025-11-15,180,230!2025-11-16,249,330!2027-05-06,654,330!2025-09-06,185,310!2026-11-26,512,310!2026-12-27,534,310-->
+{@{The [kurtosis](kurtosis.md) _κ_}@} is defined {@{to be the standardized fourth central moment}@}. \(Equivalently, as in the next section, {@{excess kurtosis is the fourth [cumulant](cumulant.md) divided by the square of the second [cumulant](cumulant.md)}@}.\)<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> If {@{a distribution has heavy tails}@}, {@{the kurtosis will be high \(sometimes called leptokurtic\)}@}; conversely, {@{light-tailed distributions}@} \(for example, {@{bounded distributions such as the uniform}@}\) have {@{low kurtosis \(sometimes called platykurtic\)}@}. <!--SR:!2027-09-18,761,330!2027-05-19,665,330!2025-11-15,180,230!2025-11-16,249,330!2027-05-06,654,330!2027-11-12,797,330!2026-11-26,512,310!2026-12-27,534,310-->
 
 The kurtosis can be {@{positive without limit}@}, but {@{_κ_ must be greater than or equal to _γ_<sup>2</sup> + 1}@}; equality {@{only holds for [binary distributions](Bernoulli%20distribution.md) (annotation: a.k.a. [Bernoulli distributions](Bernoulli%20distribution.md))}@}. For {@{unbounded skew distributions not too far from normal}@}, {@{_κ_ tends to be somewhere in the area of _γ_<sup>2</sup> and 2<!-- markdown separator -->_γ_<sup>2</sup>}@}. <!--SR:!2025-12-02,261,330!2026-10-01,474,310!2025-12-12,219,270!2025-11-10,244,330!2026-04-17,335,290-->
 

@@ -128,7 +128,7 @@ For example, {@{a \(strict\) [2-category](strict%202-category.md)}@} is {@{a cat
 
 This process can be {@{extended for all [natural numbers](natural%20number.md) _n_}@}, and these are called {@{[_n_-categories](higher%20category%20theory.md)}@}. There is even {@{a notion of _[ω-category](quasi-category.md)_}@} corresponding to {@{the [ordinal number](ordinal%20number.md) [ω](ordinal%20number.md)}@}. <!--SR:!2025-12-15,265,330!2026-01-14,288,330!2025-09-25,197,310!2025-12-10,262,330-->
 
-Higher-dimensional categories are {@{part of the broader mathematical field of [higher-dimensional algebra](higher-dimensional%20algebra.md)}@}, a concept introduced by {@{[Ronald Brown](Ronald%20Brown%20(mathematician).md)}@}. For a conversational introduction to these ideas, see [John Baez, 'A Tale of _n_-categories' \(1996\).](http://math.ucr.edu/home/baez/week73.html) <!--SR:!2026-01-12,286,330!2025-09-06,182,310-->
+Higher-dimensional categories are {@{part of the broader mathematical field of [higher-dimensional algebra](higher-dimensional%20algebra.md)}@}, a concept introduced by {@{[Ronald Brown](Ronald%20Brown%20(mathematician).md)}@}. For a conversational introduction to these ideas, see [John Baez, 'A Tale of _n_-categories' \(1996\).](http://math.ucr.edu/home/baez/week73.html) <!--SR:!2026-01-12,286,330!2027-11-02,787,330-->
 
 ## historical notes
 
