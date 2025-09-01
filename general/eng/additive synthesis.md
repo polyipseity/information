@@ -21,7 +21,7 @@ tags:
 
 {@{__Additive synthesis__}@} is {@{a [sound synthesis](sound%20synthesis.md#theory) technique that creates [timbre](timbre.md) by adding [sine](sine.md) waves together}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>
 
-{@{The timbre of musical instruments}@} can be considered in the light of {@{[Fourier theory](Fourier%20series.md)}@} to consist of {@{multiple [harmonic](harmonic.md) or inharmonic _[partials](harmonic%20series%20(music).md#partial)_ or [overtones](overtone.md)}@}. {@{Each partial}@} is {@{a sine wave of different [frequency](frequency.md) and [amplitude](amplitude.md)}@} that {@{swells and decays over time due to [modulation](modulation.md) from an [ADSR envelope](ADSR%20envelope.md) or [low frequency oscillator](low%20frequency%20oscillator.md)}@}.
+{@{The timbre of musical instruments}@} can be considered in the light of {@{[Fourier theory](Fourier%20series.md)}@} to consist of {@{multiple [harmonic](harmonic.md) or inharmonic _[partials](harmonic%20series%20(music).md#partial)_ or [overtones](overtone.md)}@}. {@{Each partial}@} is {@{a sine wave of different [frequency](frequency.md) and [amplitude](amplitude.md)}@} that {@{swells and decays over time due to [modulation](modulation.md)}@} from {@{an [ADSR envelope](ADSR%20envelope.md) or [low frequency oscillator](low%20frequency%20oscillator.md)}@}.
 
 Additive synthesis most directly {@{generates sound}@} by {@{adding the output of multiple sine wave generators}@}. Alternative implementations may use {@{pre-computed [wavetables](wavetable%20synthesis.md) or the inverse [fast Fourier transform](fast%20Fourier%20transform.md)}@}.
 

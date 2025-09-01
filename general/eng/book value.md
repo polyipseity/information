@@ -19,7 +19,7 @@ In {@{the United Kingdom}@}, {@{the term [net asset value](net%20asset%20value.m
 
 ## asset book value
 
-{@{An asset's initial book value}@} is {@{its actual cash value or its acquisition cost}@}. {@{Cash assets}@} are {@{recorded or "booked" at actual cash value}@}. Assets such as {@{buildings, land and equipment}@} are {@{valued based on their acquisition cost}@}, which {@{includes the actual cash cost of the asset plus certain costs tied to the purchase of the asset}@}, such as {@{broker fees}@}. {@{Not all purchased items}@} are {@{recorded as assets}@}; {@{incidental supplies are recorded as expenses}@}. Some assets might be {@{recorded as current expenses for tax purposes}@}. An example of this is {@{assets purchased and expensed under [Section 179](section%20179.md) of the U.S. tax code}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+{@{An asset's initial book value}@} is {@{its actual cash value or its acquisition cost}@}. {@{Cash assets}@} are {@{recorded or "booked" at actual cash value}@}. Assets such as {@{buildings, land and equipment}@} are {@{valued based on their acquisition cost}@}, which {@{includes the actual cash cost of the asset}@} plus {@{certain costs tied to the purchase of the asset}@}, such as {@{broker fees}@}. {@{Not all purchased items}@} are {@{recorded as assets}@}; {@{incidental supplies}@} are {@{recorded as expenses}@}. Some assets might be {@{recorded as current expenses for tax purposes}@}. An example of this is {@{assets purchased and expensed under [Section 179](section%20179.md) of the U.S. tax code}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
 
 ### depreciable, amortizable and depletable assets
 

@@ -133,7 +133,7 @@ Commands names can be {@{truncated at the end to produce an abbreviation if the 
 
 A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}.
 
-The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}.
+The buffers we are usually interested in exploiting is {@{usually on the first three \(stack, heap, read-write segment\)}@} because we can {@{write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}.
 
 Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}.
 
