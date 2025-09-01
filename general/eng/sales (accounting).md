@@ -44,7 +44,7 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 > |            | Full credit for {@{customer return of merchandise purchased on account}@}. |             |              |
 > | 8-7        | {@{Inventory}@}                                                            | {@{15.00}@} |              |
 > |            | &ensp;{@{Cost of goods sold}@}                                             |             | {@{15.00}@}  |
-> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2025-11-25,243,330!2026-01-27,293,330!2026-01-02,273,330!2026-01-02,273,330!2025-12-31,271,330!2026-01-03,274,330!2025-12-30,270,330!2025-12-25,265,330!2026-01-16,284,330!2026-01-28,294,330!2026-01-08,276,330!2025-09-09,168,310!2025-12-24,264,330!2025-12-28,268,330-->
+> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2025-11-25,243,330!2026-01-27,293,330!2026-01-02,273,330!2026-01-02,273,330!2025-12-31,271,330!2026-01-03,274,330!2025-12-30,270,330!2025-12-25,265,330!2026-01-16,284,330!2026-01-28,294,330!2026-01-08,276,330!2027-08-29,719,330!2025-12-24,264,330!2025-12-28,268,330-->
 
 {@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-05,276,330!2026-01-27,293,330!2025-12-27,267,330!2025-09-22,190,310!2026-01-17,285,330!2025-09-23,191,310-->
 

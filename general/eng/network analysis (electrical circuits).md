@@ -98,7 +98,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### star-to-delta transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{\mathrm {ac} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{b} } }\\R_{\mathrm {ab} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\\R_{\mathrm {bc} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{a} } }\end{aligned} }$$ <!--SR:!2025-09-27,124,270!2025-09-08,116,290-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{\mathrm {ac} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{b} } }\\R_{\mathrm {ab} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\\R_{\mathrm {bc} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{a} } }\end{aligned} }$$ <!--SR:!2025-09-27,124,270!2025-11-07,60,270-->
 
 ### general form of network node elimination
 

@@ -22,7 +22,7 @@ LTL is built up from {@{a finite set of [propositional variables](propositional%
 - if _p_ ∈ _AP_ ::@:: then _p_ is an LTL formula; <!--SR:!2026-03-22,371,363!2026-03-18,368,363-->
 - if _ψ_ and _φ_ are LTL formulas ::@:: then ¬ψ, φ ∨ ψ, __X__ ψ, and φ __U__ ψ are LTL formulas.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-03-15,365,363!2025-12-17,293,350-->
 
-__X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator -->t and __U__ is read as __u__<!-- markdown separator -->ntil}@}. Other than {@{these fundamental operators}@}, there are {@{additional logical and temporal operators defined in terms of the fundamental operators, in order to write LTL formulas succinctly}@}. The additional logical operators are {@{∧, →, ↔, __true__, and __false__}@}. Following are {@{the additional temporal operators}@}. <!--SR:!2025-09-08,208,330!2026-04-18,394,363!2025-12-14,274,343!2026-02-24,351,363!2026-01-02,307,350-->
+__X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator -->t and __U__ is read as __u__<!-- markdown separator -->ntil}@}. Other than {@{these fundamental operators}@}, there are {@{additional logical and temporal operators defined in terms of the fundamental operators, in order to write LTL formulas succinctly}@}. The additional logical operators are {@{∧, →, ↔, __true__, and __false__}@}. Following are {@{the additional temporal operators}@}. <!--SR:!2028-04-15,950,350!2026-04-18,394,363!2025-12-14,274,343!2026-02-24,351,363!2026-01-02,307,350-->
 
 - __G__ ::@:: for always \(__g__<!-- markdown separator -->lobally\) <!--SR:!2025-12-13,273,343!2026-03-25,374,363-->
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2026-03-16,366,363!2025-11-05,256,343-->
@@ -119,7 +119,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 
 > __flashcards__
 >
-> - temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2025-09-08,208,330!2026-06-29,417,310-->
+> - temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2028-04-17,952,350!2026-06-29,417,310-->
 > - temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2026-05-19,358,303!2026-12-23,473,270-->
 
 ## negation normal form

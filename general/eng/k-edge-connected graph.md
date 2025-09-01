@@ -15,7 +15,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(disc
 
 {@{The __edge-connectivity__ of a graph}@} is {@{the largest _k_ for which the graph is _k_-edge-connected}@}. <!--SR:!2026-01-20,294,330!2027-08-04,715,330-->
 
-{@{Edge connectivity and the [enumeration](graph%20enumeration.md) of _k_-edge-connected graphs}@} was studied by {@{[Camille Jordan](Camille%20Jordan.md) in 1869}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-12-10,492,310!2025-09-08,150,230-->
+{@{Edge connectivity and the [enumeration](graph%20enumeration.md) of _k_-edge-connected graphs}@} was studied by {@{[Camille Jordan](Camille%20Jordan.md) in 1869}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-12-10,492,310!2027-01-15,494,250-->
 
 ## formal definition
 

@@ -48,7 +48,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="284d"--><!-- The following content is generated at 2024-01-04T20:17:52.390426+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←__duplet rule__ <!--SR:!2025-09-09,625,330!2032-09-04,2618,350-->
+- _(begin)_→::@::←__duplet rule__ <!--SR:!2033-06-23,2844,350!2032-09-04,2618,350-->
 - __duplet rule__→::@::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2032-11-27,2684,350!2032-08-18,2604,350-->
 - __[18-electron rule](18-electron%20rule.md)__→::@::←_(end)_ <!--SR:!2033-05-23,2818,350!2032-06-06,2547,350-->
 

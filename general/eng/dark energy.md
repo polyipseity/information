@@ -17,7 +17,7 @@ The evidence for dark energy is {@{indirect but comes from three independent sou
 
 - distance and redshift ::@:: Distance measurements and their relation to [redshift](redshift.md), which suggest the universe has expanded more in the latter half of its life. <!--SR:!2026-06-03,479,310!2027-05-18,756,330-->
 - curvature of the universe ::@:: The theoretical need for a type of additional energy that is not matter or dark matter to form the [observationally flat universe](shape%20of%20the%20universe.md#curvature%20of%20the%20universe) (absence of any detectable global curvature). <!--SR:!2028-07-23,1117,350!2026-03-09,385,290-->
-- mass density ::@:: Measures of large-scale wave patterns of mass density in the universe. <!--SR:!2028-02-21,964,330!2025-09-08,295,330-->
+- mass density ::@:: Measures of large-scale wave patterns of mass density in the universe. <!--SR:!2028-02-21,964,330!2029-05-15,1345,350-->
 
 ### supernovae
 

@@ -93,7 +93,7 @@ return chain.from_iterable(await gather(
 - [full moon](full%20moon.md):@:all night (sunset to sunrise) <!--SR:!2027-03-02,738,330-->
 - waning gibbous:@:most of night to early morning <!--SR:!2026-01-16,380,290-->
 - last quarter:@:late night to morning <!--SR:!2027-06-02,808,330-->
-- waning [crescent](cresceent.md):@:pre-dawn to early afternoon <!--SR:!2025-09-08,258,250-->
+- waning [crescent](cresceent.md):@:pre-dawn to early afternoon <!--SR:!2028-03-02,906,270-->
 
 <!--/pytextgen-->
 

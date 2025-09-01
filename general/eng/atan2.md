@@ -8,7 +8,7 @@ tags:
 
 # atan2
 
-In [computing](computing.md) and [mathematics](mathematics.md), the [function](function%20(mathematics).md) __atan2__ is {@{the 2-[argument](argument%20of%20a%20function.md) arctangent}@}. By definition, {@{$\theta = \operatorname{atan2}(y, x)$}@} is {@{the [angle measure](angle.md) \(in [radians](radian.md), with $-\pi < \theta \leq \pi$\)}@} between {@{the positive $x$-axis and the [ray](line%20(geometry).md#ray) from the [origin](origin%20(mathematics).md) to the point $(x, y)$ in the [Cartesian plane](Cartesian%20coordinate%20system.md)}@}. Equivalently, $\operatorname{atan2}(y,x)$ is {@{the [argument](argument%20(complex%20analysis).md) (also called _phase_ or _angle_) of the [complex number](complex%20number.md) $x + iy$}@}. <!--SR:!2029-05-05,1361,352!2028-04-02,1042,350!2028-03-06,931,292!2028-11-30,1237,352!2025-09-08,16,321-->
+In [computing](computing.md) and [mathematics](mathematics.md), the [function](function%20(mathematics).md) __atan2__ is {@{the 2-[argument](argument%20of%20a%20function.md) arctangent}@}. By definition, {@{$\theta = \operatorname{atan2}(y, x)$}@} is {@{the [angle measure](angle.md) \(in [radians](radian.md), with $-\pi < \theta \leq \pi$\)}@} between {@{the positive $x$-axis and the [ray](line%20(geometry).md#ray) from the [origin](origin%20(mathematics).md) to the point $(x, y)$ in the [Cartesian plane](Cartesian%20coordinate%20system.md)}@}. Equivalently, $\operatorname{atan2}(y,x)$ is {@{the [argument](argument%20(complex%20analysis).md) (also called _phase_ or _angle_) of the [complex number](complex%20number.md) $x + iy$}@}. <!--SR:!2029-05-05,1361,352!2028-04-02,1042,350!2028-03-06,931,292!2028-11-30,1237,352!2025-11-21,74,341-->
 
 ## references
 

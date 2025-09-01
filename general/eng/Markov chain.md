@@ -192,7 +192,7 @@ Since {@{___π___ is parallel to __u__<sub>1</sub>\(normalized by L2 norm\)}@} a
 
 Since {@{periodicity is a class property}@}, if {@{a Markov chain is irreducible}@}, then {@{all its states have the same period}@}. In particular, if {@{one state is aperiodic}@}, then {@{the whole Markov chain is aperiodic}@}.<sup>[\[50\]](#^ref-50)</sup> <!--SR:!2026-04-26,400,367!2025-12-29,298,341!2026-05-01,404,367!2026-03-14,364,359!2025-12-01,277,347-->
 
-If {@{a finite Markov chain is irreducible}@}, then {@{all states are positive recurrent}@}, and it has {@{a unique stationary distribution given by $\pi _{i}=1/E[T_{i}]$}@}. <!--SR:!2025-09-08,206,321!2026-04-25,399,367!2027-01-15,572,321-->
+If {@{a finite Markov chain is irreducible}@}, then {@{all states are positive recurrent}@}, and it has {@{a unique stationary distribution given by $\pi _{i}=1/E[T_{i}]$}@}. <!--SR:!2027-07-01,661,321!2026-04-25,399,367!2027-01-15,572,321-->
 
 ### ergodicity
 
@@ -422,7 +422,7 @@ Markov chain models have been used in {@{advanced baseball analysis since 1960}@
 
 ### Markov text generators
 
-Markov processes can also be used to {@{[generate superficially real-looking text](natural%20language%20generation.md)}@} given {@{a sample document}@}. Markov processes are used in {@{a variety of recreational "[parody generator](parody%20generator.md)" software}@} \(see {@{[dissociated press](dissociated%20press.md)}@}, Jeff Harrison,<sup>[\[103\]](#^ref-103)</sup> {@{[Mark V. Shaney](Mark%20V.%20Shaney.md)}@},<sup>[\[104\]](#^ref-104)</sup><sup>[\[105\]](#^ref-105)</sup> and Academias Neutronium\). {@{Several open-source text generation libraries using Markov chains}@} exist. <!--SR:!2026-03-14,362,359!2026-03-31,377,359!2025-09-08,194,327!2025-11-07,256,339!2026-03-28,351,301!2026-03-25,371,359-->
+Markov processes can also be used to {@{[generate superficially real-looking text](natural%20language%20generation.md)}@} given {@{a sample document}@}. Markov processes are used in {@{a variety of recreational "[parody generator](parody%20generator.md)" software}@} \(see {@{[dissociated press](dissociated%20press.md)}@}, Jeff Harrison,<sup>[\[103\]](#^ref-103)</sup> {@{[Mark V. Shaney](Mark%20V.%20Shaney.md)}@},<sup>[\[104\]](#^ref-104)</sup><sup>[\[105\]](#^ref-105)</sup> and Academias Neutronium\). {@{Several open-source text generation libraries using Markov chains}@} exist. <!--SR:!2026-03-14,362,359!2026-03-31,377,359!2028-02-02,877,347!2025-11-07,256,339!2026-03-28,351,301!2026-03-25,371,359-->
 
 ### probabilistic forecasting
 

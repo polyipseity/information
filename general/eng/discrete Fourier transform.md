@@ -51,7 +51,7 @@ __Eq.2__ is {@{also $N$-periodic (in index $n$)}@}. In __Eq.2__, each $X_k$ is {
 
 ### linearity
 
-The DFT is {@{a linear transform}@}, i.e. if {@{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}@}, then {@{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}@}. <!--SR:!2025-09-09,310,356!2025-10-22,341,356!2025-10-28,345,356-->
+The DFT is {@{a linear transform}@}, i.e. if {@{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}@}, then {@{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}@}. <!--SR:!2029-10-29,1511,376!2025-10-22,341,356!2025-10-28,345,356-->
 
 ### time and frequency reversal
 
@@ -85,7 +85,7 @@ The vectors {@{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\l
 
 ### The Plancherel theorem and Parseval's theorem
 
-If {@{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}@} then {@{[Parseval's theorem](parseval's%20theorem.md)}@} states: {@{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}@} where the star denotes [complex conjugation](complex%20conjugate.md). {@{The [Plancherel theorem](plancherel%20theorem.md)}@} is {@{a special case of Parseval's theorem}@} and states: {@{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}@}. <!--SR:!2028-06-30,1108,356!2026-11-27,629,336!2026-06-29,486,336!2025-09-30,296,296!2027-07-31,842,356!2025-09-08,310,356-->
+If {@{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}@} then {@{[Parseval's theorem](parseval's%20theorem.md)}@} states: {@{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}@} where the star denotes [complex conjugation](complex%20conjugate.md). {@{The [Plancherel theorem](plancherel%20theorem.md)}@} is {@{a special case of Parseval's theorem}@} and states: {@{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}@}. <!--SR:!2028-06-30,1108,356!2026-11-27,629,336!2026-06-29,486,336!2025-09-30,296,296!2027-07-31,842,356!2029-11-01,1515,376-->
 
 These theorems are {@{also equivalent to the unitary condition below}@}. <!--SR:!2027-02-09,686,336-->
 

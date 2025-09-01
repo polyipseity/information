@@ -96,7 +96,7 @@ The content is in teaching order.
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2028-11-25,1352,370-->
-  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2025-09-09,407,397-->
+  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2031-09-25,2207,417-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
@@ -541,7 +541,7 @@ wood
 - _(begin)_→::@::←brick <!--SR:!2028-04-23,1138,377!2026-12-30,786,332-->
 - brick→::@::←concrete <!--SR:!2027-04-26,782,325!2026-02-28,548,397-->
 - concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2026-06-11,551,341-->
-- new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
+- new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2030-06-24,1750,360-->
 - steel→::@::←stone <!--SR:!2027-01-10,646,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2028-03-09,1063,341!2030-03-16,1652,352-->
 - wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2026-12-17,711,380-->
@@ -600,7 +600,7 @@ nuclear
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->
 - electrical→::@::←industrial <!--SR:!2026-01-31,366,301!2026-07-16,442,250-->
 - industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2029-11-26,1560,352-->
-- manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
+- manufacturing→::@::←mechanical <!--SR:!2031-01-21,1961,397!2026-07-28,643,357-->
 - mechanical→::@::←nuclear <!--SR:!2030-05-08,1755,397!2027-01-28,775,355-->
 - nuclear→::@::←_(end)_ <!--SR:!2029-12-01,1624,394!2030-12-13,1967,385-->
 
@@ -635,7 +635,7 @@ water
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←air <!--SR:!2027-05-11,854,361!2025-12-28,486,401-->
-- air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2025-09-08,364,338-->
+- air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2030-04-29,1694,358-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2029-12-14,1574,347!2026-01-08,497,400-->
 - noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
 - waste→::@::←water <!--SR:!2027-10-08,990,377!2028-08-19,1238,380-->
@@ -809,7 +809,7 @@ water distribution network
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←sewage collection network <!--SR:!2027-08-11,807,341!2028-05-01,1105,337-->
-- sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
+- sewage collection network→::@::←storm water management <!--SR:!2028-01-06,849,267!2025-09-27,374,341-->
 - storm water management→::@::←water collection network <!--SR:!2030-06-11,1740,360!2029-07-01,1424,340-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
 - water distribution network→::@::←_(end)_ <!--SR:!2027-10-26,1024,387!2026-02-13,440,321-->
@@ -952,7 +952,7 @@ wave
 - _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2028-05-16,1176,377-->
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2028-09-16,1261,380-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2028-04-23,1037,286-->
-- flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
+- flood→::@::←strong wind <!--SR:!2028-01-02,845,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2029-02-23,1284,314-->
 - wave→::@::←_(end)_ <!--SR:!2027-09-06,976,377!2027-08-21,915,335-->
 

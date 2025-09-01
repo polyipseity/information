@@ -169,7 +169,7 @@ Generally speaking, {@{the process of decompression}@} is {@{simply a matter of 
 
 ## main properties
 
-{@{The probabilities used}@} can be {@{generic ones for the application domain that are based on average experience, or they can be the actual frequencies found in the text being compressed}@}. This requires that {@{a [frequency table](frequency%20(statistics).md) must be stored with the compressed text}@}. See {@{the [Decompression](#decompression) section above}@} for {@{more information about the various techniques employed for this purpose}@}. <!--SR:!2025-10-23,255,330!2025-12-02,285,330!2027-07-11,725,330!2025-09-09,201,310!2025-10-13,246,330-->
+{@{The probabilities used}@} can be {@{generic ones for the application domain that are based on average experience, or they can be the actual frequencies found in the text being compressed}@}. This requires that {@{a [frequency table](frequency%20(statistics).md) must be stored with the compressed text}@}. See {@{the [Decompression](#decompression) section above}@} for {@{more information about the various techniques employed for this purpose}@}. <!--SR:!2025-10-23,255,330!2025-12-02,285,330!2027-07-11,725,330!2028-01-20,863,330!2025-10-13,246,330-->
 
 ### optimality
 

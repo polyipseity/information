@@ -25,7 +25,7 @@ tags:
 
 > {@{![Heawood graph](../../archives/Wikimedia%20Commons/Heawood%20graph%20bipartite%20(bicolor).svg)}@}
 >
-> {@{the [Heawood graph](Heawood%20graph.md) is bipartite}@} <!--SR:!2025-09-08,196,270!2027-09-27,794,330-->
+> {@{the [Heawood graph](Heawood%20graph.md) is bipartite}@} <!--SR:!2027-09-16,738,290!2027-09-27,794,330-->
 
 In {@{the [mathematical](mathematics.md) field of [graph theory](graph%20theory.md)}@}, a __bipartite graph__ (or __bigraph__) is {@{a [graph](graph%20(discrete%20mathematics).md) whose [vertices](vertex%20(graph%20theory).md) can be divided into two [disjoint](disjoint%20sets.md) and [independent sets](independent%20set%20(graph%20theory).md) $U$ and $V$}@}, that is, {@{every [edge](glossary%20of%20graph%20theory.md#edge) connects a [vertex](vertex%20(graph%20theory).md) in $U$ to one in $V$}@}. {@{Vertex sets $U$ and $V$}@} are usually called {@{the _parts_ of the graph}@}. Equivalently, a bipartite graph is {@{a graph that does not contain any odd-length [cycles](cycle%20(graph%20theory).md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2027-10-29,820,330!2027-09-26,793,330!2025-11-15,290,330!2025-10-26,273,330!2025-10-20,269,330!2025-09-25,248,330-->
 
@@ -131,7 +131,7 @@ In {@{[projective geometry](projective%20geometry.md)}@}, {@{[Levi graphs](levi%
 - [bipartite hypergraph](bipartite%20hypergraph.md), ::@:: a generalization of bipartiteness to [hypergraphs](hypergraph.md). <!--SR:!2027-02-19,638,330!2025-10-02,255,330-->
 - [bipartite matroid](bipartite%20matroid.md), ::@:: a class of matroids that includes the [graphic matroids](graphic%20matroid.md) of bipartite graphs <!--SR:!2026-07-04,447,310!2028-01-02,867,330-->
 - [bipartite network projection](bipartite%20network%20projection.md), ::@:: a weighting technique for compressing information about bipartite networks <!--SR:!2025-12-17,288,290!2026-05-25,364,310-->
-- [convex bipartite graph](convex%20bipartite%20graph.md), ::@:: a bipartite graph whose vertices can be ordered so that the vertex neighborhoods are contiguous <!--SR:!2026-04-15,320,250!2025-09-09,197,270-->
+- [convex bipartite graph](convex%20bipartite%20graph.md), ::@:: a bipartite graph whose vertices can be ordered so that the vertex neighborhoods are contiguous <!--SR:!2026-04-15,320,250!2027-03-02,539,270-->
 - [multipartite graph](multipartite%20graph.md), ::@:: a generalization of bipartite graphs to more than two subsets of vertices <!--SR:!2027-08-07,753,330!2027-02-15,634,330-->
 - [parity graph](parity%20graph.md), ::@:: a generalization of bipartite graphs in which every two [induced paths](induced%20path.md) between the same two points have the same parity <!--SR:!2025-12-31,300,290!2026-04-01,293,290-->
 - [quasi-bipartite graph](quasi-bipartite%20graph.md), ::@:: a type of Steiner tree problem instance in which the terminals form an independent set, allowing approximation algorithms that generalize those for bipartite graphs <!--SR:!2026-10-08,453,270!2026-02-12,310,270-->

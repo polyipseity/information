@@ -108,7 +108,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2025-10-13,293,330-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2028-10-16,1154,350-->
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
-- `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2025-09-09,272,330-->
+- `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2029-01-29,1238,350-->
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->
 - `finish` ::@:: run until the current function returns <!--SR:!2025-10-11,291,330!2028-10-13,1151,350-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
@@ -133,7 +133,7 @@ Commands names can be {@{truncated at the end to produce an abbreviation if the 
 
 A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2025-10-11,291,330!2027-09-11,828,330!2027-10-20,849,330!2026-03-17,377,310!2027-05-04,727,330!2028-03-28,997,350-->
 
-The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2025-09-08,271,330!2027-06-11,746,330-->
+The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2028-02-19,894,330!2027-06-11,746,330-->
 
 Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}. <!--SR:!2028-05-14,1033,350!2028-12-04,1195,350!2028-03-12,984,350!2028-09-07,1125,350!2028-09-02,1122,350!2028-04-26,1018,350!2028-11-24,1185,350-->
 

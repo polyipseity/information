@@ -164,7 +164,7 @@ The content is in teaching order.
 - datetime: 2024-09-23T12:00:00+08:00
 - [control flow](control%20flow.md)
   - [§ for-iteration](control%20flow.md#for-iteration)
-    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::@:: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration. <!--SR:!2025-12-18,355,372!2025-09-09,255,352-->
+    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::@:: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration. <!--SR:!2025-12-18,355,372!2029-01-24,1233,372-->
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
     - addition: `list(value)`

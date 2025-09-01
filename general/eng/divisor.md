@@ -61,7 +61,7 @@ There are some elementary rules:
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If $a\mid bc$, and $\gcd(a,b)=1$, then $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2025-11-09,239,330!2025-11-16,244,330-->
 - (annotation: prime divisibility) ::@:: If $p$ is a prime number and $p\mid ab$ then $p\mid a$ or $p\mid b$ (annotation: or both). <!--SR:!2025-12-07,261,330!2025-12-31,280,330-->
 
-{@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2026-01-08,286,330!2026-04-18,339,290!2025-12-24,275,330!2025-11-13,242,330!2025-11-27,254,330!2025-09-09,177,310-->
+{@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2026-01-08,286,330!2026-04-18,339,290!2025-12-24,275,330!2025-11-13,242,330!2025-11-27,254,330!2027-10-14,765,330-->
 
 {@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2025-12-16,268,330!2025-12-17,269,330!2026-01-10,288,330-->
 

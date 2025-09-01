@@ -48,7 +48,7 @@ The simplest and most common form of mathematical induction infers that {@{a sta
 1. The __base case__ (or __initial case__) ::@:: prove that the statement holds for 0, or 1. <!--SR:!2028-11-10,1161,350!2025-09-14,260,330-->
 2. The __induction step__ (or __inductive step__, or __step case__) ::@:: prove that for every _n_, if the statement holds for _n_, then it holds for _n_ + 1. In other words, assume that the statement holds for some arbitrary natural number _n_, and prove that the statement holds for _n_ + 1. <!--SR:!2027-11-23,816,330!2025-09-10,256,330-->
 
-{@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2025-09-09,255,330!2025-09-13,259,330!2028-10-21,1144,350-->
+{@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2028-11-19,1167,350!2025-09-13,259,330!2028-10-21,1144,350-->
 
 Authors who prefer to define natural numbers to begin at 0 use that value in the base case; those who define natural numbers to begin at 1 use that value.
 
@@ -162,7 +162,7 @@ Although {@{the form just described requires one to prove the base case}@}, this
 
 #### equivalence with ordinary induction
 
-Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2025-09-08,254,330!2025-09-12,258,330!2028-10-28,1150,350!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
+Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2028-11-06,1155,350!2025-09-12,258,330!2028-10-28,1150,350!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
 
 If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2025-09-10,256,330!2028-10-18,1141,350!2028-11-09,1160,350!2028-10-04,1130,350-->
 
@@ -172,7 +172,7 @@ Complete induction is most useful when {@{several instances of the inductive hyp
 
 #### example: prime factorization
 
-Another proof by complete induction uses {@{the hypothesis that the statement holds for _all_ smaller $n$ more thoroughly}@}. Consider the statement that {@{"every [natural number](natural%20number.md) greater than 1 is a product of (one or more) [prime numbers](prime%20number.md)"}@}, which is {@{the "[existence](fundamental%20theorem%20of%20arithmetic.md#existence)" part of the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. For proving the induction step, the induction hypothesis is that {@{for a given $n>1$ the statement holds for all smaller $n>1$}@}. If {@{$m$ is prime then it is certainly a product of primes}@}, and if not, then {@{by definition it is a product: $m=n_{1}n_{2}$, where neither of the factors is equal to 1}@}; hence {@{neither is equal to $m$, and so both are greater than 1 and smaller than $m$}@}. The induction hypothesis {@{now applies to $n_{1}$ and $n_{2}$, so each one is a product of primes}@}. Thus {@{$m$ is a product of products of primes, and hence by extension a product of primes itself}@}. <!--SR:!2028-10-17,1141,350!2028-10-23,1147,350!2025-09-09,255,330!2028-11-15,1165,350!2028-10-07,1133,350!2027-03-03,665,330!2028-09-09,1109,350!2027-02-18,653,330!2027-12-21,838,330-->
+Another proof by complete induction uses {@{the hypothesis that the statement holds for _all_ smaller $n$ more thoroughly}@}. Consider the statement that {@{"every [natural number](natural%20number.md) greater than 1 is a product of (one or more) [prime numbers](prime%20number.md)"}@}, which is {@{the "[existence](fundamental%20theorem%20of%20arithmetic.md#existence)" part of the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. For proving the induction step, the induction hypothesis is that {@{for a given $n>1$ the statement holds for all smaller $n>1$}@}. If {@{$m$ is prime then it is certainly a product of primes}@}, and if not, then {@{by definition it is a product: $m=n_{1}n_{2}$, where neither of the factors is equal to 1}@}; hence {@{neither is equal to $m$, and so both are greater than 1 and smaller than $m$}@}. The induction hypothesis {@{now applies to $n_{1}$ and $n_{2}$, so each one is a product of primes}@}. Thus {@{$m$ is a product of products of primes, and hence by extension a product of primes itself}@}. <!--SR:!2028-10-17,1141,350!2028-10-23,1147,350!2028-11-18,1166,350!2028-11-15,1165,350!2028-10-07,1133,350!2027-03-03,665,330!2028-09-09,1109,350!2027-02-18,653,330!2027-12-21,838,330-->
 
 #### example: dollar amounts revisited
 
@@ -184,7 +184,7 @@ __Proof.__
 
 _Base case_ ::@:: Show that $S(k)$ holds for $k=12,13,14,15$. $${\begin{aligned}4\cdot 3+5\cdot 0=12\\4\cdot 2+5\cdot 1=13\\4\cdot 1+5\cdot 2=14\\4\cdot 0+5\cdot 3=15\end{aligned} }$$ <p> The base case holds. <!--SR:!2028-11-13,1163,350!2028-09-23,1122,350-->
 
-_Induction step_ ::@:: Given some $j>15$, assume $S(m)$ holds for all $m$ with $12\leq m<j$. Prove that $S(j)$ holds. <p> Choosing $m=j-4$, and observing that $15<j\implies 12\leq j-4<j$ shows that $S(j-4)$ holds, by the inductive hypothesis. That is, the sum $j-4$ can be formed by some combination of $4$ and $5$ dollar coins. Then, simply adding a $4$ dollar coin to that combination yields the sum $j$. That is, $S(j)$ holds<sup>[\[20\]](#^ref-20)</sup> Q.E.D. <!--SR:!2025-09-09,255,330!2025-09-12,258,330-->
+_Induction step_ ::@:: Given some $j>15$, assume $S(m)$ holds for all $m$ with $12\leq m<j$. Prove that $S(j)$ holds. <p> Choosing $m=j-4$, and observing that $15<j\implies 12\leq j-4<j$ shows that $S(j-4)$ holds, by the inductive hypothesis. That is, the sum $j-4$ can be formed by some combination of $4$ and $5$ dollar coins. Then, simply adding a $4$ dollar coin to that combination yields the sum $j$. That is, $S(j)$ holds<sup>[\[20\]](#^ref-20)</sup> Q.E.D. <!--SR:!2028-11-18,1166,350!2025-09-12,258,330-->
 
 ### forward-backward induction
 
@@ -200,7 +200,7 @@ The induction step {@{must be proved for all values of _n_}@}. To illustrate thi
 
 _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2028-10-02,1129,350!2028-11-05,1157,350-->
 
-_Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2025-09-08,254,330!2028-10-10,1135,350-->
+_Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2028-11-08,1157,350!2028-10-10,1135,350-->
 
 {@{The base case $n=1$}@} is {@{trivial}@}, and {@{the induction step is correct in all cases $n>1$}@}. However, {@{the argument used in the induction step}@} is {@{incorrect for $n+1=2$}@}, because the statement that {@{"the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}. <!--SR:!2028-09-24,1122,350!2027-11-15,809,330!2025-09-30,25,376!2025-09-30,25,376!2025-09-29,24,376!2025-09-29,24,376-->
 
@@ -244,7 +244,7 @@ Strictly speaking, it is {@{not necessary in transfinite induction to prove a ba
 The principle of mathematical induction is usually stated as {@{an [axiom](axiom.md) of the natural numbers; see [Peano axioms](Peano%20axioms.md)}@}. It is strictly stronger than {@{the [well-ordering principle](well-ordering%20principle.md) in the context of the other Peano axioms}@}. Suppose the following: <!--SR:!2027-08-21,796,330!2028-09-08,1108,350-->
 
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2028-10-20,1144,350!2028-08-31,1100,350-->
-- For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2028-10-25,1148,350!2025-09-08,254,330-->
+- For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2028-10-25,1148,350!2028-11-07,1156,350-->
 - For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2025-09-16,262,330-->
 - No natural number is ::@:: less than zero. <!--SR:!2028-10-27,1149,350!2028-10-19,1142,350-->
 

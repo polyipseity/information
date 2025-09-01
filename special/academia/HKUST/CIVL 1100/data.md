@@ -38,7 +38,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 
 - description ::@:: stadium in Beijing, China <!--SR:!2027-01-19,777,330!2029-03-15,1438,370-->
 - image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2030-07-17,1820,400!2025-11-20,457,400-->
-- shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2030-04-24,1736,392!2025-09-09,404,385-->
+- shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2030-04-24,1736,392!2031-07-04,2124,405-->
 
 ## Burj Al Arab
 
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2026-02-21,535,400-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-09-08,75,130!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-12-12,95,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2030-01-28,1669,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2030-06-20,1783,400-->
 

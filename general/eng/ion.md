@@ -336,7 +336,7 @@ return chain.from_iterable(await gather(
 - lead(II) ion:@:colorless <!--SR:!2029-01-17,1506,253-->
 - iron(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-19,876,207-->
-- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2025-09-09,67,150-->
+- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2025-12-16,98,150-->
 - zinc ion:@:colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion:@:<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion:@:_(n/a)_ <!--SR:!2028-01-30,1312,276-->
@@ -346,7 +346,7 @@ return chain.from_iterable(await gather(
 - chromium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion:@:colorless <!--SR:!2027-08-19,833,302-->
 - titanium(III) ion:@:<span style="color: purple; background-color: white;">purple</span> <!--SR:!2025-09-25,114,150-->
-- vanadium(II) ion:@:<span style="color: violet;">violet</span> <!--SR:!2025-09-09,66,150-->
+- vanadium(II) ion:@:<span style="color: violet;">violet</span> <!--SR:!2025-12-15,97,150-->
 - vanadium(III) ion:@:<span style="color: green;">green</span> <!--SR:!2026-06-18,390,190-->
 - manganese(III) ion:@:<span style="color: red;">red</color> <!--SR:!2025-10-25,509,250-->
 
