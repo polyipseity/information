@@ -226,7 +226,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/eye_pattern) from
 
 ## external links
 
-> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg) Wikimedia Commons has media related to ___[Eye diagrams](https://commons.wikimedia.org/wiki/Category:Eye_diagrams)___.
+> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg) Wikimedia Commons has media related to ___[Eye diagrams](https://commons.wikimedia.org/wiki/Category%3AEye_diagrams)___.
 
 - <a id="CITEREFRuckerbauer2009"></a> Ruckerbauer, Hermann \(29 June 2009\). ["An Eye is Born"](https://www.youtube.com/watch?v=my7CI84le5g). _[YouTube](YouTube.md)_. Gives an example video of construction of an eye pattern
 - [Understanding Data Eye Diagram Methodology for Analyzing High Speed Digital Signals](http://www.onsemi.com/pub_link/Collateral/AND9075-D.PDF)
