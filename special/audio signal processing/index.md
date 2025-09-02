@@ -199,7 +199,7 @@ The content is in recommended learning order.
 - [International Computer Music Conference](../../general/International%20Computer%20Music%20Conference.md) \(ICMC\) ::@:: It is a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association \(ICMA\). <p> It was a pioneer of conferences dedicated to computer music \(started 1974\). <!--SR:!2025-09-24,68,312!2025-09-24,68,312-->
 - goodbye
 - Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!2025-09-24,68,312!2025-09-15,59,312-->
-- [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\) <!--SR:!2025-09-10,54,310!2025-09-12,56,312-->
+- [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\) <!--SR:!2026-04-28,230,330!2025-09-12,56,312-->
 
 ## references
 

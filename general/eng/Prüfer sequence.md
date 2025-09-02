@@ -23,7 +23,7 @@ In {@{[combinatorial](combinatorics.md) [mathematics](mathematics.md)}@}, {@{the
 
 ## algorithm to convert a tree into a Prüfer sequence
 
-One can {@{generate a labeled tree's Prüfer sequence}@} by {@{iteratively removing vertices from the tree until only two vertices remain}@}. Specifically, {@{consider a labeled tree _T_ with vertices {1, 2, ..., _n_}<!-- flashcard separator -->}@}. At {@{step _i_}@}, {@{remove the leaf with the smallest label and set the _i_-th element of the Prüfer sequence to be the label of this leaf's neighbour}@}. <!--SR:!2025-09-15,246,330!2025-09-10,242,330!2028-08-29,1087,350!2028-09-08,1095,350!2027-09-15,752,330-->
+One can {@{generate a labeled tree's Prüfer sequence}@} by {@{iteratively removing vertices from the tree until only two vertices remain}@}. Specifically, {@{consider a labeled tree _T_ with vertices {1, 2, ..., _n_}<!-- flashcard separator -->}@}. At {@{step _i_}@}, {@{remove the leaf with the smallest label and set the _i_-th element of the Prüfer sequence to be the label of this leaf's neighbour}@}. <!--SR:!2025-09-15,246,330!2028-09-15,1101,350!2028-08-29,1087,350!2028-09-08,1095,350!2027-09-15,752,330-->
 
 The Prüfer sequence of a labeled tree is {@{unique and has length _n_ − 2}@}. <!--SR:!2025-09-15,246,330-->
 

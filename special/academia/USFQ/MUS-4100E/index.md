@@ -217,7 +217,7 @@ The content is in teaching order.
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2026-01-15,275,355!2026-01-15,276,355-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2026-01-18,278,355!2026-07-29,421,375-->
   - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2026-01-03,261,355!2026-01-16,276,355-->
-  - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2025-09-10,169,335!2026-06-21,383,375-->
+  - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2027-11-03,784,355!2026-06-21,383,375-->
 - assignment: (none)
 
 ## week 3 lecture 2
@@ -242,7 +242,7 @@ The content is in teaching order.
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2026-05-15,346,378!2026-09-19,473,398-->
 - [big band](../../../../general/big%20band.md)
   - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2026-11-08,510,398!2026-11-11,513,398-->
-- [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-09-20,159,338!2025-09-10,152,338-->
+- [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2025-09-20,159,338!2027-08-18,707,358-->
   - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2026-11-18,520,398!2026-04-12,340,378-->
   - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2026-03-11,315,378!2026-10-25,496,398-->
 - [swing music](../../../../general/swing%20music.md)
@@ -590,7 +590,7 @@ The content is in teaching order.
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2025-10-20,139,422!2027-02-19,549,422-->
     - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2025-10-22,141,422!2025-10-31,150,422-->
 - [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2025-10-19,138,422!2025-10-27,146,422-->
-  - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2025-09-15,104,402!2025-09-10,99,402-->
+  - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2025-09-15,104,402!2027-03-07,543,422-->
 - [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2027-02-28,558,422!2025-09-11,100,402-->
   - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2027-01-26,532,422!2025-10-31,150,422-->
 - assignment

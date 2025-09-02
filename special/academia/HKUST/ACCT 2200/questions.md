@@ -52,7 +52,7 @@ Below are some questions or question tips.
 ## cost–volume–profit analysis
 
 - comparing cost structures ::@:: We can write two profit equations for the two cost structures and equate them. The solved quantity is the indifference point. Above or below it, one of the cost structure is preferred \(determine which one using intuition\). <!--SR:!2026-05-12,246,330!2026-05-14,248,330-->
-- decision making ::@:: CVP analysis produces target sales or units as outputs. <p> Consider if the target sales or units are realistic, e.g. capacity, customer attractiveness, etc. <p> For customer attractiveness, consider the factors \(ideally 3\) affecting it. Even "obvious", "stupid", or "trivial" factors count! Examples: competition, cultural barriers, market demand and supply, etc. <!--SR:!2025-09-10,59,310!2026-05-12,251,330-->
+- decision making ::@:: CVP analysis produces target sales or units as outputs. <p> Consider if the target sales or units are realistic, e.g. capacity, customer attractiveness, etc. <p> For customer attractiveness, consider the factors \(ideally 3\) affecting it. Even "obvious", "stupid", or "trivial" factors count! Examples: competition, cultural barriers, market demand and supply, etc. <!--SR:!2026-05-24,256,330!2026-05-12,251,330-->
 - operating leverage ::@:: It is higher if the cost structure consists of more fixed costs. If operating leverage is high and there is a sale decrease, then it may not generate enough contribution margin to cover the fixed costs and incur loss. This increases financial risk because higher operating leverage means sale decrease results in a proportionally larger operating income decrease. <!--SR:!2025-09-12,61,310!2026-02-21,174,310-->
 - rounding ::@:: In general, no need to round answers to integers unless explicitly told to do so. <!--SR:!2026-05-14,253,330!2026-05-15,249,330-->
 
@@ -68,7 +68,7 @@ Below are some questions or question tips.
 - depreciation :;@:: Remember to "less: depreciation" from cash disbursements, as they are not cash outflows, but likely included in fixed manufacturing overhead.
 - preliminary cash balance ::@:: The instructor uses this cash balance to include everything \(including interest expense\) except for cash borrowed or \(repaid\). <!--SR:!2026-05-13,252,330!2026-05-17,251,330-->
 - merging formats ::@:: Honestly you do not need to separate budgets exactly like outlined in the lecture slides, e.g. separating cash collection and receipt. Give what the question asks for with minimum effort. <!--SR:!2025-09-17,66,310!2025-09-13,62,310-->
-- rounding ::@:: Some numbers, e.g. production units, may need rounding. Some numbers, e.g. direct materials inventory, do not. See what the question asks for, else use common sense. <p> Dollar amounts are rounded to 2 decimal places. For further calculations, no need to keep extra decimal places \(otherwise it would be painful\). <!--SR:!2025-09-10,59,310!2026-05-18,251,330-->
+- rounding ::@:: Some numbers, e.g. production units, may need rounding. Some numbers, e.g. direct materials inventory, do not. See what the question asks for, else use common sense. <p> Dollar amounts are rounded to 2 decimal places. For further calculations, no need to keep extra decimal places \(otherwise it would be painful\). <!--SR:!2026-05-23,255,330!2026-05-18,251,330-->
 
 ## variance analysis
 

@@ -27,7 +27,7 @@ The above formulas are {@{the most conventional way of writing them}@}. The only
 
 - see: [general/discrete Fourier transform § periodicity](../../general/discrete%20Fourier%20transform.md#periodicity)
 
-The original sequence is {@{treated as $N$-periodic}@} by DFT. The transformed sequence is {@{also $N$-periodic}@}. Likewise, the DFT-transformed sequence is {@{treated as $N$-periodic}@} by IDFT. The recovered original sequence is {@{also $N$-periodic}@}. This is easily shown {@{directly from the definition}@}. <!--SR:!2028-07-24,1123,350!2025-09-10,307,330!2029-01-22,1264,350!2029-02-21,1290,350!2025-10-18,335,366-->
+The original sequence is {@{treated as $N$-periodic}@} by DFT. The transformed sequence is {@{also $N$-periodic}@}. Likewise, the DFT-transformed sequence is {@{treated as $N$-periodic}@} by IDFT. The recovered original sequence is {@{also $N$-periodic}@}. This is easily shown {@{directly from the definition}@}. <!--SR:!2028-07-24,1123,350!2029-07-07,1396,350!2029-01-22,1264,350!2029-02-21,1290,350!2025-10-18,335,366-->
 
 ### expressing the inverse DFT in terms of the DFT
 

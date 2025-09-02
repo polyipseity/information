@@ -9,7 +9,7 @@ tags:
 
 # molecular mass
 
-The __molecular mass__ is {@{the [mass](mass.md) of a given [molecule](molecule.md)}@}. The related __relative molecular mass__ is {@{the ratio of the mass of the molecule to the [unified atomic mass unit](dalton%20(unit).md)}@}. It carries {@{no unit}@}. <!--SR:!2025-09-10,681,330!2028-07-16,1434,310!2027-11-04,1208,334-->
+The __molecular mass__ is {@{the [mass](mass.md) of a given [molecule](molecule.md)}@}. The related __relative molecular mass__ is {@{the ratio of the mass of the molecule to the [unified atomic mass unit](dalton%20(unit).md)}@}. It carries {@{no unit}@}. <!--SR:!2034-03-05,3098,350!2028-07-16,1434,310!2027-11-04,1208,334-->
 
 ## references
 

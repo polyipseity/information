@@ -63,7 +63,7 @@ The electric field can be visualized with {@{a set of [lines](field%20line.md) w
 
 ## mathematical formulation
 
-- Main article: ::@:: [Mathematical descriptions of the electromagnetic field](mathematical%20descriptions%20of%20the%20electromagnetic%20field.md) <!--SR:!2025-09-10,158,310!2026-07-16,412,371-->
+- Main article: ::@:: [Mathematical descriptions of the electromagnetic field](mathematical%20descriptions%20of%20the%20electromagnetic%20field.md) <!--SR:!2027-07-22,680,330!2026-07-16,412,371-->
 
 {@{Electric fields}@} are caused by {@{[electric charges](electric%20charges.md), described by [Gauss's law](Gauss's%20law.md)}@},<sup>[\[11\]](#^ref-11)</sup> and {@{time varying [magnetic fields](magnetic%20fields.md), described by [Faraday's law of induction](Faraday's%20law%20of%20induction.md)}@}.<sup>[\[12\]](#^ref-12)</sup> Together, these laws are {@{enough to define the behavior of the electric field}@}. However, since {@{the magnetic field is described as a function of electric field}@}, {@{the equations of both fields are coupled}@} and together {@{form [Maxwell's equations](Maxwell's%20equations.md) that describe both fields as a function of charges and [currents](electric%20current.md)}@}. <!--SR:!2026-05-04,345,351!2026-06-30,396,362!2026-05-24,365,362!2026-05-07,348,351!2026-06-04,375,362!2026-02-05,274,330!2026-06-29,395,362-->
 

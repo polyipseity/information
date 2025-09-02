@@ -30,7 +30,7 @@ The algorithm was developed {@{in 1930}@} by {@{[Czech](Czechs.md) mathematician
 The algorithm may informally be described as performing the following steps:
 
 1. Initialize ::@:: a tree with a single vertex, chosen arbitrarily from the graph. <!--SR:!2025-11-25,282,330!2025-11-01,263,330-->
-2. Grow ::@:: the tree by one edge: Of the edges that connect the tree to vertices not yet in the tree, find the minimum-weight edge, and transfer it to the tree. <!--SR:!2025-12-07,292,330!2025-09-10,204,310-->
+2. Grow ::@:: the tree by one edge: Of the edges that connect the tree to vertices not yet in the tree, find the minimum-weight edge, and transfer it to the tree. <!--SR:!2025-12-07,292,330!2028-02-04,877,330-->
 3. Repeat ::@:: step 2 \(until all vertices are in the tree\). <!--SR:!2025-11-15,276,330!2025-12-08,293,330-->
 
 In more detail, it may be implemented following the [pseudocode](pseudocode.md) below.

@@ -46,7 +46,7 @@ The content is in teaching order.
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2026-03-27,517,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
+    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2031-01-17,1955,400-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2026-10-21,698,360-->
 - civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2030-12-09,1925,396-->
   - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2026-01-13,502,400-->
@@ -453,7 +453,7 @@ testing materials
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2029-03-01,1423,395-->
-- budgeting→::@::←contracting <!--SR:!2025-09-10,377,334!2026-03-06,483,327-->
+- budgeting→::@::←contracting <!--SR:!2030-06-11,1735,354!2026-03-06,483,327-->
 - contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2027-12-14,966,315-->
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2027-07-26,761,297-->
 - logistics→::@::←planning <!--SR:!2028-02-13,967,314!2025-11-05,401,335-->

@@ -59,7 +59,7 @@ Therefore, {@{the normal component of __D__}@} has {@{a step of surface charge o
 
 ### for magnetic flux density
 
-\(annotation: $\mathbf B$\) ::@:: $$(\mathbf {B} _{2}-\mathbf {B} _{1})\cdot \mathbf {n} _{12}=0$$ <!--SR:!2025-09-24,69,318!2025-09-10,57,310-->
+\(annotation: $\mathbf B$\) ::@:: $$(\mathbf {B} _{2}-\mathbf {B} _{1})\cdot \mathbf {n} _{12}=0$$ <!--SR:!2025-09-24,69,318!2026-05-16,248,330-->
 
 where: <br/>
 $\mathbf {n} _{12}$ <!-- flashcard ID: 60a2ea19-b133-459c-889e-e4e159632daa -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2025-09-27,72,338!2025-09-27,72,338-->

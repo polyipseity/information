@@ -46,7 +46,7 @@ The induction hypothesis was also employed by the Swiss [Jakob Bernoulli](Jacob%
 The simplest and most common form of mathematical induction infers that {@{a statement involving a [natural number](natural%20number.md) _n_ (that is, an integer _n_ ≥ 0 or 1) holds for all values of _n_}@}. The proof consists of two steps: <!--SR:!2028-11-16,1166,350-->
 
 1. The __base case__ (or __initial case__) ::@:: prove that the statement holds for 0, or 1. <!--SR:!2028-11-10,1161,350!2025-09-14,260,330-->
-2. The __induction step__ (or __inductive step__, or __step case__) ::@:: prove that for every _n_, if the statement holds for _n_, then it holds for _n_ + 1. In other words, assume that the statement holds for some arbitrary natural number _n_, and prove that the statement holds for _n_ + 1. <!--SR:!2027-11-23,816,330!2025-09-10,256,330-->
+2. The __induction step__ (or __inductive step__, or __step case__) ::@:: prove that for every _n_, if the statement holds for _n_, then it holds for _n_ + 1. In other words, assume that the statement holds for some arbitrary natural number _n_, and prove that the statement holds for _n_ + 1. <!--SR:!2027-11-23,816,330!2028-11-25,1172,350-->
 
 {@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2028-11-19,1167,350!2025-09-13,259,330!2028-10-21,1144,350-->
 
@@ -164,7 +164,7 @@ Although {@{the form just described requires one to prove the base case}@}, this
 
 Complete induction is {@{equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other}@}. Suppose {@{there is a proof of $P(n)$ by complete induction}@}. Then, this proof {@{can be transformed into an ordinary induction proof by assuming a stronger inductive hypothesis}@}. Let $Q(n)$ be {@{the statement "$P(m)$ holds for all $m$ such that $0\leq m\leq n$"}@}—this {@{becomes the inductive hypothesis for ordinary induction}@}. We can then show {@{$Q(0)$ and $Q(n+1)$ for $n\in \mathbb {N}$ assuming only $Q(n)$}@} and show that {@{$Q(n)$ implies $P(n)$}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2028-10-20,1143,350!2028-11-06,1155,350!2025-09-12,258,330!2028-10-28,1150,350!2028-10-17,1141,350!2025-12-11,288,290!2027-07-27,775,330-->
 
-If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2025-09-10,256,330!2028-10-18,1141,350!2028-11-09,1160,350!2028-10-04,1130,350-->
+If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the proof would {@{already effectively be one by complete induction}@}: $P(0)$ is {@{proved in the base case, using no assumptions}@}, and $P(n+1)$ is {@{proved in the induction step, in which one may assume all earlier cases but need only use the case $P(n)$}@}. <!--SR:!2028-11-20,1167,350!2028-10-18,1141,350!2028-11-09,1160,350!2028-10-04,1130,350-->
 
 #### example: Fibonacci numbers
 
@@ -206,7 +206,7 @@ _Induction step_ ::@:: assume as induction hypothesis that within any set of $n$
 
 ## formalization
 
-In {@{__[second-order logic](second-order%20logic.md)__}@}, one can {@{write down the "[axiom](axiom.md) of induction" as follows}@}: {@{$$\forall P\,{\Bigl (}P(0)\land \forall k{\bigl (}P(k)\to P(k+1){\bigr )}\to \forall n\,{\bigl (}P(n){\bigr )}{\Bigr )},$$}@} where {@{_P_(·) is a variable for predicates involving one natural number and _k_ and _n_ are variables for [natural numbers](natural%20number.md)}@}. <!--SR:!2025-09-16,262,330!2028-10-05,1132,350!2025-09-10,256,330!2028-10-30,1151,350-->
+In {@{__[second-order logic](second-order%20logic.md)__}@}, one can {@{write down the "[axiom](axiom.md) of induction" as follows}@}: {@{$$\forall P\,{\Bigl (}P(0)\land \forall k{\bigl (}P(k)\to P(k+1){\bigr )}\to \forall n\,{\bigl (}P(n){\bigr )}{\Bigr )},$$}@} where {@{_P_(·) is a variable for predicates involving one natural number and _k_ and _n_ are variables for [natural numbers](natural%20number.md)}@}. <!--SR:!2025-09-16,262,330!2028-10-05,1132,350!2028-11-22,1169,350!2028-10-30,1151,350-->
 
 In words, {@{the base case _P_(0) and the induction step (namely, that the induction hypothesis _P_(_k_) implies _P_(_k_ + 1)) together}@} imply that {@{_P_(_n_) for any natural number _n_}@}. The axiom of induction {@{asserts the validity of inferring that _P_(_n_) holds for any natural number _n_ from the base case and the induction step}@}. <!--SR:!2027-08-09,775,330!2028-10-03,1129,350!2028-09-16,1115,350-->
 

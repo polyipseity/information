@@ -123,7 +123,7 @@ Let's also learn some basic `pwndbg` commands:
 
 - `down` ::@:: move down the backtrace or call stack <!--SR:!2028-09-23,1136,350!2028-07-16,1079,350-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2028-12-01,1192,350!2028-08-27,1116,350-->
-- `checksec` ::@:: print the binary security settings <!--SR:!2025-09-10,271,330!2028-12-09,1200,350-->
+- `checksec` ::@:: print the binary security settings <!--SR:!2029-01-25,1233,350!2028-12-09,1200,350-->
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2029-01-11,1223,350!2027-07-16,781,330-->
 - `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-10-04,291,330!2026-10-08,560,310-->
 

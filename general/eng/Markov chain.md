@@ -202,7 +202,7 @@ If {@{all states in an irreducible Markov chain are ergodic}@}, then {@{the chai
 
 It can be shown that {@{a finite state irreducible Markov chain is ergodic if it has an aperiodic state}@}. More generally, {@{a Markov chain is ergodic}@} if {@{there is a number _N_ such that any state can be reached from any other state in any number of steps less or equal to a number _N_}@}. In case of {@{a fully connected transition matrix, where all transitions have a non-zero probability}@}, {@{this condition is fulfilled with <!-- markdown separator -->_N_<!-- markdown separator --> = 1}@}. <!--SR:!2026-04-30,403,367!2026-04-08,386,367!2027-02-06,585,321!2026-01-23,320,341!2025-11-26,274,341-->
 
-{@{A Markov chain with more than one state and just one out-going transition per state}@} is {@{either not irreducible or not aperiodic}@}, hence {@{cannot be ergodic}@}. <!--SR:!2025-09-10,207,321!2025-10-05,214,321!2026-04-12,387,359-->
+{@{A Markov chain with more than one state and just one out-going transition per state}@} is {@{either not irreducible or not aperiodic}@}, hence {@{cannot be ergodic}@}. <!--SR:!2028-03-16,918,341!2025-10-05,214,321!2026-04-12,387,359-->
 
 #### terminology
 

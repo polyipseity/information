@@ -45,10 +45,10 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::@:: \(c\_t\) Following as a result, inference, or natural effect. <!--SR:!2030-03-15,1793,412!2026-03-20,567,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2031-01-15,1967,370-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->
-- [deprecate](https://en.wiktionary.org/wiki/deprecate) ::@:: \(d_e\) To declare something obsolescent; to recommend against a function, technique, command, etc. that still works but has been replaced. <!--SR:!2025-09-07,5,389!2025-09-07,5,389-->
-- [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2025-09-07,5,389!2025-09-07,5,389-->
-- [depreciate](https://en.wiktionary.org/wiki/depreciate) ::@:: \(d_e\) To lessen in price or estimated value; to lower the worth of. <!--SR:!2025-09-07,5,389!2025-09-07,5,389-->
-- [depreciation](https://en.wiktionary.org/wiki/depreciation) ::@:: \(d_n\) The measurement of the decline in value of assets. Not to be confused with impairment, which is the measurement of the unplanned, extraordinary decline in value of assets. <!--SR:!2025-09-07,5,389!2025-09-07,5,389-->
+- [deprecate](https://en.wiktionary.org/wiki/deprecate) ::@:: \(d_e\) To declare something obsolescent; to recommend against a function, technique, command, etc. that still works but has been replaced. <!--SR:!2025-10-08,28,409!2025-10-08,28,409-->
+- [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2025-10-08,28,409!2025-10-08,28,409-->
+- [depreciate](https://en.wiktionary.org/wiki/depreciate) ::@:: \(d_e\) To lessen in price or estimated value; to lower the worth of. <!--SR:!2025-10-08,28,409!2025-10-08,28,409-->
+- [depreciation](https://en.wiktionary.org/wiki/depreciation) ::@:: \(d_n\) The measurement of the decline in value of assets. Not to be confused with impairment, which is the measurement of the unplanned, extraordinary decline in value of assets. <!--SR:!2025-10-08,28,409!2025-10-08,28,409-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: \(d\_s\) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::@:: \(d\_e\) To make different. <!--SR:!2029-05-28,1545,364!2027-12-28,1109,344-->
 - [discipline](https://en.wiktionary.org/wiki/discipline) ::@:: \(d_e\) A controlled behaviour; self-control. <!--SR:!2025-09-13,25,403!2025-09-13,25,403-->

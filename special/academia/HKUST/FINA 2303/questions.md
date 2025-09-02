@@ -544,7 +544,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@} <!--SR:!2025-09-10,138,399-->
+> - solution: {@{2}@} <!--SR:!2027-09-29,749,419-->
 
 <!-- markdownlint MD028 -->
 
@@ -598,7 +598,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@} <!--SR:!2025-09-10,138,399-->
+> - solution: {@{2}@} <!--SR:!2027-10-04,754,419-->
 
 <!-- markdownlint MD028 -->
 
@@ -632,7 +632,7 @@ tags:
 > 2. EBIT = incremental gross profit <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes
 >
 > - solution: {@{1}@}
-> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@} <!--SR:!2025-09-10,125,409!2025-09-12,127,409-->
+> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@} <!--SR:!2027-08-08,697,429!2025-09-12,127,409-->
 
 <!-- markdownlint MD028 -->
 
@@ -706,7 +706,7 @@ tags:
 > 3. \$44k
 > 4. \$30k
 >
-> - solution: {@{3}@} <!--SR:!2025-09-10,125,409-->
+> - solution: {@{3}@} <!--SR:!2027-08-13,702,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +759,7 @@ tags:
 > 3. yield to maturity \(YTM\)
 >
 > - solution: {@{3}@}
-> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@} <!--SR:!2025-09-14,129,409!2025-09-10,125,409-->
+> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@} <!--SR:!2025-09-14,129,409!2027-08-07,696,429-->
 
 <!-- markdownlint MD028 -->
 

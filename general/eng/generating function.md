@@ -67,7 +67,7 @@ The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$
 
 - see: [Lambert series](Lambert%20series.md)
 
-The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0, as the first term would otherwise be undefined}@}. <!--SR:!2025-09-10,254,330!2026-07-19,409,270!2025-11-12,303,330-->
+The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0, as the first term would otherwise be undefined}@}. <!--SR:!2028-11-15,1162,350!2026-07-19,409,270!2025-11-12,303,330-->
 
 The Lambert series coefficients in the power series expansions {@{$$b_{n}:=[x^{n}]\operatorname {LG} (a_{n};x)$$ (where $[x^n]$ means extracting the coefficient of the indeterminate $x^n$) for integers _n_ ≥ 1}@} are {@{related by the [divisor sum](divisor%20sum%20identities.md) $$b_{n}=\sum _{d|n}a_{d}\,.$$}@} <!--SR:!2025-12-27,299,290!2027-07-08,705,290-->
 
