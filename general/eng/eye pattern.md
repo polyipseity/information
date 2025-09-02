@@ -163,7 +163,7 @@ There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}
 
 Amplitude measurements
 
-- Eye amplitude ::@:: \(\)
+- Eye amplitude
 - Eye crossing amplitude
 - Eye crossing percentage
 - Eye height
