@@ -632,7 +632,7 @@ tags:
 > 2. EBIT = incremental gross profit <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes
 >
 > - solution: {@{1}@}
-> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@} <!--SR:!2027-08-08,697,429!2025-09-12,127,409-->
+> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@} <!--SR:!2027-08-08,697,429!2027-08-22,709,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -721,7 +721,7 @@ tags:
 > 5. \$0
 >
 > - solution: {@{3}@}
-> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2025-09-12,127,409!2026-06-20,332,389-->
+> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2027-08-19,706,429!2026-06-20,332,389-->
 
 <!-- markdownlint MD028 -->
 
@@ -770,7 +770,7 @@ tags:
 > 3. the same yields as
 >
 > - solution: {@{2}@}
-> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@} <!--SR:!2025-09-12,127,409!2025-09-16,131,409-->
+> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@} <!--SR:!2027-08-21,708,429!2025-09-16,131,409-->
 
 <!-- markdownlint MD028 -->
 

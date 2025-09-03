@@ -62,7 +62,7 @@ Since {@{tangible common equity subtracts preferred equity from the tangible boo
 
 To {@{clearly distinguish the [market price](market%20value.md) of shares}@} from {@{the core [ownership equity](ownership%20equity.md) or [shareholders' equity](shareholders'%20equity.md)}@}, {@{the term _book value_}@} is often used since it {@{focuses on the values that have been added and subtracted in the accounting books of a business \(assets – liabilities\)}@}. The term is also used to distinguish between {@{the [market price](market%20value.md) of any asset and its accounting value}@} which {@{depends more on [historical cost](historical%20cost.md) and [depreciation](depreciation.md)}@}. It may be {@{used interchangeably with carrying value}@}. While {@{it can be used to refer to the business' total [equity](ownership%20equity.md)}@}, it is most often used: <!--SR:!2026-01-02,273,330!2025-09-16,182,310!2026-01-03,274,330!2025-12-29,270,330!2026-01-05,276,330!2025-11-19,238,330!2025-11-18,237,330!2026-01-02,273,330-->
 
-- As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2026-05-04,338,290!2025-09-12,179,310-->
+- As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2026-05-04,338,290!2027-03-21,555,310-->
 - As a _diluted per share value_: ::@:: The equity is bumped up by the exercise price of the options, warrants or preferred shares. Then it is divided by the number of shares that has been increased by those added. <!--SR:!2025-09-26,190,310!2025-11-30,247,330-->
 
 ### uses of books

@@ -466,7 +466,7 @@ The content is in teaching order.
 - [Minton's Playhouse](../../../../general/Minton's%20Playhouse.md) ::@:: a jazz club in Harlem, New York City; held regular jam sessions <!--SR:!2025-09-13,141,414!2027-10-22,774,434-->
   - Minton's Playhouse / popular musicians ::@:: Bud Powell, Charlie Christian, Charlie Parker, "Dizzy" Gillespie, Kenny Clarke, Max Roach, Thelonious Monk, etc. <!--SR:!2025-09-22,145,414!2027-01-21,537,414-->
   - Minton's Playhouse / characteristic ::@:: Many experimental musicians pushing the limits of music. This led to a new "way" to play jazz: bebop. <!--SR:!2027-10-15,769,434!2025-09-14,142,414-->
-  - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2025-09-12,140,414!2025-09-15,143,414-->
+  - Minton's Playhouse / Teddy Hill ::@:: A manager of the club. He created the environment for bebop to start. He protected the musicians from getting troubled by the Union. He allowed experimentation. <!--SR:!2027-11-10,789,434!2025-09-15,143,414-->
 - Dizzy Gillespie \(1917–1993\) ::@:: American trumpet player, pianist, composer, with extremely high range and virtuosity <!--SR:!2025-09-20,143,414!2025-09-21,144,414-->
   - Dizzy Gillespie / achievements ::@:: He started a bebop big band. He also found success in Afro-Cuban music, and worked with Cuban percussionist Chano Ponzo to compose "Manteca". <!--SR:!2025-09-21,144,414!2027-01-24,540,414-->
   - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie <!--SR:!2025-10-20,139,420!2025-10-25,144,420-->
@@ -475,9 +475,9 @@ The content is in teaching order.
   - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2027-10-20,773,434!2025-09-19,142,414-->
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2025-09-13,141,414!2027-10-19,772,434-->
 - bebop
-  - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2027-10-09,763,434!2025-09-12,140,414-->
+  - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2027-10-09,763,434!2027-11-11,790,434-->
   - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2026-07-10,380,394!2027-10-23,775,434-->
-- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2025-09-12,140,414!2025-09-20,143,414-->
+- [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2027-11-12,791,434!2025-09-20,143,414-->
 - bebop
   - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2027-01-23,539,414!2025-09-19,142,414-->
 - Charlie Parker
@@ -518,7 +518,7 @@ The content is in teaching order.
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2025-10-29,148,422!2025-10-29,148,422-->
   - Gerry Mulligan / works ::@:: "Speak Low" \(1953\) — Chet Baker & Gerry Mulligan <!--SR:!2025-10-25,144,422!2025-10-15,134,422-->
 - [Stan Getz](../../../../general/Stan%20Getz.md) \(1927–1991\) ::@:: He was an American jazz saxophonist from Philadelphia. Playing primarily the tenor saxophone, Getz was known as "__The Sound__" because of his warm, lyrical tone \("airy" sounds\). <p> He also struggled with drugs. <!--SR:!2025-10-25,144,422!2025-10-28,147,422-->
-  - Stan Getz / works ::@:: "The Girl from Impanema" \(1964\) — Joao Gilberto & Stan Getz <br/> "Just Friends" — Chet Baker & Stan Getz: Even though he and Chet Baker hated each other, they had had many collaborations. <!--SR:!2025-09-12,101,402!2025-10-16,135,422-->
+  - Stan Getz / works ::@:: "The Girl from Impanema" \(1964\) — Joao Gilberto & Stan Getz <br/> "Just Friends" — Chet Baker & Stan Getz: Even though he and Chet Baker hated each other, they had had many collaborations. <!--SR:!2027-03-20,554,422!2025-10-16,135,422-->
   - Stan Getz / effects ::@:: He was responsible for bossa nova and samba for being part of jazz. He went to Brazil, heard the music, and infused it with jazz elements. This changed music. <!--SR:!2025-10-29,148,422!2025-10-28,147,422-->
 - assignment: \(none\)
 

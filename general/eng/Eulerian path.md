@@ -175,7 +175,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 - [Eulerian matroid](Eulerian%20matroid.md), an abstract generalization of Eulerian graphs
 - [five room puzzle](five-room%20puzzle.md)
-- [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2025-09-21,228,330!2025-09-12,208,310-->
+- [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2025-09-21,228,330!2028-02-26,897,330-->
 - [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2026-02-02,346,362!2026-02-22,360,362-->
 - [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2025-10-24,258,342!2026-03-13,375,362-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2026-03-28,387,362!2026-12-22,518,310-->

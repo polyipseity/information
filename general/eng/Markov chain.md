@@ -124,7 +124,7 @@ Define {@{a discrete-time Markov chain _Y_<sub>_n_</sub>}@} to describe {@{the _
 
 #### transition probability definition
 
-For {@{any value _n_ = 0, 1, 2, 3, ... and times indexed up to this value of _n_: _t_<sub>0</sub>, _t_<sub>1</sub>, _t_<sub>2</sub>, ...}@} and {@{all states recorded at these times _i_<sub>0</sub>, _i_<sub>1</sub>, _i_<sub>2</sub>, _i_<sub>3</sub>, ...}@} it holds that {@{$$\Pr(X_{t_{n+1} }=i_{n+1}\mid X_{t_{0} }=i_{0},X_{t_{1} }=i_{1},\ldots ,X_{t_{n} }=i_{n})=p_{i_{n}i_{n+1} }(t_{n+1}-t_{n})$$}@} (annotation: {@{The notation $p_{i_{n}i_{n+1} }(t_{n+1}-t_{n})$}@} refers to {@{the $i_n i_{n+1}$ element of the matrix $P(t_{n+1} - t_n)$}@}; it does _not_ refer to {@{multiplying $p_{i_n i_{n+1} }$ by $t_{n+1}-t_n$}@}. Also, notice that {@{$t_0, \ldots, t_{n - 1}$ and $i_0, \ldots, i_{n - 1}$ are unused on the right hand side}@}.) where {@{_p_<sub>_ij_</sub> is the solution of the [forward equation](kolmogorov%20equations.md) \(a [first-order differential equation](ordinary%20differential%20equation.md)\)}@} {@{$$P'(t)=P(t)Q$$ with initial condition P\(0\) is the [identity matrix](identity%20matrix.md)}@}. <!--SR:!2026-03-12,361,359!2026-01-22,319,341!2025-12-23,252,287!2025-11-24,259,347!2026-08-03,443,327!2027-10-19,796,347!2025-09-12,24,389!2025-09-12,24,389!2025-09-12,24,389-->
+For {@{any value _n_ = 0, 1, 2, 3, ... and times indexed up to this value of _n_: _t_<sub>0</sub>, _t_<sub>1</sub>, _t_<sub>2</sub>, ...}@} and {@{all states recorded at these times _i_<sub>0</sub>, _i_<sub>1</sub>, _i_<sub>2</sub>, _i_<sub>3</sub>, ...}@} it holds that {@{$$\Pr(X_{t_{n+1} }=i_{n+1}\mid X_{t_{0} }=i_{0},X_{t_{1} }=i_{1},\ldots ,X_{t_{n} }=i_{n})=p_{i_{n}i_{n+1} }(t_{n+1}-t_{n})$$}@} (annotation: {@{The notation $p_{i_{n}i_{n+1} }(t_{n+1}-t_{n})$}@} refers to {@{the $i_n i_{n+1}$ element of the matrix $P(t_{n+1} - t_n)$}@}; it does _not_ refer to {@{multiplying $p_{i_n i_{n+1} }$ by $t_{n+1}-t_n$}@}. Also, notice that {@{$t_0, \ldots, t_{n - 1}$ and $i_0, \ldots, i_{n - 1}$ are unused on the right hand side}@}.) where {@{_p_<sub>_ij_</sub> is the solution of the [forward equation](kolmogorov%20equations.md) \(a [first-order differential equation](ordinary%20differential%20equation.md)\)}@} {@{$$P'(t)=P(t)Q$$ with initial condition P\(0\) is the [identity matrix](identity%20matrix.md)}@}. <!--SR:!2026-03-12,361,359!2026-01-22,319,341!2025-12-23,252,287!2025-11-24,259,347!2026-08-03,443,327!2027-10-19,796,347!2026-01-21,131,409!2026-01-20,130,409!2026-01-20,130,409-->
 
 ### finite state space
 
@@ -372,7 +372,7 @@ Markov chains are used in {@{finance and economics}@} to {@{model a variety of d
 
 {@{Dynamic macroeconomics}@} makes {@{heavy use of Markov chains}@}. An example is {@{using Markov chains}@} to {@{exogenously model prices of equity \(stock\) in a [general equilibrium](general%20equilibrium%20theory.md) setting}@}.<sup>[\[93\]](#^ref-93)</sup> <!--SR:!2026-04-22,396,367!2026-04-21,396,367!2026-04-21,396,367!2027-09-26,768,330-->
 
-{@{[Credit rating agencies](credit%20rating%20agency.md)}@} produce {@{annual tables of the transition probabilities}@} for {@{bonds of different credit ratings}@}.<sup>[\[94\]](#^ref-94)</sup> <!--SR:!2025-12-30,301,341!2025-09-12,209,321!2026-03-09,359,359-->
+{@{[Credit rating agencies](credit%20rating%20agency.md)}@} produce {@{annual tables of the transition probabilities}@} for {@{bonds of different credit ratings}@}.<sup>[\[94\]](#^ref-94)</sup> <!--SR:!2025-12-30,301,341!2028-03-26,926,341!2026-03-09,359,359-->
 
 ### social sciences
 

@@ -97,7 +97,7 @@ Moment generating functions are {@{positive and [log-convex](logarithmically%20c
 
 ### calculations of moments
 
-{@{The moment-generating function is so called}@} because if {@{it exists on an open interval around _t_ = 0}@}, then it is {@{the [exponential generating function](exponential%20generating%20function.md#Exponential%20generating%20function%20(EGF)) of the [moments](moment%20(mathematics).md) of the [probability distribution](probability%20distribution.md)}@}: {@{$$m_{n}=E\left(X^{n}\right)=M_{X}^{(n)}(0)=\left.{\frac {d^{n}M_{X} }{dt^{n} } }\right|_{t=0}.$$}@} That is, with {@{_n_ being a nonnegative integer}@}, {@{the _n_<!-- markdown separator -->th moment about 0 is the _n_<!-- markdown separator -->th derivative of the moment generating function, evaluated at _t_ = 0}@}. <!--SR:!2025-12-31,271,330!2025-11-23,241,330!2025-12-27,267,330!2026-01-26,292,330!2025-09-12,170,310!2026-01-16,284,330-->
+{@{The moment-generating function is so called}@} because if {@{it exists on an open interval around _t_ = 0}@}, then it is {@{the [exponential generating function](exponential%20generating%20function.md#Exponential%20generating%20function%20(EGF)) of the [moments](moment%20(mathematics).md) of the [probability distribution](probability%20distribution.md)}@}: {@{$$m_{n}=E\left(X^{n}\right)=M_{X}^{(n)}(0)=\left.{\frac {d^{n}M_{X} }{dt^{n} } }\right|_{t=0}.$$}@} That is, with {@{_n_ being a nonnegative integer}@}, {@{the _n_<!-- markdown separator -->th moment about 0 is the _n_<!-- markdown separator -->th derivative of the moment generating function, evaluated at _t_ = 0}@}. <!--SR:!2025-12-31,271,330!2025-11-23,241,330!2025-12-27,267,330!2026-01-26,292,330!2027-09-10,728,330!2026-01-16,284,330-->
 
 ## other properties
 

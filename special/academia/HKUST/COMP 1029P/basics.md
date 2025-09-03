@@ -160,7 +160,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2027-09-11,1019,350-->
 
-Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2027-10-07,1041,350!2025-09-12,24,380!2025-09-12,24,380!2025-09-12,24,380!2025-09-12,24,380!2025-09-12,24,380!2025-09-12,24,380!2025-09-12,24,380-->
+Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2027-10-07,1041,350!2026-01-17,127,400!2026-01-16,126,400!2026-01-18,128,400!2026-01-16,126,400!2026-01-15,125,400!2026-01-17,127,400!2026-01-18,128,400-->
 
 ### logic operators
 

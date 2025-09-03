@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2028-10-08,1156,350!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2025-09-12,281,330!2028-07-30,1101,350!2028-07-17,1092,350-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2028-10-08,1156,350!2025-09-27,294,330!2026-06-25,487,310!2028-05-28,1052,350!2029-03-16,1281,350!2028-07-30,1101,350!2028-07-17,1092,350-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2028-07-28,1103,350-->
 
@@ -96,7 +96,7 @@ The statement can be used to {@{help show the financial position of a company}@}
 
 Accounting standards often {@{set out a general format that companies are expected to follow when presenting their balance sheets}@}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {@{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}@}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {@{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}@}. However, an IFRS-compliant balance sheet must {@{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-12-23,847,290!2027-02-09,673,330!2026-03-02,344,270!2026-11-20,589,310-->
 
-Current assets are {@{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}@}. Current assets include: {@{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}@} <!--SR:!2025-09-22,289,330!2025-09-12,217,250-->
+Current assets are {@{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}@}. Current assets include: {@{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}@} <!--SR:!2025-09-22,289,330!2027-10-18,766,270-->
 
 - [cash](cash.md) ::@:: physical money <!--SR:!2027-03-23,704,330!2027-07-22,795,330-->
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2027-05-02,732,330!2027-04-15,721,330-->

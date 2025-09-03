@@ -27,7 +27,7 @@ __...__<br/>
 <u>Premise#n</u> <br/>
 Conclusion
 
-This expression states that {@{whenever in the course of some logical derivation the given premises have been obtained, the specified conclusion can be taken for granted as well}@}. The exact formal language that is used to describe both premises and conclusions {@{depends on the actual context of the derivations}@}. In a simple case, one may use logical formulae, such as in: {@{$$\begin{aligned} & A \rightarrow B \\ & \underline{A \phantom{\rightarrow B} } \\ & B & \end{aligned}$$}@}. <!--SR:!2027-05-23,751,334!2027-02-19,682,334!2025-09-12,283,334-->
+This expression states that {@{whenever in the course of some logical derivation the given premises have been obtained, the specified conclusion can be taken for granted as well}@}. The exact formal language that is used to describe both premises and conclusions {@{depends on the actual context of the derivations}@}. In a simple case, one may use logical formulae, such as in: {@{$$\begin{aligned} & A \rightarrow B \\ & \underline{A \phantom{\rightarrow B} } \\ & B & \end{aligned}$$}@}. <!--SR:!2027-05-23,751,334!2027-02-19,682,334!2029-04-06,1302,354-->
 
 This is {@{the _[modus ponens](modus%20ponens.md)_ rule of [propositional logic](propositional%20calculus.md)}@}. Rules of inference are often formulated as {@{[schemata](logical%20form.md) employing [metavariables](metavariable.md)}@}.<sup>[\[2\]](#^ref-2)</sup> In the rule (schema) above, the metavariables A and B can be {@{instantiated to any element of the universe (or sometimes, by convention, a restricted subset such as [propositions](proposition.md)) to form an [infinite set](infinite%20set.md) of inference rules}@}. <!--SR:!2027-09-29,855,334!2026-06-05,474,314!2026-04-21,401,294-->
 

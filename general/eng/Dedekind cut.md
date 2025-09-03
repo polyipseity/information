@@ -28,7 +28,7 @@ A Dedekind cut is {@{a partition of the rationals $\mathbb {Q}$ into two subsets
 1. non-emptyness ::@:: $A$ is nonempty. <!--SR:!2025-11-26,260,330!2025-10-24,233,330-->
 2. non-emptyness of complement ::@:: $A\neq \mathbb {Q}$ \(equivalently, $B$ is nonempty\). <!--SR:!2025-12-14,275,330!2025-11-18,255,330-->
 3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2025-12-20,279,330!2025-12-27,283,330-->
-4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2025-11-11,249,330!2025-09-12,196,310-->
+4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2025-11-11,249,330!2028-01-01,841,330-->
 
 By {@{omitting the first two requirements (annotation: non-emptyness of both $A$ and $B$)}@}, we {@{formally obtain the [extended real number line](extended%20real%20number%20line.md)}@}. <!--SR:!2025-12-26,282,330!2026-11-01,507,310-->
 

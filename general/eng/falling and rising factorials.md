@@ -31,7 +31,7 @@ When {@{$x$ is a positive integer}@}, {@{$(x)_{n}$}@} gives {@{the number of [_n
 
 {@{The first few falling factorials}@} are as follows: {@{$${\begin{alignedat}{2}(x)_{0}&&&=1\\(x)_{1}&&&=x\\(x)_{2}&=x(x-1)&&=x^{2}-x\\(x)_{3}&=x(x-1)(x-2)&&=x^{3}-3x^{2}+2x\\(x)_{4}&=x(x-1)(x-2)(x-3)&&=x^{4}-6x^{3}+11x^{2}-6x\end{alignedat} }$$}@} <!--SR:!2025-10-30,284,330!2025-10-01,262,330-->
 
-{@{The first few rising factorials}@} are as follows: {@{$${\begin{alignedat}{2}x^{(0)}&&&=1\\x^{(1)}&&&=x\\x^{(2)}&=x(x+1)&&=x^{2}+x\\x^{(3)}&=x(x+1)(x+2)&&=x^{3}+3x^{2}+2x\\x^{(4)}&=x(x+1)(x+2)(x+3)&&=x^{4}+6x^{3}+11x^{2}+6x\end{alignedat} }$$}@} <!--SR:!2025-10-10,269,330!2025-09-12,247,330-->
+{@{The first few rising factorials}@} are as follows: {@{$${\begin{alignedat}{2}x^{(0)}&&&=1\\x^{(1)}&&&=x\\x^{(2)}&=x(x+1)&&=x^{2}+x\\x^{(3)}&=x(x+1)(x+2)&&=x^{3}+3x^{2}+2x\\x^{(4)}&=x(x+1)(x+2)(x+3)&&=x^{4}+6x^{3}+11x^{2}+6x\end{alignedat} }$$}@} <!--SR:!2025-10-10,269,330!2028-10-09,1123,350-->
 
 {@{The coefficients that appear in the expansions}@} are {@{[Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)}@} (see below). <!--SR:!2025-10-14,273,330!2025-10-13,272,330-->
 

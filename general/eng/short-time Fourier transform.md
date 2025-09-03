@@ -64,7 +64,7 @@ In general, {@{the window function $w(t)$}@} has the following properties: \(ann
 
 ## resolution issues
 
-- Further information: ::@:: [Gabor limit](Gabor%20limit.md#signal%20processing) and [Küpfmüller's uncertainty principle](Küpfmüller's%20uncertainty%20principle.md) <!--SR:!2025-09-12,58,310!2025-09-27,71,329-->
+- Further information: ::@:: [Gabor limit](Gabor%20limit.md#signal%20processing) and [Küpfmüller's uncertainty principle](Küpfmüller's%20uncertainty%20principle.md) <!--SR:!2026-05-25,255,330!2025-09-27,71,329-->
 
 One of {@{the pitfalls of the STFT}@} is that {@{it has a fixed resolution}@}. {@{The width of the windowing function}@} relates to {@{how the signal is represented}@}—it determines {@{whether there is good frequency resolution \(frequency components close together can be separated\)}@} or {@{good time resolution \(the time at which frequencies change\)}@}. {@{A wide window}@} gives {@{better frequency resolution but poor time resolution}@}. {@{A narrower window}@} gives {@{good time resolution but poor frequency resolution}@}. These are called {@{narrowband and wideband transforms}@}, respectively. <!--SR:!2025-09-28,72,329!2025-09-28,72,329!2025-09-29,73,329!2025-10-01,75,329!2025-09-28,72,329!2025-09-30,74,329!2025-09-29,73,329!2025-09-17,63,310!2025-09-18,64,329!2025-10-02,76,329!2025-09-18,64,329-->
 
@@ -173,7 +173,7 @@ a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta 
 
 {@{Rectangular window}@} imposes the constraint {@{$$w((n-p)\Delta _{t})=1$$}@} {@{Substitution}@} gives: {@{$${\begin{aligned}X(n\Delta _{t},m\Delta _{f})&=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})&x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}\\&=\sum _{p=n-Q}^{n+Q}&x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}\\\end{aligned} }$$}@} <!--SR:!2025-10-01,75,329!2025-09-27,71,329!2025-10-01,75,329!2025-09-28,72,329-->
 
-{@{Change of variable _n_-1 for _n_}@}: {@{$$X((n-1)\Delta _{t},m\Delta _{f})=\sum _{p=n-1-Q}^{n-1+Q}x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}$$}@} \(annotation: The motivation is {@{expressing $X(n \Delta_t, m \Delta_f)$ in terms of $X((n - 1) \Delta_t, m \Delta_f)$}@}.\) <!--SR:!2025-09-23,68,329!2025-09-12,58,310!2026-01-22,156,310-->
+{@{Change of variable _n_-1 for _n_}@}: {@{$$X((n-1)\Delta _{t},m\Delta _{f})=\sum _{p=n-1-Q}^{n-1+Q}x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}$$}@} \(annotation: The motivation is {@{expressing $X(n \Delta_t, m \Delta_f)$ in terms of $X((n - 1) \Delta_t, m \Delta_f)$}@}.\) <!--SR:!2025-09-23,68,329!2026-03-14,183,310!2026-01-22,156,310-->
 
 Calculate {@{$X(\min {n}\Delta _{t},m\Delta _{f})$ by the _N_-point FFT}@}: {@{$$X(n_{0}\Delta _{t},m\Delta _{f})=\Delta _{t}e^{\frac {j2\pi (Q-n_{0})m}{N} }\sum _{q=0}^{N-1}x_{1}(q)e^{-j{\frac {2\pi qm}{N} } },\qquad n_{0}=\min {(n)}$$}@} \(annotation: $\min n$ is {@{the index of the first time signal value}@}. This gives {@{the base case}@} for recursion.\) where {@{$$x_{1}(q)={\begin{cases}x((n-Q+q)\Delta _{t})&q\leq 2Q\\0&q>2Q\end{cases} }$$}@} <!--SR:!2025-12-08,110,290!2025-10-18,48,269!2026-01-08,143,309!2025-09-29,73,329!2026-01-31,151,309-->
 

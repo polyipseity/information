@@ -33,7 +33,7 @@ Cartesian coordinates are {@{the foundation of [analytic geometry](analytic%20ge
 
 {@{The development of the Cartesian coordinate system}@} would {@{play a fundamental role in the development of the [calculus](calculus.md)}@} by {@{[Isaac Newton](Isaac%20Newton.md) and [Gottfried Wilhelm Leibniz](Gottfried%20Wilhelm%20Leibniz.md)}@}.<sup>[\[5\]](#^ref-5)</sup> {@{The two-coordinate description of the plane}@} was later {@{generalized into the concept of [vector spaces](vector%20spaces.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-03-12,309,349!2026-06-12,384,362!2026-04-27,347,349!2026-03-21,317,349!2026-04-05,325,349-->
 
-{@{Many other coordinate systems}@} have been {@{developed since Descartes}@}, such as {@{the [polar coordinates](polar%20coordinate%20system.md) for the plane}@}, and {@{the [spherical](spherical%20coordinate%20system.md) and [cylindrical coordinates](cylindrical%20coordinate%20system.md) for three-dimensional space}@}. <!--SR:!2026-02-01,275,330!2026-03-14,311,349!2026-03-13,310,349!2025-09-12,160,309-->
+{@{Many other coordinate systems}@} have been {@{developed since Descartes}@}, such as {@{the [polar coordinates](polar%20coordinate%20system.md) for the plane}@}, and {@{the [spherical](spherical%20coordinate%20system.md) and [cylindrical coordinates](cylindrical%20coordinate%20system.md) for three-dimensional space}@}. <!--SR:!2026-02-01,275,330!2026-03-14,311,349!2026-03-13,310,349!2027-07-30,686,329-->
 
 ## description
 

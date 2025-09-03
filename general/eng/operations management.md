@@ -181,7 +181,7 @@ A first possible distinction in production systems \({@{technological classifica
 
 > {@{![delivery lead time, manufacturing time](../../archives/Wikimedia%20Commons/Class%20wort.jpg)}@}
 >
-> {@{Delivery lead time}@} is {@{the blue bar}@}, {@{manufacturing time is the whole bar}@}, {@{the green bar is the difference between the two}@}. <!--SR:!2025-09-12,150,270!2026-01-13,264,330!2026-01-11,261,330!2026-02-02,279,330!2025-09-28,174,310-->
+> {@{Delivery lead time}@} is {@{the blue bar}@}, {@{manufacturing time is the whole bar}@}, {@{the green bar is the difference between the two}@}. <!--SR:!2027-03-27,561,290!2026-01-13,264,330!2026-01-11,261,330!2026-02-02,279,330!2025-09-28,174,310-->
 
 Another possible classification<sup>[\[39\]](#^ref-39)</sup> is one based on {@{[lead time](lead%20time.md) \(manufacturing lead time vs delivery lead time\)}@}: {@{[engineer to order](engineer%20to%20order.md) \(ETO\), [purchase to order](purchase%20to%20order.md) \(PTO\), [make to order](make%20to%20order.md) \(MTO\), [assemble to order](assemble%20to%20order.md) \(ATO\) and [make to stock](make%20to%20stock.md) \(MTS\)}@}. According to this classification {@{different kinds of systems}@} will have {@{different customer order decoupling points \(CODP\)}@}, meaning that {@{[work in progress](work%20in%20progress.md) \(WIP\) cycle stock levels}@} are {@{practically nonexistent regarding operations located after the CODP}@} \(except for {@{[WIP](work%20in%20process.md) due to queues}@}\). \(See [Order fulfillment](order%20fulfillment.md#options).\) <!--SR:!2026-01-25,274,330!2025-09-14,135,250!2026-02-13,289,330!2025-12-26,251,330!2025-12-23,247,330!2025-10-07,183,310!2025-12-24,249,330-->
 

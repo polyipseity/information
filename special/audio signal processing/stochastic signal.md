@@ -11,19 +11,19 @@ tags:
 
 - see: [general/stochastic process](../../general/stochastic%20process.md)
 
-A {@{__stochastic signal__}@} is {@{a signal that is random}@}. It can be described by {@{statistics}@}: {@{mean, variance, probability distributions, etc.}@} <!--SR:!2025-09-12,56,310!2026-04-25,227,330!2025-09-13,57,310!2025-09-23,67,310-->
+A {@{__stochastic signal__}@} is {@{a signal that is random}@}. It can be described by {@{statistics}@}: {@{mean, variance, probability distributions, etc.}@} <!--SR:!2026-05-16,246,330!2026-04-25,227,330!2025-09-13,57,310!2025-09-23,67,310-->
 
 ## frequency domain
 
 Stochastic signal can be {@{described in the frequency domain}@}. Two important ones are {@{autocorrelation and power spectral density}@}. <!--SR:!2025-09-23,67,310!2025-09-23,67,310-->
 
-{@{_Autocorrelation_}@} is defined as: {@{$$Z_{xx}[k] = \sum_{n = 0}^{N - 1} x[n] x[n + k] \qquad k = -N + 1, \ldots, N - 1 \,,$$}@} where {@{$x[n]$ is the \(stochastic\) signal and $k$ is the _time lag_}@}. It can help {@{identify repeating patterns or hidden periodicities}@}. <!--SR:!2026-04-27,229,330!2026-04-27,229,330!2025-09-17,61,310!2025-09-12,56,310-->
+{@{_Autocorrelation_}@} is defined as: {@{$$Z_{xx}[k] = \sum_{n = 0}^{N - 1} x[n] x[n + k] \qquad k = -N + 1, \ldots, N - 1 \,,$$}@} where {@{$x[n]$ is the \(stochastic\) signal and $k$ is the _time lag_}@}. It can help {@{identify repeating patterns or hidden periodicities}@}. <!--SR:!2026-04-27,229,330!2026-04-27,229,330!2025-09-17,61,310!2026-05-15,245,330-->
 
 {@{_Power spectral density_}@} is defined as: {@{$$Xp(f) = \lim_{N \to \infty} \frac 1 {N^2} \left\lvert \sum_{n = 0}^{N - 1} x[n] e^{-j (2 \pi f) n / f_s} \right\rvert^2 \,.$$}@} where {@{$x[n]$ is the \(stochastic\) signal, $f$ is the \(linear\) frequency, and $f_s$ is the sampling frequency}@}. It represents {@{the "energy" per time of the signal at a frequency bin}@}. <!--SR:!2026-01-01,124,290!2025-09-23,67,310!2025-09-18,62,310!2025-09-13,57,310-->
 
 ## stochastic model
 
-A stochastic signal can be described by {@{its power spectral density}@}. This gives an idea to {@{generate new stochastic signal that is _similar_ to the original}@}: Combine {@{its power spectral density \(or its frequency magnitude\)}@} and {@{generate random phases for each frequency \(if the original phases from the stochastic signal are used, we get back the original signal\)}@}. <!--SR:!2025-09-23,67,310!2025-09-16,60,310!2025-09-16,60,310!2025-09-12,56,310-->
+A stochastic signal can be described by {@{its power spectral density}@}. This gives an idea to {@{generate new stochastic signal that is _similar_ to the original}@}: Combine {@{its power spectral density \(or its frequency magnitude\)}@} and {@{generate random phases for each frequency \(if the original phases from the stochastic signal are used, we get back the original signal\)}@}. <!--SR:!2025-09-23,67,310!2025-09-16,60,310!2025-09-16,60,310!2026-05-15,245,330-->
 
 To do so, we can start with {@{white noise}@}, which has {@{constant power spectral density and random phases for each frequency}@}. This has a {@{simple representation}@} in the frequency domain: {@{$$U[k] = \lvert U[k] \rvert e^{j \angle U[k]} \,.$$}@} where {@{$U[k]$ is the Fourier transform of white noise; $\lvert U[k] \rvert$ is the amplitude, which should be the same for all frequencies by definition; and $\angle U[k]$ is the _random_ phase}@}. Then, given {@{the power spectral density of an existing signal $\frac 1 {N^2} \lvert H[k] \rvert^2$}@}, we {@{multiply the white noise Fourier transform element-wise}@}: {@{$$Y[k] = \frac 1 N \lvert H[k] \rvert U[k] = \frac 1 N \lvert H[k] \rvert \lvert U[k] \rvert e^{j \angle U[k]} \,.$$}@} We ignore {@{phases of the original signal}@} since we want to {@{generate a new stochastic signal similar to but not exactly the same as the original signal}@}. Finally, element-wise multiplication in the frequency domain translates to {@{convolution in the time domain}@}, so we have: {@{$$y[n] = \sum_{k = 0}^{N - 1} u[n] h[n - k] \,,$$}@} where {@{$u[n]$ is the white noise \(in time domain\) and $h[n] = \frac 1 N \sum_{k = 0}^{N - 1} \lvert H[k] \rvert e^{j (2\pi k / N) n}$ is the _impulse response_ \(obtained using IDFT\) of $\lvert H[k] \rvert$}@}. <!--SR:!2025-09-23,67,310!2025-09-18,62,310!2025-09-23,67,310!2025-09-19,63,310!2025-09-18,62,310!2025-09-23,67,310!2025-09-15,59,310!2025-09-23,67,310!2025-09-15,59,310!2025-09-23,67,310!2025-09-23,67,310!2025-09-16,60,310!2025-09-23,67,310-->
 
@@ -39,7 +39,7 @@ For denoising in {@{the time domain}@}, we can {@{apply DFT}@}, then {@{apply a 
 
 ## combining with other models
 
-Given a signal, often {@{other models \(e.g. sinusoidal models, harmonic models\) are used to approximate it}@}. Then, subtracting {@{the original signal by the signal produced by the model}@} in the {@{time or frequency domain \(due to linearity of DFT\)}@}, we obtain {@{the _residual_ respectively in the time or frequency domain}@}. <!--SR:!2025-09-23,67,310!2025-09-23,67,310!2025-09-17,61,310!2025-09-12,56,310-->
+Given a signal, often {@{other models \(e.g. sinusoidal models, harmonic models\) are used to approximate it}@}. Then, subtracting {@{the original signal by the signal produced by the model}@} in the {@{time or frequency domain \(due to linearity of DFT\)}@}, we obtain {@{the _residual_ respectively in the time or frequency domain}@}. <!--SR:!2025-09-23,67,310!2025-09-23,67,310!2025-09-17,61,310!2026-05-16,246,330-->
 
 The simplest way to {@{handle this residual}@} is to {@{simply add the residual albeit to the output by the other model}@}, which is called {@{a _residual model_}@}. By linearity, its DFT {@{is also added as-is}@}. This also means the original signal can be {@{recovered perfectly}@}. However, this means {@{the residual is always the same and highly specific to the sample used to obtain the residual model}@} when we want to {@{create a similar signal}@}. <!--SR:!2025-09-23,67,310!2025-09-23,67,310!2026-04-26,228,330!2025-09-23,67,310!2026-05-10,241,330!2026-04-30,232,330!2025-09-15,59,310-->
 

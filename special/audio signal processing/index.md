@@ -185,7 +185,7 @@ The content is in recommended learning order.
 - signal processing
   - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!2025-09-24,68,312!2025-09-24,68,312-->
   - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!2025-09-24,68,312!2025-09-15,59,312-->
-  - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2025-09-12,56,312!2025-09-24,68,312-->
+  - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2026-05-18,248,332!2025-09-24,68,312-->
   - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!2025-09-24,68,312!2025-09-20,64,312-->
   - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2026-05-10,241,332!2025-09-24,68,312-->
   - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!2025-09-19,63,312!2025-09-14,58,312-->
@@ -199,7 +199,7 @@ The content is in recommended learning order.
 - [International Computer Music Conference](../../general/International%20Computer%20Music%20Conference.md) \(ICMC\) ::@:: It is a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association \(ICMA\). <p> It was a pioneer of conferences dedicated to computer music \(started 1974\). <!--SR:!2025-09-24,68,312!2025-09-24,68,312-->
 - goodbye
 - Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!2025-09-24,68,312!2025-09-15,59,312-->
-- [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\) <!--SR:!2026-04-28,230,330!2025-09-12,56,312-->
+- [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\) <!--SR:!2026-04-28,230,330!2026-05-17,247,332-->
 
 ## references
 

@@ -110,7 +110,7 @@ This set is {@{the union of the length-1 sequences, the length-2 sequences, the 
 
 > Theorem — {@{The set of all finite [subsets](subset.md)}@} of the natural numbers is countable. <!--SR:!2026-01-07,277,290-->
 
-{@{The elements of any finite subset}@} can be {@{ordered into a finite sequence}@}. There are {@{only countably many finite sequences}@}, so {@{also there are only countably many finite subsets}@}. <!--SR:!2025-11-17,254,330!2026-01-04,291,330!2027-12-07,822,330!2025-09-12,186,310-->
+{@{The elements of any finite subset}@} can be {@{ordered into a finite sequence}@}. There are {@{only countably many finite sequences}@}, so {@{also there are only countably many finite subsets}@}. <!--SR:!2025-11-17,254,330!2026-01-04,291,330!2027-12-07,822,330!2027-11-19,798,330-->
 
 > Theorem — Let $S$ and $T$ be sets.
 >
