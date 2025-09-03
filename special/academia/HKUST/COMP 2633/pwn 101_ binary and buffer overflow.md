@@ -91,7 +91,7 @@ To summarize, the process of calling a function is: {@{passing the arguments, ca
 
 ## GNU Debugger and pwndbg
 
-To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands}@}, and {@{improve existing commands and views}@}. These should make it {@{easier to solve pwn challenges}@}. Install both of them first. <!--SR:!2027-08-17,803,330!2026-01-24,366,310!2028-07-17,1080,350!2025-10-12,292,330!2027-10-29,813,330!2025-09-11,23,372!2025-09-11,23,372-->
+To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands}@}, and {@{improve existing commands and views}@}. These should make it {@{easier to solve pwn challenges}@}. Install both of them first. <!--SR:!2027-08-17,803,330!2026-01-24,366,310!2028-07-17,1080,350!2025-10-12,292,330!2027-10-29,813,330!2026-01-09,120,392!2026-01-09,120,392-->
 
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 

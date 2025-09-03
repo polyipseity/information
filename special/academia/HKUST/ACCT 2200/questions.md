@@ -21,7 +21,7 @@ Below are some questions or question tips.
 
 ## introduction to managerial accounting
 
-- wholesalers vs. retailers ::@:: The former sells to other businesses. The latter sells to the general public. <!--SR:!2026-05-12,251,330!2025-09-11,60,310-->
+- wholesalers vs. retailers ::@:: The former sells to other businesses. The latter sells to the general public. <!--SR:!2026-05-12,251,330!2026-05-29,260,330-->
 
 ## job order costing
 
@@ -30,7 +30,7 @@ Below are some questions or question tips.
 
 ## process costing
 
-- rounding <!-- flashcard ID: 94474d74-075a-471e-8be3-09083d78a597 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2025-09-11,60,310!2025-09-15,64,310-->
+- rounding <!-- flashcard ID: 94474d74-075a-471e-8be3-09083d78a597 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2026-05-27,258,330!2025-09-15,64,310-->
 - weighted average method vs. first-in first-out \(FIFO\) method ::@:: In the former, costs and units last period and this period are grouped in the completion period. Cost per equivalent unit is the weighted average of the costs last period and this period. Since these two costs can differ significantly, calculation is inaccurate. Managers cannot evaluate costs by period independently. <p> In the latter, costs and units last period and this period are separated. Cost per equivalent unit is the average cost this period. Even if the average cost last period differs significantly, calculation is accurate. Managers can evaluate costs by period independently. <p> Managers care about which method is used because they provide different cost information. <!--SR:!2026-02-24,189,310!2026-05-19,252,330-->
 
 ## activity-based costing & cost management

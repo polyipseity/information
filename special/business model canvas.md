@@ -168,7 +168,7 @@ risk reduction
 - brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2026-11-14,469,197-->
-- customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
+- customization→::@::←design <!--SR:!2028-03-14,915,277!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2027-08-08,822,277!2025-11-19,225,234-->
 - newness→::@::←performance <!--SR:!2026-02-01,312,277!2027-12-06,913,277-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2029-07-23,1433,314-->
@@ -288,7 +288,7 @@ The key partnerships building block shows {@{important suppliers and networks re
 
 #### cost structure
 
-The cost structure building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2025-09-11,383,314!2026-08-22,397,274-->
+The cost structure building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2030-03-26,1657,334!2026-08-22,397,274-->
 
 In cost structures, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!2026-07-11,581,294-->
 

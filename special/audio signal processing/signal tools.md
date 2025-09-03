@@ -45,7 +45,7 @@ SonicVisualiser supports {@{many plugins to perform many extra functions}@}, whi
 
 ## sms-tools
 
-`sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}. <!--SR:!2028-09-21,1166,350!2025-09-11,307,330-->
+`sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}. <!--SR:!2028-09-21,1166,350!2029-07-10,1398,350-->
 
 ### analysis (sms-tools)
 

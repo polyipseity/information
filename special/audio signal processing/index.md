@@ -187,15 +187,15 @@ The content is in recommended learning order.
   - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!2025-09-24,68,312!2025-09-15,59,312-->
   - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2025-09-12,56,312!2025-09-24,68,312-->
   - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!2025-09-24,68,312!2025-09-20,64,312-->
-  - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2025-09-11,55,312!2025-09-24,68,312-->
+  - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2026-05-10,241,332!2025-09-24,68,312-->
   - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!2025-09-19,63,312!2025-09-14,58,312-->
-  - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2025-09-11,55,312!2025-09-14,58,312-->
+  - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2026-05-09,240,332!2025-09-14,58,312-->
   - signal processing / topics beyond ::@:: data processing, other signal types apart from sounds, semantic technologies, user-centered studies <!--SR:!2025-09-16,60,312!2025-09-18,62,312-->
 - review
 - [Music Technology Group](../../general/Music%20Technology%20Group.md) \(MTG\) ::@:: It is a research group of the Department of Information and Communication Technologies of the Universitat Pompeu Fabra, Barcelona. It was founded in 1994 by Xavier Serra, and it specializes in sound and music computing research. <!--SR:!2025-09-16,60,312!2025-09-13,57,312-->
   - Music Technology Group / research ::@:: audio signal processing \(e.g. Vocaloid\), musical and advanced interaction \(e.g. Reactable\), semantic technologies, sound and music description <!--SR:!2025-09-13,57,312!2025-09-24,68,312-->
-- [Reactable](../../general/Reactable.md) ::@:: It is an electronic musical instrument with a tabletop tangible user interface that was developed within the Music Technology Group at the Universitat Pompeu Fabra in Barcelona, Spain. <!--SR:!2025-09-11,55,312!2025-09-11,55,312-->
-- Sound and Music Computing Network \(SMCN\) ::@:: <https://smcnetwork.org/> <p> It is a web portal dedicated to sound and music computing. <!--SR:!2025-09-11,55,312!2025-09-17,61,312-->
+- [Reactable](../../general/Reactable.md) ::@:: It is an electronic musical instrument with a tabletop tangible user interface that was developed within the Music Technology Group at the Universitat Pompeu Fabra in Barcelona, Spain. <!--SR:!2026-05-11,242,332!2026-05-11,242,332-->
+- Sound and Music Computing Network \(SMCN\) ::@:: <https://smcnetwork.org/> <p> It is a web portal dedicated to sound and music computing. <!--SR:!2026-05-11,242,332!2025-09-17,61,312-->
 - [International Computer Music Conference](../../general/International%20Computer%20Music%20Conference.md) \(ICMC\) ::@:: It is a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association \(ICMA\). <p> It was a pioneer of conferences dedicated to computer music \(started 1974\). <!--SR:!2025-09-24,68,312!2025-09-24,68,312-->
 - goodbye
 - Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!2025-09-24,68,312!2025-09-15,59,312-->

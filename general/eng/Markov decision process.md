@@ -116,7 +116,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 
 ### constrained Markov decision processes
 
-{@{Constrained Markov decision processes \(CMDPS\)}@} are {@{extensions to Markov decision process \(MDPs\)}@}. There are {@{three fundamental differences}@} between MDPs and CMDPs.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-02-01,329,349!2026-01-22,321,349!2025-09-11,209,329-->
+{@{Constrained Markov decision processes \(CMDPS\)}@} are {@{extensions to Markov decision process \(MDPs\)}@}. There are {@{three fundamental differences}@} between MDPs and CMDPs.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-02-01,329,349!2026-01-22,321,349!2028-04-20,952,349-->
 
 - There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2025-11-05,256,332!2027-10-29,796,332-->
 - CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2028-01-09,862,332!2025-12-29,299,332-->

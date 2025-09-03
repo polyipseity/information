@@ -107,7 +107,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 ### net current assets
 
-__Net current assets__ means {@{current [assets](asset.md) minus current liabilities}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2025-09-11,275,330-->
+__Net current assets__ means {@{current [assets](asset.md) minus current liabilities}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2029-02-12,1250,350-->
 
 ### equity / capital
 

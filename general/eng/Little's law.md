@@ -37,7 +37,7 @@ If {@{the rate at which people enter the store \(called the arrival rate\) is th
 
 Little's Law tells us that {@{the average number of customers in the store _L_}@}, is {@{the effective arrival rate _λ_, times the average time that a customer spends in the store _W_}@}, or simply: {@{$$L=\lambda W$$}@} <!--SR:!2026-02-14,283,330!2026-01-06,252,330!2025-09-13,159,310-->
 
-Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5 hour}@}. This means we should find {@{the average number of customers in the store at any time to be 5}@}. {@{$$L=10\times 0.5=5$$}@} <!--SR:!2025-09-11,157,310!2025-12-31,246,330!2026-02-10,280,330-->
+Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5 hour}@}. This means we should find {@{the average number of customers in the store at any time to be 5}@}. {@{$$L=10\times 0.5=5$$}@} <!--SR:!2027-07-17,674,330!2025-12-31,246,330!2026-02-10,280,330-->
 
 Now suppose {@{the store is considering doing more advertising to raise the arrival rate to 20 per hour}@}. The store must either {@{be prepared to host an average of 10 occupants}@} or {@{must reduce the time each customer spends in the store to 0.25 hour}@}. The store might {@{achieve the latter}@} by {@{ringing up the bill faster or by adding more counters}@}. <!--SR:!2026-02-22,290,330!2025-12-19,237,330!2026-02-01,271,330!2026-02-03,273,330!2026-01-30,269,330-->
 

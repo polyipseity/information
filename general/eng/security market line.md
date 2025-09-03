@@ -13,18 +13,18 @@ tags:
 
 > {@{![Security market line](../../archives/Wikimedia%20Commons/SML-chart.png)}@}
 >
-> {@{Security market line}@} <!--SR:!2025-09-11,57,310!2025-09-11,57,310-->
+> {@{Security market line}@} <!--SR:!2026-05-20,251,330!2026-05-18,249,330-->
 
-{@{__Security market line__ \(__SML__\)}@} is {@{the representation of the [capital asset pricing model](capital%20asset%20pricing%20model.md)}@}. It displays {@{the expected rate of return of an individual security as a function of systematic, [non-diversifiable risk](systematic%20risk.md)}@}. {@{The risk of an individual risky security}@} reflects {@{the [volatility](volatility%20(finance).md) of the return from the security}@} rather than {@{the return of the market portfolio}@}. {@{The risk in these individual risky securities}@} reflects {@{the systematic risk \(annotation: after ignoring the idiosyncratic risk\)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-05-11,243,330!2025-09-20,65,310!2025-09-15,61,310!2025-09-11,57,310!2026-05-10,242,330!2025-09-13,59,310!2025-09-16,62,310!2026-05-08,241,330-->
+{@{__Security market line__ \(__SML__\)}@} is {@{the representation of the [capital asset pricing model](capital%20asset%20pricing%20model.md)}@}. It displays {@{the expected rate of return of an individual security as a function of systematic, [non-diversifiable risk](systematic%20risk.md)}@}. {@{The risk of an individual risky security}@} reflects {@{the [volatility](volatility%20(finance).md) of the return from the security}@} rather than {@{the return of the market portfolio}@}. {@{The risk in these individual risky securities}@} reflects {@{the systematic risk \(annotation: after ignoring the idiosyncratic risk\)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-05-11,243,330!2025-09-20,65,310!2025-09-15,61,310!2026-05-18,249,330!2026-05-10,242,330!2025-09-13,59,310!2025-09-16,62,310!2026-05-08,241,330-->
 
 ## formula
 
-{@{The Y-intercept of the SML}@} is equal to {@{the [risk-free interest rate](risk-free%20interest%20rate.md)}@}. {@{The slope of the SML}@} is equal to {@{the market [risk premium](risk%20premium.md)}@} and reflects {@{the risk return tradeoff at a given time}@}: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$}@} <!--SR:!2025-09-12,58,310!2025-09-17,63,310!2026-05-08,241,330!2025-09-21,66,310!2025-09-11,57,310!2025-09-18,63,310-->
+{@{The Y-intercept of the SML}@} is equal to {@{the [risk-free interest rate](risk-free%20interest%20rate.md)}@}. {@{The slope of the SML}@} is equal to {@{the market [risk premium](risk%20premium.md)}@} and reflects {@{the risk return tradeoff at a given time}@}: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$}@} <!--SR:!2025-09-12,58,310!2025-09-17,63,310!2026-05-08,241,330!2025-09-21,66,310!2026-05-19,250,330!2025-09-18,63,310-->
 
 where:
 
 &emsp; _E_\(_R_<sub>_i_</sub>\) ::@:: is an expected return on security <br/> <!--SR:!2025-09-12,58,310!2025-09-14,60,310-->
-&emsp; _E_\(_R_<sub>_M_</sub>\) ::@:: is an expected return on market portfolio _M_ <br/> <!--SR:!2025-09-16,61,310!2025-09-11,57,310-->
+&emsp; _E_\(_R_<sub>_M_</sub>\) ::@:: is an expected return on market portfolio _M_ <br/> <!--SR:!2025-09-16,61,310!2026-05-16,247,330-->
 &emsp; _β_ ::@:: is a nondiversifiable or systematic risk <br/> <!--SR:!2026-05-14,246,330!2025-09-12,58,310-->
 &emsp; _R_<sub>_M_</sub> ::@:: is a market rate of return <br/> <!--SR:!2025-09-13,59,310!2025-09-12,58,310-->
 &emsp; _R_<sub>_f_</sub> ::@:: is a risk-free rate <!--SR:!2026-04-30,234,330!2026-05-08,241,330-->
@@ -35,11 +35,11 @@ There is a question about {@{what the SML looks like when beta is negative}@}. {
 
 ## security market line, Treynor ratio and alpha
 
-{@{All of the portfolios on the SML}@} have {@{the same [Treynor ratio](Treynor%20ratio.md) as does the market portfolio}@}, i.e. {@{$${\frac {E(R_{i})-R_{f} }{\beta _{i} } }=E(R_{M})-R_{f}.$$}@} <!--SR:!2025-09-14,60,310!2025-09-11,57,310!2025-09-12,58,310-->
+{@{All of the portfolios on the SML}@} have {@{the same [Treynor ratio](Treynor%20ratio.md) as does the market portfolio}@}, i.e. {@{$${\frac {E(R_{i})-R_{f} }{\beta _{i} } }=E(R_{M})-R_{f}.$$}@} <!--SR:!2025-09-14,60,310!2026-05-17,248,330!2025-09-12,58,310-->
 
 In fact, {@{the slope of the SML}@} is {@{the Treynor ratio of the market portfolio}@} since {@{$\beta _{M}=1$}@}. <!--SR:!2025-09-19,64,310!2025-09-16,62,310!2025-09-14,60,310-->
 
-{@{A [stock picking](stock%20picking.md) rule of thumb}@} for {@{assets with positive beta}@} is {@{to buy if the Treynor ratio will be above the SML and sell if it will be below \(see figure above\)}@}. Indeed, from {@{the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}, it follows that {@{we cannot beat the market}@}. Therefore, all assets should {@{have a Treynor ratio less than or equal to that of the market}@}. In consequence, if {@{there is an asset whose Treynor ratio will be bigger than the market's}@} then this asset {@{gives more return for unit of [systematic risk](systematic%20risk.md) \(i.e. beta\)}@}, which {@{contradicts the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}. <!--SR:!2025-09-17,63,310!2025-09-21,66,310!2026-02-23,168,310!2025-09-19,64,310!2026-04-27,231,330!2026-05-08,241,330!2025-09-11,57,310!2025-09-12,58,310!2025-09-15,61,310-->
+{@{A [stock picking](stock%20picking.md) rule of thumb}@} for {@{assets with positive beta}@} is {@{to buy if the Treynor ratio will be above the SML and sell if it will be below \(see figure above\)}@}. Indeed, from {@{the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}, it follows that {@{we cannot beat the market}@}. Therefore, all assets should {@{have a Treynor ratio less than or equal to that of the market}@}. In consequence, if {@{there is an asset whose Treynor ratio will be bigger than the market's}@} then this asset {@{gives more return for unit of [systematic risk](systematic%20risk.md) \(i.e. beta\)}@}, which {@{contradicts the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}. <!--SR:!2025-09-17,63,310!2025-09-21,66,310!2026-02-23,168,310!2025-09-19,64,310!2026-04-27,231,330!2026-05-08,241,330!2026-05-15,246,330!2025-09-12,58,310!2025-09-15,61,310-->
 
 {@{This _abnormal_ extra return above the market's return at a given level of risk}@} is what is called {@{the [alpha](alpha%20(investment).md)}@}. <!--SR:!2025-09-16,61,310!2026-05-12,244,330-->
 

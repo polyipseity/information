@@ -35,7 +35,7 @@ If we go on to {@{[Hilbert spaces](Hilbert%20space.md)}@}, {@{a non-orthonormal 
 
 - {@{[Eigenfunctions](eigenfunction.md)}@} of {@{a [Sturm–Liouville eigenproblem](Sturm–Liouville%20eigenproblem.md)}@}. <!--SR:!2026-01-26,249,324!2025-12-11,226,324-->
 
-- {@{The [column vectors](column%20vectors.md) of an [orthogonal matrix](orthogonal%20matrix.md)}@} form {@{an orthonormal set}@}. <!--SR:!2027-02-06,514,400!2025-09-11,99,380-->
+- {@{The [column vectors](column%20vectors.md) of an [orthogonal matrix](orthogonal%20matrix.md)}@} form {@{an orthonormal set}@}. <!--SR:!2027-02-06,514,400!2027-02-15,522,400-->
 
 ## basic formula
 
