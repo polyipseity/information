@@ -42,6 +42,7 @@ The content is in teaching order.
 - logistics
 - ACCT 3010
   - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc.
+- [questions § week 1 lecture](questions.md#week%201%20lecture)
 
 ## week 1 lecture 2
 
