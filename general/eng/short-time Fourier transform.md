@@ -173,7 +173,7 @@ a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta 
 
 {@{Rectangular window}@} imposes the constraint {@{$$w((n-p)\Delta _{t})=1$$}@} {@{Substitution}@} gives: {@{$${\begin{aligned}X(n\Delta _{t},m\Delta _{f})&=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})&x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}\\&=\sum _{p=n-Q}^{n+Q}&x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}\\\end{aligned} }$$}@}
 
-{@{Change of variable _n_-1 for _n_}@}: {@{$$X((n-1)\Delta _{t},m\Delta _{f})=\sum _{p=n-1-Q}^{n-1+Q}x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}$$}@} \(annotation: The motivation is {@{expressing $X(n \Delta_t, m \Delta_f)$ in terms of $X((n - 1) \Delta_t, m \Delta_f)$}@}.\)
+{@{Change of variable _n_−1 for _n_}@}: {@{$$X((n-1)\Delta _{t},m\Delta _{f})=\sum _{p=n-1-Q}^{n-1+Q}x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}$$}@} \(annotation: The motivation is {@{expressing $X(n \Delta_t, m \Delta_f)$ in terms of $X((n - 1) \Delta_t, m \Delta_f)$}@}.\)
 
 Calculate {@{$X(\min {n}\Delta _{t},m\Delta _{f})$ by the _N_-point FFT}@}: {@{$$X(n_{0}\Delta _{t},m\Delta _{f})=\Delta _{t}e^{\frac {j2\pi (Q-n_{0})m}{N} }\sum _{q=0}^{N-1}x_{1}(q)e^{-j{\frac {2\pi qm}{N} } },\qquad n_{0}=\min {(n)}$$}@} \(annotation: $\min n$ is {@{the index of the first time signal value}@}. This gives {@{the base case}@} for recursion.\) where {@{$$x_{1}(q)={\begin{cases}x((n-Q+q)\Delta _{t})&q\leq 2Q\\0&q>2Q\end{cases} }$$}@}
 

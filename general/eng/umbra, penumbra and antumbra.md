@@ -21,7 +21,7 @@ The {@{__umbra__, __penumbra__ and __antumbra__}@} are {@{three distinct parts o
 
 ## umbra
 
-The {@{__umbra__}@} ([Latin](Latin.md) for {@{"shadow"}@}) is {@{the innermost and darkest part of a [shadow](shadow.md), where the light source is completely blocked by the occluding body}@}. An observer within the umbra experiences {@{a [total eclipse](solar%20eclipse.md#total%20eclipse)}@}.
+The {@{__umbra__}@} ([Latin](Latin.md) for {@{"shadow"}@}) is {@{the innermost and darkest part of a [shadow](shadow.md)}@}, where {@{the light source is completely blocked by the occluding body}@}. {@{An observer within the umbra}@} experiences {@{a [total eclipse](solar%20eclipse.md#total%20eclipse)}@}.
 
 The umbra of a round body occluding a round light source forms {@{a right circular [cone](cone.md)}@}. When viewed from the cone's [apex](apex%20(geometry).md), {@{the two bodies [appear the same size](angular%20diameter.md)}@}. The cone can be visualized by {@{drawing two lines, one from the light source top to the round body top, the other from the light source bottom to the round body bottom}@}. Then the cone is {@{the portion enclosed by the two lines and behind the round body}@}. If the round body is {@{larger than the round light source}@}, then {@{the umbra is a [frustum](frustum.md) instead}@}.
 

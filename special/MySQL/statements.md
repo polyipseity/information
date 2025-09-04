@@ -33,4 +33,4 @@ tags:
   - `*` ::@:: Select all columns.
   - `COUNT(expression)` ::@:: Number of selected non-`NULL` rows for `expression`.
 - `table_reference`
-  - `table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]` ::@:: [`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`.
+  - `table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]` ::@:: [`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ − 1 expressions `on_expression`.

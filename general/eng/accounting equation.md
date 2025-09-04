@@ -2,8 +2,8 @@
 aliases:
   - accounting equation
   - accounting equations
-  - balalnce sheet equation
-  - balalnce sheet equations
+  - balance sheet equation
+  - balance sheet equations
   - fundamental accounting equation
   - fundamental accounting equations
 tags:
@@ -26,7 +26,7 @@ The [formula](formula.md) can {@{also be rearranged}@}, e.g.:
 - $A-L=OE$ (i.e. ${\text{Assets} }-{\text{Liabilities} }={\text{Owner’s Equity} }$)
 - $A-L=SE$ (i.e. ${\text{Assets} }-{\text{Liabilities} }={\text{Shareholders’ Equity} }$) <sup>[\[1\]](#^ref-1)</sup>
 
-Every [accounting](accounting.md) [transaction](financial%20transaction.md) {@{affects at least one element of the equation, but always balances (it is at least _one_ element, not two elements, of equation because of transactions between accounts of the same type)}@}.
+{@{Every [accounting](accounting.md) [transaction](financial%20transaction.md)}@} {@{affects at least one element of the equation}@}, but {@{always balances}@} \(it is {@{at least _one_ element, not two elements}@}, of equation because of {@{transactions between accounts of the same type}@}\).
 
 ## references
 

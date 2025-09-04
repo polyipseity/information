@@ -37,7 +37,7 @@ As with {@{any [statistical model](statistical%20model.md)}@}, the fit should be
 
 ## extensions
 
-A different method consists in {@{transforming the non-linear regression to a linear regression thanks to a convenient integral equation}@}. Then, there is {@{no need for initial guess and no need for iterative process}@} : the fitting is {@{directly obtained}@}.<sup>[\[1\]](#^ref-1)</sup>
+A different method consists in {@{transforming the non-linear regression to a linear regression thanks to a convenient integral equation}@}. Then, there is {@{no need for initial guess and no need for iterative process}@}: the fitting is {@{directly obtained}@}.<sup>[\[1\]](#^ref-1)</sup>
 
 ## see also
 
