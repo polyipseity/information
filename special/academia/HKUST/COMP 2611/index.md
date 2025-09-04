@@ -82,7 +82,7 @@ The content is in teaching order.
   - instruction set architecture / examples ::@:: ARM, MIPS, PowerPC, SPARC, x86
 - [computer](../../../../general/computer.md) ::@:: a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation)
   - computer / the very first computers ::@:: some uses punch cards as computer programs, very large (can be as large as a building), very low capabilities (compared to nowadays)
-- [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <p> in this course, 5 components: input, output, memory, processor (control + datapath)
+- [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <p> in this course, 5 components: input, output, memory, processor \(control + datapath\)
   - von Neumann architecture / input ::@:: communicate with the computers; transfer data and instructions to the memory
   - von Neumann architecture / output ::@:: communicate with the users; transfer data from the memory
   - von Neumann architecture / memory ::@:: store to keep data and instructions

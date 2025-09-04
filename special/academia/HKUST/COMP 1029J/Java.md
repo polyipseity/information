@@ -18,7 +18,7 @@ To develop Java, one needs {@{the Java Development Kit (JDK)}@}. This courses al
 
 ## the language
 
-- see: [Java basics](Java%20basics.md)
+- see: [basics](basics.md)
 
 ## see also
 

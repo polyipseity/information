@@ -77,6 +77,7 @@ tags:
 
 ### 2025 summer
 
+- [ELEC 1200](ELEC%201200/index.md): A System View of Communications: from Signals to Packets \(4 credits\)
 - ISOM 2010: Introduction to Information Systems \(3 credits\)
   - transferred: [Korea University](../Korea%20University/index.md): [ISC213](../Korea%20University/ISC213/index.md): Introduction to Management Information Systems
 
