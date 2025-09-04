@@ -9,7 +9,7 @@ tags:
 
 # molecule
 
-A __molecule__ is {@{a group of multiple [atoms](atom.md) held together by [chemical bonds](chemical%20bond.md)}@}. The number of atoms in a molecule is called {@{[atomicity](atomicity.md)}@}. <!--SR:!2028-11-03,1471,290!2025-09-14,685,330-->
+A __molecule__ is {@{a group of multiple [atoms](atom.md) held together by [chemical bonds](chemical%20bond.md)}@}. The number of atoms in a molecule is called {@{[atomicity](atomicity.md)}@}. <!--SR:!2028-11-03,1471,290!2034-03-28,3117,350-->
 
 ## references
 

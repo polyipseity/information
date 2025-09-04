@@ -695,7 +695,7 @@ tags:
 > 2. no
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@} <!--SR:!2025-09-14,129,409!2027-08-29,715,429-->
+> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@} <!--SR:!2027-09-08,724,429!2027-08-29,715,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +759,7 @@ tags:
 > 3. yield to maturity \(YTM\)
 >
 > - solution: {@{3}@}
-> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@} <!--SR:!2025-09-14,129,409!2027-08-07,696,429-->
+> - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@} <!--SR:!2027-09-03,719,429!2027-08-07,696,429-->
 
 <!-- markdownlint MD028 -->
 

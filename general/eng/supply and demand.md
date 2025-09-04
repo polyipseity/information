@@ -99,7 +99,7 @@ Common determinants of demand are:
 >
 > Figure 2. {@{Early supply and demand curves}@} <!--SR:!2025-09-18,241,330-->
 
-Since supply and demand can be {@{considered as [functions](function%20(mathematics).md) of price}@} they have {@{a natural graphical representation}@}. Demand curves were first drawn by [Augustin Cournot](Antoine%20Augustin%20Cournot.md) in his _Recherches sur les Principes Mathématiques de la Théorie des Richesses_ (1838) – see [Cournot competition](cournot%20competition.md). Supply curves were added by [Fleeming Jenkin](Fleeming%20Jenkin.md) in _The Graphical Representation of the Laws of Supply and Demand..._ of 1870. Both sorts of curve were popularised by [Alfred Marshall](Alfred%20Marshall.md) who, in his _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_ (1890), chose to {@{represent price – normally the independent variable – by the vertical axis; a practice which remains common}@}. <!--SR:!2025-09-14,238,330!2025-11-23,294,330!2025-10-15,247,330-->
+Since supply and demand can be {@{considered as [functions](function%20(mathematics).md) of price}@} they have {@{a natural graphical representation}@}. Demand curves were first drawn by [Augustin Cournot](Antoine%20Augustin%20Cournot.md) in his _Recherches sur les Principes Mathématiques de la Théorie des Richesses_ (1838) – see [Cournot competition](cournot%20competition.md). Supply curves were added by [Fleeming Jenkin](Fleeming%20Jenkin.md) in _The Graphical Representation of the Laws of Supply and Demand..._ of 1870. Both sorts of curve were popularised by [Alfred Marshall](Alfred%20Marshall.md) who, in his _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_ (1890), chose to {@{represent price – normally the independent variable – by the vertical axis; a practice which remains common}@}. <!--SR:!2028-09-01,1083,350!2025-11-23,294,330!2025-10-15,247,330-->
 
 If {@{supply or demand is a function of other variables besides price}@}, it may be {@{represented by a family of curves \(with a change in the other variables constituting a shift between curves\)}@} or by {@{a surface in a higher dimensional space}@}. <!--SR:!2025-09-16,240,330!2027-11-24,837,330!2026-01-10,121,393-->
 
@@ -111,7 +111,7 @@ Generally speaking, an equilibrium is defined to be {@{the price-quantity pair w
 
 #### market equilibrium
 
-A situation in a market when {@{the price is such that the quantity demanded by consumers is correctly balanced by the quantity that firms wish to supply}@}. In this situation, {@{the market clears}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-12,243,330!2025-09-14,238,330-->
+A situation in a market when {@{the price is such that the quantity demanded by consumers is correctly balanced by the quantity that firms wish to supply}@}. In this situation, {@{the market clears}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-12,243,330!2028-09-02,1084,350-->
 
 #### changes in market equilibrium
 

@@ -13,13 +13,13 @@ tags:
 
 In {@{[statistics](statistics.md), [signal processing](signal%20processing.md), and [time series analysis](time%20series%20analysis.md)}@}, a {@{__sinusoidal model__}@} is used to {@{approximate a sequence _Y<sub>i</sub>_ to a [sine](sine.md) function}@}: {@{$$Y_{i}=C+\alpha \sin(\omega T_{i}+\phi )+E_{i}$$}@} where {@{_C_ is constant defining a [mean](mean.md) level, α is an [amplitude](amplitude.md) for the [sine](sine.md), ω is the [angular frequency](angular%20frequency.md), _T<sub>i</sub>_ is a time variable, φ is the [phase-shift](phase-shift.md#phase%20shift), and _E<sub>i</sub>_ is the error sequence}@}. <!--SR:!2026-05-23,253,330!2025-09-22,67,310!2025-09-15,61,310!2025-09-17,63,310!2025-10-08,29,290-->
 
-This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20least%20squares.md)}@}; to {@{obtain a good fit}@}, routines may {@{require good starting values for the unknown parameters}@}. {@{Fitting a model with a single sinusoid}@} is {@{a special case of [spectral density estimation](spectral%20density%20estimation.md) and [least-squares spectral analysis](least-squares%20spectral%20analysis.md)}@}. <!--SR:!2025-09-16,61,310!2026-04-27,232,330!2026-05-07,241,330!2025-09-14,60,310!2025-09-19,64,310-->
+This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20least%20squares.md)}@}; to {@{obtain a good fit}@}, routines may {@{require good starting values for the unknown parameters}@}. {@{Fitting a model with a single sinusoid}@} is {@{a special case of [spectral density estimation](spectral%20density%20estimation.md) and [least-squares spectral analysis](least-squares%20spectral%20analysis.md)}@}. <!--SR:!2025-09-16,61,310!2026-04-27,232,330!2026-05-07,241,330!2026-06-04,263,330!2025-09-19,64,310-->
 
 ## good starting values
 
 ### good starting value for the mean
 
-{@{A good starting value for _C_}@} can be obtained by {@{calculating the [mean](mean.md) of the data}@}. If {@{the data show a [trend](trend%20estimation.md), i.e., the assumption of constant location is violated}@}, one can {@{replace _C_ with a linear or quadratic [least squares](least%20squares.md) fit}@}. That is, the model becomes {@{$$Y_{i}=(B_{0}+B_{1}T_{i})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} or {@{$$Y_{i}=(B_{0}+B_{1}T_{i}+B_{2}T_{i}^{2})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2026-01-16,151,310!2026-05-17,249,330!2026-05-06,240,330!2025-09-20,65,310!2026-05-30,259,330!2025-09-14,60,310-->
+{@{A good starting value for _C_}@} can be obtained by {@{calculating the [mean](mean.md) of the data}@}. If {@{the data show a [trend](trend%20estimation.md), i.e., the assumption of constant location is violated}@}, one can {@{replace _C_ with a linear or quadratic [least squares](least%20squares.md) fit}@}. That is, the model becomes {@{$$Y_{i}=(B_{0}+B_{1}T_{i})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} or {@{$$Y_{i}=(B_{0}+B_{1}T_{i}+B_{2}T_{i}^{2})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2026-01-16,151,310!2026-05-17,249,330!2026-05-06,240,330!2025-09-20,65,310!2026-05-30,259,330!2026-06-03,262,330-->
 
 ### good starting value for frequency
 

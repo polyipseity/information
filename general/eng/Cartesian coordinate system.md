@@ -163,7 +163,7 @@ Assuming that {@{translations are not used \(that is, $b_{1}=b_{2}=0$\)}@} trans
 
 > {@{![Effect of applying various 2D affine transformation matrices on a unit square \(reflections are special cases of scaling\)](../../archives/Wikimedia%20Commons/2D%20affine%20transformation%20matrix.svg)}@}
 >
-> Effect of {@{applying various 2D affine transformation matrices on a unit square}@} \(reflections are {@{special cases of scaling}@}\) <!--SR:!2025-09-14,162,322!2025-09-24,168,310!2026-05-09,352,349-->
+> Effect of {@{applying various 2D affine transformation matrices on a unit square}@} \(reflections are {@{special cases of scaling}@}\) <!--SR:!2027-09-05,721,342!2025-09-24,168,310!2026-05-09,352,349-->
 
 {@{[Affine transformations](affine%20transformation.md) of the [Euclidean plane](Euclidean%20plane.md)}@} are {@{transformations that map lines to lines, but may change distances and angles}@}. As said in the preceding section, they can be represented with {@{augmented matrices: $${\begin{pmatrix}A_{1,1}&A_{2,1}&b_{1}\\A_{1,2}&A_{2,2}&b_{2}\\0&0&1\end{pmatrix} }{\begin{pmatrix}x\\y\\1\end{pmatrix} }={\begin{pmatrix}x'\\y'\\1\end{pmatrix} }.$$}@} {@{The Euclidean transformations}@} are {@{the affine transformations such that the 2×2 matrix of the $A_{i,j}$ is [orthogonal](orthogonal%20matrix.md)}@}. <!--SR:!2026-03-17,314,349!2026-05-26,369,362!2026-06-13,385,362!2026-01-23,268,330!2025-09-29,172,310-->
 

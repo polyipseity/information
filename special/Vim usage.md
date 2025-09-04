@@ -40,7 +40,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## write and quit
 
 - quit current buffer ::@:: :q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2032-12-20,2707,333-->
-- quit current buffer, discard changes ::@:: :q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2025-09-14,709,313-->
+- quit current buffer, discard changes ::@:: :q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2034-02-13,3074,333-->
 - write \[range=%\] to \[file=(current)\] ::@:: :\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2028-07-26,1327,293!2029-05-13,1812,368-->
 - write to \[file=(current)\] and quit ::@:: :wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2028-03-09,1367,348-->
 

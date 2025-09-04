@@ -238,7 +238,7 @@ Circumference: 628.3185307179587
   - advanced Python / library ::@:: A __library__ is a collection of _packages_. <!--SR:!2025-09-23,252,332!2025-11-26,306,350-->
   - advanced Python / `import` ::@:: The `import` keyword  can be used to import external modules. <!--SR:!2025-12-21,323,350!2025-11-07,290,350-->
     - advanced Python / `import` directly ::@:: `import <module> [as <name>]` <br/> `import <package>.<module> [as <name>]` <p> The module is accessible as `<module>` or `<package>.<module>`. If `as <name>` is present, then it is accessible as `<name>`. <!--SR:!2025-12-28,331,350!2025-10-19,272,332-->
-    - advanced Python / `import` some ::@:: `from <module> import <entity> [as <name>]` <br/> `from <package>.<module> import <entity> [as <name>]` <p> The named entity is accessible as `<entity>`. If `as <name>` is present, then it is accessible as `<name>`. <!--SR:!2025-09-14,229,330!2025-10-30,282,350-->
+    - advanced Python / `import` some ::@:: `from <module> import <entity> [as <name>]` <br/> `from <package>.<module> import <entity> [as <name>]` <p> The named entity is accessible as `<entity>`. If `as <name>` is present, then it is accessible as `<name>`. <!--SR:!2028-07-22,1042,350!2025-10-30,282,350-->
     - advanced Python / `import` all ::@:: `from <module> import *` <br/> `from <package>.<module> import *` <p> All named entities inside the module are accessible with their names preserved. It is not recommended to use this as it may result in ambiguity. <!--SR:!2026-01-02,335,350!2026-01-06,338,350-->
 
 __Python private member name mangling example__ <a id="^Python-private-member-name-mangling-example"></a> ^Python-private-member-name-mangling-example

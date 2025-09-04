@@ -23,7 +23,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 
 {@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2025-09-21,288,330-->
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-10-12,534,310!2025-09-14,235,270-->
+1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-10-12,534,310!2028-02-20,889,290-->
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-25,358,290!2026-10-09,567,310-->
 
 Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2026-06-09,447,310!2025-09-19,286,330!2026-04-21,438,310-->
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2028-03-31,1006,350!2025-10-05,299,330!2025-09-14,284,330!2026-12-22,638,330!2026-11-20,611,330!2027-05-27,755,330!2029-02-24,1266,350!2028-07-26,1097,350-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2028-03-31,1006,350!2025-10-05,299,330!2029-03-30,1293,350!2026-12-22,638,330!2026-11-20,611,330!2027-05-27,755,330!2029-02-24,1266,350!2028-07-26,1097,350-->
 
 <!-- markdownlint MD028 -->
 

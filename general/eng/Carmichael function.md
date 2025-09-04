@@ -47,7 +47,7 @@ If {@{_g_ is one of the primitive _λ_-roots guaranteed by the theorem}@}, then 
 
 {@{The second statement of Theorem 2}@} does not imply that {@{all primitive _λ_-roots modulo _n_ are congruent to powers of a single root _g_}@}.<sup>[\[5\]](#^ref-5)</sup> For example, if {@{_n_ = 15}@}, then _λ_\(_n_\) = 4 while $\varphi (n)=8$ and $\varphi (\lambda (n))=2$. There are {@{four primitive _λ_-roots modulo 15}@}, namely {@{2, 7, 8, and 13 as $1\equiv 2^{4}\equiv 8^{4}\equiv 7^{4}\equiv 13^{4}$}@}. The roots 2 and 8 are {@{congruent to powers of each other and the roots 7 and 13 are congruent to powers of each other}@}, but {@{neither 7 nor 13 is congruent to a power of 2 or 8 and vice versa}@}. {@{The other four elements of the multiplicative group modulo 15}@}, namely {@{1, 4 \(which satisfies $4\equiv 2^{2}\equiv 8^{2}\equiv 7^{2}\equiv 13^{2}$\), 11, and 14}@}, are {@{not primitive _λ_-roots modulo 15}@}. <!--SR:!2026-02-02,317,341!2027-01-14,552,310!2027-03-22,572,310!2026-02-20,331,341!2026-07-02,385,301!2025-10-19,213,321!2027-10-16,781,330!2025-09-17,205,321!2027-07-02,673,301!2028-02-10,882,341-->
 
-For a contrasting example, if {@{_n_ = 9}@}, then $\lambda (n)=\varphi (n)=6$ and $\varphi (\lambda (n))=2$. There are {@{two primitive _λ_-roots modulo 9}@}, namely {@{2 and 5}@}, each of which is {@{congruent to the fifth power of the other}@}. They are also {@{both primitive $\varphi$-roots modulo 9}@}. <!--SR:!2025-09-18,205,321!2026-02-14,326,341!2025-09-14,201,321!2027-08-06,736,341!2025-09-20,201,321-->
+For a contrasting example, if {@{_n_ = 9}@}, then $\lambda (n)=\varphi (n)=6$ and $\varphi (\lambda (n))=2$. There are {@{two primitive _λ_-roots modulo 9}@}, namely {@{2 and 5}@}, each of which is {@{congruent to the fifth power of the other}@}. They are also {@{both primitive $\varphi$-roots modulo 9}@}. <!--SR:!2025-09-18,205,321!2026-02-14,326,341!2028-02-28,897,341!2027-08-06,736,341!2025-09-20,201,321-->
 
 ## properties of the Carmichael function
 
@@ -132,7 +132,7 @@ indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 ha
 
 ### prevailing interval
 
-For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2026-06-05,380,301!2025-09-14,77,170!2026-09-24,397,261-->
+For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2026-06-05,380,301!2026-01-26,134,170!2026-09-24,397,261-->
 
 ### lower bounds
 

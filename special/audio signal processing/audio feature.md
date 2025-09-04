@@ -13,7 +13,7 @@ An {@{__audio feature__}@} captures {@{specific aspects of audio signals}@}. The
 
 ## descriptors
 
-They are {@{many different descriptors}@}. They can be mostly categorized into {@{spectral, time-domain, tonal, rhythm, SFX, and high-level descriptors}@} \(this is used by {@{[Essentia](https://essentia.upf.edu/)}@}\). <!--SR:!2025-09-22,66,310!2026-03-08,177,310!2025-09-14,58,310-->
+They are {@{many different descriptors}@}. They can be mostly categorized into {@{spectral, time-domain, tonal, rhythm, SFX, and high-level descriptors}@} \(this is used by {@{[Essentia](https://essentia.upf.edu/)}@}\). <!--SR:!2025-09-22,66,310!2026-03-08,177,310!2026-05-24,252,330-->
 
 ## spectral features
 
@@ -21,9 +21,9 @@ In a {@{STFT frame}@}, we can describe {@{many different spectral features}@}. W
 
 ### energy
 
-There are many ways to {@{measure "energy" and/or loudness of a STFT frame}@}. {@{_Energy_}@} describes {@{the total "energy" in an audio or STFT frame}@} and is defined as {@{$$E = \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2 \,.$$}@} Its {@{_root mean square_}@} describes {@{the average "energy" per frequency bin}@} and is defined as {@{$$E_{\text{rms} } = \sqrt{\frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2 } \,.$$}@} {@{_Steven's power law_}@} describes {@{an empirical relationship in psychophysics between an increased intensity or strength in a physical stimulus and the perceived magnitude increase in the sensation created by the stimulus}@}, and for audio, is defined as {@{$$L = E^{0.67} \,,$$ where $L$ is _loudness_}@}. <!--SR:!2026-05-07,238,330!2026-04-25,227,330!2025-09-17,61,310!2025-09-18,62,310!2025-09-20,64,310!2025-09-19,63,310!2025-09-22,66,310!2025-09-14,58,310!2025-09-23,67,310!2025-09-23,67,310-->
+There are many ways to {@{measure "energy" and/or loudness of a STFT frame}@}. {@{_Energy_}@} describes {@{the total "energy" in an audio or STFT frame}@} and is defined as {@{$$E = \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2 \,.$$}@} Its {@{_root mean square_}@} describes {@{the average "energy" per frequency bin}@} and is defined as {@{$$E_{\text{rms} } = \sqrt{\frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2 } \,.$$}@} {@{_Steven's power law_}@} describes {@{an empirical relationship in psychophysics between an increased intensity or strength in a physical stimulus and the perceived magnitude increase in the sensation created by the stimulus}@}, and for audio, is defined as {@{$$L = E^{0.67} \,,$$ where $L$ is _loudness_}@}. <!--SR:!2026-05-07,238,330!2026-04-25,227,330!2025-09-17,61,310!2025-09-18,62,310!2025-09-20,64,310!2025-09-19,63,310!2025-09-22,66,310!2026-05-24,252,330!2025-09-23,67,310!2025-09-23,67,310-->
 
-There are also many ways to {@{characterize a spectrogram of a STFT frame}@}. {@{_Spectral centroid_}@} describes {@{the center of a spectrogram}@} and is defined as {@{$$C = \frac {\sum_{k = 0}^{N / 2} k \lvert X[k] \rvert } {\sum_{k = 0}^{N / 2} \lvert X[k] \rvert } \,,$$}@} i.e. its {@{weighted average frequency \(bin\) weighted by magnitude or _center of mass_}@}. Note {@{only the _nonnegative_ frequency bins \(from 0 to $N / 2$; both ends inclusive\) are used}@} since {@{for a real signal, the magnitude of a frequency equals that of its negative frequency \(conjugate-even\)}@}; including them {@{would always result in a centroid at the zero frequency bin, which is not useful}@}. <!--SR:!2025-09-14,58,310!2026-05-07,238,330!2026-05-22,251,330!2025-09-18,62,310!2025-09-14,58,310!2025-09-22,66,310!2025-09-21,65,310!2025-09-20,64,310-->
+There are also many ways to {@{characterize a spectrogram of a STFT frame}@}. {@{_Spectral centroid_}@} describes {@{the center of a spectrogram}@} and is defined as {@{$$C = \frac {\sum_{k = 0}^{N / 2} k \lvert X[k] \rvert } {\sum_{k = 0}^{N / 2} \lvert X[k] \rvert } \,,$$}@} i.e. its {@{weighted average frequency \(bin\) weighted by magnitude or _center of mass_}@}. Note {@{only the _nonnegative_ frequency bins \(from 0 to $N / 2$; both ends inclusive\) are used}@} since {@{for a real signal, the magnitude of a frequency equals that of its negative frequency \(conjugate-even\)}@}; including them {@{would always result in a centroid at the zero frequency bin, which is not useful}@}. <!--SR:!2026-05-24,252,330!2026-05-07,238,330!2026-05-22,251,330!2025-09-18,62,310!2026-05-27,255,330!2025-09-22,66,310!2025-09-21,65,310!2025-09-20,64,310-->
 
 ### mel-frequency
 
@@ -45,9 +45,9 @@ A measure used to {@{segment events \(based on event onsets\)}@} is {@{_spectral
 
 ## statistics
 
-{@{Some basic statistics}@} are {@{applicable to many areas and provide reasonable insights}@}. A class of important statistics are {@{_n-th moments_}@}, where {@{the first 3 moments \(starting from the 1st moment\)}@} are {@{_arithmetic mean_, _variance_ \(centralized\), and _skewness_ \(centralized and normalized\)}@}. <!--SR:!2025-09-22,66,310!2025-09-16,60,310!2025-09-14,58,310!2026-04-27,229,330!2026-05-02,234,330-->
+{@{Some basic statistics}@} are {@{applicable to many areas and provide reasonable insights}@}. A class of important statistics are {@{_n-th moments_}@}, where {@{the first 3 moments \(starting from the 1st moment\)}@} are {@{_arithmetic mean_, _variance_ \(centralized\), and _skewness_ \(centralized and normalized\)}@}. <!--SR:!2025-09-22,66,310!2025-09-16,60,310!2026-05-26,254,330!2026-04-27,229,330!2026-05-02,234,330-->
 
-The _arithmetic mean_ is {@{the 1st \(non-centralized and unnormalized\) moment}@}, and defined as: {@{$$\text{mean} = \frac 1 N \sum_{n = 0}^{N - 1} x[n] \,,$$}@} where {@{$x[n]$ is an arbitrary sequence \(could be time-domain, spectral, etc.\)}@}. <!--SR:!2026-05-03,235,330!2026-05-08,239,330!2025-09-14,58,310-->
+The _arithmetic mean_ is {@{the 1st \(non-centralized and unnormalized\) moment}@}, and defined as: {@{$$\text{mean} = \frac 1 N \sum_{n = 0}^{N - 1} x[n] \,,$$}@} where {@{$x[n]$ is an arbitrary sequence \(could be time-domain, spectral, etc.\)}@}. <!--SR:!2026-05-03,235,330!2026-05-08,239,330!2026-05-25,253,330-->
 
 The \(biased\) _variance_ is {@{the 2nd \(centralized and unnormalized\) moment}@}, and defined as: {@{$$\text{variance} = \frac 1 N \sum_{n = 0}^{N - 1} (x[n] - \text{mean})^2 \,,$$}@} where {@{$x[n]$ is an arbitrary sequence \(could be time-domain, spectral, etc.\)}@}. <!--SR:!2026-05-18,247,330!2026-05-14,244,330!2025-09-22,66,310-->
 
@@ -65,7 +65,7 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 {@{Sensorial features}@} describe {@{how the sound itself \(ignoring the formal features\) is perceived}@}, e.g. {@{loudness, pitch, timbre, time, etc.}@} <!--SR:!2025-09-23,67,310!2025-09-22,66,310!2025-09-15,59,310-->
 
-{@{Physical features}@} describe {@{the physical features of the sound itself}@}, e.g. {@{duration, frequency, intensity, spectrum, etc.}@} <!--SR:!2026-05-17,246,330!2025-09-14,58,310!2025-09-15,59,310-->
+{@{Physical features}@} describe {@{the physical features of the sound itself}@}, e.g. {@{duration, frequency, intensity, spectrum, etc.}@} <!--SR:!2026-05-17,246,330!2026-05-26,254,330!2025-09-15,59,310-->
 
 ### sound
 
@@ -81,15 +81,15 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 ### music
 
-{@{_Music_}@} is {@{a recording composed of many sounds}@}. It is {@{very hard to characterize due to its complex structure}@}. Its features can be grouped into {@{4 main groups}@}: {@{melody/harmony, rhythm, structure, and timbre}@}. The features should be {@{related to musically meaningful concepts}@}. <!--SR:!2026-05-22,251,330!2025-09-23,67,310!2026-05-10,241,330!2026-05-15,245,330!2025-09-19,63,310!2025-09-14,58,310-->
+{@{_Music_}@} is {@{a recording composed of many sounds}@}. It is {@{very hard to characterize due to its complex structure}@}. Its features can be grouped into {@{4 main groups}@}: {@{melody/harmony, rhythm, structure, and timbre}@}. The features should be {@{related to musically meaningful concepts}@}. <!--SR:!2026-05-22,251,330!2025-09-23,67,310!2026-05-10,241,330!2026-05-15,245,330!2025-09-19,63,310!2026-05-23,251,330-->
 
-{@{Timbre features}@} describe {@{how the instruments are used}@}, e.g. {@{instrumentation, instruments used, remixing, etc.}@} <!--SR:!2026-04-26,228,330!2025-09-23,67,310!2025-09-14,58,310-->
+{@{Timbre features}@} describe {@{how the instruments are used}@}, e.g. {@{instrumentation, instruments used, remixing, etc.}@} <!--SR:!2026-04-26,228,330!2025-09-23,67,310!2026-05-23,251,330-->
 
 {@{Melody/harmony features}@} describe {@{the melody and harmony}@}, e.g. {@{chords, keys, mode, motive, phrase patterns, tonic, etc.}@} <!--SR:!2025-09-18,62,310!2026-05-12,242,330!2025-09-15,59,310-->
 
 {@{Rhythm features}@} describe {@{the beats and their patterns}@}, e.g. {@{beat, downbeat, measure, metric cycle, patterns, tempo, etc.}@} <!--SR:!2025-09-18,62,310!2025-09-18,62,310!2025-09-17,61,310-->
 
-{@{Structure features}@} describe {@{how the music is segmented}@}, e.g. {@{movements, sections, etc.}@} <!--SR:!2025-09-14,58,310!2025-09-21,65,310!2026-05-09,240,330-->
+{@{Structure features}@} describe {@{how the music is segmented}@}, e.g. {@{movements, sections, etc.}@} <!--SR:!2026-05-23,251,330!2025-09-21,65,310!2026-05-09,240,330-->
 
 ## collection features
 
@@ -97,8 +97,8 @@ We can {@{group similar sounds or music together}@} to form {@{sound or music co
 
 ### clustering
 
-There are {@{many ways to cluster sounds or music}@}. For simplicity, we consider {@{sound clustering only}@}. We also only use {@{the Euclidean distance}@}: {@{$$d(x, y) = \sqrt{\sum_{k = 1}^K (x - y)^2} \,,$$}@} where {@{$x$ and $y$ are features of two sounds and $K$ is the number of features}@}. Above, we represent each sound as {@{a point in $K$-dimensional space}@}. Each coordinate {@{corresponds to one _numerical_ feature}@}, and the coordinate value of a sound is {@{its value of the feature for that coordinate}@}. Using this distance, there are {@{two main ways to cluster sounds}@}: {@{K-means and K-nearest neighbors \(KNN\)}@}. <!--SR:!2025-09-18,62,310!2025-09-16,60,310!2025-09-15,59,310!2025-09-16,60,310!2025-09-21,65,310!2025-09-14,58,310!2026-05-18,247,330!2025-09-22,66,310!2025-09-17,61,310!2025-09-19,63,310-->
+There are {@{many ways to cluster sounds or music}@}. For simplicity, we consider {@{sound clustering only}@}. We also only use {@{the Euclidean distance}@}: {@{$$d(x, y) = \sqrt{\sum_{k = 1}^K (x - y)^2} \,,$$}@} where {@{$x$ and $y$ are features of two sounds and $K$ is the number of features}@}. Above, we represent each sound as {@{a point in $K$-dimensional space}@}. Each coordinate {@{corresponds to one _numerical_ feature}@}, and the coordinate value of a sound is {@{its value of the feature for that coordinate}@}. Using this distance, there are {@{two main ways to cluster sounds}@}: {@{K-means and K-nearest neighbors \(KNN\)}@}. <!--SR:!2025-09-18,62,310!2025-09-16,60,310!2025-09-15,59,310!2025-09-16,60,310!2025-09-21,65,310!2026-05-25,253,330!2026-05-18,247,330!2025-09-22,66,310!2025-09-17,61,310!2025-09-19,63,310-->
 
-{@{K-means}@} is used to {@{categorize existing sounds into $K$ groups}@}. The {@{detailed algorithm}@} is skipped here, but the goal is to {@{find $K$ locations \(centroids\)}@} such that {@{the sum of distances of all sounds to their nearest centroid is minimized}@}: {@{$$\operatorname{argmin}_{C} \sum_{k = 1}^K \sum_{x \in C_k} d(x, \mu_{C_k})^2 \,,$$}@} where {@{$C$ are groups of sounds grouped by their nearest centroid, and $\mu_{C_k}$ is the centroid point of the group $C_k$}@}, which equals {@{the arithmetic mean of points in $C_k$}@}. The algorithm returns {@{the centroids}@}. <!--SR:!2025-09-23,67,310!2025-09-22,66,310!2025-09-19,63,310!2025-09-16,60,310!2026-05-13,243,330!2025-09-14,58,310!2025-09-16,60,310!2026-05-20,249,330!2025-09-23,67,310-->
+{@{K-means}@} is used to {@{categorize existing sounds into $K$ groups}@}. The {@{detailed algorithm}@} is skipped here, but the goal is to {@{find $K$ locations \(centroids\)}@} such that {@{the sum of distances of all sounds to their nearest centroid is minimized}@}: {@{$$\operatorname{argmin}_{C} \sum_{k = 1}^K \sum_{x \in C_k} d(x, \mu_{C_k})^2 \,,$$}@} where {@{$C$ are groups of sounds grouped by their nearest centroid, and $\mu_{C_k}$ is the centroid point of the group $C_k$}@}, which equals {@{the arithmetic mean of points in $C_k$}@}. The algorithm returns {@{the centroids}@}. <!--SR:!2025-09-23,67,310!2025-09-22,66,310!2025-09-19,63,310!2025-09-16,60,310!2026-05-13,243,330!2026-05-27,255,330!2025-09-16,60,310!2026-05-20,249,330!2025-09-23,67,310-->
 
 {@{K-nearest neighbors \(KNN\)}@} is used to {@{categorize a new sound based on an existing categorization of sounds}@}. Given {@{a new sound}@}, find {@{the $K$ nearest existing sounds}@}. Take {@{the majority vote of categorization \(tie-breaking if needed\)}@}, and that is {@{the categorization of the new sound}@}. <!--SR:!2026-05-14,244,330!2025-09-23,67,310!2025-09-16,60,310!2025-09-16,60,310!2025-09-22,66,310!2025-09-18,62,310-->

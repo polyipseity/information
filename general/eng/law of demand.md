@@ -102,7 +102,7 @@ A business utilises the advertising elasticity of demand to {@{measure the effec
 
 ## exceptions to the law of demand
 
-{@{The elasticity of demand}@} follows {@{the law of demand and its definition}@}. However, there are {@{goods and specific situations that defy the law of demand}@}. Generally, {@{the amount demanded of a good increases with a decrease in price of the good and vice versa}@}. In some cases {@{this may not be true}@}. There are {@{certain goods which do not follow the law of demand}@}. These include {@{[Giffen goods](Giffen%20good.md), [Veblen goods](Veblen%20good.md), basic or necessary goods and expectations of future price changes}@}. Further exception and details are given in the sections below: <!--SR:!2025-11-02,276,330!2025-11-19,288,330!2025-10-30,273,330!2025-09-14,236,330!2026-01-07,331,349!2025-09-29,249,330!2026-01-29,349,349-->
+{@{The elasticity of demand}@} follows {@{the law of demand and its definition}@}. However, there are {@{goods and specific situations that defy the law of demand}@}. Generally, {@{the amount demanded of a good increases with a decrease in price of the good and vice versa}@}. In some cases {@{this may not be true}@}. There are {@{certain goods which do not follow the law of demand}@}. These include {@{[Giffen goods](Giffen%20good.md), [Veblen goods](Veblen%20good.md), basic or necessary goods and expectations of future price changes}@}. Further exception and details are given in the sections below: <!--SR:!2025-11-02,276,330!2025-11-19,288,330!2025-10-30,273,330!2028-08-24,1075,350!2026-01-07,331,349!2025-09-29,249,330!2026-01-29,349,349-->
 
 ### Giffen goods
 

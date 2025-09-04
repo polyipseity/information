@@ -51,7 +51,7 @@ The content is in teaching order.
     - [§ truth table](../../../../general/truth%20table.md#truth%20table)
   - boolean algebra operations ::@:: An operation that takes and connects one or more propositions. These operations can be chained. <!--SR:!2028-10-11,1137,343!2025-11-30,347,343-->
     - negation (not) ::@:: $\lnot p$: $$\begin{aligned} (0) & \mapsto 1 \\ (1) & \mapsto 0 \end{aligned}$$ <!--SR:!2025-12-14,358,343!2025-12-13,357,343-->
-    - disjunction (or) ::@:: $p \lor q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 1 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2029-03-14,1281,350!2025-09-14,285,343-->
+    - disjunction (or) ::@:: $p \lor q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 1 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2029-03-14,1281,350!2029-05-22,1346,363-->
     - conjunction (and) ::@:: $p \land q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 0 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2028-03-15,992,350!2025-10-04,301,343-->
     - implication (if-then) ::@:: $p \rightarrow q$: $$\begin{aligned} (0, 0) & \mapsto 1 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2025-09-15,286,343!2025-10-26,320,343-->
     - boolean algebra operations / order of operations ::@:: $\lnot$ > $\lor, \land$ > $\rightarrow$ <!--SR:!2027-09-06,824,330!2025-09-22,291,343-->

@@ -49,7 +49,7 @@ If {@{the USD/JPY currency pair is currently trading at 101.89/101.92}@}, that i
 
 ### metals
 
-{@{Gold and silver}@} are known for {@{having the tightest bid-ask spreads}@}, making them {@{useful as [money](money.md)}@}, while {@{other metals may have wider bid-ask spreads}@} due to {@{lower trading volumes, less liquidity, or large fluctuations in supply and demand}@}. For example, {@{rare metals like platinum, palladium, and rhodium}@} have {@{lower trading volumes compared to gold or silver}@}, which can {@{result in larger bid-ask spreads}@}. <!--SR:!2026-04-19,334,342!2026-04-17,332,342!2025-09-14,160,322!2026-04-16,331,342!2026-04-12,327,342!2025-10-02,174,310!2025-09-15,161,322!2026-04-03,318,342-->
+{@{Gold and silver}@} are known for {@{having the tightest bid-ask spreads}@}, making them {@{useful as [money](money.md)}@}, while {@{other metals may have wider bid-ask spreads}@} due to {@{lower trading volumes, less liquidity, or large fluctuations in supply and demand}@}. For example, {@{rare metals like platinum, palladium, and rhodium}@} have {@{lower trading volumes compared to gold or silver}@}, which can {@{result in larger bid-ask spreads}@}. <!--SR:!2026-04-19,334,342!2026-04-17,332,342!2027-08-24,709,342!2026-04-16,331,342!2026-04-12,327,342!2025-10-02,174,310!2025-09-15,161,322!2026-04-03,318,342-->
 
 ## see also
 

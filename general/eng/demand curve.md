@@ -31,7 +31,7 @@ In most circumstances {@{the demand curve has a negative slope, and therefore sl
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2025-10-04,245,330!2025-10-04,245,330!2025-10-07,247,330!2025-10-09,249,330!2025-09-27,239,330!2025-09-21,233,330!2025-09-23,235,330!2025-12-02,291,330-->
 
-The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-09-26,238,330!2027-11-21,824,330!2025-10-25,261,330!2025-09-14,227,330-->
+The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-09-26,238,330!2027-11-21,824,330!2025-10-25,261,330!2028-07-13,1033,350-->
 
 ### curvature
 
@@ -114,7 +114,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 ## effect of taxation on the demand curve
 
-- When the demand curve is perfectly inelastic \(vertical demand curve\), ::@:: all taxes are borne by the consumer. <!--SR:!2025-10-01,242,330!2025-09-14,227,330-->
+- When the demand curve is perfectly inelastic \(vertical demand curve\), ::@:: all taxes are borne by the consumer. <!--SR:!2025-10-01,242,330!2028-07-16,1036,350-->
 - When the demand curve is perfectly elastic \(horizontal demand curve\), ::@:: all taxes are borne by the supplier. <!--SR:!2025-10-05,246,330!2025-10-09,249,330-->
 - If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2027-07-19,737,330!2025-12-03,292,330-->
 

@@ -37,7 +37,7 @@ In {@{a two- and three-dimensional space}@}, there is {@{an ambiguity in taking 
 
 ## path independence and conservative vector field
 
-- Main article: ::@:: [Gradient theorem](gradient%20theorem.md) <!--SR:!2025-09-14,56,310!2025-09-14,56,310-->
+- Main article: ::@:: [Gradient theorem](gradient%20theorem.md) <!--SR:!2026-03-10,177,310!2026-05-17,245,330-->
 
 ### path independence
 
@@ -89,7 +89,7 @@ Therefore, _{@{every $C^{1}$ conservative vector field in $U$}@} is also {@{an i
 
 Provided that {@{$U$ is a [simply connected open space](simply%20connected%20space.md)}@} \(roughly speaking, {@{a single piece open space without a hole within it}@}\), {@{the converse of this is also true}@}: _{@{Every irrotational vector field in a simply connected open space $U$}@} is {@{a $C^{1}$ conservative vector field in $U$}@}_. <!--SR:!2025-09-19,61,310!2025-09-25,66,310!2025-10-03,73,330!2025-10-04,74,330!2025-10-05,75,330-->
 
-{@{The above statement is _not_ true in general}@} if {@{$U$ is not simply connected}@}. Let $U$ be {@{$\mathbb {R} ^{3}$ with removing all coordinates on the $z$-axis}@} \(so {@{not a simply connected space}@}\), i.e., {@{$U=\mathbb {R} ^{3}\setminus \{(0,0,z)\mid z\in \mathbb {R} \}$}@}. Now, define {@{a vector field $\mathbf {v}$ on $U$}@} by {@{$$\mathbf {v} (x,y,z)~{\stackrel {\text{def} }{=} }~\left(-{\frac {y}{x^{2}+y^{2} } },{\frac {x}{x^{2}+y^{2} } },0\right).$$}@} <!--SR:!2025-09-23,64,310!2025-10-06,76,330!2025-09-23,64,310!2025-09-14,56,310!2025-09-24,65,310!2025-09-25,66,310!2025-09-25,66,310-->
+{@{The above statement is _not_ true in general}@} if {@{$U$ is not simply connected}@}. Let $U$ be {@{$\mathbb {R} ^{3}$ with removing all coordinates on the $z$-axis}@} \(so {@{not a simply connected space}@}\), i.e., {@{$U=\mathbb {R} ^{3}\setminus \{(0,0,z)\mid z\in \mathbb {R} \}$}@}. Now, define {@{a vector field $\mathbf {v}$ on $U$}@} by {@{$$\mathbf {v} (x,y,z)~{\stackrel {\text{def} }{=} }~\left(-{\frac {y}{x^{2}+y^{2} } },{\frac {x}{x^{2}+y^{2} } },0\right).$$}@} <!--SR:!2025-09-23,64,310!2025-10-06,76,330!2025-09-23,64,310!2026-05-18,246,330!2025-09-24,65,310!2025-09-25,66,310!2025-09-25,66,310-->
 
 Then $\mathbf {v}$ has {@{zero curl everywhere in $U$}@} \({@{$\nabla \times \mathbf {v} \equiv \mathbf {0}$ at everywhere in $U$}@}\), i.e., {@{$\mathbf {v}$ is irrotational}@}. However, {@{the [circulation](circulation%20(physics).md) of $\mathbf {v}$}@} {@{around the [unit circle](unit%20circle.md) in the $xy$-plane is $2\pi$}@}; in {@{[polar coordinates](polar%20coordinates.md)}@}, {@{$\mathbf {v} =\mathbf {e} _{\phi }/r$}@}, so {@{the integral over the unit circle}@} is {@{$$\oint _{C}\mathbf {v} \cdot \mathbf {e} _{\phi }~d{\phi }=2\pi .$$}@} <!--SR:!2025-09-26,67,310!2025-09-24,65,310!2026-04-30,230,330!2025-10-06,76,330!2025-09-16,58,310!2025-10-03,73,330!2025-09-26,67,310!2025-09-26,67,310!2025-10-05,75,330-->
 

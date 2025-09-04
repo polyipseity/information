@@ -26,7 +26,7 @@ Below are some questions or question tips.
 ## job order costing
 
 - profitability by job ::@:: You can calculate the operating profit _separately_ for each job. <!--SR:!2026-05-15,254,330!2026-05-16,250,330-->
-- rounding <!-- flashcard ID: 6450c70d-2bfe-47ce-bc52-39a179460870 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2026-05-20,253,330!2025-09-14,63,310-->
+- rounding <!-- flashcard ID: 6450c70d-2bfe-47ce-bc52-39a179460870 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2026-05-20,253,330!2026-06-13,272,330-->
 
 ## process costing
 
@@ -40,7 +40,7 @@ Below are some questions or question tips.
 - just-in-time manufacturing advantages & disadvantages ::@:: Inventory costs are lower. Obsolete inventory are less likely. <p> More sensitive to supply chain issues, as there are little to no inventory for buffering. <!--SR:!2025-09-15,64,310!2026-04-22,235,330-->
 - markup method vs. target cost method ::@:: The former starts from the cost and gives a price. It ignores market demand and supply. You are more prone to producing a product or service that is too expensive to have a market. <p> The latter starts from the market price and gives the target cost. It considers market supply and demand. <!--SR:!2025-09-16,65,310!2026-05-14,253,330-->
 - rounding <!-- flashcard ID: 9e428c96-94f7-4906-9e68-1f3792ea20a5 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2026-05-14,253,330!2025-09-18,67,310-->
-- traditional costing vs. activity-based costing ::@:: The former is less accurate. Only one cost driver is used. Some costs are overallocated or underallocated as some MOH is related to other unused cost drivers. <p> The latter is more accurate. Matching cost drivers are used, which should have some casual relations. <p> If product or service line overheads are available, we can also say if traditional costing overallocates or underallocates overhead for each product or service line. <!--SR:!2025-09-14,63,310!2026-05-13,252,330-->
+- traditional costing vs. activity-based costing ::@:: The former is less accurate. Only one cost driver is used. Some costs are overallocated or underallocated as some MOH is related to other unused cost drivers. <p> The latter is more accurate. Matching cost drivers are used, which should have some casual relations. <p> If product or service line overheads are available, we can also say if traditional costing overallocates or underallocates overhead for each product or service line. <!--SR:!2026-06-17,276,330!2026-05-13,252,330-->
 - value added vs. non-value added ::@:: Consider activity effect on the product or service. If it affects the product or service such that its value increases, the activity is value added. Examples: machining, etc. <p> Otherwise, it is non-value added. Examples: inspection, transport, etc. <!--SR:!2026-05-16,255,330!2025-09-15,64,310-->
 
 ## cost behavior
@@ -73,7 +73,7 @@ Below are some questions or question tips.
 ## variance analysis
 
 - actual vs. standard ::@:: Actual is actual... pretty easy. Standard can be considered how many direct materials or direct labor hours should have been used given the _actual_ units produced. <!--SR:!2026-06-05,266,330!2026-05-16,255,330-->
-- aliases ::@:: efficiency/quantity variance, price/rate variance <!--SR:!2025-09-14,63,310!2025-09-14,63,310-->
+- aliases ::@:: efficiency/quantity variance, price/rate variance <!--SR:!2026-06-16,275,330!2026-06-15,274,330-->
 - order ::@:: arrow is subtraction direction: AQ \* AP ← \(change price\) ← AQ \* SP ← \(change quantity\) ← SQ \* SP <!--SR:!2026-01-14,127,250!2025-09-16,65,310-->
 
 ## decentralized performance evaluation

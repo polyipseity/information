@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {@{2}@}
-> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity for both assets and liabilities, while IFRS requires increasing liquidity for both assets and liabilities.}@} <!--SR:!2025-11-28,333,342!2025-09-14,278,342-->
+> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity for both assets and liabilities, while IFRS requires increasing liquidity for both assets and liabilities.}@} <!--SR:!2025-11-28,333,342!2029-04-14,1308,362-->
 
 <!-- markdownlint MD028 -->
 
