@@ -219,7 +219,7 @@ One important difference is {@{service recovery}@}. When {@{an error occurs in s
 
 ### metrics: efficiency and effectiveness
 
-{@{Operations strategy}@} concerns {@{policies and plans of use of the firm productive resources}@} with the aim of {@{supporting long term competitive strategy}@}. {@{Metrics in operations management}@} can be broadly classified into {@{[efficiency](efficiency.md) metrics and [effectiveness](effectiveness.md) metrics}@}. Effectiveness metrics involve: (annotation: 6 items: {@{price, quality, time, flexibility, stock availability, ecological soundness}@})
+{@{Operations strategy}@} concerns {@{policies and plans of use of the firm productive resources}@} with the aim of {@{supporting long term competitive strategy}@}. {@{Metrics in operations management}@} can be broadly classified into {@{[efficiency](efficiency.md) metrics and [effectiveness](effectiveness.md) metrics}@}. {@{Effectiveness metrics}@} involve: \(annotation: 6 items: {@{price, quality, time}@}, {@{flexibility, stock availability, ecological soundness}@}\)
 
 1. [Price](price.md) \(actually fixed by marketing, but lower bounded by production cost\): ::@:: purchase price, use costs, maintenance costs, upgrade costs, disposal costs
 2. [Quality](quality%20(business).md): ::@:: specification and compliance
