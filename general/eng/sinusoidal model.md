@@ -19,7 +19,7 @@ This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20
 
 ### good starting value for the mean
 
-{@{A good starting value for _C_}@} can be obtained by {@{calculating the [mean](mean.md) of the data}@}. If {@{the data show a [trend](trend%20estimation.md), i.e., the assumption of constant location is violated}@}, one can {@{replace _C_ with a linear or quadratic [least squares](least%20squares.md) fit}@}. That is, the model becomes {@{$$Y_{i}=(B_{0}+B_{1}T_{i})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} or {@{$$Y_{i}=(B_{0}+B_{1}T_{i}+B_{2}T_{i}^{2})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2026-01-16,151,310!2026-05-17,249,330!2026-05-06,240,330!2025-09-20,65,310!2025-09-13,59,310!2025-09-14,60,310-->
+{@{A good starting value for _C_}@} can be obtained by {@{calculating the [mean](mean.md) of the data}@}. If {@{the data show a [trend](trend%20estimation.md), i.e., the assumption of constant location is violated}@}, one can {@{replace _C_ with a linear or quadratic [least squares](least%20squares.md) fit}@}. That is, the model becomes {@{$$Y_{i}=(B_{0}+B_{1}T_{i})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} or {@{$$Y_{i}=(B_{0}+B_{1}T_{i}+B_{2}T_{i}^{2})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2026-01-16,151,310!2026-05-17,249,330!2026-05-06,240,330!2025-09-20,65,310!2026-05-30,259,330!2025-09-14,60,310-->
 
 ### good starting value for frequency
 
@@ -33,7 +33,7 @@ That is, one may {@{replace α with a function of time}@}. {@{A linear fit}@} is
 
 ## model validation
 
-As with {@{any [statistical model](statistical%20model.md)}@}, the fit should be {@{subjected to graphical and quantitative techniques of [model validation](model%20validation.md)}@}. For example, {@{a [run sequence plot](run%20sequence%20plot.md)}@} to check for {@{significant shifts in location, scale, start-up effects and [outliers](outliers.md)}@}. {@{A [lag plot](lag%20plot.md)}@} can be used to {@{verify the [residuals](errors%20and%20residuals%20in%20statistics.md) are independent}@}. {@{The outliers}@} also {@{appear in the lag plot}@}, and {@{a [histogram](histogram.md) and [normal probability plot](normal%20probability%20plot.md)}@} to check for {@{skewness or other non-[normality](normal%20distribution.md) in the residuals}@}. <!--SR:!2025-09-21,66,310!2025-09-18,63,310!2026-04-28,233,330!2026-05-23,254,330!2025-09-20,65,310!2025-09-16,62,310!2025-09-13,59,310!2026-05-24,254,330!2026-05-19,251,330!2025-09-17,63,310-->
+As with {@{any [statistical model](statistical%20model.md)}@}, the fit should be {@{subjected to graphical and quantitative techniques of [model validation](model%20validation.md)}@}. For example, {@{a [run sequence plot](run%20sequence%20plot.md)}@} to check for {@{significant shifts in location, scale, start-up effects and [outliers](outliers.md)}@}. {@{A [lag plot](lag%20plot.md)}@} can be used to {@{verify the [residuals](errors%20and%20residuals%20in%20statistics.md) are independent}@}. {@{The outliers}@} also {@{appear in the lag plot}@}, and {@{a [histogram](histogram.md) and [normal probability plot](normal%20probability%20plot.md)}@} to check for {@{skewness or other non-[normality](normal%20distribution.md) in the residuals}@}. <!--SR:!2025-09-21,66,310!2025-09-18,63,310!2026-04-28,233,330!2026-05-23,254,330!2025-09-20,65,310!2025-09-16,62,310!2026-05-26,255,330!2026-05-24,254,330!2026-05-19,251,330!2025-09-17,63,310-->
 
 ## extensions
 

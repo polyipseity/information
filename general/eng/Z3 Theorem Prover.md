@@ -63,7 +63,7 @@ Result: \(annotaion: {@{`unsat`}@}\) <!--SR:!2025-09-19,64,310-->
 unsat
 ```
 
-Note that the script {@{asserts the _negation_ of the proposition of interest}@}. {@{The _unsat_ result}@} means that {@{the negated proposition is not satisfiable}@}, thus {@{proving the desired result \([De Morgan's law](De%20Morgan's%20law.md)\)}@}. <!--SR:!2026-05-02,236,330!2025-09-13,59,310!2025-09-13,59,310!2026-04-23,227,330-->
+Note that the script {@{asserts the _negation_ of the proposition of interest}@}. {@{The _unsat_ result}@} means that {@{the negated proposition is not satisfiable}@}, thus {@{proving the desired result \([De Morgan's law](De%20Morgan's%20law.md)\)}@}. <!--SR:!2026-05-02,236,330!2026-05-26,255,330!2026-05-27,256,330!2026-04-23,227,330-->
 
 ### solving equations
 
@@ -87,7 +87,7 @@ The following script solves {@{the two given equations}@}, finding {@{suitable v
 > {@{(assert (= (+ a (* 2 b)) 10))}@}
 > {@{(check-sat)}@}
 > {@{(get-model)}@}
-> </pre> <!--SR:!2026-05-04,237,330!2025-09-15,61,310!2026-05-22,252,330!2026-05-19,250,330!2025-09-18,63,310!2025-09-13,59,310-->
+> </pre> <!--SR:!2026-05-04,237,330!2025-09-15,61,310!2026-05-22,252,330!2026-05-19,250,330!2025-09-18,63,310!2026-05-28,257,330-->
 
 Result: \(annotation: {@{`sat`}@}\) <!--SR:!2026-05-23,253,330-->
 

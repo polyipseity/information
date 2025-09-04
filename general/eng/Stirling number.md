@@ -33,7 +33,7 @@ A common property of all three kinds is that {@{they describe coefficients relat
 
 Stirling numbers express {@{coefficients in expansions of [falling and rising factorials](falling%20and%20rising%20factorials.md) (also known as the Pochhammer symbol) as polynomials}@}. <!--SR:!2025-11-28,306,330-->
 
-That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2025-12-02,309,330!2025-09-13,203,270!2026-01-23,308,290-->
+That is, {@{the __falling factorial__, defined as $\ (x)_{n}=x(x-1)\ \cdots (x-n+1)\ ,$}@} is {@{a polynomial in _x_ of degree _n_ whose expansion is $$(x)_{n}\ =\ \sum _{k=0}^{n}\ s(n,k)\ x^{k}{\ }$$}@} with {@{(signed) Stirling numbers of the first kind as coefficients}@}. <!--SR:!2025-12-02,309,330!2027-03-15,548,270!2026-01-23,308,290-->
 
 Note that {@{$\ (x)_{0}\equiv 1\ ,$ by convention}@}, because {@{it is an [empty product](empty%20product.md)}@}. {@{The notations $\ x^{\underline {n} }{\ }$ for the falling factorial and $\ x^{\overline {n} }{\ }$ for the rising factorial}@} are also often used.<sup>[\[5\]](#^ref-5)</sup> (Confusingly, {@{the Pochhammer symbol that many use for _falling_ factorials}@} is {@{used in [special functions](special%20functions.md) for _rising_ factorials}@}.) <!--SR:!2025-11-11,292,330!2025-10-26,277,330!2025-10-25,276,330!2025-11-23,302,330!2025-12-04,311,330-->
 

@@ -101,7 +101,7 @@ Note that if {@{you try to use Python to repeat the above mathematical proofs}@}
 
 - see: [general/decibel](../../general/decibel.md)
 
-It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scale to show small differences well}@}. {@{The decibel (dB)}@} is often used. The magnitude values can be converted into decibels using the following equation: {@{$$A_{\mathrm{dB} } = 20 \cdot \log_{10} (A_{\mathrm{abs} })$$}@}. <!--SR:!2028-05-09,1072,373!2025-12-01,366,373!2025-09-13,284,353-->
+It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scale to show small differences well}@}. {@{The decibel (dB)}@} is often used. The magnitude values can be converted into decibels using the following equation: {@{$$A_{\mathrm{dB} } = 20 \cdot \log_{10} (A_{\mathrm{abs} })$$}@}. <!--SR:!2028-05-09,1072,373!2025-12-01,366,373!2029-06-20,1376,373-->
 
 ### phase unwrapping
 

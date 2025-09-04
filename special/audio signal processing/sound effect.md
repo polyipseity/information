@@ -11,7 +11,7 @@ tags:
 
 - see: [general/sound effect](../../general/sound%20effect.md)
 
-After {@{analyzing a sound using models}@}, we can {@{modify model data and parameters}@} before {@{re-synthesizing the sound using the model}@}. This can {@{create __sound effects__}@}. <!--SR:!2025-09-23,67,310!2025-09-13,57,310!2025-09-13,57,310!2026-04-28,230,330-->
+After {@{analyzing a sound using models}@}, we can {@{modify model data and parameters}@} before {@{re-synthesizing the sound using the model}@}. This can {@{create __sound effects__}@}. <!--SR:!2025-09-23,67,310!2026-05-19,248,330!2026-05-20,249,330!2026-04-28,230,330-->
 
 ## frequency filter
 
@@ -19,7 +19,7 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ### equalization
 
-{@{_Equalization_}@} is {@{simply a frequency filter that does not modify phase}@}, i.e. {@{it consists of real numbers in the frequency domain}@}. Common special cases include {@{band pass filters, which pass through a certain range of frequencies and disallow others}@}. The band pass filter is {@{often a window function \(i.e. not boxcar\) to minimize distortion}@}. <!--SR:!2025-09-23,67,310!2025-09-16,60,310!2025-09-23,67,310!2026-05-03,235,330!2025-09-13,57,310-->
+{@{_Equalization_}@} is {@{simply a frequency filter that does not modify phase}@}, i.e. {@{it consists of real numbers in the frequency domain}@}. Common special cases include {@{band pass filters, which pass through a certain range of frequencies and disallow others}@}. The band pass filter is {@{often a window function \(i.e. not boxcar\) to minimize distortion}@}. <!--SR:!2025-09-23,67,310!2025-09-16,60,310!2025-09-23,67,310!2026-05-03,235,330!2026-05-20,249,330-->
 
 ## morphing
 
@@ -37,11 +37,11 @@ Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies,
 
 ### pitch scaling \(sinusoidal\)
 
-{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or use a frequency scaling envelope that maps old frequencies to new frequencies\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2025-09-23,67,310!2025-09-13,57,310!2025-09-17,61,310!2025-09-17,61,310!2025-09-23,67,310!2025-09-19,63,310!2026-05-12,242,330!2026-05-16,246,330!2026-05-13,243,330!2025-09-23,67,310-->
+{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or use a frequency scaling envelope that maps old frequencies to new frequencies\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2025-09-23,67,310!2026-05-22,251,330!2025-09-17,61,310!2025-09-17,61,310!2025-09-23,67,310!2025-09-19,63,310!2026-05-12,242,330!2026-05-16,246,330!2026-05-13,243,330!2025-09-23,67,310-->
 
 ### time stretching \(sinusoidal\)
 
-{@{_Time stretching_}@} is done by {@{multiplying the time indices to amplitudes and frequencies by a factor \(or use a time scaling envelope that maps old time to new time\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration or 2 pi times _cycle frequency_ times the \(fractional\) frequency bin index}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2025-09-13,57,310!2025-09-15,59,310!2026-05-08,239,330!2026-05-07,238,330!2026-04-26,228,330!2025-09-15,59,310!2026-05-05,237,330!2025-09-13,57,310!2025-09-18,62,310!2026-05-04,236,330-->
+{@{_Time stretching_}@} is done by {@{multiplying the time indices to amplitudes and frequencies by a factor \(or use a time scaling envelope that maps old time to new time\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration or 2 pi times _cycle frequency_ times the \(fractional\) frequency bin index}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2026-05-21,250,330!2025-09-15,59,310!2026-05-08,239,330!2026-05-07,238,330!2026-04-26,228,330!2025-09-15,59,310!2026-05-05,237,330!2026-05-21,250,330!2025-09-18,62,310!2026-05-04,236,330-->
 
 ## harmonic spectral modelling
 

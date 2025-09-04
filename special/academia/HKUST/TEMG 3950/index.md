@@ -225,7 +225,7 @@ The content is in teaching order.
   - cause mapping § evidences ::@:: below the cause, pink background <!--SR:!2029-04-09,1334,341!2029-10-10,1550,381-->
   - cause mapping § operators ::@:: AND, OR <!--SR:!2026-01-07,464,381!2029-01-08,1317,381-->
   - cause mapping § solutions ::@:: above the cause, green background <!--SR:!2029-04-29,1412,381!2029-08-29,1516,381-->
-  - cause mapping § symptom ::@:: red background <!--SR:!2029-10-30,1550,381!2025-09-13,346,361-->
+  - cause mapping § symptom ::@:: red background <!--SR:!2029-10-30,1550,381!2030-05-23,1713,381-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::@:: issue tree and hypothesis tree <!--SR:!2028-09-29,1248,381!2025-10-01,385,381-->

@@ -35,7 +35,7 @@ Imagine {@{a small store with a single counter and an area for browsing}@}, wher
 
 If {@{the rate at which people enter the store \(called the arrival rate\) is the rate at which they exit \(called the exit rate\)}@}, {@{the system is stable}@}. By contrast, {@{an arrival rate exceeding an exit rate}@} would {@{represent an unstable system}@}, where {@{the number of waiting customers in the store would gradually increase towards infinity}@}. <!--SR:!2025-09-21,163,310!2026-01-09,255,330!2026-02-09,279,330!2026-02-06,276,330!2026-01-03,249,330-->
 
-Little's Law tells us that {@{the average number of customers in the store _L_}@}, is {@{the effective arrival rate _λ_, times the average time that a customer spends in the store _W_}@}, or simply: {@{$$L=\lambda W$$}@} <!--SR:!2026-02-14,283,330!2026-01-06,252,330!2025-09-13,159,310-->
+Little's Law tells us that {@{the average number of customers in the store _L_}@}, is {@{the effective arrival rate _λ_, times the average time that a customer spends in the store _W_}@}, or simply: {@{$$L=\lambda W$$}@} <!--SR:!2026-02-14,283,330!2026-01-06,252,330!2027-07-31,686,330-->
 
 Assume {@{customers arrive at the rate of 10 per hour and stay an average of 0.5 hour}@}. This means we should find {@{the average number of customers in the store at any time to be 5}@}. {@{$$L=10\times 0.5=5$$}@} <!--SR:!2027-07-17,674,330!2025-12-31,246,330!2026-02-10,280,330-->
 

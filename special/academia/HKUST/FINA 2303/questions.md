@@ -663,7 +663,7 @@ tags:
 >
 > <!-- list separator -->
 >
-> - solution: {@{year 3}@} <!--SR:!2025-09-13,128,409-->
+> - solution: {@{year 3}@} <!--SR:!2027-02-25,530,409-->
 
 <!-- markdownlint MD028 -->
 
@@ -695,7 +695,7 @@ tags:
 > 2. no
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@} <!--SR:!2025-09-14,129,409!2025-09-13,128,409-->
+> - explanation: {@{You will need to calculate the NPV of the two options and choose the one with higher NPV.}@} <!--SR:!2025-09-14,129,409!2027-08-29,715,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -735,7 +735,7 @@ tags:
 > 2. no
 >
 > - solution: {@{1}@}
-> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@} <!--SR:!2025-09-15,130,409!2025-09-13,128,409-->
+> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@} <!--SR:!2025-09-15,130,409!2027-08-28,714,429-->
 
 <!-- markdownlint MD028 -->
 

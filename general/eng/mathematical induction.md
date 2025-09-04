@@ -13,7 +13,7 @@ tags:
 
 - Not to be confused with {@{[inductive reasoning](inductive%20reasoning.md)}@}. <!--SR:!2025-09-17,263,330-->
 
-__Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md) that a statement $P(n)$ is true for every [natural number](natural%20number.md) $n$}@}, that is, that {@{the infinitely many cases $P(0),P(1),P(2),P(3),\dots$ all hold}@}. This is done by {@{first proving a simple case, then also showing that if we assume the claim is true for a given case, then the next case is also true}@}. Informal metaphors help to explain this technique, such as {@{falling dominoes or climbing a ladder}@}: <!--SR:!2027-01-16,568,310!2025-09-13,259,330!2027-02-17,652,330!2028-09-14,1114,350-->
+__Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md) that a statement $P(n)$ is true for every [natural number](natural%20number.md) $n$}@}, that is, that {@{the infinitely many cases $P(0),P(1),P(2),P(3),\dots$ all hold}@}. This is done by {@{first proving a simple case, then also showing that if we assume the claim is true for a given case, then the next case is also true}@}. Informal metaphors help to explain this technique, such as {@{falling dominoes or climbing a ladder}@}: <!--SR:!2027-01-16,568,310!2028-12-06,1180,350!2027-02-17,652,330!2028-09-14,1114,350-->
 
 > Mathematical induction proves that {@{we can climb as high as we like on a ladder}@}, by proving that {@{we can climb onto the bottom rung (the __basis__) and that from each rung we can climb up to the next one (the __step__)}@}.
 >
@@ -48,7 +48,7 @@ The simplest and most common form of mathematical induction infers that {@{a sta
 1. The __base case__ (or __initial case__) ::@:: prove that the statement holds for 0, or 1. <!--SR:!2028-11-10,1161,350!2025-09-14,260,330-->
 2. The __induction step__ (or __inductive step__, or __step case__) ::@:: prove that for every _n_, if the statement holds for _n_, then it holds for _n_ + 1. In other words, assume that the statement holds for some arbitrary natural number _n_, and prove that the statement holds for _n_ + 1. <!--SR:!2027-11-23,816,330!2028-11-25,1172,350-->
 
-{@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2028-11-19,1167,350!2025-09-13,259,330!2028-10-21,1144,350-->
+{@{The hypothesis in the induction step, that the statement holds for a particular _n_}@}, is called {@{the __induction hypothesis__ or __inductive hypothesis__}@}. To prove the induction step, one {@{assumes the induction hypothesis for _n_ and then uses this assumption to prove that the statement holds for _n_ + 1}@}. <!--SR:!2028-11-19,1167,350!2028-12-07,1181,350!2028-10-21,1144,350-->
 
 Authors who prefer to define natural numbers to begin at 0 use that value in the base case; those who define natural numbers to begin at 1 use that value.
 
@@ -196,7 +196,7 @@ Sometimes, it is {@{more convenient to deduce backwards, proving the statement f
 
 - see: [all horses are the same color](all%20horses%20are%20the%20same%20color.md)
 
-The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-10-29,1151,350!2026-04-10,406,310!2025-09-13,259,330-->
+The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-10-29,1151,350!2026-04-10,406,310!2028-12-08,1182,350-->
 
 _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2028-10-02,1129,350!2028-11-05,1157,350-->
 

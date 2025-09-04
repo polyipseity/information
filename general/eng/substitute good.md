@@ -67,7 +67,7 @@ Perfect substitutes have {@{a [linear utility](linear%20utility.md) function and
 
 Consumers of perfect substitutes {@{base their rational decision-making process on prices only}@}. Evidently, the consumer will {@{choose the [cheapest](expense.md) bundle to maximise their profits}@}.<sup>[\[8\]](#^ref-8)</sup> If {@{the prices of the goods differed}@}, there would be {@{no demand for the more expensive good}@}. {@{Producers and sellers of perfect substitute goods}@} directly {@{compete with each other, that is, they are known to be in direct [price competition](price%20war.md)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-04,273,330!2025-10-30,268,330!2025-11-11,278,330!2025-11-27,292,330!2025-10-02,248,330!2025-10-04,250,330-->
 
-An example of perfect substitutes is {@{butter from two different producers}@}; the producer may be {@{different but their purpose and usage are the same}@}. <!--SR:!2025-11-24,290,330!2025-09-13,232,330-->
+An example of perfect substitutes is {@{butter from two different producers}@}; the producer may be {@{different but their purpose and usage are the same}@}. <!--SR:!2025-11-24,290,330!2028-08-04,1056,350-->
 
 Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, if {@{[Country Crock](Country%20Crock.md) and Imperial margarine have the same price listed for the same amount of spread}@}, but {@{one brand increases its price}@}, its sales will {@{fall by a certain amount. In response, the other brand's sales will increase by the same amount}@}. <!--SR:!2025-11-28,293,330!2026-11-14,533,310!2026-01-28,345,350!2026-01-27,344,350-->
 

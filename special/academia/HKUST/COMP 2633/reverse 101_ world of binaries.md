@@ -155,7 +155,7 @@ Some common tools are:
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2025-10-24,325,357!2025-11-11,339,357-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2027-12-28,940,357!2025-11-04,334,357-->
 - `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2025-10-09,315,365!2028-10-23,1173,350-->
-- `ltrace` ::@:: Trace library calls, e.g. `glibc`. <!--SR:!2025-09-13,290,343!2025-12-18,372,365-->
+- `ltrace` ::@:: Trace library calls, e.g. `glibc`. <!--SR:!2029-06-19,1375,363!2025-12-18,372,365-->
 
 ### tools for patching
 

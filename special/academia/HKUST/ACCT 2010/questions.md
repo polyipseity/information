@@ -222,7 +222,7 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {@{2}@} <!--SR:!2025-09-13,277,342-->
+> - solution: {@{2}@} <!--SR:!2029-04-08,1303,362-->
 
 ## week 3 review
 

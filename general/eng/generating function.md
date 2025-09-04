@@ -83,7 +83,7 @@ The [main article](lambert%20series.md) provides {@{several more classical, or a
 
 ### Bell series
 
-The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an expression in terms of {@{both an indeterminate _x_ and a prime _p_}@} and is given by:<sup>[\[5\]](#^ref-5)</sup> {@{$$\operatorname {BG} _{p}(a_{n};x)=\sum _{n=0}^{\infty }a_{p^{n} }x^{n}\,.$$}@} <!--SR:!2025-09-13,257,330!2026-08-18,512,330!2025-12-23,285,250-->
+The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an expression in terms of {@{both an indeterminate _x_ and a prime _p_}@} and is given by:<sup>[\[5\]](#^ref-5)</sup> {@{$$\operatorname {BG} _{p}(a_{n};x)=\sum _{n=0}^{\infty }a_{p^{n} }x^{n}\,.$$}@} <!--SR:!2028-11-26,1170,350!2026-08-18,512,330!2025-12-23,285,250-->
 
 ### Dirichlet series generating functions (DGFs)
 
@@ -337,7 +337,7 @@ Generating functions are used to:
 - Explore the asymptotic behaviour of :@: sequences. <!--SR:!2025-09-15,259,330-->
 - Prove identities involving :@: sequences. <!--SR:!2025-11-11,302,330-->
 - Solve ::@:: [enumeration](enumeration.md) problems in [combinatorics](combinatorics.md) and encoding their solutions. [Rook polynomials](rook%20polynomial.md) are an example of an application in combinatorics. <!--SR:!2027-10-13,824,330!2025-11-20,311,330-->
-- Evaluate ::@:: infinite sums. <!--SR:!2025-09-13,257,330!2025-09-29,272,330-->
+- Evaluate ::@:: infinite sums. <!--SR:!2028-11-24,1168,350!2025-09-29,272,330-->
 
 ### various techniques: evaluating sums and tackling other problems with generating functions
 
