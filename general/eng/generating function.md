@@ -27,7 +27,7 @@ Generating functions were first introduced by [Abraham de Moivre](Abraham%20de%2
 
 ## definition
 
-> _A generating function is {@{a device somewhat similar to a bag}@}. Instead of carrying many little objects detachedly, which could be embarrassing, we {@{put them all in a bag, and then we have only one object to carry, the bag}@}._ <!--SR:!2025-11-18,309,330!2025-09-15,259,330-->
+> _A generating function is {@{a device somewhat similar to a bag}@}. Instead of carrying many little objects detachedly, which could be embarrassing, we {@{put them all in a bag, and then we have only one object to carry, the bag}@}._ <!--SR:!2025-11-18,309,330!2028-12-09,1181,350-->
 
 —&hairsp;[George Pólya](George%20Pólya.md), _[Mathematics and plausible reasoning](Mathematics%20and%20Plausible%20Reasoning.md)_ (1954)
 
@@ -87,7 +87,7 @@ The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an 
 
 ### Dirichlet series generating functions (DGFs)
 
-[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2027-11-14,849,330!2027-10-25,834,330!2025-09-15,177,210-->
+[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2027-11-14,849,330!2027-10-25,834,330!2026-09-27,377,210-->
 
 The Dirichlet series generating function is especially useful when {@{_a_<sub>_n_</sub> is a [multiplicative function](multiplicative%20function.md)}@}, in which case {@{it has an [Euler product](euler%20product.md) expression<sup>[\[7\]](#^ref-7)</sup> in terms of the function's Bell series}@}: {@{$$\operatorname {DG} (a_{n};s)=\prod _{p}\operatorname {BG} _{p}(a_{n};p^{-s})\,.$$}@} <!--SR:!2027-03-21,597,290!2026-06-16,370,250!2025-09-27,113,150-->
 
@@ -334,7 +334,7 @@ Generating functions are used to:
 - Find a [closed formula](closed-form%20expression.md) for ::@:: a sequence given in a recurrence relation, for example, [Fibonacci numbers](fibonacci%20sequence.md#generating%20function). <!--SR:!2025-09-23,266,330!2027-09-28,809,330-->
 - Find [recurrence relations](recurrence%20relation.md) for ::@:: sequences—the form of a generating function may suggest a recurrence formula. <!--SR:!2025-09-28,271,330!2025-09-25,268,330-->
 - Find relationships between ::@:: sequences—if the generating functions of two sequences have a similar form, then the sequences themselves may be related. <!--SR:!2025-09-26,269,330!2025-11-16,307,330-->
-- Explore the asymptotic behaviour of :@: sequences. <!--SR:!2025-09-15,259,330-->
+- Explore the asymptotic behaviour of :@: sequences. <!--SR:!2028-12-10,1182,350-->
 - Prove identities involving :@: sequences. <!--SR:!2025-11-11,302,330-->
 - Solve ::@:: [enumeration](enumeration.md) problems in [combinatorics](combinatorics.md) and encoding their solutions. [Rook polynomials](rook%20polynomial.md) are an example of an application in combinatorics. <!--SR:!2027-10-13,824,330!2025-11-20,311,330-->
 - Evaluate ::@:: infinite sums. <!--SR:!2028-11-24,1168,350!2025-09-29,272,330-->

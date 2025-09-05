@@ -75,11 +75,11 @@ By definition, for {@{any integer $k$ with $\gcd(k,b)=1$ \(and thus also $\gcd(k
 
 ### composition
 
-For {@{all positive integers _a_ and _b_}@} it holds that <p> {@{$\lambda (\mathrm {lcm} (a,b))=\mathrm {lcm} (\lambda (a),\lambda (b))$}@}. <p> This is {@{an immediate consequence of the recurrence for the Carmichael function}@}. <!--SR:!2025-09-15,203,321!2026-02-13,325,341!2027-01-12,550,310-->
+For {@{all positive integers _a_ and _b_}@} it holds that <p> {@{$\lambda (\mathrm {lcm} (a,b))=\mathrm {lcm} (\lambda (a),\lambda (b))$}@}. <p> This is {@{an immediate consequence of the recurrence for the Carmichael function}@}. <!--SR:!2028-03-03,900,341!2026-02-13,325,341!2027-01-12,550,310-->
 
 ### exponential cycle length
 
-If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the prime factorization $n=p_{1}^{r_{1} }p_{2}^{r_{2} }\cdots p_{k}^{r_{k} }$ of _n_}@}, then {@{for all _a_ \(including those not coprime to _n_\) and all _r_ ≥ _r_<sub>max</sub>, $$a^{r}\equiv a^{\lambda (n)+r}{\pmod {n} }.$$}@} In particular, {@{for [square-free](square-free%20integer.md) _n_ \( _r_<sub>max</sub> = 1\), for all _a_ we have $$a\equiv a^{\lambda (n)+1}{\pmod {n} }.$$}@} <!--SR:!2025-09-15,202,321!2027-03-22,603,321!2025-11-21,239,321-->
+If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the prime factorization $n=p_{1}^{r_{1} }p_{2}^{r_{2} }\cdots p_{k}^{r_{k} }$ of _n_}@}, then {@{for all _a_ \(including those not coprime to _n_\) and all _r_ ≥ _r_<sub>max</sub>, $$a^{r}\equiv a^{\lambda (n)+r}{\pmod {n} }.$$}@} In particular, {@{for [square-free](square-free%20integer.md) _n_ \( _r_<sub>max</sub> = 1\), for all _a_ we have $$a\equiv a^{\lambda (n)+1}{\pmod {n} }.$$}@} <!--SR:!2028-03-01,898,341!2027-03-22,603,321!2025-11-21,239,321-->
 
 > [!tip] tips
 >

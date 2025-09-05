@@ -27,7 +27,7 @@ PPFs are normally {@{drawn as bulging upwards or outwards from the origin ("conc
 
 However, {@{most [economic contractions](recession.md)}@} reflect {@{not that less can be produced but that the economy has started operating below the frontier}@}, as typically, {@{both labour and physical capital are [underemployed](underemployment.md), remaining therefore idle}@}. <!--SR:!2025-09-16,273,330!2025-09-17,274,330!2025-11-07,315,330-->
 
-In {@{[microeconomics](microeconomics.md)}@}, the PPF shows {@{the options open to an individual, [household](household%20production%20function.md), or firm in a two-good world}@}. By definition, {@{each point on the curve is productively efficient}@}, but, {@{given the nature of [market demand](supply%20and%20demand.md), some points will be more [profitable](profit%20(accounting).md) than others}@}. Equilibrium for a firm will be {@{the combination of outputs on the PPF that is most profitable}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-08-15,1102,350!2025-09-15,272,330!2027-02-13,662,330!2028-01-20,869,330!2025-10-09,291,330-->
+In {@{[microeconomics](microeconomics.md)}@}, the PPF shows {@{the options open to an individual, [household](household%20production%20function.md), or firm in a two-good world}@}. By definition, {@{each point on the curve is productively efficient}@}, but, {@{given the nature of [market demand](supply%20and%20demand.md), some points will be more [profitable](profit%20(accounting).md) than others}@}. Equilibrium for a firm will be {@{the combination of outputs on the PPF that is most profitable}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-08-15,1102,350!2029-02-05,1239,350!2027-02-13,662,330!2028-01-20,869,330!2025-10-09,291,330-->
 
 From {@{a [macroeconomic](macroeconomics.md) perspective}@}, the PPF illustrates {@{the production possibilities available to a nation or [economy](economy.md) during a given period of time for broad categories of output}@}. It is traditionally used to {@{show the movement between committing all funds to consumption on the _y_-axis versus investment on the _x_-axis}@}. However, an economy may {@{achieve [productive efficiency](productive%20efficiency.md) without necessarily being [allocatively efficient](allocative%20efficiency.md)}@}. {@{Market failure (such as imperfect competition or [externalities](externality.md)) and some institutions of social decision-making (such as government and tradition)}@} may lead to {@{the wrong combination of goods being produced (hence the wrong mix of resources being allocated between producing the two goods)}@} compared to {@{what consumers would prefer, given what is feasible on the PPF}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-07-14,1076,350!2026-07-14,487,310!2026-12-15,613,330!2028-07-03,1066,350!2027-11-02,863,330!2026-02-08,374,310!2027-08-30,816,330-->
 
@@ -104,7 +104,7 @@ The marginal rate of transformation can be {@{expressed in terms of either commo
 
 > {@{![figure 6b: straight line PPF: constant opportunity cost](../../archives/Wikimedia%20Commons/PPF%20opportunity%20cost%20straight.svg)}@}
 >
-> figure 6b: {@{straight line PPF: constant opportunity cost}@} <!--SR:!2025-09-18,275,330!2025-09-15,272,330-->
+> figure 6b: {@{straight line PPF: constant opportunity cost}@} <!--SR:!2025-09-18,275,330!2029-02-03,1237,350-->
 
 <!-- markdownlint MD028 -->
 

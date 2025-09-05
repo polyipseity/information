@@ -66,7 +66,7 @@ __Proof.__ ::@:: Let _P_(_n_) be the statement $0+1+2+\cdots +n={\tfrac {n(n+1)}
 
 _Base case_ ::@:: Show that the statement holds for the smallest natural number _n_ = 0. _P_(0) is clearly true: $0={\tfrac {0(0+1)}{2} }$. <!--SR:!2028-10-04,1131,350!2027-02-05,644,330-->
 
-_Induction step_ ::@:: Show that for every _k_ ≥ 0, if _P_(_k_) holds, then _P_(_k_ + 1) also holds. <!--SR:!2028-09-07,1107,350!2025-09-15,261,330-->
+_Induction step_ ::@:: Show that for every _k_ ≥ 0, if _P_(_k_) holds, then _P_(_k_ + 1) also holds. <!--SR:!2028-09-07,1107,350!2028-12-19,1191,350-->
 
 Assume the induction hypothesis that for a particular _k_, the single case _n_ = _k_ holds, meaning _P_(_k_) is true: $$0+1+\cdots +k={\frac {k(k+1)}{2} }.$$ It follows that: $$(0+1+2+\cdots +k)+(k+1)={\frac {k(k+1)}{2} }+(k+1).$$
 
@@ -144,7 +144,7 @@ whereupon the induction principle {@{"automates" _n_ applications of this step i
 
 A variant of {@{interest in [computational complexity](computational%20complexity.md)}@} is {@{"prefix induction"}@}, in which one {@{proves the following statement in the induction step: $$\forall k\,(P(k)\to P(2k)\land P(2k+1))$$ or equivalently $$\forall k\,\left(P\!\left(\left\lfloor {\frac {k}{2} }\right\rfloor \right)\to P(k)\right).$$}@} <!--SR:!2028-09-06,1106,350!2028-10-01,1128,350!2027-02-25,660,330-->
 
-The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2028-12-12,1185,350!2028-09-11,1111,350!2028-11-23,1169,350!2025-09-15,261,330-->
+The induction principle then {@{"automates" [log<sub>2</sub>](binary%20logarithm.md) _n_ applications of this inference in getting from _P_(0) to _P_(_n_)}@}. In fact, it is called "prefix induction" because {@{each step proves something about a number from something about the "prefix" of that number}@} — as formed by {@{truncating the low bit of its [binary representation](binary%20number.md)}@}. It can also be viewed as {@{an application of traditional induction on the length of that binary representation}@}. <!--SR:!2028-12-12,1185,350!2028-09-11,1111,350!2028-11-23,1169,350!2028-12-18,1190,350-->
 
 If {@{traditional predecessor induction is interpreted computationally as an _n_-step loop}@}, then prefix induction would {@{correspond to a log-_n_-step loop}@}. Because of that, proofs using prefix induction are {@{"more feasibly constructive" than proofs using predecessor induction}@}. <!--SR:!2028-10-15,1140,350!2028-11-01,1154,350!2028-11-07,1158,350-->
 
@@ -168,7 +168,7 @@ If, {@{on the other hand, $P(n)$ had been proven by ordinary induction}@}, the p
 
 #### example: Fibonacci numbers
 
-Complete induction is most useful when {@{several instances of the inductive hypothesis are required for each induction step}@}. For example, complete induction can be used to show that {@{$F_{n}={\frac {\varphi ^{n}-\psi ^{n} }{\varphi -\psi } }$ where $F_{n}$ is the _n_-th [Fibonacci number](Fibonacci%20sequence.md)}@}, and {@{$\varphi ={\frac {1}{2} }(1+{\sqrt {5} })$ (the [golden ratio](golden%20ratio.md)) and $\psi ={\frac {1}{2} }(1-{\sqrt {5} })$ are the [roots](zero%20of%20a%20function.md) of the [polynomial](polynomial.md) $x^{2}-x-1$}@}. By using the fact that {@{$F_{n+2}=F_{n+1}+F_{n}$ for each $n\in \mathbb {N}$}@}, the identity above can be verified by {@{direct calculation for $F_{n+2}$ if one assumes that it already holds for both $F_{n+1}$ and $F_{n}$}@}. To complete the proof, the identity {@{must be verified in the two base cases: $n=0$ and $n=1$}@}. <!--SR:!2027-08-17,782,330!2027-11-28,819,330!2026-01-03,258,290!2028-09-23,1121,350!2025-09-15,261,330!2028-09-29,1126,350-->
+Complete induction is most useful when {@{several instances of the inductive hypothesis are required for each induction step}@}. For example, complete induction can be used to show that {@{$F_{n}={\frac {\varphi ^{n}-\psi ^{n} }{\varphi -\psi } }$ where $F_{n}$ is the _n_-th [Fibonacci number](Fibonacci%20sequence.md)}@}, and {@{$\varphi ={\frac {1}{2} }(1+{\sqrt {5} })$ (the [golden ratio](golden%20ratio.md)) and $\psi ={\frac {1}{2} }(1-{\sqrt {5} })$ are the [roots](zero%20of%20a%20function.md) of the [polynomial](polynomial.md) $x^{2}-x-1$}@}. By using the fact that {@{$F_{n+2}=F_{n+1}+F_{n}$ for each $n\in \mathbb {N}$}@}, the identity above can be verified by {@{direct calculation for $F_{n+2}$ if one assumes that it already holds for both $F_{n+1}$ and $F_{n}$}@}. To complete the proof, the identity {@{must be verified in the two base cases: $n=0$ and $n=1$}@}. <!--SR:!2027-08-17,782,330!2027-11-28,819,330!2026-01-03,258,290!2028-09-23,1121,350!2028-12-17,1189,350!2028-09-29,1126,350-->
 
 #### example: prime factorization
 

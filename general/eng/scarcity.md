@@ -20,7 +20,7 @@ In [economics](economics.md), __scarcity__ "refers to {@{the basic fact of life 
 
 Economic scarcity as defined by [Samuelson](Paul%20Samuelson.md) in _Economics_, a "canonical textbook" of mainstream economic thought<sup>[\[7\]](#^ref-7)</sup> "refers to {@{the basic fact of life that there exists only a finite amount of human and nonhuman resources}@} which {@{the best technical knowledge is capable of using to produce only limited maximum amounts of each economic good}@} ... (outlined in the [production possibility curve (PPC)](production–possibility%20frontier.md))."<sup>[\[1\]](#^ref-1)</sup> If {@{the conditions of scarcity did not exist}@} and {@{an "infinite amount of every good could be produced or human wants fully satisfied}@} ... there {@{would be no [economic goods](goods.md), i.e. goods that are relatively scarce}@}..."<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2028-01-13,907,330!2027-06-17,745,330!2025-11-02,310,330!2025-09-18,274,330!2027-11-27,828,330-->
 
-This economic scarcity is {@{not solely due to resource limits}@}, but {@{a consequence of human activity or social provisioning}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> There are {@{two types of scarcity, relative and absolute scarcity}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2028-09-02,1113,350!2025-09-24,280,330!2025-09-15,271,330-->
+This economic scarcity is {@{not solely due to resource limits}@}, but {@{a consequence of human activity or social provisioning}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> There are {@{two types of scarcity, relative and absolute scarcity}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2028-09-02,1113,350!2025-09-24,280,330!2029-01-30,1233,350-->
 
 ### Malthus and absolute scarcity
 

@@ -191,7 +191,7 @@ water and sewage treatment system
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
+- _(begin)_→::@::←bridge <!--SR:!2031-10-27,2233,417!2025-11-25,470,394-->
 - bridge→::@::←building <!--SR:!2029-04-13,1437,392!2028-12-06,1324,380-->
 - building→::@::←dam <!--SR:!2027-02-03,782,360!2026-03-05,544,400-->
 - dam→::@::←pipeline <!--SR:!2027-01-05,615,244!2026-03-12,518,341-->
@@ -279,7 +279,7 @@ workmanship
 
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
 - budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
-- construction management→::@::←economics <!--SR:!2025-09-15,333,255!2028-01-11,997,320-->
+- construction management→::@::←economics <!--SR:!2028-12-24,1196,275!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2028-07-28,1159,340-->
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2027-11-20,869,312-->
@@ -404,7 +404,7 @@ Water Cube
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2028-12-06,1264,340!2027-12-22,971,290-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
-- Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2027-04-10,766,325-->
+- Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2029-06-05,1359,314!2027-04-10,766,325-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2028-10-12,1235,357!2028-07-09,1140,340-->
 - Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2027-09-14,985,377-->
 

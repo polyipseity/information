@@ -101,7 +101,7 @@ One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, work
 >     {@{<b>return</b> error   <i>(graph has at least one cycle)</i>}@}
 > <b>else</b>
 >     {@{<b>return</b> <i>L</i>   <i>(a topologically sorted order)</i>}@}
-> </pre> <!--SR:!2026-06-17,454,379!2026-04-29,412,371!2026-03-30,385,358!2026-03-16,373,358!2025-09-15,208,327!2026-01-05,315,359!2026-04-30,413,371!2026-04-19,404,371!2026-01-26,316,359!2026-05-25,435,379!2026-05-31,439,379!2026-04-13,398,371-->
+> </pre> <!--SR:!2026-06-17,454,379!2026-04-29,412,371!2026-03-30,385,358!2026-03-16,373,358!2028-04-13,941,347!2026-01-05,315,359!2026-04-30,413,371!2026-04-19,404,371!2026-01-26,316,359!2026-05-25,435,379!2026-05-31,439,379!2026-04-13,398,371-->
 
 If {@{the graph is a [DAG](directed%20acyclic%20graph.md)}@}, {@{a solution will be contained in the list L \(although the solution is not necessarily unique\)}@}. Otherwise, {@{the graph must have at least one cycle and therefore a topological sort is impossible}@}. <!--SR:!2026-06-21,457,379!2026-04-05,393,371!2027-09-20,784,339-->
 

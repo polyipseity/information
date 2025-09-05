@@ -44,7 +44,7 @@ For example, if we want to {@{find the [surface area](surface%20area.md) of the 
 
 Because of {@{the presence of the cross product}@}, the above formulas {@{only work for surfaces embedded in three-dimensional space}@}. <!--SR:!2025-09-24,66,310!2025-09-16,58,310-->
 
-This can be seen as {@{integrating a [Riemannian volume form](Riemannian%20volume%20form.md#Riemannian%20volume%20form) on the parameterized surface}@}, where the [metric tensor](metric%20tensor.md) is {@{given by the [first fundamental form](first%20fundamental%20form.md) of the surface}@}. <!--SR:!2025-09-15,57,310!2025-09-17,59,310-->
+This can be seen as {@{integrating a [Riemannian volume form](Riemannian%20volume%20form.md#Riemannian%20volume%20form) on the parameterized surface}@}, where the [metric tensor](metric%20tensor.md) is {@{given by the [first fundamental form](first%20fundamental%20form.md) of the surface}@}. <!--SR:!2026-05-22,249,330!2025-09-17,59,310-->
 
 ## surface integrals of vector fields
 
@@ -62,7 +62,7 @@ This can be seen as {@{integrating a [Riemannian volume form](Riemannian%20volum
 >
 > {@{![The total flux through the surface is found by adding up $\mathbf {F} \cdot \mathbf {n} \;dS$ for each patch.](../../archives/Wikimedia%20Commons/Surface%20integral%20-%20definition.svg)}@}
 >
-> {@{The total flux through the surface}@} is found by {@{adding up $\mathbf {F} \cdot \mathbf {n} \;dS$ for each patch}@}. In {@{the limit as the patches become infinitesimally small}@}, this is {@{the surface integral $\iint _{S}\mathbf {F\cdot n} \;dS$}@} <!--SR:!2025-09-24,66,310!2025-09-25,67,310!2025-09-15,57,310!2025-09-18,60,310!2025-09-24,66,310!2025-09-17,59,310!2025-09-15,57,310!2025-09-24,66,310!2025-09-21,63,310!2025-09-18,60,310!2025-09-24,66,310!2025-09-25,67,310!2025-09-24,66,310!2025-09-20,62,310!2025-09-20,62,310!2025-09-24,66,310-->
+> {@{The total flux through the surface}@} is found by {@{adding up $\mathbf {F} \cdot \mathbf {n} \;dS$ for each patch}@}. In {@{the limit as the patches become infinitesimally small}@}, this is {@{the surface integral $\iint _{S}\mathbf {F\cdot n} \;dS$}@} <!--SR:!2025-09-24,66,310!2025-09-25,67,310!2026-05-20,247,330!2025-09-18,60,310!2025-09-24,66,310!2025-09-17,59,310!2026-05-21,248,330!2025-09-24,66,310!2025-09-21,63,310!2025-09-18,60,310!2025-09-24,66,310!2025-09-25,67,310!2025-09-24,66,310!2025-09-20,62,310!2025-09-20,62,310!2025-09-24,66,310-->
 
 Consider {@{a vector field __v__ on a surface _S_}@}, that is, for {@{each __r__ = \(_x_, _y_, _z_\) in _S_, __v__\(__r__\) is a vector}@}. <!--SR:!2025-09-25,67,310!2025-09-19,61,310-->
 

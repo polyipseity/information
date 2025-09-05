@@ -735,7 +735,7 @@ tags:
 > 2. no
 >
 > - solution: {@{1}@}
-> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@} <!--SR:!2025-09-15,130,409!2027-08-28,714,429-->
+> - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@} <!--SR:!2027-09-12,727,429!2027-08-28,714,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -748,7 +748,7 @@ tags:
 > 3. \$200k
 > 4. \$250k
 >
-> - solution: {@{2}@} <!--SR:!2025-09-15,130,409-->
+> - solution: {@{2}@} <!--SR:!2027-02-28,531,409-->
 
 ## week 8 lecture
 

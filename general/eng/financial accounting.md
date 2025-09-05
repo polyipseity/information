@@ -191,7 +191,7 @@ However, there are {@{instances of accounts, known as contra-accounts}@} \({@{co
 
 ## related qualification
 
-{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2025-09-15,285,330!2026-01-12,296,250!2027-04-06,652,341-->
+{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2029-04-03,1296,350!2026-01-12,296,250!2027-04-06,652,341-->
 
 ## see also
 

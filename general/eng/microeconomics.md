@@ -41,7 +41,7 @@ This is studied in the field of {@{[collective action](collective%20action.md) a
 
 ### allocation of scarce resources
 
-Individuals and firms need to {@{allocate limited resources to ensure all __agents__ in the economy are well off}@}. Firms {@{decide which goods and services to produce considering low costs involving labor, materials and capital as well as potential profit margins}@}. Consumers {@{choose the good and services they want that will maximize their happiness taking into account their limited wealth}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-09-15,271,330!2025-10-18,263,290!2028-07-21,1082,350-->
+Individuals and firms need to {@{allocate limited resources to ensure all __agents__ in the economy are well off}@}. Firms {@{decide which goods and services to produce considering low costs involving labor, materials and capital as well as potential profit margins}@}. Consumers {@{choose the good and services they want that will maximize their happiness taking into account their limited wealth}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2029-01-31,1234,350!2025-10-18,263,290!2028-07-21,1082,350-->
 
 The government can {@{make these allocation decisions or they can be independently made by the consumers and firms}@}. For example, in the former Soviet Union, the government {@{played a part in informing car manufacturers which cars to produce and which consumers will gain access to a car}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-10-09,289,330!2026-08-25,483,310-->
 
@@ -63,7 +63,7 @@ Consumer demand theory {@{relates [preferences](preference%20(economics).md) for
 
 - see: [production theory](production%20(economics).md)
 
-Production theory is {@{the study of production, or the economic process of converting inputs into outputs}@}.<sup>[\[12\]](#^ref-12)</sup> [Production](production%20(economics).md) {@{uses [resources](resource.md) to create a [good](goods.md) or [service](service%20(economics).md) that is suitable for use}@}, {@{[gift](gift.md)-giving in a [gift economy](gift%20economy.md), or [exchange](trade.md) in a [market economy](market%20economy.md)}@}. This can include {@{[manufacturing](manufacturing.md), storing, [shipping](freight%20transport.md), and [packaging](packaging.md)}@}. Some economists define production {@{broadly as all economic activity other than [consumption](consumption%20(economics).md)}@}. They see {@{every commercial activity other than the final purchase as some form of production}@}. <!--SR:!2025-09-15,271,330!2025-11-12,318,330!2027-07-30,778,330!2028-10-10,1147,350!2025-11-13,319,330!2025-09-25,281,330-->
+Production theory is {@{the study of production, or the economic process of converting inputs into outputs}@}.<sup>[\[12\]](#^ref-12)</sup> [Production](production%20(economics).md) {@{uses [resources](resource.md) to create a [good](goods.md) or [service](service%20(economics).md) that is suitable for use}@}, {@{[gift](gift.md)-giving in a [gift economy](gift%20economy.md), or [exchange](trade.md) in a [market economy](market%20economy.md)}@}. This can include {@{[manufacturing](manufacturing.md), storing, [shipping](freight%20transport.md), and [packaging](packaging.md)}@}. Some economists define production {@{broadly as all economic activity other than [consumption](consumption%20(economics).md)}@}. They see {@{every commercial activity other than the final purchase as some form of production}@}. <!--SR:!2029-02-01,1235,350!2025-11-12,318,330!2027-07-30,778,330!2028-10-10,1147,350!2025-11-13,319,330!2025-09-25,281,330-->
 
 ### cost-of-production theory of value
 
@@ -75,7 +75,7 @@ In {@{the mathematical model for the cost of production}@}, {@{the short-run tot
 
 ### fixed and variable costs
 
-- [fixed cost](fixed%20cost.md) (FC) ::@:: This cost does not change with output. It includes business expenses such as rent, salaries and utility bills. <!--SR:!2027-09-05,815,330!2025-09-15,271,330-->
+- [fixed cost](fixed%20cost.md) (FC) ::@:: This cost does not change with output. It includes business expenses such as rent, salaries and utility bills. <!--SR:!2027-09-05,815,330!2029-01-28,1231,350-->
 - [variable cost](variable%20cost.md) (VC) ::@:: This cost changes as output changes. This includes raw materials, delivery costs and production supplies. <!--SR:!2028-09-06,1121,350!2025-09-21,277,330-->
 
 Over {@{a short time period (few months)}@}, most costs are {@{fixed costs as the firm will have to pay for salaries, contracted shipment and materials used to produce various goods}@}. Over {@{a longer time period (2-3 years)}@}, costs can {@{become variable}@}. Firms can {@{decide to reduce output, purchase fewer materials and even sell some machinery}@}. Over {@{10 years}@}, {@{most costs become variable as workers can be laid off or new machinery can be bought to replace the old machinery}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2028-09-10,1124,350!2025-09-19,275,330!2025-11-14,320,330!2028-08-30,1115,350!2028-08-09,1098,350!2028-08-29,1114,350!2025-11-14,320,330-->

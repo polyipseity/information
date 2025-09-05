@@ -17,7 +17,7 @@ Audacity is {@{an audio editor}@}. It can be downloaded from {@{<https://audacit
 
 ### analysis (Audacity)
 
-Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2025-09-15,310,349-->
+Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2029-10-11,1487,369-->
 
 ### effects \(Audacity\)
 

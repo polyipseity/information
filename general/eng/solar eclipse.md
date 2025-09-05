@@ -32,7 +32,7 @@ There are {@{three main types of solar eclipses: [total eclipse](#total%20eclips
 
 ### total eclipse
 
-A total eclipse occurs on average {@{every 18 months}@} when {@{the dark silhouette of the [Moon](Moon.md) completely obscures the bright light of the [Sun](Sun.md)}@}, allowing {@{the much fainter [solar corona](stellar%20corona.md) to be visible}@}. During an eclipse, totality occurs {@{only along a narrow track on the surface of Earth. This narrow track is called the path of totality}@}. <!--SR:!2026-02-21,392,290!2025-09-15,263,250!2027-03-26,742,330!2027-03-14,737,330-->
+A total eclipse occurs on average {@{every 18 months}@} when {@{the dark silhouette of the [Moon](Moon.md) completely obscures the bright light of the [Sun](Sun.md)}@}, allowing {@{the much fainter [solar corona](stellar%20corona.md) to be visible}@}. During an eclipse, totality occurs {@{only along a narrow track on the surface of Earth. This narrow track is called the path of totality}@}. <!--SR:!2026-02-21,392,290!2028-03-25,922,270!2027-03-26,742,330!2027-03-14,737,330-->
 
 ### annular eclipse
 

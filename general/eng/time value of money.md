@@ -81,7 +81,7 @@ The [present value](present%20value.md) \(_PV_\) formula has {@{four variables}@
 
 ### present value of an annuity for n payment periods
 
-In this case {@{the cash flow values remain the same throughout the _n_ periods}@}. {@{The present value of an [annuity](annuity%20(finance%20theory).md) \(PVA\) formula}@} has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$PV(A)\,=\,{\frac {A}{i} }\cdot \left[{1-{\frac {1}{\left(1+i\right)^{n} } } }\right]$$}@} To {@{get the PV of an [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\)}@}. <!--SR:!2026-02-09,269,330!2026-02-06,266,330!2026-01-16,254,330!2026-01-13,251,330!2025-09-15,156,310!2026-02-14,274,330!2025-12-24,236,330-->
+In this case {@{the cash flow values remain the same throughout the _n_ periods}@}. {@{The present value of an [annuity](annuity%20(finance%20theory).md) \(PVA\) formula}@} has {@{four variables}@}, each of which can be {@{solved for by numerical methods}@}: {@{$$PV(A)\,=\,{\frac {A}{i} }\cdot \left[{1-{\frac {1}{\left(1+i\right)^{n} } } }\right]$$}@} To {@{get the PV of an [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\)}@}. <!--SR:!2026-02-09,269,330!2026-02-06,266,330!2026-01-16,254,330!2026-01-13,251,330!2027-07-14,667,330!2026-02-14,274,330!2025-12-24,236,330-->
 
 ### present value of a growing annuity
 
