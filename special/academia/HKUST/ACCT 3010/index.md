@@ -39,8 +39,8 @@ The content is in teaching order.
 
 - datetime: 2025-09-01T13:30:00+08:00/2025-09-01T14:50:00+08:00, PT1H20M
 - topic: logistics; introduction
-- logistics
 - ACCT 3010
+  - ACCT 3010 / logistics
   - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc.
 - [questions § week 1 lecture](questions.md#week%201%20lecture)
 

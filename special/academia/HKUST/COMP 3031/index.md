@@ -58,6 +58,7 @@ The content is in teaching order.
 - datetime: 2025-09-02T12:00:00+08:00/2025-09-02T13:20:00+08:00, PT1H20M
 - topic: logistics; introduction; elements of programming; termination; evaluation strategy; scoping
 - COMP 3031
+  - COMP 3031 / logistics
   - COMP 3031 / objectives ::@:: Scala, functional programming, programming language constructs, programming language paradigms
 - [programming paradigm](../../../../general/programming%20paradigm.md) ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program.
   - programming paradigm / common ::@:: concurrent, dependently-typed, functional, imperative, logic, object-oriented, parallel, etc.

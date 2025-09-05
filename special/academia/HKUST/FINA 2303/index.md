@@ -72,8 +72,8 @@ The content is in teaching order.
 - logistics
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities.
   - finance / reasons for studying ::@:: For making decisions that apply to all levels and scales: Choose what supplies? How to raise money? Launch a new product? Produce or outsource production?
-- thinking aloud paired problem solving (TAPPS) ::@:: The _explainer_ explains to the _listener_. The former talks two thirds of the time. The latter seeks clarifications and shares own ideas.
-  - thinking aloud paired problem solving (TAPPS) / submission ::@:: Submit either hard copy or on Canvas (after class). Submit one copy per group. Write down your answer. Put down names and student IDs of contributing members (2 to 3 members).
+- thinking aloud paired problem solving \(TAPPS\) ::@:: The _explainer_ explains to the _listener_. The former talks two thirds of the time. The latter seeks clarifications and shares own ideas.
+  - thinking aloud paired problem solving \(TAPPS\) / submission ::@:: Submit either hard copy or on Canvas (after class). Submit one copy per group. Write down your answer. Put down names and student IDs of contributing members (2 to 3 members).
 - [finance](../../../../general/finance.md)
   - finance / [corporate finance](../../../../general/corporate%20finance.md) ::@:: acquisition (not covered), capital budgeting, financing (e.g. bonds, stocks), working capital management
   - finance / study & aim ::@:: The study of how people allocate scarce resources over time, with the aim of making optimal financial decisions, e.g. maximizing company value, maximizing satisfaction of people’s consumption preferences, etc.

@@ -39,7 +39,8 @@ The content is in teaching order.
 
 - datetime: 2025-09-01T10:30:00+08:00/2025-09-01T11:50:00+08:00, PT1H20M
 - topic: logistics; introduction to derivatives
-- logistics
+- FINA 3203
+  - FINA 3203 / logistics
 - [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ...
   - derivative / elements ::@:: tradeable item, future act, future act price, future act time
     - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc.
