@@ -39,9 +39,18 @@ The content is in teaching order.
 
 - datetime: 2025-09-01T13:30:00+08:00/2025-09-01T14:50:00+08:00, PT1H20M
 - topic: logistics; introduction
-- logistics
 - ACCT 3010
-  - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from instructors, etc. <!--SR:!2025-09-26,16,290!2025-09-25,15,290-->
+  - ACCT 3010 / logistics
+  - ACCT 3010 / teaching staff
+  - ACCT 3010 / resources
+  - ACCT 3010 / required textbook ::@:: Kieso, Weygandt, and Warfield, "Intermediate Accounting: IFRS Edition, 5th Edition"
+  - ACCT 3010 / objectives ::@:: environment, financial reporting frameworks, standard-setting process
+  - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective
+  - ACCT 3010 / class participation
+  - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc. <!--SR:!2025-09-26,16,290!2025-09-25,15,290-->
+    - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development
+    - ACCT 3010 / introduction / artificial intelligence ::@:: It _probably_ changes accounting, but would not replace accountants using AIs... \(or maybe not... who knows?\)
+- [questions § week 1 lecture](questions.md#week%201%20lecture)
 
 ## week 1 lecture 2
 

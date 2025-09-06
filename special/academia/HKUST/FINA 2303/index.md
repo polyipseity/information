@@ -72,8 +72,8 @@ The content is in teaching order.
 - logistics
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2026-02-28,283,330!2026-01-29,267,330-->
   - finance / reasons for studying ::@:: For making decisions that apply to all levels and scales: Choose what supplies? How to raise money? Launch a new product? Produce or outsource production? <!--SR:!2025-11-21,197,310!2025-10-01,167,310-->
-- thinking aloud paired problem solving (TAPPS) ::@:: The _explainer_ explains to the _listener_. The former talks two thirds of the time. The latter seeks clarifications and shares own ideas. <!--SR:!2027-07-16,673,330!2027-06-09,642,330-->
-  - thinking aloud paired problem solving (TAPPS) / submission ::@:: Submit either hard copy or on Canvas (after class). Submit one copy per group. Write down your answer. Put down names and student IDs of contributing members (2 to 3 members). <!--SR:!2027-08-01,687,330!2026-02-02,271,330-->
+- thinking aloud paired problem solving \(TAPPS\) ::@:: The _explainer_ explains to the _listener_. The former talks two thirds of the time. The latter seeks clarifications and shares own ideas. <!--SR:!2027-07-16,673,330!2027-06-09,642,330-->
+  - thinking aloud paired problem solving \(TAPPS\) / submission ::@:: Submit either hard copy or on Canvas (after class). Submit one copy per group. Write down your answer. Put down names and student IDs of contributing members (2 to 3 members). <!--SR:!2027-08-01,687,330!2026-02-02,271,330-->
 - [finance](../../../../general/finance.md)
   - finance / [corporate finance](../../../../general/corporate%20finance.md) ::@:: acquisition (not covered), capital budgeting, financing (e.g. bonds, stocks), working capital management <!--SR:!2026-09-12,426,310!2026-02-28,283,330-->
   - finance / study & aim ::@:: The study of how people allocate scarce resources over time, with the aim of making optimal financial decisions, e.g. maximizing company value, maximizing satisfaction of people’s consumption preferences, etc. <!--SR:!2026-01-30,268,330!2027-06-20,652,330-->

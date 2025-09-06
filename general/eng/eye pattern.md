@@ -163,7 +163,7 @@ There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}
 
 Amplitude measurements
 
-- Eye amplitude ::@:: \(\) <!--SR:!2025-09-25,15,290!2025-09-24,14,290-->
+- Eye amplitude
 - Eye crossing amplitude
 - Eye crossing percentage
 - Eye height

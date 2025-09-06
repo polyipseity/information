@@ -98,7 +98,7 @@ In practice, proofs by induction are often {@{structured differently, depending 
 
 ### base case other than 0 or 1
 
-If {@{one wishes to prove a statement, not for all natural numbers, but only for all numbers _n_ greater than or equal to a certain number _b_}@}, then the proof by induction consists of the following: <!--SR:!2028-01-07,848,330-->
+If {@{one wishes to prove a statement}@}, not for {@{all natural numbers}@}, but only for {@{all numbers _n_ greater than or equal to a certain number _b_}@}, then {@{the proof by induction}@} consists of the following: <!--SR:!2028-01-07,848,330-->
 
 1. Showing that the statement holds when _n_ = _b_.
 2. Showing that if the statement holds for an arbitrary number _n_ ≥ _b_, then the same statement also holds for _n_ + 1.

@@ -77,8 +77,16 @@ tags:
 
 ### 2025 summer
 
+- [ELEC 1200](ELEC%201200/index.md): A System View of Communications: from Signals to Packets \(4 credits\)
 - ISOM 2010: Introduction to Information Systems \(3 credits\)
   - transferred: [Korea University](../Korea%20University/index.md): [ISC213](../Korea%20University/ISC213/index.md): Introduction to Management Information Systems
+
+### 2025 fall
+
+- [ACCT 3010](ACCT%203010/index.md): Financial Accounting I \(3 credits\)
+- [COMP 3031](COMP%203031/index.md): Principles of Programming Languages \(3 credits\)
+- [FINA 3103](FINA%203103/index.md): Intermediate Investments \(3 credits\)
+- [FINA 3203](FINA%203203/index.md): Derivative Securities \(3 credits\)
 
 ## groups
 

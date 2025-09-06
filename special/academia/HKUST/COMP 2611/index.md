@@ -82,7 +82,7 @@ The content is in teaching order.
   - instruction set architecture / examples ::@:: ARM, MIPS, PowerPC, SPARC, x86 <!--SR:!2025-12-15,236,330!2025-12-14,235,330-->
 - [computer](../../../../general/computer.md) ::@:: a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation) <!--SR:!2025-09-27,170,310!2025-12-24,243,330-->
   - computer / the very first computers ::@:: some uses punch cards as computer programs, very large (can be as large as a building), very low capabilities (compared to nowadays) <!--SR:!2025-12-11,233,330!2025-12-10,232,330-->
-- [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <p> in this course, 5 components: input, output, memory, processor (control + datapath) <!--SR:!2027-08-12,694,330!2025-10-15,168,270-->
+- [von Neumann architecture](../../../../general/von%20Neumann%20architecture.md) ::@:: control unit, processing unit, memory, storage, input/output mechanisms <p> in this course, 5 components: input, output, memory, processor \(control + datapath\) <!--SR:!2027-08-12,694,330!2025-10-15,168,270-->
   - von Neumann architecture / input ::@:: communicate with the computers; transfer data and instructions to the memory <!--SR:!2025-12-22,243,330!2025-12-31,251,330-->
   - von Neumann architecture / output ::@:: communicate with the users; transfer data from the memory <!--SR:!2025-12-12,234,330!2025-12-11,233,330-->
   - von Neumann architecture / memory ::@:: store to keep data and instructions <!--SR:!2025-12-29,248,330!2027-08-13,695,330-->
