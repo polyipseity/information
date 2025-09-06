@@ -60,9 +60,9 @@ Below are some questions or question tips.
 
 - opportunity cost due to full capacity ::@:: Use unit contribution margins to find the opportunity cost due to lost production. <!--SR:!2026-05-15,254,330!2026-05-17,251,330-->
 - qualitative factors ::@:: customer relationships, employees, market, price, quality, sustainability goals, timeliness, wages, etc. <!--SR:!2025-10-21,34,290!2025-10-13,30,290-->
-  - qualitative factors / customer relationships ::@:: cutting current production may anger existing customers
-  - qualitative factors / human resources ::@:: employee morale, firing, hiring, wages \(e.g. working with outsiders with higher wages leading to jealousy\)
-  - qualitative factors / market ::@:: market leadership \(leading in offered products or services\), price \(e.g. special orders are cheaper than normal orders leading to jealousy\)
+  - qualitative factors / customer relationships ::@:: cutting current production may anger existing customers <!--SR:!2025-09-10,4,346!2025-09-10,4,346-->
+  - qualitative factors / human resources ::@:: employee morale, firing, hiring, wages \(e.g. working with outsiders with higher wages leading to jealousy\) <!--SR:!2025-09-10,4,346!2025-09-10,4,346-->
+  - qualitative factors / market ::@:: market leadership \(leading in offered products or services\), price \(e.g. special orders are cheaper than normal orders leading to jealousy\) <!--SR:!2025-09-10,4,346!2025-09-10,4,346-->
 
 ## budgetary planning
 
