@@ -25,15 +25,15 @@ tags:
 | __[License](software%20license.md)__                             | [MIT License](MIT%20License.md)                                                                                                                                                                                      |
 | __Website__                                                      | [github.com/Z3Prover](https://github.com/Z3Prover)                                                                                                                                                                   |
 
-{@{__Z3__, also known as the __Z3 Theorem Prover__}@}, is {@{a [satisfiability modulo theories](satisfiability%20modulo%20theories.md) \(SMT\) solver developed by [Microsoft](Microsoft.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-05-25,255,330!2025-09-17,63,310-->
+{@{__Z3__, also known as the __Z3 Theorem Prover__}@}, is {@{a [satisfiability modulo theories](satisfiability%20modulo%20theories.md) \(SMT\) solver developed by [Microsoft](Microsoft.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-05-25,255,330!2026-06-18,274,330-->
 
 ## overview
 
-Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} at {@{[Microsoft Research Redmond](Microsoft%20Research%20Redmond.md#laboratories)}@} and is targeted at {@{solving problems that arise in [software verification](software%20verification.md) and [program analysis](program%20analysis.md)}@}. Z3 supports {@{arithmetic, fixed-size bit-vectors, extensional arrays, datatypes, uninterpreted functions, and [quantifiers](quantifier%20(logic).md)}@}. Its main applications are {@{[extended static checking](extended%20static%20checking.md), test case generation, and [predicate abstraction](predicate%20abstraction.md)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-09-17,62,310!2026-05-17,248,330!2025-09-17,63,310!2025-10-11,29,290!2026-05-31,259,330-->
+Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} at {@{[Microsoft Research Redmond](Microsoft%20Research%20Redmond.md#laboratories)}@} and is targeted at {@{solving problems that arise in [software verification](software%20verification.md) and [program analysis](program%20analysis.md)}@}. Z3 supports {@{arithmetic, fixed-size bit-vectors, extensional arrays, datatypes, uninterpreted functions, and [quantifiers](quantifier%20(logic).md)}@}. Its main applications are {@{[extended static checking](extended%20static%20checking.md), test case generation, and [predicate abstraction](predicate%20abstraction.md)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-06-16,272,330!2026-05-17,248,330!2026-06-17,273,330!2025-10-11,29,290!2026-05-31,259,330-->
 
 Z3 was {@{open sourced in the beginning of 2015}@}.<sup>[\[3\]](#^ref-3)</sup> The source code is licensed under {@{[MIT License](MIT%20License.md)}@} and hosted on {@{[GitHub](GitHub.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The solver can be built using {@{[Visual Studio](Visual%20Studio.md), a [makefile](makefile.md#makefile) or using [CMake](CMake.md)}@} and runs on {@{[Windows](Microsoft%20Windows.md), [FreeBSD](FreeBSD.md), [Linux](Linux.md), and [macOS](macOS.md)}@}. <!--SR:!2025-09-20,65,310!2026-04-24,228,330!2026-05-14,246,330!2026-06-11,268,330!2026-06-04,263,330-->
 
-{@{The default input format}@} for Z3 is {@{[SMTLIB2](smt2%20(file%20format).md#verification)}@}. It also has officially supported {@{[bindings](language%20binding.md) for several [programming languages](programming%20language.md)}@}, including {@{[C](C%20(programming%20language).md), [C++](C++.md), [Python](Python%20(programming%20language).md), [.NET](.NET.md), [Java](Java%20(programming%20language).md), and [OCaml](OCaml.md)}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-09-20,65,310!2025-09-17,63,310!2025-09-21,66,310!2026-06-08,266,330-->
+{@{The default input format}@} for Z3 is {@{[SMTLIB2](smt2%20(file%20format).md#verification)}@}. It also has officially supported {@{[bindings](language%20binding.md) for several [programming languages](programming%20language.md)}@}, including {@{[C](C%20(programming%20language).md), [C++](C++.md), [Python](Python%20(programming%20language).md), [.NET](.NET.md), [Java](Java%20(programming%20language).md), and [OCaml](OCaml.md)}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-09-20,65,310!2026-06-19,275,330!2025-09-21,66,310!2026-06-08,266,330-->
 
 ## examples
 
@@ -55,7 +55,7 @@ In this example {@{propositional logic assertions}@} are {@{checked using functi
 > {@{(declare-fun b () Bool)}@}
 > {@{(assert (not (= (not (and a b)) (or (not a)(not b)))))}@}
 > {@{(check-sat)}@}
-> </pre> <!--SR:!2025-09-17,62,310!2026-06-12,269,330!2026-06-13,270,330!2025-09-22,67,310-->
+> </pre> <!--SR:!2026-06-16,272,330!2026-06-12,269,330!2026-06-13,270,330!2025-09-22,67,310-->
 
 Result: \(annotaion: {@{`unsat`}@}\) <!--SR:!2025-09-19,64,310-->
 

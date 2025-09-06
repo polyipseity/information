@@ -162,7 +162,7 @@ tags:
 > 2. program B
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{1 is usually preferred over 2, demonstrating _risk aversion_ in gains.}@} <!--SR:!2025-09-21,70,331!2025-09-17,66,331-->
+> - explanation: {@{1 is usually preferred over 2, demonstrating _risk aversion_ in gains.}@} <!--SR:!2025-09-21,70,331!2026-07-20,306,351-->
 
 <!-- markdownlint MD028 -->
 

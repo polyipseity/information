@@ -183,7 +183,7 @@ There are {@{_n_ = 15 points in this data set}@}. Hand calculations would be sta
 
 > {@{![Calculating the parameters of a linear model by minimizing the squared error.](../../archives/Wikimedia%20Commons/Fitting%20a%20straight%20line%20to%20a%20data%20with%20outliers.png)}@}
 >
-> Calculating {@{the parameters of a linear model by minimizing the squared error}@}. <!--SR:!2025-09-17,169,310!2025-12-15,242,330-->
+> Calculating {@{the parameters of a linear model by minimizing the squared error}@}. <!--SR:!2027-09-12,725,330!2025-12-15,242,330-->
 
 In SLR, there is {@{an underlying assumption that only the dependent variable contains measurement error}@}; if {@{the explanatory variable is also measured with error}@}, then {@{simple regression is not appropriate for estimating the underlying relationship}@} because {@{it will be biased due to [regression dilution](regression%20dilution.md)}@}. <!--SR:!2026-11-17,487,310!2026-01-21,272,330!2026-08-29,425,310!2025-10-11,187,310-->
 

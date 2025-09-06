@@ -184,7 +184,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2025-09-21,16,307!2025-09-20,15,307!2025-10-20,34,304-->
 
-  - {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2025-09-23,18,324!2025-09-17,12,304!2025-09-20,15,307-->
+  - {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2025-09-23,18,324!2025-11-08,52,324!2025-09-20,15,307-->
 
 - [Functional analysis](functional%20analysis.md)
 

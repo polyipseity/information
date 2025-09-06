@@ -15,7 +15,7 @@ Substitute goods are {@{commodity which the consumer demanded to be used in plac
 
 Economic theory describes {@{two goods as being close substitutes if three conditions hold}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-11-24,290,330-->
 
-1. products have the same or similar performance ::@:: characteristics <!--SR:!2025-09-17,236,330!2025-11-02,272,330-->
+1. products have the same or similar performance ::@:: characteristics <!--SR:!2028-08-25,1073,350!2025-11-02,272,330-->
 2. products have the same or similar occasion ::@:: for use and <!--SR:!2025-10-10,255,330!2025-11-15,282,330-->
 3. products are sold in ::@:: the same geographic area <!--SR:!2025-09-22,239,330!2025-10-07,252,330-->
 
@@ -45,7 +45,7 @@ Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is 
 >
 > Figure 2: {@{Graphical example of substitute goods}@} <!--SR:!2025-11-27,292,330!2025-11-18,285,330-->
 
-{@{The relationship between [demand schedules](demand%20curve.md)}@} determines {@{whether goods are classified as substitutes or complements}@}. {@{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}@} shows {@{the relationship between two goods}@}, it captures {@{the responsiveness of the quantity demanded of one good to a change in price of another good}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-23,289,330!2025-09-27,244,330!2025-10-15,257,330!2025-09-17,235,330!2025-09-29,246,330-->
+{@{The relationship between [demand schedules](demand%20curve.md)}@} determines {@{whether goods are classified as substitutes or complements}@}. {@{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}@} shows {@{the relationship between two goods}@}, it captures {@{the responsiveness of the quantity demanded of one good to a change in price of another good}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-23,289,330!2025-09-27,244,330!2025-10-15,257,330!2028-08-21,1069,350!2025-09-29,246,330-->
 
 {@{Cross-Price Elasticity of Demand \(_E_<sub>x,y</sub>\)}@} is calculated with the following formula: <p> {@{_E_<sub>x,y</sub> = Percentage Change in Quantity Demanded for Good X __/__ Percentage Change in Price of Good Y}@} <!--SR:!2025-11-17,284,330!2027-08-23,759,330-->
 
@@ -105,7 +105,7 @@ The common misconception is that {@{[competitive equilibrium](competitive%20equi
 
 ### unit-demand goods
 
-{@{[Unit-demand goods](unit%20demand.md)}@} are {@{categories of goods from which consumer wants only a single item}@}. If {@{the consumer has two unit-demand items}@}, then {@{his utility is the _maximum_ of the utilities he gains from each of these items}@}. For example, consider {@{a consumer that wants a means of transportation, which may be either a car or a bicycle}@}. The consumer {@{prefers a car to a bicycle}@}. If {@{the consumer has both a car and a bicycle}@}, then {@{the consumer uses only the car}@}. {@{The economic theory of unit elastic demand}@} illustrates {@{the inverse relationship between price and quantity}@}.<sup>[\[15\]](#^ref-15)</sup> {@{Unit-demand goods}@} are {@{always substitutes}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-10-06,251,330!2025-11-28,293,330!2025-11-12,279,330!2027-04-28,684,330!2026-02-03,350,350!2025-10-24,264,330!2025-11-24,290,330!2025-11-29,294,330!2025-10-01,247,330!2025-09-22,240,330!2027-10-29,775,330!2025-09-17,236,330-->
+{@{[Unit-demand goods](unit%20demand.md)}@} are {@{categories of goods from which consumer wants only a single item}@}. If {@{the consumer has two unit-demand items}@}, then {@{his utility is the _maximum_ of the utilities he gains from each of these items}@}. For example, consider {@{a consumer that wants a means of transportation, which may be either a car or a bicycle}@}. The consumer {@{prefers a car to a bicycle}@}. If {@{the consumer has both a car and a bicycle}@}, then {@{the consumer uses only the car}@}. {@{The economic theory of unit elastic demand}@} illustrates {@{the inverse relationship between price and quantity}@}.<sup>[\[15\]](#^ref-15)</sup> {@{Unit-demand goods}@} are {@{always substitutes}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-10-06,251,330!2025-11-28,293,330!2025-11-12,279,330!2027-04-28,684,330!2026-02-03,350,350!2025-10-24,264,330!2025-11-24,290,330!2025-11-29,294,330!2025-10-01,247,330!2025-09-22,240,330!2027-10-29,775,330!2028-08-26,1074,350-->
 
 ## in perfect and monopolistic market structures
 

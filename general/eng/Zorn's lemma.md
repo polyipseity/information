@@ -89,7 +89,7 @@ Take {@{_I_ to be the union of all the ideals in _T_}@}. We wish to {@{show that
 
 1. ideal, nonemptyness ::@:: _I_ is a nonempty subset of _R_, <!--SR:!2026-01-20,308,350!2025-10-08,221,330-->
 2. ideal, closure ::@:: For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_, <!--SR:!2026-02-27,338,350!2026-01-24,312,350-->
-3. ideal, absorption ::@:: For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_. <!--SR:!2026-02-25,336,350!2025-09-17,191,318-->
+3. ideal, absorption ::@:: For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_. <!--SR:!2026-02-25,336,350!2028-01-09,844,338-->
 
 __\#1 - _I_ is a nonempty subset of _R_.__
 

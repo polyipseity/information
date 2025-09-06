@@ -338,7 +338,7 @@ The content is in teaching order. Extra information and corrections are included
       - Aristotle (384–322 BC) thinking ::@:: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force <!--SR:!2027-01-18,660,340!2026-11-11,612,340-->
     - Ancient Greek philosophy & science ::@:: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science. <!--SR:!2027-05-20,804,360!2025-11-10,389,380-->
 - [model](../../../../general/model.md)
-  - models of nature ::@:: models that explain the nature <!--SR:!2026-02-05,464,380!2025-09-17,344,380-->
+  - models of nature ::@:: models that explain the nature <!--SR:!2026-02-05,464,380!2030-08-11,1789,400-->
 - [geocentric model § Ancient Greece](../../../../general/geocentric%20model.md#Ancient%20Greece)
   - Greek geocentric model ::@:: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2025-09-19,193,300!2025-09-21,329,360-->
 - [questions § 2024-07-04](questions.md#2024-07-04)

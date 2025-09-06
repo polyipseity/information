@@ -40,5 +40,5 @@ tags:
       - (root) / operating / operating expenses / (many items on this level) ::@:: example: <br/> supplies expense <br/> wages expense <br/> rent expense <br/> insurance expense <br/> utilities expense <br/> repairs expense <br/> other operating expenses <!--SR:!2027-10-03,772,330!2026-08-21,446,310-->
       - (root) / operating / operating expenses / general and administrative expenses ::@:: example: <br/> training expense <br/> advertising expense <!--SR:!2025-12-02,276,330!2027-09-29,769,330-->
   - (root) / other items ::@:: example: <br/> interest revenue <br/> interest expense <br/> __income before income taxes__: sum above appropriately <!--SR:!2025-09-28,207,310!2026-07-06,425,310-->
-- financial metrics ::@:: Calculate earnings per share, at least round to 2 decimal places. Additionally add double (under)lines below it. <!--SR:!2025-11-26,271,330!2025-09-17,196,310-->
+- financial metrics ::@:: Calculate earnings per share, at least round to 2 decimal places. Additionally add double (under)lines below it. <!--SR:!2025-11-26,271,330!2028-01-12,847,330-->
   - earnings per share :: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$

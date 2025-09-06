@@ -52,7 +52,7 @@ Let $a, b \in \mathbb N_0$ and {@{$b \ne 0$. Prove that there exists two natural
 
 Prove that {@{any two consecutive elements of the Fibonacci sequence are relatively prime. The Fibonacci sequence is defined recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}. <!--SR:!2025-09-25,294,340-->
 
-- strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction. <!--SR:!2025-09-17,288,340!2027-09-19,836,340-->
+- strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction. <!--SR:!2029-05-28,1349,360!2027-09-19,836,340-->
 
 1. base case ::@:: $F_0 = 0, F_1 = 1, F_2 = 0 + 1 = 1, F_3 = 1 + 1 = 2, F_4 = 1 + 2 = 3$. $F_0$ and $F_1$, $F_1$ and $F_2$, and $F_2$ and $F_3$ are co-prime (in a weird way) because their common divisor only contains $1$. $F_3$ and $F_4$ are co-prime in a much more normal way, and we will start our induction here. <!--SR:!2029-03-19,1294,360!2025-11-03,325,340-->
 2. induction ::@:: Assume $F_n \ge 2$ and $F_{n + 1} \ge 2$ are co-prime. Consider $F_{n + 2} = F_n + F_{n + 1}$. If $F_{n + 1}$ is not co-prime with $F_{n + 2}$ then there is a common factor $a \ge 2$ that $a \mid F_{n + 1}, F_{n + 2}$. Then we can re-express $F_{n + 1} = ab, F_{n + 2} = ac$, where $b, c \in \mathbb N_0$, and $b < c$ because $F_{n + 1} < F_{n + 2}$. Now consider $F_n$: $$\begin{aligned} F_n + F_{n + 1} & = F_{n + 2} \\ F_n & = F_{n + 2} - F_{n + 1} \\ & = ac - ab \\ & = a(c - b) \end{aligned}$$. Since $a \ge 2$ and $c - b > 0$, that means $a \mid F_n$ also. But this would mean $F_n$ and $F_{n + 1}$ have a common divisor of $a \ge 2$ and thus are not co-prime. This creates a contradiction, and thus $F_{n + 1}$ and $F_{n + 2}$ must be co-prime if $F_n$ and $F_{n + 1}$ are co-prime. By induction, consecutive elements of the Fibonacci sequence are relatively prime. <!--SR:!2028-04-10,990,340!2025-11-08,329,340-->
@@ -94,7 +94,7 @@ Consider an 8×8 chessboard with a knight at the top right corner. Is it {@{poss
 Note that a knight can move {@{two squares vertically and one square horizontally, or two squares horizontally and one square vertically}@}. <!--SR:!2029-04-02,1295,350-->
 
 - strategy ::@:: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2028-02-27,972,340!2025-09-27,293,330-->
-- possibility of _closed_ knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2026-07-10,389,240!2025-09-17,38,200-->
+- possibility of _closed_ knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2026-07-10,389,240!2025-12-02,76,200-->
 - possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2026-04-07,317,260!2025-09-25,16,130-->
 
 1. 8×8 chessboard ::@:: It is possible. Prove by constructing such a closed path... <!--SR:!2025-11-07,328,340!2028-06-18,1044,340-->

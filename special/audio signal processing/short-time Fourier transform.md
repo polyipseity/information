@@ -27,7 +27,7 @@ We can characterize a window function using {@{its Fourier transform}@}. Two mai
 
 There are {@{many kinds of windows}@}. Some common ones and their two main metrics are: <!--SR:!2026-05-27,255,330-->
 
-- rectangular window ::@:: about 2 bins; about −13.3&nbsp;dB <!--SR:!2025-09-17,61,310!2026-05-03,234,330-->
+- rectangular window ::@:: about 2 bins; about −13.3&nbsp;dB <!--SR:!2026-06-10,266,330!2026-05-03,234,330-->
 - Hanning window ::@:: about 4 bins; about −31.5&nbsp;dB <!--SR:!2026-05-08,239,330!2026-04-30,232,330-->
 - Hamming window ::@:: about 4 bins; about −42.7&nbsp;dB <!--SR:!2026-03-12,180,310!2026-05-15,245,330-->
 - Blackman window ::@:: about 6 bins; about −58&nbsp;dB <!--SR:!2026-05-25,253,330!2026-05-22,251,330-->

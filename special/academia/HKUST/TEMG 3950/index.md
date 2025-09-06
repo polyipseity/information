@@ -160,7 +160,7 @@ The content is in teaching order.
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::@:: deduction, evaluation, inference, interpretation <!--SR:!2029-01-28,1337,381!2028-12-20,1305,381-->
   - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2029-08-14,1506,381!2029-08-27,1496,381-->
-  - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
+  - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2030-06-20,1737,381-->
   - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2029-12-04,1578,381!2029-10-20,1540,381-->
   - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2029-09-29,1519,381-->
 - critical thinking pop quiz
@@ -233,7 +233,7 @@ The content is in teaching order.
   - facts table ::@:: what, when, where, impact <!--SR:!2025-11-13,420,381!2027-05-16,828,361-->
   - solutions table ::@:: no., cause, solution <br/> optional: time, persons responsible, budget <!--SR:!2026-11-22,638,341!2028-10-13,1159,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::@:: facts, key question (only 1), analysis <!--SR:!2030-02-10,1633,381!2026-02-04,484,381-->
-  - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2025-09-17,349,361-->
+  - interview note § layout ::@:: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2026-02-16,430,321!2030-06-12,1729,381-->
   - interview note § analysis ::@:: use a MECE framework suitable for the case in the interview <!--SR:!2025-12-24,450,381!2025-12-06,439,381-->
   - interview note § facts ::@:: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2027-11-06,967,361!2030-04-15,1683,381-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)

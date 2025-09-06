@@ -221,7 +221,7 @@ return (
 - Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq):@:0.151 <!--SR:!2025-11-15,96,150-->
 - HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.16 <!--SR:!2025-09-28,86,130-->
 - SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.17 <!--SR:!2026-03-29,430,210-->
-- Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2025-09-17,96,130-->
+- Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2026-01-23,128,130-->
 - O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq):@:0.401 <!--SR:!2026-09-06,703,210-->
 - SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l):@:0.5 <!--SR:!2026-02-20,186,150-->
 - CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l):@:0.52 <!--SR:!2025-10-29,84,130-->

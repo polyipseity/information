@@ -294,7 +294,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-02-17,261,330!2025-09-21,137,310-->
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-03-18,290,330!2026-03-17,289,330-->
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-10-24,170,310!2026-05-16,334,350-->
-    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2025-09-17,133,310!2026-01-28,241,330-->
+    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2027-04-11,571,330!2026-01-28,241,330-->
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2026-02-25,269,330!2026-01-28,241,330-->
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2026-07-20,363,310!2025-12-08,205,330-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2026-05-19,337,350!2026-05-31,349,350-->
