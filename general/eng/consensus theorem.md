@@ -31,7 +31,7 @@ In {@{[Boolean algebra](Boolean%20algebra%20(logic).md)}@}, {@{the __consensus t
 
 ## proof
 
-(annotation: proof, starting from $xy\vee {\bar {x} }z\vee yz$) ::@:: $${\begin{aligned}xy\vee {\bar {x} }z\vee yz&=xy\vee {\bar {x} }z\vee (x\vee {\bar {x} })yz\\&=xy\vee {\bar {x} }z\vee xyz\vee {\bar {x} }yz\\&=(xy\vee xyz)\vee ({\bar {x} }z\vee {\bar {x} }yz)\\&=xy(1\vee z)\vee {\bar {x} }z(1\vee y)\\&=xy\vee {\bar {x} }z\end{aligned} }$$ <!--SR:!2026-03-12,294,330!2025-09-16,154,310-->
+(annotation: proof, starting from $xy\vee {\bar {x} }z\vee yz$) ::@:: $${\begin{aligned}xy\vee {\bar {x} }z\vee yz&=xy\vee {\bar {x} }z\vee (x\vee {\bar {x} })yz\\&=xy\vee {\bar {x} }z\vee xyz\vee {\bar {x} }yz\\&=(xy\vee xyz)\vee ({\bar {x} }z\vee {\bar {x} }yz)\\&=xy(1\vee z)\vee {\bar {x} }z(1\vee y)\\&=xy\vee {\bar {x} }z\end{aligned} }$$ <!--SR:!2026-03-12,294,330!2027-01-09,480,310-->
 
 ## consensus
 

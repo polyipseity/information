@@ -54,7 +54,7 @@ x86 has {@{two main syntax branches: _Intel syntax_ and _AT&T syntax_}@}. We wil
 
 ### instructions
 
-Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!--SR:!2025-09-16,295,357!2026-02-08,414,365-->
+Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!--SR:!2029-09-02,1447,377!2026-02-08,414,365-->
 
 An instruction is specified by {@{the operation name and a comma-separated list of operands if any}@}. For most cases, {@{the operands need to be the same size}@}. Operands can be {@{_constants_, _registers_, or _memory references_}@}. The first two are trivial, but the last one will be explained below. <!--SR:!2027-11-12,894,357!2028-08-14,1134,365!2027-10-26,877,343-->
 

@@ -197,7 +197,7 @@ In SLR, there is {@{an underlying assumption that only the dependent variable co
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Edit-clear.svg) | The present page holds the title of a __[primary topic](https://en.wikipedia.org/wiki/Wikipedia:Disambiguation#Is%20there%20a%20primary%20topic%3F)__, and __an article needs to be written__ about it. It is believed to qualify as a __[broad-concept article](https://en.wikipedia.org/wiki/Wikipedia:Broad-concept%20article)__. It may be written directly at this page or [drafted](https://en.wikipedia.org/wiki/Wikipedia:Drafts) elsewhere and then moved to _this_ title. Related titles should be described in __Simple linear regression__, while unrelated titles should be moved to __[Simple linear regression \(disambiguation\)](simple%20linear%20regression%20(disambiguation).md)__. _\(May 2019\)_ | ![](../../archives/Wikimedia%20Commons/Merge-arrow.svg) | -->
 
-{@{[Line fitting](line%20fitting.md)}@} is {@{the process of constructing a [straight line](straight%20line.md) that has the best fit to a series of data points}@}. <!--SR:!2026-02-17,293,330!2025-09-16,168,310-->
+{@{[Line fitting](line%20fitting.md)}@} is {@{the process of constructing a [straight line](straight%20line.md) that has the best fit to a series of data points}@}. <!--SR:!2026-02-17,293,330!2027-09-02,716,330-->
 
 Several methods exist, considering:
 

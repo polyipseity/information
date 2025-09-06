@@ -102,7 +102,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2027-05-02,732,330!2027-04-15,721,330-->
 - merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2026-12-04,598,310!2025-10-23,290,290-->
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2027-08-29,826,330!2026-04-14,425,310-->
-- [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2027-01-13,652,330!2025-09-16,285,330-->
+- [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2027-01-13,652,330!2029-04-10,1302,350-->
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
@@ -126,7 +126,7 @@ This statement is {@{additional to the three main statements described above}@}.
 
 ### the stable measuring assumption
 
-One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-12-29,221,270!2026-09-10,426,389-->
+One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-04-07,1299,350!2025-12-29,221,270!2026-09-10,426,389-->
 
 This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2027-11-11,884,330!2027-12-29,921,330!2027-05-22,627,290!2026-07-29,433,386!2025-10-17,196,346-->
 

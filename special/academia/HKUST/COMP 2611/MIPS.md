@@ -172,7 +172,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 - set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2025-12-29,211,335!2026-06-12,353,355-->
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2026-05-15,325,355!2026-05-11,321,355-->
-- set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2025-09-16,132,310!2026-05-15,325,355-->
+- set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-10-30,409,310!2026-05-15,325,355-->
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!2026-06-08,349,350!2026-05-10,320,350-->
 
 ## floating-point instructions

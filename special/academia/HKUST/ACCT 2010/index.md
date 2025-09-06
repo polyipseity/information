@@ -484,7 +484,7 @@ The content is in teaching order.
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2026-07-23,477,403!2026-01-12,319,383-->
     - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!2026-03-03,356,383!2027-03-06,622,356-->
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2026-03-30,377,383!2026-04-13,371,383-->
-  - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2025-09-16,217,363!2028-07-29,1055,383-->
+  - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2028-08-31,1080,383!2028-07-29,1055,383-->
     - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2026-04-08,385,383!2026-01-13,314,383-->
     - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2026-03-20,352,383!2025-11-01,239,363-->
 

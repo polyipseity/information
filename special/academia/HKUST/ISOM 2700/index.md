@@ -640,7 +640,7 @@ The content is in teaching order.
   - mean absolute error / measure ::@:: It accounts for both overshooting and undershooting of the observations. It measures the average deviation from true value. <!--SR:!2025-10-20,147,429!2025-10-24,151,431-->
 - tracking signal
   - tracking signal / measure ::@:: It accounts for _cumulative_ errors over time. It shows how consistently the observations overshoots or undershoots the predictions. A positive tracking signal means the observations mostly overshoot the predictions, and vice versa for negative. <!--SR:!2025-10-19,146,431!2026-10-06,431,409-->
-    - tracking signal / measure / warn ::@:: It can warn when there are unexpected deviations from the prediction, similar to that in _control charts_. In general, $$\lvert TS \rvert > 3.75$$ implies the prediction is poor. <!--SR:!2025-10-29,156,429!2025-09-16,113,411-->
+    - tracking signal / measure / warn ::@:: It can warn when there are unexpected deviations from the prediction, similar to that in _control charts_. In general, $$\lvert TS \rvert > 3.75$$ implies the prediction is poor. <!--SR:!2025-10-29,156,429!2027-06-11,633,431-->
   - tracking signal / vs. mean absolute error ::@:: They are different accuracy measures. Better performance in one measure does _not_ imply better performance in the other. <!--SR:!2025-10-24,151,429!2025-10-28,155,429-->
 
 ## week 9 lecture

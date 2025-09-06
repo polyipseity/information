@@ -89,7 +89,7 @@ These numbers may be {@{computed by the [recurrence relation](recurrence%20relat
 
 {@{A _[multitree](multitree.md)_ \(also called a _strongly unambiguous graph_ or a _mangrove_\)}@} is {@{a DAG in which there is at most one directed path between any two vertices}@}. Equivalently, it is {@{a DAG in which the subgraph reachable from any vertex induces an [undirected tree](tree%20(graph%20theory).md)}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-04-17,403,370!2026-02-07,344,358!2025-10-24,256,350-->
 
-{@{A _[polytree](polytree.md)_ \(also called a _directed tree_\)}@} is {@{a multitree formed by orienting the edges of an undirected tree}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-12-13,297,350!2025-09-16,209,330-->
+{@{A _[polytree](polytree.md)_ \(also called a _directed tree_\)}@} is {@{a multitree formed by orienting the edges of an undirected tree}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-12-13,297,350!2028-04-24,951,350-->
 
 {@{An _[arborescence](arborescence%20(graph%20theory).md)_}@} is {@{a polytree formed by [orienting](orientation%20(graph%20theory).md) the edges of an undirected tree away from a particular vertex}@}, called {@{the _root_ of the arborescence}@}. <!--SR:!2026-10-07,503,327!2025-10-20,256,350!2026-04-20,405,370-->
 

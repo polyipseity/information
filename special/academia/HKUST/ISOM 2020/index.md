@@ -229,7 +229,7 @@ The content is in teaching order.
 - week 6 lecture materials
 - week 6 practice question set: 10/10, ungraded
   - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!2026-06-12,483,386!2026-06-13,484,386-->
-  - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-09-16,245,346!2026-06-27,496,386-->
+  - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2028-11-23,1164,366!2026-06-27,496,386-->
   - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2026-06-22,492,386!2026-06-14,485,386-->
 
 ## week 6 lab

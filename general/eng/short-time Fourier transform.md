@@ -29,9 +29,9 @@ Simply, in {@{the continuous-time case}@}, the function to be transformed is {@{
 
 - See also: ::@:: [Modified discrete cosine transform](modified%20discrete%20cosine%20transform.md) <!--SR:!2026-04-27,232,330!2026-04-25,230,330-->
 
-In {@{the discrete time case}@}, {@{the data to be transformed}@} could be {@{broken up into chunks or frames}@} \(which usually {@{overlap each other, to reduce artifacts at the boundary}@}\). Each chunk is {@{[Fourier transformed](Fourier%20transform.md)}@}, and {@{the complex result is added to a matrix}@}, which records {@{magnitude and phase for each point in time and frequency}@}. This can be expressed as: {@{$$\mathbf {STFT} \{x[n]\}(m,\omega )\equiv X(m,\omega )=\sum _{n=0}^{N-1}x[n]w[n-m]e^{-i\omega n}$$}@} likewise, with {@{signal $x[n]$ and window $w[n]$}@}. In this case, {@{_m_ is discrete and ω is continuous}@}, but in {@{most typical applications}@} the STFT is {@{performed on a computer using the [fast Fourier transform](fast%20Fourier%20transform.md)}@}, so both variables are {@{discrete and [quantized](quantization%20(signal%20processing).md)}@}. <!--SR:!2025-10-01,75,329!2026-05-20,251,330!2025-09-26,71,329!2025-10-02,76,329!2025-09-30,74,329!2025-10-02,76,329!2025-09-29,73,329!2025-09-17,63,310!2026-05-07,241,330!2026-06-10,268,330!2025-09-18,63,310!2025-09-28,72,329!2025-09-16,61,310-->
+In {@{the discrete time case}@}, {@{the data to be transformed}@} could be {@{broken up into chunks or frames}@} \(which usually {@{overlap each other, to reduce artifacts at the boundary}@}\). Each chunk is {@{[Fourier transformed](Fourier%20transform.md)}@}, and {@{the complex result is added to a matrix}@}, which records {@{magnitude and phase for each point in time and frequency}@}. This can be expressed as: {@{$$\mathbf {STFT} \{x[n]\}(m,\omega )\equiv X(m,\omega )=\sum _{n=0}^{N-1}x[n]w[n-m]e^{-i\omega n}$$}@} likewise, with {@{signal $x[n]$ and window $w[n]$}@}. In this case, {@{_m_ is discrete and ω is continuous}@}, but in {@{most typical applications}@} the STFT is {@{performed on a computer using the [fast Fourier transform](fast%20Fourier%20transform.md)}@}, so both variables are {@{discrete and [quantized](quantization%20(signal%20processing).md)}@}. <!--SR:!2025-10-01,75,329!2026-05-20,251,330!2025-09-26,71,329!2025-10-02,76,329!2025-09-30,74,329!2025-10-02,76,329!2025-09-29,73,329!2025-09-17,63,310!2026-05-07,241,330!2026-06-10,268,330!2025-09-18,63,310!2025-09-28,72,329!2026-06-11,268,330-->
 
-{@{The [magnitude](magnitude%20(mathematics).md) squared of the STFT}@} yields {@{the [spectrogram](spectrogram.md) representation of the power spectral density of the function}@}: {@{$$\operatorname {spectrogram} \{x(t)\}(\tau ,\omega )\equiv |X(\tau ,\omega )|^{2}$$}@} <!--SR:!2026-05-02,237,330!2025-10-02,76,329!2025-09-16,61,310-->
+{@{The [magnitude](magnitude%20(mathematics).md) squared of the STFT}@} yields {@{the [spectrogram](spectrogram.md) representation of the power spectral density of the function}@}: {@{$$\operatorname {spectrogram} \{x(t)\}(\tau ,\omega )\equiv |X(\tau ,\omega )|^{2}$$}@} <!--SR:!2026-05-02,237,330!2025-10-02,76,329!2026-06-10,267,330-->
 
 See also {@{the [modified discrete cosine transform](modified%20discrete%20cosine%20transform.md) \(MDCT\)}@}, which is also {@{a Fourier-related transform that uses overlapping windows}@}. <!--SR:!2025-09-27,71,329!2025-10-02,76,329-->
 
@@ -41,14 +41,14 @@ If {@{only a small number of ω are desired}@}, or if {@{the STFT is desired to 
 
 ## inverse STFT
 
-The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!2025-09-21,66,310!2025-10-02,76,329!2025-10-02,76,329!2025-09-29,73,329!2025-09-18,64,329!2025-09-16,62,310!2025-10-02,76,329-->
+The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!2025-09-21,66,310!2025-10-02,76,329!2025-10-02,76,329!2025-09-29,73,329!2025-09-18,64,329!2026-06-15,272,330!2025-10-02,76,329-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### continuous-time STFT
 
 Given {@{the width and definition of the window function _w_\(_t_\)}@}, we initially {@{require the area of the window function to be scaled}@} so that {@{$$\int _{-\infty }^{\infty }w(\tau )\,d\tau =1.$$}@} It easily follows that {@{$$\int _{-\infty }^{\infty }w(t-\tau )\,d\tau =1\quad \forall \ t$$}@} and {@{$$x(t)=x(t)\int _{-\infty }^{\infty }w(t-\tau )\,d\tau =\int _{-\infty }^{\infty }x(t)w(t-\tau )\,d\tau .$$}@} <!--SR:!2026-06-09,267,330!2025-09-17,62,310!2025-09-18,63,310!2025-09-28,72,329!2025-09-30,74,329-->
 
-{@{The continuous Fourier transform}@} is {@{$$X(\omega )=\int _{-\infty }^{\infty }x(t)e^{-i\omega t}\,dt.$$}@} {@{Substituting _x_\(_t_\)}@} from above: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,d\tau \right]\,e^{-i\omega t}\,dt \\ & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,d\tau \,dt. \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2025-09-21,66,310!2025-09-16,62,310!2025-10-01,75,329-->
+{@{The continuous Fourier transform}@} is {@{$$X(\omega )=\int _{-\infty }^{\infty }x(t)e^{-i\omega t}\,dt.$$}@} {@{Substituting _x_\(_t_\)}@} from above: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,d\tau \right]\,e^{-i\omega t}\,dt \\ & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,d\tau \,dt. \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2025-09-21,66,310!2026-06-14,271,330!2025-10-01,75,329-->
 
 Swapping {@{order of integration}@}: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,dt\,d\tau \\ & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,dt\right]\,d\tau \\ & =\int _{-\infty }^{\infty }X(\tau ,\omega )\,d\tau . \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2025-09-28,72,329-->
 
@@ -87,7 +87,7 @@ One can consider {@{the STFT for varying window size}@} as {@{a two-dimensional 
 When the original function is: {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} We can have {@{a simple example}@}: <!--SR:!2025-09-30,74,329!2025-09-30,74,329-->
 
 - \(annotation: boxcar window function: within support\) ::@:: w\(t\) = 1 for \|t\| smaller than or equal B <!--SR:!2025-09-21,67,329!2025-09-28,72,329-->
-- \(annotation: boxcar window function: outside support\) ::@:: w\(t\) = 0 otherwise <!--SR:!2025-09-16,61,310!2025-10-02,76,329-->
+- \(annotation: boxcar window function: outside support\) ::@:: w\(t\) = 0 otherwise <!--SR:!2026-06-07,264,330!2025-10-02,76,329-->
 - \(annotation: boxcar window function: parameters\) ::@:: B = window <!--SR:!2026-05-05,239,330!2025-09-21,67,329-->
 
 Now {@{the original function of the Short-time Fourier transform}@} can be changed as {@{$$X(t,f)=\int _{t-B}^{t+B}x(\tau )e^{-j2\pi f\tau }d\tau$$}@} <!--SR:!2025-10-02,76,329!2025-09-26,71,329-->
@@ -115,7 +115,7 @@ It can also be explained with reference to {@{the sampling and [Nyquist frequenc
 
 Take {@{a window of _N_ samples from an arbitrary real-valued signal at sampling rate _f_<sub>s</sub>}@}. Taking {@{the Fourier transform}@} produces {@{_N_ complex coefficients}@}. Of these coefficients {@{only half are useful}@} \(the last _N/2_ being {@{the [complex conjugate](complex%20conjugate.md) of the first _N/2_ in reverse order}@}, as {@{this is a real valued signal}@}\). <!--SR:!2025-09-25,70,329!2026-04-26,231,330!2026-05-13,246,330!2025-09-28,72,329!2025-09-29,73,329!2025-09-29,73,329-->
 
-{@{These _N/2_ coefficients}@} represent {@{the frequencies 0 to _f_<sub>s</sub>/2 \(Nyquist\)}@} and {@{two consecutive coefficients}@} are spaced apart by {@{_f_<sub>s</sub>/<!-- markdown separator -->_N_ Hz}@}. <!--SR:!2025-09-30,74,329!2025-09-16,61,310!2025-09-30,74,329!2025-09-21,67,329-->
+{@{These _N/2_ coefficients}@} represent {@{the frequencies 0 to _f_<sub>s</sub>/2 \(Nyquist\)}@} and {@{two consecutive coefficients}@} are spaced apart by {@{_f_<sub>s</sub>/<!-- markdown separator -->_N_ Hz}@}. <!--SR:!2025-09-30,74,329!2026-06-09,266,330!2025-09-30,74,329!2025-09-21,67,329-->
 
 To {@{increase the frequency resolution of the window}@} {@{the frequency spacing of the coefficients needs to be reduced}@}. There are {@{only two variables}@}, but {@{decreasing _f_<sub>s</sub> \(and keeping _N_ constant\)}@} will cause {@{the window size to increase}@} — since {@{there are now fewer samples per unit time}@}. The other alternative is {@{to increase _N_}@}, but this again causes {@{the window size to increase}@}. So {@{any attempt to increase the frequency resolution}@} causes {@{a larger window size}@} and therefore {@{a reduction in time resolution—and vice versa}@}. <!--SR:!2025-09-29,73,329!2025-10-01,75,329!2025-09-28,72,329!2025-09-30,74,329!2026-04-28,233,330!2025-09-28,72,329!2025-09-28,72,329!2025-10-01,75,329!2025-09-19,65,329!2026-05-18,250,330!2026-06-08,266,330-->
 
@@ -141,7 +141,7 @@ STFTs as well as {@{standard Fourier transforms and other tools}@} are frequentl
 
 Original function {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} \(annotation: note the different notations used: {@{the $t$ and $\tau$ have swapped places compared to that used in previous definitions}@}\) <!--SR:!2025-10-01,75,329!2026-05-24,255,330-->
 
-Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$ <br/> $$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2025-09-16,62,310!2025-10-02,76,329-->
+Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$ <br/> $$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-06-13,270,330!2025-10-02,76,329-->
 
 Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2025-09-28,72,329!2025-11-10,89,270-->
 
@@ -155,7 +155,7 @@ a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta 
 
 #### constraint
 
-- a. \(annotation: FFT size\) <!-- flashcard ID: 0e8fbcf9-7fc2-461e-8620-d7db321c6dbc -->::@:: $\Delta _{t}\Delta _{f}={\tfrac {1}{N} }$, where $N$ is an integer <!--SR:!2026-05-13,246,330!2025-09-16,62,310-->
+- a. \(annotation: FFT size\) <!-- flashcard ID: 0e8fbcf9-7fc2-461e-8620-d7db321c6dbc -->::@:: $\Delta _{t}\Delta _{f}={\tfrac {1}{N} }$, where $N$ is an integer <!--SR:!2026-05-13,246,330!2026-06-12,269,330-->
 - b. \(annotation: non-overlapping\) <!-- flashcard ID: 79e97c91-2df8-4cc5-b134-2683023f6642 -->::@:: $N\geq 2Q+1$ <!--SR:!2026-05-19,251,330!2025-09-29,73,329-->
 - c. Nyquist criterion \(avoiding the aliasing effect\): <p> <!-- flashcard ID: dc84b487-1291-4d3f-8168-226cdf907ce4 -->::@:: &emsp; $\Delta _{t}<{\frac {1}{2\Omega } }$, $\Omega$ is the bandwidth of $x(\tau )w(t-\tau )$ \(annotation: The max frequency is $\Omega$; we need the sampling rate to be twice of it, so sampling duration $\Delta t$ should be less than $1 / 2\Omega$.\) <!--SR:!2025-09-28,72,329!2025-10-02,76,329-->
 

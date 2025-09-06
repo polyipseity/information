@@ -21,7 +21,7 @@ The __alkaline fuel cell__ (__AFC__) is {@{a [fuel cell](fuel%20cell.md) that co
 
 Energy is produced through {@{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md) in hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md) with a temperature in between ambient temperature and 90 °C}@}: <!--SR:!2026-05-30,707,252-->
 
-> - [anode](anode.md) ::@:: H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup> <!--SR:!2028-02-09,1166,290!2025-09-16,349,280-->
+> - [anode](anode.md) ::@:: H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup> <!--SR:!2028-02-09,1166,290!2028-05-24,981,280-->
 > - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq) <!--SR:!2027-05-09,847,292!2026-09-07,629,320-->
 > - overall ::@:: 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) <!--SR:!2028-05-08,1454,352!2030-10-09,1911,380-->
 

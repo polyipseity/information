@@ -206,7 +206,7 @@ _Induction step_ ::@:: assume as induction hypothesis that within any set of $n$
 
 ## formalization
 
-In {@{__[second-order logic](second-order%20logic.md)__}@}, one can {@{write down the "[axiom](axiom.md) of induction" as follows}@}: {@{$$\forall P\,{\Bigl (}P(0)\land \forall k{\bigl (}P(k)\to P(k+1){\bigr )}\to \forall n\,{\bigl (}P(n){\bigr )}{\Bigr )},$$}@} where {@{_P_(·) is a variable for predicates involving one natural number and _k_ and _n_ are variables for [natural numbers](natural%20number.md)}@}. <!--SR:!2025-09-16,262,330!2028-10-05,1132,350!2028-11-22,1169,350!2028-10-30,1151,350-->
+In {@{__[second-order logic](second-order%20logic.md)__}@}, one can {@{write down the "[axiom](axiom.md) of induction" as follows}@}: {@{$$\forall P\,{\Bigl (}P(0)\land \forall k{\bigl (}P(k)\to P(k+1){\bigr )}\to \forall n\,{\bigl (}P(n){\bigr )}{\Bigr )},$$}@} where {@{_P_(·) is a variable for predicates involving one natural number and _k_ and _n_ are variables for [natural numbers](natural%20number.md)}@}. <!--SR:!2028-12-21,1192,350!2028-10-05,1132,350!2028-11-22,1169,350!2028-10-30,1151,350-->
 
 In words, {@{the base case _P_(0) and the induction step (namely, that the induction hypothesis _P_(_k_) implies _P_(_k_ + 1)) together}@} imply that {@{_P_(_n_) for any natural number _n_}@}. The axiom of induction {@{asserts the validity of inferring that _P_(_n_) holds for any natural number _n_ from the base case and the induction step}@}. <!--SR:!2027-08-09,775,330!2028-10-03,1129,350!2028-09-16,1115,350-->
 
@@ -237,7 +237,7 @@ Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:
 2. when _n_ has a direct predecessor, ::@:: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2025-12-11,288,290!2028-10-22,1146,350-->
 3. when _n_ has no direct predecessor, ::@:: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2028-09-10,1110,350!2028-10-12,1137,350-->
 
-Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2025-09-16,262,330!2027-12-02,823,330!2028-09-13,1113,350-->
+Strictly speaking, it is {@{not necessary in transfinite induction to prove a base case}@}, because {@{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}@}. It is vacuously true precisely because {@{there are no values of _n_ < _m_ that could serve as counterexamples}@}. So the special cases are special cases of the general case. <!--SR:!2028-12-20,1191,350!2027-12-02,823,330!2028-09-13,1113,350-->
 
 ## relationship to the well-ordering principle
 
@@ -245,7 +245,7 @@ The principle of mathematical induction is usually stated as {@{an [axiom](axiom
 
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2028-10-20,1144,350!2028-08-31,1100,350-->
 - For any natural number _n_, _n_ + 1 is ::@:: greater than _n_. <!--SR:!2028-10-25,1148,350!2028-11-07,1156,350-->
-- For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2025-09-16,262,330-->
+- For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1. <!--SR:!2028-09-03,1103,350!2028-12-25,1196,350-->
 - No natural number is ::@:: less than zero. <!--SR:!2028-10-27,1149,350!2028-10-19,1142,350-->
 
 It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}. <!--SR:!2027-02-21,656,330!2028-10-20,1145,350-->
@@ -254,7 +254,7 @@ __Proof.__ ::@:: Suppose there exists a [non-empty](empty%20set.md) set, _S_, of
 
 On the other hand, the set {@{$\{(0,n):n\in \mathbb {N} \}\cup \{(1,n):n\in \mathbb {N} \}$}@}<!--, shown in the picture,--> is {@{well-ordered<sup>[\[24\]](#^ref-24)</sup><sup>[\[35\]](#^ref-35)</sup> by the [lexicographic order](lexicographic%20order.md)}@}. Moreover, {@{except for the induction axiom, it satisfies all Peano axioms}@}, where {@{Peano's constant 0 is interpreted as the pair (0, 0), and Peano's _successor_ function is defined on pairs by succ(_x_, _n_) = (_x_, _n_ + 1) for all $x\in \{0,1\}$ and $n\in \mathbb {N}$}@}. As an example for the violation of the induction axiom, define {@{the predicate _P_(_x_, _n_) as (_x_, _n_) = (0, 0) or (_x_, _n_) = succ(_y_, _m_) for some $y\in \{0,1\}$ and $m\in \mathbb {N}$}@}. Then {@{the base case _P_(0, 0) is trivially true, and so is the induction step: if _P_(_x_, _n_), then _P_(succ(_x_, _n_))}@}. However, _P_ is {@{not true for all pairs in the set, since _P_(1,0) is false}@}. <!--SR:!2028-09-20,1118,350!2028-11-15,1165,350!2025-09-17,263,330!2028-12-15,1188,350!2027-08-06,772,330!2028-10-13,1138,350!2027-08-15,780,330-->
 
-Peano's axioms with the induction principle {@{uniquely model the natural numbers}@}. Replacing the induction principle with the well-ordering principle {@{allows for more exotic models that fulfill all the axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2028-11-11,1162,350!2025-09-16,262,330-->
+Peano's axioms with the induction principle {@{uniquely model the natural numbers}@}. Replacing the induction principle with the well-ordering principle {@{allows for more exotic models that fulfill all the axioms}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2028-11-11,1162,350!2028-12-22,1193,350-->
 
 It is {@{mistakenly printed in several books<sup>[\[24\]](#^ref-24)</sup> and sources}@} that {@{the well-ordering principle is equivalent to the induction axiom}@}. In {@{the context of the other Peano axioms, this is not the case}@}, but in {@{the context of other axioms, they are equivalent}@};<sup>[\[24\]](#^ref-24)</sup> specifically, the well-ordering principle implies the induction axiom in {@{the context of the first two above listed axioms and: <p> Every natural number is either 0 or _n_ + 1 for some natural number _n_}@}. <!--SR:!2028-10-26,1149,350!2028-11-04,1156,350!2028-12-03,1178,350!2028-10-29,1151,350!2027-12-09,829,330-->
 

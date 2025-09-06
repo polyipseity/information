@@ -683,7 +683,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{1}@} <!--SR:!2025-09-16,131,409-->
+> - solution: {@{1}@} <!--SR:!2027-09-20,734,429-->
 
 ## week 7 lecture 2
 
@@ -770,7 +770,7 @@ tags:
 > 3. the same yields as
 >
 > - solution: {@{2}@}
-> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@} <!--SR:!2027-08-21,708,429!2025-09-16,131,409-->
+> - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@} <!--SR:!2027-08-21,708,429!2027-09-19,733,429-->
 
 <!-- markdownlint MD028 -->
 
