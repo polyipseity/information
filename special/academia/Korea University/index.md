@@ -1,5 +1,6 @@
 ---
 aliases:
+  - Korea University
   - Korea University index
 tags:
   - flashcard/active/special/academia/Korea_University

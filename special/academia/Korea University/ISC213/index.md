@@ -867,4 +867,4 @@ The content is in teaching order.
 ### total
 
 - grades: 89.17/100
-  - statistics: ?
+  - statistics: \(none\)
