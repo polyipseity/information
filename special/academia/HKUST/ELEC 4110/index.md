@@ -1,0 +1,112 @@
+---
+aliases:
+  - Digital Communications and Wireless Systems
+  - Digital Communications and Wireless Systems index
+  - ELEC 4110
+  - ELEC 4110 index
+  - ELEC4110
+  - ELEC4110 index
+  - HKUST ELEC 4110
+  - HKUST ELEC 4110 index
+  - HKUST ELEC4110
+  - HKUST ELEC4110 index
+tags:
+  - flashcard/active/special/academia/HKUST/ELEC_4110
+  - function/index
+  - language/in/English
+---
+
+# index
+
+- HKUST ELEC 4110
+- name: Digital Communications and Wireless Systems
+
+The content is in teaching order.
+
+- grading
+  - scheme
+    - homework ×3: 15%
+    - midterm examination: 25%
+    - project: 10%
+    - final examination: 50%
+
+## children
+
+- [assignments](assignments/index.md)
+- [questions](questions.md)
+
+## week 1 lecture
+
+- datetime: 2025-09-02T09:00:00+08:00/2025-09-02T10:20:00+08:00, PT1H20M
+- topic: logistics; overview of digital communications
+- ELEC 4110
+  - ELEC 4110 / instructor
+  - ELEC 4110 / introduction ::@:: _Digital communications_ is one of the technologies enabling the _Information Age_.
+  - ELEC 4110 / objectives ::@:: What is information? What is signal? How to represent them? How to communicate them wirelessly? What are cellular networks? How have they evolved?
+  - ELEC 4110 / grading
+  - ELEC 4110 / homework
+  - ELEC 4110 / textbook
+  - ELEC 4110 / materials ::@:: See lecture notes on Canvas. They are posted at least 1 lecture in advanced. There may be hand-written comments on the whiteboard as well.
+  - ELEC 4110 / help
+  - ELEC 4110 / prerequisites ::@:: linear system analysis \(Fourier transform, linear systems\), noise, stochastic processes, signal analysis \(sampling, signal models, signals\)
+  - ELEC 4110 / mathematics ::@:: Mathematics is used to _precisely_ model signals for communications. However, the mathematics itself is not the final objective of this course. Instead, they are how and why communications work in practice. <p> In short, mathematics is the language to make things _precise_. But we need to _comprehend_ beyond the language of mathematics.
+- [communication](../../../../general/communication.md) ::@:: It is commonly defined as the transmission of information. Its precise definition is disputed and there are disagreements about whether unintentional or failed transmissions are included and whether communication not only transmits meaning but also creates it.
+  - communication / examples ::@:: molecular communication, short-range communication, telecommunication, etc.
+  - communication / considerations ::@:: When implementing communication, there are many _practical_ considerations. For example, using a physical string connected between two cups to communicate is impractical for many reasons.
+- [information](../../../../general/information.md) ::@:: It is an abstract concept that refers to something which has the power to inform.
+  - information / signal processing ::@:: Information is represented by physical signals.
+  - information / entropy ::@:: It of a random variable quantifies the average level of uncertainty or information associated with the variable's potential states or possible outcomes. <p> An important equation \(to be explained later\) to measure information entropy is: $$H(X) = -\sum_{X} p(X) \log_2 p(X) \,,$$ where $X$ is a discrete random variable with probability mass function $p(X)$.
+- [signal processing](../../../../general/signal%20processing.md) ::@:: It is an electrical engineering subfield that focuses on analyzing, modifying and synthesizing signals, such as sound, images, potential fields, seismic signals, altimetry processing, and scientific measurements.
+- [analog signal](../../../../general/analog%20signal.md) ::@:: It is any signal, typically a continuous-time signal, representing some other quantity, i.e., _analogous_ to another quantity.
+- [time domain](../../../../general/time%20domain.md) ::@:: It is a representation of how a signal, function, or data set varies with time. It is used for the analysis of mathematical functions, physical signals or time series of economic or environmental data.
+  - time domain / intuition ::@:: The signal is represented using a time function from zero time \(inclusive\) to infinite time \(exclusive\). Very visually intuitive.
+- [periodic function](../../../../general/periodic%20function.md) ::@:: It is a function that repeats its values at regular intervals. <p> The length of the interval over which a periodic function repeats is called its __period__. Any function that is not periodic is called __aperiodic__.
+  - periodic function / examples ::@:: For example, the trigonometric functions, which are used to describe waves and other repeating phenomena, are periodic.
+  - periodic function / period ::@:: A positive number $T$ such that $f(t + T) = f(t)$ for all $t$.
+  - periodic function / frequency ::@:: $f = 1 / T$ \(in hertz if $T$ is in second\)
+  - periodic function / description ::@:: To describe the entire signal, describe a cycle suffices.
+- [sine wave](../../../../general/sine%20wave.md) ::@:: It is a periodic wave whose waveform \(shape\) is the trigonometric sine function.
+  - sine wave / sinusoid form ::@:: Sine waves of arbitrary phase and amplitude are called _sinusoids_ and have the general form: $$y(t)=A\sin(\omega t+\varphi )=A\sin(2\pi ft+\varphi )$$ where: <p> - $A$, _[amplitude](../../../../general/amplitude.md)_, the peak deviation of the function from zero. <br/> - $t$, the [real](../../../../general/real%20number.md) [independent variable](../../../../general/independent%20variable.md), usually representing [time](../../../../general/time.md) in [seconds](../../../../general/seconds.md). <br/> - $\omega$, _[angular frequency](../../../../general/angular%20frequency.md)_, the rate of change of the function argument in units of [radians per second](../../../../general/radians%20per%20second.md). <br/> - $f$, _[ordinary frequency](../../../../general/ordinary%20frequency.md)_, the _[number](../../../../general/real%20number.md)_ of oscillations \([cycles](../../../../general/turn%20(angle).md)\) that occur each second of time. <br/> - $\varphi$, _[phase](../../../../general/phase%20(waves).md)_, specifies \(in [radians](../../../../general/radian.md)\) where in its cycle the oscillation is at _t_ = 0.
+  - sine wave / cosine wave ::@:: Since $$\begin{aligned} \sin x & = \cos(x - \pi / 2) \\ \cos x & = \sin(x + \pi / 2) \,, \end{aligned}$$ so any sine wave can be represented as a cosine wave with a shifted phase, and vice versa.
+  - sine wave / description ::@:: To describe a sine wave, describe its amplitude $A$, angular frequency $\omega$, and phase $\phi$.
+- [phasor](../../../../general/phasor.md) ::@:: It is a complex number representing a sinusoidal function whose amplitude _A_ and initial phase _θ_ are time-invariant and whose angular frequency _ω_ is fixed.
+  - phasor / equation ::@:: $$s(t) = \Re(A \exp(j \phi) \exp(j \omega t)) = \Re(Z \exp(j \omega t)) \,.$$ $Z = A \exp(j \phi)$ is the _complex amplitude_, which incorporates both the amplitude and phase.
+- periodic function
+  - periodic function / arithmetic operation ::@:: Performing arithmetic operations between two periodic functions may _not_ yield a periodic function. This happens when their angular frequencies do not have a least common multiple \(LCM\). For example, this happens when one of angular frequency is _irrational_.
+  - periodic function / aperiodic ::@:: If a function is not periodic, then it is _aperiodic_. This happens if a positive $T$ such that $s(t + T) = s(t)$ for all $t$ does not exist.
+- [Heaviside step function](../../../../general/Heaviside%20step%20function.md) ::@:: It is a step function named after Oliver Heaviside, the value of which is zero for negative arguments and one for positive arguments. Different conventions concerning the value _H_\(0\) are in use. \(__this course__: _H_\(0\)&nbsp;=&nbsp;1\)
+- [Dirac delta function](../../../../general/Dirac%20delta%20function.md) ::@:: It is a [generalized function](../../../../general/generalized%20function.md) on the [real numbers](../../../../general/real%20numbers.md), whose value is zero everywhere except at zero, and whose [integral](../../../../general/integral.md) over the entire real line is equal to one. Thus it can be [represented heuristically](../../../../general/heuristic.md) as $$\delta (x)={\begin{cases}0,&x\neq 0\\{\infty },&x=0\end{cases} }$$ such that $$\int _{-\infty }^{\infty }\delta (x)dx=1.$$
+- [ramp function](../../../../general/ramp%20function.md) ::@:: It is a unary real function, whose graph is shaped like a ramp. It can be expressed by numerous definitions, for example "0 for negative inputs, output equals input for non-negative inputs".
+- [rectangular function](../../../../general/rectangular%20function.md) ::@:: It is defined as $$\operatorname {rect} \left({\frac {t}{a} }\right)=\Pi \left({\frac {t}{a} }\right)=\left\{ {\begin{array}{rl}0,&{\text{if } }|t|>{\frac {a}{2} }\\{\frac {1}{2} },&{\text{if } }|t|={\frac {a}{2} }\\1,&{\text{if } }|t|<{\frac {a}{2} }.\end{array} }\right.$$ Alternative definitions of the function define $\operatorname {rect} \left(\pm {\frac {1}{2} }\right)$ to be 0, or undefined.
+- [triangular function](../../../../general/triangular%20function.md) ::@:: It is a function whose graph takes the shape of a triangle. Often this is an isosceles triangle of height 1 and base 2 in which case it is referred to as _the_ triangular function.
+- analog signal
+  - analog signal / basic operations ::@:: amplitude transformations: $As(t) + B$; $A$ scales the range about the horizontal axis and $B$ shifts vertically <br/> time reversal: $s(-t)$ \(special case of time scaling when $a = -1$\) <br/> time scaling: $s(at)$; compressed if $\lvert a \rvert > 1$ or expanded if $\lvert a \rvert < 1$ <br/> time shifting: $x(t - a)$; delayed \(moved towards the _left_\) by $a$
+
+## week 1 lecture 2
+
+- datetime: 2025-09-04T09:00:00+08:00/2025-09-04T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 1 tutorial
+
+- datetime: 2025-09-05T15:30:00+08:00/2025-09-05T16:20:00+08:00, PT50M
+- status: unscheduled
+
+---
+
+> __<big><big>Welcome to ELEC4110</big></big>__
+>
+> Dear students
+>
+> Welcome to the class. I have uploaded the notes and reference materials on canvas. Tutorial will start on week 2. Look forward to meeting you on 2 Sept 09:00am.
+>
+> Cheers
+>
+> \[redacted\]
+
+## aftermath
+
+### total
+
+- grades: ?/100
+  - statistics: ?
