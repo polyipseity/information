@@ -1,13 +1,15 @@
 ---
 aliases:
+  - resolution
+  - resolution (logic)
   - resolution rule
   - resolution rules
 tags:
-  - flashcard/active/general/eng/resolution_rule
+  - flashcard/active/general/eng/resolution__logic_
   - language/in/English
 ---
 
-# resolution rule
+# resolution (logic)
 
 In {@{[mathematical logic](mathematical%20logic.md) and [automated theorem proving](automated%20theorem%20proving.md)}@}, {@{__resolution__}@} is {@{a [rule of inference](rule%20of%20inference.md) leading to a [refutation-complete](#refutation-completeness) [theorem-proving](theorem-proving.md) technique}@} for {@{sentences in [propositional logic](propositional%20logic.md) and [first-order logic](first-order%20logic.md)}@}. For {@{propositional logic}@}, {@{systematically applying the resolution rule acts}@} as {@{a [decision procedure](decision%20procedure.md) for formula unsatisfiability}@}, solving {@{the \(complement of the\) [Boolean satisfiability problem](Boolean%20satisfiability%20problem.md)}@}. For {@{[first-order logic](first-order%20logic.md)}@}, resolution can be used as the basis for {@{a [semi-algorithm](RE%20(complexity).md) for the unsatisfiability problem of [first-order logic](first-order%20logic.md)}@}, providing {@{a more practical method than one following from [Gödel's completeness theorem](Gödel's%20completeness%20theorem.md)}@}.
 
@@ -245,7 +247,7 @@ For {@{first-order predicate logic}@}, {@{Murray's rule}@} is generalized to {@{
 
 ## references
 
-This text incorporates [content](https://en.wikipedia.org/wiki/resolution_rule) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This text incorporates [content](https://en.wikipedia.org/wiki/resolution_(logic)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 - <a id="CITEREFRobinson1965"></a> [Robinson](John%20Alan%20Robinson.md), J. Alan \(1965\). ["A Machine-Oriented Logic Based on the Resolution Principle"](https://doi.org/10.1145%2F321250.321253). _[Journal of the ACM](Journal%20of%20the%20ACM.md)_. __12__ \(1\): 23–41. [doi](doi%20(identifier).md):[10.1145/321250.321253](https://doi.org/10.1145%2F321250.321253). [S2CID](S2CID%20(identifier).md#S2CID) [14389185](https://api.semanticscholar.org/CorpusID:14389185).
 - <a id="CITEREFLeitsch1997"></a> Leitsch, Alexander \(1997\). [_The Resolution Calculus_](https://books.google.com/books?id=81LmCAAAQBAJ&pg=PA1). Texts in Theoretical Computer Science. An EATCS Series. [Springer](Springer%20Science+Business%20Media.md). [ISBN](ISBN%20(identifier).md) [978-3-642-60605-2](https://en.wikipedia.org/wiki/Special:BookSources/978-3-642-60605-2).
