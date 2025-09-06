@@ -8,22 +8,22 @@ tags:
 
 # most vexing parse
 
-The __most vexing parse__ is {@{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}@}. When the C++ grammar {@{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}@}.
+{@{The __most vexing parse__}@} is {@{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}@}. When the C++ grammar {@{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md)}@}, it is required to {@{interpret it as a function declaration}@}.
 
 ## examples
 
-Two common examples are caused by {@{C-style casts and unnamed temporary}@}.
+{@{Two common examples}@} are caused by {@{C-style casts and unnamed temporary}@}.
 
 ### C-style casts
 
-The following grammar using C-style casts is ambiguous:
+{@{The following grammar}@} using {@{C-style casts}@} is {@{ambiguous}@}:
 
 ```C++
 double a_double(3.14);
 int an_int(int(a_double));
 ```
 
-The intuitive interpretation of line 2 is {@{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}@}. However, since {@{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}@}:
+{@{The intuitive interpretation}@} of line 2 is {@{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}@}. However, since {@{C allows superfluous parentheses around function parameter names}@}, the above can also be {@{interpreted as a function declaration, equivalent to}@}:
 
 ```C++
 int an_int(int a_double);
@@ -31,7 +31,7 @@ int an_int(int a_double);
 
 ### temporaries
 
-The following grammar involving the creation of a temporary is ambiguous:
+{@{The following grammar}@} involving {@{the creation of a temporary}@} is {@{ambiguous}@}:
 
 ```C++
 struct Child {};
@@ -39,7 +39,7 @@ struct Parent { explicit Parent(Child child); };
 Parent parent(Child());
 ```
 
-The intuitive interpretation of line 3 is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter, whose type is (a pointer to) a function that accepts no inputs and returns a `Child`, equivalent to}@}:
+{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}:
 
 ```C++
 Parent parent(Child(*)());
@@ -47,11 +47,11 @@ Parent parent(Child(*)());
 
 ## solutions
 
-The required interpretation of {@{a function declaration for the above ambiguous grammar is rarely the intended one}@}. To force the interpretation of a variable initialization, the typical solution is {@{using an alternative syntax that is unambiguous}@}.
+The required interpretation of {@{a function declaration for the above ambiguous grammar}@} is {@{rarely the intended one}@}. To force {@{the interpretation of a variable initialization}@}, the typical solution is {@{using an alternative syntax that is unambiguous}@}.
 
 ### solutions for C-style casts
 
-For C-style casts, one can use two alternative syntaxes: {@{the alternative syntax for C-style casts, or more preferably in [C++](C++.md), a named cast}@}:
+For {@{C-style casts}@}, one can use {@{two alternative syntaxes}@}: {@{the alternative syntax for C-style casts}@}, or {@{more preferably in [C++](C++.md), a named cast}@}:
 
 ```C++
 int an_int((int)a_double); // C-style cast
@@ -60,7 +60,7 @@ int an_int(static_cast<int>(a_double)); // named cast, preferred in C++
 
 ### solutions for temporaries
 
-Since [C++11](C++11.md), the preferred solution is {@{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables. Additionally, sometimes the type name can be omitted with the brace syntax}@}:
+Since {@{[C++11](C++11.md)}@}, the preferred solution is {@{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables}@}. Additionally, sometimes {@{the type name can be omitted with the brace syntax}@}:
 
 ```C++
 // Any one works:
