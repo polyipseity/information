@@ -51,7 +51,7 @@ The content is in teaching order.
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities.
   - finance / fields ::@:: 3 main fields: asset pricing, corporate finance, market microstructure
     - finance / fields / asset pricing ::@:: Calculate asset _fair price_. <p> examples: Black–Scholes–Merton model \(a mathematical model\)
-    - finance / fields / corporate finance ::@: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\)
+    - finance / fields / corporate finance ::@:: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\)
     - finance / fields / market microstructure ::@:: Relation between _market quality_ and environment, mechanisms, trading rules, etc.
 - FINA 3103
   - FINA 3103 / objectives ::@:: Investigate asset pricing and market \(micro\)structure. Invest _wisely_ under different market structures, different trading rules, and uncertainty.
@@ -88,7 +88,7 @@ The content is in teaching order.
 - [asset pricing](../../../../general/asset%20pricing.md) ::@:: It refers to the formal development of the principles used in pricing, together with the resultant models.
   - asset pricing / return, risk ::@:: Asset price affects return and risk, mostly via capital gain/loss.
   - asset pricing / motivation ::@:: To find the _efficient_/_fair_ price of an asset, which we assume the actual price of the asset will _eventually_ approach.
-  - asset pricing / concepts ::@:: arbitrage, friction \(causing slight price difference in practice\), law of one price, market efficiency, etc.
+  - asset pricing / concepts ::@:: arbitrage, friction \(causing slight price differences in practice\), law of one price, market efficiency, etc.
 - [arbitrage](../../../../general/arbitrage.md) ::@:: The practice of taking advantage of a difference in prices in two or more markets – striking a combination of matching deals to capitalize on the difference, the profit being the difference between the market prices at which the unit is traded.
   - arbitrage / effect ::@:: Arbitrage has the effect of causing prices of the same or very similar assets in different markets to converge.
 - [law of one price](../../../../general/law%20of%20one%20price.md) ::@:: In the absence of trade frictions \(such as transport costs and tariffs\), and under conditions of free _competition_ and price flexibility \(where no individual sellers or buyers have power to manipulate prices and prices can freely adjust\), _identical goods_ sold at _different locations_ should be sold for the _same price_ when prices are expressed in a common currency.

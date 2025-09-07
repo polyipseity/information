@@ -24,7 +24,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Calculus) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Calculus) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACalculus) | -->
 
-In {@{[mathematics](mathematics.md) \(particularly [multivariable calculus](multivariable%20calculus.md)\)}@}, {@{a __volume integral__ \(∭\)}@} is {@{an [integral](integral.md) over a [3-dimensional](three-dimensional%20space.md) domain}@}; that is, it is a special case of {@{[multiple integrals](multiple%20integral.md)}@}. Volume integrals are especially important in {@{[physics](physics.md) for many applications, for example, to calculate [flux](flux.md) densities, or to calculate mass from a corresponding density function}@}.
+In {@{[mathematics](mathematics.md) \(particularly [multivariable calculus](multivariable%20calculus.md)\)}@}, {@{a __volume integral__ \(∭\)}@} is {@{an [integral](integral.md) over a [3-dimensional](three-dimensional%20space.md) domain}@}; that is, it is a special case of {@{[multiple integrals](multiple%20integral.md)}@}. Volume integrals are especially {@{important in [physics](physics.md) for many applications}@}, for example, to {@{calculate [flux](flux.md) densities, or to calculate mass from a corresponding density function}@}.
 
 ## in coordinates
 

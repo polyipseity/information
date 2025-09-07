@@ -89,7 +89,7 @@ Under {@{[International Financial Reporting Standards](International%20Financial
 
 The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain.
 
-The differences that remain are the result of differences in {@{the application of the treasury stock method, the treatment of contracts that may be settled in shares or cash, and contingently issuable shares}@}.
+{@{The differences that remain}@} are the result of differences in {@{the application of the treasury stock method}@}, {@{the treatment of contracts that may be settled in shares or cash}@}, and {@{contingently issuable shares}@}.
 
 ## see also
 
