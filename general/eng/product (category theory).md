@@ -41,7 +41,7 @@ Instead of {@{two objects}@}, we can {@{start with an arbitrary family of object
 
 Given {@{a family $\left(X_{i}\right)_{i\in I}$ of objects}@}, {@{a __product__ of the family}@} is {@{an object $X$ equipped with morphisms $\pi _{i}:X\to X_{i}$, satisfying the following universal property}@}: <!--SR:!2026-01-11,279,330!2025-11-13,233,330!2025-11-12,232,330-->
 
-- For every object $Y$ and every $I$-indexed family of morphisms $f_{i}:Y\to X_{i}$, ::@::there exists a unique morphism $f:Y\to X$ such that the following diagrams commute for all $i\in I:$ <p> ![Universal product of the product](../../archives/Wikimedia%20Commons/Cat%20product.svg) <!--SR:!2025-09-18,175,310!2025-10-12,191,310-->
+- For every object $Y$ and every $I$-indexed family of morphisms $f_{i}:Y\to X_{i}$, ::@::there exists a unique morphism $f:Y\to X$ such that the following diagrams commute for all $i\in I:$ <p> ![Universal product of the product](../../archives/Wikimedia%20Commons/Cat%20product.svg) <!--SR:!2027-10-14,756,330!2025-10-12,191,310-->
 
 The product is denoted {@{$\prod _{i\in I}X_{i}$}@}. If {@{$I=\{1,\ldots ,n\}$}@}, then it is denoted {@{$X_{1}\times \cdots \times X_{n}$}@} and the product of morphisms is denoted {@{$\langle f_{1},\ldots ,f_{n}\rangle$}@}. <!--SR:!2025-11-17,236,330!2025-11-19,238,330!2025-10-07,188,310!2026-01-04,275,330-->
 
@@ -87,7 +87,7 @@ If {@{$I$ is a set such that all products for families indexed with $I$ exist}@}
 
 {@{A category where every finite set of objects has a product}@} is sometimes called {@{a __Cartesian category__}@}<sup>[\[4\]](#^ref-4)</sup> \(although some authors use this phrase to mean "{@{a category with all finite limits}@}"\). <!--SR:!2025-11-10,230,330!2026-01-22,289,330!2025-12-17,260,330-->
 
-The product is {@{[associative](associative.md)}@}. Suppose {@{$C$ is a Cartesian category, product functors have been chosen as above, and $1$ denotes a terminal object of $C$}@}. We then have {@{[natural isomorphisms](natural%20isomorphism.md#natural%20isomorphism) $$\begin{aligned} & X\times (Y\times Z)\simeq (X\times Y)\times Z\simeq X\times Y\times Z, \\ & X\times 1\simeq 1\times X\simeq X, \\ & X\times Y\simeq Y\times X. \end{aligned}$$}@} These properties are {@{formally similar to those of a commutative [monoid](monoid.md)}@}; {@{a Cartesian category with its finite products}@} is {@{an example of a [symmetric monoidal category](symmetric%20monoidal%20category.md)}@}. <!--SR:!2026-01-01,272,330!2026-01-28,241,270!2025-09-18,184,310!2026-11-21,503,310!2025-11-08,228,330!2026-11-07,494,310-->
+The product is {@{[associative](associative.md)}@}. Suppose {@{$C$ is a Cartesian category, product functors have been chosen as above, and $1$ denotes a terminal object of $C$}@}. We then have {@{[natural isomorphisms](natural%20isomorphism.md#natural%20isomorphism) $$\begin{aligned} & X\times (Y\times Z)\simeq (X\times Y)\times Z\simeq X\times Y\times Z, \\ & X\times 1\simeq 1\times X\simeq X, \\ & X\times Y\simeq Y\times X. \end{aligned}$$}@} These properties are {@{formally similar to those of a commutative [monoid](monoid.md)}@}; {@{a Cartesian category with its finite products}@} is {@{an example of a [symmetric monoidal category](symmetric%20monoidal%20category.md)}@}. <!--SR:!2026-01-01,272,330!2026-01-28,241,270!2027-04-10,569,310!2026-11-21,503,310!2025-11-08,228,330!2026-11-07,494,310-->
 
 ## distributivity
 

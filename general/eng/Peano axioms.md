@@ -90,7 +90,7 @@ Similarly, [multiplication](multiplication.md) is {@{a function mapping two natu
 
 It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2025-11-16,337,345-->
 
-To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} requires {@{the induction axiom due to the way multiplication is defined}@}: <!--SR:!2028-01-04,848,325!2025-09-11,5,352!2025-09-11,5,352-->
+To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} requires {@{the induction axiom due to the way multiplication is defined}@}: <!--SR:!2028-01-04,848,325!2025-10-11,23,372!2025-10-11,23,372-->
 
 - multiplicative left identity / base case ::@:: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2027-10-02,861,345!2029-05-16,1345,365-->
 - multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-12-07,333,305!2026-08-09,527,322-->

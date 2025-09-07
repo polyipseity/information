@@ -631,7 +631,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 sidereal day
 >
 > - solution: {@{3}@}
-> - explanation: {@{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}@} <!--SR:!2025-09-18,304,370!2028-10-14,1139,370-->
+> - explanation: {@{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}@} <!--SR:!2028-10-17,1125,370!2028-10-14,1139,370-->
 
 <!-- markdownlint MD028 -->
 

@@ -29,7 +29,7 @@ tags:
 
 ## overview
 
-Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} at {@{[Microsoft Research Redmond](Microsoft%20Research%20Redmond.md#laboratories)}@} and is targeted at {@{solving problems that arise in [software verification](software%20verification.md) and [program analysis](program%20analysis.md)}@}. Z3 supports {@{arithmetic, fixed-size bit-vectors, extensional arrays}@}, {@{datatypes, uninterpreted functions, and [quantifiers](quantifier%20(logic).md)}@}. Its main applications are {@{[extended static checking](extended%20static%20checking.md), test case generation, and [predicate abstraction](predicate%20abstraction.md)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-06-16,272,330!2026-05-17,248,330!2026-06-17,273,330!2025-10-11,29,290!2026-05-31,259,330!2025-09-10,4,338-->
+Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} at {@{[Microsoft Research Redmond](Microsoft%20Research%20Redmond.md#laboratories)}@} and is targeted at {@{solving problems that arise in [software verification](software%20verification.md) and [program analysis](program%20analysis.md)}@}. Z3 supports {@{arithmetic, fixed-size bit-vectors, extensional arrays}@}, {@{datatypes, uninterpreted functions, and [quantifiers](quantifier%20(logic).md)}@}. Its main applications are {@{[extended static checking](extended%20static%20checking.md), test case generation, and [predicate abstraction](predicate%20abstraction.md)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-06-16,272,330!2026-05-17,248,330!2026-06-17,273,330!2025-10-11,29,290!2026-05-31,259,330!2025-10-08,20,358-->
 
 Z3 was {@{open sourced in the beginning of 2015}@}.<sup>[\[3\]](#^ref-3)</sup> The source code is licensed under {@{[MIT License](MIT%20License.md)}@} and hosted on {@{[GitHub](GitHub.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The solver can be built using {@{[Visual Studio](Visual%20Studio.md), a [makefile](makefile.md#makefile) or using [CMake](CMake.md)}@} and runs on {@{[Windows](Microsoft%20Windows.md), [FreeBSD](FreeBSD.md), [Linux](Linux.md), and [macOS](macOS.md)}@}. <!--SR:!2025-09-20,65,310!2026-04-24,228,330!2026-05-14,246,330!2026-06-11,268,330!2026-06-04,263,330-->
 
@@ -67,7 +67,7 @@ Note that the script {@{asserts the _negation_ of the proposition of interest}@}
 
 ### solving equations
 
-The following script solves {@{the two given equations}@}, finding {@{suitable values for the variables a and b}@}: <!--SR:!2025-09-19,64,310!2025-09-18,63,310-->
+The following script solves {@{the two given equations}@}, finding {@{suitable values for the variables a and b}@}: <!--SR:!2025-09-19,64,310!2026-06-21,276,330-->
 
 ```Z3
 (declare-const a Int)
@@ -87,7 +87,7 @@ The following script solves {@{the two given equations}@}, finding {@{suitable v
 > {@{(assert (= (+ a (* 2 b)) 10))}@}
 > {@{(check-sat)}@}
 > {@{(get-model)}@}
-> </pre> <!--SR:!2026-05-04,237,330!2026-06-07,265,330!2026-05-22,252,330!2026-05-19,250,330!2025-09-18,63,310!2026-05-28,257,330-->
+> </pre> <!--SR:!2026-05-04,237,330!2026-06-07,265,330!2026-05-22,252,330!2026-05-19,250,330!2026-06-21,276,330!2026-05-28,257,330-->
 
 Result: \(annotation: {@{`sat`}@}\) <!--SR:!2026-05-23,253,330-->
 
@@ -103,7 +103,7 @@ sat
 
 ## awards
 
-In 2015, Z3 received {@{the _Programming Languages Software Award_}@} from {@{[ACM](Association%20for%20Computing%20Machinery.md) [SIGPLAN](SIGPLAN.md)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> In 2018, Z3 received {@{the _Test of Time Award_}@} from {@{the [European Joint Conferences on Theory and Practice of Software](European%20Joint%20Conferences%20on%20Theory%20and%20Practice%20of%20Software.md) \(ETAPS\)}@}.<sup>[\[8\]](#^ref-8)</sup> {@{Microsoft researchers Nikolaj Bjørner and [Leonardo de Moura](Leonardo%20de%20Moura.md)}@} received {@{the 2019 [Herbrand Award for Distinguished Contributions to Automated Reasoning](Herbrand%20Award.md)}@} in recognition of their work in {@{advancing theorem proving with Z3}@}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-22,67,310!2026-05-24,254,330!2026-05-21,251,330!2026-05-18,249,330!2026-05-01,234,330!2026-05-14,246,330!2025-09-18,63,310-->
+In 2015, Z3 received {@{the _Programming Languages Software Award_}@} from {@{[ACM](Association%20for%20Computing%20Machinery.md) [SIGPLAN](SIGPLAN.md)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> In 2018, Z3 received {@{the _Test of Time Award_}@} from {@{the [European Joint Conferences on Theory and Practice of Software](European%20Joint%20Conferences%20on%20Theory%20and%20Practice%20of%20Software.md) \(ETAPS\)}@}.<sup>[\[8\]](#^ref-8)</sup> {@{Microsoft researchers Nikolaj Bjørner and [Leonardo de Moura](Leonardo%20de%20Moura.md)}@} received {@{the 2019 [Herbrand Award for Distinguished Contributions to Automated Reasoning](Herbrand%20Award.md)}@} in recognition of their work in {@{advancing theorem proving with Z3}@}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-22,67,310!2026-05-24,254,330!2026-05-21,251,330!2026-05-18,249,330!2026-05-01,234,330!2026-05-14,246,330!2026-06-21,276,330-->
 
 ## see also
 

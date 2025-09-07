@@ -49,7 +49,7 @@ One-hot encoding is often used for {@{indicating the state of a [state machine](
 
 ##### disadvantages
 
-- Requires ::@:: more flip-flops than other encodings, making it impractical for [PAL](Programmable%20Array%20Logic.md) devices <!--SR:!2026-01-02,256,330!2025-09-18,170,310-->
+- Requires ::@:: more flip-flops than other encodings, making it impractical for [PAL](Programmable%20Array%20Logic.md) devices <!--SR:!2026-01-02,256,330!2027-09-17,729,330-->
 - Many of the states ::@:: are illegal<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-10,287,330!2026-01-07,260,330-->
 
 ### natural language processing

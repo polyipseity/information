@@ -61,10 +61,10 @@ The content is in teaching order.
     - information system / dimensions / management ::@:: IS can but does not _guarantee_ good results. There is considerable variation. Factors include _complementary assets_, right business model, etc. so good management of IS is needed. <!--SR:!2025-09-19,59,310!2025-09-27,67,310-->
 - [complementary assets](../../../../general/complementary%20assets.md) ::@:: It is understood to apply to assets, infrastructure or capabilities needed to support the successful commercialization and marketing of a technological innovation, other than those assets fundamentally associated with that innovation. <!--SR:!2026-05-14,241,330!2025-09-27,67,310-->
   - complementary assets / types ::@::  managerial, organizational, social <!--SR:!2025-09-23,63,310!2026-05-16,241,330-->
-  - complementary assets / organizational ::@:: structures of the firm <!--SR:!2025-09-19,59,310!2025-09-18,58,310-->
+  - complementary assets / organizational ::@:: structures of the firm <!--SR:!2025-09-19,59,310!2026-05-31,255,330-->
     - complementary assets / organizational / examples ::@:: IS development team, business model, business process, decentralization, decision making, organizational culture, etc. <!--SR:!2025-09-27,67,310!2025-09-27,67,310-->
   - complementary assets / managerial ::@:: people of the firm <!--SR:!2025-09-27,67,310!2025-09-20,60,310-->
-    - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2025-09-27,67,310!2025-09-18,58,310-->
+    - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2025-09-27,67,310!2026-05-31,255,330-->
   - complementary assets / social ::@:: environments the firm are in <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2026-05-14,241,330!2025-09-27,67,310-->
 - information system

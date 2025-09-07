@@ -21,7 +21,7 @@ A harmonic model is {@{very similar to a [sinusoidal model](sinusoidal%20model.m
 
 When {@{there are only one instrument}@}, the sound source is called {@{"monophonic"}@}. When {@{there are multiple instruments}@}, the sound source is called {@{"polyphonic"}@}. It is easy to identify {@{the fundamental frequency}@} when the source is monophonic, since {@{there is only one fundamental frequency}@}. It is more difficult to do so when {@{the source is polyphonic}@}, since {@{there are multiple fundamental frequencies}@}. <!--SR:!2026-05-12,242,330!2026-05-31,258,330!2025-09-23,67,310!2025-09-23,67,310!2026-05-25,253,330!2025-09-23,67,310!2025-09-23,67,310!2025-09-23,67,310-->
 
-To detect {@{a partial across frames}@} \(e.g. in STFT\), we additionally require {@{the frequency of the detected peaks to be an integer multiple of the fundamental frequency}@} up to {@{some small tolerance}@}. <!--SR:!2025-09-23,67,310!2026-03-20,186,310!2025-09-10,4,324-->
+To detect {@{a partial across frames}@} \(e.g. in STFT\), we additionally require {@{the frequency of the detected peaks to be an integer multiple of the fundamental frequency}@} up to {@{some small tolerance}@}. <!--SR:!2025-09-23,67,310!2026-03-20,186,310!2025-10-07,19,344-->
 
 ## terminology
 

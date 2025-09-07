@@ -28,7 +28,7 @@ tags:
 > 3. Essential for personal and global finance.
 > 4. Other \(share in chat\).
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2025-09-10,4,270-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2025-10-04,16,290-->
 
 ---
 
@@ -41,4 +41,4 @@ tags:
 > 3. Need to learn new tech skills.
 > 4. No concerns—it's an opportunity!
 >
-> - solutions: {@{1/2/3/4}@} <!--SR:!2025-09-10,4,270-->
+> - solutions: {@{1/2/3/4}@} <!--SR:!2025-10-02,14,290-->

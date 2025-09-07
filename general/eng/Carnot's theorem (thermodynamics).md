@@ -17,7 +17,7 @@ tags:
 > {@{$$\eta_\text{max} = 1 - \frac{T_\mathrm{C} }{T_\mathrm{H} }$$}@}
 >
 > - where
->   - $\eta_\text{max}$ is {@{the maximum [efficiency](thermal%20efficiency.md) any [heat engine](heat%20engine.md) can achieve}@} operating between {@{a cold reservoir of [temperature](temperature.md) $T_\mathrm{C}$ and a hot reservoir of [temperature](temperature.md) $T_\mathrm{H}$}@} <!--SR:!2026-11-24,818,330!2027-04-22,950,350!2025-09-10,4,290!2025-09-10,4,290-->
+>   - $\eta_\text{max}$ is {@{the maximum [efficiency](thermal%20efficiency.md) any [heat engine](heat%20engine.md) can achieve}@} operating between {@{a cold reservoir of [temperature](temperature.md) $T_\mathrm{C}$ and a hot reservoir of [temperature](temperature.md) $T_\mathrm{H}$}@} <!--SR:!2026-11-24,818,330!2027-04-22,950,350!2025-10-04,16,310!2025-10-04,16,310-->
 
 ## references
 

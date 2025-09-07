@@ -67,7 +67,7 @@ tags:
 > ---
 >
 > - solution: {@{228}@}
-> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 1)} \approx 0.7778 \implies z^* \approx 0.77 \,.$$ Optimal quantity: $$Q^* = 200 + 0.77 \cdot 35.3553 \approx 227.2236 \approx 228 \,.$$}@} <!--SR:!2026-07-03,289,330!2025-09-18,67,310-->
+> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 1)} \approx 0.7778 \implies z^* \approx 0.77 \,.$$ Optimal quantity: $$Q^* = 200 + 0.77 \cdot 35.3553 \approx 227.2236 \approx 228 \,.$$}@} <!--SR:!2026-07-03,289,330!2026-07-07,292,330-->
 
 ---
 
@@ -161,4 +161,4 @@ tags:
 >
 > ---
 >
-> - solution: {@{3}@} <!--SR:!2025-09-18,67,310-->
+> - solution: {@{3}@} <!--SR:!2026-07-08,293,330-->

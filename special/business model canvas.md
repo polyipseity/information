@@ -165,7 +165,7 @@ risk reduction
 
 - _(begin)_→::@::←accessibility <!--SR:!2028-05-27,1069,297!2028-11-02,1294,354-->
 - accessibility→::@::←brand or status <!--SR:!2028-01-05,926,274!2026-08-06,537,274-->
-- brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2025-09-18,287,234-->
+- brand or status→::@::←convenience or usability <!--SR:!2026-05-12,411,234!2028-04-23,948,254-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2028-01-26,976,294!2026-11-14,469,197-->
 - customization→::@::←design <!--SR:!2028-03-14,915,277!2026-01-27,426,254-->
@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→::@::←advertising <!--SR:!2027-12-26,962,294!2027-11-01,979,337-->
 - advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
-- brokerage fee→::@::←lending, renting, or leasing <!--SR:!2027-03-24,639,257!2025-09-18,322,254-->
+- brokerage fee→::@::←lending, renting, or leasing <!--SR:!2027-03-24,639,257!2028-11-07,1146,274-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2025-10-29,328,274-->
 - licensing→::@::←usage fee <!--SR:!2026-09-25,567,274!2026-10-23,507,254-->
 - usage fee→::@::←subscription fee <!--SR:!2028-06-09,1037,274!2026-07-06,378,277-->

@@ -49,7 +49,7 @@ The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\}
 
 This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {@{its time offset}@}. Shifting a signal to the right (with warping) in the time domain {@{increases the time offset for all frequencies}@}. This means the complex number for each frequency is {@{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}@}. This corresponds to {@{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}@}. <!--SR:!2025-09-25,317,366!2027-02-20,697,346!2027-03-02,638,326!2027-02-27,635,326-->
 
-By duality, {@{shifting the signal in the frequency to the right by $k_0$ samples}@} corresponds to {@{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}@}. This can also be shown {@{directly from the definition}@}. <!--SR:!2025-09-18,312,366!2025-11-04,329,326!2026-12-16,603,333-->
+By duality, {@{shifting the signal in the frequency to the right by $k_0$ samples}@} corresponds to {@{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}@}. This can also be shown {@{directly from the definition}@}. <!--SR:!2028-11-10,1149,366!2025-11-04,329,326!2026-12-16,603,333-->
 
 ### symmetry
 
