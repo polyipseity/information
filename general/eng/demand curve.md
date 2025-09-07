@@ -48,7 +48,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 1. Income of ::@:: the consumer remains constant. <!--SR:!2025-10-10,250,330!2025-10-10,250,330-->
 2. Price of ::@:: other related goods remain constant. <!--SR:!2025-10-14,253,330!2025-10-08,248,330-->
 3. Preference, tastes, habits and fashions of ::@:: consumer remains constant. <!--SR:!2025-10-07,247,330!2025-09-23,236,330-->
-4. Number of ::@:: buyers remain constant. <!--SR:!2025-10-08,248,330!2025-09-19,232,330-->
+4. Number of ::@:: buyers remain constant. <!--SR:!2025-10-08,248,330!2028-08-11,1057,350-->
 5. The commodity is ::@:: a normal good and has no status value. <!--SR:!2025-12-05,294,330!2025-09-20,233,330-->
 
 ## three categories of demand curves

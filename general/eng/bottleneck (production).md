@@ -27,7 +27,7 @@ Another example is in {@{a [surface-mount technology](surface-mount%20technology
 
 > {@{![Cycle of identifying, managing and preventing bottlenecks in production](../../archives/Wikimedia%20Commons/Screen%20Shot%202015-11-03%20at%201.46.58%20pm.png)}@}
 >
-> Cycle of {@{identifying, managing and preventing bottlenecks in production}@} <!--SR:!2025-09-19,155,310!2026-01-12,251,330-->
+> Cycle of {@{identifying, managing and preventing bottlenecks in production}@} <!--SR:!2027-07-16,665,330!2026-01-12,251,330-->
 
 {@{Almost every system}@} has {@{a bottleneck, even if it is a minor one}@}. If {@{every system was running at full capacity}@}, {@{at least one machine would be accumulating processes}@}.<sup>[\[3\]](#^ref-3)</sup> Identifying bottlenecks is {@{critical for improving efficiency in the production line}@} because it allows you to {@{determine the area where accumulation occurs}@}. {@{The machine or process that accumulates the longest queue}@} is {@{usually a bottleneck, however this isn't always the case}@}. Bottlenecks can be found through: {@{identifying the areas where accumulation occurs, evaluating the throughput}@}, {@{assessing whether each machine is being used at full capacity, and finding the machine with the high wait time}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-01-22,259,330!2025-12-22,233,330!2026-02-06,267,330!2026-02-04,265,330!2025-12-26,234,330!2025-10-06,171,310!2026-02-26,285,330!2026-02-24,285,330!2025-12-30,238,330!2025-11-04,189,310-->
 

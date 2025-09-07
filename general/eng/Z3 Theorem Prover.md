@@ -57,7 +57,7 @@ In this example {@{propositional logic assertions}@} are {@{checked using functi
 > {@{(check-sat)}@}
 > </pre> <!--SR:!2026-06-16,272,330!2026-06-12,269,330!2026-06-13,270,330!2025-09-22,67,310-->
 
-Result: \(annotaion: {@{`unsat`}@}\) <!--SR:!2025-09-19,64,310-->
+Result: \(annotaion: {@{`unsat`}@}\) <!--SR:!2026-06-26,280,330-->
 
 ```Z3
 unsat
@@ -67,7 +67,7 @@ Note that the script {@{asserts the _negation_ of the proposition of interest}@}
 
 ### solving equations
 
-The following script solves {@{the two given equations}@}, finding {@{suitable values for the variables a and b}@}: <!--SR:!2025-09-19,64,310!2026-06-21,276,330-->
+The following script solves {@{the two given equations}@}, finding {@{suitable values for the variables a and b}@}: <!--SR:!2026-06-27,281,330!2026-06-21,276,330-->
 
 ```Z3
 (declare-const a Int)

@@ -51,7 +51,7 @@ The content is in teaching order.
 - datetime: 2023-09-13T17:00:00+08:00/2023-09-13T18:50:00+08:00
 - topic: Innerview (II): Together we redefine Success
 - ideal life
-- powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2027-07-15,771,330!2025-09-19,280,330-->
+- powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2027-07-15,771,330!2029-03-16,1274,350-->
 - psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2028-07-24,1087,350!2028-03-16,987,350-->
 
 ## week 3 tutorial

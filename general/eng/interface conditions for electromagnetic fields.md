@@ -42,7 +42,7 @@ Therefore, {@{the [tangential component](tangential%20component.md) of __E__}@} 
 >
 > After {@{dividing by l, and rearranging}@}, {@{$$(\mathbf {E} _{2}-\mathbf {E} _{1})\cdot {\boldsymbol {t} }=\mathbf {0}$$}@}
 >
-> This argument works {@{for any tangential direction}@}. {@{The difference in electric field dotted into _any_ tangential vector is zero}@}, meaning {@{only the components of $\mathbf {E}$ parallel to the normal vector can change between mediums}@}. Thus, the difference in electric field vector is {@{parallel to the normal vector}@}. {@{Two parallel vectors}@} always {@{have a cross product of zero}@}. {@{$$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$}@} <!--SR:!2026-05-29,259,338!2025-09-24,69,318!2025-09-19,65,318!2026-07-02,287,338!2025-09-19,65,318!2026-07-03,288,338!2026-05-31,261,338!2025-09-24,69,318!2026-06-04,265,338!2025-09-19,65,318!2026-06-09,269,338!2025-09-19,65,318!2026-06-05,265,338!2025-09-24,69,318!2026-06-07,267,338!2025-09-19,65,318!2026-07-01,286,338!2026-06-09,269,338!2026-07-02,287,338!2025-09-19,65,318!2026-05-31,261,338!2025-09-19,65,318!2026-05-05,239,330!2026-06-30,285,338!2025-09-23,68,318!2025-09-19,65,318!2026-06-01,262,338!2025-09-24,69,318!2025-09-23,68,318-->
+> This argument works {@{for any tangential direction}@}. {@{The difference in electric field dotted into _any_ tangential vector is zero}@}, meaning {@{only the components of $\mathbf {E}$ parallel to the normal vector can change between mediums}@}. Thus, the difference in electric field vector is {@{parallel to the normal vector}@}. {@{Two parallel vectors}@} always {@{have a cross product of zero}@}. {@{$$\mathbf {n} _{12}\times (\mathbf {E} _{2}-\mathbf {E} _{1})=\mathbf {0}$$}@} <!--SR:!2026-05-29,259,338!2025-09-24,69,318!2026-07-04,288,338!2026-07-02,287,338!2026-07-02,286,338!2026-07-03,288,338!2026-05-31,261,338!2025-09-24,69,318!2026-06-04,265,338!2026-07-05,289,338!2026-06-09,269,338!2026-07-06,290,338!2026-06-05,265,338!2025-09-24,69,318!2026-06-07,267,338!2026-07-03,287,338!2026-07-01,286,338!2026-06-09,269,338!2026-07-02,287,338!2026-07-06,290,338!2026-05-31,261,338!2026-07-08,292,338!2026-05-05,239,330!2026-06-30,285,338!2025-09-23,68,318!2026-07-07,291,338!2026-06-01,262,338!2025-09-24,69,318!2025-09-23,68,318-->
 
 ### electric displacement field
 
@@ -53,7 +53,7 @@ $\sigma _{s}$ ::@:: is the [surface charge](surface%20charge.md) [density](charg
 
 This can be deduced by {@{using Gauss's law and similar reasoning as above}@}. <!--SR:!2025-09-24,69,318-->
 
-Therefore, {@{the normal component of __D__}@} has {@{a step of surface charge on the interface surface}@}. If {@{there is no surface charge on the interface}@}, {@{the normal component of __D__ is continuous}@}. <!--SR:!2025-09-24,69,318!2026-07-01,286,338!2026-07-01,286,338!2025-09-19,65,318-->
+Therefore, {@{the normal component of __D__}@} has {@{a step of surface charge on the interface surface}@}. If {@{there is no surface charge on the interface}@}, {@{the normal component of __D__ is continuous}@}. <!--SR:!2025-09-24,69,318!2026-07-01,286,338!2026-07-01,286,338!2026-07-05,289,338-->
 
 ## interface conditions for magnetic field vectors
 
@@ -68,7 +68,7 @@ Therefore, {@{the normal component of __B__}@} is {@{continuous across the inter
 
 ### for magnetic field strength
 
-\(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2025-10-12,29,298!2025-09-19,65,318-->
+\(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2025-10-12,29,298!2026-07-08,292,338-->
 
 where: <br/>
 $\mathbf {n} _{12}$ <!-- flashcard ID: 88bd7276-524c-48b2-b4d0-224cd3b21e56 -->::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2025-09-26,71,338!2025-09-25,70,338-->
@@ -80,15 +80,15 @@ Therefore, {@{the [tangential component](tangential%20component.md) of __H__}@} 
 
 ### if medium 1 & 2 are perfect [dielectrics](dielectrics.md)
 
-There are {@{no charges nor surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are both continuous}@}. <!--SR:!2026-06-02,263,338!2025-09-19,65,318-->
+There are {@{no charges nor surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are both continuous}@}. <!--SR:!2026-06-02,263,338!2026-07-09,293,338-->
 
 ### if medium 1 is a perfect [dielectric](dielectric.md) and medium 2 is a perfect [metal](metal.md)
 
-There are {@{charges and surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are not continuous}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-09-24,69,318!2025-09-19,65,318-->
+There are {@{charges and surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are not continuous}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-09-24,69,318!2026-04-16,209,318-->
 
 ## boundary conditions
 
-{@{The [boundary conditions](boundary%20conditions.md)}@} must {@{not be confused with the interface conditions}@}. For {@{numerical calculations}@}, {@{the space where the calculation of the electromagnetic field is achieved}@} must {@{be restricted to some boundaries}@}. This is done by {@{assuming conditions at the boundaries}@} which are {@{physically correct and numerically solvable in finite time}@}. In some cases, the boundary conditions {@{resume to a simple interface condition}@}. The most usual and simple example is {@{a fully reflecting \(electric wall\) boundary}@} - {@{the outer medium is considered as a perfect conductor}@}. In some cases, it is more complicated: for example, {@{the reflection-less \(i.e. open\) boundaries}@} are {@{simulated as [perfectly matched layer](perfectly%20matched%20layer.md) or magnetic wall}@} that {@{do not resume to a single interface}@}. <!--SR:!2026-06-10,270,338!2026-05-26,256,338!2025-09-24,69,318!2025-09-19,65,318!2026-06-20,276,330!2026-06-28,283,338!2026-06-10,270,338!2025-09-19,65,318!2026-05-30,260,338!2026-06-08,268,338!2025-09-19,64,310!2025-09-24,69,318!2025-09-19,65,318-->
+{@{The [boundary conditions](boundary%20conditions.md)}@} must {@{not be confused with the interface conditions}@}. For {@{numerical calculations}@}, {@{the space where the calculation of the electromagnetic field is achieved}@} must {@{be restricted to some boundaries}@}. This is done by {@{assuming conditions at the boundaries}@} which are {@{physically correct and numerically solvable in finite time}@}. In some cases, the boundary conditions {@{resume to a simple interface condition}@}. The most usual and simple example is {@{a fully reflecting \(electric wall\) boundary}@} - {@{the outer medium is considered as a perfect conductor}@}. In some cases, it is more complicated: for example, {@{the reflection-less \(i.e. open\) boundaries}@} are {@{simulated as [perfectly matched layer](perfectly%20matched%20layer.md) or magnetic wall}@} that {@{do not resume to a single interface}@}. <!--SR:!2026-06-10,270,338!2026-05-26,256,338!2025-09-24,69,318!2026-07-07,291,338!2026-06-20,276,330!2026-06-28,283,338!2026-06-10,270,338!2026-07-09,293,338!2026-05-30,260,338!2026-06-08,268,338!2026-06-26,280,330!2025-09-24,69,318!2026-07-04,288,338-->
 
 ## see also
 

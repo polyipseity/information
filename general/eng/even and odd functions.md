@@ -13,7 +13,7 @@ tags:
 
 # even and odd functions
 
-- Not to be confused with {@{[even and odd numbers](parity%20(mathematics).md)}@}. <!--SR:!2025-09-19,314,330-->
+- Not to be confused with {@{[even and odd numbers](parity%20(mathematics).md)}@}. <!--SR:!2029-08-21,1432,350-->
 
 In [mathematics](mathematics.md), {@{an __even function__}@} is {@{a [real function](function%20of%20a%20real%20variable.md) such that $f(-x) = f(x)$ for every $x$ in its [domain](domain%20of%20a%20function.md)}@}. Similarly, {@{an __odd function__}@} is {@{a function such that $f(-x) = -f(x)$ for every $x$ in its domain}@}. <!--SR:!2028-05-13,1065,350!2028-05-24,1076,350!2029-01-20,1265,350!2028-02-02,987,350-->
 

@@ -190,7 +190,7 @@ Landfills in Hong Kong
 
 Sustainable Waste Management
 
-- sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2028-04-22,1036,310!2025-09-19,354,310-->
+- sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2028-04-22,1036,310!2029-11-21,1524,330-->
   - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2027-06-05,849,330-->
 
 ## page 12

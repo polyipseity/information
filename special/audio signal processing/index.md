@@ -188,7 +188,7 @@ The content is in recommended learning order.
   - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2026-05-18,248,332!2025-09-24,68,312-->
   - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!2025-09-24,68,312!2025-09-20,64,312-->
   - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2026-05-10,241,332!2025-09-24,68,312-->
-  - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!2025-09-19,63,312!2026-05-28,256,332-->
+  - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!2026-06-23,277,332!2026-05-28,256,332-->
   - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2026-05-09,240,332!2026-05-28,256,332-->
   - signal processing / topics beyond ::@:: data processing, other signal types apart from sounds, semantic technologies, user-centered studies <!--SR:!2026-06-07,264,332!2026-06-18,273,332-->
 - review

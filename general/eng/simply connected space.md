@@ -43,7 +43,7 @@ In {@{[topology](topology.md)}@}, {@{a [topological space](topological%20space.m
 
 > {@{![This shape represents a set that is _not_ simply connected, because any loop that encloses one or more of the holes cannot be contracted to a point without exiting the region.](../../archives/Wikimedia%20Commons/Runge%20theorem.svg)}@}
 >
-> This shape represents {@{a set that is _not_ simply connected}@}, because {@{any loop that encloses one or more of the holes cannot be contracted to a point without exiting the region}@}. <!--SR:!2026-06-05,263,330!2025-09-19,64,310!2025-09-19,64,310-->
+> This shape represents {@{a set that is _not_ simply connected}@}, because {@{any loop that encloses one or more of the holes cannot be contracted to a point without exiting the region}@}. <!--SR:!2026-06-05,263,330!2026-06-27,281,330!2026-06-24,278,330-->
 
 {@{A [topological space](topological%20space.md) $X$ is called simply connected}@} if {@{it is path-connected}@} and {@{any [loop](loop%20(topology).md) in $X$ defined by $f:S^{1}\to X$ can be contracted to a point}@}: there exists {@{a continuous map $F:D^{2}\to X$ such that $F$ restricted to $S^{1}$ is $f$ \(annotation: if a hole is enclosed, such a _continuous_ map $F$ does not exist\)}@}. Here, {@{$S^{1}$ and $D^{2}$}@} denotes {@{the [unit circle](unit%20circle.md) and closed [unit disk](unit%20disk.md) in the [Euclidean plane](Euclidean%20space.md) \(annotation: note that $S^1$ is the boundary of $D^2$\)}@} respectively. <!--SR:!2026-05-19,251,330!2026-06-04,263,330!2026-06-15,272,330!2026-06-21,276,330!2026-05-24,255,330!2026-06-17,273,330-->
 
@@ -61,7 +61,7 @@ Informally, {@{an object in our space is simply connected}@} if it {@{consists o
 >
 > {@{A [sphere](sphere.md) is simply connected}@} because {@{every loop can be contracted \(on the surface\) to a point}@}. <!--SR:!2026-06-07,265,330!2026-05-16,248,330!2026-04-29,234,330-->
 
-The definition rules out {@{only [handle](handle%20decomposition.md)-shaped holes}@}. {@{A sphere \(or, equivalently, a rubber ball with a hollow center\)}@} is {@{simply connected}@}, because {@{any loop on the surface of a sphere can contract to a point}@} even though {@{it has a "hole" in the hollow center}@}. {@{The stronger condition, that the object has no holes of any dimension}@}, is called {@{[contractibility](contractible%20space.md)}@}. <!--SR:!2025-09-19,64,310!2026-05-27,256,330!2026-05-15,247,330!2025-09-20,65,310!2026-05-22,253,330!2026-05-06,240,330!2026-06-12,269,330-->
+The definition rules out {@{only [handle](handle%20decomposition.md)-shaped holes}@}. {@{A sphere \(or, equivalently, a rubber ball with a hollow center\)}@} is {@{simply connected}@}, because {@{any loop on the surface of a sphere can contract to a point}@} even though {@{it has a "hole" in the hollow center}@}. {@{The stronger condition, that the object has no holes of any dimension}@}, is called {@{[contractibility](contractible%20space.md)}@}. <!--SR:!2026-06-22,276,330!2026-05-27,256,330!2026-05-15,247,330!2025-09-20,65,310!2026-05-22,253,330!2026-05-06,240,330!2026-06-12,269,330-->
 
 ## examples
 
@@ -76,7 +76,7 @@ The definition rules out {@{only [handle](handle%20decomposition.md)-shaped hole
 - {@{Every [topological vector space](topological%20vector%20space.md)}@} is {@{simply connected}@}; this includes {@{[Banach spaces](Banach%20space.md) and [Hilbert spaces](Hilbert%20space.md)}@}.
 - For {@{$n\geq 2$}@}, {@{the [special orthogonal group](special%20orthogonal%20group.md) $\operatorname {SO} (n,\mathbb {R} )$ \(annotation: orthogonal $n \times n$ matrices of determinant 1\) is not simply connected}@} and {@{the [special unitary group](special%20unitary%20group.md) $\operatorname {SU} (n)$ \(annotation: unitary $n \times n$ matrices of determinant 1\) is simply connected}@}.
 - {@{The one-point compactification of $\mathbb {R}$ \(annotation: an example is [projectively extended real line](projectively%20extended%20real%20line.md)\)}@} is {@{not simply connected \(even though $\mathbb {R}$ is simply connected\)}@}.
-- {@{The [long line](long%20line%20(topology).md) $L$ \(annotation: _uncountable_ number of line segments joined together\)}@} is {@{simply connected}@}, but {@{its compactification, the extended long line $L^{*}$}@} is {@{not \(since it is not even path connected \(annotation: "too long" to be covered by a path, which is a continuous image of an interval\)\)}@}. <!--SR:!2026-05-05,239,330!2026-05-18,250,330!2026-06-09,267,330!2026-06-21,276,330!2026-05-30,259,330!2026-05-01,236,330!2025-09-21,66,310!2026-06-02,261,330!2025-09-19,64,310!2025-09-22,67,310!2026-04-25,230,330!2025-09-22,67,310!2026-05-29,258,330!2026-05-31,259,330!2025-09-21,66,310!2026-06-14,271,330!2026-05-04,238,330!2026-06-19,275,330!2026-05-06,240,330!2026-05-26,255,330!2026-05-12,245,330!2025-09-21,66,310!2026-05-05,239,330!2025-09-19,64,310-->
+- {@{The [long line](long%20line%20(topology).md) $L$ \(annotation: _uncountable_ number of line segments joined together\)}@} is {@{simply connected}@}, but {@{its compactification, the extended long line $L^{*}$}@} is {@{not \(since it is not even path connected \(annotation: "too long" to be covered by a path, which is a continuous image of an interval\)\)}@}. <!--SR:!2026-05-05,239,330!2026-05-18,250,330!2026-06-09,267,330!2026-06-21,276,330!2026-05-30,259,330!2026-05-01,236,330!2025-09-21,66,310!2026-06-02,261,330!2026-06-23,277,330!2025-09-22,67,310!2026-04-25,230,330!2025-09-22,67,310!2026-05-29,258,330!2026-05-31,259,330!2025-09-21,66,310!2026-06-14,271,330!2026-05-04,238,330!2026-06-19,275,330!2026-05-06,240,330!2026-05-26,255,330!2026-05-12,245,330!2025-09-21,66,310!2026-05-05,239,330!2026-06-26,280,330-->
 
 ## properties
 
@@ -97,7 +97,7 @@ If {@{$X$ and $Y$ are [homotopy equivalent](homotopy%20equivalent.md#homotopy%20
 
 ## see also
 
-- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!2025-09-19,64,310!2026-06-16,272,330-->
+- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!2026-06-25,279,330!2026-06-16,272,330-->
 - [Locally simply connected space](locally%20simply%20connected%20space.md)
 - [n-connected space](n-connected%20space.md)
 - [Unicoherent space](unicoherent%20space.md)

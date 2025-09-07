@@ -25,7 +25,7 @@ Conversely, when {@{personal income decreases}@}, {@{demand for luxury goods dro
 
 ### scope of the term
 
-With {@{increasing accessibility to luxury goods}@},<sup>[\[4\]](#^ref-4)</sup> {@{new product categories have been created}@} within the luxury market, called {@{"accessible luxury" or "mass luxury"}@}. These are meant {@{specifically for the [middle class](middle%20class.md), sometimes called the "aspiring class" in this context}@}. Because {@{luxury has diffused into the masses}@}, {@{defining the word}@} has become more difficult.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-10-03,243,330!2025-11-08,270,330!2025-11-10,272,330!2025-09-19,231,330!2025-11-13,275,330!2025-10-04,241,330-->
+With {@{increasing accessibility to luxury goods}@},<sup>[\[4\]](#^ref-4)</sup> {@{new product categories have been created}@} within the luxury market, called {@{"accessible luxury" or "mass luxury"}@}. These are meant {@{specifically for the [middle class](middle%20class.md), sometimes called the "aspiring class" in this context}@}. Because {@{luxury has diffused into the masses}@}, {@{defining the word}@} has become more difficult.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-10-03,243,330!2025-11-08,270,330!2025-11-10,272,330!2028-08-06,1052,350!2025-11-13,275,330!2025-10-04,241,330-->
 
 Whereas {@{luxury often refers to certain types of products}@}, luxury is {@{not restricted to physical goods; services can also be luxury}@}. Likewise, from {@{the consumer perspective}@}, luxury is {@{an experience defined as "hedonic escapism"}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-01,265,330!2025-12-01,290,330!2028-07-30,1046,350!2025-11-25,285,330-->
 

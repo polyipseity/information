@@ -46,7 +46,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 
 For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2029-05-20,1370,350-->
 
-To generate a discrete cosine wave using Numpy, make use of {@{the above equations, `np.arange`, and `np.cos`}@}: <!--SR:!2025-09-19,328,330-->
+To generate a discrete cosine wave using Numpy, make use of {@{the above equations, `np.arange`, and `np.cos`}@}: <!--SR:!2029-10-20,1492,350-->
 
 ```Python
 import numpy as np

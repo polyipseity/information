@@ -179,7 +179,7 @@ tags:
 > 2. program B
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{2 is usually preferred over 1, demonstrating _risk seeking_ in gains.}@} <!--SR:!2025-09-19,68,331!2025-09-22,71,331-->
+> - explanation: {@{2 is usually preferred over 1, demonstrating _risk seeking_ in gains.}@} <!--SR:!2026-07-29,313,351!2025-09-22,71,331-->
 
 ## week 14 lecture 2
 

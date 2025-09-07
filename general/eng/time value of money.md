@@ -19,7 +19,7 @@ tags:
 
 The time value of money refers to {@{the observation that it is better to receive money sooner than later}@}. {@{Money you have today}@} can be {@{invested to earn a positive rate of return, producing more money tomorrow}@}. Therefore, {@{a dollar today is worth more than a dollar in the future}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-12-28,241,330!2026-03-02,290,330!2026-02-16,276,330!2026-01-07,249,330-->
 
-The [time](time.md) value of money is among {@{the factors considered when weighing the [opportunity costs](opportunity%20cost.md) of spending rather than [saving](saving.md) or [investing](investing.md) money}@}. As such, it is among {@{the reasons why [interest](interest.md) is paid or earned}@}: {@{interest, whether it is on a [bank deposit](bank%20deposit.md) or [debt](debt.md)}@}, {@{compensates the depositor or lender for the loss of their use of their money}@}. Investors are {@{willing to forgo spending their money now only if they expect a favorable net [return](rate%20of%20return.md) on their investment in the future}@}, such that {@{the increased [value](value%20(economics).md) to be available later is sufficiently high to offset both the preference to spending money now and inflation \(if present\)}@}; see {@{[required rate of return](required%20rate%20of%20return.md#discount%20rate)}@}. <!--SR:!2026-01-21,259,330!2026-01-27,264,330!2025-12-22,235,330!2026-01-28,265,330!2026-02-13,273,330!2025-09-19,159,310!2026-01-25,263,330-->
+The [time](time.md) value of money is among {@{the factors considered when weighing the [opportunity costs](opportunity%20cost.md) of spending rather than [saving](saving.md) or [investing](investing.md) money}@}. As such, it is among {@{the reasons why [interest](interest.md) is paid or earned}@}: {@{interest, whether it is on a [bank deposit](bank%20deposit.md) or [debt](debt.md)}@}, {@{compensates the depositor or lender for the loss of their use of their money}@}. Investors are {@{willing to forgo spending their money now only if they expect a favorable net [return](rate%20of%20return.md) on their investment in the future}@}, such that {@{the increased [value](value%20(economics).md) to be available later is sufficiently high to offset both the preference to spending money now and inflation \(if present\)}@}; see {@{[required rate of return](required%20rate%20of%20return.md#discount%20rate)}@}. <!--SR:!2026-01-21,259,330!2026-01-27,264,330!2025-12-22,235,330!2026-01-28,265,330!2026-02-13,273,330!2027-01-29,497,310!2026-01-25,263,330-->
 
 ## history
 
@@ -91,7 +91,7 @@ __Where _i_ ≠ _g_ :__ ::@:: $$PV(A)\,=\,{A \over (i-g)}\left[1-\left({1+g \ove
 
 __Where _i_ = _g_ :__ ::@:: $$PV(A)\,=\,{A\times n \over 1+i}$$ (annotation: the additional denominator below is due to payments being made at period end instead of period start) <!--SR:!2026-01-29,266,330!2026-01-26,263,330-->
 
-To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\) (annotation: note that $A$ is defined to be the first payment, so there is no need to divide by the growth factor)}@}. <!--SR:!2027-07-21,673,330!2025-09-19,159,310-->
+To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\) (annotation: note that $A$ is defined to be the first payment, so there is no need to divide by the growth factor)}@}. <!--SR:!2027-07-21,673,330!2027-01-30,498,310-->
 
 ### present value of a perpetuity
 

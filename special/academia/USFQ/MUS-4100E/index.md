@@ -123,7 +123,7 @@ The content is in teaching order.
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2026-05-04,362,360!2026-06-08,370,360-->
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2025-09-25,181,335!2025-09-28,184,335-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2026-05-22,380,375!2026-05-21,379,375-->
-  - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2025-09-19,176,335!2026-01-13,273,355-->
+  - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2026-01-13,273,355-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2026-07-28,420,375!2026-01-12,273,355-->
   - American Revolutionary War / constitution ::@:: The original constitution talked heavily about inalienable rights, but many writers held slaves: three-fifths compromise. <!--SR:!2026-01-11,271,355!2025-10-02,186,335-->
 - [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2026-01-17,277,355!2026-06-29,391,375-->
@@ -472,14 +472,14 @@ The content is in teaching order.
   - Dizzy Gillespie / works ::@:: "Salt Peanuts" \(1941\) — Dizzy Gillespie <br/> "Manteca" \(1947\) — Dizzy Gillespie <!--SR:!2025-10-20,139,420!2025-10-25,144,420-->
   - Dizzy Gillespie / bebop ::@:: He was extremely funny. He was a good jazz ambassador. He was one of the few bebop musicians to not do hard drugs. <!--SR:!2027-01-17,533,414!2026-07-16,385,394-->
 - [Charlie Parker](../../../../general/Charlie%20Parker.md) \(1920–1955\) ::@:: father of bebop; from Kansas City; started as a blues musicians and played in big bands <!--SR:!2027-11-02,784,434!2027-01-22,538,414-->
-  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2027-10-20,773,434!2025-09-19,142,414-->
+  - Charlie Parker / life ::@:: He was a diaster of a person. He constantly missed work to do drugs. He even sold his sax for drugs. He died at 34, and the corner thought his body was 50s or 60s. <!--SR:!2027-10-20,773,434!2027-11-27,799,434-->
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2027-11-22,800,434!2027-10-19,772,434-->
 - bebop
   - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2027-10-09,763,434!2027-11-11,790,434-->
   - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2026-07-10,380,394!2027-10-23,775,434-->
 - [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2027-11-12,791,434!2025-09-20,143,414-->
 - bebop
-  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2027-01-23,539,414!2025-09-19,142,414-->
+  - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2027-01-23,539,414!2027-12-02,804,434-->
 - Charlie Parker
   - Charlie Parker / effects ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-09-23,146,414!2027-12-03,809,434-->
 - assignment: \(none\)

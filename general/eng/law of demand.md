@@ -52,7 +52,7 @@ Consider {@{the function $\ Q_{x}=f(P_{x};\mathbf {Y} )$}@}, where {@{$Q_{x}$ is
 
 The law of demand states that {@{${\frac {\partial f}{\partial P_{x} } }<0$}@}. Here {@{$\partial /\partial P_{x}$ is the [partial derivative](partial%20derivative.md) operator}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-10-24,268,330!2026-01-29,349,349-->
 
-The above equation, when {@{plotted with quantity demanded ($Q_{x}$) on the $x$-axis and price ($P_{x}$) on the $y$-axis}@}, gives {@{the [demand curve](demand%20curve.md), which is also known as the demand schedule}@}. The demand curve is {@{downward sloping illustrating the inverse relationship between quantity demanded and price}@}. Therefore, {@{a downward sloping demand curve embeds the law of demand}@}. <!--SR:!2025-11-03,275,330!2026-01-10,334,349!2026-01-31,351,349!2025-09-19,240,330-->
+The above equation, when {@{plotted with quantity demanded ($Q_{x}$) on the $x$-axis and price ($P_{x}$) on the $y$-axis}@}, gives {@{the [demand curve](demand%20curve.md), which is also known as the demand schedule}@}. The demand curve is {@{downward sloping illustrating the inverse relationship between quantity demanded and price}@}. Therefore, {@{a downward sloping demand curve embeds the law of demand}@}. <!--SR:!2025-11-03,275,330!2026-01-10,334,349!2026-01-31,351,349!2028-09-16,1093,350-->
 
 In a more specific manner:<sup>[\[3\]](#^ref-3)</sup> {@{$$Qdx=f(P_{x},I,P_{y},T)$$}@} which is {@{a functional relationship where the quantity demanded by the consumer $Qdx$}@} depends on {@{the price of the good $P_{x}$, the monetary income of the consumer $I$, the prices of other goods $P_{y}$, and the taste of the consumer $T$}@}. <!--SR:!2026-01-31,351,349!2025-09-27,230,329!2027-11-04,819,330-->
 

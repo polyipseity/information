@@ -623,7 +623,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[œ̃\]:@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!2031-04-16,2062,358-->
 - \[ɶ\]:@:[open front rounded vowel](open%20front%20rounded%20vowel.md) <!--SR:!2026-09-15,764,331-->
 - \[p\]:@:[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!2028-06-01,1309,351-->
-- \[q\]:@:[voiceless uvular plosive](voiceless%20uvular%20plosive.md) <!--SR:!2025-09-19,482,351-->
+- \[q\]:@:[voiceless uvular plosive](voiceless%20uvular%20plosive.md) <!--SR:!2026-05-24,247,331-->
 - \[r\]:@:[voiced alveolar trill](voiced%20alveolar%20trill.md) <!--SR:!2027-11-30,1181,371-->
 - \[ɾ\]:@:[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) <!--SR:!2026-08-13,735,352-->
 - \[ʀ\]:@:[voiced uvular trill](voiced%20uvular%20trill.md) <!--SR:!2028-11-19,1169,314-->
@@ -927,7 +927,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [nasalized open back unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**an**s_ [sɑ̃] "without" <!--SR:!2025-10-13,67,144-->
 - [open back rounded vowel](open%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɒt\] <!--SR:!2027-10-11,836,224-->
 - [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _g**u**t_ \[ɡʌt\] <!--SR:!2026-11-14,478,264-->
-- [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _c**a**t_ \[kʰæt\] <!--SR:!2025-09-19,57,130-->
+- [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _c**a**t_ \[kʰæt\] <!--SR:!2025-12-02,74,130-->
 - [voiced bilabial plosive](voiced%20bilabial%20plosive.md):@:[English](English%20language.md) _a**b**ack_ \[əˈbæk\] <!--SR:!2026-12-12,639,264-->
 - [voiced bilabial implosive](voiced%20bilabial%20implosive.md):@:[English](English%20language.md) _**b**ody_ \[ɓʌdi\] <!--SR:!2026-06-24,575,264-->
 - [voiced bilabial fricative](voiced%20bilabial%20fricative.md):@:[Spanish](Spanish%20language.md) _la**v**a_ \[ˈläβ̞ä\] "lava" <!--SR:!2026-07-05,337,204-->
@@ -948,7 +948,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [mid central vowel](mid%20central%20vowel.md):@:[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\] <!--SR:!2025-11-26,116,138-->
 - [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!2025-11-04,127,238-->
 - [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**e**d_ \[bɛd\] <!--SR:!2025-11-30,109,158-->
-- [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!2025-09-19,28,150-->
+- [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!2025-10-03,14,130-->
 - [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɜːd\] <!--SR:!2028-02-25,1039,278-->
 - [r-colored open-mid central unrounded vowel](r-colored%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɝːd\] <!--SR:!2025-11-06,196,297-->
 - [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md):@:[English](English%20language.md) _**f**ill_ \[fɪɫ\] <!--SR:!2026-10-23,533,237-->
@@ -998,7 +998,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced retroflex flap](voiced%20retroflex%20flap.md):@:[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf" <!--SR:!2025-10-16,63,130-->
 - [voiced alveolar approximant](voiced%20alveolar%20approximant.md):@:[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest" <!--SR:!2025-10-30,61,130-->
 - [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat" <!--SR:!2025-10-12,62,131-->
-- [voiced uvular fricative](voiced%20uvular%20fricative.md):@:[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay" <!--SR:!2025-09-19,68,150-->
+- [voiced uvular fricative](voiced%20uvular%20fricative.md):@:[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay" <!--SR:!2025-10-22,33,130-->
 - [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md):@:[English](English%20language.md) _**s**it_ \[sɪt\] <!--SR:!2026-08-31,504,271-->
 - [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\] <!--SR:!2025-11-12,138,191-->
 - [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md):@:[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle" <!--SR:!2025-10-09,68,130-->

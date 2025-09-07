@@ -13,7 +13,7 @@ tags:
 
 In {@{[statistics](statistics.md), [signal processing](signal%20processing.md), and [time series analysis](time%20series%20analysis.md)}@}, a {@{__sinusoidal model__}@} is used to {@{approximate a sequence _Y<sub>i</sub>_ to a [sine](sine.md) function}@}: {@{$$Y_{i}=C+\alpha \sin(\omega T_{i}+\phi )+E_{i}$$}@} where {@{_C_ is constant defining a [mean](mean.md) level, α is an [amplitude](amplitude.md) for the [sine](sine.md), ω is the [angular frequency](angular%20frequency.md)}@}, {@{_T<sub>i</sub>_ is a time variable, φ is the [phase-shift](phase-shift.md#phase%20shift), and _E<sub>i</sub>_ is the error sequence}@}. <!--SR:!2026-05-23,253,330!2025-09-22,67,310!2026-06-07,265,330!2026-06-17,273,330!2025-10-08,29,290!2025-10-08,20,359-->
 
-This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20least%20squares.md)}@}; to {@{obtain a good fit}@}, routines may {@{require good starting values for the unknown parameters}@}. {@{Fitting a model with a single sinusoid}@} is {@{a special case of [spectral density estimation](spectral%20density%20estimation.md) and [least-squares spectral analysis](least-squares%20spectral%20analysis.md)}@}. <!--SR:!2026-06-07,264,330!2026-04-27,232,330!2026-05-07,241,330!2026-06-04,263,330!2025-09-19,64,310-->
+This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20least%20squares.md)}@}; to {@{obtain a good fit}@}, routines may {@{require good starting values for the unknown parameters}@}. {@{Fitting a model with a single sinusoid}@} is {@{a special case of [spectral density estimation](spectral%20density%20estimation.md) and [least-squares spectral analysis](least-squares%20spectral%20analysis.md)}@}. <!--SR:!2026-06-07,264,330!2026-04-27,232,330!2026-05-07,241,330!2026-06-04,263,330!2026-06-25,279,330-->
 
 ## good starting values
 
@@ -29,7 +29,7 @@ This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20
 
 {@{The [root mean square](root%20mean%20square.md) of the detrended data}@} can be {@{scaled by the square root of two to obtain an estimate of the sinusoid amplitude}@}. \(annotation: This is because {@{the squared amplitude of a sinusoid is 2 times its mean square}@}.\) {@{A complex demodulation amplitude plot}@} can be used to {@{find a good starting value for the amplitude}@}. In addition, this plot can indicate {@{whether or not the amplitude is constant over the entire range of the data or if it varies}@}. If {@{the plot is essentially flat, i.e., zero slope}@}, then it is {@{reasonable to assume a constant amplitude in the non-linear model}@}. However, if {@{the slope varies over the range of the plot}@}, one may need to adjust the model to be: {@{$$Y_{i}=C+(B_{0}+B_{1}T_{i})\sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2025-09-21,66,310!2026-05-13,246,330!2026-05-22,253,330!2026-05-16,248,330!2026-06-05,263,330!2026-06-16,272,330!2026-05-12,245,330!2026-06-12,269,330!2026-05-02,237,330!2025-11-06,84,365-->
 
-That is, one may {@{replace α with a function of time}@}. {@{A linear fit}@} is specified in the model above, but this can be {@{replaced with a more elaborate function if needed}@}. <!--SR:!2026-04-26,231,330!2026-06-16,272,330!2025-09-19,64,310-->
+That is, one may {@{replace α with a function of time}@}. {@{A linear fit}@} is specified in the model above, but this can be {@{replaced with a more elaborate function if needed}@}. <!--SR:!2026-04-26,231,330!2026-06-16,272,330!2026-06-24,278,330-->
 
 ## model validation
 

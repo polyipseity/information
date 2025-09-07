@@ -53,7 +53,7 @@ For {@{uniqueness}@}, first note that {@{any set that satisfies \(\*\) is itself
 
 {@{This definition is convenient}@} because {@{the [principle of induction](mathematical%20induction.md) immediately follows}@}: If {@{$I\subseteq \omega$ is inductive, then also $\omega \subseteq I$, so that $I=\omega$}@}. <!--SR:!2026-01-02,290,330!2026-01-03,290,330!2026-01-03,290,330-->
 
-Both these methods {@{produce systems that satisfy the axioms of [second-order arithmetic](second-order%20arithmetic.md)}@}, since {@{the [axiom of power set](axiom%20of%20power%20set.md) allows us to quantify over the [power set](power%20set.md) of $\omega$, as in [second-order logic](second-order%20logic.md)}@}. Thus they both {@{completely determine [isomorphic](isomorphism.md) systems}@}, and since {@{they are isomorphic under the [identity map](identity%20function.md)}@}, {@{they must in fact be [equal](equality%20(mathematics).md)}@}. <!--SR:!2025-09-19,187,270!2026-08-20,400,290!2025-12-02,265,330!2026-01-05,292,330!2027-12-15,819,330-->
+Both these methods {@{produce systems that satisfy the axioms of [second-order arithmetic](second-order%20arithmetic.md)}@}, since {@{the [axiom of power set](axiom%20of%20power%20set.md) allows us to quantify over the [power set](power%20set.md) of $\omega$, as in [second-order logic](second-order%20logic.md)}@}. Thus they both {@{completely determine [isomorphic](isomorphism.md) systems}@}, and since {@{they are isomorphic under the [identity map](identity%20function.md)}@}, {@{they must in fact be [equal](equality%20(mathematics).md)}@}. <!--SR:!2027-08-25,705,290!2026-08-20,400,290!2025-12-02,265,330!2026-01-05,292,330!2027-12-15,819,330-->
 
 ## an apparently weaker version
 

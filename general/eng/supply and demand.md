@@ -107,7 +107,7 @@ If {@{supply or demand is a function of other variables besides price}@}, it may
 
 ### equilibrium
 
-Generally speaking, an equilibrium is defined to be {@{the price-quantity pair where the quantity demanded is equal to the quantity supplied}@}. It is represented by {@{the intersection of the demand and supply curves}@}. {@{The analysis of various equilibria}@} is {@{a fundamental aspect of [microeconomics](microeconomics.md)}@}. <!--SR:!2027-11-15,830,330!2026-01-31,353,350!2025-09-21,243,330!2025-09-19,242,330-->
+Generally speaking, an equilibrium is defined to be {@{the price-quantity pair where the quantity demanded is equal to the quantity supplied}@}. It is represented by {@{the intersection of the demand and supply curves}@}. {@{The analysis of various equilibria}@} is {@{a fundamental aspect of [microeconomics](microeconomics.md)}@}. <!--SR:!2027-11-15,830,330!2026-01-31,353,350!2025-09-21,243,330!2028-09-24,1101,350-->
 
 #### market equilibrium
 
@@ -147,7 +147,7 @@ When {@{technological progress occurs}@}, {@{the supply curve shifts}@}. For exa
 
 {@{Partial equilibrium}@}, as the name suggests, {@{takes into consideration only a part of the market to attain equilibrium}@}. <!--SR:!2025-10-23,268,330!2026-01-19,343,350-->
 
-Jain proposes (attributed to [George Stigler](George%20Stigler.md)): "A partial equilibrium is {@{one which is based on only a restricted range of data}@}, a standard example is {@{price of a single product, the prices of all other products being held fixed during the analysis}@}."<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-06-28,722,330!2025-09-19,242,330-->
+Jain proposes (attributed to [George Stigler](George%20Stigler.md)): "A partial equilibrium is {@{one which is based on only a restricted range of data}@}, a standard example is {@{price of a single product, the prices of all other products being held fixed during the analysis}@}."<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-06-28,722,330!2028-09-23,1100,350-->
 
 The supply-and-demand model is {@{a __partial equilibrium__ model of [economic equilibrium](economic%20equilibrium.md)}@}, where {@{the clearance on the [market](market%20(economics).md) of some specific [goods](goods.md) is obtained independently from prices and quantities in other markets}@}. In other words, {@{the prices of all [substitutes](substitute%20good.md) and [complements](complementary%20good.md), as well as [income](income.md) levels of [consumers](consumer.md) are constant}@}. This makes {@{analysis much simpler than in a [general equilibrium](general%20equilibrium%20theory.md) model which includes an entire economy}@}. <!--SR:!2025-10-13,261,330!2025-10-04,239,330!2027-09-12,779,330!2028-08-12,1068,350-->
 

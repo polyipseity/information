@@ -15,7 +15,7 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ## frequency filter
 
-{@{A _frequency filter_}@} is {@{a function in the frequency domain}@}. After {@{transforming a sound into frequency domain}@}, we simply {@{element-wise multiply with the filter}@}. Equivalently, {@{their magnitudes are multiplied together}@} and {@{their phases are added together}@}. The effect of the filter in the time domain is to {@{convolute the time signal with the impulse response \(IDFT\) of the filter}@}. <!--SR:!2026-05-25,253,330!2025-09-23,67,310!2025-09-19,63,310!2025-09-23,67,310!2025-09-23,67,310!2026-05-23,251,330!2026-04-25,227,330-->
+{@{A _frequency filter_}@} is {@{a function in the frequency domain}@}. After {@{transforming a sound into frequency domain}@}, we simply {@{element-wise multiply with the filter}@}. Equivalently, {@{their magnitudes are multiplied together}@} and {@{their phases are added together}@}. The effect of the filter in the time domain is to {@{convolute the time signal with the impulse response \(IDFT\) of the filter}@}. <!--SR:!2026-05-25,253,330!2025-09-23,67,310!2026-06-20,274,330!2025-09-23,67,310!2025-09-23,67,310!2026-05-23,251,330!2026-04-25,227,330-->
 
 ### equalization
 
@@ -29,7 +29,7 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ## sinusoidal spectral modeling
 
-Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies, amplitudes, and \(initial\) phases of each sinusoid in each STFT frame}@}. Common effects include {@{amplitude scaling, pitch scaling, and time stretching}@}. If {@{a residual model is used in combination}@}, often {@{no effects or only frequency transformations are applied \(time stretching is difficult to apply\)}@}. If {@{a stochastic model used in combination}@}, it is {@{often transformed by the same effect or a different simpler effect \(e.g. only amplitude scaling\)}@}. <!--SR:!2026-05-31,258,330!2025-09-23,67,310!2025-09-19,63,310!2026-04-29,231,330!2026-06-04,261,330!2026-05-02,234,330!2026-05-15,245,330-->
+Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies, amplitudes, and \(initial\) phases of each sinusoid in each STFT frame}@}. Common effects include {@{amplitude scaling, pitch scaling, and time stretching}@}. If {@{a residual model is used in combination}@}, often {@{no effects or only frequency transformations are applied \(time stretching is difficult to apply\)}@}. If {@{a stochastic model used in combination}@}, it is {@{often transformed by the same effect or a different simpler effect \(e.g. only amplitude scaling\)}@}. <!--SR:!2026-05-31,258,330!2025-09-23,67,310!2026-06-21,275,330!2026-04-29,231,330!2026-06-04,261,330!2026-05-02,234,330!2026-05-15,245,330-->
 
 ### amplitude scaling \(sinusoidal\)
 
@@ -37,7 +37,7 @@ Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies,
 
 ### pitch scaling \(sinusoidal\)
 
-{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or use a frequency scaling envelope that maps old frequencies to new frequencies\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2025-09-23,67,310!2026-05-22,251,330!2026-06-11,267,330!2026-06-09,265,330!2025-09-23,67,310!2025-09-19,63,310!2026-05-12,242,330!2026-05-16,246,330!2026-05-13,243,330!2025-09-23,67,310-->
+{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or use a frequency scaling envelope that maps old frequencies to new frequencies\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2025-09-23,67,310!2026-05-22,251,330!2026-06-11,267,330!2026-06-09,265,330!2025-09-23,67,310!2026-06-19,273,330!2026-05-12,242,330!2026-05-16,246,330!2026-05-13,243,330!2025-09-23,67,310-->
 
 ### time stretching \(sinusoidal\)
 
