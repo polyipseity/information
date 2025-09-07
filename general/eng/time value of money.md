@@ -91,7 +91,7 @@ __Where _i_ ≠ _g_ :__ ::@:: $$PV(A)\,=\,{A \over (i-g)}\left[1-\left({1+g \ove
 
 __Where _i_ = _g_ :__ ::@:: $$PV(A)\,=\,{A\times n \over 1+i}$$ (annotation: the additional denominator below is due to payments being made at period end instead of period start)
 
-To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\) (annotation: note that $A$ is defined to be the first payment, so there is no need to divide by the growth factor)}@}.
+To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\)}@}. \(annotation: Note that $A$ is {@{defined to be the first payment}@}, so there is {@{no need to divide by the growth factor}@}\)
 
 ### present value of a perpetuity
 
