@@ -85,6 +85,7 @@ tags:
 
 - [ACCT 3010](ACCT%203010/index.md): Financial Accounting I \(3 credits\)
 - [COMP 3031](COMP%203031/index.md): Principles of Programming Languages \(3 credits\)
+- [COMP 3111H](COMP%203111H/index.md): Honors Software Engineering \(4 credits\)
 - [FINA 3103](FINA%203103/index.md): Intermediate Investments \(3 credits\)
 - [FINA 3203](FINA%203203/index.md): Derivative Securities \(3 credits\)
 
