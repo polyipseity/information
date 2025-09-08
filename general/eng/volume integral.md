@@ -24,7 +24,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Calculus) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Calculus) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACalculus) | -->
 
-In {@{[mathematics](mathematics.md) \(particularly [multivariable calculus](multivariable%20calculus.md)\)}@}, {@{a __volume integral__ \(∭\)}@} is {@{an [integral](integral.md) over a [3-dimensional](three-dimensional%20space.md) domain}@}; that is, it is a special case of {@{[multiple integrals](multiple%20integral.md)}@}. Volume integrals are especially important in {@{[physics](physics.md) for many applications, for example, to calculate [flux](flux.md) densities, or to calculate mass from a corresponding density function}@}. <!--SR:!2026-06-02,257,330!2025-09-20,61,310!2026-05-25,251,330!2025-09-24,65,310!2026-03-24,187,310-->
+In {@{[mathematics](mathematics.md) \(particularly [multivariable calculus](multivariable%20calculus.md)\)}@}, {@{a __volume integral__ \(∭\)}@} is {@{an [integral](integral.md) over a [3-dimensional](three-dimensional%20space.md) domain}@}; that is, it is a special case of {@{[multiple integrals](multiple%20integral.md)}@}. Volume integrals are especially important in {@{[physics](physics.md) for many applications, for example, to calculate [flux](flux.md) densities, or to calculate mass from a corresponding density function}@}. <!--SR:!2026-06-02,257,330!2026-06-13,266,330!2026-05-25,251,330!2025-09-24,65,310!2026-03-24,187,310-->
 
 ## in coordinates
 
@@ -32,9 +32,9 @@ Often the volume integral is represented in terms of {@{a differential volume el
 
 ## example
 
-Integrating {@{the equation $f(x,y,z)=1$ over a unit cube}@} yields the following result: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}1\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}(1-0)\,dy\,dz=\int _{0}^{1}\left(1-0\right)dz=1-0=1$$}@} <!--SR:!2025-09-21,62,310!2025-09-20,61,310-->
+Integrating {@{the equation $f(x,y,z)=1$ over a unit cube}@} yields the following result: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}1\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}(1-0)\,dy\,dz=\int _{0}^{1}\left(1-0\right)dz=1-0=1$$}@} <!--SR:!2025-09-21,62,310!2026-06-14,267,330-->
 
-So {@{the volume of the unit cube is 1}@} as expected. This is {@{rather trivial however}@}, and a volume integral is {@{far more powerful}@}. For instance if we have {@{a scalar density function on the unit cube}@} then {@{the volume integral will give the total mass of the cube}@}. For example for density function: {@{$${\begin{cases}f:\mathbb {R} ^{3}\to \mathbb {R} \\f:(x,y,z)\mapsto x+y+z\end{cases} }$$}@} {@{the total mass of the cube}@} is: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}(x+y+z)\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}\left({\frac {1}{2} }+y+z\right)dy\,dz=\int _{0}^{1}(1+z)\,dz={\frac {3}{2} }$$}@} <!--SR:!2025-09-25,66,310!2025-09-21,62,310!2026-05-24,250,330!2025-09-26,67,310!2025-09-26,67,310!2025-09-22,63,310!2026-06-06,260,330!2025-09-20,61,310-->
+So {@{the volume of the unit cube is 1}@} as expected. This is {@{rather trivial however}@}, and a volume integral is {@{far more powerful}@}. For instance if we have {@{a scalar density function on the unit cube}@} then {@{the volume integral will give the total mass of the cube}@}. For example for density function: {@{$${\begin{cases}f:\mathbb {R} ^{3}\to \mathbb {R} \\f:(x,y,z)\mapsto x+y+z\end{cases} }$$}@} {@{the total mass of the cube}@} is: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}(x+y+z)\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}\left({\frac {1}{2} }+y+z\right)dy\,dz=\int _{0}^{1}(1+z)\,dz={\frac {3}{2} }$$}@} <!--SR:!2025-09-25,66,310!2025-09-21,62,310!2026-05-24,250,330!2025-09-26,67,310!2025-09-26,67,310!2025-09-22,63,310!2026-06-06,260,330!2026-06-15,268,330-->
 
 ## see also
 

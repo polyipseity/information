@@ -167,7 +167,7 @@ The solution of the above differential equation, $f(t) = f(0) e^{\lambda t}$, is
 
 ## general definition
 
-The concept of eigenvalues and eigenvectors extends naturally to {@{arbitrary [linear transformations](linear%20map.md) on arbitrary [vector spaces](vector%20space.md)}@}. Let $V$ be {@{any vector space over some [field](field%20(mathematics).md) $K$ of [scalars](scalar%20(mathematics).md), and let $T$ be a linear transformation mapping $V$ into itself, $$T : V \to V$$}@}. <!--SR:!2028-05-26,1103,370!2025-09-20,345,370-->
+The concept of eigenvalues and eigenvectors extends naturally to {@{arbitrary [linear transformations](linear%20map.md) on arbitrary [vector spaces](vector%20space.md)}@}. Let $V$ be {@{any vector space over some [field](field%20(mathematics).md) $K$ of [scalars](scalar%20(mathematics).md), and let $T$ be a linear transformation mapping $V$ into itself, $$T : V \to V$$}@}. <!--SR:!2028-05-26,1103,370!2029-03-24,1281,370-->
 
 We say that {@{a nonzero [vector](vector%20space.md) $\mathbf v \in V_{\ne \mathbf 0}$}@} is an __eigenvector__ of $T$ {@{[iff](if%20and%20only%20if.md) there exists a [scalar](scalar%20(mathematics).md) $\lambda \in K$ such that $$T(\mathbf v) = \lambda \mathbf v$$}@}. This equation is called {@{the __eigenvalue equation__ for $T$, and the scalar $\lambda$ is the __eigenvalue__ of $T$ corresponding to the eigenvector $\mathbf v$}@}. $T(\mathbf v)$ is {@{the result of applying the transformation $T$ to the vector $\mathbf v$, while $\lambda \mathbf v$ is the product of the scalar $\lambda$ with $\mathbf v$}@}. <!--SR:!2025-10-27,377,370!2026-01-10,437,370!2028-11-02,1240,370!2025-12-15,416,370-->
 

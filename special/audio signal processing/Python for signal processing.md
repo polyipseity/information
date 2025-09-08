@@ -22,7 +22,7 @@ NumPy \(`numpy`\) is {@{a Python library allowing one to manipulate arrays of nu
 
 ## complex number
 
-Python has {@{builtin support (no libraries needed) for complex numbers}@}. The imaginary unit is {@{denoted `j`}@}. To create a complex number, write code {@{as if you are writing the complex number in other contexts (e.g. `4 + 2j`)}@}. It can be used with {@{[NumPy](#NumPy) and [`matplotlib`](#matplotlib)}@}. <!--SR:!2025-09-20,313,339!2025-10-13,330,339!2029-05-14,1358,359!2029-07-24,1415,359-->
+Python has {@{builtin support (no libraries needed) for complex numbers}@}. The imaginary unit is {@{denoted `j`}@}. To create a complex number, write code {@{as if you are writing the complex number in other contexts (e.g. `4 + 2j`)}@}. It can be used with {@{[NumPy](#NumPy) and [`matplotlib`](#matplotlib)}@}. <!--SR:!2029-09-20,1461,359!2025-10-13,330,339!2029-05-14,1358,359!2029-07-24,1415,359-->
 
 ## useful functions
 

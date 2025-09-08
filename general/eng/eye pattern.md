@@ -149,7 +149,7 @@ In the image below, {@{a roughly 1-inch \(25 mm\) open circuited stub}@} is {@{p
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal with a one-inch stub](../../archives/Wikimedia%20Commons/Eye%20pattern%20mismatch.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} with {@{a one-inch stub}@} <!--SR:!2025-09-25,15,290!2025-09-26,16,290!2025-09-20,10,270!2025-09-25,15,290-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} with {@{a one-inch stub}@} <!--SR:!2025-09-25,15,290!2025-09-26,16,290!2025-10-29,39,290!2025-09-25,15,290-->
 
 In the image below, {@{an additional three inches of cable}@} is {@{added to the end of the same stub}@}. {@{The same "step" is present}@} but is now {@{four times as long}@}, producing {@{reflections at about 1280 ps or 1.6 UI}@}. This produces {@{extreme ISI}@} \(since {@{the reflection of each UI arrives during the subsequent UI}@}\) which {@{completely closes the eye}@}. <!--SR:!2025-09-26,16,290!2025-09-26,16,290!2025-09-26,16,290!2025-09-24,14,290!2025-09-26,16,290!2025-09-25,15,290!2025-09-26,16,290!2025-09-24,14,290-->
 

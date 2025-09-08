@@ -17,7 +17,7 @@ tags:
 
 ## probabilistic model
 
-Abstractly, naive Bayes classifier is {@{a [conditional probability](conditional%20probability.md) model}@}. The problem to be solved is: Given a sample with {@{$n$ features ($n$ inputs)}@}, assign {@{the conditional probability of the sample belonging to a class (1 output) for each of the $K$ possible classes}@}. The $n$ inputs are represented by {@{a vector $\mathbf{x} = (x_1, \ldots, x_n)$}@}. The $k$-th class of the $K$ possible classes is represented by {@{$C_k$}@}. Then the conditional probability is mathematically {@{$p(C_k \mid \mathbf{x})$}@}. <!--SR:!2027-10-14,914,330!2028-10-20,1236,350!2025-09-20,308,290!2028-09-17,1210,350!2028-12-22,1284,350!2027-02-17,742,330-->
+Abstractly, naive Bayes classifier is {@{a [conditional probability](conditional%20probability.md) model}@}. The problem to be solved is: Given a sample with {@{$n$ features ($n$ inputs)}@}, assign {@{the conditional probability of the sample belonging to a class (1 output) for each of the $K$ possible classes}@}. The $n$ inputs are represented by {@{a vector $\mathbf{x} = (x_1, \ldots, x_n)$}@}. The $k$-th class of the $K$ possible classes is represented by {@{$C_k$}@}. Then the conditional probability is mathematically {@{$p(C_k \mid \mathbf{x})$}@}. <!--SR:!2027-10-14,914,330!2028-10-20,1236,350!2029-02-12,1241,310!2028-09-17,1210,350!2028-12-22,1284,350!2027-02-17,742,330-->
 
 Using {@{[Bayes' theorem](Bayes'%20theorem.md)}@}, the {@{required conditional probability}@} can be written as: {@{$$p(C_k \mid \mathbf{x}) = \frac {p(C_k) p(\mathbf{x} \mid C_k)} {p(\mathbf{x})}$$}@}. <!--SR:!2028-11-24,1260,350!2026-12-30,704,330!2027-01-19,725,330-->
 

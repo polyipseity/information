@@ -39,7 +39,7 @@ When {@{the variable $x$ is a positive integer}@}, {@{the number $(x)_{n}$}@} is
 
 ## properties
 
-The rising and falling factorials are {@{simply related to one another}@}: {@{$${\begin{alignedat}{2}{(x)}_{n}&={(x-n+1)}^{(n)}&&=(-1)^{n}(-x)^{(n)},\\x^{(n)}&={(x+n-1)}_{n}&&=(-1)^{n}(-x)_{n}.\end{alignedat} }$$}@} (annotation: The middle expression is trivial to obtain, while the rightmost expression can be obtained by {@{negating the term inside parentheses and multiplying by $(-1)^n$ outside}@}.) <!--SR:!2025-09-20,254,330!2025-11-03,288,330!2025-10-12,271,330-->
+The rising and falling factorials are {@{simply related to one another}@}: {@{$${\begin{alignedat}{2}{(x)}_{n}&={(x-n+1)}^{(n)}&&=(-1)^{n}(-x)^{(n)},\\x^{(n)}&={(x+n-1)}_{n}&&=(-1)^{n}(-x)_{n}.\end{alignedat} }$$}@} (annotation: The middle expression is trivial to obtain, while the rightmost expression can be obtained by {@{negating the term inside parentheses and multiplying by $(-1)^n$ outside}@}.) <!--SR:!2028-11-23,1160,350!2025-11-03,288,330!2025-10-12,271,330-->
 
 Falling and rising factorials of integers are {@{directly related to the ordinary [factorial](factorial.md)}@}: {@{$${\begin{aligned}n!&=1^{(n)}=(n)_{n},\\[6pt](m)_{n}&={\frac {m!}{(m-n)!} },\\[6pt]m^{(n)}&={\frac {(m+n-1)!}{(m-1)!} }.\end{aligned} }$$}@} <!--SR:!2025-10-30,284,330!2028-10-13,1126,350-->
 
@@ -65,7 +65,7 @@ Falling and rising factorials are {@{closely related to [Stirling numbers](Stirl
 
 And the inverse relations {@{uses [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@}: {@{$${\begin{aligned}x^{n}&=\sum _{k=0}^{n}{\begin{Bmatrix}n\\k\end{Bmatrix} }(x)_{k}\\&=\sum _{k=0}^{n}{\begin{Bmatrix}n\\k\end{Bmatrix} }(-1)^{n-k}x^{(k)}.\end{aligned} }$$}@} (annotation: The change of basis to the falling factorials uses {@{unsigned and that to the rising factorials uses signed}@}.) <!--SR:!2025-10-06,267,330!2025-11-02,242,270!2025-10-26,235,270-->
 
-The falling and rising factorials are {@{related to one another through the [Lah numbers](Lah%20number.md) $L(n,k)={\binom {n-1}{k-1} }{\frac {n!}{k!} }$}@}:<sup>[\[9\]](#^ref-9)</sup> {@{$${\begin{aligned}x^{(n)}&=\sum _{k=0}^{n}L(n,k)(x)_{k}\\(x)_n&=\sum _{k=0}^{n}L(n,k)(-1)^{n-k}x^{(k)}\end{aligned} }$$}@} (annotation: The change of basis to the falling factorials {@{use unsigned while that to the rising factorials uses signed}@}.) <!--SR:!2025-09-20,254,330!2026-06-07,389,290!2025-10-26,280,330-->
+The falling and rising factorials are {@{related to one another through the [Lah numbers](Lah%20number.md) $L(n,k)={\binom {n-1}{k-1} }{\frac {n!}{k!} }$}@}:<sup>[\[9\]](#^ref-9)</sup> {@{$${\begin{aligned}x^{(n)}&=\sum _{k=0}^{n}L(n,k)(x)_{k}\\(x)_n&=\sum _{k=0}^{n}L(n,k)(-1)^{n-k}x^{(k)}\end{aligned} }$$}@} (annotation: The change of basis to the falling factorials {@{use unsigned while that to the rising factorials uses signed}@}.) <!--SR:!2028-11-22,1159,350!2026-06-07,389,290!2025-10-26,280,330-->
 
 Since {@{the falling factorials are a basis for the [polynomial ring](polynomial%20ring.md)}@}, one can {@{express the product of two of them as a [linear combination](linear%20combination.md) of falling factorials}@}:<sup>[\[10\]](#^ref-10)</sup> {@{$$(x)_{m}(x)_{n}=\sum _{k=0}^{m}{\binom {m}{k} }{\binom {n}{k} }k!\cdot (x)_{m+n-k}\ .$$}@} {@{The coefficients ${\tbinom {m}{k} }{\tbinom {n}{k} }k!$}@} are {@{called _connection coefficients_}@}, and have a combinatorial interpretation as {@{the number of ways to identify (or "glue together") _k_ elements each from a set of size _m_ and a set of size _n_}@}. <!--SR:!2027-03-22,613,310!2026-06-12,274,270!2026-05-27,281,250!2026-10-19,529,310!2025-11-01,286,330!2025-11-03,288,330-->
 
@@ -74,7 +74,7 @@ There is also a connection formula for {@{the ratio of two rising factorials}@} 
 Additionally, we can {@{expand generalized exponent laws and negative rising and falling powers}@} through the following identities:<sup>[\[11\]](#^ref-11)</sup><sup>[\[52\]](#^ref-52)</sup> <!--SR:!2025-10-03,264,330-->
 
 - generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2025-11-05,290,330!2025-10-16,275,330-->
-- generalized exponent law for rising factorial ::@:: $$x^{(m+n)}=x^{(m)}(x+m)^{(n)}=x^{(n)}(x+n)^{(m)}$$ <!--SR:!2025-09-20,254,330!2025-09-21,255,330-->
+- generalized exponent law for rising factorial ::@:: $$x^{(m+n)}=x^{(m)}(x+m)^{(n)}=x^{(n)}(x+n)^{(m)}$$ <!--SR:!2028-11-21,1158,350!2025-09-21,255,330-->
 - negative rising factorial ::@:: $$x^{(-n)}={\frac {\Gamma (x-n)}{\Gamma (x)} }={\frac {(x-n-1)!}{(x-1)!} }={\frac {1}{(x-n)^{(n)} } }={\frac {1}{(x-1)_{n} } }={\frac {1}{(x-1)(x-2)\cdots (x-n)} }$$ <!--SR:!2025-11-04,240,270!2026-11-15,550,310-->
 - negative falling factorial ::@:: $$(x)_{-n}={\frac {\Gamma (x+1)}{\Gamma (x+n+1)} }={\frac {x!}{(x+n)!} }={\frac {1}{(x+n)_{n} } }={\frac {1}{(x+1)^{(n)} } }={\frac {1}{(x+1)(x+2)\cdots (x+n)} }$$ <!--SR:!2026-06-14,396,290!2025-11-07,242,270-->
 

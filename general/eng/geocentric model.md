@@ -19,7 +19,7 @@ tags:
 
 ## Ancient Greece
 
-In {@{the 4th century BC}@}, two influential Greek philosophers, {@{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}@}, wrote works {@{based on the geocentric model}@}. <!--SR:!2027-06-21,747,280!2025-10-13,363,360!2025-09-20,345,360-->
+In {@{the 4th century BC}@}, two influential Greek philosophers, {@{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}@}, wrote works {@{based on the geocentric model}@}. <!--SR:!2027-06-21,747,280!2025-10-13,363,360!2030-05-21,1704,380-->
 
 ## Ptolemaic model
 

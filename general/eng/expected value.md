@@ -57,7 +57,7 @@ More than {@{a hundred years later, in 1814, [Pierre-Simon Laplace](Pierre-Simon
 
 ## notations
 
-{@{The use of the letter E to denote "expected value"}@} goes back to {@{[W. A. Whitworth](William%20Allen%20Whitworth.md) in 1901}@}.<sup>[\[9\]](#^ref-9)</sup> The symbol has since {@{become popular for English writers}@}. In {@{German, E stands for _Erwartungswert_}@}, in {@{Spanish for _esperanza matemática_}@}, and in {@{French for _espérance mathématique_}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-12-25,278,330!2025-09-20,183,270!2025-11-22,253,330!2026-11-23,519,310!2025-09-22,185,270!2025-12-21,276,330-->
+{@{The use of the letter E to denote "expected value"}@} goes back to {@{[W. A. Whitworth](William%20Allen%20Whitworth.md) in 1901}@}.<sup>[\[9\]](#^ref-9)</sup> The symbol has since {@{become popular for English writers}@}. In {@{German, E stands for _Erwartungswert_}@}, in {@{Spanish for _esperanza matemática_}@}, and in {@{French for _espérance mathématique_}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-12-25,278,330!2027-08-11,690,290!2025-11-22,253,330!2026-11-23,519,310!2025-09-22,185,270!2025-12-21,276,330-->
 
 When {@{"E" is used to denote "expected value"}@}, authors use {@{a variety of stylizations}@}: the expectation operator can be {@{stylized as E \(upright\), _E_ \(italic\), or $\mathbb {E}$ \(in [blackboard bold](blackboard%20bold.md)\)}@}, while a variety of {@{bracket notations \(such as E\(_X_\), E\[_X_\], and E<!-- markdown separator -->_X_\) are all used}@}. <!--SR:!2025-12-19,274,330!2025-12-13,268,330!2026-01-06,287,330!2026-01-07,288,330-->
 

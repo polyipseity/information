@@ -35,7 +35,7 @@ Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the ex
 
 {@{The term __Eulerian graph__}@} has {@{two common meanings in graph theory}@}. One meaning is {@{a graph with an Eulerian circuit}@}, and the other is {@{a graph with every vertex of even degree}@}. These definitions {@{coincide for connected graphs}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-12-12,299,336!2026-04-01,391,362!2026-04-07,397,362!2026-02-27,364,362!2026-03-10,374,362-->
 
-For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2026-02-05,344,350!2026-03-04,368,362!2027-09-16,778,342!2026-03-06,370,362!2026-03-26,387,362!2025-10-21,255,342!2026-04-04,394,362!2025-09-20,214,316!2025-12-16,302,336-->
+For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two vertices have an [odd](parity%20(mathematics).md) degree}@}; this means {@{the Königsberg graph is _not_ Eulerian}@}. If {@{there are no vertices of odd degree}@}, {@{all Eulerian trails are circuits}@}. If {@{there are exactly two vertices of odd degree}@}, {@{all Eulerian trails start at one of them and end at the other}@}. {@{A graph that has an Eulerian trail but not an Eulerian circuit}@} is {@{called __semi-Eulerian__}@}. <!--SR:!2026-02-05,344,350!2026-03-04,368,362!2027-09-16,778,342!2026-03-06,370,362!2026-03-26,387,362!2025-10-21,255,342!2026-04-04,394,362!2028-04-12,935,336!2025-12-16,302,336-->
 
 ## definition
 
@@ -55,7 +55,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 - An undirected graph can be decomposed into edge-disjoint [cycles](cycle%20(graph%20theory).md) ::@:: if and only if all of its vertices have even degree. So, a graph has an Eulerian cycle if and only if it can be decomposed into edge-disjoint cycles and its nonzero-degree vertices belong to a single connected component. <!--SR:!2027-09-20,749,342!2028-07-21,1049,362-->
 - An undirected graph has an Eulerian trail ::@:: if and only if exactly zero or two vertices have odd degree, and all of its vertices with nonzero degree belong to a single connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-12,259,342!2028-03-30,926,336-->
 - A directed graph has an Eulerian cycle ::@:: if and only if every vertex has equal [in degree](degree%20(graph%20theory).md) and [out degree](degree%20(graph%20theory).md), and all of its vertices with nonzero degree belong to a single [strongly connected component](strongly%20connected%20component.md). <!--SR:!2028-03-27,923,336!2025-09-28,235,342-->
-  - Equivalently, a directed graph has an Eulerian cycle ::@:: if and only if it can be decomposed into edge-disjoint [directed cycles](cycle%20(graph%20theory).md) and all of its vertices with nonzero degree belong to a single strongly connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-09-20,227,330!2025-11-01,263,342-->
+  - Equivalently, a directed graph has an Eulerian cycle ::@:: if and only if it can be decomposed into edge-disjoint [directed cycles](cycle%20(graph%20theory).md) and all of its vertices with nonzero degree belong to a single strongly connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-07-20,1034,350!2025-11-01,263,342-->
 - A directed graph has an Eulerian trail ::@:: if and only if at most one vertex has \([out-degree](degree%20(graph%20theory).md)\) − \([in-degree](degree%20(graph%20theory).md)\) = 1, at most one vertex has \(in-degree\) − \(out-degree\) = 1, every other vertex has equal in-degree and out-degree, and all of its vertices with nonzero degree belong to a single connected component of the underlying undirected graph.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-07,253,330!2025-11-04,251,330-->
 
 ## constructing Eulerian trails and circuits
@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2025-09-27,234,342!2026-02-11,353,362!2026-04-03,393,362!2025-10-22,256,342!2025-09-20,227,330!2026-02-02,346,362!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2025-09-27,234,342!2026-02-11,353,362!2026-04-03,393,362!2025-10-22,256,342!2028-07-18,1032,350!2026-02-02,346,362!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 

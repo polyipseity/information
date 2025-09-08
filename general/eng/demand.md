@@ -57,7 +57,7 @@ A demand function states {@{the relationship between the demand for a product an
 
 Demand curve is {@{a graphical presentation of the "[law of demand](law%20of%20demand.md)"}@}.<sup>[\[8\]](#^ref-8)</sup> The curve shows {@{how the price of a commodity or service changes as the quantity demanded increases}@}. Every point on the curve is {@{an amount of consumer demand and the corresponding market price}@}. The graph shows {@{the law of demand, which states that people will buy less of something if the price goes up and vice versa}@}. According to {@{Kotler, eight demand states are possible}@}: <!--SR:!2025-12-05,297,344!2025-12-09,300,344!2028-07-25,1043,350!2025-12-05,297,344!2025-12-06,298,344-->
 
-1. Negative demand — ::@:: Consumers dislike the product and may even pay to avoid it. <!--SR:!2025-12-24,311,344!2025-09-20,216,324-->
+1. Negative demand — ::@:: Consumers dislike the product and may even pay to avoid it. <!--SR:!2025-12-24,311,344!2027-08-24,703,324-->
 2. Nonexistent demand — ::@:: Consumers may be unaware of or uninterested in the product. <!--SR:!2026-01-11,325,344!2026-01-26,338,344-->
 3. Latent demand — ::@:: Consumers may share a strong need that cannot be satisfied by an existing product. <!--SR:!2025-10-13,252,330!2025-12-26,313,344-->
 4. Declining demand — ::@:: Consumers begin to buy the product less frequently or not at all. <!--SR:!2025-12-04,296,344!2026-01-30,341,344-->

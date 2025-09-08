@@ -52,11 +52,11 @@ Costs that are excluded from opportunity cost include {@{[sunk costs](#sunk%20co
 
 Sunk costs (also referred to as {@{historical costs}@}) are {@{costs that have been incurred already and cannot be recovered}@}. As {@{sunk costs have already been incurred}@}, they {@{remain unchanged and should not influence present or future actions or decisions regarding benefits and costs}@}.<sup>[\[11\]](#^ref-11)</sup> Decision makers who recognise the insignificance of sunk costs then understand that {@{the "consequences of choices cannot influence choice itself"}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-10-10,290,330!2026-11-20,597,330!2025-10-06,286,330!2028-09-30,1137,350!2028-09-07,1117,350-->
 
-From {@{the traceability source of costs}@}, sunk costs can be {@{direct costs or indirect costs}@}. If {@{the sunk cost can be summarized as a single component}@}, it is {@{a direct cost}@}; if {@{it is caused by several products or departments}@}, it is {@{an indirect cost}@}. <!--SR:!2028-10-15,1149,350!2028-10-30,1162,350!2026-02-02,366,310!2026-07-04,483,310!2025-10-14,294,330!2025-09-20,276,330-->
+From {@{the traceability source of costs}@}, sunk costs can be {@{direct costs or indirect costs}@}. If {@{the sunk cost can be summarized as a single component}@}, it is {@{a direct cost}@}; if {@{it is caused by several products or departments}@}, it is {@{an indirect cost}@}. <!--SR:!2028-10-15,1149,350!2028-10-30,1162,350!2026-02-02,366,310!2026-07-04,483,310!2025-10-14,294,330!2029-02-28,1257,350-->
 
 Analyzing from {@{the composition of costs}@}, sunk costs can be {@{either fixed costs or variable costs}@}. When {@{a company abandons a certain component or stops processing a certain product}@}, the sunk cost usually includes {@{fixed costs such as rent for equipment and wages, but it also includes variable costs due to changes in time or materials}@}. Usually, {@{fixed costs are more likely}@} to constitute sunk costs. <!--SR:!2025-09-21,277,330!2028-08-04,1094,350!2027-03-17,684,330!2026-09-02,538,330!2028-08-10,1097,350-->
 
-Generally speaking, {@{the stronger the liquidity, versatility, and compatibility of the asset}@}, {@{the less its sunk cost will be}@}. <!--SR:!2025-09-20,276,330!2028-10-23,1156,350-->
+Generally speaking, {@{the stronger the liquidity, versatility, and compatibility of the asset}@}, {@{the less its sunk cost will be}@}. <!--SR:!2029-02-27,1256,350!2028-10-23,1156,350-->
 
 A scenario is given below:<sup>[\[12\]](#^ref-12)</sup>
 
@@ -64,7 +64,7 @@ A scenario is given below:<sup>[\[12\]](#^ref-12)</sup>
 >
 > A company used $5&nbsp;000 for marketing and advertising on its music streaming service to increase exposure to the target market and potential consumers. In the end, the campaign proved unsuccessful. The sunk cost for the company equates to {@{the $5&nbsp;000 that was spent on the market and advertising means}@}. This expense is {@{to be ignored by the company in its future decisions}@} and highlights that {@{no additional investment should be made}@}. <!--SR:!2025-10-15,295,330!2028-08-09,1096,350!2026-01-07,118,388-->
 
-Despite the fact that {@{sunk costs should be ignored when making future decisions}@}, people {@{sometimes make the mistake of thinking sunk cost matters. This is [sunk cost fallacy](sunk%20cost.md#fallacy%20effect)}@}. <!--SR:!2025-09-20,276,330!2025-10-27,305,330-->
+Despite the fact that {@{sunk costs should be ignored when making future decisions}@}, people {@{sometimes make the mistake of thinking sunk cost matters. This is [sunk cost fallacy](sunk%20cost.md#fallacy%20effect)}@}. <!--SR:!2029-03-06,1263,350!2025-10-27,305,330-->
 
 > [!example] sunk cost fallacy
 >

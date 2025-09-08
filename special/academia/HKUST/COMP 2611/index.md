@@ -618,7 +618,7 @@ The content is in teaching order.
 - [complex instruction set computer](../../../../general/complex%20instruction%20set%20computer.md) \(CISC\) ::@:: It is a computer architecture in which single instructions can execute several low-level operations (such as a load from memory, an arithmetic operation, and a memory store) or are capable of multi-step operations or addressing modes within single instructions. <!--SR:!2025-10-13,147,420!2025-09-21,136,420-->
   - complex instruction set computer / characteristics ::@:: Since each instruction may do many things, less instructions are needed in a program. However, executing each instruction is usually slower. Hardware design is complex. <!--SR:!2027-04-03,561,420!2025-10-14,148,420-->
     - complex instruction set computer / characteristics / motivation ::@:: Instructions and addressing modes are chosen to make translation of high-level programming language to assembly easier. <!--SR:!2025-10-06,140,420!2025-10-02,136,420-->
-    - complex instruction set computer / characteristics / hardware ::@:: Machine code is usually executed in microcode, which sits in between the hardware and the machine code. <!--SR:!2025-09-20,135,420!2025-10-15,149,420-->
+    - complex instruction set computer / characteristics / hardware ::@:: Machine code is usually executed in microcode, which sits in between the hardware and the machine code. <!--SR:!2027-11-05,776,440!2025-10-15,149,420-->
     - complex instruction set computer / characteristics / memory ::@:: Due to complex hardware, less registers and smaller CPU caches can be equipped. <!--SR:!2025-10-14,148,420!2025-10-01,135,420-->
     - complex instruction set computer / characteristics / use ::@:: Assembly language is easier to write. Compilers are easier to write as well. <!--SR:!2025-09-22,137,420!2025-10-11,145,420-->
 
@@ -645,7 +645,7 @@ The content is in teaching order.
     - [§ comparison instructions](MIPS.md#comparison%20instructions): `sltu`, `sltui`
     - [§ data instructions](MIPS.md#data%20instructions): `lhu`, `lbu`
     - [§ interrupt](MIPS.md#interrupt)
-- [interrupt](../../../../general/interrupt.md) ::@:: It is a request for the processor to interrupt currently executing code \(when permitted\), so that the event can be processed in a timely manner. <!--SR:!2025-09-20,135,420!2025-10-09,143,420-->
+- [interrupt](../../../../general/interrupt.md) ::@:: It is a request for the processor to interrupt currently executing code \(when permitted\), so that the event can be processed in a timely manner. <!--SR:!2027-11-03,774,440!2025-10-09,143,420-->
 - sign extension
   - sign extension / zero extension
 
@@ -715,7 +715,7 @@ The content is in teaching order.
   - arithmetic logic unit / processor ::@:: It is an important part of a processor, with the other parts being cache, control unit, and registers. <!--SR:!2025-10-02,136,420!2025-10-13,147,420-->
   - arithmetic logic unit / bit width ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together. <!--SR:!2025-10-07,141,420!2025-10-03,137,420-->
   - arithmetic logic unit / functions ::@:: arithmetic, bit shift, bitwise logical, other \(passthrough\) <!--SR:!2025-09-24,139,420!2025-10-08,142,420-->
-    - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output. <!--SR:!2025-09-20,135,420!2025-10-15,149,420-->
+    - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output. <!--SR:!2027-11-04,775,440!2025-10-15,149,420-->
 - [adder](../../../../general/adder%20(electronics).md) ::@:: It is a digital circuit that performs addition of numbers. <!--SR:!2025-10-03,137,420!2027-10-27,768,440-->
   - adder / half adder ::@:: It adds two single binary digits $A$ and $B$. It has two outputs, sum \($S$\) and carry \($C$\). The carry signal represents an [overflow](../../../../general/integer%20overflow.md) into the next digit of a multi-digit addition. The value of the sum is $2C+S$. <!--SR:!2025-09-30,134,420!2025-09-30,134,420-->
     - add / half adder / implementation ::@:: The simplest half-adder design, pictured on the right, incorporates an [XOR gate](../../../../general/XOR%20gate.md) for $S$ and an [AND gate](../../../../general/AND%20gate.md) for $C$. The Boolean logic for the sum \(in this case $S$\) will be $A\oplus B$ whereas for the carry \($C$\) will be $A\cdot B$. With the addition of an [OR gate](../../../../general/OR%20gate.md) to combine their carry outputs, two half adders can be combined to make a full adder. <!--SR:!2027-03-03,552,420!2025-10-06,140,420-->

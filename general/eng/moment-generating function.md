@@ -123,7 +123,7 @@ __[Characteristic function](characteristic%20function%20(probability%20theory).m
 
 __[Cumulant-generating function](cumulant-generating%20function.md)__
 
-&emsp; {@{The [cumulant-generating function](cumulant-generating%20function.md)}@} is defined as {@{the logarithm of the moment-generating function}@}; some instead define the cumulant-generating function as {@{the logarithm of the [characteristic function](characteristic%20function%20(probability%20theory).md)}@}, while others call this latter {@{the _second_ cumulant-generating function}@}. <!--SR:!2026-01-23,290,330!2025-09-20,188,310!2027-07-27,704,330!2025-12-29,269,330-->
+&emsp; {@{The [cumulant-generating function](cumulant-generating%20function.md)}@} is defined as {@{the logarithm of the moment-generating function}@}; some instead define the cumulant-generating function as {@{the logarithm of the [characteristic function](characteristic%20function%20(probability%20theory).md)}@}, while others call this latter {@{the _second_ cumulant-generating function}@}. <!--SR:!2026-01-23,290,330!2027-12-10,811,330!2027-07-27,704,330!2025-12-29,269,330-->
 
 __[Probability-generating function](probability-generating%20function.md)__
 

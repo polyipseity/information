@@ -48,7 +48,7 @@ disposal
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←purchase <!--SR:!2026-02-05,476,310!2025-09-20,263,299-->
+- _(begin)_→::@::←purchase <!--SR:!2026-02-05,476,310!2028-09-15,1091,319-->
 - purchase→::@::←delivery <!--SR:!2028-11-06,1278,350!2026-06-29,547,310-->
 - delivery→::@::←use <!--SR:!2026-12-12,660,310!2025-09-23,213,270-->
 - use→::@::←supplements <!--SR:!2026-04-05,332,279!2029-03-05,1372,359-->
@@ -90,7 +90,7 @@ simplicity: remove complexity or hassle
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←convenience: ease of spatial and temporal accessibility <!--SR:!2025-09-20,190,239!2026-12-02,715,330-->
+- _(begin)_→::@::←convenience: ease of spatial and temporal accessibility <!--SR:!2027-06-19,637,259!2026-12-02,715,330-->
 - convenience: ease of spatial and temporal accessibility→::@::←environmental friendliness <!--SR:!2027-12-05,941,299!2026-03-19,467,299-->
 - environmental friendliness→::@::←fun and image: conveyed feel, look, or attitude <!--SR:!2025-11-23,358,259!2026-05-19,397,239-->
 - fun and image: conveyed feel, look, or attitude→::@::←productivity: less effort, time, or money <!--SR:!2026-01-21,365,239!2025-11-24,325,239-->

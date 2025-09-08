@@ -49,7 +49,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 2. Price of ::@:: other related goods remain constant. <!--SR:!2025-10-14,253,330!2025-10-08,248,330-->
 3. Preference, tastes, habits and fashions of ::@:: consumer remains constant. <!--SR:!2025-10-07,247,330!2025-09-23,236,330-->
 4. Number of ::@:: buyers remain constant. <!--SR:!2025-10-08,248,330!2028-08-11,1057,350-->
-5. The commodity is ::@:: a normal good and has no status value. <!--SR:!2025-12-05,294,330!2025-09-20,233,330-->
+5. The commodity is ::@:: a normal good and has no status value. <!--SR:!2025-12-05,294,330!2028-08-14,1059,350-->
 
 ## three categories of demand curves
 
@@ -68,7 +68,7 @@ The slope of the market industry demand curve is {@{greater than the slope of th
 When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods](normal%20good.md) shifts outward as more will be demanded at all prices}@}, while {@{the demand curve for [inferior goods](inferior%20good.md) shifts inward due to the increased attainability of superior substitutes}@}. With respect to {@{related goods}@}, when {@{the price of a good \(e.g. a hamburger\) rises}@}, {@{the demand curve for substitute goods \(e.g. chicken\) shifts out}@}, while {@{the demand curve for complementary goods \(e.g. ketchup\) shifts in}@} \(i.e. there is {@{more demand for substitute goods as they become more attractive in terms of value for money}@}, while demand for complementary goods {@{contracts in response to the contraction of quantity demanded of the underlying good}@}\).<sup>[\[11\]](#^ref-11)</sup> With {@{factors of individual demand and market demand, both complementary goods and substitutes}@} affect the demand curve. <!--SR:!2028-07-24,1042,350!2025-10-13,252,330!2025-09-21,234,330!2025-12-05,294,330!2025-12-04,293,330!2027-11-09,815,330!2025-10-13,252,330!2025-12-04,293,330!2025-10-15,254,330!2025-09-27,239,330-->
 
 - Complementary goods are ::@:: goods A and B where the demand for the former and the price of the latter have an inverse relationship, with an increase in the price of the former leading to a decrease in the demand for the latter and vice versa, but there is no relationship between them as capital goods and consumer goods. <!--SR:!2026-04-17,349,290!2027-07-07,725,330-->
-- Substitutes are ::@:: those goods for which there is a positive relationship between the demand for good A and the price of good B \(e.g., an increase in the price of one good is an increase in the demand for the other\) and which are in competition with each other. <!--SR:!2025-09-20,232,330!2027-09-18,776,330-->
+- Substitutes are ::@:: those goods for which there is a positive relationship between the demand for good A and the price of good B \(e.g., an increase in the price of one good is an increase in the demand for the other\) and which are in competition with each other. <!--SR:!2027-11-02,773,330!2027-09-18,776,330-->
 
 ### factors affecting individual demand
 
@@ -108,7 +108,7 @@ The elasticity of demand usually will {@{vary depending on the price}@}. If {@{t
 
 ## taxes and subsidies
 
-{@{A sales tax on the commodity}@} does not {@{directly change the demand curve}@}, if {@{the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2025-10-23,259,330!2027-12-08,837,330!2025-11-05,269,330!2025-09-20,233,330!2025-11-23,66,370-->
+{@{A sales tax on the commodity}@} does not {@{directly change the demand curve}@}, if {@{the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2025-10-23,259,330!2027-12-08,837,330!2025-11-05,269,330!2028-08-15,1060,350!2025-11-23,66,370-->
 
 If {@{the price axis in the graph represents the price before addition of tax and/or subtraction of subsidy}@} then {@{the demand curve moves inward when a tax is introduced, and outward when a subsidy is introduced}@}. <!--SR:!2027-09-06,767,330!2025-10-16,255,330-->
 
