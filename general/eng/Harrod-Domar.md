@@ -1,0 +1,1 @@
+Harrod–Domar model.md

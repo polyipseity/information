@@ -1,0 +1,49 @@
+<svg width="224mm" height="235.5mm" version="1.1" viewBox="0 0 223.9977 235.5531" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="a" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617 0 8.035z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="b" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617 0 8.035z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="c" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617 0 8.035z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="d" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617 0 8.035z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="e" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617 0 8.035z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+ </defs>
+ <rect x="0" y="0" width="224" height="235.6" fill="#fff" fill-rule="evenodd" style="paint-order:stroke markers fill"/>
+ <g fill="none" stroke-linecap="round" stroke-width=".5">
+  <circle cx="113.1" cy="123.8" r="96.5" stroke="#000"/>
+  <rect x="72.56" y="103.1" width="67.82" height="41.36" stroke="#000"/>
+  <path d="m49.16 69.74c0.5355-0.7132 7.943-11.5 7.943-11.5l4.016 12.3zm-38.41-17.84c10.88-4.44 4.821 10.87 15.84 5.603 10.88-4.44 4.822 10.87 15.84 5.603 6.077-2.48 6.869 1.202 8.305 4.018m-37.98-18.22c10.88-4.44 4.821 10.87 15.84 5.603 10.88-4.44 4.821 10.87 15.84 5.603 6.077-2.48 6.869 1.202 8.305 4.018m-37.98-18.22c10.88-4.44 4.822 10.87 15.84 5.603 10.88-4.44 4.821 10.87 15.84 5.603 6.077-2.48 6.869 1.202 8.305 4.018m128.8 146c-2.733 3.812 7.943-11.5 7.943-11.5l4.016 12.3zm-38.41-17.84c10.88-4.44 4.821 10.87 15.84 5.603 10.88-4.44 4.821 10.87 15.84 5.603 6.077-2.48 6.869 1.202 8.305 4.018m-37.98-18.22c10.88-4.44 4.822 10.87 15.84 5.603 10.88-4.44 4.821 10.87 15.84 5.603 6.077-2.48 6.869 1.202 8.305 4.018m-37.98-18.22c10.88-4.44 4.822 10.87 15.84 5.603 10.88-4.44 4.822 10.87 15.84 5.603 6.077-2.48 6.869 1.202 8.305 4.018" stroke="#f00" style="paint-order:stroke markers fill"/>
+  <g stroke="#000">
+   <path d="m140.6 114.8h52.81" marker-end="url(#e)" style="paint-order:stroke markers fill"/>
+   <path d="m140.6 138.8h52.81" marker-end="url(#a)" style="paint-order:stroke markers fill"/>
+   <path d="m28.72 114.8h52.81" marker-end="url(#c)" style="paint-order:stroke markers fill"/>
+   <path d="m28.72 138.8h52.81" marker-end="url(#d)" style="paint-order:stroke markers fill"/>
+   <path d="m158.6 149.7v16.23l-108.5-0.1783v-23.54" marker-end="url(#b)" style="paint-order:stroke markers fill"/>
+  </g>
+ </g>
+ <g fill="#000000" font-family="DejaVu Sans">
+  <text x="110.4953" y="20.97117" font-size="12px" text-anchor="middle" xml:space="preserve"><tspan x="110.4953" y="20.97117" stroke-width=".2">The Earth's biosphere</tspan></text>
+  <text x="38.0372"  y="34.42529" font-size="8px" text-anchor="middle" xml:space="preserve"><tspan x="32.33838" y="40.42529" text-align="center">Solar energy</tspan></text>
+  <g font-size="8px">
+   <g text-anchor="middle">
+    <text x="168.8776" y="86.01917" xml:space="preserve"><tspan x="168.8776" y="81.01917">Waste</tspan><tspan x="168.8776" y="89.36025">assimilation</tspan></text>
+    <text x="165.1708" y="116.6773" xml:space="preserve"><tspan x="166.1708" y="111.6773">Degraded</tspan><tspan x="166.1708" y="121.0187">energy</tspan></text>
+    <text x="166.1765" y="131.5651" xml:space="preserve"><tspan x="166.1765" y="136.5651">Degraded</tspan><tspan x="166.1765" y="146.9065">materials</tspan></text>
+    <text x="103.9579" y="162.9613" xml:space="preserve"><tspan x="103.9579" y="162.9613">Recycled materials</tspan></text>
+    <text x="48.8776" y="86.01917" xml:space="preserve"><tspan x="48.8776" y="86.01917">Natural</tspan><tspan x="48.8776" y="94.36025">resources</tspan></text>
+    <text x="48.8776" y="111.8613" xml:space="preserve"><tspan x="48.8776" y="111.8613">Energy</tspan></text>
+    <text x="48.8776" y="131.5363" xml:space="preserve"><tspan x="48.8776" y="136.5363">Materials</tspan></text>
+    <text x="183.6924" y="220.5905" xml:space="preserve"><tspan x="183.6924" y="220.5905">Low-grade</tspan><tspan x="183.6924" y="228.9316">thermal energy</tspan></text>
+    <text x="108.5246" y="117.304" xml:space="preserve"><tspan x="108.5246" y="117.304">The</tspan><tspan x="108.5246" y="125.6451">economic</tspan><tspan x="108.5246" y="133.9862">system</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>
