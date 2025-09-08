@@ -106,6 +106,21 @@ The content is in teaching order.
 - status: unscheduled
 - [questions § week 1 lab](questions.md#week%201%20lab)
 
+---
+
+> Dear COMP3111 Students,
+>
+> Welcome aboard! The Canvas page for COMP3111 is now available here: <br/>
+> 👉 \[redacted\]
+>
+> Just a quick reminder: there will be __no lab in Week 1__. I look forward to seeing you all in the lecture tomorrow.
+>
+> To stay connected and receive quick updates, please also join our course Telegram group: <br/>
+> 👉 \[redacted\]
+>
+> Cheers, <br/>
+> \[redacted\]
+
 ## aftermath
 
 ### total

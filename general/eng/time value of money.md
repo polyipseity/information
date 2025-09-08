@@ -44,7 +44,7 @@ Some standard calculations based on the time value of money are:
 - {@{_[Future value](future%20value.md)_}@}: {@{The value of an asset or cash at a specified date in the future}@}, based on {@{the value of that asset in the present}@}.<sup>[\[6\]](#^ref-6)</sup>
 - {@{_Future value of an annuity \(FVA\)_}@}: {@{The future value of a stream of payments \(annuity\)}@}, assuming {@{the payments are invested at a given rate of interest}@}.
 
-There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions \(such as PV, FV, RATE, NPER, and PMT\)}@}.<sup>[\[7\]](#^ref-7)</sup>
+There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions}@} \(such as {@{PV, FV, RATE, NPER, and PMT}@}\).<sup>[\[7\]](#^ref-7)</sup>
 
 For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\).
 

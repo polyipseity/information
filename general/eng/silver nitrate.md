@@ -21,7 +21,7 @@ Ag<sup>+</sup> {@{reacts quickly with [halides](halide.md) to produce [insoluble
 >
 > where {@{$\text{X}^-$ is Cl<sup>-</sup>, Br<sup>-</sup>, or I<sup>-</sup>}@}.
 
-The color is {@{white if Cl<sup>-</sup> is used, pale yellow or green if Br<sup>-</sup> is used, or yellow if I<sup>-</sup> is used}@}.
+The color is {@{white if Cl<sup>-</sup> is used}@}, {@{pale yellow or green if Br<sup>-</sup> is used}@}, or {@{yellow if I<sup>-</sup> is used}@}.
 
 ## references
 
