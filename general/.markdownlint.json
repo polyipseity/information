@@ -2,5 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json",
   "MD041": false,
   "MD047": false,
+  "MD059": false,
   "extends": "../.markdownlint.json"
 }
