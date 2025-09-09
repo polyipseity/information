@@ -117,7 +117,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2028-12-03,1194,350!2028-07-09,1072,350-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2028-08-26,1115,350-->
 - `rc` ::@:: reverse continue <!--SR:!2028-01-23,945,350!2028-07-10,1073,350-->
-- `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-09-22,282,330!2028-03-30,997,350-->
+- `set <storage> = <value>` ::@:: set storage to value <!--SR:!2029-04-02,1288,350!2028-03-30,997,350-->
 
 Let's also learn some basic `pwndbg` commands:
 

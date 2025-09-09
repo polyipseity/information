@@ -79,7 +79,7 @@ Some luxury products have been claimed to be {@{examples of [Veblen goods](Veble
 
 Although {@{the technical term luxury good is independent of the goods' quality}@}, they are {@{generally considered to be goods at the highest end of the market in terms of quality and price}@}. Many markets have {@{a luxury segment}@} including, for example, luxury versions of [automobiles](car.md), [yachts](yacht.md), [wine](wine.md), [bottled water](bottled%20water.md), [coffee](coffee.md), [tea](tea.md), [foods](food.md), [watches](watch.md), [clothes](clothing.md), [jewelry](jewellery.md), [cosmetics](cosmetics.md) and [high fidelity](high%20fidelity.md) sound equipment.<sup>[\[11\]](#^ref-11)</sup> Luxuries may be {@{services}@}. {@{Hiring full-time or live-in [domestic servants](domestic%20worker.md)}@} is {@{a luxury reflecting income disparities}@}. {@{Some financial services, especially in some brokerage houses}@}, can be considered {@{luxury services by default}@} because {@{persons in lower-income brackets generally do not use them}@}. <!--SR:!2025-11-20,281,330!2028-08-19,1063,350!2025-09-24,235,330!2025-11-09,272,330!2025-10-07,245,330!2025-10-10,249,330!2025-11-06,268,330!2026-12-07,550,310!2025-11-30,289,330-->
 
-Luxury goods often have {@{special [luxury packaging](luxury%20packaging.md)}@} to {@{differentiate the products from mainstream competitors}@}. <!--SR:!2025-09-22,233,330!2025-11-09,271,330-->
+Luxury goods often have {@{special [luxury packaging](luxury%20packaging.md)}@} to {@{differentiate the products from mainstream competitors}@}. <!--SR:!2028-08-16,1059,350!2025-11-09,271,330-->
 
 ### trends
 
@@ -146,7 +146,7 @@ Examples include {@{[LVMH](LVMH.md), the largest luxury goods producer in the wo
 
 {@{The sale of luxury goods}@} requires {@{a high level of client service, human touch, and brand consistency}@}. Since {@{the early 2010s}@}, many luxury brands have {@{invested in their own boutiques rather than wholesalers like department stores}@}. {@{Three of the world's biggest luxury conglomerates— LVMH, Kering, and Richemont}@} — significantly increased {@{the share of annual sales captured from their directly operated stores and e-commerce over the past decade}@}.<sup>[\[44\]](#^ref-44)</sup><sup>[\[45\]](#^ref-45)</sup> <!--SR:!2025-11-27,286,330!2025-09-30,241,330!2027-09-24,780,330!2025-09-29,240,330!2025-11-11,273,330!2026-11-01,518,310-->
 
-Luxury brands use {@{distinct boutique types}@} to {@{tailor the experiences of different client groups}@}. <!--SR:!2025-10-15,253,330!2025-09-22,234,330-->
+Luxury brands use {@{distinct boutique types}@} to {@{tailor the experiences of different client groups}@}. <!--SR:!2025-10-15,253,330!2027-11-03,772,330-->
 
 ### flagship boutiques
 

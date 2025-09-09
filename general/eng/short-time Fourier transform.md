@@ -101,7 +101,7 @@ Using {@{the following sample signal $x(t)$}@} that is {@{composed of a set of f
 | {@{![spectrogram with 25 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%2025ms.png)}@} <br/> {@{25 ms window}@}    | {@{![spectrogram with 125 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%20125ms.png)}@} <br/> {@{125 ms window}@}    |
 | {@{![spectrogram with 375 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%20375ms.png)}@} <br/> {@{375 ms window}@} | {@{![spectrogram with 1000 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%201000ms.png)}@} <br/> {@{1000 ms window}@} | <!--SR:!2025-09-27,71,329!2026-05-12,245,330!2025-10-01,75,329!2026-04-29,234,330!2026-07-04,286,330!2025-09-29,73,329!2025-09-30,74,329!2025-09-29,73,329-->
 
-{@{The 25 ms window}@} allows us to {@{identify a precise time at which the signals change}@} but {@{the precise frequencies are difficult to identify}@}. At {@{the other end of the scale, the 1000 ms window}@} allows {@{the frequencies to be precisely seen}@} but {@{the time between frequency changes is blurred}@}. <!--SR:!2025-09-27,71,329!2025-09-22,67,310!2025-09-26,71,329!2025-09-24,69,329!2025-09-28,72,329!2025-09-26,71,329-->
+{@{The 25 ms window}@} allows us to {@{identify a precise time at which the signals change}@} but {@{the precise frequencies are difficult to identify}@}. At {@{the other end of the scale, the 1000 ms window}@} allows {@{the frequencies to be precisely seen}@} but {@{the time between frequency changes is blurred}@}. <!--SR:!2025-09-27,71,329!2026-07-07,288,330!2025-09-26,71,329!2025-09-24,69,329!2025-09-28,72,329!2025-09-26,71,329-->
 
 > {@{![Gaussian window function](../../archives/Wikimedia%20Commons/Gausian%20B.png)}@}
 >
@@ -127,7 +127,7 @@ As {@{the [Nyquist frequency](Nyquist%20frequency.md) is a limitation in the max
 
 Given {@{a time window that is Τ seconds long}@}, the minimum frequency {@{that can be resolved is 1/Τ Hz}@}. <!--SR:!2026-07-23,306,349!2025-09-29,73,329-->
 
-The Rayleigh frequency is {@{an important consideration in applications of the short-time Fourier transform \(STFT\)}@}, as well as {@{any other method of harmonic analysis on a signal of finite record-length}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-09-22,67,310!2025-09-27,71,329-->
+The Rayleigh frequency is {@{an important consideration in applications of the short-time Fourier transform \(STFT\)}@}, as well as {@{any other method of harmonic analysis on a signal of finite record-length}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-07-05,286,330!2025-09-27,71,329-->
 
 ## application
 

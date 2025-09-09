@@ -17,7 +17,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 
 1. products have the same or similar performance ::@:: characteristics <!--SR:!2028-08-25,1073,350!2025-11-02,272,330-->
 2. products have the same or similar occasion ::@:: for use and <!--SR:!2025-10-10,255,330!2025-11-15,282,330-->
-3. products are sold in ::@:: the same geographic area <!--SR:!2025-09-22,239,330!2025-10-07,252,330-->
+3. products are sold in ::@:: the same geographic area <!--SR:!2028-09-14,1088,350!2025-10-07,252,330-->
 
 > {@{![Figure 1: If the price of x_i increases, then demand for x_j increases](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20substitutes%20xi%20xj.svg)}@}
 >
@@ -105,7 +105,7 @@ The common misconception is that {@{[competitive equilibrium](competitive%20equi
 
 ### unit-demand goods
 
-{@{[Unit-demand goods](unit%20demand.md)}@} are {@{categories of goods from which consumer wants only a single item}@}. If {@{the consumer has two unit-demand items}@}, then {@{his utility is the _maximum_ of the utilities he gains from each of these items}@}. For example, consider {@{a consumer that wants a means of transportation, which may be either a car or a bicycle}@}. The consumer {@{prefers a car to a bicycle}@}. If {@{the consumer has both a car and a bicycle}@}, then {@{the consumer uses only the car}@}. {@{The economic theory of unit elastic demand}@} illustrates {@{the inverse relationship between price and quantity}@}.<sup>[\[15\]](#^ref-15)</sup> {@{Unit-demand goods}@} are {@{always substitutes}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-10-06,251,330!2025-11-28,293,330!2025-11-12,279,330!2027-04-28,684,330!2026-02-03,350,350!2025-10-24,264,330!2025-11-24,290,330!2025-11-29,294,330!2025-10-01,247,330!2025-09-22,240,330!2027-10-29,775,330!2028-08-26,1074,350-->
+{@{[Unit-demand goods](unit%20demand.md)}@} are {@{categories of goods from which consumer wants only a single item}@}. If {@{the consumer has two unit-demand items}@}, then {@{his utility is the _maximum_ of the utilities he gains from each of these items}@}. For example, consider {@{a consumer that wants a means of transportation, which may be either a car or a bicycle}@}. The consumer {@{prefers a car to a bicycle}@}. If {@{the consumer has both a car and a bicycle}@}, then {@{the consumer uses only the car}@}. {@{The economic theory of unit elastic demand}@} illustrates {@{the inverse relationship between price and quantity}@}.<sup>[\[15\]](#^ref-15)</sup> {@{Unit-demand goods}@} are {@{always substitutes}@}.<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-10-06,251,330!2025-11-28,293,330!2025-11-12,279,330!2027-04-28,684,330!2026-02-03,350,350!2025-10-24,264,330!2025-11-24,290,330!2025-11-29,294,330!2025-10-01,247,330!2028-09-18,1092,350!2027-10-29,775,330!2028-08-26,1074,350-->
 
 ## in perfect and monopolistic market structures
 

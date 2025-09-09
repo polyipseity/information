@@ -33,7 +33,7 @@ Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, th
 
 ## theoretical measures
 
-{@{Many theoretical measures of production efficiency}@} have been proposed in the literature as well as {@{many approaches to estimate them}@}. <!--SR:!2025-10-31,270,330!2025-09-22,240,330-->
+{@{Many theoretical measures of production efficiency}@} have been proposed in the literature as well as {@{many approaches to estimate them}@}. <!--SR:!2025-10-31,270,330!2028-09-16,1090,350-->
 
 {@{The most popular measures of efficiency}@} include {@{Farrell measure<sup>[\[3\]](#^ref-3)</sup> (also known as Debreu–Farrell measure, since Debreu (1951) has similar ideas<sup>[\[4\]](#^ref-4)</sup>)}@}. This measure is also {@{the reciprocal of the Shephard's distance function}@}.<sup>[\[5\]](#^ref-5)</sup> These can be defined with either {@{the input orientation (fix outputs and measure maximal possible reduction in inputs)}@} or {@{the output orientation (fix inputs and measure maximal possible expansion in outputs)}@}. <!--SR:!2025-11-28,293,330!2026-06-15,351,250!2026-07-24,451,310!2025-11-29,294,330!2025-11-04,274,330-->
 

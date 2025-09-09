@@ -27,7 +27,7 @@ The content is in teaching order.
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2029-12-19,1593,319!2026-08-28,633,330-->
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2029-11-29,1638,400-->
-  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2025-09-22,417,397-->
+  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2031-11-28,2258,417-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->

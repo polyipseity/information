@@ -68,7 +68,7 @@ In Peano's original formulation, the induction axiom is {@{a [second-order axiom
 
 ### defining arithmetic operations and relations
 
-If we use the second-order induction axiom, it is {@{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}@}. However, with first-order induction, this is {@{not possible and addition and multiplication are often added as axioms}@}. The respective functions and relations are {@{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}@}. <!--SR:!2026-06-02,436,305!2025-10-27,321,345!2025-09-22,249,285-->
+If we use the second-order induction axiom, it is {@{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}@}. However, with first-order induction, this is {@{not possible and addition and multiplication are often added as axioms}@}. The respective functions and relations are {@{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}@}. <!--SR:!2026-06-02,436,305!2025-10-27,321,345!2026-01-26,126,265-->
 
 #### addition
 

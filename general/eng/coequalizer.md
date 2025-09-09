@@ -42,7 +42,7 @@ It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimo
 
 ## special cases
 
-In {@{categories with [zero morphisms](zero%20morphism.md)}@}, one can {@{define a _[cokernel](cokernel.md)_ of a morphism _f_ as the coequalizer of _f_ and the parallel zero morphism}@}. <!--SR:!2025-12-17,252,330!2025-09-22,168,310-->
+In {@{categories with [zero morphisms](zero%20morphism.md)}@}, one can {@{define a _[cokernel](cokernel.md)_ of a morphism _f_ as the coequalizer of _f_ and the parallel zero morphism}@}. <!--SR:!2025-12-17,252,330!2025-12-12,81,290-->
 
 In {@{[preadditive categories](preadditive%20category.md)}@} it makes sense to {@{add and subtract morphisms \(the [hom-sets](hom-set.md#hom-set) actually form [abelian groups](abelian%20group.md)\)}@}. In such categories, one can define the coequalizer of two morphisms _f_ and _g_ as {@{the cokernel of their difference: <p> &emsp; coeq\(_f_, _g_\) = coker\(_g_ – _f_\)}@}. <!--SR:!2026-01-11,271,330!2025-12-04,241,330!2026-01-20,259,290-->
 

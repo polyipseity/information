@@ -39,7 +39,7 @@ We see there is a tradeoff from the above different window types: {@{relative ma
 
 There are {@{many factors}@} affecting the result of STFT: {@{window function, window size, FFT size, hop size, etc.}@} <!--SR:!2026-05-09,240,330!2026-04-28,230,330-->
 
-- window function ::@:: frequency resolution vs. frequency noise <!--SR:!2026-05-19,248,330!2025-09-22,66,310-->
+- window function ::@:: frequency resolution vs. frequency noise <!--SR:!2026-05-19,248,330!2026-06-30,281,330-->
 - window size ::@:: frequency resolution \(wider is better\) vs. time resolution \(narrower is better\) <!--SR:!2026-05-19,248,330!2026-05-25,253,330-->
 - window size evenness/oddness ::@:: Even window size cannot give a symmetric window, while odd window size can. So odd window size is better, since there will not be phase offsetting in the frequency domain. <!--SR:!2026-03-12,180,310!2026-06-03,260,330-->
 - FFT size ::@:: We are effectively zero-padding the window evenly on both sides if the FFT size exceeds the window size, since the window function is zero outside the window size. Remember this simply makes the resulting frequency signal have more bins, i.e. the frequency signal produced by a _continuous_ FT is sampled more often. <!--SR:!2026-05-26,254,330!2026-04-26,228,330-->

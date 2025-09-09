@@ -12,7 +12,7 @@ tags:
 
 - This article is about {@{the mathematical game of strategy}@}. For the programming language, see [Nim (programming language)](Nim%20(programming%20language).md).<!-- For other uses, see [Nim (disambiguation)](NIM.md).--> <!--SR:!2025-10-29,294,341-->
 
-__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2025-09-22,246,321!2025-10-28,293,341!2025-11-24,317,341-->
+__Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2025-10-28,293,341!2025-11-24,317,341-->
 
 Nim is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that every [impartial game](impartial%20game.md) is equivalent to a nim game with a single pile}@}. <!--SR:!2025-11-02,298,341!2025-10-31,296,341-->
 

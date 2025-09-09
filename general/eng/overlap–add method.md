@@ -26,7 +26,7 @@ The concept is to {@{divide the problem into multiple convolutions of $h[n]$}@} 
 
 ## pseudocode
 
-The following is {@{a [pseudocode](pseudocode.md) of the algorithm}@}: <!--SR:!2025-09-22,67,310-->
+The following is {@{a [pseudocode](pseudocode.md) of the algorithm}@}: <!--SR:!2026-04-18,208,310-->
 
 ```pseudocode
 (Overlap-add algorithm for linear convolution)

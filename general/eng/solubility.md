@@ -140,7 +140,7 @@ return (
 > bromides
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}@} <!--SR:!2026-11-12,1147,266!2025-09-22,252,170-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}@} <!--SR:!2026-11-12,1147,266!2026-01-28,128,150-->
 
 <!-- markdownlint MD028 -->
 
@@ -175,7 +175,7 @@ return (
 > phosphates
 >
 > - general solubility: {@{<span style="color: red;">insoluble</span>}@}
-> - exception(s): {@{group I and NH<sub>4</sub><sup>+</sup> compounds ([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}@} <!--SR:!2028-07-07,1494,250!2025-09-22,59,130-->
+> - exception(s): {@{group I and NH<sub>4</sub><sup>+</sup> compounds ([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}@} <!--SR:!2028-07-07,1494,250!2025-10-21,29,130-->
 
 <!-- markdownlint MD028 -->
 

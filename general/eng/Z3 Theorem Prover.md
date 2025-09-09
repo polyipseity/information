@@ -55,7 +55,7 @@ In this example {@{propositional logic assertions}@} are {@{checked using functi
 > {@{(declare-fun b () Bool)}@}
 > {@{(assert (not (= (not (and a b)) (or (not a)(not b)))))}@}
 > {@{(check-sat)}@}
-> </pre> <!--SR:!2026-06-16,272,330!2026-06-12,269,330!2026-06-13,270,330!2025-09-22,67,310-->
+> </pre> <!--SR:!2026-06-16,272,330!2026-06-12,269,330!2026-06-13,270,330!2026-07-11,292,330-->
 
 Result: \(annotaion: {@{`unsat`}@}\) <!--SR:!2026-06-26,280,330-->
 
@@ -103,7 +103,7 @@ sat
 
 ## awards
 
-In 2015, Z3 received {@{the _Programming Languages Software Award_}@} from {@{[ACM](Association%20for%20Computing%20Machinery.md) [SIGPLAN](SIGPLAN.md)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> In 2018, Z3 received {@{the _Test of Time Award_}@} from {@{the [European Joint Conferences on Theory and Practice of Software](European%20Joint%20Conferences%20on%20Theory%20and%20Practice%20of%20Software.md) \(ETAPS\)}@}.<sup>[\[8\]](#^ref-8)</sup> {@{Microsoft researchers Nikolaj Bjørner and [Leonardo de Moura](Leonardo%20de%20Moura.md)}@} received {@{the 2019 [Herbrand Award for Distinguished Contributions to Automated Reasoning](Herbrand%20Award.md)}@} in recognition of their work in {@{advancing theorem proving with Z3}@}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-22,67,310!2026-05-24,254,330!2026-05-21,251,330!2026-05-18,249,330!2026-05-01,234,330!2026-05-14,246,330!2026-06-21,276,330-->
+In 2015, Z3 received {@{the _Programming Languages Software Award_}@} from {@{[ACM](Association%20for%20Computing%20Machinery.md) [SIGPLAN](SIGPLAN.md)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> In 2018, Z3 received {@{the _Test of Time Award_}@} from {@{the [European Joint Conferences on Theory and Practice of Software](European%20Joint%20Conferences%20on%20Theory%20and%20Practice%20of%20Software.md) \(ETAPS\)}@}.<sup>[\[8\]](#^ref-8)</sup> {@{Microsoft researchers Nikolaj Bjørner and [Leonardo de Moura](Leonardo%20de%20Moura.md)}@} received {@{the 2019 [Herbrand Award for Distinguished Contributions to Automated Reasoning](Herbrand%20Award.md)}@} in recognition of their work in {@{advancing theorem proving with Z3}@}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-07-10,291,330!2026-05-24,254,330!2026-05-21,251,330!2026-05-18,249,330!2026-05-01,234,330!2026-05-14,246,330!2026-06-21,276,330-->
 
 ## see also
 

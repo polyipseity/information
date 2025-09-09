@@ -15,7 +15,7 @@ tags:
 
 # falling and rising factorials
 
-In [mathematics](mathematics.md), {@{the __falling factorial__}@} (sometimes called {@{the __descending factorial__,<sup>[\[1\]](#^ref-1)</sup> __falling sequential product__, or __lower factorial__}@}) is defined as {@{the polynomial $${\begin{aligned}(x)_{n}=x^{\underline {n} }&=\overbrace {x(x-1)(x-2)\cdots (x-n+1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x-k+1)=\prod _{k=0}^{n-1}(x-k).\end{aligned} }$$}@} <!--SR:!2025-09-22,254,330!2025-10-16,275,330!2025-09-29,260,330-->
+In [mathematics](mathematics.md), {@{the __falling factorial__}@} (sometimes called {@{the __descending factorial__,<sup>[\[1\]](#^ref-1)</sup> __falling sequential product__, or __lower factorial__}@}) is defined as {@{the polynomial $${\begin{aligned}(x)_{n}=x^{\underline {n} }&=\overbrace {x(x-1)(x-2)\cdots (x-n+1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x-k+1)=\prod _{k=0}^{n-1}(x-k).\end{aligned} }$$}@} <!--SR:!2028-11-24,1159,350!2025-10-16,275,330!2025-09-29,260,330-->
 
 {@{The __rising factorial__}@} (sometimes called {@{the __Pochhammer function__, __Pochhammer polynomial__, __ascending factorial__,<sup>[\[1\]](#^ref-1)</sup> __rising sequential product__, or __upper factorial__}@}) is defined as {@{$${\begin{aligned}(x)^{n}=x^{\overline {n} }&=\overbrace {x(x+1)(x+2)\cdots (x+n-1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x+k-1)=\prod _{k=0}^{n-1}(x+k).\end{aligned} }$$}@} <!--SR:!2025-09-30,261,330!2025-10-27,281,330!2028-09-18,1106,350-->
 

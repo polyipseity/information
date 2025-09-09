@@ -141,7 +141,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`in` <!--SR:!2026-05-17,481,389!2026-06-18,509,389-->
 - `in`→::@::←`<` <!--SR:!2025-11-03,328,369!2025-11-21,331,369-->
-- `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
+- `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2028-09-06,1080,369-->
 - `<=`→::@::←`>` <!--SR:!2025-09-28,295,369!2025-09-27,298,369-->
 - `>`→::@::←`>=` <!--SR:!2029-06-22,1388,389!2026-06-19,510,389-->
 - `>=`→::@::←`!=` <!--SR:!2029-04-23,1339,389!2026-03-19,409,329-->
@@ -220,7 +220,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)` instead of `(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2027-12-10,817,439!2025-09-22,145,419!2027-10-17,771,439-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)` instead of `(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2027-12-10,817,439!2027-12-30,829,439!2027-10-17,771,439-->
 
 ## mathematics
 

@@ -68,7 +68,7 @@ for loop_variables in iterable:
   statement_block
 ```
 
-Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that {@{for each element in the iterable, the loop variables are assigned that element and then the statement block is executed}@}. <!--SR:!2029-01-02,1199,352!2025-09-22,262,332-->
+Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}. The semantics of `for...in` is that {@{for each element in the iterable, the loop variables are assigned that element and then the statement block is executed}@}. <!--SR:!2029-01-02,1199,352!2028-02-09,870,332-->
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2025-12-28,359,352!2025-12-25,356,352!2025-12-27,358,352-->
 

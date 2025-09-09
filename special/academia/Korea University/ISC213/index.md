@@ -46,10 +46,10 @@ The content is in teaching order.
 - datetime: 2025-07-01T09:00:00+09:00/2025-07-01T10:40:00+09:00, PT1H40M
   - local: 2025-07-01T08:00:00+08:00/2025-07-01T09:40:00+08:00, PT1H40M
 - topic: information systems in global business today
-- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
+- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2025-09-27,67,310!2026-06-21,272,330-->
   - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization. <!--SR:!2025-09-27,67,310!2026-05-01,229,330-->
     - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals <!--SR:!2026-05-14,241,330!2026-05-06,234,330-->
-    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2026-06-09,261,330!2025-09-22,62,310-->
+    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2026-06-09,261,330!2026-04-03,193,310-->
   - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2026-06-11,263,330!2026-05-14,241,330-->
   - information system / architecture ::@:: normal: input → arrange, calculate, classify, process → output <br/> improve: output → feedback → input <p> It interacts with the organization and its environment, e.g. competitors, customers, regulators, stockholders, suppliers, etc. <!--SR:!2026-02-21,172,310!2025-09-27,67,310-->
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2025-10-20,79,349!2025-10-25,85,349-->
@@ -65,7 +65,7 @@ The content is in teaching order.
     - complementary assets / organizational / examples ::@:: IS development team, business model, business process, decentralization, decision making, organizational culture, etc. <!--SR:!2025-09-27,67,310!2025-09-27,67,310-->
   - complementary assets / managerial ::@:: people of the firm <!--SR:!2025-09-27,67,310!2026-06-10,263,330-->
     - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2025-09-27,67,310!2026-05-31,255,330-->
-  - complementary assets / social ::@:: environments the firm are in <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
+  - complementary assets / social ::@:: environments the firm are in <!--SR:!2025-09-27,67,310!2026-06-21,272,330-->
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2026-05-14,241,330!2025-09-27,67,310-->
 - information system
   - information system / academic ::@:: IS covers both behavioral of technical aspects of IT, and thus is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2025-09-27,67,310!2026-05-14,241,330-->
