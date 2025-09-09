@@ -17,8 +17,14 @@ tags:
 
 - HKUST COMP 3111H
 
-## week 1 pre-lecture
+## children
+
+- [quiz 1](quiz%201.md)
 
 ## week 1 lecture
 
+\(none\)
+
 ## week 1 lab
+
+\(none\)
