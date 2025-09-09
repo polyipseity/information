@@ -112,7 +112,7 @@ Since {@{$\operatorname {Var} (y_{d})=\sigma ^{2}$ \(a fixed but unknown paramet
 
 ### confidence intervals
 
-{@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_ — that is, the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}.
+{@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_}@} — that is, {@{the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}.
 
 {@{The standard method of constructing confidence intervals for linear regression coefficients}@} {@{relies on the normality assumption, which is justified}@} if either:
 

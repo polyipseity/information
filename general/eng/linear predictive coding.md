@@ -35,7 +35,7 @@ LPC is the basis for [voice-over-IP](Voice-over-IP.md) \(VoIP\) technology.<sup>
 
 ## LPC coefficient representations
 
-LPC is frequently used for {@{transmitting spectral envelope information}@}, and as such it has to be {@{tolerant of transmission errors}@}. {@{Transmission of the filter coefficients directly}@} \(see {@{[linear prediction](linear%20prediction.md)}@} for {@{a definition of coefficients}@}\) is {@{undesirable}@}, since {@{they are very sensitive to errors}@}. In other words, {@{a very small error}@} can {@{distort the whole spectrum, or worse, a small error might make the prediction filter unstable}@}.
+LPC is frequently used for {@{transmitting spectral envelope information}@}, and as such it has to be {@{tolerant of transmission errors}@}. {@{Transmission of the filter coefficients directly}@} \(see {@{[linear prediction](linear%20prediction.md)}@} for {@{a definition of coefficients}@}\) is {@{undesirable}@}, since {@{they are very sensitive to errors}@}. In other words, {@{a very small error}@} can {@{distort the whole spectrum}@}, or worse, {@{a small error might make the prediction filter unstable}@}.
 
 There are {@{more advanced representations}@} such as {@{[log area ratios](log%20area%20ratio.md) \(LAR\), [line spectral pairs](line%20spectral%20pairs.md) \(LSP\) decomposition and [reflection coefficients](reflection%20coefficient.md)}@}. Of these, especially {@{LSP decomposition}@} has {@{gained popularity}@} since it {@{ensures the stability of the predictor}@}, and {@{spectral errors}@} are {@{local for small coefficient deviations}@}.
 
