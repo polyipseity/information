@@ -38,7 +38,7 @@ The content is in teaching order.
 ## week 1 lecture
 
 - datetime: 2025-09-02T09:00:00+08:00/2025-09-02T10:20:00+08:00, PT1H20M
-- topic: logistics; overview of digital communications
+- topic: logistics; overview of digital communications; signal basics
 - ELEC 4110
   - ELEC 4110 / instructor
   - ELEC 4110 / introduction ::@:: _Digital communications_ is one of the technologies enabling the _Information Age_.
@@ -85,7 +85,26 @@ The content is in teaching order.
 ## week 1 lecture 2
 
 - datetime: 2025-09-04T09:00:00+08:00/2025-09-04T10:20:00+08:00, PT1H20M
-- topic:
+- topic: signal basics
+- analog signal
+- [digital signal](../../../../general/digital%20signal.md) ::@:: It is a signal that represents data as a sequence of discrete values; at any given time it can only take on, at most, one of a finite number of values. <p> \(__this course__: Both values and time are discrete for a digital signal. This is different from the definition used above.\)
+  - digital signal / vs. analog signal ::@:: This _contrasts_ with an analog signal, which represents continuous values; at any given time it represents a real number within an infinite set of values. <p> \(__this course__: Both values and time are continuous for an analog signal. This is different from the definition used above.\)
+- [analog-to-digital converter](../../../../general/analog-to-digital%20converter.md) \(ADC\) ::@:: It is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal.
+  - analog-to-digital converter / steps ::@:: sampling → quantization
+    - analog-to-digital converter / steps / sampling ::@:: Continuous time is converted into discrete time by repeated _sampling_ at a fixed time interval. <p> This limits _bandwidth_. According to the _Nyquist–Shannon sampling theorem_, _perfect reconstruction_ is possible if $B < f_s / 2$, where $B$ is the bandwidth of the continuous time signal and $f_s$ is the sample rate.
+    - analog-to-digital converter / steps / quantization ::@:: Continuous value is converted into discrete value by converting them into _n_-bit numbers. <p> This produces _quantization error_, as continuous value has \(uncountably\) infinite possible values while _n_-bit numbers have finite possible values. Thus this process is _irreversible_ in general.
+- [Nyquist–Shannon sampling theorem](../../../../general/Nyquist–Shannon%20sampling%20theorem.md) ::@:: It is an essential principle for digital signal processing linking the frequency range of a signal and the sample rate required to avoid a type of distortion called aliasing. The theorem states that the sample rate must be at least twice the bandwidth of the signal to avoid aliasing.
+- [digital-to-analog converter](../../../../general/digital-to-analog%20converter.md) \(DAC\) ::@:: It is a system that converts a digital signal into an analog signal.
+  - digital-to-analog converter / reverse ::@:: An analog-to-digital converter \(ADC\) performs the reverse function.
+  - digital-to-analog converter / steps ::@:: reconstruction → lowpass filter
+    - digital-to-analog converter / steps / reconstruction ::@:: Discrete time is converted into continuous time. Usually, this is done by holding the sampled value until the next sample.
+    - digital-to-analog converter / steps / lowpass filter ::@:: Discrete value is converted into continuous value. Holding the sampled value until the next sample yields a continuous-time signal with discrete value. Applying lowpass filter smoothens the signal and make it continuous-valued as well. <p> The lowpass filter frequency cutoff is usually half the sample rate due to the _Nyquist–Shannon sampling theorem_.
+- digital signal
+  - digital signal / advantages ::@:: It is _robust_ to degradation and noise, as small distortions of the waveform can be completely ignored.
+  - digital signal / disadvantages ::@:: It cannot represent most physical signals _exactly_, as most of them are analog in nature.
+  - digital signal / usage ::@:: Due to its robustness, it is used in storage and telecommunications.
+    - digital signal / usage / storage ::@:: Consider audio tape \(analog\) vs. CD \(digital\).
+    - digital signal / usage / telecommunications ::@:: Long-distance transmission cause path loss attenuation and thermal noise. If an analog signal is used, signal-to-noise ratio \(SNR\) decreases significantly at the receiver side. If a digital signal is used, SNR remains sufficiently high due to its robustness to degradation and noise.
 
 ## week 1 tutorial
 
