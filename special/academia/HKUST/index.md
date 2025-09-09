@@ -88,6 +88,7 @@ tags:
 - [COMP 3111H](COMP%203111H/index.md): Honors Software Engineering \(4 credits\)
 - [FINA 3103](FINA%203103/index.md): Intermediate Investments \(3 credits\)
 - [FINA 3203](FINA%203203/index.md): Derivative Securities \(3 credits\)
+- [FINA 3810](FINA%203810/index.md): Bloomberg Market Concepts Certification \(0 credits\)
 
 ## groups
 

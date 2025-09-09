@@ -1,0 +1,73 @@
+---
+aliases:
+  - Bloomberg Market Concepts Certification
+  - Bloomberg Market Concepts Certification index
+  - FINA 3810
+  - FINA 3810 index
+  - FINA3810
+  - FINA3810 index
+  - HKUST FINA 3810
+  - HKUST FINA 3810 index
+  - HKUST FINA3810
+  - HKUST FINA3810 index
+tags:
+  - flashcard/active/special/academia/HKUST/FINA_3810
+  - function/index
+  - language/in/English
+---
+
+# index
+
+- HKUST FINA 3810
+- name: Bloomberg Market Concepts Certification
+
+The content is in teaching order.
+
+- grading
+  - scheme
+    - in-class quizzes ×8: 80
+    - Bloomberg Market Concepts modules ×4: 40
+    - trading strategy report: 10
+      - idea generation: 5
+      - price discovery using Bloomberg tools: 5
+
+## children
+
+- [assignments](assignments/index.md)
+- [questions](questions.md)
+
+## week 1 lab
+
+- datetime: 2025-09-04T10:30:00+08:00/2025-09-04T11:20:00+08:00, PT50M
+- topic: logistics; introduction; Bloomberg account; Bloomberg Market Concepts; 2025 Bloomberg Global Trading Challenge
+- FINA 3810
+  - FINA 3810 / logistics
+  - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options
+    - FINA 3810 / current topics / artificial intelligence \(AI\) ::@:: Is AI coming for finance jobs? Agentic AI, e.g. AlphaGPT, and so much more!
+    - FINA 3810 / current topics / zero-day options ::@:: Why did S&P 500 suddenly drop? How did Goldman Sachs \(GS\) and Bank of America \(BoA\) interpret it differently? What are zero-day options and how they may cause a sudden drop?
+- [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform.
+  - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc.
+    - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>`
+    - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>`
+    - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>`
+    - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>`
+    - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>`
+    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>`
+    - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>`
+- FINA 3810
+  - FINA 3810 / current topics
+    - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)?
+- Bloomberg Terminal
+  - Bloomberg Terminal / login
+  - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\)
+- FINA 3810
+  - FINA 3810 / trading strategy ::@:: Join the 2025 Bloomberg Global Trading Challenge or the course-level internal trading challenge.
+    - FINA 3810 / trading strategy / tips ::@:: Apply theory to trading, realizing that theories can be wrong to some extent. Combine expert knowledge and technical skills. Timing is everything \(e.g. instrument, timing, trade, etc.\). Read and interpret more financial news.
+- quiz: [testing](questions/testing.md)
+
+## aftermath
+
+### total
+
+- grades: ?/130
+  - statistics: ?
