@@ -62,7 +62,7 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
-- work motivations ::@:: autonomy, mastery, purpose <!--SR:!2025-09-21,261,332!2025-12-26,357,352-->
+- work motivations ::@:: autonomy, mastery, purpose <!--SR:!2029-01-01,1198,352!2025-12-26,357,352-->
 - relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-12-28,359,352!2025-12-25,356,352-->
 - course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2027-08-05,795,352!2028-12-23,1190,352-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.

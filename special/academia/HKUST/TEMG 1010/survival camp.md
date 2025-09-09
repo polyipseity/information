@@ -24,7 +24,7 @@ We went over some leadership theory and did some group activities, basically.
 
 - [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2025-12-01,291,330!2025-10-18,256,330-->
   - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-10-09,249,330!2025-10-01,242,330-->
-  - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2025-09-21,234,330!2025-09-26,238,330-->
+  - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2028-08-23,1067,350!2025-09-26,238,330-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-12-03,293,330!2025-12-03,293,330-->
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-10-08,248,330!2025-09-27,239,330-->
   - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2025-10-14,253,330!2025-10-21,258,330-->

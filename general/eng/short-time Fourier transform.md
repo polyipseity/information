@@ -17,7 +17,7 @@ The {@{__short-time Fourier transform__ \(__STFT__\)}@} is {@{a [Fourier-related
 
 > {@{![A spectrogram visualizing the results of a STFT of the words "nineteenth century".](../../archives/Wikimedia%20Commons/Spectrogram-19thC.png)}@}
 >
-> {@{A spectrogram}@} visualizing {@{the results of a STFT of the words "nineteenth century"}@}. Here, {@{frequencies}@} are shown {@{increasing up the vertical axis}@}, and {@{time}@} on {@{the horizontal axis}@}. {@{The legend to the right}@} shows that {@{the color intensity increases with the density}@}. <!--SR:!2026-05-18,250,330!2026-05-23,254,330!2025-10-02,76,329!2025-09-28,72,329!2025-10-01,75,329!2025-10-01,75,329!2026-05-06,240,330!2025-09-21,66,310!2025-09-30,74,329-->
+> {@{A spectrogram}@} visualizing {@{the results of a STFT of the words "nineteenth century"}@}. Here, {@{frequencies}@} are shown {@{increasing up the vertical axis}@}, and {@{time}@} on {@{the horizontal axis}@}. {@{The legend to the right}@} shows that {@{the color intensity increases with the density}@}. <!--SR:!2026-05-18,250,330!2026-05-23,254,330!2025-10-02,76,329!2025-09-28,72,329!2025-10-01,75,329!2025-10-01,75,329!2026-05-06,240,330!2026-07-03,285,330!2025-09-30,74,329-->
 
 ## forward STFT
 
@@ -41,14 +41,14 @@ If {@{only a small number of ω are desired}@}, or if {@{the STFT is desired to 
 
 ## inverse STFT
 
-The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!2025-09-21,66,310!2025-10-02,76,329!2025-10-02,76,329!2025-09-29,73,329!2026-07-12,297,349!2026-06-15,272,330!2025-10-02,76,329-->
+The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!2026-07-05,287,330!2025-10-02,76,329!2025-10-02,76,329!2025-09-29,73,329!2026-07-12,297,349!2026-06-15,272,330!2025-10-02,76,329-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### continuous-time STFT
 
 Given {@{the width and definition of the window function _w_\(_t_\)}@}, we initially {@{require the area of the window function to be scaled}@} so that {@{$$\int _{-\infty }^{\infty }w(\tau )\,d\tau =1.$$}@} It easily follows that {@{$$\int _{-\infty }^{\infty }w(t-\tau )\,d\tau =1\quad \forall \ t$$}@} and {@{$$x(t)=x(t)\int _{-\infty }^{\infty }w(t-\tau )\,d\tau =\int _{-\infty }^{\infty }x(t)w(t-\tau )\,d\tau .$$}@} <!--SR:!2026-06-09,267,330!2026-06-16,272,330!2026-06-21,276,330!2025-09-28,72,329!2025-09-30,74,329-->
 
-{@{The continuous Fourier transform}@} is {@{$$X(\omega )=\int _{-\infty }^{\infty }x(t)e^{-i\omega t}\,dt.$$}@} {@{Substituting _x_\(_t_\)}@} from above: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,d\tau \right]\,e^{-i\omega t}\,dt \\ & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,d\tau \,dt. \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2025-09-21,66,310!2026-06-14,271,330!2025-10-01,75,329-->
+{@{The continuous Fourier transform}@} is {@{$$X(\omega )=\int _{-\infty }^{\infty }x(t)e^{-i\omega t}\,dt.$$}@} {@{Substituting _x_\(_t_\)}@} from above: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,d\tau \right]\,e^{-i\omega t}\,dt \\ & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,d\tau \,dt. \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2026-07-06,288,330!2026-06-14,271,330!2025-10-01,75,329-->
 
 Swapping {@{order of integration}@}: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,dt\,d\tau \\ & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,dt\right]\,d\tau \\ & =\int _{-\infty }^{\infty }X(\tau ,\omega )\,d\tau . \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2025-09-28,72,329-->
 
@@ -86,9 +86,9 @@ One can consider {@{the STFT for varying window size}@} as {@{a two-dimensional 
 
 When the original function is: {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} We can have {@{a simple example}@}: <!--SR:!2025-09-30,74,329!2025-09-30,74,329-->
 
-- \(annotation: boxcar window function: within support\) ::@:: w\(t\) = 1 for \|t\| smaller than or equal B <!--SR:!2025-09-21,67,329!2025-09-28,72,329-->
+- \(annotation: boxcar window function: within support\) ::@:: w\(t\) = 1 for \|t\| smaller than or equal B <!--SR:!2026-07-28,310,349!2025-09-28,72,329-->
 - \(annotation: boxcar window function: outside support\) ::@:: w\(t\) = 0 otherwise <!--SR:!2026-06-07,264,330!2025-10-02,76,329-->
-- \(annotation: boxcar window function: parameters\) ::@:: B = window <!--SR:!2026-05-05,239,330!2025-09-21,67,329-->
+- \(annotation: boxcar window function: parameters\) ::@:: B = window <!--SR:!2026-05-05,239,330!2026-07-27,309,349-->
 
 Now {@{the original function of the Short-time Fourier transform}@} can be changed as {@{$$X(t,f)=\int _{t-B}^{t+B}x(\tau )e^{-j2\pi f\tau }d\tau$$}@} <!--SR:!2025-10-02,76,329!2025-09-26,71,329-->
 
@@ -99,7 +99,7 @@ Using {@{the following sample signal $x(t)$}@} that is {@{composed of a set of f
 |                                                                                                                                                |                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | {@{![spectrogram with 25 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%2025ms.png)}@} <br/> {@{25 ms window}@}    | {@{![spectrogram with 125 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%20125ms.png)}@} <br/> {@{125 ms window}@}    |
-| {@{![spectrogram with 375 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%20375ms.png)}@} <br/> {@{375 ms window}@} | {@{![spectrogram with 1000 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%201000ms.png)}@} <br/> {@{1000 ms window}@} | <!--SR:!2025-09-27,71,329!2026-05-12,245,330!2025-10-01,75,329!2026-04-29,234,330!2025-09-21,66,310!2025-09-29,73,329!2025-09-30,74,329!2025-09-29,73,329-->
+| {@{![spectrogram with 375 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%20375ms.png)}@} <br/> {@{375 ms window}@} | {@{![spectrogram with 1000 ms window](../../archives/Wikimedia%20Commons/STFT%20colored%20spectrogram%201000ms.png)}@} <br/> {@{1000 ms window}@} | <!--SR:!2025-09-27,71,329!2026-05-12,245,330!2025-10-01,75,329!2026-04-29,234,330!2026-07-04,286,330!2025-09-29,73,329!2025-09-30,74,329!2025-09-29,73,329-->
 
 {@{The 25 ms window}@} allows us to {@{identify a precise time at which the signals change}@} but {@{the precise frequencies are difficult to identify}@}. At {@{the other end of the scale, the 1000 ms window}@} allows {@{the frequencies to be precisely seen}@} but {@{the time between frequency changes is blurred}@}. <!--SR:!2025-09-27,71,329!2025-09-22,67,310!2025-09-26,71,329!2025-09-24,69,329!2025-09-28,72,329!2025-09-26,71,329-->
 
@@ -115,7 +115,7 @@ It can also be explained with reference to {@{the sampling and [Nyquist frequenc
 
 Take {@{a window of _N_ samples from an arbitrary real-valued signal at sampling rate _f_<sub>s</sub>}@}. Taking {@{the Fourier transform}@} produces {@{_N_ complex coefficients}@}. Of these coefficients {@{only half are useful}@} \(the last _N/2_ being {@{the [complex conjugate](complex%20conjugate.md) of the first _N/2_ in reverse order}@}, as {@{this is a real valued signal}@}\). <!--SR:!2025-09-25,70,329!2026-04-26,231,330!2026-05-13,246,330!2025-09-28,72,329!2025-09-29,73,329!2025-09-29,73,329-->
 
-{@{These _N/2_ coefficients}@} represent {@{the frequencies 0 to _f_<sub>s</sub>/2 \(Nyquist\)}@} and {@{two consecutive coefficients}@} are spaced apart by {@{_f_<sub>s</sub>/<!-- markdown separator -->_N_ Hz}@}. <!--SR:!2025-09-30,74,329!2026-06-09,266,330!2025-09-30,74,329!2025-09-21,67,329-->
+{@{These _N/2_ coefficients}@} represent {@{the frequencies 0 to _f_<sub>s</sub>/2 \(Nyquist\)}@} and {@{two consecutive coefficients}@} are spaced apart by {@{_f_<sub>s</sub>/<!-- markdown separator -->_N_ Hz}@}. <!--SR:!2025-09-30,74,329!2026-06-09,266,330!2025-09-30,74,329!2026-07-26,308,349-->
 
 To {@{increase the frequency resolution of the window}@} {@{the frequency spacing of the coefficients needs to be reduced}@}. There are {@{only two variables}@}, but {@{decreasing _f_<sub>s</sub> \(and keeping _N_ constant\)}@} will cause {@{the window size to increase}@} — since {@{there are now fewer samples per unit time}@}. The other alternative is {@{to increase _N_}@}, but this again causes {@{the window size to increase}@}. So {@{any attempt to increase the frequency resolution}@} causes {@{a larger window size}@} and therefore {@{a reduction in time resolution—and vice versa}@}. <!--SR:!2025-09-29,73,329!2025-10-01,75,329!2025-09-28,72,329!2025-09-30,74,329!2026-04-28,233,330!2025-09-28,72,329!2025-09-28,72,329!2025-10-01,75,329!2026-07-17,301,349!2026-05-18,250,330!2026-06-08,266,330-->
 
@@ -133,7 +133,7 @@ The Rayleigh frequency is {@{an important consideration in applications of the s
 
 > {@{![An STFT being used to analyze an audio signal across time](../../archives/Wikimedia%20Commons/Short%20time%20fourier%20transform.PNG)}@}
 >
-> {@{An STFT}@} being used to {@{analyze an audio signal across time}@} <!--SR:!2025-09-21,67,329!2025-09-27,71,329!2025-10-02,76,329-->
+> {@{An STFT}@} being used to {@{analyze an audio signal across time}@} <!--SR:!2026-07-29,311,349!2025-09-27,71,329!2025-10-02,76,329-->
 
 STFTs as well as {@{standard Fourier transforms and other tools}@} are frequently used to {@{analyze music}@}. {@{The [spectrogram](spectrogram.md)}@} can, for example, show {@{frequency on the horizontal axis}@}, with {@{the lowest frequencies at left}@}, and {@{the highest at the right}@}. {@{The height of each bar \(augmented by color\)}@} represents {@{the [amplitude](amplitude.md) of the frequencies within that band}@}. {@{The depth dimension}@} represents {@{time}@}, where each new bar was {@{a separate distinct transform}@}. Audio engineers use this kind of visual to {@{gain information about an audio sample}@}, for example, to {@{locate the frequencies of specific noises}@} \(especially when used with {@{greater frequency resolution}@}\) or to find {@{frequencies which may be more or less resonant}@} in {@{the space where the signal was recorded}@}. This information can be used for {@{[equalization](equalization%20(audio).md) or tuning other audio effects}@}. <!--SR:!2025-10-02,76,329!2026-05-13,246,330!2025-09-28,72,329!2026-05-19,251,330!2026-06-01,260,330!2025-09-26,71,329!2026-07-21,304,349!2025-09-27,71,329!2025-09-29,73,329!2026-07-21,304,349!2026-06-20,276,330!2026-07-16,300,349!2025-09-30,74,329!2025-09-27,71,329!2025-09-27,71,329!2025-09-29,73,329!2025-09-26,71,329-->
 

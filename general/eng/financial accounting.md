@@ -21,7 +21,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 
 ## principles
 
-{@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2025-09-21,288,330-->
+{@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2029-04-27,1314,350-->
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-10-12,534,310!2028-02-20,889,290-->
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-01-25,358,290!2026-10-09,567,310-->
@@ -80,7 +80,7 @@ Important: the cash flow statement {@{only considers the exchange of __actual__ 
 
 The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2028-07-11,1070,355-->
 
-The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2026-09-05,532,310!2026-05-21,461,310-->
+The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2028-05-05,957,330!2026-09-05,532,310!2026-05-21,461,310-->
 
 The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2026-09-02,472,250-->
 

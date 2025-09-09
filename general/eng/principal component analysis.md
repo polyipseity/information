@@ -101,7 +101,7 @@ return chain(
 
 3. __<!--pytextgen generate section="f2f3"--><!-- The following content is generated at 2024-06-11T22:43:08.364782+08:00. Any edits will be overridden! -->calculate the deviations from the mean<!--/pytextgen-->__
     - Subtract {@{the mean vector __u__ from each row of the data matrix __X__ to get another _n_ × _p_ matrix __B__}@}: {@{$$\mathbf{B} = \mathbf{X} - \mathbf{h} \mathbf{u}$$, where $\mathbf{h}$ is a _n_ × 1 column vector with all values 1 ($\mathbf{h}$ simply duplicates the mean vector __u__)}@}.
-    - In some applications, each variable of matrix __B__ may be {@{scaled to have a variance equal to 1}@}. This affects {@{the calculated principal components}@}, but makes them {@{independent of the measurement units}@}. <!--SR:!2025-09-21,333,290!2026-07-16,516,290!2028-10-17,1177,310!2027-03-01,679,310!2026-08-21,588,310-->
+    - In some applications, each variable of matrix __B__ may be {@{scaled to have a variance equal to 1}@}. This affects {@{the calculated principal components}@}, but makes them {@{independent of the measurement units}@}. <!--SR:!2029-05-29,1346,310!2026-07-16,516,290!2028-10-17,1177,310!2027-03-01,679,310!2026-08-21,588,310-->
 
 4. __<!--pytextgen generate section="a290"--><!-- The following content is generated at 2024-06-11T22:43:08.535766+08:00. Any edits will be overridden! -->find the covariance matrix<!--/pytextgen-->__
     - Find {@{the _p_ × _p_ empirical [covariance matrix](covariance%20matrix.md) __C__ from matrix __B__}@}: {@{$$\mathbf{C} = \frac 1 {n - 1} \mathbf{B}^* \mathbf{B}$$}@}

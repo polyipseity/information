@@ -51,7 +51,7 @@ In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@}
 
 > That any one Chance or Expectation to win any thing is worth just such a Sum, as wou'd procure in the same Chance and Expectation at a fair Lay. ... If I expect a or b, and have an equal chance of gaining them, my Expectation is worth \(a+b\)/2.
 
-More than {@{a hundred years later, in 1814, [Pierre-Simon Laplace](Pierre-Simon%20Laplace.md)}@} published {@{his tract "_Théorie analytique des probabilités_"}@}, where {@{the concept of expected value was defined explicitly}@}:<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-09-21,184,270!2026-03-15,345,347!2027-09-27,763,330-->
+More than {@{a hundred years later, in 1814, [Pierre-Simon Laplace](Pierre-Simon%20Laplace.md)}@} published {@{his tract "_Théorie analytique des probabilités_"}@}, where {@{the concept of expected value was defined explicitly}@}:<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-08-09,687,290!2026-03-15,345,347!2027-09-27,763,330-->
 
 > ... this advantage in the theory of chance is the product of the sum hoped for by the probability of obtaining it; it is the partial sum which ought to result when we do not wish to run the risks of the event in supposing that the division is made proportional to the probabilities. This division is the only equitable one when all strange circumstances are eliminated; because an equal degree of probability gives an equal right for the sum hoped for. We will call this advantage _mathematical hope._
 

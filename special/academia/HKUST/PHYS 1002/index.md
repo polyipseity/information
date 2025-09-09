@@ -239,7 +239,7 @@ The content is in teaching order. Extra information and corrections are included
   - solstice etymology ::@:: sol "sun" + stice "stopped", "stationary" <!--SR:!2026-01-12,445,377!2026-01-23,454,375-->
   - solstice names ::@:: summer solstice, winter solstice, June solstice, December solstice <!--SR:!2026-03-05,490,377!2028-08-29,1185,375-->
     - [summer solstice](../../../../general/summer%20solstice.md), [winter solstice](../../../../winter%20solstice.md) vs. [June solstice](../../../../general/June%20solstice.md), [December solstice](../../../../general/December%20solstice.md) ::@:: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, summer solstice is June solstice and winter solstice is December solstice. This is reversed for the Southern hemisphere. <!--SR:!2026-01-21,452,377!2026-02-03,463,377-->
-  - June solstice date ::@:: June 21/22@UT+08 (20–22@UT) <!--SR:!2027-08-14,757,295!2025-09-21,329,357-->
+  - June solstice date ::@:: June 21/22@UT+08 (20–22@UT) <!--SR:!2027-08-14,757,295!2028-12-08,1174,357-->
   - December solstice date ::@:: December 21/22@UT+08 (20–22@UT) <!--SR:!2028-05-04,1007,337!2025-12-05,314,315-->
 - [sun path](../../../../general/sun%20path.md) ::@:: Identify today's Sun position on the ecliptic. Then draw a circle passing through that position and parallel to the celestial equator. This is the path the Sun (roughly) takes on that day. According to the ecliptic, the Sun position oscillates around the celestial equator _over a year_. Then one can see how the path the Sun takes _over a day_ oscillates over a year. By this, one can also see how altitude of the Sun and daytime length change. <!--SR:!2026-08-31,564,337!2029-04-23,1368,375-->
   - sun path at polar regions ::@:: On some days, the circle over a day does not go below or above the horizon. <!--SR:!2029-09-09,1482,377!2029-05-27,1414,375-->
@@ -289,7 +289,7 @@ The content is in teaching order. Extra information and corrections are included
   - [§ partial lunar eclipse](../../../../general/lunar%20eclipse.md#partial%20lunar%20eclipse)
   - [§ total lunar eclipse](../../../../general/lunar%20eclipse.md#total%20lunar%20eclipse)
   - [§ blood moon](../../../../general/lunar%20eclipse.md#blood%20moon)
-    - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md) ::@:: Apart from the blood moon, also responsible for the blue color of the sky and orange-to-red color during sunrises and sunsets. <!--SR:!2029-06-23,1422,380!2025-09-21,329,360-->
+    - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md) ::@:: Apart from the blood moon, also responsible for the blue color of the sky and orange-to-red color during sunrises and sunsets. <!--SR:!2029-06-23,1422,380!2030-03-04,1625,380-->
       - [diffuse sky radiation § color](../../../../general/diffuse%20sky%20radiation.md#color)
 - [solar eclipse](../../../../general/solar%20eclipse.md)
   - solar eclipse mythology ::@:: The solar eclipse phenomenon has had fascinated many ancient cultures. According to the Chinese folklore, there is a "dog" eating up the Sun (天狗食日) during a solar eclipse. <!--SR:!2028-05-17,1081,360!2029-10-26,1525,380-->
@@ -340,7 +340,7 @@ The content is in teaching order. Extra information and corrections are included
 - [model](../../../../general/model.md)
   - models of nature ::@:: models that explain the nature <!--SR:!2026-02-05,464,380!2030-08-11,1789,400-->
 - [geocentric model § Ancient Greece](../../../../general/geocentric%20model.md#Ancient%20Greece)
-  - Greek geocentric model ::@:: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2027-12-01,803,320!2025-09-21,329,360-->
+  - Greek geocentric model ::@:: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2027-12-01,803,320!2030-03-03,1624,380-->
 - [questions § 2024-07-04](questions.md#2024-07-04)
 
 ## week 4 lecture
@@ -1265,7 +1265,7 @@ The content is in teaching order. Extra information and corrections are included
           - measuring galactic mass ::@:: hydrogen orbital motion in _spirals_, spectral line broadening in _ellipticals_ <!--SR:!2027-11-24,881,377!2026-01-22,400,397-->
             - measuring galactic mass / [hydrogen line](../../../../general/hydrogen%20line.md) ::@:: As 21-cm radiation is produced by hydrogen, measuring its Doppler red- and blueshift can yield the radial velocity of hydrogen. If applied to opposite sides of _spiral_ galaxies, we can estimate its orbital velocity. In turns out the rotation curves (after the initial rapid increase) for spiral galaxies are flat instead of decreasing, implying the existence of dark matter. <!--SR:!2027-06-25,805,417!2026-08-06,575,417-->
               - [hydrogen line](../../../../general/hydrogen%20line.md)
-            - measuring galactic mass / spectral line broadening ::@:: More massive _elliptical_ galaxies have stars moving faster due to higher gravity. So their velocity spreads, and hence Doppler shift spreads, are greater. Finally, their spectral lines are more broad, as the spectral lines of galaxies are a mix of spectral lines of each individual star in the galaxies. <!--SR:!2025-09-21,297,377!2026-05-09,501,397-->
+            - measuring galactic mass / spectral line broadening ::@:: More massive _elliptical_ galaxies have stars moving faster due to higher gravity. So their velocity spreads, and hence Doppler shift spreads, are greater. Finally, their spectral lines are more broad, as the spectral lines of galaxies are a mix of spectral lines of each individual star in the galaxies. <!--SR:!2028-10-15,1120,377!2026-05-09,501,397-->
           - measuring galaxy cluster mass ::@:: Doppler shift, gravitational equilibrium, gravitational lensing; all methods imply similar amounts of missing matter, called dark matter <!--SR:!2025-11-17,338,377!2026-11-24,638,417-->
             - measuring galaxy cluster mass / Doppler shift ::@:: Galaxies orbit each other in a cluster similar to stars orbit each other in a galaxy. So the Doppler shift can be applied to find their motions and orbital velocities. Then the mass can be found. <!--SR:!2029-04-15,1352,397!2026-02-10,407,397-->
             - measuring galaxy cluster mass / gravitational equilibrium ::@:: Galaxy clusters contain large amount of hot (10<sup>6</sup>—10<sup>7</sup> K) X-ray-emitting gases, called the _intracluster medium_, which several times the mass of stars in clusters. The mass of the cluster can be then determined from gravitational equilibrium — the balance between gravitational attraction and "thermal gas pressure". <!--SR:!2027-01-10,676,377!2027-05-27,725,357-->

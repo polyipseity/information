@@ -94,7 +94,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 >
 > <!-- - [v](https://en.wikipedia.org/wiki/Template:Hamiltonian%20platonic%20graphs.svg) -->
 > <!-- - [t](https://en.wikipedia.org/wiki/Template_talk:Hamiltonian%20platonic%20graphs.svg) -->
-> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2027-04-19,632,302!2027-11-23,832,342!2025-09-21,215,316!2026-07-30,456,322!2025-11-23,268,342-->
+> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2027-04-19,632,302!2027-11-23,832,342!2027-08-05,683,316!2026-07-30,456,322!2025-11-23,268,342-->
 
 ## counting Eulerian circuits
 
@@ -157,7 +157,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-10-20,255,342!2025-10-30,263,342!2026-01-27,337,350!2026-03-26,387,362-->
 
-{@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2026-03-06,370,362!2026-04-01,392,362!2025-09-21,228,330!2025-12-12,298,332!2026-08-05,460,322-->
+{@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2026-03-06,370,362!2026-04-01,392,362!2028-07-23,1036,350!2025-12-12,298,332!2026-08-05,460,322-->
 
 {@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}. <!--SR:!2026-03-01,366,362!2026-04-04,394,362!2026-03-30,389,362-->
 
@@ -175,7 +175,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 - [Eulerian matroid](Eulerian%20matroid.md), an abstract generalization of Eulerian graphs
 - [five room puzzle](five-room%20puzzle.md)
-- [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2025-09-21,228,330!2028-02-26,897,330-->
+- [handshaking lemma](handshaking%20lemma.md), ::@:: proven by Euler in his original paper, showing that any undirected connected graph has an even number of odd-degree vertices <!--SR:!2028-07-24,1037,350!2028-02-26,897,330-->
 - [Hamiltonian path](Hamiltonian%20path.md) – ::@:: a path that visits each _vertex_ exactly once. <!--SR:!2026-02-02,346,362!2026-02-22,360,362-->
 - [route inspection problem](Chinese%20postman%20problem.md), ::@:: search for the shortest path that visits all edges, possibly repeating edges if an Eulerian path does not exist. <!--SR:!2025-10-24,258,342!2026-03-13,375,362-->
 - [Veblen's theorem](Veblen's%20theorem.md), ::@:: which states that graphs with even vertex degree can be partitioned into edge-disjoint cycles regardless of their connectivity <!--SR:!2026-03-28,387,362!2026-12-22,518,310-->

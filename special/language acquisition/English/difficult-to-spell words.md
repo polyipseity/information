@@ -98,7 +98,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: \(p\_y\) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2026-08-07,327,176-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: \(r\_t\) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2027-12-03,952,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: \(r\_e\) A set of instructions for making [food](../../../general/food.md). <!--SR:!2031-12-20,2357,428!2028-12-03,1409,408-->
-- [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: \(r\_t\) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
+- [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: \(r\_t\) One who receives. <!--SR:!2026-01-23,558,408!2028-10-10,1115,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: \(r\_y\) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2030-12-14,1938,368-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: \(r\_t\) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2028-06-25,1215,372!2028-09-29,1291,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: \(r\_r\) A source or sink of something. <!--SR:!2027-10-20,1003,330!2027-03-11,779,290-->

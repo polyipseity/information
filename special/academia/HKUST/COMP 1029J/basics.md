@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 - `++`:@:increment a numerical variable by 1 <!--SR:!2027-07-11,976,350-->
 - `--`:@:decrement a numerical variable by 1 <!--SR:!2029-02-16,1434,350-->
 - `*`:@:multiplication <!--SR:!2027-11-26,1000,330-->
-- `/`:@:division; if both operands are of integral types, then round-towards-zero division <!--SR:!2025-09-21,178,270-->
+- `/`:@:division; if both operands are of integral types, then round-towards-zero division <!--SR:!2027-07-24,671,290-->
 - `%`:@:remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2029-01-04,1297,310-->
 - `+`:@:addition <!--SR:!2028-06-12,1239,350-->
 - `-`:@:subtraction <!--SR:!2028-03-13,1165,350-->

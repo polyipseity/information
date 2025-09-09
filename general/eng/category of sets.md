@@ -9,7 +9,7 @@ tags:
 
 # category of sets
 
-In {@{the [mathematical](mathematics.md) field of [category theory](category%20theory.md)}@}, {@{the __category of sets__, denoted by __Set__}@}, is {@{the [category](category%20(mathematics).md) whose [objects](category%20theory.md) are [sets](set%20(mathematics).md)}@}. {@{The arrows or [morphisms](morphism.md) between sets _A_ and _B_}@} are {@{the [functions](function%20(mathematics).md) from _A_ to _B_}@}, and {@{the composition of morphisms is the [composition of functions](function%20composition.md)}@}. <!--SR:!2026-01-03,279,330!2025-12-22,270,330!2025-09-21,192,310!2026-01-01,278,330!2025-12-26,273,330!2026-01-16,290,330-->
+In {@{the [mathematical](mathematics.md) field of [category theory](category%20theory.md)}@}, {@{the __category of sets__, denoted by __Set__}@}, is {@{the [category](category%20(mathematics).md) whose [objects](category%20theory.md) are [sets](set%20(mathematics).md)}@}. {@{The arrows or [morphisms](morphism.md) between sets _A_ and _B_}@} are {@{the [functions](function%20(mathematics).md) from _A_ to _B_}@}, and {@{the composition of morphisms is the [composition of functions](function%20composition.md)}@}. <!--SR:!2026-01-03,279,330!2025-12-22,270,330!2027-12-26,826,330!2026-01-01,278,330!2025-12-26,273,330!2026-01-16,290,330-->
 
 {@{Many other categories \(such as the [category of groups](category%20of%20groups.md), with [group homomorphisms](group%20homomorphisms.md) as arrows\)}@} {@{add structure to the objects of the category of sets or restrict the arrows to functions of a particular kind \(or both\)}@}. <!--SR:!2025-10-03,190,310!2025-10-23,205,310-->
 

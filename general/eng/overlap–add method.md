@@ -13,7 +13,7 @@ tags:
 
 - This article is about {@{the convolution method}@}. For {@{the "Weight, OverLap, Add" channelization method}@}, see {@{[Sampling the DTFT](discrete-time%20Fourier%20transform.md#sampling%20the%20DTFT)}@}. <!--SR:!2025-09-24,69,328!2025-10-01,75,328!2025-09-30,74,328-->
 
-In {@{[signal processing](signal%20processing.md)}@}, {@{the __overlap–add method__}@} is {@{an efficient way to evaluate the discrete [convolution](convolution.md)}@} of {@{a very long signal $x[n]$ with a [finite impulse response](finite%20impulse%20response.md) \(FIR\) filter $h[n]$}@}: {@{$$y[n]=x[n]*h[n]\ \triangleq \ \sum _{m=-\infty }^{\infty }h[m]\cdot x[n-m]=\sum _{m=1}^{M}h[m]\cdot x[n-m] \,,$$}@} __<a id="math Eq.1">Eq.1</a>__ <p> where {@{$h[m]=0$ for $m$ outside the region $[1,M]$}@}.  This article uses {@{common abstract notations}@}, such as {@{$y(t)=x(t)*h(t)$, or $y(t)={\mathcal {H} }\{x(t)\}$}@}, in which it is understood that the functions should be thought of {@{in their totality, rather than at specific instants $t$}@} \(see {@{[Convolution\#Notation](convolution.md#notation)}@}\). <!--SR:!2026-06-04,263,330!2026-05-29,258,330!2025-09-29,73,328!2025-09-21,67,328!2025-09-21,67,328!2025-09-29,73,328!2025-09-26,71,328!2025-09-28,72,328!2025-09-28,72,328!2026-06-07,267,338-->
+In {@{[signal processing](signal%20processing.md)}@}, {@{the __overlap–add method__}@} is {@{an efficient way to evaluate the discrete [convolution](convolution.md)}@} of {@{a very long signal $x[n]$ with a [finite impulse response](finite%20impulse%20response.md) \(FIR\) filter $h[n]$}@}: {@{$$y[n]=x[n]*h[n]\ \triangleq \ \sum _{m=-\infty }^{\infty }h[m]\cdot x[n-m]=\sum _{m=1}^{M}h[m]\cdot x[n-m] \,,$$}@} __<a id="math Eq.1">Eq.1</a>__ <p> where {@{$h[m]=0$ for $m$ outside the region $[1,M]$}@}.  This article uses {@{common abstract notations}@}, such as {@{$y(t)=x(t)*h(t)$, or $y(t)={\mathcal {H} }\{x(t)\}$}@}, in which it is understood that the functions should be thought of {@{in their totality, rather than at specific instants $t$}@} \(see {@{[Convolution\#Notation](convolution.md#notation)}@}\). <!--SR:!2026-06-04,263,330!2026-05-29,258,330!2025-09-29,73,328!2026-04-24,215,328!2026-07-25,307,348!2025-09-29,73,328!2025-09-26,71,328!2025-09-28,72,328!2025-09-28,72,328!2026-06-07,267,338-->
 
 > {@{![Fig 1: A sequence of five plots depicts one cycle of the overlap-add convolution algorithm.](../../archives/Wikimedia%20Commons/Overlap-add%20algorithm.svg)}@}
 >
@@ -62,7 +62,7 @@ end
 >     {@{y(position+(1:N))}@} = {@{y(position+(1:N)) + IDFT(DFT(x(position+(1:step_size)), N) × H)}@}
 >     position = {@{position + step_size}@}
 > <b>end</b>
-> </pre> <!--SR:!2025-09-29,73,328!2025-09-24,69,318!2025-09-29,73,328!2025-09-25,70,328!2025-09-28,72,328!2025-09-30,74,328!2025-09-21,67,328!2025-09-21,67,328!2025-09-29,73,328!2025-09-30,74,328!2025-09-30,74,328!2025-09-29,73,328!2025-09-25,70,328!2026-06-12,270,338-->
+> </pre> <!--SR:!2025-09-29,73,328!2025-09-24,69,318!2025-09-29,73,328!2025-09-25,70,328!2025-09-28,72,328!2025-09-30,74,328!2026-07-24,306,348!2026-04-24,215,328!2025-09-29,73,328!2025-09-30,74,328!2025-09-30,74,328!2025-09-29,73,328!2025-09-25,70,328!2026-06-12,270,338-->
 
 ## efficiency considerations
 

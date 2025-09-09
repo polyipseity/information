@@ -346,7 +346,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2026-04-24,304,350!2026-06-08,349,350-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2027-01-12,517,401!2026-12-21,497,401-->
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;` <!--SR:!2026-11-01,456,401!2026-12-30,506,401-->
-- not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;` <!--SR:!2025-09-21,137,315!2026-06-12,353,355-->
+- not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;` <!--SR:!2027-05-11,597,335!2026-06-12,353,355-->
 - pop ::@:: `pop [$d=$ra]`: pops a 32-bit value from the stack to `$d`; implemented by `lw $d, 0($sp); addi $sp, $sp, 4;` <!--SR:!2026-11-19,471,401!2027-01-04,513,401-->
   - pop / usage ::@:: In practice, when you want to pop multiple values at once \(e.g. popping extra arguments from the stack\), using multiple `pop` is inefficient. Instead, you retrive the multiple values directly using `lw` using offsets from `$sp`, then adjust `$sp` upward apporpriately to shrink the stack. <!--SR:!2026-11-25,475,401!2026-11-03,457,401-->
 - push ::@:: `push [$s=$ra]`: pushes the 32-bit value of `$s` to the stack; implemented by `addi $sp, $sp, -4; sw $s, 0($sp);` <!--SR:!2026-11-24,474,401!2027-02-03,534,401-->

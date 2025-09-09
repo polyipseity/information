@@ -33,7 +33,7 @@ Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} 
 
 Z3 was {@{open sourced in the beginning of 2015}@}.<sup>[\[3\]](#^ref-3)</sup> The source code is licensed under {@{[MIT License](MIT%20License.md)}@} and hosted on {@{[GitHub](GitHub.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The solver can be built using {@{[Visual Studio](Visual%20Studio.md), a [makefile](makefile.md#makefile) or using [CMake](CMake.md)}@} and runs on {@{[Windows](Microsoft%20Windows.md), [FreeBSD](FreeBSD.md), [Linux](Linux.md), and [macOS](macOS.md)}@}. <!--SR:!2026-06-26,279,330!2026-04-24,228,330!2026-05-14,246,330!2026-06-11,268,330!2026-06-04,263,330-->
 
-{@{The default input format}@} for Z3 is {@{[SMTLIB2](smt2%20(file%20format).md#verification)}@}. It also has officially supported {@{[bindings](language%20binding.md) for several [programming languages](programming%20language.md)}@}, including {@{[C](C%20(programming%20language).md), [C++](C++.md), [Python](Python%20(programming%20language).md), [.NET](.NET.md), [Java](Java%20(programming%20language).md), and [OCaml](OCaml.md)}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,285,330!2026-06-19,275,330!2025-09-21,66,310!2026-06-08,266,330-->
+{@{The default input format}@} for Z3 is {@{[SMTLIB2](smt2%20(file%20format).md#verification)}@}. It also has officially supported {@{[bindings](language%20binding.md) for several [programming languages](programming%20language.md)}@}, including {@{[C](C%20(programming%20language).md), [C++](C++.md), [Python](Python%20(programming%20language).md), [.NET](.NET.md), [Java](Java%20(programming%20language).md), and [OCaml](OCaml.md)}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,285,330!2026-06-19,275,330!2026-04-14,205,310!2026-06-08,266,330-->
 
 ## examples
 

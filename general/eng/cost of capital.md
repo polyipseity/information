@@ -66,7 +66,7 @@ When companies {@{borrow funds from outside lenders}@}, {@{the interest paid on 
 
 - Main article: ::@:: [Cost of equity](cost%20of%20equity.md) <!--SR:!2025-09-22,58,310!2025-10-09,70,330-->
 
-{@{The [cost](cost.md) of equity}@} is {@{_inferred_ by comparing the investment to other investments \(comparable\) with similar risk profiles}@}. It is commonly computed using {@{the [capital asset pricing model](capital%20asset%20pricing%20model.md) formula}@}: <!--SR:!2025-09-21,57,310!2026-05-11,235,330!2025-10-03,67,310-->
+{@{The [cost](cost.md) of equity}@} is {@{_inferred_ by comparing the investment to other investments \(comparable\) with similar risk profiles}@}. It is commonly computed using {@{the [capital asset pricing model](capital%20asset%20pricing%20model.md) formula}@}: <!--SR:!2026-05-28,249,330!2026-05-11,235,330!2025-10-03,67,310-->
 
 > \(annotation: with risk premium\) Cost of equity ::@:: = Risk free rate of return + Premium expected for risk <br/> <!--SR:!2025-10-03,67,310!2025-09-23,58,310-->
 > \(annotation: with beta\) Cost of equity ::@:: = Risk free rate of return + Beta × \(market rate of return – risk free rate of return\) <!--SR:!2025-10-03,67,310!2025-09-23,58,310-->
@@ -79,7 +79,7 @@ where:
 > _R<sub>f</sub>_ ::@:: is the expected [risk-free return](risk-free%20return.md) in that market \(government bond yield\); <br/> <!--SR:!2025-10-03,67,310!2025-09-23,58,310-->
 > _β<sub>s</sub>_ ::@:: is the sensitivity to [market risk](market%20risk.md) for the security; <br/> <!--SR:!2025-09-23,58,310!2025-09-23,58,310-->
 > _R<sub>m</sub>_ ::@:: is the historical return of the [stock market](stock%20market.md); and <br/> <!--SR:!2025-09-27,62,310!2025-10-03,67,310-->
-> _\(R<sub>m</sub> – R<sub>f</sub>\)_ ::@:: is the [risk premium](risk%20premium.md) of market assets over risk free assets. <!--SR:!2025-09-27,62,310!2025-09-21,57,310-->
+> _\(R<sub>m</sub> – R<sub>f</sub>\)_ ::@:: is the [risk premium](risk%20premium.md) of market assets over risk free assets. <!--SR:!2025-09-27,62,310!2026-05-26,247,330-->
 
 {@{The risk free rate}@} is {@{the yield on long term bonds in the particular market}@}, such as {@{[government bonds](government%20bonds.md)}@}. <!--SR:!2025-10-03,67,310!2025-09-28,63,310!2025-09-23,58,310-->
 
@@ -93,7 +93,7 @@ An alternative to {@{the estimation of the required return by the capital asset 
 
 The models state that investors will {@{expect a return that is the [risk-free return](risk-free%20return.md)}@} plus {@{the security's sensitivity to [market risk](market%20risk.md) \(β\) times the market risk premium}@}. <!--SR:!2025-09-23,58,310!2025-10-03,67,310-->
 
-The risk premium {@{varies over time and place}@}, but in {@{some [developed countries](developed%20countries.md) during the twentieth century}@} it has averaged {@{around 5%}@} whereas in {@{the emerging markets}@}, it can be {@{as high as 7%}@}. {@{The equity market real [capital gain](capital%20gain.md) return}@} has been {@{about the same as annual real GDP growth}@}. The capital gains on {@{the [Dow Jones Industrial Average](Dow%20Jones%20Industrial%20Average.md)}@} have been {@{1.6% per year over the period 1910–2005}@}.<sup>[\[3\]](#^ref-3)</sup> The dividends have {@{increased the total "real" return on average equity to the double}@}, {@{about 3.2%}@}. <!--SR:!2025-09-28,63,310!2025-09-23,58,310!2025-10-03,67,310!2025-10-02,66,310!2025-09-23,58,310!2025-09-27,62,310!2025-10-01,65,310!2025-09-23,58,310!2026-05-24,246,330!2025-09-21,57,310!2025-10-10,71,330-->
+The risk premium {@{varies over time and place}@}, but in {@{some [developed countries](developed%20countries.md) during the twentieth century}@} it has averaged {@{around 5%}@} whereas in {@{the emerging markets}@}, it can be {@{as high as 7%}@}. {@{The equity market real [capital gain](capital%20gain.md) return}@} has been {@{about the same as annual real GDP growth}@}. The capital gains on {@{the [Dow Jones Industrial Average](Dow%20Jones%20Industrial%20Average.md)}@} have been {@{1.6% per year over the period 1910–2005}@}.<sup>[\[3\]](#^ref-3)</sup> The dividends have {@{increased the total "real" return on average equity to the double}@}, {@{about 3.2%}@}. <!--SR:!2025-09-28,63,310!2025-09-23,58,310!2025-10-03,67,310!2025-10-02,66,310!2025-09-23,58,310!2025-09-27,62,310!2025-10-01,65,310!2025-09-23,58,310!2026-05-24,246,330!2026-05-27,248,330!2025-10-10,71,330-->
 
 {@{The sensitivity to market risk \(β\)}@} is {@{unique for each firm}@} and depends on {@{everything from management to its business and [capital structure](capital%20structure.md)}@}. This value cannot {@{be known "[ex ante](ex%20ante.md)" \(beforehand\)}@}, but can be {@{estimated from _[ex post](ex%20post.md#ex%20post)_ \(past\) returns and past experience with similar firms}@}. <!--SR:!2025-09-28,63,310!2025-10-03,67,310!2025-09-28,63,310!2025-10-03,67,310!2025-09-30,64,310-->
 
@@ -101,7 +101,7 @@ The risk premium {@{varies over time and place}@}, but in {@{some [developed cou
 
 Note that {@{[retained earnings](retained%20earnings.md)}@} are {@{a component of equity}@}, and, therefore, {@{the cost of retained earnings \(internal equity\)}@} is {@{equal to the cost of equity as explained above}@}. {@{Dividends \(earnings that are paid to investors and not retained\)}@} are {@{a component of the return on capital to equity holders}@}, and {@{influence the cost of capital through that mechanism}@}. <!--SR:!2025-09-29,64,330!2025-09-28,63,310!2025-09-23,58,310!2025-10-09,70,330!2025-10-13,74,330!2025-10-15,76,330!2025-10-13,74,330-->
 
-> Cost of internal equity ::@:: = \[\(next year's dividend per share/\(current market price per share - [flotation costs](flotation%20cost.md)\)\] + growth rate of dividends\)\] <!--SR:!2025-09-21,57,310!2025-10-11,72,330-->
+> Cost of internal equity ::@:: = \[\(next year's dividend per share/\(current market price per share - [flotation costs](flotation%20cost.md)\)\] + growth rate of dividends\)\] <!--SR:!2026-03-20,180,310!2025-10-11,72,330-->
 
 ## weighted average cost of capital
 

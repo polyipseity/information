@@ -162,7 +162,7 @@ tags:
 > 2. program B
 >
 > - solution: {@{1/2}@}
-> - explanation: {@{1 is usually preferred over 2, demonstrating _risk aversion_ in gains.}@} <!--SR:!2025-09-21,70,331!2026-07-20,306,351-->
+> - explanation: {@{1 is usually preferred over 2, demonstrating _risk aversion_ in gains.}@} <!--SR:!2026-08-09,322,351!2026-07-20,306,351-->
 
 <!-- markdownlint MD028 -->
 
@@ -190,4 +190,4 @@ tags:
 > 1. Happy Happy Happy
 > 2. Cheers Cheers Cheers
 >
-> - solution: {@{1/2}@} <!--SR:!2025-09-21,70,331-->
+> - solution: {@{1/2}@} <!--SR:!2026-08-08,321,351-->

@@ -39,7 +39,7 @@ The content is in teaching order.
 - self-introduction ::@:: name, study location, _fun fact_ <!--SR:!2026-05-03,231,330!2025-09-27,67,310-->
 - course logistics
   - course logistics / group formation: delayed
-  - course logistics / textbook ::@:: Kenneth C. Laudon & Jane P. Laudon. __Management Information Systems: Managing the Digital Firm__, Global Edition, 17th edition. Pearson, 2021. \(ISBN: 978-1292403281\) <!--SR:!2025-09-27,67,310!2025-09-21,61,310-->
+  - course logistics / textbook ::@:: Kenneth C. Laudon & Jane P. Laudon. __Management Information Systems: Managing the Digital Firm__, Global Edition, 17th edition. Pearson, 2021. \(ISBN: 978-1292403281\) <!--SR:!2025-09-27,67,310!2026-06-10,262,330-->
 
 ## week 1 lecture 2
 
@@ -49,8 +49,8 @@ The content is in teaching order.
 - [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2025-09-27,67,310!2025-09-22,62,310-->
   - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization. <!--SR:!2025-09-27,67,310!2026-05-01,229,330-->
     - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals <!--SR:!2026-05-14,241,330!2026-05-06,234,330-->
-    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2025-09-21,61,310!2025-09-22,62,310-->
-  - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2025-09-21,61,310!2026-05-14,241,330-->
+    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2026-06-09,261,330!2025-09-22,62,310-->
+  - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2026-06-11,263,330!2026-05-14,241,330-->
   - information system / architecture ::@:: normal: input → arrange, calculate, classify, process → output <br/> improve: output → feedback → input <p> It interacts with the organization and its environment, e.g. competitors, customers, regulators, stockholders, suppliers, etc. <!--SR:!2026-02-21,172,310!2025-09-27,67,310-->
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2025-10-20,79,349!2025-10-25,85,349-->
   - information system / users ::@:: Senior management, middle management, and operational management may use it. <!--SR:!2025-10-26,85,349!2025-10-20,79,349-->

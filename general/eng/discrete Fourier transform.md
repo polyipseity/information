@@ -91,7 +91,7 @@ These theorems are {@{also equivalent to the unitary condition below}@}. <!--SR:
 
 ### periodicity
 
-The periodicity can be {@{shown directly from the definition}@}: {@{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}@}. <!--SR:!2028-08-19,1147,356!2025-09-21,317,356-->
+The periodicity can be {@{shown directly from the definition}@}: {@{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}@}. <!--SR:!2028-08-19,1147,356!2029-12-15,1546,376-->
 
 Similarly, it can be {@{shown that the IDFT formula leads to a periodic extension}@}. <!--SR:!2028-06-28,1106,356-->
 

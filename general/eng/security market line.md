@@ -19,7 +19,7 @@ tags:
 
 ## formula
 
-{@{The Y-intercept of the SML}@} is equal to {@{the [risk-free interest rate](risk-free%20interest%20rate.md)}@}. {@{The slope of the SML}@} is equal to {@{the market [risk premium](risk%20premium.md)}@} and reflects {@{the risk return tradeoff at a given time}@}: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$}@} <!--SR:!2026-05-25,255,330!2026-06-17,273,330!2026-05-08,241,330!2025-09-21,66,310!2026-05-19,250,330!2026-06-21,276,330-->
+{@{The Y-intercept of the SML}@} is equal to {@{the [risk-free interest rate](risk-free%20interest%20rate.md)}@}. {@{The slope of the SML}@} is equal to {@{the market [risk premium](risk%20premium.md)}@} and reflects {@{the risk return tradeoff at a given time}@}: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$}@} <!--SR:!2026-05-25,255,330!2026-06-17,273,330!2026-05-08,241,330!2026-07-04,286,330!2026-05-19,250,330!2026-06-21,276,330-->
 
 where:
 
@@ -39,7 +39,7 @@ There is a question about {@{what the SML looks like when beta is negative}@}. {
 
 In fact, {@{the slope of the SML}@} is {@{the Treynor ratio of the market portfolio}@} since {@{$\beta _{M}=1$}@}. <!--SR:!2026-06-24,278,330!2026-06-14,271,330!2026-05-31,259,330-->
 
-{@{A [stock picking](stock%20picking.md) rule of thumb}@} for {@{assets with positive beta}@} is to {@{buy if the Treynor ratio will be above the SML and sell if it will be below}@} \(see figure above\). Indeed, from {@{the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}, it follows that {@{we cannot beat the market}@}. Therefore, all assets should {@{have a Treynor ratio less than or equal to that of the market}@}. In consequence, if {@{there is an asset whose Treynor ratio will be bigger than the market's}@} then this asset {@{gives more return for unit of [systematic risk](systematic%20risk.md) \(i.e. beta\)}@}, which {@{contradicts the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}. <!--SR:!2026-06-18,274,330!2025-09-21,66,310!2026-02-23,168,310!2026-06-25,279,330!2026-04-27,231,330!2026-05-08,241,330!2026-05-15,246,330!2026-05-25,255,330!2026-06-09,267,330-->
+{@{A [stock picking](stock%20picking.md) rule of thumb}@} for {@{assets with positive beta}@} is to {@{buy if the Treynor ratio will be above the SML and sell if it will be below}@} \(see figure above\). Indeed, from {@{the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}, it follows that {@{we cannot beat the market}@}. Therefore, all assets should {@{have a Treynor ratio less than or equal to that of the market}@}. In consequence, if {@{there is an asset whose Treynor ratio will be bigger than the market's}@} then this asset {@{gives more return for unit of [systematic risk](systematic%20risk.md) \(i.e. beta\)}@}, which {@{contradicts the [efficient market hypothesis](efficient%20market%20hypothesis.md)}@}. <!--SR:!2026-06-18,274,330!2026-04-17,208,310!2026-02-23,168,310!2026-06-25,279,330!2026-04-27,231,330!2026-05-08,241,330!2026-05-15,246,330!2026-05-25,255,330!2026-06-09,267,330-->
 
 {@{This _abnormal_ extra return above the market's return at a given level of risk}@} is what is called {@{the [alpha](alpha%20(investment).md)}@}. <!--SR:!2026-06-11,268,330!2026-05-12,244,330-->
 

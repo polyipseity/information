@@ -119,7 +119,7 @@ As an example, consider {@{$X\sim {\text{Chi-Squared} }$ with $k$ degrees of fre
 
 __[Characteristic function](characteristic%20function%20(probability%20theory).md)__
 
-&emsp; {@{The [characteristic function](characteristic%20function%20(probability%20theory).md) $\varphi _{X}(t)$}@} is {@{related to the moment-generating function via $\varphi _{X}(t)=M_{iX}(t)=M_{X}(it)$}@}: the characteristic function is {@{the moment-generating function of _iX_ or the moment generating function of _X_ evaluated on the imaginary axis}@}. This function can also be viewed as {@{the [Fourier transform](Fourier%20transform.md) of the [probability density function](probability%20density%20function.md)}@}, which can therefore {@{be deduced from it by inverse Fourier transform}@}. <!--SR:!2025-12-30,270,330!2025-09-21,189,310!2025-12-03,250,330!2026-01-23,290,330!2025-11-15,234,330-->
+&emsp; {@{The [characteristic function](characteristic%20function%20(probability%20theory).md) $\varphi _{X}(t)$}@} is {@{related to the moment-generating function via $\varphi _{X}(t)=M_{iX}(t)=M_{X}(it)$}@}: the characteristic function is {@{the moment-generating function of _iX_ or the moment generating function of _X_ evaluated on the imaginary axis}@}. This function can also be viewed as {@{the [Fourier transform](Fourier%20transform.md) of the [probability density function](probability%20density%20function.md)}@}, which can therefore {@{be deduced from it by inverse Fourier transform}@}. <!--SR:!2025-12-30,270,330!2027-12-18,818,330!2025-12-03,250,330!2026-01-23,290,330!2025-11-15,234,330-->
 
 __[Cumulant-generating function](cumulant-generating%20function.md)__
 
