@@ -84,7 +84,7 @@ So $\mathrm {d} x\mathrm {d} y$ transforms to {@{${\frac {\partial (x,y)}{\parti
 
 Then, {@{the surface integral of _f_ on _S_}@} is given by {@{$$\iint _{D}\left[f_{z}(\mathbf {r} (s,t)){\frac {\partial (x,y)}{\partial (s,t)} }+f_{x}(\mathbf {r} (s,t)){\frac {\partial (y,z)}{\partial (s,t)} }+f_{y}(\mathbf {r} (s,t)){\frac {\partial (z,x)}{\partial (s,t)} }\right]\,\mathrm {d} s\,\mathrm {d} t$$}@} where {@{$${\partial \mathbf {r}  \over \partial s}\times {\partial \mathbf {r}  \over \partial t}=\left({\frac {\partial (y,z)}{\partial (s,t)} },{\frac {\partial (z,x)}{\partial (s,t)} },{\frac {\partial (x,y)}{\partial (s,t)} }\right)$$}@} is {@{the surface element normal to _S_}@}.  \(annotation: Observe that {@{a dot product is hidden above}@}.\)
 
-Let us note that {@{the surface integral of this 2-form}@} is {@{the same as the surface integral of the vector field which has as components $f_{x}$, $f_{y}$ and $f_{z}$ \(annotation: using dot product\)}@}.
+Let us note that {@{the surface integral of this 2-form}@} is {@{the same as the surface integral of the vector field}@} which has {@{as components $f_{x}$, $f_{y}$ and $f_{z}$ \(annotation: using dot product\)}@}.
 
 ## theorems involving surface integrals
 

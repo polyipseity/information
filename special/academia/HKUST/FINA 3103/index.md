@@ -127,6 +127,28 @@ The content is in teaching order.
 - datetime: 2025-09-04T15:00:00+08:00/2025-09-04T16:20:00+08:00, PT1H20M
 - topic:
 
+## week 2 lecture
+
+- datetime: 2025-09-09T15:00:00+08:00/2025-09-09T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 2 lecture 2
+
+- datetime: 2025-09-11T15:00:00+08:00/2025-09-11T16:20:00+08:00, PT1H20M
+- status: unscheduled
+
+---
+
+> __<big><big>Announcements and Notes</big></big>__
+>
+> For those who missed the first class, please take note of the following:
+>
+> Please read the syllabus and follow the course/email rules outlined there. In particular, if you have questions about exam arrangements or wish to request a recording of the class, __please contact your TA__. If your inquiry is about the class quota and waiting list, __please contact the FINA department__ \(\[redacted\]\).
+>
+> If you are requesting the recording, make sure to follow the instructions provided in the syllabus or in Lecture Slide #1.
+>
+> Please note that there will be __no class on Thursday, September 11__, as I will be attending a conference.
+
 ## aftermath
 
 ### total
