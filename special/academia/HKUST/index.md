@@ -84,6 +84,7 @@ tags:
 ### 2025 fall
 
 - [ACCT 3010](ACCT%203010/index.md): Financial Accounting I \(3 credits\)
+- [BIEN 3300](BIEN%203300/index.md): Data Science for Molecular Engineering \(3 credits\)
 - [COMP 3031](COMP%203031/index.md): Principles of Programming Languages \(3 credits\)
 - [COMP 3111H](COMP%203111H/index.md): Honors Software Engineering \(4 credits\)
 - [FINA 3103](FINA%203103/index.md): Intermediate Investments \(3 credits\)
