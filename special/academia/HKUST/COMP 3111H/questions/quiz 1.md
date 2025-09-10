@@ -25,8 +25,8 @@ tags:
 
 ## hints
 
-1. source lines of code / acronyms ::@:: LLOC: logical lines of code; logical SLOC <br/> LOC: lines of code; physical SLOC <br/> MLOC: million lines of code <br/> SLOC: source lines of code
-2. source lines of code / examples ::@:: Rome: Total War &lt; Boeing 787 &lt; F-35 Fighter Jet &lt; Windows 7 &lt; Windows 10 &lt; Facebook &lt; Mac OS X &lt; luxury passenger car
-3. software engineering / characteristics ::@:: disciplined \(engineering principles\), multi-person, multi-version, problem solving \(solves real user problems\), quality \(e.g. economic, efficient, reliable, etc.\)
-4. software engineering / activities ::@:: knowledge acquisition, modeling, problem solving, rationale management, etc.
-5. programming complexity / mitigations / characteristics ::@:: correct, efficient, evolvable, interoperable, maintainable, portable, productive, reliable, repairable, reusable, robust, timely, usable, verifiable, visible, etc.
+1. source lines of code / acronyms ::@:: LLOC: logical lines of code; logical SLOC <br/> LOC: lines of code; physical SLOC <br/> MLOC: million lines of code <br/> SLOC: source lines of code <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+2. source lines of code / examples ::@:: Rome: Total War &lt; Boeing 787 &lt; F-35 Fighter Jet &lt; Windows 7 &lt; Windows 10 &lt; Facebook &lt; Mac OS X &lt; luxury passenger car <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+3. software engineering / characteristics ::@:: disciplined \(engineering principles\), multi-person, multi-version, problem solving \(solves real user problems\), quality \(e.g. economic, efficient, reliable, etc.\) <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+4. software engineering / activities ::@:: knowledge acquisition, modeling, problem solving, rationale management, etc. <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+5. programming complexity / mitigations / characteristics ::@:: correct, efficient, evolvable, interoperable, maintainable, portable, productive, reliable, repairable, reusable, robust, timely, usable, verifiable, visible, etc. <!--SR:!2025-09-13,3,250!2025-09-14,4,270-->
