@@ -113,13 +113,62 @@ The content is in teaching order.
   - scope / lexical scoping ::@:: With it, a name always refers to its lexical context. This is a property of the program text and is made independent of the runtime call stack by the language implementation.
 - Scala
   - Scala / Scala 3
-    - [§ scoping](Scala%203.md#scoping): end markers
-    - [§ expressions](Scala%203.md#expressions): semicolons
+    - [§ scoping](Scala%203.md#scoping): end marker
+    - [§ expressions](Scala%203.md#expressions): semicolon
 
 ## week 1 lecture 2
 
 - datetime: 2025-09-04T12:00:00+08:00/2025-09-04T13:20:00+08:00, PT1H20M
-- topic:
+- topic: tail recursion
+- rewriting
+  - rewriting / substitution model
+    - rewriting / substitution model / notation ::@:: The following notation expresses _replacing_ all occurrences of $x_i$ by $v_i$ \(or $v_i$ _substitutes_ $x_i$\) in the expression $E$: $$[v_1 / x_1, \ldots, v_n / x_n] E \,.$$
+- [tail call](../../../../general/tail%20call.md) ::@:: It is a subroutine call performed as the final action of a procedure.
+  - tail call / tail recursion ::@:: If the target of a tail is the same subroutine, the subroutine is said to be __tail recursive__, which is a special case of direct recursion. __Tail recursion__ \(or __tail-end recursion__\) is particularly useful, and is often easy to optimize in implementations.
+    - tail call / tail recursion / substitution model ::@:: Under the substitution model, a tail-recursive function, when it calls itself, the expression _only contains_ a function call to itself. No matter how many times recursion occurs, the expression "_size_" will not explode.
+  - tail call / tail-call elimination ::@:: Tail calls can be implemented without adding a new stack frame to the call stack. Most of the frame of the current procedure is no longer needed, and can be replaced by the frame of the tail call, modified as appropriate \(similar to overlay for processes, but for function calls\). The program can then jump to the called subroutine. Producing such code instead of a standard call sequence is called __tail-call elimination__ or __tail-call optimization__.
+    - tail call / tail-call elimination / Scala 3 ::@:: In a function, only tail calls to itself are _optimized_. To ensure this is the case \(or emit a compiler error otherwise\), use the _annotation_ `@scala.annotation.tailrec`.
+- Scala
+  - Scala / Scala 3
+    - [§ tail recursion](Scala%203.md#tail%20recursion): tail recursion
+- [higher-order function](../../../../general/higher-order%20function.md) \(HOL\) ::@:: It is a function that does at least one of the following: <p> - takes one or more functions as arguments \(i.e. a procedural parameter, which is a parameter of a procedure that is itself a procedure\), <br/> - returns a function as its result.
+  - higher-order function / functional language ::@:: Functional language treat functions as first-class citizens. They are treated as with other primitive types. It provides a flexible way to _compose_ programs.
+- Scala
+  - Scala / 3
+    - [§ function types](Scala%203.md#function%20types): function types, no arguments
+    - [§ anonymous functions](Scala%203.md#anonymous%20functions): anonymous functions, syntactic sugar
+    - [§ multiple parameter lists](Scala%203.md#multiple%20parameter%20lists): multiple parameter lists, function application, currying
+    - [§ function types](Scala%203.md#function%20types): currying
+- [currying](../../../../general/currying.md) ::@:: It is the technique of translating a function that takes multiple arguments into a sequence of families of functions, each taking a single argument.
+- higher-order function
+  - higher-order function / examples ::@:: - `fold`/`reduce`: It is a higher-order function that analyzes a recursive data structure and through use of a given combining operation, recombines the results of recursively processing its constituent parts, building up a return value. <br/> - `map`: It is a higher-order function that applies a given function to each element of a collection, e.g. a list or set, returning the results in a collection of the same type. <br/> - `mapReduce`: `map` then `reduce`.
+- [fixed point](../../../../general/fixed%20point.md) ::@:: It is a value that does not change under a given transformation. Specifically, for functions, a fixed point is an element that is mapped to itself by the function.
+- [fixed-point iteration](../../../../general/fixed-point%20iteration.md) ::@:: It is a method of computing fixed points of a function. <p> More specifically, given a function $f$ defined on the [real numbers](../../../../general/real%20number.md) with real values and given a point $x_{0}$ in the [domain](../../../../general/domain%20of%20a%20function.md) of $f$, the fixed-point iteration is $$x_{n+1}=f(x_{n}),\,n=0,1,2,\dots$$ which gives rise to the [sequence](../../../../general/sequence.md) $x_{0},x_{1},x_{2},\dots$ of [iterated function](../../../../general/iterated%20function.md) applications $x_{0},f(x_{0}),f(f(x_{0})),\dots$ which is hoped to [converge](../../../../general/limit%20(mathematics).md) to a point $x_{\text{fix} }$.
+  - fixed-point iteration / continuous function ::@:: If $f$ is continuous, then one can prove that the obtained $x_{\text{fix} }$ is a fixed point of $f$, i.e., $$f(x_{\text{fix} })=x_{\text{fix} }.$$ <p> More generally, the function $f$ can be defined on any [metric space](../../../../general/metric%20space.md) with values in that same space.
+  - fixed-point iteration / square root ::@:: - A first simple and useful example is the [Babylonian method](../../../../general/Babylonian%20method.md#Heron's%20method) for computing the [square root](../../../../general/square%20root.md) of _a_ \> 0, which consists in taking $f(x)={\frac {1}{2} }\left({\frac {a}{x} }+x\right)$, i.e. the mean value of _x_ and _a_<!-- markdown separator -->/<!-- markdown separator -->_x_, to approach the limit $x={\sqrt {a} }$ \(from whatever starting point $x_{0}\gg 0$\). This is a special case of [Newton's method](../../../../general/Newton's%20method.md) quoted below.
+- [extended Backus–Naur form](../../../../general/extended%20Backus–Naur%20form.md) \(EBNF\) ::@:: It is a family of metasyntax notations, any of which can be used to express a context-free grammar. EBNF is used to make a formal description of a formal language such as a computer programming language. They are extensions of the basic Backus–Naur form \(BNF\) metasyntax notation.
+  - extended Backus–Naur form / basic syntax ::@:: literal: `'<string>'` <br/> alternative \(choose one\): `<expr L> | <expr R>`  <br/> optional \(0 or 1 occurrence\): `[<expr>]` <br/> repetition \(0 or more occurrences\): `{<expr>}` <p> \(__this course__: Try to express Scala syntax in EBNF using the above elements only.\)
+- Scala
+  - Scala / Scala 3
+    - [§ classes](Scala%203.md#classes): classes, constructor, members, abstraction, construction, `this`
+    - [§ pre-definitions](Scala%203.md#pre-definitions): pre-definition
+    - [§ checking](Scala%203.md#checking): precondition, assertion
+    - [§ classes](Scala%203.md#classes): auxiliary constructor
+    - [§ scoping](Scala%203.md#scoping): end marker
+- rewriting
+  - rewriting / substitution model
+    - rewriting / substitution model / class ::@:: Assume we are in Scala 3. For the expression `C(x_1, ..., x_n).f(y_1, ..., y_m)`, it is rewritten to: $$[x_1/C_1, \ldots, x_n/C_n] [y_1/f_1, \ldots, y_m/f_m] [C(x_1, \ldots, x_n)/\text{this}] E \,.$$ That is, we replace `this` with the object _expression_, then replace function arguments, and finally replace class arguments. \(__this course__: Use this model. And we do the above 3 substitutions simultaneously.\) <p> Actually, the above model is not the best, since it does not handle constructors with side effects. A better model would evaluate `this = C(x_1, ..., x_n)`, then define `this.f` to extract the body expression of `f`, and finally evaluate `this.f(y_1, ..., y_m)` by substitution `this` in the body and the function arguments.
+- Scala
+  - Scala / Scala 3
+    - [§ extension methods](Scala%203.md#extension%20methods): extension methods
+- rewriting
+  - rewriting / substitution model
+    - rewriting / substitution model / class ::@:: Assume we are in Scala 3. For the expression `c.f(y_1, ..., y_m)` where `r` is the name used by the extension definition, it is rewritten to: $$[c/r] [y_1/f_1, \ldots, y_m/f_m] E \,.$$ That is, we replace function arguments, and then replace the name `r` used by the extension definition. \(__this course__: Use this model. And we do the above 2 substitutions simultaneously.\)
+- Scala
+  - Scala / Scala 3
+    - [§ syntax](Scala%203.md#syntax): syntax
+    - [§ identifiers](Scala%203.md#identifiers): identifier
+    - [§ infix notation](Scala%203.md#infix%20notation): infix notation, operator, precedence
 
 ## aftermath
 
