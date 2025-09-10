@@ -44,7 +44,7 @@ Some standard calculations based on the time value of money are:
 - {@{_[Future value](future%20value.md)_}@}: {@{The value of an asset or cash at a specified date in the future}@}, based on {@{the value of that asset in the present}@}.<sup>[\[6\]](#^ref-6)</sup>
 - {@{_Future value of an annuity \(FVA\)_}@}: {@{The future value of a stream of payments \(annuity\)}@}, assuming {@{the payments are invested at a given rate of interest}@}. <!--SR:!2025-12-23,236,330!2026-01-09,247,330!2026-03-03,291,330!2025-12-23,236,330!2025-12-25,238,330!2026-01-01,244,330!2026-02-18,278,330!2026-01-03,246,330!2026-01-21,259,330!2026-02-13,273,330!2025-12-30,242,330!2025-12-16,230,330!2025-09-27,64,362!2025-10-27,88,362!2026-01-14,252,330!2026-01-24,262,330!2025-10-29,90,362!2026-03-04,292,330!2026-01-31,268,330!2025-09-27,64,362-->
 
-There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions \(such as PV, FV, RATE, NPER, and PMT\)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-02-08,268,330!2026-02-17,277,330!2027-01-31,498,310-->
+There are {@{several basic equations that represent the equalities listed above}@}. The solutions may be found using {@{\(in most cases\) the formulas, a financial calculator, or a [spreadsheet](spreadsheet.md)}@}. The formulas are programmed into {@{most financial calculators and several spreadsheet functions}@} \(such as {@{PV, FV, RATE, NPER, and PMT}@}\).<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-02-08,268,330!2026-02-17,277,330!2027-01-31,498,310-->
 
 For {@{any of the equations below}@}, the formula may {@{also be rearranged to determine one of the other unknowns}@}. In {@{the case of the standard annuity formula}@}, there is {@{no closed-form algebraic solution for the interest rate}@} \(although financial calculators and spreadsheet programs can {@{readily determine solutions through rapid trial and error algorithms}@}\). <!--SR:!2026-01-31,268,330!2026-02-23,283,330!2026-02-26,286,330!2025-10-10,175,310!2025-10-19,171,310-->
 
@@ -91,7 +91,7 @@ __Where _i_ ≠ _g_ :__ ::@:: $$PV(A)\,=\,{A \over (i-g)}\left[1-\left({1+g \ove
 
 __Where _i_ = _g_ :__ ::@:: $$PV(A)\,=\,{A\times n \over 1+i}$$ (annotation: the additional denominator below is due to payments being made at period end instead of period start) <!--SR:!2026-01-29,266,330!2026-01-26,263,330-->
 
-To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\) (annotation: note that $A$ is defined to be the first payment, so there is no need to divide by the growth factor)}@}. <!--SR:!2027-07-21,673,330!2027-01-30,498,310-->
+To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annuity-due)}@}, {@{multiply the above equation by \(1 + _i_\)}@}. \(annotation: Note that $A$ is {@{defined to be the first payment}@}, so there is {@{no need to divide by the growth factor}@}\) <!--SR:!2027-07-21,673,330!2027-01-30,498,310-->
 
 ### present value of a perpetuity
 

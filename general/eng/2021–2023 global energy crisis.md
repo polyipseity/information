@@ -1,0 +1,1 @@
+global energy crisis (2021–2023).md

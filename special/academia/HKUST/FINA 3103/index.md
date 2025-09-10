@@ -51,7 +51,7 @@ The content is in teaching order.
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. <!--SR:!2025-10-03,15,290!2025-10-03,15,290-->
   - finance / fields ::@:: 3 main fields: asset pricing, corporate finance, market microstructure <!--SR:!2025-10-03,15,290!2025-10-02,14,290-->
     - finance / fields / asset pricing ::@:: Calculate asset _fair price_. <p> examples: Black–Scholes–Merton model \(a mathematical model\) <!--SR:!2025-10-03,15,290!2025-10-03,15,290-->
-    - finance / fields / corporate finance ::@: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\) <!--SR:!2025-09-29,11,270-->
+    - finance / fields / corporate finance ::@:: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\) <!--SR:!2025-09-29,11,270-->
     - finance / fields / market microstructure ::@:: Relation between _market quality_ and environment, mechanisms, trading rules, etc. <!--SR:!2025-10-03,15,290!2025-10-03,15,290-->
 - FINA 3103
   - FINA 3103 / objectives ::@:: Investigate asset pricing and market \(micro\)structure. Invest _wisely_ under different market structures, different trading rules, and uncertainty. <!--SR:!2025-10-03,15,290!2025-10-04,16,290-->
@@ -88,7 +88,7 @@ The content is in teaching order.
 - [asset pricing](../../../../general/asset%20pricing.md) ::@:: It refers to the formal development of the principles used in pricing, together with the resultant models. <!--SR:!2025-10-04,16,290!2025-10-02,14,290-->
   - asset pricing / return, risk ::@:: Asset price affects return and risk, mostly via capital gain/loss. <!--SR:!2025-10-03,15,290!2025-10-04,16,290-->
   - asset pricing / motivation ::@:: To find the _efficient_/_fair_ price of an asset, which we assume the actual price of the asset will _eventually_ approach. <!--SR:!2025-10-03,15,290!2025-10-03,15,290-->
-  - asset pricing / concepts ::@:: arbitrage, friction \(causing slight price difference in practice\), law of one price, market efficiency, etc. <!--SR:!2025-10-03,15,290!2025-09-30,12,270-->
+  - asset pricing / concepts ::@:: arbitrage, friction \(causing slight price differences in practice\), law of one price, market efficiency, etc. <!--SR:!2025-10-03,15,290!2025-09-30,12,270-->
 - [arbitrage](../../../../general/arbitrage.md) ::@:: The practice of taking advantage of a difference in prices in two or more markets – striking a combination of matching deals to capitalize on the difference, the profit being the difference between the market prices at which the unit is traded. <!--SR:!2025-10-03,15,290!2025-10-03,15,290-->
   - arbitrage / effect ::@:: Arbitrage has the effect of causing prices of the same or very similar assets in different markets to converge. <!--SR:!2025-10-04,16,290!2025-10-04,16,290-->
 - [law of one price](../../../../general/law%20of%20one%20price.md) ::@:: In the absence of trade frictions \(such as transport costs and tariffs\), and under conditions of free _competition_ and price flexibility \(where no individual sellers or buyers have power to manipulate prices and prices can freely adjust\), _identical goods_ sold at _different locations_ should be sold for the _same price_ when prices are expressed in a common currency. <!--SR:!2025-09-30,12,270!2025-10-04,16,290-->
@@ -126,6 +126,28 @@ The content is in teaching order.
 
 - datetime: 2025-09-04T15:00:00+08:00/2025-09-04T16:20:00+08:00, PT1H20M
 - topic:
+
+## week 2 lecture
+
+- datetime: 2025-09-09T15:00:00+08:00/2025-09-09T16:20:00+08:00, PT1H20M
+- topic:
+
+## week 2 lecture 2
+
+- datetime: 2025-09-11T15:00:00+08:00/2025-09-11T16:20:00+08:00, PT1H20M
+- status: unscheduled
+
+---
+
+> __<big><big>Announcements and Notes</big></big>__
+>
+> For those who missed the first class, please take note of the following:
+>
+> Please read the syllabus and follow the course/email rules outlined there. In particular, if you have questions about exam arrangements or wish to request a recording of the class, __please contact your TA__. If your inquiry is about the class quota and waiting list, __please contact the FINA department__ \(\[redacted\]\).
+>
+> If you are requesting the recording, make sure to follow the instructions provided in the syllabus or in Lecture Slide #1.
+>
+> Please note that there will be __no class on Thursday, September 11__, as I will be attending a conference.
 
 ## aftermath
 

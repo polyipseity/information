@@ -17,4 +17,9 @@ tags:
 
 - HKUST FINA 3203
 
-## week 1 lecture
+## derivative definition
+
+1. Is a stock a derivative? ::@:: No by most people's account. <p> But philosophically, you could argue it is a derivative of itself... Whatever that means.
+2. Is a combination of stocks \(e.g. mutual fund\) a derivative? ::@:: No by most people's account. You could argue if a stock is not a derivative, then why should a combination of stocks should be? <p> But you could also argue it in the opposite way: It is a derivative of the individual stocks in the combination.
+3. Is a closed-end mutual fund a derivative? ::@:: No by most people's account. You could argue it the same way as above. <p> But you could also argue it in the opposite way: Compared to a mutual fund \(combination of stocks\), "closed-end" makes its value further removed from the underlying stocks, so it is a derivative.
+4. Must the item underlying a derivative be delivered at maturity of the derivative? ::@:: No. For example, an event derivative cannot "deliver" an event, whatever that means...

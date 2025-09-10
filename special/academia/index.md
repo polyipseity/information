@@ -11,9 +11,10 @@ tags:
 
 - academia
 
-<!-- list separator -->
+---
 
-- Hong Kong University of Science and Technology (HKUST): [HKUST](HKUST/index.md)
-- [Korea University](Korea%20University/index.md)
-- Universidad San Francisco de Quito (USFQ): [USFQ](USFQ/index.md)
-- [Yonsei University](Yonsei%20University/index.md)
+- [Hong Kong University of Science and Technology](HKUST/index.md) \(HKUST\)
+- [Korea University](Korea%20University/index.md) \(KU\)
+- [Pusan National University](Pusan%20National%20University/index.md) \(PNU\)
+- [Universidad San Francisco de Quito](USFQ/index.md) \(USFQ\)
+- [Yonsei University](Yonsei%20University/index.md) \(YU\)
