@@ -65,7 +65,7 @@ The content is in teaching order.
 - [order](../../../../general/order%20(exchange).md) ::@:: It is an instruction to buy or sell on a trading venue such as a stock market, bond market, commodity market, financial derivative market or cryptocurrency exchange.
   - order / types ::@:: 3 main types: conditional order, market order, limit order
   - order / market order ::@:: It is a buy or sell order to be executed immediately at the _current market_ prices.
-  - order / limit order ::@:: It is an order to buy a security at no more than a specific price, or to sell a security at no less than a specific price \(called "or better" for either direction\).
+  - order / limit order ::@:: It is an order to buy a security at no more than a specific price, or to sell a security at no less than a specific price \(called "or better" for either direction\). \(annotation: __Important__. "No more than" and "no less than" includes "equals to".\)
   - order / conditional order ::@:: It is any order other than a limit order which is executed only when a specific condition is satisfied.
 - [stock exchange](../../../../general/stock%20exchange.md) ::@:: \(__this course__: "on exchange"\) It is an exchange where stockbrokers and traders can buy and sell securities, such as shares of stock, bonds and other financial instruments.
   - stock exchange / advantages ::@:: facilities liquidity, maintains the current market price, provides transparency
@@ -125,7 +125,127 @@ The content is in teaching order.
 ## week 1 lecture 2
 
 - datetime: 2025-09-04T15:00:00+08:00/2025-09-04T16:20:00+08:00, PT1H20M
-- topic:
+- topic: trading securities
+- finance
+  - finance / components ::@:: financial assets + participants + financial systems
+- [financial asset](../../../../general/financial%20asset.md) ::@:: It is a non-physical asset whose value is derived from a contractual claim, such as bank deposits, bonds, and participations in companies' share capital. <p> \(__this course__: A contract allocating _resources_ between _time_ and _states_.\)
+  - financial asset / examples ::@:: bank deposits, bonds, cash or cash equivalent, certificate of deposit \(CD\), derivatives, loans, receivables, stocks, etc.
+- [financial system](../../../../general/financial%20system.md) ::@:: It is a system that allows the exchange of funds between financial market participants such as lenders, investors, and borrowers. Financial systems operate at national and global levels.
+  - financial system / examples ::@:: banks, financial institutions, financial markets
+- [financial regulatory authority](../../../../general/financial%20regulatory%20authority.md) ::@:: It is a public authority whose role is to ensure the proper implementation of financial regulation within its scope of responsibility.
+  - financial regulatory authority / examples ::@:: China: CBIRC <br/> Hong Kong: HKMA, HKSFC <br/> United States: CFTC, SEC
+- financial asset
+  - financial asset / classification ::@:: marketable \(tradeable\), non-marketable
+    - financial asset / classification / marketable ::@:: <br/> derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity
+    - financial asset / classification / non-marketable ::@:: debt: securitized claims, etc. <br/> equity
+- [money market](../../../../general/money%20market.md) ::@:: It is a component of the economy that provides short-term funds. The money market deals in short-term loans, generally for a period of a year or less.
+  - money market / importance ::@:: As short-term securities became a commodity, the money market became a component of the financial market for assets involved in short-term borrowing, lending, buying and selling with original maturities of one year or less. Trading in money markets is done over the counter and is wholesale.
+  - money market / instruments ::@:: certificates of deposit \(CD\), commercial papers, eurodollars, \(reverse\) repos, treasury bills
+    - money market / instruments / treasury bills ::@:: They are zero-coupon bonds that mature in one year or less, issued by the United States Treasury.
+    - money market / instruments / commercial papers ::@:: It is an unsecured promissory note with a fixed maturity of usually less than 270 days.
+    - money market / instruments / certificates of deposit \(CD\) ::@:: It is a time deposit sold by banks, thrift institutions, and credit unions in the United States. CDs typically differ from savings accounts because the CD has a specific, fixed term before money can be withdrawn without penalty and generally higher interest rates.
+    - money market / instruments / eurodollars ::@:: They are U.S. dollars held in time deposit accounts in banks outside the United States.
+    - money markets / instruments / repos ::@:: It is a form of secured short-term borrowing, usually, though not always using government securities as collateral. A contracting party sells a security to a lender and, by agreement between the two parties, repurchases the security back shortly afterwards, at a slightly higher contracted price.
+- [capital market](../../../../general/capital%20market.md) ::@:: It is a financial market in which long-term debt \(over a year\) or equity-backed securities are bought and sold, in contrast to a money market where short-term debt is bought and sold.
+  - capital market / importance ::@:: Capital markets channel the wealth of savers to those who can put it to long-term productive use, such as companies or governments making long-term investments.
+  - capital market / debt ::@:: corporate bonds, eurobonds, foreign bonds, mortgage-backed securities, municipal bonds, treasury notes and bonds, etc.
+    - capital market / debt / treasury notes and bonds ::@:: They are long-term bonds that mature in more than a year, issued by the United States Treasury. <p> _Treasury notes_ \(_T-notes_\) have maturities of 2, 3, 5, 7, or 10 years, have a coupon payment every six months, and are sold in increments of \$100. <p> _Treasury bonds_ \(_T-bonds_, also called a _long bond_\) have the longest maturity at twenty or thirty years.
+    - capital market / debt / municipal bonds ::@:: It is a bond issued by state or local governments, or entities they create such as authorities and special districts.
+    - capital market / debt / corporate bonds ::@:: It is a bond issued by a corporation in order to raise financing for a variety of reasons such as to ongoing operations, mergers & acquisitions, or to expand business. It is a longer-term debt instrument indicating that a corporation has borrowed a certain amount of money and promises to repay it in the future under specific terms.
+    - capital market / debt / foreign bonds ::@:: Some companies, banks, governments, and other sovereign entities may decide to issue bonds in foreign currencies as the foreign currency may appear to potential investors to be more stable and predictable than their domestic currency. <p> They are bonds issued in country _B_ by a company in country _A_, denominated by the currency in country _B_.
+    - capital market / debt / eurobonds ::@:: It is an international bond that is denominated in a currency not native to the country where it is issued. <p> They are bonds issued in country _B_ by a company in country _A_, denominated by the currency in country _A_.
+    - capital market / debt / mortgage-backed securities ::@:: It is a type of asset-backed security \(an "instrument"\) which is secured by a mortgage or collection of mortgages. The mortgages are aggregated and sold to a group of individuals \(a government agency or investment bank\) that securitizes, or packages, the loans together into a security that investors can buy.
+  - capital market / equity ::@:: common stocks, depository receipts, preferred stocks, etc. <br/> stock characteristics: limited liability, residual income, zero or some voting rights
+    - capital market / equity / preferred stocks ::@:: It is a component of share capital that may have any combination of features not possessed by common stock, including properties of both an equity and a debt instrument, and is generally considered a hybrid instrument. <p> Typically, they have no voting rights but receive dividends with higher priority.
+    - capital market / equity / common stocks ::@:: It is a form of corporate equity ownership, a type of security. <p> Typically, they have voting rights and receive dividends.
+    - capital market / equity / depository receipts ::@:: It is a negotiable financial instrument issued by a bank to represent a foreign company's publicly traded securities.
+- [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ...
+  - derivative / examples ::@:: futures/forwards, options, swaps, etc.
+    - derivative / examples / futures/forwards ::@:: It is a contract between two parties to buy or sell an asset at a specified future time at a price agreed on in the contract. <p> The former is standardized, while the latter is non-standardized.
+    - derivative / examples / swaps ::@:: It is a derivative contract between two counterparties to exchange, for a certain time, financial instruments, unconventional cashflows, or payments.
+    - derivative / examples / options ::@:: It is a contract which conveys to its owner, the _holder_, the right, but not the obligation, to buy or sell a specific quantity of an underlying asset or instrument at a specified strike price on or before a specified date, depending on the style of the option.
+- [index](../../../../general/index%20(economics).md) ::@:: It is a number that measures how a group of related data points—like prices, company performance, productivity, or employment—changes over time to track different aspects of economic health from various sources.
+  - index / finance ::@:: It indicates the price performance of a basket \(combination\) of securities. <p> Some derivatives are priced based on indices.
+  - index / characteristics ::@:: debt or equity, coverage, geographical coverage, sector coverage
+  - index / examples ::@:: Barclays: debt <br/> DJI: equity, narrow, general, country <br/> HSCI: broad <br/> HSI: narrow, general <br/> HSI-Fin: sectoral <br/> MSCI: regional <br/> Merrill: debt <br/> S&P&nbsp;500: debt, broad
+  - index / weighing ::@:: 2 common methodology: value-weighted, price-weighted
+    - index / weighing / price-weighted ::@:: Sum the price of all stocks included in the index. Finally, divide by a divisor, which is initially 1. <p> The divisor is adjusted to mitigate drastic price changes due to stock mergers and splits. <p> examples: Dow Jones Index \(DJI\), etc.
+    - index / weighing / value-weighted ::@:: _Market capitalization_ of a stock is the number of outstanding stock multiplied by its price. <p> Sum the market capitalization of all stocks in the index. Divide by the sum of the market capitalization of all stocks in the index at an initial time. Finally, multiply by 100. <p> It is not affected by stock mergers and splits. <p> examples: FTSE&nbsp;100, Hang Seng Index, Nasdaq Composite, S&P&nbsp;500, etc.
+- [primary market](../../../../general/primary%20market.md) ::@:: It is the part of the capital market that deals with the issuance and sale of securities to purchasers directly by the issuer, with the issuer being paid the proceeds.
+  - primary market / vs. secondary market ::@:: A primary market means the market for new issues of securities, as distinguished from the secondary market, where previously issued securities are bought and sold. A market is primary if the proceeds of sales go to the issuer of the securities sold. Buyers buy securities that were not previously traded.
+  - primary market / offerings ::@:: initial public offering \(IPO\), seasoned offering \(new issuance of stocks that are already publicly traded\), etc.
+- [underwriting](../../../../general/underwriting.md) \(UW\) ::@:: These services are provided by some large financial institutions, such as banks, insurance companies and investment houses, whereby they guarantee payment in case of damage or financial loss and accept the financial risk for liability arising from such guarantee.
+  - underwriting / steps ::@:: Underwriters provide advice to the firm, e.g. expected raised money, price, type of securities, etc. <p> After the underwriters agree to underwrite, they are obligated to purchase the entire issue at a predetermined price before reselling the securities in the market. Should they not be able to find buyers, they will have to hold some securities themselves.
+- [government auction](../../../../general/government%20auction.md) ::@:: It is an auction held on behalf of a government in which the property to be auctioned is either property owned by the government or property which is sold under the authority of a court of law or a government agency with similar authority.
+  - government auction / government bonds ::@:: The government holds periodic _auctions_ to sell bonds to _primary dealers_ \(PD\), which are usually large financial institutions. They are _obligated_ to bid a certain amount to stabilize bond issuance. <p> Small investors can only buy said bonds _directly_ via PDs or _indirectly_ from secondary markets.
+- [secondary market](../../../../general/secondary%20market.md) ::@:: It is the financial market in which previously issued financial instruments such as stock, bonds, options, and futures are bought and sold.
+  - secondary market / vs. primary market ::@:: The initial sale of the security by the issuer to a purchaser, who pays proceeds to the issuer, is the primary market. All sales after the initial sale of the security are sales in the secondary market.
+- [market maker](../../../../general/market%20marker.md) ::@:: It is a company or an individual that quotes both a buy and a sell price in a tradable asset held in inventory, hoping to make a profit on the difference, which is called the _bid–ask spread_ or _turn_.
+  - market maker / terminology ::@:: liquidity: trading opportunities \(in this context\) <br/> liquidity provider: provides trading opportunities <br/> liquidity taker: consumes trading opportunities
+  - market maker / example ::@:: For a simple example, consider trading a stock. If there are no market makers, both parties of a trade need to state their intention at the same time and place for trades to occur. <p> Market makers allow trading to occur without both parties stating their intention at the same time and place.
+- [exchange](../../../../general/exchange%20(organized%20market).md) ::@:: It is an organized market where people can buy and sell financial instruments, such as tradable securities, commodities, foreign exchange and derivative contracts.
+- stock exchange
+  - stock exchange / examples ::@:: HKEX, LSE, NYSE, Nasdaq, etc. <p> \(__this course__: typically stocks\)
+- [over-the-counter](../../../../general/over-the-counter%20(finance).md) \(OTC\) ::@:: It is done directly between two parties, without the supervision of an exchange. It is contrasted with exchange trading, which occurs via exchanges. <p> In an OTC trade, the price is not necessarily publicly disclosed.
+  - over-the-counter / characteristics ::@:: customized contracts, exotic contracts, mediated by dealers, not a place
+  - over-the-counter / disadvantages ::@:: counterparty risk, less liquid, opaque, systemic risk \(if major dealers are distressed\)
+  - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <p> \(__this course__: typically bonds\)
+- stock exchange
+  - stock exchange / competition ::@:: There are multiple exchanges in the United States. This competition benefits users. <p> However, there are unintended consequences, e.g. enabling high-frequency trading \(HFT\), enabling latency arbitrage, etc.
+- order book
+- order
+  - order / types
+  - order / limit order
+- order book
+  - order book / limit order book ::@:: It accumulates limit orders. They are removed when a matching trade is executed or canceled by the user.
+- order
+  - order / limit order
+    - order / limit order / priority ::@:: Better prices are matched and executed first. Then orders that are placed earlier are matched and executed first.
+    - order / limit order / liquidity ::@:: In general, by stating the intentions of traders, liquidity is provided. <p> But traders can also take away liquidity by placing a limit order that can be satisfied by orders in the limit book when it is received, which are called _marketable_ limit orders.
+  - order / market order
+    - order / market order / limit order ::@:: Can be treated as a limit order with negative infinite ask price \(ensures instant sell\) or positive infinite bid price \(ensures instant buy\).
+    - order / market order / liquidity ::@:: It takes away liquidity by consuming orders in the limit order book.
+- [bid–ask spread](../../../../general/bid–ask%20spread.md) ::@:: A type of _transaction cost_. It is the difference between the prices quoted \(either by a single market maker or in a limit order book\) for an immediate sale \(ask\) and an immediate purchase \(bid\).
+  - bid–ask spread / bid price ::@:: The price a market dealer or maker is willing to buy. Investor's \(your\) sale price. Usually lower than the ask price.
+  - bid–ask spread / ask price ::@:: The price a market dealer or maker is willing to sell. Investor's \(your\) purchase price. Usually higher than the bid price.
+  - bid–ask spread / liquidity ::@:: The size of the bid–ask spread in a security is one measure of the liquidity of the market and of the size of the transaction cost. If the spread is 0 then it is a frictionless asset.
+  - bid–ask spread / midpoint ::@:: $$\frac {\text{bid price} + \text{ask price} } 2$$ <p> Sometimes, it may be used as the fair price of an asset.
+  - bid–ask spread / market depth ::@:: It is the quantity offered at a specific price based on the limit order book. <p> It must increase as the price moves away from the midpoint \(in either direction\), as the number of executable limit orders are _accumulated_.
+  - bid–ask spread / quoted price ::@:: Typically the quoted price is the last execution price, which is neither the bid price, ask price, nor midpoint price.
+- order
+  - order / conditional order
+  - order / stop order ::@:: It is an order to buy or sell a stock once the price of the stock reaches a specified price, known as the __stop price__. When the stop price is reached, a stop order becomes a market order.
+    - order / stop order / buy-stop order ::@:: A buy-stop order is entered at a stop price above the current market price. Investors generally use a buy-stop order to limit a loss, or to protect a profit, on a stock that they have sold short.
+    - order / stop order / sell-stop order ::@:: A sell-stop order is entered at a stop price below the current market price. Investors generally use a sell-stop order to limit a loss or to protect a profit on a stock that they own.
+    - order / stop order / note ::@:: A buy-stop order waits for the price to go _above_ \(excluding _equal to_\), not _below or equal to_ the stop price to buy. Otherwise, it would be a buy-limit order instead. The same goes for sell-stop order. <p> \(__this course__: If the stop order is triggered, it can behave either as a limit order or market order.\)
+- order book
+  - order book / limit order book
+    - order book / limit order book / features ::@:: discriminatory double auction, _ex-ante_ commitment \(trade after placing order\), price—time priority, transparency regime
+      - order book / limit order book / features / discriminatory double auction ::@:: It is possible that there is no unique market-clearing price \(in which demand equals supply\).
+      - order book / limit order book / features / price—time priority ::@:: It is a structural flow that may be exploited by high-frequency trading.
+      - order book / limit order book / features / transparency regime ::@:: Orders may have different transparency \(not visible on the limit order book\), e.g. a stop order may only be placed when the price reaches a certain threshold.
+- [New York Stock Exchange](../../../../general/New%20York%20Stock%20Exchange.md) \(NYSE\) ::@:: It is an American stock exchange in the Financial District of Lower Manhattan in New York City. It is the largest stock exchange in the world by market capitalization, exceeding \$25 trillion in July 2024.
+  - New York Stock Exchange / mechanism ::@:: _auction market_/double auction, mostly electronic, retained physical trading floor
+    - New York Stock Exchange / mechanism / details ::@:: Brokers, dealers, and traders can place orders directly or via \(physical\) floor traders indirectly. <p> Each stock has a designated market maker \(DMM\) as an auctioneer, which come from large institutions. They enhance trading and does not trade for profits. They interact with \(physical\) floor traders.
+- [Nasdaq](../../../../general/Nasdaq.md) ::@:: It is an American stock exchange based in New York City. It is the most active stock trading venue in the U.S. by volume, and ranked second on the list of stock exchanges by market capitalization of shares traded, behind the New York Stock Exchange.
+  - Nasdaq / full name ::@:: National Association of Securities Dealers Automated Quotations
+  - Nasdaq / mechanism ::@:: fully electronic, _dealer market_
+    - Nasdaq / mechanism / details ::@:: As a _dealer market_, dealers or market makers directly participate in trading. They are registered firms trading for its own account \(principal traders\) and/or customer accounts \(agency traders\). They display their own trading interests and/or their customers' limit orders. <p> _Order entry firms_ are brokers, dealers, or trading systems that brings _additional_ orders.
+- alternative trading system
+- dark pool
+  - dark pool / characteristics ::@:: Your order is _not_ displayed. Typically, the midpoint of regular exchanges is used to match and execute trades \(but other references are possible\). <p> You potentially get better execution price but there is _execution risk_.
+- market microstructure
+- [margin](../../../../general/margin%20(finance).md) ::@:: It is the collateral that a holder of a financial instrument has to deposit with a counterparty \(most often a broker or an exchange\) to cover some or all of the credit risk the holder poses for the counterparty.
+  - margin / risks ::@::  This risk can arise if the holder has done any of the following: <p> - Borrowed cash from the counterparty to buy financial instruments, <br/> - Borrowed financial instruments to sell them short, <br/> - Entered into a derivative contract.
+  - margin / margin buying ::@:: It refers to the buying of securities with cash borrowed from a broker, using the bought securities as collateral. This has the effect of magnifying any profit or loss made on the securities. The securities serve as collateral for the loan.
+    - margin / margin buying / net value ::@:: The net value—the difference between the value of the securities and the loan—is initially equal to the amount of one's own cash used.
+    - margin / margin buying / margin ::@:: $$\text{margin} = \frac {\text{account equity} } {\text{account market value} } \times 100\% \,,$$ where account market value is the market value of the assets \(e.g. cash, securities\) in your account and account equity is the account market value subtracted by the amount of money loaned to you by the broker.
+  - margin / initial margin ::@:: Required margin at the beginning of investment.
+  - margin / maintenance margin ::@:: Minimum required margin during an investment. If the margin falls below this, a _margin call_ occurs. You either deliver more money to the broker or sell some securities in the account to maintain the margin.
+  - margin / leverage ::@:: $$\text{leverage} = 1 / \text{margin} \,,$$ which is the multiplier any _percentage_ gains or losses are magnified by. <p> For example, if margin is 100%, then leverage is 1, i.e. no leverage. If margin is 50%, then leverage is 2, i.e. any _percentage_ gains or losses are magnified by 2 times.
+  - margin / short selling ::@:: It refers to the selling of securities that the trader does not own, borrowing them from a broker, and using the cash as collateral. This has the effect of reversing any profit or loss made on the securities. The initial cash deposited by the trader, together with the amount obtained from the sale, serve as collateral for the loan.
+    - margin / short selling / net value ::@:: The net value—the difference between the cash amount and the value of loan security—is initially equal to the amount of one's own cash used.
+    - margin / margin buying / margin ::@:: $$\text{margin} = \frac {\text{account equity} } {\text{loan security market value} } \times 100\% \,,$$ where account equity is the market value of the assets \(e.g. cash, securities\) in your account subtracted by the market value of the loan security.
 
 ## week 2 lecture
 
