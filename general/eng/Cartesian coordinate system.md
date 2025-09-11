@@ -190,7 +190,7 @@ An example of {@{an affine transformation which is not Euclidean}@} is given by 
 >
 > {@{The [right-hand rule](right-hand%20rule.md)}@} <!--SR:!2026-02-22,276,342!2026-06-13,349,290-->
 
-{@{Fixing or choosing the _x_-axis}@} {@{determines the _y_-axis up to direction}@}. Namely, the _y_-axis is {@{necessarily the [perpendicular](perpendicular.md) to the _x_-axis through the point marked 0 on the _x_-axis}@}. But there is {@{a choice of which of the two half lines on the perpendicular to designate as positive and which as negative}@}. Each of these two choices determines {@{a different orientation \(also called _handedness_\) of the Cartesian plane}@}. <!--SR:!2026-05-03,346,349!2025-12-28,248,330!2025-09-23,167,310!2025-12-09,231,330!2026-01-10,257,330-->
+{@{Fixing or choosing the _x_-axis}@} {@{determines the _y_-axis up to direction}@}. Namely, the _y_-axis is {@{necessarily the [perpendicular](perpendicular.md) to the _x_-axis through the point marked 0 on the _x_-axis}@}. But there is {@{a choice of which of the two half lines on the perpendicular to designate as positive and which as negative}@}. Each of these two choices determines {@{a different orientation \(also called _handedness_\) of the Cartesian plane}@}. <!--SR:!2026-05-03,346,349!2025-12-28,248,330!2027-09-04,711,330!2025-12-09,231,330!2026-01-10,257,330-->
 
 The usual way of orienting the plane, with {@{the positive _x_-axis pointing right and the positive _y_-axis pointing up \(and the _x_-axis being the "first" and the _y_-axis the "second" axis\)}@}, is considered {@{the _positive_ or _standard_ orientation, also called the _right-handed_ orientation}@}. <!--SR:!2027-07-26,686,330!2026-07-01,397,362-->
 

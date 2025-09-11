@@ -101,7 +101,7 @@ The content is in teaching order.
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
-      - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2030-06-07,1790,394-->
+      - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2030-01-29,1589,315!2030-06-07,1790,394-->
       - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2028-01-27,1074,374-->
 
 ## oversized data

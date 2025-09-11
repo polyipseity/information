@@ -68,7 +68,7 @@ In Peano's original formulation, the induction axiom is {@{a [second-order axiom
 
 ### defining arithmetic operations and relations
 
-If we use the second-order induction axiom, it is {@{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}@}. However, with first-order induction, this is {@{not possible and addition and multiplication are often added as axioms}@}. {@{The respective functions and relations}@} are constructed in {@{[set theory](set%20theory.md) or [second-order logic](second-order%20logic.md)}@}, and can be shown to {@{be unique using the Peano axioms}@}. <!--SR:!2026-06-02,436,305!2025-10-27,321,345!2026-01-26,126,265!2025-09-15,5,353!2025-09-15,5,353-->
+If we use the second-order induction axiom, it is {@{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}@}. However, with first-order induction, this is {@{not possible and addition and multiplication are often added as axioms}@}. {@{The respective functions and relations}@} are constructed in {@{[set theory](set%20theory.md) or [second-order logic](second-order%20logic.md)}@}, and can be shown to {@{be unique using the Peano axioms}@}. <!--SR:!2026-06-02,436,305!2025-10-27,321,345!2026-01-26,126,265!2025-10-18,25,373!2025-10-17,24,373-->
 
 #### addition
 
@@ -95,7 +95,7 @@ To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} require
 - multiplicative left identity / base case ::@:: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2027-10-02,861,345!2029-05-16,1345,365-->
 - multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-12-07,333,305!2026-08-09,527,322-->
 
-Therefore, by {@{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}@}. <!--SR:!2025-11-20,338,345!2025-09-23,290,330-->
+Therefore, by {@{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}@}. <!--SR:!2025-11-20,338,345!2029-05-05,1320,350-->
 
 Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2027-01-11,572,285!2026-10-28,520,285-->
 

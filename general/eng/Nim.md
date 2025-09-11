@@ -162,7 +162,7 @@ In another game which is commonly known as {@{nim (but is better called the [sub
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2025-09-29,252,321!2025-09-30,253,321!2026-05-02,422,310!2026-08-17,511,330!2025-10-08,238,281!2025-10-03,255,321-->
 
 - 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2025-11-28,182,290!2025-11-22,315,341-->
-- 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2025-09-23,247,321!2026-01-03,308,301-->
+- 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2028-09-28,1101,341!2026-01-03,308,301-->
 
 This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-12-24,301,301-->
 

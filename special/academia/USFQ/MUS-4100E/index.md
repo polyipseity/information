@@ -205,11 +205,11 @@ The content is in teaching order.
   - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2026-01-10,271,355!2025-09-27,183,335-->
   - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!2026-08-03,426,375!2026-01-05,266,355-->
 - [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2026-01-17,277,355!2026-01-17,274,355-->
-  - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2026-02-13,295,355!2025-09-23,179,335-->
+  - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2026-02-13,295,355!2028-01-03,832,355-->
 - [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2026-01-09,270,355!2026-09-17,451,335-->
   - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2026-02-09,292,355!2027-11-23,798,355-->
   - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!2026-08-14,424,335!2027-06-01,665,355-->
-- [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2026-01-08,269,355!2025-09-23,179,335-->
+- [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2026-01-08,269,355!2028-01-02,831,355-->
 - [Louis Armstrong](../../../../general/Louis%20Armstrong.md) (1901–1971) ::@:: He was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. <!--SR:!2026-02-05,289,355!2026-01-11,269,355-->
   - Louis Armstrong / works ::@:: "Heebie Jeebies" (1926) — Louis Armstrong, "Hello, Dolly!" (1964) — Louis Armstrong, "What a Wonderful World" (1967) — Louis Armstrong <!--SR:!2026-01-17,278,355!2026-08-30,440,335-->
   - Louis Armstrong / achievements ::@:: began the transformation of jazz from fun to art, brought swing out of New Orleans to the world, created the coherent solo, created the rhythmic and melodic vocabulary that would shape jazz for the next 20 years <!--SR:!2026-08-05,415,335!2026-02-04,288,355-->
@@ -481,7 +481,7 @@ The content is in teaching order.
 - bebop
   - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2027-01-23,539,414!2027-12-02,804,434-->
 - Charlie Parker
-  - Charlie Parker / effects ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2025-09-23,146,414!2027-12-03,809,434-->
+  - Charlie Parker / effects ::@:: Largely due to his addiction to hard drugs, heroin would be associated with bebop. <!--SR:!2027-12-26,824,434!2027-12-03,809,434-->
 - assignment: \(none\)
 
 ## week 10 lecture 2

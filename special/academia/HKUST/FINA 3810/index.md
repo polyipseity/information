@@ -42,27 +42,27 @@ The content is in teaching order.
 - topic: logistics; introduction; Bloomberg account; Bloomberg Market Concepts; 2025 Bloomberg Global Trading Challenge
 - FINA 3810
   - FINA 3810 / logistics
-  - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - FINA 3810 / current topics / artificial intelligence \(AI\) ::@:: Is AI coming for finance jobs? Agentic AI, e.g. AlphaGPT, and so much more! <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - FINA 3810 / current topics / zero-day options ::@:: Why did S&P 500 suddenly drop? How did Goldman Sachs \(GS\) and Bank of America \(BoA\) interpret it differently? What are zero-day options and how they may cause a sudden drop? <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-- [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-  - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc. <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>` <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2025-09-14,4,270!2025-09-13,3,250-->
-    - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+  - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options <!--SR:!2025-10-07,14,290!2025-10-07,14,290-->
+    - FINA 3810 / current topics / artificial intelligence \(AI\) ::@:: Is AI coming for finance jobs? Agentic AI, e.g. AlphaGPT, and so much more! <!--SR:!2025-10-07,14,290!2025-10-08,15,290-->
+    - FINA 3810 / current topics / zero-day options ::@:: Why did S&P 500 suddenly drop? How did Goldman Sachs \(GS\) and Bank of America \(BoA\) interpret it differently? What are zero-day options and how they may cause a sudden drop? <!--SR:!2025-10-08,15,290!2025-10-07,14,290-->
+- [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2025-10-08,15,290!2025-10-08,15,290-->
+  - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc. <!--SR:!2025-10-08,15,290!2025-10-08,15,290-->
+    - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>` <!--SR:!2025-10-07,14,290!2025-10-09,16,290-->
+    - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2025-10-08,15,290!2025-10-07,14,290-->
+    - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2025-10-09,16,290!2025-10-08,15,290-->
+    - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2025-10-09,16,290!2025-10-07,14,290-->
+    - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2025-10-09,16,290!2025-10-09,16,290-->
+    - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2025-10-07,14,290!2025-10-05,12,270-->
+    - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!2025-10-08,15,290!2025-10-08,15,290-->
 - FINA 3810
   - FINA 3810 / current topics
-    - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+    - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2025-10-09,16,290!2025-10-09,16,290-->
 - Bloomberg Terminal
   - Bloomberg Terminal / login
-  - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+  - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!2025-10-07,14,290!2025-10-09,16,290-->
 - FINA 3810
-  - FINA 3810 / trading strategy ::@:: Join the 2025 Bloomberg Global Trading Challenge or the course-level internal trading challenge. <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
-    - FINA 3810 / trading strategy / tips ::@:: Apply theory to trading, realizing that theories can be wrong to some extent. Combine expert knowledge and technical skills. Timing is everything \(e.g. instrument, timing, trade, etc.\). Read and interpret more financial news. <!--SR:!2025-09-14,4,270!2025-09-14,4,270-->
+  - FINA 3810 / trading strategy ::@:: Join the 2025 Bloomberg Global Trading Challenge or the course-level internal trading challenge. <!--SR:!2025-10-08,15,290!2025-10-09,16,290-->
+    - FINA 3810 / trading strategy / tips ::@:: Apply theory to trading, realizing that theories can be wrong to some extent. Combine expert knowledge and technical skills. Timing is everything \(e.g. instrument, timing, trade, etc.\). Read and interpret more financial news. <!--SR:!2025-10-09,16,290!2025-10-07,14,290-->
 - quiz: [testing](questions/testing.md)
 
 ## aftermath

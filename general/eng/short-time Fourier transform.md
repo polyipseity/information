@@ -94,7 +94,7 @@ Now {@{the original function of the Short-time Fourier transform}@} can be chang
 
 Another example:
 
-Using {@{the following sample signal $x(t)$}@} that is {@{composed of a set of four sinusoidal waveforms joined together in sequence}@}. Each waveform is {@{only composed of one of four frequencies \(10, 25, 50, 100 [Hz](hertz.md)\)}@}. The definition of $x(t)$ is: {@{$$x(t)={\begin{cases}\cos(2\pi 10t)&0\,\mathrm {s} \leq t<5\,\mathrm {s} \\\cos(2\pi 25t)&5\,\mathrm {s} \leq t<10\,\mathrm {s} \\\cos(2\pi 50t)&10\,\mathrm {s} \leq t<15\,\mathrm {s} \\\cos(2\pi 100t)&15\,\mathrm {s} \leq t<20\,\mathrm {s} \\\end{cases} }$$}@} Then it is {@{sampled at 400 Hz}@}. The following spectrograms were produced: <!--SR:!2026-07-22,305,349!2025-09-30,74,329!2025-09-27,71,329!2025-09-28,72,329!2025-09-23,68,329-->
+Using {@{the following sample signal $x(t)$}@} that is {@{composed of a set of four sinusoidal waveforms joined together in sequence}@}. Each waveform is {@{only composed of one of four frequencies \(10, 25, 50, 100 [Hz](hertz.md)\)}@}. The definition of $x(t)$ is: {@{$$x(t)={\begin{cases}\cos(2\pi 10t)&0\,\mathrm {s} \leq t<5\,\mathrm {s} \\\cos(2\pi 25t)&5\,\mathrm {s} \leq t<10\,\mathrm {s} \\\cos(2\pi 50t)&10\,\mathrm {s} \leq t<15\,\mathrm {s} \\\cos(2\pi 100t)&15\,\mathrm {s} \leq t<20\,\mathrm {s} \\\end{cases} }$$}@} Then it is {@{sampled at 400 Hz}@}. The following spectrograms were produced: <!--SR:!2026-07-22,305,349!2025-09-30,74,329!2025-09-27,71,329!2025-09-28,72,329!2026-08-05,316,349-->
 
 |                                                                                                                                                |                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -111,7 +111,7 @@ Other examples: {@{$$w(t)=\exp(\sigma -t^{2}) = e^{\sigma} e^{-t^2}$$}@} Normall
 
 ### explanation
 
-It can also be explained with reference to {@{the sampling and [Nyquist frequency](Nyquist%20frequency.md)}@}. <!--SR:!2025-09-23,68,329-->
+It can also be explained with reference to {@{the sampling and [Nyquist frequency](Nyquist%20frequency.md)}@}. <!--SR:!2026-08-01,312,349-->
 
 Take {@{a window of _N_ samples from an arbitrary real-valued signal at sampling rate _f_<sub>s</sub>}@}. Taking {@{the Fourier transform}@} produces {@{_N_ complex coefficients}@}. Of these coefficients {@{only half are useful}@} \(the last _N/2_ being {@{the [complex conjugate](complex%20conjugate.md) of the first _N/2_ in reverse order}@}, as {@{this is a real valued signal}@}\). <!--SR:!2025-09-25,70,329!2026-04-26,231,330!2026-05-13,246,330!2025-09-28,72,329!2025-09-29,73,329!2025-09-29,73,329-->
 
@@ -173,7 +173,7 @@ a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta 
 
 {@{Rectangular window}@} imposes the constraint {@{$$w((n-p)\Delta _{t})=1$$}@} {@{Substitution}@} gives: {@{$${\begin{aligned}X(n\Delta _{t},m\Delta _{f})&=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})&x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}\\&=\sum _{p=n-Q}^{n+Q}&x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}\\\end{aligned} }$$}@} <!--SR:!2025-10-01,75,329!2025-09-27,71,329!2025-10-01,75,329!2025-09-28,72,329-->
 
-{@{Change of variable _n_−1 for _n_}@}: {@{$$X((n-1)\Delta _{t},m\Delta _{f})=\sum _{p=n-1-Q}^{n-1+Q}x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}$$}@} \(annotation: The motivation is {@{expressing $X(n \Delta_t, m \Delta_f)$ in terms of $X((n - 1) \Delta_t, m \Delta_f)$}@}.\) <!--SR:!2025-09-23,68,329!2026-03-14,183,310!2026-01-22,156,310-->
+{@{Change of variable _n_−1 for _n_}@}: {@{$$X((n-1)\Delta _{t},m\Delta _{f})=\sum _{p=n-1-Q}^{n-1+Q}x(p\Delta _{t})e^{-{\frac {j2\pi pm}{N} } }\Delta _{t}$$}@} \(annotation: The motivation is {@{expressing $X(n \Delta_t, m \Delta_f)$ in terms of $X((n - 1) \Delta_t, m \Delta_f)$}@}.\) <!--SR:!2026-08-02,313,349!2026-03-14,183,310!2026-01-22,156,310-->
 
 Calculate {@{$X(\min {n}\Delta _{t},m\Delta _{f})$ by the _N_-point FFT}@}: {@{$$X(n_{0}\Delta _{t},m\Delta _{f})=\Delta _{t}e^{\frac {j2\pi (Q-n_{0})m}{N} }\sum _{q=0}^{N-1}x_{1}(q)e^{-j{\frac {2\pi qm}{N} } },\qquad n_{0}=\min {(n)}$$}@} \(annotation: $\min n$ is {@{the index of the first time signal value}@}. This gives {@{the base case}@} for recursion.\) where {@{$$x_{1}(q)={\begin{cases}x((n-Q+q)\Delta _{t})&q\leq 2Q\\0&q>2Q\end{cases} }$$}@} <!--SR:!2025-12-08,110,290!2025-10-18,48,269!2026-01-08,143,309!2025-09-29,73,329!2026-01-31,151,309-->
 

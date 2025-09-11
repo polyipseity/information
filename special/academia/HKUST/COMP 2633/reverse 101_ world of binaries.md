@@ -75,7 +75,7 @@ Below is a list of common instructions (in learning order):
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2025-11-23,348,357-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2029-05-24,1367,377!2028-08-11,1115,350-->
 - `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2029-01-15,1239,365!2025-10-17,320,357-->
-- `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2025-10-30,327,343!2025-09-23,299,343-->
+- `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2025-10-30,327,343!2029-08-02,1409,363-->
 - `cmp <left>, <right>` ::@:: Subtract `<right>` from `<left>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if `<left>` equals `<right>`. <!--SR:!2026-01-04,383,365!2025-10-13,316,357-->
 - `je <addr>`, `jz <addr>` ::@:: Jump to `<addr>` if the zero flag `ZF` is set (`1`). Assuming the zero flag is set by `cmp <left> <right>` in the previous executed instruction, then it is jump to `<addr>` if `<left>` equals `<right>`. <!--SR:!2027-08-02,770,345!2025-11-30,357,365-->
 - `jmp <addr>` ::@:: Jump to `<addr>`. Sometimes, the instruction before it in an assembly program (`.i`) is the instruction `jcc`. If `jcc` did not jump due to not satisfying a condition, then this instruction represents the `else` branch. <!--SR:!2028-05-10,1048,357!2028-12-10,1222,363-->
