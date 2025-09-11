@@ -28,6 +28,8 @@ tags:
 > 3. Essential for personal and global finance.
 > 4. Other \(share in chat\).
 >
+> ---
+>
 > - solution: {@{1/2/3/4}@}
 
 ---
@@ -41,4 +43,22 @@ tags:
 > 3. Need to learn new tech skills.
 > 4. No concerns—it's an opportunity!
 >
+> ---
+>
 > - solutions: {@{1/2/3/4}@}
+
+## week 1 lecture 2
+
+> __question 1__
+>
+> Why can we not use only machines to convert transactions to audit reports without humans?
+>
+> 1. contextual and/or strategic interpretation
+> 2. data integrity, novelty, and oversight
+> 3. ethics; biases
+> 4. lack of professional judgment
+> 5. laws and regulations
+>
+> ---
+>
+> - solutions: {@{1/2/3/4/5}@}
