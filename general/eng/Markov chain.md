@@ -267,7 +267,7 @@ To {@{find the stationary probability distribution vector}@}, we must next {@{fi
 
 - Main article: [Markov model](Markov%20model.md)
 
-{@{Markov models}@} are used to {@{model changing systems}@}. There are {@{4 main types of models}@}, that {@{generalize Markov chains}@} depending on {@{whether every sequential state is observable or not, and whether the system is to be adjusted on the basis of observations made}@}: <!--SR:!2025-12-28,300,341!2026-04-11,386,359!2026-04-11,388,367!2026-03-16,365,359!2025-09-24,207,321-->
+{@{Markov models}@} are used to {@{model changing systems}@}. There are {@{4 main types of models}@}, that {@{generalize Markov chains}@} depending on {@{whether every sequential state is observable or not, and whether the system is to be adjusted on the basis of observations made}@}: <!--SR:!2025-12-28,300,341!2026-04-11,386,359!2026-04-11,388,367!2026-03-16,365,359!2027-07-20,664,321-->
 
 |                                | {@{System state is fully observable}@}                          | {@{System state is partially observable}@}                                                                    |
 | ------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |

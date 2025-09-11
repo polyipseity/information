@@ -61,7 +61,7 @@ It is possible that {@{a diagram does not have a limit at all}@}. However, {@{if
 
 {@{A __[co-cone](co-cone.md)__ of a diagram $F:J\to C$}@} is {@{an object $N$ of $C$ together with a family of morphisms $$\psi _{X}:F(X)\to N$$ for every object $X$ of $J$}@}, such that {@{for every morphism $f:X\to Y$ in $J$, we have $\psi _{Y}\circ F(f)=\psi _{X}$}@}. <!--SR:!2026-01-01,269,330!2027-03-01,539,310!2026-05-24,389,358-->
 
-{@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2025-12-11,252,338!2026-02-16,309,353!2025-09-24,175,318-->
+{@{A __colimit__ of a diagram $F:J\to C$}@} is {@{a co-cone $(L,\phi )$ of $F$}@} such that {@{for any other co-cone $(N,\psi )$ of $F$ there exists a unique morphism $u:L\to N$ such that $u\circ \phi _{X}=\psi _{X}$ for all $X$ in $J$}@}. <p> (annotation: commutative diagram) {@{![A universal co-cone](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg)}@} <!--SR:!2026-04-16,358,358!2025-12-11,252,338!2026-02-16,309,353!2027-11-05,772,338-->
 
 Colimits are also referred to as {@{_[universal co-cones](universal%20co-cone.md#universal%20cones)_}@}. They can be {@{characterized as [initial objects](initial%20object.md)}@} in {@{the [category of co-cones](category%20of%20co-cones.md#category%20of%20cones) from $F$}@}. <!--SR:!2026-03-13,329,353!2026-05-06,372,358!2025-11-18,231,338-->
 
@@ -118,7 +118,7 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 {@{A category _C_ is said to __have limits of shape _J_<!-- markdown separator -->__}@} if {@{every diagram of shape _J_ has a limit in _C_}@}. Specifically, a category _C_ is said to <!--SR:!2026-05-09,375,358!2025-12-01,244,330-->
 
 - __have products__ ::@:: if it has limits of shape _J_ for every _small_ discrete category _J_ \(it need not have large products\), <!--SR:!2025-11-30,243,330!2025-12-02,245,330-->
-- __have equalizers__ ::@:: if it has limits of shape $\bullet \rightrightarrows \bullet$ \(i.e. every parallel pair of morphisms has an equalizer\), <!--SR:!2025-09-24,178,318!2026-03-28,340,345-->
+- __have equalizers__ ::@:: if it has limits of shape $\bullet \rightrightarrows \bullet$ \(i.e. every parallel pair of morphisms has an equalizer\), <!--SR:!2027-11-15,782,338!2026-03-28,340,345-->
 - __have pullbacks__ ::@:: if it has limits of shape $\bullet \rightarrow \bullet \leftarrow \bullet$ \(i.e. every pair of morphisms with common codomain has a pullback\). <!--SR:!2025-12-01,244,330!2025-09-26,193,325-->
 
 {@{A __[complete category](complete%20category.md)__}@} is {@{a category that has all small limits}@} \(i.e. {@{all limits of shape _J_ for every small category _J_}@}\). <!--SR:!2026-05-12,378,358!2025-12-08,251,330!2025-12-05,248,330-->
@@ -206,7 +206,7 @@ Let {@{_F_ : _J_ → _C_ be a diagram}@}. {@{A functor _G_ : _C_ → _D_}@} is s
 
 Dually, one can {@{define creation and reflection of colimits}@}. <!--SR:!2025-10-16,206,333-->
 
-The following statements are {@{easily seen to be equivalent}@}: (annotation: the 2 statements are: {@{the functor _G_ creates limits; the functor _G_ lifts limits uniquely and reflects limits}@}) <!--SR:!2026-04-22,363,358!2025-09-24,186,310-->
+The following statements are {@{easily seen to be equivalent}@}: (annotation: the 2 statements are: {@{the functor _G_ creates limits; the functor _G_ lifts limits uniquely and reflects limits}@}) <!--SR:!2026-04-22,363,358!2027-12-08,805,330-->
 
 - The functor _G_ creates limits.
 - The functor _G_ lifts limits uniquely and reflects limits.

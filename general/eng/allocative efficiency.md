@@ -50,7 +50,7 @@ __Optimal product mix__ ::@:: <p> The combination of products produced by the ec
 >
 > {@{Allocative Efficiency example}@} <!--SR:!2026-02-16,361,356!2025-10-11,256,334-->
 
-From the graph we can see that at the output of 40, the marginal cost of good is $6 while the price that consumer is willing to pay is $15. It means {@{the marginal utility of the consumer is higher than the marginal cost}@}. The optimal level of the output is 70, where {@{the marginal cost equals to marginal utility}@}. At the output of 40, {@{this product or service is under-consumed by the society}@}. By increasing the output to 70, the price will fall to $11. Meanwhile, the society would {@{benefit from consuming more of the good or service}@}. <!--SR:!2025-10-31,254,336!2025-12-04,298,334!2025-12-01,295,334!2025-09-24,242,334-->
+From the graph we can see that at the output of 40, the marginal cost of good is $6 while the price that consumer is willing to pay is $15. It means {@{the marginal utility of the consumer is higher than the marginal cost}@}. The optimal level of the output is 70, where {@{the marginal cost equals to marginal utility}@}. At the output of 40, {@{this product or service is under-consumed by the society}@}. By increasing the output to 70, the price will fall to $11. Meanwhile, the society would {@{benefit from consuming more of the good or service}@}. <!--SR:!2025-10-31,254,336!2025-12-04,298,334!2025-12-01,295,334!2028-10-14,1116,354-->
 
 ### an example of allocation inefficiency
 

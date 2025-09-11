@@ -94,7 +94,7 @@ Policy iteration is usually {@{slower than value iteration for a large number of
 
 #### modified policy iteration
 
-In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Puterman & Shin 1978](#CITEREFPutermanShin1978)\)}@}, {@{step one is performed once, and then step two is repeated several times}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Then {@{step one is again performed once and so on}@}. <!--SR:!2025-09-24,218,329!2026-02-26,349,349!2026-01-26,325,349-->
+In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Puterman & Shin 1978](#CITEREFPutermanShin1978)\)}@}, {@{step one is performed once, and then step two is repeated several times}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Then {@{step one is again performed once and so on}@}. <!--SR:!2028-06-11,991,349!2026-02-26,349,349!2026-01-26,325,349-->
 
 #### prioritized sweeping
 

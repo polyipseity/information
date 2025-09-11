@@ -33,7 +33,7 @@ If {@{$X$ is a continuous random variable}@}, the following {@{relation between 
 
 ## examples
 
-Here are {@{some examples of the moment-generating function and the characteristic function for comparison}@}. It can be seen that {@{the characteristic function is a [Wick rotation](Wick%20rotation.md) of the moment-generating function $M_{X}(t)$ when the latter exists}@}. <!--SR:!2025-09-24,192,310!2026-01-06,276,330-->
+Here are {@{some examples of the moment-generating function and the characteristic function for comparison}@}. It can be seen that {@{the characteristic function is a [Wick rotation](Wick%20rotation.md) of the moment-generating function $M_{X}(t)$ when the latter exists}@}. <!--SR:!2027-12-28,825,330!2026-01-06,276,330-->
 
 | Distribution                                                                                                                                                                                    | Moment-generating function $M_{X}(t)$                                                                               | Characteristic function $\varphi (t)$                                                                                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |

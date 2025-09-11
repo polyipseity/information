@@ -109,7 +109,7 @@ The content is in teaching order.
   - inferential statistics / -duction ::@:: induction: draw conclusions on the population from the statistics of a sample <br/> deduction: characterize hypothetical samples of a population from its parameters <!--SR:!2029-02-22,1269,350!2026-03-01,408,310-->
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization <!--SR:!2027-12-02,900,330!2025-10-12,311,330-->
   - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2028-11-10,1192,350!2028-06-25,1078,350-->
-  - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2025-09-24,297,330!2028-05-19,1055,350-->
+  - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2029-06-06,1351,350!2028-05-19,1055,350-->
   - _R_ / help commands ::@:: `help.start()`: general help <br/> `help(<foo>)` <br/> `?<foo>`: help about `<foo>` <br/> `apropos("<foo>")`: list all functions containing the string `<foo>` <br/> `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2027-04-07,700,310!2026-01-20,142,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2028-11-01,1184,350!2026-01-25,333,310-->
@@ -369,7 +369,7 @@ The content is in teaching order.
   - binomial distribution / mean ::@:: For $X \sim B(n, p) \,,$ $$\operatorname E[X] = np \,.$$ <!--SR:!2026-04-25,442,381!2026-05-04,449,381-->
   - binomial distribution / variance ::@:: For $X \sim B(n, p) \,,$ $$\operatorname{Var}(X) = np(1 - p) \,.$$ <!--SR:!2025-11-29,316,358!2026-05-06,451,381-->
   - binomial distribution / _R_: evaluate PMF ::@:: `dbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2028-08-27,1105,368!2026-05-23,431,328-->
-  - binomial distribution / _R_: evaluate CDF ::@:: `pbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2025-09-24,250,348!2025-10-12,259,348-->
+  - binomial distribution / _R_: evaluate CDF ::@:: `pbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2028-02-11,870,348!2025-10-12,259,348-->
   - binomial distribution / _R_: realize ::@:: `rbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2027-05-09,706,348!2025-11-12,283,348-->
 - [Poisson distribution](../../../../general/Poisson%20distribution.md) ::@:: The __Poisson distribution__ is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time if these events occur with a known constant mean rate and independently of the time since the last event. It can also be used for the number of events in other types of intervals than time, and in dimension greater than 1 (e.g., number of events in a given area or volume). It is denoted $\operatorname{Pois}(\lambda)$, where $\lambda \in (0, \infty)$ is the expectation of number of events in a given interval. <!--SR:!2027-08-03,793,358!2026-05-16,459,381-->
   - Poisson distribution / probability _mass_ function ::@:: For $X \sim \operatorname{Pois}(\lambda) \,,$ $$p_X(k) = \begin{cases} e^{-\lambda} \frac {\lambda^k} {k!} & \text{for }k \in \mathbb N_0 \\ 0 & \text{otherwise} \,. \end{cases}$$ <!--SR:!2026-06-26,430,321!2025-11-02,292,358-->

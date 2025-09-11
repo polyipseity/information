@@ -25,7 +25,7 @@ In [economics](economics.md), inferior goods are {@{goods whose demand decreases
 
 {@{Inferiority}@}, in this sense, is {@{an observable fact relating to affordability}@} rather than {@{a statement about the quality of the good}@}. As a rule, these goods are {@{affordable and adequately fulfil their purpose}@}, but {@{as more costly substitutes that offer more utility become available, the use of the inferior goods diminishes}@}. Direct relations can thus be {@{drawn from inferior goods to socio-economic class}@}. {@{Those with constricted incomes}@} tend to {@{prefer inferior goods for the reason of the aforementioned observable inferiority}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-07-15,1034,350!2025-11-28,287,330!2025-12-04,292,330!2025-10-26,261,330!2025-11-08,272,330!2025-12-05,293,330!2025-11-02,267,330!2026-02-01,311,290-->
 
-Depending on {@{consumer or market [indifference curves](indifference%20curve.md)}@}, the amount of a good bought can {@{either increase, decrease, or stay the same when income increases}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-09-24,235,330!2025-11-26,285,330-->
+Depending on {@{consumer or market [indifference curves](indifference%20curve.md)}@}, the amount of a good bought can {@{either increase, decrease, or stay the same when income increases}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2028-08-28,1069,350!2025-11-26,285,330-->
 
 ## examples
 

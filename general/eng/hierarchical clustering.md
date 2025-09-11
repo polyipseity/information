@@ -178,7 +178,7 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 
 The chi-squared measure describes {@{the degree of correlation between two variables}@}. <!--SR:!2026-04-11,513,315-->
 
-Now, for each variable, denoted $A$ here, calculate {@{the sum of all chi-squared measure with other variables except itself: $$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2$$}@}. Find {@{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}@}. Finally, {@{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}@}. Repeat {@{this process recursively until you are satisfied with the clustering result}@}. <!--SR:!2025-12-06,404,295!2027-07-06,905,335!2026-05-28,405,255!2025-09-24,338,275-->
+Now, for each variable, denoted $A$ here, calculate {@{the sum of all chi-squared measure with other variables except itself: $$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2$$}@}. Find {@{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}@}. Finally, {@{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}@}. Repeat {@{this process recursively until you are satisfied with the clustering result}@}. <!--SR:!2025-12-06,404,295!2027-07-06,905,335!2026-05-28,405,255!2029-04-11,1295,295-->
 
 ## references
 

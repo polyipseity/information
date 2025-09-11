@@ -114,7 +114,7 @@ All investors:<sup>[\[7\]](#^ref-7)</sup>
 
 ## problems
 
-In {@{their 2004 review, economists [Eugene Fama](Eugene%20Fama.md) and [Kenneth French](Kenneth%20French.md)}@} argue that "{@{the failure of the CAPM in empirical tests}@} implies that {@{most applications of the model are invalid}@}".<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-04,65,330!2025-09-24,55,310!2026-05-20,243,330-->
+In {@{their 2004 review, economists [Eugene Fama](Eugene%20Fama.md) and [Kenneth French](Kenneth%20French.md)}@} argue that "{@{the failure of the CAPM in empirical tests}@} implies that {@{most applications of the model are invalid}@}".<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-04,65,330!2026-05-15,233,330!2026-05-20,243,330-->
 
 - {@{The traditional CAPM}@} using {@{historical data as the inputs}@} to {@{solve for a future return of asset i}@}. However, {@{the history may not be sufficient}@} to use for {@{predicting the future}@} and {@{modern CAPM approaches}@} have {@{used betas that rely on future risk estimates}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-10-09,70,330!2025-10-13,74,330!2025-09-27,58,310!2026-05-12,236,330!2025-09-30,66,330!2025-10-05,66,310!2025-09-30,61,310-->
 
