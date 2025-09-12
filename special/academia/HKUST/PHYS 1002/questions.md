@@ -115,7 +115,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 > Q2. (lecture) When will the Sun rise exactly due east and set exactly due west?
 >
-> - solution: {@{During the equinoxes.}@} <!--SR:!2025-09-27,345,348-->
+> - solution: {@{During the equinoxes.}@} <!--SR:!2030-04-04,1650,368-->
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +127,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. winter solstice
 > 5. 1 and 3
 >
-> - solution: {@{5}@} <!--SR:!2025-09-27,345,350-->
+> - solution: {@{5}@} <!--SR:!2030-04-12,1658,370-->
 
 <!-- markdownlint MD028 -->
 
@@ -154,7 +154,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 and 2
 > 6. 3 and 4
 >
-> - solution: {@{5}@} <!--SR:!2025-09-27,345,350-->
+> - solution: {@{5}@} <!--SR:!2030-04-13,1659,370-->
 
 <!-- markdownlint MD028 -->
 

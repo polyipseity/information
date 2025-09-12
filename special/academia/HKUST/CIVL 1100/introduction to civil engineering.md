@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→::@::←pipeline <!--SR:!2027-01-05,615,244!2026-03-12,518,341-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2029-01-14,1232,301-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2026-11-19,609,320-->
-- reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2026-05-27,340,261-->
+- reservoir→::@::←sewage treatment <!--SR:!2027-08-18,690,217!2026-05-27,340,261-->
 - sewage treatment→::@::←transport <!--SR:!2026-04-09,388,230!2026-03-21,463,301-->
 - transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2026-02-06,230,170-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2028-09-09,1248,381-->
@@ -809,7 +809,7 @@ water distribution network
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←sewage collection network <!--SR:!2027-08-11,807,341!2028-05-01,1105,337-->
-- sewage collection network→::@::←storm water management <!--SR:!2028-01-06,849,267!2025-09-27,374,341-->
+- sewage collection network→::@::←storm water management <!--SR:!2028-01-06,849,267!2030-07-18,1755,361-->
 - storm water management→::@::←water collection network <!--SR:!2030-06-11,1740,360!2029-07-01,1424,340-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
 - water distribution network→::@::←_(end)_ <!--SR:!2027-10-26,1024,387!2026-02-13,440,321-->

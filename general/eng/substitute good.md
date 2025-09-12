@@ -23,7 +23,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 >
 > Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2026-02-06,353,350!2025-10-05,251,330-->
 
-{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2025-09-27,244,330!2026-11-18,537,310!2025-10-30,268,330-->
+{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!2026-11-18,537,310!2025-10-30,268,330-->
 
 {@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages}@} but are {@{used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2025-10-26,266,330!2025-09-29,246,330!2028-02-18,897,330!2025-09-28,23,370-->
 
@@ -45,7 +45,7 @@ Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is 
 >
 > Figure 2: {@{Graphical example of substitute goods}@} <!--SR:!2025-11-27,292,330!2025-11-18,285,330-->
 
-{@{The relationship between [demand schedules](demand%20curve.md)}@} determines {@{whether goods are classified as substitutes or complements}@}. {@{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}@} shows {@{the relationship between two goods}@}, it captures {@{the responsiveness of the quantity demanded of one good to a change in price of another good}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-23,289,330!2025-09-27,244,330!2025-10-15,257,330!2028-08-21,1069,350!2025-09-29,246,330-->
+{@{The relationship between [demand schedules](demand%20curve.md)}@} determines {@{whether goods are classified as substitutes or complements}@}. {@{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}@} shows {@{the relationship between two goods}@}, it captures {@{the responsiveness of the quantity demanded of one good to a change in price of another good}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-11-23,289,330!2028-10-12,1111,350!2025-10-15,257,330!2028-08-21,1069,350!2025-09-29,246,330-->
 
 {@{Cross-Price Elasticity of Demand \(_E_<sub>x,y</sub>\)}@} is calculated with the following formula: <p> {@{_E_<sub>x,y</sub> = Percentage Change in Quantity Demanded for Good X __/__ Percentage Change in Price of Good Y}@} <!--SR:!2025-11-17,284,330!2027-08-23,759,330-->
 

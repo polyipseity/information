@@ -49,7 +49,7 @@ tags:
 > 2. The selling price is $60&nbsp;000 if the transmission works, otherwise $55&nbsp;000.
 >
 > - solution: {@{1: repair and sell; 2: sell}@}
-> - explanation: {@{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}@} <!--SR:!2026-04-24,427,310!2025-09-27,280,330-->
+> - explanation: {@{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}@} <!--SR:!2026-04-24,427,310!2029-03-24,1274,350-->
 
 <!-- markdownlint MD028 -->
 

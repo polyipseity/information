@@ -87,7 +87,7 @@ Below is a list of common instructions (in learning order):
 
 ### sections
 
-An assembly file {@{does not solely consists of instructions}@}. It also {@{contains data or other metadata}@}. Sections {@{split the contents of an assembly file based on the type of content}@}. There are {@{many types of sections}@}, but the most commonly used ones are {@{`.data`, `.bss`, and `.text`}@}. To start a section, the syntax is {@{`section .<section name>`}@}, and {@{all content after this line and before the next section start or end of file}@} is part of this section. <!--SR:!2026-01-24,402,365!2026-02-01,409,365!2026-01-11,390,365!2029-05-31,1359,363!2026-01-27,404,365!2026-01-08,387,365!2025-09-27,301,343-->
+An assembly file {@{does not solely consists of instructions}@}. It also {@{contains data or other metadata}@}. Sections {@{split the contents of an assembly file based on the type of content}@}. There are {@{many types of sections}@}, but the most commonly used ones are {@{`.data`, `.bss`, and `.text`}@}. To start a section, the syntax is {@{`section .<section name>`}@}, and {@{all content after this line and before the next section start or end of file}@} is part of this section. <!--SR:!2026-01-24,402,365!2026-02-01,409,365!2026-01-11,390,365!2029-05-31,1359,363!2026-01-27,404,365!2026-01-08,387,365!2029-08-17,1420,363-->
 
 - `.data` ::@:: It contains initialized data, that is, data that we know during assembly. It has read and write permissions. For C, this corresponds to global and static variables that are initialized. <!--SR:!2029-05-05,1339,365!2027-03-31,716,330-->
 - `.bss` ::@:: It contains uninitialized data, that is, a memory space for our program to initialize data on during its execution. It has read and write permissions. For C, this corresponds to global and static variables that are uninitialized. <!--SR:!2029-05-25,1354,363!2026-01-06,385,365-->
@@ -108,7 +108,7 @@ Since {@{a program requires a starting point}@}, usually we are required to {@{[
 
 ### labels
 
-{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can {@{use those names instead of raw addresses whenever referring to them, such as jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction, e.g. `my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2026-02-07,412,365!2025-10-24,323,343!2026-02-02,408,365!2025-10-20,321,357!2025-09-27,301,343-->
+{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can {@{use those names instead of raw addresses whenever referring to them, such as jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction, e.g. `my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2026-02-07,412,365!2025-10-24,323,343!2026-02-02,408,365!2025-10-20,321,357!2029-08-16,1419,363-->
 
 Label names are {@{global and unique across an assembly program, and appear in symbol tables of object files}@}. The assembler or linker will {@{transform them into constant addresses during assembly or linking}@}. The loader {@{(before execution of the program) may further modify those constant addresses}@}. <!--SR:!2028-04-06,1015,350!2029-10-13,1484,383!2025-11-27,355,365-->
 

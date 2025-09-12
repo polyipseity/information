@@ -63,7 +63,7 @@ The content is in teaching order.
 - programming complexity
   - programming complexity / problems
     - programming complexity / problems / development ::@:: does not meet user requirements, difficult to measure progress, over budget, over time, etc. <!--SR:!2025-10-08,15,290!2025-10-08,15,290-->
-      - programming complexity / problems / development / statistics ::@:: \(2012\) For _large_ software projects: deliver less value &gt; over budget &gt; company threatening &gt; over time &gt; etc. <!--SR:!2025-09-27,2,190!2025-10-09,16,290-->
+      - programming complexity / problems / development / statistics ::@:: \(2012\) For _large_ software projects: deliver less value &gt; over budget &gt; company threatening &gt; over time &gt; etc. <!--SR:!2025-10-01,4,190!2025-10-09,16,290-->
   - programming complexity / mitigations ::@:: There are many desirable _characteristics_ considered part of quality. It is impossible and unnecessary to achieve all of them. <p> Instead, we should under the client's _goals_ and _prioritize_ certain characteristics. This reduces complexity somewhat. <!--SR:!2025-10-05,12,270!2025-10-07,14,290-->
     - programming complexity / mitigations / characteristics ::@:: correct, efficient, evolvable, interoperable, maintainable, portable, productive, reliable, repairable, reusable, robust, timely, usable, verifiable, visible, etc. <!--SR:!2025-10-05,12,270!2025-10-08,15,290-->
 - [modular programming](../../../../general/modular%20programming.md) ::@:: It is a programming paradigm that emphasizes organizing the functions of a codebase into independent modules – each providing an aspect of a computer program in its entirety without providing other aspects. <!--SR:!2025-10-08,15,290!2025-10-07,14,290-->

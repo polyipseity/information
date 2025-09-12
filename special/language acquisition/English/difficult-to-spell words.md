@@ -62,7 +62,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::@:: \(f\_é\) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-07-11,936,344!2029-04-18,1518,364-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::@:: \(f\_é\) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-02-09,862,344!2029-11-22,1689,364-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::@:: \(f\_e\) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2029-03-20,1494,364!2028-11-15,1391,364-->
-- [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: \(f\_e\) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->
+- [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: \(f\_e\) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2032-05-09,2416,416-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: \(g\_e\) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: \(g\_e\) Assure that something will be done. <!--SR:!2028-08-18,1225,363!2027-01-08,585,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: \(h\_e\) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2026-11-06,723,348-->

@@ -13,7 +13,7 @@ tags:
 
 In {@{[probability theory](probability%20theory.md) and [statistics](statistics.md)}@}, {@{a __central moment__}@} is {@{a [moment](moment%20(mathematics).md) of a [probability distribution](probability%20distribution.md) of a [random variable](random%20variable.md) about the random variable's [mean](mean.md)}@}; that is, it is {@{the [expected value](expected%20value.md) of a specified integer power of the deviation of the random variable from the mean}@}. {@{The various moments}@} form {@{one set of values by which the properties of a probability distribution can be usefully characterized}@}. Central moments are used {@{in preference to ordinary moments}@}, computed {@{in terms of deviations from the mean instead of from zero}@}, because {@{the higher-order central moments relate only to the spread and shape of the distribution}@}, rather than {@{also to its [location](location%20parameter.md)}@}. <!--SR:!2026-01-11,266,330!2026-01-23,276,330!2026-08-03,414,310!2025-10-20,196,310!2026-01-28,280,330!2026-01-09,265,330!2025-12-26,253,330!2025-10-30,193,310!2026-10-10,462,310!2026-01-28,280,330-->
 
-{@{Sets of central moments}@} can be defined for {@{both univariate and multivariate distributions}@}. <!--SR:!2025-09-27,179,310!2026-02-01,283,330-->
+{@{Sets of central moments}@} can be defined for {@{both univariate and multivariate distributions}@}. <!--SR:!2027-11-09,773,330!2026-02-01,283,330-->
 
 ## univariate moments
 

@@ -62,7 +62,7 @@ Therefore, {@{the normal component of __D__}@} has {@{a step of surface charge o
 \(annotation: $\mathbf B$\) ::@:: $$(\mathbf {B} _{2}-\mathbf {B} _{1})\cdot \mathbf {n} _{12}=0$$ <!--SR:!2026-07-31,310,338!2026-05-16,248,330-->
 
 where: <br/>
-$\mathbf {n} _{12}$ <!-- flashcard ID: 60a2ea19-b133-459c-889e-e4e159632daa -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2025-09-27,72,338!2025-09-27,72,338-->
+$\mathbf {n} _{12}$ <!-- flashcard ID: 60a2ea19-b133-459c-889e-e4e159632daa -->::@:: is [normal vector](normal%20vector.md) from medium 1 to medium 2. <!--SR:!2026-08-29,336,358!2026-08-30,337,358-->
 
 Therefore, {@{the normal component of __B__}@} is {@{continuous across the interface \(the same in both media\)}@}. <!--SR:!2026-06-08,268,338!2026-07-27,306,338-->
 

@@ -27,7 +27,7 @@ tags:
 
 ### manufacturing overhead includes
 
-1. Indirect labour cost: ::@:: The indirect labour cost is the cost associated with workers, such as supervisors and [material handling](material%20handling.md) team, who are not directly involved in the production. <!--SR:!2025-09-27,175,310!2026-02-04,281,330-->
+1. Indirect labour cost: ::@:: The indirect labour cost is the cost associated with workers, such as supervisors and [material handling](material%20handling.md) team, who are not directly involved in the production. <!--SR:!2027-10-19,752,330!2026-02-04,281,330-->
 2. Indirect materials cost: ::@:: Indirect materials cost is the cost associated with consumables, such as lubricants, [grease](grease%20(lubricant).md), and [water](water.md), that are not used as raw materials. <!--SR:!2026-02-05,282,330!2025-10-13,189,310-->
 3. Other indirect manufacturing cost: ::@:: includes machine depreciation, [land rent](land%20rent.md#land%20rent), [property insurance](property%20insurance.md), [electricity](electricity.md), freight and transportation, or any expenses that keep the [factory](factory.md) operating. <!--SR:!2025-09-29,162,270!2026-12-05,500,310-->
 

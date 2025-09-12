@@ -32,7 +32,7 @@ The cheatsheet is provided during the final examination.
 - `int` ::@:: integer <!--SR:!2025-10-22,284,330!2025-10-29,290,330-->
 - `float` ::@:: floating point <!--SR:!2025-10-08,272,330!2025-10-06,272,330-->
 - `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2025-09-30,267,330-->
-- `str` ::@:: string <!--SR:!2025-09-27,263,330!2025-10-07,271,330-->
+- `str` ::@:: string <!--SR:!2029-01-08,1199,350!2025-10-07,271,330-->
 - `[...]` ::@:: list <!--SR:!2025-09-28,264,330!2025-10-13,277,330-->
 
 ## arithmetic operators
@@ -50,7 +50,7 @@ The cheatsheet is provided during the final examination.
 - `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2025-10-07,272,330!2025-10-23,284,330-->
 - `input()` ::@:: ask user for input <!--SR:!2025-10-07,271,330!2029-01-04,1196,350-->
 - `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2025-10-04,270,330-->
-- `\t` ::@:: escape character: tab <!--SR:!2025-09-27,263,330!2025-10-19,281,330-->
+- `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2025-10-19,281,330-->
 
 ## math functions / conversion
 

@@ -93,7 +93,7 @@ Consider an 8×8 chessboard with a knight at the top right corner. Is it {@{poss
 
 Note that a knight can move {@{two squares vertically and one square horizontally, or two squares horizontally and one square vertically}@}. <!--SR:!2029-04-02,1295,350-->
 
-- strategy ::@:: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2028-02-27,972,340!2025-09-27,293,330-->
+- strategy ::@:: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2028-02-27,972,340!2029-05-24,1335,350-->
 - possibility of _closed_ knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2026-07-10,389,240!2025-12-02,76,200-->
 - possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2026-04-07,317,260!2025-10-15,20,130-->
 
