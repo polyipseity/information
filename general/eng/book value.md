@@ -63,7 +63,7 @@ Since {@{tangible common equity subtracts preferred equity from the tangible boo
 To {@{clearly distinguish the [market price](market%20value.md) of shares}@} from {@{the core [ownership equity](ownership%20equity.md) or [shareholders' equity](shareholders'%20equity.md)}@}, {@{the term _book value_}@} is often used since it {@{focuses on the values that have been added and subtracted in the accounting books of a business \(assets – liabilities\)}@}. The term is also used to distinguish between {@{the [market price](market%20value.md) of any asset and its accounting value}@} which {@{depends more on [historical cost](historical%20cost.md) and [depreciation](depreciation.md)}@}. It may be {@{used interchangeably with carrying value}@}. While {@{it can be used to refer to the business' total [equity](ownership%20equity.md)}@}, it is most often used: <!--SR:!2026-01-02,273,330!2027-11-06,781,330!2026-01-03,274,330!2025-12-29,270,330!2026-01-05,276,330!2025-11-19,238,330!2025-11-18,237,330!2026-01-02,273,330-->
 
 - As a _per share value_: ::@:: The balance sheet equity value is divided by the number of shares outstanding at the date of the balance sheet \(not the average o/s in the period\). <!--SR:!2026-05-04,338,290!2027-03-21,555,310-->
-- As a _diluted per share value_: ::@:: The equity is bumped up by the exercise price of the options, warrants or preferred shares. Then it is divided by the number of shares that has been increased by those added. <!--SR:!2025-09-26,190,310!2025-11-30,247,330-->
+- As a _diluted per share value_: ::@:: The equity is bumped up by the exercise price of the options, warrants or preferred shares. Then it is divided by the number of shares that has been increased by those added. <!--SR:!2027-05-06,587,310!2025-11-30,247,330-->
 
 ### uses of books
 
@@ -75,7 +75,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 1. The sale of shares/units by the business ::@:: increases the total book value. Book/sh will increase if the additional shares are issued at a price higher than the pre-existing book/sh. <!--SR:!2027-12-13,812,330!2025-12-26,267,330-->
 2. The purchase of its own shares by the business ::@:: will decrease total book value. Book/shares will decrease if more is paid for them than was received when originally issued \(pre-existing book/sh\). <!--SR:!2027-12-22,820,330!2025-10-18,195,310-->
 3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!2026-06-07,381,310!2026-01-01,272,330-->
-4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2026-01-22,289,330!2026-01-08,277,330!2026-01-07,276,330!2027-04-01,564,310!2025-09-26,189,310-->
+4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2026-01-22,289,330!2026-01-08,277,330!2026-01-07,276,330!2027-04-01,564,310!2025-12-27,92,290-->
 
 ### new share issues and dilution
 

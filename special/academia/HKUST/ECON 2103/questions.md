@@ -76,7 +76,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{3 (_theoretically_, and 1 from _empirical_ studies)}@}
-> - explanation: {@{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}@} <!--SR:!2025-09-26,279,330!2026-04-20,411,310-->
+> - explanation: {@{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}@} <!--SR:!2029-03-19,1270,350!2026-04-20,411,310-->
 
 <!-- markdownlint MD028 -->
 

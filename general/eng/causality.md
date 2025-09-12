@@ -25,7 +25,7 @@ In {@{English studies of [Aristotelian philosophy](aristotelianism.md)}@}, the w
 
 [David Hume](David%20Hume.md), as part of {@{his opposition to [rationalism](rationalism.md)}@}, argued that {@{pure reason alone cannot prove the reality of efficient causality}@}; instead, he {@{appealed to custom and mental habit, observing that all human knowledge derives solely from [experience](experience.md)}@}. <!--SR:!2027-02-01,655,330!2027-11-05,862,330!2027-07-17,776,330-->
 
-The topic of causality remains {@{a staple in [contemporary philosophy](contemporary%20philosophy.md)}@}. <!--SR:!2025-09-26,279,330-->
+The topic of causality remains {@{a staple in [contemporary philosophy](contemporary%20philosophy.md)}@}. <!--SR:!2029-03-18,1269,350-->
 
 ## references
 

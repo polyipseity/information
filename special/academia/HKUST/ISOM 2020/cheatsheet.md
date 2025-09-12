@@ -48,13 +48,13 @@ The cheatsheet is provided during the final examination.
 ## input / output
 
 - `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2025-10-07,272,330!2025-10-23,284,330-->
-- `input()` ::@:: ask user for input <!--SR:!2025-10-07,271,330!2025-09-26,262,330-->
+- `input()` ::@:: ask user for input <!--SR:!2025-10-07,271,330!2029-01-04,1196,350-->
 - `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2025-10-04,270,330-->
 - `\t` ::@:: escape character: tab <!--SR:!2025-09-27,263,330!2025-10-19,281,330-->
 
 ## math functions / conversion
 
-- `abs()` ::@:: absolute value <!--SR:!2025-10-05,271,330!2025-09-26,262,330-->
+- `abs()` ::@:: absolute value <!--SR:!2025-10-05,271,330!2029-01-07,1199,350-->
 - `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2025-09-30,266,330-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2025-10-11,275,330-->
 - `type()` ::@:: return data type of input <!--SR:!2025-09-30,267,330!2025-09-28,264,330-->

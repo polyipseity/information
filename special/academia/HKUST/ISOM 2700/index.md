@@ -180,7 +180,7 @@ The content is in teaching order.
 
 - tag: optional
 - [capacity utilization](../../../../general/capacity%20utilization.md)
-  - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2025-09-26,165,341!2026-09-20,456,381-->
+  - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2027-04-12,563,341!2026-09-20,456,381-->
   - capacity utilization / implied utilization ::@:: demand for a resource over all types of flow units / capacity of a resource <p> It can be higher than 100%, implying that the capacity cannot meet the demand. <!--SR:!2026-08-19,421,381!2026-04-14,323,361-->
 
 ## week 2 lecture 2

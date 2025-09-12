@@ -1233,7 +1233,7 @@ tags:
 > 3. The total number of parameters depends on the stride.
 > 4. The total number of parameters depends on the padding.
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-09-26,198,310-->
+> - solution: {@{1, 2}@} <!--SR:!2028-01-23,849,330-->
 
 <!-- markdownlint MD028 -->
 

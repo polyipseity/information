@@ -412,7 +412,7 @@ The content is in teaching order.
   - producer surplus ::@:: It is the amount that producers benefit by selling at a market price that is higher than the least that they would be _willing to sell for_; this is roughly equal to profit (since producers are not normally willing to sell at a loss and are normally indifferent to selling at a break-even price). <!--SR:!2026-07-29,478,387!2027-03-05,690,407-->
     - producer surplus / calculation ::@:: Calculate the actual price minus the lowest price that producers would be _willing to sell for_ for each unit. The sum over all units actually sold is the __producer surplus__. <p> In general, this is the area below the equilibrium price but above the supply curve. <!--SR:!2027-01-29,661,407!2026-07-01,479,387-->
 - demand schedule
-  - demand schedule table ::@:: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity demanded, in increasing amount. For break-even price, we assume the relevant consumers still consume. <!--SR:!2025-09-26,239,367!2028-05-12,993,367-->
+  - demand schedule table ::@:: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity demanded, in increasing amount. For break-even price, we assume the relevant consumers still consume. <!--SR:!2028-02-25,882,367!2028-05-12,993,367-->
 - supply schedule
   - supply schedule table ::@:: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity supplied, in decreasing amount. For break-even price, we assume the relevant producers still supply. <!--SR:!2026-07-19,468,387!2025-12-23,327,387-->
 - [economic surplus](../../../../general/economic%20surplus.md)

@@ -39,7 +39,7 @@ When {@{modelling [relations](binary%20relation.md#definition) between two diffe
 
 Another example where bipartite graphs appear naturally is {@{in the ([NP-complete](NP-completeness.md)) railway optimization problem}@}, in which {@{the input is a schedule of trains and their stops}@}, and {@{the goal is to find a set of train stations as small as possible such that every train visits at least one of the chosen stations}@}. This problem can be modeled as {@{a [dominating set](dominating%20set.md) problem in a bipartite graph}@} that has {@{a vertex for each train and each station}@} and {@{an edge for each pair of a station and a train that stops at that station}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2028-01-24,885,330!2027-05-10,628,310!2027-03-12,589,310!2025-11-22,90,376!2025-11-22,90,376!2026-01-06,103,385-->
 
-A third example is {@{in the academic field of numismatics}@}. Ancient coins are {@{made using two positive impressions of the design (the obverse and reverse)}@}. {@{The charts numismatists produce to represent the production of coins}@} are bipartite graphs.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-09-26,249,330!2025-10-18,268,330!2028-02-03,892,330-->
+A third example is {@{in the academic field of numismatics}@}. Ancient coins are {@{made using two positive impressions of the design (the obverse and reverse)}@}. {@{The charts numismatists produce to represent the production of coins}@} are bipartite graphs.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-12-25,820,330!2025-10-18,268,330!2028-02-03,892,330-->
 
 More abstract examples include the following:
 

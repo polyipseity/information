@@ -80,7 +80,7 @@ tags:
 > 5. Academic \(prepare for a phd\)
 > 6. I don't know
 >
-> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2025-09-26,75,331-->
+> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2026-09-07,346,351-->
 
 ## week 11 lecture
 

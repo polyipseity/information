@@ -43,7 +43,7 @@ An example of this would be {@{the demand for [cars](car.md) and [petrol](gasoli
 
 ### example
 
-In [marketing](marketing.md), complementary goods {@{give additional [market power](market%20power.md) to the producer}@}. It allows {@{[vendor lock-in](vendor%20lock-in.md) by increasing [switching costs](switching%20barriers.md)}@}. {@{A few types of [pricing strategy](pricing%20strategies.md) exist}@} for {@{a complementary good and its base good}@}: <!--SR:!2025-09-26,243,330!2027-08-29,764,330!2025-11-10,277,330!2025-11-24,290,330-->
+In [marketing](marketing.md), complementary goods {@{give additional [market power](market%20power.md) to the producer}@}. It allows {@{[vendor lock-in](vendor%20lock-in.md) by increasing [switching costs](switching%20barriers.md)}@}. {@{A few types of [pricing strategy](pricing%20strategies.md) exist}@} for {@{a complementary good and its base good}@}: <!--SR:!2028-10-06,1106,350!2027-08-29,764,330!2025-11-10,277,330!2025-11-24,290,330-->
 
 - Pricing the base good at a relatively low price - ::@:: this approach allows easy entry by consumers \(e.g. low-price consumer printer vs. high-price cartridge\) <!--SR:!2027-09-09,783,330!2025-10-26,264,330-->
 - Pricing the base good at a relatively high price to the complementary good - ::@:: this approach creates a barrier to entry and exit \(e.g., a costly car vs inexpensive gas\) <!--SR:!2025-11-17,283,330!2025-10-09,254,330-->

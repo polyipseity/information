@@ -69,7 +69,7 @@ The content is in teaching order.
   - abstraction layer / application ::@:: written in high-level language <!--SR:!2025-12-12,234,330!2027-08-09,692,330-->
   - abstraction layer / operating system ::@:: compiler: high-level language to machine code; operating system: handle IO, manage memory and storage, manage resources, schedule tasks <!--SR:!2027-02-09,508,310!2026-01-03,253,330-->
   - abstraction layer / hardware ::@:: IO controllers, memory, processor <!--SR:!2025-12-27,247,330!2025-12-13,235,330-->
-- [computer program](../../../../general/computer%20program.md) ::@:: a sequence or set of instructions in a programming language for a computer to execute <!--SR:!2025-09-26,170,310!2027-09-07,715,330-->
+- [computer program](../../../../general/computer%20program.md) ::@:: a sequence or set of instructions in a programming language for a computer to execute <!--SR:!2027-09-23,727,330!2027-09-07,715,330-->
   - computer program / levels ::@:: (from top to bottom) high-level language, assembly language, machine code <!--SR:!2025-12-12,234,330!2025-12-16,238,330-->
   - computer program / high-level language ::@:: level of abstraction closer to the problem domain, so that you can work productivity and make the program more portable <!--SR:!2025-12-30,249,330!2027-08-17,698,330-->
   - computer program / assembly language ::@:: textual representation of instructions, in symbolic language <!--SR:!2025-12-27,246,330!2025-10-17,188,310-->

@@ -30,7 +30,7 @@ Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are 
 - The objects ::@:: are all triples $(A,B,h)$ with $A$ an object in ${\mathcal {A} }$, $B$ an object in ${\mathcal {B} }$, and $h:S(A)\rightarrow T(B)$ a morphism in ${\mathcal {C} }$. <!--SR:!2026-03-03,317,354!2025-10-22,208,334-->
 - The morphisms from $(A,B,h)$ to $(A',B',h')$ ::@:: are all pairs $(f,g)$ where $f:A\rightarrow A'$ and $g:B\rightarrow B'$ are morphisms in ${\mathcal {A} }$ and ${\mathcal {B} }$ respectively, such that the following diagram [commutes](commutative%20diagram.md): <p> &emsp; ![Comma Diagram](../../archives/Wikimedia%20Commons/Comma%20Diagram.svg) <!--SR:!2026-02-01,290,342!2025-12-16,251,330-->
 
-{@{Morphisms are composed}@} by {@{taking $(f',g')\circ (f,g)$ to be $(f'\circ f,g'\circ g)$, whenever the latter expression is defined}@}. {@{The identity morphism on an object $(A,B,h)$}@} is {@{$(\mathrm {id} _{A},\mathrm {id} _{B})$}@}. <!--SR:!2025-09-26,172,314!2026-02-25,312,354!2026-04-23,356,354!2026-02-06,295,342-->
+{@{Morphisms are composed}@} by {@{taking $(f',g')\circ (f,g)$ to be $(f'\circ f,g'\circ g)$, whenever the latter expression is defined}@}. {@{The identity morphism on an object $(A,B,h)$}@} is {@{$(\mathrm {id} _{A},\mathrm {id} _{B})$}@}. <!--SR:!2027-10-15,749,334!2026-02-25,312,354!2026-04-23,356,354!2026-02-06,295,342-->
 
 ### slice category
 

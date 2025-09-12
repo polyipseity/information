@@ -71,7 +71,7 @@ Therefore, {@{the normal component of __B__}@} is {@{continuous across the inter
 \(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2025-10-12,29,298!2026-07-08,292,338-->
 
 where: <br/>
-$\mathbf {n} _{12}$ <!-- flashcard ID: 88bd7276-524c-48b2-b4d0-224cd3b21e56 -->::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2025-09-26,71,338!2026-08-17,326,358-->
+$\mathbf {n} _{12}$ <!-- flashcard ID: 88bd7276-524c-48b2-b4d0-224cd3b21e56 -->::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2026-08-26,334,358!2026-08-17,326,358-->
 $\mathbf {j} _{s}$ ::@:: is the surface [current density](current%20density.md) between the two media \(unbounded current only, not coming from polarisation of the materials\). <!--SR:!2026-06-21,276,330!2026-06-30,285,338-->
 
 Therefore, {@{the [tangential component](tangential%20component.md) of __H__}@} is {@{discontinuous across the interface by an amount equal to the magnitude of the surface current density}@}. {@{The normal components of __H__ in the two media}@} are {@{in the ratio of the permeabilities}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-05-27,257,338!2026-07-03,288,338!2026-07-31,310,338!2026-06-09,269,338-->
