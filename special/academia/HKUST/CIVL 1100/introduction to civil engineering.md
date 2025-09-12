@@ -26,7 +26,7 @@ The content is in teaching order.
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2029-12-19,1593,319!2026-08-28,633,330-->
-- civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2029-11-29,1638,400-->
+- civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2029-07-28,1402,320!2029-11-29,1638,400-->
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2031-11-28,2258,417-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
@@ -710,7 +710,7 @@ soil liquefaction
 - debris flow→::@::←landslide <!--SR:!2029-03-09,1357,355!2028-08-11,1199,355-->
 - landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2027-09-21,930,340-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2028-11-14,1199,290-->
-- soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
+- soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2029-07-18,1392,315-->
 
 <!--/pytextgen-->
 
@@ -740,7 +740,7 @@ tunnel
 
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2030-01-18,1664,400-->
+- _(begin)_→::@::←embankment <!--SR:!2030-01-19,1577,340!2030-01-18,1664,400-->
 - embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2027-04-14,785,360-->
 - pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
 - shallow foundation→::@::←tunnel <!--SR:!2029-09-20,1475,341!2025-11-26,316,232-->

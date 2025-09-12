@@ -102,7 +102,7 @@ Because {@{the unsystematic risk is [diversifiable](diversification%20(finance).
 
 All investors:<sup>[\[7\]](#^ref-7)</sup>
 
-1. \(annotation: objective\) ::@:: Aim to maximize economic utilities \(Asset quantities are given and fixed\). <!--SR:!2025-09-29,60,310!2025-09-25,56,310-->
+1. \(annotation: objective\) ::@:: Aim to maximize economic utilities \(Asset quantities are given and fixed\). <!--SR:!2025-09-29,60,310!2026-05-22,239,330-->
 2. \(annotation: utility function\) ::@:: Are rational and risk-averse. <!--SR:!2025-10-04,65,310!2025-10-11,72,330-->
 3. \(annotation: diversification\) ::@:: Are broadly diversified across a range of investments. <!--SR:!2026-05-27,249,330!2025-10-12,73,330-->
 4. \(annotation: price\) ::@:: Are price takers, i.e., they cannot influence prices. <!--SR:!2026-05-17,240,330!2026-06-01,253,330-->

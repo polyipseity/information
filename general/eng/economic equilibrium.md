@@ -90,7 +90,7 @@ $${\begin{alignedat}{2}Q_{s}&=125+1.5\cdot P\\Q_{d}&=189-2.25\cdot P\\\\Q_{s}&=Q
 
 > {@{![simple supply and demand diagram](../../archives/Wikimedia%20Commons/Simple%20supply%20and%20demand.svg)}@}
 >
-> {@{simple supply and demand diagram}@} <!--SR:!2025-10-09,255,330!2025-09-25,243,330-->
+> {@{simple supply and demand diagram}@} <!--SR:!2025-10-09,255,330!2028-10-05,1106,350-->
 
 In the diagram, depicting {@{simple set of supply and demand curves}@}, {@{the quantity demanded and supplied at price __P__}@} are equal. <!--SR:!2025-10-26,268,330!2026-01-23,341,345-->
 
@@ -134,7 +134,7 @@ When {@{there is an oversupply of a good}@}, such as when price is above \$6.00,
 | 2.00          | 22&nbsp;000 | 6&nbsp;000  |
 | 1.00          | 24&nbsp;000 | 4&nbsp;000  |
 
-Here we see that {@{an increase in disposable income}@} would {@{increase the quantity demanded of the good by 2,000 units at each price}@}. This increase in demand would have the effect of {@{shifting the demand curve rightward}@}. The result is {@{a change in the price at which quantity supplied equals quantity demanded}@}. In this case we see that {@{the two now equal each other at an increased price of $6.00}@}. {@{A decrease in disposable income}@} would {@{have the exact opposite effect on the market equilibrium}@}. <!--SR:!2025-09-25,243,330!2026-01-12,332,345!2026-01-05,326,345!2025-12-30,322,345!2026-01-20,339,345!2026-01-25,343,345!2025-12-20,313,345-->
+Here we see that {@{an increase in disposable income}@} would {@{increase the quantity demanded of the good by 2,000 units at each price}@}. This increase in demand would have the effect of {@{shifting the demand curve rightward}@}. The result is {@{a change in the price at which quantity supplied equals quantity demanded}@}. In this case we see that {@{the two now equal each other at an increased price of $6.00}@}. {@{A decrease in disposable income}@} would {@{have the exact opposite effect on the market equilibrium}@}. <!--SR:!2028-10-09,1110,350!2026-01-12,332,345!2026-01-05,326,345!2025-12-30,322,345!2026-01-20,339,345!2026-01-25,343,345!2025-12-20,313,345-->
 
 We will also see similar behaviour in price when {@{there is a change in the supply schedule}@}, occurring through {@{technological changes, or through changes in business costs}@}. {@{An increase in technological usage or know-how or a decrease in costs}@} would have the effect of {@{increasing the quantity supplied at each price, thus reducing the equilibrium price}@}. On the other hand, {@{a decrease in technology or increase in business costs}@} will {@{decrease the quantity supplied at each price, thus increasing equilibrium price}@}. <!--SR:!2026-01-15,334,345!2026-01-25,343,345!2026-01-16,335,345!2026-01-15,334,345!2026-01-22,340,345!2027-06-16,732,345-->
 

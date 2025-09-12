@@ -109,7 +109,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 > Q1. (lecture) What would seasons be like for a planet with 90 degree axial tilt?
 >
-> - solution: {@{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}@} <!--SR:!2025-09-25,343,348-->
+> - solution: {@{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}@} <!--SR:!2030-03-24,1641,368-->
 
 <!-- markdownlint MD028 -->
 

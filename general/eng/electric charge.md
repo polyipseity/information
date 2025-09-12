@@ -132,7 +132,7 @@ In developing a field theory approach to electrodynamics \(starting in the mid-1
 
 When {@{a piece of glass and a piece of resin}@}—neither of which {@{exhibit any electrical properties}@}—are {@{rubbed together and left with the rubbed surfaces in contact}@}, they {@{still exhibit no electrical properties}@}. When {@{separated, they attract each other}@}. <!--SR:!2026-01-06,259,330!2025-12-20,245,330!2026-01-28,274,330!2026-02-14,290,330!2026-01-08,260,330-->
 
-{@{A second piece of glass rubbed with a second piece of resin}@}, then {@{separated and suspended near the former pieces of glass and resin}@} causes these phenomena: (annotation: 3 items: {@{two pieces of glasses, piece of glass and piece of resin, two pieces of resin}@}) <!--SR:!2026-02-07,284,330!2025-09-25,173,310!2025-12-28,252,330-->
+{@{A second piece of glass rubbed with a second piece of resin}@}, then {@{separated and suspended near the former pieces of glass and resin}@} causes these phenomena: (annotation: 3 items: {@{two pieces of glasses, piece of glass and piece of resin, two pieces of resin}@}) <!--SR:!2026-02-07,284,330!2027-10-10,745,330!2025-12-28,252,330-->
 
 - (annotation: two pieces of glass) ::@:: The two pieces of glass repel each other. <!--SR:!2026-01-11,263,330!2025-12-13,240,330-->
 - (annotation: piece of glass, piece of resin) ::@:: Each piece of glass attracts each piece of resin. <!--SR:!2026-01-28,274,330!2026-09-07,434,310-->

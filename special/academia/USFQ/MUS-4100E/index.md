@@ -121,7 +121,7 @@ The content is in teaching order.
   - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2026-05-04,362,360!2026-06-08,370,360-->
-- [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2025-09-25,181,335!2025-09-28,184,335-->
+- [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2027-05-19,601,335!2025-09-28,184,335-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2026-05-22,380,375!2026-05-21,379,375-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2026-01-13,273,355-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2026-07-28,420,375!2026-01-12,273,355-->
@@ -367,7 +367,7 @@ The content is in teaching order.
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2026-12-14,519,402!2026-03-14,284,382-->
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2026-04-25,326,382!2027-07-28,718,422-->
   - Ella Fitzgerald / awards ::@:: Presidential Medal of Freedom, 14 Grammys <!--SR:!2027-08-24,740,422!2027-08-03,724,422-->
-- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2026-07-18,408,402!2025-09-25,160,362-->
+- [Billie Holiday](../../../../general/Billie%20Holiday.md) (1915–1959) ::@:: "Lady Day"; _possibly_ most famous female jazz singer; known for her bluesy, deep, emotional style with a characteristic "light" voice, and "telling a story" <!--SR:!2026-07-18,408,402!2027-12-03,799,382-->
   - Billie Holiday / childhood ::@:: Troubled. She was 13 when she and her mother were both prostitutes. She learnt about jazz by singing in brothels. <!--SR:!2027-09-03,745,422!2027-08-01,722,422-->
   - Billie Holiday / later life ::@:: She had a difficult life. She struggled with alcohol and drugs throughout her life. She died at 44 with (almost) no money. <!--SR:!2027-08-10,730,422!2027-09-05,747,422-->
   - Billie Holiday / works ::@:: "Strange Fruit" (1939) — Billie Holiday <!--SR:!2026-07-19,409,402!2027-07-08,702,422-->

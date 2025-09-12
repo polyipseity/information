@@ -52,7 +52,7 @@ Given {@{the width and definition of the window function _w_\(_t_\)}@}, we initi
 
 Swapping {@{order of integration}@}: {@{$$\begin{aligned} X(\omega ) & =\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,dt\,d\tau \\ & =\int _{-\infty }^{\infty }\left[\int _{-\infty }^{\infty }x(t)w(t-\tau )\,e^{-i\omega t}\,dt\right]\,d\tau \\ & =\int _{-\infty }^{\infty }X(\tau ,\omega )\,d\tau . \end{aligned}$$}@} <!--SR:!2025-10-01,75,329!2025-09-28,72,329-->
 
-So the Fourier transform can be seen as {@{a sort of phase coherent sum of all of the STFTs of _x_\(_t_\)}@}. Since {@{the inverse Fourier transform}@} is {@{$$x(t)={\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\omega )e^{+i\omega t}\,d\omega ,$$}@} then {@{_x_\(_t_\) can be recovered from _X_\(τ,ω\)}@} as {@{$$x(t)={\frac {1}{2\pi } }\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\tau \,d\omega .$$}@} or {@{$$x(t)=\int _{-\infty }^{\infty }\left[{\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\omega \right]\,d\tau .$$}@} It can be seen, comparing to {@{above that windowed "grain" or "wavelet" of _x_\(_t_\)}@} is {@{$$x(t)w(t-\tau )={\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\omega .$$}@} {@{the inverse Fourier transform of _X_\(τ,ω\)}@} for τ fixed. <!--SR:!2025-09-25,70,329!2025-09-27,71,329!2026-05-31,259,330!2025-09-25,70,329!2025-09-29,73,329!2026-01-19,139,290!2026-01-30,162,310!2025-09-27,71,329!2026-02-28,173,310-->
+So the Fourier transform can be seen as {@{a sort of phase coherent sum of all of the STFTs of _x_\(_t_\)}@}. Since {@{the inverse Fourier transform}@} is {@{$$x(t)={\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\omega )e^{+i\omega t}\,d\omega ,$$}@} then {@{_x_\(_t_\) can be recovered from _X_\(τ,ω\)}@} as {@{$$x(t)={\frac {1}{2\pi } }\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\tau \,d\omega .$$}@} or {@{$$x(t)=\int _{-\infty }^{\infty }\left[{\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\omega \right]\,d\tau .$$}@} It can be seen, comparing to {@{above that windowed "grain" or "wavelet" of _x_\(_t_\)}@} is {@{$$x(t)w(t-\tau )={\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\omega .$$}@} {@{the inverse Fourier transform of _X_\(τ,ω\)}@} for τ fixed. <!--SR:!2026-08-12,321,349!2025-09-27,71,329!2026-05-31,259,330!2026-08-06,315,349!2025-09-29,73,329!2026-01-19,139,290!2026-01-30,162,310!2025-09-27,71,329!2026-02-28,173,310-->
 
 {@{An alternative definition}@} that is {@{valid only in the vicinity of τ}@}, {@{the inverse transform}@} is: {@{$$x(t)={\frac {1}{w(t-\tau )} }{\frac {1}{2\pi } }\int _{-\infty }^{\infty }X(\tau ,\omega )e^{+i\omega t}\,d\omega .$$}@} <!--SR:!2025-09-27,71,329!2025-09-29,73,329!2025-09-27,71,329!2026-01-18,144,309-->
 
@@ -113,7 +113,7 @@ Other examples: {@{$$w(t)=\exp(\sigma -t^{2}) = e^{\sigma} e^{-t^2}$$}@} Normall
 
 It can also be explained with reference to {@{the sampling and [Nyquist frequency](Nyquist%20frequency.md)}@}. <!--SR:!2026-08-01,312,349-->
 
-Take {@{a window of _N_ samples from an arbitrary real-valued signal at sampling rate _f_<sub>s</sub>}@}. Taking {@{the Fourier transform}@} produces {@{_N_ complex coefficients}@}. Of these coefficients {@{only half are useful}@} \(the last _N/2_ being {@{the [complex conjugate](complex%20conjugate.md) of the first _N/2_ in reverse order}@}, as {@{this is a real valued signal}@}\). <!--SR:!2025-09-25,70,329!2026-04-26,231,330!2026-05-13,246,330!2025-09-28,72,329!2025-09-29,73,329!2025-09-29,73,329-->
+Take {@{a window of _N_ samples from an arbitrary real-valued signal at sampling rate _f_<sub>s</sub>}@}. Taking {@{the Fourier transform}@} produces {@{_N_ complex coefficients}@}. Of these coefficients {@{only half are useful}@} \(the last _N/2_ being {@{the [complex conjugate](complex%20conjugate.md) of the first _N/2_ in reverse order}@}, as {@{this is a real valued signal}@}\). <!--SR:!2026-08-15,324,349!2026-04-26,231,330!2026-05-13,246,330!2025-09-28,72,329!2025-09-29,73,329!2025-09-29,73,329-->
 
 {@{These _N/2_ coefficients}@} represent {@{the frequencies 0 to _f_<sub>s</sub>/2 \(Nyquist\)}@} and {@{two consecutive coefficients}@} are spaced apart by {@{_f_<sub>s</sub>/<!-- markdown separator -->_N_ Hz}@}. <!--SR:!2025-09-30,74,329!2026-06-09,266,330!2025-09-30,74,329!2026-07-26,308,349-->
 
@@ -149,7 +149,7 @@ Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$
 
 #### constraints
 
-a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta _{t}<{\frac {1}{2\Omega } }$, where $\Omega$ is the bandwidth of $x(\tau )w(t-\tau )$ \(annotation: The max frequency is $\Omega$; we need the sampling rate to be twice of it, so sampling duration $\Delta t$ should be less than $1 / 2\Omega$.\) <!--SR:!2025-09-30,74,329!2025-09-25,70,329-->
+a. Nyquist criterion \(avoiding the aliasing effect\): <p> ::@:: &emsp; $\Delta _{t}<{\frac {1}{2\Omega } }$, where $\Omega$ is the bandwidth of $x(\tau )w(t-\tau )$ \(annotation: The max frequency is $\Omega$; we need the sampling rate to be twice of it, so sampling duration $\Delta t$ should be less than $1 / 2\Omega$.\) <!--SR:!2025-09-30,74,329!2026-08-13,322,349-->
 
 ### FFT-based method
 
@@ -199,7 +199,7 @@ Applying {@{the recursive formula to calculate $X(n\Delta _{t},m\Delta _{f})$}@}
 
 > __flashcards__
 >
-> - direct implementation ::@:: $O(TFQ)$ \(annotation: For each time value and frequency, $2Q+1$ multiplications are needed.\) <!--SR:!2026-06-03,262,330!2025-09-25,70,329-->
+> - direct implementation ::@:: $O(TFQ)$ \(annotation: For each time value and frequency, $2Q+1$ multiplications are needed.\) <!--SR:!2026-06-03,262,330!2026-08-14,323,349-->
 > - FFT-based ::@:: $O(TN\log _{2}N)$ \(annotation: Each time value requires a FFT. FFT gives the $F$ frequencies directly, and has a complexity of $N \log_2 N$.\) <!--SR:!2025-10-02,76,329!2025-09-30,74,329-->
 > - recursive ::@:: $O(TF)$ \(annotation: Once the base case is calculated, for each time value and frequency, only 2 multiplications are needed.\) <!--SR:!2025-10-01,75,329!2025-10-02,76,329-->
 > - chirp Z-transform ::@:: $O(TN\log _{2}N)$ \(annotation: It is a generalization of DFT, and can be evaluated efficiently using FFT.\) <!--SR:!2025-09-27,71,329!2026-04-11,203,310-->

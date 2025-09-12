@@ -179,7 +179,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 Note that the floating-point register operands must be {@{even numbered for double instructions}@}. <!--SR:!2025-11-27,128,404-->
 
-- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-11-19,124,404!2025-09-25,74,384-->
+- absolute double ::@:: `abs.d $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-11-19,124,404!2026-10-19,389,404-->
 - absolute single ::@:: `abs.s $fd, $fs`: `$fd = abs($fs);` <!--SR:!2025-12-01,132,404!2025-11-21,126,404-->
 - add double ::@:: `add.d $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-11-20,125,404!2025-11-19,124,404-->
 - add single ::@:: `add.s $fd, $fs, $ft`: `$fd = $fs + $ft;` <!--SR:!2025-11-21,126,404!2025-11-23,128,404-->

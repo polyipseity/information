@@ -236,7 +236,7 @@ return (
 - 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l):@:1.2 <!--SR:!2025-12-10,136,150-->
 - O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l):@:1.229 <!--SR:!2025-10-21,100,150-->
 - Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l):@:1.33 <!--SR:!2025-10-27,76,130-->
-- Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq):@:1.36 <!--SR:!2025-09-25,161,130-->
+- Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq):@:1.36 <!--SR:!2026-08-11,320,150-->
 - MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l):@:1.51 <!--SR:!2025-10-22,50,130-->
 - Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq):@:1.92 <!--SR:!2026-04-18,289,190-->
 - S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq):@:2.01 <!--SR:!2025-10-20,63,130-->

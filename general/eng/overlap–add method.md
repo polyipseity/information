@@ -62,7 +62,7 @@ end
 >     {@{y(position+(1:N))}@} = {@{y(position+(1:N)) + IDFT(DFT(x(position+(1:step_size)), N) × H)}@}
 >     position = {@{position + step_size}@}
 > <b>end</b>
-> </pre> <!--SR:!2025-09-29,73,328!2026-07-30,309,338!2025-09-29,73,328!2025-09-25,70,328!2025-09-28,72,328!2025-09-30,74,328!2026-07-24,306,348!2026-04-24,215,328!2025-09-29,73,328!2025-09-30,74,328!2025-09-30,74,328!2025-09-29,73,328!2025-09-25,70,328!2026-06-12,270,338-->
+> </pre> <!--SR:!2025-09-29,73,328!2026-07-30,309,338!2025-09-29,73,328!2026-05-09,226,328!2025-09-28,72,328!2025-09-30,74,328!2026-07-24,306,348!2026-04-24,215,328!2025-09-29,73,328!2025-09-30,74,328!2025-09-30,74,328!2025-09-29,73,328!2026-05-08,225,328!2026-06-12,270,338-->
 
 ## efficiency considerations
 
@@ -72,7 +72,7 @@ end
 
 When {@{the DFT and IDFT are implemented by the FFT algorithm}@}, the pseudocode above requires {@{about __N \(log<sub>2</sub>\(N\) + 1\)__ complex multiplications}@} for {@{the FFT, product of arrays, and IFFT}@}.<sup>[\[B\]](#^ref-B)</sup> Each iteration {@{produces __N-M+1__ output samples}@}, so {@{the number of complex multiplications per output sample}@} is about: {@{$${\frac {N(\log _{2}(N)+1)}{N-M+1} }.\,$$}@} __<a id="math Eq.3">Eq.3</a>__ <p> <!--SR:!2025-09-29,73,328!2025-09-30,74,328!2025-09-27,71,328!2025-09-30,74,328!2026-05-12,245,330!2025-09-30,74,328-->
 
-For example, when {@{$M=201$ and $N=1024$}@}, __[Eq.3](#math%20Eq.3)__ {@{equals $13.67$}@}, whereas {@{direct evaluation of __[Eq.1](#math%20Eq.1)__ \(annotation: applying the convolution definition directly\)}@} would {@{require up to $201$ complex multiplications per output sample}@}, the worst case being when {@{both $x$ and $h$ are complex-valued}@}. Also note that for {@{any given $M$}@}, __[Eq.3](#math%20Eq.3)__ has {@{a minimum with respect to $N$}@}. Figure 2 is a graph of {@{the values of $N$ that minimize __[Eq.3](#math%20Eq.3)__ for a range of filter lengths \($M$\)}@}. <!--SR:!2025-09-28,72,328!2026-07-20,303,348!2026-05-03,221,328!2025-09-28,72,328!2025-09-28,72,328!2025-09-27,71,328!2025-10-01,75,328!2025-09-25,70,328-->
+For example, when {@{$M=201$ and $N=1024$}@}, __[Eq.3](#math%20Eq.3)__ {@{equals $13.67$}@}, whereas {@{direct evaluation of __[Eq.1](#math%20Eq.1)__ \(annotation: applying the convolution definition directly\)}@} would {@{require up to $201$ complex multiplications per output sample}@}, the worst case being when {@{both $x$ and $h$ are complex-valued}@}. Also note that for {@{any given $M$}@}, __[Eq.3](#math%20Eq.3)__ has {@{a minimum with respect to $N$}@}. Figure 2 is a graph of {@{the values of $N$ that minimize __[Eq.3](#math%20Eq.3)__ for a range of filter lengths \($M$\)}@}. <!--SR:!2025-09-28,72,328!2026-07-20,303,348!2026-05-03,221,328!2025-09-28,72,328!2025-09-28,72,328!2025-09-27,71,328!2025-10-01,75,328!2026-08-08,317,348-->
 
 Instead of {@{__[Eq.1](#math%20Eq.1)__}@}, we can also consider {@{applying __[Eq.2](#math%20Eq.2)__ to a long sequence of length $N_{x}$ samples \(annotation: applying the circular convolution theorem and the FFT\)}@}. {@{The total number of complex multiplications}@} would be: {@{$$N_{x}\cdot (\log _{2}(N_{x})+1).$$}@} Comparatively, {@{the number of complex multiplications}@} required by the pseudocode algorithm is: {@{$$N_{x}\cdot (\log _{2}(N)+1)\cdot {\frac {N}{N-M+1} }.$$}@} <!--SR:!2025-09-27,71,328!2025-10-01,75,328!2025-09-28,72,328!2026-01-08,132,298!2025-10-01,75,328!2026-07-27,306,338-->
 
@@ -90,7 +90,7 @@ Hence {@{the _cost_ of the overlap–add method}@} scales almost as {@{$O\left(N
 ## notes
 
 1. A. This condition implies that {@{the $x_{k}$ segment}@} has {@{at least $M-1$ appended zeros}@}, which prevents {@{circular overlap of the output rise and fall transients}@}. <a id="^ref-A"></a>^ref-A
-2. B. {@{Cooley–Tukey FFT algorithm for N=2<sup>k</sup>}@} needs {@{\(N/2\) log<sub>2</sub>\(N\)}@} – see {@{[FFT – Definition and speed](fast%20Fourier%20transform.md#definition)}@} <a id="^ref-B"></a>^ref-B <!--SR:!2025-10-01,75,328!2025-09-25,69,318!2025-10-01,75,328!2026-07-22,305,348!2025-09-28,72,328!2025-09-28,72,328-->
+2. B. {@{Cooley–Tukey FFT algorithm for N=2<sup>k</sup>}@} needs {@{\(N/2\) log<sub>2</sub>\(N\)}@} – see {@{[FFT – Definition and speed](fast%20Fourier%20transform.md#definition)}@} <a id="^ref-B"></a>^ref-B <!--SR:!2025-10-01,75,328!2026-08-01,310,338!2025-10-01,75,328!2026-07-22,305,348!2025-09-28,72,328!2025-09-28,72,328-->
 
 ## references
 

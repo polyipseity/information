@@ -50,7 +50,7 @@ Let $a, b \in \mathbb N_0$ and {@{$b \ne 0$. Prove that there exists two natural
 
 ## co-primality of consecutive Fibonacci numbers
 
-Prove that {@{any two consecutive elements of the Fibonacci sequence are relatively prime. The Fibonacci sequence is defined recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}. <!--SR:!2025-09-25,294,340-->
+Prove that {@{any two consecutive elements of the Fibonacci sequence are relatively prime. The Fibonacci sequence is defined recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}. <!--SR:!2028-06-21,1000,340-->
 
 - strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction. <!--SR:!2029-05-28,1349,360!2027-09-19,836,340-->
 
@@ -95,7 +95,7 @@ Note that a knight can move {@{two squares vertically and one square horizontall
 
 - strategy ::@:: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2028-02-27,972,340!2025-09-27,293,330-->
 - possibility of _closed_ knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2026-07-10,389,240!2025-12-02,76,200-->
-- possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2026-04-07,317,260!2025-09-25,16,130-->
+- possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2026-04-07,317,260!2025-10-15,20,130-->
 
 1. 8×8 chessboard ::@:: It is possible. Prove by constructing such a closed path... <!--SR:!2025-11-07,328,340!2028-06-18,1044,340-->
 2. 9×9 chessboard ::@:: It is impossible. If such a closed path exists, then the knight needs to move exactly 81 times to visit every square and go back to the starting position. Now, notice the checker pattern of the chessboard. In a move, a knight must go from a square to a square of different color (black to white, white to black). Without loss of generality, assume the starting position is white. After moving exactly 81 times, the ending position must be black. But this implies the starting position and the ending position cannot be the same after 81 moves. So the closed path does not exist. <!--SR:!2028-03-06,977,340!2027-10-15,866,340-->

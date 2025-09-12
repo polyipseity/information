@@ -39,7 +39,7 @@ The demand for normal goods are {@{determined by many types of [consumer behavio
 
 According to {@{economic theory}@}, there must be {@{at least one normal good in any given bundle of goods \(i.e. not all goods can be inferior\)}@}. Economic theory {@{assumes that a [good](goods.md) always provides [marginal utility](marginal%20utility.md) \(holding everything else equal\)}@}. Therefore, if {@{consumption of all goods decrease when income increases}@}, {@{the resulting consumption combination would fall short of the new budget constraint frontier}@}.<sup>[\[1\]](#^ref-1)</sup> This would {@{violate the economic rationality assumption}@}. <!--SR:!2025-12-05,293,330!2025-12-03,291,330!2025-10-27,262,330!2025-11-09,272,330!2025-11-21,281,330!2025-11-30,289,330-->
 
-When {@{the price of a normal good is zero}@}, {@{the demand is infinite}@}. <!--SR:!2025-10-28,262,330!2025-09-25,235,330-->
+When {@{the price of a normal good is zero}@}, {@{the demand is infinite}@}. <!--SR:!2025-10-28,262,330!2028-08-25,1065,350-->
 
 ## examples
 

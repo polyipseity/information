@@ -17,7 +17,7 @@ A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [
 
 It is generally assumed that {@{demand curves slope down}@}, as shown in the adjacent image. This is because of {@{the [law of demand](law%20of%20demand.md): for most goods, the quantity demanded falls if the price rises}@}.<sup>[\[2\]](#^ref-2)</sup> {@{Certain unusual situations}@} do not follow this law. These include {@{[Veblen goods](Veblen%20good.md), [Giffen goods](Giffen%20good.md), and speculative bubbles where buyers are attracted to a commodity if its price rises}@}. <!--SR:!2025-10-11,251,330!2027-07-30,738,330!2025-12-01,290,330!2025-11-12,276,330-->
 
-Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy}@}, also known as {@{[market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2025-09-25,237,330!2027-10-26,817,330!2028-08-20,1064,350!2027-10-22,765,330!2025-10-07,247,330!2026-12-09,552,310!2025-10-12,24,371-->
+Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy}@}, also known as {@{[market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2028-09-10,1081,350!2027-10-26,817,330!2028-08-20,1064,350!2027-10-22,765,330!2025-10-07,247,330!2026-12-09,552,310!2025-10-12,24,371-->
 
 {@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2025-10-20,257,330!2025-10-19,256,330-->
 
@@ -83,7 +83,7 @@ In addition to {@{the factors which can affect individual demand there}@} are {@
 
 - a change in the number of ::@:: consumers, <!--SR:!2027-08-06,755,330!2025-09-26,238,330-->
 - a change in the distribution of tastes ::@:: among consumers, <!--SR:!2025-12-05,294,330!2025-12-05,294,330-->
-- a change in the distribution of income ::@:: among consumers with different tastes.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-12-05,294,330!2025-09-25,237,330-->
+- a change in the distribution of income ::@:: among consumers with different tastes.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-12-05,294,330!2027-11-16,782,330-->
 
 Some circumstances which can cause the demand curve to shift in include:
 
