@@ -48,7 +48,7 @@ Therefore, {@{the [tangential component](tangential%20component.md) of __E__}@} 
 
 \(annotation: $\mathbf D$\) ::@:: $$(\mathbf {D} _{2}-\mathbf {D} _{1})\cdot \mathbf {n} _{12}=\sigma _{s}$$ <!--SR:!2026-06-30,285,338!2026-06-09,269,338-->
 
-$\mathbf {n} _{12}$ ::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2025-09-28,73,338!2025-09-28,73,338-->
+$\mathbf {n} _{12}$ ::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2026-09-05,342,358!2026-09-06,343,358-->
 $\sigma _{s}$ ::@:: is the [surface charge](surface%20charge.md) [density](charge%20density.md) between the media \(unbounded charges only, not coming from polarization of the materials\). <!--SR:!2026-07-28,307,338!2026-07-30,309,338-->
 
 This can be deduced by {@{using Gauss's law and similar reasoning as above}@}. <!--SR:!2026-07-25,304,338-->

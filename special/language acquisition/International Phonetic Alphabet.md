@@ -859,7 +859,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg):@:[voiced uvular nasal](voiced%20uvular%20nasal.md) <!--SR:!2026-04-28,299,270-->
 - ![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg):@:[close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md)
 - ![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg):@:[open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md) <!--SR:!2027-07-24,827,296-->
-- ![nasalized open-mid back rounded vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg):@:[nasalized open-mid back rounded vowel](nasal%20vowel.md) <!--SR:!2025-09-28,159,156-->
+- ![nasalized open-mid back rounded vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg):@:[nasalized open-mid back rounded vowel](nasal%20vowel.md) <!--SR:!2025-12-16,79,136-->
 - ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg):@:[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md)
 - ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg):@:[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) <!--SR:!2026-04-09,212,216-->
 - ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md)
@@ -939,7 +939,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolar implosive](voiced%20alveolar%20implosive.md):@:[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail" <!--SR:!2026-04-10,288,193-->
 - [voiced retroflex plosive](voiced%20retroflex%20plosive.md):@:[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north" <!--SR:!2025-10-05,7,130-->
 - [voiced dental fricative](voiced%20dental%20fricative.md):@:[English](English%20language.md) _**th**is_ \[ðɪs\] <!--SR:!2027-06-27,752,233-->
-- [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!2025-09-28,16,130-->
+- [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!2025-10-06,8,130-->
 - [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md):@:[English](English%20language.md) _**g**ene_ \[ˈd͡ʒiːn\] <!--SR:!2025-11-04,127,158-->
 - [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!2025-10-07,9,130-->
 - [voiced retroflex affricate](voiced%20retroflex%20affricate.md):@:[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam" <!--SR:!2026-01-25,137,178-->
@@ -968,7 +968,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)" <!--SR:!2025-11-28,88,130-->
 - [voiced palatal implosive](voiced%20palatal%20implosive.md):@:[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday" <!--SR:!2026-09-10,441,198-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:[English](English%20language.md) _**k**iss_ \[kʰɪs\] <!--SR:!2027-02-27,519,199-->
-- [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _**l**et_ \[lɛt\] <!--SR:!2025-09-28,394,280-->
+- [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _**l**et_ \[lɛt\] <!--SR:!2028-10-04,1102,280-->
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _fee**l**_ \[fiːɫ\] <!--SR:!2026-03-29,512,240-->
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!2025-12-14,85,150-->
 - [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!2025-10-06,12,130-->
@@ -984,7 +984,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced uvular nasal](voiced%20uvular%20nasal.md):@:[Spanish](Spanish%20language.md) _e**n**juto_ \[ẽ̞ɴˈχuto̞\] "shriveled" <!--SR:!2025-10-21,38,141-->
 - [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md):@:[English](English%20language.md) _y**aw**n_ \[joːn\] <!--SR:!2025-10-30,61,130-->
 - [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɔt\] <!--SR:!2027-01-27,552,211-->
-- [nasalized open-mid back rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound" <!--SR:!2025-09-28,115,151-->
+- [nasalized open-mid back rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound" <!--SR:!2025-11-27,60,131-->
 - [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _p**eu**_ \[pø\] "few" <!--SR:!2025-10-05,13,130-->
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:[English](English%20language.md) _f**oo**t_ \[fɵʔt\] <!--SR:!2025-10-13,27,130-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young" <!--SR:!2025-10-08,50,150-->
@@ -1035,7 +1035,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [glottal stop](glottal%20stop.md):@:[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\] <!--SR:!2026-11-25,538,230-->
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion" <!--SR:!2025-10-30,62,130-->
 - [tenuis dental click](tenuis%20dental%20click.md):@:[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\] <!--SR:!2025-12-31,396,270-->
-- [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!2025-09-28,56,210-->
+- [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!2026-01-26,120,210-->
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat" <!--SR:!2025-11-05,115,130-->
 - [tenuis bilabial click](tenuis%20bilabial%20click.md):@:[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" <!--SR:!2025-12-14,105,170-->
 - [tenuis palatal click](tenuis%20palatal%20click.md):@:[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" <!--SR:!2025-11-03,102,130-->

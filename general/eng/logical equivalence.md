@@ -41,7 +41,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 ### logical equivalences involving biconditionals
 
 - [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::@:: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$ <!--SR:!2025-10-15,312,350!2025-11-19,340,350-->
-- [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::@:: $$p\iff q\equiv \neg p\iff \neg q$$ <!--SR:!2025-09-28,298,350!2025-10-06,306,350-->
+- [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::@:: $$p\iff q\equiv \neg p\iff \neg q$$ <!--SR:!2029-08-27,1429,370!2025-10-06,306,350-->
 - [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2028-09-25,1147,350!2025-12-07,355,350-->
 - [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2025-12-03,350,350!2028-03-27,1006,350-->
 

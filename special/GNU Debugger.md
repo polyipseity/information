@@ -28,7 +28,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `file <path>` ::@:: load binary file to debug <!--SR:!2029-03-08,1281,350!2028-09-17,1147,350-->
 - `finish` ::@:: run until the current function returns <!--SR:!2025-10-02,303,330!2027-08-31,828,330-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2026-03-12,423,365!2028-08-07,1111,365-->
-- `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-11-06,297,345!2025-09-28,283,345-->
+- `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-11-06,297,345!2028-05-31,976,345-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2028-07-14,1097,350!2027-07-09,792,330-->
 - `next` ::@:: go to the next (source) line <!--SR:!2028-02-19,973,350!2027-09-04,832,330-->
 - `ni` ::@:: go to the next instruction <!--SR:!2028-10-11,1167,350!2029-02-06,1260,350-->

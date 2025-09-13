@@ -33,7 +33,7 @@ The cheatsheet is provided during the final examination.
 - `float` ::@:: floating point <!--SR:!2025-10-08,272,330!2025-10-06,272,330-->
 - `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2025-09-30,267,330-->
 - `str` ::@:: string <!--SR:!2029-01-08,1199,350!2025-10-07,271,330-->
-- `[...]` ::@:: list <!--SR:!2025-09-28,264,330!2025-10-13,277,330-->
+- `[...]` ::@:: list <!--SR:!2029-01-12,1202,350!2025-10-13,277,330-->
 
 ## arithmetic operators
 
@@ -57,7 +57,7 @@ The cheatsheet is provided during the final examination.
 - `abs()` ::@:: absolute value <!--SR:!2025-10-05,271,330!2029-01-07,1199,350-->
 - `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2025-09-30,266,330-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2025-10-11,275,330-->
-- `type()` ::@:: return data type of input <!--SR:!2025-09-30,267,330!2025-09-28,264,330-->
+- `type()` ::@:: return data type of input <!--SR:!2025-09-30,267,330!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2025-10-01,268,330!2025-10-20,281,330-->
 - `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2025-09-29,265,330-->
 - `str()` ::@:: convert input to str <!--SR:!2025-10-21,283,330!2025-10-28,290,330-->

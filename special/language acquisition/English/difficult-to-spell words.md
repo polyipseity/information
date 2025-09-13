@@ -41,7 +41,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [bureaucracy](https://en.wiktionary.org/wiki/bureaucracy) ::@:: \(b_y\) Government by bureaus or their administrators or officers. <!--SR:!2026-01-31,140,423!2026-01-27,136,423-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::@:: \(c\_r\) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2028-07-18,1305,364!2028-10-09,1372,364-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::@:: \(c\_y\) Acting as a complement to make something else whole. <!--SR:!2027-09-07,980,344!2028-02-06,1176,364-->
-- [complimentary](https://en.wiktionary.org/wiki/complimentary) ::@:: \(c\_y\) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2025-09-28,294,244!2026-06-09,621,324-->
+- [complimentary](https://en.wiktionary.org/wiki/complimentary) ::@:: \(c\_y\) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2027-09-15,717,244!2026-06-09,621,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::@:: \(c\_t\) Following as a result, inference, or natural effect. <!--SR:!2030-03-15,1793,412!2026-03-20,567,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2031-01-15,1967,370-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->

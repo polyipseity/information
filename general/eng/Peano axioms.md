@@ -86,7 +86,7 @@ To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a
 
 #### multiplication
 
-Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2025-11-26,344,345!2025-09-28,299,345!2027-03-02,697,345-->
+Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2025-11-26,344,345!2029-08-18,1420,365!2027-03-02,697,345-->
 
 It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2025-11-16,337,345-->
 

@@ -19,7 +19,7 @@ In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbe
 
 Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} which {@{states that every [impartial game](impartial%20game.md) is equivalent to a Nim heap of a certain size}@}, nimbers {@{arise in a much larger class of impartial games}@}. They may also occur in {@{[partisan games](partisan%20game.md)}@} like {@{[Domineering](Domineering.md)}@}. <!--SR:!2026-02-12,325,345!2026-02-17,329,345!2026-03-18,353,353!2026-02-20,331,345!2025-12-06,268,330-->
 
-{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2026-02-22,333,345!2026-02-28,337,345!2025-09-28,209,325!2026-02-28,338,345!2025-11-03,242,330!2026-01-28,294,290-->
+{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2026-02-22,333,345!2026-02-28,337,345!2027-08-08,679,325!2026-02-28,338,345!2025-11-03,242,330!2026-01-28,294,290-->
 
 ## uses
 
@@ -102,7 +102,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2027-01-14,551,310!2025-10-20,229,330!2025-09-28,115,185-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2027-01-14,551,310!2025-10-20,229,330!2026-04-26,210,185-->
 
 <!-- markdownlint MD028 -->
 

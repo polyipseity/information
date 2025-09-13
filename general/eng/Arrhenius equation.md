@@ -16,7 +16,7 @@ The Arrhenius equation is given as
 
 > Arrhenius equation
 >
-> - {@{$k=Ae^\frac{-E_a}{RT}$}@}. <!--SR:!2025-09-28,174,230-->
+> - {@{$k=Ae^\frac{-E_a}{RT}$}@}. <!--SR:!2026-11-02,400,230-->
 
 ## references
 

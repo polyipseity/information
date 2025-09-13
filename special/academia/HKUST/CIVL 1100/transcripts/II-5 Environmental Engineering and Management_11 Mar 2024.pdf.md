@@ -435,7 +435,7 @@ Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
-  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2025-09-28,328,290!2026-06-04,512,310-->
+  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2028-05-11,956,290!2026-06-04,512,310-->
 - specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2028-04-23,1115,350!2028-11-16,1265,350-->
 
 ## page 36

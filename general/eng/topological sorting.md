@@ -109,7 +109,7 @@ Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S ca
 
 ### depth-first search
 
-{@{An alternative algorithm for topological sorting}@} is {@{based on [depth-first search](depth-first%20search.md)}@}. The algorithm {@{loops through each node of the graph, in an arbitrary order}@}, initiating {@{a depth-first search that terminates when it hits any node that has already been visited}@} since {@{the beginning of the topological sort or the node has no outgoing edges \(i.e., a leaf node\)}@}: <!--SR:!2025-11-05,271,359!2026-01-09,319,359!2026-04-07,395,371!2025-09-28,233,351!2025-10-30,266,359-->
+{@{An alternative algorithm for topological sorting}@} is {@{based on [depth-first search](depth-first%20search.md)}@}. The algorithm {@{loops through each node of the graph, in an arbitrary order}@}, initiating {@{a depth-first search that terminates when it hits any node that has already been visited}@} since {@{the beginning of the topological sort or the node has no outgoing edges \(i.e., a leaf node\)}@}: <!--SR:!2025-11-05,271,359!2026-01-09,319,359!2026-04-07,395,371!2028-10-26,1124,371!2025-10-30,266,359-->
 
 <pre>
 <i>L</i> ← Empty list that will contain the sorted nodes

@@ -121,7 +121,7 @@ The content is in teaching order.
   - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
   - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2026-05-04,362,360!2026-06-08,370,360-->
-- [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2027-05-19,601,335!2025-09-28,184,335-->
+- [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2027-05-19,601,335!2028-01-28,852,355-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2026-05-22,380,375!2026-05-21,379,375-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2026-01-13,273,355-->
 - [American Revolutionary War](../../../../general/American%20Revolutionary%20War.md) (1775–1783) ::@:: United States declared independence from the British Empire in 1776, and won the war in 1783. <!--SR:!2026-07-28,420,375!2026-01-12,273,355-->
@@ -129,7 +129,7 @@ The content is in teaching order.
 - [Louisiana Purchase](../../../../general/Louisiana%20Purchase.md) (1803–1804) ::@:: The United States doubled in size by purchasing Louisiana from France in 1803, because Napoleon was fighting costly wars. <!--SR:!2026-01-17,277,355!2026-06-29,391,375-->
   - Louisiana Purchase / importance ::@:: It gave the United States New Orleans, a large port at the gulf of the Mississippi River, which is the largest river in the United States and 4th largest in the world. <!--SR:!2026-01-04,265,355!2027-04-22,583,335-->
   - [Congo Square](../../../../general/Congo%20Square.md) ::@:: It was a place where free and slave African American in New Orleans would gather to dance and spread African culture. <!--SR:!2026-06-30,392,375!2026-05-24,382,375-->
-- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2025-09-28,183,335!2026-01-11,269,355-->
+- [Mexican–American War](../../../../general/Mexican–American%20War.md) (1846–1848) ::@:: The entire American West was added in in this war. <!--SR:!2028-01-21,845,355!2026-01-11,269,355-->
   - Mexican–American War / importance ::@:: This was one of the events leading up to the American Civil War: Should the new territories be free or slave states? The country split politically about slavery. <!--SR:!2026-01-07,268,355!2026-07-20,412,375-->
 - [American Civil War](../../../../general/American%20Civil%20War.md) (1861–1865) ::@:: Southern states (slave states) seceded from the Union. Northern states were the free states. There were a variety of causes, with slavery being the biggest issue. Over 500&nbsp;000 soldiers and civilians killed. <!--SR:!2027-05-31,611,335!2027-11-29,803,355-->
   - American Civil War / emancipation ::@:: In 1864, Abraham Lincoln emancipated the slaves. <!--SR:!2026-01-22,278,355!2026-07-16,408,375-->

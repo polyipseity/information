@@ -189,7 +189,7 @@ In {@{the presence of matter}@}, it is helpful to {@{extend the notion of the el
 
 {@{The __E__ and __D__ fields}@} are related by {@{the [permittivity](permittivity.md) of the material, _ε_}@}.<sup>[\[21\]](#^ref-21)</sup><sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-02-15,267,342!2026-06-21,387,362-->
 
-For {@{linear, [homogeneous](homogeneity%20and%20heterogeneity.md), [isotropic](isotropy.md) materials}@} __E__ and __D__ are {@{proportional and constant throughout the region}@}, there is {@{no position dependence}@}: {@{$$\mathbf {D} (\mathbf {r} )=\varepsilon \mathbf {E} (\mathbf {r} ).$$}@} <!--SR:!2026-02-28,290,330!2026-05-03,344,346!2025-09-28,172,310!2026-06-30,396,362-->
+For {@{linear, [homogeneous](homogeneity%20and%20heterogeneity.md), [isotropic](isotropy.md) materials}@} __E__ and __D__ are {@{proportional and constant throughout the region}@}, there is {@{no position dependence}@}: {@{$$\mathbf {D} (\mathbf {r} )=\varepsilon \mathbf {E} (\mathbf {r} ).$$}@} <!--SR:!2026-02-28,290,330!2026-05-03,344,346!2027-10-10,742,330!2026-06-30,396,362-->
 
 For {@{inhomogeneous materials}@}, there is {@{a position dependence throughout the material}@}:<sup>[\[22\]](#^ref-22)</sup> {@{$$\mathbf {D} (\mathbf {r} )=\varepsilon (\mathbf {r} )\mathbf {E} (\mathbf {r} )$$}@} <!--SR:!2026-07-14,410,371!2025-12-18,233,331!2026-06-24,390,362-->
 

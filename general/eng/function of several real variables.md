@@ -191,7 +191,7 @@ For a more sophisticated example: $${\begin{aligned}&\phi :\mathbb {R} ^{4}\to \
 
 ## complex-valued function of several real variables
 
-{@{A complex-valued function of several real variables}@} may be defined by {@{relaxing, in the definition of the real-valued functions, the restriction of the codomain to the real numbers}@}, and {@{allowing [complex](complex%20number.md) values}@}. <!--SR:!2026-03-10,307,341!2027-01-15,533,321!2025-09-28,171,310-->
+{@{A complex-valued function of several real variables}@} may be defined by {@{relaxing, in the definition of the real-valued functions, the restriction of the codomain to the real numbers}@}, and {@{allowing [complex](complex%20number.md) values}@}. <!--SR:!2026-03-10,307,341!2027-01-15,533,321!2027-10-05,737,330-->
 
 If {@{_f_\(_x_<sub>1</sub>, …, _x<sub>n</sub>_\) is such a complex valued function}@}, it may be {@{decomposed as $$f(x_{1},\ldots ,x_{n})=g(x_{1},\ldots ,x_{n})+ih(x_{1},\ldots ,x_{n}),$$}@} where {@{_g_ and _h_ are real-valued functions}@}. In other words, {@{the study of the complex valued functions}@} {@{reduces easily to the study of the pairs of real valued functions}@}. <!--SR:!2026-04-17,330,341!2026-04-10,321,341!2026-03-06,303,341!2026-04-02,315,341!2026-03-30,310,341-->
 
