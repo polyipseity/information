@@ -50,7 +50,7 @@ Let $a, b \in \mathbb N_0$ and {@{$b \ne 0$. Prove that there exists two natural
 
 ## co-primality of consecutive Fibonacci numbers
 
-Prove that {@{any two consecutive elements of the Fibonacci sequence are relatively prime. The Fibonacci sequence is defined recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}.
+Prove that {@{any two consecutive elements of the Fibonacci sequence}@} are {@{relatively prime}@}. {@{The Fibonacci sequence}@} is defined {@{recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}.
 
 - strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction.
 

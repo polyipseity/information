@@ -17,7 +17,7 @@ A {@{__sinusoidal model__}@} approximates {@{a sequence $x_i$ to a sine \(or cos
 
 We can {@{generalize the above model to include multiple sinusoids}@}: {@{$$x_i = e_i + \sum_{r = 1}^R A_r \sin(\omega_r t_i + \phi_r) \,,$$}@} where {@{$R$ is the number of sinusoids}@}. The mean level $C$ can be subsumed by {@{a sinusoid of zero frequency \(which is simply a constant function\)}@}.
 
-By {@{windowing the sequence $x_i$ using a window function}@}, the above model {@{can be further generalized to be time-varying in both amplitude $A_r$ and angular frequency $\omega_r$ \(in a way similar to short-time Fourier transform \(STFT\)\)}@}.
+By {@{windowing the sequence $x_i$ using a window function}@}, the above model can be further generalized to {@{be time-varying in both amplitude $A_r$ and angular frequency $\omega_r$}@} \(in a way {@{similar to short-time Fourier transform \(STFT\)}@}\).
 
 ## discrete Fourier transform
 
