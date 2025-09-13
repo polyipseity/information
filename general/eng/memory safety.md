@@ -37,7 +37,7 @@ Many different types of memory errors can occur. Important one includes {@{acces
   - __mismatched free__ ::@:: When multiple allocators are in use, attempting to free memory with a deallocation function of a different allocator.
   - __unwanted [aliasing](aliasing%20(computing).md)__ ::@:: When the same memory location is allocated and modified twice for unrelated purposes.
 
-Some lists may also {@{include __[race conditions](race%20condition.md)__ (concurrent reads/writes to shared memory)}@} as being part of memory safety (e.g., for access control). The Rust programming language {@{prevents many kinds of memory-based race conditions by default, because it ensures there is at most one writer _or_ one or more readers}@}. Many other programming languages, such as Java, {@{do _not_ automatically prevent memory-based race conditions, yet are still generally considered "memory safe" languages}@}. Therefore, {@{countering race conditions}@} is {@{generally _not_ considered necessary for a language to be considered memory safe}@}.
+Some lists may also {@{include __[race conditions](race%20condition.md)__ \(concurrent reads/writes to shared memory\)}@} as {@{being part of memory safety \(e.g., for access control\)}@}. {@{The Rust programming language}@} prevents {@{many kinds of memory-based race conditions by default}@}, because it {@{ensures there is at most one writer _or_ one or more readers}@}. {@{Many other programming languages, such as Java}@}, do _not_ {@{automatically prevent memory-based race conditions, yet are still generally considered "memory safe" languages}@}. Therefore, {@{countering race conditions}@} is {@{generally _not_ considered necessary for a language to be considered memory safe}@}.
 
 ## references
 
