@@ -80,7 +80,7 @@ The content is in teaching order.
 - [rectangular function](../../../../general/rectangular%20function.md) ::@:: It is defined as $$\operatorname {rect} \left({\frac {t}{a} }\right)=\Pi \left({\frac {t}{a} }\right)=\left\{ {\begin{array}{rl}0,&{\text{if } }|t|>{\frac {a}{2} }\\{\frac {1}{2} },&{\text{if } }|t|={\frac {a}{2} }\\1,&{\text{if } }|t|<{\frac {a}{2} }.\end{array} }\right.$$ Alternative definitions of the function define $\operatorname {rect} \left(\pm {\frac {1}{2} }\right)$ to be 0, or undefined.
 - [triangular function](../../../../general/triangular%20function.md) ::@:: It is a function whose graph takes the shape of a triangle. Often this is an isosceles triangle of height 1 and base 2 in which case it is referred to as _the_ triangular function.
 - analog signal
-  - analog signal / basic operations ::@:: amplitude transformations: $As(t) + B$; $A$ scales the range about the horizontal axis and $B$ shifts vertically <br/> time reversal: $s(-t)$ \(special case of time scaling when $a = -1$\) <br/> time scaling: $s(at)$; compressed if $\lvert a \rvert > 1$ or expanded if $\lvert a \rvert < 1$ <br/> time shifting: $x(t - a)$; delayed \(moved towards the _left_\) by $a$
+  - analog signal / basic operations ::@:: amplitude transformations: $As(t) + B$; $A$ scales the range about the horizontal axis and $B$ shifts vertically <br/> time reversal: $s(-t)$ \(special case of time scaling when $a = -1$\) <br/> time scaling: $s(at)$; compressed if $\lvert a \rvert > 1$ or expanded if $\lvert a \rvert < 1$ <br/> time shifting: $x(t - a)$; delayed \(moved towards the _right_\) by $a$
 
 ## week 1 lecture 2
 
