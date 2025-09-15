@@ -19,7 +19,7 @@ In [economics](economics.md), a __normal good__ is {@{a type of a [good](goods.m
 
 There is {@{a positive correlation between the income and demand for normal goods, that is, the changes income and demand for normal goods moves in the same direction}@}. That is to say, that normal goods have {@{an elastic relationship for the demand of a good with the income of the person consuming the good}@}. <!--SR:!2027-08-15,758,330!2027-05-30,699,330-->
 
-In economics, {@{the concept of elasticity, and specifically income elasticity of demand}@} is {@{key to explain the concept of normal goods}@}. Income elasticity of demand measures {@{the magnitude of the change in demand for a good in response to a change in consumer income}@}. The income elasticity of demand is calculated using the following formula, <p> {@{Income elasticity of demand= % change in quantity demanded / % change in consumer income}@}. <!--SR:!2025-10-12,251,330!2025-11-25,285,330!2025-10-18,255,330!2025-09-29,240,330-->
+In economics, {@{the concept of elasticity, and specifically income elasticity of demand}@} is {@{key to explain the concept of normal goods}@}. Income elasticity of demand measures {@{the magnitude of the change in demand for a good in response to a change in consumer income}@}. The income elasticity of demand is calculated using the following formula, <p> {@{Income elasticity of demand= % change in quantity demanded / % change in consumer income}@}. <!--SR:!2025-10-12,251,330!2025-11-25,285,330!2025-10-18,255,330!2028-09-26,1093,350-->
 
 In mathematical terms, the formula can be written as follows:
 

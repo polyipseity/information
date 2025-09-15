@@ -15,7 +15,7 @@ tags:
 
 # falling and rising factorials
 
-In [mathematics](mathematics.md), {@{the __falling factorial__}@} (sometimes called {@{the __descending factorial__,<sup>[\[1\]](#^ref-1)</sup> __falling sequential product__, or __lower factorial__}@}) is defined as {@{the polynomial $${\begin{aligned}(x)_{n}=x^{\underline {n} }&=\overbrace {x(x-1)(x-2)\cdots (x-n+1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x-k+1)=\prod _{k=0}^{n-1}(x-k).\end{aligned} }$$}@} <!--SR:!2028-11-24,1159,350!2025-10-16,275,330!2025-09-29,260,330-->
+In [mathematics](mathematics.md), {@{the __falling factorial__}@} (sometimes called {@{the __descending factorial__,<sup>[\[1\]](#^ref-1)</sup> __falling sequential product__, or __lower factorial__}@}) is defined as {@{the polynomial $${\begin{aligned}(x)_{n}=x^{\underline {n} }&=\overbrace {x(x-1)(x-2)\cdots (x-n+1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x-k+1)=\prod _{k=0}^{n-1}(x-k).\end{aligned} }$$}@} <!--SR:!2028-11-24,1159,350!2025-10-16,275,330!2028-12-25,1183,350-->
 
 {@{The __rising factorial__}@} (sometimes called {@{the __Pochhammer function__, __Pochhammer polynomial__, __ascending factorial__,<sup>[\[1\]](#^ref-1)</sup> __rising sequential product__, or __upper factorial__}@}) is defined as {@{$${\begin{aligned}(x)^{n}=x^{\overline {n} }&=\overbrace {x(x+1)(x+2)\cdots (x+n-1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x+k-1)=\prod _{k=0}^{n-1}(x+k).\end{aligned} }$$}@} <!--SR:!2025-09-30,261,330!2025-10-27,281,330!2028-09-18,1106,350-->
 
@@ -87,7 +87,7 @@ Finally, {@{[duplication](multiplication%20theorem.md) and [multiplication formu
 
 ## relation to umbral calculus
 
-The falling factorial occurs in {@{a formula which represents [polynomials](polynomial.md)}@} using {@{the forward [difference operator](recurrence%20relation.md#difference%20operator) $\Delta f(x){\stackrel {\mathrm {def} }{=} }f(x{+}1)-f(x),$}@} and {@{which is formally similar to [Taylor's theorem](taylor's%20theorem.md):$$f(x)=\sum _{n=0}^{\infty }{\frac {\Delta ^{n}f(0)}{n!} }(x)_{n}.$$}@} <!--SR:!2025-09-29,260,330!2025-10-06,265,330!2025-12-12,264,270-->
+The falling factorial occurs in {@{a formula which represents [polynomials](polynomial.md)}@} using {@{the forward [difference operator](recurrence%20relation.md#difference%20operator) $\Delta f(x){\stackrel {\mathrm {def} }{=} }f(x{+}1)-f(x),$}@} and {@{which is formally similar to [Taylor's theorem](taylor's%20theorem.md):$$f(x)=\sum _{n=0}^{\infty }{\frac {\Delta ^{n}f(0)}{n!} }(x)_{n}.$$}@} <!--SR:!2028-12-24,1182,350!2025-10-06,265,330!2025-12-12,264,270-->
 
 In {@{this formula and in many other places}@}, {@{the falling factorial $(x)_{n}$ in the calculus of [finite differences](finite%20difference.md)}@} plays {@{the role of $x^{n}$ in differential calculus}@}. Note for instance {@{the similarity of $\Delta (x)_{n}=n(x)_{n-1}$ to ${\frac {\textrm {d} }{ {\textrm {d} }x} }x^{n}=nx^{n-1}$}@}. <!--SR:!2025-11-02,287,330!2027-11-05,845,330!2028-10-03,1118,350!2027-11-22,843,330-->
 

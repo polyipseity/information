@@ -39,7 +39,7 @@ The graph of the demand curve uses {@{the [inverse demand function](inverse%20de
 >
 > {@{Convex demand curve}@} <!--SR:!2025-10-24,260,330!2025-10-02,243,330-->
 
-The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-06-04,704,330!2025-09-29,241,330-->
+The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-06-04,704,330!2028-09-29,1096,350-->
 
 The demand curvature is {@{fundamentally hard to estimate from the empirical data}@}, with some researchers suggesting that {@{demand with high convexity is practically improbable}@}. Demand curve are, however, considered to be {@{generally convex in accordance with [diminishing marginal utility](marginal%20utility.md)}@}.<sup>[\[9\]](#^ref-9)</sup> Theoretically, the demand curve is {@{equivalent to the [price-offer curve](price-consumption%20curve.md)}@} and can be derived by {@{charting the points of tangency between [budget lines](budget%20constraint.md) and [indifference curves](indifference%20curve.md)}@} for {@{all possible prices of the good in question}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-11-11,275,330!2027-06-26,720,330!2025-11-06,270,330!2025-12-05,294,330!2027-08-24,768,330!2025-11-01,266,330-->
 
@@ -79,7 +79,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 
 ### factors affecting market demand
 
-In addition to {@{the factors which can affect individual demand there}@} are {@{three factors that can cause the market demand curve to shift}@}: <!--SR:!2025-09-29,241,330!2025-10-04,245,330-->
+In addition to {@{the factors which can affect individual demand there}@} are {@{three factors that can cause the market demand curve to shift}@}: <!--SR:!2028-09-30,1097,350!2025-10-04,245,330-->
 
 - a change in the number of ::@:: consumers, <!--SR:!2027-08-06,755,330!2028-09-16,1086,350-->
 - a change in the distribution of tastes ::@:: among consumers, <!--SR:!2025-12-05,294,330!2025-12-05,294,330-->
@@ -94,7 +94,7 @@ Some circumstances which can cause the demand curve to shift in include:
 
 ## movement along a demand curve
 
-There is {@{movement _along_ a demand curve}@} when {@{a change in price causes the quantity demanded to change}@}.<sup>[\[11\]](#^ref-11)</sup> It is important to {@{distinguish between movement along a demand curve, and a shift in a demand curve}@}. {@{Movements along a demand curve happen only}@} when {@{the price of the good changes}@}.<sup>[\[14\]](#^ref-14)</sup> When {@{a non-price determinant of demand changes, the curve shifts}@}. These {@{"__other variables__" are part of the demand function}@}. They are {@{"__merely lumped into intercept term of a simple linear demand function__"}@}.<sup>[\[14\]](#^ref-14)</sup> Thus {@{a change in a non-price determinant of demand}@} is reflected in {@{a change in the x-intercept causing the curve to shift along the x axis}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-10-04,245,330!2025-10-11,251,330!2025-10-08,248,330!2025-09-29,241,330!2028-09-02,1074,350!2028-08-31,1073,350!2025-10-30,265,330!2028-09-05,1077,350!2025-10-29,264,330!2027-09-05,766,330-->
+There is {@{movement _along_ a demand curve}@} when {@{a change in price causes the quantity demanded to change}@}.<sup>[\[11\]](#^ref-11)</sup> It is important to {@{distinguish between movement along a demand curve, and a shift in a demand curve}@}. {@{Movements along a demand curve happen only}@} when {@{the price of the good changes}@}.<sup>[\[14\]](#^ref-14)</sup> When {@{a non-price determinant of demand changes, the curve shifts}@}. These {@{"__other variables__" are part of the demand function}@}. They are {@{"__merely lumped into intercept term of a simple linear demand function__"}@}.<sup>[\[14\]](#^ref-14)</sup> Thus {@{a change in a non-price determinant of demand}@} is reflected in {@{a change in the x-intercept causing the curve to shift along the x axis}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-10-04,245,330!2025-10-11,251,330!2025-10-08,248,330!2028-10-01,1098,350!2028-09-02,1074,350!2028-08-31,1073,350!2025-10-30,265,330!2028-09-05,1077,350!2025-10-29,264,330!2027-09-05,766,330-->
 
 ## price elasticity of demand
 

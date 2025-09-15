@@ -184,7 +184,7 @@ The channels building block shows {@{the ways to reach customers and deliver val
 
 #### customer relationships
 
-The customer relationships building block shows {@{the types of relationships with customer segments}@}. Proper customer relationships help with {@{customer acquisition, customer retention, and upselling}@}. <!--SR:!2025-09-29,389,294!2028-04-02,1035,297-->
+The customer relationships building block shows {@{the types of relationships with customer segments}@}. Proper customer relationships help with {@{customer acquisition, customer retention, and upselling}@}. <!--SR:!2030-02-10,1595,314!2028-04-02,1035,297-->
 
 ##### customer relationship examples
 

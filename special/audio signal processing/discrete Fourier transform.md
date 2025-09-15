@@ -119,7 +119,7 @@ The effect of {@{zero padding a signal in the time domain}@} is that {@{its corr
 
 By duality, zero padding a signal in the frequency domain corresponds to {@{interpolating the signal in the time domain}@}. <!--SR:!2029-04-22,1343,373-->
 
-Zero padding can {@{make the input size suitable}@} for {@{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}@}. It can also be used to {@{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}@} for {@{a signal made of a combination of sinusoidal waves}@}. <!--SR:!2025-09-29,315,373!2028-09-03,1159,373!2027-10-17,867,353!2027-07-18,801,353-->
+Zero padding can {@{make the input size suitable}@} for {@{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}@}. It can also be used to {@{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}@} for {@{a signal made of a combination of sinusoidal waves}@}. <!--SR:!2030-02-24,1609,393!2028-09-03,1159,373!2027-10-17,867,353!2027-07-18,801,353-->
 
 ## fast Fourier transform
 

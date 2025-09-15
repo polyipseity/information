@@ -282,7 +282,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
 - [General topology](general%20topology.md)
 
-  - {@{A uniform space}@} is {@{compact}@} {@{if and only if it is complete and totally bounded}@}. <!--SR:!2025-11-26,67,327!2025-09-29,9,287!2025-11-10,50,307-->
+  - {@{A uniform space}@} is {@{compact}@} {@{if and only if it is complete and totally bounded}@}. <!--SR:!2025-11-26,67,327!2025-11-05,37,307!2025-11-10,50,307-->
 
   - {@{Every [Tychonoff space](Tychonoff%20space.md)}@} has {@{a [Stone–Čech compactification](Stone–Čech%20compactification.md)}@}. <!--SR:!2025-12-07,76,344!2025-12-11,79,344-->
 

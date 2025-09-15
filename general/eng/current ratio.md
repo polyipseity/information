@@ -11,7 +11,7 @@ tags:
 
 # current ratio
 
-The __current ratio__ is {@{an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations}@}. It is {@{the ratio of a firm's [current assets](current%20asset.md) to its [current liabilities](current%20liability.md), $\frac{\text{⁠Current Assets} } {\text{Current Liabilities} }$}@}⁠. <!--SR:!2028-06-13,1058,350!2025-09-29,286,330-->
+The __current ratio__ is {@{an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations}@}. It is {@{the ratio of a firm's [current assets](current%20asset.md) to its [current liabilities](current%20liability.md), $\frac{\text{⁠Current Assets} } {\text{Current Liabilities} }$}@}⁠. <!--SR:!2028-06-13,1058,350!2029-04-26,1305,350-->
 
 The current ratio is an indication of {@{a firm's [accounting liquidity](accounting%20liquidity.md)}@}. Acceptable current ratios {@{vary across industries}@}.<sup>[\[1\]](#^ref-1)</sup> Generally, high current ratio are regarded as {@{better than low current ratios, as an indication of whether a company can pay a [creditor](creditor.md) back}@}. However, if {@{a company's current ratio is too high}@}, it may {@{indicate that the company is not efficiently using its current assets}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2028-06-22,1065,350!2028-08-03,1099,350!2027-04-05,710,330!2028-11-14,1180,350!2029-02-01,1242,350-->
 

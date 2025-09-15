@@ -23,7 +23,7 @@ When Peano formulated his axioms, {@{the language of [mathematical logic](mathem
 
 The Peano axioms {@{define the arithmetical properties of _[natural numbers](natural%20number.md)_, usually represented as a [set](set%20(mathematics).md) __N__ or $\mathbb {N}$}@}. The [non-logical symbols](non-logical%20symbol.md) for the axioms consist of {@{a constant symbol 0 and a unary function symbol _S_}@}. <!--SR:!2028-12-30,1221,350!2028-10-09,1159,350-->
 
-The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!2025-09-29,295,330-->
+The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!2029-06-02,1342,350-->
 
 1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2025-11-05,327,345!2025-12-19,363,345-->
 

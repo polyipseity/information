@@ -89,7 +89,7 @@ The content is in teaching order.
     - hypothetical syllogism
     - _modus tollens_
     - rules of inference / conjunction ::@:: $$\begin{aligned} & p \\ & \underline{q \phantom{\land q} } \\ & p \land q & \end{aligned}$$ <!--SR:!2025-10-16,310,343!2028-05-13,1016,343-->
-    - rules of inference / disjunctive syllogism ::@:: $$\begin{aligned} & p \lor q \\ & \underline{\lnot p \!\!\!\! \phantom{\lor q} } \\ & q \end{aligned}$$ <!--SR:!2027-11-12,891,343!2025-09-29,296,343-->
+    - rules of inference / disjunctive syllogism ::@:: $$\begin{aligned} & p \lor q \\ & \underline{\lnot p \!\!\!\! \phantom{\lor q} } \\ & q \end{aligned}$$ <!--SR:!2027-11-12,891,343!2029-07-27,1397,363-->
     - rules of inference / transposition (with $F$ as the consequent) ::@:: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2028-12-05,1203,350!2028-12-05,1214,363-->
     - rules of inference / simplification ::@:: $$\begin{aligned} & \underline{p \land q} \\ & p \end{aligned}$$ <!--SR:!2025-11-17,335,343!2029-07-08,1383,363-->
     - rules of inference / addition ::@:: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2029-04-10,1313,363!2026-12-24,636,330-->
@@ -109,7 +109,7 @@ The content is in teaching order.
 - [Peano axioms](../../../../general/Peano%20axioms.md) ::@:: (The second-order formulation is used.) One, $0$ is a natural number. Two, if $n$ is a natural number, then $S(n)$ is a natural number. Third, if $S(n) = S(m)$, then $n = m$. Four, $S(n) \ne 0$ for all natural numbers $n \in \mathbb N$. Five, if $K$ is a set such that $0 \in K$, and for all natural numbers $n \in \mathbb N$, if $n \in K$ then $S(n) \in K$, then $K = \mathbb N$ (induction). <!--SR:!2028-10-06,1133,343!2025-12-21,315,303-->
   - [§ Peano axioms](../../../../general/Peano%20axioms.md#Peano%20axioms)
   - [§ historical second-order formulation](../../../../general/Peano%20axioms.md#historical%20second-order%20formulation)
-  - Peano axioms / 1st axiom motivation ::@:: This defines the starting $0$ as a natural number. <!--SR:!2027-05-01,744,343!2025-09-29,298,343-->
+  - Peano axioms / 1st axiom motivation ::@:: This defines the starting $0$ as a natural number. <!--SR:!2027-05-01,744,343!2029-08-12,1413,363-->
   - Peano axioms / 2nd axiom motivation ::@:: This defines a successor function $S$ that can generate more natural numbers. Equivalently, the natural numbers are closed under $S$. <!--SR:!2027-11-04,883,343!2025-10-08,304,343-->
   - Peano axioms / 3rd axiom motivation ::@:: This makes the successor function injective (but not surjective, as $0$ is not in the image of the function). <!--SR:!2027-12-14,901,343!2025-10-22,278,303-->
   - Peano axioms / 4th axiom motivation ::@:: Coupled with the injective property, this makes the successor function never go back to the starting number $0$. Otherwise, the successor function can, at one point, loop back to $0$, and there will only be finitely many natural numbers. <!--SR:!2029-06-26,1374,363!2025-11-02,324,343-->

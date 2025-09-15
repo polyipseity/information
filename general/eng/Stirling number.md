@@ -134,7 +134,7 @@ For example, $\left[{-5 \atop k}\right]={\frac {1}{120} }{\Bigl (}5-{\frac {10}{
 | __−4__   | $${\tfrac {-1}{24} }$$ | $${\tfrac {-25}{288} }$$  | $${\tfrac {-415}{3456} }$$    | $${\tfrac {-5845}{41472} }$$     | $${\tfrac {-76111}{497664} }$$       |
 | __−5__   | $${\tfrac {1}{120} }$$ | $${\tfrac {137}{7200} }$$ | $${\tfrac {12019}{432000} }$$ | $${\tfrac {874853}{25920000} }$$ | $${\tfrac {58067611}{1555200000} }$$ |
 
-In this case {@{$\sum _{n=1}^{\infty }\left[{-n \atop -k}\right]=B_{k}$}@} where {@{$B_{k}$ is a [Bell number](Bell%20number.md)}@}, and so one may {@{define the negative Bell numbers by $\sum _{n=1}^{\infty }\left[{-n \atop k}\right]=:B_{-k}$}@}. <!--SR:!2025-09-29,177,270!2025-12-05,312,330!2026-06-18,395,290-->
+In this case {@{$\sum _{n=1}^{\infty }\left[{-n \atop -k}\right]=B_{k}$}@} where {@{$B_{k}$ is a [Bell number](Bell%20number.md)}@}, and so one may {@{define the negative Bell numbers by $\sum _{n=1}^{\infty }\left[{-n \atop k}\right]=:B_{-k}$}@}. <!--SR:!2027-01-27,485,270!2025-12-05,312,330!2026-06-18,395,290-->
 
 For example, this produces $\sum _{n=1}^{\infty }\left[{-n \atop 1}\right]=B_{-1}={\frac {1}{e} }\sum _{j=1}^{\infty }{\frac {1}{j\cdot j!} }={\frac {1}{e} }\int _{0}^{1}{\frac {e^{t}-1}{t} }dt=0.4848291\dots$, generally $B_{-k}={\frac {1}{e} }\sum _{j=1}^{\infty }{\frac {1}{j^{k}j!} }$.
 

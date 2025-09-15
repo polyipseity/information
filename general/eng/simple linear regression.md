@@ -55,7 +55,7 @@ The goal is to {@{find estimated values ${\widehat {\alpha } }$ and ${\widehat {
 
 ### relationship with the sample covariance matrix
 
-{@{The solution can be reformulated}@} using {@{elements of the [covariance matrix](covariance%20matrix.md)}@}: {@{$${\widehat {\beta } }={\frac {s_{x,y} }{s_{x}^{2} } }=r_{xy}{\frac {s_{y} }{s_{x} } }$$}@} where <!--SR:!2025-12-21,247,330!2026-09-19,434,310!2025-09-29,146,250-->
+{@{The solution can be reformulated}@} using {@{elements of the [covariance matrix](covariance%20matrix.md)}@}: {@{$${\widehat {\beta } }={\frac {s_{x,y} }{s_{x}^{2} } }=r_{xy}{\frac {s_{y} }{s_{x} } }$$}@} where <!--SR:!2025-12-21,247,330!2026-09-19,434,310!2026-10-06,372,250-->
 
 - _r_<sub>_xy_</sub> ::@:: is the [sample correlation coefficient](correlation.md#sample%20correlation%20coefficient) between _x_ and _y_ <!--SR:!2026-12-25,505,310!2026-01-16,268,330-->
 - _s_<sub>_x_</sub> and _s<sub>y</sub>_ ::@:: are the [uncorrected sample standard deviations](standard%20deviation.md#uncorrected%20sample%20standard%20deviation) of _x_ and _y_ <!--SR:!2025-11-10,196,310!2025-12-24,250,330-->
@@ -209,7 +209,7 @@ Several methods exist, considering:
 
 ### simple linear regression without the intercept term \(single regressor\)
 
-Sometimes it is {@{appropriate to force the regression line to pass through the origin}@}, because {@{_x_ and _y_ are assumed to be proportional}@}. For {@{the model without the intercept term, _y_ = _βx_}@}, {@{the OLS estimator for _β_}@} {@{simplifies to $${\widehat {\beta } }={\frac {\sum _{i=1}^{n}x_{i}y_{i} }{\sum _{i=1}^{n}x_{i}^{2} } }={\frac {\overline {xy} }{\overline {x^{2} } } }$$}@} <!--SR:!2026-09-16,431,310!2026-01-07,260,330!2026-01-10,263,330!2026-01-08,261,330!2025-09-29,137,270-->
+Sometimes it is {@{appropriate to force the regression line to pass through the origin}@}, because {@{_x_ and _y_ are assumed to be proportional}@}. For {@{the model without the intercept term, _y_ = _βx_}@}, {@{the OLS estimator for _β_}@} {@{simplifies to $${\widehat {\beta } }={\frac {\sum _{i=1}^{n}x_{i}y_{i} }{\sum _{i=1}^{n}x_{i}^{2} } }={\frac {\overline {xy} }{\overline {x^{2} } } }$$}@} <!--SR:!2026-09-16,431,310!2026-01-07,260,330!2026-01-10,263,330!2026-01-08,261,330!2026-10-07,373,270-->
 
 {@{Substituting \(_x_ − _h_, _y_ − _k_\) in place of \(_x_, _y_\)}@} gives {@{the regression through \(_h_, _k_\)}@}: {@{$${\begin{aligned}{\widehat {\beta } }&={\frac {\sum _{i=1}^{n}(x_{i}-h)(y_{i}-k)}{\sum _{i=1}^{n}(x_{i}-h)^{2} } }={\frac {\overline {(x-h)(y-k)} }{\overline {(x-h)^{2} } } }\\[6pt]&={\frac { {\overline {xy} }-k{\bar {x} }-h{\bar {y} }+hk}{ {\overline {x^{2} } }-2h{\bar {x} }+h^{2} } }\\[6pt]&={\frac { {\overline {xy} }-{\bar {x} }{\bar {y} }+({\bar {x} }-h)({\bar {y} }-k)}{ {\overline {x^{2} } }-{\bar {x} }^{2}+({\bar {x} }-h)^{2} } }\\[6pt]&={\frac {\operatorname {Cov} (x,y)+({\bar {x} }-h)({\bar {y} }-k)}{\operatorname {Var} (x)+({\bar {x} }-h)^{2} } },\end{aligned} }$$}@} where {@{Cov and Var refer to the covariance and variance of the sample data \(uncorrected for bias\)}@}. {@{The last form above}@} demonstrates {@{how moving the line away from the center of mass of the data points affects the slope}@}. (annotation: In particular, {@{substituting $(h, k) = (\overline x, \overline y)$ gives back the slope for the simple linear regression with the intercept term}@}.) <!--SR:!2025-11-13,199,310!2026-01-26,276,330!2026-03-15,276,270!2026-01-15,267,330!2026-01-25,275,330!2026-01-20,271,330!2026-01-30,277,330-->
 

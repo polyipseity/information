@@ -99,7 +99,7 @@ The risk premium {@{varies over time and place}@}, but in {@{some [developed cou
 
 #### cost of retained earnings/cost of internal equity
 
-Note that {@{[retained earnings](retained%20earnings.md)}@} are {@{a component of equity}@}, and, therefore, {@{the cost of retained earnings \(internal equity\)}@} is {@{equal to the cost of equity as explained above}@}. {@{Dividends \(earnings that are paid to investors and not retained\)}@} are {@{a component of the return on capital to equity holders}@}, and {@{influence the cost of capital through that mechanism}@}. <!--SR:!2025-09-29,64,330!2026-06-25,270,330!2026-06-02,252,330!2025-10-09,70,330!2025-10-13,74,330!2025-10-15,76,330!2025-10-13,74,330-->
+Note that {@{[retained earnings](retained%20earnings.md)}@} are {@{a component of equity}@}, and, therefore, {@{the cost of retained earnings \(internal equity\)}@} is {@{equal to the cost of equity as explained above}@}. {@{Dividends \(earnings that are paid to investors and not retained\)}@} are {@{a component of the return on capital to equity holders}@}, and {@{influence the cost of capital through that mechanism}@}. <!--SR:!2026-07-24,298,350!2026-06-25,270,330!2026-06-02,252,330!2025-10-09,70,330!2025-10-13,74,330!2025-10-15,76,330!2025-10-13,74,330-->
 
 > Cost of internal equity ::@:: = \[\(next year's dividend per share/\(current market price per share - [flotation costs](flotation%20cost.md)\)\] + growth rate of dividends\)\] <!--SR:!2026-03-20,180,310!2025-10-11,72,330-->
 

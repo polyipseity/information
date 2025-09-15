@@ -118,7 +118,7 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 
 #### statement of retained earnings
 
-The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2025-09-29,293,355-->
+The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2029-08-27,1428,375-->
 
 This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-08-23,815,330!2025-10-06,300,330!2028-10-25,1171,350!2027-10-16,864,330-->
 

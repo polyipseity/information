@@ -19,7 +19,7 @@ tags:
 
 > ![Example of a directed acyclic graph](../../archives/Wikimedia%20Commons/Tred-G.svg)
 >
-> {@{Example of a directed acyclic graph}@} <!--SR:!2025-09-29,234,330-->
+> {@{Example of a directed acyclic graph}@} <!--SR:!2028-08-29,1065,350-->
 
 In {@{[mathematics](mathematics.md), particularly [graph theory](graph%20theory.md), and [computer science](computer%20science.md)}@}, {@{a __directed acyclic graph__ \(__DAG__\)}@} is {@{a [directed graph](directed%20graph.md) with no [directed cycles](cycle%20graph.md#directed%20cycle%20graph)}@}. That is, it consists of {@{[vertices](vertex%20(graph%20theory).md) and [edges](glossary%20of%20graph%20theory.md#edge) \(also called _arcs_\), with each edge directed from one vertex to another}@}, such that {@{following those directions will never form a closed loop}@}. A directed graph is {@{a DAG if and only if it can be [topologically ordered](topological%20sorting.md)}@}, by {@{arranging the vertices as a linear ordering that is consistent with all edge directions}@}. DAGs have {@{numerous scientific and computational applications}@}, ranging from {@{biology \(evolution, family trees, epidemiology\) to information science \(citation networks\) to computation \(scheduling\)}@}. <!--SR:!2025-12-06,288,330!2025-11-09,268,350!2026-01-23,332,358!2028-05-01,956,350!2025-11-05,262,330!2026-02-17,351,350!2026-01-28,335,350!2025-11-27,281,330!2027-11-04,808,338-->
 

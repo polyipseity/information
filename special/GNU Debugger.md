@@ -32,7 +32,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2028-07-14,1097,350!2027-07-09,792,330-->
 - `next` ::@:: go to the next (source) line <!--SR:!2028-02-19,973,350!2027-09-04,832,330-->
 - `ni` ::@:: go to the next instruction <!--SR:!2028-10-11,1167,350!2029-02-06,1260,350-->
-- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-18,265,270!2025-09-29,300,330-->
+- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-18,265,270!2029-06-29,1369,350-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-08-15,1124,350!2029-01-03,1233,350-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2026-03-14,425,365!2026-03-06,417,365-->
 - `set args <args>...` ::@:: set program args <!--SR:!2025-10-12,311,330!2028-03-16,999,350-->

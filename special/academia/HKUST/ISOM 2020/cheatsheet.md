@@ -59,7 +59,7 @@ The cheatsheet is provided during the final examination.
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2025-10-11,275,330-->
 - `type()` ::@:: return data type of input <!--SR:!2025-09-30,267,330!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2025-10-01,268,330!2025-10-20,281,330-->
-- `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2025-09-29,265,330-->
+- `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
 - `str()` ::@:: convert input to str <!--SR:!2025-10-21,283,330!2025-10-28,290,330-->
 
 ## list / string operations
@@ -80,7 +80,7 @@ The cheatsheet is provided during the final examination.
 
 ## relational operators
 
-- `==` ::@:: is equal? <!--SR:!2025-09-29,265,330!2025-09-30,267,330-->
+- `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2025-09-30,267,330-->
 - `!=` ::@:: is not equal? <!--SR:!2025-10-08,273,330!2025-10-19,280,330-->
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
 - `>` ::@:: is greater than? <!--SR:!2025-10-09,273,330!2025-10-24,285,330-->
