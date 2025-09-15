@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. Brackets have {@{the highest precedence (very intuitive)}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-09-30,304,342-->
+Below are common arithmetic operators. Brackets have {@{the highest precedence (very intuitive)}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2029-09-05,1436,362-->
 
 ```Python
 # pytextgen generate data

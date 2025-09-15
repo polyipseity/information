@@ -198,7 +198,7 @@ The usual way of orienting the plane, with {@{the positive _x_-axis pointing rig
 
 {@{The other way of orienting the plane}@} is {@{following the _left-hand rule_}@}, {@{placing the left hand on the plane with the thumb pointing up}@}. <!--SR:!2026-05-30,373,362!2026-03-13,310,349!2026-05-09,352,349-->
 
-When {@{pointing the thumb away from the origin along an axis towards positive}@}, {@{the curvature of the fingers}@} indicates {@{a positive rotation along that axis}@}. <!--SR:!2026-07-02,398,362!2026-04-05,325,349!2025-09-30,173,310-->
+When {@{pointing the thumb away from the origin along an axis towards positive}@}, {@{the curvature of the fingers}@} indicates {@{a positive rotation along that axis}@}. <!--SR:!2026-07-02,398,362!2026-04-05,325,349!2027-10-14,744,330-->
 
 Regardless of {@{the rule used to orient the plane}@}, {@{rotating the coordinate system will preserve the orientation}@}. {@{Switching any one axis}@} will {@{reverse the orientation}@}, but {@{switching both will leave the orientation unchanged}@}. <!--SR:!2025-12-15,237,330!2026-03-08,305,349!2026-01-05,255,330!2026-05-06,349,349!2026-06-13,385,362-->
 

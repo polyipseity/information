@@ -21,7 +21,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 - `apropos <regex>` ::@:: find text matching `<regex>` <!--SR:!2028-04-12,1024,350!2026-01-27,348,290-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2027-05-03,725,330!2028-06-17,1078,350-->
-- `break <where>` ::@:: set a breakpoint <!--SR:!2028-03-17,1000,350!2025-09-30,301,330-->
+- `break <where>` ::@:: set a breakpoint <!--SR:!2028-03-17,1000,350!2029-07-01,1370,350-->
 - `continue` ::@:: continue program execution <!--SR:!2027-03-22,707,330!2027-12-31,942,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2028-10-05,1161,350!2028-07-10,1093,350-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-04,958,365!2026-03-09,420,365-->
@@ -47,7 +47,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2027-10-23,881,365!2026-03-04,415,365-->
 - `rn` ::@:: rewind to the previous (source) line <!--SR:!2025-11-06,297,345!2029-01-25,1253,365-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2026-03-05,416,365!2026-03-07,418,365-->
-- `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2026-04-14,402,325!2025-09-30,271,345-->
+- `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2026-04-14,402,325!2029-04-07,1285,365-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2028-08-30,1129,365!2025-11-06,297,345-->
 
 ### `pwndbg`

@@ -31,7 +31,7 @@ The cheatsheet is provided during the final examination.
 
 - `int` ::@:: integer <!--SR:!2025-10-22,284,330!2025-10-29,290,330-->
 - `float` ::@:: floating point <!--SR:!2025-10-08,272,330!2025-10-06,272,330-->
-- `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2025-09-30,267,330-->
+- `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2029-01-25,1213,350-->
 - `str` ::@:: string <!--SR:!2029-01-08,1199,350!2025-10-07,271,330-->
 - `[...]` ::@:: list <!--SR:!2029-01-12,1202,350!2025-10-13,277,330-->
 
@@ -55,9 +55,9 @@ The cheatsheet is provided during the final examination.
 ## math functions / conversion
 
 - `abs()` ::@:: absolute value <!--SR:!2025-10-05,271,330!2029-01-07,1199,350-->
-- `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2025-09-30,266,330-->
+- `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2029-01-22,1210,350-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2025-10-11,275,330-->
-- `type()` ::@:: return data type of input <!--SR:!2025-09-30,267,330!2029-01-10,1200,350-->
+- `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2025-10-01,268,330!2025-10-20,281,330-->
 - `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
 - `str()` ::@:: convert input to str <!--SR:!2025-10-21,283,330!2025-10-28,290,330-->
@@ -80,7 +80,7 @@ The cheatsheet is provided during the final examination.
 
 ## relational operators
 
-- `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2025-09-30,267,330-->
+- `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2029-01-26,1214,350-->
 - `!=` ::@:: is not equal? <!--SR:!2025-10-08,273,330!2025-10-19,280,330-->
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
 - `>` ::@:: is greater than? <!--SR:!2025-10-09,273,330!2025-10-24,285,330-->
@@ -89,7 +89,7 @@ The cheatsheet is provided during the final examination.
 
 ## boolean operators
 
-- `and` ::@:: are both operands `True`? <!--SR:!2025-09-30,267,330!2025-10-05,269,330-->
+- `and` ::@:: are both operands `True`? <!--SR:!2029-01-28,1216,350!2025-10-05,269,330-->
 - `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2025-10-22,284,330!2025-10-23,285,330-->
 - `not` ::@:: flip `True`/`False` to one another <!--SR:!2025-10-17,281,330!2025-10-11,275,330-->
 
@@ -108,8 +108,8 @@ else:
 
 ## loop
 
-- keywords ::@:: `for ... in ...: ...`, `while True: ...` <!--SR:!2025-10-20,281,330!2025-09-30,266,330-->
-- `break` ::@:: terminate a loop <!--SR:!2025-09-30,267,330!2025-10-20,282,330-->
+- keywords ::@:: `for ... in ...: ...`, `while True: ...` <!--SR:!2025-10-20,281,330!2029-01-21,1209,350-->
+- `break` ::@:: terminate a loop <!--SR:!2029-01-29,1217,350!2025-10-20,282,330-->
 
 ```Python
 for <variable> in <iterable>:

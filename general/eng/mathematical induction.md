@@ -58,7 +58,7 @@ Authors who prefer to define natural numbers to begin at 0 use that value in the
 
 Mathematical induction can be used to prove the following statement _P_(_n_) for all natural numbers _n_: {@{$$P(n)\!:\ \ 0+1+2+\cdots +n={\frac {n(n+1)}{2} }$$}@} <!--SR:!2028-09-11,1111,350-->
 
-This states {@{a general formula for the sum of the natural numbers less than or equal to a given number}@}; in fact {@{an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2028-10-09,1134,350!2025-09-30,25,376-->
+This states {@{a general formula for the sum of the natural numbers less than or equal to a given number}@}; in fact {@{an infinite sequence of statements}@}: {@{$0={\tfrac {(0)(0+1)}{2} }$, $0+1={\tfrac {(1)(1+1)}{2} }$, $0+1+2={\tfrac {(2)(2+1)}{2} }$, etc.}@} <!--SR:!2027-11-10,805,330!2028-10-09,1134,350!2026-02-09,132,396-->
 
 __<u>Proposition.</u>__ ::@:: For every $n\in \mathbb {N}$, $0+1+2+\cdots +n={\tfrac {n(n+1)}{2} }$. <!--SR:!2028-09-30,1127,350!2028-11-17,1167,350-->
 
@@ -154,7 +154,7 @@ One can take the idea a step further: {@{one must prove $$\forall k\,\left(P\!\l
 
 ### complete (strong) induction
 
-Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__}@} \(in contrast to {@{which the basic form of induction is sometimes known as __weak induction__}@}\), makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$}@}; by contrast, the basic form {@{only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction"}@}, but {@{merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2028-10-23,1146,350!2028-09-19,1117,350!2026-03-27,393,310!2025-09-30,25,376!2026-02-02,126,396!2026-02-03,127,396-->
+Another variant, called {@{__complete induction__, __course of values induction__ or __strong induction__}@} \(in contrast to {@{which the basic form of induction is sometimes known as __weak induction__}@}\), makes {@{the induction step easier to prove by using a stronger hypothesis}@}: one proves {@{the statement $P(m+1)$ under the assumption that $P(n)$ holds for _all_ natural numbers $n$ less than $m+1$}@}; by contrast, the basic form {@{only assumes $P(m)$}@}. The name "strong induction" {@{does not mean that this method can prove more than "weak induction"}@}, but {@{merely refers to the stronger hypothesis used in the induction step}@}. <!--SR:!2027-11-26,818,330!2028-10-23,1146,350!2028-09-19,1117,350!2026-03-27,393,310!2026-02-08,131,396!2026-02-02,126,396!2026-02-03,127,396-->
 
 In fact, it can be shown that {@{the two methods are actually equivalent, as explained below}@}. In this form of complete induction, one still has to {@{prove the base case, $P(0)$, and it may even be necessary to prove extra-base cases such as $P(1)$ before the general argument applies}@}, as {@{in the example below of the [Fibonacci number](Fibonacci%20sequence.md) $F_{n}$}@}. <!--SR:!2028-11-27,1173,350!2028-11-06,1158,350!2028-10-08,1134,350-->
 
@@ -202,7 +202,7 @@ _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:
 
 _Induction step_ ::@:: assume as induction hypothesis that within any set of $n$ horses, there is only one color. Now look at any set of $n+1$ horses. Number them: $1,2,3,\dotsc ,n,n+1$. Consider the sets $\left\{1,2,3,\dotsc ,n\right\}$ and $\left\{2,3,4,\dotsc ,n+1\right\}$. Each is a set of only $n$ horses, therefore within each there is only one color. But the two sets overlap, so there must be only one color among all $n+1$ horses. <!--SR:!2028-11-08,1157,350!2028-10-10,1135,350-->
 
-{@{The base case $n=1$}@} is {@{trivial}@}, and {@{the induction step is correct in all cases $n>1$}@}. However, {@{the argument used in the induction step}@} is {@{incorrect for $n+1=2$}@}, because the statement that {@{"the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}. <!--SR:!2028-09-24,1122,350!2027-11-15,809,330!2025-09-30,25,376!2025-09-30,25,376!2026-02-03,127,396!2026-02-03,127,396-->
+{@{The base case $n=1$}@} is {@{trivial}@}, and {@{the induction step is correct in all cases $n>1$}@}. However, {@{the argument used in the induction step}@} is {@{incorrect for $n+1=2$}@}, because the statement that {@{"the two sets overlap" is false for $\left\{1\right\}$ and $\left\{2\right\}$}@}. <!--SR:!2028-09-24,1122,350!2027-11-15,809,330!2026-02-09,132,396!2026-02-07,130,396!2026-02-03,127,396!2026-02-03,127,396-->
 
 ## formalization
 
@@ -229,7 +229,7 @@ One variation of the principle of complete induction can be {@{generalized for s
 
 Applied to {@{a well-founded set}@}, transfinite induction can be {@{formulated as a single step}@}. To prove that a statement _P_(_n_) holds for each ordinal number: <p> {@{Show, for each ordinal number _n_, that if _P_(_m_) holds for all _m_ < _n_, then _P_(_n_) also holds.}@} <!--SR:!2028-11-03,1155,350!2028-11-14,1164,350!2027-07-27,765,330-->
 
-This form of induction, when {@{applied to a set of ordinal numbers \(which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md)\)}@}, is called {@{_[transfinite induction](transfinite%20induction.md)_}@}. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}. <!--SR:!2027-08-01,779,330!2028-10-26,1149,350!2025-09-30,25,376-->
+This form of induction, when {@{applied to a set of ordinal numbers \(which form a [well-ordered](well-order.md) and hence well-founded [class](class%20(set%20theory).md)\)}@}, is called {@{_[transfinite induction](transfinite%20induction.md)_}@}. It is {@{an important proof technique in [set theory](set%20theory.md), [topology](topology.md) and other fields}@}. <!--SR:!2027-08-01,779,330!2028-10-26,1149,350!2026-02-09,132,396-->
 
 Proofs by transfinite induction typically {@{distinguish three cases}@}: <!--SR:!2028-10-31,1152,350-->
 

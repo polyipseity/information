@@ -97,7 +97,7 @@ The content is in teaching order.
   - corporate finance / commission ::@:: A type of _transaction cost_. It is a service charge assessed by a broker for handling the purchase or sale of a security. <!--SR:!2026-03-07,290,330!2026-02-09,277,330-->
   - corporate finance / stock markets
     - corporate finance / stock markets / types of order ::@:: high frequency traders (HFTs), limit order (limit order book; liquidity supplier), market order (liquidity demander) <!--SR:!2026-09-02,416,310!2026-10-19,443,310-->
-    - corporate finance / stock markets / dark pools ::@:: limit order books not visible; this and internal dealer platforms accounted for almost 40% of trades in 2015, while electronic exchanges accounted for 20% <!--SR:!2025-09-30,166,310!2026-02-03,272,330-->
+    - corporate finance / stock markets / dark pools ::@:: limit order books not visible; this and internal dealer platforms accounted for almost 40% of trades in 2015, while electronic exchanges accounted for 20% <!--SR:!2027-09-12,712,330!2026-02-03,272,330-->
   - corporate finance / financial cycle ::@:: Savers give money to companies with new ideas and projects. Companies give interest, profits, and wages back to savers. <!--SR:!2026-03-07,290,330!2026-09-11,425,310-->
   - corporate finance / financial institutions ::@:: banks & credit unions, hedge funds, insurance companies, mutual funds, pension funds, private equity funds, venture capital funds, etc. <!--SR:!2026-10-22,446,310!2025-11-15,192,310-->
     - corporate finance / financial institutions / bank & credit unions ::@:: source: deposits/savings; use: loans to businesses and people <!--SR:!2025-10-14,179,310!2025-11-17,194,310-->
@@ -513,7 +513,7 @@ The content is in teaching order.
 - free cash flow
   - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2025-10-07,139,414!2026-08-15,394,392-->
     - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\) <!--SR:!2027-08-30,716,432!2026-11-23,478,412-->
-    - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense <!--SR:!2026-12-01,486,412!2025-09-30,132,415-->
+    - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense <!--SR:!2026-12-01,486,412!2027-10-22,752,435-->
   - free cash flow / depreciation
   - free cash flow / capital expenditure ::@:: Cash outflows when you have capital expenditure. But this is not immediately recognized in an income statement. So we need to add this to FCF. <p> By the cost principle, all reasonable and necessary expenditures \(e.g. _capitalized interest_, costs to get it up and running, materials, wages paid, etc.\) in constructing an asset should be _capitalized_ \(i.e. considered capital expenditure\). <!--SR:!2027-10-07,738,433!2025-10-15,147,413-->
   - free cash flow / changes in working capital ::@:: Increase in held cash, inventory, receivables, etc. \(current assets\) increases net income, but they do not increase cash flow. So this increase needs to be subtracted from FCF. Increase in payables, etc. \(current liabilities\) decreases net income, but they do not decrease cash flow. So this increase needs to be added to FCF. <p> Overall, increase in CA subtracted by increase in CL is changes in working capital. So changes in working capital needs to be subtracted from FCF. <!--SR:!2025-10-03,135,414!2027-09-04,720,432-->
@@ -575,7 +575,7 @@ The content is in teaching order.
 - [bond](../../../../bond%20(finance).md) ::@:: It is a type of security under which the issuer \(debtor\) owes the holder \(creditor\) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor. <!--SR:!2027-09-19,734,432!2027-03-06,563,412-->
   - bond / cash flows ::@:: Typical cash flows are repaying the principal \(i.e. amount borrowed\) of the bond at the maturity date and interest \(called the coupon\) over a specified amount of time. <!--SR:!2027-03-14,543,412!2027-09-15,730,432-->
   - bond / terminology ::@:: coupon rate, coupon payment, face value, indenture & covenant, maturity date, term <!--SR:!2025-10-03,135,414!2027-09-01,718,432-->
-    - bond / terminology / indenture, covenant ::@:: An indenture is a formal debt agreement that establishes the terms of a bond issue, while covenants are the clauses of such an agreement. <!--SR:!2025-10-05,137,415!2025-09-30,132,415-->
+    - bond / terminology / indenture, covenant ::@:: An indenture is a formal debt agreement that establishes the terms of a bond issue, while covenants are the clauses of such an agreement. <!--SR:!2025-10-05,137,415!2027-10-20,750,435-->
     - bond / terminology / maturity date ::@:: final payment date <!--SR:!2025-10-06,138,414!2027-09-09,725,432-->
     - bond / terminology / term ::@:: duration from issuing date to maturity date <!--SR:!2025-10-08,140,413!2025-10-04,136,415-->
     - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments <!--SR:!2027-09-03,720,432!2026-11-25,480,414-->
@@ -594,14 +594,14 @@ The content is in teaching order.
 - yield to maturity
   - yield to maturity / spot interest rate ::@:: It is the rate of return earned when a bond is bought now and sold at maturity without collecting coupon payments. <!--SR:!2027-06-07,642,415!2027-08-31,717,432-->
 - [yield curve](../../../../general/yield%20curve.md) ::@:: It is a graph which depicts how the yields on debt instruments – such as bonds – vary as a function of their years remaining to maturity. <!--SR:!2025-10-04,136,414!2025-10-04,136,415-->
-  - yield curve / graph ::@:: Typically, the graph's horizontal or x-axis is a time line of months or years remaining to maturity, with the shortest maturity on the left and progressively longer time periods on the right. The vertical or y-axis depicts the annualized yield to maturity. <!--SR:!2025-09-30,132,415!2025-10-13,145,413-->
+  - yield curve / graph ::@:: Typically, the graph's horizontal or x-axis is a time line of months or years remaining to maturity, with the shortest maturity on the left and progressively longer time periods on the right. The vertical or y-axis depicts the annualized yield to maturity. <!--SR:!2027-03-27,543,415!2025-10-13,145,413-->
   - yield curve / types ::@:: normal, flat, humped, inverted <!--SR:!2027-08-23,711,432!2025-10-02,134,415-->
     - yield curve / types / normal ::@:: It means that yields rise as maturity lengthens \(i.e., the slope of the yield curve is positive\). <!--SR:!2025-10-16,148,415!2025-10-17,149,415-->
     - yield curve / types / flat ::@:: It is observed when all maturities have similar yields. <!--SR:!2025-10-02,134,415!2027-09-28,742,432-->
     - yield curve / types / humped ::@:: It results when short-term and long-term yields are equal and medium-term yields are higher than those of the short-term and long-term. <!--SR:!2027-09-22,736,432!2025-10-03,135,415-->
-    - yield curve / types / inverted ::@:: Under unusual circumstances, yields falls as maturity lengthens \(i.e., the slope of the yield curve is negative\). <!--SR:!2025-09-30,132,415!2027-09-06,722,432-->
+    - yield curve / types / inverted ::@:: Under unusual circumstances, yields falls as maturity lengthens \(i.e., the slope of the yield curve is negative\). <!--SR:!2027-10-22,752,435!2027-09-06,722,432-->
 - [coupon](../../../../general/coupon%20(finance).md) ::@:: It is the interest payment received by a bondholder from the date of issuance until the date of maturity of a bond. <!--SR:!2027-10-10,741,433!2025-10-07,139,414-->
-  - coupon / coupon rate ::@:: Coupons are normally described in terms of the "coupon rate", which is calculated by adding the sum of coupons paid per year and dividing it by the bond's face value. <!--SR:!2025-09-30,132,414!2025-10-06,138,415-->
+  - coupon / coupon rate ::@:: Coupons are normally described in terms of the "coupon rate", which is calculated by adding the sum of coupons paid per year and dividing it by the bond's face value. <!--SR:!2027-10-21,751,434!2025-10-06,138,415-->
 - [United States Treasury security](../../../../general/United%20States%20Treasury%20security.md) ::@:: They are government debt instruments issued by the United States Department of the Treasury to finance government spending, in addition to taxation. <!--SR:!2027-09-20,735,432!2027-10-12,743,433-->
   - United States Treasury security / types ::@:: \(in increasing terms\) treasury bill, treasury note, treasury bond <!--SR:!2027-09-18,733,432!2027-09-11,727,432-->
   - United States Treasury security / treasury bill \(T-bill\) ::@:: They are zero-coupon bonds that mature in one year or less \(4 weeks, 13 weeks, 26 weeks, etc.\). They are bought at a discount of the par value and, instead of paying a coupon interest, are eventually redeemed at that par value to create a positive yield to maturity. <!--SR:!2025-10-05,137,415!2027-09-14,729,432-->
@@ -610,7 +610,7 @@ The content is in teaching order.
 - bond
   - bond / market price
     - bond / market price / quote ::@:: Both market price and yield can be used to quote bonds. Higher price means lower yield, and vice versa. <!--SR:!2025-10-10,142,414!2027-09-28,741,432-->
-    - bond / market price / issuance ::@:: The issue price at which investors buy the bonds when they are first issued will typically be approximately equal to the nominal amount. The net proceeds that the issuer receives are thus the issue price, less issuance fees. <!--SR:!2027-08-26,713,432!2025-09-30,132,414-->
+    - bond / market price / issuance ::@:: The issue price at which investors buy the bonds when they are first issued will typically be approximately equal to the nominal amount. The net proceeds that the issuer receives are thus the issue price, less issuance fees. <!--SR:!2027-08-26,713,432!2027-10-15,745,434-->
 - yield to maturity
   - yield to maturity / coupon-bearing bonds ::@:: For bonds with multiple coupons, it is not generally possible to solve for yield in terms of price algebraically. A numerical root-finding technique such as Newton's method must be used to approximate the yield, which renders the present value of future cash flows equal to the bond price. <p> \(__this course__: use a financial calculator\) <!--SR:!2027-09-23,737,432!2025-10-08,140,413-->
   - yield to maturity / quote ::@:: The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <p> \(__this course__: use APR\) <!--SR:!2027-09-14,730,432!2025-10-05,137,414-->
@@ -618,7 +618,7 @@ The content is in teaching order.
     - yield to maturity / assumptions / held to maturity ::@:: The owner holds the security to maturity. <!--SR:!2025-10-15,147,413!2027-09-16,731,432-->
     - yield to maturity / assumptions / reinvestment risk ::@:: The owner reinvests all interest payments \(at YTM\) rather than spending them, to gain the benefit of compounded returns. <!--SR:!2027-09-29,743,432!2025-10-01,133,415-->
     - yield to maturity / assumptions / default risk ::@:: The issuer makes all interest and principal payments on time and in full. <!--SR:!2025-10-03,135,415!2025-10-05,137,415-->
-    - yield to maturity / assumptions / consistency ::@:: The market provides consistent reinvestment opportunity at the YTM rate throughout the future \(flat yield curve\), with no cost to transact. <!--SR:!2025-09-30,132,415!2027-04-11,581,415-->
+    - yield to maturity / assumptions / consistency ::@:: The market provides consistent reinvestment opportunity at the YTM rate throughout the future \(flat yield curve\), with no cost to transact. <!--SR:!2027-10-23,753,435!2027-04-11,581,415-->
 - bond
   - bond / market price
     - bond / market price / coupon-bearing bonds ::@:: For bonds with multiple bonds, it is: $$P = \text{coupon payment} \times \frac 1 y \left(1 - \frac 1 {(1 + y)^t} \right) + \frac {\text{face value} } {(1 + y)^t} \,,$$ where $y$ is yield to maturity. The above equation assumes "clean" price. <p> If coupon payment equals face value multiplied by YTM, then market price equals face value from the above equation. This is why if coupon rate equals YTM, then a bond is selling at par. <!--SR:!2026-08-17,396,395!2026-08-16,395,395-->

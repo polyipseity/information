@@ -92,7 +92,7 @@ The content is in teaching order.
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2029-11-17,1636,370!2025-11-16,461,395-->
     - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2028-01-21,938,320!2026-01-19,459,332-->
-- construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
+- construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2030-10-16,1842,357!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2028-11-25,1352,370-->

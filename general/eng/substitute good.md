@@ -35,7 +35,7 @@ An example of substitute goods are {@{tea and coffee}@}. These two goods {@{sati
 
 Formally, good $x_{j}$ is {@{a substitute for good $x_{i}$}@} if {@{when the [price](price.md) of $x_{i}$ rises the [demand](demand.md) for $x_{j}$ rises}@}, see figure 1. <!--SR:!2025-11-28,293,330!2025-10-18,259,330-->
 
-Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is a substitute for $x_{i}$}@} if: {@{${\frac {\partial x_{j} }{\partial p_{i} } }>0$}@}. <!--SR:!2025-11-14,281,330!2025-09-30,246,330!2026-01-29,346,350-->
+Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is a substitute for $x_{i}$}@} if: {@{${\frac {\partial x_{j} }{\partial p_{i} } }>0$}@}. <!--SR:!2025-11-14,281,330!2028-10-30,1126,350!2026-01-29,346,350-->
 
 ## cross elasticity of demand
 
