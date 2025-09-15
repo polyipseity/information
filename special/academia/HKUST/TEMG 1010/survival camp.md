@@ -23,7 +23,7 @@ So many tiring and wet activities... While some of them were fun, I would have m
 We went over some leadership theory and did some group activities, basically.
 
 - [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2025-12-01,291,330!2025-10-18,256,330-->
-  - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-10-09,249,330!2025-10-01,242,330-->
+  - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-10-09,249,330!2028-10-05,1100,350-->
   - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2028-08-23,1067,350!2028-09-12,1082,350-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-12-03,293,330!2025-12-03,293,330-->
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-10-08,248,330!2028-09-19,1088,350-->

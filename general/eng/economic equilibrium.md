@@ -121,7 +121,7 @@ When {@{there is an oversupply of a good}@}, such as when price is above \$6.00,
 
 ### influences changing price
 
-{@{A change in equilibrium price}@} may occur through {@{a change in either the supply or demand schedules}@}. For instance, starting from the above supply-demand configuration, {@{an increased level of [disposable income](disposable%20income.md)}@} may {@{produce a new demand schedule}@}, such as the following: <!--SR:!2025-11-28,294,330!2025-10-11,255,330!2027-05-13,691,330!2025-10-01,248,330-->
+{@{A change in equilibrium price}@} may occur through {@{a change in either the supply or demand schedules}@}. For instance, starting from the above supply-demand configuration, {@{an increased level of [disposable income](disposable%20income.md)}@} may {@{produce a new demand schedule}@}, such as the following: <!--SR:!2025-11-28,294,330!2025-10-11,255,330!2027-05-13,691,330!2028-11-04,1130,350-->
 
 | __Price ($)__ | __Demand__  | __Supply__  |
 | -------------:| -----------:| -----------:|

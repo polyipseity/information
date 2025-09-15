@@ -19,7 +19,7 @@ For example, suppose that two [binary variables](binary%20data.md#binary%20varia
 | ___y_=1__  | 2/9       | 2/9       | 4/9        |
 | __P(_x_)__ | 6/9       | 3/9       | 1          |
 
-This gives us the table of conditional of probabilities of _y_ given _x_, with {@{the row headers being the conditional probabilities and the column headers being the variable conditioned on (mnemonic: ↙)}@}: <!--SR:!2025-10-01,287,250-->
+This gives us the table of conditional of probabilities of _y_ given _x_, with {@{the row headers being the conditional probabilities and the column headers being the variable conditioned on (mnemonic: ↙)}@}: <!--SR:!2027-09-19,718,250-->
 
 |                      | ___x_=0__ | ___x_=1__ |
 | -------------------- |:---------:|:---------:|

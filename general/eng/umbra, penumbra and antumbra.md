@@ -25,7 +25,7 @@ The {@{__umbra__}@} ([Latin](Latin.md) for {@{"shadow"}@}) is {@{the innermost a
 
 The umbra of a round body occluding a round light source forms {@{a right circular [cone](cone.md)}@}. When viewed from the cone's [apex](apex%20(geometry).md), {@{the two bodies [appear the same size](angular%20diameter.md)}@}. The cone can be visualized by {@{drawing two lines, one from the light source top to the round body top, the other from the light source bottom to the round body bottom}@}. Then the cone is {@{the portion enclosed by the two lines and behind the round body}@}. If the round body is {@{larger than the round light source}@}, then {@{the umbra is a [frustum](frustum.md) instead}@}. <!--SR:!2026-10-11,567,310!2026-10-16,635,330!2026-08-24,573,310!2026-12-04,669,330!2026-06-20,531,310!2026-08-29,549,310-->
 
-The [distance](lunar%20distance.md) from the [Moon](Moon.md) to the [apex](apex%20(geometry).md) of its umbra is {@{roughly equal to that between the Moon and [Earth](Earth.md): 384&nbsp;402 km (238&nbsp;856 mi)}@}. Since {@{Earth's [diameter](diameter.md) is 3.7 times the Moon's}@}, its umbra {@{extends correspondingly farther: roughly 1.4 million km (870&nbsp;000 mi)}@}. <!--SR:!2025-10-01,273,250!2026-09-23,552,310!2027-12-11,846,270-->
+The [distance](lunar%20distance.md) from the [Moon](Moon.md) to the [apex](apex%20(geometry).md) of its umbra is {@{roughly equal to that between the Moon and [Earth](Earth.md): 384&nbsp;402 km (238&nbsp;856 mi)}@}. Since {@{Earth's [diameter](diameter.md) is 3.7 times the Moon's}@}, its umbra {@{extends correspondingly farther: roughly 1.4 million km (870&nbsp;000 mi)}@}. <!--SR:!2028-05-14,956,270!2026-09-23,552,310!2027-12-11,846,270-->
 
 ## penumbra
 

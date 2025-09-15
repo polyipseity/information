@@ -56,7 +56,7 @@ The content is in teaching order.
   - Cartesian coordinate system / symbols ::@:: Using real numbers, $\mathbb R^n$, where $n$ is the dimension of the entire space. <!--SR:!2025-12-17,238,330!2027-07-11,673,330-->
   - Cartesian coordinate system / orientation ::@:: left-hand side, right-hand side; by most convention (including this course), we use right-hand side <!--SR:!2025-12-14,236,330!2025-12-10,232,330-->
   - Cartesian coordinate system / shape description ::@:: Equations can describe a subset of points of the entire space. Intersection and/or union may be used to define shapes defined by multiple equations. <p> For example: $x^2 + y^2 + z^2 = r^2$ is a 3D sphere of radius $r$. <!--SR:!2025-12-15,237,330!2025-12-15,236,330-->
-  - Cartesian coordinate system / projection ::@:: Orthogonal projection may be used to extract a specific coordinate of a point. <!--SR:!2025-10-01,174,310!2025-12-13,235,330-->
+  - Cartesian coordinate system / projection ::@:: Orthogonal projection may be used to extract a specific coordinate of a point. <!--SR:!2027-10-18,747,330!2025-12-13,235,330-->
 - [Euclidean vector](../../../../general/Euclidean%20vector.md) ::@:: A set whose elements, often called _vectors_, can be added together and multiplied ("scaled") by numbers called _scalars_. <!--SR:!2026-11-29,479,310!2025-12-30,249,330-->
   - Euclidean vector / vector ::@:: A line segment with a direction, up to translation. That is, two vectors are the same if they have the same length and direction. <p> The zero vector has 0 length and no direction. <!--SR:!2025-12-27,247,330!2025-12-11,233,330-->
   - Euclidean vector / scalar ::@:: A real number. In general, the field associated with the vector space. <!--SR:!2025-12-16,238,330!2025-12-25,245,330-->

@@ -63,7 +63,7 @@ There are {@{several instructions that modify the stack memory and the `rsp` and
 - `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2029-01-06,1220,350!2028-03-08,923,310-->
 - `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2027-01-02,586,310!2026-02-03,335,290-->
 
-A related instruction is {@{`lea`}@}: <!--SR:!2025-10-01,288,330-->
+A related instruction is {@{`lea`}@}: <!--SR:!2029-05-02,1309,350-->
 
 - `lea <dest>, <src>` ::@:: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.) <!--SR:!2028-11-03,1171,350!2028-10-19,1157,350-->
 

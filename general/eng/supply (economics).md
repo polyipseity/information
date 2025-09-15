@@ -65,7 +65,7 @@ The supply function is {@{the mathematical expression of the relationship betwee
 
 ## inverse supply equation
 
-By convention in {@{the context of [supply and demand](supply%20and%20demand.md) graphs}@}, economists graph {@{the dependent variable \(quantity\) on the horizontal axis and the independent variable \(price\) on the vertical axis}@}. {@{The _inverse supply equation_}@} is {@{the equation written with the vertical-axis variable isolated on the left side: $P=f(Q)$}@}. As an example, if {@{the supply equation is $Q=40P-2P_{rg}$}@} then {@{the inverse supply equation would be $P={\tfrac {Q}{40} }+{\tfrac {P_{rg} }{20} }$}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-11-04,270,330!2025-10-29,266,330!2025-10-01,243,330!2025-10-14,253,330!2025-11-26,290,330!2025-11-30,293,330-->
+By convention in {@{the context of [supply and demand](supply%20and%20demand.md) graphs}@}, economists graph {@{the dependent variable \(quantity\) on the horizontal axis and the independent variable \(price\) on the vertical axis}@}. {@{The _inverse supply equation_}@} is {@{the equation written with the vertical-axis variable isolated on the left side: $P=f(Q)$}@}. As an example, if {@{the supply equation is $Q=40P-2P_{rg}$}@} then {@{the inverse supply equation would be $P={\tfrac {Q}{40} }+{\tfrac {P_{rg} }{20} }$}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-11-04,270,330!2025-10-29,266,330!2028-10-11,1106,350!2025-10-14,253,330!2025-11-26,290,330!2025-11-30,293,330-->
 
 ## marginal costs and short-run supply curve
 

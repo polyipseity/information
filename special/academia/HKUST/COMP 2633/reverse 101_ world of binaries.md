@@ -20,7 +20,7 @@ Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensu
 
 ## compiling a program
 
-Assuming {@{you are using Linux}@}. For developers, {@{compiling a C program}@} is {@{simply running the GNU Compiler Collection \(gcc\)}@} using {@{the command `gcc <input>.c -o <output>` in a terminal}@}, which {@{compiles the C code in `<input>.c` into a program called `<output>`}@}. <!--SR:!2028-03-28,945,345!2025-10-02,27,393!2025-10-01,26,393!2025-10-02,27,393!2025-10-02,27,393-->
+Assuming {@{you are using Linux}@}. For developers, {@{compiling a C program}@} is {@{simply running the GNU Compiler Collection \(gcc\)}@} using {@{the command `gcc <input>.c -o <output>` in a terminal}@}, which {@{compiles the C code in `<input>.c` into a program called `<output>`}@}. <!--SR:!2028-03-28,945,345!2025-10-02,27,393!2026-02-20,142,413!2025-10-02,27,393!2025-10-02,27,393-->
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures. <!--SR:!2026-01-15,394,365!2025-11-29,357,365-->
 

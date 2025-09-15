@@ -61,7 +61,7 @@ return await memorize_seq(
 > - where
 >   - $\gamma$ is {@{the [heat capacity ratio](heat%20capacity%20ratio.md)}@}
 >   - {@{$r = \frac{V_1}{V_2}$}@} is {@{the [compression ratio](compression%20ratio.md) \(i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum\)}@}
->   - {@{$\alpha = \frac{V_3}{V_2} = \frac{T_3}{T_1 r^{\gamma - 1} }$}@} is {@{the cutoff ratio}@} <!--SR:!2026-06-29,284,170!2025-11-25,76,210!2025-10-04,16,317!2025-10-01,13,297!2025-10-04,16,317!2025-10-01,13,297!2025-10-05,17,317-->
+>   - {@{$\alpha = \frac{V_3}{V_2} = \frac{T_3}{T_1 r^{\gamma - 1} }$}@} is {@{the cutoff ratio}@} <!--SR:!2026-06-29,284,170!2025-11-25,76,210!2025-10-04,16,317!2025-11-24,54,317!2025-10-04,16,317!2025-11-09,39,297!2025-10-05,17,317-->
 
 ## references
 

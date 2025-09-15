@@ -184,7 +184,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
-  - sample size / _R_ ::@:: use `length(...)` <!--SR:!2029-01-20,1242,350!2025-10-01,302,330-->
+  - sample size / _R_ ::@:: use `length(...)` <!--SR:!2029-01-20,1242,350!2029-07-11,1379,350-->
   - first _n_ observations / _R_ ::@:: use `head(...)` <!--SR:!2028-02-27,987,350!2028-09-08,1143,350-->
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2025-10-11,310,330!2026-01-19,375,310-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2028-10-20,1175,350!2028-06-20,1079,350-->

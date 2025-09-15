@@ -43,7 +43,7 @@ The cheatsheet is provided during the final examination.
 - `**` ::@:: to the power of <!--SR:!2025-10-14,278,330!2025-10-25,287,330-->
 - `/` ::@:: division <!--SR:!2025-10-03,269,330!2025-10-21,282,330-->
 - `//` ::@:: floor division <!--SR:!2025-10-10,274,330!2025-10-09,274,330-->
-- `%` ::@:: mod <!--SR:!2025-10-01,267,330!2025-10-01,268,330-->
+- `%` ::@:: mod <!--SR:!2029-01-31,1218,350!2029-02-02,1220,350-->
 
 ## input / output
 
@@ -58,7 +58,7 @@ The cheatsheet is provided during the final examination.
 - `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2029-01-22,1210,350-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2025-10-11,275,330-->
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
-- `int()` ::@:: convert input to integer <!--SR:!2025-10-01,268,330!2025-10-20,281,330-->
+- `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2025-10-20,281,330-->
 - `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
 - `str()` ::@:: convert input to str <!--SR:!2025-10-21,283,330!2025-10-28,290,330-->
 
@@ -67,9 +67,9 @@ The cheatsheet is provided during the final examination.
 - `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2025-10-10,275,330!2025-10-23,285,330-->
 - `+` ::@:: combine two lists / strings <!--SR:!2025-10-24,286,330!2025-10-27,288,330-->
 - `in` ::@:: check existence in a list / string <!--SR:!2025-10-12,276,330!2025-10-26,287,330-->
-- `not in` ::@:: check if not exists in a list / string <!--SR:!2025-10-01,267,330!2025-10-21,282,330-->
+- `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2025-10-21,282,330-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2025-10-22,283,330!2025-10-24,286,330-->
-- `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2025-10-01,268,330!2025-10-04,270,330-->
+- `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2025-10-04,270,330-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2025-10-03,269,330!2025-10-02,268,330-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-10-10,274,330!2025-10-29,290,330-->

@@ -171,7 +171,7 @@ For fixed $n$ (growing $k$) we have the following estimate: ::@:: $$\left[{\begi
 
 It is well-known that {@{we don't know any one-sum formula for Stirling numbers of the first kind}@}. {@{A two-sum formula}@} can be obtained using {@{one of the [symmetric formulae for Stirling numbers](Stirling%20number.md#symmetric%20formulae)}@} in conjunction with {@{the explicit formula for [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@}. $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\sum _{m=0}^{j-n}{\frac {(-1)^{m+n-k}m^{j-k} }{m!(j-n-m)!} }$$ <!--SR:!2025-12-09,321,351!2025-12-14,325,351!2026-06-23,425,311!2025-10-02,14,334-->
 
-As discussed earlier, by {@{[Vieta's formulas](Vieta's%20formulas.md)}@}, one get {@{$$\left[{\begin{matrix}n\\k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{n-k}<n}i_{1}i_{2}\cdots i_{n-k}.$$}@} <!--SR:!2028-08-11,1073,349!2025-10-01,162,249-->
+As discussed earlier, by {@{[Vieta's formulas](Vieta's%20formulas.md)}@}, one get {@{$$\left[{\begin{matrix}n\\k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{n-k}<n}i_{1}i_{2}\cdots i_{n-k}.$$}@} <!--SR:!2028-08-11,1073,349!2025-12-18,78,229-->
 
 The Stirling number _s(n,n-p)_ can be found from the formula<sup>[\[18\]](#^ref-18)</sup> $${\begin{aligned}s(n,n-p)&={\frac {1}{(n-p-1)!} }\sum _{0\leq k_{1},\ldots ,k_{p}:\sum _{1}^{p}mk_{m}=p}(-1)^{K}{\frac {(n+K-1)!}{k_{1}!k_{2}!\cdots k_{p}!~2!^{k_{1} }3!^{k_{2} }\cdots (p+1)!^{k_{p} } } },\end{aligned} }$$ where $K=k_{1}+\cdots +k_{p}.$ The sum is a sum over all [partitions](integer%20partition.md) of _p_.
 

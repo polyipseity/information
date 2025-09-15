@@ -113,7 +113,7 @@ If {@{a function is continuous at _f_\(___a___\)}@}, then {@{all the univariate 
 
 ## symmetry
 
-{@{A [symmetric function](symmetric%20function.md)}@} is {@{a function _f_ that is unchanged when two variables _x<sub>i</sub>_ and _x<sub>j</sub>_ are interchanged}@}: {@{$$f(\ldots ,x_{i},\ldots ,x_{j},\ldots )=f(\ldots ,x_{j},\ldots ,x_{i},\ldots )$$}@} where {@{_i_ and _j_ are each one of 1, 2, …, _n_}@}. For example: {@{$$f(x,y,z,t)=t^{2}-x^{2}-y^{2}-z^{2}$$}@} is {@{symmetric in _x_, _y_, _z_}@} since {@{interchanging any pair of _x_, _y_, _z_ leaves _f_ unchanged}@}, but {@{is not symmetric in all of _x_, _y_, _z_, _t_}@}, since {@{interchanging _t_ with _x_ or _y_ or _z_ gives a different function}@}. <!--SR:!2025-10-01,174,310!2026-02-22,295,341!2026-02-27,296,341!2026-03-04,301,341!2026-04-12,323,341!2026-03-28,308,341!2026-04-12,323,341!2026-02-21,294,341!2026-03-09,306,341-->
+{@{A [symmetric function](symmetric%20function.md)}@} is {@{a function _f_ that is unchanged when two variables _x<sub>i</sub>_ and _x<sub>j</sub>_ are interchanged}@}: {@{$$f(\ldots ,x_{i},\ldots ,x_{j},\ldots )=f(\ldots ,x_{j},\ldots ,x_{i},\ldots )$$}@} where {@{_i_ and _j_ are each one of 1, 2, …, _n_}@}. For example: {@{$$f(x,y,z,t)=t^{2}-x^{2}-y^{2}-z^{2}$$}@} is {@{symmetric in _x_, _y_, _z_}@} since {@{interchanging any pair of _x_, _y_, _z_ leaves _f_ unchanged}@}, but {@{is not symmetric in all of _x_, _y_, _z_, _t_}@}, since {@{interchanging _t_ with _x_ or _y_ or _z_ gives a different function}@}. <!--SR:!2027-10-24,753,330!2026-02-22,295,341!2026-02-27,296,341!2026-03-04,301,341!2026-04-12,323,341!2026-03-28,308,341!2026-04-12,323,341!2026-02-21,294,341!2026-03-09,306,341-->
 
 ## function composition
 
