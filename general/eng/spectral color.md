@@ -123,7 +123,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 <!--pytextgen generate section="3349"--><!-- The following content is generated at 2024-01-04T20:17:52.754609+08:00. Any edits will be overridden! -->
 
 - 670–790:@:<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2026-01-20,591,323-->
-- 620–670:@:<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2025-10-02,507,323-->
+- 620–670:@:<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2030-03-28,1638,323-->
 - 600–620:@:<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2027-10-21,836,243-->
 - 530–600:@:<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2026-04-21,330,243-->
 - 510–530:@:<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!2026-07-27,535,223-->

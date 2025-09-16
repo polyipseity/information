@@ -41,4 +41,4 @@ tags:
 > 3. Need to learn new tech skills.
 > 4. No concerns—it's an opportunity!
 >
-> - solutions: {@{1/2/3/4}@} <!--SR:!2025-10-02,14,290-->
+> - solutions: {@{1/2/3/4}@} <!--SR:!2025-11-28,57,310-->

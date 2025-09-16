@@ -26,7 +26,7 @@ Because of {@{the inability to conduct experiments in outer space}@}, {@{the onl
 
 Astronomers now believe that {@{disk galaxies likely formed first}@}, then {@{evolved into elliptical galaxies through galaxy mergers}@}. <!--SR:!2028-06-06,1080,350!2026-03-27,435,310-->
 
-Current models also predict that {@{the majority of mass in galaxies is made up of [dark matter](dark%20matter.md), a substance which is not directly observable, and might not interact through any means except gravity}@}. This observation arises because {@{galaxies could not have formed as they have, or rotate as they are seen to, unless they contain far more mass than can be directly observed}@}. <!--SR:!2026-01-02,330,290!2025-10-02,276,290-->
+Current models also predict that {@{the majority of mass in galaxies is made up of [dark matter](dark%20matter.md), a substance which is not directly observable, and might not interact through any means except gravity}@}. This observation arises because {@{galaxies could not have formed as they have, or rotate as they are seen to, unless they contain far more mass than can be directly observed}@}. <!--SR:!2026-01-02,330,290!2027-12-18,807,290-->
 
 ## references
 

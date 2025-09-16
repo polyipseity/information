@@ -26,7 +26,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2028-10-05,1161,350!2028-07-10,1093,350-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-04,958,365!2026-03-09,420,365-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2029-03-08,1281,350!2028-09-17,1147,350-->
-- `finish` ::@:: run until the current function returns <!--SR:!2025-10-02,303,330!2027-08-31,828,330-->
+- `finish` ::@:: run until the current function returns <!--SR:!2029-07-12,1379,350!2027-08-31,828,330-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2026-03-12,423,365!2028-08-07,1111,365-->
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-11-06,297,345!2028-05-31,976,345-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2028-07-14,1097,350!2027-07-09,792,330-->

@@ -11,7 +11,7 @@ tags:
 
 > {@{![An example of a demand curve shifting.](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
-> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2025-11-07,271,330!2028-07-31,1048,350!2025-12-04,293,330!2025-10-02,243,330!2027-06-23,721,330-->
+> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2025-11-07,271,330!2028-07-31,1048,350!2025-12-04,293,330!2028-10-13,1107,350!2027-06-23,721,330-->
 
 A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\) and the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. Demand curves can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\), or for all consumers in a particular market \(a __market demand curve__\)}@}. <!--SR:!2025-10-09,249,330!2025-12-02,291,330!2025-10-16,255,330-->
 
@@ -21,9 +21,9 @@ Demand curves are used to {@{estimate behaviour in [competitive markets](perfect
 
 {@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2025-10-20,257,330!2025-10-19,256,330-->
 
-{@{__Shift of the demand curve__ [as a whole](#shift%20of%20a%20demand%20curve) occurs}@} when {@{a factor other than price causes the price curve itself to [translate](translation%20(geometry).md) along the x-axis}@}; this may be associated with {@{an advertising campaign or perceived change in the quality of the good}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-05,294,330!2025-10-02,243,330!2025-11-08,272,330-->
+{@{__Shift of the demand curve__ [as a whole](#shift%20of%20a%20demand%20curve) occurs}@} when {@{a factor other than price causes the price curve itself to [translate](translation%20(geometry).md) along the x-axis}@}; this may be associated with {@{an advertising campaign or perceived change in the quality of the good}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-05,294,330!2028-10-14,1108,350!2025-11-08,272,330-->
 
-Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-4)</sup> The usual method is to {@{collect data on past prices, quantities, and variables}@} such as {@{consumer income and product quality that affect demand}@} and apply {@{statistical methods, variants on multiple regression}@}. {@{The issue with this approach, as outlined by Baumol}@}, is that {@{only one point on a demand curve can ever be observed at a specific time}@}. Demand curves {@{exist for a certain period of time and within a certain location}@}, and so, rather than {@{charting a single demand curve}@}, this method {@{charts a series of positions within a series of demand curves}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Consumer surveys and experiments}@} are alternative sources of data. For {@{the shapes of a variety of goods' demand curves}@}, see {@{the article [price elasticity of demand](price%20elasticity%20of%20demand.md#selected%20price%20elasticities)}@}. <!--SR:!2028-09-23,1091,350!2027-09-11,778,330!2025-12-05,294,330!2025-10-02,243,330!2025-10-10,250,330!2025-10-15,254,330!2025-11-09,273,330!2027-07-29,747,330!2025-10-31,266,330!2028-09-17,1086,350!2025-12-05,294,330!2028-09-20,1090,350-->
+Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-4)</sup> The usual method is to {@{collect data on past prices, quantities, and variables}@} such as {@{consumer income and product quality that affect demand}@} and apply {@{statistical methods, variants on multiple regression}@}. {@{The issue with this approach, as outlined by Baumol}@}, is that {@{only one point on a demand curve can ever be observed at a specific time}@}. Demand curves {@{exist for a certain period of time and within a certain location}@}, and so, rather than {@{charting a single demand curve}@}, this method {@{charts a series of positions within a series of demand curves}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Consumer surveys and experiments}@} are alternative sources of data. For {@{the shapes of a variety of goods' demand curves}@}, see {@{the article [price elasticity of demand](price%20elasticity%20of%20demand.md#selected%20price%20elasticities)}@}. <!--SR:!2028-09-23,1091,350!2027-09-11,778,330!2025-12-05,294,330!2028-10-10,1104,350!2025-10-10,250,330!2025-10-15,254,330!2025-11-09,273,330!2027-07-29,747,330!2025-10-31,266,330!2028-09-17,1086,350!2025-12-05,294,330!2028-09-20,1090,350-->
 
 ## shape of the demand curve
 
@@ -37,7 +37,7 @@ The graph of the demand curve uses {@{the [inverse demand function](inverse%20de
 
 > {@{![Convex demand curve](../../archives/Wikimedia%20Commons/Monopoly%20Demand%20Curve.png)}@}
 >
-> {@{Convex demand curve}@} <!--SR:!2025-10-24,260,330!2025-10-02,243,330-->
+> {@{Convex demand curve}@} <!--SR:!2025-10-24,260,330!2028-10-09,1103,350-->
 
 The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-06-04,704,330!2028-09-29,1096,350-->
 

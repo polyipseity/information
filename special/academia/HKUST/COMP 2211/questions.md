@@ -864,7 +864,7 @@ tags:
 
 > Q3. Suppose we have a dataset with many data points, each with N features. Each feature is either positive (with value 1) or negative (with value -1). We say a data point is "positive" if it has more positive features than negative features, and "negative" otherwise. Design the weights, bias and activation function of a perceptron to classify positive data points from negative data points.
 >
-> - solution: {@{Actually you do not need to tune the weights and biases: leave the former at 1 and the latter at 0. Simply tune the activation function to behave as described above.}@} <!--SR:!2025-10-02,201,310-->
+> - solution: {@{Actually you do not need to tune the weights and biases: leave the former at 1 and the latter at 0. Simply tune the activation function to behave as described above.}@} <!--SR:!2028-02-13,864,330-->
 
 <!-- markdownlint MD028 -->
 

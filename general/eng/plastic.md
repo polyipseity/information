@@ -109,7 +109,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="e928"--><!-- The following content is generated at 2024-01-04T20:17:52.406405+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE):@:higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md) <!--SR:!2026-02-20,490,214-->
-- [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2025-10-02,474,214-->
+- [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2026-05-22,232,194-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:high chemical resistance, high [water](water.md) resistance, low [density](density.md), smooth, [strong](strength%20of%20materials.md), [tough](toughness.md) <!--SR:!2025-12-26,188,150-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2026-02-03,611,241-->
 - [polypropylene](polypropylene.md) (PP):@:high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2026-05-02,244,150-->

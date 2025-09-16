@@ -45,7 +45,7 @@ Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}:
 
 There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-10-19,255,330-->
 
-1. the good in question ::@:: must be an [inferior good](inferior%20good.md), <!--SR:!2025-11-14,276,330!2025-10-02,239,330-->
+1. the good in question ::@:: must be an [inferior good](inferior%20good.md), <!--SR:!2025-11-14,276,330!2028-09-23,1087,350-->
 2. there must be a lack of ::@:: close [substitute goods](substitute%20good.md), and <!--SR:!2025-10-16,254,330!2025-10-06,246,330-->
 3. the goods must constitute ::@:: a substantial percentage of the buyer's income, but not such a substantial percentage of the buyer's income that none of the associated [normal goods](normal%20good.md) are consumed. <!--SR:!2025-11-08,256,329!2025-11-27,286,330-->
 

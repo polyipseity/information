@@ -219,7 +219,7 @@ gets_s(buffer, 5); // Vulnerable to buffer overflow, but you can only overflow b
 
 ### stack canaries
 
-In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2025-10-02,289,330!2025-10-13,293,330!2028-02-08,959,350!2027-04-28,721,330-->
+In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2029-05-08,1314,350!2025-10-13,293,330!2028-02-08,959,350!2027-04-28,721,330-->
 
 In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function, printing an error and terminating the program if modified}@}. This inhibits {@{exploitation of buffer overflow because overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2027-12-27,855,330!2025-10-10,290,330!2025-10-07,287,330-->
 

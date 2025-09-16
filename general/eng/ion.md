@@ -356,7 +356,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2025-10-02,119,150-->
+- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2026-04-01,181,150-->
 - <span style="color: blue; background-color: white;">blue</span>:@:copper(II) ion <!--SR:!2031-07-10,2164,301-->
 - <span style="color: lightPink;">very pale pink</span>:@:manganese(II) ion <!--SR:!2029-10-02,1647,321-->
 - <span style="color: pink;">pink</span>:@:cobalt(II) ion <!--SR:!2027-10-10,769,241-->

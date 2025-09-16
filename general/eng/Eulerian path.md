@@ -135,7 +135,7 @@ Euler stated {@{a necessary condition for a finite graph to be Eulerian as all v
 
 The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-03,394,322!2025-12-13,300,336!2026-02-21,359,362-->
 
-{@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2025-10-02,239,342!2026-02-13,351,350-->
+{@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2028-11-07,1132,362!2026-02-13,351,350-->
 
 ## directed Eulerian graphs
 
