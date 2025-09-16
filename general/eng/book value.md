@@ -30,7 +30,7 @@ In {@{the United Kingdom}@}, {@{the term [net asset value](net%20asset%20value.m
 {@{Sample [general journal](general%20journal.md) entry}@} for depreciation<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-01-04,275,330-->
 
 - Depreciation expenses: ::@:: building... debit = \$150, under expenses in retained earnings <!--SR:!2027-11-30,803,330!2025-10-14,193,310-->
-- Accumulated depreciation: ::@:: building... credit = \$150, under assets <!--SR:!2025-10-03,196,310!2026-01-26,292,330-->
+- Accumulated depreciation: ::@:: building... credit = \$150, under assets <!--SR:!2028-01-22,841,330!2026-01-26,292,330-->
 
 {@{The balance sheet valuation for an asset}@} is {@{the asset's cost basis minus accumulated depreciation}@}.<sup>[\[8\]](#^ref-8)</sup> Similar bookkeeping transactions are used to {@{record amortization and depletion}@}. <!--SR:!2026-01-10,278,330!2026-01-15,283,330!2025-10-04,197,310-->
 

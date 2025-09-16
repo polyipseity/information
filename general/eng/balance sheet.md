@@ -103,7 +103,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 5. [deferred tax](deferred%20tax.md) liabilities and deferred tax assets ::@:: notional assets or liabilities to reflect corporate income taxation on a basis that is the same or more similar to recognition of profits than the taxation treatment (≈ the matching principle vs. tax laws) <!--SR:!2026-05-25,459,310!2027-09-17,834,330-->
 6. [unearned revenue](deferral.md) for services paid for by customers but not yet provided ::@:: liabilities that arise when payment is received for goods or services that have yet to be delivered or fulfilled <!--SR:!2027-07-05,777,330!2027-12-03,870,310-->
 7. interests on [loan stock](debenture.md) ::@:: medium- to long-term debt instruments used by large companies to borrow money, at a fixed rate of interest <!--SR:!2025-10-19,304,330!2026-09-29,546,310-->
-8. creditors' equity ::@:: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity) <!--SR:!2026-12-07,617,330!2025-10-03,293,330-->
+8. creditors' equity ::@:: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity) <!--SR:!2026-12-07,617,330!2029-05-28,1333,350-->
 
 ### net current assets
 

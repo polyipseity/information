@@ -60,7 +60,7 @@ Here are {@{some examples of the moment-generating function and the characterist
 >
 > - [degenerate](degenerate%20distribution.md) $\delta _{a}$ ::@:: $M_X(t) = e^{ta}$, $\varphi_X(t) = e^{ita}$ <!--SR:!2025-11-15,235,330!2025-12-09,255,330-->
 > - [Bernoulli](Bernoulli%20distribution.md) $P(X=1)=p$ ::@:: $M_X(t) = 1-p+pe^{t}$, $\varphi_X(t) = 1-p+pe^{it}$ <!--SR:!2026-01-12,280,330!2026-01-17,285,330-->
-> - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi_X(t) = \left(1-p+pe^{it}\right)^{n}$ <!--SR:!2027-01-27,544,310!2025-10-03,196,310-->
+> - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi_X(t) = \left(1-p+pe^{it}\right)^{n}$ <!--SR:!2027-01-27,544,310!2028-01-21,840,330-->
 > - [Poisson](Poisson%20distribution.md) $\operatorname {Pois} (\lambda )$ ::@:: $M_X(t) = e^{\lambda (e^{t}-1)}$, $\varphi_X(t) = e^{\lambda (e^{it}-1)}$ <!--SR:!2026-02-18,236,270!2026-01-28,294,330-->
 > - [uniform \(continuous\)](uniform%20distribution%20(continuous).md) $\operatorname {U} (a,b)$ ::@:: $M_X(t) = {\frac {e^{tb}-e^{ta} }{t(b-a)} }$, $\varphi_X(t) = {\frac {e^{itb}-e^{ita} }{it(b-a)} }$ <!--SR:!2026-01-24,290,330!2026-04-12,323,290-->
 > - [normal](normal%20distribution.md) $N(\mu ,\sigma ^{2})$ ::@:: $M_X(t) = e^{t\mu +{\frac {1}{2} }\sigma ^{2}t^{2} }$, $\varphi_X(t) = e^{it\mu -{\frac {1}{2} }\sigma ^{2}t^{2} }$ <!--SR:!2027-11-05,781,330!2025-11-23,199,270-->

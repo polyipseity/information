@@ -24,7 +24,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 - Equilibrium property P1: ::@:: The behavior of agents is consistent. <!--SR:!2025-12-14,308,345!2028-10-10,1110,350-->
 - Equilibrium property P2: ::@:: No agent has an incentive to change its behavior. <!--SR:!2026-01-16,335,345!2028-03-13,937,345-->
-- Equilibrium property P3: ::@:: Equilibrium is the outcome of some dynamic process (stability). <!--SR:!2025-12-18,312,345!2025-10-03,250,330-->
+- Equilibrium property P3: ::@:: Equilibrium is the outcome of some dynamic process (stability). <!--SR:!2025-12-18,312,345!2028-01-10,829,330-->
 
 ### example: competitive equilibrium
 

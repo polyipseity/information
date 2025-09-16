@@ -93,11 +93,11 @@ Take {@{_I_ to be the union of all the ideals in _T_}@}. We wish to {@{show that
 
 __\#1 - _I_ is a nonempty subset of _R_.__
 
-Because {@{_T_ contains at least one element}@}, and {@{that element contains at least 0}@}, {@{the union _I_ contains at least 0 and is not empty}@}. {@{Every element of _T_ is a subset of _R_}@}, so {@{the union _I_ only consists of elements in _R_}@}. <!--SR:!2028-05-30,975,350!2026-02-22,335,350!2026-03-02,340,350!2025-10-03,214,330!2026-10-16,503,330-->
+Because {@{_T_ contains at least one element}@}, and {@{that element contains at least 0}@}, {@{the union _I_ contains at least 0 and is not empty}@}. {@{Every element of _T_ is a subset of _R_}@}, so {@{the union _I_ only consists of elements in _R_}@}. <!--SR:!2028-05-30,975,350!2026-02-22,335,350!2026-03-02,340,350!2027-09-07,704,330!2026-10-16,503,330-->
 
 __\#2 - For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_.__
 
-Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}. <!--SR:!2026-03-10,347,350!2026-01-15,303,350!2025-10-03,217,330!2027-03-17,619,330!2025-12-26,286,338!2027-12-12,829,330!2025-12-05,270,338-->
+Suppose {@{_x_ and _y_ are elements of _I_}@}. Then {@{there exist two ideals _J_, _K_ ∈ _T_ such that _x_ is an element of _J_ and _y_ is an element of _K_}@}. Since {@{_T_ is totally ordered}@}, we know that {@{_J_ ⊆ _K_ or _K_ ⊆ _J_}@}. [Without loss of generality](without%20loss%20of%20generality.md), {@{assume the first case}@}. Both {@{_x_ and _y_ are members of the ideal _K_}@}, therefore {@{their sum _x_ + _y_ is a member of _K_, which shows that _x_ + _y_ is a member of _I_}@}. <!--SR:!2026-03-10,347,350!2026-01-15,303,350!2028-06-16,987,350!2027-03-17,619,330!2025-12-26,286,338!2027-12-12,829,330!2025-12-05,270,338-->
 
 __\#3 - For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_.__
 
@@ -199,7 +199,7 @@ More generally, {@{strengthening the axiom of dependent choice to higher ordinal
 
 ## in popular culture
 
-The {@{1970 film}@} {@{_[Zorns Lemma](Zorns%20Lemma.md)_}@} is named after the lemma. <!--SR:!2025-10-03,214,330!2026-02-18,331,350-->
+The {@{1970 film}@} {@{_[Zorns Lemma](Zorns%20Lemma.md)_}@} is named after the lemma. <!--SR:!2028-06-03,974,350!2026-02-18,331,350-->
 
 The lemma was referenced on {@{_[The Simpsons](The%20Simpsons.md)_}@} in the episode "{@{[Bart's New Friend](Bart's%20New%20Friend.md)}@}".<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2025-10-30,236,330!2026-03-10,346,350-->
 

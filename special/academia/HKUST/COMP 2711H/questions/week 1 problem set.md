@@ -81,7 +81,7 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 
 We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {@{every natural number $n \ge 2$ can be written as a product of prime numbers}@}. <!--SR:!2025-11-19,337,340-->
 
-- strategy ::@:: It is easier to prove this using contradiction than using induction. <!--SR:!2025-10-03,282,320!2026-03-17,405,320-->
+- strategy ::@:: It is easier to prove this using contradiction than using induction. <!--SR:!2029-03-02,1246,340!2026-03-17,405,320-->
 
 1. assumption ::@:: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2028-01-18,878,300!2028-06-05,1048,340-->
 2. construction ::@:: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers. <!--SR:!2027-06-06,760,340!2028-04-15,1007,340-->
@@ -122,6 +122,6 @@ We have {@{an equilateral triangle of side length 2. Amir chooses five points in
 
 Prove that {@{there are 3 students in COMP 2711H whose birthday is on the same day of the month}@}. We currently have 64 students. <!--SR:!2025-10-16,312,340-->
 
-- strategy ::@:: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2028-02-18,950,340!2025-10-03,300,340-->
+- strategy ::@:: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2028-02-18,950,340!2029-08-07,1404,360-->
 
 1. solution ::@:: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).  (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.) <!--SR:!2026-11-30,612,320!2027-03-09,701,340-->

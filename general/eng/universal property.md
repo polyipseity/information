@@ -84,7 +84,7 @@ Given {@{any [vector space](vector%20space.md) $V$ over $K$}@} we can {@{constru
 
 This statement is {@{an initial property of the tensor algebra}@} since it expresses the fact that {@{the pair $(T(V),i)$, where $i:V\to U(T(V))$ is the inclusion map (annotation: noting $i$ is $u$ above, part of a universal morphism)}@}, is {@{a universal morphism (annotation: the first definition given above) from the vector space $V$ to the functor $U$}@}. <!--SR:!2025-12-15,262,330!2025-12-25,224,270!2027-12-04,809,330-->
 
-Since {@{this construction works for any vector space $V$}@}, we conclude that {@{$T$ is a functor from __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Vect__ to __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Alg__}@}. This means that $T$ is {@{_left adjoint_ to the forgetful functor $U$ \(see the section below on [relation to adjoint functors](#relation%20to%20adjoint%20functors)\)}@}. <!--SR:!2026-01-18,291,330!2025-10-03,190,310!2025-12-15,214,270-->
+Since {@{this construction works for any vector space $V$}@}, we conclude that {@{$T$ is a functor from __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Vect__ to __<!-- LaTeX separator -->$K$<!-- LaTeX separator -->-Alg__}@}. This means that $T$ is {@{_left adjoint_ to the forgetful functor $U$ \(see the section below on [relation to adjoint functors](#relation%20to%20adjoint%20functors)\)}@}. <!--SR:!2026-01-18,291,330!2027-12-28,816,330!2025-12-15,214,270-->
 
 ### products
 

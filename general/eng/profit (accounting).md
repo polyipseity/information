@@ -19,7 +19,7 @@ tags:
 
 > {@{![Stock index chart of 2020 with stock market crash](../../archives/Wikimedia%20Commons/Stock-indices-2020crash+recovery.svg)}@}
 >
-> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2025-10-03,174,310!2025-12-17,248,330!2025-12-25,255,330-->
+> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2027-10-21,748,330!2025-12-17,248,330!2025-12-25,255,330-->
 
 {@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}. <!--SR:!2026-01-31,284,330!2026-02-12,294,330!2025-12-18,249,330!2026-04-05,293,290!2026-01-31,284,330-->
 

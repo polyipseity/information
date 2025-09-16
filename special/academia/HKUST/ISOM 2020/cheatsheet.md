@@ -41,7 +41,7 @@ The cheatsheet is provided during the final examination.
 - `-` ::@:: subtraction <!--SR:!2025-10-14,278,330!2025-10-09,274,330-->
 - `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2025-10-20,282,330-->
 - `**` ::@:: to the power of <!--SR:!2025-10-14,278,330!2025-10-25,287,330-->
-- `/` ::@:: division <!--SR:!2025-10-03,269,330!2025-10-21,282,330-->
+- `/` ::@:: division <!--SR:!2029-02-09,1225,350!2025-10-21,282,330-->
 - `//` ::@:: floor division <!--SR:!2025-10-10,274,330!2025-10-09,274,330-->
 - `%` ::@:: mod <!--SR:!2029-01-31,1218,350!2029-02-02,1220,350-->
 
@@ -71,7 +71,7 @@ The cheatsheet is provided during the final examination.
 - `list.append()` ::@:: add a new element in the list <!--SR:!2025-10-22,283,330!2025-10-24,286,330-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2025-10-04,270,330-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
-- `list.index()` ::@:: find the index of the input item <!--SR:!2025-10-03,269,330!2029-02-06,1223,350-->
+- `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-10-10,274,330!2025-10-29,290,330-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2025-10-06,272,330!2025-10-09,273,330-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2025-10-06,270,330!2025-10-29,290,330-->

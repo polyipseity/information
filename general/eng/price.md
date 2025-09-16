@@ -91,7 +91,7 @@ In [economics](economics.md), {@{the __market price__}@} is {@{the economic pric
 
 Under {@{the UK's [Sale of Goods Act 1979](Sale%20of%20Goods%20Act%201979.md)}@}, {@{[damages](damages.md) for non-delivery of contracted goods}@} take account of {@{the market price for the goods where there is an available market}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-02-03,884,330!2026-09-25,499,310!2025-10-26,263,330-->
 
-On {@{[restaurant](restaurant.md) [menus](menu.md)}@}, {@{the market price \(often abbreviated to _m.p._ or _mp_\)}@} is {@{written instead of a specific price, meaning "price of dish depends on market price of ingredients, and price is available upon request"}@}, and is particularly used for {@{[seafood](seafood.md), notably [lobsters](lobster.md) and [oysters](oyster.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-11-17,282,330!2025-10-03,245,330!2027-10-15,812,330!2027-12-26,853,330-->
+On {@{[restaurant](restaurant.md) [menus](menu.md)}@}, {@{the market price \(often abbreviated to _m.p._ or _mp_\)}@} is {@{written instead of a specific price, meaning "price of dish depends on market price of ingredients, and price is available upon request"}@}, and is particularly used for {@{[seafood](seafood.md), notably [lobsters](lobster.md) and [oysters](oyster.md)}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-11-17,282,330!2028-10-25,1118,350!2027-10-15,812,330!2027-12-26,853,330-->
 
 ## other terms
 

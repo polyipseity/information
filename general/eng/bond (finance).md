@@ -71,7 +71,7 @@ In the case of {@{an underwritten bond}@}, {@{the underwriters}@} will {@{charge
 >
 > {@{1978 \$1,000 U.S. [Treasury bond](Treasury%20bond.md#Treasury%20bond)}@} <!--SR:!2025-10-27,88,360!2025-10-17,78,346-->
 
-{@{Nominal, principal, par, or face amount}@} is {@{the amount on which the issuer pays interest}@}, and which, {@{most commonly, has to be repaid at the end of the term}@}. {@{Some structured bonds}@} can have {@{a redemption amount which is different from the face amount}@} and can be {@{linked to the performance of particular assets}@}. <!--SR:!2025-10-21,82,363!2026-08-12,314,354!2025-10-16,77,346!2025-10-18,79,346!2025-10-03,68,314!2025-10-12,76,346-->
+{@{Nominal, principal, par, or face amount}@} is {@{the amount on which the issuer pays interest}@}, and which, {@{most commonly, has to be repaid at the end of the term}@}. {@{Some structured bonds}@} can have {@{a redemption amount which is different from the face amount}@} and can be {@{linked to the performance of particular assets}@}. <!--SR:!2025-10-21,82,363!2026-08-12,314,354!2025-10-16,77,346!2025-10-18,79,346!2026-07-31,301,334!2025-10-12,76,346-->
 
 ### maturity
 
@@ -178,7 +178,7 @@ Bonds can be {@{categorised in several ways}@}, such as {@{the type of issuer, t
 
 - {@{[Subordinated bonds](subordinated%20debt.md)}@} are {@{those that have a lower priority than other bonds of the issuer in case of [liquidation](liquidation.md)}@}. In {@{case of bankruptcy}@}, there is {@{a hierarchy of creditors}@}. First {@{the [liquidator](liquidator%20(law).md) is paid}@}, then {@{government taxes, etc.}@} {@{The first bond holders in line to be paid}@} are those {@{holding what are called senior bonds}@}. After they have been paid, {@{the subordinated bond holders are paid}@}. As a result, {@{the risk is higher}@}. Therefore, subordinated bonds {@{usually have a lower credit rating than senior bonds}@}. {@{The main examples of subordinated bonds}@} can be found in {@{bonds issued by banks and asset-backed securities}@}. The latter are {@{often issued in [tranches](tranche.md)}@}. {@{The senior tranches}@} get {@{paid back first}@}, {@{the subordinated tranches later}@}. <!--SR:!2025-10-17,78,346!2025-10-28,89,360!2025-10-30,91,363!2025-10-08,73,346!2025-10-21,82,360!2025-10-13,74,341!2025-10-12,76,346!2025-10-16,77,346!2025-10-17,78,346!2025-10-09,74,346!2025-10-16,77,346!2025-10-20,81,346!2025-10-13,74,346!2025-10-25,86,360!2025-11-01,93,365!2025-10-08,73,346!2026-08-13,315,354-->
 
-- {@{[Social impact bonds](social%20impact%20bond.md)}@} are {@{an agreement for public sector entities to pay back private investors}@} after {@{meeting verified improved social outcome goals}@} that {@{result in public sector savings from innovative social program pilot projects}@}. \(annotation: If {@{not met}@}, {@{the investors are not paid back}@}.\) <!--SR:!2025-10-26,87,365!2025-10-19,80,346!2025-10-28,89,360!2025-10-30,91,365!2025-10-14,75,346!2025-10-03,68,334-->
+- {@{[Social impact bonds](social%20impact%20bond.md)}@} are {@{an agreement for public sector entities to pay back private investors}@} after {@{meeting verified improved social outcome goals}@} that {@{result in public sector savings from innovative social program pilot projects}@}. \(annotation: If {@{not met}@}, {@{the investors are not paid back}@}.\) <!--SR:!2025-10-26,87,365!2025-10-19,80,346!2025-10-28,89,360!2025-10-30,91,365!2025-10-14,75,346!2026-08-19,320,354-->
 
 ### the term of the bond
 

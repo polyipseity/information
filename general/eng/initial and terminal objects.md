@@ -38,7 +38,7 @@ In {@{[category theory](category%20theory.md), a branch of [mathematics](mathema
 
 {@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2025-12-23,267,337!2026-04-01,348,352!2026-01-27,293,330!2026-01-23,292,337!2026-01-11,281,337-->
 
-If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2026-02-09,304,337!2025-10-03,187,317!2027-12-21,812,337!2026-04-17,362,357-->
+If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2026-02-09,304,337!2028-01-02,821,337!2027-12-21,812,337!2026-04-17,362,357-->
 
 {@{A [strict initial object](strict%20initial%20object.md) _I_}@} is one {@{for which every morphism into _I_ is an [isomorphism](isomorphism.md)}@}. <!--SR:!2026-01-02,258,332!2026-12-06,487,337-->
 

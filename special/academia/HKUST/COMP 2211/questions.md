@@ -881,7 +881,7 @@ tags:
 
 > Q5. Suppose we use perceptron to learn on K training samples where each sample is represented in n-dimensional space. We stopped training after e epochs. How many arithmetic operations were done during training? Express it in terms of K, e and n. (arithmetic operations include both multiplication and addition, ignore the operations for parameter update and the operations in the activation function)
 >
-> - solution: {@{2eKn (remember to include the bias addition)}@} <!--SR:!2025-10-03,202,310-->
+> - solution: {@{2eKn (remember to include the bias addition)}@} <!--SR:!2027-06-22,627,310-->
 
 <!-- markdownlint MD028 -->
 

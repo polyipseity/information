@@ -13,7 +13,7 @@ tags:
 
 # Sylvester's criterion
 
-In {@{mathematics}@}, {@{__Sylvester's criterion__}@} is {@{a [necessary and sufficient](necessary%20and%20sufficient%20condition.md) criterion to determine whether a [Hermitian matrix](Hermitian%20matrix.md) is [positive-definite](definite%20matrix.md)}@}. <!--SR:!2026-02-01,245,330!2026-02-22,261,330!2025-10-03,148,310-->
+In {@{mathematics}@}, {@{__Sylvester's criterion__}@} is {@{a [necessary and sufficient](necessary%20and%20sufficient%20condition.md) criterion to determine whether a [Hermitian matrix](Hermitian%20matrix.md) is [positive-definite](definite%20matrix.md)}@}. <!--SR:!2026-02-01,245,330!2026-02-22,261,330!2027-06-30,635,330-->
 
 Sylvester's criterion states that {@{a _n_ × _n_ Hermitian matrix _M_ is positive-definite}@} {@{[if and only if](if%20and%20only%20if.md) all the following matrices have a positive [determinant](determinant.md):}@} <!--SR:!2026-03-27,287,330!2026-03-25,285,330-->
 
