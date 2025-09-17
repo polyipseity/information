@@ -32,7 +32,7 @@ In {@{the United Kingdom}@}, {@{the term [net asset value](net%20asset%20value.m
 - Depreciation expenses: ::@:: building... debit = \$150, under expenses in retained earnings <!--SR:!2027-11-30,803,330!2025-10-14,193,310-->
 - Accumulated depreciation: ::@:: building... credit = \$150, under assets <!--SR:!2028-01-22,841,330!2026-01-26,292,330-->
 
-{@{The balance sheet valuation for an asset}@} is {@{the asset's cost basis minus accumulated depreciation}@}.<sup>[\[8\]](#^ref-8)</sup> Similar bookkeeping transactions are used to {@{record amortization and depletion}@}. <!--SR:!2026-01-10,278,330!2026-01-15,283,330!2025-10-04,197,310-->
+{@{The balance sheet valuation for an asset}@} is {@{the asset's cost basis minus accumulated depreciation}@}.<sup>[\[8\]](#^ref-8)</sup> Similar bookkeeping transactions are used to {@{record amortization and depletion}@}. <!--SR:!2026-01-10,278,330!2026-01-15,283,330!2028-01-31,849,330-->
 
 "{@{Discount on notes payable}@}" is {@{a contra-liability account}@} which {@{decreases the balance sheet valuation of the liability}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-10-08,189,310!2025-11-20,239,330!2026-05-16,348,290-->
 

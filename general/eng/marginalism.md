@@ -20,7 +20,7 @@ For issues of marginality, constraints are {@{conceptualized as a _border_ or _m
 
 {@{A value that holds true given particular constraints}@} is {@{a [_marginal_ value](marginal%20value.md)}@}. {@{A change that would be affected as or by a specific loosening or tightening of those constraints}@} is {@{a _marginal_ change}@}. <!--SR:!2025-10-25,305,347!2026-01-07,365,347!2025-11-07,315,330!2025-10-29,309,347-->
 
-Neoclassical economics usually assumes that {@{marginal changes are [infinitesimals](infinitesimal.md) or [limits](limit%20(mathematics).md)}@}. Although {@{this assumption makes the analysis less robust}@}, it {@{increases tractability}@}. One is therefore often {@{told that "marginal" is synonymous with "very small"}@}, though {@{in more general analysis this may not be operationally true}@} and {@{would not in any case be literally true}@}. Frequently, economic analysis concerns {@{the marginal values associated with a change of one unit of a resource}@}, because {@{decisions are often made in terms of units}@}; marginalism seeks to {@{explain unit prices in terms of such marginal values}@}. <!--SR:!2025-10-10,290,330!2028-10-08,1139,347!2025-11-24,332,347!2028-12-20,1201,350!2025-10-06,291,347!2026-01-12,370,347!2026-10-17,571,330!2025-10-04,289,347!2025-11-19,327,347-->
+Neoclassical economics usually assumes that {@{marginal changes are [infinitesimals](infinitesimal.md) or [limits](limit%20(mathematics).md)}@}. Although {@{this assumption makes the analysis less robust}@}, it {@{increases tractability}@}. One is therefore often {@{told that "marginal" is synonymous with "very small"}@}, though {@{in more general analysis this may not be operationally true}@} and {@{would not in any case be literally true}@}. Frequently, economic analysis concerns {@{the marginal values associated with a change of one unit of a resource}@}, because {@{decisions are often made in terms of units}@}; marginalism seeks to {@{explain unit prices in terms of such marginal values}@}. <!--SR:!2025-10-10,290,330!2028-10-08,1139,347!2025-11-24,332,347!2028-12-20,1201,350!2025-10-06,291,347!2026-01-12,370,347!2026-10-17,571,330!2029-07-16,1381,367!2025-11-19,327,347-->
 
 ### marginal use
 
@@ -82,7 +82,7 @@ Neoclassical economics usually {@{supplements or supplants discussion of margina
 
 - see: [marginal rate of substitution](marginal%20rate%20of%20substitution.md)
 
-The _rate of substitution_ is {@{the _least favorable_ rate at which an agent is willing to exchange units of one good or service for units of another}@}. The _marginal_ rate of substitution (MRS) is {@{the rate of substitution at the margin; in other words, given some constraint}@}. <!--SR:!2027-09-21,841,347!2025-10-04,289,347-->
+The _rate of substitution_ is {@{the _least favorable_ rate at which an agent is willing to exchange units of one good or service for units of another}@}. The _marginal_ rate of substitution (MRS) is {@{the rate of substitution at the margin; in other words, given some constraint}@}. <!--SR:!2027-09-21,841,347!2029-07-21,1386,367-->
 
 When {@{goods and services are [discrete](discrete%20mathematics.md)}@}, the least favorable rate at which an agent would trade A for B will {@{usually be different from that at which she would trade B for A: $$MRS_{AB}\neq {\frac {1}{MRS_{BA} } }$$}@}. <!--SR:!2025-12-10,343,347!2025-10-10,295,347-->
 

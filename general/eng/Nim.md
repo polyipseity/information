@@ -157,7 +157,7 @@ _Proof of Lemma 2:_ ::@:: Let _d_ be the position of the leftmost (most signific
 
 ### the subtraction game
 
-In another game which is commonly known as {@{nim (but is better called the [subtraction game](subtraction%20game.md))}@}, {@{an upper bound is imposed on the number of objects that can be removed in a turn}@}. Instead of {@{removing arbitrarily many objects}@}, a player can {@{only remove 1 or 2 or ... or _k_ at a time}@}. This game is commonly played in practice {@{with only one heap}@}. <!--SR:!2025-10-04,256,321!2025-11-03,299,341!2025-11-09,304,341!2025-11-07,303,341!2025-11-03,299,341-->
+In another game which is commonly known as {@{nim (but is better called the [subtraction game](subtraction%20game.md))}@}, {@{an upper bound is imposed on the number of objects that can be removed in a turn}@}. Instead of {@{removing arbitrarily many objects}@}, a player can {@{only remove 1 or 2 or ... or _k_ at a time}@}. This game is commonly played in practice {@{with only one heap}@}. <!--SR:!2028-11-18,1141,341!2025-11-03,299,341!2025-11-09,304,341!2025-11-07,303,341!2025-11-03,299,341-->
 
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2028-10-20,1117,341!2027-12-28,819,321!2026-05-02,422,310!2026-08-17,511,330!2025-10-08,238,281!2028-11-06,1130,341-->
 
@@ -234,7 +234,7 @@ but then three objects cannot be taken out in one move.
 
 ### Grundy's game
 
-In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2026-04-21,417,321!2025-10-04,256,321!2025-11-01,297,341-->
+In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2026-04-21,417,321!2028-11-17,1140,341!2025-11-01,297,341-->
 
 ### greedy nim
 

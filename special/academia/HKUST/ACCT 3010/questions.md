@@ -28,7 +28,7 @@ tags:
 > 3. Essential for personal and global finance.
 > 4. Other \(share in chat\).
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2025-10-04,16,290-->
+> - solution: {@{1/2/3/4}@} <!--SR:!2025-12-08,65,310-->
 
 ---
 

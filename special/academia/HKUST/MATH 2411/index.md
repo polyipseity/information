@@ -152,7 +152,7 @@ The content is in teaching order.
   - data presentation / categorical data ::@:: bar chart, frequency table, pie chart, ... <!--SR:!2027-03-23,711,330!2026-02-19,358,290-->
   - line chart ::@:: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2028-06-26,1079,350!2028-07-04,1087,350-->
     - line chart / reading ::@:: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2028-10-24,1179,350!2028-01-11,951,350-->
-    - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2025-10-04,305,330!2028-09-22,1147,350-->
+    - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2029-07-22,1387,350!2028-09-22,1147,350-->
   - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2026-12-31,621,310!2027-08-12,802,330-->
     - frequency table (quantitative) / procedure ::@:: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2026-10-17,528,270!2027-02-28,691,330-->
     - frequency table (quantitative) / table headers ::@:: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2027-09-10,828,330!2027-01-08,586,290-->
@@ -172,7 +172,7 @@ The content is in teaching order.
   - extrema ::@:: 0th quartile/minimum (Q0) = 0th percentile/0.00 quantile, 4th quartile/maximum (Q4) = 100th percentile/1.00 quantile <!--SR:!2028-10-01,1156,350!2029-02-01,1256,350-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
   - box plot ::@:: A box plot labels the least data that is not an outlier (instead of the value $Q_1 - 1.5 \cdot \text{IQR}$), the lower quartile (Q1), median (Q2), upper quartile (Q3), and the greatest data that is not an outlier (instead of the value $Q_3 + 1.5 \cdot \text{IQR}$) as lines; and outliers as dots (with "min" and "max" labels on 2 of them). Additional lines are added so that the lines of Q1 and Q3 forms a rectangle (box). (See that thing on Canvas grade stats...?) <!--SR:!2026-05-23,416,290!2026-05-31,418,290-->
-    - box plot / outliers ::@:: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007). <!--SR:!2025-10-04,277,290!2026-04-13,391,290-->
+    - box plot / outliers ::@:: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007). <!--SR:!2028-10-31,1123,310!2026-04-13,391,290-->
     - box plot / _R_ ::@:: use `boxplot(...)` <!--SR:!2028-06-30,1083,350!2029-03-31,1297,350-->
 
 ## week 1 tutorial

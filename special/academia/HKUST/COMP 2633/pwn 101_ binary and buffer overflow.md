@@ -125,7 +125,7 @@ Let's also learn some basic `pwndbg` commands:
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2028-12-01,1192,350!2028-08-27,1116,350-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2029-01-25,1233,350!2028-12-09,1200,350-->
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2029-01-11,1223,350!2027-07-16,781,330-->
-- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-10-04,291,330!2026-10-08,560,310-->
+- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2029-05-20,1324,350!2026-10-08,560,310-->
 
 Commands names can be {@{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}@}. For example, `disassemble` can be {@{abbreviated to `disass` or the uglier `disassem`}@}. <!--SR:!2027-08-03,789,330!2025-10-06,286,330-->
 

@@ -69,7 +69,7 @@ Vectors are {@{fundamental in the physical sciences}@}. They can be used to {@{r
 
 ### In Cartesian space
 
-In {@{the [Cartesian coordinate system](Cartesian%20coordinate%20system.md)}@}, {@{a bound vector}@} can be represented by {@{identifying the coordinates of its initial and terminal point}@}. For instance, {@{the points _A_ = \(1, 0, 0\) and _B_ = \(0, 1, 0\) in space}@} determine {@{the bound vector ${\overrightarrow {AB} }$ pointing from the point _x_ = 1 on the _x_-axis to the point _y_ = 1 on the _y_-axis}@}. <!--SR:!2026-03-12,297,332!2026-06-05,377,359!2026-04-30,346,352!2025-10-04,177,312!2026-01-03,252,332-->
+In {@{the [Cartesian coordinate system](Cartesian%20coordinate%20system.md)}@}, {@{a bound vector}@} can be represented by {@{identifying the coordinates of its initial and terminal point}@}. For instance, {@{the points _A_ = \(1, 0, 0\) and _B_ = \(0, 1, 0\) in space}@} determine {@{the bound vector ${\overrightarrow {AB} }$ pointing from the point _x_ = 1 on the _x_-axis to the point _y_ = 1 on the _y_-axis}@}. <!--SR:!2026-03-12,297,332!2026-06-05,377,359!2026-04-30,346,352!2027-11-10,767,332!2026-01-03,252,332-->
 
 In {@{Cartesian coordinates}@}, a free vector may be thought of {@{in terms of a corresponding bound vector}@}, in this sense, whose {@{initial point has the coordinates of the origin _O_ = \(0, 0, 0\)}@}. It is then {@{determined by the coordinates of that bound vector's terminal point}@}. Thus {@{the free vector represented by \(1, 0, 0\)}@} is {@{a vector of unit length—pointing along the direction of the positive _x_-axis}@}. <!--SR:!2026-02-05,278,332!2026-03-13,296,332!2026-03-11,291,332!2026-02-05,278,332!2026-05-28,369,359!2026-05-14,355,352-->
 

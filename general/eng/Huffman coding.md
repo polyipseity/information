@@ -62,7 +62,7 @@ Huffman coding uses {@{a specific method for choosing the representation for eac
 
 ### informal description
 
-__Given__ ::@:: A set of symbols and their weights \(usually [proportional](proportionality%20(mathematics).md) to probabilities\). <!--SR:!2025-10-04,238,330!2025-10-26,255,330-->
+__Given__ ::@:: A set of symbols and their weights \(usually [proportional](proportionality%20(mathematics).md) to probabilities\). <!--SR:!2027-12-04,791,330!2025-10-26,255,330-->
 
 __Find__ ::@:: A [prefix-free binary code](prefix%20code.md) \(a set of codewords\) with minimum [expected](expected%20value.md) codeword length \(equivalently, a tree with minimum [weighted path length from the root](weighted%20path%20length%20from%20the%20root.md)\). <!--SR:!2027-04-27,669,330!2027-05-08,678,330-->
 
@@ -71,7 +71,7 @@ __Find__ ::@:: A [prefix-free binary code](prefix%20code.md) \(a set of codeword
 __Input__.
 
 - Alphabet $A=(a_{1},a_{2},\dots ,a_{n})$, ::@:: which is the symbol alphabet of size $n$. <!--SR:!2025-11-22,276,330!2025-11-17,272,330-->
-- Tuple $W=(w_{1},w_{2},\dots ,w_{n})$, ::@:: which is the tuple of the \(positive\) symbol weights \(usually proportional to probabilities\), i.e. $w_{i}=\operatorname {weight} \left(a_{i}\right),\,i\in \{1,2,\dots ,n\}$. <!--SR:!2025-10-04,239,330!2025-11-12,268,330-->
+- Tuple $W=(w_{1},w_{2},\dots ,w_{n})$, ::@:: which is the tuple of the \(positive\) symbol weights \(usually proportional to probabilities\), i.e. $w_{i}=\operatorname {weight} \left(a_{i}\right),\,i\in \{1,2,\dots ,n\}$. <!--SR:!2028-09-27,1089,350!2025-11-12,268,330-->
 
 __Output__.
 
@@ -227,7 +227,7 @@ If {@{weights corresponding to the alphabetically ordered inputs are in numerica
 
 {@{[Arithmetic coding](arithmetic%20coding.md) and Huffman coding}@} produce {@{equivalent results — achieving entropy}@} — when {@{every symbol has a probability of the form 1/2<sup>_k_</sup>}@}. In other circumstances, {@{arithmetic coding can offer better compression than Huffman coding}@} because — {@{intuitively — its "code words" can have effectively non-integer bit lengths}@}, whereas {@{code words in prefix codes such as Huffman codes can only have an integer number of bits}@}. Therefore, {@{a code word of length _k_ only}@} {@{optimally matches a symbol of probability 1/2<sup>_k_</sup> and other probabilities are not represented optimally}@}; whereas {@{the code word length in arithmetic coding}@} can be {@{made to exactly match the true probability of the symbol}@}. This difference is {@{especially striking for small alphabet sizes}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2025-10-12,245,330!2025-10-16,249,330!2025-11-27,281,330!2025-12-13,294,330!2027-08-15,751,330!2025-10-09,242,330!2025-10-25,252,330!2027-06-19,708,330!2025-11-14,270,330!2025-12-07,289,330!2025-11-07,263,330-->
 
-{@{Prefix codes}@} nevertheless {@{remain in wide use}@} because of {@{their simplicity, high speed, and [lack of patent coverage](arithmetic%20coding.md#history%20and%20patents)}@}. They are often {@{used as a "back-end" to other compression methods}@}. {@{[Deflate](deflate.md) \([PKZIP](PKZIP.md)'s algorithm\)}@} and {@{multimedia [codecs](codec.md) such as [JPEG](JPEG.md) and [MP3](MP3.md)}@} have {@{a front-end model and [quantization](quantization%20(signal%20processing).md) followed by the use of prefix codes}@}; these are {@{often called "Huffman codes"}@} even though {@{most applications use pre-defined variable-length codes rather than codes designed using Huffman's algorithm}@}. <!--SR:!2025-11-09,265,330!2028-07-26,1038,350!2025-10-04,238,330!2028-08-17,1055,350!2025-11-28,281,330!2025-12-07,289,330!2026-11-04,516,310!2028-07-31,1042,350!2025-10-10,243,330-->
+{@{Prefix codes}@} nevertheless {@{remain in wide use}@} because of {@{their simplicity, high speed, and [lack of patent coverage](arithmetic%20coding.md#history%20and%20patents)}@}. They are often {@{used as a "back-end" to other compression methods}@}. {@{[Deflate](deflate.md) \([PKZIP](PKZIP.md)'s algorithm\)}@} and {@{multimedia [codecs](codec.md) such as [JPEG](JPEG.md) and [MP3](MP3.md)}@} have {@{a front-end model and [quantization](quantization%20(signal%20processing).md) followed by the use of prefix codes}@}; these are {@{often called "Huffman codes"}@} even though {@{most applications use pre-defined variable-length codes rather than codes designed using Huffman's algorithm}@}. <!--SR:!2025-11-09,265,330!2028-07-26,1038,350!2028-09-22,1084,350!2028-08-17,1055,350!2025-11-28,281,330!2025-12-07,289,330!2026-11-04,516,310!2028-07-31,1042,350!2025-10-10,243,330-->
 
 ## references
 

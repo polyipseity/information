@@ -35,7 +35,7 @@ return await memorize_table(
 > | {@{[crust](crust.md)}@} | {@{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}@} |
 > | {@{[mantle](mantle.md)}@} | {@{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}@} |
 > | {@{[outer core](outer%20core.md)}@} | {@{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}@} |
-> | {@{[inner core](inner%20core.md)}@} | {@{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}@} | <!--SR:!2027-07-20,1223,350!2025-12-31,675,290!2027-02-02,1091,350!2027-04-15,939,270!2027-01-11,989,330!2025-10-04,454,210!2028-04-06,1426,350!2028-08-15,1304,290!2027-11-18,1317,350!2028-05-13,1236,290-->
+> | {@{[inner core](inner%20core.md)}@} | {@{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}@} | <!--SR:!2027-07-20,1223,350!2025-12-31,675,290!2027-02-02,1091,350!2027-04-15,939,270!2027-01-11,989,330!2028-05-21,960,210!2028-04-06,1426,350!2028-08-15,1304,290!2027-11-18,1317,350!2028-05-13,1236,290-->
 
 <!--/pytextgen-->
 

@@ -69,7 +69,7 @@ return await memorize_seq(
 - [hardness](hardness.md)→::@::←[malleability](malleability.md) <!--SR:!2028-03-20,1192,290!2026-01-22,185,170-->
 - [malleability](malleability.md)→::@::←[melting point](melting%20point.md) <!--SR:!2031-05-10,2220,330!2026-12-29,674,230-->
 - [melting point](melting%20point.md)→::@::←[odor](odor.md) <!--SR:!2026-12-29,822,250!2026-10-02,618,250-->
-- [odor](odor.md)→::@::←[physical state](physical%20state.md) <!--SR:!2025-10-04,598,270!2028-01-03,1211,310-->
+- [odor](odor.md)→::@::←[physical state](physical%20state.md) <!--SR:!2030-03-07,1615,270!2028-01-03,1211,310-->
 - [physical state](physical%20state.md)→::@::←[solubility](solubility.md) <!--SR:!2026-10-31,708,250!2027-06-17,677,190-->
 - [solubility](solubility.md)→::@::←[taste](taste.md) <!--SR:!2026-09-18,549,210!2026-04-18,320,170-->
 - [taste](taste.md)→::@::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2028-04-30,1441,350!2027-04-12,1055,330-->

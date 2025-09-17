@@ -60,7 +60,7 @@ Survey results are {@{typically subject to some error}@}. Total errors can be cl
 Sampling errors and biases are {@{induced by the sample design}@}. They include {@{selection bias and random sampling errors}@}: <!--SR:!2028-10-26,1180,350!2028-10-23,1178,350-->
 
 - [selection bias](selection%20bias.md) ::@:: When the true selection probabilities differ from those assumed in calculating the results. <!--SR:!2028-05-20,1056,350!2028-10-18,1174,350-->
-- [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2028-12-02,1206,350!2025-10-04,307,330-->
+- [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2028-12-02,1206,350!2029-08-01,1397,350-->
 
 ### non-sampling errors
 

@@ -29,7 +29,7 @@ Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-
 
 In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2028-09-09,1081,350!2027-05-18,692,330!2025-11-07,271,330-->
 
-For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2025-10-04,245,330!2025-10-04,245,330!2025-10-07,247,330!2025-10-09,249,330!2028-09-18,1087,350!2028-08-18,1062,350!2028-08-28,1070,350!2025-12-02,291,330-->
+For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2028-10-29,1121,350!2028-10-28,1120,350!2025-10-07,247,330!2025-10-09,249,330!2028-09-18,1087,350!2028-08-18,1062,350!2028-08-28,1070,350!2025-12-02,291,330-->
 
 The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-09-17,1087,350!2027-11-21,824,330!2025-10-25,261,330!2028-07-13,1033,350-->
 
@@ -73,13 +73,13 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 ### factors affecting individual demand
 
 - Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2025-10-09,249,330!2025-10-21,258,330-->
-- Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2027-09-12,772,330!2025-10-04,245,330-->
+- Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2027-09-12,772,330!2028-10-30,1122,350-->
 - Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2027-07-13,724,330!2027-05-28,698,330-->
 - Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-12-03,292,330!2025-10-16,255,330-->
 
 ### factors affecting market demand
 
-In addition to {@{the factors which can affect individual demand there}@} are {@{three factors that can cause the market demand curve to shift}@}: <!--SR:!2028-09-30,1097,350!2025-10-04,245,330-->
+In addition to {@{the factors which can affect individual demand there}@} are {@{three factors that can cause the market demand curve to shift}@}: <!--SR:!2028-09-30,1097,350!2028-10-27,1119,350-->
 
 - a change in the number of ::@:: consumers, <!--SR:!2027-08-06,755,330!2028-09-16,1086,350-->
 - a change in the distribution of tastes ::@:: among consumers, <!--SR:!2025-12-05,294,330!2025-12-05,294,330-->
@@ -94,7 +94,7 @@ Some circumstances which can cause the demand curve to shift in include:
 
 ## movement along a demand curve
 
-There is {@{movement _along_ a demand curve}@} when {@{a change in price causes the quantity demanded to change}@}.<sup>[\[11\]](#^ref-11)</sup> It is important to {@{distinguish between movement along a demand curve, and a shift in a demand curve}@}. {@{Movements along a demand curve happen only}@} when {@{the price of the good changes}@}.<sup>[\[14\]](#^ref-14)</sup> When {@{a non-price determinant of demand changes, the curve shifts}@}. These {@{"__other variables__" are part of the demand function}@}. They are {@{"__merely lumped into intercept term of a simple linear demand function__"}@}.<sup>[\[14\]](#^ref-14)</sup> Thus {@{a change in a non-price determinant of demand}@} is reflected in {@{a change in the x-intercept causing the curve to shift along the x axis}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-10-04,245,330!2025-10-11,251,330!2025-10-08,248,330!2028-10-01,1098,350!2028-09-02,1074,350!2028-08-31,1073,350!2025-10-30,265,330!2028-09-05,1077,350!2025-10-29,264,330!2027-09-05,766,330-->
+There is {@{movement _along_ a demand curve}@} when {@{a change in price causes the quantity demanded to change}@}.<sup>[\[11\]](#^ref-11)</sup> It is important to {@{distinguish between movement along a demand curve, and a shift in a demand curve}@}. {@{Movements along a demand curve happen only}@} when {@{the price of the good changes}@}.<sup>[\[14\]](#^ref-14)</sup> When {@{a non-price determinant of demand changes, the curve shifts}@}. These {@{"__other variables__" are part of the demand function}@}. They are {@{"__merely lumped into intercept term of a simple linear demand function__"}@}.<sup>[\[14\]](#^ref-14)</sup> Thus {@{a change in a non-price determinant of demand}@} is reflected in {@{a change in the x-intercept causing the curve to shift along the x axis}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2028-10-26,1118,350!2025-10-11,251,330!2025-10-08,248,330!2028-10-01,1098,350!2028-09-02,1074,350!2028-08-31,1073,350!2025-10-30,265,330!2028-09-05,1077,350!2025-10-29,264,330!2027-09-05,766,330-->
 
 ## price elasticity of demand
 

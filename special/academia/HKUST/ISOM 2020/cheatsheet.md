@@ -49,7 +49,7 @@ The cheatsheet is provided during the final examination.
 
 - `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2025-10-07,272,330!2025-10-23,284,330-->
 - `input()` ::@:: ask user for input <!--SR:!2025-10-07,271,330!2029-01-04,1196,350-->
-- `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2025-10-04,270,330-->
+- `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2029-02-12,1227,350-->
 - `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2025-10-19,281,330-->
 
 ## math functions / conversion
@@ -69,7 +69,7 @@ The cheatsheet is provided during the final examination.
 - `in` ::@:: check existence in a list / string <!--SR:!2025-10-12,276,330!2025-10-26,287,330-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2025-10-21,282,330-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2025-10-22,283,330!2025-10-24,286,330-->
-- `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2025-10-04,270,330-->
+- `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-10-10,274,330!2025-10-29,290,330-->

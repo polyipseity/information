@@ -338,7 +338,7 @@ The content is in teaching order.
 - report
   - time limit ::@:: The time limit was tight, with about 10 minutes left. <!--SR:!2025-11-14,143,425!2025-11-21,150,425-->
   - one point one mark \(–8\) ::@:: This is for a sub-question of the 3rd question \(ABC costing\) about commenting on the results of ABC costing vs. traditional costing: one point one mark, and the points contain some "obvious" or "useless" points. <p> Refer to an item about "Comment on the results." above. <!--SR:!2025-11-25,152,425!2025-11-13,142,421-->
-  - extremely long dependency chains \(–12\) ::@:: This is for the 2nd question \(process costing\). Most questions in this course involve very long dependency chains of calculations. Initial calculation or copying \(this case\) errors must be avoided. <!--SR:!2025-10-04,102,401!2025-10-05,102,405-->
+  - extremely long dependency chains \(–12\) ::@:: This is for the 2nd question \(process costing\). Most questions in this course involve very long dependency chains of calculations. Initial calculation or copying \(this case\) errors must be avoided. <!--SR:!2026-11-21,413,401!2025-10-05,102,405-->
 - check
   - datetime: 2025-03-27T13:00:00+08:00/2025-03-27T15:00:00+08:00, PT2H
   - venue: Room 6032, LSKBB
