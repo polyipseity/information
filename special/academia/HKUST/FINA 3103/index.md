@@ -46,7 +46,7 @@ The content is in teaching order.
   - FINA 3103 / grading
   - FINA 3103 / rules
   - FINA 3103 / schedule
-- [investment](../../../../general/investment.md) ::@:: It is traditionally defined as the "commitment of resources into something expected to gain value over time". <p> \(__this course__: Allocate _resources_ between _time_ and _states_.\)
+- [investment](../../../../general/investment.md) ::@:: It is traditionally defined as the "commitment of resources into something expected to gain value over time". <p> \(__this course__: Allocate _resources_ between _time_ \(sacrifice now to get something later\) and _states_ \(current commitment of money\).\)
   - investment / motivation ::@:: You want to get more _resources_. Investment allows you to do so in the future. However, there is also _uncertainty_. <p> All of these can be modeled using _utility_, which measures _satisfaction_ and incorporates resource value, risk, time value, etc. Then, we want to _maximize utility_.
 - [finance](../../../../general/finance.md) ::@:: It refers to monetary resources and to the study and discipline of money, currency, assets and liabilities.
   - finance / fields ::@:: 3 main fields: asset pricing, corporate finance, market microstructure
@@ -115,7 +115,7 @@ The content is in teaching order.
   - market microstructure / concepts ::@:: fragmented markets, number of exchanges in a country or region, trading speed, transparency, etc.
   - market microstructure / measures ::@:: liquidity: How easy is it to trade assets? <br/> price discovery: How fast does price reacts to news?
 - [high-frequency trading](../../../../general/high-frequency%20trading.md) \(HFT\) ::@:: It is a type of algorithmic automated trading system in finance characterized by high speeds, high turnover rates, and high order-to-trade ratios that leverages high-frequency financial data and electronic trading tools.
-  - high-frequency trading / latency arbitrage ::@:: Assume there are two assets that _theoretically_ should always have the same price in two distinct locations. In practice, one asset may update its price slightly later \(by a few milliseconds or even nanoseconds\), which can be exploited by high-frequency trading. <p> This shows trading speed matters. It matters so much that dedicated communication channels to exchanges with extremely low latency are built and improved.-
+  - high-frequency trading / latency arbitrage ::@:: Assume there are two assets that _theoretically_ should always have the same price in two distinct locations. In practice, one asset may update its price slightly later \(by a few milliseconds or even nanoseconds\), which can be exploited by high-frequency trading. <p> This shows trading speed matters. It matters so much that dedicated communication channels to exchanges with extremely low latency are built and improved.
 - [decentralized finance](../../../../general/decentralized%20finance.md) \(DeFi\) ::@:: It provides financial instruments and services through smart contracts on a programmable, permissionless blockchain. This approach reduces the need for intermediaries such as brokerages, exchanges, or banks.
   - decentralized finance / technologies ::@:: blockchain, crypto, etc.
   - decentralized finance / advantages ::@:: democratize finance, efficient \(in some aspects\), robust, etc.
@@ -128,7 +128,7 @@ The content is in teaching order.
 - topic: trading securities
 - finance
   - finance / components ::@:: financial assets + participants + financial systems
-- [financial asset](../../../../general/financial%20asset.md) ::@:: It is a non-physical asset whose value is derived from a contractual claim, such as bank deposits, bonds, and participations in companies' share capital. <p> \(__this course__: A contract allocating _resources_ between _time_ and _states_.\)
+- [financial asset](../../../../general/financial%20asset.md) ::@:: It is a non-physical asset whose value is derived from a contractual claim, such as bank deposits, bonds, and participations in companies' share capital. <p> \(__this course__: A contract allocating _resources_ between _time_ \(sacrifice now to get something later\) and _states_ \(current commitment of money\).\)
   - financial asset / examples ::@:: bank deposits, bonds, cash or cash equivalent, certificate of deposit \(CD\), derivatives, loans, receivables, stocks, etc.
 - [financial system](../../../../general/financial%20system.md) ::@:: It is a system that allows the exchange of funds between financial market participants such as lenders, investors, and borrowers. Financial systems operate at national and global levels.
   - financial system / examples ::@:: banks, financial institutions, financial markets

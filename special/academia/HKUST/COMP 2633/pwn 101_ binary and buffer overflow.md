@@ -28,7 +28,7 @@ However, further knowledge memory model is {@{not exactly important in basic pwn
 
 ### memory mapping
 
-For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}.
+For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is called {@{a segment}@}, not to be {@{confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low \(small\) address to high \(large\) address}@}: {@{read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards \(increasing address\) at runtime}@}, while others {@{usually cannot grow}@}. The stack is {@{very close to the highest address and can dynamically grow downwards \(decreasing addres\s) at runtime}@}.
 
 The meanings of the 4 segments are:
 
@@ -37,7 +37,7 @@ The meanings of the 4 segments are:
 - heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address).
 - stack ::@:: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address).
 
-Note that the `.rodata` (read-only data) section is located on the read-execute segment. This means {@{the program can execute the data in `.rodata` section as code, which makes it less secure}@}. The linkers of some newer Linux distributions {@{add an additional one or two read segments (the program can only read from it) for the ELF header and `.rodata` section to improve security}@}.
+Notice {@{the `.rodata` \(read-only data\) section}@} is located on {@{the read-execute segment}@}. This means the program can {@{execute the data in `.rodata` section as code, which makes it less secure}@}. {@{The linkers of some newer Linux distributions}@} add {@{an additional one or two read segments \(the program can only read from it\)}@} for {@{the ELF header and `.rodata` section}@} to {@{improve security}@}.
 
 ## executable and linkable format
 

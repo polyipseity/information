@@ -89,7 +89,7 @@ In {@{removing all non-value activities}@}, you reduce {@{the amount of redundan
 
 ### provide a constant buffer stock upstream
 
-In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible and hence should never have to wait for materials or stock}@}, to increase productivity. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup>
+In order to {@{optimise the usage of the machine}@}, the machine should be {@{kept running for as long as possible}@} and hence should {@{never have to wait for materials or stock}@}, to {@{increase productivity}@}. This can be achieved by {@{putting a buffer stock in place}@}, so that {@{the machine always has some task it can be doing}@}. {@{The down side to this strategy}@} is that {@{inventory space will be needed to store the buffer stock}@}, for {@{when the machine before it in the chain of processes, is working}@}.<sup>[\[10\]](#^ref-10)</sup>
 
 ## preventing bottlenecks
 

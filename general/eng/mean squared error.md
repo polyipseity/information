@@ -43,7 +43,7 @@ The MSE can be written as {@{the sum of the [variance](variance.md) of the estim
 
 {@{An even shorter proof can be achieved}@} using {@{the well-known formula that for a random variable $X$, $\mathbb {E} (X^{2})=\operatorname {Var} (X)+(\mathbb {E} (X))^{2}$}@}. By {@{substituting $X$ with, ${\hat {\theta } }-\theta$}@}, we have {@{$${\begin{aligned}\operatorname {MSE} ({\hat {\theta } })&=\mathbb {E} [({\hat {\theta } }-\theta )^{2}]\\&=\operatorname {Var} ({\hat {\theta } }-\theta )+(\mathbb {E} [{\hat {\theta } }-\theta ])^{2}\\&=\operatorname {Var} ({\hat {\theta } })+\operatorname {Bias} ^{2}({\hat {\theta } },\theta )\end{aligned} }$$}@}
 
-But in {@{real modeling case}@}, MSE could be described as {@{the addition of model variance, model bias, and irreducible uncertainty \(see [Bias–variance tradeoff](bias–variance%20tradeoff.md)\)}@}. According to the relationship, {@{the MSE of the estimators}@} could be simply used for {@{the [efficiency](efficiency%20(statistics).md) comparison, which includes the information of estimator variance and bias}@}. This is called {@{MSE criterion}@}.
+But in {@{real modeling case}@}, MSE could be described as {@{the addition of model variance, model bias, and irreducible uncertainty \(see [Bias–variance tradeoff](bias–variance%20tradeoff.md)\)}@}. According to the relationship, {@{the MSE of the estimators}@} could be simply used for {@{the [efficiency](efficiency%20(statistics).md) comparison}@}, which includes {@{the information of estimator variance and bias}@}. This is called {@{MSE criterion}@}.
 
 ## in regression
 

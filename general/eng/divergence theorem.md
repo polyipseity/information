@@ -160,7 +160,7 @@ As {@{a result of the divergence theorem}@}, {@{a host of physical laws}@} can b
 
 ### inverse-square laws
 
-{@{Any _[inverse-square law](inverse-square%20law.md)_}@} can instead be written in {@{a _Gauss's law_-type form}@} \(with {@{a differential and integral form, as described above}@}\). Two examples are {@{[Gauss's law](Gauss's%20law.md) \(in electrostatics\)}@}, which follows from {@{the inverse-square [Coulomb's law](Coulomb's%20law.md)}@}, and {@{[Gauss's law for gravity](Gauss's%20law%20for%20gravity.md)}@}, which follows from {@{the inverse-square [Newton's law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}@}. {@{The derivation of the Gauss's law-type equation from the inverse-square formulation or vice versa}@} is {@{exactly the same in both cases}@}; see either of those articles for details.<sup>[\[12\]](#^ref-12)</sup>
+{@{Any _[inverse-square law](inverse-square%20law.md)_}@} can instead be written in {@{a _Gauss's law_-type form}@} \(with {@{a differential and integral form, as described above}@}\). Two examples are {@{[Gauss's law](Gauss's%20law.md) \(in electrostatics\)}@}, which follows from {@{the inverse-square [Coulomb's law](Coulomb's%20law.md)}@}, and {@{[Gauss's law for gravity](Gauss's%20law%20for%20gravity.md)}@}, which follows from {@{the inverse-square [Newton's law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}@}. The derivation of {@{the Gauss's law-type equation from the inverse-square formulation or vice versa}@} is {@{exactly the same in both cases}@}; see either of those articles for details.<sup>[\[12\]](#^ref-12)</sup>
 
 ## history
 
