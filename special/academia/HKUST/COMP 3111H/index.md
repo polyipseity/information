@@ -49,7 +49,7 @@ The content is in teaching order.
   - software maintenance / complexity ::@:: It can be complex. Indeed, given the large amount of existing software, it uses the most time of most developers. <!--SR:!2025-10-08,15,290!2025-10-07,14,290-->
 - [programming complexity](../../../../general/programming%20complexity.md) ::@:: It is a term that includes software properties that affect internal interactions. <!--SR:!2025-10-08,15,290!2025-10-07,14,290-->
   - programming complexity / sources ::@:: application domain, communication, management, tools <!--SR:!2025-10-08,15,290!2025-10-09,16,290-->
-    - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts\). <!--SR:!2025-10-09,16,290!2025-10-09,16,290-->
+    - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts_\). <!--SR:!2025-10-09,16,290!2025-10-09,16,290-->
     - programming complexity / sources / communication ::@:: Clients and developers have different _background_, _vocabulary_, etc. which is made worse by _ambiguity_ of human languages. <!--SR:!2025-10-08,15,290!2025-10-08,15,290-->
     - programming complexity / sources / management ::@:: _Dividing_ a project and _reassembling_ it is difficult. _Coordination_ between different _parts_ and _people_ is also difficult. <!--SR:!2025-10-09,16,290!2025-10-07,14,290-->
     - programming complexity / sources / tools ::@:: Creating useful _tools_ for software development is also complex. Indeed, creating the tools themselves also require software engineering. <!--SR:!2025-10-07,14,290!2025-10-08,15,290-->

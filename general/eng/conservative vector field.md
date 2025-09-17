@@ -83,7 +83,7 @@ Let {@{$n=3$ \(3-dimensional space\)}@}, and let {@{$\mathbf {v} :U\to \mathbb {
 
 For {@{this reason}@}, such vector fields are sometimes referred to as {@{curl-free vector fields or curl-less vector fields}@}. They are also referred to as {@{[longitudinal vector fields](Helmholtz%20decomposition.md#longitudinal%20and%20transverse%20fields)}@}. <!--SR:!2026-08-28,329,350!2025-10-06,76,330!2026-09-09,339,350-->
 
-It is {@{an [identity of vector calculus](vector%20calculus%20identities.md#curl%20of%20gradient%20is%20zero) that for any $C^{2}$ \([continuously differentiable up to the 2nd derivative](smoothness.md#multivariate%20differentiability%20classes)\) scalar field $\varphi$ on $U$}@}, we have {@{$$\nabla \times (\nabla \varphi )\equiv \mathbf {0} .$$}@} <!--SR:!2026-09-01,332,350!2025-10-06,76,330-->
+It is {@{an [identity of vector calculus](vector%20calculus%20identities.md#curl%20of%20gradient%20is%20zero)}@} that for {@{any $C^{2}$ \([continuously differentiable up to the 2nd derivative](smoothness.md#multivariate%20differentiability%20classes)\) scalar field $\varphi$ on $U$}@}, we have {@{$$\nabla \times (\nabla \varphi )\equiv \mathbf {0} .$$}@} <!--SR:!2026-09-01,332,350!2025-10-06,76,330-->
 
 Therefore, _{@{every $C^{1}$ conservative vector field in $U$}@} is also {@{an irrotational vector field in $U$}@}_. This result can be easily proved by {@{expressing $\nabla \times (\nabla \varphi )$ in a [Cartesian coordinate system](Cartesian%20coordinate%20system.md)}@} with {@{[Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem) \(also called Clairaut's theorem on equality of mixed partials\)}@}. <!--SR:!2025-10-06,76,330!2026-09-03,335,350!2026-09-18,348,350!2026-05-31,256,330-->
 

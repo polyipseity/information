@@ -141,7 +141,7 @@ STFTs as well as {@{standard Fourier transforms and other tools}@} are frequentl
 
 Original function {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} \(annotation: note the different notations used: {@{the $t$ and $\tau$ have swapped places compared to that used in previous definitions}@}\) <!--SR:!2026-09-10,344,349!2026-05-24,255,330-->
 
-Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$ <br/> $$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-06-13,270,330!2025-11-10,39,309-->
+Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$}@} <br/> {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-06-13,270,330!2025-11-10,39,309-->
 
 Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-08-27,333,349!2025-11-10,89,270-->
 
@@ -200,7 +200,7 @@ Applying {@{the recursive formula to calculate $X(n\Delta _{t},m\Delta _{f})$}@}
 > __flashcards__
 >
 > - direct implementation ::@:: $O(TFQ)$ \(annotation: For each time value and frequency, $2Q+1$ multiplications are needed.\) <!--SR:!2026-06-03,262,330!2026-08-14,323,349-->
-> - FFT-based ::@:: $O(TN\log _{2}N)$ \(annotation: Each time value requires a FFT. FFT gives the $F$ frequencies directly, and has a complexity of $N \log_2 N$.\) <!--SR:!2026-09-17,350,349!2026-09-04,339,349-->
+> - FFT-based ::@:: $O(TN\log _{2}N)$ \(annotation: Each time value requires a FFT. FFT gives the $F$ frequencies directly, and has a complexity of $O(N \log_2 N)$.\) <!--SR:!2026-09-17,350,349!2026-09-04,339,349-->
 > - recursive ::@:: $O(TF)$ \(annotation: Once the base case is calculated, for each time value and frequency, only 2 multiplications are needed.\) <!--SR:!2026-09-10,344,349!2026-09-15,348,349-->
 > - chirp Z-transform ::@:: $O(TN\log _{2}N)$ \(annotation: It is a generalization of DFT, and can be evaluated efficiently using FFT.\) <!--SR:!2026-08-11,318,349!2026-04-11,203,310-->
 
