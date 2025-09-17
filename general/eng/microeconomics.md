@@ -217,7 +217,7 @@ Information economics is {@{a branch of microeconomic theory}@} that studies {@{
 - [political economy](political%20economy.md) ::@:: It examines the role of political institutions in determining policy outcomes. <!--SR:!2028-02-04,923,330!2027-12-31,908,330-->
 - [public economics](public%20economics.md) ::@:: It examines the design of government [tax](tax.md) and expenditure policies and economic effects of these policies (e.g., social insurance programs). <!--SR:!2025-10-13,293,330!2028-09-15,1080,310-->
 - [urban economics](urban%20economics.md) ::@:: It examines the challenges faced by cities, such as sprawl, air and water pollution, traffic congestion, and poverty, and draws on the fields of urban geography and sociology. <!--SR:!2027-09-16,826,330!2026-05-23,400,290-->
-- [labor economics](labour%20economics.md) ::@:: It examines primarily labor markets, but comprises a large range of public policy issues such as immigration, minimum wages, or inequality. <!--SR:!2025-10-05,285,330!2026-07-10,456,310-->
+- [labor economics](labour%20economics.md) ::@:: It examines primarily labor markets, but comprises a large range of public policy issues such as immigration, minimum wages, or inequality. <!--SR:!2029-04-27,1300,350!2026-07-10,456,310-->
 
 ## see also
 

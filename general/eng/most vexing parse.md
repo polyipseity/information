@@ -12,18 +12,18 @@ tags:
 
 ## examples
 
-{@{Two common examples}@} are caused by {@{C-style casts and unnamed temporary}@}. <!--SR:!2026-06-23,634,330!2025-10-05,17,347-->
+{@{Two common examples}@} are caused by {@{C-style casts and unnamed temporary}@}. <!--SR:!2026-06-23,634,330!2025-12-22,78,367-->
 
 ### C-style casts
 
-{@{The following grammar}@} using {@{C-style casts}@} is {@{ambiguous}@}: <!--SR:!2025-10-06,18,347!2025-10-05,17,347!2025-10-05,17,347-->
+{@{The following grammar}@} using {@{C-style casts}@} is {@{ambiguous}@}: <!--SR:!2025-10-06,18,347!2025-12-22,78,367!2025-12-25,81,367-->
 
 ```C++
 double a_double(3.14);
 int an_int(int(a_double));
 ```
 
-{@{The intuitive interpretation}@} of line 2 is {@{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}@}. However, since {@{C allows superfluous parentheses around function parameter names}@}, the above can also be {@{interpreted as a function declaration, equivalent to}@}: <!--SR:!2027-02-08,806,330!2025-12-22,475,310!2025-10-06,18,347!2025-10-05,17,347-->
+{@{The intuitive interpretation}@} of line 2 is {@{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}@}. However, since {@{C allows superfluous parentheses around function parameter names}@}, the above can also be {@{interpreted as a function declaration, equivalent to}@}: <!--SR:!2027-02-08,806,330!2025-12-22,475,310!2025-10-06,18,347!2025-12-23,79,367-->
 
 ```C++
 int an_int(int a_double);
@@ -31,7 +31,7 @@ int an_int(int a_double);
 
 ### temporaries
 
-{@{The following grammar}@} involving {@{the creation of a temporary}@} is {@{ambiguous}@}: <!--SR:!2025-10-06,18,347!2025-10-06,18,347!2025-10-05,17,347-->
+{@{The following grammar}@} involving {@{the creation of a temporary}@} is {@{ambiguous}@}: <!--SR:!2025-10-06,18,347!2025-10-06,18,347!2025-12-24,80,367-->
 
 ```C++
 struct Child {};
@@ -51,7 +51,7 @@ The required interpretation of {@{a function declaration for the above ambiguous
 
 ### solutions for C-style casts
 
-For {@{C-style casts}@}, one can use {@{two alternative syntaxes}@}: {@{the alternative syntax for C-style casts}@}, or {@{more preferably in [C++](C++.md), a named cast}@}: <!--SR:!2027-02-24,819,330!2025-10-05,17,347!2025-10-07,19,347!2025-10-05,17,347-->
+For {@{C-style casts}@}, one can use {@{two alternative syntaxes}@}: {@{the alternative syntax for C-style casts}@}, or {@{more preferably in [C++](C++.md), a named cast}@}: <!--SR:!2027-02-24,819,330!2025-12-23,79,367!2025-10-07,19,347!2025-12-22,78,367-->
 
 ```C++
 int an_int((int)a_double); // C-style cast

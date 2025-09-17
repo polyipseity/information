@@ -54,7 +54,7 @@ The cheatsheet is provided during the final examination.
 
 ## math functions / conversion
 
-- `abs()` ::@:: absolute value <!--SR:!2025-10-05,271,330!2029-01-07,1199,350-->
+- `abs()` ::@:: absolute value <!--SR:!2029-02-22,1236,350!2029-01-07,1199,350-->
 - `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2029-01-22,1210,350-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2025-10-11,275,330-->
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
@@ -89,7 +89,7 @@ The cheatsheet is provided during the final examination.
 
 ## boolean operators
 
-- `and` ::@:: are both operands `True`? <!--SR:!2029-01-28,1216,350!2025-10-05,269,330-->
+- `and` ::@:: are both operands `True`? <!--SR:!2029-01-28,1216,350!2029-02-10,1224,350-->
 - `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2025-10-22,284,330!2025-10-23,285,330-->
 - `not` ::@:: flip `True`/`False` to one another <!--SR:!2025-10-17,281,330!2025-10-11,275,330-->
 

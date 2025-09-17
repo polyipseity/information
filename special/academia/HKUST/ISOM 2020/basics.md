@@ -145,7 +145,7 @@ return _chain.from_iterable(await _gather(
 - `<=`→::@::←`>` <!--SR:!2026-02-24,149,349!2029-11-12,1507,389-->
 - `>`→::@::←`>=` <!--SR:!2029-06-22,1388,389!2026-06-19,510,389-->
 - `>=`→::@::←`!=` <!--SR:!2029-04-23,1339,389!2026-03-19,409,329-->
-- `!=`→::@::←`==` <!--SR:!2025-10-05,304,369!2026-05-21,485,389-->
+- `!=`→::@::←`==` <!--SR:!2029-12-20,1537,389!2026-05-21,485,389-->
 - `==`→::@::←_(end)_ <!--SR:!2028-10-19,1185,389!2025-12-19,354,369-->
 
 <!--/pytextgen-->
@@ -261,7 +261,7 @@ One does not need to {@{declare the variable and its type before assigning to it
 
 Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2026-11-16,608,330!2028-07-18,1097,350-->
 
-Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2025-10-05,308,342-->
+Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2029-09-23,1449,362-->
 
 ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should NOT be used in exercises or exams}@}. <!--SR:!2027-02-08,688,417!2027-02-04,685,417-->
 

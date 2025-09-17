@@ -73,7 +73,7 @@ Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pain
 
 Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2026-01-12,381,249!2027-02-02,794,349!2028-07-01,1206,350-->
 
-Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2025-10-05,402,365!2028-09-27,1238,365!2026-10-04,678,344-->
+Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2026-04-19,196,345!2028-09-27,1238,365!2026-10-04,678,344-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2029-03-08,1297,309!2027-06-01,683,269-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation <!--SR:!2027-08-23,710,245!2028-02-07,979,305-->
 - opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2026-04-24,325,209-->
-- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-10-05,201,169!2026-03-27,353,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2026-09-03,333,169!2026-03-27,353,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2027-03-27,704,289-->
 
 <!--/pytextgen-->

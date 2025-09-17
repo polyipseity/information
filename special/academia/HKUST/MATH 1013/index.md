@@ -59,7 +59,7 @@ tags:
     - Midterms have tighter time limit than the final examination, actually...
       - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2028-11-14,1141,350!2025-10-18,261,330-->
     - Sometimes you do not need to find the root of a solution, you just need to show its existence using the intermediate value theorem (IVT).
-      - mathematically proving existence ::@:: If a question requires to prove something exist only, also consider using a non-constructive proof. <!--SR:!2025-10-05,254,330!2027-10-09,798,330-->
+      - mathematically proving existence ::@:: If a question requires to prove something exist only, also consider using a non-constructive proof. <!--SR:!2028-12-04,1156,350!2027-10-09,798,330-->
 - final examination
   - report
     - Remember the conditions for the algebraic limit theorem...

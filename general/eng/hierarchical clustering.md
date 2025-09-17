@@ -79,7 +79,7 @@ return chain.from_iterable(await gather(
 - centroid linkage clustering→::@::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-10-30,385,295!2027-10-21,912,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→::@::←median linkage clustering <!--SR:!2027-04-14,779,295!2029-01-31,1269,295-->
 - median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2025-12-11,415,295-->
-- [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2025-10-05,362,295!2026-09-14,506,235-->
+- [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2029-10-26,1482,315!2026-09-14,506,235-->
 - unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!2026-07-01,485,275!2028-07-17,1143,315-->
 - weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2027-10-19,868,315-->
 
@@ -130,7 +130,7 @@ return chain.from_iterable(await gather(
 - $d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$:@:[Ward's method](Ward's%20method.md) <!--SR:!2025-12-04,432,295-->
 - $d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$:@:centroid linkage clustering <!--SR:!2026-10-30,653,315-->
 - $d(A, B) = \max_{a \in A, b \in B} d(a, b)$:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2029-05-01,1438,355-->
-- $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$:@:median linkage clustering <!--SR:!2025-10-05,404,315-->
+- $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$:@:median linkage clustering <!--SR:!2030-07-30,1759,335-->
 - $d(A, B) = \min_{a \in A, b \in B} d(a, b)$:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-11-04,1301,355-->
 - $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$:@:unweighted average linkage clustering <!--SR:!2026-12-26,760,335-->
 - $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$:@:weighted average linkage clustering <!--SR:!2026-01-17,432,295-->

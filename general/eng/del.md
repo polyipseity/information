@@ -104,7 +104,7 @@ While {@{$\nabla ^{2}$ usually represents the [Laplacian](Laplacian.md)}@}, some
 
 Del can also be {@{applied to a vector field with the result being a [tensor](tensor.md)}@}. {@{The [tensor derivative](tensor%20derivative.md) of a vector field $\mathbf {v}$ \(in three dimensions\)}@} is {@{a 9-term second-rank tensor – that is, a 3×3 matrix}@} – but can be denoted simply as {@{$\nabla \otimes \mathbf {v}$}@}, where {@{$\otimes$ represents the [dyadic product](dyadic%20product.md)}@}. This quantity is equivalent to {@{the transpose of the [Jacobian matrix](Jacobian%20matrix.md) of the vector field with respect to space}@}. {@{The divergence of the vector field}@} can then be expressed as {@{the [trace](trace%20(linear%20algebra).md) of this matrix}@}. <!--SR:!2026-01-14,252,330!2027-07-08,661,330!2026-03-05,292,330!2026-03-10,293,330!2026-01-22,259,330!2025-12-10,203,310!2026-01-31,259,330!2025-11-04,181,310-->
 
-For {@{a small displacement $\delta \mathbf {r}$}@}, {@{the change in the vector field}@} is given by: {@{$$\delta \mathbf {v} =(\nabla \otimes \mathbf {v} )^{T}\cdot \delta \mathbf {r}$$ (annotation: $(\nabla \otimes \mathbf v)^\intercal$ is the Jacobian matrix)}@} <!--SR:!2025-10-05,170,310!2025-10-13,177,310!2026-04-14,297,290-->
+For {@{a small displacement $\delta \mathbf {r}$}@}, {@{the change in the vector field}@} is given by: {@{$$\delta \mathbf {v} =(\nabla \otimes \mathbf {v} )^{T}\cdot \delta \mathbf {r}$$ (annotation: $(\nabla \otimes \mathbf v)^\intercal$ is the Jacobian matrix)}@} <!--SR:!2027-03-16,527,310!2025-10-13,177,310!2026-04-14,297,290-->
 
 ## product rules
 

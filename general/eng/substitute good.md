@@ -21,7 +21,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 
 > {@{![Figure 1: If the price of x_i increases, then demand for x_j increases](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20substitutes%20xi%20xj.svg)}@}
 >
-> Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2026-02-06,353,350!2025-10-05,251,330-->
+> Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2026-02-06,353,350!2028-11-20,1142,350-->
 
 {@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!2026-11-18,537,310!2025-10-30,268,330-->
 

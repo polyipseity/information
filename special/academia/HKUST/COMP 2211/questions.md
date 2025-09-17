@@ -426,7 +426,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(2 * a + 4 * np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-10-05,203,310-->
+> - solution: {@{`print(2 * a + 4 * np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2027-06-26,629,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-12-29,288,330!2025-10-05,181,270-->
+> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-12-29,288,330!2027-02-06,489,270-->
 
 <!-- markdownlint MD028 -->
 

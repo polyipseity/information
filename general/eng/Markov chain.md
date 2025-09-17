@@ -202,11 +202,11 @@ If {@{all states in an irreducible Markov chain are ergodic}@}, then {@{the chai
 
 It can be shown that {@{a finite state irreducible Markov chain is ergodic if it has an aperiodic state}@}. More generally, {@{a Markov chain is ergodic}@} if {@{there is a number _N_ such that any state can be reached from any other state in any number of steps less or equal to a number _N_}@}. In case of {@{a fully connected transition matrix, where all transitions have a non-zero probability}@}, {@{this condition is fulfilled with <!-- markdown separator -->_N_<!-- markdown separator --> = 1}@}. <!--SR:!2026-04-30,403,367!2026-04-08,386,367!2027-02-06,585,321!2026-01-23,320,341!2025-11-26,274,341-->
 
-{@{A Markov chain with more than one state and just one out-going transition per state}@} is {@{either not irreducible or not aperiodic}@}, hence {@{cannot be ergodic}@}. <!--SR:!2028-03-16,918,341!2025-10-05,214,321!2026-04-12,387,359-->
+{@{A Markov chain with more than one state and just one out-going transition per state}@} is {@{either not irreducible or not aperiodic}@}, hence {@{cannot be ergodic}@}. <!--SR:!2028-03-16,918,341!2027-08-23,687,321!2026-04-12,387,359-->
 
 #### terminology
 
-Some authors call {@{any irreducible, positive recurrent Markov chains ergodic, even periodic ones}@}.<sup>[\[51\]](#^ref-51)</sup> In fact, {@{merely irreducible Markov chains correspond to [ergodic processes](ergodicity.md)}@}, defined {@{according to [ergodic theory](ergodic%20theory.md)}@}.<sup>[\[52\]](#^ref-52)</sup> <!--SR:!2025-10-05,195,279!2025-12-24,280,347!2026-04-14,390,367-->
+Some authors call {@{any irreducible, positive recurrent Markov chains ergodic, even periodic ones}@}.<sup>[\[51\]](#^ref-51)</sup> In fact, {@{merely irreducible Markov chains correspond to [ergodic processes](ergodicity.md)}@}, defined {@{according to [ergodic theory](ergodic%20theory.md)}@}.<sup>[\[52\]](#^ref-52)</sup> <!--SR:!2027-03-28,539,279!2025-12-24,280,347!2026-04-14,390,367-->
 
 Some authors call {@{a matrix _primitive_ \(annotation: remember this for below\)}@} iff {@{there exists some integer $k$ such that all entries of $M^{k}$ are positive}@}.<sup>[\[53\]](#^ref-53)</sup> (annotation: $M$ is {@{the transition probability matrix}@}.) Some authors call it {@{_regular_}@}.<sup>[\[54\]](#^ref-54)</sup> <!--SR:!2026-04-01,380,367!2025-12-07,267,339!2026-04-16,392,367!2026-01-06,306,341-->
 

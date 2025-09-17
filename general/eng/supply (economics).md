@@ -101,7 +101,7 @@ __Time to respond:__ ::@:: The more time a producer has to respond to price chan
 
 __Excess capacity:__ ::@:: A producer who has unused capacity can quickly respond to price changes in his market assuming that variable factors are readily available. <!--SR:!2025-11-09,276,330!2025-10-16,256,330-->
 
-__Inventories:__ ::@:: A producer who has a supply of goods or available storage capacity can quickly respond to price changes. <!--SR:!2025-11-12,277,330!2025-10-05,247,330-->
+__Inventories:__ ::@:: A producer who has a supply of goods or available storage capacity can quickly respond to price changes. <!--SR:!2025-11-12,277,330!2028-11-02,1124,350-->
 
 {@{Other [elasticities](elasticity%20(economics).md)}@} can be {@{calculated for non-price determinants of supply}@}. For example, {@{the percentage change the amount of the good supplied caused by a one percent increase in the price of a related good}@} is {@{an input elasticity of supply if the related good is an input in the production process}@}.<!-- <sup>\[_[citation needed](Wikipedia:Citation%20needed.md)_\]</sup> --> An example would be {@{the change in the supply of cookies caused by a one percent increase in the price of sugar}@}. <!--SR:!2025-11-22,286,330!2027-12-03,848,330!2027-07-28,746,330!2025-10-18,257,330!2025-11-08,274,330-->
 

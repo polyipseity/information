@@ -106,7 +106,7 @@ If we have {@{a binary tree `tr :: Tree a` and a function `f :: a -> b`}@}, {@{t
 ## see also
 
 - [Functor in category theory](functor.md)
-- [Applicative functor](applicative%20functor.md), ::@:: a special type of functor <!--SR:!2026-02-01,303,335!2025-10-05,203,315-->
+- [Applicative functor](applicative%20functor.md), ::@:: a special type of functor <!--SR:!2026-02-01,303,335!2028-03-12,889,335-->
 
 ## references
 

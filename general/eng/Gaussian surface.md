@@ -17,7 +17,7 @@ tags:
 
 For {@{concreteness}@}, {@{the electric field is considered in this article}@}, as {@{this is the most frequent type of field the surface concept is used for}@}. <!--SR:!2026-03-04,286,330!2026-03-10,294,330!2026-01-15,254,330-->
 
-Gaussian surfaces are usually {@{carefully chosen to exploit [symmetries](symmetry.md) of a situation to simplify the calculation of the [surface integral](surface%20integral.md)}@}. If {@{the Gaussian surface is chosen such that for every point on the surface the component of the electric field along the [normal vector](normal%20vector.md) is constant}@}, then {@{the calculation will not require difficult integration as the constants which arise can be taken out of the integral}@}. It is defined as {@{the closed surface in three dimensional space by which the flux of vector field be calculated}@}. <!--SR:!2026-03-02,286,330!2026-01-10,249,330!2026-01-20,257,330!2025-10-05,170,310-->
+Gaussian surfaces are usually {@{carefully chosen to exploit [symmetries](symmetry.md) of a situation to simplify the calculation of the [surface integral](surface%20integral.md)}@}. If {@{the Gaussian surface is chosen such that for every point on the surface the component of the electric field along the [normal vector](normal%20vector.md) is constant}@}, then {@{the calculation will not require difficult integration as the constants which arise can be taken out of the integral}@}. It is defined as {@{the closed surface in three dimensional space by which the flux of vector field be calculated}@}. <!--SR:!2026-03-02,286,330!2026-01-10,249,330!2026-01-20,257,330!2027-10-06,731,330-->
 
 ## common Gaussian surfaces
 
@@ -43,7 +43,7 @@ This is {@{Gauss's law}@}, combining {@{both the [divergence theorem](divergence
 
 As an example, consider {@{a charged spherical shell _S_ of negligible thickness, with a uniformly distributed charge _Q_ and radius _R_}@}. We can {@{use Gauss's law}@} to {@{find the magnitude of the resultant electric field _E_ at a distance _r_ from the center of the charged shell}@}. It is immediately apparent that {@{for a spherical Gaussian surface of radius _r_ \< _R_ the enclosed charge is zero}@}: hence {@{the net flux is zero and the magnitude of the electric field on the Gaussian surface is also 0}@} \(by letting {@{_Q_<sub>_A_</sub> = 0 in Gauss's law, where _Q_<sub>_A_</sub> is the charge enclosed by the Gaussian surface}@}\). <!--SR:!2025-11-02,180,310!2026-02-05,259,330!2026-03-10,292,330!2025-11-08,193,310!2025-10-31,178,310!2025-10-16,180,310-->
 
-With the same example, using {@{a larger Gaussian surface outside the shell where _r_ \> _R_}@}, Gauss's law will {@{produce a non-zero electric field}@}. This is determined as follows. <!--SR:!2025-10-05,167,310!2026-01-11,250,330-->
+With the same example, using {@{a larger Gaussian surface outside the shell where _r_ \> _R_}@}, Gauss's law will {@{produce a non-zero electric field}@}. This is determined as follows. <!--SR:!2027-09-21,716,330!2026-01-11,250,330-->
 
 {@{The flux out of the spherical surface _S_}@} is: {@{$$\Phi _{E} = \oiint_{\partial S} \mathbf {E} \cdot d\mathbf {A} =\iint _{c}EdA\cos 0^{\circ }=E\iint _{S}dA$$}@} <!--SR:!2026-01-19,256,330!2026-02-22,276,330-->
 

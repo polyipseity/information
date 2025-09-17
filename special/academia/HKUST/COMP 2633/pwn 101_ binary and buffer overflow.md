@@ -37,7 +37,7 @@ The meanings of the 4 segments are:
 - heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2028-09-09,1126,350!2028-06-27,1068,350-->
 - stack ::@:: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address). <!--SR:!2027-02-07,601,310!2027-04-16,709,330-->
 
-Note that the `.rodata` (read-only data) section is located on the read-execute segment. This means {@{the program can execute the data in `.rodata` section as code, which makes it less secure}@}. The linkers of some newer Linux distributions {@{add an additional one or two read segments (the program can only read from it) for the ELF header and `.rodata` section to improve security}@}. <!--SR:!2025-10-05,285,330!2025-10-05,285,330-->
+Note that the `.rodata` (read-only data) section is located on the read-execute segment. This means {@{the program can execute the data in `.rodata` section as code, which makes it less secure}@}. The linkers of some newer Linux distributions {@{add an additional one or two read segments (the program can only read from it) for the ELF header and `.rodata` section to improve security}@}. <!--SR:!2029-04-24,1297,350!2028-05-04,942,330-->
 
 ## executable and linkable format
 
@@ -112,7 +112,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->
 - `finish` ::@:: run until the current function returns <!--SR:!2025-10-11,291,330!2028-10-13,1151,350-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
-- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-10-05,285,330!2028-09-17,1133,350-->
+- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2029-04-23,1296,350!2028-09-17,1133,350-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2028-06-19,1062,350-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2028-12-03,1194,350!2028-07-09,1072,350-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2028-08-26,1115,350-->
@@ -150,7 +150,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2027-09-19,819,330!2028-08-13,1107,350!2027-03-14,694,330!2027-08-18,804,330!2025-10-05,292,330-->
+The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2027-09-19,819,330!2028-08-13,1107,350!2027-03-14,694,330!2027-08-18,804,330!2029-05-31,1334,350-->
 
 ```C
 char buffer[4];

@@ -49,7 +49,7 @@ See also [Vim help files](https://vimhelp.org/).
 - quit insert mode ::@:: \<Esc\> <!--SR:!2028-08-28,1591,353!2028-05-13,1504,353-->
 - insert before cursor ::@:: \[[repeat N](#^repeatN)\]i <!--SR:!2025-10-10,727,313!2026-08-22,914,328-->
 - insert after cursor ::@:: \[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2026-01-03,792,328-->
-- insert after end of line ::@:: \[[repeat N](#^repeatN)\]A <!--SR:!2025-10-05,640,273!2027-06-24,1158,333-->
+- insert after end of line ::@:: \[[repeat N](#^repeatN)\]A <!--SR:!2032-06-08,2438,293!2027-06-24,1158,333-->
 - change text from cursor to ([motion](#motion)) ::@:: c([motion](#motion)) <!--SR:!2033-08-15,2945,333!2033-03-07,2805,333-->
 - insert lines below cursor ::@:: \[[repeat N](#^repeatN)\]o <!--SR:!2026-05-03,766,273!2027-08-23,1220,313-->
 - insert lines above cursor ::@:: \[[repeat N](#^repeatN)\]O <!--SR:!2025-10-09,727,313!2033-11-04,2996,333-->

@@ -71,7 +71,7 @@ The content is in teaching order.
 - topic: introduction to OM
 - about the instructor
 - course logistics
-- [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2025-10-05,181,310!2026-02-13,289,330-->
+- [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2027-11-27,783,330!2026-02-13,289,330-->
   - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2026-10-31,472,310!2026-01-31,276,330-->
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2027-07-22,687,330!2025-12-13,240,330-->
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2026-02-10,260,290!2025-10-07,181,310-->

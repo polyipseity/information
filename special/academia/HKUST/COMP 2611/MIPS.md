@@ -191,7 +191,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - compare greater than single ::@:: `c.gt.s $fs, $ft`: `$FLAG = $fs > $ft;` <!--SR:!2025-11-23,128,404!2025-11-20,126,404-->
 - compare greater than or equal to double ::@:: `c.ge.d $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-11-21,126,404!2025-11-18,123,404-->
 - compare greater than or equal to single ::@:: `c.ge.s $fs, $ft`: `$FLAG = $fs >= $ft;` <!--SR:!2025-11-19,124,404!2025-11-19,124,404-->
-- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-10-05,84,384!2025-11-21,126,404-->
+- compare less than double ::@:: `c.lt.d $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-11-16,42,364!2025-11-21,126,404-->
 - compare less than single ::@:: `c.lt.s $fs, $ft`: `$FLAG = $fs < $ft;` <!--SR:!2025-11-18,123,404!2025-11-19,125,404-->
 - compare less than or equal to double ::@:: `c.le.d $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-11-30,131,404!2025-11-18,124,404-->
 - compare less than or equal to single ::@:: `c.le.s $fs, $ft`: `$FLAG = $fs <= $ft;` <!--SR:!2025-11-19,124,404!2025-11-28,129,404-->
