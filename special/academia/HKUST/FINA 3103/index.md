@@ -214,10 +214,10 @@ The content is in teaching order.
   - bid–ask spread / quoted price ::@:: Typically the quoted price is the last execution price, which is neither the bid price, ask price, nor midpoint price.
 - order
   - order / conditional order
-  - order / stop order ::@:: It is an order to buy or sell a stock once the price of the stock reaches a specified price, known as the __stop price__. When the stop price is reached, a stop order becomes a market order.
+  - order / stop order ::@:: It is an order to buy or sell a stock once the price of the stock reaches a specified price, known as the __stop price__. When the stop price is reached, a stop order becomes a market order. <p> \(__this course__: If the stop order is triggered, it becomes either a market order or limit order.\)
     - order / stop order / buy-stop order ::@:: A buy-stop order is entered at a stop price above the current market price. Investors generally use a buy-stop order to limit a loss, or to protect a profit, on a stock that they have sold short.
     - order / stop order / sell-stop order ::@:: A sell-stop order is entered at a stop price below the current market price. Investors generally use a sell-stop order to limit a loss or to protect a profit on a stock that they own.
-    - order / stop order / note ::@:: A buy-stop order waits for the price to go _above_ \(excluding _equal to_\), not _below or equal to_ the stop price to buy. Otherwise, it would be a buy-limit order instead. The same goes for sell-stop order. <p> \(__this course__: If the stop order is triggered, it can behave either as a limit order or market order.\)
+    - order / stop order / note ::@:: A buy-stop order waits for the price to go _above_ \(excluding _equal to_\), not _below or equal to_ the stop price to buy. Otherwise, it would be a buy-limit order instead. The same goes for sell-stop order. <p> \(__this course__: If the stop order is triggered, it becomes either a market order or limit order.\)
 - order book
   - order book / limit order book
     - order book / limit order book / features ::@:: discriminatory double auction, _ex-ante_ commitment \(trade after placing order\), price—time priority, transparency regime
