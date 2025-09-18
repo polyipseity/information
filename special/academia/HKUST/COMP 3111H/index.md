@@ -103,13 +103,12 @@ The content is in teaching order.
   - COMP 3111H / rules
   - COMP 3111H / project ::2:: specification \(from system requirements\) → implementation and testing
 - [§ week 1 pre-lecture](#week%201%20pre%20lecture)
-- [questions § week 1 lecture](questions.md#week%201%20lecture)
+- [questions § week 1 lecture](questions/index.md#week%201%20lecture)
 
 ## week 1 lab
 
 - datetime: 2025-09-04T18:00:00+08:00/2025-09-04T19:50:00+08:00, PT1H50M
 - status: unscheduled
-- [questions § week 1 lab](questions.md#week%201%20lab)
 
 ---
 
@@ -125,6 +124,75 @@ The content is in teaching order.
 >
 > Cheers, <br/>
 > \[redacted\]
+
+## week 2 pre-lecture
+
+- topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
+- [Unified Modeling Language](../../../../general/Unified%20Modeling%20Language.md) \(UML\) ::@:: It is a general-purpose, object-oriented, visual modeling language that provides a way to visualize the architecture and design of a system; like a blueprint. <p> It makes us think about the world in a certain way.
+  - Unified Model Language / characteristics ::@:: current best practices, independent of software development methodology, industry standard \(especially for object-oriented systems, but can be used for non-OO systems as well\), visual modeling language
+  - Unified Model Language / idea ::@:: A \(software\) system can modeled as a _collection_ of _collaborating_ objects.
+  - Unified Model Language / building blocks ::@:: diagrams, relations, things, etc.
+  - Unified Model Language / mechanisms ::@:: adornments, division, extension, specification, etc.
+  - Unified Model Language / architectures ::@:: They are perspectives to build a requirement model and solution model: deployment view, implementation view, logical view, process view, use-case view, etc.
+  - Unified Model Language / motivation ::@:: Models can describe the _essential_ details of reality only. This facilitates better communication \(e.g. ensure the system idea is the same\) among different stakeholders, e.g. clients, developers, etc. This also allows focusing on the _big picture_ without excess details \(e.g. programming-in-the-large, etc.\). By reducing _complexity_, user requirements are better _understood_, architectures/designs are _cleaner_, and implementations are more _maintainable_.
+  - Unified Model Language / object orientation ::@:: Many application domains can be modeled easily using _objects_. The _semantic gap_ is smaller. This is also how most people view reality.
+  - Unified Model Language / abstraction levels ::@:: requirements: A _requirement model_ is constructed. Objects and their relations in the _application domain_ are identified. Their _implementation_ details are omitted. <br/> analysis, design: A _solution model_ is constructed. On top of the _requirement model_, _interface_ implementation details are considered, but no _internal_ implementation details. <br/> implementation: A _solution model_ is _implemented_. Even _internal_ implementation details are considered.
+- [UML](UML.md)
+  - [§ classes](UML.md#classes)
+  - [§ attributes](UML.md#attributes)
+  - [§ operations](UML.md#operations)
+  - [§ why classes](UML.md#why%20classes)
+  - [§ associations](UML.md#associations)
+  - [§ association degree](UML.md#association%20degree)
+  - [§ association multiplicity](UML.md#association%20multiplicity)
+  - [§ association roles](UML.md#association%20roles)
+  - [§ association with additional semantics](UML.md#association%20with%20additional%20semantics)
+  - [§ association aggregations](UML.md#association%20aggregations)
+  - [§ association compositions](UML.md#association%20compositions)
+- quiz: [quiz 2](questions/quiz%202.md)
+- UML
+  - [§ association classes](UML.md#association%20classes)
+  - [§ association generalizations](UML.md#association%20generalizations)
+  - [§ generalization and inheritance](UML.md#generalization%20and%20inheritance)
+  - [§ abstract entities](UML.md#abstract-entities)
+  - [§ generalization properties](UML.md#generalization%20properties)
+  - [§ constraints](UML.md#constraints)
+  - [§ dependencies](UML.md#dependencies)
+  - [§ realizations](UML.md#realizations)
+- Unified Model Language
+  - Unified Model Language / static modeling ::@:: It is for modeling data.
+  - Unified Model Language / dynamic modeling ::@:: It is for modeling programs \(program behavior\).
+- quiz: [quiz 3](questions/quiz%203.md)
+
+## week 2 lecture
+
+- datetime: 2025-09-10T12:30:00+08:00/2025-09-10T14:20:00+08:00, PT1H50M
+- topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
+- [§ week 2 pre-lecture](#week%202%20pre%20lecture)
+- [questions § week 2 lecture](questions/index.md#week%202%20lecture)
+
+## week 2 lab
+
+- datetime: 2025-09-11T18:00:00+08:00/2025-09-11T19:50:00+08:00, PT1H50M
+- topic:
+
+## week 3 pre-lecture
+
+- topic:
+- quiz: [quiz 4](questions/quiz%204.md)
+- quiz: [quiz 5](questions/quiz%205.md)
+
+## week 3 lecture
+
+- datetime: 2025-09-17T12:30:00+08:00/2025-09-17T14:20:00+08:00, PT1H50M
+- topic:
+- [§ week 3 pre-lecture](#week%203%20pre%20lecture)
+- [questions § week 3 lecture](questions/index.md#week%203%20lecture)
+
+## week 3 lab
+
+- datetime: 2025-09-18T18:00:00+08:00/2025-09-18T19:50:00+08:00, PT1H50M
+- topic:
 
 ## aftermath
 
