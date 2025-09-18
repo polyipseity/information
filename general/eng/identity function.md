@@ -31,7 +31,7 @@ Formally, if {@{_X_ is a [set](set%20(mathematics).md)}@}, the identity function
 
 {@{_f_\(_x_\) = _x_   for all elements _x_}@} in _X_.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-02-08,285,330-->
 
-In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-11,288,330!2026-02-03,280,330!2025-10-06,181,310-->
+In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-02-11,288,330!2026-02-03,280,330!2027-11-21,776,330-->
 
 {@{The identity function _f_ on _X_}@} is often denoted {@{by id<sub>_X_</sub>}@}. <!--SR:!2026-01-26,276,330!2026-01-15,267,330-->
 

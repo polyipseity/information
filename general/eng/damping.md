@@ -111,7 +111,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >   - [spring](spring%20(device).md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c = 2 \sqrt{km}$ is the vicious damping coefficient}@}
 >   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} } = 1$ is the damping ratio, and $\lambda = \omega_n \zeta = \omega_n$ is the decay rate}@}
->   - initial properties: {@{$A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}@} <!--SR:!2027-03-17,845,330!2026-05-28,564,270!2025-10-06,159,270!2026-09-25,639,270!2026-07-10,326,230!2029-05-11,1363,283-->
+>   - initial properties: {@{$A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}@} <!--SR:!2027-03-17,845,330!2026-05-28,564,270!2027-05-21,592,290!2026-09-25,639,270!2026-07-10,326,230!2029-05-11,1363,283-->
 
 <!-- markdownlint MD028 -->
 

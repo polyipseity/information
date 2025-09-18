@@ -71,7 +71,7 @@ By {@{multiplying all members of the summation in the numerator by: ${\begin{ali
 
 ### interpretation about the intercept
 
-{@{$${\begin{aligned}{\widehat {\alpha } }&={\bar {y} }-{\widehat {\beta } }\,{\bar {x} },\\[5pt]\end{aligned} }$$}@} Given {@{${\widehat {\beta } }=\tan(\theta )=dy/dx\rightarrow dy=dx\times {\widehat {\beta } }$}@} with {@{$\theta$ the angle the line makes with the positive x axis}@}, we have {@{$y_{\rm {intersection} }={\bar {y} }-dx\times {\widehat {\beta } }={\bar {y} }-dy$}@} <!--SR:!2025-12-23,249,330!2026-01-24,274,330!2027-07-07,676,330!2025-10-06,181,310-->
+{@{$${\begin{aligned}{\widehat {\alpha } }&={\bar {y} }-{\widehat {\beta } }\,{\bar {x} },\\[5pt]\end{aligned} }$$}@} Given {@{${\widehat {\beta } }=\tan(\theta )=dy/dx\rightarrow dy=dx\times {\widehat {\beta } }$}@} with {@{$\theta$ the angle the line makes with the positive x axis}@}, we have {@{$y_{\rm {intersection} }={\bar {y} }-dx\times {\widehat {\beta } }={\bar {y} }-dy$}@} <!--SR:!2025-12-23,249,330!2026-01-24,274,330!2027-07-07,676,330!2027-11-22,777,330-->
 
 ### interpretation about the correlation
 

@@ -49,7 +49,7 @@ Note that {@{a diagram may be non-commutative}@}, i.e., {@{the composition of di
 
 ### example 1
 
-In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2026-01-16,268,330!2026-01-18,269,330!2025-10-06,181,310!2026-02-15,291,330!2026-02-11,288,330-->
+In {@{the left diagram, which expresses the [first isomorphism theorem](isomorphism%20theorems.md#first%20isomorphism%20theorem)}@}, {@{commutativity of the triangle}@} means that {@{$f={\tilde {f} }\circ \pi$}@}. In the right diagram, {@{commutativity of the square}@} means {@{$h\circ f=k\circ g$}@}. <!--SR:!2026-01-16,268,330!2026-01-18,269,330!2027-11-28,783,330!2026-02-15,291,330!2026-02-11,288,330-->
 
 |                                                                                                                                                                                                                           |                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

@@ -67,7 +67,7 @@ There are {@{many equivalent definitions of a category}@}.<sup>[\[a\]](#^ref-a)<
 - a __codomain__ or __target__ class function ::@:: cod: mor\(C\) → ob\(C\), <!--SR:!2025-10-16,201,310!2025-12-27,276,330-->
 - for every three objects _a_, _b_ and _c_, ::@:: a binary operation hom\(_a_, _b_\) × hom\(_b_, _c_\) → hom\(_a_, _c_\) called __composition of morphisms__. Here hom\(_a_, _b_\) denotes the subclass of morphisms _f_ in mor\(_C_\) such that dom\(f\) = _a_ and cod\(f\) = _b_. Morphisms in this subclass are written _f_ : _a_ → _b_, and the composite of _f_ : _a_ → _b_ and _g_ : _b_ → _c_ is often written as _g_ ∘ _f_ or _gf_. <!--SR:!2025-12-31,278,330!2025-12-28,276,330-->
 
-such that the following axioms hold: (annotation: {@{associative law, left and right unit laws}@}) <!--SR:!2025-10-06,195,310-->
+such that the following axioms hold: (annotation: {@{associative law, left and right unit laws}@}) <!--SR:!2028-01-25,841,330-->
 
 - the _[associative law](associative%20property.md)_: ::@:: if _f_ : _a_ → _b_, _g_ : _b_ → _c_ and _h_ : _c_ → _d_ then _h_ ∘ \(_g_ ∘ _f_\) = \(_h_ ∘ _g_\) ∘ _f_, and <!--SR:!2025-11-25,250,330!2025-12-24,273,330-->
 - the __\([left and right unit laws](identity%20(mathematics).md)\)__: ::@:: for every object _x_, there exists a morphism 1<sub>_x_</sub> : _x_ → _x_ \(some authors write _id_<sub>_x_</sub>\) called the _identity morphism for x_, such that every morphism _f_ : _a_ → _x_ satisfies 1<sub>_x_</sub> ∘ _f_ = _f_, and every morphism _g_ : _x_ → _b_ satisfies _g_ ∘ 1<sub>_x_</sub> = _g_. <!--SR:!2025-12-24,273,330!2026-01-13,289,330-->

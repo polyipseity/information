@@ -22,7 +22,7 @@ In {@{[probability theory](probability%20theory.md) and [statistics](statistics.
 {@{The first few central moments}@} have {@{intuitive interpretations}@}: <!--SR:!2026-01-07,263,330!2026-01-10,265,330-->
 
 - The "zeroth" central moment _μ_<sub>0</sub> ::@:: is 1. <!--SR:!2026-01-05,262,330!2026-01-01,259,330-->
-- The first central moment _μ_<sub>1</sub> ::@:: is 0 \(not to be confused with the first [raw moment](raw%20moment.md) or the [expected value](expected%20value.md) _μ_\). <!--SR:!2026-02-08,289,330!2025-10-06,187,310-->
+- The first central moment _μ_<sub>1</sub> ::@:: is 0 \(not to be confused with the first [raw moment](raw%20moment.md) or the [expected value](expected%20value.md) _μ_\). <!--SR:!2026-02-08,289,330!2027-12-18,803,330-->
 - The second central moment _μ_<sub>2</sub> ::@:: is called the [variance](variance.md), and is usually denoted _σ_<sup>2</sup>, where σ represents the [standard deviation](standard%20deviation.md). <!--SR:!2026-01-08,264,330!2026-02-16,293,330-->
 - The third and fourth central moments ::@:: are used to define the [standardized moments](standardized%20moment.md) which are used to define [skewness](skewness.md) and [kurtosis](kurtosis.md), respectively. <!--SR:!2026-02-16,293,330!2026-02-06,287,330-->
 
@@ -30,7 +30,7 @@ In {@{[probability theory](probability%20theory.md) and [statistics](statistics.
 
 For {@{all _n_, the _n_<!-- markdown separator -->th central moment}@} is {@{[homogeneous](homogeneous%20function.md) of degree _n_: $$\mu _{n}(cX)=c^{n}\mu _{n}(X).\,$$}@} <!--SR:!2026-01-04,261,330!2025-12-25,252,330-->
 
-{@{_Only_ for _n_ such that n equals 1, 2, or 3}@} do we have {@{an additivity property for random variables _X_ and _Y_ that are [independent](statistical%20independence.md)}@}: <p> {@{$\mu _{n}(X+Y)=\mu _{n}(X)+\mu _{n}(Y)\,$ provided _n_ ∈ {1, 2, 3}<!-- flashcard separator -->}@}. <!--SR:!2026-01-22,276,330!2025-10-06,185,310!2026-01-22,275,330-->
+{@{_Only_ for _n_ such that n equals 1, 2, or 3}@} do we have {@{an additivity property for random variables _X_ and _Y_ that are [independent](statistical%20independence.md)}@}: <p> {@{$\mu _{n}(X+Y)=\mu _{n}(X)+\mu _{n}(Y)\,$ provided _n_ ∈ {1, 2, 3}<!-- flashcard separator -->}@}. <!--SR:!2026-01-22,276,330!2027-12-16,801,330!2026-01-22,275,330-->
 
 {@{A related functional that shares the translation-invariance and homogeneity properties with the _n_<!-- markdown separator -->th central moment}@}, but {@{continues to have this additivity property even when _n_ ≥ 4}@} is {@{the _n_<!-- markdown separator -->th [cumulant](cumulant.md) κ<sub>_n_</sub>\(_X_\)}@}. For {@{_n_ = 1, the _n_<!-- markdown separator -->th cumulant is just the [expected value](expected%20value.md)}@}; for {@{_n_ = either 2 or 3, the _n_<!-- markdown separator -->th cumulant is just the _n_<!-- markdown separator -->th central moment}@}; for {@{_n_ ≥ 4, the _n_<!-- markdown separator -->th cumulant}@} is {@{an _n_<!-- markdown separator -->th-degree monic polynomial in the first _n_ moments \(about zero\)}@}, and is {@{also a \(simpler\) _n_<!-- markdown separator -->th-degree polynomial in the first _n_ central moments}@}. <!--SR:!2026-01-29,281,330!2026-01-31,282,330!2026-02-03,285,330!2026-06-06,367,310!2025-10-14,180,310!2027-04-18,562,310!2026-12-31,515,310!2026-05-31,363,310-->
 

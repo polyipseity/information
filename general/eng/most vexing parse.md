@@ -16,14 +16,14 @@ tags:
 
 ### C-style casts
 
-{@{The following grammar}@} using {@{C-style casts}@} is {@{ambiguous}@}: <!--SR:!2025-10-06,18,347!2025-12-22,78,367!2025-12-25,81,367-->
+{@{The following grammar}@} using {@{C-style casts}@} is {@{ambiguous}@}: <!--SR:!2025-12-31,86,367!2025-12-22,78,367!2025-12-25,81,367-->
 
 ```C++
 double a_double(3.14);
 int an_int(int(a_double));
 ```
 
-{@{The intuitive interpretation}@} of line 2 is {@{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}@}. However, since {@{C allows superfluous parentheses around function parameter names}@}, the above can also be {@{interpreted as a function declaration, equivalent to}@}: <!--SR:!2027-02-08,806,330!2025-12-22,475,310!2025-10-06,18,347!2025-12-23,79,367-->
+{@{The intuitive interpretation}@} of line 2 is {@{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}@}. However, since {@{C allows superfluous parentheses around function parameter names}@}, the above can also be {@{interpreted as a function declaration, equivalent to}@}: <!--SR:!2027-02-08,806,330!2025-12-22,475,310!2025-12-29,84,367!2025-12-23,79,367-->
 
 ```C++
 int an_int(int a_double);
@@ -31,7 +31,7 @@ int an_int(int a_double);
 
 ### temporaries
 
-{@{The following grammar}@} involving {@{the creation of a temporary}@} is {@{ambiguous}@}: <!--SR:!2025-10-06,18,347!2025-10-06,18,347!2025-12-24,80,367-->
+{@{The following grammar}@} involving {@{the creation of a temporary}@} is {@{ambiguous}@}: <!--SR:!2025-12-28,83,367!2025-12-29,84,367!2025-12-24,80,367-->
 
 ```C++
 struct Child {};
@@ -39,7 +39,7 @@ struct Parent { explicit Parent(Child child); };
 Parent parent(Child());
 ```
 
-{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}: <!--SR:!2027-01-05,728,290!2026-03-23,187,270!2025-10-06,18,347!2025-10-07,19,347-->
+{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}: <!--SR:!2027-01-05,728,290!2026-03-23,187,270!2025-12-30,85,367!2025-10-07,19,347-->
 
 ```C++
 Parent parent(Child(*)());
@@ -47,7 +47,7 @@ Parent parent(Child(*)());
 
 ## solutions
 
-The required interpretation of {@{a function declaration for the above ambiguous grammar}@} is {@{rarely the intended one}@}. To force {@{the interpretation of a variable initialization}@}, the typical solution is {@{using an alternative syntax that is unambiguous}@}. <!--SR:!2028-07-30,1247,350!2027-02-17,807,330!2025-10-06,18,347!2025-10-06,18,347-->
+The required interpretation of {@{a function declaration for the above ambiguous grammar}@} is {@{rarely the intended one}@}. To force {@{the interpretation of a variable initialization}@}, the typical solution is {@{using an alternative syntax that is unambiguous}@}. <!--SR:!2028-07-30,1247,350!2027-02-17,807,330!2025-12-28,83,367!2025-12-28,83,367-->
 
 ### solutions for C-style casts
 

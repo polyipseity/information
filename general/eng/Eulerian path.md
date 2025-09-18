@@ -51,7 +51,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 
 ## properties
 
-- An undirected graph has an Eulerian cycle ::@:: if and only if every vertex has even degree, and all of its vertices with nonzero degree belong to a single [connected component](component%20(graph%20theory).md).<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-06,229,330!2028-03-30,959,362-->
+- An undirected graph has an Eulerian cycle ::@:: if and only if every vertex has even degree, and all of its vertices with nonzero degree belong to a single [connected component](component%20(graph%20theory).md).<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-08-13,1042,350!2028-03-30,959,362-->
 - An undirected graph can be decomposed into edge-disjoint [cycles](cycle%20(graph%20theory).md) ::@:: if and only if all of its vertices have even degree. So, a graph has an Eulerian cycle if and only if it can be decomposed into edge-disjoint cycles and its nonzero-degree vertices belong to a single connected component. <!--SR:!2027-09-20,749,342!2028-07-21,1049,362-->
 - An undirected graph has an Eulerian trail ::@:: if and only if exactly zero or two vertices have odd degree, and all of its vertices with nonzero degree belong to a single connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-11-12,259,342!2028-03-30,926,336-->
 - A directed graph has an Eulerian cycle ::@:: if and only if every vertex has equal [in degree](degree%20(graph%20theory).md) and [out degree](degree%20(graph%20theory).md), and all of its vertices with nonzero degree belong to a single [strongly connected component](strongly%20connected%20component.md). <!--SR:!2028-03-27,923,336!2027-12-12,805,342-->

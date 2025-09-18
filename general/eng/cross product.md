@@ -184,7 +184,7 @@ More generally, the cross product obeys {@{the following identity under [matrix]
 
 {@{The cross product of two vectors}@} lies in {@{the [null space](null%20space.md)}@} of {@{the 2 × 3 matrix with the vectors as rows}@}: {@{$$\mathbf {a} \times \mathbf {b} \in NS\left({\begin{bmatrix}\mathbf {a} \\\mathbf {b} \end{bmatrix} }\right).$$}@} <!--SR:!2025-10-23,63,327!2025-11-05,74,327!2025-11-05,74,327!2025-11-02,71,327-->
 
-For {@{the sum of two cross products}@}, {@{the following identity}@} holds: {@{$$\mathbf {a} \times \mathbf {b} +\mathbf {c} \times \mathbf {d} =(\mathbf {a} -\mathbf {c} )\times (\mathbf {b} -\mathbf {d} )+\mathbf {a} \times \mathbf {d} +\mathbf {c} \times \mathbf {b} .$$}@} \(annotation: mnemonic: {@{"ab+cd = a−c b−d + a d+cb"}@}\) <!--SR:!2025-10-17,58,310!2025-10-06,49,307!2025-10-08,48,307!2025-10-08,18,267-->
+For {@{the sum of two cross products}@}, {@{the following identity}@} holds: {@{$$\mathbf {a} \times \mathbf {b} +\mathbf {c} \times \mathbf {d} =(\mathbf {a} -\mathbf {c} )\times (\mathbf {b} -\mathbf {d} )+\mathbf {a} \times \mathbf {d} +\mathbf {c} \times \mathbf {b} .$$}@} \(annotation: mnemonic: {@{"ab+cd = a−c b−d + a d+cb"}@}\) <!--SR:!2025-10-17,58,310!2026-04-27,203,327!2025-10-08,48,307!2025-10-08,18,267-->
 
 ### differentiation
 
