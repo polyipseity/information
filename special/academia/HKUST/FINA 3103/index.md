@@ -136,7 +136,7 @@ The content is in teaching order.
   - financial regulatory authority / examples ::@:: China: CBIRC <br/> Hong Kong: HKMA, HKSFC <br/> United States: CFTC, SEC
 - financial asset
   - financial asset / classification ::@:: marketable \(tradeable\), non-marketable
-    - financial asset / classification / marketable ::@:: <br/> derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity
+    - financial asset / classification / marketable ::@:: derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity
     - financial asset / classification / non-marketable ::@:: debt: securitized claims, etc. <br/> equity
 - [money market](../../../../general/money%20market.md) ::@:: It is a component of the economy that provides short-term funds. The money market deals in short-term loans, generally for a period of a year or less.
   - money market / importance ::@:: As short-term securities became a commodity, the money market became a component of the financial market for assets involved in short-term borrowing, lending, buying and selling with original maturities of one year or less. Trading in money markets is done over the counter and is wholesale.
@@ -155,11 +155,11 @@ The content is in teaching order.
     - capital market / debt / foreign bonds ::@:: Some companies, banks, governments, and other sovereign entities may decide to issue bonds in foreign currencies as the foreign currency may appear to potential investors to be more stable and predictable than their domestic currency. <p> They are bonds issued in country _B_ by a company in country _A_, denominated by the currency in country _B_.
     - capital market / debt / eurobonds ::@:: It is an international bond that is denominated in a currency not native to the country where it is issued. <p> They are bonds issued in country _B_ by a company in country _A_, denominated by the currency in country _A_.
     - capital market / debt / mortgage-backed securities ::@:: It is a type of asset-backed security \(an "instrument"\) which is secured by a mortgage or collection of mortgages. The mortgages are aggregated and sold to a group of individuals \(a government agency or investment bank\) that securitizes, or packages, the loans together into a security that investors can buy.
-  - capital market / equity ::@:: common stocks, depository receipts, preferred stocks, etc. <br/> stock characteristics: limited liability, residual income, zero or some voting rights
+  - capital market / equity ::@:: common stocks, depository receipts, preferred stocks, etc. <p> stock characteristics: limited liability, residual income, zero or some voting rights
     - capital market / equity / preferred stocks ::@:: It is a component of share capital that may have any combination of features not possessed by common stock, including properties of both an equity and a debt instrument, and is generally considered a hybrid instrument. <p> Typically, they have no voting rights but receive dividends with higher priority.
     - capital market / equity / common stocks ::@:: It is a form of corporate equity ownership, a type of security. <p> Typically, they have voting rights and receive dividends.
     - capital market / equity / depository receipts ::@:: It is a negotiable financial instrument issued by a bank to represent a foreign company's publicly traded securities.
-- [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ...
+- derivative
   - derivative / examples ::@:: futures/forwards, options, swaps, etc.
     - derivative / examples / futures/forwards ::@:: It is a contract between two parties to buy or sell an asset at a specified future time at a price agreed on in the contract. <p> The former is standardized, while the latter is non-standardized.
     - derivative / examples / swaps ::@:: It is a derivative contract between two counterparties to exchange, for a certain time, financial instruments, unconventional cashflows, or payments.

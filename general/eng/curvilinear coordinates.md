@@ -77,8 +77,8 @@ In {@{non-orthogonal coordinates}@} {@{the length of $d\mathbf {r} =dq^{1}\mathb
 
 {@{Spatial gradients, distances, time derivatives and scale factors}@} are {@{interrelated within a coordinate system}@} by {@{two groups of basis vectors}@}:
 
-1. basis vectors that are locally tangent to their associated coordinate pathline: ::@:: $$\mathbf {b} _{i}={\dfrac {\partial \mathbf {r} }{\partial q^{i} } }$$ are [contravariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \(denoted by lowered indices\), and \(annotation: {@{Contravariance}@} here refers to {@{_components_ of a vector represented by the basis vectors}@}. {@{Each of the basis vectors themselves}@} actually {@{transforms _covariantly_}@}.\)
-2. basis vectors that are locally normal to the isosurface created by the other coordinates: ::@:: $$\mathbf {b} ^{i}=\nabla q^{i}$$ are [covariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \(denoted by raised indices\), ∇ is the [del](del.md) [operator](linear%20operator.md). \(annotation: {@{Convariance}@} here refers to {@{_components_ of a vector represented by the basis covectors}@}. {@{Each of the basis covectors themselves}@} actually {@{transforms _contravariantly_}@}.\)
+1. basis vectors that are locally tangent to their associated coordinate pathline: $$\mathbf {b} _{i}={\dfrac {\partial \mathbf {r} }{\partial q^{i} } }$$ ::@:: are [contravariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \(denoted by lowered indices\), and \(annotation: Contravariance here refers to _components_ of a vector represented by the basis vectors. Each of the basis vectors themselves actually transforms _covariantly_.\)
+2. basis vectors that are locally normal to the isosurface created by the other coordinates: $$\mathbf {b} ^{i}=\nabla q^{i}$$ \(annotation: $q^i$ is a scalar field having the coordinate value $q^i$ at each point.\) ::@:: are [covariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \(denoted by raised indices\), ∇ is the [del](del.md) [operator](linear%20operator.md). \(annotation: Convariance here refers to _components_ of a vector represented by the basis covectors. Each of the basis covectors themselves actually transforms _contravariantly_.\)
 
 Note that, because of {@{Einstein's summation convention}@}, {@{the position of the indices of the vectors}@} is {@{the opposite of that of the coordinates}@}.
 
@@ -184,7 +184,7 @@ From {@{a more general and abstract perspective}@}, {@{a curvilinear coordinate 
 
 ## vector and tensor algebra in three-dimensional curvilinear coordinates
 
-- Note: ::@:: the [Einstein summation convention](Einstein%20summation%20convention.md) of summing on repeated indices is used below.
+- Note: <!-- flashcard ID: bd2efead-e1d7-4367-9ff0-94d88c5a54c5 -->::@:: the [Einstein summation convention](Einstein%20summation%20convention.md) of summing on repeated indices is used below.
 
 {@{Elementary vector and tensor algebra in curvilinear coordinates}@} is used in {@{some of the older scientific literature}@} in {@{[mechanics](mechanics.md) and [physics](physics.md)}@} and can be {@{indispensable to understanding work from the early and mid-1900s}@}, for example {@{the text by Green and Zerna}@}.<sup>[\[5\]](#^ref-5)</sup> {@{Some useful relations}@} in {@{the algebra of vectors and second-order tensors in curvilinear coordinates}@} are {@{given in this section}@}. {@{The notation and contents}@} are primarily from Ogden,<sup>[\[6\]](#^ref-6)</sup> Naghdi,<sup>[\[7\]](#^ref-7)</sup> Simmonds,<sup>[\[2\]](#^ref-2)</sup> Green and Zerna,<sup>[\[5\]](#^ref-5)</sup> Basar and Weichert,<sup>[\[8\]](#^ref-8)</sup> and Ciarlet.<sup>[\[9\]](#^ref-9)</sup>
 
@@ -236,7 +236,7 @@ It can also be shown that {@{$${\mathcal {E} }^{ijk}={\cfrac {1}{J} }\varepsilon
 
 ## vector and tensor calculus in three-dimensional curvilinear coordinates
 
-- Note: ::@:: the [Einstein summation convention](Einstein%20summation%20convention.md) of summing on repeated indices is used below.
+- Note: <!-- flashcard ID: 6a47a119-f6be-41f8-b185-a9072c222d74 -->::@:: the [Einstein summation convention](Einstein%20summation%20convention.md) of summing on repeated indices is used below.
 
 {@{Adjustments need to be made}@} in the calculation of {@{[line](line%20integral.md), [surface](surface%20integral.md) and [volume](volume%20integral.md) [integrals](integration%20(mathematics).md)}@}. For simplicity, the following restricts to {@{three dimensions and orthogonal curvilinear coordinates}@}. However, {@{the same arguments apply}@} for {@{_n_-dimensional spaces}@}. When {@{the coordinate system is not orthogonal}@}, there are {@{some additional terms in the expressions}@}.
 

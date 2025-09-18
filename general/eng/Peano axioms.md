@@ -114,7 +114,7 @@ This relation is {@{stable under addition and multiplication}@}: for $a,b,c\in \
 
 Thus, {@{the structure (__N__, +, ·, 1, 0, ≤)}@} is {@{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}@}.
 
-The axiom of induction is {@{sometimes stated in the following form that uses a stronger hypothesis, making use of the order relation "≤"}@}:
+The axiom of induction is {@{sometimes stated in the following form}@} that uses {@{a stronger hypothesis, making use of the order relation "≤"}@}:
 
 For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 
