@@ -22,6 +22,8 @@ tags:
 - [quiz 1](quiz%201.md)
 - [quiz 2](quiz%202.md)
 - [quiz 3](quiz%203.md)
+- [quiz 4](quiz%204.md)
+- [quiz 5](quiz%205.md)
 
 ## week 1 lecture
 
