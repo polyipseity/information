@@ -15,7 +15,7 @@ For {@{a [unimodal](unimodality.md) distribution (a distribution with a single p
 
 ## relationship of mean and median
 
-The skewness is {@{not directly related to the relationship between the mean and median}@}: {@{a distribution with negative skew can have its mean greater than or less than the median, and likewise for positive skew}@}.
+The skewness is {@{not directly related to the relationship between the mean and median}@}: {@{a distribution with negative skew can have its mean greater than or less than the median}@}, and {@{likewise for positive skew}@}.
 
 In {@{the older notion of [nonparametric skew](nonparametric%20skew.md)}@}, defined as {@{$(\mu -\nu )/\sigma ,$ where $\mu$ is the [mean](mean.md), $\nu$ is the [median](median.md), and $\sigma$ is the [standard deviation](standard%20deviation.md)}@}, the skewness is {@{defined in terms of this relationship: positive/right nonparametric skew means the mean is greater than (to the right of) the median, while negative/left nonparametric skew means the mean is less than (to the left of) the median}@}. However, {@{the modern definition of skewness and the traditional nonparametric definition}@} {@{do not always have the same sign: while they agree for some families of distributions, they differ in some of the cases, and conflating them is misleading}@}.
 

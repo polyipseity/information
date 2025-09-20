@@ -129,7 +129,7 @@ Additionally substitute goods have {@{a large impact on markets, consumer and se
 
 1. Markets characterised by close/perfect substitute goods experience {@{great [volatility](volatility%20(finance).md) in prices}@}.<sup>[\[22\]](#^ref-22)</sup> This volatility {@{negatively impacts producers' profits, as it is possible to earn higher profits in markets with fewer substitute products}@}. That is, perfect substitute results in {@{profits being driven down to zero as seen in perfectly competitive markets equilibrium}@}.
 2. As a result of {@{the intense competition caused the availability of substitute goods}@}, {@{low quality products can arise}@}. Since {@{prices are reduced to capture a larger share of the market}@}, firms try to {@{reduce their utilisation of resources which in turn will reduce their costs}@}.<sup>[\[22\]](#^ref-22)</sup>
-3. In a market with close/perfect substitutes, customers have {@{a wide range of products to choose from}@}. As {@{the number of substitutes increase, the probability that every consumer selects what is right for them also increases}@}.<sup>[\[22\]](#^ref-22)</sup> That is, consumers can {@{reach a higher overall utility level from the availability of substitute products}@}.
+3. In a market with close/perfect substitutes, customers have {@{a wide range of products to choose from}@}. As {@{the number of substitutes increase}@}, the probability that {@{every consumer selects what is right for them also increases}@}.<sup>[\[22\]](#^ref-22)</sup> That is, consumers can {@{reach a higher overall utility level from the availability of substitute products}@}.
 
 ## see also
 

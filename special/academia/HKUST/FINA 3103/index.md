@@ -203,7 +203,7 @@ The content is in teaching order.
     - order / limit order / priority ::@:: Better prices are matched and executed first. Then orders that are placed earlier are matched and executed first.
     - order / limit order / liquidity ::@:: In general, by stating the intentions of traders, liquidity is provided. <p> But traders can also take away liquidity by placing a limit order that can be satisfied by orders in the limit book when it is received, which are called _marketable_ limit orders.
   - order / market order
-    - order / market order / limit order ::@:: Can be treated as a limit order with negative infinite ask price \(ensures instant sell\) or positive infinite bid price \(ensures instant buy\).
+    - order / market order / limit order ::@:: Can be treated as a limit order with negative infinite ask price \(ensures instant sell if there are enough buyers\) or positive infinite bid price \(ensures instant buy if there are enough sellers\).
     - order / market order / liquidity ::@:: It takes away liquidity by consuming orders in the limit order book.
 - [bid–ask spread](../../../../general/bid–ask%20spread.md) ::@:: A type of _transaction cost_. It is the difference between the prices quoted \(either by a single market maker or in a limit order book\) for an immediate sale \(ask\) and an immediate purchase \(bid\).
   - bid–ask spread / bid price ::@:: The price a market dealer or maker is willing to buy. Investor's \(your\) sale price. Usually lower than the ask price.

@@ -85,7 +85,7 @@ The content is in teaching order.
   - gross domestic product / nominal GDP ::@:: The raw GDP figure given by the equations above is called the nominal, historical, or current GDP.
   - gross domestic product / real GDP ::@:: The GDP adjusted for changes in money value in this way is called the real GDP.
     - gross domestic product / real GDP / motivations ::@:: When comparing GDP figures from one year to another, compensating for changes in the value of money—for the effects of inflation or deflation is desirable. To make it more meaningful for year-to-year comparisons, a nominal GDP may be multiplied by the ratio between the value of money in the year the GDP was measured and the value of money in a base year.
-    - gross domestic product / real GDP / base year ::@:: Prices of this year is used to compute the real GDP of all years. The nominal GDP of this year equals the real GDP via the definition.
+    - gross domestic product / real GDP / base year ::@:: Prices of this year are used to compute the real GDP of all years. The nominal GDP of this year equals the real GDP via the definition.
 
 ## midterm examination
 
