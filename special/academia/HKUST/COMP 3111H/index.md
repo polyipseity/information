@@ -163,6 +163,7 @@ The content is in teaching order.
   - Unified Model Language / static modeling ::@:: It is for modeling data.
   - Unified Model Language / dynamic modeling ::@:: It is for modeling programs \(program behavior\).
 - quiz: [quiz 3](questions/quiz%203.md)
+- [questions § week 2 pre-lecture](questions/index.md#week%202%20pre-lecture)
 
 ## week 2 lecture
 
@@ -189,8 +190,8 @@ The content is in teaching order.
   - software / types ::@:: social aspects, timeliness, uses
     - software / types / uses ::@:: custom, embedded, generic <p> They can be characterized by copies in use, development effort, and source of user requirements.
       - software / types / uses / generic ::@:: copies in use: medium \(relative to embedded\) <br/> development effort: medium \(relative to custom\) <br/> source of user requirements: market research
-      - software / types / uses / custom ::@:: copies in use: low <br/> development effort: high <br/> source of user requirements: client needs
-      - software / types / uses / embedded ::@:: copies in use: high \(there are _many_ embedded devices...\) <br/> development effort: low \(due to less functionalities\) <br/> source of user requirements: client needs, hardware needs
+      - software / types / uses / custom ::@:: copies in use: low <br/> development effort: high \(due to having to capture requirements from the client\) <br/> source of user requirements: client needs
+      - software / types / uses / embedded ::@:: copies in use: high \(there are _many_ embedded devices...\) <br/> development effort: low \(due to knowing all requirements already and less functionalities\) <br/> source of user requirements: client needs, hardware needs
     - software / types / timeliness ::@:: data processing, real-time processing
       - software / types / timeliness / data processing ::@:: organize and store _business data_, which may not be _real time_
       - software / types / timeliness / real-time processing ::@::  control devices or processes in _real time_
@@ -217,34 +218,34 @@ The content is in teaching order.
       - project management / 4Ps / project / plan ::@:: activities & tasks, monitoring & reporting, organization, resources, risks, schedule, scope \(i.e. constraints and objectives; e.g. budget, time, etc.\)
 - [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed. <p> \(__this course__: It is a process _template_ that is _adaptable_ for different application domains.\)
 - project management
-  - project management / scope ::@:: The _first_ task when planning a project: understand scope, i.e. constraints and objectives. <p> define problem \(e.g. design goals\) → analyze requirements \(e.g. estimate system size\) → make top-level diagram \(i.e. estimate the system\) → estimate effort and time \(i.e. prepare the rest of the project plan\)
+  - project management / scope ::@:: The _first_ task when planning a project: understand scope, i.e. constraints and objectives. <p> define problem \(e.g. design goals\) → analyze requirements \(e.g. estimate system size\) → make top-level diagrams \(i.e. estimate the system; e.g. class diagrams, use case diagrams\) → estimate effort and time \(i.e. prepare the rest of the project plan\)
   - project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement
 - [project risk management](../../../../general/project%20risk%20management.md) ::@:: Within project management, it refers to activities for minimizing project risks, and thereby ensuring that a project is completed within time and budget, as well as fulfilling its goals.
   - project risk management / risk ::@:: Anything that can go wrong in a project, which endangers project success.
     - project risk management / risk / types ::@:: estimation, organization, people, requirements, technology, tools, etc.
-  - project risk management / mitigations ::@:: avoid, confine, mitigate, monitor, etc.
+  - project risk management / mitigations ::@:: avoid before it happens, confine if it happens, mitigate after it happens, monitor to know when it happens
   - project risk management / risk
     - project risk management / risk / characteristics ::@:: accuracy of estimates of characteristics \(e.g. rationale, etc.\), consequences \(e.g. nature, scope, timing, etc.\), likelihood \(e.g. boolean, probabilities, subjective, etc.\) <p> Use these to _prioritize_ tasks by _perceived impact_ on the project.
   - project risk management / mitigations
-    - project risk management / mitigations / characteristics ::@:: benefit, cost <p> We should perform cost–benefit analysis.
+    - project risk management / mitigations / characteristics ::@:: benefit, cost <p> We should perform cost–benefit analysis, e.g. letting the risk happen if its impact is very small, etc.
 - [Pareto principle](../../../../general/Pareto%20principle.md) ::@:: It states that, for many outcomes, roughly 80% of consequences come from 20% of causes \(the "vital few"\).
 - project risk management
   - project risk management / Pareto principle ::@:: 80% of risk _impact_ is roughly accounted by 20% of identified risks \(in numbers\).
 - project management
   - project management / organization ::@:: number of people, roles and responsibilities, teams, etc.
-    - project management / organization / good practices ::@:: We should assign people with _experience relevant_ to their tasks. <p> Teams should be modular and have clear responsibilities, e.g. a team corresponds to one or more identified parts of the system. This helps with having the _right level of communication_.
-  - project management / activities & tasks ::@:: A _task_ is a well-defined work assignment for a role. An _activity_ is a group of related tasks.
+    - project management / organization / good practices ::@:: We should assign people with _experience relevant_ to their tasks. <p> Teams should be modular \(not too few or many people\) and have clear responsibilities, e.g. a team corresponds to one or more identified parts of the system \(divide and conquer\). This helps with having the _right level of communication_. <p> Identify a person in charge \(PIC\) for each part and the system as a whole, so you can talk to them when the relevant parts go wrong.
+  - project management / activities & tasks ::@:: A _task_ is a _well-defined_ work assignment for a role. An _activity_ is a group of _related_ tasks.
     - project management / activities & tasks / principles ::@:: agile-driven: details are _incrementally_ planned as the project progresses <br/> plan-driven: details are planned at project _start_ <p> Which one to use highly depends on the project. Often, a combination is the best.
   - project management / schedule ::@:: deliverables \(outputs\), milestones \(_important_ management decision points\), resources assignment, time estimates, ordering \(dependency\)
-    - project management / schedule / levels ::@:: \(high level, rigid\) master: client, management &gt; macro: day-to-day management &gt; micro: team management \(low level, flexible\)
-    - project management / schedule / tools ::@:: charts, graphs \(dependency graphs\)
-  - project management / estimates ::@:: Quantify something before it occurs. It carries inherent _risk_. <p> For a project, it includes cost, duration, effort, productivity, size, etc.
+    - project management / schedule / levels ::@:: \(high level, rigid\) master: client, management &gt; macro: day-to-day management; e.g. Gantt chart, burndown chart &gt; micro: team management \(low level, flexible\)
+    - project management / schedule / tools ::@:: charts \(Gantt charts, burndown charts, etc.\), graphs \(dependency graphs, etc.\)
+  - project management / estimates ::@:: Quantify something before it occurs. It carries inherent _risk_. Ideally, you should have someone with _experience_ on similar projects to estimate them. <p> For a project, things to estimate include cost, duration, effort, productivity, size, etc.
     - project management / estimates / skills ::@:: _courage_, experience, historical data, model
-    - project management / estimates / tips ::@:: better project scoping, divide and conquer the thing to be estimated, more historical data, etc.
+    - project management / estimates / tips ::@:: better project scoping, divide and conquer the thing to be estimated, expertise of estimators, more historical data, etc.
   - project management / process ::@:: A _sequence_ of _activities_ \(i.e. _workflows_\) to _transform_ user requirements into products.
     - project management / process / elements ::@:: guiding principles. major activities, subprocesses, etc.
     - project management / process / details ::@:: A process uses _resources_ to transform _inputs_ to _outputs_ \(including _intermediates_\) under some _constraints_ \(or _controls_\). There are _entry_ and _exit_ criteria for each activity. <p> A process may have _subprocesses_.
-    - project management / process / importance ::@:: communication is better, consistency, division of labor, eases project management, eases training, expertise are reused, productivity is higher, products are better, structure, etc.
+    - project management / process / importance ::@:: communication is better, consistency, division of labor, eases project management, eases training, expertise are reused \(by reusing processes that have proven to be successful\), productivity is higher, products are better, structure, etc.
 - quiz: [quiz 4](questions/quiz%204.md)
 - software development process
   - software development process / common steps ::@:: gather _requirements_ → _analyze_ and _design_ → _implement_ → _test_
@@ -255,27 +256,28 @@ The content is in teaching order.
   - software development process / iterative and incremental ::@:: 6+ items: agile, code and fix, phased release, prototyping, spiral, unified process \(UP\)
     - software development process / iterative and incremental / properties ::@:: incremental: Separate functions are implemented one-by-one. <br/> iterative: Each function is implemented and refined over time. <br/> both: possible
 - [waterfall model](../../../../general/waterfall%20model.md) ::@:: It is the process of performing the typical software development life cycle \(SDLC\) phases in sequential order. Each phase is completed before the next is started, and the result of each phase drives subsequent phases.
-  - waterfall model / steps ::@:: gather requirements \(requirements specification document\) → analysis & design \(design specification document\) → implementation \(modules\) → test \(tested modules\) → maintain
+  - waterfall model / steps ::@:: gather requirements \(requirements specification document\) → analysis & design \(design specification document\) → implementation \(modules\) → test \(tested modules\) → maintain <p> After each step except for the final step, comprehensive docs are created. Going back is _costly_, so you will want to check the docs for any errors before entering the next step.
+  - waterfall model / the waterfall ::@:: By placing the next step below the previous step, it looks like we are following a "waterfall" along the steps.
   - waterfall model / additional steps ::@:: other deliverables \(e.g. code, docs, training materials, etc.\), review \(for correctness and standards\)
-  - waterfall model / use cases ::@:: Requirements are well-defined, well-understood, and very unlikely to change.
+  - waterfall model / use cases ::@:: Requirements are well-defined, well-understood, and very unlikely to change. <p> This is because going back is _costly_.
   - waterfall model / comparison ::@:: Compared to alternative SDLC methodologies such as Agile, it is among the least iterative and flexible, as progress flows largely in one direction \(like a waterfall\) through the phases of conception, requirements analysis, design, construction, testing, deployment, and maintenance.
-  - waterfall model / advantages ::@:: discipline \(formality, rigor\), docs are approved and standardized, easy and predictable development, fits well with non-software engineering processes \(e.g. hardware development\)
+  - waterfall model / advantages ::@:: discipline \(formality, rigor\), docs are approved and standardized, easy and predictable development, suitable as well for non-software engineering processes \(e.g. hardware development\)
   - waterfall model / disadvantages ::@:: assumes sequentiality and linearity, different languages in different phases, rigid as it freezes the results of a phase, user feedback cannot be incorporated on the fly
 - software development process
-  - software development process / code and fix ::@:: Requirements are obtained \(and usually stored in the developer's mind only\). Loop implementation and testing until it is completed.
+  - software development process / code and fix ::@:: Gather _requirements_ \(and usually store in the developer's mind only\). Based on the requirements, _implement_. _Test_ if it meets all requirements. If yes, you are done! If not, go back to implement to fix the errors.
     - software development process / code and fix / characteristics ::@: changing requirements, many changes, messy code structure, unsuitable for large systems
     - software development process / code and fix / disadvantages ::@:: fail to meet expectations, over budget, over schedule, uncontrollable, unpredictable
 - [software prototyping](../../../../general/software%20prototyping.md) ::@:: It is the activity of creating prototypes of software applications, i.e., incomplete versions of the software program being developed.
-  - software prototyping / steps ::@:: gather and _refine_ requirements → design → prototype → evaluate → EITHER refine prototype \(→ design\) OR engineer product \(which may not be the final product\)
+  - software prototyping / steps ::@:: gather and refine requirements → design → prototype \(not the entire system\) → evaluate → EITHER refine prototype \(→ design\) OR engineer product \(which may or may not be the final product\)
   - software prototyping / comparison ::@:: Similar to code and fix, but there is slightly more discipline and incorporates user feedback.
-  - software prototyping / characteristics ::@:: exploratory \(e.g. functions, user interfaces, etc.\), good for unknown or vague requirements
+  - software prototyping / characteristics ::@:: exploratory \(e.g. functionalities, user interfaces, etc.\), good for unknown or vague requirements
   - software prototyping / advantages ::@:: explore multiple different solutions, explore user requirements, incorporates user feedback
-  - software prototyping / disadvantages ::@:: incomplete process \(engineering the final product may need a separate process\), invisible to management, missing or sparse docs
+  - software prototyping / disadvantages ::@:: incomplete process \(engineering the final product may need a separate process\), invisible to management \(e.g. the number of prototypes needed\), missing or sparse docs
 - [spiral model](../../../../general/spiral%20model.md) ::@:: It is a risk-driven software development process model. Based on the unique risk patterns of a given project, the spiral model guides a team to adopt elements of one or more process models, such as incremental, waterfall, or evolutionary prototyping.
   - spiral model / steps ::@:: plan → risk analysis → \(EITHER go OR no go\) → engineer → evaluate → \(repeat until we have a complete system\)
   - spiral model / the spiral ::@:: The 4 quadrants of a 2D plane are respectively the 4 steps \(clockwise from quadrant II\), and the process is represented by an arrowheads spiraling outwards.
-  - spiral model / advantages ::@:: incorporates risk evaluation, incorporates user feedback to meet expectations \(from evaluate and plan\), iterative and incremental
-  - spiral model / disadvantages ::@:: expertise on risk evaluation required, for internal development rather than contract development, phases are not elaborated \(a separate process may be used\)
+  - spiral model / advantages ::@:: incorporates risk evaluation, incorporates user feedback to better meet expectations \(from evaluate and plan\), iterative and incremental
+  - spiral model / disadvantages ::@:: expertise on risk evaluation required, for internal development rather than contract development as you know all the requirements, phases are not elaborated \(a separate process may be used\)
 - [software release life cycle](../../../../general/software%20release%20life%20cycle)
   - software release life cycle / name ::@:: \(__this course__: use _phased release_\)
   - software release life cycle / motivation ::@:: Since change is inevitable \(by user requirements\), so produce releases over time and make changes accordingly.
@@ -284,34 +286,37 @@ The content is in teaching order.
   - software release life cycle / advantages ::@:: apply appropriate expertise, early training, early user feedback, frequent releases, promote modularity, reduce risk
   - software release life cycle / disadvantages ::@:: common facilities for all functions are hard to identify, each function \(part\) needs to be small
 - [agile software development](../../../../general/agile%20software%20development.md) ::@:: It is an umbrella term for approaches to developing software that reflect the values and principles agreed upon by _The Agile Alliance_, a group of 17 software practitioners, in 2001.
-  - agile software development / principles ::@:: emphasized: client involvement, individuals and interactions, responsive to change, working software <br/> deemphasized: comprehensive docs, contract negotiation, plan following, processes and tools
+  - agile software development / principles ::@:: emphasized: client involvement, individuals and interactions, responsive to change, working software <br/> deemphasized \(but not completely ignored\): comprehensive docs, contract negotiation, plan following, processes and tools
   - agile software development / methods ::@:: continuous integration \(CI\), extreme programming \(XP\), scrum, etc.
-  - agile software development / practices ::@:: pair programming: implement a feature <br/> planning poker: estimate implementation time <br/> test-driven development \(TDD\) <br/> etc.
+  - agile software development / practices ::@:: pair programming: implement a feature with another person checking to reduce mistakes <br/> planning poker: estimate implementation time <br/> test-driven development \(TDD\): think of tests before implementing <br/> etc.
 - [extreme programming](../../../../general/extreme%20programming.md) \(XP\) ::@:: It is a software development methodology intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent releases in short development cycles, intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
   - extreme programming / steps ::@:: gather and analyze requirements → implement → \(repeat _quickly_\)
   - extreme programming / gather and analyze requirements ::@:: The developer determines features needed and estimate cost and time. Then the client selects features for each _iteration_.
-  - extreme programming / implement ::@:: Each _iteration_ has many tasks.The developer implement \(pair programming\) and design test cases \(TDD\).
+  - extreme programming / implement ::@:: Each _iteration_ has many tasks. The developer implement features using _pair programming_ and design test cases using _TDD_.
 - [continuous integration](../../../../general/continuous%20integration.md) \(CI\) ::@:: It is the practice of integrating source code changes frequently and ensuring that the integrated codebase is in a workable state.
-  - continuous integration / mechanism ::@:: Typically, developers merge changes to an integration branch, and an automated system \(__this course__: CI server\) builds and tests the software system. Often, the automated process runs on each commit or runs on a schedule such as once a day. <p> \(__this course__: Work is submitted daily to the main repository. CI servers runs build and test scripts. They notify if there are failures.\)
+  - continuous integration / mechanism ::@:: Typically, developers merge changes to an integration branch, and an automated system \(__this course__: CI server\) builds and tests the software system. Often, the automated process runs on each commit or runs on a schedule such as once a day. <p> \(__this course__: Work is submitted daily and/or as soon as possible to the main repository. Whenever that happens, CI servers run build and test scripts, and notify if there are failures.\)
   - continuous integration / advantages ::@:: automate build and test, catch build-breaking bugs early, check progress, integrate and test early, reduce integration conflicts
 - [scrum](../../../../general/scrum.md) ::@:: It is an agile team collaboration framework commonly used in software development and other industries.
   - scrum / overview ::@:: It specifies what to do to develop a software product. But the detailed specifics \(how to do\) are decided by teams. <p> Requirements are items in a _product backlog_. The _product owner_ \(the client\) sets _priorities_. Then, the software is developed in _sprints_. Teams _self-organize_ to determine the best way to deliver the product.
   - scrum / sprint ::@:: Scrum prescribes for teams to break work into goals to be completed within time-boxed iterations, called _sprints_. Each sprint is no longer than one month and commonly lasts two weeks. The scrum team assesses progress in time-boxed, stand-up meetings of up to 15 minutes, called _daily scrums_. At the end of the sprint, the team holds two further meetings: one sprint review to demonstrate the work for stakeholders and solicit feedback, and one internal sprint retrospective.
     - scrum / sprint / activities ::@:: In a sprint, the software is designed, implemented, and tested. The requirements are not allowed to change.
+  - scrum / release ::@:: A release should have 4 to 12 sprints. The shorter the release cycle, the shorter the duration of each sprint. <p> It may be associated with a _release backlog_.
   - scrum / framework ::@:: artifacts, meetings, roles
   - scrum / roles ::@:: product owner, scrum master, team
   - scrum / meetings ::@:: sprint planning → daily scrum meeting → sprint review \(external-oriented\), sprint retrospective \(internal-oriented\)
-  - scrum / artifacts ::@:: burndown charts, product backlog, spring backlog
+  - scrum / artifacts ::@:: burndown charts, product backlog, sprint backlog <br/> additional: defect backlog, release backlog
   - scrum / roles
     - scrum / roles / product owner ::@:: The key stakeholder represents the client or end users. It defines and prioritize requirements, and adjusts both every iteration. It decides on content and timing. It accepts or rejects results.
     - scrum / roles / scrum master ::@:: enable close cooperation, enact scrum values and practices, ensure functional and productive teams, remove progress obstacles, shield external interferences
+    - scrum / roles / team ::@:: Apart from the scrum master, the other roles are similar to those in other development processes, e.g. developers, testers, etc.
   - scrum / meetings
-    - scrum / meetings / sprint planning ::@:: Considers business conditions, current product, product backlog, team capacity, technology, etc. Prioritize product backlog to select _sprint goal_. Then, plan to achieve the sprint goal, and create a _sprint backlog_ from product backlog and estimate time.
-    - scrum / meetings / daily scrum meeting ::@:: review: What did you do yesterday? <br/> plan: What will you do today? <br/> obstacles: Is anything in your way?
+    - scrum / meetings / sprint planning ::@:: Considers business conditions, current product, product backlog, team capacity, technology, etc. Prioritize product backlog to select _sprint goal_. Then, plan to achieve the sprint goal, and create a _sprint backlog_ from product backlog and estimate time \(ideally by subject matter experts\).
+    - scrum / meetings / daily scrum meeting ::@:: They are stand-up \(no sitting down\) meetings up to 15 minutes. This is great for less experienced teams, but may hurt _morale_ in more experienced teams. Possible questions to ask: <p> review: What did you do yesterday? <br/> plan: What will you do today? <br/> obstacles: Is anything in your way?
   - scrum / artifacts
-    - scrum / artifacts / product backlog ::@:: Requirements, which have values to the client or end users. Prioritized by the product owner and re-prioritized before each sprint.
-    - scrum / artifacts / spring backlog ::@:: Selected items from the product backlog based on item priority and team capacity. Some product backlog items may become multiple spring backlog items. During the spring, team members select items to work on.
-    - scrum / artifacts / burndown chart ::@:: For each task, we _estimate_ the hours remaining to complete it. Then, the chart sums them up and plot them as a line chart, which shows the _estimated_ total hours remaining to complete the sprint. <p> It may _fluctuate_, but should _tend to zero_, otherwise you have problems in your sprint.
+    - scrum / artifacts / product backlog ::@:: Requirements, which have values to the client or end users. Prioritized by the product owner and re-prioritized before each sprint. <p> This backlog may be further split into multiple _release backlogs_.
+    - scrum / artifacts / sprint backlog ::@:: Selected items from the product backlog based on item priority and team capacity. Some product backlog items may become multiple sprint backlog items. During the sprint, team members select items to work on.
+    - scrum / artifacts / burndown chart ::@:: For each task, we _estimate_ the hours remaining to complete it. Then, the chart sums them up and plot them as a line chart, which shows the _estimated_ total hours remaining to complete the sprint. <p> It may _fluctuate_, but should _tend to zero_, otherwise you have problems in your sprint. <p> The slope of the line chart is the _burndown velocity_
+    - scrum / artifacts / defect backlog ::@:: Try to avoid defects, but they are inevitable. When you encounter them, track them separately in this backlog to avoid mixing up items with the product or sprint backlog. The backlog may persists across sprints. Any defects related to a feature should be fixed before marking the feature as complete.
 - agile software development
   - agile software development / advantages ::@:: adaptable/flexible to changing requirements, faster speed-to-market, fewer defects, immediate user feedback
   - agile software development / disadvantages ::@:: close collaboration between developers and product owner required, daily meetings may be costly, docs are often missing, scope creep due to adding requirements
@@ -325,6 +330,10 @@ The content is in teaching order.
   - software development process / risk assessment ::@:: spiral: The only process to explicitly integrate risk analysis.
 - [unified process](../../../../general/unified%20process.md) ::@:: It is an iterative and incremental software development process framework. <p> It is not simply a process, but rather an extensible framework which should be customized for specific organizations or projects.
   - unified process / cycle ::@:: inception → elaboration → construction → transition
+    - unified process / cycle / inception ::@:: Gather requirements. See if the requirements are feasible. Decide if to continue with the project or not.
+    - unified process / cycle / elaboration ::@:: Based on the gathered requirements, come up with a design to be implemented.
+    - unified process / cycle / construction ::@:: Based on the gathered requirements and elaborated design, implement the system.
+    - unified process / cycle / transition ::@:: Deploy and maintain the system.
   - unified process / phase ::@:: It may be divided into a series of timeboxed _iterations_. Each iteration results in an _increment_, which is a release of the system that contains added or improved functionality compared with the previous release.
     - unified process / phase / iteration & increment ::@:: \(__this course__: Each iteration produces a _working product_. Each increment establishes a _system baseline_.\)
   - unified process / activities ::@:: The activities _vary_, but can usually be categorized into engineering activities and management activities
@@ -337,6 +346,7 @@ The content is in teaching order.
 - unified process
   - unified process / advantages ::@:: It incorporates _best practices_ from all the previous software development processes and provides a _generic framework_.
 - quiz: [quiz 5](questions/quiz%205.md)
+- [questions § week 3 pre-lecture](questions/index.md#week%203%20pre-lecture)
 
 ## week 3 lecture
 

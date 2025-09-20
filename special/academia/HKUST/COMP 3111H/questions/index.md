@@ -29,7 +29,7 @@ tags:
 
 \(none\)
 
-## week 2 lecture
+## week 2 pre-lecture
 
 > In a course registration system, there are students and courses.
 >
@@ -78,5 +78,57 @@ tags:
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
 > - annotation: {@{There are other possible answers according to the _application domain_.}@}
+
+## week 2 lecture
+
+> Can association names be the same?
+>
+> ---
+>
+> - solution: {@{No. Each association must have an unique name.}@}
+
+---
+
+> What attributes relating to other classes with associations should be replaced?
+>
+> ---
+>
+> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@}
+
+---
+
+> Should you ignore classes or associations stated in the requirements?
+>
+> ---
+>
+> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@}
+
+---
+
+> Should you add extra classes or associations not stated in the requirements?
+>
+> ---
+>
+> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@}
+
+---
+
+> Should associations that have meanings that are obtainable by composing two or more associations kept?
+>
+> ---
+>
+> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@}
+
+---
+
+> What should you do if there are semantics that cannot be represented by standard UML diagram elements?
+>
+> ---
+>
+> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@}
+
+## week 3 pre-lecture
+
+\(none\)
 
 ## week 3 lecture
