@@ -52,7 +52,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after end of line ::@:: \[[repeat N](#^repeatN)\]A <!--SR:!2032-06-08,2438,293!2027-06-24,1158,333-->
 - change text from cursor to ([motion](#motion)) ::@:: c([motion](#motion)) <!--SR:!2033-08-15,2945,333!2033-03-07,2805,333-->
 - insert lines below cursor ::@:: \[[repeat N](#^repeatN)\]o <!--SR:!2026-05-03,766,273!2027-08-23,1220,313-->
-- insert lines above cursor ::@:: \[[repeat N](#^repeatN)\]O <!--SR:!2025-10-09,727,313!2033-11-04,2996,333-->
+- insert lines above cursor ::@:: \[[repeat N](#^repeatN)\]O <!--SR:!2034-05-21,3146,333!2033-11-04,2996,333-->
 
 ## replace
 

@@ -160,7 +160,7 @@ The concept is frequently involved in {@{representing an [electrical impedance](
 
 ### power engineering
 
-- Main article: ::@:: [Phasor measurement unit](phasor%20measurement%20unit.md) <!--SR:!2025-10-25,64,310!2025-10-09,48,290-->
+- Main article: ::@:: [Phasor measurement unit](phasor%20measurement%20unit.md) <!--SR:!2025-10-25,64,310!2026-04-18,191,310-->
 
 In analysis of {@{[three phase](three%20phase.md) AC power systems}@}, usually {@{a set of phasors}@} is defined as {@{the three complex [cube roots of unity](cube%20roots%20of%20unity.md)}@}, graphically represented as {@{unit magnitudes at angles of 0, 120 and 240 degrees}@}. By treating {@{polyphase AC circuit quantities as phasors}@}, {@{balanced circuits}@} can be {@{simplified}@} and {@{unbalanced circuits}@} can be treated as {@{an algebraic combination of [symmetrical components](symmetrical%20components.md)}@}. This approach {@{greatly simplifies the work required}@} in electrical calculations of {@{voltage drop, power flow, and short-circuit currents}@}. In the context of {@{power systems analysis}@}, {@{the phase angle}@} is often {@{given in [degrees](degree%20(angle).md)}@}, and {@{the magnitude in [RMS](root%20mean%20square.md) value}@} rather than {@{the peak amplitude of the sinusoid}@}. <!--SR:!2025-10-27,66,310!2025-10-19,59,310!2025-10-19,59,310!2025-10-18,58,310!2025-10-20,60,310!2025-10-15,56,310!2025-10-17,58,310!2025-10-24,63,310!2025-10-16,57,310!2025-10-13,54,310!2025-10-15,56,310!2025-10-17,58,310!2025-10-14,55,310!2025-10-14,55,310!2025-10-17,58,310!2025-10-14,55,310-->
 

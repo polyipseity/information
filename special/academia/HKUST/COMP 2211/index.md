@@ -999,7 +999,7 @@ ID: 23456789
   - image cropping ::@:: Sometimes, you may want to crop the region of interest (ROI) for further processing. For instance, in a face detection application, you may want to drop a face from an image. <p> Simply use NumPy slicing, keeping in mind that an image is typically represented by `(height, width[, channels])`. <!--SR:!2026-07-06,460,402!2026-10-17,546,406-->
   - image padding ::@:: In OpenCV, you can use `cv2.copyMakeBorder(...)`. <!--SR:!2026-02-24,348,386!2026-08-22,499,398-->
     - `cv2.copyMakeBorder(src, top, bottom, left, right, borderType[, value = 0])` ::@:: For example: `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_CONSTANT, 128)`, `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_REFLECT)`, `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_REPLICATE)`. <!--SR:!2025-12-16,272,366!2025-12-10,270,361-->
-  - image histogram ::@:: An image histogram is a graphical representation of _the number of pixels in an image as a function of their intensity_. <p> In OpenCV, you can use `cv2.calcHist(...)`. <!--SR:!2026-07-29,477,398!2025-10-09,218,359-->
+  - image histogram ::@:: An image histogram is a graphical representation of _the number of pixels in an image as a function of their intensity_. <p> In OpenCV, you can use `cv2.calcHist(...)`. <!--SR:!2026-07-29,477,398!2028-09-17,1074,379-->
     - `cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])` ::@:: For example: `hist = cv2.calcHist([imgUint], [0], None, [256], [0, 256])`. <!--SR:!2027-09-26,784,361!2028-01-07,865,365-->
   - brightness adjustment
     - brightness adjustment / OpenCV ::@:: You can use `cv2.convertScaleAbs(...)`. <!--SR:!2026-07-31,480,406!2026-08-02,482,405-->

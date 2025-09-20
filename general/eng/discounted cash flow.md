@@ -27,7 +27,7 @@ tags:
 >
 > - {@{__Free Cash Flow Projections:__}@} {@{Projections of the amount of Cash produced by a company's business operations}@} after {@{paying for operating expenses and capital expenditures}@}.<sup>[\[1\]](#^ref-1)</sup>
 > - {@{__Discount Rate:__}@} {@{The cost of capital \(Debt and Equity\)}@} for the business. {@{This rate, which acts like an interest rate on future Cash inflows}@}, is used to {@{convert them into current dollar equivalents}@}.
-> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period}@} \({@{typical for a DCF analysis}@} is {@{either a 5-year projection period or, occasionally, a 10-year projection period}@}\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-10-12,177,310!2025-10-09,169,270!2027-06-19,661,330!2027-07-23,687,330!2027-01-13,498,310!2025-12-15,242,330!2025-11-27,116,387!2025-11-28,117,387!2025-11-29,118,387!2026-02-05,128,390!2026-01-30,123,390!2026-02-06,129,390!2026-02-01,125,390!2026-02-07,130,390-->
+> - {@{__Terminal Value:__}@} {@{The value of a business at the end of the projection period}@} \({@{typical for a DCF analysis}@} is {@{either a 5-year projection period or, occasionally, a 10-year projection period}@}\).<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-10-12,177,310!2027-07-09,638,290!2027-06-19,661,330!2027-07-23,687,330!2027-01-13,498,310!2025-12-15,242,330!2025-11-27,116,387!2025-11-28,117,387!2025-11-29,118,387!2026-02-05,128,390!2026-01-30,123,390!2026-02-06,129,390!2026-02-01,125,390!2026-02-07,130,390-->
 
 <!-- markdownlint MD028 -->
 
@@ -130,7 +130,7 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 
 3. {@{__Input-output problem__}@}: DCF is {@{merely a mechanical valuation tool}@}, which makes it {@{subject to the principle "[garbage in, garbage out](garbage%20in,%20garbage%20out.md)"}@}. {@{Small changes in inputs}@} can {@{result in large changes in the value of a company}@}. This is especially the case with {@{[terminal values](terminal%20value%20(finance).md), which make up a large proportion of the Discounted Cash Flow's final value}@}. <!--SR:!2026-01-04,258,330!2026-02-07,284,330!2026-01-24,274,330!2026-01-08,261,330!2027-08-30,702,330!2026-02-04,281,330-->
 
-4. {@{__Missing variables__}@}: {@{Traditional DCF calculations}@} {@{only consider the financial costs and benefits of a decision}@}. They do not {@{include the environmental, social and governance performance of an organization}@}.<sup>[\[15\]](#^ref-15)</sup> This criticism, true {@{for all valuation techniques}@}, is addressed through {@{an approach called "IntFV" discussed below}@}. <!--SR:!2026-04-07,335,349!2025-10-09,174,310!2026-01-14,266,330!2026-02-12,289,330!2026-01-13,265,330!2026-03-26,324,349-->
+4. {@{__Missing variables__}@}: {@{Traditional DCF calculations}@} {@{only consider the financial costs and benefits of a decision}@}. They do not {@{include the environmental, social and governance performance of an organization}@}.<sup>[\[15\]](#^ref-15)</sup> This criticism, true {@{for all valuation techniques}@}, is addressed through {@{an approach called "IntFV" discussed below}@}. <!--SR:!2026-04-07,335,349!2027-10-29,750,330!2026-01-14,266,330!2026-02-12,289,330!2026-01-13,265,330!2026-03-26,324,349-->
 
 ## integrated future value
 

@@ -20,7 +20,7 @@ The first part is sometimes called the _first fundamental theorem of calculus_.
 
 > {@{__first fundamental theorem of calculus__}@}
 >
-> Given {@{a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@}, define {@{$F$ as the [Riemann integral](Riemann%20integral.md) $$F(x)=\int_a^x\!f(t)\,\mathrm{d}t\quad\forall{x}\in[a,b]$$}@}. Then {@{$F$ is an [antiderivative](antiderivative.md) of $f$ on the open [interval](interval%20(mathematics).md) $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}. $F$ is {@{[uniformly continuous](uniformly%20continuous.md) on $[a,b]$ and [differentiable](differentiable%20function.md) on $(a,b)$}@}. <!--SR:!2028-05-23,1055,250!2025-10-11,72,331!2025-10-09,70,331!2025-10-09,70,331!2025-10-10,71,331!2025-10-09,70,331-->
+> Given {@{a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@}, define {@{$F$ as the [Riemann integral](Riemann%20integral.md) $$F(x)=\int_a^x\!f(t)\,\mathrm{d}t\quad\forall{x}\in[a,b]$$}@}. Then {@{$F$ is an [antiderivative](antiderivative.md) of $f$ on the open [interval](interval%20(mathematics).md) $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}. $F$ is {@{[uniformly continuous](uniformly%20continuous.md) on $[a,b]$ and [differentiable](differentiable%20function.md) on $(a,b)$}@}. <!--SR:!2028-05-23,1055,250!2025-10-11,72,331!2026-08-26,321,351!2026-08-27,322,351!2025-10-10,71,331!2026-08-22,317,351-->
 
 The first part implies that when $f$ is [continuous](continuous%20function.md), {@{[antiderivatives](antiderivative.md) of $f$ always exists}@}. <!--SR:!2027-03-12,931,350-->
 
@@ -42,7 +42,7 @@ The second part is sometimes called the _second fundamental theorem of calculus_
 
 > {@{__second fundamental theorem of calculus__}@}
 >
-> Given {@{a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and {@{$F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}, then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$}@}. <!--SR:!2025-11-24,251,170!2025-10-10,71,331!2025-10-10,71,331!2025-10-11,72,331!2025-10-09,70,331-->
+> Given {@{a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and {@{$F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}, then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$}@}. <!--SR:!2025-11-24,251,170!2025-10-10,71,331!2025-10-10,71,331!2025-10-11,72,331!2026-08-28,323,351-->
 
 The second part is {@{stronger than the [corollary](#corollary) because $f$ may not be [continuous](continuous%20function.md)}@}. <!--SR:!2027-04-25,893,330-->
 

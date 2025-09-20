@@ -15,7 +15,7 @@ In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [
 
 ## characterizations
 
-There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2027-05-07,659,330!2025-10-09,204,310-->
+There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2027-05-07,659,330!2028-03-01,874,330-->
 
 - injective function ::@:: There is no [injective function](injective%20function.md) \(hence no [bijection](bijection.md)\) from _X_ to the set of natural numbers. <!--SR:!2026-10-23,492,310!2025-12-08,270,330-->
 - ω-sequence, surjective function ::@:: _X_ is nonempty and for every ω-[sequence](sequence.md) of elements of _X_, there exists at least one element of X not included in it. That is, _X_ is nonempty and there is no [surjective function](surjective%20function.md) from the natural numbers to _X_. <!--SR:!2026-06-28,403,310!2026-06-28,368,290-->

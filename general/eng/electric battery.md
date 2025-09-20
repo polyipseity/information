@@ -148,7 +148,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2028-06-01,1126,363-->
 - [silver oxide](silver%20oxide%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2026-04-19,224,363-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md) <!--SR:!2025-10-09,155,343-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md) <!--SR:!2027-03-22,529,343-->
 
 <!--/pytextgen-->
 

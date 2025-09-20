@@ -13,7 +13,7 @@ tags:
 >
 > {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2025-11-07,271,330!2028-07-31,1048,350!2025-12-04,293,330!2028-10-13,1107,350!2027-06-23,721,330-->
 
-A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\) and the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. Demand curves can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\), or for all consumers in a particular market \(a __market demand curve__\)}@}. <!--SR:!2025-10-09,249,330!2025-12-02,291,330!2025-10-16,255,330-->
+A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\) and the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. Demand curves can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\), or for all consumers in a particular market \(a __market demand curve__\)}@}. <!--SR:!2028-11-17,1135,350!2025-12-02,291,330!2025-10-16,255,330-->
 
 It is generally assumed that {@{demand curves slope down}@}, as shown in the adjacent image. This is because of {@{the [law of demand](law%20of%20demand.md): for most goods, the quantity demanded falls if the price rises}@}.<sup>[\[2\]](#^ref-2)</sup> {@{Certain unusual situations}@} do not follow this law. These include {@{[Veblen goods](Veblen%20good.md), [Giffen goods](Giffen%20good.md), and speculative bubbles where buyers are attracted to a commodity if its price rises}@}. <!--SR:!2025-10-11,251,330!2027-07-30,738,330!2025-12-01,290,330!2025-11-12,276,330-->
 
@@ -29,7 +29,7 @@ Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-
 
 In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2028-09-09,1081,350!2027-05-18,692,330!2025-11-07,271,330-->
 
-For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2028-10-29,1121,350!2028-10-28,1120,350!2028-11-08,1128,350!2025-10-09,249,330!2028-09-18,1087,350!2028-08-18,1062,350!2028-08-28,1070,350!2025-12-02,291,330-->
+For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2028-10-29,1121,350!2028-10-28,1120,350!2028-11-08,1128,350!2028-11-22,1140,350!2028-09-18,1087,350!2028-08-18,1062,350!2028-08-28,1070,350!2025-12-02,291,330-->
 
 The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-09-17,1087,350!2027-11-21,824,330!2025-10-25,261,330!2028-07-13,1033,350-->
 
@@ -72,7 +72,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 
 ### factors affecting individual demand
 
-- Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2025-10-09,249,330!2025-10-21,258,330-->
+- Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2028-11-21,1139,350!2025-10-21,258,330-->
 - Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2027-09-12,772,330!2028-10-30,1122,350-->
 - Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2027-07-13,724,330!2027-05-28,698,330-->
 - Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-12-03,292,330!2025-10-16,255,330-->
@@ -115,7 +115,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 ## effect of taxation on the demand curve
 
 - When the demand curve is perfectly inelastic \(vertical demand curve\), ::@:: all taxes are borne by the consumer. <!--SR:!2028-10-06,1101,350!2028-07-16,1036,350-->
-- When the demand curve is perfectly elastic \(horizontal demand curve\), ::@:: all taxes are borne by the supplier. <!--SR:!2028-10-30,1121,350!2025-10-09,249,330-->
+- When the demand curve is perfectly elastic \(horizontal demand curve\), ::@:: all taxes are borne by the supplier. <!--SR:!2028-10-30,1121,350!2028-01-16,829,330-->
 - If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2027-07-19,737,330!2025-12-03,292,330-->
 
 ## derived demand

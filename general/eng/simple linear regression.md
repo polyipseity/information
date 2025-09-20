@@ -114,7 +114,7 @@ Since {@{$\operatorname {Var} (y_{d})=\sigma ^{2}$ \(a fixed but unknown paramet
 
 {@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_}@} — that is, {@{the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}. <!--SR:!2025-12-29,254,330!2027-03-15,539,310!2026-01-19,270,330!2025-10-16,189,310!2025-10-10,186,310!2026-01-26,276,330!2025-10-11,18,360-->
 
-{@{The standard method of constructing confidence intervals for linear regression coefficients}@} {@{relies on the normality assumption, which is justified}@} if either: <!--SR:!2025-10-09,185,310!2027-07-25,689,330-->
+{@{The standard method of constructing confidence intervals for linear regression coefficients}@} {@{relies on the normality assumption, which is justified}@} if either: <!--SR:!2027-12-18,800,330!2027-07-25,689,330-->
 
 1. the errors in the regression ::@:: are [normally distributed](normal%20distribution.md) \(the so-called _classic regression_ assumption\), or <!--SR:!2026-02-05,283,330!2026-01-15,267,330-->
 2. the number of observations _n_ ::@:: is sufficiently large, in which case the estimator is approximately normally distributed. <!--SR:!2026-02-16,292,330!2026-01-05,259,330-->
@@ -204,7 +204,7 @@ Several methods exist, considering:
 - Vertical distance: ::@:: Simple linear regression <!--SR:!2026-01-25,275,330!2026-01-07,260,330-->
 - Resistance to [outliers](outlier%20(statistics).md): ::@:: [Robust simple linear regression](robust%20simple%20linear%20regression.md) <!--SR:!2025-12-16,243,330!2026-02-12,289,330-->
 - [Perpendicular distance](perpendicular%20distance.md): ::@:: [Orthogonal regression](orthogonal%20regression.md#orthogonal%20regression) \(this is not scale-invariant i.e. changing the measurement units leads to a different line.\) <!--SR:!2025-12-30,255,330!2025-12-30,255,330-->
-- Weighted geometric distance: ::@:: [Deming regression](Deming%20regression.md) <!--SR:!2025-10-09,185,310!2027-02-11,541,310-->
+- Weighted geometric distance: ::@:: [Deming regression](Deming%20regression.md) <!--SR:!2027-12-17,799,330!2027-02-11,541,310-->
 - Scale invariant approach: ::@:: [Major axis regression](major%20axis%20regression.md#scale%20invariant%20methods) — This allows for measurement error in both variables, and gives an equivalent equation if the measurement units are altered. <!--SR:!2027-05-06,626,330!2027-05-20,638,330-->
 
 ### simple linear regression without the intercept term \(single regressor\)

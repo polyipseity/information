@@ -411,7 +411,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2028-09-08,1220,350-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2028-06-04,1147,350!2027-09-11,909,330-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
-  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2027-08-02,880,330-->
+  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2028-09-30,1087,270!2027-08-02,880,330-->
 
 ## page 33
 
@@ -458,5 +458,5 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2027-08-10,735,290!2025-10-09,336,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2027-08-10,735,290!2028-06-06,971,290-->
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2028-04-07,999,290!2027-09-24,803,290-->

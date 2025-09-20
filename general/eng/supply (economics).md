@@ -11,7 +11,7 @@ tags:
 
 > {@{![An example of a nonlinear supply curve](../../archives/Wikimedia%20Commons/Supply.gif)}@}
 >
-> {@{An example of a nonlinear supply curve}@} <!--SR:!2025-10-09,250,330!2025-11-30,293,330-->
+> {@{An example of a nonlinear supply curve}@} <!--SR:!2028-11-20,1138,350!2025-11-30,293,330-->
 
 In [economics](economics.md), __supply__ is {@{the amount of a resource that [firms](company.md), [producers](https://en.wiktionary.org/wiki/producer), [labourers](laborer.md), providers of [financial assets](financial%20asset.md), or other [economic agents](agent%20(economics).md) are willing and able to provide to the [marketplace](market%20(economics).md) or to an individual}@}. Supply can be in {@{produced goods, labour time, raw materials, or any other scarce or valuable object}@}. Supply is often {@{plotted [graphically](graph%20of%20a%20function.md) as a __supply curve__}@}, with {@{the [price](price.md) per unit on the vertical axis and quantity supplied as a function of price on the horizontal axis}@}. {@{This reversal of the usual position of the [dependent variable](dependent%20and%20independent%20variables.md) and the [independent variable](dependent%20and%20independent%20variables.md)}@} is {@{an unfortunate but standard convention}@}. <!--SR:!2027-04-19,674,330!2027-09-28,784,330!2025-11-16,281,330!2025-11-11,276,330!2025-12-01,294,330!2025-11-15,280,330-->
 

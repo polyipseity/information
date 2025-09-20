@@ -11,7 +11,7 @@ tags:
 
 > {@{![example of inferior good](../../archives/Wikimedia%20Commons/Inferior%20good.png)}@}
 >
-> {@{Good Y is a normal good}@} since {@{the amount purchased increases from Y1 to Y2 as the budget constraint shifts from BC1 to the higher income BC2}@}. {@{Good X is an inferior good}@} since {@{the amount bought decreases from X1 to X2 as income increases}@}. <!--SR:!2025-10-24,214,270!2025-12-05,293,330!2025-11-04,268,330!2025-11-06,270,330!2025-10-09,248,330-->
+> {@{Good Y is a normal good}@} since {@{the amount purchased increases from Y1 to Y2 as the budget constraint shifts from BC1 to the higher income BC2}@}. {@{Good X is an inferior good}@} since {@{the amount bought decreases from X1 to X2 as income increases}@}. <!--SR:!2025-10-24,214,270!2025-12-05,293,330!2025-11-04,268,330!2025-11-06,270,330!2028-11-11,1129,350-->
 
 In [economics](economics.md), __inferior goods__ are {@{those goods the demand for which falls with increase in income of the consumer}@}. So, there is {@{an inverse relationship between income of the consumer and the demand for inferior goods}@}.<sup>[\[1\]](#^ref-1)</sup> There are {@{many examples of inferior goods}@}, including {@{cheap cars, public transit options, [payday lending](payday%20loan.md), and inexpensive food}@}. {@{The shift in consumer demand for an inferior good}@} can be explained by {@{two natural economic phenomena}@}: {@{the [substitution effect](substitution%20effect.md) and the income effect}@}. <!--SR:!2025-10-22,258,330!2025-10-10,249,330!2025-11-30,289,330!2026-04-29,357,310!2025-11-10,273,330!2028-09-15,1084,350!2027-12-09,837,330-->
 
@@ -43,7 +43,7 @@ Others are {@{very inconsistent across geographic regions or cultures}@}. {@{The
 
 > ![generic Australian beer nuts](../../archives/Wikimedia%20Commons/Home%20brand%20beer%20nuts.jpg)
 >
-> An item such as {@{non-branded grocery products}@} are common inferior goods. There is {@{no set criteria of what constitutes an inferior good}@}, but economists refer to an inferior good as {@{any item preferred less when disposable consumer income increases}@}. <!--SR:!2025-10-28,263,330!2025-10-09,247,330!2028-09-13,1083,350-->
+> An item such as {@{non-branded grocery products}@} are common inferior goods. There is {@{no set criteria of what constitutes an inferior good}@}, but economists refer to an inferior good as {@{any item preferred less when disposable consumer income increases}@}. <!--SR:!2025-10-28,263,330!2028-11-10,1128,350!2028-09-13,1083,350-->
 
 {@{The shift in consumer demand for an inferior good}@} can be explained by {@{two natural economic phenomena}@}: {@{The substitution effect and the income effect}@}. These effects {@{describe and validate the movement of the demand curve}@} {@{in \(independent\) response to increasing income and relative cost of other goods}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-08-31,1071,350!2025-12-01,290,330!2025-11-12,275,330!2025-10-18,255,330!2025-12-06,294,330-->
 

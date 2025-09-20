@@ -835,7 +835,7 @@ tags:
 >
 > Try to not use any explicit Python loops. The solution below has 4 lines.
 >
-> - solution: <p> {@{`squared_dists = numpy.sum((centroids[..., numpy.newaxis, :] - data) ** 2, axis=-1)` <br/> `mins = numpy.argmin(squared_dists, axis=-2)` <br/> `min_mask = numpy.arange(len(centroids))[..., numpy.newaxis] == mins` <br/> `centroids = numpy.mean(numpy.repeat(data[numpy.newaxis, ...], len(centroids), axis=0), axis=-2, where=min_mask[..., numpy.newaxis])` <p> Note: This code will result in `nan`s if some centroids have no data points assigned to it. See if you can figure out a solution yourself...}@} <!--SR:!2025-10-09,205,310-->
+> - solution: <p> {@{`squared_dists = numpy.sum((centroids[..., numpy.newaxis, :] - data) ** 2, axis=-1)` <br/> `mins = numpy.argmin(squared_dists, axis=-2)` <br/> `min_mask = numpy.arange(len(centroids))[..., numpy.newaxis] == mins` <br/> `centroids = numpy.mean(numpy.repeat(data[numpy.newaxis, ...], len(centroids), axis=0), axis=-2, where=min_mask[..., numpy.newaxis])` <p> Note: This code will result in `nan`s if some centroids have no data points assigned to it. See if you can figure out a solution yourself...}@} <!--SR:!2027-07-03,632,310-->
 
 ## perceptron
 

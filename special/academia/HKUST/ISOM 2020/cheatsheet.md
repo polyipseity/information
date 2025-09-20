@@ -38,11 +38,11 @@ The cheatsheet is provided during the final examination.
 ## arithmetic operators
 
 - `+` ::@:: addition <!--SR:!2025-10-16,280,330!2025-10-20,282,330-->
-- `-` ::@:: subtraction <!--SR:!2025-10-14,278,330!2025-10-09,274,330-->
+- `-` ::@:: subtraction <!--SR:!2025-10-14,278,330!2029-03-14,1252,350-->
 - `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2025-10-20,282,330-->
 - `**` ::@:: to the power of <!--SR:!2025-10-14,278,330!2025-10-25,287,330-->
 - `/` ::@:: division <!--SR:!2029-02-09,1225,350!2025-10-21,282,330-->
-- `//` ::@:: floor division <!--SR:!2025-10-10,274,330!2025-10-09,274,330-->
+- `//` ::@:: floor division <!--SR:!2025-10-10,274,330!2029-03-15,1253,350-->
 - `%` ::@:: mod <!--SR:!2029-01-31,1218,350!2029-02-02,1220,350-->
 
 ## input / output
@@ -73,7 +73,7 @@ The cheatsheet is provided during the final examination.
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-10-10,274,330!2025-10-29,290,330-->
-- `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2025-10-09,273,330-->
+- `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
 - `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-10-12,276,330!2029-03-01,1241,350-->
 - `range()` ::@:: create a number sequence starting from zero <!--SR:!2025-10-15,279,330!2025-10-25,286,330-->
@@ -83,7 +83,7 @@ The cheatsheet is provided during the final examination.
 - `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2029-01-26,1214,350-->
 - `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2025-10-19,280,330-->
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
-- `>` ::@:: is greater than? <!--SR:!2025-10-09,273,330!2025-10-24,285,330-->
+- `>` ::@:: is greater than? <!--SR:!2029-03-07,1245,350!2025-10-24,285,330-->
 - `<=` ::@:: is less than or equal to? <!--SR:!2025-10-19,281,330!2025-10-21,283,330-->
 - `>=` ::@:: is greater than or equal to? <!--SR:!2025-10-13,277,330!2029-03-04,1243,350-->
 

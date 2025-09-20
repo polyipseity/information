@@ -87,7 +87,7 @@ In this case {@{the cash flow values remain the same throughout the _n_ periods}
 
 In this case, {@{each cash flow grows by a factor of \(1 + _g_\)}@}. Similar to {@{the formula for an annuity}@}, {@{the present value of a growing annuity \(PVGA\)}@} uses {@{the same variables with the addition of _g_ as the rate of growth of the annuity \(A is the annuity payment in the first period\)}@}. This is {@{a calculation that is rarely provided for on financial calculators}@}. <!--SR:!2026-02-24,284,330!2026-01-25,263,330!2025-12-14,228,330!2026-01-09,247,330!2026-02-26,286,330-->
 
-__Where _i_ ≠ _g_ :__ ::@:: $$PV(A)\,=\,{A \over (i-g)}\left[1-\left({1+g \over 1+i}\right)^{n}\right]$$ <!--SR:!2026-01-24,262,330!2025-10-09,159,270-->
+__Where _i_ ≠ _g_ :__ ::@:: $$PV(A)\,=\,{A \over (i-g)}\left[1-\left({1+g \over 1+i}\right)^{n}\right]$$ <!--SR:!2026-01-24,262,330!2027-05-31,599,290-->
 
 __Where _i_ = _g_ :__ ::@:: $$PV(A)\,=\,{A\times n \over 1+i}$$ (annotation: the additional denominator below is due to payments being made at period end instead of period start) <!--SR:!2026-01-29,266,330!2026-01-26,263,330-->
 
