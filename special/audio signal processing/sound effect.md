@@ -33,11 +33,11 @@ Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies,
 
 ### amplitude scaling \(sinusoidal\)
 
-{@{_Amplitude scaling_}@} is done by {@{simply multiplying \(or adding if in logarithmic scale, e.g. dB\) the amplitude}@} by {@{a function \(or use a amplitude scaling envelope that maps old amplitudes to new amplitudes\)}@} for {@{each STFT frame}@}. <!--SR:!2026-04-27,229,330!2025-10-27,34,290!2025-10-31,25,369!2025-10-29,23,369-->
+{@{_Amplitude scaling_}@} is done by {@{simply multiplying \(or adding if in logarithmic scale, e.g. dB\) the amplitude}@} by {@{a factor \(or as a function of time\)}@} for {@{each STFT frame}@}. <!--SR:!2026-04-27,229,330!2025-10-27,34,290!2025-10-31,25,369!2025-10-29,23,369-->
 
 ### pitch scaling \(sinusoidal\)
 
-{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or use a frequency scaling envelope that maps old frequencies to new frequencies\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2026-07-12,292,330!2026-05-22,251,330!2026-06-11,267,330!2026-06-09,265,330!2026-07-13,293,330!2026-06-19,273,330!2026-05-12,242,330!2026-05-16,246,330!2026-05-13,243,330!2026-07-04,284,330-->
+{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or as a function of time\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}. <!--SR:!2026-07-12,292,330!2026-05-22,251,330!2026-06-11,267,330!2026-06-09,265,330!2026-07-13,293,330!2026-06-19,273,330!2026-05-12,242,330!2026-05-16,246,330!2026-05-13,243,330!2026-07-04,284,330-->
 
 ### time stretching \(sinusoidal\)
 
