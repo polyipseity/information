@@ -130,7 +130,7 @@ All the formulas of LTL can be {@{transformed into _negation normal form_}@}, wh
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2028-02-24,889,337!2025-11-02,255,330-->
 - only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2026-03-29,378,363!2026-03-14,364,363-->
 
-{@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2026-02-24,348,350!2025-11-07,259,337!2026-02-20,348,363!2025-10-07,218,330!2026-02-17,343,350-->
+{@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2026-02-24,348,350!2025-11-07,259,337!2026-02-20,348,363!2028-06-25,992,350!2026-02-17,343,350-->
 
 ## relations with other logics
 

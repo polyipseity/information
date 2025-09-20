@@ -71,7 +71,7 @@ This space (annotation: ${\text{Iso} }(\mathbb {R} ^{n}\rightarrow V)$) also adm
 
 - Main article: ::@:: [Stiefel manifold](Stiefel%20manifold.md) <!--SR:!2026-01-04,250,330!2026-04-18,331,344-->
 
-{@{The set of orthonormal bases for $\mathbb {R} ^{n}$ with the standard inner product}@} is {@{a [principal homogeneous space](principal%20homogeneous%20space.md) or G-torsor for the [orthogonal group](orthogonal%20group.md) $G={\text{O} }(n)$}@}, and is called {@{the [Stiefel manifold](Stiefel%20manifold.md) $V_{n}(\mathbb {R} ^{n})$ of orthonormal [$n$-frames](k-frame.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-01-05,251,330!2027-01-28,485,304!2025-10-07,161,304-->
+{@{The set of orthonormal bases for $\mathbb {R} ^{n}$ with the standard inner product}@} is {@{a [principal homogeneous space](principal%20homogeneous%20space.md) or G-torsor for the [orthogonal group](orthogonal%20group.md) $G={\text{O} }(n)$}@}, and is called {@{the [Stiefel manifold](Stiefel%20manifold.md) $V_{n}(\mathbb {R} ^{n})$ of orthonormal [$n$-frames](k-frame.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-01-05,251,330!2027-01-28,485,304!2027-08-16,678,324-->
 
 In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal group, but without a choice of base point}@}: given {@{the space of orthonormal bases}@}, there is {@{no natural choice of orthonormal basis}@}, but {@{once one is given one, there is a one-to-one correspondence between bases and the orthogonal group}@}. Concretely, {@{a linear map}@} is determined by {@{where it sends a given basis}@}: just as {@{an invertible map can take any basis to any other basis}@}, an orthogonal map can {@{take any _orthogonal_ basis to any other _orthogonal_ basis}@}. <!--SR:!2026-04-11,331,344!2026-01-27,270,330!2026-04-22,335,344!2025-12-09,224,324!2026-04-29,342,344!2026-04-21,334,344!2026-04-21,334,344!2026-04-02,322,344!2026-04-29,342,344-->
 
@@ -80,7 +80,7 @@ In other words, {@{the space of orthonormal bases}@} is like {@{the orthogonal g
 - The set of orthonormal bases for $\mathbb {R} ^{p,q}$ ::@:: is a G-torsor for $G={\text{O} }(p,q)$. <!--SR:!2026-04-12,332,344!2026-04-28,341,344-->
 - The set of orthonormal bases for $\mathbb {C} ^{n}$ ::@:: is a G-torsor for $G={\text{U} }(n)$. <!--SR:!2026-02-25,279,304!2026-04-21,339,344-->
 - The set of orthonormal bases for $\mathbb {C} ^{p,q}$ ::@:: is a G-torsor for $G={\text{U} }(p,q)$. <!--SR:!2026-04-19,332,344!2026-04-20,333,344-->
-- The set of right-handed orthonormal bases for $\mathbb {R} ^{n}$ ::@:: is a G-torsor for $G={\text{SO} }(n)$ <!--SR:!2025-10-07,161,304!2026-04-23,316,304-->
+- The set of right-handed orthonormal bases for $\mathbb {R} ^{n}$ ::@:: is a G-torsor for $G={\text{SO} }(n)$ <!--SR:!2027-08-09,671,324!2026-04-23,316,304-->
 
 ## see also
 

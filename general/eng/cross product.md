@@ -317,7 +317,7 @@ The cross product has {@{applications in various contexts}@}. For example, it is
 
 ### computational geometry
 
-The cross product appears in {@{the calculation of the distance}@} of {@{two [skew lines](skew%20lines.md#distance) \(lines not in the same plane\) from each other}@} in {@{three-dimensional space}@}. <!--SR:!2025-11-04,73,327!2025-10-07,50,307!2025-10-26,66,327-->
+The cross product appears in {@{the calculation of the distance}@} of {@{two [skew lines](skew%20lines.md#distance) \(lines not in the same plane\) from each other}@} in {@{three-dimensional space}@}. <!--SR:!2025-11-04,73,327!2026-05-03,208,327!2025-10-26,66,327-->
 
 The cross product can be used to calculate {@{the normal for a triangle or polygon}@}, an operation frequently {@{performed in [computer graphics](computer%20graphics.md)}@}. For example, {@{the winding of a polygon \(clockwise or anticlockwise\)}@} about {@{a point within the polygon}@} can be calculated by {@{triangulating the polygon \(like spoking a wheel\)}@} and {@{summing the angles \(between the spokes\)}@} using {@{the cross product to keep track of the sign of each angle}@}. <!--SR:!2025-11-03,72,327!2025-10-24,64,327!2025-10-31,70,327!2025-11-06,75,327!2025-11-03,72,327!2025-11-06,75,327!2025-11-06,75,327-->
 
@@ -393,7 +393,7 @@ Because the cross product may {@{also be a polar vector}@}, it may {@{not change
 
 Let {@{\(__i__, __j__, __k__\)}@} be {@{an orthonormal basis}@}. {@{The vectors __i__, __j__ and __k__}@} do not {@{depend on the orientation of the space}@}. They can even be defined in {@{the absence of any orientation}@}. They can {@{not therefore be axial vectors}@}. But if {@{__i__ and __j__ are polar vectors}@}, then {@{__k__ is an axial vector}@} for {@{__i__ × __j__ = __k__ or __j__ × __i__ = __k__}@}. This is {@{a paradox}@}. <!--SR:!2025-11-03,72,327!2025-11-05,74,327!2025-11-02,71,327!2025-11-06,75,327!2025-11-05,74,327!2025-11-01,71,327!2025-10-30,69,327!2025-10-27,67,327!2025-11-06,75,327!2025-11-04,73,327-->
 
-{@{"Axial" and "polar"}@} are {@{_physical_ qualifiers for _physical_ vectors}@}; that is, {@{vectors which represent _physical_ quantities}@} such as {@{the velocity or the magnetic field}@}. {@{The vectors __i__, __j__ and __k__}@} are {@{mathematical vectors}@}, {@{neither axial nor polar}@}. <!--SR:!2025-10-31,70,327!2025-10-28,67,327!2025-11-02,71,327!2025-10-24,64,327!2025-10-07,50,307!2025-10-31,70,327!2025-10-27,67,327-->
+{@{"Axial" and "polar"}@} are {@{_physical_ qualifiers for _physical_ vectors}@}; that is, {@{vectors which represent _physical_ quantities}@} such as {@{the velocity or the magnetic field}@}. {@{The vectors __i__, __j__ and __k__}@} are {@{mathematical vectors}@}, {@{neither axial nor polar}@}. <!--SR:!2025-10-31,70,327!2025-10-28,67,327!2025-11-02,71,327!2025-10-24,64,327!2026-05-03,208,327!2025-10-31,70,327!2025-10-27,67,327-->
 
 ## generalizations
 

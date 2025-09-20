@@ -154,7 +154,7 @@ As {@{a common application of the arrow notation}@}, suppose {@{$f:X\times X\to 
 
 {@{Index notation may be used}@} instead of functional notation. That is, instead of {@{writing _f_<!-- markdown separator -->&hairsp;\(_x_\), one writes $f_{x}$}@}. <!--SR:!2026-03-06,307,350!2026-03-24,321,350-->
 
-This is typically the case for {@{functions whose domain is the set of the [natural numbers](natural%20number.md)}@}. Such a function is called {@{a [sequence](sequence%20(mathematics).md)}@}, and, in this case {@{the element $f_{n}$}@} is called {@{the _n_<!-- markdown separator -->th element of the sequence}@}. <!--SR:!2025-10-07,169,310!2026-05-26,369,365!2026-06-24,397,365!2026-08-25,449,391-->
+This is typically the case for {@{functions whose domain is the set of the [natural numbers](natural%20number.md)}@}. Such a function is called {@{a [sequence](sequence%20(mathematics).md)}@}, and, in this case {@{the element $f_{n}$}@} is called {@{the _n_<!-- markdown separator -->th element of the sequence}@}. <!--SR:!2027-10-02,725,330!2026-05-26,369,365!2026-06-24,397,365!2026-08-25,449,391-->
 
 The index notation can also be used for {@{distinguishing some variables called _[parameters](parameter%20(mathematics).md#mathematics)_ from the "true variables"}@}. In fact, parameters are {@{specific variables that are considered as being fixed during the study of a problem}@}. For example, {@{the map $x\mapsto f(x,t)$ \(see above\)}@} would be denoted {@{$f_{t}$ using index notation}@}, if we define {@{the collection of maps $f_{t}$}@} by {@{the formula $f_{t}(x)=f(x,t)$ for all $x,t\in X$}@}. <!--SR:!2026-01-03,254,330!2026-05-21,363,365!2026-03-03,304,350!2026-03-28,324,350!2026-04-15,327,350!2026-06-17,389,367-->
 

@@ -34,7 +34,7 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-12-04,294,330!2025-10-19,257,330-->
   - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-11-03,269,330!2025-11-30,290,330-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-12-03,293,330!2027-12-06,799,330-->
-  - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-10-27,263,330!2025-10-07,247,330-->
+  - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-10-27,263,330!2028-11-10,1130,350-->
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2027-08-12,748,330!2025-10-26,263,330-->
   - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2025-10-28,264,330!2025-10-31,267,330-->
 - 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2025-12-02,292,330!2027-10-01,785,330-->

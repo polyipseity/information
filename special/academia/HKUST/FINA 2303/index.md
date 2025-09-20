@@ -511,7 +511,7 @@ The content is in teaching order.
 - datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
 - free cash flow
-  - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2025-10-07,139,414!2026-08-15,394,392-->
+  - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2027-04-29,569,414!2026-08-15,394,392-->
     - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\) <!--SR:!2027-08-30,716,432!2026-11-23,478,412-->
     - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense <!--SR:!2026-12-01,486,412!2027-10-22,752,435-->
   - free cash flow / depreciation
@@ -522,7 +522,7 @@ The content is in teaching order.
     - free cash flow / changes in working capital / cash ::@:: Notice the "cash" account is _not_ specially handled when calculating current assets. This is because the "cash" account is for incremental cash requirement, i.e. requirement to hold cash for a project. As the cash is held, it is not free cash flow. <!--SR:!2027-10-02,745,432!2027-03-30,545,414-->
     - free cash flow / changes in working capital / trade credit ::@:: receivables − payables <p> It can be interpreted as the net capital held up in credit transactions. <!--SR:!2027-10-03,746,432!2025-10-11,143,413-->
     - free cash flow / changes in working capital / recovery ::@:: Typically at the end of a project, payables are paid off, inventory are sold off, receivables are collected, so NWC equals its beginning balance, i.e. fully recovered. <p> Some NWC may not be recoverable, e.g. bad inventory, bad receivables, etc. However, accounting principles ensure these non-recoverable NWC is written off as expense, so that the total changes in NWC over a project is zero. <!--SR:!2025-10-10,142,414!2025-10-14,146,415-->
-  - free cash flow / net present value ::@:: To evaluate a project, find the _incremental_ free cash flows. Find the NPV of these cash flows. Apply decision rules as needed. <p> Note that some decision rules above, applicable \(i.e. consistent with NPV\) in some situation, does not require you to calculate the NPV. <!--SR:!2025-10-07,139,415!2025-10-07,139,414-->
+  - free cash flow / net present value ::@:: To evaluate a project, find the _incremental_ free cash flows. Find the NPV of these cash flows. Apply decision rules as needed. <p> Note that some decision rules above, applicable \(i.e. consistent with NPV\) in some situation, does not require you to calculate the NPV. <!--SR:!2027-12-09,793,435!2027-12-06,790,434-->
 - [questions § week 7 lecture](questions.md#week%207%20lecture)
 - [TAPPS/week 7 lecture](assignments/TAPPS/week%207%20lecture.md)
 - readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
@@ -580,7 +580,7 @@ The content is in teaching order.
     - bond / terminology / term ::@:: duration from issuing date to maturity date <!--SR:!2025-10-08,140,413!2027-11-17,774,435-->
     - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments <!--SR:!2027-09-03,720,432!2026-11-25,480,414-->
     - bond / terminology / coupon rate ::@:: interest to compute coupon payments based on the face value; often expressed as APR <!--SR:!2025-10-09,141,413!2025-10-08,140,414-->
-    - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually <!--SR:!2025-10-08,140,414!2025-10-07,139,415-->
+    - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually <!--SR:!2025-10-08,140,414!2027-12-08,792,435-->
   - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(__this course__: We use the "clean" one for simplicity.\) <!--SR:!2027-11-25,780,435!2027-10-27,756,435-->
   - bond / risk ::@:: A bond may be considered either risk-free or has default risk. <p> Government bonds, e.g. United States Treasury bills, are generally considered risk-free. But note that some countries have \(repeatedly\) defaulted on their government bonds. <!--SR:!2027-09-25,739,432!2027-02-23,529,412-->
 - [zero-coupon bond](../../../../general/zero-coupon%20bond.md) ::@:: It is a bond in which the face value is repaid at the time of maturity. Unlike regular bonds, it does not make periodic interest payments or have so-called coupons, hence the term zero-coupon bond. When the bond reaches maturity, its investor receives its par (or face) value. <!--SR:!2027-02-18,549,413!2027-09-02,719,432-->
@@ -600,7 +600,7 @@ The content is in teaching order.
     - yield curve / types / flat ::@:: It is observed when all maturities have similar yields. <!--SR:!2027-11-03,762,435!2027-09-28,742,432-->
     - yield curve / types / humped ::@:: It results when short-term and long-term yields are equal and medium-term yields are higher than those of the short-term and long-term. <!--SR:!2027-09-22,736,432!2027-11-06,764,435-->
     - yield curve / types / inverted ::@:: Under unusual circumstances, yields falls as maturity lengthens \(i.e., the slope of the yield curve is negative\). <!--SR:!2027-10-22,752,435!2027-09-06,722,432-->
-- [coupon](../../../../general/coupon%20(finance).md) ::@:: It is the interest payment received by a bondholder from the date of issuance until the date of maturity of a bond. <!--SR:!2027-10-10,741,433!2025-10-07,139,414-->
+- [coupon](../../../../general/coupon%20(finance).md) ::@:: It is the interest payment received by a bondholder from the date of issuance until the date of maturity of a bond. <!--SR:!2027-10-10,741,433!2027-12-07,791,434-->
   - coupon / coupon rate ::@:: Coupons are normally described in terms of the "coupon rate", which is calculated by adding the sum of coupons paid per year and dividing it by the bond's face value. <!--SR:!2027-10-21,751,434!2027-12-02,787,435-->
 - [United States Treasury security](../../../../general/United%20States%20Treasury%20security.md) ::@:: They are government debt instruments issued by the United States Department of the Treasury to finance government spending, in addition to taxation. <!--SR:!2027-09-20,735,432!2027-10-12,743,433-->
   - United States Treasury security / types ::@:: \(in increasing terms\) treasury bill, treasury note, treasury bond <!--SR:!2027-09-18,733,432!2027-09-11,727,432-->

@@ -11,7 +11,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-__Weathering__ is {@{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}@}. It is distinct from {@{[erosion](erosion.md) which involves movement}@}. <!--SR:!2025-10-07,442,230!2026-04-29,857,330-->
+__Weathering__ is {@{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}@}. It is distinct from {@{[erosion](erosion.md) which involves movement}@}. <!--SR:!2029-09-12,1436,250!2026-04-29,857,330-->
 
 Weathering can be divided into {@{_[chemical weathering](#chemical%20weathering)_ and _[physical weathering](#physical%20weathering)_}@}. <!--SR:!2028-07-21,1509,350-->
 

@@ -21,7 +21,7 @@ In {@{[queueing theory](queueing%20theory.md), a discipline within the mathemati
 
 ## model definition
 
-{@{An M/M/1 queue}@} is {@{a stochastic process}@} whose {@{[state space](state%20space.md) is the set {0,1,2,3,...}<!-- flashcard separator -->}@} where {@{the value corresponds to the number of customers in the system}@}, including {@{any currently in service}@}. <!--SR:!2026-07-24,298,350!2026-05-05,228,330!2025-10-07,71,330!2026-05-09,231,330!2026-05-28,247,330-->
+{@{An M/M/1 queue}@} is {@{a stochastic process}@} whose {@{[state space](state%20space.md) is the set {0,1,2,3,...}<!-- flashcard separator -->}@} where {@{the value corresponds to the number of customers in the system}@}, including {@{any currently in service}@}. <!--SR:!2026-07-24,298,350!2026-05-05,228,330!2026-08-20,317,350!2026-05-09,231,330!2026-05-28,247,330-->
 
 - Arrivals ::@:: occur at rate λ according to a [Poisson process](Poisson%20process.md) and move the process from state _i_ to _i_ + 1. <!--SR:!2026-05-27,246,330!2026-05-27,246,330-->
 - Service times ::@:: have an [exponential distribution](exponential%20distribution.md) with rate parameter μ in the M/M/1 queue, where 1/μ is the mean service time. <!--SR:!2026-05-02,213,330!2026-05-04,227,330-->

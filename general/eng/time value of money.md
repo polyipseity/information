@@ -95,7 +95,7 @@ To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annu
 
 ### present value of a perpetuity
 
-{@{A [perpetuity](perpetuity.md)}@} is {@{payments of a set amount of money that occur on a routine basis and continue forever}@}. When {@{_n_ → ∞}@}, {@{the _PV_ of a perpetuity \(a perpetual annuity\) formula}@} {@{becomes a simple division}@}. {@{$$PV(P)\ =\ {A \over i}$$}@} <!--SR:!2026-02-17,277,330!2025-10-07,173,310!2026-01-24,262,330!2025-12-28,240,330!2026-02-22,282,330!2026-01-23,261,330-->
+{@{A [perpetuity](perpetuity.md)}@} is {@{payments of a set amount of money that occur on a routine basis and continue forever}@}. When {@{_n_ → ∞}@}, {@{the _PV_ of a perpetuity \(a perpetual annuity\) formula}@} {@{becomes a simple division}@}. {@{$$PV(P)\ =\ {A \over i}$$}@} <!--SR:!2026-02-17,277,330!2027-10-25,748,330!2026-01-24,262,330!2025-12-28,240,330!2026-02-22,282,330!2026-01-23,261,330-->
 
 ### present value of a growing perpetuity
 
@@ -163,7 +163,7 @@ Notes:
 
 {@{The formula for the present value of a regular stream of future payments \(an annuity\)}@} is derived from {@{a sum of the formula for future value of a single future payment}@}, as below, where {@{_C_ is the payment amount and _n_ the period}@}. <!--SR:!2026-01-02,245,330!2025-12-26,239,330!2026-03-04,292,330-->
 
-{@{A single payment _C_ at future time _m_}@} has {@{the following future value at future time _n_}@}: {@{$$FV\ =C(1+i)^{n-m}$$}@} Summing over {@{all payments from time 1 to time _n_}@}, then {@{reversing the order of terms and substituting _k_ = _n_ − _m_}@}: {@{$$FVA\ =\sum _{m=1}^{n}C(1+i)^{n-m}\ =\sum _{k=0}^{n-1}C(1+i)^{k}$$}@} Note that {@{this is a [geometric series](geometric%20series.md)}@}, with {@{the initial value being _a_ = _C_, the multiplicative factor being 1 + _i_, with _n_ terms}@}. Applying {@{the formula for geometric series}@}, we get: {@{$$FVA\ ={\frac {C(1-(1+i)^{n})}{1-(1+i)} }\ ={\frac {C(1-(1+i)^{n})}{-i} }$$}@} <!--SR:!2026-01-23,261,330!2026-01-10,248,330!2026-01-17,255,330!2025-10-07,173,310!2026-01-12,250,330!2026-01-20,258,330!2026-01-07,245,330!2026-02-19,279,330!2027-10-03,729,330!2026-06-30,354,290-->
+{@{A single payment _C_ at future time _m_}@} has {@{the following future value at future time _n_}@}: {@{$$FV\ =C(1+i)^{n-m}$$}@} Summing over {@{all payments from time 1 to time _n_}@}, then {@{reversing the order of terms and substituting _k_ = _n_ − _m_}@}: {@{$$FVA\ =\sum _{m=1}^{n}C(1+i)^{n-m}\ =\sum _{k=0}^{n-1}C(1+i)^{k}$$}@} Note that {@{this is a [geometric series](geometric%20series.md)}@}, with {@{the initial value being _a_ = _C_, the multiplicative factor being 1 + _i_, with _n_ terms}@}. Applying {@{the formula for geometric series}@}, we get: {@{$$FVA\ ={\frac {C(1-(1+i)^{n})}{1-(1+i)} }\ ={\frac {C(1-(1+i)^{n})}{-i} }$$}@} <!--SR:!2026-01-23,261,330!2026-01-10,248,330!2026-01-17,255,330!2027-10-24,747,330!2026-01-12,250,330!2026-01-20,258,330!2026-01-07,245,330!2026-02-19,279,330!2027-10-03,729,330!2026-06-30,354,290-->
 
 {@{The present value of the annuity \(PVA\)}@} is {@{obtained by simply dividing by $(1+i)^{n}$}@}: {@{$$PVA\ ={\frac {FVA}{(1+i)^{n} } }={\frac {C}{i} }\left(1-{\frac {1}{(1+i)^{n} } }\right)$$}@} <!--SR:!2026-01-09,251,330!2026-01-06,248,330!2026-02-25,285,330-->
 

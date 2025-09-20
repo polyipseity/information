@@ -88,7 +88,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2027-06-23,665,330!2025-12-22,248,330-->
 
 - a node ::@:: for every object in the index category, <!--SR:!2026-02-15,291,330!2026-01-13,264,330-->
-- an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-10-07,182,310!2025-12-07,234,330-->
+- an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2027-04-24,564,310!2025-12-07,234,330-->
 - the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2026-01-24,274,330!2025-12-08,235,330-->
 
 Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2026-01-26,276,330!2025-10-18,191,310-->

@@ -104,7 +104,7 @@ See the specific articles for details.
 
 ## symmetric formulae
 
-Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@{the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-05-03,967,330!2025-10-07,19,351-->
+Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@{the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-05-03,967,330!2026-01-10,95,371-->
 
 - symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-11-07,64,130!2025-12-09,97,250-->
 

@@ -8,7 +8,7 @@ tags:
 
 # most vexing parse
 
-{@{The __most vexing parse__}@} is {@{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}@}. When the C++ grammar {@{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md)}@}, it is required to {@{interpret it as a function declaration}@}. <!--SR:!2027-12-13,1067,350!2026-10-11,719,330!2025-10-07,19,347!2025-10-07,19,347-->
+{@{The __most vexing parse__}@} is {@{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}@}. When the C++ grammar {@{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md)}@}, it is required to {@{interpret it as a function declaration}@}. <!--SR:!2027-12-13,1067,350!2026-10-11,719,330!2026-01-08,93,367!2026-01-09,94,367-->
 
 ## examples
 
@@ -39,7 +39,7 @@ struct Parent { explicit Parent(Child child); };
 Parent parent(Child());
 ```
 
-{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}: <!--SR:!2027-01-05,728,290!2026-03-23,187,270!2025-12-30,85,367!2025-10-07,19,347-->
+{@{The intuitive interpretation of line 3}@} is {@{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}@}. The alternative interpretation is {@{a function declaration named `parent` that has an unnamed parameter}@}, whose type is {@{\(a pointer to\) a function that accepts no inputs and returns a `Child`, equivalent to}@}: <!--SR:!2027-01-05,728,290!2026-03-23,187,270!2025-12-30,85,367!2026-01-09,94,367-->
 
 ```C++
 Parent parent(Child(*)());
@@ -51,7 +51,7 @@ The required interpretation of {@{a function declaration for the above ambiguous
 
 ### solutions for C-style casts
 
-For {@{C-style casts}@}, one can use {@{two alternative syntaxes}@}: {@{the alternative syntax for C-style casts}@}, or {@{more preferably in [C++](C++.md), a named cast}@}: <!--SR:!2027-02-24,819,330!2025-12-23,79,367!2025-10-07,19,347!2025-12-22,78,367-->
+For {@{C-style casts}@}, one can use {@{two alternative syntaxes}@}: {@{the alternative syntax for C-style casts}@}, or {@{more preferably in [C++](C++.md), a named cast}@}: <!--SR:!2027-02-24,819,330!2025-12-23,79,367!2026-01-09,94,367!2025-12-22,78,367-->
 
 ```C++
 int an_int((int)a_double); // C-style cast
@@ -60,7 +60,7 @@ int an_int(static_cast<int>(a_double)); // named cast, preferred in C++
 
 ### solutions for temporaries
 
-Since {@{[C++11](C++11.md)}@}, the preferred solution is {@{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables}@}. Additionally, sometimes {@{the type name can be omitted with the brace syntax}@}: <!--SR:!2028-10-25,1226,310!2025-10-07,19,347!2025-10-07,19,347-->
+Since {@{[C++11](C++11.md)}@}, the preferred solution is {@{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables}@}. Additionally, sometimes {@{the type name can be omitted with the brace syntax}@}: <!--SR:!2028-10-25,1226,310!2026-01-09,94,367!2026-01-09,94,367-->
 
 ```C++
 // Any one works:

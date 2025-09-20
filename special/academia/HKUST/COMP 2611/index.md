@@ -215,8 +215,8 @@ The content is in teaching order.
   - flip-flop / SR NOR latch ::@:: An unclocked/asynchronous memory element. Its 2 inputs are S (set) and R (reset). Its 2 outputs are Q (stored output) and its complement. It consists of two parallel NOR gates where the output of each NOR is also fanned out into one input of the other NOR. <!--SR:!2026-10-13,479,387!2026-02-27,284,367-->
     - flip-flop / SR NOR latch / symbol, figure ::@:: symbol: ![SR NOR latch symbol](../../../../archives/Wikimedia%20Commons/SR%20(NAND)%20Flip-flop.svg) <br/> figure: ![SR NOR latch figure](../../../../archives/Wikimedia%20Commons/R-S%20mk2.gif) <!--SR:!2026-04-06,322,367!2026-04-13,313,367-->
     - flip-flop / SR NOR latch / operations ::@:: hold/_quiescent_/latch state: If S and R are both 0, Q and its complement keep their previous outputs. <br/> set: If S is 1 and R is 0, Q becomes 1 and its complement becomes 0. <br/> unset: If S is 0 and R is 1, Q becomes 0 and its complement becomes 1. <br/> _forbidden/race condition_: S and R are not allowed to be both 1, as both outputs are now 0. Then, if S and R both goes to 0 _simultaneously_ afterwards, the outputs are metastable and may eventually lock at either 1 or 0 depending on the propagation time relations between the gates. <!--SR:!2027-02-22,531,347!2026-10-11,475,387-->
-- [race condition](../../../../general/race%20condition.md) ::@:: It is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events, leading to unexpected or inconsistent results. It becomes a bug when one or more of the possible behaviors is undesirable. <!--SR:!2025-10-07,141,420!2027-04-20,575,420-->
-  - race condition / in electronics ::@:: A typical example of a race condition may occur when a logic gate combines signals that have traveled along different paths from the same source. The inputs to the gate can change at slightly different times in response to a change in the source signal. The output may, for a brief period, change to an unwanted state before settling back to the designed state. <!--SR:!2025-10-13,147,420!2025-10-07,141,420-->
+- [race condition](../../../../general/race%20condition.md) ::@:: It is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events, leading to unexpected or inconsistent results. It becomes a bug when one or more of the possible behaviors is undesirable. <!--SR:!2027-12-30,814,440!2027-04-20,575,420-->
+  - race condition / in electronics ::@:: A typical example of a race condition may occur when a logic gate combines signals that have traveled along different paths from the same source. The inputs to the gate can change at slightly different times in response to a change in the source signal. The output may, for a brief period, change to an unwanted state before settling back to the designed state. <!--SR:!2025-10-13,147,420!2027-12-25,809,440-->
   - race condition / note ::@:: \(__this course__: __important__: It seems like the actual rules for deciding if a state is _forbidden_ is very complicated. It seems like there are three ways this can arise: adjacent 1s or 0s not covered by a contagious grouping, undefined states of SR latch, and shortest paths to latch states passing through undefined states. See the Karnaugh map race hazards examples below.\) <!--SR:!2027-12-08,795,440!2027-05-08,581,420-->
 - Karnaugh map
   - Karnaugh map / race hazards ::@:: Karnaugh maps are useful for detecting and eliminating race conditions. Race hazards are very easy to spot using a Karnaugh map, because a race condition _may_ exist when moving between any pair of adjacent, but disjoint, regions circumscribed on the map. <p> Whether glitches will actually occur depends on the physical nature of the implementation, and whether we need to worry about it depends on the application. In clocked logic, it is enough that the logic settles on the desired value in time to meet the timing deadline. In our example, we are not considering clocked logic. <!--SR:!2025-10-14,148,420!2027-11-26,784,440-->
@@ -567,7 +567,7 @@ The content is in teaching order.
     - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `push`, `pop`
 - ASCII
   - ASCII / full name
-  - ASCII / common characters ::@:: space: 0x20 \(32\) <!--SR:!2025-10-07,141,420!2025-10-11,145,420-->
+  - ASCII / common characters ::@:: space: 0x20 \(32\) <!--SR:!2027-12-27,811,440!2025-10-11,145,420-->
 - MIPS architecture
   - [MIPS](MIPS.md)
     - [§ data instructions](MIPS.md#data%20instructions): `lb`, `sb`, `lbu`
@@ -678,7 +678,7 @@ The content is in teaching order.
   - datetime: 2025-03-28T19:00:00+08:00 → 2025-03-28T20:30:00+08:00
   - venue: Lecture Theater C, Academic Building
   - report
-    - MIPS programming \(+5\) ::@:: I think the TA gave up looking at the very messy organization of the code... <!--SR:!2025-10-07,141,420!2025-10-10,144,420-->
+    - MIPS programming \(+5\) ::@:: I think the TA gave up looking at the very messy organization of the code... <!--SR:!2027-12-29,813,440!2025-10-10,144,420-->
 
 ## week 8 lab
 
@@ -713,7 +713,7 @@ The content is in teaching order.
 - topic: arithmetic logic unit \(ALU\)
 - [arithmetic logic unit](../../../../general/arithmetic%20logic%20unit.md) \(ALU\) ::@:: It is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers. <!--SR:!2025-10-12,146,420!2027-12-18,803,440-->
   - arithmetic logic unit / processor ::@:: It is an important part of a processor, with the other parts being cache, control unit, and registers. <!--SR:!2027-11-18,777,440!2025-10-13,147,420-->
-  - arithmetic logic unit / bit width ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together. <!--SR:!2025-10-07,141,420!2027-12-01,789,440-->
+  - arithmetic logic unit / bit width ::@:: It depends on the ISA. For examples, MIPS requires 32-bit ALUs. <p> In theory, we could build an _n_-bit ALU by connecting _n_ 1-bit ALUs together. <!--SR:!2027-12-28,812,440!2027-12-01,789,440-->
   - arithmetic logic unit / functions ::@:: arithmetic, bit shift, bitwise logical, other \(passthrough\) <!--SR:!2027-12-02,799,440!2025-10-08,142,420-->
     - arithmetic logic unit / functions / selection ::@:: An ALU can carry out many functions. An _opcode_ input is passed to a selector/multiplexor to select the correct output. <!--SR:!2027-11-04,775,440!2025-10-15,149,420-->
 - [adder](../../../../general/adder%20(electronics).md) ::@:: It is a digital circuit that performs addition of numbers. <!--SR:!2027-11-30,788,440!2027-10-27,768,440-->
@@ -724,14 +724,14 @@ The content is in teaching order.
     - adder / full adder / implementation ::@:: A full adder can be implemented in many different ways such as with a custom [transistor](../../../../general/transistor.md)-level circuit or composed of other gates. The most common implementation is with: $$\begin{aligned} S & = A\oplus B\oplus C_{in} \\ C_{out} & = (A\cdot B)+(C_{in}\cdot (A\oplus B)) \end{aligned}$$ The above expressions for $S$ and $C_{in}$ can be derived from using a [Karnaugh map](../../../../general/Karnaugh%20map.md) to simplify the truth table. <!--SR:!2027-04-04,589,420!2025-10-09,143,420-->
     - adder / full adder / schematic ::@:: [Schematic](../../../../general/schematic.md) of full adder implemented with two [XOR gates](../../../../general/XOR%20gate.md), two [AND gates](../../../../general/AND%20gate.md), one [OR gate](../../../../general/OR%20gate.md): <p> ![Schematic of full adder implemented with two XOR gates, two AND gates, one OR gate.](../../../../archives/Wikimedia%20Commons/Full-adder%20logic%20diagram.svg) <!--SR:!2027-04-16,588,420!2027-11-21,780,440-->
   - adder / ripple-carry adder ::@:: It is possible to create a logical circuit using multiple full adders to add _N_-bit numbers. Each full adder inputs a $C_{in}$, which is the $C_{out}$ of the previous adder. This kind of adder is called a __ripple-carry adder__ \(RCA\), since each carry bit "ripples" to the next full adder. The first \(and only the first\) full adder may be replaced by a half adder \(under the assumption that $C_{in}=0$\). <!--SR:!2025-10-09,143,420!2025-10-12,146,420-->
-    - adder / ripple-carry adder / characteristics ::@:: The layout of a ripple-carry adder is simple, which allows fast design time; however, the ripple-carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder. <!--SR:!2027-12-12,798,440!2025-10-07,141,420-->
+    - adder / ripple-carry adder / characteristics ::@:: The layout of a ripple-carry adder is simple, which allows fast design time; however, the ripple-carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder. <!--SR:!2027-12-12,798,440!2027-12-26,810,440-->
 - method of complements
 - arithmetic logic unit
   - arithmetic logic unit / signals ::@:: data, opcode, status \(outputs, inputs\) <!--SR:!2025-10-12,146,420!2027-11-22,781,440-->
     - arithmetic logic unit / signals / data ::@:: 2 inputs, 1 output; their bit widths are usually the same, and same as the native ISA <!--SR:!2025-10-12,146,420!2025-10-11,145,420-->
     - arithmetic logic unit / signals / opcode ::@:: It conveys to the ALU an operation selection code, which is an enumerated value that specifies the desired arithmetic or logic operation to be performed by the ALU. <p> Passing it to a multiplexor/selector can be used to choose the right output. <!--SR:!2027-11-24,783,440!2027-12-23,808,440-->
     - arithmetic logic unit / signals / status outputs ::@:: carry-out, zero, negative, overflow, parity, etc. <!--SR:!2027-12-22,807,440!2025-10-08,142,420-->
-    - arithmetic logic unit / signals / status inputs ::@:: carry-in, etc. <!--SR:!2025-10-07,141,420!2027-04-03,588,420-->
+    - arithmetic logic unit / signals / status inputs ::@:: carry-in, etc. <!--SR:!2027-12-24,808,440!2027-04-03,588,420-->
   - arithmetic logic unit / functions
     - arithmetic logic unit / functions / bitwise operations ::@:: Use the corresponding logic gates. <!--SR:!2025-10-16,150,420!2027-12-06,793,440-->
     - arithmetic logic unit / functions / addition ::@:: Use full-adders. Two common ways to add multiple-bit numbers are _ripple carry_ and _carry lookahead_. <!--SR:!2027-11-23,791,440!2027-11-08,778,440-->

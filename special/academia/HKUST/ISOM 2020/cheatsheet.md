@@ -32,7 +32,7 @@ The cheatsheet is provided during the final examination.
 - `int` ::@:: integer <!--SR:!2025-10-22,284,330!2025-10-29,290,330-->
 - `float` ::@:: floating point <!--SR:!2025-10-08,272,330!2029-02-24,1237,350-->
 - `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2029-01-25,1213,350-->
-- `str` ::@:: string <!--SR:!2029-01-08,1199,350!2025-10-07,271,330-->
+- `str` ::@:: string <!--SR:!2029-01-08,1199,350!2029-02-21,1233,350-->
 - `[...]` ::@:: list <!--SR:!2029-01-12,1202,350!2025-10-13,277,330-->
 
 ## arithmetic operators
@@ -47,8 +47,8 @@ The cheatsheet is provided during the final examination.
 
 ## input / output
 
-- `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2025-10-07,272,330!2025-10-23,284,330-->
-- `input()` ::@:: ask user for input <!--SR:!2025-10-07,271,330!2029-01-04,1196,350-->
+- `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2029-02-27,1239,350!2025-10-23,284,330-->
+- `input()` ::@:: ask user for input <!--SR:!2029-02-28,1240,350!2029-01-04,1196,350-->
 - `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2029-02-12,1227,350-->
 - `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2025-10-19,281,330-->
 
@@ -75,7 +75,7 @@ The cheatsheet is provided during the final examination.
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-10-10,274,330!2025-10-29,290,330-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2025-10-09,273,330-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
-- `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-10-12,276,330!2025-10-07,272,330-->
+- `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-10-12,276,330!2029-03-01,1241,350-->
 - `range()` ::@:: create a number sequence starting from zero <!--SR:!2025-10-15,279,330!2025-10-25,286,330-->
 
 ## relational operators

@@ -21,7 +21,7 @@ The {@{__umbra__, __penumbra__ and __antumbra__}@} are {@{three distinct parts o
 
 ## umbra
 
-The {@{__umbra__}@} ([Latin](Latin.md) for {@{"shadow"}@}) is {@{the innermost and darkest part of a [shadow](shadow.md)}@}, where {@{the light source is completely blocked by the occluding body}@}. {@{An observer within the umbra}@} experiences {@{a [total eclipse](solar%20eclipse.md#total%20eclipse)}@}. <!--SR:!2028-04-07,1065,350!2027-12-11,973,350!2026-02-14,157,270!2026-12-21,674,330!2025-10-07,19,345!2025-12-27,82,365-->
+The {@{__umbra__}@} ([Latin](Latin.md) for {@{"shadow"}@}) is {@{the innermost and darkest part of a [shadow](shadow.md)}@}, where {@{the light source is completely blocked by the occluding body}@}. {@{An observer within the umbra}@} experiences {@{a [total eclipse](solar%20eclipse.md#total%20eclipse)}@}. <!--SR:!2028-04-07,1065,350!2027-12-11,973,350!2026-02-14,157,270!2026-12-21,674,330!2026-01-08,93,365!2025-12-27,82,365-->
 
 The umbra of a round body occluding a round light source forms {@{a right circular [cone](cone.md)}@}. When viewed from the cone's [apex](apex%20(geometry).md), {@{the two bodies [appear the same size](angular%20diameter.md)}@}. The cone can be visualized by {@{drawing two lines, one from the light source top to the round body top, the other from the light source bottom to the round body bottom}@}. Then the cone is {@{the portion enclosed by the two lines and behind the round body}@}. If the round body is {@{larger than the round light source}@}, then {@{the umbra is a [frustum](frustum.md) instead}@}. <!--SR:!2026-10-11,567,310!2026-10-16,635,330!2026-08-24,573,310!2026-12-04,669,330!2026-06-20,531,310!2026-08-29,549,310-->
 

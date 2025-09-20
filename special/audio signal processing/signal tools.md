@@ -57,7 +57,7 @@ SonicVisualiser supports {@{many plugins to perform many extra functions}@}, whi
 
 ## Freesound
 
-Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its website is {@{<https://freesound.org/>}@}. <!--SR:!2030-01-23,1571,369!2025-10-07,328,349-->
+Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its website is {@{<https://freesound.org/>}@}. <!--SR:!2030-01-23,1571,369!2030-01-27,1573,369-->
 
 ### advanced search
 
