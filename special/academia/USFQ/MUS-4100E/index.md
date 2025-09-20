@@ -108,7 +108,7 @@ The content is in teaching order.
   - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2026-02-21,310,341!2026-01-04,270,330-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2027-08-14,715,330!2027-07-25,705,341-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2026-02-02,296,341!2026-03-14,326,341-->
-  - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2027-04-08,554,310!2025-10-08,200,321-->
+  - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2027-04-08,554,310!2028-03-13,887,341-->
   - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2026-02-01,295,341!2025-12-15,255,330-->
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-11-22,237,330!2026-02-03,297,341-->
     - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2028-01-14,840,341!2026-02-17,306,341-->

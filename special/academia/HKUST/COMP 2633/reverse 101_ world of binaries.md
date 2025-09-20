@@ -148,7 +148,7 @@ Some common tools are:
 
 ### tools for dynamic analysis
 
-Dynamic analysis is {@{analyzing the program while executing it}@}. Techniques include {@{fuzzing}@}. Usually we use {@{a debugger, an emulator, or a virtual machine}@}. <!--SR:!2029-07-05,1387,363!2028-10-28,1178,350!2025-10-08,314,365-->
+Dynamic analysis is {@{analyzing the program while executing it}@}. Techniques include {@{fuzzing}@}. Usually we use {@{a debugger, an emulator, or a virtual machine}@}. <!--SR:!2029-07-05,1387,363!2028-10-28,1178,350!2030-01-26,1571,385-->
 
 Some common tools are:
 

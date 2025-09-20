@@ -31,7 +31,7 @@ __Example 1:__ If {@{a firm sells 20 units of books (quantity) for \$50 each (pr
 
 Then if {@{the firm increases quantity sold to 21 units of books at $49 each}@}, this earns {@{<u>total revenue</u>: P\*Q = \$49\*21 = \$1029}@} <!--SR:!2025-10-18,261,337!2025-11-25,292,337-->
 
-Therefore, using the marginal revenue formula {@{(MR)<sup>[\[12\]](#^ref-12)</sup> = ${\frac {\Delta TR}{\Delta Q} }=\left({\frac {\$1029-\$1000}{21-20} }\right)=\$29$}@} <!--SR:!2025-10-08,254,337-->
+Therefore, using the marginal revenue formula {@{(MR)<sup>[\[12\]](#^ref-12)</sup> = ${\frac {\Delta TR}{\Delta Q} }=\left({\frac {\$1029-\$1000}{21-20} }\right)=\$29$}@} <!--SR:!2028-12-30,1179,357-->
 
 __Example 2:__ If {@{a firm's total revenue function is written as $R(Q)=P(Q)\cdot Q,$}@}<sup>[\[14\]](#^ref-14)</sup> $$\begin{aligned} R(Q) & =(Q)\cdot (200-Q) \\ R(Q) & =200Q-Q^{2} \end{aligned}$$ Then, by {@{first order derivation}@}, marginal revenue would be expressed as {@{$$MR=R'(Q)=200-2Q$$}@} Therefore, if Q = 40, <p> {@{MR = 200 − 2(40) = \$120}@} <!--SR:!2025-10-14,258,337!2025-10-21,264,337!2025-12-10,303,337!2025-12-15,308,337-->
 

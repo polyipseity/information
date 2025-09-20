@@ -30,7 +30,7 @@ The cheatsheet is provided during the final examination.
 ## data types
 
 - `int` ::@:: integer <!--SR:!2025-10-22,284,330!2025-10-29,290,330-->
-- `float` ::@:: floating point <!--SR:!2025-10-08,272,330!2029-02-24,1237,350-->
+- `float` ::@:: floating point <!--SR:!2029-03-06,1245,350!2029-02-24,1237,350-->
 - `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2029-01-25,1213,350-->
 - `str` ::@:: string <!--SR:!2029-01-08,1199,350!2029-02-21,1233,350-->
 - `[...]` ::@:: list <!--SR:!2029-01-12,1202,350!2025-10-13,277,330-->
@@ -81,11 +81,11 @@ The cheatsheet is provided during the final examination.
 ## relational operators
 
 - `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2029-01-26,1214,350-->
-- `!=` ::@:: is not equal? <!--SR:!2025-10-08,273,330!2025-10-19,280,330-->
+- `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2025-10-19,280,330-->
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
 - `>` ::@:: is greater than? <!--SR:!2025-10-09,273,330!2025-10-24,285,330-->
 - `<=` ::@:: is less than or equal to? <!--SR:!2025-10-19,281,330!2025-10-21,283,330-->
-- `>=` ::@:: is greater than or equal to? <!--SR:!2025-10-13,277,330!2025-10-08,273,330-->
+- `>=` ::@:: is greater than or equal to? <!--SR:!2025-10-13,277,330!2029-03-04,1243,350-->
 
 ## boolean operators
 
@@ -123,4 +123,4 @@ while True:
 
 ## random function
 
-- `random.randint(a, b)` ::@:: return a number between `a` and `b` <!--SR:!2025-10-08,272,330!2025-10-25,286,330-->
+- `random.randint(a, b)` ::@:: return a number between `a` and `b` <!--SR:!2029-02-27,1238,350!2025-10-25,286,330-->

@@ -206,7 +206,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::@:: skyscraper in Chicago, Illinois <!--SR:!2027-12-02,962,315!2031-01-13,1989,407-->
 - height ::@:: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2027-06-07,626,217!2027-02-12,759,330-->
-- image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
+- image ::@:: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2031-05-19,2049,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->::@:: steel <!--SR:!2029-03-15,1314,320!2025-11-19,456,400-->
 
 ## MOSE

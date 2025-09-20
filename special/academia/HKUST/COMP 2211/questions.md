@@ -777,7 +777,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops. Hint: reviewing the last question of the self test on Python Fundamentals might help :D
 >
-> - solution: {@{`numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=-1))`, `numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=1))`}@} <!--SR:!2025-10-08,206,310-->
+> - solution: {@{`numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=-1))`, `numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=1))`}@} <!--SR:!2028-03-10,884,330-->
 
 <!-- markdownlint MD028 -->
 

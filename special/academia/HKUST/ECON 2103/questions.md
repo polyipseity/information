@@ -144,7 +144,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2025-10-08,288,330!2028-04-19,980,330-->
+> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2029-05-09,1309,350!2028-04-19,980,330-->
 
 <!-- markdownlint MD028 -->
 

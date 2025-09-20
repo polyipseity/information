@@ -125,7 +125,7 @@ Zero padding can {@{make the input size suitable}@} for {@{[fast Fourier transfo
 
 - see: [general/fast Fourier transform](../../general/fast%20Fourier%20transform.md)
 
-Fast Fourier transform (__FFT__) is {@{a fast algorithm for computing the DFT of a signal}@}. It works by {@{breaking down DFT of a long signal into several DFTs of shorter signals recursively}@}. <!--SR:!2025-10-08,325,373!2029-04-17,1338,373-->
+Fast Fourier transform (__FFT__) is {@{a fast algorithm for computing the DFT of a signal}@}. It works by {@{breaking down DFT of a long signal into several DFTs of shorter signals recursively}@}. <!--SR:!2030-04-25,1660,393!2029-04-17,1338,373-->
 
 Its time complexity, that is {@{how the running time grows with input size}@}, is {@{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}@}. This means {@{for large input sizes, much time can be saved}@}. So in practice, {@{FFT is used over the traditional DFT}@}. <!--SR:!2026-01-23,409,373!2029-07-22,1416,373!2028-12-29,1253,373!2028-08-05,1136,373-->
 

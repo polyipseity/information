@@ -88,7 +88,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 
 ## see also
 
-- [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-12-18,245,330!2025-10-08,183,310-->
+- [Constant-weight code](constant-weight%20code.md) – ::@:: Method for encoding data in communications, where a constant number of bits are set <!--SR:!2025-12-18,245,330!2027-12-09,792,330-->
 - [Two-out-of-five code](two-out-of-five%20code.md) – ::@:: Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges <!--SR:!2027-12-10,794,330!2027-05-21,639,330-->
 - [Bi-quinary coded decimal](bi-quinary%20coded%20decimal.md) – ::@:: Numeral encoding scheme <!--SR:!2027-09-26,737,330!2025-10-18,191,310-->
 - [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2026-01-30,277,330!2025-12-07,234,330-->

@@ -87,7 +87,7 @@ To {@{apply Zorn's lemma}@}, take {@{a chain _T_ in _P_}@}. If {@{_T_ is empty}@
 
 Take {@{_I_ to be the union of all the ideals in _T_}@}. We wish to {@{show that _I_ is an upper bound for _T_ in _P_}@}. We will {@{first show that _I_ is an ideal of _R_}@}. For _I_ to be an ideal, it must {@{satisfy three conditions}@}: <!--SR:!2026-02-25,336,350!2025-12-04,269,338!2026-02-14,327,350!2026-01-17,306,350-->
 
-1. ideal, nonemptyness ::@:: _I_ is a nonempty subset of _R_, <!--SR:!2026-01-20,308,350!2025-10-08,221,330-->
+1. ideal, nonemptyness ::@:: _I_ is a nonempty subset of _R_, <!--SR:!2026-01-20,308,350!2028-07-10,1006,350-->
 2. ideal, closure ::@:: For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_, <!--SR:!2026-02-27,338,350!2026-01-24,312,350-->
 3. ideal, absorption ::@:: For every _r_ ∈ _R_ and every _x_ ∈ _I_, the product _rx_ is in _I_. <!--SR:!2026-02-25,336,350!2028-01-09,844,338-->
 

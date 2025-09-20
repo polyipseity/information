@@ -19,7 +19,7 @@ The content is in teaching order.
   - engineer, according to Wikipedia
     - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2030-04-05,1727,398-->
     - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2029-05-03,1438,380!2027-05-12,810,360-->
-    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2025-10-08,405,377-->
+    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2031-06-29,2090,397-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2030-03-21,1632,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2028-04-08,1138,350-->
@@ -72,7 +72,7 @@ The content is in teaching order.
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2029-03-11,1337,340!2027-01-22,736,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2028-12-31,1380,396-->
+- environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2030-11-19,1868,361!2028-12-31,1380,396-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2031-09-03,2182,410-->
     - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2029-11-27,1620,392-->
