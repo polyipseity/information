@@ -33,11 +33,11 @@ Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies,
 
 ### amplitude scaling \(sinusoidal\)
 
-{@{_Amplitude scaling_}@} is done by {@{simply multiplying \(or adding if in logarithmic scale, e.g. dB\) the amplitude}@} by {@{a function \(or use a amplitude scaling envelope that maps old amplitudes to new amplitudes\)}@} for {@{each STFT frame}@}.
+{@{_Amplitude scaling_}@} is done by {@{simply multiplying \(or adding if in logarithmic scale, e.g. dB\) the amplitude}@} by {@{a factor \(or as a function of time\)}@} for {@{each STFT frame}@}.
 
 ### pitch scaling \(sinusoidal\)
 
-{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or use a frequency scaling envelope that maps old frequencies to new frequencies\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}.
+{@{_Pitch scaling_}@} is done by {@{first multiplying the frequencies by a factor \(or as a function of time\) across all STFT frame}@}. Then {@{the \(initial\) phases of each sinusoid needs to be re-generated}@} to {@{maintain phase coherence between \(overlapping\) STFT frames}@}. This is done by, for {@{each frequency}@}, {@{start with a zero or random initial phase for the first frame}@}, and then {@{offset the initial phase based on the previous frame for each next frame}@}. This {@{offset \(in radian\)}@} is {@{_angular_ frequency times the STFT duration}@}. This also {@{unwraps the phase automagically}@}.
 
 ### time stretching \(sinusoidal\)
 

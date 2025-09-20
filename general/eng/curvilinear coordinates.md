@@ -202,7 +202,7 @@ At {@{each point}@}, one can construct {@{a small line element d<!-- markdown se
 
 {@{The following portion}@} of the above equation {@{$${\cfrac {\partial x_{k} }{\partial q^{i} } }{\cfrac {\partial x_{k} }{\partial q^{j} } }=g_{ij}(q^{i},q^{j})=\mathbf {b} _{i}\cdot \mathbf {b} _{j}$$}@} is {@{a _symmetric_ tensor}@} called {@{the __[fundamental \(or metric\) tensor](metric%20tensor.md)__ of the [Euclidean space](Euclidean%20space.md) in curvilinear coordinates}@}.
 
-{@{Indices}@} can be {@{[raised and lowered](raising%20and%20lowering%20indices.md) by the metric}@}: {@{$$v^{i}=g^{ik}v_{k}$$}@}
+{@{Indices}@} can be {@{[raised and lowered](raising%20and%20lowering%20indices.md) by the metric}@}: {@{$$v^{i}=g^{ik}v_{k}$$}@} \(annotation: Note we are using {@{the Einstein summation notation}@}.\)
 
 #### relation to Lamé coefficients
 
