@@ -9,11 +9,11 @@ tags:
 
 # Python object
 
-A Python class is never complete without teaching objects! (Sounds oddly familiar...)
+A Python class is never complete without teaching objects! \(Sounds oddly familiar...\)
 
 ## class
 
-To create an object, one needs to first create a class. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2027-09-22,1032,350-->
+To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2027-09-22,1032,350-->
 
 ```Python
 class Name:
@@ -35,7 +35,7 @@ The above object stored under `name_object` is also called {@{an _instance_ of t
 
 ## attribute
 
-Note that Python attributes are not {@{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}@}. <!--SR:!2026-10-15,737,330-->
+Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2026-10-15,737,330-->
 
 ## method
 

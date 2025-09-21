@@ -98,7 +98,7 @@ gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompat
 ```
 
 - parameters
-  - `$preset` = `/default`: `/default` or (`/screen` < `/ebook` < `/printer` < `/prepress`); distiller parameters preset
+  - `$preset` = `/default`: `/default` or (`/screen` &lt; `/ebook` &lt; `/printer` &lt; `/prepress`); distiller parameters preset
   - `$input_`: input filename
   - `$output`: output filename
 - source: <https://askubuntu.com/a/256449>

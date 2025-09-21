@@ -13,7 +13,9 @@ Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!
 
 ## string
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. <!--SR:!2026-12-16,785,330!2026-05-01,625,330-->
+- see: [string](string.md)
+
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`}@}. Both are {@{equivalent}@} except that you need to {@{escape double quotes in the strings for the first one and single quotes for the second one}@}. To escape a character, {@{precede the character with a backslash `\`}@}, like {@{`"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. <!--SR:!2026-12-16,785,330!2026-05-01,625,330-->
 
 ## list
 
@@ -47,7 +49,7 @@ assert [39, "omg", 'asd', 3.4][1:2] == ['omg']
 assert "asd"[1:1] == ""
 ```
 
-Slicing also accepts {@{negative indices, in which case the meaning is still the same as that for indexing}@}. Slicing also allows {@{omitting one or both indices. Omitting the starting point means the starting point is the first element, i.e. `0` (or if step is negative, then the last element, i.e. `len(sequence) - 1`). Omitting the ending point means the ending point is after the last element, i.e. `len(sequence)` (or if step is negative, then before the first element, i.e. `-len(sequence) - 1`)}@}: <!--SR:!2027-09-13,1024,350!2026-01-27,495,310-->
+Slicing also accepts {@{negative indices, in which case the meaning is still the same as that for indexing}@}. Slicing also allows {@{omitting one or both indices}@}. {@{Omitting the starting point}@} means {@{the starting point is the first element, i.e. `0`}@} \(or if {@{step is negative, then the last element, i.e. `len(sequence) - 1`}@}\). {@{Omitting the ending point}@} means {@{the ending point is after the last element, i.e. `len(sequence)`}@} \(or if {@{step is negative, then before the first element, i.e. `-len(sequence) - 1`}@}\): <!--SR:!2027-09-13,1024,350!2026-01-27,495,310-->
 
 ```Python
 assert "asd"[:2] = "as"
@@ -84,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So any operation you have done on strings {@{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list. Compare using `+` and `append` to extend a list}@}: <!--SR:!2029-03-19,1461,350!2027-07-17,948,330!2027-01-15,771,330!2026-11-11,755,330-->
+Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So any operation you have done on strings {@{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2029-03-19,1461,350!2027-07-17,948,330!2027-01-15,771,330!2026-11-11,755,330-->
 
 ```Python
 original = [1, 2, 3]
