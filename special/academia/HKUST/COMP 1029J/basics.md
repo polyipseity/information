@@ -147,7 +147,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-27,5,353!2025-09-27,5,353!2025-09-27,5,353-->
 
 ```Python
 # pytextgen generate data
@@ -201,24 +201,24 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.998975+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`++` <br/> `--`
-- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%`
-- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-`
-- `+` <br/> `-`→::@::←_(end)_
+- _(begin)_→::@::←`++` <br/> `--` <!--SR:!2025-09-27,5,353!2025-09-27,5,353-->
+- `++` <br/> `--`→::@::←`*` <br/> `/` <br/> `%` <!--SR:!2025-09-27,5,353!2025-09-27,5,353-->
+- `*` <br/> `/` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2025-09-27,5,353!2025-09-27,5,353-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-09-27,5,353!2025-09-27,5,353-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.027388+08:00. Any edits will be overridden! -->
 
-- `++` <br/> `--`:@:increment a numerical variable by 1 <br/> decrement a numerical variable by 1
-- `*` <br/> `/` <br/> `%`:@:multiplication <br/> division; if both operands are of integral types, then round-towards-zero division <br/> remainder; the resulting sign is the same as the dividend, i.e. the number before the operator
-- `+` <br/> `-`:@:addition <br/> subtraction
+- `++` <br/> `--`:@:increment a numerical variable by 1 <br/> decrement a numerical variable by 1 <!--SR:!2025-09-27,5,353-->
+- `*` <br/> `/` <br/> `%`:@:multiplication <br/> division; if both operands are of integral types, then round-towards-zero division <br/> remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2025-09-27,5,353-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-09-27,5,353-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350-->
+Below are common comparison operators, all of which returns {@{a `boolean` value}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. {@{The relational operators}@} have {@{higher precedence than the equality operators}@}, but otherwise {@{they have the same precedence}@}: <!--SR:!2028-08-11,1289,350!2025-09-27,5,353!2025-09-27,5,353!2025-09-27,5,353!2025-09-27,5,353!2025-09-27,5,353-->
 
 ```Python
 # pytextgen generate data
@@ -288,7 +288,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-09-01,707,330!2025-09-27,5,353!2025-09-27,5,353!2025-09-27,5,353-->
 
 ```Python
 # pytextgen generate data

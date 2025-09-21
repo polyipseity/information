@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
 
 ```Python
 # pytextgen generate data
@@ -71,24 +71,24 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.996978+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**`
-- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%`
-- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-`
-- `+` <br/> `-`→::@::←_(end)_
+- _(begin)_→::@::←`**` <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
+- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
+- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:36.946434+08:00. Any edits will be overridden! -->
 
-- `**`:@:power
-- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator
-- `+` <br/> `-`:@:addition <br/> subtraction
+- `**`:@:power <!--SR:!2025-09-26,4,289-->
+- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-09-26,4,289-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-09-26,4,289-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2025-09-25,4,270-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2025-09-25,4,270!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
 
 ```Python
 # pytextgen generate data
@@ -162,7 +162,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-25,4,270-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-25,4,270!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
 
 ```Python
 # pytextgen generate data
@@ -226,7 +226,7 @@ variableName = 1 + 2
 
 One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2025-09-25,4,270-->
 
-Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}. <!--SR:!2025-09-24,3,250--> Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}.
+Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2025-09-24,3,250!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
 
 ### augmented assignment
 

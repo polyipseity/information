@@ -75,7 +75,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{Multiple associations}@} between {@{the same set of objects}@} are {@{allowed if they have _different semantics_}@}. Avoid associations that have semantics that are {@{simply the _composition_ of two associations}@}. For example, if there are {@{two associations `C ? -IsChild- ? B` and `B ? -IsChild- ? A`}@}, there is no need to {@{add the association `C ? -IsChild- ? A`}@}, but it would be okay to {@{add the association `C ? -IsFriend- ? A` because this association has a different meaning}@}. <!--SR:!2025-09-24,4,270!2025-09-25,4,282!2025-09-25,4,282!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,301!2025-09-25,4,282-->
 
-Associations have {@{6 major properties \(and possibly more\)}@}: {@{name, degree, multiplicity}@}, {@{roles, additional semantics, and class}@}. <!--SR:!2025-09-25,4,301!2025-09-25,4,301-->
+Associations have {@{6 major properties \(and possibly more\)}@}: {@{name, degree, multiplicity}@}, {@{roles, additional semantics, and class}@}. <!--SR:!2025-09-25,4,301!2025-09-25,4,301!2025-09-26,4,313-->
 
 {@{The _name_}@} of an association should be {@{_unique_ \(including classes and associations\)}@}, and uses {@{vocabularies according to the application domain}@}. Normally, the name can {@{only be _read meaningfully_ in one direction}@}, and the name for {@{the other direction is _inferred_}@}. <!--SR:!2025-09-25,4,282!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,301!2025-09-25,4,301-->
 
@@ -87,7 +87,7 @@ An association is drawn by {@{a line connecting the class to itself \(unary\)}@}
 
 In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations}@}, but {@{not always}@}. <!--SR:!2025-09-25,4,310!2025-09-25,4,282!2025-09-25,4,282!2025-09-25,4,301!2025-09-25,4,310!2025-09-25,4,301-->
 
-Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}. <!--SR:!2025-09-25,4,282!2025-09-24,4,270!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,310--> \(__this course__: We consider {@{unary and binary associations only}@}.\)
+Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}.  \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2025-09-25,4,282!2025-09-24,4,270!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,310!2025-09-26,4,313-->
 
 ### association multiplicity
 
@@ -118,7 +118,7 @@ However, there are {@{some additional semantics common enough}@} to {@{warrant s
 
 {@{_Aggregation_}@} represents {@{a _possible_ "part-of" relationship}@}. {@{The component object \(child\)}@} {@{_may_ belong to an aggregate object \(parent\)}@}, and {@{_can_ exist _independently_ of the aggregate object}@}. <!--SR:!2025-09-25,4,282!2025-09-25,4,282!2025-09-25,4,310!2025-09-25,4,301!2025-09-25,4,310-->
 
-Often, the association name is {@{"Has", but can be other names as appropriate for the application domain}@}. We can {@{omit the name as well}@}. Conversely, however, {@{an association with the name "Has"}@} {@{does not imply composition}@}. Aggregation or composition should have {@{intrinsic _asymmetry_ to the association}@}. <!--SR:!2025-09-25,4,310!2025-09-25,4,282!2025-09-25,4,310!2025-09-25,4,282-->
+Often, the association name is {@{"Has", but can be other names as appropriate for the application domain}@}. We can {@{omit the name as well}@}. Conversely, however, {@{an association with the name "Has"}@} {@{does not imply composition}@}. Aggregation or composition should have {@{intrinsic _asymmetry_ to the association}@}. <!--SR:!2025-09-25,4,310!2025-09-25,4,282!2025-09-25,4,310!2025-09-25,4,282!2025-09-26,4,313-->
 
 In many cases, {@{whether an aggregation \(or composition\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}. <!--SR:!2025-09-25,4,313!2025-09-25,4,313!2025-09-25,4,313!2025-09-25,4,313-->
 
@@ -128,9 +128,9 @@ To {@{represent aggregation}@}, use {@{a _hollow_ diamond \(_adornment_\) at the
 
 {@{_Composition_}@} represents {@{a _mandatory_ "part-of" relationship}@}. {@{The component object \(child\)}@} {@{_must_ belong to an aggregate object \(parent\)}@}, and {@{_cannot_ exist _independently_ of the aggregate object}@}. <!--SR:!2025-09-25,4,310!2025-09-25,4,282!2025-09-25,4,282!2025-09-25,4,282!2025-09-25,4,282-->
 
-Often, the association name is {@{"Has", but can be other names as appropriate for the application domain}@}. We can {@{omit the name as well}@}. Conversely, however, {@{an association with the name "Has"}@} {@{does not imply composition}@}. Aggregation or composition should have {@{intrinsic _asymmetry_ to the association}@}. Composition should also have {@{operations applied to the whole that should also be applied to its parts}@}, e.g. {@{destroying the whole object _requires_ destroying its parts}@}. <!--SR:!2025-09-25,4,310!2025-09-25,4,301!2025-09-25,4,310!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,301-->
+Often, the association name is {@{"Has", but can be other names as appropriate for the application domain}@}. We can {@{omit the name as well}@}. Conversely, however, {@{an association with the name "Has"}@} {@{does not imply composition}@}. Aggregation or composition should have {@{intrinsic _asymmetry_ to the association}@}. Composition should also have {@{operations applied to the whole that should also be applied to its parts}@}, e.g. {@{destroying the whole object _requires_ destroying its parts}@}. <!--SR:!2025-09-25,4,310!2025-09-25,4,301!2025-09-25,4,310!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,301!2025-09-26,4,313-->
 
-In many cases, {@{whether a composition \(or aggregation\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}.
+In many cases, {@{whether a composition \(or aggregation\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}. <!--SR:!2025-09-26,4,313!2025-09-26,4,313!2025-09-26,4,313!2025-09-26,4,313-->
 
 To {@{represent composition}@}, use {@{a _solid_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `1..1`}@}. In some cases, you may want to specify {@{`1..*` as the multiplicity}@}. <!--SR:!2025-09-25,4,301!2025-09-25,4,282!2025-09-25,4,282!2025-09-25,4,301-->
 
