@@ -27,7 +27,7 @@ When copying and pasting formulas, the cell references in the formula are {@{off
 
 ### arithmetic operators
 
-Below are common arithmetic and string operators. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
 
 ```Python
 # pytextgen generate data
@@ -36,10 +36,18 @@ from itertools import chain as _chain
 headers = "operator", "description"
 table = (
   ("`^`", "power",),
-  ("`*`", "multiplication",),
-  ("`/`", "division",),
-  ("`+`", "addition",),
-  ("`-`", "subtraction",),
+  (
+    "`*` <br/> "
+    "`/`",
+    "multiplication <br/> "
+    "division",
+  ),
+  (
+    "`+` <br/> "
+    "`-`",
+    "addition <br/> "
+    "subtraction",
+  ),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -54,42 +62,36 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-31T12:32:22.690955+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2025-09-21T20:03:37.053459+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
 > | `^` | power |
-> | `*` | multiplication |
-> | `/` | division |
-> | `+` | addition |
-> | `-` | subtraction |
+> | `*` <br/> `/` | multiplication <br/> division |
+> | `+` <br/> `-` | addition <br/> subtraction |
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:37.027388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`^`
-- `^`→::@::←`*`
-- `*`→::@::←`/`
-- `/`→::@::←`+`
-- `+`→::@::←`-`
-- `-`→::@::←_(end)_
+- `^`→::@::←`*` <br/> `/`
+- `*` <br/> `/`→::@::←`+` <br/> `-`
+- `+` <br/> `-`→::@::←_(end)_
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.077571+08:00. Any edits will be overridden! -->
 
 - `^`:@:power
-- `*`:@:multiplication
-- `/`:@:division
-- `+`:@:addition
-- `-`:@:subtraction
+- `*` <br/> `/`:@:multiplication <br/> division
+- `+` <br/> `-`:@:addition <br/> subtraction
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{booleans}@}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}:
 
 ```Python
 # pytextgen generate data
