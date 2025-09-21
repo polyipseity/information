@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
 
 ```Python
 # pytextgen generate data
@@ -29,12 +29,22 @@ from itertools import chain as _chain
 headers = "operator", "description"
 table = (
   ("`**`", "power",),
-  ("`*`", "multiplication",),
-  ("`/`", "division",),
-  ("`//`", "floor division",),
-  ("`%`", "remainder; the resulting sign is the same as the divider, i.e. the number after the operator",),
-  ("`+`", "addition",),
-  ("`-`", "subtraction",),
+  (
+    "`*` <br/> "
+    "`/` <br/> "
+    "`//` <br/> "
+    "`%`",
+    "multiplication <br/> "
+    "division <br/> "
+    "floor division <br/> "
+    "remainder; the resulting sign is the same as the divider, i.e. the number after the operator",
+  ),
+  (
+    "`+` <br/> "
+    "`-`",
+    "addition <br/> "
+    "subtraction",
+  ),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -49,48 +59,36 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-30T13:35:46.570804+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2025-09-21T20:03:37.036101+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
 > | `**` | power |
-> | `*` | multiplication |
-> | `/` | division |
-> | `//` | floor division |
-> | `%` | remainder; the resulting sign is the same as the divider, i.e. the number after the operator |
-> | `+` | addition |
-> | `-` | subtraction |
+> | `*` <br/> `/` <br/> `//` <br/> `%` | multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator |
+> | `+` <br/> `-` | addition <br/> subtraction |
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:37.057451+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2026-08-31,706,330!2028-04-26,1201,350-->
-- `**`→::@::←`*` <!--SR:!2027-07-17,978,350!2027-10-04,1040,350-->
-- `*`→::@::←`/` <!--SR:!2028-09-03,1305,350!2027-07-05,969,350-->
-- `/`→::@::←`//` <!--SR:!2027-09-05,1018,350!2027-09-10,1025,350-->
-- `//`→::@::←`%` <!--SR:!2027-07-14,943,330!2029-01-09,1404,350-->
-- `%`→::@::←`+` <!--SR:!2027-05-30,913,330!2028-04-25,1199,350-->
-- `+`→::@::←`-` <!--SR:!2028-04-23,1199,350!2028-08-22,1293,350-->
-- `-`→::@::←_(end)_ <!--SR:!2029-01-25,1415,350!2028-07-09,1260,350-->
+- _(begin)_→::@::←`**`
+- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%`
+- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-`
+- `+` <br/> `-`→::@::←_(end)_
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.010169+08:00. Any edits will be overridden! -->
 
-- `**`:@:power <!--SR:!2027-05-05,920,350-->
-- `*`:@:multiplication <!--SR:!2028-09-19,1315,350-->
-- `/`:@:division <!--SR:!2027-07-14,946,330-->
-- `//`:@:floor division <!--SR:!2028-07-05,1258,350-->
-- `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2026-06-20,651,330-->
-- `+`:@:addition <!--SR:!2028-07-04,1256,350-->
-- `-`:@:subtraction <!--SR:!2027-11-11,1069,350-->
+- `**`:@:power
+- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator
+- `+` <br/> `-`:@:addition <br/> subtraction
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2028-12-19,1385,350-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-12-19,1385,350-->
 
 ```Python
 # pytextgen generate data
@@ -164,7 +162,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2028-04-17,1196,350-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-04-17,1196,350-->
 
 ```Python
 # pytextgen generate data
