@@ -58,7 +58,7 @@ tags:
 > {@{__first derivative test__}@}
 >
 > 1. Let {@{$f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md)}@}. $I$ is {@{an [interval](interval%20(mathematics).md) containing $c$}@}. $f$ is {@{[right/left-continuous](continuous%20function.md) at $c$, i.e. $\lim_{x\to{}c^\pm}f(x)=f(c)$}@}, and {@{[differentiable](differentiable%20function.md) on the immediate right/left of $c$, i.e. for some $\delta>0$, $f'(c\pm\epsilon)$ exists for all $\epsilon\in(0,\delta)$}@}. \(Choose {@{either right \(`+`\) or left \(`-`\)}@}.\) \(annotation: {@{One-sided continuity is required}@} so that {@{$f(c)$ cannot be an arbitrary value}@}. {@{Differentiability nearby \(one-sided\)}@} is {@{required by the conditions}@}.\)
-> 2. If there {@{exists $\epsilon>0$}@} such that: \(annotation: Think of {@{a graph and its first derivative.}@}\)
+> 2. If there {@{exists $\epsilon>0$}@} such that: \(annotation: Think of {@{a graph and its first derivative}@}.\)
 >     - {@{\(left \(`-`\)\) $f'(x) \le 0$ \($f'(x) < 0$\) for all $x\in(c-\epsilon,c)$}@}, then {@{$f$ has a [\(strict\) local minimum](maximum%20and%20minimum.md) at $c$ from the left}@}.
 >     - {@{\(left \(`-`\)\) $f'(x) \ge 0$ \($f'(x) > 0$\) for all $x\in(c-\epsilon,c)$}@}, then {@{$f$ has a [\(strict\) local maximum](maximum%20and%20minimum.md) at $c$ from the left}@}.
 >     - {@{\(right \(`+`\)\) $f'(x) \le 0$ \($f'(x) < 0$\) for all $x\in(c,c+\epsilon)$}@}, then {@{$f$ has a [\(strict\) local maximum](maximum%20and%20minimum.md) at $c$ from the right}@}.
@@ -115,9 +115,9 @@ tags:
 
 > {@{__higher-order derivative test__}@}
 >
-> 1. Let {@{$f:I\to\mathbb{R}$ be a [real-valued](real-valued%20function.md) [$n$-times differentiable function](differentiable%20function.md) where $n\in\mathbb{N}_{\ge 2}$}@}. $I$ is {@{an [interval](interval%20(mathematics).md) $\in\mathbb{R}$ containing $c$}@}. \(annotation: {@{$n$-times differentiability}@} is {@{required by the conditions}@}. {@{$n$-times differentiability}@} automatically {@{implies $n$-times continuity.}@}\)
+> 1. Let {@{$f:I\to\mathbb{R}$ be a [real-valued](real-valued%20function.md) [$n$-times differentiable function](differentiable%20function.md) where $n\in\mathbb{N}_{\ge 2}$}@}. $I$ is {@{an [interval](interval%20(mathematics).md) $\in\mathbb{R}$ containing $c$}@}. \(annotation: {@{$n$-times differentiability}@} is {@{required by the conditions}@}. {@{$n$-times differentiability}@} automatically {@{implies $n$-times continuity}@}.\)
 > 2. If {@{$f'(c)=\cdots=f^{(n-1)}(c)=0$ and $f^{(n)}(c)\ne0$}@},
-> 3. then: \(annotation: One can {@{memorize most of the below}@} by considering {@{the graph of a function $n = 1$ for odd $n$ and $n = 2$ for even $n$.}@}\)
+> 3. then: \(annotation: One can {@{memorize most of the below}@} by considering {@{the graph of a function $n = 1$ for odd $n$ and $n = 2$ for even $n$}@}.\)
 >     - If {@{$n$ is even and $f^{(n)}(c)<0$}@}, $c$ is {@{a [strict local maximum](maximum%20and%20minimum.md) of $f$}@}. $f$ is {@{weakly \(strictly if $n = 2$\) [concave](concave%20function.md) around $c$}@}.
 >     - If {@{$n$ is even and $f^{(n)}(c)>0$}@}, $c$ is {@{a [strict local minimum](maximum%20and%20minimum.md) of $f$}@}. $f$ is {@{weakly \(strictly if $n = 2$\) [convex](convex%20function.md) around $c$}@}.
 >     - If {@{$n$ is odd and $f^{(n)}(c)<0$}@}, $c$ is {@{a [stationary falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$}@}.
@@ -127,7 +127,7 @@ tags:
 
 > {@{__one-sided higher-order derivative test__}@}
 >
-> 1. Let {@{$f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md)}@}. $I$ is {@{an [interval](interval%20(mathematics).md) containing $c$}@}. $f$ is {@{[$n-1$-times differentiable](differentiable%20function.md) on the immediate right/left of $c$ where $n\in\mathbb{N}_{\ge 2}$, i.e. for some $\delta>0$, $f^{(n-1)}(c\pm\epsilon)$ exists for all $\epsilon\in(0,\delta)$}@}. $f$ is {@{also $n$-times right/left-differentiable at $c$, i.e. $f^{(n)}_\pm(c)$ exists}@}. \(Choose {@{either right \(`+`\) or left \(`-`\)}@}.\) \(annotation: {@{One-sided $n$-times differentiability}@} is {@{required by the conditions}@}. {@{One-sided $n$-times differentiability and $n - 1$-times differentiability nearby \(one-sided\)}@} together automatically {@{implies one-sided $n$-times continuity.}@}\)
+> 1. Let {@{$f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md)}@}. $I$ is {@{an [interval](interval%20(mathematics).md) containing $c$}@}. $f$ is {@{[$n-1$-times differentiable](differentiable%20function.md) on the immediate right/left of $c$ where $n\in\mathbb{N}_{\ge 2}$, i.e. for some $\delta>0$, $f^{(n-1)}(c\pm\epsilon)$ exists for all $\epsilon\in(0,\delta)$}@}. $f$ is {@{also $n$-times right/left-differentiable at $c$, i.e. $f^{(n)}_\pm(c)$ exists}@}. \(Choose {@{either right \(`+`\) or left \(`-`\)}@}.\) \(annotation: {@{One-sided $n$-times differentiability}@} is {@{required by the conditions}@}. {@{One-sided $n$-times differentiability and $n - 1$-times differentiability nearby \(one-sided\)}@} together automatically {@{implies one-sided $n$-times continuity}@}.\)
 > 2. If {@{$f'_\pm(c)=\cdots=f^{(n-1)}_\pm(c)=0$ and $f^{(n)}_\pm(c)\ne0$}@}, \(Choose {@{either right \(`+`\) or left \(`-`\)}@}.\)
 > 3. then: \(annotation: One can {@{memorize most of the below}@} by considering {@{the graph of a function when $n = 1$ for odd $n$ and $n = 2$ for even $n$}@}.\)
 >     - If {@{$n$ is even and $f^{(n)}_-(c)<0$}@}, $c$ is {@{a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left}@}. $f$ is {@{[strictly concave](concave%20function.md) to the immediate left of $c$}@}.

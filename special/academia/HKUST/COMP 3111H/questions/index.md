@@ -61,7 +61,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Use a _mew separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
+> - solution: {@{Use a _new separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
 > - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@}
 
 ---

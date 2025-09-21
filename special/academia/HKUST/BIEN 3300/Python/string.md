@@ -19,7 +19,7 @@ There are {@{4 main ways}@} to {@{format a string with values}@} in Python: {@{C
 
 ### string concatenation
 
-String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{least efficient}@} as well.
+String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well.
 
 ### `str.format`
 
@@ -32,5 +32,5 @@ String concatenation uses {@{`+`}@} to {@{concat strings and values converted to
 - `<str>.lower()` ::@:: Converts all characters of `<str>` to lowercase.
 - `<str>.replace(<substr>, <replacement>)` ::@:: Replace _all non-overlapping_ occurrences of `<substr>` in `<str>` with `<replacement>`.
 - `<str>.rfind(<substr>)` ::@:: Get the index of the _last_ occurrence of `<substr>` in `<str>`, or raise `ValueError` if not found.
-- `<str>.split(<splitter> = None)` ::@:: If `<splitter>` is not `None` \(provided\), split `<str>` into a `list` by `<splitter>`. Splitting an empty `<str>` yields a `list` containing an empty `str`. If `<splitter>` is an empty `str`, raise `ValueError`. <p> If `<splitter>` is `None`, split `<str>` into a `list` by consecutive whitespaces. Splitting an empty `<str>` yields an empty `list`.
+- `<str>.split(<splitter> = None)` ::@:: If `<splitter>` is not `None` \(by specifying the argument\), split `<str>` into a `list` by `<splitter>`. Splitting an empty `<str>` yields a `list` containing an empty `str`. If `<splitter>` is an empty `str`, raise `ValueError`. <p> If `<splitter>` is `None`, split `<str>` into a `list` by consecutive whitespaces. Splitting an empty `<str>` yields an empty `list`.
 - `<str>.upper()` ::@:: Converts all characters of `<str>` to uppercase.

@@ -298,4 +298,4 @@ Business model fit can be achieved by {@{reiteration between changing the value 
 
 ## comparison with other models
 
-The business model canvas can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}.
+The business model canvas can be grouped into {@{4 sections}@}: {@{"how" for key blocks, "what" for value propositions}@}, {@{"who" for customer blocks, and "how much" for cost structure and revenue streams}@}. It can also be grouped into {@{3 sections}@}: {@{"feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}@}. This is similar to {@{[design thinking](../general/design%20thinking.md)}@}.
