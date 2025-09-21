@@ -11,15 +11,15 @@ tags:
 
 ## types
 
-There are two types of errors: {@{syntax errors and runtime errors}@}. The former {@{occurs during compilation and is detected by the compiler, while the latter occurs during execution}@}.
+There are two types of errors: {@{syntax errors and runtime errors}@}. The former {@{occurs during compilation and is detected by the compiler, while the latter occurs during execution}@}. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
 ## runtime errors
 
-Runtime errors occur when {@{something error or unexpected}@} happens. The program {@{generally crashes}@} when an error occurs. There are {@{many types of errors, such as `IndexError`, `ValueError`, `ZeroDivisionError`, etc.}@}
+Runtime errors occur when {@{something error or unexpected}@} happens. The program {@{generally crashes}@} when an error occurs. There are {@{many types of errors, such as `IndexError`, `ValueError`, `ZeroDivisionError`, etc.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270-->
 
 ## catching errors
 
-Sometimes, we can {@{handle some errors using `try...except...else`}@}. It consists of {@{a statement block, and one or more error types (optional), error names (optional), error handler statement blocks, and a no-error statement block (optional)}@}:
+Sometimes, we can {@{handle some errors using `try...except...else`}@}. It consists of {@{a statement block, and one or more error types (optional), error names (optional), error handler statement blocks, and a no-error statement block (optional)}@}: <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
 ```Python
 try:
@@ -30,8 +30,8 @@ else: # optional
   statement_block # optional
 ```
 
-Multiple {@{`except`s are allowed}@}. Additionally, to use the same error handler statement block to handle multiple error types, one can {@{use `,` to concatenate multiple error types and enclose them in parentheses `()` in `except`, like `except (errorType1, errorType2, errorType3) as exc:`}@}.
+Multiple {@{`except`s are allowed}@}. Additionally, to use the same error handler statement block to handle multiple error types, one can {@{use `,` to concatenate multiple error types and enclose them in parentheses `()` in `except`, like `except (errorType1, errorType2, errorType3) as exc:`}@}. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
-The semantics of the `try...except...else` statement is that {@{the statement block directly after the `try` are executed. If there are no errors, the `else` statement block if any are executed and the `try...except...else` statement finishes}@}. When an error is thrown in `try` statement block, {@{the execution of `try` statement block stops. The error types in `except` are checked in appearance order. The first `except` with an error type that is the same class as or a base class of the thrown error type is selected. The statement block directly after the selected `except` are executed and the `try...except...else` statement finishes}@}. If no `except` clauses match, {@{the error continues to propagate upwards. If the error reaches further upward from the entry point, the program usually crashes}@}.
+The semantics of the `try...except...else` statement is that {@{the statement block directly after the `try` are executed. If there are no errors, the `else` statement block if any are executed and the `try...except...else` statement finishes}@}. When an error is thrown in `try` statement block, {@{the execution of `try` statement block stops. The error types in `except` are checked in appearance order. The first `except` with an error type that is the same class as or a base class of the thrown error type is selected. The statement block directly after the selected `except` are executed and the `try...except...else` statement finishes}@}. If no `except` clauses match, {@{the error continues to propagate upwards. If the error reaches further upward from the entry point, the program usually crashes}@}. <!--SR:!2025-09-22,1,230!2025-09-22,1,230!2025-09-22,1,230-->
 
-Examples where catching errors is useful include {@{parsing user inputs}@}.
+Examples where catching errors is useful include {@{parsing user inputs}@}. <!--SR:!2025-09-25,4,270-->

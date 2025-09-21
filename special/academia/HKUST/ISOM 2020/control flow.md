@@ -53,7 +53,7 @@ if condition:
   pass # required, otherwise error
 ```
 
-Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350-->
+Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{a similar construct called `match...case` statement}@}, but it will {@{not be described here}@}. <!--SR:!2029-05-11,1311,350!2025-09-26,5,380!2025-09-26,5,380!2025-09-26,5,380-->
 
 ## iteration
 

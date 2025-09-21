@@ -40,7 +40,7 @@ tags:
 > ---
 >
 > - solution: {@{`Student 0..50 -EnrollsIn- 0..5 Course`. Add notes next to the multiplicities to indicate the minimum counts instead.}@}
-> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no "natural" way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@}
+> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no "natural" way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
 ---
 
@@ -53,7 +53,7 @@ tags:
 > ---
 >
 > - solution: {@{1. `Customer 1 -Makes- * Shipment` <br/> 2. `Shipment 1 -Contains- 1..* Package` <br/> 3. `Shipment * -SentTo- 1 City`}@}
-> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@}
+> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
 ---
 
@@ -62,7 +62,7 @@ tags:
 > ---
 >
 > - solution: {@{Use a _mew separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
-> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@}
+> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
 ---
 
@@ -77,6 +77,6 @@ tags:
 > ---
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
-> - annotation: {@{There are other possible answers according to the _application domain_.}@}
+> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
 
 ## week 3 lecture

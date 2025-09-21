@@ -45,7 +45,7 @@ An improved algorithm will {@{solve the maximum flow problem for every pair _\(u
 
 {@{The Karger–Stein variant of [Karger's algorithm](Karger's%20algorithm.md)}@} provides {@{a faster [randomized algorithm](randomized%20algorithm.md) for determining the connectivity}@}, with {@{expected runtime $O(n^{2}\log ^{3}n)$}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-12-27,233,250!2025-12-18,268,330!2026-03-30,229,210-->
 
-A related problem: finding {@{the minimum _k_-edge-connected spanning subgraph of _G_}@} \(that is: select {@{as few as possible edges in _G_ that your selection is _k_-edge-connected}@}\) is {@{NP-hard for $k\geq 2$}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-10-12,370,230!2027-12-09,805,330-->
+A related problem: finding {@{the minimum _k_-edge-connected spanning subgraph of _G_}@} \(that is: select {@{as few as possible edges in _G_ that your selection is _k_-edge-connected}@}\) is {@{NP-hard for $k\geq 2$}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-10-12,370,230!2027-12-09,805,330!2025-09-25,4,333-->
 
 ## see also
 

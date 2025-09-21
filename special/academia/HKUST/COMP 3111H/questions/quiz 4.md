@@ -25,8 +25,8 @@ tags:
 
 ## hints
 
-1. software development complexity sources ::@:: application domain \(e.g. nature, vocabulary, etc.\), organization, size, etc.
-2. software / types / uses / custom ::@:: copies in use: low <br/> development effort: high <br/> source of user requirements: client needs
-3. software development life cycle / milestone ::@:: It is a management _decision point_, where the management can make major decisions.
-4. project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement
-5. project management / 4Ps ::@:: A _project_ involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\).
+1. software development complexity sources ::@:: application domain \(e.g. nature, vocabulary, etc.\), organization, size, etc. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+2. software / types / uses / custom ::@:: copies in use: low <br/> development effort: high <br/> source of user requirements: client needs <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+3. software development life cycle / milestone ::@:: It is a management _decision point_, where the management can make major decisions. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+4. project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+5. project management / 4Ps ::@:: A _project_ involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\). <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->

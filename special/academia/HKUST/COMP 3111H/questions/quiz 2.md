@@ -25,8 +25,8 @@ tags:
 
 ## hints
 
-1. Unified Modeling Language \(UML\) ::@:: It is a general-purpose, object-oriented, visual modeling language that provides a way to visualize the architecture and design of a system; like a blueprint. <p> It makes us think about the world in a certain way.
-2. UML classifiers ::@:: They are _abstractions_ to group a _collection_ of entities in the _application domain_, e.g. association, attribute, class, operation, etc.
-3. attribute properties ::@:: name \(required\), type \(required\), visibility, initial value \(optional\), multiplicity \(optional\), mutability/changeability
-4. class ::@:: Instances of a class have _common_ attributes, operations, relations with other objects, and semantics.
-5. interface ::@:: It is an _abstract class_ that has _operations_ only.
+1. Unified Modeling Language \(UML\) ::@:: It is a general-purpose, object-oriented, visual modeling language that provides a way to visualize the architecture and design of a system; like a blueprint. <p> It makes us think about the world in a certain way. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+2. UML classifiers ::@:: They are _abstractions_ to group a _collection_ of entities in the _application domain_, e.g. association, attribute, class, operation, etc. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+3. attribute properties ::@:: name \(required\), type \(required\), visibility, initial value \(optional\), multiplicity \(optional\), mutability/changeability <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+4. class ::@:: Instances of a class have _common_ attributes, operations, relations with other objects, and semantics. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+5. interface ::@:: It is an _abstract class_ that has _operations_ only. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
