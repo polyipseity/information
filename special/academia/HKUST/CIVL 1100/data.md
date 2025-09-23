@@ -165,7 +165,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 - description ::@:: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2025-10-23,445,394-->
 - image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2030-06-12,1792,400!2026-01-04,493,400-->
-- shape ::@:: bird/turtle rooftop <!--SR:!2027-03-10,779,330!2025-10-10,432,392-->
+- shape ::@:: bird/turtle rooftop <!--SR:!2027-03-10,779,330!2032-02-09,2313,412-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
 
@@ -288,7 +288,7 @@ See [Taipei 101](Taipei%20101.md).
 
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
-- [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2025-10-10,433,397-->
+- [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2032-03-14,2347,417-->
 - height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2029-07-15,1409,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2025-12-19,477,400-->
 - length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->

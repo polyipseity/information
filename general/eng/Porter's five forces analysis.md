@@ -13,7 +13,7 @@ tags:
 
 > {@{![visual representation of the model](../../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}@}
 >
-> {@{visual representation of the model}@} <!--SR:!2026-06-27,515,310!2025-10-10,323,290-->
+> {@{visual representation of the model}@} <!--SR:!2026-06-27,515,310!2029-05-04,1302,310-->
 
 ## five forces that shape competition
 

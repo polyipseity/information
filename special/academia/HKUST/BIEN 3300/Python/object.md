@@ -13,7 +13,7 @@ A Python class is never complete without teaching objects! \(Sounds oddly famili
 
 ## class
 
-To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2025-09-25,4,270!2025-09-26,4,280!2025-09-26,4,280-->
+To {@{create an object}@}, one needs to {@{first create a class}@}. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2025-10-24,14,290!2025-10-27,17,300!2025-10-27,17,300-->
 
 ```Python
 class Name:
@@ -25,21 +25,21 @@ class Name:
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2025-09-25,4,270-->
+Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2025-10-26,16,290-->
 
 ```Python
 name_object = Name(42)
 ```
 
-The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2025-09-25,4,270-->
+The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2025-10-25,15,290-->
 
 ## attribute
 
-Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2025-09-24,3,250!2025-09-26,4,280-->
+Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2025-10-20,10,270!2025-10-27,17,300-->
 
 ## method
 
-A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!2025-09-25,4,270-->
+A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!2025-10-26,16,290-->
 
 ```Python
 def name(parameter_names):
@@ -53,11 +53,11 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2025-10-26,16,290!2025-10-25,15,290-->
 
 ### constructor
 
-A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
 
 ```Python
 def __init__(parameter_names):

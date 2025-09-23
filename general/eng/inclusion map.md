@@ -27,7 +27,7 @@ In {@{[mathematics](mathematics.md)}@}, if {@{$A$ is a [subset](subset.md) of $B
 
 {@{This and other analogous [injective](injective.md) functions<sup>[\[3\]](#^ref-3)</sup> from [substructures](substructure%20(mathematics).md)}@} are sometimes called {@{__natural injections__}@}. <!--SR:!2026-11-12,488,310!2026-01-24,292,330-->
 
-Given {@{any [morphism](morphism.md) $f$ between [objects](object%20(category%20theory).md) $X$ and $Y$}@}, if {@{there is an inclusion map $\iota :A\to X$ into the [domain](domain%20of%20a%20function.md) $X$}@}, then one can form {@{the [restriction](restriction%20(mathematics).md) $f\circ \iota$ of $f$}@}. In many instances, one can also construct {@{a canonical inclusion into the [codomain](codomain.md) $R\to Y$}@} known as {@{the [range](range%20of%20a%20function.md) of $f$}@}. <!--SR:!2026-01-21,289,330!2025-12-13,258,330!2025-12-08,255,330!2025-10-10,191,310!2026-01-22,290,330-->
+Given {@{any [morphism](morphism.md) $f$ between [objects](object%20(category%20theory).md) $X$ and $Y$}@}, if {@{there is an inclusion map $\iota :A\to X$ into the [domain](domain%20of%20a%20function.md) $X$}@}, then one can form {@{the [restriction](restriction%20(mathematics).md) $f\circ \iota$ of $f$}@}. In many instances, one can also construct {@{a canonical inclusion into the [codomain](codomain.md) $R\to Y$}@} known as {@{the [range](range%20of%20a%20function.md) of $f$}@}. <!--SR:!2026-01-21,289,330!2025-12-13,258,330!2025-12-08,255,330!2028-01-13,825,330!2026-01-22,290,330-->
 
 ## applications of inclusion maps
 

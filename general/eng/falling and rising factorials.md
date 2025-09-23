@@ -31,7 +31,7 @@ When {@{$x$ is a positive integer}@}, {@{$(x)_{n}$}@} gives {@{the number of [_n
 
 {@{The first few falling factorials}@} are as follows: {@{$${\begin{alignedat}{2}(x)_{0}&&&=1\\(x)_{1}&&&=x\\(x)_{2}&=x(x-1)&&=x^{2}-x\\(x)_{3}&=x(x-1)(x-2)&&=x^{3}-3x^{2}+2x\\(x)_{4}&=x(x-1)(x-2)(x-3)&&=x^{4}-6x^{3}+11x^{2}-6x\end{alignedat} }$$}@} <!--SR:!2025-10-30,284,330!2029-01-08,1195,350-->
 
-{@{The first few rising factorials}@} are as follows: {@{$${\begin{alignedat}{2}x^{(0)}&&&=1\\x^{(1)}&&&=x\\x^{(2)}&=x(x+1)&&=x^{2}+x\\x^{(3)}&=x(x+1)(x+2)&&=x^{3}+3x^{2}+2x\\x^{(4)}&=x(x+1)(x+2)(x+3)&&=x^{4}+6x^{3}+11x^{2}+6x\end{alignedat} }$$}@} <!--SR:!2025-10-10,269,330!2028-10-09,1123,350-->
+{@{The first few rising factorials}@} are as follows: {@{$${\begin{alignedat}{2}x^{(0)}&&&=1\\x^{(1)}&&&=x\\x^{(2)}&=x(x+1)&&=x^{2}+x\\x^{(3)}&=x(x+1)(x+2)&&=x^{3}+3x^{2}+2x\\x^{(4)}&=x(x+1)(x+2)(x+3)&&=x^{4}+6x^{3}+11x^{2}+6x\end{alignedat} }$$}@} <!--SR:!2029-02-16,1225,350!2028-10-09,1123,350-->
 
 {@{The coefficients that appear in the expansions}@} are {@{[Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)}@} (see below). <!--SR:!2025-10-14,273,330!2025-10-13,272,330-->
 
@@ -99,7 +99,7 @@ Similarly, {@{the generating function of Pochhammer polynomials (the sequence of
 
 ## alternative notations
 
-An alternative notation for {@{the rising factorial}@} {@{$$x^{\overline {m} }\equiv (x)_{+m}\equiv (x)_{m}=\overbrace {x(x+1)\ldots (x+m-1)} ^{m{\text{ factors} } }\quad {\text{for integer } }m\geq 0$$}@} and for {@{the falling factorial}@} {@{$$x^{\underline {m} }\equiv (x)_{-m}=\overbrace {x(x-1)\ldots (x-m+1)} ^{m{\text{ factors} } }\quad {\text{for integer } }m\geq 0$$}@} goes back to {@{A. Capelli (1893) and L. Toscano (1939), respectively}@}.<sup>[\[2\]](#^ref-2)</sup> {@{Graham, Knuth, and Patashnik}@}<sup>[\[11\]](#^ref-11)</sup><sup>[\[47\]](#^ref-47)</sup> propose to pronounce these expressions as {@{"$x$ to the $m$ rising" and "$x$ to the $m$ falling", respectively}@}. <!--SR:!2025-10-15,274,330!2025-10-15,274,330!2025-10-17,276,330!2025-10-31,285,330!2026-03-08,351,290!2028-01-15,886,330!2025-10-10,269,330-->
+An alternative notation for {@{the rising factorial}@} {@{$$x^{\overline {m} }\equiv (x)_{+m}\equiv (x)_{m}=\overbrace {x(x+1)\ldots (x+m-1)} ^{m{\text{ factors} } }\quad {\text{for integer } }m\geq 0$$}@} and for {@{the falling factorial}@} {@{$$x^{\underline {m} }\equiv (x)_{-m}=\overbrace {x(x-1)\ldots (x-m+1)} ^{m{\text{ factors} } }\quad {\text{for integer } }m\geq 0$$}@} goes back to {@{A. Capelli (1893) and L. Toscano (1939), respectively}@}.<sup>[\[2\]](#^ref-2)</sup> {@{Graham, Knuth, and Patashnik}@}<sup>[\[11\]](#^ref-11)</sup><sup>[\[47\]](#^ref-47)</sup> propose to pronounce these expressions as {@{"$x$ to the $m$ rising" and "$x$ to the $m$ falling", respectively}@}. <!--SR:!2025-10-15,274,330!2025-10-15,274,330!2025-10-17,276,330!2025-10-31,285,330!2026-03-08,351,290!2028-01-15,886,330!2029-02-13,1222,350-->
 
 An alternative notation for {@{the rising factorial $x^{(n)}$}@} is {@{the less common $(x)_{n}^{+}$. When $(x)_{n}^{+}$}@} is used to denote the rising factorial, {@{the notation $(x)_{n}^{-}$}@} is typically used for {@{the ordinary falling factorial, to avoid confusion}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-10-29,283,330!2029-01-27,1210,350!2025-10-11,270,330!2029-01-20,1204,350-->
 

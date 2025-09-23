@@ -224,7 +224,7 @@ One important difference is {@{service recovery}@}. When {@{an error occurs in s
 1. [Price](price.md) \(actually fixed by marketing, but lower bounded by production cost\): ::@:: purchase price, use costs, maintenance costs, upgrade costs, disposal costs <!--SR:!2025-11-17,186,270!2026-05-16,333,290-->
 2. [Quality](quality%20(business).md): ::@:: specification and compliance <!--SR:!2026-01-05,258,330!2025-12-20,244,330-->
 3. [Time](time.md): ::@:: productive [lead time](lead%20time.md), information lead time, [punctuality](punctuality.md) <!--SR:!2026-02-23,281,290!2026-02-01,278,330-->
-4. [Flexibility](flexibility%20(engineering).md): ::@:: mix \(capacity to change the [proportions](proportionality%20(mathematics).md) between quantities produced in the system\), volume \(capacity to increase system [output](output%20(economics).md)\), gamma \(capacity to expand the product family in the system\) <!--SR:!2025-11-04,186,270!2025-10-10,186,310-->
+4. [Flexibility](flexibility%20(engineering).md): ::@:: mix \(capacity to change the [proportions](proportionality%20(mathematics).md) between quantities produced in the system\), volume \(capacity to increase system [output](output%20(economics).md)\), gamma \(capacity to expand the product family in the system\) <!--SR:!2025-11-04,186,270!2027-12-19,800,330-->
 5. Stock [availability](availability.md)
 6. Ecological Soundness: ::@:: biological and [environmental impacts](environmental%20impact%20assessment.md) of the system under study. <!--SR:!2025-10-16,192,310!2026-01-30,276,330-->
 
@@ -258,7 +258,7 @@ In {@{_[production planning](production%20planning.md)_}@}, there is a basic dis
 >
 > {@{A typical MRPII construct}@}: {@{general planning \(top\)}@} concerned with {@{forecasts, capacity planning and inventory levels}@}, {@{programming \(middle\)}@} concerned with {@{calculation of [workloads](workloads.md), rough-cut capacity planning}@}, {@{MPS, [capacity requirements planning](capacity%20planning.md), traditional MRP planning}@}, {@{control \(bottom\)}@} concerned with {@{[scheduling](scheduling%20(production%20processes).md)}@}. <!--SR:!2025-12-29,253,330!2026-02-14,288,330!2025-12-10,237,330!2026-01-29,275,330!2025-12-22,246,330!2026-01-27,276,330!2025-10-12,185,310!2026-01-01,254,330!2027-12-16,798,330-->
 
-[Joseph Orlickly](Joseph%20Orlickly.md) and others at IBM developed {@{a [push](push-pull%20strategy.md) approach to inventory control and production planning}@}, now known as {@{[material requirements planning](material%20requirements%20planning.md) \(MRP\)}@}, which takes as input both {@{the [master production schedule](master%20production%20schedule.md) \(MPS\) and the [bill of materials](bill%20of%20materials.md) \(BOM\)}@} and gives as output {@{a schedule for the materials \(components\) needed in the production process}@}. MRP therefore is {@{a planning tool to manage [purchase orders](purchase%20orders.md) and production orders \(also called jobs\)}@}. <!--SR:!2027-11-28,781,330!2025-10-10,186,310!2025-10-18,189,310!2026-02-10,284,330!2026-01-10,262,330-->
+[Joseph Orlickly](Joseph%20Orlickly.md) and others at IBM developed {@{a [push](push-pull%20strategy.md) approach to inventory control and production planning}@}, now known as {@{[material requirements planning](material%20requirements%20planning.md) \(MRP\)}@}, which takes as input both {@{the [master production schedule](master%20production%20schedule.md) \(MPS\) and the [bill of materials](bill%20of%20materials.md) \(BOM\)}@} and gives as output {@{a schedule for the materials \(components\) needed in the production process}@}. MRP therefore is {@{a planning tool to manage [purchase orders](purchase%20orders.md) and production orders \(also called jobs\)}@}. <!--SR:!2027-11-28,781,330!2027-12-18,799,330!2025-10-18,189,310!2026-02-10,284,330!2026-01-10,262,330-->
 
 {@{The MPS}@} can be seen as {@{a kind of aggregate planning for production coming in two fundamentally opposing varieties}@}: {@{plans which try to [chase](aggregate%20planning.md#chase%20plans) demand}@} and {@{[level](aggregate%20planning.md#level%20plans) plans which try to keep uniform capacity utilization}@}. {@{Many models have been proposed}@} to solve MPS problems: (annotation: 3 items: {@{analytical models, exact optimization algorithm models, heuristic models}@}) <!--SR:!2026-02-12,288,330!2026-01-12,263,330!2025-10-15,178,310!2026-01-27,276,330!2026-01-17,268,330!2025-10-16,192,310-->
 
@@ -303,11 +303,11 @@ Since {@{the number of kanbans in the production system is set by managers as a 
 
 In Toyota the TPS represented {@{more of a philosophy of production than a set of specific lean tools}@}, the latter would include: <!--SR:!2026-02-02,279,330-->
 
-- [SMED](single-minute%20exchange%20of%20die.md): ::@:: a method for reducing changeover times <!--SR:!2025-10-10,184,310!2026-02-20,294,330-->
+- [SMED](single-minute%20exchange%20of%20die.md): ::@:: a method for reducing changeover times <!--SR:!2027-12-10,791,330!2026-02-20,294,330-->
 - [Value stream mapping](value%20stream%20mapping.md): ::@:: a graphical method for analyzing the current state and designing a future state <!--SR:!2026-02-19,293,330!2026-01-01,254,330-->
 - lot-size reduction
 - elimination of time batching
-- [Rank order clustering](production%20flow%20analysis.md#rank%20order%20clustering): ::@:: an algorithm which groups machines and product families together, used for designing [manufacturing cells](manufacturing%20cells.md) <!--SR:!2025-10-10,183,310!2026-11-27,492,310-->
+- [Rank order clustering](production%20flow%20analysis.md#rank%20order%20clustering): ::@:: an algorithm which groups machines and product families together, used for designing [manufacturing cells](manufacturing%20cells.md) <!--SR:!2027-12-09,790,330!2026-11-27,492,310-->
 - single-point [scheduling](scheduling%20(production%20processes).md), ::@:: the opposite of the traditional push approach <!--SR:!2026-01-13,263,330!2026-01-28,275,330-->
 - [multi-process handling](multi-process%20handling.md): ::@:: when one operator is responsible for operating several machines or processes <!--SR:!2025-11-07,195,310!2025-12-31,255,330-->
 - [poka-yoke](poka-yoke.md): ::@:: any mechanism in lean manufacturing that helps an equipment operator avoid \(_yokeru_\) mistakes \(_poka_\) <!--SR:!2026-01-01,254,330!2025-10-11,184,310-->

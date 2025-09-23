@@ -40,7 +40,7 @@ tags:
 > ---
 >
 > - solution: {@{`Student 0..50 -EnrollsIn- 0..5 Course`. Add notes next to the multiplicities to indicate the minimum counts instead.}@}
-> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no "natural" way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no "natural" way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2025-10-25,15,290!2025-10-25,15,290-->
 
 ---
 
@@ -53,7 +53,7 @@ tags:
 > ---
 >
 > - solution: {@{1. `Customer 1 -Makes- * Shipment` <br/> 2. `Shipment 1 -Contains- 1..* Package` <br/> 3. `Shipment * -SentTo- 1 City`}@}
-> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
 
 ---
 
@@ -62,7 +62,7 @@ tags:
 > ---
 >
 > - solution: {@{Use a _new separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
-> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
 
 ---
 
@@ -77,7 +77,7 @@ tags:
 > ---
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
-> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
 
 ## week 2 lecture
 
@@ -85,7 +85,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Each association must have an unique name.}@} <!--SR:!2025-09-26,4,280-->
+> - solution: {@{No. Each association must have an unique name.}@} <!--SR:!2025-10-27,17,300-->
 
 ---
 
@@ -93,7 +93,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2025-09-26,4,280-->
+> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2025-10-27,17,300-->
 
 ---
 
@@ -101,7 +101,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2025-09-26,4,280-->
+> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2025-10-26,16,300-->
 
 ---
 
@@ -109,7 +109,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2025-09-26,4,280-->
+> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2025-10-27,17,300-->
 
 ---
 
@@ -117,7 +117,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2025-09-26,4,280-->
+> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2025-10-27,17,300-->
 
 ---
 
@@ -125,7 +125,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2025-09-26,4,280-->
+> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2025-10-27,17,300-->
 
 ## week 3 pre-lecture
 

@@ -27,7 +27,7 @@ When copying and pasting formulas, the cell references in the formula are {@{off
 
 ### arithmetic operators
 
-Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-26,4,337!2025-09-26,4,337!2025-09-26,4,337-->
+Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-10-30,20,357!2025-10-30,20,357!2025-10-30,20,357-->
 
 ```Python
 # pytextgen generate data
@@ -74,24 +74,24 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:37.027388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`^` <!--SR:!2025-09-26,4,337!2025-09-26,4,337-->
-- `^`→::@::←`*` <br/> `/` <!--SR:!2025-09-26,4,337!2025-09-26,4,337-->
-- `*` <br/> `/`→::@::←`+` <br/> `-` <!--SR:!2025-09-26,4,337!2025-09-26,4,337-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-09-26,4,337!2025-09-26,4,337-->
+- _(begin)_→::@::←`^` <!--SR:!2025-10-30,20,357!2025-10-30,20,357-->
+- `^`→::@::←`*` <br/> `/` <!--SR:!2025-10-30,20,357!2025-10-30,20,357-->
+- `*` <br/> `/`→::@::←`+` <br/> `-` <!--SR:!2025-10-30,20,357!2025-10-30,20,357-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-10-30,20,357!2025-10-30,20,357-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.077571+08:00. Any edits will be overridden! -->
 
-- `^`:@:power <!--SR:!2025-09-26,4,337-->
-- `*` <br/> `/`:@:multiplication <br/> division <!--SR:!2025-09-26,4,337-->
-- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-09-26,4,337-->
+- `^`:@:power <!--SR:!2025-10-30,20,357-->
+- `*` <br/> `/`:@:multiplication <br/> division <!--SR:!2025-10-30,20,357-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-10-30,20,357-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-02-01,1133,350!2025-09-26,4,337!2025-09-26,4,337!2025-09-26,4,337-->
+Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-02-01,1133,350!2025-10-30,20,357!2025-10-30,20,357!2025-10-30,20,357-->
 
 ```Python
 # pytextgen generate data

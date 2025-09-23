@@ -49,7 +49,7 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-11-28,289,330
 
 ## attitude
 
-You will present well if {@{you have a good attitude towards your presentation}@}. <!--SR:!2025-10-10,250,330-->
+You will present well if {@{you have a good attitude towards your presentation}@}. <!--SR:!2028-11-28,1145,350-->
 
 - feeling ::@:: Try to feel like you were Obama presenting something. <!--SR:!2025-11-04,269,330!2028-08-16,1061,350-->
 - belief ::@:: Authentically believe in what you are saying. <!--SR:!2025-12-03,293,330!2027-08-05,741,330-->

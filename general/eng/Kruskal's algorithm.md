@@ -112,7 +112,7 @@ The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm
 
 ### spanning tree
 
-Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $G$ produced by the algorithm}@}. $Y$ {@{cannot have a cycle}@}, as {@{by definition an edge is not added if it results in a cycle}@}. $Y$ {@{cannot be disconnected}@}, since {@{the first encountered edge that joins two components of $Y$ would have been added by the algorithm}@}. Thus, {@{$Y$ is a spanning tree of $G$}@}. <!--SR:!2025-11-26,283,330!2025-10-10,245,330!2025-12-07,293,330!2025-12-09,294,330!2025-12-08,294,330!2025-11-02,265,330!2025-11-07,268,330-->
+Let $G$ be {@{a connected, weighted graph}@} and let $Y$ be {@{the subgraph of $G$ produced by the algorithm}@}. $Y$ {@{cannot have a cycle}@}, as {@{by definition an edge is not added if it results in a cycle}@}. $Y$ {@{cannot be disconnected}@}, since {@{the first encountered edge that joins two components of $Y$ would have been added by the algorithm}@}. Thus, {@{$Y$ is a spanning tree of $G$}@}. <!--SR:!2025-11-26,283,330!2028-10-29,1115,350!2025-12-07,293,330!2025-12-09,294,330!2025-12-08,294,330!2025-11-02,265,330!2025-11-07,268,330-->
 
 ### minimality
 
@@ -222,7 +222,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-11-07,268,330!2025-10-22,256,330!2025-11-11,272,330-->
 
-Finally, {@{other variants of a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads to remove edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which {@{runs the sequential algorithm on _p_ subgraphs, then merges those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-29,286,330!2025-11-10,272,330!2025-10-10,246,330-->
+Finally, {@{other variants of a parallel implementation of Kruskal's algorithm}@} have been explored. Examples include {@{a scheme that uses helper threads to remove edges that are definitely not part of the MST in the background}@},<sup>[\[8\]](#^ref-8)</sup> and a variant which {@{runs the sequential algorithm on _p_ subgraphs, then merges those subgraphs until only one, the final MST, remains}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-11-29,286,330!2025-11-10,272,330!2026-02-12,125,310-->
 
 ## see also
 

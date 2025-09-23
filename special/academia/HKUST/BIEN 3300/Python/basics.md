@@ -16,11 +16,11 @@ tags:
 
 ## operators
 
-The operator precedence for the 3 types of operators introduced below is {@{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}@}. Note that this only considers operators mentioned below and not any others omitted. <!--SR:!2025-09-25,4,270-->
+The operator precedence for the 3 types of operators introduced below is {@{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}@}. Note that this only considers operators mentioned below and not any others omitted. <!--SR:!2025-10-26,16,290-->
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ```Python
 # pytextgen generate data
@@ -71,24 +71,24 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:36.996978+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
-- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
-- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-09-26,4,289!2025-09-26,4,289-->
+- _(begin)_→::@::←`**` <!--SR:!2025-10-27,17,309!2025-10-27,17,309-->
+- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2025-10-27,17,309!2025-10-27,17,309-->
+- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2025-10-27,17,309!2025-10-27,17,309-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2025-10-27,17,309!2025-10-27,17,309-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:36.946434+08:00. Any edits will be overridden! -->
 
-- `**`:@:power <!--SR:!2025-09-26,4,289-->
-- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-09-26,4,289-->
-- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-09-26,4,289-->
+- `**`:@:power <!--SR:!2025-10-27,17,309-->
+- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-10-27,17,309-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2025-10-27,17,309-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2025-09-25,4,270!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2025-10-26,16,290!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ```Python
 # pytextgen generate data
@@ -133,36 +133,36 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`in` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `in`→::@::←`<` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `<`→::@::←`<=` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `<=`→::@::←`>` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `>`→::@::←`>=` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `>=`→::@::←`!=` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `!=`→::@::←`==` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `==`→::@::←_(end)_ <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+- _(begin)_→::@::←`in` <!--SR:!2025-10-26,16,290!2025-10-24,14,290-->
+- `in`→::@::←`<` <!--SR:!2025-10-26,16,290!2025-10-25,15,290-->
+- `<`→::@::←`<=` <!--SR:!2025-10-24,14,290!2025-10-25,15,290-->
+- `<=`→::@::←`>` <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+- `>`→::@::←`>=` <!--SR:!2025-10-26,16,290!2025-10-26,16,290-->
+- `>=`→::@::←`!=` <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
+- `!=`→::@::←`==` <!--SR:!2025-10-26,16,290!2025-10-24,14,290-->
+- `==`→::@::←_(end)_ <!--SR:!2025-10-25,15,290!2025-10-25,15,290-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`:@:membership test <!--SR:!2025-09-25,4,270-->
-- `<`:@:lesser than <!--SR:!2025-09-25,4,270-->
-- `<=`:@:lesser than or equal to <!--SR:!2025-09-25,4,270-->
-- `>`:@:greater than <!--SR:!2025-09-25,4,270-->
-- `>=`:@:greater than or equal to <!--SR:!2025-09-25,4,270-->
-- `!=`:@:not equal to <!--SR:!2025-09-25,4,270-->
-- `==`:@:equal to <!--SR:!2025-09-25,4,270-->
+- `in`:@:membership test <!--SR:!2025-10-26,16,290-->
+- `<`:@:lesser than <!--SR:!2025-10-24,14,290-->
+- `<=`:@:lesser than or equal to <!--SR:!2025-10-25,15,290-->
+- `>`:@:greater than <!--SR:!2025-10-26,16,290-->
+- `>=`:@:greater than or equal to <!--SR:!2025-10-24,14,290-->
+- `!=`:@:not equal to <!--SR:!2025-10-25,15,290-->
+- `==`:@:equal to <!--SR:!2025-10-24,14,290-->
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2025-09-25,4,270-->
+Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2025-10-24,14,290-->
 
-Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270-->
+Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2025-10-24,14,290!2025-10-24,14,290!2025-10-25,15,290!2025-10-24,14,290!2025-10-24,14,290!2025-10-26,16,290!2025-10-25,15,290!2025-10-25,15,290-->
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-09-25,4,270!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2025-10-26,16,290!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ```Python
 # pytextgen generate data
@@ -199,41 +199,41 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`not` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `not`→::@::←`and` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `and`→::@::←`or` <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
-- `or`→::@::←_(end)_ <!--SR:!2025-09-25,4,270!2025-09-25,4,270-->
+- _(begin)_→::@::←`not` <!--SR:!2025-10-26,16,290!2025-10-25,15,290-->
+- `not`→::@::←`and` <!--SR:!2025-10-25,15,290!2025-10-26,16,290-->
+- `and`→::@::←`or` <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+- `or`→::@::←_(end)_ <!--SR:!2025-10-26,16,290!2025-10-24,14,290-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`:@:negate <!--SR:!2025-09-25,4,270-->
-- `and`:@:and <!--SR:!2025-09-25,4,270-->
-- `or`:@:or <!--SR:!2025-09-25,4,270-->
+- `not`:@:negate <!--SR:!2025-10-25,15,290-->
+- `and`:@:and <!--SR:!2025-10-25,15,290-->
+- `or`:@:or <!--SR:!2025-10-26,16,290-->
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)` instead of `(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)` instead of `(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2025-10-25,15,290!2025-10-25,15,290!2025-10-25,15,290-->
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {@{`=`}@}: <!--SR:!2025-09-25,4,270-->
+To assign a value or the result of an expression to a variable, use {@{`=`}@}: <!--SR:!2025-10-25,15,290-->
 
 ```Python
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2025-09-25,4,270-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2025-10-24,14,290-->
 
-Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2025-09-24,3,250!2025-09-26,4,289!2025-09-26,4,289!2025-09-26,4,289-->
+Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2025-10-20,10,270!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ### augmented assignment
 
-Assignment supports {@{performing an arithmetic operation on an existing variable}@}. Use {@{`<op>=`}@}, where {@{`<op>` is the arithmetic operator}@}: <!--SR:!2025-09-25,4,270!2025-09-25,4,270!2025-09-25,4,270-->
+Assignment supports {@{performing an arithmetic operation on an existing variable}@}. Use {@{`<op>=`}@}, where {@{`<op>` is the arithmetic operator}@}: <!--SR:!2025-10-25,15,290!2025-10-24,14,290!2025-10-24,14,290-->
 
 ```Python
 variableName += 2
 ```
 
-The variable must already {@{have a value assigned to it}@}. <!--SR:!2025-09-25,4,270-->
+The variable must already {@{have a value assigned to it}@}. <!--SR:!2025-10-26,16,290-->

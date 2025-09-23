@@ -136,7 +136,7 @@ The content is in teaching order.
   - financial regulatory authority / examples ::@:: China: CBIRC <br/> Hong Kong: HKMA, HKSFC <br/> United States: CFTC, SEC <!--SR:!2025-10-25,19,350!2025-10-23,17,350-->
 - financial asset
   - financial asset / classification ::@:: marketable \(tradeable\), non-marketable <!--SR:!2025-10-23,17,350!2025-10-24,18,350-->
-    - financial asset / classification / marketable ::@:: derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity <!--SR:!2025-10-18,12,327!2025-10-10,4,310-->
+    - financial asset / classification / marketable ::@:: derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity <!--SR:!2025-10-18,12,327!2025-10-28,18,330-->
     - financial asset / classification / non-marketable ::@:: debt: securitized claims, etc. <br/> equity <!--SR:!2025-10-24,18,350!2025-10-24,18,350-->
 - [money market](../../../../general/money%20market.md) ::@:: It is a component of the economy that provides short-term funds. The money market deals in short-term loans, generally for a period of a year or less. <!--SR:!2025-10-23,17,350!2025-10-23,17,350-->
   - money market / importance ::@:: As short-term securities became a commodity, the money market became a component of the financial market for assets involved in short-term borrowing, lending, buying and selling with original maturities of one year or less. Trading in money markets is done over the counter and is wholesale. <!--SR:!2025-10-19,13,330!2025-10-23,17,350-->

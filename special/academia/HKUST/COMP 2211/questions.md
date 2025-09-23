@@ -188,7 +188,7 @@ tags:
 >         [13, 14, 15, 16]]])
 > ```
 >
-> - solution: {@{\(3, 2, 4\)}@} <!--SR:!2025-10-10,206,310-->
+> - solution: {@{\(3, 2, 4\)}@} <!--SR:!2028-03-12,884,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1250,7 +1250,7 @@ tags:
 
 > Q3. Suppose we have a conventional CNN architecture: input 32\*32\*3 RGB image, first convolutional layer has 256 3\*3 filters, followed by a 2\*2 (non-overlapping) max pooling layer, followed by convolutional layer with 128 3\*3 filters, followed by another 2\*2 (non-overlapping) max pooling layer, followed by convolutional layer with 64 3\*3 filters, then a 2\*2 (non-overlapping) max pooling layer, then a flattening layer, a dense layer with 1000 neurons, and output layer with 10 neurons. What is the total number of parameters in the network, including bias, assuming no padding is done for any convolutional layer?
 >
-> - solution: {@{input shape to flattening layer: 32\*32\*3 → 30\*30\*256 → 15\*15\*256 → 13\*13\*128 → 6\*6\*128 → 4\*4\*64 → 2\*2\*64 <br/> total params: (3\*3\*3 \* 256 + 256) + (3\*3\*256 \* 128 + 128) + (3\*3\*128 \* 64 + 64) + (2\*2\*64 \* 1000 + 1000) + (1000 \* 10 + 10) = 643010}@} <!--SR:!2025-10-10,207,310-->
+> - solution: {@{input shape to flattening layer: 32\*32\*3 → 30\*30\*256 → 15\*15\*256 → 13\*13\*128 → 6\*6\*128 → 4\*4\*64 → 2\*2\*64 <br/> total params: (3\*3\*3 \* 256 + 256) + (3\*3\*256 \* 128 + 128) + (3\*3\*128 \* 64 + 64) + (2\*2\*64 \* 1000 + 1000) + (1000 \* 10 + 10) = 643010}@} <!--SR:!2028-03-16,888,330-->
 
 <!-- markdownlint MD028 -->
 

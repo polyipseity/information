@@ -42,7 +42,7 @@ The cheatsheet is provided during the final examination.
 - `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2025-10-20,282,330-->
 - `**` ::@:: to the power of <!--SR:!2025-10-14,278,330!2025-10-25,287,330-->
 - `/` ::@:: division <!--SR:!2029-02-09,1225,350!2025-10-21,282,330-->
-- `//` ::@:: floor division <!--SR:!2025-10-10,274,330!2029-03-15,1253,350-->
+- `//` ::@:: floor division <!--SR:!2029-03-11,1248,350!2029-03-15,1253,350-->
 - `%` ::@:: mod <!--SR:!2029-01-31,1218,350!2029-02-02,1220,350-->
 
 ## input / output
@@ -64,7 +64,7 @@ The cheatsheet is provided during the final examination.
 
 ## list / string operations
 
-- `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2025-10-10,275,330!2025-10-23,285,330-->
+- `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2025-10-23,285,330-->
 - `+` ::@:: combine two lists / strings <!--SR:!2025-10-24,286,330!2025-10-27,288,330-->
 - `in` ::@:: check existence in a list / string <!--SR:!2025-10-12,276,330!2025-10-26,287,330-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2025-10-21,282,330-->
@@ -72,7 +72,7 @@ The cheatsheet is provided during the final examination.
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
-- `len()` ::@:: return the number of elements in the input list <!--SR:!2025-10-10,274,330!2025-10-29,290,330-->
+- `len()` ::@:: return the number of elements in the input list <!--SR:!2029-03-10,1247,350!2025-10-29,290,330-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
 - `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-10-12,276,330!2029-03-01,1241,350-->
