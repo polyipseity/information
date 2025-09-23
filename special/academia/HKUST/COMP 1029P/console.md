@@ -17,16 +17,16 @@ Note that when you call `print`, even if you have not added newlines to the stri
 
 ## clear
 
-{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2027-04-02,829,330-->
+{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2027-04-02,829,330!2025-09-27,4,324!2025-09-27,4,324-->
 
 ```Python
 for _ in range(4):
   print("\n" * 25)
 ```
 
-Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2026-09-01,707,330-->
+Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2026-09-01,707,330!2025-09-27,4,324-->
 
-If your console is an actual console, then you can use {@{call a system command via `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2027-04-16,878,330!2028-04-16,1192,350-->
+If your console is an actual console, then you can use {@{call a system command via `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2027-04-16,878,330!2028-04-16,1192,350!2025-09-27,4,324!2025-09-27,4,324-->
 
 ```Python
 import os
