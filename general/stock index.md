@@ -1,0 +1,1 @@
+eng/stock index.md
