@@ -54,7 +54,7 @@ An important note is that {@{the interest rate _i_ is the interest rate for the 
 
 {@{The rate of return in the calculations}@} can be {@{either the variable solved for, or a predefined variable}@} that {@{measures a discount rate, interest, inflation, rate of return, cost of equity, cost of debt or any number of other analogous concepts}@}. {@{The choice of the appropriate rate}@} is {@{critical to the exercise}@}, and {@{the use of an incorrect discount rate will make the results meaningless}@}.
 
-For {@{calculations involving annuities}@}, it must be decided {@{whether the payments are made at the end of each period \(known as an ordinary annuity\), or at the beginning of each period \(known as an annuity due\)}@}. When {@{using a financial calculator or a [spreadsheet](spreadsheet.md)}@}, it can {@{usually be set for either calculation}@}. The following formulas are {@{for an ordinary annuity}@}. For {@{the answer to the present value of an annuity due}@}, {@{the PV of an ordinary annuity can be multiplied by \(1 + _i_\)}@}.
+For {@{calculations involving annuities}@}, it must be decided {@{whether the payments are made at the end of each period \(known as an ordinary annuity\)}@}, or {@{at the beginning of each period \(known as an annuity due\)}@}. When {@{using a financial calculator or a [spreadsheet](spreadsheet.md)}@}, it can {@{usually be set for either calculation}@}. The following formulas are {@{for an ordinary annuity}@}. For {@{the answer to the present value of an annuity due}@}, {@{the PV of an ordinary annuity can be multiplied by \(1 + _i_\)}@}.
 
 ## formula
 
