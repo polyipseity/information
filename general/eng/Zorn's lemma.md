@@ -23,7 +23,7 @@ Zorn's lemma is equivalent to {@{the [well-ordering theorem](well-ordering%20the
 
 ## motivation
 
-To prove {@{the existence of a mathematical object that can be viewed as a maximal element in some [partially ordered set](partially%20ordered%20set.md) in some way}@}, one can try proving the existence of such an object by {@{assuming there is no maximal element and using [transfinite induction](transfinite%20induction.md) and the assumptions of the situation to get a contradiction}@}. Zorn's lemma tidies up {@{the conditions a situation needs to satisfy in order for such an argument to work}@} and enables mathematicians to {@{not have to repeat the transfinite induction argument by hand each time}@}, but {@{just check the conditions of Zorn's lemma}@}.
+To prove {@{the existence of a mathematical object}@} that can be {@{viewed as a maximal element in some [partially ordered set](partially%20ordered%20set.md) in some way}@}, one can try {@{proving the existence of such an object}@} by {@{assuming there is no maximal element and using [transfinite induction](transfinite%20induction.md) and the assumptions of the situation to get a contradiction}@}. Zorn's lemma tidies up {@{the conditions a situation needs to satisfy in order for such an argument to work}@} and enables mathematicians to {@{not have to repeat the transfinite induction argument by hand each time}@}, but {@{just check the conditions of Zorn's lemma}@}.
 
 > If {@{you are building a mathematical object in stages}@} and find that \(i\) {@{you have not finished even after infinitely many stages}@}, and \(ii\) {@{there seems to be nothing to stop you continuing to build}@}, then {@{Zorn’s lemma may well be able to help you}@}.
 >
