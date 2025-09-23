@@ -102,7 +102,7 @@ In {@{2012, [China](economy%20of%20China.md)}@} surpassed {@{[Japan](economy%20o
 
 ### advertising
 
-{@{The advertising expenditure for the average luxury brand}@} is {@{5-15% of sales [revenue](revenue.md)}@}, or {@{about 25% with the inclusion of other communications such as [public relations](public%20relations.md), events, and sponsorships}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2028-10-31,1120,350!2027-07-18,728,330!2028-11-22,1139,350-->
+{@{The advertising expenditure for the average luxury brand}@} is {@{5-15% of sales [revenue](revenue.md)}@}, or {@{about 25% with the inclusion of other communications}@} such as {@{[public relations](public%20relations.md), events, and sponsorships}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2028-10-31,1120,350!2027-07-18,728,330!2028-11-22,1139,350-->
 
 {@{A rather small group}@} in comparison, the wealthy {@{tend to be extremely influential}@}.<sup>[\[29\]](#^ref-29)</sup> Once {@{a brand gets an "endorsement" from members of this group}@}, then {@{the brand can be defined as a true "luxury" brand}@}. An example of {@{different product lines in the same brand}@} is found {@{in the automotive industry}@}, with {@{"entry-level" cars marketed to younger, less wealthy consumers, and higher-cost models for older and more wealthy consumers}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2025-11-03,265,330!2028-07-21,1039,350!2025-11-14,276,330!2025-11-14,276,330!2025-11-28,287,330!2025-11-01,265,330!2025-11-30,289,330-->
 
