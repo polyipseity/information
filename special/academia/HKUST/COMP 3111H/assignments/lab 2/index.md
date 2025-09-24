@@ -39,5 +39,6 @@ Submit your answers in one PDF file, including code in Exercise 2 and Exercise 3
 ## submission
 
 - file: [submission.pdf](submission.pdf)
+  - metadata: [submission.pdf.yml](submission.pdf.yml)
   - source: [submission.md](submission.md)
   - name: `Lab2Assignment.pdf`
