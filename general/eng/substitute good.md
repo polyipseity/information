@@ -89,7 +89,7 @@ Imperfect substitutes have {@{a low cross-elasticity of demand}@}. If {@{two bra
 
 If {@{two goods are imperfect substitutes}@}, economists can {@{distinguish them as gross substitutes or net substitutes}@}. Good $x_{j}$ is {@{a __gross substitute__ for good $x_{i}$ if, when the price of good $x_{i}$ increases, spending on good $x_{j}$ increases}@}, as described above. Gross substitutability is {@{not a symmetric relationship}@}. Even if {@{$x_{j}$ is a gross substitute for $x_{i}$, it may not be true that $x_{i}$ is a gross substitute for $x_{j}$}@}.
 
-Two goods are {@{__net substitutes__ when the demand for good X increases when the price of good Y increases and the utility derived from the substitute remains constant}@}.<sup>[\[10\]](#^ref-10)</sup>
+{@{Two goods}@} are {@{__net substitutes__}@} when {@{the demand for good X increases when the price of good Y increases}@} and {@{the utility derived from the substitute remains constant}@}.<sup>[\[10\]](#^ref-10)</sup>
 
 {@{Goods $x_{i}$ and $x_{j}$ are said to be net substitutes}@} if {@{$$\left.{\frac {\partial x_{j} }{\partial p_{i} } }\right|_{u=const}>0$$}@} That is, goods are {@{net substitutes if they are substitutes for each other under a constant utility function}@}. Net substitutability has {@{the desirable property that, unlike gross substitutability, it is symmetric}@}: {@{$$\left.{\frac {\partial x_{j} }{\partial p_{i} } }\right|_{u=const}=\left.{\frac {\partial x_{i} }{\partial p_{j} } }\right|_{u=const}$$}@} That is, if {@{good $x_{j}$ is a net substitute for good $x_{i}$, then good $x_{i}$ is also a net substitute for good $x_{j}$}@}. {@{The symmetry of net substitution}@} is {@{both intuitively appealing and theoretically useful}@}.<sup>[\[11\]](#^ref-11)</sup>
 

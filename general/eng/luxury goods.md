@@ -156,7 +156,7 @@ Many luxury brands use flagship boutiques to {@{illustrate their unique vision o
 
 ### secondary boutiques
 
-{@{Large cities}@} often have {@{secondary boutiques in addition to their flagship boutique}@}. Multiple boutiques allow {@{luxury brands to cater to different types of clients}@}, which can {@{differ even within small geographic areas}@}. Secondary boutiques often offer {@{different merchandise than flagship boutiques, and establish different types of relationships with clients}@}.<sup>[\[50\]](#^ref-50)</sup>
+{@{Large cities}@} often have {@{secondary boutiques in addition to their flagship boutique}@}. Multiple boutiques allow {@{luxury brands to cater to different types of clients}@}, which can {@{differ even within small geographic areas}@}. Secondary boutiques often offer {@{different merchandise than flagship boutiques}@}, and establish {@{different types of relationships with clients}@}.<sup>[\[50\]](#^ref-50)</sup>
 
 {@{Luxury boutiques in smaller cities}@} are {@{often secondary boutiques as well}@}.<sup>[\[46\]](#^ref-46)</sup> {@{The rising popularity of secondary and tertiary cities around the world}@} has pushed luxury brands to {@{open secondary boutiques in smaller cities than those that can support a flagship boutique}@}.<sup>[\[51\]](#^ref-51)</sup>
 
