@@ -318,7 +318,7 @@ There are {@{a variety of approaches one can use}@}. If {@{the file has a relati
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 
-NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2027-11-25,840,330!2025-10-11,263,330!2025-12-23,325,350!2025-11-15,293,330!2026-01-19,348,350-->
+NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2027-11-25,840,330!2029-01-19,1196,350!2025-12-23,325,350!2025-11-15,293,330!2026-01-19,348,350-->
 
 ## references
 

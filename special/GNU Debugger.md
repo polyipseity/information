@@ -59,7 +59,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 #### `pwndbg` heap
 
-- `heap` ::@:: iteratively print chunks on heap (`glibc` only) <!--SR:!2025-10-11,310,330!2029-04-04,1300,350-->
+- `heap` ::@:: iteratively print chunks on heap (`glibc` only) <!--SR:!2029-08-20,1409,350!2029-04-04,1300,350-->
 - `heap_config` ::@:: show `glibc` allocator hacking configuration <!--SR:!2027-08-06,803,330!2028-12-16,1216,350-->
 
 #### `pwndbg` memory

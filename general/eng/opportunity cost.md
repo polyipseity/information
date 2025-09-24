@@ -82,7 +82,7 @@ The concept of marginal cost in economics is {@{the incremental cost of each new
 
 Marginal cost: {@{The increase in cost caused by an additional unit of production is called marginal cost}@}. By definition, marginal cost (MC) is equal to {@{the change in total cost (△TC) divided by the corresponding change in output (△Q)}@}: {@{MC(Q) = △TC(Q)/△Q}@} or, {@{taking the limit as △Q goes to zero}@}, {@{MC(Q) = lim(△Q→0) △TC(Q)/△Q = dTC/dQ}@}. <!--SR:!2028-09-08,1118,350!2026-04-30,431,310!2029-03-23,1276,350!2027-10-26,845,330!2028-08-25,1110,350-->
 
-In theory marginal costs represent {@{the increase in total costs (which include both constant and variable costs) as output increases by 1 unit}@}. <!--SR:!2025-10-11,291,330-->
+In theory marginal costs represent {@{the increase in total costs (which include both constant and variable costs) as output increases by 1 unit}@}. <!--SR:!2029-05-26,1323,350-->
 
 ### adjustment cost
 

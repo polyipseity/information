@@ -280,7 +280,7 @@ The key resources building block shows {@{important assets required for the busi
 
 #### key activities
 
-The key activities building block shows {@{important activities required for the business model}@}. They can be categorized into {@{platform or network, problem solving, and production}@} activities. <!--SR:!2025-10-11,399,314!2028-08-19,1095,277-->
+The key activities building block shows {@{important activities required for the business model}@}. They can be categorized into {@{platform or network, problem solving, and production}@} activities. <!--SR:!2030-07-09,1732,334!2028-08-19,1095,277-->
 
 #### key partnerships
 

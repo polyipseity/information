@@ -143,7 +143,7 @@ Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a 
 
 The theorem follows by {@{induction on the length of the game from these two lemmas}@}. <!--SR:!2025-10-31,296,341-->
 
-__Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2025-10-11,278,330!2025-11-08,304,341-->
+__Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2029-03-31,1267,350!2025-11-08,304,341-->
 
 _Proof of Lemma 1:_ ::@:: If there is no possible move, then the lemma is [vacuously true](vacuous%20truth.md) (and the first player loses the normal play game by definition). Otherwise, any move in heap _k_ will produce _t_ = _x<sub>k</sub>_ ⊕ _y<sub>k</sub>_ from (*). This number is nonzero, since _x<sub>k</sub>_ ≠ _y<sub>k</sub>_. <!--SR:!2025-11-23,316,341!2025-11-04,300,341-->
 

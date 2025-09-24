@@ -19,7 +19,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 ## list
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-10-24,14,290!2025-10-24,14,290!2025-10-25,15,290!2025-09-27,4,309!2025-09-27,4,309-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-10-24,14,290!2025-10-24,14,290!2025-10-25,15,290!2025-10-29,18,329!2025-10-29,18,329-->
 
 ## length
 
@@ -66,7 +66,7 @@ assert 'abcdefg'[::-1] == 'gfedcba'
 assert "abcdefg"[:0:-1] == "gfedcb"
 ```
 
-If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2025-10-25,15,290!2025-10-24,14,290!2025-10-26,16,290!2025-10-24,14,290!2025-09-27,4,309!2025-09-27,4,309-->
+If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2025-10-25,15,290!2025-10-24,14,290!2025-10-26,16,290!2025-10-24,14,290!2025-10-29,18,329!2025-10-29,18,329-->
 
 ## concatenation
 
@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290!2025-10-25,15,290!2025-10-20,10,270!2025-10-27,17,306!2025-09-27,4,309!2025-09-27,4,309!2025-09-27,4,309-->
+Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290!2025-10-25,15,290!2025-10-20,10,270!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
 
 ```Python
 original = [1, 2, 3]

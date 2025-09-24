@@ -112,7 +112,7 @@ Since {@{$\operatorname {Var} (y_{d})=\sigma ^{2}$ \(a fixed but unknown paramet
 
 ### confidence intervals
 
-{@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_}@} — that is, {@{the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}. <!--SR:!2025-12-29,254,330!2027-03-15,539,310!2026-01-19,270,330!2025-10-16,189,310!2027-12-23,804,330!2026-01-26,276,330!2025-10-11,18,360-->
+{@{The formulas given in the previous section}@} allow one to {@{calculate the _point estimates_ of _α_ and _β_}@} — that is, {@{the coefficients of the regression line for the given set of data}@}. However, those formulas do not {@{tell us how precise the estimates are, i.e., how much the estimators ${\widehat {\alpha } }$ and ${\widehat {\beta } }$ vary from sample to sample for the specified sample size}@}. {@{[Confidence intervals](confidence%20interval.md)}@} were {@{devised to give a plausible set of values to the estimates one might have}@} if {@{one repeated the experiment a very large number of times}@}. <!--SR:!2025-12-29,254,330!2027-03-15,539,310!2026-01-19,270,330!2025-10-16,189,310!2027-12-23,804,330!2026-01-26,276,330!2026-01-11,92,380-->
 
 {@{The standard method of constructing confidence intervals for linear regression coefficients}@} {@{relies on the normality assumption, which is justified}@} if either: <!--SR:!2027-12-18,800,330!2027-07-25,689,330-->
 
@@ -185,7 +185,7 @@ There are {@{_n_ = 15 points in this data set}@}. Hand calculations would be sta
 >
 > Calculating {@{the parameters of a linear model by minimizing the squared error}@}. <!--SR:!2027-09-12,725,330!2025-12-15,242,330-->
 
-In SLR, there is {@{an underlying assumption that only the dependent variable contains measurement error}@}; if {@{the explanatory variable is also measured with error}@}, then {@{simple regression is not appropriate for estimating the underlying relationship}@} because {@{it will be biased due to [regression dilution](regression%20dilution.md)}@}. <!--SR:!2026-11-17,487,310!2026-01-21,272,330!2026-08-29,425,310!2025-10-11,187,310-->
+In SLR, there is {@{an underlying assumption that only the dependent variable contains measurement error}@}; if {@{the explanatory variable is also measured with error}@}, then {@{simple regression is not appropriate for estimating the underlying relationship}@} because {@{it will be biased due to [regression dilution](regression%20dilution.md)}@}. <!--SR:!2026-11-17,487,310!2026-01-21,272,330!2026-08-29,425,310!2027-12-25,805,330-->
 
 {@{Other estimation methods that can be used in place of ordinary least squares}@} include {@{[least absolute deviations](least%20absolute%20deviations.md)}@} \({@{minimizing the sum of absolute values of residuals}@}\) and {@{the [Theil–Sen estimator](Theil–Sen%20estimator.md)}@} \(which {@{chooses a line whose [slope](slope.md) is the [median](median.md) of the slopes determined by pairs of sample points}@}\). <!--SR:!2026-01-02,256,330!2027-07-24,688,330!2027-01-12,497,310!2026-01-04,101,380!2026-01-05,102,380-->
 

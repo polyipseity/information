@@ -82,7 +82,7 @@ The content is in teaching order.
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!2026-11-01,696,319-->
-  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2025-10-11,431,401-->
+  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2032-03-31,2363,421-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2029-10-27,1605,387-->

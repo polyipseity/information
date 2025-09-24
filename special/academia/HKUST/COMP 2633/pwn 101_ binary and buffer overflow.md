@@ -96,7 +96,7 @@ To {@{see the registers and the stack while running a program}@}, we will use {@
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
 - `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2028-10-12,1150,350!2029-05-21,1319,350-->
-- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-10-11,291,330!2028-11-27,1187,350-->
+- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2029-05-25,1322,350!2028-11-27,1187,350-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2029-02-22,1256,350!2025-10-18,298,330-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-10-27,1165,350!2027-04-04,704,330-->
 - `set args <args>...` ::@:: set program args <!--SR:!2029-03-29,1286,350!2027-08-25,811,330-->
@@ -110,7 +110,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2029-01-29,1238,350-->
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->
-- `finish` ::@:: run until the current function returns <!--SR:!2025-10-11,291,330!2028-10-13,1151,350-->
+- `finish` ::@:: run until the current function returns <!--SR:!2029-05-28,1325,350!2028-10-13,1151,350-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2029-04-23,1296,350!2028-09-17,1133,350-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2028-06-19,1062,350-->
@@ -131,7 +131,7 @@ Commands names can be {@{truncated at the end to produce an abbreviation if the 
 
 ## buffer overflow
 
-A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2025-10-11,291,330!2027-09-11,828,330!2027-10-20,849,330!2026-03-17,377,310!2027-05-04,727,330!2028-03-28,997,350-->
+A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{real computers have limited memory}@}, the buffer is {@{also limited in its size}@}. The buffer may be on {@{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}@}. A buffer is {@{usually contagious, that is, it is a continuous portion of the memory}@}, so we can identify a buffer by {@{its low (start) address (inclusive) and high (end) address (exclusive)}@}. <!--SR:!2029-05-29,1326,350!2027-09-11,828,330!2027-10-20,849,330!2026-03-17,377,310!2027-05-04,727,330!2028-03-28,997,350-->
 
 The buffers we are usually interested in exploiting is {@{usually on the first three \(stack, heap, read-write segment\)}@} because we can {@{write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2028-02-19,894,330!2027-06-11,746,330!2025-10-12,24,377-->
 
@@ -164,7 +164,7 @@ By now, you should have figured out how to identify code that is vulnerable to b
 
 Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}? <!--SR:!2027-07-24,789,330!2027-07-07,772,330!2029-04-16,1297,350!2028-10-26,1164,350!2027-08-26,812,330!2026-12-01,606,330!2028-04-27,1019,350-->
 
-To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2029-06-29,1358,350!2025-10-11,298,330-->
+To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2029-06-29,1358,350!2029-07-04,1362,350-->
 
 `pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2028-08-26,1115,350!2028-11-11,1177,350!2027-09-27,833,330!2028-12-10,1201,350!2027-05-07,711,330!2029-05-10,1310,350!2027-11-23,883,330-->
 
@@ -221,7 +221,7 @@ gets_s(buffer, 5); // Vulnerable to buffer overflow, but you can only overflow b
 
 In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2029-05-08,1314,350!2025-10-13,293,330!2028-02-08,959,350!2027-04-28,721,330-->
 
-In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function}@}, {@{printing an error and terminating the program}@} if modified. This inhibits {@{exploitation of buffer overflow}@} because {@{overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2027-12-27,855,330!2028-05-24,957,330!2028-05-10,946,330!2025-11-05,26,380!2025-09-28,5,361-->
+In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function}@}, {@{printing an error and terminating the program}@} if modified. This inhibits {@{exploitation of buffer overflow}@} because {@{overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2027-12-27,855,330!2028-05-24,957,330!2028-05-10,946,330!2025-11-05,26,380!2025-11-06,26,381-->
 
 Usually, the stack canary is {@{random, so that the attacker cannot know the stack canary and very likely modifies the stack canary}@}. It is {@{unlikely the attacker can guess the canary as the stack canary has 64 or 56 of its bits random}@}. The stack canary can be {@{either fully random (_random canary_); or fully random except that its least significant bit (low address) is always the zero byte `\x00`, i.e. the null terminator (_terminator canary_); or XOR-ed with a piece of control data (_random XOR canary_)}@}. <!--SR:!2026-11-08,590,330!2029-06-19,1349,350!2026-11-11,534,310-->
 

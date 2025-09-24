@@ -23,7 +23,7 @@ In {@{the economic and financial field}@}, {@{the [money supply](money%20supply.
 
 ## supply schedule
 
-{@{A supply schedule}@} is {@{a table which shows how much one or more firms will be willing to supply at particular prices under the existing circumstances}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Some of the more important factors affecting supply}@} are {@{the good's own price, the prices of related goods, production costs, technology, the production function, and expectations of sellers}@}. <!--SR:!2025-11-11,277,330!2025-10-11,251,330!2025-12-01,294,330!2026-07-19,455,310-->
+{@{A supply schedule}@} is {@{a table which shows how much one or more firms will be willing to supply at particular prices under the existing circumstances}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Some of the more important factors affecting supply}@} are {@{the good's own price, the prices of related goods, production costs, technology, the production function, and expectations of sellers}@}. <!--SR:!2025-11-11,277,330!2028-12-02,1148,350!2025-12-01,294,330!2026-07-19,455,310-->
 
 ### factors affecting supply
 
@@ -91,7 +91,7 @@ Note: not all assumptions that can be made for individual supply functions ::@::
 
 ## elasticity
 
-{@{The [price elasticity of supply](price%20elasticity%20of%20supply.md) \(PES\)}@} measures {@{the responsiveness of quantity supplied to changes in price}@}, as {@{the percentage change in quantity supplied induced by a one percent change in price}@}. It is calculated for {@{discrete changes as $\left({\tfrac {\Delta Q}{\Delta P} }\right)\times {\tfrac {P}{Q} }$}@} and for {@{smooth changes of differentiable supply functions as $\left({\tfrac {\partial Q}{\partial P} }\right)\times {\tfrac {P}{Q} }$}@}. Since {@{supply is usually increasing in price}@}, {@{the price elasticity of supply is usually positive}@}. For example, if {@{the PES for a good is 0.67}@} a 1% rise in price will {@{induce a two-thirds percentage increase in quantity supplied}@}. <!--SR:!2028-11-14,1133,350!2027-05-27,632,310!2025-11-13,279,330!2025-11-24,288,330!2025-11-29,292,330!2025-10-11,252,330!2025-11-03,271,330!2025-10-19,258,330!2026-02-06,129,387-->
+{@{The [price elasticity of supply](price%20elasticity%20of%20supply.md) \(PES\)}@} measures {@{the responsiveness of quantity supplied to changes in price}@}, as {@{the percentage change in quantity supplied induced by a one percent change in price}@}. It is calculated for {@{discrete changes as $\left({\tfrac {\Delta Q}{\Delta P} }\right)\times {\tfrac {P}{Q} }$}@} and for {@{smooth changes of differentiable supply functions as $\left({\tfrac {\partial Q}{\partial P} }\right)\times {\tfrac {P}{Q} }$}@}. Since {@{supply is usually increasing in price}@}, {@{the price elasticity of supply is usually positive}@}. For example, if {@{the PES for a good is 0.67}@} a 1% rise in price will {@{induce a two-thirds percentage increase in quantity supplied}@}. <!--SR:!2028-11-14,1133,350!2027-05-27,632,310!2025-11-13,279,330!2025-11-24,288,330!2025-11-29,292,330!2028-12-01,1147,350!2025-11-03,271,330!2025-10-19,258,330!2026-02-06,129,387-->
 
 Significant determinants include:
 

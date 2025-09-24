@@ -67,7 +67,7 @@ These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<
 
 To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!2025-10-21,83,349!2025-10-20,82,349-->
 
-- If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2025-10-22,84,349!2025-10-11,75,349-->
+- If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2025-10-22,84,349!2026-10-13,367,369-->
 - If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!2025-10-19,81,349!2025-10-22,84,349-->
 - If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!2025-10-15,77,349!2025-10-13,75,349-->
 - If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product-to-sum formulas.\) <!--SR:!2025-10-23,85,349!2025-10-15,77,349-->
@@ -86,7 +86,7 @@ As {@{a trivial example}@}, consider {@{$$\int \sin t\,dt.$$}@} Then {@{$f(t)=\s
 
 ### example 2
 
-The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries as the one in example 1}@}, so we use {@{the same substitution $u=\cos t$}@}. So {@{$${\frac {dt}{\sin t} }=-{\frac {du}{\sin ^{2}t} }=-{\frac {du}{\ 1-\cos ^{2}t} }.$$}@} This transforms the integral into {@{$$\int -{\frac {du}{1-u^{2} } },$$}@} which can be {@{integrated using partial fractions}@}, since {@{${\frac {1}{1-u^{2} } }={\frac {1}{2} }\left({\frac {1}{1+u} }+{\frac {1}{1-u} }\right)$}@}. The result is that {@{$$\int {\frac {dt}{\sin t} }=-{\frac {1}{2} }\ln {\frac {1+\cos t}{1-\cos t} }+c.$$}@} <!--SR:!2025-10-21,83,349!2025-10-22,84,349!2025-10-14,76,349!2025-10-11,75,349!2025-10-17,79,349!2025-10-18,80,349!2025-10-14,76,349!2025-10-19,81,349-->
+The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries as the one in example 1}@}, so we use {@{the same substitution $u=\cos t$}@}. So {@{$${\frac {dt}{\sin t} }=-{\frac {du}{\sin ^{2}t} }=-{\frac {du}{\ 1-\cos ^{2}t} }.$$}@} This transforms the integral into {@{$$\int -{\frac {du}{1-u^{2} } },$$}@} which can be {@{integrated using partial fractions}@}, since {@{${\frac {1}{1-u^{2} } }={\frac {1}{2} }\left({\frac {1}{1+u} }+{\frac {1}{1-u} }\right)$}@}. The result is that {@{$$\int {\frac {dt}{\sin t} }=-{\frac {1}{2} }\ln {\frac {1+\cos t}{1-\cos t} }+c.$$}@} <!--SR:!2025-10-21,83,349!2025-10-22,84,349!2025-10-14,76,349!2026-07-06,268,349!2025-10-17,79,349!2025-10-18,80,349!2025-10-14,76,349!2025-10-19,81,349-->
 
 ### example 3
 

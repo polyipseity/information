@@ -47,7 +47,7 @@ One can show the above definition of Jordan measure for simple set is {@{indepen
 
 ## extension to more complicated sets
 
-Using the above definition with half-open rectangles, {@{notice that a closed rectangle is not a simple set, and neither is a $n$-dimensional ball}@}. This shows {@{the set of Jordan measurable sets, as currently defined, is very limited}@}. <!--SR:!2025-10-11,427,310!2027-06-02,914,330-->
+Using the above definition with half-open rectangles, {@{notice that a closed rectangle is not a simple set, and neither is a $n$-dimensional ball}@}. This shows {@{the set of Jordan measurable sets, as currently defined, is very limited}@}. <!--SR:!2030-10-17,1832,330!2027-06-02,914,330-->
 
 We can extend the above restricted definition by defining {@{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}@}. <!--SR:!2026-04-10,557,310-->
 

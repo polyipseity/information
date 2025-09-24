@@ -454,7 +454,7 @@ tags:
 > ```
 >
 > - solution: {@{(almost always) `True`}@}
-> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-10-31,240,330!2025-10-11,208,310-->
+> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-10-31,240,330!2028-03-21,892,330-->
 
 <!-- markdownlint MD028 -->
 
