@@ -125,6 +125,22 @@ The content is in teaching order.
 > Cheers, <br/>
 > \[redacted\]
 
+## week 1 extra lab
+
+- topic: LLM assistant in IntelliJ IDEA
+- status: optional
+- COMP 3111H
+  - COMP 3111H / lab extra ::@:: LLM assistant in IntelliJ IDEA
+    - COMP 3111H / lab extra / objectives ::@:: Students are expected to become comfortable using the "Continue" plugin in IntelliJ IDEA alongside the Groq LLM service.
+    - COMP 3111H / lab extra / tools ::@:: The development stack is a modern Java SE environment \(JDK 21\) running on IntelliJ IDEA 2024, with access to the free Llama‑based models hosted at Groq \(<https://groq.com/>\) and the Continue API for code generation and understanding.
+    - COMP 3111H / lab extra / exercises ::@:: setup Groq & Continue; generate login screen in JavaFX; understand generated code, generate test
+    - COMP 3111H / lab extra / Groq API keys ::@:: Create a Groq account, explore available models in the Playground, then generate an API key from "API Keys". This key is one‑time visible; store it securely. <p> As of 2025, Groq is unavailable in Hong Kong.
+    - COMP 3111H / lab extra / models ::@:: examples: Llama3.1 70b Chat, etc.
+    - COMP 3111H / lab extra / prompts ::@:: You can prompt it to edit code, explain code, generate docs, generate tests, and etc. Take care to use it with some _human oversight_!
+      - COMP 3111H / lab extra / prompts / edit ::@:: examples: <p> Change the GUI to a login screen that requires the user to input 'Username' and 'Password', and there should only be one button 'Login'. <br/> Change login to successful only when the username is equal to the password, and fail in another case.
+      - COMP 3111H / lab extra / prompts / explain ::@:: examples: <p> Carefully read and understand the code, clearly describe the functionality of both classes and explain the method of each class.
+      - COMP 3111H / lab extra / prompts / docs ::@:: Add Javadoc descriptions to the classes and methods. Also add comments to the implementation details for high‑level explanation.
+
 ## week 2 pre-lecture
 
 - topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
@@ -175,7 +191,22 @@ The content is in teaching order.
 ## week 2 lab
 
 - datetime: 2025-09-11T18:00:00+08:00/2025-09-11T19:50:00+08:00, PT1H50M
-- topic:
+- topic: IntelliJ IDEA; Git; GitHub
+- COMP 3111H
+  - COMP 3111H / labs ::@:: The lab series has an assessment weight of 10%. It is split into two distinct phases: a _tool‑based_ phase \(Git, Java basics, JavaFX, project briefing & UML\) and an _implementation_ phase \(GitHub, debugger, unit testing, conflict resolution\). Both phases assist in working on the group project.
+  - COMP 3111H / grading
+  - COMP 3111H / lab 1 ::@:: IntelliJ IDEA; Git; GitHub
+    - COMP 3111H / lab 1 / Git ::@:: It is the most widely used tool for _version control_.
+    - COMP 3111H / lab 1 / GitHub ::@:: It is the largest _web-based_ source code hosting service \(software _forge_\) integrated with version control.
+    - COMP 3111H / lab 1 / exercises ::@:: create Java project in IntelliJ IDEA; setup Git; setup repository on GitHub
+    - COMP 3111H / lab 1 / Git setup ::@:: Students create a local Git repository from an IntelliJ Maven project, then commit changes to the repository.
+    - COMP 3111H / lab 1 / GitHub tokens ::@:: Personal Access Tokens \(PATs\) are generated in the GitHub settings under _Developer settings → Personal access tokens_ to authenticate command‑line operations. The token should have a custom expiry of more than six months, include the `repo` scope, and be stored securely.
+    - COMP 3111H / lab 1 / readme ::@:: Within the Maven project created in IntelliJ, a `readme.md` file is added. The README must contain comments or remarks describing the project's purpose, then embed a screenshot of IntelliJ IDEA, showing project folder with `.idea` and `src/main/java/Lab1` expanded, Git log, and file editor opening any of the two Java files.
+    - COMP 3111H / lab 1 / commits ::@:: You can use IntelliJ IDEA to add files and commit them. This adds an entry to the Git log. The commits are stored locally, and still needs to be pushed to a GitHub repository to be public.
+    - COMP 3111H / lab 1 / GitHub repository ::@:: The local repository is pushed to a remote GitHub account. Both Java source files and the README are pushed to GitHub; the repository should be publicly accessible so that its URL can be shared on Canvas.
+    - COMP 3111H / lab 1 / requirements ::@:: `readme.md`, 2 Java files, 3 or more commits, screenshot
+  - COMP 3111H / communication ::@:: Students may email the instructor or TAs, ask questions during lecture or lab sessions, attend TA office hours, or post on a dedicated Telegram group to seek peer support.
+- assignment: [lab 1](assignments/lab%201/index.md)
 
 ## week 3 pre-lecture
 
@@ -358,11 +389,30 @@ The content is in teaching order.
 ## week 3 lab
 
 - datetime: 2025-09-18T18:00:00+08:00/2025-09-18T19:50:00+08:00, PT1H50M
-- topic:
+- topic: Java basics; object; class; attribute; constructor; method; access modifier; inheritance; interface
+- COMP 3111H
+  - COMP 3111H / lab 2 ::@:: Java basics; object; class; attribute; constructor; method; access modifier; inheritance; interface
+    - COMP 3111H / lab 2 / exercise ::@:: write, compile, and run Java programs; inheritance, interface
+    - COMP 3111H / lab 2 / Java basics ::@:: Design a small application that showcases the use of classes, objects, constructors, attributes, and methods. Pay attention to how each component interacts: constructors create and initialize objects; attributes hold state; methods define behavior.
+    - COMP 3111H / lab 2 / class ::@:: In Java everything revolves around classes and objects, which contain both data \(attributes\) and code \(methods\).
+    - COMP 3111H / lab 2 / attribute ::@:: It is a field inside a class that represents the characteristics or state of an object. It can be accessed or modified via getter and setter methods.
+    - COMP 3111H / lab 2 / constructor ::@:: It is a special method invoked automatically when a new instance of a class is created; its main job is to allocate memory and initialize fields.
+    - COMP 3111H / lab 2 / method ::@:: They are functions defined within a class that describe what the class can do. They may accept parameters, perform operations, and return values.
+    - COMP 3111H / lab 2 / package ::@:: If you create an additional package \(e.g., `Lab2b` under `src`\) you can still use classes from another package \(`Score` in `Lab2a`\). This is possible because Java projects allow packages to reference each other, provided the necessary imports and access modifiers are set correctly. <p> This also allows creating classes of the same name in different packages.
+    - COMP 3111H / lab 2 / object ::@:: Use `new <class name>(<args>)` to create an new object. Afterwards, you can invoke methods and access attributes on it, provided the access modifiers allow it.
+    - COMP 3111H / lab 2 / access modifier ::@:: They work differently for classes \(class-level visibility\) and members \(member-level visibility\).
+      - COMP 3111H / lab 2 / access modifier / class-level visibility ::@:: When you declare a class at the top level \(outside any other class\), Java allows only two modifiers: <p> - `public`: the class can be referenced from any package; it must reside in a file whose name matches the class name. <br/> _default_ \(no modifier\): the class is __package‑private__ – it can be used only by classes that live in the same package.
+      - COMP 3111H / lab 2 / access modifier / member-level visibility ::@:: They apply to attributes, methods, and constructors in a class. <p> - `public`: the member can be accessed from any other class in any package. <br/> - `protected`: visible within its own package and by subclasses even if they are in different packages. <br/> - `private`: accessible only inside the class that declares it. <br/> - _default_ \(no modifier\): visible to all classes in the same package, but invisible outside of it.
+    - COMP 3111H / lab 2 / `final` keyword ::@:: It can be applied to a variable \(e.g. attributes, local variables, etc.\): once assigned it becomes read‑only; this is useful for constants \(e.g. `public static final int MAX_SIZE = 10;`\) or configuration values that must not change after initialization. It can still have any visibility modifier.
+    - COMP 3111H / lab 2 / printing arrays ::@:: Learn to use `java.util.Arrays.toString()` to display array contents easily. Compare this with manual printing \(e.g., looping over elements\) to see the convenience of the utility method.
+    - COMP 3111H / lab 2 / inheritance ::@:: It lets one class \(the subclass/child\) inherit fields and methods from another \(the superclass/parent\). <p> In Java, use the `extends` keyword for classes inheriting other classes or interfaces inheriting other interfaces. Use the `implements` keyword for classes inheriting interfaces. Interfaces cannot inherit classes. <p> A class can extend at most one other class. Both classes and interfaces can extend multiple other interfaces.
+    - COMP 3111H / lab 2 / `@Override` annotation ::@:: It tells the compiler you intend to override a base‑class method; it helps catch mistakes that make the method not actually overriding any base-class method, e.g. forget to inherit, wrong method signature, etc.
+    - COMP 3111H / lab 2 / interface ::@:: They provide a way to "hide" implementation details while exposing only essential operations \(security\), and they enable multiple inheritance of type \(a class can implement many interfaces but only extend at most one class\). <p> They cannot contain non-`static` attributes.
+- assignment: [lab 2](assignments/lab%202/index.md)
 
 ## week 4 pre-lecture
 
-- topic:
+- topic: requirements capture; domain model; modeling classes; modeling associations; modeling attributes; use case model; actor; use case diagram
 - unified process
   - unified process / activities
     - unified process / activities / engineering
@@ -454,6 +504,9 @@ The content is in teaching order.
 
 - datetime: 2025-09-25T18:00:00+08:00/2025-09-25T19:50:00+08:00, PT1H50M
 - topic:
+- COMP 3111H
+  - COMP 3111H / lab 3
+- assignment: [lab 3](assignments/lab%203/index.md)
 
 ## aftermath
 
