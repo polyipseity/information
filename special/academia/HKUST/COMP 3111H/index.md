@@ -76,7 +76,7 @@ The content is in teaching order.
   - engineer / vs. scientist ::@:: The former builds things for _quality_ \(e.g. avoiding engineering failures\) while the latter builds things for discovering _new_ things \(e.g. scientific breakthroughs\). <!--SR:!2025-12-12,64,310!2025-12-05,58,310-->
 - software engineering
   - software engineering / vs. computer scientist ::@:: The former studies practices and principles for building _quality_ systems while the latter studies _algorithms_ and _foundations_ of computing. <p> The former considers the _context_ to use the appropriate technologies \(e.g. frameworks\) according to their _characteristics_, while the latter focuses on _basic_ technologies, i.e. algorithms and foundations of computing. <!--SR:!2025-12-03,57,310!2025-11-22,45,290-->
-  - software engineering / jobs ::@:: Coding or programming is only "programming-in-the-small". Software engineering is "programming-in-the-large", which includes communication, execution, etc. <!--SR:!2025-12-06,59,310!2025-12-05,58,310-->
+  - software engineering / jobs ::@:: Coding or programming is only "programming-in-the-small", which includes implementation, validating user inputs, etc. <p> Software engineering is "programming-in-the-large", which includes communication, execution, etc. <!--SR:!2025-12-06,59,310!2025-12-05,58,310-->
     - software engineering / jobs / communication ::@:: communication, documentation, teamwork, translating user requirements, etc. <!--SR:!2025-12-04,58,310!2025-12-08,61,310-->
     - software engineering / jobs / execution ::@:: choose design alternatives, modeling \(at different abstraction levels\), use and apply, etc. <!--SR:!2025-12-01,55,310!2025-12-13,65,310-->
   - software engineering / characteristics ::@:: disciplined \(engineering principles\), multi-person, multi-version, problem solving \(solves real user problems\), quality \(e.g. economic, efficient, reliable, etc.\) <!--SR:!2025-12-09,61,310!2025-11-15,39,290-->
@@ -124,6 +124,22 @@ The content is in teaching order.
 >
 > Cheers, <br/>
 > \[redacted\]
+
+## week 1 extra lab
+
+- topic: LLM assistant in IntelliJ IDEA
+- status: optional
+- COMP 3111H
+  - COMP 3111H / lab extra ::@:: LLM assistant in IntelliJ IDEA
+    - COMP 3111H / lab extra / objectives ::@:: Students are expected to become comfortable using the "Continue" plugin in IntelliJ IDEA alongside the Groq LLM service.
+    - COMP 3111H / lab extra / tools ::@:: The development stack is a modern Java SE environment \(JDK 21\) running on IntelliJ IDEA 2024, with access to the free Llama‑based models hosted at Groq \(<https://groq.com/>\) and the Continue API for code generation and understanding.
+    - COMP 3111H / lab extra / exercises ::@:: setup Groq & Continue; generate login screen in JavaFX; understand generated code, generate test
+    - COMP 3111H / lab extra / Groq API keys ::@:: Create a Groq account, explore available models in the Playground, then generate an API key from "API Keys". This key is one‑time visible; store it securely. <p> As of 2025, Groq is unavailable in Hong Kong.
+    - COMP 3111H / lab extra / models ::@:: examples: Llama3.1 70b Chat, etc.
+    - COMP 3111H / lab extra / prompts ::@:: You can prompt it to edit code, explain code, generate docs, generate tests, and etc. Take care to use it with some _human oversight_!
+      - COMP 3111H / lab extra / prompts / edit ::@:: examples: <p> Change the GUI to a login screen that requires the user to input 'Username' and 'Password', and there should only be one button 'Login'. <br/> Change login to successful only when the username is equal to the password, and fail in another case.
+      - COMP 3111H / lab extra / prompts / explain ::@:: examples: <p> Carefully read and understand the code, clearly describe the functionality of both classes and explain the method of each class.
+      - COMP 3111H / lab extra / prompts / docs ::@:: Add Javadoc descriptions to the classes and methods. Also add comments to the implementation details for high‑level explanation.
 
 ## week 2 pre-lecture
 
@@ -175,7 +191,22 @@ The content is in teaching order.
 ## week 2 lab
 
 - datetime: 2025-09-11T18:00:00+08:00/2025-09-11T19:50:00+08:00, PT1H50M
-- topic:
+- topic: IntelliJ IDEA; Git; GitHub
+- COMP 3111H
+  - COMP 3111H / labs ::@:: The lab series has an assessment weight of 10%. It is split into two distinct phases: a _tool‑based_ phase \(Git, Java basics, JavaFX, project briefing & UML\) and an _implementation_ phase \(GitHub, debugger, unit testing, conflict resolution\). Both phases assist in working on the group project.
+  - COMP 3111H / grading
+  - COMP 3111H / lab 1 ::@:: IntelliJ IDEA; Git; GitHub
+    - COMP 3111H / lab 1 / Git ::@:: It is the most widely used tool for _version control_.
+    - COMP 3111H / lab 1 / GitHub ::@:: It is the largest _web-based_ source code hosting service \(software _forge_\) integrated with version control.
+    - COMP 3111H / lab 1 / exercises ::@:: create Java project in IntelliJ IDEA; setup Git; setup repository on GitHub
+    - COMP 3111H / lab 1 / Git setup ::@:: Students create a local Git repository from an IntelliJ Maven project, then commit changes to the repository.
+    - COMP 3111H / lab 1 / GitHub tokens ::@:: Personal Access Tokens \(PATs\) are generated in the GitHub settings under _Developer settings → Personal access tokens_ to authenticate command‑line operations. The token should have a custom expiry of more than six months, include the `repo` scope, and be stored securely.
+    - COMP 3111H / lab 1 / readme ::@:: Within the Maven project created in IntelliJ, a `readme.md` file is added. The README must contain comments or remarks describing the project's purpose, then embed a screenshot of IntelliJ IDEA, showing project folder with `.idea` and `src/main/java/Lab1` expanded, Git log, and file editor opening any of the two Java files.
+    - COMP 3111H / lab 1 / commits ::@:: You can use IntelliJ IDEA to add files and commit them. This adds an entry to the Git log. The commits are stored locally, and still needs to be pushed to a GitHub repository to be public.
+    - COMP 3111H / lab 1 / GitHub repository ::@:: The local repository is pushed to a remote GitHub account. Both Java source files and the README are pushed to GitHub; the repository should be publicly accessible so that its URL can be shared on Canvas.
+    - COMP 3111H / lab 1 / requirements ::@:: `readme.md`, 2 Java files, 3 or more commits, screenshot
+  - COMP 3111H / communication ::@:: Students may email the instructor or TAs, ask questions during lecture or lab sessions, attend TA office hours, or post on a dedicated Telegram group to seek peer support.
+- assignment: [lab 1](assignments/lab%201/index.md)
 
 ## week 3 pre-lecture
 
@@ -216,7 +247,7 @@ The content is in teaching order.
     - project management / 4Ps / product ::@:: set of artifacts: code, manuals, models, etc. <!--SR:!2025-10-24,13,338!2025-10-29,18,351-->
     - project management / 4Ps / project ::@:: It requires _control_, _management_, and _control_. It involves a _project plan_. <!--SR:!2025-10-23,12,323!2025-10-29,18,343-->
       - project management / 4Ps / project / plan ::@:: activities & tasks, monitoring & reporting, organization, resources, risks, schedule, scope \(i.e. constraints and objectives; e.g. budget, time, etc.\) <!--SR:!2025-10-24,13,338!2025-10-23,12,323-->
-- [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed. <p> \(__this course__: It is a process _template_ that is _adaptable_ for different application domains.\) <!--SR:!2025-10-28,18,358!2025-10-30,20,358-->
+- [software development process](../../../../general/software%20development%20process.md) ::@:: It prescribes a process for developing software. It typically divides an overall effort into smaller steps or sub-processes that are intended to ensure high-quality results. The process may describe specific deliverables – artifacts to be created and completed. <p> \(__this course__: It is a process _template_ that is _adaptable_ for different application domains. It aids in _dividing_ work.\) <!--SR:!2025-10-28,18,358!2025-10-30,20,358-->
 - project management
   - project management / scope ::@:: The _first_ task when planning a project: understand scope, i.e. constraints and objectives. <p> define problem \(e.g. design goals\) → analyze requirements \(e.g. estimate system size\) → make top-level diagrams \(i.e. estimate the system; e.g. class diagrams, use case diagrams\) → estimate effort and time \(i.e. prepare the rest of the project plan\) <!--SR:!2025-10-29,18,351!2025-10-29,18,351-->
   - project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement <!--SR:!2025-10-30,19,358!2025-10-31,20,358-->
@@ -358,7 +389,124 @@ The content is in teaching order.
 ## week 3 lab
 
 - datetime: 2025-09-18T18:00:00+08:00/2025-09-18T19:50:00+08:00, PT1H50M
+- topic: Java basics; object; class; attribute; constructor; method; access modifier; inheritance; interface
+- COMP 3111H
+  - COMP 3111H / lab 2 ::@:: Java basics; object; class; attribute; constructor; method; access modifier; inheritance; interface
+    - COMP 3111H / lab 2 / exercise ::@:: write, compile, and run Java programs; inheritance, interface
+    - COMP 3111H / lab 2 / Java basics ::@:: Design a small application that showcases the use of classes, objects, constructors, attributes, and methods. Pay attention to how each component interacts: constructors create and initialize objects; attributes hold state; methods define behavior.
+    - COMP 3111H / lab 2 / class ::@:: In Java everything revolves around classes and objects, which contain both data \(attributes\) and code \(methods\).
+    - COMP 3111H / lab 2 / attribute ::@:: It is a field inside a class that represents the characteristics or state of an object. It can be accessed or modified via getter and setter methods.
+    - COMP 3111H / lab 2 / constructor ::@:: It is a special method invoked automatically when a new instance of a class is created; its main job is to allocate memory and initialize fields.
+    - COMP 3111H / lab 2 / method ::@:: They are functions defined within a class that describe what the class can do. They may accept parameters, perform operations, and return values.
+    - COMP 3111H / lab 2 / package ::@:: If you create an additional package \(e.g., `Lab2b` under `src`\) you can still use classes from another package \(`Score` in `Lab2a`\). This is possible because Java projects allow packages to reference each other, provided the necessary imports and access modifiers are set correctly. <p> This also allows creating classes of the same name in different packages.
+    - COMP 3111H / lab 2 / object ::@:: Use `new <class name>(<args>)` to create an new object. Afterwards, you can invoke methods and access attributes on it, provided the access modifiers allow it.
+    - COMP 3111H / lab 2 / access modifier ::@:: They work differently for classes \(class-level visibility\) and members \(member-level visibility\).
+      - COMP 3111H / lab 2 / access modifier / class-level visibility ::@:: When you declare a class at the top level \(outside any other class\), Java allows only two modifiers: <p> - `public`: the class can be referenced from any package; it must reside in a file whose name matches the class name. <br/> _default_ \(no modifier\): the class is __package‑private__ – it can be used only by classes that live in the same package.
+      - COMP 3111H / lab 2 / access modifier / member-level visibility ::@:: They apply to attributes, methods, and constructors in a class. <p> - `public`: the member can be accessed from any other class in any package. <br/> - `protected`: visible within its own package and by subclasses even if they are in different packages. <br/> - `private`: accessible only inside the class that declares it. <br/> - _default_ \(no modifier\): visible to all classes in the same package, but invisible outside of it.
+    - COMP 3111H / lab 2 / `final` keyword ::@:: It can be applied to a variable \(e.g. attributes, local variables, etc.\): once assigned it becomes read‑only; this is useful for constants \(e.g. `public static final int MAX_SIZE = 10;`\) or configuration values that must not change after initialization. It can still have any visibility modifier.
+    - COMP 3111H / lab 2 / printing arrays ::@:: Learn to use `java.util.Arrays.toString()` to display array contents easily. Compare this with manual printing \(e.g., looping over elements\) to see the convenience of the utility method.
+    - COMP 3111H / lab 2 / inheritance ::@:: It lets one class \(the subclass/child\) inherit fields and methods from another \(the superclass/parent\). <p> In Java, use the `extends` keyword for classes inheriting other classes or interfaces inheriting other interfaces. Use the `implements` keyword for classes inheriting interfaces. Interfaces cannot inherit classes. <p> A class can extend at most one other class. Both classes and interfaces can extend multiple other interfaces.
+    - COMP 3111H / lab 2 / `@Override` annotation ::@:: It tells the compiler you intend to override a base‑class method; it helps catch mistakes that make the method not actually overriding any base-class method, e.g. forget to inherit, wrong method signature, etc.
+    - COMP 3111H / lab 2 / interface ::@:: They provide a way to "hide" implementation details while exposing only essential operations \(security\), and they enable multiple inheritance of type \(a class can implement many interfaces but only extend at most one class\). <p> They cannot contain non-`static` attributes.
+- assignment: [lab 2](assignments/lab%202/index.md)
+
+## week 4 pre-lecture
+
+- topic: requirements capture; domain model; modeling classes; modeling associations; modeling attributes; use case model; actor; use case diagram
+- unified process
+  - unified process / activities
+    - unified process / activities / engineering
+- [requirement](../../../../general/requirement.md) ::@:: It is a _condition_ that must be satisfied for the output of a work effort to be _acceptable_. It is an explicit, _objective_, clear and often quantitative description of a condition to be satisfied by a material, design, product, or service.
+  - requirement / nots ::@:: It states _what_ the system does, but not _how_ it does.
+  - requirement / formality ::@:: It could range from high-level abstract statement to detailed mathematical description.
+  - requirement / types ::@:: system requirements, user requirements
+  - requirement / user requirements ::@:: For _clients_. Usually in _natural language_ or _diagrams_. It describes _user_ operations and constraints.
+  - requirement / system requirements ::@:: For both _clients_ and _developers_. Usually _structured documents_. It describes _detailed_ functions, operational constraints, services, etc. It defines _things to implement_ as part of a _contract_.
+- [requirements elicitation](../../../../general/requirements%20elicitation.md) ::@:: It is the practice of researching and discovering the requirements of a system from users, customers, and other stakeholders.
+  - requirements elicitation / names ::@:: The practice is also sometimes referred to as "requirement gathering". \(__this course__: use _requirements capture_\)
+  - requirements elicitation / goals ::@:: Learn about the problem that needs a solution. Specify the required features and constraints that the client understands and can approve.
+  - requirements elicitation / non-goals ::@:: It specifies the _problem_, not the solution. While it does specifies behaviors of the final software system, it does not _specify_ how the system do them.
+  - requirements elicitation / importance ::@:: We are overly optimistic. If we do not research requirements, we may think we know every detail, until when we actually develop the system at which point you discover ambiguous, forgotten, or undefined details. <p> This increases error. So researching requirements _reduces error_.
+    - requirements elicitation / importance / failures ::@:: Major causes of software development failures or problems: changing requirements, incomplete requirements, unneeded system, unrealistic expectations, user involvement lacking, etc.
+    - requirements elicitation / importance / cost ::@:: Whenever there is a defect, the later we discover it, the higher the cost it takes to fix it \(usually grows exponentially\). This is the cheapest when we are specifying the requirements, being the first step.
+  - requirements elicitation / difficulty ::@:: It requires the collaboration of stakeholders with different background, resulting in _knowledge gap_. We need to bridge this gap, which is difficult.
+    - requirements elicitation / difficulty / solution ::@:: Developers need to learn about the _application domain_ and its requirements. They need to transform said _vague_ requirements to _precise_ specifications. They also need to _represent_ the specifications that can be understood by clients. <p> They may even need to give _feedback_ on the requirements given by the clients and ask them to _revise_ \(i.e. "_educate_" the clients\), e.g. unrealistic requirements, etc.
+  - requirements elicitation / activities ::@:: understand application domain and user needs determine risks, capture system requirements, validate system requirements
+    - requirements / elicitation / activities / understand ::@:: collect system _requirements_ and _constraints_, and determine _development scope_ and _design goals_ \(for reducing design _complexity_\)
+    - requirements / elicitation / activities / risks ::@:: economic, legal, operational, organizational, technical, etc.
+    - requirements / elicitation / activities / capture ::@:: data requirements → _domain model_ <br/> functional requirements → _use-case model_ <br/> nonfunctional requirements → _supplementary text_
+    - requirements / elicitation / activities / validate ::@:: verify _correctness_ and _completeness_ \(all important requirements\) of system requirements; use a checklist of questions to examine each requirement
+- [software requirements specification](../../../../general/software%20requirements%20specification.md) \(SRS\) ::@:: It is a description of a software system to be developed. It is modeled after the business requirements specification \(CONOPS\). It lays out functional and non-functional requirements, and it may include a set of use cases that describe user interactions that the software must provide to the user for perfect interaction.
+  - software requirements specification / name ::@:: \(__this course__: use _system requirements specification_\)
+  - software requirements specification / elements ::@:: definition of user requirements, specification of system requirements
+  - software requirements specification / not ::@:: Like requirements \(which it contains\), it states _what_ the system does, but not _how_ the system does. It is not a _design document_.
+  - software requirements specification / agile software development ::@:: They argue producing such a thing is a waste of time when requirements change quickly. However, even they are using some aspects, albeit reduced, of SRS, e.g. product backlog, etc.
+  - software requirements specification / languages :: design description language: most restricted, like programming languages <br/> graphical notations: + text annotations <br/> mathematical specifications <br/> natural language: + diagrams, tables, etc. <br/> structured natural language: restricted, follows fixed template
+    - software requirements specification / languages / UML ::@:: UML is a kind of _graphical notation_. It can be accompanied by _structured text_, a kind of _structured natural language_.
+- [domain model](../../../../general/domain%20model.md) ::@:: It is a conceptual model of the domain that incorporates both behavior \(__this course__: associations\) and data \(__this course__: classes\). <p> \(__this course__: They are things for which _data_ must be stored.\)
+  - domain model / sources ::@:: domain experts \(includes users\), requirement statements
+  - domain model / classes ::@:: They provide a _glossary of terms_ \(_nouns_\) and are described in _class diagrams_.
+    - domain model / classes / sources ::@:: They are _naturally occurring_ things and concepts in the _user requirements_. They should be _relevant_, _essential_, and _persistent_ \(always exist\). They should be _nouns_. <p> examples: business objects, events, real-world concepts and objects, etc.
+    - domain model / classes / names ::@:: The _nouns_ should be in _singular form_.
+  - domain model / associations ::@:: They provide a _glossary of terms_ \(_verbs_\) and are described by _associations_.
+    - domain model / associations / sources ::@:: They are _naturally occurring_ things and concepts in the _user requirements_. They should be _relevant_, _essential_, and _persistent_ \(always exist\). They should be _verbs_. <p> examples: business objects, events, real-world concepts and objects, etc.
+    - domain model / associations / names ::@:: The _verbs_ should be in _active voice_.
+  - domain model / stable system ::@:: By modeling _relevant_, _essential_, and _persistent_ classes and associations, the system is _stable_. We do not need to _modify_ the system very frequently.
+  - domain model / decomposition ::@:: Converting user requirements into classes and associations depends on _experience_, problem _nature_, and _judgement_. There are usually multiple _good_ \("correct"\) decompositions.
+- UML
+  - [§ domain models](UML.md#domain%20models)
+  - [§ modeling classes](UML.md#modeling%20classes)
+  - [§ modeling associations](UML.md#modeling%20associations)
+  - [§ modeling attributes](UML.md#modeling%20attributes)
+- quiz: [quiz 6](questions/quiz%206.md)
+- [use case diagram](../../../../general/use%20case%20diagram.md) ::@:: It is a graphical depiction of a user's possible interactions with a system. A use case diagram shows various use cases and different types of users the system has and will often be accompanied by other types of diagrams as well.
+  - use case diagram / elements ::@:: The use cases are represented by either circles or ellipses. The actors are often shown as stick figures.
+  - use case diagram / actor ::@:: It is something _outside_ the system that interacts with the system _directly_. Interact means providing _input_ or receiving _output_. It should have a single _role_. <p> It can be persons, systems, etc. Note that a person may have multiple roles, hence represented by multiple actors; or multiple people play a single role, hence represented by a single actor.
+    - use case diagram / actor / motivation ::@:: It is a _source_ to discover use cases.
+    - use case diagram / actor / classification ::@:: Like how classes _classify_ collections of objects and associations _classify_ collections of links, actors \(a _classifier_\) _classify_ collections of systems or users \(_instances_\).
+  - use case diagram / use case ::@:: A _specific way_ to use the system by an actor. It may only use _part_ of the system's functionality.
+    - use case diagram / use case / scenario ::@:: A concrete and focused _single use_ of the system by a _single_ actor.
+    - use case diagram / use case / classification ::@:: Like how classes _classify_ collections of objects and associations _classify_ collections of links, use cases \(a _classifier_\) _classify_ collections of scenarios \(_instances_\).
+- UML
+  - [§ use case models](UML.md#use%20case%20models)
+  - [§ modeling actors](UML.md#modeling%20actors)
+  - [§ modeling use cases](UML.md#modeling%20use%20cases)
+  - [§ use case diagrams](UML.md#use%20case%20diagrams)
+- quiz: [quiz 7](questions/quiz%207.md)
+- [questions § week 4 pre-lecture](questions/index.md#week%204%20pre-lecture)
+
+## week 4 lecture
+
+- datetime: 2025-09-24T12:30:00+08:00/2025-09-24T14:20:00+08:00, PT1H50M
+- status: canceled
+- [§ week 4 pre-lecture](#week%204%20pre%20lecture)
+- [questions § week 4 lecture](questions/index.md#week%204%20lecture)
+
+---
+
+> Dear COMP3111 Students,
+>
+> Pre-emptive Actions for Typhoon \(颱風超前部署\):
+>
+> As Super Typhoon Ragasa is approaching, the Hong Kong Observatory has issued warnings of worsening weather on 23–24 September.
+>
+> I have decided to cancel Lecture L1 on Wednesday and Lecture L2 on Thursday \(L2 is also cancelled to keep progress synchronized across sections\). Since COMP3111 is blended, the online content will continue as usual — please follow the current deadlines for quizzes on Canvas. However, we will extend the deadline for this week’s exercises, and likely adjust some future exercise deadlines as well. Don’t worry — we are slightly ahead of schedule, so there will still be enough time to cover all required exercises this semester.
+>
+> All labs will still be conducted on Thursday and Friday. If road conditions are not good on Thursday, I recommend students attend the Friday section instead, or watch the Zoom recording.
+>
+> B.t.w., HKUST students are always hard working \(they are definitely not lazy at all\)! Please stay safe, and make good use of this little "typhoon break" during the busy Fall semester. If possible, we will also release the project description and sign-up form, so you guys can spend some time on it during the break =\)
+>
+> Best regards,
+>
+> \[redacted\]
+
+## week 4 lab
+
+- datetime: 2025-09-25T18:00:00+08:00/2025-09-25T19:50:00+08:00, PT1H50M
 - topic:
+- COMP 3111H
+  - COMP 3111H / lab 3
+- assignment: [lab 3](assignments/lab%203/index.md)
 
 ## aftermath
 

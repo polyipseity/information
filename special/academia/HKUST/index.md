@@ -64,7 +64,7 @@ tags:
 - [COMP 2711H](COMP%202711H/index.md): Honors Discrete Mathematical Tools for Computer Science (4 credits)
 - [COMP 3021](COMP%203021/index.md): Java Programming (3 credits)
 - [COMP 4633](COMP%204633/index.md): Competitive Programming in Cybersecurity III (2 credits)
-- [COMP 4900](COMP%204900/index.md) (recurrent): Academic and Professional Development (0 credits)
+- [COMP 4900](COMP%204900/index.md) \(recurrent\): Academic and Professional Development \(0 credits\)
 - [ECON 2103](ECON%202103/index.md): Principles of Microeconomics (3 credits)
 - [EMIA 2010A](EMIA%202010A/index.md): Cross-disciplinary Seminar (0 credits)
 - [ENGG 1400](ENGG%201400/index.md): Designing Your Life for Engineering Students (1 credit)
@@ -74,6 +74,8 @@ tags:
 - [TEMG 1010](TEMG%201010/index.md) (recurrent): T&M Professional Activities (0 credits)
 
 ### 2025 spring
+
+- [COMP 4900](COMP%204900/index.md) \(recurrent\): Academic and Professional Development \(0 credits\)
 
 ### 2025 summer
 
@@ -87,6 +89,7 @@ tags:
 - [BIEN 3300](BIEN%203300/index.md): Data Science for Molecular Engineering \(3 credits\)
 - [COMP 3031](COMP%203031/index.md): Principles of Programming Languages \(3 credits\)
 - [COMP 3111H](COMP%203111H/index.md): Honors Software Engineering \(4 credits\)
+- [COMP 4900](COMP%204900/index.md) \(recurrent\): Academic and Professional Development \(0 credits\)
 - [FINA 3103](FINA%203103/index.md): Intermediate Investments \(3 credits\)
 - [FINA 3203](FINA%203203/index.md): Derivative Securities \(3 credits\)
 - [FINA 3810](FINA%203810/index.md): Bloomberg Market Concepts Certification \(0 credits\)

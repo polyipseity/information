@@ -15,3 +15,7 @@ tags:
 - HKUST COMP 3111H
 
 ## children
+
+- [lab 1](lab%201/index.md)
+- [lab 2](lab%202/index.md)
+- [lab 3](lab%203/index.md)

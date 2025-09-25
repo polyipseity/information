@@ -24,6 +24,8 @@ tags:
 - [quiz 3](quiz%203.md)
 - [quiz 4](quiz%204.md)
 - [quiz 5](quiz%205.md)
+- [quiz 6](quiz%206.md)
+- [quiz 7](quiz%207.md)
 
 ## week 1 lecture
 
@@ -132,3 +134,49 @@ tags:
 \(none\)
 
 ## week 3 lecture
+
+> When should you ignore classes or associations stated in the requirements?
+>
+> ---
+>
+> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@}
+
+---
+
+> What do you need to consider to determine the multiplicities of an association connecting a class that is a superclass \(generalization\)?
+>
+> ---
+>
+> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@}
+
+---
+
+> Is there always a single correct answer for multiplicity?
+>
+> ---
+>
+> - solution: {@{No. Some are simply _design decisions_. For example, modeling a bank and its bank accounts, the multiplicity for the number of bank accounts per bank could be either `0..*` or `1..*`, depending on if the user requires a bank instance to have at least one bank account.}@}
+
+---
+
+> When should an association class _not_ be used?
+>
+> ---
+>
+> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@}
+
+---
+
+> What is the relation between _associations_ and _operations_?
+>
+> ---
+>
+> - solution: {@{_Associations_ represent _results_ of operations, but not the operation _itself_. <p> For example, you most likely should _not_ have an association with the name "shows", which is likely an operation rather than its result.}@}
+
+## week 4 pre-lecture
+
+\(none\)
+
+## week 4 lecture
+
+\(none\)

@@ -17,11 +17,11 @@
   "attachmentFolderPath": "./attachments",
   "useMarkdownLinks": true,
   "pdfExportSettings": {
-    "downscalePercent": 100,
     "includeName": false,
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "pageSize": "A4"
+    "downscalePercent": 100
   },
   "newLinkFormat": "relative",
   "rightToLeft": false,

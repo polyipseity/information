@@ -54,7 +54,7 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
-- datetime: 2025-09-03T13:30:00+08:00/2025-09-03T14:50:00+08:00, PT1H20M
+- datetime: 2025-09-05T09:00:00+08:00/2025-09-05T10:20:00+08:00, PT1H20M
 - topic: environment framework; conceptual framework; financial reporting
 - [financial accounting](../../../../general/financial%20accounting.md) ::@:: It is a branch of accounting concerned with the summary, analysis and reporting of financial transactions related to a business. <!--SR:!2025-10-23,17,330!2025-10-24,18,330-->
   - financial accounting / environment ::@:: Accounting produces financial statements for financial reporting purposes. They are used by stakeholders to allocate capital. High-quality standards are needed to standardize accounting practices and financial statements, so that stakeholders can be well-informed. <!--SR:!2025-10-17,11,310!2025-10-19,13,310-->
@@ -80,6 +80,52 @@ The content is in teaching order.
   - International Accounting Standards Board / due process ::@:: Identify a _topic_ to place on the Board's agenda. Research and analyze to produce pros and cons. Hold _public hearings_. Evaluate to produce a _exposure draft_. Respond to responses to the exposure draft. Issue a _final standard_. <!--SR:!2025-10-19,13,310!2025-10-24,18,330-->
     - International Accounting Standards Board / due process / characteristics ::@:: _collaborative_ efforts <br/> _engagement_ with accountants, business leaders, investors, and regulators <br/> _independent_ standard-setting board <br/> _thorough_ and _systematic_ standard-setting process <!--SR:!2025-10-24,18,330!2025-10-19,13,310-->
 - [questions § week 1 lecture 2](questions.md#week%201%20lecture%202)
+
+## week 2 lecture
+
+- datetime: 2025-09-08T13:30:00+08:00/2025-09-08T14:50:00+08:00, PT1H20M
+- status: canceled
+
+---
+
+> Dear students,
+>
+> The Hong Kong Observatory has announced that Typhoon Signal No. 8 will be issued at 21:20 tonight, replacing the current Strong Wind Signal No. 3. The No. 8 signal is expected to remain in force until at least 11:00 am tomorrow \(September 8\).
+>
+> As such, all classes of ACCT3010 scheduled for tomorrow will be cancelled.
+>
+> If you have any questions, please feel free to contact me at \[redacted\].
+>
+> Stay safe and take care.
+>
+> Best regards,
+>
+> \[redacted\]
+
+## week 2 lecture 2
+
+- datetime: 2025-09-12T09:00:00+08:00/2025-09-12T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 3 lecture
+
+- datetime: 2025-09-15T13:30:00+08:00/2025-09-15T14:50:00+08:00, PT1H20M
+- topic:
+
+## week 3 lecture 2
+
+- datetime: 2025-09-19T09:00:00+08:00/2025-09-19T10:20:00+08:00, PT1H20M
+- topic:
+
+## week 4 lecture
+
+- datetime: 2025-09-22T13:30:00+08:00/2025-09-22T14:50:00+08:00, PT1H20M
+- topic:
+
+## week 4 lecture 2
+
+- datetime: 2025-09-26T09:00:00+08:00/2025-09-26T10:20:00+08:00, PT1H20M
+- topic:
 
 ## aftermath
 

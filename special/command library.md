@@ -27,6 +27,7 @@ exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -over
 
 ```shell
 ffmpeg -itsoffset "$offset_v" -i "$input_v" -itsoffset "$offset_a" -i "$input_a" -map 0 -map 1 -c copy "$output"
+exiftool -tagsFromFile "$input_v" -tagsFromFile "$input_a" -all:all -extractEmbedded -FileModifyDate -overwrite_original "$output"
 ```
 
 - parameters
@@ -64,6 +65,7 @@ exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -over
 
 ```shell
 ffmpeg -i "$input_" -map 0 -c copy -filter:v:0 "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v:0 libsvtav1 -b:v:0 0 -crf:v:0 35 -g:v:0 "$($fps * 10)" -pix_fmt:v:0 "$pixel_format" -color_range:v:0 "$color_range" -colorspace:v:0 bt709 -color_primaries:v:0 bt709 -color_trc:v:0 bt709 -preset:v:0 5 -svtav1-params:v:0 tune=0 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 "$output.webm"
+exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -overwrite_original "$output.webm"
 ```
 
 - parameters
