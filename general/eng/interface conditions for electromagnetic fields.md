@@ -68,7 +68,7 @@ Therefore, {@{the normal component of __B__}@} is {@{continuous across the inter
 
 ### for magnetic field strength
 
-\(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2025-10-12,29,298!2026-07-08,292,338-->
+\(annotation: $\mathbf H$\) ::@:: $$\mathbf {n} _{12}\times (\mathbf {H} _{2}-\mathbf {H} _{1})=\mathbf {j} _{s}$$ <!--SR:!2026-01-09,89,298!2026-07-08,292,338-->
 
 where: <br/>
 $\mathbf {n} _{12}$ <!-- flashcard ID: 88bd7276-524c-48b2-b4d0-224cd3b21e56 -->::@:: is the unit [normal vector](normal%20vector.md) from medium 1 to medium 2. <br/> <!--SR:!2026-08-26,334,358!2026-08-17,326,358-->

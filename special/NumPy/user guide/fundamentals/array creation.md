@@ -217,7 +217,7 @@ array([[[0.77395605, 0.43887844],
         [0.37079802, 0.92676499]]])
 ```
 
-{@{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}@} will {@{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}@}. This is particularly useful for {@{evaluating functions of multiple dimensions on a regular grid}@}: <!--SR:!2025-10-12,264,330!2027-03-31,667,330!2025-12-28,330,350-->
+{@{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}@} will {@{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}@}. This is particularly useful for {@{evaluating functions of multiple dimensions on a regular grid}@}: <!--SR:!2029-01-25,1201,350!2027-03-31,667,330!2025-12-28,330,350-->
 
 ```Python
 >>> import numpy as np

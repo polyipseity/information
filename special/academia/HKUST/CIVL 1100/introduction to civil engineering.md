@@ -46,7 +46,7 @@ The content is in teaching order.
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2026-03-27,517,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2031-01-17,1955,400-->
+    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
       - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->
 - civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2030-12-09,1925,396-->
   - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2026-01-13,502,400-->
@@ -406,7 +406,7 @@ Water Cube
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2029-06-05,1359,314!2027-04-10,766,325-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2028-10-12,1235,357!2028-07-09,1140,340-->
-- Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2027-09-14,985,377-->
+- Water Cube→::@::←_(end)_ <!--SR:!2032-04-02,2364,421!2027-09-14,985,377-->
 
 <!--/pytextgen-->
 
@@ -1099,7 +1099,7 @@ water tower
 - building→::@::←dam <!--SR:!2029-02-06,1371,381!2027-09-27,983,381-->
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2028-05-20,1022,278-->
 - power plant→::@::←storage facility <!--SR:!2027-03-08,767,320!2028-07-07,1100,354-->
-- storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2030-10-08,1835,360-->
+- storage facility→::@::←tunnel <!--SR:!2028-01-16,826,280!2030-10-08,1835,360-->
 - tunnel→::@::←unusual structure <!--SR:!2027-03-28,714,267!2026-04-05,535,340-->
 - unusual structure→::@::←water tower <!--SR:!2025-10-29,314,290!2026-03-29,369,290-->
 - water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2027-09-20,893,321-->

@@ -32,17 +32,17 @@ Python has {@{builtin support (no libraries needed) for complex numbers}@}. The 
 - segmentation ::@:: [`numpy.array_split`](https://numpy.org/doc/stable/reference/generated/numpy.array_split.html), [`numpy.diff`](https://numpy.org/doc/stable/reference/generated/numpy.diff.html), [`numpy.split`](https://numpy.org/doc/stable/reference/generated/numpy.split.html), [`numpy.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html) <!--SR:!2025-10-19,88,361!2025-10-21,90,361-->
 - signal ::@:: [`scipy.signal`](https://docs.scipy.org/doc/scipy/reference/signal.html), [`scipy.signal.get_window`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.get_window.html), [`scipy.signal.resample`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.resample.html) <!--SR:!2025-10-23,92,361!2025-10-18,87,361-->
 - spectrum ::@:: [`numpy.absolute`](https://numpy.org/doc/stable/reference/generated/numpy.absolute.html), [`numpy.angle`](https://numpy.org/doc/stable/reference/generated/numpy.angle.html) <!--SR:!2025-10-17,86,361!2025-10-14,83,361-->
-- statistics ::@:: [`numpy.std`](https://numpy.org/doc/stable/reference/generated/numpy.std.html) <!--SR:!2025-10-12,81,361!2025-10-13,82,361-->
+- statistics ::@:: [`numpy.std`](https://numpy.org/doc/stable/reference/generated/numpy.std.html) <!--SR:!2026-11-18,402,381!2025-10-13,82,361-->
 - window ::@:: [`numpy.hamming`](https://numpy.org/doc/stable/reference/generated/numpy.hamming.html), [`scipy.signal.get_window`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.get_window.html) <!--SR:!2025-10-14,83,361!2025-10-17,86,361-->
 
 ## Essentia
 
-Essentia is {@{an open-source C++ library for audio analysis and audio-based music information retrieval}@}. It is best described as {@{a collection of low-level algorithms to _extract audio features_}@} that {@{you can freely combine by yourself to achieve high-level functions}@}. It is available from {@{<https://essentia.upf.edu/>}@}. <!--SR:!2025-10-17,86,361!2025-10-12,81,361!2025-10-12,81,360!2025-10-17,86,361-->
+Essentia is {@{an open-source C++ library for audio analysis and audio-based music information retrieval}@}. It is best described as {@{a collection of low-level algorithms to _extract audio features_}@} that {@{you can freely combine by yourself to achieve high-level functions}@}. It is available from {@{<https://essentia.upf.edu/>}@}. <!--SR:!2025-10-17,86,361!2026-11-22,406,381!2026-11-16,400,380!2025-10-17,86,361-->
 
-To use it, you will need to {@{follow the instructions to compile and install the library}@}. Then, the library {@{provides Python bindings}@} that allows you to {@{use algorithms in the library using Python directly instead of using C++}@}. <!--SR:!2025-10-13,82,361!2025-10-12,81,361!2025-10-12,81,361-->
+To use it, you will need to {@{follow the instructions to compile and install the library}@}. Then, the library {@{provides Python bindings}@} that allows you to {@{use algorithms in the library using Python directly instead of using C++}@}. <!--SR:!2025-10-13,82,361!2026-11-17,401,381!2026-11-15,399,381-->
 
 ## Freesound
 
-Freesound provides {@{an application programming interface \(API\)}@} that allows you to {@{retrieve and edit data on Freesound}@}. Its API documentation is available on {@{<https://freesound.org/docs/api/>}@}. <!--SR:!2025-10-12,81,361!2025-10-22,91,361!2025-10-18,87,361-->
+Freesound provides {@{an application programming interface \(API\)}@} that allows you to {@{retrieve and edit data on Freesound}@}. Its API documentation is available on {@{<https://freesound.org/docs/api/>}@}. <!--SR:!2026-11-19,403,381!2025-10-22,91,361!2025-10-18,87,361-->
 
-To use {@{the API}@}, you can {@{manually construct the request according to the API documentation}@}, or much more conveniently, use {@{an existing Python library that has already done all of this for you}@}, and you only need to {@{authenticate with an API key and call the correct functions}@}. <!--SR:!2025-10-13,82,361!2025-10-12,81,361!2025-10-19,88,361!2025-10-18,87,361-->
+To use {@{the API}@}, you can {@{manually construct the request according to the API documentation}@}, or much more conveniently, use {@{an existing Python library that has already done all of this for you}@}, and you only need to {@{authenticate with an API key and call the correct functions}@}. <!--SR:!2025-10-13,82,361!2026-11-24,408,381!2025-10-19,88,361!2025-10-18,87,361-->

@@ -37,7 +37,7 @@ When {@{input comes in faster than the speed of the process}@}, {@{accumulation 
 
 ### throughput
 
-Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-12,176,310!2026-01-31,261,330!2026-03-03,290,330!2026-02-20,281,330!2026-01-22,259,330-->
+Since the production line is {@{directly linked to the output of the machines}@}, it allows for {@{the identifying of the main bottleneck in the manufacturing process}@}. In {@{changing each machines throughput}@}, it will be possible to {@{assess which machine affects the overall output the most}@}, and hence {@{determine the bottleneck in the chain of processes}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2027-11-05,754,330!2026-01-31,261,330!2026-03-03,290,330!2026-02-20,281,330!2026-01-22,259,330-->
 
 ### full capacity
 

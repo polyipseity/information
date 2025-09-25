@@ -104,7 +104,7 @@ An equivalent procedure, which is often easier to perform mentally, is to {@{exp
 2 =                 2          What is left after canceling 1s and 4s
 ```
 
-In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2025-10-22,287,330!2027-01-09,631,341!2027-01-02,624,341!2025-11-05,301,341!2025-11-15,308,341!2025-12-10,327,341!2025-10-12,242,281-->
+In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2025-10-22,287,330!2027-01-09,631,341!2027-01-02,624,341!2025-11-05,301,341!2025-11-15,308,341!2025-12-10,327,341!2028-05-16,947,301-->
 
 - _A_ ⊕ _X_ = 3 ⊕ 2 = 1 [Since (011) ⊕ (010) = 001]
 - _B_ ⊕ _X_ = 4 ⊕ 2 = 6
@@ -257,7 +257,7 @@ Again, the winning strategy is {@{to move such that this sum is zero for every d
 
 ### building nim
 
-Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}. <!--SR:!2025-11-08,304,341!2025-11-23,316,341!2025-11-23,316,341!2025-10-12,279,330!2025-12-17,332,341-->
+Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}. <!--SR:!2025-11-08,304,341!2025-11-23,316,341!2025-11-23,316,341!2029-04-03,1269,350!2025-12-17,332,341-->
 
 ### higher-dimensional nim
 

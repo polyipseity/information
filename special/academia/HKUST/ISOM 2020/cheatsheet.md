@@ -66,7 +66,7 @@ The cheatsheet is provided during the final examination.
 
 - `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2025-10-23,285,330-->
 - `+` ::@:: combine two lists / strings <!--SR:!2025-10-24,286,330!2025-10-27,288,330-->
-- `in` ::@:: check existence in a list / string <!--SR:!2025-10-12,276,330!2025-10-26,287,330-->
+- `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2025-10-26,287,330-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2025-10-21,282,330-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2025-10-22,283,330!2025-10-24,286,330-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
@@ -75,7 +75,7 @@ The cheatsheet is provided during the final examination.
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2029-03-10,1247,350!2025-10-29,290,330-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
-- `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-10-12,276,330!2029-03-01,1241,350-->
+- `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2029-03-27,1262,350!2029-03-01,1241,350-->
 - `range()` ::@:: create a number sequence starting from zero <!--SR:!2025-10-15,279,330!2025-10-25,286,330-->
 
 ## relational operators

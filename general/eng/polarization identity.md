@@ -58,7 +58,7 @@ __Summary of both cases__
 
 Thus if {@{$R(x,y)+iI(x,y)$ denotes the real and imaginary parts of some inner product's value at the point $(x,y)\in H\times H$ of its domain}@}, then its imaginary part will be: {@{$$I(x,y)~=~{\begin{cases}~R({\color {red}i}x,y)&\qquad {\text{ if antilinear in the } }{\color {red}1}{\text{st argument} }\\~R(x,{\color {blue}i}y)&\qquad {\text{ if antilinear in the } }{\color {blue}2}{\text{nd argument} }\\\end{cases} }$$}@} where {@{the scalar $i$ is always located in the same argument that the inner product is antilinear in}@}. <!--SR:!2026-01-16,254,330!2026-02-25,281,330!2026-01-11,250,330-->
 
-Using {@{⁠$R(ix,y)=-R(x,iy)$}@}⁠, the above formula for the imaginary part becomes: {@{$$I(x,y)~=~{\begin{cases}-R(x,{\color {blue}i}y)&\qquad {\text{ if antilinear in the } }{\color {red}1}{\text{st argument} }\\-R({\color {red}i}x,y)&\qquad {\text{ if antilinear in the } }{\color {blue}2}{\text{nd argument} }\\\end{cases} }$$}@} <!--SR:!2026-01-18,256,330!2025-10-12,165,310-->
+Using {@{⁠$R(ix,y)=-R(x,iy)$}@}⁠, the above formula for the imaginary part becomes: {@{$$I(x,y)~=~{\begin{cases}-R(x,{\color {blue}i}y)&\qquad {\text{ if antilinear in the } }{\color {red}1}{\text{st argument} }\\-R({\color {red}i}x,y)&\qquad {\text{ if antilinear in the } }{\color {blue}2}{\text{nd argument} }\\\end{cases} }$$}@} <!--SR:!2026-01-18,256,330!2027-03-08,512,310-->
 
 ## reconstructing the inner product
 

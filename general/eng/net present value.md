@@ -117,7 +117,7 @@ NPV is {@{an indicator for project investments}@}, and has {@{several advantages
 
 ### advantages
 
-The NPV includes {@{all relevant time and cash flows for the project by considering the [time value of money](time%20value%20of%20money.md)}@}, which is {@{consistent with the goal of wealth maximization by creating the highest wealth for shareholders}@}. <!--SR:!2025-10-12,177,310!2026-06-19,384,359-->
+The NPV includes {@{all relevant time and cash flows for the project by considering the [time value of money](time%20value%20of%20money.md)}@}, which is {@{consistent with the goal of wealth maximization by creating the highest wealth for shareholders}@}. <!--SR:!2027-11-10,759,330!2026-06-19,384,359-->
 
 The NPV formula accounts for {@{[cash flow](cash%20flow.md) timing patterns and size differences for each project}@}, and provides {@{an easy, unambiguous dollar value comparison of different investment options}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-10-16,180,310!2026-07-07,400,365-->
 

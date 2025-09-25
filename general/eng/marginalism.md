@@ -106,7 +106,7 @@ A thorough-going marginalism sees marginal cost as {@{increasing under the law o
 
 ## application to price theory
 
-Marginalism and neoclassical economics typically {@{explain price formation broadly through the interaction of [curves or schedules of supply and demand](supply%20and%20demand.md)}@}. In any case {@{buyers are modelled as pursuing typically lower quantities, and sellers offering typically higher quantities}@}, as {@{price is increased}@}, with {@{each being willing to trade}@} until {@{the marginal value of what they would trade-away exceeds that of the thing for which they would trade}@}. <!--SR:!2026-09-08,540,327!2028-04-13,930,330!2027-09-10,833,347!2029-08-23,1412,367!2025-09-30,5,363-->
+Marginalism and neoclassical economics typically {@{explain price formation broadly through the interaction of [curves or schedules of supply and demand](supply%20and%20demand.md)}@}. In any case {@{buyers are modelled as pursuing typically lower quantities, and sellers offering typically higher quantities}@}, as {@{price is increased}@}, with {@{each being willing to trade}@} until {@{the marginal value of what they would trade-away exceeds that of the thing for which they would trade}@}. <!--SR:!2026-09-08,540,327!2028-04-13,930,330!2027-09-10,833,347!2029-08-23,1412,367!2025-11-07,26,383-->
 
 ### demand
 

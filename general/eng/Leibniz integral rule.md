@@ -75,7 +75,7 @@ There are {@{innumerable other integrals}@} that can be {@{solved using the tech
 > - $\int _{0}^{\infty }{\frac {\ln(1+x^{2})}{1+x^{2} } }\,dx$ ::@:: $\int _{0}^{\infty }{\frac {\ln(1+\alpha ^{2}x^{2})}{1+x^{2} } }dx$ <!--SR:!2026-08-18,314,356!2025-10-19,77,336-->
 > - $\int _{0}^{1}{\frac {x-1}{\ln x} }\,dx$ ::@:: $\int _{0}^{1}{\frac {x^{\alpha }-1}{\ln x} }dx$ <!--SR:!2026-05-19,223,336!2026-03-13,170,316-->
 
-{@{The first integral, the [Dirichlet integral](Dirichlet%20integral.md)}@}, is {@{absolutely convergent for positive _α_}@} but {@{only conditionally convergent when $\alpha =0$}@}. Therefore, {@{differentiation under the integral sign}@} is {@{easy to justify when $\alpha >0$}@}, but {@{proving that the resulting formula remains valid when $\alpha =0$}@} requires {@{some careful work}@}. \(annotation: One method is {@{using the dominated convergence theorem}@}.\) <!--SR:!2026-08-16,312,356!2025-10-12,71,336!2025-10-19,77,336!2026-08-21,317,356!2026-08-19,315,356!2026-08-13,309,356!2025-10-17,75,336!2025-10-12,71,336-->
+{@{The first integral, the [Dirichlet integral](Dirichlet%20integral.md)}@}, is {@{absolutely convergent for positive _α_}@} but {@{only conditionally convergent when $\alpha =0$}@}. Therefore, {@{differentiation under the integral sign}@} is {@{easy to justify when $\alpha >0$}@}, but {@{proving that the resulting formula remains valid when $\alpha =0$}@} requires {@{some careful work}@}. \(annotation: One method is {@{using the dominated convergence theorem}@}.\) <!--SR:!2026-08-16,312,356!2026-08-30,322,356!2025-10-19,77,336!2026-08-21,317,356!2026-08-19,315,356!2026-08-13,309,356!2025-10-17,75,336!2026-09-06,329,356-->
 
 ### infinite series
 
@@ -83,7 +83,7 @@ There are {@{innumerable other integrals}@} that can be {@{solved using the tech
 
 ### Euler-Lagrange equations
 
-{@{The Leibniz integral rule}@} is {@{used in the derivation of the [Euler-Lagrange equation](Euler-Lagrange%20equation.md)}@} in {@{[variational calculus](variational%20calculus.md)}@}. <!--SR:!2025-10-19,77,336!2026-08-17,313,356!2025-10-12,71,336-->
+{@{The Leibniz integral rule}@} is {@{used in the derivation of the [Euler-Lagrange equation](Euler-Lagrange%20equation.md)}@} in {@{[variational calculus](variational%20calculus.md)}@}. <!--SR:!2025-10-19,77,336!2026-08-17,313,356!2026-08-31,323,356-->
 
 ## references
 
