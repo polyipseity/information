@@ -139,7 +139,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@}
+> - solution: {@{If the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2025-09-29,4,298-->
 
 ---
 
@@ -147,7 +147,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@}
+> - solution: {@{You need to consider the multiplicities for each subclass individually \(and also the superclass if the generalization is incomplete\), and then find the _least relaxed multiplicities_ that can accommodate the multiplicities found above. You may add a note next to the superclass multiplicity with text describing the multiplicities for each subclass. <p> You will likely need to use real-world knowledge, common sense, or application domain knowledge.}@} <!--SR:!2025-09-29,4,298-->
 
 ---
 
@@ -155,7 +155,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Some are simply _design decisions_. For example, modeling a bank and its bank accounts, the multiplicity for the number of bank accounts per bank could be either `0..*` or `1..*`, depending on if the user requires a bank instance to have at least one bank account.}@}
+> - solution: {@{No. Some are simply _design decisions_. For example, modeling a bank and its bank accounts, the multiplicity for the number of bank accounts per bank could be either `0..*` or `1..*`, depending on if the user requires a bank instance to have at least one bank account.}@} <!--SR:!2025-09-29,4,298-->
 
 ---
 
@@ -163,7 +163,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@}
+> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!2025-09-29,4,298-->
 
 ---
 
@@ -171,7 +171,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{_Associations_ represent _results_ of operations, but not the operation _itself_. <p> For example, you most likely should _not_ have an association with the name "shows", which is likely an operation rather than its result.}@}
+> - solution: {@{_Associations_ represent _results_ of operations, but not the operation _itself_. <p> For example, you most likely should _not_ have an association with the name "shows", which is likely an operation rather than its result.}@} <!--SR:!2025-09-29,4,298-->
 
 ## week 4 pre-lecture
 

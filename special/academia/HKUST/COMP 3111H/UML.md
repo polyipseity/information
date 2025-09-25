@@ -211,112 +211,112 @@ For {@{constraints in general}@}, UML provides {@{a text-based _formal_ constrai
 
 ## domain model
 
-{@{_Domain modeling_}@} aims to {@{capture the _most important_ classes and associations}@}. They have {@{_data_ that must be stored}@}. The sources are {@{domain experts \(includes users\), requirements statements, etc.}@}
+{@{_Domain modeling_}@} aims to {@{capture the _most important_ classes and associations}@}. They have {@{_data_ that must be stored}@}. The sources are {@{domain experts \(includes users\), requirements statements, etc.}@} <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-It is {@{developed _incrementally_ and _concurrently_}@} with {@{the use case model}@}.
+It is {@{developed _incrementally_ and _concurrently_}@} with {@{the use case model}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
 ### modeling classes
 
-Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _singular form noun_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}.
+Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _singular form noun_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
 Best practices:
 
-- action/operation class, implementation class, irrelevant class ::@:: Eliminate.
-- vague class ::@:: Eliminate or make specific.
-- redundant class ::@:: Eliminate the least descriptive classes.
-- dependent class ::@:: Consider application requirements and potentially convert them into attributes or eliminate.
-- role class ::@:: Usually eliminate, but depends on the situation. They should be made into roles of associations.
+- action/operation class, implementation class, irrelevant class ::@:: Eliminate. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- vague class ::@:: Eliminate or make specific. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- redundant class ::@:: Eliminate the least descriptive classes. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- dependent class ::@:: Consider application requirements and potentially convert them into attributes or eliminate. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- role class ::@:: Usually eliminate, but depends on the situation. They should be made into roles of associations. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-To actually {@{specify the class}@}, specify {@{its name \(singular form noun\) unique in the diagram}@}, {@{attributes, and operations}@}. We assume {@{each attribute has a getter and setter _operation_}@}, which {@{do not need to be specified}@}.
+To actually {@{specify the class}@}, specify {@{its name \(singular form noun\) unique in the diagram}@}, {@{attributes, and operations}@}. We assume {@{each attribute has a getter and setter _operation_}@}, which {@{do not need to be specified}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
 ### modeling associations
 
-Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _active voice verb_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}.
+Identify {@{_naturally occurring_ things or concepts}@}. Its name should be {@{a _active voice verb_}@}. It should be {@{_relevant_ to make a _stable system_}@}: {@{_essential_ and _persistent_}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
 Best practices:
 
-- action/operation association, implementation association, irrelevant association ::@:: Eliminate.
-- ternary association ::@:: Decompose into binary associations. \(__this course__: We do not consider ternary associations anyway...\)
+- action/operation association, implementation association, irrelevant association ::@:: Eliminate. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- ternary association ::@:: Decompose into binary associations. \(__this course__: We do not consider ternary associations anyway...\) <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 - derivable association :;@:: Eliminate if the _semantics_ of an association is the _composition_ \(or _derivable_ from\) of that of two or more associations.
-- vague association ::@:: Eliminate or make specific.
-- redundant association ::@:: Eliminate the least descriptive associations.
+- vague association ::@:: Eliminate or make specific. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- redundant association ::@:: Eliminate the least descriptive associations. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-To actually {@{specify the association}@}, specify {@{its name \(active voice verb; say "what" but not "how" or "why"\) unique in the diagram}@}, {@{multiplicities \(if known\), roles \(if needed\), and association class \(if needed\)}@}.
+To actually {@{specify the association}@}, specify {@{its name \(active voice verb; say "what" but not "how" or "why"\) unique in the diagram}@}, {@{multiplicities \(if known\), roles \(if needed\), and association class \(if needed\)}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
 ### modeling attributes
 
-Identify {@{_data_ needed to be stored by classes or associations}@}. Often they are {@{_not_ given in the requirements statement}@} and come from {@{application docs, domain experts, etc.}@} It should be {@{_relevant_ to the _application domain_}@}.
+Identify {@{_data_ needed to be stored by classes or associations}@}. Often they are {@{_not_ given in the requirements statement}@} and come from {@{application docs, domain experts, etc.}@} It should be {@{_relevant_ to the _application domain_}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-It should correspond to either {@{a _noun_ followed by _possessive_ phrases \(e.g. a person's _date of birth_\)}@} or {@{_adjectives_ \(e.g. _fall_ semester\)}@}. The latter are often {@{_enumerated_ values}@}.
+It should correspond to either {@{a _noun_ followed by _possessive_ phrases \(e.g. a person's _date of birth_\)}@} or {@{_adjectives_ \(e.g. _fall_ semester\)}@}. The latter are often {@{_enumerated_ values}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
 Best practices:
 
-- irrelevant attribute ::@:: Eliminate, to make the class _coherent_ and _simple_.
-- independent attribute ::@:: Consider application requirements and potentially convert them into classes or eliminate.
-- association attribute ::@:: Put into an association class or, if multiple instances between the same pair of instances are needed, put into a new class replacing the original association.
-- identifier attribute ::@:: Eliminate. It is an implementation detail.
+- irrelevant attribute ::@:: Eliminate, to make the class _coherent_ and _simple_. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- independent attribute ::@:: Consider application requirements and potentially convert them into classes or eliminate. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- association attribute ::@:: Put into an association class or, if multiple instances between the same pair of instances are needed, put into a new class replacing the original association. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- identifier attribute ::@:: Eliminate. It is an implementation detail. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-To actually {@{specify the attribute}@}, specify {@{its name unique in the class}@}, {@{type \(e.g. date, integer, money, string etc.\), and multiplicity \(if greater than 1\)}@}.
+To actually {@{specify the attribute}@}, specify {@{its name unique in the class}@}, {@{type \(e.g. date, integer, money, string etc.\), and multiplicity \(if greater than 1\)}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
 ## use case models
 
-{@{_Use case modeling_}@} aims to {@{capture the _system behavior_}@} from {@{the user's point of view}@}. It helps to capture {@{_data_ and _functional_ requirements}@}, plan {@{development _iterations_}@}, and {@{_validate_}@} the system. Overall, it drives {@{_development effort_}@}. It should describe all {@{_required_ functionalities}@}.
+{@{_Use case modeling_}@} aims to {@{capture the _system behavior_}@} from {@{the user's point of view}@}. It helps to capture {@{_data_ and _functional_ requirements}@}, plan {@{development _iterations_}@}, and {@{_validate_}@} the system. Overall, it drives {@{_development effort_}@}. It should describe all {@{_required_ functionalities}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-It is {@{developed _incrementally_ and _concurrently_}@} with {@{the domain model}@}.
+It is {@{developed _incrementally_ and _concurrently_}@} with {@{the domain model}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
 ### modeling actors
 
-{@{An _actor_}@} represents {@{any entity that _interacts_ directly with a system from _outside_ its boundary}@}. It can be {@{a person, another system, or a role played by multiple people}@}. In {@{UML terms}@}, an actor is {@{a _stereotype_ of a class \(a kind of class\)}@}; the actor itself is {@{a _classifier_}@} and {@{each concrete _instance_}@} corresponds to {@{a specific user or external system}@}. It is possible that {@{some identified actors}@} have {@{the same name as some of the identified classes}@}. {@{Use cases}@} are {@{_discovered_ from actors}@}.
+{@{An _actor_}@} represents {@{any entity that _interacts_ directly with a system from _outside_ its boundary}@}. It can be {@{a person, another system, or a role played by multiple people}@}. In {@{UML terms}@}, an actor is {@{a _stereotype_ of a class \(a kind of class\)}@}; the actor itself is {@{a _classifier_}@} and {@{each concrete _instance_}@} corresponds to {@{a specific user or external system}@}. It is possible that {@{some identified actors}@} have {@{the same name as some of the identified classes}@}. {@{Use cases}@} are {@{_discovered_ from actors}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-Each actor has {@{one or more _roles_ when _interacting_ with the system}@}. {@{A single user}@} may {@{assume several distinct roles}@}, and {@{multiple users can share the same role}@}. Actors {@{supply input to the system or receive output from it}@}; in particular, {@{input/output devices themselves}@} are {@{_never_ actors}@}.
+Each actor has {@{one or more _roles_ when _interacting_ with the system}@}. {@{A single user}@} may {@{assume several distinct roles}@}, and {@{multiple users can share the same role}@}. Actors {@{supply input to the system or receive output from it}@}; in particular, {@{input/output devices themselves}@} are {@{_never_ actors}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-To {@{_identify_ actors}@}, ask: \(4 items: {@{end users, information, systems, administration}@}\)
+To {@{_identify_ actors}@}, ask: \(4 items: {@{end users, information, systems, administration}@}\) <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-- end users ::@:: Who will use the system?
-- information ::@:: Who supplies information to or receives information from the system?
-- systems ::@:: Which other systems interact with it?
-- administration ::@:: Who is responsible for installation, startup, shutdown, or maintenance?
+- end users ::@:: Who will use the system? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- information ::@:: Who supplies information to or receives information from the system? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- systems ::@:: Which other systems interact with it? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- administration ::@:: Who is responsible for installation, startup, shutdown, or maintenance? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-For {@{each identified actor}@}, ask: {@{What roles do they play during interaction?}@} Then briefly {@{describe its role in the system}@}.
+For {@{each identified actor}@}, ask: {@{What roles do they play during interaction?}@} Then briefly {@{describe its role in the system}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-Below is an example of {@{_roles_ \(actor _description_\) in a course registration system}@}:
+Below is an example of {@{_roles_ \(actor _description_\) in a course registration system}@}: <!--SR:!2025-09-29,4,334-->
 
-- course registration system, student – ::@:: enrolls, selects alternatives, changes schedule.
-- course registration system, instructor – ::@:: declares teaching assignments, views enrollments.
-- course registration system, billing System – ::@:: external system that receives registration data to bill students.
+- course registration system, student – ::@:: enrolls, selects alternatives, changes schedule. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- course registration system, instructor – ::@:: declares teaching assignments, views enrollments. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- course registration system, billing System – ::@:: external system that receives registration data to bill students. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-{@{Actors}@} are represented by {@{_stick figures_ with annotating text showing their _names_}@}.
+{@{Actors}@} are represented by {@{_stick figures_ with annotating text showing their _names_}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
 ### modeling use cases
 
-{@{A _use case_}@} captures {@{a _concrete_ way an _actor_ interacts with the system to accomplish _part_ of its functionality}@}. It is written from {@{the actor's perspective}@} and describes {@{a complete, normal _sequence_ of _events_ that starts with the actor _initiating_ the interaction}@}. {@{_Alternative_ or _exceptional_ flows}@} are {@{omitted at first}@}; they can be {@{added in the use case _specification_ \(but not use case _diagram_\) later as needed}@}.
+{@{A _use case_}@} captures {@{a _concrete_ way an _actor_ interacts with the system to accomplish _part_ of its functionality}@}. It is written from {@{the actor's perspective}@} and describes {@{a complete, normal _sequence_ of _events_ that starts with the actor _initiating_ the interaction}@}. {@{_Alternative_ or _exceptional_ flows}@} are {@{omitted at first}@}; they can be {@{added in the use case _specification_ \(but not use case _diagram_\) later as needed}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-A use case must {@{deliver _value_}@} to an actor, e.g. {@{_individual_ functions}@} most likely {@{do not make good use cases}@}. To do so, prefer {@{_longer_ and _extensive_ use cases}@} over {@{smaller use cases}@}; in other words, {@{_real_ and _complete_ use cases}@} are preferred over {@{_sub-cases_ of aforementioned use cases}@}. These preferred use cases can be obtained, after {@{identifying _individual_ use cases \(sub-cases\)}@}, by {@{_grouping_ \(and eliminate redundant\) use cases together}@}.
+A use case must {@{deliver _value_}@} to an actor, e.g. {@{_individual_ functions}@} most likely {@{do not make good use cases}@}. To do so, prefer {@{_longer_ and _extensive_ use cases}@} over {@{smaller use cases}@}; in other words, {@{_real_ and _complete_ use cases}@} are preferred over {@{_sub-cases_ of aforementioned use cases}@}. These preferred use cases can be obtained, after {@{identifying _individual_ use cases \(sub-cases\)}@}, by {@{_grouping_ \(and eliminate redundant\) use cases together}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-{@{A _scenario_}@} is {@{the concrete _instantiation_ of a use case}@}. Think of it as {@{a _single run‑through_ of the use case}@} from {@{the viewpoint of one particular actor}@}. Scenarios provide {@{a focused, informal description}@} that shows {@{how the system behaves in a real situation}@}. When {@{developing requirements}@} you can adopt either {@{a top‑down approach}@}—start with {@{abstract use cases and refine them into scenario}@}s—or {@{a bottom‑up approach}@}—begin with {@{detailed scenarios and then generalize to broader use cases}@}. In {@{practice}@} most analysts {@{blend both viewpoints}@}.
+{@{A _scenario_}@} is {@{the concrete _instantiation_ of a use case}@}. Think of it as {@{a _single run‑through_ of the use case}@} from {@{the viewpoint of one particular actor}@}. Scenarios provide {@{a focused, informal description}@} that shows {@{how the system behaves in a real situation}@}. When {@{developing requirements}@} you can adopt either {@{a top‑down approach}@}—start with {@{abstract use cases and refine them into scenario}@}s—or {@{a bottom‑up approach}@}—begin with {@{detailed scenarios and then generalize to broader use cases}@}. In {@{practice}@} most analysts {@{blend both viewpoints}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-In {@{UML terms}@}, a use case is {@{a _stereotype_ of a class \(a kind of class\)}@}; it's {@{a _classifier_}@} that {@{represents a set of interactions}@}. {@{A _scenario_}@}, on the other hand, is {@{an _instance_ of that classifier}@}.
+In {@{UML terms}@}, a use case is {@{a _stereotype_ of a class \(a kind of class\)}@}; it's {@{a _classifier_}@} that {@{represents a set of interactions}@}. {@{A _scenario_}@}, on the other hand, is {@{an _instance_ of that classifier}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-To {@{_identify_ use cases and scenarios}@}, ask {@{these questions for each actor}@}: \(5 items: {@{performance, information, external notifications, internal notifications, administration}@}\)
+To {@{_identify_ use cases and scenarios}@}, ask {@{these questions for each actor}@}: \(5 items: {@{performance, information, external notifications, internal notifications, administration}@}\) <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-- performance ::@:: What tasks does the actor want the system to perform?  
-- information ::@:: Which information will the actor create, store, modify, delete, or read?  
-- external notifications ::@:: Does the actor need to inform the system of any external changes?  
-- internal notifications ::@:: Which events must the system notify the actor about?  
-- administration ::@:: How will the system be supported and maintained?
+- performance ::@:: What tasks does the actor want the system to perform? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- information ::@:: Which information will the actor create, store, modify, delete, or read? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- external notifications ::@:: Does the actor need to inform the system of any external changes? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- internal notifications ::@:: Which events must the system notify the actor about? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
+- administration ::@:: How will the system be supported and maintained? <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
-When {@{naming a use case}@}, use {@{a _present‑tense_, _active‑voice_ _verb phrase_ from the actor's perspective}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Follow this with {@{a brief purpose statement that outlines the functionality}@} in {@{terms familiar to domain experts}@} \(use {@{glossary or data dictionary terminology}@}\).
+When {@{naming a use case}@}, use {@{a _present‑tense_, _active‑voice_ _verb phrase_ from the actor's perspective}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Follow this with {@{a brief purpose statement that outlines the functionality}@} in {@{terms familiar to domain experts}@} \(use {@{glossary or data dictionary terminology}@}\). <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-After {@{identifying use cases and scenarios}@}, we can {@{_expand_ the role \(actor _description_\) of each actor}@} by {@{adding use cases for that actor}@}. Also, write {@{a document listing the use cases}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Finally, {@{_group_ use cases}@} so that the use cases are {@{_real_ and _complete_ rather than being sub-cases}@}, and give {@{a name for each grouping}@}; and {@{_eliminate_ _redundant_ use cases}@}, e.g. {@{when a use case is a _composition_ of two or more other use cases}@}. Henceforth, we will call these groups {@{simply "use cases"}@}.
+After {@{identifying use cases and scenarios}@}, we can {@{_expand_ the role \(actor _description_\) of each actor}@} by {@{adding use cases for that actor}@}. Also, write {@{a document listing the use cases}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Finally, {@{_group_ use cases}@} so that the use cases are {@{_real_ and _complete_ rather than being sub-cases}@}, and give {@{a name for each grouping}@}; and {@{_eliminate_ _redundant_ use cases}@}, e.g. {@{when a use case is a _composition_ of two or more other use cases}@}. Henceforth, we will call these groups {@{simply "use cases"}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-For each \(grouping of\) _use cases_, produce {@{a use case _specification_ \(not diagram\)}@}. Initially, produce {@{a brief _description_ of the _purpose_ of the use case}@} and {@{a _flow of events_ \(steps\) required to _perform_ it}@}. We will {@{_refine_ the steps and describe them in _more detail_}@} as we {@{_discover_ more about the required functionality}@}. For example, a use case called {@{"register for courses"}@} in {@{a course registration system}@} could have a flow of event like {@{"Add course offering. → Drop course offering. → Send billing information."}@}.
+For each \(grouping of\) _use cases_, produce {@{a use case _specification_ \(not diagram\)}@}. Initially, produce {@{a brief _description_ of the _purpose_ of the use case}@} and {@{a _flow of events_ \(steps\) required to _perform_ it}@}. We will {@{_refine_ the steps and describe them in _more detail_}@} as we {@{_discover_ more about the required functionality}@}. For example, a use case called {@{"register for courses"}@} in {@{a course registration system}@} could have a flow of event like {@{"Add course offering. → Drop course offering. → Send billing information."}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-{@{\(Groupings of\) _use cases_}@} are represented by {@{_ovals_ with annotating text showing their _names_}@}.
+{@{\(Groupings of\) _use cases_}@} are represented by {@{_ovals_ with annotating text showing their _names_}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334-->
 
 ### use case diagrams
 
-{@{A _use case diagram_ \(_context_ diagram\)}@} is {@{a graphical depiction of a user's possible interactions with a system}@}. Its main elements are {@{_actors_ and \(groupings of\) _use cases_}@}.
+{@{A _use case diagram_ \(_context_ diagram\)}@} is {@{a graphical depiction of a user's possible interactions with a system}@}. Its main elements are {@{_actors_ and \(groupings of\) _use cases_}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-To {@{draw a use case diagram}@}, identify {@{its main elements}@}. Then, draw {@{a large _rectangle_ to represent the _system boundary_}@}. {@{_Within_}@} the system boundary, draw {@{an _oval_ for each _use case_ with its name}@}. {@{_Outside_}@} the system boundary, draw {@{a _stick figure_ for each _actor_ with its name}@}. Finally, for each {@{actor potentially initiating a use case}@}, draw {@{an _solid arrow_ pointing from the actor to the use case}@}, indicating {@{an _unidirectional association_ with the _implicit_ association name "use"}@}. Optionally, identify {@{_communication_ associations \(flow of information between a \(system\) actor and a use case\)}@}, and draw {@{a _solid line_ \(no arrow as it is _bidirectional_\) connecting the actor and the use case}@}. No need to {@{_name_ the association}@} as {@{the "communication" association name is _implied_ in the context of a use case diagram}@}.
+To {@{draw a use case diagram}@}, identify {@{its main elements}@}. Then, draw {@{a large _rectangle_ to represent the _system boundary_}@}. {@{_Within_}@} the system boundary, draw {@{an _oval_ for each _use case_ with its name}@}. {@{_Outside_}@} the system boundary, draw {@{a _stick figure_ for each _actor_ with its name}@}. Finally, for each {@{actor potentially initiating a use case}@}, draw {@{an _solid arrow_ pointing from the actor to the use case}@}, indicating {@{an _unidirectional association_ with the _implicit_ association name "use"}@}. Optionally, identify {@{_communication_ associations \(flow of information between a \(system\) actor and a use case\)}@}, and draw {@{a _solid line_ \(no arrow as it is _bidirectional_\) connecting the actor and the use case}@}. No need to {@{_name_ the association}@} as {@{the "communication" association name is _implied_ in the context of a use case diagram}@}. <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
 
-In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \(kinds of classes\)}@}. So {@{_generalization_}@} also {@{applies to actors and use cases}@}, indicated by {@{a _dashed arrow_ with a _hollow_ triangle as the arrow head}@}, pointing from {@{the sub-actors to the super-actor}@}. Again, using generalization is {@{a _design decision_}@}. \(__this course__: Do _not_ use {@{generalization for use cases}@} in our project. It is {@{_unnecessary_ and often used _incorrectly_}@}.\)
+In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \(kinds of classes\)}@}. So {@{_generalization_}@} also {@{applies to actors and use cases}@}, indicated by {@{a _dashed arrow_ with a _hollow_ triangle as the arrow head}@}, pointing from {@{the sub-actors to the super-actor}@}. Again, using generalization is {@{a _design decision_}@}. \(__this course__: Do _not_ use {@{generalization for use cases}@} in our project. It is {@{_unnecessary_ and often used _incorrectly_}@}.\) <!--SR:!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334!2025-09-29,4,334-->
