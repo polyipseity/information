@@ -106,7 +106,7 @@ The content is in teaching order.
 ## week 2 lecture 2
 
 - datetime: 2025-09-12T09:00:00+08:00/2025-09-12T10:20:00+08:00, PT1H20M
-- topic:
+- topic: conceptual framework; qualitative characteristics; core assumptions; measurement principles; cost constraint
 - financial accounting
   - financial accounting / environment
   - financial accounting / conceptual framework
@@ -180,22 +180,76 @@ The content is in teaching order.
 ## week 3 lecture
 
 - datetime: 2025-09-15T13:30:00+08:00/2025-09-15T14:50:00+08:00, PT1H20M
-- topic:
+- topic: income statement; earnings management; earnings per share
+- [income statement](../../../../general/income%20statement.md) ::@:: It is one of the financial statements of a company and shows the company's revenues and expenses during a particular period. <p> It indicates how the revenues \(also known as the _"top line"_\) are transformed into the net income or net profit \(the result after all revenues and expenses have been accounted for\).
+  - income statement / purposes ::@:: - Provides a snapshot of a company's financial performance over a specific period. <br/> - Enables users to evaluate past results, forecast future earnings, and assess the risk associated with future cash‑flow generation.
+  - income statement / limitations ::@:: - Items that cannot be measured reliably are often omitted, which can skew the picture of profitability. <br/> - The choice of accounting methods \(e.g., revenue recognition, depreciation\) influences reported income figures. <br/> - Income measurement requires significant judgement; therefore, numbers may not fully reflect underlying economic reality.
+- [earnings management](../../../../general/earnings%20management.md) ::@:: It, in accounting, is the act of intentionally influencing the process of financial reporting to obtain some private gain. <p> Companies sometimes time the recognition of revenues, expenses, gains or losses to meet earnings targets or to present a smoother profit trend.
+  - earnings management / effects ::@:: When earnings are manipulated in this way, the resulting "quality" of earnings drops because the information becomes less useful for predicting future performance.
+- income statement
+  - income statement / elements ::@:: income \(revenues, gains\), expenses \(\(_ordinary_\) expenses, losses\)
+    - income statement / elements / income ::@:: the net increase in equity resulting from all inflows and enhancements of assets minus liability incurrences, excluding shareholder contributions
+    - income statement / elements / revenues ::@:: cash or non‑cash inflows from ordinary business activities \(sales, fees, interest, dividends, rent\)
+    - income statement / elements / gains ::@:: increases in economic benefits that arise inside or outside routine operations \(e.g., sale of long‑term assets, unrealised gains on trading securities\)
+    - income statement / elements / expenses ::@:: outflows or depletions that reduce economic benefits, again excluding distributions to shareholders <p> may also refer to _ordinary_ expenses only, which arise from ordinary business activities \(cost of goods sold, depreciation, interest, salaries, taxes\)
+    - income statement / elements / losses ::@:: reductions in equity from ordinary or non-ordinary activities \(e.g., restructuring charges, disposal losses, unrealised trading‑security losses\)
+  - income statement / components ::@:: important items: gross profit → income from operations → income before income tax → income from continuing operations → net income → non-controlling interest → \(basic and diluted\) earnings per share
+    - income statement / components / gross profit ::@:: Calculated as Net Sales minus Cost of Goods Sold \(COGS\). The "Net" in Net Sales accounts for discounts, allowances, returns, etc. <p> A key indicator for evaluating operational efficiency and predicting future earnings. Industry benchmarks vary widely: e.g., Apple's gross margin was 46.7% in FY 2024, while Pfizer's exceeded 70%.
+    - income statement / components / other income and expense ::@:: They are _operating_ incomes and expenses that do not fit into the revenues and expenses categories above, and usually includes \(different depending on core businesses\): <p> - Write‑downs of inventories or fixed assets, restructuring provisions and their reversals.
+    - income statement / components / income from operations ::@:: Derived by subtracting selling expenses, administrative expenses, plus other other income and expense, from Gross Profit. <p> Highlights the earnings that stem directly from core business activities and is often used to forecast cash‑flow timing and uncertainty.
+    - income statement / components / non-operating items ::@ They are _non-operating_ incomes and expenses, and usually includes \(different depending on core businesses\): <p> - Disposal gains or losses on property, plant & equipment or investments. <br/> - Rent revenue, dividend revenue, interest revenue, etc. <br/> - Litigation settlements and other liability reversals that materially affect financial results.
+    - income statement / components / income before income tax ::@:: Income Before Tax = Income from Operations+ Non‑Operating Items \(gains or losses\) − Interest Expense + Other Non‑Tax Expenses <br/> The latter two can be summarized as Financing Costs.
+      - income statement / components / income before income tax / motivation ::@:: By removing the effect of tax policy, jurisdictional differences, and timing of tax settlements, income before tax offers a cleaner view of how well a company's core operations are performing. <p> It allows cross‑company comparisons even when those companies operate in countries with vastly different statutory tax rates or have differing levels of deferred tax assets/liabilities.
+    - income statement / components / income from continuing operations ::@:: It refers to the part of a company's business that is expected to keep operating into the future. It excludes any segment or activity that has been sold, shut down, or otherwise declared as discontinued \(e.g., a divested subsidiary or a line of products no longer produced\).
+    - income statement / components / discontinued operations ::@:: Losses \(or gains\) from discontinued operations. As it is below the tax items, _tax effects_ of those losses/gains needs to be accounted for. <p> They are reported separately and often in a distinct section below income from continuing operations. The loss or gain on the disposal of the discontinued segment is shown, along with its tax impact.
+    - income statement / components / net income ::@:: It is _the bottom line_: revenue minus all expenses, gains, and losses \(including discontinued operations\) for the period. Frequently regarded as the most critical measure of a company's success or failure over a given timeframe.
+    - income statement / components / non-controlling interest ::@:: It represents the portion of a subsidiary's equity that is not owned by the parent company. It is also called "minority interest" when referring to shareholders who hold less than 50% of voting rights in a subsidiary. In consolidated financial statements, NCI ensures that all economic interests in the subsidiary are reported, not just those belonging to the parent.
+      - income statement / components / non-controlling interest / effect ::@:: _Net income attributable to non‑controlling interest_ is shown as a separate line item below \(or above\) earnings attributable to the parent. This figure equals the subsidiary's net income multiplied by the NCI ownership percentage.
+    - income statement / components / earnings per share \(EPS\) ::@:: Calculated by dividing Net Income less _Preferred Dividends_ by the weighted‑average number of _ordinary_ shares outstanding. Must appear prominently on the face of the income statement because it directly relates company performance to shareholder value. <p> Both _basic_ and _diluted_ EPS are reported.
+      - income statement / components / earnings per share / basic ::@:: It is the portion of a company's profit that is attributable to each share of common stock outstanding.
+      - income statement / components / earnings per share / diluted ::@:: It is a company's earnings per share calculated using fully diluted shares outstanding \(i.e. including the impact of stock option grants and convertible bonds\).
+- [earnings per share](../../../../general/earnings%20per%20share.md) \(EPS\) ::@:: It is the monetary value of earnings per outstanding share of common stock for a company during a defined period of time, often a year. It is a key measure of corporate profitability, focusing on the interests of the company's owners \(shareholders\), and is commonly used to price stocks.
+  - earnings per share / formula ::@:: earnings per share = ⁠\(net income − preferred dividends\) / weighted average common shares
+- [questions § week 3 lecture](questions.md#week%203%20lecture)
 
 ## week 3 lecture 2
 
 - datetime: 2025-09-19T09:00:00+08:00/2025-09-19T10:20:00+08:00, PT1H20M
-- topic:
+- topic: income statement; discontinued operation; non-controlling interest; comprehensive income; other comprehensive income
+- income statement
+  - income statement / components
+- [IFRS 5](../../../../general/IFRS%205.md) ::@:: It refers to the International Financial Reporting Standards relating to Non-current assets held for sale and discontinued operations.
+  - IFRS 5 / discontinued operations ::@:: It is a component of an enterprise that has either been disposed of, or is classified as 'held for sale', and: <p> - represents a separate major line of business or geographical area of operations; and <br/> - is part of a single, co-ordinated plan to dispose of this separate major line of business or geographical area of operations; or <br/> - is a subsidiary acquired exclusively with a view to resale. <p> These criteria ensure that only significant, standalone divestitures are treated as discontinued operations.
+    - IFRS 5 / discontinued operations / examples ::@: selling divisions, lines of business, subsidiaries to other companies; spinning off independent companies
+  - IFRS 5 / reporting requirements ::@:: _Separate income‑statement line items_ as a _separate category_ after "income from continuing operations" must disclose: <p> - Gain or loss from disposal. <br/> - Operating results of the disposed component \(as if it were still part of the company\). <br/> - Net of tax, as it is below the tax items. <br/> - Per‑share amounts \(EPS\) for continuing operations, discontinued operations, and both must be presented either on the face of the statement or in accompanying notes.
+    - IFRS 5 / reporting requirements / motivation ::@:: The presentation is designed to keep the impact of major divestitures transparent and distinct from ongoing business performance.
+    - IFRS 5 / reporting requirements / example ::@:: A diversified firm, decided to discontinue its electronics division during the year. <p> - Operating loss for the division \(net of tax\): £300&nbsp;000. <br/> - Loss on sale of the division at year‑end: £500&nbsp;000 \(net of tax\). <p> These figures would be shown in the discontinued‑operations section, allowing stakeholders to see the full effect of the divestiture separate from core operations.
+- [minority interest](../../../../general/minority%20interest.md) ::@:: It is the portion of a subsidiary corporation's stock that is not owned by the parent corporation. The magnitude of the minority interest in the subsidiary company is generally less than 50% of outstanding shares, or the corporation would generally cease to be a subsidiary of the parent.
+  - minority interest / consolidated financial statements ::@:: In consolidated financial statements, if the parent owns more than 50% of a subsidiary, it consolidates 100% of the subsidiary's revenues, assets, and liabilities.
+  - minority interest / income statement ::@:: The portion of profits or losses attributable to minority shareholders is reported separately as _non‑controlling interest_ \(NCI\) on the equity section. <p> Generally, net income, those attributable to majority interest, and those attribute to minority interest, are reported separately. For EPS, only those attributable to majority interest is used and reported.
+- [comprehensive income](../../../../general/comprehensive%20income.md) ::@:: It is "the change in equity \[net assets\] of a business enterprise during a period from transactions and other events and circumstances from non-owner sources. It includes all changes in equity during a period except those resulting from investments by owners and distributions to owners."
+  - comprehensive income / components ::@:: It encompasses: <p> - All revenues, gains, expenses, and losses that appear in net income. <br/> - Other comprehensive income \(OCI\): Additional items that bypass net income but still affect equity \(e.g., unrealized gains/losses on certain securities, foreign‑currency translation adjustments, pension and post‑retirement benefit adjustments, cash‑flow hedge gains/losses\).
+  - comprehensive income / other comprehensive income ::@:: Additional items that bypass net income but still affect equity \(e.g., unrealized gains/losses on certain securities, foreign‑currency translation adjustments, pension and post‑retirement benefit adjustments, cash‑flow hedge gains/losses\). <p> Also see _accumulated other comprehensive income_.
+  - comprehensive income / presentation ::@:: The section is typically presented as a single line in the statement of changes in equity or within a separate comprehensive income statement.
+    - comprehensive income / presentation / comprehensive income statement ::@:: It start with the net income. And then two sections called "items that may be reclassified subsequently to profit or loss" and "items that will not be reclassified to profit and loss". Finally, sum appropriately to get the "other comprehensive income" and "total comprehensive income". <p> If there is NCI, total comprehensive income, those attributable to majority interest, and those attribute to minority interest are reported separately.
+- [accumulated other comprehensive income](../../../../general/accumulated%20other%20comprehensive%20income.md) \(AOCI\) ::@:: Since other comprehensive income \(OCI\) are not closed to retained earnings each period they accumulate as shareholder equity items and thus are entitled "Accumulated Other Comprehensive Income" and is sometimes referred to as "AOCI".
+  - accumulated other comprehensive income / rationale ::@:: They are excluded from net income because they are either unrealized \(e.g., market‑value adjustments\), non‑operational, or volatile \(which harms comparability\). <p> They are subject to market fluctuations that have not yet been realized through a transaction \(e.g., AFS securities, currency translation\), or caused by events unrelated to core business operations \(e.g., actuarial adjustments to pension plans, financial volatility\).
+  - accumulated other comprehensive income / components ::@:: _common_ components in decreasing _typical_ weights: unrealized gains/losses on available‑for‑sale securities &gt; foreign-currency translation adjustments &gt; pension/post-retirement benefit adjustments &gt; cash-flow hedge gains/losses
+  - accumulated other comprehensive income / examples ::@:: - Alphabet Inc. reported \$1.2 billion in unrealized gains on AFS securities in 2024, reflecting appreciation of Google Cloud–related investments. <br/> - ExxonMobil's \$150 million hedge gain remained unrealized until fuel contract settlements. <br/>  - BP's \$1.8 billion currency‑translation gain stemmed from USD/GBP exchange rate changes rather than operational performance. <br/> - GM's \$300 million pension loss in 2024 was a one‑time actuarial adjustment due to rising interest rates.
+  - accumulated other comprehensive income / presentation ::@:: It is a subsection in the equity section of the balance sheet where "other comprehensive income" is accumulated \(summed or "aggregated"\).
+- [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
 
 ## week 4 lecture
 
 - datetime: 2025-09-22T13:30:00+08:00/2025-09-22T14:50:00+08:00, PT1H20M
 - topic:
+- [questions § week 4 lecture](questions.md#week%204%20lecture)
 
 ## week 4 lecture 2
 
 - datetime: 2025-09-26T09:00:00+08:00/2025-09-26T10:20:00+08:00, PT1H20M
 - topic:
+- [questions § week 4 lecture 2](questions.md#week%204%20lecture%202)
 
 ## aftermath
 
