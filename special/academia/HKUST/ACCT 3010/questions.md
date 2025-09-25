@@ -62,3 +62,9 @@ tags:
 > ---
 >
 > - solutions: {@{1/2/3/4/5}@}
+
+## week 2 lecture
+
+\(none\)
+
+## week 2 lecture 2
