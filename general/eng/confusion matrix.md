@@ -17,7 +17,7 @@ tags:
 
 In [machine learning](machine%20learning.md) and specifically [statistical classification](statistical%20classification.md), a __confusion matrix__ or {@{__error matrix__}@}, is {@{a table that visualizes the performance of a classification algorithm}@}.
 
-Each row represents {@{an actual class while each column represents a predicted class. The reverse is less common but also possible, and both are found in the literature}@}.
+Each row represents {@{an actual class while each column represents a predicted class}@}. {@{The reverse}@} is {@{less common but also possible}@}, and both are {@{found in the literature}@}.
 
 > [!example] examples
 >

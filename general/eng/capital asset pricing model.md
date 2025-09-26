@@ -78,7 +78,7 @@ The CAPM returns {@{the asset-appropriate [required return](required%20rate%20of
 
 {@{Betas exceeding one}@} signify {@{more than average "riskiness"}@}; {@{betas below one}@} indicate {@{lower than average}@}. Thus, {@{a more risky stock will have a higher beta}@} and will be {@{discounted at a higher rate}@}; {@{less sensitive stocks will have lower betas}@} and be {@{discounted at a lower rate}@}. Given {@{the accepted concave [utility function](utility%20function.md#functions)}@}, the CAPM is {@{consistent with intuition}@}—investors {@{\(should\) require a higher return for holding a more risky asset}@}.
 
-Since beta reflects {@{asset-specific sensitivity to non-diversifiable, i.e. market [risk](risk.md)}@}, {@{the market as a whole}@}, {@{by definition, has a beta of one}@}. {@{Stock market indices}@} are {@{frequently used as local proxies for the market—and}@} in that case {@{\(by definition\) have a beta of one}@}. {@{An investor in a large, diversified portfolio}@} \(such as {@{a [mutual fund](mutual%20fund.md) designed to track the total market}@}\), therefore, {@{expects performance in line with the market}@}.
+Since beta reflects {@{asset-specific sensitivity to non-diversifiable, i.e. market [risk](risk.md)}@}, {@{the market as a whole}@}, {@{by definition, has a beta of one}@}. {@{Stock market indices}@} are {@{frequently used as local proxies for the market}@}—and in that case {@{\(by definition\) have a beta of one}@}. {@{An investor in a large, diversified portfolio}@} \(such as {@{a [mutual fund](mutual%20fund.md) designed to track the total market}@}\), therefore, {@{expects performance in line with the market}@}.
 
 ## risk and diversification
 

@@ -133,7 +133,7 @@ This is {@{a \(dualized\) \(1 + 1\)-dimensional case}@}, for {@{a 1-form \(duali
 
 ### Green's theorem
 
-{@{[Green's theorem](Green's%20theorem.md)}@} is {@{immediately recognizable as the third integrand of <!-- both sides -->the left hand side and the first two integrands of the right hand side}@} in {@{the integral in terms of _P_, _Q_, and _R_ cited above}@}.
+{@{[Green's theorem](Green's%20theorem.md)}@} is {@{immediately recognizable as the third integrand of <!-- both sides -->the left hand side}@} and {@{the first two integrands of the right hand side}@} in {@{the integral in terms of _P_, _Q_, and _R_ cited above}@}.
 
 #### in electromagnetism
 

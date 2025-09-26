@@ -161,7 +161,7 @@ Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a
 
 In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}.
 
-It is generally beneficial to {@{minimize the variance of codeword length}@}. For example, {@{a communication buffer receiving Huffman-encoded data may need to be larger}@} to {@{deal with especially long symbols if the tree is especially unbalanced}@}. To {@{minimize variance}@}, {@{simply break ties between queues by choosing the item in the first queue}@}. This modification will {@{retain the mathematical optimality of the Huffman coding}@} while {@{both minimizing variance and minimizing the length of the longest character code}@}.
+It is generally beneficial to {@{minimize the variance of codeword length}@}. For example, {@{a communication buffer}@} receiving {@{Huffman-encoded data may need to be larger}@} to {@{deal with especially long symbols if the tree is especially unbalanced}@}. To {@{minimize variance}@}, {@{simply break ties between queues by choosing the item in the first queue}@}. This modification will {@{retain the mathematical optimality of the Huffman coding}@} while {@{both minimizing variance and minimizing the length of the longest character code}@}.
 
 ### decompression
 

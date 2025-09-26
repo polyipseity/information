@@ -82,7 +82,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\)
 
-{@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}.
+{@{The default order of the table}@} is {@{reverse colex order by $\pi$}@}, which is the same as {@{colex order by $l$}@}. {@{Lex order by $\pi$}@} is the same as {@{lex order by $r$}@}.
 
 > {@{__3-element permutations for comparison__}@}
 >
