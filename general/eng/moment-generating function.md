@@ -71,7 +71,7 @@ Here are {@{some examples of the moment-generating function and the characterist
 
 {@{The moment-generating function}@} is {@{the expectation of a function of the random variable}@}, it can be written as: <!--SR:!2026-01-05,276,330!2026-01-28,294,330-->
 
-- For a discrete [probability mass function](probability%20mass%20function.md), ::@:: $M_{X}(t)=\sum _{i=0}^{\infty }e^{tx_{i} }\,p_{i}$ <!--SR:!2025-10-14,193,310!2025-10-29,204,310-->
+- For a discrete [probability mass function](probability%20mass%20function.md), ::@:: $M_{X}(t)=\sum _{i=0}^{\infty }e^{tx_{i} }\,p_{i}$ <!--SR:!2028-01-27,835,330!2025-10-29,204,310-->
 - For a continuous [probability density function](probability%20density%20function.md), ::@:: $M_{X}(t)=\int _{-\infty }^{\infty }e^{tx}f(x)\,dx$ <!--SR:!2026-01-17,285,330!2026-01-23,290,330-->
 - In the general case: ::@:: $M_{X}(t)=\int _{-\infty }^{\infty }e^{tx}\,dF(x)$, using the [Riemann–Stieltjes integral](Riemann–Stieltjes%20integral.md), and where $F$ is the [cumulative distribution function](cumulative%20distribution%20function.md). This is simply the [Laplace-Stieltjes transform](Laplace-Stieltjes%20transform.md) of $F$, but with the sign of the argument reversed. <!--SR:!2027-02-07,552,310!2026-01-05,276,330-->
 

@@ -19,7 +19,7 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 ### category reduction
 
-There are {@{some restrictions on the distinct values of an attribute}@} depending on the XLMiner edition. One way to resolve this is {@{merging some values into the same value}@}. Funny enough, the category reduction, which is designed for this workload, also has {@{restrictions on the distinct values depending on the XLMiner edition}@}. So {@{multiple category reductions on a subset of distinct values}@} may be needed if there are too many distinct values. <!--SR:!2030-04-14,1683,375!2030-08-07,1779,375!2025-10-14,379,355!2028-10-11,1227,355-->
+There are {@{some restrictions on the distinct values of an attribute}@} depending on the XLMiner edition. One way to resolve this is {@{merging some values into the same value}@}. Funny enough, the category reduction, which is designed for this workload, also has {@{restrictions on the distinct values depending on the XLMiner edition}@}. So {@{multiple category reductions on a subset of distinct values}@} may be needed if there are too many distinct values. <!--SR:!2030-04-14,1683,375!2030-08-07,1779,375!2030-11-04,1847,375!2028-10-11,1227,355-->
 
 XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency and manually}@}. The first option {@{reduces the values with the smallest frequencies into one value and leave the rest intact}@}. The second option {@{reduces the values using a user-specified table mapping current values to new values}@}. <!--SR:!2030-05-04,1699,375!2028-02-09,1043,355!2028-12-16,1263,355!2027-11-27,888,335-->
 

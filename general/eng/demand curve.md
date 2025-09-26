@@ -46,7 +46,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 ## assumptions underlying the derivation of the demand curve
 
 1. Income of ::@:: the consumer remains constant. <!--SR:!2028-11-24,1141,350!2028-11-23,1140,350-->
-2. Price of ::@:: other related goods remain constant. <!--SR:!2025-10-14,253,330!2028-11-14,1133,350-->
+2. Price of ::@:: other related goods remain constant. <!--SR:!2028-12-15,1158,350!2028-11-14,1133,350-->
 3. Preference, tastes, habits and fashions of ::@:: consumer remains constant. <!--SR:!2028-11-10,1130,350!2028-09-02,1075,350-->
 4. Number of ::@:: buyers remain constant. <!--SR:!2028-11-15,1134,350!2028-08-11,1057,350-->
 5. The commodity is ::@:: a normal good and has no status value. <!--SR:!2025-12-05,294,330!2028-08-14,1059,350-->
@@ -57,7 +57,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 - Market demand curve: ::@:: the relationship between the quantity of a product that all consumers in the market are willing to buy and its price. The market demand curve can be obtained by adding up the individual demand curves of individual consumers in the industry horizontally. <!--SR:!2027-10-10,801,330!2027-09-10,781,330-->
 - Firm demand curve: ::@:: \(A firm demand curve may also be referred to as the demand curve of the market to which the firm is exposed.\) It refers to the relationship between the number of customers willing to buy a certain product from the enterprise and its price. <!--SR:!2027-08-06,742,330!2025-12-02,291,330-->
 
-The slope of the market industry demand curve is {@{greater than the slope of the individual demand curve}@}; the slope of the industry demand curve is {@{greater than the slope of the enterprise demand curve}@}.  The slope of the industry's demand curve is {@{greater than the slope of a firm's demand curve}@}. <!--SR:!2025-10-14,253,330!2025-12-05,294,330!2025-11-15,274,349-->
+The slope of the market industry demand curve is {@{greater than the slope of the individual demand curve}@}; the slope of the industry demand curve is {@{greater than the slope of the enterprise demand curve}@}.  The slope of the industry's demand curve is {@{greater than the slope of a firm's demand curve}@}. <!--SR:!2028-12-09,1152,350!2025-12-05,294,330!2025-11-15,274,349-->
 
 ## shift of a demand curve
 
@@ -100,7 +100,7 @@ There is {@{movement _along_ a demand curve}@} when {@{a change in price causes 
 
 - see: [price elasticity of demand](price%20elasticity%20of%20demand.md)
 
-{@{The price elasticity of demand}@} is {@{a measure of the sensitivity of the quantity variable, Q, to changes in the price variable, P}@}. Its value answers {@{the question of how much the quantity will change in percentage terms after a 1% change in the price}@}. This is thus important in {@{determining how revenue will change}@}. The elasticity is {@{negative because the price rises, and the quantity demanded falls, a consequence of the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2025-10-16,255,330!2028-11-03,1125,350!2025-12-03,292,330!2025-10-14,253,330!2028-09-27,1095,350-->
+{@{The price elasticity of demand}@} is {@{a measure of the sensitivity of the quantity variable, Q, to changes in the price variable, P}@}. Its value answers {@{the question of how much the quantity will change in percentage terms after a 1% change in the price}@}. This is thus important in {@{determining how revenue will change}@}. The elasticity is {@{negative because the price rises, and the quantity demanded falls, a consequence of the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2025-10-16,255,330!2028-11-03,1125,350!2025-12-03,292,330!2028-12-14,1157,350!2028-09-27,1095,350-->
 
 The elasticity of demand indicates {@{how sensitive the demand for a good is to a price change}@}. If {@{the elasticity's [absolute value](absolute%20value.md) is between zero and 1, demand is said to be inelastic}@}; if {@{it equals 1, demand is "unitary elastic"}@}; if {@{it is greater than 1, demand is elastic}@}. A small value—inelastic demand—implies that {@{changes in price have little influence on demand}@}. High elasticity indicates that {@{consumers will respond to a price rise by buying much less of the good}@}. For examples of elasticities of particular goods, see the article section, ["Selected price elasticities"](price%20elasticity%20of%20demand.md#selected%20price%20elasticities). <!--SR:!2028-08-24,1067,350!2028-11-04,1126,350!2025-11-10,274,330!2025-11-04,269,330!2028-10-23,1116,350!2028-08-08,1055,350-->
 
@@ -124,7 +124,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 >
 > {@{Derived demand}@} <!--SR:!2028-10-22,1115,350!2028-12-01,1147,350-->
 
-The demand for goods can be further divorced into {@{the demand markets for final and [intermediate goods](intermediate%20good.md)}@}. An intermediate good is {@{a good utilized in the process of creating another good, effectively named the [final good](final%20good.md)}@}.<sup>[\[17\]](#^ref-17)</sup> It is important to note that {@{the cooperation of several inputs in many circumstances yields a final good}@} and thus {@{the demand for these goods is _derived_ from the demand of the final product}@}; this concept is {@{known as [derived demand](derived%20demand.md)}@}.<sup>[\[18\]](#^ref-18)</sup> {@{The relationship between the intermediate goods and the final good}@} is {@{direct and positive as demand for a final product increases demand for the intermediate goods used to make it}@}. <!--SR:!2027-07-20,738,330!2025-10-14,253,330!2025-10-16,255,330!2028-11-01,1123,350!2027-08-14,750,330!2028-07-17,1036,350!2025-12-04,293,330-->
+The demand for goods can be further divorced into {@{the demand markets for final and [intermediate goods](intermediate%20good.md)}@}. An intermediate good is {@{a good utilized in the process of creating another good, effectively named the [final good](final%20good.md)}@}.<sup>[\[17\]](#^ref-17)</sup> It is important to note that {@{the cooperation of several inputs in many circumstances yields a final good}@} and thus {@{the demand for these goods is _derived_ from the demand of the final product}@}; this concept is {@{known as [derived demand](derived%20demand.md)}@}.<sup>[\[18\]](#^ref-18)</sup> {@{The relationship between the intermediate goods and the final good}@} is {@{direct and positive as demand for a final product increases demand for the intermediate goods used to make it}@}. <!--SR:!2027-07-20,738,330!2028-12-08,1151,350!2025-10-16,255,330!2028-11-01,1123,350!2027-08-14,750,330!2028-07-17,1036,350!2025-12-04,293,330-->
 
 In order to {@{construct a derived demand curve}@}, {@{specific assumptions must be made and values held constant}@}. {@{The supply curves for other inputs, demand curve for the final good, and production conditions}@} must all be held constant to {@{ascertain an effective derived demand curve}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2028-09-08,1080,350!2025-12-05,294,330!2027-10-16,812,330!2027-09-29,785,330-->
 

@@ -45,7 +45,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A biconnected graph on five vertices and six edges](../../archives/Wikimedia%20Commons/5%20Node%20Biconnected.svg)}@}
 >
-> {@{A biconnected graph on five vertices and six edges}@} <!--SR:!2026-01-10,296,332!2025-10-14,208,312-->
+> {@{A biconnected graph on five vertices and six edges}@} <!--SR:!2026-01-10,296,332!2028-03-30,898,332-->
 
 <!-- markdownlint MD028 -->
 

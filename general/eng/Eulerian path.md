@@ -108,7 +108,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 
 ### special cases
 
-{@{An [asymptotic formula](asymptotic%20analysis.md)}@} for {@{the number of Eulerian circuits in the [complete graphs](complete%20graph.md)}@} was determined by {@{[McKay](Brendan%20McKay%20(mathematician).md) and Robinson \(1995\)}@}:<sup>[\[11\]](#^ref-11)</sup> $$\operatorname {ec} (K_{n})=2^{\frac {(n+1)}{2} }\pi ^{\frac {1}{2} }e^{ {\frac {-n^{2} }{2} }+{\frac {11}{12} } }n^{\frac {(n-2)(n+1)}{2} }{\bigl (}1+O(n^{-{\frac {1}{2} }+\epsilon }){\bigr )}.$$ <!--SR:!2028-11-01,1127,362!2025-10-14,250,342!2026-08-19,469,322-->
+{@{An [asymptotic formula](asymptotic%20analysis.md)}@} for {@{the number of Eulerian circuits in the [complete graphs](complete%20graph.md)}@} was determined by {@{[McKay](Brendan%20McKay%20(mathematician).md) and Robinson \(1995\)}@}:<sup>[\[11\]](#^ref-11)</sup> $$\operatorname {ec} (K_{n})=2^{\frac {(n+1)}{2} }\pi ^{\frac {1}{2} }e^{ {\frac {-n^{2} }{2} }+{\frac {11}{12} } }n^{\frac {(n-2)(n+1)}{2} }{\bigl (}1+O(n^{-{\frac {1}{2} }+\epsilon }){\bigr )}.$$ <!--SR:!2028-11-01,1127,362!2029-01-05,1179,362!2026-08-19,469,322-->
 
 A similar formula was {@{later obtained by M.I. Isaev \(2009\)}@} for {@{[complete bipartite graphs](complete%20bipartite%20graph.md)}@}:<sup>[\[12\]](#^ref-12)</sup> $$\operatorname {ec} (K_{n,n})=\left({\frac {n}{2} }-1\right)!^{2n}2^{n^{2}-n+{\frac {1}{2} } }\pi ^{-n+{\frac {1}{2} } }n^{n-1}{\bigl (}1+O(n^{-{\frac {1}{2} }+\epsilon }){\bigr )}.$$ <!--SR:!2026-07-28,452,322!2027-05-05,689,342-->
 

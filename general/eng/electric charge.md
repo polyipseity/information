@@ -167,7 +167,7 @@ Aside from {@{the properties described in articles about [electromagnetism](elec
 - [SI electromagnetism units](SI%20electromagnetism%20units.md)
 - [Color charge](color%20charge.md)
 - [Partial charge](partial%20charge.md)
-- [Positron](positron.md) or antielectron ::@:: is an antiparticle or antimatter counterpart of the electron <!--SR:!2026-02-14,290,330!2025-10-14,177,310-->
+- [Positron](positron.md) or antielectron ::@:: is an antiparticle or antimatter counterpart of the electron <!--SR:!2026-02-14,290,330!2027-11-13,760,330-->
 
 ## references
 

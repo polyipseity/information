@@ -344,7 +344,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    | <!--SR:!2026-05-16,334,350!2026-01-26,239,330!2026-03-18,290,330!2026-01-31,244,330!2026-05-16,334,350!2026-03-13,285,330!2026-04-26,325,350!2026-03-29,301,350!2026-06-02,351,350!2026-02-10,254,330!2026-02-08,252,330!2026-02-25,269,330!2026-05-27,345,350!2026-04-30,329,350!2026-03-27,299,350-->
 
 - activity cost driver - setups
-  - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2025-10-14,160,310!2026-03-13,285,330-->
+  - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total <!--SR:!2027-08-26,681,330!2026-03-13,285,330-->
   - activity cost driver - setups / row headers ::@:: activity cost pool, number of units produced, average units per batch, number of setups <!--SR:!2025-11-18,170,310!2026-02-06,250,330-->
 
 ## total manufacturing overhead

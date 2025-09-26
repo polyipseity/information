@@ -30,7 +30,7 @@ Under those assumptions direct material total variance can be calculated as:
 | ------------------------------------------------------ | --- | ------------------------------: | --------------- |
 | {@{100 units should have cost \(× \$ 120 per unit\)}@} |     |                  {@{€ 12,000}@} |                 |
 | &emsp; {@{but did cost}@}                              |     |           {@{<u>€ 13,144</u>}@} |                 |
-| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2025-10-15,56,310!2025-10-23,63,310!2025-10-19,59,310!2025-10-14,55,310!2025-10-15,56,310!2025-10-28,67,310!2025-10-16,57,310-->
+| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2025-10-15,56,310!2025-10-23,63,310!2025-10-19,59,310!2026-06-06,235,330!2025-10-15,56,310!2025-10-28,67,310!2025-10-16,57,310-->
 
 Direct material total variance can be reconciled to {@{[direct material price variance](direct%20material%20price%20variance.md) and [direct material usage variance](direct%20material%20usage%20variance.md)}@} by: <!--SR:!2025-10-19,59,310-->
 
@@ -40,7 +40,7 @@ Direct material total variance can be reconciled to {@{[direct material price va
 | {@{Direct material price variance}@} |     |          {@{<u>€ 424</u>}@} | {@{\(A\)}@} |
 | {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2025-10-17,58,310!2025-10-21,61,310!2025-10-28,67,310!2026-05-28,227,330!2025-10-20,60,310!2025-10-28,67,310!2025-10-17,58,310!2025-10-17,58,310!2025-10-28,67,310-->
 
-See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2025-10-28,67,310!2025-10-14,55,310-->
+See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2025-10-28,67,310!2026-06-08,237,330-->
 
 ## see also
 

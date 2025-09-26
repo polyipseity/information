@@ -82,7 +82,7 @@ The content is in teaching order.
 - [bending](../../../../general/bending.md)
   - bending conditions ::@:: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2028-07-27,1082,321!2028-12-24,1301,361-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
-- [cantilever](../../../../general/cantilever.md) ::@:: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2025-10-14,349,310!2029-10-03,1549,370-->
+- [cantilever](../../../../general/cantilever.md) ::@:: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2029-11-18,1496,330!2029-10-03,1549,370-->
 - simply supported beam ::@:: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2028-01-12,954,310!2027-03-17,725,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::@:: twisting of an object <!--SR:!2028-02-11,1043,350!2029-10-28,1568,370-->
   - torsion deformation ::@:: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2027-12-22,1006,350!2030-03-13,1674,370-->
