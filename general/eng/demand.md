@@ -59,7 +59,7 @@ Demand curve is {@{a graphical presentation of the "[law of demand](law%20of%20d
 
 1. Negative demand — ::@:: Consumers dislike the product and may even pay to avoid it. <!--SR:!2025-12-24,311,344!2027-08-24,703,324-->
 2. Nonexistent demand — ::@:: Consumers may be unaware of or uninterested in the product. <!--SR:!2026-01-11,325,344!2026-01-26,338,344-->
-3. Latent demand — ::@:: Consumers may share a strong need that cannot be satisfied by an existing product. <!--SR:!2025-10-13,252,330!2025-12-26,313,344-->
+3. Latent demand — ::@:: Consumers may share a strong need that cannot be satisfied by an existing product. <!--SR:!2028-12-06,1150,350!2025-12-26,313,344-->
 4. Declining demand — ::@:: Consumers begin to buy the product less frequently or not at all. <!--SR:!2025-12-04,296,344!2026-01-30,341,344-->
 5. Irregular demand — ::@:: Consumer purchases vary on a seasonal, monthly, weekly, daily, or even hourly basis. <!--SR:!2028-02-01,904,344!2026-01-13,327,344-->
 6. Full demand — ::@:: Consumers are adequately buying all products put into the marketplace. <!--SR:!2026-01-22,334,344!2025-12-28,314,344-->

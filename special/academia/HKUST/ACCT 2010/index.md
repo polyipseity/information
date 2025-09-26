@@ -131,7 +131,7 @@ The content is in teaching order.
 - [chart of accounts](../../../../general/chart%20of%20accounts.md) ::@:: list of financial accounts and their identifiers, grouped into categories <!--SR:!2029-07-09,1370,357!2029-06-07,1346,357-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / groups ::@:: as an example: assets, liabilities, stockholders' equity, revenues, expenses <!--SR:!2029-03-23,1286,357!2026-08-05,503,317-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / assets ::@:: Accounts with "receivable" in the title are __always__ assets. Prepaid expenses is __always__ an asset. <!--SR:!2029-04-22,1309,357!2028-08-15,1110,357-->
-  - [chart of accounts](../../../../general/chart%20of%20accounts.md) / liabilities ::@:: Accounts with "payable" and "unearned" in the title are __always__ liabilities. <!--SR:!2025-10-13,300,337!2029-02-21,1262,357-->
+  - [chart of accounts](../../../../general/chart%20of%20accounts.md) / liabilities ::@:: Accounts with "payable" and "unearned" in the title are __always__ liabilities. <!--SR:!2029-08-05,1392,357!2029-02-21,1262,357-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / revenues ::@:: Account titles are typically formed by joining their source and then the word "revenue". <!--SR:!2029-04-28,1315,357!2029-03-05,1272,357-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / expenses ::@:: Account titles are typically formed by joining their source and then the word "expense". The account for inventory sold is typically titled "Cost of Goods Sold". <!--SR:!2028-12-07,1201,357!2025-11-23,328,337-->
 - [financial transaction](../../../../general/financial%20transaction.md)

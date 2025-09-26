@@ -85,7 +85,7 @@ If {@{$(\mathbf {\color {blue}{i} } ,\mathbf {\color {red}{j} } ,\mathbf {\color
 
 {@{A [mnemonic](mnemonic.md) for these formulas}@} is that they can be {@{deduced from any other of them}@} by {@{a [cyclic permutation](cyclic%20permutation.md) of the basis vectors}@}. {@{This mnemonic applies}@} also to {@{many formulas given in this article}@}. <!--SR:!2025-10-31,70,327!2025-11-05,74,327!2025-10-30,69,327!2025-11-03,72,327!2025-10-26,65,327-->
 
-{@{The [anticommutativity](anticommutativity.md) of the cross product}@}, implies that {@{$${\begin{alignedat}{2}\mathbf {\color {red}{j} } &\times \mathbf {\color {blue}{i} } &&=-\mathbf {\color {green}{k} } \\\mathbf {\color {green}{k} } &\times \mathbf {\color {red}{j} } &&=-\mathbf {\color {blue}{i} } \\\mathbf {\color {blue}{i} } &\times \mathbf {\color {green}{k} } &&=-\mathbf {\color {red}{j} } \end{alignedat} }$$}@} <!--SR:!2025-11-03,72,327!2025-10-13,54,310-->
+{@{The [anticommutativity](anticommutativity.md) of the cross product}@}, implies that {@{$${\begin{alignedat}{2}\mathbf {\color {red}{j} } &\times \mathbf {\color {blue}{i} } &&=-\mathbf {\color {green}{k} } \\\mathbf {\color {green}{k} } &\times \mathbf {\color {red}{j} } &&=-\mathbf {\color {blue}{i} } \\\mathbf {\color {blue}{i} } &\times \mathbf {\color {green}{k} } &&=-\mathbf {\color {red}{j} } \end{alignedat} }$$}@} <!--SR:!2025-11-03,72,327!2026-06-03,233,330-->
 
 {@{The anticommutativity of the cross product}@} \(and {@{the obvious lack of linear independence}@}\) also implies that <p> &emsp; {@{$\mathbf {\color {blue}{i} } \times \mathbf {\color {blue}{i} } =\mathbf {\color {red}{j} } \times \mathbf {\color {red}{j} } =\mathbf {\color {green}{k} } \times \mathbf {\color {green}{k} } =\mathbf {0}$}@} \({@{the [zero vector](zero%20vector.md#additive%20identities)}@}\). <!--SR:!2025-11-03,72,327!2025-11-02,71,327!2025-10-31,69,327!2025-10-22,62,327-->
 
@@ -103,7 +103,7 @@ This can be interpreted as the {@{decomposition of __a__ × __b__}@} into {@{the
 
 {@{The cross product}@} can also be expressed as {@{the [formal](formal%20calculation.md) determinant}@}:<sup>[\[note 1\]](#^ref-note-1)</sup><sup>[\[1\]](#^ref-1)</sup> {@{$$\mathbf {a\times b} ={\begin{vmatrix}\mathbf {i} &\mathbf {j} &\mathbf {k} \\a_{1}&a_{2}&a_{3}\\b_{1}&b_{2}&b_{3}\\\end{vmatrix} }$$}@} <!--SR:!2025-11-04,73,327!2025-10-24,64,327!2025-10-29,68,327-->
 
-{@{This determinant}@} can be {@{computed using [Sarrus's rule](rule%20of%20Sarrus.md) or [cofactor expansion](cofactor%20expansion.md)}@}. Using {@{Sarrus's rule}@}, it expands to {@{$${\begin{aligned}\mathbf {a\times b} &=(a_{2}b_{3}\mathbf {i} +a_{3}b_{1}\mathbf {j} +a_{1}b_{2}\mathbf {k} )-(a_{3}b_{2}\mathbf {i} +a_{1}b_{3}\mathbf {j} +a_{2}b_{1}\mathbf {k} )\\&=(a_{2}b_{3}-a_{3}b_{2})\mathbf {i} -(a_{1}b_{3}-a_{3}b_{1})\mathbf {j} +(a_{1}b_{2}-a_{2}b_{1})\mathbf {k} .\end{aligned} }$$}@} which gives {@{the components of the resulting vector directly}@}. <!--SR:!2025-10-25,65,327!2025-10-26,65,327!2025-11-03,72,327!2025-11-06,75,327!2025-10-13,54,310-->
+{@{This determinant}@} can be {@{computed using [Sarrus's rule](rule%20of%20Sarrus.md) or [cofactor expansion](cofactor%20expansion.md)}@}. Using {@{Sarrus's rule}@}, it expands to {@{$${\begin{aligned}\mathbf {a\times b} &=(a_{2}b_{3}\mathbf {i} +a_{3}b_{1}\mathbf {j} +a_{1}b_{2}\mathbf {k} )-(a_{3}b_{2}\mathbf {i} +a_{1}b_{3}\mathbf {j} +a_{2}b_{1}\mathbf {k} )\\&=(a_{2}b_{3}-a_{3}b_{2})\mathbf {i} -(a_{1}b_{3}-a_{3}b_{1})\mathbf {j} +(a_{1}b_{2}-a_{2}b_{1})\mathbf {k} .\end{aligned} }$$}@} which gives {@{the components of the resulting vector directly}@}. <!--SR:!2025-10-25,65,327!2025-10-26,65,327!2025-11-03,72,327!2025-11-06,75,327!2026-05-31,230,330-->
 
 ### using Levi-Civita tensors
 
@@ -411,7 +411,7 @@ For example, {@{the [Heisenberg algebra](Heisenberg%20algebra.md#Heisenberg%20al
 
 - Further information: ::@:: [quaternions and spatial rotation](quaternions%20and%20spatial%20rotation.md) <!--SR:!2025-11-04,73,327!2025-11-04,73,327-->
 
-The cross product can also be described in terms of {@{[quaternions](quaternion.md)}@}. In general, if {@{a vector \[_a_<sub>1</sub>, _a_<sub>2</sub>, _a_<sub>3</sub>\]}@} is represented as {@{the quaternion _a_<sub>1</sub>_i_ + _a_<sub>2</sub>_j_ + _a_<sub>3</sub>_k_}@}, {@{the cross product of two vectors}@} can be obtained by {@{taking their product as quaternions}@} and {@{deleting the real part of the result}@}. {@{The real part}@} will be {@{the negative of the dot product of the two vectors}@}. <!--SR:!2025-10-13,54,310!2025-10-26,66,327!2025-10-28,67,327!2025-10-26,65,327!2025-10-21,61,327!2025-10-25,65,327!2025-10-22,62,327!2025-10-29,68,327-->
+The cross product can also be described in terms of {@{[quaternions](quaternion.md)}@}. In general, if {@{a vector \[_a_<sub>1</sub>, _a_<sub>2</sub>, _a_<sub>3</sub>\]}@} is represented as {@{the quaternion _a_<sub>1</sub>_i_ + _a_<sub>2</sub>_j_ + _a_<sub>3</sub>_k_}@}, {@{the cross product of two vectors}@} can be obtained by {@{taking their product as quaternions}@} and {@{deleting the real part of the result}@}. {@{The real part}@} will be {@{the negative of the dot product of the two vectors}@}. <!--SR:!2026-06-01,231,330!2025-10-26,66,327!2025-10-28,67,327!2025-10-26,65,327!2025-10-21,61,327!2025-10-25,65,327!2025-10-22,62,327!2025-10-29,68,327-->
 
 ### octonions
 

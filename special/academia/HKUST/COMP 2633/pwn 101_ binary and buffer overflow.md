@@ -67,7 +67,7 @@ A related instruction is {@{`lea`}@}: <!--SR:!2029-05-02,1309,350-->
 
 - `lea <dest>, <src>` ::@:: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.) <!--SR:!2028-11-03,1171,350!2028-10-19,1157,350-->
 
-Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2027-03-02,679,330!2028-01-24,946,350!2028-11-24,1188,350!2025-10-13,293,330-->
+Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception of flags)}@}, a natural question is {@{why is there a `lea` instruction in the first place}@}? Apart from {@{`lea` not setting some flags}@}, it is also {@{convenient for implementing array access}@}. Further reading: <https://stackoverflow.com/q/1658294>. <!--SR:!2027-03-02,679,330!2028-01-24,946,350!2028-11-24,1188,350!2029-06-09,1335,350-->
 
 ## calling convention
 
@@ -105,7 +105,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `break <where>` ::@:: set a breakpoint <!--SR:!2029-05-17,1317,350!2028-02-11,960,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2029-05-22,1320,350!2028-03-01,976,350-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2028-11-03,1169,350!2029-06-10,1342,350-->
-- `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2025-10-13,293,330-->
+- `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2029-06-05,1331,350-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2028-10-16,1154,350-->
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2029-01-29,1238,350-->
@@ -219,7 +219,7 @@ gets_s(buffer, 5); // Vulnerable to buffer overflow, but you can only overflow b
 
 ### stack canaries
 
-In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2029-05-08,1314,350!2025-10-13,293,330!2028-02-08,959,350!2027-04-28,721,330-->
+In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2029-05-08,1314,350!2029-06-08,1334,350!2028-02-08,959,350!2027-04-28,721,330-->
 
 In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function}@}, {@{printing an error and terminating the program}@} if modified. This inhibits {@{exploitation of buffer overflow}@} because {@{overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2027-12-27,855,330!2028-05-24,957,330!2028-05-10,946,330!2025-11-05,26,380!2025-11-06,26,381-->
 

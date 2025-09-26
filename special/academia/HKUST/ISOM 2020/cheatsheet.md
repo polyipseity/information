@@ -33,7 +33,7 @@ The cheatsheet is provided during the final examination.
 - `float` ::@:: floating point <!--SR:!2029-03-06,1245,350!2029-02-24,1237,350-->
 - `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2029-01-25,1213,350-->
 - `str` ::@:: string <!--SR:!2029-01-08,1199,350!2029-02-21,1233,350-->
-- `[...]` ::@:: list <!--SR:!2029-01-12,1202,350!2025-10-13,277,330-->
+- `[...]` ::@:: list <!--SR:!2029-01-12,1202,350!2029-03-31,1265,350-->
 
 ## arithmetic operators
 
@@ -85,7 +85,7 @@ The cheatsheet is provided during the final examination.
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
 - `>` ::@:: is greater than? <!--SR:!2029-03-07,1245,350!2025-10-24,285,330-->
 - `<=` ::@:: is less than or equal to? <!--SR:!2025-10-19,281,330!2025-10-21,283,330-->
-- `>=` ::@:: is greater than or equal to? <!--SR:!2025-10-13,277,330!2029-03-04,1243,350-->
+- `>=` ::@:: is greater than or equal to? <!--SR:!2029-03-30,1264,350!2029-03-04,1243,350-->
 
 ## boolean operators
 

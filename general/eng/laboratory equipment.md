@@ -165,7 +165,7 @@ return _chain.from_iterable(await _gather(
 - [mortar and pestle](mortar%20and%20pestle.md)→::@::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2028-08-26,1158,250!2026-08-20,785,270-->
 - [pipeclay triangle](pipeclay%20triangle.md)→::@::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2025-11-12,177,150-->
 - [reagent bottle](reagent%20bottle.md)→::@::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2028-03-09,1155,270!2026-04-14,423,250-->
-- [round-bottom(ed) flask](round-bottom%20flask.md)→::@::←[rubber bulb](rubber%20bulb.md) <!--SR:!2026-07-09,473,190!2025-10-13,309,190-->
+- [round-bottom(ed) flask](round-bottom%20flask.md)→::@::←[rubber bulb](rubber%20bulb.md) <!--SR:!2026-07-09,473,190!2028-02-05,845,210-->
 - [rubber bulb](rubber%20bulb.md)→::@::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2031-06-03,2103,290!2027-07-08,1049,290-->
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→::@::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2026-06-13,252,150!2028-04-30,1044,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→::@::←[spatula](spatula.md) <!--SR:!2026-06-23,750,270!2027-06-17,1037,290-->

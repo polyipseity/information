@@ -100,7 +100,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-05T10:30:00+08:00/2025-02-05T11:50:00+08:00
 - topic: process analysis, a process view of organization, Little's law, flow time analysis
-- [business process](../../../../general/business%20process.md) ::@:: a set of activities; different views depending on if you are the customer or the manager <!--SR:!2026-01-06,251,338!2025-10-13,185,338-->
+- [business process](../../../../general/business%20process.md) ::@:: a set of activities; different views depending on if you are the customer or the manager <!--SR:!2026-01-06,251,338!2028-02-25,865,358-->
   - business process / customers' view ::@:: Let's say you are a patient in a hospital. You need to go through a set of processes: registration, preparation, procedure, recovery, and discharge. You can use a _Gantt chart_ to visualize the duration of your activities. <!--SR:!2025-11-17,214,338!2026-06-03,373,358-->
 - [Gantt chart](../../../../general/Gantt%20chart.md) ::@:: It is a bar chart that illustrates a project schedule. It can show the sequence, duration, and dependence of activities. <!--SR:!2026-05-26,365,358!2026-05-26,365,358-->
 - [business process](../../../../general/business%20process.md)

@@ -108,7 +108,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 {@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-10-29,278,330!2027-11-18,837,330!2025-10-20,270,330-->
 
-{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2025-10-13,265,330!2025-10-15,267,330!2025-10-22,273,330!2026-01-07,339,350-->
+{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2025-10-15,267,330!2025-10-22,273,330!2026-01-07,339,350-->
 
 ```Python
 >>> import numpy as np
@@ -232,7 +232,7 @@ array([[[0, 0, 0],
 
 ## replicating, joining, or mutating existing arrays
 
-Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2026-01-05,337,350!2025-10-13,265,330!2026-01-14,344,350!2025-11-11,289,330!2026-01-06,338,350-->
+Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2026-01-05,337,350!2029-01-31,1206,350!2026-01-14,344,350!2025-11-11,289,330!2026-01-06,338,350-->
 
 ```Python
 >>> import numpy as np

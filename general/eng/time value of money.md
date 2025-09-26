@@ -117,7 +117,7 @@ To {@{get the FV of an annuity due}@}, {@{multiply the above equation by \(1 + _
 
 __Where i ≠ g :__ ::@:: $$FV(A)\,=\,A\cdot {\frac {\left(1+i\right)^{n}-\left(1+g\right)^{n} }{i-g} }$$ <!--SR:!2026-02-16,276,330!2027-07-02,657,330-->
 
-__Where i = g :__ ::@:: $$FV(A)\,=\,A\cdot n(1+i)^{n-1}$$ (annotation: the power is $n - 1$ instead of $n$ due to payments being made at period end instead of period start) <!--SR:!2025-10-13,178,310!2026-03-06,294,330-->
+__Where i = g :__ ::@:: $$FV(A)\,=\,A\cdot n(1+i)^{n-1}$$ (annotation: the power is $n - 1$ instead of $n$ due to payments being made at period end instead of period start) <!--SR:!2027-11-15,763,330!2026-03-06,294,330-->
 
 ### formula table
 

@@ -91,7 +91,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 
-- show filepath and cursor position ::@:: \<Ctrl\>+g <!--SR:!2026-01-01,680,288!2025-10-13,238,148-->
+- show filepath and cursor position ::@:: \<Ctrl\>+g <!--SR:!2026-01-01,680,288!2027-03-17,520,168-->
 - execute (command) in shell ::@:: :!(command)\<Enter\> <!--SR:!2028-07-16,1257,273!2026-01-09,741,313-->
 
 ## options

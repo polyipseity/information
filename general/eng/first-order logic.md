@@ -329,7 +329,7 @@ If {@{a sentence φ evaluates to _true_}@} under {@{a given interpretation _M_}@
 
 {@{Satisfiability of formulas with free variables}@} is {@{more complicated}@}, because {@{an interpretation on its own}@} {@{does not determine the truth value of such a formula}@}. {@{The most common convention}@} is that {@{a formula φ with free variables $x_{1}$, ..., $x_{n}$}@} is {@{said to be satisfied by an interpretation}@} if {@{the formula φ remains true}@} regardless {@{which individuals from the domain of discourse are assigned to its free variables $x_{1}$, ..., $x_{n}$}@}. This has the same effect as saying that {@{a formula φ is satisfied}@} {@{if and only if its [universal closure](universal%20closure.md#universal%20closure) $\forall x_{1}\dots \forall x_{n}\phi (x_{1},\dots ,x_{n})$ is satisfied}@}. <!--SR:!2025-11-05,79,344!2025-10-25,73,344!2025-11-14,87,362!2025-10-18,67,326!2025-11-14,89,362!2025-10-22,70,344!2025-11-03,78,344!2025-11-01,75,344!2025-11-12,87,362!2025-11-06,80,344!2025-11-16,89,362-->
 
-{@{A formula is _logically valid_ \(or simply _valid_\)}@} if {@{it is true in every interpretation}@}.<sup>[\[22\]](#^ref-22)</sup> These formulas play {@{a role similar to [tautologies](tautology%20(logic).md) in propositional logic}@}. <!--SR:!2025-11-19,92,362!2025-10-13,62,326!2025-11-01,79,344-->
+{@{A formula is _logically valid_ \(or simply _valid_\)}@} if {@{it is true in every interpretation}@}.<sup>[\[22\]](#^ref-22)</sup> These formulas play {@{a role similar to [tautologies](tautology%20(logic).md) in propositional logic}@}. <!--SR:!2025-11-19,92,362!2026-07-20,280,346!2025-11-01,79,344-->
 
 {@{A formula φ is a _logical consequence_ of a formula ψ}@} if {@{every interpretation that makes ψ true also makes φ true}@}. In this case one says that {@{φ is logically implied by ψ}@}. <!--SR:!2025-10-30,77,344!2025-11-19,92,362!2025-11-07,81,344-->
 
@@ -338,7 +338,7 @@ If {@{a sentence φ evaluates to _true_}@} under {@{a given interpretation _M_}@
 {@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways of eliminating quantified variables}@} from first-order logic that {@{do not involve replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\) <!--SR:!2025-11-18,92,362!2025-11-15,88,362!2025-11-14,89,362!2025-10-14,63,326!2025-10-25,69,344!2025-11-03,77,344-->
 
 - [Cylindric algebra](cylindric%20algebra.md), ::@:: by [Alfred Tarski](Alfred%20Tarski.md), et al.; <!--SR:!2025-10-24,72,344!2025-11-06,80,344-->
-- [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md); <!--SR:!2025-10-13,62,326!2025-11-09,83,344-->
+- [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md); <!--SR:!2026-07-21,281,346!2025-11-09,83,344-->
 - [Predicate functor logic](predicate%20functor%20logic.md), ::@:: primarily by [Willard Quine](Willard%20Van%20Orman%20Quine.md). <!--SR:!2025-11-06,80,344!2025-10-25,73,344-->
 
 {@{These [algebras](algebra.md)}@} are {@{all [lattices](lattice%20(order).md)}@} that {@{properly extend the [two-element Boolean algebra](Two-element%20Boolean%20algebra.md)}@}. <!--SR:!2025-11-13,88,362!2025-11-05,79,344!2025-11-05,79,344-->

@@ -27,7 +27,7 @@ Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator func
 - (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and <!--SR:!2025-11-13,241,330!2025-12-07,261,330-->
 - (annotation: division by positive infinity) ::@:: ${\frac {1}{+\infty } }=0$; <!--SR:!2027-09-25,749,330!2025-12-25,276,330-->
 
-then {@{the indicator and characteristic functions are related}@} by {@{the equations $$\mathbf {1} _{A}(x)={\frac {1}{1+\chi _{A}(x)} }$$ and $$\chi _{A}(x)=(+\infty )\left(1-\mathbf {1} _{A}(x)\right).$$}@} <!--SR:!2026-01-17,294,330!2025-10-13,200,310-->
+then {@{the indicator and characteristic functions are related}@} by {@{the equations $$\mathbf {1} _{A}(x)={\frac {1}{1+\chi _{A}(x)} }$$ and $$\chi _{A}(x)=(+\infty )\left(1-\mathbf {1} _{A}(x)\right).$$}@} <!--SR:!2026-01-17,294,330!2028-02-24,864,330-->
 
 ## subgradient
 

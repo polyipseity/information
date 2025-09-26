@@ -417,7 +417,7 @@ return chain.from_iterable(await gather(
 - permanganate ion::@::MnO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-07,1459,293!2026-09-01,1005,253-->
 - oxide ion::@::O<sup>2-</sup> <!--SR:!2032-05-06,2826,330!2026-06-30,1200,313-->
 - sulfide ion::@::S<sup>2-</sup> <!--SR:!2029-01-11,1794,287!2030-05-27,2286,330-->
-- sulfate ion::@::SO<sub>4</sub><sup>2-</sup> <!--SR:!2030-11-15,2375,319!2025-10-13,1049,345-->
+- sulfate ion::@::SO<sub>4</sub><sup>2-</sup> <!--SR:!2030-11-15,2375,319!2035-09-11,3620,345-->
 - sulfite ion::@::SO<sub>3</sub><sup>2-</sup> <!--SR:!2028-08-21,1757,313!2026-07-16,1061,274-->
 - carbonate ion::@::CO<sub>3</sub><sup>2-</sup> <!--SR:!2029-09-29,1990,290!2029-10-30,2133,333-->
 - chromate ion::@::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2028-07-31,1651,278!2031-10-25,2674,333-->
