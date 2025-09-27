@@ -126,7 +126,7 @@ The content is in teaching order.
   - social business model / goal ::@:: deepen interactions; expedite decision making, information sharing, and innovating \(thus requires information transparency\)
   - social business model / examples ::@:: blogs and wikis, communities, crowdsourcing, file sharing, shared workspaces, social commerce, social marketing, social networks
 - collaboration
-  - collaboration / business benefits ::@:: improve ROI, custoemr services, financial performance, innovation, organizations, productivity, quality, etc.
+  - collaboration / business benefits ::@:: improve ROI, customer services, financial performance, innovation, organizations, productivity, quality, etc.
   - collaboration / tools ::@:: collaboration, emails, instant messaging, social businesses, virtual worlds, wikis, etc.
   - collaboration / time—space matrix ::@:: colocated \(same place\) vs. remote \(different place\); synchronous \(same time\) vs. asynchronous \(different time\)
     - collaboration / time—space matrix / synchronous & colocated ::@:: face-to-face interactions, e.g. decision rooms, wall displays, etc.

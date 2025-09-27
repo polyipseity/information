@@ -33,7 +33,7 @@ It has been suggested by {@{Etsusuke Masuda and [Peter Newman](Peter%20Kenneth%2
 
 For {@{almost all products}@}, {@{the demand curve has a negative slope}@}: {@{as the price increases, quantity demanded for the good decreases}@}. \(See [Supply and demand](supply%20and%20demand.md) for background.\)
 
-Giffen goods are {@{the exception to this general rule}@}. Unlike {@{other goods or services}@}, {@{the price point at which supply and demand meet results in higher prices and greater demand}@} whenever {@{market forces recognize a change in supply and demand for Giffen goods}@}. As a result, when {@{price goes up, the quantity demanded also goes up}@}. To be {@{a true Giffen good}@}, {@{the good's price}@} must be {@{the only thing that changes to produce a change in quantity demanded}@}.
+Giffen goods are {@{the exception to this general rule}@}. Unlike {@{other goods or services}@}, {@{the price point at which supply and demand meet}@} results in {@{higher prices and greater demand}@} whenever {@{market forces recognize a change in supply and demand for Giffen goods}@}. As a result, when {@{price goes up, the quantity demanded also goes up}@}. To be {@{a true Giffen good}@}, {@{the good's price}@} must be {@{the only thing that changes to produce a change in quantity demanded}@}.
 
 Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}: Veblen goods are {@{products whose demand increases if their price increases because the price is seen as an indicator of _quality_ or _status_}@}.
 

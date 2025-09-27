@@ -150,7 +150,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example:
+The above example demonstrates how {@{buffer overflow actually happens}@}. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs}@} \(best if they can be {@{provided by the user directly or indirectly}@}\) and {@{writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are {@{vulnerable}@} because they will {@{write to the buffer as long as there is data in the input}@} without taking {@{the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs}@} as {@{the excess data is written past the end of the destination buffers}@}, similar to the example above. An example:
 
 ```C
 char buffer[4];
@@ -235,7 +235,7 @@ Buffer overflow is often used to {@{jump to a particular function}@}. This can b
 
 To do so, the executable must {@{consists of position-independent code \(PIC\), making the executable a position-independent executable \(PIE\)}@}. Said code can {@{work properly regardless of the code's base \(start\) address \(thus cannot refer to absolute addresses\)}@}. Then the technique of {@{address space layout randomization \(ASLR\)}@} can be applied. Usually, it will {@{randomize the base \(start\) address of the program}@} \({@{read-execute and read-write segment}@} are {@{treated as one segment for ASLR}@}\), {@{the heap, and the stack}@}. However, as {@{only the base \(start\) address of segments are randomized}@}, {@{functions and data inside the same segment}@} still have {@{the same relative offset to each other}@}.
 
-To bypass address randomization, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak (obtain) the absolute address of any function or data in the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, {@{calculate the absolute address of the function we wanted to jump to using the relative offset, which can be found on the local machine, given the exact versions of programs and libraries are used}@}.
+To {@{bypass address randomization}@}, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak \(obtain\) the absolute address of any function or data}@} in {@{the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, calculate {@{the absolute address of the function we wanted to jump to}@} using {@{the relative offset}@}, which can be {@{found on the local machine}@}, given {@{the exact versions of programs and libraries are used}@}.
 
 ## next week notes
 
