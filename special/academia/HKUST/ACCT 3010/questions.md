@@ -62,3 +62,17 @@ tags:
 > ---
 >
 > - solutions: {@{1/2/3/4/5}@} <!--SR:!2025-10-23,17,303-->
+
+## week 2 lecture
+
+\(none\)
+
+## week 2 lecture 2
+
+## week 3 lecture
+
+## week 3 lecture 2
+
+## week 4 lecture
+
+## week 4 lecture 2
