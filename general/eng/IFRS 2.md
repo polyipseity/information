@@ -16,9 +16,9 @@ tags:
 
 # IFRS 2
 
-{@{__IFRS 2__}@} is {@{an [international financial reporting standard](International%20Financial%20Reporting%20Standards.md) issued in February 2004<sup>[\[1\]](#^ref-1)</sup> by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) \(IASB\)}@} to provide {@{guidance on the accounting for [share based payments](stock%20option%20expensing.md#share%20based%20payments%20(stock%20appreciation%20rights))}@}.
+{@{__IFRS 2__}@} is {@{an [international financial reporting standard](International%20Financial%20Reporting%20Standards.md) issued in February 2004<sup>[\[1\]](#^ref-1)</sup> by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) \(IASB\)}@} to provide {@{guidance on the accounting for [share based payments](stock%20option%20expensing.md#share%20based%20payments%20(stock%20appreciation%20rights))}@}. <!--SR:!2025-10-01,4,270!2025-10-01,4,270!2025-10-01,4,270-->
 
-{@{Its purpose}@} is to reflect {@{the cost of awarding equity or equity based incentives to employees or other parties}@} {@{in exchange for goods or services}@}.<sup>[\[2\]](#^ref-2)</sup>
+{@{Its purpose}@} is to reflect {@{the cost of awarding equity or equity based incentives to employees or other parties}@} {@{in exchange for goods or services}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-10-01,4,270!2025-10-01,4,270!2025-10-01,4,270-->
 
 ## references
 
