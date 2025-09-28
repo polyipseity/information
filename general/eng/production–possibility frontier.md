@@ -19,7 +19,7 @@ This tradeoff is usually considered for {@{an [economy](economy.md), but also ap
 
 > {@{![figure 1: a production possibilities frontier](../../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
-> figure 1: {@{a production possibilities frontier}@} <!--SR:!2028-11-05,1166,350!2025-10-15,297,330-->
+> figure 1: {@{a production possibilities frontier}@} <!--SR:!2028-11-05,1166,350!2029-06-28,1352,350-->
 
 PPFs are normally {@{drawn as bulging upwards or outwards from the origin ("concave" when viewed from the origin)}@}, but {@{they can be represented as bulging downward (inwards) or linear (straight), depending on a number of assumptions}@}. <!--SR:!2025-11-11,317,330!2027-10-23,844,330-->
 
@@ -92,13 +92,13 @@ For an extensive discussion of various types of efficiency measures ([Farrell](M
 
 {@{The slope of the production–possibility frontier (PPF) at any given point}@} is {@{called the marginal rate of transformation (__MRT__)}@}. The [slope](slope.md) defines {@{the rate at which [production](manufacturing.md) of one good can be redirected (by reallocation of productive resources) into production of the other}@}. It is also called {@{the \(marginal\) "opportunity cost" of a commodity}@}, that is, it is {@{the opportunity cost of _X_ in terms of _Y_ at the margin}@}. It measures {@{how much of good _Y_ is given up for one more unit of good _X_ or vice versa}@}. The shape of a PPF is commonly {@{drawn as concave to the origin to represent increasing opportunity cost with increased output of a good}@}. Thus, {@{MRT increases in absolute size}@} as one {@{moves from the top left of the PPF to the bottom right of the PPF}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-11-08,316,330!2029-06-09,1336,350!2026-12-01,602,330!2028-04-07,970,330!2028-03-15,952,330!2027-01-28,646,330!2026-11-01,523,310!2026-01-06,117,389!2026-01-08,119,389-->
 
-The marginal rate of transformation can be {@{expressed in terms of either commodity}@}. The marginal opportunity costs of guns in terms of butter is {@{simply the reciprocal of the marginal opportunity cost of butter in terms of guns}@}. If, for example, {@{the (absolute) slope at point _BB_ in the diagram is equal to 2}@}, to produce one more packet of butter, {@{the production of 2 guns must be sacrificed}@}. If at _AA_, {@{the marginal opportunity cost of butter in terms of guns is equal to 0.25}@}, the sacrifice of one gun could {@{produce four packets of butter}@}, and {@{the opportunity cost of guns in terms of butter is 4}@}. <!--SR:!2027-10-26,857,330!2028-04-17,980,330!2029-03-01,1259,350!2025-10-15,297,330!2029-06-01,1330,350!2027-11-23,879,330!2027-08-29,802,330-->
+The marginal rate of transformation can be {@{expressed in terms of either commodity}@}. The marginal opportunity costs of guns in terms of butter is {@{simply the reciprocal of the marginal opportunity cost of butter in terms of guns}@}. If, for example, {@{the (absolute) slope at point _BB_ in the diagram is equal to 2}@}, to produce one more packet of butter, {@{the production of 2 guns must be sacrificed}@}. If at _AA_, {@{the marginal opportunity cost of butter in terms of guns is equal to 0.25}@}, the sacrifice of one gun could {@{produce four packets of butter}@}, and {@{the opportunity cost of guns in terms of butter is 4}@}. <!--SR:!2027-10-26,857,330!2028-04-17,980,330!2029-03-01,1259,350!2029-06-29,1353,350!2029-06-01,1330,350!2027-11-23,879,330!2027-08-29,802,330-->
 
 ## shape
 
 > {@{![figure 6a: standard PPF: increasing opportunity cost](../../archives/Wikimedia%20Commons/PPF%20opportunity%20cost.svg)}@}
 >
-> figure 6a: {@{standard PPF: increasing opportunity cost}@} <!--SR:!2025-10-15,297,330!2028-06-19,1054,350-->
+> figure 6a: {@{standard PPF: increasing opportunity cost}@} <!--SR:!2029-06-30,1354,350!2028-06-19,1054,350-->
 
 <!-- markdownlint MD028 -->
 

@@ -65,7 +65,7 @@ C$: [cost structure](#cost%20structure)
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-11-05,181,214!2027-10-17,846,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2028-08-17,1093,277!2028-01-07,928,277-->
-- KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2025-10-15,333,257!2026-11-03,599,274-->
+- KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2028-02-22,860,257!2026-11-03,599,274-->
 - KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2026-04-20,503,277!2026-04-10,357,234-->
 - KP: [key partnerships](#key%20partnerships)→::@::←C$: [cost structure](#cost%20structure) <!--SR:!2025-12-21,169,217!2028-03-22,1024,294-->
 - C$: [cost structure](#cost%20structure)→::@::←_(end)_ <!--SR:!2026-12-20,689,314!2026-10-26,650,314-->

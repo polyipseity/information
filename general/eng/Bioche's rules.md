@@ -18,7 +18,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline_citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(June 2022\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{__Bioche's rules__}@}, formulated by {@{the French mathematician [Charles Bioche](Charles%20Bioche.md)}@} \[[fr](../fra/Charles%20Bioche.md)\] \(1859–1949\), are {@{rules to aid in the computation of certain [indefinite integrals](indefinite%20integral.md)}@} in which {@{the [integrand](integrand.md#terminology%20and%20notation) contains [sines](sine.md) and [cosines](cosine.md)}@}. <!--SR:!2025-10-20,82,349!2025-10-15,77,349!2025-10-22,84,349!2026-10-12,364,369-->
+{@{__Bioche's rules__}@}, formulated by {@{the French mathematician [Charles Bioche](Charles%20Bioche.md)}@} \[[fr](../fra/Charles%20Bioche.md)\] \(1859–1949\), are {@{rules to aid in the computation of certain [indefinite integrals](indefinite%20integral.md)}@} in which {@{the [integrand](integrand.md#terminology%20and%20notation) contains [sines](sine.md) and [cosines](cosine.md)}@}. <!--SR:!2025-10-20,82,349!2026-10-22,372,369!2025-10-22,84,349!2026-10-12,364,369-->
 
 In the following, $f(t)$ is {@{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}@}. In order to {@{calculate $\int f(t)\,dt$}@}, consider {@{the integrand $\omega (t)=f(t)\,dt$}@}. We consider {@{the behavior of this entire integrand, including the $dt$}@}, under {@{translation and reflections of the _t_ axis}@}. {@{The translations and reflections}@} are ones that {@{correspond to the symmetries and periodicities of the basic trigonometric functions}@}. <!--SR:!2026-12-26,688,330!2028-08-09,1165,350!2026-10-17,370,369!2025-10-16,78,349!2025-10-23,85,349!2025-10-18,80,349!2025-10-23,85,349-->
 
@@ -61,7 +61,7 @@ In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitut
 
 Because {@{rules 1 and 2 involve flipping the _t_ axis}@}, they {@{flip the sign of _dt_}@}, and therefore {@{the behavior of _ω_ under these transformations differs from that of _ƒ_ by a sign}@}. Although {@{the rules could be stated in terms of _ƒ_}@}, stating them {@{in terms of _ω_ has a mnemonic advantage}@}, which is that we {@{choose the change of variables _u_\(_t_\) that has the same symmetry as _ω_}@}. <!--SR:!2025-10-20,82,349!2025-10-16,78,349!2026-10-09,362,369!2025-10-21,83,349!2025-10-20,82,349!2025-10-23,85,349-->
 
-These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<sup>[\[1\]](#^ref-1)</sup> that {@{the proposed change of variable reduces}@} \(if {@{the rule applies and if _f_ is actually of the form $f(t)={\frac {P(\sin t,\cos t)}{Q(\sin t,\cos t)} }$}@}\) to {@{the integration of a [rational function](rational%20function.md) in a new variable}@}, which can be calculated by {@{[partial fraction decomposition](partial%20fraction%20decomposition.md)}@}. <!--SR:!2025-10-20,82,349!2025-10-15,77,349!2026-10-06,359,369!2025-10-20,82,349!2025-10-21,83,349-->
+These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<sup>[\[1\]](#^ref-1)</sup> that {@{the proposed change of variable reduces}@} \(if {@{the rule applies and if _f_ is actually of the form $f(t)={\frac {P(\sin t,\cos t)}{Q(\sin t,\cos t)} }$}@}\) to {@{the integration of a [rational function](rational%20function.md) in a new variable}@}, which can be calculated by {@{[partial fraction decomposition](partial%20fraction%20decomposition.md)}@}. <!--SR:!2025-10-20,82,349!2026-10-23,373,369!2026-10-06,359,369!2025-10-20,82,349!2025-10-21,83,349-->
 
 ## case of polynomials
 
@@ -69,8 +69,8 @@ To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's r
 
 - If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2025-10-22,84,349!2026-10-13,367,369-->
 - If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!2025-10-19,81,349!2025-10-22,84,349-->
-- If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!2025-10-15,77,349!2026-10-10,362,369-->
-- If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product-to-sum formulas.\) <!--SR:!2025-10-23,85,349!2025-10-15,77,349-->
+- If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!2026-10-26,376,369!2026-10-10,362,369-->
+- If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product-to-sum formulas.\) <!--SR:!2025-10-23,85,349!2026-10-25,375,369-->
 
 ## another version for hyperbolic functions
 

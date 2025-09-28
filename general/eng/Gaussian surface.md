@@ -51,7 +51,7 @@ With the same example, using {@{a larger Gaussian surface outside the shell wher
 
 By {@{Gauss's law}@} {@{the flux is also $$\Phi _{E}={\frac {Q_{A} }{\varepsilon _{0} } }$$}@} finally {@{equating the expression for Φ<sub>_E_</sub> gives the magnitude of the __E__-field at position _r_}@}: {@{$$E4\pi r^{2}={\frac {Q_{A} }{\varepsilon _{0} } }\quad \Rightarrow \quad E={\frac {Q_{A} }{4\pi \varepsilon _{0}r^{2} } }.$$}@} <!--SR:!2026-03-06,288,330!2026-01-15,254,330!2026-03-08,290,330!2026-03-08,290,330-->
 
-{@{This non-trivial result}@} shows that {@{any spherical distribution of charge _acts as a point charge_ when observed from the outside of the charge distribution}@}; this is in fact {@{a verification of [Coulomb's law](Coulomb's%20law.md)}@}. And, as mentioned, {@{any exterior charges do not count}@}. <!--SR:!2026-01-17,255,330!2026-02-03,257,330!2025-10-15,179,310!2026-01-16,255,330-->
+{@{This non-trivial result}@} shows that {@{any spherical distribution of charge _acts as a point charge_ when observed from the outside of the charge distribution}@}; this is in fact {@{a verification of [Coulomb's law](Coulomb's%20law.md)}@}. And, as mentioned, {@{any exterior charges do not count}@}. <!--SR:!2026-01-17,255,330!2026-02-03,257,330!2027-11-19,765,330!2026-01-16,255,330-->
 
 ### cylindrical surface
 

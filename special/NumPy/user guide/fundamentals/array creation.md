@@ -108,7 +108,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 {@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-10-29,278,330!2027-11-18,837,330!2025-10-20,270,330-->
 
-{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2025-10-15,267,330!2025-10-22,273,330!2026-01-07,339,350-->
+{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2029-02-10,1214,350!2025-10-22,273,330!2026-01-07,339,350-->
 
 ```Python
 >>> import numpy as np
@@ -279,7 +279,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-10-15,267,330!2026-01-22,351,350!2025-11-10,288,330!2025-11-16,294,330-->
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2029-02-11,1215,350!2026-01-22,351,350!2025-11-10,288,330!2025-11-16,294,330-->
 
 - HDF5 ::@:: h5py <!--SR:!2026-01-07,339,350!2025-11-10,289,330-->
 - FITS ::@:: Astropy <!--SR:!2027-12-08,851,330!2025-12-22,324,350-->

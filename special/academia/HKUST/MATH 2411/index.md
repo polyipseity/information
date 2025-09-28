@@ -193,7 +193,7 @@ The content is in teaching order.
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2028-09-23,1148,350!2027-03-30,715,330-->
     - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2028-07-08,1091,350!2028-05-21,1057,350-->
   - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2028-04-04,1016,350!2029-01-20,1247,350-->
-    - bar chart / _R_ ::@:: use `barplot(...)` <!--SR:!2027-11-20,888,330!2025-10-15,314,330-->
+    - bar chart / _R_ ::@:: use `barplot(...)` <!--SR:!2027-11-20,888,330!2029-09-09,1425,350-->
 - [sampling](../../../../general/sampling%20(statistics).md) ::@:: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2027-05-06,736,330!2027-03-27,712,330-->
   - sampling / [errors](../../../../general/sampling%20(statistics).md#errors%20in%20sample%20surveys) ::@:: It is very important to sample correctly. Some biases include survivorship bias (as demonstration, unlikely related in most statistics), selection bias, non-response bias (participation bias), and voluntary response bias. <!--SR:!2028-05-03,950,290!2026-01-26,341,290-->
     - sampling / errors / survivorship bias ::@:: (as demonstration, unlikely related in most statistics) A famous example: Many planes were flying through enemy territories. Some survived. Engineers found holes on some parts of the survived planes. So they decided to reinforce those parts. But this did not improve survival rates. The actual best parts to reinforce were those without holes on the survived planes, because this implied the other planes did not survive because of holes in said parts. Hence the name. <!--SR:!2027-04-30,695,330!2026-06-08,480,310-->

@@ -25,7 +25,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __comma category__}@} \(a special c
 
 ### general form
 
-Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2025-10-15,201,322!2026-02-17,302,342!2026-03-06,320,354-->
+Suppose that {@{${\mathcal {A} }$, ${\mathcal {B} }$, and ${\mathcal {C} }$ are categories, and $S$ and $T$ \(for source and target\) are [functors](functor.md)}@}: {@{$${\mathcal {A} }{\xrightarrow {\;\;S\;\;} }{\mathcal {C} }{\xleftarrow {\;\;T\;\;} }{\mathcal {B} }$$}@} We can {@{form the comma category $(S\downarrow T)$}@} as follows: <!--SR:!2028-03-27,894,342!2026-02-17,302,342!2026-03-06,320,354-->
 
 - The objects ::@:: are all triples $(A,B,h)$ with $A$ an object in ${\mathcal {A} }$, $B$ an object in ${\mathcal {B} }$, and $h:S(A)\rightarrow T(B)$ a morphism in ${\mathcal {C} }$. <!--SR:!2026-03-03,317,354!2025-10-22,208,334-->
 - The morphisms from $(A,B,h)$ to $(A',B',h')$ ::@:: are all pairs $(f,g)$ where $f:A\rightarrow A'$ and $g:B\rightarrow B'$ are morphisms in ${\mathcal {A} }$ and ${\mathcal {B} }$ respectively, such that the following diagram [commutes](commutative%20diagram.md): <p> &emsp; ![Comma Diagram](../../archives/Wikimedia%20Commons/Comma%20Diagram.svg) <!--SR:!2026-02-01,290,342!2025-12-16,251,330-->

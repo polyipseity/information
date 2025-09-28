@@ -76,7 +76,7 @@ The cheatsheet is provided during the final examination.
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
 - `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2029-03-27,1262,350!2029-03-01,1241,350-->
-- `range()` ::@:: create a number sequence starting from zero <!--SR:!2025-10-15,279,330!2025-10-25,286,330-->
+- `range()` ::@:: create a number sequence starting from zero <!--SR:!2029-04-13,1276,350!2025-10-25,286,330-->
 
 ## relational operators
 

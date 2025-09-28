@@ -54,7 +54,7 @@ Del can also be {@{expressed in other coordinate systems}@}, see for example {@{
 
 ## notational uses
 
-Del is used as {@{a shorthand form to simplify many long mathematical expressions}@}. It is most commonly used to {@{simplify expressions for the [gradient](gradient.md), [divergence](divergence.md), [curl](curl%20(mathematics).md), [directional derivative](directional%20derivative.md), and [Laplacian](Laplacian.md)}@}. <!--SR:!2026-01-17,255,330!2025-10-15,175,310-->
+Del is used as {@{a shorthand form to simplify many long mathematical expressions}@}. It is most commonly used to {@{simplify expressions for the [gradient](gradient.md), [divergence](divergence.md), [curl](curl%20(mathematics).md), [directional derivative](directional%20derivative.md), and [Laplacian](Laplacian.md)}@}. <!--SR:!2026-01-17,255,330!2027-11-07,753,330-->
 
 ### gradient
 

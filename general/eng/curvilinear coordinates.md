@@ -220,7 +220,7 @@ In {@{an orthonormal right-handed basis}@}, {@{the third-order [alternating tens
 
 In {@{a general curvilinear basis}@} {@{the same tensor may be expressed}@} as {@{$${\boldsymbol {\mathcal {E} } }={\mathcal {E} }_{ijk}\mathbf {b} ^{i}\otimes \mathbf {b} ^{j}\otimes \mathbf {b} ^{k}={\mathcal {E} }^{ijk}\mathbf {b} _{i}\otimes \mathbf {b} _{j}\otimes \mathbf {b} _{k}$$}@} <!--SR:!2025-10-23,17,316!2025-10-20,14,290!2025-10-20,14,290-->
 
-It can also be shown that {@{$${\mathcal {E} }^{ijk}={\cfrac {1}{J} }\varepsilon _{ijk}={\cfrac {1}{+{\sqrt {g} } } }\varepsilon _{ijk}$$}@} <!--SR:!2025-10-15,9,285-->
+It can also be shown that {@{$${\mathcal {E} }^{ijk}={\cfrac {1}{J} }\varepsilon _{ijk}={\cfrac {1}{+{\sqrt {g} } } }\varepsilon _{ijk}$$}@} <!--SR:!2025-11-21,37,305-->
 
 ### Christoffel symbols
 

@@ -28,7 +28,7 @@ tags:
 > 3. the value of your time, but not the price you pay for the ticket
 > 4. neither the price of the ticket nor the value of your time
 >
-> - solution: {@{1}@} <!--SR:!2025-10-15,295,330-->
+> - solution: {@{1}@} <!--SR:!2029-06-25,1349,350-->
 
 <!-- markdownlint MD028 -->
 

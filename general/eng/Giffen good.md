@@ -15,7 +15,7 @@ tags:
 >
 > {@{Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_}@} <!--SR:!2027-05-22,626,310!2027-08-18,759,330-->
 
-In {@{[microeconomics](microeconomics.md) and [consumer theory](consumer%20choice.md)}@}, {@{a __Giffen good__}@} is {@{a product that people consume more of as the price rises and vice versa}@}, violating {@{the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2026-02-06,347,349!2025-10-15,253,330!2025-10-23,258,330!2025-12-04,292,330-->
+In {@{[microeconomics](microeconomics.md) and [consumer theory](consumer%20choice.md)}@}, {@{a __Giffen good__}@} is {@{a product that people consume more of as the price rises and vice versa}@}, violating {@{the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2026-02-06,347,349!2028-12-08,1150,350!2025-10-23,258,330!2025-12-04,292,330-->
 
 For {@{[ordinary goods](ordinary%20good.md)}@}, as {@{the [price](price.md) of the [good](goods.md) rises}@}, the [substitution effect](substitution%20effect.md) {@{makes consumers purchase less of it, and more of [substitute goods](substitute%20good.md)}@}; the [income effect](consumer%20choice.md#income%20effect) can {@{either reinforce or weaken this decline in demand}@}, but {@{for an ordinary good never outweighs it}@}. By contrast, a Giffen good is {@{so strongly an [inferior good](inferior%20good.md) \(in higher demand at lower incomes\)}@} that {@{the contrary income effect more than offsets the substitution effect}@}, and {@{the net effect of the good's price rise is to increase demand for it}@}. This phenomenon is known as {@{the __Giffen paradox__}@}. <!--SR:!2025-11-30,289,330!2028-11-26,1140,350!2028-12-05,1148,350!2026-02-05,346,349!2026-02-09,349,349!2025-12-03,291,330!2025-11-16,277,330!2025-11-07,270,330!2026-02-05,346,349-->
 
@@ -33,9 +33,9 @@ It has been suggested by {@{Etsusuke Masuda and [Peter Newman](Peter%20Kenneth%2
 
 For {@{almost all products}@}, {@{the demand curve has a negative slope}@}: {@{as the price increases, quantity demanded for the good decreases}@}. \(See [Supply and demand](supply%20and%20demand.md) for background.\) <!--SR:!2025-11-22,282,330!2028-11-05,1126,350!2025-10-29,263,330-->
 
-Giffen goods are {@{the exception to this general rule}@}. Unlike {@{other goods or services}@}, {@{the price point at which supply and demand meet}@} results in {@{higher prices and greater demand}@} whenever {@{market forces recognize a change in supply and demand for Giffen goods}@}. As a result, when {@{price goes up, the quantity demanded also goes up}@}. To be {@{a true Giffen good}@}, {@{the good's price}@} must be {@{the only thing that changes to produce a change in quantity demanded}@}. <!--SR:!2025-11-22,282,330!2025-11-30,289,330!2026-02-19,128,310!2028-08-17,1060,350!2025-10-19,255,330!2025-11-07,270,330!2025-12-02,290,330!2025-11-08,271,330!2025-10-02,5,352-->
+Giffen goods are {@{the exception to this general rule}@}. Unlike {@{other goods or services}@}, {@{the price point at which supply and demand meet}@} results in {@{higher prices and greater demand}@} whenever {@{market forces recognize a change in supply and demand for Giffen goods}@}. As a result, when {@{price goes up, the quantity demanded also goes up}@}. To be {@{a true Giffen good}@}, {@{the good's price}@} must be {@{the only thing that changes to produce a change in quantity demanded}@}. <!--SR:!2025-11-22,282,330!2025-11-30,289,330!2026-02-19,128,310!2028-08-17,1060,350!2025-10-19,255,330!2025-11-07,270,330!2025-12-02,290,330!2025-11-08,271,330!2025-11-08,24,372-->
 
-Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}: Veblen goods are {@{products whose demand increases if their price increases because the price is seen as an indicator of _quality_ or _status_}@}. <!--SR:!2025-10-15,253,330!2027-08-13,759,330-->
+Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}: Veblen goods are {@{products whose demand increases if their price increases because the price is seen as an indicator of _quality_ or _status_}@}. <!--SR:!2028-12-10,1152,350!2027-08-13,759,330-->
 
 {@{The classic example given by Marshall}@} is {@{of inferior quality [staple foods](staple%20food.md)}@}, whose demand is {@{driven by [poverty](poverty.md) that makes their purchasers unable to afford superior foodstuffs}@}. As {@{the price of the cheap staple rises}@}, they can {@{no longer afford to supplement their diet with better foods}@}, and {@{must consume more of the staple food}@}. <!--SR:!2028-01-11,862,330!2025-10-17,255,330!2025-10-26,260,330!2028-11-08,1126,350!2025-11-06,269,330!2028-09-20,1088,350-->
 
@@ -73,7 +73,7 @@ Giffen goods are {@{difficult to study}@} because {@{the definition requires a n
 
 {@{The Giffen nature of the Irish potato}@} was also {@{later discredited}@} by {@{[Sherwin Rosen](Sherwin%20Rosen.md) of the [University of Chicago](University%20of%20Chicago.md)}@} in {@{his 1999 paper _Potato Paradoxes_}@}.<sup>[\[12\]](#^ref-12)</sup> Rosen showed that {@{the phenomenon could be explained by a normal [demand](supply%20and%20demand.md) model}@}. <!--SR:!2028-12-03,1146,350!2025-11-19,280,330!2027-05-18,676,329!2028-03-08,906,330!2025-10-22,257,330-->
 
-{@{Charles Read}@} has shown {@{with quantitative evidence that [bacon](bacon.md) pigs showed Giffen-style behaviour}@} during the Irish Famine, but {@{that potatoes did not}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-11-28,287,330!2026-12-22,557,310!2025-10-15,253,330-->
+{@{Charles Read}@} has shown {@{with quantitative evidence that [bacon](bacon.md) pigs showed Giffen-style behaviour}@} during the Irish Famine, but {@{that potatoes did not}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-11-28,287,330!2026-12-22,557,310!2028-12-09,1151,350-->
 
 ### other proposed examples
 

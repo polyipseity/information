@@ -43,7 +43,7 @@ tags:
 >
 > - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-11-26,251,330!2025-12-23,272,330-->
 > - partial magma ::@:: (none) <!--SR:!2025-12-19,268,330!2025-12-17,266,330-->
-> - semigroupoid ::@:: associative <!--SR:!2025-12-11,193,230!2025-10-15,31,210-->
+> - semigroupoid ::@:: associative <!--SR:!2025-12-11,193,230!2026-01-19,96,230-->
 > - small category ::@:: associative, identity <!--SR:!2027-06-08,608,310!2026-01-14,290,330-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2026-11-11,496,310!2026-03-19,267,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-12-04,161,210!2027-06-06,608,310-->

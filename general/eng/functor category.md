@@ -12,7 +12,7 @@ tags:
 In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{a __functor category__ $D^{C}$}@} is {@{a category where the objects are the [functors](functor.md) $F:C\to D$}@} and {@{the [morphisms](morphism.md) are [natural transformations](natural%20transformation.md) $\eta :F\to G$ between the functors \(here, $G:C\to D$ is another object in the category\)}@}. Functor categories are {@{of interest for two main reasons}@}: <!--SR:!2026-01-19,293,330!2026-01-20,294,330!2026-01-20,294,330!2026-01-18,292,330!2026-01-18,292,330-->
 
 - generality ::@:: many commonly occurring categories are \(disguised\) functor categories, so any statement proved for general functor categories is widely applicable; <!--SR:!2026-01-18,292,330!2026-01-20,294,330-->
-- embedding ::@:: every category embeds in a __functor category__ \(via the [Yoneda embedding](Yoneda%20embedding.md#the%20Yoneda%20embedding)\); the functor category often has nicer properties than the original category, allowing certain operations that were not available in the original setting. <!--SR:!2026-01-18,292,330!2025-10-15,199,310-->
+- embedding ::@:: every category embeds in a __functor category__ \(via the [Yoneda embedding](Yoneda%20embedding.md#the%20Yoneda%20embedding)\); the functor category often has nicer properties than the original category, allowing certain operations that were not available in the original setting. <!--SR:!2026-01-18,292,330!2028-02-19,857,330-->
 
 ## definition
 

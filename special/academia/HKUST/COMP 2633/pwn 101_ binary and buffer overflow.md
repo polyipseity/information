@@ -55,7 +55,7 @@ In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` 
 
 `rsp` is {@{the stack pointer, which points to the top (low address) of the stack memory}@}. This is easy to understand. The more difficult one is {@{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}@}. Yet we do not know {@{what a stack/function frame is, and this will be introduced later}@}. <!--SR:!2028-09-11,1128,350!2027-05-12,734,330!2028-06-14,1058,350-->
 
-There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2028-01-26,915,330!2025-10-15,295,330-->
+There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2028-01-26,915,330!2029-06-18,1342,350-->
 
 - `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2029-01-01,1216,350!2028-06-28,1069,350-->
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2029-05-31,1333,350!2027-09-26,832,330-->
@@ -109,7 +109,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2028-10-16,1154,350-->
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2029-01-29,1238,350-->
-- `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2025-10-15,295,330-->
+- `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2029-06-17,1341,350-->
 - `finish` ::@:: run until the current function returns <!--SR:!2029-05-28,1325,350!2028-10-13,1151,350-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2029-04-23,1296,350!2028-09-17,1133,350-->
@@ -150,7 +150,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how {@{buffer overflow actually happens}@}. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs}@} \(best if they can be {@{provided by the user directly or indirectly}@}\) and {@{writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are {@{vulnerable}@} because they will {@{write to the buffer as long as there is data in the input}@} without taking {@{the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs}@} as {@{the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2027-09-19,819,330!2028-08-13,1107,350!2027-03-14,694,330!2027-08-18,804,330!2029-05-31,1334,350!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362-->
+The above example demonstrates how {@{buffer overflow actually happens}@}. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs}@} \(best if they can be {@{provided by the user directly or indirectly}@}\) and {@{writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are {@{vulnerable}@} because they will {@{write to the buffer as long as there is data in the input}@} without taking {@{the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs}@} as {@{the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2027-09-19,819,330!2028-08-13,1107,350!2027-03-14,694,330!2027-08-18,804,330!2029-05-31,1334,350!2025-11-10,26,382!2025-11-09,25,382!2025-11-08,24,382!2025-11-09,25,382!2025-11-09,25,382!2025-11-10,26,382-->
 
 ```C
 char buffer[4];
@@ -235,7 +235,7 @@ Buffer overflow is often used to {@{jump to a particular function}@}. This can b
 
 To do so, the executable must {@{consists of position-independent code \(PIC\), making the executable a position-independent executable \(PIE\)}@}. Said code can {@{work properly regardless of the code's base \(start\) address \(thus cannot refer to absolute addresses\)}@}. Then the technique of {@{address space layout randomization \(ASLR\)}@} can be applied. Usually, it will {@{randomize the base \(start\) address of the program}@} \({@{read-execute and read-write segment}@} are {@{treated as one segment for ASLR}@}\), {@{the heap, and the stack}@}. However, as {@{only the base \(start\) address of segments are randomized}@}, {@{functions and data inside the same segment}@} still have {@{the same relative offset to each other}@}. <!--SR:!2027-08-22,797,330!2029-06-03,1330,350!2028-09-12,1127,350!2028-05-27,961,330!2028-11-29,1192,350!2029-05-16,1315,350!2025-11-05,26,380!2025-11-05,26,380!2025-11-05,26,380!2025-11-05,26,380-->
 
-To {@{bypass address randomization}@}, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak \(obtain\) the absolute address of any function or data}@} in {@{the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, calculate {@{the absolute address of the function we wanted to jump to}@} using {@{the relative offset}@}, which can be {@{found on the local machine}@}, given {@{the exact versions of programs and libraries are used}@}. <!--SR:!2028-12-17,1204,350!2027-06-23,758,330!2028-05-09,1028,350!2026-03-13,150,310!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362!2025-10-02,5,362-->
+To {@{bypass address randomization}@}, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak \(obtain\) the absolute address of any function or data}@} in {@{the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, calculate {@{the absolute address of the function we wanted to jump to}@} using {@{the relative offset}@}, which can be {@{found on the local machine}@}, given {@{the exact versions of programs and libraries are used}@}. <!--SR:!2028-12-17,1204,350!2027-06-23,758,330!2028-05-09,1028,350!2026-03-13,150,310!2025-11-10,26,382!2025-11-10,26,382!2025-11-08,24,382!2025-11-08,24,382!2025-11-09,25,382-->
 
 ## next week notes
 

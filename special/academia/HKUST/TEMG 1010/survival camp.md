@@ -41,7 +41,7 @@ We went over some leadership theory and did some group activities, basically.
   - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2025-12-04,294,330!2027-10-22,802,330-->
   - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2025-10-25,262,330!2027-08-27,755,330-->
   - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2028-07-26,1044,350!2025-12-04,294,330-->
-  - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2025-10-15,254,330!2025-10-24,261,330-->
+  - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2028-12-17,1159,350!2025-10-24,261,330-->
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2028-10-03,1100,350!2027-08-31,759,330-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-12-01,291,330!2025-12-03,293,330-->
 - [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-11-07,272,330!2025-10-19,257,330-->
