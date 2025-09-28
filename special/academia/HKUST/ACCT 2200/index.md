@@ -283,7 +283,7 @@ The content is in teaching order.
     - cost behavior / linear regression / disadvantages ::@:: scattergraph: inexact, subjective <br/> high—low method: uses only two data points at the extreme but not at the middle <br/> least squares: requires proper interpretation, uses more assumptions and data
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> \(__this course__: sales revenue minus variable costs\)
   - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> \(__this course__: contribution margin / sales revenue\)
-  - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: increased sales; less: increased variable costs; \(subtotal:\) increased contribution margin; less: increased fixed costs; \(total:\) increased net operating income
+  - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: <p> increased sales <br/> less: increased variable costs <br/> \(subtotal:\) increased contribution margin <br/> less: increased fixed costs <br/> \(total:\) increased net operating income
 
 ## week 6 lecture
 
