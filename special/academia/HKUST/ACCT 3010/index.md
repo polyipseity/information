@@ -333,10 +333,10 @@ The content is in teaching order.
 - datetime: 2025-09-26T09:00:00+08:00/2025-09-26T10:20:00+08:00, PT1H20M
 - topic:
 - return on assets
-  - return on assets / peer analysis ::@:: We can compare ROA among companies in the same industry. Compared to ROE, leverage effect is ignored. <p> Tesla's ROA \(~2.96%\) is modest relative to peers like Toyota \(~3.48%\) but higher than several Chinese EV players whose ROAs are negative or close to zero, which underscores early‑stage losses or heavy capital outlays.
+  - return on assets / peer analysis ::@:: We can compare ROA among companies in the same industry. Compared to ROE, leverage effect is ignored. <p> Tesla's ROA \(~2.96%\) is modest relative to peers like BYD \(~3.48%\) but higher than several Chinese EV players whose ROAs are negative or close to zero, which underscores early‑stage losses or heavy capital outlays.
 - debt-to-equity ratio
 - return on equity
-  - return on equity / peer analysis ::@:: We can compare ROE among companies in the same industry. Compared to ROA, leverage effect is reflected. <p> For example, comparing trailing-12-month \(TTM\) ratio for major automakers, Tesla's ~8% sits below GM and Toyota, while BYD's extraordinary 21.79% reflects high profitability and potentially greater leverage. Negative ROEs for newer entrants \(e.g., NIO, Xpeng\) underscore early‑stage losses or heavy capital outlays.
+  - return on equity / peer analysis ::@:: We can compare ROE among companies in the same industry. Compared to ROA, leverage effect is reflected. <p> For example, comparing trailing-12-month \(TTM\) ratio for major automakers, Tesla's ~8.18% sits below Toyota and BYD, while BYD's extraordinary ~21.79% reflects high profitability and potentially greater leverage. Negative ROEs for newer entrants \(e.g., NIO, XPeng\) underscore early‑stage losses or heavy capital outlays.
 - DuPoint analysis
 - [cash flow statement](../../../../general/cash%20flow%20statement.md) ::@:: It is a financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents, and breaks the analysis down to operating, investing and financing activities.
   - cash flow statement / purpose ::@:: The SCF's primary goal is to disclose where cash originates, how it is used, and the resulting change in cash balance over a period. It may be used to for "assessing the amounts, timing, and uncertainty of cash flows".
