@@ -81,7 +81,7 @@ For {@{continuous cash flows}@}, {@{the summation in the above formula is replac
 This "__required return__" thus incorporates: (annotation: they are {@{time value of money, risk premium}@}) <!--SR:!2026-01-09,262,330-->
 
 1. [Time value of money](time%20value%20of%20money.md) \([risk-free rate](risk-free%20interest%20rate.md)\) – ::@:: according to the theory of [time preference](time%20preference.md), investors would rather have cash immediately than having to wait and must therefore be compensated by paying for the delay. <!--SR:!2027-07-28,691,330!2026-01-21,272,330-->
-2. [Risk premium](risk%20premium.md) – ::@:: reflects the extra return investors demand because they want to be compensated for the risk that the cash flow might not materialize after all. <!--SR:!2025-10-16,192,310!2026-04-05,334,349-->
+2. [Risk premium](risk%20premium.md) – ::@:: reflects the extra return investors demand because they want to be compensated for the risk that the cash flow might not materialize after all. <!--SR:!2028-01-22,828,330!2026-04-05,334,349-->
 
 For {@{the latter}@}, {@{various [models](economic%20model.md) have been developed}@}, where the premium is \(typically\) calculated as {@{a function of the asset's performance with reference to some macroeconomic variable}@} – for example, {@{the CAPM}@} compares {@{the asset's historical returns to the "[overall market's](market%20portfolio.md)"}@}; see [Capital asset pricing model § Asset-specific required return](capital%20asset%20pricing%20model.md#asset-specific%20required%20return) and [Asset pricing § General equilibrium asset pricing](asset%20pricing.md#general%20equilibrium%20asset%20pricing). <!--SR:!2026-02-18,294,330!2026-01-16,268,330!2026-02-03,280,330!2026-02-06,283,330!2026-05-06,352,349-->
 

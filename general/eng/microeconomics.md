@@ -37,7 +37,7 @@ The utility maximization problem has so far been developed by {@{taking consumer
 
 This is studied in the field of {@{[collective action](collective%20action.md) and [public choice theory](public%20choice.md)}@}. {@{"Optimal welfare"}@} usually takes on {@{a [Paretian](pareto%20efficiency.md) norm, which is a mathematical application of the [Kaldor–Hicks method](Kaldor–Hicks%20efficiency.md)}@}. This can {@{diverge from the [Utilitarian](utilitarianism.md) goal of maximizing [utility](utility.md)}@} because {@{it does not consider the distribution of goods between people}@}. {@{Market failure in positive economics (microeconomics)}@} is {@{limited in implications without mixing the belief of the economist and their theory}@}. <!--SR:!2028-08-21,1107,350!2028-07-05,1068,350!2026-02-12,357,290!2026-12-17,618,330!2028-10-11,1148,350!2028-09-19,1129,350!2028-08-06,1095,350-->
 
-{@{The demand for various commodities by individuals}@} is {@{generally thought of as the outcome of a utility-maximizing process}@}, with {@{each individual trying to maximize their own utility under a [budget constraint](budget%20constraint.md) and a given consumption set}@}. <!--SR:!2025-10-16,296,330!2026-11-29,604,330!2027-11-10,858,330-->
+{@{The demand for various commodities by individuals}@} is {@{generally thought of as the outcome of a utility-maximizing process}@}, with {@{each individual trying to maximize their own utility under a [budget constraint](budget%20constraint.md) and a given consumption set}@}. <!--SR:!2029-06-29,1352,350!2026-11-29,604,330!2027-11-10,858,330-->
 
 ### allocation of scarce resources
 
@@ -144,7 +144,7 @@ The different market structures {@{produce cost curves<sup>[\[23\]](#^ref-23)</s
 
 - see: [perfect competition](perfect%20competition.md)
 
-Perfect competition is {@{a situation in which numerous small firms producing identical products compete against each other in a given industry}@}. Perfect competition leads to {@{firms producing the socially optimal output level at the minimum possible cost per unit}@}. Firms in perfect competition are {@{"price takers" (they do not have enough [market power](market%20power.md) to profitably increase the price of their goods or services)}@}. A good example would be {@{that of digital marketplaces, such as [eBay](EBay.md)}@}, on which {@{many different sellers sell similar products to many different buyers}@}. Consumers in a perfect competitive market {@{have perfect knowledge about the products that are being sold in this market}@}. <!--SR:!2028-01-22,911,330!2027-01-02,567,310!2028-08-10,1099,350!2029-03-27,1279,350!2029-01-20,1225,350!2025-10-16,296,330-->
+Perfect competition is {@{a situation in which numerous small firms producing identical products compete against each other in a given industry}@}. Perfect competition leads to {@{firms producing the socially optimal output level at the minimum possible cost per unit}@}. Firms in perfect competition are {@{"price takers" (they do not have enough [market power](market%20power.md) to profitably increase the price of their goods or services)}@}. A good example would be {@{that of digital marketplaces, such as [eBay](EBay.md)}@}, on which {@{many different sellers sell similar products to many different buyers}@}. Consumers in a perfect competitive market {@{have perfect knowledge about the products that are being sold in this market}@}. <!--SR:!2028-01-22,911,330!2027-01-02,567,310!2028-08-10,1099,350!2029-03-27,1279,350!2029-01-20,1225,350!2029-06-28,1351,350-->
 
 ### imperfect competition
 

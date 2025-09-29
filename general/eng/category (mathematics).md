@@ -64,7 +64,7 @@ There are {@{many equivalent definitions of a category}@}.<sup>[\[a\]](#^ref-a)<
 - a [class](class%20(set%20theory).md) ob\(_C_\) ::@:: of __[objects](mathematical%20object.md)__, <!--SR:!2026-01-14,290,330!2026-01-06,283,330-->
 - a class mor\(_C_\) (annotation: or hom\(_C_\)) ::@:: of __[morphisms](morphism.md)__ or __arrows__, <!--SR:!2025-12-07,259,330!2025-12-27,276,330-->
 - a __domain__ or __source__ class function ::@:: dom: mor\(C\) → ob\(C\), <!--SR:!2025-12-27,276,330!2025-12-23,272,330-->
-- a __codomain__ or __target__ class function ::@:: cod: mor\(C\) → ob\(C\), <!--SR:!2025-10-16,201,310!2025-12-27,276,330-->
+- a __codomain__ or __target__ class function ::@:: cod: mor\(C\) → ob\(C\), <!--SR:!2028-02-29,866,330!2025-12-27,276,330-->
 - for every three objects _a_, _b_ and _c_, ::@:: a binary operation hom\(_a_, _b_\) × hom\(_b_, _c_\) → hom\(_a_, _c_\) called __composition of morphisms__. Here hom\(_a_, _b_\) denotes the subclass of morphisms _f_ in mor\(_C_\) such that dom\(f\) = _a_ and cod\(f\) = _b_. Morphisms in this subclass are written _f_ : _a_ → _b_, and the composite of _f_ : _a_ → _b_ and _g_ : _b_ → _c_ is often written as _g_ ∘ _f_ or _gf_. <!--SR:!2025-12-31,278,330!2025-12-28,276,330-->
 
 such that the following axioms hold: (annotation: {@{associative law, left and right unit laws}@}) <!--SR:!2028-01-25,841,330-->
@@ -160,7 +160,7 @@ If {@{_C_ and _D_ are categories}@}, one can form {@{the _product category_ _C_ 
 
 A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2025-12-18,268,330-->
 
-- a _[monomorphism](monomorphism.md)_ \(or _monic_\) ::@:: if it is left-cancellable, i.e. _fg<sub>1</sub>_ = _fg<sub>2</sub>_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g_<sub>1</sub>, _g<sub>2</sub>_ : _x_ → _a_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(x, a)$ is preserved in $\mathrm{hom}(x, b)$ by _f_) <!--SR:!2025-10-16,200,310!2026-08-08,383,290-->
+- a _[monomorphism](monomorphism.md)_ \(or _monic_\) ::@:: if it is left-cancellable, i.e. _fg<sub>1</sub>_ = _fg<sub>2</sub>_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g_<sub>1</sub>, _g<sub>2</sub>_ : _x_ → _a_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(x, a)$ is preserved in $\mathrm{hom}(x, b)$ by _f_) <!--SR:!2028-02-28,865,330!2026-08-08,383,290-->
 - an _[epimorphism](epimorphism.md)_ \(or _epic_\) ::@:: if it is right-cancellable, i.e. _g<sub>1</sub>f_ = _g<sub>2</sub>f_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g<sub>1</sub>_, _g<sub>2</sub>_ : _b_ → _x_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(b, x)$ is preserved in $\mathrm{hom}(a, x)$ by _f_) <!--SR:!2027-05-24,597,310!2025-10-17,201,310-->
 - a _[bimorphism](morphism.md#some%20specific%20morphisms)_ ::@:: if it is both a monomorphism and an epimorphism. <!--SR:!2027-07-04,692,330!2025-12-19,269,330-->
 - a _[retraction](section%20(category%20theory).md)_ ::@:: if it has a right inverse, i.e. if there exists a morphism _g_ : _b_ → _a_ with _fg_ = 1<sub>_b_</sub>. (annotation: intuitively, _f_ inverts _g_ on the class of objects _and_ the object itself) <!--SR:!2027-09-29,762,330!2025-12-18,268,330-->

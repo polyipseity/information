@@ -315,7 +315,7 @@ Properties of Sound Waves
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2025-10-16,381,310!2027-07-20,867,330-->
+- regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2030-04-09,1636,330!2027-07-20,867,330-->
 - global air pollution concerns ::@:: acid rain and climate change <!--SR:!2028-11-02,1251,350!2027-01-03,720,330-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta

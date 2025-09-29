@@ -53,7 +53,7 @@ SonicVisualiser supports {@{many plugins to perform many extra functions}@}, whi
 
 ### synthesis (sms-tools)
 
-`sms-tools` support {@{many synthesis models}@}, e.g. {@{STFT model, sinusoidal model, etc.}@} <!--SR:!2025-10-16,85,375!2025-10-16,85,375-->
+`sms-tools` support {@{many synthesis models}@}, e.g. {@{STFT model, sinusoidal model, etc.}@} <!--SR:!2026-12-30,440,395!2026-12-29,439,395-->
 
 ## Freesound
 

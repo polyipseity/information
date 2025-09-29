@@ -88,7 +88,7 @@ The content is in teaching order.
     - _modus ponens_
     - hypothetical syllogism
     - _modus tollens_
-    - rules of inference / conjunction ::@:: $$\begin{aligned} & p \\ & \underline{q \phantom{\land q} } \\ & p \land q & \end{aligned}$$ <!--SR:!2025-10-16,310,343!2028-05-13,1016,343-->
+    - rules of inference / conjunction ::@:: $$\begin{aligned} & p \\ & \underline{q \phantom{\land q} } \\ & p \land q & \end{aligned}$$ <!--SR:!2029-10-22,1467,363!2028-05-13,1016,343-->
     - rules of inference / disjunctive syllogism ::@:: $$\begin{aligned} & p \lor q \\ & \underline{\lnot p \!\!\!\! \phantom{\lor q} } \\ & q \end{aligned}$$ <!--SR:!2027-11-12,891,343!2029-07-27,1397,363-->
     - rules of inference / transposition (with $F$ as the consequent) ::@:: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2028-12-05,1203,350!2028-12-05,1214,363-->
     - rules of inference / simplification ::@:: $$\begin{aligned} & \underline{p \land q} \\ & p \end{aligned}$$ <!--SR:!2025-11-17,335,343!2029-07-08,1383,363-->

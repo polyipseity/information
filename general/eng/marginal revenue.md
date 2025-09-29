@@ -45,7 +45,7 @@ __Example 2:__ If {@{a firm's total revenue function is written as $R(Q)=P(Q)\cd
 
 > {@{![Marginal revenue under monopoly](../../archives/Wikimedia%20Commons/MarginalRevenue.jpg)}@}
 >
-> {@{Marginal revenue under monopoly}@} <!--SR:!2025-10-16,260,337!2025-10-17,261,337-->
+> {@{Marginal revenue under monopoly}@} <!--SR:!2029-02-04,1207,357!2025-10-17,261,337-->
 
 The marginal revenue curve is affected by {@{the same factors as the demand curve}@} – {@{changes in income, changes in the prices of complements and substitutes, changes in populations, etc.}@}<sup>[\[15\]](#^ref-15)</sup> These factors can cause {@{the MR curve to shift and rotate}@}.<sup>[\[16\]](#^ref-16)</sup> Marginal revenue curve differs {@{under perfect competition and imperfect competition (monopoly)}@}.<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2025-12-09,303,337!2025-10-26,269,337!2026-12-20,565,317!2028-04-28,956,337-->
 
@@ -55,7 +55,7 @@ Under {@{[monopoly](monopolistic%20competition.md)}@}, one firm is {@{a sole sel
 
 ## marginal revenue curve and marginal cost curve
 
-A company will {@{stop producing a product/service}@} when {@{marginal revenue (money the company earns from each additional sale) equals marginal cost (the cost the company costs to produce an additional unit)}@}. Therefore, a company is {@{making money when MR is greater than marginal cost (MC)}@}. And when {@{MC = MR, it is called profit maximization}@}. After this point; {@{the company can no longer make a profit}@}. Therefore, {@{it is in their interest to stop production}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-12-15,308,337!2025-11-07,277,337!2025-12-16,309,337!2025-10-16,260,337!2029-01-18,1193,357!2025-10-21,262,337-->
+A company will {@{stop producing a product/service}@} when {@{marginal revenue (money the company earns from each additional sale) equals marginal cost (the cost the company costs to produce an additional unit)}@}. Therefore, a company is {@{making money when MR is greater than marginal cost (MC)}@}. And when {@{MC = MR, it is called profit maximization}@}. After this point; {@{the company can no longer make a profit}@}. Therefore, {@{it is in their interest to stop production}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-12-15,308,337!2025-11-07,277,337!2025-12-16,309,337!2029-02-01,1204,357!2029-01-18,1193,357!2025-10-21,262,337-->
 
 ## relationship between marginal revenue and elasticity
 
@@ -73,7 +73,7 @@ Therefore, it is essential to {@{be aware of the elasticity of demand}@}. A mono
 
 ## marginal revenue and marginal benefit
 
-__Example 1:__ Suppose {@{consumers want to buy an additional lipstick}@}. If {@{the consumer is willing to pay \$50 for this extra lipstick}@}, {@{the marginal income of the purchase is \$50}@}. However, {@{the more lipsticks consumers have, the less they pay for the next lipstick}@}. This is because as {@{consumers accumulate more and more lipsticks}@}, {@{the benefits of having an additional lipstick will be reduced}@}. <!--SR:!2025-10-16,258,337!2028-04-17,946,337!2025-11-24,291,337!2028-03-05,915,337!2027-06-20,727,337!2025-12-13,306,337-->
+__Example 1:__ Suppose {@{consumers want to buy an additional lipstick}@}. If {@{the consumer is willing to pay \$50 for this extra lipstick}@}, {@{the marginal income of the purchase is \$50}@}. However, {@{the more lipsticks consumers have, the less they pay for the next lipstick}@}. This is because as {@{consumers accumulate more and more lipsticks}@}, {@{the benefits of having an additional lipstick will be reduced}@}. <!--SR:!2029-01-25,1197,357!2028-04-17,946,337!2025-11-24,291,337!2028-03-05,915,337!2027-06-20,727,337!2025-12-13,306,337-->
 
 __Example 2:__ Suppose customers are {@{considering buying 10 computers}@}. If {@{the marginal income of the 11th computer is \$2, and the computer company is willing to sell the 11th component to maximize its consumer interest}@}, {@{the company's marginal income is \$2 and consumers' marginal income is \$2}@}. <!--SR:!2025-12-13,306,337!2025-10-23,264,337!2029-01-12,1188,357-->
 
@@ -101,7 +101,7 @@ MC = P + P/e, <br/>
 
 Alternatively, the relationship can be expressed as: <p> {@{P = MC/(1 + 1/e)}@}. <!--SR:!2026-02-27,289,257-->
 
-Thus, for example, if {@{_e_ is −2 and MC is \$5.00}@} then {@{price is \$10.00}@}. <!--SR:!2027-11-10,828,337!2025-10-16,259,337-->
+Thus, for example, if {@{_e_ is −2 and MC is \$5.00}@} then {@{price is \$10.00}@}. <!--SR:!2027-11-10,828,337!2029-01-30,1202,357-->
 
 __Example__ If {@{a company can sell 10 units at \$20 each or 11 units at \$19 each}@}, then {@{the marginal revenue from the eleventh unit is (11 × 19) − (10 × 20) = \$9}@}. <!--SR:!2025-11-19,287,337!2025-12-16,309,337-->
 

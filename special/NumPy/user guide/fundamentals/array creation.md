@@ -183,7 +183,7 @@ array([[[0., 0.],
         [0., 0.]]])
 ```
 
-{@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones")}@} will {@{create an array filled with 1 values}@}. It is {@{identical to `zeros` in all other respects}@} as such: <!--SR:!2025-11-09,288,330!2029-02-06,1211,350!2025-10-16,268,330-->
+{@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones")}@} will {@{create an array filled with 1 values}@}. It is {@{identical to `zeros` in all other respects}@} as such: <!--SR:!2025-11-09,288,330!2029-02-06,1211,350!2029-02-23,1226,350-->
 
 ```Python
 >>> import numpy as np

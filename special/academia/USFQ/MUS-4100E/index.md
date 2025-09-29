@@ -449,7 +449,7 @@ The content is in teaching order.
   - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2025-10-30,149,422!2025-10-26,145,422-->
   - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2025-10-28,147,422!2025-10-30,149,422-->
     - bebop / rhythm section / drums ::@:: Ride cymbals instead of bass drums produce beats, which feels faster and lighter. Bass drums and snare are for rhythmic accents \(e.g. kicks, punches\). Tempo is faster, making it not intended for dancing. <!--SR:!2025-10-17,136,422!2025-11-01,151,422-->
-    - bebop / rhythm section / piano ::@:: Radical changes occur. Dissonance becomes essential instead of common. Sustained chords become kicks and punches with the drums. It uses the same vocabulary as the horns during solo. <!--SR:!2025-10-29,148,422!2025-10-16,135,422-->
+    - bebop / rhythm section / piano ::@:: Radical changes occur. Dissonance becomes essential instead of common. Sustained chords become kicks and punches with the drums. It uses the same vocabulary as the horns during solo. <!--SR:!2025-10-29,148,422!2027-05-07,568,422-->
     - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2025-10-19,138,422-->
     - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2025-10-22,141,422!2025-11-01,151,422-->
   - bebop / characteristics
@@ -508,17 +508,17 @@ The content is in teaching order.
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\) <!--SR:!2025-10-25,144,422!2025-11-01,151,422-->
   - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2025-10-30,149,422!2025-10-23,142,422-->
     - cool jazz / characteristics / vs. bebop ::@:: Essentially opposite of bebop: classical, fast, improvised, relaxed, remix, monophonic; simply invert the characteristics listed above <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
-- [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2026-09-08,391,402!2025-10-16,135,422-->
+- [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2026-09-08,391,402!2027-11-30,775,442-->
   - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2025-10-27,146,422!2025-10-27,146,422-->
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2025-10-26,145,422!2027-03-05,563,422-->
   - Chet Baker / old age ::@:: When he was in his 50s, he was old and ugly after drugs. Later, he was found dead in Amsterdam after apparently falling out of a window. <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
-  - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2026-08-14,387,402!2025-10-16,135,422-->
+  - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2026-08-14,387,402!2027-05-09,570,422-->
   - Chet Baker / films ::@:: _Let's Get Lost_, a documentary made the year he died, and "Born to be Blue", a biography motion picture. <!--SR:!2025-10-22,141,422!2025-10-25,144,422-->
 - [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2025-10-29,148,422!2025-10-30,149,422-->
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2025-10-29,148,422!2025-10-29,148,422-->
   - Gerry Mulligan / works ::@:: "Speak Low" \(1953\) — Chet Baker & Gerry Mulligan <!--SR:!2025-10-25,144,422!2027-11-22,768,442-->
 - [Stan Getz](../../../../general/Stan%20Getz.md) \(1927–1991\) ::@:: He was an American jazz saxophonist from Philadelphia. Playing primarily the tenor saxophone, Getz was known as "__The Sound__" because of his warm, lyrical tone \("airy" sounds\). <p> He also struggled with drugs. <!--SR:!2025-10-25,144,422!2025-10-28,147,422-->
-  - Stan Getz / works ::@:: "The Girl from Impanema" \(1964\) — Joao Gilberto & Stan Getz <br/> "Just Friends" — Chet Baker & Stan Getz: Even though he and Chet Baker hated each other, they had had many collaborations. <!--SR:!2027-03-20,554,422!2025-10-16,135,422-->
+  - Stan Getz / works ::@:: "The Girl from Impanema" \(1964\) — Joao Gilberto & Stan Getz <br/> "Just Friends" — Chet Baker & Stan Getz: Even though he and Chet Baker hated each other, they had had many collaborations. <!--SR:!2027-03-20,554,422!2027-12-06,781,442-->
   - Stan Getz / effects ::@:: He was responsible for bossa nova and samba for being part of jazz. He went to Brazil, heard the music, and infused it with jazz elements. This changed music. <!--SR:!2025-10-29,148,422!2025-10-28,147,422-->
 - assignment: \(none\)
 
@@ -535,7 +535,7 @@ The content is in teaching order.
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova". <!--SR:!2025-10-25,144,422!2025-10-29,148,422-->
   - Joao Gilberto / works ::@:: "Desafinado" \(1959\) — Joao Gilberto <!--SR:!2027-02-24,554,422!2025-10-24,143,422-->
 - [Sérgio Mendes](../../../../general/Sérgio%20Mendes.md) \(1941–2024\) ::@:: He continued with the bossa nova and samba movement, and mixed Brazilian music with American music. <p> His career took off with worldwide hits by his band Brasil '66. <!--SR:!2025-10-27,146,422!2027-11-24,770,442-->
-  - Sérgio Mendes / works ::@:: "Mas que nada" \(1963\) — Brasil '66 <!--SR:!2025-10-26,145,422!2025-10-16,135,422-->
+  - Sérgio Mendes / works ::@:: "Mas que nada" \(1963\) — Brasil '66 <!--SR:!2025-10-26,145,422!2027-12-05,780,442-->
 - assignment: \(none\)
 
 ## week 12 lecture
@@ -571,9 +571,9 @@ The content is in teaching order.
   - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00, PT1H20M
 - [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2025-10-22,141,422!2025-10-23,142,422-->
   - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2025-10-23,142,422!2025-10-28,147,422-->
-  - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2025-10-16,135,422!2025-10-27,146,422-->
+  - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2025-10-27,146,422-->
   - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2025-10-19,138,422!2025-10-24,143,422-->
-- [chorus](../../../../general/refrain.md) ::@:: the line or lines that are repeated in poetry or in music <!--SR:!2025-10-18,137,422!2025-10-16,135,422-->
+- [chorus](../../../../general/refrain.md) ::@:: the line or lines that are repeated in poetry or in music <!--SR:!2025-10-18,137,422!2027-12-08,783,442-->
 - trading ::@:: instrumentalists take turns playing 2, 4, 8, or 16 measures of improvisation <!--SR:!2025-10-24,143,422!2025-10-18,137,422-->
 - [straight-ahead jazz](../../../../general/straight-ahead%20jazz.md) ::@:: It is a genre of jazz that developed in the 1960s, with roots in the prior two decades. <p> It contains the swing feel and walking bass. <!--SR:!2025-10-23,142,422!2025-10-18,137,422-->
 - jazz
@@ -619,7 +619,7 @@ The content is in teaching order.
   - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured. <!--SR:!2025-10-27,146,422!2025-10-29,148,422-->
   - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2025-10-31,150,422!2027-02-25,555,422-->
   - Miles Davis / death ::@:: He died in 1991 from pneumonia. <!--SR:!2025-10-18,137,422!2025-10-29,148,422-->
-  - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc. <!--SR:!2025-10-16,135,422!2025-10-27,146,422-->
+  - Miles Davis / quotes ::@:: His quotes involve innovating \(playing what is not there yet\), not fearing mistakes, playing like yourself, etc. <!--SR:!2027-12-07,782,442!2025-10-27,146,422-->
 - assignment: watch "How Coltrane Broke "My Favorite Things" (feat. Adam Neely)" \(<https://youtu.be/Bg1RGmyl-_A>\)
 
 ## week 13 lecture 2

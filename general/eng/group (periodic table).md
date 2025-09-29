@@ -42,7 +42,7 @@ return await memorize_table(
 > | {@{[group 1](#^group-1)/IA/IA}@} | {@{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}@} <a id="^group-1"></a>^group-1 |
 > | {@{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}@} | {@{[alkaline earth metals](alkaline%20earth%20metal.md)}@} |
 > | {@{[group 17](halogen.md)/VIIB/VIIA}@} | {@{[halogens](halogen.md)}@} |
-> | {@{[group 18](noble%20gas.md)/0/VIIIA}@} | {@{[noble gases](noble%20gas.md)}@} | <!--SR:!2026-12-07,966,330!2026-06-02,870,330!2026-12-10,969,330!2026-09-05,900,330!2025-10-16,501,330!2026-10-14,926,330!2027-02-09,1011,330!2027-06-17,1196,350-->
+> | {@{[group 18](noble%20gas.md)/0/VIIIA}@} | {@{[noble gases](noble%20gas.md)}@} | <!--SR:!2026-12-07,966,330!2026-06-02,870,330!2026-12-10,969,330!2026-09-05,900,330!2032-01-10,2277,350!2026-10-14,926,330!2027-02-09,1011,330!2027-06-17,1196,350-->
 
 <!--/pytextgen-->
 

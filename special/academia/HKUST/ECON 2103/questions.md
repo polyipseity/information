@@ -132,7 +132,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}@} <!--SR:!2025-10-16,296,330!2027-10-29,844,330-->
+> - explanation: {@{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}@} <!--SR:!2029-06-24,1347,350!2027-10-29,844,330-->
 
 <!-- markdownlint MD028 -->
 

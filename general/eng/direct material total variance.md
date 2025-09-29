@@ -20,7 +20,7 @@ In {@{[variance analysis \(accounting\)](variance%20analysis%20(accounting).md)}
 
 ## example
 
-Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2025-10-21,61,310!2025-10-20,60,310!2025-10-20,60,310!2025-10-16,57,310-->
+Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2025-10-21,61,310!2025-10-20,60,310!2025-10-20,60,310!2026-06-19,246,330-->
 
 Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!2026-06-06,236,330!2025-10-19,59,310-->
 
@@ -30,7 +30,7 @@ Under those assumptions direct material total variance can be calculated as:
 | ------------------------------------------------------ | --- | ------------------------------: | --------------- |
 | {@{100 units should have cost \(× \$ 120 per unit\)}@} |     |                  {@{€ 12,000}@} |                 |
 | &emsp; {@{but did cost}@}                              |     |           {@{<u>€ 13,144</u>}@} |                 |
-| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2026-06-13,241,330!2025-10-23,63,310!2025-10-19,59,310!2026-06-06,235,330!2026-06-18,246,330!2025-10-28,67,310!2025-10-16,57,310-->
+| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2026-06-13,241,330!2025-10-23,63,310!2025-10-19,59,310!2026-06-06,235,330!2026-06-18,246,330!2025-10-28,67,310!2026-06-20,247,330-->
 
 Direct material total variance can be reconciled to {@{[direct material price variance](direct%20material%20price%20variance.md) and [direct material usage variance](direct%20material%20usage%20variance.md)}@} by: <!--SR:!2025-10-19,59,310-->
 

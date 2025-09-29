@@ -159,7 +159,7 @@ The content is in teaching order.
   - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2028-01-05,915,330!2025-11-14,312,290-->
     - histogram / _R_ ::@:: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2028-02-08,968,350!2028-02-25,985,350-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
-  - modality ::@:: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2025-10-16,315,330!2028-07-14,1097,350-->
+  - modality ::@:: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2029-09-18,1433,350!2028-07-14,1097,350-->
     - [unimodaility](../../../../general/unimodality.md)
       - [§ unimodal probability distribution](../../../../general/unimodality.md#unimodal%20probability%20distribution)
     - [multimodal distribution](../../../../general/multimodal%20distribution.md)

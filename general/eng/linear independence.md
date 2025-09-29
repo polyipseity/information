@@ -17,7 +17,7 @@ Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathemati
 
 > [!example] examples
 >
-> - [empty set](empty%20set.md) $\emptyset$ :@: Linearly independent. Consider that the condition for linear dependence uses [existential quantification](existential%20quantification.md) and its [inverse](inverse%20(logic).md) uses [universal quantification](universal%20quantification.md) by [De Morgan's laws](De%20Morgan's%20laws.md), it is linearly independent by [vacuous truth](vacuous%20truth.md). <!--SR:!2025-10-16,458,310-->
+> - [empty set](empty%20set.md) $\emptyset$ :@: Linearly independent. Consider that the condition for linear dependence uses [existential quantification](existential%20quantification.md) and its [inverse](inverse%20(logic).md) uses [universal quantification](universal%20quantification.md) by [De Morgan's laws](De%20Morgan's%20laws.md), it is linearly independent by [vacuous truth](vacuous%20truth.md). <!--SR:!2031-03-04,1965,330-->
 
 ### infinite case
 

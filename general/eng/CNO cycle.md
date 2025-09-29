@@ -29,7 +29,7 @@ The CN-cycle, named as {@{it contains no stable isotope of oxygen}@}, involves t
 
 This cycle is now understood as {@{being the first part of a larger process, the CNO-cycle}@}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2028-08-26,1157,350-->
 
-- 1st step ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2025-10-16,215,250!2026-03-31,400,290-->
+- 1st step ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2027-11-08,753,270!2026-03-31,400,290-->
   - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2026-05-19,424,270!2027-06-06,769,310-->
 - 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2026-06-14,317,190!2027-01-19,621,310-->
   - 2nd step / energy release (& half-life if available) ::@:: 1.20 Mev, 9.965 minutes <!--SR:!2025-12-18,171,170!2025-12-03,324,290-->

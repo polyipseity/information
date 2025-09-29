@@ -120,7 +120,7 @@ We have {@{an equilateral triangle of side length 2. Amir chooses five points in
 
 ## pigeonhole principle: birthday
 
-Prove that {@{there are 3 students in COMP 2711H whose birthday is on the same day of the month}@}. We currently have 64 students. <!--SR:!2025-10-16,312,340-->
+Prove that {@{there are 3 students in COMP 2711H whose birthday is on the same day of the month}@}. We currently have 64 students. <!--SR:!2029-10-15,1460,360-->
 
 - strategy ::@:: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2028-02-18,950,340!2029-08-07,1404,360-->
 

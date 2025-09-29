@@ -1018,7 +1018,7 @@ Taipei 101
 - _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2029-02-17,1418,350-->
 - HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-12-21,307,277!2027-12-21,958,354-->
 - International Commerce Centre→::@::←John Hancock Center <!--SR:!2030-02-16,1596,340!2025-11-06,317,297-->
-- John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
+- John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2030-03-17,1613,332-->
 - Taipei 101→::@::←_(end)_ <!--SR:!2029-02-16,1408,387!2026-05-17,425,301-->
 
 <!--/pytextgen-->

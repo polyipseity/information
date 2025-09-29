@@ -15,7 +15,7 @@ tags:
 
 # falling and rising factorials
 
-In [mathematics](mathematics.md), {@{the __falling factorial__}@} (sometimes called {@{the __descending factorial__,<sup>[\[1\]](#^ref-1)</sup> __falling sequential product__, or __lower factorial__}@}) is defined as {@{the polynomial $${\begin{aligned}(x)_{n}=x^{\underline {n} }&=\overbrace {x(x-1)(x-2)\cdots (x-n+1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x-k+1)=\prod _{k=0}^{n-1}(x-k).\end{aligned} }$$}@} <!--SR:!2028-11-24,1159,350!2025-10-16,275,330!2028-12-25,1183,350-->
+In [mathematics](mathematics.md), {@{the __falling factorial__}@} (sometimes called {@{the __descending factorial__,<sup>[\[1\]](#^ref-1)</sup> __falling sequential product__, or __lower factorial__}@}) is defined as {@{the polynomial $${\begin{aligned}(x)_{n}=x^{\underline {n} }&=\overbrace {x(x-1)(x-2)\cdots (x-n+1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x-k+1)=\prod _{k=0}^{n-1}(x-k).\end{aligned} }$$}@} <!--SR:!2028-11-24,1159,350!2029-03-20,1251,350!2028-12-25,1183,350-->
 
 {@{The __rising factorial__}@} (sometimes called {@{the __Pochhammer function__, __Pochhammer polynomial__, __ascending factorial__,<sup>[\[1\]](#^ref-1)</sup> __rising sequential product__, or __upper factorial__}@}) is defined as {@{$${\begin{aligned}(x)^{n}=x^{\overline {n} }&=\overbrace {x(x+1)(x+2)\cdots (x+n-1)} ^{n{\text{ factors} } }\\&=\prod _{k=1}^{n}(x+k-1)=\prod _{k=0}^{n-1}(x+k).\end{aligned} }$$}@} <!--SR:!2029-01-07,1195,350!2025-10-27,281,330!2028-09-18,1106,350-->
 
@@ -73,7 +73,7 @@ There is also a connection formula for {@{the ratio of two rising factorials}@} 
 
 Additionally, we can {@{expand generalized exponent laws and negative rising and falling powers}@} through the following identities:<sup>[\[11\]](#^ref-11)</sup><sup>[\[52\]](#^ref-52)</sup> <!--SR:!2029-01-16,1201,350-->
 
-- generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2025-11-05,290,330!2025-10-16,275,330-->
+- generalized exponent law for falling factorial ::@:: $$(x)_{m+n}=(x)_{m}(x-m)_{n}=(x)_{n}(x-n)_{m}$$ <!--SR:!2025-11-05,290,330!2029-03-19,1250,350-->
 - generalized exponent law for rising factorial ::@:: $$x^{(m+n)}=x^{(m)}(x+m)^{(n)}=x^{(n)}(x+n)^{(m)}$$ <!--SR:!2028-11-21,1158,350!2028-11-29,1165,350-->
 - negative rising factorial ::@:: $$x^{(-n)}={\frac {\Gamma (x-n)}{\Gamma (x)} }={\frac {(x-n-1)!}{(x-1)!} }={\frac {1}{(x-n)^{(n)} } }={\frac {1}{(x-1)_{n} } }={\frac {1}{(x-1)(x-2)\cdots (x-n)} }$$ <!--SR:!2025-11-04,240,270!2026-11-15,550,310-->
 - negative falling factorial ::@:: $$(x)_{-n}={\frac {\Gamma (x+1)}{\Gamma (x+n+1)} }={\frac {x!}{(x+n)!} }={\frac {1}{(x+n)_{n} } }={\frac {1}{(x+1)^{(n)} } }={\frac {1}{(x+1)(x+2)\cdots (x+n)} }$$ <!--SR:!2026-06-14,396,290!2025-11-07,242,270-->

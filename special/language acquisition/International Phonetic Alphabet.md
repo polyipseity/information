@@ -526,7 +526,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:\[ʍ\] <!--SR:!2027-05-19,691,256-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:\[ɯ\] <!--SR:!2027-06-27,630,330-->
 - [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\] <!--SR:!2025-11-09,47,249-->
-- [voiceless velar fricative](voiceless%20velar%20fricative.md):@:\[x\] <!--SR:!2025-10-16,302,314-->
+- [voiceless velar fricative](voiceless%20velar%20fricative.md):@:\[x\] <!--SR:!2026-03-19,154,294-->
 - [voiceless uvular fricative](voiceless%20uvular%20fricative.md):@:\[χ\] <!--SR:!2025-11-19,367,314-->
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:\[y\] <!--SR:!2030-04-25,1688,376-->
 - [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md):@:\[ʏ\] <!--SR:!2027-07-11,640,330-->
@@ -800,7 +800,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 - ![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg):@:[open front unrounded vowel](open%20front%20unrounded%20vowel.md) <!--SR:!2025-11-07,59,150-->
 - ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg):@:[open central unrounded vowel](open%20central%20unrounded%20vowel.md) <!--SR:!2025-11-14,431,251-->
-- ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg):@:[near-open central vowel](near-open%20central%20vowel.md) <!--SR:!2025-10-16,37,130-->
+- ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg):@:[near-open central vowel](near-open%20central%20vowel.md) <!--SR:!2025-11-05,20,130-->
 - ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg):@:[open back unrounded vowel](open%20back%20unrounded%20vowel.md) <!--SR:!2025-10-31,49,130-->
 - ![nasalized open back unrounded vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg):@:[nasalized open back unrounded vowel](nasal%20vowel.md) <!--SR:!2027-01-21,547,233-->
 - ![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg):@:[open back rounded vowel](open%20back%20rounded%20vowel.md) <!--SR:!2026-05-17,225,272-->
@@ -995,7 +995,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolar trill](voiced%20alveolar%20trill.md):@:[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog" <!--SR:!2025-11-12,68,171-->
 - [voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md):@:[Spanish](Spanish%20language.md) _ca**r**o_ \[ˈkaɾo̞\] "expensive" <!--SR:!2026-01-25,135,171-->
 - [voiced uvular trill](voiced%20uvular%20trill.md):@:[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red" <!--SR:!2025-11-19,514,291-->
-- [voiced retroflex flap](voiced%20retroflex%20flap.md):@:[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf" <!--SR:!2025-10-16,63,130-->
+- [voiced retroflex flap](voiced%20retroflex%20flap.md):@:[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf" <!--SR:!2026-01-08,84,130-->
 - [voiced alveolar approximant](voiced%20alveolar%20approximant.md):@:[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest" <!--SR:!2025-10-30,61,130-->
 - [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat" <!--SR:!2026-01-04,84,131-->
 - [voiced uvular fricative](voiced%20uvular%20fricative.md):@:[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay" <!--SR:!2025-10-22,33,130-->
@@ -1028,7 +1028,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!2025-10-19,12,130-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2026-03-17,285,190-->
 - [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!2026-04-19,346,210-->
-- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!2025-10-16,5,130-->
+- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!2025-10-23,7,130-->
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!2025-10-18,4,130-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:[English](English%20language.md) _**th**in_ \[θɪn\] <!--SR:!2028-02-13,900,250-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay" <!--SR:!2025-12-03,77,170-->
@@ -1118,7 +1118,7 @@ Here is a list of common IPA diacritics and their descriptions:
 - [voiceless](voicelessness.md):@:[English](English%20language.md) _**d**oe_ \[d̥oʊ̯\] <!--SR:!2029-12-07,1647,338-->
 - [syllabic](syllabic%20consonant.md):@:[English](English%20language.md) _butt**on**_ \[ˈbʌʔn̩\] <!--SR:!2025-12-09,215,218-->
 - [dental/alveolar](dental%20consonant.md):@:[Spanish](Spanish%20language.md) _**d**os_ \[ˈd̪os\] "two" <!--SR:!2026-04-17,583,298-->
-- [aspirated](aspirated%20consonant.md):@:[English](English%20language.md) _**c**ome_ \[kʰɐm\] <!--SR:!2025-10-16,627,358-->
+- [aspirated](aspirated%20consonant.md):@:[English](English%20language.md) _**c**ome_ \[kʰɐm\] <!--SR:!2031-12-09,2245,358-->
 - [ejective](ejective%20consonant.md):@:[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come" <!--SR:!2026-12-03,546,197-->
 - [long](longness%20(phonetics).md):@:[English](English%20language.md) _shh!_ \[ʃː\] <!--SR:!2028-07-25,1278,338-->
 - [half-long](half-longness%20(phonetics).md):@:[English](English%20language.md) _caught_ \[ˈkʰɔˑt\] <!--SR:!2029-08-10,1403,279-->

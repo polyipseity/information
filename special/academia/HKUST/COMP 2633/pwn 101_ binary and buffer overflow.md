@@ -100,12 +100,12 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `file <path>` ::@:: load binary file to debug <!--SR:!2029-02-22,1256,350!2025-10-18,298,330-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-10-27,1165,350!2027-04-04,704,330-->
 - `set args <args>...` ::@:: set program args <!--SR:!2029-03-29,1286,350!2027-08-25,811,330-->
-- `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2029-05-30,1332,350!2025-10-16,296,330-->
+- `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2029-05-30,1332,350!2029-06-30,1353,350-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2028-02-17,965,350!2029-05-31,1327,350-->
 - `break <where>` ::@:: set a breakpoint <!--SR:!2029-05-17,1317,350!2028-02-11,960,350-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2029-05-22,1320,350!2028-03-01,976,350-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2028-11-03,1169,350!2029-06-10,1342,350-->
-- `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-10-16,296,330!2029-06-05,1331,350-->
+- `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2029-07-01,1354,350!2029-06-05,1331,350-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2028-08-18,1111,350!2028-10-16,1154,350-->
 - `ni` ::@:: go to the next instruction <!--SR:!2027-10-13,849,330!2028-05-24,1043,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2029-01-29,1238,350-->

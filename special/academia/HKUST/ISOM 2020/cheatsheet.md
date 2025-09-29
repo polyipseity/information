@@ -37,7 +37,7 @@ The cheatsheet is provided during the final examination.
 
 ## arithmetic operators
 
-- `+` ::@:: addition <!--SR:!2025-10-16,280,330!2025-10-20,282,330-->
+- `+` ::@:: addition <!--SR:!2029-04-16,1278,350!2025-10-20,282,330-->
 - `-` ::@:: subtraction <!--SR:!2029-04-04,1268,350!2029-03-14,1252,350-->
 - `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2025-10-20,282,330-->
 - `**` ::@:: to the power of <!--SR:!2029-04-05,1269,350!2025-10-25,287,330-->

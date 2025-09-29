@@ -611,7 +611,7 @@ The content is in teaching order.
 - reduced instruction set computer
   - reduced instruction set computer / antonym ::@:: complex instruction set computer \(CISC\) <p> fun fact: CISC was retroactively coined in contrast to RISC. <!--SR:!2027-11-27,795,440!2028-01-25,836,440-->
   - reduced instruction set computer / characteristics ::@:: Since each instruction \(at least tries to\) do one thing, more instructions are needed in a program. However, executing each instruction is usually faster. Hardware design is simple. <!--SR:!2027-12-20,805,440!2027-12-11,797,440-->
-    - reduced instruction set computer / characteristics / motivation ::@:: After quantitative measurement, the most useful instructions and addressing modes are chosen. <!--SR:!2028-01-10,823,440!2025-10-16,150,420-->
+    - reduced instruction set computer / characteristics / motivation ::@:: After quantitative measurement, the most useful instructions and addressing modes are chosen. <!--SR:!2028-01-10,823,440!2028-02-28,865,440-->
     - reduced instruction set computer / characteristics / hardware ::@:: Machine code is usually directly executed on the hardware. <!--SR:!2027-11-17,777,440!2028-02-12,851,440-->
     - reduced instruction set computer / characteristics / memory ::@:: Due to simple hardware, more registers and bigger CPU caches can be equipped. <!--SR:!2027-12-14,800,440!2027-11-19,778,440-->
     - reduced instruction set computer / characteristics / use ::@:: Assembly language is harder to write. Compilers are harder to write as well. <!--SR:!2028-01-12,825,440!2027-11-05,766,440-->
@@ -672,7 +672,7 @@ The content is in teaching order.
     - high: 97 → 100
     - distribution: ![midterm examination distribution](attachments/midterm%20examination%20distribution.png) → ?
 - report
-  - race hazards \(–4\) ::@:: It seems like the rules for deciding if a state is _forbidden_ is more complex than expected. See above. <!--SR:!2028-01-04,818,440!2025-10-16,150,420-->
+  - race hazards \(–4\) ::@:: It seems like the rules for deciding if a state is _forbidden_ is more complex than expected. See above. <!--SR:!2028-01-04,818,440!2028-02-21,858,440-->
   - time limit ::@:: Plenty of time left. In fact, the instructor added an extra 10 minutes... <!--SR:!2027-11-19,779,440!2028-02-06,846,440-->
 - check
   - datetime: 2025-03-28T19:00:00+08:00 → 2025-03-28T20:30:00+08:00
@@ -733,7 +733,7 @@ The content is in teaching order.
     - arithmetic logic unit / signals / status outputs ::@:: carry-out, zero, negative, overflow, parity, etc. <!--SR:!2027-12-22,807,440!2028-01-01,815,440-->
     - arithmetic logic unit / signals / status inputs ::@:: carry-in, etc. <!--SR:!2027-12-24,808,440!2027-04-03,588,420-->
   - arithmetic logic unit / functions
-    - arithmetic logic unit / functions / bitwise operations ::@:: Use the corresponding logic gates. <!--SR:!2025-10-16,150,420!2027-12-06,793,440-->
+    - arithmetic logic unit / functions / bitwise operations ::@:: Use the corresponding logic gates. <!--SR:!2028-02-27,864,440!2027-12-06,793,440-->
     - arithmetic logic unit / functions / addition ::@:: Use full-adders. Two common ways to add multiple-bit numbers are _ripple carry_ and _carry lookahead_. <!--SR:!2027-11-23,791,440!2027-11-08,778,440-->
     - arithmetic logic unit / functions / subtraction ::@:: Assuming signed integers are represented using two's complement. <p> The circuit for addition can be reused. However, the second operand \(the _subtrahend_\) needs to be inverted and then added one to get its complement. One way to implement this is to invert the second operand \(by setting an additional input _binvert_ to 1\), and additionally set the carry-in of the LSB full-adder to 1. We could combine these two inputs \(_binvert_ + carry-in of LSB\) as an input _bnegate_. <!--SR:!2028-01-05,819,440!2027-04-24,568,420-->
     - arithmetic logic unit / functions / comparison ::@:: To check if `$s < $t`, we can use `slt $d, $s, $t`. This is equivalent to checking `$s - $t < 0`, i.e. checking if the sign bit \(assuming no overrflow\) of `$s - $t` equals 1. <p> To implement `slt`, we can add a _less_ input to all ALUs, which is passthrough as the _less_ output \(opcode: SLT\). Then, the _less_ input is always zero except for the LSB ALU, which is connected to a _set_ output of the MSB ALU. The _set_ output is simply the subtraction MSB bit. \(__this course__: The lecture slides do not handle overflows. To handle overflows, detect if a subtraction overflow is possible, i.e. the two operand sign bits are different, and if so, the _set_ output uses the sign bit of the second operand.\) <p> Remember to also set the carry-in bit of the LSB to perform subtraction properly. <!--SR:!2027-03-10,568,420!2026-01-18,207,360-->
@@ -1004,7 +1004,7 @@ The content is in teaching order.
 - datetime: 2025-04-25T09:00:00+08:00/2025-04-25T10:20:00+08:00, PT1H20M
 - topic: pipeline basics
 - [instruction pipelining](../../../../general/instruction%20pipelining.md) ::@:: It is a technique for implementing instruction-level parallelism within a single processor. Pipelining attempts to keep every part of the processor busy with some instruction by dividing incoming instructions into a series of sequential steps \(the eponymous "pipeline"\) performed by different processor units with different parts of instructions processed in parallel. <!--SR:!2025-12-14,145,439!2025-10-23,102,419-->
-  - instruction pipelining ::@:: The steps should be independent of each other. It does not help with the latency \(execution time\) of a single instruction, but it increases instruction throughput \(number of instructions per time\). <p> The maximum potential speedup factor equals the number of stages. This requires the stages takes the same time, otherwise the factor decreases. <!--SR:!2025-10-16,101,422!2025-12-26,157,439-->
+  - instruction pipelining ::@:: The steps should be independent of each other. It does not help with the latency \(execution time\) of a single instruction, but it increases instruction throughput \(number of instructions per time\). <p> The maximum potential speedup factor equals the number of stages. This requires the stages takes the same time, otherwise the factor decreases. <!--SR:!2027-05-19,580,442!2025-12-26,157,439-->
 - [Gantt chart](../../../../general/Gantt%20chart.md) ::@:: It is a bar chart that illustrates a project schedule. It can show the sequence, duration, and dependence of activities. <!--SR:!2025-12-15,155,442!2026-01-01,163,442-->
 - MIPS architecture
   - MIPS architecture / pipeline ::@:: It is designed for pipelining. Its instructions have the same size. Its instruction formats are few and similar. It supports memory operands in loads and stores only. It requires memory operands to be aligned, so memory access at most requires a single transfer. <!--SR:!2025-11-06,116,419!2026-01-02,164,442-->
