@@ -73,7 +73,7 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2028-11-28,1191,350!2027-06-29,764,330!2027-07-08,763,330!2028-12-13,1201,350!2029-02-16,1252,350-->
 
-There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2025-10-17,297,330!2028-01-06,928,350!2028-10-02,1140,350!2028-02-11,961,350!2028-06-20,1063,350-->
+There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2029-07-05,1357,350!2028-01-06,928,350!2028-10-02,1140,350!2028-02-11,961,350!2028-06-20,1063,350-->
 
 ### System V AMD64 ABI
 
@@ -111,7 +111,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2027-06-26,751,330!2029-01-29,1238,350-->
 - `continue` ::@:: continue program execution <!--SR:!2028-06-15,1059,350!2029-06-17,1341,350-->
 - `finish` ::@:: run until the current function returns <!--SR:!2029-05-28,1325,350!2028-10-13,1151,350-->
-- `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2025-10-17,297,330-->
+- `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2028-06-23,980,330-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2029-04-23,1296,350!2028-09-17,1133,350-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2028-06-19,1062,350-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2028-12-03,1194,350!2028-07-09,1072,350-->

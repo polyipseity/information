@@ -36,7 +36,7 @@ The algorithm performs the following steps:
 - Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2025-10-31,263,330!2026-11-30,536,310-->
 - Sort ::@:: the graph edges by weight. <!--SR:!2025-12-08,294,330!2025-12-07,293,330-->
 - Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2027-11-02,807,330!2025-11-12,273,330-->
-  - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2025-10-17,252,330-->
+  - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-12-09,294,330!2028-12-13,1153,350-->
   - If not, ::@:: add the edge to the forest, combining two trees into a single tree. <!--SR:!2025-11-07,269,330!2025-11-09,271,330-->
 
 At {@{the termination of the algorithm}@}, {@{the forest forms a minimum spanning forest of the graph}@}. If {@{the graph is connected}@}, the forest {@{has a single component and forms a minimum spanning tree}@}. <!--SR:!2025-12-04,290,330!2025-10-25,259,330!2025-12-08,294,330!2025-12-02,289,330-->

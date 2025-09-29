@@ -90,7 +90,7 @@ Although in {@{a highly simplified and idealized model of a digital circuit}@}, 
 
 To {@{create a digital signal}@}, an analog signal must be {@{modulated with a control signal to produce it}@}. {@{The simplest modulation, a type of [unipolar encoding](unipolar%20encoding.md)}@}, is simply to {@{switch on and off a DC signal so that high voltages represent a '1' and low voltages are '0'}@}. <!--SR:!2026-03-09,294,330!2026-02-23,285,330!2027-10-19,743,330!2026-01-09,251,330-->
 
-In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier waves are [amplitude](amplitude%20modulation.md), [frequency](frequency%20modulation.md) or [phase modulated](phase%20modulated.md) by the control signal}@} to {@{produce a digital signal suitable for transmission}@}. <!--SR:!2026-01-11,250,330!2025-10-17,181,310!2026-01-29,266,330-->
+In {@{[digital radio](digital%20radio.md) schemes}@} {@{one or more carrier waves are [amplitude](amplitude%20modulation.md), [frequency](frequency%20modulation.md) or [phase modulated](phase%20modulated.md) by the control signal}@} to {@{produce a digital signal suitable for transmission}@}. <!--SR:!2026-01-11,250,330!2027-04-27,557,310!2026-01-29,266,330-->
 
 {@{[Asymmetric Digital Subscriber Line](Asymmetric%20Digital%20Subscriber%20Line.md) \(ADSL\) over [telephone wires](telephone%20wire.md)}@}, does not {@{primarily use binary logic}@}; {@{the digital signals for individual carriers}@} are {@{modulated with different valued logics}@}, depending on {@{the [Shannon capacity](Shannon%20capacity.md) of the individual channel}@}. <!--SR:!2026-02-04,266,330!2025-12-29,241,330!2026-01-24,262,330!2025-12-20,234,330!2026-01-15,254,330-->
 

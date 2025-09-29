@@ -298,7 +298,7 @@ There are {@{several historically important set-theoretic statements}@} {@{impli
 
 - [Set theory](set%20theory.md)
 
-  - {@{Partition principle}@}: if there is {@{a [surjection](surjective%20function.md) from _A_ to _B_}@}, there is an {@{[injection](injective%20function.md) from _B_ to _A_}@}. Equivalently, {@{every [partition](partition%20of%20a%20set.md) _P_ of a set _S_}@} is {@{less than or equal to _S_ in size}@}. \(annotation: Implies {@{the converse Schröder–Bernstein theorem and the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2025-12-03,73,344!2025-12-04,74,344!2025-11-22,63,327!2025-11-23,64,327!2025-10-27,42,307!2025-11-17,56,324!2025-10-17,24,371-->
+  - {@{Partition principle}@}: if there is {@{a [surjection](surjective%20function.md) from _A_ to _B_}@}, there is an {@{[injection](injective%20function.md) from _B_ to _A_}@}. Equivalently, {@{every [partition](partition%20of%20a%20set.md) _P_ of a set _S_}@} is {@{less than or equal to _S_ in size}@}. \(annotation: Implies {@{the converse Schröder–Bernstein theorem and the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2025-12-03,73,344!2025-12-04,74,344!2025-11-22,63,327!2025-11-23,64,327!2025-10-27,42,307!2025-11-17,56,324!2026-02-19,125,391-->
 
   - {@{Converse [Schröder–Bernstein theorem](Schröder–Bernstein%20theorem.md)}@}: if {@{two sets have surjections to each other}@}, {@{they are equinumerous}@}. \(annotation: Implied by {@{the partition principle}@}. Implies {@{the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2025-12-07,76,344!2025-10-20,34,304!2025-12-12,80,344!2025-12-01,70,327!2025-11-24,65,327!2026-02-11,118,391-->
 

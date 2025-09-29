@@ -16,7 +16,7 @@ tags:
 
 # reverse 101: world of binaries
 
-Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensuring interoperability with closed-source programs, or find vulnerabilities in them. What they have in common is that the program source is not readily available. <!--SR:!2025-10-17,321,365!2027-11-07,889,343-->
+Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensuring interoperability with closed-source programs, or find vulnerabilities in them. What they have in common is that the program source is not readily available. <!--SR:!2030-03-12,1607,385!2027-11-07,889,343-->
 
 ## compiling a program
 
@@ -74,7 +74,7 @@ Below is a list of common instructions (in learning order):
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2025-12-23,375,365!2026-01-08,387,363-->
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2026-01-14,393,365!2025-11-23,348,357-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2029-05-24,1367,377!2028-08-11,1115,350-->
-- `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2029-01-15,1239,365!2025-10-17,320,357-->
+- `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2029-01-15,1239,365!2030-01-28,1564,377-->
 - `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2025-10-30,327,343!2029-08-02,1409,363-->
 - `cmp <left>, <right>` ::@:: Subtract `<right>` from `<left>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if `<left>` equals `<right>`. <!--SR:!2026-01-04,383,365!2030-01-09,1549,377-->
 - `je <addr>`, `jz <addr>` ::@:: Jump to `<addr>` if the zero flag `ZF` is set (`1`). Assuming the zero flag is set by `cmp <left> <right>` in the previous executed instruction, then it is jump to `<addr>` if `<left>` equals `<right>`. <!--SR:!2027-08-02,770,345!2025-11-30,357,365-->

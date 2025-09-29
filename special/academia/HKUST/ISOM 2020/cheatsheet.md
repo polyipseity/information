@@ -91,7 +91,7 @@ The cheatsheet is provided during the final examination.
 
 - `and` ::@:: are both operands `True`? <!--SR:!2029-01-28,1216,350!2029-02-10,1224,350-->
 - `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2025-10-22,284,330!2025-10-23,285,330-->
-- `not` ::@:: flip `True`/`False` to one another <!--SR:!2025-10-17,281,330!2029-03-21,1257,350-->
+- `not` ::@:: flip `True`/`False` to one another <!--SR:!2029-04-20,1281,350!2029-03-21,1257,350-->
 
 ## conditional statement
 

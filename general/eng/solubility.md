@@ -119,7 +119,7 @@ return (
 > nitrates
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{(none)}@} <!--SR:!2025-10-17,822,236!2028-02-16,1311,289-->
+> - exception(s): {@{(none)}@} <!--SR:!2033-04-08,2730,256!2028-02-16,1311,289-->
 
 <!-- markdownlint MD028 -->
 

@@ -77,7 +77,7 @@ The content is in teaching order.
     - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2031-09-03,2182,410-->
     - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2029-11-27,1620,392-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2030-01-07,1661,390-->
+    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
     - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
@@ -673,7 +673,7 @@ socioeconomic
 
 - _(begin)_→::@::←biological <!--SR:!2028-05-06,1119,347!2030-01-13,1592,394-->
 - biological→::@::←chemical <!--SR:!2025-12-06,424,337!2027-08-16,881,357-->
-- chemical→::@::←cultural <!--SR:!2025-10-17,333,280!2027-03-26,849,377-->
+- chemical→::@::←cultural <!--SR:!2029-05-12,1303,300!2027-03-26,849,377-->
 - cultural→::@::←physical <!--SR:!2026-07-28,649,365!2026-07-24,556,320-->
 - physical→::@::←socioeconomic <!--SR:!2028-06-06,1019,297!2028-07-24,1209,381-->
 - socioeconomic→::@::←_(end)_ <!--SR:!2026-10-27,667,354!2028-01-10,949,297-->

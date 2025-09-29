@@ -479,7 +479,7 @@ The content is in teaching order.
   - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2029-08-11,1512,397-->
   - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2030-07-20,1791,397!2028-11-07,1255,377-->
-  - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2025-10-17,386,377-->
+  - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2031-04-01,1992,397-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->
   - social networks ::@:: How are people connected? <!--SR:!2026-03-10,509,397!2026-02-23,494,397-->
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2026-01-09,458,397!2030-06-09,1734,397-->

@@ -38,7 +38,7 @@ Direct material total variance can be reconciled to {@{[direct material price va
 | ------------------------------------ | --- | --------------------------: | ----------- |
 | {@{Direct material usage variance}@} |     |                 {@{€ 720}@} | {@{\(A\)}@} |
 | {@{Direct material price variance}@} |     |          {@{<u>€ 424</u>}@} | {@{\(A\)}@} |
-| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2025-10-17,58,310!2025-10-21,61,310!2025-10-28,67,310!2026-05-28,227,330!2025-10-20,60,310!2025-10-28,67,310!2025-10-17,58,310!2025-10-17,58,310!2025-10-28,67,310-->
+| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2026-06-25,251,330!2025-10-21,61,310!2025-10-28,67,310!2026-05-28,227,330!2025-10-20,60,310!2025-10-28,67,310!2026-06-26,252,330!2026-06-29,255,330!2025-10-28,67,310-->
 
 See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2025-10-28,67,310!2026-06-08,237,330-->
 

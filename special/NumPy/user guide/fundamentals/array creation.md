@@ -288,7 +288,7 @@ Examples of {@{formats that cannot be read directly but for which it is not hard
 
 ### common ASCII formats
 
-{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2025-11-04,283,330!2025-10-31,280,330!2026-01-03,335,350!2026-01-23,352,350!2028-06-27,1033,350!2025-10-21,272,330!2025-10-17,269,330-->
+{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2025-11-04,283,330!2025-10-31,280,330!2026-01-03,335,350!2026-01-23,352,350!2028-06-27,1033,350!2025-10-21,272,330!2029-02-22,1224,350-->
 
 ```shell
 $ cat simple.csv
@@ -314,7 +314,7 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2025-10-23,274,330!2025-10-17,269,330!2025-10-24,274,330!2025-12-26,328,350!2025-12-30,332,350!2026-01-14,344,350!2025-12-19,321,350-->
+There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2025-10-23,274,330!2029-02-28,1230,350!2025-10-24,274,330!2025-12-26,328,350!2025-12-30,332,350!2026-01-14,344,350!2025-12-19,321,350-->
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 

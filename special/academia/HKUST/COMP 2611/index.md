@@ -72,7 +72,7 @@ The content is in teaching order.
 - [computer program](../../../../general/computer%20program.md) ::@:: a sequence or set of instructions in a programming language for a computer to execute <!--SR:!2027-09-23,727,330!2027-09-07,715,330-->
   - computer program / levels ::@:: (from top to bottom) high-level language, assembly language, machine code <!--SR:!2025-12-12,234,330!2025-12-16,238,330-->
   - computer program / high-level language ::@:: level of abstraction closer to the problem domain, so that you can work productivity and make the program more portable <!--SR:!2025-12-30,249,330!2027-08-17,698,330-->
-  - computer program / assembly language ::@:: textual representation of instructions, in symbolic language <!--SR:!2025-12-27,246,330!2025-10-17,188,310-->
+  - computer program / assembly language ::@:: textual representation of instructions, in symbolic language <!--SR:!2025-12-27,246,330!2028-01-07,812,330-->
   - computer program / machine code ::@:: binary bits, which are encoded data or instructions <!--SR:!2025-12-15,237,330!2025-12-24,245,330-->
 - abstraction layer
   - abstraction layer / necessity ::@:: It is impossible to understand computers by looking at every single transistor. Abstraction helps with coping with complexity. <!--SR:!2025-12-14,236,330!2025-12-28,247,330-->
