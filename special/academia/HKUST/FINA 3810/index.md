@@ -147,7 +147,7 @@ The content is in teaching order.
 ## week 4 lab
 
 - datetime: 2025-09-25T10:30:00+08:00/2025-09-25T11:20:00+08:00, PT50M
-- topic:
+- topic: investment management; analyst recommendations; financial analysis; relative valuation
 - FINA 3810
   - FINA 3810 / survey
 - [investment management](../../../../general/investment%20management.md) ::@:: It is the professional asset management of various securities, including shareholdings, bonds, and other assets, such as real estate, to meet specified investment goals for the benefit of investors.

@@ -728,7 +728,7 @@ tags:
 > 3. Dividend Yield
 >
 > - solution: {@{2}@}
-> - explanation: {@{2 is the only one that does not involve market price per share. <p> (Actually the professor uses "market-to-book ratio" instead oddly... "Market ratios" is a better term.)}@}
+> - explanation: {@{2 is the only one that does not involve market price per share. <p> \(Actually the professor uses "market-to-book ratio" oddly... Instead, "market ratio" is a better term.\)}@}
 
 ## week 12 review
 
