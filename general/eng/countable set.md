@@ -115,7 +115,7 @@ This set is {@{the union of the length-1 sequences, the length-2 sequences, the 
 > Theorem — Let $S$ and $T$ be sets.
 >
 > 1. If {@{the function $f:S\to T$ is injective and $T$ is countable}@} then $S$ is countable.
-> 2. If {@{the function $g:S\to T$ is surjective and $S$ is countable}@} then $T$ is countable. <!--SR:!2025-10-19,229,330!2025-12-27,285,330-->
+> 2. If {@{the function $g:S\to T$ is surjective and $S$ is countable}@} then $T$ is countable. <!--SR:!2027-11-16,758,330!2025-12-27,285,330-->
 
 These follow from {@{the definitions of countable set as injective / surjective functions}@}.<sup>[\[g\]](#^ref-g)</sup> <!--SR:!2027-09-02,738,330-->
 

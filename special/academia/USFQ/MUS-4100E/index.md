@@ -445,17 +445,17 @@ The content is in teaching order.
 - swing music
   - swing music / to bebop music ::@:: Swing was becoming commercialized and formulaic. Some musicians got tired. <p> Some musicians adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\). <!--SR:!2025-10-24,143,422!2025-10-21,140,422-->
 - [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm. <!--SR:!2025-10-28,147,422!2025-10-29,148,422-->
-  - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of musicians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2027-02-24,554,422!2025-10-19,138,422-->
+  - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of musicians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2027-02-24,554,422!2027-12-23,795,442-->
   - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2025-10-30,149,422!2025-10-26,145,422-->
   - bebop / rhythm section ::@:: changes in bass, drums, guitar, and piano <!--SR:!2025-10-28,147,422!2025-10-30,149,422-->
     - bebop / rhythm section / drums ::@:: Ride cymbals instead of bass drums produce beats, which feels faster and lighter. Bass drums and snare are for rhythmic accents \(e.g. kicks, punches\). Tempo is faster, making it not intended for dancing. <!--SR:!2027-05-15,575,422!2025-11-01,151,422-->
     - bebop / rhythm section / piano ::@:: Radical changes occur. Dissonance becomes essential instead of common. Sustained chords become kicks and punches with the drums. It uses the same vocabulary as the horns during solo. <!--SR:!2025-10-29,148,422!2027-05-07,568,422-->
-    - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2025-10-19,138,422-->
+    - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2027-12-24,796,442-->
     - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2025-10-22,141,422!2025-11-01,151,422-->
   - bebop / characteristics
     - bebop / characteristics / harmonic improvisation ::@:: Melody is created from harmony instead of the other way around. Before, improvisation was generalized and not specific to harmony. Now, number of possible melody is larger, adding variety, creating extensions and/or tensions. <!--SR:!2025-10-23,142,422!2025-10-23,142,422-->
     - bebop / characteristics / new rhythm ::@:: lots of variety, sophisticated rhythm approach, surprising the audience <!--SR:!2025-10-29,148,422!2025-10-21,140,422-->
-    - bebop / characteristics / virtuosity ::@:: greater emphasis on _individual_ solos, more _personal_, virtuosity of jazz musicians increased; more works came out during this period <!--SR:!2025-10-19,138,422!2025-10-22,141,422-->
+    - bebop / characteristics / virtuosity ::@:: greater emphasis on _individual_ solos, more _personal_, virtuosity of jazz musicians increased; more works came out during this period <!--SR:!2027-05-22,580,422!2025-10-22,141,422-->
 - assignment: read "When Bebop was Born"
 - assignment \(attendance\): [Birth of Bebop](questions/index.md#Birth%20of%20Bebop)
 
@@ -543,7 +543,7 @@ The content is in teaching order.
 - datetime: 2025-03-31T08:30:00-05:00/2025-03-31T09:00:00-05:00
   - local: 2025-03-31T21:30:00+08:00/2025-03-31T22:00:00+08:00
 - quiz: [quiz 3](questions/quiz%203.md)
-- [hard bop](../../../../general/hard%20bop.md) ::@:: It is a subgenre of jazz that is an extension of bebop (or "bop") music. Journalists and record companies began using the term in the mid-1950s to describe a new current within jazz that incorporated influences from rhythm and blues, gospel music, and blues, especially in saxophone and piano playing. <!--SR:!2025-10-19,138,422!2025-10-30,149,422-->
+- [hard bop](../../../../general/hard%20bop.md) ::@:: It is a subgenre of jazz that is an extension of bebop (or "bop") music. Journalists and record companies began using the term in the mid-1950s to describe a new current within jazz that incorporated influences from rhythm and blues, gospel music, and blues, especially in saxophone and piano playing. <!--SR:!2027-05-20,578,422!2025-10-30,149,422-->
   - hard bop / characteristics ::@:: blues scale, call and response, driving 2 and 4 hits, pedal points, the "shuffle", suspended chords <!--SR:!2027-12-13,786,442!2025-10-30,149,422-->
     - hard bop / characteristics / the "shuffle" ::@:: swinging drum groove from the United States Midwest; also called heartbeat of the blues <!--SR:!2025-10-21,140,422!2025-10-25,144,422-->
   - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable <!--SR:!2025-10-31,150,422!2025-10-31,150,422-->
@@ -572,7 +572,7 @@ The content is in teaching order.
 - [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2025-10-22,141,422!2025-10-23,142,422-->
   - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2025-10-23,142,422!2025-10-28,147,422-->
   - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2025-10-27,146,422-->
-  - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2025-10-19,138,422!2025-10-24,143,422-->
+  - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2027-12-22,794,442!2025-10-24,143,422-->
 - [chorus](../../../../general/refrain.md) ::@:: the line or lines that are repeated in poetry or in music <!--SR:!2027-12-18,791,442!2027-12-08,783,442-->
 - trading ::@:: instrumentalists take turns playing 2, 4, 8, or 16 measures of improvisation <!--SR:!2025-10-24,143,422!2027-12-21,794,442-->
 - [straight-ahead jazz](../../../../general/straight-ahead%20jazz.md) ::@:: It is a genre of jazz that developed in the 1960s, with roots in the prior two decades. <p> It contains the swing feel and walking bass. <!--SR:!2025-10-23,142,422!2027-12-14,787,442-->
@@ -589,7 +589,7 @@ The content is in teaching order.
     - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2027-02-03,538,422!2027-05-12,572,422-->
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2025-10-20,139,422!2027-02-19,549,422-->
     - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2025-10-22,141,422!2025-10-31,150,422-->
-- [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2025-10-19,138,422!2025-10-27,146,422-->
+- [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2027-05-21,579,422!2025-10-27,146,422-->
   - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2026-11-14,425,402!2027-03-07,543,422-->
 - [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2027-02-28,558,422!2027-03-15,550,422-->
   - Gil Evans / works ::@:: "Wil O' the Wisp" Sketches of Spain \(1960\) — Gil Evans & Miles Davis <!--SR:!2027-01-26,532,422!2025-10-31,150,422-->

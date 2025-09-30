@@ -35,7 +35,7 @@ For all natural numbers $a$ and $b$, prove that {@{addition as defined in the (s
 
 Let $a, b \in \mathbb N_0$ and {@{$b \ne 0$. Prove that there exists two natural numbers $q, r \in \mathbb N_0$ such that $$a = b \cdot q + r \qquad r < b$$. Then prove that $q, r$ are unique, i.e. there is only one possible pair of values $q, r$}@}. (The associativity and commutativity of addition and multiplication are given. The distributive law is also given.) <!--SR:!2025-12-11,355,340-->
 
-- strategy / existence ::@:: Use induction, as it is usually more suitable for proving existence. <!--SR:!2025-12-29,317,290!2025-10-19,313,340-->
+- strategy / existence ::@:: Use induction, as it is usually more suitable for proving existence. <!--SR:!2025-12-29,317,290!2029-10-23,1465,360-->
 - strategy / uniqueness ::@:: For uniqueness, prove by contradiction via the well-ordering principle. Assert the existence of a least natural number that admits two or more distinct pairs of quotient and remainder. Then reverse the process used in induction to prove the existence of a smaller natural number that admits two or more distinct pairs of quotient and remainder. <!--SR:!2026-01-18,339,300!2027-07-24,749,300-->
 
 1. setup ::@:: Without loss of generality, fix $b \ne 0$. Theorem: $$a = b \cdot q + r \qquad \exists q,r \in \mathbb N_0, r < b$$ for all $a, b \in \mathbb N_0$. <!--SR:!2027-12-27,924,340!2028-02-07,958,340-->

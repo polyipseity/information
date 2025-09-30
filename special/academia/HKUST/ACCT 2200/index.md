@@ -59,7 +59,7 @@ The content is in teaching order.
   - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2025-11-27,208,310!2025-10-20,190,310-->
     - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2026-02-09,282,330!2025-11-22,203,310-->
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2026-02-18,291,330!2026-02-13,286,330-->
-    - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2025-10-19,189,310!2025-10-21,191,310-->
+    - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2025-10-21,191,310-->
     - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2025-10-26,196,310!2025-11-26,207,310-->
     - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2025-10-25,195,310!2026-02-19,269,290-->
   - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2026-02-18,291,330!2026-02-11,284,330-->
@@ -88,7 +88,7 @@ The content is in teaching order.
   - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2025-10-24,194,310-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
 - period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2026-02-14,287,330!2025-10-22,192,310-->
-- [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2025-10-19,189,310!2026-02-13,286,330-->
+- [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2028-01-15,818,330!2026-02-13,286,330-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2026-02-15,288,330!2026-02-19,292,330-->
 - out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2025-10-22,192,310!2026-02-16,289,330-->
 - [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2026-02-21,294,330!2027-01-29,529,310-->

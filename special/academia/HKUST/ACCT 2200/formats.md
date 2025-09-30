@@ -523,7 +523,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2025-10-27,133,400!2025-10-22,128,400!2025-10-27,133,400!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2025-10-20,126,400!2025-10-25,131,400!2025-10-21,127,400!2025-10-21,127,400!2025-10-22,128,400!2025-10-29,135,400!2027-08-27,678,420!2025-10-24,130,400-->
 
 - delayed cash receipts or payments ::@:: column headers, row headers <!--SR:!2025-10-26,132,400!2025-10-28,134,400-->
-  - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)... <!--SR:!2025-10-19,125,400!2025-10-23,129,400-->
+  - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)... <!--SR:!2027-08-30,680,420!2025-10-23,129,400-->
   - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments <!--SR:!2025-10-24,130,400!2025-10-31,137,400-->
 
 ## standard cost card
@@ -538,8 +538,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{direct labor}@}                                   | {@{24 hrs per unit}@}   | {@{&dollar;25 per hr}@}   | {@{600.00}@}                |
 > | {@{variable overhead \(60% of direct labor cost\)}@} | {@{24 hrs per unit}@}   | {@{&dollar;15 per hr}@}   | {@{360.00}@}                |
 > | {@{fixed overhead \(&dollar;100/2 units\)}@}         |                         |                           | {@{50.00}@}                 |
-> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} | <!--SR:!2025-10-26,132,400!2025-10-23,129,400!2027-08-24,675,420!2027-08-19,671,420!2025-10-20,126,400!2025-10-22,128,400!2025-10-31,137,400!2025-11-01,138,400!2025-10-23,129,400!2025-10-19,125,400!2025-10-30,136,400!2025-10-28,134,400!2025-11-01,138,400!2025-10-30,136,400!2027-08-13,666,420!2027-08-18,670,420!2025-10-26,132,400!2027-08-25,676,420!2025-10-19,125,400!2025-10-25,131,400-->
+> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} | <!--SR:!2025-10-26,132,400!2025-10-23,129,400!2027-08-24,675,420!2027-08-19,671,420!2025-10-20,126,400!2025-10-22,128,400!2025-10-31,137,400!2025-11-01,138,400!2025-10-23,129,400!2027-09-01,682,420!2025-10-30,136,400!2025-10-28,134,400!2025-11-01,138,400!2025-10-30,136,400!2027-08-13,666,420!2027-08-18,670,420!2025-10-26,132,400!2027-08-25,676,420!2027-08-31,681,420!2025-10-25,131,400-->
 
 - standard cost card ::@:: column headers, row headers <!--SR:!2025-10-30,136,400!2025-10-21,127,400-->
-  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2025-10-19,125,400!2025-10-29,135,400-->
+  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2027-08-29,679,420!2025-10-29,135,400-->
   - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2025-10-24,130,400!2026-08-25,378,400-->

@@ -159,7 +159,7 @@ Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a
 
 {@{The final encoding of any symbol}@} is then read by {@{a concatenation of the labels on the edges along the path from the root node to the symbol}@}. <!--SR:!2025-10-21,253,330!2027-02-26,564,310-->
 
-In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}. <!--SR:!2025-10-19,251,330!2025-12-12,293,330!2025-11-09,264,330!2027-06-08,702,330-->
+In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}. <!--SR:!2028-12-04,1142,350!2025-12-12,293,330!2025-11-09,264,330!2027-06-08,702,330-->
 
 It is generally beneficial to {@{minimize the variance of codeword length}@}. For example, {@{a communication buffer}@} receiving {@{Huffman-encoded data may need to be larger}@} to {@{deal with especially long symbols if the tree is especially unbalanced}@}. To {@{minimize variance}@}, {@{simply break ties between queues by choosing the item in the first queue}@}. This modification will {@{retain the mathematical optimality of the Huffman coding}@} while {@{both minimizing variance and minimizing the length of the longest character code}@}. <!--SR:!2025-10-25,254,330!2028-01-09,818,330!2025-11-12,268,330!2025-11-16,272,330!2026-12-08,544,310!2025-12-11,292,330!2026-11-23,529,310!2025-11-08,24,371-->
 
@@ -197,7 +197,7 @@ There are {@{two related approaches for getting around this particular inefficie
 
 ### adaptive Huffman coding
 
-{@{A variation called __[adaptive Huffman coding](adaptive%20Huffman%20coding.md)__}@} involves {@{calculating the probabilities dynamically based on recent actual frequencies in the sequence of source symbols}@}, and {@{changing the coding tree structure to match the updated probability estimates}@}. It is {@{used rarely in practice}@}, since {@{the cost of updating the tree makes it slower than optimized [adaptive arithmetic coding](arithmetic%20coding.md#adaptive%20arithmetic%20coding)}@}, which is {@{more flexible and has better compression}@}. <!--SR:!2025-11-15,271,330!2028-01-20,825,330!2025-12-13,294,330!2025-12-08,290,330!2025-11-03,261,330!2025-10-19,251,330-->
+{@{A variation called __[adaptive Huffman coding](adaptive%20Huffman%20coding.md)__}@} involves {@{calculating the probabilities dynamically based on recent actual frequencies in the sequence of source symbols}@}, and {@{changing the coding tree structure to match the updated probability estimates}@}. It is {@{used rarely in practice}@}, since {@{the cost of updating the tree makes it slower than optimized [adaptive arithmetic coding](arithmetic%20coding.md#adaptive%20arithmetic%20coding)}@}, which is {@{more flexible and has better compression}@}. <!--SR:!2025-11-15,271,330!2028-01-20,825,330!2025-12-13,294,330!2025-12-08,290,330!2025-11-03,261,330!2028-12-05,1143,350-->
 
 ### Huffman template algorithm
 

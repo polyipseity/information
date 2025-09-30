@@ -20,7 +20,7 @@ A concrete category, when {@{defined without reference to the notion of a catego
 - _C_ ::@:: is a category, and <!--SR:!2025-12-16,261,330!2025-12-02,251,330-->
 - _U_ : _C_ → __Set__ \(the category of sets and functions\) ::@:: is a [faithful functor](faithful%20functor.md). <!--SR:!2025-11-09,215,324!2027-06-24,680,330-->
 
-{@{The functor _U_}@} is to be {@{thought of as a [forgetful functor](forgetful%20functor.md)}@}, which {@{assigns to every object of _C_ its "underlying set", and to every morphism in _C_ its "underlying function"}@}. <!--SR:!2025-10-19,197,310!2025-12-07,255,330!2025-12-17,262,330-->
+{@{The functor _U_}@} is to be {@{thought of as a [forgetful functor](forgetful%20functor.md)}@}, which {@{assigns to every object of _C_ its "underlying set", and to every morphism in _C_ its "underlying function"}@}. <!--SR:!2028-02-13,847,330!2025-12-07,255,330!2025-12-17,262,330-->
 
 It is customary to call {@{the morphisms in a concrete category _homomorphisms_ \(e.g., group homomorphisms, ring homomorphisms, etc.\)}@} Because of {@{the faithfulness of the functor _U_}@}, {@{the homomorphisms of a concrete category}@} may be {@{formally identified with their underlying functions \(i.e., their images under _U_\)}@}; the homomorphisms then {@{regain the usual interpretation as "structure-preserving" functions}@}. <!--SR:!2027-11-20,794,330!2026-03-18,337,344!2027-04-28,639,330!2026-10-29,489,324!2026-02-16,313,344-->
 

@@ -50,12 +50,12 @@ The cheatsheet is provided during the final examination.
 - `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2029-02-27,1239,350!2025-10-23,284,330-->
 - `input()` ::@:: ask user for input <!--SR:!2029-02-28,1240,350!2029-01-04,1196,350-->
 - `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2029-02-12,1227,350-->
-- `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2025-10-19,281,330-->
+- `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2029-04-20,1279,350-->
 
 ## math functions / conversion
 
 - `abs()` ::@:: absolute value <!--SR:!2029-02-22,1236,350!2029-01-07,1199,350-->
-- `math.sqrt()` ::@:: square root of <!--SR:!2025-10-19,281,330!2029-01-22,1210,350-->
+- `math.sqrt()` ::@:: square root of <!--SR:!2029-04-21,1280,350!2029-01-22,1210,350-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2029-03-15,1251,350-->
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2025-10-20,281,330-->
@@ -81,10 +81,10 @@ The cheatsheet is provided during the final examination.
 ## relational operators
 
 - `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2029-01-26,1214,350-->
-- `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2025-10-19,280,330-->
+- `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2029-04-14,1273,350-->
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
 - `>` ::@:: is greater than? <!--SR:!2029-03-07,1245,350!2025-10-24,285,330-->
-- `<=` ::@:: is less than or equal to? <!--SR:!2025-10-19,281,330!2025-10-21,283,330-->
+- `<=` ::@:: is less than or equal to? <!--SR:!2029-04-19,1278,350!2025-10-21,283,330-->
 - `>=` ::@:: is greater than or equal to? <!--SR:!2029-03-30,1264,350!2029-03-04,1243,350-->
 
 ## boolean operators

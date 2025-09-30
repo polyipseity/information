@@ -31,7 +31,7 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-12-03,293,330!2028-08-06,1054,350-->
   - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-11-01,267,330!2028-12-07,1151,350-->
   - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2025-11-02,268,330!2025-12-02,292,330-->
-  - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-12-04,294,330!2025-10-19,257,330-->
+  - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-12-04,294,330!2029-01-06,1175,350-->
   - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-11-03,269,330!2025-11-30,290,330-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-12-03,293,330!2027-12-06,799,330-->
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-10-27,263,330!2028-11-10,1130,350-->
@@ -44,7 +44,7 @@ We went over some leadership theory and did some group activities, basically.
   - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2028-12-17,1159,350!2025-10-24,261,330-->
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2028-10-03,1100,350!2027-08-31,759,330-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-12-01,291,330!2025-12-03,293,330-->
-- [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-11-07,272,330!2025-10-19,257,330-->
+- [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-11-07,272,330!2029-01-04,1173,350-->
 - [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2026-10-31,516,310!2025-11-06,271,330-->
 - [situational leadership theory](../../../../general/situational%20leadership%20theory.md) — Hersey and Blanchard ::@:: supporting, coaching, delegating, directing <!--SR:!2025-12-04,294,330!2025-12-03,293,330-->
 - personality types: 4 birds ::@:: dove, peacock, owl, eagle <!--SR:!2025-12-04,294,330!2025-12-02,292,330-->

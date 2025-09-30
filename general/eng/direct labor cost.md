@@ -19,7 +19,7 @@ tags:
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Direct%20labor%20cost) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence)._Find sources:_ ["Direct labor cost"](https://www.google.com/search?as_eq=wikipedia&q=%22Direct+labor+cost%22) – [news](https://www.google.com/search?tbm=nws&q=%22Direct+labor+cost%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Direct+labor+cost%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Direct+labor+cost%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Direct+labor+cost%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Direct+labor+cost%22&acc=on&wc=on) _\(January 2025\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 - Planning ::@:: the work to be performed. <!--SR:!2026-02-19,294,330!2026-01-31,276,330-->
-- Describing ::@:: the job content of the work, by indicating the skill, knowledge, etc. <!--SR:!2025-10-19,190,310!2026-02-19,294,330-->
+- Describing ::@:: the job content of the work, by indicating the skill, knowledge, etc. <!--SR:!2028-01-16,819,330!2026-02-19,294,330-->
 - Matching ::@:: the jobs with the employees. <!--SR:!2026-02-19,294,330!2026-02-19,294,330-->
 
 ## usage

@@ -131,7 +131,7 @@ The NPV approach {@{does not consider hidden costs and project size}@}. Thus, {@
 
 #### relies on input parameters such as knowledge of future cash flows
 
-The NPV is {@{heavily dependent on knowledge of future cash flows, their timing, the length of a project, the initial investment required, and the discount rate}@}. Hence, it can {@{only be accurate if these input parameters are correct}@}; although, {@{sensitivity analyzes can be undertaken}@} to {@{examine how the NPV changes as the input variables are changed}@}, thus {@{reducing the uncertainty of the NPV}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-10-19,171,310!2026-07-07,400,365!2026-05-28,367,365!2026-07-03,396,365!2026-07-12,404,365-->
+The NPV is {@{heavily dependent on knowledge of future cash flows, their timing, the length of a project, the initial investment required, and the discount rate}@}. Hence, it can {@{only be accurate if these input parameters are correct}@}; although, {@{sensitivity analyzes can be undertaken}@} to {@{examine how the NPV changes as the input variables are changed}@}, thus {@{reducing the uncertainty of the NPV}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-01-14,87,290!2026-07-07,400,365!2026-05-28,367,365!2026-07-03,396,365!2026-07-12,404,365-->
 
 #### relies on choice of discount rate and discount factor
 
@@ -269,7 +269,7 @@ In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-clas
 
 - These paragraphs are an excerpt from [Equivalent annual cost](equivalent%20annual%20cost.md). \[[edit](https://en.wikipedia.org/w/index.php?title=Equivalent_annual_cost&action=edit)\]
 
-In {@{finance}@}, {@{the [equivalent annual cost](equivalent%20annual%20cost.md) \(EAC\)}@} is {@{the cost per year of owning and operating an asset over its entire lifespan}@}. It is calculated by {@{dividing the negative NPV of a project by the "present value of [annuity](annuity%20(finance%20theory).md) factor"}@}: <p> {@{$\mathrm {EAC} =-{\frac {\mathrm {NPV} }{A_{t,r} } }$, where ${A_{t,r} }={\frac {1-{\frac {1}{(1+r)^{t} } } }{r} }$}@} (annotation: This is related to net present value by {@{if one calculates the present value of having a cash outflow of EAC at the end of each year over the entire lifespan, then we get back the negative NPV}@}.) <p> <!--SR:!2026-06-06,372,365!2026-01-25,263,330!2026-07-09,401,365!2025-10-19,165,270!2026-09-26,447,329!2026-07-12,404,365-->
+In {@{finance}@}, {@{the [equivalent annual cost](equivalent%20annual%20cost.md) \(EAC\)}@} is {@{the cost per year of owning and operating an asset over its entire lifespan}@}. It is calculated by {@{dividing the negative NPV of a project by the "present value of [annuity](annuity%20(finance%20theory).md) factor"}@}: <p> {@{$\mathrm {EAC} =-{\frac {\mathrm {NPV} }{A_{t,r} } }$, where ${A_{t,r} }={\frac {1-{\frac {1}{(1+r)^{t} } } }{r} }$}@} (annotation: This is related to net present value by {@{if one calculates the present value of having a cash outflow of EAC at the end of each year over the entire lifespan, then we get back the negative NPV}@}.) <p> <!--SR:!2026-06-06,372,365!2026-01-25,263,330!2026-07-09,401,365!2027-07-03,622,290!2026-09-26,447,329!2026-07-12,404,365-->
 
 where r ::@:: is the annual interest rate and <!--SR:!2026-06-26,390,359!2026-07-05,398,365-->
 

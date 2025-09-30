@@ -142,7 +142,7 @@ __Algebra of continuous functions__
 <!-- markdownlint-disable-next-line MD036 -->
 __Tangent and cotangent bundles__
 
-&emsp; The map which {@{sends every [differentiable manifold](differentiable%20manifold.md) to its [tangent bundle](tangent%20bundle.md) and every [smooth map](smooth%20map.md) to its [derivative](derivative.md)}@} is {@{a covariant functor from the category of differentiable manifolds to the category of [vector bundles](vector%20bundle.md)}@}. <!--SR:!2025-10-19,47,186!2025-10-24,183,266-->
+&emsp; The map which {@{sends every [differentiable manifold](differentiable%20manifold.md) to its [tangent bundle](tangent%20bundle.md) and every [smooth map](smooth%20map.md) to its [derivative](derivative.md)}@} is {@{a covariant functor from the category of differentiable manifolds to the category of [vector bundles](vector%20bundle.md)}@}. <!--SR:!2026-01-16,89,186!2025-10-24,183,266-->
 
 &emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2027-03-15,610,337!2026-07-03,399,317!2026-01-31,216,230!2027-09-04,751,346!2026-09-13,407,290-->
 

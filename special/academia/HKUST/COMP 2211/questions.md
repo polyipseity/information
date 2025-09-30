@@ -126,7 +126,7 @@ tags:
 > 3. `{"a", "b"}`
 > 4. `{"a": "b"}`
 >
-> - solution: {@{4}@} <!--SR:!2025-10-19,228,330-->
+> - solution: {@{4}@} <!--SR:!2028-08-22,1038,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-10-19,228,330!2025-12-09,272,330-->
+> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2028-08-20,1036,350!2025-12-09,272,330-->
 
 ## multilayer perceptron
 

@@ -27,7 +27,7 @@ The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!20
 
 1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2025-11-05,327,345!2025-12-19,363,345-->
 
-Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2025-10-19,315,345-->
+Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2029-11-22,1495,365-->
 
 The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2025-12-05,351,345!2027-12-29,930,345!2027-08-23,830,345-->
 
