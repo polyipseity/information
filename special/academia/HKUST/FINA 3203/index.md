@@ -250,6 +250,7 @@ The content is in teaching order.
 
 - datetime: 2025-09-29T10:30:00+08:00/2025-09-29T11:50:00+08:00, PT1H20M
 - topic:
+- assignment: [homework 1](assignments/homework%201/index.md)
 
 ## week 5 lecture 2
 
