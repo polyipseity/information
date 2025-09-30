@@ -485,13 +485,13 @@ In {@{[computer programming](computer%20programming.md)}@}, a [function](functio
 
 Except for {@{computer-language terminology}@}, "function" has {@{the usual mathematical meaning in [computer science](computer%20science.md)}@}. In this area, {@{a property of major interest}@} is {@{the [computability](computable%20function.md) of a function}@}. For {@{giving a precise meaning to this concept}@}, and to {@{the related concept of [algorithm](algorithm.md)}@}, {@{several [models of computation](models%20of%20computation.md) have been introduced}@}, the old ones being {@{[general recursive functions](μ-recursive%20function.md), [lambda calculus](lambda%20calculus.md) and [Turing machine](Turing%20machine.md)}@}. {@{The fundamental theorem of [computability theory](computability%20theory.md)}@} is that {@{these three models of computation define the same set of computable functions}@}, and that {@{all the other models of computation that have ever been proposed}@} {@{define the same set of computable functions or a smaller one}@}. {@{The [Church–Turing thesis](Church–Turing%20thesis.md)}@} is {@{the claim that every philosophically acceptable definition of a _computable function_ defines also the same functions}@}.
 
-{@{General recursive functions}@} are {@{[partial functions](partial%20function.md) from integers to integers}@} that {@{can be defined from (annotation: 3 items: constant functions, successor, projection functions)}@}
+{@{General recursive functions}@} are {@{[partial functions](partial%20function.md) from integers to integers}@} that {@{can be defined}@} from \(annotation: 3 items: {@{constant functions, successor, projection functions}@}\)
 
 - [constant functions](constant%20function.md),
 - [successor](successor%20function.md), and
 - [projection](projection%20function.md) functions
 
-via {@{the operators (annotation: 3 items: composition, primitive recursion, minimization)}@}
+\(annotation: {@{general recursive functions}@}\) via {@{the operators}@} \(annotation: 3 items: {@{composition, primitive recursion, minimization}@}\)
 
 - [composition](#function%20composition),
 - [primitive recursion](primitive%20recursion.md), and

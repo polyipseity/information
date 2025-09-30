@@ -23,7 +23,7 @@ For {@{market economies to function efficiently}@}, governments must {@{establis
 
 ### supply and demand
 
-{@{Supply and demand}@} supposedly {@{work in tandem}@}. The economic theory is that {@{supply slopes upwards as people buy more and demand drops as prices rise and people buy less}@}.<sup>[\[8\]](#^ref-8)</sup>
+{@{Supply and demand}@} supposedly {@{work in tandem}@}. {@{The economic theory}@} is that {@{supply slopes upwards as people buy more}@} and {@{demand drops as prices rise and people buy less}@}.<sup>[\[8\]](#^ref-8)</sup>
 
 Market economies rely upon {@{a price system to signal market actors to adjust production and investment}@}. Price formation relies on {@{the interaction of supply and demand to reach or approximate an equilibrium}@} where {@{the unit price for a particular good or service is at a point where the quantity demanded equals the quantity supplied}@}.
 

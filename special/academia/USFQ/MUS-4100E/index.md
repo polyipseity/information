@@ -615,7 +615,7 @@ The content is in teaching order.
     - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz.
 - Miles Davis
   - Miles Davis / genres
-    - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then he died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis
+    - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then Jimmy died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis
   - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured.
   - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis
   - Miles Davis / death ::@:: He died in 1991 from pneumonia.

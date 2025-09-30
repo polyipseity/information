@@ -128,7 +128,7 @@ This statement is {@{additional to the three main statements described above}@}.
 
 One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting shall be the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup>
 
-This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring (1) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and (2) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}.
+This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring \(1\) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and \(2\) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI}@}, during {@{low and high inflation and deflation}@}.
 
 ### units of constant purchasing power
 
