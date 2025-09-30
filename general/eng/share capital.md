@@ -19,7 +19,7 @@ tags:
 >
 > Share certificate of {@{the Boston American League Base-Ball Club}@} shows {@{a capital [stock](stock.md) of 100 000\$}@} <!--SR:!2026-01-17,272,330!2026-01-31,282,330!2026-01-29,281,330-->
 
-{@{A [corporation](corporation.md)'s __share capital__}@}, commonly referred to as {@{__capital stock__ in the United States}@}, is {@{the portion of a corporation's [equity](shareholders'%20equity.md) that has been derived by the issue of [shares](share%20(finance).md) in the corporation to a shareholder}@}, usually for {@{[cash](cash.md)}@}. _Share capital_ may also {@{denote the number and types of shares that compose a corporation's share structure}@}. <!--SR:!2026-01-30,281,330!2025-12-31,258,330!2026-01-12,268,330!2027-12-11,785,330!2025-10-18,183,310-->
+{@{A [corporation](corporation.md)'s __share capital__}@}, commonly referred to as {@{__capital stock__ in the United States}@}, is {@{the portion of a corporation's [equity](shareholders'%20equity.md) that has been derived by the issue of [shares](share%20(finance).md) in the corporation to a shareholder}@}, usually for {@{[cash](cash.md)}@}. _Share capital_ may also {@{denote the number and types of shares that compose a corporation's share structure}@}. <!--SR:!2026-01-30,281,330!2025-12-31,258,330!2026-01-12,268,330!2027-12-11,785,330!2027-12-15,788,330-->
 
 ## definition
 

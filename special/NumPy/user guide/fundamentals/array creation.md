@@ -17,13 +17,13 @@ tags:
 There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2026-01-12,343,350-->
 
 1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2026-01-13,344,350!2026-01-06,338,350-->
-2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2026-01-17,347,350!2025-10-18,270,330-->
+2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2026-01-17,347,350!2029-02-28,1229,350-->
 3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2027-10-29,818,330!2025-12-25,327,350-->
 4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2026-01-12,343,350!2026-01-15,345,350-->
 5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2028-11-09,1129,350!2027-11-14,834,330-->
 6. Use of ::@:: special library functions (e.g., random) <!--SR:!2026-01-21,350,350!2026-01-20,349,350-->
 
-You can use these methods to {@{create ndarrays or [structured arrays](structured%20arrays.md)}@}. This document will cover general methods for {@{ndarray creation}@}. <!--SR:!2026-01-16,346,350!2025-10-18,270,330-->
+You can use these methods to {@{create ndarrays or [structured arrays](structured%20arrays.md)}@}. This document will cover general methods for {@{ndarray creation}@}. <!--SR:!2026-01-16,346,350!2029-03-06,1235,350-->
 
 ## converting Python sequences to NumPy arrays
 
@@ -40,7 +40,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 >>> a3D = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 ```
 
-When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-11-03,282,330!2026-01-04,336,350!2029-02-04,1209,350!2025-10-23,274,330!2026-01-18,348,350!2025-10-18,270,330-->
+When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-11-03,282,330!2026-01-04,336,350!2029-02-04,1209,350!2025-10-23,274,330!2026-01-18,348,350!2029-03-02,1231,350-->
 
 ```Python
 >>> import numpy as np
@@ -166,7 +166,7 @@ array([[ 1,  1,  1,  1],
 
 {@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension}@} by specifying {@{how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2026-01-11,342,350!2029-01-13,1192,350!2027-04-29,623,310!2026-01-15,125,398-->
 
-{@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-11-13,291,330!2026-01-17,347,350!2025-10-18,270,330-->
+{@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-11-13,291,330!2026-01-17,347,350!2029-03-07,1236,350-->
 
 ```Python
 >>> import numpy as np

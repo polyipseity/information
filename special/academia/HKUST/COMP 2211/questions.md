@@ -659,7 +659,7 @@ tags:
 
 > Q7. Suppose we have performed D-fold validation on our data to help decide the best K, and we obtain an error rate for each K. How to choose the best K?
 >
-> - solution: {@{Choose the K with the lowest error rate.}@} <!--SR:!2025-10-18,227,330-->
+> - solution: {@{Choose the K with the lowest error rate.}@} <!--SR:!2028-08-11,1028,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1607,4 +1607,4 @@ tags:
 
 > Q18. (simple) State __one__ advantage and __one__ disadvantage of solving a Markov system by value iteration.
 >
-> - solution: {@{(for reference) An advantage is that we will converge to the optimal solution. <p> An disadvantage is that the time it takes to converge increases with the number of states and actions.}@} <!--SR:!2025-10-18,227,330-->
+> - solution: {@{(for reference) An advantage is that we will converge to the optimal solution. <p> An disadvantage is that the time it takes to converge increases with the number of states and actions.}@} <!--SR:!2028-08-12,1029,350-->

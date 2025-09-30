@@ -70,7 +70,7 @@ Demand curve is {@{a graphical presentation of the "[law of demand](law%20of%20d
 
 - see: [price elasticity of demand](price%20elasticity%20of%20demand.md)
 
-{@{The price elasticity of demand}@} is {@{a measure of the sensitivity of the quantity variable, Q, to changes in the price variable, P}@}. It shows {@{the percent by which the quantity demanded will change as a result of a given percentage change in the price}@}. Thus, {@{a demand elasticity of -2}@} says that {@{the quantity demanded will fall 2% if the price rises 1%}@}. For {@{infinitesimal changes, the elasticity is \(∂Q/∂P\)×\(P/Q\)}@}. <!--SR:!2025-12-10,301,344!2026-01-28,339,344!2025-12-05,297,344!2025-12-07,298,344!2025-12-03,295,344!2025-10-18,237,324-->
+{@{The price elasticity of demand}@} is {@{a measure of the sensitivity of the quantity variable, Q, to changes in the price variable, P}@}. It shows {@{the percent by which the quantity demanded will change as a result of a given percentage change in the price}@}. Thus, {@{a demand elasticity of -2}@} says that {@{the quantity demanded will fall 2% if the price rises 1%}@}. For {@{infinitesimal changes, the elasticity is \(∂Q/∂P\)×\(P/Q\)}@}. <!--SR:!2025-12-10,301,344!2026-01-28,339,344!2025-12-05,297,344!2025-12-07,298,344!2025-12-03,295,344!2028-09-10,1058,344-->
 
 ### elasticity along linear demand curve
 

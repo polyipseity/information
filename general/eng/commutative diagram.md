@@ -83,7 +83,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 - Main article: [Diagram \(category theory\)](diagram%20(category%20theory).md)
 
-{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2026-02-09,286,330!2025-10-18,190,310!2026-02-15,291,330-->
+{@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2026-02-09,286,330!2027-06-04,594,310!2026-02-15,291,330-->
 
 More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2027-06-23,665,330!2025-12-22,248,330-->
 
@@ -91,7 +91,7 @@ More formally, a commutative diagram is {@{a visualization of a diagram indexed 
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2027-04-24,564,310!2025-12-07,234,330-->
 - the commutativity of the diagram \(the equality of different compositions of maps between two objects\), ::@:: corresponding to the uniqueness of a map between two objects in a poset category. <!--SR:!2026-01-24,274,330!2025-12-08,235,330-->
 
-Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2026-01-26,276,330!2025-10-18,191,310-->
+Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}, where: {@{(annotation: objects, morphisms, uniqueness)}@} <!--SR:!2025-12-02,231,330!2026-01-26,276,330!2028-01-15,819,330-->
 
 - the objects ::@:: are the nodes, <!--SR:!2026-01-09,261,330!2026-01-04,258,330-->
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-12-23,249,330!2026-01-21,272,330-->

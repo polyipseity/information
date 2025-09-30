@@ -27,7 +27,7 @@ The above formulas are {@{the most conventional way of writing them}@}. The only
 
 - see: [general/discrete Fourier transform § periodicity](../../general/discrete%20Fourier%20transform.md#periodicity)
 
-The original sequence is {@{treated as $N$-periodic}@} by DFT. The transformed sequence is {@{also $N$-periodic}@}. Likewise, the DFT-transformed sequence is {@{treated as $N$-periodic}@} by IDFT. The recovered original sequence is {@{also $N$-periodic}@}. This is easily shown {@{directly from the definition}@}. <!--SR:!2028-07-24,1123,350!2029-07-07,1396,350!2029-01-22,1264,350!2029-02-21,1290,350!2025-10-18,335,366-->
+The original sequence is {@{treated as $N$-periodic}@} by DFT. The transformed sequence is {@{also $N$-periodic}@}. Likewise, the DFT-transformed sequence is {@{treated as $N$-periodic}@} by IDFT. The recovered original sequence is {@{also $N$-periodic}@}. This is easily shown {@{directly from the definition}@}. <!--SR:!2028-07-24,1123,350!2029-07-07,1396,350!2029-01-22,1264,350!2029-02-21,1290,350!2030-05-28,1683,386-->
 
 ### expressing the inverse DFT in terms of the DFT
 
@@ -55,7 +55,7 @@ By duality, {@{shifting the signal in the frequency to the right by $k_0$ sample
 
 - see: [general/discrete Fourier transform § DFT of real and purely imaginary signals](../../general/discrete%20Fourier%20transform.md#DFT%20of%20real%20and%20purely%20imaginary%20signals)
 
-If {@{the signal in the time domain is purely real}@}, then {@{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}@}. <!--SR:!2026-01-19,408,366!2025-11-13,356,366!2025-10-18,334,366!2028-06-08,1083,366!2028-10-15,1190,366!2026-07-02,477,326-->
+If {@{the signal in the time domain is purely real}@}, then {@{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}@}. <!--SR:!2026-01-19,408,366!2025-11-13,356,366!2030-05-25,1680,386!2028-06-08,1083,366!2028-10-15,1190,366!2026-07-02,477,326-->
 
 Furthermore, if {@{the signal in the time domain is _additionally_ even symmetric}@}, then {@{the frequency domain is _additionally_ even symmetric}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is always zero}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}@}. <!--SR:!2025-12-07,375,366!2029-04-07,1328,366!2028-06-15,1090,366!2025-11-16,358,366!2025-12-29,393,366!2030-01-11,1573,386-->
 

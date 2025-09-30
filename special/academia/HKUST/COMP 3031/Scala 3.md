@@ -71,7 +71,7 @@ Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2025-12-07,
 
 ### anonymous functions
 
-{@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-25,19,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-18,12,330!2025-10-25,19,359!2025-10-25,19,350-->
+{@{Anonymous functions}@} allow us to {@{define functions without _naming_ them}@}. The full syntax is {@{`(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) => <expr>`}@}. {@{The return type}@} {@{cannot be specified and is inferred from `<expr>`}@}. {@{The argument types}@} {@{can be omitted if it can be inferred}@}, e.g. {@{when defining an anonymous function to pass to an argument in a function call}@}. If {@{there is exactly 1 argument with an omitted argument type}@}, then {@{parentheses \(`()`\) are optional}@}. <!--SR:!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-25,19,359!2025-10-26,20,359!2025-10-26,20,359!2025-12-14,57,350!2025-10-25,19,359!2025-10-25,19,350-->
 
 For some reason, {@{call-by-name syntax}@} {@{does not work with anonymous functions}@}. <!--SR:!2025-10-26,20,359!2025-10-26,20,359-->
 
@@ -89,11 +89,11 @@ Scala 3 supports {@{multiple parameter lists}@}, e.g. {@{`def <name>(<param list
 
 When {@{you call the function \(function application\)}@}, you need to {@{provide _all_ arguments in _all_ parameter lists}@} with {@{the _same_ grouping as the function parameter lists}@} too. To support this, {@{function application}@} is {@{left-associative}@}, i.e. {@{`f(a)(b)` is `(f(a))(b)`}@}. <!--SR:!2025-10-25,19,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359-->
 
-Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_}@}. However, if {@{you use one parameter list for each argument}@}, then you are {@{currying a function}@} by converting {@{the function into a sequence of functions that each takes a single argument}@}. <!--SR:!2025-10-26,20,359!2025-10-25,19,350!2025-10-18,12,330!2025-10-25,19,350!2025-10-25,19,350-->
+Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_}@}. However, if {@{you use one parameter list for each argument}@}, then you are {@{currying a function}@} by converting {@{the function into a sequence of functions that each takes a single argument}@}. <!--SR:!2025-10-26,20,359!2025-10-25,19,350!2025-12-14,57,350!2025-10-25,19,350!2025-10-25,19,350-->
 
 ### extension methods
 
-{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2025-10-26,20,359!2025-10-18,12,339!2025-10-25,19,350!2025-10-19,13,339!2025-10-26,20,359!2025-10-25,19,350-->
+{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2025-10-26,20,359!2025-12-15,58,359!2025-10-25,19,350!2025-10-19,13,339!2025-10-26,20,359!2025-10-25,19,350-->
 
 When {@{defining extension methods}@}, they cannot {@{access `private` members of the class}@}. They also cannot {@{access `this`}@} but must use {@{the name defined in the starting `extension` line}@}. <!--SR:!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359-->
 
@@ -113,7 +113,7 @@ Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\) according to the _source code_ \(lexical scoping\)}@}. <!--SR:!2025-12-07,64,310!2025-12-05,63,310!2025-11-27,56,310!2025-12-04,62,310-->
 
-Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2025-12-10,67,310!2025-12-05,63,310!2025-12-09,66,310!2025-10-26,20,359!2025-10-18,12,330!2025-10-25,19,350-->
+Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2025-12-10,67,310!2025-12-05,63,310!2025-12-09,66,310!2025-10-26,20,359!2025-12-13,56,350!2025-10-25,19,350-->
 
 ## syntax
 
@@ -127,7 +127,7 @@ Normally, to {@{call a function}@}, you use the syntax {@{`a.f(...)`}@}, known a
 
 Since {@{identifier names in Scala}@} is {@{much more relaxed}@}, this, coupled with {@{infix notation}@}, allows you to {@{"overload" operators}@}. <!--SR:!2025-10-25,19,359!2025-10-25,19,350!2025-10-25,19,350!2025-10-25,19,350-->
 
-With {@{infix notation}@}, this is {@{ambiguity with _precedence_}@}. In Scala, {@{the precedence of an infix function call}@} is based on {@{the _first_ character of the infix function name}@}. Starting from {@{the highest priority \(parenthesized first\)}@}, we have {@{any other special characters not listed below}@}, then {@{precedence rules for common operators similar to other programming languages}@} \({@{multiply, divide, modulo}@} &gt; {@{addition, subtraction}@} &gt; {@{colon \(`:`\)}@} &gt; {@{equality and inequality}@} &gt; {@{comparison}@} &gt; {@{and}@} &gt; {@{xor}@} &gt; {@{or}@}\), and finally {@{all other letters \(including `_`\)}@}. <!--SR:!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-25,19,350!2025-10-25,19,350!2025-10-18,12,330!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359-->
+With {@{infix notation}@}, this is {@{ambiguity with _precedence_}@}. In Scala, {@{the precedence of an infix function call}@} is based on {@{the _first_ character of the infix function name}@}. Starting from {@{the highest priority \(parenthesized first\)}@}, we have {@{any other special characters not listed below}@}, then {@{precedence rules for common operators similar to other programming languages}@} \({@{multiply, divide, modulo}@} &gt; {@{addition, subtraction}@} &gt; {@{colon \(`:`\)}@} &gt; {@{equality and inequality}@} &gt; {@{comparison}@} &gt; {@{and}@} &gt; {@{xor}@} &gt; {@{or}@}\), and finally {@{all other letters \(including `_`\)}@}. <!--SR:!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359!2025-10-25,19,350!2025-10-25,19,350!2025-12-12,55,350!2025-10-25,19,350!2025-10-26,20,359!2025-10-26,20,359!2025-10-26,20,359-->
 
 ## pre-definitions
 

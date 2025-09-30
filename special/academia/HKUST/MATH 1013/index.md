@@ -57,7 +57,7 @@ tags:
 - midterm examination
   - report
     - Midterms have tighter time limit than the final examination, actually...
-      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2028-11-14,1141,350!2025-10-18,261,330-->
+      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2028-11-14,1141,350!2029-01-18,1188,350-->
     - Sometimes you do not need to find the root of a solution, you just need to show its existence using the intermediate value theorem (IVT).
       - mathematically proving existence ::@:: If a question requires to prove something exist only, also consider using a non-constructive proof. <!--SR:!2028-12-04,1156,350!2027-10-09,798,330-->
 - final examination

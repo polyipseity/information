@@ -43,7 +43,7 @@ Notice {@{the `.rodata` \(read-only data\) section}@} is located on {@{the read-
 
 For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2028-07-25,1088,350!2028-12-12,1200,350-->
 
-Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2027-06-10,745,330!2025-10-18,298,330!2028-06-07,1051,350!2027-05-24,728,330!2026-09-20,534,310-->
+Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2027-06-10,745,330!2029-07-04,1355,350!2028-06-07,1051,350!2027-05-24,728,330!2026-09-20,534,310-->
 
 The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2027-12-09,879,330!2028-08-04,1097,350!2028-03-13,985,350-->
 
@@ -97,7 +97,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
 - `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2028-10-12,1150,350!2029-05-21,1319,350-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2029-05-25,1322,350!2028-11-27,1187,350-->
-- `file <path>` ::@:: load binary file to debug <!--SR:!2029-02-22,1256,350!2025-10-18,298,330-->
+- `file <path>` ::@:: load binary file to debug <!--SR:!2029-02-22,1256,350!2029-07-12,1363,350-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2028-10-27,1165,350!2027-04-04,704,330-->
 - `set args <args>...` ::@:: set program args <!--SR:!2029-03-29,1286,350!2027-08-25,811,330-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2029-05-30,1332,350!2029-06-30,1353,350-->
@@ -113,7 +113,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `finish` ::@:: run until the current function returns <!--SR:!2029-05-28,1325,350!2028-10-13,1151,350-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-08-16,1105,350!2028-06-23,980,330-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2029-04-23,1296,350!2028-09-17,1133,350-->
-- `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-10-18,298,330!2028-06-19,1062,350-->
+- `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2029-07-05,1356,350!2028-06-19,1062,350-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2028-12-03,1194,350!2028-07-09,1072,350-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2028-08-26,1115,350-->
 - `rc` ::@:: reverse continue <!--SR:!2028-01-23,945,350!2028-07-10,1073,350-->
