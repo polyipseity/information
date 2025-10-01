@@ -170,6 +170,36 @@ The content is in teaching order.
     - [§ identifiers](Scala%203.md#identifiers): identifier
     - [§ infix notation](Scala%203.md#infix%20notation): infix notation, operator, precedence
 
+## week 2 lecture
+
+- datetime: 2025-09-09T12:00:00+08:00/2025-09-09T13:20:00+08:00, PT1H20M
+- topic:
+
+## week 2 lecture 2
+
+- datetime: 2025-09-11T12:00:00+08:00/2025-09-11T13:20:00+08:00, PT1H20M
+- topic:
+
+## week 3 lecture
+
+- datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
+- topic:
+
+## week 3 lecture 2
+
+- datetime: 2025-09-18T12:00:00+08:00/2025-09-18T13:20:00+08:00, PT1H20M
+- topic:
+
+## week 4 lecture
+
+- datetime: 2025-09-23T12:00:00+08:00/2025-09-23T13:20:00+08:00, PT1H20M
+- topic:
+
+## week 4 lecture 2
+
+- datetime: 2025-09-25T12:00:00+08:00/2025-09-25T13:20:00+08:00, PT1H20M
+- topic:
+
 ## aftermath
 
 ### total

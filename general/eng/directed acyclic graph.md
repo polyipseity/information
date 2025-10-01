@@ -123,7 +123,7 @@ In {@{all of these transitive closure algorithms}@}, it is possible to distingui
 
 - see: [closure problem](closure%20problem.md)
 
-{@{The [closure problem](closure%20problem.md)}@} takes {@{as input a vertex-weighted directed acyclic graph and seeks the minimum \(or maximum\) weight of a closure}@} – {@{a set of vertices _C_, such that no edges leave _C_}@}. The problem may be formulated for {@{directed graphs without the assumption of acyclicity}@}, but with {@{no greater generality}@}, because {@{in this case it is equivalent to the same problem on the condensation of the graph}@}. It may be solved in {@{polynomial time using a reduction to the [maximum flow problem](maximum%20flow%20problem.md)}@}.<sup>[\[25\]](#^ref-25)</sup>
+{@{The [closure problem](closure%20problem.md)}@} takes {@{as input a vertex-weighted directed acyclic graph and seeks the minimum \(or maximum\) weight of a closure}@} – {@{a set of vertices _C_, such that no edges leave _C_}@}. The problem may be formulated for {@{directed graphs without the assumption of acyclicity}@}, but with {@{no greater generality}@}, because in this case it is {@{equivalent to the same problem \(annotation: the closure problem itself\) on the condensation of the graph}@}. It may be solved in {@{polynomial time using a reduction to the [maximum flow problem](maximum%20flow%20problem.md)}@}.<sup>[\[25\]](#^ref-25)</sup>
 
 ### path algorithms
 

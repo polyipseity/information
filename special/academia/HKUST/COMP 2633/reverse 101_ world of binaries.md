@@ -108,7 +108,7 @@ Since {@{a program requires a starting point}@}, usually we are required to {@{[
 
 ### labels
 
-{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can {@{use those names instead of raw addresses whenever referring to them, such as jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction, e.g. `my_int: dd 2633`, `my_uninit_int: resd 1`}@}.
+{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}.
 
 Label names are {@{global and unique across an assembly program, and appear in symbol tables of object files}@}. The assembler or linker will {@{transform them into constant addresses during assembly or linking}@}. The loader {@{(before execution of the program) may further modify those constant addresses}@}.
 

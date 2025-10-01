@@ -15,7 +15,7 @@ Using a continuously updated formula, the circle is {@{currently 23°26′10.0�
 
 ## name
 
-This line of [latitude](latitude.md) was named {@{after the [constellation](constellation.md) [Cancer](Cancer%20(constellation).md) during last centuries [BCE](Common%20Era..md), as the [Sun](Sun.md) was there on the [June solstice](June%20solstice.md)}@}. Due to {@{westward [precession of the equinoxes](axial%20precession.md)}@}, this is no longer the case. The current constellation is {@{[Gemini](Gemini%20(constellation).md)}@}.
+This line of [latitude](latitude.md) was named {@{after the [constellation](constellation.md) [Cancer](Cancer%20(constellation).md) during last centuries [BCE](Common%20Era..md)}@}, as {@{the [Sun](Sun.md) was there on the [June solstice](June%20solstice.md)}@}. Due to {@{westward [precession of the equinoxes](axial%20precession.md)}@}, this is {@{no longer the case}@}. The current constellation is {@{[Gemini](Gemini%20(constellation).md)}@}.
 
 ## references
 
