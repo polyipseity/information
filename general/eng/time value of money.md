@@ -189,7 +189,7 @@ __Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}
 
 __Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2026-05-20,325,290!2026-06-24,325,290-->
 
-__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2026-09-09,388,270!2025-10-21,167,270-->
+__Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2026-09-09,388,270!2027-01-20,456,270-->
 
 These formulas assume that {@{payment A is made in the first payment period and annuity ends at time _t_}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-02-26,286,330-->
 

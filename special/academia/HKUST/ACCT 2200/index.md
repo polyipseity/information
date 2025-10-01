@@ -59,11 +59,11 @@ The content is in teaching order.
   - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2025-11-27,208,310!2028-01-20,822,330-->
     - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2026-02-09,282,330!2025-11-22,203,310-->
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2026-02-18,291,330!2026-02-13,286,330-->
-    - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2025-10-21,191,310-->
+    - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2027-06-05,592,310-->
     - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2025-10-26,196,310!2025-11-26,207,310-->
     - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2025-10-25,195,310!2026-02-19,269,290-->
   - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2026-02-18,291,330!2026-02-11,284,330-->
-  - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2025-10-21,191,310!2026-10-18,462,310-->
+  - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2028-01-23,824,330!2026-10-18,462,310-->
 - organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2026-02-21,294,330!2026-02-18,291,330-->
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2025-11-23,204,310!2026-02-17,290,330-->
   - merchandising company ::@:: sell manufactured goods; wholesalers: to other businesses; retailers: to the general public <!--SR:!2026-02-17,290,330!2025-11-24,205,310-->

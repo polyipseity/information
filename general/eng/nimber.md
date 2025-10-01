@@ -27,7 +27,7 @@ Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} w
 
 - Main article: [Nim](Nim.md)
 
-Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-01,241,330!2025-10-27,236,330!2025-12-16,276,330!2025-10-21,230,330!2026-03-25,360,353!2025-12-10,272,330!2027-04-29,638,325!2027-04-26,615,290!2026-03-01,339,345-->
+Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-11-01,241,330!2025-10-27,236,330!2025-12-16,276,330!2028-09-09,1054,350!2026-03-25,360,353!2025-12-10,272,330!2027-04-29,638,325!2027-04-26,615,290!2026-03-01,339,345-->
 
 ### Cram
 
@@ -57,7 +57,7 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 ## multiplication
 
-{@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2026-03-01,339,345!2025-10-21,207,270-->
+{@{Nimber multiplication \(__nim-multiplication__\)}@} is defined {@{recursively by $$\alpha \,\beta =\operatorname {mex} \!{\bigl (}\{\alpha '\beta \oplus \alpha \,\beta '\oplus \alpha '\beta ':\alpha '<\alpha ,\beta '<\beta \}{\bigr )}.$$}@} <!--SR:!2026-03-01,339,345!2027-12-10,780,290-->
 
 Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-02-12,325,345!2025-11-10,248,330-->
 

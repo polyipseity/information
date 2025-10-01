@@ -114,7 +114,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→::@::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2026-03-19,453,301!2026-06-26,573,321-->
 - differentiate: Differentiate our products to make it a hit with customers.→::@::←discover: Find holes in existing products. <!--SR:!2026-03-25,433,281!2027-03-20,723,321-->
-- discover: Find holes in existing products.→::@::←know ourselves: See if our products are sticky. <!--SR:!2025-10-21,290,221!2025-10-30,279,241-->
+- discover: Find holes in existing products.→::@::←know ourselves: See if our products are sticky. <!--SR:!2027-07-24,641,221!2025-10-30,279,241-->
 - know ourselves: See if our products are sticky.→::@::←know them: See how big of a threat competitors pose. <!--SR:!2026-10-11,650,321!2026-10-24,615,314-->
 - know them: See how big of a threat competitors pose.→::@::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2026-07-19,482,261!2026-01-01,371,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→::@::←_(end)_ <!--SR:!2028-09-14,1239,361!2025-12-29,364,281-->

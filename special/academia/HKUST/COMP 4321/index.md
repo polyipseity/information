@@ -30,7 +30,7 @@ The content is in teaching order.
 - final exam
   - report
     - Used async iteration instead of sync iteration as required...
-      - async iteration, sync iteration ::@:: A single-character difference matters... <!--SR:!2025-11-08,279,330!2025-10-21,264,330-->
+      - async iteration, sync iteration ::@:: A single-character difference matters... <!--SR:!2025-11-08,279,330!2029-02-03,1201,350-->
     - When drawing the interpolated graph, they also wanted the old graph as dotted line... Obviously, most missed it, so it was actually fine.
       - interpolated graph format ::@:: Ideally, copy the format from the lecture slides. <!--SR:!2028-08-23,1075,350!2028-11-18,1144,350-->
     - There is a special rule for click > ??? (forgot), which was not mentioned on the slides but on their videos. Whatever, they added the 1 mark back.

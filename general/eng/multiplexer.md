@@ -155,7 +155,7 @@ If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$
 
 > {@{![Example: A Single Bit 1-to-4 Line Demultiplexer](../../archives/Wikimedia%20Commons/Demultiplexer%20Example01.svg)}@}
 >
-> Example: {@{A Single Bit 1-to-4 Line Demultiplexer}@} <!--SR:!2025-10-21,186,324!2026-04-30,341,344-->
+> Example: {@{A Single Bit 1-to-4 Line Demultiplexer}@} <!--SR:!2028-02-03,835,344!2026-04-30,341,344-->
 
 ### list of ICs which provide demultiplexing
 

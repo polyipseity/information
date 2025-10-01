@@ -33,7 +33,7 @@ Then if {@{the firm increases quantity sold to 21 units of books at $49 each}@},
 
 Therefore, using the marginal revenue formula {@{(MR)<sup>[\[12\]](#^ref-12)</sup> = ${\frac {\Delta TR}{\Delta Q} }=\left({\frac {\$1029-\$1000}{21-20} }\right)=\$29$}@} <!--SR:!2028-12-30,1179,357-->
 
-__Example 2:__ If {@{a firm's total revenue function is written as $R(Q)=P(Q)\cdot Q,$}@}<sup>[\[14\]](#^ref-14)</sup> $$\begin{aligned} R(Q) & =(Q)\cdot (200-Q) \\ R(Q) & =200Q-Q^{2} \end{aligned}$$ Then, by {@{first order derivation}@}, marginal revenue would be expressed as {@{$$MR=R'(Q)=200-2Q$$}@} Therefore, if Q = 40, <p> {@{MR = 200 − 2(40) = \$120}@} <!--SR:!2029-01-23,1197,357!2025-10-21,264,337!2025-12-10,303,337!2025-12-15,308,337-->
+__Example 2:__ If {@{a firm's total revenue function is written as $R(Q)=P(Q)\cdot Q,$}@}<sup>[\[14\]](#^ref-14)</sup> $$\begin{aligned} R(Q) & =(Q)\cdot (200-Q) \\ R(Q) & =200Q-Q^{2} \end{aligned}$$ Then, by {@{first order derivation}@}, marginal revenue would be expressed as {@{$$MR=R'(Q)=200-2Q$$}@} Therefore, if Q = 40, <p> {@{MR = 200 − 2(40) = \$120}@} <!--SR:!2029-01-23,1197,357!2029-02-27,1225,357!2025-12-10,303,337!2025-12-15,308,337-->
 
 ## marginal revenue curve
 
@@ -55,7 +55,7 @@ Under {@{[monopoly](monopolistic%20competition.md)}@}, one firm is {@{a sole sel
 
 ## marginal revenue curve and marginal cost curve
 
-A company will {@{stop producing a product/service}@} when {@{marginal revenue (money the company earns from each additional sale) equals marginal cost (the cost the company costs to produce an additional unit)}@}. Therefore, a company is {@{making money when MR is greater than marginal cost (MC)}@}. And when {@{MC = MR, it is called profit maximization}@}. After this point; {@{the company can no longer make a profit}@}. Therefore, {@{it is in their interest to stop production}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-12-15,308,337!2025-11-07,277,337!2025-12-16,309,337!2029-02-01,1204,357!2029-01-18,1193,357!2025-10-21,262,337-->
+A company will {@{stop producing a product/service}@} when {@{marginal revenue (money the company earns from each additional sale) equals marginal cost (the cost the company costs to produce an additional unit)}@}. Therefore, a company is {@{making money when MR is greater than marginal cost (MC)}@}. And when {@{MC = MR, it is called profit maximization}@}. After this point; {@{the company can no longer make a profit}@}. Therefore, {@{it is in their interest to stop production}@}.<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-12-15,308,337!2025-11-07,277,337!2025-12-16,309,337!2029-02-01,1204,357!2029-01-18,1193,357!2029-02-19,1217,357-->
 
 ## relationship between marginal revenue and elasticity
 

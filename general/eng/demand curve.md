@@ -72,7 +72,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 
 ### factors affecting individual demand
 
-- Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2028-11-21,1139,350!2025-10-21,258,330-->
+- Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2028-11-21,1139,350!2029-01-07,1174,350-->
 - Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2027-09-12,772,330!2028-10-30,1122,350-->
 - Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2027-07-13,724,330!2027-05-28,698,330-->
 - Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-12-03,292,330!2028-12-25,1166,350-->

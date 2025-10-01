@@ -158,7 +158,7 @@ Many luxury brands use flagship boutiques to {@{illustrate their unique vision o
 
 {@{Large cities}@} often have {@{secondary boutiques in addition to their flagship boutique}@}. Multiple boutiques allow {@{luxury brands to cater to different types of clients}@}, which can {@{differ even within small geographic areas}@}. Secondary boutiques often offer {@{different merchandise than flagship boutiques}@}, and establish {@{different types of relationships with clients}@}.<sup>[\[50\]](#^ref-50)</sup> <!--SR:!2025-12-03,291,330!2028-08-22,1066,350!2025-11-14,276,330!2028-10-03,1097,350!2028-01-21,832,330!2025-11-06,25,373-->
 
-{@{Luxury boutiques in smaller cities}@} are {@{often secondary boutiques as well}@}.<sup>[\[46\]](#^ref-46)</sup> {@{The rising popularity of secondary and tertiary cities around the world}@} has pushed luxury brands to {@{open secondary boutiques in smaller cities than those that can support a flagship boutique}@}.<sup>[\[51\]](#^ref-51)</sup> <!--SR:!2025-10-21,256,330!2025-11-06,268,330!2028-09-03,1076,350!2028-09-06,1077,350-->
+{@{Luxury boutiques in smaller cities}@} are {@{often secondary boutiques as well}@}.<sup>[\[46\]](#^ref-46)</sup> {@{The rising popularity of secondary and tertiary cities around the world}@} has pushed luxury brands to {@{open secondary boutiques in smaller cities than those that can support a flagship boutique}@}.<sup>[\[51\]](#^ref-51)</sup> <!--SR:!2029-01-03,1170,350!2025-11-06,268,330!2028-09-03,1076,350!2028-09-06,1077,350-->
 
 ### seasonal boutiques
 

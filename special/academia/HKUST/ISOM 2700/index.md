@@ -603,9 +603,9 @@ The content is in teaching order.
 - datetime: 2025-03-26T10:30:00+08:00/2025-03-26T11:50:00+08:00, PT1H20M
 - topic: forecasting: qualitative and qualitative approaches, time series forecasting models
 - [demand forecasting](../../../../general/demand%20forecasting.md) ::@:: It involves the prediction of the quantity of goods and services that will be demanded by consumers or business customers at a future point in time. <!--SR:!2025-11-01,159,429!2025-10-24,151,431-->
-  - demand forecasting / use ::@:: capacity planning, inventory management, revenue optimization, supply chain management, etc. <!--SR:!2025-10-21,148,431!2025-10-23,150,429-->
+  - demand forecasting / use ::@:: capacity planning, inventory management, revenue optimization, supply chain management, etc. <!--SR:!2028-03-12,873,451!2025-10-23,150,429-->
   - demand forecasting / types ::@:: dependent demand: derived from other products or services <br/> independent demand: final customer demand, not derivable from other products or services <!--SR:!2025-10-28,155,429!2025-10-25,152,429-->
-- [forecasting](../../../../general/forecasting.md) ::@:: It is the process of making predictions based on past and present data. Later these can be compared with what actually happens. <!--SR:!2025-10-21,148,431!2025-10-26,153,429-->
+- [forecasting](../../../../general/forecasting.md) ::@:: It is the process of making predictions based on past and present data. Later these can be compared with what actually happens. <!--SR:!2028-03-11,872,451!2025-10-26,153,429-->
   - forecasting / types ::@:: tactical \(short-term\) vs. strategic \(long-term\) <br/> qualitative \(subjective\) vs. quantitative \(objective\) <!--SR:!2025-10-31,158,431!2025-10-25,152,431-->
   - forecasting / principles ::@:: data: aggregate forecasts are usually more accurate <br/> error: has errors, never perfect <br/> uncertainty: the longer the time horizon, the more uncertain <br/> use: balance business acumen and quantitative analysis <!--SR:!2025-10-30,157,431!2025-10-28,155,429-->
   - forecasting / methods ::@:: consensus building, forecast combination, market research, prediction markets <!--SR:!2025-10-28,155,429!2025-11-02,160,431-->
@@ -616,12 +616,12 @@ The content is in teaching order.
   - time series / forecasting
     - time series / forecasting / issues ::@:: autocorrelation, noise control/reduction, seasonality modeling \(e.g. seasonality index\), structural break, trend modeling \(e.g. double exponential smoothing\), etc. <!--SR:!2025-10-23,150,431!2025-10-29,156,429-->
     - time series / forecasting / tradeoffs ::@:: responsiveness \(capture recent changes by relying more on recent data\) vs. robustness/stability \(smoothing to reduce noise\) <!--SR:!2025-10-31,158,429!2025-10-31,158,429-->
-- [moving average](../../../../general/moving%20average.md) ::@:: It is a calculation to analyze data points by creating a series of averages of different selections of the full data set. <!--SR:!2025-10-21,148,431!2025-11-02,160,431-->
-  - moving average / types ::@:: naive, simple, weighted, exponential, etc. <!--SR:!2025-10-28,155,429!2025-10-21,148,429-->
+- [moving average](../../../../general/moving%20average.md) ::@:: It is a calculation to analyze data points by creating a series of averages of different selections of the full data set. <!--SR:!2028-03-13,874,451!2025-11-02,160,431-->
+  - moving average / types ::@:: naive, simple, weighted, exponential, etc. <!--SR:!2025-10-28,155,429!2028-03-06,867,449-->
   - moving average / naive ::@:: $$F_t = A_{t - 1} \,,$$ i.e. take the last value as the prediction. It is highly sensitive to noise and does not account for trends. <!--SR:!2025-10-26,153,429!2028-02-16,851,449-->
   - moving average / simple ::@:: $$F_t = \frac 1 n (A_{t - 1} + \cdots + A_{t - n}) \,,$$ i.e. take the average of the last _n_ values as the prediction. _n_ is the sampling/look-back window. <!--SR:!2025-10-23,150,431!2025-11-01,159,431-->
   - moving average / sampling window ::@:: The sampling/look-back window is specified by a number _n_. <p> Larger values smooth out noise \(_robustness_/_stability_\), while smaller values is more _responsive_. <!--SR:!2025-11-01,159,431!2025-10-31,158,431-->
-  - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots + w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_. <!--SR:!2025-10-23,150,431!2025-10-21,148,429-->
+  - moving average / weighted ::@:: $$F_t = w_1 A_{t - 1} + \cdots + w_n A_{t - n} \,,$$ where the _n_ weights $w_i$ sum up to 1. <p> Simple moving average is a special case where $w_i = 1 / n$ for all _i_. <!--SR:!2025-10-23,150,431!2028-03-07,868,449-->
     - moving average / weighted / weights ::@:: The weights may be selected by trial and error. <p> A reasonable assignment is allocating more weight to recent data. This increases _responsiveness_ against _robustness_/_stability_. <!--SR:!2025-10-27,154,429!2025-10-23,150,429-->
   - moving average / simple
     - moving average / simple / advantages & disadvantages ::@:: It is based on average past demand, and assigns equal importance to each observation. <p> It requires carrying large amounts of historical data, and data before the sampling window are entirely ignored. <!--SR:!2025-10-31,158,429!2025-10-31,158,429-->
@@ -648,7 +648,7 @@ The content is in teaching order.
 - datetime: 2025-03-31T10:30:00+08:00/2025-03-31T11:50:00+08:00, PT1H20M
 - topic: inventory management: introduction to inventory management, economic order quantity \(EOQ\) model
 - inventory
-  - inventory / types ::@:: raw materials, work-in-progress, finished goods, supplies, etc. <!--SR:!2025-10-30,157,431!2025-10-21,148,429-->
+  - inventory / types ::@:: raw materials, work-in-progress, finished goods, supplies, etc. <!--SR:!2025-10-30,157,431!2028-03-04,865,449-->
 - [field inventory management](../../../../general/field%20inventory%20management.md) ::@:: It is the task of understanding the stock mix of a company and the handling of the different demands placed on that stock. The demands are influenced by both external and internal factors and are balanced by the creation of purchase order requests to keep supplies at a reasonable or prescribed level. <!--SR:!2025-10-26,153,429!2027-03-24,581,429-->
   - field inventory management / goal ::@:: match \(inventory\) supply with demand <!--SR:!2025-10-27,154,429!2025-10-22,149,431-->
   - field inventory management / importance ::@:: convergence point of supply chain and customer touch-point <br/> inventory can be the largest asset of a firm <br/> multiple stakeholders involved <!--SR:!2027-04-28,611,429!2025-11-01,159,431-->
@@ -656,7 +656,7 @@ The content is in teaching order.
     - field inventory management / components / new ::@:: artificial intelligence \(AI\), big data, blockchain, internet of things \(IoT\), etc. <!--SR:!2025-10-28,155,431!2027-04-27,610,429-->
   - field inventory management / challenges ::@:: control difficulty, high costs <!--SR:!2025-10-24,151,429!2025-10-25,152,431-->
     - field inventory management / challenges / high costs ::@:: holding cost per unit per time, ordering cost per order, shortage cost per lost sale <!--SR:!2025-10-29,156,429!2025-10-31,158,429-->
-    - field inventory management / challenges / control difficulty ::@:: demand uncertainty, quality variance, random delivery lead-time <!--SR:!2025-10-21,148,429!2025-11-02,160,431-->
+    - field inventory management / challenges / control difficulty ::@:: demand uncertainty, quality variance, random delivery lead-time <!--SR:!2028-03-05,866,449!2025-11-02,160,431-->
 - inventory
   - inventory / types ::@:: buffer, cycle, pipeline, safety, seasonal <!--SR:!2025-10-26,153,429!2028-02-28,861,449-->
     - inventory / types / pipeline ::@:: related to units in a ongoing process; recall Little's law <!--SR:!2025-10-27,154,429!2025-10-22,149,429-->
@@ -668,7 +668,7 @@ The content is in teaching order.
   - field inventory management / models ::@:: economic order quantity \(EOQ\) model, fixed-time period model \(optional\), newsvendor model <!--SR:!2025-10-27,154,429!2025-10-30,157,429-->
     - field inventory management / models / economic order quantity ::@:: used for deterministic demand and long lifecycle products \(holdable for a long time without depreciation\) <!--SR:!2025-10-22,149,429!2025-10-24,151,429-->
     - field inventory management / models / newsvendor ::@:: used for uncertain demand and short lifecycle products \(becomes valueless after a short time\) <!--SR:!2028-02-27,860,449!2025-10-25,152,429-->
-    - field inventory management / models / fixed-time period ::@:: \(__this course__: optional\) usually used for ordering a group of items together <!--SR:!2025-10-21,148,431!2028-02-15,850,449-->
+    - field inventory management / models / fixed-time period ::@:: \(__this course__: optional\) usually used for ordering a group of items together <!--SR:!2028-03-08,869,451!2028-02-15,850,449-->
 - [economic order quantity](../../../../general/economic%20order%20quantity.md) \(EOQ\) ::@:: It is the order quantity that minimizes the total holding costs and ordering costs in inventory management. It is one of the oldest classical production scheduling models. <!--SR:!2028-02-23,857,451!2025-10-23,150,431-->
   - economic order quantity / outputs ::@:: order frequency, order quantity <!--SR:!2025-10-28,155,429!2025-10-27,154,429-->
   - economic order quantity / assumptions ::@:: constant demand rate, constant delivery lead time \(after ordering\), constant holding cost, constant ordering cost <!--SR:!2025-10-30,157,431!2025-10-31,158,429-->
@@ -685,7 +685,7 @@ The content is in teaching order.
       - economic order quantity / optimal solution / cost / derivation ::@:: $$\begin{aligned} T^* & = HQ^* / 2 + SD / Q^* \\ & = \frac H 2 \sqrt{\frac {2SD} H} + SD \sqrt{\frac H {2SD} } \\ & = \sqrt{SDH / 2} + \sqrt{SDH / 2} \\ & = \sqrt{2SDH} \,. \end{aligned}$$ <!--SR:!2027-06-02,641,429!2025-10-29,156,429-->
     - economic order quantity / optimal solution / cost per unit ::@:: The optimal cost _per unit_ is: $$\frac {T^*} D = \sqrt{\frac {2 \times \text{order or setup cost} \times \text{holding cost} } {\text{demand rate} } } \,.$$ As demand rate increases, cost per unit decreases \(_economics of scale_\). <!--SR:!2025-10-26,153,429!2025-10-28,155,429-->
     - economic order quantity / optimal solution / inventory turnover ::@:: The optimal inventory turnover _per time_ is: $$\frac D {Q^* / 2} = D \sqrt {\frac {2H} {DS} } = \sqrt{\frac {2 \times \text{demand rate} \times \text{holding cost} } {\text{order or setup cost} } } \,.$$ The intuition is that if holding cost is high or ordering cost is low, we should turn the inventory more frequently. <!--SR:!2026-09-18,420,409!2027-01-01,471,409-->
-  - economic order quantity / unit cost ::@:: The above model assumes purchasing a unit is free. This is obviously not the case in the real world. <p> The total cost is the same, with the _purchasing cost_ added. The _purchasing cost per unit time_ equals $D \times C$, where $C$ is the unit cost. <!--SR:!2025-10-21,148,431!2025-10-30,157,431-->
+  - economic order quantity / unit cost ::@:: The above model assumes purchasing a unit is free. This is obviously not the case in the real world. <p> The total cost is the same, with the _purchasing cost_ added. The _purchasing cost per unit time_ equals $D \times C$, where $C$ is the unit cost. <!--SR:!2028-03-14,875,451!2025-10-30,157,431-->
     - economic order quantity / unit cost / optimal solution ::@:: Since the purchasing cost does not depend on the order quantity, the _optimal order quantity_ is unchanged. <p> The _optimal costs_ are increased by taking the purchasing cost into account. <!--SR:!2025-10-28,155,429!2025-10-24,151,431-->
   - economic order quantity / lead time ::@:: The delivery lead time _does not_ affect the optimal order frequency or the optimal order quantity. It only affects when to order. <!--SR:!2025-10-29,156,431!2025-10-24,151,431-->
     - economic order quantity / lead time / reorder point ::@:: It is the inventory level that indicates that we should place a new order, calculated as: $$\text{ROP} = \text{demand rate} \times \text{lead time} \,.$$ <p> \(__this course__: We _always_ assume the reorder point is strictly less than the order quantity. Though you could try to interpret what happens if the reorder point exceeds the order quantity...\) <!--SR:!2025-10-30,157,429!2025-10-24,151,429-->

@@ -67,7 +67,7 @@ The content is in teaching order.
 - skill vs. will
 - job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2026-11-28,605,330!2028-02-19,931,330-->
   - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2028-12-21,1207,350!2028-08-12,1101,350-->
-- job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2025-10-21,300,330-->
+- job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2029-07-22,1370,350-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2028-09-22,1135,350!2028-04-08,1000,350-->
@@ -87,7 +87,7 @@ The content is in teaching order.
   - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2026-08-17,521,310!2025-10-24,303,330-->
 - transferrable skills, portable skills
 - professional social media ::@:: LinkedIn <!--SR:!2029-02-27,1260,350!2028-10-08,1147,350-->
-- elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2025-10-21,300,330!2028-10-18,1156,350-->
+- elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2029-07-21,1369,350!2028-10-18,1156,350-->
 - dress-up
 - networking
   - thank-you email (after networking)
@@ -131,7 +131,7 @@ The content is in teaching order.
 - work cultures
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2028-12-07,1198,350!2026-04-17,430,310-->
 - What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2028-05-04,1026,350!2027-06-18,747,330-->
-- What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2025-10-21,300,330-->
+- What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2029-07-17,1365,350-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2029-04-10,1294,350-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2026-11-27,544,270!2026-02-15,370,290-->
   - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2028-04-18,1010,350!2028-11-02,1170,350-->
@@ -178,7 +178,7 @@ The content is in teaching order.
   - STAR-r / situation ::@:: set the scene <!--SR:!2028-09-03,1119,350!2025-10-24,303,330-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2027-10-18,854,330!2028-01-18,939,350-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2028-11-15,1181,350!2028-12-26,1210,350-->
-  - STAR-r / result ::@:: share the outcome <!--SR:!2028-09-08,1126,350!2025-10-21,300,330-->
+  - STAR-r / result ::@:: share the outcome <!--SR:!2028-09-08,1126,350!2029-07-20,1368,350-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2028-08-17,1106,350!2028-09-10,1126,350-->
 
 ## week 12 tutorial

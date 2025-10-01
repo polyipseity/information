@@ -1298,7 +1298,7 @@ tags:
 > 4. The higher the dropout rate, the better the model performance.
 >
 > - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-10-21,230,330!2025-11-15,253,330-->
+> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2028-09-02,1047,350!2025-11-15,253,330-->
 
 ## minimax & alpha–beta pruning
 

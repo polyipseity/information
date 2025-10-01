@@ -59,13 +59,13 @@ In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitut
 
 <!--/pytextgen-->
 
-Because {@{rules 1 and 2 involve flipping the _t_ axis}@}, they {@{flip the sign of _dt_}@}, and therefore {@{the behavior of _ω_ under these transformations differs from that of _ƒ_ by a sign}@}. Although {@{the rules could be stated in terms of _ƒ_}@}, stating them {@{in terms of _ω_ has a mnemonic advantage}@}, which is that we {@{choose the change of variables _u_\(_t_\) that has the same symmetry as _ω_}@}. <!--SR:!2026-11-20,396,369!2026-07-19,276,349!2026-10-09,362,369!2025-10-21,83,349!2026-11-21,397,369!2025-10-23,85,349-->
+Because {@{rules 1 and 2 involve flipping the _t_ axis}@}, they {@{flip the sign of _dt_}@}, and therefore {@{the behavior of _ω_ under these transformations differs from that of _ƒ_ by a sign}@}. Although {@{the rules could be stated in terms of _ƒ_}@}, stating them {@{in terms of _ω_ has a mnemonic advantage}@}, which is that we {@{choose the change of variables _u_\(_t_\) that has the same symmetry as _ω_}@}. <!--SR:!2026-11-20,396,369!2026-07-19,276,349!2026-10-09,362,369!2026-11-28,403,369!2026-11-21,397,369!2025-10-23,85,349-->
 
-These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<sup>[\[1\]](#^ref-1)</sup> that {@{the proposed change of variable reduces}@} \(if {@{the rule applies and if _f_ is actually of the form $f(t)={\frac {P(\sin t,\cos t)}{Q(\sin t,\cos t)} }$}@}\) to {@{the integration of a [rational function](rational%20function.md) in a new variable}@}, which can be calculated by {@{[partial fraction decomposition](partial%20fraction%20decomposition.md)}@}. <!--SR:!2026-11-23,399,369!2026-10-23,373,369!2026-10-06,359,369!2026-11-19,395,369!2025-10-21,83,349-->
+These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<sup>[\[1\]](#^ref-1)</sup> that {@{the proposed change of variable reduces}@} \(if {@{the rule applies and if _f_ is actually of the form $f(t)={\frac {P(\sin t,\cos t)}{Q(\sin t,\cos t)} }$}@}\) to {@{the integration of a [rational function](rational%20function.md) in a new variable}@}, which can be calculated by {@{[partial fraction decomposition](partial%20fraction%20decomposition.md)}@}. <!--SR:!2026-11-23,399,369!2026-10-23,373,369!2026-10-06,359,369!2026-11-19,395,369!2026-11-27,402,369-->
 
 ## case of polynomials
 
-To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!2025-10-21,83,349!2026-11-19,395,369-->
+To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!2026-11-29,404,369!2026-11-19,395,369-->
 
 - If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2025-10-22,84,349!2026-10-13,367,369-->
 - If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!2026-11-19,396,369!2025-10-22,84,349-->
@@ -74,9 +74,9 @@ To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's r
 
 ## another version for hyperbolic functions
 
-Suppose one is {@{calculating $\int g(\cosh t,\sinh t)dt$}@}. <!--SR:!2025-10-21,83,349-->
+Suppose one is {@{calculating $\int g(\cosh t,\sinh t)dt$}@}. <!--SR:!2026-11-27,402,369-->
 
-If {@{Bioche's rules suggest calculating $\int g(\cos t,\sin t)dt$}@} by {@{$u=\cos(t)$ \(respectively, $\sin t,\tan t,\cos(2t),\tan(t/2)$\)}@}, in the case of {@{hyperbolic sine and cosine}@}, a good change of variable is {@{$u=\cosh(t)$ \(respectively, $\sinh(t),\tanh(t),\cosh(2t),\tanh(t/2)$\)}@}. \(annotation: In short, {@{drop the "h"s, apply the rules, and then add back the "h"s}@}.\) In {@{every case}@}, {@{the change of variable $u=e^{t}$}@} allows {@{one to reduce to a rational function}@}, this last change of variable being {@{most interesting in the fourth case \($u=\tanh(t/2)$\)}@}. <!--SR:!2025-10-21,83,349!2025-10-22,84,349!2026-11-24,400,369!2026-11-13,391,369!2025-10-21,83,349!2026-11-12,389,369!2025-10-23,85,349!2026-10-11,363,369!2026-10-17,368,369-->
+If {@{Bioche's rules suggest calculating $\int g(\cos t,\sin t)dt$}@} by {@{$u=\cos(t)$ \(respectively, $\sin t,\tan t,\cos(2t),\tan(t/2)$\)}@}, in the case of {@{hyperbolic sine and cosine}@}, a good change of variable is {@{$u=\cosh(t)$ \(respectively, $\sinh(t),\tanh(t),\cosh(2t),\tanh(t/2)$\)}@}. \(annotation: In short, {@{drop the "h"s, apply the rules, and then add back the "h"s}@}.\) In {@{every case}@}, {@{the change of variable $u=e^{t}$}@} allows {@{one to reduce to a rational function}@}, this last change of variable being {@{most interesting in the fourth case \($u=\tanh(t/2)$\)}@}. <!--SR:!2026-11-28,403,369!2025-10-22,84,349!2026-11-24,400,369!2026-11-13,391,369!2026-11-26,401,369!2026-11-12,389,369!2025-10-23,85,349!2026-10-11,363,369!2026-10-17,368,369-->
 
 ## examples
 
@@ -86,13 +86,13 @@ As {@{a trivial example}@}, consider {@{$$\int \sin t\,dt.$$}@} Then {@{$f(t)=\s
 
 ### example 2
 
-The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries as the one in example 1}@}, so we use {@{the same substitution $u=\cos t$}@}. So {@{$${\frac {dt}{\sin t} }=-{\frac {du}{\sin ^{2}t} }=-{\frac {du}{\ 1-\cos ^{2}t} }.$$}@} This transforms the integral into {@{$$\int -{\frac {du}{1-u^{2} } },$$}@} which can be {@{integrated using partial fractions}@}, since {@{${\frac {1}{1-u^{2} } }={\frac {1}{2} }\left({\frac {1}{1+u} }+{\frac {1}{1-u} }\right)$}@}. The result is that {@{$$\int {\frac {dt}{\sin t} }=-{\frac {1}{2} }\ln {\frac {1+\cos t}{1-\cos t} }+c.$$}@} <!--SR:!2025-10-21,83,349!2025-10-22,84,349!2026-10-19,370,369!2026-07-06,268,349!2026-07-26,282,349!2026-11-07,385,369!2026-10-18,369,369!2026-08-02,287,349-->
+The integrand in {@{$$\int {\frac {dt}{\sin t} }$$}@} has {@{the same symmetries as the one in example 1}@}, so we use {@{the same substitution $u=\cos t$}@}. So {@{$${\frac {dt}{\sin t} }=-{\frac {du}{\sin ^{2}t} }=-{\frac {du}{\ 1-\cos ^{2}t} }.$$}@} This transforms the integral into {@{$$\int -{\frac {du}{1-u^{2} } },$$}@} which can be {@{integrated using partial fractions}@}, since {@{${\frac {1}{1-u^{2} } }={\frac {1}{2} }\left({\frac {1}{1+u} }+{\frac {1}{1-u} }\right)$}@}. The result is that {@{$$\int {\frac {dt}{\sin t} }=-{\frac {1}{2} }\ln {\frac {1+\cos t}{1-\cos t} }+c.$$}@} <!--SR:!2026-11-26,401,369!2025-10-22,84,349!2026-10-19,370,369!2026-07-06,268,349!2026-07-26,282,349!2026-11-07,385,369!2026-10-18,369,369!2026-08-02,287,349-->
 
 ### example 3
 
-Consider {@{$$\int {\frac {dt}{1+\beta \cos t} },$$}@} where {@{$\beta ^{2}<1$}@}. Although {@{the function _f_ is even}@}, {@{the integrand as a whole ω is odd}@}, so {@{it does not fall under rule 1}@}. It also {@{lacks the symmetries described in rules 2 and 3}@}, so we fall back to {@{the last-resort substitution $u=\tan(t/2)$}@}. <!--SR:!2025-10-22,84,349!2025-10-22,84,349!2025-10-21,83,349!2025-10-23,85,349!2026-11-01,381,369!2026-11-07,386,369!2026-11-07,386,369-->
+Consider {@{$$\int {\frac {dt}{1+\beta \cos t} },$$}@} where {@{$\beta ^{2}<1$}@}. Although {@{the function _f_ is even}@}, {@{the integrand as a whole ω is odd}@}, so {@{it does not fall under rule 1}@}. It also {@{lacks the symmetries described in rules 2 and 3}@}, so we fall back to {@{the last-resort substitution $u=\tan(t/2)$}@}. <!--SR:!2025-10-22,84,349!2025-10-22,84,349!2026-11-30,405,369!2025-10-23,85,349!2026-11-01,381,369!2026-11-07,386,369!2026-11-07,386,369-->
 
-Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\begin{aligned} \int {\frac {\mathrm {d} t}{1+\beta \cos t} } & = \int \frac 1 {1 + \beta \frac {1 - u^2} {1 + u^2} } \frac {2 \, \mathrm du} {1 + u^2} \\ & = \int \frac {2 \,\mathrm du} {(1 + \beta) + (1 - \beta) u^2} \\ & = \frac 2 {1 + \beta} \int \frac {\mathrm du} {1 + \left(\sqrt{\frac {1 - \beta} {1 + \beta} } u\right)^2} \\ & = \frac 2 {1 + \beta } \sqrt{\frac {1 + \beta} {1 - \beta} } \int \frac {\mathrm dv} {1 + v^2} \\ & ={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c \,. \end{aligned}$$}@} <!--SR:!2025-10-21,83,349!2026-02-14,166,329!2026-02-27,161,309-->
+Using {@{$\cos t={\frac {1-\tan ^{2}(t/2)}{1+\tan ^{2}(t/2)} }$}@} and {@{a second substitution $v={\sqrt {\frac {1-\beta }{1+\beta } } }u$}@} leads to the result {@{$$\begin{aligned} \int {\frac {\mathrm {d} t}{1+\beta \cos t} } & = \int \frac 1 {1 + \beta \frac {1 - u^2} {1 + u^2} } \frac {2 \, \mathrm du} {1 + u^2} \\ & = \int \frac {2 \,\mathrm du} {(1 + \beta) + (1 - \beta) u^2} \\ & = \frac 2 {1 + \beta} \int \frac {\mathrm du} {1 + \left(\sqrt{\frac {1 - \beta} {1 + \beta} } u\right)^2} \\ & = \frac 2 {1 + \beta } \sqrt{\frac {1 + \beta} {1 - \beta} } \int \frac {\mathrm dv} {1 + v^2} \\ & ={\frac {2}{\sqrt {1-\beta ^{2} } } }\arctan \left[{\sqrt {\frac {1-\beta }{1+\beta } } }\tan {\frac {t}{2} }\right]+c \,. \end{aligned}$$}@} <!--SR:!2026-08-07,290,349!2026-02-14,166,329!2026-02-27,161,309-->
 
 ## references
 

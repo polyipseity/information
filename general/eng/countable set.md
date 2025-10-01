@@ -129,7 +129,7 @@ For {@{an elaboration of this result}@} see {@{[Cantor's diagonal argument](Cant
 
 ## minimal model of set theory is countable
 
-If {@{there is a set that is a standard model \(see [inner model](inner%20model.md)\) of ZFC set theory}@}, then {@{there is a minimal standard model \(see [Constructible universe](constructible%20universe.md)\)}@}. {@{The [Löwenheim–Skolem theorem](Löwenheim–Skolem%20theorem.md)}@} can be {@{used to show that this minimal model is countable}@}. The fact that {@{the notion of "uncountability" makes sense even in this model}@}, and in particular that {@{this model _M_ contains elements that are}@}: <!--SR:!2027-07-31,725,330!2027-11-08,803,330!2025-10-21,231,330!2026-06-27,407,310!2025-12-20,279,330!2026-08-16,442,310-->
+If {@{there is a set that is a standard model \(see [inner model](inner%20model.md)\) of ZFC set theory}@}, then {@{there is a minimal standard model \(see [Constructible universe](constructible%20universe.md)\)}@}. {@{The [Löwenheim–Skolem theorem](Löwenheim–Skolem%20theorem.md)}@} can be {@{used to show that this minimal model is countable}@}. The fact that {@{the notion of "uncountability" makes sense even in this model}@}, and in particular that {@{this model _M_ contains elements that are}@}: <!--SR:!2027-07-31,725,330!2027-11-08,803,330!2028-09-05,1050,350!2026-06-27,407,310!2025-12-20,279,330!2026-08-16,442,310-->
 
 - countable ::@:: subsets of _M_, hence countable, <!--SR:!2027-11-24,814,330!2025-11-10,248,330-->
 - uncountable ::@:: but uncountable from the point of view of _M_, <!--SR:!2025-12-02,265,330!2027-11-24,816,330-->

@@ -118,7 +118,7 @@ Such production creates {@{a social cost curve that is below the private cost cu
 
 > {@{![Relationship between marginal cost and average total cost](../../archives/Wikimedia%20Commons/Avc%20atc%20mc.png)}@}
 >
-> {@{Relationship between marginal cost and average total cost}@} <!--SR:!2026-03-21,329,352!2025-10-21,206,332-->
+> {@{Relationship between marginal cost and average total cost}@} <!--SR:!2026-03-21,329,352!2027-09-05,684,332-->
 
 Say {@{the starting point of level of output produced is n}@}. {@{Marginal cost}@} is {@{the change of the total cost from an additional output \[\(n+1\)th unit\]}@}. Therefore, \(refer to "Average cost" labelled picture on the right side of the screen)... (annotation: $$AC_n = \frac {TC_n} {Q_n}$$ and the AC at the level $Q_{n + 1}$ is $$AC_{n + 1} = \frac {TC_{n + 1} } {Q_{n + 1} } \,.$$ Clearly, $$TC_{n + 1} = TC_n + MC \,.$$) <!--SR:!2026-02-09,298,352!2026-04-01,338,352!2026-03-21,331,352-->
 

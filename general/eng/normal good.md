@@ -58,7 +58,7 @@ Another potential caveat is brought up by {@{"The Notion of Inferior Good in the
 
 > {@{![Engels curves showing income elasticity of demand (YED) of normal goods (comprising luxury (red) and necessity goods (yellow)), perfectly inelastic (green) and inferior goods (blue)](../../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
 >
-> {@{[Engels curves](Engel%20curve.md)}@} showing {@{[income elasticity of demand](income%20elasticity%20of%20demand.md) \(YED\)}@} of {@{__normal goods__ \(comprising [luxury](luxury%20goods.md) \(red\) and [necessity goods](necessity%20good.md) \(yellow\)\), [perfectly inelastic](elasticity%20(economics).md) \(green\) and [inferior goods](inferior%20good.md) \(blue\)}@} <!--SR:!2025-10-21,257,330!2025-11-12,275,330!2025-11-24,284,330!2028-08-08,1054,350-->
+> {@{[Engels curves](Engel%20curve.md)}@} showing {@{[income elasticity of demand](income%20elasticity%20of%20demand.md) \(YED\)}@} of {@{__normal goods__ \(comprising [luxury](luxury%20goods.md) \(red\) and [necessity goods](necessity%20good.md) \(yellow\)\), [perfectly inelastic](elasticity%20(economics).md) \(green\) and [inferior goods](inferior%20good.md) \(blue\)}@} <!--SR:!2029-01-08,1175,350!2025-11-12,275,330!2025-11-24,284,330!2028-08-08,1054,350-->
 
 ## see also
 

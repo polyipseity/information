@@ -173,7 +173,7 @@ Since {@{___π___ is parallel to __u__<sub>1</sub>\(normalized by L2 norm\)}@} a
 
 #### Harris chains
 
-{@{Many results for Markov chains with finite state space}@} can be {@{generalized to chains with uncountable state space through [Harris chains](Harris%20chain.md)}@}. <!--SR:!2026-03-13,362,359!2025-10-21,244,347-->
+{@{Many results for Markov chains with finite state space}@} can be {@{generalized to chains with uncountable state space through [Harris chains](Harris%20chain.md)}@}. <!--SR:!2026-03-13,362,359!2029-01-02,1169,367-->
 
 {@{The use of Markov chains}@} in {@{Markov chain Monte Carlo methods}@} covers {@{cases where the process follows a continuous state space}@}. <!--SR:!2027-06-06,674,321!2026-04-16,392,367!2027-11-10,821,341-->
 

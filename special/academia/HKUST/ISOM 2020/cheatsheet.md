@@ -41,7 +41,7 @@ The cheatsheet is provided during the final examination.
 - `-` ::@:: subtraction <!--SR:!2029-04-04,1268,350!2029-03-14,1252,350-->
 - `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2029-04-25,1283,350-->
 - `**` ::@:: to the power of <!--SR:!2029-04-05,1269,350!2025-10-25,287,330-->
-- `/` ::@:: division <!--SR:!2029-02-09,1225,350!2025-10-21,282,330-->
+- `/` ::@:: division <!--SR:!2029-02-09,1225,350!2029-04-26,1283,350-->
 - `//` ::@:: floor division <!--SR:!2029-03-11,1248,350!2029-03-15,1253,350-->
 - `%` ::@:: mod <!--SR:!2029-01-31,1218,350!2029-02-02,1220,350-->
 
@@ -60,14 +60,14 @@ The cheatsheet is provided during the final examination.
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2029-04-22,1280,350-->
 - `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
-- `str()` ::@:: convert input to str <!--SR:!2025-10-21,283,330!2025-10-28,290,330-->
+- `str()` ::@:: convert input to str <!--SR:!2029-05-04,1291,350!2025-10-28,290,330-->
 
 ## list / string operations
 
 - `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2025-10-23,285,330-->
 - `+` ::@:: combine two lists / strings <!--SR:!2025-10-24,286,330!2025-10-27,288,330-->
 - `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2025-10-26,287,330-->
-- `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2025-10-21,282,330-->
+- `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2029-04-27,1284,350-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2025-10-22,283,330!2025-10-24,286,330-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
@@ -84,7 +84,7 @@ The cheatsheet is provided during the final examination.
 - `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2029-04-14,1273,350-->
 - `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
 - `>` ::@:: is greater than? <!--SR:!2029-03-07,1245,350!2025-10-24,285,330-->
-- `<=` ::@:: is less than or equal to? <!--SR:!2029-04-19,1278,350!2025-10-21,283,330-->
+- `<=` ::@:: is less than or equal to? <!--SR:!2029-04-19,1278,350!2029-05-06,1293,350-->
 - `>=` ::@:: is greater than or equal to? <!--SR:!2029-03-30,1264,350!2029-03-04,1243,350-->
 
 ## boolean operators
@@ -95,7 +95,7 @@ The cheatsheet is provided during the final examination.
 
 ## conditional statement
 
-- keywords ::@:: `if ...: ... [elif ...: ...] [else: ...]` <!--SR:!2025-10-23,284,330!2025-10-21,283,330-->
+- keywords ::@:: `if ...: ... [elif ...: ...] [else: ...]` <!--SR:!2025-10-23,284,330!2029-05-05,1292,350-->
 
 ```Python
 if <caseA>:

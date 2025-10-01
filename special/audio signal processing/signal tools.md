@@ -49,7 +49,7 @@ SonicVisualiser supports {@{many plugins to perform many extra functions}@}, whi
 
 ### analysis (sms-tools)
 
-`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}.  It also supports using {@{models to analyze a sound}@}, e.g. {@{STFT model, sinusoidal model, etc.}@} <!--SR:!2030-01-03,1554,369!2025-10-21,90,375!2025-10-26,95,375-->
+`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}.  It also supports using {@{models to analyze a sound}@}, e.g. {@{STFT model, sinusoidal model, etc.}@} <!--SR:!2030-01-03,1554,369!2027-02-01,468,395!2025-10-26,95,375-->
 
 ### synthesis (sms-tools)
 

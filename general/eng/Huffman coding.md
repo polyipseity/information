@@ -110,7 +110,7 @@ In general, {@{a Huffman code need not be unique}@}. Thus {@{the set of Huffman 
 
 > ![Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED".](../../archives/Wikimedia%20Commons/Huffman%20coding%20visualisation.svg)
 >
-> {@{Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED"}@}. In {@{steps 2 to 6}@}, the letters are {@{sorted by increasing frequency}@}, and {@{the least frequent two at each step are combined and reinserted into the list}@}, and {@{a partial tree is constructed}@}. The final tree in step 6 is {@{traversed to generate the dictionary in step 7}@}. Step 8 {@{uses it to encode the message}@}. <!--SR:!2025-10-31,258,330!2025-11-25,279,330!2025-11-13,268,330!2027-09-04,768,330!2028-09-12,1075,350!2025-11-08,265,330!2025-10-21,253,330-->
+> {@{Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED"}@}. In {@{steps 2 to 6}@}, the letters are {@{sorted by increasing frequency}@}, and {@{the least frequent two at each step are combined and reinserted into the list}@}, and {@{a partial tree is constructed}@}. The final tree in step 6 is {@{traversed to generate the dictionary in step 7}@}. Step 8 {@{uses it to encode the message}@}. <!--SR:!2025-10-31,258,330!2025-11-25,279,330!2025-11-13,268,330!2027-09-04,768,330!2028-09-12,1075,350!2025-11-08,265,330!2028-12-12,1148,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -150,14 +150,14 @@ If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time
     1. Dequeue {@{the two nodes with the lowest weight by examining the fronts of both queues}@}. (annotation: It is possible that {@{the two nodes are from the same queue}@}, so {@{the first two nodes of each queue should be inspected}@}.)
     2. Create {@{a new internal node, with the two just-removed nodes as children \(either node can be either child\)}@} and {@{the sum of their weights as the new weight}@}.
     3. Enqueue {@{the new node into the rear of}@} the second queue.
-4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2025-10-21,253,330!2025-10-31,257,330!2025-12-07,289,330!2025-10-24,251,330!2025-11-29,282,330!2028-12-03,1142,350!2026-10-21,505,310!2027-02-25,562,310!2027-05-09,678,330!2028-10-25,1111,350!2025-12-08,290,330-->
+4. The remaining node is {@{the root node; the tree has now been generated}@}. <!--SR:!2028-12-15,1151,350!2025-10-31,257,330!2025-12-07,289,330!2025-10-24,251,330!2025-11-29,282,330!2028-12-03,1142,350!2026-10-21,505,310!2027-02-25,562,310!2027-05-09,678,330!2028-10-25,1111,350!2025-12-08,290,330-->
 
 Once {@{the Huffman tree has been generated}@}, it is {@{traversed to generate a dictionary which maps the symbols to binary codes as follows}@}: <!--SR:!2025-10-28,255,330!2027-12-10,831,330-->
 
 1. {@{Start with current node}@} set to the root.
 2. If {@{node is not a leaf node}@}, label {@{the edge to the left child as _0_ and the edge to the right child as _1_}@}. Repeat {@{the process at both the left child and the right child}@}. <!--SR:!2025-11-27,281,330!2025-11-06,262,330!2028-09-16,1079,350!2025-11-11,266,330-->
 
-{@{The final encoding of any symbol}@} is then read by {@{a concatenation of the labels on the edges along the path from the root node to the symbol}@}. <!--SR:!2025-10-21,253,330!2027-02-26,564,310-->
+{@{The final encoding of any symbol}@} is then read by {@{a concatenation of the labels on the edges along the path from the root node to the symbol}@}. <!--SR:!2028-12-14,1150,350!2027-02-26,564,310-->
 
 In many cases, {@{time complexity is not very important in the choice of algorithm here}@}, since {@{_n_ here is the number of symbols in the alphabet}@}, which is {@{typically a very small number \(compared to the length of the message to be encoded\)}@}; whereas {@{complexity analysis concerns the behavior when _n_ grows to be very large}@}. <!--SR:!2028-12-04,1142,350!2025-12-12,293,330!2025-11-09,264,330!2027-06-08,702,330-->
 
@@ -209,7 +209,7 @@ Most often, {@{the weights}@} used in implementations of Huffman coding represen
 
 ### Huffman coding with unequal letter costs
 
-In {@{the standard Huffman coding problem}@}, it is assumed that {@{each symbol in the set that the code words are constructed from has an equal cost to transmit}@}: {@{a code word whose length is _N_ digits will always have a cost of _N_, no matter how many of those digits are 0s, how many are 1s, etc.}@} When {@{working under this assumption}@}, {@{minimizing the total cost of the message and minimizing the total number of digits}@} are the same thing. <!--SR:!2025-11-21,276,330!2027-08-09,747,330!2025-11-25,279,330!2025-10-21,253,330!2025-11-13,269,330-->
+In {@{the standard Huffman coding problem}@}, it is assumed that {@{each symbol in the set that the code words are constructed from has an equal cost to transmit}@}: {@{a code word whose length is _N_ digits will always have a cost of _N_, no matter how many of those digits are 0s, how many are 1s, etc.}@} When {@{working under this assumption}@}, {@{minimizing the total cost of the message and minimizing the total number of digits}@} are the same thing. <!--SR:!2025-11-21,276,330!2027-08-09,747,330!2025-11-25,279,330!2028-12-19,1155,350!2025-11-13,269,330-->
 
 {@{_Huffman coding with unequal letter costs_}@} is {@{the generalization without this assumption}@}: {@{the letters of the encoding alphabet may have non-uniform lengths, due to characteristics of the transmission medium}@}. An example is {@{the encoding alphabet of [Morse code](Morse%20code.md)}@}, where {@{a 'dash' takes longer to send than a 'dot', and therefore the cost of a dash in transmission time is higher}@}. The goal is {@{still to minimize the weighted average codeword length}@}, but it is no longer {@{sufficient just to minimize the number of symbols used by the message}@}. No algorithm is {@{known to solve this in the same manner or with the same efficiency as conventional Huffman coding}@}, though {@{it has been solved by [Richard M. Karp](Richard%20M.%20Karp.md)}@}<sup>[\[9\]](#^ref-9)</sup> whose solution {@{has been refined for the case of integer costs by Mordecai J. Golin}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-12-13,294,330!2025-11-22,276,330!2027-07-06,721,330!2025-11-18,273,330!2025-11-28,281,330!2027-05-30,694,330!2028-09-02,1068,350!2025-11-10,219,270!2027-06-30,682,290!2026-12-27,559,310-->
 

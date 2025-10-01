@@ -443,7 +443,7 @@ The content is in teaching order.
 - datetime: 2025-03-12T08:30:00-05:00/2025-03-12T09:50:00-05:00, PT1H20M
   - local: 2025-03-12T21:30:00+08:00/2025-03-12T22:50:00+08:00, PT1H20M
 - swing music
-  - swing music / to bebop music ::@:: Swing was becoming commercialized and formulaic. Some musicians got tired. <p> Some musicians adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\). <!--SR:!2025-10-24,143,422!2025-10-21,140,422-->
+  - swing music / to bebop music ::@:: Swing was becoming commercialized and formulaic. Some musicians got tired. <p> Some musicians adapted swing music to smaller groups, some of which were looser with many solos. They focused more on improvisation and standards \(popular songs\). <!--SR:!2025-10-24,143,422!2027-06-06,593,422-->
 - [bebop](../../../../general/bebop.md) ::@:: It is a style of jazz developed in the early to mid-1940s in the United States. It can be considered as the start of modern jazz. <p> The name comes from the rhythm. <!--SR:!2025-10-28,147,422!2025-10-29,148,422-->
   - bebop / beginning ::@:: It began to develop in the late 1930s and early 1940s. Early recordings did not exist during 1942 to 1944 because of musicians' strike. <p> So some people think bebop suddenly appeared instead of being developed. The public thought the music was new instead of being gradually introduced to it. <!--SR:!2027-02-24,554,422!2027-12-23,795,442-->
   - bebop / characteristics ::@:: advanced harmony, fast tempo, virtuosic improvisation <!--SR:!2025-10-30,149,422!2025-10-26,145,422-->
@@ -454,7 +454,7 @@ The content is in teaching order.
     - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2025-10-22,141,422!2025-11-01,151,422-->
   - bebop / characteristics
     - bebop / characteristics / harmonic improvisation ::@:: Melody is created from harmony instead of the other way around. Before, improvisation was generalized and not specific to harmony. Now, number of possible melody is larger, adding variety, creating extensions and/or tensions. <!--SR:!2025-10-23,142,422!2025-10-23,142,422-->
-    - bebop / characteristics / new rhythm ::@:: lots of variety, sophisticated rhythm approach, surprising the audience <!--SR:!2025-10-29,148,422!2025-10-21,140,422-->
+    - bebop / characteristics / new rhythm ::@:: lots of variety, sophisticated rhythm approach, surprising the audience <!--SR:!2025-10-29,148,422!2027-06-03,590,422-->
     - bebop / characteristics / virtuosity ::@:: greater emphasis on _individual_ solos, more _personal_, virtuosity of jazz musicians increased; more works came out during this period <!--SR:!2027-05-22,580,422!2025-10-22,141,422-->
 - assignment: read "When Bebop was Born"
 - assignment \(attendance\): [Birth of Bebop](questions/index.md#Birth%20of%20Bebop)
@@ -489,7 +489,7 @@ The content is in teaching order.
 - datetime: 2025-03-19T08:30:00-05:00/2025-03-19T09:50:00-05:00, PT1H20M
   - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00, PT1H20M
 - [Thelonious Monk](../../../../general/Thelonious%20Monk.md) \(1917–1982\) ::@:: American composer and pianist, with very distinctive, unique, and unusual style <!--SR:!2025-11-01,151,422!2027-12-17,790,442-->
-  - Thelonious Monk / uniqueness ::@:: schizophrenia; strange personality reflected in the music: crazy, demented <!--SR:!2025-10-21,140,422!2025-10-30,149,422-->
+  - Thelonious Monk / uniqueness ::@:: schizophrenia; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2025-10-30,149,422-->
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2025-10-28,147,422!2025-10-31,150,422-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2025-10-26,145,422!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
@@ -526,8 +526,8 @@ The content is in teaching order.
 
 - datetime: 2025-03-26T08:30:00-05:00/2025-03-26T09:50:00-05:00, PT1H20M
   - local: 2025-03-26T21:30:00+08:00/2025-03-26T22:50:00+08:00, PT1H20M
-- [bossa nova](../../../../general/bossa%20nova.md) ::@:: It is a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil. <p> United States people went crazy for this music, so they still study it in jazz education to this day. <!--SR:!2025-10-21,140,422!2025-10-26,145,422-->
-  - bossa nova / characteristics ::@:: "swaying" motion; swinging eighth notes; lyrical themes include women, love, longing, homesickness, and nature <!--SR:!2025-10-21,140,422!2025-10-24,143,422-->
+- [bossa nova](../../../../general/bossa%20nova.md) ::@:: It is a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil. <p> United States people went crazy for this music, so they still study it in jazz education to this day. <!--SR:!2027-06-04,591,422!2025-10-26,145,422-->
+  - bossa nova / characteristics ::@:: "swaying" motion; swinging eighth notes; lyrical themes include women, love, longing, homesickness, and nature <!--SR:!2028-01-10,811,442!2025-10-24,143,422-->
   - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist <!--SR:!2027-03-30,562,422!2025-10-28,147,422-->
 - [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2025-10-23,142,422!2025-10-31,150,422-->
   - Antônio Carlos Jobim / effects ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century. <!--SR:!2027-12-01,777,442!2027-04-15,576,422-->
@@ -545,10 +545,10 @@ The content is in teaching order.
 - quiz: [quiz 3](questions/quiz%203.md)
 - [hard bop](../../../../general/hard%20bop.md) ::@:: It is a subgenre of jazz that is an extension of bebop (or "bop") music. Journalists and record companies began using the term in the mid-1950s to describe a new current within jazz that incorporated influences from rhythm and blues, gospel music, and blues, especially in saxophone and piano playing. <!--SR:!2027-05-20,578,422!2025-10-30,149,422-->
   - hard bop / characteristics ::@:: blues scale, call and response, driving 2 and 4 hits, pedal points, the "shuffle", suspended chords <!--SR:!2027-12-13,786,442!2025-10-30,149,422-->
-    - hard bop / characteristics / the "shuffle" ::@:: swinging drum groove from the United States Midwest; also called heartbeat of the blues <!--SR:!2025-10-21,140,422!2025-10-25,144,422-->
+    - hard bop / characteristics / the "shuffle" ::@:: swinging drum groove from the United States Midwest; also called heartbeat of the blues <!--SR:!2028-01-05,806,442!2025-10-25,144,422-->
   - hard bop / motivation ::@:: a type of hot jazz, created as a reaction to cool jazz by musicians not liking it; not intended for dancing but danceable <!--SR:!2025-10-31,150,422!2025-10-31,150,422-->
   - hard bop / characteristics
-    - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles <!--SR:!2025-10-26,145,422!2025-10-21,140,422-->
+    - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles <!--SR:!2025-10-26,145,422!2026-01-01,72,402-->
   - hard bop / vs. cool jazz ::@:: Cool jazz is more classical and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians. <!--SR:!2025-10-26,145,422!2025-10-24,143,422-->
 - [rhythm and blues](../../../../general/rhythm%20and%20blues.md) \(R&B\) ::@:: It is a genre of popular music that originated within Black American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to African Americans, at a time when "rocking, jazz based music ... \[with a\] heavy, insistent beat" was starting to become more popular. <!--SR:!2025-10-22,141,422!2025-10-26,145,422-->
   - rhythm and blues / influences ::@:: African American styles, blues, gospel, jazz <!--SR:!2027-12-10,784,442!2025-11-01,151,422-->
@@ -556,7 +556,7 @@ The content is in teaching order.
 - hard bop
   - hard bop / musicians ::@:: Art Blakely, Clifford Brown, Miles Davis, Lee Morgan, Max Roach, Horace Silver <!--SR:!2025-10-26,145,422!2027-12-13,787,442-->
 - [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-10-31,150,422!2027-12-12,786,442-->
-- [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2025-10-27,146,422!2025-10-21,140,422-->
+- [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2025-10-27,146,422!2028-01-09,810,442-->
   - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2025-10-24,143,422!2025-10-28,147,422-->
 - [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2025-10-23,142,422!2027-05-05,567,422-->
   - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2025-10-24,143,422!2025-10-27,146,422-->
@@ -611,8 +611,8 @@ The content is in teaching order.
     - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exciting to listen to. <!--SR:!2025-10-25,144,422!2025-10-25,144,422-->
     - Miles Davis Quintet / Second Great Quintet / Ron Carter ::@:: On bass. His bass lines are clear and strong. He could manipulate the harmony along with Herbie. He allowed other musicians to stretch without worrying about the bass. <!--SR:!2025-10-24,143,422!2027-04-21,581,422-->
     - Miles Davis Quintet / Second Great Quintet / Wayne Shorter ::@:: On tensor saxophone. He was a melodic and searching improviser. He was also a talented composer, and composed the majority of the original music, which are modern and unique. <!--SR:!2025-10-30,149,422!2027-03-02,560,422-->
-    - Miles Davis Quintet / Second Great Quintet / Herbie Hancock ::@:: On piano. New harmonies. <!--SR:!2027-11-29,775,442!2025-10-21,140,422-->
-    - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz. <!--SR:!2025-10-21,140,422!2027-05-14,574,422-->
+    - Miles Davis Quintet / Second Great Quintet / Herbie Hancock ::@:: On piano. New harmonies. <!--SR:!2027-11-29,775,442!2027-06-02,589,422-->
+    - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz. <!--SR:!2028-01-06,807,442!2027-05-14,574,422-->
 - Miles Davis
   - Miles Davis / genres
     - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then he died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2027-03-03,561,422!2027-05-13,573,422-->
