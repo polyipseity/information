@@ -17,7 +17,7 @@ In {@{[number theory](number%20theory.md), a branch of [mathematics](mathematics
 
 The Carmichael function is named after {@{the American mathematician [Robert Carmichael](Robert%20Daniel%20Carmichael.md) who defined it in 1910}@}.<sup>[\[1\]](#^ref-1)</sup> It is also known as {@{__Carmichael's λ function__, the __reduced totient function__, and the __least universal exponent function__}@}. <!--SR:!2026-12-20,532,310!2027-07-06,652,321-->
 
-{@{The order of the multiplicative group of integers modulo _n_}@} is {@{_φ_\(_n_\), where _φ_ is [Euler's totient function](Euler's%20totient%20function.md)}@}. Since {@{the order of an element of a finite group divides the order of the group}@}, {@{_λ_\(_n_\) divides _φ_\(_n_\)}@}. The following table compares the first 36 values of _λ_\(_n_\) \(sequence {@{[A002322](https://oeis.org/A002322)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) and _φ_\(_n_\) \(in __bold__ if they are different; the _n_<!-- markdown separator -->s such that they are different are listed in [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md): [A033949](https://oeis.org/A033949)\). <!--SR:!2028-03-08,901,341!2026-02-17,328,341!2026-01-04,294,341!2026-02-16,327,341!2025-10-20,143,201-->
+{@{The order of the multiplicative group of integers modulo _n_}@} is {@{_φ_\(_n_\), where _φ_ is [Euler's totient function](Euler's%20totient%20function.md)}@}. Since {@{the order of an element of a finite group divides the order of the group}@}, {@{_λ_\(_n_\) divides _φ_\(_n_\)}@}. The following table compares the first 36 values of _λ_\(_n_\) \(sequence {@{[A002322](https://oeis.org/A002322)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) and _φ_\(_n_\) \(in __bold__ if they are different; the _n_<!-- markdown separator -->s such that they are different are listed in [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md): [A033949](https://oeis.org/A033949)\). <!--SR:!2028-03-08,901,341!2026-02-17,328,341!2026-01-04,294,341!2026-02-16,327,341!2026-12-11,417,221-->
 
 | _n_            | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8     | 9 | 10 | 11 | 12    | 13 | 14 | 15    | 16    | 17 | 18 | 19 | 20    | 21     | 22 | 23 | 24    | 25 | 26 | 27 | 28     | 29 | 30    | 31 | 32     | 33     | 34 | 35     | 36     |
 | -------------- | - | - | - | - | - | - | - | ----- | - | -- | -- | ----- | -- | -- | ----- | ----- | -- | -- | -- | ----- | ------ | -- | -- | ----- | -- | -- | -- | ------ | -- | ----- | -- | ------ | ------ | -- | ------ | ------ |
@@ -136,7 +136,7 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-02-03,127,170!2026-06-09,243,201!2025-10-20,196,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-02-03,127,170!2026-06-09,243,201!2027-04-24,551,281-->
 
 ### minimal order
 

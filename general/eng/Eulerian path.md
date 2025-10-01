@@ -155,7 +155,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 >
 > {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}. <!--SR:!2026-04-06,396,362!2026-03-07,371,362!2027-12-25,856,342!2026-03-20,382,362-->
 
-{@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-10-20,255,342!2025-10-30,263,342!2026-01-27,337,350!2026-03-26,387,362-->
+{@{All [mixed graphs](mixed%20graph.md) that are both even and symmetric}@} are {@{guaranteed to be Eulerian}@}. However, {@{this is not a necessary condition}@}, as {@{it is possible to construct a non-symmetric, even graph that is Eulerian}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-02-01,1200,362!2025-10-30,263,342!2026-01-27,337,350!2026-03-26,387,362-->
 
 {@{Ford and Fulkerson proved in 1962}@} in {@{their book _Flows in Networks_}@} {@{a necessary and sufficient condition for a graph to be Eulerian}@}, viz., that {@{every vertex must be even and satisfy the balance condition}@}, i.e. for {@{every subset of vertices S}@}, {@{the difference between the number of arcs leaving S and entering S must be less than or equal to the number of (non-arc) edges incident with S}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-07-18,444,322!2026-03-06,370,362!2026-04-01,392,362!2028-07-23,1036,350!2025-12-12,298,332!2026-08-05,460,322-->
 

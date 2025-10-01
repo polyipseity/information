@@ -19,7 +19,7 @@ It is generally assumed that {@{demand curves slope down}@}, as shown in the adj
 
 Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy}@}, also known as {@{[market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2028-09-10,1081,350!2027-10-26,817,330!2028-08-20,1064,350!2027-10-22,765,330!2028-11-09,1129,350!2026-12-09,552,310!2026-02-14,125,391-->
 
-{@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2025-10-20,257,330!2028-12-30,1168,350-->
+{@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2029-01-07,1175,350!2028-12-30,1168,350-->
 
 {@{__Shift of the demand curve__ [as a whole](#shift%20of%20a%20demand%20curve) occurs}@} when {@{a factor other than price causes the price curve itself to [translate](translation%20(geometry).md) along the x-axis}@}; this may be associated with {@{an advertising campaign or perceived change in the quality of the good}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-12-05,294,330!2028-10-14,1108,350!2025-11-08,272,330-->
 

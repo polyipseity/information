@@ -9,7 +9,7 @@ tags:
 
 # zodiac
 
-The __zodiac__ is {@{a belt-shaped region of the sky that extends approximately 8° [north](north.md) and [south](south.md) (as measured in celestial [latitude](latitude.md))}@} of {@{the [ecliptic](ecliptic.md), the apparent path of the [Sun](Sun.md) across the [celestial sphere](celestial%20sphere.md) over the course of the year}@}. <!--SR:!2028-08-18,1124,310!2025-10-20,69,316-->
+The __zodiac__ is {@{a belt-shaped region of the sky that extends approximately 8° [north](north.md) and [south](south.md) (as measured in celestial [latitude](latitude.md))}@} of {@{the [ecliptic](ecliptic.md), the apparent path of the [Sun](Sun.md) across the [celestial sphere](celestial%20sphere.md) over the course of the year}@}. <!--SR:!2028-08-18,1124,310!2026-05-23,215,316-->
 
 ## references
 

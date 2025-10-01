@@ -42,7 +42,7 @@ A set $S$ is {@{_countably [infinite](infinite%20set.md)_}@} if: <!--SR:!2025-12
 - countably infinite, mapping ::@:: $S$ has a [one-to-one correspondence](bijection.md) with $\mathbb {N}$.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-12-14,275,330!2025-12-10,272,330-->
 - countably infinite, sequence ::@:: The elements of $S$ can be arranged in an infinite sequence $a_{0},a_{1},a_{2},\ldots$, where $a_{i}$ is distinct from $a_{j}$ for $i\neq j$ and every element of $S$ is listed.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup> <!--SR:!2027-08-28,736,330!2025-12-25,283,330-->
 
-A set is {@{_[uncountable](uncountable%20set.md)_ if it is not countable}@}, i.e. {@{its cardinality is greater than $\aleph _{0}$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-10-20,230,330!2025-11-29,263,330-->
+A set is {@{_[uncountable](uncountable%20set.md)_ if it is not countable}@}, i.e. {@{its cardinality is greater than $\aleph _{0}$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-08-31,1046,350!2025-11-29,263,330-->
 
 ## history
 

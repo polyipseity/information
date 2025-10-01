@@ -73,7 +73,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2027-05-12,648,325!2026-03-01,338,345-->
 2. The nimber square of a Fermat 2-power _x_ \(annotation: numbers of the form 2<sup>2<sup>_n_</sup></sup>\) ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-11-12,176,245!2027-01-15,516,313-->
 
-{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-15,327,345!2027-10-14,770,330!2025-10-20,197,270-->
+{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-15,327,345!2027-10-14,770,330!2027-11-02,743,290-->
 
 > [!tip] tips
 >
@@ -102,7 +102,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2027-01-14,551,310!2025-10-20,229,330!2026-04-26,210,185-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2027-01-14,551,310!2028-08-27,1042,350!2026-04-26,210,185-->
 
 <!-- markdownlint MD028 -->
 

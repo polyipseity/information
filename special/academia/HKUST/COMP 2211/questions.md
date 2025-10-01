@@ -1043,7 +1043,7 @@ tags:
 
 > Q11. Given a MLP with all weights and biases set to 0 and all activation functions set to the sigmoid function, find its output.
 >
-> - solution: {@{0.5}@} <!--SR:!2025-10-20,229,330-->
+> - solution: {@{0.5}@} <!--SR:!2028-08-25,1040,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1356,7 +1356,7 @@ tags:
 > 4. justice
 > 5. explicability
 >
-> - solution: {@{1, 3, 1, 5, 4, 2, 1}@} <!--SR:!2025-10-20,78,250-->
+> - solution: {@{1, 3, 1, 5, 4, 2, 1}@} <!--SR:!2025-11-28,39,230-->
 
 <!-- markdownlint MD028 -->
 

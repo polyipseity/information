@@ -355,7 +355,7 @@ The content is in teaching order.
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
 - accuracy ::@:: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2028-09-28,1222,377!2028-12-15,1273,377-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
-- F-measure ::@:: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2025-10-20,368,377!2029-12-24,1615,397-->
+- F-measure ::@:: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2030-12-31,1898,397!2029-12-24,1615,397-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
 - [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
@@ -421,7 +421,7 @@ The content is in teaching order.
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
   - [§ normalization](../../../../general/HITS%20algorithm.md#normalization)
-    - HITS algorithm normalization ::@:: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2029-07-18,1488,397!2025-10-20,368,377-->
+    - HITS algorithm normalization ::@:: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2029-07-18,1488,397!2031-01-01,1899,397-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::@:: Self-links are considered. <!--SR:!2026-10-13,690,408!2026-07-28,627,408-->

@@ -80,7 +80,7 @@ NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [
 
 {@{The 1D array creation functions}@} e.g. {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace") and [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} generally {@{need at least two inputs, `start` and `stop`}@}. <!--SR:!2025-10-28,277,330!2025-11-05,284,330!2026-01-24,353,350-->
 
-{@{[`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} creates {@{arrays with regularly incrementing values}@}. Check the documentation for complete information and examples. A few examples are shown: <!--SR:!2025-10-20,271,330!2025-10-22,273,330-->
+{@{[`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} creates {@{arrays with regularly incrementing values}@}. Check the documentation for complete information and examples. A few examples are shown: <!--SR:!2029-03-06,1233,350!2025-10-22,273,330-->
 
 ```Python
 >>> import numpy as np
@@ -92,7 +92,7 @@ array([2., 3., 4., 5., 6., 7., 8., 9.])
 array([2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9])
 ```
 
-Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2026-01-01,333,350!2025-10-20,272,330!2026-01-16,346,350!2025-10-30,279,330!2025-10-20,272,330!2025-11-01,280,330!2025-12-24,326,350-->
+Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2026-01-01,333,350!2029-03-13,1240,350!2026-01-16,346,350!2025-10-30,279,330!2029-03-15,1242,350!2025-11-01,280,330!2025-12-24,326,350-->
 
 {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-10-24,275,330!2025-11-09,287,330!2025-12-21,323,350-->
 
@@ -106,7 +106,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 ### 2D array creation functions
 
-{@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-10-29,278,330!2027-11-18,837,330!2025-10-20,270,330-->
+{@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-10-29,278,330!2027-11-18,837,330!2029-03-07,1234,350-->
 
 {@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2029-02-10,1214,350!2025-10-22,273,330!2026-01-07,339,350-->
 
@@ -164,7 +164,7 @@ array([[ 1,  1,  1,  1],
 
 ### general ndarray creation functions
 
-{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension}@} by specifying {@{how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2026-01-11,342,350!2029-01-13,1192,350!2027-04-29,623,310!2026-01-15,125,398-->
+{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension}@} by specifying {@{how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2029-03-14,1241,350!2026-01-11,342,350!2029-01-13,1192,350!2027-04-29,623,310!2026-01-15,125,398-->
 
 {@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-11-13,291,330!2026-01-17,347,350!2029-03-07,1236,350-->
 

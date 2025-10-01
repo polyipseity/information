@@ -61,7 +61,7 @@ return await memorize_table(
 - GHS04: [compressed gas](compressed%20fluid.md)→::@::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2029-02-28,1357,270!2029-02-13,1369,310-->
 - GHS05: [corrosive](corrosive%20substance.md)→::@::←GHS06: [toxic](toxicity.md) <!--SR:!2030-10-14,1921,310!2027-12-23,1164,290-->
 - GHS06: [toxic](toxicity.md)→::@::←GHS07: harmful <!--SR:!2025-10-30,662,310!2027-04-26,959,290-->
-- GHS07: harmful→::@::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2025-10-20,641,310!2027-09-08,1149,290-->
+- GHS07: harmful→::@::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2033-05-01,2750,330!2027-09-08,1149,290-->
 - GHS08: [health hazard](health%20hazard.md)→::@::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2026-12-10,969,330!2025-10-21,656,310-->
 - GHS09: [environmental hazard](environmental%20hazard.md)→::@::←_(end)_ <!--SR:!2028-03-08,1402,350!2028-01-13,1361,350-->
 

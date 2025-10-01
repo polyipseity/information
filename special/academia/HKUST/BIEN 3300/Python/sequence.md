@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290!2025-10-25,15,290!2025-10-20,10,270!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
+Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290!2025-10-25,15,290!2025-11-28,39,290!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
 
 ```Python
 original = [1, 2, 3]

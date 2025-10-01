@@ -25,7 +25,7 @@ Complementarity may be driven by {@{[psychological processes](psychology.md) in 
 
 > {@{![Supply and demand of cars when the price of petrol decreases](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
-> {@{Supply and demand of cars when the price of petrol decreases}@} <!--SR:!2025-10-20,260,330!2028-12-29,1172,350-->
+> {@{Supply and demand of cars when the price of petrol decreases}@} <!--SR:!2029-01-15,1183,350!2028-12-29,1172,350-->
 
 An example of this would be {@{the demand for [cars](car.md) and [petrol](gasoline.md)}@}. The [supply and demand](supply%20and%20demand.md) for cars is represented by {@{the figure, with the initial demand $D_{1}$}@}. Suppose that the initial price of cars is represented by {@{$P_{1}$ with a quantity demanded of $Q_{1}$}@}. If {@{the price of petrol were to decrease by some amount}@}, this would result in {@{a higher quantity of cars demanded}@}. This higher quantity demanded would {@{cause the demand curve to [shift rightward](demand%20curve.md#shift%20of%20a%20demand%20curve) to a new position $D_{2}$}@}. Assuming {@{a constant supply curve $S$ of cars}@}, {@{the new increased quantity demanded will be at $Q_{2}$ with a new increased price $P_{2}$}@}. Other examples include {@{automobiles and fuel, mobile phones and cellular service, printer and cartridge, among others}@}. <!--SR:!2028-09-19,1093,350!2025-11-13,280,330!2025-10-26,265,330!2025-11-23,289,330!2025-11-22,288,330!2028-12-20,1164,350!2028-10-09,1108,350!2025-11-28,293,330!2025-11-18,285,330-->
 

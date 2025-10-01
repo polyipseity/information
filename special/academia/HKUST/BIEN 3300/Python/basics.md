@@ -226,7 +226,7 @@ variableName = 1 + 2
 
 One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2025-10-24,14,290-->
 
-Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2025-10-20,10,270!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
+Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2025-11-26,37,290!2025-10-27,17,309!2025-10-27,17,309!2025-10-27,17,309-->
 
 ### augmented assignment
 

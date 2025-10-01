@@ -37,9 +37,9 @@ The cheatsheet is provided during the final examination.
 
 ## arithmetic operators
 
-- `+` ::@:: addition <!--SR:!2029-04-16,1278,350!2025-10-20,282,330-->
+- `+` ::@:: addition <!--SR:!2029-04-16,1278,350!2029-04-29,1287,350-->
 - `-` ::@:: subtraction <!--SR:!2029-04-04,1268,350!2029-03-14,1252,350-->
-- `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2025-10-20,282,330-->
+- `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2029-04-25,1283,350-->
 - `**` ::@:: to the power of <!--SR:!2029-04-05,1269,350!2025-10-25,287,330-->
 - `/` ::@:: division <!--SR:!2029-02-09,1225,350!2025-10-21,282,330-->
 - `//` ::@:: floor division <!--SR:!2029-03-11,1248,350!2029-03-15,1253,350-->
@@ -58,7 +58,7 @@ The cheatsheet is provided during the final examination.
 - `math.sqrt()` ::@:: square root of <!--SR:!2029-04-21,1280,350!2029-01-22,1210,350-->
 - `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2029-03-15,1251,350-->
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
-- `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2025-10-20,281,330-->
+- `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2029-04-22,1280,350-->
 - `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
 - `str()` ::@:: convert input to str <!--SR:!2025-10-21,283,330!2025-10-28,290,330-->
 
@@ -108,8 +108,8 @@ else:
 
 ## loop
 
-- keywords ::@:: `for ... in ...: ...`, `while True: ...` <!--SR:!2025-10-20,281,330!2029-01-21,1209,350-->
-- `break` ::@:: terminate a loop <!--SR:!2029-01-29,1217,350!2025-10-20,282,330-->
+- keywords ::@:: `for ... in ...: ...`, `while True: ...` <!--SR:!2029-04-23,1281,350!2029-01-21,1209,350-->
+- `break` ::@:: terminate a loop <!--SR:!2029-01-29,1217,350!2029-04-24,1282,350-->
 
 ```Python
 for <variable> in <iterable>:

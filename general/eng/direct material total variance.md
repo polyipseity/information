@@ -20,7 +20,7 @@ In {@{[variance analysis \(accounting\)](variance%20analysis%20(accounting).md)}
 
 ## example
 
-Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2025-10-21,61,310!2025-10-20,60,310!2025-10-20,60,310!2026-06-19,246,330-->
+Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2025-10-21,61,310!2026-07-09,262,330!2026-07-06,259,330!2026-06-19,246,330-->
 
 Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!2026-06-06,236,330!2026-07-03,257,330-->
 
@@ -38,7 +38,7 @@ Direct material total variance can be reconciled to {@{[direct material price va
 | ------------------------------------ | --- | --------------------------: | ----------- |
 | {@{Direct material usage variance}@} |     |                 {@{€ 720}@} | {@{\(A\)}@} |
 | {@{Direct material price variance}@} |     |          {@{<u>€ 424</u>}@} | {@{\(A\)}@} |
-| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2026-06-25,251,330!2025-10-21,61,310!2025-10-28,67,310!2026-05-28,227,330!2025-10-20,60,310!2025-10-28,67,310!2026-06-26,252,330!2026-06-29,255,330!2025-10-28,67,310-->
+| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2026-06-25,251,330!2025-10-21,61,310!2025-10-28,67,310!2026-05-28,227,330!2026-07-10,263,330!2025-10-28,67,310!2026-06-26,252,330!2026-06-29,255,330!2025-10-28,67,310-->
 
 See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2025-10-28,67,310!2026-06-08,237,330-->
 

@@ -21,7 +21,7 @@ Because of {@{their [semantics](semantics%20of%20logic.md), i.e. the way they ar
 
 Alternatively, if {@{disjunction is taken as primitive}@}, then conjunction can be defined as follows:<sup>[\[1\]](#^ref-1)</sup><sup>[\[9\]](#^ref-9)</sup><sup>[\[8\]](#^ref-8)</sup> {@{$$\varphi \land \psi :\equiv \neg (\neg \varphi \lor \neg \psi ) \qquad (2)$$}@}. <!--SR:!2029-01-29,1245,350!2029-05-10,1324,350-->
 
-Also, each of these equivalences can be {@{derived from the other one}@}; for example, if {@{(1) is taken as primitive}@}, then (2) is obtained as follows:<sup>[\[1\]](#^ref-1)</sup> {@{$$\neg (\neg \varphi \lor \neg \psi )\equiv \neg \neg (\neg \neg \varphi \land \neg \neg \psi )\equiv \varphi \land \psi \qquad (3)$$}@}. <!--SR:!2025-10-20,312,330!2027-02-11,675,330!2029-06-24,1360,350-->
+Also, each of these equivalences can be {@{derived from the other one}@}; for example, if {@{(1) is taken as primitive}@}, then (2) is obtained as follows:<sup>[\[1\]](#^ref-1)</sup> {@{$$\neg (\neg \varphi \lor \neg \psi )\equiv \neg \neg (\neg \neg \varphi \land \neg \neg \psi )\equiv \varphi \land \psi \qquad (3)$$}@}. <!--SR:!2029-09-09,1420,350!2027-02-11,675,330!2029-06-24,1360,350-->
 
 ### functional completeness
 

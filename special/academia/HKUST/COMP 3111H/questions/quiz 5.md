@@ -25,7 +25,7 @@ tags:
 
 ## hints
 
-1. agile software development / principles ::@:: emphasized: client involvement, individuals and interactions, responsive to change, working software <br/> deemphasized: comprehensive docs, contract negotiation, plan following, processes and tools <!--SR:!2025-10-20,10,270!2025-10-26,16,290-->
+1. agile software development / principles ::@:: emphasized: client involvement, individuals and interactions, responsive to change, working software <br/> deemphasized: comprehensive docs, contract negotiation, plan following, processes and tools <!--SR:!2025-11-27,38,290!2025-10-26,16,290-->
 2. software development process / risk assessment ::@:: spiral: The only process to explicitly integrate risk analysis. <!--SR:!2025-10-24,14,290!2025-10-25,15,290-->
 3. waterfall model / advantages ::@:: discipline \(formality, rigor\), docs are approved and standardized, easy and predictable development, suitable as well for non-software engineering processes \(e.g. hardware development\) <!--SR:!2025-10-25,15,290!2025-10-26,16,290-->
 4. software release life cycle / incremental and iterative <!-- flashcard ID: 02e8632e-902b-4731-9267-dee6770db31a -->::@:: Releases can be incremental or iterative or both. Often both are used in practice. <p> incremental: Separate functions of a system are implemented one-by-one \(partial system\). If used alone, each function is fully implemented at once \(full functionality\). <br/> iterative: Functions are implemented and refined over time \(partial functionality\). If used alone, all functions begin implementation at once \(full system\). <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->

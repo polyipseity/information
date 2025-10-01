@@ -47,7 +47,7 @@ The cokernel can be thought of as {@{the space of _constraints_ that an equation
 
 Formally, one may {@{connect the kernel and the cokernel of a map _T_: _V_ → _W_}@} by {@{the [exact sequence](exact%20sequence.md) $$0\to \ker T\to V{\overset {T}{\longrightarrow } }W\to \operatorname {coker} T\to 0.$$}@} These can be interpreted thus: given {@{a linear equation _T_\(_v_\) = _w_ to solve}@}, <!--SR:!2026-01-14,266,330!2025-12-28,212,270!2026-02-09,286,330-->
 
-- the kernel ::@:: is the space of _solutions_ to the _homogeneous_ equation _T_\(_v_\) = 0, and its dimension is the number of _degrees of freedom_ in solutions to _T_\(_v_\) = _w_, if they exist; <!--SR:!2026-01-25,275,330!2025-10-20,192,310-->
+- the kernel ::@:: is the space of _solutions_ to the _homogeneous_ equation _T_\(_v_\) = 0, and its dimension is the number of _degrees of freedom_ in solutions to _T_\(_v_\) = _w_, if they exist; <!--SR:!2026-01-25,275,330!2027-06-07,595,310-->
 - the cokernel ::@:: is the space of _constraints_ on _w_ that must be satisfied if the equation is to have a solution, and its dimension is the number of independent constraints that must be satisfied for the equation to have a solution. <!--SR:!2027-07-19,685,330!2025-12-05,234,330-->
 
 {@{The dimension of the cokernel plus the dimension of the image \(the rank\)}@} {@{add up to the dimension of the target space}@}, as {@{the dimension of the quotient space _W_ / _T_\(_V_\)}@} is {@{simply the dimension of the space _minus_ the dimension of the image}@}. <!--SR:!2027-05-12,631,330!2025-12-17,244,330!2028-01-03,810,330!2027-07-07,674,330-->

@@ -56,7 +56,7 @@ The content is in teaching order.
 - course logistics
 - [management accounting](../../../../general/management%20accounting.md)
   - management accounting / purpose ::@:: decision-making orientation: provide useful information to internal managers for making decisions <!--SR:!2026-02-12,285,330!2026-02-20,293,330-->
-  - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2025-11-27,208,310!2025-10-20,190,310-->
+  - management accounting / vs. financial accounting ::@:: audience, detail level, information nature, report frequency, report types <!--SR:!2025-11-27,208,310!2028-01-20,822,330-->
     - management accounting / vs. financial accounting / audience ::@:: internal parties, e.g. managers, employees (sometimes); external parties, e.g. creditors, investors, regulators <!--SR:!2026-02-09,282,330!2025-11-22,203,310-->
     - management accounting / vs. financial accounting / detail level ::@:: decision-making level; whole-company level <!--SR:!2026-02-18,291,330!2026-02-13,286,330-->
     - management accounting / vs. financial accounting / information nature ::@:: future oriented, relevant, subjective; historical, objective, reliable <!--SR:!2028-01-08,811,330!2025-10-21,191,310-->
