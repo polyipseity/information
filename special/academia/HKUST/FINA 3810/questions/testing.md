@@ -15,6 +15,7 @@ tags:
 
 ---
 
+- title: testing
 - type: quiz
 - due: no due date
 - points: 1

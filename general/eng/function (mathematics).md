@@ -485,13 +485,13 @@ In {@{[computer programming](computer%20programming.md)}@}, a [function](functio
 
 Except for {@{computer-language terminology}@}, "function" has {@{the usual mathematical meaning in [computer science](computer%20science.md)}@}. In this area, {@{a property of major interest}@} is {@{the [computability](computable%20function.md) of a function}@}. For {@{giving a precise meaning to this concept}@}, and to {@{the related concept of [algorithm](algorithm.md)}@}, {@{several [models of computation](models%20of%20computation.md) have been introduced}@}, the old ones being {@{[general recursive functions](μ-recursive%20function.md), [lambda calculus](lambda%20calculus.md) and [Turing machine](Turing%20machine.md)}@}. {@{The fundamental theorem of [computability theory](computability%20theory.md)}@} is that {@{these three models of computation define the same set of computable functions}@}, and that {@{all the other models of computation that have ever been proposed}@} {@{define the same set of computable functions or a smaller one}@}. {@{The [Church–Turing thesis](Church–Turing%20thesis.md)}@} is {@{the claim that every philosophically acceptable definition of a _computable function_ defines also the same functions}@}. <!--SR:!2026-03-10,308,350!2026-01-31,276,330!2026-02-24,294,330!2026-05-10,353,350!2026-07-05,401,367!2026-04-23,336,350!2025-11-14,213,330!2027-12-19,812,350!2026-03-07,305,350!2026-03-15,313,350!2026-06-27,400,365!2027-12-27,819,350!2026-03-13,311,350!2025-12-26,247,330-->
 
-{@{General recursive functions}@} are {@{[partial functions](partial%20function.md) from integers to integers}@} that {@{can be defined from (annotation: 3 items: constant functions, successor, projection functions)}@} <!--SR:!2026-06-28,401,365!2026-06-17,390,365!2026-03-18,316,350-->
+{@{General recursive functions}@} are {@{[partial functions](partial%20function.md) from integers to integers}@} that {@{can be defined}@} from \(annotation: 3 items: {@{constant functions, successor, projection functions}@}\) <!--SR:!2026-06-28,401,365!2026-06-17,390,365!2026-03-18,316,350-->
 
 - [constant functions](constant%20function.md),
 - [successor](successor%20function.md), and
 - [projection](projection%20function.md) functions
 
-via {@{the operators (annotation: 3 items: composition, primitive recursion, minimization)}@} <!--SR:!2027-05-23,583,327-->
+\(annotation: {@{general recursive functions}@}\) via {@{the operators}@} \(annotation: 3 items: {@{composition, primitive recursion, minimization}@}\) <!--SR:!2027-05-23,583,327-->
 
 - [composition](#function%20composition),
 - [primitive recursion](primitive%20recursion.md), and

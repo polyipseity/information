@@ -489,7 +489,7 @@ The content is in teaching order.
 - datetime: 2025-03-19T08:30:00-05:00/2025-03-19T09:50:00-05:00, PT1H20M
   - local: 2025-03-19T21:30:00+08:00/2025-03-19T22:50:00+08:00, PT1H20M
 - [Thelonious Monk](../../../../general/Thelonious%20Monk.md) \(1917–1982\) ::@:: American composer and pianist, with very distinctive, unique, and unusual style <!--SR:!2025-11-01,151,422!2027-12-17,790,442-->
-  - Thelonious Monk / uniqueness ::@:: schizophrenia; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2025-10-30,149,422-->
+  - Thelonious Monk / uniqueness ::@:: schizophrenic; strange personality reflected in the music: crazy, demented <!--SR:!2028-01-07,808,442!2025-10-30,149,422-->
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2025-10-28,147,422!2025-10-31,150,422-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2025-10-26,145,422!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
@@ -615,7 +615,7 @@ The content is in teaching order.
     - Miles Davis Quintet / Second Great Quintet / free jazz ::@:: Often, they ignore the form or harmony during some parts of a song. This was somewhat extending into free jazz. <!--SR:!2028-01-06,807,442!2027-05-14,574,422-->
 - Miles Davis
   - Miles Davis / genres
-    - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then he died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2027-03-03,561,422!2027-05-13,573,422-->
+    - Miles Davis / genres / electric ::@:: In the late 1960s, he experimented with electric instruments. He was a huge Jimmy Hendrix fan and planned to make a recording with him but then Jimmy died. Apparently they had a secret recording? <p> "Bitches Brew" \(1970\) — Miles Davis <!--SR:!2027-03-03,561,422!2027-05-13,573,422-->
   - Miles Davis / retirement ::@:: He disappeared from the public from 1975 to 1980. He neither recorded nor toured. <!--SR:!2025-10-27,146,422!2025-10-29,148,422-->
   - Miles Davis / 1980s ::@:: The instructor had not idea how to quantify the music... Let's listen instead. <p> "Jean Pierre" \(1985\) — Miles Davis <!--SR:!2025-10-31,150,422!2027-02-25,555,422-->
   - Miles Davis / death ::@:: He died in 1991 from pneumonia. <!--SR:!2027-12-16,789,442!2025-10-29,148,422-->

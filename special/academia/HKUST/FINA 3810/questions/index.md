@@ -20,3 +20,6 @@ tags:
 ## children
 
 - [testing](testing.md)
+- [week 2 quiz](week%202%20quiz.md)
+- [week 3 quiz](week%203%20quiz.md)
+- [week 4 quiz](week%204%20quiz.md)

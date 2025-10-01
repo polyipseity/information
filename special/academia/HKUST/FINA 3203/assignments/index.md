@@ -15,3 +15,5 @@ tags:
 - HKUST FINA 3203
 
 ## children
+
+- [homework 1](homework%201/index.md)
