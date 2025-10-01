@@ -57,7 +57,7 @@ For some applications, the following variant may be useful.
 
 > __Corollary__ — <sup>[\[12\]](#^ref-12)</sup> Let {@{$P$ be a partially ordered set in which every chain has an upper bound and $a$ an element in $P$}@}. Then {@{there exists a maximal element $b$ in $P$ such that $b\geq a$}@}.
 
-Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$, an upper bound in $P$ is in $Q$ and so $Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}.
+Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$}@}, {@{an upper bound in $P$ is in $Q$}@} and so {@{$Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}.
 
 ## example applications
 

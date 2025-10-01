@@ -43,7 +43,7 @@ Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}:
 >
 > —&hairsp;Alfred Marshall, _Principles of Economics_ \(1895 ed.\)<sup>[\[3\]](#^ref-3)</sup>
 
-There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup>
+There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 3 items: {@{inferiority \(+sufficiency: income effect &gt; substitution effect\), un-substitutability, substantiality}@}\)
 
 1. the good in question ::@:: must be an [inferior good](inferior%20good.md),
 2. there must be a lack of ::@:: close [substitute goods](substitute%20good.md), and

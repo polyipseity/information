@@ -13,7 +13,7 @@ tags:
 
 > {@{![Each color corresponds to a biconnected component. Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components.](../../archives/Wikimedia%20Commons/Graph-Biconnected-Components.svg)}@}
 >
-> {@{Each color corresponds to a biconnected component}@}. {@{Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components}@}.
+> {@{Each color}@} corresponds to {@{a biconnected component}@}. {@{Multi-colored vertices}@} are {@{cut vertices, and thus belong to multiple biconnected components}@}.
 
 In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected component__ or __block__ \(sometimes known as a __2-connected component__\)}@} is {@{a maximal [biconnected](biconnected%20graph.md) [subgraph](glossary%20of%20graph%20theory.md#subgraphs)}@}. {@{Any [connected graph](connectivity%20(graph%20theory).md#connected%20graph)}@} {@{decomposes into a [tree](tree%20(graph%20theory).md) of biconnected components called the __block-cut tree__ of the graph}@}. The blocks are {@{attached to each other at shared [vertices](vertex%20(graph%20theory).md)}@} called {@{__cut vertices__ or __separating vertices__ or __articulation points__}@}. Specifically, a __cut vertex__ is {@{any vertex whose removal increases the number of [connected components](component%20(graph%20theory).md)}@}.<sup>[\[1\]](#^ref-1)</sup> {@{A block containing at most one cut vertex}@} is called {@{a __leaf block__}@}, it corresponds to {@{a [leaf vertex](vertex%20(graph%20theory).md#types%20of%20vertices) in the block-cut tree}@}.
 
