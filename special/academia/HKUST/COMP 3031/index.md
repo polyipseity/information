@@ -173,7 +173,44 @@ The content is in teaching order.
 ## week 2 lecture
 
 - datetime: 2025-09-09T12:00:00+08:00/2025-09-09T13:20:00+08:00, PT1H20M
-- topic:
+- topic: inheritance; objects; entry points; code organization; imports; traits; type system; exception handling; cons; type parameters; polymorphism; pure object-orientation
+- Scala
+  - Scala / Scala 3
+    - [§ abstract classes](Scala%203.md#abstract%20classes): abstract class, syntax
+    - [§ inheritance](Scala%203.md#inheritance): inheritance, class extension, terminology, `java.lang.Object`, implement, override
+    - [§ objects](Scala%203.md#objects): object, singleton, propereties, value semantics
+    - [§ companion objects](Scala%203.md#companion%20objects): companion object, properties, namespaces, visibility
+    - [§ entry points](Scala%203.md#entry%20points): entry point
+    - [§ traditional entry points](Scala%203.md#traditional%20entry%20points): entry point, traditional entry point, properties
+    - [§ annotated entry points](Scala%203.md#annotated%20entry%20points): entry point, annotated entry point, `@scala.annotation.main`, properties
+    - [§ dynamic binding](Scala%203.md#dynamic%20binding): dynamic binding, polymorphism, higher-order functions
+    - [§ code organization](Scala%203.md#code%20organization): code organization, packages, imports
+    - [§ packages](Scala%203.md#packages): packages
+    - [§ imports](Scala%203.md#imports): imports, forms
+    - [§ automatic imports](Scala%203.md#automatic%20imports): automatic imports
+    - [§ Scala documentation](Scala%203.md#Scala%20documentation): Scala documentation
+    - [§ traits](Scala%203.md#traits): trait
+    - [§ top types](Scala%203.md#top%20types): top types, `scala.Any`, `scala.AnyRef`, `scala.AnyVal`
+    - [§ nothing type](Scala%203.md#nothing%20type): nothing type, bottom type, `scala.Nothing`, abnormal termination, empty collections
+    - [§ exception handling](Scala%203.md#exception%20handling): exception, exception handling, type
+    - [§ type inference](Scala%203.md#type%20inference): type inference, least upper bound
+    - [§ cons](Scala%203.md#cons): cons, cons-lists, immutability, structural recursion
+    - [§ value parameters](Scala%203.md#value%20parameters): value parameters
+    - [§ type parameters](Scala%203.md#type%20parameters): type parameters, generic types, generic functions
+    - [§ generic types](Scala%203.md#generic%20types): generic types
+    - [§ generic functions](Scala%203.md#generic%20functions): generic functions
+    - [§ type inference in generics](Scala%203.md#type%20inference%20in%20generics): type inference in generics
+    - [§ type erasure](Scala%203.md#type%20erasure): type erasure
+- [polymorphism](../../../../general/polymorphism%20(computer%20science).md) ::@:: In programming language theory and type theory, it allows a value type to assume different types.
+  - polymorphism / examples ::@:: A function or type can operate over many different data kinds. <p> A single function can be applied to arguments of various types. A single type can have instances of many concrete classes.  
+  - polymorphism / types ::@:: The most commonly recognized major forms of polymorphism are: <p> - _Ad hoc polymorphism_: defines a common interface for an arbitrary set of individually specified types. <br/> - _Parametric polymorphism_: does not specify concrete types and instead uses abstract symbols that can substitute for any type. <br/> - _Subtyping_ (also called _subtype polymorphism_ or _inclusion polymorphism_): when a name denotes instances of many different classes related by a common superclass.
+    - polymorphism / types / subtyping ::@:: an instance of a subclass may be used wherever an instance of its superclass is expected, enabling _is‑a_ relationships.  
+    - polymorphism / types / parametric ::@:: functions or classes are defined with type parameters; concrete instances are created by supplying specific types, allowing the same code to work uniformly across all those types.
+- Scala
+  - Scala / Scala 3
+    - [§ pure object-orientation](Scala%203.md#pure%20object-orientation): pure object-orientation, standard classes, idealized `scala.Boolean`, `scala.Int`, idealized `scala.Int` using `Nat`
+    - [§ functions as objects](Scala%203.md#functions%20as%20objects): functions are objects, `scala.Function*`, anonymous function, function calls
+    - [§ methods to functions](Scala%203.md#methods%20to%20functions): methods, methods to functions
 
 ## week 2 lecture 2
 
