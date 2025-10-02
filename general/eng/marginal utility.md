@@ -55,7 +55,7 @@ As mentioned earlier in this article, there are instances where {@{marginal util
 
 ## marginalist theory
 
-{@{[Marginalism](marginalism.md)}@} is {@{an economic theory and method of analysis}@} that suggests that {@{individuals make economic decisions}@} by {@{weighing the benefits of consuming an additional unit of a good or service against the cost of acquiring it}@}. In other words, {@{value}@} is determined by {@{the additional utility of satisfaction provided by each extra unit consumed}@}. <!--SR:!2025-11-20,289,330!2028-03-06,872,330!2025-11-01,273,330-->
+{@{[Marginalism](marginalism.md)}@} is {@{an economic theory and method of analysis}@} that suggests that {@{individuals make economic decisions}@} by {@{weighing the benefits of consuming an additional unit of a good or service against the cost of acquiring it}@}. In other words, {@{value}@} is determined by {@{the additional utility of satisfaction provided by each extra unit consumed}@}. <!--SR:!2025-11-20,289,330!2028-03-06,872,330!2025-11-01,273,330!2025-10-07,5,354!2025-10-07,5,354!2025-10-07,5,354-->
 
 ### market price and diminishing marginal utility
 

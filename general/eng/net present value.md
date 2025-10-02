@@ -131,7 +131,7 @@ The NPV approach {@{does not consider hidden costs and project size}@}. Thus, {@
 
 #### relies on input parameters such as knowledge of future cash flows
 
-The NPV is {@{heavily dependent on knowledge of future cash flows, their timing}@}, {@{the length of a project, the initial investment required, and the discount rate}@}. Hence, it can {@{only be accurate if these input parameters are correct}@}; although, {@{sensitivity analyzes can be undertaken}@} to {@{examine how the NPV changes as the input variables are changed}@}, thus {@{reducing the uncertainty of the NPV}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-01-14,87,290!2026-07-07,400,365!2026-05-28,367,365!2026-07-03,396,365!2026-07-12,404,365-->
+The NPV is {@{heavily dependent on knowledge of future cash flows, their timing}@}, {@{the length of a project, the initial investment required, and the discount rate}@}. Hence, it can {@{only be accurate if these input parameters are correct}@}; although, {@{sensitivity analyzes can be undertaken}@} to {@{examine how the NPV changes as the input variables are changed}@}, thus {@{reducing the uncertainty of the NPV}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-01-14,87,290!2026-07-07,400,365!2026-05-28,367,365!2026-07-03,396,365!2026-07-12,404,365!2025-10-07,5,373-->
 
 #### relies on choice of discount rate and discount factor
 

@@ -10,7 +10,7 @@ tags:
 
 # reflection nebula
 
-In {@{[astronomy](astronomy.md)}@}, {@{__reflection nebulae__}@} are {@{[clouds](interstellar%20cloud.md) of [interstellar dust](cosmic%20dust.md) which might reflect the light of a nearby [star](star.md) or stars}@}. {@{The energy from the nearby stars}@} is {@{insufficient to [ionize](ionization.md) the gas of the nebula to create an [emission nebula](emission%20nebula.md)}@}, but is {@{enough to give sufficient [scattering](scattering.md) to make the dust visible}@}. Thus, {@{the [frequency spectrum](spectral%20density.md#explanation) shown}@} by reflection nebulae is {@{similar to that of the illuminating stars}@}. <!--SR:!2025-12-04,325,290!2028-03-04,871,290!2026-04-23,469,310-->
+In {@{[astronomy](astronomy.md)}@}, {@{__reflection nebulae__}@} are {@{[clouds](interstellar%20cloud.md) of [interstellar dust](cosmic%20dust.md) which might reflect the light of a nearby [star](star.md) or stars}@}. {@{The energy from the nearby stars}@} is {@{insufficient to [ionize](ionization.md) the gas of the nebula to create an [emission nebula](emission%20nebula.md)}@}, but is {@{enough to give sufficient [scattering](scattering.md) to make the dust visible}@}. Thus, {@{the [frequency spectrum](spectral%20density.md#explanation) shown}@} by reflection nebulae is {@{similar to that of the illuminating stars}@}. <!--SR:!2025-12-04,325,290!2028-03-04,871,290!2026-04-23,469,310!2025-10-06,4,284!2025-10-06,4,284!2025-10-06,4,284!2025-10-06,4,284!2025-10-06,4,284-->
 
 ## references
 

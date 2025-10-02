@@ -104,11 +104,11 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 - `resq <size>` ::@:: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2027-09-05,832,345!2026-01-12,391,365-->
 - `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-08-10,501,323!2029-09-12,1454,377-->
 
-Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`}@}, and make it {@{global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2026-04-22,447,323!2029-01-10,1179,365-->
+Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`}@}, and make it {@{global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2026-04-22,447,323!2029-01-10,1179,365!2025-10-07,5,377-->
 
 ### labels
 
-{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2026-02-07,412,365!2025-10-24,323,343!2026-02-02,408,365!2028-12-07,1144,357!2029-08-16,1419,363-->
+{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2026-02-07,412,365!2025-10-24,323,343!2026-02-02,408,365!2028-12-07,1144,357!2029-08-16,1419,363!2025-10-07,5,377!2025-10-07,5,377-->
 
 Label names are {@{global and unique across an assembly program, and appear in symbol tables of object files}@}. The assembler or linker will {@{transform them into constant addresses during assembly or linking}@}. The loader {@{(before execution of the program) may further modify those constant addresses}@}. <!--SR:!2028-04-06,1015,350!2029-10-13,1484,383!2025-11-27,355,365-->
 

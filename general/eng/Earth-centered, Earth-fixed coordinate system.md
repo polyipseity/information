@@ -10,7 +10,7 @@ tags:
 
 # Earth-centered, Earth-fixed coordinate system
 
-The {@{__Earth-centered, Earth-fixed coordinate system__}@} \(acronym {@{__ECEF__}@}\), also known as {@{the __geocentric coordinate system__}@}, is {@{a [cartesian](Cartesian%20coordinate%20system.md) [spatial reference system](spatial%20reference%20system.md) that represents locations near [Earth](Earth.md) \(including its [surface](geoid.md), interior, [atmosphere](atmosphere%20of%20Earth.md), and surrounding outer space\)}@} as {@{_X_, _Y_, and _Z_ measurements from its [center of mass](center%20of%20mass.md)}@}. <!--SR:!2029-02-25,1323,350!2028-11-25,1251,350!2026-08-23,597,330!2026-04-18,182,296-->
+The {@{__Earth-centered, Earth-fixed coordinate system__}@} \(acronym {@{__ECEF__}@}\), also known as {@{the __geocentric coordinate system__}@}, is {@{a [cartesian](Cartesian%20coordinate%20system.md) [spatial reference system](spatial%20reference%20system.md) that represents locations near [Earth](Earth.md) \(including its [surface](geoid.md), interior, [atmosphere](atmosphere%20of%20Earth.md), and surrounding outer space\)}@} as {@{_X_, _Y_, and _Z_ measurements from its [center of mass](center%20of%20mass.md)}@}. <!--SR:!2029-02-25,1323,350!2028-11-25,1251,350!2026-08-23,597,330!2026-04-18,182,296!2025-10-06,4,299-->
 
 ## references
 
