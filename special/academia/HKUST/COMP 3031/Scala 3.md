@@ -282,6 +282,150 @@ Scala's {@{constructor syntax}@} offers {@{a concise way to declare both __param
 
 {@{This shorthand}@} is a powerful feature for defining {@{simple data containers}@} such as {@{case classes or algebraic data types}@}, allowing developers to declare {@{immutable state in one concise expression}@}.
 
+### case classes
+
+In Scala {@{the idiomatic way to model heterogeneous data}@} is {@{through __case classes__}@}. {@{A case class definition}@} is identical to {@{a normal class}@} but is prefixed with the {@{keyword `case`}@}. For example:
+
+> [!example] __example__
+>
+> {@{A case class definition}@} is identical to {@{a normal class}@} but is prefixed with the {@{keyword `case`}@}. For example:
+>
+> ```Scala
+> abstract class Expr
+> case class Number(n: Int) extends Expr
+> case class Sum(e1: Expr, e2: Expr) extends Expr
+> ```
+
+Unlike {@{ordinary classes}@}, {@{case classes}@} automatically generate {@{structural equality, hash codes, and most importantly pattern‑matching support}@}. {@{The body of each case class}@} is {@{effectively empty}@}; {@{the constructor arguments}@} are treated as {@{immutable fields that can be extracted by patterns}@}.
+
+### enumerations
+
+{@{Pure data structures}@} are those that {@{carry information without any associated behaviour}@}; they exist solely to be {@{composed, decomposed, and examined by other parts of a program}@}. In Scala, {@{__case classes__}@} provide {@{an elegant way to model such data}@}. {@{A typical hierarchy}@} for {@{arithmetic expressions}@} might be written as:
+
+> [!example] __example__
+>
+> {@{A typical hierarchy}@} for {@{arithmetic expressions}@} might be written as:
+>
+> ```Scala
+> sealed abstract class Expr
+> object Expr:
+>   case class Var(s: String) extends Expr
+>   case class Number(n: Int) extends Expr
+>   case class Sum(e1: Expr, e2: Expr) extends Expr
+>   case class Prod(e1: Expr, e2: Expr) extends Expr
+> ```
+
+By placing {@{the case classes inside a companion object (`Expr`)}@} we keep {@{the global namespace uncluttered}@}; construction then takes {@{the form `Expr.Number(1)` instead of a bare `Number(1)`}@}. {@{A convenient import (`import Expr.*`)}@} restores {@{the shorter syntax when desired}@}. Such structures are known as {@{__algebraic data types__ (ADTs)}@}, {@{a staple of functional programming}@} that combine {@{product and sum types}@} to describe {@{complex data in a concise, type‑safe manner}@}.
+
+Scala's {@{__enumeration__ (`enum`) construct}@} offers {@{an even more compact notation for ADTs}@} whose {@{variants do not share a common superclass}@}. {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as:
+
+> [!example] __example__
+>
+> {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as:
+>
+> ```Scala
+> enum Expr:
+>   case Var(s: String)
+>   case Number(n: Int)
+>   case Sum(e1: Expr, e2: Expr)
+>   case Prod(e1: Expr, e2: Expr)
+> ```
+
+The compiler expands {@{this into a sealed abstract class and companion object automatically}@}, eliminating {@{boilerplate}@}. Enums can be {@{used with pattern matching exactly as case classes}@}:
+
+> [!example] __example__
+>
+> Enums can be {@{used with pattern matching exactly as case classes}@}:
+>
+> ```Scala
+> def show(e: Expr): String = e match
+>   case Expr.Var(x)     => x
+>   case Expr.Number(n)  => n.toString
+>   case Expr.Sum(a,b)   => s"${show(a)} + ${show(b)}"
+>   case Expr.Prod(a,b)  => s"${showFactor(a)} * ${showFactor(b)}"
+>
+> def showFactor(e: Expr): String = e match
+>   case _: Expr.Sum => s"(${show(e)})"
+>   case _           => show(e)
+> ```
+
+For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional enumerations}@}. For example:
+
+> [!example] __example__
+>
+> Enums can be {@{used with pattern matching exactly as case classes}@}:
+>
+> ```Scala
+> enum Color:
+>   case Red, Green, Blue
+> ```
+
+{@{Pattern matching}@} treats {@{these cases as constants}@} as {@{they start with capital letters}@}:
+
+> [!example] __example__
+>
+> {@{Pattern matching}@} treats {@{these cases as constants}@} as {@{they start with capital letters}@}:
+>
+> ```Scala
+> enum DayOfWeek:
+>   case Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+>
+> def isWeekend(day: DayOfWeek) = day match
+>   case Saturday | Sunday => true
+>   case _                 => false
+> ```
+
+Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}:
+
+> ![example] __example__
+>
+> {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}:
+>
+> ```Scala
+> enum Direction(val dx: Int, val dy: Int):
+>   case Right extends Direction(1, 0)
+>   case Up    extends Direction(0, 1)
+>   case Left  extends Direction(-1, 0)
+>   case Down  extends Direction(0, -1)
+>
+>   def leftTurn = Direction.values((ordinal + 1) % 4)
+> ```
+
+Here {@{`ordinal` \(`Direction.ordinal`\)}@} yields {@{the zero‑based index of a variant}@}, and {@{`values` \(`Direction.values`\)}@} is {@{an immutable array containing all simple (non‑parameterised) variants}@}. {@{Parameterised cases}@} do not {@{appear in this array}@}; only {@{simple ones receive ordinal numbers}@}.
+
+> [!example] __example__
+>
+> The compiler generates {@{code roughly equivalent to}@}:
+>
+> ```Scala
+> abstract class Direction(val dx: Int, val dy: Int):
+>   def leftTurn = Direction.values((ordinal - 1) % 4)
+>
+> object Direction:
+>   val Right = new Direction(1,0){ }
+>   val Up    = new Direction(0,1){ }
+>   val Left  = new Direction(-1,0){ }
+>   val Down  = new Direction(0,-1){ }
+> ```
+
+Because enums are {@{essentially syntactic sugar}@} for {@{a sealed class and companion object}@}, they are {@{ideal for __domain modelling__}@} where {@{the data structure is large}@} but {@{operations on it are defined elsewhere}@}.
+
+> [!example] __example__
+>
+> {@{A payment‑method model}@} might look like:
+>
+> ```Scala
+> enum PaymentMethod:
+>   case CreditCard(kind: CardKind, holder: String, number: Long, expires: Date)
+>   case PayPal(email: String)
+>   case Cash
+>
+> enum CardKind:
+>   case Visa, Mastercard, Amex
+> ```
+
+In summary, Scala's enums provide {@{a succinct and type‑safe way to declare pure data structures}@}. They can be used as {@{compact replacements for case‑class hierarchies}@}, or as {@{finite sets of values}@}, and may combine {@{parameterised and simple cases within the same declaration}@}. {@{Operations on these data types}@} are typically {@{expressed elsewhere—often via pattern matching or functional combinators}@}—keeping the data definitions {@{clean and focused solely on representation}@}.
+
 ## objects
 
 When {@{the semantics of a program}@} allow {@{only one logical value for a concept}@}, it is idiomatic to {@{represent it as a singleton object}@}. For example, {@{the empty set}@} in {@{an integer‑set library}@}:
@@ -393,6 +537,93 @@ Scala adopts {@{a familiar exception‑handling model from Java}@}. {@{An except
 > ```
 
 The expression immediately {@{terminates the current computation}@} and propagates {@{the supplied exception object (`exn`) up the call stack}@} until it is {@{caught by an appropriate handler}@} (e.g., {@{a surrounding `try‑catch` block}@}). Because this construct {@{never yields a normal value}@}, {@{its type}@} is {@{the bottom type `Nothing`}@}, which fits {@{seamlessly into Scala's type system}@}. This guarantees that {@{any code following a `throw` statement}@} is {@{unreachable}@} and can be {@{omitted from static analysis}@}.
+
+### pattern matching
+
+{@{__Pattern matching__}@} is {@{a functional programming technique}@} that allows {@{concise and type‑safe deconstruction of algebraic data types}@}. It was introduced in languages such as {@{Haskell, ML, and later adopted by Scala}@}. It can replace {@{ad‑hoc classification methods, unsafe casts, and tightly coupled object‑oriented designs}@}.
+
+{@{The __match__ construct}@} generalises {@{a `switch` statement to arbitrary data structures}@}. {@{A match expressio}@} consists of {@{a _scrutinee_ followed by one or more case clauses}@}, each written as {@{`pattern => result`}@}. For instance, {@{evaluating an arithmetic expression}@} becomes:
+
+> [!example] __example__
+>
+> For instance, {@{evaluating an arithmetic expression}@} becomes:
+>
+> ```Scala
+> def eval(e: Expr): Int = e match {
+>   case Number(n)       => n
+>   case Sum(left, right) => eval(left) + eval(right)
+> }
+> ```
+
+Patterns are built from {@{constructor names (`Number`, `Sum`), variable bindings (`n`, `left`, `right`)}@}, {@{wildcards (`_`), constants (`1`, `true`), and type tests (`x: Number`)}@}. {@{Variables in patterns}@} must {@{start with a lowercase letter}@}, while {@{constant identifiers}@} {@{begin with an uppercase letter (unless they are reserved words such as `null`, `true`, or `false`)}@}. A pattern may {@{only bind a particular variable name once}@}; therefore a pattern like {@{`Sum(x, x)` is illegal}@} because it would {@{attempt to bind the same variable twice}@}.
+
+When {@{a match expression is evaluated}@}, {@{the scrutinee value}@} is {@{compared against each pattern in order}@}. {@{The first matching pattern}@} determines {@{the result of the whole expression}@}. If {@{no pattern matches}@}, Scala {@{throws a `MatchError`}@}. {@{This behaviour}@} is illustrated by the following sequence:
+
+> [!example] __example__
+>
+> When {@{a match expression is evaluated}@}, {@{the scrutinee value}@} is {@{compared against each pattern in order}@}. {@{The first matching pattern}@} determines {@{the result of the whole expression}@}. If {@{no pattern matches}@}, Scala {@{throws a `MatchError`}@}. {@{This behaviour}@} is illustrated by the following sequence:
+>
+> ```Scala
+> eval(Sum(Number(1), Number(2)))
+> ```
+>
+> which expands to:
+>
+> ```Scala
+> Sum(Number(1), Number(2)) match {
+>   case Number(n)       => n
+>   case Sum(e1, e2)     => eval(e1) + eval(e2)
+> }
+> ```
+>
+> and ultimately {@{yields `3`}@}.
+
+{@{A common pitfall}@} is {@{the absence of compile‑time guarantees}@} that {@{all cases have been handled}@}. Consider:
+
+> [!example] __example__
+>
+> {@{A common pitfall}@} is {@{the absence of compile‑time guarantees}@} that {@{all cases have been handled}@}. Consider:
+>
+> ```Scala
+> def eval(e: Expr): Int = e match {
+>   case Sum(left, right) => eval(left) + eval(right)
+> }
+> ```
+>
+> This {@{compiles fine}@} but will {@{throw a runtime `MatchError` when invoked with a `Number`}@}.
+
+To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on an abstract class or trait}@}. {@{A sealed type}@} restricts {@{its subclasses to be defined in the same file}@}, enabling the compiler to {@{verify that every possible subclass is covered by pattern clauses}@}:
+
+> [!example] __example__
+>
+> To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on an abstract class or trait}@}. {@{A sealed type}@} restricts {@{its subclasses to be defined in the same file}@}, enabling the compiler to {@{verify that every possible subclass is covered by pattern clauses}@}:
+>
+> ```Scala
+> sealed abstract class Expr
+> case class Number(n: Int) extends Expr
+> case class Sum(left: Expr, right: Expr) extends Expr
+> ```
+>
+> With {@{this sealed hierarchy}@}, {@{the previous incomplete `eval` definition}@} will {@{no longer compile}@}; the compiler reports {@{a missing case for `Number`}@}.
+
+{@{Pattern matching}@} can also be {@{embedded directly in type definitions}@}. For example, {@{adding an `eval` method to the base trait}@} leverages {@{pattern matching internally}@}:
+
+> [!example] __example__
+>
+> {@{Pattern matching}@} can also be {@{embedded directly in type definitions}@}. For example, {@{adding an `eval` method to the base trait}@} leverages {@{pattern matching internally}@}:
+>
+> ```Scala
+> sealed abstract class Expr {
+>   def eval: Int = this match {
+>     case Number(n)       => n
+>     case Sum(left, right) => left.eval + right.eval
+>   }
+> }
+> ```
+>
+> Here each subclass inherits {@{a uniform `eval` implementation}@} that relies on {@{the structural patterns of the hierarchy}@}.
+
+Here each subclass inherits {@{a uniform `eval` implementation}@} that relies on {@{the structural patterns of the hierarchy}@}. This approach decouples {@{data representation from behaviour}@} while still permitting {@{concise and type‑safe operations across all constructors}@}.
 
 ## definitions
 
@@ -684,6 +915,78 @@ Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annot
 - an instance of `Cons`, ::@:: carrying a head element (`head`) and a recursive tail (`tail`).
 
 {@{The immutability of the data structure}@} is guaranteed by making {@{all fields `val`s (read‑only) and by never providing mutation methods}@}. {@{This simple algebraic type definition}@} forms {@{the backbone of many functional algorithms}@}—{@{folds, maps, filters}@}—that rely on {@{structural recursion over cons‑lists}@}.
+
+### lists
+
+In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
+
+> [!example] __example__
+>
+> A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
+>
+> ```Scala
+> val fruits = List("apples", "oranges", "pears")
+> val nums   = List(1, 2, 3, 4)
+> val diag3  = List(List(1,0,0), List(0,1,0), List(0,0,1))
+> val empty  = List()
+> ```
+
+Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}.
+
+{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}:
+
+> [!example] __example__
+>
+> Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}:
+>
+> ```Scala
+> val nums = 1 :: 2 :: 3 :: 4 :: Nil
+> ```
+
+{@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}.
+
+{@{The basic list API}@} exposes {@{three core methods}@}:  
+
+- `head`, ::@:: which returns the first element;  
+- `tail`, ::@:: which yields a new list containing all elements except the head;  
+- `isEmpty`, ::@:: which reports whether the list contains no elements.  
+
+{@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}.
+
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non‑empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, …, pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}.
+
+Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}.
+
+#### list sorting
+
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+
+> [!example] __example__
+>
+> The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+>
+> ```Scala
+> def isort(xs: List[Int]): List[Int] = xs match {
+>   case Nil      => Nil
+>   case y :: ys  => insert(y, isort(ys))
+> }
+> ```
+
+{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
+
+> [!example] __example__
+>
+> {@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
+>
+> ```Scala
+> def insert(x: Int, xs: List[Int]): List[Int] = xs match {
+>   case Nil      => List(x)
+>   case y :: ys =>
+>     if (x < y) x :: xs else y :: insert(x, ys)
+> }
+> ```
+
+{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to \(N \times N\)}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}.
 
 ### pre-definitions
 
