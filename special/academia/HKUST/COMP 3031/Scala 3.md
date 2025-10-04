@@ -255,7 +255,7 @@ When {@{a subclass does not specify a superclass explicitly}@}, Scala implicitly
 > }
 > ```
 
-{@{The keyword `override`}@} is {@{mandatory when redefining a concrete member}@}, ensuring that {@{accidental overrides are avoided}@}. {@{This mechanism}@} allows subclasses to {@{refine or replace behaviour defined in their superclasses}@} while still adhering to {@{the contract established by the abstract class}@}.
+{@{The keyword `override`}@} is {@{mandatory when redefining a concrete member \(but not implementing an abstract member\)}@}, ensuring that {@{accidental overrides are avoided}@}. {@{This mechanism}@} allows subclasses to {@{refine or replace behaviour defined in their superclasses}@} while still adhering to {@{the contract established by the abstract class}@}.
 
 ### value parameters
 
