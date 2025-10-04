@@ -529,7 +529,7 @@ The content is in teaching order.
 - MIPS architecture
   - [MIPS](MIPS.md)
     - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `la`, `li`
-  
+
 ## week 6 tutorial
 
 - datetime: 2025-03-11T18:00:00+08:00/2025-03-11T18:50:00+08:00

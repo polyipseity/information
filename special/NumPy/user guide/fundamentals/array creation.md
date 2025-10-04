@@ -303,7 +303,7 @@ x, y
 
 ```Python
 >>> import numpy as np
->>> np.loadtxt('simple.csv', delimiter = ',', skiprows = 1) 
+>>> np.loadtxt('simple.csv', delimiter = ',', skiprows = 1)
 array([[0., 0.],
        [1., 1.],
        [2., 4.],

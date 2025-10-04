@@ -341,7 +341,7 @@ The content is in teaching order.
 - [cash flow statement](../../../../general/cash%20flow%20statement.md) ::@:: It is a financial statement that shows how changes in balance sheet accounts and income affect cash and cash equivalents, and breaks the analysis down to operating, investing and financing activities.
   - cash flow statement / purpose ::@:: The SCF's primary goal is to disclose where cash originates, how it is used, and the resulting change in cash balance over a period. It may be used to for "assessing the amounts, timing, and uncertainty of cash flows".
   - cash flow statement / categories ::@:: It provides accurate classification of cash flows into operating, investing, and financing activities—categories that cannot be reliably derived from balance sheets alone.
-  - cash flow statement / operating cash flows ::@:: Cash movements that result directly from the company's core revenue‑generating activities—essentially the day‑to‑day operations that drive sales and expenses.  
+  - cash flow statement / operating cash flows ::@:: Cash movements that result directly from the company's core revenue‑generating activities—essentially the day‑to‑day operations that drive sales and expenses.
     - cash flow statement / operating cash flows / inflows ::@:: cash received from customers, interest or dividend income earned on operating assets
     - cash flow statement / operating cash flows / outflows ::@:: payments to suppliers, wages and salaries, taxes payable, and other operating expenses such as utilities and rent
   - cash flow statement / investing cash flows ::@:: Cash flows associated with the acquisition and disposal of long‑term assets and investments that are not part of normal trading operations

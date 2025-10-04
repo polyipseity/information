@@ -146,7 +146,7 @@ Notes:
 > __flashcards__
 >
 > - __find__: Future value \(F\) <br/> __given__: Present value \(P\) ::@:: $F=P\cdot (1+i)^{n}$
-> - __find__: Present value \(P\) <br/> __given__: Future value \(F\) ::@:: $P=F\cdot (1+i)^{-n}$  
+> - __find__: Present value \(P\) <br/> __given__: Future value \(F\) ::@:: $P=F\cdot (1+i)^{-n}$
 > - __find__: Repeating payment \(A\) <br/> __given__: Future value \(F\) ::@:: $A=F\cdot {\frac {i}{(1+i)^{n}-1} }$
 > - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$
 > - __find__: Future value \(F\) <br/> __given__: Repeating payment \(A\) ::@:: $F=A\cdot {\frac {(1+i)^{n}-1}{i} }$

@@ -44,7 +44,7 @@ Assume {@{a magazine publishing company charges an annual subscription fee of $1
 ```text
                         Debit  |  Credit
                         ----------------
-Cash                     $12   |         
+Cash                     $12   |
   Unearned Revenue             |   $12
                                |
 ```
@@ -54,8 +54,8 @@ The adjusting entry reporting each month after the delivery is:
 ```text
                         Debit  |  Credit
                         ----------------
-Unearned Revenue           $1  |   
-  Revenue                      |    $1  
+Unearned Revenue           $1  |
+  Revenue                      |    $1
                                |
 ```
 

@@ -386,7 +386,7 @@ Suppose that there is a new patient. We know that
 We would like to know whether he is likely to have systemic inflammation reaction.
 
 | __Acute Pancreatitis__ | __Pneumonia__ | __White Blood Cell__ | __Systemic Inflammation Reaction__ |
-|:----------------------:|:-------------:|:--------------------:|:----------------------------------:|  
+|:----------------------:|:-------------:|:--------------------:|:----------------------------------:|
 | Yes                    | Yes           | High                 | ?                                  |
 
 ### Q5.a

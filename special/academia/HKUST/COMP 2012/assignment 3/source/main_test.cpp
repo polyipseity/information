@@ -64,13 +64,13 @@ void test6() {
 void test7() {
     VaccinationStatus v{};
     addVaccines(v, {"Rabies", "FPV", "FCV", "FHV", "FeLV", "FIV", "Chlamydia felis", "Bordetella bronchiseptica", "Giardia"});
-    cout << "Contains vaccine FPV: " << v.hasVaccine("FPV") << endl; 
+    cout << "Contains vaccine FPV: " << v.hasVaccine("FPV") << endl;
 }
 
 void test8() {
     VaccinationStatus v{};
     addVaccines(v, {"Rabies", "FPV", "FCV", "FHV", "FeLV", "FIV", "Chlamydia felis", "Bordetella bronchiseptica", "Giardia"});
-    cout << "Contains vaccine Giardia: " << v.hasVaccine("Giardia") << endl; 
+    cout << "Contains vaccine Giardia: " << v.hasVaccine("Giardia") << endl;
 }
 
 /***********************************************************************/
@@ -130,11 +130,11 @@ void test12() {
     AnimalLLnode* nodes[NUM_NODES];
     for (int i=0; i<NUM_NODES; ++i)
         nodes[i] = new AnimalLLnode(createRandomAnimal(), i == 0 ? nullptr : nodes[i-1]);
-    
+
     unsigned int ignoreCount = 0;
     unsigned int displayCount = 4;
     nodes[NUM_NODES-1]->print(ignoreCount, displayCount, makeFilter("", "", {}));
-    
+
     for (int i=0; i<NUM_NODES; ++i) {
         delete nodes[i]->animal;
         delete nodes[i];
@@ -146,11 +146,11 @@ void test13() {
     AnimalLLnode* nodes[NUM_NODES];
     for (int i=0; i<NUM_NODES; ++i)
         nodes[i] = new AnimalLLnode(createRandomAnimal(), i == 0 ? nullptr : nodes[i-1]);
-    
+
     unsigned int ignoreCount = 2;
     unsigned int displayCount = 5;
     nodes[NUM_NODES-1]->print(ignoreCount, displayCount, makeFilter("", "", {}));
-    
+
     for (int i=0; i<NUM_NODES; ++i) {
         delete nodes[i]->animal;
         delete nodes[i];
@@ -162,11 +162,11 @@ void test14() {
     AnimalLLnode* nodes[NUM_NODES];
     for (int i=0; i<NUM_NODES; ++i)
         nodes[i] = new AnimalLLnode(createRandomAnimal(), i == 0 ? nullptr : nodes[i-1]);
-    
+
     unsigned int ignoreCount = 0;
     unsigned int displayCount = 10;
     nodes[NUM_NODES-1]->print(ignoreCount, displayCount, makeFilter("a", "", {}));
-    
+
     for (int i=0; i<NUM_NODES; ++i) {
         delete nodes[i]->animal;
         delete nodes[i];
@@ -205,7 +205,7 @@ void test16() {
     BSTnode bstNode {animals[0], dummyAnimalComparator};
     for (int i=1; i<NUM_ANIMALS; ++i)
         bstNode.addAnimal(animals[i]);
-    
+
     AnimalLLnode* head = bstNode.head;
     unsigned int ignoreCount = 0;
     unsigned int displayCount = NUM_ANIMALS;
@@ -230,7 +230,7 @@ void test17() {
         cout << "Adding animal with ID " << animals[i]->getID() << endl;
         bstNode.addAnimal(animals[i]);
     }
-    
+
     AnimalLLnode* head = bstNode.head;
     unsigned int ignoreCount = 0;
     unsigned int displayCount = NUM_ANIMALS;

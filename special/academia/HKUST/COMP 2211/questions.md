@@ -180,10 +180,10 @@ tags:
 > ```Python
 > array([[[ 1,  2,  3,  4],
 >         [ 5,  6,  7,  8]],
-> 
+>
 >        [[ 9, 10, 11, 12],
 >         [13, 14, 15, 16]],
-> 
+>
 >        [[ 9, 10, 11, 12],
 >         [13, 14, 15, 16]]])
 > ```
@@ -935,20 +935,20 @@ tags:
 >
 > ```shell
 > _________________________________________________________________
->  Layer (type)                Output Shape              Param #   
+>  Layer (type)                Output Shape              Param #
 > =================================================================
->  flatten (Flatten)           (None, ????)                       
->                                                                  
->  Layer_1 (Dense)             (None, 4096)                 
->                                                                  
->  Layer_2 (Dense)             (None, 4096)                
->                                                                  
->  Layer_3 (Dense)             (None, 4096)                
->                                                                  
->  Layer_4 (Dense)             (None, 4096)                
->                                                                  
->  Layer_5 (Dense)             (None, 10)                     
->                                                                  
+>  flatten (Flatten)           (None, ????)
+>
+>  Layer_1 (Dense)             (None, 4096)
+>
+>  Layer_2 (Dense)             (None, 4096)
+>
+>  Layer_3 (Dense)             (None, 4096)
+>
+>  Layer_4 (Dense)             (None, 4096)
+>
+>  Layer_5 (Dense)             (None, 10)
+>
 > =================================================================
 > Total params: ????????
 > Trainable params:

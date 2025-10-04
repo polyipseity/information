@@ -91,7 +91,7 @@ int main() {
             cart5.applyDiscount(0.9);
             cart5.displayProducts();
             std::cout << "Total price: $" << cart5.getTotalPrice() << "\n";
-            
+
             expensiveProducts5 = cart5.getExpensiveProducts(50);
             std::cout << "Expensive products in the shopping cart:\n";
             for (const Product& product : expensiveProducts5) {

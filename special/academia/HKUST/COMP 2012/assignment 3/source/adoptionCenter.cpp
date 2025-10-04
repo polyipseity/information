@@ -43,7 +43,7 @@ AdoptionCenter::AdoptionCenter()
                                                                                                                                                                                                                                                                    : 0;
                                        }},
                                } {
-    
+
     // TODO
 
 }
@@ -52,7 +52,7 @@ AdoptionCenter::AdoptionCenter()
 // Deallocate any dynamic memory in this class.
 // Hint: This is where the animals should be deallocated.
 AdoptionCenter::~AdoptionCenter() {
-    
+
     // TODO
     for (unsigned int idx{}; idx < numAnimals; ++idx)
         delete animals[idx];
@@ -62,11 +62,11 @@ AdoptionCenter::~AdoptionCenter() {
 // TASK 4.3: AdoptionCenter::addAnimal(Animal*)
 // Add an animal to the dynamic-length array data member,
 // by increasing its size by 1 and increment numAnimals accordingly.
-// Add the animal to the end of the array, 
+// Add the animal to the end of the array,
 // such that the array is sorted by increasing ID (assume we only add increasing IDs)
 // The animal should also be added to the 4 BSTs.
 void AdoptionCenter::addAnimal(Animal* a) {
-    
+
     // TODO
     Animal **newAnimals{new Animal*[numAnimals + 1]};
     if (animals)
@@ -89,7 +89,7 @@ void AdoptionCenter::addAnimal(Animal* a) {
 // The animal should also be removed from the 4 BSTs.
 // Finally, return true if the animal was successfully removed.
 bool AdoptionCenter::removeAnimal(unsigned int id) {
-    
+
     // TODO
     for (unsigned int idx{}; idx < numAnimals; ++idx)
     {
@@ -124,7 +124,7 @@ bool AdoptionCenter::removeAnimal(unsigned int id) {
 // Increment the age of all animals by 1.
 void AdoptionCenter::incrementAge()
 {
-    
+
     // TODO
     for (unsigned int idx{}; idx < numAnimals; ++idx)
         animals[idx]->incrementAge();
@@ -136,7 +136,7 @@ void AdoptionCenter::incrementAge()
 // Else, ensure the BST for health condition is sorted after the modification.
 void AdoptionCenter::setAnimalHealthCondition(unsigned int id, const HealthCondition& h)
 {
-    
+
     // TODO
     for (unsigned int idx{}; idx < numAnimals; ++idx)
     {
@@ -155,7 +155,7 @@ void AdoptionCenter::setAnimalHealthCondition(unsigned int id, const HealthCondi
 // Else, ensure the BST for vaccine status is sorted after the modification.
 void AdoptionCenter::addAnimalVaccine(unsigned int id, const string& v)
 {
-    
+
     // TODO
     for (unsigned int idx{}; idx < numAnimals; ++idx)
     {
@@ -173,7 +173,7 @@ void AdoptionCenter::addAnimalVaccine(unsigned int id, const string& v)
 // If the animal does not exist, do nothing.
 void AdoptionCenter::setAnimalSpecialNeeds(unsigned int id, const std::string& n)
 {
-    
+
     // TODO
     for (unsigned int idx{}; idx < numAnimals; ++idx)
     {

@@ -261,7 +261,7 @@ The content is in teaching order.
     - [market structure](../../../../general/market%20structure.md) ::@:: It depicts how firms are differentiated and categorized based on the types of goods they sell (homogeneous/heterogeneous) and how their operations are affected by external factors and element.
       - market structure / number of sellers ::@:: monopoly (one seller, many buyers), oligopoly (few sellers, many buyers), monopolistic competition (many sellers but with differentiated products, many buyers), perfect competition (many sellers, many buyers)
       - market structure / number of buyers ::@:: monopsony (many sellers, one buyer), oligopsony (many sellers, few buyers), perfect competition (many sellers, many buyers)
-      - [monopoly](../../../../general/monopoly.md) ::@:: A market with the "absence of competition", creating a situation where a specific person or enterprise is the only supplier of a particular thing.  
+      - [monopoly](../../../../general/monopoly.md) ::@:: A market with the "absence of competition", creating a situation where a specific person or enterprise is the only supplier of a particular thing.
         - monopoly / graph ::@:: Additionally graph a line known as the marginal revenue (MR) curve. Said curve is usually even more downward sloping then the demand curve. The point where the MR curve and the supply curve meets is the market equilibrium in a monopoly, because this brings the maximum profit for a company in monopoly. Said point has a higher price and lower quantity than the market equilibrium in perfect competition.
         - [marginal revenue](../../../../general/marginal%20revenue.md) (MR) ::@:: The derivative of price multiplied by quantity. For monopoly, the curve is more downward sloping than the demand curve. For perfect competition, the curve is a constant horizontal line at the market equilibrium price.
       - [perfect competition](../../../../general/perfect%20competition.md) ::@:: A __perfect market__, also known as an __atomistic market__, is defined by several idealizing conditions, collectively called __perfect competition__, or __atomistic competition__. <p> It is usually used as a benchmark against other market structures for comparison. Perfect competition are _efficient_: They provide both _allocative efficiency_ and _productive efficiency_.
@@ -944,7 +944,7 @@ The content is in teaching order.
 >
 > Dear all students,
 >
-> - On Wednesday, 18 December, the final exam will be held at the Lecture Theater A (LTA) from 9:30 am to 11:30 pm and last for 120 minutes.  
+> - On Wednesday, 18 December, the final exam will be held at the Lecture Theater A (LTA) from 9:30 am to 11:30 pm and last for 120 minutes.
 > - TA will announce the seating plan later.
 > - It will be a closed-book exam, and no notes are allowed.
 > - There are around 4 short questions and 2 long questions (tentatively, I am still working on them), which require written answers using words/graphs/equations.

@@ -290,7 +290,7 @@ Press on "Data Science > Classify > Naive Bayes". Then, configure the model as f
 | Naive Bayes: Reporting Parameters   |      |
 |-------------------------------------|------|
 | Show prior conditional probability  | TRUE |
-| Show log-density                    | TRUE |  
+| Show log-density                    | TRUE |
 
 | Output Options                              |
 |---------------------------------------------|

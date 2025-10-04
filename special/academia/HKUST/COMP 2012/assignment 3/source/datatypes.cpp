@@ -7,7 +7,7 @@ using namespace std;
  * To be used as the indexing key of a string into the hash table,
  * e.g. k = sumStringChars(str)
 */
-unsigned int sumStringChars(const string& str) 
+unsigned int sumStringChars(const string& str)
 {
     unsigned int sum = 0;
     for (unsigned int i=0; i<str.length(); ++i)
@@ -62,7 +62,7 @@ void VaccinationStatus::addVaccine(const string& v)
 // Returns true if the vaccine exists in the table, false otherwise
 bool VaccinationStatus::hasVaccine(const string& v) const
 {
-    
+
     // TODO
     unsigned long int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
 
@@ -85,7 +85,7 @@ bool VaccinationStatus::hasVaccine(const string& v) const
  * Returns a value representing the current hash table
  * Used for comparing 2 animals with different vaccination status
 */
-unsigned int VaccinationStatus::getTotalHashValue() const 
+unsigned int VaccinationStatus::getTotalHashValue() const
 {
     unsigned int hash = 0;
     for (unsigned int i=0; i<VACCINE_TABLE_SIZE; ++i)

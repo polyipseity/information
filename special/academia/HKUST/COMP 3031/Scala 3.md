@@ -38,8 +38,8 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand‑alone_ Scala appli
 > }
 > ```
 
-- __Object__ ::@:: – The container for the static‑like entry point.  
-- __Main signature__ ::@:: – `def main(args: Array[String]): Unit` is required; it receives command‑line arguments as a string array and returns `Unit`.  
+- __Object__ ::@:: – The container for the static‑like entry point.
+- __Main signature__ ::@:: – `def main(args: Array[String]): Unit` is required; it receives command‑line arguments as a string array and returns `Unit`.
 - __Invocation__ ::@:: – After compilation, run with `scala Hello`.
 
 ### annotated entry points
@@ -57,8 +57,8 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand‑alone_ Scala appli
 >   println(s"Happy birthday, $name! $age years old already!")
 > ```
 
-- __Parameters__ ::@:: – Each parameter corresponds to a command‑line argument.  
-- __Automatic conversion__ ::@:: – Argument types are inferred from the function signature (e.g., `String`, `Int`).  
+- __Parameters__ ::@:: – Each parameter corresponds to a command‑line argument.
+- __Automatic conversion__ ::@:: – Argument types are inferred from the function signature (e.g., `String`, `Int`).
 - __Invocation__ ::@:: – Compile and run with `scala birthday Peter 11`.
 
 {@{The annotated function}@} automatically generates {@{a `main` method}@}, {@{eliminating boilerplate}@}.
@@ -101,7 +101,7 @@ At {@{the apex}@} of Java's \(not Scala's\) type system sits {@{`java.lang.Objec
 
 At {@{the opposite extreme}@} lies {@{`scala.Nothing`}@}, {@{a _bottom type_}@} that is {@{a subtype of every other type in Scala}@}. Although it has {@{no runtime representation}@}—there is {@{never an actual value of type `Nothing`}@}—it plays {@{a pivotal role}@}: \(annotation: 2 items: {@{abnormal termination, empty collections}@}\)
 
-- __Abnormal termination__ ::@:: – Functions that throw exceptions or otherwise terminate abruptly can be typed as returning `Nothing`.  
+- __Abnormal termination__ ::@:: – Functions that throw exceptions or otherwise terminate abruptly can be typed as returning `Nothing`.
 - __Empty collections__ ::@:: – An empty list, for example, can be given the type `List[Nothing]`, which is then safely subtyped to any `List[T]`.
 
 Because {@{`Nothing` can inhabit any type position}@}, it provides a powerful tool for expressing {@{impossibility or divergence within Scala's static type system}@}.
@@ -220,7 +220,7 @@ In Scala, {@{a _class extension_ (or inheritance)}@} allows {@{one class to inhe
 >     if (x < elem) left.contains(x)
 >     else if (x > elem) right.contains(x)
 >     else true
-> 
+>
 >   def incl(x: Int): IntSet =
 >     if (x < elem) NonEmpty(elem, left.incl(x), right)
 >     else if (x > elem) NonEmpty(elem, left, right.incl(x))
@@ -443,8 +443,8 @@ When {@{the semantics of a program}@} allow {@{only one logical value for a conc
 
 Properties:
 
-- __Singleton__ ::@:: – `Empty` exists only once; any reference to it evaluates to the same instance.  
-- __No construction needed__ ::@:: – Users do not create new `Empty()` objects; they simply refer to `Empty`.  
+- __Singleton__ ::@:: – `Empty` exists only once; any reference to it evaluates to the same instance.
+- __No construction needed__ ::@:: – Users do not create new `Empty()` objects; they simply refer to `Empty`.
 - __Value semantics__ ::@:: – Because objects live in Scala's _term_ namespace, `Empty` is a value rather than a type.
 
 ### companion objects
@@ -465,10 +465,10 @@ Scala permits {@{a class and an object}@} to {@{share the same name}@} when {@{d
 
 Properties of companion objects:
 
-- __Separate namespaces__ ::@:: – Types reside in the _type_ namespace; values (including objects) reside in the _term_ namespace.  
-- __Mutual access__ ::@:: – A companion object can access private members of its class and vice versa.  
+- __Separate namespaces__ ::@:: – Types reside in the _type_ namespace; values (including objects) reside in the _term_ namespace.
+- __Mutual access__ ::@:: – A companion object can access private members of its class and vice versa.
 - __Static‑like behaviour__ ::@:: – Since Scala lacks Java's `static` keyword, companion objects serve the same purpose for grouping utility functions or constants related to a class.
-  - Static‑like behaviour / __Factory methods__ ::@:: – Companion objects often provide convenient constructors, analogous to static factory methods in Java (`IntSet.singleton`).  
+  - Static‑like behaviour / __Factory methods__ ::@:: – Companion objects often provide convenient constructors, analogous to static factory methods in Java (`IntSet.singleton`).
 
 Together, {@{singleton objects and companions}@} give Scala {@{concise, type‑safe mechanisms}@} for {@{representing unique values and packaging helper functionality}@} without resorting to {@{mutable global state}@}.
 
@@ -677,17 +677,17 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 >
 > ```Scala
 > package ppl3
-> 
+>
 > trait List[T] {
 >   def isEmpty: Boolean
 >   def head: T
 >   def tail: List[T]
 > }
-> 
+>
 > class Cons[T](val head: T, val tail: List[T]) extends List[T] {
 >   def isEmpty = false
 > }
-> 
+>
 > class Nil[T] extends List[T] {
 >   def isEmpty = true
 >   def head = throw new NoSuchElementException("Nil.head")
@@ -750,7 +750,7 @@ Scala structures {@{code into a hierarchical namespace}@} called {@{_packages_}@
 >
 > ```scala
 > package ppl.examples
-> 
+>
 > object Hello { /* ... */ }
 > ```
 >
@@ -792,8 +792,8 @@ Imports may target either {@{packages}@} or {@{singleton objects}@}.
 
 {@{Certain namespaces}@} are {@{implicitly imported}@} into every Scala program, eliminating {@{the need for explicit statements}@}: \(annotation: 3 items: {@{`package scala`, `package java.lang`, `object scala.Predef`}@}\)
 
-- `package scala` ::@:: – Core language types and utilities (e.g., `Int`, `Boolean`).  
-- `package java.lang` ::@:: – Java’s base classes (e.g., `Object`).  
+- `package scala` ::@:: – Core language types and utilities (e.g., `Int`, `Boolean`).
+- `package java.lang` ::@:: – Java’s base classes (e.g., `Object`).
 - `object scala.Predef` ::@:: – Standard library helpers (`require`, `assert`, etc.).
 
 Examples of fully qualified names:
@@ -902,16 +902,16 @@ Because {@{every `Cons` node}@} contains only {@{references to its head \(the fi
 >
 > ```Scala
 > package ppl3
-> 
+>
 > trait IntList                     // common supertype for all lists
-> 
+>
 > class Cons(val head: Int, val tail: IntList) extends IntList
 > class Nil() extends IntList          // sentinel for the empty list
 > ```
 
 Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annotation: 2 items: {@{`Nil`, `Cons`}@}\)
 
-- an instance of `Nil`, ::@:: denoting the empty sequence, or  
+- an instance of `Nil`, ::@:: denoting the empty sequence, or
 - an instance of `Cons`, ::@:: carrying a head element (`head`) and a recursive tail (`tail`).
 
 {@{The immutability of the data structure}@} is guaranteed by making {@{all fields `val`s (read‑only) and by never providing mutation methods}@}. {@{This simple algebraic type definition}@} forms {@{the backbone of many functional algorithms}@}—{@{folds, maps, filters}@}—that rely on {@{structural recursion over cons‑lists}@}.
@@ -945,11 +945,11 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}.
 
-{@{The basic list API}@} exposes {@{three core methods}@}:  
+{@{The basic list API}@} exposes {@{three core methods}@}:
 
-- `head`, ::@:: which returns the first element;  
-- `tail`, ::@:: which yields a new list containing all elements except the head;  
-- `isEmpty`, ::@:: which reports whether the list contains no elements.  
+- `head`, ::@:: which returns the first element;
+- `tail`, ::@:: which yields a new list containing all elements except the head;
+- `isEmpty`, ::@:: which reports whether the list contains no elements.
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}.
 

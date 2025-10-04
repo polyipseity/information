@@ -137,7 +137,7 @@ The content is in teaching order.
 - [Jim Crow laws](../../../../general/Jim%20Crow%20laws.md) ::@:: They were local and state laws passed after reconstruction and became engrained in the south after the 1897 Supreme Court case _Plessy v. Ferguson_. <p> They are named after the black-faced minstrel (a song and dance) "Jump Jim Crow" in 1828.
   - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc.
   - Jim Crow laws / end ::@:: Segregation remained primarily in the south until the civil rights movement in the 1960s.
-- [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands.  
+- [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands.
 - assignment: read "African Music in Early Jazz"
 
 ## week 2 lecture
@@ -362,7 +362,7 @@ The content is in teaching order.
   - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women.
     - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra
 - [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all
-  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording  
+  - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing
   - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death.
   - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald

@@ -165,7 +165,7 @@ In this approach, {@{every non-logical symbol}@} is {@{of one of the following t
 > ---
 >
 > ```BNF
-> <index>             ::= "" 
+> <index>             ::= ""
 >                       | <index> "'"
 > <variable>          ::= "x" <index>
 > <constant>          ::= "c" <index>
@@ -175,18 +175,18 @@ In this approach, {@{every non-logical symbol}@} is {@{of one of the following t
 > <unary predicate>   ::= "p1" <index>
 > <binary predicate>  ::= "p2" <index>
 > <ternary predicate> ::= "p3" <index>
-> <term>              ::= <variable> 
->                       | <constant> 
->                       | <unary function> "(" <term> ")" 
->                       | <binary function> "(" <term> "," <term> ")" 
+> <term>              ::= <variable>
+>                       | <constant>
+>                       | <unary function> "(" <term> ")"
+>                       | <binary function> "(" <term> "," <term> ")"
 >                       | <ternary function> "(" <term> "," <term> "," <term> ")"
-> <atomic formula>    ::= "TRUE" 
+> <atomic formula>    ::= "TRUE"
 >                       | "FALSE"
 >                       | <term> "=" <term>
->                       | <unary predicate> "(" <term> ")" 
->                       | <binary predicate> "(" <term> "," <term> ")" 
+>                       | <unary predicate> "(" <term> ")"
+>                       | <binary predicate> "(" <term> "," <term> ")"
 >                       | <ternary predicate> "(" <term> "," <term> "," <term> ")"
-> <formula>           ::= <atomic formula> 
+> <formula>           ::= <atomic formula>
 >                       | "¬" <formula>
 >                       | <formula> "∧" <formula>
 >                       | <formula> "∨" <formula>

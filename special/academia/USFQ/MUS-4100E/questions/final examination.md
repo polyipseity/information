@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MUS-4100E final 
+  - MUS-4100E final
   - MUS-4100E final exam
   - MUS-4100E final examination
   - USFQ MUS-4100E final

@@ -159,7 +159,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 {@{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}@} have {@{normal credit balances (i.e., crediting these types of accounts increases them)}@}.
 
 ```text
-0 = Dr Assets                            Cr Owners' Equity                Cr Liabilities  
+0 = Dr Assets                            Cr Owners' Equity                Cr Liabilities
           .       _____________________________/\____________________________       .
           .      /    Cr Retained Earnings (profit)         Cr Common Stock  \      .
           .    _________________/\_______________________________      .            .

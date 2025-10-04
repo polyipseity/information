@@ -1,7 +1,7 @@
 ---
 aliases:
   - tautologies
-  - tautology 
+  - tautology
 tags:
   - flashcard/active/general/eng/tautology__logic_
   - language/in/English

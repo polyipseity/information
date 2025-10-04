@@ -314,7 +314,7 @@ This can be {@{generalized to get the commutator}@} for {@{two covariant derivat
 ## notes
 
 1. While {@{the raising and lowering of indices}@} is {@{dependent on a [metric tensor](metric%20tensor.md)}@}, {@{the [covariant derivative](covariant%20derivative.md)}@} is {@{only dependent on the [connection](connection%20(mathematics).md)}@} while {@{the [exterior derivative](exterior%20derivative.md) and the [Lie derivative](Lie%20derivative.md)}@} are {@{dependent on neither}@}. <a id="^ref-1"></a>^ref-1
-  
+
 ## references
 
 This text incorporates [content](https://en.wikipedia.org/wiki/Ricci_calculus) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

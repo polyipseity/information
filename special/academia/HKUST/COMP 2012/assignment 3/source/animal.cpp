@@ -18,11 +18,11 @@ string padTrimNumber(const T& val, unsigned int length) {
 }
 
 ostream& operator<<(ostream& os, const Animal& a) {
-    os << a.getID() << "\t" 
+    os << a.getID() << "\t"
         << padTrimString(a.getSpecies(), 30) << "\t"
         << a.getAge() << "\t"
         << padTrimString(a.getHealthCondition().description, 15) << "\t"
-        << a.getVaccinationStatus().numVaccines << " (" 
+        << a.getVaccinationStatus().numVaccines << " ("
                 << padTrimNumber(a.getVaccinationStatus().getTotalHashValue(), 5) << ")" << "\t"
         << padTrimString(a.getSpecialNeeds(), 25);
     return os;

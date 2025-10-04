@@ -67,7 +67,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 >     low[i] := d
 >     childCount := 0
 >     isArticulation := false
-> 
+>
 >     for each ni in adj[i] do
 >         if not visited[ni] then
 >             parent[ni] := i

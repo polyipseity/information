@@ -266,7 +266,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-15T13:30:00+08:00/2024-10-15T14:50:00+08:00
 - [inventory](../../../../general/inventory.md)
-  - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested).  
+  - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested).
 - [cost of goods sold](../../../../general/cost%20of%20goods%20sold.md) ::@:: $$\begin{aligned} \text{goods available for sale} & = \text{beginning inventory} + \text{purchases} \\ \text{cost of goods sold} & = \text{goods available for sale} - \text{ending inventory} \end{aligned}$$ (This should not be too hard...)
   - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer.
     - inventory / types / merchandiser ::@:: merchandise inventory

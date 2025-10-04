@@ -34,7 +34,7 @@ Doing so {@{allows positions to be defined recursively}@}. For example, consider
 ```text
 Sizes of heaps  Moves
  A B C
-  
+
  1 2 2           Alice takes 1 from A
  0 2 2           Bob   takes 1 from B
  0 1 2           Alice takes 1 from C
@@ -78,8 +78,8 @@ We can {@{combine it with our [first example](#example%20Nim%20game)}@} to {@{ge
 
 ```text
 Sizes of heaps     Moves
- A  B  C  A' B' C'  
-  
+ A  B  C  A' B' C'
+
  1  2  2  1  1  1   Alice takes 1 from A
  0  2  2  1  1  1   Bob takes 1 from A'
  0  2  2  0  1  1   Alice takes 1 from B'

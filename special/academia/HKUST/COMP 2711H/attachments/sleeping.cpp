@@ -35,6 +35,6 @@ int main()
   cout<<endl;
 
   cout<<totalW<<"  "<<double(totalH)/totalW<<" "<<double(totalT)/totalW<<endl;
-  
+
   return 0;
 }

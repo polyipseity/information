@@ -299,10 +299,10 @@ In {@{UML terms}@}, a use case is {@{a _stereotype_ of a class \(a kind of class
 
 To {@{_identify_ use cases and scenarios}@}, ask {@{these questions for each actor}@}: \(5 items: {@{performance, information, external notifications, internal notifications, administration}@}\)
 
-- performance ::@:: What tasks does the actor want the system to perform?  
-- information ::@:: Which information will the actor create, store, modify, delete, or read?  
-- external notifications ::@:: Does the actor need to inform the system of any external changes?  
-- internal notifications ::@:: Which events must the system notify the actor about?  
+- performance ::@:: What tasks does the actor want the system to perform?
+- information ::@:: Which information will the actor create, store, modify, delete, or read?
+- external notifications ::@:: Does the actor need to inform the system of any external changes?
+- internal notifications ::@:: Which events must the system notify the actor about?
 - administration ::@:: How will the system be supported and maintained?
 
 When {@{naming a use case}@}, use {@{a _present‑tense_, _active‑voice_ _verb phrase_ from the actor's perspective}@} \(e.g., {@{"student: select course offering"}@} in {@{a course registration system}@}\). Follow this with {@{a brief purpose statement that outlines the functionality}@} in {@{terms familiar to domain experts}@} \(use {@{glossary or data dictionary terminology}@}\).

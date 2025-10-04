@@ -9,10 +9,10 @@ int main(int argc, char *argv[]){
     const char *label_names[3] = {"Versicolor","Setosa","Virginica"};
     RandomForest Forest;
     DecisionTree Tree;
-    
+
     int NumberOfTrees,position,height,split_value,attribute,label;
     cout << "Enter Number of Trees: \n";
-    // Input the number of trees. If NumberOfTrees = 1, then we treat the RandomForest as a Desicion tree 
+    // Input the number of trees. If NumberOfTrees = 1, then we treat the RandomForest as a Desicion tree
     cin >> NumberOfTrees;
     if(NumberOfTrees > 1)Forest.InitializeForest(NumberOfTrees);
     // Read trees
@@ -37,14 +37,14 @@ int main(int argc, char *argv[]){
             if(height == -1)break;
             cin >> position;
             cin >> label;
-            if(NumberOfTrees > 1)Forest.Trees[i].AddEndNode(label,position,height);    
+            if(NumberOfTrees > 1)Forest.Trees[i].AddEndNode(label,position,height);
             else Tree.AddEndNode(label,position,height);
         }
     }
     if(NumberOfTrees > 1) cout << "Forest Initialized!" << endl;
     else cout << "Tree Initialized!" << endl;
     //for(int i = 0; i < NumberOfTrees; i++)Forest.Trees[i].PrintLabels();
-    
+
     int x[4];
     // Read test points. This is the easiest part to modify in the given file
     while(true){

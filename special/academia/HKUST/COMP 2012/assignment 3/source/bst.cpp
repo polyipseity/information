@@ -3,7 +3,7 @@ using namespace std;
 
 /**
  * Returns true if "src" contains *any* words in "filterWords" (case-insensitive).
- * e.g.: 
+ * e.g.:
  *   containAnyWords("Example string", "example") == true
  *   containAnyWords("Example string", "amp") == true
  *   containAnyWords("Example string", "this is a long sentence") == true  [contains 'a']
@@ -33,7 +33,7 @@ bool containAnyWords(string src, string filterWords) {
 // - vaccine status contains *all* of the non-empty strings in vaccineMatch
 bool Filter::match(const Animal& a) const
 {
-    
+
     // TODO
     if (!(containAnyWords(a.getSpecies(), speciesFilter) && containAnyWords(a.getHealthCondition().description, healthFilter)))
         return false;
@@ -52,7 +52,7 @@ bool Filter::match(const Animal& a) const
 //
 // E.g. (each node is shown as ID[Name]):
 //      7[Cat] -> 6[Cat] -> 5[Dog] -> 3[Cat] -> 1[Bird] -> 0[Cat]
-// should be printed in the following order using Filter{Name = "Cat"}: 
+// should be printed in the following order using Filter{Name = "Cat"}:
 //      0[Cat]
 //      3[Cat]
 //      6[Cat]
@@ -61,7 +61,7 @@ bool Filter::match(const Animal& a) const
 // The parameters ignoreCount and displayCount should be passed to the animal's display() function
 void AnimalLLnode::print(unsigned int& ignoreCount, unsigned int& displayCount, const Filter& filter) const
 {
-    
+
     // TODO
     if (next)
         next->print(ignoreCount, displayCount, filter);
@@ -71,7 +71,7 @@ void AnimalLLnode::print(unsigned int& ignoreCount, unsigned int& displayCount, 
 
 // TASK 2.3: BSTnode destructor
 BSTnode::~BSTnode()  {
-    
+
     // TODO
     for (AnimalLLnode *node{head}; node;)
     {
@@ -87,7 +87,7 @@ BSTnode::~BSTnode()  {
 // You may assume no two animals with the same ID will be added to a node
 // (this also means you should not add the same animal to a node twice!)
 void BSTnode::addAnimal(const Animal* a) {
-    
+
     // TODO
     if (!head || (head->animal && head->animal->getID() < a->getID()))
     {
@@ -120,7 +120,7 @@ void BSTnode::addAnimal(const Animal* a) {
 // If the animal does not exist, do nothing.
 // If there are no animals left after removing, set head to nullptr.
 void BSTnode::removeAnimal(const Animal* a) {
-    
+
     // TODO
     for (AnimalLLnode *prev{}, *node{head}; node; prev = node, node = node->next)
     {
@@ -139,7 +139,7 @@ void BSTnode::removeAnimal(const Animal* a) {
 
 // TASK 3.1: BST destructor
 BST::~BST() {
-    
+
     // TODO
     delete root;
 }
@@ -149,7 +149,7 @@ BST::~BST() {
 // Return a reference to the BSTnode* of the min node in this BST.
 BSTnode*& BST::findMinNode()
 {
-    
+
     // TODO
     if (!root)
         return root;
@@ -168,7 +168,7 @@ BSTnode*& BST::findMinNode()
 // - Otherwise, if the node is empty, create a new node using 'a'.
 void BST::insert(const Animal* a)
 {
-    
+
     // TODO
     if (!root)
         root = new BSTnode{a, comparator};
@@ -191,7 +191,7 @@ void BST::insert(const Animal* a)
 //   + Else, *move* the linked list from the right subtree's min node to current root, and deallocate right subtree's min node.
 void BST::remove(const Animal* a)
 {
-    
+
     // TODO
     if (!root)
         return;
@@ -239,7 +239,7 @@ void BST::remove(const Animal* a)
 // 7[Dog, Healthy] -> 3[Dog, Healthy]
 //                      9[Cat, Bad] -> 4[Cat, Healthy] -> 2[Cat, Very poor]
 //              1[Bird, Healthy]
-// 
+//
 // should print in the following order using Filter{Health = "Healthy"}:
 //      1[Bird, Healthy]
 //      4[Cat, Healthy]
@@ -248,7 +248,7 @@ void BST::remove(const Animal* a)
 //      8[Reptile, Healthy]
 void BST::print(unsigned int& ignoreCount, unsigned int& displayCount, const Filter& filter) const
 {
-    
+
     // TOD
     if (!root)
         return;

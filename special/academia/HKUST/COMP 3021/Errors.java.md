@@ -200,7 +200,7 @@ class Cursed1 {
    * (§12.4.1),
    * binary compatibility (§13.1), reachability (§14.22), and definite assignment
    * (§16.1.1).
-   * 
+   *
    * Constant expressions are used as case labels in switch statements and switch
    * expressions (§14.11, §15.28) and have a special significance in assignment
    * contexts (§5.2)
@@ -209,7 +209,7 @@ class Cursed1 {
    * while, do, or for statement to complete normally (§14.22), and the type of
    * conditional
    * operator ? : with numeric operands.
-   * 
+   *
    * true
    * (short)(1*2*3*4*5*6)
    * Integer.MAX_VALUE / 2
