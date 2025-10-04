@@ -79,13 +79,23 @@ Every piece of data in Scala has {@{a type}@}.
 
 {@{This categorization of "primitive types"}@} is not {@{very _rigorous_}@}. See {@{_top types_}@} instead.
 
-## function types
+### function types
 
 {@{Function types}@} are written as {@{`(<arg type 1>, ... <arg type N>) => <return type>`}@}. If {@{there is exactly 1 argument}@}, then {@{parentheses \(`()`\) are optional}@}.
 
 Functions types that {@{accept no arguments}@} are written as {@{`() => <return type>`}@}. Compare this with {@{call-by-name syntax `=> <return type>`}@}.
 
 {@{_Currying_ a multiple argument function}@} converts {@{the function into a sequence of functions that each takes a single argument}@}. The curried function type is {@{`<arg type 1> => ... => <arg type N> => <return type>`}@}. To support this, {@{function type}@} is {@{right-associative}@}, i.e. {@{`A => B => C` is `A => (B => C)`}@}.
+
+#### function type variance
+
+{@{A unary function type `A => B`}@} is {@{__contravariant__ in its parameter type `A`}@} and {@{__covariant__ in its result type `B`}@}. Formally, for {@{any types `A1`, `A2`, `B1`, `B2`}@} we have {@{`If A2 <: A1 and B1 <: B2 then A1 => B1 <: A2 => B2`}@}. The rule can be read as: a function that accepts {@{a _more general_ argument (`A1`)}@} and produces {@{a _more specific_ result (`B1`)}@} is itself {@{more specialized than one}@} that accepts {@{a _specific_ argument (`A2`)}@} and returns {@{a _general_ result (`B2`)}@}.
+
+For example, {@{`AnyVal => Orange`}@} is {@{a subtype of `Int => Fruit`}@}, because {@{the parameter type `AnyVal` is a supertype of `Int`}@} and {@{the result type `Orange` is a subtype of `Fruit`}@}.
+
+When a function has {@{several parameters}@}, {@{each parameter's variance}@} is {@{considered independently}@}. {@{The general rule for _n_‑ary functions}@} is that the overall function type is {@{contravariant in all argument positions}@} and {@{covariant in the result}@}. This may be derived by {@{currying the _n_-ary function}@}. Curried functions are {@{simply nested unary functions}@}. {@{Variance rules}@} apply {@{at each level}@}: {@{`f: (A, B) => C  ≡  f : A => B => C  ≡  f : A => (B => C)`}@}. For {@{the outermost function}@}, {@{`A` is contravariant while `B => C` is covariant}@}. {@{Covariance of `B => C`}@} means that {@{`B` is contravariant and `C` is covariant}@}. Thus {@{`AnyVal => AnyRef => Orange`}@} can be used where {@{an `Int => String => Fruit` is required}@}.
+
+The above {@{nested application of variance}@} also applies if function types are used as {@{argument types of another function type}@}.
 
 ### top types
 
@@ -150,6 +160,133 @@ The compiler infers {@{`T` to be `Int` or `Boolean`}@} respectively by inspectin
 Inference is {@{not always possible}@}; if a function has {@{multiple polymorphic parameters whose types are interdependent}@} or if {@{no arguments provide enough information}@}, the programmer must {@{specify the type explicitly}@}. However, for {@{most common patterns—especially single‑parameter generic functions}@}—the compiler can {@{resolve the type without assistance}@}.
 
 Thus, {@{Scala's type inference}@} seamlessly blends with {@{its generics feature}@}, enabling {@{concise yet type‑safe code}@}.
+
+### polymorphism
+
+{@{_Polymorphism_}@} refers to the ability of {@{a function or data structure}@} to handle {@{values of multiple types while preserving type safety}@}. In {@{statically‑typed languages}@} such as Scala, {@{the two principal forms}@} of polymorphism in this context are {@{__subtyping__ itself and __generics__, which provide parametric polymorphism}@}. Understanding {@{how these two interact}@} requires attention to {@{_bounds_ on type variables and to the _variance_ of type constructors}@}.
+
+{@{Subtyping polymorphism}@} is realized when {@{a value of a subtype can be used wherever its supertype is expected}@}, as in treating {@{a `NonEmpty` set where an `IntSet` is required}@}. It captures {@{"is‑a" relationships}@}.
+
+{@{Generic classes and methods}@} achieve {@{parametric polymorphism}@}: {@{`def assertAllPos[S <: IntSet](s: S): S = …`}@} accepts {@{any subtype of `IntSet`}@} and returns {@{the same concrete subtype}@}. {@{Generics (or type parameters)}@} allow us to write {@{code that works uniformly over any type within type bounds}@}.
+
+### type parameters
+
+Defining {@{a separate class \(e.g. `IntList`, `BooleanList`, etc.\) hierarchy}@} for {@{each element type}@} is {@{impractical}@}. Scala solves this by allowing {@{__type parameters__}@}, written in {@{square brackets after the name of a function, a trait, or class}@}. {@{A type parameter}@} behaves like {@{an abstract type}@} that can be {@{instantiated with any concrete type when the class is used}@}.
+
+By parameterising {@{both data structures and functions}@}, Scala achieves {@{full _type safety_ while remaining highly reusable}@}.
+
+#### generic types
+
+By parameterising {@{both data structures and functions}@}, Scala achieves {@{full _type safety_ while remaining highly reusable}@}. {@{The same `List`}@} trait can represent {@{sequences of integers, booleans, user‑defined classes, or even nested lists}@}, all without {@{duplicating code}@}.
+
+> [!example] __example__
+>
+> ```Scala
+> package ppl3
+>
+> trait List[T] {
+>   def isEmpty: Boolean
+>   def head: T
+>   def tail: List[T]
+> }
+>
+> class Cons[T](val head: T, val tail: List[T]) extends List[T] {
+>   def isEmpty = false
+> }
+>
+> class Nil[T] extends List[T] {
+>   def isEmpty = true
+>   def head = throw new NoSuchElementException("Nil.head")
+>   def tail = throw new NoSuchElementException("Nil.tail")
+> }
+> ```
+>
+> Here {@{`T`}@} represents {@{the element type}@}. {@{The concrete subclasses `Cons` and `Nil`}@} are {@{parameterised in exactly the same way}@}, ensuring that {@{a `Cons[Int]` can only be paired with another `List[Int]`}@}, and likewise for {@{any other type}@}.
+
+#### generic functions
+
+{@{Functions}@} may also be {@{generic}@} by declaring {@{type parameters in parentheses after the function name}@}:
+
+> [!example] __example__
+>
+> {@{Functions}@} may also be {@{generic}@} by declaring {@{type parameters in parentheses after the function name}@}:
+>
+> ```Scala
+> def singleton[T](elem: T): List[T] = Cons(elem, Nil)
+> ```
+
+{@{This factory method}@} constructs {@{a single‑element list}@} regardless of {@{the element's concrete type}@}. Its usage is {@{explicit}@}:
+
+> [!example] __example__
+>
+> Its usage is {@{explicit}@}:
+>
+> ```Scala
+> val intList   = singleton[Int](1)      // List[Int]
+> val boolList  = singleton[Boolean](true) // List[Boolean]
+> ```
+
+{@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}.
+
+#### type bounds
+
+{@{_Upper bounds_}@} constrain {@{a type variable to be a subtype of some type}@}: {@{`[S <: IntSet]`}@}. Conversely, {@{_lower bounds_}@} restrict the variable to be {@{a supertype of a given type: `[S >: NonEmpty]`}@}. {@{Mixed bounds}@} {@{combine both}@}, e.g. {@{`[S >: NonEmpty <: IntSet]`}@}, which narrows `S` to {@{any type between `NonEmpty` and `IntSet`}@}. These bounds are crucial when we want the compiler to {@{infer the most precise return type or to enforce safe substitutions}@}.
+
+> [!example] __example__
+>
+> Example of {@{an upper‑bounded generic method}@}:
+>
+> ```Scala
+> def assertAllPos[S <: IntSet](s: S): S = if (s.isPositive) s else throw new IllegalArgumentException
+> ```
+>
+> Here {@{`S`}@} can be {@{any concrete subclass of `IntSet`}@}, and the method returns {@{exactly that same subclass}@}.
+
+#### variance
+
+Scala lets us annotate {@{variance explicitly}@}:
+
+> [!example] __example__
+>
+> Scala lets us annotate variance explicitly:
+>
+> ```Scala
+> class C[+A]  // covariant
+> class D[-A]  // contravariant
+> class E[A]   // invariant
+> ```
+
+{@{A type constructor `C[T]`}@} is {@{_covariant_ (`+T`)}@} if, for {@{all types `A <: B`, we have `C[A] <: C[B]`}@}. This mirrors the intuitive idea that {@{a collection of more specific elements}@} is also {@{a collection of more general ones}@}. For instance, given {@{`NonEmpty <: IntSet`}@}, covariance would imply {@{`List[NonEmpty] <: List[IntSet]`}@}. Covariance is safe for {@{immutable collections where elements are never mutated after construction}@}. It is unsafe for {@{mutable collections that allow element updates}@}.
+
+{@{A type constructor `D[T]`}@} is {@{_contravariant_ (`-T`)}@} if {@{for all types `A <: B`, we have `D[B] <: D[A]` \(note `A` and `B` are reversed\)}@}. This is less intuitive but arises naturally in {@{function types and certain consumer roles}@}. For example, a {@{comparator that can compare any `IntSet`}@} can also compare {@{specifically `NonEmpty` sets}@}, hence {@{`Comparator[IntSet] <: Comparator[NonEmpty]`}@}. Contravariance is safe for {@{types that only consume values of type `T` (e.g., function parameters)}@}. It is unsafe for {@{types that produce values of type `T`}@}.
+
+{@{A type constructor `E[T]`}@} is {@{_invariant_ (no prefix)}@} if {@{neither covariance nor contravariance holds}@}. This is {@{the default}@} and safest choice when {@{neither relationship is appropriate}@}. Invariance is common for {@{mutable collections that both produce and consume elements}@}, as {@{mixing subtypes and supertypes}@} could lead to {@{type errors}@}. For {@{a bad example}@}, see {@{Java arrays \(not Scala arrays\), which are covariant _inappropriately_}@}.
+
+##### variance pitfalls
+
+{@{Java arrays}@} are {@{covariant (`NonEmpty[] <: IntSet[]`)}@}, but this leads to {@{runtime type‑errors}@}:
+
+> [!example] __example__
+>
+> {@{Java arrays}@} are {@{covariant (`NonEmpty[] <: IntSet[]`)}@}, but this leads to {@{runtime type‑errors}@}:
+>
+> ```Java
+> NonEmpty[] a = new NonEmpty[]{new NonEmpty()};
+> IntSet[] b = a;
+> b[0] = new Empty();   // compile‑time OK, but fails at run time
+> ```
+
+##### variance checks
+
+The compiler enforces {@{_variance checks_}@}: {@{a covariant type parameter}@} may {@{only appear in output positions (method return types)}@}, while {@{a contravariant one}@} may {@{only appear in input positions}@}. If a method {@{violates this rule}@}, the definition is {@{rejected}@}.
+
+To {@{understand this intuitively}@}, consider {@{the Liskov Substitution Principle (LSP)}@}, which states that {@{subtypes must be substitutable for their supertypes}@}: if {@{`A <: B`}@}, then {@{any program using an object of type `B`}@} should work {@{correctly when an object of type `A` is supplied}@}. Variance checks ensure that {@{this principle is upheld}@}.
+
+Consider {@{covariance}@}: if {@{`C[+T]` is covariant}@}, then {@{`C[A] <: C[B]` for `A <: B`}@}. If `C[T]` had {@{a method that accepted a parameter of type `T`}@}, then `C[A]` would have {@{a method that accepts an `A`}@}. However, since {@{`A <: B`}@}, this method could be {@{called with a `B`}@}, which violates the expectation that {@{`C[A]` only works with `A`}@}. Thus, allowing {@{covariant types to appear in input positions}@} would {@{break substitutability}@}.
+
+Consider {@{contravariance}@}: if {@{`C[-T]` is contravariant}@}, then {@{`C[B] <: C[A]` for `A <: B`}@}. If `C[T]` had {@{a method that returns a `T`}@}, then `C[B]` would have {@{a method that returns a `B`}@}. However, since {@{`A <: B`}@}, this method could be {@{expected to return an `A`}@}, which violates the expectation that {@{`C[B]` only produces `B`}@}. Thus, allowing {@{contravariant types to appear in output positions}@} would also {@{break substitutability}@}.
+
+By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime errors}@}.
 
 ## classes
 
@@ -663,67 +800,6 @@ Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{
 
 Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}. The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}.
 
-## type parameters
-
-Defining {@{a separate class \(e.g. `IntList`, `BooleanList`, etc.\) hierarchy}@} for {@{each element type}@} is {@{impractical}@}. Scala solves this by allowing {@{__type parameters__}@}, written in {@{square brackets after the name of a function, a trait, or class}@}. {@{A type parameter}@} behaves like {@{an abstract type}@} that can be {@{instantiated with any concrete type when the class is used}@}.
-
-By parameterising {@{both data structures and functions}@}, Scala achieves {@{full _type safety_ while remaining highly reusable}@}.
-
-### generic types
-
-By parameterising {@{both data structures and functions}@}, Scala achieves {@{full _type safety_ while remaining highly reusable}@}. {@{The same `List`}@} trait can represent {@{sequences of integers, booleans, user‑defined classes, or even nested lists}@}, all without {@{duplicating code}@}.
-
-> [!example] __example__
->
-> ```Scala
-> package ppl3
->
-> trait List[T] {
->   def isEmpty: Boolean
->   def head: T
->   def tail: List[T]
-> }
->
-> class Cons[T](val head: T, val tail: List[T]) extends List[T] {
->   def isEmpty = false
-> }
->
-> class Nil[T] extends List[T] {
->   def isEmpty = true
->   def head = throw new NoSuchElementException("Nil.head")
->   def tail = throw new NoSuchElementException("Nil.tail")
-> }
-> ```
->
-> Here {@{`T`}@} represents {@{the element type}@}. {@{The concrete subclasses `Cons` and `Nil`}@} are {@{parameterised in exactly the same way}@}, ensuring that {@{a `Cons[Int]` can only be paired with another `List[Int]`}@}, and likewise for {@{any other type}@}.
-
----
-
-### generic functions
-
-{@{Functions}@} may also be {@{generic}@} by declaring {@{type parameters in parentheses after the function name}@}:
-
-> [!example] __example__
->
-> {@{Functions}@} may also be {@{generic}@} by declaring {@{type parameters in parentheses after the function name}@}:
->
-> ```Scala
-> def singleton[T](elem: T): List[T] = Cons(elem, Nil)
-> ```
-
-{@{This factory method}@} constructs {@{a single‑element list}@} regardless of {@{the element's concrete type}@}. Its usage is {@{explicit}@}:
-
-> [!example] __example__
->
-> Its usage is {@{explicit}@}:
->
-> ```Scala
-> val intList   = singleton[Int](1)      // List[Int]
-> val boolList  = singleton[Boolean](true) // List[Boolean]
-> ```
-
-{@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}.
-
 ## syntax
 
 ### identifiers
@@ -916,77 +992,53 @@ Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annot
 
 {@{The immutability of the data structure}@} is guaranteed by making {@{all fields `val`s (read‑only) and by never providing mutation methods}@}. {@{This simple algebraic type definition}@} forms {@{the backbone of many functional algorithms}@}—{@{folds, maps, filters}@}—that rely on {@{structural recursion over cons‑lists}@}.
 
-### lists
+### tuples
 
-In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
-
-> [!example] __example__
->
-> A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
->
-> ```Scala
-> val fruits = List("apples", "oranges", "pears")
-> val nums   = List(1, 2, 3, 4)
-> val diag3  = List(List(1,0,0), List(0,1,0), List(0,0,1))
-> val empty  = List()
-> ```
-
-Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}.
-
-{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}:
+{@{A two‑element pair `(x, y)`}@} is syntactic sugar for {@{a tuple of type `Tuple2[T1, T2]`}@}. {@{The tuple expression `(e1, e2)`}@} is equivalent to {@{the constructor call `scala.Tuple2(e1, e2)`}@}. The pattern {@{extends to more elements}@}: {@{the expression `(p1, ..., pN)`}@} expands to {@{`scala.TupleN(p1, ..., p2)`}@}. For {@{small tuples (up to 22 elements)}@}, Scala provides {@{the type aliases `TupleN` and the corresponding case classes}@}:
 
 > [!example] __example__
 >
-> Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}:
+> For {@{small tuples (up to 22 elements)}@}, Scala provides {@{the type aliases `TupleN` and the corresponding case classes}@}:
 >
 > ```Scala
-> val nums = 1 :: 2 :: 3 :: 4 :: Nil
+> case class Tuple2[+T1, +T2](_1: T1, _2: T2)
 > ```
 
-{@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}.
-
-{@{The basic list API}@} exposes {@{three core methods}@}:
-
-- `head`, ::@:: which returns the first element;
-- `tail`, ::@:: which yields a new list containing all elements except the head;
-- `isEmpty`, ::@:: which reports whether the list contains no elements.
-
-{@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}.
-
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non‑empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, …, pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}.
-
-Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}.
-
-#### list sorting
-
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+{@{The fields of a tuple}@} are {@{accessed through the names `_1`, `_2`, etc.}@}:
 
 > [!example] __example__
 >
-> The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+> {@{The fields of a tuple}@} are {@{accessed through the names `_1`, `_2`, etc.}@}:
 >
 > ```Scala
-> def isort(xs: List[Int]): List[Int] = xs match {
->   case Nil      => Nil
->   case y :: ys  => insert(y, isort(ys))
-> }
+> val label = pair._1
+> val value = pair._2
 > ```
 
-{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
+{@{Pattern matching}@} on tuples is usually {@{preferred for readability}@}.
+
+#### tuple as the only function argument
+
+Scala distinguishes between {@{functions that take two or more separate arguments}@} and those that {@{take a single tuple argument}@}:
+
+- `f: (T, T) => Boolean` ::@:: – a function expecting two parameters.
+- `g: ((T, T)) => Boolean` ::@:: – a function whose single parameter is a pair.
+
+The compiler accepts {@{both calling syntaxes for the latter}@}, while the former {@{must be called with separate arguments}@}. For example:
 
 > [!example] __example__
 >
-> {@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
+> The compiler accepts {@{both calling syntaxes for the latter}@}, while the former {@{must be called with separate arguments}@}. For example:
 >
 > ```Scala
-> def insert(x: Int, xs: List[Int]): List[Int] = xs match {
->   case Nil      => List(x)
->   case y :: ys =>
->     if (x < y) x :: xs else y :: insert(x, ys)
-> }
+> val g: ((Int, Int)) => Boolean = _ => true
+> g((0, 1))   // correct and formal
+> g(0, 1)     // also compiles
+>
+> val f: (Int, Int) => Boolean = _ > _
+> f(0, 1)     // correct
+> f((0, 1))   // does NOT compile
 > ```
-
-{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to \(N \times N\)}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}.
 
 ### pre-definitions
 

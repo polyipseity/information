@@ -246,8 +246,11 @@ The content is in teaching order.
   - Scala / Scala 3
     - [§ case classes](Scala%203.md#case%20classes): case classes, case classes syntax
     - [§ pattern matching](Scala%203.md#pattern%20matching): pattern matching, pattern matching syntax, variable binding, `sealed`, exhaustive matching, separation of behavior from data
-    - [§ lists](Scala%203.md#lists): lists, immutability, recursive, homogeneity, constructors, right associativity, list operations, pattern matching on lists
-    - [§ list sorting](Scala%203.md#list%20sorting): sorting, insertion sort
+  - Scala / [list](Scala%20list.md)
+    - [§ Scala list](Scala%20list.md#Scala%20list): lists, immutability, recursive, homogeneity, constructors, right associativity, list operations, pattern matching on lists
+  - Scala / [algorithms](Scala%20algorithms.md)
+    - [§ insertion sort](Scala%20algorithms.md#insertion%20sort): sorting, insertion sort
+  - Scala / Scala 3
     - [§ enumerations](Scala%203.md#enumerations): pure data structures, case classes, enumerations, simple enumerations, parameterized enumerations, pattern matching on enumerations, methods, `Enum.ordinal`, `Enum.values`, domain modeling
 - pattern matching
   - pattern matching / functional languages ::@:: __Functional languages__ (OCaml, Haskell) express algebraic data types with minimal syntax: <p> - OCaml: `type expr = Number of int | Sum of expr * expr` and a recursive `eval` using `match`. <br/> - Haskell: `data Expr = Number Int | Sum Expr Expr` with pattern‑matching function definitions.
@@ -273,12 +276,40 @@ The content is in teaching order.
 ## week 3 lecture
 
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
-- topic:
+- topic: polymorphism; type bound; variance; variance of functions; list covariance; list methods
+- Scala
+  - Scala / Scala 3
+    - [§ polymorphism](Scala%203.md#polymorphism): polymorphism, subtyping polymorphism, parametric polymorphism
+    - [§ type bounds](Scala%203.md#type%20bounds): type bounds, upper bounds, lower bounds, mixed bounds
+    - [§ variance](Scala%203.md#variance): variance, covariance, contravariance, invariance
+    - [§ variance pitfalls](Scala%203.md#variance%20pitfalls): variance pitfalls, Java arrays, covariance of Java arrays
+    - [§ variance checks](Scala%203.md#variance%20checks): variance checks
+    - [§ function type variance](Scala%203.md#function%20type%20variance): function type variance, contravariant parameter types, covariant return types, multiple arguments, currying, function types as argument types
+  - Scala / [list](Scala%20list.md)
+    - [§ covariance](Scala%203listmd#covariance): list covariance, list covariance implementation
+    - [§ methods](Scala%20list.md#methods): list methods
 
 ## week 3 lecture 2
 
 - datetime: 2025-09-18T12:00:00+08:00/2025-09-18T13:20:00+08:00, PT1H20M
-- topic:
+- topic: merge sort
+- Scala
+  - Scala / algorithms
+    - [§ merge sort](Scala%20algorithms.md#merge%20sort): sorting, merge sort
+    - [§ merge sort splitting](Scala%20algorithms.md#merge%20sort%20splitting): splitting in merge sort
+  - Scala / Scala 3
+    - [§ tuples](Scala%203.md#tuples): tuples
+  - Scala / algorithms
+    - [§ merge sort merging](Scala%20algorithms.md#merge%20sort%20merging): merging in merge sort
+    - [§ sorting arbitrary types](Scala%20algorithms.md#sorting%20arbitrary%20types): sorting arbitrary types, comparator
+  - Scala / Scala 3
+    - [§ tuple as the only function argument](Scala%203.md#tuple%20as%20the%20only%20function%20argument): tuple as the only function argument, function call syntax
+  - Scala / list
+    - [§ higher-order methods](Scala%20list.md#higher-order%20methods): higher-order methods, map, filter, reduce
+    - [§ map](Scala%20list.md#map): map, map example
+    - [§ filter](Scala%20list.md#filter): filter, filter example
+    - [§ pack](Scala%20list.md#pack): pack, pack example
+    - [§ reduce](Scala%20list.md#reduce): reduce, `reduceLeft`, `foldLeft`, initial value, `reduceRight`, `foldRight`, reduce example
 
 ## week 4 lab
 
