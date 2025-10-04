@@ -946,9 +946,9 @@ The content is in teaching order.
 >
 > \[redacted\]
 >
-> __Time:__ March 29, 12:30-15:30 <br/>
-> __Exam Venue:__ LG3009, Lift 10-12 <br/>
-> __Exam Duration:__ 120 min
+> __Time:__ March 29, 12:30-15:30 <br/>
+> __Exam Venue:__ LG3009, Lift 10-12 <br/>
+> __Exam Duration:__ 120 min
 >
 > __Exam Run-Down:__
 >

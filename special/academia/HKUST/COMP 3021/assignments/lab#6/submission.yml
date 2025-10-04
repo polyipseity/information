@@ -29,7 +29,7 @@ assignment:
 
     Download TestLab6.java
 
-     
+     
 
     If your output display ''?'' instead of those in the intended output, please refer
     to the following solution.
@@ -45,7 +45,7 @@ assignment:
 
     TL;DR answer:
 
-    Go to Settings -> Editor -> File Encodings -> Project Encoding and set it to "UTF-8".'
+    Go to Settings -> Editor -> File Encodings -> Project Encoding and set it to "UTF-8".'
   grade:
     entered: 1
     graded anonymously: false

@@ -77,11 +77,11 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]` \(where `Apple` and `Orange` are _direct_ subclasses of `Fruit`\)}@} yields {@{a `List[Fruit]`}@}.
 
-An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
+An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
 
 > [!example] __example__
 >
-> An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
+> An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
 >
 > ```Scala
 > extension [T](x: T)
@@ -364,7 +364,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 >     this match
 >       case Nil          => throw IllegalOperationException("Nil.reduceLeft")
 >       case x :: xs     => xs.foldLeft(x)(op)
-> 
+>
 >   def foldLeft[U](z: U)(op: (U, T) => U): U =
 >     this match
 >       case Nil          => z
