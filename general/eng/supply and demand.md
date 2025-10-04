@@ -37,7 +37,7 @@ In {@{[macroeconomics](macroeconomics.md)}@}, as well, {@{the [aggregate demand-
 
 {@{A rise in the cost of raw materials}@} would {@{decrease supply, shifting the supply curve to the left}@} because {@{at each possible price a smaller quantity would be supplied}@}. This shift may also be thought of as {@{an upwards shift in the supply curve}@}, because {@{the price must rise for producers to supply a given quantity}@}. {@{A fall in production costs}@} would {@{increase supply, shifting the supply curve to the right and down}@}.
 
-Mathematically, a supply curve is represented by {@{a supply function, giving the quantity supplied as a function of its price and as many other variables as desired to better explain quantity supplied}@}. The two most common specifications are:
+Mathematically, {@{a supply curve}@} is represented by {@{a supply function}@}, giving {@{the quantity supplied as a function of its price}@} and {@{as many other variables as desired to better explain quantity supplied}@}. The two most common specifications are:
 
 1. linear supply function, :@:; e.g., the slanted line $$Q(P)=3P-6 \,,$$ and
 2. the constant-[elasticity](elasticity%20(economics).md)<sup>[\[1\]](#^ref-1)</sup> supply function (also called [isoelastic](isoelastic%20function.md) or log-log or loglinear supply function), ::@:: e.g., the smooth curve $$Q(P)=5P^{0.5}$$ which can be rewritten as $$\log Q(P)=\log 5+0.5\log P \,.$$
