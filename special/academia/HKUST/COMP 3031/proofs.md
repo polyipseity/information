@@ -53,7 +53,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 Consider {@{the standard recursive definition of factorial}@} in Scala:
 
-> [!example] __example__
+> [!example] __factorial definition__
 >
 > Consider {@{the standard recursive definition of factorial}@} in Scala:
 >
@@ -65,7 +65,7 @@ Consider {@{the standard recursive definition of factorial}@} in Scala:
 
 We wish to prove that for {@{all integers $n \ge 4$}@}, {@{$$\texttt{factorial}(n) \;>\; 2^n \,.$$}@}
 
-> [!info] __proof__
+> [!example] __proof__
 >
 > {@{_Base case._}@} `factorial(4)` {@{evaluates to `24`, and `2^4 = 16`}@}; thus {@{the inequality holds}@}.
 >
@@ -85,7 +85,7 @@ We wish to prove that for {@{all integers $n \ge 4$}@}, {@{$$\texttt{factorial}(
 
 Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs ::: (ys ::: zs)`}@}. {@{The definition of `:::`}@} is:
 
-> [!example] __example__
+> [!example] __concatenation definition__
 >
 > {@{The definition of `:::`}@} is:
 >
@@ -101,7 +101,7 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 
 <!-- markdownlint MD028 -->
 
-> [!info] __proof__
+> [!example] __proof__
 >
 > {@{__Base case (`xs = Nil`).__}@}
 >
@@ -139,7 +139,7 @@ To {@{prove `xs ::: Nil = xs`}@}, the proof {@{proceeds similarly}@}. {@{The bas
 
 Define {@{list reversal}@} recursively:
 
-> [!example] __example__
+> [!example] __`reverse` definition__
 >
 > Define {@{list reversal}@} recursively:
 >
@@ -155,7 +155,7 @@ Define {@{list reversal}@} recursively:
 
 We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reverse.reverse = xs`}@}.
 
-> [!info] __proof__
+> [!example] __proof__
 >
 > {@{__Base case (`xs = Nil`).__}@} {@{`Nil.reverse.reverse`}@} reduces to {@{`Nil`, matching the right‑hand side}@}.
 >
@@ -196,7 +196,7 @@ A further law often used in functional programming is that {@{mapping a function
 
 To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}:
 
-> [!example] __example__
+> [!example] __`map` definition__
 >
 > In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}:
 >

@@ -25,7 +25,7 @@ tags:
 
 {@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
 
-> [!example] __example__
+> [!example] __insertion sort__
 >
 > The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
 >
@@ -38,7 +38,7 @@ tags:
 
 {@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
 
-> [!example] __example__
+> [!example] __insertion sort insertion__
 >
 > {@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
 >
@@ -56,7 +56,7 @@ tags:
 
 {@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
 
-> [!example] __example__
+> [!example] __merge sort__
 >
 > {@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
 >
@@ -76,7 +76,7 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 
 {@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}:
 
-> [!example] __example__
+> [!example] __merge sort splitting__
 >
 > {@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}:
 >
@@ -87,7 +87,7 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 
 One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
 
-> [!example] __example__
+> [!example] __`List.splitAt`__
 >
 > One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
 >
@@ -101,7 +101,7 @@ One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
 
 {@{A safe and exhaustive definition}@} of the merge step uses {@{pattern matching on both input lists}@}:
 
-> [!example] __example__
+> [!example] __merge sort merging__
 >
 > {@{A safe and exhaustive definition}@} of the merge step uses {@{pattern matching on both input lists}@}:
 >
@@ -118,13 +118,11 @@ One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
 
 The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}.
 
----
-
 ### sorting arbitrary types
 
 To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}:
 
-> [!example] __example__
+> [!example] __merge sort with comparator__
 >
 > {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}:
 >
@@ -147,7 +145,7 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 
 {@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}:
 
-> [!example] __example__
+> [!example] __using merge sort with comparator__
 >
 > {@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}:
 >

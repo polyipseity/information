@@ -878,9 +878,9 @@ Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `
 
 #### for expressions in other languages
 
-{@{Many other languages}@} offer {@{similar declarative mechanisms for combinatorial enumeration}@}. For instance, Python's list comprehensions, Haskell's list comprehensions, and F\#'s sequence expressions all allow concise generation of nested pairs subject to predicates:
+{@{Many other languages}@} offer {@{similar declarative mechanisms for combinatorial enumeration}@}. For instance, {@{Python's list comprehensions, Haskell's list comprehensions, and F\#'s sequence expressions}@} all allow {@{concise generation of nested pairs subject to predicates}@}:
 
-> [!example] __example__
+> [!example] __for expressions in other languages__
 >
 > For instance, {@{Python's list comprehensions}@}:
 >
@@ -897,10 +897,7 @@ Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `
 > {@{F\#'s sequence expressions}@}:
 >
 > ```F#
-> [for i in 1 .. n-1 do
->  for j in 1 .. i-1 do
->  if isPrime(i + j) then
->  yield (i, j)]
+> [for i in 1 .. n-1 do for j in 1 .. i-1 do if isPrime(i + j) then yield (i, j)]
 > ```
 >
 > all allow {@{concise generation of nested pairs subject to predicates}@}.

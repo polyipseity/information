@@ -29,7 +29,7 @@ tags:
 
 In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
 
-> [!example] __example__
+> [!example] __list construction__
 >
 > A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
 >
@@ -44,12 +44,13 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}:
 
-> [!example] __example__
+> [!example] __operator associativity__
 >
 > Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}:
 >
 > ```Scala
-> val nums = 1 :: 2 :: 3 :: 4 :: Nil
+> val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
+> val nums = 1 ::  2 ::  3 ::  4 :: Nil     // Equivalent
 > ```
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}.
@@ -72,22 +73,24 @@ Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` 
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}.
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method’s parameter}@}:
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
 
-> [!example] __example__
+> [!example] __implementing `prepend` on `List`__
 >
-> To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
+> However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list (e.g. `prepend(elem: T): List[T]`)}@} {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}:
 >
 > ```Scala
 > trait List[+T]:
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
+>
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}.
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]` \(where `Apple` and `Orange` are _direct_ subclasses of `Fruit`\)}@} yields {@{a `List[Fruit]`}@}.
 
 An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
 
-> [!example] __example__
+> [!example] __implementing `prepend` on `List` using extension method__
 >
 > An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}:
 >
@@ -102,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked‑list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example:
 
-> [!example] __example__
+> [!example] __list construction__
 >
 > A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example:
 >
@@ -113,20 +116,20 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 
 {@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head`}@}, {@{the tail by `.tail`}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}:
 
-> [!example] __example__
+> [!example] __list decomposition__
 >
 > {@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head`}@}, {@{the tail by `.tail`}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}:
 >
 > ```Scala
 > val fruits = List("Apple", "Orange", "Banana")
-> val nums   = 1 :: 2 :: Nil          // equivalent to List(1, 2)
+> val nums   = 1 :: 2 :: Nil   // equivalent to List(1, 2)
 >
-> fruits.head      // "Apple"
-> nums.tail        // 2 :: Nil
-> nums.isEmpty     // false
+> fruits.head                  // "Apple"
+> nums.tail                    // 2 :: Nil
+> nums.isEmpty                 // false
 >
 > nums match {
->   case x :: y :: _ => x + y   // 3
+>   case x :: y :: _ => x + y  // 3
 > }
 > ```
 
@@ -136,7 +139,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 
 {@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}.
 
-> [!example] __example__
+> [!example] __`List.last`, `List.init`__
 >
 > {@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}:
 >
@@ -158,7 +161,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 
 {@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}.
 
-> [!example] __example__
+> [!example] __concatenation operator `:::`__
 >
 > {@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}.
 >
@@ -172,7 +175,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 
 {@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}:
 
-> [!example] __example__
+> [!example] __`List.reverse`__
 >
 > {@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}:
 >
@@ -188,7 +191,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}:
 
-> [!example] __example__
+> [!example] __`List.removeAt`__
 >
 > {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}:
 >
@@ -202,7 +205,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 {@{A "deep" flattening routine}@} demonstrates {@{recursion over heterogeneous structures}@}:
 
-> [!example] __example__
+> [!example] __`deepFlatten`__
 >
 > {@{A "deep" flattening routine}@} demonstrates {@{recursion over heterogeneous structures}@}:
 >
@@ -228,7 +231,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 {@{A generic `map`}@} applies {@{a function to each element of the list}@}:
 
-> [!example] __example__
+> [!example] __`map`__
 >
 > {@{A generic `map`}@} applies {@{a function to each element of the list}@}:
 >
@@ -242,7 +245,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 
-> [!example] __example__
+> [!example] __`map` example__
 >
 > Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 >
@@ -255,7 +258,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 
 {@{Filtering \(`filter`\)}@} extracts {@{elements that satisfy a Boolean predicate}@}:
 
-> [!example] __example__
+> [!example] __`filter`__
 >
 > {@{Filtering \(`filter`\)}@} extracts {@{elements that satisfy a Boolean predicate}@}:
 >
@@ -271,7 +274,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 
 {@{The `posElems`}@} example becomes, using {@{`filter`}@}:
 
-> [!example] __example__
+> [!example] __`filter` example__
 >
 > {@{The `posElems`}@} example becomes, using {@{`filter`}@}:
 >
@@ -286,9 +289,9 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 
 {@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}:
 
-> [!example] __example__
+> [!example] __`pack`__
 >
-> {@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}:
+> {@{The `pack` function}@} groups {@{consecutive duplicate elements into sublists}@}:
 >
 > ```Scala
 > def pack[T](xs: List[T]): List[::[T]] =
@@ -298,12 +301,14 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as:
 >       val (more, rest) = xs1.span(y => y == x)
 >       (new ::(x, more)) :: pack(rest)
 > ```
+>
+> In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}.
 
 In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}.
 
 Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained:
 
-> [!example] __example__
+> [!example] __`pack` example__
 >
 > Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained:
 >
@@ -318,7 +323,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 
 {@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}:
 
-> [!example] __example__
+> [!example] __`reduceLeft`__
 >
 > {@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}:
 >
@@ -328,7 +333,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 
 Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 
-> [!example] __example__
+> [!example] __`reduceLeft` example__
 >
 > Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 >
@@ -338,7 +343,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 
 {@{`reduceLeft`}@} does not {@{support empty lists}@}. {@{`foldLeft`}@} generalises `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value, and returned for the empty list}@}:
 
-> [!example] __example__
+> [!example] __`foldLeft`__
 >
 > {@{`reduceLeft`}@} does not {@{support empty lists}@}. {@{`foldLeft`}@} generalises {@{`reduceLeft` by supplying an initial accumulator `z`}@} that is {@{used as a starting value, and returned for the empty list}@}:
 >
@@ -349,7 +354,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 
 {@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@}:
 
-> [!example] __example__
+> [!example] __`reduceRight`, `foldRight`__
 >
 > {@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@}:
 >
@@ -362,7 +367,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 
 {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}:
 
-> [!example] __example__
+> [!example] __`reduceLeft`, `foldLeft` implementation__
 >
 > {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}:
 >
@@ -370,22 +375,24 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes:
 > sealed abstract class List[T]:
 >   def reduceLeft(op: (T, T) => T): T =
 >     this match
->       case Nil          => throw IllegalOperationException("Nil.reduceLeft")
->       case x :: xs     => xs.foldLeft(x)(op)
+>       case Nil      => throw IllegalOperationException("Nil.reduceLeft")
+>       case x :: xs  => xs.foldLeft(x)(op)
 >
 >   def foldLeft[U](z: U)(op: (U, T) => U): U =
 >     this match
->       case Nil          => z
->       case x :: xs     => xs.foldLeft(op(z, x))(op)
+>       case Nil      => z
+>       case x :: xs  => xs.foldLeft(op(z, x))(op)
 > ```
+>
+> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}.
 
 {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}.
 
-For {@{an example of `reduceLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
+For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
 
-> [!example] __example__
+> [!example] __`foldLeft` example__
 >
-> For {@{an example of `reduceLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
+> For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}:
 >
 > ```Scala
 > def reverse[T](xs: List[T]): List[T] =
@@ -398,7 +405,7 @@ In Scala, {@{`List`}@} is {@{a singly‑linked list}@}: {@{accessing the head is
 
 Vectors are constructed {@{in exactly the same way as lists}@}:
 
-> [!example] __example__
+> [!example] __`Vector` construction__
 >
 > Vectors are constructed {@{in exactly the same way as lists}@}:
 >
@@ -416,7 +423,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 {@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]`}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write:
 
-> [!example] __example__
+> [!example] __Java sequence examples__
 >
 > {@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]`}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write:
 >
@@ -432,7 +439,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 {@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available:
 
-> [!example] __example__
+> [!example] __`Range` examples__
 >
 > {@{Three constructor operators}@} are available:
 >
@@ -459,9 +466,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 
 These operations are typically implemented via {@{recursion or tail‑recursion}@} over {@{the underlying list structure}@}.
 
-> [!example] __example__
->
-> {@{_Combinations._}@}
+> [!example] __combinations__
 >
 > To enumerate {@{all pairs `(x, y)` with `x ∈ 1..M` and `y ∈ 1..N`}@}, one can write:
 >
@@ -471,9 +476,7 @@ These operations are typically implemented via {@{recursion or tail‑recursion}
 
 <!-- markdownlint MD028 -->
 
-> [!example] __example__
->
-> {@{_Scalar product._}@}
+> [!example] __scalar product__
 >
 > Given {@{two numeric vectors of equal length}@}, {@{their scalar product}@} is {@{the sum of element‑wise products}@}. In Scala this can be expressed concisely:
 >
@@ -486,9 +489,7 @@ These operations are typically implemented via {@{recursion or tail‑recursion}
 
 <!-- markdownlint MD028 -->
 
-> [!example] __example__
->
-> {@{_Primality test._}@}
+> [!example] __primality test__
 >
 > {@{A concise way}@} to test whether {@{an integer `n` is prime}@} uses {@{the `forall` operation}@}:
 >
@@ -503,7 +504,7 @@ These operations are typically implemented via {@{recursion or tail‑recursion}
 
 {@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples:
 
-> [!example] __example__
+> [!example] __`Map` construction__
 >
 > {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples:
 >
@@ -514,7 +515,7 @@ These operations are typically implemented via {@{recursion or tail‑recursion}
 
 Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
 
-> [!example] __example__
+> [!example] __`Map` as a function example__
 >
 > Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
 >
@@ -524,9 +525,9 @@ Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} a
 
 Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuchElementException`}@}; {@{safer access}@} is provided by {@{the `get` method}@} which {@{returns an `Option[Value]`}@}. {@{The `Option` type}@} has {@{two subclasses, `Some(value)` and `None`}@}, enabling {@{pattern matching}@}:
 
-> [!example] __example__
+> [!example] __`Map.get` example__
 >
-> Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
+> Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuchElementException`}@}; {@{safer access}@} is provided by {@{the `get` method}@} which {@{returns an `Option[Value]`}@}.
 >
 > ```Scala
 > def showCapital(country: String) =
@@ -540,13 +541,14 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 
 Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}:
 
-> [!example] __example__
+> [!example] __`++` and `+` example__
 >
 > Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}:
 >
 > ```Scala
 > val m1 = Map("red" -> 1, "blue" -> 2)
-> val m2 = m1 + ("blue" -> 3)  // blue now maps to 3
+> val m2 = m1 + ("blue" -> 3)      // blue now maps to 3
+> val m3 = m1 ++ Map("blue" -> 3)  // same as above
 > ```
 
 {@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}.
@@ -555,7 +557,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 
 {@{Ordering a collection}@} can be expressed with {@{`sortWith` or `sorted`}@}. For example:
 
-> [!example] __example__
+> [!example] __`sortWith` and `sorted` examples__
 >
 > {@{Ordering a collection}@} can be expressed with {@{`sortWith` or `sorted`}@}. For example:
 >
@@ -565,9 +567,9 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > fruit.sorted                         // natural ordering
 > ```
 
-{@{Grouping}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}:
+{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}:
 
-> [!example] __example__
+> [!example] __`groupBy` examples__
 >
 > {@{Grouping}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}:
 >
@@ -580,13 +582,17 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 
 <!-- markdownlint MD028 -->
 
-> [!example] __example__
+> [!example] __polynomial__
 >
 > {@{A polynomial}@} can be represented as {@{a map from exponent to coefficient}@}. For instance, {@{`x^3 - 2x + 5`}@} becomes:
 >
 > ```Scala
 > Map(0 -> 5, 1 -> -2, 3 -> 1)
 > ```
+
+<!-- markdownlint MD028 -->
+
+> [!example] __`Polynomial`__
 >
 > {@{This observation}@} motivates {@{the following `Polynomial` class}@}, which stores {@{its terms in an immutable map}@} and provides {@{arithmetic operations}@}:
 >
@@ -619,6 +625,10 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 >     }
 > }
 > ```
+
+To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided:
+
+> [!example] __`Polynomial` varargs constructor__
 >
 > To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided:
 >
@@ -630,7 +640,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 
 {@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}:
 
-> [!example] __example__
+> [!example] __`Set` construction__
 >
 > Sets are declared {@{in the same way as sequences}@}:
 >
@@ -641,7 +651,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 
 {@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance
 
-> [!example] __example__
+> [!example] __`Set` methods__
 >
 > {@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance
 >
@@ -656,7 +666,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 
 {@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}:
 
-> [!example] __example__
+> [!example] __`Set` deduplication__
 >
 > {@{A small example}@} shows {@{how duplicate values collapse}@}:
 >
