@@ -784,6 +784,53 @@ When {@{defining extension methods}@}, they cannot {@{access `private` members o
 
 To {@{call extension methods}@}, they need to be {@{visible in the calling context}@}. {@{The exact rules}@} are {@{hard to explain now}@}, and some common cases are {@{companion object of the type \(code `object <name>` where `<name>` is the same as that of the type\)}@} and {@{defined or imported in the current scope}@}.
 
+### varargs
+
+Scala permits {@{a single method or constructor parameter}@} to be {@{declared as _repeated_}@}, meaning the caller may {@{supply any number of arguments of that type}@}. {@{A repeated parameter}@} is written with {@{an asterisk (`*`) after the element type}@}, e.g.:
+
+> [!example] __example__
+>
+> {@{A repeated parameter}@} is written with {@{an asterisk (`*`) after the element type}@}, e.g.:
+>
+> ```Scala
+> def sum(nums: Int*): Int = nums.sum
+> ```
+
+The compiler {@{desugars `nums` to a `Seq[Int]`}@}, so inside the method it behaves {@{like any other sequence}@}. {@{The call syntax}@} remains {@{that of ordinary arguments}@}:
+
+> [!example] __example__
+>
+> {@{The call syntax}@} remains {@{that of ordinary arguments}@}:
+>
+> ```Scala
+> sum(1, 2, 3)  // returns 6
+> sum()         // returns 0
+> ```
+
+Repeated parameters are especially handy for {@{constructing collections without an explicit intermediate `List` or `Vector`}@}. For instance, {@{the `Polynomial` class}@} can accept {@{an arbitrary number of `(Int, Double)` bindings}@}:
+
+> [!example] __example__
+>
+> For instance, {@{the `Polynomial` class}@} can accept {@{an arbitrary number of `(Int, Double)` bindings}@}:
+>
+> ```Scala
+> 
+> class Polynomial(nonZeroTerms: Map[Int, Double]) {
+>   def this(bindings: (Int, Double)*) = this(bindings.toMap)
+>   /* ... */
+> }
+> ```
+>
+> Now one can {@{write succinctly}@}:
+>
+> ```Scala
+> val p = Polynomial(1 -> 2.0, 3 -> 4.5, 5 -> -1.0)
+> ```
+>
+> because the compiler bundles {@{the supplied pairs into a `Seq[(Int, Double)]`}@}.
+
+{@{Varargs}@} provide {@{a concise and type‑safe alternative to variadic C functions}@} while preserving {@{Scala's functional collection APIs}@}.
+
 ## evaluation
 
 The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}.
@@ -1039,6 +1086,35 @@ The compiler accepts {@{both calling syntaxes for the latter}@}, while the forme
 > f(0, 1)     // correct
 > f((0, 1))   // does NOT compile
 > ```
+
+### options
+
+In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:  
+
+> [!example] __example__
+>
+> In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:  
+>
+> ```Scala
+> sealed abstract class Option[+A]
+> case class Some[A](value: A) extends Option[A]
+> object None extends Option[Nothing]
+> ```
+
+{@{An instance of `Option`}@} represents {@{the presence (`Some`) or absence (`None`) of a value}@}, thereby {@{avoiding null references}@}. Because `Option` is {@{an algebraic data type}@}, it can be {@{pattern‑matched safely}@}:
+
+> [!example] __example__
+>
+> Because `Option` is {@{an algebraic data type}@}, it can be {@{pattern‑matched safely}@}:
+>
+> ```Scala
+> def describe(opt: Option[Int]): String = opt match {
+>   case Some(n) => s"The number is $n"
+>   case None    => "No number provided"
+> }
+> ```
+
+{@{The standard library}@} supplies {@{numerous combinators (`map`, `flatMap`, `getOrElse`, etc.)}@} that let callers manipulate {@{the contained value when it exists while propagating absence otherwise}@}. This design makes {@{optional values explicit}@}, enabling {@{more robust and expressive code}@}.
 
 ### pre-definitions
 

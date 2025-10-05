@@ -1,23 +1,31 @@
 ---
 aliases:
-  - COMP 3031 Scala list
-  - COMP 3031 Scala lists
-  - COMP3031 Scala list
-  - COMP3031 Scala lists
-  - HKUST COMP 3031 Scala list
-  - HKUST COMP 3031 Scala lists
-  - HKUST COMP3031 Scala list
-  - HKUST COMP3031 Scala lists
-  - Scala list
-  - Scala lists
+  - COMP 3031 Scala collection
+  - COMP 3031 Scala collections
+  - COMP3031 Scala collection
+  - COMP3031 Scala collections
+  - HKUST COMP 3031 Scala collection
+  - HKUST COMP 3031 Scala collections
+  - HKUST COMP3031 Scala collection
+  - HKUST COMP3031 Scala collections
+  - Scala collection
+  - Scala collections
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3031/list
+  - flashcard/active/special/academia/HKUST/COMP_3031/collections
   - language/in/English
 ---
 
-# Scala list
+# Scala collections
 
 - HKUST COMP 3031
+
+## hierarchy
+
+{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java‑backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}.
+
+{@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}.
+
+## list
 
 In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
 
@@ -58,7 +66,7 @@ Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} mat
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}.
 
-## covariance
+### list covariance
 
 Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}.
 
@@ -90,7 +98,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 >
 > This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}.
 
-## methods
+### list methods
 
 Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked‑list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example:
 
@@ -382,4 +390,238 @@ For {@{an example of `reduceLeft`}@}, {@{a linear‑time reverse}@} is obtained 
 > ```Scala
 > def reverse[T](xs: List[T]): List[T] =
 >   xs.foldLeft[List[T]](Nil)((acc, x) => x :: acc)
+> ```
+
+## vector
+
+In Scala, {@{`List`}@} is {@{a singly‑linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing the whole prefix of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32‑element blocks}@}; this design gives {@{roughly logarithmic‑time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}.
+
+Vectors are constructed {@{in exactly the same way as lists}@}:
+
+> [!example] __example__
+>
+> Vectors are constructed {@{in exactly the same way as lists}@}:
+>
+> ```Scala
+> val nums   = Vector(1, 2, 3, -88)
+> val people = Vector("Bob", "James", "Peter")
+> ```
+
+Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided:
+
+- `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`;
+- `xs :+ x` ::@:: appends `x` to the end of `xs`. In both cases the colon points toward the sequence, reflecting that the operation acts on the whole collection rather than just its head.
+
+## Java sequences
+
+{@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]`}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write:
+
+> [!example] __example__
+>
+> {@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]`}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write:
+>
+> ```Scala
+> val xs: Array[Int] = Array(1, 2, 3)
+> xs.map(x => 2 * x)
+>
+> val ys: String = "Hello world!"
+> ys.filter(_.isUpper)
+> ```
+
+## range
+
+{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available:
+
+> [!example] __example__
+>
+> {@{Three constructor operators}@} are available:
+>
+> ```Scala
+> val r = 1 until 5  // 1,2,3,4 (end is exclusive)
+> val s = 1 to 5     // 1,2,3,4,5 (end is inclusive)
+> 1 to 10 by 3       // 1,4,7,10
+> 6 to 1 by -2       // 6,4,2
+> ```
+
+Because ranges are {@{lazy and small}@}, they provide {@{constant‑time `contains`, `head`, `last` and indexing}@}.
+
+## sequence methods
+
+The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, vectors, arrays, strings and ranges}@}):
+
+- `exists(p)` ::@:: Returns `true` if any element satisfies predicate `p`. For empty sequences it returns `false`.
+- `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`.
+- `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length.
+- `unzip` ::@:: Splits a sequence of pairs into two separate sequences.
+- `flatMap(f)` ::@:: Applies a collection‑valued function to each element and concatenates the results.
+- `sum`, `product` ::@:: Aggregate numeric collections.
+- `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`).
+
+These operations are typically implemented via {@{recursion or tail‑recursion}@} over {@{the underlying list structure}@}.
+
+> [!example] __example__
+>
+> {@{_Combinations._}@}
+>
+> To enumerate {@{all pairs `(x, y)` with `x ∈ 1..M` and `y ∈ 1..N`}@}, one can write:
+>
+> ```Scala
+> (1 to M).flatMap(x => (1 to N).map(y => (x, y)))
+> ```
+
+<!-- markdownlint MD028 -->
+
+> [!example] __example__
+>
+> {@{_Scalar product._}@}
+>
+> Given {@{two numeric vectors of equal length}@}, {@{their scalar product}@} is {@{the sum of element‑wise products}@}. In Scala this can be expressed concisely:
+>
+> ```Scala
+> def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
+>   xs.zip(ys).map(_ * _).sum
+> ```
+>
+> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __example__
+>
+> {@{_Primality test._}@}
+>
+> {@{A concise way}@} to test whether {@{an integer `n` is prime}@} uses {@{the `forall` operation}@}:
+>
+> ```Scala
+> def isPrime(n: Int): Boolean =
+>   (2 to n - 1).forall(d => n % d != 0)
+> ```
+>
+> Although {@{not efficient for large numbers}@}, this expression captures {@{the mathematical definition in a single line}@}.
+
+## mapping
+
+{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples:
+
+> [!example] __example__
+>
+> {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples:
+>
+> ```Scala
+> val romanNumerals    = Map("I" -> 1, "V" -> 5, "X" -> 10)
+> val capitalOfCountry = Map("US" -> "Washington", "Switzerland" -> "Bern")
+> ```
+
+Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
+
+> [!example] __example__
+>
+> Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
+>
+> ```Scala
+> capitalOfCountry("US")  // returns "Washington"
+> ```
+
+Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuchElementException`}@}; {@{safer access}@} is provided by {@{the `get` method}@} which {@{returns an `Option[Value]`}@}. {@{The `Option` type}@} has {@{two subclasses, `Some(value)` and `None`}@}, enabling {@{pattern matching}@}:
+
+> [!example] __example__
+>
+> Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
+>
+> ```Scala
+> def showCapital(country: String) =
+>   capitalOfCountry.get(country) match {
+>     case Some(capital) => capital
+>     case None          => "missing data"
+>   }
+> ```
+
+### map update
+
+Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}:
+
+> [!example] __example__
+>
+> Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}:
+>
+> ```Scala
+> val m1 = Map("red" -> 1, "blue" -> 2)
+> val m2 = m1 + ("blue" -> 3)  // blue now maps to 3
+> ```
+
+{@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}.
+
+### map methods
+
+{@{Ordering a collection}@} can be expressed with {@{`sortWith` or `sorted`}@}. For example:
+
+> [!example] __example__
+>
+> {@{Ordering a collection}@} can be expressed with {@{`sortWith` or `sorted`}@}. For example:
+>
+> ```Scala
+> val fruit = List("apple", "pear", "orange", "pineapple")
+> fruit.sortWith(_.length < _.length)  // order by length
+> fruit.sorted                         // natural ordering
+> ```
+
+{@{Grouping}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}:
+
+> [!example] __example__
+>
+> {@{Grouping}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}:
+>
+> ```Scala
+> val fruit = List("apple", "pear", "orange", "pineapple")
+> fruit.groupBy(_.head)  // Map('a' -> List("apple"), 'p' -> List("pear", "pineapple"), ...)
+> ```
+
+{@{`Map.withDefaultValue`}@} turns {@{a map into a total function}@} by providing {@{a default value for missing keys}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __example__
+>
+> {@{A polynomial}@} can be represented as {@{a map from exponent to coefficient}@}. For instance, {@{`x^3 - 2x + 5`}@} becomes:
+>
+> ```Scala
+> Map(0 -> 5, 1 -> -2, 3 -> 1)
+> ```
+>
+> {@{This observation}@} motivates {@{the following `Polynomial` class}@}, which stores {@{its terms in an immutable map}@} and provides {@{arithmetic operations}@}:
+>
+> ```Scala
+> class Polynomial(nonZeroTerms: Map[Int, Double]) {
+>   def this(bindings: (Int, Double)*) = this(bindings.toMap)
+>
+>   val terms = nonZeroTerms.withDefaultValue(0.0)
+>
+>   def +(other: Polynomial): Polynomial =
+>     Polynomial(terms ++ other.terms.map { case (exp, coeff) =>
+>       exp -> (coeff + terms(exp))
+>     })
+>     /*
+>     Alternative implementation:
+>     Polynomial(other.terms.foldLeft(terms) { case (acc, (exp, coeff)) =>
+>       acc + (exp -> (coeff + acc(exp)))
+>     })
+>     */
+>
+>   override def toString: String =
+>     if (terms.isEmpty) "0"
+>     else {
+>       val termStrings = terms.toList.sorted.reverse.map {
+>         case (exp, coeff) =>
+>           val exponent = if (exp == 0) "" else s"x^$exp"
+>           s"$coeff$exponent"
+>       }
+>       termStrings.mkString(" + ")
+>     }
+> }
+> ```
+>
+> To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided:
+>
+> ```Scala
+> def this(bindings: (Int, Double)*) = this(bindings.toMap)
 > ```

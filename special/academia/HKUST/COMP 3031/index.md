@@ -246,8 +246,8 @@ The content is in teaching order.
   - Scala / Scala 3
     - [§ case classes](Scala%203.md#case%20classes): case classes, case classes syntax
     - [§ pattern matching](Scala%203.md#pattern%20matching): pattern matching, pattern matching syntax, variable binding, `sealed`, exhaustive matching, separation of behavior from data
-  - Scala / [list](list.md)
-    - [§ Scala list](list.md#list): lists, immutability, recursive, homogeneity, constructors, right associativity, list operations, pattern matching on lists
+  - Scala / [collections](collections.md)
+    - [§ list](collections.md#list): lists, immutability, recursive, homogeneity, constructors, right associativity, list operations, pattern matching on lists
   - Scala / [algorithms](algorithms.md)
     - [§ insertion sort](algorithms.md#insertion%20sort): sorting, insertion sort
   - Scala / Scala 3
@@ -285,9 +285,9 @@ The content is in teaching order.
     - [§ variance pitfalls](Scala%203.md#variance%20pitfalls): variance pitfalls, Java arrays, covariance of Java arrays
     - [§ variance checks](Scala%203.md#variance%20checks): variance checks
     - [§ function type variance](Scala%203.md#function%20type%20variance): function type variance, contravariant parameter types, covariant return types, multiple arguments, currying, function types as argument types
-  - Scala / [list](list.md)
-    - [§ covariance](Scala%203listmd#covariance): list covariance, list covariance implementation
-    - [§ methods](list.md#methods): list methods
+  - Scala / collections
+    - [§ list covariance](collections.md#list%20covariance): list covariance, list covariance implementation
+    - [§ list methods](collections.md#list%20methods): list methods
 
 ## week 3 lecture 2
 
@@ -304,12 +304,12 @@ The content is in teaching order.
     - [§ sorting arbitrary types](algorithms.md#sorting%20arbitrary%20types): sorting arbitrary types, comparator
   - Scala / Scala 3
     - [§ tuple as the only function argument](Scala%203.md#tuple%20as%20the%20only%20function%20argument): tuple as the only function argument, function call syntax
-  - Scala / list
-    - [§ higher-order methods](list.md#higher-order%20methods): higher-order methods, map, filter, reduce
-    - [§ map](list.md#map): map, map example
-    - [§ filter](list.md#filter): filter, filter example
-    - [§ pack](list.md#pack): pack, pack example
-    - [§ reduce](list.md#reduce): reduce, `reduceLeft`, `foldLeft`, initial value, `reduceRight`, `foldRight`, reduce example
+  - Scala / collections
+    - [§ higher-order methods](collections.md#higher-order%20methods): higher-order methods, map, filter, reduce
+    - [§ map](collections.md#map): map, map example
+    - [§ filter](collections.md#filter): filter, filter example
+    - [§ pack](collections.md#pack): pack, pack example
+    - [§ reduce](collections.md#reduce): reduce, `reduceLeft`, `foldLeft`, initial value, `reduceRight`, `foldRight`, reduce example
 
 ## week 4 lab
 
@@ -345,7 +345,32 @@ The content is in teaching order.
 ## week 4 lecture
 
 - datetime: 2025-09-23T12:00:00+08:00/2025-09-23T13:20:00+08:00, PT1H20M
-- topic:
+- topic: proofs in Scala; list properties; structural induction; referential transparency; vector; collection hierarchy; Java sequences; range; sequence methods; mapping; map methods; option; varargs
+- Scala
+  - Scala / [proofs](proofs.md)
+    - [§ list properties](proofs.md#list%20properties): concatenation, associativity of concatenation, neutral element of concatenation, structural induction
+    - [§ structural induction](proofs.md#structural%20induction): natural induction, structural induction, structural induction on lists
+    - [§ referential transparency](proofs.md#referential%20transparency): pure functions, referential transparency
+    - [§ proofs](proofs.md#proofs): proving lower bounds on factorial, proving associativity of `:::`, proving `xs ::: Nil = xs`, proving reverse is its own inverse, proving `map` is distributive over concatenation
+    - [§ proving lower bounds on factorial](proofs.md#proving%20lower%20bounds%20on%20factorial): proving lower bounds on factorial
+    - [§ proving associativity of `:::`](proofs.md#proving%20associativity%20of%20`:::`): proving associativity of `:::`
+    - [§ proving `xs ::: Nil = xs`](proofs.md#proving%20`xs%20Nil%20=%20xs`): proving `xs ::: Nil = xs`
+    - [§ proving reverse is its own inverse](proofs.md#proving%20reverse%20is%20its%20own%20inverse): proving reverse is its own inverse
+    - [§ proving `map` is distributive over concatenation](proofs.md#proving%20`map`%20is%20distributive%20over%20concatenation): proving `map` is distributive over concatenation
+  - Scala / collections
+    - [§ vector](collections.md#vector): vector, `+:`, `:+`
+    - [§ hierarchy](collections.md#hierarchy): collection hierarchy, `Seq`, `Iterable`, `Array`, `String`, `Set`, `Map`
+    - [§ Java sequences](collections.md#Java%20sequences): `Array`, `String`, implicit conversion to `Seq`
+    - [§ range](collections.md#range): `Range`
+    - [§ sequence methods](collections.md#sequence%20methods): sequence methods
+    - [§ mapping](collections.md#mapping): `Map`, `Map` is iterable, `Map` is function, `Option`
+  - Scala / Scala 3
+    - [§ options](Scala%203.md#options): `Option`, pattern matching on `Option`
+  - Scala / collections
+    - [§ map update](collections.md#map%20update): `Map` update
+    - [§ map methods](collections.md#map%20methods): `Map` methods, varargs
+  - Scala / Scala 3
+    - [§ varargs](Scala%203.md#varargs): varargs
 
 ## week 4 lecture 2
 
