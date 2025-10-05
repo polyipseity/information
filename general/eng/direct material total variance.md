@@ -30,7 +30,7 @@ Under those assumptions direct material total variance can be calculated as:
 | ------------------------------------------------------ | --- | ------------------------------: | --------------- |
 | {@{100 units should have cost \(× \$ 120 per unit\)}@} |     |                  {@{€ 12,000}@} |                 |
 | &emsp; {@{but did cost}@}                              |     |           {@{<u>€ 13,144</u>}@} |                 |
-| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2026-06-13,241,330!2025-10-23,63,310!2026-07-05,259,330!2026-06-06,235,330!2026-06-18,246,330!2025-10-28,67,310!2026-06-20,247,330-->
+| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2026-06-13,241,330!2026-07-22,272,330!2026-07-05,259,330!2026-06-06,235,330!2026-06-18,246,330!2025-10-28,67,310!2026-06-20,247,330-->
 
 Direct material total variance can be reconciled to {@{[direct material price variance](direct%20material%20price%20variance.md) and [direct material usage variance](direct%20material%20usage%20variance.md)}@} by: <!--SR:!2026-07-04,258,330-->
 

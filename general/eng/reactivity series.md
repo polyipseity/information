@@ -129,7 +129,7 @@ return _chain.from_iterable(await _gather(
 
 - _(most reactive)_→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
 - [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2026-09-26,500,250!2026-12-07,463,230-->
-- [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2025-10-23,326,230-->
+- [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2028-09-17,1060,250-->
 - [potassium](potassium.md)→::@::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2025-11-14,655,310-->
 - [sodium](sodium.md)→::@::←[lithium](lithium.md) <!--SR:!2027-03-27,579,230!2026-08-29,826,290-->
 - [lithium](lithium.md)→::@::←[barium](barium.md) <!--SR:!2026-03-03,336,210!2026-08-29,377,210-->

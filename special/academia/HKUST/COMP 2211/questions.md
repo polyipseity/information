@@ -150,7 +150,7 @@ tags:
 > 3. Dictionaries
 > 4. Sets
 >
-> - solution: {@{2}@} <!--SR:!2025-10-23,232,330-->
+> - solution: {@{2}@} <!--SR:!2028-09-09,1052,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1310,7 +1310,7 @@ tags:
 > 4. Contract bridge
 >
 > - solution: {@{2}@}
-> - explanation: {@{The minimax algorithm as taught in the course only applies to deterministic, perfect information, and zero-sum games. <p> There may be extensions of minimax algorithm that apply to more games, but ignore this for the examinations...}@} <!--SR:!2025-10-23,232,330!2025-10-30,239,330-->
+> - explanation: {@{The minimax algorithm as taught in the course only applies to deterministic, perfect information, and zero-sum games. <p> There may be extensions of minimax algorithm that apply to more games, but ignore this for the examinations...}@} <!--SR:!2028-09-08,1051,350!2025-10-30,239,330-->
 
 <!-- markdownlint MD028 -->
 

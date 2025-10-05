@@ -453,7 +453,7 @@ The content is in teaching order.
     - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2027-12-24,796,442-->
     - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2028-01-10,810,442!2025-11-01,151,422-->
   - bebop / characteristics
-    - bebop / characteristics / harmonic improvisation ::@:: Melody is created from harmony instead of the other way around. Before, improvisation was generalized and not specific to harmony. Now, number of possible melody is larger, adding variety, creating extensions and/or tensions. <!--SR:!2025-10-23,142,422!2025-10-23,142,422-->
+    - bebop / characteristics / harmonic improvisation ::@:: Melody is created from harmony instead of the other way around. Before, improvisation was generalized and not specific to harmony. Now, number of possible melody is larger, adding variety, creating extensions and/or tensions. <!--SR:!2028-01-22,821,442!2028-01-19,818,442-->
     - bebop / characteristics / new rhythm ::@:: lots of variety, sophisticated rhythm approach, surprising the audience <!--SR:!2025-10-29,148,422!2027-06-03,590,422-->
     - bebop / characteristics / virtuosity ::@:: greater emphasis on _individual_ solos, more _personal_, virtuosity of jazz musicians increased; more works came out during this period <!--SR:!2027-05-22,580,422!2028-01-16,816,442-->
 - assignment: read "When Bebop was Born"
@@ -503,10 +503,10 @@ The content is in teaching order.
 - datetime: 2025-03-24T08:30:00-05:00/2025-03-24T09:00:00-05:00
   - local: 2025-03-24T21:30:00+08:00/2025-03-24T22:00:00+08:00
 - [cool jazz](../../../../general/cool%20jazz.md) ::@:: It is a style of modern jazz music inspired by bebop and big band that arose in the United States after World War II. It is characterized by relaxed tempos and a lighter tone than that used in the fast and complex bebop style. <!--SR:!2028-01-02,804,442!2028-01-14,814,442-->
-  - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis: It marks the beginning. <!--SR:!2025-10-26,145,422!2025-10-23,142,422-->
+  - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis: It marks the beginning. <!--SR:!2025-10-26,145,422!2028-01-23,822,442-->
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits. <!--SR:!2027-11-25,771,442!2025-11-01,151,422-->
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\) <!--SR:!2025-10-25,144,422!2025-11-01,151,422-->
-  - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2025-10-30,149,422!2025-10-23,142,422-->
+  - cool jazz / characteristics ::@:: arranged heavily, classical, original music, polyphonic, restrained, slow <!--SR:!2025-10-30,149,422!2028-01-21,820,442-->
     - cool jazz / characteristics / vs. bebop ::@:: Essentially opposite of bebop: classical, fast, improvised, relaxed, remix, monophonic; simply invert the characteristics listed above <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
 - [Birth of the Cool](../../../../general/Birth%20of%20the%20Cool.md) ::@:: It is a compilation album by the American jazz trumpeter and bandleader Miles Davis. <p> It was recorded in 1949 and released in 1957, a first recording of cool jazz. All except for the last track are original music. It featured French horn, baritone, tuba, etc. It was the first of his many collaborations with Gil Evans. <!--SR:!2026-09-08,391,402!2027-11-30,775,442-->
   - Birth of the Cool / tracks ::@:: "Boplicity" \(1949\) — Miles Davis <!--SR:!2025-10-27,146,422!2025-10-27,146,422-->
@@ -529,7 +529,7 @@ The content is in teaching order.
 - [bossa nova](../../../../general/bossa%20nova.md) ::@:: It is a relaxed style of samba developed in the late 1950s and early 1960s in Rio de Janeiro, Brazil. <p> United States people went crazy for this music, so they still study it in jazz education to this day. <!--SR:!2027-06-04,591,422!2025-10-26,145,422-->
   - bossa nova / characteristics ::@:: "swaying" motion; swinging eighth notes; lyrical themes include women, love, longing, homesickness, and nature <!--SR:!2028-01-10,811,442!2025-10-24,143,422-->
   - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist <!--SR:!2027-03-30,562,422!2025-10-28,147,422-->
-- [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2025-10-23,142,422!2025-10-31,150,422-->
+- [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2028-01-20,819,442!2025-10-31,150,422-->
   - Antônio Carlos Jobim / effects ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century. <!--SR:!2027-12-01,777,442!2027-04-15,576,422-->
 - [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-11-01,151,422!2028-01-15,815,442-->
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova". <!--SR:!2025-10-25,144,422!2025-10-29,148,422-->
@@ -558,7 +558,7 @@ The content is in teaching order.
 - [Miles Davis](../../../../general/Miles%20Davis.md) \(1926–1991\) ::@:: He was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. <!--SR:!2025-10-31,150,422!2027-12-12,786,442-->
 - [Art Blakely](../../../../general/Art%20Blakely.md) \(1919–1990\) ::@:: He was an American jazz drummer and bandleader. <p> He was part of the bebop scene in the 1940s, and later formed the Jazz Messengers. <!--SR:!2025-10-27,146,422!2028-01-09,810,442-->
   - Art Blakely / effects ::@:: He developed the "shuffle" and made it part of jazz. He also found and developed future jazz musicians. <!--SR:!2025-10-24,143,422!2025-10-28,147,422-->
-- [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2025-10-23,142,422!2027-05-05,567,422-->
+- [Horace Silver](../../../../general/Horace%20Silver.md) \(1929–2014\) ::@:: He was an American jazz pianist, composer, and arranger, particularly in the hard bop style that he helped pioneer in the 1950s. <p> His father taught him the folk music of Cape Verde. He co-founded the Jazz Messengers. <!--SR:!2028-01-21,820,442!2027-05-05,567,422-->
   - Horace Silver / works ::@:: "The Preacher" \(1955\) — Horace Silver <!--SR:!2025-10-24,143,422!2025-10-27,146,422-->
 - [Clifford Brown](../../../../general/Clifford%20Brown.md) \(1930–1956\) ::@:: He was an American jazz trumpeter, pianist and composer. He died at the age of 25 in a car crash with his pianist Richie Powell. <p> He formed a band with Max Roach, a drummer, which formed the typical hard bop sound. <!--SR:!2025-10-29,148,422!2027-03-04,562,422-->
   - Clifford Brown / works ::@:: "Sandu" \(1955\) — Clifford Brown & Max Roach <!--SR:!2025-10-31,150,422!2025-10-28,147,422-->
@@ -569,21 +569,21 @@ The content is in teaching order.
 
 - datetime: 2025-04-02T08:30:00-05:00/2025-04-02T09:50:00-05:00, PT1H20M
   - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00, PT1H20M
-- [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2028-01-12,812,442!2025-10-23,142,422-->
-  - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2025-10-23,142,422!2025-10-28,147,422-->
+- [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2028-01-12,812,442!2028-01-24,823,442-->
+  - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2028-01-22,821,442!2025-10-28,147,422-->
   - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2025-10-27,146,422-->
   - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2027-12-22,794,442!2025-10-24,143,422-->
 - [chorus](../../../../general/refrain.md) ::@:: the line or lines that are repeated in poetry or in music <!--SR:!2027-12-18,791,442!2027-12-08,783,442-->
 - trading ::@:: instrumentalists take turns playing 2, 4, 8, or 16 measures of improvisation <!--SR:!2025-10-24,143,422!2027-12-21,794,442-->
-- [straight-ahead jazz](../../../../general/straight-ahead%20jazz.md) ::@:: It is a genre of jazz that developed in the 1960s, with roots in the prior two decades. <p> It contains the swing feel and walking bass. <!--SR:!2025-10-23,142,422!2027-12-14,787,442-->
+- [straight-ahead jazz](../../../../general/straight-ahead%20jazz.md) ::@:: It is a genre of jazz that developed in the 1960s, with roots in the prior two decades. <p> It contains the swing feel and walking bass. <!--SR:!2027-06-16,601,422!2027-12-14,787,442-->
 - jazz
   - jazz / 1950s ::@:: It has come a long way culturally. The older styles were still ongoing. Derived forms were still being created. <p> Recording gets better due to better storage medium \(LP record; 1948\) and multi-track recording. <!--SR:!2025-10-29,148,422!2027-02-12,542,422-->
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band. <!--SR:!2025-10-25,144,422!2027-12-20,793,442-->
   - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2026-01-01,169,454!2025-12-31,168,454-->
   - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2027-02-14,544,422!2028-01-13,813,442-->
-  - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2027-12-30,801,442!2025-10-23,142,422-->
-  - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2025-10-23,142,422-->
+  - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2027-12-30,801,442!2028-01-23,822,442-->
+  - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2027-06-12,597,422-->
   - Miles Davis / genres
     - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis <!--SR:!2027-11-23,769,442!2027-02-01,537,422-->
     - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2027-02-03,538,422!2027-05-12,572,422-->

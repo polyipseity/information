@@ -218,7 +218,7 @@ The content is in teaching order.
 - casual relationship & correlation ::@:: Correlation does not imply causation. <!--SR:!2029-05-25,1426,381!2025-11-22,425,381-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::@:: discovery of casual relationships <!--SR:!2027-01-03,679,341!2028-08-09,1210,381-->
 - [five whys](../../../../general/five%20whys.md)
-- cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2027-09-30,938,361-->
+- cause mapping process ::@:: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2030-09-09,1782,361!2027-09-30,938,361-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::@:: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2028-07-11,1120,341!2030-02-06,1644,381-->
   - cause mapping § arrow direction ::@:: cause to effect <!--SR:!2029-06-11,1440,381!2025-11-01,410,381-->

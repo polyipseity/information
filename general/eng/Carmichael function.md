@@ -63,7 +63,7 @@ __Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then
 
 This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2027-12-13,830,330!2026-01-08,297,341!2026-02-17,303,301!2027-04-23,630,321!2027-04-26,596,310!2026-02-07,277,290-->
 
-We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Euler's%20theorem.md)}@}. <!--SR:!2025-10-23,233,330-->
+We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Euler's%20theorem.md)}@}. <!--SR:!2028-09-19,1062,350-->
 
 ### divisibility
 

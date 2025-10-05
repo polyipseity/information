@@ -163,7 +163,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
-- description ::@:: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2025-10-23,445,394-->
+- description ::@:: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2032-05-13,2394,414-->
 - image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2030-06-12,1792,400!2026-01-04,493,400-->
 - shape ::@:: bird/turtle rooftop <!--SR:!2027-03-10,779,330!2032-02-09,2313,412-->
 

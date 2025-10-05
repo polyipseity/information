@@ -45,7 +45,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 - [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2028-09-25,1147,350!2025-12-07,355,350-->
 - [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2025-12-03,350,350!2028-03-27,1006,350-->
 
-where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2025-10-23,317,341-->
+where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2029-11-20,1489,361-->
 
 ## relation to material equivalence
 

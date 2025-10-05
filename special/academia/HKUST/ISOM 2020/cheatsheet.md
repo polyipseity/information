@@ -47,7 +47,7 @@ The cheatsheet is provided during the final examination.
 
 ## input / output
 
-- `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2029-02-27,1239,350!2025-10-23,284,330-->
+- `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2029-02-27,1239,350!2029-05-06,1291,350-->
 - `input()` ::@:: ask user for input <!--SR:!2029-02-28,1240,350!2029-01-04,1196,350-->
 - `\n` ::@:: escape character: line break <!--SR:!2029-05-01,1287,350!2029-02-12,1227,350-->
 - `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2029-04-20,1279,350-->
@@ -64,7 +64,7 @@ The cheatsheet is provided during the final examination.
 
 ## list / string operations
 
-- `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2025-10-23,285,330-->
+- `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2029-03-16,1253,350!2029-05-15,1300,350-->
 - `+` ::@:: combine two lists / strings <!--SR:!2025-10-24,286,330!2025-10-27,288,330-->
 - `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2025-10-26,287,330-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2029-04-27,1284,350-->
@@ -82,7 +82,7 @@ The cheatsheet is provided during the final examination.
 
 - `==` ::@:: is equal? <!--SR:!2029-01-16,1205,350!2029-01-26,1214,350-->
 - `!=` ::@:: is not equal? <!--SR:!2029-03-05,1244,350!2029-04-14,1273,350-->
-- `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2025-10-23,285,330-->
+- `<` ::@:: is less than? <!--SR:!2025-10-26,287,330!2029-05-13,1298,350-->
 - `>` ::@:: is greater than? <!--SR:!2029-03-07,1245,350!2025-10-24,285,330-->
 - `<=` ::@:: is less than or equal to? <!--SR:!2029-04-19,1278,350!2029-05-06,1293,350-->
 - `>=` ::@:: is greater than or equal to? <!--SR:!2029-03-30,1264,350!2029-03-04,1243,350-->
@@ -90,12 +90,12 @@ The cheatsheet is provided during the final examination.
 ## boolean operators
 
 - `and` ::@:: are both operands `True`? <!--SR:!2029-01-28,1216,350!2029-02-10,1224,350-->
-- `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2029-05-09,1295,350!2025-10-23,285,330-->
+- `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2029-05-09,1295,350!2029-05-14,1299,350-->
 - `not` ::@:: flip `True`/`False` to one another <!--SR:!2029-04-20,1281,350!2029-03-21,1257,350-->
 
 ## conditional statement
 
-- keywords ::@:: `if ...: ... [elif ...: ...] [else: ...]` <!--SR:!2025-10-23,284,330!2029-05-05,1292,350-->
+- keywords ::@:: `if ...: ... [elif ...: ...] [else: ...]` <!--SR:!2029-05-07,1292,350!2029-05-05,1292,350-->
 
 ```Python
 if <caseA>:

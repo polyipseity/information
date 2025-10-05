@@ -39,7 +39,7 @@ Note that the formulas for DFT and IDFT are {@{extremely similar}@}. Indeed, one
 
 - see: [general/discrete Fourier transform § linearity](../../general/discrete%20Fourier%20transform.md#linearity)
 
-The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}@}. This can be shown {@{directly from the definition}@}. <!--SR:!2029-01-23,1270,366!2029-03-17,1312,366!2025-10-23,338,366-->
+The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}@}. This can be shown {@{directly from the definition}@}. <!--SR:!2029-01-23,1270,366!2029-03-17,1312,366!2030-06-16,1697,386-->
 
 ### shift
 

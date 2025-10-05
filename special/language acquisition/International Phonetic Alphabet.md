@@ -231,7 +231,7 @@ return chain.from_iterable(await gather(
 
 - [consonant](consonant.md)::@::[phone](phone%20phonetics.md) articulated with partial or complete stricture in the [vocal tract](vocal%20tract.md) <!--SR:!2026-05-01,707,290!2029-05-13,1542,330-->
   - [airstream mechanism](airstream%20mechanism.md)::@::how the moving [air](air.md) is thrusted <!--SR:!2028-10-05,1484,338!2032-09-28,2650,363-->
-    - (all) [pulmonic](pulmonic%20consonant.md) egressive::@::[air](air.md) is exhaled from the [lungs](lung.md) <!--SR:!2028-09-02,1351,333!2025-10-23,632,358-->
+    - (all) [pulmonic](pulmonic%20consonant.md) egressive::@::[air](air.md) is exhaled from the [lungs](lung.md) <!--SR:!2028-09-02,1351,333!2032-01-03,2263,358-->
     - (16%) [glottalic](glottalic%20consonant.md) egressive::@::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [glottics](glottics.md) <!--SR:!2029-04-14,1450,351!2028-08-14,1108,310-->
     - (13%) [glottalic](glottalic%20consonant.md) ingressive::@::[air](air.md) is [rarefied](rarefaction.md) by a downward movement of the [glottics](glottics.md) <!--SR:!2032-11-15,2657,391!2025-11-08,420,270-->
     - (<2%) lingual/[velaric](velar%20consonant.md) ingressive::@::[air](air.md) is [rarefied](rarefaction.md) by a downward and sometimes rearward movement of the [tongue](tongue.md) <!--SR:!2026-03-04,638,331!2025-10-25,194,250-->
@@ -499,7 +499,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:\[œ̃\] <!--SR:!2026-04-05,266,301-->
 - [open front rounded vowel](open%20front%20rounded%20vowel.md):@:\[ɶ\] <!--SR:!2026-04-07,664,331-->
 - [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md):@:\[p\] <!--SR:!2026-04-17,554,251-->
-- [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:\[q\] <!--SR:!2025-10-23,378,231-->
+- [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:\[q\] <!--SR:!2028-03-14,873,231-->
 - [voiced alveolar trill](voiced%20alveolar%20trill.md):@:\[r\] <!--SR:!2025-12-10,552,331-->
 - [voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md):@:\[ɾ\] <!--SR:!2032-07-03,2547,391-->
 - [voiced uvular trill](voiced%20uvular%20trill.md):@:\[ʀ\] <!--SR:!2031-02-07,2010,360-->
@@ -934,7 +934,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced bilabial trill](voiced%20bilabial%20trill.md):@:[Nias](Nias%20language.md) _si**mb**i_ \[siʙi\] "lower jaw" <!--SR:!2026-06-13,259,184-->
 - [voiceless palatal plosive](voiceless%20palatal%20plosive.md):@:[French](French%20language.md) _**q**ui_ \[ci\] "who" <!--SR:!2025-10-26,374,284-->
 - [voiceless palatal fricative](voiceless%20palatal%20fricative.md):@:[English](English%20language.md) _**h**ue_ \[çʉː\] <!--SR:!2025-11-21,69,130-->
-- [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md):@:[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\] <!--SR:!2025-10-23,13,150-->
+- [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md):@:[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\] <!--SR:!2025-10-30,7,130-->
 - [voiced alveolar plosive](voiced%20alveolar%20plosive.md):@:[English](English%20language.md) _**d**ash_ \[ˈdæʃ\] <!--SR:!2029-08-03,1420,273-->
 - [voiced alveolar implosive](voiced%20alveolar%20implosive.md):@:[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail" <!--SR:!2026-04-10,288,193-->
 - [voiced retroflex plosive](voiced%20retroflex%20plosive.md):@:[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north" <!--SR:!2025-10-29,7,130-->
@@ -971,7 +971,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _**l**et_ \[lɛt\] <!--SR:!2028-10-04,1102,280-->
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _fee**l**_ \[fiːɫ\] <!--SR:!2026-03-29,512,240-->
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!2025-12-14,85,150-->
-- [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!2025-10-23,4,130-->
+- [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!2025-10-28,5,130-->
 - [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!2025-12-16,76,150-->
 - [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!2025-10-28,14,130-->
 - [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md):@:[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\] <!--SR:!2026-04-22,182,201-->
@@ -1028,8 +1028,8 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!2025-11-05,17,130-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2026-03-17,285,190-->
 - [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!2026-04-19,346,210-->
-- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!2025-10-23,7,130-->
-- [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!2025-10-23,3,130-->
+- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!2025-11-01,9,130-->
+- [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!2025-10-27,4,130-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:[English](English%20language.md) _**th**in_ \[θɪn\] <!--SR:!2028-02-13,900,250-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay" <!--SR:!2025-12-03,77,170-->
 - [glottal stop](glottal%20stop.md):@:[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\] <!--SR:!2026-11-25,538,230-->

@@ -100,7 +100,7 @@ Current assets are {@{the most liquid assets of a firm}@}, which are expected to
 
 - [cash](cash.md) ::@:: physical money <!--SR:!2027-03-23,704,330!2027-07-22,795,330-->
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2027-05-02,732,330!2027-04-15,721,330-->
-- merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2026-12-04,598,310!2025-10-23,290,290-->
+- merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2026-12-04,598,310!2029-01-04,1169,310-->
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2027-08-29,826,330!2026-04-14,425,310-->
 - [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2027-01-13,652,330!2029-04-10,1302,350-->
 

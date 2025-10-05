@@ -26,7 +26,7 @@ The primary reaction is:
 
 ### nitrogen production
 
-[Nitrogen](nitrogen.md) is obtained by {@{[air separation](air%20separation.md) of [atmospheric air](atmosphere%20of%20Earth.md)}@}. <!--SR:!2025-10-23,619,310-->
+[Nitrogen](nitrogen.md) is obtained by {@{[air separation](air%20separation.md) of [atmospheric air](atmosphere%20of%20Earth.md)}@}. <!--SR:!2033-02-05,2662,330-->
 
 ### hydrogen production
 

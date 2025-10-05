@@ -41,7 +41,7 @@ SonicVisualiser supports {@{many pitch detection algorithms}@}. <!--SR:!2025-10-
 
 ### plugins \(SonicVisualiser\)
 
-SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}. <!--SR:!2025-10-23,92,375!2025-10-25,94,375-->
+SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}. <!--SR:!2027-02-10,475,395!2025-10-25,94,375-->
 
 ## sms-tools
 

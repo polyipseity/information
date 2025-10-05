@@ -75,7 +75,7 @@ Generating functions can be thought of as {@{polynomials with infinitely many te
 
 - see: [recurrence relation](recurrence%20relation.md)
 
-A recurrence relation {@{defines each term of a sequence in terms of the preceding terms}@}. Recurrence relations may {@{lead to previously unknown properties of a sequence}@}, but {@{generally [closed-form expressions](closed-form%20expression.md) for the terms of a sequence are more desired}@}. <!--SR:!2025-11-16,307,330!2025-10-28,292,330!2025-10-23,287,330-->
+A recurrence relation {@{defines each term of a sequence in terms of the preceding terms}@}. Recurrence relations may {@{lead to previously unknown properties of a sequence}@}, but {@{generally [closed-form expressions](closed-form%20expression.md) for the terms of a sequence are more desired}@}. <!--SR:!2025-11-16,307,330!2025-10-28,292,330!2029-05-21,1306,350-->
 
 ## references
 

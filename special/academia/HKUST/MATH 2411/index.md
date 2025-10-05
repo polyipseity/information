@@ -116,7 +116,7 @@ The content is in teaching order.
   - descriptive statistics / methodologies
   - descriptive statistics / steps
 - [data](../../../../general/data.md) (singular: datum) ::@:: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2027-04-08,721,330!2029-03-09,1281,350-->
-  - data / reason for summarizing ::@:: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2027-04-29,729,330!2025-10-23,320,330-->
+  - data / reason for summarizing ::@:: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2027-04-29,729,330!2029-10-18,1456,350-->
   - data / reading a table ::@:: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2026-03-03,410,310!2028-04-28,1038,350-->
   - data / types of variables ::@:: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2026-11-04,546,310!2028-06-10,1072,350-->
     - data / types of variables / importance ::@:: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2028-08-07,1118,350!2028-06-11,976,290-->
