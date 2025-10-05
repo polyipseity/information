@@ -59,7 +59,7 @@ Root = Pivot
 > {@{Root = Pivot}@}
 > </pre> <!--SR:!2028-08-15,1033,350!2025-11-17,254,330!2025-12-19,230,270!2027-05-13,665,330-->
 
-This is a {@{constant time}@} operation. <!--SR:!2025-10-22,231,330-->
+This is a {@{constant time}@} operation. <!--SR:!2028-09-07,1051,350-->
 
 The programmer must {@{also make sure that the root's parent points to the pivot after the rotation}@}. Also, the programmer should note that {@{this operation may result in a new root for the entire tree and take care to update pointers accordingly}@}. <!--SR:!2025-11-27,261,330!2025-11-30,263,330-->
 
@@ -89,7 +89,7 @@ def right_rotation(treenode):
 >     {@{<!-- <span class="n"> --><span style="">left</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">treenode</span>}@}
 >     {@{<!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">B</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">left</span>}@}
 >     {@{<!-- <span class="k"> --><span style="color: #008000; font-weight: bold;">return</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">B</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span><!-- <span class="p"> --><span style="">))</span>}@}
-> </pre> <!--SR:!2025-10-22,232,330!2025-12-02,265,330!2025-12-06,268,330!2025-11-08,246,330!2025-12-17,276,330-->
+> </pre> <!--SR:!2028-09-12,1056,350!2025-12-02,265,330!2025-12-06,268,330!2025-11-08,246,330!2025-12-17,276,330-->
 
 Another way of looking at it is:
 

@@ -60,7 +60,7 @@ tags:
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2026-03-08,187,250!2025-11-15,207,250-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-11-22,176,270!2026-11-18,437,270-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2026-01-02,265,290!2026-02-04,201,190-->
-> - group ::@:: total, associative, identity, divisible <!--SR:!2025-10-22,205,310!2027-10-10,760,330-->
+> - group ::@:: total, associative, identity, divisible <!--SR:!2028-03-18,878,330!2027-10-10,760,330-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-12-18,267,330!2026-01-14,290,330-->
 
 ## references

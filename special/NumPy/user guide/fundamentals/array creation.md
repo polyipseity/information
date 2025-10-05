@@ -27,7 +27,7 @@ You can use these methods to {@{create ndarrays or [structured arrays](structure
 
 ## converting Python sequences to NumPy arrays
 
-NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@}. {@{Lists and tuples}@} are defined {@{using `[...]` and `(...)`, respectively}@}. Lists and tuples can define ndarray creation: <!--SR:!2025-10-22,273,330!2029-03-08,1236,350!2026-01-18,348,350-->
+NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@}. {@{Lists and tuples}@} are defined {@{using `[...]` and `(...)`, respectively}@}. Lists and tuples can define ndarray creation: <!--SR:!2029-03-24,1249,350!2029-03-08,1236,350!2026-01-18,348,350-->
 
 - a list of numbers will create ::@:: a 1D array, <!--SR:!2028-11-07,1142,350!2026-01-05,337,350-->
 - a list of lists will create ::@:: a 2D array, <!--SR:!2025-11-04,283,330!2029-03-09,1235,350-->
@@ -80,7 +80,7 @@ NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [
 
 {@{The 1D array creation functions}@} e.g. {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace") and [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} generally {@{need at least two inputs, `start` and `stop`}@}. <!--SR:!2025-10-28,277,330!2025-11-05,284,330!2026-01-24,353,350-->
 
-{@{[`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} creates {@{arrays with regularly incrementing values}@}. Check the documentation for complete information and examples. A few examples are shown: <!--SR:!2029-03-06,1233,350!2025-10-22,273,330-->
+{@{[`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} creates {@{arrays with regularly incrementing values}@}. Check the documentation for complete information and examples. A few examples are shown: <!--SR:!2029-03-06,1233,350!2029-03-21,1246,350-->
 
 ```Python
 >>> import numpy as np
@@ -108,7 +108,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 {@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-10-29,278,330!2027-11-18,837,330!2029-03-07,1234,350-->
 
-{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2029-02-10,1214,350!2025-10-22,273,330!2026-01-07,339,350-->
+{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2029-01-30,1205,350!2029-02-10,1214,350!2029-03-23,1248,350!2026-01-07,339,350-->
 
 ```Python
 >>> import numpy as np
@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2027-12-07,850,330!2029-03-10,1238,350!2026-01-29,122,310!2026-01-10,341,350!2025-10-22,272,330!2026-01-04,336,350!2025-11-05,26,379-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2027-12-07,850,330!2029-03-10,1238,350!2026-01-29,122,310!2026-01-10,341,350!2029-03-20,1245,350!2026-01-04,336,350!2025-11-05,26,379-->
 
 ```Python
 >>> import numpy as np

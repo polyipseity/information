@@ -29,7 +29,7 @@ The cheatsheet is provided during the final examination.
 
 ## data types
 
-- `int` ::@:: integer <!--SR:!2025-10-22,284,330!2025-10-29,290,330-->
+- `int` ::@:: integer <!--SR:!2029-05-08,1294,350!2025-10-29,290,330-->
 - `float` ::@:: floating point <!--SR:!2029-03-06,1245,350!2029-02-24,1237,350-->
 - `bool` ::@:: `True` or `False` <!--SR:!2025-10-24,285,330!2029-01-25,1213,350-->
 - `str` ::@:: string <!--SR:!2029-01-08,1199,350!2029-02-21,1233,350-->
@@ -49,14 +49,14 @@ The cheatsheet is provided during the final examination.
 
 - `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2029-02-27,1239,350!2025-10-23,284,330-->
 - `input()` ::@:: ask user for input <!--SR:!2029-02-28,1240,350!2029-01-04,1196,350-->
-- `\n` ::@:: escape character: line break <!--SR:!2025-10-22,283,330!2029-02-12,1227,350-->
+- `\n` ::@:: escape character: line break <!--SR:!2029-05-01,1287,350!2029-02-12,1227,350-->
 - `\t` ::@:: escape character: tab <!--SR:!2029-01-09,1200,350!2029-04-20,1279,350-->
 
 ## math functions / conversion
 
 - `abs()` ::@:: absolute value <!--SR:!2029-02-22,1236,350!2029-01-07,1199,350-->
 - `math.sqrt()` ::@:: square root of <!--SR:!2029-04-21,1280,350!2029-01-22,1210,350-->
-- `round()` ::@:: round off the input value <!--SR:!2025-10-22,284,330!2029-03-15,1251,350-->
+- `round()` ::@:: round off the input value <!--SR:!2029-05-11,1297,350!2029-03-15,1251,350-->
 - `type()` ::@:: return data type of input <!--SR:!2029-01-27,1215,350!2029-01-10,1200,350-->
 - `int()` ::@:: convert input to integer <!--SR:!2029-02-01,1219,350!2029-04-22,1280,350-->
 - `float()` ::@:: convert input to float <!--SR:!2025-10-28,289,330!2029-01-17,1206,350-->
@@ -68,7 +68,7 @@ The cheatsheet is provided during the final examination.
 - `+` ::@:: combine two lists / strings <!--SR:!2025-10-24,286,330!2025-10-27,288,330-->
 - `in` ::@:: check existence in a list / string <!--SR:!2029-03-28,1263,350!2025-10-26,287,330-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2029-01-23,1210,350!2029-04-27,1284,350-->
-- `list.append()` ::@:: add a new element in the list <!--SR:!2025-10-22,283,330!2025-10-24,286,330-->
+- `list.append()` ::@:: add a new element in the list <!--SR:!2029-05-02,1288,350!2025-10-24,286,330-->
 - `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2028-03-07,888,330!2029-02-15,1230,350-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-10-27,288,330!2025-10-28,289,330-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2029-02-07,1223,350!2029-02-06,1223,350-->
@@ -90,7 +90,7 @@ The cheatsheet is provided during the final examination.
 ## boolean operators
 
 - `and` ::@:: are both operands `True`? <!--SR:!2029-01-28,1216,350!2029-02-10,1224,350-->
-- `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2025-10-22,284,330!2025-10-23,285,330-->
+- `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2029-05-09,1295,350!2025-10-23,285,330-->
 - `not` ::@:: flip `True`/`False` to one another <!--SR:!2029-04-20,1281,350!2029-03-21,1257,350-->
 
 ## conditional statement

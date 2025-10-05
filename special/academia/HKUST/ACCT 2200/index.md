@@ -87,10 +87,10 @@ The content is in teaching order.
   - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2026-02-09,282,330-->
   - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2025-10-24,194,310-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
-- period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2026-02-14,287,330!2025-10-22,192,310-->
+- period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2026-02-14,287,330!2027-06-09,595,310-->
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2028-01-15,818,330!2026-02-13,286,330-->
   - irrelevant cost ::@:: costs that are not relevant, e.g. amortization, depreciation, sunk costs <!--SR:!2026-02-15,288,330!2026-02-19,292,330-->
-- out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2025-10-22,192,310!2026-02-16,289,330-->
+- out-of-pocket costs (explicit cost in economics) ::@:: costs that involve actual outgoing cash <!--SR:!2028-01-24,824,330!2026-02-16,289,330-->
 - [opportunity cost](../../../../general/opportunity%20cost.md) (same as that in economics) ::@:: forgone benefit of the best decision that is _not_ taken <!--SR:!2026-02-21,294,330!2027-01-29,529,310-->
 
 ## week 1 lecture 2

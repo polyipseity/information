@@ -47,7 +47,7 @@ Often, such as when {@{applying for funding under a grant}@}, indirect costs are
 - Director's salary ::@:: \(this is usually an indirect cost\) <!--SR:!2026-02-18,293,330!2026-02-19,294,330-->
 - Electricity ::@:: \(mostly if it needs allocation it is always indirect\) <!--SR:!2025-10-26,197,310!2026-02-16,291,330-->
 
-Note that if {@{electricity is not used as primary source for production}@} then {@{electricity cost will be treated as utility and is always indirect}@}. For example, if {@{electricity is required to run the boiler which in turn generates steam}@}, then {@{electricity needs to be allocated directly}@}. <!--SR:!2026-02-17,292,330!2025-10-22,193,310!2028-01-29,830,330!2026-02-17,292,330-->
+Note that if {@{electricity is not used as primary source for production}@} then {@{electricity cost will be treated as utility and is always indirect}@}. For example, if {@{electricity is required to run the boiler which in turn generates steam}@}, then {@{electricity needs to be allocated directly}@}. <!--SR:!2026-02-17,292,330!2028-02-04,835,330!2028-01-29,830,330!2026-02-17,292,330-->
 
 ### costs usually allocated indirectly
 

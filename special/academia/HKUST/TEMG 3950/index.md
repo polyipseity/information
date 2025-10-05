@@ -259,7 +259,7 @@ The content is in teaching order.
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::@:: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2027-12-29,863,337!2025-10-22,379,377-->
+  - blue ocean strategy example companies ::@:: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2027-12-29,863,337!2031-03-01,1956,397-->
   - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
   - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
   - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")

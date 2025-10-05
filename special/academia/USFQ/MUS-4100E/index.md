@@ -451,11 +451,11 @@ The content is in teaching order.
     - bebop / rhythm section / drums ::@:: Ride cymbals instead of bass drums produce beats, which feels faster and lighter. Bass drums and snare are for rhythmic accents \(e.g. kicks, punches\). Tempo is faster, making it not intended for dancing. <!--SR:!2027-05-15,575,422!2025-11-01,151,422-->
     - bebop / rhythm section / piano ::@:: Radical changes occur. Dissonance becomes essential instead of common. Sustained chords become kicks and punches with the drums. It uses the same vocabulary as the horns during solo. <!--SR:!2025-10-29,148,422!2027-05-07,568,422-->
     - bebop / rhythm section / bass ::@:: Similar to swing, but with more advanced harmony: faster tempos and longer notes. Still difficult to play solos. <!--SR:!2025-10-30,149,422!2027-12-24,796,442-->
-    - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2025-10-22,141,422!2025-11-01,151,422-->
+    - bebop / rhythm section / guitar ::@:: It no longer plays chords on all 4 beats. It becomes amplified and can play melody lines \(like the horns\) and advanced chords. <!--SR:!2028-01-10,810,442!2025-11-01,151,422-->
   - bebop / characteristics
     - bebop / characteristics / harmonic improvisation ::@:: Melody is created from harmony instead of the other way around. Before, improvisation was generalized and not specific to harmony. Now, number of possible melody is larger, adding variety, creating extensions and/or tensions. <!--SR:!2025-10-23,142,422!2025-10-23,142,422-->
     - bebop / characteristics / new rhythm ::@:: lots of variety, sophisticated rhythm approach, surprising the audience <!--SR:!2025-10-29,148,422!2027-06-03,590,422-->
-    - bebop / characteristics / virtuosity ::@:: greater emphasis on _individual_ solos, more _personal_, virtuosity of jazz musicians increased; more works came out during this period <!--SR:!2027-05-22,580,422!2025-10-22,141,422-->
+    - bebop / characteristics / virtuosity ::@:: greater emphasis on _individual_ solos, more _personal_, virtuosity of jazz musicians increased; more works came out during this period <!--SR:!2027-05-22,580,422!2028-01-16,816,442-->
 - assignment: read "When Bebop was Born"
 - assignment \(attendance\): [Birth of Bebop](questions/index.md#Birth%20of%20Bebop)
 
@@ -493,7 +493,7 @@ The content is in teaching order.
   - Thelonious Monk / style ::@:: bebop that feels different, difficult to listen to, dissonant, off-center; would sometimes get up and start dancing <!--SR:!2025-10-28,147,422!2025-10-31,150,422-->
   - Thelonious Monk / tips for musicians ::@:: Steve Lacy went on tour with Monk and took these 25 tips for musicians. <p> The tips are very strange but somewhat weirdly inspiring. <!--SR:!2025-10-26,145,422!2027-02-28,538,422-->
 - [Charlie Christian](../../../../general/Charlie%20Christian.md) \(1916–1942\) ::@:: American swing and jazz guitarist; first to play guitar through an amplifier \(1936\), which changed the role of guitar forever <!--SR:!2026-09-04,388,402!2027-03-01,559,422-->
-  - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2025-10-22,141,422!2025-10-27,146,422-->
+  - Charlie Christian / works ::@:: "Topsy" — Charlie Christian & Kenny Clarke <!--SR:!2028-01-11,811,442!2025-10-27,146,422-->
 - [Kenny Clarke](../../../../general/Kenny%20Clarke.md) \(1914–1985\) ::@:: American jazz drummer and bandleader; drummer at Minton's Playhouse <!--SR:!2027-11-28,774,442!2025-11-01,151,422-->
   - Kenny Clarke / effects ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles. <!--SR:!2025-10-31,150,422!2025-10-26,145,422-->
 - assignment: \(none\)
@@ -502,7 +502,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-24T08:30:00-05:00/2025-03-24T09:00:00-05:00
   - local: 2025-03-24T21:30:00+08:00/2025-03-24T22:00:00+08:00
-- [cool jazz](../../../../general/cool%20jazz.md) ::@:: It is a style of modern jazz music inspired by bebop and big band that arose in the United States after World War II. It is characterized by relaxed tempos and a lighter tone than that used in the fast and complex bebop style. <!--SR:!2028-01-02,804,442!2025-10-22,141,422-->
+- [cool jazz](../../../../general/cool%20jazz.md) ::@:: It is a style of modern jazz music inspired by bebop and big band that arose in the United States after World War II. It is characterized by relaxed tempos and a lighter tone than that used in the fast and complex bebop style. <!--SR:!2028-01-02,804,442!2028-01-14,814,442-->
   - cool jazz / period ::@:: It mostly refer to cool jazz music during 1949 to 1959, though some say it ended in 1955. <p> "Birth of the Cool" — Miles Davis: It marks the beginning. <!--SR:!2025-10-26,145,422!2025-10-23,142,422-->
   - cool jazz / racial issues ::@:: It was popular among white musicians and on the west coast. Again black musicians were angry white musicians were getting all the credits. <!--SR:!2027-11-25,771,442!2025-11-01,151,422-->
   - cool jazz / works ::@:: "Birth of the Cool" \(1949\) — Miles Davis <br/> "Ralph's New Blues" \(1953\) <!--SR:!2025-10-25,144,422!2025-11-01,151,422-->
@@ -513,7 +513,7 @@ The content is in teaching order.
 - [Chet Baker](../../../../general/Chet%20Baker.md) \(1929–1988\) ::@:: He was an American jazz trumpeter and vocalist. He is known for major innovations in cool jazz that led him to be nicknamed the "Prince of Cool". <!--SR:!2025-10-26,145,422!2027-03-05,563,422-->
   - Chet Baker / old age ::@:: When he was in his 50s, he was old and ugly after drugs. Later, he was found dead in Amsterdam after apparently falling out of a window. <!--SR:!2025-10-24,143,422!2025-11-01,151,422-->
   - Chet Baker / works ::@:: "The Best of Chet Baker Songs" — Chet Baker <br/> "But Not for Me" \(1954\) — written by George Gershwin, recorded by Chet Baker <br/> "Chet Baker and 50 Italian Strings" — Chet Baker <br/> "My Funny Valentine" \(1954\) — Chet Baker <br/> "It Could Happen to You" — Chet Baker <br/> <!--SR:!2026-08-14,387,402!2027-05-09,570,422-->
-  - Chet Baker / films ::@:: _Let's Get Lost_, a documentary made the year he died, and "Born to be Blue", a biography motion picture. <!--SR:!2025-10-22,141,422!2025-10-25,144,422-->
+  - Chet Baker / films ::@:: _Let's Get Lost_, a documentary made the year he died, and "Born to be Blue", a biography motion picture. <!--SR:!2028-01-17,817,442!2025-10-25,144,422-->
 - [Gerry Mulligan](../../../../general/Gerry%20Mulligan.md) \(1927–1996\) ::@:: He was an American jazz saxophonist, clarinetist, composer and arranger. <p> He made the baritone sax popular in jazz as solo. He also struggled with drugs. <!--SR:!2025-10-29,148,422!2025-10-30,149,422-->
   - Gerry Mulligan / & Chet Baker ::@:: He worked with Chet Baker, making records with no harmonic instruments \(i.e. no guitars and pianos\). The horns can be more harmonic and improvisational. <!--SR:!2025-10-29,148,422!2025-10-29,148,422-->
   - Gerry Mulligan / works ::@:: "Speak Low" \(1953\) — Chet Baker & Gerry Mulligan <!--SR:!2025-10-25,144,422!2027-11-22,768,442-->
@@ -531,7 +531,7 @@ The content is in teaching order.
   - bossa nova / figures ::@:: Antonio Carlos, a composer <br/> Joao Gilberto, a guitarist <br/> Vinicius de Moraes, a poet and lyricist <!--SR:!2027-03-30,562,422!2025-10-28,147,422-->
 - [Antônio Carlos Jobim](../../../../general/Antônio%20Carlos%20Jobim.md) \(1927–1994\) ::@:: He was a Brazilian composer, pianist, guitarist, songwriter, arranger, and singer. <!--SR:!2025-10-23,142,422!2025-10-31,150,422-->
   - Antônio Carlos Jobim / effects ::@:: Considered as one of the great exponents of Brazilian music, Jobim merged samba with cool jazz in the 1960s to create bossa nova, with worldwide success. As a result, he is regarded as one of the fathers of bossa nova, and as one of the most-celebrated songwriters of the 20th century. <!--SR:!2027-12-01,777,442!2027-04-15,576,422-->
-- [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-11-01,151,422!2025-10-22,141,422-->
+- [Vinicius de Moraes](../../../../general/Vinicius%20de%20Moraes.md) \(1913–1980\) ::@:: He was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. <p> His lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. <!--SR:!2025-11-01,151,422!2028-01-15,815,442-->
 - [Joao Gilberto](../../../../general/Joao%20Gilberto.md) \(1913–2019\) ::@:: He was a Brazilian guitarist, singer, and composer who was a pioneer of the musical genre of bossa nova in the late 1950s. Around the world, he was often called the "father of bossa nova". <!--SR:!2025-10-25,144,422!2025-10-29,148,422-->
   - Joao Gilberto / works ::@:: "Desafinado" \(1959\) — Joao Gilberto <!--SR:!2027-02-24,554,422!2025-10-24,143,422-->
 - [Sérgio Mendes](../../../../general/Sérgio%20Mendes.md) \(1941–2024\) ::@:: He continued with the bossa nova and samba movement, and mixed Brazilian music with American music. <p> His career took off with worldwide hits by his band Brasil '66. <!--SR:!2025-10-27,146,422!2027-11-24,770,442-->
@@ -550,7 +550,7 @@ The content is in teaching order.
   - hard bop / characteristics
     - hard bop / characteristics / musical ::@:: blues or lyrical melodies, emphasis on beats 2 and 4, harmonize head instead of playing contrapuntal, slow or medium tempo, smaller ensembles <!--SR:!2025-10-26,145,422!2026-01-01,72,402-->
   - hard bop / vs. cool jazz ::@:: Cool jazz is more classical and restrained. More popular among white musicians. Hot jazz is more blues and gospel. More popular among black musicians. <!--SR:!2025-10-26,145,422!2025-10-24,143,422-->
-- [rhythm and blues](../../../../general/rhythm%20and%20blues.md) \(R&B\) ::@:: It is a genre of popular music that originated within Black American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to African Americans, at a time when "rocking, jazz based music ... \[with a\] heavy, insistent beat" was starting to become more popular. <!--SR:!2025-10-22,141,422!2025-10-26,145,422-->
+- [rhythm and blues](../../../../general/rhythm%20and%20blues.md) \(R&B\) ::@:: It is a genre of popular music that originated within Black American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to African Americans, at a time when "rocking, jazz based music ... \[with a\] heavy, insistent beat" was starting to become more popular. <!--SR:!2027-06-08,594,422!2025-10-26,145,422-->
   - rhythm and blues / influences ::@:: African American styles, blues, gospel, jazz <!--SR:!2027-12-10,784,442!2025-11-01,151,422-->
   - rhythm and blues / works ::@:: "Blueberry Hill" \(1956\) — Fats Domino <!--SR:!2025-10-30,149,422!2025-10-30,149,422-->
 - hard bop
@@ -569,7 +569,7 @@ The content is in teaching order.
 
 - datetime: 2025-04-02T08:30:00-05:00/2025-04-02T09:50:00-05:00, PT1H20M
   - local: 2025-04-02T21:30:00+08:00/2025-04-02T22:50:00+08:00, PT1H20M
-- [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2025-10-22,141,422!2025-10-23,142,422-->
+- [head](../../../../general/head%20(music).md) ::@:: It of a piece of music is its main theme, particularly in jazz, where the term takes on a more specific set of innovation. <!--SR:!2028-01-12,812,442!2025-10-23,142,422-->
   - head / head in ::@:: first head of a piece played; melody at the beginning <!--SR:!2025-10-23,142,422!2025-10-28,147,422-->
   - head / head out ::@:: last head of a piece played; melody at the end <!--SR:!2027-12-01,776,442!2025-10-27,146,422-->
   - head / typical arrangement ::@:: jazz: head in → solo → head out <!--SR:!2027-12-22,794,442!2025-10-24,143,422-->
@@ -581,14 +581,14 @@ The content is in teaching order.
 - Miles Davis
   - Miles Davis / beginning ::@:: He was a trumpet player from St. Louis. He then moved to New York City to attend Juilliard, but dropped out to play jazz. He started in Charlie Parker's band. <!--SR:!2025-10-25,144,422!2027-12-20,793,442-->
   - Miles Davis / known for ::@:: incredibly inventive, melodic, unique sound <!--SR:!2026-01-01,169,454!2025-12-31,168,454-->
-  - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2027-02-14,544,422!2025-10-22,141,422-->
+  - Miles Davis / collaborations ::@:: He has collaborated with many famous bassists, drummers, pianists, saxophonists, etc. <!--SR:!2027-02-14,544,422!2028-01-13,813,442-->
   - Miles Davis / genres ::@:: bebop \(towards the end\), cool jazz, electric, free, fusion, hard bop, modal jazz, stuff from the 1980s <!--SR:!2027-12-30,801,442!2025-10-23,142,422-->
   - Miles Davis / effects ::@:: He innovated greatly in jazz. he was not virtuosic but he was still great. His vibe is great. His was influenced by his incredible bands. He struggled with heroin. <!--SR:!2025-11-01,151,422!2025-10-23,142,422-->
   - Miles Davis / genres
     - Miles Davis / genres / bebop ::@:: He caught the middle end of the bebop era, as he moved to New York City in 1944 and bebop started in 1939. He worked with Charlie Parker and Dizzy Gillespie. Unfortunately, he was not virtuosic enough to be a great bebop player. <p> "Donna Lee" \(1947\) — Miles Davis <!--SR:!2027-11-23,769,442!2027-02-01,537,422-->
     - Miles Davis / genres / hard bop ::@:: By the mid 1950s, he has moved on to hard bop \(bebop + blues + gospel\). He and his band established straight-ahead jazz, which is the way most jazz musicians play today. <p> "Boplicity" \(1949\) — Miles Davis <!--SR:!2027-02-03,538,422!2027-05-12,572,422-->
   - Miles Davis / Prestige records ::@:: To fulfill his contract with Prestige, he and his newly formed group Miles Davis Quintet worked through two marathon sessions \(two days\) in May and October 1956 that were released by the label as four LPs: _Cookin' with the Miles Davis Quintet_ \(1957\), _Relaxin' with the Miles Davis Quintet_ \(1958\), _Workin' with the Miles Davis Quintet_ \(1960\), and _Steamin' with the Miles Davis Quintet_ \(1961\). <!--SR:!2028-01-04,806,442!2027-02-19,549,422-->
-    - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2025-10-22,141,422!2025-10-31,150,422-->
+    - Miles Davis / Prestige records / effects ::@:: Each album was critically acclaimed and helped establish Davis's quintet as one of the best. <p> These records are classics and jazz standards, and essentially defined straight-ahead jazz. <!--SR:!2028-01-09,809,442!2025-10-31,150,422-->
 - [Miles Davis Quintet](../../../../general/Miles%20Davis%20Quintet.md) ::@:: It was an American jazz band from 1955 to early 1969 led by Miles Davis. <!--SR:!2027-05-21,579,422!2025-10-27,146,422-->
   - Miles Davis Quintet / First Great Quintet ::@:: It lasted from 1955 to 1958. It contained Miles Davis on trumpet, John Coltrane \(replacing Sonny Rollins\) on tenor saxophone, Red Garland on piano, Paul Chambers on double bass, and Philly Joe Jones on drums. <!--SR:!2026-11-14,425,402!2027-03-07,543,422-->
 - [Gil Evans](../../../../general/Gil%20Evans.md) \(1912–1988\) ::@:: He was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis. <!--SR:!2027-02-28,558,422!2027-03-15,550,422-->

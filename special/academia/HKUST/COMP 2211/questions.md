@@ -513,7 +513,7 @@ tags:
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
 > - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-11-22,259,330!2025-10-22,231,330-->
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-11-22,259,330!2027-11-22,761,330-->
 
 ## naive Bayes classifier
 

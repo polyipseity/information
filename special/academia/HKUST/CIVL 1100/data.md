@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2026-04-28,565,396-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-10-22,198,216!2028-04-08,948,376-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2026-02-01,102,196!2028-04-08,948,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -157,7 +157,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
 - height ::@:: roof: 178.8 m <!--SR:!2026-02-15,158,201!2029-08-17,1563,370-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2029-11-13,1622,400!2026-02-04,519,400-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2032-04-15,2367,421-->
 
 ## Hong Kong Convention and Exhibition Centre
 

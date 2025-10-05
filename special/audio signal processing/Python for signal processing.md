@@ -43,6 +43,6 @@ To use it, you will need to {@{follow the instructions to compile and install th
 
 ## Freesound
 
-Freesound provides {@{an application programming interface \(API\)}@} that allows you to {@{retrieve and edit data on Freesound}@}. Its API documentation is available on {@{<https://freesound.org/docs/api/>}@}. <!--SR:!2026-11-19,403,381!2025-10-22,91,361!2026-12-25,433,381-->
+Freesound provides {@{an application programming interface \(API\)}@} that allows you to {@{retrieve and edit data on Freesound}@}. Its API documentation is available on {@{<https://freesound.org/docs/api/>}@}. <!--SR:!2026-11-19,403,381!2027-01-23,458,381!2026-12-25,433,381-->
 
 To use {@{the API}@}, you can {@{manually construct the request according to the API documentation}@}, or much more conveniently, use {@{an existing Python library that has already done all of this for you}@}, and you only need to {@{authenticate with an API key and call the correct functions}@}. <!--SR:!2026-11-26,409,381!2026-11-24,408,381!2026-12-31,438,381!2026-12-26,434,381-->

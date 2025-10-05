@@ -55,7 +55,7 @@ As mentioned earlier in this article, there are instances where {@{marginal util
 
 ## marginalist theory
 
-{@{[Marginalism](marginalism.md)}@} is {@{an economic theory and method of analysis}@} that suggests that {@{individuals make economic decisions}@} by {@{weighing the benefits of consuming an additional unit of a good or service against the cost of acquiring it}@}. In other words, {@{value}@} is determined by {@{the additional utility of satisfaction provided by each extra unit consumed}@}. <!--SR:!2025-11-20,289,330!2028-03-06,872,330!2025-11-01,273,330!2025-10-07,5,354!2025-10-07,5,354!2025-10-07,5,354-->
+{@{[Marginalism](marginalism.md)}@} is {@{an economic theory and method of analysis}@} that suggests that {@{individuals make economic decisions}@} by {@{weighing the benefits of consuming an additional unit of a good or service against the cost of acquiring it}@}. In other words, {@{value}@} is determined by {@{the additional utility of satisfaction provided by each extra unit consumed}@}. <!--SR:!2025-11-20,289,330!2028-03-06,872,330!2025-11-01,273,330!2025-11-10,19,354!2025-11-14,23,374!2025-11-14,23,374-->
 
 ### market price and diminishing marginal utility
 
@@ -73,7 +73,7 @@ Price is determined by {@{both marginal utility and marginal cost, and here is t
 
 ### marginalism limitations
 
-[Marginalism](marginalism.md) has {@{many limitations and economic theories}@}. Some scholars, such as [Warren J. Samuels](Warren%20Samuels.md), have raised concerns that {@{individuals may not always behave as portrayed in marginalist theories, highlighting complexities in human decision-making that go beyond simple optimizing behavior}@}. Additionally, utility is {@{difficult to quantify precisely}@}, as {@{it varies significantly from person to person and may not be stable over time}@}.<sup>[\[23\]](#^ref-23)</sup> Another limitation lies in {@{measuring the marginal change}@}: while {@{monetary values can be straightforward to track, gauging the utility derived from non-monetary goods like food is more challenging}@}, as {@{individual preferences and the wide range of alternatives complicate accuracy}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-12-15,1164,350!2025-11-02,274,330!2025-10-30,271,330!2028-10-19,1119,350!2025-11-11,281,330!2026-08-07,466,310!2025-10-22,266,330-->
+[Marginalism](marginalism.md) has {@{many limitations and economic theories}@}. Some scholars, such as [Warren J. Samuels](Warren%20Samuels.md), have raised concerns that {@{individuals may not always behave as portrayed in marginalist theories, highlighting complexities in human decision-making that go beyond simple optimizing behavior}@}. Additionally, utility is {@{difficult to quantify precisely}@}, as {@{it varies significantly from person to person and may not be stable over time}@}.<sup>[\[23\]](#^ref-23)</sup> Another limitation lies in {@{measuring the marginal change}@}: while {@{monetary values can be straightforward to track, gauging the utility derived from non-monetary goods like food is more challenging}@}, as {@{individual preferences and the wide range of alternatives complicate accuracy}@}.<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-12-15,1164,350!2025-11-02,274,330!2025-10-30,271,330!2028-10-19,1119,350!2025-11-11,281,330!2026-08-07,466,310!2029-02-13,1210,350-->
 
 ## quantified marginal utility
 

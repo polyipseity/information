@@ -27,7 +27,7 @@ The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!20
 
 1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2025-11-05,327,345!2025-12-19,363,345-->
 
-{@{Peano's original formulation}@} of the axioms {@{used 1 instead of 0 as the "first" natural number}@}, while the axioms in {@{_[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2029-11-22,1495,365!2025-10-07,5,356!2025-10-07,5,356-->
+{@{Peano's original formulation}@} of the axioms {@{used 1 instead of 0 as the "first" natural number}@}, while the axioms in {@{_[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2029-11-22,1495,365!2025-11-14,23,376!2025-11-15,24,376-->
 
 The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2025-12-05,351,345!2027-12-29,930,345!2027-08-23,830,345-->
 
@@ -125,9 +125,9 @@ For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 This form of the induction axiom, called {@{_strong induction_, is a consequence of the standard formulation}@}, but is {@{often better suited for reasoning about the ≤ order}@}. For example, to {@{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}@}—one can reason as follows. <!--SR:!2027-10-08,866,345!2028-02-10,964,345!2028-07-29,1082,345-->
 
 - proving the naturals are well-ordered / base case ::@:: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2026-08-24,541,325!2027-06-05,760,330-->
-- proving the naturals are well-ordered / induction ::@:: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2026-05-20,469,325!2025-10-22,297,305-->
+- proving the naturals are well-ordered / induction ::@:: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2026-05-20,469,325!2029-03-30,1255,325-->
 
-Thus, by {@{the strong induction principle}@}, for {@{every _n_ ∈ __N__, _n_ ∉ _X_}@}. Thus, {@{_X_ ∩ __N__ = ∅}@}, which {@{[contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2027-12-07,778,285!2028-01-14,946,345!2025-10-07,5,356!2025-10-07,5,356!2025-10-07,5,356-->
+Thus, by {@{the strong induction principle}@}, for {@{every _n_ ∈ __N__, _n_ ∉ _X_}@}. Thus, {@{_X_ ∩ __N__ = ∅}@}, which {@{[contradicts](contradiction.md) _X_ being a nonempty subset of __N__}@}. Thus {@{_X_ has a least element}@}. <!--SR:!2027-12-07,778,285!2028-01-14,946,345!2025-11-14,23,376!2025-11-16,25,376!2025-11-16,25,376-->
 
 ## references
 

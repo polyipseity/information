@@ -68,7 +68,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 > 2. {@{A variant with four odd-degree vertices}@} has {@{no solution}@}.
 > 3. If {@{there are no odd-degree vertices}@}, the trail {@{can start anywhere and forms an Eulerian cycle}@}.
 > 4. {@{Loose ends}@} are {@{considered vertices of degree 1}@}.
-> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2025-10-22,256,342!2028-07-18,1032,350!2026-02-02,346,362!2026-03-17,379,362-->
+> 5. The graph {@{must also be connected}@}. <!--SR:!2026-06-24,425,310!2025-12-13,298,336!2026-03-10,372,362!2025-10-29,261,342!2026-03-26,386,362!2028-10-03,1102,362!2026-02-11,353,362!2026-04-03,393,362!2029-02-08,1205,362!2028-07-18,1032,350!2026-02-02,346,362!2026-03-17,379,362-->
 
 ### Fleury's algorithm
 
@@ -86,7 +86,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 By using {@{a data structure such as a [doubly linked list](doubly%20linked%20list.md)}@} {@{to maintain the set of unused edges incident to each vertex, to maintain the list of vertices on the current tour that have unused edges, and to maintain the tour itself}@}, {@{the individual operations of the algorithm}@} \({@{finding unused edges exiting each vertex, finding a new starting vertex for a tour, and connecting two tours that share a vertex}@}\) may be {@{performed in constant time each}@}, so {@{the overall algorithm takes [linear time](time%20complexity.md#linear%20time), $O(|E|)$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-03-09,373,362!2026-06-29,436,322!2026-03-19,381,362!2026-03-08,372,362!2028-10-14,1111,362!2025-10-31,264,342-->
 
-This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md)}@}. Because {@{it is only possible to get stuck when the deque represents a closed tour}@}, one should {@{rotate the deque by removing edges from the tail and adding them to the head until unstuck}@}, and then {@{continue until all edges are accounted for}@}. This {@{also takes linear time}@}, as {@{the number of rotations performed is never larger than $|E|$}@} \(intuitively, {@{any "bad" edges are moved to the head, while fresh edges are added to the tail}@}\) <!--SR:!2026-04-02,393,362!2025-12-15,301,336!2027-12-13,846,342!2026-04-05,395,362!2027-04-05,662,342!2025-10-22,239,330!2025-11-15,262,342-->
+This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md)}@}. Because {@{it is only possible to get stuck when the deque represents a closed tour}@}, one should {@{rotate the deque by removing edges from the tail and adding them to the head until unstuck}@}, and then {@{continue until all edges are accounted for}@}. This {@{also takes linear time}@}, as {@{the number of rotations performed is never larger than $|E|$}@} \(intuitively, {@{any "bad" edges are moved to the head, while fresh edges are added to the tail}@}\) <!--SR:!2026-04-02,393,362!2025-12-15,301,336!2027-12-13,846,342!2026-04-05,395,362!2027-04-05,662,342!2027-12-27,796,330!2025-11-15,262,342-->
 
 > {@{![Hamiltonian platonic graphs](../../archives/Wikimedia%20Commons/Hamiltonian%20platonic%20graphs.svg)}@}
 >

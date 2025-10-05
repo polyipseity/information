@@ -124,7 +124,7 @@ Resource consumption accounting (RCA) is formally defined as {@{a dynamic, fully
 
 - see: [throughput accounting](throughput%20accounting.md)
 
-The most significant recent direction in managerial accounting is {@{throughput accounting; which recognizes the interdependencies of modern production processes}@}. For {@{any given product, customer or supplier}@}, it is a tool to {@{measure the contribution per unit of constrained resource}@}. <!--SR:!2026-05-04,440,310!2027-06-10,741,310!2025-10-22,294,290-->
+The most significant recent direction in managerial accounting is {@{throughput accounting; which recognizes the interdependencies of modern production processes}@}. For {@{any given product, customer or supplier}@}, it is a tool to {@{measure the contribution per unit of constrained resource}@}. <!--SR:!2026-05-04,440,310!2027-06-10,741,310!2029-01-19,1185,310-->
 
 ### transfer pricing
 

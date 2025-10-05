@@ -72,7 +72,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{1, 2, 3, 4}@} <!--SR:!2025-10-06,4,287-->
+> - solution: {@{1, 2, 3, 4}@} <!--SR:!2025-11-08,17,307-->
 
 ## week 3 lecture
 
@@ -87,7 +87,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{721&nbsp;000&nbsp;000/2&nbsp;884&nbsp;000&nbsp;000=0.25}@} <!--SR:!2025-10-06,4,287-->
+> - solution: {@{721&nbsp;000&nbsp;000/2&nbsp;884&nbsp;000&nbsp;000=0.25}@} <!--SR:!2025-11-08,17,307-->
 
 ## week 3 lecture 2
 
@@ -100,7 +100,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{2, 4}@} <!--SR:!2025-10-06,4,287-->
+> - solution: {@{2, 4}@} <!--SR:!2025-11-08,17,307-->
 
 ## week 4 lecture
 
@@ -110,7 +110,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{\(for reference only\) The U.S. is likely to remain solvent over the next decade, but its fiscal position will become increasingly precarious. Current spending patterns and entitlement obligations suggest that without substantial policy shifts—either in revenue growth or expenditure restraint—the debt trajectory could outpace economic growth, tightening the budgetary space for future priorities. This scenario underscores the need for structural reforms \(tax, spending, or both\) if the U.S. wants to avoid compromising its long‑term economic resilience.}@} <!--SR:!2025-10-05,3,267-->
+> - solution: {@{\(for reference only\) The U.S. is likely to remain solvent over the next decade, but its fiscal position will become increasingly precarious. Current spending patterns and entitlement obligations suggest that without substantial policy shifts—either in revenue growth or expenditure restraint—the debt trajectory could outpace economic growth, tightening the budgetary space for future priorities. This scenario underscores the need for structural reforms \(tax, spending, or both\) if the U.S. wants to avoid compromising its long‑term economic resilience.}@} <!--SR:!2025-11-01,10,287-->
 
 ## week 4 lecture 2
 
@@ -118,4 +118,4 @@ tags:
 >
 > ---
 >
-> - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@} <!--SR:!2025-10-06,4,287-->
+> - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@} <!--SR:!2025-11-08,17,307-->

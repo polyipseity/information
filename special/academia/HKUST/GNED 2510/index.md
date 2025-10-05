@@ -44,7 +44,7 @@ The content is in teaching order.
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2028-09-24,1138,350-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2027-09-03,824,330!2027-02-11,663,330-->
 - [name tag](../../../name%20tag.md)
-  - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2027-07-24,780,330!2025-10-22,301,330-->
+  - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2027-07-24,780,330!2029-07-28,1375,350-->
 
 ## week 2 tutorial
 
@@ -69,7 +69,7 @@ The content is in teaching order.
   - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2028-12-21,1207,350!2028-08-12,1101,350-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2029-07-22,1370,350-->
 - [résumé](../../../résumé.md)
-  - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2025-10-22,301,330-->
+  - What color should a CV typed up in? ::@:: black <!--SR:!2028-03-04,979,350!2029-07-23,1370,350-->
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2028-09-22,1135,350!2028-04-08,1000,350-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2027-02-08,661,330!2027-10-30,852,330-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2028-10-13,1152,350!2028-11-09,1176,350-->
@@ -101,7 +101,7 @@ The content is in teaching order.
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2027-09-07,825,330!2027-07-29,788,330-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2028-04-30,1022,350!2028-08-03,1097,350-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2028-06-30,1071,350!2028-12-08,1199,350-->
-    - increase status ::@:: know the unknown, prepare, ... <!--SR:!2027-04-24,717,330!2025-10-22,301,330-->
+    - increase status ::@:: know the unknown, prepare, ... <!--SR:!2027-04-24,717,330!2029-07-30,1377,350-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2029-02-05,1242,350!2027-03-23,692,330-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2027-02-25,674,330!2027-07-20,776,330-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2027-07-18,777,330!2028-07-29,1092,350-->
@@ -195,7 +195,7 @@ The content is in teaching order.
 - topic: Mastering the 1st Day @work
 - thank-you note (after job interview)
 - job offer
-- future of jobs ::@:: There are no more stable jobs now... The world is changing faster than ever. To adapt, find the jobs you want within yourself... <!--SR:!2025-10-22,301,330!2027-07-13,772,330-->
+- future of jobs ::@:: There are no more stable jobs now... The world is changing faster than ever. To adapt, find the jobs you want within yourself... <!--SR:!2029-07-29,1376,350!2027-07-13,772,330-->
 
 ## aftermath
 

@@ -21,7 +21,7 @@ Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2029-10-11,1487,369
 
 ### effects \(Audacity\)
 
-Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@} <!--SR:!2025-10-22,91,375!2025-10-24,93,375-->
+Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@} <!--SR:!2027-02-02,468,395!2025-10-24,93,375-->
 
 ### generating periodic signals
 

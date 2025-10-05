@@ -59,7 +59,7 @@ In this method {@{both material cost as well as labour cost}@} is {@{the base fo
 
 ### labour hour rate
 
-{@{This method is mostly used}@} if {@{the industry is labour-intensive}@} and the labour is {@{mostly unskilled or semiskilled}@}. It is calculated as {@{\(overhead cost/ Labour hours required for production\)}@}. If {@{the labour hour required is 1000}@} and {@{the overhead to be absorbed is 250}@} then {@{the rate is .25 per labour hour}@}. If {@{20 labour hours are required to complete a job}@} then {@{the overhead will be 5}@}. <!--SR:!2026-06-14,242,330!2026-06-08,237,330!2025-10-22,62,330!2026-06-20,247,330!2026-06-13,241,330!2026-06-06,236,330!2026-06-08,237,330!2026-06-25,251,330!2026-06-16,244,330-->
+{@{This method is mostly used}@} if {@{the industry is labour-intensive}@} and the labour is {@{mostly unskilled or semiskilled}@}. It is calculated as {@{\(overhead cost/ Labour hours required for production\)}@}. If {@{the labour hour required is 1000}@} and {@{the overhead to be absorbed is 250}@} then {@{the rate is .25 per labour hour}@}. If {@{20 labour hours are required to complete a job}@} then {@{the overhead will be 5}@}. <!--SR:!2026-06-14,242,330!2026-06-08,237,330!2026-08-03,285,350!2026-06-20,247,330!2026-06-13,241,330!2026-06-06,236,330!2026-06-08,237,330!2026-06-25,251,330!2026-06-16,244,330-->
 
 ### machine hour rate
 
