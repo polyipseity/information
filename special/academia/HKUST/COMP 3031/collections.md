@@ -625,3 +625,44 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```Scala
 > def this(bindings: (Int, Double)*) = this(bindings.toMap)
 > ```
+
+## set
+
+{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}:
+
+> [!example] __example__
+>
+> Sets are declared {@{in the same way as sequences}@}:
+>
+> ```Scala
+> val fruit = Set("apple", "banana", "pear")
+> val s     = (1 to 6).toSet                  // Set(1,2,3,4,5,6)
+> ```
+
+{@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance
+
+> [!example] __example__
+>
+> {@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance
+>
+> ```Scala
+> val fruit = Set("apple", "banana", "pear")
+> val s     = (1 to 6).toSet                  // Set(1,2,3,4,5,6)
+>
+> s.map(_ + 2)                       // Set(3,4,5,6,7,8)
+> fruit.filter(_.startsWith("app"))  // Set("apple")
+> s.nonEmpty                         // true
+> ```
+
+{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}:
+
+> [!example] __example__
+>
+> {@{A small example}@} shows {@{how duplicate values collapse}@}:
+>
+> ```Scala
+> val s = (1 to 6).toSet  // Set(1,2,3,4,5,6)
+> s.map(_ / 2)            // Set(0,1,2,3)
+> ```
+
+{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}.

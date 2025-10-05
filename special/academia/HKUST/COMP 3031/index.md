@@ -375,7 +375,15 @@ The content is in teaching order.
 ## week 4 lecture 2
 
 - datetime: 2025-09-25T12:00:00+08:00/2025-09-25T13:20:00+08:00, PT1H20M
-- topic:
+- topic: `for` expression; set
+- Scala
+  - Scala / Scala 3
+    - [§ for expressions](Scala%203.md#for%20expressions): `for` expression, `for` expression syntax, `for` generator, `for` filter
+  - Scala / collections
+    - [§ set](collections.md#set): `Set`
+  - Scala / Scala 3
+    - [§ for expression examples](Scala%203.md#for%20expression%20examples): `for` expression examples
+    - [§ for expressions in other languages](Scala%203.md#for%20expressions%20in%20other%20languages): `for` expression in other languages, `for` expression in Python, `for` expression in Haskell, `for` expression in F\#
 
 ## week 5 lab
 

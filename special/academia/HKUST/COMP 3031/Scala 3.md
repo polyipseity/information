@@ -762,6 +762,151 @@ To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on
 
 Here each subclass inherits {@{a uniform `eval` implementation}@} that relies on {@{the structural patterns of the hierarchy}@}. This approach decouples {@{data representation from behaviour}@} while still permitting {@{concise and type‑safe operations across all constructors}@}.
 
+### for expressions
+
+{@{A Scala _for‑expression_}@} is {@{a syntactic construct}@} that combines {@{one or more _generators_ and optional _filters_}@} to produce {@{a new collection from existing ones}@}. {@{Its canonical form}@} is
+
+> [!example] __`for` expression__
+>
+> {@{A Scala _for‑expression_}@} is {@{a syntactic construct}@} that combines {@{one or more _generators_ and optional _filters_}@} to produce {@{a new collection from existing ones}@}. {@{Its canonical form}@} is
+>
+> ```Scala
+> for s yield e
+> ```
+>
+> where `s` denotes {@{a sequence of generators and filters}@}, and `e` is {@{an expression whose value becomes an element of the resulting collection}@}.
+
+{@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to a collection}@} (such as {@{a `Seq`, `Set`, or any type that implements `GenTraversableOnce`}@}), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
+
+> [!example] __`for` generator__
+>
+> {@{A __generator__}@} has {@{the shape `p <- expr`}@}. Here {@{`expr`}@} must {@{evaluate to a collection}@} (such as {@{a `Seq`, `Set`, or any type that implements `GenTraversableOnce`}@}), while {@{`p`}@} is {@{a pattern that will be bound to each element produced by `expr` during iteration}@}. For example, in
+>
+> ```Scala
+> for i <- 1 until n yield i * 2
+> ```
+>
+> {@{the generator `i <- 1 until n`}@} iterates over {@{the range `1 until n`}@}, binding {@{each integer to `i`}@}.
+
+{@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}.
+
+{@{Two important rules}@} govern {@{for‑expressions}@}. First, {@{the sequence of generators and filters}@} must {@{begin with a generator}@}; {@{a filter}@} cannot {@{appear before all generators}@}. Second, when {@{multiple generators are present}@}, {@{the _last_ one}@} {@{varies fastest}@}, analogous to {@{nested loops in imperative languages}@}. Consequently, {@{the first generator}@} is {@{evaluated once per outer iteration}@}, while {@{subsequent generators iterate fully}@} for each {@{value of their predecessors}@}.
+
+{@{These rules}@} enable {@{concise expression of complex iterations}@}, automatically translating into {@{calls to `map`, `flatMap`, and `filter` behind the scenes}@}. In summary, {@{`for` expressions}@} {@{enhance readability}@} by hiding {@{the boilerplate of nested function calls while preserving the underlying functional structure}@}.
+
+#### for expression examples
+
+In {@{many algorithmic problems}@} one must enumerate {@{combinations of elements that satisfy a set of constraints}@}. An example is the search for {@{all pairs of positive integers $(i,j)$}@} such that {@{$1\le j<i<n$ and the sum $i+j$ is prime}@}. {@{The natural way to solve this}@} in Scala is to generate {@{the Cartesian product of two ranges, filter the result, and collect the admissible pairs}@}. {@{The generation step}@} can be expressed as {@{a nested sequence construction}@}:
+
+> [!example] __all pairs of positive integers that sum to prime__
+>
+> {@{The generation step}@} can be expressed as {@{a nested sequence construction}@}:
+>
+> ```Scala
+> (1 until n).map(i => (1 until i).map(j => (i, j))).foldRight(Seq.empty[(Int, Int)])(_ ++ _)
+> // The last operation is common, and is called `flatten`
+> (1 until n).map(i => (1 until i).map(j => (i, j))).flatten
+> // Equivalent code using the law: `xs.flatMap(f) = xs.map(f).flatten`
+> (1 until n).flatMap(i => (1 until i).map(j => (i, j)))
+> ```
+
+Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `i`}@}, we build {@{an inner range from 1 to $i-1$}@} and map it to {@{the pair `(i,j)`}@}. {@{The `flatMap`}@} then concatenates {@{all these inner sequences into a single flat sequence of pairs}@}. The latter operation is equivalent to {@{first mapping \(`map`\) and then flattening \(`flatten`\)}@}. Both approaches yield {@{a sequence of all admissible $(i,j)$ pairs}@}. {@{A more idiomatic Scala solution}@} uses a {@{_for‑comprehension_}@}:
+
+> [!example] __all pairs of positive integers that sum to prime__
+>
+> {@{A more idiomatic Scala solution}@} uses a {@{_for‑comprehension_}@}:
+>
+> ```Scala
+> for {
+>   i <- 1 until n
+>   j <- 1 until i
+>   if isPrime(i + j)
+> } yield (i, j)
+> ```
+
+{@{The comprehension}@} automatically expands into {@{the `flatMap`/`map`/`filter` chain}@} shown above. Once {@{the sequence of pairs is available}@}, {@{a simple filter}@} extracts {@{those whose sum is prime}@}:
+
+> [!example] __all pairs of positive integers that sum to prime__
+>
+> Once {@{the sequence of pairs is available}@}, {@{a simple filter}@} extracts {@{those whose sum is prime}@}:
+>
+> ```Scala
+> xs.filter { case (x, y) => isPrime(x + y) }
+> ```
+>
+> {@{Combining these steps}@} gives {@{a concise expression}@} that performs {@{the combinatorial search in one line}@}.
+
+{@{The classic eight‑queens problem}@} asks for {@{all ways to place eight queens on an $8\times 8$ chessboard}@} so that {@{no two threaten each other}@}. {@{The constraints}@} are that queens cannot {@{share a row, column, or diagonal}@}. {@{A general solution for an arbitrary board size $n$}@} can be {@{expressed recursively}@}: for {@{each partially constructed placement of $k-1$ queens}@}, extend it by {@{placing the $k^{th}$ queen in every safe column}@}. {@{A concise Scala implementation}@} uses {@{a nested `for`‑comprehension}@} that {@{naturally encodes the recursion}@}:
+
+> [!example] __<!-- markdown separator -->_n_-queens problem__
+>
+> {@{A concise Scala implementation}@} uses {@{a nested `for`‑comprehension}@} that {@{naturally encodes the recursion}@}:
+>
+> ```Scala
+> def queens(n: Int): Set[List[Int]] = {
+>   def placeQueens(k: Int): Set[List[Int]] =
+>     if (k == 0) Set(Nil)
+>     else for {
+>       prevSol <- placeQueens(k - 1)  // existing solutions with k-1 queens
+>       col     <- 0 until n           // try every column in the new row
+>       if isSafe(col, prevSol)        // check safety against earlier queens
+>     } yield col :: prevSol
+>   placeQueens(n)
+> }
+> ```
+
+{@{The list `prevSol`}@} records {@{the columns of previously placed queens}@}, with {@{the most recent queen}@} at {@{the head of the list}@}. {@{The helper `isSafe`}@} determines whether {@{a queen can be added in column `col`}@} on {@{the next row (row index equal to `prevSol.length`)}@}. {@{A straightforward recursive definition}@} is:
+
+> [!example] __<!-- markdown separator -->_n_-queens problem__
+>
+> {@{The helper `isSafe`}@} determines whether {@{a queen can be added in column `col`}@} on {@{the next row (row index equal to `prevSol.length`)}@}. {@{A straightforward recursive definition}@} is:
+>
+> ```Scala
+> def isSafe(col: Int, queens: List[Int]): Boolean =
+>   !checks(col, 1, queens)
+>
+> private def checks(col: Int, delta: Int, queens: List[Int]): Boolean = queens match {
+>   case qcol :: others =>
+>     qcol == col
+>     || (qcol - col).abs == delta       // vertical or diagonal attack
+>     || checks(col, delta + 1, others)
+>   case Nil => false
+> }
+> ```
+>
+> Here {@{`delta`}@} represents {@{the row distance between the new queen and each already‑placed queen}@}. If any queen {@{shares a column}@} ({@{`qcol == col`}@}) or {@{lies on a diagonal}@} ({@{absolute difference of columns equals `delta`}@}), {@{the placement is unsafe}@}.
+
+#### for expressions in other languages
+
+{@{Many other languages}@} offer {@{similar declarative mechanisms for combinatorial enumeration}@}. For instance, Python's list comprehensions, Haskell's list comprehensions, and F\#'s sequence expressions all allow concise generation of nested pairs subject to predicates:
+
+> [!example] __example__
+>
+> For instance, {@{Python's list comprehensions}@}:
+>
+> ```Python
+> [(i, j) for i in range(1, n) for j in range(1, i) if is_prime(i + j)]
+> ```
+>
+> {@{Haskell's list comprehensions}@}, and:
+>
+> ```Haskell
+> [(i, j) | i <- [1..n], j <- [1..i], isPrime (i+j)]
+> ```
+>
+> {@{F\#'s sequence expressions}@}:
+>
+> ```F#
+> [for i in 1 .. n-1 do
+>  for j in 1 .. i-1 do
+>  if isPrime(i + j) then
+>  yield (i, j)]
+> ```
+>
+> all allow {@{concise generation of nested pairs subject to predicates}@}.
+
+These examples mirror {@{the Scala `for`‑comprehension shown above}@}, illustrating {@{a common functional paradigm}@}: iterate {@{over nested ranges}@}, filter {@{by a condition}@}, and collect {@{the results into a new collection}@}.
+
 ## definitions
 
 To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}.
@@ -1136,7 +1281,7 @@ Scala provides {@{several functions}@} to check {@{preconditions, assertions, an
 
 Scala _conceptually_ treats {@{the familiar types `scala.Int` and `scala.Boolean`}@} like {@{any other user‑defined class}@}: they reside in {@{the package `scala`}@}. For {@{performance reasons}@}, the compiler maps {@{these classes to JVM primitives (`int`, `boolean`) when emitting bytecode}@}. Nevertheless, from {@{a type‑system perspective}@} they are {@{ordinary classes with methods such as `+`, `-`, and logical operators}@}.
 
-> [!example] ___idealized_ `scala.Boolean`__
+> [!example] __idealized `scala.Boolean`__
 >
 > If we strip away {@{the JVM optimisations}@}, a Boolean can be {@{defined purely in Scala}@}:
 >
@@ -1155,10 +1300,12 @@ Scala _conceptually_ treats {@{the familiar types `scala.Int` and `scala.Boolean
 > object true extends Boolean { def ifThenElse[T](t: => T, e: => T) = t }
 > object false extends Boolean{ def ifThenElse[T](t: => T, e: => T) = e }
 > ```
+
+This construction shows that {@{the logical connectives}@} are {@{merely methods on a class}@}; {@{no primitive boolean type}@} is required. Indeed, using Scala's {@{extension syntax}@}, one can add {@{an implication operator to the idealized Boolean}@}:
+
+> [!example] __idealized `scala.Boolean` with new operators__
 >
-> This construction shows that {@{the logical connectives}@} are {@{merely methods on a class}@}; {@{no primitive boolean type}@} is required.
->
-> Indeed, using Scala's {@{extension syntax}@}, one can add {@{an implication operator to the idealised Boolean}@}:
+> Indeed, using Scala's {@{extension syntax}@}, one can add {@{an implication operator to the idealized Boolean}@}:
 >
 > ```Scala
 > extension (x: Boolean)
@@ -1187,10 +1334,8 @@ Scala _conceptually_ treats {@{the familiar types `scala.Int` and `scala.Boolean
 > ```
 >
 > Scala compiles {@{these to native machine instructions}@}. In principle, the class could be {@{re‑implemented from first principles without resorting to JVM primitives}@}.
->
-> For example, to represent {@{nonnegative integers without using `scala.Int`}@}, we can define {@{an abstract class `Nat` \(natural numbers\)}@} and have {@{two concrete subclasses `Zero` and `Succ`}@}. The construction is {@{the same as that used in the Peano axioms}@}, just {@{translated to Scala}@}.
->
-> This illustrates that even {@{seemingly primitive types}@} can be expressed as {@{ordinary classes with method definitions}@}.
+
+For example, to represent {@{nonnegative integers without using `scala.Int`}@}, we can define {@{an abstract class `Nat` \(natural numbers\)}@} and have {@{two concrete subclasses `Zero` and `Succ`}@}. The construction is {@{the same as that used in the Peano axioms}@}, just {@{translated to Scala}@}. This illustrates that even {@{seemingly primitive types}@} can be expressed as {@{ordinary classes with method definitions}@}.
 
 {@{This purely object‑oriented construction}@} demonstrates how {@{numeric types, usually treated as primitives for efficiency}@}, can be expressed {@{entirely in terms of classes and objects}@}. It also reinforces the principle that {@{Scala's type system is fully expressive enough}@} to model {@{any data structure without leaving the realm of objects}@}.
 
