@@ -402,6 +402,50 @@ The content is in teaching order.
     - COMP 3031 / lab 2 / `map` ::@:: The `map` operation constructs a new set by applying a function `f` to each element of the original set. <p> Because we can only query membership via `contains`, the map is defined as: `x => exists(s, y => f(y) == x)`. For any candidate `x`, it checks whether there exists some `y` in the source set whose image under `f` equals `x`.
     - COMP 3031 / lab 2 / remarks ::@:: All functions can be expressed as one‑liners; the challenge lies in reasoning about function composition rather than writing boilerplate. <p> Think of a set not as a collection but as a _predicate_ that tells whether a given integer is included.
 
+## week 5 lecture
+
+- datetime: 2025-09-30T12:00:00+08:00/2025-09-30T13:20:00+08:00, PT1H20M
+- topic: case class; enumeration; collection; higher-order function; for expression; word coder; database query; desugaring for expressions; monad; generator monad
+- Scala
+  - Scala / Scala 3
+    - [§ case classes](Scala%203.md#case%20classes): case classes, case classes syntax, case class examples
+      - Scala 3 / § case classes / examples ::@:: JSON can be represented _concisely_ and _naturally_ using case classes.
+    - [§ enumerations](Scala%203.md#enumerations): pure data structures, case classes, enumerations, simple enumerations, parameterized enumerations, pattern matching on enumerations
+      - Scala 3 / § case classes / examples ::@:: JSON can be represented _concisely_ and _naturally_ using enumeration.
+  - Scala / collections
+    - [§ higher-order methods](collections.md#higher-order%20methods): higher-order methods, map, filter, reduce
+  - Scala / Scala 3
+    - [§ for expressions](Scala%203.md#for%20expressions): `for` expression, `for` expression syntax, `for` generator pattern matching
+  - Scala / [applications](applications.md)
+    - [§ word coder](applications.md#word%20coder): word coder
+    - [§ `Coder`](applications.md#`Coder`): `Coder`, encapsulation
+    - [§ `Coder.charCode`](applications.md#`Coder.charCode`): `Coder.charCode`, for expression
+    - [§ `Coder.wordCode`](applications.md#`Coder.wordCode`): `Coder.wordCode`, higher-order function
+    - [§ `Coder.wordsForNum`](applications.md#`Coder.wordsForNum`): `Coder.wordsForNum`, higher-order function, `Map`
+    - [§ `Coder.encode`](applications.md#`Coder.encode`): `Coder.encode`, divide and conquer, for expression, recursion
+    - [§ word coder usage](applications.md#word%20coder%20results): word coder usage
+    - [§ word coder conclusion](applications.md#word%20coder%20conclusion): word coder conclusion, word coder in other languages
+    - [§ database](applications.md#database): for expression, database, database query
+    - [§ simple database queries](applications.md#simple%20database%20queries): simple database queries
+    - [§ complex database queries](applications.md#complex%20database%20queries): complex database queries
+  - Scala / Scala 3
+    - [§ desugaring for expressions](Scala%203.md#desugaring%20for%20expressions): `for` expression, desugaring `for` expressions
+  - Scala / [applications](applications.md)
+    - [§ translating queries to higher-order functions](applications.md#translating%20queries%20to%20higher-order%20functions): translating queries to higher-order functions
+  - Scala / Scala 3
+    - [§ desugaring for expressions](Scala%203.md#desugaring%20for%20expressions): `for` expression, desugaring `for` expressions, `for` expression generalization
+  - Scala / [monad](monad.md)
+    - [§ motivation](monad.md#motivation): monad motivation
+    - [§ generator](monad.md#generator): generator, `Generator`
+    - [§ generator monad](monad.md#generator%20monad): generator monad, `Generator.map`, `Generator.flatMap`
+    - [§ generator monad recursion](monad.md#generator%20monad%20recursion): generator monad recursion
+    - [§ generator monad usage](monad.md#generator%20monad%20usage): generator monad usage
+
+## week 5 lecture 2
+
+- datetime: 2025-10-02T12:00:00+08:00/2025-10-02T13:20:00+08:00, PT1H20M
+- topic:
+
 ## aftermath
 
 ### total

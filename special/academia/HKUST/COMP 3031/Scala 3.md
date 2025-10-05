@@ -788,6 +788,28 @@ Here each subclass inherits {@{a uniform `eval` implementation}@} that relies on
 >
 > {@{the generator `i <- 1 until n`}@} iterates over {@{the range `1 until n`}@}, binding {@{each integer to `i`}@}.
 
+For‑expressions also support {@{pattern matching in _generator_ positions}@}. This feature allows {@{_filtering_ and deconstructing complex data structures directly}@} within the loop:
+
+> [!example] __`for` generator with pattern matching__
+>
+> For‑expressions also support {@{pattern matching in _generator_ positions}@}. This feature allows {@{_filtering_ and deconstructing complex data structures directly}@} within the loop:
+>
+> ```Scala
+> def bindings(x: JSON): List[(String, JSON)] = x match
+>   case JSON.Obj(bindings) => bindings.toList
+>   case _                  => Nil
+> for
+>   case ("phoneNumbers", JSON.Seq(numberInfos)) <- bindings(jsData)
+>   numberInfo <- numberInfos
+>   case ("number", JSON.Str(number)) <- bindings(numberInfo)
+>   if number.startsWith("852")
+> yield number
+> ```
+>
+> {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}.
+
+Here, {@{the `case` prefixes}@} act as {@{guards that keep only those elements matching the specified pattern}@}.
+
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}.
 
 {@{Two important rules}@} govern {@{for‑expressions}@}. First, {@{the sequence of generators and filters}@} must {@{begin with a generator}@}; {@{a filter}@} cannot {@{appear before all generators}@}. Second, when {@{multiple generators are present}@}, {@{the _last_ one}@} {@{varies fastest}@}, analogous to {@{nested loops in imperative languages}@}. Consequently, {@{the first generator}@} is {@{evaluated once per outer iteration}@}, while {@{subsequent generators iterate fully}@} for each {@{value of their predecessors}@}.
@@ -904,6 +926,83 @@ Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `
 
 These examples mirror {@{the Scala `for`‑comprehension shown above}@}, illustrating {@{a common functional paradigm}@}: iterate {@{over nested ranges}@}, filter {@{by a condition}@}, and collect {@{the results into a new collection}@}.
 
+#### desugaring for expressions
+
+{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}.
+
+The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `flatMap` and a lazy variant of `filter` called `withFilter`}@}.  For instance, {@{the simple generator}@}:
+
+> [!example] __rewriting `for` generator__
+>
+> For instance, {@{the simple generator}@}:
+>
+> ```Scala
+> for x <- e1 yield e2
+> ```
+>
+> becomes, using {@{`map`}@},
+>
+> ```Scala
+> e1.map(x => e2)
+> ```
+
+{@{A more elaborate form}@} that mixes {@{generators and guards}@}:
+
+> [!example] __rewriting `for` guard__
+>
+> {@{A more elaborate form}@} that mixes {@{generators and guards}@}:
+>
+> ```Scala
+> for x <- e1 if pred; s yield e2
+> ```
+>
+> is rewritten using {@{`withFilter` \(lazy version of `filter`\)}@} as
+>
+> ```Scala
+> for x <- e1.withFilter(x => pred); s yield e2
+> ```
+
+and {@{a nested generator}@}:
+
+> ![example] __rewriting `for` nested generators=__
+>
+> and {@{a nested generator}@}:
+>
+> ```Scala
+> for x <- e1; y <- e2; s yield e3
+> ```
+>
+> using {@{`flatMap`}@}, turns into
+>
+> ```Scala
+> e1.flatMap(x => for y <- e2; s yield e3)
+> ```
+
+An example is {@{the prime‑pair generator}@}:
+
+> [!example] __prime pair generator__
+>
+> An example is {@{the prime‑pair generator}@}:
+>
+> ```Scala
+> for {
+>   i <- 1 until n
+>   j <- 1 until i
+>   if isPrime(i + j)
+> } yield (i, j)
+> ```
+>
+> which expands to
+>
+> ```Scala
+> (1 until n).flatMap(i =>
+>   (1 until i).withFilter(j => isPrime(i + j)).map(j => (i, j)))
+> ```
+
+Because `for` desugars to {@{calls on `map`, `flatMap` and `withFilter`}@}, {@{any type that implements these methods}@} can be {@{queried with the same syntax}@}.  {@{This abstraction}@} is exploited by {@{database access libraries}@} such as {@{_Slick_ or _Quill_, and big‑data engines like _Spark_}@}, where {@{a collection of rows in a remote table}@} can be treated like {@{an ordinary Scala collection}@}.
+
+Thus, {@{the _for_ notation}@} serves as a bridge between {@{functional programming idioms and declarative query languages}@}, providing {@{a uniform, type‑safe, and compositional way}@} to express {@{data transformations across a wide range of contexts}@}.
+
 ## definitions
 
 To {@{give a name `<name>`}@} to {@{an expression `<expr>`}@}, use {@{`def <name>: <type> = <expr>`}@}. {@{`<type>`}@} is {@{optional if the type of `<expr>` can be _inferred_}@}. In particular, if {@{`<expr>` uses `<name>` \(recursion\)}@}, then {@{the type of `<expr>` needs to be specified}@}. Note that {@{`<expr>`}@} is not evaluated when {@{`<name>` is defined}@}. To {@{evaluate `<expr>` when `<name>` is defined}@}, use {@{`val` instead of `def`}@}.
@@ -1013,7 +1112,7 @@ Scala structures {@{code into a hierarchical namespace}@} called {@{_packages_}@
 >
 > {@{The `Hello` object}@} resides in {@{the package `ppl.examples`}@}.
 >
-> ```scala
+> ```Scala
 > package ppl.examples
 >
 > object Hello { /* ... */ }
@@ -1041,7 +1140,7 @@ When {@{a class}@} is defined {@{in a different package}@}, you may refer to it 
 >
 > or
 >
-> ```scala
+> ```Scala
 > import ppl2.Rational
 > val r = Rational(1, 2)                // after import
 > ```
