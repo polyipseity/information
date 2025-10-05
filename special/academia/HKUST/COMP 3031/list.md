@@ -11,7 +11,7 @@ aliases:
   - Scala list
   - Scala lists
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3031/Scala_list
+  - flashcard/active/special/academia/HKUST/COMP_3031/list
   - language/in/English
 ---
 

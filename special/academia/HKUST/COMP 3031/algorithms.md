@@ -11,7 +11,7 @@ aliases:
   - Scala algorithm
   - Scala algorithms
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_3031/Scala_algorithms
+  - flashcard/active/special/academia/HKUST/COMP_3031/algorithms
   - language/in/English
 ---
 
