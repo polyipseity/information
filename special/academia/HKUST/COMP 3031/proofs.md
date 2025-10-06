@@ -175,7 +175,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >   = x :: xs1.reverse.reverse  // by inductive hypothesis
 > ```
 >
-> At this point we {@{cannot directly simplify further}@}. Try to {@{refactor common terms}@}. In particular, we see {@{`xs1.reverse` appears in both terms}@}. We must introduce {@{an auxiliary lemma replacing the common term by a new symbol `ys`}@}:
+> At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}. In particular, we see {@{the sub-expression `xs1.reverse` appears in both terms}@}. We must introduce {@{an auxiliary lemma replacing the common sub-expression by a new symbol `ys`}@}:
 >
 > > For {@{any list `ys` and element `x`}@}, {@{`(ys ::: (x :: Nil)).reverse = x :: ys.reverse`}@}.
 >
