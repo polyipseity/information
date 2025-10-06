@@ -225,6 +225,8 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > repeated.distinct  // removes duplicate author names
 > ```
 
+{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}.
+
 ### translating queries to higher-order functions
 
 {@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher‑order functions as:

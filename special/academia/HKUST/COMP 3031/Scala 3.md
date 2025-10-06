@@ -850,6 +850,8 @@ Here, {@{the `case` prefixes}@} act as {@{guards that keep only those elements m
 
 {@{Two important rules}@} govern {@{for‑expressions}@}. First, {@{the sequence of generators and filters}@} must {@{begin with a generator}@}; {@{a filter}@} cannot {@{appear before all generators}@}. Second, when {@{multiple generators are present}@}, {@{the _last_ one}@} {@{varies fastest}@}, analogous to {@{nested loops in imperative languages}@}. Consequently, {@{the first generator}@} is {@{evaluated once per outer iteration}@}, while {@{subsequent generators iterate fully}@} for each {@{value of their predecessors}@}.
 
+Note that `for` expressions {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of is usually the same type as the starting collection type}@}.
+
 {@{These rules}@} enable {@{concise expression of complex iterations}@}, automatically translating into {@{calls to `map`, `flatMap`, and `filter` behind the scenes}@}. In summary, {@{`for` expressions}@} {@{enhance readability}@} by hiding {@{the boilerplate of nested function calls while preserving the underlying functional structure}@}.
 
 #### for expression examples
