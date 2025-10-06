@@ -190,7 +190,7 @@ The content is in teaching order.
 ## week 2 lecture
 
 - datetime: 2025-09-09T12:00:00+08:00/2025-09-09T13:20:00+08:00, PT1H20M
-- topic: inheritance; objects; entry points; code organization; imports; traits; type system; exception handling; cons; type parameters; polymorphism; pure object-orientation
+- topic: inheritance; objects; entry points; code organization; imports; traits; type system; exceptions; cons; type parameters; polymorphism; pure object-orientation
 - Scala
   - Scala / Scala 3
     - [§ abstract classes](Scala%203.md#abstract%20classes): abstract class, syntax
@@ -209,7 +209,7 @@ The content is in teaching order.
     - [§ traits](Scala%203.md#traits): trait
     - [§ top types](Scala%203.md#top%20types): top types, `scala.Any`, `scala.AnyRef`, `scala.AnyVal`
     - [§ nothing type](Scala%203.md#nothing%20type): nothing type, bottom type, `scala.Nothing`, abnormal termination, empty collections
-    - [§ exception handling](Scala%203.md#exception%20handling): exception, exception handling, type
+    - [§ exceptions](Scala%203.md#exceptions): exceptions, exception handling, type
     - [§ type inference](Scala%203.md#type%20inference): type inference, least upper bound
     - [§ cons](Scala%203.md#cons): cons, cons-lists, immutability, structural recursion
     - [§ value parameters](Scala%203.md#value%20parameters): value parameters
@@ -444,7 +444,28 @@ The content is in teaching order.
 ## week 5 lecture 2
 
 - datetime: 2025-10-02T12:00:00+08:00/2025-10-02T13:20:00+08:00, PT1H20M
-- topic:
+- topic: monad; option monad; exceptional monad; structural induction on trees
+- [monad](../../../../general/monad%20(functional%20programming).md) ::@:: They are a way to structure computations as a sequence of steps, where each step not only produces a value but also some extra information about the computation, such as a potential failure, non-determinism, or side effect.
+  - monad / formal definition ::@:: More formally, a monad is a type constructor M equipped with two operations, `return : <A>(a : A) -> M(A)` which lifts a value into the monadic context, and `bind : <A,B>(m_a : M(A), f : A -> M(B)) -> M(B)` which chains monadic computations.
+- Scala
+  - Scala / monad
+    - [§ monad](monad.md#monad): monad
+    - [§ definition](monad.md#definition): monad definition, monad in Scala
+    - [§ examples](monad.md#examples): examples
+    - [§ `map`](monad.md#`map`): monad `map`
+    - [§ monad laws](monad.md#monad%20lwas): monad laws, monad associativity, monad left identity, monad right identity
+    - [§ `Option`](monad.md#`Option`): `Option`, `Option` respects monad laws
+    - [§ significance for `for`-expressions](monad.md#significance%20for%20`for`%20expressions): significance for `for`-expressions
+  - Scala / Scala 3
+    - [§ exceptions](Scala%203.md#exceptions): exceptions
+    - [§ exception handling](Scala%203.md#exception%20handling): exception handling, `try`, `catch`
+  - Scala / monad
+    - [§ `Try`](monad.md#`Try`): exceptions, exceptional monad, `Try`, exceptional monad does not respect monad laws
+  - Scala / proofs
+    - [§ structural induction on trees](proofs.md#structural%20induction%20on%20trees): structural induction on trees
+    - [§ set properties](proofs.md#set%20properties): set properties
+    - [§ proving set properties](proofs.md#proving%20set%20properties): proving set properties
+    - [§ proving set union property](proofs.md#proving%20set%20properties): proving set union property
 
 ## aftermath
 

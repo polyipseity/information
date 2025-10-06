@@ -18,6 +18,10 @@ tags:
 
 - HKUST COMP 3031
 
+In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}.
+
+{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`‑comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}.
+
 ## motivation
 
 {@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}.
@@ -211,3 +215,153 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 > ```
 
 ScalaCheck integrates {@{with ScalaTest or can run stand‑alone}@}, providing a systematic way to {@{validate program behaviour without hand‑crafted test data}@}.
+
+## definition
+
+{@{A monad}@} is defined for {@{a parametric type constructor `M[_]`}@}. {@{Two fundamental operations}@} must be supplied:
+
+> [!example] __monad definition__
+>
+> {@{A monad}@} is defined for {@{a parametric type constructor `M[_]`}@}. {@{Two fundamental operations}@} must be supplied:
+>
+> ```Scala
+> extension [T](m: M[T]) {
+>   def flatMap[U](f: T => M[U]): M[U]
+> }
+> def unit[T](x: T): M[T]
+> ```
+
+{@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}.
+
+In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type itself or an extension method}@}; {@{`unit`}@} can be provided as {@{a constructor of the type}@}.
+
+### monad laws
+
+For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\)
+
+- __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))`
+- __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)`
+- __Right Identity (Right Unit Law)__ ::@:: `m.flatMap(unit) == m`
+
+{@{These laws}@} ensure that {@{monadic chaining behaves predictably}@}, enabling {@{reasoning about code and allowing optimizations}@}.
+
+### `map`
+
+Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}:
+
+> [!example] __monad `map`__
+>
+> Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}:
+>
+> ```Scala
+> m.map(f) == m.flatMap(x => unit(f(x)))
+> m.map(f) == m.flatMap(f andThen unit)
+> ```
+
+Because {@{every monad supports this construction}@}, it is often convenient to {@{expose a dedicated `map` method for clarity}@}.
+
+## examples
+
+{@{Typical examples}@} include: \(annotation: 4 items: {@{`List`, `Set`, `Option`, `Generator`}@}\)
+
+- `List`: ::@:: `unit(x) = List(x)`
+- `Set`:  ::@:: `unit(x) = Set(x)`
+- `Option`: ::@:: `unit(x) = Some(x)`
+- `Generator`: ::@:: `unit(x) = single(x)`
+
+{@{All of these types}@} provide {@{a natural implementation of `flatMap`}@} that preserves {@{the structure of the container}@}.
+
+## significance for `for`-expressions
+
+{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`‑expression}@}.
+
+{@{Associativity}@} guarantee that {@{nested `for`-expressions can always be collapsed into a single `for`-expression}@}:
+
+> [!example] __flatten `for`-expressions__
+>
+> {@{Associativity}@} guarantees that {@{nested `for`-expressions can always be flattened into a single `for`-expression}@}:
+>
+> ```Scala
+> for {
+>   y <- for { x <- m; y <- f(x) } yield y
+>   z <- g(y)
+> } yield z
+> == for { x <- m; y <- f(x); z <- g(y) } yield z
+> ```
+
+{@{The right‑unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left‑unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}).
+
+## `Option`
+
+For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}:
+
+> [!example] __`Option.flatMap`__
+>
+> For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}:
+>
+> ```Scala
+> extension [T](xo: Option[T]) {
+>   def flatMap[U](f: T => Option[U]): Option[U] =
+>     xo match { case Some(x) => f(x); case None => None }
+> }
+> ```
+
+Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left‑unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right‑unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}.
+
+## `Try`
+
+While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\)
+
+- no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause).
+- cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries.
+
+Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures as ordinary values}@}. {@{This idea}@} is captured by {@{the `scala.util.Try` _monad_ type}@}.
+
+{@{`scala.util.Try`}@} behaves like{@{ an `Option`}@}, but distinguishes {@{between success and failure}@}:
+
+> [!example] __`Try` definition__
+>
+> {@{`scala.util.Try`}@} behaves like{@{ an `Option`}@}, but distinguishes {@{between success and failure}@}:
+>
+> ```Scala
+> abstract class Try[+T]
+> case class Success[+T](x: T) extends Try[T]
+> case class Failure(ex: Exception) extends Try[Nothing]
+> ```
+
+{@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}:
+
+> [!example] __`Try.apply`__
+>
+> {@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}:
+>
+> ```Scala
+> object Try {
+>   def apply[T](expr: => T): Try[T] =
+>     try Success(expr)
+>     catch case NonFatal(ex) => Failure(ex)
+> }
+> ```
+
+{@{`Try`}@} supports {@{monadic composition}@} via {@{`flatMap` and `map`}@}:
+
+> [!example] __`Try.flatMap`__
+>
+> {@{`Try`}@} supports {@{monadic composition}@} via {@{`flatMap` and `map`}@}:
+>
+> ```Scala
+> extension [T](xt: Try[T]) {
+>   def flatMap[U](f: T => Try[U]): Try[U] = xt match {
+>     case Success(x) => try f(x) catch { case NonFatal(ex) => Failure(ex) }
+>     case fail: Failure => fail
+>   }
+>   def map[U](f: T => U): Try[U] = xt match {
+>     case Success(x) => Try(f(x))
+>     case fail: Failure => fail
+>   }
+> }
+> ```
+
+Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}.
+
+One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left‑unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non‑fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non‑fatal exception propagates outward}@} ({@{the "bullet‑proof" principle}@}\).

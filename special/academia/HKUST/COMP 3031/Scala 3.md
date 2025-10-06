@@ -661,11 +661,11 @@ For some reason, {@{call-by-name syntax}@} {@{does not work with anonymous funct
 
 It can be treated as {@{_syntactic sugar_}@} for the following more verbose syntax: {@{`{ def f(<arg name 1>: <arg type 1>, ..., <arg name N>: <arg type N>) = <expr>; f }`}@}
 
-### exception handling
+### exceptions
 
 Scala adopts {@{a familiar exception‑handling model from Java}@}. {@{An exception}@} can be {@{raised at any point during evaluation}@} by using {@{the `throw` keyword}@}:
 
-> [!example] __example__
+> [!example] __`throw` example__
 >
 > {@{An exception}@} can be {@{raised at any point during evaluation}@} by using {@{the `throw` keyword}@}:
 >
@@ -674,6 +674,42 @@ Scala adopts {@{a familiar exception‑handling model from Java}@}. {@{An except
 > ```
 
 The expression immediately {@{terminates the current computation}@} and propagates {@{the supplied exception object (`exn`) up the call stack}@} until it is {@{caught by an appropriate handler}@} (e.g., {@{a surrounding `try‑catch` block}@}). Because this construct {@{never yields a normal value}@}, {@{its type}@} is {@{the bottom type `Nothing`}@}, which fits {@{seamlessly into Scala's type system}@}. This guarantees that {@{any code following a `throw` statement}@} is {@{unreachable}@} and can be {@{omitted from static analysis}@}.
+
+{@{Exceptions in Scala}@} are represented as {@{subclasses of `java.lang.Throwable`}@}. {@{A typical definition}@} is:
+
+> [!example] __exception example__
+>
+> {@{Exceptions in Scala}@} are represented as {@{subclasses of `java.lang.Throwable`}@}. {@{A typical definition}@} is:
+>
+> ```Scala
+> class BadInput(msg: String) extends Exception(msg)
+> ```
+
+#### exception handling
+
+{@{Throwing an exception}@} terminates {@{the current computation unless caught with a `try`/`catch`}@}. For example:
+
+> [!example] __exception handling example__
+>
+> {@{Throwing an exception}@} terminates {@{the current computation unless caught with a `try`/`catch`}@}. For example:
+>
+> ```Scala
+> def validatedInput(): String =
+>   try getInput()
+>   catch {
+>     case BadInput(msg) => println(msg); validatedInput()
+>     case ex: Exception => println("fatal error; aborting"); throw ex
+>   }
+> ```
+
+{@{The semantics of `try`/`catch`}@} is: {@{the body is evaluated}@}, and if {@{an exception is thrown}@}, control jumps {@{to the nearest matching handler}@}. It can be expressed via {@{a variant of the substitution model}@}: {@{`try e[throw ex] catch case x: Exc => handler`}@} is transformed into {@{`[x := ex]handler`}@}, where `e[X]` is {@{some arbitrary "_evaluation context_" that will evaluate `X` in the next step}@}.
+
+While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\)
+
+- no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause).
+- cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries.
+
+Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures as ordinary values}@}. {@{This idea}@} is captured by {@{the `scala.util.Try` _monad_ type}@}.
 
 ### pattern matching
 
