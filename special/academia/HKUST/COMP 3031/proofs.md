@@ -57,7 +57,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is:
 
-- base cases ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$.  
+- base cases ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$.
 - induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub‑trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$.
 
 The proof is typically structured as {@{a base case (leaves)}@} followed by {@{an inductive step for each node constructor}@}. The technique guarantees that {@{any property established in this way}@} holds for {@{all trees, no matter how deeply nested}@}.
@@ -300,7 +300,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > Empty.incl(y).contains(x) = NonEmpty(y, Empty, Empty).contains(x)
 > ```
 >
-> which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}.  
+> which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}.
 >
 > {@{Inductive step}@}: consider {@{`NonEmpty(elem, l, r)`}@} and assume {@{$y \neq x$}@}. We need to show:
 >

@@ -1093,7 +1093,7 @@ Repeated parameters are especially handy for {@{constructing collections without
 > For instance, {@{the `Polynomial` class}@} can accept {@{an arbitrary number of `(Int, Double)` bindings}@}:
 >
 > ```Scala
-> 
+>
 > class Polynomial(nonZeroTerms: Map[Int, Double]) {
 >   def this(bindings: (Int, Double)*) = this(bindings.toMap)
 >   /* ... */
@@ -1368,11 +1368,11 @@ The compiler accepts {@{both calling syntaxes for the latter}@}, while the forme
 
 ### options
 
-In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:  
+In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:
 
 > [!example] __example__
 >
-> In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:  
+> In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold a value of type `A`}@}. It is defined as {@{an abstract sealed class with two concrete subclasses}@}:
 >
 > ```Scala
 > sealed abstract class Option[+A]
