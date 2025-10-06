@@ -217,7 +217,7 @@ personal assistance
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←automated services <!--SR:!2029-03-13,1314,314!2027-01-11,764,330-->
-- automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2026-10-08,642,294-->
+- automated services→::@::←co-creation <!--SR:!2029-02-05,1200,274!2026-10-08,642,294-->
 - co-creation→::@::←communities <!--SR:!2028-08-03,1078,274!2026-04-09,539,314-->
 - communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2027-06-08,734,274-->
 - dedicated personal assistance→::@::←personal assistance <!--SR:!2026-11-24,658,317!2026-09-07,605,317-->
@@ -264,7 +264,7 @@ subscription fee
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←advertising <!--SR:!2027-12-26,962,294!2027-11-01,979,337-->
-- advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2026-05-10,528,317-->
+- advertising→::@::←asset sale <!--SR:!2028-11-24,1127,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2026-07-10,582,294!2026-06-24,487,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2027-03-24,639,257!2028-11-07,1146,274-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2026-10-29,573,257!2025-10-29,328,274-->

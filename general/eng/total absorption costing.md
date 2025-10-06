@@ -26,7 +26,7 @@ tags:
 {@{The selection of the base}@} on which {@{overheads are or should be apportioned}@} depends on the following principles: \(annotation: 3 items: {@{service or use basis, survey basis, ability to pay basis}@}\) <!--SR:!2026-06-18,246,330!2026-06-05,235,330!2026-06-25,251,330-->
 
 - Service or use basis: ::@:: If the benefit obtained by various departments from the overheads can be measured, overheads can be apportioned on that basis. <!--SR:!2026-06-15,243,330!2026-06-07,237,330-->
-- Survey basis: ::@:: If amount of overhead can't be measured survey basis can be applied. For example, if it can be noted that a supervisor is giving 60% of their time to one department and 40% to another, their wage can be apportioned on that basis. <!--SR:!2025-10-24,64,330!2026-06-19,246,330-->
+- Survey basis: ::@:: If amount of overhead can't be measured survey basis can be applied. For example, if it can be noted that a supervisor is giving 60% of their time to one department and 40% to another, their wage can be apportioned on that basis. <!--SR:!2026-08-17,297,350!2026-06-19,246,330-->
 - Ability to pay basis: ::@:: In this case the apportionment may depend on the factors like total sale/profitability. This may not be a fair case always as some departments may have to take most of the burden. <!--SR:!2026-06-06,236,330!2025-11-14,29,290-->
 
 ## secondary apportionment
@@ -63,7 +63,7 @@ In this method {@{both material cost as well as labour cost}@} is {@{the base fo
 
 ### machine hour rate
 
-If {@{the industry considered}@} has {@{a high degree of [automation](automation.md) and mechanization}@} then {@{this method can be used}@}. Here {@{the major chunk of the cost}@} comes from {@{the utilization of the machines}@}. It is calculated as {@{\(overhead cost/ number of machine hours\)}@}. This is very useful if {@{the running cost of the machines including rent}@} are {@{the dominant part of the cost of the product}@}. <!--SR:!2025-10-24,64,330!2026-06-10,239,330!2026-06-03,233,330!2026-06-05,235,330!2026-06-22,249,330!2025-11-07,76,330!2026-06-24,251,330!2026-06-23,250,330-->
+If {@{the industry considered}@} has {@{a high degree of [automation](automation.md) and mechanization}@} then {@{this method can be used}@}. Here {@{the major chunk of the cost}@} comes from {@{the utilization of the machines}@}. It is calculated as {@{\(overhead cost/ number of machine hours\)}@}. This is very useful if {@{the running cost of the machines including rent}@} are {@{the dominant part of the cost of the product}@}. <!--SR:!2026-08-18,298,350!2026-06-10,239,330!2026-06-03,233,330!2026-06-05,235,330!2026-06-22,249,330!2025-11-07,76,330!2026-06-24,251,330!2026-06-23,250,330-->
 
 {@{One of the main reasons}@} for {@{absorbing overheads into the cost}@} of is for {@{[inventory](inventory.md) valuation purposes}@}. {@{Absorption costing}@} is {@{permissible under [GAAP](generally%20accepted%20accounting%20principles.md)}@}. <!--SR:!2025-11-07,76,330!2026-06-19,246,330!2026-06-21,248,330!2026-06-20,247,330!2026-06-25,251,330-->
 

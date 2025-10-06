@@ -15,7 +15,7 @@ In {@{mathematical [queueing theory](queueing%20theory.md)}@}, {@{__Little's law
 
 The result applies to {@{any system, and particularly, it applies to systems within systems}@}.<sup>[\[4\]](#^ref-4)</sup> For example in {@{a bank branch}@}, {@{the customer line might be one subsystem}@}, and {@{each of the [tellers](bank%20teller.md) another subsystem}@}, and Little's result could be {@{applied to each one, as well as the whole thing}@}. {@{The only requirements}@} are that {@{the system be stable and [non-preemptive](preemption%20(computing).md)}@}<sup>\[_[vague](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)_\]</sup>; this rules out {@{transition states such as initial startup or shutdown}@}. <!--SR:!2026-02-13,282,330!2026-02-05,275,330!2026-02-03,273,330!2025-12-17,235,330!2026-02-05,275,330!2025-12-21,239,330!2026-02-22,290,330!2026-02-18,286,330-->
 
-In some cases it is possible not only to {@{mathematically relate the _average_ number in the system to the _average_ wait}@} but even to {@{relate the entire _[probability distribution](probability%20distribution.md)_ \(and moments\) of the number in the system to the wait}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-22,290,330!2025-10-24,178,310-->
+In some cases it is possible not only to {@{mathematically relate the _average_ number in the system to the _average_ wait}@} but even to {@{relate the entire _[probability distribution](probability%20distribution.md)_ \(and moments\) of the number in the system to the wait}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-02-22,290,330!2027-12-04,771,330-->
 
 ## history
 

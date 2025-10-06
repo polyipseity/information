@@ -55,7 +55,7 @@ The content is in teaching order.
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2030-05-01,1767,370-->
-  - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2027-03-04,757,355-->
+  - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2031-07-12,2087,377!2027-03-04,757,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)

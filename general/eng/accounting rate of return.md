@@ -47,8 +47,8 @@ tags:
 where:
 
 - \(annotation: average investment\) ::@:: $${\text{Average investment} }={\frac {\text{Book value at beginning of year 1 + Book value at end of useful life} }{\text{2} } }$$ <!--SR:!2026-07-19,270,330!2026-07-06,259,330-->
-- \(annotation: average return during period\) ::@:: $${\text{Average return during period} }={ {\text{Incremental revenue} }-{\text{ Incremental expenses (including depreciation)} } \over {\text{Number of Years} } }$$ <!--SR:!2025-10-24,63,310!2025-10-25,64,310-->
-- \(annotation: average profit; this seems to be unused by the above formulas\) ::@:: $${\text{Average profit} }={ {\text{Profit after tax} } \over {\text{Life of investment} } }$$ <!--SR:!2026-07-24,274,330!2025-10-24,63,310-->
+- \(annotation: average return during period\) ::@:: $${\text{Average return during period} }={ {\text{Incremental revenue} }-{\text{ Incremental expenses (including depreciation)} } \over {\text{Number of Years} } }$$ <!--SR:!2026-07-24,273,330!2025-10-25,64,310-->
+- \(annotation: average profit; this seems to be unused by the above formulas\) ::@:: $${\text{Average profit} }={ {\text{Profit after tax} } \over {\text{Life of investment} } }$$ <!--SR:!2026-07-24,274,330!2026-07-25,274,330-->
 
 ## pitfalls
 
@@ -56,7 +56,7 @@ where:
 
 1. This technique is based on {@{profits rather than [cash flow](cash%20flow.md)}@}. It {@{ignores cash flow from investment}@}. Therefore, it can be {@{affected by non-cash items}@} such as {@{[bad debts](bad%20debt.md) and [depreciation](depreciation.md) when calculating profits}@}. {@{The change of methods for depreciation}@} can be {@{manipulated and lead to higher profits}@}.
 2. This technique does not {@{adjust for the risk}@} to {@{long term [forecasts](forecasting.md)}@}.
-3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}. <!--SR:!2026-07-22,272,330!2026-06-23,250,330!2025-10-24,63,310!2026-07-07,260,330!2026-07-23,273,330!2026-07-18,269,330!2026-06-22,249,330!2026-06-03,233,330!2025-10-24,63,310!2026-06-29,255,330-->
+3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}. <!--SR:!2026-07-22,272,330!2026-06-23,250,330!2026-07-26,275,330!2026-07-07,260,330!2026-07-23,273,330!2026-07-18,269,330!2026-06-22,249,330!2026-06-03,233,330!2026-07-23,272,330!2026-06-29,255,330-->
 
 ## see also
 

@@ -108,7 +108,7 @@ In cases {@{where the edges are already sorted}@}, or {@{where they have small e
 
 ## proof of correctness
 
-The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm produces a [spanning tree](spanning%20tree.md)}@}. Second, it is proved that {@{the constructed spanning tree is of minimal weight}@}. <!--SR:!2025-10-24,257,330!2027-12-03,842,330!2025-10-25,259,330-->
+The proof {@{consists of two parts}@}. First, it is proved that {@{the algorithm produces a [spanning tree](spanning%20tree.md)}@}. Second, it is proved that {@{the constructed spanning tree is of minimal weight}@}. <!--SR:!2029-01-05,1169,350!2027-12-03,842,330!2025-10-25,259,330-->
 
 ### spanning tree
 
@@ -122,7 +122,7 @@ We show that {@{the following proposition ___P___ is true by [induction](mathema
 - Now assume {@{___P___ is true for some non-final edge set _F_}@} and {@{let _T_ be a minimum spanning tree that contains _F_}@}.
   - If {@{the next chosen edge _e_ is also in _T_}@}, then {@{___P___ is true for _F_ + _e_}@}.
   - Otherwise, if {@{_e_ is not in _T_}@} then {@{_T_ + _e_ has a cycle _C_}@}. The cycle _C_ contains {@{edges which do not belong to _F_ + _e_}@}, since {@{_e_ does not form a cycle when added to _F_ but does in _T_}@}. Let {@{_f_ be an edge which is in _C_ but not in _F_ + _e_}@}. Note that {@{_f_ also belongs to _T_, since _f_ belongs to _T_ + _e_ but not _F_ + _e_}@}. By ___P___, {@{_f_ has not been considered by the algorithm}@}. _f_ {@{must therefore have a weight at least as large as _e_}@}. Then {@{_T_ − _f_ + _e_ is a tree, and it has the same or less weight as _T_}@}. However {@{since _T_ is a minimum spanning tree then _T_ − _f_ + _e_ has the same weight as _T_}@}, otherwise {@{we get a contradiction and _T_ would not be a minimum spanning tree}@}. So {@{_T_ − _f_ + _e_ is a minimum spanning tree containing _F_ + _e_}@} and {@{again ___P___ holds}@}.
-- Therefore, by {@{the principle of induction}@}, {@{___P___ holds when _F_ has become a spanning tree}@}, which is {@{only possible if _F_ is a minimum spanning tree itself}@}. <!--SR:!2025-11-03,265,330!2025-10-24,257,330!2025-11-10,271,330!2025-12-08,294,330!2025-12-03,290,330!2028-11-26,1138,350!2028-10-22,1110,350!2025-12-08,294,330!2025-11-28,285,330!2025-12-02,288,330!2025-11-13,274,330!2028-11-03,1119,350!2027-05-20,622,310!2025-12-07,293,330!2025-12-07,293,330!2026-12-17,551,310!2025-11-29,286,330!2027-08-26,765,330!2027-10-03,794,330!2025-11-05,266,330!2025-11-03,266,330!2025-12-08,294,330!2025-11-29,285,330-->
+- Therefore, by {@{the principle of induction}@}, {@{___P___ holds when _F_ has become a spanning tree}@}, which is {@{only possible if _F_ is a minimum spanning tree itself}@}. <!--SR:!2025-11-03,265,330!2029-01-06,1170,350!2025-11-10,271,330!2025-12-08,294,330!2025-12-03,290,330!2028-11-26,1138,350!2028-10-22,1110,350!2025-12-08,294,330!2025-11-28,285,330!2025-12-02,288,330!2025-11-13,274,330!2028-11-03,1119,350!2027-05-20,622,310!2025-12-07,293,330!2025-12-07,293,330!2026-12-17,551,310!2025-11-29,286,330!2027-08-26,765,330!2027-10-03,794,330!2025-11-05,266,330!2025-11-03,266,330!2025-12-08,294,330!2025-11-29,285,330-->
 
 ## parallel algorithm
 
@@ -218,7 +218,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
 >             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>f</sub>}@}
-> </pre> <!--SR:!2025-10-28,261,330!2025-11-27,284,330!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2025-11-06,267,330!2026-03-29,299,270!2025-11-04,267,330!2025-12-08,294,330!2025-10-24,258,330!2025-11-08,270,330!2029-01-10,1175,350!2027-09-16,772,330!2025-11-05,267,330!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2025-11-30,286,330!2025-12-09,294,330-->
+> </pre> <!--SR:!2025-10-28,261,330!2025-11-27,284,330!2028-12-01,1142,350!2025-12-09,294,330!2026-08-24,465,310!2025-12-01,288,330!2025-11-06,267,330!2026-03-29,299,270!2025-11-04,267,330!2025-12-08,294,330!2029-01-17,1181,350!2025-11-08,270,330!2029-01-10,1175,350!2027-09-16,772,330!2025-11-05,267,330!2025-12-09,294,330!2027-12-22,847,330!2025-12-08,294,330!2027-05-10,613,310!2026-01-25,305,290!2025-11-30,286,330!2025-12-09,294,330-->
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-11-07,268,330!2029-01-04,1170,350!2025-11-11,272,330-->
 

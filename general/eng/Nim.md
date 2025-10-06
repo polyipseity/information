@@ -112,7 +112,7 @@ In normal play, the winning strategy is {@{to finish every move with a nim-sum o
 
 The only heap that is reduced is heap A, so the winning move is to {@{reduce the size of heap A to 1 (by removing two objects)}@}. <!--SR:!2025-11-19,312,341-->
 
-As a particular simple case, if {@{there are only two heaps left}@}, the strategy is to {@{reduce the number of objects in the bigger heap to make the heaps equal}@}. After that, no matter what move the opponent makes, the player can {@{make the same move on the other heap, guaranteeing that they take the last object}@}. <!--SR:!2025-10-27,291,330!2025-10-24,288,330!2025-11-06,302,341-->
+As a particular simple case, if {@{there are only two heaps left}@}, the strategy is to {@{reduce the number of objects in the bigger heap to make the heaps equal}@}. After that, no matter what move the opponent makes, the player can {@{make the same move on the other heap, guaranteeing that they take the last object}@}. <!--SR:!2025-10-27,291,330!2029-05-24,1308,350!2025-11-06,302,341-->
 
 When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one (in normal play, the correct move would be to leave an even number of such heaps)}@}. <!--SR:!2025-10-30,295,341!2028-05-17,997,341!2025-11-17,310,341-->
 
@@ -137,7 +137,7 @@ The soundness of the optimal strategy described above was demonstrated by {@{C. 
 
 __Theorem__. ::@:: In a normal nim game, the player making the first move has a winning strategy if and only if the nim-sum of the sizes of the heaps is not zero. Otherwise, the second player has a winning strategy. <!--SR:!2025-10-30,295,341!2025-11-18,311,341-->
 
-_Proof:_ Notice that {@{the nim-sum (⊕) obeys the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition (+) and also satisfies an additional property, _x_ ⊕ _x_ = 0}@}. <!--SR:!2025-10-24,289,330-->
+_Proof:_ Notice that {@{the nim-sum (⊕) obeys the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition (+) and also satisfies an additional property, _x_ ⊕ _x_ = 0}@}. <!--SR:!2028-06-02,952,330-->
 
 Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}@}. Let {@{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}@}. If {@{the move was in heap _k_}@}, we have {@{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}@}. By the properties of ⊕ mentioned above, we have {@{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}@} <!--SR:!2025-10-27,292,341!2025-10-26,291,341!2025-11-24,317,341!2025-12-10,288,290!2028-01-04,823,321-->
 
@@ -238,7 +238,7 @@ In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of ob
 
 ### greedy nim
 
-Greedy nim is a variation wherein {@{the players are restricted to choosing stones from only the largest pile}@}.<sup>[\[10\]](#^ref-10)</sup> It is {@{a finite [impartial game](impartial%20game.md)}@}. Greedy nim misère has {@{the same rules as greedy nim, but the last player able to make a move loses}@}. <!--SR:!2025-10-29,294,341!2025-10-24,289,330!2025-12-20,335,341-->
+Greedy nim is a variation wherein {@{the players are restricted to choosing stones from only the largest pile}@}.<sup>[\[10\]](#^ref-10)</sup> It is {@{a finite [impartial game](impartial%20game.md)}@}. Greedy nim misère has {@{the same rules as greedy nim, but the last player able to make a move loses}@}. <!--SR:!2025-10-29,294,341!2029-05-31,1315,350!2025-12-20,335,341-->
 
 Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-12-09,326,341!2025-11-16,309,341!2027-04-15,643,341!2025-10-30,295,341!2026-01-07,351,341!2025-11-24,317,341!2025-11-18,311,341!2025-11-21,314,341-->
 

@@ -41,7 +41,7 @@ The content is in teaching order.
 - SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2028-03-05,927,310!2028-09-19,1133,350-->
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2028-08-05,1098,350!2028-10-03,1142,350-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2028-12-30,1214,350!2028-02-06,958,350-->
-  - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2025-10-24,303,330!2028-09-24,1138,350-->
+  - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2029-08-06,1382,350!2028-09-24,1138,350-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2027-09-03,824,330!2027-02-11,663,330-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2027-07-24,780,330!2029-07-28,1375,350-->
@@ -84,7 +84,7 @@ The content is in teaching order.
 - datetime: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
 - topic: Portfolio Building (II)
 - [cover letter](../../../cover%20letter.md)
-  - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2026-08-17,521,310!2025-10-24,303,330-->
+  - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2026-08-17,521,310!2029-08-08,1384,350-->
 - transferrable skills, portable skills
 - professional social media ::@:: LinkedIn <!--SR:!2029-02-27,1260,350!2028-10-08,1147,350-->
 - elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2029-07-21,1369,350!2028-10-18,1156,350-->
@@ -148,7 +148,7 @@ The content is in teaching order.
 
 - datetime: 2023-11-01T17:00:00+08:00/2023-11-01T18:50:00+08:00
 - topic: Interview (I): Interview Like a PRO
-- first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2025-10-24,303,330!2026-04-09,411,310-->
+- first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2029-08-09,1385,350!2026-04-09,411,310-->
 - video interview
   - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2028-12-14,1202,350!2027-08-20,810,330-->
 - self-introduction
@@ -175,7 +175,7 @@ The content is in teaching order.
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2029-07-31,1377,350!2028-08-23,1110,350-->
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2027-01-15,648,330!2028-08-22,1111,350-->
-  - STAR-r / situation ::@:: set the scene <!--SR:!2028-09-03,1119,350!2025-10-24,303,330-->
+  - STAR-r / situation ::@:: set the scene <!--SR:!2028-09-03,1119,350!2029-08-07,1383,350-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2027-10-18,854,330!2028-01-18,939,350-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2028-11-15,1181,350!2028-12-26,1210,350-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2028-09-08,1126,350!2029-07-20,1368,350-->

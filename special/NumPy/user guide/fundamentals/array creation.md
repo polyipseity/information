@@ -94,7 +94,7 @@ array([2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9])
 
 Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2026-01-01,333,350!2029-03-13,1240,350!2026-01-16,346,350!2025-10-30,279,330!2029-03-15,1242,350!2025-11-01,280,330!2025-12-24,326,350-->
 
-{@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-10-24,275,330!2025-11-09,287,330!2025-12-21,323,350-->
+{@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2029-04-01,1255,350!2025-11-09,287,330!2025-12-21,323,350-->
 
 ```Python
 >>> import numpy as np
@@ -102,7 +102,7 @@ Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/nump
 array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 ```
 
-{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2025-10-24,274,330!2025-12-31,333,350!2026-01-13,344,350-->
+{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2029-03-31,1254,350!2025-12-31,333,350!2026-01-13,344,350-->
 
 ### 2D array creation functions
 
@@ -256,7 +256,7 @@ a =  [1 2 3 4] b =  [2 3]
 
 For more information and examples look at [copies and Views](../quickstart.md#copies%20and%20views).
 
-There are {@{a number of routines to join existing arrays}@} e.g. {@{[`numpy.vstack`](../../API%20reference/generated/numpy.vstack.md#numpy.vstack "numpy.vstack"), [`numpy.hstack`](../../API%20reference/generated/numpy.hstack.md#numpy.hstack "numpy.hstack"), and [`numpy.block`](../../API%20reference/generated/numpy.block.md#numpy.block "numpy.block")}@}. Here is an example of {@{joining four 2-by-2 arrays into a 4-by-4 array using `block`}@}: <!--SR:!2025-10-24,274,330!2025-12-27,329,350!2025-11-11,290,330-->
+There are {@{a number of routines to join existing arrays}@} e.g. {@{[`numpy.vstack`](../../API%20reference/generated/numpy.vstack.md#numpy.vstack "numpy.vstack"), [`numpy.hstack`](../../API%20reference/generated/numpy.hstack.md#numpy.hstack "numpy.hstack"), and [`numpy.block`](../../API%20reference/generated/numpy.block.md#numpy.block "numpy.block")}@}. Here is an example of {@{joining four 2-by-2 arrays into a 4-by-4 array using `block`}@}: <!--SR:!2029-03-24,1247,350!2025-12-27,329,350!2025-11-11,290,330-->
 
 ```Python
 >>> import numpy as np
@@ -299,7 +299,7 @@ x, y
 3, 9
 ```
 
-{@{Importing `simple.csv`}@} is accomplished using {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt")}@}: <!--SR:!2025-10-24,273,330!2025-10-24,275,330-->
+{@{Importing `simple.csv`}@} is accomplished using {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt")}@}: <!--SR:!2029-03-25,1248,350!2029-04-02,1256,350-->
 
 ```Python
 >>> import numpy as np
@@ -314,7 +314,7 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2029-03-23,1247,350!2029-02-28,1230,350!2025-10-24,274,330!2025-12-26,328,350!2025-12-30,332,350!2026-01-14,344,350!2025-12-19,321,350-->
+There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2029-03-23,1247,350!2029-02-28,1230,350!2026-03-13,140,310!2025-12-26,328,350!2025-12-30,332,350!2026-01-14,344,350!2025-12-19,321,350-->
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 

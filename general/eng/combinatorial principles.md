@@ -39,7 +39,7 @@ Generally, according to this principle, if {@{_A_<sub>1</sub>, …, _A<sub>n</su
 
 - see: [rule of division (combinatorics)](rule%20of%20division%20(combinatorics).md)
 
-The rule of division states that {@{there are _n/d_ ways to do a task}@} if {@{it can be done using a procedure that can be carried out in _n_ ways}@}, and for {@{every way _w_, exactly _d_ of the _n_ ways of the procedure correspond to way _w_}@}. <!--SR:!2025-10-24,288,330!2025-11-18,309,330!2025-10-24,288,330-->
+The rule of division states that {@{there are _n/d_ ways to do a task}@} if {@{it can be done using a procedure that can be carried out in _n_ ways}@}, and for {@{every way _w_, exactly _d_ of the _n_ ways of the procedure correspond to way _w_}@}. <!--SR:!2029-05-26,1310,350!2025-11-18,309,330!2029-05-27,1311,350-->
 
 ## bijective proof
 

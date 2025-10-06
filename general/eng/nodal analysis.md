@@ -13,7 +13,7 @@ tags:
 
 > {@{![Kirchhoff's current law is the basis of nodal analysis.](../../archives/Wikimedia%20Commons/KCL%20-%20Kirchhoff%27s%20circuit%20laws.svg)}@}
 >
-> {@{Kirchhoff's current law is the basis of nodal analysis.}@} <!--SR:!2025-10-24,152,306!2026-02-07,252,330-->
+> {@{Kirchhoff's current law is the basis of nodal analysis.}@} <!--SR:!2027-08-02,647,326!2026-02-07,252,330-->
 
 In {@{electric circuits analysis}@}, {@{__nodal analysis__, __node-voltage analysis__, or the __branch current method__}@} is {@{a method of determining the voltage \([potential difference](potential%20difference.md)\) between "[nodes](node%20(circuits).md)" \(points where elements or branches connect\) in an [electrical circuit](electrical%20circuit.md) in terms of the branch currents}@}. <!--SR:!2026-05-01,320,346!2026-01-25,239,330!2026-02-04,249,330-->
 

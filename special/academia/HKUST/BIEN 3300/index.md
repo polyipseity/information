@@ -60,16 +60,16 @@ The content is in teaching order.
 - topic: logistics; real-world applications of data science in physical, chemical, and life sciences
 - BIEN 3300
   - BIEN 3300 / logistics
-  - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2025-10-26,16,290!2025-10-24,14,290-->
+  - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2025-10-26,16,290!2025-12-21,58,310-->
   - BIEN 3300 / rules
 - [data](../../../../general/data.md) ::@:: They are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally. <!--SR:!2025-10-26,16,290!2025-10-26,16,290-->
-- [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
-  - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
-  - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo <!--SR:!2025-10-26,16,290!2025-10-24,14,290-->
-    - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
-    - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
+- [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2025-10-25,15,290!2025-12-17,54,310-->
+  - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2025-10-25,15,290!2025-12-19,56,310-->
+  - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo <!--SR:!2025-10-26,16,290!2025-12-18,55,310-->
+    - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2025-10-25,15,290!2025-12-20,57,310-->
+    - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2025-10-25,15,290!2025-12-18,55,310-->
   - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured daa. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\) <!--SR:!2025-10-26,16,290!2025-10-25,15,290-->
-- [molecular engineering](../../../../general/molecular%20engineering.md) ::@:: It is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
+- [molecular engineering](../../../../general/molecular%20engineering.md) ::@:: It is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. <!--SR:!2025-10-25,15,290!2025-12-17,54,310-->
   - molecular engineering / data science ::@:: Analyze, make predictions about molecules, and design molecules. <p> It is helpful because we do not have _complete_ knowledge of underlying rules of interactions between molecules. <!--SR:!2025-10-25,15,290!2025-10-26,16,290-->
 - data science
   - data science / examples
@@ -80,12 +80,12 @@ The content is in teaching order.
   - BIEN 3300 / grading
   - BIEN 3300 / homework
     - BIEN 3300 / homework / rules
-  - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2025-10-26,16,290!2025-10-24,14,290-->
+  - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2025-10-26,16,290!2025-12-21,58,310-->
   - BIEN 3300 / format
     - BIEN 3300 / format / lectures
     - BIEN 3300 / format / tutorials
   - BIEN 3300 / schedule
-  - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+  - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2025-12-20,57,310!2025-10-26,16,290-->
 
 ## week 1 lecture 2
 
@@ -101,7 +101,7 @@ The content is in teaching order.
     - [§ print](Python/console.md#print)
   - Python / [comment](Python/comment.md)
     - [§ comment](Python/comment.md#comment)
-  - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2025-10-24,14,290!2025-10-25,15,290-->
+  - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2025-12-19,56,310!2025-10-25,15,290-->
   - Python / [basics](Python/basics.md)
     - [§ variable](Python/basics.md#variable)
     - [§ augmented assignment](Python/basics.md#augmented%20assignment)

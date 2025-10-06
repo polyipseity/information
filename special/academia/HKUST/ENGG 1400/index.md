@@ -51,7 +51,7 @@ The content is in teaching order.
 - 4 typical kinds of thinking ::@:: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2028-06-09,1053,350!2028-12-22,1208,350-->
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
-  - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2026-06-27,479,310!2025-10-24,303,330-->
+  - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2026-06-27,479,310!2029-08-10,1386,350-->
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2028-03-09,981,350!2026-12-01,612,330-->
 - class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2028-10-18,1157,350-->
 - activity 1: art to building community

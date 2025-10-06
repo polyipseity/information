@@ -108,7 +108,7 @@ Since {@{a program requires a starting point}@}, usually we are required to {@{[
 
 ### labels
 
-{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2026-02-07,412,365!2025-10-24,323,343!2026-02-02,408,365!2028-12-07,1144,357!2029-08-16,1419,363!2025-11-18,27,397!2025-11-18,27,397-->
+{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2026-02-07,412,365!2029-12-26,1524,363!2026-02-02,408,365!2028-12-07,1144,357!2029-08-16,1419,363!2025-11-18,27,397!2025-11-18,27,397-->
 
 Label names are {@{global and unique across an assembly program, and appear in symbol tables of object files}@}. The assembler or linker will {@{transform them into constant addresses during assembly or linking}@}. The loader {@{(before execution of the program) may further modify those constant addresses}@}. <!--SR:!2028-04-06,1015,350!2029-10-13,1484,383!2025-11-27,355,365-->
 
@@ -152,7 +152,7 @@ Dynamic analysis is {@{analyzing the program while executing it}@}. Techniques i
 
 Some common tools are:
 
-- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2025-10-24,325,357!2025-11-11,339,357-->
+- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2030-02-28,1588,377!2025-11-11,339,357-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2027-12-28,940,357!2025-11-04,334,357-->
 - `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2030-02-03,1578,385!2028-10-23,1173,350-->
 - `ltrace` ::@:: Trace library calls, e.g. `glibc`. <!--SR:!2029-06-19,1375,363!2025-12-18,372,365-->

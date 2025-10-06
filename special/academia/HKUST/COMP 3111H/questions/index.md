@@ -55,7 +55,7 @@ tags:
 > ---
 >
 > - solution: {@{1. `Customer 1 -Makes- * Shipment` <br/> 2. `Shipment 1 -Contains- 1..* Package` <br/> 3. `Shipment * -SentTo- 1 City`}@}
-> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-10-25,15,290!2025-10-24,14,290-->
+> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-10-25,15,290!2025-12-20,57,310-->
 
 ---
 
@@ -64,7 +64,7 @@ tags:
 > ---
 >
 > - solution: {@{Use a _new separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
-> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!2025-12-19,56,310!2025-10-26,16,290-->
 
 ---
 
@@ -79,7 +79,7 @@ tags:
 > ---
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
-> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2025-12-18,55,310!2025-10-26,16,290-->
 
 ## week 2 lecture
 

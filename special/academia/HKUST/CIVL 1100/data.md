@@ -46,7 +46,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2029-05-24,1384,327!2026-03-07,555,397-->
 - height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2030-02-12,1672,385-->
-- image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2025-10-24,408,380!2026-01-10,498,400-->
+- image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2031-08-18,2124,400!2026-01-10,498,400-->
 - shape ::@:: sail of a ship <!--SR:!2028-08-31,1245,377!2029-03-17,1417,392-->
 
 ## Burj Khalifa

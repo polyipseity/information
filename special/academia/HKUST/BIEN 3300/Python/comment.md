@@ -13,7 +13,7 @@ tags:
 
 ## comment
 
-In Python, comments start {@{with `#` and end at end of line}@}: <!--SR:!2025-10-24,14,290-->
+In Python, comments start {@{with `#` and end at end of line}@}: <!--SR:!2025-12-21,58,310-->
 
 ```Python
 a = 1 # assign 1 to `a`
@@ -33,7 +33,7 @@ a += 1
 
 ## docstring
 
-Docstrings {@{are documentations for classes and functions}@}. To add a docstring, {@{add a multiline comment right below the start of the class or function}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+Docstrings {@{are documentations for classes and functions}@}. To add a docstring, {@{add a multiline comment right below the start of the class or function}@}: <!--SR:!2025-12-19,56,310!2025-10-26,16,290-->
 
 ```Python
 class A:

@@ -83,9 +83,9 @@ The content is in teaching order.
   - [direct materials cost](../../../../general/direct%20materials%20cost.md) ::@:: major material input that are conveniently and easily traceable to the final product, e.g. food ingredients in a pizza, glass windows in a car <!--SR:!2026-02-12,285,330!2026-02-21,294,330-->
   - [direct labor cost](../../../../general/direct%20labor%20cost.md) ::@:: labor cost that are conveniently and easily traceable to the final product, e.g. wages to assembly line workers, wages to cooks, but _not_ wages to directors <!--SR:!2027-06-13,598,310!2025-11-27,208,310-->
   - [manufacturing overhead](../../../../general/overhead%20(business).md) (MOH) ::@:: all costs needed to manufacture a product that are neither direct materials nor direct labor (i.e. indirect costs), e.g. depreciation, maintenance, insurance, property taxes, repairs, utilities, wages to supervisors <!--SR:!2025-11-02,183,270!2026-02-14,287,330-->
-  - prime cost ::@:: direct materials + direct labor <!--SR:!2026-02-09,282,330!2025-10-24,194,310-->
+  - prime cost ::@:: direct materials + direct labor <!--SR:!2026-02-09,282,330!2028-02-06,835,330-->
   - conversion cost ::@:: direct labor + manufacturing overhead <!--SR:!2026-02-18,291,330!2026-02-09,282,330-->
-  - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2025-10-24,194,310-->
+  - non-manufacturing cost ::@:: includes all other costs that are not manufacturing costs, e.g. general & administration (G&A), marketing, selling <!--SR:!2026-02-16,289,330!2028-02-10,839,330-->
 - product cost ::@:: cost that is incurred per product, e.g. manufacturing costs; goes to "cost of goods sold", and generates future benefits <!--SR:!2026-02-19,292,330!2026-02-19,292,330-->
 - period cost ::@:: cost that is incurred periodically, e.g. non-manufacturing costs; goes to "period expenses", and does not generate future benefits (directly) <!--SR:!2026-02-14,287,330!2027-06-09,595,310-->
 - [relevant cost](../../../../general/relevant%20cost.md) ::@:: a cost that has potential to influence decision making, which differs between decision alternatives (differential/incremental costs) and must be incurred in the future (non-sunk costs) <!--SR:!2028-01-15,818,330!2026-02-13,286,330-->

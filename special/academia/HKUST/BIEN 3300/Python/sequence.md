@@ -15,15 +15,15 @@ Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!
 
 - see: [string](string.md)
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`}@}. Both are {@{equivalent}@} except that you need to {@{escape double quotes in the strings for the first one and single quotes for the second one}@}. To escape a character, {@{precede the character with a backslash `\`}@}, like {@{`"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. <!--SR:!2025-10-24,14,290!2025-10-24,14,290!2025-10-27,17,306!2025-10-27,17,306!2025-10-26,16,306-->
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`}@}. Both are {@{equivalent}@} except that you need to {@{escape double quotes in the strings for the first one and single quotes for the second one}@}. To escape a character, {@{precede the character with a backslash `\`}@}, like {@{`"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. <!--SR:!2025-12-20,57,310!2025-12-18,55,310!2025-10-27,17,306!2025-10-27,17,306!2025-10-26,16,306-->
 
 ## list
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-10-24,14,290!2025-10-24,14,290!2025-10-25,15,290!2025-10-29,18,329!2025-10-29,18,329-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-12-19,56,310!2025-12-21,58,310!2025-10-25,15,290!2025-10-29,18,329!2025-10-29,18,329-->
 
 ## length
 
-{@{The length of a sequence}@} can be determined by {@{`len(sequence)`}@}. <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+{@{The length of a sequence}@} can be determined by {@{`len(sequence)`}@}. <!--SR:!2025-12-19,56,310!2025-10-26,16,290-->
 
 ## indexing
 
@@ -57,7 +57,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {@{a third parameter called step}@}. When omitted, it is {@{by default 1}@}. It determines {@{how many items to move forward after slicing an element}@}, and hence called step. For example, setting step to 3 means {@{every third element is sliced starting from the starting point}@}. Negative steps are also allowed, which simply means {@{going backwards}@}. Here are some more examples: <!--SR:!2025-10-26,16,290!2025-10-24,14,290!2025-10-24,14,290!2025-10-25,15,290!2025-10-25,15,290-->
+Lastly, slicing accepts {@{a third parameter called step}@}. When omitted, it is {@{by default 1}@}. It determines {@{how many items to move forward after slicing an element}@}, and hence called step. For example, setting step to 3 means {@{every third element is sliced starting from the starting point}@}. Negative steps are also allowed, which simply means {@{going backwards}@}. Here are some more examples: <!--SR:!2025-10-26,16,290!2025-12-20,57,310!2025-12-21,58,310!2025-10-25,15,290!2025-10-25,15,290-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"
@@ -66,7 +66,7 @@ assert 'abcdefg'[::-1] == 'gfedcba'
 assert "abcdefg"[:0:-1] == "gfedcb"
 ```
 
-If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2025-10-25,15,290!2025-10-24,14,290!2025-10-26,16,290!2025-10-24,14,290!2025-10-29,18,329!2025-10-29,18,329-->
+If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2025-10-25,15,290!2025-12-20,57,310!2025-10-26,16,290!2025-12-18,55,310!2025-10-29,18,329!2025-10-29,18,329-->
 
 ## concatenation
 
@@ -77,7 +77,7 @@ assert "abc" + "def" == "abcdef"
 assert [39, "omg"] + ['asd', 3.4] == [39, "omg", "asd", 3.4]
 ```
 
-Extrapolating the addition above further to multiplication, {@{the operator `*` repeats the sequence itself for the specified number of times}@}: <!--SR:!2025-10-24,14,290-->
+Extrapolating the addition above further to multiplication, {@{the operator `*` repeats the sequence itself for the specified number of times}@}: <!--SR:!2025-12-21,58,310-->
 
 ```Python
 assert 'ab' * 3 == "ababab"
@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290!2025-10-25,15,290!2025-11-28,39,290!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
+Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-12-19,56,310!2025-10-26,16,290!2025-10-25,15,290!2025-11-28,39,290!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
 
 ```Python
 original = [1, 2, 3]
@@ -105,7 +105,7 @@ assert id(original) == id(new) # `id` can determine whether two objects are the 
 
 ## multidimensional
 
-In Python, there is {@{nothing special}@} about multidimensional sequences. It is literally {@{lists inside a list}@}: <!--SR:!2025-10-24,14,290!2025-10-26,16,290-->
+In Python, there is {@{nothing special}@} about multidimensional sequences. It is literally {@{lists inside a list}@}: <!--SR:!2025-12-18,55,310!2025-10-26,16,290-->
 
 ```Python
 sudoku = [

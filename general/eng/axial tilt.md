@@ -11,7 +11,7 @@ tags:
 
 # axial tilt
 
-In [astronomy](astronomy.md), __axial tilt__, also known as {@{__obliquity__}@}, is {@{the [angle](angle.md) between an object's [rotational axis](rotation%20around%20a%20fixed%20axis.md) and its [orbital](orbit.md) axis, which is the line perpendicular to its [orbital plane](orbital%20plane.md)}@}; equivalently, {@{it is the angle between its [equatorial plane](equator.md) and orbital plane}@}. <!--SR:!2026-03-14,455,310!2025-10-24,341,290!2025-12-23,396,310-->
+In [astronomy](astronomy.md), __axial tilt__, also known as {@{__obliquity__}@}, is {@{the [angle](angle.md) between an object's [rotational axis](rotation%20around%20a%20fixed%20axis.md) and its [orbital](orbit.md) axis, which is the line perpendicular to its [orbital plane](orbital%20plane.md)}@}; equivalently, {@{it is the angle between its [equatorial plane](equator.md) and orbital plane}@}. <!--SR:!2026-03-14,455,310!2029-08-03,1379,310!2025-12-23,396,310-->
 
 ## Earth
 

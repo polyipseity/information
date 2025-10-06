@@ -23,7 +23,7 @@ For {@{[ordinary goods](ordinary%20good.md)}@}, as {@{the [price](price.md) of t
 
 > {@{![types of goods in economics](../../archives/Wikimedia%20Commons/Types%20of%20goods.svg)}@}
 >
-> {@{Types of goods in economics}@} <!--SR:!2026-04-22,350,290!2025-10-24,259,330-->
+> {@{Types of goods in economics}@} <!--SR:!2026-04-22,350,290!2029-01-14,1178,350-->
 
 Giffen goods are {@{named after Scottish economist [Sir Robert Giffen](Robert%20Giffen.md)}@}, to whom {@{[Alfred Marshall](Alfred%20Marshall.md)}@} attributed this idea in {@{his book _[Principles of Economics](Principles%20of%20Economics%20(Marshall%20book).md)_}@}, first {@{published in 1890}@}. Giffen first {@{proposed the [paradox](paradox.md)}@} from {@{his observations of the purchasing habits of the [Victorian era](Victorian%20era.md) poor}@}. <!--SR:!2028-10-19,1112,350!2026-11-30,544,310!2028-12-18,1156,350!2028-11-04,1123,350!2025-12-06,294,330!2025-11-17,278,330-->
 

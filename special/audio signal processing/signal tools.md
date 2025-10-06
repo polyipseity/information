@@ -21,7 +21,7 @@ Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2029-10-11,1487,369
 
 ### effects \(Audacity\)
 
-Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@} <!--SR:!2027-02-02,468,395!2025-10-24,93,375-->
+Audacity supports {@{many sound effects}@}, including {@{amplitude scaling, time stretching, pitch scaling, etc.}@} <!--SR:!2027-02-02,468,395!2027-02-14,478,395-->
 
 ### generating periodic signals
 
@@ -61,4 +61,4 @@ Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its 
 
 ### advanced search
 
-Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@} <!--SR:!2025-10-25,94,375!2025-10-24,93,375-->
+Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@} <!--SR:!2025-10-25,94,375!2027-02-21,485,395-->

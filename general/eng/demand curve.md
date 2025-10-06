@@ -37,7 +37,7 @@ The graph of the demand curve uses {@{the [inverse demand function](inverse%20de
 
 > {@{![Convex demand curve](../../archives/Wikimedia%20Commons/Monopoly%20Demand%20Curve.png)}@}
 >
-> {@{Convex demand curve}@} <!--SR:!2025-10-24,260,330!2028-10-09,1103,350-->
+> {@{Convex demand curve}@} <!--SR:!2029-01-22,1186,350!2028-10-09,1103,350-->
 
 The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-06-04,704,330!2028-09-29,1096,350-->
 

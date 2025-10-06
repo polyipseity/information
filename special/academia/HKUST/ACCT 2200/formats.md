@@ -293,7 +293,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs <!--SR:!2026-02-17,261,330!2027-05-02,588,330-->
   - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for <!--SR:!2026-03-18,290,330!2026-03-17,289,330-->
-    - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2025-10-24,170,310!2026-05-16,334,350-->
+    - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2027-10-27,733,330!2026-05-16,334,350-->
     - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2027-04-11,571,330!2026-01-28,241,330-->
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2026-02-25,269,330!2026-01-28,241,330-->
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2026-07-20,363,310!2025-12-08,205,330-->
@@ -520,11 +520,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{sales in Feb}@}           | {@{&dollar;300<br/>\(&dollar;500×80%×75%\)}@}        | {@{&dollar;100<br/>\(&dollar;500×80%×25%\)}@}        |
 > | {@{sales in Mar}@}           | {@{&dollar;200<br/>\(&dollar;1&nbsp;000×20%\)}@}     | {@{&dollar;600<br/>\(&dollar;1&nbsp;000×80%×75%\)}@} |
 > | {@{sales in Apr}@}           |                                                      | {@{&dollar;500<br/>\(&dollar;2&nbsp;500×20%\)}@}     |
-> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2025-10-27,133,400!2027-09-21,699,420!2025-10-27,133,400!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2027-09-07,687,420!2025-10-25,131,400!2027-03-10,505,400!2027-09-12,691,420!2027-09-24,702,420!2025-10-29,135,400!2027-08-27,678,420!2025-10-24,130,400-->
+> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2025-10-27,133,400!2027-09-21,699,420!2025-10-27,133,400!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2027-09-07,687,420!2025-10-25,131,400!2027-03-10,505,400!2027-09-12,691,420!2027-09-24,702,420!2025-10-29,135,400!2027-08-27,678,420!2027-10-09,715,420-->
 
 - delayed cash receipts or payments ::@:: column headers, row headers <!--SR:!2025-10-26,132,400!2025-10-28,134,400-->
   - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)... <!--SR:!2027-08-30,680,420!2027-09-27,704,420-->
-  - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments <!--SR:!2025-10-24,130,400!2025-10-31,137,400-->
+  - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments <!--SR:!2027-10-07,713,420!2025-10-31,137,400-->
 
 ## standard cost card
 
@@ -542,4 +542,4 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - standard cost card ::@:: column headers, row headers <!--SR:!2025-10-30,136,400!2027-09-13,692,420-->
   - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2027-08-29,679,420!2025-10-29,135,400-->
-  - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2025-10-24,130,400!2026-08-25,378,400-->
+  - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2027-10-10,716,420!2026-08-25,378,400-->

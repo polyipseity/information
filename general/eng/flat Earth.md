@@ -19,7 +19,7 @@ __Flat Earth__ is {@{an archaic and scientifically disproven conception of the [
 
 #### Greece: spherical Earth
 
-The Earth's circumference was first determined {@{around 240 BC by [Eratosthenes](Eratosthenes.md)}@} using {@{the difference in angles of shadow of 2 vertical rods in [Alexandria](Alexandria.md) and [Syene](Aswan.md) (modern Aswan)}@}. <!--SR:!2025-10-24,267,230!2027-10-02,839,290-->
+The Earth's circumference was first determined {@{around 240 BC by [Eratosthenes](Eratosthenes.md)}@} using {@{the difference in angles of shadow of 2 vertical rods in [Alexandria](Alexandria.md) and [Syene](Aswan.md) (modern Aswan)}@}. <!--SR:!2028-03-09,867,250!2027-10-02,839,290-->
 
 ## references
 
