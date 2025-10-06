@@ -64,7 +64,7 @@ unsigned c: [4294967293 4294967293 4294967293] uint32
 signed c: [-3 -3 -3] int64
 ```
 
-Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will {@{assign a new type that satisfies all of the array elements involved in the computation, here `uint32` and `int32` can both be represented in as `int64`}@}.
+Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will assign {@{a new type that satisfies all of the array elements involved in the computation}@}, here {@{`uint32` and `int32`}@} can both be {@{represented in as `int64`}@}.
 
 The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}.
 
@@ -122,7 +122,7 @@ array([[1., 0., 0., 0., 0.],
        [0., 0., 1., 0., 0.]])
 ```
 
-{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can {@{define either a square 2D array with given values along the diagonal _or_ if given a 2D array returns a 1D array that is only the diagonal elements}@}. The two array creation functions can be helpful while doing linear algebra, as such:
+{@{[`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag")}@} can define either {@{a square 2D array with given values along the diagonal}@} _or_ {@{if given a 2D array returns a 1D array that is only the diagonal elements}@}. {@{The two array creation functions}@} can be helpful while {@{doing linear algebra}@}, as such:
 
 ```Python
 >>> import numpy as np
@@ -314,7 +314,7 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}.
+There are {@{a variety of approaches one can use}@}. If the file has {@{a relatively simple format}@} then one can write {@{a simple I/O library}@} and use {@{the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly}@} \(mind {@{your byteorder though}@}!\). If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}.
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 

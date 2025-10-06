@@ -24,7 +24,7 @@ Three possible values {@{can represent the market value}@}: {@{the replacement c
 
 {@{The term "lower of cost or market"}@} is {@{now obsolete and is officially replaced by "lower of cost and net realizable value"}@}. According to {@{the FASB Accounting Standards Update}@},
 
-> An entity should {@{measure inventory}@} within the scope of this Update {@{at the lower of cost and net realizable value}@}. {@{Net realizable value}@} is {@{the estimated selling prices in the ordinary course of business, less reasonably predictable costs of completion, disposal, and transportation}@}.
+> An entity should {@{measure inventory}@} within the scope of this Update {@{at the lower of cost and net realizable value}@}. {@{Net realizable value}@} is {@{the estimated selling prices in the ordinary course of business}@}, less {@{reasonably predictable costs of completion, disposal, and transportation}@}.
 
 This FASB update makes usage {@{consistent with the IFRS wording and removes the use of "or" in a context where "and" was always the correct one}@}.<sup>[\[4\]](#^ref-4)</sup> However, {@{the update does not apply to all companies}@}. {@{Companies that use the FIFO \(first-in, first-out\) and average-cost methods of inventory valuation}@} are {@{required to implement the changes}@}, whereas {@{companies that use the LIFO \(last-in, first-out\) and retail inventory methods are not affected by the update}@}.<sup>[\[3\]](#^ref-3)</sup>
 

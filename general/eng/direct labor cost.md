@@ -12,7 +12,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Direct%20labor%20cost)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Direct%20labor%20cost)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ <br/> | This article's __tone or style may not reflect the [encyclopedic tone](https://en.wikipedia.org/wiki/Wikipedia:Writing%20better%20articles#Tone) used on Wikipedia__. _\(January 2025\)_ | <p>  <p> | This article __needs additional or more specific [categories](https://en.wikipedia.org/wiki/Wikipedia:Categorization)__. _\(January 2025\)_ | | -->
 
-{@{__Direct labor cost__}@} is {@{a part of wage-bill or payroll}@} that can be {@{specifically and consistently assigned to or associated with the manufacture of a product, a particular work order, or provision of a service}@}. Also, we can say it is {@{the [cost](cost.md) of the work done by those workers who actually make the product on the [production line](production%20line.md)}@}.
+{@{__Direct labor cost__}@} is {@{a part of wage-bill or payroll}@} that can be {@{specifically and consistently assigned to or associated with the manufacture of a product, a particular work order, or provision of a service}@}. Also, we can say it is {@{the [cost](cost.md) of the work done by those workers}@} who actually {@{make the product on the [production line](production%20line.md)}@}.
 
 ## determination of the direct labor cost
 

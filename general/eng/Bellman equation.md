@@ -55,7 +55,7 @@ As suggested by the _principle of optimality_, we will {@{consider the first dec
 
 ### the Bellman equation
 
-So far it seems {@{we have only made the problem uglier by separating today's decision from future decisions}@}. But we can {@{simplify}@} by noticing that {@{what is inside the square brackets on the right is _the value_ of the time 1 decision problem, starting from state $x_{1}=T(x_{0},a_{0})$}@}.
+So far it seems we have only made {@{the problem uglier by separating today's decision from future decisions}@}. But we can {@{simplify}@} by noticing that {@{what is inside the square brackets on the right is _the value_ of the time 1 decision problem}@}, starting from {@{state $x_{1}=T(x_{0},a_{0})$}@}.
 
 Therefore, the problem can be rewritten as {@{a [recursive](recursion.md) definition of the value function}@}: {@{$V(x_{0})=\max _{a_{0} }\{F(x_{0},a_{0})+\beta V(x_{1})\}$, subject to the constraints: $a_{0}\in \Gamma (x_{0}),\;x_{1}=T(x_{0},a_{0}).$}@} This is {@{the Bellman equation}@}. It may be {@{simplified even further}@} if {@{the time subscripts are dropped and the value of the next state is plugged in}@}: {@{$$V(x)=\max _{a\in \Gamma (x)}\{F(x,a)+\beta V(T(x,a))\}.$$}@} The Bellman equation is classified as {@{a [functional equation](functional%20equation.md)}@}, because {@{solving it means finding the unknown function $V$}@}, which is {@{the _value function_}@}. Recall that {@{the value function describes the best possible value of the objective}@}, as {@{a function of the state $x$}@}. By {@{calculating the value function}@}, we will also {@{find the function $a(x)$ that describes the optimal action as a function of the state}@}; this is called {@{the _policy function_}@}.
 

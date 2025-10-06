@@ -15,7 +15,7 @@ tags:
 
 {@{The manufacture of products or goods}@} {@{requires material as the prime element}@}. In general, these materials are {@{divided into two categories}@}. These categories are {@{direct materials and indirect materials}@}.<sup>[\[2\]](#^ref-2)</sup>
 
-Direct materials are also called {@{productive materials, raw materials,<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> raw stock, stores and only materials without any descriptive title}@}.
+Direct materials are also called {@{productive materials, raw materials}@},<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> {@{raw stock, stores and only materials without any descriptive title}@}.
 
 ## see also
 
