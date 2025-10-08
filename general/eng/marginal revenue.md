@@ -87,7 +87,7 @@ In contrast to {@{the law of diminishing marginal returns}@}, in {@{a knowledge-
 
 ## marginal revenue and markup pricing
 
-Profit maximization requires that {@{a firm produces where marginal revenue equals marginal costs}@}. Firm managers are {@{unlikely to have complete information concerning their marginal revenue function or their marginal costs}@}. However, the profit maximization conditions can be {@{expressed in a "more easily applicable form"}@}:
+{@{Profit maximization}@} requires that a firm {@{produces where marginal revenue equals marginal costs}@}. Firm managers are unlikely to have {@{complete information concerning their marginal revenue function or their marginal costs}@}. However, {@{the profit maximization conditions}@} can be expressed in {@{a "more easily applicable form" \(annotation: markup percentage based on elasticity of demand\)}@}:
 
 MR = MC, <br/>
 MR = P(1 + 1/e), <br/>

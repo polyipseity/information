@@ -78,7 +78,7 @@ Despite the fact that {@{sunk costs should be ignored when making future decisio
 
 - see: [marginal cost](marginal%20cost.md)
 
-The concept of marginal cost in economics is {@{the incremental cost of each new product produced for the entire product line}@}. For example, if {@{you build a plane, it costs a lot of money}@}, but {@{when you build the 100th plane, the cost will be much lower}@}. When {@{building a new aircraft, the materials used may be more useful for later aircraft}@}, so {@{make as many aircraft as possible from as few materials as possible to increase the margin of profit}@}. Marginal cost is abbreviated {@{MC or MPC}@}.
+The concept of marginal cost in economics is {@{the incremental cost of each new product produced for the entire product line}@}. For example, if you build {@{a plane, it costs a lot of money}@}, but when you build {@{the 100th plane, the cost will be much lower}@}. When {@{building a new aircraft}@}, {@{the materials used}@} may be {@{more useful for later aircraft}@}, so make {@{as many aircraft as possible from as few materials as possible}@} to {@{increase the margin of profit}@}. Marginal cost is abbreviated {@{MC or MPC}@}.
 
 Marginal cost: {@{The increase in cost caused by an additional unit of production is called marginal cost}@}. By definition, marginal cost (MC) is equal to {@{the change in total cost (△TC) divided by the corresponding change in output (△Q)}@}: {@{MC(Q) = △TC(Q)/△Q}@} or, {@{taking the limit as △Q goes to zero}@}, {@{MC(Q) = lim(△Q→0) △TC(Q)/△Q = dTC/dQ}@}.
 
