@@ -14,12 +14,6 @@ tags:
 
 {@{This simple binary channel model}@} underpins {@{many higher‑level analyses in digital communications}@}: it provides the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} often {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non‑binary signalling}@}; nevertheless, it remains {@{a cornerstone of communication theory}@}.
 
-## bit error rate
-
-In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}.  
-
-The following article develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q‑function and signal energy}@}.
-
 ## binary channel
 
 {@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where  
@@ -39,9 +33,15 @@ Because {@{$s_k(t)=\pm A\,p(t)$}@} and {@{$p(t)$}@} is {@{assumed to be a rectan
 
 Thus {@{the decision statistic $V$}@} conditioned on {@{the transmitted bit}@} is {@{Gaussian}@}: {@{$$V|b_k=1 \sim \mathcal N(AT,\,\sigma^2_{n_T}),\qquad V|b_k=0 \sim \mathcal N(-AT,\,\sigma^2_{n_T}).$$}@} The receiver makes {@{a hard decision}@} by comparing $V$ with {@{a threshold $V_{\!th}$}@}: {@{$$\hat b_k = \begin{cases} 1,& V>0\\[4pt] 0,& V\le0 \end{cases}.$$}@} If {@{the threshold is zero}@}, because {@{the two symbols are mirror images about zero}@}, {@{a noise sample that flips the sign of $V$}@} causes {@{an error}@}. The threshold can also {@{be nonzero}@}.
 
-## deriving bit error rate
+## bit error rate
+
+In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}.  
+
+The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q‑function and signal energy}@}.
 
 Let {@{the prior probabilities}@} be {@{$$P(b_k=0)=p_0,\qquad P(b_k=1)=p_1,$$}@} with {@{$p_0+p_1=1$}@}. {@{The a‑priori bit error probabilities}@} are {@{no longer equal}@}; they become {@{$$P_e^{(0)} = P(\hat b_k \neq 0 | b_k=0),\qquad P_e^{(1)} = P(\hat b_k \neq 1 | b_k=1).$$}@} {@{The overall BER}@} is {@{the weighted sum}@} {@{$$P_e = p_0\,P_e^{(0)} + p_1\,P_e^{(1)} \,.$$}@}
+
+Below, we split {@{the analysis into two conditioned cases}@}. Then we avoid dealing with {@{mixed‑distribution integrals that are analytically intractable}@}.
 
 ### bit error rate with zero threshold
 
@@ -64,6 +64,14 @@ $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$
 
 {@{The overall BER with priors $p_0,p_1$}@} is therefore {@{$$\boxed{P_e(V_{\!th})= p_0\,Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right) +p_1\,Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right)} \,.$$}@} {@{Setting $V_{\!th}=0$}@} recovers {@{the zero‑threshold result above}@}.
 
+### bit error rate insight
+
+{@{The variance term $\sigma^2_{n_T}$}@} governs how much {@{the decision statistic $V$ can deviate from its mean value $\pm AT$}@} before {@{causing a bit error}@}.
+
+In {@{a binary antipodal system}@}, {@{the probability of error}@} is governed by {@{the tail probability of a Gaussian distribution}@}; hence it {@{decays exponentially with the ratio}@} {@{$\frac{2 A^2T}{N_0} = \frac{2 E_b}{N_0}$}@}. Because {@{the noise variance}@} scales {@{linearly with the symbol duration $T$}@}, {@{longer symbols}@} provide {@{more averaging and reduce $\sigma^2_{n_T}$}@}, improving {@{reliability}@}.
+
+Mathematically, for {@{a fixed energy per bit \(E_b\)}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}.  
+
 ## signal energy
 
 {@{The _signal energy_ \(excluding noise energy\) transmitted during one symbol}@} is {@{$$E_s = \int_{0}^{T} s_k^2(t)\,dt = A^2 \!\int_{0}^{T} p^2(t)\,dt = A^2 T \,,$$}@} since {@{$p(t)$}@} has {@{unit energy \(assumed to be a rectangular pulse of duration $T$\)}@}.
@@ -73,6 +81,12 @@ With {@{non‑equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b 
 ## signal-to-noise ratio
 
 {@{The _signal‑to‑noise ratio_ (SNR) per bit}@} is then {@{$$\frac{E_b}{N_0/2} = \frac{AT^2}{N_0/2} = \frac{2A^2T}{N_0}.$$}@} Thus, {@{the BER for _zero threshold_ can be expressed compactly}@} as {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) \qquad V_{\!th} = 0} \,.$$}@} It is {@{a classic result}@} for {@{binary antipodal signaling over an AWGN channel}@}.
+
+## using Q-function
+
+{@{The _Q‑function_}@} is {@{the tail probability of a standard normal random variable}@}: {@{$$Q(x)\;=\;\Pr\{Z > x\}\quad \text{with } Z\sim\mathcal N(0,1) \;=\;\frac{1}{\sqrt{2\pi} }\int_{x}^{\infty} e^{-t^{2}/2}\,\mathrm dt \,.$$}@} It may be calculated by {@{using well‑tabulated Q‑functions}@} apart from {@{numerical integration or simulation}@}. However, most textbooks provide {@{a Q‑table up to $x \approx 3$}@}; beyond that, {@{entries become negligible}@}.
+
+For {@{large positive arguments}@}, $Q(x)$ can be approximated by {@{$$Q(x)\approx\frac{1}{\sqrt{2\pi}\,x}e^{-x^{2}/2} \,,$$}@} which is {@{asymptotically exact as $x\to\infty$}@}. {@{This approximation}@} simplifies {@{analytical work when deriving closed‑form BER expressions}@}. It shows the function is {@{a strictly decreasing function}@}: {@{larger thresholds}@} lead to {@{smaller tail probabilities}@}; it also {@{rapid decays}@} for {@{large $x$}@}.
 
 ## using error function
 

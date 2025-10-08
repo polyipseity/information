@@ -333,10 +333,9 @@ The content is in teaching order.
 - ELEC 4110
   - ELEC 4110 / [binary modulation](binary%20modulation.md)
     - [§ binary modulation](binary%20modulation.md#binary%20modulation)
-    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
     - [§ binary channel](binary%20modulation.md#binary%20channel)
     - [§ receiver](binary%20modulation.md#receiver)
-    - [§ deriving bit error rate](binary%20modulation.md#deriving%20bit%20error%20rate)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
     - [§ bit error rate with zero threshold](binary%20modulation.md#bit%20error%20rate%20with%20zero%20threshold)
     - [§ bit error rate with arbitrary threshold](binary%20modulation.md#bit%20error%20rate%20with%20arbitrary%20threshold)
     - [§ signal energy](binary%20modulation.md#signal%20energy)
@@ -385,7 +384,32 @@ The content is in teaching order.
 ## week 3 lecture
 
 - datetime: 2025-09-16T09:00:00+08:00/2025-09-16T10:20:00+08:00, PT1H20M
-- topic:
+- topic: random variable; stochastic process; white noise; additive white Gaussian noise; bit error rate; Q-function
+- random variable
+- [stochastic process](../../../../general/stochastic%20process.md) ::@:: It is a mathematical object usually defined as a family of random variables in a probability space, where the index of the family often has the interpretation of time.
+- joint probability distribution
+- moment
+  - moment / description ::@: A full joint distribution can yield all moments; the reverse is not true for general processes. <p> For Gaussian processes, first‑order and second‑order moments uniquely determine the entire process.
+- [stationary process](../../../../general/stationary%20process.md) ::@:: It is a stochastic process whose statistical properties, such as mean and variance, do not change over time. More formally, the joint probability distribution of the process remains the same when shifted in time. This implies that the process is statistically consistent across different time periods.
+  - stationary process / strict-sense stationary ::@:: Formally, let $\left\{X_{t}\right\}$ be a [stochastic process](../../../../general/stochastic%20process.md) and let $F_{X}(x_{t_{1}+\tau },\ldots ,x_{t_{n}+\tau })$ represent the [cumulative distribution function](../../../../general/cumulative%20distribution%20function.md) of the [unconditional](../../../../general/marginal%20distribution.md) \(i.e., with no reference to any particular starting value\) [joint distribution](../../../../general/joint%20distribution.md) of $\left\{X_{t}\right\}$ at times $t_{1}+\tau ,\ldots ,t_{n}+\tau$. Then, $\left\{X_{t}\right\}$ is said to be __strictly stationary__, __strongly stationary__ or __strict-sense stationary__ if $$F_{X}(x_{t_{1}+\tau },\ldots ,x_{t_{n}+\tau })=F_{X}(x_{t_{1} },\ldots ,x_{t_{n} })\quad {\text{for all } }\tau ,t_{1},\ldots ,t_{n}\in \mathbb {R} {\text{ and for all } }n\in \mathbb {N} _{>0}$$ Since $\tau$ does not affect $F_{X}(\cdot )$, $F_{X}$ is independent of time.
+  - stationary process / weak-sense stationary ::@:: So, a [continuous time](../../../../general/continuous%20time.md#continuous%20time) [random process](../../../../general/random%20process.md) $\left\{X_{t}\right\}$ which is WSS has the following restrictions on its mean function $m_{X}(t)\triangleq \operatorname {E} [X_{t}]$ and [autocovariance](../../../../general/autocovariance.md) function $K_{XX}(t_{1},t_{2})\triangleq \operatorname {E} [(X_{t_{1} }-m_{X}(t_{1}))(X_{t_{2} }-m_{X}(t_{2}))]$: $${\begin{aligned}&m_{X}(t)=m_{X}(t+\tau )&&{\text{for all } }\tau ,t\in \mathbb {R} \\&K_{XX}(t_{1},t_{2})=K_{XX}(t_{1}-t_{2},0)&&{\text{for all } }t_{1},t_{2}\in \mathbb {R} \\&\operatorname {E} [X_{t}^{2}]<\infty &&{\text{for all } }t\in \mathbb {R} \end{aligned} }$$ <p> For Gaussian processes, strict-sense stationary and weak-sense stationary are equivalent. <p> \(__this course__: The instructor did not mention the last condition. Maybe omit it...?\)
+- additive white Gaussian noise
+  - additive white Gaussian noise / moments ::@:: - 1st moment: mean is usually zero → first‑order moment trivial. <br/> - 2nd moment: autocovariance is $R_X(\tau)=\sigma^2\delta(\tau) = (N_0 / 2) \delta(\tau)$, where $\tau = t_2 - t_1$ is the time difference; power spectral density $S_X(f) = \sigma^2 = N_0 / 2$ is flat (white). <br/> - Knowing $\sigma^2 = N_0 / 2$ fully specifies the noise process.
+- [white noise](../../../../general/white%20noise.md) ::@:: It is a random signal having equal intensity at different frequencies, giving it a constant power spectral density.
+  - white noise / "most random" ::@:: The random process has an autocorrelation of 0 between any two distinct time. <p> In practice, pseudo‑random generators are judged by how closely their empirical autocorrelation approximates this ideal delta shape. A small but non‑zero correlation at short lags indicates some residual predictability; larger lags should show essentially zero correlation.
+  - white noise / verification ::@:: Using a spectrum analyzer or oscilloscope, one can plot the PSD to verify flatness or compute autocorrelation directly from recorded data. <p> Deviations from a constant PSD (e.g., colored noise) signal that higher‑order moments are influencing the process or that the assumption of stationarity is violated.
+- additive white Gaussian noise
+  - additive white Gaussian noise / thermal noise ::@:: In a resistor, countless electrons undergo random Brownian motion due to thermal agitation (temperature $T$). Each electron's movement contributes a tiny current; summing over all electrons produces a continuous voltage fluctuation. By the Central Limit Theorem \(CLT\), the sum of many independent microscopic contributions tends toward a Gaussian distribution, explaining why Johnson‑Nyquist noise is modeled as white Gaussian.
+  - additive white Gaussian noise / modeling ::@:: When modeling real systems, one must choose an appropriate representation (discrete vs continuous) to capture realistic temporal correlations. <p> For example, weather or lottery outcomes are discrete‑time processes and inherently correlated over days, unlike the ideal continuous‑time white noise model.
+- ELEC 4110
+  - ELEC 4110 / [binary modulation](binary%20modulation.md)
+    - [§ binary channel](binary%20modulation.md#binary%20channel)
+    - [§ receiver](binary%20modulation.md#receiver)
+    - [§ bit error rate](binary%20modulation.md#bit%20error%20rate)
+    - [§ bit error rate with zero threshold](binary%20modulation.md#bit%20error%20rate%20with%20zero%20threshold)
+    - [§ bit error rate with arbitrary threshold](binary%20modulation.md#bit%20error%20rate%20with%20arbitrary%20threshold)
+    - [§ bit error rate insight](binary%20modulation.md#bit%20error%20rate%20insight)
+    - [§ using Q-function](binary%20mo2dulation.md#using%20Q-function)
 
 ## week 3 lecture 2
 
