@@ -216,7 +216,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >   = x :: xs1                              // induction hypothesis on xs1
 > ```
 >
-> Thus {@{`xs.reverse.reverse = xs` holds for all lists}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+> Thus {@{`xs.reverse.reverse = xs` holds for all lists}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### proving `map` is distributive over concatenation
 
@@ -301,7 +301,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{`x < elem`}@}, `incl` recurses {@{into the left child: `NonEmpty(elem, l.incl(x), r)`}@}. By {@{the induction hypothesis}@}, {@{`l.incl(x).contains(x)` is `true`}@}; consequently {@{the whole expression evaluates to `true`}@}.
 > - {@{The case `x > elem`}@} is {@{analogous with the right child}@}.
 >
-> Thus {@{law 2 holds for all trees}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+> Thus {@{law 2 holds for all trees}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z <ｘ$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### proving set union property
 
@@ -382,7 +382,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > One expands {@{the left hand side}@} to {@{`l.union(r.union(y)).incl(z).contains(e)`}@}.
 >
 > - If {@{`z == e`}@}, then {@{both sides easily reduce to `true`}@}.
-> - If {@{`z != e`}@}, then the above can be reduced to {@{`l.union(r.union(y)).contains(e)`}@} by that {@{non-insertion preserves membership}@}. Then apply {@{the inductive hypothesis twice}@}: {@{`l.contains(e) || r.union(y).contains(e)`, and then `l.contains(e) || r.contains(e) || y.contains(e)`}@}. Extracting {@{common subexpressions}@}, what remains to show is that {@{`l.contains(e) || r.contains(e) == NonEmpty(z, l, r).contains(e)`}@}.
+> - If {@{`z != e`}@}, then the above can be reduced to {@{`l.union(r.union(y)).contains(e)`}@} by that {@{non-insertion preserves membership}@}. Then apply {@{the inductive hypothesis twice}@}: {@{`l.contains(e) || r.union(y).contains(e)`, and then `l.contains(e) || r.contains(e) || y.contains(e)`}@}. Extracting {@{common subexpressions}@}, what remains to show is that {@{`l.contains(e) || r.contains(e) == NonEmpty(z, l, r).contains(e)`}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -391,7 +391,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > To prove {@{the above assuming `z != e`}@}, {@{split cases on `z > e` and `z < e`}@}.
 >
 > - If {@{`z > e`}@}, then {@{RHS reduces to `l.contains(e)`}@}. We need to show {@{`r.contains(e)` is `false` to reduce LHS to the same expression}@}. This requires {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. See {@{the part below}@}.
-> - If {@{`z < e`}@}, the proof is {@{analogous}@}.
+> - If {@{`z < e`}@}, the proof is {@{analogous}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -404,4 +404,4 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
 > - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.
 >
-> This {@{finishes the proof}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+> This {@{finishes the proof}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
