@@ -23,7 +23,7 @@ tags:
 
 ### insertion sort
 
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}:
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub‑list}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __insertion sort__
 >
@@ -35,8 +35,9 @@ tags:
 >   case y :: ys  => insert(y, isort(ys))
 > }
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is:
+{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __insertion sort insertion__
 >
@@ -49,12 +50,13 @@ tags:
 >     if (x < y) x :: xs else y :: insert(x, ys)
 > }
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to \(N \times N\)}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}.
+{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to \(N \times N\)}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### merge sort
 
-{@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}:
+{@{The classic divide‑and‑conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __merge sort__
 >
@@ -69,12 +71,13 @@ tags:
 >     val (fst, snd) = xs.splitAt(n)
 >     merge(msort(fst), msort(snd))
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub‑lists}@}.
+The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub‑lists}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 #### merge sort splitting
 
-{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}:
+{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __merge sort splitting__
 >
@@ -84,8 +87,9 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 > val (label, value) = pair
 > val (fst, snd) = xs.splitAt(n)
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
+One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __`List.splitAt`__
 >
@@ -96,10 +100,11 @@ One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
 >   def splitAt(n: Int): (List[A], List[A]) =
 >     (xs.take(n), xs.drop(n))
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### merge sort merging
 
-{@{A safe and exhaustive definition}@} of the merge step uses {@{pattern matching on both input lists}@}:
+{@{A safe and exhaustive definition}@} of the merge step uses {@{pattern matching on both input lists}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __merge sort merging__
 >
@@ -115,12 +120,13 @@ One could {@{re‑implement `splitAt`}@} as {@{an extension method}@}:
 >       else y :: merge(xs, ys1)
 >   }
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
-The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}.
+The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### sorting arbitrary types
 
-To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}:
+To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less‑than predicate}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __merge sort with comparator__
 >
@@ -142,8 +148,9 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 >     val (fst, snd) = xs.splitAt(n)
 >     merge(msort(fst)(lt), msort(snd)(lt))
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}:
+{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __using merge sort with comparator__
 >
@@ -159,5 +166,6 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > // Type inference allows a shorter form
 > msort(xs)( (x, y) => x < y )
 > ```
+<!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-These examples demonstrate how Scala's {@{type inference and higher‑order functions}@} enable {@{concise yet powerful generic algorithms}@}.
+These examples demonstrate how Scala's {@{type inference and higher‑order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
