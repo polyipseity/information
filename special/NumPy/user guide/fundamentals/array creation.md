@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2027-12-07,850,330!2029-03-10,1238,350!2026-01-29,122,310!2026-01-10,341,350!2029-03-20,1245,350!2026-01-04,336,350!2025-11-05,26,379-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x`}@} where {@{the highest polynomial order is `n-1`}@}. \(annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}.\) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2029-03-27,1249,350!2027-12-07,850,330!2029-03-10,1238,350!2026-01-29,122,310!2026-01-10,341,350!2029-03-20,1245,350!2026-01-04,336,350!2025-11-05,26,379-->
 
 ```Python
 >>> import numpy as np
@@ -243,7 +243,7 @@ Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those 
 a = [2 3 3 4 5 6] ; b = [2 3]
 ```
 
-In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2029-03-18,1244,350!2026-01-21,350,350!2029-01-15,1193,350!2025-12-29,331,350!2025-10-25,275,330!2029-03-16,1242,350-->
+In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2029-03-18,1244,350!2026-01-21,350,350!2029-01-15,1193,350!2025-12-29,331,350!2029-03-29,1251,350!2029-03-16,1242,350-->
 
 ```Python
 >>> import numpy as np

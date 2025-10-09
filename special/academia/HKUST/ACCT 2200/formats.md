@@ -506,7 +506,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\) <!--SR:!2027-01-21,516,401!2026-11-11,465,401-->
   - budget / row headers ::@:: Many items. A total at the end. Indent as needed. <!--SR:!2026-11-03,458,401!2027-02-09,531,401-->
   - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it. <!--SR:!2026-12-11,489,400!2026-11-20,472,401-->
-  - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year. <!--SR:!2025-10-28,134,400!2025-10-25,131,400-->
+  - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year. <!--SR:!2025-10-28,134,400!2027-10-11,716,420-->
 
 ## delayed cash receipts or payments
 
@@ -520,7 +520,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{sales in Feb}@}           | {@{&dollar;300<br/>\(&dollar;500×80%×75%\)}@}        | {@{&dollar;100<br/>\(&dollar;500×80%×25%\)}@}        |
 > | {@{sales in Mar}@}           | {@{&dollar;200<br/>\(&dollar;1&nbsp;000×20%\)}@}     | {@{&dollar;600<br/>\(&dollar;1&nbsp;000×80%×75%\)}@} |
 > | {@{sales in Apr}@}           |                                                      | {@{&dollar;500<br/>\(&dollar;2&nbsp;500×20%\)}@}     |
-> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2025-10-27,133,400!2027-09-21,699,420!2025-10-27,133,400!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2027-09-07,687,420!2025-10-25,131,400!2027-03-10,505,400!2027-09-12,691,420!2027-09-24,702,420!2025-10-29,135,400!2027-08-27,678,420!2027-10-09,715,420-->
+> | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             | <!--SR:!2027-08-14,667,420!2025-10-27,133,400!2027-09-21,699,420!2025-10-27,133,400!2027-08-26,677,420!2027-08-20,672,420!2027-08-12,665,420!2027-09-07,687,420!2027-10-13,718,420!2027-03-10,505,400!2027-09-12,691,420!2027-09-24,702,420!2025-10-29,135,400!2027-08-27,678,420!2027-10-09,715,420-->
 
 - delayed cash receipts or payments ::@:: column headers, row headers <!--SR:!2025-10-26,132,400!2025-10-28,134,400-->
   - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)... <!--SR:!2027-08-30,680,420!2027-09-27,704,420-->
@@ -538,7 +538,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{direct labor}@}                                   | {@{24 hrs per unit}@}   | {@{&dollar;25 per hr}@}   | {@{600.00}@}                |
 > | {@{variable overhead \(60% of direct labor cost\)}@} | {@{24 hrs per unit}@}   | {@{&dollar;15 per hr}@}   | {@{360.00}@}                |
 > | {@{fixed overhead \(&dollar;100/2 units\)}@}         |                         |                           | {@{50.00}@}                 |
-> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} | <!--SR:!2025-10-26,132,400!2027-09-29,706,420!2027-08-24,675,420!2027-08-19,671,420!2027-09-08,688,420!2027-09-18,696,420!2025-10-31,137,400!2025-11-01,138,400!2027-10-04,711,420!2027-09-01,682,420!2025-10-30,136,400!2025-10-28,134,400!2025-11-01,138,400!2025-10-30,136,400!2027-08-13,666,420!2027-08-18,670,420!2025-10-26,132,400!2027-08-25,676,420!2027-08-31,681,420!2025-10-25,131,400-->
+> | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} | <!--SR:!2025-10-26,132,400!2027-09-29,706,420!2027-08-24,675,420!2027-08-19,671,420!2027-09-08,688,420!2027-09-18,696,420!2025-10-31,137,400!2025-11-01,138,400!2027-10-04,711,420!2027-09-01,682,420!2025-10-30,136,400!2025-10-28,134,400!2025-11-01,138,400!2025-10-30,136,400!2027-08-13,666,420!2027-08-18,670,420!2025-10-26,132,400!2027-08-25,676,420!2027-08-31,681,420!2027-10-14,719,420-->
 
 - standard cost card ::@:: column headers, row headers <!--SR:!2025-10-30,136,400!2027-09-13,692,420-->
   - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2027-08-29,679,420!2025-10-29,135,400-->

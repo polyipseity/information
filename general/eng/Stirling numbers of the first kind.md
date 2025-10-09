@@ -101,7 +101,7 @@ Using {@{the [Kronecker delta](Kronecker%20delta.md)}@} one has, {@{$$\left[{n \
 > - choose {@{the five elements that go into the three-cycle and the two-cycle}@}, choose {@{the elements of the three-cycle}@} and take into account that {@{three elements generate two three-cycles}@}: {@{$${n \choose 5}{5 \choose 3}\times 2$$}@}
 > - choose {@{the four elements of the four-cycle}@} and take into account that {@{four elements generate six four-cycles}@}: {@{$${n \choose 4}\times 6.$$}@}
 >
-> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2025-10-25,279,330!2027-11-04,841,330!2028-02-05,901,330!2025-11-01,286,330!2025-11-26,306,330!2028-01-25,892,330!2025-11-17,256,270!2025-10-27,88,368!2026-11-11,393,388!2026-11-21,402,388!2025-10-25,86,368!2025-10-28,89,368!2026-11-22,403,388-->
+> {@{Sum the three contributions}@} to obtain {@{$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$}@} <!--SR:!2028-01-17,887,330!2029-04-17,1270,350!2027-11-04,841,330!2028-02-05,901,330!2025-11-01,286,330!2025-11-26,306,330!2028-01-25,892,330!2025-11-17,256,270!2025-10-27,88,368!2026-11-11,393,388!2026-11-21,402,388!2027-01-09,441,388!2025-10-28,89,368!2026-11-22,403,388-->
 
 Note that all the combinatorial proofs above {@{use either binomials or multinomials of $n$}@}. <!--SR:!2026-12-09,564,310-->
 

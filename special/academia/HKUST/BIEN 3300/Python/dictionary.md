@@ -24,7 +24,7 @@ The values can be {@{anything}@} while the keys can be {@{almost anything, as th
 
 ## lookup
 
-To lookup the value for a key, simply write {@{`dictionary[key]`}@}. To check whether a key is in a dictionary, use {@{the `in` operator: `key in dictionary`}@}. <!--SR:!2025-10-25,15,290!2025-10-25,15,290-->
+To lookup the value for a key, simply write {@{`dictionary[key]`}@}. To check whether a key is in a dictionary, use {@{the `in` operator: `key in dictionary`}@}. <!--SR:!2025-12-24,60,310!2025-12-26,62,310-->
 
 ## modification
 
@@ -32,4 +32,4 @@ To add a value for a key not yet in the dictionary or update the value for a key
 
 ## iteration
 
-You can iterate through the keys of a dictionary by {@{`for key in dictionary:` or `for key in dictionary.keys():`}@}. For values, do {@{`for value in dictionary.values():`}@}. For both, do {@{`for key, value in dictionary.items():`}@}. <!--SR:!2025-10-26,16,290!2025-10-25,15,290!2025-10-26,16,290-->
+You can iterate through the keys of a dictionary by {@{`for key in dictionary:` or `for key in dictionary.keys():`}@}. For values, do {@{`for value in dictionary.values():`}@}. For both, do {@{`for key, value in dictionary.items():`}@}. <!--SR:!2025-10-26,16,290!2025-12-27,63,310!2025-10-26,16,290-->

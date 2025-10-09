@@ -9,7 +9,7 @@ tags:
 
 # planetary system
 
-A __planetary system__ is {@{a set of [gravitationally](gravity.md) bound non-[stellar](star.md) objects in or out of [orbit](orbit.md) around a [star](star.md) or [star system](star%20system.md)}@}. <!--SR:!2025-10-25,329,290-->
+A __planetary system__ is {@{a set of [gravitationally](gravity.md) bound non-[stellar](star.md) objects in or out of [orbit](orbit.md) around a [star](star.md) or [star system](star%20system.md)}@}. <!--SR:!2028-06-01,950,290-->
 
 ## references
 

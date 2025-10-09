@@ -31,7 +31,7 @@ In most circumstances {@{the demand curve has a negative slope, and therefore sl
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-12-20,1162,350!2028-10-29,1121,350!2028-10-28,1120,350!2028-11-08,1128,350!2028-11-22,1140,350!2028-09-18,1087,350!2028-08-18,1062,350!2028-08-28,1070,350!2025-12-02,291,330-->
 
-The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-09-17,1087,350!2027-11-21,824,330!2025-10-25,261,330!2028-07-13,1033,350-->
+The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-09-17,1087,350!2027-11-21,824,330!2029-01-31,1194,350!2028-07-13,1033,350-->
 
 ### curvature
 

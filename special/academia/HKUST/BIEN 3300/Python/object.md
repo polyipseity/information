@@ -31,7 +31,7 @@ Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2025-10-
 name_object = Name(42)
 ```
 
-The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2025-10-25,15,290-->
+The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2025-12-24,60,310-->
 
 ## attribute
 
@@ -53,11 +53,11 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2025-10-26,16,290!2025-10-25,15,290-->
+It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2025-10-26,16,290!2025-12-23,59,310-->
 
 ### constructor
 
-A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!2025-10-25,15,290!2025-12-19,56,310-->
+A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!2025-12-27,63,310!2025-12-19,56,310-->
 
 ```Python
 def __init__(parameter_names):

@@ -44,7 +44,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::@:: \(c\_y\) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2027-09-15,717,244!2026-06-09,621,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::@:: \(c\_t\) Following as a result, inference, or natural effect. <!--SR:!2030-03-15,1793,412!2026-03-20,567,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2031-01-15,1967,370-->
-- [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->
+- [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2032-10-28,2560,416!2026-09-15,745,416-->
 - [deprecate](https://en.wiktionary.org/wiki/deprecate) ::@:: \(d_e\) To declare something obsolescent; to recommend against a function, technique, command, etc. that still works but has been replaced. <!--SR:!2026-03-14,157,429!2026-03-16,159,429-->
 - [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2026-03-15,158,429!2026-03-15,158,429-->
 - [depreciate](https://en.wiktionary.org/wiki/depreciate) ::@:: \(d_e\) To lessen in price or estimated value; to lower the worth of. <!--SR:!2026-03-16,159,429!2026-02-03,118,409-->

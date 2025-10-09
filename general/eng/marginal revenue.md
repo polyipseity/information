@@ -79,7 +79,7 @@ __Example 2:__ Suppose customers are {@{considering buying 10 computers}@}. If {
 
 ## law of diminishing marginal returns
 
-In {@{[microeconomics](microeconomics.md)}@}, for {@{every unit of input added to a firm}@}, {@{the return received decreases}@}. When {@{a variable factor of production is put into a firm at a constant level of technology}@}, {@{the initial increase in this factor of production will increase output}@}, but when {@{it exceeds a certain limit}@}, the increased output will {@{diminish and will eventually reduce output in absolute terms}@}.<sup>[\[32\]](#^ref-32)</sup> <!--SR:!2028-12-02,1157,357!2025-11-25,292,337!2025-11-24,291,337!2025-10-25,268,337!2025-12-15,308,337!2025-12-11,304,337!2025-12-11,304,337-->
+In {@{[microeconomics](microeconomics.md)}@}, for {@{every unit of input added to a firm}@}, {@{the return received decreases}@}. When {@{a variable factor of production is put into a firm at a constant level of technology}@}, {@{the initial increase in this factor of production will increase output}@}, but when {@{it exceeds a certain limit}@}, the increased output will {@{diminish and will eventually reduce output in absolute terms}@}.<sup>[\[32\]](#^ref-32)</sup> <!--SR:!2028-12-02,1157,357!2025-11-25,292,337!2025-11-24,291,337!2029-03-26,1248,357!2025-12-15,308,337!2025-12-11,304,337!2025-12-11,304,337-->
 
 ## law of increasing marginal returns
 
@@ -87,7 +87,7 @@ In contrast to {@{the law of diminishing marginal returns}@}, in {@{a knowledge-
 
 ## marginal revenue and markup pricing
 
-Profit maximization requires that {@{a firm produces where marginal revenue equals marginal costs}@}. Firm managers are {@{unlikely to have complete information concerning their marginal revenue function or their marginal costs}@}. However, the profit maximization conditions can be {@{expressed in a "more easily applicable form"}@}: <!--SR:!2028-04-28,955,337!2025-10-25,268,337!2025-12-07,300,337-->
+Profit maximization requires that {@{a firm produces where marginal revenue equals marginal costs}@}. Firm managers are {@{unlikely to have complete information concerning their marginal revenue function or their marginal costs}@}. However, the profit maximization conditions can be {@{expressed in a "more easily applicable form"}@}: <!--SR:!2028-04-28,955,337!2026-03-11,137,317!2025-12-07,300,337-->
 
 MR = MC, <br/>
 MR = P(1 + 1/e), <br/>

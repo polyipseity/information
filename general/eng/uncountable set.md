@@ -26,7 +26,7 @@ There are {@{many equivalent characterizations of uncountability}@}. A set _X_ i
 
 ## properties
 
-- If an uncountable set _X_ is a subset of set _Y_, ::@:: then _Y_ is uncountable. <!--SR:!2026-01-07,294,330!2025-10-25,234,330-->
+- If an uncountable set _X_ is a subset of set _Y_, ::@:: then _Y_ is uncountable. <!--SR:!2026-01-07,294,330!2028-09-26,1067,350-->
 
 ## examples
 

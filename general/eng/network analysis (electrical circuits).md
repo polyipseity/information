@@ -119,7 +119,7 @@ For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of th
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2025-12-09,201,329!2026-06-09,352,349!2026-01-29,244,330!2026-07-18,386,360!2026-02-09,254,330!2026-06-29,369,360-->
 
 - [Norton's theorem](Norton's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal current generator and a parallel impedance. <!--SR:!2026-05-20,333,349!2026-06-23,365,360-->
-- [Thévenin's theorem](Thévenin's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal voltage generator plus a series impedance. <!--SR:!2026-06-15,324,290!2025-10-25,163,320-->
+- [Thévenin's theorem](Thévenin's%20theorem.md) ::@:: states that any two-terminal linear network can be reduced to an ideal voltage generator plus a series impedance. <!--SR:!2026-06-15,324,290!2027-10-21,726,340-->
 
 ## simple networks
 

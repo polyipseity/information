@@ -40,7 +40,7 @@ The cheatsheet is provided during the final examination.
 - `+` ::@:: addition <!--SR:!2029-04-16,1278,350!2029-04-29,1287,350-->
 - `-` ::@:: subtraction <!--SR:!2029-04-04,1268,350!2029-03-14,1252,350-->
 - `*` ::@:: multiplication <!--SR:!2029-02-05,1222,350!2029-04-25,1283,350-->
-- `**` ::@:: to the power of <!--SR:!2029-04-05,1269,350!2025-10-25,287,330-->
+- `**` ::@:: to the power of <!--SR:!2029-04-05,1269,350!2029-05-28,1311,350-->
 - `/` ::@:: division <!--SR:!2029-02-09,1225,350!2029-04-26,1283,350-->
 - `//` ::@:: floor division <!--SR:!2029-03-11,1248,350!2029-03-15,1253,350-->
 - `%` ::@:: mod <!--SR:!2029-01-31,1218,350!2029-02-02,1220,350-->
@@ -76,7 +76,7 @@ The cheatsheet is provided during the final examination.
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2029-02-26,1239,350!2029-03-08,1246,350-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2029-02-16,1229,350!2025-10-29,290,330-->
 - `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2029-03-27,1262,350!2029-03-01,1241,350-->
-- `range()` ::@:: create a number sequence starting from zero <!--SR:!2029-04-13,1276,350!2025-10-25,286,330-->
+- `range()` ::@:: create a number sequence starting from zero <!--SR:!2029-04-13,1276,350!2029-05-17,1300,350-->
 
 ## relational operators
 
@@ -123,4 +123,4 @@ while True:
 
 ## random function
 
-- `random.randint(a, b)` ::@:: return a number between `a` and `b` <!--SR:!2029-02-27,1238,350!2025-10-25,286,330-->
+- `random.randint(a, b)` ::@:: return a number between `a` and `b` <!--SR:!2029-02-27,1238,350!2029-05-18,1301,350-->

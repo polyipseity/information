@@ -41,7 +41,7 @@ SonicVisualiser supports {@{many pitch detection algorithms}@}. <!--SR:!2025-10-
 
 ### plugins \(SonicVisualiser\)
 
-SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}. <!--SR:!2027-02-10,475,395!2025-10-25,94,375-->
+SonicVisualiser supports {@{many plugins to perform many extra functions}@}, which can be downloaded from {@{<https://vamp-plugins.org/>}@}. <!--SR:!2027-02-10,475,395!2027-02-24,487,395-->
 
 ## sms-tools
 
@@ -61,4 +61,4 @@ Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its 
 
 ### advanced search
 
-Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@} <!--SR:!2025-10-25,94,375!2027-02-21,485,395-->
+Freesound supports {@{advanced search features}@}, e.g. {@{geo-tagging, similar sounds, etc.}@} <!--SR:!2027-02-22,485,395!2027-02-21,485,395-->

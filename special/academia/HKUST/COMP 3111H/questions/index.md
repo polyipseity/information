@@ -42,7 +42,7 @@ tags:
 > ---
 >
 > - solution: {@{`Student 0..50 -EnrollsIn- 0..5 Course`. Add notes next to the multiplicities to indicate the minimum counts instead.}@}
-> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no _natural_ way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2025-10-25,15,290!2025-10-25,15,290-->
+> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no _natural_ way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2025-12-27,63,310!2025-12-26,62,310-->
 
 ---
 
@@ -55,7 +55,7 @@ tags:
 > ---
 >
 > - solution: {@{1. `Customer 1 -Makes- * Shipment` <br/> 2. `Shipment 1 -Contains- 1..* Package` <br/> 3. `Shipment * -SentTo- 1 City`}@}
-> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-10-25,15,290!2025-12-20,57,310-->
+> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2025-12-08,44,290!2025-12-20,57,310-->
 
 ---
 

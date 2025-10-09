@@ -198,7 +198,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
-- image ::@:: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2027-02-03,806,416!2025-10-25,421,396-->
+- image ::@:: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2027-02-03,806,416!2026-05-19,206,376-->
 
 ## John Hancock Center
 

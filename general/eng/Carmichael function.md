@@ -67,7 +67,7 @@ We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Eu
 
 ### divisibility
 
-(divisibility) ::@:: $$a\,|\,b\Rightarrow \lambda (a)\,|\,\lambda (b)$$ <!--SR:!2026-02-23,333,341!2025-10-25,234,330-->
+(divisibility) ::@:: $$a\,|\,b\Rightarrow \lambda (a)\,|\,\lambda (b)$$ <!--SR:!2026-02-23,333,341!2028-09-23,1064,350-->
 
 __Proof.__
 

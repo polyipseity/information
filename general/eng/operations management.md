@@ -291,7 +291,7 @@ In this context problems of {@{[scheduling \(sequencing of production\)](schedul
 {@{The two-card kanban procedure}@} differs a bit: <!--SR:!2025-12-19,245,330-->
 
 - (annotation: two-card kanban) The downstream operator ::@:: takes the production kanban from his list <!--SR:!2027-06-16,602,310!2026-11-22,488,310-->
-- (annotation: two-card kanban) If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card <!--SR:!2027-12-15,797,330!2025-10-25,196,310-->
+- (annotation: two-card kanban) If required parts are available ::@:: he removes the move kanban and places them in another box, otherwise he chooses another production card <!--SR:!2027-12-15,797,330!2028-02-19,847,330-->
 - (annotation: two-card kanban; if required parts are available and the move kanban is removed) ::@:: He produces the part and attach its respective production kanban <!--SR:!2026-06-12,353,290!2026-06-13,354,290-->
 - (annotation: two-card kanban) Periodically a mover ::@:: picks up the move kanbans in upstream stations and search for the respective parts, when found he exchanges production kanbans for move kanbans and move the parts to downstream stations <!--SR:!2026-05-23,339,290!2025-10-27,182,270-->
 

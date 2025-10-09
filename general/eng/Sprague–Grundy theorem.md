@@ -58,7 +58,7 @@ While {@{the word _nim_<!-- markdown separator -->ber comes from the game _nim_}
 
 ### combining games
 
-Two games can be {@{combined by ___adding___ their positions together}@}. For example, consider {@{another game of nim with heaps $A'$, $B'$, and $C'$}@}. <!--SR:!2025-10-25,234,330!2027-11-06,801,330-->
+Two games can be {@{combined by ___adding___ their positions together}@}. For example, consider {@{another game of nim with heaps $A'$, $B'$, and $C'$}@}. <!--SR:!2028-09-29,1070,350!2027-11-06,801,330-->
 
 #### example game 2
 

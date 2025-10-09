@@ -79,7 +79,7 @@ By convention in {@{the context of [supply and demand](supply%20and%20demand.md)
 
 {@{The market supply curve}@} is {@{the horizontal summation of firm supply curves}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2028-10-21,1115,350!2025-11-22,286,330-->
 
-The market supply curve can be translated into {@{an equation}@}. For {@{a factor j}@} for example the market supply function is {@{$$S_{j}=S^{j}(p,r)$$}@} where {@{$S_{j}=\sum _{k=1}^{j}S_{jk}$ and $S^{j}(p,r)=\sum _{k=1}^{j}S^{jk}(p,r)$ for all p \> 0 and r \> 0}@}. <!--SR:!2025-10-25,262,330!2027-10-22,813,330!2025-11-18,283,330!2026-06-22,386,290-->
+The market supply curve can be translated into {@{an equation}@}. For {@{a factor j}@} for example the market supply function is {@{$$S_{j}=S^{j}(p,r)$$}@} where {@{$S_{j}=\sum _{k=1}^{j}S_{jk}$ and $S^{j}(p,r)=\sum _{k=1}^{j}S^{jk}(p,r)$ for all p \> 0 and r \> 0}@}. <!--SR:!2029-01-30,1193,350!2027-10-22,813,330!2025-11-18,283,330!2026-06-22,386,290-->
 
 Note: not all assumptions that can be made for individual supply functions ::@:: translate over to market supply functions directly. <!--SR:!2028-03-07,909,330!2025-11-11,277,330-->
 

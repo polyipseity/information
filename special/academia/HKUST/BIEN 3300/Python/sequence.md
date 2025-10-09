@@ -9,7 +9,7 @@ tags:
 
 # Python sequence
 
-Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!2025-10-25,15,290-->
+Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!2025-12-23,59,310-->
 
 ## string
 
@@ -19,7 +19,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 ## list
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-12-19,56,310!2025-12-21,58,310!2025-10-25,15,290!2025-10-29,18,329!2025-10-29,18,329-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`}@}, like {@{`[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item \(but not if there are no items, i.e. `[,]` is invalid\)}@}. Note that a list can {@{contain items of different types \(including lists\)}@} like the example just now, though usually it is {@{more useful for them to be of the same type}@}. <!--SR:!2025-12-19,56,310!2025-12-21,58,310!2025-12-25,61,310!2025-10-29,18,329!2025-10-29,18,329-->
 
 ## length
 
@@ -27,7 +27,7 @@ To define a list in Python, {@{enclose all items in square brackets `[]` and sep
 
 ## indexing
 
-To {@{access or replace the n-th item}@}, simply write {@{`sequence[n-1]`}@}: <!--SR:!2025-10-25,15,290!2025-10-25,15,290-->
+To {@{access or replace the n-th item}@}, simply write {@{`sequence[n-1]`}@}: <!--SR:!2025-12-26,62,310!2025-12-24,60,310-->
 
 ```Python
 assert "asd"[2] == "d"
@@ -41,7 +41,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-One can obtain subsequences, i.e. smaller sequences, via {@{slicing}@}. To obtain a subsequence from the a-th item to the b-th item, write {@{`sequence[a-1:b]`}@}: <!--SR:!2025-10-25,15,290!2025-10-25,15,290-->
+One can obtain subsequences, i.e. smaller sequences, via {@{slicing}@}. To obtain a subsequence from the a-th item to the b-th item, write {@{`sequence[a-1:b]`}@}: <!--SR:!2025-12-23,59,310!2025-12-26,62,310-->
 
 ```Python
 assert "asd"[1:3] == 'sd'
@@ -49,7 +49,7 @@ assert [39, "omg", 'asd', 3.4][1:2] == ['omg']
 assert "asd"[1:1] == ""
 ```
 
-Slicing also accepts {@{negative indices, in which case the meaning is still the same as that for indexing}@}. Slicing also allows {@{omitting one or both indices}@}. {@{Omitting the starting point}@} means {@{the starting point is the first element, i.e. `0`}@} \(or if {@{step is negative, then the last element, i.e. `len(sequence) - 1`}@}\). {@{Omitting the ending point}@} means {@{the ending point is after the last element, i.e. `len(sequence)`}@} \(or if {@{step is negative, then before the first element, i.e. `-len(sequence) - 1`}@}\): <!--SR:!2025-10-25,15,290!2025-10-26,16,290!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306-->
+Slicing also accepts {@{negative indices, in which case the meaning is still the same as that for indexing}@}. Slicing also allows {@{omitting one or both indices}@}. {@{Omitting the starting point}@} means {@{the starting point is the first element, i.e. `0`}@} \(or if {@{step is negative, then the last element, i.e. `len(sequence) - 1`}@}\). {@{Omitting the ending point}@} means {@{the ending point is after the last element, i.e. `len(sequence)`}@} \(or if {@{step is negative, then before the first element, i.e. `-len(sequence) - 1`}@}\): <!--SR:!2025-12-25,61,310!2025-10-26,16,290!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306!2025-10-27,17,306-->
 
 ```Python
 assert "asd"[:2] = "as"
@@ -57,7 +57,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {@{a third parameter called step}@}. When omitted, it is {@{by default 1}@}. It determines {@{how many items to move forward after slicing an element}@}, and hence called step. For example, setting step to 3 means {@{every third element is sliced starting from the starting point}@}. Negative steps are also allowed, which simply means {@{going backwards}@}. Here are some more examples: <!--SR:!2025-10-26,16,290!2025-12-20,57,310!2025-12-21,58,310!2025-10-25,15,290!2025-10-25,15,290-->
+Lastly, slicing accepts {@{a third parameter called step}@}. When omitted, it is {@{by default 1}@}. It determines {@{how many items to move forward after slicing an element}@}, and hence called step. For example, setting step to 3 means {@{every third element is sliced starting from the starting point}@}. Negative steps are also allowed, which simply means {@{going backwards}@}. Here are some more examples: <!--SR:!2025-10-26,16,290!2025-12-20,57,310!2025-12-21,58,310!2025-12-24,60,310!2025-12-27,63,310-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"
@@ -66,7 +66,7 @@ assert 'abcdefg'[::-1] == 'gfedcba'
 assert "abcdefg"[:0:-1] == "gfedcb"
 ```
 
-If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2025-10-25,15,290!2025-12-20,57,310!2025-10-26,16,290!2025-12-18,55,310!2025-10-29,18,329!2025-10-29,18,329-->
+If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is positive or negative}@}\), then {@{an `IndexError` will be raised}@}. For {@{slicing \(but not indexing\)}@}, {@{no errors will be thrown}@}, and the slicing range is {@{truncated to be within the sequence range}@}. <!--SR:!2025-12-25,61,310!2025-12-20,57,310!2025-10-26,16,290!2025-12-18,55,310!2025-10-29,18,329!2025-10-29,18,329-->
 
 ## concatenation
 
@@ -86,7 +86,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-12-19,56,310!2025-10-26,16,290!2025-10-25,15,290!2025-11-28,39,290!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
+Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So {@{any operation you have done on strings}@} {@{does not change the original string itself}@}, and {@{reassigning to the variable}@} is {@{the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list}@}. Compare using {@{`+` and `append` to extend a list}@}: <!--SR:!2025-12-19,56,310!2025-10-26,16,290!2025-12-27,63,310!2025-11-28,39,290!2025-10-27,17,306!2025-10-29,18,329!2025-10-29,18,329!2025-10-29,18,329-->
 
 ```Python
 original = [1, 2, 3]
