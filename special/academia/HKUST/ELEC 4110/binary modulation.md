@@ -19,7 +19,7 @@ tags:
 {@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where  
 
 - $A>0$ ::@:: is the pulse amplitude, and
-- $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised‑cosine pulse). Here, we assume it is simply a rectangular pulse lasting for symbol time $T$.
+- $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised‑cosine pulse). Here, we assume it is simply a unit rectangular pulse lasting for symbol time $T$.
 
 {@{The transmitted signal}@} is thus {@{$$s_k(t) = \pm A\,p(t), \qquad 0 \le t < T \,.$$}@} {@{The channel}@} adds {@{white Gaussian noise $n(t)$ to the waveform}@}, yielding {@{the received continuous‑time signal}@} {@{$$r(t)= s_k(t)+ n(t).   \tag{1}$$}@} Here {@{$n(t)$}@} is {@{a __Gaussian process__ with zero mean}@} and {@{autocorrelation function}@} {@{$$R_n(t_1, t_2)=E\{n(t_1) n(t_2)\}= \frac{N_0}{2}\,\delta(t_1 - t_2),$$}@} where {@{$N_0/2$}@} is {@{the two‑sided power spectral density of the noise}@}.
 
@@ -70,7 +70,7 @@ $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$
 
 In {@{a binary antipodal system}@}, {@{the probability of error}@} is governed by {@{the tail probability of a Gaussian distribution}@}; hence it {@{decays exponentially with the ratio}@} {@{$\frac{2 A^2T}{N_0} = \frac{2 E_b}{N_0}$}@}. Because {@{the noise variance}@} scales {@{linearly with the symbol duration $T$}@}, {@{longer symbols}@} provide {@{more averaging and reduce $\sigma^2_{n_T}$}@}, improving {@{reliability}@}.
 
-Mathematically, for {@{a fixed energy per bit \(E_b\)}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}.  
+Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}.  
 
 ## signal energy
 

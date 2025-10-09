@@ -59,7 +59,7 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand‑alone_ Scala appli
 
 - __Parameters__ ::@:: – Each parameter corresponds to a command‑line argument.
 - __Automatic conversion__ ::@:: – Argument types are inferred from the function signature (e.g., `String`, `Int`).
-- __Invocation__ ::@:: – Compile and run with `scala birthday Peter 11`.
+- __Invocation__ ::@:: – Compile and run with `scala birthday <name> <age>`.
 
 {@{The annotated function}@} automatically generates {@{a `main` method}@}, {@{eliminating boilerplate}@}.
 
@@ -154,8 +154,10 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 > val intList   = singleton(1)      // inferred as List[Int]
 > val boolList  = singleton(true)   // inferred as List[Boolean]
 > ```
+>
+> The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}.
 
-The compiler infers {@{`T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}.
+The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}.
 
 Inference is {@{not always possible}@}; if a function has {@{multiple polymorphic parameters whose types are interdependent}@} or if {@{no arguments provide enough information}@}, the programmer must {@{specify the type explicitly}@}. However, for {@{most common patterns—especially single‑parameter generic functions}@}—the compiler can {@{resolve the type without assistance}@}.
 
@@ -167,7 +169,7 @@ Thus, {@{Scala's type inference}@} seamlessly blends with {@{its generics featur
 
 {@{Subtyping polymorphism}@} is realized when {@{a value of a subtype can be used wherever its supertype is expected}@}, as in treating {@{a `NonEmpty` set where an `IntSet` is required}@}. It captures {@{"is‑a" relationships}@}.
 
-{@{Generic classes and methods}@} achieve {@{parametric polymorphism}@}: {@{`def assertAllPos[S <: IntSet](s: S): S = …`}@} accepts {@{any subtype of `IntSet`}@} and returns {@{the same concrete subtype}@}. {@{Generics (or type parameters)}@} allow us to write {@{code that works uniformly over any type within type bounds}@}.
+{@{Generic classes and methods}@} achieve {@{parametric polymorphism}@}: {@{`def assertAllPos[S <: IntSet](s: S): S = ...`}@} accepts {@{any subtype of `IntSet`}@} and returns {@{the same concrete subtype}@}. {@{Generics (or type parameters)}@} allow us to write {@{code that works uniformly over any type within type bounds}@}.
 
 ### type parameters
 
@@ -230,7 +232,7 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 
 #### type bounds
 
-{@{_Upper bounds_}@} constrain {@{a type variable to be a subtype of some type}@}: {@{`[S <: IntSet]`}@}. Conversely, {@{_lower bounds_}@} restrict the variable to be {@{a supertype of a given type: `[S >: NonEmpty]`}@}. {@{Mixed bounds}@} {@{combine both}@}, e.g. {@{`[S >: NonEmpty <: IntSet]`}@}, which narrows `S` to {@{any type between `NonEmpty` and `IntSet`}@}. These bounds are crucial when we want the compiler to {@{infer the most precise return type or to enforce safe substitutions}@}.
+{@{_Upper bounds_ `<:`}@} constrain {@{a type variable to be a subtype of some type}@}: {@{`[S <: IntSet]`}@}. Conversely, {@{_lower bounds_ `>:` \(_not_ `:>`\)}@} restrict the variable to be {@{a supertype of a given type: `[S >: NonEmpty]`}@}. {@{Mixed bounds}@} {@{combine both}@}, e.g. {@{`[S >: NonEmpty <: IntSet]` \(first _lower_ bound then _upper_ bound\)}@}, which narrows `S` to {@{any type between `NonEmpty` and `IntSet`}@}. These bounds are crucial when we want the compiler to {@{infer the most precise return type or to enforce safe substitutions}@}.
 
 > [!example] __example__
 >
@@ -260,7 +262,7 @@ Scala lets us annotate {@{variance explicitly}@}:
 
 {@{A type constructor `D[T]`}@} is {@{_contravariant_ (`-T`)}@} if {@{for all types `A <: B`, we have `D[B] <: D[A]` \(note `A` and `B` are reversed\)}@}. This is less intuitive but arises naturally in {@{function types and certain consumer roles}@}. For example, a {@{comparator that can compare any `IntSet`}@} can also compare {@{specifically `NonEmpty` sets}@}, hence {@{`Comparator[IntSet] <: Comparator[NonEmpty]`}@}. Contravariance is safe for {@{types that only consume values of type `T` (e.g., function parameters)}@}. It is unsafe for {@{types that produce values of type `T`}@}.
 
-{@{A type constructor `E[T]`}@} is {@{_invariant_ (no prefix)}@} if {@{neither covariance nor contravariance holds}@}. This is {@{the default}@} and safest choice when {@{neither relationship is appropriate}@}. Invariance is common for {@{mutable collections that both produce and consume elements}@}, as {@{mixing subtypes and supertypes}@} could lead to {@{type errors}@}. For {@{a bad example}@}, see {@{Java arrays \(not Scala arrays\), which are covariant _inappropriately_}@}.
+{@{A type constructor `E[T]`}@} is {@{_invariant_ (no prefix)}@} if {@{neither covariance nor contravariance holds}@}. This is {@{the default}@} and safest choice when {@{neither relationship is appropriate}@}. Invariance is common for {@{mutable collections that both produce and consume elements}@}, as {@{mixing subtypes and supertypes}@} could lead to {@{type errors}@}. For {@{a bad example}@}, see {@{Java arrays \(not Scala arrays\), which are covariant but _inappropriately_ so}@}.
 
 ##### variance pitfalls
 
@@ -287,6 +289,98 @@ Consider {@{covariance}@}: if {@{`C[+T]` is covariant}@}, then {@{`C[A] <: C[B]`
 Consider {@{contravariance}@}: if {@{`C[-T]` is contravariant}@}, then {@{`C[B] <: C[A]` for `A <: B`}@}. If `C[T]` had {@{a method that returns a `T`}@}, then `C[B]` would have {@{a method that returns a `B`}@}. However, since {@{`A <: B`}@}, this method could be {@{expected to return an `A`}@}, which violates the expectation that {@{`C[B]` only produces `B`}@}. Thus, allowing {@{contravariant types to appear in output positions}@} would also {@{break substitutability}@}.
 
 By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime errors}@}.
+
+##### variance and inheritance
+
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}:
+
+> [!example] __hierarchy__
+>
+> {@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}:
+>
+> ```Scala
+> trait Parent[+T]                                              // covariant in T
+> case class ChildInvariant[T](v: T)         extends Parent[T]
+> case class ChildCovariant[+T](v: T)        extends Parent[T]
+> // case class ChildContravariant[-T](v: T) extends Parent[T]  // ❌ compilation error
+> ```
+
+We see:
+
+- `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`.
+- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation).  
+- `ChildCovariant[+T]` ::@:: redeclares the same type parameter as _covariant_.
+- `ChildContravariant[-T]` ::@:: causes compilation error.
+
+Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}:
+
+> [!example] __assigning concrete instances of subclasses to a covariant parent__
+>
+> Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}:
+>
+> ```Scala
+> // without explicit type arguments – the compiler infers them
+> val p1: Parent[Any] = ChildInvariant(1)
+> val p2: Parent[Any] = ChildCovariant(1)
+> // with explicit type arguments
+> val q1: Parent[Any] = ChildInvariant[Int](1)
+> val q2: Parent[Any] = ChildCovariant[Int](1)
+> ```
+>
+> {@{All assignments}@} {@{compile}@}.  
+
+{@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}.
+
+Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}:
+
+> [!example] __assigning concrete instances of subclasses to itself__
+>
+> Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}:
+>
+> ```Scala
+> // no explicit type arguments – inference again
+> val ci1: ChildInvariant[Any] = ChildInvariant(1)
+> val cc1: ChildCovariant[Any] = ChildCovariant(1)
+> // explicit type arguments
+> val ci2: ChildInvariant[Any] = ChildInvariant[Int](1)  // ❌ compilation error
+> val cc2: ChildCovariant[Any] = ChildCovariant[Int](1)  // ✔ compiles
+> ```
+>
+> {@{The compiler}@} rejects {@{the second last line}@}:
+>
+> ```text
+> type mismatch;
+>  found   : ChildInvariant[Int]
+>  required: ChildInvariant[Any]
+> Note: Int <: Any, but class ChildInvariant is invariant in type T.
+> You may wish to define T as +T instead. (SLS 4.5)
+> ```
+
+{@{The compiler}@} rejects {@{the second last line}@}. {@{`ChildInvariant`}@} is {@{invariant in its own `T`}@}; therefore {@{`ChildInvariant[Int]`}@} is {@{_not_ a subtype of `ChildInvariant[Any]`}@}. In contrast, because {@{`ChildCovariant`}@} is {@{covariant in its own `T`}@}, {@{the assignment}@} follows {@{the same rule as with `Parent`}@}.
+
+Attempting to {@{declare a contravariant child}@} results in {@{a compilation error}@}:
+
+> [!example] __declaring a contravariant child__
+>
+> Attempting to {@{declare a contravariant child}@}:
+>
+> ```Scala
+> case class ChildContravariant[-T](v: T) extends Parent[T]
+> ```
+>
+> results in {@{a compilation error}@}:
+>
+> ```text
+> contravariant type T occurs in covariant position in type [-T]AnyRef
+> ```
+
+{@{The problem}@} is that {@{the `Parent` trait}@} declares {@{its own type parameter as _covariant_ (`+T`)}@}. {@{A child class}@} cannot make {@{the same type parameter contravariant}@} because that would place {@{a contravariant occurrence in a covariant context}@}, violating {@{Scala's variance safety rules}@}. To intuitively see this, if {@{contravariance were allowed here}@}, then {@{`ChildContravariant[Any] <: ChildContravariant[Int] <: Parent[Int]`}@}, implying {@{`ChildContravariant[Any] <: Parent[Int]`}@} which is {@{forbidden as `Any >: Int`}@}. The same holds for {@{a covariant occurrence \(child type parameter\) in a contravariant context \(parent type parameter\)}@}.
+
+To {@{summarize}@}: \(annotation: 3 items: {@{variance of supertype, variance of subtype, opposite variances}@}\)
+
+- variance of supertype ::@:: Subclass variance does not alter the covariance of its supertype when assigning to the superclass type.
+- variance of subtype ::@:: Subtyping of subclass instances depends on the subclass's own variance annotation; invariant subclasses forbid widening assignments, while covariant ones permit them.
+- opposite variances ::@:: Contravariance cannot be combined with a covariant position \(and vice versa for covariance\) in the same class hierarchy, as the language forbids it to maintain type‑soundness.
 
 ## classes
 
@@ -454,7 +548,7 @@ Unlike {@{ordinary classes}@}, {@{case classes}@} automatically generate {@{stru
 
 By placing {@{the case classes inside a companion object (`Expr`)}@} we keep {@{the global namespace uncluttered}@}; construction then takes {@{the form `Expr.Number(1)` instead of a bare `Number(1)`}@}. {@{A convenient import (`import Expr.*`)}@} restores {@{the shorter syntax when desired}@}. Such structures are known as {@{__algebraic data types__ (ADTs)}@}, {@{a staple of functional programming}@} that combine {@{product and sum types}@} to describe {@{complex data in a concise, type‑safe manner}@}.
 
-Scala's {@{__enumeration__ (`enum`) construct}@} offers {@{an even more compact notation for ADTs}@} whose {@{variants do not share a common superclass}@}. {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as:
+Scala's {@{__enumeration__ \(`enum`\) construct}@} offers {@{an even more compact notation for ADTs}@} whose variants do not {@{need to share a common superclass}@}. {@{The expression hierarchy}@} for {@{arithmetic expressions above}@} can be rewritten as:
 
 > [!example] __example__
 >
@@ -497,11 +591,11 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 >   case Red, Green, Blue
 > ```
 
-{@{Pattern matching}@} treats {@{these cases as constants}@} as {@{they start with capital letters}@}:
+{@{Pattern matching}@} treats {@{these enumeration cases as constants}@} as {@{they start with capital letters}@}:
 
 > [!example] __example__
 >
-> {@{Pattern matching}@} treats {@{these cases as constants}@} as {@{they start with capital letters}@}:
+> {@{Pattern matching}@} treats {@{these enumeration cases as constants}@} as {@{they start with capital letters}@}:
 >
 > ```Scala
 > enum DayOfWeek:
@@ -514,7 +608,7 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 
 Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}:
 
-> ![example] __example__
+> [!example] __example__
 >
 > {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}:
 >
@@ -602,10 +696,10 @@ Scala permits {@{a class and an object}@} to {@{share the same name}@} when {@{d
 
 Properties of companion objects:
 
-- __Separate namespaces__ ::@:: – Types reside in the _type_ namespace; values (including objects) reside in the _term_ namespace.
-- __Mutual access__ ::@:: – A companion object can access private members of its class and vice versa.
-- __Static‑like behaviour__ ::@:: – Since Scala lacks Java's `static` keyword, companion objects serve the same purpose for grouping utility functions or constants related to a class.
-  - Static‑like behaviour / __Factory methods__ ::@:: – Companion objects often provide convenient constructors, analogous to static factory methods in Java (`IntSet.singleton`).
+- separate namespaces ::@:: – Types reside in the _type_ namespace; values (including objects) reside in the _term_ namespace.
+- mutual access ::@:: – A companion object can access private members of its class and vice versa.
+- static‑like behavior ::@:: – Since Scala lacks Java's `static` keyword, companion objects serve the same purpose for grouping utility functions or constants related to a class.
+  - static‑like behavior / factory methods ::@:: – Companion objects often provide convenient constructors, analogous to static factory methods in Java (`IntSet.singleton`).
 
 Together, {@{singleton objects and companions}@} give Scala {@{concise, type‑safe mechanisms}@} for {@{representing unique values and packaging helper functionality}@} without resorting to {@{mutable global state}@}.
 
@@ -636,7 +730,7 @@ While {@{Scala classes}@} can {@{extend at most one superclass}@}, they may {@{m
 > While {@{Scala classes}@} can {@{extend at most one superclass}@}, they may {@{mix in any number of traits}@}:
 >
 > ```Scala
-> class Square extends Shape with Planar with Movable { /* … */ }
+> class Square extends Shape with Planar with Movable { /* ... */ }
 > ```
 
 Here `Square` inherits from {@{the concrete class}@} `Shape` and incorporates {@{the contracts and implementations}@} of `Planar` and `Movable`. {@{The order of mixing}@} matters because {@{trait linearization}@} determines {@{which implementation is used when multiple traits provide the same member}@}.
@@ -777,7 +871,7 @@ To {@{enforce exhaustive matching}@}, Scala allows {@{the __sealed__ modifier on
 > case class Sum(left: Expr, right: Expr) extends Expr
 > ```
 >
-> With {@{this sealed hierarchy}@}, {@{the previous incomplete `eval` definition}@} will {@{no longer compile}@}; the compiler reports {@{a missing case for `Number`}@}.
+> With {@{this sealed hierarchy}@}, {@{the previous incomplete `eval` definition}@} will {@{_still_ compile but with a _warning_}@}; the compiler reports {@{a missing case for `Number`}@}.
 
 {@{Pattern matching}@} can also be {@{embedded directly in type definitions}@}. For example, {@{adding an `eval` method to the base trait}@} leverages {@{pattern matching internally}@}:
 
@@ -844,7 +938,7 @@ For‑expressions also support {@{pattern matching in _generator_ positions}@}. 
 >
 > {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}.
 
-Here, {@{the `case` prefixes}@} act as {@{guards that keep only those elements matching the specified pattern}@}.
+Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}.
 
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}.
 
@@ -1002,7 +1096,7 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 
 and {@{a nested generator}@}:
 
-> ![example] __rewriting `for` nested generators=__
+> [!example] __rewriting `for` nested generators__
 >
 > and {@{a nested generator}@}:
 >
@@ -1424,7 +1518,7 @@ Scala _conceptually_ treats {@{the familiar types `scala.Int` and `scala.Boolean
 >   def ifThenElse[T](t: => T, e: => T): T
 >   def &&(x: => Boolean): Boolean = ifThenElse(x, false)
 >   def ||(x: => Boolean): Boolean = ifThenElse(true, x)
->   // … other logical operators …
+>   // ... other logical operators ...
 > }
 > ```
 >
@@ -1463,7 +1557,7 @@ This construction shows that {@{the logical connectives}@} are {@{merely methods
 >   def <<(cnt: Int):   Int       // also >>, >>> *
 >   def &(that: Long):  Long
 >   def &(that: Int):   Int       // also |, ^
->   // comparison operators …
+>   // comparison operators ...
 > }
 > ```
 >
@@ -1475,16 +1569,16 @@ For example, to represent {@{nonnegative integers without using `scala.Int`}@}, 
 
 #### functions as objects
 
-In Scala {@{every value is an object}@}, and this extends to {@{first‑class functions}@}. {@{A function from a type `A` to a type `B`}@} is represented by {@{the _function class_ `scala.Function1[A, B]`}@}. {@{The arrow notation (`=>`)}@} is merely {@{syntactic sugar for this trait}@}:
+In Scala {@{every value is an object}@}, and this extends to {@{first‑class functions}@}. {@{A function from a type `T1` to a type `R`}@} is represented by {@{the _function class_ `scala.Function1[-T1, +R]`}@}. {@{The arrow notation (`=>`)}@} is merely {@{syntactic sugar for this trait}@}:
 
 > [!example] __example__
 >
-> {@{A function from a type `A` to a type `B`}@} is represented by {@{the _function class_ `scala.Function1[A, B]`}@}. {@{The arrow notation (`=>`)}@} is merely {@{syntactic sugar for this trait}@}:
+> {@{A function from a type `T1` to a type `R`}@} is represented by {@{the _function class_ `scala.Function1[-T1, +R]`}@}. {@{The arrow notation (`=>`)}@} is merely {@{syntactic sugar for this trait}@}:
 >
 > ```Scala
 > package scala
-> trait Function1[-A, +B] {
->   def apply(x: A): B
+> trait Function1[-T1, +R] {
+>   def apply(x: T1): R
 > }
 > ```
 
@@ -1498,7 +1592,7 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 > f.apply(a, b)
 > ```
 
-{@{Additional arity‑specific traits}@}—{@{`Function2`, `Function3`, and so forth}@}—are defined {@{analogously for functions that take more parameters}@}.
+{@{Additional arity‑specific traits}@}—{@{`Function2[-T1, -T2, +R]`, `Function3[-T1, -T2, -T3, +R]`, and so forth}@}—are defined {@{analogously for functions that take more parameters}@}.
 
 {@{An anonymous lambda}@} such as {@{`(x: Int) => x * x`}@} is translated {@{by the compiler into an instance of the appropriate function trait}@}:
 
@@ -1514,7 +1608,7 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 
 {@{This generated class}@} can itself be viewed as {@{a local anonymous class defined inside a block}@}:
 
-> [!example] _-example__
+> [!example] __example__
 >
 > {@{This generated class}@} can itself be viewed as {@{a local anonymous class defined inside a block}@}:
 >

@@ -50,7 +50,7 @@ tags:
 > }
 > ```
 
-{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to \(N \times N\)}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}.
+{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}.
 
 ### merge sort
 
