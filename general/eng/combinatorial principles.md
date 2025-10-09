@@ -19,13 +19,13 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: [rule of sum](addition%20principle.md)
 
-The rule of sum is {@{an intuitive principle}@} stating that if {@{there are _a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing), and the two events cannot both occur (or the two things can't both be done)}@}, then {@{there are _a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md) is equal to the size of their union}@}.
+{@{The rule of sum}@} is {@{an intuitive principle}@} stating that if there are {@{_a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing)}@}, and {@{the two events cannot both occur (or the two things can't both be done)}@}, then there are {@{_a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md)}@} is equal to {@{the size of their union}@}.
 
 ## rule of product
 
 - see: [rule of product](rule%20of%20product.md)
 
-The rule of product is {@{another intuitive principle}@} stating that if {@{there are _a_ ways to do something and _b_ ways to do another thing}@}, then {@{there are _a_ · _b_ ways to do both things}@}.
+{@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}.
 
 ## inclusion–exclusion principle
 

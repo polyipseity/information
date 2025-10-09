@@ -48,7 +48,7 @@ tags:
 
 > Fill in the missing multiplicities using _common sense_
 >
-> 1. `Customer ? -Makes- ? Shi[ment`
+> 1. `Customer ? -Makes- ? Shipment`
 > 2. `Shipment ? -Contains- ? Package`
 > 3. `Shipment ? -SentTo- ? City`
 >

@@ -92,7 +92,7 @@ The phrase "adjustment costs" {@{gained significance in macroeconomic studies}@}
 
 ### economic profit versus accounting profit
 
-The main objective of accounting profits is to {@{give an account of a company's fiscal performance, typically reported on in quarters and annually}@}. As such, accounting principles focus on {@{tangible and measurable factors associated with operating a business such as wages and rent}@}, and thus, {@{do not "infer anything about relative economic profitability"}@}.<sup>[\[14\]](#^ref-14)</sup> Opportunity costs are {@{not considered in accounting profits as they have no purpose in this regard}@}.
+{@{The main objective of accounting profits}@} is to give {@{an account of a company's fiscal performance, typically reported on in quarters and annually}@}. As such, {@{accounting principles}@} focus on {@{tangible and measurable factors associated with operating a business}@} such as {@{wages and rent}@}, and thus, do not {@{"infer anything about relative economic profitability"}@}.<sup>[\[14\]](#^ref-14)</sup> Opportunity costs are {@{not considered in accounting profits}@} as they have {@{no purpose in this regard}@}.
 
 The purpose of {@{calculating economic profits (and thus, opportunity costs)}@} is to {@{aid in better business decision-making through the inclusion of opportunity costs}@}. In this way, a business can {@{evaluate whether its decision and the allocation of its resources is cost-effective or not}@} and {@{whether resources should be reallocated}@}.<sup>[\[15\]](#^ref-15)</sup>
 

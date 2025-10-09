@@ -175,7 +175,7 @@ At {@{time $T$}@} the investor can {@{reverse the trades that were executed at t
 
 {@{The sum of the inflows in 1.' and 2.'}@} equals {@{$F_{t,T}-S_{t}e^{r(T-t)}$}@}, which {@{by hypothesis, is positive}@}. This is {@{an arbitrage profit}@}. Consequently, and assuming that {@{the non-arbitrage condition holds}@}, we have {@{a contradiction}@}. This is called {@{a cash and carry arbitrage}@} because you {@{"carry" the asset until maturity}@}.
 
-__Case 2:__ Suppose that {@{$F_{t,T}<S_{t}e^{r(T-t)}$}@}. Then an investor can do {@{the reverse of what he has done above in case 1}@}. This means {@{selling one unit of the asset}@}, {@{investing this money into a bank account}@} and {@{entering a long forward contract costing 0}@}.
+__Case 2:__ Suppose that {@{$F_{t,T}<S_{t}e^{r(T-t)}$}@}. Then an investor can do {@{the reverse of what he has done above in case 1}@}. This means {@{selling one unit of the asset \(annotation: borrowing the asset first if unowned\)}@}, {@{investing this money into a bank account}@} and {@{entering a long forward contract costing 0}@}.
 
 Note: if you look at {@{the [convenience yield](convenience%20yield.md) page}@}, you will see that if {@{there are finite assets/inventory}@}, {@{the reverse cash and carry arbitrage}@} is {@{not always possible}@}. It would depend on {@{the elasticity of demand for forward contracts and such like}@}.
 

@@ -335,7 +335,7 @@ If {@{a sentence φ evaluates to _true_}@} under {@{a given interpretation _M_}@
 
 ### algebraizations
 
-{@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways of eliminating quantified variables}@} from first-order logic that {@{do not involve replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\)
+{@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways}@} of eliminating {@{quantified variables from first-order logic}@} that do not involve {@{replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\)
 
 - [Cylindric algebra](cylindric%20algebra.md), ::@:: by [Alfred Tarski](Alfred%20Tarski.md), et al.;
 - [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md);

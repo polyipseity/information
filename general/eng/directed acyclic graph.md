@@ -69,7 +69,7 @@ A [graph](graph%20(discrete%20mathematics).md) is formed by {@{[vertices](vertex
 
 ### combinatorial enumeration
 
-{@{The [graph enumeration](graph%20enumeration.md) problem of counting directed acyclic graphs}@} was studied by {@{[Robinson \(1973\)](#CITEREFRobinson1973)}@}.<sup>[\[11\]](#^ref-11)</sup> {@{The number of DAGs on _n_ labeled vertices, for _n_ = 0, 1, 2, 3, … \(without restrictions on the order in which these numbers appear in a topological ordering of the DAG\)}@} is
+{@{The [graph enumeration](graph%20enumeration.md) problem of counting directed acyclic graphs}@} was studied by {@{[Robinson \(1973\)](#CITEREFRobinson1973)}@}.<sup>[\[11\]](#^ref-11)</sup> {@{The number of DAGs on _n_ labeled vertices}@}, for {@{_n_ = 0, 1, 2, 3, …}@} \(without restrictions on {@{the order in which these numbers appear in a topological ordering of the DAG}@}\) is
 
 > 1, 1, 3, 25, 543, 29281, 3781503, … \(sequence [A003024](https://oeis.org/A003024) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\).
 
