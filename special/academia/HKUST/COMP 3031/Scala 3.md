@@ -157,8 +157,7 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 > val boolList  = singleton(true)   // inferred as List[Boolean]
 > ```
 >
-> The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}.
-<!--SR:!2025-10-14,5,380!2025-10-14,5,389!2025-10-14,5,389-->
+> The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}. <!--SR:!2025-10-14,5,380!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,400!2025-10-14,5,400-->
 
 The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. <!--SR:!2025-10-13,4,355!2025-10-14,5,389!2025-10-14,5,380!2025-10-14,5,380!2025-10-14,5,380-->
 
@@ -232,8 +231,7 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 > val boolList  = singleton[Boolean](true) // List[Boolean]
 > ```
 >
-> {@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}.
-<!--SR:!2025-10-14,5,389-->
+> {@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}. <!--SR:!2025-10-14,5,389!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
 {@{The compiler}@} infers {@{the appropriate type parameter in most cases}@}, but it can be {@{supplied explicitly when desired}@}. <!--SR:!2025-10-14,5,380!2025-10-14,5,389!2025-10-14,5,380-->
 
@@ -300,7 +298,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 
 ##### variance and inheritance
 
-{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}:
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations on their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
 > [!example] __hierarchy__
 >
@@ -312,15 +310,16 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 > case class ChildCovariant[+T](v: T)        extends Parent[T]
 > // case class ChildContravariant[-T](v: T) extends Parent[T]  // ❌ compilation error
 > ```
+<!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
 We see:
 
-- `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`.
-- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation).  
-- `ChildCovariant[+T]` ::@:: redeclares the same type parameter as _covariant_.
-- `ChildContravariant[-T]` ::@:: causes compilation error.
+- `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`. <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
+- `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation). <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
+- `ChildCovariant[+T]` ::@:: redeclares the same type parameter as _covariant_. <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
+- `ChildContravariant[-T]` ::@:: causes compilation error. <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
-Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}:
+Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant parent}@}: <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
 > [!example] __assigning concrete instances of subclasses to a covariant parent__
 >
@@ -335,11 +334,11 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant pare
 > val q2: Parent[Any] = ChildCovariant[Int](1)
 > ```
 >
-> {@{All assignments}@} {@{compile}@}.  
+> {@{All assignments}@} {@{compile}@}. <!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->  
 
-{@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}.
+{@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}. <!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
-Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}:
+Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}: <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
 > [!example] __assigning concrete instances of subclasses to itself__
 >
@@ -363,10 +362,11 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}:
 > Note: Int <: Any, but class ChildInvariant is invariant in type T.
 > You may wish to define T as +T instead. (SLS 4.5)
 > ```
+<!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
-{@{The compiler}@} rejects {@{the second last line}@}. {@{`ChildInvariant`}@} is {@{invariant in its own `T`}@}; therefore {@{`ChildInvariant[Int]`}@} is {@{_not_ a subtype of `ChildInvariant[Any]`}@}. In contrast, because {@{`ChildCovariant`}@} is {@{covariant in its own `T`}@}, {@{the assignment}@} follows {@{the same rule as with `Parent`}@}.
+{@{The compiler}@} rejects {@{the second last line}@}. {@{`ChildInvariant`}@} is {@{invariant in its own `T`}@}; therefore {@{`ChildInvariant[Int]`}@} is {@{_not_ a subtype of `ChildInvariant[Any]`}@}. In contrast, because {@{`ChildCovariant`}@} is {@{covariant in its own `T`}@}, {@{the assignment}@} follows {@{the same rule as with `Parent`}@}. <!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
-Attempting to {@{declare a contravariant child}@} results in {@{a compilation error}@}:
+Attempting to {@{declare a contravariant child}@} results in {@{a compilation error}@}: <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
 > [!example] __declaring a contravariant child__
 >
@@ -381,14 +381,15 @@ Attempting to {@{declare a contravariant child}@} results in {@{a compilation er
 > ```text
 > contravariant type T occurs in covariant position in type [-T]AnyRef
 > ```
+<!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
-{@{The problem}@} is that {@{the `Parent` trait}@} declares {@{its own type parameter as _covariant_ (`+T`)}@}. {@{A child class}@} cannot make {@{the same type parameter contravariant}@} because that would place {@{a contravariant occurrence in a covariant context}@}, violating {@{Scala's variance safety rules}@}. To intuitively see this, if {@{contravariance were allowed here}@}, then {@{`ChildContravariant[Any] <: ChildContravariant[Int] <: Parent[Int]`}@}, implying {@{`ChildContravariant[Any] <: Parent[Int]`}@} which is {@{forbidden as `Any >: Int`}@}. The same holds for {@{a covariant occurrence \(child type parameter\) in a contravariant context \(parent type parameter\)}@}.
+{@{The problem}@} is that {@{the `Parent` trait}@} declares {@{its own type parameter as _covariant_ (`+T`)}@}. {@{A child class}@} cannot make {@{the same type parameter contravariant}@} because that would place {@{a contravariant occurrence in a covariant context}@}, violating {@{Scala's variance safety rules}@}. To intuitively see this, if {@{contravariance were allowed here}@}, then {@{`ChildContravariant[Any] <: ChildContravariant[Int] <: Parent[Int]`}@}, implying {@{`ChildContravariant[Any] <: Parent[Int]`}@} which is {@{forbidden as `Any >: Int`}@}. The same holds for {@{a covariant occurrence \(child type parameter\) in a contravariant context \(parent type parameter\)}@}. <!--SR:!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
-To {@{summarize}@}: \(annotation: 3 items: {@{variance of supertype, variance of subtype, opposite variances}@}\)
+To {@{summarize}@}: \(annotation: 3 items: {@{variance of supertype, variance of subtype, opposite variances}@}\) <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
-- variance of supertype ::@:: Subclass variance does not alter the covariance of its supertype when assigning to the superclass type.
-- variance of subtype ::@:: Subtyping of subclass instances depends on the subclass's own variance annotation; invariant subclasses forbid widening assignments, while covariant ones permit them.
-- opposite variances ::@:: Contravariance cannot be combined with a covariant position \(and vice versa for covariance\) in the same class hierarchy, as the language forbids it to maintain type‑soundness.
+- variance of supertype ::@:: Subclass variance does not alter the covariance of its supertype when assigning to the superclass type. <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
+- variance of subtype ::@:: Subtyping of subclass instances depends on the subclass's own variance annotation; invariant subclasses forbid widening assignments, while covariant ones permit them. <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
+- opposite variances ::@:: Contravariance cannot be combined with a covariant position \(and vice versa for covariance\) in the same class hierarchy, as the language forbids it to maintain type‑soundness. <!--SR:!2025-10-14,5,400!2025-10-14,5,400-->
 
 ## classes
 
@@ -606,7 +607,7 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 > enum Color:
 >   case Red, Green, Blue
 > ```
-<!--SR:!2025-10-14,5,389-->
+<!--SR:!2025-10-14,5,389!2025-10-14,5,400!2025-10-14,5,400-->
 
 {@{Pattern matching}@} treats {@{these enumeration cases as constants}@} as {@{they start with capital letters}@}: <!--SR:!2025-10-14,5,389!2025-10-14,5,380!2025-10-14,5,389-->
 
@@ -967,7 +968,7 @@ For‑expressions also support {@{pattern matching in _generator_ positions}@}. 
 >
 > {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}. <!--SR:!2025-10-14,5,380!2025-10-14,5,380!2025-10-14,5,389!2025-10-14,5,389-->
 
-Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2025-10-14,5,389!2025-10-10,1,340-->
+Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2025-10-14,5,389!2025-10-10,1,340!2025-10-14,5,400-->
 
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}. <!--SR:!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,375!2025-10-14,5,380!2025-10-14,5,389-->
 
@@ -1631,7 +1632,7 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 > ```
 <!--SR:!2025-10-14,5,380!2025-10-14,5,375!2025-10-14,5,380!2025-10-14,5,380-->
 
-{@{The single abstract method `apply`}@} makes the function {@{callable with the familiar parentheses syntax}@}. It can also be used to {@{make any type, even non-function types, callable}@}. {@{A function application}@} {@{`f(a, b)`}@} becomes: <!--SR:!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,389-->
+{@{The single abstract method `apply`}@} makes the function {@{callable with the familiar parentheses syntax}@}. It can also be used to {@{make any type, even non-function types, callable}@}. {@{A function application}@} {@{`f(a, b)`}@} becomes: <!--SR:!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,400-->
 
 > [!example] __function application__
 >
@@ -1640,7 +1641,7 @@ In Scala {@{every value is an object}@}, and this extends to {@{first‑class fu
 > ```Scala
 > f.apply(a, b)
 > ```
-<!--SR:!2025-10-14,5,389!2025-10-14,5,389-->
+<!--SR:!2025-10-14,5,389!2025-10-14,5,389!2025-10-14,5,400!2025-10-14,5,400!2025-10-14,5,400-->
 
 {@{Additional arity‑specific traits}@}—{@{`Function2[-T1, -T2, +R]`, `Function3[-T1, -T2, -T3, +R]`, and so forth}@}—are defined {@{analogously for functions that take more parameters}@}. <!--SR:!2025-10-14,5,389!2025-10-14,5,380!2025-10-14,5,389-->
 
