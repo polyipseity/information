@@ -52,7 +52,7 @@ tags:
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to \(N \times N\)}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+{@{The worst‑case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub‑list}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### merge sort
 

@@ -27,11 +27,11 @@ tags:
 
 ## list
 
-In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __list construction__
 >
-> A list {@{containing the elements _x₁, …, xₙ_}@} is written {@{`List(x₁, …, xₙ)`}@}. Typical examples include
+> A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include
 >
 > ```Scala
 > val fruits = List("apples", "oranges", "pears")
@@ -57,7 +57,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{The basic list API}@} exposes {@{three core methods}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
+{@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 - `head`, ::@:: which returns the first element; <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 - `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
@@ -65,7 +65,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non‑empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, …, pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non‑empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
@@ -117,7 +117,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head`}@}, {@{the tail by `.tail`}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __list decomposition__
 >
@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last`, `.init` and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out‑of‑range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.lasat`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out‑of‑range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
@@ -316,9 +316,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >
 > In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}. <!--SR:!2025-10-13,4,290!2025-10-13,4,290!2025-10-12,3,270!2025-10-13,4,290!2025-10-13,4,290-->
 
-In {@{the return type of `pack`}@}, {@{`::[T]`}@} is used to {@{represent _nonempty_ lists}@}.
-
-Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
+In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __`pack` example__
 >
@@ -330,7 +328,7 @@ Using {@{`pack`}@}, {@{a run‑length encoder \(RLE\)}@} is obtained: <!--SR:!20
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe}@} to {@{call `ys.head`}@}. <!--SR:!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 ### reduce
 
@@ -341,7 +339,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 > {@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}:
 >
 > ```Scala
-> List(x1, …, xn).reduceLeft((x, y) => x.op(y))
+> List(x1, ..., xn).reduceLeft((x, y) => x.op(y))
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
@@ -356,23 +354,24 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2025-10-13,4,270!2025
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{`reduceLeft`}@} does not {@{support empty lists}@}. {@{`foldLeft`}@} generalises `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value, and returned for the empty list}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __`foldLeft`__
 >
-> {@{`reduceLeft`}@} does not {@{support empty lists}@}. {@{`foldLeft`}@} generalises {@{`reduceLeft` by supplying an initial accumulator `z`}@} that is {@{used as a starting value, and returned for the empty list}@}:
+> {@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}.
 >
 > ```Scala
 > def sum(xs: List[Int]) = xs.foldLeft(0)(_ + _)
 > def product(xs: List[Int]) = xs.foldLeft(1)(_ * _)
+> def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  # `String` is not a subtype of `Int`
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-{@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
+{@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __`reduceRight`, `foldRight`__
 >
-> {@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@}:
+> {@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}:
 >
 > ```Scala
 > def concat[T](xs: List[T], ys: List[T]): List[T] =
@@ -403,9 +402,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2025-10-13,4,270!2025
 >
 > {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2025-10-13,4,290!2025-10-12,3,270!2025-10-13,4,290!2025-10-13,4,290-->
 
-{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}.
-
-For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __`foldLeft` example__
 >
@@ -419,7 +416,7 @@ For {@{an example of `foldLeft`}@}, {@{a linear‑time reverse}@} is obtained by
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly‑linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing the whole prefix of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32‑element blocks}@}; this design gives {@{roughly logarithmic‑time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+In Scala, {@{`List`}@} is {@{a singly‑linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32‑element blocks}@}; this design gives {@{roughly logarithmic‑time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!2025-10-13,4,270-->
 
@@ -440,7 +437,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 ## Java sequences
 
-{@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]`}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+{@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]` or `Seq[Char]` respectively}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
 > [!example] __Java sequence examples__
 >
@@ -543,6 +540,7 @@ Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} a
 > Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}:
 >
 > ```Scala
+> val capitalOfCountry = Map("US" -> "Washington", "Switzerland" -> "Bern")
 > capitalOfCountry("US")  // returns "Washington"
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
@@ -554,6 +552,7 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 > Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuchElementException`}@}; {@{safer access}@} is provided by {@{the `get` method}@} which {@{returns an `Option[Value]`}@}.
 >
 > ```Scala
+> val capitalOfCountry = Map("US" -> "Washington", "Switzerland" -> "Bern")
 > def showCapital(country: String) =
 >   capitalOfCountry.get(country) match {
 >     case Some(capital) => capital

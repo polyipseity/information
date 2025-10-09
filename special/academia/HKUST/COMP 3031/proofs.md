@@ -57,7 +57,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-- base cases ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
+- inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 - induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub‑trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
 The proof is typically structured as {@{a base case (leaves)}@} followed by {@{an inductive step for each node constructor}@}. The technique guarantees that {@{any property established in this way}@} holds for {@{all trees, no matter how deeply nested}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
@@ -177,7 +177,7 @@ Define {@{list reversal}@} recursively: <!--SR:!2025-10-13,4,270-->
 
 We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reverse.reverse = xs`}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
-> [!example] __proof__
+> [!example] __proof: part 1__
 >
 > {@{__Base case (`xs = Nil`).__}@} {@{`Nil.reverse.reverse`}@} reduces to {@{`Nil`, matching the right‑hand side}@}.
 >
@@ -196,6 +196,12 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 > x :: xs1
 >   = x :: xs1.reverse.reverse  // by inductive hypothesis
 > ```
+>
+> At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __proof: part 2__
 >
 > At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}. In particular, we see {@{the sub-expression `xs1.reverse` appears in both terms}@}. We must introduce {@{an auxiliary lemma replacing the common sub-expression by a new symbol `ys`}@}:
 >
@@ -271,7 +277,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 <!-- markdownlint MD028 -->
 
-> [!example] __proving insertion guarantees presence__
+> [!example] __proving insertion guarantees presence: base case__
 >
 > {@{Base}@}: for {@{an empty tree}@},
 >
@@ -280,6 +286,10 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 >
 > which evaluates to {@{`true` \(RHS\) by the definition of `NonEmpty.contains`}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __proving non‑insertion preserves membership: inductive step__
 >
 > {@{Inductive step}@}: assume {@{$P(s)$ holds for a subtree $s$}@}; we must show it for {@{`NonEmpty(elem, l, r)`}@}. That is,
 >
@@ -295,7 +305,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 <!-- markdownlint MD028 -->
 
-> [!example] __proving non‑insertion preserves membership__
+> [!example] __proving non‑insertion preserves membership: base case__
 >
 > The proof {@{mirrors law 2}@} but keeps {@{track of a distinct element $y$}@}.
 >
@@ -306,6 +316,10 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 >
 > which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __proving non‑insertion preserves membership: inductive step__
 >
 > {@{Inductive step}@}: consider {@{`NonEmpty(elem, l, r)`}@} and assume {@{$y \neq x$}@}. We need to show:
 >
@@ -345,17 +359,17 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 {@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!2025-10-13,4,270!2025-10-13,4,270-->
 
-> {!example} __`IntSet.union` property__
+> [!example] __`IntSet.union` property__
 >
 > {@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}:
 >
 > For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
+The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
-> [!example] __`IntSet.union` property proof__
+> [!example] __`IntSet.union` property proof: part 1__
 >
-> The proof proceeds by {@{structural induction}@} on {@{the first argument `x`}@}. The proof is {@{rather difficult}@}; see above.
+> The proof proceeds by {@{structural induction}@} on {@{the first argument `x`}@}. The proof is {@{rather difficult}@}; see {@{the previous paragraph}@}.
 >
 > {@{_Base:_}@} if {@{`x` is `Empty`}@}, then {@{`union` returns `y`}@}; membership reduces to {@{`y.contains(e)`}@}. The right hand side {@{reduces to the same expression}@} because {@{`x.contains(e)` evaluates to `false`}@}.
 >
@@ -369,10 +383,25 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 >
 > - If {@{`z == e`}@}, then {@{both sides easily reduce to `true`}@}.
 > - If {@{`z != e`}@}, then the above can be reduced to {@{`l.union(r.union(y)).contains(e)`}@} by that {@{non-insertion preserves membership}@}. Then apply {@{the inductive hypothesis twice}@}: {@{`l.contains(e) || r.union(y).contains(e)`, and then `l.contains(e) || r.contains(e) || y.contains(e)`}@}. Extracting {@{common subexpressions}@}, what remains to show is that {@{`l.contains(e) || r.contains(e) == NonEmpty(z, l, r).contains(e)`}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __`IntSet.union` property proof: part 2__
 >
 > To prove {@{the above assuming `z != e`}@}, {@{split cases on `z > e` and `z < e`}@}.
 >
-> - If {@{`z > e`}@}, then {@{RHS reduces to `l.contains(e)`}@}. We need to show {@{`r.contains(e)` is `false` to reduce LHS to the same expression}@}. This requires {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. {@{This restriction is required}@} because {@{`NonEmpty(z, l, r)` is not necessarily a BST}@} if it is {@{directly constructed from arbitrarily trees `l` and `r`}@}. <p> First we observe that {@{`incl` does not change the element in the root node}@}. So the only way to {@{obtain a `NonEmpty(z, l, r)`}@} is by {@{starting with `Empty.incl(z) == NonEmpty(z, Empty, Empty)`}@}. We can perform {@{another induction}@}, starting with {@{`NonEmpty(z, Empty, Empty)` and _exclusively_ using `incl` to build up the `IntSet`}@}: base case is {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}. Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.
+> - If {@{`z > e`}@}, then {@{RHS reduces to `l.contains(e)`}@}. We need to show {@{`r.contains(e)` is `false` to reduce LHS to the same expression}@}. This requires {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. See {@{the part below}@}.
 > - If {@{`z < e`}@}, the proof is {@{analogous}@}.
+
+<!-- markdownlint MD028 -->
+
+> [!example] __`IntSet.union` property proof: part 3__
+>
+> We need to prove {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. {@{This restriction is required}@} because {@{`NonEmpty(z, l, r)` is not necessarily a BST}@} if it is {@{directly constructed from arbitrarily trees `l` and `r`}@}.
+>
+> First we observe that {@{`incl` does not change the element in the root node}@}. So the only way to {@{obtain a `NonEmpty(z, l, r)`}@} is by {@{starting with `Empty.incl(z) == NonEmpty(z, Empty, Empty)`}@}. We can perform {@{another induction}@}, starting with {@{`NonEmpty(z, Empty, Empty)` and _exclusively_ using `incl` to build up the `IntSet`}@}
+>
+> - {@{_Base case_}@}: Consider {@{`NonEmpty(z, Empty, Empty).contains(e)`}@}, which {@{clearly satisfies `r.contains(e) == False`}@}.
+> - {@{_Inductive step_}@}: Then, no matter {@{what the `x` in `incl(x)` is}@}, we only have {@{`NonEmpty(z, l, r.incl(x))` when `x > z`}@}. Then {@{`r.incl(x).contains(e) == r.contains(e) == false`}@} since {@{`x > z > e` and by induction hypothesis `r.contains(e) == false`}@}.
 >
 > This {@{finishes the proof}@}. <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-12,3,250!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->

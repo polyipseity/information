@@ -28,7 +28,7 @@ tags:
 > Prior to the era of {@{smartphone predictive‑text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as
 >
 > ```Scala
-> val mnemonics = Map('2' -> "ABC", '3' -> "DEF", /* … */ '9' -> "WXYZ")
+> val mnemonics = Map('2' -> "ABC", '3' -> "DEF", /* ... */ '9' -> "WXYZ")
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
 
@@ -44,7 +44,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 >
 > ```Scala
 > class Coder(words: List[String]):
->   val mnemonics = Map(/* … same mapping as above … */)
+>   val mnemonics = Map(/* ... same mapping as above ... */)
 >   /* ... */
 > ```
 <!--SR:!2025-10-13,4,270!2025-10-13,4,270!2025-10-13,4,270-->
